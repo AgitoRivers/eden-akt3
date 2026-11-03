@@ -1,0 +1,92 @@
+{
+ "bibi_hell_1": {
+  "lufs": -19.3,
+  "dauer": 42.3,
+  "band_8_10k_db": -20.1
+ },
+ "bibi_hell_2": {
+  "lufs": -18.4,
+  "dauer": 44.6,
+  "band_8_10k_db": -23.5
+ },
+ "bibi_hell_3": {
+  "lufs": -20.0,
+  "dauer": 43.5,
+  "band_8_10k_db": -24.5
+ },
+ "bibi_r2_frech_1": {
+  "lufs": -22.4,
+  "dauer": 50.1,
+  "band_8_10k_db": -13.6
+ },
+ "bibi_r2_frech_2": {
+  "lufs": -19.5,
+  "dauer": 42.0,
+  "band_8_10k_db": -18.0
+ },
+ "bibi_r2_frech_3": {
+  "lufs": -18.4,
+  "dauer": 45.2,
+  "band_8_10k_db": -20.4
+ },
+ "bibi_r2_gleich_1": {
+  "lufs": -21.7,
+  "dauer": 41.8,
+  "band_8_10k_db": -16.4
+ },
+ "bibi_r2_gleich_2": {
+  "lufs": -19.3,
+  "dauer": 40.0,
+  "band_8_10k_db": -19.9
+ },
+ "bibi_r2_gleich_3": {
+  "lufs": -19.3,
+  "dauer": 41.2,
+  "band_8_10k_db": -22.2
+ },
+ "bibi_r2_schnell_1": {
+  "lufs": -18.5,
+  "dauer": 40.0,
+  "band_8_10k_db": -20.4
+ },
+ "bibi_r2_schnell_2": {
+  "lufs": -18.5,
+  "dauer": 41.5,
+  "band_8_10k_db": -21.0
+ },
+ "bibi_r2_schnell_3": {
+  "lufs": -19.0,
+  "dauer": 44.4,
+  "band_8_10k_db": -24.3
+ },
+ "bibi_rauch_1": {
+  "lufs": -16.7,
+  "dauer": 44.9,
+  "band_8_10k_db": -18.5
+ },
+ "bibi_rauch_2": {
+  "lufs": -19.3,
+  "dauer": 40.4,
+  "band_8_10k_db": -20.1
+ },
+ "bibi_rauch_3": {
+  "lufs": -19.8,
+  "dauer": 46.1,
+  "band_8_10k_db": -20.9
+ },
+ "bibi_warm_1": {
+  "lufs": -21.0,
+  "dauer": 45.1,
+  "band_8_10k_db": -14.6
+ },
+ "bibi_warm_2": {
+  "lufs": -19.2,
+  "dauer": 42.4,
+  "band_8_10k_db": -21.6
+ },
+ "bibi_warm_3": {
+  "lufs": -18.4,
+  "dauer": 52.0,
+  "band_8_10k_db": -23.6
+ }
+}

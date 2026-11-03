@@ -1,0 +1,170 @@
+/* Gathering at rest sites (28.10.2026) - Deck Glass Noir tokens from client/index.html, layout like eden-angeln */
+body.abbau-modus #dock, body.abbau-modus #chat, body.abbau-modus #chatauf, body.abbau-modus #zeitpille, body.abbau-modus #schiff,
+body.abbau-modus #relkarte, body.abbau-modus #figuren, body.abbau-modus #mitte, body.abbau-modus #toast, body.abbau-modus #vmeldung{visibility:hidden}
+#abbau{position:fixed;inset:0;z-index:75;color:var(--perle);user-select:none;-webkit-user-select:none;overflow:hidden}
+#abbau .eb-hinter{position:absolute;inset:-12px;background:center/cover no-repeat;filter:blur(3px) brightness(.62) saturate(.9);transform:scale(1.02)}
+#abbau .eb-vignette{position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(ellipse at 50% 62%,rgba(7,8,11,0) 28%,rgba(7,8,11,.6) 82%),linear-gradient(180deg,rgba(7,8,11,.5),rgba(7,8,11,0) 22%,rgba(7,8,11,0) 70%,rgba(7,8,11,.75))}
+#abbau kbd{font:var(--t-mini) var(--f-zahl);padding:1px var(--a15);border:1px solid var(--linie-n);border-radius:var(--r-taste);background:rgba(7,8,11,.35)}
+#abbau.beben{animation:ebBeben .26s linear}
+@keyframes ebBeben{0%,100%{transform:none}20%{transform:translate(-5px,2px)}45%{transform:translate(4px,-3px)}70%{transform:translate(-3px,1px)}}
+
+/* Mending during the siege (01.11.2026): boards appear with every good blow, until there is a picture */
+.eb-bauwerk{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:min(46vw,620px);display:flex;flex-direction:column;gap:var(--a2)}
+.eb-bauwerk i{display:block;height:64px;border-radius:var(--r-fein);background:var(--akz);border:1px dashed var(--linie-n);opacity:.12;transform:translateY(-14px);transition:opacity .16s,transform .16s}
+.eb-bauwerk i.an{opacity:1;transform:none;border-style:solid}
+.eb-bauwerk.kirche i{background:var(--perle-dim)}
+
+/* header */
+.eb-kopf{position:absolute;left:var(--rand);right:var(--rand);top:var(--rand);display:flex;align-items:center;gap:var(--a45);padding:var(--a25) var(--a35) var(--a25) var(--a4);border-radius:var(--r-karte);z-index:3}
+.eb-ort small{display:block;font-size:var(--t-mini);letter-spacing:.18em;text-transform:uppercase;color:var(--perle-dim)}
+.eb-ort b{font:700 var(--t-gross) var(--f-name);color:var(--akz)}
+.eb-knotenreihe{display:flex;gap:var(--a2);margin-left:auto}
+.eb-kn{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;font-size:var(--t-text);border:1px solid var(--linie-n);background:rgba(243,238,228,.05);transition:all .25s}
+.eb-kn.jetzt{border-color:var(--akz);box-shadow:0 0 0 3px rgba(216,189,134,.18)}
+.eb-kn.fertig{background:rgba(216,189,134,.16);border-color:var(--akz)}
+.eb-kn.perfekt{box-shadow:0 0 12px rgba(216,189,134,.55)}
+.eb-beute{display:flex;gap:var(--a3);margin-right:auto}
+.eb-roh{display:flex;align-items:center;gap:var(--a1);font-size:var(--t-klein);color:var(--perle-leise);padding:var(--pille);border-radius:var(--r-rund);border:1px solid var(--linie-n);background:rgba(243,238,228,.04)}
+.eb-roh i{font-style:normal}
+.eb-roh b{font-family:var(--f-zahl);color:var(--perle)}
+.eb-roh em{font-style:normal;color:var(--gut);font-family:var(--f-zahl);font-size:var(--t-klein)}
+.eb-roh.neu{border-color:rgba(168,213,177,.45)}
+.eb-werkzeug{display:flex;align-items:center;gap:var(--a2)}
+.eb-werkzeug img{width:40px;height:40px;border-radius:var(--r-taste);object-fit:cover;border:1px solid var(--linie)}
+.eb-werkzeug b{display:block;font-size:var(--t-info)}
+.eb-werkzeug small{color:var(--perle-dim);font-size:var(--t-mini)}
+.eb-knopf{border:1px solid var(--linie-n);background:rgba(243,238,228,.06);border-radius:var(--r-rund);padding:var(--pille-gross);font-size:var(--t-klein);color:var(--perle)}
+.eb-knopf:hover{border-color:var(--akz)}
+
+/* stage: the tree or rock, centred, standing on the lower third */
+.eb-buehne{position:absolute;inset:0;z-index:1;cursor:pointer}
+.eb-sprite{position:absolute;left:50%;bottom:9vh;transform:translateX(-50%);max-width:46vw;filter:drop-shadow(0 18px 24px rgba(0,0,0,.55));pointer-events:none}
+.eb-sprite.baum{height:76vh;transform-origin:50% 100%}
+.eb-sprite.fels{height:46vh;bottom:12vh}
+.eb-sprite.rein{animation:ebRein .45s cubic-bezier(.2,.8,.2,1)}
+@keyframes ebRein{from{opacity:0;transform:translateX(calc(-50% + 90px))}to{opacity:1;transform:translateX(-50%)}}
+.eb-sprite.hieb{animation:ebHieb .22s ease-out}
+@keyframes ebHieb{0%{transform:translateX(-50%)}30%{transform:translateX(calc(-50% + 7px)) rotate(.6deg)}60%{transform:translateX(calc(-50% - 4px)) rotate(-.4deg)}100%{transform:translateX(-50%)}}
+.eb-sprite.baum.faellt{animation:ebFall 1.25s cubic-bezier(.55,0,.85,.4) forwards}
+/* Cork oak (30.10.2026): the bark collapses at the foot, the tree stays and fades only to make room for the next one */
+.eb-sprite.baum.eb-rinde{animation:ebRinde 1.1s cubic-bezier(.5,.05,.85,.5) forwards}
+@keyframes ebRinde{0%{transform:translateX(-50%)}12%{transform:translateX(-50%) translateY(.4vh) rotate(.5deg)}72%{transform:translateX(-50%) translateY(1.5vh) scaleY(.3);opacity:1}100%{transform:translateX(-50%) translateY(1.5vh) scaleY(.22);opacity:0}}
+.eb-sprite.baum.steht{animation:ebSteht .5s ease .95s forwards}
+@keyframes ebSteht{to{opacity:0}}
+@keyframes ebFall{0%{transform:translateX(-50%) rotate(0)}12%{transform:translateX(-50%) rotate(3deg)}100%{transform:translateX(-50%) rotate(-84deg);opacity:0}}
+.eb-sprite.haelfte{animation:ebBruchL 1.1s cubic-bezier(.3,.2,.4,1) forwards}
+.eb-sprite.haelfte.links{clip-path:polygon(0 0,52% 0,44% 38%,55% 62%,47% 100%,0 100%)}
+.eb-sprite.haelfte.rechts{clip-path:polygon(52% 0,100% 0,100% 100%,47% 100%,55% 62%,44% 38%);animation-name:ebBruchR}
+@keyframes ebBruchL{0%{transform:translateX(-50%)}100%{transform:translateX(calc(-50% - 70px)) translateY(26px) rotate(-14deg);opacity:0}}
+@keyframes ebBruchR{0%{transform:translateX(-50%)}100%{transform:translateX(calc(-50% + 80px)) translateY(18px) rotate(12deg);opacity:0}}
+
+/* the ring sits on the notch: low on the trunk for trees, in the middle of the rock */
+.eb-ziel{position:absolute;left:50%;transform:translate(-50%,50%);bottom:30vh;width:0;height:0;z-index:2}
+.eb-ziel[data-art="stein"]{bottom:30vh}
+.eb-ziel[data-art="holz"]{bottom:27vh}
+.eb-ring{position:absolute;left:0;top:0;opacity:0;transition:opacity .2s}
+.eb-ring.an{opacity:1}
+.eb-ring > div{position:absolute;left:0;top:0;border-radius:50%;transform:translate(-50%,-50%)}
+.eb-gut{background:radial-gradient(circle,rgba(216,189,134,0) 52%,rgba(216,189,134,.16) 53%,rgba(216,189,134,.16) 100%)}
+.eb-zielring{--perf:6px;width:var(--ziel);height:var(--ziel);border:3px solid var(--akz);box-shadow:0 0 0 var(--perf) rgba(216,189,134,.32),0 0 22px rgba(216,189,134,.5)}
+.eb-lauf{border:3px solid rgba(243,238,228,.92);box-shadow:0 0 14px rgba(243,238,228,.35)}
+.eb-ring.fehl .eb-zielring{border-color:var(--schlecht);box-shadow:0 0 0 6px rgba(217,161,152,.25)}
+.eb-ruf{position:absolute;left:0;top:calc(-1 * var(--ziel,92px) / 2 - 58px);transform:translateX(-50%);font:800 var(--t-titel) var(--f-name);white-space:nowrap;opacity:0;text-shadow:0 2px 12px rgba(0,0,0,.6)}
+.eb-ruf.an{animation:ebRuf .75s ease-out forwards}
+.eb-ruf.perfekt{color:var(--akz);font-size:var(--t-kopf)}
+.eb-ruf.gut{color:var(--perle)}
+.eb-ruf.daneben{color:var(--schlecht);font-size:var(--t-unter)}
+@keyframes ebRuf{0%{opacity:0;transform:translate(-50%,10px) scale(.8)}20%{opacity:1;transform:translate(-50%,0) scale(1.08)}100%{opacity:0;transform:translate(-50%,-26px) scale(1)}}
+.eb-pips{position:absolute;left:0;top:76px;transform:translateX(-50%);display:flex;gap:var(--a15)}
+.eb-pips i{width:14px;height:14px;border-radius:50%;border:2px solid var(--akz);background:rgba(7,8,11,.4);transition:background .15s}
+.eb-pips i.voll{background:var(--akz);box-shadow:0 0 10px rgba(216,189,134,.6)}
+
+/* chips, sparks and dust */
+.eb-span{position:absolute;width:9px;height:5px;border-radius:var(--r-fein);pointer-events:none;z-index:3;animation:ebSpan .85s cubic-bezier(.2,.6,.4,1) forwards}
+.eb-span.holz{background:#c89b62;box-shadow:inset 0 -1px 0 rgba(90,55,25,.6)}
+.eb-span.stein{width:6px;height:6px;border-radius:var(--r-fein);background:var(--grau-hell)}
+.eb-span.stein:nth-child(3n){background:#ffe3a3;box-shadow:0 0 8px #ffcf6b;width:4px;height:4px}
+@keyframes ebSpan{0%{transform:translate(-50%,-50%);opacity:1}100%{transform:translate(calc(-50% + var(--dx)),calc(-50% + var(--dy) + 120px)) rotate(var(--rot));opacity:0}}
+.eb-staub{position:absolute;left:50%;bottom:6vh;width:60vw;height:22vh;transform:translateX(-50%);pointer-events:none;opacity:0;z-index:2;
+  background:radial-gradient(ellipse at 50% 80%,rgba(205,190,165,.55),rgba(205,190,165,0) 65%)}
+.eb-staub.stein{background:radial-gradient(ellipse at 50% 70%,rgba(190,190,185,.6),rgba(190,190,185,0) 65%)}
+.eb-staub.an{animation:ebStaub 1.5s ease-out}
+@keyframes ebStaub{0%{opacity:0;transform:translateX(-50%) scale(.6)}25%{opacity:1}100%{opacity:0;transform:translateX(-50%) scale(1.35) translateY(-30px)}}
+.eb-beutezug{position:absolute;left:50%;top:38vh;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:var(--a15);z-index:4;pointer-events:none;animation:ebBeute 1.5s ease-out forwards}
+.eb-beutezug span{font:750 var(--t-unter) var(--f-name);color:var(--perle);padding:var(--pille-gross);border-radius:var(--r-rund);background:rgba(9,11,15,.7);border:1px solid var(--akz)}
+.eb-beutezug span i{font-style:normal;margin-right:var(--a15)}
+.eb-beutezug small{color:var(--akz);font-size:var(--t-klein);letter-spacing:.1em;text-transform:uppercase}
+@keyframes ebBeute{0%{opacity:0;transform:translate(-50%,24px)}18%{opacity:1;transform:translate(-50%,0)}75%{opacity:1}100%{opacity:0;transform:translate(-50%,-30px)}}
+
+/* hint and cards */
+.eb-unten{position:absolute;left:50%;bottom:var(--rand);transform:translateX(-50%);padding:var(--a2) var(--a4);border-radius:var(--r-rund);z-index:3;font-size:var(--t-info);color:var(--perle-leise)}
+.eb-unten[hidden]{display:none}
+.eb-karte{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:5;width:min(440px,calc(100vw - 40px));padding:var(--a5) var(--a5);border-radius:var(--r-panel);
+  display:flex;flex-direction:column;gap:var(--a25);align-items:flex-start;background:rgba(9,11,15,.78)}
+.eb-karte[hidden]{display:none}
+.eb-karte small{font-size:var(--t-mini);letter-spacing:.18em;text-transform:uppercase;color:var(--perle-dim)}
+.eb-karte > b{font:750 var(--t-titel)/1.15 var(--f-name);color:var(--akz)}
+.eb-karte p{margin:0;color:var(--perle-leise);line-height:1.5}
+.eb-karte .gold{color:var(--akz);font-weight:600}
+.eb-hilfe{font-size:var(--t-info)}
+.eb-summe{display:flex;flex-wrap:wrap;gap:var(--a2)}
+.eb-summe span{padding:var(--pille-gross);border-radius:var(--r-rund);border:1px solid var(--akz);color:var(--perle);font-weight:600}
+.eb-gross{margin-top:var(--a2);border:0;border-radius:var(--r-rund);padding:var(--pille-knopf);background:var(--akz);color:var(--ink);font-weight:700;font-size:var(--t-text);display:inline-flex;gap:var(--a2);align-items:center}
+.eb-gross kbd{border-color:rgba(7,8,11,.3)!important;background:rgba(7,8,11,.12)!important}
+
+/* source chips on the rest frame (eden-expedition) */
+/* Source circles on a rest frame (Duc 30.10.2026), left of Duc's panel; the look is .eakreis from eden-angeln.css */
+.eb-kreise{position:absolute;right:402px;top:84px;display:flex;gap:var(--a5);align-items:flex-start}
+.eb-kreise .eakreis-zahl{right:calc(50% - 56px)}
+
+/* Petru's workshop: tools */
+.eb-werkzeuge{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:var(--a35)}
+.eb-wz{border:1px solid var(--linie-n);border-radius:var(--r-karte);padding:var(--karte-pad);background:rgba(243,238,228,.03);display:flex;flex-direction:column;gap:var(--a3)}
+.eb-wz header{display:flex;align-items:center;gap:var(--a3)}
+.eb-wz header img,.eb-wz-leer{width:52px;height:52px;border-radius:var(--r-mittel);object-fit:cover;border:1px solid var(--linie);display:grid;place-items:center;font-size:var(--t-titel);background:rgba(7,8,11,.3)}
+.eb-wz header b{display:block;font:700 var(--t-gross) var(--f-name);color:var(--akz)}
+.eb-wz header small{color:var(--perle-leise);font-size:var(--t-klein)}
+.eb-stufen{display:flex;gap:var(--a1);margin-left:auto}
+.eb-stufen i{width:10px;height:10px;border-radius:50%;border:1px solid var(--akz)}
+.eb-stufen i.an{background:var(--akz)}
+.eb-naechste{display:flex;gap:var(--a3);padding:var(--karte-pad);border-radius:var(--r-mittel);background:rgba(7,8,11,.28);border:1px solid var(--linie)}
+.eb-naechste > img{width:84px;height:84px;border-radius:var(--r-mittel);object-fit:cover;flex:none}
+.eb-naechste small{font-size:var(--t-mini);letter-spacing:.14em;text-transform:uppercase;color:var(--perle-dim)}
+.eb-naechste b{display:block;font-size:var(--t-text)}
+.eb-naechste p{margin:var(--a1) 0 var(--a2);font-size:var(--t-klein);color:var(--perle-leise);line-height:1.45}
+.eb-naechste em{font-style:normal;color:var(--akz)}
+.eb-kosten{display:flex;flex-wrap:wrap;gap:var(--a15);margin-bottom:var(--a2)}
+.eb-kosten span{font-size:var(--t-klein);padding:var(--pille);border-radius:var(--r-rund);border:1px solid}
+.eb-kosten span.ok{border-color:rgba(168,213,177,.5);color:var(--gut)}
+.eb-kosten span.fehlt{border-color:rgba(217,161,152,.5);color:var(--schlecht)}
+.eb-kosten small{opacity:.75;font-size:inherit;letter-spacing:0;text-transform:none}
+.eb-gesperrt{color:var(--perle-dim)!important;font-size:var(--t-klein)!important}
+.eb-max{margin:0;color:var(--perle-leise);font-size:var(--t-klein)}
+/* Petru buys fish (28.10.2026) */
+.eb-fische{display:grid;gap:var(--a2)}
+.eb-fisch{display:grid;grid-template-columns:64px 1fr auto auto auto;align-items:center;gap:var(--a3);padding:var(--karte-pad-klein);border:1px solid var(--linie-n);border-radius:var(--r-mittel);background:rgba(243,238,228,.04)}
+.eb-fisch img{width:64px;height:40px;object-fit:contain}
+.eb-fisch>div{min-width:0}
+.eb-fisch b{display:block;color:var(--perle)}
+.eb-fisch small{color:var(--perle-dim);font-size:var(--t-klein)}
+.eb-neu{color:var(--akz)}
+.eb-preis{font-family:var(--f-zahl);color:var(--akz);white-space:nowrap}
+.eb-kreise .eakreis .lab{padding:3px var(--a25);border-radius:var(--r-rund);background:rgba(7,8,11,.62);color:var(--perle)}
+.eb-kreise .eakreis.zu .lab{color:var(--perle-leise)}
+.eb-kreise .eakreis{flex:none;width:124px}
+.eb-kreise .eakreis .lab{white-space:normal;text-align:center;justify-content:center;line-height:1.25}
+
+/* Petru's baits (30.10.2026) */
+.eb-koeder.aktiv{border-color:var(--akz)}
+.eb-koeder .eb-text{margin:0;font-size:var(--t-klein);color:var(--perle-leise);line-height:1.45}
+.eb-wirkung{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:var(--a15)}
+.eb-wirkung li{font-size:var(--t-klein);padding:var(--pille);border-radius:var(--r-rund);border:1px solid var(--linie);color:var(--akz)}
+.eb-looks{display:flex;gap:var(--a25)}
+.eb-look{flex:1;display:flex;flex-direction:column;align-items:center;gap:var(--a1);padding:var(--karte-pad-klein);border-radius:var(--r-mittel);border:1px solid var(--linie);
+  background:rgba(7,8,11,.28);color:var(--perle-leise);cursor:pointer}
+.eb-look img{width:100%;height:64px;object-fit:contain}
+.eb-look small{font-size:var(--t-mini)}
+.eb-look.an{border-color:var(--akz);color:var(--perle);background:rgba(216,189,134,.1)}
+.eb-look:hover:not([disabled]){border-color:var(--akz)}
+.eb-look[disabled]{opacity:.5;cursor:default}

@@ -1,0 +1,256 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Scene End Review</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="eden-ui.css"><style>
+html,body{margin:0;height:100%;background:var(--ink);color:var(--perle);font-family:var(--f-ui)}
+#app{position:fixed;inset:0;background:var(--ink) center/cover url('hintergrund.png');overflow:hidden}
+#fig{position:absolute;left:50%;bottom:0;height:88vh;transform:translateX(-50%)}
+#buehnenkarte{position:absolute;inset:0;z-index:40}
+#steuer{position:fixed;left:50%;top:12px;transform:translateX(-50%);z-index:90;display:flex;gap:6px;flex-wrap:wrap;justify-content:center;align-items:center;padding:8px 12px;border-radius:999px;background:var(--rauch-stark);border:1px solid var(--linie);font-size:13px;max-width:calc(100% - 24px)}
+#steuer button{padding:6px 12px;border-radius:999px;border:1px solid var(--linie-n);background:none;color:var(--perle);cursor:pointer;font:inherit}
+#steuer button.an{background:var(--akz);color:var(--ink);border-color:var(--akz)}
+#steuer i{width:1px;height:18px;background:var(--linie-n);margin:0 4px}
+#info{position:fixed;left:16px;bottom:12px;z-index:90;max-width:min(430px,calc(100% - 32px));padding:10px 14px;border-radius:14px;background:var(--rauch-stark);border:1px solid var(--linie-n);font-size:13px;line-height:1.45;color:var(--perle-leise)}
+#info b{color:var(--akz)}
+.punkte{display:flex;gap:var(--a1)}
+.punkte u{width:8px;height:8px;border-radius:50%;background:rgba(243,238,228,.22);text-decoration:none}
+.punkte.v u.an{background:var(--akz2)} .punkte.b u.an{background:var(--akz)}
+.punkte.v u[style]{background:linear-gradient(90deg,var(--akz2) var(--f),rgba(243,238,228,.22) var(--f))}
+.punkte.b u[style]{background:linear-gradient(90deg,var(--akz) var(--f),rgba(243,238,228,.22) var(--f))}
+/* SZENENKARTE-CSS-ANFANG Szenenende und Zwischenkarte (Duc 01.11.2026): erst das Bild, dann Linie, Titel, Satz, Werte, Knopf */
+#buehnenkarte:empty{display:none}
+.szk{--szk-kurve:cubic-bezier(.16,1,.3,1);position:absolute;inset:0;z-index:40;display:flex;align-items:center;overflow:hidden;animation:szkRein .55s ease-out both}
+.szk.geht{animation:szkRaus .42s ease-in both}
+.szk-schleier{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 55%,rgba(7,8,11,.45),rgba(7,8,11,.9));backdrop-filter:blur(10px) saturate(.8);-webkit-backdrop-filter:blur(10px) saturate(.8)}
+.szk-bild{position:absolute;inset:0;background:var(--ink) center/cover no-repeat;animation:szkBild 9s ease-out both}
+.szk-bruecke .szk-schleier{background:linear-gradient(to top,rgba(7,8,11,.92),rgba(7,8,11,.35) 55%,rgba(7,8,11,.55));backdrop-filter:none;-webkit-backdrop-filter:none}
+.szk-band{position:relative;width:100%;padding:var(--a6) 10vw;display:flex;flex-direction:column;align-items:flex-start;gap:var(--a35)}
+.szk-band::before,.szk-band::after{content:"";position:absolute;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--akz) 18%,var(--akz) 82%,transparent);transform-origin:center;animation:szkLinie 1s var(--szk-kurve) .15s both}
+.szk-band::before{top:0}.szk-band::after{bottom:0}
+.szk-teil{animation:szkTeil .7s var(--szk-kurve) both;animation-delay:calc(.3s + var(--i,0)*.13s)}
+.szk-zeit{font:600 var(--t-klein) var(--f-zahl);letter-spacing:.18em;text-transform:uppercase;color:var(--akz)}
+.szk-titel{margin:0;font:750 var(--t-riesig) var(--f-name);letter-spacing:-.02em;color:var(--perle);text-shadow:0 2px 28px rgba(0,0,0,.6)}
+.szk-satz{margin:0;max-width:760px;font-size:var(--t-unter);line-height:1.5;color:var(--perle);text-shadow:0 1px 14px rgba(0,0,0,.8)}
+.szk-klein{color:var(--perle-leise);font-size:var(--t-info)}
+.szk-werte{display:flex;flex-wrap:wrap;gap:var(--a6);margin-top:var(--a2)}
+.szk-wert{display:flex;flex-direction:column;gap:var(--a1);min-width:170px}
+.szk-wert small{font:600 var(--t-klein) var(--f-zahl);letter-spacing:.14em;text-transform:uppercase;color:var(--perle-leise)}
+.szk-zahl{font:700 var(--t-buehne) var(--f-zahl);font-variant-numeric:tabular-nums;line-height:1;color:var(--perle-dim)}
+.szk-wert.plus .szk-zahl{color:var(--gut)}
+.szk-wert.minus .szk-zahl{color:var(--schlecht)}
+.szk-zahl.fertig{animation:szkPop .5s var(--szk-kurve)}
+.szk-gesten{display:flex;flex-wrap:wrap;gap:var(--a2)}
+.szk-geste{display:inline-flex;align-items:center;gap:var(--a1);padding:var(--pille);border-radius:var(--r-rund);border:1px solid var(--linie-n);background:var(--rauch);font-size:var(--t-klein);color:var(--perle)}
+.szk-geste.nein{color:var(--perle-dim)}
+.szk-weiter{margin-top:var(--a2)}
+/* Vorhang (Duc 01.11.2026, Variante C): Balken fahren zu, die Szene bleibt zu sehen, Titel gross unten */
+.szk{align-items:flex-end}
+.szk::before,.szk::after{content:"";position:absolute;left:0;right:0;height:13vh;background:var(--ink);z-index:1;animation:szkBalken 1s var(--szk-kurve) both}
+.szk::before{top:0;--von:-100%}
+.szk::after{bottom:0;--von:100%}
+.szk-schleier,.szk-bruecke .szk-schleier{background:linear-gradient(to top,rgba(7,8,11,.96) 12%,rgba(7,8,11,.55) 50%,rgba(7,8,11,.1) 80%);backdrop-filter:none;-webkit-backdrop-filter:none}
+.szk-band{z-index:2;padding:0 8vw calc(13vh + 24px);display:grid;grid-template-columns:1fr auto;align-items:end;column-gap:var(--a7);row-gap:var(--a2)}
+.szk-band::before,.szk-band::after{display:none}
+.szk-zeit,.szk-titel,.szk-satz,.szk-klein,.szk-gesten{grid-column:1}
+.szk-titel{font-size:var(--t-buehne)}
+.szk-werte{grid-column:2;grid-row:1 / span 4;align-self:end;margin:0;gap:var(--a5)}
+.szk-wert{min-width:120px;align-items:flex-end;text-align:right}
+.szk-weiter{grid-column:2;justify-self:end}
+.szk-was{grid-column:1;margin:0;padding:0;list-style:none;max-width:760px;display:flex;flex-direction:column;gap:var(--a1);color:var(--perle);font-size:var(--t-text);line-height:1.45}
+.szk-liste{grid-column:1;max-width:760px;display:flex;flex-direction:column;gap:var(--a2)}
+.szk-zeile{display:grid;grid-template-columns:auto 1fr;column-gap:var(--a2);align-items:start;font-size:var(--t-text);line-height:1.4;color:var(--perle)}
+.szk-zeile b{font-weight:700}
+.szk-zeile span{grid-column:2;color:var(--perle-leise);font-size:var(--t-info)}
+.szk-zeile.nein svg,.szk-zeile.nein>i{color:var(--schlecht)}
+.szk-zeile.ja svg,.szk-zeile.ja>i{color:var(--gut)}
+.szk-tipp{grid-column:1;max-width:760px;display:flex;flex-direction:column;gap:var(--a1);padding-left:var(--a3);border-left:2px solid var(--akz);font-size:var(--t-info);line-height:1.4;color:var(--perle)}
+.szk-tipp small{font:600 var(--t-mini) var(--f-zahl);letter-spacing:.14em;text-transform:uppercase;color:var(--akz)}
+.szk-stufe{font:600 var(--t-klein) var(--f-zahl);color:var(--akz)}
+.szk-bruecke .szk-weiter,.szk-frage .szk-weiter,.szk-tag .szk-weiter{grid-column:1;justify-self:start}
+@keyframes szkBalken{from{transform:translateY(var(--von))}to{transform:none}}
+@media (max-width:900px){.szk-band{grid-template-columns:1fr}.szk-werte,.szk-weiter{grid-column:1;grid-row:auto}}
+@keyframes szkRein{from{opacity:0}to{opacity:1}}
+@keyframes szkRaus{to{opacity:0}}
+@keyframes szkBild{from{transform:scale(1.07)}to{transform:scale(1)}}
+@keyframes szkLinie{from{transform:scaleX(0);opacity:0}to{transform:scaleX(1);opacity:1}}
+@keyframes szkTeil{from{opacity:0;transform:translateY(16px);filter:blur(5px)}to{opacity:1;transform:none;filter:none}}
+@keyframes szkPop{40%{transform:scale(1.16)}}
+#toast .glas{animation:szkToast .45s cubic-bezier(.16,1,.3,1) both}
+@keyframes szkToast{from{opacity:0;transform:translateY(-14px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.szk,.szk.geht,.szk-bild,.szk::before,.szk::after,.szk-teil,.szk-zahl.fertig,#toast .glas{animation:none}}
+/* SZENENKARTE-CSS-ENDE */
+
+/* A Goldband: die Grundform aus dem Spiel */
+/* B Ergebnis-Karte: mittiges Rauchglas, steigt mit leichtem Zoom auf, gut lesbar */
+.vb .szk{justify-content:center}
+.vb .szk-schleier{background:rgba(7,8,11,.62)}
+.vb .szk-band{width:min(620px,calc(100% - 48px));padding:var(--a6);align-items:center;text-align:center;background:var(--rauch-stark);border:1px solid var(--linie);border-radius:var(--r-panel);box-shadow:0 30px 90px rgba(0,0,0,.6);backdrop-filter:blur(20px) saturate(1.15);animation:vbKarte .8s var(--szk-kurve) both}
+.vb .szk.geht .szk-band{animation:vbKarteRaus .42s ease-in both}
+.vb .szk-band::before{left:15%;right:15%;top:-1px;animation-delay:.3s}
+.vb .szk-band::after{display:none}
+.vb .szk-titel{font-size:var(--t-held)}
+.vb .szk-satz{font-size:var(--t-gross)}
+.vb .szk-werte{justify-content:center;width:100%}
+.vb .szk-wert{align-items:center;flex:1;padding:var(--a35);border-radius:var(--r-karte);background:rgba(243,238,228,.05);border:1px solid var(--linie-n)}
+.vb .szk-gesten{justify-content:center}
+@keyframes vbKarte{from{opacity:0;transform:translateY(34px) scale(.95)}to{opacity:1;transform:none}}
+@keyframes vbKarteRaus{to{opacity:0;transform:translateY(-16px) scale(.98)}}
+/* C Theaterschluss: schwarze Balken fahren zu, die Szene bleibt zu sehen, Titel gross unten */
+.vc .szk{align-items:flex-end}
+.vc .szk::before,.vc .szk::after{content:"";position:absolute;left:0;right:0;height:13vh;background:var(--ink);z-index:1;animation:vcBalken 1s var(--szk-kurve) both}
+.vc .szk::before{top:0;--von:-100%}
+.vc .szk::after{bottom:0;--von:100%}
+.vc .szk-schleier{background:linear-gradient(to top,rgba(7,8,11,.96) 12%,rgba(7,8,11,.55) 50%,rgba(7,8,11,.1) 80%);backdrop-filter:none;-webkit-backdrop-filter:none}
+.vc .szk-band{z-index:2;padding:0 8vw calc(13vh + 24px);display:grid;grid-template-columns:1fr auto;align-items:end;column-gap:var(--a7);row-gap:var(--a2)}
+.vc .szk-band::before,.vc .szk-band::after{display:none}
+.vc .szk-zeit,.vc .szk-titel,.vc .szk-satz,.vc .szk-klein,.vc .szk-gesten{grid-column:1}
+.vc .szk-titel{font-size:var(--t-buehne)}
+.vc .szk-werte{grid-column:2;grid-row:1 / span 4;align-self:end;margin:0;gap:var(--a5)}
+.vc .szk-wert{min-width:120px;align-items:flex-end;text-align:right}
+.vc .szk-weiter{grid-column:2;justify-self:end}
+.vc .szk-bruecke .szk-weiter{grid-column:1;justify-self:start}
+@keyframes vcBalken{from{transform:translateY(var(--von))}to{transform:none}}
+@media (max-width:900px){.vc .szk-band{grid-template-columns:1fr}.vc .szk-werte,.vc .szk-weiter{grid-column:1;grid-row:auto}}
+
+</style></head><body><div id="app"><img id="fig" src="rosi.png" alt=""><div id="buehnenkarte"></div></div>
+<div id="steuer"><button data-v="va" onclick="variante('va')">A Gold band</button><button data-v="vb" onclick="variante('vb')">B Result card</button><button data-v="vc" onclick="variante('vc')">C Curtain</button><i></i><button data-f="plus" onclick="fall('plus')">Good talk</button><button data-f="minus" onclick="fall('minus')">Minus</button><button data-f="deckel" onclick="fall('deckel')">At the limit</button><button data-f="bruecke" onclick="fall('bruecke')">Bridge card</button><i></i><button onclick="fall(F)">Replay</button></div>
+<div id="info"></div>
+<script>
+const $ = i => document.getElementById(i), esc = s => String(s);
+const IC = {done: "\u2713", failed: "\u2715"}, uiIc = n => "<span>" + (IC[n] || "") + "</span>";
+const PHASE = {nachmittag: "Afternoon"};
+let V = {z: {tag: 9, phase: "nachmittag"}};
+const audioKette = Promise.resolve(); const zeichnen = () => {}; const senden = () => {}; const szenenSchluessel = () => "x";
+const punkte = (n, art, anteil = 0) => `<span class="punkte ${art}">${[0,1,2,3,4].map(i => `<u class="${i < n ? "an" : ""}"${i === n && anteil > 0 ? ` style="--f:${Math.round(anteil * 100)}%"` : ""}></u>`).join("")}</span>`;
+// SZENENKARTE-JS-ANFANG Eine Ebene fuer Szenenende und Zwischenkarte; zeichnet nur bei neuem Inhalt, sonst liefe die Animation neu an
+const KARTE = {k: null, geht: false, bereit: null, warte: null, fertig: null};
+const karteBewegt = () => !(window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches);
+function karteSetzen(k, html){
+  if (KARTE.k === k) return;
+  KARTE.k = k; KARTE.geht = false;
+  const L = $("buehnenkarte");
+  L.innerHTML = html || "";
+  L.querySelectorAll("[data-zahl]").forEach(karteZaehlen);
+}
+function karteZaehlen(el){
+  const ziel = +el.dataset.zahl, text = n => (n > 0 ? "+" + n : n < 0 ? "−" + Math.abs(n) : "±0");
+  if (!ziel || !karteBewegt()){ el.textContent = text(ziel); return; }
+  el.textContent = text(0);
+  const start = performance.now() + 750, dauer = 900;
+  const schritt = t => {
+    const p = Math.max(0, Math.min(1, (t - start) / dauer));
+    el.textContent = text(Math.round(ziel * (1 - Math.pow(1 - p, 3))));
+    if (p < 1) requestAnimationFrame(schritt); else el.classList.add("fertig");
+  };
+  requestAnimationFrame(schritt);
+}
+function karteSchliessen(danach){
+  if (KARTE.geht) return;
+  KARTE.geht = true;
+  const el = $("buehnenkarte").firstElementChild;
+  if (el) el.classList.add("geht");
+  setTimeout(() => { $("buehnenkarte").innerHTML = ""; KARTE.k = null; danach(); }, karteBewegt() ? 420 : 0);
+}
+function verlassenFragen(){
+  KARTE.frage = true;
+  karteSetzen("f" + Date.now(), `<div class="szk szk-frage"><div class="szk-schleier"></div><div class="szk-band">
+    <h2 class="szk-titel szk-teil" style="--i:0">Leave this conversation?</h2>
+    <p class="szk-satz szk-teil" style="--i:1">You make up a bad excuse and walk out. It costs you trust, and she will remember it.</p>
+    <div class="szk-gesten szk-weiter szk-teil" style="--i:2"><button class="knopf" type="button" onclick="verlassenAntwort('bleiben')">Stay</button>
+    <button class="ev-opt" type="button" onclick="verlassenAntwort('schweigen')"><b>Say nothing and wait</b></button>
+    <button class="ev-opt" type="button" onclick="verlassenAntwort('verlassen')"><b>Leave anyway</b></button></div></div></div>`);
+}
+function verlassenAntwort(a){
+  karteSchliessen(() => { KARTE.frage = false; zeichnen(); if (a !== "bleiben") senden(a, {}, "…"); });
+}
+function abschlussWeiter(){ const k = KARTE.k; karteSchliessen(() => { KARTE.fertig = k; senden("ende", {}, "…"); }); }
+function szkWert(titel, w, stand, klasse, i){
+  if (!w) return "";
+  const hinweis = "";
+  return `<div class="szk-wert szk-teil ${w.delta > 0 ? "plus" : w.delta < 0 ? "minus" : ""}" style="--i:${i}"><small>${titel}</small><span class="szk-zahl" data-zahl="${w.delta}"></span>${stand || ""}${w.stufe > w.stufe_von ? `<span class="szk-stufe">Level ${w.stufe} reached</span>` : ""}${hinweis}</div>`;
+}
+function abschlussHtml(z, a){
+  const w = (z.werte || []).find(x => x.id === a.pid) || {};
+  // Misslungenes zuerst und mit Grund; hoechstens drei, damit es kein Bericht wird
+  const reihe = [...a.gesten].sort((x, y) => x.ok - y.ok).slice(0, 3);
+  const gesten = reihe.map(g => `<div class="szk-zeile ${g.ok ? "ja" : "nein"}"><i>${uiIc(g.ok ? "done" : "failed", "klein")}</i><b>${esc(g.label)}</b><span>${esc([g.satz, g.warum].filter(Boolean).join(" "))}</span></div>`).join("");
+  const was = (a.was || []).length ? a.was : (a.fakt ? [a.fakt] : []);
+  const t = a.tipps || {};
+  const tipp = (titel, text, i) => text ? `<div class="szk-tipp szk-teil" style="--i:${i}"><small>${titel}</small>${esc(text)}</div>` : "";
+  return `<div class="szk szk-abschluss"><div class="szk-schleier"></div><div class="szk-band">
+    <span class="szk-zeit szk-teil" style="--i:0">Day ${z.tag} · ${PHASE[z.phase] || ""}</span>
+    <h2 class="szk-titel szk-teil" style="--i:1">${esc(a.titel)}</h2>
+    ${was.length ? `<ul class="szk-was szk-teil" style="--i:2">${was.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
+    <div class="szk-werte">${szkWert("Trust", a.werte.vertrauen, punkte(w.vertrauen, "v", w.v_anteil), "v", 3)}${szkWert("Desire", a.werte.begehren, punkte(w.begehren, "b", w.b_anteil), "b", 4)}</div>
+    ${gesten ? `<div class="szk-liste szk-teil" style="--i:5">${gesten}</div>` : ""}
+    ${tipp("What worked", t.gut, 6)}${tipp("Next time", t.besser, 7)}
+    <button class="knopf szk-weiter szk-teil" style="--i:8" type="button" onclick="abschlussWeiter()">Go on</button>
+  </div></div>`;
+}
+// Tageskarte (Duc 01.11.2026): statt des kleinen Hinweises ein Blick zurueck auf den Tag
+function tagGesehen(k, setzen){
+  try { if (setzen) sessionStorage.setItem(k, "1"); return !!sessionStorage.getItem(k); } catch(e){ return KARTE.tage && KARTE.tage[k]; }
+}
+function tagWeiter(k){ karteSchliessen(() => { tagGesehen(k, true); (KARTE.tage = KARTE.tage || {})[k] = 1; zeichnen(); }); }
+function tagHtml(z, m, k){
+  const zeilen = (m.folgen || []).slice(0, 6);
+  return `<div class="szk szk-tag"><div class="szk-schleier"></div><div class="szk-band">
+    <span class="szk-zeit szk-teil" style="--i:0">Day ${z.tag} begins</span>
+    <h2 class="szk-titel szk-teil" style="--i:1">${esc(m.titel)}</h2>
+    ${zeilen.length ? `<ul class="szk-was szk-teil" style="--i:2">${zeilen.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
+    <button class="knopf szk-weiter szk-teil" style="--i:3" type="button" onclick="tagWeiter('${k}')">Go on</button></div></div>`;
+}
+function buehnenkarte(z){
+  if (KARTE.frage) return;
+  const tm = z && (z.meldungen || []).find(m => m.tag_ende);
+  if (tm){
+    const k = "tag|" + z.id + "|" + tm.titel;
+    if (!tagGesehen(k) && !(KARTE.tage && KARTE.tage[k])) return karteSetzen(k, tagHtml(z, tm, k));
+  }
+  const a = z && z.status === "szene" && z.szene && z.szene.abschluss;
+  if (a){
+    const k = "a|" + szenenSchluessel(z);
+    if (KARTE.fertig === k) return;
+    if (KARTE.bereit === k) return karteSetzen(k, abschlussHtml(z, a));
+    if (KARTE.warte !== k){            // erst reden lassen: letzte Antwort und Abschied laufen in der Audio-Kette
+      KARTE.warte = k;
+      setTimeout(() => audioKette.then(() => setTimeout(() => { KARTE.bereit = k; zeichnen(); }, 1200)), 0);
+    }
+    return;
+  }
+  const e = z && z.status === "ereignis" && z.ereignis;
+  if (e && evBrueckeOffen(e)) return karteSetzen("b|" + evBrueckeK(e), evBrueckeHtml(e));
+  if (!KARTE.geht) karteSetzen(null, "");
+}
+// SZENENKARTE-JS-ENDE
+const evBrueckeK = e => e.id + "|" + V.z.tag + "|" + V.z.phase;
+function evBrueckeHtml(e){
+  const R = e.rollen || {}, leute = [R.handelnd, R.pid, R.sprecher, R.links, R.rechts, R.gegner].concat(R.betroffen || []).filter(Boolean).map(f => f.name);
+  const wer = e.uebergang_eigen ? [] : [...new Set(leute)];      // ein eigener Satz verschweigt manchmal bewusst, wer kommt
+  return `<div class="szk szk-bruecke">${e.bild ? `<div class="szk-bild" style="background-image:url('${e.bild}')"></div>` : ""}<div class="szk-schleier"></div><div class="szk-band">
+    <span class="szk-zeit szk-teil" style="--i:0">Day ${V.z.tag} · ${PHASE[V.z.phase] || ""}</span>
+    <p class="szk-satz szk-teil" style="--i:1">${esc(e.uebergang)}</p>
+    ${e.uebergang_ort || wer.length ? `<small class="szk-klein szk-teil" style="--i:2">${[e.uebergang_ort, wer.length ? "with " + wer.join(", ") : ""].filter(Boolean).map(esc).join(" · ")}</small>` : ""}
+    <button class="knopf szk-weiter szk-teil" style="--i:3" type="button" onclick="evBrueckeWeiter()">Go on</button></div></div>`;
+}
+
+const TEXT = {va: "<b>A Gold band.</b> A wide band with two gold lines that open from the middle, text on the left. Quiet and filmic. Rosi stays behind it, dimmed, and the text can run over her.",
+  vb: "<b>B Result card.</b> A smoked glass card rises from below. Easiest to read, and the closest to a game result screen, like a score. It covers part of Rosi.",
+  vc: "<b>C Curtain.</b> Black bars slide in from top and bottom and Rosi stays clear. The numbers stand to the right, like the end of a film scene."};
+const FAELLE = {
+  plus: {fakt: "She showed him a photo of her father's Vespa workshop in Catania, the one the bank took.", gesten: [{label: "Tease", ok: true}, {label: "Kiss", ok: true}], werte: {vertrauen: {delta: 6, am_deckel: false}, begehren: {delta: 3, am_deckel: false}}},
+  minus: {fakt: "She asked him which anime character he would be on this boat.", was: ["She asked him which anime character he would be on this boat.", "Duc and Rosi shared a private, physical moment."], gesten: [{label: "Undress her", ok: false, satz: "This asks for a lot of closeness. It lands more easily once she trusts you more.", warum: "Your Charm is still low."}, {label: "Tease", ok: true, satz: "She enjoyed the game, and the mood got lighter."}], tipps: {gut: "When you flirt, she plays along and turns it into a contest.", besser: "Some of the spark has gone. A light joke or small gesture can help."}, werte: {vertrauen: {delta: 10, am_deckel: false, stufe_von: 2, stufe: 3}, begehren: {delta: -2, am_deckel: false, stufe_von: 2, stufe: 2}}},
+  deckel: {fakt: "She made him choose between Sicily and Naples in her pizza war with Toto.", gesten: [], werte: {vertrauen: {delta: 0, am_deckel: true}, begehren: {delta: 2, am_deckel: true}}}};
+let n = 0, F = "plus", VAR = "va";
+function markieren(){ document.querySelectorAll("#steuer button").forEach(b => b.classList.toggle("an", b.dataset.v === VAR || b.dataset.f === F)); $("info").innerHTML = TEXT[VAR]; $("app").className = VAR; history.replaceState(null, "", "#" + VAR + "-" + F); }
+function fall(f){
+  F = f; KARTE.k = null; markieren();
+  if (f === "bruecke") return karteSetzen("b" + (++n), evBrueckeHtml({uebergang: "Lola catches you on the quay. She needs fish sauce, and she says she knows a place.", uebergang_ort: "B\u00e0 T\u01b0's shop", bild: "hintergrund.png", uebergang_eigen: true, rollen: {}}));
+  const z = {tag: 9, phase: "nachmittag", werte: [{id: "rosi", vertrauen: 2, v_anteil: .4, begehren: 2, b_anteil: .2}]};
+  karteSetzen("a" + (++n), abschlussHtml(z, Object.assign({titel: "Time with Rosi", pid: "rosi"}, FAELLE[f])));
+}
+function variante(v){ VAR = v; fall(F); }
+abschlussWeiter = () => karteSchliessen(() => setTimeout(() => fall(F), 700));
+evBrueckeWeiter = () => karteSchliessen(() => setTimeout(() => fall(F), 700));
+const h = location.hash.slice(1).split("-");
+VAR = ["va", "vb", "vc"].includes(h[0]) ? h[0] : "va"; fall(FAELLE[h[1]] || h[1] === "bruecke" ? h[1] : "plus");
+</script></body></html>

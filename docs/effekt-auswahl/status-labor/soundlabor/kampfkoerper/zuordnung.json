@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "status": "Vorschlag zur späteren Kopplung; kein Engine-Einbau",
+  "enemy_mapping": {
+    "taschendieb": {
+      "angriff": "blade_slash",
+      "w1": "knife_stab",
+      "hurt": "duc_hurt"
+    },
+    "moewe": {
+      "angriff": "gull_peck",
+      "w1": "gull_dive",
+      "hurt": "gull_hurt"
+    },
+    "ratte": {
+      "angriff": "rat_claw",
+      "w1": "rat_bite",
+      "hurt": "rat_hurt"
+    },
+    "ratte_alpha": {
+      "angriff": "rat_claw",
+      "w1": "rat_bite",
+      "s1": "rat_swarm",
+      "hurt": "rat_hurt"
+    },
+    "hund_alpha": {
+      "angriff": "dog_snap",
+      "w1": "dog_pounce",
+      "s1": "dog_pack",
+      "hurt": "dog_hurt"
+    },
+    "keiler": {
+      "angriff": "boar_tusk",
+      "w1": "boar_snort",
+      "s1": "boar_charge",
+      "hurt": "boar_hurt"
+    },
+    "pirat": {
+      "angriff": "blade_slash",
+      "w1": "water_jet",
+      "hurt": "duc_hurt"
+    },
+    "fackelpirat": {
+      "angriff": "blade_slash",
+      "w1": "torch_hit",
+      "s1": "firestorm",
+      "hurt": "duc_hurt"
+    },
+    "maxwell": {
+      "angriff": "boxing_jab",
+      "w1": "shadow_charge",
+      "s1": "boxing_hammer",
+      "hurt": "duc_hurt"
+    }
+  },
+  "reuse": {
+    "blade_slash": "freigabe-sounds.json:blade_slash",
+    "firestorm": "freigabe-sounds.json:firestorm",
+    "shadow_charge": "freigabe-sounds.json:shadow_charge",
+    "heavy_hit": "freigabe-sounds.json:heavy_hit",
+    "brennend": "nacharbeit-neu.json:afterburn (Hörabnahme offen)",
+    "water_jet": "nacharbeit-neu.json:water_jet (Hörabnahme offen)",
+    "nass": "freigabe-sounds.json:spray_tail",
+    "geblendet": "freigabe-nacharbeit-runde2.json:light_flash",
+    "armor_up": "freigabe-sounds.json:water_shield",
+    "wind_armor": "freigabe-sounds.json:wind_armor",
+    "buff": "freigabe-sounds.json:shadow_charge",
+    "betaeubt": "freigabe-sounds.json:pressure_body",
+    "geschwaecht": "duc_exhausted",
+    "erschoepft": "duc_exhausted",
+    "ungedeckt": "guard_raise (leiser, kurze Fassung)",
+    "silence": "sound_tail (kurz, gedämpft)",
+    "Funkenflug": "nacharbeit-neu.json:afterburn (kurzer Ausschnitt, offen)",
+    "guard": "guard_raise",
+    "wall": "guard_body",
+    "dodge": "dodge_step",
+    "skip": "kein eigener Ton",
+    "aussetzen": "kein eigener Ton"
+  },
+  "source_hash": "8a3e5774bb5dca06390f88327d7abc7fc4f7059e7189c586fcf5bd215b89b5f4"
+}

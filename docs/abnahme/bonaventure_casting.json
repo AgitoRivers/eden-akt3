@@ -1,0 +1,43 @@
+{
+ "id": "bonaventure_casting",
+ "titel": "Captain Bonaventure: Der König ohne Land",
+ "hinweis": "Drei Spielarten desselben Looks. Vorschlag: 1, das runde Gesicht und der schwarze Schnurrbart wirken am meisten wie ein stolzer Kindertraum von einem König. Danach kommt der NPC-Satz. Im Spiel ändert sich noch nichts.",
+ "items": [
+  {
+   "id": "11",
+   "titel": "11",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_bonaventure\\1\\neutral-1.png",
+   "soll": "1: rund, dunkle Locken, riesiger Schnurrbart, um die 45"
+  },
+  {
+   "id": "12",
+   "titel": "12",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_bonaventure\\1\\neutral.png",
+   "soll": "1: rund, dunkle Locken, riesiger Schnurrbart, um die 45"
+  },
+  {
+   "id": "21",
+   "titel": "21",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_bonaventure\\2\\neutral-1.png",
+   "soll": "2: lang und wettergegerbt, grauer Bart, Goldzahn, um die 55"
+  },
+  {
+   "id": "22",
+   "titel": "22",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_bonaventure\\2\\neutral.png",
+   "soll": "2: lang und wettergegerbt, grauer Bart, Goldzahn, um die 55"
+  },
+  {
+   "id": "31",
+   "titel": "31",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_bonaventure\\3\\neutral-1.png",
+   "soll": "3: kantig, rötlich, Heldenblick, um die 38"
+  },
+  {
+   "id": "32",
+   "titel": "32",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_bonaventure\\3\\neutral.png",
+   "soll": "3: kantig, rötlich, Heldenblick, um die 38"
+  }
+ ]
+}

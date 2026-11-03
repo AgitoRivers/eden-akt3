@@ -1,0 +1,870 @@
+[
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_lolas_notvorrat",
+  "feld": "option",
+  "alt": "\"Overboard with it.\"",
+  "neu": "\"“Chiara's right. The bag goes overboard tonight.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_lolas_notvorrat",
+  "feld": "option",
+  "alt": "\"Totò keeps it safe.\"",
+  "neu": "\"Pushes the bag over to Totò. “Keep it safe, and nobody knows.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_drei_minuten",
+  "feld": "option",
+  "alt": "\"The guests give up their showers.\"",
+  "neu": "\"Takes Siri's side. “The guests give their shower minutes to the crew.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_gaestekabinen",
+  "feld": "option",
+  "alt": "\"Do half, the way Sophia says.\"",
+  "neu": "\"“Count the minibars and leave the cabins, like Sophia says.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_gaestekabinen",
+  "feld": "option",
+  "alt": "\"No. The guests stay untouched.\"",
+  "neu": "\"“No stripping and no counting. The guest cabins stay as they are.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_gaestekabinen",
+  "feld": "option",
+  "alt": "\"Call Megan yourself.\"",
+  "neu": "\"Picks up the phone. “I'll call Megan myself.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_yasins_angebot",
+  "feld": "option",
+  "alt": "\"Take the money, everyone plays along.\"",
+  "neu": "\"Takes the envelope. “Everyone plays along in Yasin's video tomorrow.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_yasins_angebot",
+  "feld": "option",
+  "alt": "O(\"Decline.\", [V(\"chiara\", 6), V(\"yasin\", -6), R(3)], von=\"chiara\"),",
+  "neu": "O(\"Pushes the envelope back. “We are not your props, Yasin.”\", [V(\"chiara\", 6), V(\"yasin\", -6), R(3)], von=\"chiara\"),"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_yasins_angebot",
+  "feld": "option",
+  "alt": "\"Only those who want to take part.\"",
+  "neu": "\"“Whoever wants to be in the video can be. Nobody has to.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_festa_auftritt",
+  "feld": "option",
+  "alt": "\"Say yes.\"",
+  "neu": "\"“We'll do the mayor's show. Costumes, song, everything.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_festa_auftritt",
+  "feld": "option",
+  "alt": "\"Politely decline.\"",
+  "neu": "\"“Thank the mayor for us, and tell her no.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_festa_auftritt",
+  "feld": "option",
+  "alt": "\"Only Duc sings. Alone.\"",
+  "neu": "\"“Nobody else has to do it. I'll sing for the mayor, alone.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_nachtwache",
+  "feld": "option",
+  "alt": "\"Rosi takes it.\"",
+  "neu": "\"Gives the night watch to Rosi. “You're Sicilian. Close your eyes angrily up there.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_nachtwache",
+  "feld": "option",
+  "alt": "\"Lea takes it.\"",
+  "neu": "\"Gives the night watch to Lea. “Stay awake, and wake me if the anchor moves.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_nachtwache",
+  "feld": "option",
+  "alt": "\"Duc keeps watch himself.\"",
+  "neu": "\"Keeps the night watch himself. “Go to bed, both of you.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_petrus_boot",
+  "feld": "option",
+  "alt": "\"Lea and Duc go with him.\"",
+  "neu": "\"Goes with Lea and Petru at dawn. “Back by noon, Rosi.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_petrus_boot",
+  "feld": "option",
+  "alt": "\"Everyone stays on board.\"",
+  "neu": "\"“Nobody goes, Lea. Rosi needs every hand here tomorrow.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_petrus_boot",
+  "feld": "option",
+  "alt": "\"Lea goes with Totò.\"",
+  "neu": "\"“Lea and Totò go with Petru. I stay here.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_elsas_kontrolle",
+  "feld": "option",
+  "alt": "\"Totò's crates disappear overnight.\"",
+  "neu": "\"Nods at Totò. “Take the crates out tonight, and have them back tomorrow evening.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_elsas_kontrolle",
+  "feld": "option",
+  "alt": "\"Declare everything.\"",
+  "neu": "\"Sides with Chiara. “We declare everything to Elsa.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_dorfkinder",
+  "feld": "option",
+  "alt": "\"No, too risky.\"",
+  "neu": "\"“Chiara's right. No kids on board, it's too risky.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_dorfkinder",
+  "feld": "option",
+  "alt": "\"Yes, a tour in the afternoon.\"",
+  "neu": "\"“Let the kids come for a tour in the afternoon.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_siris_geburtstag",
+  "feld": "option",
+  "alt": "\"Sophia's breakfast, no cameras.\"",
+  "neu": "\"“Sophia organises a small breakfast on the foredeck, with no cameras.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_siris_geburtstag",
+  "feld": "option",
+  "alt": "\"Yasin's concept.\"",
+  "neu": "\"Lets Yasin have his way. “Drone, champagne, sponsored cake. Do it.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_crew_kasse",
+  "feld": "option",
+  "alt": "\"Sell it.\"",
+  "neu": "\"Nods at Totò's list. “Sell it all. We have to eat.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_crew_kasse",
+  "feld": "option",
+  "alt": "\"No.\"",
+  "neu": "\"Hands the list back to Totò. “No. That's stealing from the Group.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_crew_kasse",
+  "feld": "option",
+  "alt": "\"Only the champagne, and only to Alva.\"",
+  "neu": "\"“Sell the champagne, but only to Alva. The rest stays on board.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_lola_krank",
+  "feld": "option",
+  "alt": "\"Rosi cooks.\"",
+  "neu": "\"“All right, Rosi. You cook tomorrow.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_lola_krank",
+  "feld": "option",
+  "alt": "\"Order food from Alva.\"",
+  "neu": "\"Sides with Sophia. “We order from Alva, and nobody gets poisoned.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_lola_krank",
+  "feld": "option",
+  "alt": "\"Duc cooks himself.\"",
+  "neu": "\"Takes the apron off Rosi. “I'll cook tomorrow.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_kevin_nest",
+  "feld": "option",
+  "alt": "\"Kevin can stay.\"",
+  "neu": "\"“Leave the nest. Kevin can stay on panel four.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_kevin_nest",
+  "feld": "option",
+  "alt": "\"Nest gone, Kevin gone.\"",
+  "neu": "\"“The nest goes, and so does Kevin. Sorry, Lea.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_singen_ohne_strom",
+  "feld": "option",
+  "alt": "\"No phones, no cameras.\"",
+  "neu": "\"Takes Siri's side. “No phones and no cameras tomorrow night. That means you, Yasin.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_ein_tisch",
+  "feld": "option",
+  "alt": "\"Etiquette stays.\"",
+  "neu": "\"“Chiara's right. Guests in the salon, crew in the mess.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_ein_tisch",
+  "feld": "option",
+  "alt": "\"One table for everyone.\"",
+  "neu": "\"Sides with Lola. “One table for everyone, guests and crew.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_megan_kommt",
+  "feld": "option",
+  "alt": "\"Polish all night.\"",
+  "neu": "\"“Chiara's right. We polish the whole boat tonight, every handle and every glass.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_megan_kommt",
+  "feld": "option",
+  "alt": "\"Rosi's sign.\"",
+  "neu": "\"“Make your sign, Rosi. Let Megan see the truth.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_megan_kommt",
+  "feld": "option",
+  "alt": "\"Only the salon gets polished.\"",
+  "neu": "\"“We polish the salon and nothing else.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_nacktbaden",
+  "feld": "option",
+  "alt": "\"Nothing happened, really.\"",
+  "neu": "\"Shrugs at Chiara. “Nothing happened, really. Two people went for a swim.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_nacktbaden",
+  "feld": "option",
+  "alt": "\"From now on, swimwear only.\"",
+  "neu": "\"“Chiara gets her rule. From now on, swimwear only.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_rosi_ueberstunden",
+  "feld": "option",
+  "alt": "\"Rosi carries on.\"",
+  "neu": "\"“All right, Rosi. One more day, then you sleep.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_rosi_ueberstunden",
+  "feld": "option",
+  "alt": "\"Tomorrow off. That's an order.\"",
+  "neu": "\"“You take tomorrow off, Rosi. That's an order.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_netze_flicken",
+  "feld": "option",
+  "alt": "\"Offer him money.\"",
+  "neu": "\"Sides with Rosi. “We pay Petru in euros for the fish.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_netze_flicken",
+  "feld": "option",
+  "alt": "\"Lea and Duc mend the nets.\"",
+  "neu": "\"“Lea and I will mend his nets tomorrow.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_netze_flicken",
+  "feld": "option",
+  "alt": "\"Send Totò, with wine.\"",
+  "neu": "\"“Send Totò to Petru instead, with a bottle of wine.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_siri_umzug",
+  "feld": "option",
+  "alt": "\"Siri gets the bunk.\"",
+  "neu": "\"“Give Siri the crew bunk, Sophia. That's my decision, Yasin.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_siri_umzug",
+  "feld": "option",
+  "alt": "\"Let the two of them sort it out.\"",
+  "neu": "\"Stays out of it. “You two sort this out yourselves.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_siri_umzug",
+  "feld": "option",
+  "alt": "\"Siri decides, the crew just helps.\"",
+  "neu": "\"“It's Siri's choice. If she moves, the crew helps her.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_trinkgeld",
+  "feld": "option",
+  "alt": "\"Give it back; Duc talks to Yasin.\"",
+  "neu": "\"Takes the envelope from Lea. “I'll give it back and talk to Yasin.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_trinkgeld",
+  "feld": "option",
+  "alt": "\"Into the crew fund.\"",
+  "neu": "\"“Totò's right, Lea. Put it in the crew box.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_ehrenbuerger",
+  "feld": "option",
+  "alt": "\"Wear the crown.\"",
+  "neu": "\"“Tell the mayor yes. I'll wear the crown.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_ehrenbuerger",
+  "feld": "option",
+  "alt": "O(\"Decline.\", [V(\"chiara\", 6), V(\"casanova\", -6)], von=\"chiara\"),",
+  "neu": "O(\"Sides with Chiara. “No shell crown for me. Thank the mayor kindly.”\", [V(\"chiara\", 6), V(\"casanova\", -6)], von=\"chiara\"),"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_investoren_dinner",
+  "feld": "option",
+  "alt": "\"The dinner, the way Megan wants it.\"",
+  "neu": "\"Nods to Megan. “Eight courses and candles, as you want it. The crew will serve.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_investoren_dinner",
+  "feld": "option",
+  "alt": "O(\"Decline.\", [V(\"chiara\", 6), V(\"megan\", -8), R(5)], von=\"chiara\"),",
+  "neu": "O(\"Looks at Megan. “No dinner. This crew is exhausted.”\", [V(\"chiara\", 6), V(\"megan\", -8), R(5)], von=\"chiara\"),"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_abschiedsfest",
+  "feld": "option",
+  "alt": "\"Party.\"",
+  "neu": "\"Sides with Lola. “We dance tonight, and that means everyone.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_abschiedsfest",
+  "feld": "option",
+  "alt": "\"Everyone sleeps.\"",
+  "neu": "\"“Chiara's right. Everyone in their bunk by midnight.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_abschiedsfest",
+  "feld": "option",
+  "alt": "\"Party until midnight, then Duc sends everyone to bed.\"",
+  "neu": "\"“We dance until midnight, then I send everyone to bed.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_staerken.py",
+  "id": "br_lola_flach",
+  "feld": "option",
+  "alt": "\"Rosi's way: cold food, save power.\"",
+  "neu": "\"“Rosi's right. Cold tins tomorrow, and we save the power.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_staerken.py",
+  "id": "br_lola_flach",
+  "feld": "option",
+  "alt": "\"Sophia's way: a proper meal.\"",
+  "neu": "\"Sides with Sophia. “One proper meal. I'll cook it.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_wiki.py",
+  "id": "br_satellit_sonntag",
+  "feld": "option",
+  "alt": "\"Lola gets the long call.\"",
+  "neu": "\"Gives the long call to Lola. “Ring your Nan. Jana, you'll have to keep yours short.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_wiki.py",
+  "id": "br_satellit_sonntag",
+  "feld": "option",
+  "alt": "\"Jana gets the long call.\"",
+  "neu": "\"“Take the long call, Jana, your mama has questions. Lola, keep yours short.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_wiki.py",
+  "id": "br_jana_tender",
+  "feld": "option",
+  "alt": "\"Jana goes alone.\"",
+  "neu": "\"“Take the tender, Jana. Alone, to the harbour and back.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_wiki.py",
+  "id": "br_jana_tender",
+  "feld": "option",
+  "alt": "\"Not yet.\"",
+  "neu": "\"Sides with Chiara. “Not yet, Jana. Six weeks is too short.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_wiki.py",
+  "id": "br_holm_paket",
+  "feld": "option",
+  "alt": "\"The hot coffee goes on top.\"",
+  "neu": "\"Puts Lola's thermos of hot coffee on top of the parcel.\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_wiki.py",
+  "id": "br_holm_paket",
+  "feld": "option",
+  "alt": "\"The watch lists go on top.\"",
+  "neu": "\"Puts Chiara's watch lists on top of the parcel. “She'll want to sign them.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_wiki.py",
+  "id": "br_fish_pie",
+  "feld": "option",
+  "alt": "\"Lola bakes it.\"",
+  "neu": "\"“Bake the fish pie, Lola. Petru should eat sitting down for once.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_wiki.py",
+  "id": "br_fish_pie",
+  "feld": "option",
+  "alt": "\"Something else. Not the pie.\"",
+  "neu": "\"Sides with Chiara. “Not his wife's pie, Lola. Cook him something else.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_wiki.py",
+  "id": "br_toto_stand",
+  "feld": "option",
+  "alt": "\"Signs it.\"",
+  "neu": "\"Signs the form for Totò. “One table, on market day.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_wiki.py",
+  "id": "br_toto_stand",
+  "feld": "option",
+  "alt": "\"Not under the yacht's name.\"",
+  "neu": "\"Pushes the form back. “Not under the yacht's name, Totò.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_wiki.py",
+  "id": "br_handtuecher",
+  "feld": "option",
+  "alt": "\"Jana carries what she likes.\"",
+  "neu": "\"“Jana can carry what she likes, Chiara. It's her choice.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_wiki.py",
+  "id": "br_handtuecher",
+  "feld": "option",
+  "alt": "\"Crew is crew.\"",
+  "neu": "\"“Chiara's right, Jana. Crew is crew, so no more towels for Siri.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_staerken.py",
+  "id": "du_koch_alva",
+  "feld": "option",
+  "alt": "\"Your thịt kho against her pâté.\"",
+  "neu": "\"Puts his thịt kho up against her pâté.\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_staerken.py",
+  "id": "du_koch_alva",
+  "feld": "option",
+  "alt": "\"Both on one plate: Corsican-Vietnamese.\"",
+  "neu": "\"Puts both dishes on one plate, half Corsican and half Vietnamese.\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_staerken.py",
+  "id": "du_koch_lola",
+  "feld": "option",
+  "alt": "\"Cooks to win: your best dish.\"",
+  "neu": "\"Cooks his best dish, and cooks to win.\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_staerken.py",
+  "id": "du_koch_toto",
+  "feld": "option",
+  "alt": "\"Your thịt kho against his ragù.\"",
+  "neu": "\"Sets his thịt kho down next to Totò's ragù. “Forks ready, Rosi.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_staerken.py",
+  "id": "du_poetry_sophia",
+  "feld": "option",
+  "alt": "\"A poem, cheeky and warm.\"",
+  "neu": "\"Stands up and reads a cheeky, warm poem about the fridge.\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_staerken.py",
+  "id": "du_poetry_sophia",
+  "feld": "option",
+  "alt": "\"A poem only Sophia understands.\"",
+  "neu": "\"Reads a poem about the fridge that only Sophia will understand.\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_staerken.py",
+  "id": "du_poetry_sophia",
+  "feld": "option",
+  "alt": "\"Lets the fridge speak for itself.\"",
+  "neu": "\"Speaks as the fridge, in the fridge's own voice.\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_staerken.py",
+  "id": "du_reparatur_rosi",
+  "feld": "option",
+  "alt": "\"Works against the clock.\"",
+  "neu": "\"Races Rosi against the stopwatch to fix the blender.\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_staerken.py",
+  "id": "du_reparatur_rosi",
+  "feld": "option",
+  "alt": "\"Works on it together, one hand each.\"",
+  "neu": "\"Fixes the blender with Rosi, her right hand and his left.\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_staerken.py",
+  "id": "du_harpune_chiara",
+  "feld": "option",
+  "alt": "\"Beats her to it.\"",
+  "neu": "\"Builds his speargun as fast as he can and shoots at the buoy.\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_staerken.py",
+  "id": "du_harpune_chiara",
+  "feld": "option",
+  "alt": "\"Helps her with the last part so you finish together.\"",
+  "neu": "\"Helps Chiara with the last part so they finish together.\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_staerken.py",
+  "id": "du_tiere_lea",
+  "feld": "option",
+  "alt": "\"Gives deliberately silly answers.\"",
+  "neu": "\"Guesses as badly as he can, on purpose. “A seagull?”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_staerken.py",
+  "id": "du_tiere_lea",
+  "feld": "option",
+  "alt": "\"Brings Petru into the game.\"",
+  "neu": "\"Turns to the railing. “Petru, you know this sea. Your turn.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_staerken.py",
+  "id": "gv_quiz",
+  "feld": "option",
+  "alt": "\"Disqualifies Totò.\"",
+  "neu": "\"Rings the bell. “Phone under the table, Totò. You're disqualified.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_staerken.py",
+  "id": "gv_quiz",
+  "feld": "option",
+  "alt": "\"A bonus question only you can answer.\"",
+  "neu": "\"“Bonus question, and only the host knows the answer.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_staerken.py",
+  "id": "auf_karaoke",
+  "feld": "option",
+  "alt": "\"A duet: chooses a partner.\"",
+  "neu": "\"Holds out the second microphone and picks a partner.\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_staerken.py",
+  "id": "auf_karaoke",
+  "feld": "option",
+  "alt": "\"Alone, giving it everything.\"",
+  "neu": "\"Takes the microphone alone and gives it everything.\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gagv.py",
+  "id": "gv_wer_fuehrt",
+  "feld": "option",
+  "alt": "\"Chiara's right.\"",
+  "neu": "\"“Chiara's right, Rosi. The interior crew is hers to assign.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gagv.py",
+  "id": "gv_wer_fuehrt",
+  "feld": "option",
+  "alt": "\"Rosi's right.\"",
+  "neu": "\"“Rosi needs those hands more, Chiara. The repairs come first.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gagv.py",
+  "id": "gv_wer_fuehrt",
+  "feld": "option",
+  "alt": "\"Make a plan together. Right now.\"",
+  "neu": "\"“You two make a plan together, right here, right now.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gagv.py",
+  "id": "gv_gute_kabine",
+  "feld": "option",
+  "alt": "\"Sophia gets it.\"",
+  "neu": "\"Gives the cabin to Sophia. “You need the quiet to write.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gagv.py",
+  "id": "gv_gute_kabine",
+  "feld": "option",
+  "alt": "\"Lola gets it.\"",
+  "neu": "\"“The cabin is Lola's. We all need a door between us and that snoring.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gagv.py",
+  "id": "gv_gute_kabine",
+  "feld": "option",
+  "alt": "\"They draw lots. Duc holds the hat.\"",
+  "neu": "\"Holds out his hat. “You two draw lots.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gagv.py",
+  "id": "gv_oktopus",
+  "feld": "option",
+  "alt": "\"Lea: keep him, just for a bit.\"",
+  "neu": "\"Sides with Lea. “He can stay in the ice bucket, just for today.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gagv.py",
+  "id": "gv_oktopus",
+  "feld": "option",
+  "alt": "\"Siri: back to the sea.\"",
+  "neu": "\"Sides with Siri. “He goes back in the sea, Lea.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gagv.py",
+  "id": "gv_arancini_duell",
+  "feld": "option",
+  "alt": "\"Lola's win.\"",
+  "neu": "\"Raises Lola's hand. “Lola's arancini win.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gagv.py",
+  "id": "gv_arancini_duell",
+  "feld": "option",
+  "alt": "\"Alva's win.\"",
+  "neu": "\"“Alva wins. You can taste forty years of this bar.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gagv.py",
+  "id": "gv_festa_outfits",
+  "feld": "option",
+  "alt": "\"Chiara: matching.\"",
+  "neu": "\"“Chiara's right. White shirts and navy trousers for everyone.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gagv.py",
+  "id": "gv_festa_outfits",
+  "feld": "option",
+  "alt": "\"Sophia: everyone as they like.\"",
+  "neu": "\"Sides with Sophia. “Let them shine. Everyone wears what they like.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gagv.py",
+  "id": "gv_einkaufsliste",
+  "feld": "option",
+  "alt": "\"Tins. Chiara's budget.\"",
+  "neu": "\"Takes Chiara's list. “Tins. We stay on budget.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gagv.py",
+  "id": "gv_einkaufsliste",
+  "feld": "option",
+  "alt": "\"Lola's list, all of it.\"",
+  "neu": "\"Takes Lola's two pages. “Buy all of it, saffron too.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gagv.py",
+  "id": "gv_elsa_alva",
+  "feld": "option",
+  "alt": "\"Backs Elsa.\"",
+  "neu": "\"Sniffs the air. “That's diesel, Alva.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gagv.py",
+  "id": "gv_elsa_alva",
+  "feld": "option",
+  "alt": "\"Covers for Alva.\"",
+  "neu": "\"Leans on the bar. “Nice perfume, Alva. Very exclusive.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gagv.py",
+  "id": "gv_aussenborder",
+  "feld": "option",
+  "alt": "\"Petru's way.\"",
+  "neu": "\"Nods at the hammer. “Go on, Petru. Let's hear what the engine says.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gagv.py",
+  "id": "gv_aussenborder",
+  "feld": "option",
+  "alt": "\"Rosi's way.\"",
+  "neu": "\"“Put the hammer down, Petru. Rosi reads the fault code.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gag1.py",
+  "id": "g1_chiara_tender",
+  "feld": "option",
+  "alt": "\"Calm and slow.\"",
+  "neu": "\"Takes the keys and reverses the tender in, calm and slow.\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gag1.py",
+  "id": "g1_kalte_dusche",
+  "feld": "option",
+  "alt": "\"Rosi's right.\"",
+  "neu": "\"“Rosi's right, Siri. Cold water it is.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gag1.py",
+  "id": "g1_toto_pizza",
+  "feld": "option",
+  "alt": "\"Totò's right.\"",
+  "neu": "\"“Totò's right, Lola. No pineapple on his dough.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gag1.py",
+  "id": "g1_toto_pizza",
+  "feld": "option",
+  "alt": "\"Two pizzas and a jury.\"",
+  "neu": "\"“Bake two pizzas, one each, and let a jury decide.”\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_funken.py",
+  "id": "bk_rosi_fleck",
+  "feld": "lage",
+  "alt": "Then she freezes.",
+  "neu": "Then her thumb stops halfway."
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_bordrat.py",
+  "id": "br_festa_auftritt",
+  "feld": "lage",
+  "alt": "Madame Casanova wants the crew at the festa. On a stage. In sailor costumes. With a song.",
+  "neu": "Madame Casanova wants the crew on a stage at the festa, in sailor costumes, with a song."
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gag1.py",
+  "id": "g1_yasin_geste",
+  "feld": "lage",
+  "alt": "Siri stands there, frozen.",
+  "neu": "Siri stands there and doesn't move."
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gagv.py",
+  "id": "gv_casanova_alva",
+  "feld": "lage",
+  "alt": "wants to turn Alva's bar into a VIP lounge for the festa. With a velvet rope.",
+  "neu": "wants to turn Alva's bar into a VIP lounge for the festa, with a velvet rope."
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gag1.py",
+  "id": "g1_cousin_schlauchboot",
+  "feld": "lage",
+  "alt": "\"Totò's cousin comes alongside at night in a rubber dinghy. No lights. He's unloading crates. On the shore \"",
+  "neu": "\"Totò's cousin comes alongside at night in a rubber dinghy with no lights and starts unloading crates. On the shore \""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gag1.py",
+  "id": "g1_cousin_schlauchboot",
+  "feld": "lage",
+  "alt": "\"something flashes. Elsa's binoculars.\"",
+  "neu": "\"something flashes: Elsa's binoculars.\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_handy.py",
+  "id": "hy_megan_rundgang",
+  "feld": "lage",
+  "alt": "\"Megan wants a tour. Live, by video, right now. You walk through the yacht with \"",
+  "neu": "\"Megan wants a tour, live by video, right now. You walk through the yacht with \""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_handy.py",
+  "id": "hy_megan_rundgang",
+  "feld": "lage",
+  "alt": "\"the phone. Megan comments on everything.\"",
+  "neu": "\"the phone, and she comments on everything.\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_wiki.py",
+  "id": "br_jana_tender",
+  "feld": "lage",
+  "alt": "\"tomorrow. Alone. Her first time. Chiara says no before he has finished the sentence.\"",
+  "neu": "\"tomorrow, alone, for the first time. Chiara says no before he has finished the sentence.\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gagv.py",
+  "id": "gv_versoehnung",
+  "feld": "lage",
+  "alt": "\"Lea and Rosi had a fight. Now both of them are baking a peace cake to apologise. At the same time. In the \"",
+  "neu": "\"Lea and Rosi had a fight. Now both of them are baking a peace cake to apologise, at the same time, in the \""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gag1.py",
+  "id": "g1_chiara_inspektion",
+  "feld": "lage",
+  "alt": "\"Chiara is inspecting the crew cabins. In white gloves. She has reached your cabin. She has found something \"",
+  "neu": "\"Chiara is inspecting the crew cabins in white gloves. She has reached your cabin, and she has found something \""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_gag1.py",
+  "id": "g1_chiara_tender",
+  "feld": "lage",
+  "alt": "\"reverse it into the garage. In front of the crew. Without help. She folds her arms and waits.\"",
+  "neu": "\"reverse it into the garage, in front of the crew and without help. She folds her arms and waits.\""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_handy.py",
+  "id": "hy_alva_diesel_tanz",
+  "feld": "lage",
+  "alt": "\"Alva has one canister of diesel left. She won't sell it. She'll trade it. \"",
+  "neu": "\"Alva has one canister of diesel left. She won't sell it, but she'll trade it \""
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_handy.py",
+  "id": "hy_alva_diesel_tanz",
+  "feld": "lage",
+  "alt": "\"For a dance, tonight, on her bar, in front of the whole village.\"",
+  "neu": "\"for a dance, tonight, on her bar, in front of the whole village.\""
+ }
+]

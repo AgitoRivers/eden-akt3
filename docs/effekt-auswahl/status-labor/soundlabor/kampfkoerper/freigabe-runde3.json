@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "source": "Duc clipboard feedback 2026-10-25T19:19:19.776Z",
+  "selected": {
+    "dog_pounce": {
+      "label": "Hund · Anspringen",
+      "variant": "A",
+      "file": "revision3/audio/dog_pounce_AC.ogg",
+      "asset_id": "combat-foley-v3-dog_pounce-AC",
+      "revision": 3,
+      "sha256": "d661d30e2b99dad2f982a6b34fa93f6ab99c32230a141e4bc8961d79f0006894",
+      "note": ""
+    },
+    "guard_raise": {
+      "label": "Duc · Deckung einnehmen",
+      "variant": "D",
+      "file": "revision3/audio/guard_raise_4.ogg",
+      "asset_id": "combat-foley-v3-guard_raise-D",
+      "revision": 3,
+      "sha256": "8e6e77b10ab60d1d1d43a511ec4745a73eb13fdfd486c7d1ac1048ecd1bac4a1",
+      "note": ""
+    },
+    "duc_effort": {
+      "label": "Duc · Ausatmen beim schweren Angriff",
+      "variant": "A",
+      "file": "revision3/audio/duc_effort_1.ogg",
+      "asset_id": "combat-foley-v3-duc_effort-A",
+      "revision": 3,
+      "sha256": "997839ca4d92c9079a3782a3099fa262551f49da8a782f4336b2485a18fd4ee2",
+      "note": ""
+    },
+    "electric_contact": {
+      "label": "Strom · Überschlag",
+      "variant": "A",
+      "file": "revision3/audio/electric_contact_1.ogg",
+      "asset_id": "combat-foley-v3-electric_contact-A",
+      "revision": 3,
+      "sha256": "6117ab8df7d9fbc4b0bc07e75a3756f6e8aac4c7f43f8cbb6f60abcfd3926565",
+      "note": ""
+    }
+  },
+  "requests": {
+    "rat_swarm": "Aber es ist doch ein sprung warum trippelt der Sound. Mach doch einfach ein Sprung und dann ein Biss als Sound. ",
+    "stance_step": "satter wie mit leder schuhen",
+    "spear_thrust": "das ist gut aber am Ende muss ein klingen sound, ggf. verbinde es mit einem bestehenden",
+    "gun_reload": "noch nicht happy muss satter shotgun nachalde sound sien"
+  },
+  "committed": false
+}

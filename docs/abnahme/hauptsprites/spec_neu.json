@@ -1,0 +1,135 @@
+{
+ "id": "sprite_neu",
+ "titel": "Neu ohne Krea_Nsfw2, Format 1104x1408",
+ "hinweis": "Daneben steht das aktuelle Bild. Noch ist nichts im Spiel. Bei Chiara und Rosi je Pose eine Variante auf OK, die andere auf Neu oder offen lassen. Bei Sophia entscheidet der Test, wie es weitergeht.",
+ "items": [
+  {
+   "id": "Chiara_joy-1__seed_alt",
+   "titel": "Chiara · joy-1 · seed_alt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Chiara\\joy-1__seed_alt.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Chiara Sonnberg\\joy-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl, noch ihr Gesicht und Outfit. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Chiara_joy-1__seed_neu",
+   "titel": "Chiara · joy-1 · seed_neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Chiara\\joy-1__seed_neu.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Chiara Sonnberg\\joy-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl, noch ihr Gesicht und Outfit. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Chiara_optimism-1__seed_alt",
+   "titel": "Chiara · optimism-1 · seed_alt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Chiara\\optimism-1__seed_alt.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Chiara Sonnberg\\optimism-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl, noch ihr Gesicht und Outfit. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Chiara_optimism-1__seed_neu",
+   "titel": "Chiara · optimism-1 · seed_neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Chiara\\optimism-1__seed_neu.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Chiara Sonnberg\\optimism-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl, noch ihr Gesicht und Outfit. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Rosi_grief-1__seed_alt",
+   "titel": "Rosi · grief-1 · seed_alt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Rosi\\grief-1__seed_alt.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Rosi Scuderi\\grief-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl, noch ihr Gesicht und Outfit. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Rosi_grief-1__seed_neu",
+   "titel": "Rosi · grief-1 · seed_neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Rosi\\grief-1__seed_neu.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Rosi Scuderi\\grief-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl, noch ihr Gesicht und Outfit. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Rosi_joy-1__seed_alt",
+   "titel": "Rosi · joy-1 · seed_alt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Rosi\\joy-1__seed_alt.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Rosi Scuderi\\joy-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl, noch ihr Gesicht und Outfit. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Rosi_joy-1__seed_neu",
+   "titel": "Rosi · joy-1 · seed_neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Rosi\\joy-1__seed_neu.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Rosi Scuderi\\joy-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl, noch ihr Gesicht und Outfit. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Rosi_optimism-1__seed_alt",
+   "titel": "Rosi · optimism-1 · seed_alt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Rosi\\optimism-1__seed_alt.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Rosi Scuderi\\optimism-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl, noch ihr Gesicht und Outfit. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Rosi_optimism-1__seed_neu",
+   "titel": "Rosi · optimism-1 · seed_neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Rosi\\optimism-1__seed_neu.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Rosi Scuderi\\optimism-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl, noch ihr Gesicht und Outfit. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_caring__lora_1.0",
+   "titel": "Sophia · caring · lora_1.0",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\caring__lora_1.0.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\caring.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Test der Figuren-LoRA: Steht sie jetzt, und ist es noch Sophia?"
+  },
+  {
+   "id": "Sophia_caring__lora_0.8",
+   "titel": "Sophia · caring · lora_0.8",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\caring__lora_0.8.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\caring.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Test der Figuren-LoRA: Steht sie jetzt, und ist es noch Sophia?"
+  },
+  {
+   "id": "Sophia_surprise__lora_1.0",
+   "titel": "Sophia · surprise · lora_1.0",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\surprise__lora_1.0.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\surprise.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Test der Figuren-LoRA: Steht sie jetzt, und ist es noch Sophia?"
+  },
+  {
+   "id": "Sophia_surprise__lora_0.8",
+   "titel": "Sophia · surprise · lora_0.8",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\surprise__lora_0.8.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\surprise.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Test der Figuren-LoRA: Steht sie jetzt, und ist es noch Sophia?"
+  },
+  {
+   "id": "Sophia_pride__lora_1.0",
+   "titel": "Sophia · pride · lora_1.0",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\pride__lora_1.0.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\pride.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Test der Figuren-LoRA: Steht sie jetzt, und ist es noch Sophia?"
+  },
+  {
+   "id": "Sophia_pride__lora_0.8",
+   "titel": "Sophia · pride · lora_0.8",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\pride__lora_0.8.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\pride.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Test der Figuren-LoRA: Steht sie jetzt, und ist es noch Sophia?"
+  }
+ ]
+}

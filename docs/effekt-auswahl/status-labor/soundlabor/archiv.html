@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="de">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Eden Rise · Soundlabor</title><link rel="stylesheet" href="soundlabor.css?v=1"></head>
+<body>
+<header><div><a href="../ablaufprobe/">← Angriffslabor</a><h1>Soundlabor <span>EDEN RISE</span></h1><p>Erst den Klang wählen. Danach setzen wir die Attacken zusammen.</p></div><div class="header-actions"><output id="progress">Katalog wird geladen …</output><button id="copy" type="button">Auswahl kopieren</button><button id="export" type="button">Auswahl sichern ↓</button><button id="import" type="button">Auswahl laden</button><input id="import-file" type="file" accept="application/json,.json" hidden></div></header>
+<div class="workspace"><aside><p class="eyebrow">KLANGFAMILIEN</p><nav id="categories" aria-label="Klangfamilien"></nav><div class="legend"><h2>Vier Klangrichtungen</h2><p><b>A</b> Trocken & realistisch</p><p><b>B</b> Schwer & druckvoll</p><p><b>C</b> Schnell & präzise</p><p><b>D</b> Rau & charaktervoll</p><small>Einzelne Bausteine, keine fertigen Angriffsmischungen.</small></div></aside>
+<main><div class="toolbar"><label class="search">Suchen <input id="search" type="search" placeholder="Baustein oder Spezialattacke …"></label><label><input id="open-only" type="checkbox"> Nur ohne Favorit</label><label>Lautstärke <input id="volume" type="range" min="0" max="100" value="65" aria-label="Lautstärke"></label><button id="stop" type="button">■ Stopp</button></div><div class="overview"><span id="count"></span><small>Lautstärke angeglichen · keine automatische Wiedergabe · Auswahl bleibt in diesem Browser</small></div><div id="catalog"></div><p id="empty" hidden>Keine passenden Bausteine. Suche oder Filter ändern.</p></main></div>
+<footer><span id="message" role="status" aria-live="polite">Bereit zum Vorhören.</span><span id="storage-status">Nur im Labor · keine Spieländerung</span></footer>
+<script src="soundlabor.js?v=2"></script>
+</body></html>

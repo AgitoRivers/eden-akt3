@@ -1,0 +1,338 @@
+{
+ "agent": {
+  "bild": "fig_agent.webp",
+  "bilder": 6,
+  "seite": 0.9115,
+  "hoehe": 178,
+  "stand": {
+   "bild": "fig_agent_stand.webp",
+   "bilder": 6,
+   "seite": 0.9115,
+   "hoehe": 173
+  }
+ },
+ "alva": {
+  "bild": "fig_alva.webp",
+  "bilder": 6,
+  "seite": 0.8073,
+  "hoehe": 178,
+  "stand": {
+   "bild": "fig_alva_stand.webp",
+   "bilder": 6,
+   "seite": 0.8594,
+   "hoehe": 181
+  }
+ },
+ "bibi": {
+  "bild": "fig_bibi.webp",
+  "bilder": 6,
+  "seite": 0.6302,
+  "hoehe": 169,
+  "stand": {
+   "bild": "fig_bibi_stand.webp",
+   "bilder": 6,
+   "seite": 0.6823,
+   "hoehe": 172
+  }
+ },
+ "bonaventure": {
+  "bild": "fig_bonaventure.webp",
+  "bilder": 6,
+  "seite": 1.2031,
+  "hoehe": 163,
+  "stand": {
+   "bild": "fig_bonaventure_stand.webp",
+   "bilder": 6,
+   "seite": 1.2031,
+   "hoehe": 169
+  }
+ },
+ "brand": {
+  "bild": "fig_brand.webp",
+  "bilder": 6,
+  "seite": 0.6823,
+  "hoehe": 159,
+  "stand": {
+   "bild": "fig_brand_stand.webp",
+   "bilder": 6,
+   "seite": 0.6458,
+   "hoehe": 160
+  }
+ },
+ "brawler": {
+  "bild": "fig_brawler.webp",
+  "bilder": 6,
+  "seite": 1.25,
+  "hoehe": 158,
+  "stand": {
+   "bild": "fig_brawler_stand.webp",
+   "bilder": 6,
+   "seite": 1.3125,
+   "hoehe": 152
+  }
+ },
+ "brute": {
+  "bild": "fig_brute.webp",
+  "bilder": 6,
+  "seite": 0.8281,
+  "hoehe": 179,
+  "stand": {
+   "bild": "fig_brute_stand.webp",
+   "bilder": 6,
+   "seite": 0.8177,
+   "hoehe": 177
+  }
+ },
+ "chiara_uniform": {
+  "bild": "fig_chiara_uniform.webp",
+  "bilder": 6,
+  "seite": 0.8385,
+  "hoehe": 179,
+  "stand": {
+   "bild": "fig_chiara_uniform_stand.webp",
+   "bilder": 6,
+   "seite": 0.8594,
+   "hoehe": 179
+  }
+ },
+ "chiara_whites": {
+  "bild": "fig_chiara_whites.webp",
+  "bilder": 6,
+  "seite": 0.8385,
+  "hoehe": 179,
+  "stand": {
+   "bild": "fig_chiara_whites_stand.webp",
+   "bilder": 6,
+   "seite": 0.8542,
+   "hoehe": 176
+  }
+ },
+ "danzel": {
+  "bild": "fig_danzel.webp",
+  "bilder": 6,
+  "seite": 1.0104,
+  "hoehe": 172,
+  "stand": {
+   "bild": "fig_danzel_stand.webp",
+   "bilder": 6,
+   "seite": 0.9948,
+   "hoehe": 171
+  }
+ },
+ "drohne": {
+  "bild": "fig_drohne.webp",
+  "bilder": 6,
+  "seite": 1.6354,
+  "hoehe": 114,
+  "stand": {
+   "bild": "fig_drohne_stand.webp",
+   "bilder": 6,
+   "seite": 1.7135,
+   "hoehe": 106
+  }
+ },
+ "duc_erde": {
+  "bild": "fig_duc_erde.webp",
+  "bilder": 6,
+  "seite": 1.25,
+  "hoehe": 178,
+  "stand": {
+   "bild": "fig_duc_erde_stand.webp",
+   "bilder": 6,
+   "seite": 1.276,
+   "hoehe": 172
+  }
+ },
+ "duc_feuer": {
+  "bild": "fig_duc_feuer.webp",
+  "bilder": 6,
+  "seite": 1.2344,
+  "hoehe": 181,
+  "stand": {
+   "bild": "fig_duc_feuer_stand.webp",
+   "bilder": 6,
+   "seite": 1.2656,
+   "hoehe": 176
+  }
+ },
+ "duc_luft": {
+  "bild": "fig_duc_luft.webp",
+  "bilder": 6,
+  "seite": 1.25,
+  "hoehe": 179,
+  "stand": {
+   "bild": "fig_duc_luft_stand.webp",
+   "bilder": 6,
+   "seite": 1.2604,
+   "hoehe": 176
+  }
+ },
+ "duc_wasser": {
+  "bild": "fig_duc_wasser.webp",
+  "bilder": 6,
+  "seite": 1.25,
+  "hoehe": 179,
+  "stand": {
+   "bild": "fig_duc_wasser_stand.webp",
+   "bilder": 6,
+   "seite": 1.2656,
+   "hoehe": 175
+  }
+ },
+ "elsa": {
+  "bild": "fig_elsa.webp",
+  "bilder": 6,
+  "seite": 0.526,
+  "hoehe": 180,
+  "stand": {
+   "bild": "fig_elsa_stand.webp",
+   "bilder": 6,
+   "seite": 0.5365,
+   "hoehe": 178
+  }
+ },
+ "gunner": {
+  "bild": "fig_gunner.webp",
+  "bilder": 6,
+  "seite": 1.1667,
+  "hoehe": 170,
+  "stand": {
+   "bild": "fig_gunner_stand.webp",
+   "bilder": 6,
+   "seite": 1.1719,
+   "hoehe": 174
+  }
+ },
+ "hund": {
+  "bild": "fig_hund.webp",
+  "bilder": 6,
+  "seite": 1.5469,
+  "hoehe": 127,
+  "stand": {
+   "bild": "fig_hund_stand.webp",
+   "bilder": 6,
+   "seite": 1.5208,
+   "hoehe": 136
+  }
+ },
+ "maxwell": {
+  "bild": "fig_maxwell.webp",
+  "bilder": 6,
+  "seite": 1.0677,
+  "hoehe": 181,
+  "stand": {
+   "bild": "fig_maxwell_stand.webp",
+   "bilder": 6,
+   "seite": 1.151,
+   "hoehe": 172
+  }
+ },
+ "minicu": {
+  "bild": "fig_minicu.webp",
+  "bilder": 6,
+  "seite": 0.9635,
+  "hoehe": 173,
+  "stand": {
+   "bild": "fig_minicu_stand.webp",
+   "bilder": 6,
+   "seite": 0.9219,
+   "hoehe": 176
+  }
+ },
+ "pascal": {
+  "bild": "fig_pascal.webp",
+  "bilder": 6,
+  "seite": 0.6042,
+  "hoehe": 180,
+  "stand": {
+   "bild": "fig_pascal_stand.webp",
+   "bilder": 6,
+   "seite": 0.5469,
+   "hoehe": 180
+  }
+ },
+ "petru": {
+  "bild": "fig_petru.webp",
+  "bilder": 6,
+  "seite": 0.7865,
+  "hoehe": 173,
+  "stand": {
+   "bild": "fig_petru_stand.webp",
+   "bilder": 6,
+   "seite": 0.7552,
+   "hoehe": 173
+  }
+ },
+ "roboter": {
+  "bild": "fig_roboter.webp",
+  "bilder": 6,
+  "seite": 1.1667,
+  "hoehe": 174,
+  "stand": {
+   "bild": "fig_roboter_stand.webp",
+   "bilder": 6,
+   "seite": 1.1406,
+   "hoehe": 168
+  }
+ },
+ "rosi": {
+  "bild": "fig_rosi.webp",
+  "bilder": 6,
+  "seite": 0.7396,
+  "hoehe": 178,
+  "stand": {
+   "bild": "fig_rosi_stand.webp",
+   "bilder": 6,
+   "seite": 0.7344,
+   "hoehe": 180
+  }
+ },
+ "schuetze": {
+  "bild": "fig_schuetze.webp",
+  "bilder": 6,
+  "seite": 0.6458,
+  "hoehe": 173,
+  "stand": {
+   "bild": "fig_schuetze_stand.webp",
+   "bilder": 6,
+   "seite": 0.6615,
+   "hoehe": 172
+  }
+ },
+ "white": {
+  "bild": "fig_white.webp",
+  "bilder": 6,
+  "seite": 0.6146,
+  "hoehe": 175,
+  "stand": {
+   "bild": "fig_white_stand.webp",
+   "bilder": 6,
+   "seite": 0.6406,
+   "hoehe": 176
+  }
+ },
+ "wolff": {
+  "bild": "fig_wolff.webp",
+  "bilder": 6,
+  "seite": 1.1302,
+  "hoehe": 180,
+  "stand": {
+   "bild": "fig_wolff_stand.webp",
+   "bilder": 6,
+   "seite": 1.1719,
+   "hoehe": 178
+  }
+ },
+ "yamamoto": {
+  "bild": "fig_yamamoto.webp",
+  "bilder": 6,
+  "seite": 1.2344,
+  "hoehe": 179,
+  "stand": {
+   "bild": "fig_yamamoto_stand.webp",
+   "bilder": 6,
+   "seite": 1.2188,
+   "hoehe": 178
+  }
+ }
+}

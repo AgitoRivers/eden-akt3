@@ -1,0 +1,12 @@
+{
+ "id": "alon_buehne_nah",
+ "titel": "Alon: Bühne, näher ran",
+ "hinweis": "Zu v3 „näher ran“: vier neue Seeds mit der Kamera auf der Bühne, der Bildschirm füllt fast das ganze Bild. Dazu v5, ein Ausschnitt genau aus v3, dafür etwas weicher. Rechts jeweils v3 zum Vergleich. Alle bestehen die Prüfung: keine Tür, Mitte unten frei, Pult rechts.",
+ "items": [
+  {"id": "v1", "titel": "Nah · Seed 1", "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_alon_keynote_nah_v1.png", "soll": "Stufen vorn, die Bühne wirkt erhöht.", "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_alon_keynote_v3.png", "vergleich_titel": "v3"},
+  {"id": "v2", "titel": "Nah · Seed 2", "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_alon_keynote_nah_v2.png", "soll": "Sonne rechts der Mitte, großer Lichtring.", "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_alon_keynote_v3.png", "vergleich_titel": "v3"},
+  {"id": "v3", "titel": "Nah · Seed 3", "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_alon_keynote_nah_v3.png", "soll": "Zwei Lichtringe, etwas unruhiger.", "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_alon_keynote_v3.png", "vergleich_titel": "v3"},
+  {"id": "v4", "titel": "⭐ Nah · Seed 4", "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_alon_keynote_nah_v4.png", "soll": "Vorschlag: Die Sonne geht genau mittig auf, Alon steht im Lichtring direkt davor und hat einen Heiligenschein. Pult rechts, ruhig.", "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_alon_keynote_v3.png", "vergleich_titel": "v3"},
+  {"id": "v5", "titel": "Ausschnitt aus v3", "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_alon_keynote_nah_v5.png", "soll": "Genau dein v3, nur näher. Durch das Hochrechnen etwas weicher.", "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_alon_keynote_v3.png", "vergleich_titel": "v3"}
+ ]
+}

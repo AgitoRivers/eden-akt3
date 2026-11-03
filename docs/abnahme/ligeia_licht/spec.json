@@ -1,0 +1,19 @@
+{
+ "id": "ligeia_licht_r1",
+ "titel": "Ligeia – Licht am Teich",
+ "hinweis": "Nachgestellt wie die Bühne bei 1920x1080, ohne offenen Chat. Nach deinem OK rendere ich das Set.",
+ "items": [
+  {
+   "id": "ohne",
+   "titel": "Ligeia · Licht · ohne",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\ligeia_licht\\ohne.jpg",
+   "soll": "Seed 240611 auf Felsen-Variante 3. Figur wie gerendert, zu hell für die Grotte"
+  },
+  {
+   "id": "mit",
+   "titel": "Ligeia · Licht · mit",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\ligeia_licht\\mit.jpg",
+   "soll": "Seed 240611 auf Felsen-Variante 3. Figur abgedunkelt, weniger Farbe, etwas kühler: mein Vorschlag"
+  }
+ ]
+}

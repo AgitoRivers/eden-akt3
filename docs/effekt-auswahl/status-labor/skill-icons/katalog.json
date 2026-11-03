@@ -1,0 +1,272 @@
+{
+  "version": 1,
+  "source": "raster-original.png",
+  "approvedBy": "Duc",
+  "approvedOn": "2026-10-24",
+  "size": [
+    305,
+    305
+  ],
+  "icons": {
+    "tidal": {
+      "name": "Lame de Fond",
+      "file": "tidal.png",
+      "coordinate": "A1",
+      "level": 9,
+      "path": "Kämpfer",
+      "crop": [
+        4,
+        4,
+        309,
+        309
+      ]
+    },
+    "blackSlash": {
+      "name": "Omertà",
+      "file": "blackSlash.png",
+      "coordinate": "B1",
+      "level": 9,
+      "path": "Schmuggler",
+      "crop": [
+        318,
+        4,
+        623,
+        309
+      ]
+    },
+    "rain": {
+      "name": "Pluie d’Étoiles",
+      "file": "rain.png",
+      "coordinate": "C1",
+      "level": 9,
+      "path": "Schütze",
+      "crop": [
+        632,
+        4,
+        937,
+        309
+      ]
+    },
+    "vulcano": {
+      "name": "Vulcano",
+      "file": "vulcano.png",
+      "coordinate": "D1",
+      "level": 9,
+      "path": "Berserker",
+      "crop": [
+        946,
+        4,
+        1251,
+        309
+      ]
+    },
+    "wind": {
+      "name": "Libeccio",
+      "file": "wind.png",
+      "coordinate": "A2",
+      "level": 7,
+      "path": "Kämpfer",
+      "crop": [
+        4,
+        318,
+        309,
+        623
+      ]
+    },
+    "vendetta": {
+      "name": "Vendetta",
+      "file": "vendetta.png",
+      "coordinate": "B2",
+      "level": 7,
+      "path": "Schmuggler",
+      "crop": [
+        318,
+        318,
+        623,
+        623
+      ]
+    },
+    "beam": {
+      "name": "Phare",
+      "file": "beam.png",
+      "coordinate": "C2",
+      "level": 7,
+      "path": "Schütze",
+      "crop": [
+        632,
+        318,
+        937,
+        623
+      ]
+    },
+    "furia": {
+      "name": "Furia",
+      "file": "furia.png",
+      "coordinate": "D2",
+      "level": 7,
+      "path": "Berserker",
+      "crop": [
+        946,
+        318,
+        1251,
+        623
+      ]
+    },
+    "wave": {
+      "name": "Ressac",
+      "file": "wave.png",
+      "coordinate": "A3",
+      "level": 5,
+      "path": "Kämpfer",
+      "crop": [
+        4,
+        632,
+        309,
+        937
+      ]
+    },
+    "blur": {
+      "name": "Sotto Voce",
+      "file": "blur.png",
+      "coordinate": "B3",
+      "level": 5,
+      "path": "Schmuggler",
+      "crop": [
+        318,
+        632,
+        623,
+        937
+      ]
+    },
+    "calm": {
+      "name": "Bonaccia",
+      "file": "calm.png",
+      "coordinate": "C3",
+      "level": 5,
+      "path": "Schütze",
+      "crop": [
+        632,
+        632,
+        937,
+        937
+      ]
+    },
+    "retour": {
+      "name": "Retour de Flamme",
+      "file": "retour.png",
+      "coordinate": "D3",
+      "level": 5,
+      "path": "Berserker",
+      "crop": [
+        946,
+        632,
+        1251,
+        937
+      ]
+    },
+    "mistral": {
+      "name": "Mistral",
+      "file": "mistral.png",
+      "coordinate": "A4",
+      "level": 3,
+      "path": "Kämpfer",
+      "crop": [
+        4,
+        946,
+        309,
+        1251
+      ]
+    },
+    "doubleSlash": {
+      "name": "Doppio Gioco",
+      "file": "doubleSlash.png",
+      "coordinate": "B4",
+      "level": 3,
+      "path": "Schmuggler",
+      "crop": [
+        318,
+        946,
+        623,
+        1251
+      ]
+    },
+    "reticle": {
+      "name": "Point de Mire",
+      "file": "reticle.png",
+      "coordinate": "C4",
+      "level": 3,
+      "path": "Schütze",
+      "crop": [
+        632,
+        946,
+        937,
+        1251
+      ]
+    },
+    "scirocco": {
+      "name": "Scirocco",
+      "file": "scirocco.png",
+      "coordinate": "D4",
+      "level": 3,
+      "path": "Berserker",
+      "crop": [
+        946,
+        946,
+        1251,
+        1251
+      ]
+    },
+    "balm": {
+      "name": "Elicriso",
+      "file": "balm.png",
+      "source": "../assets/heiler-v1/icons-master.png",
+      "size": [
+        256,
+        256
+      ],
+      "level": 3,
+      "path": "Heiler",
+      "accent": "#9fd6a6",
+      "status": "draft"
+    },
+    "westWind": {
+      "name": "Ponente",
+      "file": "westWind.png",
+      "source": "../assets/heiler-v1/icons-master.png",
+      "size": [
+        256,
+        256
+      ],
+      "level": 5,
+      "path": "Heiler",
+      "accent": "#9fd6a6",
+      "status": "draft"
+    },
+    "awaken": {
+      "name": "Risveglio",
+      "file": "awaken.png",
+      "source": "../assets/heiler-v1/icons-master.png",
+      "size": [
+        256,
+        256
+      ],
+      "level": 7,
+      "path": "Heiler",
+      "accent": "#9fd6a6",
+      "status": "draft"
+    },
+    "archangel": {
+      "name": "Arcangelo",
+      "file": "archangel.png",
+      "source": "../assets/heiler-v1/icons-master.png",
+      "size": [
+        256,
+        256
+      ],
+      "level": 9,
+      "path": "Heiler",
+      "accent": "#9fd6a6",
+      "status": "draft"
+    }
+  }
+}

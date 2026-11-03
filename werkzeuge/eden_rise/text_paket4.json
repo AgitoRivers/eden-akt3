@@ -1,0 +1,442 @@
+[
+ {
+  "id": "br_ein_tisch",
+  "alt": "One evening a week together.",
+  "neu": "“One evening a week, we all eat together.”"
+ },
+ {
+  "id": "g1_pfannkuchen",
+  "alt": "Eats your own first.",
+  "neu": "Eats his own portrait first."
+ },
+ {
+  "id": "g1_unit01_staendchen",
+  "alt": "Takes Totò's phone away.",
+  "neu": "Takes Totò's phone before he can film this."
+ },
+ {
+  "id": "g1_fiona_muetze",
+  "alt": "Rescues the cap.",
+  "neu": "Pulls the cap out of Fiona's mouth."
+ },
+ {
+  "id": "g1_fiona_muetze",
+  "alt": "Lets Fiona have it.",
+  "neu": "Lets Fiona eat the cap."
+ },
+ {
+  "id": "g1_siri_tanz",
+  "alt": "Helps Rosi.",
+  "neu": "Helps Rosi find her other left."
+ },
+ {
+  "id": "g1_chiara_inspektion",
+  "alt": "Gives her the poem.",
+  "neu": "Hands her the poem from under the pillow."
+ },
+ {
+  "id": "g1_yasin_geste",
+  "alt": "Steps in.",
+  "neu": "Steps between Siri and the camera."
+ },
+ {
+  "id": "g1_petru_fisch",
+  "alt": "Guts it under Petru's eye.",
+  "neu": "Guts the tuna himself, with Petru watching."
+ },
+ {
+  "id": "g1_petru_fisch",
+  "alt": "Lets Lola do it.",
+  "neu": "Hands the knife to Lola."
+ },
+ {
+  "id": "g1_helikopter",
+  "alt": "Gives Lola your jacket.",
+  "neu": "Gives Lola his jacket."
+ },
+ {
+  "id": "g1_megan_schach",
+  "alt": "Plays seriously.",
+  "neu": "Plays Megan and tries to win."
+ },
+ {
+  "id": "g1_megan_schach",
+  "alt": "Loses on purpose.",
+  "neu": "Plays Megan and loses on purpose."
+ },
+ {
+  "id": "g1_megan_schach",
+  "alt": "Lets Sophia play.",
+  "neu": "Offers his seat to Sophia."
+ },
+ {
+  "id": "g1_cousin_schlauchboot",
+  "alt": "Stows everything, fast.",
+  "neu": "Stows the crates below deck, fast."
+ },
+ {
+  "id": "g1_katerfruehstueck",
+  "alt": "Gives Lola water and quiet, and cooks yourself.",
+  "neu": "Gives Lola water and quiet, and cooks breakfast himself."
+ },
+ {
+  "id": "g1_chiara_tender",
+  "alt": "Asks Lea to guide you in.",
+  "neu": "Asks Lea to guide him in."
+ },
+ {
+  "id": "gv_ocean_glitter",
+  "alt": "Backs Chiara.",
+  "neu": "Sides with Chiara. “Salt is called salt. Change them back.”"
+ },
+ {
+  "id": "gv_ocean_glitter",
+  "alt": "Backs Lola.",
+  "neu": "Sides with Lola. “Ocean glitter stays. I like it.”"
+ },
+ {
+  "id": "gv_ocean_glitter",
+  "alt": "Gets the popcorn.",
+  "neu": "Sits down with popcorn and watches them argue."
+ },
+ {
+  "id": "gv_strip_poker",
+  "alt": "Helps Alva.",
+  "neu": "Warns Alva. “She's reading your face.”"
+ },
+ {
+  "id": "gv_strip_poker",
+  "alt": "Joins the game.",
+  "neu": "Sits down and joins the game."
+ },
+ {
+  "id": "gv_kevin_auktion",
+  "alt": "Helps Lea.",
+  "neu": "Sides with Lea. “Nobody sells Kevin.”"
+ },
+ {
+  "id": "gv_kevin_auktion",
+  "alt": "Helps Totò.",
+  "neu": "Helps Totò catch Kevin for the auction."
+ },
+ {
+  "id": "gv_kevin_auktion",
+  "alt": "Dives for Kevin yourself.",
+  "neu": "Dives for Kevin himself."
+ },
+ {
+  "id": "gv_kevin_auktion",
+  "alt": "Gets the popcorn.",
+  "neu": "Sits down with popcorn and watches the chase."
+ },
+ {
+  "id": "gv_siri_yasin",
+  "alt": "Stands by Siri.",
+  "neu": "Stands next to Siri and says nothing."
+ },
+ {
+  "id": "gv_megan_sophia",
+  "alt": "Backs Sophia.",
+  "neu": "Sides with Sophia. “They get the afternoon off.”"
+ },
+ {
+  "id": "gv_megan_sophia",
+  "alt": "Agrees with Megan.",
+  "neu": "Sides with Megan. “No afternoon off. We need results.”"
+ },
+ {
+  "id": "gv_toto_elsa",
+  "alt": "Covers for Totò.",
+  "neu": "Stands beside Totò. “That locker is private, Lieutenant.”"
+ },
+ {
+  "id": "gv_toto_elsa",
+  "alt": "Lets Elsa look.",
+  "neu": "Steps aside. “Go ahead, Lieutenant, open it.”"
+ },
+ {
+  "id": "gv_toto_elsa",
+  "alt": "Lola distracts her with cake.",
+  "neu": "Waves Lola over to distract Elsa with cake."
+ },
+ {
+  "id": "gv_festa_kleid",
+  "alt": "Siri: “Try it on.”",
+  "neu": "Sides with Siri. “Try it on, Chiara.”"
+ },
+ {
+  "id": "gv_festa_kleid",
+  "alt": "Chiara: the uniform is fine.",
+  "neu": "Sides with Chiara. “The uniform is fine.”"
+ },
+ {
+  "id": "gv_casanova_chiara",
+  "alt": "Helps Casanova.",
+  "neu": "Holds the ladder for Madame Casanova."
+ },
+ {
+  "id": "gv_casanova_chiara",
+  "alt": "Backs Chiara.",
+  "neu": "Stands with Chiara. “Not today, Madame.”"
+ },
+ {
+  "id": "gv_casanova_chiara",
+  "alt": "Lets her give the speech on the jetty. A short one.",
+  "neu": "Lets the mayor give one short speech on the jetty."
+ },
+ {
+  "id": "gv_casanova_alva",
+  "alt": "Backs Casanova.",
+  "neu": "Sides with Casanova. “One velvet rope, just for the festa.”"
+ },
+ {
+  "id": "gv_casanova_alva",
+  "alt": "Backs Alva.",
+  "neu": "Sides with Alva. “Her bar stays as it is.”"
+ },
+ {
+  "id": "gv_casanova_alva",
+  "alt": "A VIP lounge for all the fishermen.",
+  "neu": "“Fine, a VIP lounge. All the fishermen are VIPs.”"
+ },
+ {
+  "id": "gv_megan_chiara",
+  "alt": "Agrees with Megan.",
+  "neu": "Nods at Megan. “Not good enough, Chiara.”"
+ },
+ {
+  "id": "gv_megan_chiara",
+  "alt": "Stands behind Chiara.",
+  "neu": "Stands next to Chiara. “This ship is clean, Megan.”"
+ },
+ {
+  "id": "gv_megan_chiara",
+  "alt": "Takes the glove and cleans it yourself.",
+  "neu": "Takes the glove and wipes the smudge off himself."
+ },
+ {
+  "id": "gv_keks",
+  "alt": "Backs Lola.",
+  "neu": "Smiles at Megan. “Just one bite. It won't kill you.”"
+ },
+ {
+  "id": "gv_keks",
+  "alt": "Protects Megan.",
+  "neu": "Gently lowers Lola's hand. “She said no, Lola.”"
+ },
+ {
+  "id": "gv_keks",
+  "alt": "Takes one yourself, out of solidarity.",
+  "neu": "Takes a cookie himself, so Lola isn't left standing there."
+ },
+ {
+  "id": "gv_versoehnung",
+  "alt": "Lea's cake first.",
+  "neu": "Tries Lea's cake first."
+ },
+ {
+  "id": "gv_versoehnung",
+  "alt": "Rosi's cake first.",
+  "neu": "Tries Rosi's cake first."
+ },
+ {
+  "id": "gv_versoehnung",
+  "alt": "Both on one plate, eaten together.",
+  "neu": "Puts both cakes on one plate and eats them together."
+ },
+ {
+  "id": "gv_elsa_alva",
+  "alt": "Buys a canister officially.",
+  "neu": "Buys a canister from Alva, with a receipt."
+ },
+ {
+  "id": "gv_festa_outfits",
+  "alt": "One matching detail, otherwise free.",
+  "neu": "“One matching detail, and the rest is up to you.”"
+ },
+ {
+  "id": "gv_dienstplan",
+  "alt": "Chiara's rota stands.",
+  "neu": "Takes Chiara's side. “The rota stays.”"
+ },
+ {
+  "id": "gv_dienstplan",
+  "alt": "Sophia gets her afternoon.",
+  "neu": "Takes Sophia's side. “Tomorrow afternoon is free.”"
+ },
+ {
+  "id": "gv_dienstplan",
+  "alt": "Mornings Chiara's way, afternoons free.",
+  "neu": "“Mornings Chiara's way, afternoons free.”"
+ },
+ {
+  "id": "gv_trinkgeld_topf",
+  "alt": "Into the engine fund.",
+  "neu": "“The money goes to Rosi's fuel pump.”"
+ },
+ {
+  "id": "gv_trinkgeld_topf",
+  "alt": "Split it six ways.",
+  "neu": "“Lola's right. Split it six ways.”"
+ },
+ {
+  "id": "gv_trinkgeld_topf",
+  "alt": "Into the ship's account. For emergencies.",
+  "neu": "“It goes in the ship's account, for emergencies.”"
+ },
+ {
+  "id": "gv_musik_nachts",
+  "alt": "Lights out. Chiara's right.",
+  "neu": "“Lights out. Chiara's right.”"
+ },
+ {
+  "id": "gv_musik_nachts",
+  "alt": "Lets them dance.",
+  "neu": "“Let them dance, Chiara. One more song.”"
+ },
+ {
+  "id": "gv_ruhetag",
+  "alt": "Everyone works. Rosi's right.",
+  "neu": "“Everyone works. Rosi's right.”"
+ },
+ {
+  "id": "gv_ruhetag",
+  "alt": "Beach day. Everyone.",
+  "neu": "“Beach day. Everyone.”"
+ },
+ {
+  "id": "gv_ruhetag",
+  "alt": "Work till noon, then the cove.",
+  "neu": "“Work till noon, then the cove.”"
+ },
+ {
+  "id": "gv_unit01_bild",
+  "alt": "The tentacles stay.",
+  "neu": "“The tentacles stay.”"
+ },
+ {
+  "id": "gv_unit01_bild",
+  "alt": "Rosi's right. No tentacles.",
+  "neu": "“Rosi's right. No tentacles.”"
+ },
+ {
+  "id": "gv_holm_baer",
+  "alt": "Bets with Totò.",
+  "neu": "Bets with Totò: she made that shot."
+ },
+ {
+  "id": "gv_holm_baer",
+  "alt": "Bets with Maxwell.",
+  "neu": "Bets with Maxwell: nobody makes that shot."
+ },
+ {
+  "id": "gv_chiara_italienisch",
+  "alt": "Orders a typewriter as well.",
+  "neu": "“I'll take a typewriter too, Alva.”"
+ },
+ {
+  "id": "gv_tuersteher",
+  "alt": "Backs Maxwell.",
+  "neu": "Stands next to Maxwell. “Closing time, Yasin.”"
+ },
+ {
+  "id": "gv_seestueck",
+  "alt": "It goes on the wall.",
+  "neu": "“It goes on the wall.”"
+ },
+ {
+  "id": "gv_seestueck",
+  "alt": "It goes in Sophia's drawer.",
+  "neu": "“It goes in Sophia's drawer.”"
+ },
+ {
+  "id": "ab_alva_barabend",
+  "alt": "Stays.",
+  "neu": "Stays with her."
+ },
+ {
+  "id": "ab_alva_handy",
+  "alt": "Chooses a place.",
+  "neu": "Chooses a place to meet."
+ },
+ {
+  "id": "ab_jana_handy",
+  "alt": "Chooses a place.",
+  "neu": "Chooses a place to meet."
+ },
+ {
+  "id": "yk_falle",
+  "alt": "Lets the trap spring.",
+  "neu": "Stays quiet and lets the trap work."
+ },
+ {
+  "id": "yk_erwischt",
+  "alt": "Yamamoto may keep one photo.",
+  "neu": "“He deletes them, but he keeps one photo.”"
+ },
+ {
+  "id": "yk_erwischt",
+  "alt": "Ten push-ups for the bird.",
+  "neu": "“Ten push-ups for the bird, and we forget it.”"
+ },
+ {
+  "id": "yk_liste",
+  "alt": "Ticks the item off yourself.",
+  "neu": "Ticks the item off himself."
+ },
+ {
+  "id": "mt_erste",
+  "alt": "Joins in.",
+  "neu": "Joins the training."
+ },
+ {
+  "id": "fl_lola_haengematte",
+  "alt": "Goes up.",
+  "neu": "Goes up to the sun deck."
+ },
+ {
+  "id": "fl_lola_sonnencreme",
+  "alt": "Takes his time.",
+  "neu": "Takes the bottle and takes his time."
+ },
+ {
+  "id": "fl_alva_tuer",
+  "alt": "Rows over.",
+  "neu": "Rows over to the bar."
+ },
+ {
+  "id": "fl_rosi_pfand",
+  "alt": "Calls it a draw.",
+  "neu": "Calls it even, so nobody won."
+ },
+ {
+  "id": "bg_u1_start",
+  "alt": "Not today.",
+  "neu": "Not today, Ghjuvan."
+ },
+ {
+  "id": "bg_c_jacke",
+  "alt": "Puts it on.",
+  "neu": "Puts the coat on."
+ },
+ {
+  "id": "bg_c_jacke",
+  "alt": "Puts it on, and lifts the chest back under the bench for him.",
+  "neu": "Puts the coat on, and lifts the chest back under the bench for him."
+ },
+ {
+  "id": "auf_herkunft",
+  "alt": "Tells your story: family, flight, the long way up.",
+  "neu": "Tells his story: family, flight, the long way up."
+ },
+ {
+  "id": "rm_e_sophia_nacht2",
+  "alt": "Smiles already.",
+  "neu": "Smiles, and loses the bet."
+ },
+ {
+  "id": "rm_e_rosi_nein",
+  "alt": "Looks around for it.",
+  "neu": "Looks around for the stopwatch."
+ }
+]

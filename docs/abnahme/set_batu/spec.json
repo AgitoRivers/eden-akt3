@@ -1,0 +1,139 @@
+{
+ "id": "set_batu",
+ "titel": "Set Ba Tu - NPC-Satz (22 Posen)",
+ "hinweis": "NPC-Ausdruecke ohne desire_2, ohne Rueckansichten. Ablage: expressions\\Yacht_BaTu\\Standard\roh. Noch nichts im Spiel.",
+ "items": [
+  {
+   "id": "admiration_2",
+   "titel": "Ba Tu - admiration_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_BaTu\\Standard\\roh\\admiration_2.png",
+   "soll": "NPC-Satz, Preset Yacht_BaTu, Set batu_standard, Fassung A (jadegruene Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel)"
+  },
+  {
+   "id": "amusement",
+   "titel": "Ba Tu - amusement",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_BaTu\\Standard\\roh\\amusement.png",
+   "soll": "NPC-Satz, Preset Yacht_BaTu, Set batu_standard, Fassung A (jadegruene Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel)"
+  },
+  {
+   "id": "anger",
+   "titel": "Ba Tu - anger",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_BaTu\\Standard\\roh\\anger.png",
+   "soll": "NPC-Satz, Preset Yacht_BaTu, Set batu_standard, Fassung A (jadegruene Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel)"
+  },
+  {
+   "id": "annoyance",
+   "titel": "Ba Tu - annoyance",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_BaTu\\Standard\\roh\\annoyance.png",
+   "soll": "NPC-Satz, Preset Yacht_BaTu, Set batu_standard, Fassung A (jadegruene Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel)"
+  },
+  {
+   "id": "approval",
+   "titel": "Ba Tu - approval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_BaTu\\Standard\\roh\\approval.png",
+   "soll": "NPC-Satz, Preset Yacht_BaTu, Set batu_standard, Fassung A (jadegruene Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel)"
+  },
+  {
+   "id": "caring",
+   "titel": "Ba Tu - caring",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_BaTu\\Standard\\roh\\caring.png",
+   "soll": "NPC-Satz, Preset Yacht_BaTu, Set batu_standard, Fassung A (jadegruene Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel)"
+  },
+  {
+   "id": "confusion",
+   "titel": "Ba Tu - confusion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_BaTu\\Standard\\roh\\confusion.png",
+   "soll": "NPC-Satz, Preset Yacht_BaTu, Set batu_standard, Fassung A (jadegruene Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel)"
+  },
+  {
+   "id": "curiosity",
+   "titel": "Ba Tu - curiosity",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_BaTu\\Standard\\roh\\curiosity.png",
+   "soll": "NPC-Satz, Preset Yacht_BaTu, Set batu_standard, Fassung A (jadegruene Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel)"
+  },
+  {
+   "id": "disappointment",
+   "titel": "Ba Tu - disappointment",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_BaTu\\Standard\\roh\\disappointment.png",
+   "soll": "NPC-Satz, Preset Yacht_BaTu, Set batu_standard, Fassung A (jadegruene Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel)"
+  },
+  {
+   "id": "disapproval",
+   "titel": "Ba Tu - disapproval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_BaTu\\Standard\\roh\\disapproval.png",
+   "soll": "NPC-Satz, Preset Yacht_BaTu, Set batu_standard, Fassung A (jadegruene Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel)"
+  },
+  {
+   "id": "disgust",
+   "titel": "Ba Tu - disgust",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_BaTu\\Standard\\roh\\disgust.png",
+   "soll": "NPC-Satz, Preset Yacht_BaTu, Set batu_standard, Fassung A (jadegruene Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel)"
+  },
+  {
+   "id": "embarrassment_2",
+   "titel": "Ba Tu - embarrassment_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_BaTu\\Standard\\roh\\embarrassment_2.png",
+   "soll": "NPC-Satz, Preset Yacht_BaTu, Set batu_standard, Fassung A (jadegruene Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel)"
+  },
+  {
+   "id": "excitement_2",
+   "titel": "Ba Tu - excitement_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_BaTu\\Standard\\roh\\excitement_2.png",
+   "soll": "NPC-Satz, Preset Yacht_BaTu, Set batu_standard, Fassung A (jadegruene Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel)"
+  },
+  {
+   "id": "fear_2",
+   "titel": "Ba Tu - fear_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_BaTu\\Standard\\roh\\fear_2.png",
+   "soll": "NPC-Satz, Preset Yacht_BaTu, Set batu_standard, Fassung A (jadegruene Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel)"
+  },
+  {
+   "id": "gratitude",
+   "titel": "Ba Tu - gratitude",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_BaTu\\Standard\\roh\\gratitude.png",
+   "soll": "NPC-Satz, Preset Yacht_BaTu, Set batu_standard, Fassung A (jadegruene Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel)"
+  },
+  {
+   "id": "joy",
+   "titel": "Ba Tu - joy",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_BaTu\\Standard\\roh\\joy.png",
+   "soll": "NPC-Satz, Preset Yacht_BaTu, Set batu_standard, Fassung A (jadegruene Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel)"
+  },
+  {
+   "id": "love_2",
+   "titel": "Ba Tu - love_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_BaTu\\Standard\\roh\\love_2.png",
+   "soll": "NPC-Satz, Preset Yacht_BaTu, Set batu_standard, Fassung A (jadegruene Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel)"
+  },
+  {
+   "id": "nervousness",
+   "titel": "Ba Tu - nervousness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_BaTu\\Standard\\roh\\nervousness.png",
+   "soll": "NPC-Satz, Preset Yacht_BaTu, Set batu_standard, Fassung A (jadegruene Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel)"
+  },
+  {
+   "id": "neutral",
+   "titel": "Ba Tu - neutral",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_BaTu\\Standard\\roh\\neutral.png",
+   "soll": "NPC-Satz, Preset Yacht_BaTu, Set batu_standard, Fassung A (jadegruene Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel)"
+  },
+  {
+   "id": "pride",
+   "titel": "Ba Tu - pride",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_BaTu\\Standard\\roh\\pride.png",
+   "soll": "NPC-Satz, Preset Yacht_BaTu, Set batu_standard, Fassung A (jadegruene Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel)"
+  },
+  {
+   "id": "sadness",
+   "titel": "Ba Tu - sadness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_BaTu\\Standard\\roh\\sadness.png",
+   "soll": "NPC-Satz, Preset Yacht_BaTu, Set batu_standard, Fassung A (jadegruene Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel)"
+  },
+  {
+   "id": "surprise",
+   "titel": "Ba Tu - surprise",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_BaTu\\Standard\\roh\\surprise.png",
+   "soll": "NPC-Satz, Preset Yacht_BaTu, Set batu_standard, Fassung A (jadegruene Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel)"
+  }
+ ]
+}

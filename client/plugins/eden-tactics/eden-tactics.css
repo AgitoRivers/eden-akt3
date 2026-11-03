@@ -1,0 +1,178 @@
+/* Taktik-Karte (Duc 31.10.2026). Stil: docs/wiki/systeme/ui_stil.md, nur Tokens und Bausteine aus eden-ui.css. Figuren und Plaetze sind eckig. */
+.tk{position:fixed;inset:0;z-index:5000;background:var(--ink);overflow:hidden;font-family:var(--f-ui);color:var(--perle)}
+.tk-aussen{position:absolute;background:var(--rauch-stark);pointer-events:none}
+.tk-feldwelt{position:absolute;isolation:isolate;aspect-ratio:3/2;background-size:100% 100%;touch-action:none}
+.tk-feld{position:absolute;box-sizing:border-box;pointer-events:none}
+.tk-barrbild{position:absolute;pointer-events:none;z-index:0;display:block}
+.tk-feld.geh{background:color-mix(in srgb,var(--akz2) 34%,transparent);outline:1px solid color-mix(in srgb,var(--perle) 40%,transparent);outline-offset:-1px}
+.tk-feld.reich{background:color-mix(in srgb,var(--rot) 22%,transparent)}
+.tk-feld.reich.stark{background:color-mix(in srgb,var(--rot) 42%,transparent);outline:1px solid color-mix(in srgb,var(--rot) 80%,transparent);outline-offset:-1px}
+.tk-feld.tuer{background:color-mix(in srgb,var(--akz) 45%,transparent);outline:1px solid var(--akz);outline-offset:-1px}
+.tk-feld.barr{background:color-mix(in srgb,var(--schlecht) 50%,transparent)}
+/* Eckiger Platz: leer gestrichelt, beim Ziehen durchgehend gold (Form und Farbe). */
+.tk-platz{position:absolute;box-sizing:border-box;border-radius:var(--r-fein);background:var(--rauch-stark);border:1px dashed var(--perle-leise);pointer-events:none}
+.tk-platz.offen{border:2px solid var(--akz)}
+.tk-front{position:absolute;transform:translate(-25%,-100%);padding:var(--pille-klein);border-radius:var(--r-rund);font-size:var(--t-mini);white-space:nowrap;pointer-events:none}
+.tk-zielfeld{position:absolute;box-sizing:border-box;display:none;border-radius:var(--r-fein);background:color-mix(in srgb,var(--akz) 45%,transparent);outline:2px solid var(--akz);pointer-events:none}
+.tk-pfeile{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.tk-pfeile line{stroke:var(--schlecht);stroke-width:.14;stroke-dasharray:.7 .5;opacity:.7}
+.tk-pfeile line.trifft{stroke-width:.26;stroke-dasharray:none;opacity:1}
+.tk-pfeile line.kirche.trifft{stroke:var(--rot);stroke-width:.32}
+.tk-haus{position:absolute;box-sizing:border-box;z-index:2;display:flex;align-items:center;justify-content:center;gap:1px;border-radius:var(--r-fein);font-size:var(--t-mini);pointer-events:none;background:var(--rauch-stark);border:1px solid var(--linie-n);color:var(--perle)}
+.tk-haus.brennt{border-color:var(--schlecht);color:var(--schlecht)}
+.tk-haus.gerettet{border-color:var(--gut);color:var(--gut)}
+.tk-haus.verloren{color:var(--perle-dim)}
+.tk-feld.ankunft{display:flex;align-items:center;justify-content:center;border:1px dashed var(--perle);background:color-mix(in srgb,var(--ink) 55%,transparent);color:var(--perle);font-style:normal;font-size:var(--t-mini)}
+.tk-feld.gefahr{background:color-mix(in srgb,var(--rot) 26%,transparent)}
+.tk-feld.boden-W{background:color-mix(in srgb,var(--gut) 34%,transparent)}
+.tk-feld.boden-B{background:color-mix(in srgb,var(--grau-hell) 40%,transparent)}
+.tk-feld.boden-S{background:color-mix(in srgb,var(--creme) 22%,transparent)}
+.tk-feld.boden-T{background:color-mix(in srgb,var(--akz2) 40%,transparent)}
+.tk-schaden{position:absolute;z-index:60;display:flex;align-items:flex-start;justify-content:flex-end;font-size:var(--t-klein);color:var(--perle);text-shadow:0 0 3px var(--rot),0 1px 2px var(--ink);transform:translate(40%,-55%);pointer-events:none}
+/* Figuren */
+.tk-fig{position:absolute;box-sizing:border-box;padding:0;border:0;background:none;cursor:pointer;touch-action:none;user-select:none}
+.tk-fig.blau:not(.fest):not(.fertig){cursor:grab}
+.tk-marke{box-sizing:border-box;width:100%;height:100%;border-radius:var(--r-fein);display:flex;align-items:center;justify-content:center;font:700 var(--t-mini) var(--f-zahl);box-shadow:0 2px 6px rgba(0,0,0,.6);border:2px solid var(--perle)}
+.tk-fig.blau .tk-marke{background:var(--akz2);color:var(--ink)}
+.tk-fig.schwarz .tk-marke{background:var(--ink);color:var(--perle);border-color:var(--schlecht)}
+.tk-fig.weiss .tk-marke{background:var(--perle);color:var(--ink);border-color:var(--ink)}
+/* Pixel-Figur: Fuesse im Feld, der Kopf ragt darueber, die Team-Farbe ist die Bodenplatte */
+.tk-fig.hat-figur .tk-marke{position:absolute;left:0;right:0;bottom:0;width:100%;height:42%;border-width:1px}
+.tk-sprite{position:absolute;left:50%;bottom:4%;pointer-events:none;transform:translateX(-50%);background-repeat:no-repeat;background-position:0 0}
+.tk-sprite.rechts{transform:translateX(-50%) scaleX(-1)}
+.tk-fig.blau .tk-sprite,.tk-fig.weiss .tk-sprite{filter:drop-shadow(0 0 2px var(--perle)) drop-shadow(0 0 5px var(--perle-leise))}
+.tk-fig.schwarz .tk-sprite{filter:drop-shadow(0 0 2px var(--schlecht)) drop-shadow(0 0 5px var(--schlecht))}
+.tk-fig.fertig .tk-sprite{filter:grayscale(.75) brightness(.8) drop-shadow(0 0 2px var(--perle-leise));animation:none!important}
+@keyframes tk-schritte{to{background-position:100% 0}}
+@keyframes tk-lauf{from{transform:translate(var(--dx),var(--dy))}}
+@media (prefers-reduced-motion:reduce){.tk-fig,.tk-sprite{animation:none!important}}
+.tk-fig.fest .tk-marke{filter:saturate(.45);border-style:dashed}
+.tk-fig.fertig .tk-marke{opacity:.5}
+.tk-fig.getarnt .tk-marke{border-color:var(--gut);border-style:dashed}
+.tk-fig.boss{z-index:3}
+.tk-fig.wahl .tk-marke{border-color:var(--akz);box-shadow:0 0 0 2px var(--akz)}
+.tk-fig.ziel .tk-marke{border-color:var(--rot);box-shadow:0 0 0 3px var(--rot);animation:tk-ziel .8s ease-in-out infinite alternate}
+.tk-fig.ziel{z-index:40;cursor:crosshair}
+@keyframes tk-ziel{to{box-shadow:0 0 0 1px var(--rot)}}
+.tk-info{position:absolute;right:var(--a3);top:calc(var(--a3) + 56px);width:260px;z-index:75;padding:var(--karte-pad);border-radius:var(--r-mittel);background:var(--rauch-stark);display:flex;flex-direction:column;gap:var(--a1);font-size:var(--t-klein);pointer-events:none}
+.tk-info b{color:var(--akz);font-size:var(--t-text)}
+.tk-info small{color:var(--perle-leise);font-size:var(--t-mini)}
+.tk-info p{margin:0;color:var(--perle-leise);line-height:1.3}
+.tk-rolle{color:var(--akz2)}
+.tk-menue{position:absolute;z-index:70;display:flex;flex-direction:column;gap:var(--a1);padding:var(--a2);border-radius:var(--r-mittel);background:var(--rauch-stark);min-width:112px}
+.tk-menue .knopf{padding:var(--pille);font-size:var(--t-klein);white-space:nowrap}
+.tk-schuss{position:fixed;z-index:5120;height:3px;margin-top:-1px;transform-origin:0 50%;background:var(--gold-hell);box-shadow:0 0 6px var(--gold-hell);pointer-events:none}
+.tk-schuss.taser{height:4px;background:var(--akz2);box-shadow:0 0 8px var(--akz2)}
+.tk-zahl{position:fixed;z-index:5150;transform:translate(-50%,-100%);font-size:var(--t-unter);color:var(--perle);text-shadow:0 0 4px var(--rot),0 1px 2px var(--ink);pointer-events:none;animation:tk-zahl .9s ease-out forwards}
+.tk-zahl.eigen{color:var(--schlecht)}
+@keyframes tk-zahl{0%{opacity:0;margin-top:6px}20%{opacity:1}100%{opacity:0;margin-top:-30px}}
+.tk-fig.zieht{opacity:.35}
+.tk-geist{position:fixed;z-index:5100;pointer-events:none;transform:translate(-50%,-50%) scale(1.25)}
+.tk-geist .tk-marke{border-color:var(--akz)}
+.tk-lp,.tk-macht{z-index:2}
+.tk-waffe{position:absolute;right:-20%;top:-20%;width:60%;aspect-ratio:1;z-index:3;background:var(--rauch-stark) center/contain no-repeat;border:1px solid var(--akz2);border-radius:var(--r-rund);pointer-events:none}
+.tk-lp{position:absolute;left:var(--a1);right:var(--a1);bottom:2px;height:3px;background:var(--ink);border-radius:var(--r-rund);overflow:hidden}
+.tk-lp b{display:block;height:100%;background:var(--gut)}
+.tk-fig.schwarz .tk-lp b{background:var(--schlecht)}
+.tk-macht{position:absolute;left:var(--a1);right:var(--a1);top:2px;height:2px;background:var(--ink);overflow:hidden}
+.tk-macht b{display:block;height:100%;background:var(--akz2)}
+.tk-macht.voll b{background:var(--akz)}
+.tk-macht.voll{height:4px}
+.tk-cutin{position:fixed;inset:0;z-index:5200;display:flex;align-items:center;justify-content:center;pointer-events:none;animation:tk-cutin 1.6s ease forwards}
+.tk-cutin-band{display:flex;align-items:center;gap:var(--a5);width:100%;justify-content:center;padding:var(--a5);background:var(--rauch-stark)}
+.tk-cutin-band .tk-gesicht{width:120px;height:120px;border:2px solid var(--akz)}
+.tk-cutin-band b{display:block;font-size:var(--t-buehne);color:var(--akz);line-height:1.1}
+.tk-cutin-band em{display:block;font-style:normal;font-size:var(--t-unter);color:var(--rede)}
+@keyframes tk-cutin{0%{opacity:0;transform:translateX(-4%)}12%{opacity:1;transform:none}80%{opacity:1}100%{opacity:0}}
+@media (prefers-reduced-motion:reduce){.tk-cutin{animation:tk-cutin-still 1.6s linear forwards}}
+@keyframes tk-cutin-still{0%,80%{opacity:1}100%{opacity:0}}
+/* Kopf und Befehle */
+.tk-kopf{position:absolute;top:var(--a3);left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:var(--a4);padding:var(--pille-gross);border-radius:var(--r-rund);font-size:var(--t-info);white-space:nowrap}
+.tk-titel{color:var(--akz);font-size:var(--t-gross)}
+.tk-klein{padding:var(--pille-klein);font-size:var(--t-klein)}
+.knopf.tk-klein.an{border-color:var(--akz);color:var(--akz)}
+.tk-gelaendeinfo{position:absolute;top:calc(100% + var(--a1));left:50%;transform:translateX(-50%);font-size:var(--t-klein);color:var(--perle);text-shadow:0 1px 3px var(--ink);white-space:nowrap;pointer-events:none}
+.tk-wert{display:inline-flex;align-items:center;gap:var(--a1)}
+.tk-wert em{font-style:normal}
+.tk-wert .ui-ic{color:var(--akz)}
+.tk-befehl{position:absolute;left:50%;bottom:var(--a3);transform:translateX(-50%);width:max-content;display:flex;align-items:center;gap:var(--a3);padding:var(--pille-gross);border-radius:var(--r-rund);font-size:var(--t-info);max-width:92vw}
+.tk-befehl b{color:var(--akz);font-size:var(--t-gross);white-space:nowrap}
+.tk-knopfe{display:inline-flex;gap:var(--a2)}
+.tk-befehl .knopf{white-space:nowrap}
+.tk-log{position:absolute;left:var(--a3);top:calc(var(--a3) + 52px);margin:0;padding:var(--karte-pad-klein);list-style:none;border-radius:var(--r-mittel);font-size:var(--t-klein);display:flex;flex-direction:column;gap:var(--a1)}
+.tk-log em{font-style:normal;color:var(--schlecht)}
+.tk-szene{position:absolute;left:50%;bottom:var(--a5);transform:translateX(-50%);width:min(760px,90vw);box-sizing:border-box;padding:var(--karte-pad-gross);border-radius:var(--r-panel);display:flex;flex-direction:column;align-items:flex-start;gap:var(--a2)}
+.tk-wer{color:var(--akz);font-size:var(--t-titel)}
+.tk-szene p{margin:0;font-size:var(--t-gross);line-height:1.4}
+.tk-szene .knopf{align-self:flex-end}
+/* Aufstellung: Seitenleiste links, sie endet vor dem ersten Platz. Baustein Glas-Panel, Gesichter eckig wie die Plaetze. */
+.tk-plan{position:absolute;left:var(--a3);top:var(--a3);bottom:var(--a3);width:360px;box-sizing:border-box;padding:var(--a3);border-radius:var(--r-panel);background:var(--rauch-stark);display:flex;flex-direction:column;gap:var(--a2)}
+.tk-plan-teile{flex:1;min-height:0;overflow-y:auto;display:flex;flex-direction:column;gap:var(--a3)}
+.tk-plan section{display:flex;flex-direction:column;gap:var(--a15)}
+.tk-plan h3{margin:0;display:flex;align-items:baseline;justify-content:space-between;gap:var(--a2);color:var(--akz);font:750 var(--t-text) var(--f-name);letter-spacing:-.02em}
+.tk-plan h3 small{font:400 var(--t-mini) var(--f-ui);letter-spacing:0;color:var(--perle-dim)}
+.tk-gesicht{display:block;flex:none;width:52px;height:52px;border-radius:var(--r-taste);background-color:var(--flaeche2);background-repeat:no-repeat;background-size:300% auto;background-position:50% 4%}
+.tk-zeilen{display:flex;flex-direction:column;gap:var(--a1)}
+.tk-zeile{all:unset;box-sizing:border-box;cursor:grab;display:flex;align-items:center;gap:var(--a2);padding:var(--a1);border-radius:var(--r-mittel);border:1px solid var(--linie-n);touch-action:none;user-select:none;transition:border-color .2s}
+.tk-zeile:hover{border-color:var(--akz)}
+.tk-zeile.wahl{border-color:var(--akz);box-shadow:0 0 0 1px var(--akz)}
+.tk-zeile.bank{opacity:.6}
+.tk-zeile small.tk-bank{color:var(--perle);cursor:pointer;text-decoration:underline}
+.tk-zeile small.tk-reserve{color:var(--perle-dim)}
+.tk-zeile-txt{min-width:0;display:flex;flex-direction:column;gap:2px}
+.tk-zeile b{color:var(--perle);font-size:var(--t-text)}
+.tk-zeile small{font-size:var(--t-mini);color:var(--akz)}
+.tk-werte{display:flex;flex-wrap:wrap;gap:2px}
+.tk-werte em{padding:0 var(--a1);border-radius:var(--r-rund);border:1px solid var(--linie-n);font:normal var(--t-mini) var(--f-zahl);color:var(--perle-leise);white-space:nowrap}
+.tk-hplaetze,.tk-hvorrat{display:flex;gap:var(--a2);flex-wrap:wrap;border-radius:var(--r-mittel)}
+.tk-hplaetze.offen{outline:2px solid var(--akz);outline-offset:2px}
+.tk-kachel{all:unset;box-sizing:border-box;width:60px;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:var(--t-mini);color:var(--perle);text-align:center;touch-action:none;user-select:none}
+.tk-kachel b{font-weight:500;white-space:nowrap}
+.tk-kachel small{font-size:var(--t-mini);color:var(--perle-leise);white-space:nowrap}
+.tk-kachel .tk-gesicht{border:1px solid var(--linie)}
+.tk-kachel.vorrat{cursor:grab}
+.tk-kachel.vorrat:hover .tk-gesicht{border-color:var(--akz)}
+.tk-kachel:not(.fest-platz):not(.vorrat):not(.leer):not(.wehr){cursor:pointer}
+.tk-kachel.leer{color:var(--perle-dim)}
+.tk-kachel.leer .tk-gesicht{background:none;border:1px dashed var(--perle-leise)}
+.tk-kachel.wehr{filter:grayscale(1);opacity:.65}
+.tk-kachel.fest-platz .tk-gesicht{border-color:var(--akz)}
+.tk-kachel.aus{opacity:.55}
+.tk-kachel.wahl .tk-gesicht{border-color:var(--akz);box-shadow:0 0 0 2px var(--akz)}
+.tk-detail{margin:0;min-height:3.6em;font-size:var(--t-klein);line-height:1.2;color:var(--perle-leise)}
+.tk-plan .knopf{flex:none}
+.tk-bau{padding:var(--a2);border:1px solid var(--linie-n);border-radius:var(--r-fein)}
+.tk-bau small{color:var(--perle-dim);font-size:var(--t-mini)}
+.tk-bau em.fehlt{color:var(--schlecht)}
+/* In der Schlacht: Hilfe unten links */
+.tk-hleiste{position:absolute;left:var(--a3);bottom:var(--a3);display:flex;gap:var(--a2);padding:var(--a2);border-radius:var(--r-mittel)}
+.tk-feld.spaeter{border:2px dashed var(--schlecht);background:color-mix(in srgb,var(--ink) 45%,transparent)}
+.tk-fig.haelt .tk-marke{border-style:dashed;opacity:.75}
+#app:has(.tk) > *:not(#mitte){display:none}
+.tk-hilfe{cursor:pointer;align-items:flex-start}
+.tk-hilfe.gewaehlt{border-color:var(--akz)}
+.tk-htext{font-size:var(--t-klein);color:var(--perle);white-space:normal}
+.tk-nutzlos{font-size:var(--t-mini);color:var(--schlecht);white-space:normal}
+.tk-lp b{transition:width .42s ease-out}
+.tk-lpzug{position:fixed;z-index:5140;width:72px;height:12px;transform:translateX(-50%);border-radius:var(--r-fein);background:var(--rauch-stark);border:1px solid var(--perle);overflow:hidden;pointer-events:none}
+.tk-lpzug i{position:absolute;left:0;top:0;bottom:0}
+.tk-lpzug .rest{background:var(--perle);transition:width .45s ease-out}
+.tk-lpzug .voll{background:var(--gut);transition:width .42s ease-out}
+.tk-lpzug.feind .voll{background:var(--schlecht)}
+.tk-lpzug b{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:var(--t-mini);line-height:1;color:var(--perle);text-shadow:0 1px 2px var(--ink)}
+/* Inszenierung der Wellen (Duc 02.11.2026): Titel, wer spricht steht gross im Bild, Feinde vorab */
+.tk-titelkarte{position:absolute;inset:0;z-index:40;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:var(--a3);text-align:center;background:var(--rauch-stark);cursor:pointer}
+.tk-titelkarte small{font-size:var(--t-unter);color:var(--perle-leise)}
+.tk-titelkarte b{font-size:var(--t-buehne);color:var(--akz);line-height:1.1}
+.tk-titelkarte p{margin:0 0 var(--a4);max-width:min(620px,90vw);font-size:var(--t-unter);color:var(--rede)}
+.tk-redner{position:absolute;left:0;bottom:0;height:68vh;max-width:40vw;object-fit:contain;object-position:left bottom;pointer-events:none;z-index:29}
+.tk-redner.rechts{left:auto;right:0;object-position:right bottom}
+.tk-avatar{display:inline-block;vertical-align:middle;width:72px;height:72px;margin-right:var(--a3);border:1px solid var(--akz);border-radius:var(--r-taste)}
+.tk-szene{z-index:30}
+.tk-wahlen{display:flex;flex-direction:column;gap:var(--a2);margin-top:var(--a3)}
+.tk-wahlen .knopf{align-self:stretch;width:100%;justify-content:flex-start;text-align:left;white-space:normal}
+.tk-fig.geist{opacity:.6;cursor:help}
+.tk-fig.geist.zeigt{opacity:1;animation:tk-geist .8s ease-in-out infinite alternate}
+.tk-geist-in{position:absolute;right:0;top:0;padding:0 var(--a1);border:1px dashed var(--perle);border-radius:var(--r-taste);background:var(--rauch-stark);color:var(--perle);font-size:var(--t-mini);line-height:1.3}
+@keyframes tk-geist{from{filter:none}to{filter:drop-shadow(0 0 6px var(--schlecht)) brightness(1.3)}}
+@media (prefers-reduced-motion:reduce){.tk-fig.geist.zeigt{animation:none;filter:drop-shadow(0 0 6px var(--schlecht))}}

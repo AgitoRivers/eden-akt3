@@ -1,0 +1,79 @@
+{
+ "id": "casting_dorf_orte",
+ "titel": "Dorf-Orte - Hintergruende Phase 0",
+ "hinweis": "Vier Orte, je 3 Varianten in 1664x928, nur in ST/backgrounds/_varianten. Bitte je Ort eine waehlen; uebernommen wird danach wie ueblich per hintergrund_bild --waehle.",
+ "items": [
+  {
+   "id": "church_interior_1",
+   "titel": "Kirche innen 1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_church_interior_v1.png",
+   "soll": "kleine korsische Barockkirche, Baenke, neues helles Dach, an einer Stelle noch Geruest"
+  },
+  {
+   "id": "church_interior_2",
+   "titel": "Kirche innen 2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_church_interior_v2.png",
+   "soll": "kleine korsische Barockkirche, Baenke, neues helles Dach, an einer Stelle noch Geruest"
+  },
+  {
+   "id": "church_interior_3",
+   "titel": "Kirche innen 3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_church_interior_v3.png",
+   "soll": "kleine korsische Barockkirche, Baenke, neues helles Dach, an einer Stelle noch Geruest"
+  },
+  {
+   "id": "batu_shop_1",
+   "titel": "Asia-Laden (Ba Tu) 1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_batu_shop_v1.png",
+   "soll": "kleiner Asia-Laden hinter dem Hafen, volle Regale, Fischsauce, hinten Kochstelle und Tisch (Packungsschrift ist Krea-Kauderwelsch)"
+  },
+  {
+   "id": "batu_shop_2",
+   "titel": "Asia-Laden (Ba Tu) 2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_batu_shop_v2.png",
+   "soll": "kleiner Asia-Laden hinter dem Hafen, volle Regale, Fischsauce, hinten Kochstelle und Tisch (Packungsschrift ist Krea-Kauderwelsch)"
+  },
+  {
+   "id": "batu_shop_3",
+   "titel": "Asia-Laden (Ba Tu) 3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_batu_shop_v3.png",
+   "soll": "kleiner Asia-Laden hinter dem Hafen, volle Regale, Fischsauce, hinten Kochstelle und Tisch (Packungsschrift ist Krea-Kauderwelsch)"
+  },
+  {
+   "id": "av_market_interior_1",
+   "titel": "A.V. Market innen 1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_av_market_interior_v1.png",
+   "soll": "alte Steingewoelbe mit weissen LED-Regalen (Regale leer)"
+  },
+  {
+   "id": "av_market_interior_2",
+   "titel": "A.V. Market innen 2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_av_market_interior_v2.png",
+   "soll": "alte Steingewoelbe mit weissen LED-Regalen (Regale leer)"
+  },
+  {
+   "id": "av_market_interior_3",
+   "titel": "A.V. Market innen 3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_av_market_interior_v3.png",
+   "soll": "alte Steingewoelbe mit weissen LED-Regalen (Regale leer)"
+  },
+  {
+   "id": "av_market_exterior_1",
+   "titel": "A.V. Market aussen 1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_av_market_exterior_v1.png",
+   "soll": "altes Ladenhaus am Hafen, gegenueber die Bar, neues kaltes weisses Logo-Schild"
+  },
+  {
+   "id": "av_market_exterior_2",
+   "titel": "A.V. Market aussen 2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_av_market_exterior_v2.png",
+   "soll": "altes Ladenhaus am Hafen, gegenueber die Bar, neues kaltes weisses Logo-Schild"
+  },
+  {
+   "id": "av_market_exterior_3",
+   "titel": "A.V. Market aussen 3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_av_market_exterior_v3.png",
+   "soll": "altes Ladenhaus am Hafen, gegenueber die Bar, neues kaltes weisses Logo-Schild"
+  }
+ ]
+}

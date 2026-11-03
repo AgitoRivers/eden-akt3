@@ -1,0 +1,1195 @@
+{
+ "id": "kampf_gesamt_22_10_abend",
+ "titel": "Kampf-Sprites: Nachbesserungen + Zoo",
+ "hinweis": "Von Claude geprüft: alles im Bild, Zoo-Tiere schauen nach links (Flucht nach rechts), Liegeposen mit Kopf rechts. Oben zuerst die neuen Menschen-Posen, dann alle Zoo-Posen. Tipp: schlechte mit ✗ Neu markieren, dann 'Rest OK'. Danach im Chat Bescheid sagen.",
+ "items": [
+  {
+   "id": "Agent/guard",
+   "titel": "Mensch: Agent – guard",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Agent\\guard.png"
+  },
+  {
+   "id": "AgentAlpha/guard",
+   "titel": "Mensch: AgentAlpha – guard",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\guard.png"
+  },
+  {
+   "id": "Alien/guard",
+   "titel": "Mensch: Alien – guard",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alien\\guard.png"
+  },
+  {
+   "id": "Alon/guard",
+   "titel": "Mensch: Alon – guard",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\guard.png"
+  },
+  {
+   "id": "Brute/guard",
+   "titel": "Mensch: Brute – guard",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Brute\\guard.png"
+  },
+  {
+   "id": "BruteAlpha/guard",
+   "titel": "Mensch: BruteAlpha – guard",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BruteAlpha\\guard.png"
+  },
+  {
+   "id": "DrunkCasanova/guard",
+   "titel": "Mensch: DrunkCasanova – guard",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DrunkCasanova\\guard.png"
+  },
+  {
+   "id": "Heinrich/guard",
+   "titel": "Mensch: Heinrich – guard",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Heinrich\\guard.png"
+  },
+  {
+   "id": "MaxwellMaximum/guard",
+   "titel": "Mensch: MaxwellMaximum – guard",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellMaximum\\guard.png"
+  },
+  {
+   "id": "MaxwellSports/guard",
+   "titel": "Mensch: MaxwellSports – guard",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSports\\guard.png"
+  },
+  {
+   "id": "MaxwellSteward/guard",
+   "titel": "Mensch: MaxwellSteward – guard",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\guard.png"
+  },
+  {
+   "id": "Mime/guard",
+   "titel": "Mensch: Mime – guard",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Mime\\guard.png"
+  },
+  {
+   "id": "Paparazzo/guard",
+   "titel": "Mensch: Paparazzo – guard",
+   "soll": "Claude: Kamera vors Gesicht als Schild – wirkt noch etwas wie Fotografieren",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Paparazzo\\guard.png"
+  },
+  {
+   "id": "Pirate/guard",
+   "titel": "Mensch: Pirate – guard",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Pirate\\guard.png"
+  },
+  {
+   "id": "PirateAlpha/guard",
+   "titel": "Mensch: PirateAlpha – guard",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PirateAlpha\\guard.png"
+  },
+  {
+   "id": "PirateTorch/guard",
+   "titel": "Mensch: PirateTorch – guard",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PirateTorch\\guard.png"
+  },
+  {
+   "id": "Thief/guard",
+   "titel": "Mensch: Thief – guard",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Thief\\guard.png"
+  },
+  {
+   "id": "ThiefAlpha/guard",
+   "titel": "Mensch: ThiefAlpha – guard",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefAlpha\\guard.png"
+  },
+  {
+   "id": "ThiefArab/guard",
+   "titel": "Mensch: ThiefArab – guard",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefArab\\guard.png"
+  },
+  {
+   "id": "Vampire/guard",
+   "titel": "Mensch: Vampire – guard",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Vampire\\guard.png"
+  },
+  {
+   "id": "YasinDrone/guard",
+   "titel": "Mensch: YasinDrone – guard",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\guard.png"
+  },
+  {
+   "id": "Agent/hurt",
+   "titel": "Mensch: Agent – hurt",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Agent\\hurt.png"
+  },
+  {
+   "id": "Thief/hurt",
+   "titel": "Mensch: Thief – hurt",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Thief\\hurt.png"
+  },
+  {
+   "id": "ThiefAlpha/hurt",
+   "titel": "Mensch: ThiefAlpha – hurt",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefAlpha\\hurt.png"
+  },
+  {
+   "id": "Pirate/hurt",
+   "titel": "Mensch: Pirate – hurt",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Pirate\\hurt.png"
+  },
+  {
+   "id": "PirateAlpha/hurt",
+   "titel": "Mensch: PirateAlpha – hurt",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PirateAlpha\\hurt.png"
+  },
+  {
+   "id": "BruteAlpha/hurt",
+   "titel": "Mensch: BruteAlpha – hurt",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BruteAlpha\\hurt.png"
+  },
+  {
+   "id": "YasinDrone/hurt",
+   "titel": "Mensch: YasinDrone – hurt",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\hurt.png"
+  },
+  {
+   "id": "Alon/hurt",
+   "titel": "Mensch: Alon – hurt",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\hurt.png"
+  },
+  {
+   "id": "MaxwellMaximum/heavy_windup",
+   "titel": "Mensch: MaxwellMaximum – heavy_windup",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellMaximum\\heavy_windup.png"
+  },
+  {
+   "id": "MaxwellSports/heavy_windup",
+   "titel": "Mensch: MaxwellSports – heavy_windup",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSports\\heavy_windup.png"
+  },
+  {
+   "id": "AgentAlpha/heavy_windup",
+   "titel": "Mensch: AgentAlpha – heavy_windup",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\heavy_windup.png"
+  },
+  {
+   "id": "Mime/heavy_windup",
+   "titel": "Mensch: Mime – heavy_windup",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Mime\\heavy_windup.png"
+  },
+  {
+   "id": "Heinrich/heavy_windup",
+   "titel": "Mensch: Heinrich – heavy_windup",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Heinrich\\heavy_windup.png"
+  },
+  {
+   "id": "Alon/heavy_windup",
+   "titel": "Mensch: Alon – heavy_windup",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\heavy_windup.png"
+  },
+  {
+   "id": "Thief/attack",
+   "titel": "Mensch: Thief – attack",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Thief\\attack.png"
+  },
+  {
+   "id": "ThiefArab/attack",
+   "titel": "Mensch: ThiefArab – attack",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefArab\\attack.png"
+  },
+  {
+   "id": "ThiefAlpha/attack",
+   "titel": "Mensch: ThiefAlpha – attack",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefAlpha\\attack.png"
+  },
+  {
+   "id": "AgentAlpha/attack",
+   "titel": "Mensch: AgentAlpha – attack",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\attack.png"
+  },
+  {
+   "id": "PirateTorch/windup",
+   "titel": "Mensch: PirateTorch – windup",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PirateTorch\\windup.png"
+  },
+  {
+   "id": "AgentAlpha/windup",
+   "titel": "Mensch: AgentAlpha – windup",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\windup.png"
+  },
+  {
+   "id": "Agent/surrender",
+   "titel": "Mensch: Agent – surrender",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Agent\\surrender.png"
+  },
+  {
+   "id": "AgentAlpha/surrender",
+   "titel": "Mensch: AgentAlpha – surrender",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\surrender.png"
+  },
+  {
+   "id": "Brute/surrender",
+   "titel": "Mensch: Brute – surrender",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Brute\\surrender.png"
+  },
+  {
+   "id": "BruteAlpha/surrender",
+   "titel": "Mensch: BruteAlpha – surrender",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BruteAlpha\\surrender.png"
+  },
+  {
+   "id": "DrunkCasanova/surrender",
+   "titel": "Mensch: DrunkCasanova – surrender",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DrunkCasanova\\surrender.png"
+  },
+  {
+   "id": "Heinrich/surrender",
+   "titel": "Mensch: Heinrich – surrender",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Heinrich\\surrender.png"
+  },
+  {
+   "id": "MaxwellMaximum/surrender",
+   "titel": "Mensch: MaxwellMaximum – surrender",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellMaximum\\surrender.png"
+  },
+  {
+   "id": "MaxwellSports/surrender",
+   "titel": "Mensch: MaxwellSports – surrender",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSports\\surrender.png"
+  },
+  {
+   "id": "MaxwellSteward/surrender",
+   "titel": "Mensch: MaxwellSteward – surrender",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\surrender.png"
+  },
+  {
+   "id": "Paparazzo/surrender",
+   "titel": "Mensch: Paparazzo – surrender",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Paparazzo\\surrender.png"
+  },
+  {
+   "id": "Pirate/surrender",
+   "titel": "Mensch: Pirate – surrender",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Pirate\\surrender.png"
+  },
+  {
+   "id": "PirateAlpha/surrender",
+   "titel": "Mensch: PirateAlpha – surrender",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PirateAlpha\\surrender.png"
+  },
+  {
+   "id": "PirateTorch/surrender",
+   "titel": "Mensch: PirateTorch – surrender",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PirateTorch\\surrender.png"
+  },
+  {
+   "id": "ThiefArab/surrender",
+   "titel": "Mensch: ThiefArab – surrender",
+   "soll": "neu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefArab\\surrender.png"
+  },
+  {
+   "id": "Vampire/surrender",
+   "titel": "Mensch: Vampire – surrender",
+   "soll": "Claude: Blut am Boden und aus dem Mund – für eine Vampirin ok?",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Vampire\\surrender.png"
+  },
+  {
+   "id": "Lion/idle",
+   "titel": "Zoo: Lion – idle",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Lion\\idle.png"
+  },
+  {
+   "id": "Lion/guard",
+   "titel": "Zoo: Lion – guard",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Lion\\guard.png"
+  },
+  {
+   "id": "Lion/hurt",
+   "titel": "Zoo: Lion – hurt",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Lion\\hurt.png"
+  },
+  {
+   "id": "Lion/enraged",
+   "titel": "Zoo: Lion – enraged",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Lion\\enraged.png"
+  },
+  {
+   "id": "Lion/weakened",
+   "titel": "Zoo: Lion – weakened",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Lion\\weakened.png"
+  },
+  {
+   "id": "Lion/surrender",
+   "titel": "Zoo: Lion – surrender",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Lion\\surrender.png"
+  },
+  {
+   "id": "Lion/flee",
+   "titel": "Zoo: Lion – flee",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Lion\\flee.png"
+  },
+  {
+   "id": "Lion/victory",
+   "titel": "Zoo: Lion – victory",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Lion\\victory.png"
+  },
+  {
+   "id": "Lion/windup",
+   "titel": "Zoo: Lion – windup",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Lion\\windup.png"
+  },
+  {
+   "id": "Lion/attack",
+   "titel": "Zoo: Lion – attack",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Lion\\attack.png"
+  },
+  {
+   "id": "Lion/heavy_windup",
+   "titel": "Zoo: Lion – heavy_windup",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Lion\\heavy_windup.png"
+  },
+  {
+   "id": "Lion/heavy_attack",
+   "titel": "Zoo: Lion – heavy_attack",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Lion\\heavy_attack.png"
+  },
+  {
+   "id": "Lion/defeated",
+   "titel": "Zoo: Lion – defeated",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Lion\\defeated.png"
+  },
+  {
+   "id": "Lion/death",
+   "titel": "Zoo: Lion – death",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Lion\\death.png"
+  },
+  {
+   "id": "LionAlpha/idle",
+   "titel": "Zoo: LionAlpha – idle",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\idle.png"
+  },
+  {
+   "id": "LionAlpha/guard",
+   "titel": "Zoo: LionAlpha – guard",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\guard.png"
+  },
+  {
+   "id": "LionAlpha/hurt",
+   "titel": "Zoo: LionAlpha – hurt",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\hurt.png"
+  },
+  {
+   "id": "LionAlpha/enraged",
+   "titel": "Zoo: LionAlpha – enraged",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\enraged.png"
+  },
+  {
+   "id": "LionAlpha/weakened",
+   "titel": "Zoo: LionAlpha – weakened",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\weakened.png"
+  },
+  {
+   "id": "LionAlpha/surrender",
+   "titel": "Zoo: LionAlpha – surrender",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\surrender.png"
+  },
+  {
+   "id": "LionAlpha/flee",
+   "titel": "Zoo: LionAlpha – flee",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\flee.png"
+  },
+  {
+   "id": "LionAlpha/victory",
+   "titel": "Zoo: LionAlpha – victory",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\victory.png"
+  },
+  {
+   "id": "LionAlpha/windup",
+   "titel": "Zoo: LionAlpha – windup",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\windup.png"
+  },
+  {
+   "id": "LionAlpha/attack",
+   "titel": "Zoo: LionAlpha – attack",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\attack.png"
+  },
+  {
+   "id": "LionAlpha/heavy_windup",
+   "titel": "Zoo: LionAlpha – heavy_windup",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\heavy_windup.png"
+  },
+  {
+   "id": "LionAlpha/heavy_attack",
+   "titel": "Zoo: LionAlpha – heavy_attack",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\heavy_attack.png"
+  },
+  {
+   "id": "LionAlpha/defeated",
+   "titel": "Zoo: LionAlpha – defeated",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\defeated.png"
+  },
+  {
+   "id": "LionAlpha/death",
+   "titel": "Zoo: LionAlpha – death",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\death.png"
+  },
+  {
+   "id": "Ape/idle",
+   "titel": "Zoo: Ape – idle",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Ape\\idle.png"
+  },
+  {
+   "id": "Ape/guard",
+   "titel": "Zoo: Ape – guard",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Ape\\guard.png"
+  },
+  {
+   "id": "Ape/hurt",
+   "titel": "Zoo: Ape – hurt",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Ape\\hurt.png"
+  },
+  {
+   "id": "Ape/enraged",
+   "titel": "Zoo: Ape – enraged",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Ape\\enraged.png"
+  },
+  {
+   "id": "Ape/weakened",
+   "titel": "Zoo: Ape – weakened",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Ape\\weakened.png"
+  },
+  {
+   "id": "Ape/surrender",
+   "titel": "Zoo: Ape – surrender",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Ape\\surrender.png"
+  },
+  {
+   "id": "Ape/flee",
+   "titel": "Zoo: Ape – flee",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Ape\\flee.png"
+  },
+  {
+   "id": "Ape/victory",
+   "titel": "Zoo: Ape – victory",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Ape\\victory.png"
+  },
+  {
+   "id": "Ape/windup",
+   "titel": "Zoo: Ape – windup",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Ape\\windup.png"
+  },
+  {
+   "id": "Ape/attack",
+   "titel": "Zoo: Ape – attack",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Ape\\attack.png"
+  },
+  {
+   "id": "Ape/heavy_windup",
+   "titel": "Zoo: Ape – heavy_windup",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Ape\\heavy_windup.png"
+  },
+  {
+   "id": "Ape/heavy_attack",
+   "titel": "Zoo: Ape – heavy_attack",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Ape\\heavy_attack.png"
+  },
+  {
+   "id": "Ape/defeated",
+   "titel": "Zoo: Ape – defeated",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Ape\\defeated.png"
+  },
+  {
+   "id": "Ape/death",
+   "titel": "Zoo: Ape – death",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Ape\\death.png"
+  },
+  {
+   "id": "ApeAlpha/idle",
+   "titel": "Zoo: ApeAlpha – idle",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\idle.png"
+  },
+  {
+   "id": "ApeAlpha/guard",
+   "titel": "Zoo: ApeAlpha – guard",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\guard.png"
+  },
+  {
+   "id": "ApeAlpha/hurt",
+   "titel": "Zoo: ApeAlpha – hurt",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\hurt.png"
+  },
+  {
+   "id": "ApeAlpha/enraged",
+   "titel": "Zoo: ApeAlpha – enraged",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\enraged.png"
+  },
+  {
+   "id": "ApeAlpha/weakened",
+   "titel": "Zoo: ApeAlpha – weakened",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\weakened.png"
+  },
+  {
+   "id": "ApeAlpha/surrender",
+   "titel": "Zoo: ApeAlpha – surrender",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\surrender.png"
+  },
+  {
+   "id": "ApeAlpha/flee",
+   "titel": "Zoo: ApeAlpha – flee",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\flee.png"
+  },
+  {
+   "id": "ApeAlpha/victory",
+   "titel": "Zoo: ApeAlpha – victory",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\victory.png"
+  },
+  {
+   "id": "ApeAlpha/windup",
+   "titel": "Zoo: ApeAlpha – windup",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\windup.png"
+  },
+  {
+   "id": "ApeAlpha/attack",
+   "titel": "Zoo: ApeAlpha – attack",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\attack.png"
+  },
+  {
+   "id": "ApeAlpha/heavy_windup",
+   "titel": "Zoo: ApeAlpha – heavy_windup",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\heavy_windup.png"
+  },
+  {
+   "id": "ApeAlpha/heavy_attack",
+   "titel": "Zoo: ApeAlpha – heavy_attack",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\heavy_attack.png"
+  },
+  {
+   "id": "ApeAlpha/defeated",
+   "titel": "Zoo: ApeAlpha – defeated",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\defeated.png"
+  },
+  {
+   "id": "ApeAlpha/death",
+   "titel": "Zoo: ApeAlpha – death",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\death.png"
+  },
+  {
+   "id": "Wolf/idle",
+   "titel": "Zoo: Wolf – idle",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wolf\\idle.png"
+  },
+  {
+   "id": "Wolf/guard",
+   "titel": "Zoo: Wolf – guard",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wolf\\guard.png"
+  },
+  {
+   "id": "Wolf/hurt",
+   "titel": "Zoo: Wolf – hurt",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wolf\\hurt.png"
+  },
+  {
+   "id": "Wolf/enraged",
+   "titel": "Zoo: Wolf – enraged",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wolf\\enraged.png"
+  },
+  {
+   "id": "Wolf/weakened",
+   "titel": "Zoo: Wolf – weakened",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wolf\\weakened.png"
+  },
+  {
+   "id": "Wolf/surrender",
+   "titel": "Zoo: Wolf – surrender",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wolf\\surrender.png"
+  },
+  {
+   "id": "Wolf/flee",
+   "titel": "Zoo: Wolf – flee",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wolf\\flee.png"
+  },
+  {
+   "id": "Wolf/victory",
+   "titel": "Zoo: Wolf – victory",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wolf\\victory.png"
+  },
+  {
+   "id": "Wolf/windup",
+   "titel": "Zoo: Wolf – windup",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wolf\\windup.png"
+  },
+  {
+   "id": "Wolf/attack",
+   "titel": "Zoo: Wolf – attack",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wolf\\attack.png"
+  },
+  {
+   "id": "Wolf/heavy_windup",
+   "titel": "Zoo: Wolf – heavy_windup",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wolf\\heavy_windup.png"
+  },
+  {
+   "id": "Wolf/heavy_attack",
+   "titel": "Zoo: Wolf – heavy_attack",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wolf\\heavy_attack.png"
+  },
+  {
+   "id": "Wolf/defeated",
+   "titel": "Zoo: Wolf – defeated",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wolf\\defeated.png"
+  },
+  {
+   "id": "Wolf/death",
+   "titel": "Zoo: Wolf – death",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wolf\\death.png"
+  },
+  {
+   "id": "WolfAlpha/idle",
+   "titel": "Zoo: WolfAlpha – idle",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WolfAlpha\\idle.png"
+  },
+  {
+   "id": "WolfAlpha/guard",
+   "titel": "Zoo: WolfAlpha – guard",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WolfAlpha\\guard.png"
+  },
+  {
+   "id": "WolfAlpha/hurt",
+   "titel": "Zoo: WolfAlpha – hurt",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WolfAlpha\\hurt.png"
+  },
+  {
+   "id": "WolfAlpha/enraged",
+   "titel": "Zoo: WolfAlpha – enraged",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WolfAlpha\\enraged.png"
+  },
+  {
+   "id": "WolfAlpha/weakened",
+   "titel": "Zoo: WolfAlpha – weakened",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WolfAlpha\\weakened.png"
+  },
+  {
+   "id": "WolfAlpha/surrender",
+   "titel": "Zoo: WolfAlpha – surrender",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WolfAlpha\\surrender.png"
+  },
+  {
+   "id": "WolfAlpha/flee",
+   "titel": "Zoo: WolfAlpha – flee",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WolfAlpha\\flee.png"
+  },
+  {
+   "id": "WolfAlpha/victory",
+   "titel": "Zoo: WolfAlpha – victory",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WolfAlpha\\victory.png"
+  },
+  {
+   "id": "WolfAlpha/windup",
+   "titel": "Zoo: WolfAlpha – windup",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WolfAlpha\\windup.png"
+  },
+  {
+   "id": "WolfAlpha/attack",
+   "titel": "Zoo: WolfAlpha – attack",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WolfAlpha\\attack.png"
+  },
+  {
+   "id": "WolfAlpha/heavy_windup",
+   "titel": "Zoo: WolfAlpha – heavy_windup",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WolfAlpha\\heavy_windup.png"
+  },
+  {
+   "id": "WolfAlpha/heavy_attack",
+   "titel": "Zoo: WolfAlpha – heavy_attack",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WolfAlpha\\heavy_attack.png"
+  },
+  {
+   "id": "WolfAlpha/defeated",
+   "titel": "Zoo: WolfAlpha – defeated",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WolfAlpha\\defeated.png"
+  },
+  {
+   "id": "WolfAlpha/death",
+   "titel": "Zoo: WolfAlpha – death",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WolfAlpha\\death.png"
+  },
+  {
+   "id": "Panther/idle",
+   "titel": "Zoo: Panther – idle",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Panther\\idle.png"
+  },
+  {
+   "id": "Panther/guard",
+   "titel": "Zoo: Panther – guard",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Panther\\guard.png"
+  },
+  {
+   "id": "Panther/hurt",
+   "titel": "Zoo: Panther – hurt",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Panther\\hurt.png"
+  },
+  {
+   "id": "Panther/enraged",
+   "titel": "Zoo: Panther – enraged",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Panther\\enraged.png"
+  },
+  {
+   "id": "Panther/weakened",
+   "titel": "Zoo: Panther – weakened",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Panther\\weakened.png"
+  },
+  {
+   "id": "Panther/surrender",
+   "titel": "Zoo: Panther – surrender",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Panther\\surrender.png"
+  },
+  {
+   "id": "Panther/flee",
+   "titel": "Zoo: Panther – flee",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Panther\\flee.png"
+  },
+  {
+   "id": "Panther/victory",
+   "titel": "Zoo: Panther – victory",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Panther\\victory.png"
+  },
+  {
+   "id": "Panther/windup",
+   "titel": "Zoo: Panther – windup",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Panther\\windup.png"
+  },
+  {
+   "id": "Panther/attack",
+   "titel": "Zoo: Panther – attack",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Panther\\attack.png"
+  },
+  {
+   "id": "Panther/heavy_windup",
+   "titel": "Zoo: Panther – heavy_windup",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Panther\\heavy_windup.png"
+  },
+  {
+   "id": "Panther/heavy_attack",
+   "titel": "Zoo: Panther – heavy_attack",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Panther\\heavy_attack.png"
+  },
+  {
+   "id": "Panther/defeated",
+   "titel": "Zoo: Panther – defeated",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Panther\\defeated.png"
+  },
+  {
+   "id": "Panther/death",
+   "titel": "Zoo: Panther – death",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Panther\\death.png"
+  },
+  {
+   "id": "PantherAlpha/idle",
+   "titel": "Zoo: PantherAlpha – idle",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PantherAlpha\\idle.png"
+  },
+  {
+   "id": "PantherAlpha/guard",
+   "titel": "Zoo: PantherAlpha – guard",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PantherAlpha\\guard.png"
+  },
+  {
+   "id": "PantherAlpha/hurt",
+   "titel": "Zoo: PantherAlpha – hurt",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PantherAlpha\\hurt.png"
+  },
+  {
+   "id": "PantherAlpha/enraged",
+   "titel": "Zoo: PantherAlpha – enraged",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PantherAlpha\\enraged.png"
+  },
+  {
+   "id": "PantherAlpha/weakened",
+   "titel": "Zoo: PantherAlpha – weakened",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PantherAlpha\\weakened.png"
+  },
+  {
+   "id": "PantherAlpha/surrender",
+   "titel": "Zoo: PantherAlpha – surrender",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PantherAlpha\\surrender.png"
+  },
+  {
+   "id": "PantherAlpha/flee",
+   "titel": "Zoo: PantherAlpha – flee",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PantherAlpha\\flee.png"
+  },
+  {
+   "id": "PantherAlpha/victory",
+   "titel": "Zoo: PantherAlpha – victory",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PantherAlpha\\victory.png"
+  },
+  {
+   "id": "PantherAlpha/windup",
+   "titel": "Zoo: PantherAlpha – windup",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PantherAlpha\\windup.png"
+  },
+  {
+   "id": "PantherAlpha/attack",
+   "titel": "Zoo: PantherAlpha – attack",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PantherAlpha\\attack.png"
+  },
+  {
+   "id": "PantherAlpha/heavy_windup",
+   "titel": "Zoo: PantherAlpha – heavy_windup",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PantherAlpha\\heavy_windup.png"
+  },
+  {
+   "id": "PantherAlpha/heavy_attack",
+   "titel": "Zoo: PantherAlpha – heavy_attack",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PantherAlpha\\heavy_attack.png"
+  },
+  {
+   "id": "PantherAlpha/defeated",
+   "titel": "Zoo: PantherAlpha – defeated",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PantherAlpha\\defeated.png"
+  },
+  {
+   "id": "PantherAlpha/death",
+   "titel": "Zoo: PantherAlpha – death",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PantherAlpha\\death.png"
+  },
+  {
+   "id": "Grizzly/idle",
+   "titel": "Zoo: Grizzly – idle",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Grizzly\\idle.png"
+  },
+  {
+   "id": "Grizzly/guard",
+   "titel": "Zoo: Grizzly – guard",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Grizzly\\guard.png"
+  },
+  {
+   "id": "Grizzly/hurt",
+   "titel": "Zoo: Grizzly – hurt",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Grizzly\\hurt.png"
+  },
+  {
+   "id": "Grizzly/enraged",
+   "titel": "Zoo: Grizzly – enraged",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Grizzly\\enraged.png"
+  },
+  {
+   "id": "Grizzly/weakened",
+   "titel": "Zoo: Grizzly – weakened",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Grizzly\\weakened.png"
+  },
+  {
+   "id": "Grizzly/surrender",
+   "titel": "Zoo: Grizzly – surrender",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Grizzly\\surrender.png"
+  },
+  {
+   "id": "Grizzly/flee",
+   "titel": "Zoo: Grizzly – flee",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Grizzly\\flee.png"
+  },
+  {
+   "id": "Grizzly/victory",
+   "titel": "Zoo: Grizzly – victory",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Grizzly\\victory.png"
+  },
+  {
+   "id": "Grizzly/windup",
+   "titel": "Zoo: Grizzly – windup",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Grizzly\\windup.png"
+  },
+  {
+   "id": "Grizzly/attack",
+   "titel": "Zoo: Grizzly – attack",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Grizzly\\attack.png"
+  },
+  {
+   "id": "Grizzly/heavy_windup",
+   "titel": "Zoo: Grizzly – heavy_windup",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Grizzly\\heavy_windup.png"
+  },
+  {
+   "id": "Grizzly/heavy_attack",
+   "titel": "Zoo: Grizzly – heavy_attack",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Grizzly\\heavy_attack.png"
+  },
+  {
+   "id": "Grizzly/defeated",
+   "titel": "Zoo: Grizzly – defeated",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Grizzly\\defeated.png"
+  },
+  {
+   "id": "Grizzly/death",
+   "titel": "Zoo: Grizzly – death",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Grizzly\\death.png"
+  },
+  {
+   "id": "GrizzlyAlpha/idle",
+   "titel": "Zoo: GrizzlyAlpha – idle",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\GrizzlyAlpha\\idle.png"
+  },
+  {
+   "id": "GrizzlyAlpha/guard",
+   "titel": "Zoo: GrizzlyAlpha – guard",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\GrizzlyAlpha\\guard.png"
+  },
+  {
+   "id": "GrizzlyAlpha/hurt",
+   "titel": "Zoo: GrizzlyAlpha – hurt",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\GrizzlyAlpha\\hurt.png"
+  },
+  {
+   "id": "GrizzlyAlpha/enraged",
+   "titel": "Zoo: GrizzlyAlpha – enraged",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\GrizzlyAlpha\\enraged.png"
+  },
+  {
+   "id": "GrizzlyAlpha/weakened",
+   "titel": "Zoo: GrizzlyAlpha – weakened",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\GrizzlyAlpha\\weakened.png"
+  },
+  {
+   "id": "GrizzlyAlpha/surrender",
+   "titel": "Zoo: GrizzlyAlpha – surrender",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\GrizzlyAlpha\\surrender.png"
+  },
+  {
+   "id": "GrizzlyAlpha/flee",
+   "titel": "Zoo: GrizzlyAlpha – flee",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\GrizzlyAlpha\\flee.png"
+  },
+  {
+   "id": "GrizzlyAlpha/victory",
+   "titel": "Zoo: GrizzlyAlpha – victory",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\GrizzlyAlpha\\victory.png"
+  },
+  {
+   "id": "GrizzlyAlpha/windup",
+   "titel": "Zoo: GrizzlyAlpha – windup",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\GrizzlyAlpha\\windup.png"
+  },
+  {
+   "id": "GrizzlyAlpha/attack",
+   "titel": "Zoo: GrizzlyAlpha – attack",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\GrizzlyAlpha\\attack.png"
+  },
+  {
+   "id": "GrizzlyAlpha/heavy_windup",
+   "titel": "Zoo: GrizzlyAlpha – heavy_windup",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\GrizzlyAlpha\\heavy_windup.png"
+  },
+  {
+   "id": "GrizzlyAlpha/heavy_attack",
+   "titel": "Zoo: GrizzlyAlpha – heavy_attack",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\GrizzlyAlpha\\heavy_attack.png"
+  },
+  {
+   "id": "GrizzlyAlpha/defeated",
+   "titel": "Zoo: GrizzlyAlpha – defeated",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\GrizzlyAlpha\\defeated.png"
+  },
+  {
+   "id": "GrizzlyAlpha/death",
+   "titel": "Zoo: GrizzlyAlpha – death",
+   "soll": "Silberhalsband, ganz im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\GrizzlyAlpha\\death.png"
+  },
+  {
+   "id": "Ziege",
+   "titel": "Zicklein mit Glocke (Capra)",
+   "soll": "Einzelbild, keine Kampfposen",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Ziege\\outfit_check.png"
+  },
+  {
+   "id": "ZiegeHalsband",
+   "titel": "Zicklein mit Silberhalsband",
+   "soll": "Einzelbild, keine Kampfposen",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ZiegeHalsband\\outfit_check.png"
+  }
+ ]
+}

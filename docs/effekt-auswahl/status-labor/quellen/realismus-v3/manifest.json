@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "generated": [
+    {
+      "name": "stahl",
+      "origin": "OpenAI built-in image generation; single raster material, not simulation",
+      "sha256": "e225aedae28ceeecf57382fbf84f0c65a688281d3ea67917ebe1d47cf01627ef",
+      "size": [
+        2172,
+        724
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "crop": [
+        124,
+        252,
+        2073,
+        497
+      ]
+    },
+    {
+      "name": "wasser",
+      "origin": "OpenAI built-in image generation; single raster material, not simulation",
+      "sha256": "3adb726d10fbd7e0b8cadf323d9a1ba8de779ffbe1ad5a4587292c592cf83ea1",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "crop": [
+        15,
+        307,
+        1522,
+        791
+      ]
+    },
+    {
+      "name": "licht",
+      "origin": "OpenAI built-in image generation; single raster material, not simulation",
+      "sha256": "7b2f9334df3dde05bb8f14ce7432b7def3d0ee87e7b70be6d906f62c821d14d0",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        253
+      ],
+      "crop": [
+        147,
+        11,
+        910,
+        1528
+      ]
+    }
+  ],
+  "libraries": [
+    {
+      "author": "Kenney",
+      "url": "https://kenney.nl/assets/particle-pack",
+      "download": "https://kenney.nl/media/pages/assets/particle-pack/f8fe0f8cb8-1677578741/kenney_particle-pack.zip",
+      "license": "CC0",
+      "used_files": [
+        "flare_01.png",
+        "trace_04.png"
+      ],
+      "sha256": "b631d4b07f7002549fdcf155f01141ad482f79f3440e4e301eed49ce5f1d8958"
+    }
+  ]
+}

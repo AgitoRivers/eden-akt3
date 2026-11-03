@@ -1,0 +1,295 @@
+{
+ "id": "danzel_set",
+ "titel": "Danzel – volles Sprite-Set (23 Dialog + 13 Kampf)",
+ "hinweis": "OK oder Neu je Bild; bei Neu kurz notieren, was falsch ist. Danach: Dialog -> figuren/Danzel, Kampf -> Kampf_Bilder.bat.",
+ "items": [
+  {
+   "id": "dlg_admiration_2",
+   "titel": "Dialog · admiration_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Standard\\roh\\admiration_2.png",
+   "soll": "Danzel B2, Ausdruck admiration_2 (frontal, gleiches Gesicht/Outfit wie die Abnahme)",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "dlg_amusement",
+   "titel": "Dialog · amusement",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Standard\\roh\\amusement.png",
+   "soll": "Danzel B2, Ausdruck amusement (frontal, gleiches Gesicht/Outfit wie die Abnahme)",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "dlg_anger",
+   "titel": "Dialog · anger",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Standard\\roh\\anger.png",
+   "soll": "Danzel B2, Ausdruck anger (frontal, gleiches Gesicht/Outfit wie die Abnahme)",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "dlg_annoyance",
+   "titel": "Dialog · annoyance",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Standard\\roh\\annoyance.png",
+   "soll": "Danzel B2, Ausdruck annoyance (frontal, gleiches Gesicht/Outfit wie die Abnahme)",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "dlg_approval",
+   "titel": "Dialog · approval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Standard\\roh\\approval.png",
+   "soll": "Danzel B2, Ausdruck approval (frontal, gleiches Gesicht/Outfit wie die Abnahme)",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "dlg_caring",
+   "titel": "Dialog · caring",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Standard\\roh\\caring.png",
+   "soll": "Danzel B2, Ausdruck caring (frontal, gleiches Gesicht/Outfit wie die Abnahme)",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "dlg_confusion",
+   "titel": "Dialog · confusion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Standard\\roh\\confusion.png",
+   "soll": "Danzel B2, Ausdruck confusion (frontal, gleiches Gesicht/Outfit wie die Abnahme)",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "dlg_curiosity",
+   "titel": "Dialog · curiosity",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Standard\\roh\\curiosity.png",
+   "soll": "Danzel B2, Ausdruck curiosity (frontal, gleiches Gesicht/Outfit wie die Abnahme)",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "dlg_desire_2",
+   "titel": "Dialog · desire_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Standard\\roh\\desire_2.png",
+   "soll": "Danzel B2, Ausdruck desire_2 (frontal, gleiches Gesicht/Outfit wie die Abnahme)",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "dlg_disappointment",
+   "titel": "Dialog · disappointment",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Standard\\roh\\disappointment.png",
+   "soll": "Danzel B2, Ausdruck disappointment (frontal, gleiches Gesicht/Outfit wie die Abnahme)",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "dlg_disapproval",
+   "titel": "Dialog · disapproval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Standard\\roh\\disapproval.png",
+   "soll": "Danzel B2, Ausdruck disapproval (frontal, gleiches Gesicht/Outfit wie die Abnahme)",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "dlg_disgust",
+   "titel": "Dialog · disgust",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Standard\\roh\\disgust.png",
+   "soll": "Danzel B2, Ausdruck disgust (frontal, gleiches Gesicht/Outfit wie die Abnahme)",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "dlg_embarrassment_2",
+   "titel": "Dialog · embarrassment_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Standard\\roh\\embarrassment_2.png",
+   "soll": "Danzel B2, Ausdruck embarrassment_2 (frontal, gleiches Gesicht/Outfit wie die Abnahme)",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "dlg_excitement_2",
+   "titel": "Dialog · excitement_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Standard\\roh\\excitement_2.png",
+   "soll": "Danzel B2, Ausdruck excitement_2 (frontal, gleiches Gesicht/Outfit wie die Abnahme)",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "dlg_fear_2",
+   "titel": "Dialog · fear_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Standard\\roh\\fear_2.png",
+   "soll": "Danzel B2, Ausdruck fear_2 (frontal, gleiches Gesicht/Outfit wie die Abnahme)",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "dlg_gratitude",
+   "titel": "Dialog · gratitude",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Standard\\roh\\gratitude.png",
+   "soll": "Danzel B2, Ausdruck gratitude (frontal, gleiches Gesicht/Outfit wie die Abnahme)",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "dlg_joy",
+   "titel": "Dialog · joy",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Standard\\roh\\joy.png",
+   "soll": "Danzel B2, Ausdruck joy (frontal, gleiches Gesicht/Outfit wie die Abnahme)",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "dlg_love_2",
+   "titel": "Dialog · love_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Standard\\roh\\love_2.png",
+   "soll": "Danzel B2, Ausdruck love_2 (frontal, gleiches Gesicht/Outfit wie die Abnahme)",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "dlg_nervousness",
+   "titel": "Dialog · nervousness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Standard\\roh\\nervousness.png",
+   "soll": "Danzel B2, Ausdruck nervousness (frontal, gleiches Gesicht/Outfit wie die Abnahme)",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "dlg_neutral",
+   "titel": "Dialog · neutral",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Standard\\roh\\neutral.png",
+   "soll": "Danzel B2, Ausdruck neutral (frontal, gleiches Gesicht/Outfit wie die Abnahme)",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "dlg_pride",
+   "titel": "Dialog · pride",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Standard\\roh\\pride.png",
+   "soll": "Danzel B2, Ausdruck pride (frontal, gleiches Gesicht/Outfit wie die Abnahme)",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "dlg_sadness",
+   "titel": "Dialog · sadness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Standard\\roh\\sadness.png",
+   "soll": "Danzel B2, Ausdruck sadness (frontal, gleiches Gesicht/Outfit wie die Abnahme)",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "dlg_surprise",
+   "titel": "Dialog · surprise",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Standard\\roh\\surprise.png",
+   "soll": "Danzel B2, Ausdruck surprise (frontal, gleiches Gesicht/Outfit wie die Abnahme)",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "kampf_idle",
+   "titel": "Kampf · idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\idle.png",
+   "soll": "Kampf-Pose idle, Danzel mit Teleskopschlagstock, Dreiviertelansicht nach links",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "kampf_windup",
+   "titel": "Kampf · windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\windup.png",
+   "soll": "Kampf-Pose windup, Danzel mit Teleskopschlagstock, Dreiviertelansicht nach links",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "kampf_attack",
+   "titel": "Kampf · attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\attack.png",
+   "soll": "Kampf-Pose attack, Danzel mit Teleskopschlagstock, Dreiviertelansicht nach links",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "kampf_heavy_windup",
+   "titel": "Kampf · heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\heavy_windup.png",
+   "soll": "Kampf-Pose heavy_windup, Danzel mit Teleskopschlagstock, Dreiviertelansicht nach links",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "kampf_heavy_attack",
+   "titel": "Kampf · heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\heavy_attack.png",
+   "soll": "Kampf-Pose heavy_attack, Danzel mit Teleskopschlagstock, Dreiviertelansicht nach links",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "kampf_guard",
+   "titel": "Kampf · guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\guard.png",
+   "soll": "Kampf-Pose guard, Danzel mit Teleskopschlagstock, Dreiviertelansicht nach links",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "kampf_hurt",
+   "titel": "Kampf · hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\hurt.png",
+   "soll": "Kampf-Pose hurt, Danzel mit Teleskopschlagstock, Dreiviertelansicht nach links",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "kampf_enraged",
+   "titel": "Kampf · enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\enraged.png",
+   "soll": "Kampf-Pose enraged, Danzel mit Teleskopschlagstock, Dreiviertelansicht nach links",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "kampf_weakened",
+   "titel": "Kampf · weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\weakened.png",
+   "soll": "Kampf-Pose weakened, Danzel mit Teleskopschlagstock, Dreiviertelansicht nach links",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "kampf_defeated",
+   "titel": "Kampf · defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\defeated.png",
+   "soll": "Kampf-Pose defeated, Danzel mit Teleskopschlagstock, Dreiviertelansicht nach links",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "kampf_surrender",
+   "titel": "Kampf · surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\surrender.png",
+   "soll": "Kampf-Pose surrender, Danzel mit Teleskopschlagstock, Dreiviertelansicht nach links",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "kampf_flee",
+   "titel": "Kampf · flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\flee.png",
+   "soll": "Kampf-Pose flee, Danzel mit Teleskopschlagstock, Dreiviertelansicht nach links",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  },
+  {
+   "id": "kampf_victory",
+   "titel": "Kampf · victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\victory.png",
+   "soll": "Kampf-Pose victory, Danzel mit Teleskopschlagstock, Dreiviertelansicht nach links",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "vergleich_titel": "Abnahme B2"
+  }
+ ]
+}

@@ -1,0 +1,139 @@
+{
+ "id": "set_anghjulu",
+ "titel": "Set Don Anghjulu - NPC-Satz (22 Posen)",
+ "hinweis": "NPC-Ausdruecke ohne desire_2, ohne Rueckansichten. Ablage: expressions\\Yacht_Anghjulu\\Standard\roh. Noch nichts im Spiel.",
+ "items": [
+  {
+   "id": "admiration_2",
+   "titel": "Don Anghjulu - admiration_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Anghjulu\\Standard\\roh\\admiration_2.png",
+   "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)"
+  },
+  {
+   "id": "amusement",
+   "titel": "Don Anghjulu - amusement",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Anghjulu\\Standard\\roh\\amusement.png",
+   "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)"
+  },
+  {
+   "id": "anger",
+   "titel": "Don Anghjulu - anger",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Anghjulu\\Standard\\roh\\anger.png",
+   "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)"
+  },
+  {
+   "id": "annoyance",
+   "titel": "Don Anghjulu - annoyance",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Anghjulu\\Standard\\roh\\annoyance.png",
+   "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)"
+  },
+  {
+   "id": "approval",
+   "titel": "Don Anghjulu - approval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Anghjulu\\Standard\\roh\\approval.png",
+   "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)"
+  },
+  {
+   "id": "caring",
+   "titel": "Don Anghjulu - caring",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Anghjulu\\Standard\\roh\\caring.png",
+   "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)"
+  },
+  {
+   "id": "confusion",
+   "titel": "Don Anghjulu - confusion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Anghjulu\\Standard\\roh\\confusion.png",
+   "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)"
+  },
+  {
+   "id": "curiosity",
+   "titel": "Don Anghjulu - curiosity",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Anghjulu\\Standard\\roh\\curiosity.png",
+   "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)"
+  },
+  {
+   "id": "disappointment",
+   "titel": "Don Anghjulu - disappointment",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Anghjulu\\Standard\\roh\\disappointment.png",
+   "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)"
+  },
+  {
+   "id": "disapproval",
+   "titel": "Don Anghjulu - disapproval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Anghjulu\\Standard\\roh\\disapproval.png",
+   "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)"
+  },
+  {
+   "id": "disgust",
+   "titel": "Don Anghjulu - disgust",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Anghjulu\\Standard\\roh\\disgust.png",
+   "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)"
+  },
+  {
+   "id": "embarrassment_2",
+   "titel": "Don Anghjulu - embarrassment_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Anghjulu\\Standard\\roh\\embarrassment_2.png",
+   "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)"
+  },
+  {
+   "id": "excitement_2",
+   "titel": "Don Anghjulu - excitement_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Anghjulu\\Standard\\roh\\excitement_2.png",
+   "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)"
+  },
+  {
+   "id": "fear_2",
+   "titel": "Don Anghjulu - fear_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Anghjulu\\Standard\\roh\\fear_2.png",
+   "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)"
+  },
+  {
+   "id": "gratitude",
+   "titel": "Don Anghjulu - gratitude",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Anghjulu\\Standard\\roh\\gratitude.png",
+   "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)"
+  },
+  {
+   "id": "joy",
+   "titel": "Don Anghjulu - joy",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Anghjulu\\Standard\\roh\\joy.png",
+   "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)"
+  },
+  {
+   "id": "love_2",
+   "titel": "Don Anghjulu - love_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Anghjulu\\Standard\\roh\\love_2.png",
+   "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)"
+  },
+  {
+   "id": "nervousness",
+   "titel": "Don Anghjulu - nervousness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Anghjulu\\Standard\\roh\\nervousness.png",
+   "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)"
+  },
+  {
+   "id": "neutral",
+   "titel": "Don Anghjulu - neutral",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Anghjulu\\Standard\\roh\\neutral.png",
+   "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)"
+  },
+  {
+   "id": "pride",
+   "titel": "Don Anghjulu - pride",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Anghjulu\\Standard\\roh\\pride.png",
+   "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)"
+  },
+  {
+   "id": "sadness",
+   "titel": "Don Anghjulu - sadness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Anghjulu\\Standard\\roh\\sadness.png",
+   "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)"
+  },
+  {
+   "id": "surprise",
+   "titel": "Don Anghjulu - surprise",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Anghjulu\\Standard\\roh\\surprise.png",
+   "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)"
+  }
+ ]
+}

@@ -1,0 +1,157 @@
+{
+ "id": "grotte_runde3",
+ "titel": "Grotte – Sprites U Riscossore, Casting Chloé",
+ "hinweis": "Sprites: fehlerhafte auf NEU. Chloé: ein Bild auf OK.",
+ "items": [
+  {
+   "id": "sprite_Riscossore_admiration_2",
+   "titel": "U Riscossore – admiration_2",
+   "soll": "U Riscossore, Sprite-Set (Fassung A Seed 2), eine Person, Orange – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Riscossore\\Standard\\roh\\admiration_2.png"
+  },
+  {
+   "id": "sprite_Riscossore_amusement",
+   "titel": "U Riscossore – amusement",
+   "soll": "U Riscossore, Sprite-Set (Fassung A Seed 2), eine Person, Orange – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Riscossore\\Standard\\roh\\amusement.png"
+  },
+  {
+   "id": "sprite_Riscossore_anger",
+   "titel": "U Riscossore – anger",
+   "soll": "U Riscossore, Sprite-Set (Fassung A Seed 2), eine Person, Orange – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Riscossore\\Standard\\roh\\anger.png"
+  },
+  {
+   "id": "sprite_Riscossore_annoyance",
+   "titel": "U Riscossore – annoyance",
+   "soll": "U Riscossore, Sprite-Set (Fassung A Seed 2), eine Person, Orange – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Riscossore\\Standard\\roh\\annoyance.png"
+  },
+  {
+   "id": "sprite_Riscossore_approval",
+   "titel": "U Riscossore – approval",
+   "soll": "U Riscossore, Sprite-Set (Fassung A Seed 2), eine Person, Orange – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Riscossore\\Standard\\roh\\approval.png"
+  },
+  {
+   "id": "sprite_Riscossore_caring",
+   "titel": "U Riscossore – caring",
+   "soll": "U Riscossore, Sprite-Set (Fassung A Seed 2), eine Person, Orange – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Riscossore\\Standard\\roh\\caring.png"
+  },
+  {
+   "id": "sprite_Riscossore_confusion",
+   "titel": "U Riscossore – confusion",
+   "soll": "U Riscossore, Sprite-Set (Fassung A Seed 2), eine Person, Orange – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Riscossore\\Standard\\roh\\confusion.png"
+  },
+  {
+   "id": "sprite_Riscossore_curiosity",
+   "titel": "U Riscossore – curiosity",
+   "soll": "U Riscossore, Sprite-Set (Fassung A Seed 2), eine Person, Orange – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Riscossore\\Standard\\roh\\curiosity.png"
+  },
+  {
+   "id": "sprite_Riscossore_disappointment",
+   "titel": "U Riscossore – disappointment",
+   "soll": "U Riscossore, Sprite-Set (Fassung A Seed 2), eine Person, Orange – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Riscossore\\Standard\\roh\\disappointment.png"
+  },
+  {
+   "id": "sprite_Riscossore_disapproval",
+   "titel": "U Riscossore – disapproval",
+   "soll": "U Riscossore, Sprite-Set (Fassung A Seed 2), eine Person, Orange – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Riscossore\\Standard\\roh\\disapproval.png"
+  },
+  {
+   "id": "sprite_Riscossore_disgust",
+   "titel": "U Riscossore – disgust",
+   "soll": "U Riscossore, Sprite-Set (Fassung A Seed 2), eine Person, Orange – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Riscossore\\Standard\\roh\\disgust.png"
+  },
+  {
+   "id": "sprite_Riscossore_embarrassment_2",
+   "titel": "U Riscossore – embarrassment_2",
+   "soll": "U Riscossore, Sprite-Set (Fassung A Seed 2), eine Person, Orange – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Riscossore\\Standard\\roh\\embarrassment_2.png"
+  },
+  {
+   "id": "sprite_Riscossore_excitement_2",
+   "titel": "U Riscossore – excitement_2",
+   "soll": "U Riscossore, Sprite-Set (Fassung A Seed 2), eine Person, Orange – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Riscossore\\Standard\\roh\\excitement_2.png"
+  },
+  {
+   "id": "sprite_Riscossore_fear",
+   "titel": "U Riscossore – fear",
+   "soll": "U Riscossore, Sprite-Set (Fassung A Seed 2), eine Person, Orange – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Riscossore\\Standard\\roh\\fear.png"
+  },
+  {
+   "id": "sprite_Riscossore_gratitude",
+   "titel": "U Riscossore – gratitude",
+   "soll": "U Riscossore, Sprite-Set (Fassung A Seed 2), eine Person, Orange – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Riscossore\\Standard\\roh\\gratitude.png"
+  },
+  {
+   "id": "sprite_Riscossore_joy",
+   "titel": "U Riscossore – joy",
+   "soll": "U Riscossore, Sprite-Set (Fassung A Seed 2), eine Person, Orange – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Riscossore\\Standard\\roh\\joy.png"
+  },
+  {
+   "id": "sprite_Riscossore_nervousness",
+   "titel": "U Riscossore – nervousness",
+   "soll": "U Riscossore, Sprite-Set (Fassung A Seed 2), eine Person, Orange – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Riscossore\\Standard\\roh\\nervousness.png"
+  },
+  {
+   "id": "sprite_Riscossore_neutral",
+   "titel": "U Riscossore – neutral",
+   "soll": "U Riscossore, Sprite-Set (Fassung A Seed 2), eine Person, Orange – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Riscossore\\Standard\\roh\\neutral.png"
+  },
+  {
+   "id": "sprite_Riscossore_pride",
+   "titel": "U Riscossore – pride",
+   "soll": "U Riscossore, Sprite-Set (Fassung A Seed 2), eine Person, Orange – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Riscossore\\Standard\\roh\\pride.png"
+  },
+  {
+   "id": "sprite_Riscossore_sadness",
+   "titel": "U Riscossore – sadness",
+   "soll": "U Riscossore, Sprite-Set (Fassung A Seed 2), eine Person, Orange – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Riscossore\\Standard\\roh\\sadness.png"
+  },
+  {
+   "id": "sprite_Riscossore_surprise",
+   "titel": "U Riscossore – surprise",
+   "soll": "U Riscossore, Sprite-Set (Fassung A Seed 2), eine Person, Orange – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Riscossore\\Standard\\roh\\surprise.png"
+  },
+  {
+   "id": "casting_Chloe_A1",
+   "titel": "Casting Chloe – Fassung A, Seed 1",
+   "soll": "Chloé Marchal NEU mit Tags (A: Pferdeschwanz, B: kurze Locken; Dreck, Olive-Haut) – je Figur EIN Bild auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Chloe_A\\neutral.png"
+  },
+  {
+   "id": "casting_Chloe_A2",
+   "titel": "Casting Chloe – Fassung A, Seed 2",
+   "soll": "Chloé Marchal NEU mit Tags (A: Pferdeschwanz, B: kurze Locken; Dreck, Olive-Haut) – je Figur EIN Bild auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Chloe_A\\neutral-1.png"
+  },
+  {
+   "id": "casting_Chloe_B1",
+   "titel": "Casting Chloe – Fassung B, Seed 1",
+   "soll": "Chloé Marchal NEU mit Tags (A: Pferdeschwanz, B: kurze Locken; Dreck, Olive-Haut) – je Figur EIN Bild auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Chloe_B\\neutral.png"
+  },
+  {
+   "id": "casting_Chloe_B2",
+   "titel": "Casting Chloe – Fassung B, Seed 2",
+   "soll": "Chloé Marchal NEU mit Tags (A: Pferdeschwanz, B: kurze Locken; Dreck, Olive-Haut) – je Figur EIN Bild auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Chloe_B\\neutral-1.png"
+  }
+ ]
+}

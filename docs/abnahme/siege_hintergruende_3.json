@@ -1,0 +1,31 @@
+{
+ "id": "siege_hintergruende_3",
+ "titel": "Belagerung: Hintergründe 3",
+ "hinweis": "Je Ort eine Variante mit OK markieren.",
+ "items": [
+  {
+   "id": "felsen_v1",
+   "titel": "Felsen · Variante 1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_siege_felsen_v1.png",
+   "soll": "Golden hour, flacher Boden von links nach rechts.",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\eden_rise_siege_felsen.png",
+   "vergleich_titel": "Jetzt im Spiel"
+  },
+  {
+   "id": "felsen_v2",
+   "titel": "Felsen · Variante 2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_siege_felsen_v2.png",
+   "soll": "Golden hour, flacher Boden von links nach rechts.",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\eden_rise_siege_felsen.png",
+   "vergleich_titel": "Jetzt im Spiel"
+  },
+  {
+   "id": "felsen_v3",
+   "titel": "Felsen · Variante 3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_siege_felsen_v3.png",
+   "soll": "Golden hour, flacher Boden von links nach rechts.",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\eden_rise_siege_felsen.png",
+   "vergleich_titel": "Jetzt im Spiel"
+  }
+ ]
+}

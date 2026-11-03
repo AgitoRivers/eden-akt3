@@ -1,0 +1,12 @@
+{
+ "id": "maximum_steelmop_v3",
+ "titel": "Mr. Maximum: Steel Mop nach deinem Pixel-Sprite",
+ "hinweis": "Stahlwürfel, Borstenkranz ums Rohr, ausgefranstes Hemd, keine Brille, wie auf deinem Bild. Bitte eine Kampf-Haltung und den Dialog-Look wählen. Mein Vorschlag: Kampf „bereit“ als Grundpose und Dialog 3. Links jeweils das alte Bild.",
+ "items": [
+  {"id": "k_bereit", "titel": "Kampf · bereit, Würfel erhoben (Vorschlag)", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_maximum_wuerfel_2\\bereit\\idle.png", "soll": "Beide Hände am Rohr, der Kranz ist hier am dicksten. Passt am besten als Grundpose im Kampf.", "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\MaxwellMaximum\\idle.webp", "vergleich_titel": "Bisher auf der Taktik-Karte"},
+  {"id": "k_boden", "titel": "Kampf · Würfel am Boden, wie dein erstes Bild", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_maximum_wuerfel_2\\boden\\idle.png", "soll": "Am nächsten an der oberen Reihe deines Bilds. Der Kranz ist hier kleiner, und er steht sehr ruhig für eine Kampf-Grundpose.", "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\MaxwellMaximum\\idle.webp", "vergleich_titel": "Bisher auf der Taktik-Karte"},
+  {"id": "k_schulter", "titel": "Kampf · auf der Schulter, wie dein zweites Bild", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_maximum_wuerfel_2\\schulter\\idle-1.png", "soll": "Am nächsten an der unteren Reihe deines Bilds. Gute Lauf- oder Sieger-Pose, sonst wenig Spannung.", "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\MaxwellMaximum\\idle.webp", "vergleich_titel": "Bisher auf der Taktik-Karte"},
+  {"id": "d3", "titel": "Dialog 3 · ausgefranstes Hemd, ohne Waffe (Vorschlag)", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_maximum_steelmop_3\\d3\\neutral-1.png", "soll": "Passt zum Hemd auf deinem Bild.", "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Maxwell Ndlovu\\neutral.png", "vergleich_titel": "Steward-Set"},
+  {"id": "d1", "titel": "Dialog 1 · sauberes Hemd, ohne Waffe", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_maximum_steelmop_3\\d1\\neutral.png", "soll": "Ärmel sauber abgetrennt, wirkt ordentlicher, weicht aber von deinem Bild ab.", "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Maxwell Ndlovu\\neutral.png", "vergleich_titel": "Steward-Set"}
+ ]
+}

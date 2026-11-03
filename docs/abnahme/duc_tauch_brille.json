@@ -1,0 +1,5 @@
+{"id": "duc_tauch_brille", "titel": "Duc im Neopren mit Sonnenbrille", "hinweis": "Probe mit zwei Posen. Vorschlag: Sonnenbrille statt Taucherbrille, denn der Witz funktioniert und jeder Duc-Look hat ohnehin seine Brille. Danach rendere ich alle 13 Posen neu. Vergleich: mit Taucherbrille.",
+ "items": [
+  {"id": "idle", "titel": "idle", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_tauch_brille\\idle.png", "soll": "Combat Suit mit Sonnenbrille", "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucTauchKnife\\idle.png", "vergleich_titel": "Mit Taucherbrille"},
+  {"id": "attack", "titel": "attack", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_tauch_brille\\attack.png", "soll": "Stich mit Sonnenbrille", "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucTauchKnife\\attack.png", "vergleich_titel": "Mit Taucherbrille"}
+ ]}

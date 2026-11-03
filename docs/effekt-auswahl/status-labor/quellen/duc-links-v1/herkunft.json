@@ -1,0 +1,42 @@
+{
+  "sourceUnmodified": true,
+  "scale": 0.34,
+  "poses": [
+    {
+      "pose": "idle",
+      "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSaebel\\idle.png",
+      "sha256": "e717ebd377728c21b449fb148efb44902e97a2b2722cc6cf21d3769ac573e9a2",
+      "foot": 1315
+    },
+    {
+      "pose": "windup",
+      "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSaebel\\windup.png",
+      "sha256": "f4112326bc64c5e75cfd5ab8c5a9ceba614f030931c73f284150e49526f6337b",
+      "foot": 1298
+    },
+    {
+      "pose": "attack",
+      "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSaebel\\attack.png",
+      "sha256": "14cd85766c45a762470c7ca9aeef8472cc11f7f898b30df512e67bced04b090f",
+      "foot": 1242
+    },
+    {
+      "pose": "heavy_windup",
+      "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSaebel\\heavy_windup.png",
+      "sha256": "a010e2cd42d7a0ed6958b39abb5dc99c35bc896aa560ae0cc4e678566618034d",
+      "foot": 1300
+    },
+    {
+      "pose": "heavy_attack",
+      "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSaebel\\heavy_attack.png",
+      "sha256": "91909f28174a5e047117c19fe722f2189219e6cd6cf760e1b10bb1ba02363b35",
+      "foot": 1297
+    },
+    {
+      "pose": "guard",
+      "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSaebel\\guard.png",
+      "sha256": "74055baf69ae4c9a0df7fb1bc9ee7e33a1f05678d49e73f364f0362a5142fe1d",
+      "foot": 1299
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+ "id": "ligeia_flosse_r1",
+ "titel": "Ligeia – mehr Flosse (Variante B, 4 Seeds)",
+ "hinweis": "Ducs aktueller Prompt, honigblond. Nur Kopfzeile und Schwanzflosse sind für den Test geändert; das Preset ist noch unverändert. Ein Bild als OK markieren, dann übernehme ich den Ausschnitt ins Preset.",
+ "items": [
+  {
+   "id": "seed_240611",
+   "titel": "Ligeia · Flosse · Seed 240611",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_ligeia_test\\flosse_B\\neutral.png",
+   "soll": "Variante B: ganze Figur auf dem Felsen, Schwanz bis zur Flosse im Bild. Sauberer Rand, Schwanzflosse ganz im Bild",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Ligeia\\Standard\\roh_TEST\\neutral-3.png",
+   "vergleich_titel": "bisher (ab Hüfte)"
+  },
+  {
+   "id": "seed_240612",
+   "titel": "Ligeia · Flosse · Seed 240612",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_ligeia_test\\flosse_B\\neutral-1.png",
+   "soll": "Variante B: ganze Figur auf dem Felsen, Schwanz bis zur Flosse im Bild. Algen auf Felsen und Boden, Schwanzflosse ganz im Bild",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Ligeia\\Standard\\roh_TEST\\neutral-3.png",
+   "vergleich_titel": "bisher (ab Hüfte)"
+  },
+  {
+   "id": "seed_240613",
+   "titel": "Ligeia · Flosse · Seed 240613",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_ligeia_test\\flosse_B\\neutral-2.png",
+   "soll": "Variante B: ganze Figur auf dem Felsen, Schwanz bis zur Flosse im Bild. Schwacher Schriftzug unten rechts (wegschneidbar), zwei kleine Zusatzflossen",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Ligeia\\Standard\\roh_TEST\\neutral-3.png",
+   "vergleich_titel": "bisher (ab Hüfte)"
+  },
+  {
+   "id": "seed_240614",
+   "titel": "Ligeia · Flosse · Seed 240614",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_ligeia_test\\flosse_B\\neutral-3.png",
+   "soll": "Variante B: ganze Figur auf dem Felsen, Schwanz bis zur Flosse im Bild. Deutlicher Schriftzug unten rechts (wegschneidbar), zwei kleine Zusatzflossen",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Ligeia\\Standard\\roh_TEST\\neutral-3.png",
+   "vergleich_titel": "bisher (ab Hüfte)"
+  }
+ ]
+}

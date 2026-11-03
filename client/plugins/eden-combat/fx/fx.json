@@ -1,0 +1,106 @@
+{
+ "explosion": {
+  "spalten": 8,
+  "zeilen": 8,
+  "bilder": 63,
+  "w": 240,
+  "h": 265,
+  "quelle": "berserker-v2/explosion.png"
+ },
+ "druckstoss": {
+  "spalten": 8,
+  "zeilen": 2,
+  "bilder": 15,
+  "w": 320,
+  "h": 320,
+  "quelle": "druckstoss.png"
+ },
+ "brand": {
+  "spalten": 8,
+  "zeilen": 4,
+  "bilder": 32,
+  "w": 192,
+  "h": 192,
+  "quelle": "feuer.png"
+ },
+ "fontaene": {
+  "spalten": 8,
+  "zeilen": 8,
+  "bilder": 61,
+  "w": 256,
+  "h": 256,
+  "quelle": "native-v6/ausbruch.png"
+ },
+ "strom": {
+  "spalten": 8,
+  "zeilen": 4,
+  "bilder": 32,
+  "w": 192,
+  "h": 192,
+  "quelle": "strom.png"
+ },
+ "staub": {
+  "spalten": 8,
+  "zeilen": 4,
+  "bilder": 32,
+  "w": 192,
+  "h": 192,
+  "quelle": "staub_frei.png"
+ },
+ "ring": {
+  "spalten": 8,
+  "zeilen": 8,
+  "bilder": 62,
+  "w": 256,
+  "h": 256,
+  "quelle": "omerta-shockwave-gold-v1.png"
+ },
+ "feuerball": {
+  "spalten": 8,
+  "zeilen": 8,
+  "bilder": 62,
+  "w": 256,
+  "h": 256,
+  "quelle": "../quellen/granaten-jangafx-20261027/aerial-explosion-2/aerial_explosion_2_render_all.png"
+ },
+ "bodenexplosion": {
+  "spalten": 8,
+  "zeilen": 8,
+  "bilder": 63,
+  "w": 256,
+  "h": 256,
+  "quelle": "../quellen/granaten-jangafx-20261027/artillery-explosion-1/artillery_explosion_1_render_all.png"
+ },
+ "rauchring": {
+  "spalten": 8,
+  "zeilen": 8,
+  "bilder": 62,
+  "w": 256,
+  "h": 256,
+  "quelle": "../quellen/granaten-jangafx-20261027/smoke-shockwave-2/smoke_shockwave_2_render_all.png"
+ },
+ "wasserball": {
+  "spalten": 8,
+  "zeilen": 7,
+  "bilder": 52,
+  "w": 320,
+  "h": 180,
+  "quelle": "../quellen/granaten-jangafx-20261027/wasserball-boden/wasserball-boden-flipbook.png"
+ },
+ "flare": {
+  "spalten": 1,
+  "zeilen": 1,
+  "bilder": 1,
+  "w": 256,
+  "h": 256,
+  "quelle": "realismus-v3/kenney-flare_01.png"
+ },
+ "spur": {
+  "spalten": 1,
+  "zeilen": 1,
+  "bilder": 1,
+  "w": 192,
+  "h": 192,
+  "quelle": "realismus-v3/kenney-trace_04.png"
+ }
+}

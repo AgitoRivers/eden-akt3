@@ -1,0 +1,14 @@
+{
+ "id": "baum_einbau_v1",
+ "titel": "Korkeiche geschält und Stahl-Text",
+ "hinweis": "Beides ist schon im Spiel. Nur markieren, was noch anders werden soll.",
+ "items": [
+  {"id": "cork_oak_2_geschaelt", "titel": "Knorrige Korkeiche · geschält", "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\abbau\\cork_oak_2.png",
+   "soll": "Aus deinem Bild gerechnet, deckungsgleich. Nur der Stamm zwischen Astknoten und Wurzeln wird rostrot.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\abbau\\cork_oak_2_vorher.png", "vergleich_titel": "Mit Rinde (von dir gewählt)"},
+  {"id": "cork_oak_2_rinde", "titel": "Knorrige Korkeiche · Rindenstück", "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\abbau\\cork_oak_2_rinde.png",
+   "soll": "Dieses Stück fällt beim vorletzten Hieb herunter."},
+  {"id": "steel_text", "titel": "Stahl · neuer Text", "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\steel.webp",
+   "soll": "Text im Spiel: Nobody on this island makes it. It only comes ashore inside the machines sent to find you, so you take it back out."}
+ ]
+}

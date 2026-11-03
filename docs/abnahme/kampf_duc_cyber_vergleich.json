@@ -1,0 +1,463 @@
+{
+ "id": "kampf_duc_cyber_vergleich",
+ "titel": "Cyber-Duc: alt gegen neu",
+ "hinweis": "Großes Bild = neue Version (Handschuhe in der Karte, mittleres Messer), daneben die alte. ✓ OK = neue Version nehmen, ✗ Neu = alte behalten (Notiz optional). 8 Posen waren bildgleich und fehlen hier.",
+ "items": [
+  {
+   "id": "DucCyberSaebel/idle",
+   "titel": "Cyber – Säbel – idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaebel\\idle.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaebel\\_test\\idle_v1.png",
+   "vergleich_titel": "alt (idle_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSaebel/hurt",
+   "titel": "Cyber – Säbel – hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaebel\\hurt.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaebel\\_test\\hurt_v1.png",
+   "vergleich_titel": "alt (hurt_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSaebel/enraged",
+   "titel": "Cyber – Säbel – enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaebel\\enraged.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaebel\\_test\\enraged_v1.png",
+   "vergleich_titel": "alt (enraged_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSaebel/weakened",
+   "titel": "Cyber – Säbel – weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaebel\\weakened.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaebel\\_test\\weakened_v1.png",
+   "vergleich_titel": "alt (weakened_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSaebel/flee",
+   "titel": "Cyber – Säbel – flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaebel\\flee.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaebel\\_test\\flee_v1.png",
+   "vergleich_titel": "alt (flee_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSaebel/victory",
+   "titel": "Cyber – Säbel – victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaebel\\victory.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaebel\\_test\\victory_v1.png",
+   "vergleich_titel": "alt (victory_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSaebel/defeated",
+   "titel": "Cyber – Säbel – defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaebel\\defeated.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaebel\\_test\\defeated_v1.png",
+   "vergleich_titel": "alt (defeated_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSaebel/windup",
+   "titel": "Cyber – Säbel – windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaebel\\windup.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaebel\\_test\\windup_v1.png",
+   "vergleich_titel": "alt (windup_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSaebel/attack",
+   "titel": "Cyber – Säbel – attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaebel\\attack.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaebel\\_test\\attack_v1.png",
+   "vergleich_titel": "alt (attack_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSaebel/heavy_windup",
+   "titel": "Cyber – Säbel – heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaebel\\heavy_windup.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaebel\\_test\\heavy_windup_v1.png",
+   "vergleich_titel": "alt (heavy_windup_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSaebel/heavy_attack",
+   "titel": "Cyber – Säbel – heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaebel\\heavy_attack.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaebel\\_test\\heavy_attack_v1.png",
+   "vergleich_titel": "alt (heavy_attack_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSchlaeger/idle",
+   "titel": "Cyber – Baseballschläger – idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSchlaeger\\idle.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSchlaeger\\_test\\idle_v1.png",
+   "vergleich_titel": "alt (idle_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSchlaeger/guard",
+   "titel": "Cyber – Baseballschläger – guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSchlaeger\\guard.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSchlaeger\\_test\\guard_v1.png",
+   "vergleich_titel": "alt (guard_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSchlaeger/hurt",
+   "titel": "Cyber – Baseballschläger – hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSchlaeger\\hurt.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSchlaeger\\_test\\hurt_v1.png",
+   "vergleich_titel": "alt (hurt_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSchlaeger/enraged",
+   "titel": "Cyber – Baseballschläger – enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSchlaeger\\enraged.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSchlaeger\\_test\\enraged_v1.png",
+   "vergleich_titel": "alt (enraged_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSchlaeger/weakened",
+   "titel": "Cyber – Baseballschläger – weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSchlaeger\\weakened.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSchlaeger\\_test\\weakened_v1.png",
+   "vergleich_titel": "alt (weakened_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSchlaeger/surrender",
+   "titel": "Cyber – Baseballschläger – surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSchlaeger\\surrender.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSchlaeger\\_test\\surrender_v1.png",
+   "vergleich_titel": "alt (surrender_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSchlaeger/flee",
+   "titel": "Cyber – Baseballschläger – flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSchlaeger\\flee.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSchlaeger\\_test\\flee_v1.png",
+   "vergleich_titel": "alt (flee_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSchlaeger/victory",
+   "titel": "Cyber – Baseballschläger – victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSchlaeger\\victory.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSchlaeger\\_test\\victory_v1.png",
+   "vergleich_titel": "alt (victory_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSchlaeger/defeated",
+   "titel": "Cyber – Baseballschläger – defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSchlaeger\\defeated.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSchlaeger\\_test\\defeated_v1.png",
+   "vergleich_titel": "alt (defeated_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSchlaeger/windup",
+   "titel": "Cyber – Baseballschläger – windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSchlaeger\\windup.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSchlaeger\\_test\\windup_v1.png",
+   "vergleich_titel": "alt (windup_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSchlaeger/attack",
+   "titel": "Cyber – Baseballschläger – attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSchlaeger\\attack.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSchlaeger\\_test\\attack_v1.png",
+   "vergleich_titel": "alt (attack_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSchlaeger/heavy_windup",
+   "titel": "Cyber – Baseballschläger – heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSchlaeger\\heavy_windup.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSchlaeger\\_test\\heavy_windup_v1.png",
+   "vergleich_titel": "alt (heavy_windup_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSchlaeger/heavy_attack",
+   "titel": "Cyber – Baseballschläger – heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSchlaeger\\heavy_attack.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSchlaeger\\_test\\heavy_attack_v1.png",
+   "vergleich_titel": "alt (heavy_attack_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberMesser/idle",
+   "titel": "Cyber – Kampfmesser – idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberMesser\\idle.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberMesser\\_test\\idle_v2.png",
+   "vergleich_titel": "alt (idle_v2.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberMesser/guard",
+   "titel": "Cyber – Kampfmesser – guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberMesser\\guard.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberMesser\\_test\\guard_v1.png",
+   "vergleich_titel": "alt (guard_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberMesser/hurt",
+   "titel": "Cyber – Kampfmesser – hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberMesser\\hurt.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberMesser\\_test\\hurt_v1.png",
+   "vergleich_titel": "alt (hurt_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberMesser/enraged",
+   "titel": "Cyber – Kampfmesser – enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberMesser\\enraged.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberMesser\\_test\\enraged_v2.png",
+   "vergleich_titel": "alt (enraged_v2.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberMesser/weakened",
+   "titel": "Cyber – Kampfmesser – weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberMesser\\weakened.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberMesser\\_test\\weakened_v1.png",
+   "vergleich_titel": "alt (weakened_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberMesser/surrender",
+   "titel": "Cyber – Kampfmesser – surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberMesser\\surrender.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberMesser\\_test\\surrender_v1.png",
+   "vergleich_titel": "alt (surrender_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberMesser/flee",
+   "titel": "Cyber – Kampfmesser – flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberMesser\\flee.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberMesser\\_test\\flee_v2.png",
+   "vergleich_titel": "alt (flee_v2.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberMesser/victory",
+   "titel": "Cyber – Kampfmesser – victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberMesser\\victory.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberMesser\\_test\\victory_v2.png",
+   "vergleich_titel": "alt (victory_v2.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberMesser/defeated",
+   "titel": "Cyber – Kampfmesser – defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberMesser\\defeated.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberMesser\\_test\\defeated_v1.png",
+   "vergleich_titel": "alt (defeated_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberMesser/windup",
+   "titel": "Cyber – Kampfmesser – windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberMesser\\windup.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberMesser\\_test\\windup_v1.png",
+   "vergleich_titel": "alt (windup_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberMesser/attack",
+   "titel": "Cyber – Kampfmesser – attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberMesser\\attack.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberMesser\\_test\\attack_v1.png",
+   "vergleich_titel": "alt (attack_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberMesser/heavy_windup",
+   "titel": "Cyber – Kampfmesser – heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberMesser\\heavy_windup.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberMesser\\_test\\heavy_windup_v1.png",
+   "vergleich_titel": "alt (heavy_windup_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberMesser/heavy_attack",
+   "titel": "Cyber – Kampfmesser – heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberMesser\\heavy_attack.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberMesser\\_test\\heavy_attack_v1.png",
+   "vergleich_titel": "alt (heavy_attack_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSaufeder/idle",
+   "titel": "Cyber – Saufeder – idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaufeder\\idle.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaufeder\\_test\\idle_v1.png",
+   "vergleich_titel": "alt (idle_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSaufeder/guard",
+   "titel": "Cyber – Saufeder – guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaufeder\\guard.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaufeder\\_test\\guard_v1.png",
+   "vergleich_titel": "alt (guard_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSaufeder/hurt",
+   "titel": "Cyber – Saufeder – hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaufeder\\hurt.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaufeder\\_test\\hurt_v1.png",
+   "vergleich_titel": "alt (hurt_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSaufeder/enraged",
+   "titel": "Cyber – Saufeder – enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaufeder\\enraged.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaufeder\\_test\\enraged_v1.png",
+   "vergleich_titel": "alt (enraged_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSaufeder/weakened",
+   "titel": "Cyber – Saufeder – weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaufeder\\weakened.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaufeder\\_test\\weakened_v1.png",
+   "vergleich_titel": "alt (weakened_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSaufeder/flee",
+   "titel": "Cyber – Saufeder – flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaufeder\\flee.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaufeder\\_test\\flee_v1.png",
+   "vergleich_titel": "alt (flee_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSaufeder/victory",
+   "titel": "Cyber – Saufeder – victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaufeder\\victory.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaufeder\\_test\\victory_v1.png",
+   "vergleich_titel": "alt (victory_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSaufeder/defeated",
+   "titel": "Cyber – Saufeder – defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaufeder\\defeated.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaufeder\\_test\\defeated_v1.png",
+   "vergleich_titel": "alt (defeated_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSaufeder/windup",
+   "titel": "Cyber – Saufeder – windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaufeder\\windup.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaufeder\\_test\\windup_v1.png",
+   "vergleich_titel": "alt (windup_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberSaufeder/heavy_attack",
+   "titel": "Cyber – Saufeder – heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaufeder\\heavy_attack.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSaufeder\\_test\\heavy_attack_v1.png",
+   "vergleich_titel": "alt (heavy_attack_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberFlinte/idle",
+   "titel": "Cyber – Flinte – idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberFlinte\\idle.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberFlinte\\_test\\idle_v1.png",
+   "vergleich_titel": "alt (idle_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberFlinte/guard",
+   "titel": "Cyber – Flinte – guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberFlinte\\guard.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberFlinte\\_test\\guard_v1.png",
+   "vergleich_titel": "alt (guard_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberFlinte/hurt",
+   "titel": "Cyber – Flinte – hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberFlinte\\hurt.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberFlinte\\_test\\hurt_v1.png",
+   "vergleich_titel": "alt (hurt_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberFlinte/enraged",
+   "titel": "Cyber – Flinte – enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberFlinte\\enraged.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberFlinte\\_test\\enraged_v1.png",
+   "vergleich_titel": "alt (enraged_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberFlinte/weakened",
+   "titel": "Cyber – Flinte – weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberFlinte\\weakened.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberFlinte\\_test\\weakened_v1.png",
+   "vergleich_titel": "alt (weakened_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberFlinte/surrender",
+   "titel": "Cyber – Flinte – surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberFlinte\\surrender.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberFlinte\\_test\\surrender_v1.png",
+   "vergleich_titel": "alt (surrender_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberFlinte/flee",
+   "titel": "Cyber – Flinte – flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberFlinte\\flee.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberFlinte\\_test\\flee_v1.png",
+   "vergleich_titel": "alt (flee_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberFlinte/victory",
+   "titel": "Cyber – Flinte – victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberFlinte\\victory.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberFlinte\\_test\\victory_v2.png",
+   "vergleich_titel": "alt (victory_v2.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberFlinte/defeated",
+   "titel": "Cyber – Flinte – defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberFlinte\\defeated.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberFlinte\\_test\\defeated_v1.png",
+   "vergleich_titel": "alt (defeated_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  },
+  {
+   "id": "DucCyberFlinte/windup",
+   "titel": "Cyber – Flinte – windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberFlinte\\windup.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberFlinte\\_test\\windup_v1.png",
+   "vergleich_titel": "alt (windup_v1.png)",
+   "soll": "Handschuhe an beiden Händen, genau eine Waffe. ✓ OK = NEU nehmen, ✗ Neu = ALT behalten."
+  }
+ ]
+}

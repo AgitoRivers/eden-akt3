@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dorf-Figuren - Casting Runde 3 (E-099, Mina neu)</title>
+<style>
+:root{--bg:#16130f;--card:#211d17;--line:#3a3328;--text:#efe6d6;--mut:#a89c88;--beige:#d9c39a;--ok:#5fae6e;--neu:#d0644f}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 system-ui,Segoe UI,sans-serif}
+header{position:sticky;top:0;z-index:5;background:#16130fee;backdrop-filter:blur(6px);border-bottom:1px solid var(--line);
+ padding:12px 16px;display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center}
+h1{font-size:18px;margin:0;color:var(--beige);font-weight:600}
+.zahl{color:var(--mut)}.zahl b{color:var(--text)}
+.sp{flex:1}
+button{font:inherit;border:1px solid var(--line);background:#2b251d;color:var(--text);border-radius:8px;padding:6px 12px;cursor:pointer}
+button:hover{border-color:var(--beige)}
+.hinweis{color:var(--mut);padding:10px 16px 0;max-width:1100px}
+.filter button.an{background:var(--beige);color:#16130f;border-color:var(--beige)}
+main{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,420px),1fr));gap:16px;padding:16px}
+.k{background:var(--card);border:2px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.k.ok{border-color:var(--ok)}.k.neu{border-color:var(--neu)}
+.bilder{display:flex;gap:2px;background:#000}
+.bilder figure{margin:0;flex:1;position:relative;min-width:0}
+.bilder figure.v{flex:0 0 45%}
+.bilder img{width:100%;height:300px;object-fit:contain;display:block;cursor:zoom-in;background:#8f897e}   /* Grau: freigestellte Sprites (auch dunkle) bleiben sichtbar */
+.bilder .leer{height:300px;display:flex;align-items:center;justify-content:center;background:#0c0a08;color:var(--mut);
+ font-size:14px;letter-spacing:.04em;border:1px dashed var(--line)}
+.bilder figcaption{position:absolute;left:6px;top:6px;font-size:12px;background:#000a;padding:1px 6px;border-radius:4px;color:var(--mut)}
+.inh{padding:10px 12px;display:flex;flex-direction:column;gap:8px}
+.kopf{display:flex;gap:8px;align-items:baseline}.kopf b{font-size:16px}.kopf span{color:var(--mut);font-size:12px;margin-left:auto}
+.soll{color:var(--mut);font-size:13px}
+.knoepfe{display:flex;gap:8px}
+.knoepfe button{flex:1;padding:8px}
+.k.ok .b-ok{background:var(--ok);border-color:var(--ok);color:#0d1a10}
+.k.neu .b-neu{background:var(--neu);border-color:var(--neu);color:#1a0d0a}
+textarea{font:inherit;font-size:13px;width:100%;min-height:38px;resize:vertical;background:#16130f;color:var(--text);
+ border:1px solid var(--line);border-radius:8px;padding:6px 8px}
+#gross{position:fixed;inset:0;background:#000e;display:none;align-items:center;justify-content:center;z-index:9;cursor:zoom-out}
+#gross img{max-width:96vw;max-height:94vh}
+#kopiert{color:var(--ok);display:none}
+</style></head><body>
+<header><h1>Dorf-Figuren - Casting Runde 3 (E-099, Mina neu)</h1>
+ <span class="zahl"><b id="n-ok">0</b> OK · <b id="n-neu">0</b> neu · <b id="n-offen">0</b> offen</span>
+ <span class="filter"><button data-f="alle" class="an">Alle</button> <button data-f="offen">Offen</button> <button data-f="neu">Neu</button></span>
+ <span class="sp"></span>
+ <button id="alle-ok">Rest OK</button>
+ <button id="kopieren">Ergebnis kopieren</button><span id="kopiert">kopiert</span>
+</header>
+<div class="hinweis">Neue Runde nach Ducs Korrektur (E-099): alle sonnengebraeunt, neue Outfits, dazu Adrien Morel. Je Figur eine Fassung waehlen (OK), die anderen Neu. Das Set wird erst nach der Wahl gerendert. Nichts davon ist im Spiel.</div>
+<main id="liste"></main>
+<div id="gross"><img alt=""></div>
+<script>
+const D = {"id": "casting_dorf_figuren_r4", "titel": "Dorf-Figuren - Casting Runde 3 (E-099, Mina neu)", "items": [{"id": "Pascal_A1", "titel": "Pascal Leca - Fassung A (1)", "soll": "Preset Yacht_Pascal_A. 52, sonnengebraeunt, Halbglatze, doppelreihiger dunkler Nadelstreifenanzug mit Einstecktuch, weisser Fedora, freundlich", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_Pascal_A/neutral-1.png", "stand": "30.10. 18:32", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "Pascal_A2", "titel": "Pascal Leca - Fassung A (2)", "soll": "Preset Yacht_Pascal_A. 52, sonnengebraeunt, Halbglatze, doppelreihiger dunkler Nadelstreifenanzug mit Einstecktuch, weisser Fedora, freundlich", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_Pascal_A/neutral.png", "stand": "30.10. 18:32", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "Pascal_B1", "titel": "Pascal Leca - Fassung B (1)", "soll": "Preset Yacht_Pascal_B. 52, sonnengebraeunt, Halbglatze, doppelreihiger dunkler Nadelstreifenanzug mit Einstecktuch, weisser Fedora, freundlich", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_Pascal_B/neutral-1.png", "stand": "30.10. 18:32", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "Pascal_B2", "titel": "Pascal Leca - Fassung B (2)", "soll": "Preset Yacht_Pascal_B. 52, sonnengebraeunt, Halbglatze, doppelreihiger dunkler Nadelstreifenanzug mit Einstecktuch, weisser Fedora, freundlich", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_Pascal_B/neutral.png", "stand": "30.10. 18:32", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "Pascal_C1", "titel": "Pascal Leca - Fassung C (1)", "soll": "Preset Yacht_Pascal_C. 52, sonnengebraeunt, Halbglatze, doppelreihiger dunkler Nadelstreifenanzug mit Einstecktuch, weisser Fedora, freundlich", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_Pascal_C/neutral-1.png", "stand": "30.10. 18:32", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "Pascal_C2", "titel": "Pascal Leca - Fassung C (2)", "soll": "Preset Yacht_Pascal_C. 52, sonnengebraeunt, Halbglatze, doppelreihiger dunkler Nadelstreifenanzug mit Einstecktuch, weisser Fedora, freundlich", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_Pascal_C/neutral.png", "stand": "30.10. 18:32", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "Mina_A1", "titel": "Mina Orsoni - Fassung A (1)", "soll": "Preset Yacht_Mina_A. 24, erwachsen, gebraeunt, pinke Regenjacke, enge beige Hot Pants, oversized Bluse, pinker Helm, frech", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_Mina_A/neutral-1.png", "stand": "30.10. 18:34", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "Mina_A2", "titel": "Mina Orsoni - Fassung A (2)", "soll": "Preset Yacht_Mina_A. 24, erwachsen, gebraeunt, pinke Regenjacke, enge beige Hot Pants, oversized Bluse, pinker Helm, frech", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_Mina_A/neutral.png", "stand": "30.10. 18:34", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "Mina_B1", "titel": "Mina Orsoni - Fassung B (1)", "soll": "Preset Yacht_Mina_B. 24, erwachsen, gebraeunt, pinke Regenjacke, enge beige Hot Pants, oversized Bluse, pinker Helm, frech", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_Mina_B/neutral-1.png", "stand": "30.10. 18:34", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "Mina_B2", "titel": "Mina Orsoni - Fassung B (2)", "soll": "Preset Yacht_Mina_B. 24, erwachsen, gebraeunt, pinke Regenjacke, enge beige Hot Pants, oversized Bluse, pinker Helm, frech", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_Mina_B/neutral.png", "stand": "30.10. 18:34", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "Mina_C1", "titel": "Mina Orsoni - Fassung C (1)", "soll": "Preset Yacht_Mina_C. 24, erwachsen, gebraeunt, pinke Regenjacke, enge beige Hot Pants, oversized Bluse, pinker Helm, frech", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_Mina_C/neutral-1.png", "stand": "30.10. 18:34", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "Mina_C2", "titel": "Mina Orsoni - Fassung C (2)", "soll": "Preset Yacht_Mina_C. 24, erwachsen, gebraeunt, pinke Regenjacke, enge beige Hot Pants, oversized Bluse, pinker Helm, frech", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_Mina_C/neutral.png", "stand": "30.10. 18:34", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "BaTu_A1", "titel": "Ba Tu - Fassung A (1)", "soll": "Preset Yacht_BaTu_A. um die 75, gebraeunt, hochgestecktes weisses Haar, Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel, wuerdevoll", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_BaTu_A/neutral-1.png", "stand": "30.10. 18:28", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "BaTu_A2", "titel": "Ba Tu - Fassung A (2)", "soll": "Preset Yacht_BaTu_A. um die 75, gebraeunt, hochgestecktes weisses Haar, Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel, wuerdevoll", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_BaTu_A/neutral.png", "stand": "30.10. 18:28", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "BaTu_B1", "titel": "Ba Tu - Fassung B (1)", "soll": "Preset Yacht_BaTu_B. um die 75, gebraeunt, hochgestecktes weisses Haar, Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel, wuerdevoll", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_BaTu_B/neutral-1.png", "stand": "30.10. 18:29", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "BaTu_B2", "titel": "Ba Tu - Fassung B (2)", "soll": "Preset Yacht_BaTu_B. um die 75, gebraeunt, hochgestecktes weisses Haar, Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel, wuerdevoll", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_BaTu_B/neutral.png", "stand": "30.10. 18:29", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "BaTu_C1", "titel": "Ba Tu - Fassung C (1)", "soll": "Preset Yacht_BaTu_C. um die 75, gebraeunt, hochgestecktes weisses Haar, Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel, wuerdevoll", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_BaTu_C/neutral-1.png", "stand": "30.10. 18:29", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "BaTu_C2", "titel": "Ba Tu - Fassung C (2)", "soll": "Preset Yacht_BaTu_C. um die 75, gebraeunt, hochgestecktes weisses Haar, Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel, wuerdevoll", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_BaTu_C/neutral.png", "stand": "30.10. 18:29", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "Sandru_A1", "titel": "Sandru Amrani - Fassung A (1)", "soll": "Preset Yacht_Sandru_A. 30, korsisch-marokkanisch, sichtbar gebraeunt, weisses Polo mit Schild ALEX (Schrift unleserlich, spaeter nachtragen), schwarze Beinschienen", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_Sandru_A/neutral-1.png", "stand": "30.10. 18:29", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "Sandru_A2", "titel": "Sandru Amrani - Fassung A (2)", "soll": "Preset Yacht_Sandru_A. 30, korsisch-marokkanisch, sichtbar gebraeunt, weisses Polo mit Schild ALEX (Schrift unleserlich, spaeter nachtragen), schwarze Beinschienen", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_Sandru_A/neutral.png", "stand": "30.10. 18:29", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "Sandru_B1", "titel": "Sandru Amrani - Fassung B (1)", "soll": "Preset Yacht_Sandru_B. 30, korsisch-marokkanisch, sichtbar gebraeunt, weisses Polo mit Schild ALEX (Schrift unleserlich, spaeter nachtragen), schwarze Beinschienen", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_Sandru_B/neutral-1.png", "stand": "30.10. 18:29", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "Sandru_B2", "titel": "Sandru Amrani - Fassung B (2)", "soll": "Preset Yacht_Sandru_B. 30, korsisch-marokkanisch, sichtbar gebraeunt, weisses Polo mit Schild ALEX (Schrift unleserlich, spaeter nachtragen), schwarze Beinschienen", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_Sandru_B/neutral.png", "stand": "30.10. 18:29", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "Sandru_C1", "titel": "Sandru Amrani - Fassung C (1)", "soll": "Preset Yacht_Sandru_C. 30, korsisch-marokkanisch, sichtbar gebraeunt, weisses Polo mit Schild ALEX (Schrift unleserlich, spaeter nachtragen), schwarze Beinschienen", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_Sandru_C/neutral-1.png", "stand": "30.10. 18:30", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "Sandru_C2", "titel": "Sandru Amrani - Fassung C (2)", "soll": "Preset Yacht_Sandru_C. 30, korsisch-marokkanisch, sichtbar gebraeunt, weisses Polo mit Schild ALEX (Schrift unleserlich, spaeter nachtragen), schwarze Beinschienen", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_Sandru_C/neutral.png", "stand": "30.10. 18:30", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "Anghjulu_A1", "titel": "Don Anghjulu - Fassung A (1)", "soll": "Preset Yacht_Anghjulu_A. um die 60, braun gebrannter Portugiese, rundlich, rote Nase, schwarze Soutane, Flachmann", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_Anghjulu_A/neutral-1.png", "stand": "30.10. 18:30", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "Anghjulu_A2", "titel": "Don Anghjulu - Fassung A (2)", "soll": "Preset Yacht_Anghjulu_A. um die 60, braun gebrannter Portugiese, rundlich, rote Nase, schwarze Soutane, Flachmann", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_Anghjulu_A/neutral.png", "stand": "30.10. 18:30", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "Anghjulu_B1", "titel": "Don Anghjulu - Fassung B (1)", "soll": "Preset Yacht_Anghjulu_B. um die 60, braun gebrannter Portugiese, rundlich, rote Nase, schwarze Soutane, Flachmann", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_Anghjulu_B/neutral-1.png", "stand": "30.10. 18:30", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "Anghjulu_B2", "titel": "Don Anghjulu - Fassung B (2)", "soll": "Preset Yacht_Anghjulu_B. um die 60, braun gebrannter Portugiese, rundlich, rote Nase, schwarze Soutane, Flachmann", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_Anghjulu_B/neutral.png", "stand": "30.10. 18:30", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "Anghjulu_C1", "titel": "Don Anghjulu - Fassung C (1)", "soll": "Preset Yacht_Anghjulu_C. um die 60, braun gebrannter Portugiese, rundlich, rote Nase, schwarze Soutane, Flachmann", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_Anghjulu_C/neutral-1.png", "stand": "30.10. 18:30", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "Anghjulu_C2", "titel": "Don Anghjulu - Fassung C (2)", "soll": "Preset Yacht_Anghjulu_C. um die 60, braun gebrannter Portugiese, rundlich, rote Nase, schwarze Soutane, Flachmann", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_Anghjulu_C/neutral.png", "stand": "30.10. 18:30", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "AdrienCast_A1", "titel": "Adrien Morel (Casting) - Fassung A (1)", "soll": "Preset Yacht_AdrienCast_A. 28, gutaussehender Inder, Legionaer, verwundet (Verband am linken Oberschenkel), ruhig. Presets Yacht_AdrienCast_A/B/C, das bestehende Yacht_Adrien bleibt unberuehrt", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_AdrienCast_A/neutral-1.png", "stand": "30.10. 18:31", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "AdrienCast_A2", "titel": "Adrien Morel (Casting) - Fassung A (2)", "soll": "Preset Yacht_AdrienCast_A. 28, gutaussehender Inder, Legionaer, verwundet (Verband am linken Oberschenkel), ruhig. Presets Yacht_AdrienCast_A/B/C, das bestehende Yacht_Adrien bleibt unberuehrt", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_AdrienCast_A/neutral.png", "stand": "30.10. 18:31", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "AdrienCast_B1", "titel": "Adrien Morel (Casting) - Fassung B (1)", "soll": "Preset Yacht_AdrienCast_B. 28, gutaussehender Inder, Legionaer, verwundet (Verband am linken Oberschenkel), ruhig. Presets Yacht_AdrienCast_A/B/C, das bestehende Yacht_Adrien bleibt unberuehrt", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_AdrienCast_B/neutral-1.png", "stand": "30.10. 18:31", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "AdrienCast_B2", "titel": "Adrien Morel (Casting) - Fassung B (2)", "soll": "Preset Yacht_AdrienCast_B. 28, gutaussehender Inder, Legionaer, verwundet (Verband am linken Oberschenkel), ruhig. Presets Yacht_AdrienCast_A/B/C, das bestehende Yacht_Adrien bleibt unberuehrt", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_AdrienCast_B/neutral.png", "stand": "30.10. 18:31", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "AdrienCast_C1", "titel": "Adrien Morel (Casting) - Fassung C (1)", "soll": "Preset Yacht_AdrienCast_C. 28, gutaussehender Inder, Legionaer, verwundet (Verband am linken Oberschenkel), ruhig. Presets Yacht_AdrienCast_A/B/C, das bestehende Yacht_Adrien bleibt unberuehrt", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_AdrienCast_C/neutral-1.png", "stand": "30.10. 18:31", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "AdrienCast_C2", "titel": "Adrien Morel (Casting) - Fassung C (2)", "soll": "Preset Yacht_AdrienCast_C. 28, gutaussehender Inder, Legionaer, verwundet (Verband am linken Oberschenkel), ruhig. Presets Yacht_AdrienCast_A/B/C, das bestehende Yacht_Adrien bleibt unberuehrt", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/_casting_dorf/Yacht_AdrienCast_C/neutral.png", "stand": "30.10. 18:31", "vergleich": "", "vergleich_titel": "Vergleich"}], "server": false, "urteile": {}};
+const KEY = "abnahme:" + D.id;
+let S = D.urteile || {};
+if (!D.server) { try { S = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { S = {}; } }
+let timer = null;
+const save = () => {
+  try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {}
+  if (D.server) { clearTimeout(timer); timer = setTimeout(() => fetch("urteil", {method: "POST", body: JSON.stringify(S)}), 300); }
+  zaehlen();
+};
+let filter = "alle";
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function karte(it) {
+  const st = S[it.id] || {};
+  const el = document.createElement("section");
+  el.className = "k " + (st.urteil || "");
+  el.dataset.id = it.id;
+  el.innerHTML =
+    '<div class="bilder"><figure>' + (it.bild ? '<img loading="lazy" src="' + it.bild + '" alt="">'
+      : '<div class="leer">noch kein Bild</div>') + '<figcaption>neu</figcaption></figure>' +
+    (it.vergleich ? '<figure class="v"><img loading="lazy" src="' + it.vergleich + '" alt=""><figcaption>' + esc(it.vergleich_titel) + '</figcaption></figure>' : '') +
+    '</div><div class="inh"><div class="kopf"><b>' + esc(it.titel) + '</b><span>' + esc(it.stand) + '</span></div>' +
+    (it.soll ? '<div class="soll">' + esc(it.soll) + '</div>' : '') +
+    '<div class="knoepfe"><button class="b-ok">✓ OK</button><button class="b-neu">✗ Neu</button></div>' +
+    '<textarea placeholder="Notiz (was soll anders werden?)">' + esc(st.notiz || "") + '</textarea></div>';
+  el.querySelector(".b-ok").onclick = () => setze(it.id, "ok");
+  el.querySelector(".b-neu").onclick = () => setze(it.id, "neu");
+  el.querySelector("textarea").oninput = e => { (S[it.id] = S[it.id] || {}).notiz = e.target.value; save(); };
+  el.querySelectorAll("img").forEach(i => i.onclick = () => { gross.querySelector("img").src = i.src; gross.style.display = "flex"; });
+  return el;
+}
+function setze(id, urteil) {
+  const st = S[id] = S[id] || {};
+  st.urteil = st.urteil === urteil ? "" : urteil;
+  document.querySelector('[data-id="' + id + '"]').className = "k " + st.urteil;
+  save(); zeigen();
+}
+function zaehlen() {
+  const u = D.items.map(it => (S[it.id] || {}).urteil || "");
+  document.getElementById("n-ok").textContent = u.filter(x => x === "ok").length;
+  document.getElementById("n-neu").textContent = u.filter(x => x === "neu").length;
+  document.getElementById("n-offen").textContent = u.filter(x => !x).length;
+}
+function zeigen() {
+  document.querySelectorAll(".k").forEach(el => {
+    const u = (S[el.dataset.id] || {}).urteil || "";
+    el.style.display = filter === "alle" || (filter === "offen" ? !u : u === filter) ? "" : "none";
+  });
+}
+function ergebnis() {
+  const z = ["Abnahme " + D.titel + ":"];
+  for (const it of D.items) {
+    const st = S[it.id] || {};
+    z.push("- " + it.id + ": " + (st.urteil === "ok" ? "OK" : st.urteil === "neu" ? "NEU" : "offen") + (st.notiz ? " – " + st.notiz.trim() : ""));
+  }
+  return z.join("\n");
+}
+window.abnahme = () => ({id: D.id, urteile: S, text: ergebnis()});   // read by Claude from the browser pane
+const liste = document.getElementById("liste"), gross = document.getElementById("gross");
+D.items.forEach(it => liste.appendChild(karte(it)));
+gross.onclick = () => gross.style.display = "none";
+document.querySelectorAll(".filter button").forEach(b => b.onclick = () => {
+  filter = b.dataset.f; document.querySelectorAll(".filter button").forEach(x => x.classList.toggle("an", x === b)); zeigen();
+});
+document.getElementById("alle-ok").onclick = () => {
+  D.items.forEach(it => { const st = S[it.id] = S[it.id] || {}; if (!st.urteil) st.urteil = "ok"; });
+  document.querySelectorAll(".k").forEach(el => el.className = "k " + (S[el.dataset.id].urteil || ""));
+  save(); zeigen();
+};
+document.getElementById("kopieren").onclick = async () => {
+  try { await navigator.clipboard.writeText(ergebnis()); } catch (e) { prompt("Ergebnis:", ergebnis()); return; }
+  const k = document.getElementById("kopiert"); k.style.display = "inline"; setTimeout(() => k.style.display = "none", 1500);
+};
+zaehlen();
+</script></body></html>

@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SFX Belagerung</title>
+<style>
+  :root { --bg:#14181d; --karte:#1e242b; --linie:#333c46; --text:#e9e4d8; --leise:#a2a9b0; --gold:#e0b458; --gut:#7fc08a; --neu:#7fb4e0; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:15px/1.45 system-ui,"Segoe UI",sans-serif; }
+  main { max-width:1040px; margin:0 auto; padding:24px 16px 96px; }
+  h1 { margin:0 0 6px; font-size:26px; }
+  h2 { margin:32px 0 10px; font-size:18px; color:var(--gold); }
+  p { margin:0 0 10px; max-width:75ch; }
+  .leise { color:var(--leise); font-size:13px; }
+  .zeile { background:var(--karte); border:1px solid var(--linie); border-radius:8px; padding:12px; margin-bottom:8px; }
+  .kopf { display:flex; gap:8px; flex-wrap:wrap; align-items:baseline; margin-bottom:8px; }
+  .kopf b { font-size:15px; }
+  .marke { font-size:11px; padding:1px 7px; border-radius:999px; border:1px solid currentColor; }
+  .da { color:var(--gut); } .px { color:var(--neu); } .beides { color:var(--gold); }
+  .toene { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:8px; }
+  label.ton { display:block; padding:7px 8px; border:1px solid var(--linie); border-radius:6px; cursor:pointer; min-width:0; }
+  label.ton:has(input:checked) { border-color:var(--gold); }
+  .tname { display:flex; gap:6px; align-items:center; font-size:13px; overflow-wrap:anywhere; }
+  .tname a { color:var(--neu); }
+  audio { width:100%; height:30px; margin-top:5px; }
+  .vorschlag { font-size:11px; color:var(--gold); white-space:nowrap; }
+  ul { margin:0; padding-left:20px; } li { margin-bottom:6px; max-width:80ch; }
+  #leiste { position:fixed; left:0; right:0; bottom:0; background:#0e1115; border-top:1px solid var(--linie); padding:10px 16px; display:flex; gap:12px; align-items:center; justify-content:center; flex-wrap:wrap; }
+  button { background:var(--gold); color:#1b1408; border:0; border-radius:6px; padding:8px 14px; font-weight:600; cursor:pointer; }
+</style>
+</head>
+<body>
+<main>
+  <h1>SFX Belagerung</h1>
+  <p>Alle Stellen von Tag 19 bis zum Bericht an Tag 23, an denen ein Ton fehlt. Der Vorschlag ist schon angewählt. Du änderst nur, was dir nicht gefällt, und schickst mir am Ende die kopierte Auswahl.</p>
+  <p class="leise">Grün = liegt schon im Spiel, Blau = bei Pixabay gefunden, wird beim Klick nur gestreamt. Lange Pixabay-Töne schneide ich beim Einbau auf den einen passenden Moment.</p>
+  <div id="inhalt"></div>
+</main>
+<div id="leiste"><span class="leise" id="zahl"></span><button type="button" id="kopieren">Auswahl kopieren</button></div>
+<script>
+const CDN = "https://cdn.pixabay.com/audio/", SFX = "../../module/eden_rise/sfx/", SEITE = "https://pixabay.com/sound-effects/";
+const da = (id, titel) => ({da:id, titel});
+const px = (pfad, seite, titel) => ({pfad, seite, titel});
+const GRUPPEN = [
+["Karte: Treffer", [
+  ["Nahkampf trifft (Agent, Hund, Pirat, Rosi, Minicu)", [da("kampf_treffer_1","kampf_treffer")]],
+  ["Schuss (Elsa, Gunner, Marksman)", [da("gun_shot_1","gun_shot")]],
+  ["Chiaras Taser", [da("kampf_granate_schock_1","kampf_granate_schock"), px("2024/05/16/audio_b2f747af90.mp3","film-special-effects-electric-shock-short-circuit-1-204989","Electric Shock 1"), px("2024/04/28/audio_76112ff39b.mp3","film-special-effects-shooting-sparks-electricity-2-204983","Shooting Sparks 2")], 1],
+  ["Alvas Flinte", [px("2025/05/30/audio_87b126642c.mp3","film-special-effects-shotgun-blast-352038","Shotgun Blast 352038"), px("2025/07/29/audio_17e2eb76e8.mp3","film-special-effects-shotgun-blast-381974","Shotgun Blast 381974")]],
+  ["Klinge (Yamamoto, Wolff)", [px("2021/08/09/audio_325a05a4de.mp3","film-special-effects-samurai-slash-6845","Samurai Slash"), px("2025/07/05/audio_ec4d591a44.mp3","film-special-effects-katana-370403","Katana")]],
+  ["Bibis Granaten", [da("kampf_granate_flash_1","kampf_granate_flash"), da("kampf_granate_wasser_1","kampf_granate_wasser")]],
+  ["Drohne fliegt an", [px("2026/06/04/audio_d4f0490ffe.mp3","film-special-effects-drone-quadcopter-fast-fly-by-sound-546575","Quadcopter Fly-by")]],
+  ["Drohne wird abgeschossen (Elsa: Clear the Sky)", [da("schiessen_drohne_1","schiessen_drohne")]],
+  ["Roboter stampft", [px("2024/03/08/audio_e88143d576.mp3","film-special-effects-robot-heavy-mechanical-footsteps-194039","Heavy Mechanical Footsteps"), px("2025/04/21/audio_d3f308be4f.mp3","film-special-effects-big-robot-footstep-330678","Big Robot Footstep"), px("2022/03/24/audio_221ef73d77.mp3","film-special-effects-servo-motor-103644","Servo Motor")]],
+  ["Figur geht zu Boden (KO)", [px("2025/01/22/audio_ae267fbe88.mp3","film-special-effects-cinematic-low-hit-291095","Cinematic Low Hit"), px("2025/01/03/audio_2baf08c268.mp3","film-special-effects-drum-huge-cinematic-tom-hit-283585","Huge Tom Hit")]],
+  ["Lola heilt", [da("heilung_1","heilung")]],
+  ["Danzels Stahlplatte", [px("2022/03/25/audio_c9e27a7264.mp3","film-special-effects-heavy-cloth-rustle-106346","Heavy Cloth Rustle")]],
+  ["Trupp zieht (leise, kann auch entfallen)", [px("2022/03/24/audio_b31c4f3225.mp3","film-special-effects-footsteps-boots-101657","Footsteps Boots")]],
+]],
+["Karte: was im Dorf passiert", [
+  ["Welle beginnt", [da("glocke_1","glocke (Variante 1)"), da("glocke_3","glocke (Variante 3)"), da("alarm_1","alarm"), px("2026/01/08/audio_f7ec88e601.mp3","musical-ancient-war-drums-463214","Ancient War Drums")]],
+  ["Dein Zug und Feindzug beginnen", [px("2025/01/03/audio_2baf08c268.mp3","film-special-effects-drum-huge-cinematic-tom-hit-283585","Huge Tom Hit"), px("2023/09/30/audio_2bbb7a3c06.mp3","film-special-effects-whoosh-drum-hits-169007","Whoosh Drum Hits")]],
+  ["Große Tat mit Einblendung (Cut-in)", [da("anhoerung_wende_1","anhoerung_wende"), da("phase_wechsel_1","phase_wechsel")]],
+  ["Barrikade bricht", [px("2022/03/10/audio_93312656c3.mp3","household-wood-break-40011","Wood Break"), px("2022/03/17/audio_b730bb6f12.mp3","film-special-effects-crate-break-1-93926","Crate Break"), px("2025/06/06/audio_3b4990698a.mp3","film-special-effects-breaking-wood-356120","Breaking Wood")]],
+  ["Kirche wird getroffen", [px("2022/03/15/audio_c499881c10.mp3","household-wooden-door-slamming-open-79933","Wooden Door Slamming"), px("2023/10/18/audio_9d2e3ceb0f.mp3","film-special-effects-door-slam-172171","Door Slam")]],
+  ["Haus fängt Feuer", [px("2026/07/04/audio_d40602b21a.mp3","film-special-effects-fire-whoosh-flame-ignite-sound-561959","Fire Whoosh Ignite"), px("2026/07/04/audio_09b02518f9.mp3","film-special-effects-fire-ignite-whoosh-sound-effect-561960","Fire Ignite Whoosh")]],
+  ["Haus ist verloren", [px("2021/08/09/audio_8db64b6e83.mp3","nature-roaring-house-fire-wall-fall-in-7022","House Fire, Wall Falls In"), px("2025/08/05/audio_eec51c73eb.mp3","film-special-effects-building-collapse-384812","Building Collapse"), px("2025/03/18/audio_8e9a29727f.mp3","film-special-effects-bricks-fall-315300","Bricks Fall")]],
+  ["Leute schreien im brennenden Haus", [px("2021/08/04/audio_3013f3de88.mp3","people-crowdpanic-6442","Crowd Panic")]],
+  ["Roboter reißt die Yacht auf", [px("2026/03/30/audio_5fa568400e.mp3","film-special-effects-groaning-metal-511322","Groaning Metal 511322"), px("2026/03/17/audio_aedd1f96d8.mp3","film-special-effects-groaning-metal-504039","Groaning Metal 504039")]],
+  ["Yacht sinkt", [px("2022/03/10/audio_5333e50327.mp3","film-special-effects-wreck-bg-33420","Wreck"), px("2024/10/30/audio_e061724c39.mp3","nature-water-bubbles-257594","Water Bubbles"), px("2025/08/07/audio_41f02d757a.mp3","film-special-effects-boat-horn-386178","Boat Horn")]],
+  ["Pascal öffnet das Tor (Verrat)", [da("gitter_1","gitter (Variante 1)"), da("gitter_2","gitter (Variante 2)")]],
+  ["Mochi springt Mr. White an", [px("2025/11/28/audio_a83280ddfa.mp3","nature-powerful-lion-roar-sound-effect-high-quality-sfx-444190","Powerful Lion Roar"), px("2025/04/09/audio_7e076a0c0d.mp3","nature-lion-roar-sound-effect-324751","Lion Roar")]],
+  ["Rauch auf dem Platz (Mochis Abgang)", [px("2022/03/18/audio_30de469656.mp3","film-special-effects-gas-grenade-95255","Gas Grenade")]],
+  ["Welle gehalten, Dorf atmet auf", [px("2021/08/09/audio_865e392ddd.mp3","people-crowdyayapplause25ppllong-6948","Crowd Yay 25 People"), px("2021/08/09/audio_f98303c4f0.mp3","people-small-crowd-reactions-6977","Small Crowd Reactions")]],
+  ["Hintergrund der Karte, bisher Stille", [px("2022/03/09/audio_ada3aa5fc8.mp3","film-special-effects-ambientgunfire-24696","Ambient Gunfire"), px("2022/03/10/audio_8fdf97e706.mp3","film-special-effects-battle-war-zone-gun-fight-32155","Battle War Zone"), da("feuer_loop_1","feuer_loop"), da("amb_hafen_1","amb_hafen (Möwen und Wellen)")]],
+]],
+["Morgen und Flicken", [
+  ["Hammerschlag im Minispiel, bisher Spitzhacke auf Stein", [px("2022/03/19/audio_1712057a76.mp3","household-hammering-nail-96677","Hammering Nail"), px("2024/09/22/audio_7c682b2a79.mp3","film-special-effects-hammer-hitting-nail-carpentery-sound-effect-243339","Hammer Hitting Nail"), px("2022/03/10/audio_d174f1b36d.mp3","household-121-hammer-on-nail-41948","Hammer on Nail"), px("2024/09/27/audio_22daad1e99.mp3","film-special-effects-hammering-a-nail-245171","Hammering a Nail"), da("abbau_hacke_4","abbau_hacke (aktuell)")]],
+  ["Daneben geschlagen, bisher Axt an Rinde", [px("2025/12/20/audio_eef1deb265.mp3","hammer-steel-impact-454390","Hammer Steel Impact"), px("2022/03/14/audio_eac4fc04f5.mp3","film-special-effects-hammer-metallic-65703","Hammer Metallic"), da("abbau_daneben_3","abbau_daneben (aktuell)")]],
+  ["Stelle ist geflickt, bisher Felsen bricht", [px("2022/03/14/audio_32d7e29f66.mp3","film-special-effects-wooden-planks-01-64044","Wooden Planks"), px("2022/01/18/audio_bee206738c.mp3","household-planks-clattering-14700","Planks Clattering"), px("2026/01/18/audio_621998353e.mp3","boards-fall-1-468371","Boards Fall 1"), da("abbau_stein_bricht_3","abbau_stein_bricht (aktuell)")]],
+  ["Holm geht die Schadensliste durch", [px("2022/03/14/audio_dcdb31f064.mp3","film-special-effects-writing-with-pencil-on-paper-68981","Pencil on Paper")]],
+  ["Hintergrund am Morgen danach, bisher Möwen und Wellen", [da("feuer_loop_1","feuer_loop"), px("2026/05/03/audio_e11c7d6323.mp3","film-special-effects-fire-crackling-528620","Fire Crackling"), px("2026/05/03/audio_0361cdec97.mp3","film-special-effects-fire-ambience-528618","Fire Ambience")]],
+]],
+["Szenen", [
+  ["Holms Funkspruch an Tag 21 (The Afternoon)", [da("funk_rauschen_3","funk_rauschen")]],
+  ["Megans Bild bricht beim Kriegsrat ab", [da("funk_rauschen_3","funk_rauschen"), da("blackout_1","blackout")]],
+  ["Unit-01 rollt beim Manöver aus der Werkstatt", [da("kampf_unit01_1","kampf_unit01 (Variante 1)"), da("kampf_unit01_2","kampf_unit01 (Variante 2)")]],
+  ["Rosi hört die Roboter auf dem Wasser (Welle 2)", [px("2022/03/24/audio_221ef73d77.mp3","film-special-effects-servo-motor-103644","Servo Motor"), da("kampf_unit01_3","kampf_unit01 (Variante 3)")]],
+  ["Schwarze Segel, Piraten landen (Welle 3)", [da("tender_motor_3","tender_motor"), px("2025/08/07/audio_41f02d757a.mp3","film-special-effects-boat-horn-386178","Boat Horn")]],
+  ["Bucht bewegt sich vor Welle 5", [px("2025/01/22/audio_ae267fbe88.mp3","film-special-effects-cinematic-low-hit-291095","Cinematic Low Hit")]],
+  ["Bericht und „Ring the bell“: die Glocke läuft", [da("glocke_1","glocke (Variante 1)"), da("glocke_2","glocke (Variante 2)"), da("glocke_4","glocke (Variante 4)")]],
+  ["„One Door“: du klopfst nachts an", [da("tuer_klopfen_2","tuer_klopfen")]],
+  ["Alva: Glas und Flasche am Quai", [da("glaeser_anstossen_1","glaeser_anstossen")]],
+  ["Rosi im Maschinenraum: Unit-01 summt", [px("2022/03/09/audio_6bcc8fa5b7.mp3","film-special-effects-mysterion-low-ship-humming-25686","Low Ship Humming")]],
+]],
+];
+const inhalt = document.getElementById("inhalt");
+let nr = 0;
+const src = t => t.da ? SFX + t.da + ".mp3" : CDN + t.pfad;
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+for (const [titel, zeilen] of GRUPPEN) {
+  const h = document.createElement("h2"); h.textContent = titel; inhalt.append(h);
+  for (const [moment, toene, wahl] of zeilen) {
+    nr++;
+    const hatDa = toene.some(t => t.da), hatPx = toene.some(t => !t.da), vor = wahl || 0;
+    const marke = hatDa && hatPx ? '<span class="marke beides">vorhanden + Pixabay</span>' : hatDa ? '<span class="marke da">vorhanden</span>' : '<span class="marke px">Pixabay</span>';
+    const d = document.createElement("div"); d.className = "zeile"; d.dataset.moment = moment; d.dataset.nr = nr;
+    d.innerHTML = `<div class="kopf"><b>${nr}. ${esc(moment)}</b>${marke}</div><div class="toene">` + toene.map((t, i) => `
+      <label class="ton"><span class="tname"><input type="radio" name="m${nr}" value="${esc(t.da ? t.titel : t.titel + " (" + t.seite + ")")}" ${i === vor ? "checked" : ""}>
+      <span>${t.da ? esc(t.titel) : `<a href="${SEITE + t.seite}/" target="_blank" rel="noopener">${esc(t.titel)}</a>`}</span>${i === vor ? '<span class="vorschlag">Vorschlag</span>' : ""}</span>
+      <audio controls preload="none" src="${src(t)}"></audio></label>`).join("") + `
+      <label class="ton"><span class="tname"><input type="radio" name="m${nr}" value="kein Ton"><span>kein Ton</span></span></label></div>`;
+    inhalt.append(d);
+  }
+}
+document.getElementById("zahl").textContent = nr + " Stellen";
+document.addEventListener("play", e => document.querySelectorAll("audio").forEach(a => { if (a !== e.target) a.pause(); }), true);
+document.getElementById("kopieren").onclick = async ev => {
+  const text = [...document.querySelectorAll(".zeile")].map(z => z.dataset.nr + ". " + z.dataset.moment + ": " + z.querySelector("input:checked").value).join("\n");
+  try { await navigator.clipboard.writeText(text); ev.target.textContent = "Kopiert"; }
+  catch { const t = document.createElement("textarea"); t.value = text; document.body.append(t); t.select(); document.execCommand("copy"); t.remove(); ev.target.textContent = "Kopiert"; }
+  setTimeout(() => ev.target.textContent = "Auswahl kopieren", 1500);
+};
+</script>
+</body>
+</html>

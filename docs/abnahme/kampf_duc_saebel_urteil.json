@@ -1,0 +1,41 @@
+{
+ "guard": {
+  "urteil": "neu"
+ },
+ "idle": {
+  "urteil": "ok"
+ },
+ "windup": {
+  "urteil": "ok"
+ },
+ "attack": {
+  "urteil": "ok"
+ },
+ "heavy_windup": {
+  "urteil": "ok"
+ },
+ "heavy_attack": {
+  "urteil": "ok"
+ },
+ "hurt": {
+  "urteil": "ok"
+ },
+ "enraged": {
+  "urteil": "ok"
+ },
+ "weakened": {
+  "urteil": "ok"
+ },
+ "surrender": {
+  "urteil": "ok"
+ },
+ "flee": {
+  "urteil": "ok"
+ },
+ "victory": {
+  "urteil": "ok"
+ },
+ "defeated": {
+  "urteil": "ok"
+ }
+}

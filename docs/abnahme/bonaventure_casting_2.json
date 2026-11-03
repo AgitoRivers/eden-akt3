@@ -1,0 +1,43 @@
+{
+ "id": "bonaventure_casting_2",
+ "titel": "Captain Bonaventure, zweite Runde",
+ "hinweis": "Echte Männer in Purpur und Gold, nur die Blechkrone bleibt übertrieben. Vorschlag des Brain Trust: C, weil er als Einziger cool und witzig zugleich ist. Noch nichts im Spiel.",
+ "items": [
+  {
+   "id": "a1",
+   "titel": "A1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_bonaventure_2\\a\\neutral-1.png",
+   "soll": "A: Der Hochstapler, normaler dicker Mann, geflickter Mantel"
+  },
+  {
+   "id": "a2",
+   "titel": "A2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_bonaventure_2\\a\\neutral.png",
+   "soll": "A: Der Hochstapler, normaler dicker Mann, geflickter Mantel"
+  },
+  {
+   "id": "b1",
+   "titel": "B1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_bonaventure_2\\b\\neutral-1.png",
+   "soll": "B: Der Don Quixote, lang und dünn, Mantel zu weit"
+  },
+  {
+   "id": "b2",
+   "titel": "B2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_bonaventure_2\\b\\neutral.png",
+   "soll": "B: Der Don Quixote, lang und dünn, Mantel zu weit"
+  },
+  {
+   "id": "c1",
+   "titel": "C1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_bonaventure_2\\c\\neutral-1.png",
+   "soll": "C: Der Schauspieler, gut aussehend über seinen Zenit"
+  },
+  {
+   "id": "c2",
+   "titel": "C2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_bonaventure_2\\c\\neutral.png",
+   "soll": "C: Der Schauspieler, gut aussehend über seinen Zenit"
+  }
+ ]
+}

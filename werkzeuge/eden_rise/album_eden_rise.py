@@ -1,0 +1,105 @@
+# -*- coding: utf-8 -*-
+"""Album im Beziehungsmenue (Duc 31.10.2026, Brain Trust Romanzen): Selfies und grosse Momente mit Notizen in ihrer Handschrift.
+
+Jede Notiz muss zu jedem Ausgang der Szene passen und ohne Erinnerung verstaendlich sein. Regeln: kern/album.py."""
+import json, os, sys
+
+MOD = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "module", "eden_rise")
+
+# Buchstabe der Leiter-Szene (rm_r1 ...) -> Figur. Lea 3 fehlt absichtlich: Diese Szene spielt mit Sophia.
+LEITER = {"r": "rosi", "l": "lea", "c": "chiara", "s": "sophia", "o": "lola", "a": "alva", "i": "siri", "b": "bibi"}
+OHNE = ["rm_l3"]
+
+NOTIZEN = {
+    "bibi": {
+        "szene": {1: "Forty euros to maybe see nothing. You didn't laugh. Well, you did, but at the right part.",
+                  2: "It slept on your arm for an hour, and you didn't move. I counted.",
+                  3: "You said it was the best you'd seen in years. It was my sentence. Now you know.",
+                  4: "Last page. You can't say I didn't ask."},
+        "selfie": {3: "No animals in this one. I checked twice.", 4: "I'm not going to explain this one, mon loup.",
+                   5: "The door's shut. They can all wait, chéri."},
+        "kiss": "I laughed too loud, and now you know what that means.",
+        "intimate": "I had feeding at six. I was late. Nobody died.",
+        "confession": "I wrote it down, so it counts."},
+    "rosi": {
+        "szene": {1: "There was nothing wrong with that relay. You knew, and you held the lamp anyway.",
+                  2: "Same time on the stopwatch, so nobody lost. Remember that.",
+                  3: "You heard me talking to Unit-01. We are not discussing this.",
+                  4: "A burnt hole in your jacket, right over the shoulder. I don't want to see that again."},
+        "selfie": {3: "Delete this. Or don't.", 4: "This one stays between you and me, Officer.",
+                   5: "You know who took this. That's all I'm saying."},
+        "kiss": "I did not plan that. It is not going on the whiteboard.",
+        "intimate": "Best repair of the season. Tell anyone and you're dead.",
+        "confession": "I said it out loud, once. Don't ask me to do it again."},
+    "lea": {
+        "szene": {1: "Squid at six metres, and I taught you the sign for stay together.",
+                  2: "I made a whole page with columns, and there's still no species for us.",
+                  4: "No glow that night, and the letter from the Azores in my lap. You came and sat with me."},
+        "selfie": {3: "I took this for you and then nearly fell in the water. Worth it.",
+                   4: "Sophia must never find this phone.", 5: "Proper brave, this one. Don't laugh."},
+        "kiss": "For science. Results very promising, so we should repeat the experiment.",
+        "intimate": "I didn't write this one in the logbook. It's the first page I ever left blank.",
+        "confession": "I said it, and the sea didn't even glow. It should have."},
+    "chiara": {
+        "szene": {1: "Examiner: four. You held the card upside down.",
+                  2: "I made a list for one night. It was a short list, and I kept it.",
+                  3: "I asked you who should have this ship. Nobody had ever heard me ask that.",
+                  4: "Vega, thirty-eight degrees. Polaris, forty-two. So we were where we thought we were."},
+        "selfie": {3: "Uniform inspection, unofficial. Four.", 4: "I will deny this one in writing.",
+                   5: "Eight. There, I said it. Delete this note."},
+        "kiss": "Six. I'll want a rematch.",
+        "intimate": "Seven. I never go above seven, so don't make me write eight.",
+        "confession": "No rating. I don't have a scale for that."},
+    "sophia": {
+        "szene": {1: "You read my notebook upside down, darling. Nobody else ever tried.",
+                  2: "I offered the forfeit myself. That has never happened before.",
+                  3: "Fourteen polite letters, and now you know who M. J. Penrose is.",
+                  4: "No lipstick and no bet. You are the only one who has seen me with my glasses on."},
+        "selfie": {3: "Ten euros says you keep this one, darling.", 4: "Do be careful who sees your phone, darling.",
+                   5: "No filter and no angle. I can't find the catch either."},
+        "kiss": "Not in the script, darling. I checked.",
+        "intimate": "Ten euros says you smile when you read this. I've already won.",
+        "confession": "I meant it. I find that's the difficult part."},
+    "lola": {
+        "szene": {1: "I burn everything when someone watches me cook. You're the first one I told.",
+                  2: "It was meant to be a heart. It slid.",
+                  3: "Nan's ninety-one and she still thinks I'm head chef. Now you know I'm not.",
+                  4: "Four stools, one stove, no head chef. I asked you to take the one that doesn't wobble."},
+        "selfie": {3: "Flour everywhere. You're welcome, Boss.", 4: "Don't look at this one before a meeting. Ha.",
+                   5: "That's me with nothing on the stove. Mostly."},
+        "kiss": "Don't tell anyone. Mostly don't tell Chiara.",
+        "intimate": "I burned the toast next morning. Worth it, Boss.",
+        "confession": "I finished the sentence. You know how rare that is, yeah?"},
+    "alva": {
+        "szene": {1: "You stood reading Papa's board, so I asked what you drink.",
+                  2: "Nobody touched that jukebox in three years. Then you came, with Rosi's screwdriver.",
+                  3: "The story I tell about Seville isn't true. You're the only one who knows that.",
+                  4: "One new line at the bottom of Papa's board, and I gave you the chalk."},
+        "selfie": {3: "The last round is on the house.", 4: "Closed for the night. Come anyway.",
+                   5: "The door is open. You know which one."},
+        "kiss": "That one costs extra, o figliolu. I'll put it on the tab.",
+        "intimate": "The sign on the door said Chiuso. Nobody knocked.",
+        "confession": "Everybody's welcome, nobody's mine. I may need a new sign."},
+    "siri": {
+        "szene": {1: "I asked what you would write under a photo of me. Sorry, it was a strange question.",
+                  2: "One star for every evening, and they're all a bit wrong. You felt them. Nobody else has.",
+                  3: "The salmon contract. I showed you before I showed anyone. Sorry.",
+                  4: "My own words and no hashtag. You read them out loud for me."},
+        "selfie": {3: "No filter. Sorry about the light.", 4: "Only for you. Sorry. Not sorry.",
+                   5: "Nobody else has this one. Nobody ever will."},
+        "kiss": "No camera. That's the whole caption.",
+        "intimate": "I don't know how I looked. There is no photo. I like that.",
+        "confession": "I said it with no filter. Sorry. No, I'm not sorry."},
+}
+
+
+def bauen():
+    json.dump({"_hinweis": "Gebaut aus werkzeuge\\eden_rise\\album_eden_rise.py - dort aendern.", "leiter": LEITER, "ohne": OHNE,
+               "notizen": NOTIZEN},
+              open(os.path.join(MOD, "album.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print("album.json:", sum(len(n["szene"]) + len(n["selfie"]) + 3 for n in NOTIZEN.values()), "Notizen")
+
+
+if __name__ == "__main__":
+    sys.stdout.reconfigure(encoding="utf-8")
+    bauen()

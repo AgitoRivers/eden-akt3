@@ -1,0 +1,3264 @@
+[
+ {
+  "seed": 1,
+  "tage": {
+   "1": {
+    "events": [
+     "tag/t0_limousine",
+     "tag/t0_megan",
+     "tag/t0_holm",
+     "tag/t0_chiara",
+     "tag/t0_rosi",
+     "tag/t0_maxwell",
+     "tag/t0_toto",
+     "tag/t0_lola",
+     "tag/t0_wahl",
+     "tag/t0_wahl2_moore",
+     "tag/t0_lea",
+     "tag/t0_sophia",
+     "tag/t0_jana",
+     "tag/t0_abschied_herzlich"
+    ],
+    "szenen": [
+     "fruehstueck/06:35",
+     "abend/One More Minute of Light",
+     "nacht/The Silence",
+     "nacht/06:35",
+     "nacht/Who Do You Call?"
+    ],
+    "jobs": 0,
+    "abgelehnt": [],
+    "kaempfe": 0
+   },
+   "2": {
+    "events": [
+     "fruehstueck/g1_pfannkuchen",
+     "nachmittag/mx_tutorial",
+     "nachmittag/hk_hilfe",
+     "nachmittag/hk_rosi_v",
+     "nachmittag/hk_elsa",
+     "nachmittag/hk_alva",
+     "nachmittag/hk_petru",
+     "nachmittag/hk_ziege",
+     "nachmittag/hy_lola_koster",
+     "abend/hy_holm_krankenhaus",
+     "nacht/mg_tag2",
+     "nacht/br_singen_ohne_strom"
+    ],
+    "szenen": [
+     "fruehstueck/Briefing",
+     "fruehstueck/Megan's Ultimatum",
+     "fruehstueck/Holm Has a Moment",
+     "fruehstueck/Farewell to the Captain",
+     "fruehstueck/The Empty Seat",
+     "tag/What Happened in the Night",
+     "nachmittag/Time with Sophia",
+     "dinner/Time with Rosi",
+     "abend/That Doesn't Fit the Timeline",
+     "nacht/Time with Lea"
+    ],
+    "jobs": 4,
+    "abgelehnt": [],
+    "kaempfe": 1
+   },
+   "3": {
+    "events": [
+     "fruehstueck/mg_tag3",
+     "tag/gv_ocean_glitter",
+     "nachmittag/gv_elsa_kiste",
+     "nacht/br_nacktbaden",
+     "nacht/fl_chiara_zehn"
+    ],
+    "szenen": [
+     "fruehstueck/Sunrise over Cala d'Orsu",
+     "fruehstueck/Time with Alva",
+     "tag/Cala d'Orsu",
+     "nachmittag/Time with Lola",
+     "dinner/The Second Plan",
+     "abend/Lola's First Meal in the Bay",
+     "nacht/A Safe Room"
+    ],
+    "jobs": 4,
+    "abgelehnt": [
+     "job toto_gefallen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kochkurs: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_kassenbuch: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job nets: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job english_kids: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job drone: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_box: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job outboard: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job guest_breakfast: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_cells: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_coldroom: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_photos: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job lola_tasse_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_fund_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kast_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_gennaro_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job casanova_elsa_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_megan_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_lakritz: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job yasin_brille: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_sterne: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_arancini: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job casanova_buffet: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_nachtessen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job megan_lieferkette: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Sie hat heute schon ein Geschenk von dir bekommen.",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort"
+    ],
+    "kaempfe": 0
+   },
+   "4": {
+    "events": [
+     "fruehstueck/mg_tag4",
+     "tag/fl_elsa_strafzettel",
+     "tag/hy_toto_spind",
+     "nachmittag/gv_elsa_roman",
+     "nacht/br_elsas_kontrolle",
+     "nacht/ab_lola_klopft"
+    ],
+    "szenen": [
+     "fruehstueck/Time with Siri",
+     "tag/Time with Chiara",
+     "nachmittag/Time with Rosi",
+     "dinner/Time with Siri",
+     "abend/Rosi vs. Officer",
+     "abend/I'm Coming Tomorrow",
+     "nacht/Time with Alva"
+    ],
+    "jobs": 3,
+    "abgelehnt": [
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "job casanova_elsa_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kochkurs: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_kassenbuch: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job nets: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job english_kids: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job drone: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_box: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job outboard: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job guest_breakfast: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_cells: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job lola_tasse_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_fund_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kast_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_gennaro_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_fueller_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job lola_megan_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_lakritz: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job yasin_brille: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_sterne: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_arancini: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_kapitel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job casanova_buffet: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_nachtessen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job megan_lieferkette: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_antenne_1: Dafür brauchst du: Antennenkabel, seewasserfest.",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort"
+    ],
+    "kaempfe": 0
+   },
+   "5": {
+    "events": [
+     "fruehstueck/mg_tag5",
+     "fruehstueck/fl_chiara_kragen",
+     "tag/du_harpune_chiara",
+     "nachmittag/g1_siri_tanz"
+    ],
+    "szenen": [
+     "fruehstueck/A Visit from Head Office",
+     "tag/The Inspection",
+     "nachmittag/Time with Sophia",
+     "dinner/Before the Storm",
+     "abend/A Quiet Phone Call",
+     "abend/Time with Siri",
+     "nacht/What You Hear in the Dark"
+    ],
+    "jobs": 3,
+    "abgelehnt": [
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "job elsa_antenne_1: Dafür brauchst du: Antennenkabel, seewasserfest.",
+     "job lola_kochkurs: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_kassenbuch: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job nets: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job english_kids: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job drone: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_box: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job guest_breakfast: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job lola_tasse_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_fund_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kast_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_fueller_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job casanova_elsa_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_megan_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_lakritz: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job yasin_brille: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_sterne: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_arancini: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_kapitel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job casanova_buffet: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_nachtessen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job megan_lieferkette: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_complaint: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_samples: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort"
+    ],
+    "kaempfe": 0
+   },
+   "6": {
+    "events": [
+     "fruehstueck/mg_tag6",
+     "fruehstueck/hy_sophia_kaffee",
+     "tag/g1_elsa_schwimmwesten",
+     "nachmittag/gv_holm_baer",
+     "abend/fl_sophia_blick"
+    ],
+    "szenen": [
+     "fruehstueck/Time with Alva",
+     "tag/Time with Chiara",
+     "nachmittag/Time with Lola",
+     "dinner/Time with Alva",
+     "abend/Bonfire on the Beach",
+     "nacht/An Evening of Your Choosing"
+    ],
+    "jobs": 3,
+    "abgelehnt": [
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job alva_kassenbuch: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job nets: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job english_kids: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job drone: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_box: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job outboard: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job guest_breakfast: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_cells: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_tasse_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_fund_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kast_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_gennaro_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_fueller_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job lola_megan_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_lakritz: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job yasin_brille: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_sterne: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_arancini: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job elsa_nachtessen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job megan_lieferkette: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_antenne_1: Dafür brauchst du: Antennenkabel, seewasserfest.",
+     "job chiara_complaint: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_samples: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort"
+    ],
+    "kaempfe": 0
+   },
+   "7": {
+    "events": [
+     "fruehstueck/mg_tag7"
+    ],
+    "szenen": [
+     "fruehstueck/Time with Siri",
+     "tag/The Hearing",
+     "tag/And You, First Officer?",
+     "tag/The Verdict",
+     "nachmittag/Time with Sophia",
+     "dinner/Time with Lola",
+     "abend/After the Verdict",
+     "nacht/Red Light in the Mountains"
+    ],
+    "jobs": 3,
+    "abgelehnt": [
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Du hast dieser Person heute schon etwas gegeben.",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job alva_kassenbuch: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job outboard: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job guest_breakfast: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_cells: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job lola_tasse_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_fund_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kast_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_gennaro_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_fueller_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_lakritz: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_sterne: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_kapitel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job elsa_nachtessen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_antenne_1: Dafür brauchst du: Antennenkabel, seewasserfest.",
+     "job chiara_complaint: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_samples: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job casanova_elsa_2: Dafür brauchst du: Buchbinder-Leinen.",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Du hast dieser Person heute schon etwas gegeben."
+    ],
+    "kaempfe": 0
+   },
+   "8": {
+    "events": [],
+    "szenen": [],
+    "jobs": 0,
+    "abgelehnt": [],
+    "kaempfe": 0
+   }
+  },
+  "befund": {
+   "deutsch": [
+    [
+     "text | Sie freut sich über dieses Geschenk.",
+     1250
+    ],
+    [
+     "quelle_text | erzählt im Dorf",
+     790
+    ],
+    [
+     "text | Aus Lolas Kombüse. Selbst essen: Energie +1.",
+     766
+    ],
+    [
+     "eigenschaft | Standfest: Schutz +1, Verteidigen gibt Schutz +2, du wirst nie erschüttert.",
+     704
+    ],
+    [
+     "text | Die einzige Bar in Cala d'Orsu – und seit dem Dorfladen-Streit auch der einzige Laden. Alv",
+     674
+    ],
+    [
+     "text | Die Kombüse riecht nach Butter, Zucker und etwas, über das man nicht spricht. Ein Essen am",
+     674
+    ],
+    [
+     "text | Ersatzteile und Eden-Ware, bestellt per Videoanruf bei der Flottenmanagerin. Geliefert mit",
+     674
+    ],
+    [
+     "text | Rosis Werkstatt auf dem Unterdeck: Waffen und Jacken wechseln, Chips einsetzen, Ausrüstung",
+     674
+    ],
+    [
+     "wege[] | Rosi nimmt dich mit",
+     674
+    ],
+    [
+     "fehlt | Die Werkstatt ist nach der Explosion noch kaputt.",
+     596
+    ],
+    [
+     "text | Bei Alva höchstens ein Kanister am Tag und teurer als bei Totò.",
+     468
+    ],
+    [
+     "zeit | vor der Reise",
+     456
+    ],
+    [
+     "label | Lolas Gewürzmischung „Ocean Glitter“",
+     450
+    ],
+    [
+     "text | Alva erzählt: „Siri? Bloß kein Dicke Goldkette (vermutlich echt). Glaub mir.“",
+     396
+    ],
+    [
+     "untertitel | Die letzte Charter-Nacht. Dann sieben Tage, die alles ändern.",
+     337
+    ],
+    [
+     "ziel | In sieben Tagen urteilt Megan an Bord: Finde heraus, wer den Ausfall ausgelöst hat.",
+     337
+    ],
+    [
+     "text | Ein abgeschlossener Spind im Lagerraum. Totò hat alles – fast. Preise je nach Draht zu ihm",
+     337
+    ],
+    [
+     "name | Lolas Kombüse",
+     337
+    ],
+    [
+     "label | Megans Manschettenknöpfe",
+     337
+    ],
+    [
+     "text | Schwarzer Onyx, ein goldener Anker. Ab Megans Vertrauen 3 im Eden-Shop.",
+     337
+    ],
+    [
+     "label | Kiste Champagner aus der Gästebar",
+     337
+    ],
+    [
+     "label | Ersatzpropeller des Beiboots",
+     337
+    ],
+    [
+     "label | Gäste-Bademäntel (sechs)",
+     337
+    ],
+    [
+     "text | Vietnamesische Nudelsuppe mit Krabben und Tomate.",
+     337
+    ],
+    [
+     "text | Karamellisierter Schweinebauch mit Ei, dazu Reis.",
+     337
+    ],
+    [
+     "text | Frische Reispapierrollen mit Garnelen und Kräutern.",
+     337
+    ],
+    [
+     "text | Die Brühe braucht Geduld. Rosi kennt Ramen aus ihren Manga.",
+     337
+    ],
+    [
+     "text | Zu scharf für eine seekranke Flottenmanagerin.",
+     337
+    ],
+    [
+     "text | Provenzalischer Fischtopf mit Rouille.",
+     337
+    ],
+    [
+     "text | Gedämpfte Hefebrötchen mit Schweinebauch. Lola: „Fluffy clouds, Boss.“",
+     337
+    ],
+    [
+     "text | Fisch unter Kartoffelhaube. Petru: „Hm.“ Das heißt: noch eins.",
+     337
+    ],
+    [
+     "text | Bratkartoffeln mit Wurst, Zwiebel, Spiegelei und Roter Bete.",
+     337
+    ],
+    [
+     "text | Norwegische Fischsuppe mit Lachs, Sahne und Dill.",
+     337
+    ],
+    [
+     "text | Das Einzige, was Megan auf See bei sich behält.",
+     337
+    ],
+    [
+     "text | Brot ist die schwerste Disziplin.",
+     337
+    ],
+    [
+     "name | die Crew",
+     337
+    ],
+    [
+     "info | Ladung der Batterien (0–10). Alles an Bord hängt daran: Kühlung, Wasser, Alarme. Am Tagese",
+     337
+    ],
+    [
+     "info | Treibstoff für Unit-01, den Notgenerator in Rosis Generatorraum (0–5, Start 2 Kanister). J",
+     337
+    ],
+    [
+     "info | Stimmung der Crew (0–5). Sinkt bei Strommangel, steigt durch gemeinsame Erfolge und Entspa",
+     337
+    ],
+    [
+     "label | Ruf im Dorf",
+     337
+    ]
+   ],
+   "ohne_bild": [
+    [
+     "/z/handel/ankauf[]/bild",
+     1348
+    ],
+    [
+     "/z/profile[]/bild",
+     337
+    ],
+    [
+     "/z/handel/jobs[]/bild",
+     254
+    ],
+    [
+     "/z/job_ergebnis/bild",
+     56
+    ],
+    [
+     "/z/szene/log[]/sprite",
+     3
+    ],
+    [
+     "/z/verhandlung/verdaechtige[]/sprite",
+     1
+    ]
+   ],
+   "fehler": [],
+   "fall": null,
+   "ende": {
+    "tag": 8,
+    "status": "ende"
+   },
+   "schritte": 337,
+   "anhoerung": {
+    "gespielt": true,
+    "angeklagt": "chiara",
+    "urteil": "falsch"
+   }
+  }
+ },
+ {
+  "seed": 2,
+  "tage": {
+   "1": {
+    "events": [
+     "tag/t0_limousine",
+     "tag/t0_megan",
+     "tag/t0_holm",
+     "tag/t0_chiara",
+     "tag/t0_rosi",
+     "tag/t0_maxwell",
+     "tag/t0_toto",
+     "tag/t0_lola",
+     "tag/t0_wahl",
+     "tag/t0_wahl2_moore",
+     "tag/t0_lea",
+     "tag/t0_sophia",
+     "tag/t0_jana",
+     "tag/t0_abschied_herzlich"
+    ],
+    "szenen": [
+     "fruehstueck/06:35",
+     "abend/One More Minute of Light",
+     "nacht/The Silence",
+     "nacht/06:35",
+     "nacht/Who Do You Call?"
+    ],
+    "jobs": 0,
+    "abgelehnt": [],
+    "kaempfe": 0
+   },
+   "2": {
+    "events": [
+     "fruehstueck/g1_pfannkuchen",
+     "nachmittag/mx_tutorial",
+     "nachmittag/hk_hilfe",
+     "nachmittag/hk_rosi_v",
+     "nachmittag/hk_elsa",
+     "nachmittag/hk_alva",
+     "nachmittag/hk_petru",
+     "nachmittag/hk_ziege",
+     "nachmittag/hy_lola_koster",
+     "abend/hy_holm_krankenhaus",
+     "nacht/mg_tag2",
+     "nacht/br_singen_ohne_strom"
+    ],
+    "szenen": [
+     "fruehstueck/Briefing",
+     "fruehstueck/Megan's Ultimatum",
+     "fruehstueck/Holm Has a Moment",
+     "fruehstueck/Farewell to the Captain",
+     "fruehstueck/The Empty Seat",
+     "tag/What Happened in the Night",
+     "nachmittag/Time with Sophia",
+     "dinner/Time with Rosi",
+     "abend/That Doesn't Fit the Timeline",
+     "nacht/Time with Lea"
+    ],
+    "jobs": 4,
+    "abgelehnt": [
+     "geben lola_vegemite: Ein Glas Vegemite ist für jemand anderen gedacht – das spürt sie sofort.",
+     "geben lola_vegemite: Ein Glas Vegemite ist für jemand anderen gedacht – das spürt sie sofort."
+    ],
+    "kaempfe": 1
+   },
+   "3": {
+    "events": [
+     "fruehstueck/mg_tag3",
+     "tag/gv_ocean_glitter",
+     "nachmittag/gv_elsa_kiste",
+     "nacht/br_nacktbaden",
+     "nacht/fl_chiara_zehn"
+    ],
+    "szenen": [
+     "fruehstueck/Sunrise over Cala d'Orsu",
+     "fruehstueck/Time with Alva",
+     "tag/Cala d'Orsu",
+     "nachmittag/Time with Lola",
+     "dinner/The Second Plan",
+     "abend/Lola's First Meal in the Bay",
+     "nacht/A Safe Room"
+    ],
+    "jobs": 4,
+    "abgelehnt": [
+     "geben lola_vegemite: Ein Glas Vegemite ist für jemand anderen gedacht – das spürt sie sofort.",
+     "geben lola_vegemite: Ein Glas Vegemite ist für jemand anderen gedacht – das spürt sie sofort.",
+     "geben lola_vegemite: Ein Glas Vegemite ist für jemand anderen gedacht – das spürt sie sofort.",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job alva_kassenbuch: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job nets: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job radio_elsa: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job english_kids: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job drone: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_box: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job outboard: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job guest_breakfast: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_coldroom: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_tasse_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_fund_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kast_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_gennaro_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_fueller_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job casanova_elsa_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_megan_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_lakritz: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job yasin_brille: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_sterne: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_arancini: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job casanova_buffet: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_gefallen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job megan_lieferkette: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "geben petru_tabak: Sie hat heute schon ein Geschenk von dir bekommen.",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort"
+    ],
+    "kaempfe": 0
+   },
+   "4": {
+    "events": [
+     "fruehstueck/mg_tag4",
+     "tag/fl_elsa_strafzettel",
+     "tag/hy_toto_spind",
+     "nachmittag/gv_elsa_roman",
+     "nacht/br_elsas_kontrolle",
+     "nacht/ab_lola_klopft"
+    ],
+    "szenen": [
+     "fruehstueck/Time with Siri",
+     "tag/Time with Chiara",
+     "nachmittag/Time with Rosi",
+     "dinner/Time with Siri",
+     "abend/Rosi vs. Officer",
+     "abend/I'm Coming Tomorrow",
+     "nacht/Time with Alva"
+    ],
+    "jobs": 3,
+    "abgelehnt": [
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "job yasin_brille: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_kassenbuch: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job nets: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job radio_elsa: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job english_kids: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job drone: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_box: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job outboard: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job guest_breakfast: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_coldroom: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job lola_tasse_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_fund_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kast_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_gennaro_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_fueller_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job casanova_elsa_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_megan_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_sterne: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_kapitel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job casanova_buffet: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_gefallen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_samples: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_bleed: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort"
+    ],
+    "kaempfe": 0
+   },
+   "5": {
+    "events": [
+     "fruehstueck/mg_tag5",
+     "fruehstueck/ak_chiara_sternzettel",
+     "tag/du_harpune_chiara",
+     "nachmittag/g1_chiara_inspektion"
+    ],
+    "szenen": [
+     "fruehstueck/A Visit from Head Office",
+     "tag/The Inspection",
+     "nachmittag/Time with Sophia",
+     "dinner/Before the Storm",
+     "abend/A Quiet Phone Call",
+     "abend/Time with Siri",
+     "nacht/What You Hear in the Dark"
+    ],
+    "jobs": 3,
+    "abgelehnt": [
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "job guest_breakfast: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job nets: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job radio_elsa: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job english_kids: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job drone: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_box: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job outboard: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_coldroom: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job lola_kast_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_gennaro_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_fueller_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job casanova_elsa_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_megan_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_lakritz: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job yasin_brille: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_sterne: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_arancini: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_kapitel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job casanova_buffet: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_gefallen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job megan_lieferkette: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_samples: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_bleed: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort"
+    ],
+    "kaempfe": 0
+   },
+   "6": {
+    "events": [
+     "fruehstueck/mg_tag6",
+     "fruehstueck/hy_sophia_kaffee",
+     "tag/g1_petru_fisch",
+     "nachmittag/gv_unit01_bild",
+     "abend/fl_sophia_blick"
+    ],
+    "szenen": [
+     "fruehstueck/Time with Alva",
+     "tag/Time with Chiara",
+     "nachmittag/Time with Lola",
+     "dinner/Time with Alva",
+     "abend/Bonfire on the Beach",
+     "nacht/An Evening of Your Choosing"
+    ],
+    "jobs": 3,
+    "abgelehnt": [
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job english_kids: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job drone: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_box: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job outboard: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job guest_breakfast: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_coldroom: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_fund_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kast_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_gennaro_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_fueller_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job casanova_elsa_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_megan_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_lakritz: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job yasin_brille: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_sterne: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_arancini: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_kapitel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job sophia_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job megan_lieferkette: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_samples: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_bleed: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_tasse_2: Dafür brauchst du: Ein Sack Tonerde.",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort"
+    ],
+    "kaempfe": 0
+   },
+   "7": {
+    "events": [
+     "fruehstueck/mg_tag7"
+    ],
+    "szenen": [
+     "fruehstueck/Time with Siri",
+     "tag/The Hearing",
+     "tag/And You, First Officer?",
+     "tag/The Verdict",
+     "nachmittag/Time with Sophia",
+     "dinner/Time with Lola",
+     "abend/After the Verdict",
+     "nacht/Red Light in the Mountains"
+    ],
+    "jobs": 3,
+    "abgelehnt": [
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Du hast dieser Person heute schon etwas gegeben.",
+     "job petru_motor_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job outboard: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job guest_breakfast: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_coldroom: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job elsa_fund_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kast_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_gennaro_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job siri_lakritz: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_arancini: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_kapitel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job sophia_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_gefallen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job megan_lieferkette: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_samples: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_bleed: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_tasse_2: Dafür brauchst du: Ein Sack Tonerde.",
+     "job elsa_antenne_1: Dafür brauchst du: Antennenkabel, seewasserfest.",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Du hast dieser Person heute schon etwas gegeben."
+    ],
+    "kaempfe": 0
+   },
+   "8": {
+    "events": [],
+    "szenen": [],
+    "jobs": 0,
+    "abgelehnt": [],
+    "kaempfe": 0
+   }
+  },
+  "befund": {
+   "deutsch": [
+    [
+     "text | Sie freut sich über dieses Geschenk.",
+     902
+    ],
+    [
+     "text | Aus Lolas Kombüse. Selbst essen: Energie +1.",
+     815
+    ],
+    [
+     "quelle_text | erzählt im Dorf",
+     794
+    ],
+    [
+     "eigenschaft | Standfest: Schutz +1, Verteidigen gibt Schutz +2, du wirst nie erschüttert.",
+     714
+    ],
+    [
+     "text | Die einzige Bar in Cala d'Orsu – und seit dem Dorfladen-Streit auch der einzige Laden. Alv",
+     684
+    ],
+    [
+     "text | Die Kombüse riecht nach Butter, Zucker und etwas, über das man nicht spricht. Ein Essen am",
+     684
+    ],
+    [
+     "text | Ersatzteile und Eden-Ware, bestellt per Videoanruf bei der Flottenmanagerin. Geliefert mit",
+     684
+    ],
+    [
+     "text | Rosis Werkstatt auf dem Unterdeck: Waffen und Jacken wechseln, Chips einsetzen, Ausrüstung",
+     684
+    ],
+    [
+     "wege[] | Rosi nimmt dich mit",
+     684
+    ],
+    [
+     "fehlt | Die Werkstatt ist nach der Explosion noch kaputt.",
+     606
+    ],
+    [
+     "text | Bei Alva höchstens ein Kanister am Tag und teurer als bei Totò.",
+     477
+    ],
+    [
+     "label | Lolas Gewürzmischung „Ocean Glitter“",
+     460
+    ],
+    [
+     "text | Alva erzählt: „Siri? Bloß kein Dicke Goldkette (vermutlich echt). Glaub mir.“",
+     400
+    ],
+    [
+     "untertitel | Die letzte Charter-Nacht. Dann sieben Tage, die alles ändern.",
+     342
+    ],
+    [
+     "ziel | In sieben Tagen urteilt Megan an Bord: Finde heraus, wer den Ausfall ausgelöst hat.",
+     342
+    ],
+    [
+     "text | Ein abgeschlossener Spind im Lagerraum. Totò hat alles – fast. Preise je nach Draht zu ihm",
+     342
+    ],
+    [
+     "name | Lolas Kombüse",
+     342
+    ],
+    [
+     "label | Megans Manschettenknöpfe",
+     342
+    ],
+    [
+     "text | Schwarzer Onyx, ein goldener Anker. Ab Megans Vertrauen 3 im Eden-Shop.",
+     342
+    ],
+    [
+     "label | Kiste Champagner aus der Gästebar",
+     342
+    ],
+    [
+     "label | Ersatzpropeller des Beiboots",
+     342
+    ],
+    [
+     "label | Gäste-Bademäntel (sechs)",
+     342
+    ],
+    [
+     "text | Vietnamesische Nudelsuppe mit Krabben und Tomate.",
+     342
+    ],
+    [
+     "text | Karamellisierter Schweinebauch mit Ei, dazu Reis.",
+     342
+    ],
+    [
+     "text | Frische Reispapierrollen mit Garnelen und Kräutern.",
+     342
+    ],
+    [
+     "text | Die Brühe braucht Geduld. Rosi kennt Ramen aus ihren Manga.",
+     342
+    ],
+    [
+     "text | Zu scharf für eine seekranke Flottenmanagerin.",
+     342
+    ],
+    [
+     "text | Provenzalischer Fischtopf mit Rouille.",
+     342
+    ],
+    [
+     "text | Gedämpfte Hefebrötchen mit Schweinebauch. Lola: „Fluffy clouds, Boss.“",
+     342
+    ],
+    [
+     "text | Fisch unter Kartoffelhaube. Petru: „Hm.“ Das heißt: noch eins.",
+     342
+    ],
+    [
+     "text | Bratkartoffeln mit Wurst, Zwiebel, Spiegelei und Roter Bete.",
+     342
+    ],
+    [
+     "text | Norwegische Fischsuppe mit Lachs, Sahne und Dill.",
+     342
+    ],
+    [
+     "text | Das Einzige, was Megan auf See bei sich behält.",
+     342
+    ],
+    [
+     "text | Brot ist die schwerste Disziplin.",
+     342
+    ],
+    [
+     "name | die Crew",
+     342
+    ],
+    [
+     "info | Ladung der Batterien (0–10). Alles an Bord hängt daran: Kühlung, Wasser, Alarme. Am Tagese",
+     342
+    ],
+    [
+     "info | Treibstoff für Unit-01, den Notgenerator in Rosis Generatorraum (0–5, Start 2 Kanister). J",
+     342
+    ],
+    [
+     "info | Stimmung der Crew (0–5). Sinkt bei Strommangel, steigt durch gemeinsame Erfolge und Entspa",
+     342
+    ],
+    [
+     "label | Ruf im Dorf",
+     342
+    ],
+    [
+     "info | Wie das Dorf Cala d'Orsu über die Crew denkt (0–5). Jobs und Gefälligkeiten heben ihn; auf",
+     342
+    ]
+   ],
+   "ohne_bild": [
+    [
+     "/z/handel/ankauf[]/bild",
+     1368
+    ],
+    [
+     "/z/profile[]/bild",
+     342
+    ],
+    [
+     "/z/handel/jobs[]/bild",
+     240
+    ],
+    [
+     "/z/job_ergebnis/bild",
+     96
+    ],
+    [
+     "/z/szene/log[]/sprite",
+     3
+    ],
+    [
+     "/z/verhandlung/verdaechtige[]/sprite",
+     1
+    ]
+   ],
+   "fehler": [],
+   "fall": null,
+   "ende": {
+    "tag": 8,
+    "status": "ende"
+   },
+   "schritte": 342,
+   "anhoerung": {
+    "gespielt": true,
+    "angeklagt": "chiara",
+    "urteil": "unbelegt"
+   }
+  }
+ },
+ {
+  "seed": 3,
+  "tage": {
+   "1": {
+    "events": [
+     "tag/t0_limousine",
+     "tag/t0_megan",
+     "tag/t0_holm",
+     "tag/t0_chiara",
+     "tag/t0_rosi",
+     "tag/t0_maxwell",
+     "tag/t0_toto",
+     "tag/t0_lola",
+     "tag/t0_wahl",
+     "tag/t0_wahl2_moore",
+     "tag/t0_lea",
+     "tag/t0_sophia",
+     "tag/t0_jana",
+     "tag/t0_abschied_herzlich"
+    ],
+    "szenen": [
+     "fruehstueck/06:35",
+     "abend/One More Minute of Light",
+     "nacht/The Silence",
+     "nacht/06:35",
+     "nacht/Who Do You Call?"
+    ],
+    "jobs": 0,
+    "abgelehnt": [],
+    "kaempfe": 0
+   },
+   "2": {
+    "events": [
+     "fruehstueck/g1_pfannkuchen",
+     "nachmittag/mx_tutorial",
+     "nachmittag/hk_hilfe",
+     "nachmittag/hk_rosi_v",
+     "nachmittag/hk_elsa",
+     "nachmittag/hk_alva",
+     "nachmittag/hk_petru",
+     "nachmittag/hk_ziege",
+     "nachmittag/hy_lola_koster",
+     "abend/hy_holm_krankenhaus",
+     "nacht/mg_tag2",
+     "nacht/br_singen_ohne_strom"
+    ],
+    "szenen": [
+     "fruehstueck/Briefing",
+     "fruehstueck/Megan's Ultimatum",
+     "fruehstueck/Holm Has a Moment",
+     "fruehstueck/Farewell to the Captain",
+     "fruehstueck/The Empty Seat",
+     "tag/What Happened in the Night",
+     "nachmittag/Time with Sophia",
+     "dinner/Time with Rosi",
+     "abend/That Doesn't Fit the Timeline",
+     "nacht/Time with Lea"
+    ],
+    "jobs": 4,
+    "abgelehnt": [
+     "geben lola_vegemite: Ein Glas Vegemite ist für jemand anderen gedacht – das spürt sie sofort.",
+     "geben lola_vegemite: Ein Glas Vegemite ist für jemand anderen gedacht – das spürt sie sofort.",
+     "geben lola_vegemite: Ein Glas Vegemite ist für jemand anderen gedacht – das spürt sie sofort."
+    ],
+    "kaempfe": 1
+   },
+   "3": {
+    "events": [
+     "fruehstueck/mg_tag3",
+     "tag/gv_ocean_glitter",
+     "nachmittag/gv_elsa_kiste",
+     "nacht/br_nacktbaden",
+     "nacht/fl_chiara_zehn"
+    ],
+    "szenen": [
+     "fruehstueck/Sunrise over Cala d'Orsu",
+     "fruehstueck/Time with Alva",
+     "tag/Cala d'Orsu",
+     "nachmittag/Time with Lola",
+     "dinner/The Second Plan",
+     "abend/Lola's First Meal in the Bay",
+     "nacht/A Safe Room"
+    ],
+    "jobs": 4,
+    "abgelehnt": [
+     "geben lola_vegemite: Ein Glas Vegemite ist für jemand anderen gedacht – das spürt sie sofort.",
+     "geben lola_vegemite: Ein Glas Vegemite ist für jemand anderen gedacht – das spürt sie sofort.",
+     "geben lola_vegemite: Ein Glas Vegemite ist für jemand anderen gedacht – das spürt sie sofort.",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job alva_kassenbuch: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job nets: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job radio_elsa: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job english_kids: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job drone: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_box: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job outboard: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job guest_breakfast: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_coldroom: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_papers: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_tasse_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_fund_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kast_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_gennaro_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_fueller_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job casanova_elsa_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_megan_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_lakritz: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job yasin_brille: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_sterne: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_arancini: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job casanova_buffet: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_gefallen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job megan_lieferkette: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "geben petru_tabak: Sie hat heute schon ein Geschenk von dir bekommen.",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort"
+    ],
+    "kaempfe": 0
+   },
+   "4": {
+    "events": [
+     "fruehstueck/mg_tag4",
+     "tag/fl_jana_knoten",
+     "tag/hy_toto_spind",
+     "nachmittag/gv_elsa_roman",
+     "nacht/br_elsas_kontrolle",
+     "nacht/ab_lola_klopft"
+    ],
+    "szenen": [
+     "fruehstueck/Time with Siri",
+     "tag/Time with Chiara",
+     "nachmittag/Time with Rosi",
+     "dinner/Time with Siri",
+     "abend/Rosi vs. Officer",
+     "abend/I'm Coming Tomorrow",
+     "nacht/Time with Alva"
+    ],
+    "jobs": 3,
+    "abgelehnt": [
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "job yasin_brille: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_kassenbuch: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job nets: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job radio_elsa: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job english_kids: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job drone: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_box: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job outboard: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job guest_breakfast: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_coldroom: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_papers: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_photos: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job lola_tasse_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_fund_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kast_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_gennaro_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_fueller_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job casanova_elsa_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_megan_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_sterne: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_kapitel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job casanova_buffet: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_gefallen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_bleed: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort"
+    ],
+    "kaempfe": 0
+   },
+   "5": {
+    "events": [
+     "fruehstueck/mg_tag5",
+     "fruehstueck/fl_chiara_kragen",
+     "tag/du_harpune_chiara",
+     "nachmittag/g1_siri_tanz"
+    ],
+    "szenen": [
+     "fruehstueck/A Visit from Head Office",
+     "tag/The Inspection",
+     "nachmittag/Time with Sophia",
+     "dinner/Before the Storm",
+     "abend/A Quiet Phone Call",
+     "abend/Time with Siri",
+     "nacht/What You Hear in the Dark"
+    ],
+    "jobs": 3,
+    "abgelehnt": [
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "job nets: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_kassenbuch: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job radio_elsa: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job english_kids: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_box: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job outboard: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job guest_breakfast: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_coldroom: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_photos: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job lola_tasse_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_fund_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kast_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_gennaro_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_fueller_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job casanova_elsa_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_megan_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job yasin_brille: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_sterne: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_kapitel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job casanova_buffet: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_gefallen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort"
+    ],
+    "kaempfe": 0
+   },
+   "6": {
+    "events": [
+     "fruehstueck/mg_tag6",
+     "fruehstueck/hy_sophia_kaffee",
+     "tag/g1_elsa_schwimmwesten",
+     "nachmittag/gv_holm_baer",
+     "abend/fl_sophia_blick"
+    ],
+    "szenen": [
+     "fruehstueck/Time with Alva",
+     "tag/Time with Chiara",
+     "nachmittag/Time with Lola",
+     "dinner/Time with Alva",
+     "abend/Bonfire on the Beach",
+     "nacht/An Evening of Your Choosing"
+    ],
+    "jobs": 3,
+    "abgelehnt": [
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "job guest_breakfast: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job nets: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job radio_elsa: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job english_kids: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_box: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job outboard: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_coldroom: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_photos: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job lola_tasse_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_gennaro_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_fueller_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job casanova_elsa_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_megan_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job yasin_brille: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_sterne: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_kapitel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job toto_gefallen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort"
+    ],
+    "kaempfe": 0
+   },
+   "7": {
+    "events": [
+     "fruehstueck/mg_tag7"
+    ],
+    "szenen": [
+     "fruehstueck/Time with Siri",
+     "tag/The Hearing",
+     "tag/And You, First Officer?",
+     "tag/The Verdict",
+     "nachmittag/Time with Sophia",
+     "dinner/Time with Lola",
+     "abend/After the Verdict",
+     "nacht/Red Light in the Mountains"
+    ],
+    "jobs": 3,
+    "abgelehnt": [
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Du hast dieser Person heute schon etwas gegeben.",
+     "job toto_gefallen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job nets: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job guest_breakfast: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_coldroom: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_photos: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job lola_tasse_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kast_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job casanova_elsa_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_sterne: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_kapitel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_fund_2: Dafür brauchst du: Knopfzelle.",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Du hast dieser Person heute schon etwas gegeben."
+    ],
+    "kaempfe": 0
+   },
+   "8": {
+    "events": [],
+    "szenen": [],
+    "jobs": 0,
+    "abgelehnt": [],
+    "kaempfe": 0
+   }
+  },
+  "befund": {
+   "deutsch": [
+    [
+     "text | Aus Lolas Kombüse. Selbst essen: Energie +1.",
+     815
+    ],
+    [
+     "quelle_text | erzählt im Dorf",
+     754
+    ],
+    [
+     "eigenschaft | Standfest: Schutz +1, Verteidigen gibt Schutz +2, du wirst nie erschüttert.",
+     714
+    ],
+    [
+     "text | Die einzige Bar in Cala d'Orsu – und seit dem Dorfladen-Streit auch der einzige Laden. Alv",
+     684
+    ],
+    [
+     "text | Die Kombüse riecht nach Butter, Zucker und etwas, über das man nicht spricht. Ein Essen am",
+     684
+    ],
+    [
+     "text | Ersatzteile und Eden-Ware, bestellt per Videoanruf bei der Flottenmanagerin. Geliefert mit",
+     684
+    ],
+    [
+     "text | Rosis Werkstatt auf dem Unterdeck: Waffen und Jacken wechseln, Chips einsetzen, Ausrüstung",
+     684
+    ],
+    [
+     "wege[] | Rosi nimmt dich mit",
+     684
+    ],
+    [
+     "fehlt | Die Werkstatt ist nach der Explosion noch kaputt.",
+     606
+    ],
+    [
+     "text | Bei Alva höchstens ein Kanister am Tag und teurer als bei Totò.",
+     477
+    ],
+    [
+     "zeit | vor der Reise",
+     461
+    ],
+    [
+     "text | Alva erzählt: „Siri? Bloß kein Dicke Goldkette (vermutlich echt). Glaub mir.“",
+     400
+    ],
+    [
+     "untertitel | Die letzte Charter-Nacht. Dann sieben Tage, die alles ändern.",
+     342
+    ],
+    [
+     "ziel | In sieben Tagen urteilt Megan an Bord: Finde heraus, wer den Ausfall ausgelöst hat.",
+     342
+    ],
+    [
+     "text | Ein abgeschlossener Spind im Lagerraum. Totò hat alles – fast. Preise je nach Draht zu ihm",
+     342
+    ],
+    [
+     "name | Lolas Kombüse",
+     342
+    ],
+    [
+     "label | Megans Manschettenknöpfe",
+     342
+    ],
+    [
+     "text | Schwarzer Onyx, ein goldener Anker. Ab Megans Vertrauen 3 im Eden-Shop.",
+     342
+    ],
+    [
+     "label | Kiste Champagner aus der Gästebar",
+     342
+    ],
+    [
+     "label | Ersatzpropeller des Beiboots",
+     342
+    ],
+    [
+     "label | Gäste-Bademäntel (sechs)",
+     342
+    ],
+    [
+     "text | Vietnamesische Nudelsuppe mit Krabben und Tomate.",
+     342
+    ],
+    [
+     "text | Karamellisierter Schweinebauch mit Ei, dazu Reis.",
+     342
+    ],
+    [
+     "text | Frische Reispapierrollen mit Garnelen und Kräutern.",
+     342
+    ],
+    [
+     "text | Die Brühe braucht Geduld. Rosi kennt Ramen aus ihren Manga.",
+     342
+    ],
+    [
+     "text | Zu scharf für eine seekranke Flottenmanagerin.",
+     342
+    ],
+    [
+     "text | Provenzalischer Fischtopf mit Rouille.",
+     342
+    ],
+    [
+     "text | Gedämpfte Hefebrötchen mit Schweinebauch. Lola: „Fluffy clouds, Boss.“",
+     342
+    ],
+    [
+     "text | Fisch unter Kartoffelhaube. Petru: „Hm.“ Das heißt: noch eins.",
+     342
+    ],
+    [
+     "text | Bratkartoffeln mit Wurst, Zwiebel, Spiegelei und Roter Bete.",
+     342
+    ],
+    [
+     "text | Norwegische Fischsuppe mit Lachs, Sahne und Dill.",
+     342
+    ],
+    [
+     "text | Das Einzige, was Megan auf See bei sich behält.",
+     342
+    ],
+    [
+     "text | Brot ist die schwerste Disziplin.",
+     342
+    ],
+    [
+     "name | die Crew",
+     342
+    ],
+    [
+     "info | Ladung der Batterien (0–10). Alles an Bord hängt daran: Kühlung, Wasser, Alarme. Am Tagese",
+     342
+    ],
+    [
+     "info | Treibstoff für Unit-01, den Notgenerator in Rosis Generatorraum (0–5, Start 2 Kanister). J",
+     342
+    ],
+    [
+     "info | Stimmung der Crew (0–5). Sinkt bei Strommangel, steigt durch gemeinsame Erfolge und Entspa",
+     342
+    ],
+    [
+     "label | Ruf im Dorf",
+     342
+    ],
+    [
+     "info | Wie das Dorf Cala d'Orsu über die Crew denkt (0–5). Jobs und Gefälligkeiten heben ihn; auf",
+     342
+    ],
+    [
+     "info | Deine Tagesenergie (0–3). Jeder Schnelljob im Handy kostet 1. Pro Tag kommen 2 dazu, ein E",
+     342
+    ]
+   ],
+   "ohne_bild": [
+    [
+     "/z/handel/ankauf[]/bild",
+     1368
+    ],
+    [
+     "/z/profile[]/bild",
+     342
+    ],
+    [
+     "/z/handel/jobs[]/bild",
+     122
+    ],
+    [
+     "/z/job_ergebnis/bild",
+     96
+    ],
+    [
+     "/z/szene/log[]/sprite",
+     3
+    ],
+    [
+     "/z/verhandlung/verdaechtige[]/sprite",
+     1
+    ]
+   ],
+   "fehler": [],
+   "fall": null,
+   "ende": {
+    "tag": 8,
+    "status": "ende"
+   },
+   "schritte": 342,
+   "anhoerung": {
+    "gespielt": true,
+    "angeklagt": "chiara",
+    "urteil": "falsch"
+   }
+  }
+ },
+ {
+  "seed": 4,
+  "tage": {
+   "1": {
+    "events": [
+     "tag/t0_limousine",
+     "tag/t0_megan",
+     "tag/t0_holm",
+     "tag/t0_chiara",
+     "tag/t0_rosi",
+     "tag/t0_maxwell",
+     "tag/t0_toto",
+     "tag/t0_lola",
+     "tag/t0_wahl",
+     "tag/t0_wahl2_moore",
+     "tag/t0_lea",
+     "tag/t0_sophia",
+     "tag/t0_jana",
+     "tag/t0_abschied_herzlich"
+    ],
+    "szenen": [
+     "fruehstueck/06:35",
+     "abend/One More Minute of Light",
+     "nacht/The Silence",
+     "nacht/06:35",
+     "nacht/Who Do You Call?"
+    ],
+    "jobs": 0,
+    "abgelehnt": [],
+    "kaempfe": 0
+   },
+   "2": {
+    "events": [
+     "fruehstueck/g1_pfannkuchen",
+     "nachmittag/mx_tutorial",
+     "nachmittag/hk_hilfe",
+     "nachmittag/hk_rosi_v",
+     "nachmittag/hk_elsa",
+     "nachmittag/hk_alva",
+     "nachmittag/hk_petru",
+     "nachmittag/hk_ziege",
+     "nachmittag/hy_lola_koster",
+     "abend/hy_holm_krankenhaus",
+     "nacht/mg_tag2",
+     "nacht/br_singen_ohne_strom"
+    ],
+    "szenen": [
+     "fruehstueck/Briefing",
+     "fruehstueck/Megan's Ultimatum",
+     "fruehstueck/Holm Has a Moment",
+     "fruehstueck/Farewell to the Captain",
+     "fruehstueck/The Empty Seat",
+     "tag/What Happened in the Night",
+     "nachmittag/Time with Sophia",
+     "dinner/Time with Rosi",
+     "abend/That Doesn't Fit the Timeline",
+     "nacht/Time with Lea"
+    ],
+    "jobs": 4,
+    "abgelehnt": [],
+    "kaempfe": 1
+   },
+   "3": {
+    "events": [
+     "fruehstueck/mg_tag3",
+     "tag/gv_ocean_glitter",
+     "nachmittag/gv_elsa_kiste",
+     "nacht/br_nacktbaden",
+     "nacht/fl_chiara_zehn"
+    ],
+    "szenen": [
+     "fruehstueck/Sunrise over Cala d'Orsu",
+     "fruehstueck/Time with Alva",
+     "tag/Cala d'Orsu",
+     "nachmittag/Time with Lola",
+     "dinner/The Second Plan",
+     "abend/Lola's First Meal in the Bay",
+     "nacht/A Safe Room"
+    ],
+    "jobs": 4,
+    "abgelehnt": [
+     "job toto_gefallen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kochkurs: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_kassenbuch: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job nets: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job english_kids: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job drone: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_box: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job outboard: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job guest_breakfast: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_cells: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_coldroom: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_photos: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job lola_tasse_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_fund_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kast_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_gennaro_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job casanova_elsa_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_megan_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_lakritz: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job yasin_brille: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_sterne: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_arancini: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job megan_esg: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job casanova_buffet: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_nachtessen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Sie hat heute schon ein Geschenk von dir bekommen.",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort"
+    ],
+    "kaempfe": 0
+   },
+   "4": {
+    "events": [
+     "fruehstueck/mg_tag4",
+     "tag/fl_elsa_strafzettel",
+     "tag/hy_toto_spind",
+     "nachmittag/gv_elsa_roman",
+     "nacht/br_elsas_kontrolle",
+     "nacht/ab_lola_klopft"
+    ],
+    "szenen": [
+     "fruehstueck/Time with Siri",
+     "tag/Time with Chiara",
+     "nachmittag/Time with Rosi",
+     "dinner/Time with Siri",
+     "abend/Rosi vs. Officer",
+     "abend/I'm Coming Tomorrow",
+     "nacht/Time with Alva"
+    ],
+    "jobs": 3,
+    "abgelehnt": [
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job lola_kochkurs: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_kassenbuch: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job nets: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job english_kids: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job drone: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_box: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job outboard: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job guest_breakfast: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_cells: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_coldroom: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_photos: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job lola_tasse_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_fund_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kast_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_gennaro_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_megan_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_lakritz: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job yasin_brille: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_sterne: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_arancini: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_kapitel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job megan_esg: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job casanova_buffet: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_gefallen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_fueller_2: Dafür brauchst du: Füller-Rohling zum Gravieren.",
+     "job elsa_antenne_1: Dafür brauchst du: Antennenkabel, seewasserfest.",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort"
+    ],
+    "kaempfe": 0
+   },
+   "5": {
+    "events": [
+     "fruehstueck/mg_tag5",
+     "fruehstueck/ak_chiara_sternzettel",
+     "tag/du_harpune_chiara",
+     "nachmittag/g1_siri_tanz"
+    ],
+    "szenen": [
+     "fruehstueck/A Visit from Head Office",
+     "tag/The Inspection",
+     "nachmittag/Time with Sophia",
+     "dinner/Before the Storm",
+     "abend/A Quiet Phone Call",
+     "abend/Time with Siri",
+     "nacht/What You Hear in the Dark"
+    ],
+    "jobs": 3,
+    "abgelehnt": [
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job lola_kochkurs: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_kassenbuch: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job nets: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job english_kids: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_box: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job outboard: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job guest_breakfast: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_cells: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_coldroom: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_photos: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job lola_kast_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_gennaro_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job casanova_elsa_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_megan_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_lakritz: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job yasin_brille: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_sterne: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_arancini: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_kapitel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job megan_esg: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job casanova_buffet: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_nachtessen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_gefallen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_fueller_2: Dafür brauchst du: Füller-Rohling zum Gravieren.",
+     "job elsa_antenne_1: Dafür brauchst du: Antennenkabel, seewasserfest.",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort"
+    ],
+    "kaempfe": 0
+   },
+   "6": {
+    "events": [
+     "fruehstueck/mg_tag6",
+     "fruehstueck/hy_sophia_kaffee",
+     "tag/g1_elsa_schwimmwesten",
+     "nachmittag/gv_holm_baer",
+     "abend/fl_sophia_blick"
+    ],
+    "szenen": [
+     "fruehstueck/Time with Alva",
+     "tag/Time with Chiara",
+     "nachmittag/Time with Lola",
+     "dinner/Time with Alva",
+     "abend/Bonfire on the Beach",
+     "nacht/An Evening of Your Choosing"
+    ],
+    "jobs": 3,
+    "abgelehnt": [
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "job yasin_brille: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job nets: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job english_kids: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_box: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job outboard: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job guest_breakfast: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_cells: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_coldroom: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_photos: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job elsa_fund_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kast_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_gennaro_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job casanova_elsa_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_megan_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_lakritz: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_sterne: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_arancini: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_kapitel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job megan_esg: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_gefallen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_fueller_2: Dafür brauchst du: Füller-Rohling zum Gravieren.",
+     "job elsa_antenne_1: Dafür brauchst du: Antennenkabel, seewasserfest.",
+     "job lola_tasse_2: Dafür brauchst du: Ein Sack Tonerde.",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort"
+    ],
+    "kaempfe": 0
+   },
+   "7": {
+    "events": [
+     "fruehstueck/mg_tag7"
+    ],
+    "szenen": [
+     "fruehstueck/Time with Siri",
+     "tag/The Hearing",
+     "tag/And You, First Officer?",
+     "tag/The Verdict",
+     "nachmittag/Time with Sophia",
+     "dinner/Time with Lola",
+     "abend/After the Verdict",
+     "nacht/Red Light in the Mountains"
+    ],
+    "jobs": 3,
+    "abgelehnt": [
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben lola_vegemite: Du hast dieser Person heute schon etwas gegeben.",
+     "job lea_fueller_2: Dafür brauchst du: Füller-Rohling zum Gravieren.",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job outboard: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job guest_breakfast: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_cells: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_coldroom: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_photos: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job elsa_fund_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kast_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_gennaro_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job siri_lakritz: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_arancini: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_kapitel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job megan_esg: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_gefallen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_antenne_1: Dafür brauchst du: Antennenkabel, seewasserfest.",
+     "job lola_tasse_2: Dafür brauchst du: Ein Sack Tonerde.",
+     "geben lola_vegemite: Ein Glas Vegemite ist für jemand anderen gedacht – das spürt sie sofort.",
+     "geben petru_tabak: Du hast dieser Person heute schon etwas gegeben."
+    ],
+    "kaempfe": 0
+   },
+   "8": {
+    "events": [],
+    "szenen": [],
+    "jobs": 0,
+    "abgelehnt": [],
+    "kaempfe": 0
+   }
+  },
+  "befund": {
+   "deutsch": [
+    [
+     "quelle_text | erzählt im Dorf",
+     790
+    ],
+    [
+     "text | Aus Lolas Kombüse. Selbst essen: Energie +1.",
+     766
+    ],
+    [
+     "eigenschaft | Standfest: Schutz +1, Verteidigen gibt Schutz +2, du wirst nie erschüttert.",
+     702
+    ],
+    [
+     "text | Die einzige Bar in Cala d'Orsu – und seit dem Dorfladen-Streit auch der einzige Laden. Alv",
+     672
+    ],
+    [
+     "text | Die Kombüse riecht nach Butter, Zucker und etwas, über das man nicht spricht. Ein Essen am",
+     672
+    ],
+    [
+     "text | Ersatzteile und Eden-Ware, bestellt per Videoanruf bei der Flottenmanagerin. Geliefert mit",
+     672
+    ],
+    [
+     "text | Rosis Werkstatt auf dem Unterdeck: Waffen und Jacken wechseln, Chips einsetzen, Ausrüstung",
+     672
+    ],
+    [
+     "wege[] | Rosi nimmt dich mit",
+     672
+    ],
+    [
+     "fehlt | Die Werkstatt ist nach der Explosion noch kaputt.",
+     594
+    ],
+    [
+     "text | Bei Alva höchstens ein Kanister am Tag und teurer als bei Totò.",
+     466
+    ],
+    [
+     "zeit | vor der Reise",
+     455
+    ],
+    [
+     "text | Alva erzählt: „Siri? Bloß kein Dicke Goldkette (vermutlich echt). Glaub mir.“",
+     396
+    ],
+    [
+     "text | Sie freut sich über dieses Geschenk.",
+     368
+    ],
+    [
+     "untertitel | Die letzte Charter-Nacht. Dann sieben Tage, die alles ändern.",
+     336
+    ],
+    [
+     "ziel | In sieben Tagen urteilt Megan an Bord: Finde heraus, wer den Ausfall ausgelöst hat.",
+     336
+    ],
+    [
+     "text | Ein abgeschlossener Spind im Lagerraum. Totò hat alles – fast. Preise je nach Draht zu ihm",
+     336
+    ],
+    [
+     "name | Lolas Kombüse",
+     336
+    ],
+    [
+     "label | Megans Manschettenknöpfe",
+     336
+    ],
+    [
+     "text | Schwarzer Onyx, ein goldener Anker. Ab Megans Vertrauen 3 im Eden-Shop.",
+     336
+    ],
+    [
+     "label | Kiste Champagner aus der Gästebar",
+     336
+    ],
+    [
+     "label | Ersatzpropeller des Beiboots",
+     336
+    ],
+    [
+     "label | Gäste-Bademäntel (sechs)",
+     336
+    ],
+    [
+     "text | Vietnamesische Nudelsuppe mit Krabben und Tomate.",
+     336
+    ],
+    [
+     "text | Karamellisierter Schweinebauch mit Ei, dazu Reis.",
+     336
+    ],
+    [
+     "text | Frische Reispapierrollen mit Garnelen und Kräutern.",
+     336
+    ],
+    [
+     "text | Die Brühe braucht Geduld. Rosi kennt Ramen aus ihren Manga.",
+     336
+    ],
+    [
+     "text | Zu scharf für eine seekranke Flottenmanagerin.",
+     336
+    ],
+    [
+     "text | Provenzalischer Fischtopf mit Rouille.",
+     336
+    ],
+    [
+     "text | Gedämpfte Hefebrötchen mit Schweinebauch. Lola: „Fluffy clouds, Boss.“",
+     336
+    ],
+    [
+     "text | Fisch unter Kartoffelhaube. Petru: „Hm.“ Das heißt: noch eins.",
+     336
+    ],
+    [
+     "text | Bratkartoffeln mit Wurst, Zwiebel, Spiegelei und Roter Bete.",
+     336
+    ],
+    [
+     "text | Norwegische Fischsuppe mit Lachs, Sahne und Dill.",
+     336
+    ],
+    [
+     "text | Das Einzige, was Megan auf See bei sich behält.",
+     336
+    ],
+    [
+     "text | Brot ist die schwerste Disziplin.",
+     336
+    ],
+    [
+     "name | die Crew",
+     336
+    ],
+    [
+     "info | Ladung der Batterien (0–10). Alles an Bord hängt daran: Kühlung, Wasser, Alarme. Am Tagese",
+     336
+    ],
+    [
+     "info | Treibstoff für Unit-01, den Notgenerator in Rosis Generatorraum (0–5, Start 2 Kanister). J",
+     336
+    ],
+    [
+     "info | Stimmung der Crew (0–5). Sinkt bei Strommangel, steigt durch gemeinsame Erfolge und Entspa",
+     336
+    ],
+    [
+     "label | Ruf im Dorf",
+     336
+    ],
+    [
+     "info | Wie das Dorf Cala d'Orsu über die Crew denkt (0–5). Jobs und Gefälligkeiten heben ihn; auf",
+     336
+    ]
+   ],
+   "ohne_bild": [
+    [
+     "/z/handel/ankauf[]/bild",
+     1344
+    ],
+    [
+     "/z/profile[]/bild",
+     336
+    ],
+    [
+     "/z/handel/jobs[]/bild",
+     270
+    ],
+    [
+     "/z/job_ergebnis/bild",
+     38
+    ],
+    [
+     "/z/szene/log[]/sprite",
+     3
+    ],
+    [
+     "/z/verhandlung/verdaechtige[]/sprite",
+     1
+    ]
+   ],
+   "fehler": [],
+   "fall": null,
+   "ende": {
+    "tag": 8,
+    "status": "ende"
+   },
+   "schritte": 336,
+   "anhoerung": {
+    "gespielt": true,
+    "angeklagt": "chiara",
+    "urteil": "falsch"
+   }
+  }
+ },
+ {
+  "seed": 5,
+  "tage": {
+   "1": {
+    "events": [
+     "tag/t0_limousine",
+     "tag/t0_megan",
+     "tag/t0_holm",
+     "tag/t0_chiara",
+     "tag/t0_rosi",
+     "tag/t0_maxwell",
+     "tag/t0_toto",
+     "tag/t0_lola",
+     "tag/t0_wahl",
+     "tag/t0_wahl2_moore",
+     "tag/t0_lea",
+     "tag/t0_sophia",
+     "tag/t0_jana",
+     "tag/t0_abschied_herzlich"
+    ],
+    "szenen": [
+     "fruehstueck/06:35",
+     "abend/One More Minute of Light",
+     "nacht/The Silence",
+     "nacht/06:35",
+     "nacht/Who Do You Call?"
+    ],
+    "jobs": 0,
+    "abgelehnt": [],
+    "kaempfe": 0
+   },
+   "2": {
+    "events": [
+     "fruehstueck/g1_pfannkuchen",
+     "nachmittag/mx_tutorial",
+     "nachmittag/hk_hilfe",
+     "nachmittag/hk_rosi_v",
+     "nachmittag/hk_elsa",
+     "nachmittag/hk_alva",
+     "nachmittag/hk_petru",
+     "nachmittag/hk_ziege",
+     "nachmittag/hy_lola_koster",
+     "abend/hy_holm_krankenhaus",
+     "nacht/mg_tag2",
+     "nacht/br_singen_ohne_strom"
+    ],
+    "szenen": [
+     "fruehstueck/Briefing",
+     "fruehstueck/Megan's Ultimatum",
+     "fruehstueck/Holm Has a Moment",
+     "fruehstueck/Farewell to the Captain",
+     "fruehstueck/The Empty Seat",
+     "tag/What Happened in the Night",
+     "nachmittag/Time with Sophia",
+     "dinner/Time with Rosi",
+     "abend/That Doesn't Fit the Timeline",
+     "nacht/Time with Lea"
+    ],
+    "jobs": 4,
+    "abgelehnt": [],
+    "kaempfe": 1
+   },
+   "3": {
+    "events": [
+     "fruehstueck/mg_tag3",
+     "tag/gv_ocean_glitter",
+     "nachmittag/gv_elsa_kiste",
+     "nacht/br_nacktbaden",
+     "nacht/fl_chiara_zehn"
+    ],
+    "szenen": [
+     "fruehstueck/Sunrise over Cala d'Orsu",
+     "fruehstueck/Time with Alva",
+     "tag/Cala d'Orsu",
+     "nachmittag/Time with Lola",
+     "dinner/The Second Plan",
+     "abend/Lola's First Meal in the Bay",
+     "nacht/A Safe Room"
+    ],
+    "jobs": 4,
+    "abgelehnt": [
+     "job toto_gefallen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kochkurs: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_kassenbuch: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job nets: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job english_kids: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job drone: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_box: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job outboard: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job guest_breakfast: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_cells: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_coldroom: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_photos: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job lola_tasse_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_fund_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kast_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_gennaro_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job casanova_elsa_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_megan_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_lakritz: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job yasin_brille: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_sterne: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_arancini: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job megan_esg: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job casanova_buffet: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_nachtessen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Sie hat heute schon ein Geschenk von dir bekommen.",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort"
+    ],
+    "kaempfe": 0
+   },
+   "4": {
+    "events": [
+     "fruehstueck/mg_tag4",
+     "tag/fl_elsa_strafzettel",
+     "tag/hy_toto_spind",
+     "nachmittag/gv_elsa_roman",
+     "nacht/br_elsas_kontrolle",
+     "nacht/ab_lola_klopft"
+    ],
+    "szenen": [
+     "fruehstueck/Time with Siri",
+     "tag/Time with Chiara",
+     "nachmittag/Time with Rosi",
+     "dinner/Time with Siri",
+     "abend/Rosi vs. Officer",
+     "abend/I'm Coming Tomorrow",
+     "nacht/Time with Alva"
+    ],
+    "jobs": 3,
+    "abgelehnt": [
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "job casanova_elsa_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kochkurs: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_kassenbuch: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job nets: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job english_kids: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job drone: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_box: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job outboard: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job guest_breakfast: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_cells: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job lola_tasse_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_fund_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kast_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_gennaro_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_fueller_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job lola_megan_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_lakritz: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job yasin_brille: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_sterne: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_arancini: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_kapitel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job megan_esg: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job casanova_buffet: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_nachtessen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_antenne_1: Dafür brauchst du: Antennenkabel, seewasserfest.",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort"
+    ],
+    "kaempfe": 0
+   },
+   "5": {
+    "events": [
+     "fruehstueck/mg_tag5",
+     "fruehstueck/ak_chiara_sternzettel",
+     "tag/du_harpune_chiara",
+     "nachmittag/g1_chiara_inspektion"
+    ],
+    "szenen": [
+     "fruehstueck/A Visit from Head Office",
+     "tag/The Inspection",
+     "nachmittag/Time with Sophia",
+     "dinner/Before the Storm",
+     "abend/A Quiet Phone Call",
+     "abend/Time with Siri",
+     "nacht/What You Hear in the Dark"
+    ],
+    "jobs": 3,
+    "abgelehnt": [
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "job elsa_fund_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kochkurs: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_kassenbuch: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job nets: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job english_kids: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job drone: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_box: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job outboard: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_cells: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job lola_tasse_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_fueller_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job casanova_elsa_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_megan_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_lakritz: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job yasin_brille: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_sterne: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_arancini: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_kapitel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job megan_esg: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job casanova_buffet: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_nachtessen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_gefallen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_antenne_1: Dafür brauchst du: Antennenkabel, seewasserfest.",
+     "job chiara_complaint: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_samples: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort"
+    ],
+    "kaempfe": 0
+   },
+   "6": {
+    "events": [
+     "fruehstueck/mg_tag6",
+     "fruehstueck/hy_sophia_kaffee",
+     "tag/g1_petru_fisch",
+     "nachmittag/gv_holm_baer",
+     "abend/fl_sophia_blick"
+    ],
+    "szenen": [
+     "fruehstueck/Time with Alva",
+     "tag/Time with Chiara",
+     "nachmittag/Time with Lola",
+     "dinner/Time with Alva",
+     "abend/Bonfire on the Beach",
+     "nacht/An Evening of Your Choosing"
+    ],
+    "jobs": 3,
+    "abgelehnt": [
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job alva_kassenbuch: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job nets: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job english_kids: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job drone: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_box: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job outboard: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_cells: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_tasse_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_fund_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_gennaro_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_fueller_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job lola_megan_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_lakritz: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job yasin_brille: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_sterne: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_arancini: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job megan_esg: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_nachtessen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_gefallen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_antenne_1: Dafür brauchst du: Antennenkabel, seewasserfest.",
+     "job chiara_complaint: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_samples: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kast_2: Dafür brauchst du: Knochenleim im Topf.",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort"
+    ],
+    "kaempfe": 0
+   },
+   "7": {
+    "events": [
+     "fruehstueck/mg_tag7"
+    ],
+    "szenen": [
+     "fruehstueck/Time with Siri",
+     "tag/The Hearing",
+     "tag/And You, First Officer?",
+     "tag/The Verdict",
+     "nachmittag/Time with Sophia",
+     "dinner/Time with Lola",
+     "abend/After the Verdict",
+     "nacht/Red Light in the Mountains"
+    ],
+    "jobs": 3,
+    "abgelehnt": [
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben lola_vegemite: Du hast dieser Person heute schon etwas gegeben.",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job alva_kassenbuch: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job outboard: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_cells: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job lola_tasse_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_fund_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_gennaro_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_fueller_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_lakritz: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_sterne: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_kapitel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job elsa_nachtessen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_gefallen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_antenne_1: Dafür brauchst du: Antennenkabel, seewasserfest.",
+     "job chiara_complaint: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_samples: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kast_2: Dafür brauchst du: Knochenleim im Topf.",
+     "job casanova_elsa_2: Dafür brauchst du: Buchbinder-Leinen.",
+     "geben lola_vegemite: Ein Glas Vegemite ist für jemand anderen gedacht – das spürt sie sofort.",
+     "geben petru_tabak: Du hast dieser Person heute schon etwas gegeben."
+    ],
+    "kaempfe": 0
+   },
+   "8": {
+    "events": [],
+    "szenen": [],
+    "jobs": 0,
+    "abgelehnt": [],
+    "kaempfe": 0
+   }
+  },
+  "befund": {
+   "deutsch": [
+    [
+     "text | Sie freut sich über dieses Geschenk.",
+     1250
+    ],
+    [
+     "quelle_text | erzählt im Dorf",
+     790
+    ],
+    [
+     "text | Aus Lolas Kombüse. Selbst essen: Energie +1.",
+     766
+    ],
+    [
+     "eigenschaft | Standfest: Schutz +1, Verteidigen gibt Schutz +2, du wirst nie erschüttert.",
+     704
+    ],
+    [
+     "text | Die einzige Bar in Cala d'Orsu – und seit dem Dorfladen-Streit auch der einzige Laden. Alv",
+     674
+    ],
+    [
+     "text | Die Kombüse riecht nach Butter, Zucker und etwas, über das man nicht spricht. Ein Essen am",
+     674
+    ],
+    [
+     "text | Ersatzteile und Eden-Ware, bestellt per Videoanruf bei der Flottenmanagerin. Geliefert mit",
+     674
+    ],
+    [
+     "text | Rosis Werkstatt auf dem Unterdeck: Waffen und Jacken wechseln, Chips einsetzen, Ausrüstung",
+     674
+    ],
+    [
+     "wege[] | Rosi nimmt dich mit",
+     674
+    ],
+    [
+     "fehlt | Die Werkstatt ist nach der Explosion noch kaputt.",
+     596
+    ],
+    [
+     "text | Bei Alva höchstens ein Kanister am Tag und teurer als bei Totò.",
+     468
+    ],
+    [
+     "label | Lolas Gewürzmischung „Ocean Glitter“",
+     450
+    ],
+    [
+     "text | Alva erzählt: „Siri? Bloß kein Dicke Goldkette (vermutlich echt). Glaub mir.“",
+     396
+    ],
+    [
+     "untertitel | Die letzte Charter-Nacht. Dann sieben Tage, die alles ändern.",
+     337
+    ],
+    [
+     "ziel | In sieben Tagen urteilt Megan an Bord: Finde heraus, wer den Ausfall ausgelöst hat.",
+     337
+    ],
+    [
+     "text | Ein abgeschlossener Spind im Lagerraum. Totò hat alles – fast. Preise je nach Draht zu ihm",
+     337
+    ],
+    [
+     "name | Lolas Kombüse",
+     337
+    ],
+    [
+     "label | Megans Manschettenknöpfe",
+     337
+    ],
+    [
+     "text | Schwarzer Onyx, ein goldener Anker. Ab Megans Vertrauen 3 im Eden-Shop.",
+     337
+    ],
+    [
+     "label | Kiste Champagner aus der Gästebar",
+     337
+    ],
+    [
+     "label | Ersatzpropeller des Beiboots",
+     337
+    ],
+    [
+     "label | Gäste-Bademäntel (sechs)",
+     337
+    ],
+    [
+     "text | Vietnamesische Nudelsuppe mit Krabben und Tomate.",
+     337
+    ],
+    [
+     "text | Karamellisierter Schweinebauch mit Ei, dazu Reis.",
+     337
+    ],
+    [
+     "text | Frische Reispapierrollen mit Garnelen und Kräutern.",
+     337
+    ],
+    [
+     "text | Die Brühe braucht Geduld. Rosi kennt Ramen aus ihren Manga.",
+     337
+    ],
+    [
+     "text | Zu scharf für eine seekranke Flottenmanagerin.",
+     337
+    ],
+    [
+     "text | Provenzalischer Fischtopf mit Rouille.",
+     337
+    ],
+    [
+     "text | Gedämpfte Hefebrötchen mit Schweinebauch. Lola: „Fluffy clouds, Boss.“",
+     337
+    ],
+    [
+     "text | Fisch unter Kartoffelhaube. Petru: „Hm.“ Das heißt: noch eins.",
+     337
+    ],
+    [
+     "text | Bratkartoffeln mit Wurst, Zwiebel, Spiegelei und Roter Bete.",
+     337
+    ],
+    [
+     "text | Norwegische Fischsuppe mit Lachs, Sahne und Dill.",
+     337
+    ],
+    [
+     "text | Das Einzige, was Megan auf See bei sich behält.",
+     337
+    ],
+    [
+     "text | Brot ist die schwerste Disziplin.",
+     337
+    ],
+    [
+     "name | die Crew",
+     337
+    ],
+    [
+     "info | Ladung der Batterien (0–10). Alles an Bord hängt daran: Kühlung, Wasser, Alarme. Am Tagese",
+     337
+    ],
+    [
+     "info | Treibstoff für Unit-01, den Notgenerator in Rosis Generatorraum (0–5, Start 2 Kanister). J",
+     337
+    ],
+    [
+     "info | Stimmung der Crew (0–5). Sinkt bei Strommangel, steigt durch gemeinsame Erfolge und Entspa",
+     337
+    ],
+    [
+     "label | Ruf im Dorf",
+     337
+    ],
+    [
+     "info | Wie das Dorf Cala d'Orsu über die Crew denkt (0–5). Jobs und Gefälligkeiten heben ihn; auf",
+     337
+    ]
+   ],
+   "ohne_bild": [
+    [
+     "/z/handel/ankauf[]/bild",
+     1348
+    ],
+    [
+     "/z/profile[]/bild",
+     337
+    ],
+    [
+     "/z/handel/jobs[]/bild",
+     254
+    ],
+    [
+     "/z/job_ergebnis/bild",
+     39
+    ],
+    [
+     "/z/szene/log[]/sprite",
+     3
+    ],
+    [
+     "/z/verhandlung/verdaechtige[]/sprite",
+     1
+    ]
+   ],
+   "fehler": [],
+   "fall": null,
+   "ende": {
+    "tag": 8,
+    "status": "ende"
+   },
+   "schritte": 337,
+   "anhoerung": {
+    "gespielt": true,
+    "angeklagt": "chiara",
+    "urteil": "falsch"
+   }
+  }
+ },
+ {
+  "seed": 6,
+  "tage": {
+   "1": {
+    "events": [
+     "tag/t0_limousine",
+     "tag/t0_megan",
+     "tag/t0_holm",
+     "tag/t0_chiara",
+     "tag/t0_rosi",
+     "tag/t0_maxwell",
+     "tag/t0_toto",
+     "tag/t0_lola",
+     "tag/t0_wahl",
+     "tag/t0_wahl2_moore",
+     "tag/t0_lea",
+     "tag/t0_sophia",
+     "tag/t0_jana",
+     "tag/t0_abschied_herzlich"
+    ],
+    "szenen": [
+     "fruehstueck/06:35",
+     "abend/One More Minute of Light",
+     "nacht/The Silence",
+     "nacht/06:35",
+     "nacht/Who Do You Call?"
+    ],
+    "jobs": 0,
+    "abgelehnt": [],
+    "kaempfe": 0
+   },
+   "2": {
+    "events": [
+     "fruehstueck/g1_pfannkuchen",
+     "nachmittag/mx_tutorial",
+     "nachmittag/hk_hilfe",
+     "nachmittag/hk_rosi_v",
+     "nachmittag/hk_elsa",
+     "nachmittag/hk_alva",
+     "nachmittag/hk_petru",
+     "nachmittag/hk_ziege",
+     "nachmittag/hy_lola_koster",
+     "abend/hy_holm_krankenhaus",
+     "nacht/mg_tag2",
+     "nacht/br_singen_ohne_strom"
+    ],
+    "szenen": [
+     "fruehstueck/Briefing",
+     "fruehstueck/Megan's Ultimatum",
+     "fruehstueck/Holm Has a Moment",
+     "fruehstueck/Farewell to the Captain",
+     "fruehstueck/The Empty Seat",
+     "tag/What Happened in the Night",
+     "nachmittag/Time with Sophia",
+     "dinner/Time with Rosi",
+     "abend/That Doesn't Fit the Timeline",
+     "nacht/Time with Lea"
+    ],
+    "jobs": 4,
+    "abgelehnt": [
+     "geben lola_vegemite: Sie hat heute schon ein Geschenk von dir bekommen.",
+     "geben lola_vegemite: Ein Glas Vegemite ist für jemand anderen gedacht – das spürt sie sofort."
+    ],
+    "kaempfe": 1
+   },
+   "3": {
+    "events": [
+     "fruehstueck/mg_tag3",
+     "tag/gv_ocean_glitter",
+     "nachmittag/gv_elsa_kiste",
+     "nacht/br_nacktbaden",
+     "nacht/fl_chiara_zehn"
+    ],
+    "szenen": [
+     "fruehstueck/Sunrise over Cala d'Orsu",
+     "fruehstueck/Time with Alva",
+     "tag/Cala d'Orsu",
+     "nachmittag/Time with Lola",
+     "dinner/The Second Plan",
+     "abend/Lola's First Meal in the Bay",
+     "nacht/A Safe Room"
+    ],
+    "jobs": 4,
+    "abgelehnt": [
+     "geben lola_vegemite: Ein Glas Vegemite ist für jemand anderen gedacht – das spürt sie sofort.",
+     "geben lola_vegemite: Ein Glas Vegemite ist für jemand anderen gedacht – das spürt sie sofort.",
+     "geben lola_vegemite: Ein Glas Vegemite ist für jemand anderen gedacht – das spürt sie sofort.",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job alva_kassenbuch: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job nets: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job radio_elsa: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job english_kids: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job drone: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_box: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job outboard: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job guest_breakfast: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_coldroom: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_papers: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_tasse_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_fund_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kast_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_gennaro_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_fueller_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job casanova_elsa_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_megan_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_lakritz: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job yasin_brille: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_sterne: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_arancini: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job casanova_buffet: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_gefallen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job megan_lieferkette: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "geben petru_tabak: Sie hat heute schon ein Geschenk von dir bekommen.",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort"
+    ],
+    "kaempfe": 0
+   },
+   "4": {
+    "events": [
+     "fruehstueck/mg_tag4",
+     "tag/fl_elsa_strafzettel",
+     "tag/hy_toto_spind",
+     "nachmittag/gv_elsa_roman",
+     "nacht/br_elsas_kontrolle",
+     "nacht/ab_lola_klopft"
+    ],
+    "szenen": [
+     "fruehstueck/Time with Siri",
+     "tag/Time with Chiara",
+     "nachmittag/Time with Rosi",
+     "dinner/Time with Siri",
+     "abend/Rosi vs. Officer",
+     "abend/I'm Coming Tomorrow",
+     "nacht/Time with Alva"
+    ],
+    "jobs": 3,
+    "abgelehnt": [
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "job yasin_brille: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_kassenbuch: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job nets: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job radio_elsa: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job english_kids: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job drone: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_box: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job outboard: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job guest_breakfast: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_coldroom: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_papers: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_photos: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job lola_tasse_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_fund_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kast_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_gennaro_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_fueller_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job casanova_elsa_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_megan_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_sterne: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_kapitel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job casanova_buffet: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_gefallen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_bleed: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort"
+    ],
+    "kaempfe": 0
+   },
+   "5": {
+    "events": [
+     "fruehstueck/mg_tag5",
+     "fruehstueck/fl_chiara_kragen",
+     "tag/du_harpune_chiara",
+     "nachmittag/g1_siri_tanz"
+    ],
+    "szenen": [
+     "fruehstueck/A Visit from Head Office",
+     "tag/The Inspection",
+     "nachmittag/Time with Sophia",
+     "dinner/Before the Storm",
+     "abend/A Quiet Phone Call",
+     "abend/Time with Siri",
+     "nacht/What You Hear in the Dark"
+    ],
+    "jobs": 3,
+    "abgelehnt": [
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "job nets: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_kassenbuch: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job radio_elsa: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job english_kids: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_box: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job outboard: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job guest_breakfast: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_coldroom: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_photos: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job lola_tasse_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_fund_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kast_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_gennaro_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_fueller_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job casanova_elsa_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_megan_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job yasin_brille: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_sterne: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_kapitel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job casanova_buffet: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_gefallen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort"
+    ],
+    "kaempfe": 0
+   },
+   "6": {
+    "events": [
+     "fruehstueck/mg_tag6",
+     "fruehstueck/hy_sophia_kaffee",
+     "tag/g1_elsa_schwimmwesten",
+     "nachmittag/gv_holm_baer",
+     "abend/g1_lola_delfin"
+    ],
+    "szenen": [
+     "fruehstueck/Time with Alva",
+     "tag/Time with Chiara",
+     "nachmittag/Time with Lola",
+     "dinner/Time with Alva",
+     "abend/Bonfire on the Beach",
+     "nacht/An Evening of Your Choosing"
+    ],
+    "jobs": 3,
+    "abgelehnt": [
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "job radio_elsa: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job nets: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job english_kids: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job drone: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job toto_box: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job outboard: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job guest_breakfast: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_coldroom: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_photos: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job lola_tasse_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job elsa_fund_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_gennaro_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_fueller_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job lola_megan_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job yasin_brille: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_sterne: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job sophia_kapitel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job toto_gefallen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_bleed: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort"
+    ],
+    "kaempfe": 0
+   },
+   "7": {
+    "events": [
+     "fruehstueck/mg_tag7"
+    ],
+    "szenen": [
+     "fruehstueck/Time with Siri",
+     "tag/The Hearing",
+     "tag/And You, First Officer?",
+     "tag/The Verdict",
+     "nachmittag/Time with Sophia",
+     "dinner/Time with Lola",
+     "abend/After the Verdict",
+     "nacht/Red Light in the Mountains"
+    ],
+    "jobs": 3,
+    "abgelehnt": [
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Du hast dieser Person heute schon etwas gegeben.",
+     "job elsa_fund_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_kassenbuch: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_ersatzbatterie: Dafür brauchst du: Ersatzzellen für die Hotelbatterie.",
+     "job outboard: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job guest_breakfast: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job chiara_coldroom: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lea_chain: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_photos: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job petru_schild_1: Dafür brauchst du: Ein altes Eichenbrett.",
+     "job lola_tasse_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_gennaro_1: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job siri_ratgeber_1: Dafür brauchst du: Rolle Netzgarn.",
+     "job sophia_kapitel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_paella_1: Dafür brauchst du: Echter Safran.",
+     "job toto_gefallen: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job alva_diesel: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job rosi_bleed: Keine Energie mehr - morgen ist ein neuer Tag (oder ein Espresso).",
+     "job lola_kast_2: Dafür brauchst du: Knochenleim im Topf.",
+     "job casanova_elsa_2: Dafür brauchst du: Buchbinder-Leinen.",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Pfeifentabak „Bastia Noir“ ist für jemand anderen gedacht – das spürt sie sofort",
+     "geben petru_tabak: Du hast dieser Person heute schon etwas gegeben."
+    ],
+    "kaempfe": 0
+   },
+   "8": {
+    "events": [],
+    "szenen": [],
+    "jobs": 0,
+    "abgelehnt": [],
+    "kaempfe": 0
+   }
+  },
+  "befund": {
+   "deutsch": [
+    [
+     "text | Sie freut sich über dieses Geschenk.",
+     902
+    ],
+    [
+     "text | Aus Lolas Kombüse. Selbst essen: Energie +1.",
+     811
+    ],
+    [
+     "eigenschaft | Standfest: Schutz +1, Verteidigen gibt Schutz +2, du wirst nie erschüttert.",
+     711
+    ],
+    [
+     "text | Die einzige Bar in Cala d'Orsu – und seit dem Dorfladen-Streit auch der einzige Laden. Alv",
+     682
+    ],
+    [
+     "text | Die Kombüse riecht nach Butter, Zucker und etwas, über das man nicht spricht. Ein Essen am",
+     682
+    ],
+    [
+     "text | Ersatzteile und Eden-Ware, bestellt per Videoanruf bei der Flottenmanagerin. Geliefert mit",
+     682
+    ],
+    [
+     "text | Rosis Werkstatt auf dem Unterdeck: Waffen und Jacken wechseln, Chips einsetzen, Ausrüstung",
+     682
+    ],
+    [
+     "wege[] | Rosi nimmt dich mit",
+     682
+    ],
+    [
+     "quelle_text | erzählt im Dorf",
+     646
+    ],
+    [
+     "fehlt | Die Werkstatt ist nach der Explosion noch kaputt.",
+     605
+    ],
+    [
+     "text | Bei Alva höchstens ein Kanister am Tag und teurer als bei Totò.",
+     476
+    ],
+    [
+     "label | Lolas Gewürzmischung „Ocean Glitter“",
+     460
+    ],
+    [
+     "text | Alva erzählt: „Siri? Bloß kein Dicke Goldkette (vermutlich echt). Glaub mir.“",
+     400
+    ],
+    [
+     "untertitel | Die letzte Charter-Nacht. Dann sieben Tage, die alles ändern.",
+     341
+    ],
+    [
+     "ziel | In sieben Tagen urteilt Megan an Bord: Finde heraus, wer den Ausfall ausgelöst hat.",
+     341
+    ],
+    [
+     "text | Ein abgeschlossener Spind im Lagerraum. Totò hat alles – fast. Preise je nach Draht zu ihm",
+     341
+    ],
+    [
+     "name | Lolas Kombüse",
+     341
+    ],
+    [
+     "label | Megans Manschettenknöpfe",
+     341
+    ],
+    [
+     "text | Schwarzer Onyx, ein goldener Anker. Ab Megans Vertrauen 3 im Eden-Shop.",
+     341
+    ],
+    [
+     "label | Kiste Champagner aus der Gästebar",
+     341
+    ],
+    [
+     "label | Ersatzpropeller des Beiboots",
+     341
+    ],
+    [
+     "label | Gäste-Bademäntel (sechs)",
+     341
+    ],
+    [
+     "text | Vietnamesische Nudelsuppe mit Krabben und Tomate.",
+     341
+    ],
+    [
+     "text | Karamellisierter Schweinebauch mit Ei, dazu Reis.",
+     341
+    ],
+    [
+     "text | Frische Reispapierrollen mit Garnelen und Kräutern.",
+     341
+    ],
+    [
+     "text | Die Brühe braucht Geduld. Rosi kennt Ramen aus ihren Manga.",
+     341
+    ],
+    [
+     "text | Zu scharf für eine seekranke Flottenmanagerin.",
+     341
+    ],
+    [
+     "text | Provenzalischer Fischtopf mit Rouille.",
+     341
+    ],
+    [
+     "text | Gedämpfte Hefebrötchen mit Schweinebauch. Lola: „Fluffy clouds, Boss.“",
+     341
+    ],
+    [
+     "text | Fisch unter Kartoffelhaube. Petru: „Hm.“ Das heißt: noch eins.",
+     341
+    ],
+    [
+     "text | Bratkartoffeln mit Wurst, Zwiebel, Spiegelei und Roter Bete.",
+     341
+    ],
+    [
+     "text | Norwegische Fischsuppe mit Lachs, Sahne und Dill.",
+     341
+    ],
+    [
+     "text | Das Einzige, was Megan auf See bei sich behält.",
+     341
+    ],
+    [
+     "text | Brot ist die schwerste Disziplin.",
+     341
+    ],
+    [
+     "name | die Crew",
+     341
+    ],
+    [
+     "info | Ladung der Batterien (0–10). Alles an Bord hängt daran: Kühlung, Wasser, Alarme. Am Tagese",
+     341
+    ],
+    [
+     "info | Treibstoff für Unit-01, den Notgenerator in Rosis Generatorraum (0–5, Start 2 Kanister). J",
+     341
+    ],
+    [
+     "info | Stimmung der Crew (0–5). Sinkt bei Strommangel, steigt durch gemeinsame Erfolge und Entspa",
+     341
+    ],
+    [
+     "label | Ruf im Dorf",
+     341
+    ],
+    [
+     "info | Wie das Dorf Cala d'Orsu über die Crew denkt (0–5). Jobs und Gefälligkeiten heben ihn; auf",
+     341
+    ]
+   ],
+   "ohne_bild": [
+    [
+     "/z/handel/ankauf[]/bild",
+     1364
+    ],
+    [
+     "/z/profile[]/bild",
+     341
+    ],
+    [
+     "/z/handel/jobs[]/bild",
+     121
+    ],
+    [
+     "/z/job_ergebnis/bild",
+     96
+    ],
+    [
+     "/z/szene/log[]/sprite",
+     3
+    ],
+    [
+     "/z/verhandlung/verdaechtige[]/sprite",
+     1
+    ]
+   ],
+   "fehler": [],
+   "fall": null,
+   "ende": {
+    "tag": 8,
+    "status": "ende"
+   },
+   "schritte": 341,
+   "anhoerung": {
+    "gespielt": true,
+    "angeklagt": "chiara",
+    "urteil": "falsch"
+   }
+  }
+ }
+]

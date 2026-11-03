@@ -1,0 +1,409 @@
+{
+ "id": "zutaten_annahme",
+ "titel": "Zutaten – Annahme-Liste (Main · Base · Flavour)",
+ "hinweis": "Je Zutat OK (behalten), Neu (ändern, mit Notiz was) oder leer. Status: im Spiel / geplant / Vorschlag. Main und Flavour sind Familien (jede Zutat der Familie zählt fürs Rezept), Base ist konkret. Bilder fehlen noch für Base, Garten und Gewürze. Rechts daneben: der lebende Fisch bzw. das Tier, aus dem die Zutat stammt.",
+ "items": [
+  {
+   "id": "sea_bass_roh",
+   "titel": "Sea Bass Fillets, raw — Main · White Fish",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\sea_bass_roh.webp",
+   "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 14 € · Bild: ja",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\sea_bass.png",
+   "vergleich_titel": "Fang: European Sea Bass"
+  },
+  {
+   "id": "gilt_head_bream_roh",
+   "titel": "Bream Fillets, raw — Main · White Fish",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\gilt_head_bream_roh.webp",
+   "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 13 € · Bild: ja",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\gilt_head_bream.png",
+   "vergleich_titel": "Fang: Gilt-head Bream"
+  },
+  {
+   "id": "red_mullet_roh",
+   "titel": "Red Mullet Fillets, raw — Main · White Fish",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\red_mullet_roh.webp",
+   "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 12 € · Bild: ja",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\red_mullet.png",
+   "vergleich_titel": "Fang: Red Mullet"
+  },
+  {
+   "id": "scorpionfish_roh",
+   "titel": "Rascasse for the Pot, raw — Main · White Fish",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\scorpionfish_roh.webp",
+   "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 15 € · Bild: ja",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\scorpionfish.png",
+   "vergleich_titel": "Fang: Scorpionfish"
+  },
+  {
+   "id": "perch_roh",
+   "titel": "Perch Fillets, raw — Main · White Fish",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\perch_roh.webp",
+   "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 11 € · Bild: ja",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\perch.png",
+   "vergleich_titel": "Fang: European Perch"
+  },
+  {
+   "id": "pike_roh",
+   "titel": "Pike Fillets, raw — Main · White Fish",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\pike_roh.webp",
+   "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 15 € · Bild: ja",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\pike.png",
+   "vergleich_titel": "Fang: Northern Pike"
+  },
+  {
+   "id": "zander_roh",
+   "titel": "Zander Fillets, raw — Main · White Fish",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\zander_roh.webp",
+   "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 17 € · Bild: ja",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\zander.png",
+   "vergleich_titel": "Fang: Zander"
+  },
+  {
+   "id": "tench_roh",
+   "titel": "Tench Fillets, raw — Main · White Fish",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\tench_roh.webp",
+   "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 9 € · Bild: ja",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\tench.png",
+   "vergleich_titel": "Fang: Tench"
+  },
+  {
+   "id": "barbel_roh",
+   "titel": "Barbel Fillets, raw — Main · White Fish",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\barbel_roh.webp",
+   "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 10 € · Bild: ja",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\barbel.png",
+   "vergleich_titel": "Fang: Barbel"
+  },
+  {
+   "id": "carp_roh",
+   "titel": "Carp Steaks, raw — Main · White Fish",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\carp_roh.webp",
+   "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 10 € · Bild: ja",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\carp.png",
+   "vergleich_titel": "Fang: Common Carp"
+  },
+  {
+   "id": "sardine_roh",
+   "titel": "Sardine Fillets, raw — Main · Oily Fish",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\sardine_roh.webp",
+   "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 6 € · Bild: ja",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\sardine.png",
+   "vergleich_titel": "Fang: Sardine"
+  },
+  {
+   "id": "little_tunny_roh",
+   "titel": "Tuna Steaks, raw — Main · Oily Fish",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\little_tunny_roh.webp",
+   "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 22 € · Bild: ja",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\little_tunny.png",
+   "vergleich_titel": "Fang: Little Tunny"
+  },
+  {
+   "id": "brown_trout_roh",
+   "titel": "Trout Fillets, raw — Main · Oily Fish",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\brown_trout_roh.webp",
+   "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 12 € · Bild: ja",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\brown_trout.png",
+   "vergleich_titel": "Fang: Mediterranean Trout"
+  },
+  {
+   "id": "eel_roh",
+   "titel": "Eel Pieces, raw — Main · Oily Fish",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\eel_roh.webp",
+   "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 16 € · Bild: ja",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\eel.png",
+   "vergleich_titel": "Fang: European Eel"
+  },
+  {
+   "id": "salmon_steak",
+   "titel": "Salmon Steaks, raw — Main · Oily Fish",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\salmon_steak.webp",
+   "soll": "im Spiel · Quelle: Nonna (Laden) · Preis 24 € · Bild: ja",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\salmon.png",
+   "vergleich_titel": "Fang: Atlantic Salmon (neu)"
+  },
+  {
+   "id": "red_prawn_roh",
+   "titel": "Peeled Red Prawns, raw — Main · Seafood",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\red_prawn_roh.webp",
+   "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 20 € · Bild: ja",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\red_prawn.png",
+   "vergleich_titel": "Fang: Red Prawn"
+  },
+  {
+   "id": "spiny_lobster_roh",
+   "titel": "Lobster Tail, raw — Main · Seafood",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\spiny_lobster_roh.webp",
+   "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 35 € · Bild: ja",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\spiny_lobster.png",
+   "vergleich_titel": "Fang: Spiny Lobster"
+  },
+  {
+   "id": "river_crayfish_roh",
+   "titel": "Crayfish Tails, raw — Main · Seafood",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\river_crayfish_roh.webp",
+   "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 14 € · Bild: ja",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\river_crayfish.png",
+   "vergleich_titel": "Fang: River Crayfish"
+  },
+  {
+   "id": "river_crab_roh",
+   "titel": "River Crab Meat, raw — Main · Seafood",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\river_crab_roh.webp",
+   "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 13 € · Bild: ja",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\river_crab.png",
+   "vergleich_titel": "Fang: River Crab"
+  },
+  {
+   "id": "cuttlefish_roh",
+   "titel": "Cuttlefish Strips, raw — Main · Seafood",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\cuttlefish_roh.webp",
+   "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 11 € · Bild: ja",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\cuttlefish.png",
+   "vergleich_titel": "Fang: Cuttlefish"
+  },
+  {
+   "id": "octopus_roh",
+   "titel": "Octopus Tentacle, raw — Main · Seafood",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\octopus_roh.webp",
+   "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 18 € · Bild: ja",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\octopus.png",
+   "vergleich_titel": "Fang: Common Octopus"
+  },
+  {
+   "id": "chicken_meat",
+   "titel": "Chicken — Main · Poultry",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\chicken_meat.webp",
+   "soll": "im Spiel · Quelle: Farm-Tiere · Preis 18 € · Bild: ja",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\tiere\\chicken_old_m.png",
+   "vergleich_titel": "Tier: Livorno-Hahn, alt"
+  },
+  {
+   "id": "pork",
+   "titel": "Pork — Main · Pork",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\pork.webp",
+   "soll": "im Spiel · Quelle: Farm-Tiere · Preis 28 € · Bild: ja",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\tiere\\pig_old_m.png",
+   "vergleich_titel": "Tier: Cinta Senese, alt"
+  },
+  {
+   "id": "beef",
+   "titel": "Beef — Main · Beef",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\beef.webp",
+   "soll": "im Spiel · Quelle: Farm-Tiere · Preis 45 € · Bild: ja",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\tiere\\cow_old_m.png",
+   "vergleich_titel": "Tier: Chianina-Bulle, alt"
+  },
+  {
+   "id": "eggs",
+   "titel": "Eggs — Main · Eggs",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\eggs.webp",
+   "soll": "im Spiel · Quelle: Farm-Tiere · Preis 6 € · Bild: ja",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\tiere\\chicken_adult_f.png",
+   "vergleich_titel": "Tier: Livorno-Henne"
+  },
+  {
+   "id": "zucchini",
+   "titel": "Zucchini — Main · Vegetables",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\zucchini.webp",
+   "soll": "im Spiel · Quelle: Nonnas Garten · Preis 4 € · Bild: noch keins"
+  },
+  {
+   "id": "cabbage",
+   "titel": "Cabbage — Main · Vegetables",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\cabbage.webp",
+   "soll": "im Spiel · Quelle: Nonnas Garten · Preis 3 € · Bild: noch keins"
+  },
+  {
+   "id": "truffle",
+   "titel": "Truffle — Main · Vegetables",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\truffle.webp",
+   "soll": "im Spiel · Quelle: Farm-Tiere · Preis 60 € · Bild: ja",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\tiere\\pig_adult_f.png",
+   "vergleich_titel": "Tier: Cinta Senese"
+  },
+  {
+   "id": "rice",
+   "titel": "Rice — Base",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\rice.webp",
+   "soll": "im Spiel · Quelle: Nonna (Laden) · Preis 4 € · Bild: noch keins"
+  },
+  {
+   "id": "noodles",
+   "titel": "Noodles — Base",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\noodles.webp",
+   "soll": "im Spiel · Quelle: Nonna (Laden) · Preis 5 € · Bild: noch keins"
+  },
+  {
+   "id": "flour",
+   "titel": "Flour — Base",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\flour.webp",
+   "soll": "im Spiel · Quelle: Nonna (Laden) · Preis 3 € · Bild: noch keins"
+  },
+  {
+   "id": "potatoes",
+   "titel": "Potatoes — Base",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\potatoes.webp",
+   "soll": "im Spiel · Quelle: Nonnas Garten · Preis 3 € · Bild: noch keins"
+  },
+  {
+   "id": "chilis",
+   "titel": "Chillies — Flavour · Heat (Crit chance +5 %)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\chilis.webp",
+   "soll": "im Spiel · Quelle: Nonnas Garten · Preis 4 € · Bild: noch keins"
+  },
+  {
+   "id": "wildkraeuter",
+   "titel": "Wild Herbs — Flavour · Herbs (Experience +10 %)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\wildkraeuter.webp",
+   "soll": "im Spiel · Quelle: Nonnas Garten · Preis 3 € · Bild: noch keins"
+  },
+  {
+   "id": "zitronen",
+   "titel": "Lemons — Flavour · Sour (Shop prices -10 %)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\zitronen.webp",
+   "soll": "im Spiel · Quelle: Nonna (Laden) · Preis 4 € · Bild: noch keins"
+  },
+  {
+   "id": "tomaten",
+   "titel": "Tomatoes — Flavour · Sour (Shop prices -10 %)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\tomaten.webp",
+   "soll": "im Spiel · Quelle: Nonnas Garten · Preis 4 € · Bild: noch keins"
+  },
+  {
+   "id": "knoblauch",
+   "titel": "Garlic — Flavour · Aromatic (Courage +1 in combat)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\knoblauch.webp",
+   "soll": "im Spiel · Quelle: Nonnas Garten · Preis 3 € · Bild: noch keins"
+  },
+  {
+   "id": "sojasauce",
+   "titel": "Soy Sauce — Flavour · Savoury (Sell prices +10 %)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\sojasauce.webp",
+   "soll": "im Spiel · Quelle: Nonna (Laden) · Preis 6 € · Bild: noch keins"
+  },
+  {
+   "id": "milk",
+   "titel": "Milk — Flavour · Creamy (Trust +1 with everyone at the table)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\milk.webp",
+   "soll": "im Spiel · Quelle: Farm-Tiere · Preis 8 € · Bild: ja",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\tiere\\cow_adult_f.png",
+   "vergleich_titel": "Tier: Chianina-Kuh"
+  },
+  {
+   "id": "tofu",
+   "titel": "Tofu — Main · Tofu",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\tofu.webp",
+   "soll": "geplant · Quelle: Händler in Akt 2 (Duc 27.10.) · Bild: noch keins"
+  },
+  {
+   "id": "mushrooms",
+   "titel": "Mushrooms — Main · Vegetables",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\mushrooms.webp",
+   "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Garten oder Macchia · Bild: noch keins"
+  },
+  {
+   "id": "aubergine",
+   "titel": "Aubergine — Main · Vegetables",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\aubergine.webp",
+   "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Garten · Bild: noch keins"
+  },
+  {
+   "id": "pumpkin",
+   "titel": "Pumpkin — Main · Vegetables",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\pumpkin.webp",
+   "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Garten · Bild: noch keins"
+  },
+  {
+   "id": "leek",
+   "titel": "Leek — Main · Vegetables",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\leek.webp",
+   "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Garten · Bild: noch keins"
+  },
+  {
+   "id": "beetroot",
+   "titel": "Beetroot — Main · Vegetables",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\beetroot.webp",
+   "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Garten (Holms Pyttipanne) · Bild: noch keins"
+  },
+  {
+   "id": "mussels",
+   "titel": "Mussels — Main · Seafood",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\mussels.webp",
+   "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Totò oder Alva · Bild: noch keins"
+  },
+  {
+   "id": "sausages",
+   "titel": "Sausages — Main · Pork",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\sausages.webp",
+   "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Schlachten oder Nonna (Holm) · Bild: noch keins"
+  },
+  {
+   "id": "wild_boar",
+   "titel": "Wild Boar — Main · Pork",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\wild_boar.webp",
+   "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Beute aus der Macchia (Keiler) · Bild: noch keins"
+  },
+  {
+   "id": "pasta",
+   "titel": "Pasta — Base",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\pasta.webp",
+   "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Nonna (Chiara) · Bild: noch keins"
+  },
+  {
+   "id": "rice_paper",
+   "titel": "Rice Paper — Base",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\rice_paper.webp",
+   "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Totò (Sophia) · Bild: noch keins"
+  },
+  {
+   "id": "onion",
+   "titel": "Onion — Flavour · Aromatic",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\onion.webp",
+   "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Garten (Holm) · Bild: noch keins"
+  },
+  {
+   "id": "saffron",
+   "titel": "Saffron — Flavour · Aromatic",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\saffron.webp",
+   "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Totò (Casanova) · Bild: noch keins"
+  },
+  {
+   "id": "bay_leaf",
+   "titel": "Bay Leaf — Flavour · Herbs",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\bay_leaf.webp",
+   "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Garten (Petru) · Bild: noch keins"
+  },
+  {
+   "id": "dill",
+   "titel": "Dill — Flavour · Herbs",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\dill.webp",
+   "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Garten (Siri) · Bild: noch keins"
+  },
+  {
+   "id": "fish_sauce",
+   "titel": "Fish Sauce — Flavour · Savoury",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\fish_sauce.webp",
+   "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Totò · Bild: noch keins"
+  },
+  {
+   "id": "butter",
+   "titel": "Butter — Flavour · Creamy",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\butter.webp",
+   "soll": "Vorschlag (noch nicht im Spiel) · Quelle: aus Milch (Elsa) · Bild: noch keins"
+  },
+  {
+   "id": "cream",
+   "titel": "Cream — Flavour · Creamy",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\cream.webp",
+   "soll": "Vorschlag (noch nicht im Spiel) · Quelle: aus Milch · Bild: noch keins"
+  },
+  {
+   "id": "vinegar",
+   "titel": "Vinegar — Flavour · Sour",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\vinegar.webp",
+   "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Nonna · Bild: noch keins"
+  }
+ ]
+}

@@ -1,0 +1,132 @@
+{
+ "YasinDrone/defeated": {
+  "urteil": "neu"
+ },
+ "YasinDrone/enraged": {
+  "urteil": "ok"
+ },
+ "YasinDrone/flee": {
+  "urteil": "neu"
+ },
+ "YasinDrone/attack": {
+  "notiz": "keine Pistole",
+  "urteil": "neu"
+ },
+ "YasinDrone/guard": {
+  "urteil": "ok"
+ },
+ "YasinDrone/heavy_attack": {
+  "urteil": "ok"
+ },
+ "YasinDrone/heavy_windup": {
+  "urteil": "ok"
+ },
+ "YasinDrone/hurt": {
+  "urteil": "ok"
+ },
+ "YasinDrone/idle": {
+  "urteil": "ok"
+ },
+ "YasinDrone/victory": {
+  "urteil": "ok"
+ },
+ "YasinDrone/surrender": {
+  "urteil": "ok",
+  "notiz": "joystick auf dem Boden Drohne Kaputt"
+ },
+ "YasinDrone/weakened": {
+  "urteil": "neu",
+  "notiz": "Drohne mit Sparks"
+ },
+ "YasinDrone/windup": {
+  "urteil": "neu"
+ },
+ "MaxwellSteward/attack": {
+  "notiz": "Er haut mit der Faust",
+  "urteil": "neu"
+ },
+ "MaxwellSteward/defeated": {
+  "urteil": "neu",
+  "notiz": "bitte hocke"
+ },
+ "MaxwellSteward/enraged": {
+  "urteil": "ok"
+ },
+ "MaxwellSteward/flee": {
+  "urteil": "ok"
+ },
+ "MaxwellSteward/guard": {
+  "urteil": "ok"
+ },
+ "MaxwellSteward/heavy_attack": {
+  "urteil": "ok"
+ },
+ "MaxwellSteward/heavy_windup": {
+  "urteil": "neu"
+ },
+ "MaxwellSteward/hurt": {
+  "urteil": "ok"
+ },
+ "MaxwellSteward/idle": {
+  "urteil": "ok"
+ },
+ "MaxwellSteward/surrender": {
+  "urteil": "ok"
+ },
+ "MaxwellSteward/victory": {
+  "urteil": "ok"
+ },
+ "MaxwellSteward/windup": {
+  "urteil": "ok"
+ },
+ "MaxwellSteward/weakened": {
+  "urteil": "ok"
+ },
+ "Alon/attack": {
+  "urteil": "ok"
+ },
+ "Alon/flee": {
+  "urteil": "ok"
+ },
+ "Alon/enraged": {
+  "urteil": "ok"
+ },
+ "Alon/defeated": {
+  "urteil": "ok"
+ },
+ "Alon/guard": {
+  "urteil": "ok"
+ },
+ "Alon/heavy_attack": {
+  "urteil": "ok"
+ },
+ "Alon/heavy_windup": {
+  "urteil": "ok"
+ },
+ "Alon/surrender": {
+  "urteil": "neu",
+  "notiz": "kein lachen"
+ },
+ "Alon/idle": {
+  "urteil": "ok"
+ },
+ "Alon/hurt": {
+  "urteil": "ok"
+ },
+ "Alon/victory": {
+  "urteil": "ok"
+ },
+ "Alon/weakened": {
+  "notiz": "kein lachen",
+  "urteil": "neu"
+ },
+ "Alon/windup": {
+  "urteil": "neu"
+ },
+ "BruteAlpha/defeated": {
+  "urteil": "neu"
+ },
+ "AgentAlpha/defeated": {
+  "urteil": "neu"
+ }
+}

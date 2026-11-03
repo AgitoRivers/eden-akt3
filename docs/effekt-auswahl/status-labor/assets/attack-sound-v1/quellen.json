@@ -1,0 +1,230 @@
+{
+  "sources": {
+    "afterburn": {
+      "file": "assets/attack-sound-v1/afterburn.ogg",
+      "duration": 6.0,
+      "sha256": "95846713610880bb32977c1c69d276dad7fdda498ec4814a783fac7512e0ac41",
+      "approval": "freigabe-nacharbeit-runde4.json",
+      "original_file": "soundlabor/audio/nacharbeit-v4/afterburn-D.ogg"
+    },
+    "blade_slash": {
+      "file": "assets/attack-sound-v1/blade_slash.ogg",
+      "duration": 1.28,
+      "sha256": "a39dc3e0d4bb2a5ced19020bb860c46ffb2016da32749476f56301705d232e38",
+      "approval": "freigabe-sounds.json",
+      "original_file": "soundlabor/audio/blade_slash-D.ogg"
+    },
+    "breaking_wave": {
+      "file": "assets/attack-sound-v1/breaking_wave.ogg",
+      "duration": 3.0,
+      "sha256": "3bf19e907d52733238a1d71bbfe85cd8eaa92b8ea3a63d1e976c4bafde11f507",
+      "approval": "freigabe-sounds.json",
+      "original_file": "soundlabor/audio/breaking_wave-B.ogg"
+    },
+    "compact_hit_A": {
+      "file": "assets/attack-sound-v1/compact_hit_A.ogg",
+      "duration": 0.632438,
+      "sha256": "c58aad2c8520f120b0797300119d041ee957910142a34072bfa785dc75e29360",
+      "approval": "freigabe-nacharbeit-runde4.json",
+      "original_file": "soundlabor/audio/nacharbeit-v4/compact_hit-A.ogg"
+    },
+    "compact_hit_D": {
+      "file": "assets/attack-sound-v1/compact_hit_D.ogg",
+      "duration": 0.64,
+      "sha256": "663ecfa3460b45c791eaf744d3f7fb55105fb9ce4588369fed0db9c16fa969de",
+      "approval": "freigabe-nacharbeit-runde4.json",
+      "original_file": "soundlabor/audio/nacharbeit-v4/compact_hit-D.ogg"
+    },
+    "debris": {
+      "file": "assets/attack-sound-v1/debris.ogg",
+      "duration": 2.536521,
+      "sha256": "f1ff450c6c26ae395bceb2d0a97049439d542b7a7f33d6257ac5cb432001be22",
+      "approval": "freigabe-nacharbeit-runde4.json",
+      "original_file": "soundlabor/audio/nacharbeit-v4/debris-D.ogg"
+    },
+    "ember_charge": {
+      "file": "assets/attack-sound-v1/ember_charge.ogg",
+      "duration": 3.2,
+      "sha256": "85afda99a6701b941be04677701e56eb5cd927c2c23097b6dde7ba6d78c46ba8",
+      "approval": "freigabe-sounds.json",
+      "original_file": "soundlabor/audio/ember_charge-B.ogg"
+    },
+    "fire_slash": {
+      "file": "assets/attack-sound-v1/fire_slash.ogg",
+      "duration": 1.28,
+      "sha256": "211aebe1c8fd0933dc2e9a7ad26f052c2afe9f4deaf65cc4e4a71324dc9573c9",
+      "approval": "freigabe-sounds.json",
+      "original_file": "soundlabor/audio/fire_slash-B.ogg"
+    },
+    "fire_whip": {
+      "file": "assets/attack-sound-v1/fire_whip.ogg",
+      "duration": 1.6,
+      "sha256": "192786b884f3097c13b7aca0c2024418ac526a43fe4145500e7a0d9abb4b7a78",
+      "approval": "freigabe-sounds.json",
+      "original_file": "soundlabor/audio/fire_whip-D.ogg"
+    },
+    "fireball_flight": {
+      "file": "assets/attack-sound-v1/fireball_flight.ogg",
+      "duration": 1.36,
+      "sha256": "f06680d221840d27e223d2942cfeb7d839b9ad1819e33057e52a9de0f79af3ae",
+      "approval": "freigabe-sounds.json",
+      "original_file": "soundlabor/audio/fireball_flight-C.ogg"
+    },
+    "firestorm": {
+      "file": "assets/attack-sound-v1/firestorm.ogg",
+      "duration": 3.48,
+      "sha256": "9d1039bc9e6cdbc442722ff3b5bb611803545a283340e8762e2b968db348768e",
+      "approval": "freigabe-sounds.json",
+      "original_file": "soundlabor/audio/firestorm-D.ogg"
+    },
+    "focus_lock": {
+      "file": "assets/attack-sound-v1/focus_lock.ogg",
+      "duration": 2.199979,
+      "sha256": "c4a900894686002fa1c488a46578e751239b0a509a92db8489c2956a8597ac9d",
+      "approval": "freigabe-nacharbeit-runde4.json",
+      "original_file": "soundlabor/audio/nacharbeit-v4/focus_lock-D.ogg"
+    },
+    "heavy_hit": {
+      "file": "assets/attack-sound-v1/heavy_hit.ogg",
+      "duration": 1.36,
+      "sha256": "1154a957a5f466943ef748903137980f4c4f7b9dd5f4e7b5b42042165b278b00",
+      "approval": "freigabe-sounds.json",
+      "original_file": "soundlabor/audio/heavy_hit-D.ogg"
+    },
+    "ice_dust": {
+      "file": "assets/attack-sound-v1/ice_dust.ogg",
+      "duration": 3.0,
+      "sha256": "22edcccd44df991ad8a03693a04bb719e7063b0ac01873383ce4ce7e852c3b08",
+      "approval": "freigabe-sounds.json",
+      "original_file": "soundlabor/audio/ice_dust-D.ogg"
+    },
+    "light_flash": {
+      "file": "assets/attack-sound-v1/light_flash.ogg",
+      "duration": 1.05,
+      "sha256": "644181c8a90d0f889e6d536267239997c0bcc80d89faa967a655aeb03a56133e",
+      "approval": "freigabe-nacharbeit-runde2.json",
+      "original_file": "soundlabor/audio/nacharbeit-v1/light_flash-new-C.ogg"
+    },
+    "pressure_body": {
+      "file": "assets/attack-sound-v1/pressure_body.ogg",
+      "duration": 1.08,
+      "sha256": "8ddfdea548807b002e874ed915aa02fbd08c18970b9588e313e3a10a5e361aa8",
+      "approval": "freigabe-sounds.json",
+      "original_file": "soundlabor/audio/pressure_body-D.ogg"
+    },
+    "shadow_charge": {
+      "file": "assets/attack-sound-v1/shadow_charge.ogg",
+      "duration": 3.2,
+      "sha256": "bb26e96a278a54740d530fe0de15e2e26463c75cff20ab5a838c8a2771ff0b5b",
+      "approval": "freigabe-sounds.json",
+      "original_file": "soundlabor/audio/shadow_charge-v2-D.ogg"
+    },
+    "shadow_vanish": {
+      "file": "assets/attack-sound-v1/shadow_vanish.ogg",
+      "duration": 1.2,
+      "sha256": "f92376d38e7366d8fbd9a6dc09583d1f9beea5c01fb987fec0b693ad7e2c7870",
+      "approval": "freigabe-sounds.json",
+      "original_file": "soundlabor/audio/shadow_vanish-B.ogg"
+    },
+    "smoke_shock": {
+      "file": "assets/attack-sound-v1/smoke_shock.ogg",
+      "duration": 2.28,
+      "sha256": "09f263451eedec0ffc0aa27710128627255421dc07ec2cd0dc59e9e3ea6e1256",
+      "approval": "freigabe-sounds.json",
+      "original_file": "soundlabor/audio/smoke_shock-D.ogg"
+    },
+    "sound_charge": {
+      "file": "assets/attack-sound-v1/sound_charge.ogg",
+      "duration": 3.25,
+      "sha256": "49de8fb9f4cd71fa48805a16c58cd36eb679b071dbcc14c4b4feb7dc0b5aab09",
+      "approval": "freigabe-nacharbeit-runde3.json",
+      "original_file": "soundlabor/audio/nacharbeit-v3/sound_charge-r3-A.ogg"
+    },
+    "sound_release": {
+      "file": "assets/attack-sound-v1/sound_release.ogg",
+      "duration": 1.2,
+      "sha256": "8fe14f96e9df1fccc62c96542bb047c1907cfc87da56f8b0f3672c33672a9cb5",
+      "approval": "freigabe-nacharbeit-runde3.json",
+      "original_file": "soundlabor/audio/nacharbeit-v3/sound_release-r3-A.ogg"
+    },
+    "sound_tail": {
+      "file": "assets/attack-sound-v1/sound_tail.ogg",
+      "duration": 1.76,
+      "sha256": "704f5611eb32bdce0e2abb5f7cfc5cdeab7e9937ca4e30ceb20c0f67316db46b",
+      "approval": "freigabe-sounds.json",
+      "original_file": "soundlabor/audio/sound_tail-C.ogg"
+    },
+    "spray_tail": {
+      "file": "assets/attack-sound-v1/spray_tail.ogg",
+      "duration": 3.2,
+      "sha256": "f646bf16d5e73588d1799c7ffe887f73b74d7bd4709d5a27c4e8d1dec132a76e",
+      "approval": "freigabe-sounds.json",
+      "original_file": "soundlabor/audio/spray_tail-B.ogg"
+    },
+    "star_burst": {
+      "file": "assets/attack-sound-v1/star_burst.ogg",
+      "duration": 2.4,
+      "sha256": "28d43e5ce1b1f59a4f5069d425390b3c011c881d5e2441202afec3f80e16c48a",
+      "approval": "freigabe-sounds.json",
+      "original_file": "soundlabor/audio/star_burst-A.ogg"
+    },
+    "star_fall": {
+      "file": "assets/attack-sound-v1/star_fall.ogg",
+      "duration": 2.2,
+      "sha256": "7d4031a1554967bc896fd62e3a4c2f42026863c7e2b57d8bc4dc076b571fc7cb",
+      "approval": "freigabe-nacharbeit-runde2.json",
+      "original_file": "soundlabor/audio/nacharbeit-v1/star_fall-new-B.ogg"
+    },
+    "water_gather": {
+      "file": "assets/attack-sound-v1/water_gather.ogg",
+      "duration": 3.2,
+      "sha256": "7481d9fda0392701388a8bfc3d6bccaf26311914de5ff078e2b0d455af43ba69",
+      "approval": "freigabe-sounds.json",
+      "original_file": "soundlabor/audio/water_gather-A.ogg"
+    },
+    "water_jet": {
+      "file": "assets/attack-sound-v1/water_jet.ogg",
+      "duration": 3.76,
+      "sha256": "8bdfdae7acc5a781208b1044cddd354a13b501c1b69bbea305b85b4b9560f367",
+      "approval": "freigabe-nacharbeit-runde3.json",
+      "original_file": "soundlabor/audio/nacharbeit-v3/water_jet-r3-D.ogg"
+    },
+    "water_shield": {
+      "file": "assets/attack-sound-v1/water_shield.ogg",
+      "duration": 3.48,
+      "sha256": "1dd9b84602517992c23ee0295426b128ad7083679bd218b8f9c305929f0951c3",
+      "approval": "freigabe-sounds.json",
+      "original_file": "soundlabor/audio/water_shield-A.ogg"
+    },
+    "wind_armor": {
+      "file": "assets/attack-sound-v1/wind_armor.ogg",
+      "duration": 3.48,
+      "sha256": "3f37a802f48db80b5f14c339e1a39b5de4de2e1bf87a52f433860dfb9b47090c",
+      "approval": "freigabe-sounds.json",
+      "original_file": "soundlabor/audio/wind_armor-B.ogg"
+    },
+    "wind_gust": {
+      "file": "assets/attack-sound-v1/wind_gust.ogg",
+      "duration": 2.6,
+      "sha256": "198d4822ea25def13fa22f24de2a19d537fdb9a4a3b102380d483e843b669faa",
+      "approval": "freigabe-nacharbeit-runde2.json",
+      "original_file": "soundlabor/audio/nacharbeit-v1/wind_gust-new-A.ogg"
+    },
+    "wind_vortex": {
+      "file": "assets/attack-sound-v1/wind_vortex.ogg",
+      "duration": 3.0,
+      "sha256": "ceb655591832b8ba5a915317f52d7a5469bfa85a9fd40db333b5921f889aca92",
+      "approval": "freigabe-sounds.json",
+      "original_file": "soundlabor/audio/wind_vortex-D.ogg"
+    },
+    "wind_windup": {
+      "file": "assets/attack-sound-v1/wind_windup.ogg",
+      "duration": 2.56,
+      "sha256": "932f014e29290db4b54037a633747833d8ff4654940d4907b5a2cdd56d3573be",
+      "approval": "freigabe-sounds.json",
+      "original_file": "soundlabor/audio/wind_windup-A.ogg"
+    }
+  },
+  "no_new_generation": true,
+  "notes": "Exact copies of Duc-approved audio. Latest round wins; compact hit alternates A/D. No unapproved sound-v1/v2 mixes used."
+}

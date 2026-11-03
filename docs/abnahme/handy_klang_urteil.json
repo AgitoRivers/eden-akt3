@@ -1,0 +1,66 @@
+{
+ "chat_empfang": {
+  "wahl": [
+   2
+  ],
+  "keiner": false,
+  "notiz": ""
+ },
+ "benachrichtigung": {
+  "wahl": [
+   0
+  ],
+  "keiner": false,
+  "notiz": ""
+ },
+ "senden": {
+  "wahl": [
+   0
+  ],
+  "keiner": false,
+  "notiz": ""
+ },
+ "herz": {
+  "wahl": [
+   2
+  ],
+  "keiner": false,
+  "notiz": ""
+ },
+ "klingeln": {
+  "wahl": [
+   2
+  ],
+  "keiner": false,
+  "notiz": "auf 4 sec kürzen"
+ },
+ "verbinden": {
+  "wahl": [
+   1
+  ],
+  "keiner": false,
+  "notiz": ""
+ },
+ "auflegen": {
+  "wahl": [
+   0
+  ],
+  "keiner": false,
+  "notiz": "kürzen auf 2 sec"
+ },
+ "verpasst": {
+  "wahl": [
+   0
+  ],
+  "keiner": false,
+  "notiz": ""
+ },
+ "nacht": {
+  "wahl": [
+   0
+  ],
+  "keiner": false,
+  "notiz": ""
+ },
+ "_stand": "2026-11-03 17:58:53"
+}

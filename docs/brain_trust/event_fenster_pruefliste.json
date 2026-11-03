@@ -1,0 +1,4804 @@
+[
+ {
+  "id": "br_lolas_notvorrat",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   2,
+   2
+  ],
+  "titel": "Lola's Emergency Stash",
+  "wer": "rosi, chiara, toto",
+  "bedingung": false,
+  "topf": "anpassen",
+  "grund": "Strom/Diesel (power)"
+ },
+ {
+  "id": "br_drei_minuten",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   2,
+   5
+  ],
+  "titel": "Three Minutes of Water",
+  "wer": "sophia, chiara, siri",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "br_gaestekabinen",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   2,
+   4
+  ],
+  "titel": "The Guest Cabins",
+  "wer": "chiara, sophia, siri",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "br_yasins_angebot",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   2,
+   5
+  ],
+  "titel": "Yasin's Offer",
+  "wer": "sophia, yasin, chiara",
+  "bedingung": true,
+  "topf": "anpassen",
+  "grund": "festgesetzt (stranded)"
+ },
+ {
+  "id": "br_festa_auftritt",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   3,
+   4
+  ],
+  "titel": "The Crew as a Festa Attraction",
+  "wer": "rosi, lea, chiara",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "br_nachtwache",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Who Keeps Watch?",
+  "wer": "chiara, rosi, lea",
+  "bedingung": false,
+  "topf": "anpassen",
+  "grund": "erste Tage (since we got here)"
+ },
+ {
+  "id": "br_petrus_boot",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   2,
+   5
+  ],
+  "titel": "Petru's Morning Catch",
+  "wer": "lea, rosi",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "br_elsas_kontrolle",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Elsa Comes Tomorrow",
+  "wer": "sophia, toto, chiara",
+  "bedingung": false,
+  "topf": "anpassen",
+  "grund": "Inspektion (comes tomorrow, ferrandi inspects us tomorrow, inspection)"
+ },
+ {
+  "id": "br_dorfkinder",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "The Village Kids",
+  "wer": "lea, chiara, siri",
+  "bedingung": false,
+  "topf": "anpassen",
+  "grund": "Strom/Diesel (power)"
+ },
+ {
+  "id": "br_siris_geburtstag",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Siri's Birthday",
+  "wer": "lola, sophia, yasin",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "br_crew_kasse",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Yacht Stuff for the Crew Fund?",
+  "wer": "sophia, toto, chiara",
+  "bedingung": false,
+  "topf": "anpassen",
+  "grund": "Ultimatum/Frist (a week)"
+ },
+ {
+  "id": "br_lola_krank",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Who Cooks Tomorrow?",
+  "wer": "chiara, rosi, sophia",
+  "bedingung": false,
+  "topf": "anpassen",
+  "grund": "Feuer/Blackout frisch (burnt)"
+ },
+ {
+  "id": "br_kevin_nest",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Kevin Builds a Nest",
+  "wer": "rosi, lea, toto",
+  "bedingung": true,
+  "topf": "bleibt_akt1",
+  "grund": "Strom/Diesel in den Folgen"
+ },
+ {
+  "id": "br_singen_ohne_strom",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Singing Without Power",
+  "wer": "lola, siri, yasin",
+  "bedingung": false,
+  "topf": "anpassen",
+  "grund": "Strom/Diesel (power)"
+ },
+ {
+  "id": "br_ein_tisch",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   2,
+   5
+  ],
+  "titel": "One Table for Everyone",
+  "wer": "sophia, chiara, lola",
+  "bedingung": false,
+  "topf": "anpassen",
+  "grund": "festgesetzt (stranded); Ultimatum/Frist (a week)"
+ },
+ {
+  "id": "br_megan_kommt",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   4,
+   4
+  ],
+  "titel": "The Boss Is Coming",
+  "wer": "chiara, rosi",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "br_nacktbaden",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Skinny Dipping, with Consequences",
+  "wer": "sophia, lea, chiara",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "br_rosi_ueberstunden",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Rosi Works Too Much",
+  "wer": "sophia, rosi, chiara",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "br_netze_flicken",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Petru's Price",
+  "wer": "lea, rosi",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "br_siri_umzug",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Siri Wants to Move",
+  "wer": "sophia, siri, yasin",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "br_trinkgeld",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "An Envelope for Lea",
+  "wer": "lea, toto",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "br_investoren_dinner",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   5,
+   5
+  ],
+  "titel": "Megan's Investor Dinner",
+  "wer": "sophia, megan, chiara",
+  "bedingung": true,
+  "topf": "anpassen",
+  "grund": "festgesetzt (stranded)"
+ },
+ {
+  "id": "br_abschiedsfest",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   6,
+   6
+  ],
+  "titel": "One Last Night",
+  "wer": "lola, chiara",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "hy_lola_tresen",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Lola Dances on the Bar",
+  "wer": "alva",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "hy_sophia_0213",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "02:13",
+  "wer": "sophia",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "hy_holm_krankenhaus",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   3
+  ],
+  "titel": "Holm Calls from the Hospital",
+  "wer": "holm",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "hy_holm_nacht",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Holm Can't Sleep",
+  "wer": "holm",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "hy_megan_mitternacht",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   3,
+   4
+  ],
+  "titel": "Megan at 23:40",
+  "wer": "megan",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "hy_megan_feuern",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   3,
+   4
+  ],
+  "titel": "Megan Wants to Fire Someone",
+  "wer": "megan",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "hy_elsa_vorwarnung",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Elsa's Warning",
+  "wer": "elsa",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "hy_elsa_segler",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "A Drifting Sailboat",
+  "wer": "elsa",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "hy_cousin_falsch",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Wrong Number from Bastia",
+  "wer": "toto",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "hy_lola_ziege",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Lola Got Lost",
+  "wer": "lola",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "hy_rosi_foto",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Rosi's Photo",
+  "wer": "rosi",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "hy_lea_plankton",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "The Glowing Sea",
+  "wer": "lea",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "hy_siri_ungeschminkt",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Siri Without a Filter",
+  "wer": "siri",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "hy_megan_rundgang",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   3,
+   4
+  ],
+  "titel": "A Live Tour for Megan",
+  "wer": "megan",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "hy_alva_diesel_tanz",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "A Canister for a Dance",
+  "wer": "alva",
+  "bedingung": true,
+  "topf": "bleibt_akt1",
+  "grund": "Strom/Diesel in den Folgen"
+ },
+ {
+  "id": "hy_sophia_kaffee",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Sophia's Hint",
+  "wer": "sophia",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "hy_lola_koster",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Taster Wanted",
+  "wer": "lola",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "hy_holm_letzter_anruf",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   6,
+   6
+  ],
+  "titel": "“She's Your Boat.”",
+  "wer": "holm",
+  "bedingung": true,
+  "topf": "anpassen",
+  "grund": "Anhörung (hearing)"
+ },
+ {
+  "id": "hy_megan_wrong_chat",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   4,
+   6
+  ],
+  "titel": "Wrong Chat",
+  "wer": "megan",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "hy_toto_spind",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "A Break-In at Totò's Locker",
+  "wer": "toto",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "g1_pfannkuchen",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   2,
+   5
+  ],
+  "titel": "Pancake Portraits",
+  "wer": "lola",
+  "bedingung": false,
+  "topf": "anpassen",
+  "grund": "Feuer/Blackout frisch (burnt)"
+ },
+ {
+  "id": "g1_drohne",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   4
+  ],
+  "titel": "Megan's Drone",
+  "wer": "megan",
+  "bedingung": true,
+  "topf": "anpassen",
+  "grund": "Inspektion (inspection)"
+ },
+ {
+  "id": "g1_reissverschluss",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "The Zip",
+  "wer": "rosi",
+  "bedingung": true,
+  "topf": "anpassen",
+  "grund": "Strom/Diesel (generator)"
+ },
+ {
+  "id": "g1_unit01_klonk",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   2,
+   5
+  ],
+  "titel": "Rosi vs. Unit-01",
+  "wer": "rosi",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "g1_unit01_staendchen",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "A Serenade for Unit-01",
+  "wer": "rosi",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "g1_kevin_butter",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   2,
+   4
+  ],
+  "titel": "Lea Feeds the Seagull",
+  "wer": "lea",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "g1_blaskapelle",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   5
+  ],
+  "titel": "Casanova's Brass Band",
+  "wer": "casanova",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "g1_fiona_muetze",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Fiona Eats a Cap",
+  "wer": "toto",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "g1_siri_tanz",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Siri Teaches Everyone a Dance",
+  "wer": "siri",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "g1_chiara_inspektion",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "White Glove Inspection",
+  "wer": "chiara",
+  "bedingung": false,
+  "topf": "anpassen",
+  "grund": "Inspektion (inspection)"
+ },
+ {
+  "id": "g1_toto_pizza",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "The Pizza War",
+  "wer": "toto",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "g1_yasin_geste",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   5
+  ],
+  "titel": "Yasin's Grand Gesture",
+  "wer": "yasin",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "g1_elsa_schwimmwesten",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Elsa and the Life Jackets",
+  "wer": "elsa",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "g1_petru_fisch",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Petru's Tuna",
+  "wer": "petru",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "g1_chiara_tender",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   2,
+   3
+  ],
+  "titel": "Chiara's Tender Test",
+  "wer": "chiara",
+  "bedingung": false,
+  "topf": "anpassen",
+  "grund": "erste Tage (first day)"
+ },
+ {
+  "id": "g1_holm_kaffee",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   2,
+   2
+  ],
+  "titel": "A Coffee with Holm",
+  "wer": "holm",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "g1_kalte_dusche",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "The Cold Shower",
+  "wer": "rosi",
+  "bedingung": false,
+  "topf": "bleibt_akt1",
+  "grund": "Strom/Diesel in den Folgen"
+ },
+ {
+  "id": "g1_chiara_pause",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Chiara Takes a Break",
+  "wer": "chiara",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "g1_siri_pullover",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Siri in a Jumper",
+  "wer": "siri",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "g1_sophia_liest_vor",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "A Page from Sophia's Notebook",
+  "wer": "sophia",
+  "bedingung": false,
+  "topf": "anpassen",
+  "grund": "festgesetzt (stranded)"
+ },
+ {
+  "id": "g1_helikopter",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   5,
+   5
+  ],
+  "titel": "Megan Lands",
+  "wer": "megan",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "g1_megan_schach",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   5,
+   6
+  ],
+  "titel": "Megan Challenges You",
+  "wer": "megan",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "g1_cousin_schlauchboot",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "The Cousin Comes at Night",
+  "wer": "toto",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "g1_katerfruehstueck",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Hangover Breakfast",
+  "wer": "lola",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "casanova_saufeder",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Le Large",
+  "wer": "casanova",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "gv_ocean_glitter",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Order in the Galley",
+  "wer": "chiara, lola",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "gv_strip_poker",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   4,
+   6
+  ],
+  "titel": "Strip Poker for a Canister",
+  "wer": "alva, sophia",
+  "bedingung": true,
+  "topf": "anpassen",
+  "grund": "Strom/Diesel (diesel)"
+ },
+ {
+  "id": "gv_kevin_auktion",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Who Gets Kevin?",
+  "wer": "lea, toto",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "gv_wer_fuehrt",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Who's in Charge Below Deck?",
+  "wer": "chiara, rosi",
+  "bedingung": false,
+  "topf": "anpassen",
+  "grund": "Strom/Diesel (charge)"
+ },
+ {
+  "id": "gv_siri_yasin",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Siri vs. Yasin",
+  "wer": "siri, yasin",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "gv_arancini_duell",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "The Arancini Duel",
+  "wer": "lola, alva",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "gv_megan_sophia",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   5,
+   6
+  ],
+  "titel": "Sophia Negotiates with Megan",
+  "wer": "sophia, megan",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "gv_toto_elsa",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Totò Defends His Locker",
+  "wer": "toto, elsa",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "gv_casanova_chiara",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   3,
+   4
+  ],
+  "titel": "The Mayor Wants to Come Aboard",
+  "wer": "casanova, chiara",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "gv_armdruecken",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Arm Wrestling in the Mess",
+  "wer": "rosi, toto",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "gv_aussenborder",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Petru vs. Rosi",
+  "wer": "petru, rosi",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "gv_oktopus",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "The Octopus",
+  "wer": "lea, siri",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "gv_casanova_alva",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   3,
+   5
+  ],
+  "titel": "The VIP Lounge",
+  "wer": "casanova, alva",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "gv_megan_chiara",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   5,
+   6
+  ],
+  "titel": "Megan's Inspection",
+  "wer": "megan, chiara",
+  "bedingung": true,
+  "topf": "anpassen",
+  "grund": "Inspektion (inspection); Strom/Diesel (power)"
+ },
+ {
+  "id": "gv_keks",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   5,
+   6
+  ],
+  "titel": "Megan and the Cookie",
+  "wer": "lola, megan",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "gv_versoehnung",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Peace Cake",
+  "wer": "lea, rosi",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "gv_elsa_alva",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Diesel Under the Bar",
+  "wer": "elsa, alva",
+  "bedingung": false,
+  "topf": "bleibt_akt1",
+  "grund": "Strom/Diesel in den Folgen"
+ },
+ {
+  "id": "gv_dienstplan",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "The Rota",
+  "wer": "chiara, sophia",
+  "bedingung": false,
+  "topf": "anpassen",
+  "grund": "Inspektion (inspection); Anhörung (hearing); Ultimatum/Frist (a week)"
+ },
+ {
+  "id": "gv_trinkgeld_topf",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "The Tip Jar",
+  "wer": "lola, rosi",
+  "bedingung": false,
+  "topf": "anpassen",
+  "grund": "Strom/Diesel (fuel)"
+ },
+ {
+  "id": "gv_musik_nachts",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "After Midnight",
+  "wer": "lea, chiara",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "gv_gute_kabine",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "The Good Cabin",
+  "wer": "sophia, lola",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "gv_ruhetag",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   4,
+   6
+  ],
+  "titel": "Sunday",
+  "wer": "rosi, lea",
+  "bedingung": false,
+  "topf": "anpassen",
+  "grund": "Strom/Diesel (batteries, generator)"
+ },
+ {
+  "id": "gv_einkaufsliste",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Lola's Shopping List",
+  "wer": "lola, chiara",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "ab_lola_klopft",
+  "gruppe": "Abend/Funke",
+  "art": "abend",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "A Knock at the Cabin",
+  "wer": "lola",
+  "bedingung": true,
+  "topf": "anpassen",
+  "grund": "Feuer/Blackout frisch (smoke)"
+ },
+ {
+  "id": "ab_lola_handy",
+  "gruppe": "Abend/Funke",
+  "art": "abend",
+  "tage": [
+   4,
+   6
+  ],
+  "titel": "Lola Texts: “You Awake?”",
+  "wer": "lola",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "ab_alva_barabend",
+  "gruppe": "Abend/Funke",
+  "art": "abend",
+  "tage": [
+   4,
+   6
+  ],
+  "titel": "After Hours at Alva's",
+  "wer": "alva",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "ab_alva_handy",
+  "gruppe": "Abend/Funke",
+  "art": "abend",
+  "tage": [
+   5,
+   6
+  ],
+  "titel": "Alva Calls: “Come Over.”",
+  "wer": "alva",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "du_koch_lola",
+  "gruppe": "Duell",
+  "art": "duell",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Cook-Off: The Galley",
+  "wer": "lola",
+  "bedingung": false,
+  "topf": "anpassen",
+  "grund": "Ultimatum/Frist (a week)"
+ },
+ {
+  "id": "du_koch_alva",
+  "gruppe": "Duell",
+  "art": "duell",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Cook-Off: Corsica vs. Saigon",
+  "wer": "alva",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "du_koch_toto",
+  "gruppe": "Duell",
+  "art": "duell",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Cook-Off: Ragù vs. Thịt Kho",
+  "wer": "toto",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "br_lola_flach",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Lola's Down: You Cook for Thirteen",
+  "wer": "chiara, rosi, sophia",
+  "bedingung": false,
+  "topf": "bleibt_akt1",
+  "grund": "Strom/Diesel in den Folgen"
+ },
+ {
+  "id": "du_harpune_chiara",
+  "gruppe": "Duell",
+  "art": "duell",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Speargun Assembly Against the Clock",
+  "wer": "chiara",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "du_tiere_lea",
+  "gruppe": "Duell",
+  "art": "duell",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Guess the Animal",
+  "wer": "lea",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "gv_quiz",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Quiz Night: You're the Host",
+  "wer": "toto, sophia",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "du_poetry_sophia",
+  "gruppe": "Duell",
+  "art": "duell",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Poetry Slam: “Ode to Lola's Fridge”",
+  "wer": "sophia",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "auf_karaoke",
+  "gruppe": "Auftritt",
+  "art": "auftritt",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Karaoke at Alva's",
+  "wer": "",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "auf_gitarre",
+  "gruppe": "Auftritt",
+  "art": "auftritt",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Guitar on Deck",
+  "wer": "",
+  "bedingung": false,
+  "topf": "anpassen",
+  "grund": "Strom/Diesel (power)"
+ },
+ {
+  "id": "auf_herkunft",
+  "gruppe": "Auftritt",
+  "art": "auftritt",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Where You Come From",
+  "wer": "",
+  "bedingung": false,
+  "topf": "anpassen",
+  "grund": "Strom/Diesel (power); festgesetzt (stranded)"
+ },
+ {
+  "id": "g1_casanova_nebel",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   5
+  ],
+  "titel": "The Dress Rehearsal",
+  "wer": "casanova",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "g1_petru_oktopus",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Petru's Lodger",
+  "wer": "lola",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "gv_elsa_kiste",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Potatoes That Meow",
+  "wer": "elsa, toto",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "hy_megan_dinner",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   3,
+   4
+  ],
+  "titel": "Megan Joins Dinner",
+  "wer": "megan",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "mg_tag2",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   2
+  ],
+  "titel": "Voice Message from Megan (1)",
+  "wer": "megan",
+  "bedingung": false,
+  "topf": "bleibt_akt1",
+  "grund": "Pflicht/Prolog"
+ },
+ {
+  "id": "mg_tag3",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   3,
+   3
+  ],
+  "titel": "Voice Message from Megan (2)",
+  "wer": "megan",
+  "bedingung": false,
+  "topf": "bleibt_akt1",
+  "grund": "Pflicht/Prolog"
+ },
+ {
+  "id": "mg_tag4",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   4,
+   4
+  ],
+  "titel": "Voice Message from Megan (3)",
+  "wer": "megan",
+  "bedingung": false,
+  "topf": "bleibt_akt1",
+  "grund": "Pflicht/Prolog"
+ },
+ {
+  "id": "mg_tag5",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   5,
+   5
+  ],
+  "titel": "Voice Message from Megan (4)",
+  "wer": "megan",
+  "bedingung": false,
+  "topf": "bleibt_akt1",
+  "grund": "Pflicht/Prolog"
+ },
+ {
+  "id": "mg_tag6",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   6,
+   6
+  ],
+  "titel": "Voice Message from Megan (5)",
+  "wer": "megan",
+  "bedingung": true,
+  "topf": "bleibt_akt1",
+  "grund": "Pflicht/Prolog"
+ },
+ {
+  "id": "mx_tutorial",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   2,
+   2
+  ],
+  "titel": "Lesson One",
+  "wer": "maxwell",
+  "bedingung": false,
+  "topf": "bleibt_akt1",
+  "grund": "Pflicht/Prolog"
+ },
+ {
+  "id": "mx_jana_bewundert",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Jana Is Watching",
+  "wer": "jana",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "mx_chiara_lacht",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Chiara Was Watching",
+  "wer": "chiara",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "ak_lola_vorkoster",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   5
+  ],
+  "titel": "The Taster",
+  "wer": "lola",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "ak_lola_service",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   5,
+   6
+  ],
+  "titel": "“Service!”",
+  "wer": "megan",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "ak_chiara_sternzettel",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   5
+  ],
+  "titel": "A Page Full of Stars",
+  "wer": "chiara",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "ak_chiara_brueckennock",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   4,
+   6
+  ],
+  "titel": "The Bridge Wing at Night",
+  "wer": "chiara",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "yk_vogel",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   2,
+   3
+  ],
+  "titel": "The Rare Bird",
+  "wer": "yamamoto",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "yk_schatten",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   2,
+   4
+  ],
+  "titel": "Maxwell's Shadow",
+  "wer": "maxwell",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "yk_falle",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   5
+  ],
+  "titel": "Maxwell's Trap",
+  "wer": "maxwell",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "yk_jana_merkt",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   4,
+   6
+  ],
+  "titel": "Jana Plays Along",
+  "wer": "jana",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "yk_erwischt",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   4,
+   6
+  ],
+  "titel": "Maxwell Catches Him",
+  "wer": "maxwell, yamamoto",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "yk_liste",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   5,
+   6
+  ],
+  "titel": "The Last Item on the List",
+  "wer": "yamamoto",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "mt_erste",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   2,
+   4
+  ],
+  "titel": "06:30 with Mr. Maximum",
+  "wer": "maxwell",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "mt_nicht_aufhoeren",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   5
+  ],
+  "titel": "Not at “I Can't”",
+  "wer": "maxwell",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "mt_zehn",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   4,
+   6
+  ],
+  "titel": "Ten Push-Ups",
+  "wer": "jana",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "t0_limousine",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   1,
+   1
+  ],
+  "titel": "Antibes, 06:10",
+  "wer": "maxwell",
+  "bedingung": false,
+  "topf": "bleibt_akt1",
+  "grund": "Pflicht/Prolog"
+ },
+ {
+  "id": "t0_megan",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   1,
+   1
+  ],
+  "titel": "Mac",
+  "wer": "megan",
+  "bedingung": false,
+  "topf": "bleibt_akt1",
+  "grund": "Pflicht/Prolog"
+ },
+ {
+  "id": "t0_holm",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   1,
+   1
+  ],
+  "titel": "The Captain",
+  "wer": "holm",
+  "bedingung": false,
+  "topf": "bleibt_akt1",
+  "grund": "Pflicht/Prolog"
+ },
+ {
+  "id": "t0_chiara",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   1,
+   1
+  ],
+  "titel": "The Chief Stew",
+  "wer": "chiara",
+  "bedingung": false,
+  "topf": "bleibt_akt1",
+  "grund": "Pflicht/Prolog"
+ },
+ {
+  "id": "t0_rosi",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   1,
+   1
+  ],
+  "titel": "The Engineer",
+  "wer": "rosi",
+  "bedingung": false,
+  "topf": "bleibt_akt1",
+  "grund": "Pflicht/Prolog"
+ },
+ {
+  "id": "t0_maxwell",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   1,
+   1
+  ],
+  "titel": "Mr. Maximum",
+  "wer": "maxwell",
+  "bedingung": false,
+  "topf": "bleibt_akt1",
+  "grund": "Pflicht/Prolog"
+ },
+ {
+  "id": "t0_toto",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   1,
+   1
+  ],
+  "titel": "The Bosun",
+  "wer": "toto",
+  "bedingung": false,
+  "topf": "bleibt_akt1",
+  "grund": "Pflicht/Prolog"
+ },
+ {
+  "id": "t0_lola",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   1,
+   1
+  ],
+  "titel": "The Cook",
+  "wer": "lola",
+  "bedingung": false,
+  "topf": "bleibt_akt1",
+  "grund": "Pflicht/Prolog"
+ },
+ {
+  "id": "t0_wahl",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   1,
+   1
+  ],
+  "titel": "Where to First?",
+  "wer": "megan",
+  "bedingung": false,
+  "topf": "bleibt_akt1",
+  "grund": "Pflicht/Prolog"
+ },
+ {
+  "id": "t0_wahl2_moore",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   1,
+   1
+  ],
+  "titel": "And Then?",
+  "wer": "megan",
+  "bedingung": true,
+  "topf": "bleibt_akt1",
+  "grund": "Pflicht/Prolog"
+ },
+ {
+  "id": "t0_wahl2_jana",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   1,
+   1
+  ],
+  "titel": "And Then?",
+  "wer": "megan",
+  "bedingung": true,
+  "topf": "bleibt_akt1",
+  "grund": "Pflicht/Prolog"
+ },
+ {
+  "id": "t0_wahl2_siri",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   1,
+   1
+  ],
+  "titel": "And Then?",
+  "wer": "megan",
+  "bedingung": true,
+  "topf": "bleibt_akt1",
+  "grund": "Pflicht/Prolog"
+ },
+ {
+  "id": "t0_wahl2_yamamoto",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   1,
+   1
+  ],
+  "titel": "And Then?",
+  "wer": "megan",
+  "bedingung": true,
+  "topf": "bleibt_akt1",
+  "grund": "Pflicht/Prolog"
+ },
+ {
+  "id": "t0_lea",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   1,
+   1
+  ],
+  "titel": "Lea",
+  "wer": "lea",
+  "bedingung": true,
+  "topf": "bleibt_akt1",
+  "grund": "Pflicht/Prolog"
+ },
+ {
+  "id": "t0_sophia",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   1,
+   1
+  ],
+  "titel": "Sophia",
+  "wer": "sophia",
+  "bedingung": true,
+  "topf": "bleibt_akt1",
+  "grund": "Pflicht/Prolog"
+ },
+ {
+  "id": "t0_jana",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   1,
+   1
+  ],
+  "titel": "Jana",
+  "wer": "jana",
+  "bedingung": true,
+  "topf": "bleibt_akt1",
+  "grund": "Pflicht/Prolog"
+ },
+ {
+  "id": "t0_siri",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   1,
+   1
+  ],
+  "titel": "Siri and Yasin",
+  "wer": "siri",
+  "bedingung": true,
+  "topf": "bleibt_akt1",
+  "grund": "Pflicht/Prolog"
+ },
+ {
+  "id": "t0_yamamoto",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   1,
+   1
+  ],
+  "titel": "Yamamoto-san",
+  "wer": "yamamoto",
+  "bedingung": true,
+  "topf": "bleibt_akt1",
+  "grund": "Pflicht/Prolog"
+ },
+ {
+  "id": "t0_abschied_herzlich",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   1,
+   1
+  ],
+  "titel": "Don't Sink My Boat",
+  "wer": "megan",
+  "bedingung": true,
+  "topf": "bleibt_akt1",
+  "grund": "Pflicht/Prolog"
+ },
+ {
+  "id": "t0_abschied_frech",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   1,
+   1
+  ],
+  "titel": "Don't Sink My Boat",
+  "wer": "megan",
+  "bedingung": true,
+  "topf": "bleibt_akt1",
+  "grund": "Pflicht/Prolog"
+ },
+ {
+  "id": "t0_abschied_flirt",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   1,
+   1
+  ],
+  "titel": "Don't Sink My Boat",
+  "wer": "megan",
+  "bedingung": true,
+  "topf": "bleibt_akt1",
+  "grund": "Pflicht/Prolog"
+ },
+ {
+  "id": "t0_abschied_foermlich",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   1,
+   1
+  ],
+  "titel": "Don't Sink My Boat",
+  "wer": "megan",
+  "bedingung": true,
+  "topf": "bleibt_akt1",
+  "grund": "Pflicht/Prolog"
+ },
+ {
+  "id": "yk_herkunft",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Before the Suits",
+  "wer": "yamamoto",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "ak_chiara_herkunft",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Who Believed in You?",
+  "wer": "chiara",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "hy_chiara_jonas",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Four Stripes",
+  "wer": "chiara",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "hy_alva_sevilla",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Thirteen Years",
+  "wer": "alva",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "hy_alva_tafel",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Forty Years of Chalk",
+  "wer": "alva",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "hy_megan_anime",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   3,
+   4
+  ],
+  "titel": "Pollen Season",
+  "wer": "megan",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "hy_siri_caption",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   5
+  ],
+  "titel": "The Caption",
+  "wer": "yasin",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "hy_megan_foto",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   3,
+   4
+  ],
+  "titel": "The Silver Tray",
+  "wer": "megan",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "hy_casanova_konfetti",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   3,
+   5
+  ],
+  "titel": "With Ceremony",
+  "wer": "casanova",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "br_satellit_sonntag",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Forty Minutes",
+  "wer": "rosi, lola, jana",
+  "bedingung": false,
+  "topf": "anpassen",
+  "grund": "Strom/Diesel (power)"
+ },
+ {
+  "id": "br_jana_tender",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Four Hundred Metres",
+  "wer": "toto, jana, chiara",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "br_holm_paket",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "A Parcel for the Captain",
+  "wer": "siri, lola, chiara",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "br_fish_pie",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Marie's Pie",
+  "wer": "lola, toto, chiara",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "br_toto_stand",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "A Stamp for Totò",
+  "wer": "toto, lola, chiara",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "br_handtuecher",
+  "gruppe": "Bordrat",
+  "art": "bordrat",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Jenna",
+  "wer": "chiara, jana, siri",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "g1_alva_tim_tams",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Contraband from Sydney",
+  "wer": "alva",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "g1_lea_nachttauchen",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Six Metres",
+  "wer": "lea",
+  "bedingung": true,
+  "topf": "anpassen",
+  "grund": "Ultimatum/Frist (a week)"
+ },
+ {
+  "id": "g1_sophia_zweitbesetzung",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "The Understudy",
+  "wer": "sophia",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "g1_petru_netze",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "The Most Mended Net in Corsica",
+  "wer": "petru",
+  "bedingung": false,
+  "topf": "anpassen",
+  "grund": "erste Tage (arrived)"
+ },
+ {
+  "id": "g1_lola_strandkueche",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "The Napkin Kitchen",
+  "wer": "lola",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "g1_lola_delfin",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Gerald",
+  "wer": "lola",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "yk_hana",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   5
+  ],
+  "titel": "Hana Asks About the Birds",
+  "wer": "yamamoto",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "gv_elsa_roman",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "The Captain's Forbidden Treasure",
+  "wer": "elsa, toto",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "gv_unit01_bild",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Portrait of a Lady",
+  "wer": "lea, rosi",
+  "bedingung": false,
+  "topf": "anpassen",
+  "grund": "Strom/Diesel (generator)"
+ },
+ {
+  "id": "gv_holm_baer",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "One Kilometre, One Shot",
+  "wer": "toto, maxwell",
+  "bedingung": false,
+  "topf": "anpassen",
+  "grund": "Ultimatum/Frist (a week)"
+ },
+ {
+  "id": "gv_chiara_italienisch",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Olivetti",
+  "wer": "chiara, alva",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "gv_tuersteher",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "After Closing",
+  "wer": "maxwell, yasin",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "gv_kaffee_rosi",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Seven O'Clock Coffee",
+  "wer": "siri, rosi",
+  "bedingung": false,
+  "topf": "anpassen",
+  "grund": "Strom/Diesel (generator, power); erste Tage (day one)"
+ },
+ {
+  "id": "gv_seestueck",
+  "gruppe": "Gag (versus)",
+  "art": "gagv",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "A Sky in Four Tries",
+  "wer": "lea, sophia",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fl_lea_neopren",
+  "gruppe": "Flirt",
+  "art": "gag1",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Zip Me Up",
+  "wer": "lea",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fl_lea_seite41",
+  "gruppe": "Flirt",
+  "art": "gag1",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Page Forty-One",
+  "wer": "lea",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fl_lea_fakt",
+  "gruppe": "Flirt",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Fact of the Night",
+  "wer": "lea",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fl_lea_salut",
+  "gruppe": "Flirt",
+  "art": "gag1",
+  "tage": [
+   2,
+   5
+  ],
+  "titel": "At Ease",
+  "wer": "lea",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fl_rosi_pfand",
+  "gruppe": "Flirt",
+  "art": "gag1",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Loser Does What Winner Says",
+  "wer": "rosi",
+  "bedingung": false,
+  "topf": "anpassen",
+  "grund": "Strom/Diesel (generator)"
+ },
+ {
+  "id": "fl_rosi_bandana",
+  "gruppe": "Flirt",
+  "art": "gag1",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "The Red Bandana",
+  "wer": "rosi",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fl_rosi_vespa",
+  "gruppe": "Flirt",
+  "art": "handy",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "First Ride",
+  "wer": "rosi",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fl_rosi_schicksal",
+  "gruppe": "Flirt",
+  "art": "gag1",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "This Is My Destiny",
+  "wer": "rosi",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fl_lola_mehl",
+  "gruppe": "Flirt",
+  "art": "gag1",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Flour",
+  "wer": "lola",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fl_lola_haengematte",
+  "gruppe": "Flirt",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Room for Two. Ish.",
+  "wer": "lola",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fl_lola_bao",
+  "gruppe": "Flirt",
+  "art": "gag1",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Hands-On Lesson",
+  "wer": "lola",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fl_lola_sonnencreme",
+  "gruppe": "Flirt",
+  "art": "gag1",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Backs Are Hard",
+  "wer": "lola",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fl_siri_blick",
+  "gruppe": "Flirt",
+  "art": "gag1",
+  "tage": [
+   2,
+   5
+  ],
+  "titel": "No Camera",
+  "wer": "siri",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fl_siri_date",
+  "gruppe": "Flirt",
+  "art": "handy",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Too Soon?",
+  "wer": "siri",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fl_siri_schulter",
+  "gruppe": "Flirt",
+  "art": "gag1",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Shoulder",
+  "wer": "siri",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fl_megan_palstek",
+  "gruppe": "Flirt",
+  "art": "handy",
+  "tage": [
+   3,
+   4
+  ],
+  "titel": "Behind Your Back",
+  "wer": "megan",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fl_megan_privat",
+  "gruppe": "Flirt",
+  "art": "handy",
+  "tage": [
+   3,
+   5
+  ],
+  "titel": "Private Number",
+  "wer": "megan",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fl_alva_eis",
+  "gruppe": "Flirt",
+  "art": "gag1",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Ice",
+  "wer": "alva",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fl_alva_tuer",
+  "gruppe": "Flirt",
+  "art": "handy",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Last Orders",
+  "wer": "alva",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fl_alva_schritt",
+  "gruppe": "Flirt",
+  "art": "gag1",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "One Step",
+  "wer": "alva",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fl_chiara_zehn",
+  "gruppe": "Flirt",
+  "art": "gag1",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Out of Ten",
+  "wer": "chiara",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fl_chiara_kragen",
+  "gruppe": "Flirt",
+  "art": "gag1",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "The Collar",
+  "wer": "chiara",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fl_chiara_tee",
+  "gruppe": "Flirt",
+  "art": "handy",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Two Cups",
+  "wer": "chiara",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fl_sophia_blick",
+  "gruppe": "Flirt",
+  "art": "gag1",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Ten Seconds",
+  "wer": "sophia",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fl_sophia_ungeprobt",
+  "gruppe": "Flirt",
+  "art": "handy",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Unscripted",
+  "wer": "sophia",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fl_jana_knoten",
+  "gruppe": "Flirt",
+  "art": "gag1",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Bowline for Two",
+  "wer": "jana",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fl_elsa_strafzettel",
+  "gruppe": "Flirt",
+  "art": "gag1",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "A Ticket for You",
+  "wer": "elsa",
+  "bedingung": false,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "ab_jana_nacht",
+  "gruppe": "Abend/Funke",
+  "art": "abend",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Nobody Has to Know",
+  "wer": "jana",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "ab_jana_handy",
+  "gruppe": "Abend/Funke",
+  "art": "abend",
+  "tage": [
+   4,
+   6
+  ],
+  "titel": "Jana Texts: “Sorry. Again?”",
+  "wer": "jana",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "ab_megan_nacht",
+  "gruppe": "Abend/Funke",
+  "art": "abend",
+  "tage": [
+   5,
+   6
+  ],
+  "titel": "Off the Record",
+  "wer": "megan",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_alva_3_bar",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Last Round",
+  "wer": "alva",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_alva_5_bar",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Nobody's Mine",
+  "wer": "alva",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_alva_4_bar",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "On the House",
+  "wer": "alva",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_alva_3_tresen",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Last Round",
+  "wer": "alva",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_alva_5_tresen",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Nobody's Mine",
+  "wer": "alva",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_alva_4_tresen",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "On the House",
+  "wer": "alva",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_alva_3_zimmer",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Last Round",
+  "wer": "alva",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_alva_5_zimmer",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Nobody's Mine",
+  "wer": "alva",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_alva_4_zimmer",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "On the House",
+  "wer": "alva",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_chiara_3_bruecke",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Out of Ten",
+  "wer": "chiara",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_chiara_5_bruecke",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Off the Scale",
+  "wer": "chiara",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_chiara_4_bruecke",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "No Number",
+  "wer": "chiara",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_chiara_3_kabine",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Out of Ten",
+  "wer": "chiara",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_chiara_5_kabine",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Off the Scale",
+  "wer": "chiara",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_chiara_4_kabine",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "No Number",
+  "wer": "chiara",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_chiara_3_nock",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Out of Ten",
+  "wer": "chiara",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_chiara_5_nock",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Off the Scale",
+  "wer": "chiara",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_chiara_4_nock",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "No Number",
+  "wer": "chiara",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_elsa_3_posten",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Status Report",
+  "wer": "elsa",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_elsa_5_posten",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Case Closed",
+  "wer": "elsa",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_elsa_4_posten",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "For the File",
+  "wer": "elsa",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_elsa_3_verhoerzelle",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Status Report",
+  "wer": "elsa",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_elsa_5_verhoerzelle",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Case Closed",
+  "wer": "elsa",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_elsa_4_verhoerzelle",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "For the File",
+  "wer": "elsa",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_isabelle_3_apotheke",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Lavender",
+  "wer": "isabelle",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_isabelle_3_lavendelbad",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Lavender",
+  "wer": "isabelle",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_isabelle_5_lavendelbad",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Confession",
+  "wer": "isabelle",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_isabelle_4_lavendelbad",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Patience",
+  "wer": "isabelle",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_isabelle_5_zelle",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Confession",
+  "wer": "isabelle",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_isabelle_4_zelle",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Patience",
+  "wer": "isabelle",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_jana_3_dusche",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Wrong Photo",
+  "wer": "jana",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_jana_5_dusche",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Slip Knot",
+  "wer": "jana",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_jana_3_koje",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Wrong Photo",
+  "wer": "jana",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_jana_4_koje",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Brave",
+  "wer": "jana",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_jana_3_shibari",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Wrong Photo",
+  "wer": "jana",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_jana_5_shibari",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Slip Knot",
+  "wer": "jana",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_jana_4_shibari",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Brave",
+  "wer": "jana",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_lea_3_beach",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "For Science",
+  "wer": "lea",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_lea_5_beach",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "No Fact for This",
+  "wer": "lea",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_lea_3_garage",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "For Science",
+  "wer": "lea",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_lea_5_garage",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "No Fact for This",
+  "wer": "lea",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_lea_4_garage",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Nervous Colours",
+  "wer": "lea",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_lea_3_plankton",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "For Science",
+  "wer": "lea",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_lea_5_plankton",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "No Fact for This",
+  "wer": "lea",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_lea_4_plankton",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Nervous Colours",
+  "wer": "lea",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_lola_3_koje",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Rate the Chef",
+  "wer": "lola",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_lola_5_koje",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Too Much",
+  "wer": "lola",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_lola_4_koje",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Not the Bao",
+  "wer": "lola",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_lola_3_kombuese",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Rate the Chef",
+  "wer": "lola",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_lola_5_kombuese",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Too Much",
+  "wer": "lola",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_lola_4_kombuese",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Not the Bao",
+  "wer": "lola",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_lola_3_sahne",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Rate the Chef",
+  "wer": "lola",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_lola_5_sahne",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Too Much",
+  "wer": "lola",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_lola_4_sahne",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Not the Bao",
+  "wer": "lola",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_megan_3_buero",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Third Quarter",
+  "wer": "megan",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_megan_5_buero",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "No Conditions",
+  "wer": "megan",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_megan_4_buero",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Your Move",
+  "wer": "megan",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_megan_3_hubschrauber",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Third Quarter",
+  "wer": "megan",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_megan_5_hubschrauber",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "No Conditions",
+  "wer": "megan",
+  "bedingung": true,
+  "topf": "anpassen",
+  "grund": "Strom/Diesel (fuel)"
+ },
+ {
+  "id": "sf_megan_4_hubschrauber",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Your Move",
+  "wer": "megan",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_rosi_3_generatorraum",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Proof Attached",
+  "wer": "rosi",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_rosi_5_generatorraum",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Tactical Surrender",
+  "wer": "rosi",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_rosi_4_generatorraum",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Draw",
+  "wer": "rosi",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_rosi_3_strand",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Proof Attached",
+  "wer": "rosi",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_rosi_5_strand",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Tactical Surrender",
+  "wer": "rosi",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_rosi_4_strand",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Draw",
+  "wer": "rosi",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_rosi_3_werkstatt",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Proof Attached",
+  "wer": "rosi",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_rosi_5_werkstatt",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Tactical Surrender",
+  "wer": "rosi",
+  "bedingung": true,
+  "topf": "anpassen",
+  "grund": "Ultimatum/Frist (a week)"
+ },
+ {
+  "id": "sf_rosi_4_werkstatt",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Draw",
+  "wer": "rosi",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_siri_3_dessous",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Not the Camera Voice",
+  "wer": "siri",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_siri_5_dessous",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "No Filter",
+  "wer": "siri",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_siri_4_dessous",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Just for One",
+  "wer": "siri",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_siri_3_vip",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Not the Camera Voice",
+  "wer": "siri",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_siri_5_vip",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "No Filter",
+  "wer": "siri",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_siri_4_vip",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Just for One",
+  "wer": "siri",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_siri_3_vordeck",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Not the Camera Voice",
+  "wer": "siri",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_siri_5_vordeck",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "No Filter",
+  "wer": "siri",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_siri_4_vordeck",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Just for One",
+  "wer": "siri",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_sophia_3_achterdeck",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Research Material",
+  "wer": "sophia",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_sophia_5_achterdeck",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "No Bet Tonight",
+  "wer": "sophia",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_sophia_4_achterdeck",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "The Forfeit",
+  "wer": "sophia",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_sophia_3_koje",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Research Material",
+  "wer": "sophia",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_sophia_5_koje",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "No Bet Tonight",
+  "wer": "sophia",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_sophia_4_koje",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "The Forfeit",
+  "wer": "sophia",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_sophia_3_noir",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Research Material",
+  "wer": "sophia",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_sophia_5_noir",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "No Bet Tonight",
+  "wer": "sophia",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sf_sophia_4_noir",
+  "gruppe": "Selfie",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "The Forfeit",
+  "wer": "sophia",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_alva_3",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Alva: Last Round",
+  "wer": "alva",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_alva_4",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Alva: On the House",
+  "wer": "alva",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_alva_5",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Alva: Nobody's Mine",
+  "wer": "alva",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_chiara_3",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Chiara: Out of Ten",
+  "wer": "chiara",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_chiara_4",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Chiara: No Number",
+  "wer": "chiara",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_chiara_5",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Chiara: Off the Scale",
+  "wer": "chiara",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_elsa_3",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Elsa: Status Report",
+  "wer": "elsa",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_elsa_4",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Elsa: For the File",
+  "wer": "elsa",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_elsa_5",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Elsa: Case Closed",
+  "wer": "elsa",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_isabelle_3",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Isabelle: Lavender",
+  "wer": "isabelle",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_isabelle_4",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Isabelle: Patience",
+  "wer": "isabelle",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_isabelle_5",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Isabelle: Confession",
+  "wer": "isabelle",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_jana_3",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Jana: Wrong Photo",
+  "wer": "jana",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_jana_4",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Jana: Brave",
+  "wer": "jana",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_jana_5",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Jana: Slip Knot",
+  "wer": "jana",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_lea_3",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Lea: For Science",
+  "wer": "lea",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_lea_4",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Lea: Nervous Colours",
+  "wer": "lea",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_lea_5",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Lea: No Fact for This",
+  "wer": "lea",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_lola_3",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Lola: Rate the Chef",
+  "wer": "lola",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_lola_4",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Lola: Not the Bao",
+  "wer": "lola",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_lola_5",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Lola: Too Much",
+  "wer": "lola",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_megan_3",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Megan: Third Quarter",
+  "wer": "megan",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_megan_4",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Megan: Your Move",
+  "wer": "megan",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_megan_5",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Megan: No Conditions",
+  "wer": "megan",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_rosi_3",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Rosi: Proof Attached",
+  "wer": "rosi",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_rosi_4",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Rosi: Draw",
+  "wer": "rosi",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_rosi_5",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Rosi: Tactical Surrender",
+  "wer": "rosi",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_siri_3",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Siri: Not the Camera Voice",
+  "wer": "siri",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_siri_4",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Siri: Just for One",
+  "wer": "siri",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_siri_5",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Siri: No Filter",
+  "wer": "siri",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_sophia_3",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Sophia: Research Material",
+  "wer": "sophia",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_sophia_4",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Sophia: The Forfeit",
+  "wer": "sophia",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "sfn_sophia_5",
+  "gruppe": "Handy",
+  "art": "handy",
+  "tage": [
+   2,
+   6
+  ],
+  "titel": "Sophia: No Bet Tonight",
+  "wer": "sophia",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fk_chiara_frage",
+  "gruppe": "Abend/Funke",
+  "art": "abend",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "What Would You Do?",
+  "wer": "chiara",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fk_sophia_wette",
+  "gruppe": "Abend/Funke",
+  "art": "abend",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Ten Euros",
+  "wer": "sophia",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fk_lea_schulter",
+  "gruppe": "Abend/Funke",
+  "art": "abend",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Glow",
+  "wer": "lea",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "fk_rosi_schicht",
+  "gruppe": "Abend/Funke",
+  "art": "abend",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Night Shift",
+  "wer": "rosi",
+  "bedingung": true,
+  "topf": "anpassen",
+  "grund": "Strom/Diesel (generator)"
+ },
+ {
+  "id": "fk_siri_foto",
+  "gruppe": "Abend/Funke",
+  "art": "abend",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Unposted",
+  "wer": "siri",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "bk_rosi_tafel",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Rosi vs. Officer",
+  "wer": "rosi",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "bk_rosi_fleck",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Grease",
+  "wer": "rosi",
+  "bedingung": true,
+  "topf": "anpassen",
+  "grund": "Inspektion (inspection); Strom/Diesel (generator)"
+ },
+ {
+  "id": "bk_sophia_arm",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Darling, Hold Still",
+  "wer": "sophia",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "bk_sophia_buechlein",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "The Brown Notebook",
+  "wer": "sophia",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "bk_siri_stuhl",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Talking to the Furniture",
+  "wer": "siri",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ },
+ {
+  "id": "bk_siri_goldene_stunde",
+  "gruppe": "Gag",
+  "art": "gag1",
+  "tage": [
+   3,
+   6
+  ],
+  "titel": "Golden Hour, Camera Off",
+  "wer": "siri",
+  "bedingung": true,
+  "topf": "zeitlos",
+  "grund": ""
+ }
+]

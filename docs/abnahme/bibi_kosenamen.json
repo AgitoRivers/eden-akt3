@@ -1,0 +1,66 @@
+{
+ "id": "bibi_kosenamen",
+ "titel": "Bibi: Kosenamen auf Französisch und Deutsch",
+ "hinweis": "Hörprobe vor der Vertonung: Spricht ihre Stimme die Namen sauber, ohne ins Französische abzurutschen?",
+ "gruppen": [
+  {
+   "id": "proben",
+   "titel": "Zehn Zeilen",
+   "farbe": "#c0524a",
+   "max": 10,
+   "soll": "Die Namen klar und natürlich, der Rest Englisch mit Akzent.",
+   "kandidaten": [
+    {
+     "titel": "1: Clipboard",
+     "unter": "You look at my fence like it owes you a report, Clipboard. Have you ever held anything?",
+     "datei": "bibi_kosenamen/probe_1.wav"
+    },
+    {
+     "titel": "2: mon lapin",
+     "unter": "Pass me the nails, mon lapin. Not all of them. Why would I need all of them?",
+     "datei": "bibi_kosenamen/probe_2.wav"
+    },
+    {
+     "titel": "3: Hase",
+     "unter": "My mother says Hase. It's a hare. In German you get promoted.",
+     "datei": "bibi_kosenamen/probe_3.wav"
+    },
+    {
+     "titel": "4: mon canard",
+     "unter": "You've got mud in your ear, mon canard. No, leave it. It suits you.",
+     "datei": "bibi_kosenamen/probe_4.wav"
+    },
+    {
+     "titel": "5: mon chou",
+     "unter": "You do numbers, mon chou. It means cabbage, don't look at me, I didn't invent France.",
+     "datei": "bibi_kosenamen/probe_5.wav"
+    },
+    {
+     "titel": "6: ma puce",
+     "unter": "You keep coming back, ma puce. It means flea, and I can't get rid of you.",
+     "datei": "bibi_kosenamen/probe_6.wav"
+    },
+    {
+     "titel": "7: Bärchen",
+     "unter": "It's asleep on your arm, Bärchen. I don't make the rules.",
+     "datei": "bibi_kosenamen/probe_7.wav"
+    },
+    {
+     "titel": "8: doudou",
+     "unter": "Doudou, come here. I need you to do some numbers.",
+     "datei": "bibi_kosenamen/probe_8.wav"
+    },
+    {
+     "titel": "9: mon loup, chéri, Schatz",
+     "unter": "Mon loup. Chéri. Schatz. I'm trying them all on you, one at a time.",
+     "datei": "bibi_kosenamen/probe_9.wav"
+    },
+    {
+     "titel": "10: Spatz",
+     "unter": "Spatz. My mother called me that. Now you know everything.",
+     "datei": "bibi_kosenamen/probe_10.wav"
+    }
+   ]
+  }
+ ]
+}

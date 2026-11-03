@@ -1,0 +1,139 @@
+{
+ "id": "alon_satz",
+ "titel": "Alon: Figurensatz im Rollkragen",
+ "hinweis": "22 Posen, nur Vorderansicht, Gesicht Falke, nicht romanzierbar (ohne desire). Alle selbst angesehen: Elf Posen standen im ersten Lauf falsch und sind neu, jetzt stehen alle mit beiden Füßen im Bild. Mein Vorschlag: alle übernehmen. Danach lege ich Alon als Figur an und lasse ihn im Cliffhanger vor der Bühne sprechen.",
+ "items": [
+  {
+   "id": "admiration_2",
+   "titel": "Alon · admiration_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_satz\\admiration_2.png",
+   "soll": ""
+  },
+  {
+   "id": "amusement",
+   "titel": "Alon · amusement",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_satz\\amusement.png",
+   "soll": "Zweiter oder dritter Lauf: stand vorher falsch (gehockt, Beine überkreuzt oder Füße abgeschnitten)."
+  },
+  {
+   "id": "anger",
+   "titel": "Alon · anger",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_satz\\anger.png",
+   "soll": ""
+  },
+  {
+   "id": "annoyance",
+   "titel": "Alon · annoyance",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_satz\\annoyance.png",
+   "soll": "Zweiter oder dritter Lauf: stand vorher falsch (gehockt, Beine überkreuzt oder Füße abgeschnitten)."
+  },
+  {
+   "id": "approval",
+   "titel": "Alon · approval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_satz\\approval.png",
+   "soll": "Zweiter oder dritter Lauf: stand vorher falsch (gehockt, Beine überkreuzt oder Füße abgeschnitten)."
+  },
+  {
+   "id": "caring",
+   "titel": "Alon · caring",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_satz\\caring.png",
+   "soll": ""
+  },
+  {
+   "id": "confusion",
+   "titel": "Alon · confusion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_satz\\confusion.png",
+   "soll": ""
+  },
+  {
+   "id": "curiosity",
+   "titel": "Alon · curiosity",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_satz\\curiosity.png",
+   "soll": ""
+  },
+  {
+   "id": "disappointment",
+   "titel": "Alon · disappointment",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_satz\\disappointment.png",
+   "soll": ""
+  },
+  {
+   "id": "disapproval",
+   "titel": "Alon · disapproval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_satz\\disapproval.png",
+   "soll": ""
+  },
+  {
+   "id": "disgust",
+   "titel": "Alon · disgust",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_satz\\disgust.png",
+   "soll": "Zweiter oder dritter Lauf: stand vorher falsch (gehockt, Beine überkreuzt oder Füße abgeschnitten)."
+  },
+  {
+   "id": "embarrassment_2",
+   "titel": "Alon · embarrassment_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_satz\\embarrassment_2.png",
+   "soll": "Zweiter oder dritter Lauf: stand vorher falsch (gehockt, Beine überkreuzt oder Füße abgeschnitten)."
+  },
+  {
+   "id": "excitement_2",
+   "titel": "Alon · excitement_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_satz\\excitement_2.png",
+   "soll": ""
+  },
+  {
+   "id": "fear_2",
+   "titel": "Alon · fear_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_satz\\fear_2.png",
+   "soll": "Zweiter oder dritter Lauf: stand vorher falsch (gehockt, Beine überkreuzt oder Füße abgeschnitten)."
+  },
+  {
+   "id": "gratitude",
+   "titel": "Alon · gratitude",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_satz\\gratitude.png",
+   "soll": ""
+  },
+  {
+   "id": "joy",
+   "titel": "Alon · joy",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_satz\\joy.png",
+   "soll": "Zweiter oder dritter Lauf: stand vorher falsch (gehockt, Beine überkreuzt oder Füße abgeschnitten)."
+  },
+  {
+   "id": "love_2",
+   "titel": "Alon · love_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_satz\\love_2.png",
+   "soll": ""
+  },
+  {
+   "id": "nervousness",
+   "titel": "Alon · nervousness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_satz\\nervousness.png",
+   "soll": "Zweiter oder dritter Lauf: stand vorher falsch (gehockt, Beine überkreuzt oder Füße abgeschnitten)."
+  },
+  {
+   "id": "neutral",
+   "titel": "Alon · neutral",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_satz\\neutral.png",
+   "soll": "Grundpose, ruhig und frontal. Zweiter oder dritter Lauf: stand vorher falsch (gehockt, Beine überkreuzt oder Füße abgeschnitten)."
+  },
+  {
+   "id": "pride",
+   "titel": "Alon · pride",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_satz\\pride.png",
+   "soll": "Seine Keynote-Geste aus dem Casting. Zweiter oder dritter Lauf: stand vorher falsch (gehockt, Beine überkreuzt oder Füße abgeschnitten)."
+  },
+  {
+   "id": "sadness",
+   "titel": "Alon · sadness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_satz\\sadness.png",
+   "soll": "Zweiter oder dritter Lauf: stand vorher falsch (gehockt, Beine überkreuzt oder Füße abgeschnitten)."
+  },
+  {
+   "id": "surprise",
+   "titel": "Alon · surprise",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_satz\\surprise.png",
+   "soll": ""
+  }
+ ]
+}

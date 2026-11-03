@@ -1,0 +1,9 @@
+{"id": "kork_rinde_v1", "titel": "Korkeiche: geschält und Rinde",
+ "hinweis": "Beide Bilder sind aus dem Baum mit Rinde gerechnet, damit die Krone beim Schälen nicht springt. OK oder Notiz.",
+ "items": [
+  {"id": "cork_oak", "titel": "Korkeiche geschält", "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\abbau\\cork_oak.png",
+   "soll": "Gleicher Baum wie links, nur der untere Stamm rostrot. So bleibt er nach dem Hieb stehen.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\abbau\\cork_oak_vorher.png", "vergleich_titel": "Mit Rinde"},
+  {"id": "cork_oak_rinde", "titel": "Nur die Rinde", "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\abbau\\cork_oak_rinde.png",
+   "soll": "Dieses Stück löst sich beim vorletzten Hieb und fällt am Stamm zusammen."}
+ ]}

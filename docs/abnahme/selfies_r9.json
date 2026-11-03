@@ -1,0 +1,737 @@
+{
+ "id": "selfies_r9",
+ "titel": "Selfie-Stufen r9",
+ "hinweis": "Stand nach deinen Korrekturen. Gruppen mit nur einem Bild sind vorbelegt, bei mehreren ist deine alte Wahl gesetzt, falls das Bild noch existiert.",
+ "abschnitte": [
+  {
+   "titel": "Alva",
+   "gruppen": [
+    {
+     "id": "alva|bar|knapp",
+     "titel": "Bar · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_knapp-1.png"
+     ]
+    },
+    {
+     "id": "alva|bar|oben_ohne",
+     "titel": "Bar · oben ohne",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_oben_ohne-12.png"
+     ]
+    },
+    {
+     "id": "alva|bar|nackt",
+     "titel": "Bar · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_nackt-13.png"
+     ]
+    },
+    {
+     "id": "alva|tresen|knapp",
+     "titel": "Tresen · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_knapp_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_knapp_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_knapp_3.png"
+     ]
+    },
+    {
+     "id": "alva|tresen|oben_ohne",
+     "titel": "Tresen · oben ohne",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_oben_ohne_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_oben_ohne_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_oben_ohne_3.png"
+     ]
+    },
+    {
+     "id": "alva|tresen|nackt",
+     "titel": "Tresen · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_nackt_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_nackt_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_nackt_3.png"
+     ]
+    },
+    {
+     "id": "alva|zimmer|knapp",
+     "titel": "Zimmer · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_knapp-4.png"
+     ]
+    },
+    {
+     "id": "alva|zimmer|oben_ohne",
+     "titel": "Zimmer · oben ohne",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_oben_ohne-16.png"
+     ]
+    },
+    {
+     "id": "alva|zimmer|nackt",
+     "titel": "Zimmer · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_nackt-10.png"
+     ]
+    }
+   ]
+  },
+  {
+   "titel": "Chiara",
+   "gruppen": [
+    {
+     "id": "chiara|bruecke|knapp",
+     "titel": "Bruecke · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_knapp_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_knapp_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_knapp_3.png"
+     ]
+    },
+    {
+     "id": "chiara|bruecke|oben_ohne",
+     "titel": "Bruecke · oben ohne",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_oben_ohne_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_oben_ohne_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_oben_ohne_3.png"
+     ]
+    },
+    {
+     "id": "chiara|bruecke|nackt",
+     "titel": "Bruecke · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_nackt_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_nackt_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_nackt_3.png"
+     ]
+    },
+    {
+     "id": "chiara|kabine|knapp",
+     "titel": "Kabine · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_knapp-3.png"
+     ]
+    },
+    {
+     "id": "chiara|kabine|oben_ohne",
+     "titel": "Kabine · oben ohne",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_oben_ohne-3.png"
+     ]
+    },
+    {
+     "id": "chiara|kabine|nackt",
+     "titel": "Kabine · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_nackt-10.png"
+     ]
+    },
+    {
+     "id": "chiara|nock|knapp",
+     "titel": "Nock · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_knapp_2-1.png"
+     ]
+    },
+    {
+     "id": "chiara|nock|oben_ohne",
+     "titel": "Nock · oben ohne",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_oben_ohne_2-2.png"
+     ]
+    },
+    {
+     "id": "chiara|nock|nackt",
+     "titel": "Nock · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_nackt_2-1.png"
+     ]
+    }
+   ]
+  },
+  {
+   "titel": "Elsa",
+   "gruppen": [
+    {
+     "id": "elsa|posten|knapp",
+     "titel": "Posten · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_elsa_knapp-3.png"
+     ]
+    },
+    {
+     "id": "elsa|posten|oben_ohne",
+     "titel": "Posten · oben ohne",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_elsa_oben_ohne-3.png"
+     ]
+    },
+    {
+     "id": "elsa|posten|nackt",
+     "titel": "Posten · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_elsa_nackt-3.png"
+     ]
+    },
+    {
+     "id": "elsa|verhoerzelle|knapp",
+     "titel": "Verhoerzelle · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_elsa_knapp_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_elsa_knapp_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_elsa_knapp_3.png"
+     ]
+    },
+    {
+     "id": "elsa|verhoerzelle|oben_ohne",
+     "titel": "Verhoerzelle · oben ohne",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_elsa_oben_ohne_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_elsa_oben_ohne_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_elsa_oben_ohne_3.png"
+     ]
+    },
+    {
+     "id": "elsa|verhoerzelle|nackt",
+     "titel": "Verhoerzelle · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_elsa_nackt_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_elsa_nackt_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_elsa_nackt_3.png"
+     ]
+    }
+   ]
+  },
+  {
+   "titel": "Isabelle",
+   "gruppen": [
+    {
+     "id": "isabelle|apotheke|knapp",
+     "titel": "Apotheke · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_isabelle_knapp-2.png"
+     ]
+    },
+    {
+     "id": "isabelle|lavendelbad|knapp",
+     "titel": "Lavendelbad · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_isabelle_knapp_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_isabelle_knapp_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_isabelle_knapp_3.png"
+     ]
+    },
+    {
+     "id": "isabelle|lavendelbad|oben_ohne",
+     "titel": "Lavendelbad · oben ohne",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_isabelle_oben_ohne_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_isabelle_oben_ohne_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_isabelle_oben_ohne_3.png"
+     ]
+    },
+    {
+     "id": "isabelle|lavendelbad|nackt",
+     "titel": "Lavendelbad · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_isabelle_nackt_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_isabelle_nackt_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_isabelle_nackt_3.png"
+     ]
+    },
+    {
+     "id": "isabelle|zelle|oben_ohne",
+     "titel": "Zelle · oben ohne",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_isabelle_oben_ohne-6.png"
+     ]
+    },
+    {
+     "id": "isabelle|zelle|nackt",
+     "titel": "Zelle · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_isabelle_nackt.png"
+     ]
+    }
+   ]
+  },
+  {
+   "titel": "Jana",
+   "gruppen": [
+    {
+     "id": "jana|dusche|knapp",
+     "titel": "Dusche · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_jana_knapp.png"
+     ]
+    },
+    {
+     "id": "jana|dusche|nackt",
+     "titel": "Dusche · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_jana_nackt-3.png"
+     ]
+    },
+    {
+     "id": "jana|koje|knapp",
+     "titel": "Koje · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_jana_knapp-1.png"
+     ]
+    },
+    {
+     "id": "jana|koje|oben_ohne",
+     "titel": "Koje · oben ohne",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_jana_oben_ohne-7.png"
+     ]
+    },
+    {
+     "id": "jana|shibari|knapp",
+     "titel": "Shibari · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_jana_knapp_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_jana_knapp_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_jana_knapp_3.png"
+     ]
+    },
+    {
+     "id": "jana|shibari|oben_ohne",
+     "titel": "Shibari · oben ohne",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_jana_oben_ohne_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_jana_oben_ohne_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_jana_oben_ohne_3.png"
+     ]
+    },
+    {
+     "id": "jana|shibari|nackt",
+     "titel": "Shibari · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_jana_nackt_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_jana_nackt_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_jana_nackt_3.png"
+     ]
+    }
+   ]
+  },
+  {
+   "titel": "Lea",
+   "gruppen": [
+    {
+     "id": "lea|beach|knapp",
+     "titel": "Beach · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_knapp1.png"
+     ]
+    },
+    {
+     "id": "lea|beach|nackt",
+     "titel": "Beach · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_nackt_2-7.png"
+     ]
+    },
+    {
+     "id": "lea|garage|knapp",
+     "titel": "Garage · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_knapp.png"
+     ]
+    },
+    {
+     "id": "lea|garage|oben_ohne",
+     "titel": "Garage · oben ohne",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_oben_ohne.png"
+     ]
+    },
+    {
+     "id": "lea|garage|nackt",
+     "titel": "Garage · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_nackt-2.png"
+     ]
+    },
+    {
+     "id": "lea|plankton|knapp",
+     "titel": "Plankton · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_knapp_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_knapp_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_knapp_3.png"
+     ]
+    },
+    {
+     "id": "lea|plankton|oben_ohne",
+     "titel": "Plankton · oben ohne",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_oben_ohne_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_oben_ohne_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_oben_ohne_3.png"
+     ]
+    },
+    {
+     "id": "lea|plankton|nackt",
+     "titel": "Plankton · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_nackt_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_nackt_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_nackt_3.png"
+     ]
+    }
+   ]
+  },
+  {
+   "titel": "Lola",
+   "gruppen": [
+    {
+     "id": "lola|koje|knapp",
+     "titel": "Koje · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_knapp_2-1.png"
+     ]
+    },
+    {
+     "id": "lola|koje|oben_ohne",
+     "titel": "Koje · oben ohne",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_oben_ohne_2-2.png"
+     ]
+    },
+    {
+     "id": "lola|koje|nackt",
+     "titel": "Koje · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_nackt_2.png"
+     ]
+    },
+    {
+     "id": "lola|kombuese|knapp",
+     "titel": "Kombuese · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_knapp-1.png"
+     ]
+    },
+    {
+     "id": "lola|kombuese|oben_ohne",
+     "titel": "Kombuese · oben ohne",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_oben_ohne-1.png"
+     ]
+    },
+    {
+     "id": "lola|kombuese|nackt",
+     "titel": "Kombuese · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_nackt-1.png"
+     ]
+    },
+    {
+     "id": "lola|sahne|knapp",
+     "titel": "Sahne · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_knapp_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_knapp_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_knapp_3.png"
+     ]
+    },
+    {
+     "id": "lola|sahne|oben_ohne",
+     "titel": "Sahne · oben ohne",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_oben_ohne_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_oben_ohne_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_oben_ohne_3.png"
+     ]
+    },
+    {
+     "id": "lola|sahne|nackt",
+     "titel": "Sahne · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_nackt_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_nackt_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_nackt_3.png"
+     ]
+    }
+   ]
+  },
+  {
+   "titel": "Megan",
+   "gruppen": [
+    {
+     "id": "megan|buero|knapp",
+     "titel": "Buero · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_megan_knapp.png"
+     ]
+    },
+    {
+     "id": "megan|buero|oben_ohne",
+     "titel": "Buero · oben ohne",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_megan_oben_ohne.png"
+     ]
+    },
+    {
+     "id": "megan|buero|nackt",
+     "titel": "Buero · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_megan_nackt.png"
+     ]
+    },
+    {
+     "id": "megan|hubschrauber|knapp",
+     "titel": "Hubschrauber · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_megan_knapp_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_megan_knapp_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_megan_knapp_3.png"
+     ]
+    },
+    {
+     "id": "megan|hubschrauber|oben_ohne",
+     "titel": "Hubschrauber · oben ohne",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_megan_oben_ohne_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_megan_oben_ohne_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_megan_oben_ohne_3.png"
+     ]
+    },
+    {
+     "id": "megan|hubschrauber|nackt",
+     "titel": "Hubschrauber · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_megan_nackt_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_megan_nackt_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_megan_nackt_3.png"
+     ]
+    }
+   ]
+  },
+  {
+   "titel": "Rosi",
+   "gruppen": [
+    {
+     "id": "rosi|generatorraum|knapp",
+     "titel": "Generatorraum · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_knapp_2.png"
+     ]
+    },
+    {
+     "id": "rosi|generatorraum|oben_ohne",
+     "titel": "Generatorraum · oben ohne",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_oben_ohne_2-1.png"
+     ]
+    },
+    {
+     "id": "rosi|generatorraum|nackt",
+     "titel": "Generatorraum · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_nackt_2-1.png"
+     ]
+    },
+    {
+     "id": "rosi|strand|knapp",
+     "titel": "Strand · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_knapp_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_knapp_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_knapp_3.png"
+     ]
+    },
+    {
+     "id": "rosi|strand|oben_ohne",
+     "titel": "Strand · oben ohne",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_oben_ohne_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_oben_ohne_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_oben_ohne_3.png"
+     ]
+    },
+    {
+     "id": "rosi|strand|nackt",
+     "titel": "Strand · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_nackt_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_nackt_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_nackt_3.png"
+     ]
+    },
+    {
+     "id": "rosi|werkstatt|knapp",
+     "titel": "Werkstatt · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_knapp-5.png"
+     ]
+    },
+    {
+     "id": "rosi|werkstatt|oben_ohne",
+     "titel": "Werkstatt · oben ohne",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_oben_ohne-5.png"
+     ]
+    },
+    {
+     "id": "rosi|werkstatt|nackt",
+     "titel": "Werkstatt · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_nackt-3.png"
+     ]
+    }
+   ]
+  },
+  {
+   "titel": "Siri",
+   "gruppen": [
+    {
+     "id": "siri|dessous|knapp",
+     "titel": "Dessous · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_knapp_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_knapp_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_knapp_3.png"
+     ]
+    },
+    {
+     "id": "siri|dessous|oben_ohne",
+     "titel": "Dessous · oben ohne",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_oben_ohne_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_oben_ohne_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_oben_ohne_3.png"
+     ]
+    },
+    {
+     "id": "siri|dessous|nackt",
+     "titel": "Dessous · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_nackt_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_nackt_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_nackt_3.png"
+     ]
+    },
+    {
+     "id": "siri|vip|knapp",
+     "titel": "Vip · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_knapp-5.png"
+     ]
+    },
+    {
+     "id": "siri|vip|oben_ohne",
+     "titel": "Vip · oben ohne",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_oben_ohne-6.png"
+     ]
+    },
+    {
+     "id": "siri|vip|nackt",
+     "titel": "Vip · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_nackt_2-2.png"
+     ]
+    },
+    {
+     "id": "siri|vordeck|knapp",
+     "titel": "Vordeck · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_knapp-9.png"
+     ]
+    },
+    {
+     "id": "siri|vordeck|oben_ohne",
+     "titel": "Vordeck · oben ohne",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_oben_ohne_2-3.png"
+     ]
+    },
+    {
+     "id": "siri|vordeck|nackt",
+     "titel": "Vordeck · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_nackt_2-5.png"
+     ]
+    }
+   ]
+  },
+  {
+   "titel": "Sophia",
+   "gruppen": [
+    {
+     "id": "sophia|achterdeck|knapp",
+     "titel": "Achterdeck · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_knapp-10.png"
+     ]
+    },
+    {
+     "id": "sophia|achterdeck|oben_ohne",
+     "titel": "Achterdeck · oben ohne",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_oben_ohne_2-4.png"
+     ]
+    },
+    {
+     "id": "sophia|achterdeck|nackt",
+     "titel": "Achterdeck · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_nackt_2-5.png"
+     ]
+    },
+    {
+     "id": "sophia|koje|knapp",
+     "titel": "Koje · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_knapp_2-1.png"
+     ]
+    },
+    {
+     "id": "sophia|koje|oben_ohne",
+     "titel": "Koje · oben ohne",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_oben_ohne_2-1.png"
+     ]
+    },
+    {
+     "id": "sophia|koje|nackt",
+     "titel": "Koje · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_nackt_2-1.png"
+     ]
+    },
+    {
+     "id": "sophia|noir|knapp",
+     "titel": "Noir · knapp",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_knapp_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_knapp_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_knapp_3.png"
+     ]
+    },
+    {
+     "id": "sophia|noir|oben_ohne",
+     "titel": "Noir · oben ohne",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_oben_ohne_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_oben_ohne_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_oben_ohne_3.png"
+     ]
+    },
+    {
+     "id": "sophia|noir|nackt",
+     "titel": "Noir · nackt",
+     "bilder": [
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_nackt_3-1.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_nackt_3-2.png",
+      "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_nackt_3.png"
+     ]
+    }
+   ]
+  }
+ ]
+}

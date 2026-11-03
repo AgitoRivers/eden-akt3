@@ -1,0 +1,17 @@
+{
+ "mrwhite_1": {
+  "lufs": -18.8,
+  "dauer": 30.1,
+  "band_8_10k_db": -20.8
+ },
+ "mrwhite_2": {
+  "lufs": -18.4,
+  "dauer": 26.7,
+  "band_8_10k_db": -21.1
+ },
+ "mrwhite_3": {
+  "lufs": -18.3,
+  "dauer": 29.1,
+  "band_8_10k_db": -21.5
+ }
+}

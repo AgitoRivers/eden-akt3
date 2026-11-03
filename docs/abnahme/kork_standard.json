@@ -1,0 +1,8 @@
+{"id": "kork_standard", "titel": "Standard-Schwimmer: Korken mit Feder",
+ "hinweis": "Liegt im Wasser, solange bei Petru kein Köder gebaut ist (ohne Bonus). Eine Variante mit OK markieren. Vergleich: heutiger Cork Float von Petru.",
+ "items": [
+  {"id": "koeder_0_1", "titel": "1 · Naturkork, weiße Feder", "bild": "X:/AI/Eden/module/eden_rise/farm/koeder/_kandidaten/koeder_0_1.png", "soll": "Milchiger Fleck an der Schnur unten links", "vergleich": "X:/AI/Eden/module/eden_rise/farm/koeder/koeder_1_1.png", "vergleich_titel": "Cork Float (Petru)"},
+  {"id": "koeder_0_2", "titel": "2 · Roter Ring, graue Feder", "bild": "X:/AI/Eden/module/eden_rise/farm/koeder/_kandidaten/koeder_0_2.png", "soll": "Sauber; Drillingshaken", "vergleich": "X:/AI/Eden/module/eden_rise/farm/koeder/koeder_1_1.png", "vergleich_titel": "Cork Float (Petru)"},
+  {"id": "koeder_0_3", "titel": "3 · Sektkorken", "bild": "X:/AI/Eden/module/eden_rise/farm/koeder/_kandidaten/koeder_0_3.png", "soll": "Schriftzug auf dem Korken", "vergleich": "X:/AI/Eden/module/eden_rise/farm/koeder/koeder_1_1.png", "vergleich_titel": "Cork Float (Petru)"},
+  {"id": "koeder_0_4", "titel": "4 · Dunkler Kork, blaue Schnur", "bild": "X:/AI/Eden/module/eden_rise/farm/koeder/_kandidaten/koeder_0_4.png", "soll": "Sauber; lange Schnur rechts", "vergleich": "X:/AI/Eden/module/eden_rise/farm/koeder/koeder_1_1.png", "vergleich_titel": "Cork Float (Petru)"}
+ ]}

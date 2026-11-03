@@ -1,0 +1,31 @@
+{
+ "id": "charakter_citadelle_sieg",
+ "titel": "Citadelle: Hintergründe für den Sieg (Sonnenaufgang und Dorffest)",
+ "hinweis": "Die Insel ist gerettet. Den besten mit OK markieren, Wünsche (heller, wärmer, anderer Ort) in die Notiz.",
+ "items": [
+  {
+   "id": "CyberSieg_s1",
+   "titel": "Citadelle · Sonnenaufgang über der geretteten Insel, Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\CyberSieg_s1.jpg",
+   "soll": "hell und stolz: die Insel ist gerettet"
+  },
+  {
+   "id": "CyberSieg_s2",
+   "titel": "Citadelle · Hügel über der Bucht am Morgen, Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\CyberSieg_s2.jpg",
+   "soll": "hell und stolz: die Insel ist gerettet"
+  },
+  {
+   "id": "CyberSieg_f1",
+   "titel": "Citadelle · Dorffest auf der Piazza, Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\CyberSieg_f1.jpg",
+   "soll": "hell und stolz: die Insel ist gerettet"
+  },
+  {
+   "id": "CyberSieg_f2",
+   "titel": "Citadelle · Hafenpromenade mit Lichterketten, Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\CyberSieg_f2.jpg",
+   "soll": "hell und stolz: die Insel ist gerettet"
+  }
+ ]
+}

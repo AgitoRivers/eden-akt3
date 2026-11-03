@@ -1,0 +1,606 @@
+{
+ "id": "eden_consulting",
+ "titel": "Eden Consulting",
+ "untertitel": "Dein Lebenswerk. Deine Entscheidungen. · Vorschau Tag 1",
+ "titelbild": "tower_atrium_lobby.png",
+ "ziel": "Artikelkrise bewältigen und einen tragfähigen Weg vorbereiten. Die Vorschau umfasst Tag 1; die Finanzierungsentscheidung an Tag 7 folgt später.",
+ "probefahrt_tage": 1,
+ "karten_ordner": "X:\\AI\\Eden-Consulting-Vorschau\\module\\eden_consulting\\karten",
+ "zeitraster": {
+  "tage": 7,
+  "phasen": [
+   "ankunft",
+   "lage",
+   "arbeit",
+   "entscheidung",
+   "abend",
+   "bilanz"
+  ],
+  "pflicht": [
+   "ankunft",
+   "lage",
+   "entscheidung",
+   "bilanz"
+  ],
+  "wahl": [
+   "arbeit",
+   "abend"
+  ]
+ },
+ "attribute": [
+  "charm",
+  "empathy",
+  "perception",
+  "cunning",
+  "courage"
+ ],
+ "personas": [
+  {
+   "id": "gruender",
+   "rolle": "ceo",
+   "titel": "Duc · Gründer und CEO",
+   "oeffentlich": "Duc, founder and CEO of Eden Consulting, whose life's work is this company",
+   "vorgeschichte": "Du hast Eden mit diesem Team zu einer führenden Nachhaltigkeitsberatung aufgebaut. Jetzt braucht die europäische Expansion neues Kapital.",
+   "geheimnis": "Du fürchtest, dein Lebenswerk zu verlieren – und weißt noch nicht, was du zu seiner Rettung aufgeben kannst.",
+   "attribute": {
+    "charm": 3,
+    "empathy": 2,
+    "perception": 2,
+    "cunning": 1,
+    "courage": 3
+   },
+   "vorteil": "Kennt die Firma und ihre Menschen.",
+   "schwaeche": "Firma und Selbstwert sind schwer zu trennen.",
+   "start_items": []
+  }
+ ],
+ "personen": {
+  "bella": {
+   "name": "Bella Janesson",
+   "karte": "Bella Janesson",
+   "romanzierbar": true,
+   "schaetzt": [
+    "empathy",
+    "courage"
+   ],
+   "set_standard": "Nude",
+   "set_regeln": [],
+   "rolle": "Community Managerin",
+   "ziel": "Hold the team together without mandatory displays of happiness.",
+   "ablauf": {}
+  },
+  "chiara": {
+   "name": "Chiara Mae Lovely",
+   "karte": "Chiara Mae Lovely",
+   "romanzierbar": true,
+   "schaetzt": [
+    "empathy",
+    "courage"
+   ],
+   "set_standard": "Medical Uniform Dress",
+   "set_regeln": [],
+   "rolle": "Marketing und Kampagne",
+   "ziel": "Make the campaign useful instead of louder.",
+   "ablauf": {}
+  },
+  "greta": {
+   "name": "Greta Thalgard",
+   "karte": "Greta Thalgard",
+   "romanzierbar": true,
+   "schaetzt": [
+    "empathy",
+    "courage"
+   ],
+   "set_standard": "Red Cage Harness",
+   "set_regeln": [],
+   "rolle": "Head of Public Relations",
+   "ziel": "Protect credibility with statements she can defend.",
+   "ablauf": {}
+  },
+  "jade": {
+   "name": "Jade Hale",
+   "karte": "Jade Hale",
+   "romanzierbar": true,
+   "schaetzt": [
+    "empathy",
+    "courage"
+   ],
+   "set_standard": "Nude",
+   "set_regeln": [],
+   "rolle": "Empfang",
+   "ziel": "Do her job and be treated as a person.",
+   "ablauf": {}
+  },
+  "linda": {
+   "name": "Linda Herzog",
+   "karte": "Linda Herzog",
+   "romanzierbar": true,
+   "schaetzt": [
+    "empathy",
+    "courage"
+   ],
+   "set_standard": "Unclothed",
+   "set_regeln": [],
+   "rolle": "Head of Consulting",
+   "ziel": "Protect delivery and the team while making a viable plan.",
+   "ablauf": {}
+  },
+  "maya": {
+   "name": "Maya Brandt",
+   "karte": "Maya Brandt",
+   "romanzierbar": true,
+   "schaetzt": [
+    "empathy",
+    "courage"
+   ],
+   "set_standard": "Pink Bikini Set",
+   "set_regeln": [],
+   "rolle": "Senior Consultant",
+   "ziel": "Insist on measurable impact and honest tradeoffs.",
+   "ablauf": {}
+  },
+  "milena": {
+   "name": "Milena Vaughn",
+   "karte": "Milena Vaughn",
+   "romanzierbar": true,
+   "schaetzt": [
+    "empathy",
+    "courage"
+   ],
+   "set_standard": "Nude",
+   "set_regeln": [],
+   "rolle": "Senior Consultant",
+   "ziel": "Earn responsibility through a concrete, excellent plan.",
+   "ablauf": {}
+  },
+  "morgan": {
+   "name": "Morgan Ashford",
+   "karte": "Morgan Ashford",
+   "romanzierbar": true,
+   "schaetzt": [
+    "empathy",
+    "courage"
+   ],
+   "set_standard": "Nude",
+   "set_regeln": [],
+   "rolle": "Head of Investor Relations",
+   "ziel": "Present a defensible plan to investors without relying on her surname.",
+   "ablauf": {}
+  },
+  "priscilla": {
+   "name": "Priscilla Crane",
+   "karte": "Priscilla Crane",
+   "romanzierbar": true,
+   "schaetzt": [
+    "empathy",
+    "courage"
+   ],
+   "set_standard": "Pink Business Suit",
+   "set_regeln": [],
+   "rolle": "CFO",
+   "ziel": "Make the numbers viable without pretending cuts are painless.",
+   "ablauf": {}
+  },
+  "sophia": {
+   "name": "Sophia Paulin",
+   "karte": "Sophia Paulin",
+   "romanzierbar": true,
+   "schaetzt": [
+    "empathy",
+    "courage"
+   ],
+   "set_standard": "Nude",
+   "set_regeln": [],
+   "rolle": "Persönliche Assistenz",
+   "ziel": "Protect his time while asking to be heard as a person.",
+   "ablauf": {}
+  }
+ },
+ "raeume": {
+  "tower_atrium_lobby": {
+   "label": "tower atrium lobby",
+   "beschreibung": "Ground floor. Glass-walled, three storeys of open air, the building's actual front door. Reception sits at its far end; the lift bank is against the back wall. First and last thing anyone sees each day — the closest thing the building has to a stage.",
+   "zugang": [],
+   "privat": 1,
+   "bild": {
+    "tag": "tower_atrium_lobby.png"
+   }
+  },
+  "reception": {
+   "label": "reception",
+   "beschreibung": "Ground floor, part of the atrium. Jade's desk — badges, courier deliveries, the first face for anyone arriving. Sightline across the whole lobby and straight to the lifts, so very little comes or goes without Jade at least half-noticing.",
+   "zugang": [],
+   "privat": 1,
+   "bild": {
+    "tag": "reception.png"
+   }
+  },
+  "underground_parking": {
+   "label": "underground parking",
+   "beschreibung": "Basement level, reached by a separate ramp or the same lift bank one floor below the atrium. Concrete, echoing, patchy phone signal — the one place in the building genuinely away from cameras and coworkers both, favored for calls nobody wants overheard.",
+   "zugang": [],
+   "privat": 1,
+   "bild": {
+    "tag": "underground_parking.png"
+   }
+  },
+  "office_lift": {
+   "label": "the lift",
+   "beschreibung": "Connects every level: parking below the atrium, the atrium itself, the main office floor, and the executive floor on top. Mirrored, cramped enough that two people standing in it are standing close whether they mean to or not.",
+   "zugang": [],
+   "privat": 1,
+   "bild": {
+    "tag": "office_lift.png"
+   }
+  },
+  "office": {
+   "label": "main office floor",
+   "beschreibung": "One floor up from the atrium. Open-plan, most of the day-to-day headcount, cubicles along the windows, break room and copy room off the near corridor, conference rooms off the far one. The default backdrop for almost everyone below Senior level.",
+   "zugang": [],
+   "privat": 1,
+   "bild": {
+    "tag": "office.png"
+   }
+  },
+  "cubicle": {
+   "label": "a cubicle",
+   "beschreibung": "One desk among many on the main office floor, low partitions, no real privacy — anything said above a murmur carries two desks over. Chiara's desk is here for now, despite the campaign attention.",
+   "zugang": [],
+   "privat": 1,
+   "bild": {
+    "tag": "cubicle.png"
+   }
+  },
+  "copy_room": {
+   "label": "copy room",
+   "beschreibung": "Just off the main floor, cramped, smells like warm toner. Nobody lingers here on purpose, which makes it a reliable spot for a thirty-second conversation nobody planned to have.",
+   "zugang": [],
+   "privat": 1,
+   "bild": {
+    "tag": "copy_room.png"
+   }
+  },
+  "break_room": {
+   "label": "break room",
+   "beschreibung": "Main floor, a counter, a fridge with everyone's labeled lunches, one window. Half-lit and near-empty outside lunch hours — the closest thing the main floor has to a quiet corner after dark.",
+   "zugang": [],
+   "privat": 1,
+   "bild": {
+    "tag": "break_room.png"
+   }
+  },
+  "supply_closet": {
+   "label": "supply closet",
+   "beschreibung": "Windowless, narrow, paper and cables — directly opposite the server room down the same back corridor. Nobody's first choice for anything, which is exactly why it occasionally gets used for a conversation that shouldn't be overheard.",
+   "zugang": [],
+   "privat": 1,
+   "bild": {
+    "tag": "supply_closet.png"
+   }
+  },
+  "office_toilet": {
+   "label": "office restroom",
+   "beschreibung": "Main floor, standard, mirrors longer than strictly necessary. The ordinary place to physically reset for thirty seconds mid-crisis.",
+   "zugang": [],
+   "privat": 1,
+   "bild": {
+    "tag": "office_toilet.png"
+   }
+  },
+  "focus_pod_seated": {
+   "label": "seated focus pod",
+   "beschreibung": "A single glass-walled booth off the main floor for calls or heads-down work. Soundproofed enough to feel private, glass-walled enough to never actually be unseen — everyone on the floor can watch, nobody can hear.",
+   "zugang": [],
+   "privat": 1,
+   "bild": {
+    "tag": "focus_pod_seated.png"
+   }
+  },
+  "focus_pod_standing": {
+   "label": "standing focus pod",
+   "beschreibung": "Same idea as the seated pods, narrower, no chair — a five-minute call space, not a workspace. Usually free precisely because it's uncomfortable.",
+   "zugang": [],
+   "privat": 1,
+   "bild": {
+    "tag": "focus_pod_standing.png"
+   }
+  },
+  "community_room": {
+   "label": "community room",
+   "beschreibung": "Main floor, soft seating, the room Bella built the townhall culture out of — wellbeing sessions, informal gatherings, the sportraum's quieter cousin. Feels the most like Bella's actual office, more than her real one.",
+   "zugang": [],
+   "privat": 1,
+   "bild": {
+    "tag": "community_room.png"
+   }
+  },
+  "conference_room": {
+   "label": "conference room (day/night)",
+   "beschreibung": "Main floor, glass-walled, the everyday meeting room — pitch rehearsals, deck reviews, the room Milli redrafts slides in at eleven at night when the floor's otherwise empty. Same room by day and by night; after hours it's just her and one lamp.",
+   "zugang": [],
+   "privat": 1,
+   "bild": {
+    "tag": "conference_room.png"
+   }
+  },
+  "archive": {
+   "label": "archive",
+   "beschreibung": "Back corridor, next to the server room, same nobody-comes-here quality. Physical files nobody's digitized yet — the building's one genuinely forgotten room.",
+   "zugang": [],
+   "privat": 1,
+   "bild": {
+    "tag": "archive.png"
+   }
+  },
+  "server_room": {
+   "label": "server room",
+   "beschreibung": "End of the back corridor, opposite the supply closet, one door past the copy room. Windowless, cold, constant fan noise. Nobody comes in here voluntarily except IT — which makes it the single most reliable place in the building to not be seen.",
+   "zugang": [],
+   "privat": 1,
+   "bild": {
+    "tag": "server_room.png"
+   }
+  },
+  "private_office": {
+   "label": "a private office (day/night)",
+   "beschreibung": "Executive floor. A senior office — currently Linda's, as Head of Consulting — glass door, real privacy for the first time in the building. Same room lit warm and quiet after hours, when the floor below has cleared out.",
+   "zugang": [],
+   "privat": 3,
+   "bild": {
+    "tag": "private_office.png"
+   }
+  },
+  "executive_boardroom": {
+   "label": "executive boardroom (day/night)",
+   "beschreibung": "Executive floor, the real decisions get made here — board-level meetings, the room used when a conversation actually matters instead of just being scheduled. Same room after hours: dimmer, quieter, used far less often, which makes anyone still in it after dark worth noticing.",
+   "zugang": [],
+   "privat": 1,
+   "bild": {
+    "tag": "executive_boardroom.png"
+   }
+  },
+  "inner_circle_office_founder": {
+   "label": "founder's office",
+   "beschreibung": "Executive floor, {{user}}'s own office — the literal top of the building's informal hierarchy, and the room every inner-circle conversation is ultimately measured against.",
+   "zugang": [],
+   "privat": 3,
+   "bild": {
+    "tag": "inner_circle_office_founder.png"
+   }
+  },
+  "inner_circle_office_personal": {
+   "label": "{{user}}'s private office",
+   "beschreibung": "Executive floor, {{user}}'s second, quieter space — less official than the founder's office next door, used for anything that isn't strictly business. Fewer people have ever been inside it, which is its own kind of status marker.",
+   "zugang": [],
+   "privat": 1,
+   "bild": {
+    "tag": "inner_circle_office_personal.png"
+   }
+  },
+  "inner_circle_office_analytics": {
+   "label": "analytics office",
+   "beschreibung": "Executive floor, the third inner-circle office — reserved, informally, for whichever senior consultant currently sits closest to the top of the ranking. Currently unassigned in practice, though Milli treats it as rightfully contested.",
+   "zugang": [],
+   "privat": 1,
+   "bild": {
+    "tag": "inner_circle_office_analytics.png"
+   }
+  },
+  "secret_room": {
+   "label": "the secret room",
+   "beschreibung": "Executive floor, off a corridor most people don't have badge access to. Nobody below Senior level is entirely sure what it's for, which is exactly the point — use it as a genuinely private space when a scene needs one nobody could stumble into.",
+   "zugang": [],
+   "privat": 3,
+   "bild": {
+    "tag": "secret_room.png"
+   }
+  },
+  "nap_room": {
+   "label": "nap room",
+   "beschreibung": "Executive floor, blackout curtains, one cot, silence. Ostensibly a wellness perk; in practice the place people actually admit to being exhausted.",
+   "zugang": [],
+   "privat": 1,
+   "bild": {
+    "tag": "nap_room.png"
+   }
+  },
+  "sky_lounge_bar": {
+   "label": "sky lounge bar",
+   "beschreibung": "Top of the tower, just below the open terrace — low light, a real bar, city view through floor-to-ceiling glass. The executive-floor alternative to a hotel bar for a conversation that shouldn't happen in an office.",
+   "zugang": [],
+   "privat": 1,
+   "bild": {
+    "tag": "sky_lounge_bar.png"
+   }
+  },
+  "rooftop_terrace_office": {
+   "label": "rooftop terrace",
+   "beschreibung": "The very top of the building, open air, skyline in every direction. Used for informal one-on-ones, campaign photo shoots, and the rare moment anyone in this building gets actual fresh air.",
+   "zugang": [],
+   "privat": 1,
+   "bild": {
+    "tag": "rooftop_terrace_office.png"
+   }
+  },
+  "corporate_gym": {
+   "label": "corporate gym",
+   "beschreibung": "A dedicated wellness floor below the executive level — real equipment, mirrors, the one place Milli's old cheer-captain discipline gets to run at full volume without an audience judging it as overkill.",
+   "zugang": [],
+   "privat": 1,
+   "bild": {
+    "tag": "corporate_gym.png"
+   }
+  },
+  "home_office": {
+   "label": "a home office",
+   "beschreibung": "NOT in the tower — this is whoever's own apartment or house, set up to work from. Distinct physical location, no shared floor plan with the rest of Eden Consulting; use only when a scene is explicitly off-site.",
+   "zugang": [],
+   "privat": 3,
+   "bild": {
+    "tag": "home_office.png"
+   }
+  }
+ },
+ "werte": {
+  "finanzen": {
+   "label": "Finanzieller Spielraum",
+   "bereich": [
+    0,
+    10
+   ],
+   "start": 4
+  },
+  "kunden": {
+   "label": "Kundenvertrauen",
+   "bereich": [
+    0,
+    10
+   ],
+   "start": 5
+  },
+  "team": {
+   "label": "Leistungsfähigkeit des Teams",
+   "bereich": [
+    0,
+    10
+   ],
+   "start": 6
+  },
+  "fuehrung": {
+   "label": "Rückhalt für deine Führung",
+   "bereich": [
+    0,
+    10
+   ],
+   "start": 5
+  },
+  "vertrauen": {
+   "label": "Vertrauen",
+   "bereich": [
+    0,
+    5
+   ],
+   "je": [
+    "bella",
+    "chiara",
+    "greta",
+    "jade",
+    "linda",
+    "maya",
+    "milena",
+    "morgan",
+    "priscilla",
+    "sophia"
+   ],
+   "start": {
+    "bella": 3,
+    "chiara": 2,
+    "greta": 2,
+    "jade": 2,
+    "linda": 4,
+    "maya": 2,
+    "milena": 2,
+    "morgan": 2,
+    "priscilla": 3,
+    "sophia": 4
+   }
+  },
+  "begehren": {
+   "label": "Nähe",
+   "bereich": [
+    0,
+    5
+   ],
+   "je": [
+    "bella",
+    "chiara",
+    "greta",
+    "jade",
+    "linda",
+    "maya",
+    "milena",
+    "morgan",
+    "priscilla",
+    "sophia"
+   ],
+   "start": {
+    "bella": 1,
+    "chiara": 1,
+    "greta": 1,
+    "jade": 2,
+    "linda": 3,
+    "maya": 1,
+    "milena": 1,
+    "morgan": 1,
+    "priscilla": 1,
+    "sophia": 1
+   }
+  },
+  "rueckhalt": {
+   "label": "Beruflicher Rückhalt",
+   "bereich": [
+    0,
+    10
+   ],
+   "je": [
+    "bella",
+    "chiara",
+    "greta",
+    "jade",
+    "linda",
+    "maya",
+    "milena",
+    "morgan",
+    "priscilla",
+    "sophia"
+   ],
+   "start": {
+    "bella": 5,
+    "chiara": 5,
+    "greta": 5,
+    "jade": 5,
+    "linda": 5,
+    "maya": 5,
+    "milena": 5,
+    "morgan": 5,
+    "priscilla": 5,
+    "sophia": 5
+   }
+  }
+ },
+ "uhren": {},
+ "wahrheit": {
+  "fest": "ausgangslage",
+  "vorrat": {
+   "ausgangslage": {
+    "kern": "The article and capital requirement are established. Do not invent perpetrators or reveal private character knowledge.",
+    "enthuellung_ab_tag": 7,
+    "verrat_woerter": [],
+    "hinweise": []
+   }
+  }
+ },
+ "fixpunkte": [],
+ "items": {},
+ "storylets": {},
+ "ereignisse": {},
+ "geld": {
+  "start": 0,
+  "honorar": 0
+ },
+ "laeden": {},
+ "yachtware": {},
+ "bekannt_start": [
+  "bella",
+  "chiara",
+  "greta",
+  "jade",
+  "linda",
+  "maya",
+  "milena",
+  "morgan",
+  "priscilla",
+  "sophia"
+ ],
+ "welt": "{{user}} runs Eden Consulting, one of DACH's leading sustainability consultancies, currently balanced between a European expansion and collapse — both depend on him personally. A conservative magazine recently ran a piece painting him as a charismatic cult-of-personality leader. Staff defends him publicly; privately, almost everyone quietly wonders if there's something to it.\nThe \"inner circle\" is a real, tracked thing — who gets picked for the big pitches, who sits front row at the monthly all-hands (townhalls run like keynotes crossed with group therapy: personal highlights, real emotion, quietly fought-over front rows). Three offices on the executive floor are the physical shorthand for having made it: inner_circle_office_founder ({{user}}'s own), inner_circle_office_personal (his second, more private space) and inner_circle_office_analytics (reserved for whichever senior consultant is closest to the top of the ranking right now).\nThe article appears TODAY. Company and player are not on a boat. This is a credible corporate drama with occasional office comedy. The company needs expansion capital; reducing scope is viable but may cost jobs. A competitor takeover is the worst prospect, not an accomplished fact. Day 7 is the financing deadline. Company indexes are not euro amounts. Only the founder persona is playable in this preview. Never transfer private knowledge between characters. Speak German. Avoid dramatic conspiracies invented to explain normal disagreements."
+}

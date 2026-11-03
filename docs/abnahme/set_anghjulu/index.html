@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Set Don Anghjulu - NPC-Satz (22 Posen)</title>
+<style>
+:root{--bg:#16130f;--card:#211d17;--line:#3a3328;--text:#efe6d6;--mut:#a89c88;--beige:#d9c39a;--ok:#5fae6e;--neu:#d0644f}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 system-ui,Segoe UI,sans-serif}
+header{position:sticky;top:0;z-index:5;background:#16130fee;backdrop-filter:blur(6px);border-bottom:1px solid var(--line);
+ padding:12px 16px;display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center}
+h1{font-size:18px;margin:0;color:var(--beige);font-weight:600}
+.zahl{color:var(--mut)}.zahl b{color:var(--text)}
+.sp{flex:1}
+button{font:inherit;border:1px solid var(--line);background:#2b251d;color:var(--text);border-radius:8px;padding:6px 12px;cursor:pointer}
+button:hover{border-color:var(--beige)}
+.hinweis{color:var(--mut);padding:10px 16px 0;max-width:1100px}
+.filter button.an{background:var(--beige);color:#16130f;border-color:var(--beige)}
+main{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,420px),1fr));gap:16px;padding:16px}
+.k{background:var(--card);border:2px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.k.ok{border-color:var(--ok)}.k.neu{border-color:var(--neu)}
+.bilder{display:flex;gap:2px;background:#000}
+.bilder figure{margin:0;flex:1;position:relative;min-width:0}
+.bilder figure.v{flex:0 0 45%}
+.bilder img{width:100%;height:300px;object-fit:contain;display:block;cursor:zoom-in;background:#8f897e}   /* Grau: freigestellte Sprites (auch dunkle) bleiben sichtbar */
+.bilder .leer{height:300px;display:flex;align-items:center;justify-content:center;background:#0c0a08;color:var(--mut);
+ font-size:14px;letter-spacing:.04em;border:1px dashed var(--line)}
+.bilder figcaption{position:absolute;left:6px;top:6px;font-size:12px;background:#000a;padding:1px 6px;border-radius:4px;color:var(--mut)}
+.inh{padding:10px 12px;display:flex;flex-direction:column;gap:8px}
+.kopf{display:flex;gap:8px;align-items:baseline}.kopf b{font-size:16px}.kopf span{color:var(--mut);font-size:12px;margin-left:auto}
+.soll{color:var(--mut);font-size:13px}
+.knoepfe{display:flex;gap:8px}
+.knoepfe button{flex:1;padding:8px}
+.k.ok .b-ok{background:var(--ok);border-color:var(--ok);color:#0d1a10}
+.k.neu .b-neu{background:var(--neu);border-color:var(--neu);color:#1a0d0a}
+textarea{font:inherit;font-size:13px;width:100%;min-height:38px;resize:vertical;background:#16130f;color:var(--text);
+ border:1px solid var(--line);border-radius:8px;padding:6px 8px}
+#gross{position:fixed;inset:0;background:#000e;display:none;align-items:center;justify-content:center;z-index:9;cursor:zoom-out}
+#gross img{max-width:96vw;max-height:94vh}
+#kopiert{color:var(--ok);display:none}
+</style></head><body>
+<header><h1>Set Don Anghjulu - NPC-Satz (22 Posen)</h1>
+ <span class="zahl"><b id="n-ok">0</b> OK · <b id="n-neu">0</b> neu · <b id="n-offen">0</b> offen</span>
+ <span class="filter"><button data-f="alle" class="an">Alle</button> <button data-f="offen">Offen</button> <button data-f="neu">Neu</button></span>
+ <span class="sp"></span>
+ <button id="alle-ok">Rest OK</button>
+ <button id="kopieren">Ergebnis kopieren</button><span id="kopiert">kopiert</span>
+</header>
+<div class="hinweis">NPC-Ausdruecke ohne desire_2, ohne Rueckansichten. Ablage: expressions\Yacht_Anghjulu\Standardoh. Noch nichts im Spiel.</div>
+<main id="liste"></main>
+<div id="gross"><img alt=""></div>
+<script>
+const D = {"id": "set_anghjulu", "titel": "Set Don Anghjulu - NPC-Satz (22 Posen)", "items": [{"id": "admiration_2", "titel": "Don Anghjulu - admiration_2", "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/Yacht_Anghjulu/Standard/roh/admiration_2.png", "stand": "30.10. 20:25", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "amusement", "titel": "Don Anghjulu - amusement", "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/Yacht_Anghjulu/Standard/roh/amusement.png", "stand": "30.10. 19:59", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "anger", "titel": "Don Anghjulu - anger", "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/Yacht_Anghjulu/Standard/roh/anger.png", "stand": "30.10. 20:01", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "annoyance", "titel": "Don Anghjulu - annoyance", "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/Yacht_Anghjulu/Standard/roh/annoyance.png", "stand": "30.10. 20:01", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "approval", "titel": "Don Anghjulu - approval", "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/Yacht_Anghjulu/Standard/roh/approval.png", "stand": "30.10. 19:59", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "caring", "titel": "Don Anghjulu - caring", "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/Yacht_Anghjulu/Standard/roh/caring.png", "stand": "30.10. 20:03", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "confusion", "titel": "Don Anghjulu - confusion", "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/Yacht_Anghjulu/Standard/roh/confusion.png", "stand": "30.10. 20:02", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "curiosity", "titel": "Don Anghjulu - curiosity", "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/Yacht_Anghjulu/Standard/roh/curiosity.png", "stand": "30.10. 20:02", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "disappointment", "titel": "Don Anghjulu - disappointment", "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/Yacht_Anghjulu/Standard/roh/disappointment.png", "stand": "30.10. 20:00", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "disapproval", "titel": "Don Anghjulu - disapproval", "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/Yacht_Anghjulu/Standard/roh/disapproval.png", "stand": "30.10. 20:01", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "disgust", "titel": "Don Anghjulu - disgust", "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/Yacht_Anghjulu/Standard/roh/disgust.png", "stand": "30.10. 20:02", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "embarrassment_2", "titel": "Don Anghjulu - embarrassment_2", "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/Yacht_Anghjulu/Standard/roh/embarrassment_2.png", "stand": "30.10. 20:25", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "excitement_2", "titel": "Don Anghjulu - excitement_2", "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/Yacht_Anghjulu/Standard/roh/excitement_2.png", "stand": "30.10. 20:25", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "fear_2", "titel": "Don Anghjulu - fear_2", "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/Yacht_Anghjulu/Standard/roh/fear_2.png", "stand": "30.10. 20:07", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "gratitude", "titel": "Don Anghjulu - gratitude", "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/Yacht_Anghjulu/Standard/roh/gratitude.png", "stand": "30.10. 19:59", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "joy", "titel": "Don Anghjulu - joy", "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/Yacht_Anghjulu/Standard/roh/joy.png", "stand": "30.10. 19:59", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "love_2", "titel": "Don Anghjulu - love_2", "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/Yacht_Anghjulu/Standard/roh/love_2.png", "stand": "30.10. 20:26", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "nervousness", "titel": "Don Anghjulu - nervousness", "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/Yacht_Anghjulu/Standard/roh/nervousness.png", "stand": "30.10. 20:03", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "neutral", "titel": "Don Anghjulu - neutral", "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/Yacht_Anghjulu/Standard/roh/neutral.png", "stand": "30.10. 20:03", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "pride", "titel": "Don Anghjulu - pride", "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/Yacht_Anghjulu/Standard/roh/pride.png", "stand": "30.10. 20:00", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "sadness", "titel": "Don Anghjulu - sadness", "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/Yacht_Anghjulu/Standard/roh/sadness.png", "stand": "30.10. 20:01", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "surprise", "titel": "Don Anghjulu - surprise", "soll": "NPC-Satz, Preset Yacht_Anghjulu, Set anghjulu_standard, Fassung C (verwaschene schwarze Soutane, Flachmann)", "bild": "file:///X:/AI/ComfyUI_krea2/ComfyUI/output/expressions/Yacht_Anghjulu/Standard/roh/surprise.png", "stand": "30.10. 20:02", "vergleich": "", "vergleich_titel": "Vergleich"}], "server": false, "urteile": {}};
+const KEY = "abnahme:" + D.id;
+let S = D.urteile || {};
+if (!D.server) { try { S = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { S = {}; } }
+let timer = null;
+const save = () => {
+  try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {}
+  if (D.server) { clearTimeout(timer); timer = setTimeout(() => fetch("urteil", {method: "POST", body: JSON.stringify(S)}), 300); }
+  zaehlen();
+};
+let filter = "alle";
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function karte(it) {
+  const st = S[it.id] || {};
+  const el = document.createElement("section");
+  el.className = "k " + (st.urteil || "");
+  el.dataset.id = it.id;
+  el.innerHTML =
+    '<div class="bilder"><figure>' + (it.bild ? '<img loading="lazy" src="' + it.bild + '" alt="">'
+      : '<div class="leer">noch kein Bild</div>') + '<figcaption>neu</figcaption></figure>' +
+    (it.vergleich ? '<figure class="v"><img loading="lazy" src="' + it.vergleich + '" alt=""><figcaption>' + esc(it.vergleich_titel) + '</figcaption></figure>' : '') +
+    '</div><div class="inh"><div class="kopf"><b>' + esc(it.titel) + '</b><span>' + esc(it.stand) + '</span></div>' +
+    (it.soll ? '<div class="soll">' + esc(it.soll) + '</div>' : '') +
+    '<div class="knoepfe"><button class="b-ok">✓ OK</button><button class="b-neu">✗ Neu</button></div>' +
+    '<textarea placeholder="Notiz (was soll anders werden?)">' + esc(st.notiz || "") + '</textarea></div>';
+  el.querySelector(".b-ok").onclick = () => setze(it.id, "ok");
+  el.querySelector(".b-neu").onclick = () => setze(it.id, "neu");
+  el.querySelector("textarea").oninput = e => { (S[it.id] = S[it.id] || {}).notiz = e.target.value; save(); };
+  el.querySelectorAll("img").forEach(i => i.onclick = () => { gross.querySelector("img").src = i.src; gross.style.display = "flex"; });
+  return el;
+}
+function setze(id, urteil) {
+  const st = S[id] = S[id] || {};
+  st.urteil = st.urteil === urteil ? "" : urteil;
+  document.querySelector('[data-id="' + id + '"]').className = "k " + st.urteil;
+  save(); zeigen();
+}
+function zaehlen() {
+  const u = D.items.map(it => (S[it.id] || {}).urteil || "");
+  document.getElementById("n-ok").textContent = u.filter(x => x === "ok").length;
+  document.getElementById("n-neu").textContent = u.filter(x => x === "neu").length;
+  document.getElementById("n-offen").textContent = u.filter(x => !x).length;
+}
+function zeigen() {
+  document.querySelectorAll(".k").forEach(el => {
+    const u = (S[el.dataset.id] || {}).urteil || "";
+    el.style.display = filter === "alle" || (filter === "offen" ? !u : u === filter) ? "" : "none";
+  });
+}
+function ergebnis() {
+  const z = ["Abnahme " + D.titel + ":"];
+  for (const it of D.items) {
+    const st = S[it.id] || {};
+    z.push("- " + it.id + ": " + (st.urteil === "ok" ? "OK" : st.urteil === "neu" ? "NEU" : "offen") + (st.notiz ? " – " + st.notiz.trim() : ""));
+  }
+  return z.join("\n");
+}
+window.abnahme = () => ({id: D.id, urteile: S, text: ergebnis()});   // read by Claude from the browser pane
+const liste = document.getElementById("liste"), gross = document.getElementById("gross");
+D.items.forEach(it => liste.appendChild(karte(it)));
+gross.onclick = () => gross.style.display = "none";
+document.querySelectorAll(".filter button").forEach(b => b.onclick = () => {
+  filter = b.dataset.f; document.querySelectorAll(".filter button").forEach(x => x.classList.toggle("an", x === b)); zeigen();
+});
+document.getElementById("alle-ok").onclick = () => {
+  D.items.forEach(it => { const st = S[it.id] = S[it.id] || {}; if (!st.urteil) st.urteil = "ok"; });
+  document.querySelectorAll(".k").forEach(el => el.className = "k " + (S[el.dataset.id].urteil || ""));
+  save(); zeigen();
+};
+document.getElementById("kopieren").onclick = async () => {
+  try { await navigator.clipboard.writeText(ergebnis()); } catch (e) { prompt("Ergebnis:", ergebnis()); return; }
+  const k = document.getElementById("kopiert"); k.style.display = "inline"; setTimeout(() => k.style.display = "none", 1500);
+};
+zaehlen();
+</script></body></html>

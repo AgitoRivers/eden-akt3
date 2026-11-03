@@ -1,0 +1,31 @@
+{
+  "id": "charakter_orte",
+  "titel": "Charakter-Hintergründe: Test mit Terra Scura + Schläger",
+  "hinweis": "Welcher Ort soll es sein (einer für alle oder einer je Jacke)? Bitte den besten mit OK markieren, Wünsche in die Notiz.",
+  "items": [
+    {
+      "id": "DucErdeBat_Bruecke_v1",
+      "titel": "Terra Scura + Terremoto · Brücke bei Goldener Stunde",
+      "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucErdeBat_Bruecke_v1.png",
+      "soll": "immersiver Ort statt Sonnendeck, Duc grinsend, Schläger auf der Schulter"
+    },
+    {
+      "id": "DucErdeBat_Nacht_v1",
+      "titel": "Terra Scura + Terremoto · Achterdeck bei Nacht (Blaue Stunde)",
+      "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucErdeBat_Nacht_v1.png",
+      "soll": "immersiver Ort statt Sonnendeck, Duc grinsend, Schläger auf der Schulter"
+    },
+    {
+      "id": "DucErdeBat_Werkstatt_v1",
+      "titel": "Terra Scura + Terremoto · Rosis Werkstatt",
+      "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucErdeBat_Werkstatt_v1.png",
+      "soll": "immersiver Ort statt Sonnendeck, Duc grinsend, Schläger auf der Schulter"
+    },
+    {
+      "id": "DucErdeBat_Kabine_v1",
+      "titel": "Terra Scura + Terremoto · Ducs Kabine",
+      "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucErdeBat_Kabine_v1.png",
+      "soll": "immersiver Ort statt Sonnendeck, Duc grinsend, Schläger auf der Schulter"
+    }
+  ]
+}

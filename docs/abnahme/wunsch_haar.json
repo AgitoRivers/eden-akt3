@@ -1,0 +1,84 @@
+{
+ "id": "wunsch_haar_v1",
+ "titel": "Alternative Outfits: neue Frisuren",
+ "hinweis": "Rechts oder daneben das Bild aus dem Konzepttest. Ein Seed, nur fürs Konzept. Vorschlag: je Frau das markierte Bild.",
+ "items": [
+  {
+   "id": "Lea_D",
+   "titel": "Lea · D · Hollywood Waves (neu) (Vorschlag)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Lea_D\\neutral.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Lea_D\\neutral.png",
+   "soll": "statt Flechtzopf."
+  },
+  {
+   "id": "Sophia_W",
+   "titel": "Sophia · W · Finger Waves (neu) (Vorschlag)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Sophia_W\\neutral.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Sophia_W\\neutral.png",
+   "soll": "statt tiefem Zopf. 1930er wie der Trenchcoat."
+  },
+  {
+   "id": "Rosi_W",
+   "titel": "Rosi · W · Helmet Shake (neu) (Vorschlag)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Rosi_W\\neutral.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Rosi_W\\neutral.png",
+   "soll": "statt Dutt. Der Reißverschluss steht offen bis unter die Brust, offener als im Text, wie auf dem Bild, das du mit OK markiert hast. Sag, wenn er höher soll."
+  },
+  {
+   "id": "Rosi_A",
+   "titel": "Rosi · A · Blowout (vorhanden)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Rosi_A\\neutral.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Rosi_A\\neutral.png",
+   "soll": "statt Dutt."
+  },
+  {
+   "id": "Siri_K",
+   "titel": "Siri · K · Double Braids (vorhanden) (Vorschlag)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Siri_K\\neutral.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Siri_K\\neutral.png",
+   "soll": "statt offen."
+  },
+  {
+   "id": "Siri_D",
+   "titel": "Siri · D · Sleek Bun (vorhanden)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Siri_D\\neutral.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Siri_D\\neutral.png",
+   "soll": "statt offen. Der Dutt sitzt hoch, nicht tief."
+  },
+  {
+   "id": "Alva_W",
+   "titel": "Alva · W · Low Chignon (neu) (Vorschlag)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Alva_W\\neutral-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Alva_W\\neutral.png",
+   "soll": "statt offen. Mit Lederjacke und weißem Hemd."
+  },
+  {
+   "id": "Alva_K",
+   "titel": "Alva · K · Bun (vorhanden)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Alva_K\\neutral.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Alva_K\\neutral.png",
+   "soll": "statt offen."
+  },
+  {
+   "id": "Megan_W",
+   "titel": "Megan · W · Hime Cut (neu) (Vorschlag)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Megan_W\\neutral.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Megan_W\\neutral.png",
+   "soll": "statt offen. Anime-Schnitt zum Final-Boss-Mantel."
+  },
+  {
+   "id": "Megan_D",
+   "titel": "Megan · D · Sleek Ponytail (vorhanden)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Megan_D\\neutral.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Megan_D\\neutral.png",
+   "soll": "statt offen."
+  },
+  {
+   "id": "Chiara_Whites",
+   "titel": "Chiara · Whites · Sleek Bun (vorhanden) (Vorschlag)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Chiara_Whites\\neutral.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dress_whites\\Yacht_Chiara_Whites_5\\neutral.png",
+   "soll": "statt hohem Zopf. Von vorn wirkt es fast wie ihr Zopf. Mit deiner Prompt-Fassung tausche ich nur diesen Tag."
+  }
+ ]
+}

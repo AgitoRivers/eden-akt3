@@ -1,0 +1,31 @@
+{
+ "id": "bibi_loewe_r1",
+ "titel": "Bibi – Löwe nachgebessert (4 Posen)",
+ "hinweis": "Die anderen 9 Posen hast du schon freigegeben.",
+ "items": [
+  {
+   "id": "Bibi_heavy_windup",
+   "titel": "Bibi · heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\heavy_windup.png",
+   "soll": "Dein Wunsch: Löwe links, schwarze Mähne"
+  },
+  {
+   "id": "Bibi_heavy_attack",
+   "titel": "Bibi · heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\heavy_attack.png",
+   "soll": "Dein Wunsch: Gesicht und Pfoten schwarz"
+  },
+  {
+   "id": "Bibi_guard",
+   "titel": "Bibi · guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\guard.png",
+   "soll": "Dein Wunsch: Löwe links"
+  },
+  {
+   "id": "Bibi_victory",
+   "titel": "Bibi · victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\victory.png",
+   "soll": "Dein Wunsch: Löwe komplett schwarz"
+  }
+ ]
+}

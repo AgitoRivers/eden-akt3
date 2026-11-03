@@ -1,0 +1,874 @@
+{
+  "version": 1,
+  "svg_count": 217,
+  "files": [
+    {
+      "file": "abwehr/blind-bronze.svg",
+      "sha256": "d7a6f99529288607005542ca5c9d6686ff0efed76b2dfd65deae323900de0096"
+    },
+    {
+      "file": "abwehr/blind-gold.svg",
+      "sha256": "d19c9366a9481acbd0cff9e0613342f1d94d274c3f33292afa6b179b6c35d6d6"
+    },
+    {
+      "file": "abwehr/blind-silver.svg",
+      "sha256": "a9be5074d59fee1b4e9dae5d08a0a09e1f1d2c3c2f6095ed19005c5dba277012"
+    },
+    {
+      "file": "abwehr/blood-bronze.svg",
+      "sha256": "ef71d015376a2abd7c08f2b0dbdb9ec5cff175cf2527c8a19eac609a121e734d"
+    },
+    {
+      "file": "abwehr/blood-gold.svg",
+      "sha256": "690de35e398798df036e608a12a6c977cf61f5357f7b0555ce6a32aa35b62d3d"
+    },
+    {
+      "file": "abwehr/blood-silver.svg",
+      "sha256": "fd4ef03e479a0529ad03607773eb8b4a9e8c122de47584434270f9b8642fa76e"
+    },
+    {
+      "file": "abwehr/bolt-bronze.svg",
+      "sha256": "c5f1d140d3e02e9037640352d0f493f1a7a5254916421d517476f8540042d2f8"
+    },
+    {
+      "file": "abwehr/bolt-gold.svg",
+      "sha256": "e67fbe23983fa5ed5f3acb1baa7269f0073fe569ecc3f9669b35858719dd4aa8"
+    },
+    {
+      "file": "abwehr/bolt-silver.svg",
+      "sha256": "267dc7cfa94ab223f14e051d724371a29e0497b7a2bdcefab93900561a1ca06a"
+    },
+    {
+      "file": "abwehr/drop-bronze.svg",
+      "sha256": "3d4eeec708af1bd8cc36ebb152c24d4929d3316c898eeb786ccd2de918f70aca"
+    },
+    {
+      "file": "abwehr/drop-gold.svg",
+      "sha256": "d43931a0758ed00c684c3d8c2c10d8affed02feb085a4dd7ecb2e13ebb841ccc"
+    },
+    {
+      "file": "abwehr/drop-silver.svg",
+      "sha256": "07590c38734c576055e88456317d270f3288530052c897617eca8c974f39f07f"
+    },
+    {
+      "file": "abwehr/flame-bronze.svg",
+      "sha256": "f53dd95071ad685488db46115422af3a02e86cb0a279e35e5eb5f226c1f8d93d"
+    },
+    {
+      "file": "abwehr/flame-gold.svg",
+      "sha256": "f0bf93e5663eb2a432e5c019f1752f7a0e2b0248d40fcbbef4dcce24c3cb2afb"
+    },
+    {
+      "file": "abwehr/flame-silver.svg",
+      "sha256": "65776b7c6aefa3989dc1103b43319390f860ac727785ca4d15b64fb1ce1a7188"
+    },
+    {
+      "file": "abwehr/shake-bronze.svg",
+      "sha256": "a73677502a6886726bb6c828b5c9fd5bb7bfb43a1385b636036ce3fd623aeeca"
+    },
+    {
+      "file": "abwehr/shake-gold.svg",
+      "sha256": "02bb5b5729d425eea556f47afbfd7841d79469e8b94483001442de93241c9116"
+    },
+    {
+      "file": "abwehr/shake-silver.svg",
+      "sha256": "c0ea00650a9bfd61f5823ad4b758c954d0ce55c4f26085f416212b1ab4d88d02"
+    },
+    {
+      "file": "chips/backlash.svg",
+      "sha256": "d5eaf1ccb111e536930bc5f6f6071ed1ca218f156785e3e4fd582e383d768d3d"
+    },
+    {
+      "file": "chips/bloody_edge.svg",
+      "sha256": "1e23e6a478ffcfbca0212e5edb69a40c8cfb05d42121282f2f14c2cce7a295c6"
+    },
+    {
+      "file": "chips/boss_aura.svg",
+      "sha256": "51c05b20633915872e6dfa4e7d2beea34056a008bc7eabdfba7b11ee842e9bde"
+    },
+    {
+      "file": "chips/boulder_shell.svg",
+      "sha256": "36e0309a275bfbaa2c2d8e37c6476663a77309a0c19478159b386d8615e25eaa"
+    },
+    {
+      "file": "chips/breeze_shell.svg",
+      "sha256": "bb16c1595fc5f2533cd32a93e84c25452df1db4010a1d38cca90811755d7db19"
+    },
+    {
+      "file": "chips/bullseye.svg",
+      "sha256": "aebdbb7964594aa69d0accd88c1919feec5f3490d8cb22655eb4604f632a9201"
+    },
+    {
+      "file": "chips/calm_mind.svg",
+      "sha256": "868b2c1820645305e98781c45592449164dc316bb76029da84d9abf90125fa75"
+    },
+    {
+      "file": "chips/clear_eyes.svg",
+      "sha256": "d7a6f99529288607005542ca5c9d6686ff0efed76b2dfd65deae323900de0096"
+    },
+    {
+      "file": "chips/cool_head.svg",
+      "sha256": "f53dd95071ad685488db46115422af3a02e86cb0a279e35e5eb5f226c1f8d93d"
+    },
+    {
+      "file": "chips/cool_smile.svg",
+      "sha256": "aad3a03b6c0584b9a485d7cd638f4b0c6d0d38190061f44f58f0cb034e3a80e3"
+    },
+    {
+      "file": "chips/dead_center.svg",
+      "sha256": "862300fc301b332a199b6f3becaaf477eef98c5eb7cdb77316486e520123a937"
+    },
+    {
+      "file": "chips/deep_breath.svg",
+      "sha256": "96eefd9b1a785cefe92bad98ae92c2a9852708f4d5c883fc287214c211b4c4fb"
+    },
+    {
+      "file": "chips/deep_cut.svg",
+      "sha256": "c93c0071aa9e12110954301b90305838778325d397c4e4782ef07bb8201f712c"
+    },
+    {
+      "file": "chips/desert_soul.svg",
+      "sha256": "d43931a0758ed00c684c3d8c2c10d8affed02feb085a4dd7ecb2e13ebb841ccc"
+    },
+    {
+      "file": "chips/dragon_coat.svg",
+      "sha256": "7ed0c6b41521d7ee3df80087168f47390c5dac435a76189999da96579f450a88"
+    },
+    {
+      "file": "chips/dry_cuffs.svg",
+      "sha256": "3d4eeec708af1bd8cc36ebb152c24d4929d3316c898eeb786ccd2de918f70aca"
+    },
+    {
+      "file": "chips/dry_heart.svg",
+      "sha256": "07590c38734c576055e88456317d270f3288530052c897617eca8c974f39f07f"
+    },
+    {
+      "file": "chips/earthshaker.svg",
+      "sha256": "02bb9e8172ddc4f3f3cc91e7fe42e237fbb850649a5d8052a002891ee4d2bc13"
+    },
+    {
+      "file": "chips/ember_shell.svg",
+      "sha256": "0bd9f2b27ada737ab93c46f2cbe2ac4aea824b229573bd7539a63521a5294d2d"
+    },
+    {
+      "file": "chips/endless_run.svg",
+      "sha256": "cb3c02108363b310acc82f211bdad7be89849d6059814b75a48102407a8bf48e"
+    },
+    {
+      "file": "chips/firm_stance.svg",
+      "sha256": "a73677502a6886726bb6c828b5c9fd5bb7bfb43a1385b636036ce3fd623aeeca"
+    },
+    {
+      "file": "chips/flame_blade.svg",
+      "sha256": "963293b06f66d74cb832f52b9a6ba1128ee931fc5afae2a423daa0f71f307916"
+    },
+    {
+      "file": "chips/flame_shell.svg",
+      "sha256": "ea8d596f06fe501c35c3fb45caed5c6ac1f0abc09c5a0a47e2a4daea8eec928b"
+    },
+    {
+      "file": "chips/flood.svg",
+      "sha256": "7d576758d7649f2fb04f195f8411321d279af2a03f143035f076d31b23401f1f"
+    },
+    {
+      "file": "chips/frozen_heart.svg",
+      "sha256": "f0bf93e5663eb2a432e5c019f1752f7a0e2b0248d40fcbbef4dcce24c3cb2afb"
+    },
+    {
+      "file": "chips/full_flow.svg",
+      "sha256": "e6b98d8497dc6481630119a62286f168249d7a5f0027ef65da630ed1186bcd3e"
+    },
+    {
+      "file": "chips/gust_shell.svg",
+      "sha256": "c33617118c16a560a077c0c47e1ec006d3bbb36a5ed05d92f1d6834ed054de57"
+    },
+    {
+      "file": "chips/hammer_down.svg",
+      "sha256": "9b1e163987a9cd3a7765be999be08d210ff48f6c0d16132bfc8430b08dcf57a9"
+    },
+    {
+      "file": "chips/hammer_time.svg",
+      "sha256": "311c0d9153ec665bdb0ced6ef1c9c219de31d167e815f8d8dff0bfefca790602"
+    },
+    {
+      "file": "chips/hammerfall.svg",
+      "sha256": "106ffcdc2fd5890a815aba8e9c3a3017aa19ae013cf31d758f5230d084380078"
+    },
+    {
+      "file": "chips/hot_blade.svg",
+      "sha256": "fcb0689d8ca6ce1fe767815a02da35a7c2931cafd425e42d30a5d7e574802b46"
+    },
+    {
+      "file": "chips/ice_veins.svg",
+      "sha256": "65776b7c6aefa3989dc1103b43319390f860ac727785ca4d15b64fb1ce1a7188"
+    },
+    {
+      "file": "chips/inferno_blade.svg",
+      "sha256": "c7a7f2e7f56dcb884499f128b9d9dd4d661d44081e1a063727935462429678d5"
+    },
+    {
+      "file": "chips/inferno_shell.svg",
+      "sha256": "06733e23ca90a330b4e437b07391375ba5808c5220ab3293576a1223ace83e1e"
+    },
+    {
+      "file": "chips/iron_coat.svg",
+      "sha256": "7393f6d54ee44e9dafe4fe1ed0908f84c28df5f29051bdbd8f2476aae8d474af"
+    },
+    {
+      "file": "chips/iron_stance.svg",
+      "sha256": "c0ea00650a9bfd61f5823ad4b758c954d0ce55c4f26085f416212b1ab4d88d02"
+    },
+    {
+      "file": "chips/iron_will.svg",
+      "sha256": "690de35e398798df036e608a12a6c977cf61f5357f7b0555ce6a32aa35b62d3d"
+    },
+    {
+      "file": "chips/lightning_rod.svg",
+      "sha256": "e67fbe23983fa5ed5f3acb1baa7269f0073fe569ecc3f9669b35858719dd4aa8"
+    },
+    {
+      "file": "chips/mountain_shell.svg",
+      "sha256": "d217cb8b632cbfafec9ea42356425e9fcbbb767571fad2e0673344e2baadfc0a"
+    },
+    {
+      "file": "chips/neat_look.svg",
+      "sha256": "ebae4c4b2f3c53deb50cf5e1db5cd0badc1e235f6f480602d9195f8eb51e006b"
+    },
+    {
+      "file": "chips/payback.svg",
+      "sha256": "a8e97d045fc1b4510ce5c027af88a02b3fa2de45ab544196c86605547beeb9b8"
+    },
+    {
+      "file": "chips/perfect_shot.svg",
+      "sha256": "7d59d78e3185749a9de6a64f9821322d7777f48c53bc7192576137b0993fddda"
+    },
+    {
+      "file": "chips/phoenix_heart.svg",
+      "sha256": "7f29dde3e0a7c680cac790e9c9153af74422290a106d93c8767a585ad53d7248"
+    },
+    {
+      "file": "chips/power_nap.svg",
+      "sha256": "b73662ce2d4c4618820a48a4684209cd5fd2d8c7ae23e32ef583d10a34200fe9"
+    },
+    {
+      "file": "chips/quake.svg",
+      "sha256": "1acaa1aabf97d247ca516470856539a5aa2a29047e3df8aeed3011ffaab5e261"
+    },
+    {
+      "file": "chips/quick_draw.svg",
+      "sha256": "be95703116674dcb7b27f6195d9910605443c7c123ccf00b9b23bb04ded11b6f"
+    },
+    {
+      "file": "chips/rain_shell.svg",
+      "sha256": "d0e3f0dd179a804c1e0f53ea83b5ba90493e938592310c9e31639ad2fdb8285a"
+    },
+    {
+      "file": "chips/rattle.svg",
+      "sha256": "097b0243b3bb0844e56571c4318b5a7aa8e31dd46e49ee5667d1d98471a5cf34"
+    },
+    {
+      "file": "chips/reversal.svg",
+      "sha256": "aad32919bce29d43395fa483806bca3b334c0fb74f7734daea0a59df8bc92d9e"
+    },
+    {
+      "file": "chips/rock_stance.svg",
+      "sha256": "02bb5b5729d425eea556f47afbfd7841d79469e8b94483001442de93241c9116"
+    },
+    {
+      "file": "chips/rubber_soles.svg",
+      "sha256": "c5f1d140d3e02e9037640352d0f493f1a7a5254916421d517476f8540042d2f8"
+    },
+    {
+      "file": "chips/runners_high.svg",
+      "sha256": "8620d77fdf9f4fc1724bd6cfc4912f3bce50be0f509988aa0a95c9846d305182"
+    },
+    {
+      "file": "chips/second_wind.svg",
+      "sha256": "b1ebd6a80c4a86f9136a51a010c757b75426fc16abeb98d8d2a4bce96d99b92b"
+    },
+    {
+      "file": "chips/sharp_cut.svg",
+      "sha256": "b91ac1357d0b6179aac4b65ff22c93a8477df18c4a2da7fed3c334448032c52b"
+    },
+    {
+      "file": "chips/sharp_eyes.svg",
+      "sha256": "a9be5074d59fee1b4e9dae5d08a0a09e1f1d2c3c2f6095ed19005c5dba277012"
+    },
+    {
+      "file": "chips/shock_blade.svg",
+      "sha256": "8cddc0babca08930a7e6153c9e07237f85104453117739355cc7fd38ea4ddcbb"
+    },
+    {
+      "file": "chips/snack_time.svg",
+      "sha256": "2527d35a6124030d52f232dd0fea52ef70abacabb7911602d4d32fd632d76f86"
+    },
+    {
+      "file": "chips/soak.svg",
+      "sha256": "82b9dba3986aadf7a0de113226e992166b5871edfbe408b5f9087cb9bfeea5b0"
+    },
+    {
+      "file": "chips/spark_blade.svg",
+      "sha256": "a9a0a6d463086cc8976ba20ea6781521ec8406168cdb273f6f2082ae8716bf0c"
+    },
+    {
+      "file": "chips/splash.svg",
+      "sha256": "985c8b4ff4f5687d486e6bfc07ec7a8a8dfd8e550e080e00e9718ecc3cfea5bc"
+    },
+    {
+      "file": "chips/static_guard.svg",
+      "sha256": "267dc7cfa94ab223f14e051d724371a29e0497b7a2bdcefab93900561a1ca06a"
+    },
+    {
+      "file": "chips/steady_hands.svg",
+      "sha256": "c4de4f6e79e047c50b405093a0b6cb8b6bc86f10b35776ea538278ff4b0275cc"
+    },
+    {
+      "file": "chips/steel_skin.svg",
+      "sha256": "fd4ef03e479a0529ad03607773eb8b4a9e8c122de47584434270f9b8642fa76e"
+    },
+    {
+      "file": "chips/stone_shell.svg",
+      "sha256": "8dd8313c1786ef39dea6ad1e17380b5a17627cc8a4edce81dc47e633a03aaeb9"
+    },
+    {
+      "file": "chips/storm_shell.svg",
+      "sha256": "bf017bf4fa22b392e9995b3b99fee1892d06df1e156da28c5cabd1d0b6c024ef"
+    },
+    {
+      "file": "chips/thick_skin.svg",
+      "sha256": "ef71d015376a2abd7c08f2b0dbdb9ec5cff175cf2527c8a19eac609a121e734d"
+    },
+    {
+      "file": "chips/third_eye.svg",
+      "sha256": "d19c9366a9481acbd0cff9e0613342f1d94d274c3f33292afa6b179b6c35d6d6"
+    },
+    {
+      "file": "chips/thunder_blade.svg",
+      "sha256": "986e34d7466fbc14b6effbbd602b5b2dcc743e0a1bb4c5adb57841fdc1825e02"
+    },
+    {
+      "file": "chips/tide_shell.svg",
+      "sha256": "0498629de9955de572e9cdff03918e32c91164bf268020a6f58e062402e3cd63"
+    },
+    {
+      "file": "chips/tough_coat.svg",
+      "sha256": "129086962a4d0a57ee3397268c371d74f13612949b439b3078dc7c1224ee703d"
+    },
+    {
+      "file": "chips/tsunami_shell.svg",
+      "sha256": "ff00d9c4e5a2cbef87d82b6534c6b9582f9a36a785bab56944ec83f8995a35ba"
+    },
+    {
+      "file": "chips/zen_cuffs.svg",
+      "sha256": "ba0ab2a50ee204aab75bd0e961e6c24e1f75060d6bd6b020b5f680e4075d68ca"
+    },
+    {
+      "file": "feedback/jacke-disabled.svg",
+      "sha256": "c26e769e6606eb997133b69cb2fd5f45963ca60950e222de5767524500ee8f66"
+    },
+    {
+      "file": "feedback/jacke-hover.svg",
+      "sha256": "823d4af3756b8f6aa942dcd3b1d994f25f2497e96730142126a58c45517855c9"
+    },
+    {
+      "file": "feedback/jacke-selected.svg",
+      "sha256": "1f0dad9b50b542b5d42a357ef4695b10aef237072526431998f8b4de38a71e12"
+    },
+    {
+      "file": "feedback/waffe-disabled.svg",
+      "sha256": "0824968eeb3fe2bf0daca769955f882b907f618910bb61e24403efc3ea7852b4"
+    },
+    {
+      "file": "feedback/waffe-hover.svg",
+      "sha256": "c3145f3380a71264da7c3a91c4aa7b2975fc970fcff730ec155e4403c3891368"
+    },
+    {
+      "file": "feedback/waffe-selected.svg",
+      "sha256": "2c31276998085537d4f5240902ab1810f6b53fb24d62d70e2ac2017a01c1146a"
+    },
+    {
+      "file": "kategorien/abwehr-bronze.svg",
+      "sha256": "617d6c171a1b3857fc2d31b6a063ed0c885099550d1e73c9d99a2a4819519af1"
+    },
+    {
+      "file": "kategorien/abwehr-gold.svg",
+      "sha256": "2992035e56c53edb331b9b96780af5a73dd49277ce2dd5b7c91290d589d7b05f"
+    },
+    {
+      "file": "kategorien/abwehr-silver.svg",
+      "sha256": "a7fddf9ef9cf7b6f96bb50e67c851166bb017f3a7ef0e88185b30af79de71ef6"
+    },
+    {
+      "file": "kategorien/auftritt-bronze.svg",
+      "sha256": "ebae4c4b2f3c53deb50cf5e1db5cd0badc1e235f6f480602d9195f8eb51e006b"
+    },
+    {
+      "file": "kategorien/auftritt-gold.svg",
+      "sha256": "51c05b20633915872e6dfa4e7d2beea34056a008bc7eabdfba7b11ee842e9bde"
+    },
+    {
+      "file": "kategorien/auftritt-silver.svg",
+      "sha256": "aad3a03b6c0584b9a485d7cd638f4b0c6d0d38190061f44f58f0cb034e3a80e3"
+    },
+    {
+      "file": "kategorien/ausdauer-bronze.svg",
+      "sha256": "96eefd9b1a785cefe92bad98ae92c2a9852708f4d5c883fc287214c211b4c4fb"
+    },
+    {
+      "file": "kategorien/ausdauer-gold.svg",
+      "sha256": "cb3c02108363b310acc82f211bdad7be89849d6059814b75a48102407a8bf48e"
+    },
+    {
+      "file": "kategorien/ausdauer-silver.svg",
+      "sha256": "8620d77fdf9f4fc1724bd6cfc4912f3bce50be0f509988aa0a95c9846d305182"
+    },
+    {
+      "file": "kategorien/element-bronze.svg",
+      "sha256": "15ac6c56cd20294597dd8a113d87e610afd635f7f3f717f02a86ad6d5734163b"
+    },
+    {
+      "file": "kategorien/element-gold.svg",
+      "sha256": "3ae9493ad9ab7116b25803cfc71e932f3d57a374c23f6ee4e8798a15e96c46fb"
+    },
+    {
+      "file": "kategorien/element-silver.svg",
+      "sha256": "c4c6386bfa7de882e8bba0f3076ddcf96e8b611f00ce882a05f57768b937f413"
+    },
+    {
+      "file": "kategorien/erholung-bronze.svg",
+      "sha256": "2527d35a6124030d52f232dd0fea52ef70abacabb7911602d4d32fd632d76f86"
+    },
+    {
+      "file": "kategorien/erholung-gold.svg",
+      "sha256": "7f29dde3e0a7c680cac790e9c9153af74422290a106d93c8767a585ad53d7248"
+    },
+    {
+      "file": "kategorien/erholung-silver.svg",
+      "sha256": "b73662ce2d4c4618820a48a4684209cd5fd2d8c7ae23e32ef583d10a34200fe9"
+    },
+    {
+      "file": "kategorien/konter-bronze.svg",
+      "sha256": "a8e97d045fc1b4510ce5c027af88a02b3fa2de45ab544196c86605547beeb9b8"
+    },
+    {
+      "file": "kategorien/konter-gold.svg",
+      "sha256": "aad32919bce29d43395fa483806bca3b334c0fb74f7734daea0a59df8bc92d9e"
+    },
+    {
+      "file": "kategorien/konter-silver.svg",
+      "sha256": "d5eaf1ccb111e536930bc5f6f6071ed1ca218f156785e3e4fd582e383d768d3d"
+    },
+    {
+      "file": "kategorien/parade-bronze.svg",
+      "sha256": "c4de4f6e79e047c50b405093a0b6cb8b6bc86f10b35776ea538278ff4b0275cc"
+    },
+    {
+      "file": "kategorien/parade-gold.svg",
+      "sha256": "ba0ab2a50ee204aab75bd0e961e6c24e1f75060d6bd6b020b5f680e4075d68ca"
+    },
+    {
+      "file": "kategorien/parade-silver.svg",
+      "sha256": "868b2c1820645305e98781c45592449164dc316bb76029da84d9abf90125fa75"
+    },
+    {
+      "file": "kategorien/praezision-bronze.svg",
+      "sha256": "aebdbb7964594aa69d0accd88c1919feec5f3490d8cb22655eb4604f632a9201"
+    },
+    {
+      "file": "kategorien/praezision-gold.svg",
+      "sha256": "7d59d78e3185749a9de6a64f9821322d7777f48c53bc7192576137b0993fddda"
+    },
+    {
+      "file": "kategorien/praezision-silver.svg",
+      "sha256": "862300fc301b332a199b6f3becaaf477eef98c5eb7cdb77316486e520123a937"
+    },
+    {
+      "file": "kategorien/schutz-bronze.svg",
+      "sha256": "129086962a4d0a57ee3397268c371d74f13612949b439b3078dc7c1224ee703d"
+    },
+    {
+      "file": "kategorien/schutz-gold.svg",
+      "sha256": "7ed0c6b41521d7ee3df80087168f47390c5dac435a76189999da96579f450a88"
+    },
+    {
+      "file": "kategorien/schutz-silver.svg",
+      "sha256": "7393f6d54ee44e9dafe4fe1ed0908f84c28df5f29051bdbd8f2476aae8d474af"
+    },
+    {
+      "file": "kategorien/technik-bronze.svg",
+      "sha256": "be95703116674dcb7b27f6195d9910605443c7c123ccf00b9b23bb04ded11b6f"
+    },
+    {
+      "file": "kategorien/technik-gold.svg",
+      "sha256": "e6b98d8497dc6481630119a62286f168249d7a5f0027ef65da630ed1186bcd3e"
+    },
+    {
+      "file": "kategorien/technik-silver.svg",
+      "sha256": "b1ebd6a80c4a86f9136a51a010c757b75426fc16abeb98d8d2a4bce96d99b92b"
+    },
+    {
+      "file": "kategorien/wucht-bronze.svg",
+      "sha256": "311c0d9153ec665bdb0ced6ef1c9c219de31d167e815f8d8dff0bfefca790602"
+    },
+    {
+      "file": "kategorien/wucht-gold.svg",
+      "sha256": "106ffcdc2fd5890a815aba8e9c3a3017aa19ae013cf31d758f5230d084380078"
+    },
+    {
+      "file": "kategorien/wucht-silver.svg",
+      "sha256": "9b1e163987a9cd3a7765be999be08d210ff48f6c0d16132bfc8430b08dcf57a9"
+    },
+    {
+      "file": "kategorien/zustand-bronze.svg",
+      "sha256": "fcb0689d8ca6ce1fe767815a02da35a7c2931cafd425e42d30a5d7e574802b46"
+    },
+    {
+      "file": "kategorien/zustand-gold.svg",
+      "sha256": "c7a7f2e7f56dcb884499f128b9d9dd4d661d44081e1a063727935462429678d5"
+    },
+    {
+      "file": "kategorien/zustand-silver.svg",
+      "sha256": "963293b06f66d74cb832f52b9a6ba1128ee931fc5afae2a423daa0f71f307916"
+    },
+    {
+      "file": "rahmen/jacke-bronze.svg",
+      "sha256": "305317bff021b9f6e34858455d31d491c71519340b05b1ed95f35db90df2505e"
+    },
+    {
+      "file": "rahmen/jacke-gold.svg",
+      "sha256": "0a2bae86ff3f15ffc20dced763062ca7ed06dd3b83d134f4dd3df8de19234c7f"
+    },
+    {
+      "file": "rahmen/jacke-silver.svg",
+      "sha256": "3e0fdc3e7e36524387431af31ebe6534a3d0135e2b45f76b119d5a2b471cc28b"
+    },
+    {
+      "file": "rahmen/waffe-bronze.svg",
+      "sha256": "de63bc26d75410727c9b7f3e7ee1c300a40a210979ef0b0198a27cf7a4cc12b6"
+    },
+    {
+      "file": "rahmen/waffe-gold.svg",
+      "sha256": "06f5e44ed39a85cc1c7ea048808dda753e3fcede945ec5bbbe79b222fef4395c"
+    },
+    {
+      "file": "rahmen/waffe-silver.svg",
+      "sha256": "ef5a73e620b591d6b28e34b715a0eb69fc61acb48c4de55b0d2fcff8128b2816"
+    },
+    {
+      "file": "raster/abwehr.svg",
+      "sha256": "553111e50fd80585a5d9e9e2f61d971731ae3c889959e91c8c351b4c45e43496"
+    },
+    {
+      "file": "raster/jacke.svg",
+      "sha256": "2d75d08c0158aed09390bc45ec2d767db1be892d36358b8ca51b5ecf82da4f1b"
+    },
+    {
+      "file": "raster/waffe.svg",
+      "sha256": "95f64e591a892d81c4a5708eb9be0e3556e13f214d68556eb948ef4dd0b229b1"
+    },
+    {
+      "file": "raster/zustaende.svg",
+      "sha256": "3f74201f6a3b0d188d66ffecef3d20c970f9fa7917cc06e1a5769b0a54055eab"
+    },
+    {
+      "file": "slots/charm.svg",
+      "sha256": "ecc91e5f2e307abe7648b033ea88922dd0e54bc50d292916eb72ea4c6599ba72"
+    },
+    {
+      "file": "slots/jacke-filled.svg",
+      "sha256": "7393f6d54ee44e9dafe4fe1ed0908f84c28df5f29051bdbd8f2476aae8d474af"
+    },
+    {
+      "file": "slots/jacke-free.svg",
+      "sha256": "8b4b448d1d5500422a3b085f40e3a9834aec78c697ed42759233dda16842138a"
+    },
+    {
+      "file": "slots/jacke-locked.svg",
+      "sha256": "b52ab6f466433de0f86e11b139cb1d15b6857a4d96dd74d90a9b7c1936649e8b"
+    },
+    {
+      "file": "slots/jacke-unknown.svg",
+      "sha256": "cacb492098532a9f5b22e82febd4a7b151110d60730362e789437210ec95e6ce"
+    },
+    {
+      "file": "slots/waffe-filled.svg",
+      "sha256": "9b1e163987a9cd3a7765be999be08d210ff48f6c0d16132bfc8430b08dcf57a9"
+    },
+    {
+      "file": "slots/waffe-free.svg",
+      "sha256": "a66122dd9aecc8e54c484274571606b46e2c0c6d242f92231c62bdfbd549503f"
+    },
+    {
+      "file": "slots/waffe-locked.svg",
+      "sha256": "d5814b1c740e58ab76a37dd74b598e593b1536e6a006db4c265e5f0be0dc7109"
+    },
+    {
+      "file": "slots/waffe-unknown.svg",
+      "sha256": "7693c50becebf7007d0ce579b463ae6cc3237e9a966339ccd74d3151a7feb35e"
+    },
+    {
+      "file": "symbole/abwehr-blind.svg",
+      "sha256": "161c8513fcbdd371cccf0b57de924e0e6d33937e7ce87cf12410cb5c89a28611"
+    },
+    {
+      "file": "symbole/abwehr-blood.svg",
+      "sha256": "2f23a6df22e96da85697510f1a22c077845e604a42801b6daa48dad69df5c67b"
+    },
+    {
+      "file": "symbole/abwehr-bolt.svg",
+      "sha256": "776624b413c8da9af23edb1f6a006d8910ce0e8e338aa3cc0ba545cb76ce4945"
+    },
+    {
+      "file": "symbole/abwehr-drop.svg",
+      "sha256": "6362c0315ac6d49273fbce2e5e2ffa617dd6438d1a6b5e9b3e524135cc24c64a"
+    },
+    {
+      "file": "symbole/abwehr-flame.svg",
+      "sha256": "221da79b2725fe828564b060cbdea671eeff3a4d3a991738a866bf173508574f"
+    },
+    {
+      "file": "symbole/abwehr-shake.svg",
+      "sha256": "b0f31508ba634317bd9037cf47e3f04c9eefd9929b2b8b17977c05458993aa98"
+    },
+    {
+      "file": "symbole/blood.svg",
+      "sha256": "4c83158392586fcd0da80cdc29d41465cd34ba7a94a83499759e38cb7851e6c6"
+    },
+    {
+      "file": "symbole/bolt.svg",
+      "sha256": "2ab4713cdb4f98bb0fac645967e22c7a16ac968483655f288fbeaf552f25c073"
+    },
+    {
+      "file": "symbole/counter.svg",
+      "sha256": "7504d09b3c556d2a0cefe062622b26f2bb61be8d9fe0936c1d880097dc4244b8"
+    },
+    {
+      "file": "symbole/drop.svg",
+      "sha256": "b1c4864570972d19cb91e26258691e56f041755402649d674a7a20374d4fa6be"
+    },
+    {
+      "file": "symbole/flame.svg",
+      "sha256": "85e68a4a65e7ed994b8cb24167577d79ae43eaf946928065880574c16a3538e2"
+    },
+    {
+      "file": "symbole/force.svg",
+      "sha256": "77f4664084e4e819e90f8b75027f2d49d8c7dd8a0191950ae07fbf3344e6b5cc"
+    },
+    {
+      "file": "symbole/kategorie-abwehr.svg",
+      "sha256": "9bc22d0eb0e6cc6134ecfd3a4ce5ba874f8e5166f8877f513fd1fa34b743e3b5"
+    },
+    {
+      "file": "symbole/kategorie-auftritt.svg",
+      "sha256": "9f176e8a58601dfb077956f7f6912f2126cf8149da8eb3b09e56f6510d9867a5"
+    },
+    {
+      "file": "symbole/kategorie-ausdauer.svg",
+      "sha256": "a4135ceed1803f0221f0361925c4b2be28dcbde4ccac781b588e4d3c701c13f6"
+    },
+    {
+      "file": "symbole/kategorie-element.svg",
+      "sha256": "2a4548f34b818a0a40ac95b54a18b1c09cfc5717cf40a0c774866a696792b390"
+    },
+    {
+      "file": "symbole/kategorie-erholung.svg",
+      "sha256": "200625f6d2bf90ce30ded1cb548560dca7f0a950adfc8e6b8e045b93f4ec1ce7"
+    },
+    {
+      "file": "symbole/kategorie-konter.svg",
+      "sha256": "7504d09b3c556d2a0cefe062622b26f2bb61be8d9fe0936c1d880097dc4244b8"
+    },
+    {
+      "file": "symbole/kategorie-parade.svg",
+      "sha256": "fb23230599e1cb6e40e336cc184f5ed6f0ea68e52ebd6081ff963fe35cb62fba"
+    },
+    {
+      "file": "symbole/kategorie-praezision.svg",
+      "sha256": "7ed136fd5d5d27855664d91231b141ee4251384bfdcd4cfde0aa34afe86573c9"
+    },
+    {
+      "file": "symbole/kategorie-schutz.svg",
+      "sha256": "869c056d0418a7cc1e40aebe07ef55934d1418a75e531c9faf434b8d8f5bc436"
+    },
+    {
+      "file": "symbole/kategorie-technik.svg",
+      "sha256": "e37c4857262cf112f24d9bdfbd2b65beab4951e267142a318e698b078eef6d23"
+    },
+    {
+      "file": "symbole/kategorie-wucht.svg",
+      "sha256": "77f4664084e4e819e90f8b75027f2d49d8c7dd8a0191950ae07fbf3344e6b5cc"
+    },
+    {
+      "file": "symbole/kategorie-zustand.svg",
+      "sha256": "85e68a4a65e7ed994b8cb24167577d79ae43eaf946928065880574c16a3538e2"
+    },
+    {
+      "file": "symbole/parry.svg",
+      "sha256": "fb23230599e1cb6e40e336cc184f5ed6f0ea68e52ebd6081ff963fe35cb62fba"
+    },
+    {
+      "file": "symbole/precision.svg",
+      "sha256": "7ed136fd5d5d27855664d91231b141ee4251384bfdcd4cfde0aa34afe86573c9"
+    },
+    {
+      "file": "symbole/presence.svg",
+      "sha256": "9f176e8a58601dfb077956f7f6912f2126cf8149da8eb3b09e56f6510d9867a5"
+    },
+    {
+      "file": "symbole/protection.svg",
+      "sha256": "869c056d0418a7cc1e40aebe07ef55934d1418a75e531c9faf434b8d8f5bc436"
+    },
+    {
+      "file": "symbole/recovery.svg",
+      "sha256": "200625f6d2bf90ce30ded1cb548560dca7f0a950adfc8e6b8e045b93f4ec1ce7"
+    },
+    {
+      "file": "symbole/resist-blind.svg",
+      "sha256": "161c8513fcbdd371cccf0b57de924e0e6d33937e7ce87cf12410cb5c89a28611"
+    },
+    {
+      "file": "symbole/resist-blood.svg",
+      "sha256": "2f23a6df22e96da85697510f1a22c077845e604a42801b6daa48dad69df5c67b"
+    },
+    {
+      "file": "symbole/resist-bolt.svg",
+      "sha256": "776624b413c8da9af23edb1f6a006d8910ce0e8e338aa3cc0ba545cb76ce4945"
+    },
+    {
+      "file": "symbole/resist-drop.svg",
+      "sha256": "6362c0315ac6d49273fbce2e5e2ffa617dd6438d1a6b5e9b3e524135cc24c64a"
+    },
+    {
+      "file": "symbole/resist-flame.svg",
+      "sha256": "221da79b2725fe828564b060cbdea671eeff3a4d3a991738a866bf173508574f"
+    },
+    {
+      "file": "symbole/resist-shake.svg",
+      "sha256": "b0f31508ba634317bd9037cf47e3f04c9eefd9929b2b8b17977c05458993aa98"
+    },
+    {
+      "file": "symbole/resistance.svg",
+      "sha256": "9bc22d0eb0e6cc6134ecfd3a4ce5ba874f8e5166f8877f513fd1fa34b743e3b5"
+    },
+    {
+      "file": "symbole/ring.svg",
+      "sha256": "2a4548f34b818a0a40ac95b54a18b1c09cfc5717cf40a0c774866a696792b390"
+    },
+    {
+      "file": "symbole/shake.svg",
+      "sha256": "eed3be4037183c3567667f8dc2a5c39de98b655de96116f2380e63a461e0a259"
+    },
+    {
+      "file": "symbole/stamina.svg",
+      "sha256": "a4135ceed1803f0221f0361925c4b2be28dcbde4ccac781b588e4d3c701c13f6"
+    },
+    {
+      "file": "symbole/status-blood.svg",
+      "sha256": "4c83158392586fcd0da80cdc29d41465cd34ba7a94a83499759e38cb7851e6c6"
+    },
+    {
+      "file": "symbole/status-bolt.svg",
+      "sha256": "2ab4713cdb4f98bb0fac645967e22c7a16ac968483655f288fbeaf552f25c073"
+    },
+    {
+      "file": "symbole/status-drop.svg",
+      "sha256": "b1c4864570972d19cb91e26258691e56f041755402649d674a7a20374d4fa6be"
+    },
+    {
+      "file": "symbole/status-flame.svg",
+      "sha256": "85e68a4a65e7ed994b8cb24167577d79ae43eaf946928065880574c16a3538e2"
+    },
+    {
+      "file": "symbole/status-shake.svg",
+      "sha256": "eed3be4037183c3567667f8dc2a5c39de98b655de96116f2380e63a461e0a259"
+    },
+    {
+      "file": "symbole/status-wave.svg",
+      "sha256": "261745caab72e71d3b5ca2bf42bde3879b60bbfef3561e532f6e415627085f96"
+    },
+    {
+      "file": "symbole/technique.svg",
+      "sha256": "e37c4857262cf112f24d9bdfbd2b65beab4951e267142a318e698b078eef6d23"
+    },
+    {
+      "file": "symbole/wave.svg",
+      "sha256": "261745caab72e71d3b5ca2bf42bde3879b60bbfef3561e532f6e415627085f96"
+    },
+    {
+      "file": "symbole.svg",
+      "sha256": "a94e0682ee1a96a71c1fb8c7f2f4f32d96a024038ff4523aa180ee79758038d2"
+    },
+    {
+      "file": "zustaende/blood-bronze.svg",
+      "sha256": "b91ac1357d0b6179aac4b65ff22c93a8477df18c4a2da7fed3c334448032c52b"
+    },
+    {
+      "file": "zustaende/blood-gold.svg",
+      "sha256": "1e23e6a478ffcfbca0212e5edb69a40c8cfb05d42121282f2f14c2cce7a295c6"
+    },
+    {
+      "file": "zustaende/blood-silver.svg",
+      "sha256": "c93c0071aa9e12110954301b90305838778325d397c4e4782ef07bb8201f712c"
+    },
+    {
+      "file": "zustaende/bolt-bronze.svg",
+      "sha256": "a9a0a6d463086cc8976ba20ea6781521ec8406168cdb273f6f2082ae8716bf0c"
+    },
+    {
+      "file": "zustaende/bolt-gold.svg",
+      "sha256": "986e34d7466fbc14b6effbbd602b5b2dcc743e0a1bb4c5adb57841fdc1825e02"
+    },
+    {
+      "file": "zustaende/bolt-silver.svg",
+      "sha256": "8cddc0babca08930a7e6153c9e07237f85104453117739355cc7fd38ea4ddcbb"
+    },
+    {
+      "file": "zustaende/drop-bronze.svg",
+      "sha256": "985c8b4ff4f5687d486e6bfc07ec7a8a8dfd8e550e080e00e9718ecc3cfea5bc"
+    },
+    {
+      "file": "zustaende/drop-gold.svg",
+      "sha256": "7d576758d7649f2fb04f195f8411321d279af2a03f143035f076d31b23401f1f"
+    },
+    {
+      "file": "zustaende/drop-silver.svg",
+      "sha256": "82b9dba3986aadf7a0de113226e992166b5871edfbe408b5f9087cb9bfeea5b0"
+    },
+    {
+      "file": "zustaende/flame-bronze.svg",
+      "sha256": "fcb0689d8ca6ce1fe767815a02da35a7c2931cafd425e42d30a5d7e574802b46"
+    },
+    {
+      "file": "zustaende/flame-gold.svg",
+      "sha256": "c7a7f2e7f56dcb884499f128b9d9dd4d661d44081e1a063727935462429678d5"
+    },
+    {
+      "file": "zustaende/flame-silver.svg",
+      "sha256": "963293b06f66d74cb832f52b9a6ba1128ee931fc5afae2a423daa0f71f307916"
+    },
+    {
+      "file": "zustaende/shake-bronze.svg",
+      "sha256": "097b0243b3bb0844e56571c4318b5a7aa8e31dd46e49ee5667d1d98471a5cf34"
+    },
+    {
+      "file": "zustaende/shake-gold.svg",
+      "sha256": "02bb9e8172ddc4f3f3cc91e7fe42e237fbb850649a5d8052a002891ee4d2bc13"
+    },
+    {
+      "file": "zustaende/shake-silver.svg",
+      "sha256": "1acaa1aabf97d247ca516470856539a5aa2a29047e3df8aeed3011ffaab5e261"
+    },
+    {
+      "file": "zustaende/wave-bronze.svg",
+      "sha256": "3035d3ec38b3d50caca0dcaef248712ef6f71fd2351df48e3dc3253b56ea128d"
+    },
+    {
+      "file": "zustaende/wave-gold.svg",
+      "sha256": "087498a3d54d2daa5f50734e36c8c0d4d30137e811a175b1e3593e780b1c6745"
+    },
+    {
+      "file": "zustaende/wave-silver.svg",
+      "sha256": "617d233a2733ed121a1717071803c2a6fd98d04d781b0ed0a348fc80c84b5a2e"
+    }
+  ]
+}

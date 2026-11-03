@@ -1,0 +1,41 @@
+{
+ "id": "bibi_stimme_probe",
+ "titel": "Bibi: neue Stimme im Spiel",
+ "hinweis": "Fünf echte Spielzeilen, gesprochen von Chatterbox mit Frech 2 als Vorlage. So klingt sie im Spiel.",
+ "gruppen": [
+  {
+   "id": "proben",
+   "titel": "Fünf Zeilen",
+   "farbe": "#c0524a",
+   "max": 5,
+   "soll": "Energisch, rauchig, sinnlich, französisch, nie genervt.",
+   "kandidaten": [
+    {
+     "titel": "1: Lachen",
+     "unter": "Ha ha ha ha! ...Sorry. I do that.",
+     "datei": "bibi_stimme_probe/probe_1.wav"
+    },
+    {
+     "titel": "2: Verspielt",
+     "unter": "Fourteen kilos. It should be twenty. Look at you, you're just a big biscuit, aren't you? Ha! Yes. That's your name now. Sorry.",
+     "datei": "bibi_stimme_probe/probe_2.wav"
+    },
+    {
+     "titel": "3: Begrüßung",
+     "unter": "Mind the bowl! Everybody kicks the bowl. Sorry. I do that. Is that why you came up?",
+     "datei": "bibi_stimme_probe/probe_3.wav"
+    },
+    {
+     "titel": "4: Zärtlich",
+     "unter": "Mochi, my lion, was a hundred and ninety kilos, the last time I weighed him. He had a bad tooth on the left side and he only let me near it.",
+     "datei": "bibi_stimme_probe/probe_4.wav"
+    },
+    {
+     "titel": "5: Traurig",
+     "unter": "I'm still going to put his food out tonight. I know. Don't say anything.",
+     "datei": "bibi_stimme_probe/probe_5.wav"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,311 @@
+{
+ "id": "gesichter_kreise",
+ "titel": "Kreise: Gesicht mittig",
+ "hinweis": "Oben der alte feste Zuschnitt, unten der neue, je Figur dieselben Sprites. Markiere Figuren mit Neu, wenn ein Kreis nicht passt.",
+ "items": [
+  {
+   "id": "adrien",
+   "titel": "Adrien Morel (22 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/adrien_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/adrien_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "alva",
+   "titel": "Alva Santoni (389 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/alva_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/alva_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "anghjulu",
+   "titel": "Don Anghjulu (22 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/anghjulu_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/anghjulu_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "batu",
+   "titel": "Bà Tư (22 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/batu_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/batu_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "bibi",
+   "titel": "Bibi (52 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/bibi_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/bibi_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "casanova",
+   "titel": "Madame Casanova (122 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/casanova_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/casanova_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "charly",
+   "titel": "Charly de Ravenel (52 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/charly_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/charly_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "chiara",
+   "titel": "Chiara Sonnberg (630 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/chiara_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/chiara_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "chloe",
+   "titel": "Chloé Marchal (21 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/chloe_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/chloe_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "danzel",
+   "titel": "Danzel (23 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/danzel_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/danzel_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "dumenica",
+   "titel": "Dumenica (21 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/dumenica_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/dumenica_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "elsa",
+   "titel": "Elsa Ferrandi (61 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/elsa_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/elsa_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "frederico",
+   "titel": "Frederico (22 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/frederico_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/frederico_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "gennaro",
+   "titel": "Gennaro Esposito (21 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/gennaro_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/gennaro_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "ghjuvan",
+   "titel": "Ghjuvan Santucci (21 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/ghjuvan_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/ghjuvan_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "holm",
+   "titel": "Captain Marit Holm (122 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/holm_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/holm_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "isabelle",
+   "titel": "Isabelle (23 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/isabelle_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/isabelle_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "jana",
+   "titel": "Jana Maihoff (346 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/jana_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/jana_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "laetitia",
+   "titel": "Laetitia Albertini (23 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/laetitia_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/laetitia_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "lea",
+   "titel": "Lea Moore (630 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/lea_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/lea_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "lola",
+   "titel": "Lola Brennan (337 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/lola_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/lola_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "matteu",
+   "titel": "Matteu Pinelli (21 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/matteu_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/matteu_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "maxwell",
+   "titel": "Maxwell 'Mr. Maximum' Ndlovu (152 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/maxwell_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/maxwell_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "megan",
+   "titel": "Megan McAllister (269 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/megan_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/megan_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "mrwhite",
+   "titel": "Mr. White (23 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/mrwhite_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/mrwhite_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "nonna",
+   "titel": "Nonna Fiora (27 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/nonna_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/nonna_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "pascal",
+   "titel": "Pascal Leca (22 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/pascal_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/pascal_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "petru",
+   "titel": "Petru Albertini (42 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/petru_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/petru_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "riscossore",
+   "titel": "U Riscossore (21 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/riscossore_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/riscossore_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "rosi",
+   "titel": "Rosi Scuderi (744 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/rosi_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/rosi_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "sandru",
+   "titel": "Sandru Amrani (22 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/sandru_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/sandru_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "sirene",
+   "titel": "The Siren (52 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/sirene_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/sirene_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "siri",
+   "titel": "Siri Lindvik (630 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/siri_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/siri_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "sophia",
+   "titel": "Sophia Moore (536 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/sophia_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/sophia_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "toto",
+   "titel": "Salvatore 'Totò' Esposito (92 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/toto_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/toto_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "wolff",
+   "titel": "Kaspar Wolff (21 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/wolff_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/wolff_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "yamamoto",
+   "titel": "Yamamoto-san (186 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/yamamoto_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/yamamoto_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  },
+  {
+   "id": "yasin",
+   "titel": "Yasin Benali (41 Sprites, 0 ohne Gesicht)",
+   "bild": "X:/AI/Eden/docs/abnahme/gesichter/yasin_nachher.jpg",
+   "vergleich": "X:/AI/Eden/docs/abnahme/gesichter/yasin_vorher.jpg",
+   "vergleich_titel": "Vorher",
+   "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt."
+  }
+ ]
+}

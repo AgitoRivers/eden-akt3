@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "provider": "OpenAI built-in image_gen, requested as DALL-E",
+  "style": "Electronic hardware with category-coloured faceplate gradients",
+  "postprocess": "Eight equal grid cells extracted, downscaled with Lanczos to 64x64; alpha retained. No redrawing.",
+  "source_size": [
+    1774,
+    887
+  ],
+  "source_sha256": "a19822f7a044b0b08b72c1fb3de655c6b0f9d342b149ac94642e938d2a82bfef",
+  "icons": [
+    {
+      "id": "wucht",
+      "label": "Wucht",
+      "meaning": "Waffe · Hammer",
+      "file": "64px/wucht.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "source_rect": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "sha256": "73a2bb4826924d527deaf7d7ce0eaaed75ff401582dbcae0b185bb40ec362381"
+    },
+    {
+      "id": "praezision",
+      "label": "Präzision",
+      "meaning": "Waffe · Fadenkreuz",
+      "file": "64px/praezision.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "source_rect": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "sha256": "8447925c9e3d42d682a66a5a930096afabc70e018f4f6953ae02102ccd6a296c"
+    },
+    {
+      "id": "technik",
+      "label": "Technik",
+      "meaning": "Waffe · Zahnrad",
+      "file": "64px/technik.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "source_rect": [
+        887,
+        0,
+        1330,
+        444
+      ],
+      "sha256": "d450ffeb15d6209c50c682ac682bb7e8e6b6686b0be087b93467d5cb702a7de8"
+    },
+    {
+      "id": "konter",
+      "label": "Konter",
+      "meaning": "Waffe · Rückpfeil",
+      "file": "64px/konter.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "source_rect": [
+        1330,
+        0,
+        1774,
+        444
+      ],
+      "sha256": "965278b56ad751654b330e5ebff395c64401735a6f7afbc969300e3f8fca4975"
+    },
+    {
+      "id": "zustand",
+      "label": "Zustand",
+      "meaning": "Waffe · Flamme",
+      "file": "64px/zustand.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "source_rect": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "sha256": "ca1a9ec76df179a0b67eadfcf72e33151e30d7bd84054ecdf135160d366e3a51"
+    },
+    {
+      "id": "element",
+      "label": "Element",
+      "meaning": "Waffe · Energiering",
+      "file": "64px/element.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "source_rect": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "sha256": "2af2c029a0ed453c981a0001678eb0f2567335e2787d0b478802eb73cad531c0"
+    },
+    {
+      "id": "schutz",
+      "label": "Schutz",
+      "meaning": "Jacke · Schild",
+      "file": "64px/schutz.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "source_rect": [
+        887,
+        444,
+        1330,
+        887
+      ],
+      "sha256": "8ea8c908d6bcf546fe557ecef1fd50fda152ebd223862acda951f835ec019037"
+    },
+    {
+      "id": "parade",
+      "label": "Parade",
+      "meaning": "Jacke · Abwehrbogen",
+      "file": "64px/parade.png",
+      "size": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "source_rect": [
+        1330,
+        444,
+        1774,
+        887
+      ],
+      "sha256": "906ee7fe25333b155e60fb261dd20e117e33e05d98e74c4a70e4635d1ed99466"
+    }
+  ]
+}

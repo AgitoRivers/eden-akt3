@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Eden Combat Guide</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap">
+<style>
+/* Player view of the combat rules (English, 25.10.2026). Team version with development chapters: docs/wiki/systeme/kampf.md.
+   Layout: fixed navigation left, reading column right; on phones the navigation becomes a chip bar. */
+:root{
+  --bg:#f2f3f5; --panel:#ffffff; --panel2:#e9ebef; --linie:rgba(20,24,36,.14); --linie-s:rgba(20,24,36,.28);
+  --fg:#15171d; --fg2:#4a5060; --fg3:#7a8090;
+  --akz:#8a6a1f; --akz-bg:rgba(138,106,31,.12); --blau:#2c5d8f; --gut:#2d6a43; --schlecht:#a4483b;
+  --r-gew:#6b7080; --r-sel:#2c5d8f; --r-epi:#6b4aa0; --r-leg:#8a6a1f;
+  --f-name:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif; --f-ui:"Geist","Segoe UI",system-ui,sans-serif; --f-zahl:"Geist Mono",ui-monospace,"Cascadia Mono",monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#08090c; --panel:#10131a; --panel2:#171b24; --linie:rgba(243,238,228,.12); --linie-s:rgba(216,189,134,.34);
+  --fg:#f3eee4; --fg2:rgba(243,238,228,.74); --fg3:rgba(243,238,228,.48);
+  --akz:#d8bd86; --akz-bg:rgba(216,189,134,.12); --blau:#9db9d6; --gut:#a8d5b1; --schlecht:#d9a198;
+  --r-gew:#9aa0ad; --r-sel:#9db9d6; --r-epi:#b9a2e3; --r-leg:#d8bd86; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#08090c; --panel:#10131a; --panel2:#171b24; --linie:rgba(243,238,228,.12); --linie-s:rgba(216,189,134,.34);
+  --fg:#f3eee4; --fg2:rgba(243,238,228,.74); --fg3:rgba(243,238,228,.48);
+  --akz:#d8bd86; --akz-bg:rgba(216,189,134,.12); --blau:#9db9d6; --gut:#a8d5b1; --schlecht:#d9a198;
+  --r-gew:#9aa0ad; --r-sel:#9db9d6; --r-epi:#b9a2e3; --r-leg:#d8bd86; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:15px/1.6 var(--f-ui);padding-block:0;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:30}
+a{color:var(--akz)} a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--akz);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:230px minmax(0,1fr);gap:40px;padding-block:28px 80px}
+nav.seite{position:sticky;top:calc(20px + env(safe-area-inset-top,0px));align-self:start;max-height:calc(100vh - 40px);overflow:auto;padding-right:6px}
+nav.seite .titel{font:800 22px/1.05 var(--f-name);letter-spacing:-.02em;margin:0 0 4px}
+nav.seite .sub{color:var(--fg3);font-size:12px;margin:0 0 18px}
+nav.seite h2{font:600 11px/1 var(--f-ui);letter-spacing:.16em;text-transform:uppercase;color:var(--fg3);margin:18px 0 6px}
+nav.seite a{display:block;text-decoration:none;color:var(--fg2);padding:5px 10px;border-radius:8px;border-left:2px solid transparent;font-size:13.5px}
+nav.seite a:hover{color:var(--fg);background:var(--panel2)}
+nav.seite a.an{color:var(--akz);border-left-color:var(--akz);background:var(--akz-bg)}
+main{min-width:0}
+section{padding-top:8px;margin-bottom:56px;scroll-margin-top:calc(16px + env(safe-area-inset-top,0px))}
+h1{font:800 clamp(34px,5vw,52px)/1 var(--f-name);letter-spacing:-.03em;margin:0 0 12px;text-wrap:balance}
+h2.s{font:800 clamp(26px,3.4vw,34px)/1.05 var(--f-name);letter-spacing:-.025em;margin:0 0 10px;text-wrap:balance}
+h3{font:700 17px/1.2 var(--f-name);margin:28px 0 8px;letter-spacing:-.01em}
+.lead{font-size:17px;color:var(--fg2);max-width:62ch;margin:0 0 16px}
+p{margin:0 0 12px;max-width:68ch}
+.sticker{display:inline-flex;gap:8px;align-items:center;font:500 12px/1 var(--f-zahl);padding:6px 10px;border-radius:99px;border:1px solid var(--linie-s);color:var(--akz);background:var(--akz-bg)}
+.stand{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 22px}
+.tag{font:500 11.5px/1 var(--f-zahl);padding:4px 8px;border-radius:99px;border:1px solid var(--linie);color:var(--fg2);white-space:nowrap;display:inline-block}
+.tag.gebaut{color:var(--gut);border-color:color-mix(in srgb,var(--gut) 45%,transparent)}
+.tag.offen{color:var(--schlecht);border-color:color-mix(in srgb,var(--schlecht) 45%,transparent)}
+.tag.beschlossen{color:var(--blau);border-color:color-mix(in srgb,var(--blau) 45%,transparent)}
+.tw{overflow-x:auto;border:1px solid var(--linie);border-radius:12px;background:var(--panel);margin:10px 0 18px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:9px 12px;text-align:left;vertical-align:top;border-bottom:1px solid var(--linie)}
+th{font:600 11px/1.2 var(--f-ui);letter-spacing:.1em;text-transform:uppercase;color:var(--fg3);background:var(--panel2);white-space:nowrap}
+tr:last-child td{border-bottom:0}
+td.z,th.z{text-align:right;font-family:var(--f-zahl);font-variant-numeric:tabular-nums;white-space:nowrap}
+td b{font-weight:600}
+.k{font-family:var(--f-zahl);font-size:12.5px;color:var(--akz)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:12px;margin:12px 0 18px}
+.box{border:1px solid var(--linie);border-radius:14px;background:var(--panel);padding:14px 16px}
+.box h4{margin:0 0 6px;font:700 15px/1.2 var(--f-name)}
+.box p{font-size:13.5px;color:var(--fg2);margin:0}
+.box .gross{font:800 30px/1 var(--f-name);color:var(--akz);margin-bottom:4px;font-variant-numeric:tabular-nums}
+.note{border-left:3px solid var(--akz);background:var(--akz-bg);padding:12px 16px;border-radius:0 10px 10px 0;margin:14px 0;font-size:14px;max-width:72ch}
+.note.warn{border-left-color:var(--schlecht);background:color-mix(in srgb,var(--schlecht) 10%,transparent)}
+.formel{font:400 13px/1.7 var(--f-zahl);background:var(--panel);border:1px solid var(--linie);border-radius:12px;padding:14px 16px;overflow-x:auto;white-space:pre;margin:10px 0 18px;color:var(--fg2)}
+.formel b{color:var(--akz);font-weight:500}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 14px}
+.filter{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0}
+.filter button{font:500 12.5px/1 var(--f-ui);padding:7px 12px;border-radius:99px;border:1px solid var(--linie);background:transparent;color:var(--fg2);cursor:pointer}
+.filter button[aria-pressed="true"]{color:var(--akz);border-color:var(--akz);background:var(--akz-bg)}
+.r-g{color:var(--r-gew)}.r-s{color:var(--r-sel)}.r-e{color:var(--r-epi)}.r-l{color:var(--r-leg)}
+.el{display:inline-flex;align-items:center;gap:6px}
+.el i{width:8px;height:8px;border-radius:50%;background:var(--fg3);display:inline-block}
+.el.feuer i{background:#e07a4a}.el.wasser i{background:#4a9ad6}.el.erde i{background:#9a8250}.el.luft i{background:#9aa6c8}
+.zyklus{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:10px 0 14px}
+.zyklus .el{padding:7px 12px;border:1px solid var(--linie);border-radius:99px;background:var(--panel)}
+.zyklus .pf{color:var(--fg3)}
+.rechner{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr));gap:10px;border:1px solid var(--linie);border-radius:14px;background:var(--panel);padding:16px;margin:12px 0 18px}
+.rechner label{display:flex;flex-direction:column;gap:4px;font-size:12px;color:var(--fg3)}
+.rechner input,.rechner select{font:500 14px var(--f-zahl);background:var(--panel2);color:var(--fg);border:1px solid var(--linie);border-radius:8px;padding:7px 9px;min-height:36px}
+.rechner .erg{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:20px;align-items:baseline;border-top:1px solid var(--linie);padding-top:12px}
+.rechner .erg b{font:800 32px/1 var(--f-name);color:var(--akz);font-variant-numeric:tabular-nums}
+.rechner .erg span{color:var(--fg2);font-size:13px}
+.dateien{font:400 13px/1.9 var(--f-zahl);color:var(--fg2)}
+.dateien code{color:var(--akz)}
+code{font-family:var(--f-zahl);font-size:.92em;color:var(--akz)}
+.sa-pfad{display:inline-block;font:700 12px/1 var(--f-zahl);padding:3px 7px;border-radius:6px;background:var(--akz-bg);color:var(--akz)}
+details{border:1px solid var(--linie);border-radius:12px;background:var(--panel);padding:2px 16px;margin:10px 0}
+summary{cursor:pointer;padding:12px 0;font-weight:600}
+footer{color:var(--fg3);font-size:12.5px;border-top:1px solid var(--linie);padding-top:16px}
+@media (max-width:860px){
+  .wrap{grid-template-columns:1fr;gap:0;padding-top:0}
+  nav.seite{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);margin:0 calc(-1*max(16px,env(safe-area-inset-left,0px)));padding:12px max(16px,env(safe-area-inset-left,0px));border-bottom:1px solid var(--linie);max-height:none;display:flex;gap:6px;overflow-x:auto;align-items:center}
+  nav.seite .titel,nav.seite .sub,nav.seite h2{display:none}
+  nav.seite a{white-space:nowrap;border:1px solid var(--linie);border-radius:99px;border-left-width:1px;padding:6px 12px}
+  nav.seite a.an{border-color:var(--akz)}
+  main{padding-top:24px}
+}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+html{scroll-behavior:smooth}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+<nav class="seite" aria-label="Chapters" id="nav">
+  <p class="titel">Combat Guide</p><p class="sub">Eden Rise</p>
+  <h2>Basics</h2>
+  <a href="#ueberblick">How a fight works</a><a href="#werte">Stats and levels</a><a href="#befehle">Commands</a><a href="#faehigkeiten">Basic skills</a><a href="#attribute">Attributes</a>
+  <h2>In the fight</h2>
+  <a href="#zustaende">Conditions</a><a href="#formeln">Damage and crits</a><a href="#parade">Parrying</a><a href="#enden">Fleeing and endings</a>
+  <h2>Growth</h2>
+  <a href="#pfade">Paths</a><a href="#spezial">Special attacks</a><a href="#elemente">Elements</a><a href="#reaktionen">Reactions</a>
+  <h2>Gear</h2>
+  <a href="#waffen">Weapons</a><a href="#ruestung">Jackets</a><a href="#werkstatt">Rosi's workshop</a><a href="#gegenstaende">Healing</a>
+  <h2>Enemies</h2>
+  <a href="#gegner">Enemies and threat</a>
+</nav>
+
+<main>
+<section id="ueberblick">
+  <h1>How fighting works in Eden Rise</h1>
+  <p class="lead">One-on-one, turn by turn. There is no time pressure, except when you parry. The enemy always shows what it is about to do, and it sticks to it.</p>
+  <div class="grid">
+    <div class="box"><h4>Two ways to win</h4><p>Knock their life down to zero, or talk their composure down to zero. People you can talk to often have plenty of life but little composure.</p></div>
+    <div class="box"><h4>The enemy announces</h4><p>You always see the next intent in a speech bubble, including how much it hurts. Plan, decide, then parry.</p></div>
+    <div class="box"><h4>Build, don't gamble</h4><p>Levels, four paths, 16 special attacks, weapons with an element and a type. Multi-hit attacks need a shaken or exhausted enemy, so set them up.</p></div>
+  </div>
+</section>
+
+<section id="werte">
+  <h2 class="s">Stats and levels</h2>
+  <p class="lead">Duc grows from level 1 to 10. Enemies scale with their own level.</p>
+  <div class="grid">
+    <div class="box"><div class="gross">36 + 5</div><h4>Life</h4><p>36 plus 5 per level (81 at level 10). Life carries over between fights within a phase, and every new phase fills it up again.</p></div>
+    <div class="box"><div class="gross">6 / 7 / 8</div><h4>Stamina</h4><p>6, from level 5 it's 7, from level 9 it's 8. Always full at the start of a fight.</p></div>
+    <div class="box"><div class="gross">2</div><h4>Protection</h4><p>Your base, plus your jacket. Every hit you take is reduced by it.</p></div>
+    <div class="box"><div class="gross">6 + Strength</div><h4>Attack</h4><p>Plus your weapon's damage.</p></div>
+  </div>
+  <ul>
+    <li><b>Experience:</b> a win gives 20 × enemy level × threat (grey 0.5 · green 1 · orange 1.5 · skull 2).</li>
+    <li><b>Next level:</b> 60 × your current level.</li>
+    <li><b>Skill points:</b> one each at levels 3, 5, 7 and 9, and two at level 10. Six in total.</li>
+    <li><b>Defeat:</b> you keep at least 12 life.</li>
+  </ul>
+  <p>For every level an enemy is above you, it gets +25 % life and damage.</p>
+</section>
+
+<section id="befehle">
+  <h2 class="s">Commands</h2>
+  <p class="lead">Five commands each turn. Keys 1 to 5, 1 to 9 inside lists, Esc closes.</p>
+  <div class="tw"><table><thead><tr><th>Command</th><th>What it does</th></tr></thead><tbody>
+    <tr><td><b>Attack</b></td><td>Damage as shown in the formula below. +1 stamina.</td></tr>
+    <tr><td><b>Skill</b></td><td>Opens your skills and special attacks. They cost stamina.</td></tr>
+    <tr><td><b>Defend</b></td><td>This round's hit is halved, the parry window gets wider, +2 stamina, and one burn stack on you goes out.</td></tr>
+    <tr><td><b>Item</b></td><td>Heals. Only items that work in a fight, and snacks. They are used up.</td></tr>
+    <tr><td><b>Flee</b></td><td>A Courage test. If it fails, the enemy gets its hit in.</td></tr>
+  </tbody></table></div>
+  <div class="note">The enemy card shows composure, the threat and six attribute fields. They stay at “?” until you have tested them, and a weakness glows gold.</div>
+</section>
+
+<section id="faehigkeiten">
+  <h2 class="s">Basic skills</h2>
+  <p class="lead">Always available, no skill points needed.</p>
+  <div class="tw"><table><thead><tr><th>Skill</th><th>Attribute</th><th class="z">Stamina</th><th>Effect</th></tr></thead><tbody>
+    <tr><td><b>Talk</b></td><td>Charisma</td><td class="z">2</td><td>d20 test: composure −6 (critical −9). Humans only.</td></tr>
+    <tr><td><b>Intimidate</b></td><td>Courage</td><td class="z">2</td><td>d20 test: the enemy's next two attacks are weakened (−3 each) and they lose 3 composure (critical 6). Works on most animals too; a boar just lowers its head.</td></tr>
+    
+  </tbody></table></div>
+  <h3>Weakness and immunity</h3>
+  <ul>
+    <li><b>Weakness:</b> an attribute. Tests with it roll with advantage, and a success also costs the enemy 4 composure and leaves them exhausted.</li>
+    <li><b>Immune:</b> the skill that uses this attribute is locked, and the game tells you why (animals don't understand you, for example).</li>
+    <li><b>Fumble:</b> you're exposed. The stamina is spent even on a failure.</li>
+  </ul>
+</section>
+
+<section id="attribute">
+  <h2 class="s">Attributes</h2>
+  <div class="tw"><table><thead><tr><th>Attribute</th><th>In a fight</th></tr></thead><tbody>
+    <tr><td><b>Strength</b></td><td>Attack value</td></tr>
+    <tr><td><b>Charisma</b></td><td>Talk</td></tr>
+    <tr><td><b>Empathy</b></td><td>the Healer path</td></tr>
+    <tr><td><b>Perception</b></td><td>A wider parry window (+3 % per point), the Marksman path</td></tr>
+    <tr><td><b>Cunning</b></td><td>Crit chance; every 2 points widen the crit range of d20 tests by one</td></tr>
+    <tr><td><b>Courage</b></td><td>Intimidate, Flee</td></tr>
+  </tbody></table></div>
+  <p>Duc's Charm strength gives advantage on Charisma tests.</p>
+</section>
+
+<section id="zustaende">
+  <h2 class="s">Conditions</h2>
+  <p class="lead">Conditions don't stack, except burning.</p>
+  <div class="tw"><table><thead><tr><th>Condition</th><th>Who</th><th>Effect</th></tr></thead><tbody>
+    <tr><td><b>exhausted</b></td><td>enemy</td><td>Your next hit +4 (knives +5). Unlocks Lame de Fond and Omertà. Comes from Point de Mire, a perfect parry, after their strong special attack, and from hits on their weakness. Bleeding and mud count as well. <b>It lasts rounds, not hits.</b></td></tr>
+    <tr><td><b>exposed</b></td><td>you</td><td>The next hit on you +3. After a fumble, Scirocco or Vulcano.</td></tr>
+    <tr><td><b>weakened</b></td><td>enemy</td><td>Their next attack −3.</td></tr>
+    <tr><td><b>shaken</b></td><td>enemy</td><td>Protection 0. Multi-hits need this or exhaustion.</td></tr>
+    <tr><td><b>burning</b></td><td>both</td><td>1 to 5 stacks. Each stack costs 3 % of maximum life per round (bosses three quarters of that). It only drops by one in a round <b>without a new stack</b>. Defending puts out one stack on you.</td></tr>
+    <tr><td><b>bleeding</b></td><td>enemy</td><td>5 % of maximum life per round. Not machines.</td></tr>
+    <tr><td><b>wet</b>, <b>charged</b></td><td>both</td><td>Set up reactions. Charged: 25 % chance to lose the turn, for you too.</td></tr>
+  </tbody></table></div>
+</section>
+
+<section id="formeln">
+  <h2 class="s">Damage and crits</h2>
+  <div class="formel"><b>Hit</b>      = max(1, round((6 + attribute + weapon + extra + exhausted) × type × element) − protection)
+           attribute = Strength · knives: the higher of Strength and Cunning · Berserker: the higher of Strength and Courage
+<b>Type</b>     ×1.25 strong / ×0.8 weak   ·   <b>Element</b> ×1.2 strong / ×0.85 weak
+<b>Protection</b> 1 + enemy level/3, taken off <b>every</b> hit, 0 while shaken (Vulcano ignores it)
+<b>Crit</b>     5 % + 3 % × Cunning (+5 % knives), damage ×1.5 · Omertà ×2.5 or ×3.5</div>
+  <h3>Hit calculator</h3>
+  <div class="rechner" id="rechner">
+    <label>Attribute<input id="r-attr" type="number" min="0" max="10" value="3"></label>
+    <label>Weapon damage<input id="r-waffe" type="number" min="0" max="12" value="5"></label>
+    <label>Extra (skill)<input id="r-extra" type="number" min="0" max="10" value="0"></label>
+    <label>Enemy protection<input id="r-schutz" type="number" min="0" max="10" value="2"></label>
+    <label>Weapon type vs enemy<select id="r-typ"><option value="1.25">advantage ×1.25</option><option value="1" selected>neutral</option><option value="0.8">disadvantage ×0.8</option></select></label>
+    <label>Element<select id="r-el"><option value="1.2">strong ×1.2</option><option value="1" selected>neutral</option><option value="0.85">weak ×0.85</option></select></label>
+    <label>Enemy exhausted<select id="r-ersch"><option value="0">no</option><option value="4">yes +4</option></select></label>
+    <label>Cunning (crit chance)<input id="r-list" type="number" min="0" max="10" value="2"></label>
+    <div class="erg"><span>Hit<br><b id="o-treffer">12</b></span><span>Critical hit<br><b id="o-krit">19</b></span><span>Crit chance<br><b id="o-chance">11 %</b></span></div>
+  </div>
+  <p>The command menu always shows your current crit chance, and the log says “Critical!” when it happens.</p>
+</section>
+
+<section id="parade">
+  <h2 class="s">Parrying</h2>
+  <p class="lead">After your turn the enemy's blow is announced, and a short reaction test follows. Parrying is never a dice roll.</p>
+  <div class="tw"><table><thead><tr><th>Result</th><th>Effect</th></tr></thead><tbody>
+    <tr><td><b>perfect</b></td><td>No damage, a counter with your attack, the enemy is exhausted, +1 stamina. Three perfect parries in a row: composure −4.</td></tr>
+    <tr><td><b>good</b> / <b>dodged</b></td><td>Damage halved (at least 1).</td></tr>
+    <tr><td><b>missed</b></td><td>Full damage.</td></tr>
+  </tbody></table></div>
+  <div class="grid">
+    <div class="box"><h4>Read them</h4><p>Watch the wind-up. After a random pause a golden spark flashes, and the blow lands 450 ms later.</p></div>
+    <div class="box"><h4>Scale</h4><p>A circle runs along a bar. Press when it is in the golden core.</p></div>
+    <div class="box"><h4>Ring</h4><p>A ring closes in. D dodges, Space parries.</p></div>
+  </div>
+  <div class="tw"><table><thead><tr><th>Speed</th><th class="z">good window</th><th class="z">perfect window</th></tr></thead><tbody>
+    <tr><td>light</td><td class="z">242 ms</td><td class="z">99 ms</td></tr>
+    <tr><td>medium</td><td class="z">176 ms</td><td class="z">66 ms</td></tr>
+    <tr><td>strong</td><td class="z">121 ms</td><td class="z">44 ms</td></tr>
+  </tbody></table></div>
+  <ul>
+    <li>A strong special attack makes the window ×0.8. Defending first makes it ×1.5.</li>
+    <li>Perception widens it by 3 % per point. The Marksman path adds 10 %, the Berserker path takes 10 % away, and so does heavy armour.</li>
+    <li>Some blows can only be dodged, and the intent says so. The options let you set a larger parry window.</li>
+  </ul>
+</section>
+
+<section id="enden">
+  <h2 class="s">Fleeing and endings</h2>
+  <p>Fleeing is a Courage test against 10 (nuisance), 14 (dangerous) or 18 (deadly). From a nightmare there's no escape, and some fights don't let you run at all. A failure costs you the round.</p>
+  <p>A fight ends in one of five ways: <b>victory</b>, <b>peaceful victory</b> (they give up), <b>they got away</b>, <b>you fled</b> or <b>defeat</b>. Each fight has its own consequences for every ending.</p>
+  <p>Enemies who want to run say so in their intent. If you don't finish them that turn, they're gone.</p>
+</section>
+
+<section id="pfade">
+  <h2 class="s">Paths</h2>
+  <p class="lead">Four paths, free to choose, one step at a time.</p>
+  <div class="tw"><table><thead><tr><th>Path</th><th>Code</th><th>Attribute</th><th>Role</th><th>Trait</th></tr></thead><tbody>
+    <tr><td><b>Fighter</b></td><td class="k">K</td><td>Strength</td><td>steady: shake, counter, endure</td><td>–</td></tr>
+    <tr><td><b>Smuggler</b></td><td class="k">L</td><td>Cunning</td><td>conditions and crits, knives</td><td>–</td></tr>
+    <tr><td><b>Marksman</b></td><td class="k">W</td><td>Perception</td><td>control: exhaust, intercept, flyers</td><td>parry window +10 %</td></tr>
+    <tr><td><b>Berserker</b></td><td class="k">M</td><td>Courage</td><td>build up fire and release it, while staying open</td><td>+1 stamina when you're hit; parry window −10 %</td></tr>
+    <tr><td><b>Healer</b></td><td class="k">H</td><td>Empathy</td><td>heal, hold on, rise again once</td><td>little damage of its own</td></tr>
+  </tbody></table></div>
+  <ul>
+    <li><b>Step by step:</b> you only get a tier if you have the one below it on the same path. A finisher needs the 7 of its path.</li>
+    <li><b>Six points</b> take one path to its finisher plus two points elsewhere, two paths to their 7, or a wider mix.</li>
+    <li><b>Main path:</b> the path with the most points. It decides which attribute grows with your level and which trait applies. The skill screen shows what learning a skill would change.</li>
+    <li><b>Perception 4:</b> the Marksman skills only work fully from Perception 4.</li>
+  </ul>
+  <div class="note"><b>Rule of thumb:</b> the 5s answer an announced special attack, the 9s are finishers. The exception is Retour de Flamme, which you charge beforehand.</div>
+</section>
+
+<section id="spezial">
+  <h2 class="s">Special attacks</h2>
+  <p class="lead">All 16, with their stamina cost. They are fighting techniques with Mediterranean wind names; the fire, water, wind and current come from the cartridges Rosi builds into your weapons.</p>
+  <div class="filter" id="f-sa" role="group" aria-label="Filter by path"></div>
+  <div class="tw"><table id="t-sa"><thead><tr><th>Code</th><th>Name</th><th>Effect</th><th class="z">Cost</th></tr></thead><tbody></tbody></table></div>
+</section>
+
+<section id="elemente">
+  <h2 class="s">Elements</h2>
+  <p class="lead">Four elements in a circle. Each one beats the next and loses to the one before.</p>
+  <div class="zyklus" aria-label="Water beats fire, fire beats earth, earth beats air, air beats water">
+    <span class="el wasser"><i></i>Water</span><span class="pf">beats</span><span class="el feuer"><i></i>Fire</span><span class="pf">beats</span><span class="el erde"><i></i>Earth</span><span class="pf">beats</span><span class="el luft"><i></i>Air</span><span class="pf">beats</span><span class="el wasser"><i></i>Water</span>
+  </div>
+  <div class="tw"><table><thead><tr><th>Element</th><th>Strong against</th><th>Weak against</th><th>Condition</th></tr></thead><tbody>
+    <tr><td><span class="el feuer"><i></i><b>Fire</b></span></td><td>Earth</td><td>Water</td><td>burning</td></tr>
+    <tr><td><span class="el wasser"><i></i><b>Water</b></span></td><td>Fire</td><td>Air</td><td>wet</td></tr>
+    <tr><td><span class="el erde"><i></i><b>Earth</b></span></td><td>Air</td><td>Fire</td><td>shaken</td></tr>
+    <tr><td><span class="el luft"><i></i><b>Air</b></span></td><td>Water</td><td>Earth</td><td>charged</td></tr>
+  </tbody></table></div>
+  <ul>
+    <li><b>Your weapon:</b> its element against the enemy's: ×1.2 strong, ×0.85 weak. On a crit or a counter it adds its condition. Weapons without an element make enemies bleed (blades, knives) or weaken them.</li>
+    <li><b>The enemy:</b> its element decides which weapon hits it hard. Enemies without one are neutral to everything.</li>
+    <li><b>Citadelle</b> protects you against every element.</li>
+  </ul>
+</section>
+
+<section id="reaktionen">
+  <h2 class="s">Reactions</h2>
+  <p class="lead">Conditions set each other off. The name of the reaction pops up in the fight.</p>
+  <div class="tw"><table><thead><tr><th>Reaction</th><th>Trigger</th><th>Effect</th></tr></thead><tbody>
+    <tr><td><b>Steam</b></td><td>fire and wet</td><td>Every burn stack goes out, and the enemy is blinded.</td></tr>
+    <tr><td><b>Short Circuit</b></td><td>charged and wet</td><td>Extra damage of 8 % of maximum life, and the enemy skips a round.</td></tr>
+    <tr><td><b>Burst</b></td><td>fire and bleeding</td><td>The rest of the bleeding hits at once.</td></tr>
+    <tr><td><b>Sparks</b></td><td>charged and fire</td><td>One more burn stack.</td></tr>
+    <tr><td><b>Mud</b></td><td>shaken and wet</td><td>Counts as exhausted.</td></tr>
+  </tbody></table></div>
+</section>
+
+<section id="waffen">
+  <h2 class="s">Weapons</h2>
+  <p class="lead">One weapon per type, each with a name, a fixed element and its own story. Duc always holds exactly one, and you swap weapons in your cabin.</p>
+  <div class="tw"><table><thead><tr><th>Type</th><th>Strong against</th><th>Weak against</th><th>Trait</th></tr></thead><tbody>
+    <tr><td><b>Blade</b></td><td>humans, animals</td><td>machines, monsters</td><td>highest base damage</td></tr>
+    <tr><td><b>Blunt</b></td><td>machines, monsters</td><td>flyers</td><td>a perfect parry weakens the enemy</td></tr>
+    <tr><td><b>Knife</b></td><td>humans, animals</td><td>monsters</td><td>crit +5 %, exhausted enemies take +5 instead of +4, strikes with Cunning</td></tr>
+    <tr><td><b>Polearm</b></td><td>monsters</td><td>machines</td><td>reach: the enemy hits with −1</td></tr>
+    <tr><td><b>Firearm</b></td><td>flyers</td><td>monsters</td><td>first strike: one free shot before round 1</td></tr>
+  </tbody></table></div>
+  <div class="filter" id="f-w-art" role="group" aria-label="Filter by type"></div>
+  <div class="tw"><table id="t-w"><thead><tr><th>Weapon</th><th class="z">Damage</th><th>Element</th><th>Type</th></tr></thead><tbody></tbody></table></div>
+  <p>A counter after a perfect parry works with every weapon. Gemelli fires both barrels on its first strike and on every counter.</p>
+</section>
+
+<section id="ruestung">
+  <h2 class="s">Jackets</h2>
+  <p class="lead">Duc always wears one jacket and can only swap it, in his cabin. Each has a fixed trait.</p>
+  <div class="tw"><table><thead><tr><th>Jacket</th><th class="z">Protection</th><th>Trait</th></tr></thead><tbody>
+    <tr><td><b>Terra Scura</b> <small>Biker Jacket</small></td><td class="z">+3</td><td>Steadfast: defending gives protection +2, and you are never shaken.</td></tr>
+    <tr><td><b>Meramie</b> <small>Navy Pea Coat</small></td><td class="z">+2</td><td>Flowing: parry window +5 %, and a counter after a perfect parry does ×1.1.</td></tr>
+    <tr><td><b>Incendio</b> <small>Burgundy Pea Coat</small></td><td class="z">+2</td><td>Embers: you hit +2 harder for every burn stack on the enemy.</td></tr>
+    <tr><td><b>Zéphyr</b> <small>White Pea Coat</small></td><td class="z">+2</td><td>Light: stamina +2, and fleeing is easier.</td></tr>
+    <tr><td><b>Citadelle</b> <small>Cyber Armor, heavy</small></td><td class="z">+5</td><td>All-in-one: protects against every element, the first hit in each fight counts only half, parry window −10 %.</td></tr>
+  </tbody></table></div>
+</section>
+
+<section id="werkstatt">
+  <h2 class="s">Rosi's workshop</h2>
+  <p>Once Rosi's workshop is repaired, she upgrades one piece a night: +1 damage or +1 protection, twice per piece. Hand it to her from your cabin; it costs no action, and she texts you the next morning. Each upgrade costs money and material: plates for jackets, and for weapons the next stone of their element.</p>
+  <p><b>Chips:</b> collars and agent gear carry chips. Rosi cuts out the transmitter and rebuilds them so they only help you. Fit them into the slots of your weapon and jacket in the upgrade window. Before the workshop is open you can't tell what a chip does.</p>
+</section>
+
+<section id="gegenstaende">
+  <h2 class="s">Healing</h2>
+  <div class="grid">
+    <div class="box"><div class="gross">12</div><h4>First-aid kit</h4><p>From Totò and Alva for 60 €. Heals 12 life, once.</p></div>
+    <div class="box"><div class="gross">6 / 10</div><h4>Snacks</h4><p>Heal 6, or 10 with Duc's Kitchen strength.</p></div>
+  </div>
+</section>
+
+<section id="gegner">
+  <h2 class="s">Enemies and threat</h2>
+  <div class="tw"><table><thead><tr><th>Threat</th><th>Colour</th><th>Enemy level</th><th class="z">Experience</th></tr></thead><tbody>
+    <tr><td><b>Nuisance</b></td><td>grey</td><td>below yours</td><td class="z">×0.5</td></tr>
+    <tr><td><b>Dangerous</b></td><td>green</td><td>the same</td><td class="z">×1</td></tr>
+    <tr><td><b>Deadly</b></td><td>orange</td><td>+1</td><td class="z">×1.5</td></tr>
+    <tr><td><b>Nightmare</b></td><td>skull</td><td>+2 or more</td><td class="z">×2</td></tr>
+  </tbody></table></div>
+  <h3>Packs and gangs</h3>
+  <p>Up to three enemies can come at you at once. Pick your command, then your target: ← → or 1–3, Enter to strike, Esc to go back. Mistral, Lame de Fond and every grenade hit all of them. A pack rat goes down in one blow and bites softer than its alpha. Each of them swings in turn, so each blow gets its own parry.</p>
+  <h3>Enemies you have met</h3>
+  <div class="tw"><table><thead><tr><th>Enemy</th><th>Kind</th><th>Element</th><th>Weakness</th><th>Immune</th></tr></thead><tbody>
+    <tr><td><b>Pickpocket</b></td><td>human</td><td>–</td><td>Charisma</td><td>–</td></tr>
+    <tr><td><b>Seagull</b></td><td>flyer</td><td><span class="el luft"><i></i>Air</span></td><td>Courage</td><td>Talk</td></tr>
+    <tr><td><b>Rat</b> / <b>Alpha Rat</b></td><td>animal</td><td><span class="el erde"><i></i>Earth</span></td><td>Courage / –</td><td>Talk</td></tr>
+    <tr><td><b>Alpha Dog</b></td><td>animal</td><td><span class="el erde"><i></i>Earth</span></td><td>–</td><td>Talk</td></tr>
+    <tr><td><b>Boar</b></td><td>animal</td><td><span class="el erde"><i></i>Earth</span></td><td>–</td><td>Talk, Intimidate</td></tr>
+    <tr><td><b>Pirate</b></td><td>human</td><td><span class="el wasser"><i></i>Water</span></td><td>Courage</td><td>–</td></tr>
+    <tr><td><b>Pirate with a Torch</b></td><td>human</td><td><span class="el feuer"><i></i>Fire</span></td><td>Perception</td><td>–</td></tr>
+    <tr><td><b>Maxwell</b> (training)</td><td>human</td><td>–</td><td>Charisma</td><td>Intimidate</td></tr>
+  </tbody></table></div>
+  <p>Enemy composure is 12 + 2 × level. Their tests are against 11 + level/2.</p>
+</section>
+<footer>Combat guide for Eden Rise. If this page and the game ever disagree, the game is right.</footer>
+</main>
+</div>
+
+<script>
+var SA = [
+ ["K","K3","Mistral","+4 damage, and the enemy is shaken for 2 rounds (no protection).","3"],
+ ["K","K5","Ressac","Answer to their special attack: a counter (×2 against a wet enemy); against a strong one they are also weakened.","3"],
+ ["K","K7","Libeccio","For 2 rounds you take half damage, and every perfect parry shakes them.","2"],
+ ["K","K9","Lame de Fond","Finisher against an exhausted enemy: ×2, against a shaken one ×3.","4"],
+ ["L","L3","Doppio Gioco","Two cuts at 70 % each.","3"],
+ ["L","L5","Sotto Voce","Answer to their special attack: your next attack is a sure crit; against a strong one their hit is also halved.","2"],
+ ["L","L7","Vendetta","A cut at 30 %, then they bleed (not machines).","3"],
+ ["L","L9","Omertà","Finisher against an exhausted enemy: crit ×2.5 (×3.5 with a sure crit), +25 % per condition, up to 4.","4"],
+ ["W","W3","Point de Mire","They are exhausted for 3 rounds (below Perception 4: until your next turn).","2"],
+ ["W","W5","Bonaccia","Answer to their special attack: catch a strong one completely and strike back, halve a weak one and strike back at half strength (below Perception 4: only halved).","2"],
+ ["W","W7","Phare","Against a strong special attack: blinds them and they skip 1 round (2 if charged with current); below Perception 4 only at 15 % per point.","3"],
+ ["W","W9","Pluie d’Étoiles","Finisher: 3 hits at 85 % (full damage against flyers).","4"],
+ ["M","M3","Scirocco","+4 damage and one burn stack, but afterwards you are exposed.","3"],
+ ["M","M5","Retour de Flamme","Charges your weapon: their next attack is met with a counter. Parry it for ×1.5 and a burn stack (×2 against a strong special attack), miss it for ×0.5.","2"],
+ ["M","M7","Furia","One hit right away, then 2 rounds at ×1.3, and every hit adds a burn stack. You catch fire yourself and cannot defend.","3"],
+ ["M","M9","Vulcano","Finisher: one blow per burn stack on the enemy at 60 %, ignores protection and uses up every stack. You skip 1 round afterwards.","4"],
+ ["H","H3","Elicriso","Heals 30 % of your HP and soothes a burn or a bleeding wound. Nonna Fiora teaches it at the monastery.","3"],
+ ["H","H5","Ponente","For 3 rounds you heal 10 % of your HP every round, and your parry window is 10 % wider.","3"],
+ ["H","H7","Risveglio","Heals 80 % of your HP. Once per fight.","4"],
+ ["H","H9","Arcangelo","If you fall in this fight, you rise again with half your HP. Once per fight.","4"]
+];
+var WAFFEN = [
+ ["Riposte","Cavalry Sabre",5,"wasser","Blade"],
+ ["Terremoto","Baseball Bat",2,"erde","Blunt"],
+ ["Sussurro","Combat Knife",2,"luft","Knife"],
+ ["Le Large","Boar Spear",4,"feuer","Polearm"],
+ ["Gemelli","Double Rifle",3,"","Firearm"]
+];
+var ELN = {feuer:"Fire",wasser:"Water",erde:"Earth",luft:"Air"};
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e}
+function filterBar(id,optionen,aktuell,cb){
+  var box=document.getElementById(id);box.textContent="";
+  optionen.forEach(function(o){var b=el("button","",o[1]);b.type="button";b.setAttribute("aria-pressed",String(o[0]===aktuell.v));
+    b.onclick=function(){aktuell.v=o[0];cb();Array.prototype.forEach.call(box.children,function(x,i){x.setAttribute("aria-pressed",String(optionen[i][0]===aktuell.v))})};box.appendChild(b)});
+}
+var fSA={v:"alle"};
+function zeichneSA(){
+  var tb=document.querySelector("#t-sa tbody");tb.textContent="";
+  SA.filter(function(r){return fSA.v==="alle"||r[0]===fSA.v}).forEach(function(r){
+    var tr=el("tr");var k=el("td");k.appendChild(el("span","sa-pfad",r[1]));tr.appendChild(k);
+    var n=el("td");n.appendChild(el("b","",r[2]));tr.appendChild(n);
+    tr.appendChild(el("td","",r[3]));tr.appendChild(el("td","z",r[4]));tb.appendChild(tr)});
+}
+filterBar("f-sa",[["alle","All 20"],["K","Fighter"],["L","Smuggler"],["W","Marksman"],["M","Berserker"],["H","Healer"]],fSA,zeichneSA);zeichneSA();
+var fArt={v:"alle"};
+function zeichneW(){
+  var tb=document.querySelector("#t-w tbody");tb.textContent="";
+  WAFFEN.filter(function(w){return fArt.v==="alle"||w[4]===fArt.v}).forEach(function(w){
+    var tr=el("tr");var n=el("td");n.appendChild(el("b","",w[0]));n.appendChild(document.createTextNode(" "));n.appendChild(el("small","",w[1]));tr.appendChild(n);
+    tr.appendChild(el("td","z",String(w[2])));
+    var e=el("td");if(w[3]){var sp=el("span","el "+w[3]);sp.appendChild(el("i"));sp.appendChild(document.createTextNode(ELN[w[3]]));e.appendChild(sp)}else e.textContent="–";tr.appendChild(e);
+    tr.appendChild(el("td","",w[4]));tb.appendChild(tr)});
+}
+filterBar("f-w-art",[["alle","All types"],["Blade","Blade"],["Blunt","Blunt"],["Knife","Knife"],["Polearm","Polearm"],["Firearm","Firearm"]],fArt,zeichneW);zeichneW();
+function rechne(){
+  function v(id){return parseFloat(document.getElementById(id).value)||0}
+  var basis=6+v("r-attr")+v("r-waffe")+v("r-extra")+v("r-ersch"),f=v("r-typ")*v("r-el"),schutz=v("r-schutz");
+  var t=Math.max(1,Math.round(basis*f)-schutz),kr=Math.max(1,Math.round(Math.ceil(basis*f*1.5))-schutz);
+  var ch=5+3*v("r-list");
+  document.getElementById("o-treffer").textContent=t;document.getElementById("o-krit").textContent=kr;document.getElementById("o-chance").textContent=ch+" %";
+}
+Array.prototype.forEach.call(document.querySelectorAll("#rechner input,#rechner select"),function(i){i.addEventListener("input",rechne)});rechne();
+(function(){
+  var links=Array.prototype.slice.call(document.querySelectorAll("#nav a")),secs=links.map(function(a){return document.querySelector(a.getAttribute("href"))});
+  if(!("IntersectionObserver" in window))return;
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(a){a.classList.toggle("an",a.getAttribute("href")==="#"+e.target.id)});
+    var an=document.querySelector("#nav a.an");if(an&&window.innerWidth<=860){var nav=document.getElementById("nav");nav.scrollLeft=an.offsetLeft-16}}})},{rootMargin:"-10% 0px -80% 0px"});
+  secs.forEach(function(s){if(s)io.observe(s)});
+})();
+</script>
+
+</body>
+</html>

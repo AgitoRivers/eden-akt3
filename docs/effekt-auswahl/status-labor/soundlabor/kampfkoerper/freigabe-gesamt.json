@@ -1,0 +1,330 @@
+{
+  "version": 1,
+  "selected": {
+    "rat_claw": {
+      "label": "Ratte · Kratzen",
+      "variant": "B",
+      "file": "audio/rat_claw_2.ogg",
+      "asset_id": "combat-foley-v1-rat_claw-B",
+      "sha256": "68df39fad70b2e712040102061b1d58f6bf7070cd38d371e19d706a063f6a1d7",
+      "note": ""
+    },
+    "rat_bite": {
+      "label": "Ratte · Biss",
+      "variant": "A",
+      "file": "audio/rat_bite_1.ogg",
+      "asset_id": "combat-foley-v1-rat_bite-A",
+      "sha256": "b9faabdf1482ef176a2816b39c2d86a4b6f063146a063662fbc40ff7ce914a7c",
+      "note": ""
+    },
+    "rat_hurt": {
+      "label": "Ratte · Trefferreaktion",
+      "variant": "C",
+      "file": "audio/rat_hurt_3.ogg",
+      "asset_id": "combat-foley-v1-rat_hurt-C",
+      "sha256": "50234b5f51daaba5018cced2ce70b447f397be6eec01fd59710c46267e31ae55",
+      "note": ""
+    },
+    "dog_snap": {
+      "label": "Hund · Schnappen",
+      "variant": "D",
+      "file": "audio/dog_snap_4.ogg",
+      "asset_id": "combat-foley-v1-dog_snap-D",
+      "sha256": "a541ca513ffbbe8a7e0ace0ddf1abb22a47fe75a0f4a25fd736dc6900757f791",
+      "note": ""
+    },
+    "dog_hurt": {
+      "label": "Hund · Trefferreaktion",
+      "variant": "D",
+      "file": "audio/dog_hurt_4.ogg",
+      "asset_id": "combat-foley-v1-dog_hurt-D",
+      "sha256": "9b8509208257c3caaad7598f0224beada525eecb0d81d005723cba7919241d79",
+      "note": ""
+    },
+    "dog_pack": {
+      "label": "Alpha-Hund · Einkreisen",
+      "variant": "D",
+      "file": "audio/dog_pack_4.ogg",
+      "asset_id": "combat-foley-v1-dog_pack-D",
+      "sha256": "8893d8a8b5ad1906251cd2c3a1aa5f42405d52b452a2c045c0e79b12f30f3398",
+      "note": ""
+    },
+    "boar_tusk": {
+      "label": "Keiler · Hauerstoß",
+      "variant": "C",
+      "file": "audio/boar_tusk_3.ogg",
+      "asset_id": "combat-foley-v1-boar_tusk-C",
+      "sha256": "9d000f248a3c611eb0bd60dc7615c4f7b788071883c947bd5ce2ebb393aa9a06",
+      "note": ""
+    },
+    "boar_snort": {
+      "label": "Keiler · Schnauben",
+      "variant": "B",
+      "file": "audio/boar_snort_2.ogg",
+      "asset_id": "combat-foley-v1-boar_snort-B",
+      "sha256": "2afe6720256c718c7e3998c790706b911eac7886c83e61407c1c05c542e24863",
+      "note": ""
+    },
+    "boar_charge": {
+      "label": "Keiler · Angriffssprint",
+      "variant": "C",
+      "file": "audio/boar_charge_3.ogg",
+      "asset_id": "combat-foley-v1-boar_charge-C",
+      "sha256": "9597a9d5d0f260bdefeb92dc91076a8a64bbc4b500f525f3d9d97402c72f5b7f",
+      "note": ""
+    },
+    "gull_peck": {
+      "label": "Möwe · Picken",
+      "variant": "D",
+      "file": "audio/gull_peck_4.ogg",
+      "asset_id": "combat-foley-v1-gull_peck-D",
+      "sha256": "acd2da7d3337abe1d94894c747737a49371b979ffedda7b46ab8195f652442b0",
+      "note": ""
+    },
+    "gull_dive": {
+      "label": "Möwe · Sturzflug",
+      "variant": "C",
+      "file": "audio/gull_dive_3.ogg",
+      "asset_id": "combat-foley-v1-gull_dive-C",
+      "sha256": "c4ad8f979c533f537021f57de471483d74cb92647991c92ba15604d9e1a110ab",
+      "note": ""
+    },
+    "gull_hurt": {
+      "label": "Möwe · Trefferreaktion",
+      "variant": "D",
+      "file": "audio/gull_hurt_4.ogg",
+      "asset_id": "combat-foley-v1-gull_hurt-D",
+      "sha256": "9e473353f8e5ab044f38834a0cfb5e98fd639f8dce9e27f2276232eb86d91b30",
+      "note": ""
+    },
+    "torch_hit": {
+      "label": "Fackelpirat · Fackelschlag",
+      "variant": "A",
+      "file": "audio/torch_hit_1.ogg",
+      "asset_id": "combat-foley-v1-torch_hit-A",
+      "sha256": "dc4cc9959ec3412f4ebc9e67a24731237566b3bc5cc9dec1d116347c3d8c396e",
+      "note": ""
+    },
+    "boxing_jab": {
+      "label": "Maxwell · Jab",
+      "variant": "D",
+      "file": "audio/boxing_jab_4.ogg",
+      "asset_id": "combat-foley-v1-boxing_jab-D",
+      "sha256": "2fb5412248711129c46ebdda7de00e235d53b127e2ffab747981ce37ab1cc0df",
+      "note": ""
+    },
+    "parry_blade": {
+      "label": "Duc · Klingenparade",
+      "variant": "B",
+      "file": "audio/parry_blade_2.ogg",
+      "asset_id": "combat-foley-v1-parry_blade-B",
+      "sha256": "72ddaa7db2ec14a7c44838b22c9c89d867b420b193976e753079d0e807da65a8",
+      "note": ""
+    },
+    "dodge_step": {
+      "label": "Duc · Ausweichen",
+      "variant": "B",
+      "file": "audio/dodge_step_2.ogg",
+      "asset_id": "combat-foley-v1-dodge_step-B",
+      "sha256": "7a7746529b8d461090be90a4622bf22962c286a759b3b09d6b9bdcd0fb3c402b",
+      "note": ""
+    },
+    "duc_hurt": {
+      "label": "Duc · kurze Schmerzreaktion",
+      "variant": "A",
+      "file": "audio/duc_hurt_1.ogg",
+      "asset_id": "combat-foley-v1-duc_hurt-A",
+      "sha256": "fa65f51a7142720edd2d2967f4a01192c845f0f1688d76fb503548ceb6a97a34",
+      "note": ""
+    },
+    "duc_exhausted": {
+      "label": "Duc · erschöpft",
+      "variant": "C",
+      "file": "audio/duc_exhausted_3.ogg",
+      "asset_id": "combat-foley-v1-duc_exhausted-C",
+      "sha256": "69e6e5302ab27caa020bbcbdbb20bc1a9326296ff922ca8845492aedf90a74db",
+      "note": ""
+    },
+    "duc_fall": {
+      "label": "Duc · zu Boden",
+      "variant": "B",
+      "file": "audio/duc_fall_2.ogg",
+      "asset_id": "combat-foley-v1-duc_fall-B",
+      "sha256": "02eebfce243f179331c6ef5889308a776048151ff0b3b4d8c5765c98c26aafef",
+      "note": ""
+    },
+    "gun_shot": {
+      "label": "Flinte · einzelner Schuss",
+      "variant": "B",
+      "file": "audio/gun_shot_2.ogg",
+      "asset_id": "combat-foley-v1-gun_shot-B",
+      "sha256": "3921fe04db69f84a51ac404f8b3eb1ff1c5be0732c7582b14ac3cdf10af9b9d3",
+      "note": ""
+    },
+    "boar_hurt": {
+      "label": "Keiler · Trefferreaktion",
+      "variant": "A",
+      "file": "revision2/audio/boar_hurt_1.ogg",
+      "asset_id": "combat-foley-v2-boar_hurt-A",
+      "revision": 2,
+      "sha256": "36fade6ad0d275161b336abb9c0c76a7e4bc1f19aece7414a07f6079679c2199",
+      "note": ""
+    },
+    "boxing_hammer": {
+      "label": "Maxwell · schwerer Hammer",
+      "variant": "A",
+      "file": "revision2/audio/boxing_hammer_1.ogg",
+      "asset_id": "combat-foley-v2-boxing_hammer-A",
+      "revision": 2,
+      "sha256": "beb05c3d9047cd8408192882f88cabc7e1ea630dc02adc36a50bbb4e91250af5",
+      "note": ""
+    },
+    "guard_body": {
+      "label": "Duc · geblockter Treffer",
+      "variant": "D",
+      "file": "audio/guard_body_4.ogg",
+      "asset_id": "combat-foley-v1-guard_body-D",
+      "revision": 1,
+      "sha256": "4101a832f885cce633080fe0c8c580d3a03d2a6bd7bf1c87d91e39dc3e9bc3ca",
+      "note": ""
+    },
+    "knife_stab": {
+      "label": "Messer · schneller Stich",
+      "variant": "C",
+      "file": "revision2/audio/knife_stab_3.ogg",
+      "asset_id": "combat-foley-v2-knife_stab-C",
+      "revision": 2,
+      "sha256": "d88e38164e6de485f401b6d91f6a415312de4b520c46326e0875404ae7d1618b",
+      "note": ""
+    },
+    "bat_swing": {
+      "label": "Schläger · wuchtiger Hieb",
+      "variant": "A",
+      "file": "revision2/audio/bat_swing_1.ogg",
+      "asset_id": "combat-foley-v2-bat_swing-A",
+      "revision": 2,
+      "sha256": "8fb5bf8937f6309b34da1837fe4a0734fd53686a107e3483e76b0be0ca6a1002",
+      "note": ""
+    },
+    "steam_reaction": {
+      "label": "Dampf · Feuer trifft Wasser",
+      "variant": "A",
+      "file": "revision2/audio/steam_reaction_1.ogg",
+      "asset_id": "combat-foley-v2-steam_reaction-A",
+      "revision": 2,
+      "sha256": "97dad40bc204d07d9716d3fdbf2ffbfb952c00fda95752b007c595005e43ca3e",
+      "note": ""
+    },
+    "mud_contact": {
+      "label": "Schlamm · Festsetzen",
+      "variant": "A",
+      "file": "revision2/audio/mud_contact_1.ogg",
+      "asset_id": "combat-foley-v2-mud_contact-A",
+      "revision": 2,
+      "sha256": "36a40899701531e514757c953abd091c9c19424b53be6cf7083ae96e6a629c69",
+      "note": ""
+    },
+    "dog_pounce": {
+      "label": "Hund · Anspringen",
+      "variant": "A",
+      "file": "revision3/audio/dog_pounce_AC.ogg",
+      "asset_id": "combat-foley-v3-dog_pounce-AC",
+      "revision": 3,
+      "sha256": "d661d30e2b99dad2f982a6b34fa93f6ab99c32230a141e4bc8961d79f0006894",
+      "note": ""
+    },
+    "guard_raise": {
+      "label": "Duc · Deckung einnehmen",
+      "variant": "D",
+      "file": "revision3/audio/guard_raise_4.ogg",
+      "asset_id": "combat-foley-v3-guard_raise-D",
+      "revision": 3,
+      "sha256": "8e6e77b10ab60d1d1d43a511ec4745a73eb13fdfd486c7d1ac1048ecd1bac4a1",
+      "note": ""
+    },
+    "duc_effort": {
+      "label": "Duc · Ausatmen beim schweren Angriff",
+      "variant": "A",
+      "file": "revision3/audio/duc_effort_1.ogg",
+      "asset_id": "combat-foley-v3-duc_effort-A",
+      "revision": 3,
+      "sha256": "997839ca4d92c9079a3782a3099fa262551f49da8a782f4336b2485a18fd4ee2",
+      "note": ""
+    },
+    "electric_contact": {
+      "label": "Strom · Überschlag",
+      "variant": "A",
+      "file": "revision3/audio/electric_contact_1.ogg",
+      "asset_id": "combat-foley-v3-electric_contact-A",
+      "revision": 3,
+      "sha256": "6117ab8df7d9fbc4b0bc07e75a3756f6e8aac4c7f43f8cbb6f60abcfd3926565",
+      "note": ""
+    },
+    "rat_swarm": {
+      "label": "Alpha-Ratte · Rudelsprung",
+      "variant": "A",
+      "file": "revision4/audio/rat_swarm_1.ogg",
+      "asset_id": "combat-foley-v4-rat_swarm-A",
+      "revision": 4,
+      "sha256": "43e4ad8660dfbd0feb1abe6050faffdaf44ac2065014269685c314ca1534f49e",
+      "note": ""
+    },
+    "stance_step": {
+      "label": "Duc · zwei Schritte in den Stand",
+      "variant": "D",
+      "file": "revision4/audio/stance_step_4.ogg",
+      "asset_id": "combat-foley-v4-stance_step-D",
+      "revision": 4,
+      "sha256": "d645117daecccf4cccc5f0e4148cc61174d1a0efcd7db0964f4b0943d4c11d1f",
+      "note": ""
+    },
+    "spear_thrust": {
+      "label": "Saufeder · Stoß",
+      "variant": "B",
+      "file": "revision4/audio/spear_thrust_2.ogg",
+      "asset_id": "combat-foley-v4-spear_thrust-B",
+      "revision": 4,
+      "sha256": "81955641e171d6bb866d6ad41d0a7ae503cb98cb7e268e6dab145e60942ee873",
+      "note": ""
+    },
+    "gun_reload": {
+      "label": "Flinte · Nachladen",
+      "variant": "C",
+      "file": "revision4/audio/gun_reload_3.ogg",
+      "asset_id": "combat-foley-v4-gun_reload-C",
+      "revision": 4,
+      "sha256": "a6862d103ab622d11930216f0373e651f661a18917333cfe77b8f598e8a87492",
+      "note": ""
+    },
+    "stone_shock": {
+      "label": "Erschüttert · tiefer Körperstoß",
+      "variant": "B",
+      "file": "revision2/audio/stone_shock_2.ogg",
+      "asset_id": "combat-foley-v2-stone_shock-B",
+      "revision": 2,
+      "sha256": "c5e1490ae063d1008f88ef1dea87fc641e99bb9d832bb252158ef4b8e1777872",
+      "note": ""
+    },
+    "bleed_reaction": {
+      "label": "Blutend · Wunde reißt auf",
+      "variant": "A",
+      "file": "revision2/audio/bleed_reaction_1.ogg",
+      "asset_id": "combat-foley-v2-bleed_reaction-A",
+      "revision": 2,
+      "sha256": "dd9af1d9fda061bf0ad7556761e9a4f3363d0655fee5779ec30c54747285d215",
+      "note": ""
+    },
+    "state_recover": {
+      "label": "Zustand endet · Fassung gewinnen",
+      "variant": "C",
+      "file": "revision2/audio/state_recover_3.ogg",
+      "asset_id": "combat-foley-v2-state_recover-C",
+      "revision": 2,
+      "sha256": "0c8c42efc80c90af647ac2587797e97ab205bdbb9dd0f31b67d48ac700ad21f2",
+      "note": ""
+    }
+  },
+  "committed": false,
+  "status": "complete",
+  "pending": []
+}

@@ -1,0 +1,31 @@
+{
+ "id": "charakter_messer",
+ "titel": "Messer in Szene gesetzt: 4 Posen (Terra Scura)",
+ "hinweis": "Welche Pose soll das Messer für alle fünf Jacken bekommen? Die beste mit OK markieren, Wünsche in die Notiz.",
+ "items": [
+  {
+   "id": "DucErdeKnife_p1",
+   "titel": "Sussurro (Messer) · Pose 1: Klinge quer vor der Brust, ganz sichtbar",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucErdeKnife_p1.jpg",
+   "soll": "das Messer klar in Szene gesetzt, genau ein Messer, grinsend"
+  },
+  {
+   "id": "DucErdeKnife_p2",
+   "titel": "Sussurro (Messer) · Pose 2: Rückwärtsgriff, Klinge am Unterarm entlang",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucErdeKnife_p2.jpg",
+   "soll": "das Messer klar in Szene gesetzt, genau ein Messer, grinsend"
+  },
+  {
+   "id": "DucErdeKnife_p3",
+   "titel": "Sussurro (Messer) · Pose 3: Klinge senkrecht neben dem Gesicht, er schaut sie an",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucErdeKnife_p3.jpg",
+   "soll": "das Messer klar in Szene gesetzt, genau ein Messer, grinsend"
+  },
+  {
+   "id": "DucErdeKnife_p4",
+   "titel": "Sussurro (Messer) · Pose 4: breiter Stand, Klinge nach vorn auf den Betrachter",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucErdeKnife_p4.jpg",
+   "soll": "das Messer klar in Szene gesetzt, genau ein Messer, grinsend"
+  }
+ ]
+}

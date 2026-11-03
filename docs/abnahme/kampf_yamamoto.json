@@ -1,0 +1,111 @@
+{
+ "id": "kampf_yamamoto_posen",
+ "titel": "Yamamoto-san · Samurai-Posen",
+ "hinweis": "Alle Posen des Duells. defeated zeigt zwei Figuren und muss neu.",
+ "items": [
+  {
+   "id": "idle",
+   "titel": "idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\idle.png",
+   "soll": "Yamamoto-san, schwarz-rote Rüstung, Pose: idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\outfit_check.png",
+   "vergleich_titel": "Testbild (abgenommen)"
+  },
+  {
+   "id": "guard",
+   "titel": "guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\guard.png",
+   "soll": "Yamamoto-san, schwarz-rote Rüstung, Pose: guard",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\outfit_check.png",
+   "vergleich_titel": "Testbild (abgenommen)"
+  },
+  {
+   "id": "windup",
+   "titel": "windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\windup.png",
+   "soll": "Yamamoto-san, schwarz-rote Rüstung, Pose: windup",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\outfit_check.png",
+   "vergleich_titel": "Testbild (abgenommen)"
+  },
+  {
+   "id": "attack",
+   "titel": "attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\attack.png",
+   "soll": "Yamamoto-san, schwarz-rote Rüstung, Pose: attack",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\outfit_check.png",
+   "vergleich_titel": "Testbild (abgenommen)"
+  },
+  {
+   "id": "heavy_windup",
+   "titel": "heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\heavy_windup.png",
+   "soll": "Yamamoto-san, schwarz-rote Rüstung, Pose: heavy_windup",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\outfit_check.png",
+   "vergleich_titel": "Testbild (abgenommen)"
+  },
+  {
+   "id": "heavy_attack",
+   "titel": "heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\heavy_attack.png",
+   "soll": "Yamamoto-san, schwarz-rote Rüstung, Pose: heavy_attack",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\outfit_check.png",
+   "vergleich_titel": "Testbild (abgenommen)"
+  },
+  {
+   "id": "hurt",
+   "titel": "hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\hurt.png",
+   "soll": "Yamamoto-san, schwarz-rote Rüstung, Pose: hurt",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\outfit_check.png",
+   "vergleich_titel": "Testbild (abgenommen)"
+  },
+  {
+   "id": "enraged",
+   "titel": "enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\enraged.png",
+   "soll": "Yamamoto-san, schwarz-rote Rüstung, Pose: enraged",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\outfit_check.png",
+   "vergleich_titel": "Testbild (abgenommen)"
+  },
+  {
+   "id": "weakened",
+   "titel": "weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\weakened.png",
+   "soll": "Yamamoto-san, schwarz-rote Rüstung, Pose: weakened",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\outfit_check.png",
+   "vergleich_titel": "Testbild (abgenommen)"
+  },
+  {
+   "id": "surrender",
+   "titel": "surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\surrender.png",
+   "soll": "Yamamoto-san, schwarz-rote Rüstung, Pose: surrender",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\outfit_check.png",
+   "vergleich_titel": "Testbild (abgenommen)"
+  },
+  {
+   "id": "flee",
+   "titel": "flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\flee.png",
+   "soll": "Yamamoto-san, schwarz-rote Rüstung, Pose: flee",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\outfit_check.png",
+   "vergleich_titel": "Testbild (abgenommen)"
+  },
+  {
+   "id": "victory",
+   "titel": "victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\victory.png",
+   "soll": "Yamamoto-san, schwarz-rote Rüstung, Pose: victory",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\outfit_check.png",
+   "vergleich_titel": "Testbild (abgenommen)"
+  },
+  {
+   "id": "defeated",
+   "titel": "defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\defeated.png",
+   "soll": "Yamamoto-san, schwarz-rote Rüstung, Pose: defeated",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\outfit_check.png",
+   "vergleich_titel": "Testbild (abgenommen)"
+  }
+ ]
+}

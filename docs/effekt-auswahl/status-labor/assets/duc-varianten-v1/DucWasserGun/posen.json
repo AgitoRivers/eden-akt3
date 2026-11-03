@@ -1,0 +1,106 @@
+{
+  "idle": {
+    "foot": 979,
+    "center_x": 508.19,
+    "width": 1170,
+    "height": 1000,
+    "scale": 0.42,
+    "mirror": false
+  },
+  "windup": {
+    "foot": 976,
+    "center_x": 462.68,
+    "width": 1170,
+    "height": 1000,
+    "scale": 0.42,
+    "mirror": false
+  },
+  "attack": {
+    "foot": 980,
+    "center_x": 496.8,
+    "width": 1170,
+    "height": 1000,
+    "scale": 0.42,
+    "mirror": false
+  },
+  "heavy_windup": {
+    "foot": 980,
+    "center_x": 536.91,
+    "width": 1170,
+    "height": 1000,
+    "scale": 0.42,
+    "mirror": false
+  },
+  "heavy_attack": {
+    "foot": 980,
+    "center_x": 538.39,
+    "width": 1170,
+    "height": 1000,
+    "scale": 0.42,
+    "mirror": false
+  },
+  "hurt": {
+    "foot": 980,
+    "center_x": 557.19,
+    "width": 1170,
+    "height": 1000,
+    "scale": 0.42,
+    "mirror": false
+  },
+  "guard": {
+    "foot": 980,
+    "center_x": 518.24,
+    "width": 1170,
+    "height": 1000,
+    "scale": 0.42,
+    "mirror": false
+  },
+  "weakened": {
+    "foot": 979,
+    "center_x": 513.39,
+    "width": 1170,
+    "height": 1000,
+    "scale": 0.42,
+    "mirror": false
+  },
+  "enraged": {
+    "foot": 980,
+    "center_x": 584.78,
+    "width": 1170,
+    "height": 1000,
+    "scale": 0.42,
+    "mirror": false
+  },
+  "flee": {
+    "foot": 980,
+    "center_x": 572.21,
+    "width": 1170,
+    "height": 1000,
+    "scale": 0.42,
+    "mirror": false
+  },
+  "surrender": {
+    "foot": 980,
+    "center_x": 560.82,
+    "width": 1170,
+    "height": 1000,
+    "scale": 0.42,
+    "mirror": false
+  },
+  "defeated": {
+    "foot": 980,
+    "center_x": 598.58,
+    "width": 1170,
+    "height": 1000,
+    "scale": 0.42,
+    "mirror": false
+  },
+  "victory": {
+    "foot": 979,
+    "center_x": 641.36,
+    "width": 1170,
+    "height": 1000,
+    "scale": 0.42,
+    "mirror": false
+  }
+}

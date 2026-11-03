@@ -1,0 +1,42 @@
+[
+  {
+    "name": "feuer",
+    "source": "Y:\\JangaFX\\IlluGen\\textures\\game_fire_loop_2_render_all.png",
+    "sha256": "82e548bdb2a5307961a45d3d010d5ef91e22d15fe076cfada77578e287d349a7",
+    "description": "Mitgelieferte originale Feueranimation; keine neue Simulation",
+    "frames": 64,
+    "columns": 8,
+    "frame_pixels": 256,
+    "production_ready": false
+  },
+  {
+    "name": "staub_frei",
+    "source": "Y:\\JangaFX\\IlluGen\\textures\\diablo_mana_smoke_loop_8x8.png",
+    "sha256": "d1f2242c72758e9a3739f542cf546fd420130584cc334978f939f7faf3ac7f31",
+    "description": "Oberer turbulenter Rauchbereich ohne runde Unterseite; zusammenhaengende wandernde Randmaske, keine neue Simulation",
+    "frames": 64,
+    "columns": 8,
+    "frame_pixels": 256,
+    "production_ready": false
+  },
+  {
+    "name": "staub",
+    "source": "Y:\\JangaFX\\IlluGen\\textures\\diablo_mana_smoke_loop_8x8.png",
+    "sha256": "d1f2242c72758e9a3739f542cf546fd420130584cc334978f939f7faf3ac7f31",
+    "description": "Mitgelieferter Rauch, als bodennahe Staubwolke gestaltet",
+    "frames": 64,
+    "columns": 8,
+    "frame_pixels": 256,
+    "production_ready": false
+  },
+  {
+    "name": "strom",
+    "source": "X:\\AI\\Eden\\docs\\effekt-auswahl\\quellen\\vorlagen-vorschauen\\lightning_sheet.jpg",
+    "sha256": "e8a8a4f1d7b95eaccfce5ce54af92ff2b38cb83007f44383cd452e7be920b08b",
+    "description": "Eingebettete IlluGen-Vorschau; noch kein Produktions-Export",
+    "frames": 64,
+    "columns": 8,
+    "frame_pixels": 256,
+    "production_ready": false
+  }
+]

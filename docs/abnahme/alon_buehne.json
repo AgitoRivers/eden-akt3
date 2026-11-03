@@ -1,0 +1,11 @@
+{
+ "id": "alon_buehne",
+ "titel": "Alon: Bühne der Pressekonferenz",
+ "hinweis": "Neu nach der Hintergrund-Regel: Frontansicht aus dem Saal, Mitte unten frei für Alons Figur, Pult am rechten Rand, keine Tür, 1664x928, vier Seeds. Alle vier bestehen die Prüfung.",
+ "items": [
+  {"id": "v1", "titel": "Bühne · Seed 1", "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_alon_keynote_v1.png", "soll": "Bildschirm mit Abendhimmel, Bühne mit Stufen links und rechts im Vordergrund."},
+  {"id": "v2", "titel": "Bühne · Seed 2", "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_alon_keynote_v2.png", "soll": "Großer Lichtring mittig, gut als Standplatz, Bildschirm ohne Horizont."},
+  {"id": "v3", "titel": "⭐ Bühne · Seed 3", "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_alon_keynote_v3.png", "soll": "Vorschlag: Auf dem Bildschirm geht die Sonne über dem Meer auf, wie über der Bucht. Lichtring mittig für Alon, Pult rechts, ruhig und teuer."},
+  {"id": "v4", "titel": "Bühne · Seed 4", "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_alon_keynote_v4.png", "soll": "Ähnlich wie 3, mit Stufen in den unteren Ecken."}
+ ]
+}

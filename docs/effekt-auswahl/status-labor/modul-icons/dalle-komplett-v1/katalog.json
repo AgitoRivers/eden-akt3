@@ -1,0 +1,3279 @@
+{
+  "version": 1,
+  "art_style": "approved dalle-test-v6, satin gradients and angular tech traces",
+  "tool": "built-in image_gen; no CLI or external API fallback",
+  "target_size": [
+    64,
+    64
+  ],
+  "postprocess": "Grid cell extraction, 3% transparent safe padding on each side, Lanczos resize only. No semantic image manipulation.",
+  "game_module_count": 72,
+  "unique_art_count": 84,
+  "categories": [
+    {
+      "id": "wucht",
+      "label": "Wucht",
+      "group": "waffe",
+      "color": "#df746b",
+      "level": 1,
+      "tier": "bronze",
+      "file": "kategorien/wucht-bronze.png"
+    },
+    {
+      "id": "wucht",
+      "label": "Wucht",
+      "group": "waffe",
+      "color": "#df746b",
+      "level": 2,
+      "tier": "silver",
+      "file": "kategorien/wucht-silver.png"
+    },
+    {
+      "id": "wucht",
+      "label": "Wucht",
+      "group": "waffe",
+      "color": "#df746b",
+      "level": 3,
+      "tier": "gold",
+      "file": "kategorien/wucht-gold.png"
+    },
+    {
+      "id": "praezision",
+      "label": "Präzision",
+      "group": "waffe",
+      "color": "#e7cb72",
+      "level": 1,
+      "tier": "bronze",
+      "file": "kategorien/praezision-bronze.png"
+    },
+    {
+      "id": "praezision",
+      "label": "Präzision",
+      "group": "waffe",
+      "color": "#e7cb72",
+      "level": 2,
+      "tier": "silver",
+      "file": "kategorien/praezision-silver.png"
+    },
+    {
+      "id": "praezision",
+      "label": "Präzision",
+      "group": "waffe",
+      "color": "#e7cb72",
+      "level": 3,
+      "tier": "gold",
+      "file": "kategorien/praezision-gold.png"
+    },
+    {
+      "id": "technik",
+      "label": "Technik",
+      "group": "waffe",
+      "color": "#6bbbae",
+      "level": 1,
+      "tier": "bronze",
+      "file": "kategorien/technik-bronze.png"
+    },
+    {
+      "id": "technik",
+      "label": "Technik",
+      "group": "waffe",
+      "color": "#6bbbae",
+      "level": 2,
+      "tier": "silver",
+      "file": "kategorien/technik-silver.png"
+    },
+    {
+      "id": "technik",
+      "label": "Technik",
+      "group": "waffe",
+      "color": "#6bbbae",
+      "level": 3,
+      "tier": "gold",
+      "file": "kategorien/technik-gold.png"
+    },
+    {
+      "id": "konter",
+      "label": "Konter",
+      "group": "waffe",
+      "color": "#79a9df",
+      "level": 1,
+      "tier": "bronze",
+      "file": "kategorien/konter-bronze.png"
+    },
+    {
+      "id": "konter",
+      "label": "Konter",
+      "group": "waffe",
+      "color": "#79a9df",
+      "level": 2,
+      "tier": "silver",
+      "file": "kategorien/konter-silver.png"
+    },
+    {
+      "id": "konter",
+      "label": "Konter",
+      "group": "waffe",
+      "color": "#79a9df",
+      "level": 3,
+      "tier": "gold",
+      "file": "kategorien/konter-gold.png"
+    },
+    {
+      "id": "zustand",
+      "label": "Zustand",
+      "group": "waffe",
+      "color": "#b697db",
+      "level": 1,
+      "tier": "bronze",
+      "file": "kategorien/zustand-bronze.png"
+    },
+    {
+      "id": "zustand",
+      "label": "Zustand",
+      "group": "waffe",
+      "color": "#b697db",
+      "level": 2,
+      "tier": "silver",
+      "file": "kategorien/zustand-silver.png"
+    },
+    {
+      "id": "zustand",
+      "label": "Zustand",
+      "group": "waffe",
+      "color": "#b697db",
+      "level": 3,
+      "tier": "gold",
+      "file": "kategorien/zustand-gold.png"
+    },
+    {
+      "id": "element",
+      "label": "Element",
+      "group": "waffe",
+      "color": "#e0a16b",
+      "level": 1,
+      "tier": "bronze",
+      "file": "kategorien/element-bronze.png"
+    },
+    {
+      "id": "element",
+      "label": "Element",
+      "group": "waffe",
+      "color": "#e0a16b",
+      "level": 2,
+      "tier": "silver",
+      "file": "kategorien/element-silver.png"
+    },
+    {
+      "id": "element",
+      "label": "Element",
+      "group": "waffe",
+      "color": "#e0a16b",
+      "level": 3,
+      "tier": "gold",
+      "file": "kategorien/element-gold.png"
+    },
+    {
+      "id": "schutz",
+      "label": "Schutz",
+      "group": "jacke",
+      "color": "#a8b5bf",
+      "level": 1,
+      "tier": "bronze",
+      "file": "kategorien/schutz-bronze.png"
+    },
+    {
+      "id": "schutz",
+      "label": "Schutz",
+      "group": "jacke",
+      "color": "#a8b5bf",
+      "level": 2,
+      "tier": "silver",
+      "file": "kategorien/schutz-silver.png"
+    },
+    {
+      "id": "schutz",
+      "label": "Schutz",
+      "group": "jacke",
+      "color": "#a8b5bf",
+      "level": 3,
+      "tier": "gold",
+      "file": "kategorien/schutz-gold.png"
+    },
+    {
+      "id": "parade",
+      "label": "Parade",
+      "group": "jacke",
+      "color": "#83ced8",
+      "level": 1,
+      "tier": "bronze",
+      "file": "kategorien/parade-bronze.png"
+    },
+    {
+      "id": "parade",
+      "label": "Parade",
+      "group": "jacke",
+      "color": "#83ced8",
+      "level": 2,
+      "tier": "silver",
+      "file": "kategorien/parade-silver.png"
+    },
+    {
+      "id": "parade",
+      "label": "Parade",
+      "group": "jacke",
+      "color": "#83ced8",
+      "level": 3,
+      "tier": "gold",
+      "file": "kategorien/parade-gold.png"
+    },
+    {
+      "id": "ausdauer",
+      "label": "Ausdauer",
+      "group": "jacke",
+      "color": "#8bc29b",
+      "level": 1,
+      "tier": "bronze",
+      "file": "kategorien/ausdauer-bronze.png"
+    },
+    {
+      "id": "ausdauer",
+      "label": "Ausdauer",
+      "group": "jacke",
+      "color": "#8bc29b",
+      "level": 2,
+      "tier": "silver",
+      "file": "kategorien/ausdauer-silver.png"
+    },
+    {
+      "id": "ausdauer",
+      "label": "Ausdauer",
+      "group": "jacke",
+      "color": "#8bc29b",
+      "level": 3,
+      "tier": "gold",
+      "file": "kategorien/ausdauer-gold.png"
+    },
+    {
+      "id": "erholung",
+      "label": "Erholung",
+      "group": "jacke",
+      "color": "#dba1b9",
+      "level": 1,
+      "tier": "bronze",
+      "file": "kategorien/erholung-bronze.png"
+    },
+    {
+      "id": "erholung",
+      "label": "Erholung",
+      "group": "jacke",
+      "color": "#dba1b9",
+      "level": 2,
+      "tier": "silver",
+      "file": "kategorien/erholung-silver.png"
+    },
+    {
+      "id": "erholung",
+      "label": "Erholung",
+      "group": "jacke",
+      "color": "#dba1b9",
+      "level": 3,
+      "tier": "gold",
+      "file": "kategorien/erholung-gold.png"
+    },
+    {
+      "id": "auftritt",
+      "label": "Auftritt",
+      "group": "jacke",
+      "color": "#debb7c",
+      "level": 1,
+      "tier": "bronze",
+      "file": "kategorien/auftritt-bronze.png"
+    },
+    {
+      "id": "auftritt",
+      "label": "Auftritt",
+      "group": "jacke",
+      "color": "#debb7c",
+      "level": 2,
+      "tier": "silver",
+      "file": "kategorien/auftritt-silver.png"
+    },
+    {
+      "id": "auftritt",
+      "label": "Auftritt",
+      "group": "jacke",
+      "color": "#debb7c",
+      "level": 3,
+      "tier": "gold",
+      "file": "kategorien/auftritt-gold.png"
+    },
+    {
+      "id": "abwehr",
+      "label": "Abwehr",
+      "group": "jacke",
+      "color": "#a4a4df",
+      "level": 1,
+      "tier": "bronze",
+      "file": "kategorien/abwehr-bronze.png"
+    },
+    {
+      "id": "abwehr",
+      "label": "Abwehr",
+      "group": "jacke",
+      "color": "#a4a4df",
+      "level": 2,
+      "tier": "silver",
+      "file": "kategorien/abwehr-silver.png"
+    },
+    {
+      "id": "abwehr",
+      "label": "Abwehr",
+      "group": "jacke",
+      "color": "#a4a4df",
+      "level": 3,
+      "tier": "gold",
+      "file": "kategorien/abwehr-gold.png"
+    }
+  ],
+  "chips": [
+    {
+      "id": "hammer_time",
+      "label": "Hammer Time",
+      "gruppe": "waffe",
+      "kategorie": "wucht",
+      "familie": "wucht",
+      "stufe": 1,
+      "seltenheit": "gewoehnlich",
+      "wirkung": {
+        "stat": "schaden",
+        "wert": 2
+      },
+      "text": "A little extra weight behind every swing. +2 damage.",
+      "file": "chips/hammer_time.png",
+      "art_file": "familien/wucht-bronze.png",
+      "tier": "bronze",
+      "sha256": "4347fe090f99d1f20e142b20bb25b0e22f3eb0d85c8972666e33014ee9db6e97"
+    },
+    {
+      "id": "hammer_down",
+      "label": "Hammer Down",
+      "gruppe": "waffe",
+      "kategorie": "wucht",
+      "familie": "wucht",
+      "stufe": 2,
+      "seltenheit": "selten",
+      "wirkung": {
+        "stat": "schaden",
+        "wert": 3
+      },
+      "text": "Now it really lands. +3 damage.",
+      "file": "chips/hammer_down.png",
+      "art_file": "familien/wucht-silver.png",
+      "tier": "silver",
+      "sha256": "f895e09d76b15030d2158375a6156de5415c559fe7837385356446677e49c652"
+    },
+    {
+      "id": "hammerfall",
+      "label": "Hammerfall",
+      "gruppe": "waffe",
+      "kategorie": "wucht",
+      "familie": "wucht",
+      "stufe": 3,
+      "seltenheit": "episch",
+      "wirkung": {
+        "stat": "schaden",
+        "wert": 4
+      },
+      "text": "Gravity does the rest. +4 damage.",
+      "file": "chips/hammerfall.png",
+      "art_file": "familien/wucht-gold.png",
+      "tier": "gold",
+      "sha256": "cf26d0855564a6b4cae92a4ad01884bfbe535e3642f9c0102edd144e284431c2"
+    },
+    {
+      "id": "bullseye",
+      "label": "Bullseye",
+      "gruppe": "waffe",
+      "kategorie": "praezision",
+      "familie": "praezision",
+      "stufe": 1,
+      "seltenheit": "gewoehnlich",
+      "wirkung": {
+        "stat": "krit",
+        "wert": 8
+      },
+      "text": "Aim for the middle. Critical chance +8%.",
+      "file": "chips/bullseye.png",
+      "art_file": "familien/praezision-bronze.png",
+      "tier": "bronze",
+      "sha256": "e1e4a430d12eb9c6adcc352ba14d5d8e61028ab087f7cbd6a3bedfeb0214c01b"
+    },
+    {
+      "id": "dead_center",
+      "label": "Dead Center",
+      "gruppe": "waffe",
+      "kategorie": "praezision",
+      "familie": "praezision",
+      "stufe": 2,
+      "seltenheit": "selten",
+      "wirkung": {
+        "stat": "krit",
+        "wert": 12
+      },
+      "text": "Right where it hurts. Critical chance +12%.",
+      "file": "chips/dead_center.png",
+      "art_file": "familien/praezision-silver.png",
+      "tier": "silver",
+      "sha256": "d16e123339805ab37f6d10e9c0083304ae145f2ca1f4565da82a67ecc711534f"
+    },
+    {
+      "id": "perfect_shot",
+      "label": "Perfect Shot",
+      "gruppe": "waffe",
+      "kategorie": "praezision",
+      "familie": "praezision",
+      "stufe": 3,
+      "seltenheit": "episch",
+      "wirkung": {
+        "stat": "krit",
+        "wert": 16
+      },
+      "text": "You never miss. You just pick the moment. Critical chance +16%.",
+      "file": "chips/perfect_shot.png",
+      "art_file": "familien/praezision-gold.png",
+      "tier": "gold",
+      "sha256": "0ac55f94ef01d79951813b40879752e0e4783e6598a64fb718e534782db44d73"
+    },
+    {
+      "id": "quick_draw",
+      "label": "Quick Draw",
+      "gruppe": "waffe",
+      "kategorie": "technik",
+      "familie": "technik",
+      "stufe": 1,
+      "seltenheit": "gewoehnlich",
+      "wirkung": {
+        "stat": "spezial_kosten",
+        "wert": -1
+      },
+      "text": "Special attacks cost 1 stamina less.",
+      "file": "chips/quick_draw.png",
+      "art_file": "familien/technik-bronze.png",
+      "tier": "bronze",
+      "sha256": "f5e371d4a3732831b6a1e8c7f01e7357af011d75ea6a2d68b9848a1b11e482f4"
+    },
+    {
+      "id": "second_wind",
+      "label": "Second Wind",
+      "gruppe": "waffe",
+      "kategorie": "technik",
+      "familie": "technik",
+      "stufe": 2,
+      "seltenheit": "selten",
+      "wirkung": {
+        "stat": "ausdauer_bei_treffer",
+        "wert": 1
+      },
+      "text": "Every hit gives you 1 stamina back.",
+      "file": "chips/second_wind.png",
+      "art_file": "familien/technik-silver.png",
+      "tier": "silver",
+      "sha256": "33b3a479e18c000533531e87c103e4c42f66633202f21879da307263a06de276"
+    },
+    {
+      "id": "full_flow",
+      "label": "Full Flow",
+      "gruppe": "waffe",
+      "kategorie": "technik",
+      "familie": "technik",
+      "stufe": 3,
+      "seltenheit": "episch",
+      "wirkung": {
+        "stat": "spezial_und_ausdauer",
+        "wert": 1
+      },
+      "text": "Quick Draw and Second Wind in one. Just keep moving.",
+      "file": "chips/full_flow.png",
+      "art_file": "familien/technik-gold.png",
+      "tier": "gold",
+      "sha256": "4cef6c5b74032c95122759f54d9f00ab7b4560a7681328f32226cd57dcd1970d"
+    },
+    {
+      "id": "payback",
+      "label": "Payback",
+      "gruppe": "waffe",
+      "kategorie": "konter",
+      "familie": "konter",
+      "stufe": 1,
+      "seltenheit": "gewoehnlich",
+      "wirkung": {
+        "stat": "konter",
+        "wert": 1.2
+      },
+      "text": "Hit me and I hit back. Counters deal x1.2.",
+      "file": "chips/payback.png",
+      "art_file": "familien/konter-bronze.png",
+      "tier": "bronze",
+      "sha256": "900ad0fa237f2313bd8ea64cefa05ed39b7113673f98c48f6a58e9aed0fe2f88"
+    },
+    {
+      "id": "backlash",
+      "label": "Backlash",
+      "gruppe": "waffe",
+      "kategorie": "konter",
+      "familie": "konter",
+      "stufe": 2,
+      "seltenheit": "selten",
+      "wirkung": {
+        "stat": "konter",
+        "wert": 1.35
+      },
+      "text": "They'll regret that swing. Counters deal x1.35.",
+      "file": "chips/backlash.png",
+      "art_file": "familien/konter-silver.png",
+      "tier": "silver",
+      "sha256": "dc056a110ac03f3cb64003e470a8599e980b0a771bfb82eef21260d24d4c3c92"
+    },
+    {
+      "id": "reversal",
+      "label": "Reversal",
+      "gruppe": "waffe",
+      "kategorie": "konter",
+      "familie": "konter",
+      "stufe": 3,
+      "seltenheit": "episch",
+      "wirkung": {
+        "stat": "konter",
+        "wert": 1.5
+      },
+      "text": "Your parry turns the whole fight around. Counters deal x1.5.",
+      "file": "chips/reversal.png",
+      "art_file": "familien/konter-gold.png",
+      "tier": "gold",
+      "sha256": "991e374e3c8a9c61c6450e45b1a91e5ceea79f66ca682f21c65dae473d11ac04"
+    },
+    {
+      "id": "hot_blade",
+      "label": "Hot Blade",
+      "gruppe": "waffe",
+      "kategorie": "zustand",
+      "familie": "zustand_brennend",
+      "stufe": 1,
+      "seltenheit": "gewoehnlich",
+      "wirkung": {
+        "stat": "zustand_chance",
+        "wert": 20,
+        "zustand": "brennend"
+      },
+      "text": "A warm edge. Every hit has a 20% chance to set the enemy on fire.",
+      "file": "chips/hot_blade.png",
+      "art_file": "familien/zustand_brennend-bronze.png",
+      "tier": "bronze",
+      "sha256": "f9c573c9193240f1cc9c639e6bb91bea48b9a56e6fe24a85a4cd004d757095a3"
+    },
+    {
+      "id": "flame_blade",
+      "label": "Flame Blade",
+      "gruppe": "waffe",
+      "kategorie": "zustand",
+      "familie": "zustand_brennend",
+      "stufe": 2,
+      "seltenheit": "selten",
+      "wirkung": {
+        "stat": "zustand_chance",
+        "wert": 30,
+        "zustand": "brennend"
+      },
+      "text": "It hisses on contact. Every hit has a 30% chance to set the enemy on fire.",
+      "file": "chips/flame_blade.png",
+      "art_file": "familien/zustand_brennend-silver.png",
+      "tier": "silver",
+      "sha256": "6de566e68c9991535119321617e16bcc2ca28c56501f0e078a33b7e254148c2e"
+    },
+    {
+      "id": "inferno_blade",
+      "label": "Inferno Blade",
+      "gruppe": "waffe",
+      "kategorie": "zustand",
+      "familie": "zustand_brennend",
+      "stufe": 3,
+      "seltenheit": "episch",
+      "wirkung": {
+        "stat": "zustand_chance",
+        "wert": 40,
+        "zustand": "brennend"
+      },
+      "text": "Bring marshmallows. Every hit has a 40% chance to set the enemy on fire.",
+      "file": "chips/inferno_blade.png",
+      "art_file": "familien/zustand_brennend-gold.png",
+      "tier": "gold",
+      "sha256": "ed089d44167f361007468097e1ffb05649fddbe194bc294db831479c705044b1"
+    },
+    {
+      "id": "spark_blade",
+      "label": "Spark Blade",
+      "gruppe": "waffe",
+      "kategorie": "zustand",
+      "familie": "zustand_strom",
+      "stufe": 1,
+      "seltenheit": "gewoehnlich",
+      "wirkung": {
+        "stat": "zustand_chance",
+        "wert": 20,
+        "zustand": "strom"
+      },
+      "text": "A tingle at the tip. Every hit has a 20% chance to shock the enemy.",
+      "file": "chips/spark_blade.png",
+      "art_file": "familien/zustand_strom-bronze.png",
+      "tier": "bronze",
+      "sha256": "f90c927161c9959fcf895ca069bdaeeae6888f478f02ecdc758c4edc97275485"
+    },
+    {
+      "id": "shock_blade",
+      "label": "Shock Blade",
+      "gruppe": "waffe",
+      "kategorie": "zustand",
+      "familie": "zustand_strom",
+      "stufe": 2,
+      "seltenheit": "selten",
+      "wirkung": {
+        "stat": "zustand_chance",
+        "wert": 30,
+        "zustand": "strom"
+      },
+      "text": "Hair stands up. Not just yours. Every hit has a 30% chance to shock the enemy.",
+      "file": "chips/shock_blade.png",
+      "art_file": "familien/zustand_strom-silver.png",
+      "tier": "silver",
+      "sha256": "5ee57ebc8bcf110fe1112fc5459fe50d02f44171989dead22a6b581ab9098acf"
+    },
+    {
+      "id": "thunder_blade",
+      "label": "Thunder Blade",
+      "gruppe": "waffe",
+      "kategorie": "zustand",
+      "familie": "zustand_strom",
+      "stufe": 3,
+      "seltenheit": "episch",
+      "wirkung": {
+        "stat": "zustand_chance",
+        "wert": 40,
+        "zustand": "strom"
+      },
+      "text": "Zeus called. He wants his edge back. Every hit has a 40% chance to shock the enemy.",
+      "file": "chips/thunder_blade.png",
+      "art_file": "familien/zustand_strom-gold.png",
+      "tier": "gold",
+      "sha256": "a0ca4c37ad0997ea2560214cf1a3b180217a7f9366ffb430eb08495c4497d07c"
+    },
+    {
+      "id": "sharp_cut",
+      "label": "Sharp Cut",
+      "gruppe": "waffe",
+      "kategorie": "zustand",
+      "familie": "zustand_blutend",
+      "stufe": 1,
+      "seltenheit": "gewoehnlich",
+      "wirkung": {
+        "stat": "zustand_chance",
+        "wert": 20,
+        "zustand": "blutend"
+      },
+      "text": "Just a scratch. Mostly. Every hit has a 20% chance to make the enemy bleed.",
+      "file": "chips/sharp_cut.png",
+      "art_file": "familien/zustand_blutend-bronze.png",
+      "tier": "bronze",
+      "sha256": "8cc67537619832bd4f002f12540b6e626a69f8a0f16c6662778c26228edabf11"
+    },
+    {
+      "id": "deep_cut",
+      "label": "Deep Cut",
+      "gruppe": "waffe",
+      "kategorie": "zustand",
+      "familie": "zustand_blutend",
+      "stufe": 2,
+      "seltenheit": "selten",
+      "wirkung": {
+        "stat": "zustand_chance",
+        "wert": 30,
+        "zustand": "blutend"
+      },
+      "text": "Not a scratch. Every hit has a 30% chance to make the enemy bleed.",
+      "file": "chips/deep_cut.png",
+      "art_file": "familien/zustand_blutend-silver.png",
+      "tier": "silver",
+      "sha256": "d893620de22723e076dbe36a0b4ef433d10e381583671b80698597b362032b61"
+    },
+    {
+      "id": "bloody_edge",
+      "label": "Bloody Edge",
+      "gruppe": "waffe",
+      "kategorie": "zustand",
+      "familie": "zustand_blutend",
+      "stufe": 3,
+      "seltenheit": "episch",
+      "wirkung": {
+        "stat": "zustand_chance",
+        "wert": 40,
+        "zustand": "blutend"
+      },
+      "text": "Dramatic, but effective. Every hit has a 40% chance to make the enemy bleed.",
+      "file": "chips/bloody_edge.png",
+      "art_file": "familien/zustand_blutend-gold.png",
+      "tier": "gold",
+      "sha256": "ac279f4af3b0dc8fa14bf471b871d30692e21f364a5ae5bbc6e6531d577e862f"
+    },
+    {
+      "id": "rattle",
+      "label": "Rattle",
+      "gruppe": "waffe",
+      "kategorie": "zustand",
+      "familie": "zustand_erschuettert",
+      "stufe": 1,
+      "seltenheit": "gewoehnlich",
+      "wirkung": {
+        "stat": "zustand_chance",
+        "wert": 20,
+        "zustand": "erschuettert"
+      },
+      "text": "Teeth rattle. Every hit has a 20% chance to shake the enemy so its armour is gone for 2 rounds.",
+      "file": "chips/rattle.png",
+      "art_file": "familien/zustand_erschuettert-bronze.png",
+      "tier": "bronze",
+      "sha256": "dd5153bc928c7ceda1033d69b46d55b5b796cb444f16733811dc1db110f512b9"
+    },
+    {
+      "id": "quake",
+      "label": "Quake",
+      "gruppe": "waffe",
+      "kategorie": "zustand",
+      "familie": "zustand_erschuettert",
+      "stufe": 2,
+      "seltenheit": "selten",
+      "wirkung": {
+        "stat": "zustand_chance",
+        "wert": 30,
+        "zustand": "erschuettert"
+      },
+      "text": "The ground disagrees with them. Every hit has a 30% chance to shake the enemy so its armour is gone for 2 rounds.",
+      "file": "chips/quake.png",
+      "art_file": "familien/zustand_erschuettert-silver.png",
+      "tier": "silver",
+      "sha256": "830dfbca61121d9c822e6eb39a824be31136ba0478dc58f3eed5aad293db1235"
+    },
+    {
+      "id": "earthshaker",
+      "label": "Earthshaker",
+      "gruppe": "waffe",
+      "kategorie": "zustand",
+      "familie": "zustand_erschuettert",
+      "stufe": 3,
+      "seltenheit": "episch",
+      "wirkung": {
+        "stat": "zustand_chance",
+        "wert": 40,
+        "zustand": "erschuettert"
+      },
+      "text": "Even the floor feels it. Every hit has a 40% chance to shake the enemy so its armour is gone for 2 rounds.",
+      "file": "chips/earthshaker.png",
+      "art_file": "familien/zustand_erschuettert-gold.png",
+      "tier": "gold",
+      "sha256": "a55200bcd78430b11e3c4307080e5147cd5c8f60c636a40bf724499c8d673919"
+    },
+    {
+      "id": "splash",
+      "label": "Splash",
+      "gruppe": "waffe",
+      "kategorie": "zustand",
+      "familie": "zustand_nass",
+      "stufe": 1,
+      "seltenheit": "gewoehnlich",
+      "wirkung": {
+        "stat": "zustand_chance",
+        "wert": 20,
+        "zustand": "nass"
+      },
+      "text": "A bit damp. Every hit has a 20% chance to soak the enemy, so parrying gets easier.",
+      "file": "chips/splash.png",
+      "art_file": "familien/zustand_nass-bronze.png",
+      "tier": "bronze",
+      "sha256": "be451bc6bb47be3df6e39d1549f425faa4b8d7007de675097a483e49e32747a4"
+    },
+    {
+      "id": "soak",
+      "label": "Soak",
+      "gruppe": "waffe",
+      "kategorie": "zustand",
+      "familie": "zustand_nass",
+      "stufe": 2,
+      "seltenheit": "selten",
+      "wirkung": {
+        "stat": "zustand_chance",
+        "wert": 30,
+        "zustand": "nass"
+      },
+      "text": "Thoroughly wet. Every hit has a 30% chance to soak the enemy, so parrying gets easier.",
+      "file": "chips/soak.png",
+      "art_file": "familien/zustand_nass-silver.png",
+      "tier": "silver",
+      "sha256": "485e91f727f87dd9af79f6f52de4e6c197cc67793923140a1352d6cb5d09757a"
+    },
+    {
+      "id": "flood",
+      "label": "Flood",
+      "gruppe": "waffe",
+      "kategorie": "zustand",
+      "familie": "zustand_nass",
+      "stufe": 3,
+      "seltenheit": "episch",
+      "wirkung": {
+        "stat": "zustand_chance",
+        "wert": 40,
+        "zustand": "nass"
+      },
+      "text": "Someone should have brought a towel. Every hit has a 40% chance to soak the enemy, so parrying gets easier.",
+      "file": "chips/flood.png",
+      "art_file": "familien/zustand_nass-gold.png",
+      "tier": "gold",
+      "sha256": "34e4a405cc69f26467e181f44d7034a1b61ad591ff11294a25515b5b14574890"
+    },
+    {
+      "id": "ember_shell",
+      "label": "Ember Shell",
+      "gruppe": "waffe",
+      "kategorie": "element",
+      "familie": "element_feuer",
+      "stufe": 1,
+      "seltenheit": "gewoehnlich",
+      "wirkung": {
+        "stat": "element_schaden",
+        "wert": 1,
+        "element": "feuer",
+        "nur_waffe": "gun"
+      },
+      "text": "Loads the barrels with fire. +1 fire damage on every shot. Only one element shell at a time.",
+      "file": "chips/ember_shell.png",
+      "art_file": "familien/element_feuer-bronze.png",
+      "tier": "bronze",
+      "sha256": "0a7f3371ba0006f6a123b03a7914e740423a2b26ad04b8473cdd365badca320f"
+    },
+    {
+      "id": "flame_shell",
+      "label": "Flame Shell",
+      "gruppe": "waffe",
+      "kategorie": "element",
+      "familie": "element_feuer",
+      "stufe": 2,
+      "seltenheit": "selten",
+      "wirkung": {
+        "stat": "element_schaden",
+        "wert": 2,
+        "element": "feuer",
+        "nur_waffe": "gun"
+      },
+      "text": "Loads the barrels with fire. +2 fire damage on every shot. Only one element shell at a time.",
+      "file": "chips/flame_shell.png",
+      "art_file": "familien/element_feuer-silver.png",
+      "tier": "silver",
+      "sha256": "435a17919a887f403d8e79641357e45c6f5a516107a2ed3e4fe826f981223e04"
+    },
+    {
+      "id": "inferno_shell",
+      "label": "Inferno Shell",
+      "gruppe": "waffe",
+      "kategorie": "element",
+      "familie": "element_feuer",
+      "stufe": 3,
+      "seltenheit": "episch",
+      "wirkung": {
+        "stat": "element_schaden",
+        "wert": 3,
+        "element": "feuer",
+        "nur_waffe": "gun"
+      },
+      "text": "Loads the barrels with fire. +3 fire damage on every shot. Only one element shell at a time.",
+      "file": "chips/inferno_shell.png",
+      "art_file": "familien/element_feuer-gold.png",
+      "tier": "gold",
+      "sha256": "26ff03744c244509560cb1fe2bb488e153f2b96491fbc90db49ead33f68180c1"
+    },
+    {
+      "id": "rain_shell",
+      "label": "Rain Shell",
+      "gruppe": "waffe",
+      "kategorie": "element",
+      "familie": "element_wasser",
+      "stufe": 1,
+      "seltenheit": "gewoehnlich",
+      "wirkung": {
+        "stat": "element_schaden",
+        "wert": 1,
+        "element": "wasser",
+        "nur_waffe": "gun"
+      },
+      "text": "Loads the barrels with water. +1 water damage on every shot. Only one element shell at a time.",
+      "file": "chips/rain_shell.png",
+      "art_file": "familien/element_wasser-bronze.png",
+      "tier": "bronze",
+      "sha256": "f937b8e6605b3712d9853cb2126425978fc0611ec7198c0ee10b11db77458ba6"
+    },
+    {
+      "id": "tide_shell",
+      "label": "Tide Shell",
+      "gruppe": "waffe",
+      "kategorie": "element",
+      "familie": "element_wasser",
+      "stufe": 2,
+      "seltenheit": "selten",
+      "wirkung": {
+        "stat": "element_schaden",
+        "wert": 2,
+        "element": "wasser",
+        "nur_waffe": "gun"
+      },
+      "text": "Loads the barrels with water. +2 water damage on every shot. Only one element shell at a time.",
+      "file": "chips/tide_shell.png",
+      "art_file": "familien/element_wasser-silver.png",
+      "tier": "silver",
+      "sha256": "080f1b7f166ee1dfda10c555a64ec74e6f9fec42869174fb434e0f2e47f2a6ab"
+    },
+    {
+      "id": "tsunami_shell",
+      "label": "Tsunami Shell",
+      "gruppe": "waffe",
+      "kategorie": "element",
+      "familie": "element_wasser",
+      "stufe": 3,
+      "seltenheit": "episch",
+      "wirkung": {
+        "stat": "element_schaden",
+        "wert": 3,
+        "element": "wasser",
+        "nur_waffe": "gun"
+      },
+      "text": "Loads the barrels with water. +3 water damage on every shot. Only one element shell at a time.",
+      "file": "chips/tsunami_shell.png",
+      "art_file": "familien/element_wasser-gold.png",
+      "tier": "gold",
+      "sha256": "df7a1913be774ddcdc5e216bfced7151515eab09e74d87b5694cd72573bf18a0"
+    },
+    {
+      "id": "stone_shell",
+      "label": "Stone Shell",
+      "gruppe": "waffe",
+      "kategorie": "element",
+      "familie": "element_erde",
+      "stufe": 1,
+      "seltenheit": "gewoehnlich",
+      "wirkung": {
+        "stat": "element_schaden",
+        "wert": 1,
+        "element": "erde",
+        "nur_waffe": "gun"
+      },
+      "text": "Loads the barrels with earth. +1 earth damage on every shot. Only one element shell at a time.",
+      "file": "chips/stone_shell.png",
+      "art_file": "familien/element_erde-bronze.png",
+      "tier": "bronze",
+      "sha256": "9a258dc68d20c14899e69d5c8ea50d4d89f7cb1d3a21ef38e0133c42b3b77c51"
+    },
+    {
+      "id": "boulder_shell",
+      "label": "Boulder Shell",
+      "gruppe": "waffe",
+      "kategorie": "element",
+      "familie": "element_erde",
+      "stufe": 2,
+      "seltenheit": "selten",
+      "wirkung": {
+        "stat": "element_schaden",
+        "wert": 2,
+        "element": "erde",
+        "nur_waffe": "gun"
+      },
+      "text": "Loads the barrels with earth. +2 earth damage on every shot. Only one element shell at a time.",
+      "file": "chips/boulder_shell.png",
+      "art_file": "familien/element_erde-silver.png",
+      "tier": "silver",
+      "sha256": "485bca581ad12766bb566635cafaefa0afa00973fce616eb4d9765846cdf98f0"
+    },
+    {
+      "id": "mountain_shell",
+      "label": "Mountain Shell",
+      "gruppe": "waffe",
+      "kategorie": "element",
+      "familie": "element_erde",
+      "stufe": 3,
+      "seltenheit": "episch",
+      "wirkung": {
+        "stat": "element_schaden",
+        "wert": 3,
+        "element": "erde",
+        "nur_waffe": "gun"
+      },
+      "text": "Loads the barrels with earth. +3 earth damage on every shot. Only one element shell at a time.",
+      "file": "chips/mountain_shell.png",
+      "art_file": "familien/element_erde-gold.png",
+      "tier": "gold",
+      "sha256": "286432839630ea05f12da66229dc7f7df8bd12c3fb038e02bcf49a3f48502b5e"
+    },
+    {
+      "id": "breeze_shell",
+      "label": "Breeze Shell",
+      "gruppe": "waffe",
+      "kategorie": "element",
+      "familie": "element_luft",
+      "stufe": 1,
+      "seltenheit": "gewoehnlich",
+      "wirkung": {
+        "stat": "element_schaden",
+        "wert": 1,
+        "element": "luft",
+        "nur_waffe": "gun"
+      },
+      "text": "Loads the barrels with wind. +1 wind damage on every shot. Only one element shell at a time.",
+      "file": "chips/breeze_shell.png",
+      "art_file": "familien/element_luft-bronze.png",
+      "tier": "bronze",
+      "sha256": "8b7b5ec5359a2102f43237fdac16c674e74684c5cabe00ba4726433684a6aca0"
+    },
+    {
+      "id": "gust_shell",
+      "label": "Gust Shell",
+      "gruppe": "waffe",
+      "kategorie": "element",
+      "familie": "element_luft",
+      "stufe": 2,
+      "seltenheit": "selten",
+      "wirkung": {
+        "stat": "element_schaden",
+        "wert": 2,
+        "element": "luft",
+        "nur_waffe": "gun"
+      },
+      "text": "Loads the barrels with wind. +2 wind damage on every shot. Only one element shell at a time.",
+      "file": "chips/gust_shell.png",
+      "art_file": "familien/element_luft-silver.png",
+      "tier": "silver",
+      "sha256": "d6b440807cf423f5d25211073684544ea5c8297cece1012e864c999978d5e11c"
+    },
+    {
+      "id": "storm_shell",
+      "label": "Storm Shell",
+      "gruppe": "waffe",
+      "kategorie": "element",
+      "familie": "element_luft",
+      "stufe": 3,
+      "seltenheit": "episch",
+      "wirkung": {
+        "stat": "element_schaden",
+        "wert": 3,
+        "element": "luft",
+        "nur_waffe": "gun"
+      },
+      "text": "Loads the barrels with wind. +3 wind damage on every shot. Only one element shell at a time.",
+      "file": "chips/storm_shell.png",
+      "art_file": "familien/element_luft-gold.png",
+      "tier": "gold",
+      "sha256": "aa2ce061bee9a6b7a34e9e6592817d9f7d6059197f8d56ab33a43038d045d07e"
+    },
+    {
+      "id": "tough_coat",
+      "label": "Tough Coat",
+      "gruppe": "jacke",
+      "kategorie": "schutz",
+      "familie": "schutz",
+      "stufe": 1,
+      "seltenheit": "gewoehnlich",
+      "wirkung": {
+        "stat": "schutz",
+        "wert": 1
+      },
+      "text": "A thicker lining. Protection +1.",
+      "file": "chips/tough_coat.png",
+      "art_file": "familien/schutz-bronze.png",
+      "tier": "bronze",
+      "sha256": "68c8cc65f4a16c63373c3036165bc8feca7d0762871e3022175480e5fc2bea9a"
+    },
+    {
+      "id": "iron_coat",
+      "label": "Iron Coat",
+      "gruppe": "jacke",
+      "kategorie": "schutz",
+      "familie": "schutz",
+      "stufe": 2,
+      "seltenheit": "selten",
+      "wirkung": {
+        "stat": "schutz",
+        "wert": 2
+      },
+      "text": "Heavy, but it holds. Protection +2.",
+      "file": "chips/iron_coat.png",
+      "art_file": "familien/schutz-silver.png",
+      "tier": "silver",
+      "sha256": "3d0fefca95f45b1ae52a338e3beab8b67baa05e6bd3f872bc213487d55a8e220"
+    },
+    {
+      "id": "dragon_coat",
+      "label": "Dragon Coat",
+      "gruppe": "jacke",
+      "kategorie": "schutz",
+      "familie": "schutz",
+      "stufe": 3,
+      "seltenheit": "episch",
+      "wirkung": {
+        "stat": "schutz",
+        "wert": 3
+      },
+      "text": "Scales, apparently. Protection +3.",
+      "file": "chips/dragon_coat.png",
+      "art_file": "familien/schutz-gold.png",
+      "tier": "gold",
+      "sha256": "e565a2b5d1fab675bb4ed28f514c6353a7b1aa264d4681607af1c594e4c90df3"
+    },
+    {
+      "id": "steady_hands",
+      "label": "Steady Hands",
+      "gruppe": "jacke",
+      "kategorie": "parade",
+      "familie": "parade",
+      "stufe": 1,
+      "seltenheit": "gewoehnlich",
+      "wirkung": {
+        "stat": "parade_fenster",
+        "wert": 10
+      },
+      "text": "Calm hands. Parry window +10%.",
+      "file": "chips/steady_hands.png",
+      "art_file": "familien/parade-bronze.png",
+      "tier": "bronze",
+      "sha256": "bc6f5a6587e261b66355e8226c2a5e619689c4369321d399a0a82f07842fcdfb"
+    },
+    {
+      "id": "calm_mind",
+      "label": "Calm Mind",
+      "gruppe": "jacke",
+      "kategorie": "parade",
+      "familie": "parade",
+      "stufe": 2,
+      "seltenheit": "selten",
+      "wirkung": {
+        "stat": "parade_fenster",
+        "wert": 15
+      },
+      "text": "Nothing rattles you. Parry window +15%.",
+      "file": "chips/calm_mind.png",
+      "art_file": "familien/parade-silver.png",
+      "tier": "silver",
+      "sha256": "36af9f710e7f5d582006764ae2f5c45d7143eddba28030d13c61b87494b8e2d3"
+    },
+    {
+      "id": "zen_cuffs",
+      "label": "Zen Cuffs",
+      "gruppe": "jacke",
+      "kategorie": "parade",
+      "familie": "parade",
+      "stufe": 3,
+      "seltenheit": "episch",
+      "wirkung": {
+        "stat": "parade_fenster",
+        "wert": 20
+      },
+      "text": "Breathe in. Parry. Breathe out. Parry window +20%.",
+      "file": "chips/zen_cuffs.png",
+      "art_file": "familien/parade-gold.png",
+      "tier": "gold",
+      "sha256": "3b4328e1ed92932799f866466588f8c93c163963421c52d4e9b827289723b582"
+    },
+    {
+      "id": "deep_breath",
+      "label": "Deep Breath",
+      "gruppe": "jacke",
+      "kategorie": "ausdauer",
+      "familie": "ausdauer",
+      "stufe": 1,
+      "seltenheit": "gewoehnlich",
+      "wirkung": {
+        "stat": "ausdauer_max",
+        "wert": 1
+      },
+      "text": "One more breath. +1 maximum stamina.",
+      "file": "chips/deep_breath.png",
+      "art_file": "familien/ausdauer-bronze.png",
+      "tier": "bronze",
+      "sha256": "c2994f53d270f0a368920c4f682b25725f1f1b5ba3bb28b101c377c5d9173caf"
+    },
+    {
+      "id": "runners_high",
+      "label": "Runner's High",
+      "gruppe": "jacke",
+      "kategorie": "ausdauer",
+      "familie": "ausdauer",
+      "stufe": 2,
+      "seltenheit": "selten",
+      "wirkung": {
+        "stat": "ausdauer_max",
+        "wert": 2
+      },
+      "text": "The legs just keep going. +2 maximum stamina.",
+      "file": "chips/runners_high.png",
+      "art_file": "familien/ausdauer-silver.png",
+      "tier": "silver",
+      "sha256": "f41c5dd0a7f64e9c9137aa917015d82fc30c30eb79b19918645ecff7a44e6014"
+    },
+    {
+      "id": "endless_run",
+      "label": "Endless Run",
+      "gruppe": "jacke",
+      "kategorie": "ausdauer",
+      "familie": "ausdauer",
+      "stufe": 3,
+      "seltenheit": "episch",
+      "wirkung": {
+        "stat": "ausdauer_max_und_verteidigen",
+        "wert": 2
+      },
+      "text": "+2 maximum stamina, and defending gives 1 stamina extra.",
+      "file": "chips/endless_run.png",
+      "art_file": "familien/ausdauer-gold.png",
+      "tier": "gold",
+      "sha256": "f31316f3a958fe0471dbc8b6c64c261f7cb6b4c5a96eea281b4e8397e02d41a0"
+    },
+    {
+      "id": "snack_time",
+      "label": "Snack Time",
+      "gruppe": "jacke",
+      "kategorie": "erholung",
+      "familie": "erholung",
+      "stufe": 1,
+      "seltenheit": "gewoehnlich",
+      "wirkung": {
+        "stat": "snack_heilung",
+        "wert": 2
+      },
+      "text": "Snacks heal 2 more. It looks like a biscuit, don't ask.",
+      "file": "chips/snack_time.png",
+      "art_file": "familien/erholung-bronze.png",
+      "tier": "bronze",
+      "sha256": "6f33ca257854d702a85eb8ec701a736ec0f16d59d35d7ebe95e6d65db86217f0"
+    },
+    {
+      "id": "power_nap",
+      "label": "Power Nap",
+      "gruppe": "jacke",
+      "kategorie": "erholung",
+      "familie": "erholung",
+      "stufe": 2,
+      "seltenheit": "selten",
+      "wirkung": {
+        "stat": "heilung_nach_kampf",
+        "wert": 3
+      },
+      "text": "You recover 3 HP after every fight. Eyes closed, still alert.",
+      "file": "chips/power_nap.png",
+      "art_file": "familien/erholung-silver.png",
+      "tier": "silver",
+      "sha256": "5123ad2301d399e7e2726c84ebcd8022a4dd509e494f1ae5c9f716ba899fb3d2"
+    },
+    {
+      "id": "phoenix_heart",
+      "label": "Phoenix Heart",
+      "gruppe": "jacke",
+      "kategorie": "erholung",
+      "familie": "erholung",
+      "stufe": 3,
+      "seltenheit": "episch",
+      "wirkung": {
+        "stat": "snack_und_kampf",
+        "wert": 2
+      },
+      "text": "Snack Time and Power Nap in one. Burns bright, comes back.",
+      "file": "chips/phoenix_heart.png",
+      "art_file": "familien/erholung-gold.png",
+      "tier": "gold",
+      "sha256": "b37bcccabe23d0bb1c5eacc893a4e4de71fb1f6b19f3e75f32a668939a1cda63"
+    },
+    {
+      "id": "neat_look",
+      "label": "Neat Look",
+      "gruppe": "jacke",
+      "kategorie": "auftritt",
+      "familie": "auftritt",
+      "stufe": 1,
+      "seltenheit": "gewoehnlich",
+      "wirkung": {
+        "stat": "fassung",
+        "wert": 2
+      },
+      "text": "Looking sharp helps. Talk and Intimidate take 2 more composure.",
+      "file": "chips/neat_look.png",
+      "art_file": "familien/auftritt-bronze.png",
+      "tier": "bronze",
+      "sha256": "8e679f361232f644213b6637a9a73bb078d99020ef71b057641322f09c94058a"
+    },
+    {
+      "id": "cool_smile",
+      "label": "Cool Smile",
+      "gruppe": "jacke",
+      "kategorie": "auftritt",
+      "familie": "auftritt",
+      "stufe": 2,
+      "seltenheit": "selten",
+      "wirkung": {
+        "stat": "fassung",
+        "wert": 3
+      },
+      "text": "Harmless face, unsettling eyes. 3 more composure.",
+      "file": "chips/cool_smile.png",
+      "art_file": "familien/auftritt-silver.png",
+      "tier": "silver",
+      "sha256": "d32c8757de7b0951c855e2c4fd47ad9a0eb5133a39d74c47baeb125bf82d84ab"
+    },
+    {
+      "id": "boss_aura",
+      "label": "Boss Aura",
+      "gruppe": "jacke",
+      "kategorie": "auftritt",
+      "familie": "auftritt",
+      "stufe": 3,
+      "seltenheit": "episch",
+      "wirkung": {
+        "stat": "fassung",
+        "wert": 4
+      },
+      "text": "They fold before you open your mouth. 4 more composure.",
+      "file": "chips/boss_aura.png",
+      "art_file": "familien/auftritt-gold.png",
+      "tier": "gold",
+      "sha256": "a177d45d49010ccd026de8706ff0e557d0390a72ba579c4b3a97e6ea195450fa"
+    },
+    {
+      "id": "cool_head",
+      "label": "Cool Head",
+      "gruppe": "jacke",
+      "kategorie": "abwehr",
+      "familie": "abwehr_brennend",
+      "stufe": 1,
+      "seltenheit": "gewoehnlich",
+      "wirkung": {
+        "stat": "abwehr",
+        "wert": "kuerzer",
+        "zustand": "brennend"
+      },
+      "text": "Effects of burning end 1 round sooner.",
+      "file": "chips/cool_head.png",
+      "art_file": "familien/abwehr_brennend-bronze.png",
+      "tier": "bronze",
+      "sha256": "74ac7f0495d75802a5f82f27c0109ac3b7c4cfbbb3fa293a81200aef6dcb8a4b"
+    },
+    {
+      "id": "ice_veins",
+      "label": "Ice Veins",
+      "gruppe": "jacke",
+      "kategorie": "abwehr",
+      "familie": "abwehr_brennend",
+      "stufe": 2,
+      "seltenheit": "selten",
+      "wirkung": {
+        "stat": "abwehr",
+        "wert": "halb",
+        "zustand": "brennend"
+      },
+      "text": "Effects of burning are only half as strong.",
+      "file": "chips/ice_veins.png",
+      "art_file": "familien/abwehr_brennend-silver.png",
+      "tier": "silver",
+      "sha256": "5def6e7f680244437c4bdbf78db7799ce536293d7717226b7e76ab2650999353"
+    },
+    {
+      "id": "frozen_heart",
+      "label": "Frozen Heart",
+      "gruppe": "jacke",
+      "kategorie": "abwehr",
+      "familie": "abwehr_brennend",
+      "stufe": 3,
+      "seltenheit": "episch",
+      "wirkung": {
+        "stat": "abwehr",
+        "wert": "immun",
+        "zustand": "brennend"
+      },
+      "text": "Immune to burning.",
+      "file": "chips/frozen_heart.png",
+      "art_file": "familien/abwehr_brennend-gold.png",
+      "tier": "gold",
+      "sha256": "f4bc8feea0def38fcdcf544a80d65362a424667d620899f13914ef88c64af1e9"
+    },
+    {
+      "id": "dry_cuffs",
+      "label": "Dry Cuffs",
+      "gruppe": "jacke",
+      "kategorie": "abwehr",
+      "familie": "abwehr_nass",
+      "stufe": 1,
+      "seltenheit": "gewoehnlich",
+      "wirkung": {
+        "stat": "abwehr",
+        "wert": "kuerzer",
+        "zustand": "nass"
+      },
+      "text": "Effects of being soaked end 1 round sooner.",
+      "file": "chips/dry_cuffs.png",
+      "art_file": "familien/abwehr_nass-bronze.png",
+      "tier": "bronze",
+      "sha256": "0b58f34b726d01e10b25cfe56bccf707838f482999a562f3cfb253754a7bd7c1"
+    },
+    {
+      "id": "dry_heart",
+      "label": "Dry Heart",
+      "gruppe": "jacke",
+      "kategorie": "abwehr",
+      "familie": "abwehr_nass",
+      "stufe": 2,
+      "seltenheit": "selten",
+      "wirkung": {
+        "stat": "abwehr",
+        "wert": "halb",
+        "zustand": "nass"
+      },
+      "text": "Effects of being soaked are only half as strong.",
+      "file": "chips/dry_heart.png",
+      "art_file": "familien/abwehr_nass-silver.png",
+      "tier": "silver",
+      "sha256": "e4b6bdd232cb2468eccd21cea0c0923744eb54c39e4af5b046b130a0a95a87e2"
+    },
+    {
+      "id": "desert_soul",
+      "label": "Desert Soul",
+      "gruppe": "jacke",
+      "kategorie": "abwehr",
+      "familie": "abwehr_nass",
+      "stufe": 3,
+      "seltenheit": "episch",
+      "wirkung": {
+        "stat": "abwehr",
+        "wert": "immun",
+        "zustand": "nass"
+      },
+      "text": "Immune to being soaked.",
+      "file": "chips/desert_soul.png",
+      "art_file": "familien/abwehr_nass-gold.png",
+      "tier": "gold",
+      "sha256": "dd2b9770c701f86513162dfa20f4491a3bedfd845b1bdc92b4b16d9430743856"
+    },
+    {
+      "id": "rubber_soles",
+      "label": "Rubber Soles",
+      "gruppe": "jacke",
+      "kategorie": "abwehr",
+      "familie": "abwehr_strom",
+      "stufe": 1,
+      "seltenheit": "gewoehnlich",
+      "wirkung": {
+        "stat": "abwehr",
+        "wert": "kuerzer",
+        "zustand": "strom"
+      },
+      "text": "Effects of shock end 1 round sooner.",
+      "file": "chips/rubber_soles.png",
+      "art_file": "familien/abwehr_strom-bronze.png",
+      "tier": "bronze",
+      "sha256": "c5c13fab8a507300137fcc8366985f39063d5c0ba6ace4ad716e4d701e02e26e"
+    },
+    {
+      "id": "static_guard",
+      "label": "Static Guard",
+      "gruppe": "jacke",
+      "kategorie": "abwehr",
+      "familie": "abwehr_strom",
+      "stufe": 2,
+      "seltenheit": "selten",
+      "wirkung": {
+        "stat": "abwehr",
+        "wert": "halb",
+        "zustand": "strom"
+      },
+      "text": "Effects of shock are only half as strong.",
+      "file": "chips/static_guard.png",
+      "art_file": "familien/abwehr_strom-silver.png",
+      "tier": "silver",
+      "sha256": "74b2f27fe1d355cddf62efa9bea311efa02a78dfa1a98f04549084ecff9add78"
+    },
+    {
+      "id": "lightning_rod",
+      "label": "Lightning Rod",
+      "gruppe": "jacke",
+      "kategorie": "abwehr",
+      "familie": "abwehr_strom",
+      "stufe": 3,
+      "seltenheit": "episch",
+      "wirkung": {
+        "stat": "abwehr",
+        "wert": "immun",
+        "zustand": "strom"
+      },
+      "text": "Immune to shock.",
+      "file": "chips/lightning_rod.png",
+      "art_file": "familien/abwehr_strom-gold.png",
+      "tier": "gold",
+      "sha256": "0d68541ed43d7882dff4073f5906210a8aeccabce3405b3032a9d7c16e8d81a8"
+    },
+    {
+      "id": "thick_skin",
+      "label": "Thick Skin",
+      "gruppe": "jacke",
+      "kategorie": "abwehr",
+      "familie": "abwehr_blutend",
+      "stufe": 1,
+      "seltenheit": "gewoehnlich",
+      "wirkung": {
+        "stat": "abwehr",
+        "wert": "kuerzer",
+        "zustand": "blutend"
+      },
+      "text": "Effects of bleeding end 1 round sooner.",
+      "file": "chips/thick_skin.png",
+      "art_file": "familien/abwehr_blutend-bronze.png",
+      "tier": "bronze",
+      "sha256": "5be72084abbc0765423952d2403e14cada959ae3df0d51ef085c145467615150"
+    },
+    {
+      "id": "steel_skin",
+      "label": "Steel Skin",
+      "gruppe": "jacke",
+      "kategorie": "abwehr",
+      "familie": "abwehr_blutend",
+      "stufe": 2,
+      "seltenheit": "selten",
+      "wirkung": {
+        "stat": "abwehr",
+        "wert": "halb",
+        "zustand": "blutend"
+      },
+      "text": "Effects of bleeding are only half as strong.",
+      "file": "chips/steel_skin.png",
+      "art_file": "familien/abwehr_blutend-silver.png",
+      "tier": "silver",
+      "sha256": "3fa986c660e1d55f89dcd932c1008d75ffa8aedb073ae9fb5797b97707516ed9"
+    },
+    {
+      "id": "iron_will",
+      "label": "Iron Will",
+      "gruppe": "jacke",
+      "kategorie": "abwehr",
+      "familie": "abwehr_blutend",
+      "stufe": 3,
+      "seltenheit": "episch",
+      "wirkung": {
+        "stat": "abwehr",
+        "wert": "immun",
+        "zustand": "blutend"
+      },
+      "text": "Immune to bleeding.",
+      "file": "chips/iron_will.png",
+      "art_file": "familien/abwehr_blutend-gold.png",
+      "tier": "gold",
+      "sha256": "3dfb4d55791d34d8be5c0f50b062f0325b2721080992df12b1ae2025c2b10ef9"
+    },
+    {
+      "id": "firm_stance",
+      "label": "Firm Stance",
+      "gruppe": "jacke",
+      "kategorie": "abwehr",
+      "familie": "abwehr_erschuettert",
+      "stufe": 1,
+      "seltenheit": "gewoehnlich",
+      "wirkung": {
+        "stat": "abwehr",
+        "wert": "kuerzer",
+        "zustand": "erschuettert"
+      },
+      "text": "Effects of being shaken end 1 round sooner.",
+      "file": "chips/firm_stance.png",
+      "art_file": "familien/abwehr_erschuettert-bronze.png",
+      "tier": "bronze",
+      "sha256": "cbc7d8e10cfa11aeb3b2bfd39a3b329e3978fe0a006873630b48d7d7df10432a"
+    },
+    {
+      "id": "iron_stance",
+      "label": "Iron Stance",
+      "gruppe": "jacke",
+      "kategorie": "abwehr",
+      "familie": "abwehr_erschuettert",
+      "stufe": 2,
+      "seltenheit": "selten",
+      "wirkung": {
+        "stat": "abwehr",
+        "wert": "halb",
+        "zustand": "erschuettert"
+      },
+      "text": "Effects of being shaken are only half as strong.",
+      "file": "chips/iron_stance.png",
+      "art_file": "familien/abwehr_erschuettert-silver.png",
+      "tier": "silver",
+      "sha256": "516aef8eebcdc68b6ab252f7f155337cd59007a77a1bbf237094910ae6aae347"
+    },
+    {
+      "id": "rock_stance",
+      "label": "Rock Stance",
+      "gruppe": "jacke",
+      "kategorie": "abwehr",
+      "familie": "abwehr_erschuettert",
+      "stufe": 3,
+      "seltenheit": "episch",
+      "wirkung": {
+        "stat": "abwehr",
+        "wert": "immun",
+        "zustand": "erschuettert"
+      },
+      "text": "Immune to being shaken.",
+      "file": "chips/rock_stance.png",
+      "art_file": "familien/abwehr_erschuettert-gold.png",
+      "tier": "gold",
+      "sha256": "9514bd052fda6840de3d0b55da66768c8099eff944e50490d8ad9899a7575149"
+    },
+    {
+      "id": "clear_eyes",
+      "label": "Clear Eyes",
+      "gruppe": "jacke",
+      "kategorie": "abwehr",
+      "familie": "abwehr_geblendet",
+      "stufe": 1,
+      "seltenheit": "gewoehnlich",
+      "wirkung": {
+        "stat": "abwehr",
+        "wert": "kuerzer",
+        "zustand": "geblendet"
+      },
+      "text": "Effects of being blinded end 1 round sooner.",
+      "file": "chips/clear_eyes.png",
+      "art_file": "familien/abwehr_geblendet-bronze.png",
+      "tier": "bronze",
+      "sha256": "ab2d8f3698ceb3f99b1697022eb4be9a208eb8a00bf5f43cfa2e6d23668c2d9f"
+    },
+    {
+      "id": "sharp_eyes",
+      "label": "Sharp Eyes",
+      "gruppe": "jacke",
+      "kategorie": "abwehr",
+      "familie": "abwehr_geblendet",
+      "stufe": 2,
+      "seltenheit": "selten",
+      "wirkung": {
+        "stat": "abwehr",
+        "wert": "halb",
+        "zustand": "geblendet"
+      },
+      "text": "Effects of being blinded are only half as strong.",
+      "file": "chips/sharp_eyes.png",
+      "art_file": "familien/abwehr_geblendet-silver.png",
+      "tier": "silver",
+      "sha256": "a8eb875e1b32c0a0b28ed6c2bb87ebabfb1c23174f3369bb27d291baa455fa0c"
+    },
+    {
+      "id": "third_eye",
+      "label": "Third Eye",
+      "gruppe": "jacke",
+      "kategorie": "abwehr",
+      "familie": "abwehr_geblendet",
+      "stufe": 3,
+      "seltenheit": "episch",
+      "wirkung": {
+        "stat": "abwehr",
+        "wert": "immun",
+        "zustand": "geblendet"
+      },
+      "text": "Immune to being blinded.",
+      "file": "chips/third_eye.png",
+      "art_file": "familien/abwehr_geblendet-gold.png",
+      "tier": "gold",
+      "sha256": "de5e6f949855fc185bd34cae723c4c642ab96faa9f3811cdf7203d6569fb5315"
+    }
+  ],
+  "art": [
+    {
+      "family": "wucht",
+      "level": 1,
+      "tier": "bronze",
+      "file": "familien/wucht-bronze.png",
+      "source": "master/waffen-basis.png",
+      "source_rect": [
+        0,
+        0,
+        362,
+        362
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "4347fe090f99d1f20e142b20bb25b0e22f3eb0d85c8972666e33014ee9db6e97"
+    },
+    {
+      "family": "wucht",
+      "level": 2,
+      "tier": "silver",
+      "file": "familien/wucht-silver.png",
+      "source": "master/waffen-basis.png",
+      "source_rect": [
+        0,
+        362,
+        362,
+        724
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "f895e09d76b15030d2158375a6156de5415c559fe7837385356446677e49c652"
+    },
+    {
+      "family": "wucht",
+      "level": 3,
+      "tier": "gold",
+      "file": "familien/wucht-gold.png",
+      "source": "master/waffen-basis.png",
+      "source_rect": [
+        0,
+        724,
+        362,
+        1086
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "cf26d0855564a6b4cae92a4ad01884bfbe535e3642f9c0102edd144e284431c2"
+    },
+    {
+      "family": "praezision",
+      "level": 1,
+      "tier": "bronze",
+      "file": "familien/praezision-bronze.png",
+      "source": "master/waffen-basis.png",
+      "source_rect": [
+        362,
+        0,
+        724,
+        362
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "e1e4a430d12eb9c6adcc352ba14d5d8e61028ab087f7cbd6a3bedfeb0214c01b"
+    },
+    {
+      "family": "praezision",
+      "level": 2,
+      "tier": "silver",
+      "file": "familien/praezision-silver.png",
+      "source": "master/waffen-basis.png",
+      "source_rect": [
+        362,
+        362,
+        724,
+        724
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "d16e123339805ab37f6d10e9c0083304ae145f2ca1f4565da82a67ecc711534f"
+    },
+    {
+      "family": "praezision",
+      "level": 3,
+      "tier": "gold",
+      "file": "familien/praezision-gold.png",
+      "source": "master/waffen-basis.png",
+      "source_rect": [
+        362,
+        724,
+        724,
+        1086
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "0ac55f94ef01d79951813b40879752e0e4783e6598a64fb718e534782db44d73"
+    },
+    {
+      "family": "technik",
+      "level": 1,
+      "tier": "bronze",
+      "file": "familien/technik-bronze.png",
+      "source": "master/waffen-basis.png",
+      "source_rect": [
+        724,
+        0,
+        1086,
+        362
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "f5e371d4a3732831b6a1e8c7f01e7357af011d75ea6a2d68b9848a1b11e482f4"
+    },
+    {
+      "family": "technik",
+      "level": 2,
+      "tier": "silver",
+      "file": "familien/technik-silver.png",
+      "source": "master/waffen-basis.png",
+      "source_rect": [
+        724,
+        362,
+        1086,
+        724
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "33b3a479e18c000533531e87c103e4c42f66633202f21879da307263a06de276"
+    },
+    {
+      "family": "technik",
+      "level": 3,
+      "tier": "gold",
+      "file": "familien/technik-gold.png",
+      "source": "master/waffen-basis.png",
+      "source_rect": [
+        724,
+        724,
+        1086,
+        1086
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "4cef6c5b74032c95122759f54d9f00ab7b4560a7681328f32226cd57dcd1970d"
+    },
+    {
+      "family": "konter",
+      "level": 1,
+      "tier": "bronze",
+      "file": "familien/konter-bronze.png",
+      "source": "master/waffen-basis.png",
+      "source_rect": [
+        1086,
+        0,
+        1448,
+        362
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "900ad0fa237f2313bd8ea64cefa05ed39b7113673f98c48f6a58e9aed0fe2f88"
+    },
+    {
+      "family": "konter",
+      "level": 2,
+      "tier": "silver",
+      "file": "familien/konter-silver.png",
+      "source": "master/waffen-basis.png",
+      "source_rect": [
+        1086,
+        362,
+        1448,
+        724
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "dc056a110ac03f3cb64003e470a8599e980b0a771bfb82eef21260d24d4c3c92"
+    },
+    {
+      "family": "konter",
+      "level": 3,
+      "tier": "gold",
+      "file": "familien/konter-gold.png",
+      "source": "master/waffen-basis.png",
+      "source_rect": [
+        1086,
+        724,
+        1448,
+        1086
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "991e374e3c8a9c61c6450e45b1a91e5ceea79f66ca682f21c65dae473d11ac04"
+    },
+    {
+      "family": "zustand_brennend",
+      "level": 1,
+      "tier": "bronze",
+      "file": "familien/zustand_brennend-bronze.png",
+      "source": "master/waffen-zustand.png",
+      "source_rect": [
+        0,
+        0,
+        362,
+        362
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "f9c573c9193240f1cc9c639e6bb91bea48b9a56e6fe24a85a4cd004d757095a3"
+    },
+    {
+      "family": "zustand_brennend",
+      "level": 2,
+      "tier": "silver",
+      "file": "familien/zustand_brennend-silver.png",
+      "source": "master/waffen-zustand.png",
+      "source_rect": [
+        0,
+        362,
+        362,
+        724
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "6de566e68c9991535119321617e16bcc2ca28c56501f0e078a33b7e254148c2e"
+    },
+    {
+      "family": "zustand_brennend",
+      "level": 3,
+      "tier": "gold",
+      "file": "familien/zustand_brennend-gold.png",
+      "source": "master/waffen-zustand.png",
+      "source_rect": [
+        0,
+        724,
+        362,
+        1086
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "ed089d44167f361007468097e1ffb05649fddbe194bc294db831479c705044b1"
+    },
+    {
+      "family": "zustand_strom",
+      "level": 1,
+      "tier": "bronze",
+      "file": "familien/zustand_strom-bronze.png",
+      "source": "master/waffen-zustand.png",
+      "source_rect": [
+        362,
+        0,
+        724,
+        362
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "f90c927161c9959fcf895ca069bdaeeae6888f478f02ecdc758c4edc97275485"
+    },
+    {
+      "family": "zustand_strom",
+      "level": 2,
+      "tier": "silver",
+      "file": "familien/zustand_strom-silver.png",
+      "source": "master/waffen-zustand.png",
+      "source_rect": [
+        362,
+        362,
+        724,
+        724
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "5ee57ebc8bcf110fe1112fc5459fe50d02f44171989dead22a6b581ab9098acf"
+    },
+    {
+      "family": "zustand_strom",
+      "level": 3,
+      "tier": "gold",
+      "file": "familien/zustand_strom-gold.png",
+      "source": "master/waffen-zustand.png",
+      "source_rect": [
+        362,
+        724,
+        724,
+        1086
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "a0ca4c37ad0997ea2560214cf1a3b180217a7f9366ffb430eb08495c4497d07c"
+    },
+    {
+      "family": "zustand_blutend",
+      "level": 1,
+      "tier": "bronze",
+      "file": "familien/zustand_blutend-bronze.png",
+      "source": "master/waffen-zustand.png",
+      "source_rect": [
+        724,
+        0,
+        1086,
+        362
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "8cc67537619832bd4f002f12540b6e626a69f8a0f16c6662778c26228edabf11"
+    },
+    {
+      "family": "zustand_blutend",
+      "level": 2,
+      "tier": "silver",
+      "file": "familien/zustand_blutend-silver.png",
+      "source": "master/waffen-zustand.png",
+      "source_rect": [
+        724,
+        362,
+        1086,
+        724
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "d893620de22723e076dbe36a0b4ef433d10e381583671b80698597b362032b61"
+    },
+    {
+      "family": "zustand_blutend",
+      "level": 3,
+      "tier": "gold",
+      "file": "familien/zustand_blutend-gold.png",
+      "source": "master/waffen-zustand.png",
+      "source_rect": [
+        724,
+        724,
+        1086,
+        1086
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "ac279f4af3b0dc8fa14bf471b871d30692e21f364a5ae5bbc6e6531d577e862f"
+    },
+    {
+      "family": "zustand_erschuettert",
+      "level": 1,
+      "tier": "bronze",
+      "file": "familien/zustand_erschuettert-bronze.png",
+      "source": "master/waffen-zustand.png",
+      "source_rect": [
+        1086,
+        0,
+        1448,
+        362
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "dd5153bc928c7ceda1033d69b46d55b5b796cb444f16733811dc1db110f512b9"
+    },
+    {
+      "family": "zustand_erschuettert",
+      "level": 2,
+      "tier": "silver",
+      "file": "familien/zustand_erschuettert-silver.png",
+      "source": "master/waffen-zustand.png",
+      "source_rect": [
+        1086,
+        362,
+        1448,
+        724
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "830dfbca61121d9c822e6eb39a824be31136ba0478dc58f3eed5aad293db1235"
+    },
+    {
+      "family": "zustand_erschuettert",
+      "level": 3,
+      "tier": "gold",
+      "file": "familien/zustand_erschuettert-gold.png",
+      "source": "master/waffen-zustand.png",
+      "source_rect": [
+        1086,
+        724,
+        1448,
+        1086
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "a55200bcd78430b11e3c4307080e5147cd5c8f60c636a40bf724499c8d673919"
+    },
+    {
+      "family": "element_feuer",
+      "level": 1,
+      "tier": "bronze",
+      "file": "familien/element_feuer-bronze.png",
+      "source": "master/waffen-element.png",
+      "source_rect": [
+        0,
+        0,
+        362,
+        362
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "0a7f3371ba0006f6a123b03a7914e740423a2b26ad04b8473cdd365badca320f"
+    },
+    {
+      "family": "element_feuer",
+      "level": 2,
+      "tier": "silver",
+      "file": "familien/element_feuer-silver.png",
+      "source": "master/waffen-element.png",
+      "source_rect": [
+        0,
+        362,
+        362,
+        724
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "435a17919a887f403d8e79641357e45c6f5a516107a2ed3e4fe826f981223e04"
+    },
+    {
+      "family": "element_feuer",
+      "level": 3,
+      "tier": "gold",
+      "file": "familien/element_feuer-gold.png",
+      "source": "master/waffen-element.png",
+      "source_rect": [
+        0,
+        724,
+        362,
+        1086
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "26ff03744c244509560cb1fe2bb488e153f2b96491fbc90db49ead33f68180c1"
+    },
+    {
+      "family": "element_wasser",
+      "level": 1,
+      "tier": "bronze",
+      "file": "familien/element_wasser-bronze.png",
+      "source": "master/waffen-element.png",
+      "source_rect": [
+        362,
+        0,
+        724,
+        362
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "f937b8e6605b3712d9853cb2126425978fc0611ec7198c0ee10b11db77458ba6"
+    },
+    {
+      "family": "element_wasser",
+      "level": 2,
+      "tier": "silver",
+      "file": "familien/element_wasser-silver.png",
+      "source": "master/waffen-element.png",
+      "source_rect": [
+        362,
+        362,
+        724,
+        724
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "080f1b7f166ee1dfda10c555a64ec74e6f9fec42869174fb434e0f2e47f2a6ab"
+    },
+    {
+      "family": "element_wasser",
+      "level": 3,
+      "tier": "gold",
+      "file": "familien/element_wasser-gold.png",
+      "source": "master/waffen-element.png",
+      "source_rect": [
+        362,
+        724,
+        724,
+        1086
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "df7a1913be774ddcdc5e216bfced7151515eab09e74d87b5694cd72573bf18a0"
+    },
+    {
+      "family": "element_erde",
+      "level": 1,
+      "tier": "bronze",
+      "file": "familien/element_erde-bronze.png",
+      "source": "master/waffen-element.png",
+      "source_rect": [
+        724,
+        0,
+        1086,
+        362
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "9a258dc68d20c14899e69d5c8ea50d4d89f7cb1d3a21ef38e0133c42b3b77c51"
+    },
+    {
+      "family": "element_erde",
+      "level": 2,
+      "tier": "silver",
+      "file": "familien/element_erde-silver.png",
+      "source": "master/waffen-element.png",
+      "source_rect": [
+        724,
+        362,
+        1086,
+        724
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "485bca581ad12766bb566635cafaefa0afa00973fce616eb4d9765846cdf98f0"
+    },
+    {
+      "family": "element_erde",
+      "level": 3,
+      "tier": "gold",
+      "file": "familien/element_erde-gold.png",
+      "source": "master/waffen-element.png",
+      "source_rect": [
+        724,
+        724,
+        1086,
+        1086
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "286432839630ea05f12da66229dc7f7df8bd12c3fb038e02bcf49a3f48502b5e"
+    },
+    {
+      "family": "element_luft",
+      "level": 1,
+      "tier": "bronze",
+      "file": "familien/element_luft-bronze.png",
+      "source": "master/waffen-element.png",
+      "source_rect": [
+        1086,
+        0,
+        1448,
+        362
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "8b7b5ec5359a2102f43237fdac16c674e74684c5cabe00ba4726433684a6aca0"
+    },
+    {
+      "family": "element_luft",
+      "level": 2,
+      "tier": "silver",
+      "file": "familien/element_luft-silver.png",
+      "source": "master/waffen-element.png",
+      "source_rect": [
+        1086,
+        362,
+        1448,
+        724
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "d6b440807cf423f5d25211073684544ea5c8297cece1012e864c999978d5e11c"
+    },
+    {
+      "family": "element_luft",
+      "level": 3,
+      "tier": "gold",
+      "file": "familien/element_luft-gold.png",
+      "source": "master/waffen-element.png",
+      "source_rect": [
+        1086,
+        724,
+        1448,
+        1086
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "aa2ce061bee9a6b7a34e9e6592817d9f7d6059197f8d56ab33a43038d045d07e"
+    },
+    {
+      "family": "schutz",
+      "level": 1,
+      "tier": "bronze",
+      "file": "familien/schutz-bronze.png",
+      "source": "master/jacken-basis.png",
+      "source_rect": [
+        0,
+        0,
+        362,
+        362
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "68c8cc65f4a16c63373c3036165bc8feca7d0762871e3022175480e5fc2bea9a"
+    },
+    {
+      "family": "schutz",
+      "level": 2,
+      "tier": "silver",
+      "file": "familien/schutz-silver.png",
+      "source": "master/jacken-basis.png",
+      "source_rect": [
+        0,
+        362,
+        362,
+        724
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "3d0fefca95f45b1ae52a338e3beab8b67baa05e6bd3f872bc213487d55a8e220"
+    },
+    {
+      "family": "schutz",
+      "level": 3,
+      "tier": "gold",
+      "file": "familien/schutz-gold.png",
+      "source": "master/jacken-basis.png",
+      "source_rect": [
+        0,
+        724,
+        362,
+        1086
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "e565a2b5d1fab675bb4ed28f514c6353a7b1aa264d4681607af1c594e4c90df3"
+    },
+    {
+      "family": "parade",
+      "level": 1,
+      "tier": "bronze",
+      "file": "familien/parade-bronze.png",
+      "source": "master/jacken-basis.png",
+      "source_rect": [
+        362,
+        0,
+        724,
+        362
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "bc6f5a6587e261b66355e8226c2a5e619689c4369321d399a0a82f07842fcdfb"
+    },
+    {
+      "family": "parade",
+      "level": 2,
+      "tier": "silver",
+      "file": "familien/parade-silver.png",
+      "source": "master/jacken-basis.png",
+      "source_rect": [
+        362,
+        362,
+        724,
+        724
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "36af9f710e7f5d582006764ae2f5c45d7143eddba28030d13c61b87494b8e2d3"
+    },
+    {
+      "family": "parade",
+      "level": 3,
+      "tier": "gold",
+      "file": "familien/parade-gold.png",
+      "source": "master/jacken-basis.png",
+      "source_rect": [
+        362,
+        724,
+        724,
+        1086
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "3b4328e1ed92932799f866466588f8c93c163963421c52d4e9b827289723b582"
+    },
+    {
+      "family": "ausdauer",
+      "level": 1,
+      "tier": "bronze",
+      "file": "familien/ausdauer-bronze.png",
+      "source": "master/jacken-basis.png",
+      "source_rect": [
+        724,
+        0,
+        1086,
+        362
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "c2994f53d270f0a368920c4f682b25725f1f1b5ba3bb28b101c377c5d9173caf"
+    },
+    {
+      "family": "ausdauer",
+      "level": 2,
+      "tier": "silver",
+      "file": "familien/ausdauer-silver.png",
+      "source": "master/jacken-basis.png",
+      "source_rect": [
+        724,
+        362,
+        1086,
+        724
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "f41c5dd0a7f64e9c9137aa917015d82fc30c30eb79b19918645ecff7a44e6014"
+    },
+    {
+      "family": "ausdauer",
+      "level": 3,
+      "tier": "gold",
+      "file": "familien/ausdauer-gold.png",
+      "source": "master/jacken-basis.png",
+      "source_rect": [
+        724,
+        724,
+        1086,
+        1086
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "f31316f3a958fe0471dbc8b6c64c261f7cb6b4c5a96eea281b4e8397e02d41a0"
+    },
+    {
+      "family": "erholung",
+      "level": 1,
+      "tier": "bronze",
+      "file": "familien/erholung-bronze.png",
+      "source": "master/jacken-basis.png",
+      "source_rect": [
+        1086,
+        0,
+        1448,
+        362
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "6f33ca257854d702a85eb8ec701a736ec0f16d59d35d7ebe95e6d65db86217f0"
+    },
+    {
+      "family": "erholung",
+      "level": 2,
+      "tier": "silver",
+      "file": "familien/erholung-silver.png",
+      "source": "master/jacken-basis.png",
+      "source_rect": [
+        1086,
+        362,
+        1448,
+        724
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "5123ad2301d399e7e2726c84ebcd8022a4dd509e494f1ae5c9f716ba899fb3d2"
+    },
+    {
+      "family": "erholung",
+      "level": 3,
+      "tier": "gold",
+      "file": "familien/erholung-gold.png",
+      "source": "master/jacken-basis.png",
+      "source_rect": [
+        1086,
+        724,
+        1448,
+        1086
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "b37bcccabe23d0bb1c5eacc893a4e4de71fb1f6b19f3e75f32a668939a1cda63"
+    },
+    {
+      "family": "auftritt",
+      "level": 1,
+      "tier": "bronze",
+      "file": "familien/auftritt-bronze.png",
+      "source": "master/jacken-resistenz-a.png",
+      "source_rect": [
+        0,
+        0,
+        362,
+        362
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "8e679f361232f644213b6637a9a73bb078d99020ef71b057641322f09c94058a"
+    },
+    {
+      "family": "auftritt",
+      "level": 2,
+      "tier": "silver",
+      "file": "familien/auftritt-silver.png",
+      "source": "master/jacken-resistenz-a.png",
+      "source_rect": [
+        0,
+        362,
+        362,
+        724
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "d32c8757de7b0951c855e2c4fd47ad9a0eb5133a39d74c47baeb125bf82d84ab"
+    },
+    {
+      "family": "auftritt",
+      "level": 3,
+      "tier": "gold",
+      "file": "familien/auftritt-gold.png",
+      "source": "master/jacken-resistenz-a.png",
+      "source_rect": [
+        0,
+        724,
+        362,
+        1086
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "a177d45d49010ccd026de8706ff0e557d0390a72ba579c4b3a97e6ea195450fa"
+    },
+    {
+      "family": "abwehr_brennend",
+      "level": 1,
+      "tier": "bronze",
+      "file": "familien/abwehr_brennend-bronze.png",
+      "source": "master/jacken-resistenz-a.png",
+      "source_rect": [
+        362,
+        0,
+        724,
+        362
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "74ac7f0495d75802a5f82f27c0109ac3b7c4cfbbb3fa293a81200aef6dcb8a4b"
+    },
+    {
+      "family": "abwehr_brennend",
+      "level": 2,
+      "tier": "silver",
+      "file": "familien/abwehr_brennend-silver.png",
+      "source": "master/jacken-resistenz-a.png",
+      "source_rect": [
+        362,
+        362,
+        724,
+        724
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "5def6e7f680244437c4bdbf78db7799ce536293d7717226b7e76ab2650999353"
+    },
+    {
+      "family": "abwehr_brennend",
+      "level": 3,
+      "tier": "gold",
+      "file": "familien/abwehr_brennend-gold.png",
+      "source": "master/jacken-resistenz-a.png",
+      "source_rect": [
+        362,
+        724,
+        724,
+        1086
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "f4bc8feea0def38fcdcf544a80d65362a424667d620899f13914ef88c64af1e9"
+    },
+    {
+      "family": "abwehr_nass",
+      "level": 1,
+      "tier": "bronze",
+      "file": "familien/abwehr_nass-bronze.png",
+      "source": "master/jacken-resistenz-a.png",
+      "source_rect": [
+        724,
+        0,
+        1086,
+        362
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "0b58f34b726d01e10b25cfe56bccf707838f482999a562f3cfb253754a7bd7c1"
+    },
+    {
+      "family": "abwehr_nass",
+      "level": 2,
+      "tier": "silver",
+      "file": "familien/abwehr_nass-silver.png",
+      "source": "master/jacken-resistenz-a.png",
+      "source_rect": [
+        724,
+        362,
+        1086,
+        724
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "e4b6bdd232cb2468eccd21cea0c0923744eb54c39e4af5b046b130a0a95a87e2"
+    },
+    {
+      "family": "abwehr_nass",
+      "level": 3,
+      "tier": "gold",
+      "file": "familien/abwehr_nass-gold.png",
+      "source": "master/jacken-resistenz-a.png",
+      "source_rect": [
+        724,
+        724,
+        1086,
+        1086
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "dd2b9770c701f86513162dfa20f4491a3bedfd845b1bdc92b4b16d9430743856"
+    },
+    {
+      "family": "abwehr_strom",
+      "level": 1,
+      "tier": "bronze",
+      "file": "familien/abwehr_strom-bronze.png",
+      "source": "master/jacken-resistenz-a.png",
+      "source_rect": [
+        1086,
+        0,
+        1448,
+        362
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "c5c13fab8a507300137fcc8366985f39063d5c0ba6ace4ad716e4d701e02e26e"
+    },
+    {
+      "family": "abwehr_strom",
+      "level": 2,
+      "tier": "silver",
+      "file": "familien/abwehr_strom-silver.png",
+      "source": "master/jacken-resistenz-a.png",
+      "source_rect": [
+        1086,
+        362,
+        1448,
+        724
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "74b2f27fe1d355cddf62efa9bea311efa02a78dfa1a98f04549084ecff9add78"
+    },
+    {
+      "family": "abwehr_strom",
+      "level": 3,
+      "tier": "gold",
+      "file": "familien/abwehr_strom-gold.png",
+      "source": "master/jacken-resistenz-a.png",
+      "source_rect": [
+        1086,
+        724,
+        1448,
+        1086
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "0d68541ed43d7882dff4073f5906210a8aeccabce3405b3032a9d7c16e8d81a8"
+    },
+    {
+      "family": "abwehr_blutend",
+      "level": 1,
+      "tier": "bronze",
+      "file": "familien/abwehr_blutend-bronze.png",
+      "source": "master/jacken-resistenz-b.png",
+      "source_rect": [
+        0,
+        0,
+        362,
+        362
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "5be72084abbc0765423952d2403e14cada959ae3df0d51ef085c145467615150"
+    },
+    {
+      "family": "abwehr_blutend",
+      "level": 2,
+      "tier": "silver",
+      "file": "familien/abwehr_blutend-silver.png",
+      "source": "master/jacken-resistenz-b.png",
+      "source_rect": [
+        0,
+        362,
+        362,
+        724
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "3fa986c660e1d55f89dcd932c1008d75ffa8aedb073ae9fb5797b97707516ed9"
+    },
+    {
+      "family": "abwehr_blutend",
+      "level": 3,
+      "tier": "gold",
+      "file": "familien/abwehr_blutend-gold.png",
+      "source": "master/jacken-resistenz-b.png",
+      "source_rect": [
+        0,
+        724,
+        362,
+        1086
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "3dfb4d55791d34d8be5c0f50b062f0325b2721080992df12b1ae2025c2b10ef9"
+    },
+    {
+      "family": "abwehr_erschuettert",
+      "level": 1,
+      "tier": "bronze",
+      "file": "familien/abwehr_erschuettert-bronze.png",
+      "source": "master/jacken-resistenz-b.png",
+      "source_rect": [
+        362,
+        0,
+        724,
+        362
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "cbc7d8e10cfa11aeb3b2bfd39a3b329e3978fe0a006873630b48d7d7df10432a"
+    },
+    {
+      "family": "abwehr_erschuettert",
+      "level": 2,
+      "tier": "silver",
+      "file": "familien/abwehr_erschuettert-silver.png",
+      "source": "master/jacken-resistenz-b.png",
+      "source_rect": [
+        362,
+        362,
+        724,
+        724
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "516aef8eebcdc68b6ab252f7f155337cd59007a77a1bbf237094910ae6aae347"
+    },
+    {
+      "family": "abwehr_erschuettert",
+      "level": 3,
+      "tier": "gold",
+      "file": "familien/abwehr_erschuettert-gold.png",
+      "source": "master/jacken-resistenz-b.png",
+      "source_rect": [
+        362,
+        724,
+        724,
+        1086
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "9514bd052fda6840de3d0b55da66768c8099eff944e50490d8ad9899a7575149"
+    },
+    {
+      "family": "abwehr_geblendet",
+      "level": 1,
+      "tier": "bronze",
+      "file": "familien/abwehr_geblendet-bronze.png",
+      "source": "master/jacken-resistenz-b.png",
+      "source_rect": [
+        724,
+        0,
+        1086,
+        362
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "ab2d8f3698ceb3f99b1697022eb4be9a208eb8a00bf5f43cfa2e6d23668c2d9f"
+    },
+    {
+      "family": "abwehr_geblendet",
+      "level": 2,
+      "tier": "silver",
+      "file": "familien/abwehr_geblendet-silver.png",
+      "source": "master/jacken-resistenz-b.png",
+      "source_rect": [
+        724,
+        362,
+        1086,
+        724
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "a8eb875e1b32c0a0b28ed6c2bb87ebabfb1c23174f3369bb27d291baa455fa0c"
+    },
+    {
+      "family": "abwehr_geblendet",
+      "level": 3,
+      "tier": "gold",
+      "file": "familien/abwehr_geblendet-gold.png",
+      "source": "master/jacken-resistenz-b.png",
+      "source_rect": [
+        724,
+        724,
+        1086,
+        1086
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "de5e6f949855fc185bd34cae723c4c642ab96faa9f3811cdf7203d6569fb5315"
+    },
+    {
+      "family": "zustand_nass",
+      "level": 1,
+      "tier": "bronze",
+      "file": "familien/zustand_nass-bronze.png",
+      "source": "master/jacken-resistenz-b.png",
+      "source_rect": [
+        1086,
+        0,
+        1448,
+        362
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "be451bc6bb47be3df6e39d1549f425faa4b8d7007de675097a483e49e32747a4"
+    },
+    {
+      "family": "zustand_nass",
+      "level": 2,
+      "tier": "silver",
+      "file": "familien/zustand_nass-silver.png",
+      "source": "master/jacken-resistenz-b.png",
+      "source_rect": [
+        1086,
+        362,
+        1448,
+        724
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "485e91f727f87dd9af79f6f52de4e6c197cc67793923140a1352d6cb5d09757a"
+    },
+    {
+      "family": "zustand_nass",
+      "level": 3,
+      "tier": "gold",
+      "file": "familien/zustand_nass-gold.png",
+      "source": "master/jacken-resistenz-b.png",
+      "source_rect": [
+        1086,
+        724,
+        1448,
+        1086
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "34e4a405cc69f26467e181f44d7034a1b61ad591ff11294a25515b5b14574890"
+    },
+    {
+      "family": "element",
+      "level": 1,
+      "tier": "bronze",
+      "file": "familien/element-bronze.png",
+      "source": "master/kategorie-zusatz.png",
+      "source_rect": [
+        0,
+        0,
+        362,
+        362
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "64263d212e9f888a08989cee6918441aeda7abd2cdc880d32c25c618fed9e601"
+    },
+    {
+      "family": "element",
+      "level": 2,
+      "tier": "silver",
+      "file": "familien/element-silver.png",
+      "source": "master/kategorie-zusatz.png",
+      "source_rect": [
+        0,
+        362,
+        362,
+        724
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "1cbb516aa95a3b2a0cbca882b9467ac3e2819f74791ef449dce1507637f1c60c"
+    },
+    {
+      "family": "element",
+      "level": 3,
+      "tier": "gold",
+      "file": "familien/element-gold.png",
+      "source": "master/kategorie-zusatz.png",
+      "source_rect": [
+        0,
+        724,
+        362,
+        1086
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "064e36712517ae6edce74e12f1563d84ce9bb7597b3bbd9143dc42e2ecf5dc9c"
+    },
+    {
+      "family": "abwehr",
+      "level": 1,
+      "tier": "bronze",
+      "file": "familien/abwehr-bronze.png",
+      "source": "master/kategorie-zusatz.png",
+      "source_rect": [
+        362,
+        0,
+        724,
+        362
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "891111e6a93ffd3de5cc2ff78b2c06ad6e3e9c80449df671acf86bf98bef35ea"
+    },
+    {
+      "family": "abwehr",
+      "level": 2,
+      "tier": "silver",
+      "file": "familien/abwehr-silver.png",
+      "source": "master/kategorie-zusatz.png",
+      "source_rect": [
+        362,
+        362,
+        724,
+        724
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "d7476827efce956d50a1f3cd637823aaf3bf5d5b3923c33d30b235dd76158bab"
+    },
+    {
+      "family": "abwehr",
+      "level": 3,
+      "tier": "gold",
+      "file": "familien/abwehr-gold.png",
+      "source": "master/kategorie-zusatz.png",
+      "source_rect": [
+        362,
+        724,
+        724,
+        1086
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "7097e922558b52be207aa10fa856b4c90f20921ff51e6250e3d12e799544e9d0"
+    },
+    {
+      "family": "zustand_welle",
+      "level": 1,
+      "tier": "bronze",
+      "file": "familien/zustand_welle-bronze.png",
+      "source": "master/kategorie-zusatz.png",
+      "source_rect": [
+        724,
+        0,
+        1086,
+        362
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "6cfc96cf90a3ce354612f4c8bc7836c5e0b950b1d6ad8905987771d46ee6b10b"
+    },
+    {
+      "family": "zustand_welle",
+      "level": 2,
+      "tier": "silver",
+      "file": "familien/zustand_welle-silver.png",
+      "source": "master/kategorie-zusatz.png",
+      "source_rect": [
+        724,
+        362,
+        1086,
+        724
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "7c43c46fe4730ecead1ed7052490607941f340a9756d81e1101e253e35f37cf3"
+    },
+    {
+      "family": "zustand_welle",
+      "level": 3,
+      "tier": "gold",
+      "file": "familien/zustand_welle-gold.png",
+      "source": "master/kategorie-zusatz.png",
+      "source_rect": [
+        724,
+        724,
+        1086,
+        1086
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "fcbad7acc709ff48dd8b79d6da0bddcb1c9feb5cd39e6b5fa2e5ce3423399baa"
+    },
+    {
+      "family": "zustand",
+      "level": 1,
+      "tier": "bronze",
+      "file": "familien/zustand-bronze.png",
+      "source": "master/kategorie-zusatz.png",
+      "source_rect": [
+        1086,
+        0,
+        1448,
+        362
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "95082d643a762234d7fd01a8f4356f4a06ea2d14f40b737e55be129ea0e42263"
+    },
+    {
+      "family": "zustand",
+      "level": 2,
+      "tier": "silver",
+      "file": "familien/zustand-silver.png",
+      "source": "master/kategorie-zusatz.png",
+      "source_rect": [
+        1086,
+        362,
+        1448,
+        724
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "9dba643ee734fe1886503939164e747b3ae14576cd989c5c6bc688c91ca4a995"
+    },
+    {
+      "family": "zustand",
+      "level": 3,
+      "tier": "gold",
+      "file": "familien/zustand-gold.png",
+      "source": "master/kategorie-zusatz.png",
+      "source_rect": [
+        1086,
+        724,
+        1448,
+        1086
+      ],
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "a8b138b89ffec8038ff0a889479d8bb7700024e7e59d123bfa5b63c43e2d86ca"
+    }
+  ],
+  "sources": [
+    {
+      "id": "waffen-basis",
+      "file": "master/waffen-basis.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "sha256": "0c804591e8bfadfba0c6225d295b0e55ccc93d37fccefb6f8559e8a9bd618ec5",
+      "prompt": "Use case: style-transfer. Build a production icon CONTACT SHEET extending the attached APPROVED Eden Rise tech module icons. Match this reference faithfully: smooth subdued category gradients fading to charcoal, SPARSE fine angular 45/90-degree circuit traces with solid square ends, elegant narrow painted category-coloured symbols, thin warm metal edge with subtle corners, NO smoky organic texture. Low gloss satin. Refined stylized game art, coherent with painterly skill icons but plainly engineered tech. No big solid white symbols. No gems/runes, excessive filigree, holes, perforations, honeycombs, porous textures. No text, numbers, gridlines, labels or captions.\nLAYOUT: EXACTLY FOUR COLUMNS by THREE ROWS, twelve separate icons on truly transparent alpha, square cells with equal padding. COLUMN identity fixed; SAME four symbols repeated down rows, not twelve different subjects.\nROW1: BRONZE thin frame, exactly THREE round level lights at bottom, LEFT ONE active warm ivory, other TWO visibly dim.\nROW2: SILVER thin frame, exactly THREE round level lights at bottom, LEFT TWO active ivory, last ONE dim.\nROW3: GOLD thin frame, exactly THREE round level lights at bottom, ALL THREE active warm ivory, only very restrained rim glow.\nTier differences apply to frame material and active light count ONLY, not symbol or category colours. Symbols equally slender and readable at64px at every tier. Frame must fit completely within its square cell, separated transparent margins. Do not retain approved reference's 4x2 layout; requested output is 4x3.\nCOLUMN SPECIFICATIONS left to right:\n1 Force: wine-red hammer diamond; 2 Precision: mustard-yellow fine crosshair diamond; 3 Technique: sea-teal outlined cog diamond; 4 Counter: dusty-blue slender return arrow diamond"
+    },
+    {
+      "id": "waffen-zustand",
+      "file": "master/waffen-zustand.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "sha256": "454aaad7b5db84932dd38ef8375102a6e9fd76eb18e67793a6bdf906d59c6adc",
+      "prompt": "Use case: style-transfer. Build a production icon CONTACT SHEET extending the attached APPROVED Eden Rise tech module icons. Match this reference faithfully: smooth subdued category gradients fading to charcoal, SPARSE fine angular 45/90-degree circuit traces with solid square ends, elegant narrow painted category-coloured symbols, thin warm metal edge with subtle corners, NO smoky organic texture. Low gloss satin. Refined stylized game art, coherent with painterly skill icons but plainly engineered tech. No big solid white symbols. No gems/runes, excessive filigree, holes, perforations, honeycombs, porous textures. No text, numbers, gridlines, labels or captions.\nLAYOUT: EXACTLY FOUR COLUMNS by THREE ROWS, twelve separate icons on truly transparent alpha, square cells with equal padding. COLUMN identity fixed; SAME four symbols repeated down rows, not twelve different subjects.\nROW1: BRONZE thin frame, exactly THREE round level lights at bottom, LEFT ONE active warm ivory, other TWO visibly dim.\nROW2: SILVER thin frame, exactly THREE round level lights at bottom, LEFT TWO active ivory, last ONE dim.\nROW3: GOLD thin frame, exactly THREE round level lights at bottom, ALL THREE active warm ivory, only very restrained rim glow.\nTier differences apply to frame material and active light count ONLY, not symbol or category colours. Symbols equally slender and readable at64px at every tier. Frame must fit completely within its square cell, separated transparent margins. Do not retain approved reference's 4x2 layout; requested output is 4x3.\nCOLUMN SPECIFICATIONS left to right:\nALL four columns are PURPLE status-category weapon DIAMONDS. Distinguish with unique slender symbols: 1 flame contour for burning; 2 zigzag lightning bolt for electricity; 3 pointed blood droplet with tiny short cut-mark for bleeding; 4 angular fractured line with two short lateral vibration marks for shaken"
+    },
+    {
+      "id": "waffen-element",
+      "file": "master/waffen-element.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "sha256": "932a44af493a3b38f5e20d28d8e1f8312ca105b9bd76a314e6369fd725d5f6e5",
+      "prompt": "Use case: style-transfer. Build a production icon CONTACT SHEET extending the attached APPROVED Eden Rise tech module icons. Match this reference faithfully: smooth subdued category gradients fading to charcoal, SPARSE fine angular 45/90-degree circuit traces with solid square ends, elegant narrow painted category-coloured symbols, thin warm metal edge with subtle corners, NO smoky organic texture. Low gloss satin. Refined stylized game art, coherent with painterly skill icons but plainly engineered tech. No big solid white symbols. No gems/runes, excessive filigree, holes, perforations, honeycombs, porous textures. No text, numbers, gridlines, labels or captions.\nLAYOUT: EXACTLY FOUR COLUMNS by THREE ROWS, twelve separate icons on truly transparent alpha, square cells with equal padding. COLUMN identity fixed; SAME four symbols repeated down rows, not twelve different subjects.\nROW1: BRONZE thin frame, exactly THREE round level lights at bottom, LEFT ONE active warm ivory, other TWO visibly dim.\nROW2: SILVER thin frame, exactly THREE round level lights at bottom, LEFT TWO active ivory, last ONE dim.\nROW3: GOLD thin frame, exactly THREE round level lights at bottom, ALL THREE active warm ivory, only very restrained rim glow.\nTier differences apply to frame material and active light count ONLY, not symbol or category colours. Symbols equally slender and readable at64px at every tier. Frame must fit completely within its square cell, separated transparent margins. Do not retain approved reference's 4x2 layout; requested output is 4x3.\nCOLUMN SPECIFICATIONS left to right:\nALL four columns are AMBER-ORANGE element-category weapon DIAMONDS. Each has a thin interrupted ring containing a SMALL distinct elemental symbol: 1 flame, 2 water droplet, 3 angular mountain/stone silhouette, 4 three slim flowing wind strokes. Ring and inner symbol remain separated and readable"
+    },
+    {
+      "id": "jacken-basis",
+      "file": "master/jacken-basis.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "sha256": "be43a29f97806c23dc075397cb8fddb824dbbf7844653c2445d547afed99085c",
+      "prompt": "Use case: style-transfer. Build a production icon CONTACT SHEET extending the attached APPROVED Eden Rise tech module icons. Match this reference faithfully: smooth subdued category gradients fading to charcoal, SPARSE fine angular 45/90-degree circuit traces with solid square ends, elegant narrow painted category-coloured symbols, thin warm metal edge with subtle corners, NO smoky organic texture. Low gloss satin. Refined stylized game art, coherent with painterly skill icons but plainly engineered tech. No big solid white symbols. No gems/runes, excessive filigree, holes, perforations, honeycombs, porous textures. No text, numbers, gridlines, labels or captions.\nLAYOUT: EXACTLY FOUR COLUMNS by THREE ROWS, twelve separate icons on truly transparent alpha, square cells with equal padding. COLUMN identity fixed; SAME four symbols repeated down rows, not twelve different subjects.\nROW1: BRONZE thin frame, exactly THREE round level lights at bottom, LEFT ONE active warm ivory, other TWO visibly dim.\nROW2: SILVER thin frame, exactly THREE round level lights at bottom, LEFT TWO active ivory, last ONE dim.\nROW3: GOLD thin frame, exactly THREE round level lights at bottom, ALL THREE active warm ivory, only very restrained rim glow.\nTier differences apply to frame material and active light count ONLY, not symbol or category colours. Symbols equally slender and readable at64px at every tier. Frame must fit completely within its square cell, separated transparent margins. Do not retain approved reference's 4x2 layout; requested output is 4x3.\nCOLUMN SPECIFICATIONS left to right:\nALL four are jacket CRESTS. 1 cool steel-slate shield outline Protection; 2 cyan PARry blade contacting curved guard with deflected outward trajectory arrow exactly as reference bottom right; 3 forest-green slim lightning bolt Stamina; 4 muted rose-pink heart outline with a small medical plus Recovery"
+    },
+    {
+      "id": "jacken-resistenz-a",
+      "file": "master/jacken-resistenz-a.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "sha256": "9116697d8d8b84adb4f76cf87ca91694590ff28f7f8751354fcace92ddbd22b1",
+      "prompt": "Use case: style-transfer. Build a production icon CONTACT SHEET extending the attached APPROVED Eden Rise tech module icons. Match this reference faithfully: smooth subdued category gradients fading to charcoal, SPARSE fine angular 45/90-degree circuit traces with solid square ends, elegant narrow painted category-coloured symbols, thin warm metal edge with subtle corners, NO smoky organic texture. Low gloss satin. Refined stylized game art, coherent with painterly skill icons but plainly engineered tech. No big solid white symbols. No gems/runes, excessive filigree, holes, perforations, honeycombs, porous textures. No text, numbers, gridlines, labels or captions.\nLAYOUT: EXACTLY FOUR COLUMNS by THREE ROWS, twelve separate icons on truly transparent alpha, square cells with equal padding. COLUMN identity fixed; SAME four symbols repeated down rows, not twelve different subjects.\nROW1: BRONZE thin frame, exactly THREE round level lights at bottom, LEFT ONE active warm ivory, other TWO visibly dim.\nROW2: SILVER thin frame, exactly THREE round level lights at bottom, LEFT TWO active ivory, last ONE dim.\nROW3: GOLD thin frame, exactly THREE round level lights at bottom, ALL THREE active warm ivory, only very restrained rim glow.\nTier differences apply to frame material and active light count ONLY, not symbol or category colours. Symbols equally slender and readable at64px at every tier. Frame must fit completely within its square cell, separated transparent margins. Do not retain approved reference's 4x2 layout; requested output is 4x3.\nCOLUMN SPECIFICATIONS left to right:\nALL four are jacket CRESTS. 1 muted amber small four-point star Presence; 2 indigo-violet small shield outline enclosing flame with tiny external checkmark for fire resistance; 3 indigo-violet same small shield enclosing water drop and checkmark for wet resistance; 4 indigo-violet same small shield enclosing lightning bolt and checkmark for electrical resistance. Resistance glyphs must be clearly differentiated\nCORRECTION: The first generated sheet incorrectly used diamonds. FINAL EDIT: ALL TWELVE must have the SAME jacket CREST silhouette as image2, not diamonds. Top broad horizontal slightly peaked shoulders, upright near-vertical sides tapering only near bottom to shield point. Preserve all internal symbols, colours, all 1/2/3 lights per row and bronze/silver/gold rows of image1. Image2 is shape reference ONLY. KEEP 4x3 grid of image1. Truly transparent background."
+    },
+    {
+      "id": "jacken-resistenz-b",
+      "file": "master/jacken-resistenz-b.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "sha256": "729abb6b4978db6db8e8a2a59d88fa728fdd51ef00597f617c3ba9eecfc68da6",
+      "prompt": "Use case: style-transfer. Build a production icon CONTACT SHEET extending the attached APPROVED Eden Rise tech module icons. Match this reference faithfully: smooth subdued category gradients fading to charcoal, SPARSE fine angular 45/90-degree circuit traces with solid square ends, elegant narrow painted category-coloured symbols, thin warm metal edge with subtle corners, NO smoky organic texture. Low gloss satin. Refined stylized game art, coherent with painterly skill icons but plainly engineered tech. No big solid white symbols. No gems/runes, excessive filigree, holes, perforations, honeycombs, porous textures. No text, numbers, gridlines, labels or captions.\nLAYOUT: EXACTLY FOUR COLUMNS by THREE ROWS, twelve separate icons on truly transparent alpha, square cells with equal padding. COLUMN identity fixed; SAME four symbols repeated down rows, not twelve different subjects.\nROW1: BRONZE thin frame, exactly THREE round level lights at bottom, LEFT ONE active warm ivory, other TWO visibly dim.\nROW2: SILVER thin frame, exactly THREE round level lights at bottom, LEFT TWO active ivory, last ONE dim.\nROW3: GOLD thin frame, exactly THREE round level lights at bottom, ALL THREE active warm ivory, only very restrained rim glow.\nTier differences apply to frame material and active light count ONLY, not symbol or category colours. Symbols equally slender and readable at64px at every tier. Frame must fit completely within its square cell, separated transparent margins. Do not retain approved reference's 4x2 layout; requested output is 4x3.\nCOLUMN SPECIFICATIONS left to right:\n1 indigo-violet jacket CREST small shield enclosing blood droplet with short cut mark and external checkmark for bleeding resistance; 2 indigo-violet jacket CREST small shield enclosing fractured shake-mark with external checkmark for shake resistance; 3 indigo-violet jacket CREST small shield enclosing open eye with short light-rays and external checkmark for blindness resistance; 4 PURPLE weapon DIAMOND single slender water droplet for wet status\nCRITICAL SHAPE: columns1,2,3 use broad flat-shouldered CRESTS with upright sides like reference2. ONLY column4 is pointed diamond like reference1. Reference2 is shape reference only."
+    },
+    {
+      "id": "kategorie-zusatz",
+      "file": "master/kategorie-zusatz.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "sha256": "66e10aeadeb024f3de90b039468fde3e04d5514679d19f04ad62a1904221ef98",
+      "prompt": "Use case: style-transfer. Build a production icon CONTACT SHEET extending the attached APPROVED Eden Rise tech module icons. Match this reference faithfully: smooth subdued category gradients fading to charcoal, SPARSE fine angular 45/90-degree circuit traces with solid square ends, elegant narrow painted category-coloured symbols, thin warm metal edge with subtle corners, NO smoky organic texture. Low gloss satin. Refined stylized game art, coherent with painterly skill icons but plainly engineered tech. No big solid white symbols. No gems/runes, excessive filigree, holes, perforations, honeycombs, porous textures. No text, numbers, gridlines, labels or captions.\nLAYOUT: EXACTLY FOUR COLUMNS by THREE ROWS, twelve separate icons on truly transparent alpha, square cells with equal padding. COLUMN identity fixed; SAME four symbols repeated down rows, not twelve different subjects.\nROW1: BRONZE thin frame, exactly THREE round level lights at bottom, LEFT ONE active warm ivory, other TWO visibly dim.\nROW2: SILVER thin frame, exactly THREE round level lights at bottom, LEFT TWO active ivory, last ONE dim.\nROW3: GOLD thin frame, exactly THREE round level lights at bottom, ALL THREE active warm ivory, only very restrained rim glow.\nTier differences apply to frame material and active light count ONLY, not symbol or category colours. Symbols equally slender and readable at64px at every tier. Frame must fit completely within its square cell, separated transparent margins. Do not retain approved reference's 4x2 layout; requested output is 4x3.\nCOLUMN SPECIFICATIONS left to right:\n1 amber-orange weapon DIAMOND thin interrupted coil ring with open centre, generic Element category; 2 indigo-violet jacket CREST thin shield with checkmark, generic Resistance category; 3 purple weapon DIAMOND slim three-line wave glyph, optional wave status symbol; 4 purple weapon DIAMOND slim flame contour, generic Status category\nCRITICAL SHAPE: ONLY column2 is broad-shouldered jacket CREST like reference2. Columns1,3,4 are weapon DIAMONDS. Maintain exact column identities in all rows."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "kuehe_final",
+ "titel": "Kühe – final im Stall (Pisana)",
+ "hinweis": "Die fünf Stall-Sprites der Kuh, wie sie jetzt im Spiel sind. Rechts die frühere weiße Chianina.",
+ "items": [
+  {
+   "id": "cow_baby",
+   "titel": "Im Spiel: Pisana · Baby",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\tiere\\cow_baby.png",
+   "soll": "Finale Kuh im Stall (schwarze Pisana). Rechts die frühere weiße Chianina.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\_kandidaten\\cow_weiss_baby.png",
+   "vergleich_titel": "Vorher: Chianina"
+  },
+  {
+   "id": "cow_adult_m",
+   "titel": "Im Spiel: Pisana · Bulle",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\tiere\\cow_adult_m.png",
+   "soll": "Finale Kuh im Stall (schwarze Pisana). Rechts die frühere weiße Chianina.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\_kandidaten\\cow_weiss_adult_m.png",
+   "vergleich_titel": "Vorher: Chianina"
+  },
+  {
+   "id": "cow_adult_f",
+   "titel": "Im Spiel: Pisana · Kuh",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\tiere\\cow_adult_f.png",
+   "soll": "Finale Kuh im Stall (schwarze Pisana). Rechts die frühere weiße Chianina.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\_kandidaten\\cow_weiss_adult_f.png",
+   "vergleich_titel": "Vorher: Chianina"
+  },
+  {
+   "id": "cow_old_m",
+   "titel": "Im Spiel: Pisana · alter Bulle",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\tiere\\cow_old_m.png",
+   "soll": "Finale Kuh im Stall (schwarze Pisana). Rechts die frühere weiße Chianina.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\_kandidaten\\cow_weiss_old_m.png",
+   "vergleich_titel": "Vorher: Chianina"
+  },
+  {
+   "id": "cow_old_f",
+   "titel": "Im Spiel: Pisana · alte Kuh",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\tiere\\cow_old_f.png",
+   "soll": "Finale Kuh im Stall (schwarze Pisana). Rechts die frühere weiße Chianina.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\_kandidaten\\cow_weiss_old_f.png",
+   "vergleich_titel": "Vorher: Chianina"
+  }
+ ]
+}

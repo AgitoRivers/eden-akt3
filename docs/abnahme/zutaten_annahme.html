@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Zutaten – Annahme-Liste (Main · Base · Flavour)</title>
+<style>
+:root{--bg:#16130f;--card:#211d17;--line:#3a3328;--text:#efe6d6;--mut:#a89c88;--beige:#d9c39a;--ok:#5fae6e;--neu:#d0644f}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 system-ui,Segoe UI,sans-serif}
+header{position:sticky;top:0;z-index:5;background:#16130fee;backdrop-filter:blur(6px);border-bottom:1px solid var(--line);
+ padding:12px 16px;display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center}
+h1{font-size:18px;margin:0;color:var(--beige);font-weight:600}
+.zahl{color:var(--mut)}.zahl b{color:var(--text)}
+.sp{flex:1}
+button{font:inherit;border:1px solid var(--line);background:#2b251d;color:var(--text);border-radius:8px;padding:6px 12px;cursor:pointer}
+button:hover{border-color:var(--beige)}
+.hinweis{color:var(--mut);padding:10px 16px 0;max-width:1100px}
+.filter button.an{background:var(--beige);color:#16130f;border-color:var(--beige)}
+main{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,420px),1fr));gap:16px;padding:16px}
+.k{background:var(--card);border:2px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.k.ok{border-color:var(--ok)}.k.neu{border-color:var(--neu)}
+.bilder{display:flex;gap:2px;background:#000}
+.bilder figure{margin:0;flex:1;position:relative;min-width:0}
+.bilder figure.v{flex:0 0 32%}
+.bilder img{width:100%;height:300px;object-fit:contain;display:block;cursor:zoom-in;background:#0c0a08}
+.bilder .leer{height:300px;display:flex;align-items:center;justify-content:center;background:#0c0a08;color:var(--mut);
+ font-size:14px;letter-spacing:.04em;border:1px dashed var(--line)}
+.bilder figcaption{position:absolute;left:6px;top:6px;font-size:12px;background:#000a;padding:1px 6px;border-radius:4px;color:var(--mut)}
+.inh{padding:10px 12px;display:flex;flex-direction:column;gap:8px}
+.kopf{display:flex;gap:8px;align-items:baseline}.kopf b{font-size:16px}.kopf span{color:var(--mut);font-size:12px;margin-left:auto}
+.soll{color:var(--mut);font-size:13px}
+.knoepfe{display:flex;gap:8px}
+.knoepfe button{flex:1;padding:8px}
+.k.ok .b-ok{background:var(--ok);border-color:var(--ok);color:#0d1a10}
+.k.neu .b-neu{background:var(--neu);border-color:var(--neu);color:#1a0d0a}
+textarea{font:inherit;font-size:13px;width:100%;min-height:38px;resize:vertical;background:#16130f;color:var(--text);
+ border:1px solid var(--line);border-radius:8px;padding:6px 8px}
+#gross{position:fixed;inset:0;background:#000e;display:none;align-items:center;justify-content:center;z-index:9;cursor:zoom-out}
+#gross img{max-width:96vw;max-height:94vh}
+#kopiert{color:var(--ok);display:none}
+</style></head><body>
+<header><h1>Zutaten – Annahme-Liste (Main · Base · Flavour)</h1>
+ <span class="zahl"><b id="n-ok">0</b> OK · <b id="n-neu">0</b> neu · <b id="n-offen">0</b> offen</span>
+ <span class="filter"><button data-f="alle" class="an">Alle</button> <button data-f="offen">Offen</button> <button data-f="neu">Neu</button></span>
+ <span class="sp"></span>
+ <button id="alle-ok">Rest OK</button>
+ <button id="kopieren">Ergebnis kopieren</button><span id="kopiert">kopiert</span>
+</header>
+<div class="hinweis">Je Zutat OK (behalten), Neu (ändern, mit Notiz was) oder leer. Status: im Spiel / geplant / Vorschlag. Main und Flavour sind Familien (jede Zutat der Familie zählt fürs Rezept), Base ist konkret. Bilder fehlen noch für Base, Garten und Gewürze. Rechts daneben: der lebende Fisch bzw. das Tier, aus dem die Zutat stammt.</div>
+<main id="liste"></main>
+<div id="gross"><img alt=""></div>
+<script>
+const D = {"id": "zutaten_annahme", "titel": "Zutaten – Annahme-Liste (Main · Base · Flavour)", "items": [{"id": "sea_bass_roh", "titel": "Sea Bass Fillets, raw — Main · White Fish", "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 14 € · Bild: ja", "bild": "file:///X:/AI/Eden/module/eden_rise/items/sea_bass_roh.webp", "stand": "27.10. 19:47", "vergleich": "file:///X:/AI/Eden/module/eden_rise/farm/fische/sea_bass.png", "vergleich_titel": "Fang: European Sea Bass"}, {"id": "gilt_head_bream_roh", "titel": "Bream Fillets, raw — Main · White Fish", "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 13 € · Bild: ja", "bild": "file:///X:/AI/Eden/module/eden_rise/items/gilt_head_bream_roh.webp", "stand": "27.10. 19:47", "vergleich": "file:///X:/AI/Eden/module/eden_rise/farm/fische/gilt_head_bream.png", "vergleich_titel": "Fang: Gilt-head Bream"}, {"id": "red_mullet_roh", "titel": "Red Mullet Fillets, raw — Main · White Fish", "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 12 € · Bild: ja", "bild": "file:///X:/AI/Eden/module/eden_rise/items/red_mullet_roh.webp", "stand": "27.10. 19:47", "vergleich": "file:///X:/AI/Eden/module/eden_rise/farm/fische/red_mullet.png", "vergleich_titel": "Fang: Red Mullet"}, {"id": "scorpionfish_roh", "titel": "Rascasse for the Pot, raw — Main · White Fish", "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 15 € · Bild: ja", "bild": "file:///X:/AI/Eden/module/eden_rise/items/scorpionfish_roh.webp", "stand": "27.10. 19:47", "vergleich": "file:///X:/AI/Eden/module/eden_rise/farm/fische/scorpionfish.png", "vergleich_titel": "Fang: Scorpionfish"}, {"id": "perch_roh", "titel": "Perch Fillets, raw — Main · White Fish", "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 11 € · Bild: ja", "bild": "file:///X:/AI/Eden/module/eden_rise/items/perch_roh.webp", "stand": "27.10. 19:49", "vergleich": "file:///X:/AI/Eden/module/eden_rise/farm/fische/perch.png", "vergleich_titel": "Fang: European Perch"}, {"id": "pike_roh", "titel": "Pike Fillets, raw — Main · White Fish", "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 15 € · Bild: ja", "bild": "file:///X:/AI/Eden/module/eden_rise/items/pike_roh.webp", "stand": "27.10. 19:49", "vergleich": "file:///X:/AI/Eden/module/eden_rise/farm/fische/pike.png", "vergleich_titel": "Fang: Northern Pike"}, {"id": "zander_roh", "titel": "Zander Fillets, raw — Main · White Fish", "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 17 € · Bild: ja", "bild": "file:///X:/AI/Eden/module/eden_rise/items/zander_roh.webp", "stand": "27.10. 19:49", "vergleich": "file:///X:/AI/Eden/module/eden_rise/farm/fische/zander.png", "vergleich_titel": "Fang: Zander"}, {"id": "tench_roh", "titel": "Tench Fillets, raw — Main · White Fish", "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 9 € · Bild: ja", "bild": "file:///X:/AI/Eden/module/eden_rise/items/tench_roh.webp", "stand": "27.10. 19:49", "vergleich": "file:///X:/AI/Eden/module/eden_rise/farm/fische/tench.png", "vergleich_titel": "Fang: Tench"}, {"id": "barbel_roh", "titel": "Barbel Fillets, raw — Main · White Fish", "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 10 € · Bild: ja", "bild": "file:///X:/AI/Eden/module/eden_rise/items/barbel_roh.webp", "stand": "27.10. 19:49", "vergleich": "file:///X:/AI/Eden/module/eden_rise/farm/fische/barbel.png", "vergleich_titel": "Fang: Barbel"}, {"id": "carp_roh", "titel": "Carp Steaks, raw — Main · White Fish", "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 10 € · Bild: ja", "bild": "file:///X:/AI/Eden/module/eden_rise/items/carp_roh.webp", "stand": "27.10. 19:48", "vergleich": "file:///X:/AI/Eden/module/eden_rise/farm/fische/carp.png", "vergleich_titel": "Fang: Common Carp"}, {"id": "sardine_roh", "titel": "Sardine Fillets, raw — Main · Oily Fish", "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 6 € · Bild: ja", "bild": "file:///X:/AI/Eden/module/eden_rise/items/sardine_roh.webp", "stand": "27.10. 19:47", "vergleich": "file:///X:/AI/Eden/module/eden_rise/farm/fische/sardine.png", "vergleich_titel": "Fang: Sardine"}, {"id": "little_tunny_roh", "titel": "Tuna Steaks, raw — Main · Oily Fish", "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 22 € · Bild: ja", "bild": "file:///X:/AI/Eden/module/eden_rise/items/little_tunny_roh.webp", "stand": "27.10. 19:47", "vergleich": "file:///X:/AI/Eden/module/eden_rise/farm/fische/little_tunny.png", "vergleich_titel": "Fang: Little Tunny"}, {"id": "brown_trout_roh", "titel": "Trout Fillets, raw — Main · Oily Fish", "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 12 € · Bild: ja", "bild": "file:///X:/AI/Eden/module/eden_rise/items/brown_trout_roh.webp", "stand": "27.10. 19:48", "vergleich": "file:///X:/AI/Eden/module/eden_rise/farm/fische/brown_trout.png", "vergleich_titel": "Fang: Mediterranean Trout"}, {"id": "eel_roh", "titel": "Eel Pieces, raw — Main · Oily Fish", "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 16 € · Bild: ja", "bild": "file:///X:/AI/Eden/module/eden_rise/items/eel_roh.webp", "stand": "27.10. 19:48", "vergleich": "file:///X:/AI/Eden/module/eden_rise/farm/fische/eel.png", "vergleich_titel": "Fang: European Eel"}, {"id": "salmon_steak", "titel": "Salmon Steaks, raw — Main · Oily Fish", "soll": "im Spiel · Quelle: Nonna (Laden) · Preis 24 € · Bild: ja", "bild": "file:///X:/AI/Eden/module/eden_rise/items/salmon_steak.webp", "stand": "27.10. 20:02", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "red_prawn_roh", "titel": "Peeled Red Prawns, raw — Main · Seafood", "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 20 € · Bild: ja", "bild": "file:///X:/AI/Eden/module/eden_rise/items/red_prawn_roh.webp", "stand": "27.10. 19:48", "vergleich": "file:///X:/AI/Eden/module/eden_rise/farm/fische/red_prawn.png", "vergleich_titel": "Fang: Red Prawn"}, {"id": "spiny_lobster_roh", "titel": "Lobster Tail, raw — Main · Seafood", "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 35 € · Bild: ja", "bild": "file:///X:/AI/Eden/module/eden_rise/items/spiny_lobster_roh.webp", "stand": "27.10. 19:48", "vergleich": "file:///X:/AI/Eden/module/eden_rise/farm/fische/spiny_lobster.png", "vergleich_titel": "Fang: Spiny Lobster"}, {"id": "river_crayfish_roh", "titel": "Crayfish Tails, raw — Main · Seafood", "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 14 € · Bild: ja", "bild": "file:///X:/AI/Eden/module/eden_rise/items/river_crayfish_roh.webp", "stand": "27.10. 19:49", "vergleich": "file:///X:/AI/Eden/module/eden_rise/farm/fische/river_crayfish.png", "vergleich_titel": "Fang: River Crayfish"}, {"id": "river_crab_roh", "titel": "River Crab Meat, raw — Main · Seafood", "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 13 € · Bild: ja", "bild": "file:///X:/AI/Eden/module/eden_rise/items/river_crab_roh.webp", "stand": "27.10. 19:49", "vergleich": "file:///X:/AI/Eden/module/eden_rise/farm/fische/river_crab.png", "vergleich_titel": "Fang: River Crab"}, {"id": "cuttlefish_roh", "titel": "Cuttlefish Strips, raw — Main · Seafood", "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 11 € · Bild: ja", "bild": "file:///X:/AI/Eden/module/eden_rise/items/cuttlefish_roh.webp", "stand": "27.10. 19:47", "vergleich": "file:///X:/AI/Eden/module/eden_rise/farm/fische/cuttlefish.png", "vergleich_titel": "Fang: Cuttlefish"}, {"id": "octopus_roh", "titel": "Octopus Tentacle, raw — Main · Seafood", "soll": "im Spiel · Quelle: Angeln (Minispiel gebaut: Boot = Meer, Bach = Fluss) · Preis 18 € · Bild: ja", "bild": "file:///X:/AI/Eden/module/eden_rise/items/octopus_roh.webp", "stand": "27.10. 19:48", "vergleich": "file:///X:/AI/Eden/module/eden_rise/farm/fische/octopus.png", "vergleich_titel": "Fang: Common Octopus"}, {"id": "chicken_meat", "titel": "Chicken — Main · Poultry", "soll": "im Spiel · Quelle: Farm-Tiere · Preis 18 € · Bild: ja", "bild": "file:///X:/AI/Eden/module/eden_rise/items/chicken_meat.webp", "stand": "27.10. 19:50", "vergleich": "file:///X:/AI/Eden/module/eden_rise/farm/tiere/chicken_old_m.png", "vergleich_titel": "Tier: Livorno-Hahn, alt"}, {"id": "pork", "titel": "Pork — Main · Pork", "soll": "im Spiel · Quelle: Farm-Tiere · Preis 28 € · Bild: ja", "bild": "file:///X:/AI/Eden/module/eden_rise/items/pork.webp", "stand": "27.10. 19:50", "vergleich": "file:///X:/AI/Eden/module/eden_rise/farm/tiere/pig_old_m.png", "vergleich_titel": "Tier: Cinta Senese, alt"}, {"id": "beef", "titel": "Beef — Main · Beef", "soll": "im Spiel · Quelle: Farm-Tiere · Preis 45 € · Bild: ja", "bild": "file:///X:/AI/Eden/module/eden_rise/items/beef.webp", "stand": "27.10. 19:50", "vergleich": "file:///X:/AI/Eden/module/eden_rise/farm/tiere/cow_old_m.png", "vergleich_titel": "Tier: Chianina-Bulle, alt"}, {"id": "eggs", "titel": "Eggs — Main · Eggs", "soll": "im Spiel · Quelle: Farm-Tiere · Preis 6 € · Bild: ja", "bild": "file:///X:/AI/Eden/module/eden_rise/items/eggs.webp", "stand": "27.10. 19:50", "vergleich": "file:///X:/AI/Eden/module/eden_rise/farm/tiere/chicken_adult_f.png", "vergleich_titel": "Tier: Livorno-Henne"}, {"id": "zucchini", "titel": "Zucchini — Main · Vegetables", "soll": "im Spiel · Quelle: Nonnas Garten · Preis 4 € · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "cabbage", "titel": "Cabbage — Main · Vegetables", "soll": "im Spiel · Quelle: Nonnas Garten · Preis 3 € · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "truffle", "titel": "Truffle — Main · Vegetables", "soll": "im Spiel · Quelle: Farm-Tiere · Preis 60 € · Bild: ja", "bild": "file:///X:/AI/Eden/module/eden_rise/items/truffle.webp", "stand": "27.10. 19:50", "vergleich": "file:///X:/AI/Eden/module/eden_rise/farm/tiere/pig_adult_f.png", "vergleich_titel": "Tier: Cinta Senese"}, {"id": "rice", "titel": "Rice — Base", "soll": "im Spiel · Quelle: Nonna (Laden) · Preis 4 € · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "noodles", "titel": "Noodles — Base", "soll": "im Spiel · Quelle: Nonna (Laden) · Preis 5 € · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "flour", "titel": "Flour — Base", "soll": "im Spiel · Quelle: Nonna (Laden) · Preis 3 € · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "potatoes", "titel": "Potatoes — Base", "soll": "im Spiel · Quelle: Nonnas Garten · Preis 3 € · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "chilis", "titel": "Chillies — Flavour · Heat (Crit chance +5 %)", "soll": "im Spiel · Quelle: Nonnas Garten · Preis 4 € · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "wildkraeuter", "titel": "Wild Herbs — Flavour · Herbs (Experience +10 %)", "soll": "im Spiel · Quelle: Nonnas Garten · Preis 3 € · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "zitronen", "titel": "Lemons — Flavour · Sour (Shop prices -10 %)", "soll": "im Spiel · Quelle: Nonna (Laden) · Preis 4 € · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "tomaten", "titel": "Tomatoes — Flavour · Sour (Shop prices -10 %)", "soll": "im Spiel · Quelle: Nonnas Garten · Preis 4 € · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "knoblauch", "titel": "Garlic — Flavour · Aromatic (Courage +1 in combat)", "soll": "im Spiel · Quelle: Nonnas Garten · Preis 3 € · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "sojasauce", "titel": "Soy Sauce — Flavour · Savoury (Sell prices +10 %)", "soll": "im Spiel · Quelle: Nonna (Laden) · Preis 6 € · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "milk", "titel": "Milk — Flavour · Creamy (Trust +1 with everyone at the table)", "soll": "im Spiel · Quelle: Farm-Tiere · Preis 8 € · Bild: ja", "bild": "file:///X:/AI/Eden/module/eden_rise/items/milk.webp", "stand": "27.10. 19:50", "vergleich": "file:///X:/AI/Eden/module/eden_rise/farm/tiere/cow_adult_f.png", "vergleich_titel": "Tier: Chianina-Kuh"}, {"id": "tofu", "titel": "Tofu — Main · Tofu", "soll": "geplant · Quelle: Händler in Akt 2 (Duc 27.10.) · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "mushrooms", "titel": "Mushrooms — Main · Vegetables", "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Garten oder Macchia · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "aubergine", "titel": "Aubergine — Main · Vegetables", "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Garten · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "pumpkin", "titel": "Pumpkin — Main · Vegetables", "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Garten · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "leek", "titel": "Leek — Main · Vegetables", "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Garten · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "beetroot", "titel": "Beetroot — Main · Vegetables", "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Garten (Holms Pyttipanne) · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "mussels", "titel": "Mussels — Main · Seafood", "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Totò oder Alva · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "sausages", "titel": "Sausages — Main · Pork", "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Schlachten oder Nonna (Holm) · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "wild_boar", "titel": "Wild Boar — Main · Pork", "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Beute aus der Macchia (Keiler) · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "pasta", "titel": "Pasta — Base", "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Nonna (Chiara) · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "rice_paper", "titel": "Rice Paper — Base", "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Totò (Sophia) · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "onion", "titel": "Onion — Flavour · Aromatic", "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Garten (Holm) · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "saffron", "titel": "Saffron — Flavour · Aromatic", "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Totò (Casanova) · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "bay_leaf", "titel": "Bay Leaf — Flavour · Herbs", "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Garten (Petru) · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "dill", "titel": "Dill — Flavour · Herbs", "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Garten (Siri) · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "fish_sauce", "titel": "Fish Sauce — Flavour · Savoury", "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Totò · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "butter", "titel": "Butter — Flavour · Creamy", "soll": "Vorschlag (noch nicht im Spiel) · Quelle: aus Milch (Elsa) · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "cream", "titel": "Cream — Flavour · Creamy", "soll": "Vorschlag (noch nicht im Spiel) · Quelle: aus Milch · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "vinegar", "titel": "Vinegar — Flavour · Sour", "soll": "Vorschlag (noch nicht im Spiel) · Quelle: Nonna · Bild: noch keins", "bild": "", "stand": "fehlt", "vergleich": "", "vergleich_titel": "Vergleich"}], "server": false, "urteile": {}};
+const KEY = "abnahme:" + D.id;
+let S = D.urteile || {};
+if (!D.server) { try { S = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { S = {}; } }
+let timer = null;
+const save = () => {
+  try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {}
+  if (D.server) { clearTimeout(timer); timer = setTimeout(() => fetch("urteil", {method: "POST", body: JSON.stringify(S)}), 300); }
+  zaehlen();
+};
+let filter = "alle";
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function karte(it) {
+  const st = S[it.id] || {};
+  const el = document.createElement("section");
+  el.className = "k " + (st.urteil || "");
+  el.dataset.id = it.id;
+  el.innerHTML =
+    '<div class="bilder"><figure>' + (it.bild ? '<img loading="lazy" src="' + it.bild + '" alt="">'
+      : '<div class="leer">noch kein Bild</div>') + '<figcaption>neu</figcaption></figure>' +
+    (it.vergleich ? '<figure class="v"><img loading="lazy" src="' + it.vergleich + '" alt=""><figcaption>' + esc(it.vergleich_titel) + '</figcaption></figure>' : '') +
+    '</div><div class="inh"><div class="kopf"><b>' + esc(it.titel) + '</b><span>' + esc(it.stand) + '</span></div>' +
+    (it.soll ? '<div class="soll">' + esc(it.soll) + '</div>' : '') +
+    '<div class="knoepfe"><button class="b-ok">✓ OK</button><button class="b-neu">✗ Neu</button></div>' +
+    '<textarea placeholder="Notiz (was soll anders werden?)">' + esc(st.notiz || "") + '</textarea></div>';
+  el.querySelector(".b-ok").onclick = () => setze(it.id, "ok");
+  el.querySelector(".b-neu").onclick = () => setze(it.id, "neu");
+  el.querySelector("textarea").oninput = e => { (S[it.id] = S[it.id] || {}).notiz = e.target.value; save(); };
+  el.querySelectorAll("img").forEach(i => i.onclick = () => { gross.querySelector("img").src = i.src; gross.style.display = "flex"; });
+  return el;
+}
+function setze(id, urteil) {
+  const st = S[id] = S[id] || {};
+  st.urteil = st.urteil === urteil ? "" : urteil;
+  document.querySelector('[data-id="' + id + '"]').className = "k " + st.urteil;
+  save(); zeigen();
+}
+function zaehlen() {
+  const u = D.items.map(it => (S[it.id] || {}).urteil || "");
+  document.getElementById("n-ok").textContent = u.filter(x => x === "ok").length;
+  document.getElementById("n-neu").textContent = u.filter(x => x === "neu").length;
+  document.getElementById("n-offen").textContent = u.filter(x => !x).length;
+}
+function zeigen() {
+  document.querySelectorAll(".k").forEach(el => {
+    const u = (S[el.dataset.id] || {}).urteil || "";
+    el.style.display = filter === "alle" || (filter === "offen" ? !u : u === filter) ? "" : "none";
+  });
+}
+function ergebnis() {
+  const z = ["Abnahme " + D.titel + ":"];
+  for (const it of D.items) {
+    const st = S[it.id] || {};
+    z.push("- " + it.id + ": " + (st.urteil === "ok" ? "OK" : st.urteil === "neu" ? "NEU" : "offen") + (st.notiz ? " – " + st.notiz.trim() : ""));
+  }
+  return z.join("\n");
+}
+window.abnahme = () => ({id: D.id, urteile: S, text: ergebnis()});   // read by Claude from the browser pane
+const liste = document.getElementById("liste"), gross = document.getElementById("gross");
+D.items.forEach(it => liste.appendChild(karte(it)));
+gross.onclick = () => gross.style.display = "none";
+document.querySelectorAll(".filter button").forEach(b => b.onclick = () => {
+  filter = b.dataset.f; document.querySelectorAll(".filter button").forEach(x => x.classList.toggle("an", x === b)); zeigen();
+});
+document.getElementById("alle-ok").onclick = () => {
+  D.items.forEach(it => { const st = S[it.id] = S[it.id] || {}; if (!st.urteil) st.urteil = "ok"; });
+  document.querySelectorAll(".k").forEach(el => el.className = "k " + (S[el.dataset.id].urteil || ""));
+  save(); zeigen();
+};
+document.getElementById("kopieren").onclick = async () => {
+  try { await navigator.clipboard.writeText(ergebnis()); } catch (e) { prompt("Ergebnis:", ergebnis()); return; }
+  const k = document.getElementById("kopiert"); k.style.display = "inline"; setTimeout(() => k.style.display = "none", 1500);
+};
+zaehlen();
+</script></body></html>

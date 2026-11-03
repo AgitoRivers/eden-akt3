@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Jacken-Charms – Abnahme</title>
+<style>
+:root{--bg:#16130f;--card:#211d17;--line:#3a3328;--text:#efe6d6;--mut:#a89c88;--beige:#d9c39a;--ok:#5fae6e;--neu:#d0644f}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 system-ui,Segoe UI,sans-serif}
+header{position:sticky;top:0;z-index:5;background:#16130fee;backdrop-filter:blur(6px);border-bottom:1px solid var(--line);
+ padding:12px 16px;display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center}
+h1{font-size:18px;margin:0;color:var(--beige);font-weight:600}
+.zahl{color:var(--mut)}.zahl b{color:var(--text)}
+.sp{flex:1}
+button{font:inherit;border:1px solid var(--line);background:#2b251d;color:var(--text);border-radius:8px;padding:6px 12px;cursor:pointer}
+button:hover{border-color:var(--beige)}
+.hinweis{color:var(--mut);padding:10px 16px 0;max-width:1100px}
+.filter button.an{background:var(--beige);color:#16130f;border-color:var(--beige)}
+main{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,420px),1fr));gap:16px;padding:16px}
+.k{background:var(--card);border:2px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.k.ok{border-color:var(--ok)}.k.neu{border-color:var(--neu)}
+.bilder{display:flex;gap:2px;background:#000}
+.bilder figure{margin:0;flex:1;position:relative;min-width:0}
+.bilder figure.v{flex:0 0 45%}
+.bilder img{width:100%;height:300px;object-fit:contain;display:block;cursor:zoom-in;background:#8f897e}   /* Grau: freigestellte Sprites (auch dunkle) bleiben sichtbar */
+.bilder .leer{height:300px;display:flex;align-items:center;justify-content:center;background:#0c0a08;color:var(--mut);
+ font-size:14px;letter-spacing:.04em;border:1px dashed var(--line)}
+.bilder figcaption{position:absolute;left:6px;top:6px;font-size:12px;background:#000a;padding:1px 6px;border-radius:4px;color:var(--mut)}
+.inh{padding:10px 12px;display:flex;flex-direction:column;gap:8px}
+.kopf{display:flex;gap:8px;align-items:baseline}.kopf b{font-size:16px}.kopf span{color:var(--mut);font-size:12px;margin-left:auto}
+.soll{color:var(--mut);font-size:13px}
+.knoepfe{display:flex;gap:8px}
+.knoepfe button{flex:1;padding:8px}
+.k.ok .b-ok{background:var(--ok);border-color:var(--ok);color:#0d1a10}
+.k.neu .b-neu{background:var(--neu);border-color:var(--neu);color:#1a0d0a}
+textarea{font:inherit;font-size:13px;width:100%;min-height:38px;resize:vertical;background:#16130f;color:var(--text);
+ border:1px solid var(--line);border-radius:8px;padding:6px 8px}
+#gross{position:fixed;inset:0;background:#000e;display:none;align-items:center;justify-content:center;z-index:9;cursor:zoom-out}
+#gross img{max-width:96vw;max-height:94vh}
+#kopiert{color:var(--ok);display:none}
+</style></head><body>
+<header><h1>Jacken-Charms – Abnahme</h1>
+ <span class="zahl"><b id="n-ok">0</b> OK · <b id="n-neu">0</b> neu · <b id="n-offen">0</b> offen</span>
+ <span class="filter"><button data-f="alle" class="an">Alle</button> <button data-f="offen">Offen</button> <button data-f="neu">Neu</button></span>
+ <span class="sp"></span>
+ <button id="alle-ok">Rest OK</button>
+ <button id="kopieren">Ergebnis kopieren</button><span id="kopiert">kopiert</span>
+</header>
+<div class="hinweis">Ein Charm je Figur, ein Platz an der Jacke. NEU = heute gerendert, BESTAND = gab es schon. Bitte Bild UND Wirkung prüfen (OK / Neu + Notiz).</div>
+<main id="liste"></main>
+<div id="gross"><img alt=""></div>
+<script>
+const D = {"id": "charms", "titel": "Jacken-Charms – Abnahme", "items": [{"id": "chiara", "titel": "NEU Chiara – Charisma +1 (wie bisher das Seepferdchen)", "soll": "Anhänger: dolphin in soft grey-blue, a tiny navy ribbon around its neck. Wirkung an der Jacke: Charisma +1 (wie bisher das Seepferdchen). Bekommt man: Vertrauen im Plus.", "bild": "file:///X:/AI/Eden/docs/abnahme/charms/chiara.png", "stand": "28.10. 15:49", "vergleich": "file:///X:/AI/Eden/module/eden_rise/items/_gross/anhaenger_seepferdchen.png", "vergleich_titel": "bisher: Seepferdchen"}, {"id": "lola", "titel": "NEU Lola – Strength +1", "soll": "Anhänger: kangaroo in warm sandy brown with a tiny joey peeking out of its pouch and a small shell on a string around its neck. Wirkung an der Jacke: Strength +1. Bekommt man: Vertrauen im Plus.", "bild": "file:///X:/AI/Eden/docs/abnahme/charms/lola.png", "stand": "28.10. 15:49", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "megan", "titel": "NEU Megan – Cunning +1", "soll": "Anhänger: black puma, sleek jet black plush like a panther, calm green eyes and a tiny gold anchor pin on its chest. Wirkung an der Jacke: Cunning +1. Bekommt man: Vertrauen im Plus, kommt mit dem Versorgungsboot.", "bild": "file:///X:/AI/Eden/docs/abnahme/charms/megan.png", "stand": "28.10. 16:33", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "lea", "titel": "NEU Lea – Empathy +1", "soll": "Anhänger: clownfish with soft orange and white stripes and a big friendly smile. Wirkung an der Jacke: Empathy +1. Bekommt man: Vertrauen im Plus.", "bild": "file:///X:/AI/Eden/docs/abnahme/charms/lea.png", "stand": "28.10. 15:50", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "rosi", "titel": "NEU Rosi – Courage +1", "soll": "Anhänger: super cute little round robot in soft white plush, a chubby rounded box body like a tiny generator, one big round glowing amber eye with a happy curve below it, rosy cheeks, short stubby legs, a tiny white exhaust pipe on top puffing a small soft heart-shaped cloud. Wirkung an der Jacke: Courage +1. Bekommt man: Vertrauen im Plus.", "bild": "file:///X:/AI/Eden/docs/abnahme/charms/rosi.png", "stand": "28.10. 17:00", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "toto", "titel": "NEU Totò – Cunning +1", "soll": "Anhänger: very chubby round raccoon with a big soft belly, the classic dark eye mask, a tiny gold chain around its neck and tiny flip-flops on its feet. Wirkung an der Jacke: Cunning +1. Bekommt man: Vertrauen im Plus.", "bild": "file:///X:/AI/Eden/docs/abnahme/charms/toto.png", "stand": "28.10. 16:33", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "holm", "titel": "NEU Holm – Schutz +1", "soll": "Anhänger: polar bear, the whole bear standing on all four paws and facing the viewer straight from the front, wearing a tiny white captain's cap with a black peak. Wirkung an der Jacke: Schutz +1. Bekommt man: Vertrauen im Plus.", "bild": "file:///X:/AI/Eden/docs/abnahme/charms/holm.png", "stand": "28.10. 17:00", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "yamamoto", "titel": "NEU Yamamoto – Perception +1", "soll": "Anhänger: sea turtle with a smooth green shell and tiny round black sunglasses. Wirkung an der Jacke: Perception +1. Bekommt man: Vertrauen im Plus.", "bild": "file:///X:/AI/Eden/docs/abnahme/charms/yamamoto.png", "stand": "28.10. 15:51", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "petru", "titel": "NEU Petru – Parade-Fenster +10 %", "soll": "Anhänger: octopus in soft coral red with smooth plain tentacles curled up underneath and a tiny knitted fisherman's cap. Wirkung an der Jacke: Parade-Fenster +10 %. Bekommt man: Vertrauen im Plus.", "bild": "file:///X:/AI/Eden/docs/abnahme/charms/petru.png", "stand": "28.10. 15:52", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "nonna", "titel": "NEU Nonna – Empathy +1", "soll": "Anhänger: plump brown hen wearing a tiny checked kitchen apron. Wirkung an der Jacke: Empathy +1. Bekommt man: Vertrauen im Plus.", "bild": "file:///X:/AI/Eden/docs/abnahme/charms/nonna.png", "stand": "28.10. 15:52", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "isabelle", "titel": "NEU Isabelle – Heilung nach dem Kampf +3", "soll": "Anhänger: super cute happy fluffy white sheep facing the viewer straight from the front, a big happy smile with closed smiling eyes, rosy cheeks, round chubby body, a small sprig of purple lavender embroidered in thread on its chest. Wirkung an der Jacke: Heilung nach dem Kampf +3. Bekommt man: Vertrauen im Plus.", "bild": "file:///X:/AI/Eden/docs/abnahme/charms/isabelle.png", "stand": "28.10. 17:03", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "alva", "titel": "NEU Alva – Snacks heilen +2 (wie bisher der Koala)", "soll": "Anhänger: small black bull calf with short soft horns and a red carnation tucked behind one horn. Wirkung an der Jacke: Snacks heilen +2 (wie bisher der Koala). Bekommt man: Vertrauen im Plus.", "bild": "file:///X:/AI/Eden/docs/abnahme/charms/alva.png", "stand": "28.10. 16:34", "vergleich": "file:///X:/AI/Eden/module/eden_rise/items/_gross/anhaenger_koala.png", "vergleich_titel": "bisher: Koala"}, {"id": "yasin", "titel": "NEU Yasin – Krit +5 % (wie bisher)", "soll": "Anhänger: very round and fluffy peregrine falcon chick, soft and squishy like a pillow, big dark eyes, a tiny gold chain. Wirkung an der Jacke: Krit +5 % (wie bisher). Bekommt man: Vertrauen im Plus.", "bild": "file:///X:/AI/Eden/docs/abnahme/charms/yasin.png", "stand": "28.10. 16:34", "vergleich": "file:///X:/AI/Eden/module/eden_rise/items/_gross/anhaenger_falke.png", "vergleich_titel": "bisher: Falke"}, {"id": "mazzera", "titel": "NEU A Mazzera's Hunting Charm – Ausdauer +1 (Leiste 8 → 9)", "soll": "Anhänger: a striking dark hunter's talisman: two curved wild boar tusks joined tip to tip into a crescent moon, the ivory etched with fine black spiral engravings, bound at the joints with bright blood-red thread, a single smooth milky moonstone set in the middle, three glossy black raven feathers with a blue-violet sheen fanning out below, hanging from a braided red cord with an old blackened silver ring. Wirkung an der Jacke: Ausdauer +1 (Leiste 8 → 9). Bekommt man: Unikat der Berge, nicht verschenkbar.", "bild": "file:///X:/AI/Eden/docs/abnahme/charms/mazzera.png", "stand": "28.10. 18:45", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "mazzera_hell", "titel": "NEU A Mazzera's Hunting Charm (helle Seide) – Ausdauer +1 (Leiste 8 → 9)", "soll": "Anhänger: a striking dark hunter's talisman shaped like an open crescent moon, the opening pointing upwards like a smile: two curved pale ivory wild boar tusks joined tip to tip into a crescent moon, the ivory etched with fine black spiral engravings, bound at the joints with bright blood-red thread, a single smooth milky moonstone set in the middle, three glossy black raven feathers with a blue-violet sheen fanning out below, hanging from a braided red cord with an old blackened silver ring. Wirkung an der Jacke: Ausdauer +1 (Leiste 8 → 9). Bekommt man: Unikat der Berge, nicht verschenkbar.", "bild": "file:///X:/AI/Eden/docs/abnahme/charms/mazzera_hell.png", "stand": "28.10. 18:46", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "mazzera_hell2", "titel": "NEU A Mazzera's Hunting Charm (helle Seide, Variante 2) – Ausdauer +1 (Leiste 8 → 9)", "soll": "Anhänger: a striking dark hunter's talisman shaped like an open crescent moon, the opening pointing upwards like a smile: two curved pale ivory wild boar tusks joined tip to tip into a crescent moon, the ivory etched with fine black spiral engravings, bound at the joints with bright blood-red thread, a single smooth milky moonstone set in the middle, three glossy black raven feathers with a blue-violet sheen fanning out below, hanging from a braided red cord with an old blackened silver ring. Wirkung an der Jacke: Ausdauer +1 (Leiste 8 → 9). Bekommt man: Unikat der Berge, nicht verschenkbar.", "bild": "file:///X:/AI/Eden/docs/abnahme/charms/mazzera_hell2.png", "stand": "28.10. 18:46", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "frederico", "titel": "NEU Frederico – Strength +1 und Courage +1 (Gold)", "soll": "Anhänger: black lion cub with a soft fluffy dark mane and warm golden eyes. Wirkung an der Jacke: Strength +1 und Courage +1 (Gold). Bekommt man: alle Ställe auf Nonnas Farm ausgebaut.", "bild": "file:///X:/AI/Eden/docs/abnahme/charms/frederico.png", "stand": "28.10. 15:52", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "anhaenger_strudel", "titel": "BESTAND Jana – Mut +1", "soll": "Plüsch-Kater „Strudel“ (schon vorhanden). Wirkung: Mut +1. Nur prüfen, ob es so bleibt.", "bild": "file:///X:/AI/Eden/module/eden_rise/items/_gross/anhaenger_strudel.png", "stand": "20.10. 12:21", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "anhaenger_robbe", "titel": "BESTAND Siri – Empathie +1", "soll": "Plüsch-Robbe (schon vorhanden). Wirkung: Empathie +1. Nur prüfen, ob es so bleibt.", "bild": "file:///X:/AI/Eden/module/eden_rise/items/_gross/anhaenger_robbe.png", "stand": "20.10. 12:08", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "anhaenger_eule", "titel": "BESTAND Sophia – Wahrnehmung +1", "soll": "Plüsch-Eule (schon vorhanden). Wirkung: Wahrnehmung +1. Nur prüfen, ob es so bleibt.", "bild": "file:///X:/AI/Eden/module/eden_rise/items/_gross/anhaenger_eule.png", "stand": "20.10. 12:08", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "anhaenger_schaeferhund", "titel": "BESTAND Elsa – Einschüchtern mit Vorteil", "soll": "Plüsch-Schäferhund (schon vorhanden). Wirkung: Einschüchtern mit Vorteil. Nur prüfen, ob es so bleibt.", "bild": "file:///X:/AI/Eden/module/eden_rise/items/_gross/anhaenger_schaeferhund.png", "stand": "20.10. 12:21", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "anhaenger_gorilla", "titel": "BESTAND Maxwell – Spezialangriffe +20 % Schaden", "soll": "Plüsch-Gorilla (schon vorhanden). Wirkung: Spezialangriffe +20 % Schaden. Nur prüfen, ob es so bleibt.", "bild": "file:///X:/AI/Eden/module/eden_rise/items/_gross/anhaenger_gorilla.png", "stand": "20.10. 12:25", "vergleich": "", "vergleich_titel": "Vergleich"}, {"id": "anhaenger_flamingo", "titel": "BESTAND Madame Casanova – Fassung −4 schon nach 2 perfekten Paraden", "soll": "Plüsch-Flamingo (schon vorhanden). Wirkung: Fassung −4 schon nach 2 perfekten Paraden. Nur prüfen, ob es so bleibt.", "bild": "file:///X:/AI/Eden/module/eden_rise/items/_gross/anhaenger_flamingo.png", "stand": "20.10. 12:08", "vergleich": "", "vergleich_titel": "Vergleich"}], "server": false, "urteile": {}};
+const KEY = "abnahme:" + D.id;
+let S = D.urteile || {};
+if (!D.server) { try { S = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { S = {}; } }
+let timer = null;
+const save = () => {
+  try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {}
+  if (D.server) { clearTimeout(timer); timer = setTimeout(() => fetch("urteil", {method: "POST", body: JSON.stringify(S)}), 300); }
+  zaehlen();
+};
+let filter = "alle";
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function karte(it) {
+  const st = S[it.id] || {};
+  const el = document.createElement("section");
+  el.className = "k " + (st.urteil || "");
+  el.dataset.id = it.id;
+  el.innerHTML =
+    '<div class="bilder"><figure>' + (it.bild ? '<img loading="lazy" src="' + it.bild + '" alt="">'
+      : '<div class="leer">noch kein Bild</div>') + '<figcaption>neu</figcaption></figure>' +
+    (it.vergleich ? '<figure class="v"><img loading="lazy" src="' + it.vergleich + '" alt=""><figcaption>' + esc(it.vergleich_titel) + '</figcaption></figure>' : '') +
+    '</div><div class="inh"><div class="kopf"><b>' + esc(it.titel) + '</b><span>' + esc(it.stand) + '</span></div>' +
+    (it.soll ? '<div class="soll">' + esc(it.soll) + '</div>' : '') +
+    '<div class="knoepfe"><button class="b-ok">✓ OK</button><button class="b-neu">✗ Neu</button></div>' +
+    '<textarea placeholder="Notiz (was soll anders werden?)">' + esc(st.notiz || "") + '</textarea></div>';
+  el.querySelector(".b-ok").onclick = () => setze(it.id, "ok");
+  el.querySelector(".b-neu").onclick = () => setze(it.id, "neu");
+  el.querySelector("textarea").oninput = e => { (S[it.id] = S[it.id] || {}).notiz = e.target.value; save(); };
+  el.querySelectorAll("img").forEach(i => i.onclick = () => { gross.querySelector("img").src = i.src; gross.style.display = "flex"; });
+  return el;
+}
+function setze(id, urteil) {
+  const st = S[id] = S[id] || {};
+  st.urteil = st.urteil === urteil ? "" : urteil;
+  document.querySelector('[data-id="' + id + '"]').className = "k " + st.urteil;
+  save(); zeigen();
+}
+function zaehlen() {
+  const u = D.items.map(it => (S[it.id] || {}).urteil || "");
+  document.getElementById("n-ok").textContent = u.filter(x => x === "ok").length;
+  document.getElementById("n-neu").textContent = u.filter(x => x === "neu").length;
+  document.getElementById("n-offen").textContent = u.filter(x => !x).length;
+}
+function zeigen() {
+  document.querySelectorAll(".k").forEach(el => {
+    const u = (S[el.dataset.id] || {}).urteil || "";
+    el.style.display = filter === "alle" || (filter === "offen" ? !u : u === filter) ? "" : "none";
+  });
+}
+function ergebnis() {
+  const z = ["Abnahme " + D.titel + ":"];
+  for (const it of D.items) {
+    const st = S[it.id] || {};
+    z.push("- " + it.id + ": " + (st.urteil === "ok" ? "OK" : st.urteil === "neu" ? "NEU" : "offen") + (st.notiz ? " – " + st.notiz.trim() : ""));
+  }
+  return z.join("\n");
+}
+window.abnahme = () => ({id: D.id, urteile: S, text: ergebnis()});   // read by Claude from the browser pane
+const liste = document.getElementById("liste"), gross = document.getElementById("gross");
+D.items.forEach(it => liste.appendChild(karte(it)));
+gross.onclick = () => gross.style.display = "none";
+document.querySelectorAll(".filter button").forEach(b => b.onclick = () => {
+  filter = b.dataset.f; document.querySelectorAll(".filter button").forEach(x => x.classList.toggle("an", x === b)); zeigen();
+});
+document.getElementById("alle-ok").onclick = () => {
+  D.items.forEach(it => { const st = S[it.id] = S[it.id] || {}; if (!st.urteil) st.urteil = "ok"; });
+  document.querySelectorAll(".k").forEach(el => el.className = "k " + (S[el.dataset.id].urteil || ""));
+  save(); zeigen();
+};
+document.getElementById("kopieren").onclick = async () => {
+  try { await navigator.clipboard.writeText(ergebnis()); } catch (e) { prompt("Ergebnis:", ergebnis()); return; }
+  const k = document.getElementById("kopiert"); k.style.display = "inline"; setTimeout(() => k.style.display = "none", 1500);
+};
+zaehlen();
+</script></body></html>

@@ -1,0 +1,35 @@
+{
+ "id": "wunsch_haar_v2",
+ "titel": "Rosi und Alva: Korrektur",
+ "hinweis": "Daneben jeweils die letzte Fassung.",
+ "items": [
+  {
+   "id": "Rosi_W_a",
+   "titel": "Rosi · Rennanzug · Bild A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Rosi_W\\neutral-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Rosi_W\\neutral.png",
+   "soll": "Einteiler in Burgund, Streifen durchgehend, Brust glatt."
+  },
+  {
+   "id": "Rosi_W_b",
+   "titel": "Rosi · Rennanzug · Bild B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Rosi_W\\neutral-3.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Rosi_W\\neutral.png",
+   "soll": "Fehler: schwarze Einsätze an den Schultern, nicht bestellt."
+  },
+  {
+   "id": "Rosi_W_c",
+   "titel": "Rosi · Rennanzug · Bild C (Vorschlag)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Rosi_W\\neutral-4.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Rosi_W\\neutral.png",
+   "soll": "Einteiler in Burgund, die Streifen laufen am saubersten durch."
+  },
+  {
+   "id": "Alva_W",
+   "titel": "Alva · Traje · schwarzes Crop-Hemd (Vorschlag)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Alva_W\\neutral-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Alva_W\\neutral-1.png",
+   "soll": "Lederjacke über schwarzem Crop-Hemd, Bauch frei, Chignon unter dem Hut."
+  }
+ ]
+}

@@ -1,0 +1,4476 @@
+{
+ "orte": {
+  "yacht": "eden_rise_siege_yacht.png",
+  "mole": "eden_rise_siege_mole.png",
+  "hafen": "eden_rise_siege_hafen.png",
+  "strand": "eden_rise_siege_strand.png",
+  "macchia": "eden_rise_siege_macchia.png",
+  "felsen": "eden_rise_siege_felsen.png",
+  "dorf": "eden_rise_siege_dorf.png",
+  "kirchplatz": "eden_rise_siege_kirchplatz.png"
+ },
+ "spalten": 48,
+ "zeilen": 32,
+ "ausschnitt": [
+  3,
+  3,
+  44,
+  26
+ ],
+ "raster": [
+  "WW.WWW.WWBBBBBBBBBBBBBBBBBBBBBBBBBBB.BBBBBBBBBBB",
+  "WW..WW..WWBBBBBBBBBBBBBBBBBBBBBBBBW###BBBBBBBBBB",
+  "WWWWW.W.W...WWW.##.BBBBBBBBBBBBBBB.###BBBBBBBBBB",
+  "WWW######.WW....##.BBBBBBBBBBBB..W...BBBBBBBBBBB",
+  "WWW######WW.WW....WBBBBBBBBBBBBW......BBBBBBB~~~",
+  "WWW######WW..WWW..WWW...BW.WWW#####.WBBBBBBBB~~~",
+  "W..######WWW..WWWWWWWW.WW..WW.#####.WWBBBBBBB~~~",
+  "W.W..W...WWW......W.WW........#####......~~~~~~~",
+  "WWW.....W........###WWW.WWW##............~~~~~~~",
+  "WWW.WWWWW...W....#####WWW###.###W#.......~~~~~~~",
+  "WWWWW..WWWW..WW..###########.######WW.~~~~~~~~~~",
+  ".WWWWW...WWWW...........####.######W..~~~~~~~~~~",
+  "...WW####WW...W.##S###..####.######..~.~~~~~~~~~",
+  "WW...####W.W.WW.##.###..####.######.~~~~~~~~~~~~",
+  "W.WW.####.WW.WWW##.###..####.######....~~~~~~~~~",
+  ".WWW............#######.............~.......~~~~",
+  ".WWWBWW..W......##.####TTTT########~~.......~~~~",
+  "W.WWWWW.#W.WWWW.##.####....#.######~~....~~~~~~~",
+  "SS.W..W.WW.WWW..............####.....~~~~~~~~~~~",
+  "####SS..W..WWWWBW..~~~~~~~~~~~~~~~....~~~~~~~~~~",
+  "####.SS..S.WWWW.WW.######~~~######........######",
+  "####SSSSSS.W...WWWW######~~~~~~######.....######",
+  "SSSSSSSSSSSSSS.....######~~~~~~######.....######",
+  "~~~....SSSSSSSSSSSS######~~~~~~######.....######",
+  "~~~~~~~~~..SSSSSSSS######~~~~~~#################",
+  "~~~~~~~~~~~~~~~....######~~~~~~#################",
+  "~~~~~~~~~~~~~~~~~~~######~~~~~~#################",
+  "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#################",
+  "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#################",
+  "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#################",
+  "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+  "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+ ],
+ "barrikade": [
+  [
+   27,
+   8
+  ],
+  [
+   28,
+   8
+  ]
+ ],
+ "barrikade_bild": {
+  "box": [
+   24.5,
+   5.75,
+   31.5,
+   11.75
+  ],
+  "zu": "barrikade_zu.webp",
+  "offen": "barrikade_offen.webp"
+ },
+ "kirche": {
+  "tueren": [
+   [
+    25,
+    15
+   ],
+   [
+    26,
+    15
+   ]
+  ],
+  "lp": 3
+ },
+ "plaetze": [
+  {
+   "x": 14,
+   "y": 11,
+   "front": "West"
+  },
+  {
+   "x": 15,
+   "y": 15,
+   "front": "West"
+  },
+  {
+   "x": 15,
+   "y": 18,
+   "front": "West"
+  },
+  {
+   "x": 12,
+   "y": 20,
+   "front": "South"
+  },
+  {
+   "x": 16,
+   "y": 20,
+   "front": "South"
+  },
+  {
+   "x": 20,
+   "y": 18,
+   "front": "South"
+  },
+  {
+   "x": 24,
+   "y": 16,
+   "front": "Church"
+  },
+  {
+   "x": 26,
+   "y": 16,
+   "front": "Church"
+  },
+  {
+   "x": 26,
+   "y": 17,
+   "front": "Church"
+  },
+  {
+   "x": 37,
+   "y": 15,
+   "front": "Yacht"
+  },
+  {
+   "x": 42,
+   "y": 16,
+   "front": "Yacht"
+  },
+  {
+   "x": 39,
+   "y": 17,
+   "front": "Yacht"
+  },
+  {
+   "x": 40,
+   "y": 15,
+   "front": "Yacht"
+  },
+  {
+   "x": 28,
+   "y": 11,
+   "front": "North"
+  }
+ ],
+ "gelaende": {
+  ".": {
+   "name": "Open ground",
+   "abwehr": 0,
+   "text": "No cover."
+  },
+  "W": {
+   "name": "Forest",
+   "abwehr": 1,
+   "tarnung": true,
+   "text": "Slow. +1 DEF. Hides your troop: enemies only see it from 2 fields, drones always."
+  },
+  "B": {
+   "name": "Rocks",
+   "abwehr": 2,
+   "text": "Very slow. +2 DEF. Robots cannot climb."
+  },
+  "S": {
+   "name": "Beach",
+   "abwehr": 0,
+   "text": "Heavy units and robots sink in. No cover."
+  },
+  "T": {
+   "name": "Church Steps",
+   "abwehr": 1,
+   "text": "+1 DEF."
+  }
+ },
+ "gang": {
+  "fuss": {
+   ".": 1,
+   "W": 2,
+   "B": 3,
+   "S": 1,
+   "T": 1
+  },
+  "schwer": {
+   ".": 1,
+   "W": 2,
+   "B": 4,
+   "S": 2,
+   "T": 1
+  },
+  "tier": {
+   ".": 1,
+   "W": 1,
+   "B": 2,
+   "S": 1,
+   "T": 1
+  },
+  "maschine": {
+   ".": 1,
+   "W": 3,
+   "S": 2,
+   "T": 1
+  }
+ },
+ "hilfe": {
+  "holm": {
+   "name": "Holm",
+   "kann": "Bridge Command",
+   "fest": true,
+   "takt": "runde",
+   "text": "One order each round: a troop that has already acted may act again."
+  },
+  "sophia": {
+   "name": "Sophia",
+   "kann": "Radio",
+   "vertrauen": 2,
+   "takt": null,
+   "text": "She listens to their radio. You also see where each enemy will stand in two rounds."
+  },
+  "lola": {
+   "name": "Lola",
+   "kann": "Galley",
+   "vertrauen": 2,
+   "takt": "welle",
+   "text": "Once each wave she patches up a troop that stands on the quay or the pier. Her galley is on the yacht, so she needs the yacht afloat."
+  },
+  "lea": {
+   "name": "Lea",
+   "kann": "Tender",
+   "vertrauen": 2,
+   "takt": null,
+   "text": "She gets in the way of their boats. Enemies from the sea start one round late."
+  },
+  "siri": {
+   "name": "Siri",
+   "kann": "The Stream",
+   "vertrauen": 2,
+   "takt": "welle",
+   "text": "Her stream answers Alon's. Once each wave, one whole front stops for one round."
+  },
+  "ligeia": {
+   "name": "Ligeia",
+   "pid": "sirene",
+   "kann": "The Song",
+   "vertrauen": 3,
+   "takt": "schlacht",
+   "text": "One song in the whole battle. Every pirate near the water falls asleep for two rounds. Robots do not listen."
+  },
+  "danzel": {
+   "name": "Danzel",
+   "kann": "Steel Lining",
+   "flags": [
+    "rt_ausgang_alle",
+    "rt_ausgang_getrennt"
+   ],
+   "takt": "welle",
+   "text": "He designed those plates. Once each wave he sews one into a troop's coat: it takes half the damage until the next round. He also fights at the church door, but he will not stay for Mr. White.",
+   "einheit": {
+    "name": "Danzel",
+    "rolle": "schnell",
+    "text": "He fights whatever reaches the church door. Fixed. He will not stay for Mr. White.",
+    "art": "stumpf",
+    "lp": 22,
+    "angriff": 8,
+    "abwehr": 2,
+    "start": [
+     27,
+     15
+    ],
+    "figur": {
+     "bild": "fig_danzel.webp",
+     "bilder": 6,
+     "seite": 1.0104,
+     "hoehe": 172,
+     "stand": {
+      "bild": "fig_danzel_stand.webp",
+      "bilder": 6,
+      "seite": 0.9948,
+      "hoehe": 171
+     }
+    }
+   }
+  }
+ },
+ "sets": {
+  "holm": "holm_shirt"
+ },
+ "fronten": {
+  "South": [
+   [
+    6,
+    21
+   ],
+   [
+    9,
+    22
+   ],
+   [
+    12,
+    22
+   ],
+   [
+    5,
+    20
+   ],
+   [
+    8,
+    20
+   ],
+   [
+    11,
+    21
+   ]
+  ],
+  "West": [
+   [
+    4,
+    9
+   ],
+   [
+    6,
+    11
+   ],
+   [
+    4,
+    13
+   ],
+   [
+    5,
+    10
+   ],
+   [
+    4,
+    12
+   ],
+   [
+    4,
+    15
+   ]
+  ],
+  "Yacht": [
+   [
+    43,
+    15
+   ],
+   [
+    43,
+    16
+   ],
+   [
+    42,
+    15
+   ],
+   [
+    42,
+    16
+   ],
+   [
+    41,
+    15
+   ],
+   [
+    41,
+    16
+   ]
+  ],
+  "North": [
+   [
+    28,
+    6
+   ],
+   [
+    27,
+    6
+   ],
+   [
+    29,
+    6
+   ],
+   [
+    28,
+    5
+   ],
+   [
+    27,
+    5
+   ],
+   [
+    29,
+    5
+   ]
+  ]
+ },
+ "bilder": {
+  "ruhig": "karte_ruhig.webp",
+  "kampf": "karte_kampf.webp"
+ },
+ "yacht_lp": 3,
+ "macht": {
+  "duc": {
+   "art": "sammeln",
+   "titel": "Rally",
+   "ruf": "Everyone up. We are not done here.",
+   "text": "All troops get back a quarter of their health, you too."
+  },
+  "maxwell": {
+   "art": "rundum",
+   "titel": "Maximum Force",
+   "ruf": "Mr. Maximum does not step aside.",
+   "text": "Hits every enemy next to him at once, harder than normal, and nobody strikes back."
+  },
+  "chiara": {
+   "art": "weit",
+   "titel": "Sweep the Deck",
+   "ruf": "Five stars for the taser. Zero for you.",
+   "text": "Hits every enemy within two fields, and nobody strikes back."
+  },
+  "wolff": {
+   "art": "nochmal",
+   "titel": "Legion Drill",
+   "ruf": "Again. Faster.",
+   "text": "He may move and attack again this round."
+  },
+  "elsa": {
+   "art": "drohnen",
+   "titel": "Clear the Sky",
+   "ruf": "You do not have a permit for that.",
+   "text": "Shoots down every drone within six fields."
+  },
+  "rosi": {
+   "art": "roboter",
+   "titel": "Pull the Plug",
+   "ruf": "I know exactly where you break.",
+   "text": "Hits every robot within three fields very hard."
+  },
+  "yamamoto": {
+   "art": "schnitt",
+   "titel": "One Cut",
+   "ruf": "Only one.",
+   "text": "One enemy in reach takes huge damage and cannot strike back."
+  },
+  "bibi": {
+   "art": "lachen",
+   "titel": "Nervous Laugh",
+   "ruf": "Ha ha ha ha! Sorry. I do that.",
+   "text": "Her laugh pulls every enemy within five fields onto her this round."
+  }
+ },
+ "duo": {
+  "maxwell+wolff": "Wolff: You hit like a door. Mr. Maximum: Mr. Maximum IS the door.",
+  "chiara+maxwell": "Chiara: Three stars. Mr. Maximum: Only three? Chiara: You stood on my foot.",
+  "chiara+wolff": "Wolff: Your hook was late. Chiara: Your face was early.",
+  "maxwell+rosi": "Rosi: Don't break the part I want. Mr. Maximum: Mr. Maximum breaks only the rest.",
+  "elsa+wolff": "Elsa: I did not see that. Wolff: Nobody did, Lieutenant."
+ },
+ "rueckspruenge": 2,
+ "bestand": {
+  "notration": {
+   "timber": 4,
+   "stein": 2
+  },
+  "mini_max": 3,
+  "treffer": 3,
+  "perfekt_spart": 2,
+  "crew_aufschlag": 2,
+  "fehler_eine": 2,
+  "fehler_zwei": 5,
+  "kosten": {
+   "barrikade": {
+    "timber": 4
+   },
+   "kirche": {
+    "timber": 2,
+    "stein": 2
+   },
+   "yacht": {
+    "timber": 3,
+    "stein": 1
+   },
+   "haus": {
+    "timber": 3,
+    "stein": 3
+   }
+  },
+  "barrikaden": {
+   "South": {
+    "name": "South Barricade",
+    "feld": [
+     14,
+     19
+    ]
+   },
+   "West": {
+    "name": "West Barricade",
+    "feld": [
+     12,
+     13
+    ]
+   }
+  },
+  "texte": {
+   "barrikade": "Whole, it costs them a round at this front.",
+   "kirche": "Gives the church one life back.",
+   "yacht": "Gives the yacht one point back.",
+   "haus": "Only boards and a roof for now. It will be easier to rebuild later."
+  },
+  "holm": {
+   "gut": "Holm: \"You did well yesterday. We got off lightly.\"",
+   "mittel": "Holm: \"It could be worse. It could also be a lot better.\"",
+   "schlecht": "Holm: \"That was bad. Don't look at it for long. Start at one end.\""
+  },
+  "bilder": {
+   "barrikade": "/bg/eden_rise_piazza_treppe.png",
+   "kirche": "/bg/eden_rise_piazza_treppe.png",
+   "yacht": "/bg/yacht_aft_deck_dining.png",
+   "haus": "/bg/eden_rise_piazza_treppe.png"
+  }
+ },
+ "trupps": {
+  "duc": {
+   "name": "Duc",
+   "text": "You play him. His attacks open a real fight. If he falls, the wave starts again.",
+   "art": "stumpf",
+   "lp": 0,
+   "angriff": 0,
+   "abwehr": 3,
+   "bewegung": 7,
+   "start": [
+    26,
+    17
+   ],
+   "kann": "Fights for real",
+   "figur": {
+    "bild": "fig_duc_erde.webp",
+    "bilder": 6,
+    "seite": 1.25,
+    "hoehe": 178,
+    "stand": {
+     "bild": "fig_duc_erde_stand.webp",
+     "bilder": 6,
+     "seite": 1.276,
+     "hoehe": 172
+    }
+   },
+   "figur_jacke": {
+    "jacket_earth": {
+     "bild": "fig_duc_erde.webp",
+     "bilder": 6,
+     "seite": 1.25,
+     "hoehe": 178,
+     "stand": {
+      "bild": "fig_duc_erde_stand.webp",
+      "bilder": 6,
+      "seite": 1.276,
+      "hoehe": 172
+     }
+    },
+    "jacket_water": {
+     "bild": "fig_duc_wasser.webp",
+     "bilder": 6,
+     "seite": 1.25,
+     "hoehe": 179,
+     "stand": {
+      "bild": "fig_duc_wasser_stand.webp",
+      "bilder": 6,
+      "seite": 1.2656,
+      "hoehe": 175
+     }
+    },
+    "jacket_fire": {
+     "bild": "fig_duc_feuer.webp",
+     "bilder": 6,
+     "seite": 1.2344,
+     "hoehe": 181,
+     "stand": {
+      "bild": "fig_duc_feuer_stand.webp",
+      "bilder": 6,
+      "seite": 1.2656,
+      "hoehe": 176
+     }
+    },
+    "jacket_air": {
+     "bild": "fig_duc_luft.webp",
+     "bilder": 6,
+     "seite": 1.25,
+     "hoehe": 179,
+     "stand": {
+      "bild": "fig_duc_luft_stand.webp",
+      "bilder": 6,
+      "seite": 1.2604,
+      "hoehe": 176
+     }
+    }
+   }
+  },
+  "maxwell": {
+   "name": "Mr. Maximum",
+   "rolle": "schwer",
+   "sprite": "MaxwellSteelMop",
+   "text": "You play him too. His attacks open a real fight, with his own bag. Strong against robots. On the pier or the yacht he strikes back twice. If he falls, he is out until the next wave.",
+   "art": "stumpf",
+   "gang": "schwer",
+   "lp": 46,
+   "angriff": 11,
+   "abwehr": 4,
+   "bewegung": 5,
+   "start": [
+    39,
+    17
+   ],
+   "kann": "Fights for real",
+   "figur": {
+    "bild": "fig_maxwell.webp",
+    "bilder": 6,
+    "seite": 1.0677,
+    "hoehe": 181,
+    "stand": {
+     "bild": "fig_maxwell_stand.webp",
+     "bilder": 6,
+     "seite": 1.151,
+     "hoehe": 172
+    }
+   }
+  },
+  "chiara": {
+   "name": "Chiara",
+   "rolle": "fern",
+   "text": "The crew, with a taser rifle that Rosi built. Reach of two fields. Whoever she hits stops for one round, but not robots. No strike back up close.",
+   "art": "taser",
+   "lp": 30,
+   "angriff": 7,
+   "abwehr": 2,
+   "bewegung": 6,
+   "reichweite": 2,
+   "start": [
+    37,
+    15
+   ],
+   "kann": "Taser Rifle",
+   "figur": {
+    "bild": "fig_chiara_uniform.webp",
+    "bilder": 6,
+    "seite": 0.8385,
+    "hoehe": 179,
+    "stand": {
+     "bild": "fig_chiara_uniform_stand.webp",
+     "bilder": 6,
+     "seite": 0.8594,
+     "hoehe": 179
+    }
+   },
+   "figur_flag": {
+    "flag": "sn_dress_whites_fertig",
+    "figur": {
+     "bild": "fig_chiara_whites.webp",
+     "bilder": 6,
+     "seite": 0.8385,
+     "hoehe": 179,
+     "stand": {
+      "bild": "fig_chiara_whites_stand.webp",
+      "bilder": 6,
+      "seite": 0.8542,
+      "hoehe": 176
+     }
+    },
+    "set": "Dress Whites"
+   }
+  },
+  "wolff": {
+   "name": "Wolff",
+   "rolle": "schnell",
+   "sprite": "Wolff",
+   "text": "The Legion. Blades, strong against people and animals. Strikes first when attacked.",
+   "art": "klinge",
+   "lp": 34,
+   "angriff": 10,
+   "abwehr": 3,
+   "bewegung": 7,
+   "start": [
+    15,
+    15
+   ],
+   "kann": "First Strike",
+   "figur": {
+    "bild": "fig_wolff.webp",
+    "bilder": 6,
+    "seite": 1.1302,
+    "hoehe": 180,
+    "stand": {
+     "bild": "fig_wolff_stand.webp",
+     "bilder": 6,
+     "seite": 1.1719,
+     "hoehe": 178
+    }
+   }
+  }
+ },
+ "reserve": {
+  "elsa": {
+   "name": "Elsa",
+   "rolle": "fern",
+   "text": "The law, with a service pistol. Once each round she fires first at an enemy that comes into reach. Reach of two fields, no strike back up close. Strong against drones.",
+   "art": "fern",
+   "lp": 26,
+   "angriff": 8,
+   "abwehr": 2,
+   "bewegung": 6,
+   "reichweite": 2,
+   "kann": "Overwatch",
+   "vertrauen": 2,
+   "flag": "elsa_hilft",
+   "figur": {
+    "bild": "fig_elsa.webp",
+    "bilder": 6,
+    "seite": 0.526,
+    "hoehe": 180,
+    "stand": {
+     "bild": "fig_elsa_stand.webp",
+     "bilder": 6,
+     "seite": 0.5365,
+     "hoehe": 178
+    }
+   }
+  },
+  "rosi": {
+   "name": "Rosi",
+   "rolle": "schwer",
+   "text": "A hammer and a bad mood. She knows where robots break: their armour does nothing against her.",
+   "art": "stumpf",
+   "lp": 30,
+   "angriff": 10,
+   "abwehr": 3,
+   "bewegung": 6,
+   "kann": "Knows the Machine",
+   "vertrauen": 2,
+   "figur": {
+    "bild": "fig_rosi.webp",
+    "bilder": 6,
+    "seite": 0.7396,
+    "hoehe": 178,
+    "stand": {
+     "bild": "fig_rosi_stand.webp",
+     "bilder": 6,
+     "seite": 0.7344,
+     "hoehe": 180
+    }
+   }
+  },
+  "yamamoto": {
+   "name": "Yamamoto",
+   "rolle": "schnell",
+   "text": "One katana. If he defeats his target, he may move and attack again, once each round. He cannot take much.",
+   "art": "klinge",
+   "lp": 24,
+   "angriff": 12,
+   "abwehr": 2,
+   "bewegung": 7,
+   "kann": "Clean Cut",
+   "vertrauen": 2,
+   "figur": {
+    "bild": "fig_yamamoto.webp",
+    "bilder": 6,
+    "seite": 1.2344,
+    "hoehe": 179,
+    "stand": {
+     "bild": "fig_yamamoto_stand.webp",
+     "bilder": 6,
+     "seite": 1.2188,
+     "hoehe": 178
+    }
+   }
+  },
+  "bibi": {
+   "name": "Bibi",
+   "rolle": "fern",
+   "text": "The Red Trio, with flash and water grenades. Reach of two fields, no strike back up close. A dog she hits stops for one round. Her water grenade can also slow a burning house.",
+   "art": "fern",
+   "lp": 24,
+   "angriff": 7,
+   "abwehr": 2,
+   "bewegung": 7,
+   "reichweite": 2,
+   "kann": "Light and Water",
+   "flag": "rt_ausgang_alle",
+   "figur": {
+    "bild": "fig_bibi.webp",
+    "bilder": 6,
+    "seite": 0.6302,
+    "hoehe": 169,
+    "stand": {
+     "bild": "fig_bibi_stand.webp",
+     "bilder": 6,
+     "seite": 0.6823,
+     "hoehe": 172
+    }
+   }
+  }
+ },
+ "trupps_max": 6,
+ "trupps_klein": 4,
+ "haeuser": [
+  {
+   "id": "post",
+   "name": "Post Office",
+   "x": 21,
+   "y": 13,
+   "lunte": 5
+  },
+  {
+   "id": "batu",
+   "name": "Ba Tu's Shop",
+   "x": 22,
+   "y": 17,
+   "lunte": 6
+  },
+  {
+   "id": "bar",
+   "name": "Alva's Bar",
+   "x": 27,
+   "y": 17,
+   "lunte": 7
+  },
+  {
+   "id": "werkstatt",
+   "name": "Petru's Workshop",
+   "x": 28,
+   "y": 18,
+   "lunte": 8
+  }
+ ],
+ "wehr": {
+  "pascal": {
+   "name": "Pascal",
+   "text": "Village guard at the north barricade. Fixed.",
+   "art": "stange",
+   "lp": 24,
+   "angriff": 8,
+   "abwehr": 2,
+   "start": [
+    28,
+    9
+   ],
+   "figur": {
+    "bild": "fig_pascal.webp",
+    "bilder": 6,
+    "seite": 0.6042,
+    "hoehe": 180,
+    "stand": {
+     "bild": "fig_pascal_stand.webp",
+     "bilder": 6,
+     "seite": 0.5469,
+     "hoehe": 180
+    }
+   }
+  },
+  "minicu": {
+   "name": "Minicu",
+   "rolle": "schwer",
+   "text": "The strongest man in the village. He stands where Pascal tells him. Fixed.",
+   "art": "klinge",
+   "lp": 60,
+   "angriff": 10,
+   "abwehr": 4,
+   "start": [
+    28,
+    10
+   ],
+   "start_finale": [
+    29,
+    15
+   ],
+   "figur": {
+    "bild": "fig_minicu.webp",
+    "bilder": 6,
+    "seite": 0.9635,
+    "hoehe": 173,
+    "stand": {
+     "bild": "fig_minicu_stand.webp",
+     "bilder": 6,
+     "seite": 0.9219,
+     "hoehe": 176
+    }
+   }
+  },
+  "alva": {
+   "name": "Alva",
+   "rolle": "fern",
+   "text": "Village guard on the square, with her father's shotgun. Reach of two fields. Fixed.",
+   "art": "fern",
+   "lp": 24,
+   "angriff": 8,
+   "abwehr": 2,
+   "reichweite": 2,
+   "start": [
+    23,
+    14
+   ],
+   "figur": {
+    "bild": "fig_alva.webp",
+    "bilder": 6,
+    "seite": 0.8073,
+    "hoehe": 178,
+    "stand": {
+     "bild": "fig_alva_stand.webp",
+     "bilder": 6,
+     "seite": 0.8594,
+     "hoehe": 181
+    }
+   }
+  }
+ },
+ "feinde": {
+  "hund": {
+   "name": "Collared Dog",
+   "rolle": "schnell",
+   "ki": "jaeger",
+   "text": "Fast. It hunts the most wounded troop it can reach.",
+   "klasse": "tier",
+   "gang": "tier",
+   "lp": 14,
+   "angriff": 6,
+   "abwehr": 1,
+   "bewegung": 8,
+   "kampf": "tk_hund",
+   "figur": {
+    "bild": "fig_hund.webp",
+    "bilder": 6,
+    "seite": 1.5469,
+    "hoehe": 127,
+    "stand": {
+     "bild": "fig_hund_stand.webp",
+     "bilder": 6,
+     "seite": 1.5208,
+     "hoehe": 136
+    }
+   }
+  },
+  "agent": {
+   "name": "Agent",
+   "rolle": "schnell",
+   "text": "One of Mr. White's men, with a baton. Goes for the nearest troop.",
+   "klasse": "mensch",
+   "lp": 20,
+   "angriff": 7,
+   "abwehr": 2,
+   "bewegung": 6,
+   "kampf": "tk_agent",
+   "figur": {
+    "bild": "fig_agent.webp",
+    "bilder": 6,
+    "seite": 0.9115,
+    "hoehe": 178,
+    "stand": {
+     "bild": "fig_agent_stand.webp",
+     "bilder": 6,
+     "seite": 0.9115,
+     "hoehe": 173
+    }
+   }
+  },
+  "brute": {
+   "name": "Brute",
+   "rolle": "schwer",
+   "ki": "brecher",
+   "text": "Ignores your troops and walks straight to the church.",
+   "klasse": "mensch",
+   "gang": "schwer",
+   "lp": 32,
+   "angriff": 10,
+   "abwehr": 4,
+   "bewegung": 5,
+   "kampf": "tk_brute",
+   "figur": {
+    "bild": "fig_brute.webp",
+    "bilder": 6,
+    "seite": 0.8281,
+    "hoehe": 179,
+    "stand": {
+     "bild": "fig_brute_stand.webp",
+     "bilder": 6,
+     "seite": 0.8177,
+     "hoehe": 177
+    }
+   }
+  },
+  "schuetze": {
+   "name": "Marksman",
+   "rolle": "fern",
+   "ki": "wache",
+   "text": "One of Mr. White's agents, with a rifle. Holds her ground for three rounds and shoots from three fields, unless a troop comes close. No strike back up close.",
+   "klasse": "mensch",
+   "lp": 14,
+   "angriff": 8,
+   "abwehr": 1,
+   "bewegung": 5,
+   "reichweite": 3,
+   "kampf": "tk_schuetze",
+   "figur": {
+    "bild": "fig_schuetze.webp",
+    "bilder": 6,
+    "seite": 0.6458,
+    "hoehe": 173,
+    "stand": {
+     "bild": "fig_schuetze_stand.webp",
+     "bilder": 6,
+     "seite": 0.6615,
+     "hoehe": 172
+    }
+   }
+  },
+  "brand": {
+   "name": "Torch Pirate",
+   "rolle": "schnell",
+   "ki": "brand",
+   "pirat": true,
+   "text": "One of Buenaventura's men, paid to burn the village. Runs to the burning houses and makes them burn faster.",
+   "klasse": "mensch",
+   "lp": 20,
+   "angriff": 9,
+   "abwehr": 2,
+   "bewegung": 6,
+   "kampf": "tk_pirat",
+   "figur": {
+    "bild": "fig_brand.webp",
+    "bilder": 6,
+    "seite": 0.6823,
+    "hoehe": 159,
+    "stand": {
+     "bild": "fig_brand_stand.webp",
+     "bilder": 6,
+     "seite": 0.6458,
+     "hoehe": 160
+    }
+   }
+  },
+  "gunner": {
+   "name": "Pirate Gunner",
+   "rolle": "fern",
+   "pirat": true,
+   "text": "One of Buenaventura's men, with a long pistol. Shoots from two fields. No strike back up close.",
+   "klasse": "mensch",
+   "lp": 16,
+   "angriff": 9,
+   "abwehr": 1,
+   "bewegung": 5,
+   "reichweite": 2,
+   "kampf": "tk_gunner",
+   "figur": {
+    "bild": "fig_gunner.webp",
+    "bilder": 6,
+    "seite": 1.1667,
+    "hoehe": 170,
+    "stand": {
+     "bild": "fig_gunner_stand.webp",
+     "bilder": 6,
+     "seite": 1.1719,
+     "hoehe": 174
+    }
+   }
+  },
+  "brawler": {
+   "name": "Pirate Brawler",
+   "rolle": "schwer",
+   "pirat": true,
+   "text": "One of Buenaventura's men, all muscle and a sabre. Slow and hard to put down.",
+   "klasse": "mensch",
+   "gang": "schwer",
+   "lp": 34,
+   "angriff": 10,
+   "abwehr": 3,
+   "bewegung": 5,
+   "kampf": "tk_brawler",
+   "figur": {
+    "bild": "fig_brawler.webp",
+    "bilder": 6,
+    "seite": 1.25,
+    "hoehe": 158,
+    "stand": {
+     "bild": "fig_brawler_stand.webp",
+     "bilder": 6,
+     "seite": 1.3125,
+     "hoehe": 152
+    }
+   }
+  },
+  "bonaventure": {
+   "name": "Captain Buenaventura",
+   "rolle": "schnell",
+   "pirat": true,
+   "text": "The king of no island. Beat him, and his men stop fighting.",
+   "klasse": "mensch",
+   "lp": 44,
+   "angriff": 11,
+   "abwehr": 3,
+   "bewegung": 6,
+   "kampf": "tk_bonaventure",
+   "figur": {
+    "bild": "fig_bonaventure.webp",
+    "bilder": 6,
+    "seite": 1.2031,
+    "hoehe": 163,
+    "stand": {
+     "bild": "fig_bonaventure_stand.webp",
+     "bilder": 6,
+     "seite": 1.2031,
+     "hoehe": 169
+    }
+   }
+  },
+  "roboter": {
+   "name": "Boarding Robot",
+   "rolle": "schwer",
+   "text": "Slow and very tough. It tears the yacht apart while nobody stands near it.",
+   "klasse": "maschine",
+   "gang": "maschine",
+   "lp": 26,
+   "angriff": 8,
+   "abwehr": 6,
+   "bewegung": 4,
+   "kampf": "tk_roboter",
+   "figur": {
+    "bild": "fig_roboter.webp",
+    "bilder": 6,
+    "seite": 1.1667,
+    "hoehe": 174,
+    "stand": {
+     "bild": "fig_roboter_stand.webp",
+     "bilder": 6,
+     "seite": 1.1406,
+     "hoehe": 168
+    }
+   }
+  },
+  "roboter_schwer": {
+   "name": "Heavy Boarding Robot",
+   "rolle": "schwer",
+   "text": "Bigger, slower and much harder to stop. It tears the yacht apart while nobody stands near it.",
+   "klasse": "maschine",
+   "gang": "maschine",
+   "lp": 42,
+   "angriff": 11,
+   "abwehr": 8,
+   "bewegung": 3,
+   "kampf": "tk_roboter_schwer",
+   "figur": {
+    "bild": "fig_roboter.webp",
+    "bilder": 6,
+    "seite": 1.1667,
+    "hoehe": 174,
+    "stand": {
+     "bild": "fig_roboter_stand.webp",
+     "bilder": 6,
+     "seite": 1.1406,
+     "hoehe": 168
+    }
+   }
+  },
+  "roboter_kobra": {
+   "name": "Cobra Robot",
+   "rolle": "schnell",
+   "ki": "jaeger",
+   "text": "A fast steel snake from the beach. It hunts the most wounded troop it can reach, and rocks do not stop it. A taser does nothing.",
+   "klasse": "maschine",
+   "gang": "tier",
+   "lp": 16,
+   "angriff": 8,
+   "abwehr": 3,
+   "bewegung": 8,
+   "kampf": "tk_kobra",
+   "figur": {
+    "bild": "fig_roboter.webp",
+    "bilder": 6,
+    "seite": 1.1667,
+    "hoehe": 120,
+    "stand": {
+     "bild": "fig_roboter_stand.webp",
+     "bilder": 6,
+     "seite": 1.1406,
+     "hoehe": 116
+    }
+   }
+  },
+  "roboter_skorpion": {
+   "name": "Scorpion Robot",
+   "rolle": "schnell",
+   "ki": "schwaeche",
+   "text": "Small, fast and low to the ground. It goes for the troop with the weakest armour, and rocks do not stop it. A taser does nothing.",
+   "klasse": "maschine",
+   "gang": "tier",
+   "lp": 18,
+   "angriff": 9,
+   "abwehr": 4,
+   "bewegung": 7,
+   "kampf": "tk_skorpion",
+   "figur": {
+    "bild": "fig_roboter.webp",
+    "bilder": 6,
+    "seite": 1.1667,
+    "hoehe": 120,
+    "stand": {
+     "bild": "fig_roboter_stand.webp",
+     "bilder": 6,
+     "seite": 1.1406,
+     "hoehe": 116
+    }
+   }
+  },
+  "drohne": {
+   "name": "Combat Drone",
+   "rolle": "fern",
+   "ki": "schwaeche",
+   "text": "Flies over everything and goes for the troop with the weakest armour. It sees hidden troops.",
+   "klasse": "flieger",
+   "lp": 12,
+   "angriff": 7,
+   "abwehr": 0,
+   "bewegung": 11,
+   "fliegt": true,
+   "reichweite": 2,
+   "kampf": "tk_drohne",
+   "figur": {
+    "bild": "fig_drohne.webp",
+    "bilder": 6,
+    "seite": 1.6354,
+    "hoehe": 114,
+    "stand": {
+     "bild": "fig_drohne_stand.webp",
+     "bilder": 6,
+     "seite": 1.7135,
+     "hoehe": 106
+    }
+   }
+  },
+  "white": {
+   "name": "Mr. White",
+   "text": "He walks slowly to the church. Nothing stops him until the giant at the gate falls. After that, only you can.",
+   "klasse": "mensch",
+   "lp": 999,
+   "angriff": 16,
+   "abwehr": 9,
+   "bewegung": 2,
+   "boss": true,
+   "kampf": "tk_white",
+   "figur": {
+    "bild": "fig_white.webp",
+    "bilder": 6,
+    "seite": 0.6146,
+    "hoehe": 175,
+    "stand": {
+     "bild": "fig_white_stand.webp",
+     "bilder": 6,
+     "seite": 0.6406,
+     "hoehe": 176
+    }
+   }
+  }
+ },
+ "wellen": [
+  {
+   "id": 1,
+   "ausschnitt": [
+    3,
+    7,
+    33,
+    24
+   ],
+   "titel": "The First Wave",
+   "szene": "welle_1",
+   "ende": "ende_1",
+   "par": 5,
+   "beats": [
+    {
+     "runde": 1,
+     "szene": "w1_legion"
+    },
+    {
+     "runde": 2,
+     "szene": "w1_hund"
+    },
+    {
+     "runde": 3,
+     "szene": "w1_boote"
+    }
+   ],
+   "nachschub": [
+    {
+     "runde": 3,
+     "feinde": [
+      [
+       "hund",
+       [
+        6,
+        11
+       ]
+      ],
+      [
+       "agent",
+       [
+        8,
+        20
+       ]
+      ]
+     ]
+    }
+   ],
+   "feinde": [
+    [
+     "agent",
+     [
+      6,
+      21
+     ]
+    ],
+    [
+     "agent",
+     [
+      9,
+      22
+     ]
+    ],
+    [
+     "hund",
+     [
+      12,
+      22
+     ]
+    ],
+    [
+     "hund",
+     [
+      4,
+      9
+     ]
+    ],
+    [
+     "agent",
+     [
+      4,
+      13
+     ]
+    ]
+   ]
+  },
+  {
+   "id": 2,
+   "ausschnitt": [
+    3,
+    5,
+    44,
+    25
+   ],
+   "titel": "The Second Wave",
+   "szene": "welle_2",
+   "ende": "ende_2",
+   "par": 8,
+   "beats": [
+    {
+     "runde": 1,
+     "szene": "w2_elsa",
+     "bed": {
+      "einheit": "elsa"
+     }
+    },
+    {
+     "runde": 2,
+     "szene": "w2_deck"
+    },
+    {
+     "runde": 3,
+     "szene": "w2_gewehr"
+    }
+   ],
+   "nachschub": [
+    {
+     "runde": 3,
+     "feinde": [
+      [
+       "schuetze",
+       [
+        6,
+        11
+       ]
+      ],
+      [
+       "roboter_kobra",
+       [
+        9,
+        22
+       ]
+      ]
+     ]
+    }
+   ],
+   "feinde": [
+    [
+     "agent",
+     [
+      4,
+      9
+     ]
+    ],
+    [
+     "agent",
+     [
+      6,
+      21
+     ]
+    ],
+    [
+     "hund",
+     [
+      12,
+      22
+     ]
+    ],
+    [
+     "roboter",
+     [
+      43,
+      15
+     ]
+    ],
+    [
+     "roboter",
+     [
+      43,
+      16
+     ]
+    ],
+    [
+     "drohne",
+     [
+      41,
+      15
+     ]
+    ]
+   ]
+  },
+  {
+   "id": 3,
+   "ausschnitt": [
+    3,
+    7,
+    33,
+    24
+   ],
+   "titel": "The Third Wave",
+   "szene": "welle_3",
+   "ende": "ende_3",
+   "par": 7,
+   "feuer": true,
+   "beats": [
+    {
+     "runde": 2,
+     "szene": "w3_post"
+    },
+    {
+     "runde": 3,
+     "szene": "w3_trio",
+     "bed": {
+      "flag": "rt_ausgang_alle"
+     }
+    },
+    {
+     "runde": 3,
+     "szene": "w3_dach_leer",
+     "bed": {
+      "nicht_flag": "rt_ausgang_alle"
+     }
+    },
+    {
+     "runde": 4,
+     "szene": "w3_pascal"
+    }
+   ],
+   "nachschub": [
+    {
+     "runde": 3,
+     "feinde": [
+      [
+       "gunner",
+       [
+        8,
+        20
+       ]
+      ],
+      [
+       "roboter_skorpion",
+       [
+        4,
+        13
+       ]
+      ]
+     ]
+    }
+   ],
+   "feinde": [
+    [
+     "brand",
+     [
+      6,
+      21
+     ]
+    ],
+    [
+     "brand",
+     [
+      9,
+      22
+     ]
+    ],
+    [
+     "brand",
+     [
+      5,
+      20
+     ]
+    ],
+    [
+     "gunner",
+     [
+      11,
+      21
+     ]
+    ],
+    [
+     "agent",
+     [
+      4,
+      9
+     ]
+    ],
+    [
+     "agent",
+     [
+      6,
+      11
+     ]
+    ]
+   ]
+  },
+  {
+   "id": 4,
+   "ausschnitt": [
+    3,
+    5,
+    44,
+    25
+   ],
+   "titel": "The Fourth Wave",
+   "szene": "welle_4",
+   "ende": "ende_4",
+   "par": 9,
+   "feuer": true,
+   "kapitaen": true,
+   "beats": [
+    {
+     "runde": 3,
+     "szene": "w4_1924",
+     "bed": {
+      "t": "dorf_rudert"
+     }
+    },
+    {
+     "runde": 3,
+     "szene": "w4_allein",
+     "bed": {
+      "nicht_t": "dorf_rudert"
+     }
+    }
+   ],
+   "nachschub": [
+    {
+     "runde": 3,
+     "feinde": [
+      [
+       "roboter_kobra",
+       [
+        8,
+        20
+       ]
+      ]
+     ]
+    },
+    {
+     "runde": 5,
+     "feinde": [
+      [
+       "roboter_skorpion",
+       [
+        5,
+        10
+       ]
+      ],
+      [
+       "schuetze",
+       [
+        4,
+        13
+       ]
+      ]
+     ]
+    }
+   ],
+   "feinde": [
+    [
+     "brand",
+     [
+      6,
+      21
+     ]
+    ],
+    [
+     "brand",
+     [
+      9,
+      22
+     ]
+    ],
+    [
+     "bonaventure",
+     [
+      12,
+      22
+     ]
+    ],
+    [
+     "brawler",
+     [
+      5,
+      20
+     ]
+    ],
+    [
+     "agent",
+     [
+      4,
+      9
+     ]
+    ],
+    [
+     "roboter",
+     [
+      43,
+      15
+     ]
+    ],
+    [
+     "roboter",
+     [
+      43,
+      16
+     ]
+    ],
+    [
+     "drohne",
+     [
+      41,
+      15
+     ]
+    ]
+   ]
+  },
+  {
+   "id": 5,
+   "ausschnitt": [
+    3,
+    5,
+    44,
+    25
+   ],
+   "titel": "The Fifth Wave",
+   "szene": "welle_5",
+   "ende": "falscher_sieg",
+   "par": 9,
+   "yacht_sinkt": true,
+   "beats": [
+    {
+     "runde": 3,
+     "szene": "w5_schlange"
+    }
+   ],
+   "nach_ende": {
+    "szene": "white_angebot",
+    "bed": {
+     "flag": "bl_funk_white"
+    }
+   },
+   "nachschub": [
+    {
+     "runde": 3,
+     "feinde": [
+      [
+       "roboter_kobra",
+       [
+        5,
+        20
+       ]
+      ],
+      [
+       "roboter_kobra",
+       [
+        28,
+        6
+       ]
+      ]
+     ]
+    },
+    {
+     "runde": 5,
+     "feinde": [
+      [
+       "roboter_skorpion",
+       [
+        4,
+        13
+       ]
+      ]
+     ]
+    }
+   ],
+   "feinde": [
+    [
+     "roboter_schwer",
+     [
+      43,
+      15
+     ]
+    ],
+    [
+     "roboter",
+     [
+      42,
+      15
+     ]
+    ],
+    [
+     "drohne",
+     [
+      41,
+      15
+     ]
+    ],
+    [
+     "agent",
+     [
+      4,
+      9
+     ]
+    ],
+    [
+     "agent",
+     [
+      6,
+      11
+     ]
+    ],
+    [
+     "brute",
+     [
+      6,
+      21
+     ]
+    ],
+    [
+     "agent",
+     [
+      9,
+      22
+     ]
+    ]
+   ]
+  },
+  {
+   "id": 6,
+   "ausschnitt": [
+    3,
+    3,
+    44,
+    26
+   ],
+   "titel": "The Last Wave",
+   "szene": "verrat",
+   "finale": true,
+   "yacht_sinkt": true,
+   "nachschub": [
+    {
+     "runde": 3,
+     "feinde": [
+      [
+       "roboter_kobra",
+       [
+        29,
+        5
+       ]
+      ]
+     ]
+    }
+   ],
+   "feinde": [
+    [
+     "white",
+     [
+      28,
+      6
+     ]
+    ],
+    [
+     "agent",
+     [
+      27,
+      6
+     ]
+    ],
+    [
+     "agent",
+     [
+      29,
+      6
+     ]
+    ],
+    [
+     "agent",
+     [
+      28,
+      5
+     ]
+    ],
+    [
+     "brute",
+     [
+      27,
+      5
+     ]
+    ],
+    [
+     "agent",
+     [
+      6,
+      21
+     ]
+    ],
+    [
+     "agent",
+     [
+      9,
+      22
+     ]
+    ],
+    [
+     "roboter_skorpion",
+     [
+      4,
+      9
+     ]
+    ],
+    [
+     "drohne",
+     [
+      43,
+      15
+     ]
+    ]
+   ]
+  }
+ ],
+ "szenen": {
+  "welle_1": [
+   [
+    "Holm",
+    "Three fronts: the south beach, the scrub in the west, and the sea. Today it is only dogs and agents.",
+    {
+     "gefuehl": "neutral"
+    }
+   ],
+   [
+    "Holm",
+    "Agents walk and dogs run. Hold the church. If they get the church, they have the village.",
+    {
+     "gefuehl": "disapproval"
+    }
+   ]
+  ],
+  "w1_legion": [
+   [
+    "Wolff",
+    "You asked for a line. The Legion brought one.",
+    {
+     "zu": [
+      6,
+      11
+     ],
+     "gefuehl": "pride",
+     "ton": "tk_schritte"
+    }
+   ]
+  ],
+  "w1_hund": [
+   [
+    "Chiara",
+    "Dog! On the left! It's going for whoever is bleeding!",
+    {
+     "gefuehl": "fear",
+     "ton": "rudel_hunde"
+    }
+   ]
+  ],
+  "w1_boote": [
+   [
+    "Totò",
+    "Comandante! More boats! Behind the first ones!",
+    {
+     "gefuehl": "surprise",
+     "ton": "tender_motor"
+    }
+   ]
+  ],
+  "ende_1": [
+   [
+    "Holm",
+    "They're pulling back. Faen. They didn't even try.",
+    {
+     "gefuehl": "disapproval"
+    }
+   ],
+   [
+    "Pascal",
+    "North is quiet. Leave it with me.",
+    {
+     "zu": [
+      28,
+      9
+     ],
+     "gefuehl": "approval"
+    }
+   ]
+  ],
+  "w2_elsa": [
+   [
+    "Elsa",
+    "Five years in a locker. It still fits. Don't say anything.",
+    {
+     "gefuehl": "pride",
+     "ton": "gun_reload"
+    }
+   ]
+  ],
+  "w2_deck": [
+   [
+    "Chiara",
+    "They're on my deck! That's a zero! A ZERO!",
+    {
+     "zu": [
+      43,
+      15
+     ],
+     "gefuehl": "anger",
+     "ton": "tk_roboter"
+    }
+   ]
+  ],
+  "w2_gewehr": [
+   [
+    "Holm",
+    "Something shines in the scrub. A rifle.",
+    {
+     "zu": [
+      6,
+      11
+     ],
+     "gefuehl": "curiosity"
+    }
+   ]
+  ],
+  "w3_post": [
+   [
+    "Petru",
+    "Hm. There are still people in the post office. Get them out before the roof goes.",
+    {
+     "zu": [
+      21,
+      13
+     ],
+     "gefuehl": "sadness",
+     "ton": "tk_haus_schreie"
+    }
+   ]
+  ],
+  "w3_trio": [
+   [
+    "Bibi",
+    "Ha ha! ...Sorry. I do that. Okay! Where's the fire? ...No, I can see it. Stupid question.",
+    {
+     "gefuehl": "nervousness",
+     "ton": "kampf_granate_wasser"
+    }
+   ]
+  ],
+  "w3_dach_leer": [
+   [
+    "Holm",
+    "Nobody on the west roofs today.",
+    {
+     "gefuehl": "disappointment"
+    }
+   ]
+  ],
+  "w3_pascal": [
+   [
+    "Pascal",
+    "Holm. The post office is burning. How long does this go on?",
+    {
+     "zu": [
+      28,
+      9
+     ],
+     "gefuehl": "nervousness",
+     "ton": "funk_rauschen"
+    }
+   ],
+   [
+    "Holm",
+    "Until they stop.",
+    {
+     "gefuehl": "disapproval"
+    }
+   ]
+  ],
+  "w4_1924": [
+   [
+    "",
+    "1924",
+    {
+     "art": "titel",
+     "ober": "Day 22 · Sunset",
+     "ziel": "The village rows out.",
+     "ton": "tk_glocke"
+    }
+   ],
+   [
+    "",
+    "Mina has knocked on every door. Petru stands in the first boat with his grandfather's oar, and Lea is in the second.",
+    {
+     "zu": [
+      43,
+      15
+     ],
+     "ton": "tk_rudern"
+    }
+   ],
+   [
+    "Petru",
+    "Hm. In 1924 my grandfather rowed out to the Margot. Tonight it's our turn.",
+    {
+     "gefuehl": "pride"
+    }
+   ],
+   [
+    "Lea",
+    "It was me, Petru. I sent the coordinates, and Alon saw them. It's my fault.",
+    {
+     "gefuehl": "sadness"
+    }
+   ],
+   [
+    "Petru",
+    "The sea doesn't ask whose fault. It asks who rows.",
+    {
+     "gefuehl": "caring"
+    }
+   ],
+   [
+    "Holm",
+    "The boats have turned across the bay. Nothing more is landing tonight.",
+    {
+     "gefuehl": "surprise"
+    }
+   ]
+  ],
+  "w4_allein": [
+   [
+    "Mina",
+    "They heard me. They just didn't open.",
+    {
+     "gefuehl": "disappointment"
+    }
+   ]
+  ],
+  "ligeia_singt": [
+   [
+    "Ligeia",
+    "I sang a ship to sleep once, and I thought that was all my voice could do. Tonight I sang for you, Duc.",
+    {
+     "gefuehl": "gratitude",
+     "ton": "tk_ligeia"
+    }
+   ]
+  ],
+  "w5_schlange": [
+   [
+    "Minicu",
+    "Does it hurt?",
+    {
+     "zu": [
+      28,
+      10
+     ],
+     "gefuehl": "confusion",
+     "ton": "tk_roboter"
+    }
+   ],
+   [
+    "Pascal",
+    "It's a machine, Minicu.",
+    {
+     "gefuehl": "amusement"
+    }
+   ],
+   [
+    "Minicu",
+    "Still.",
+    {
+     "gefuehl": "sadness"
+    }
+   ]
+  ],
+  "white_angebot": [
+   [
+    "",
+    "Holm is still counting. On Pascal's channel, very quietly, a calm voice speaks. Rosi's radio picks it up.",
+    {
+     "ton": "funk_rauschen"
+    }
+   ],
+   [
+    "Mr. White",
+    "Three days of fire, Pascal. You can end it tonight. Nobody gets hurt. You have my word.",
+    {
+     "gefuehl": "neutral"
+    }
+   ],
+   [
+    "",
+    "Pascal does not answer."
+   ]
+  ],
+  "welle_2": [
+   [
+    "Holm",
+    "The sun is going down, and they are back. There's a rifle in the west, and those shapes on the water are robots. Keep somebody close to the yacht.",
+    {
+     "gefuehl": "annoyance"
+    }
+   ]
+  ],
+  "ende_2": [
+   [
+    "Holm",
+    "That's the first day. Nobody goes home. Sleep where you can.",
+    {
+     "gefuehl": "approval"
+    }
+   ],
+   [
+    "Casanova",
+    "I have the paper again. Mr. Alon's man left it on the church step. He says one signature, and tomorrow nobody comes.",
+    {
+     "gefuehl": "disgust"
+    }
+   ],
+   [
+    "Casanova",
+    "I have not signed it. I want you to know that I read it twice.",
+    {
+     "gefuehl": "pride"
+    }
+   ],
+   [
+    "Casanova",
+    "Whoever brings these has beautiful handwriting. 'Madame la Maire'. Like an invitation.",
+    {
+     "gefuehl": "curiosity"
+    }
+   ]
+  ],
+  "welle_3": [
+   [
+    "Holm",
+    "New boats on the beach, and those aren't agents. They're pirates, with torches.",
+    {
+     "gefuehl": "surprise"
+    }
+   ],
+   [
+    "Buenaventura",
+    "I am Captain Buenaventura of The Eventually! This is nothing personal. I have debts.",
+    {
+     "gefuehl": "pride"
+    }
+   ],
+   [
+    "Petru",
+    "Hm. They are lighting the houses, and there are people inside. Stand next to a burning house and get them out.",
+    {
+     "gefuehl": "anger"
+    }
+   ]
+  ],
+  "ende_3": [
+   [
+    "Totò",
+    "They're going back to the boats! ...The captain isn't. He's just sitting out there, Comandante.",
+    {
+     "gefuehl": "surprise"
+    }
+   ]
+  ],
+  "welle_4": [
+   [
+    "Holm",
+    "All of them this time. Pirates on the beach, robots on the water, a drone in the sky.",
+    {
+     "gefuehl": "anger"
+    }
+   ],
+   [
+    "Buenaventura",
+    "Today I pay what I owe! Men, the houses!",
+    {
+     "gefuehl": "pride"
+    }
+   ]
+  ],
+  "ende_4": [
+   [
+    "Holm",
+    "Two days. The bay is ours for one more night. Mend what you can in the morning.",
+    {
+     "gefuehl": "approval"
+    }
+   ],
+   [
+    "Casanova",
+    "The paper was on the step again. It has a new line now: the same offer, and the pirates are gone. As if they were ever his to send away.",
+    {
+     "gefuehl": "disgust"
+    }
+   ],
+   [
+    "Casanova",
+    "I lit the stove with it.",
+    {
+     "gefuehl": "pride"
+    }
+   ],
+   [
+    "",
+    "Pascal stands next to her while the paper burns, and looks away.",
+    {
+     "ton": "tk_papier"
+    }
+   ]
+  ],
+  "welle_5": [
+   [
+    "Holm",
+    "A heavy robot on the water, and a very big man on the beach who doesn't care about you at all. He wants the church. Stop him first.",
+    {
+     "gefuehl": "fear"
+    }
+   ]
+  ],
+  "bonaventure_gibt_auf": [
+   [
+    "Buenaventura",
+    "There are people in that house. Nobody told me there were people in that house.",
+    {
+     "gefuehl": "fear"
+    }
+   ],
+   [
+    "Buenaventura",
+    "We rob ships. We do not burn grandmothers. Men! Torches out! Tell Mr. White he can keep his money.",
+    {
+     "gefuehl": "anger"
+    }
+   ],
+   [
+    "Buenaventura",
+    "Clean money. White pays in clean money, like a bank. Ask yourself who has a bank.",
+    {
+     "gefuehl": "disgust",
+     "ton": "geld_ein"
+    }
+   ],
+   [
+    "Holm",
+    "The pirates are dropping their weapons. Finish the rest.",
+    {
+     "gefuehl": "surprise"
+    }
+   ]
+  ],
+  "manoever_start": [
+   [
+    "Holm",
+    "The fishermen play the agents, and Unit-01 plays the robots. Nobody gets hurt today, and you cannot lose. Move a troop to a lit field, then attack.",
+    {
+     "gefuehl": "neutral"
+    }
+   ]
+  ],
+  "manoever_ende": [
+   [
+    "Holm",
+    "Good enough. Now you know where it hurts.",
+    {
+     "gefuehl": "approval"
+    }
+   ],
+   [
+    "Megan",
+    "That's the first number that looks better than a hundred. Keep going, and I'll tell you the rest at the war council.",
+    {
+     "gefuehl": "approval"
+    }
+   ]
+  ],
+  "falscher_sieg": [
+   [
+    "Maxwell",
+    "Eish! Look at them run! Mr. Maximum is undefeated!",
+    {
+     "gefuehl": "excitement"
+    }
+   ],
+   [
+    "Petru",
+    "Hm.",
+    {
+     "gefuehl": "neutral"
+    }
+   ],
+   [
+    "Chiara",
+    "Did we do it? Tell me we did it.",
+    {
+     "gefuehl": "excitement"
+    }
+   ],
+   [
+    "Holm",
+    "Stay at your places. I want to count them first. Nobody celebrates until I say so.",
+    {
+     "gefuehl": "disapproval"
+    }
+   ]
+  ],
+  "verrat": [
+   [
+    "Pascal",
+    "It ends tonight. I'm sorry. It ends tonight.",
+    {
+     "zu": [
+      28,
+      9
+     ],
+     "gefuehl": "sadness"
+    }
+   ],
+   [
+    "Minicu",
+    "Pascal? You sent me down here. Why is the north open?",
+    {
+     "zu": [
+      29,
+      15
+     ],
+     "gefuehl": "confusion"
+    }
+   ],
+   [
+    "Alva",
+    "Pascal, no. Close it! Close it!",
+    {
+     "zu": [
+      23,
+      14
+     ],
+     "gefuehl": "fear"
+    }
+   ],
+   [
+    "Mr. White",
+    "Thank you. Now step aside.",
+    {
+     "zu": [
+      28,
+      6
+     ],
+     "gefuehl": "neutral"
+    }
+   ],
+   [
+    "",
+    "The Last Wave",
+    {
+     "art": "titel",
+     "ober": "Day 23 · Sunset",
+     "ziel": "Mr. White walks to the church. You lose if he gets there or you go down.",
+     "ton": "tk_glocke"
+    }
+   ],
+   [
+    "Holm",
+    "The north is open. Faen. That's the one side I wasn't worried about.",
+    {
+     "gefuehl": "anger"
+    }
+   ],
+   [
+    "",
+    "Alva has Pascal in her sights. The shotgun goes off.",
+    {
+     "zu": [
+      23,
+      14
+     ],
+     "ton": "tk_flinte"
+    }
+   ],
+   [
+    "Holm",
+    "She missed. Alva doesn't miss.",
+    {
+     "gefuehl": "surprise"
+    }
+   ],
+   [
+    "Holm",
+    "...The quiet side. Megan tried to tell us.",
+    {
+     "gefuehl": "sadness"
+    }
+   ],
+   [
+    "Holm",
+    "White is walking, and nothing stops him while the giant holds the gate. Everybody else, hold them off.",
+    {
+     "gefuehl": "anger"
+    }
+   ]
+  ],
+  "pascal_geht": [
+   [
+    "Pascal",
+    "I can't watch this. I can't.",
+    {
+     "gefuehl": "sadness"
+    }
+   ],
+   [
+    "Holm",
+    "Pascal just left the gate. He's gone in between the houses. I can't see him anymore. We don't have time to look for him.",
+    {
+     "gefuehl": "disgust",
+     "ton": "tk_schritte"
+    }
+   ]
+  ],
+  "danzel_flieht": [
+   [
+    "Mr. White",
+    "Danzel. Lovely stitching.",
+    {
+     "gefuehl": "amusement"
+    }
+   ],
+   [
+    "Danzel",
+    "This isn't over! This is a – a tactical retreat!",
+    {
+     "gefuehl": "fear"
+    }
+   ],
+   [
+    "Holm",
+    "Your tailor just left through a window.",
+    {
+     "gefuehl": "annoyance"
+    }
+   ]
+  ],
+  "alva_faellt": [
+   [
+    "Mr. White",
+    "The woman with the shotgun. Then the church.",
+    {
+     "gefuehl": "neutral"
+    }
+   ],
+   [
+    "Holm",
+    "Alva's group is down. I can't see if they're moving. Duc, make a decision.",
+    {
+     "gefuehl": "fear",
+     "ton": "tk_ko"
+    }
+   ]
+  ],
+  "mochi": [
+   [
+    "Bibi",
+    "MOCHI?! That's my boy! That's my big stupid boy!",
+    {
+     "gefuehl": "excitement"
+    }
+   ],
+   [
+    "Mr. White",
+    "A pet. How sweet.",
+    {
+     "gefuehl": "amusement"
+    }
+   ],
+   [
+    "Bibi",
+    "Not today!",
+    {
+     "gefuehl": "anger"
+    }
+   ],
+   [
+    "Holm",
+    "Smoke on the square. The lion is gone. But White had to stop and wait.",
+    {
+     "gefuehl": "surprise"
+    }
+   ]
+  ],
+  "mochi_allein": [
+   [
+    "Holm",
+    "A lion just came out of the scrub and went straight for White. I am not joking.",
+    {
+     "gefuehl": "surprise"
+    }
+   ],
+   [
+    "Mr. White",
+    "A pet. How sweet.",
+    {
+     "gefuehl": "amusement"
+    }
+   ],
+   [
+    "Holm",
+    "It's hurt, and it's running. But White had to stop and wait.",
+    {
+     "gefuehl": "sadness"
+    }
+   ]
+  ],
+  "minicu_faellt": [
+   [
+    "",
+    "White comes down the lane, slowly. Minicu steps into his way and lowers the axe.",
+    {
+     "zu": [
+      29,
+      15
+     ],
+     "ton": "tk_schritte"
+    }
+   ],
+   [
+    "Minicu",
+    "You can't come in. Pascal said hold the gate.",
+    {
+     "gefuehl": "disapproval"
+    }
+   ],
+   [
+    "Minicu",
+    "Does it hurt? When you do this? To people?",
+    {
+     "gefuehl": "confusion"
+    }
+   ],
+   [
+    "Mr. White",
+    "No.",
+    {
+     "gefuehl": "neutral"
+    }
+   ],
+   [
+    "Minicu",
+    "Then I'm sorry for you.",
+    {
+     "gefuehl": "sadness"
+    }
+   ],
+   [
+    "",
+    "One blow. Then only the sound of the axe on the stones.",
+    {
+     "ton": "tk_minicu_fall"
+    }
+   ],
+   [
+    "Holm",
+    "He's down. One hit. Only one.",
+    {
+     "gefuehl": "sadness"
+    }
+   ],
+   [
+    "Lola",
+    "Minicu? MINICU! No, no, no, mate, get up – that's my Minicu, he eats all my leftovers, he –",
+    {
+     "gefuehl": "fear"
+    }
+   ],
+   [
+    "Jana",
+    "Jessas – Minicu! Get up! Please get up, you said I don't have to say sorry –",
+    {
+     "gefuehl": "sadness"
+    }
+   ],
+   [
+    "",
+    "Yasin has his camera on Minicu. Siri pushes it down, slowly.",
+    {
+     "ton": "kamera_ausloeser"
+    }
+   ],
+   [
+    "Siri",
+    "Not like this. Not him.",
+    {
+     "gefuehl": "sadness"
+    }
+   ],
+   [
+    "",
+    "Pascal comes out from between the houses and kneels next to him."
+   ],
+   [
+    "Minicu",
+    "Pascal. Did I hold it? Did I do good?",
+    {
+     "gefuehl": "sadness"
+    }
+   ],
+   [
+    "",
+    "What do you do?",
+    {
+     "art": "wahl",
+     "standard": 1,
+     "optionen": [
+      {
+       "text": "Kneels next to him first. “You held it, Minicu. You did good.”",
+       "flag": "bl_minicu_duc_zuerst",
+       "dann": [
+        [
+         "Duc",
+         "You held it, Minicu. You did good."
+        ],
+        [
+         "Pascal",
+         "...He did."
+        ]
+       ]
+      },
+      {
+       "text": "Waits.",
+       "flag": "bl_minicu_gewartet",
+       "dann": [
+        [
+         "Pascal",
+         "You did good, Minicu. You did so good."
+        ]
+       ]
+      },
+      {
+       "text": "Looks at Pascal. “Say it to him.”",
+       "flag": "bl_minicu_sag_es",
+       "dann": [
+        [
+         "Duc",
+         "Say it to him."
+        ],
+        [
+         "Pascal",
+         "You did good, Minicu. You did so good."
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   [
+    "Pascal",
+    "You gave me your word. Nobody gets hurt.",
+    {
+     "gefuehl": "sadness"
+    }
+   ],
+   [
+    "Mr. White",
+    "You didn't really think we'd hold back?",
+    {
+     "gefuehl": "neutral"
+    }
+   ],
+   [
+    "Casanova",
+    "Pascal! You always clapped first! Every speech, every pause, you were the first! And you opened that gate!",
+    {
+     "gefuehl": "anger"
+    }
+   ],
+   [
+    "",
+    "Pascal looks at her. He says nothing, and he follows White."
+   ],
+   [
+    "",
+    "A folded sheet has fallen out of Minicu's shirt pocket. MINICU at the top in a careful hand, and twice below it, crooked.",
+    {
+     "ton": "hinweis_gefunden"
+    }
+   ],
+   [
+    "Holm",
+    "Frankfurt. The gate's open, and he's walking to the church. It's you now.",
+    {
+     "gefuehl": "sadness"
+    }
+   ]
+  ],
+  "minicu_nachtwache": [
+   [
+    "Minicu",
+    "You came. Thank you.",
+    {
+     "gefuehl": "gratitude"
+    }
+   ]
+  ],
+  "holm_ohne_wache": [
+   [
+    "Holm",
+    "I told you to send somebody. I should have told myself.",
+    {
+     "gefuehl": "disappointment"
+    }
+   ]
+  ],
+  "kevin_fliegt": [
+   [
+    "",
+    "On the gate, Kevin the seagull spreads his wings and flies away.",
+    {
+     "ton": "tk_kevin"
+    }
+   ]
+  ],
+  "casanova": [
+   [
+    "Casanova",
+    "I will not hide in there while you fight on my square.",
+    {
+     "gefuehl": "anger"
+    }
+   ],
+   [
+    "Mr. White",
+    "Madame Mayor. What will you do, make a speech?",
+    {
+     "gefuehl": "amusement"
+    }
+   ],
+   [
+    "Duc",
+    "He's right. We need you. In there, with them, standing up."
+   ],
+   [
+    "Casanova",
+    "Then take this. It's the last one. Hit him hard.",
+    {
+     "gefuehl": "caring",
+     "ton": "heilung"
+    }
+   ]
+  ],
+  "white_warnung_danzel": [
+   [
+    "Danzel",
+    "Duc! WAIT! I came back! Don't look at me! Before you walk over there, you must hear the terrible truth!",
+    {
+     "gefuehl": "fear"
+    }
+   ],
+   [
+    "Duc",
+    "Danzel, we're in the middle of a war."
+   ],
+   [
+    "Danzel",
+    "I saw that man's file at Alon's plant. I was not allowed to read it. So I read it twice.",
+    {
+     "gefuehl": "nervousness"
+    }
+   ],
+   [
+    "Danzel",
+    "UFC champion! Eleven years! Nobody has ever come back for round two!",
+    {
+     "gefuehl": "fear"
+    }
+   ],
+   [
+    "Duc",
+    "He's in his fifties."
+   ],
+   [
+    "Danzel",
+    "THAT'S WHAT THE LAST ONE SAID!",
+    {
+     "gefuehl": "fear"
+    }
+   ],
+   [
+    "Danzel",
+    "A black belt in karate! A black belt in taekwondo! AND!",
+    {
+     "gefuehl": "fear"
+    }
+   ],
+   [
+    "",
+    "He stops. His knees are shaking."
+   ],
+   [
+    "Danzel",
+    "...a black belt in Six Sigma.",
+    {
+     "gefuehl": "fear"
+    }
+   ],
+   [
+    "Duc",
+    "That's an office course. For factories."
+   ],
+   [
+    "Danzel",
+    "HE CUT WASTE IN THIS COMPANY BY FORTY PERCENT, DUC! DO YOU KNOW WHAT \"WASTE\" MEANS TO THAT MAN?!",
+    {
+     "gefuehl": "fear"
+    }
+   ],
+   [
+    "Danzel",
+    "I would come with you! But I have a rare illness. When I see a white suit, my legs leave. This isn't over! This is a –",
+    {
+     "gefuehl": "embarrassment"
+    }
+   ],
+   [
+    "",
+    "He looks at the church, and his voice drops."
+   ],
+   [
+    "Danzel",
+    "No. Go. I'll hold the door. Just don't die, okay? I already made your funeral suit, and it's too good to use.",
+    {
+     "gefuehl": "caring"
+    }
+   ],
+   [
+    "Mr. White",
+    "He's right about the belts. Six Sigma allows three point four errors in a million. You are one of them. I'm fixing it.",
+    {
+     "gefuehl": "amusement"
+    }
+   ]
+  ],
+  "white_warnung_holm": [
+   [
+    "Holm",
+    "Before you walk over there. Megan sent me a threat file on him, just before the screen went dark. You'll want to hear this.",
+    {
+     "gefuehl": "nervousness",
+     "ton": "funk_rauschen"
+    }
+   ],
+   [
+    "Holm",
+    "UFC champion for eleven years, and nobody ever came back for round two. A black belt in karate, a black belt in taekwondo, and...",
+    {
+     "gefuehl": "neutral"
+    }
+   ],
+   [
+    "Holm",
+    "...Six Sigma. I don't know why this is in the threat file.",
+    {
+     "gefuehl": "confusion"
+    }
+   ],
+   [
+    "Duc",
+    "That's an office course. For factories."
+   ],
+   [
+    "Holm",
+    "It says he cut waste in Alon's company by forty percent. Think about what that man calls waste.",
+    {
+     "gefuehl": "disgust"
+    }
+   ],
+   [
+    "Mr. White",
+    "I can hear your radio. The file is correct. Six Sigma allows three point four errors in a million. You are one of them. I'm fixing it.",
+    {
+     "gefuehl": "amusement",
+     "ton": "funk_rauschen"
+    }
+   ]
+  ],
+  "sieg": [
+   [
+    "Mr. White",
+    "This is only a pause in the meeting.",
+    {
+     "gefuehl": "annoyance"
+    }
+   ],
+   [
+    "Holm",
+    "His people are carrying him off. They're leaving. All of them.",
+    {
+     "gefuehl": "surprise"
+    }
+   ],
+   [
+    "Holm",
+    "Nobody can find Pascal. And I have no word on Alva's group yet.",
+    {
+     "gefuehl": "sadness"
+    }
+   ],
+   [
+    "Casanova",
+    "Ring the bell. Ring it! Cala d'Orsu is still here.",
+    {
+     "gefuehl": "pride"
+    }
+   ]
+  ],
+  "verloren_kirche": [
+   [
+    "Holm",
+    "They're inside the church. Duc, it's over.",
+    {
+     "gefuehl": "sadness"
+    }
+   ]
+  ],
+  "verloren_duc": [
+   [
+    "Holm",
+    "Duc is down. Nobody is holding them. It's over.",
+    {
+     "gefuehl": "fear"
+    }
+   ]
+  ],
+  "funk_chiara_1": [
+   [
+    "Chiara",
+    "First Officer, your coffee is on the bridge. It's a six. Drink it anyway.",
+    {
+     "gefuehl": "annoyance",
+     "ton": "funk_rauschen"
+    }
+   ]
+  ],
+  "funk_chiara_2": [
+   [
+    "Chiara",
+    "First Officer, keep your head down today. That's an order, and I don't care who outranks who.",
+    {
+     "gefuehl": "caring",
+     "ton": "funk_rauschen"
+    }
+   ]
+  ],
+  "funk_chiara_3": [
+   [
+    "Chiara",
+    "Duc. First Officer. Come back in one piece. I'm still saving my ten.",
+    {
+     "gefuehl": "caring",
+     "ton": "funk_rauschen"
+    }
+   ]
+  ],
+  "funk_sophia_1": [
+   [
+    "Sophia",
+    "Duc, ten euros says you're back before dinner. Please don't make me lose.",
+    {
+     "gefuehl": "amusement",
+     "ton": "funk_rauschen"
+    }
+   ]
+  ],
+  "funk_sophia_2": [
+   [
+    "Sophia",
+    "Darling, I've kept your seat at breakfast. Nobody else is allowed it, so come back and sit in it.",
+    {
+     "gefuehl": "caring",
+     "ton": "funk_rauschen"
+    }
+   ]
+  ],
+  "funk_sophia_3": [
+   [
+    "Sophia",
+    "Duc. I wrote one line last night, and you're in it. I'd like the chapter to go on.",
+    {
+     "gefuehl": "caring",
+     "ton": "funk_rauschen"
+    }
+   ]
+  ],
+  "funk_lea_1": [
+   [
+    "Lea",
+    "Duc! Did you know an octopus has three hearts? So you've got no excuse. Come back.",
+    {
+     "gefuehl": "excitement",
+     "ton": "funk_rauschen"
+    }
+   ]
+  ],
+  "funk_lea_2": [
+   [
+    "Lea",
+    "Two fingers, Duc. Stay together. You know what it means.",
+    {
+     "gefuehl": "caring",
+     "ton": "funk_rauschen"
+    }
+   ]
+  ],
+  "funk_lea_3": [
+   [
+    "Lea",
+    "Duc, I'm not saying anything clever today. Just come back. Proper come back.",
+    {
+     "gefuehl": "caring",
+     "ton": "funk_rauschen"
+    }
+   ]
+  ],
+  "funk_rosi_1": [
+   [
+    "Rosi",
+    "Officer, I checked your blade last night. If it breaks today, that's on you, not me.",
+    {
+     "gefuehl": "annoyance",
+     "ton": "funk_rauschen"
+    }
+   ]
+  ],
+  "funk_rosi_2": [
+   [
+    "Rosi",
+    "Officer. Same time on the stopwatch, remember? Nobody's allowed to lose today.",
+    {
+     "gefuehl": "caring",
+     "ton": "funk_rauschen"
+    }
+   ]
+  ],
+  "funk_rosi_3": [
+   [
+    "Rosi",
+    "Captain. ...Don't make me say it twice. Come back.",
+    {
+     "gefuehl": "caring",
+     "ton": "funk_rauschen"
+    }
+   ]
+  ],
+  "funk_siri_1": [
+   [
+    "Siri",
+    "Duc? No camera today. I'm watching you with my own eyes, so be careful.",
+    {
+     "gefuehl": "caring",
+     "ton": "funk_rauschen"
+    }
+   ]
+  ],
+  "funk_siri_2": [
+   [
+    "Siri",
+    "Duc, I'm not filming you. I want to remember this one myself.",
+    {
+     "gefuehl": "caring",
+     "ton": "funk_rauschen"
+    }
+   ]
+  ],
+  "funk_siri_3": [
+   [
+    "Siri",
+    "Duc. In my own voice: please come back to me.",
+    {
+     "gefuehl": "caring",
+     "ton": "funk_rauschen"
+    }
+   ]
+  ],
+  "funk_lola_1": [
+   [
+    "Lola",
+    "Boss? Come back for dinner. I mean it.",
+    {
+     "gefuehl": "caring",
+     "ton": "funk_rauschen"
+    }
+   ]
+  ],
+  "funk_lola_2": [
+   [
+    "Lola",
+    "Boss, I've saved you the good bread. Mostly the good bread. Don't make me eat it alone.",
+    {
+     "gefuehl": "caring",
+     "ton": "funk_rauschen"
+    }
+   ]
+  ],
+  "funk_lola_3": [
+   [
+    "Lola",
+    "Boss. I didn't burn breakfast this morning, not once. So come back and see what else I can do.",
+    {
+     "gefuehl": "caring",
+     "ton": "funk_rauschen"
+    }
+   ]
+  ],
+  "funk_alva_1": [
+   [
+    "Alva",
+    "Duc, your tab is still open. Nobody leaves my bar with an open tab.",
+    {
+     "gefuehl": "amusement",
+     "ton": "funk_rauschen"
+    }
+   ]
+  ],
+  "funk_alva_2": [
+   [
+    "Alva",
+    "Duc. Nobody's mine, I keep saying it. Come back anyway.",
+    {
+     "gefuehl": "caring",
+     "ton": "funk_rauschen"
+    }
+   ]
+  ],
+  "funk_alva_3": [
+   [
+    "Alva",
+    "Duc. I'll keep the light on over the bar. Don't make me turn it off.",
+    {
+     "gefuehl": "caring",
+     "ton": "funk_rauschen"
+    }
+   ]
+  ]
+ },
+ "briefing": {
+  "1": {
+   "kurz": "Someone south, someone west. Don't let the dogs reach the wounded.",
+   "zeilen": [
+    {
+     "art": "titel",
+     "ober": "Day 21 · Afternoon",
+     "text": "The First Wave",
+     "ziel": "Defeat them all. You lose if the church falls or you go down."
+    },
+    {
+     "wer": "Holm",
+     "text": "I wanted to be on that quay. Fine. I can see all of you from here, so nobody gets to be stupid.",
+     "gefuehl": "annoyance"
+    },
+    {
+     "wer": "Holm",
+     "text": "Boats on the south beach. Agents with batons, and dogs in collars. A dog runs past you and goes for whoever is bleeding.",
+     "zu": [
+      9,
+      22
+     ],
+     "zeigt": [
+      "agent",
+      "hund"
+     ],
+     "gefuehl": "neutral"
+    },
+    {
+     "wer": "Wolff",
+     "text": "More in the scrub to the west. On the road you are fast. In the trees they cannot see you until they are close.",
+     "zu": [
+      6,
+      11
+     ],
+     "zeigt": [
+      "agent",
+      "hund"
+     ],
+     "gefuehl": "pride"
+    },
+    {
+     "wer": "Holm",
+     "text": "They want the church. Casanova is inside, with the children and the old people. If it falls, we have lost.",
+     "zu": [
+      25,
+      15
+     ],
+     "gefuehl": "caring"
+    },
+    {
+     "wer": "Holm",
+     "text": "And far out on the water, behind them, more boats. Not here yet, but they are coming.",
+     "gefuehl": "curiosity"
+    },
+    {
+     "wer": "",
+     "text": "A number on the map means more enemies are on the way. It counts the rounds until they arrive."
+    },
+    {
+     "wer": "Holm",
+     "text": "Put your people on the lit squares, one south and one west. Then say begin.",
+     "gefuehl": "approval"
+    }
+   ]
+  },
+  "2": {
+   "kurz": "Keep somebody heavy at the yacht. More are coming from the west.",
+   "zeilen": [
+    {
+     "art": "titel",
+     "ober": "Day 21 · Sunset",
+     "text": "The Second Wave",
+     "ziel": "Defeat them all. You lose if the church falls or you go down."
+    },
+    {
+     "wer": "Holm",
+     "text": "Two robots on the water, and they want the yacht. If nobody stands near it, they tear it open.",
+     "zu": [
+      43,
+      15
+     ],
+     "zeigt": [
+      "roboter"
+     ],
+     "gefuehl": "nervousness"
+    },
+    {
+     "wer": "Rosi",
+     "text": "They are slow and thick. Send someone heavy. A taser does nothing to them.",
+     "gefuehl": "anger",
+     "zu": [
+      43,
+      16
+     ],
+     "zeigt": [
+      "roboter"
+     ],
+     "wenn": "rosi",
+     "sonst": {
+      "wer": "Mr. Maximum",
+      "text": "Number One. Mr. Maximum will explain the mop to them. A taser does nothing to them.",
+      "gefuehl": "anger"
+     }
+    },
+    {
+     "wer": "Holm",
+     "text": "That drone sees everyone, also in the trees. It goes for whoever has the thinnest armour.",
+     "zu": [
+      41,
+      15
+     ],
+     "zeigt": [
+      "drohne"
+     ],
+     "gefuehl": "disapproval"
+    },
+    {
+     "wer": "Holm",
+     "text": "Agents and a dog again, south and west. And further back in the scrub, something shines. A rifle, I think. It will be here soon.",
+     "zu": [
+      6,
+      11
+     ],
+     "zeigt": [
+      "agent",
+      "hund",
+      "schuetze"
+     ],
+     "gefuehl": "curiosity"
+    },
+    {
+     "wer": "Chiara",
+     "text": "Something is moving on the beach behind them. A snake. Made of steel. One star. My taser does nothing to it.",
+     "gefuehl": "anger",
+     "zu": [
+      9,
+      22
+     ],
+     "zeigt": [
+      "roboter_kobra"
+     ]
+    },
+    {
+     "wer": "Holm",
+     "text": "One troop at the yacht, one in the west, one on the beach. Places.",
+     "gefuehl": "approval"
+    }
+   ]
+  },
+  "3": {
+   "kurz": "Torches first. Stand next to a burning house and get them out.",
+   "zeilen": [
+    {
+     "art": "titel",
+     "ober": "Day 22 · Afternoon",
+     "text": "The Third Wave",
+     "ziel": "Defeat them all, and get people out of the burning houses. You lose if the church falls or you go down."
+    },
+    {
+     "wer": "Buenaventura",
+     "text": "I am Captain Buenaventura of The Eventually! This is nothing personal. I have debts.",
+     "zu": [
+      9,
+      22
+     ],
+     "zeigt": [
+      "brand",
+      "gunner"
+     ],
+     "gefuehl": "pride"
+    },
+    {
+     "wer": "Holm",
+     "text": "That flag. Frankfurt, that's your man from the wreck. And he's not paying for those torches himself.",
+     "zu": [
+      9,
+      22
+     ],
+     "gefuehl": "disgust"
+    },
+    {
+     "wer": "Holm",
+     "text": "Pirates with torches. They run to the houses, and they make them burn faster. The gunner shoots from two fields away.",
+     "zu": [
+      5,
+      20
+     ],
+     "zeigt": [
+      "brand",
+      "gunner"
+     ],
+     "gefuehl": "anger"
+    },
+    {
+     "wer": "Petru",
+     "text": "Hm. There are people in those houses. Stand next to a burning house and get them out. It costs that troop's action.",
+     "zu": [
+      21,
+      13
+     ],
+     "gefuehl": "sadness"
+    },
+    {
+     "wer": "Holm",
+     "text": "Agents in the west. Further out I see another boat with a gunner, and something small and fast in the scrub. It goes for the thinnest armour.",
+     "zu": [
+      4,
+      13
+     ],
+     "zeigt": [
+      "agent",
+      "roboter_skorpion"
+     ],
+     "gefuehl": "curiosity"
+    },
+    {
+     "wer": "Holm",
+     "text": "Stop the torches first. Then the rest. Places.",
+     "gefuehl": "approval"
+    }
+   ]
+  },
+  "4": {
+   "kurz": "Beat the captain and his men stop. Keep somebody at the yacht.",
+   "zeilen": [
+    {
+     "art": "titel",
+     "ober": "Day 22 · Sunset",
+     "text": "The Fourth Wave",
+     "ziel": "Defeat them all, and get people out of the burning houses. You lose if the church falls or you go down."
+    },
+    {
+     "wer": "Buenaventura",
+     "text": "Today I pay what I owe! Men, the houses!",
+     "zu": [
+      12,
+      22
+     ],
+     "zeigt": [
+      "bonaventure",
+      "brand",
+      "brawler"
+     ],
+     "gefuehl": "pride"
+    },
+    {
+     "wer": "Holm",
+     "text": "That's the captain, and he has come himself. Beat him, and his men stop fighting.",
+     "zu": [
+      12,
+      22
+     ],
+     "zeigt": [
+      "bonaventure"
+     ],
+     "gefuehl": "anger"
+    },
+    {
+     "wer": "Holm",
+     "text": "Two robots and a drone at the yacht again.",
+     "zu": [
+      43,
+      15
+     ],
+     "zeigt": [
+      "roboter",
+      "drohne"
+     ],
+     "gefuehl": "annoyance"
+    },
+    {
+     "wer": "Mr. Maximum",
+     "text": "Number One. Mr. Maximum will stand on the pier. On the pier, he strikes back twice.",
+     "gefuehl": "anger",
+     "zu": [
+      39,
+      17
+     ]
+    },
+    {
+     "wer": "Holm",
+     "text": "Don't look only at the sea. Something made of steel is moving on the beach behind them. And far back in the west, a rifle and something small. They come later.",
+     "zu": [
+      5,
+      10
+     ],
+     "zeigt": [
+      "roboter_kobra",
+      "roboter_skorpion",
+      "schuetze"
+     ],
+     "gefuehl": "nervousness"
+    },
+    {
+     "wer": "Holm",
+     "text": "The captain, the robots, the fires. You choose the order, but choose fast. Places.",
+     "gefuehl": "approval"
+    }
+   ]
+  },
+  "5": {
+   "kurz": "Stop the big man first. Pascal and Minicu hold the north.",
+   "zeilen": [
+    {
+     "art": "titel",
+     "ober": "Day 23 · Afternoon",
+     "text": "The Fifth Wave",
+     "ziel": "Defeat them all. You lose if the church falls or you go down."
+    },
+    {
+     "wer": "Holm",
+     "text": "A heavy robot on the water, with a smaller one and a drone.",
+     "zu": [
+      43,
+      15
+     ],
+     "zeigt": [
+      "roboter_schwer",
+      "roboter",
+      "drohne"
+     ],
+     "gefuehl": "nervousness"
+    },
+    {
+     "wer": "Rosi",
+     "text": "The big one is mine. Its armour stops nearly everything. It does not stop me.",
+     "gefuehl": "anger",
+     "zu": [
+      43,
+      15
+     ],
+     "zeigt": [
+      "roboter_schwer"
+     ],
+     "wenn": "rosi",
+     "sonst": {
+      "wer": "Mr. Maximum",
+      "text": "The big one is for Mr. Maximum. Nobody else will scratch it.",
+      "gefuehl": "anger"
+     }
+    },
+    {
+     "wer": "Holm",
+     "text": "A very big man on the beach, and he doesn't care about you at all. He walks straight to the church. Stop him first.",
+     "zu": [
+      6,
+      21
+     ],
+     "zeigt": [
+      "brute"
+     ],
+     "gefuehl": "fear"
+    },
+    {
+     "wer": "Holm",
+     "text": "Behind them I see steel snakes. One on the beach, one on the north road. And later, something small in the west.",
+     "zu": [
+      28,
+      6
+     ],
+     "zeigt": [
+      "roboter_kobra",
+      "roboter_skorpion"
+     ],
+     "gefuehl": "nervousness"
+    },
+    {
+     "wer": "Pascal",
+     "text": "Leave the north to Minicu and me. Nothing comes through here unless I let it.",
+     "zu": [
+      28,
+      9
+     ],
+     "gefuehl": "neutral"
+    },
+    {
+     "wer": "Minicu",
+     "text": "I hold. Pascal said so.",
+     "zu": [
+      28,
+      10
+     ],
+     "gefuehl": "pride"
+    },
+    {
+     "wer": "Holm",
+     "text": "Good. Send one troop up there anyway, if you can spare one. Church first, yacht second. Places.",
+     "gefuehl": "approval"
+    }
+   ]
+  }
+ },
+ "appell": {
+  "start": "All stations. Check in.",
+  "ende": "Frankfurt. It's yours.",
+  "stille": "Nothing on the radio.",
+  "zeilen": {
+   "maxwell": "Eish. Mr. Maximum is still standing, brother. Mr. Maximum is very angry.",
+   "chiara": "Still here! That's a nine, and I want it written down.",
+   "wolff": "Legion holds.",
+   "elsa": "Section nine, present.",
+   "rosi": "Still standing, Officer. The big one isn't. If anybody tells Unit-01 I cried, they're next.",
+   "bibi": "Here! Ha! ...Still here.",
+   "yamamoto": "Present, Officer-san. So sorry. Still alive."
+  },
+  "lola": "Galley, still here, Boss! Kettle's on. Come back and drink it.",
+  "gefallen": [
+   "alva",
+   "minicu"
+  ],
+  "gefuehl": {
+   "start": "pride",
+   "ende": "pride",
+   "lola": "caring",
+   "name": "sadness",
+   "zeilen": {
+    "maxwell": "anger",
+    "chiara": "pride",
+    "wolff": "pride",
+    "elsa": "pride",
+    "rosi": "annoyance",
+    "bibi": "nervousness",
+    "yamamoto": "approval"
+   }
+  }
+ },
+ "funk": {
+  "chiara": [
+   "First Officer, your coffee is on the bridge. It's a six. Drink it anyway.",
+   "First Officer, keep your head down today. That's an order, and I don't care who outranks who.",
+   "Duc. First Officer. Come back in one piece. I'm still saving my ten."
+  ],
+  "sophia": [
+   "Duc, ten euros says you're back before dinner. Please don't make me lose.",
+   "Darling, I've kept your seat at breakfast. Nobody else is allowed it, so come back and sit in it.",
+   "Duc. I wrote one line last night, and you're in it. I'd like the chapter to go on."
+  ],
+  "lea": [
+   "Duc! Did you know an octopus has three hearts? So you've got no excuse. Come back.",
+   "Two fingers, Duc. Stay together. You know what it means.",
+   "Duc, I'm not saying anything clever today. Just come back. Proper come back."
+  ],
+  "rosi": [
+   "Officer, I checked your blade last night. If it breaks today, that's on you, not me.",
+   "Officer. Same time on the stopwatch, remember? Nobody's allowed to lose today.",
+   "Captain. ...Don't make me say it twice. Come back."
+  ],
+  "siri": [
+   "Duc? No camera today. I'm watching you with my own eyes, so be careful.",
+   "Duc, I'm not filming you. I want to remember this one myself.",
+   "Duc. In my own voice: please come back to me."
+  ],
+  "lola": [
+   "Boss? Come back for dinner. I mean it.",
+   "Boss, I've saved you the good bread. Mostly the good bread. Don't make me eat it alone.",
+   "Boss. I didn't burn breakfast this morning, not once. So come back and see what else I can do."
+  ],
+  "alva": [
+   "Duc, your tab is still open. Nobody leaves my bar with an open tab.",
+   "Duc. Nobody's mine, I keep saying it. Come back anyway.",
+   "Duc. I'll keep the light on over the bar. Don't make me turn it off."
+  ]
+ },
+ "funk_voraus": {
+  "lea": "lea_zeichen",
+  "rosi": "rm_r2"
+ },
+ "funk_lp": 0.1,
+ "nachtwache": {
+  "feld": [
+   30,
+   15
+  ],
+  "wer": [
+   "wolff",
+   "elsa",
+   "yamamoto"
+  ]
+ },
+ "ruder_haus": "werkstatt",
+ "begegnungen": {
+  "tk_hund": {
+   "title": "A Dog in a Collar",
+   "goal": "Hold the village",
+   "image": "eden_rise_piazza_treppe.png",
+   "enemy": "hund_wild",
+   "enemies": [
+    "hund_wild"
+   ],
+   "level": "duc",
+   "level_plus": -2,
+   "flee_allowed": false,
+   "flee_reason": "The church is behind you.",
+   "outcomes": {
+    "ko": {
+     "text": "That one stays down.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They back away.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They fall back.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "You go down.",
+     "folgen": []
+    }
+   }
+  },
+  "tk_agent": {
+   "title": "Agent on the Square",
+   "goal": "Hold the village",
+   "image": "eden_rise_piazza_treppe.png",
+   "enemy": "agent",
+   "enemies": [
+    "agent"
+   ],
+   "level": "duc",
+   "level_plus": -1,
+   "flee_allowed": false,
+   "flee_reason": "The church is behind you.",
+   "outcomes": {
+    "ko": {
+     "text": "That one stays down.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They back away.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They fall back.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "You go down.",
+     "folgen": []
+    }
+   }
+  },
+  "tk_schuetze": {
+   "title": "Agent with a Rifle",
+   "goal": "Hold the village",
+   "image": "eden_rise_piazza_treppe.png",
+   "enemy": "tk_schuetze",
+   "enemies": [
+    "tk_schuetze"
+   ],
+   "level": "duc",
+   "level_plus": -1,
+   "flee_allowed": false,
+   "flee_reason": "The church is behind you.",
+   "outcomes": {
+    "ko": {
+     "text": "That one stays down.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They back away.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They fall back.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "You go down.",
+     "folgen": []
+    }
+   }
+  },
+  "tk_pirat": {
+   "title": "Pirate with a Torch",
+   "goal": "Hold the village",
+   "image": "eden_rise_piazza_treppe.png",
+   "enemy": "fackelpirat",
+   "enemies": [
+    "fackelpirat",
+    "pirat"
+   ],
+   "level": "duc",
+   "level_plus": -1,
+   "flee_allowed": false,
+   "flee_reason": "The church is behind you.",
+   "outcomes": {
+    "ko": {
+     "text": "That one stays down.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They back away.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They fall back.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "You go down.",
+     "folgen": []
+    }
+   },
+   "lp_faktoren": [
+    1,
+    0.4
+   ]
+  },
+  "tk_gunner": {
+   "title": "Pirate Gunner",
+   "goal": "Hold the village",
+   "image": "eden_rise_piazza_treppe.png",
+   "enemy": "tk_gunner",
+   "enemies": [
+    "tk_gunner",
+    "pirat"
+   ],
+   "level": "duc",
+   "level_plus": -1,
+   "flee_allowed": false,
+   "flee_reason": "The church is behind you.",
+   "outcomes": {
+    "ko": {
+     "text": "That one stays down.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They back away.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They fall back.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "You go down.",
+     "folgen": []
+    }
+   },
+   "lp_faktoren": [
+    1,
+    0.4
+   ]
+  },
+  "tk_brawler": {
+   "title": "Pirate Brawler",
+   "goal": "Hold the village",
+   "image": "eden_rise_piazza_treppe.png",
+   "enemy": "tk_brawler",
+   "enemies": [
+    "tk_brawler",
+    "pirat"
+   ],
+   "level": "duc",
+   "level_plus": 0,
+   "flee_allowed": false,
+   "flee_reason": "The church is behind you.",
+   "outcomes": {
+    "ko": {
+     "text": "That one stays down.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They back away.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They fall back.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "You go down.",
+     "folgen": []
+    }
+   },
+   "lp_faktoren": [
+    1,
+    0.4
+   ]
+  },
+  "tk_bonaventure": {
+   "title": "Captain Buenaventura",
+   "goal": "Hold the village",
+   "image": "eden_rise_piazza_treppe.png",
+   "enemy": "tk_bonaventure",
+   "enemies": [
+    "tk_bonaventure",
+    "pirat"
+   ],
+   "level": "duc",
+   "level_plus": 1,
+   "flee_allowed": false,
+   "flee_reason": "The church is behind you.",
+   "outcomes": {
+    "ko": {
+     "text": "That one stays down.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They back away.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They fall back.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "You go down.",
+     "folgen": []
+    }
+   },
+   "lp_faktoren": [
+    1,
+    0.4
+   ]
+  },
+  "tk_brute": {
+   "title": "The Big One",
+   "goal": "Hold the village",
+   "image": "eden_rise_piazza_treppe.png",
+   "enemy": "brute_solo",
+   "enemies": [
+    "brute_solo"
+   ],
+   "level": "duc",
+   "level_plus": 0,
+   "flee_allowed": false,
+   "flee_reason": "The church is behind you.",
+   "outcomes": {
+    "ko": {
+     "text": "That one stays down.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They back away.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They fall back.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "You go down.",
+     "folgen": []
+    }
+   }
+  },
+  "tk_roboter": {
+   "title": "Boarding Robot",
+   "goal": "Hold the village",
+   "image": "eden_rise_piazza_treppe.png",
+   "enemy": "tk_robot",
+   "enemies": [
+    "tk_robot"
+   ],
+   "level": "duc",
+   "level_plus": -1,
+   "flee_allowed": false,
+   "flee_reason": "The church is behind you.",
+   "outcomes": {
+    "ko": {
+     "text": "That one stays down.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They back away.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They fall back.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "You go down.",
+     "folgen": []
+    }
+   }
+  },
+  "tk_roboter_schwer": {
+   "title": "Heavy Boarding Robot",
+   "goal": "Hold the village",
+   "image": "eden_rise_piazza_treppe.png",
+   "enemy": "tk_robot_schwer",
+   "enemies": [
+    "tk_robot_schwer"
+   ],
+   "level": "duc",
+   "level_plus": 1,
+   "flee_allowed": false,
+   "flee_reason": "The church is behind you.",
+   "outcomes": {
+    "ko": {
+     "text": "That one stays down.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They back away.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They fall back.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "You go down.",
+     "folgen": []
+    }
+   }
+  },
+  "tk_drohne": {
+   "title": "Combat Drone",
+   "goal": "Hold the village",
+   "image": "eden_rise_piazza_treppe.png",
+   "enemy": "hirtendrohne",
+   "enemies": [
+    "hirtendrohne"
+   ],
+   "level": "duc",
+   "level_plus": -1,
+   "flee_allowed": false,
+   "flee_reason": "The church is behind you.",
+   "outcomes": {
+    "ko": {
+     "text": "That one stays down.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They back away.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They fall back.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "You go down.",
+     "folgen": []
+    }
+   }
+  },
+  "tk_kobra": {
+   "title": "Cobra Robot",
+   "goal": "Hold the village",
+   "image": "eden_rise_piazza_treppe.png",
+   "enemy": "tk_kobra",
+   "enemies": [
+    "tk_kobra"
+   ],
+   "level": "duc",
+   "level_plus": -1,
+   "flee_allowed": false,
+   "flee_reason": "The church is behind you.",
+   "outcomes": {
+    "ko": {
+     "text": "That one stays down.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They back away.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They fall back.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "You go down.",
+     "folgen": []
+    }
+   }
+  },
+  "tk_skorpion": {
+   "title": "Scorpion Robot",
+   "goal": "Hold the village",
+   "image": "eden_rise_piazza_treppe.png",
+   "enemy": "tk_skorpion",
+   "enemies": [
+    "tk_skorpion"
+   ],
+   "level": "duc",
+   "level_plus": -1,
+   "flee_allowed": false,
+   "flee_reason": "The church is behind you.",
+   "outcomes": {
+    "ko": {
+     "text": "That one stays down.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They back away.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They fall back.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "You go down.",
+     "folgen": []
+    }
+   }
+  },
+  "tk_white": {
+   "title": "Mr. White",
+   "goal": "Stop him before the church",
+   "image": "eden_rise_piazza_treppe.png",
+   "enemy": "tk_white",
+   "enemies": [
+    "tk_white"
+   ],
+   "level": "duc",
+   "level_plus": 4,
+   "flee_allowed": false,
+   "flee_reason": "The church is behind you.",
+   "outcomes": {
+    "ko": {
+     "text": "That one stays down.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They back away.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They fall back.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "You go down.",
+     "folgen": []
+    }
+   }
+  }
+ },
+ "vorlagen": {
+  "tk_white": {
+   "vorlage": "agent_fuehrer",
+   "name": "Mr. White",
+   "tier": "albtraum"
+  },
+  "tk_robot": {
+   "vorlage": "unit01",
+   "name": "Boarding Robot",
+   "sprite": "BoardingRobot"
+  },
+  "tk_robot_schwer": {
+   "vorlage": "unit01",
+   "name": "Heavy Boarding Robot",
+   "sprite": "BoardingRobotHeavy",
+   "tier": "gefaehrlich"
+  },
+  "tk_kobra": {
+   "vorlage": "unit01",
+   "name": "Cobra Robot",
+   "sprite": "RobotCobra",
+   "boss": false,
+   "attack": {
+    "label": "Neck Blades",
+    "icon": "⚙"
+   },
+   "specials": {
+    "w1": {
+     "label": "Hot Oil Spray",
+     "icon": "💨",
+     "bonus": 0,
+     "effect": "geblendet",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Lunge",
+     "icon": "⚙💥",
+     "bonus": 6,
+     "effect": null,
+     "dodge_only": true
+    }
+   },
+   "immune": {
+    "charm": "It looks at you with its one red eye. Whatever gives its orders isn't listening."
+   }
+  },
+  "tk_skorpion": {
+   "vorlage": "unit01",
+   "name": "Scorpion Robot",
+   "sprite": "RobotScorpion",
+   "boss": false,
+   "attack": {
+    "label": "Pincers",
+    "icon": "⚙"
+   },
+   "specials": {
+    "w1": {
+     "label": "Tail Shock",
+     "icon": "⚡",
+     "bonus": 2,
+     "effect": "strom",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Tail Blade",
+     "icon": "⚙💥",
+     "bonus": 6,
+     "effect": null,
+     "dodge_only": true
+    }
+   },
+   "immune": {
+    "charm": "It keeps walking. Whatever gives its orders isn't listening."
+   }
+  },
+  "tk_schuetze": {
+   "vorlage": "agent",
+   "name": "Marksman",
+   "sprite": "AgentGunman",
+   "attack": {
+    "label": "Rifle Shot",
+    "icon": "🔫",
+    "schuss": true
+   },
+   "specials": {
+    "w1": {
+     "label": "Shock Grenade",
+     "icon": "⚡",
+     "bonus": 2,
+     "effect": "strom",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Long Burst",
+     "icon": "🔫",
+     "bonus": 7,
+     "effect": null,
+     "dodge_only": true,
+     "schuss": true
+    }
+   }
+  },
+  "tk_gunner": {
+   "vorlage": "pirat",
+   "name": "Pirate Gunner",
+   "sprite": "PirateGunner",
+   "attack": {
+    "label": "Pistol Shot",
+    "icon": "🔫",
+    "schuss": true
+   },
+   "specials": {
+    "w1": {
+     "label": "Powder in the Eyes",
+     "icon": "💥",
+     "bonus": 0,
+     "effect": "geblendet",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Point Blank",
+     "icon": "🔫",
+     "bonus": 6,
+     "effect": null,
+     "dodge_only": true,
+     "schuss": true
+    }
+   }
+  },
+  "tk_brawler": {
+   "vorlage": "pirat",
+   "name": "Pirate Brawler",
+   "sprite": "PirateBrawler",
+   "tier": "gefaehrlich"
+  },
+  "tk_bonaventure": {
+   "vorlage": "pirat",
+   "name": "Captain Buenaventura",
+   "sprite": "Bonaventure",
+   "tier": "toedlich"
+  }
+ },
+ "vorbereitung": {
+  "boden": 30,
+  "punkte": [
+   {
+    "text": "The manoeuvre showed you your weak spots",
+    "abzug": 5,
+    "bed": {
+     "flag": "manoever_fertig"
+    }
+   },
+   {
+    "text": "Elsa has your back",
+    "abzug": 5,
+    "bed": {
+     "flag": "elsa_hilft"
+    }
+   },
+   {
+    "text": "Rosi knows where robots break",
+    "abzug": 5,
+    "bed": {
+     "wert": "vertrauen.rosi",
+     "min": 2
+    }
+   },
+   {
+    "text": "Yamamoto will fight",
+    "abzug": 5,
+    "bed": {
+     "wert": "vertrauen.yamamoto",
+     "min": 2
+    }
+   },
+   {
+    "text": "The Red Trio stands with you",
+    "abzug": 10,
+    "bed": {
+     "flag": "rt_ausgang_alle"
+    }
+   },
+   {
+    "text": "You already beat some of White's men",
+    "abzug": 5,
+    "bed": {
+     "flag": "rt_white_agenten"
+    }
+   },
+   {
+    "text": "You kept the crate of collars",
+    "abzug": 5,
+    "bed": {
+     "flag": "gr_kiste_genommen"
+    }
+   },
+   {
+    "text": "Ba Tu hears when they leave",
+    "abzug": 5,
+    "bed": {
+     "wert": "vertrauen.batu",
+     "min": 3
+    }
+   },
+   {
+    "text": "Don Anghjulu will ring the bell sober",
+    "abzug": 5,
+    "bed": {
+     "wert": "vertrauen.anghjulu",
+     "min": 3
+    }
+   },
+   {
+    "text": "The village will row out with you",
+    "abzug": 10,
+    "bed": {
+     "wert": "ruf",
+     "min": 5
+    }
+   },
+   {
+    "text": "Holm gives the orders",
+    "abzug": 5,
+    "bed": {
+     "flag": "holm_zurueck"
+    }
+   },
+   {
+    "text": "Maxwell and Chiara have their new weapons",
+    "abzug": 5,
+    "bed": {
+     "flag": "steel_mop"
+    }
+   }
+  ]
+ },
+ "manoever": {
+  "feinde": [
+   [
+    "agent",
+    [
+     6,
+     21
+    ]
+   ],
+   [
+    "agent",
+    [
+     9,
+     22
+    ]
+   ],
+   [
+    "hund",
+    [
+     4,
+     9
+    ]
+   ],
+   [
+    "agent",
+    [
+     6,
+     11
+    ]
+   ],
+   [
+    "roboter",
+    [
+     43,
+     15
+    ]
+   ]
+  ]
+ },
+ "ruf_rudert": 5,
+ "neustart_milde": 0.15,
+ "neustart_milde_max": 3
+}

@@ -1,0 +1,37 @@
+{
+ "id": "bar_sets_r3",
+ "titel": "Bar-Sets Runde 3 (Querformat)",
+ "hinweis": "Die fuenf letzten Nachrender im Querformat 1552 x 1024.",
+ "items": [
+  {
+   "id": "Bibi_joy_2_quer",
+   "titel": "Bibi: joy_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\joy_2.png",
+   "soll": "Beide Haende im Bild (Querformat)"
+  },
+  {
+   "id": "Bibi_worshipful_quer",
+   "titel": "Bibi: worshipful",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\worshipful.png",
+   "soll": "Beide Haende im Bild (Querformat)"
+  },
+  {
+   "id": "Charly_joy_2_quer",
+   "titel": "Charly: joy_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\joy_2.png",
+   "soll": "Beide Haende im Bild (Querformat)"
+  },
+  {
+   "id": "Charly_optimism_2_quer",
+   "titel": "Charly: optimism_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\optimism_2.png",
+   "soll": "Beide Haende im Bild (Querformat)"
+  },
+  {
+   "id": "Charly_relief_2_quer",
+   "titel": "Charly: relief_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\relief_2.png",
+   "soll": "Beide Haende im Bild (Querformat)"
+  }
+ ]
+}

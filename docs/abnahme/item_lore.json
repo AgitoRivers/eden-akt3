@@ -1,0 +1,1575 @@
+{
+ "id": "item_lore",
+ "titel": "Item-Beschreibungen im Lore-Stil",
+ "hinweis": "Ding · Herkunft · Haken, nie wer es liebt. Die Wirkung (Bonus, Heilung) bleibt als eigene Zeile und steht hier nicht. OK / Ändern + Notiz.",
+ "gruppen": [
+  {
+   "titel": "geschenk",
+   "items": [
+    {
+     "key": "item:arancini.lore",
+     "feld": "Arancini from the Bakery · wholesome",
+     "alt": "(kein Text)",
+     "neu": "Golden, still warm, wrapped in greaseproof paper. The village bakery makes exactly twelve a morning. By nine, there are none.",
+     "vertont": false
+    },
+    {
+     "key": "item:olive_oil.lore",
+     "feld": "Corsican Olive Oil · ernst/Lore",
+     "alt": "(kein Text)",
+     "neu": "Green-gold, bottled by hand with a paper label. The groves above Cala d'Orsu are older than the church. Some families still argue about which tree is theirs.",
+     "vertont": false
+    },
+    {
+     "key": "item:lolas_gewuerz.lore",
+     "feld": "Lola's Spice Mix “Ocean Glitter” · witzig",
+     "alt": "(kein Text)",
+     "neu": "A jar of salt, chilli and something that sparkles. Lola won't say what. It goes on everything, and everything is better for it.",
+     "vertont": false
+    },
+    {
+     "key": "item:tim_tams.lore",
+     "feld": "Tim Tams from Alva's Bar · wholesome",
+     "alt": "The only Australian biscuits in all of Corsica. Lola cries a little.",
+     "neu": "Chocolate biscuits from the other side of the world, in a packet slightly crushed by the journey. Nobody in Corsica knows how Alva gets them.",
+     "vertont": false
+    },
+    {
+     "key": "item:lolas_kekse.lore",
+     "feld": "A Plate of Lola's Biscuits · wholesome",
+     "alt": "Megan doesn't eat sugar. Except these.",
+     "neu": "Buttery, uneven, a little burnt at one edge. Lola bakes them at three in the morning when she can't sleep. Even people who swear off sugar don't say no.",
+     "vertont": false
+    },
+    {
+     "key": "item:feigen.lore",
+     "feld": "Corsican Figs · wholesome",
+     "alt": "(kein Text)",
+     "neu": "Purple figs, split open by the sun. Alva buys them from a woman who won't sell to anyone she doesn't like.",
+     "vertont": false
+    },
+    {
+     "key": "item:proteinriegel.lore",
+     "feld": "Protein Bar · witzig",
+     "alt": "(kein Text)",
+     "neu": "Forty grams of protein and the taste of cardboard with ambition. Totò keeps a box of them for the gym people. He won't eat one himself.",
+     "vertont": false
+    },
+    {
+     "key": "item:franzbroetchen.lore",
+     "feld": "Hamburg Cinnamon Roll (Homemade) · wholesome",
+     "alt": "Like in Hamburg. Almost. Lola helped.",
+     "neu": "Flattened, sticky with cinnamon, folded the way they do it up north. Lola helped. You can tell, because there's a little glitter in it.",
+     "vertont": false
+    },
+    {
+     "key": "item:canistrelli.lore",
+     "feld": "Aniseed Canistrelli · ernst/Lore",
+     "alt": "Corsican biscuits that keep forever.",
+     "neu": "Hard Corsican biscuits that taste of aniseed and keep for months. Fishermen took them out to sea when the bread would have gone soft.",
+     "vertont": false
+    },
+    {
+     "key": "item:myrtle.lore",
+     "feld": "Myrtle Liqueur · ernst/Lore",
+     "alt": "(kein Text)",
+     "neu": "Dark as a bruise and twice as sweet. Every family in Cala d'Orsu swears theirs is the original recipe. Alva keeps hers under the counter, next to the diesel.",
+     "vertont": false
+    },
+    {
+     "key": "item:single_malt.lore",
+     "feld": "Islay Single Malt · witzig",
+     "alt": "(kein Text)",
+     "neu": "Peat smoke in a bottle, from a cold island far to the north. It costs more than Totò's monthly rent. He says the case fell off a very expensive boat.",
+     "vertont": false
+    },
+    {
+     "key": "item:limoncello.lore",
+     "feld": "Homemade Limoncello · wholesome",
+     "alt": "(kein Text)",
+     "neu": "Bright yellow, ice cold, made in someone's kitchen. Alva doesn't sell the recipe. She does sell the bottle, and the bottle is enough.",
+     "vertont": false
+    },
+    {
+     "key": "item:cap_corse.lore",
+     "feld": "Cap Corse Aperitif · ernst/Lore",
+     "alt": "(kein Text)",
+     "neu": "A bitter Corsican aperitif with quinine and orange peel. The old men at the harbour drink it at six, every day, as if the clock depended on it.",
+     "vertont": false
+    },
+    {
+     "key": "item:pink_pearl.lore",
+     "feld": "Pink Pearl on a Fine Chain · wholesome",
+     "alt": "(kein Text)",
+     "neu": "A single pink pearl on a chain as fine as a hair. Totò wrapped it in tissue paper, which is how you know he didn't steal this one.",
+     "vertont": false
+    },
+    {
+     "key": "item:designer_perfume.lore",
+     "feld": "Designer Perfume · frech",
+     "alt": "(kein Text)",
+     "neu": "A faceted bottle with a heavy gold cap. Smells of money, cold rooms and someone who always gets the last word.",
+     "vertont": false
+    },
+    {
+     "key": "item:shell_anklet.lore",
+     "feld": "Shell Anklet · wholesome",
+     "alt": "(kein Text)",
+     "neu": "Tiny white shells threaded on a silver chain. Alva says the village girls wear them until they marry, and then never take them off.",
+     "vertont": false
+    },
+    {
+     "key": "item:herzbrille.lore",
+     "feld": "Heart-Shaped Diva Sunglasses · witzig",
+     "alt": "(kein Text)",
+     "neu": "Enormous heart-shaped sunglasses with rhinestones on the corners. Subtle as a brass band. Somebody in Cala d'Orsu will wear these with total dignity.",
+     "vertont": false
+    },
+    {
+     "key": "item:goldkette.lore",
+     "feld": "Thick Gold Chain (Probably Real) · witzig",
+     "alt": "(kein Text)",
+     "neu": "Heavy enough to anchor a dinghy. Totò swears it's real. Totò also swore the goat was a gift.",
+     "vertont": false
+    },
+    {
+     "key": "item:designer_sonnenbrille.lore",
+     "feld": "Designer Sunglasses · witzig",
+     "alt": "(kein Text)",
+     "neu": "Black lenses, a logo you can read from the other end of the harbour. Totò calls them “original”. He does not say original what.",
+     "vertont": false
+    },
+    {
+     "key": "item:silberring.lore",
+     "feld": "Slim Silver Ring from the Market · wholesome",
+     "alt": "(kein Text)",
+     "neu": "A slim silver band from the Saturday market. Nothing engraved, nothing promised. Just a ring that fits.",
+     "vertont": false
+    },
+    {
+     "key": "item:bauchnabelpiercing.lore",
+     "feld": "Belly Button Piercing with a Shell · frech",
+     "alt": "(kein Text)",
+     "neu": "A little silver bar with a white shell dangling from it. Alva keeps it in a dish by the till, next to the matches, for the kind of customer who asks.",
+     "vertont": false
+    },
+    {
+     "key": "item:muschelkette_kinder.lore",
+     "feld": "Homemade Shell Necklace with Beads · wholesome",
+     "alt": "Made by the village children, a little crooked. Siri puts it on straight away.",
+     "neu": "Shells and plastic beads on a fishing line, knotted by small hands. One shell is upside down. Nobody would fix it for the world.",
+     "vertont": false
+    },
+    {
+     "key": "item:eden_cap.lore",
+     "feld": "Eden Group Cap · witzig",
+     "alt": "(kein Text)",
+     "neu": "Navy blue, embroidered with a golden anchor. Megan's office ships them by the hundred. Nobody in the fleet has ever been seen wearing one.",
+     "vertont": false
+    },
+    {
+     "key": "item:schaerpe.lore",
+     "feld": "Glitter Sash “Miss Cala d'Orsu” · witzig",
+     "alt": "(kein Text)",
+     "neu": "A glitter sash that reads “Miss Cala d'Orsu”. The village crowned its last Miss in 1987. The sash has been waiting ever since.",
+     "vertont": false
+    },
+    {
+     "key": "item:faecher.lore",
+     "feld": "Flamenco Fan · ernst/Lore",
+     "alt": "(kein Text)",
+     "neu": "A black lace fan from Sevilla, painted with red carnations. It snaps open like a slap. Someone once danced with it until the floor gave up.",
+     "vertont": false
+    },
+    {
+     "key": "item:wool_socks.lore",
+     "feld": "Hand-Knitted Wool Socks · wholesome",
+     "alt": "(kein Text)",
+     "neu": "Grey wool, a plain Nordic pattern, one heel knitted a little thicker than the other. Whoever made them was counting on cold nights at sea.",
+     "vertont": false
+    },
+    {
+     "key": "item:wollmuetze.lore",
+     "feld": "Wool Hat with a Nordic Pattern · wholesome",
+     "alt": "(kein Text)",
+     "neu": "A thick wool hat with a snowflake pattern, completely wrong for Corsica. Alva ordered it for a Norwegian guest years ago. He never came back for it.",
+     "vertont": false
+    },
+    {
+     "key": "item:candles.lore",
+     "feld": "Scented Candles “Maquis” · wholesome",
+     "alt": "(kein Text)",
+     "neu": "Three candles that smell of the hills: myrtle, rosemary and warm stone. Light one and the cabin turns into the maquis at dusk.",
+     "vertont": false
+    },
+    {
+     "key": "item:konfetti.lore",
+     "feld": "Bag of Confetti · witzig",
+     "alt": "(kein Text)",
+     "neu": "A paper bag of glitter confetti, enough for a wedding or a small war. Whoever opens it will be finding it in their hair for weeks.",
+     "vertont": false
+    },
+    {
+     "key": "item:lichterkette.lore",
+     "feld": "Solar Fairy Lights · wholesome",
+     "alt": "(kein Text)",
+     "neu": "A string of tiny solar lights in glass drops. Charge them in the sun on deck, and at night the railing looks like it's holding stars.",
+     "vertont": false
+    },
+    {
+     "key": "item:torque_wrench.lore",
+     "feld": "Professional Torque Wrench · witzig",
+     "alt": "(kein Text)",
+     "neu": "Chrome, precise to the newton metre, in a case that clicks like a safe. A tool for people who think “tight enough” is a moral failing.",
+     "vertont": false
+    },
+    {
+     "key": "item:dive_torch.lore",
+     "feld": "Dive Torch · ernst/Lore",
+     "alt": "(kein Text)",
+     "neu": "Yellow, rubber-armoured, bright enough to turn the night sea green. Whoever owned it before scratched a small fish into the handle.",
+     "vertont": false
+    },
+    {
+     "key": "item:moka.lore",
+     "feld": "Neapolitan Moka Pot · wholesome",
+     "alt": "(kein Text)",
+     "neu": "A dented aluminium moka pot, the eight-sided kind from Naples. It hisses, it spits, and it makes coffee nobody on this boat can argue with.",
+     "vertont": false
+    },
+    {
+     "key": "item:selfie_stick.lore",
+     "feld": "Carbon Selfie Stick · witzig",
+     "alt": "(kein Text)",
+     "neu": "Carbon fibre, telescopic, with a remote shutter. It folds down to the size of a pen and opens up to the size of an ego.",
+     "vertont": false
+    },
+    {
+     "key": "item:polbrille.lore",
+     "feld": "Polarised Sunglasses · ernst/Lore",
+     "alt": "(kein Text)",
+     "neu": "Plain polarised sunglasses, the kind that let you see straight through the glare into the water. Coast guards wear them. So do smugglers.",
+     "vertont": false
+    },
+    {
+     "key": "item:schweizer_messer.lore",
+     "feld": "Pocket Knife · wholesome",
+     "alt": "(kein Text)",
+     "neu": "A red pocket knife with nine tools and a toothpick nobody uses. Alva sells exactly one a summer, always to a tourist who swears it's for camping.",
+     "vertont": false
+    },
+    {
+     "key": "item:fountain_pen.lore",
+     "feld": "Fountain Pen · ernst/Lore",
+     "alt": "(kein Text)",
+     "neu": "Black lacquer, a gold nib, a cap that closes with a soft click. A pen like this doesn't sign receipts. It signs things that matter.",
+     "vertont": false
+    },
+    {
+     "key": "item:notebook.lore",
+     "feld": "Leather Notebook · wholesome",
+     "alt": "(kein Text)",
+     "neu": "Brown leather with an elastic band, every page still empty. The kind of notebook you buy for the person you want to become.",
+     "vertont": false
+    },
+    {
+     "key": "item:gedichtband.lore",
+     "feld": "Second-Hand Book of Poems · ernst/Lore",
+     "alt": "(kein Text)",
+     "neu": "A second-hand book of poems, the spine cracked open at one page. Someone underlined a single line in pencil, then tried to rub it out.",
+     "vertont": false
+    },
+    {
+     "key": "item:almanac.lore",
+     "feld": "Nautical Almanac · ernst/Lore",
+     "alt": "(kein Text)",
+     "neu": "Tide tables, star charts and sunrise times, bound in dark blue cloth. Sailors who still trust paper over satellites keep one by their bunk.",
+     "vertont": false
+    },
+    {
+     "key": "item:old_chart.lore",
+     "feld": "Old Chart of the West Coast · ernst/Lore",
+     "alt": "(kein Text)",
+     "neu": "A yellowed chart of the west coast, the rocks drawn by hand. Some of the soundings are wrong now. The sea has moved, the chart hasn't.",
+     "vertont": false
+    },
+    {
+     "key": "item:ducs_gedicht.lore",
+     "feld": "Duc's Poem about the Sea · wholesome",
+     "alt": "(kein Text)",
+     "neu": "A folded page in your own handwriting, crossed out twice and started again. It is not a good poem. It is an honest one.",
+     "vertont": false
+    },
+    {
+     "key": "item:ukulele.lore",
+     "feld": "Second-Hand Ukulele · witzig",
+     "alt": "(kein Text)",
+     "neu": "A second-hand ukulele with a sticker of a pineapple and one string slightly out of tune. It cannot play a sad song. Believe us, people have tried.",
+     "vertont": false
+    },
+    {
+     "key": "item:pinup_magazin.lore",
+     "feld": "Men's Magazine with a Pin-Up · frech",
+     "alt": "An Italian magazine with a beautiful, half-naked woman on the cover. Totò reads it “for the articles”.",
+     "neu": "An Italian men's magazine from the eighties, the cover a little sun-bleached. Totò claims he only reads it for the interviews.",
+     "vertont": false
+    },
+    {
+     "key": "item:pretty_shell.lore",
+     "feld": "A Beautiful Shell · wholesome",
+     "alt": "(kein Text)",
+     "neu": "A spiral shell, cream outside and pink inside, the kind children press to their ear. If you listen, the sea is still in there.",
+     "vertont": false
+    },
+    {
+     "key": "item:seeglas.lore",
+     "feld": "Green Sea Glass · wholesome",
+     "alt": "(kein Text)",
+     "neu": "A piece of green bottle glass, worn smooth and cloudy by years of waves. Somebody's broken bottle became somebody else's treasure.",
+     "vertont": false
+    },
+    {
+     "key": "item:alvas_rose.lore",
+     "feld": "Alva's Rose · frech",
+     "alt": "(kein Text)",
+     "neu": "A single red rose from the vase on Alva's bar. She never gives the roses away. She gave you one.",
+     "vertont": false
+    },
+    {
+     "key": "item:messing_anker.lore",
+     "feld": "Brass Anchor Keyring · ernst/Lore",
+     "alt": "Rusty, fished out of the bay.",
+     "neu": "A small brass anchor on a keyring, green with salt, fished out of the bay. Whatever keys it once held are still somewhere at the bottom.",
+     "vertont": false
+    },
+    {
+     "key": "item:macchia_strauss.lore",
+     "feld": "Bouquet from the Macchia · wholesome",
+     "alt": "Wild myrtle and rosemary from the hillside.",
+     "neu": "Wild myrtle, rosemary and a sprig of something yellow nobody can name. Picked on the hillside, it smells of the whole island at once.",
+     "vertont": false
+    },
+    {
+     "key": "item:korallenzweig.lore",
+     "feld": "Small Branch of Coral (Beach Find) · ernst/Lore",
+     "alt": "(kein Text)",
+     "neu": "A small branch of red coral, washed up after a storm. The old fishermen say coral keeps you from drowning. The old fishermen also say a lot of things.",
+     "vertont": false
+    },
+    {
+     "key": "item:goldfisch.lore",
+     "feld": "Goldfish in a Water Bag · witzig",
+     "alt": "From a stall at the Festa. Lea names it immediately, somehow.",
+     "neu": "A small orange fish in a plastic bag of water, won at the Festa. It looks at you as if this was entirely your idea.",
+     "vertont": false
+    },
+    {
+     "key": "item:massage_oil.lore",
+     "feld": "Neroli Massage Oil · frech",
+     "alt": "(kein Text)",
+     "neu": "Neroli and sweet almond in a dark glass bottle. Warm it in your hands first. That's not a tip, that's a promise.",
+     "vertont": false
+    },
+    {
+     "key": "item:silk_blindfold.lore",
+     "feld": "Silk Blindfold · frech",
+     "alt": "(kein Text)",
+     "neu": "Midnight silk, lined so nothing gets through. Totò hands it over without a single word, which for Totò is a first.",
+     "vertont": false
+    },
+    {
+     "key": "item:silk_kimono.lore",
+     "feld": "Silk Kimono · frech",
+     "alt": "(kein Text)",
+     "neu": "Black silk with red cranes, light enough to fall off a shoulder by accident. Accidents like that are the whole point.",
+     "vertont": false
+    },
+    {
+     "key": "item:massage_candle.lore",
+     "feld": "Massage Candle with Warming Oil · frech",
+     "alt": "(kein Text)",
+     "neu": "A candle that melts into warm oil. Alva wraps it in brown paper and doesn't ask questions, which is its own kind of question.",
+     "vertont": false
+    },
+    {
+     "key": "item:stockings.lore",
+     "feld": "Lace-Top Hold-Up Stockings · frech",
+     "alt": "(kein Text)",
+     "neu": "Sheer black stockings with a lace top that stays up on its own. Totò files them under “luxury textiles”, between the towels and the tablecloths.",
+     "vertont": false
+    },
+    {
+     "key": "item:satin_ties.lore",
+     "feld": "Satin Bed Restraints · frech",
+     "alt": "(kein Text)",
+     "neu": "Four satin ribbons with soft cuffs, made to fit any bed. Totò's note says “for tying up loose ends”. He's very proud of that one.",
+     "vertont": false
+    },
+    {
+     "key": "item:nipple_clamps.lore",
+     "feld": "Nipple Clamps with a Chain · frech",
+     "alt": "(kein Text)",
+     "neu": "Two little clamps on a fine silver chain, adjustable, as the box assures you three times. Totò pretends it's jewellery. It sort of is.",
+     "vertont": false
+    },
+    {
+     "key": "item:lingerie.lore",
+     "feld": "Champagne Lace Lingerie · frech",
+     "alt": "(kein Text)",
+     "neu": "Champagne-coloured lace, more air than fabric. It came in a box with a ribbon, and the ribbon was the least of it.",
+     "vertont": false
+    },
+    {
+     "key": "item:plush_cuffs.lore",
+     "feld": "Plush Handcuffs · frech",
+     "alt": "(kein Text)",
+     "neu": "Pink fluffy handcuffs with a tiny key. The fluff is for comfort. The key, Totò says, is optional.",
+     "vertont": false
+    },
+    {
+     "key": "item:eden_wave.lore",
+     "feld": "Vibrator “Eden Wave” · frech",
+     "alt": "(kein Text)",
+     "neu": "Smooth, quiet, waterproof, in Eden blue with a tiny gold anchor. Nobody at the Eden Group will admit who signed off on the merchandise.",
+     "vertont": false
+    },
+    {
+     "key": "item:jeweled_plug.lore",
+     "feld": "Jewelled Butt Plug · frech",
+     "alt": "(kein Text)",
+     "neu": "Polished steel with a sparkling pink stone on the end. Totò holds the box at arm's length and says, “Very elegant. Very discreet.” It is neither.",
+     "vertont": false
+    },
+    {
+     "key": "item:flamenco_dessous.lore",
+     "feld": "Ruffled Lingerie · frech",
+     "alt": "Red and black, from Alva's own stock under the counter.",
+     "neu": "Red and black, with ruffles that move like a skirt in the wind. Alva keeps it under the counter, and it isn't for sale to just anyone.",
+     "vertont": false
+    },
+    {
+     "key": "item:chiara_tasse.lore",
+     "feld": "A Cup Just for Her · wholesome",
+     "alt": "Hand-painted in Petru's workshop, with her name on it. For her, not for the guests. Chain: Petru + Lola.",
+     "neu": "A cup painted by hand in Petru's workshop, her name on the side in careful letters. Not a guest cup. Hers.",
+     "vertont": false
+    },
+    {
+     "key": "item:rosi_schild.lore",
+     "feld": "Workshop Sign “Scuderi & Figlie” · wholesome",
+     "alt": "Carved from driftwood by Petru. For the workshop she wants to have one day.",
+     "neu": "Driftwood, carved letters: “Scuderi & Figlie”. A sign for a workshop that doesn't exist yet. Petru carved it as if it already does.",
+     "vertont": false
+    },
+    {
+     "key": "item:sophia_fueller.lore",
+     "feld": "A Pen with Her Own Name · ernst/Lore",
+     "alt": "Engraved with Sophia Moore, not with any other name. For what she wants to write herself.",
+     "neu": "A pen engraved with Sophia Moore, and no other name. For the first thing she writes that is hers.",
+     "vertont": false
+    },
+    {
+     "key": "item:lea_tauchcomputer.lore",
+     "feld": "Dive Computer · ernst/Lore",
+     "alt": "For her own plans, safely planned. Chain: Elsa + Totò.",
+     "neu": "A dive computer, tested and set to her depths. For the dives she plans herself, and comes back from.",
+     "vertont": false
+    },
+    {
+     "key": "item:siri_ratgeber.lore",
+     "feld": "Guide: The Art of Fishing in Corsica · wholesome",
+     "alt": "From Petru's stories, bound by hand. For her father.",
+     "neu": "Petru's stories about fishing the Corsican coast, bound by hand in linen. A book for a father who used to take his daughter out on the water.",
+     "vertont": false
+    },
+    {
+     "key": "item:lola_vegemite.lore",
+     "feld": "A Jar of Vegemite · witzig",
+     "alt": "From Alva's secret stash. Lola calls it home in brown.",
+     "neu": "A jar of black-brown spread from Alva's secret stash. The rest of Europe calls it a mistake. Some people call it home.",
+     "vertont": false
+    },
+    {
+     "key": "item:alva_kastagnetten.lore",
+     "feld": "Her Grandmother's Castanets · ernst/Lore",
+     "alt": "Repaired by Petru. Chain: Alva + Petru.",
+     "neu": "Her grandmother's castanets from Sevilla, broken for years, mended by Petru so they click again. Some things wait a long time to be played.",
+     "vertont": false
+    },
+    {
+     "key": "item:megan_crewkarte.lore",
+     "feld": "A Card Signed by the Whole Crew · wholesome",
+     "alt": "Framed. None of it can be bought.",
+     "neu": "A card in a plain frame, signed by every single person on the boat. You can buy a yacht. You can't buy this.",
+     "vertont": false
+    },
+    {
+     "key": "item:holm_lakritz.lore",
+     "feld": "A Tin of Norwegian Salt Liquorice · witzig",
+     "alt": "Bring-me job: Elsa takes it to the hospital.",
+     "neu": "A tin of Norwegian salt liquorice, black and fierce. Most people spit it out. The people who don't are usually from very cold places.",
+     "vertont": false
+    },
+    {
+     "key": "item:toto_gennaro.lore",
+     "feld": "San Gennaro Figurine from Naples · wholesome",
+     "alt": "Chain: the cousin from Bastia + Alva.",
+     "neu": "A painted plaster San Gennaro from a stall in Naples, a little chipped at the halo. Every Neapolitan kitchen has one watching over the coffee.",
+     "vertont": false
+    },
+    {
+     "key": "item:yasin_goldbrille.lore",
+     "feld": "Gold Sunglasses “Monaco” · witzig",
+     "alt": "(kein Text)",
+     "neu": "Gold-framed sunglasses with “Monaco” on the arm in tiny letters. They make any face look like it owns a boat, which is the point.",
+     "vertont": false
+    },
+    {
+     "key": "item:elsa_strafzettelblock.lore",
+     "feld": "Leather-Bound Ticket Book · witzig",
+     "alt": "With her initials. She laughs out loud for the first time.",
+     "neu": "A ticket book bound in leather, her initials pressed into the cover. Finally, something worthy of her handwriting.",
+     "vertont": false
+    },
+    {
+     "key": "item:petru_tabak.lore",
+     "feld": "Pipe Tobacco “Bastia Noir” · ernst/Lore",
+     "alt": "Bring-me job: only Totò can get it.",
+     "neu": "Dark pipe tobacco from Bastia, the kind they stopped selling in the village years ago. It smells of a wheelhouse at night.",
+     "vertont": false
+    },
+    {
+     "key": "item:casanova_kanone.lore",
+     "feld": "Confetti Cannon · witzig",
+     "alt": "For the Festa. She will aim it at the yacht.",
+     "neu": "A confetti cannon as big as a small car, with a crank. Officially for the Festa. Unofficially, it will be pointed at the yacht.",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "attribut",
+   "items": [
+    {
+     "key": "item:holm_compass.lore",
+     "feld": "Holm's Brass Compass · ernst/Lore",
+     "alt": "At the farewell, from Holm's trust 2. Her father's compass.",
+     "neu": "Brass, scratched glass, a needle that still finds north. It belonged to Holm's father. She gave it to you at the gangway, without a speech.",
+     "vertont": false
+    },
+    {
+     "key": "item:petrus_hammer.lore",
+     "feld": "Petru's Little Hammer · wholesome",
+     "alt": "+1 Courage while you carry it.",
+     "neu": "A small hammer with a handle worn dark by one man's grip. Petru fixes boats with it. Lent to you, it feels like a vote of confidence.",
+     "vertont": false
+    },
+    {
+     "key": "item:leas_taucherbrille.lore",
+     "feld": "Lea's Old Dive Mask · wholesome",
+     "alt": "+1 Perception while you carry it.",
+     "neu": "An old dive mask with a cracked strap, mended with tape. Lea saw her first reef through it. She swears it still remembers the way.",
+     "vertont": false
+    },
+    {
+     "key": "item:elsas_taschenlampe.lore",
+     "feld": "Elsa's Service Torch · ernst/Lore",
+     "alt": "+1 Perception while you carry it.",
+     "neu": "A heavy black service torch from the Gendarmerie Maritime. It has found smugglers, lost dogs and one very embarrassed mayor.",
+     "vertont": false
+    },
+    {
+     "key": "item:rosis_handschuhe.lore",
+     "feld": "Rosi's Workshop Gloves · witzig",
+     "alt": "+1 Cunning while you carry it.",
+     "neu": "Leather workshop gloves, oil-black, a hole in the left thumb. Rosi says the hole is a design feature.",
+     "vertont": false
+    },
+    {
+     "key": "item:totos_notizbuch.lore",
+     "feld": "Totò's Notebook of Prices · witzig",
+     "alt": "+1 Cunning while you carry it.",
+     "neu": "A greasy little notebook full of prices, nicknames and debts in Totò's code. Half of the island is in here. Some of them owe him a goat.",
+     "vertont": false
+    },
+    {
+     "key": "item:siris_halstuch.lore",
+     "feld": "Siri's Silk Neckerchief · wholesome",
+     "alt": "+1 Charm while you carry it.",
+     "neu": "A silk neckerchief, sea-blue, that still smells faintly of her perfume. She wore it on a shoot once and said it was the only real thing in the picture.",
+     "vertont": false
+    },
+    {
+     "key": "item:megans_manschetten.lore",
+     "feld": "Megan's Cufflinks · ernst/Lore",
+     "alt": "Black onyx, a golden anchor. From Megan's trust 3 in the Eden Shop.",
+     "neu": "Black onyx cufflinks with a small golden anchor. Fleet issue for directors only. Megan doesn't give them away. She lends them, which is worse.",
+     "vertont": false
+    },
+    {
+     "key": "item:lolas_band.lore",
+     "feld": "Lola's Friendship Bracelet · wholesome",
+     "alt": "+1 Empathy while you carry it.",
+     "neu": "A woven friendship bracelet in all the colours of the galley. Lola made two. She's wearing the other one.",
+     "vertont": false
+    },
+    {
+     "key": "item:sophias_lesezeichen.lore",
+     "feld": "Sophia's Bookmark · ernst/Lore",
+     "alt": "+1 Empathy while you carry it.",
+     "neu": "A thin silver bookmark, cool to the touch, slipped between two pages for you to find. She marked the place where she stopped reading. Or started.",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "gluecksbringer",
+   "items": [
+    {
+     "key": "item:multitool.lore",
+     "feld": "Multitool · witzig",
+     "alt": "Once a day, advantage on Cunning.",
+     "neu": "A well-worn stainless multitool with eleven functions and one that nobody has ever figured out. Alva swears it opened a bottle of wine during the storm of '09.",
+     "vertont": false
+    },
+    {
+     "key": "item:lockpicks.lore",
+     "feld": "Lock Pick Set · frech",
+     "alt": "Once a day, advantage on Cunning.",
+     "neu": "A slim leather wallet of picks and tension wrenches. Totò says they're for “emergencies”. He has a lot of emergencies.",
+     "vertont": false
+    },
+    {
+     "key": "item:binoculars.lore",
+     "feld": "Binoculars · ernst/Lore",
+     "alt": "Once a day, advantage on Perception.",
+     "neu": "Heavy naval binoculars with a cracked leather strap. Someone in the village watched every ship come and go through these for thirty years.",
+     "vertont": false
+    },
+    {
+     "key": "item:petrus_messer.lore",
+     "feld": "Petru's Old Fishing Knife · ernst/Lore",
+     "alt": "Once a day, advantage on Perception.",
+     "neu": "Petru's old fishing knife, the blade thin from sharpening. It has gutted more fish than you'll eat in your life. He gave it without looking up.",
+     "vertont": false
+    },
+    {
+     "key": "item:aftershave.lore",
+     "feld": "Aftershave “Bastia” · witzig",
+     "alt": "Once a day, advantage on Charm.",
+     "neu": "Aftershave “Bastia”: cedar, lime and the confidence of a man with a gold tooth. Alva sells it to sailors who want to be remembered.",
+     "vertont": false
+    },
+    {
+     "key": "item:plektrum.lore",
+     "feld": "Lola's Plectrum · wholesome",
+     "alt": "Once a day, advantage on Charm.",
+     "neu": "A purple plectrum with a tiny bite mark. Lola plays with it when she thinks nobody is listening. Everybody is listening.",
+     "vertont": false
+    },
+    {
+     "key": "item:megan_screenshot.lore",
+     "feld": "Wrong Chat · frech",
+     "alt": "She says it was a mistake. Megan McAllister doesn't make mistakes. Once a day: advantage on Charm with Megan.",
+     "neu": "She says it was a mistake. Megan McAllister doesn't make mistakes.",
+     "vertont": false
+    },
+    {
+     "key": "item:lucky_coin.lore",
+     "feld": "Lucky Coin from Alva · wholesome",
+     "alt": "Once a day, advantage on Courage.",
+     "neu": "An old ten-franc coin, worn smooth on one side. Alva's father kept it in the till for forty years. She doesn't say why she's giving it to you.",
+     "vertont": false
+    },
+    {
+     "key": "item:elsas_abzeichen.lore",
+     "feld": "Badge of the Gendarmerie Maritime · ernst/Lore",
+     "alt": "Once a day, advantage on Courage.",
+     "neu": "The badge of the Gendarmerie Maritime, enamel chipped at one corner. People stand differently when they see it. So, it turns out, do you.",
+     "vertont": false
+    },
+    {
+     "key": "item:dumenica_amulet.lore",
+     "feld": "Dumenica's Amulet · ernst/Lore",
+     "alt": "A little silver hand on a black cord. Mazzere wear it so they wake up from the hunt.",
+     "neu": "A little silver hand on a black cord. Mazzere wear it so they wake up from the hunt.",
+     "vertont": false
+    },
+    {
+     "key": "item:legion_kepi.lore",
+     "feld": "Wolff's Képi · ernst/Lore",
+     "alt": "A white képi with a frayed band. People stand up straighter when they see it.",
+     "neu": "A white képi with a frayed band. People stand up straighter when they see it.",
+     "vertont": false
+    },
+    {
+     "key": "item:tarot.lore",
+     "feld": "Tarot Cards · ernst/Lore",
+     "alt": "Once a day, advantage on Empathy.",
+     "neu": "A worn deck of tarot cards, the edges soft as cloth. One card is missing. Whoever took it knew exactly which one.",
+     "vertont": false
+    },
+    {
+     "key": "item:netzknoten.lore",
+     "feld": "Petru's Net Knot · wholesome",
+     "alt": "Once a day, advantage on Empathy.",
+     "neu": "A single knot cut out of one of Petru's nets, tight and neat as a heartbeat. He says a good knot holds without being pulled.",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "verbrauch",
+   "items": [
+    {
+     "key": "item:diesel_canister.lore",
+     "feld": "Can of Diesel · witzig",
+     "alt": "At Alva's, one can a day at most, and dearer than at Totò's.",
+     "neu": "A red jerry can, dented, smelling of the harbour. Alva's is dearer than Totò's. Alva's also didn't fall off anything.",
+     "vertont": false
+    },
+    {
+     "key": "item:used_battery.lore",
+     "feld": "Used Boat Battery · witzig",
+     "alt": "(kein Text)",
+     "neu": "Scratched, dented, still holding a charge. Mostly out of spite.",
+     "vertont": false
+    },
+    {
+     "key": "item:panel_cleaner.lore",
+     "feld": "Solar Panel Cleaner · witzig",
+     "alt": "(kein Text)",
+     "neu": "A spray bottle of solar panel cleaner and a squeegee. Glamorous it isn't. Neither is a dead battery at two in the morning.",
+     "vertont": false
+    },
+    {
+     "key": "item:ersatzteilkiste.lore",
+     "feld": "Box of Spare Parts · wholesome",
+     "alt": "Screws, seals, cable lugs. Rosi beams.",
+     "neu": "A box of screws, seals and cable lugs, sorted by nobody. To most people it's junk. To Rosi it's Christmas.",
+     "vertont": false
+    },
+    {
+     "key": "item:espresso.lore",
+     "feld": "Double Espresso · witzig",
+     "alt": "In a fight: +3 stamina, but your hands shake: parry window −10 % this round. Quick: costs no turn.",
+     "neu": "A double espresso in a paper cup, strong enough to restart a heart. Your hands will thank you later. Not now.",
+     "vertont": false
+    },
+    {
+     "key": "item:energieriegel.lore",
+     "feld": "Lola's Energy Bar · wholesome",
+     "alt": "(kein Text)",
+     "neu": "Oats, dates, honey and a pinch of salt, wrapped in baking paper with a smiley drawn on it. Lola makes a batch every Monday.",
+     "vertont": false
+    },
+    {
+     "key": "item:lolas_pesto.lore",
+     "feld": "Lola's “Special Pesto” · frech",
+     "alt": "(kein Text)",
+     "neu": "A jar of very green pesto with a handwritten label: “SPECIAL”. Lola winks when she hands it over. Do not ask what makes it special.",
+     "vertont": false
+    },
+    {
+     "key": "item:frischer_fang.lore",
+     "feld": "Fresh Catch · wholesome",
+     "alt": "(kein Text)",
+     "neu": "Today's catch on a bed of ice, eyes still bright. It was in the sea this morning. By tonight, it'll be dinner.",
+     "vertont": false
+    },
+    {
+     "key": "item:kuehlakkus.lore",
+     "feld": "Ice Packs from the Village · witzig",
+     "alt": "The supplies last a day longer when power runs low.",
+     "neu": "Blue ice packs from the village shop. In a heatwave with no power, they are worth more than gold. Gold doesn't keep the butter cold.",
+     "vertont": false
+    },
+    {
+     "key": "item:rose_festa.lore",
+     "feld": "The Mayor's Rose · frech",
+     "alt": "From Madame Casanova's hair, after the flamenco. Used once: Desire +6 with every woman.",
+     "neu": "A red rose from Madame Casanova's hair, thrown after the flamenco. Every woman on the boat saw where it landed.",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "teil",
+   "items": [
+    {
+     "key": "item:ersatzzellen.lore",
+     "feld": "Spare Cells for the House Battery · witzig",
+     "alt": "Two lithium cells, used, tested.",
+     "neu": "Two used lithium cells, tested, labelled in marker: “PROBABLY FINE”. That's Totò's highest grade of quality.",
+     "vertont": false
+    },
+    {
+     "key": "item:relais.lore",
+     "feld": "Compressor Relay · ernst/Lore",
+     "alt": "(kein Text)",
+     "neu": "A compressor relay the size of a matchbox. Without it, the cold room is just a room. With it, the crew eats tomorrow.",
+     "vertont": false
+    },
+    {
+     "key": "item:messingbuchstaben.lore",
+     "feld": "Brass Letters · wholesome",
+     "alt": "(kein Text)",
+     "neu": "A handful of brass letters, polished by Totò's sleeve. Enough to spell a name, if you choose carefully.",
+     "vertont": false
+    },
+    {
+     "key": "item:holzleim.lore",
+     "feld": "Pot of Bone Glue · ernst/Lore",
+     "alt": "(kein Text)",
+     "neu": "A pot of bone glue, the old kind that has to be warmed. It smells terrible. It holds forever. Petru won't use anything else.",
+     "vertont": false
+    },
+    {
+     "key": "item:eichenbrett.lore",
+     "feld": "An Old Oak Board · ernst/Lore",
+     "alt": "(kein Text)",
+     "neu": "An old oak board, dark with age, from a door that no longer exists. Alva had it in the back room. She said it was too good to burn.",
+     "vertont": false
+    },
+    {
+     "key": "item:tonerde.lore",
+     "feld": "A Sack of Clay · wholesome",
+     "alt": "(kein Text)",
+     "neu": "A sack of grey clay from the riverbank. Cold, heavy, and ready to become anything, if someone patient gets their hands on it.",
+     "vertont": false
+    },
+    {
+     "key": "item:uhrenbatterie.lore",
+     "feld": "Button Cell · witzig",
+     "alt": "(kein Text)",
+     "neu": "A button cell for a watch, sealed in plastic you can't open without a knife and swearing.",
+     "vertont": false
+    },
+    {
+     "key": "item:goldfarbe.lore",
+     "feld": "Gold Paint and a Fine Brush · wholesome",
+     "alt": "(kein Text)",
+     "neu": "A little tin of gold paint and a brush with three hairs. For the details nobody notices until they're missing.",
+     "vertont": false
+    },
+    {
+     "key": "item:safran.lore",
+     "feld": "Real Saffron · ernst/Lore",
+     "alt": "(kein Text)",
+     "neu": "A few threads of real saffron in a twist of paper, worth more than their weight in silver. Alva keeps it in the till, not the kitchen.",
+     "vertont": false
+    },
+    {
+     "key": "item:buchbinde_leinen.lore",
+     "feld": "Bookbinding Linen · wholesome",
+     "alt": "(kein Text)",
+     "neu": "A roll of bookbinding linen in faded blue. Stories need covers, too, or they fall apart.",
+     "vertont": false
+    },
+    {
+     "key": "item:netzgarn.lore",
+     "feld": "Roll of Net Twine · ernst/Lore",
+     "alt": "(kein Text)",
+     "neu": "A roll of tarred net twine. Every fisherman in the bay has mended a net with this, and every one of them has a theory about the right knot.",
+     "vertont": false
+    },
+    {
+     "key": "item:bilderrahmen.lore",
+     "feld": "A Simple Picture Frame · wholesome",
+     "alt": "(kein Text)",
+     "neu": "A plain wooden frame, nothing fancy. It doesn't need to be. What goes inside is the point.",
+     "vertont": false
+    },
+    {
+     "key": "item:armband.lore",
+     "feld": "Silicone Strap · witzig",
+     "alt": "(kein Text)",
+     "neu": "A silicone strap, fleet grey. Totò says it fell off a container in Livorno. Very gently.",
+     "vertont": false
+    },
+    {
+     "key": "item:fueller_rohling.lore",
+     "feld": "Pen Blank for Engraving · wholesome",
+     "alt": "(kein Text)",
+     "neu": "A pen blank, smooth, waiting to be engraved. Right now it's nobody's pen. Soon it'll be somebody's.",
+     "vertont": false
+    },
+    {
+     "key": "item:antennenkabel.lore",
+     "feld": "Antenna Cable, Seawater-Proof · witzig",
+     "alt": "(kein Text)",
+     "neu": "Seawater-proof antenna cable, a whole coil. Officially for the gendarmerie. Unofficially, don't ask Totò where he got it.",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "werkzeug",
+   "items": [
+    {
+     "key": "item:werkzeugkoffer.lore",
+     "feld": "Toolbox · wholesome",
+     "alt": "Advantage on repair jobs (or +2 if your craft already gives advantage).",
+     "neu": "A battered red toolbox with a dent in the lid and everything in its place. Someone loved these tools before you did.",
+     "vertont": false
+    },
+    {
+     "key": "item:kochmesser.lore",
+     "feld": "Japanese Chef's Knife · ernst/Lore",
+     "alt": "Advantage on cooking jobs (or +2 if your cooking already gives advantage).",
+     "neu": "A Japanese chef's knife, the steel folded until it shows a pattern like water. It doesn't cut so much as agree with the onion.",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "kampf",
+   "items": [
+    {
+     "key": "item:plaster.lore",
+     "feld": "Plaster · witzig",
+     "alt": "In a fight: heals 10 % of your HP and stops bleeding. Quick: costs no turn.",
+     "neu": "A box of plasters with cartoon dolphins on them. They work just as well as the boring ones, and they look better on a hero.",
+     "vertont": false
+    },
+    {
+     "key": "item:bandage.lore",
+     "feld": "Bandage · wholesome",
+     "alt": "In a fight: heals 25 % of your HP and stops bleeding.",
+     "neu": "A rolled bandage, still sealed. Every boat has a drawer of these. Every captain hopes they stay in it.",
+     "vertont": false
+    },
+    {
+     "key": "item:verbandskasten.lore",
+     "feld": "First Aid Kit · ernst/Lore",
+     "alt": "In a fight: heals 40 % of your HP and stops bleeding and burning.",
+     "neu": "A green first aid kit with the Eden anchor on the lid. Somebody has written “USE ME” on it in red marker. Somebody has clearly needed to.",
+     "vertont": false
+    },
+    {
+     "key": "item:cooling_spray.lore",
+     "feld": "Cooling Spray · witzig",
+     "alt": "In a fight: puts out every flame on you, and you can't catch fire for 2 rounds. Quick: costs no turn.",
+     "neu": "A can of cooling spray meant for sprained ankles. Turns out it does wonders for being on fire.",
+     "vertont": false
+    },
+    {
+     "key": "item:smoke_pot.lore",
+     "feld": "Smoke Pot · ernst/Lore",
+     "alt": "In a fight: their next attack hits only smoke, and next turn you can run without a roll (not from bosses).",
+     "neu": "A tin smoke pot, the kind used to signal from lifeboats. Pull the ring and the world turns grey for a while.",
+     "vertont": false
+    },
+    {
+     "key": "item:antidote.lore",
+     "feld": "Herbal Tincture · ernst/Lore",
+     "alt": "Isabelle's remedy from the monastery pharmacy. In a fight: ends every bad state on you.",
+     "neu": "A dark tincture in a corked bottle from the monastery pharmacy. Bitter enough to make your eyes water. That's how you know it works.",
+     "vertont": false
+    },
+    {
+     "key": "item:espresso_single.lore",
+     "feld": "Espresso · witzig",
+     "alt": "In a fight: +2 stamina. Quick: costs no turn.",
+     "neu": "A single espresso. Small, black, and deeply judgemental.",
+     "vertont": false
+    },
+    {
+     "key": "item:americano.lore",
+     "feld": "Americano · witzig",
+     "alt": "In a fight: +1 stamina every round for 4 rounds. Quick: costs no turn.",
+     "neu": "An espresso with water added, which any Italian on board will tell you is a crime. Still, it keeps you going.",
+     "vertont": false
+    },
+    {
+     "key": "item:mate.lore",
+     "feld": "Mate · ernst/Lore",
+     "alt": "In a fight: clears your head of stun and blindness, +1 stamina.",
+     "neu": "Mate in a gourd with a metal straw. Bitter, grassy, and it clears your head faster than a slap.",
+     "vertont": false
+    },
+    {
+     "key": "item:green_tea.lore",
+     "feld": "Green Tea · wholesome",
+     "alt": "In a fight: parry window +15 % for 3 rounds. Quick: costs no turn.",
+     "neu": "A cup of green tea, steam curling. It doesn't make you faster. It makes everything else slower.",
+     "vertont": false
+    },
+    {
+     "key": "item:dog_food.lore",
+     "feld": "Dog Food · witzig",
+     "alt": "In a fight, thrown at an animal: it eats instead of biting, skips a round and loses 4 composure.",
+     "neu": "A tin of dog food with a picture of a very happy labrador. Hungry animals take the deal more often than you'd think.",
+     "vertont": false
+    },
+    {
+     "key": "item:megaphone.lore",
+     "feld": "Megaphone · witzig",
+     "alt": "In a fight: a human loses 5 composure, an animal is exhausted for 2 rounds.",
+     "neu": "A white megaphone with the Eden logo. Megan's office sends them out for “crew motivation”. Nobody knows if that's a joke.",
+     "vertont": false
+    },
+    {
+     "key": "item:duct_tape.lore",
+     "feld": "Duct Tape · witzig",
+     "alt": "In a fight: you patch your jacket, protection +2 for the rest of the fight.",
+     "neu": "A roll of silver duct tape. It has held together boats, marriages and at least one rescue helicopter.",
+     "vertont": false
+    },
+    {
+     "key": "item:whetstone_blue.lore",
+     "feld": "Blue Whetstone · ernst/Lore",
+     "alt": "For sabres: +3 damage for 5 rounds. Use it before a fight or during one.",
+     "neu": "A blue whetstone, wet and smooth. Rosi cut it to fit a sabre. Draw the blade across it slowly, and it starts to sing.",
+     "vertont": false
+    },
+    {
+     "key": "item:whetstone.lore",
+     "feld": "Grey Whetstone · ernst/Lore",
+     "alt": "For knives: +3 damage for 5 rounds. Use it before a fight or during one.",
+     "neu": "A grey whetstone, small enough for a pocket. For knives that should stay quiet and sharp.",
+     "vertont": false
+    },
+    {
+     "key": "item:whetstone_red.lore",
+     "feld": "Red Whetstone · ernst/Lore",
+     "alt": "For the boar spear: +3 damage for 5 rounds. Use it before a fight or during one.",
+     "neu": "A red whetstone, heavy and coarse, cut for a boar spear. Every stroke takes off a little rust and a little doubt.",
+     "vertont": false
+    },
+    {
+     "key": "item:spikes.lore",
+     "feld": "Spikes · witzig",
+     "alt": "For blunt weapons: +3 damage for 5 rounds. Use it before a fight or during one.",
+     "neu": "Steel spikes that strap onto anything blunt. Rosi calls it “persuasion hardware”.",
+     "vertont": false
+    },
+    {
+     "key": "item:match_ammo.lore",
+     "feld": "Match Ammo · ernst/Lore",
+     "alt": "For the shotgun: +3 damage for 5 rounds. Use it before a fight or during one.",
+     "neu": "Hand-loaded match ammunition, every cartridge weighed. Rosi doesn't trust factory rounds. Rosi doesn't trust factories.",
+     "vertont": false
+    },
+    {
+     "key": "item:grenade_fire.lore",
+     "feld": "Fire Grenade · witzig",
+     "alt": "One of Rosi's home-made grenades. In a fight: 12 % of the enemy's HP straight through armour, and it burns (2 stacks).",
+     "neu": "One of Rosi's home-made grenades, warm to the touch for no good reason. The label says DO NOT SHAKE. It has been shaken.",
+     "vertont": false
+    },
+    {
+     "key": "item:grenade_water.lore",
+     "feld": "Water Grenade · witzig",
+     "alt": "Rosi filled it from an old fire extinguisher. In a fight: 12 % of the enemy's HP straight through armour, and it's wet.",
+     "neu": "Rosi filled it from an old fire extinguisher and a lot of optimism. It's wet. Spectacularly wet.",
+     "vertont": false
+    },
+    {
+     "key": "item:grenade_shock.lore",
+     "feld": "Shock Grenade · witzig",
+     "alt": "Two battery cells and a lot of tape. In a fight: 12 % of the enemy's HP straight through armour, and it's charged. On a wet enemy: short circuit.",
+     "neu": "Two battery cells and a lot of tape. Rosi says it's perfectly safe. Rosi also lost her eyebrows once.",
+     "vertont": false
+    },
+    {
+     "key": "item:grenade_flash.lore",
+     "feld": "Flash Grenade · ernst/Lore",
+     "alt": "No damage, just light. In a fight: the enemy is blinded for a round and its next blow does half damage.",
+     "neu": "No damage, just light. For one long second, everything goes white and very quiet.",
+     "vertont": false
+    },
+    {
+     "key": "item:grenade_concussion.lore",
+     "feld": "Concussion Grenade · witzig",
+     "alt": "Heavy, and it means it. In a fight: 12 % of the enemy's HP straight through armour, and it's shaken (armour gone).",
+     "neu": "Heavy, and it means it. Rosi drew a little smiley face on it, which is somehow worse.",
+     "vertont": false
+    },
+    {
+     "key": "item:grenade_shrapnel.lore",
+     "feld": "Shrapnel Grenade · ernst/Lore",
+     "alt": "Packed with boat nails. In a fight: 18 % of the enemy's HP straight through armour, and it bleeds. Useless against machines.",
+     "neu": "Packed with boat nails from Rosi's workshop. Useless against machines. Not useless against anything else.",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "material",
+   "items": [
+    {
+     "key": "item:steel_plate.lore",
+     "feld": "Steel Plate · witzig",
+     "alt": "A steel plate for Rosi's workshop: the first upgrade for a jacket or Gemelli.",
+     "neu": "A plain steel plate, heavy and honest. Rosi taps it twice, listens, and nods like a doctor.",
+     "vertont": false
+    },
+    {
+     "key": "item:titanium_plate.lore",
+     "feld": "Titanium Plate · ernst/Lore",
+     "alt": "A titanium plate for Rosi's workshop: the second upgrade for a jacket or Gemelli.",
+     "neu": "Black titanium, light for its strength, blue at the edges. Taken from something that was built to win.",
+     "vertont": false
+    },
+    {
+     "key": "item:jade.lore",
+     "feld": "Jade · ernst/Lore",
+     "alt": "A stone for Rosi: it replaces Terremoto's base stone (first upgrade).",
+     "neu": "A smooth green jade, cool in the hand. Rosi says stone remembers the ground it came from.",
+     "vertont": false
+    },
+    {
+     "key": "item:topas.lore",
+     "feld": "Topaz · wholesome",
+     "alt": "A stone for Rosi: it replaces Le Large's base stone (first upgrade).",
+     "neu": "A golden topaz, warm as late sun. It looks like it's been holding a little light all this time.",
+     "vertont": false
+    },
+    {
+     "key": "item:aquamarin.lore",
+     "feld": "Aquamarine · wholesome",
+     "alt": "A stone for Rosi: it replaces Riposte's base stone (first upgrade).",
+     "neu": "A pale aquamarine, the colour of the bay at seven in the morning, before the boats come out.",
+     "vertont": false
+    },
+    {
+     "key": "item:amethyst.lore",
+     "feld": "Amethyst · ernst/Lore",
+     "alt": "A stone for Rosi: it replaces Sussurro's base stone (first upgrade).",
+     "neu": "A violet amethyst. Sailors once wore them against drunkenness. It didn't work, but they kept wearing them.",
+     "vertont": false
+    },
+    {
+     "key": "item:smaragd.lore",
+     "feld": "Emerald · ernst/Lore",
+     "alt": "A precious stone for Rosi: Terremoto's final stone (second upgrade).",
+     "neu": "A deep green emerald, flawed inside like a forest. Rosi won't cut it. She says the flaw is where the strength is.",
+     "vertont": false
+    },
+    {
+     "key": "item:rubin.lore",
+     "feld": "Ruby · ernst/Lore",
+     "alt": "A precious stone for Rosi: Le Large's final stone (second upgrade).",
+     "neu": "A blood-red ruby. It glows even in the dark of the workshop, as if it were still deciding something.",
+     "vertont": false
+    },
+    {
+     "key": "item:saphir.lore",
+     "feld": "Sapphire · ernst/Lore",
+     "alt": "A precious stone for Rosi: Riposte's final stone (second upgrade).",
+     "neu": "A royal blue sapphire, cold and certain. The kind of stone that ends arguments.",
+     "vertont": false
+    },
+    {
+     "key": "item:opal.lore",
+     "feld": "Opal · wholesome",
+     "alt": "A precious stone for Rosi: Sussurro's final stone (second upgrade).",
+     "neu": "A white opal full of small fires, blue, green and pink. Turn it in the light and it never shows the same thing twice.",
+     "vertont": false
+    },
+    {
+     "key": "item:kupfer.lore",
+     "feld": "Copper · witzig",
+     "alt": "A copper ingot for Rosi: the first upgrade for Gemelli.",
+     "neu": "A copper ingot, orange-red and shiny as a new coin. Rosi polished it with her sleeve. Then she polished it again.",
+     "vertont": false
+    },
+    {
+     "key": "item:silber.lore",
+     "feld": "Silver · ernst/Lore",
+     "alt": "A silver ingot for Rosi: the second upgrade for Gemelli.",
+     "neu": "A silver ingot, warm white and heavy. Pure enough that Rosi took off her gloves to hold it.",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "schluessel",
+   "items": [
+    {
+     "key": "item:petru_key.lore",
+     "feld": "Key to Petru's Workshop · ernst/Lore",
+     "alt": "(kein Text)",
+     "neu": "Iron, heavy, tied to a cork float so it won't sink. Petru doesn't give his key to people. He gives it to people he'd let into his boat.",
+     "vertont": false
+    },
+    {
+     "key": "item:festa_invite.lore",
+     "feld": "The Mayor's Invitation to the Festa · witzig",
+     "alt": "(kein Text)",
+     "neu": "Thick cream card, a red wax seal, a sprig of myrtle. Madame Casanova signed it with three exclamation marks. One would have been a lot.",
+     "vertont": false
+    },
+    {
+     "key": "item:alvas_schluessel.lore",
+     "feld": "Key to Alva's Back Room · frech",
+     "alt": "(kein Text)",
+     "neu": "A small brass key on a red ribbon. The back room of Alva's bar has a sofa, a record player and a lock that very few people have seen from the inside.",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "schmuggel",
+   "items": [
+    {
+     "key": "item:sat_data.lore",
+     "feld": "Satellite Data Package · ernst/Lore",
+     "alt": "Phone features for one day.",
+     "neu": "A sealed satellite data package with a serial number filed off. Totò calls it “internet from the sky”. The sky did not agree to this.",
+     "vertont": false
+    },
+    {
+     "key": "item:cuban_rum.lore",
+     "feld": "Cuban Rum · frech",
+     "alt": "(kein Text)",
+     "neu": "Dark rum with a hand-written label and no tax stamp anywhere. It tastes of molasses, wood and very bad decisions made in very good company.",
+     "vertont": false
+    },
+    {
+     "key": "item:cigars.lore",
+     "feld": "Cohiba Cigars · ernst/Lore",
+     "alt": "Village Reputation +2 with the old men at the harbour",
+     "neu": "A box of Cohibas, the seal unbroken. The old men at the harbour would sell their grandmothers for one. Some have tried.",
+     "vertont": false
+    },
+    {
+     "key": "item:limoncello_kiste.lore",
+     "feld": "Crate of Limoncello without a Tax Stamp · witzig",
+     "alt": "to Alva: +240 €",
+     "neu": "Twelve bottles of limoncello, no tax stamp, a crate marked “OLIVES”. The olives are very convincing. Mostly yellow.",
+     "vertont": false
+    },
+    {
+     "key": "item:taschen.lore",
+     "feld": "Three “Designer” Handbags · witzig",
+     "alt": "to Yasin or Casanova: Trust +8",
+     "neu": "Three “designer” handbags, each logo slightly misspelt. From a distance, perfect. From close up, a lot of character.",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "andenken",
+   "items": [
+    {
+     "key": "item:muschelkrone.lore",
+     "feld": "Shell Crown of the Festa · witzig",
+     "alt": "Glitter, shells and dignity.",
+     "neu": "A crown of shells, glitter and hot glue from the Festa. Glitter, shells and dignity, in that order.",
+     "vertont": false
+    },
+    {
+     "key": "item:rosis_foto.lore",
+     "feld": "A Photo You Shouldn't Delete · frech",
+     "alt": "Rosi knows you have it.",
+     "neu": "A photo you were told to delete. Rosi knows you didn't. She hasn't asked. That's the interesting part.",
+     "vertont": false
+    },
+    {
+     "key": "item:siris_karte.lore",
+     "feld": "Siri's Thank-You Card · wholesome",
+     "alt": "“Thank you for my first birthday without a camera.”",
+     "neu": "A small card in neat handwriting: “Thank you for my first birthday without a camera.”",
+     "vertont": false
+    },
+    {
+     "key": "item:holms_foto.lore",
+     "feld": "Photo of Holm's First Command · ernst/Lore",
+     "alt": "A rusty freighter off Bergen, a young woman in a cap.",
+     "neu": "A rusty freighter off Bergen, a young woman in a cap squinting at the camera. Holm's first command, and she looks like she already knew.",
+     "vertont": false
+    },
+    {
+     "key": "item:siris_haarband.lore",
+     "feld": "Siri's Hairband · wholesome",
+     "alt": "She tucked it into your hair while you were dancing.",
+     "neu": "A hairband she tucked into your hair while you were dancing. She laughed when it slipped over one eye. You kept it.",
+     "vertont": false
+    },
+    {
+     "key": "item:drohnen_propeller.lore",
+     "feld": "Propeller from Megan's Drone · witzig",
+     "alt": "A trophy. Megan wants it back. Never.",
+     "neu": "A carbon propeller from Megan's surveillance drone. A trophy. Megan wants it back. Never.",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "quest",
+   "items": [
+    {
+     "key": "item:tritons_dreizack.lore",
+     "feld": "Triton's Trident (Siren Drop) · ernst/Lore",
+     "alt": "A former weapon, later planned as the master weapon for Le Large.",
+     "neu": "A trident of green bronze, crusted with tiny shells, cold even in the sun. It rose from the black pool at high tide. Nobody saw who let go of it.",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "snack",
+   "items": [
+    {
+     "key": "item:fairy_bread.lore",
+     "feld": "Fairy Bread · wholesome",
+     "alt": "Buttered toast with hundreds and thousands. Lea thinks of birthdays.",
+     "neu": "White toast, butter, and hundreds and thousands of sprinkles. In Australia it means a children's birthday. On this boat it means someone needs cheering up.",
+     "vertont": false
+    },
+    {
+     "key": "item:lamingtons.lore",
+     "feld": "Lamingtons · wholesome",
+     "alt": "Chocolate squares rolled in coconut.",
+     "neu": "Squares of sponge cake dipped in chocolate and rolled in coconut. Lola makes them in the exact size of a bad day.",
+     "vertont": false
+    },
+    {
+     "key": "item:pavlova.lore",
+     "feld": "Pavlova with Figs and Myrtle · wholesome",
+     "alt": "From Lola's galley. Eat it yourself: energy +1.",
+     "neu": "A cloud of meringue with cream, fresh figs and a drizzle of myrtle syrup. Australia and Corsica on one plate, and neither of them is complaining.",
+     "vertont": false
+    },
+    {
+     "key": "item:anzac.lore",
+     "feld": "Anzac Biscuits · ernst/Lore",
+     "alt": "Oat biscuits. Holm's biscuit for every night watch.",
+     "neu": "Oat and golden syrup biscuits that keep for weeks. Soldiers' wives once baked them because they survived the long voyage. Night watches love them for the same reason.",
+     "vertont": false
+    },
+    {
+     "key": "item:vegemite_schnecken.lore",
+     "feld": "Vegemite Cheese Scrolls · witzig",
+     "alt": "From Lola's galley. Eat it yourself: energy +1.",
+     "neu": "Soft pastry scrolls with cheese and a thin swirl of Vegemite. The Corsicans eye them with suspicion. Then they take a second one.",
+     "vertont": false
+    },
+    {
+     "key": "item:tim_tam_slam.lore",
+     "feld": "Tim Tam Slam Set · witzig",
+     "alt": "Biscuits and hot cocoa to suck through them.",
+     "neu": "Two chocolate biscuits and a mug of hot cocoa. Bite off the corners, suck the cocoa through, eat fast before it collapses. It always collapses.",
+     "vertont": false
+    },
+    {
+     "key": "item:ocean_popcorn.lore",
+     "feld": "Ocean Glitter Popcorn · witzig",
+     "alt": "From Lola's galley. Eat it yourself: energy +1.",
+     "neu": "Popcorn tossed in Lola's Ocean Glitter spice. It sparkles, it crackles, and it sticks to your fingers like confetti after a parade.",
+     "vertont": false
+    },
+    {
+     "key": "item:kevins_rache.lore",
+     "feld": "Kevin's Revenge · witzig",
+     "alt": "Biscuits shaped like seagulls.",
+     "neu": "Shortbread biscuits cut in the shape of seagulls. Bite the heads off first. Kevin is watching. Kevin knows.",
+     "vertont": false
+    },
+    {
+     "key": "item:rote_gruetze.lore",
+     "feld": "Red Berry Pudding with Vanilla Sauce · wholesome",
+     "alt": "From Lola's galley. Eat it yourself: energy +1.",
+     "neu": "Red berry pudding with cold vanilla sauce, the way they make it up north. Lola learned it from a cookbook and a long phone call.",
+     "vertont": false
+    },
+    {
+     "key": "item:madeleines.lore",
+     "feld": "Lavender Madeleines · wholesome",
+     "alt": "From Lola's galley. Eat it yourself: energy +1.",
+     "neu": "Little shell-shaped cakes with a hint of lavender. Best eaten warm, with tea, and with someone who doesn't need to talk.",
+     "vertont": false
+    },
+    {
+     "key": "item:cannoli.lore",
+     "feld": "Cannoli with a Spanner Biscuit · witzig",
+     "alt": "From Lola's galley. Eat it yourself: energy +1.",
+     "neu": "Crisp Sicilian pastry tubes filled with ricotta, served with a biscuit shaped like a spanner. Lola thinks this is a joke. It is, a little.",
+     "vertont": false
+    },
+    {
+     "key": "item:plankton_gelee.lore",
+     "feld": "Glowing Plankton Jelly · witzig",
+     "alt": "From Lola's galley. Eat it yourself: energy +1.",
+     "neu": "A jelly that glows a faint blue in the dark, thanks to tonic water and science. Lola calls it plankton. It is not plankton. Probably.",
+     "vertont": false
+    },
+    {
+     "key": "item:seegras_chips.lore",
+     "feld": "Seaweed Crisps with Lime · wholesome",
+     "alt": "From Lola's galley. Eat it yourself: energy +1.",
+     "neu": "Crispy seaweed with lime and sea salt, thin as paper. They taste like the first swim of the morning.",
+     "vertont": false
+    },
+    {
+     "key": "item:protein_pancakes.lore",
+     "feld": "Protein Pancakes, No Fun Included · witzig",
+     "alt": "From Lola's galley. Eat it yourself: energy +1.",
+     "neu": "Protein pancakes, no sugar, no butter, no fun included. Lola made them under protest and drew a sad face in the syrup.",
+     "vertont": false
+    },
+    {
+     "key": "item:ghost_brownies.lore",
+     "feld": "Ghost Pepper Brownies · witzig",
+     "alt": "From Lola's galley. Eat it yourself: energy +1.",
+     "neu": "Dark chocolate brownies with ghost pepper. The first bite is heaven. The second bite is a war crime.",
+     "vertont": false
+    },
+    {
+     "key": "item:fiadone.lore",
+     "feld": "Fiadone · ernst/Lore",
+     "alt": "Corsican cheesecake with lemon.",
+     "neu": "Corsican cheesecake made with brocciu and lemon zest, the recipe older than anyone in the village. Lola had to beg for it.",
+     "vertont": false
+    },
+    {
+     "key": "item:tiramisu_martini.lore",
+     "feld": "Espresso Martini Tiramisu · frech",
+     "alt": "From Lola's galley. Eat it yourself: energy +1.",
+     "neu": "Tiramisu in a cocktail glass, soaked in espresso and coffee liqueur. Dessert and nightcap in one, for people who can't decide.",
+     "vertont": false
+    },
+    {
+     "key": "item:unit01_muffins.lore",
+     "feld": "Unit-01 Muffins · witzig",
+     "alt": "Black, and they taste of vanilla.",
+     "neu": "Pitch-black muffins with a round orange eye of icing. They look like the generator. They taste of vanilla. Unit-01 has not commented.",
+     "vertont": false
+    },
+    {
+     "key": "item:mango_sorbet.lore",
+     "feld": "Mango Chilli Sorbet · frech",
+     "alt": "From Lola's galley. Eat it yourself: energy +1.",
+     "neu": "Mango sorbet with a slow burn of chilli. Sweet first, then trouble. Lola serves it with a wink and a glass of water.",
+     "vertont": false
+    },
+    {
+     "key": "item:space_cake.lore",
+     "feld": "Space Cake “Universe Edition” · frech",
+     "alt": "From Lola's galley. Eat it yourself: energy +1.",
+     "neu": "A slice of cake with dark blue icing and edible stars. The “Universe Edition”. Lola says to eat it slowly and look at the sky afterwards. Trust her.",
+     "vertont": false
+    },
+    {
+     "key": "item:brownie_calm.lore",
+     "feld": "Brownie “Captain's Calm” · frech",
+     "alt": "From Lola's galley. Eat it yourself: energy +1.",
+     "neu": "A brownie called “Captain's Calm”. Very soft, very chocolate, and very, very relaxing. Do not operate heavy machinery. Or yachts.",
+     "vertont": false
+    },
+    {
+     "key": "item:toastie.lore",
+     "feld": "Midnight Toastie with Cheese and Fig · wholesome",
+     "alt": "From Lola's galley. Eat it yourself: energy +1.",
+     "neu": "A midnight toastie with melted cheese and fig jam, cut into triangles, because triangles taste better. Everyone knows that.",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "gericht",
+   "items": [
+    {
+     "key": "item:bun_rieu.lore",
+     "feld": "Bún Riêu · ernst/Lore",
+     "alt": "Vietnamese noodle soup with crab and tomato.",
+     "neu": "Vietnamese noodle soup with crab, tomato and a red, slightly sour broth. A dish from a street stall in Hanoi, carried across the world in someone's memory.",
+     "vertont": false
+    },
+    {
+     "key": "item:thit_kho.lore",
+     "feld": "Thịt Kho · wholesome",
+     "alt": "Caramelised pork belly with egg, served with rice.",
+     "neu": "Pork belly braised in caramel and fish sauce until it falls apart, with eggs and rice. Families in Vietnam make it for the New Year and eat it for days.",
+     "vertont": false
+    },
+    {
+     "key": "item:bibimbap.lore",
+     "feld": "Bibimbap · witzig",
+     "alt": "Petru: “Why is it in a bowl?”",
+     "neu": "Rice, vegetables, beef and a fried egg in a hot stone bowl, mixed at the table. Petru looked at it for a long time and asked why it's in a bowl.",
+     "vertont": false
+    },
+    {
+     "key": "item:summer_rolls.lore",
+     "feld": "Summer Rolls · wholesome",
+     "alt": "Fresh rice paper rolls with prawns and herbs.",
+     "neu": "Rice paper rolls with prawns, mint and lettuce, almost see-through. Light enough to eat on a hot deck. Dangerous with peanut sauce.",
+     "vertont": false
+    },
+    {
+     "key": "item:ramen.lore",
+     "feld": "Ramen · ernst/Lore",
+     "alt": "The broth needs patience. Rosi knows ramen from her manga.",
+     "neu": "A broth that simmered for hours, noodles, a soft egg and a slice of pork. Good ramen is patience you can drink.",
+     "vertont": false
+    },
+    {
+     "key": "item:chili_noodles.lore",
+     "feld": "Chilli Noodles · witzig",
+     "alt": "Too hot for a seasick fleet manager.",
+     "neu": "Wok noodles with chilli oil and spring onions, hot enough to make your nose run. Not for the seasick. Not for the faint of heart either.",
+     "vertont": false
+    },
+    {
+     "key": "item:bouillabaisse.lore",
+     "feld": "Bouillabaisse · ernst/Lore",
+     "alt": "Provençal fish stew with rouille.",
+     "neu": "Provençal fish stew with saffron, rouille and toasted bread. The fishermen of Marseille made it from the fish they couldn't sell. Now it's the most expensive thing on the menu.",
+     "vertont": false
+    },
+    {
+     "key": "item:bao_buns.lore",
+     "feld": "Bao Buns · wholesome",
+     "alt": "Steamed buns with pork belly. Lola: “Fluffy clouds, Boss.”",
+     "neu": "Soft steamed buns with glazed pork belly, cucumber and coriander. Fluffy as clouds. Gone in two bites.",
+     "vertont": false
+    },
+    {
+     "key": "item:fish_pie.lore",
+     "feld": "Fish Pie · ernst/Lore",
+     "alt": "Fish under a potato crust. Petru: “Hm.” That means: another one.",
+     "neu": "White fish and prawns under a golden crust of mashed potato. Someone in the village made it every Sunday for years. Nobody makes it quite like that anymore.",
+     "vertont": false
+    },
+    {
+     "key": "item:bolognese.lore",
+     "feld": "Spaghetti Bolognese · witzig",
+     "alt": "Totò: “In Napoli, this is a crime.”",
+     "neu": "Spaghetti with a long-simmered meat sauce. Totò says that in Naples this is a crime. He eats two plates anyway.",
+     "vertont": false
+    },
+    {
+     "key": "item:pytt_i_panna.lore",
+     "feld": "Pyttipanne · wholesome",
+     "alt": "Fried potatoes with sausage, onion, a fried egg and beetroot.",
+     "neu": "Diced potatoes, sausage and onion fried in one pan, with a fried egg and beetroot. Scandinavian comfort food, best eaten after a cold watch.",
+     "vertont": false
+    },
+    {
+     "key": "item:fiskesuppe.lore",
+     "feld": "Fiskesuppe · wholesome",
+     "alt": "Norwegian fish soup with salmon, cream and dill.",
+     "neu": "Norwegian fish soup with salmon, cream and dill. It tastes of a harbour in the rain and a kitchen that's warm.",
+     "vertont": false
+    },
+    {
+     "key": "item:lauchsuppe.lore",
+     "feld": "Cullen Skink · ernst/Lore",
+     "alt": "Smoked haddock, potatoes and milk, the Scottish way. The only thing Megan keeps down at sea.",
+     "neu": "Cullen Skink: smoked haddock, potatoes and milk, the Scottish way. A fisherman's soup from a cold coast, gentle on the stomach.",
+     "vertont": false
+    },
+    {
+     "key": "item:baguettes.lore",
+     "feld": "Baguettes · witzig",
+     "alt": "Bread is the hardest discipline.",
+     "neu": "Fresh baguettes, crust that shatters, crumb that sighs. Bread is the hardest discipline. Everything else is just cooking.",
+     "vertont": false
+    }
+   ]
+  }
+ ]
+}

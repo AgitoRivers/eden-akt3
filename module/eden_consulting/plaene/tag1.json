@@ -1,0 +1,880 @@
+{
+ "tag": 1,
+ "spannung": "Article, capital and personal credibility collide. Do not reveal private lore.",
+ "spannung_spieler": "Tag 1 · Der Artikel ist da. In sieben Tagen braucht Eden einen tragfähigen Plan.",
+ "tagesende": [],
+ "phasen": {
+  "ankunft": {
+   "szenen": [
+    {
+     "id": "ankunft",
+     "titel": "Der Morgen danach",
+     "ort": "reception",
+     "anwesend": [
+      "jade",
+      "sophia",
+      "morgan"
+     ],
+     "improvisiert": true,
+     "zeit": "Tag 1",
+     "ausgangslage": "08:10 Uhr. Der Artikel ist gerade erschienen. Jade legt ihr Handy mit dem Display nach unten, als du eintrittst. Sophia hat drei unvereinbare Anfragen für deine nächste Stunde. Morgan braucht eine erste Antwort für die Investoren. Währenddessen druckt der Besucherausweisdrucker beharrlich das gestrige Datum.",
+     "frage": "Wem gibst du die erste verbindliche Zusage?",
+     "figuren": {
+      "jade": {
+       "will": "Do her job and be treated as a person.",
+       "verbirgt": "Private matters remain private. Only use this character's own knowledge; no spontaneous revelations.",
+       "grenze": "Professional at work. Off duty, no intimacy beyond freely chosen closeness or a brief kiss today."
+      },
+      "sophia": {
+       "will": "Protect his time while asking to be heard as a person.",
+       "verbirgt": "Private matters remain private. Only use this character's own knowledge; no spontaneous revelations.",
+       "grenze": "Professional at work. Off duty, no intimacy beyond freely chosen closeness or a brief kiss today."
+      },
+      "morgan": {
+       "will": "Present a defensible plan to investors without relying on her surname.",
+       "verbirgt": "Private matters remain private. Only use this character's own knowledge; no spontaneous revelations.",
+       "grenze": "Professional at work. Off duty, no intimacy beyond freely chosen closeness or a brief kiss today."
+      }
+     },
+     "max_zuege": 5,
+     "ausgaenge": [],
+     "wahlmoment": {
+      "nach_zug": 2,
+      "frage": "Wem gibst du die erste verbindliche Zusage?",
+      "optionen": [
+       {
+        "text": "Zuerst das Team: heute eine offene Fragerunde.",
+        "handlung": "Duc promises an open staff briefing today before an investor statement.",
+        "folgen": [
+         {
+          "wert": "team",
+          "delta": 1
+         },
+         {
+          "wert": "rueckhalt.bella",
+          "delta": 1
+         },
+         {
+          "wert": "fuehrung",
+          "delta": -1
+         },
+         {
+          "flag": "team_zuerst"
+         },
+         {
+          "codex": "Zuerst das Team: heute eine offene Fragerunde."
+         }
+        ],
+        "folgen_fehlschlag": []
+       },
+       {
+        "text": "Zuerst Investoren: Zahlen prüfen, dann sprechen.",
+        "handlung": "Duc asks Morgan and Priscilla to verify the financial situation before making promises.",
+        "folgen": [
+         {
+          "wert": "fuehrung",
+          "delta": 1
+         },
+         {
+          "wert": "rueckhalt.morgan",
+          "delta": 1
+         },
+         {
+          "wert": "team",
+          "delta": -1
+         },
+         {
+          "flag": "zahlen_zuerst"
+         },
+         {
+          "codex": "Zuerst Investoren: Zahlen prüfen, dann sprechen."
+         }
+        ],
+        "folgen_fehlschlag": []
+       },
+       {
+        "text": "Keine Schnellantwort: Greta prüft eine sachliche Stellungnahme.",
+        "handlung": "Duc refuses to dismiss the article or promise outcomes before checking facts.",
+        "folgen": [
+         {
+          "wert": "kunden",
+          "delta": 1
+         },
+         {
+          "wert": "rueckhalt.greta",
+          "delta": 1
+         },
+         {
+          "flag": "pruefung_zuerst"
+         },
+         {
+          "codex": "Keine Schnellantwort: Greta prüft eine sachliche Stellungnahme."
+         }
+        ],
+        "folgen_fehlschlag": []
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "lage": {
+   "szenen": [
+    {
+     "id": "finanzrunde",
+     "titel": "Was wir uns noch leisten können",
+     "ort": "executive_boardroom",
+     "anwesend": [
+      "priscilla",
+      "morgan",
+      "linda"
+     ],
+     "improvisiert": true,
+     "zeit": "Tag 1",
+     "ausgangslage": "09:00 Uhr. Das Kerngeschäft trägt sich, doch die europäische Expansion braucht frisches Kapital. Der Artikel erschwert die Finanzierung. In sieben Tagen müssen die Bedingungen stehen. Priscilla legt den Handlungsspielraum offen, Linda warnt vor überlasteten Teams. Morgan kann verhandeln, aber kein kostenloses Kapital versprechen.",
+     "frage": "Welchen Auftrag gibst du für die Prüfung am Nachmittag?",
+     "figuren": {
+      "priscilla": {
+       "will": "Make the numbers viable without pretending cuts are painless.",
+       "verbirgt": "Private matters remain private. Only use this character's own knowledge; no spontaneous revelations.",
+       "grenze": "Professional at work. Off duty, no intimacy beyond freely chosen closeness or a brief kiss today."
+      },
+      "morgan": {
+       "will": "Present a defensible plan to investors without relying on her surname.",
+       "verbirgt": "Private matters remain private. Only use this character's own knowledge; no spontaneous revelations.",
+       "grenze": "Professional at work. Off duty, no intimacy beyond freely chosen closeness or a brief kiss today."
+      },
+      "linda": {
+       "will": "Protect delivery and the team while making a viable plan.",
+       "verbirgt": "Private matters remain private. Only use this character's own knowledge; no spontaneous revelations.",
+       "grenze": "Professional at work. Off duty, no intimacy beyond freely chosen closeness or a brief kiss today."
+      }
+     },
+     "max_zuege": 5,
+     "ausgaenge": [],
+     "wahlmoment": {
+      "nach_zug": 2,
+      "frage": "Welchen Auftrag gibst du für die Prüfung am Nachmittag?",
+      "optionen": [
+       {
+        "text": "Kapitalangebote prüfen – keine Blankovollmacht.",
+        "handlung": "Duc commissions financing offers with explicit limits on investor control.",
+        "folgen": [
+         {
+          "wert": "rueckhalt.morgan",
+          "delta": 1
+         },
+         {
+          "wert": "fuehrung",
+          "delta": 1
+         },
+         {
+          "wert": "finanzen",
+          "delta": -1
+         },
+         {
+          "flag": "auftrag_kapital"
+         },
+         {
+          "codex": "Kapitalangebote prüfen – keine Blankovollmacht."
+         }
+        ],
+        "folgen_fehlschlag": []
+       },
+       {
+        "text": "Einsparungen prüfen – Alternativen vor Entlassungen.",
+        "handlung": "Duc asks for a savings plan including reduced expansion and redeployment before dismissals.",
+        "folgen": [
+         {
+          "wert": "finanzen",
+          "delta": 1
+         },
+         {
+          "wert": "rueckhalt.linda",
+          "delta": 1
+         },
+         {
+          "wert": "team",
+          "delta": -1
+         },
+         {
+          "flag": "auftrag_effizienz"
+         },
+         {
+          "codex": "Einsparungen prüfen – Alternativen vor Entlassungen."
+         }
+        ],
+        "folgen_fehlschlag": []
+       },
+       {
+        "text": "Ein profitables Kerngeschäft priorisieren.",
+        "handlung": "Duc asks for a narrower client-led plan and its workload, without promising a contract.",
+        "folgen": [
+         {
+          "wert": "kunden",
+          "delta": 1
+         },
+         {
+          "wert": "rueckhalt.maya",
+          "delta": 1
+         },
+         {
+          "wert": "team",
+          "delta": -1
+         },
+         {
+          "flag": "auftrag_fokus"
+         },
+         {
+          "codex": "Ein profitables Kerngeschäft priorisieren."
+         }
+        ],
+        "folgen_fehlschlag": []
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "arbeit": {
+   "szenen": [
+    {
+     "id": "kultur",
+     "titel": "Die leeren vorderen Plätze",
+     "ort": "community_room",
+     "anwesend": [
+      "bella",
+      "jade"
+     ],
+     "improvisiert": true,
+     "zeit": "Tag 1",
+     "ausgangslage": "11:30 Uhr. Bella hat die üblichen Motivationsfolien weggeräumt. Jade fragt, ob die anonymen Fragen diesmal wirklich anonym bleiben. Die Mitarbeitenden brauchen Klarheit. Eine demonstrative Loyalitätsrunde würde heute das Gegenteil bewirken.",
+     "frage": "Welche Zusage kannst du wirklich halten?",
+     "figuren": {
+      "bella": {
+       "will": "Hold the team together without mandatory displays of happiness.",
+       "verbirgt": "Private matters remain private. Only use this character's own knowledge; no spontaneous revelations.",
+       "grenze": "Professional at work. Off duty, no intimacy beyond freely chosen closeness or a brief kiss today."
+      },
+      "jade": {
+       "will": "Do her job and be treated as a person.",
+       "verbirgt": "Private matters remain private. Only use this character's own knowledge; no spontaneous revelations.",
+       "grenze": "Professional at work. Off duty, no intimacy beyond freely chosen closeness or a brief kiss today."
+      }
+     },
+     "max_zuege": 5,
+     "ausgaenge": [],
+     "wahlmoment": {
+      "nach_zug": 2,
+      "frage": "Welche Zusage kannst du wirklich halten?",
+      "optionen": [
+       {
+        "text": "Zeit und Kapazität freigeben; einen anderen Termin verschieben.",
+        "handlung": "Duc allocates real time and accepts a visible tradeoff.",
+        "folgen": [
+         {
+          "wert": "team",
+          "delta": 1
+         },
+         {
+          "wert": "fuehrung",
+          "delta": -1
+         },
+         {
+          "wert": "vertrauen.bella",
+          "delta": 1
+         },
+         {
+          "flag": "kultur_zeit"
+         },
+         {
+          "codex": "Zeit und Kapazität freigeben; einen anderen Termin verschieben."
+         }
+        ],
+        "folgen_fehlschlag": []
+       },
+       {
+        "text": "Umfang begrenzen und den Grund offen erklären.",
+        "handlung": "Duc sets a narrower realistic scope and explains the constraint without blaming staff.",
+        "folgen": [
+         {
+          "wert": "finanzen",
+          "delta": 1
+         },
+         {
+          "wert": "rueckhalt.jade",
+          "delta": 1
+         },
+         {
+          "flag": "kultur_umfang"
+         },
+         {
+          "codex": "Umfang begrenzen und den Grund offen erklären."
+         }
+        ],
+        "folgen_fehlschlag": []
+       }
+      ]
+     }
+    },
+    {
+     "id": "kampagne",
+     "titel": "Nicht noch ein perfektes Bild",
+     "ort": "conference_room",
+     "anwesend": [
+      "greta",
+      "chiara"
+     ],
+     "improvisiert": true,
+     "zeit": "Tag 1",
+     "ausgangslage": "11:30 Uhr. Greta und Chiara betrachten einen bereits geplanten Kampagnenbeitrag. Er klingt, als wäre der Artikel nie erschienen. Reichweite könnte helfen – oder die Krise vergrößern. Chiara hat einen konkreten Einwand und möchte, dass er ernst genommen wird.",
+     "frage": "Welche Zusage kannst du wirklich halten?",
+     "figuren": {
+      "greta": {
+       "will": "Protect credibility with statements she can defend.",
+       "verbirgt": "Private matters remain private. Only use this character's own knowledge; no spontaneous revelations.",
+       "grenze": "Professional at work. Off duty, no intimacy beyond freely chosen closeness or a brief kiss today."
+      },
+      "chiara": {
+       "will": "Make the campaign useful instead of louder.",
+       "verbirgt": "Private matters remain private. Only use this character's own knowledge; no spontaneous revelations.",
+       "grenze": "Professional at work. Off duty, no intimacy beyond freely chosen closeness or a brief kiss today."
+      }
+     },
+     "max_zuege": 5,
+     "ausgaenge": [],
+     "wahlmoment": {
+      "nach_zug": 2,
+      "frage": "Welche Zusage kannst du wirklich halten?",
+      "optionen": [
+       {
+        "text": "Zeit und Kapazität freigeben; einen anderen Termin verschieben.",
+        "handlung": "Duc allocates real time and accepts a visible tradeoff.",
+        "folgen": [
+         {
+          "wert": "kunden",
+          "delta": 1
+         },
+         {
+          "wert": "finanzen",
+          "delta": -1
+         },
+         {
+          "wert": "vertrauen.greta",
+          "delta": 1
+         },
+         {
+          "flag": "kampagne_zeit"
+         },
+         {
+          "codex": "Zeit und Kapazität freigeben; einen anderen Termin verschieben."
+         }
+        ],
+        "folgen_fehlschlag": []
+       },
+       {
+        "text": "Umfang begrenzen und den Grund offen erklären.",
+        "handlung": "Duc sets a narrower realistic scope and explains the constraint without blaming staff.",
+        "folgen": [
+         {
+          "wert": "finanzen",
+          "delta": 1
+         },
+         {
+          "wert": "rueckhalt.chiara",
+          "delta": 1
+         },
+         {
+          "flag": "kampagne_umfang"
+         },
+         {
+          "codex": "Umfang begrenzen und den Grund offen erklären."
+         }
+        ],
+        "folgen_fehlschlag": []
+       }
+      ]
+     }
+    },
+    {
+     "id": "lieferung",
+     "titel": "Drei Menschen, zwei Deadlines",
+     "ort": "private_office",
+     "anwesend": [
+      "linda",
+      "maya",
+      "milena"
+     ],
+     "improvisiert": true,
+     "zeit": "Tag 1",
+     "ausgangslage": "11:30 Uhr. Zwei Kundentermine benötigen dasselbe Team. Milena bringt einen ambitionierten Plan mit, Maya fragt nach der tatsächlichen Wirkung und Linda muss die Arbeit verteilen. Alle drei haben gute Argumente. Niemand hat unbegrenzt Zeit.",
+     "frage": "Welche Zusage kannst du wirklich halten?",
+     "figuren": {
+      "linda": {
+       "will": "Protect delivery and the team while making a viable plan.",
+       "verbirgt": "Private matters remain private. Only use this character's own knowledge; no spontaneous revelations.",
+       "grenze": "Professional at work. Off duty, no intimacy beyond freely chosen closeness or a brief kiss today."
+      },
+      "maya": {
+       "will": "Insist on measurable impact and honest tradeoffs.",
+       "verbirgt": "Private matters remain private. Only use this character's own knowledge; no spontaneous revelations.",
+       "grenze": "Professional at work. Off duty, no intimacy beyond freely chosen closeness or a brief kiss today."
+      },
+      "milena": {
+       "will": "Earn responsibility through a concrete, excellent plan.",
+       "verbirgt": "Private matters remain private. Only use this character's own knowledge; no spontaneous revelations.",
+       "grenze": "Professional at work. Off duty, no intimacy beyond freely chosen closeness or a brief kiss today."
+      }
+     },
+     "max_zuege": 5,
+     "ausgaenge": [],
+     "wahlmoment": {
+      "nach_zug": 2,
+      "frage": "Welche Zusage kannst du wirklich halten?",
+      "optionen": [
+       {
+        "text": "Zeit und Kapazität freigeben; einen anderen Termin verschieben.",
+        "handlung": "Duc allocates real time and accepts a visible tradeoff.",
+        "folgen": [
+         {
+          "wert": "kunden",
+          "delta": 1
+         },
+         {
+          "wert": "team",
+          "delta": -1
+         },
+         {
+          "wert": "vertrauen.linda",
+          "delta": 1
+         },
+         {
+          "flag": "lieferung_zeit"
+         },
+         {
+          "codex": "Zeit und Kapazität freigeben; einen anderen Termin verschieben."
+         }
+        ],
+        "folgen_fehlschlag": []
+       },
+       {
+        "text": "Umfang begrenzen und den Grund offen erklären.",
+        "handlung": "Duc sets a narrower realistic scope and explains the constraint without blaming staff.",
+        "folgen": [
+         {
+          "wert": "finanzen",
+          "delta": 1
+         },
+         {
+          "wert": "rueckhalt.milena",
+          "delta": 1
+         },
+         {
+          "flag": "lieferung_umfang"
+         },
+         {
+          "codex": "Umfang begrenzen und den Grund offen erklären."
+         }
+        ],
+        "folgen_fehlschlag": []
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "entscheidung": {
+   "szenen": [
+    {
+     "id": "richtung",
+     "titel": "Deine Unterschrift",
+     "ort": "executive_boardroom",
+     "anwesend": [
+      "priscilla",
+      "morgan",
+      "linda"
+     ],
+     "improvisiert": true,
+     "zeit": "Tag 1",
+     "ausgangslage": "16:30 Uhr. Deine bisherigen Zusagen gelten weiter. Drei vorläufige Richtungen liegen auf dem Tisch, noch kein unterschriebener Vertrag. Linda will wissen, was mögliche Einsparungen für die Mitarbeitenden bedeuten. Morgan benennt den Preis neuen Kapitals. Priscilla wartet auf deine Entscheidung.",
+     "frage": "Welchen Weg soll Eden ab morgen ausarbeiten?",
+     "figuren": {
+      "priscilla": {
+       "will": "Make the numbers viable without pretending cuts are painless.",
+       "verbirgt": "Private matters remain private. Only use this character's own knowledge; no spontaneous revelations.",
+       "grenze": "Professional at work. Off duty, no intimacy beyond freely chosen closeness or a brief kiss today."
+      },
+      "morgan": {
+       "will": "Present a defensible plan to investors without relying on her surname.",
+       "verbirgt": "Private matters remain private. Only use this character's own knowledge; no spontaneous revelations.",
+       "grenze": "Professional at work. Off duty, no intimacy beyond freely chosen closeness or a brief kiss today."
+      },
+      "linda": {
+       "will": "Protect delivery and the team while making a viable plan.",
+       "verbirgt": "Private matters remain private. Only use this character's own knowledge; no spontaneous revelations.",
+       "grenze": "Professional at work. Off duty, no intimacy beyond freely chosen closeness or a brief kiss today."
+      }
+     },
+     "max_zuege": 5,
+     "ausgaenge": [],
+     "wahlmoment": {
+      "nach_zug": 2,
+      "frage": "Welchen Weg soll Eden ab morgen ausarbeiten?",
+      "optionen": [
+       {
+        "text": "Expansion: Investoren verhandeln mit – Kontrolle ist der Preis.",
+        "handlung": "Duc authorizes expansion financing negotiations, accepting potential dilution but no signed surrender today.",
+        "folgen": [
+         {
+          "wert": "finanzen",
+          "delta": 1
+         },
+         {
+          "wert": "fuehrung",
+          "delta": -1
+         },
+         {
+          "wert": "rueckhalt.morgan",
+          "delta": 1
+         },
+         {
+          "wert": "rueckhalt.maya",
+          "delta": -1
+         },
+         {
+          "flag": "strategie_expansion"
+         },
+         {
+          "codex": "Expansion: Investoren verhandeln mit – Kontrolle ist der Preis."
+         }
+        ],
+        "folgen_fehlschlag": []
+       },
+       {
+        "text": "Konsolidierung: Expansion stoppen, Stellenabbau offen prüfen.",
+        "handlung": "Duc freezes expansion and commissions a transparent staffing review with alternatives. No employee is fired today.",
+        "folgen": [
+         {
+          "wert": "finanzen",
+          "delta": 2
+         },
+         {
+          "wert": "team",
+          "delta": -2
+         },
+         {
+          "wert": "rueckhalt.bella",
+          "delta": -1
+         },
+         {
+          "wert": "rueckhalt.priscilla",
+          "delta": 1
+         },
+         {
+          "flag": "strategie_effizienz"
+         },
+         {
+          "codex": "Konsolidierung: Expansion stoppen, Stellenabbau offen prüfen."
+         }
+        ],
+        "folgen_fehlschlag": []
+       },
+       {
+        "text": "Fokus: kleineres Wachstum, ein belastbarer Kundenplan.",
+        "handlung": "Duc narrows expansion to a focused client plan, accepting limited runway and workload risk.",
+        "folgen": [
+         {
+          "wert": "kunden",
+          "delta": 1
+         },
+         {
+          "wert": "finanzen",
+          "delta": -1
+         },
+         {
+          "wert": "rueckhalt.maya",
+          "delta": 1
+         },
+         {
+          "wert": "rueckhalt.milena",
+          "delta": 1
+         },
+         {
+          "flag": "strategie_fokus"
+         },
+         {
+          "codex": "Fokus: kleineres Wachstum, ein belastbarer Kundenplan."
+         }
+        ],
+        "folgen_fehlschlag": []
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "abend": {
+   "szenen": [
+    {
+     "id": "abend_linda",
+     "titel": "Wenn niemand mehr etwas braucht",
+     "ort": "private_office",
+     "anwesend": [
+      "linda"
+     ],
+     "improvisiert": true,
+     "zeit": "Tag 1",
+     "ausgangslage": "20:15 Uhr. Linda schließt den Laptop. Neun Jahre gemeinsame Geschichte beantworten nicht jede Frage dieses Tages. Zum ersten Mal seit dem Morgen erwartet niemand sofort eine Entscheidung von dir. Die beruflichen Meinungsverschiedenheiten verschwinden deshalb nicht.",
+     "frage": "Was möchtest du ihr heute geben?",
+     "figuren": {
+      "linda": {
+       "will": "Protect delivery and the team while making a viable plan.",
+       "verbirgt": "Private matters remain private. Only use this character's own knowledge; no spontaneous revelations.",
+       "grenze": "Professional at work. Off duty, no intimacy beyond freely chosen closeness or a brief kiss today."
+      }
+     },
+     "max_zuege": 5,
+     "ausgaenge": [],
+     "wahlmoment": {
+      "nach_zug": 2,
+      "frage": "Was möchtest du ihr heute geben?",
+      "optionen": [
+       {
+        "text": "Zuhören, ohne sofort eine Lösung anzubieten.",
+        "handlung": "Duc asks what this day was like for her and listens without bargaining.",
+        "folgen": [
+         {
+          "wert": "vertrauen.linda",
+          "delta": 1
+         },
+         {
+          "flag": "zugehoert_linda"
+         },
+         {
+          "codex": "Zuhören, ohne sofort eine Lösung anzubieten."
+         }
+        ],
+        "folgen_fehlschlag": []
+       },
+       {
+        "text": "Die eigene Unsicherheit ehrlich aussprechen.",
+        "handlung": "Duc admits he does not know whether he can protect everything, without asking her to reassure him.",
+        "folgen": [
+         {
+          "wert": "begehren.linda",
+          "delta": 1
+         },
+         {
+          "flag": "ehrlich_linda"
+         },
+         {
+          "codex": "Die eigene Unsicherheit ehrlich aussprechen."
+         }
+        ],
+        "folgen_fehlschlag": []
+       },
+       {
+        "text": "Den Abend freundlich beenden und ihre Zeit respektieren.",
+        "handlung": "Duc thanks her and respects her evening without asking for more.",
+        "folgen": [
+         {
+          "wert": "rueckhalt.linda",
+          "delta": 1
+         },
+         {
+          "flag": "freiraum_linda"
+         },
+         {
+          "codex": "Den Abend freundlich beenden und ihre Zeit respektieren."
+         }
+        ],
+        "folgen_fehlschlag": []
+       }
+      ]
+     }
+    },
+    {
+     "id": "abend_sophia",
+     "titel": "Der Termin ohne Betreff",
+     "ort": "rooftop_terrace_office",
+     "anwesend": [
+      "sophia"
+     ],
+     "improvisiert": true,
+     "zeit": "Tag 1",
+     "ausgangslage": "20:15 Uhr. Sophia hat den ganzen Tag die Zeit anderer Menschen geschützt. Auf der Dachterrasse zieht sie noch einmal ihre Liste hervor – und faltet sie dann bewusst zusammen. Dieser Termin hat keinen Betreff.",
+     "frage": "Was möchtest du ihr heute geben?",
+     "figuren": {
+      "sophia": {
+       "will": "Protect his time while asking to be heard as a person.",
+       "verbirgt": "Private matters remain private. Only use this character's own knowledge; no spontaneous revelations.",
+       "grenze": "Professional at work. Off duty, no intimacy beyond freely chosen closeness or a brief kiss today."
+      }
+     },
+     "max_zuege": 5,
+     "ausgaenge": [],
+     "wahlmoment": {
+      "nach_zug": 2,
+      "frage": "Was möchtest du ihr heute geben?",
+      "optionen": [
+       {
+        "text": "Zuhören, ohne sofort eine Lösung anzubieten.",
+        "handlung": "Duc asks what this day was like for her and listens without bargaining.",
+        "folgen": [
+         {
+          "wert": "vertrauen.sophia",
+          "delta": 1
+         },
+         {
+          "flag": "zugehoert_sophia"
+         },
+         {
+          "codex": "Zuhören, ohne sofort eine Lösung anzubieten."
+         }
+        ],
+        "folgen_fehlschlag": []
+       },
+       {
+        "text": "Die eigene Unsicherheit ehrlich aussprechen.",
+        "handlung": "Duc admits he does not know whether he can protect everything, without asking her to reassure him.",
+        "folgen": [
+         {
+          "wert": "begehren.sophia",
+          "delta": 1
+         },
+         {
+          "flag": "ehrlich_sophia"
+         },
+         {
+          "codex": "Die eigene Unsicherheit ehrlich aussprechen."
+         }
+        ],
+        "folgen_fehlschlag": []
+       },
+       {
+        "text": "Den Abend freundlich beenden und ihre Zeit respektieren.",
+        "handlung": "Duc thanks her and respects her evening without asking for more.",
+        "folgen": [
+         {
+          "wert": "rueckhalt.sophia",
+          "delta": 1
+         },
+         {
+          "flag": "freiraum_sophia"
+         },
+         {
+          "codex": "Den Abend freundlich beenden und ihre Zeit respektieren."
+         }
+        ],
+        "folgen_fehlschlag": []
+       }
+      ]
+     }
+    },
+    {
+     "id": "abend_morgan",
+     "titel": "Ohne Familiennamen",
+     "ort": "sky_lounge_bar",
+     "anwesend": [
+      "morgan"
+     ],
+     "improvisiert": true,
+     "zeit": "Tag 1",
+     "ausgangslage": "20:15 Uhr. In der Sky Lounge spricht Morgan zum ersten Mal heute nicht für die Investoren. Sie fragt, welches ihrer Argumente du tatsächlich überzeugend fandest. Es ist eine einfache Frage. Sie wartet auf eine konkrete Antwort.",
+     "frage": "Was möchtest du ihr heute geben?",
+     "figuren": {
+      "morgan": {
+       "will": "Present a defensible plan to investors without relying on her surname.",
+       "verbirgt": "Private matters remain private. Only use this character's own knowledge; no spontaneous revelations.",
+       "grenze": "Professional at work. Off duty, no intimacy beyond freely chosen closeness or a brief kiss today."
+      }
+     },
+     "max_zuege": 5,
+     "ausgaenge": [],
+     "wahlmoment": {
+      "nach_zug": 2,
+      "frage": "Was möchtest du ihr heute geben?",
+      "optionen": [
+       {
+        "text": "Zuhören, ohne sofort eine Lösung anzubieten.",
+        "handlung": "Duc asks what this day was like for her and listens without bargaining.",
+        "folgen": [
+         {
+          "wert": "vertrauen.morgan",
+          "delta": 1
+         },
+         {
+          "flag": "zugehoert_morgan"
+         },
+         {
+          "codex": "Zuhören, ohne sofort eine Lösung anzubieten."
+         }
+        ],
+        "folgen_fehlschlag": []
+       },
+       {
+        "text": "Die eigene Unsicherheit ehrlich aussprechen.",
+        "handlung": "Duc admits he does not know whether he can protect everything, without asking her to reassure him.",
+        "folgen": [
+         {
+          "wert": "begehren.morgan",
+          "delta": 1
+         },
+         {
+          "flag": "ehrlich_morgan"
+         },
+         {
+          "codex": "Die eigene Unsicherheit ehrlich aussprechen."
+         }
+        ],
+        "folgen_fehlschlag": []
+       },
+       {
+        "text": "Den Abend freundlich beenden und ihre Zeit respektieren.",
+        "handlung": "Duc thanks her and respects her evening without asking for more.",
+        "folgen": [
+         {
+          "wert": "rueckhalt.morgan",
+          "delta": 1
+         },
+         {
+          "flag": "freiraum_morgan"
+         },
+         {
+          "codex": "Den Abend freundlich beenden und ihre Zeit respektieren."
+         }
+        ],
+        "folgen_fehlschlag": []
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "bilanz": {
+   "szenen": [
+    {
+     "id": "bilanz",
+     "titel": "Was morgen noch gilt",
+     "ort": "inner_circle_office_founder",
+     "anwesend": [
+      "sophia"
+     ],
+     "improvisiert": true,
+     "zeit": "Tag 1",
+     "ausgangslage": "22:00 Uhr. Sophia legt die Termine für morgen auf deinen Schreibtisch. Manche Zusagen sind eingelöst, andere stehen noch aus. Die Firma ist weiter dein Lebenswerk und deine Verantwortung. Hier endet die Vorschau von Tag 1; die Entscheidung über die Finanzierung fällt erst an Tag 7.",
+     "frage": "Welche Verpflichtung nimmst du mit in den nächsten Tag?",
+     "figuren": {
+      "sophia": {
+       "will": "Protect his time while asking to be heard as a person.",
+       "verbirgt": "Private matters remain private. Only use this character's own knowledge; no spontaneous revelations.",
+       "grenze": "Professional at work. Off duty, no intimacy beyond freely chosen closeness or a brief kiss today."
+      }
+     },
+     "max_zuege": 5,
+     "ausgaenge": []
+    }
+   ]
+  }
+ }
+}

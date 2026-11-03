@@ -1,0 +1,85 @@
+{
+ "id": "agent_gunman_satz_v1",
+ "titel": "Die Schützin der Agenten: voller Satz",
+ "items": [
+  {
+   "id": "attack",
+   "titel": "Schützin · attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_agent_gunman_satz\\attack.png",
+   "soll": "Mündungsfeuer kommt im Kampf als Effekt."
+  },
+  {
+   "id": "defeated",
+   "titel": "Schützin · defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_agent_gunman_satz\\defeated.png",
+   "soll": "Ohne Waffe."
+  },
+  {
+   "id": "enraged",
+   "titel": "Schützin · enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_agent_gunman_satz\\enraged.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "flee",
+   "titel": "Schützin · flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_agent_gunman_satz\\flee.png",
+   "soll": "Wird beim Einbau gespiegelt, damit sie nach rechts wegläuft."
+  },
+  {
+   "id": "guard",
+   "titel": "Schützin · guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_agent_gunman_satz\\guard.png",
+   "soll": "Das Gewehr liegt schräg vor dem Körper, zeigt aber eher nach unten. Wirkt weniger nach Abwehr als Wolffs Klinge."
+  },
+  {
+   "id": "heavy_attack",
+   "titel": "Schützin · heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_agent_gunman_satz\\heavy_attack.png",
+   "soll": "Kniend, Mündungsfeuer kommt im Kampf als Effekt."
+  },
+  {
+   "id": "heavy_windup",
+   "titel": "Schützin · heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_agent_gunman_satz\\heavy_windup.png",
+   "soll": "Kniend, fast wie heavy_attack. Der Unterschied im Kampf kommt vor allem durch das Feuer."
+  },
+  {
+   "id": "hurt",
+   "titel": "Schützin · hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_agent_gunman_satz\\hurt.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "idle",
+   "titel": "Schützin · idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_agent_gunman_satz\\idle.png",
+   "soll": "Deine Wahl."
+  },
+  {
+   "id": "surrender",
+   "titel": "Schützin · surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_agent_gunman_satz\\surrender.png",
+   "soll": "Ohne Waffe."
+  },
+  {
+   "id": "victory",
+   "titel": "Schützin · victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_agent_gunman_satz\\victory.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "weakened",
+   "titel": "Schützin · weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_agent_gunman_satz\\weakened.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "windup",
+   "titel": "Schützin · windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_agent_gunman_satz\\windup.png",
+   "soll": "Wie deine Wahl."
+  }
+ ],
+ "hinweis": "13 Kampf-Posen auf Basis von Variante 1. Mein Vorschlag: alles übernehmen, guard höchstens noch einmal neu. Nur was nicht passt, auf „Neu“ setzen. Ins Spiel kommt der Satz erst nach deinem Urteil."
+}

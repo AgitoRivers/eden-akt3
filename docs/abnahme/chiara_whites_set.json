@@ -1,0 +1,49 @@
+{
+ "id": "chiara_whites_set_v1",
+ "titel": "Chiara: Dress Whites, SFW-Satz",
+ "hinweis": "OK heißt bleibt, NEU heißt neu rendern.",
+ "items": [
+  {
+   "id": "satz",
+   "titel": "Chiara · Dress Whites · ganzer Satz",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Chiara_Whites\\_bogen.jpg",
+   "soll": "Vorschlag: OK bis auf die Einzelbilder unten. Pin, Kette, Frisur und Knöpfe bleiben über die Posen sehr stabil, stabiler als in den anderen sechs Sätzen."
+  },
+  {
+   "id": "joy_2",
+   "titel": "Chiara · joy_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Chiara_Whites\\roh\\joy_2.png",
+   "soll": "Arm oben am Bildrand. Vorschlag: neu."
+  },
+  {
+   "id": "optimism_2",
+   "titel": "Chiara · optimism_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Chiara_Whites\\roh\\optimism_2.png",
+   "soll": "Arm oben am Bildrand. Vorschlag: neu."
+  },
+  {
+   "id": "fear_2",
+   "titel": "Chiara · fear_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Chiara_Whites\\roh\\fear_2.png",
+   "soll": "Sie hockt breitbeinig, das passt nicht gut zu den Whites. Vorschlag: stehend neu."
+  },
+  {
+   "id": "grief_2",
+   "titel": "Chiara · grief_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Chiara_Whites\\roh\\grief_2.png",
+   "soll": "Sie sitzt mit gekreuzten Beinen am Boden. Vorschlag: stehend neu."
+  },
+  {
+   "id": "remorse_2",
+   "titel": "Chiara · remorse_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Chiara_Whites\\roh\\remorse_2.png",
+   "soll": "Sie hockt am Boden. Vorschlag: stehend neu."
+  },
+  {
+   "id": "pride_back",
+   "titel": "Chiara · pride_back",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Chiara_Whites\\roh\\pride_back.png",
+   "soll": "Rückansicht neu gerendert, stimmt jetzt. Die Ärmelknöpfe sind hier golden statt grüngrau, in allen sechs Rückansichten. Vorschlag: OK, fällt kaum auf."
+  }
+ ]
+}

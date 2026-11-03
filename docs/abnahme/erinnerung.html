@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Auftraggeberin erinnert</title>
+<style>
+:root{--grund:#14110f;--karte:#1f1a17;--tief:#2a231f;--perle:#f3eee4;--leise:rgba(243,238,228,.72);--dim:rgba(243,238,228,.45);--akz:#e0a960;--gut:#7fc98f}
+body{margin:0;background:var(--grund);color:var(--perle);font:16px/1.55 system-ui,sans-serif}
+main{max-width:900px;margin:0 auto;padding:32px 16px 64px}
+h1{font-size:28px;margin:0 0 4px}
+h2{font-size:19px;margin:36px 0 8px;color:var(--akz)}
+p,li{color:var(--leise)}
+b{color:var(--perle)}
+.karte{background:var(--karte);border-radius:12px;padding:16px 18px;margin:12px 0}
+.handy{background:#0f0d0c;border:1px solid #3a302a;border-radius:16px;padding:14px 16px;margin:14px 0}
+.handy .kopf{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:14px;color:var(--dim)}
+.handy .kopf b{color:var(--akz);font-size:15px}
+.handy .lage{font-style:italic;color:var(--leise);margin:8px 0}
+.handy .zeile{background:var(--tief);border-radius:10px;padding:8px 12px;margin:6px 0;color:var(--perle)}
+.handy .zeile small{display:block;color:var(--dim);font-size:12px}
+.handy .wahl{font-size:14px;color:var(--dim);margin-top:8px}
+code{background:#2a231f;border-radius:4px;padding:1px 5px;font-size:14px}
+.ok{color:var(--gut);font-weight:600}
+</style>
+</head>
+<body>
+<main>
+<h1>Die Auftraggeberin erinnert</h1>
+<p>Interaction · Branch <code>t/erinnerung</code> · 02.11.2026</p>
+
+<div class="karte">
+<b>Korrektur zu Vorschlag A:</b> Die Wegmarken gibt es schon seit dem 29.10.: Der Eingang jedes Ortskapitels bietet „Or travel“ zu
+jedem gefundenen Rastplatz an und zeigt, wie viele Kämpfe man überspringt. Die Bot-Typen aus dem Spieltest nutzen das nie und laufen
+jedes Mal von vorn. Daher kamen die vielen verpassten Quests und Extra-Kämpfe. Das ist an „Tests grün“ gemeldet. Gebaut ist nur B.
+</div>
+
+<h2>So funktioniert es</h2>
+<div class="karte"><ul>
+<li>Liegt ein Auftrag <b>3 Tage still</b> oder endet die <b>Frist bald</b>, kommt beim Frühstück eine Sprachnachricht der Auftraggeberin.</li>
+<li><b>Höchstens eine am Tag</b>, jede nur einmal im Spiel. Keine Punkte, nur ein Hinweis.</li>
+<li>Der Satz sagt immer, worum es ging. Wer zurückkommt, reist über den Wegpunkt direkt zum letzten Rastplatz.</li>
+<li>Die Zeilen sind noch nicht vertont, das macht der nächste Lauf von <code>Vertonen_EdenRise.bat</code>.</li>
+</ul></div>
+
+<h2>Die sechs Nachrichten</h2>
+
+<div class="handy"><div class="kopf"><b>Madame Casanova</b><span>Kloster · 3 Tage nicht in der Macchia · Tag 9–20</span></div>
+<p class="lage">A voice message from Madame Casanova, 07:10. Church bells and a lot of pigeons.</p>
+<div class="zeile">Monsieur, it is Madame Casanova. Still no word from San Martinu. No herbs, no cheese, no brothers.</div>
+<div class="zeile">You said you would climb the macchia and look for them. The path is still there, Monsieur. And the brothers too, I hope.</div>
+<p class="wahl">Texts back: “Going up soon.” · Plays it again. Then checks his bat.</p></div>
+
+<div class="handy"><div class="kopf"><b>Petru</b><span>Berge · 3 Tage nicht dort · Tag 10–20</span></div>
+<p class="lage">A voice message from Petru. Eleven seconds long. The radio in his boathouse is off.</p>
+<div class="zeile">Hm. Petru. Laetitia is still up in the mountains. Nobody has seen her come down.</div>
+<div class="zeile">The path to the Genoese tower is long. Go up when you can. I am waiting.</div>
+<p class="wahl">Texts back: “I haven't forgotten her.” · Listens to the silence at the end of it.</p></div>
+
+<div class="handy"><div class="kopf"><b>Totò</b><span>Grotte · 3 Tage nicht dort · Tag 12–20</span></div>
+<p class="lage">A voice message from Totò. He is whispering, and the harbour is very loud.</p>
+<div class="zeile">Comandante. Gennaro is still down in the grotto under Punta d'Orsu. Three hours, he said. Three hours!</div>
+<div class="zeile">Low tide is in the day. The boat is ready. I am always ready. Madonna, I am never ready.</div>
+<p class="wahl">Texts back: “Keep the boat ready.” · Sends him a thumbs up and finishes his coffee.</p></div>
+
+<div class="handy"><div class="kopf"><b>Lea</b><span>Kevin · Frist Tag 14 · Tag 13–14</span></div>
+<p class="lage">A voice message from Lea. Fast, a bit out of breath, and a lot of gulls.</p>
+<div class="zeile">Okay, don't panic. But Kevin gets bored of his treasures. Then he drops them in the sea.<small>Neuer Fakt über Kevin, geht an Character Design, wenn du ihn behältst.</small></div>
+<div class="zeile">Page forty of Grandad's chart book. The bay, the cross, 1924. Today, maybe? Please?</div>
+<p class="wahl">Texts back: “Today.” · Puts his shoes on.</p></div>
+
+<div class="handy"><div class="kopf"><b>Totò</b><span>Flut-Nacht · 3 Tage nicht dort · Tag 14–19</span></div>
+<p class="lage">A voice message from Totò, sent at 06:40. He sounds like he didn't sleep.</p>
+<div class="zeile">Comandante. At high tide the grotto is humming again. I heard it from the boat, all night.</div>
+<div class="zeile">I am not rowing out there at night. Not for money, not for you. If you want to know, go yourself. In the evening, when the tide is in.</div>
+<p class="wahl">Texts back: “Then I go alone.” · Leaves him on read.</p></div>
+
+<div class="handy"><div class="kopf"><b>Totò</b><span>Flut-Nacht · letzte Chance · Tag 20</span></div>
+<p class="lage">Totò again. This time he isn't joking.</p>
+<div class="zeile">Comandante. One more evening, maybe two, and then we have bigger problems than a humming rock.</div>
+<div class="zeile">If you still want to know what hums in the grotto, go tonight. When the tide is in.</div>
+<p class="wahl">Texts back: “Tonight.” · Deletes it. Some things can stay a mystery.</p></div>
+
+<h2>Geprüft</h2>
+<div class="karte"><ul>
+<li><span class="ok">grün</span> <code>tests/test_erinnerung.py</code>: Bedingung „3 Tage nicht dort“, nur eine am Tag, fertige Aufträge schweigen.</li>
+<li><span class="ok">grün</span> Builder ohne Fehler, Stimm-Prüfer ohne Lücken bei den neuen Zeilen.</li>
+<li><span class="ok">grün</span> Gate Seed 7 und 3: beide bis Tag 24 ohne Fehler. Abweichung zur Referenz nur durch je zwei Erinnerungen (gewollt, Referenz nach dem Merge neu).</li>
+</ul></div>
+</main>
+</body>
+</html>

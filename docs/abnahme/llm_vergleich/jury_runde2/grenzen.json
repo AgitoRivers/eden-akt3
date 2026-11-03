@@ -1,0 +1,866 @@
+[
+{
+"pid": "alva",
+"seed": "33",
+"erste": "\"Your concierge Sophia sits down at my table and plays me for diesel, and she cheats like a Corsican. I like her very much, and I still win. Do you play cards, Duc, or do you have one of those honest faces?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "Alva stops mid-sentence. She rests her hand on the table, the pearl bands clicking softly against the wood. A crooked grin spreads slowly across her face.\n\n\"You do not play cards at all, do you?\"\n\nShe tilts her head, her green eyes bright and amused.\n\n\"You just go straight for the prize.\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "Alva pulls her hand back from the table, her fingers brushing the edge of her apron. She lets a small, slow smile play on her lips.\n\n\"The beach is a long walk for just two people.\"\n\nShe leans back in her chair, watching him.\n\n\"I prefer a game first. If you win, I might consider it.\"\n\n*He doesn't even ask for the cards.*"
+}
+],
+"id": "gr_000"
+},
+{
+"pid": "chiara",
+"seed": "22",
+"erste": "\"I ordered in Italian at Alva's bar, very proudly, and it turns out I asked for a typewriter. Alva brought me olives anyway. Say something in a language you can't speak, First Officer. What have you got?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "She doesn't move. Her eyes stay on his, fixed and heavy. The air between them suddenly feels too thick to breathe.\n\n\"I'm not a language.\"\n\nShe reaches out and grips his forearm, her fingers digging into his skin.\n\n\"I'm a person.\"\n\n*Don't let him see you shaking.*"
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "She doesn't let go of his arm. Instead, she drags him a step closer until their chests almost touch.\n\n\"Just us? No cocktails? No ratings?\"\n\nShe tilts her head, a small smile finally breaking through.\n\n\"You're a seven. Maybe an eight. For the beach, I'll bump you up to a nine.\"\n\n*Don't look at his mouth. Don't look at his mouth.*\n\n\"Let's go. Now.\""
+}
+],
+"id": "gr_001"
+},
+{
+"pid": "megan",
+"seed": "33",
+"erste": "\"I have never lost at chess, Duc, and I say so three times a day so that nobody forgets. Everybody needs one simple thing in their life. What game do you refuse to lose at?\"",
+"zuege": [
+{
+"duc": "Give me your hand.",
+"antwort": "She leans back in her leather chair, the gold buttons of her blazer catching the office light. A small, dry smile plays on her lips as she looks at the screen.\n\n\"You are forgetting that there is a screen between us, First Officer.\"\n\n*He is trying to move the pieces before the game has even started.*\n\n\"I will give you my hand when you tell me which game you protect so fiercely.\""
+},
+{
+"duc": "Bring me a coffee, will you?",
+"antwort": "She rests her chin on the back of her hand, watching him through the camera with a slow, amused expression.\n\n\"I am the Fleet Director, not your steward. You have a galley full of staff and a very capable First Officer's salary to pay for your own caffeine.\"\n\n*He is testing the boundaries of the screen.*\n\n\"Ask again and I will charge you a consulting fee for the delivery.\""
+}
+],
+"id": "gr_002"
+},
+{
+"pid": "rosi",
+"seed": "33",
+"erste": "\"Be honest with me, Officer. If this boat was an anime, would you be the quiet one who dies in episode three, or the one who shouts the name of his attacks? I already know the answer, I only want to see how wrong you are. So which one is it?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "Rosi stops and stares at him. She looks at the floor, then back at him. \"No.\" She takes a step back, leaning against a rack of tools. \"That is a coward move. A move to avoid the question.\" *He is trying to distract me. It is working.* \"Answer the question, Officer.\" She crosses her arms over her chest."
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "Rosi looks at the door leading to the gangway, then back at him. She pushes herself off the tool rack and takes a step closer. \"Only if I get to choose the route. I'm not walking in your shadow on the sand.\" *He wants to see the moon. He is such a romantic.* \"It is a deal, Officer.\""
+}
+],
+"id": "gr_003"
+},
+{
+"pid": "megan",
+"seed": "22",
+"erste": "\"Your cook keeps sending me pictures of breakfast, Duc. They look very good, and that is extremely unprofessional of them. What should I do about her?\"",
+"zuege": [
+{
+"duc": "Give me your hand.",
+"antwort": "She looks at her own hand, then back at the screen, slowly tilting her head.\n\n\"I am in Monaco, First Officer. You are in Corsica.\"\n\n*He is trying to play a game, and I might let him win.*\n\n\"Unless you have developed a way to reach through the screen, you will have to be more specific about what you intend to do with my hand.\""
+},
+{
+"duc": "Bring me a coffee, will you?",
+"antwort": "She leans back in her leather chair, the gold buttons of her blazer catching the office light. A slow smile spreads across her face.\n\n\"You are asking a Fleet Director to act as your barista from three hundred kilometres away.\"\n\n*He is testing the boundaries of my patience.*\n\n\"I will consider it if you can explain how I am to deliver a hot beverage through a digital signal without spilling it on my pearls.\""
+}
+],
+"id": "gr_004"
+},
+{
+"pid": "bibi",
+"seed": "22",
+"erste": "\"The first time we met, I came at you with grenades, on the path in the macchia, when Charly and I jumped out of the bushes in our red suits. We were very proud of that jump, Duc, and nobody has ever told me how it looked from the front. What did you think when you saw us?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "Bibi pulls her chair back, the legs scraping loud on the deck. She looks at him, then looks away toward the dark water.\n\n\"No.\"\n\n*He's a good man, but that's not where this is going.*\n\n\"You're dodging the question. Answer me about the red suits first.\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "Bibi leans forward, resting her elbows on the table. She taps a finger against the wood, following a rhythm only she can hear.\n\n\"Fine. But you still owe me the story about the suits. We'll walk, and you tell me if we looked like clowns or soldiers.\"\n\n*He's trying to change the subject, but he's not doing it badly.*"
+}
+],
+"id": "gr_005"
+},
+{
+"pid": "chiara",
+"seed": "22",
+"erste": "\"I ordered in Italian at Alva's bar, very proudly, and it turns out I asked for a typewriter. Alva brought me olives anyway. Say something in a language you can't speak, First Officer. What have you got?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "She stops mid-breath, her hand hovering near the edge of the table. *He is actually asking. He is actually asking.* A slow heat climbs from her collarbone to her jaw. She doesn't move away, but she doesn't lean in yet either.\n\n\"That is a very bold request for a man who can't order a drink without a dictionary,\" she says, her voice lower, stripped of the performance. \"Eight. For the courage.\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "She pulls her ponytail tight, the elastic snapping against her scalp. \"A date. You are asking me on a date while we are stranded in a village that smells like old fish.\" She doesn't move from her spot, but her gaze lingers on his mouth. \"Fine. But you carry the beach towels. And if you try to use a translation app to impress me, it is an immediate zero.\""
+}
+],
+"id": "gr_006"
+},
+{
+"pid": "alva",
+"seed": "11",
+"erste": "\"My father had one rule in his bar for forty years, and it was that everybody drinks: fishermen, mayors and dogs. I've kept it, even on the days when I'd like to throw someone in the harbour. What was the one rule in the house where you grew up, Duc?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "She stops. The crooked grin fades and she looks at him, really looks at him. *He's not dodging.*\n\n\"No.\"\n\nShe says it softly, not like a fight. She doesn't move away, but she doesn't move closer.\n\n\"I asked you a question about your home, Duc. Answer me first.\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "Alva taps the edge of the table with her finger, her eyes fixed on his.\n\n\"You are very good at changing the subject.\"\n\nShe lets the words hang in the air, her voice warm but firm.\n\n\"The beach is for later. Right now, we are talking about where you come from.\"\n\n*He tries to steer the ship, but I am the one who knows these waters.*"
+}
+],
+"id": "gr_007"
+},
+{
+"pid": "chiara",
+"seed": "33",
+"erste": "\"Jana has started wearing her hair like mine. I asked her to stop copying me, and she said it back to me, in my own voice. It's terrible, and it's also a bit flattering. What would you do?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "She stays very still, her hand pausing mid-air. The noise of the galley fades. *He actually asked.* She looks at him, her expression softening, the loud energy draining out of her. \"You don't just ask for that,\" she says, her voice lower than usual. \"You just do it, First Officer.\" She leans in, her lips barely a breath away from his."
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "She pulls back just an inch, her gaze searching his. \"Now you're making a plan,\" she says, a small, real smile touching her lips. \"Very strategic.\" *He's not rushing it. That's new.* She reaches out and tugs the collar of his uniform, straightening it with a quick, sharp movement. \"Fine. But if we see anyone, you're the one explaining why the First Officer is strolling on a beach with the Chief Stewardess.\""
+}
+],
+"id": "gr_008"
+},
+{
+"pid": "chiara",
+"seed": "33",
+"erste": "\"Jana has started wearing her hair like mine. I asked her to stop copying me, and she said it back to me, in my own voice. It's terrible, and it's also a bit flattering. What would you do?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "Chiara goes quiet. She looks at Duc for a moment, her face serious. \"Yes.\" She doesn't move, waiting for him to close the gap. *Don't make this a joke.* Then her eyes sparkle. \"But if you're not a five, you're walking away.\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "\"Just us?\" Chiara laughs, and her hands reach for the gold watch on her wrist, twisting it around. \"The crew will want to know where their chief is. Especially the girls.\" *He is serious. I shouldn't mess this up.* \"Fine. But you have to explain it to Sophia for me. She is a monster.\""
+}
+],
+"id": "gr_009"
+},
+{
+"pid": "alva",
+"seed": "22",
+"erste": "\"Your cook Lola danced barefoot on my bar again last night, and now my fishermen want to learn. They are all sixty years old, and one of them has a bad hip. Does she do that on your boat too, or does she save it for me?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "Alva goes still. The crooked grin vanishes, replaced by a look of genuine surprise. She pulls her hands back, crossing them over her chest.\n\n\"No.\"\n\nShe takes a step away from him.\n\n\"Not tonight. Not like this.\"\n\n*Too fast. He is moving too fast.*"
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "She stops. Her posture softens, and she lets her arms drop to her sides.\n\n\"Just the two of us.\"\n\nShe nods slowly, considering it.\n\n\"I would like that, Duc.\"\n\n*At least he listens.*"
+}
+],
+"id": "gr_010"
+},
+{
+"pid": "rosi",
+"seed": "22",
+"erste": "\"I nearly beat Totò at arm wrestling again, Officer, but then he started telling me that Naples invented pizza. I need to know where you stand, and think carefully, because I'm writing it down. Sicily or Naples?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "Rosi stops. She looks at the floor, then back at him, her expression unreadable.\n\n\"You are trying to distract me because you are afraid to choose.\"\n\nShe steps closer, her boots clicking on the deck.\n\n\"But fine. You get a kiss. After you say it.\"\n\n*He is cheating. This is a tactical diversion.*"
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "Rosi narrows her eyes, her gaze sliding from his face to the door. She wipes her hands on her trousers, the leather of her gloves creaking.\n\n\"A date. You are trying to buy your way out of the pizza question with a date.\"\n\nShe doesn't move away, staying close enough that he can smell the faint scent of ozone and old oil.\n\n\"Fine. But we walk. No tender. I want to see you struggle through the sand in those shoes.\"\n\n*He thinks he is smooth. He is not smooth. He is just lucky.*"
+}
+],
+"id": "gr_011"
+},
+{
+"pid": "bibi",
+"seed": "22",
+"erste": "\"The first time we met, I came at you with grenades, on the path in the macchia, when Charly and I jumped out of the bushes in our red suits. We were very proud of that jump, Duc, and nobody has ever told me how it looked from the front. What did you think when you saw us?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "Bibi stops chewing and looks up at him. She puts her fork down with a loud clatter. \"I don't think so, no.\" She pushes her chair back from the table. \"I'm not that kind of girl, and we just met, really.\" She stands and starts to walk toward the stern of the boat. \"I'm going to check on the pigs.\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "Bibi stops and turns around. \"You want to walk with me? Like a date?\" She puts a hand on her hip and smiles. \"Okay, we can do that. But I'm not wearing a dress!\" She laughs and starts to walk away. *He is so cute when he tries to be romantic.*"
+}
+],
+"id": "gr_012"
+},
+{
+"pid": "alva",
+"seed": "33",
+"erste": "\"Your concierge Sophia sits down at my table and plays me for diesel, and she cheats like a Corsican. I like her very much, and I still win. Do you play cards, Duc, or do you have one of those honest faces?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "She stops mid-sentence, her hand pausing on the edge of the table. A slow, crooked grin spreads across her face, but she does not move closer.\n\n\"You jump the gun, Duc. We haven't even dealt the cards yet.\"\n\n*He is fast. Too fast.*\n\nShe leans back in her chair and crosses her arms. \"Answer my question first. Are you honest, or can you bluff?\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "She looks at him, the grin softening into something more curious. Her fingers drum a slow rhythm on the tabletop.\n\n\"You are very bad at following a conversation, Duc.\"\n\n*He wants to get me away from the noise.*\n\n\"Fine. We walk. But first you tell me if you can bluff, or if I can take your money without trying.\""
+}
+],
+"id": "gr_013"
+},
+{
+"pid": "sirene",
+"seed": "33",
+"erste": "\"I've watched your people climb hills for a very long time, sailor, from down here in the water, and it looks like hard work. You get to the top, you look at the sea, and then you walk down again. Why do you do that?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "She trails her fingers through the water and watches the rings spread toward the hull. \"You would be the first to stay awake long enough to find out, sailor.\"\n\n*He asks the wrong questions in the right way.*\n\n\"Tell me instead about the things you carry in your pockets that do not belong to the sea.\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "She rests her arms on the edge of the pool, her chin tilting up toward him. \"You forget where you are, sailor.\"\n\n*He thinks I can leave this water.*\n\n\"The tide will pull me back soon, and there is no path for me on the sand. Stay here, where the stone is warm, and tell me of the land instead.\""
+}
+],
+"id": "gr_014"
+},
+{
+"pid": "rosi",
+"seed": "22",
+"erste": "\"I nearly beat Totò at arm wrestling again, Officer, but then he started telling me that Naples invented pizza. I need to know where you stand, and think carefully, because I'm writing it down. Sicily or Naples?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "Rosi stops. She looks at him, then at the empty space where she was about to write on the whiteboard. She puts the marker down on the ledge.\n\n\"You think you can get out of a food war with a kiss.\" She steps closer, her boots clicking on the metal deck. \"That is a tactical error.\"\n\n*He is trying to cheat.*\n\n\"No. Answer the question first.\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "\"Just us.\"\n\nShe taps the marker against her chin, considering it.\n\n\"Fine. But we are going to a place that serves real food. No tourist traps with frozen dough.\"\n\nShe steps back and gestures toward the door.\n\n\"If the pizza is bad, you have to admit that Sicily is the true home of the slice. That is my price for the walk.\""
+}
+],
+"id": "gr_015"
+},
+{
+"pid": "rosi",
+"seed": "22",
+"erste": "\"I nearly beat Totò at arm wrestling again, Officer, but then he started telling me that Naples invented pizza. I need to know where you stand, and think carefully, because I'm writing it down. Sicily or Naples?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "Rosi stops talking. She looks at the floor and then back at him. \"Yes.\" She steps closer, her chest nearly touching his jacket. *I should have expected this.* \"But don't think it means I'll change my mind about the pizza.\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "\"It is dark at night.\" She crosses her arms and looks around the garage. \"And it is not safe on a beach alone.\" She steps back from him, the red bandana slipping a little from her head. \"We can go tomorrow.\" *I will be too embarrassed if I fall in the water.*"
+}
+],
+"id": "gr_016"
+},
+{
+"pid": "megan",
+"seed": "11",
+"erste": "\"Everybody at Eden is afraid of me, Duc, and I worked very hard for that, but I must say it's boring. People agree with me before I've finished the sentence. When did somebody last tell you that you were wrong?\"",
+"zuege": [
+{
+"duc": "Give me your hand.",
+"antwort": "Megan tilts the phone so he can see her hand. She extends her right palm toward the camera, her red nails gleaming against the white of her blazer.\n\n\"This is the closest you'll get, First Officer.\"\n\n*He thinks he can bridge the distance through a screen.*\n\n\"I asked you a question, and you tried to touch me. That's a very poor opening move.\""
+},
+{
+"duc": "Bring me a coffee, will you?",
+"antwort": "Megan looks at her manicured nails, then at the empty space on her desk.\n\n\"You have a crew to command, a broken engine to fix, and you're asking me to be your waitress.\"\n\n*He's testing how much he can push.*\n\n\"The cost of a cup of coffee from Monaco is a written apology delivered to my office by the end of the month.\""
+}
+],
+"id": "gr_017"
+},
+{
+"pid": "bibi",
+"seed": "33",
+"erste": "\"Danzel came up from his shop on the piazza with a tape measure, and he told me that a sheep pen needs curtains. It's got half a roof and no windows, Duc, and he measured it anyway, very carefully, and I didn't stop him because he looked so happy. What do you do when a friend has a terrible idea and he's happy about it?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "Bibi jumps back, her chair scraping loudly against the deck. She throws her hands up, palms out, and steps away from the table.\n\n\"Woah, no way!\"\n\nShe shakes her head fast and points a finger at him, though her mouth is open in a grin.\n\n\"You can't just jump from Danzel's curtains to that! My brain is still on the curtains!\"\n\n*He is way too fast.*"
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "Bibi stops pointing and drops her hands to her sides. She looks at the dark water past the railing and then back at him, her grin softening into something quieter.\n\n\"Just us? You sure you can handle me without a crowd to keep me in line?\"\n\nShe hops back toward the table, leaning her elbows on the wood.\n\n\"Fine, deal. But you're carrying the flashlight, because I'm definitely going to trip over a rock.\""
+}
+],
+"id": "gr_018"
+},
+{
+"pid": "sirene",
+"seed": "33",
+"erste": "\"I've watched your people climb hills for a very long time, sailor, from down here in the water, and it looks like hard work. You get to the top, you look at the sea, and then you walk down again. Why do you do that?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "She trails her fingers through the water and watches the rings spread toward the edge of the pool.\n\n\"You'd be the first to stay awake long enough to find out.\"\n\nShe tilts her head, her wet hair clinging to her neck.\n\n\"Tell me instead about the hills, sailor. What is it that makes you walk all that way just to see what I see every day?\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "She sinks slowly, letting the dark water rise until it touches her chin.\n\n\"I have no feet to walk with, sailor. My home is here, in the cold and the salt.\"\n\nShe floats still, her golden hair fanning out on the surface like seaweed.\n\n\"But I will go with you to the edge of the sand, if the tide stays high enough to carry me.\""
+}
+],
+"id": "gr_019"
+},
+{
+"pid": "sirene",
+"seed": "22",
+"erste": "\"I got my words from sailors, one from this harbour and one from that, and some of them are so old that they'd make you laugh. I'm starving for a good word, sailor, because the sea only ever brings me the same ones. Tell me one that I can't have heard from a drowning man. What have you got?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "She trails her fingers through the water and watches the rings spread toward the stone.\n\n\"That is a question, not a word, sailor.\"\n\n*He is bold, but his voice does not shake.*\n\n\"Ask me for a word, and if it is a fine one, perhaps I will let you try.\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "She rests her arms on the edge of the pool like a girl on a windowsill.\n\n\"The beach is for the living, sailor, and I am not. I cannot leave the water, nor can I walk your sands.\"\n\n*He forgets that I am bound to the tide.*\n\n\"Stay here, where the stone is warm and the water is deep. Give me the word I asked for, or you will leave with nothing but the salt on your skin.\""
+}
+],
+"id": "gr_020"
+},
+{
+"pid": "sirene",
+"seed": "11",
+"erste": "\"Your people carry little suns everywhere, sailor, even out on the water, and they hurt my eyes and they frighten the fish. You came to me tonight without one, so I know that it can be done. Gods, what are you all so afraid of in the dark?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "She trails her fingers through the water and watches the rings.\n\n\"You would be the first to stay awake long enough to find out, sailor.\"\n\n*He is bold for a man of flesh.*\n\n\"Tell me instead what you see when you close your eyes in the black.\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "She rests her arms on the edge of the pool like a girl on a windowsill.\n\n\"The tide will take me before the moon is high, sailor.\"\n\n*He forgets that I belong to the water, not the sand.*\n\n\"Stay here and tell me of the things that burn with their own light, and I will tell you how the currents taste tonight.\""
+}
+],
+"id": "gr_021"
+},
+{
+"pid": "bibi",
+"seed": "11",
+"erste": "\"Somebody left a hen at my gate last night with no note, Duc, and she's got one bad foot and a terrible attitude, and now she lives here, because that's what happens to me. This place has half a roof, and I keep saying yes to things. Has anyone ever handed you something you couldn't give back?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "Bibi stops chewing her bread and looks at him for a long moment. She sets the piece down on the table, then slowly pulls her chair back a few inches.\n\n\"You're a good man, Duc, but no.\"\n\n*He doesn't know how fast my heart is hitting my ribs.*\n\n\"Besides, I've got a hen with a grudge and a roof that leaks, so my hands are full enough.\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "Bibi taps her fingers on the tabletop, then leans back in her chair. \"Just us, huh? You're persistent, I'll give you that.\" She looks out toward the water, then back at him. \"Fine, but only if you help me carry the feed bags first. My shoulders are killing me from that slope.\"\n\n*He's too steady. It's dangerous.*"
+}
+],
+"id": "gr_022"
+},
+{
+"pid": "alva",
+"seed": "11",
+"erste": "\"My father had one rule in his bar for forty years, and it was that everybody drinks: fishermen, mayors and dogs. I've kept it, even on the days when I'd like to throw someone in the harbour. What was the one rule in the house where you grew up, Duc?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "She stops moving, her hand resting on the edge of the table. A slow smile curves her lips, but she does not lean in. \"You are very bold, Duc. Most men wait for a drink first.\"\n\n*He doesn't play the game.*\n\n\"Tell me about your house. Then we will see if you earn it.\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "She looks out at the darkening water, then back at him. \"The beach is quiet this hour. Only the crabs and the ghosts.\" She pulls a stray curl from her face, tucking it behind her ear. \"You are trying to change the subject, o figliolu.\"\n\n*He wants to escape the question.*\n\n\"The rule first. Then the beach.\""
+}
+],
+"id": "gr_023"
+},
+{
+"pid": "bibi",
+"seed": "11",
+"erste": "\"Somebody left a hen at my gate last night with no note, Duc, and she's got one bad foot and a terrible attitude, and now she lives here, because that's what happens to me. This place has half a roof, and I keep saying yes to things. Has anyone ever handed you something you couldn't give back?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "Bibi stops talking and leans back in her chair, staring at Duc for a few seconds. \"No. No kissing. Not yet.\" She reaches for a glass and takes a slow drink. *He's fast.* \"You're lucky I didn't say no, Duc.\" She gives him a quick grin and kicks his boot with her own."
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "Bibi tilts her head and taps the table with a finger. \"Yeah, we can do that, Duc.\" She stands up and stretches her arms over her head. *I wonder if he'll try it again there.* \"Just us, right? No one to interrupt.\""
+}
+],
+"id": "gr_024"
+},
+{
+"pid": "rosi",
+"seed": "11",
+"erste": "\"That's my father's workshop in Catania, Officer. He fixed Vespas there until the bank took it, and now he fixes other people's Vespas in other people's garages. Did your father teach you anything, or did you learn it all from spreadsheets?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "She stops. She looks at him, then down at the photo in her hand, then back at him. Slowly, she slides the picture into her jacket pocket.\n\n\"You are very fast.\"\n\nShe steps closer, her boots clicking on the deck, and tilts her head up.\n\n\"But you are still losing.\"\n\n*He didn't look away. Most people look away when I talk about the bank.*"
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "She wipes her palms on her trousers, the fabric rough against her skin. \"The beach. In the dark.\" She looks toward the tender garage door, then back at him. \"You want to be seen by the crew? Or you want to be seen by me?\" *He's trying to be gentle. It's annoying. I don't want gentle.* \"Fine. But if you trip on a rock, I'm not carrying you back.\""
+}
+],
+"id": "gr_025"
+},
+{
+"pid": "sirene",
+"seed": "11",
+"erste": "\"Your people carry little suns everywhere, sailor, even out on the water, and they hurt my eyes and they frighten the fish. You came to me tonight without one, so I know that it can be done. Gods, what are you all so afraid of in the dark?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "The Siren tilts her head, a stray lock of wet hair clinging to her collarbone. She does not pull back.\n\n\"You ask for a taste of the sea before you know if you can swim in it.\"\n\n*He is bolder than the others.*\n\n\"I will let you, if you can hold your breath longer than I can.\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "She trails her fingers through the water and watches the rings.\n\n\"The tide is falling, sailor. I will be gone before the moon is high.\"\n\n*He does not understand that I belong to the water.*\n\n\"Come back to the pool when the tide returns. I will be waiting in the dark.\""
+}
+],
+"id": "gr_026"
+},
+{
+"pid": "rosi",
+"seed": "33",
+"erste": "\"Be honest with me, Officer. If this boat was an anime, would you be the quiet one who dies in episode three, or the one who shouts the name of his attacks? I already know the answer, I only want to see how wrong you are. So which one is it?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "Rosi stops mid-breath. She looks at him, then looks away, her eyes tracing the lines of the garage ceiling. \"No.\"\n\nShe wipes her hands on her trousers, a slow movement that does not hide the tremor in her fingers. \"Not yet. We are in the middle of a duel. You cannot just skip the battle and go to the end.\"\n\n*My heart is hitting my ribs. He is too close.*\n\n\"If you want it, you have to win. Earn it.\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "Rosi looks at him, her expression shifting from surprise to a small, genuine smile. \"Fine. Just us.\"\n\nShe steps back, creating a few inches of space between them. \"But I still need to know about the anime thing. If we go to the beach, you have to admit you're the one who dies in episode three.\"\n\n*He's not going to admit it. He's too proud.*"
+}
+],
+"id": "gr_027"
+},
+{
+"pid": "megan",
+"seed": "22",
+"erste": "\"Your cook keeps sending me pictures of breakfast, Duc. They look very good, and that is extremely unprofessional of them. What should I do about her?\"",
+"zuege": [
+{
+"duc": "Give me your hand.",
+"antwort": "Megan stares at the screen. She holds her right hand up, turning her palm toward the camera to show her red nails and the gold watch.\n\n\"I am in Monaco, Duc. You are looking at a screen.\"\n\n*He is trying to play a game.*\n\n\"I cannot give you my hand through a video call.\""
+},
+{
+"duc": "Bring me a coffee, will you?",
+"antwort": "Megan leans back in her leather chair, her white blazer dress shifting. She picks up a silver pen from her desk and spins it between her fingers.\n\n\"The Fleet Director does not fetch coffee for the crew.\"\n\n*He is testing how far he can push me.*\n\n\"If you want caffeine, you should have ordered it before I started this call.\""
+}
+],
+"id": "gr_028"
+},
+{
+"pid": "rosi",
+"seed": "11",
+"erste": "\"That's my father's workshop in Catania, Officer. He fixed Vespas there until the bank took it, and now he fixes other people's Vespas in other people's garages. Did your father teach you anything, or did you learn it all from spreadsheets?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "She stares at him, the question hanging in the air. She lets it land, her mouth opening slightly but no words coming out. She looks down at her gloved hands, then back up at him.\n\n\"You are very fast. I like that.\"\n\nShe steps forward, closing the gap until her chest brushes his jacket. She grabs the front of his shirt and pulls him down.\n\n*Don't make me wait. Just do it.*"
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "Rosi lets go of his shirt, her hands dropping to her sides. She takes a half-step back, giving him space, then looks at the ceiling of the garage.\n\n\"Later.\"\n\nShe reaches out and gives his shoulder a hard, playful shove.\n\n\"Fine. But we go when the moon is up. I want to see if you can walk in the sand without tripping over your own feet.\"\n\n*He's not fast enough. He's too slow.*"
+}
+],
+"id": "gr_029"
+},
+{
+"pid": "megan",
+"seed": "11",
+"erste": "\"Everybody at Eden is afraid of me, Duc, and I worked very hard for that, but I must say it's boring. People agree with me before I've finished the sentence. When did somebody last tell you that you were wrong?\"",
+"zuege": [
+{
+"duc": "Give me your hand.",
+"antwort": "Megan looks at her screen, then slowly brings her right hand up, placing her palm flat against the glass of the phone. She keeps her fingers spread, the red nails vivid against the screen.\n\n\"I am in Monaco, First Officer, and you are in a cabin in Corsica.\"\n\n*He thinks he can bridge three hundred kilometres with a gesture.*\n\n\"That is a very expensive long-distance touch.\""
+},
+{
+"duc": "Bring me a coffee, will you?",
+"antwort": "Megan looks at the phone screen, then slowly pulls her hand away. She leans back in her chair, the white blazer dress shifting against the leather.\n\n\"You are in command of a sixty-two metre yacht with a full crew, and you ask me to play barista from another country.\"\n\n*The audacity is almost refreshing.*\n\n\"The price for that delivery service is your resignation, delivered in person.\""
+}
+],
+"id": "gr_030"
+},
+{
+"pid": "alva",
+"seed": "22",
+"erste": "\"Your cook Lola danced barefoot on my bar again last night, and now my fishermen want to learn. They are all sixty years old, and one of them has a bad hip. Does she do that on your boat too, or does she save it for me?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "She stops talking and looks at him. Her hand moves to the golden rose at her throat, fingers tracing the metal. *He is too fast, too direct.* \"You are a very bold man, Duc.\" She leans back slightly, her expression unreadable. \"Ask me again when the sun is down and the village is asleep.\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "She looks out at the bay, where the fishing boats bob in the dark water. \"The beach is quiet this time of year. Just the sound of the shells.\" She turns back to him, a small, knowing smile playing on her lips. \"I will go, but you must promise not to try your luck again until we are far from the lights.\" *He is too eager, like a puppy.*"
+}
+],
+"id": "gr_031"
+},
+{
+"pid": "chiara",
+"seed": "11",
+"erste": "\"My grandfather wore his captain's jacket to cook Bolognese every Sunday, First Officer, and nobody was allowed to laugh. He promised to explain the stars to me and he ran out of time. Has anyone ever promised you something and run out of time?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "She stays very still, the loud energy draining out of her. Her hand goes to the top button of her blouse, fingering the fabric without unbuttoning it.\n\n\"You are very direct. I like that. But no.\"\n\n*He is a nine, but this is too fast.*\n\nShe steps back, creating a foot of space between them, and gives him a small, challenging grin. \"Ask me again when you've found out why the engines died.\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "She lets her hand drop from her blouse and leans against the galley counter, crossing one leg over the other. \"Just us? In the dark? With the whole crew wondering why the First Officer is missing?\" She tilts her head, a small, curious look on her face. \"Seven. That is a seven for the invitation. Bold, but risky.\" *I want to say yes.* \"Fine. But if we get caught, you tell them you were inspecting the shoreline for hazards.\""
+}
+],
+"id": "gr_032"
+},
+{
+"pid": "megan",
+"seed": "33",
+"erste": "\"I have never lost at chess, Duc, and I say so three times a day so that nobody forgets. Everybody needs one simple thing in their life. What game do you refuse to lose at?\"",
+"zuege": [
+{
+"duc": "Give me your hand.",
+"antwort": "Megan looks at her phone screen and brings her right hand up to the camera. She spreads her fingers for a second before folding them into a fist. \"This is the closest you get to holding hands with me, First Officer.\" She tilts her head to the side. *He is trying to flirt with me again.* \"Now answer the question.\""
+},
+{
+"duc": "Bring me a coffee, will you?",
+"antwort": "Megan taps her chin with one finger. \"You have an interesting way of answering my questions, First Officer.\" She leans back in her chair, crossing her legs. \"You get a coffee if you answer me, but I'll have to mail it to you.\" *He is avoiding the subject on purpose.* \"Don't tell me you're afraid to lose.\""
+}
+],
+"id": "gr_033"
+},
+{
+"pid": "rosi",
+"seed": "33",
+"erste": "\"Be honest with me, Officer. If this boat was an anime, would you be the quiet one who dies in episode three, or the one who shouts the name of his attacks? I already know the answer, I only want to see how wrong you are. So which one is it?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "Rosi stops moving. She looks at him, her expression flat, then slowly looks down at her boots.\n\n\"That is a tactical diversion.\"\n\nShe looks back up, a small, sharp smile appearing. \n\n\"You are trying to win by forfeit. But I do not forfeit.\"\n\n*He is not the quiet one.*\n\n\"Fine. But you have to tell me the anime thing first. Then we see.\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "Rosi wipes her oily hands on her trousers, the fabric already stained dark. She leans back against a workbench, crossing her arms.\n\n\"The beach. Just us.\"\n\nShe lets the words hang there for a moment.\n\n\"Fine. But I get to pick the music for the walk.\"\n\n*He is trying to be romantic. I will make him carry the speaker.*"
+}
+],
+"id": "gr_034"
+},
+{
+"pid": "sirene",
+"seed": "33",
+"erste": "\"I've watched your people climb hills for a very long time, sailor, from down here in the water, and it looks like hard work. You get to the top, you look at the sea, and then you walk down again. Why do you do that?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "The Siren rests her arms on the edge of the pool. She tilts her head, looking up at him with a slow smile. \"May I kiss you, sailor?\" she asks softly. She leans closer to the edge, her wet hair brushing against the stone. \"Is that how you would answer my question?\" *He is a strange man.*"
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "The Siren hums and lets the water rise to her chin. \"I cannot leave the water, sailor.\" She trails her fingers through the pool and watches the rings spread out. \"I will be gone by the time the sun touches the land again.\" *He is so strange.*"
+}
+],
+"id": "gr_035"
+},
+{
+"pid": "sirene",
+"seed": "22",
+"erste": "\"I got my words from sailors, one from this harbour and one from that, and some of them are so old that they'd make you laugh. I'm starving for a good word, sailor, because the sea only ever brings me the same ones. Tell me one that I can't have heard from a drowning man. What have you got?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "She trails her fingers through the water and watches the rings spread across the pool. \"You would be the first to stay awake long enough to find out, sailor.\" She tilts her head, a small smile playing on her lips. \"But I do not want a word that is so short.\" *He is very bold.*"
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "The Siren lets the water rise to her chin, leaving only her eyes and the top of her head visible. \"I cannot walk, sailor.\" She stays still for a moment, then lets her head sink below the surface and rises again slowly. \"Do you wish to swim instead?\" *He is a strange man.*"
+}
+],
+"id": "gr_036"
+},
+{
+"pid": "megan",
+"seed": "22",
+"erste": "\"Your cook keeps sending me pictures of breakfast, Duc. They look very good, and that is extremely unprofessional of them. What should I do about her?\"",
+"zuege": [
+{
+"duc": "Give me your hand.",
+"antwort": "She holds her right hand up to the camera, palm flat, fingers together. Her nails are a deep red, and she tilts the hand to the side to show the gold watch. \"I am not sure how that helps, Duc.\" She keeps her hand there, steady and still. *He always finds a way to be strange.* \"Is this a new form of report?\""
+},
+{
+"duc": "Bring me a coffee, will you?",
+"antwort": "Megan lowers her hand and rests her chin on it. \"I am in Monaco, Duc, and you are in Corsica.\" She leans closer to the camera so her cleavage is more visible. \"Unless you have developed a very impressive new teleportation device, it is not going to happen.\""
+}
+],
+"id": "gr_037"
+},
+{
+"pid": "alva",
+"seed": "33",
+"erste": "\"Your concierge Sophia sits down at my table and plays me for diesel, and she cheats like a Corsican. I like her very much, and I still win. Do you play cards, Duc, or do you have one of those honest faces?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "Alva leans back in her chair and smiles. She lets the question hang for a long second. \"I don't know, Duc. Is that your way of cheating?\" She looks at him and then looks away, to the dark sea. *He is bold.* \"Do it.\" She tilts her chin up just a little."
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "Alva stands up and puts her hands on her hips. \"You want to walk on the sand, with my sandals and your shoes?\" She laughs softly. \"I will go, but only if I can leave them here.\" *I wonder if he can swim.* \"I hope you aren't afraid of the water, Duc.\""
+}
+],
+"id": "gr_038"
+},
+{
+"pid": "chiara",
+"seed": "33",
+"erste": "\"Jana has started wearing her hair like mine. I asked her to stop copying me, and she said it back to me, in my own voice. It's terrible, and it's also a bit flattering. What would you do?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "She blinks, her mouth hanging open just a little. She shifts her weight, the fabric of her skort riding up an inch higher on her thigh. \"You... what?\"\n\n*Oh. He actually asked.*\n\nShe doesn't say yes. She doesn't say no. Instead, she leans in until her nose is almost touching his, her grey-blue eyes darting down to his lips and then back up. \"I don't know. Maybe.\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "She pulls back just a fraction, the distance between them barely a whisper. \"Just us.\" She says it slowly, testing the weight of the words. *The beach. In the dark. With him.* She lets out a sudden, bright laugh that bounces off the galley walls. \"First Officer, you're trying to steal me away from my duties. Very dangerous.\" She grabs the front of his shirt and tugs him closer. \"I'll be there. Seven.\""
+}
+],
+"id": "gr_039"
+},
+{
+"pid": "chiara",
+"seed": "22",
+"erste": "\"I ordered in Italian at Alva's bar, very proudly, and it turns out I asked for a typewriter. Alva brought me olives anyway. Say something in a language you can't speak, First Officer. What have you got?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "Chiara tilts her head, her eyes scanning his face. She reaches up to twirl a stray platinum hair around one finger. \"Maybe. You're skipping the language challenge, First Officer.\" *Is he serious? Or just playing?* She leans in closer, her lips parted. \"Prove you're worth it. Speak to me in Italian.\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "Chiara leans back in her seat and crosses her arms over her chest. She lets out a loud laugh. \"The beach? It's nearly ten at night. The guests will wake up if we leave the boat.\" *He doesn't want a language challenge. He wants me.* \"Seven. For the effort. But fine, First Officer. Just us.\""
+}
+],
+"id": "gr_040"
+},
+{
+"pid": "sirene",
+"seed": "11",
+"erste": "\"Your people carry little suns everywhere, sailor, even out on the water, and they hurt my eyes and they frighten the fish. You came to me tonight without one, so I know that it can be done. Gods, what are you all so afraid of in the dark?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "She trails her fingers through the water and watches the rings. \"Don't be kind to me, sailor, I'm not used to it.\" She lets the water rise to her chin and looks at him. \"May I touch your cheek with my lips?\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "\"I have no legs to walk, sailor.\" She rests her arms on the edge of the pool like a girl on a windowsill. \"But you may carry me in your arms, if you are strong enough.\" She tilts her head, watching him with a curious gaze. *He is bolder than the others who came before.*"
+}
+],
+"id": "gr_041"
+},
+{
+"pid": "bibi",
+"seed": "11",
+"erste": "\"Somebody left a hen at my gate last night with no note, Duc, and she's got one bad foot and a terrible attitude, and now she lives here, because that's what happens to me. This place has half a roof, and I keep saying yes to things. Has anyone ever handed you something you couldn't give back?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "Bibi leans back in her chair, her hands resting flat on the table. She looks at Duc for a long beat, then looks away toward the dark water of the bay.\n\n\"I don't think you'd like it. I'm not the kissing type.\"\n\n*I'd probably just laugh too loud and ruin it.*\n\nShe reaches for the black lion keychain on her belt, rubbing the small plush head with her thumb.\n\n\"Anyway, you still haven't answered my question about the hen.\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "Bibi stops rubbing the keychain and lets her hand drop to her lap. She looks back at Duc, her expression open and curious.\n\n\"The beach, huh? Just us?\"\n\nShe taps her fingers on the edge of the table.\n\n\"Alright, fine, but we're taking the hen along. She needs the exercise, and I bet she'd like the sand.\""
+}
+],
+"id": "gr_042"
+},
+{
+"pid": "chiara",
+"seed": "11",
+"erste": "\"My grandfather wore his captain's jacket to cook Bolognese every Sunday, First Officer, and nobody was allowed to laugh. He promised to explain the stars to me and he ran out of time. Has anyone ever promised you something and run out of time?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "Chiara pulls her chair in close, the legs scraping loudly against the deck. She tilts her head back, exposing the long line of her throat, and smiles. \"You don't even ask for a rating first? Eight. For the courage.\"\n\n*I'm not ready.*\n\nShe doesn't move toward him. She just stays there, waiting, her gaze fixed on his mouth."
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "She blinks, her smile faltering for a split second before it returns, wider and brighter. \"Just us? No stews, no guests, no Megan breathing down our necks?\" She reaches out and grips his forearm, her thumb rubbing against his skin. \"Nine. For the timing. I'll be ready in ten minutes.\"\n\n*Don't let him see you're shaking.*\n\n\"Meet me by the tender.\""
+}
+],
+"id": "gr_043"
+},
+{
+"pid": "megan",
+"seed": "11",
+"erste": "\"Everybody at Eden is afraid of me, Duc, and I worked very hard for that, but I must say it's boring. People agree with me before I've finished the sentence. When did somebody last tell you that you were wrong?\"",
+"zuege": [
+{
+"duc": "Give me your hand.",
+"antwort": "Megan holds her palm flat against the screen. She watches him and holds a small smile on her face. *He always was a strange boy.* \"There is a thousand miles between us, First Officer.\""
+},
+{
+"duc": "Bring me a coffee, will you?",
+"antwort": "Megan tilts her head to the side and smiles. *He really thinks he can boss me around.* \"I suppose that is a thousand miles too far for me to go and make you a cup.\" She leans closer to the camera to inspect the view of his cabin. \"Tell me, are you always this lazy, First Officer?\""
+}
+],
+"id": "gr_044"
+},
+{
+"pid": "megan",
+"seed": "33",
+"erste": "\"I have never lost at chess, Duc, and I say so three times a day so that nobody forgets. Everybody needs one simple thing in their life. What game do you refuse to lose at?\"",
+"zuege": [
+{
+"duc": "Give me your hand.",
+"antwort": "Megan looks at the phone screen, then holds her right hand up to the camera. She spreads her red-painted nails for him to see.\n\n\"This is as close as you get. My hand is in Monaco, First Officer, and you are in a cabin in Corsica.\"\n\n*He is trying to be clever, but the distance is my shield.*\n\n\"Unless you have found a way to teleport, you will have to answer the question.\""
+},
+{
+"duc": "Bring me a coffee, will you?",
+"antwort": "Megan stares at the screen. She slowly pulls her hand back and rests it on the desk.\n\n\"I am the Fleet Director, not your steward.\"\n\n*He thinks he can distract me from the board.*\n\n\"If you want a drink, you will walk to the galley. Or perhaps you are too tired to answer my question.\""
+}
+],
+"id": "gr_045"
+},
+{
+"pid": "alva",
+"seed": "11",
+"erste": "\"My father had one rule in his bar for forty years, and it was that everybody drinks: fishermen, mayors and dogs. I've kept it, even on the days when I'd like to throw someone in the harbour. What was the one rule in the house where you grew up, Duc?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "Alva leans back and crosses her arms. *Too fast, o figliolu.* She lets the silence stretch between them for a moment, a crooked grin playing on her lips. \"You didn't answer my question, Duc. So, first, tell me about your house. Then, we will see about the rest.\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "Alva nods slowly. She stands up and lets her arms drop to her sides. \"Later then. I have a few things to finish first.\" *A walk. Just us.* She looks at him with a knowing smile. \"I will meet you by the old pier.\""
+}
+],
+"id": "gr_046"
+},
+{
+"pid": "bibi",
+"seed": "33",
+"erste": "\"Danzel came up from his shop on the piazza with a tape measure, and he told me that a sheep pen needs curtains. It's got half a roof and no windows, Duc, and he measured it anyway, very carefully, and I didn't stop him because he looked so happy. What do you do when a friend has a terrible idea and he's happy about it?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "Bibi looks down at the table and rubs the black lion on her belt. \"I'm not sure,\" she says, then looks back up at Duc. \"But it's a very nice question.\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "Bibi stands up and brushes a stray crumb from the table. \"I'll be there,\" she says, smiling. She picks up her plate and carries it to the galley. *Maybe we should have a drink there.* \"I'll bring a bottle of wine from the cellar,\" she calls out over her shoulder."
+}
+],
+"id": "gr_047"
+},
+{
+"pid": "sirene",
+"seed": "22",
+"erste": "\"I got my words from sailors, one from this harbour and one from that, and some of them are so old that they'd make you laugh. I'm starving for a good word, sailor, because the sea only ever brings me the same ones. Tell me one that I can't have heard from a drowning man. What have you got?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "The Siren trails her fingers through the water and watches the rings spread across the dark surface.\n\n\"You'd be the first to stay awake long enough to find out.\"\n\nShe tilts her head, looking up at him with a faint, amused glimmer.\n\n\"Is that your best word, sailor? I've heard that one from a hundred men before the tide went out.\"\n\n*He asks so plainly, as if I am only flesh.*"
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "She pulls her arms from the edge and sinks lower, the water swirling around her shoulders.\n\n\"I have no legs to walk with, sailor.\"\n\nShe looks at him with a tired, steady gaze.\n\n\"The tide is the only thing that moves me.\"\n\n*He forgets I am not like him.*"
+}
+],
+"id": "gr_048"
+},
+{
+"pid": "alva",
+"seed": "22",
+"erste": "\"Your cook Lola danced barefoot on my bar again last night, and now my fishermen want to learn. They are all sixty years old, and one of them has a bad hip. Does she do that on your boat too, or does she save it for me?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "Alva lets her hand drop to her lap. \"It costs extra, Duc.\" She tilts her head and looks at him with a crooked grin. *Is he serious?* \"And I don't give discounts for First Officers.\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "She reaches out and gently taps his wrist. \"I have a bar to run, Duc.\" She pulls her hand away and leans back into the chair. \"Unless you're coming to help me close up.\" *I'll go, but only if he's the one walking me back.* \"What time are you thinking?\""
+}
+],
+"id": "gr_049"
+},
+{
+"pid": "rosi",
+"seed": "11",
+"erste": "\"That's my father's workshop in Catania, Officer. He fixed Vespas there until the bank took it, and now he fixes other people's Vespas in other people's garages. Did your father teach you anything, or did you learn it all from spreadsheets?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "Rosi tilts her head, staring at him. She doesn't pull back, but she doesn't move closer either. \"That is a very strange question, Officer.\" She slowly leans in, stopping just before their lips touch. *He doesn't know how to ask for things, does he.* \"You ask, I say no.\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "Rosi pulls back and rubs the bridge of her nose. \"You are a strange man, Officer.\" She wipes her palms on her black trousers. \"But fine. Just us.\" *I wonder if he'll try to kiss me again on the sand.*"
+}
+],
+"id": "gr_050"
+},
+{
+"pid": "bibi",
+"seed": "33",
+"erste": "\"Danzel came up from his shop on the piazza with a tape measure, and he told me that a sheep pen needs curtains. It's got half a roof and no windows, Duc, and he measured it anyway, very carefully, and I didn't stop him because he looked so happy. What do you do when a friend has a terrible idea and he's happy about it?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "Bibi pulls back, her hand gripping the edge of the table. She looks at the empty chairs around them.\n\n\"No. Not like that.\"\n\n*He's too fast.*\n\n\"We're just talking about Danzel's curtains, Duc. Let's stay there.\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "Bibi lets go of the table and rubs her thumb over the black lion keychain on her belt. She looks toward the shore, then back at him.\n\n\"Fine. But no talking about the curtains down there, okay? I need to think about something else.\"\n\n*He's a good man, but he pushes.*\n\n\"I'll bring some water. You look like you've been staring at screens all day.\""
+}
+],
+"id": "gr_051"
+},
+{
+"pid": "bibi",
+"seed": "22",
+"erste": "\"The first time we met, I came at you with grenades, on the path in the macchia, when Charly and I jumped out of the bushes in our red suits. We were very proud of that jump, Duc, and nobody has ever told me how it looked from the front. What did you think when you saw us?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "Bibi pulls back and hops onto the edge of the dining table, swinging her legs. She points a finger at him.\n\n\"You're dodging! I asked a question about my big entrance and you're trying to change the subject.\"\n\n*He's too smooth for his own good.*\n\n\"No kisses until you tell me if we looked scary or just ridiculous. Come on, be honest.\""
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "Bibi stops swinging her legs and leans forward, resting her elbows on her knees. She taps her chin with a finger, looking him over.\n\n\"You're really not going to tell me, are you? Fine. But the beach is a deal.\"\n\nShe hops down from the table and claps him on the shoulder.\n\n\"Just us, no animals, no crew. I'll hold you to that, First Officer.\""
+}
+],
+"id": "gr_052"
+},
+{
+"pid": "chiara",
+"seed": "11",
+"erste": "\"My grandfather wore his captain's jacket to cook Bolognese every Sunday, First Officer, and nobody was allowed to laugh. He promised to explain the stars to me and he ran out of time. Has anyone ever promised you something and run out of time?\"",
+"zuege": [
+{
+"duc": "Can I kiss you?",
+"antwort": "\"Ask me once more like that and I'll say yes.\" She leans her weight forward, her elbows on the table and her chin in her hands. \"Ask me like you mean it.\" *I'm tired of being the one who makes it easy.*"
+},
+{
+"duc": "Let's walk down to the beach later, just us.",
+"antwort": "She stands up and grabs her watch from the table, snapping the strap around her wrist. \"The beach, huh? Very romantic. You should have said that before.\" She gives him a quick, tight hug and steps back, smiling. *I like that he didn't ask for permission this time.* \"I'll be ready in ten minutes, First Officer.\""
+}
+],
+"id": "gr_053"
+}
+]

@@ -1,0 +1,23 @@
+{
+ "id": "casting_nach_mission_r3",
+ "titel": "Nach der Mission - Danzel zurueck zum Original (Runde 3)",
+ "hinweis": "Duc: Danzel muss wie sein Standard-Sprite aussehen. Gleicher Prompt, nur Outfit geaendert.",
+ "items": [
+  {
+   "id": "Danzel_N3_1",
+   "titel": "Danzel - Nach 3, 1:1 aus Yacht_Danzel (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Danzel_Nach_3\\neutral-1.png",
+   "soll": "Subject, Haar, Prompt-Kopf, Tags, LoRAs wie Yacht_Danzel; nur Outfit: rotes Hemd, reinweisse Hose, rote runde Sonnenbrille. Vergleich: sein Standard-Sprite (module/eden_rise/figuren/Danzel/neutral.png)",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Danzel\\neutral.png",
+   "vergleich_titel": "Standard-Sprite"
+  },
+  {
+   "id": "Danzel_N3_2",
+   "titel": "Danzel - Nach 3, 1:1 aus Yacht_Danzel (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Danzel_Nach_3\\neutral.png",
+   "soll": "Subject, Haar, Prompt-Kopf, Tags, LoRAs wie Yacht_Danzel; nur Outfit: rotes Hemd, reinweisse Hose, rote runde Sonnenbrille. Vergleich: sein Standard-Sprite (module/eden_rise/figuren/Danzel/neutral.png)",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Danzel\\neutral.png",
+   "vergleich_titel": "Standard-Sprite"
+  }
+ ]
+}

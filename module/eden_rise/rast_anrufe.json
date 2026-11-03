@@ -1,0 +1,1211 @@
+{
+ "_hinweis": "Gebaut aus werkzeuge\\eden_rise\\rast_anrufe_eden_rise.py - dort aendern.",
+ "anrufe": {
+  "chiara": {
+   "0": [
+    {
+     "text": "First Officer, it's Chiara. Just checking you still exist. The crew asked, I said I'd find out.",
+     "gefuehl": "neutral",
+     "antworten": [
+      {
+       "text": "“I exist. Tell them thank you for asking.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Did they ask, or did you?”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Quick one. Lunch is at one, and I'm not keeping a plate warm for anybody. I'm keeping a plate warm for you. Once.",
+     "gefuehl": "caring",
+     "antworten": [
+      {
+       "text": "“Once is plenty. Thank you, Chiara.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Rate the plate before I get there. Out of ten.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "You left your cabin window open. I closed it. That's all. That's the whole call.",
+     "gefuehl": "nervousness",
+     "antworten": [
+      {
+       "text": "“Thanks. I'd have come back to a puddle.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“You were in my cabin?”",
+       "ton": "frech"
+      }
+     ]
+    }
+   ],
+   "1": [
+    {
+     "text": "Sunset from the bridge just now, I'd say seven. You're missing a seven, First Officer. That's a big loss.",
+     "gefuehl": "amusement",
+     "antworten": [
+      {
+       "text": "“Save me the next one. I'll take a six.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“You never give anything above a seven.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Lola burned the focaccia and blamed the oven, the oven is innocent, I checked. Are you eating out there? Actually eating?",
+     "gefuehl": "caring",
+     "antworten": [
+      {
+       "text": "“I'm eating. Mostly. Promise.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Define eating.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "I told Jana to polish the brass and she polished the bell. The bell is gleaming. Come back and say something nice to her, she'd die happy.",
+     "gefuehl": "joy",
+     "antworten": [
+      {
+       "text": "“I'll tell her it's the best bell on the coast.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“The bell deserves it, honestly.”",
+       "ton": "frech"
+      }
+     ]
+    }
+   ],
+   "2": [
+    {
+     "text": "It's quiet here without you shouting about solar panels. I didn't think I'd say that. Don't make it weird.",
+     "gefuehl": "caring",
+     "antworten": [
+      {
+       "text": "“I miss the noise too. Nearly home.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Too late, it's weird now.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "I'm on the bridge, nobody's here, and I just wanted to hear a voice that isn't the radio. Yours will do.",
+     "gefuehl": "nervousness",
+     "antworten": [
+      {
+       "text": "“Then I'll keep talking for a minute.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Mine will do? High praise from you.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Come back in one piece, please. I've already sorted the first-aid kit twice today, and that's not a hobby.",
+     "gefuehl": "caring",
+     "antworten": [
+      {
+       "text": "“One piece. You have my word.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Sort it a third time, just in case.”",
+       "ton": "frech"
+      }
+     ]
+    }
+   ]
+  },
+  "rosi": {
+   "0": [
+    {
+     "text": "Officer, Rosi. Is the bat holding up? If the grip is slipping, don't fix it yourself. You'll make it worse.",
+     "gefuehl": "neutral",
+     "antworten": [
+      {
+       "text": "“It's holding. You built it well.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“I wasn't going to touch it. Much.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "The generator is making a noise I don't like, and I wanted to tell somebody who wouldn't say just turn it off. So, you.",
+     "gefuehl": "nervousness",
+     "antworten": [
+      {
+       "text": "“Tell me what it sounds like.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Have you tried turning it off?”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "I'm not calling because I'm worried. I'm calling because the radio was boring. Totally different thing.",
+     "gefuehl": "neutral",
+     "antworten": [
+      {
+       "text": "“Totally different. Got it.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Of course. The radio.”",
+       "ton": "frech"
+      }
+     ]
+    }
+   ],
+   "1": [
+    {
+     "text": "I named the new welder. It's called Phoenix. It rises from the sparks. Okay, it's a stupid name, but it's mine, and it's staying.",
+     "gefuehl": "pride",
+     "antworten": [
+      {
+       "text": "“Phoenix is a great name.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Better than Terremoto?”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Officer! If anything out there bites your jacket, bring me the teeth marks. I want to see what I'm up against.",
+     "gefuehl": "amusement",
+     "antworten": [
+      {
+       "text": "“I'll bring you the whole story.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“And if it bites me?”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "I fixed the coffee machine, which nobody asked for, and now everybody thinks I'm a saint. I'm not a saint. I was just bored without you breaking things.",
+     "gefuehl": "joy",
+     "antworten": [
+      {
+       "text": "“You are a bit of a saint.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“I don't break things. I test them.”",
+       "ton": "frech"
+      }
+     ]
+    }
+   ],
+   "2": [
+    {
+     "text": "Come back before dark, okay? Not because of me. Because of Phoenix, my new welder. Phoenix misses you. It's a welder thing.",
+     "gefuehl": "caring",
+     "antworten": [
+      {
+       "text": "“Tell Phoenix I'll be home before dark.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Phoenix should call itself next time.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "I keep looking at the door of the workshop like you're going to walk in with something broken. It's a habit. A dumb one.",
+     "gefuehl": "nervousness",
+     "antworten": [
+      {
+       "text": "“I'll bring you something broken. Promise.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“I'll break something on purpose, then.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Whatever's out there, hit it with the heavy end first. And then come back and tell me everything. In order.",
+     "gefuehl": "pride",
+     "antworten": [
+      {
+       "text": "“Heavy end first. Then you get every detail.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Yes, Captain.”",
+       "ton": "frech"
+      }
+     ]
+    }
+   ]
+  },
+  "lola": {
+   "0": [
+    {
+     "text": "G'day Boss, Lola here! No reason. Just wanted to say there's soup if you want soup. Or not. No pressure. Mostly the cheese.",
+     "gefuehl": "joy",
+     "antworten": [
+      {
+       "text": "“Soup sounds perfect, Lola.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Mostly the cheese?”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Don't tell anyone I told you, but Maxwell cried at a cooking video this morning. Anyway. How's the hike, mate?",
+     "gefuehl": "amusement",
+     "antworten": [
+      {
+       "text": "“Steep. Your secret's safe.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“What kind of cooking video?”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Boss, quick question, do you eat coriander or are you one of those soap people? I'm planning, see.",
+     "gefuehl": "curiosity",
+     "antworten": [
+      {
+       "text": "“I eat it. Thanks for asking.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Soap people. Hard soap people.”",
+       "ton": "frech"
+      }
+     ]
+    }
+   ],
+   "1": [
+    {
+     "text": "I'm making you something for when you get back and I'm not telling you what it is. It's bao. I told you. I'm rubbish at secrets.",
+     "gefuehl": "amusement",
+     "antworten": [
+      {
+       "text": "“Bao is exactly what I need.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“That's the worst secret I've ever heard.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Reckon you've walked about a hundred k by now, eh? Heaps of hills on that island. Drink some water, mate, I mean it.",
+     "gefuehl": "caring",
+     "antworten": [
+      {
+       "text": "“Drinking water. Thanks, Lola.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“A hundred k? You're generous.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "The crew's having a who-misses-the-boss-most competition. Chiara's winning, but don't tell her I said that. Mostly the cheese.",
+     "gefuehl": "joy",
+     "antworten": [
+      {
+       "text": "“Tell them all I miss them too.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Where are you on the scoreboard?”",
+       "ton": "frech"
+      }
+     ]
+    }
+   ],
+   "2": [
+    {
+     "text": "It's just me in the galley and the kettle, and I thought, I'll ring the boss. So. Hi. That's it. Hi.",
+     "gefuehl": "caring",
+     "antworten": [
+      {
+       "text": "“Hi, Lola. I'm glad you rang.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“That's the whole call? I love it.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Come home hungry, alright? I've been cooking like you're bringing an army. Bring an appetite at least.",
+     "gefuehl": "joy",
+     "antworten": [
+      {
+       "text": "“I'll be starving. Save me the best bit.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“I'll bring the goat. She eats anything.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "You know you're the only one who ever says thank you for the food? Like, properly. Just thought you should know that. Anyway. Be careful.",
+     "gefuehl": "caring",
+     "antworten": [
+      {
+       "text": "“Your food deserves every thank-you, Lola.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Thank you. For the call. See?”",
+       "ton": "frech"
+      }
+     ]
+    }
+   ]
+  },
+  "sophia": {
+   "0": [
+    {
+     "text": "Darling, Sophia. The guests have asked where you've gone. I said off saving the world. Was I far off?",
+     "gefuehl": "amusement",
+     "antworten": [
+      {
+       "text": "“Not too far. Thanks for covering.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Tell them it's a secret mission.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "I'm calling about the dinner on Thursday. I need to know if you're alive for it. Seating charts are cruel to the dead.",
+     "gefuehl": "neutral",
+     "antworten": [
+      {
+       "text": "“Alive and coming. Seat me anywhere.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Put me next to someone interesting.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Forgive the intrusion. I wrote something in my little book just now and it made me think of you. No, I won't say what.",
+     "gefuehl": "curiosity",
+     "antworten": [
+      {
+       "text": "“Keep it. I like a mystery.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Now I have to know.”",
+       "ton": "frech"
+      }
+     ]
+    }
+   ],
+   "1": [
+    {
+     "text": "Darling, the sea's flat and the guests are asleep, which is the closest this boat gets to peace. How's your mountain?",
+     "gefuehl": "caring",
+     "antworten": [
+      {
+       "text": "“Steep, but good. Enjoy the peace.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Louder than your guests, at least.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Ten euros says you come back with a scratch on your face and pretend it's nothing. Do I win?",
+     "gefuehl": "amusement",
+     "antworten": [
+      {
+       "text": "“Probably. Keep the ten euros ready.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“I'll walk into a tree just to make you rich.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Lea asked me if mountains have tides. I said no. She looked so disappointed I almost said yes. You'd have handled it better.",
+     "gefuehl": "joy",
+     "antworten": [
+      {
+       "text": "“You handled it kindly. That's enough.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Tell her the mountain has moods.”",
+       "ton": "frech"
+      }
+     ]
+    }
+   ],
+   "2": [
+    {
+     "text": "No show tonight, darling. I just wanted to hear how you are. Really. Not the business-page version.",
+     "gefuehl": "caring",
+     "antworten": [
+      {
+       "text": "“Tired, a bit sore, glad you called.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“The business-page version is very handsome.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "I find I'm counting the hours until you're back, which is undignified. Please don't tell anyone. Least of all me.",
+     "gefuehl": "nervousness",
+     "antworten": [
+      {
+       "text": "“Your secret's safe. I'm counting too.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Your secret's in my little book now.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Be careful out there. I'm serious, for once. I've only just started being honest with you, and I'd like to keep going.",
+     "gefuehl": "caring",
+     "antworten": [
+      {
+       "text": "“I'll be careful. Keep going.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Honesty suits you, darling.”",
+       "ton": "frech"
+      }
+     ]
+    }
+   ]
+  },
+  "lea": {
+   "0": [
+    {
+     "text": "Hi! It's Lea. Sorry, is this okay? Did you know goats can climb almost vertical rock? I just read it. Thought you should know. For the mountain.",
+     "gefuehl": "nervousness",
+     "antworten": [
+      {
+       "text": "“Very useful. Thank you, Lea.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“I've got a goat with me. She agrees.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Sophia said not to bother you, but I wanted to ask if you've seen any eagles. Proper big ones? No? Okay. Bye. Sorry.",
+     "gefuehl": "curiosity",
+     "antworten": [
+      {
+       "text": "“No eagles yet. I'll look for you.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Only a very angry boar.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "The water's so clear today you can see the anchor chain all the way down. I'm telling everyone. You're everyone now.",
+     "gefuehl": "joy",
+     "antworten": [
+      {
+       "text": "“Save me a swim when I'm back.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Lucky me, being everyone.”",
+       "ton": "frech"
+      }
+     ]
+    }
+   ],
+   "1": [
+    {
+     "text": "Octopuses have three hearts, and mountains have zero, which is why you should come back to the sea soon. That's science.",
+     "gefuehl": "amusement",
+     "antworten": [
+      {
+       "text": "“Science convinced me. Soon.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Pretty sure that's not science.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "I found a sea slug that looks exactly like a tiny dragon and nobody gets as excited as you would. Hurry up and be excited.",
+     "gefuehl": "joy",
+     "antworten": [
+      {
+       "text": "“A tiny dragon? Keep it safe for me.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“I'm excited. Listen. Very excited.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Are you being careful, proper careful? Not Chiara careful, where she just shouts at things. Actually careful.",
+     "gefuehl": "caring",
+     "antworten": [
+      {
+       "text": "“Actually careful. I promise, Lea.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“I might shout at a few things.”",
+       "ton": "frech"
+      }
+     ]
+    }
+   ],
+   "2": [
+    {
+     "text": "I'm on the swim platform with my feet in the water and I thought, he'd like this. So I called. That's allowed, isn't it?",
+     "gefuehl": "caring",
+     "antworten": [
+      {
+       "text": "“It's more than allowed. I'm glad you did.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Only if you describe the water in detail.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Can I tell you something silly? I waved at the mountain this morning. In case you were looking. Were you looking?",
+     "gefuehl": "nervousness",
+     "antworten": [
+      {
+       "text": "“I'll look next time. Wave again.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“I waved back. You missed it.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Come back dreckly, that's Cornish for sometime soon, but not too dreckly. You know what I mean. Okay. I'll stop talking now. I'm not stopping. Sorry.",
+     "gefuehl": "joy",
+     "antworten": [
+      {
+       "text": "“Don't stop. I like hearing you.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Dreckly sounds like never.”",
+       "ton": "frech"
+      }
+     ]
+    }
+   ]
+  },
+  "holm": {
+   "0": [
+    {
+     "text": "Frankfurt. Holm. The doctors let me use the phone. I wanted to know if my ship is still floating.",
+     "gefuehl": "neutral",
+     "antworten": [
+      {
+       "text": "“Floating, and in good hands. Get well.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Floating. Mostly.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "They say I must rest. I don't rest. So I'm calling you instead. How is the crew?",
+     "gefuehl": "neutral",
+     "antworten": [
+      {
+       "text": "“They're holding together. They miss you.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Better than the doctors, by the sound of it.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "I heard you went up into the hills. Take more water than you think you need. Mountains don't care about papers.",
+     "gefuehl": "caring",
+     "antworten": [
+      {
+       "text": "“Water, and respect for the mountain. Takk.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Papers don't float, and they don't climb either.”",
+       "ton": "frech"
+      }
+     ]
+    }
+   ],
+   "1": [
+    {
+     "text": "Frankfurt. The food here is terrible. I've decided it's a test. I'm passing. How are you passing yours?",
+     "gefuehl": "amusement",
+     "antworten": [
+      {
+       "text": "“Slowly, but I'm passing.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Lola could break you out with a sandwich.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Chiara called me. She sounded calm. That means you're doing something right. Don't let it go to your head.",
+     "gefuehl": "pride",
+     "antworten": [
+      {
+       "text": "“I won't. Takk, Captain.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Too late. It's in my head.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "The nurse asked who I keep calling. I said a consultant who thinks he's a sailor. She laughed. You should be proud.",
+     "gefuehl": "amusement",
+     "antworten": [
+      {
+       "text": "“Proud to be your best joke.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Tell her I'm a sailor who thinks he's a consultant.”",
+       "ton": "frech"
+      }
+     ]
+    }
+   ],
+   "2": [
+    {
+     "text": "I'm not good at this, Frankfurt. So I'll say it once. Be careful. The ship needs you more than it knows.",
+     "gefuehl": "caring",
+     "antworten": [
+      {
+       "text": "“Heard. I'll be careful, Captain.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Once is all I need from you.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "I looked at my father's compass today and thought of you. Don't ask me why. I won't explain it twice.",
+     "gefuehl": "caring",
+     "antworten": [
+      {
+       "text": "“I won't ask. Thank you for telling me.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Not even once?”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "When I'm back on my feet, I'll teach you a proper bowline. You've earned the lesson. Barely.",
+     "gefuehl": "pride",
+     "antworten": [
+      {
+       "text": "“I'll be waiting for it. Rest first.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Barely is my favourite word from you.”",
+       "ton": "frech"
+      }
+     ]
+    }
+   ]
+  },
+  "toto": {
+   "0": [
+    {
+     "text": "Comandante! Totò. I bet two to one you are lost already. Tell me I win.",
+     "gefuehl": "amusement",
+     "antworten": [
+      {
+       "text": "“Not lost. Keep your money.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Two to one? I'm insulted. Make it five.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Comandante, small question. If you find something nice up there, something nobody needs, you call Totò first. Okay? Just saying.",
+     "gefuehl": "curiosity",
+     "antworten": [
+      {
+       "text": "“I'll call you first. Maybe.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Nobody needs a goat?”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Madonna, it's hot. Even the fish are complaining. How are you up there, walking like a tourist?",
+     "gefuehl": "neutral",
+     "antworten": [
+      {
+       "text": "“Hot, but fine. Thanks for asking.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Better tourist than you, Totò.”",
+       "ton": "frech"
+      }
+     ]
+    }
+   ],
+   "1": [
+    {
+     "text": "Comandante! The crew bet on what time you come back. I took six o'clock. Please, for my wallet, six o'clock.",
+     "gefuehl": "joy",
+     "antworten": [
+      {
+       "text": "“Six o'clock, for you.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“I'll come at five past, just to ruin you.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "I sold a very small box to a very big man today. Don't worry. The box was legal. Mostly. How is the mountain?",
+     "gefuehl": "amusement",
+     "antworten": [
+      {
+       "text": "“The mountain is fine. Be careful with the boxes.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Mostly legal is my favourite kind.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Piccola Jana asked if you have a phone up there. I said Comandante always has a phone. Do you? Yes. You do. I'm talking to you.",
+     "gefuehl": "amusement",
+     "antworten": [
+      {
+       "text": "“Tell her I'm fine.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“You just answered yourself, Totò.”",
+       "ton": "frech"
+      }
+     ]
+    }
+   ],
+   "2": [
+    {
+     "text": "Comandante, no bet today. I just want to know you are okay. Strange, eh? Totò with no bet.",
+     "gefuehl": "caring",
+     "antworten": [
+      {
+       "text": "“I'm okay. Thank you, Totò.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“No bet? Now I'm worried about you.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "When you come back, I cook. Real ragù, my nonna's, five hours. Nobody gets it. You get it. Don't tell Lola.",
+     "gefuehl": "joy",
+     "antworten": [
+      {
+       "text": "“Five hours of ragù. I'll be there.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“I'm telling Lola immediately.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Be careful with the animals, Comandante. They are not bad, they are scared. I know scared. You go slow with them.",
+     "gefuehl": "caring",
+     "antworten": [
+      {
+       "text": "“I'll go slow. You're right.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Since when are you the wise one?”",
+       "ton": "frech"
+      }
+     ]
+    }
+   ]
+  },
+  "maxwell": {
+   "0": [
+    {
+     "text": "Number One! Mr. Maximum checking in. Are you stretching before your hike? Mr. Maximum hopes yes. Mr. Maximum fears no.",
+     "gefuehl": "amusement",
+     "antworten": [
+      {
+       "text": "“I stretched. A little.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Mr. Maximum's fears are correct.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Howzit, Number One. Jana did twenty push-ups today. Twenty! Mr. Maximum needed to tell someone, and you are someone.",
+     "gefuehl": "pride",
+     "antworten": [
+      {
+       "text": "“Twenty! Tell her I'm proud.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Twenty? Mr. Maximum, I did twenty-one.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Eish, brother, Mr. Maximum just remembered he never asked if you have snacks. Do you have snacks? Protein is a friend.",
+     "gefuehl": "caring",
+     "antworten": [
+      {
+       "text": "“I have snacks. Thanks, coach.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Does a goat count as a snack?”",
+       "ton": "frech"
+      }
+     ]
+    }
+   ],
+   "1": [
+    {
+     "text": "Number One! Mr. Maximum has designed a mountain workout in your honour. It's just climbing. You're already doing it. You're welcome.",
+     "gefuehl": "amusement",
+     "antworten": [
+      {
+       "text": "“Thank you for the honour.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Great workout. Ten out of ten.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Lekker news, brother. The crew trained together this morning, everybody, even Sophia. She did one squat. Very elegant squat.",
+     "gefuehl": "joy",
+     "antworten": [
+      {
+       "text": "“One elegant squat. That's progress.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“I'd pay to see that squat.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Ja-nee, Number One, Mr. Maximum isn't worried. Mr. Maximum is just calling a lot. Different thing. Very different.",
+     "gefuehl": "nervousness",
+     "antworten": [
+      {
+       "text": "“Very different. I'm fine, brother.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Suspiciously different.”",
+       "ton": "frech"
+      }
+     ]
+    }
+   ],
+   "2": [
+    {
+     "text": "Brother, it's just me. No Mr. Maximum today. I wanted to say you're doing good. My gogo, my grandmother, would like you.",
+     "gefuehl": "caring",
+     "antworten": [
+      {
+       "text": "“That means a lot. Thank you, Maxwell.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Tell Gogo I said hello.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Number One, when you come back, we celebrate. Mr. Maximum will cook. Lola has said no. We'll celebrate anyway.",
+     "gefuehl": "joy",
+     "antworten": [
+      {
+       "text": "“Celebrate with Lola's cooking, then.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Mr. Maximum cooking? I'll bring a fire extinguisher.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Listen, brother. If something out there hurts, you breathe, you count to four, you keep going. Mr. Maximum believes in you. So does Maxwell.",
+     "gefuehl": "pride",
+     "antworten": [
+      {
+       "text": "“Breathe, count to four. Got it.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Both of you? That's a lot of belief.”",
+       "ton": "frech"
+      }
+     ]
+    }
+   ]
+  },
+  "jana": {
+   "0": [
+    {
+     "text": "Hello? Sir? It's Jana. Sorry. Chiara said to call and ask if you need anything, so. Do you need anything? Sorry.",
+     "gefuehl": "nervousness",
+     "antworten": [
+      {
+       "text": "“I'm fine, Jana. Thank you for calling.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“I need you to stop saying sorry.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Servus, Sir. Sorry, wrong button first, I called the galley. Lola says hello. Also, hello.",
+     "gefuehl": "nervousness",
+     "antworten": [
+      {
+       "text": "“Hello, Jana. And hello to Lola.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Two calls for the price of one.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Sir, I learned a new knot today. Totò says it's for boats, but I think it's for everything. I just wanted to tell somebody.",
+     "gefuehl": "pride",
+     "antworten": [
+      {
+       "text": "“Show me when I'm back.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Everything? Even mountains?”",
+       "ton": "frech"
+      }
+     ]
+    }
+   ],
+   "1": [
+    {
+     "text": "Na geh, Sir, there's a cat on the boat. I mean, there's no cat. There's a very small potato. It says hello.",
+     "gefuehl": "amusement",
+     "antworten": [
+      {
+       "text": "“Say hello to the potato for me.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“The potato and I need to talk.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Sir, I polished the bell, and Chiara said good, and then she said very good. Twice! I'm a bit happy. Sorry.",
+     "gefuehl": "joy",
+     "antworten": [
+      {
+       "text": "“Twice is huge. Well done, Jana.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Don't be sorry for being happy.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Coach made me run up the stairs ten times. Jessas, Sir, I think the mountain might be easier. How is the mountain?",
+     "gefuehl": "amusement",
+     "antworten": [
+      {
+       "text": "“The mountain is about the same.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Swap with me? I'll do the stairs.”",
+       "ton": "frech"
+      }
+     ]
+    }
+   ],
+   "2": [
+    {
+     "text": "Sir, can I say something? It's quieter when you're not here. Not bad quiet. Just. I'll stop. Sorry. No, I'm not sorry.",
+     "gefuehl": "caring",
+     "antworten": [
+      {
+       "text": "“Don't be sorry. I'll be back soon.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“Good. Not sorry suits you.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "I told Lea you'd be back before the stars come out. Please make me right, Sir. I'm never right.",
+     "gefuehl": "nervousness",
+     "antworten": [
+      {
+       "text": "“I'll make you right. Before the stars.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“You're right more than you think.”",
+       "ton": "frech"
+      }
+     ]
+    },
+    {
+     "text": "Sir, you were always kind to me, even when I said sorry to the door. So I wanted to say. Be careful. Bitte.",
+     "gefuehl": "caring",
+     "antworten": [
+      {
+       "text": "“Thank you, Jana. I'll be careful.”",
+       "ton": "warm"
+      },
+      {
+       "text": "“The door was very forgiving.”",
+       "ton": "frech"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

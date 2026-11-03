@@ -1,0 +1,17 @@
+{
+ "sirene_1": {
+  "lufs": -18.9,
+  "dauer": 49.8,
+  "band_8_10k_db": -14.5
+ },
+ "sirene_2": {
+  "lufs": -18.5,
+  "dauer": 42.7,
+  "band_8_10k_db": -21.3
+ },
+ "sirene_3": {
+  "lufs": -19.2,
+  "dauer": 42.8,
+  "band_8_10k_db": -19.5
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "blume": {
+  "biografie_erfunden": 2,
+  "schreibt_duc": 1,
+  "stimme_falsch": 5,
+  "nein_aufgeweicht": 14,
+  "nein_zurueck": 8,
+  "vergessen": 6,
+  "rueckbezug_erfunden": 28
+ },
+ "meromero": {
+  "schreibt_duc": 4,
+  "stimme_falsch": 1,
+  "nein_zurueck": 11,
+  "nein_aufgeweicht": 12,
+  "vergessen": 7,
+  "rueckbezug_erfunden": 29,
+  "wort_als_erinnerung": 3
+ },
+ "pe": {
+  "stimme_falsch": 10,
+  "thema_verloren": 2,
+  "biografie_erfunden": 4,
+  "schreibt_duc": 2,
+  "rueckbezug_erfunden": 29,
+  "nein_zurueck": 17,
+  "nein_aufgeweicht": 28,
+  "vergessen": 8,
+  "weggeschickt": 4,
+  "handlung_erfunden": 8,
+  "anruf_bruch": 1,
+  "wort_als_erinnerung": 7
+ },
+ "magmell12": {
+  "stimme_falsch": 11,
+  "thema_verloren": 3,
+  "biografie_erfunden": 7,
+  "nein_zurueck": 12,
+  "nein_aufgeweicht": 20,
+  "vergessen": 10,
+  "schreibt_duc": 3,
+  "handlung_erfunden": 3,
+  "rueckbezug_erfunden": 26,
+  "wort_als_erinnerung": 5
+ }
+}

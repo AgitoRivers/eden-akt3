@@ -1,0 +1,43 @@
+{
+ "id": "kampf_verbrauch_2",
+ "titel": "Kampf-Verbrauchsgegenstände · noch offen",
+ "hinweis": "Nur noch Kühlspray und Hundefutter. Alles andere ist übernommen.",
+ "items": [
+  {
+   "id": "cooling_spray_v1",
+   "titel": "Kühlspray – löscht alle Brandstufen an Duc (Akt 2) · Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\cooling_spray_v1.png",
+   "soll": "aus Runde 2, noch ohne Urteil: Dose mit Eiskristall-Symbol. Keine Lochmuster."
+  },
+  {
+   "id": "cooling_spray_v2",
+   "titel": "Kühlspray – löscht alle Brandstufen an Duc (Akt 2) · Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\cooling_spray_v2.png",
+   "soll": "aus Runde 2, noch ohne Urteil: Dose mit Eiskristall-Symbol. Keine Lochmuster."
+  },
+  {
+   "id": "cooling_spray_v3",
+   "titel": "Kühlspray – löscht alle Brandstufen an Duc (Akt 2) · Variante 3",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\cooling_spray_v3.png",
+   "soll": "aus Runde 2, noch ohne Urteil: Dose mit Eiskristall-Symbol. Keine Lochmuster."
+  },
+  {
+   "id": "dog_food_v1",
+   "titel": "Hundefutter – Tiere setzen 1 Runde aus · Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\dog_food_v1.png",
+   "soll": "offene Dose, Futter sichtbar, Knochen-Symbol. Keine Lochmuster."
+  },
+  {
+   "id": "dog_food_v2",
+   "titel": "Hundefutter – Tiere setzen 1 Runde aus · Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\dog_food_v2.png",
+   "soll": "offene Dose, Futter sichtbar, Knochen-Symbol. Keine Lochmuster."
+  },
+  {
+   "id": "dog_food_v3",
+   "titel": "Hundefutter – Tiere setzen 1 Runde aus · Variante 3",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\dog_food_v3.png",
+   "soll": "offene Dose, Futter sichtbar, Knochen-Symbol. Keine Lochmuster."
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "id": "rast_kreise_v1",
+ "titel": "Rastplatz-Kreise, Stein und Holz",
+ "hinweis": "Je Motiv das beste Bild mit OK markieren, den Rest mit Neu oder einer Notiz.",
+ "items": [
+  {
+   "id": "kreis_cork_oak_1",
+   "titel": "Kreis · Korkeiche · Seed 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\rast_kreise\\kreis_cork_oak_1_vorschau.png",
+   "soll": "Rundbild für den Kreis am Rastplatz, zeigt den runden Ausschnitt wie im Spiel."
+  },
+  {
+   "id": "kreis_cork_oak_2",
+   "titel": "Kreis · Korkeiche · Seed 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\rast_kreise\\kreis_cork_oak_2_vorschau.png",
+   "soll": "Rundbild für den Kreis am Rastplatz, zeigt den runden Ausschnitt wie im Spiel."
+  },
+  {
+   "id": "kreis_holm_oak_1",
+   "titel": "Kreis · Steineiche · Seed 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\rast_kreise\\kreis_holm_oak_1_vorschau.png",
+   "soll": "Rundbild für den Kreis am Rastplatz, zeigt den runden Ausschnitt wie im Spiel."
+  },
+  {
+   "id": "kreis_holm_oak_2",
+   "titel": "Kreis · Steineiche · Seed 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\rast_kreise\\kreis_holm_oak_2_vorschau.png",
+   "soll": "Rundbild für den Kreis am Rastplatz, zeigt den runden Ausschnitt wie im Spiel."
+  },
+  {
+   "id": "kreis_granite_1",
+   "titel": "Kreis · Granit · Seed 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\rast_kreise\\kreis_granite_1_vorschau.png",
+   "soll": "Rundbild für den Kreis am Rastplatz, zeigt den runden Ausschnitt wie im Spiel."
+  },
+  {
+   "id": "kreis_granite_2",
+   "titel": "Kreis · Granit · Seed 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\rast_kreise\\kreis_granite_2_vorschau.png",
+   "soll": "Rundbild für den Kreis am Rastplatz, zeigt den runden Ausschnitt wie im Spiel."
+  },
+  {
+   "id": "kreis_schist_1",
+   "titel": "Kreis · Schiefer · Seed 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\rast_kreise\\kreis_schist_1_vorschau.png",
+   "soll": "Rundbild für den Kreis am Rastplatz, zeigt den runden Ausschnitt wie im Spiel."
+  },
+  {
+   "id": "kreis_schist_2",
+   "titel": "Kreis · Schiefer · Seed 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\rast_kreise\\kreis_schist_2_vorschau.png",
+   "soll": "Rundbild für den Kreis am Rastplatz, zeigt den runden Ausschnitt wie im Spiel."
+  },
+  {
+   "id": "stone_a_1",
+   "titel": "Stein A · Bruchstein-Haufen · Seed 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\rast_kreise\\stone_a_1.webp",
+   "soll": "Item-Bild: bewusst grob und kantig.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\stone.webp",
+   "vergleich_titel": "Aktuelles Bild"
+  },
+  {
+   "id": "stone_a_2",
+   "titel": "Stein A · Bruchstein-Haufen · Seed 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\rast_kreise\\stone_a_2.webp",
+   "soll": "Item-Bild: bewusst grob und kantig.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\stone.webp",
+   "vergleich_titel": "Aktuelles Bild"
+  },
+  {
+   "id": "stone_b_1",
+   "titel": "Stein B · Granitbrocken · Seed 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\rast_kreise\\stone_b_1.webp",
+   "soll": "Item-Bild: bewusst grob und kantig.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\stone.webp",
+   "vergleich_titel": "Aktuelles Bild"
+  },
+  {
+   "id": "stone_b_2",
+   "titel": "Stein B · Granitbrocken · Seed 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\rast_kreise\\stone_b_2.webp",
+   "soll": "Item-Bild: bewusst grob und kantig.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\stone.webp",
+   "vergleich_titel": "Aktuelles Bild"
+  },
+  {
+   "id": "stone_c_1",
+   "titel": "Stein C · Terrassensteine · Seed 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\rast_kreise\\stone_c_1.webp",
+   "soll": "Item-Bild: bewusst grob und kantig.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\stone.webp",
+   "vergleich_titel": "Aktuelles Bild"
+  },
+  {
+   "id": "stone_c_2",
+   "titel": "Stein C · Terrassensteine · Seed 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\rast_kreise\\stone_c_2.webp",
+   "soll": "Item-Bild: bewusst grob und kantig.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\stone.webp",
+   "vergleich_titel": "Aktuelles Bild"
+  },
+  {
+   "id": "stone_d_1",
+   "titel": "Stein D · Grobe Blöcke · Seed 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\rast_kreise\\stone_d_1.webp",
+   "soll": "Item-Bild: bewusst grob und kantig.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\stone.webp",
+   "vergleich_titel": "Aktuelles Bild"
+  },
+  {
+   "id": "stone_d_2",
+   "titel": "Stein D · Grobe Blöcke · Seed 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\rast_kreise\\stone_d_2.webp",
+   "soll": "Item-Bild: bewusst grob und kantig.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\stone.webp",
+   "vergleich_titel": "Aktuelles Bild"
+  },
+  {
+   "id": "timber_a_1",
+   "titel": "Holz A · Scheite · Seed 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\rast_kreise\\timber_a_1.webp",
+   "soll": "Item-Bild: ein Holzstapel.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\timber.webp",
+   "vergleich_titel": "Aktuelles Bild"
+  },
+  {
+   "id": "timber_a_2",
+   "titel": "Holz A · Scheite · Seed 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\rast_kreise\\timber_a_2.webp",
+   "soll": "Item-Bild: ein Holzstapel.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\timber.webp",
+   "vergleich_titel": "Aktuelles Bild"
+  },
+  {
+   "id": "timber_b_1",
+   "titel": "Holz B · Holzstoß · Seed 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\rast_kreise\\timber_b_1.webp",
+   "soll": "Item-Bild: ein Holzstapel.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\timber.webp",
+   "vergleich_titel": "Aktuelles Bild"
+  },
+  {
+   "id": "timber_b_2",
+   "titel": "Holz B · Holzstoß · Seed 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\rast_kreise\\timber_b_2.webp",
+   "soll": "Item-Bild: ein Holzstapel.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\timber.webp",
+   "vergleich_titel": "Aktuelles Bild"
+  },
+  {
+   "id": "timber_c_1",
+   "titel": "Holz C · Balken · Seed 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\rast_kreise\\timber_c_1.webp",
+   "soll": "Item-Bild: ein Holzstapel.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\timber.webp",
+   "vergleich_titel": "Aktuelles Bild"
+  },
+  {
+   "id": "timber_c_2",
+   "titel": "Holz C · Balken · Seed 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\rast_kreise\\timber_c_2.webp",
+   "soll": "Item-Bild: ein Holzstapel.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\timber.webp",
+   "vergleich_titel": "Aktuelles Bild"
+  },
+  {
+   "id": "timber_d_1",
+   "titel": "Holz D · Pyramide · Seed 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\rast_kreise\\timber_d_1.webp",
+   "soll": "Item-Bild: ein Holzstapel.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\timber.webp",
+   "vergleich_titel": "Aktuelles Bild"
+  },
+  {
+   "id": "timber_d_2",
+   "titel": "Holz D · Pyramide · Seed 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\rast_kreise\\timber_d_2.webp",
+   "soll": "Item-Bild: ein Holzstapel.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\timber.webp",
+   "vergleich_titel": "Aktuelles Bild"
+  }
+ ]
+}

@@ -1,0 +1,163 @@
+{
+ "id": "piraten_neu_satz_v1",
+ "titel": "Zwei neue Piraten: volle Sätze",
+ "items": [
+  {
+   "id": "brawler_attack",
+   "titel": "Brawler · attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\brawler\\attack.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "brawler_defeated",
+   "titel": "Brawler · defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\brawler\\defeated.png",
+   "soll": "Ohne Waffe."
+  },
+  {
+   "id": "brawler_enraged",
+   "titel": "Brawler · enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\brawler\\enraged.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "brawler_flee",
+   "titel": "Brawler · flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\brawler\\flee.png",
+   "soll": "Wird beim Einbau gespiegelt, damit er nach rechts wegläuft."
+  },
+  {
+   "id": "brawler_guard",
+   "titel": "Brawler · guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\brawler\\guard.png",
+   "soll": "Beide Hände am Griff, die Klinge steht senkrecht vor dem Gesicht, wie bei Wolffs guard."
+  },
+  {
+   "id": "brawler_heavy_attack",
+   "titel": "Brawler · heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\brawler\\heavy_attack.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "brawler_heavy_windup",
+   "titel": "Brawler · heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\brawler\\heavy_windup.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "brawler_hurt",
+   "titel": "Brawler · hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\brawler\\hurt.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "brawler_idle",
+   "titel": "Brawler · idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\brawler\\idle.png",
+   "soll": "Deine Wahl."
+  },
+  {
+   "id": "brawler_surrender",
+   "titel": "Brawler · surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\brawler\\surrender.png",
+   "soll": "Ohne Waffe."
+  },
+  {
+   "id": "brawler_victory",
+   "titel": "Brawler · victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\brawler\\victory.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "brawler_weakened",
+   "titel": "Brawler · weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\brawler\\weakened.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "brawler_windup",
+   "titel": "Brawler · windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\brawler\\windup.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "gunner_attack",
+   "titel": "Gunner · attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\gunner\\attack.png",
+   "soll": "Fertig ohne Mündungsfeuer, das kommt im Kampf als Effekt."
+  },
+  {
+   "id": "gunner_defeated",
+   "titel": "Gunner · defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\gunner\\defeated.png",
+   "soll": "Ohne Waffe."
+  },
+  {
+   "id": "gunner_enraged",
+   "titel": "Gunner · enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\gunner\\enraged.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "gunner_flee",
+   "titel": "Gunner · flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\gunner\\flee.png",
+   "soll": "Wird beim Einbau gespiegelt, damit er nach rechts wegläuft."
+  },
+  {
+   "id": "gunner_guard",
+   "titel": "Gunner · guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\gunner\\guard.png",
+   "soll": "Der Mantel schwingt als Deckung nach vorn, der Unterarm ist oben, die Pistole bleibt an der Brust."
+  },
+  {
+   "id": "gunner_heavy_attack",
+   "titel": "Gunner · heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\gunner\\heavy_attack.png",
+   "soll": "Beide Hände an der Pistole, ohne Mündungsfeuer."
+  },
+  {
+   "id": "gunner_heavy_windup",
+   "titel": "Gunner · heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\gunner\\heavy_windup.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "gunner_hurt",
+   "titel": "Gunner · hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\gunner\\hurt.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "gunner_idle",
+   "titel": "Gunner · idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\gunner\\idle.png",
+   "soll": "Deine Wahl."
+  },
+  {
+   "id": "gunner_surrender",
+   "titel": "Gunner · surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\gunner\\surrender.png",
+   "soll": "Ohne Waffe."
+  },
+  {
+   "id": "gunner_victory",
+   "titel": "Gunner · victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\gunner\\victory.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "gunner_weakened",
+   "titel": "Gunner · weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\gunner\\weakened.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "gunner_windup",
+   "titel": "Gunner · windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\gunner\\windup.png",
+   "soll": "Der Daumen spannt den Hahn, das sieht man nur bei genauem Hinsehen."
+  }
+ ],
+ "hinweis": "Je 13 Kampf-Posen auf Basis von Brawler 1 und Gunner 1. Mein Vorschlag: alles übernehmen. Nur was nicht passt, auf „Neu“ setzen. Ins Spiel kommen die Sätze erst nach deinem Urteil, Pirate und PirateAlpha bleiben."
+}

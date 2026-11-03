@@ -1,0 +1,37 @@
+{
+ "id": "zimmer_bilder3",
+ "titel": "Zimmer, Runde 3",
+ "hinweis": "Je Zimmer meine Wahl, Türränder abgeschnitten. OK oder Neu mit Notiz.",
+ "items": [
+  {
+   "id": "crew_kabine_1",
+   "titel": "Crew 1, Sophia und Lea",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\zimmer_bilder3\\crew_kabine_1.png",
+   "soll": "Crew 1, Sophia und Lea: v4, ein Etagenbett mit Messingleiter, links die Tür abgeschnitten"
+  },
+  {
+   "id": "crew_kabine_2",
+   "titel": "Crew 2, Lola und Jana",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\zimmer_bilder3\\crew_kabine_2.png",
+   "soll": "Crew 2, Lola und Jana: v2, Lolas Seite sauber, auf Janas Bett Katzenspielzeug; Bullauge und Tür abgeschnitten"
+  },
+  {
+   "id": "crew_kabine_3",
+   "titel": "Crew 3, Chiara und Rosi",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\zimmer_bilder3\\crew_kabine_3.png",
+   "soll": "Crew 3, Chiara und Rosi: v3, goldener Sextant, Rosis Koje ohne Matratze mit Werkzeugkiste; Fenster und Tür abgeschnitten"
+  },
+  {
+   "id": "bibi_haeuschen_tag",
+   "titel": "Bibis Häuschen Tag",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\zimmer_bilder3\\bibi_haeuschen_tag.png",
+   "soll": "Bibis Häuschen Tag: v2, senfgelb, weiße Kissen, runder Teppich, Löwen-Aquarell"
+  },
+  {
+   "id": "bibi_haeuschen_nacht",
+   "titel": "Bibis Häuschen Nacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\zimmer_bilder3\\bibi_haeuschen_nacht.png",
+   "soll": "Bibis Häuschen Nacht: v2, rechts die Tür abgeschnitten"
+  }
+ ]
+}

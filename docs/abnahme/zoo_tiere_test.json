@@ -1,0 +1,79 @@
+{
+ "id": "zoo_tiere_test_2",
+ "titel": "Zoo-Tiere: Testbilder (wütend)",
+ "hinweis": "Von Claude geprüft: alle Halsbänder gleich, nur ein Licht. Wenn OK, rechne ich für die 10 Raubtiere alle 13 Kampfposen (ca. 130 Bilder). Die Zicklein bleiben Einzelbilder. ✓ OK oder ✗ Neu + Notiz, dann im Chat Bescheid sagen.",
+ "items": [
+  {
+   "id": "Lion",
+   "titel": "Löwe – fletscht",
+   "soll": "Testbild für den Volllauf. Halsband: glattes Silberband, ein rotes Licht",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Lion\\outfit_check.png"
+  },
+  {
+   "id": "LionAlpha",
+   "titel": "Löwen-Alpha – dunkle Mähne, Narben",
+   "soll": "Testbild für den Volllauf. Halsband: glattes Silberband, ein rotes Licht",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\outfit_check.png"
+  },
+  {
+   "id": "Ape",
+   "titel": "Affe – Kapitänsmütze, fletscht",
+   "soll": "Testbild für den Volllauf. Halsband: glattes Silberband, ein rotes Licht",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Ape\\outfit_check.png"
+  },
+  {
+   "id": "ApeAlpha",
+   "titel": "Affen-Alpha – Piratenhut mit Totenkopf",
+   "soll": "Testbild für den Volllauf. Halsband: glattes Silberband, ein rotes Licht",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\outfit_check.png"
+  },
+  {
+   "id": "Wolf",
+   "titel": "Wolf",
+   "soll": "Testbild für den Volllauf. Halsband: glattes Silberband, ein rotes Licht",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wolf\\outfit_check.png"
+  },
+  {
+   "id": "WolfAlpha",
+   "titel": "Wolf-Alpha – fast schwarz, Narbe",
+   "soll": "Testbild für den Volllauf. Halsband: glattes Silberband, ein rotes Licht",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WolfAlpha\\outfit_check.png"
+  },
+  {
+   "id": "Panther",
+   "titel": "Schwarzer Panther",
+   "soll": "Testbild für den Volllauf. Halsband: glattes Silberband, ein rotes Licht",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Panther\\outfit_check.png"
+  },
+  {
+   "id": "PantherAlpha",
+   "titel": "Panther-Alpha – Krallennarben",
+   "soll": "Testbild für den Volllauf. Halsband: glattes Silberband, ein rotes Licht",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PantherAlpha\\outfit_check.png"
+  },
+  {
+   "id": "Grizzly",
+   "titel": "Grizzly",
+   "soll": "Testbild für den Volllauf. Halsband: glattes Silberband, ein rotes Licht",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Grizzly\\outfit_check.png"
+  },
+  {
+   "id": "GrizzlyAlpha",
+   "titel": "Grizzly-Alpha – Narbe, trübes Auge",
+   "soll": "Testbild für den Volllauf. Halsband: glattes Silberband, ein rotes Licht",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\GrizzlyAlpha\\outfit_check.png"
+  },
+  {
+   "id": "Ziege",
+   "titel": "Zicklein mit Glocke (Capra) – süß",
+   "soll": "Testbild für den Volllauf. Halsband: glattes Silberband, ein rotes Licht",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Ziege\\outfit_check.png"
+  },
+  {
+   "id": "ZiegeHalsband",
+   "titel": "Zicklein mit Silberhalsband – süß",
+   "soll": "Testbild für den Volllauf. Halsband: glattes Silberband, ein rotes Licht",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ZiegeHalsband\\outfit_check.png"
+  }
+ ]
+}

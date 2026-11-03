@@ -1,0 +1,49 @@
+{
+ "id": "barrikade",
+ "titel": "Barrikade im Norden",
+ "hinweis": "Links die Karte heute, rechts mit Barrikade. Je eine fuer zu und offen waehlen.",
+ "items": [
+  {
+   "id": "zu-1",
+   "titel": "Closed zu-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_barrikade\\zu-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\kampf_ref\\barrikade_vorlage.png",
+   "soll": "Barrikade quer ueber dem Weg, Karte sonst gleich"
+  },
+  {
+   "id": "zu-2",
+   "titel": "Closed zu-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_barrikade\\zu-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\kampf_ref\\barrikade_vorlage.png",
+   "soll": "Barrikade quer ueber dem Weg, Karte sonst gleich"
+  },
+  {
+   "id": "zu",
+   "titel": "Closed zu",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_barrikade\\zu.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\kampf_ref\\barrikade_vorlage.png",
+   "soll": "Barrikade quer ueber dem Weg, Karte sonst gleich"
+  },
+  {
+   "id": "offen-1",
+   "titel": "Open offen-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_barrikade\\offen-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\kampf_ref\\barrikade_vorlage.png",
+   "soll": "Weg frei, Reste an der Seite, Karte sonst gleich"
+  },
+  {
+   "id": "offen-2",
+   "titel": "Open offen-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_barrikade\\offen-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\kampf_ref\\barrikade_vorlage.png",
+   "soll": "Weg frei, Reste an der Seite, Karte sonst gleich"
+  },
+  {
+   "id": "offen",
+   "titel": "Open offen",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_barrikade\\offen.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\kampf_ref\\barrikade_vorlage.png",
+   "soll": "Weg frei, Reste an der Seite, Karte sonst gleich"
+  }
+ ]
+}

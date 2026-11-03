@@ -1,0 +1,281 @@
+{
+ "_hinweis": "Gebaut aus werkzeuge\\eden_rise\\charms_eden_rise.py - dort aendern.",
+ "charms": {
+  "chiara": {
+   "figur": "chiara",
+   "label": "Chiara's Dolphin",
+   "text": "A grey-blue plush dolphin with a navy ribbon. It has more sea miles than you.",
+   "wirkung": {
+    "attribute": {
+     "charm": 1
+    }
+   },
+   "wirkung_text": "Charisma +1",
+   "bild": "charm_chiara",
+   "seltenheit": "normal"
+  },
+  "lola": {
+   "figur": "lola",
+   "label": "Lola's Kangaroo",
+   "text": "A sandy plush kangaroo with a joey in its pouch and a shell on a string. All the way from Brisbane.",
+   "wirkung": {
+    "attribute": {
+     "strength": 1
+    }
+   },
+   "wirkung_text": "Strength +1",
+   "bild": "charm_lola",
+   "seltenheit": "normal"
+  },
+  "megan": {
+   "figur": "megan",
+   "label": "Megan's Black Puma",
+   "text": "A sleek black plush puma with a gold anchor pin. Every predator needs a mascot.",
+   "wirkung": {
+    "attribute": {
+     "cunning": 1
+    }
+   },
+   "wirkung_text": "Cunning +1",
+   "bild": "charm_megan",
+   "seltenheit": "normal"
+  },
+  "lea": {
+   "figur": "lea",
+   "label": "Lea's Clownfish",
+   "text": "An orange and white plush clownfish with a big grin. Clownfish never leave their anemone.",
+   "wirkung": {
+    "attribute": {
+     "empathy": 1
+    }
+   },
+   "wirkung_text": "Empathy +1",
+   "bild": "charm_lea",
+   "seltenheit": "normal"
+  },
+  "rosi": {
+   "figur": "rosi",
+   "label": "Little Unit-01",
+   "text": "A white plush robot shaped like a tiny generator, sewn on a night shift. It doesn't explode. Probably.",
+   "wirkung": {
+    "attribute": {
+     "courage": 1
+    }
+   },
+   "wirkung_text": "Courage +1",
+   "bild": "charm_rosi",
+   "seltenheit": "normal"
+  },
+  "toto": {
+   "figur": "toto",
+   "label": "Totò's Raccoon",
+   "text": "A very round plush raccoon with a bandit mask, a gold chain and flip-flops. It was adopted.",
+   "wirkung": {
+    "attribute": {
+     "cunning": 1
+    }
+   },
+   "wirkung_text": "Cunning +1",
+   "bild": "charm_toto",
+   "seltenheit": "normal"
+  },
+  "holm": {
+   "figur": "holm",
+   "label": "Holm's Polar Bear",
+   "text": "A white plush polar bear in a captain's cap. Thirty years of watches, since Tromsø.",
+   "wirkung": {
+    "kampf": {
+     "schutz": 1
+    }
+   },
+   "wirkung_text": "Protection +1",
+   "bild": "charm_holm",
+   "seltenheit": "normal"
+  },
+  "yamamoto": {
+   "figur": "yamamoto",
+   "label": "Yamamoto's Turtle",
+   "text": "A green plush sea turtle with tiny sunglasses. Slow, but it sees everything.",
+   "wirkung": {
+    "attribute": {
+     "perception": 1
+    }
+   },
+   "wirkung_text": "Perception +1",
+   "bild": "charm_yamamoto",
+   "seltenheit": "normal"
+  },
+  "petru": {
+   "figur": "petru",
+   "label": "Petru's Octopus",
+   "text": "A coral red plush octopus in a knitted fisherman's cap. Eight arms, and it catches what comes.",
+   "wirkung": {
+    "kampf": {
+     "parade": 10
+    }
+   },
+   "wirkung_text": "Parry window +10 %",
+   "bild": "charm_petru",
+   "seltenheit": "normal"
+  },
+  "nonna": {
+   "figur": "nonna",
+   "label": "Nonna's Hen",
+   "text": "A plump plush hen in a checked apron. She watches the kitchen, and now she watches you.",
+   "wirkung": {
+    "attribute": {
+     "empathy": 1
+    }
+   },
+   "wirkung_text": "Empathy +1",
+   "bild": "charm_nonna",
+   "seltenheit": "normal"
+  },
+  "isabelle": {
+   "figur": "isabelle",
+   "label": "Isabelle's Sheep",
+   "text": "A happy white plush sheep with lavender stitched on its chest. Lavender is for healing.",
+   "wirkung": {
+    "kampf": {
+     "heil_kampf": 3
+    }
+   },
+   "wirkung_text": "Heals 3 after every fight",
+   "bild": "charm_isabelle",
+   "seltenheit": "normal"
+  },
+  "alva": {
+   "figur": "alva",
+   "label": "Alva's Little Bull",
+   "text": "A black plush bull calf with a red carnation from Sevilla behind one horn.",
+   "wirkung": {
+    "kampf": {
+     "snack": 2
+    }
+   },
+   "wirkung_text": "Snacks heal +2",
+   "bild": "charm_alva",
+   "seltenheit": "normal"
+  },
+  "yasin": {
+   "figur": "yasin",
+   "label": "Yasin's Falcon",
+   "text": "A round, fluffy plush falcon with a tiny gold chain. Limited edition. Only one exists.",
+   "wirkung": {
+    "kampf": {
+     "krit": 5
+    }
+   },
+   "wirkung_text": "Crit +5 %",
+   "bild": "anhaenger_falke_neu",
+   "seltenheit": "normal"
+  },
+  "frederico": {
+   "figur": "frederico",
+   "label": "Frederico's Black Lion",
+   "text": "A black plush lion cub with golden eyes and no collar. Nobody gets a collar anymore.",
+   "wirkung": {
+    "attribute": {
+     "strength": 1,
+     "courage": 1
+    }
+   },
+   "wirkung_text": "Strength +1 and Courage +1",
+   "bild": "charm_frederico",
+   "seltenheit": "gold"
+  },
+  "jana": {
+   "figur": "jana",
+   "label": "Not Strudel",
+   "text": "A white plush cat with blue eyes and a red and white scarf. It is definitely not Strudel.",
+   "wirkung": {
+    "attribute": {
+     "courage": 1
+    }
+   },
+   "wirkung_text": "Courage +1",
+   "bild": "anhaenger_strudel",
+   "seltenheit": "normal"
+  },
+  "siri": {
+   "figur": "siri",
+   "label": "Selma the Seal",
+   "text": "A white plush baby seal in a knitted Nordic hat. Been to every shoot, never on camera.",
+   "wirkung": {
+    "attribute": {
+     "empathy": 1
+    }
+   },
+   "wirkung_text": "Empathy +1",
+   "bild": "anhaenger_robbe",
+   "seltenheit": "normal"
+  },
+  "sophia": {
+   "figur": "sophia",
+   "label": "Sophia's Owl",
+   "text": "A brown plush owl with round glasses and a tiny book. It sees everything and says nothing.",
+   "wirkung": {
+    "attribute": {
+     "perception": 1
+    }
+   },
+   "wirkung_text": "Perception +1",
+   "bild": "anhaenger_eule",
+   "seltenheit": "normal"
+  },
+  "elsa": {
+   "figur": "elsa",
+   "label": "Elsa's Shepherd",
+   "text": "A plush German shepherd in a navy police cap. It has stared down three smugglers this year.",
+   "wirkung": {
+    "kampf": {
+     "vorteil": [
+      "einschuechtern"
+     ]
+    }
+   },
+   "wirkung_text": "Advantage on Intimidate",
+   "bild": "anhaenger_schaeferhund",
+   "seltenheit": "normal"
+  },
+  "maxwell": {
+   "figur": "maxwell",
+   "label": "The Champion",
+   "text": "A muscular plush gorilla with sunglasses and a gold champion belt. It never skips breakfast.",
+   "wirkung": {
+    "kampf": {
+     "spezial_schaden": 20
+    }
+   },
+   "wirkung_text": "Special attacks +20 % damage",
+   "bild": "anhaenger_gorilla",
+   "seltenheit": "normal"
+  },
+  "casanova": {
+   "figur": "casanova",
+   "label": "The Mayor's Flamingo",
+   "text": "A pink plush flamingo in a ruffled flamenco dress. She never loses her composure.",
+   "wirkung": {
+    "kampf": {
+     "parade_serie": 1
+    }
+   },
+   "wirkung_text": "Composure −4 after only 2 perfect parries",
+   "bild": "anhaenger_flamingo",
+   "seltenheit": "normal"
+  },
+  "mazzera": {
+   "figur": null,
+   "label": "A Mazzera's Hunting Charm",
+   "text": "A crescent of two boar tusks, raven feathers and a moonstone, bound with red thread. A dream hunter wore it, long before Dumenica.",
+   "wirkung": {
+    "kampf": {
+     "ausdauer_max": 1
+    }
+   },
+   "wirkung_text": "Stamina +1",
+   "bild": "charm_mazzera",
+   "seltenheit": "unikat"
+  }
+ }
+}

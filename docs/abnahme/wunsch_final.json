@@ -1,0 +1,73 @@
+{
+ "id": "wunsch_final_v1",
+ "titel": "Alternative Outfits: finale Auswahl",
+ "hinweis": "Alles andere liegt geparkt in _casting_wunsch_geparkt. Lola, Elsa und Jana haben noch keine Wahl.",
+ "items": [
+  {
+   "id": "Lea_D",
+   "titel": "Lea · rotes Kleid",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Lea_D\\neutral.png",
+   "soll": "Hollywood Waves."
+  },
+  {
+   "id": "Sophia_W",
+   "titel": "Sophia · Trenchcoat (M. J. Penrose)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Sophia_W\\neutral.png",
+   "soll": "Finger Waves."
+  },
+  {
+   "id": "Rosi_W",
+   "titel": "Rosi · Rennanzug in Burgund",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Rosi_W\\neutral-3.png",
+   "soll": "Helmet Shake. Dein Bild B, mit den schwarzen Schultern."
+  },
+  {
+   "id": "Rosi_A",
+   "titel": "Rosi · Camisole und helle Hose",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Rosi_A\\neutral.png",
+   "soll": "Blowout."
+  },
+  {
+   "id": "Siri_K",
+   "titel": "Siri · Korsika-Kleid",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Siri_K\\neutral.png",
+   "soll": "Double Braids."
+  },
+  {
+   "id": "Siri_D",
+   "titel": "Siri · rote Robe",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Siri_D\\neutral.png",
+   "soll": "Sleek Bun."
+  },
+  {
+   "id": "Alva_W",
+   "titel": "Alva · Traje mit Lederjacke",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Alva_W\\neutral-3.png",
+   "soll": "Flamenco Mane, neu: offen bis zur Taille, ein dünner Zopf im offenen Haar. Crop-Hemd bleibt."
+  },
+  {
+   "id": "Alva_K",
+   "titel": "Alva · Korsika-Bluse",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Alva_K\\neutral.png",
+   "soll": "Bun."
+  },
+  {
+   "id": "Megan_W",
+   "titel": "Megan · Final Form",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Megan_W\\neutral.png",
+   "soll": "Hime Cut."
+  },
+  {
+   "id": "Megan_D",
+   "titel": "Megan · schwarze Robe mit Cape",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Megan_D\\neutral.png",
+   "soll": "Sleek Ponytail."
+  },
+  {
+   "id": "Chiara_Whites",
+   "titel": "Chiara · Dress Whites",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Chiara_Whites\\neutral.png",
+   "soll": "Noch offen: Dein Prompt und die Frisur fehlen, dieses Bild ist Platzhalter."
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "id": "bonaventure_kampf",
+ "titel": "Captain Bonaventure: Kampf-Posen, erster Lauf",
+ "hinweis": "13 Posen mit theatralischem Spiel, guard und defeated sind neu. Vorschlag: alle freigeben. Nicht im Spiel.",
+ "items": [
+  {
+   "id": "attack",
+   "titel": "attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bonaventure\\attack.png",
+   "soll": "Wie deine Wahl"
+  },
+  {
+   "id": "defeated",
+   "titel": "defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bonaventure\\defeated.png",
+   "soll": "Neu: ganz im Bild, ein Hut"
+  },
+  {
+   "id": "enraged",
+   "titel": "enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bonaventure\\enraged.png",
+   "soll": "Wie deine Wahl"
+  },
+  {
+   "id": "flee",
+   "titel": "flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bonaventure\\flee.png",
+   "soll": "Wie deine Wahl"
+  },
+  {
+   "id": "guard",
+   "titel": "guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bonaventure\\guard.png",
+   "soll": "Neu: eine Klinge"
+  },
+  {
+   "id": "heavy_attack",
+   "titel": "heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bonaventure\\heavy_attack.png",
+   "soll": "Klinge verschwimmt stark"
+  },
+  {
+   "id": "heavy_windup",
+   "titel": "heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bonaventure\\heavy_windup.png",
+   "soll": "Wie deine Wahl"
+  },
+  {
+   "id": "hurt",
+   "titel": "hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bonaventure\\hurt.png",
+   "soll": "Wie deine Wahl"
+  },
+  {
+   "id": "idle",
+   "titel": "idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bonaventure\\idle.png",
+   "soll": "Wie deine Wahl"
+  },
+  {
+   "id": "surrender",
+   "titel": "surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bonaventure\\surrender.png",
+   "soll": "Wie deine Wahl"
+  },
+  {
+   "id": "victory",
+   "titel": "victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bonaventure\\victory.png",
+   "soll": "Wie deine Wahl"
+  },
+  {
+   "id": "weakened",
+   "titel": "weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bonaventure\\weakened.png",
+   "soll": "Wie deine Wahl"
+  },
+  {
+   "id": "windup",
+   "titel": "windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bonaventure\\windup.png",
+   "soll": "Wie deine Wahl"
+  }
+ ]
+}

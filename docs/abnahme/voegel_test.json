@@ -1,0 +1,91 @@
+{
+ "id": "yamamoto_posen",
+ "titel": "Yamamoto: Kampf-Posen im Modul",
+ "hinweis": "Von Claude geprüft: alles im Bild, Defeated gespiegelt (Kopf rechts), Kopf-Ausschnitt von Hand gesetzt. OK oder Neu + Notiz, dann im Chat Bescheid sagen.",
+ "items": [
+  {
+   "id": "YamamotoSamurai/idle",
+   "titel": "Yamamoto – idle",
+   "soll": "",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\idle.png"
+  },
+  {
+   "id": "YamamotoSamurai/guard",
+   "titel": "Yamamoto – guard",
+   "soll": "",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\guard.png"
+  },
+  {
+   "id": "YamamotoSamurai/hurt",
+   "titel": "Yamamoto – hurt",
+   "soll": "",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\hurt.png"
+  },
+  {
+   "id": "YamamotoSamurai/enraged",
+   "titel": "Yamamoto – enraged",
+   "soll": "",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\enraged.png"
+  },
+  {
+   "id": "YamamotoSamurai/weakened",
+   "titel": "Yamamoto – weakened",
+   "soll": "",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\weakened.png"
+  },
+  {
+   "id": "YamamotoSamurai/surrender",
+   "titel": "Yamamoto – surrender",
+   "soll": "",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\surrender.png"
+  },
+  {
+   "id": "YamamotoSamurai/flee",
+   "titel": "Yamamoto – flee",
+   "soll": "",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\flee.png"
+  },
+  {
+   "id": "YamamotoSamurai/victory",
+   "titel": "Yamamoto – victory",
+   "soll": "",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\victory.png"
+  },
+  {
+   "id": "YamamotoSamurai/windup",
+   "titel": "Yamamoto – windup",
+   "soll": "",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\windup.png"
+  },
+  {
+   "id": "YamamotoSamurai/attack",
+   "titel": "Yamamoto – attack",
+   "soll": "",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\attack.png"
+  },
+  {
+   "id": "YamamotoSamurai/heavy_windup",
+   "titel": "Yamamoto – heavy_windup",
+   "soll": "",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\heavy_windup.png"
+  },
+  {
+   "id": "YamamotoSamurai/heavy_attack",
+   "titel": "Yamamoto – heavy_attack",
+   "soll": "",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\heavy_attack.png"
+  },
+  {
+   "id": "YamamotoSamurai/defeated",
+   "titel": "Yamamoto – defeated",
+   "soll": "",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YamamotoSamurai\\defeated.png"
+  },
+  {
+   "id": "YamamotoSamurai/avatar",
+   "titel": "Yamamoto – Kopf für die Zugfolge",
+   "soll": "",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\YamamotoSamurai\\avatar.webp"
+  }
+ ]
+}

@@ -1,0 +1,775 @@
+{
+ "id": "bar_sets",
+ "titel": "Bar-Sets Mochi's",
+ "hinweis": "Bibi: curiosity_back und embarrassment_back fehlen absichtlich, dort lag der Stoff nicht. Bei Bibi drueckt sich der Stoff in manchen Posen durch: Neu markieren, wo es dich stoert.",
+ "items": [
+  {
+   "id": "Bibi_admiration",
+   "titel": "Bibi: admiration",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\admiration.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_amusement",
+   "titel": "Bibi: amusement",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\amusement.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_amusement_back",
+   "titel": "Bibi: amusement_back",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\amusement_back.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_anger",
+   "titel": "Bibi: anger",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\anger.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_anger_2",
+   "titel": "Bibi: anger_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\anger_2.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_annoyance",
+   "titel": "Bibi: annoyance",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\annoyance.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_annoyance_2",
+   "titel": "Bibi: annoyance_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\annoyance_2.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_approval",
+   "titel": "Bibi: approval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\approval.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_approval_2",
+   "titel": "Bibi: approval_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\approval_2.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_caring",
+   "titel": "Bibi: caring",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\caring.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_caring_2",
+   "titel": "Bibi: caring_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\caring_2.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_confusion",
+   "titel": "Bibi: confusion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\confusion.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_confusion_2",
+   "titel": "Bibi: confusion_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\confusion_2.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_curiosity",
+   "titel": "Bibi: curiosity",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\curiosity.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_disappointment",
+   "titel": "Bibi: disappointment",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\disappointment.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_disappointment_2",
+   "titel": "Bibi: disappointment_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\disappointment_2.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_disapproval",
+   "titel": "Bibi: disapproval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\disapproval.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_disapproval_2",
+   "titel": "Bibi: disapproval_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\disapproval_2.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_disgust",
+   "titel": "Bibi: disgust",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\disgust.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_disgust_2",
+   "titel": "Bibi: disgust_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\disgust_2.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_embarrassment",
+   "titel": "Bibi: embarrassment",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\embarrassment.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_fear",
+   "titel": "Bibi: fear",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\fear.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_fear_2",
+   "titel": "Bibi: fear_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\fear_2.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_gratitude",
+   "titel": "Bibi: gratitude",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\gratitude.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_gratitude_2",
+   "titel": "Bibi: gratitude_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\gratitude_2.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_grief",
+   "titel": "Bibi: grief",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\grief.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_grief_2",
+   "titel": "Bibi: grief_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\grief_2.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_joy",
+   "titel": "Bibi: joy",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\joy.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_joy_2",
+   "titel": "Bibi: joy_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\joy_2.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_joy_3",
+   "titel": "Bibi: joy_3",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\joy_3.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_love",
+   "titel": "Bibi: love",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\love.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_nervousness",
+   "titel": "Bibi: nervousness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\nervousness.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_nervousness_back",
+   "titel": "Bibi: nervousness_back",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\nervousness_back.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_neutral",
+   "titel": "Bibi: neutral",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\neutral.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_neutral_2",
+   "titel": "Bibi: neutral_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\neutral_2.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_optimism",
+   "titel": "Bibi: optimism",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\optimism.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_optimism_2",
+   "titel": "Bibi: optimism_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\optimism_2.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_pride",
+   "titel": "Bibi: pride",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\pride.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_pride_back",
+   "titel": "Bibi: pride_back",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\pride_back.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_realization",
+   "titel": "Bibi: realization",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\realization.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_realization_2",
+   "titel": "Bibi: realization_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\realization_2.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_relief",
+   "titel": "Bibi: relief",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\relief.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_relief_2",
+   "titel": "Bibi: relief_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\relief_2.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_remorse",
+   "titel": "Bibi: remorse",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\remorse.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_remorse_2",
+   "titel": "Bibi: remorse_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\remorse_2.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_sadness",
+   "titel": "Bibi: sadness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\sadness.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_sadness_back",
+   "titel": "Bibi: sadness_back",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\sadness_back.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_submissive",
+   "titel": "Bibi: submissive",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\submissive.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_surprise",
+   "titel": "Bibi: surprise",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\surprise.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Bibi_worshipful",
+   "titel": "Bibi: worshipful",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\worshipful.png",
+   "soll": "Stoff deckt die Brust, Haende im Bild"
+  },
+  {
+   "id": "Charly_admiration",
+   "titel": "Charly: admiration",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\admiration.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_amusement",
+   "titel": "Charly: amusement",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\amusement.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_amusement_back",
+   "titel": "Charly: amusement_back",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\amusement_back.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_anger",
+   "titel": "Charly: anger",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\anger.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_anger_2",
+   "titel": "Charly: anger_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\anger_2.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_annoyance",
+   "titel": "Charly: annoyance",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\annoyance.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_annoyance_2",
+   "titel": "Charly: annoyance_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\annoyance_2.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_approval",
+   "titel": "Charly: approval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\approval.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_approval_2",
+   "titel": "Charly: approval_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\approval_2.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_caring",
+   "titel": "Charly: caring",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\caring.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_caring_2",
+   "titel": "Charly: caring_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\caring_2.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_confusion",
+   "titel": "Charly: confusion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\confusion.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_confusion_2",
+   "titel": "Charly: confusion_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\confusion_2.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_curiosity",
+   "titel": "Charly: curiosity",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\curiosity.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_curiosity_back",
+   "titel": "Charly: curiosity_back",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\curiosity_back.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_disappointment",
+   "titel": "Charly: disappointment",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\disappointment.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_disappointment_2",
+   "titel": "Charly: disappointment_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\disappointment_2.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_disapproval",
+   "titel": "Charly: disapproval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\disapproval.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_disapproval_2",
+   "titel": "Charly: disapproval_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\disapproval_2.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_disgust",
+   "titel": "Charly: disgust",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\disgust.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_disgust_2",
+   "titel": "Charly: disgust_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\disgust_2.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_embarrassment",
+   "titel": "Charly: embarrassment",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\embarrassment.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_embarrassment_back",
+   "titel": "Charly: embarrassment_back",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\embarrassment_back.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_fear",
+   "titel": "Charly: fear",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\fear.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_fear_2",
+   "titel": "Charly: fear_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\fear_2.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_gratitude",
+   "titel": "Charly: gratitude",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\gratitude.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_gratitude_2",
+   "titel": "Charly: gratitude_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\gratitude_2.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_grief",
+   "titel": "Charly: grief",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\grief.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_grief_2",
+   "titel": "Charly: grief_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\grief_2.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_joy",
+   "titel": "Charly: joy",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\joy.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_joy_2",
+   "titel": "Charly: joy_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\joy_2.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_joy_3",
+   "titel": "Charly: joy_3",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\joy_3.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_love",
+   "titel": "Charly: love",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\love.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_nervousness",
+   "titel": "Charly: nervousness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\nervousness.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_nervousness_back",
+   "titel": "Charly: nervousness_back",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\nervousness_back.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_neutral",
+   "titel": "Charly: neutral",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\neutral.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_neutral_2",
+   "titel": "Charly: neutral_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\neutral_2.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_optimism",
+   "titel": "Charly: optimism",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\optimism.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_optimism_2",
+   "titel": "Charly: optimism_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\optimism_2.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_pride",
+   "titel": "Charly: pride",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\pride.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_pride_back",
+   "titel": "Charly: pride_back",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\pride_back.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_realization",
+   "titel": "Charly: realization",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\realization.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_realization_2",
+   "titel": "Charly: realization_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\realization_2.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_relief",
+   "titel": "Charly: relief",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\relief.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_relief_2",
+   "titel": "Charly: relief_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\relief_2.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_remorse",
+   "titel": "Charly: remorse",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\remorse.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_remorse_2",
+   "titel": "Charly: remorse_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\remorse_2.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_sadness",
+   "titel": "Charly: sadness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\sadness.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_sadness_back",
+   "titel": "Charly: sadness_back",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\sadness_back.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_submissive",
+   "titel": "Charly: submissive",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\submissive.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_surprise",
+   "titel": "Charly: surprise",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\surprise.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Charly_worshipful",
+   "titel": "Charly: worshipful",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\worshipful.png",
+   "soll": "Haende im Bild, Top-Knot, Hibiskus"
+  },
+  {
+   "id": "Danzel_admiration_2",
+   "titel": "Danzel: admiration_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Bath\\roh\\admiration_2.png",
+   "soll": "Badehose, offenes Hemd, Hibiskus in der Tasche"
+  },
+  {
+   "id": "Danzel_amusement-1",
+   "titel": "Danzel: amusement-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Bath\\roh\\amusement-1.png",
+   "soll": "Badehose, offenes Hemd, Hibiskus in der Tasche"
+  },
+  {
+   "id": "Danzel_amusement-2",
+   "titel": "Danzel: amusement-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Bath\\roh\\amusement-2.png",
+   "soll": "Badehose, offenes Hemd, Hibiskus in der Tasche"
+  },
+  {
+   "id": "Danzel_anger",
+   "titel": "Danzel: anger",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Bath\\roh\\anger.png",
+   "soll": "Badehose, offenes Hemd, Hibiskus in der Tasche"
+  },
+  {
+   "id": "Danzel_annoyance",
+   "titel": "Danzel: annoyance",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Bath\\roh\\annoyance.png",
+   "soll": "Badehose, offenes Hemd, Hibiskus in der Tasche"
+  },
+  {
+   "id": "Danzel_approval-1",
+   "titel": "Danzel: approval-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Bath\\roh\\approval-1.png",
+   "soll": "Badehose, offenes Hemd, Hibiskus in der Tasche"
+  },
+  {
+   "id": "Danzel_approval-2",
+   "titel": "Danzel: approval-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Bath\\roh\\approval-2.png",
+   "soll": "Badehose, offenes Hemd, Hibiskus in der Tasche"
+  },
+  {
+   "id": "Danzel_caring",
+   "titel": "Danzel: caring",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Bath\\roh\\caring.png",
+   "soll": "Badehose, offenes Hemd, Hibiskus in der Tasche"
+  },
+  {
+   "id": "Danzel_confusion",
+   "titel": "Danzel: confusion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Bath\\roh\\confusion.png",
+   "soll": "Badehose, offenes Hemd, Hibiskus in der Tasche"
+  },
+  {
+   "id": "Danzel_curiosity",
+   "titel": "Danzel: curiosity",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Bath\\roh\\curiosity.png",
+   "soll": "Badehose, offenes Hemd, Hibiskus in der Tasche"
+  },
+  {
+   "id": "Danzel_desire_2",
+   "titel": "Danzel: desire_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Bath\\roh\\desire_2.png",
+   "soll": "Badehose, offenes Hemd, Hibiskus in der Tasche"
+  },
+  {
+   "id": "Danzel_disappointment",
+   "titel": "Danzel: disappointment",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Bath\\roh\\disappointment.png",
+   "soll": "Badehose, offenes Hemd, Hibiskus in der Tasche"
+  },
+  {
+   "id": "Danzel_disapproval",
+   "titel": "Danzel: disapproval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Bath\\roh\\disapproval.png",
+   "soll": "Badehose, offenes Hemd, Hibiskus in der Tasche"
+  },
+  {
+   "id": "Danzel_disgust",
+   "titel": "Danzel: disgust",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Bath\\roh\\disgust.png",
+   "soll": "Badehose, offenes Hemd, Hibiskus in der Tasche"
+  },
+  {
+   "id": "Danzel_embarrassment_2",
+   "titel": "Danzel: embarrassment_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Bath\\roh\\embarrassment_2.png",
+   "soll": "Badehose, offenes Hemd, Hibiskus in der Tasche"
+  },
+  {
+   "id": "Danzel_excitement_2",
+   "titel": "Danzel: excitement_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Bath\\roh\\excitement_2.png",
+   "soll": "Badehose, offenes Hemd, Hibiskus in der Tasche"
+  },
+  {
+   "id": "Danzel_fear_2",
+   "titel": "Danzel: fear_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Bath\\roh\\fear_2.png",
+   "soll": "Badehose, offenes Hemd, Hibiskus in der Tasche"
+  },
+  {
+   "id": "Danzel_gratitude-1",
+   "titel": "Danzel: gratitude-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Bath\\roh\\gratitude-1.png",
+   "soll": "Badehose, offenes Hemd, Hibiskus in der Tasche"
+  },
+  {
+   "id": "Danzel_gratitude",
+   "titel": "Danzel: gratitude",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Bath\\roh\\gratitude.png",
+   "soll": "Badehose, offenes Hemd, Hibiskus in der Tasche"
+  },
+  {
+   "id": "Danzel_joy",
+   "titel": "Danzel: joy",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Bath\\roh\\joy.png",
+   "soll": "Badehose, offenes Hemd, Hibiskus in der Tasche"
+  },
+  {
+   "id": "Danzel_love_2",
+   "titel": "Danzel: love_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Bath\\roh\\love_2.png",
+   "soll": "Badehose, offenes Hemd, Hibiskus in der Tasche"
+  },
+  {
+   "id": "Danzel_nervousness",
+   "titel": "Danzel: nervousness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Bath\\roh\\nervousness.png",
+   "soll": "Badehose, offenes Hemd, Hibiskus in der Tasche"
+  },
+  {
+   "id": "Danzel_neutral",
+   "titel": "Danzel: neutral",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Bath\\roh\\neutral.png",
+   "soll": "Badehose, offenes Hemd, Hibiskus in der Tasche"
+  },
+  {
+   "id": "Danzel_pride",
+   "titel": "Danzel: pride",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Bath\\roh\\pride.png",
+   "soll": "Badehose, offenes Hemd, Hibiskus in der Tasche"
+  },
+  {
+   "id": "Danzel_sadness",
+   "titel": "Danzel: sadness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Bath\\roh\\sadness.png",
+   "soll": "Badehose, offenes Hemd, Hibiskus in der Tasche"
+  },
+  {
+   "id": "Danzel_surprise",
+   "titel": "Danzel: surprise",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Danzel\\Bath\\roh\\surprise.png",
+   "soll": "Badehose, offenes Hemd, Hibiskus in der Tasche"
+  }
+ ]
+}

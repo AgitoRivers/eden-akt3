@@ -1,0 +1,79 @@
+{
+ "id": "kampf_waffenpflege",
+ "titel": "Waffenpflege · eine je Waffenart",
+ "hinweis": "Blau v3, Rot v3 und Munition v2 sind übernommen. Offen: Spikes, neu als Stacheln zum Anschnallen.",
+ "items": [
+  {
+   "id": "whetstone_blue_v1",
+   "titel": "Blauer Schleifstein – Säbel · Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\whetstone_blue_v1.png",
+   "soll": "einfarbig schieferblau, flach, ruhige glatte Oberfläche"
+  },
+  {
+   "id": "whetstone_blue_v2",
+   "titel": "Blauer Schleifstein – Säbel · Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\whetstone_blue_v2.png",
+   "soll": "einfarbig schieferblau, flach, ruhige glatte Oberfläche"
+  },
+  {
+   "id": "whetstone_blue_v3",
+   "titel": "Blauer Schleifstein – Säbel · Variante 3",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\whetstone_blue_v3.png",
+   "soll": "einfarbig schieferblau, flach, ruhige glatte Oberfläche"
+  },
+  {
+   "id": "whetstone_red_v1",
+   "titel": "Roter Schleifstein – Saufeder · Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\whetstone_red_v1.png",
+   "soll": "einfarbig ziegelrot, flach, ruhige glatte Oberfläche"
+  },
+  {
+   "id": "whetstone_red_v2",
+   "titel": "Roter Schleifstein – Saufeder · Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\whetstone_red_v2.png",
+   "soll": "einfarbig ziegelrot, flach, ruhige glatte Oberfläche"
+  },
+  {
+   "id": "whetstone_red_v3",
+   "titel": "Roter Schleifstein – Saufeder · Variante 3",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\whetstone_red_v3.png",
+   "soll": "einfarbig ziegelrot, flach, ruhige glatte Oberfläche"
+  },
+  {
+   "id": "spikes_v1",
+   "titel": "Spikes (neu: Stacheln zum Anschnallen) · Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\spikes_v1.png",
+   "soll": "breites Lederband voller spitzer Stahlstacheln, Schnallen zum Festmachen am Schlägerkopf"
+  },
+  {
+   "id": "spikes_v2",
+   "titel": "Spikes (neu: Stacheln zum Anschnallen) · Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\spikes_v2.png",
+   "soll": "breites Lederband voller spitzer Stahlstacheln, Schnallen zum Festmachen am Schlägerkopf"
+  },
+  {
+   "id": "spikes_v3",
+   "titel": "Spikes (neu: Stacheln zum Anschnallen) · Variante 3",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\spikes_v3.png",
+   "soll": "breites Lederband voller spitzer Stahlstacheln, Schnallen zum Festmachen am Schlägerkopf"
+  },
+  {
+   "id": "match_ammo_v1",
+   "titel": "Präzisionsmunition – Flinte · Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\match_ammo_v1.png",
+   "soll": "Schachtel + drei rote Patronen mit Messingboden"
+  },
+  {
+   "id": "match_ammo_v2",
+   "titel": "Präzisionsmunition – Flinte · Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\match_ammo_v2.png",
+   "soll": "Schachtel + drei rote Patronen mit Messingboden"
+  },
+  {
+   "id": "match_ammo_v3",
+   "titel": "Präzisionsmunition – Flinte · Variante 3",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\match_ammo_v3.png",
+   "soll": "Schachtel + drei rote Patronen mit Messingboden"
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+{"id": "hafen_kai", "titel": "Hafenkampf: der Kai nach dem Ratten-Ansturm", "hinweis": "Bitte eine Variante mit OK markieren. Das Bild fehlt im Spiel seit dem 27.10.: hk_hilfe, hk_rosi und hk_petru an Tag 2 zeigen dort nichts. Vorschlag: Variante 2, dort sieht man am besten, dass gerade etwas durchgerannt ist. Kiste und Eimer sind umgekippt und es liegen wenige Fische da.",
+ "items": [
+  {"id": "hafen_kai_chaos_v2", "titel": "Variante 2 (Vorschlag)", "bild": "X:/AI/SillyTavern3/SillyTavern-Launcher/SillyTavern/data/default-user/backgrounds/_varianten/eden_rise_hafen_kai_chaos_v2.png", "soll": "Kiste und Eimer umgekippt, wenige Fische. Oben auf dem Kai steht ein kleines weißes Auto."},
+  {"id": "hafen_kai_chaos_v1", "titel": "Variante 1", "bild": "X:/AI/SillyTavern3/SillyTavern-Launcher/SillyTavern/data/default-user/backgrounds/_varianten/eden_rise_hafen_kai_chaos_v1.png", "soll": "Kisten stehen ordentlich. Am Boot steht unleserliche Schrift."},
+  {"id": "hafen_kai_chaos_v3", "titel": "Variante 3", "bild": "X:/AI/SillyTavern3/SillyTavern-Launcher/SillyTavern/data/default-user/backgrounds/_varianten/eden_rise_hafen_kai_chaos_v3.png", "soll": "Kisten stehen ordentlich, viele Fische auf einem Haufen."},
+  {"id": "hafen_kai_chaos_v4", "titel": "Variante 4", "bild": "X:/AI/SillyTavern3/SillyTavern-Launcher/SillyTavern/data/default-user/backgrounds/_varianten/eden_rise_hafen_kai_chaos_v4.png", "soll": "Kisten stehen ordentlich, viele Fische, Taue und Rettungsring."}
+ ]}

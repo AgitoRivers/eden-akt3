@@ -1,0 +1,127 @@
+{
+ "id": "bibi_ausdruck",
+ "titel": "Bibi: mehr Ausdruck",
+ "hinweis": "Fünf Spielzeilen im Vergleich. A läuft schon im Spiel. B nutzt nur ein lebhaftes Stück der Vorlage.",
+ "gruppen": [
+  {
+   "id": "z1",
+   "titel": "1: Lachen",
+   "farbe": "#c0524a",
+   "max": 1,
+   "soll": "Ha ha ha ha! ...Sorry. I do that.",
+   "kandidaten": [
+    {
+     "titel": "Vorher",
+     "unter": "Alte Tags.",
+     "datei": "bibi_ausdruck/vorher_1.wav"
+    },
+    {
+     "titel": "A: neue Tags",
+     "unter": "[laugh] Ha ha ha ha! ...Sorry. [chuckle] I do that.",
+     "datei": "bibi_ausdruck/a_1.wav"
+    },
+    {
+     "titel": "B: neue Tags, kurze Vorlage",
+     "unter": "[laugh] Ha ha ha ha! ...Sorry. [chuckle] I do that.",
+     "datei": "bibi_ausdruck/b_1.wav"
+    }
+   ]
+  },
+  {
+   "id": "z2",
+   "titel": "2: Verspielt",
+   "farbe": "#c0524a",
+   "max": 1,
+   "soll": "Fourteen kilos. It should be twenty. Look at you, you're just a big biscuit, aren't you? Ha! Yes. That's your name now. Sorry.",
+   "kandidaten": [
+    {
+     "titel": "Vorher",
+     "unter": "Alte Tags.",
+     "datei": "bibi_ausdruck/vorher_2.wav"
+    },
+    {
+     "titel": "A: neue Tags",
+     "unter": "Fourteen kilos. [sigh] It should be twenty. Look at you, you're just a big biscuit, aren't you? [laugh] Ha! Yes. That's your name now. Sorry.",
+     "datei": "bibi_ausdruck/a_2.wav"
+    },
+    {
+     "titel": "B: neue Tags, kurze Vorlage",
+     "unter": "Fourteen kilos. [sigh] It should be twenty. Look at you, you're just a big biscuit, aren't you? [laugh] Ha! Yes. That's your name now. Sorry.",
+     "datei": "bibi_ausdruck/b_2.wav"
+    }
+   ]
+  },
+  {
+   "id": "z3",
+   "titel": "3: Begrüßung",
+   "farbe": "#c0524a",
+   "max": 1,
+   "soll": "Mind the bowl! Everybody kicks the bowl. Sorry. I do that. Is that why you came up?",
+   "kandidaten": [
+    {
+     "titel": "Vorher",
+     "unter": "Alte Tags.",
+     "datei": "bibi_ausdruck/vorher_3.wav"
+    },
+    {
+     "titel": "A: neue Tags",
+     "unter": "Mind the bowl! [laugh] Everybody kicks the bowl! Sorry. I do that. Is that why you came up?",
+     "datei": "bibi_ausdruck/a_3.wav"
+    },
+    {
+     "titel": "B: neue Tags, kurze Vorlage",
+     "unter": "Mind the bowl! [laugh] Everybody kicks the bowl! Sorry. I do that. Is that why you came up?",
+     "datei": "bibi_ausdruck/b_3.wav"
+    }
+   ]
+  },
+  {
+   "id": "z4",
+   "titel": "4: Zärtlich",
+   "farbe": "#c0524a",
+   "max": 1,
+   "soll": "Mochi, my lion, was a hundred and ninety kilos, the last time I weighed him. He had a bad tooth on the left side and he only let me near it.",
+   "kandidaten": [
+    {
+     "titel": "Vorher",
+     "unter": "Alte Tags.",
+     "datei": "bibi_ausdruck/vorher_4.wav"
+    },
+    {
+     "titel": "A: neue Tags",
+     "unter": "Mochi, my lion, was a hundred and ninety kilos, the last time I weighed him. [sigh] He had a bad tooth on the left side and he only let me near it.",
+     "datei": "bibi_ausdruck/a_4.wav"
+    },
+    {
+     "titel": "B: neue Tags, kurze Vorlage",
+     "unter": "Mochi, my lion, was a hundred and ninety kilos, the last time I weighed him. [sigh] He had a bad tooth on the left side and he only let me near it.",
+     "datei": "bibi_ausdruck/b_4.wav"
+    }
+   ]
+  },
+  {
+   "id": "z5",
+   "titel": "5: Traurig",
+   "farbe": "#c0524a",
+   "max": 1,
+   "soll": "I'm still going to put his food out tonight. I know. Don't say anything.",
+   "kandidaten": [
+    {
+     "titel": "Vorher",
+     "unter": "Alte Tags.",
+     "datei": "bibi_ausdruck/vorher_5.wav"
+    },
+    {
+     "titel": "A: neue Tags",
+     "unter": "I'm still going to put his food out tonight. [sniff] I know. Don't say anything.",
+     "datei": "bibi_ausdruck/a_5.wav"
+    },
+    {
+     "titel": "B: neue Tags, kurze Vorlage",
+     "unter": "I'm still going to put his food out tonight. [sniff] I know. Don't say anything.",
+     "datei": "bibi_ausdruck/b_5.wav"
+    }
+   ]
+  }
+ ]
+}

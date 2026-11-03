@@ -1,0 +1,47 @@
+{
+ "ligeia_gr1_1": {
+  "lufs": -20.1,
+  "dauer": 42.6,
+  "band_8_10k_db": -14.7
+ },
+ "ligeia_gr1_2": {
+  "lufs": -19.3,
+  "dauer": 41.4,
+  "band_8_10k_db": -18.9
+ },
+ "ligeia_gr1_3": {
+  "lufs": -18.0,
+  "dauer": 39.2,
+  "band_8_10k_db": -20.6
+ },
+ "ligeia_gr2_1": {
+  "lufs": -20.1,
+  "dauer": 45.2,
+  "band_8_10k_db": -16.3
+ },
+ "ligeia_gr2_2": {
+  "lufs": -19.9,
+  "dauer": 43.2,
+  "band_8_10k_db": -21.2
+ },
+ "ligeia_gr2_3": {
+  "lufs": -17.3,
+  "dauer": 39.4,
+  "band_8_10k_db": -22.3
+ },
+ "ligeia_it_1": {
+  "lufs": -20.3,
+  "dauer": 44.3,
+  "band_8_10k_db": -16.3
+ },
+ "ligeia_it_2": {
+  "lufs": -19.5,
+  "dauer": 46.2,
+  "band_8_10k_db": -20.4
+ },
+ "ligeia_it_3": {
+  "lufs": -18.0,
+  "dauer": 44.0,
+  "band_8_10k_db": -19.5
+ }
+}

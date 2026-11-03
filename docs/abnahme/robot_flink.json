@@ -1,0 +1,87 @@
+{
+ "id": "robot_flink_v1",
+ "titel": "Leichter flinker Roboter: 10 Ideen",
+ "hinweis": "Bitte einen wählen. Mein Vorschlag: f08 Ninja. Alle sind aus der gleichen Baureihe wie die Boarding Robots: Graphit, weiße Kanten, ein rotes Licht. Erst nach deiner Wahl rendere ich den vollen Satz.",
+ "items": [
+  {
+   "id": "f01",
+   "titel": "f01 · Strauß",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_robot_flink\\f01\\idle.png",
+   "soll": "Lange Laufbeine, langer Hals, kurze Arme mit Klingen. Sieht am schnellsten aus, das war meine erste Idee.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\normal\\idle.png",
+   "vergleich_titel": "Boarding Robot"
+  },
+  {
+   "id": "f02",
+   "titel": "f02 · Windhund",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_robot_flink\\f02\\idle.png",
+   "soll": "Vier Beine, schmale Brust. Am Rumpf sind ein paar kleine Fugen zu sehen. Vier Beine machen Posen wie Block und Sieg schwerer.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\normal\\idle.png",
+   "vergleich_titel": "Boarding Robot"
+  },
+  {
+   "id": "f03",
+   "titel": "f03 · Spinne",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_robot_flink\\f03\\idle.png",
+   "soll": "Flacher Körper auf sechs langen Beinen. Wirkt fremd und unheimlich, hat aber kaum klare Angriffspose.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\normal\\idle.png",
+   "vergleich_titel": "Boarding Robot"
+  },
+  {
+   "id": "f04",
+   "titel": "f04 · Einrad",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_robot_flink\\f04\\idle.png",
+   "soll": "Balanciert auf einem großen Rad, Klingen an den Armen. Sehr eigene Form, Flucht und Sieg wären lustig.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\normal\\idle.png",
+   "vergleich_titel": "Boarding Robot"
+  },
+  {
+   "id": "f05",
+   "titel": "f05 · Fechter",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_robot_flink\\f05\\idle.png",
+   "soll": "Dünner Mensch-Roboter mit Degen. Elegant, aber die Klinge ist sehr dünn und im Kampf klein zu sehen.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\normal\\idle.png",
+   "vergleich_titel": "Boarding Robot"
+  },
+  {
+   "id": "f06",
+   "titel": "f06 · Kobra",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_robot_flink\\f06\\idle.png",
+   "soll": "Aufgerichtete Schlange aus runden Segmenten. Stark als Form, aber nicht leicht, eher massiv.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\normal\\idle.png",
+   "vergleich_titel": "Boarding Robot"
+  },
+  {
+   "id": "f07",
+   "titel": "f07 · Heuschrecke",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_robot_flink\\f07\\idle.png",
+   "soll": "Große Sprungbeine, kleine Hakenarme. Die Beine haben kleine Zacken, die ich wegnehmen würde.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\normal\\idle.png",
+   "vergleich_titel": "Boarding Robot"
+  },
+  {
+   "id": "f08",
+   "titel": "f08 · Ninja (Vorschlag)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_robot_flink\\f08\\idle.png",
+   "soll": "Klein, zwei kurze Klingen, roter Schal. Liest sich sofort als flink, passt in alle 13 Posen und hebt sich klar von den beiden schweren Robotern ab.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\normal\\idle.png",
+   "vergleich_titel": "Boarding Robot"
+  },
+  {
+   "id": "f09",
+   "titel": "f09 · Skorpion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_robot_flink\\f09\\idle.png",
+   "soll": "Flach, Zangen, Schwanz mit Klinge. Starke Form, liegt aber niedrig und braucht viel Breite.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\normal\\idle.png",
+   "vergleich_titel": "Boarding Robot"
+  },
+  {
+   "id": "f10",
+   "titel": "f10 · Schwebe-Roboter",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_robot_flink\\f10\\idle.png",
+   "soll": "Keine Beine, schwebt auf einem runden Fuß, lange Klingenarme. Der Fuß steht im Bild noch fest auf dem Boden, das Schweben sieht man kaum.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\normal\\idle.png",
+   "vergleich_titel": "Boarding Robot"
+  }
+ ]
+}

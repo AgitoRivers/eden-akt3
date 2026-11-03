@@ -1,0 +1,31 @@
+{
+ "id": "charakter_wasser_meer",
+ "titel": "Character: Wasser als Meer und Küste",
+ "hinweis": "Erde (Granit frontal), Feuer (Himmel in Glut) und Luft (Berggrat) sind übernommen. Für Wasser jetzt Meer und Küste: den besten mit OK markieren.",
+ "items": [
+  {
+   "id": "Wasser_g",
+   "titel": "Meramie (Wasser) · ruhige türkise Bucht im Goldlicht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\meer_Wasser_g.jpg",
+   "soll": "Hintergrund wie im Menü abgedunkelt, mattes Sprite davor"
+  },
+  {
+   "id": "Wasser_h",
+   "titel": "Meramie (Wasser) · offenes Meer im Abendrot",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\meer_Wasser_h.jpg",
+   "soll": "Hintergrund wie im Menü abgedunkelt, mattes Sprite davor"
+  },
+  {
+   "id": "Wasser_i",
+   "titel": "Meramie (Wasser) · felsige Küste im Morgenlicht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\meer_Wasser_i.jpg",
+   "soll": "Hintergrund wie im Menü abgedunkelt, mattes Sprite davor"
+  },
+  {
+   "id": "Wasser_j",
+   "titel": "Meramie (Wasser) · flaches Türkis vor Kalksteinklippen",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\meer_Wasser_j.jpg",
+   "soll": "Hintergrund wie im Menü abgedunkelt, mattes Sprite davor"
+  }
+ ]
+}

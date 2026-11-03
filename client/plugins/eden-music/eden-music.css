@@ -1,0 +1,4 @@
+.eden-music{display:flex;align-items:center;gap:var(--a3);padding:var(--a25) 0;color:var(--perle,var(--perle));font:var(--t-info) system-ui}.eden-music[hidden]{display:none}
+.menue .eden-music button{flex:none;width:auto;padding:var(--a2) var(--a3);border:1px solid var(--linie,rgba(216,189,134,.28));border-radius:var(--r-taste);background:transparent;color:inherit;font:inherit;cursor:pointer}.eden-music input{flex:1;min-width:80px;accent-color:var(--akz)}.eden-music button:focus-visible,.eden-music input:focus-visible{outline:2px solid var(--akz);outline-offset:3px}
+
+.eden-music a{font-size:var(--t-klein);color:inherit;white-space:nowrap}

@@ -1,0 +1,28 @@
+/* Table scene (27.10.2026) - Deck Glass Noir tokens from client/index.html */
+#tisch{position:fixed;inset:0;z-index:80;display:grid;place-items:center;cursor:pointer;
+  background:radial-gradient(ellipse at 50% 70%,rgba(7,8,11,.55),rgba(7,8,11,.9));backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);
+  animation:tischEin .35s ease}
+@keyframes tischEin{from{opacity:0}to{opacity:1}}
+#tisch .tisch-figur{position:absolute;left:50%;bottom:0;height:min(88vh,980px);transform:translateX(-62%);
+  filter:drop-shadow(0 14px 30px rgba(0,0,0,.65));pointer-events:none;animation:tischFigur .5s ease}
+@keyframes tischFigur{from{opacity:0;transform:translateX(-62%) translateY(14px)}to{opacity:1;transform:translateX(-62%)}}
+#tisch.tisch-titel .tisch-figur,#tisch.tisch-folgen .tisch-figur{opacity:.35}
+.tisch-karte{position:relative;z-index:1;width:min(560px,calc(100vw - 40px));margin-left:min(34vw,420px);padding:var(--karte-pad-gross);border-radius:var(--r-karte);
+  background:var(--rauch-stark);border:1px solid var(--linie);box-shadow:0 18px 50px rgba(0,0,0,.45);
+  backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);animation:tischKarte .35s ease}
+@keyframes tischKarte{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.tisch-karte small{display:block;font-size:var(--t-mini);letter-spacing:.2em;text-transform:uppercase;color:var(--perle-dim);margin-bottom:var(--a15)}
+.tisch-karte p{margin:0;font-size:var(--t-gross);line-height:1.55}
+.tisch-rede p{color:var(--rede)}
+.tisch-text p{color:var(--perle-leise);font-style:italic}
+.tisch-titel{text-align:center;padding:var(--a6) var(--a6)}
+.tisch-titel b{display:block;font:750 var(--t-held)/1.05 var(--f-name);letter-spacing:-.02em;color:var(--akz);text-shadow:0 6px 30px rgba(0,0,0,.6)}
+.tisch-titel span{display:block;margin-top:var(--a25);font-size:var(--t-text);letter-spacing:.12em;text-transform:uppercase;color:var(--perle-leise)}
+.tisch-folgen b{display:block;font:700 var(--t-unter) var(--f-name);color:var(--akz);margin-bottom:var(--a2)}
+.tisch-folgen ul{margin:0;padding:0;list-style:none;display:grid;gap:var(--a15)}
+.tisch-folgen li{font-size:var(--t-text);color:var(--gut)}
+#tisch .tisch-skip{position:absolute;top:var(--rand);right:var(--rand);z-index:2;padding:var(--a2) var(--a4)}
+#tisch .tisch-weiter{position:absolute;left:50%;bottom:28px;transform:translateX(-50%);z-index:2;font-size:var(--t-klein);color:var(--perle-dim);pointer-events:none}
+#tisch kbd{font:var(--t-mini) var(--f-zahl);padding:2px var(--a15);border:1px solid var(--linie-n);border-radius:var(--r-taste)}
+@media (max-width:900px){.tisch-karte{margin-left:0}#tisch .tisch-figur{transform:translateX(-50%);opacity:.5}}
+@media (prefers-reduced-motion:reduce){#tisch,#tisch .tisch-figur,.tisch-karte{animation:none}}

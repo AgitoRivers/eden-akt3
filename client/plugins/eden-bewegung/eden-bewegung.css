@@ -1,0 +1,34 @@
+/* Eden: Bewegung und Uebergaenge (ui_stil.md Abschnitt 2b). Werte wie die Buehnenkarten: --szk-kurve, rein langsamer als raus. */
+#bew-stufen{position:fixed;top:var(--a7);left:50%;transform:translateX(-50%);z-index:60;display:flex;flex-direction:column;align-items:center;gap:var(--a2);pointer-events:none}
+.bew-stufe{--farbe:var(--akz2);display:flex;align-items:center;gap:var(--a4);padding:var(--a3) var(--a6) var(--a3) var(--a3);border-radius:var(--r-rund);border-color:var(--farbe);animation:bewStufeRein .55s cubic-bezier(.16,1,.3,1) both}
+.bew-stufe.b{--farbe:var(--begehren)}
+.bew-stufe.geht{animation:bewStufeRaus .42s ease-in both}
+.bew-ring{display:grid;place-items:center;width:var(--a7);height:var(--a7);border-radius:var(--r-rund);color:var(--farbe);background:rgba(243,238,228,.06);box-shadow:inset 0 0 0 2px var(--farbe);animation:bewRing .7s .2s cubic-bezier(.16,1,.3,1) both}
+.bew-ring .ui-ic{width:30px;height:30px}
+.bew-text{display:flex;flex-direction:column;gap:var(--a1)}
+.bew-text b{font:750 var(--t-gross) var(--f-name);letter-spacing:-.01em;color:var(--perle)}
+.bew-text > span{font-size:var(--t-info);color:var(--perle-leise)}
+.bew-punkte{display:flex;gap:var(--a15);margin-top:var(--a1)}
+.bew-punkte u{width:9px;height:9px;border-radius:var(--r-rund);background:rgba(243,238,228,.22);text-decoration:none}
+.bew-punkte u.an{background:var(--farbe)}
+.bew-punkte u.neu{animation:bewPop .6s .9s cubic-bezier(.16,1,.3,1) both;box-shadow:0 0 12px var(--farbe)}
+.bew-pille{--farbe:var(--akz2);position:fixed;z-index:59;transform:translate(-50%,-50%);display:flex;align-items:center;gap:var(--a15);padding:var(--a2) var(--a4) var(--a2) var(--a3);border-radius:var(--r-rund);border-color:var(--farbe);color:var(--farbe);white-space:nowrap;pointer-events:none;animation:bewFlug 1.9s both}
+.bew-pille.b{--farbe:var(--begehren)}
+.bew-pille .ui-ic{width:24px;height:24px}
+.bew-pille b{font:700 var(--t-gross) var(--f-zahl);color:var(--perle)}
+.bew-pille span{font:600 var(--t-text) var(--f-ui);color:var(--perle)}
+.bew-pille.still{animation:bewStill 1.9s both}
+#relkarte.bew-puls{animation:bewPuls .5s cubic-bezier(.16,1,.3,1)}
+.bew-gewaehlt > *{transition:opacity .2s ease-in,filter .2s ease-in}
+.bew-gewaehlt > *:not(.bew-wahl){opacity:.25;filter:saturate(.4)}
+.bew-wahl{box-shadow:0 0 0 1px var(--akz),0 0 24px rgba(216,189,134,.45);transform:scale(1.02);transition:transform .15s ease-out,box-shadow .15s ease-out}
+.bew-geist{pointer-events:none;transition:opacity .15s ease-out}
+.bew-geist.aus{opacity:0}
+@keyframes bewStufeRein{from{opacity:0;transform:translateY(-18px) scale(.96)}to{opacity:1;transform:none}}
+@keyframes bewStufeRaus{to{opacity:0;transform:translateY(-10px)}}
+@keyframes bewRing{from{transform:rotate(-90deg) scale(.7);opacity:0}to{transform:none;opacity:1}}
+@keyframes bewPop{0%{transform:scale(.4)}60%{transform:scale(1.5)}100%{transform:scale(1)}}
+@keyframes bewFlug{0%{opacity:0;transform:translate(-50%,-20%) scale(.85);animation-timing-function:cubic-bezier(.16,1,.3,1)}22%{opacity:1;transform:translate(-50%,-110%) scale(1)}58%{opacity:1;transform:translate(-50%,-110%) scale(1);animation-timing-function:cubic-bezier(.55,0,.75,.4)}100%{opacity:0;transform:translate(calc(-50% + var(--dx)),calc(-50% + var(--dy))) scale(.5)}}
+@keyframes bewStill{0%{opacity:0}12%,80%{opacity:1}100%{opacity:0}}
+@keyframes bewPuls{40%{transform:scale(1.04);box-shadow:0 0 0 1px var(--akz)}}
+@media (prefers-reduced-motion:reduce){.bew-stufe,.bew-stufe.geht,.bew-ring,.bew-punkte u.neu,.bew-pille:not(.still),#relkarte.bew-puls{animation:none}.bew-wahl{transform:none}}

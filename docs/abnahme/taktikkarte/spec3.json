@@ -1,0 +1,55 @@
+{
+ "id": "taktikkarte3",
+ "titel": "Taktik-Karte: weit mit Umland",
+ "hinweis": "Stil leicht von vorn, weit herausgezoomt. Noch ohne Raster und Figuren.",
+ "items": [
+  {
+   "id": "weit_a",
+   "titel": "Weit, Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\weit_a.png",
+   "soll": "Dorf, Hafen, Yacht, Berge mit Turm, Kloster, Macchia, Strand und Grotte zu erkennen?"
+  },
+  {
+   "id": "weit_b",
+   "titel": "Weit, Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\weit_b.png",
+   "soll": "Dorf, Hafen, Yacht, Berge mit Turm, Kloster, Macchia, Strand und Grotte zu erkennen?"
+  },
+  {
+   "id": "weit_c",
+   "titel": "Weit, Variante c",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\weit_c.png",
+   "soll": "Dorf, Hafen, Yacht, Berge mit Turm, Kloster, Macchia, Strand und Grotte zu erkennen?"
+  },
+  {
+   "id": "weit_d",
+   "titel": "Weit, Variante d",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\weit_d.png",
+   "soll": "Dorf, Hafen, Yacht, Berge mit Turm, Kloster, Macchia, Strand und Grotte zu erkennen?"
+  },
+  {
+   "id": "weit_e",
+   "titel": "Weit, Variante e",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\weit_e.png",
+   "soll": "Dorf, Hafen, Yacht, Berge mit Turm, Kloster, Macchia, Strand und Grotte zu erkennen?"
+  },
+  {
+   "id": "weit_f",
+   "titel": "Weit, Variante f",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\weit_f.png",
+   "soll": "Dorf, Hafen, Yacht, Berge mit Turm, Kloster, Macchia, Strand und Grotte zu erkennen?"
+  },
+  {
+   "id": "weit_g",
+   "titel": "Weit, Variante g",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\weit_g.png",
+   "soll": "Dorf, Hafen, Yacht, Berge mit Turm, Kloster, Macchia, Strand und Grotte zu erkennen?"
+  },
+  {
+   "id": "weit_h",
+   "titel": "Weit, Variante h",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\weit_h.png",
+   "soll": "Dorf, Hafen, Yacht, Berge mit Turm, Kloster, Macchia, Strand und Grotte zu erkennen?"
+  }
+ ]
+}

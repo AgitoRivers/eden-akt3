@@ -1,0 +1,73 @@
+{
+ "id": "alon_keynote",
+ "titel": "Alon: markanteres Gesicht und Bühne",
+ "hinweis": "Ehrlich: Die drei neuen Gesichter sind kantiger, aber Krea glättet Gesichter stark, der Unterschied ist kleiner als beschrieben. Falke 1 ist am markantesten (Hakennase, Narbe). Wenn dir keins reicht, versuche ich es mit einer eigenen Gesichts-LoRA. Darunter die Bühnen, die vorher wegen eines Pfadfehlers fehlten.",
+ "items": [
+  {
+   "id": "gesicht_kante_1",
+   "titel": "Rollkragen · Kante · Seed 1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_keynote\\gesicht_kante_1.png",
+   "soll": "Lange, kantige Wangen, gespaltenes Kinn, tiefe Lachfalten.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\Alon\\idle.webp",
+   "vergleich_titel": "Alon im Kampf (altes Gesicht)"
+  },
+  {
+   "id": "gesicht_kante_2",
+   "titel": "Rollkragen · Kante · Seed 2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_keynote\\gesicht_kante_2.png",
+   "soll": "",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\Alon\\idle.webp",
+   "vergleich_titel": "Alon im Kampf (altes Gesicht)"
+  },
+  {
+   "id": "gesicht_falke_1",
+   "titel": "Rollkragen · Falke · Seed 1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_keynote\\gesicht_falke_1.png",
+   "soll": "Hakennase, eisblaue Augen, Narbe durch die Augenbraue.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\Alon\\idle.webp",
+   "vergleich_titel": "Alon im Kampf (altes Gesicht)"
+  },
+  {
+   "id": "gesicht_falke_2",
+   "titel": "Rollkragen · Falke · Seed 2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_keynote\\gesicht_falke_2.png",
+   "soll": "",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\Alon\\idle.webp",
+   "vergleich_titel": "Alon im Kampf (altes Gesicht)"
+  },
+  {
+   "id": "gesicht_glatt_1",
+   "titel": "Rollkragen · Glatt · Seed 1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_keynote\\gesicht_glatt_1.png",
+   "soll": "Breites, junges Gesicht, schiefe Nase, Grübchen.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\Alon\\idle.webp",
+   "vergleich_titel": "Alon im Kampf (altes Gesicht)"
+  },
+  {
+   "id": "gesicht_glatt_2",
+   "titel": "Rollkragen · Glatt · Seed 2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_keynote\\gesicht_glatt_2.png",
+   "soll": "",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\Alon\\idle.webp",
+   "vergleich_titel": "Alon im Kampf (altes Gesicht)"
+  },
+  {
+   "id": "b_rollkragen",
+   "titel": "Rollkragen · erste Fassung",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_keynote\\b_rollkragen.png",
+   "soll": "Zum Vergleich, die erste Fassung, die du NEU gesetzt hast."
+  },
+  {
+   "id": "buehne_1",
+   "titel": "Pressekonferenz · Bühne 1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_keynote\\buehne_1.png",
+   "soll": "Pult weiter links, mehr Treppe im Bild."
+  },
+  {
+   "id": "buehne_2",
+   "titel": "Pressekonferenz · Bühne 2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_alon_keynote\\buehne_2.png",
+   "soll": "Vorschlag: Das Pult steht mittig vor dem Bildschirm, gut für Alons Figur davor."
+  }
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "PirateGunner": {
+  "attack": [
+   0.1823,
+   0.1411
+  ],
+  "heavy_attack": [
+   0.1662,
+   0.1767
+  ]
+ },
+ "AgentGunman": {
+  "attack": [
+   0.2944,
+   0.1617
+  ],
+  "heavy_attack": [
+   0.2536,
+   0.4444
+  ]
+ },
+ "DucCyberGun": {
+  "attack": [
+   0.7189,
+   0.2617
+  ],
+  "heavy_attack": [
+   0.6952,
+   0.4972
+  ],
+  "konter": [
+   0.8044,
+   0.4472
+  ]
+ },
+ "DucErdeGun": {
+  "attack": [
+   0.6942,
+   0.2306
+  ],
+  "heavy_attack": [
+   0.6904,
+   0.4572
+  ],
+  "konter": [
+   0.7873,
+   0.4628
+  ]
+ },
+ "DucFeuerGun": {
+  "attack": [
+   0.6999,
+   0.2167
+  ],
+  "heavy_attack": [
+   0.6923,
+   0.4222
+  ],
+  "konter": [
+   0.7939,
+   0.4667
+  ]
+ },
+ "DucLuftGun": {
+  "attack": [
+   0.717,
+   0.2389
+  ],
+  "heavy_attack": [
+   0.699,
+   0.4672
+  ],
+  "konter": [
+   0.7996,
+   0.4672
+  ]
+ },
+ "DucWasserGun": {
+  "attack": [
+   0.6961,
+   0.2194
+  ],
+  "heavy_attack": [
+   0.6933,
+   0.4656
+  ],
+  "konter": [
+   0.812,
+   0.4261
+  ]
+ }
+}

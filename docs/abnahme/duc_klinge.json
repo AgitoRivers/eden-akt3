@@ -1,0 +1,49 @@
+{
+ "id": "duc_klinge",
+ "titel": "Duc: Klinge nach vorn",
+ "hinweis": "Vorschlag: alle drei Neopren-Posen freigeben und bei Navy die Fassung 1. Danach spiegele ich den Neopren-Satz, tausche Navy heavy_attack und exportiere beides ins Spiel.",
+ "items": [
+  {
+   "id": "attack",
+   "titel": "Neopren · attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucTauchKnife\\attack.png",
+   "soll": "Klinge zeigt nach vorn"
+  },
+  {
+   "id": "heavy_attack",
+   "titel": "Neopren · heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucTauchKnife\\heavy_attack.png",
+   "soll": "Klinge zeigt nach vorn"
+  },
+  {
+   "id": "victory",
+   "titel": "Neopren · victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucTauchKnife\\victory.png",
+   "soll": "Nur eine Klinge. Er hebt jetzt die leere Faust, das Messer hält er unten, weil beim erhobenen Messer die Klinge immer oben und unten aus der Faust kam"
+  },
+  {
+   "id": "navy_1",
+   "titel": "Navy · heavy_attack 1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_klinge\\wasser_heavy_attack\\heavy_attack.png",
+   "soll": "Klinge nach vorn. Vorschlag: 1. Im Spiel wird das Bild noch gespiegelt, darum schaut er hier nach links",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\heavy_attack.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "navy_2",
+   "titel": "Navy · heavy_attack 2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_klinge\\wasser_heavy_attack\\heavy_attack-1.png",
+   "soll": "Klinge nach vorn. Vorschlag: 1. Im Spiel wird das Bild noch gespiegelt, darum schaut er hier nach links",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\heavy_attack.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "navy_3",
+   "titel": "Navy · heavy_attack 3",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_klinge\\wasser_heavy_attack\\heavy_attack-2.png",
+   "soll": "Klinge nach vorn. Vorschlag: 1. Im Spiel wird das Bild noch gespiegelt, darum schaut er hier nach links",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\heavy_attack.png",
+   "vergleich_titel": "Bisher"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "id": "casting_nach_mission_r2",
+ "titel": "Nach der Mission - Danzel neu (Runde 2)",
+ "hinweis": "Ducs Korrektur: jung, kein Opa, ikonische rote Sonnenbrille. Nur Danzel Fassung 3.",
+ "items": [
+  {
+   "id": "Danzel_N3_1",
+   "titel": "Danzel - Nach 3 neu (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Danzel_Nach_3\\neutral-1.png",
+   "soll": "Preset Yacht_Danzel_Nach_3: 30, glatte jugendliche Haut, hellblondes Platinhaar, rote runde Sonnenbrille, rotes Seidenhemd, reinweisse Hose (Vergleich zu Mr. White), keine Schnuere am Kragen"
+  },
+  {
+   "id": "Danzel_N3_2",
+   "titel": "Danzel - Nach 3 neu (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Danzel_Nach_3\\neutral.png",
+   "soll": "Preset Yacht_Danzel_Nach_3: 30, glatte jugendliche Haut, hellblondes Platinhaar, rote runde Sonnenbrille, rotes Seidenhemd, reinweisse Hose (Vergleich zu Mr. White), keine Schnuere am Kragen"
+  }
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "id": "waren_fiskesuppe",
+ "titel": "Fiskesuppe und Yacht-Waren",
+ "hinweis": "Pro Gegenstand bitte die beste Variante mit OK markieren. Brot habe ich bei der Suppe weggelassen (Poren).",
+ "items": [
+  {
+   "id": "fiskesuppe_v1",
+   "titel": "Fiskesuppe (Siri), Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\fiskesuppe_v1.png",
+   "soll": "cremige norwegische Fischsuppe mit Lachs und Dill, ersetzt Kåldolmar"
+  },
+  {
+   "id": "fiskesuppe_v2",
+   "titel": "Fiskesuppe (Siri), Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\fiskesuppe_v2.png",
+   "soll": "cremige norwegische Fischsuppe mit Lachs und Dill, ersetzt Kåldolmar"
+  },
+  {
+   "id": "fiskesuppe_v3",
+   "titel": "Fiskesuppe (Siri), Variante 3",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\fiskesuppe_v3.png",
+   "soll": "cremige norwegische Fischsuppe mit Lachs und Dill, ersetzt Kåldolmar"
+  },
+  {
+   "id": "fiskesuppe_v4",
+   "titel": "Fiskesuppe (Siri), Variante 4",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\fiskesuppe_v4.png",
+   "soll": "cremige norwegische Fischsuppe mit Lachs und Dill, ersetzt Kåldolmar"
+  },
+  {
+   "id": "champagne_v1",
+   "titel": "Kiste Champagner (Yacht-Ware), Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\champagne_v1.png",
+   "soll": "Holzkiste mit Champagnerflaschen aus der Gästebar"
+  },
+  {
+   "id": "champagne_v2",
+   "titel": "Kiste Champagner (Yacht-Ware), Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\champagne_v2.png",
+   "soll": "Holzkiste mit Champagnerflaschen aus der Gästebar"
+  },
+  {
+   "id": "champagne_v3",
+   "titel": "Kiste Champagner (Yacht-Ware), Variante 3",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\champagne_v3.png",
+   "soll": "Holzkiste mit Champagnerflaschen aus der Gästebar"
+  },
+  {
+   "id": "champagne_v4",
+   "titel": "Kiste Champagner (Yacht-Ware), Variante 4",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\champagne_v4.png",
+   "soll": "Holzkiste mit Champagnerflaschen aus der Gästebar"
+  },
+  {
+   "id": "tender_prop_v1",
+   "titel": "Ersatzpropeller des Beiboots (Yacht-Ware), Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\tender_prop_v1.png",
+   "soll": "Bronze-Propeller, drei Flügel"
+  },
+  {
+   "id": "tender_prop_v2",
+   "titel": "Ersatzpropeller des Beiboots (Yacht-Ware), Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\tender_prop_v2.png",
+   "soll": "Bronze-Propeller, drei Flügel"
+  },
+  {
+   "id": "tender_prop_v3",
+   "titel": "Ersatzpropeller des Beiboots (Yacht-Ware), Variante 3",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\tender_prop_v3.png",
+   "soll": "Bronze-Propeller, drei Flügel"
+  },
+  {
+   "id": "tender_prop_v4",
+   "titel": "Ersatzpropeller des Beiboots (Yacht-Ware), Variante 4",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\tender_prop_v4.png",
+   "soll": "Bronze-Propeller, drei Flügel"
+  },
+  {
+   "id": "teak_loungers_v1",
+   "titel": "Zwei Teak-Sonnenliegen (Yacht-Ware), Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\teak_loungers_v1.png",
+   "soll": "zwei Deck-Liegen aus Teak mit Polster"
+  },
+  {
+   "id": "teak_loungers_v2",
+   "titel": "Zwei Teak-Sonnenliegen (Yacht-Ware), Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\teak_loungers_v2.png",
+   "soll": "zwei Deck-Liegen aus Teak mit Polster"
+  },
+  {
+   "id": "teak_loungers_v3",
+   "titel": "Zwei Teak-Sonnenliegen (Yacht-Ware), Variante 3",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\teak_loungers_v3.png",
+   "soll": "zwei Deck-Liegen aus Teak mit Polster"
+  },
+  {
+   "id": "teak_loungers_v4",
+   "titel": "Zwei Teak-Sonnenliegen (Yacht-Ware), Variante 4",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\teak_loungers_v4.png",
+   "soll": "zwei Deck-Liegen aus Teak mit Polster"
+  },
+  {
+   "id": "bathrobes_v1",
+   "titel": "Gäste-Bademäntel (Yacht-Ware), Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\bathrobes_v1.png",
+   "soll": "Stapel weißer Bademäntel mit Schleife"
+  },
+  {
+   "id": "bathrobes_v2",
+   "titel": "Gäste-Bademäntel (Yacht-Ware), Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\bathrobes_v2.png",
+   "soll": "Stapel weißer Bademäntel mit Schleife"
+  },
+  {
+   "id": "bathrobes_v3",
+   "titel": "Gäste-Bademäntel (Yacht-Ware), Variante 3",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\bathrobes_v3.png",
+   "soll": "Stapel weißer Bademäntel mit Schleife"
+  },
+  {
+   "id": "bathrobes_v4",
+   "titel": "Gäste-Bademäntel (Yacht-Ware), Variante 4",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\bathrobes_v4.png",
+   "soll": "Stapel weißer Bademäntel mit Schleife"
+  }
+ ]
+}

@@ -1,0 +1,103 @@
+{
+ "id": "robot_flink_satz_v2",
+ "titel": "Kobra und Skorpion: zweite Runde",
+ "hinweis": "Nur die neuen Posen, alle anderen hast du schon freigegeben. Mein Vorschlag: alle so einbauen. Das Auge der Kobra sitzt jetzt oben am Kopf.",
+ "items": [
+  {
+   "id": "kobra_windup",
+   "titel": "Kobra · windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_robot_flink_satz\\kobra\\windup.png",
+   "soll": "Holt aus, Hals nach hinten gebogen.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_robot_flink_satz\\kobra\\idle.png",
+   "vergleich_titel": "idle (Auge so richtig)"
+  },
+  {
+   "id": "kobra_attack",
+   "titel": "Kobra · attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_robot_flink_satz\\kobra\\attack.png",
+   "soll": "Stößt flach nach links vor.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_robot_flink_satz\\kobra\\idle.png",
+   "vergleich_titel": "idle (Auge so richtig)"
+  },
+  {
+   "id": "kobra_heavy_windup",
+   "titel": "Kobra · heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_robot_flink_satz\\kobra\\heavy_windup.png",
+   "soll": "Richtet sich hoch auf.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_robot_flink_satz\\kobra\\idle.png",
+   "vergleich_titel": "idle (Auge so richtig)"
+  },
+  {
+   "id": "kobra_heavy_attack",
+   "titel": "Kobra · heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_robot_flink_satz\\kobra\\heavy_attack.png",
+   "soll": "Schlägt nach unten, der Rücken wölbt sich hoch.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_robot_flink_satz\\kobra\\idle.png",
+   "vergleich_titel": "idle (Auge so richtig)"
+  },
+  {
+   "id": "kobra_guard",
+   "titel": "Kobra · guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_robot_flink_satz\\kobra\\guard.png",
+   "soll": "Rollt sich zur flachen Spirale zusammen, der Kopf liegt in der Mitte. Dafür sieht man sie hier etwas von oben, das ist anders als in den anderen Posen.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_robot_flink_satz\\kobra\\idle.png",
+   "vergleich_titel": "idle (Auge so richtig)"
+  },
+  {
+   "id": "kobra_hurt",
+   "titel": "Kobra · hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_robot_flink_satz\\kobra\\hurt.png",
+   "soll": "Fällt weit nach hinten, der Kopf liegt rechts hinter dem Körper.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_robot_flink_satz\\kobra\\idle.png",
+   "vergleich_titel": "idle (Auge so richtig)"
+  },
+  {
+   "id": "kobra_enraged",
+   "titel": "Kobra · enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_robot_flink_satz\\kobra\\enraged.png",
+   "soll": "Klingen breit, Licht hell.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_robot_flink_satz\\kobra\\idle.png",
+   "vergleich_titel": "idle (Auge so richtig)"
+  },
+  {
+   "id": "kobra_weakened",
+   "titel": "Kobra · weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_robot_flink_satz\\kobra\\weakened.png",
+   "soll": "Kopf hängt nach unten, Licht schwach.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_robot_flink_satz\\kobra\\idle.png",
+   "vergleich_titel": "idle (Auge so richtig)"
+  },
+  {
+   "id": "kobra_surrender",
+   "titel": "Kobra · surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_robot_flink_satz\\kobra\\surrender.png",
+   "soll": "Liegt flach, der Kopf ruht auf dem Boden.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_robot_flink_satz\\kobra\\idle.png",
+   "vergleich_titel": "idle (Auge so richtig)"
+  },
+  {
+   "id": "kobra_flee",
+   "titel": "Kobra · flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_robot_flink_satz\\kobra\\flee.png",
+   "soll": "Flach am Boden, Hals noch etwas oben. Beim Einbau wird das Bild gespiegelt, dann flieht sie nach rechts.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_robot_flink_satz\\kobra\\idle.png",
+   "vergleich_titel": "idle (Auge so richtig)"
+  },
+  {
+   "id": "skorpion_hurt",
+   "titel": "Skorpion · hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_robot_flink_satz\\skorpion\\hurt.png",
+   "soll": "Zuckt zusammen: Beine und Zangen eng am Körper, der Schwanz ist zur Spirale eingerollt. Dein voriges OK-Bild liegt als Rückfall bereit.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_robot_flink_satz\\skorpion\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "skorpion_defeated",
+   "titel": "Skorpion · defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_robot_flink_satz\\skorpion\\defeated.png",
+   "soll": "Auf dem Rücken, genau ein Schwanz flach am Boden, Licht aus.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_robot_flink_satz\\skorpion\\idle.png",
+   "vergleich_titel": "idle"
+  }
+ ]
+}

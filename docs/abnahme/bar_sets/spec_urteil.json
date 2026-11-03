@@ -1,0 +1,392 @@
+{
+ "Bibi_joy_2": {
+  "urteil": "neu"
+ },
+ "Bibi_sadness_back": {
+  "urteil": "neu",
+  "notiz": "beine fehlen"
+ },
+ "Bibi_worshipful": {
+  "urteil": "neu",
+  "notiz": "arme abgehackt"
+ },
+ "Charly_joy_2": {
+  "urteil": "neu",
+  "notiz": "abgehakt."
+ },
+ "Charly_joy_3": {
+  "notiz": "abgehakt.",
+  "urteil": "neu"
+ },
+ "Charly_optimism_2": {
+  "notiz": "abgehakt.",
+  "urteil": "neu"
+ },
+ "Charly_relief_2": {
+  "notiz": "abgehakt.",
+  "urteil": "neu"
+ },
+ "Bibi_admiration": {
+  "urteil": "ok"
+ },
+ "Bibi_amusement": {
+  "urteil": "ok"
+ },
+ "Bibi_amusement_back": {
+  "urteil": "ok"
+ },
+ "Bibi_anger": {
+  "urteil": "ok"
+ },
+ "Bibi_anger_2": {
+  "urteil": "ok"
+ },
+ "Bibi_annoyance": {
+  "urteil": "ok"
+ },
+ "Bibi_annoyance_2": {
+  "urteil": "ok"
+ },
+ "Bibi_approval": {
+  "urteil": "ok"
+ },
+ "Bibi_approval_2": {
+  "urteil": "ok"
+ },
+ "Bibi_caring": {
+  "urteil": "ok"
+ },
+ "Bibi_caring_2": {
+  "urteil": "ok"
+ },
+ "Bibi_confusion": {
+  "urteil": "ok"
+ },
+ "Bibi_confusion_2": {
+  "urteil": "ok"
+ },
+ "Bibi_curiosity": {
+  "urteil": "ok"
+ },
+ "Bibi_disappointment": {
+  "urteil": "ok"
+ },
+ "Bibi_disappointment_2": {
+  "urteil": "ok"
+ },
+ "Bibi_disapproval": {
+  "urteil": "ok"
+ },
+ "Bibi_disapproval_2": {
+  "urteil": "ok"
+ },
+ "Bibi_disgust": {
+  "urteil": "ok"
+ },
+ "Bibi_disgust_2": {
+  "urteil": "ok"
+ },
+ "Bibi_embarrassment": {
+  "urteil": "ok"
+ },
+ "Bibi_fear": {
+  "urteil": "ok"
+ },
+ "Bibi_fear_2": {
+  "urteil": "ok"
+ },
+ "Bibi_gratitude": {
+  "urteil": "ok"
+ },
+ "Bibi_gratitude_2": {
+  "urteil": "ok"
+ },
+ "Bibi_grief": {
+  "urteil": "ok"
+ },
+ "Bibi_grief_2": {
+  "urteil": "ok"
+ },
+ "Bibi_joy": {
+  "urteil": "ok"
+ },
+ "Bibi_joy_3": {
+  "urteil": "ok"
+ },
+ "Bibi_love": {
+  "urteil": "ok"
+ },
+ "Bibi_nervousness": {
+  "urteil": "ok"
+ },
+ "Bibi_nervousness_back": {
+  "urteil": "ok"
+ },
+ "Bibi_neutral": {
+  "urteil": "ok"
+ },
+ "Bibi_neutral_2": {
+  "urteil": "ok"
+ },
+ "Bibi_optimism": {
+  "urteil": "ok"
+ },
+ "Bibi_optimism_2": {
+  "urteil": "ok"
+ },
+ "Bibi_pride": {
+  "urteil": "ok"
+ },
+ "Bibi_pride_back": {
+  "urteil": "ok"
+ },
+ "Bibi_realization": {
+  "urteil": "ok"
+ },
+ "Bibi_realization_2": {
+  "urteil": "ok"
+ },
+ "Bibi_relief": {
+  "urteil": "ok"
+ },
+ "Bibi_relief_2": {
+  "urteil": "ok"
+ },
+ "Bibi_remorse": {
+  "urteil": "ok"
+ },
+ "Bibi_remorse_2": {
+  "urteil": "ok"
+ },
+ "Bibi_sadness": {
+  "urteil": "ok"
+ },
+ "Bibi_submissive": {
+  "urteil": "ok"
+ },
+ "Bibi_surprise": {
+  "urteil": "ok"
+ },
+ "Charly_admiration": {
+  "urteil": "ok"
+ },
+ "Charly_amusement": {
+  "urteil": "ok"
+ },
+ "Charly_amusement_back": {
+  "urteil": "ok"
+ },
+ "Charly_anger": {
+  "urteil": "ok"
+ },
+ "Charly_anger_2": {
+  "urteil": "ok"
+ },
+ "Charly_annoyance": {
+  "urteil": "ok"
+ },
+ "Charly_annoyance_2": {
+  "urteil": "ok"
+ },
+ "Charly_approval": {
+  "urteil": "ok"
+ },
+ "Charly_approval_2": {
+  "urteil": "ok"
+ },
+ "Charly_caring": {
+  "urteil": "ok"
+ },
+ "Charly_caring_2": {
+  "urteil": "ok"
+ },
+ "Charly_confusion": {
+  "urteil": "ok"
+ },
+ "Charly_confusion_2": {
+  "urteil": "ok"
+ },
+ "Charly_curiosity": {
+  "urteil": "ok"
+ },
+ "Charly_curiosity_back": {
+  "urteil": "ok"
+ },
+ "Charly_disappointment": {
+  "urteil": "ok"
+ },
+ "Charly_disappointment_2": {
+  "urteil": "ok"
+ },
+ "Charly_disapproval": {
+  "urteil": "ok"
+ },
+ "Charly_disapproval_2": {
+  "urteil": "ok"
+ },
+ "Charly_disgust": {
+  "urteil": "ok"
+ },
+ "Charly_disgust_2": {
+  "urteil": "ok"
+ },
+ "Charly_embarrassment": {
+  "urteil": "ok"
+ },
+ "Charly_embarrassment_back": {
+  "urteil": "ok"
+ },
+ "Charly_fear": {
+  "urteil": "ok"
+ },
+ "Charly_fear_2": {
+  "urteil": "ok"
+ },
+ "Charly_gratitude": {
+  "urteil": "ok"
+ },
+ "Charly_gratitude_2": {
+  "urteil": "ok"
+ },
+ "Charly_grief": {
+  "urteil": "ok"
+ },
+ "Charly_grief_2": {
+  "urteil": "ok"
+ },
+ "Charly_joy": {
+  "urteil": "ok"
+ },
+ "Charly_love": {
+  "urteil": "ok"
+ },
+ "Charly_nervousness": {
+  "urteil": "ok"
+ },
+ "Charly_nervousness_back": {
+  "urteil": "ok"
+ },
+ "Charly_neutral": {
+  "urteil": "ok"
+ },
+ "Charly_neutral_2": {
+  "urteil": "ok"
+ },
+ "Charly_optimism": {
+  "urteil": "ok"
+ },
+ "Charly_pride": {
+  "urteil": "ok"
+ },
+ "Charly_pride_back": {
+  "urteil": "ok"
+ },
+ "Charly_realization": {
+  "urteil": "ok"
+ },
+ "Charly_realization_2": {
+  "urteil": "ok"
+ },
+ "Charly_relief": {
+  "urteil": "ok"
+ },
+ "Charly_remorse": {
+  "urteil": "ok"
+ },
+ "Charly_remorse_2": {
+  "urteil": "ok"
+ },
+ "Charly_sadness": {
+  "urteil": "ok"
+ },
+ "Charly_sadness_back": {
+  "urteil": "ok"
+ },
+ "Charly_submissive": {
+  "urteil": "ok"
+ },
+ "Charly_surprise": {
+  "urteil": "ok"
+ },
+ "Charly_worshipful": {
+  "urteil": "ok"
+ },
+ "Danzel_admiration_2": {
+  "urteil": "ok"
+ },
+ "Danzel_amusement-1": {
+  "urteil": "ok"
+ },
+ "Danzel_amusement-2": {
+  "urteil": "ok"
+ },
+ "Danzel_anger": {
+  "urteil": "ok"
+ },
+ "Danzel_annoyance": {
+  "urteil": "ok"
+ },
+ "Danzel_approval-1": {
+  "urteil": "ok"
+ },
+ "Danzel_approval-2": {
+  "urteil": "ok"
+ },
+ "Danzel_caring": {
+  "urteil": "ok"
+ },
+ "Danzel_confusion": {
+  "urteil": "ok"
+ },
+ "Danzel_curiosity": {
+  "urteil": "ok"
+ },
+ "Danzel_desire_2": {
+  "urteil": "ok"
+ },
+ "Danzel_disappointment": {
+  "urteil": "ok"
+ },
+ "Danzel_disapproval": {
+  "urteil": "ok"
+ },
+ "Danzel_disgust": {
+  "urteil": "ok"
+ },
+ "Danzel_embarrassment_2": {
+  "urteil": "ok"
+ },
+ "Danzel_excitement_2": {
+  "urteil": "ok"
+ },
+ "Danzel_fear_2": {
+  "urteil": "ok"
+ },
+ "Danzel_gratitude-1": {
+  "urteil": "ok"
+ },
+ "Danzel_gratitude": {
+  "urteil": "ok"
+ },
+ "Danzel_joy": {
+  "urteil": "ok"
+ },
+ "Danzel_love_2": {
+  "urteil": "ok"
+ },
+ "Danzel_nervousness": {
+  "urteil": "ok"
+ },
+ "Danzel_neutral": {
+  "urteil": "ok"
+ },
+ "Danzel_pride": {
+  "urteil": "ok"
+ },
+ "Danzel_sadness": {
+  "urteil": "ok"
+ },
+ "Danzel_surprise": {
+  "urteil": "ok"
+ }
+}

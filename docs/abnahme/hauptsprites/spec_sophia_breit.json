@@ -1,0 +1,263 @@
+{
+ "id": "sophia_breit",
+ "titel": "Sophia: breiteres Format",
+ "hinweis": "Gleiche LoRAs wie die übernommenen Bilder, nur 1:1 oder quer. Daneben das aktuelle Bild.",
+ "items": [
+  {
+   "id": "breit_caring__q11_a",
+   "titel": "Sophia · caring · 1:1 · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\caring__q11_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\caring.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_caring__q11_b",
+   "titel": "Sophia · caring · 1:1 · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\caring__q11_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\caring.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_caring__quer_a",
+   "titel": "Sophia · caring · quer · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\caring__quer_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\caring.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_caring__quer_b",
+   "titel": "Sophia · caring · quer · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\caring__quer_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\caring.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_confusion-1__q11_a",
+   "titel": "Sophia · confusion-1 · 1:1 · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\confusion-1__q11_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\confusion-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_confusion-1__q11_b",
+   "titel": "Sophia · confusion-1 · 1:1 · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\confusion-1__q11_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\confusion-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_confusion-1__quer_a",
+   "titel": "Sophia · confusion-1 · quer · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\confusion-1__quer_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\confusion-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_confusion-1__quer_b",
+   "titel": "Sophia · confusion-1 · quer · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\confusion-1__quer_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\confusion-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_disappointment__q11_a",
+   "titel": "Sophia · disappointment · 1:1 · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\disappointment__q11_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\disappointment.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_disappointment__q11_b",
+   "titel": "Sophia · disappointment · 1:1 · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\disappointment__q11_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\disappointment.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_disappointment__quer_a",
+   "titel": "Sophia · disappointment · quer · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\disappointment__quer_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\disappointment.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_disappointment__quer_b",
+   "titel": "Sophia · disappointment · quer · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\disappointment__quer_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\disappointment.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_joy-1__q11_a",
+   "titel": "Sophia · joy-1 · 1:1 · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\joy-1__q11_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\joy-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_joy-1__q11_b",
+   "titel": "Sophia · joy-1 · 1:1 · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\joy-1__q11_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\joy-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_joy-1__quer_a",
+   "titel": "Sophia · joy-1 · quer · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\joy-1__quer_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\joy-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_joy-1__quer_b",
+   "titel": "Sophia · joy-1 · quer · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\joy-1__quer_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\joy-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_optimism-1__q11_a",
+   "titel": "Sophia · optimism-1 · 1:1 · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\optimism-1__q11_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\optimism-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_optimism-1__q11_b",
+   "titel": "Sophia · optimism-1 · 1:1 · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\optimism-1__q11_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\optimism-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_optimism-1__quer_a",
+   "titel": "Sophia · optimism-1 · quer · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\optimism-1__quer_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\optimism-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_optimism-1__quer_b",
+   "titel": "Sophia · optimism-1 · quer · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\optimism-1__quer_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\optimism-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_relief-1__q11_a",
+   "titel": "Sophia · relief-1 · 1:1 · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\relief-1__q11_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\relief-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_relief-1__q11_b",
+   "titel": "Sophia · relief-1 · 1:1 · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\relief-1__q11_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\relief-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_relief-1__quer_a",
+   "titel": "Sophia · relief-1 · quer · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\relief-1__quer_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\relief-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_relief-1__quer_b",
+   "titel": "Sophia · relief-1 · quer · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\relief-1__quer_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\relief-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_surprise-1__q11_a",
+   "titel": "Sophia · surprise-1 · 1:1 · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\surprise-1__q11_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\surprise-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_surprise-1__q11_b",
+   "titel": "Sophia · surprise-1 · 1:1 · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\surprise-1__q11_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\surprise-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_surprise-1__quer_a",
+   "titel": "Sophia · surprise-1 · quer · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\surprise-1__quer_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\surprise-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_surprise-1__quer_b",
+   "titel": "Sophia · surprise-1 · quer · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\surprise-1__quer_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\surprise-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_surprise__q11_a",
+   "titel": "Sophia · surprise · 1:1 · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\surprise__q11_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\surprise.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_surprise__q11_b",
+   "titel": "Sophia · surprise · 1:1 · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\surprise__q11_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\surprise.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_surprise__quer_a",
+   "titel": "Sophia · surprise · quer · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\surprise__quer_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\surprise.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  },
+  {
+   "id": "breit_surprise__quer_b",
+   "titel": "Sophia · surprise · quer · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_breit\\surprise__quer_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\surprise.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Hautton wie im Rest des Sets. Je Pose eine auf OK."
+  }
+ ]
+}

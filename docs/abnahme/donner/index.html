@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Donner-Abnahme</title>
+<style>
+:root{--bg:#0b0d12;--karte:#141821;--linie:#2a3040;--text:#ece6d8;--leise:#9aa1b2;--akz:#d8bd86;--gut:#a8d5b1}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 system-ui,Segoe UI,sans-serif;padding:28px 20px 60px}
+main{max-width:980px;margin:0 auto}
+h1{font-size:28px;margin:0 0 4px;color:var(--akz)}
+p.lead{color:var(--leise);max-width:70ch;margin:0 0 22px}
+h2{font-size:15px;letter-spacing:.08em;text-transform:uppercase;color:var(--leise);margin:28px 0 10px}
+.liste{display:grid;gap:10px}
+.k{display:grid;grid-template-columns:44px minmax(0,1fr) auto;gap:14px;align-items:center;padding:12px 14px;border-radius:12px;background:var(--karte);border:1px solid var(--linie)}
+.k b{font-size:16px}.k small{display:block;color:var(--leise);font-size:12.5px}
+.k a{color:var(--leise)}
+.nr{font:700 18px ui-monospace,monospace;color:var(--akz);text-align:center}
+button{font:inherit;border-radius:999px;border:1px solid var(--akz);background:rgba(216,189,134,.12);color:var(--akz);padding:7px 16px;cursor:pointer}
+.k.spielt{border-color:var(--akz)}
+#blitz{position:fixed;inset:0;background:#eef3ff;opacity:0;pointer-events:none}
+#blitz.an{animation:b .8s ease-out}
+@keyframes b{0%{opacity:.85}10%{opacity:.1}18%{opacity:.6}100%{opacity:0}}
+.hinweis{margin-top:26px;padding:14px 16px;border-radius:12px;border:1px dashed var(--linie);color:var(--leise)}
+</style></head><body><div id="blitz"></div><main>
+<h1>Donner für den Sturm (Tag 5)</h1>
+<p class="lead">Der Donnerschlag spielt bei jedem Blitz einer Krise in der Sturmnacht. Bisher läuft dort <i>sturm_nacht</i> (Variante 4),
+die eher Wind als Donner ist. „Abspielen“ zeigt den Blitz wie im Spiel. Wähle 1–2 Nummern; sie werden
+auf -16 LUFS angeglichen und auf ca. 4 Sekunden mit Ausblende geschnitten.</p>
+<h2>Kandidaten (Pixabay, frei nutzbar)</h2>
+<div class="liste" id="liste"></div>
+<h2>Zum Vergleich: bisher</h2>
+<div class="liste" id="bisher"></div>
+<div class="hinweis">Antwort im Chat, z. B. „Donner: 3, 7“. Quellen: Pixabay Content License, Seiten verlinkt.</div>
+</main>
+<script>
+const K=[
+ [192165,"Loud Thunder","Universfield",5,"2024/02/20/audio_8667d9c4b2.mp3","nature-loud-thunder-192165",false],
+ [124463,"Thunder Strike","Universfield",11,"2022/10/30/audio_65a2d39d7c.mp3","nature-thunder-strike-124463",false],
+ [191992,"Peals of Thunder","Universfield",9,"2024/02/19/audio_8d25df9ef0.mp3","nature-peals-of-thunder-191992",false],
+ [521194,"Thunder clap","u_q2hb2391vb",7,"2026/04/17/audio_18fe74c15d.mp3","film-special-effects-thunder-clap-521194",false],
+ [338980,"Heavy thunder","PoorArtistt",5,"2025/05/09/audio_ef792d7a10.mp3","nature-heavy-thunder-sound-effect-no-copyright-338980",false],
+ [99753,"Big thunder clap","freesound_community",11,"2022/03/24/audio_b5c15abf89.mp3","nature-big-thunder-clap-99753",false],
+ [359272,"Loud Thunder Sound Effect","PWLPL",8,"2025/06/12/audio_f2be18c085.mp3","nature-loud-thunder-sound-effect-359272",true],
+ [512544,"Thunder-clap","soundmarker33",7,"2026/04/01/audio_514c097bfe.mp3","nature-thunder-clap-512544",false],
+ [439064,"Loud thunder","u_vrs223ln83",5,"2025/11/18/audio_2808b8046c.mp3","nature-loud-thunder-439064",false],
+ [175724,"Lightning Strike FX","GregorQuendel",8,"2023/11/10/audio_0a1b1515c1.mp3","nature-lightning-strike-fx-i-175724",false]];
+const B=[["sturm_nacht 1","/module/eden_rise/sfx/sturm_nacht_1.mp3"],["sturm_nacht 4 (aktuell gewählt)","/module/eden_rise/sfx/sturm_nacht_4.mp3"]];
+let akt=null, aktKarte=null;
+function spiel(url, karte){
+  if(akt){akt.pause();} if(aktKarte) aktKarte.classList.remove("spielt");
+  akt=new Audio(url); akt.play(); aktKarte=karte; karte.classList.add("spielt");
+  const b=document.getElementById("blitz"); b.classList.remove("an"); void b.offsetWidth; b.classList.add("an");
+  akt.onended=()=>karte.classList.remove("spielt");
+}
+function karte(nr, titel, unter, url, ziel){
+  const d=document.createElement("div"); d.className="k";
+  d.innerHTML=`<span class="nr">${nr}</span><span><b>${titel}</b><small>${unter}</small></span><button type="button">▶ Abspielen</button>`;
+  d.querySelector("button").onclick=()=>spiel(url,d); ziel.appendChild(d);
+}
+K.forEach((k,i)=>karte(i+1,k[1],`${k[2]} · ${k[3]} s${k[6]?" · KI-erzeugt":""} · <a href="https://pixabay.com/sound-effects/${k[5]}/" target="_blank" rel="noopener">Pixabay ${k[0]}</a>`,"https://cdn.pixabay.com/audio/"+k[4],document.getElementById("liste")));
+B.forEach(b=>karte("–",b[0],"bisheriger Effekt im Spiel",b[1],document.getElementById("bisher")));
+</script></body></html>

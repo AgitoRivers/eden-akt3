@@ -1,0 +1,663 @@
+{
+ "id": "red_trio_sets",
+ "titel": "Red Trio – volle Sätze",
+ "hinweis": "OK oder Neu je Bild; bei Neu kurz notieren, was falsch ist.",
+ "items": [
+  {
+   "id": "Charly_heavy_attack",
+   "titel": "Charly · heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\heavy_attack.png",
+   "soll": "Taser ganz schwarz",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\attack.png",
+   "vergleich_titel": "Charly attack"
+  },
+  {
+   "id": "Charly_surrender",
+   "titel": "Charly · surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\surrender.png",
+   "soll": "Taser ganz schwarz",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\attack.png",
+   "vergleich_titel": "Charly attack"
+  },
+  {
+   "id": "Charly_victory",
+   "titel": "Charly · victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\victory.png",
+   "soll": "Taser ganz schwarz",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\attack.png",
+   "vergleich_titel": "Charly attack"
+  },
+  {
+   "id": "LionPlated_idle",
+   "titel": "Schwarzer Löwe, gepanzert · idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated\\idle.png",
+   "soll": "Pose idle, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "LionPlated_windup",
+   "titel": "Schwarzer Löwe, gepanzert · windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated\\windup.png",
+   "soll": "Pose windup, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "LionPlated_attack",
+   "titel": "Schwarzer Löwe, gepanzert · attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated\\attack.png",
+   "soll": "Pose attack, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "LionPlated_heavy_windup",
+   "titel": "Schwarzer Löwe, gepanzert · heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated\\heavy_windup.png",
+   "soll": "Pose heavy_windup, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "LionPlated_heavy_attack",
+   "titel": "Schwarzer Löwe, gepanzert · heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated\\heavy_attack.png",
+   "soll": "Pose heavy_attack, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "LionPlated_guard",
+   "titel": "Schwarzer Löwe, gepanzert · guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated\\guard.png",
+   "soll": "Pose guard, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "LionPlated_hurt",
+   "titel": "Schwarzer Löwe, gepanzert · hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated\\hurt.png",
+   "soll": "Pose hurt, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "LionPlated_enraged",
+   "titel": "Schwarzer Löwe, gepanzert · enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated\\enraged.png",
+   "soll": "Pose enraged, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "LionPlated_weakened",
+   "titel": "Schwarzer Löwe, gepanzert · weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated\\weakened.png",
+   "soll": "Pose weakened, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "LionPlated_defeated",
+   "titel": "Schwarzer Löwe, gepanzert · defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated\\defeated.png",
+   "soll": "Pose defeated, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "LionPlated_surrender",
+   "titel": "Schwarzer Löwe, gepanzert · surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated\\surrender.png",
+   "soll": "Pose surrender, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "LionPlated_flee",
+   "titel": "Schwarzer Löwe, gepanzert · flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated\\flee.png",
+   "soll": "Pose flee, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "LionPlated_victory",
+   "titel": "Schwarzer Löwe, gepanzert · victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated\\victory.png",
+   "soll": "Pose victory, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "LionPlated_death",
+   "titel": "Schwarzer Löwe, gepanzert · death",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated\\death.png",
+   "soll": "Pose death, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "PlatedMouflon_idle",
+   "titel": "Panzer-Mufflon · idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon\\idle.png",
+   "soll": "Pose idle, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "PlatedMouflon_windup",
+   "titel": "Panzer-Mufflon · windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon\\windup.png",
+   "soll": "Pose windup, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "PlatedMouflon_attack",
+   "titel": "Panzer-Mufflon · attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon\\attack.png",
+   "soll": "Pose attack, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "PlatedMouflon_heavy_windup",
+   "titel": "Panzer-Mufflon · heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon\\heavy_windup.png",
+   "soll": "Pose heavy_windup, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "PlatedMouflon_heavy_attack",
+   "titel": "Panzer-Mufflon · heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon\\heavy_attack.png",
+   "soll": "Pose heavy_attack, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "PlatedMouflon_guard",
+   "titel": "Panzer-Mufflon · guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon\\guard.png",
+   "soll": "Pose guard, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "PlatedMouflon_hurt",
+   "titel": "Panzer-Mufflon · hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon\\hurt.png",
+   "soll": "Pose hurt, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "PlatedMouflon_enraged",
+   "titel": "Panzer-Mufflon · enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon\\enraged.png",
+   "soll": "Pose enraged, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "PlatedMouflon_weakened",
+   "titel": "Panzer-Mufflon · weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon\\weakened.png",
+   "soll": "Pose weakened, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "PlatedMouflon_defeated",
+   "titel": "Panzer-Mufflon · defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon\\defeated.png",
+   "soll": "Pose defeated, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "PlatedMouflon_surrender",
+   "titel": "Panzer-Mufflon · surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon\\surrender.png",
+   "soll": "Pose surrender, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "PlatedMouflon_flee",
+   "titel": "Panzer-Mufflon · flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon\\flee.png",
+   "soll": "Pose flee, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "PlatedMouflon_victory",
+   "titel": "Panzer-Mufflon · victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon\\victory.png",
+   "soll": "Pose victory, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "PlatedMouflon_death",
+   "titel": "Panzer-Mufflon · death",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon\\death.png",
+   "soll": "Pose death, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "ArkHyena_idle",
+   "titel": "ARK-Hyäne · idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena\\idle.png",
+   "soll": "Pose idle, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "ArkHyena_windup",
+   "titel": "ARK-Hyäne · windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena\\windup.png",
+   "soll": "Pose windup, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "ArkHyena_attack",
+   "titel": "ARK-Hyäne · attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena\\attack.png",
+   "soll": "Pose attack, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "ArkHyena_heavy_windup",
+   "titel": "ARK-Hyäne · heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena\\heavy_windup.png",
+   "soll": "Pose heavy_windup, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "ArkHyena_heavy_attack",
+   "titel": "ARK-Hyäne · heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena\\heavy_attack.png",
+   "soll": "Pose heavy_attack, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "ArkHyena_guard",
+   "titel": "ARK-Hyäne · guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena\\guard.png",
+   "soll": "Pose guard, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "ArkHyena_hurt",
+   "titel": "ARK-Hyäne · hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena\\hurt.png",
+   "soll": "Pose hurt, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "ArkHyena_enraged",
+   "titel": "ARK-Hyäne · enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena\\enraged.png",
+   "soll": "Pose enraged, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "ArkHyena_weakened",
+   "titel": "ARK-Hyäne · weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena\\weakened.png",
+   "soll": "Pose weakened, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "ArkHyena_defeated",
+   "titel": "ARK-Hyäne · defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena\\defeated.png",
+   "soll": "Pose defeated, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "ArkHyena_surrender",
+   "titel": "ARK-Hyäne · surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena\\surrender.png",
+   "soll": "Pose surrender, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "ArkHyena_flee",
+   "titel": "ARK-Hyäne · flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena\\flee.png",
+   "soll": "Pose flee, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "ArkHyena_victory",
+   "titel": "ARK-Hyäne · victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena\\victory.png",
+   "soll": "Pose victory, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "ArkHyena_death",
+   "titel": "ARK-Hyäne · death",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena\\death.png",
+   "soll": "Pose death, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "ShepherdDrone_idle",
+   "titel": "Hirtendrohne · idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone\\idle.png",
+   "soll": "Pose idle, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "ShepherdDrone_windup",
+   "titel": "Hirtendrohne · windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone\\windup.png",
+   "soll": "Pose windup, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "ShepherdDrone_attack",
+   "titel": "Hirtendrohne · attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone\\attack.png",
+   "soll": "Pose attack, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "ShepherdDrone_heavy_windup",
+   "titel": "Hirtendrohne · heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone\\heavy_windup.png",
+   "soll": "Pose heavy_windup, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "ShepherdDrone_heavy_attack",
+   "titel": "Hirtendrohne · heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone\\heavy_attack.png",
+   "soll": "Pose heavy_attack, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "ShepherdDrone_guard",
+   "titel": "Hirtendrohne · guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone\\guard.png",
+   "soll": "Pose guard, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "ShepherdDrone_hurt",
+   "titel": "Hirtendrohne · hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone\\hurt.png",
+   "soll": "Pose hurt, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "ShepherdDrone_enraged",
+   "titel": "Hirtendrohne · enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone\\enraged.png",
+   "soll": "Pose enraged, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "ShepherdDrone_weakened",
+   "titel": "Hirtendrohne · weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone\\weakened.png",
+   "soll": "Pose weakened, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "ShepherdDrone_defeated",
+   "titel": "Hirtendrohne · defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone\\defeated.png",
+   "soll": "Pose defeated, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "ShepherdDrone_surrender",
+   "titel": "Hirtendrohne · surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone\\surrender.png",
+   "soll": "Pose surrender, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "ShepherdDrone_flee",
+   "titel": "Hirtendrohne · flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone\\flee.png",
+   "soll": "Pose flee, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "ShepherdDrone_victory",
+   "titel": "Hirtendrohne · victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone\\victory.png",
+   "soll": "Pose victory, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "ShepherdDrone_death",
+   "titel": "Hirtendrohne · death",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone\\death.png",
+   "soll": "Pose death, gleiches Tier/Gerät wie idle",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone\\idle.png",
+   "vergleich_titel": "Freigegeben (idle)"
+  },
+  {
+   "id": "MrWhite_admiration_2",
+   "titel": "Mr. White · admiration_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_MrWhite\\Standard\\roh\\admiration_2.png",
+   "soll": "Dialog-Ausdruck admiration_2, gleiches Gesicht und Anzug wie A2",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_A\\neutral.png",
+   "vergleich_titel": "Freigegeben (A2)"
+  },
+  {
+   "id": "MrWhite_amusement",
+   "titel": "Mr. White · amusement",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_MrWhite\\Standard\\roh\\amusement.png",
+   "soll": "Dialog-Ausdruck amusement, gleiches Gesicht und Anzug wie A2",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_A\\neutral.png",
+   "vergleich_titel": "Freigegeben (A2)"
+  },
+  {
+   "id": "MrWhite_anger",
+   "titel": "Mr. White · anger",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_MrWhite\\Standard\\roh\\anger.png",
+   "soll": "Dialog-Ausdruck anger, gleiches Gesicht und Anzug wie A2",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_A\\neutral.png",
+   "vergleich_titel": "Freigegeben (A2)"
+  },
+  {
+   "id": "MrWhite_annoyance",
+   "titel": "Mr. White · annoyance",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_MrWhite\\Standard\\roh\\annoyance.png",
+   "soll": "Dialog-Ausdruck annoyance, gleiches Gesicht und Anzug wie A2",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_A\\neutral.png",
+   "vergleich_titel": "Freigegeben (A2)"
+  },
+  {
+   "id": "MrWhite_approval",
+   "titel": "Mr. White · approval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_MrWhite\\Standard\\roh\\approval.png",
+   "soll": "Dialog-Ausdruck approval, gleiches Gesicht und Anzug wie A2",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_A\\neutral.png",
+   "vergleich_titel": "Freigegeben (A2)"
+  },
+  {
+   "id": "MrWhite_caring",
+   "titel": "Mr. White · caring",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_MrWhite\\Standard\\roh\\caring.png",
+   "soll": "Dialog-Ausdruck caring, gleiches Gesicht und Anzug wie A2",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_A\\neutral.png",
+   "vergleich_titel": "Freigegeben (A2)"
+  },
+  {
+   "id": "MrWhite_confusion",
+   "titel": "Mr. White · confusion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_MrWhite\\Standard\\roh\\confusion.png",
+   "soll": "Dialog-Ausdruck confusion, gleiches Gesicht und Anzug wie A2",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_A\\neutral.png",
+   "vergleich_titel": "Freigegeben (A2)"
+  },
+  {
+   "id": "MrWhite_curiosity",
+   "titel": "Mr. White · curiosity",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_MrWhite\\Standard\\roh\\curiosity.png",
+   "soll": "Dialog-Ausdruck curiosity, gleiches Gesicht und Anzug wie A2",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_A\\neutral.png",
+   "vergleich_titel": "Freigegeben (A2)"
+  },
+  {
+   "id": "MrWhite_desire_2",
+   "titel": "Mr. White · desire_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_MrWhite\\Standard\\roh\\desire_2.png",
+   "soll": "Dialog-Ausdruck desire_2, gleiches Gesicht und Anzug wie A2",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_A\\neutral.png",
+   "vergleich_titel": "Freigegeben (A2)"
+  },
+  {
+   "id": "MrWhite_disappointment",
+   "titel": "Mr. White · disappointment",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_MrWhite\\Standard\\roh\\disappointment.png",
+   "soll": "Dialog-Ausdruck disappointment, gleiches Gesicht und Anzug wie A2",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_A\\neutral.png",
+   "vergleich_titel": "Freigegeben (A2)"
+  },
+  {
+   "id": "MrWhite_disapproval",
+   "titel": "Mr. White · disapproval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_MrWhite\\Standard\\roh\\disapproval.png",
+   "soll": "Dialog-Ausdruck disapproval, gleiches Gesicht und Anzug wie A2",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_A\\neutral.png",
+   "vergleich_titel": "Freigegeben (A2)"
+  },
+  {
+   "id": "MrWhite_disgust",
+   "titel": "Mr. White · disgust",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_MrWhite\\Standard\\roh\\disgust.png",
+   "soll": "Dialog-Ausdruck disgust, gleiches Gesicht und Anzug wie A2",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_A\\neutral.png",
+   "vergleich_titel": "Freigegeben (A2)"
+  },
+  {
+   "id": "MrWhite_embarrassment_2",
+   "titel": "Mr. White · embarrassment_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_MrWhite\\Standard\\roh\\embarrassment_2.png",
+   "soll": "Dialog-Ausdruck embarrassment_2, gleiches Gesicht und Anzug wie A2",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_A\\neutral.png",
+   "vergleich_titel": "Freigegeben (A2)"
+  },
+  {
+   "id": "MrWhite_excitement_2",
+   "titel": "Mr. White · excitement_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_MrWhite\\Standard\\roh\\excitement_2.png",
+   "soll": "Dialog-Ausdruck excitement_2, gleiches Gesicht und Anzug wie A2",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_A\\neutral.png",
+   "vergleich_titel": "Freigegeben (A2)"
+  },
+  {
+   "id": "MrWhite_fear_2",
+   "titel": "Mr. White · fear_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_MrWhite\\Standard\\roh\\fear_2.png",
+   "soll": "Dialog-Ausdruck fear_2, gleiches Gesicht und Anzug wie A2",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_A\\neutral.png",
+   "vergleich_titel": "Freigegeben (A2)"
+  },
+  {
+   "id": "MrWhite_gratitude",
+   "titel": "Mr. White · gratitude",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_MrWhite\\Standard\\roh\\gratitude.png",
+   "soll": "Dialog-Ausdruck gratitude, gleiches Gesicht und Anzug wie A2",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_A\\neutral.png",
+   "vergleich_titel": "Freigegeben (A2)"
+  },
+  {
+   "id": "MrWhite_joy",
+   "titel": "Mr. White · joy",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_MrWhite\\Standard\\roh\\joy.png",
+   "soll": "Dialog-Ausdruck joy, gleiches Gesicht und Anzug wie A2",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_A\\neutral.png",
+   "vergleich_titel": "Freigegeben (A2)"
+  },
+  {
+   "id": "MrWhite_love_2",
+   "titel": "Mr. White · love_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_MrWhite\\Standard\\roh\\love_2.png",
+   "soll": "Dialog-Ausdruck love_2, gleiches Gesicht und Anzug wie A2",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_A\\neutral.png",
+   "vergleich_titel": "Freigegeben (A2)"
+  },
+  {
+   "id": "MrWhite_nervousness",
+   "titel": "Mr. White · nervousness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_MrWhite\\Standard\\roh\\nervousness.png",
+   "soll": "Dialog-Ausdruck nervousness, gleiches Gesicht und Anzug wie A2",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_A\\neutral.png",
+   "vergleich_titel": "Freigegeben (A2)"
+  },
+  {
+   "id": "MrWhite_neutral",
+   "titel": "Mr. White · neutral",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_MrWhite\\Standard\\roh\\neutral.png",
+   "soll": "Dialog-Ausdruck neutral, gleiches Gesicht und Anzug wie A2",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_A\\neutral.png",
+   "vergleich_titel": "Freigegeben (A2)"
+  },
+  {
+   "id": "MrWhite_pride",
+   "titel": "Mr. White · pride",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_MrWhite\\Standard\\roh\\pride.png",
+   "soll": "Dialog-Ausdruck pride, gleiches Gesicht und Anzug wie A2",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_A\\neutral.png",
+   "vergleich_titel": "Freigegeben (A2)"
+  },
+  {
+   "id": "MrWhite_sadness",
+   "titel": "Mr. White · sadness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_MrWhite\\Standard\\roh\\sadness.png",
+   "soll": "Dialog-Ausdruck sadness, gleiches Gesicht und Anzug wie A2",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_A\\neutral.png",
+   "vergleich_titel": "Freigegeben (A2)"
+  },
+  {
+   "id": "MrWhite_surprise",
+   "titel": "Mr. White · surprise",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_MrWhite\\Standard\\roh\\surprise.png",
+   "soll": "Dialog-Ausdruck surprise, gleiches Gesicht und Anzug wie A2",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_A\\neutral.png",
+   "vergleich_titel": "Freigegeben (A2)"
+  }
+ ]
+}

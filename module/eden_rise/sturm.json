@@ -1,0 +1,463 @@
+{
+ "_hinweis": "Gebaut von werkzeuge/eden_rise/sturm_eden_rise.py - dort aendern. Regeln: kern/sturm.py.",
+ "crew": [
+  "chiara",
+  "rosi",
+  "lea",
+  "lola",
+  "maxwell"
+ ],
+ "posten": {
+  "anker": {
+   "titel": "Lines & Anchor",
+   "text": "Double the mooring lines and watch the anchor chain all night."
+  },
+  "strom": {
+   "titel": "Power",
+   "text": "Switch off everything that can wait and keep the batteries alive."
+  },
+  "kombuese": {
+   "titel": "Galley",
+   "text": "Lash down everything that can fly and keep something hot going."
+  },
+  "beiboot": {
+   "titel": "The Tender",
+   "text": "Haul the tender up and lash it down on the swim platform."
+  },
+  "notloesung": {
+   "titel": "The Makeshift Fix",
+   "text": "Check the makeshift power line rigged yesterday before the rain gets into it."
+  }
+ },
+ "eignung": {
+  "chiara": {
+   "anker": 3,
+   "strom": 1,
+   "kombuese": 2,
+   "beiboot": 2,
+   "notloesung": 1
+  },
+  "rosi": {
+   "anker": 1,
+   "strom": 3,
+   "kombuese": 1,
+   "beiboot": 1,
+   "notloesung": 2
+  },
+  "lea": {
+   "anker": 2,
+   "strom": 1,
+   "kombuese": 2,
+   "beiboot": 3,
+   "notloesung": 1
+  },
+  "lola": {
+   "anker": 1,
+   "strom": 1,
+   "kombuese": 3,
+   "beiboot": 1,
+   "notloesung": 1
+  },
+  "maxwell": {
+   "anker": 3,
+   "strom": 1,
+   "kombuese": 2,
+   "beiboot": 3,
+   "notloesung": 1
+  },
+  "duc": {
+   "anker": 2,
+   "strom": 2,
+   "kombuese": 1,
+   "beiboot": 2,
+   "notloesung": 3
+  }
+ },
+ "wunsch": {
+  "chiara": "anker",
+  "rosi": "strom",
+  "lea": "anker",
+  "lola": "kombuese",
+  "maxwell": "beiboot"
+ },
+ "bitte": {
+  "chiara": "Put me on the anchor watch, First Officer. My father taught me to hear a chain slipping before you can feel it, and I haven't forgotten.",
+  "rosi": "I'm taking the power, Officer, don't even think about giving it to someone else. And yesterday's patch - somebody who didn't build it should look at it, because I'll only see what I meant to do.",
+  "lea": "I could do the tender in my sleep, honestly, I've lashed it down a hundred times. But could I take the anchor? Just once I'd like to do the thing that actually matters.",
+  "lola": "Boss, if the galley's not locked down, there'll be knives flying around down there. Put me where the pots are - I'm useless with ropes, I swear.",
+  "maxwell": "Mr. Maximum will carry the tender up the stairs if he has to, brother. Lines, chains, anything heavy - just point, and he lifts it."
+ },
+ "zusage": {
+  "chiara": {
+   "anker": "The anchor. Thank you. I'll sit on that chain all night if I have to.",
+   "strom": "The power? I - fine. Rosi will have to tell me which switches not to touch.",
+   "kombuese": "The galley. Alright, I can lash down a galley, I've done it in worse weather than this.",
+   "beiboot": "The tender, then. I'll check Lea's knots twice and hope that's enough.",
+   "notloesung": "Yesterday's repair? I can watch it, First Officer, but I wouldn't know a bad joint if it bit me."
+  },
+  "rosi": {
+   "strom": "Good. Nobody touches my batteries tonight, not even Megan.",
+   "notloesung": "My own patch? Fine. But I'll be checking my own work, Officer, and that's never as good as it sounds.",
+   "anker": "The anchor. Me. Out in the rain. You do know I'm an electrician, right?",
+   "kombuese": "The galley? You want me in the galley. Lola, I'm sorry in advance.",
+   "beiboot": "The tender. Okay. I'll do my best, and my best with boats is not great."
+  },
+  "lea": {
+   "anker": "The anchor? Really? Okay. Okay, I won't let it go, I promise.",
+   "beiboot": "The tender. Easy. I'll have it up and lashed before the first drop of rain.",
+   "kombuese": "Galley, got it. I'll help Lola - or I'll just do what she does, only faster.",
+   "strom": "Power? Um. I suppose I'll write down everything Rosi says.",
+   "notloesung": "The repair? I can watch it, but if it sparks I'm not sure what I'd actually do."
+  },
+  "lola": {
+   "kombuese": "My galley! Yes, Boss. Nothing's flying anywhere tonight, I'll glue the pans to the wall if I have to.",
+   "anker": "The anchor? Oh. Right. Is that the - yeah. Yep. I'll figure it out, mate.",
+   "strom": "Power, me? Boss, I make toast. I don't make electricity.",
+   "beiboot": "The tender, okay, so that's the little boat. I know that much. Cool. Cool.",
+   "notloesung": "The repair thing? I'm going to be honest, Boss, I don't know which end is the dangerous one."
+  },
+  "maxwell": {
+   "beiboot": "The tender! Mr. Maximum accepts. He will carry it, he will tie it, and if it panics he will sing to it.",
+   "anker": "The anchor watch. Mr. Maximum against the chain, man against metal. The chain will lose, brother.",
+   "kombuese": "The galley. Mr. Maximum respects the galley. He will hold the fridge shut with one hand.",
+   "strom": "Power? Brother, Mr. Maximum trusts muscles, not cables. But fine. He will guard the switches.",
+   "notloesung": "The repair. Mr. Maximum will stare at it very hard until it behaves."
+  }
+ },
+ "ruhe": {
+  "chiara": "I'm resting? Tonight? Fine. But if you need me, you knock, First Officer. You don't wait.",
+  "rosi": "You're sending me to bed in a storm. Officer, you're either very clever or very stupid.",
+  "lea": "Oh. Rest. Okay. Maybe - yeah, maybe that's not a bad idea, actually.",
+  "lola": "Sleep? In this? I'll be up anyway, Boss, so at least I'll make tea for whoever's still alive at five.",
+  "maxwell": "Mr. Maximum, on the bench? He will do push-ups in his cabin in protest. Quietly."
+ },
+ "megan": {
+  "auftakt": [
+   "Forty knots by midnight, the forecast says. I'd like to see how your crew handles that, Duc. I'll stay out of the way, and I will take notes.",
+   "There's a storm coming in tonight, and I'm not leaving before it does. So show me your crew, Duc. Who goes where?",
+   "Gusts to forty knots after midnight. On paper this is a good crew. I want to see what it looks like at three in the morning."
+  ],
+  "auftrag": [
+   "Five jobs, and six people if you count yourself. Put everyone where you want them, Duc, and someone gets to sleep."
+  ],
+  "plan_stark": [
+   "That's a plan, Duc. Everyone where they know what they're doing. Let's see if it survives the night."
+  ],
+  "plan_gemischt": [
+   "Some of that makes sense. Some of it I'd have done differently. We'll find out which part is which."
+  ],
+  "plan_schwach": [
+   "Interesting choices, First Officer. I'll write them down exactly as you made them."
+  ],
+  "selbst": [
+   "You're taking a post yourself. Then you can't run anywhere else tonight - you know that, I hope."
+  ],
+  "frei": [
+   "You're keeping yourself free. Fine. One of you can run tonight, so make sure you run the right way."
+  ],
+  "los": [
+   "Alright. Everyone knows their job. Go."
+  ],
+  "nacht": [
+   "Here it comes. Nobody does anything heroic unless they have to."
+  ],
+  "ok": [
+   "Good. That's what I wanted to see.",
+   "They didn't even look round for you. That's a crew."
+  ],
+  "knapp": [
+   "Held. Barely. I'm writing down 'barely'.",
+   "It held, Duc. Not pretty, but it held."
+  ],
+  "weg": [
+   "That's going to cost someone money.",
+   "And that, First Officer, is what happens when nobody is where they should be."
+  ],
+  "sprint": [
+   "You ran the right way. Good.",
+   "Hm. You picked your moment, Duc."
+  ],
+  "ende_gut": [
+   "Dawn, everyone still aboard, nothing on the rocks. I came to see a crew, Duc, and I saw one."
+  ],
+  "ende_mittel": [
+   "You got through. Not cleanly, but you got through. That's exactly how it goes in my notes."
+  ],
+  "ende_schlecht": [
+   "Look at this deck, First Officer. Then look at your crew. I've seen what I needed to see."
+  ]
+ },
+ "tratsch_plan": {
+  "lea_anker": [
+   [
+    "lola",
+    "Lea's got the anchor? Good on her."
+   ],
+   [
+    "chiara",
+    "She'd better not fall asleep on it."
+   ],
+   [
+    "maxwell",
+    "She won't. Mr. Maximum has seen her eyes. Like a hawk. A small, wet hawk."
+   ]
+  ],
+  "lea_nicht": [
+   [
+    "lola",
+    "She wanted the anchor, you know. She asked for it."
+   ],
+   [
+    "chiara",
+    "She'll survive. It's a storm, not a birthday."
+   ],
+   [
+    "rosi",
+    "Still. Somebody should tell her why."
+   ]
+  ],
+  "ruhe": [
+   [
+    "rosi",
+    "Somebody gets to sleep through this? Lucky."
+   ],
+   [
+    "lola",
+    "Bet they don't sleep a wink."
+   ],
+   [
+    "maxwell",
+    "Mr. Maximum sleeps through anything. Earthquakes. Weddings."
+   ]
+  ],
+  "standard": [
+   [
+    "chiara",
+    "Forty knots. In this bay. Wonderful."
+   ],
+   [
+    "rosi",
+    "The batteries will hold if nobody does anything stupid."
+   ],
+   [
+    "lola",
+    "So something stupid, then, just to be sure?"
+   ]
+  ]
+ },
+ "boee": [
+  [
+   "maxwell",
+   "Everybody grab something! Mr. Maximum has the cushions!"
+  ],
+  [
+   "chiara",
+   "Chairs inside, now - now!"
+  ],
+  [
+   "lola",
+   "My herbs! Somebody save the basil!"
+  ]
+ ],
+ "rufe": [
+  [
+   "chiara",
+   "Torches! Who's got a torch?"
+  ],
+  [
+   "lola",
+   "I've got candles! Do candles count?"
+  ],
+  [
+   "maxwell",
+   "Mr. Maximum can see in the dark! He cannot. He is lying."
+  ]
+ ],
+ "krisen_folge": [
+  "boee",
+  "kombuese",
+  "beiboot",
+  "strom",
+  "notloesung",
+  "anker"
+ ],
+ "krise": {
+  "boee": {
+   "zeit": "00:40",
+   "titel": "The First Squall",
+   "effekt": "sturm_nacht",
+   "text": "The first gust lays the yacht over. Rain comes in sideways, and everything on deck that isn't tied down starts to move.",
+   "ok": "For a minute everyone is pulling, catching, tying. Then the deck is clear, and you're all soaked and grinning."
+  },
+  "kombuese": {
+   "zeit": "01:10",
+   "titel": "The Galley",
+   "effekt": "schraubenschluessel_klong",
+   "text": "A crash from below. The galley lurches, and the pot rack swings loose.",
+   "ok": "Down in the galley, nothing moves that shouldn't.",
+   "knapp": "It's a mess down there, but nothing is broken.",
+   "weg": "Plates, jars and half the coffee end up on the floor. Breakfast will be cold.",
+   "duc_ok": "You catch the pot rack before it comes down and lash it with a tea towel and a belt.",
+   "duc_knapp": "You wedge yourself against the fridge and hold on. Something breaks, but not much.",
+   "sprint": "You take the stairs three at a time and throw your weight against the swinging rack."
+  },
+  "beiboot": {
+   "zeit": "01:35",
+   "titel": "The Tender",
+   "effekt": "wasser_platsch",
+   "text": "A wave lifts the swim platform. The tender jerks against its straps.",
+   "ok": "The tender sits tight on the platform, strapped down twice.",
+   "knapp": "The tender bangs against the stern twice, then it's caught.",
+   "weg": "A strap snaps. The tender slams into the stern before anyone catches it, and the hull takes a dent.",
+   "duc_ok": "You get a second strap across the tender and haul it tight with your foot against the hull.",
+   "duc_knapp": "You throw a line over the tender and hold it until the wave passes. It scrapes, but it stays.",
+   "sprint": "You slide down the wet stairs to the platform and grab the loose strap with both hands."
+  },
+  "strom": {
+   "zeit": "02:05",
+   "titel": "The Power",
+   "effekt": "blackout",
+   "dunkel": true,
+   "text": "The lights flicker, then go out. Only the red emergency strip is left.",
+   "ok": "One by one the essentials come back: fridge, pumps, anchor light.",
+   "knapp": "The batteries hold, just, but everything except the anchor light stays dark.",
+   "weg": "The batteries run down to nothing. The rest of the night is cold, dark and loud.",
+   "duc_ok": "You shed every load you can find by torchlight, and the batteries settle.",
+   "duc_knapp": "You switch off what you can find in the dark. The batteries sink, then hold.",
+   "sprint": "You feel your way down to the power room by the red strip and start pulling breakers."
+  },
+  "notloesung": {
+   "zeit": "02:30",
+   "titel": "The Makeshift Fix",
+   "effekt": "alarm",
+   "text": "Water runs down the cable from yesterday's repair. Something hisses in the dark.",
+   "ok": "The wet joint is found in time, cut off and taped dry.",
+   "knapp": "It sparks once, then holds under three layers of tape.",
+   "weg": "The fix shorts out with a bang and a smell of burnt plastic. The cable and the breaker are gone.",
+   "duc_ok": "You find the wet joint by its smell before it shorts, cut the power to it and tape it dry. It holds.",
+   "duc_knapp": "You get there as it sparks and kill the breaker. Dark, but nothing burns.",
+   "sprint": "You run for the hissing cable and yank the breaker before it can catch."
+  },
+  "anker": {
+   "zeit": "03:15",
+   "titel": "The Anchor",
+   "effekt": "ankerkette",
+   "text": "The chain groans. The rocks of the bay are closer than they were an hour ago.",
+   "ok": "The chain holds. The yacht swings back into the wind and lies easier.",
+   "knapp": "The anchor drags a few metres, bites again and holds.",
+   "weg": "The anchor drags. By the time the engine pulls her clear, the keel has scraped rock.",
+   "duc_ok": "You let out more chain at exactly the right moment, and the anchor bites.",
+   "duc_knapp": "You start the engine and ease her forward until the chain stops groaning.",
+   "sprint": "You run forward along the rail, rain in your face, to the groaning chain."
+  }
+ },
+ "ok": {
+  "chiara.anker": "The chain's holding! I've let out ten more metres, she's lying easier now!",
+  "maxwell.anker": "Chain is holding, brother! Mr. Maximum has it, and it has learned respect!",
+  "rosi.strom": "Everything we don't need is off. Fridge, pumps and the anchor light - that's all we feed tonight. We'll make it to morning.",
+  "lea.beiboot": "Got it! Second strap's on, it's not going anywhere!",
+  "maxwell.beiboot": "Mr. Maximum has hugged the tender. The tender has stopped moving.",
+  "lola.kombuese": "All good down here! Everything's lashed and the kettle's on - nobody panic, there'll be tea!"
+ },
+ "knapp": {
+  "chiara.beiboot": "It's holding, just about! I need another pair of hands on this strap!",
+  "chiara.kombuese": "Most of it's still in the cupboards. Most.",
+  "rosi.notloesung": "It's sparking at the joint - hold on - there. Taped. It won't win a prize, but it's holding.",
+  "lea.anker": "It's dragging a bit - no, no, it's caught again! I think it's caught! I'm not letting go!",
+  "lea.kombuese": "The pot rack came down, but I caught the big one! Mostly with my shin.",
+  "maxwell.kombuese": "Mr. Maximum is holding the fridge shut. He cannot let go. Please send snacks."
+ },
+ "panik": {
+  "chiara": "I can't see what's wrong, First Officer! I need someone who knows this!",
+  "rosi": "This isn't my thing, Officer! It's slipping, I can't hold it!",
+  "lea": "Duc! Duc, I don't know what to do, it's - please!",
+  "lola": "Boss! Boss, I can't - I don't know what I'm doing!",
+  "maxwell": "Brother! Mr. Maximum is strong, but he is not smart enough for this one!"
+ },
+ "hilfe": {
+  "chiara": "Thank God. Show me, and I'll do the rest.",
+  "rosi": "Officer! Finally. Hold this, and don't let go.",
+  "lea": "You came. Okay. Okay, I've got this end.",
+  "lola": "Boss! Oh, thank God. Tell me what to grab.",
+  "maxwell": "Number One! Together, then. On three!"
+ },
+ "tratsch_morgen": {
+  "gut": [
+   [
+    "lola",
+    "Did we - did we actually do that?"
+   ],
+   [
+    "maxwell",
+    "Mr. Maximum never doubted it. Mr. Maximum doubted it a little."
+   ],
+   [
+    "chiara",
+    "Not bad, everyone. Really not bad."
+   ]
+  ],
+  "mittel": [
+   [
+    "rosi",
+    "We're still floating. That's the good news."
+   ],
+   [
+    "chiara",
+    "And the bad news is the list on Megan's clipboard."
+   ],
+   [
+    "lola",
+    "I need a coffee the size of my head."
+   ]
+  ],
+  "schlecht": [
+   [
+    "chiara",
+    "Well. That was a night."
+   ],
+   [
+    "rosi",
+    "Don't look at the bill, Officer. Just don't."
+   ],
+   [
+    "lea",
+    "I keep hearing that chain. Every time I close my eyes."
+   ]
+  ]
+ },
+ "morgen": {
+  "chiara": "I didn't sleep. Of course I didn't. But I'm fresh, so give me the worst job of the morning.",
+  "rosi": "I slept two hours and fixed three things in my head. Coffee first, then I'll fix them for real.",
+  "lea": "I actually slept! I feel terrible about it. Here - I made everyone toast.",
+  "lola": "Tea for the survivors! And bacon. Don't ask where I found bacon.",
+  "maxwell": "Mr. Maximum is rested and ashamed. As penance, he has made breakfast for everyone."
+ },
+ "folge_weg": {
+  "kombuese": {
+   "wert": "moral",
+   "delta": -1,
+   "text": "Cold breakfast, broken jars: crew morale −1"
+  },
+  "beiboot": {
+   "geld": -60,
+   "text": "Dent in the tender's hull: €60 repair"
+  },
+  "strom": {
+   "wert": "moral",
+   "delta": -1,
+   "text": "A cold, dark night: crew morale −1"
+  },
+  "notloesung": {
+   "geld": -80,
+   "text": "Burnt cable and breaker: €80 for parts"
+  },
+  "anker": {
+   "geld": -120,
+   "text": "Keel scraped on rock: €120 for the diver"
+  }
+ },
+ "megan_ergebnis": {
+  "bestanden": 4,
+  "chaos": 2
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "id": "salon_anhoerung",
+ "titel": "Anhörung · Salon als Gerichtssaal",
+ "hinweis": "Eine Variante mit OK markieren – sie wird das Bild aller drei Anhörungs-Szenen. Erzeugt über Prompt Studio (Setting-Modus, 4 Seeds). Grenzfall Trypophobie: geknöpfte Sofalehnen in 1 und 4.",
+ "items": [
+  {
+   "id": "salon_anhoerung=1",
+   "titel": "Salon als Gerichtssaal · Seed 1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\salon_anhoerung\\yacht_salon_anhoerung_s1.png",
+   "soll": "Anhörung Tag 7: Salon umgestellt, Tisch für Megan, zwei Zeugenstühle, Morgenlicht, keine Personen",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\yacht_main_salon.png",
+   "vergleich_titel": "normaler Salon"
+  },
+  {
+   "id": "salon_anhoerung=2",
+   "titel": "Salon als Gerichtssaal · Seed 2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\salon_anhoerung\\yacht_salon_anhoerung_s2.png",
+   "soll": "Anhörung Tag 7: Salon umgestellt, Tisch für Megan, zwei Zeugenstühle, Morgenlicht, keine Personen",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\yacht_main_salon.png",
+   "vergleich_titel": "normaler Salon"
+  },
+  {
+   "id": "salon_anhoerung=3",
+   "titel": "Salon als Gerichtssaal · Seed 3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\salon_anhoerung\\yacht_salon_anhoerung_s3.png",
+   "soll": "Anhörung Tag 7: Salon umgestellt, Tisch für Megan, zwei Zeugenstühle, Morgenlicht, keine Personen",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\yacht_main_salon.png",
+   "vergleich_titel": "normaler Salon"
+  },
+  {
+   "id": "salon_anhoerung=4",
+   "titel": "Salon als Gerichtssaal · Seed 4",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\salon_anhoerung\\yacht_salon_anhoerung_s4.png",
+   "soll": "Anhörung Tag 7: Salon umgestellt, Tisch für Megan, zwei Zeugenstühle, Morgenlicht, keine Personen",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\yacht_main_salon.png",
+   "vergleich_titel": "normaler Salon"
+  }
+ ]
+}

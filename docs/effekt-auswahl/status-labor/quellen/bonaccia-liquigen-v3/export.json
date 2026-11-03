@@ -1,0 +1,17 @@
+{
+  "native_source": "shieldwall-native-v1_render_all_rasterizer_.png",
+  "resolution": 1024,
+  "frames": 64,
+  "stride": 3,
+  "crop": [
+    153,
+    77,
+    824,
+    974
+  ],
+  "cell": [
+    671,
+    897
+  ],
+  "sha256": "42df15d6daa7cf6700cdfc5f0d688a2acc408a8ef18fd7dea2c138aaec22ee1a"
+}

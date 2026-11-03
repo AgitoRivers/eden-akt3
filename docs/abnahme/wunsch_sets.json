@@ -1,0 +1,283 @@
+{
+ "id": "wunsch_sets_v1",
+ "titel": "Wunsch-Outfits: SFW-Sätze",
+ "hinweis": "Zuerst je Look der ganze Satz, darunter die Bilder, die ich neu machen würde. OK heißt bleibt, NEU heißt neu rendern.",
+ "items": [
+  {
+   "id": "Sophia_Reading",
+   "titel": "Sophia · Buchlesung · ganzer Satz",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Sophia_Reading\\_bogen.jpg",
+   "soll": "Vorschlag: OK. Sie sitzt oder kniet in vielen traurigen Posen, und die Kamera schaut von oben, das kennen wir von ihr."
+  },
+  {
+   "id": "Rosi_Workshop",
+   "titel": "Rosi · Werkstatt · ganzer Satz",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Rosi_Workshop\\_bogen.jpg",
+   "soll": "Vorschlag: nur die einzelnen Bilder unten neu. Die schwarzen Schultern fehlen in einigen Posen."
+  },
+  {
+   "id": "Rosi_Festa",
+   "titel": "Rosi · Festa · ganzer Satz",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Rosi_Festa\\_bogen.jpg",
+   "soll": "Vorschlag: den ganzen Satz neu in blickdichtem Stoff. Durch das Satin zeichnen sich in vielen Posen die Brustwarzen ab, das war nicht bestellt."
+  },
+  {
+   "id": "Siri_Morning",
+   "titel": "Siri · Morgen · ganzer Satz",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Siri_Morning\\_bogen.jpg",
+   "soll": "Vorschlag: OK. Die schwarzen Schleifen an den Zöpfen sind in allen Posen drin, wie auf deinem gewählten Bild."
+  },
+  {
+   "id": "Siri_Festa",
+   "titel": "Siri · Festa · ganzer Satz",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Siri_Festa\\_bogen.jpg",
+   "soll": "Vorschlag: nur die einzelnen Bilder unten neu. Das Kleid wechselt zwischen ärmellos und langärmelig."
+  },
+  {
+   "id": "Alva_Bar",
+   "titel": "Alva · Bar · ganzer Satz",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Alva_Bar\\_bogen.jpg",
+   "soll": "Vorschlag: OK bis auf die einzelnen Bilder unten. Der Look bleibt am stabilsten."
+  },
+  {
+   "id": "Rosi_Workshop__annoyance",
+   "titel": "Rosi · Werkstatt · annoyance",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Rosi_Workshop\\roh\\annoyance.png",
+   "soll": "Fehler: Schultern ohne Schwarz."
+  },
+  {
+   "id": "Rosi_Workshop__disgust",
+   "titel": "Rosi · Werkstatt · disgust",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Rosi_Workshop\\roh\\disgust.png",
+   "soll": "Fehler: Schultern ohne Schwarz."
+  },
+  {
+   "id": "Rosi_Workshop__disgust_2",
+   "titel": "Rosi · Werkstatt · disgust_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Rosi_Workshop\\roh\\disgust_2.png",
+   "soll": "Fehler: Schultern ohne Schwarz."
+  },
+  {
+   "id": "Rosi_Workshop__realization",
+   "titel": "Rosi · Werkstatt · realization",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Rosi_Workshop\\roh\\realization.png",
+   "soll": "Fehler: Schultern ohne Schwarz."
+  },
+  {
+   "id": "Rosi_Workshop__surprise",
+   "titel": "Rosi · Werkstatt · surprise",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Rosi_Workshop\\roh\\surprise.png",
+   "soll": "Fehler: Schultern ohne Schwarz."
+  },
+  {
+   "id": "Rosi_Workshop__joy_2",
+   "titel": "Rosi · Werkstatt · joy_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Rosi_Workshop\\roh\\joy_2.png",
+   "soll": "Fehler: Zweiteilig statt Einteiler, Arme am Rand."
+  },
+  {
+   "id": "Rosi_Workshop__optimism_2",
+   "titel": "Rosi · Werkstatt · optimism_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Rosi_Workshop\\roh\\optimism_2.png",
+   "soll": "Fehler: Schultern ohne Schwarz, Arme am Rand."
+  },
+  {
+   "id": "Rosi_Workshop__amusement",
+   "titel": "Rosi · Werkstatt · amusement",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Rosi_Workshop\\roh\\amusement.png",
+   "soll": "Fehler: Rest vom Hintergrund zwischen den Beinen."
+  },
+  {
+   "id": "Rosi_Workshop__worshipful",
+   "titel": "Rosi · Werkstatt · worshipful",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Rosi_Workshop\\roh\\worshipful.png",
+   "soll": "Fehler: Rest vom Hintergrund am Bein."
+  },
+  {
+   "id": "Rosi_Festa__caring_2",
+   "titel": "Rosi · Festa · caring_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Rosi_Festa\\roh\\caring_2.png",
+   "soll": "Fehler: Hält eine Handvoll Körner, nicht bestellt."
+  },
+  {
+   "id": "Rosi_Festa__joy_2",
+   "titel": "Rosi · Festa · joy_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Rosi_Festa\\roh\\joy_2.png",
+   "soll": "Fehler: Arme am Rand."
+  },
+  {
+   "id": "Rosi_Festa__optimism_2",
+   "titel": "Rosi · Festa · optimism_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Rosi_Festa\\roh\\optimism_2.png",
+   "soll": "Fehler: Arme am Rand."
+  },
+  {
+   "id": "Siri_Festa__approval",
+   "titel": "Siri · Festa · approval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Siri_Festa\\roh\\approval.png",
+   "soll": "Fehler: Lange Ärmel."
+  },
+  {
+   "id": "Siri_Festa__gratitude",
+   "titel": "Siri · Festa · gratitude",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Siri_Festa\\roh\\gratitude.png",
+   "soll": "Fehler: Lange Ärmel."
+  },
+  {
+   "id": "Siri_Festa__joy",
+   "titel": "Siri · Festa · joy",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Siri_Festa\\roh\\joy.png",
+   "soll": "Fehler: Lange Ärmel."
+  },
+  {
+   "id": "Siri_Festa__relief",
+   "titel": "Siri · Festa · relief",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Siri_Festa\\roh\\relief.png",
+   "soll": "Fehler: Lange Ärmel."
+  },
+  {
+   "id": "Siri_Festa__confusion",
+   "titel": "Siri · Festa · confusion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Siri_Festa\\roh\\confusion.png",
+   "soll": "Fehler: Lange Ärmel."
+  },
+  {
+   "id": "Siri_Festa__fear",
+   "titel": "Siri · Festa · fear",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Siri_Festa\\roh\\fear.png",
+   "soll": "Fehler: Lange Ärmel."
+  },
+  {
+   "id": "Siri_Festa__nervousness",
+   "titel": "Siri · Festa · nervousness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Siri_Festa\\roh\\nervousness.png",
+   "soll": "Fehler: Lange Ärmel."
+  },
+  {
+   "id": "Siri_Festa__worshipful",
+   "titel": "Siri · Festa · worshipful",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Siri_Festa\\roh\\worshipful.png",
+   "soll": "Fehler: Lange Ärmel."
+  },
+  {
+   "id": "Siri_Festa__anger_2",
+   "titel": "Siri · Festa · anger_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Siri_Festa\\roh\\anger_2.png",
+   "soll": "Fehler: Lange Ärmel."
+  },
+  {
+   "id": "Siri_Festa__disgust_2",
+   "titel": "Siri · Festa · disgust_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Siri_Festa\\roh\\disgust_2.png",
+   "soll": "Fehler: Lange Ärmel."
+  },
+  {
+   "id": "Siri_Festa__neutral_2",
+   "titel": "Siri · Festa · neutral_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Siri_Festa\\roh\\neutral_2.png",
+   "soll": "Fehler: Lange Ärmel."
+  },
+  {
+   "id": "Siri_Festa__realization_2",
+   "titel": "Siri · Festa · realization_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Siri_Festa\\roh\\realization_2.png",
+   "soll": "Fehler: Lange Ärmel."
+  },
+  {
+   "id": "Siri_Festa__embarrassment_back",
+   "titel": "Siri · Festa · embarrassment_back",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Siri_Festa\\roh\\embarrassment_back.png",
+   "soll": "Fehler: Umhang statt Kleid."
+  },
+  {
+   "id": "Siri_Festa__sadness_back",
+   "titel": "Siri · Festa · sadness_back",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Siri_Festa\\roh\\sadness_back.png",
+   "soll": "Fehler: Umhang statt Kleid."
+  },
+  {
+   "id": "Siri_Festa__anger",
+   "titel": "Siri · Festa · anger",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Siri_Festa\\roh\\anger.png",
+   "soll": "Fehler: Gesicht verzerrt."
+  },
+  {
+   "id": "Siri_Festa__caring_2",
+   "titel": "Siri · Festa · caring_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Siri_Festa\\roh\\caring_2.png",
+   "soll": "Fehler: Hält Körner, nicht bestellt."
+  },
+  {
+   "id": "Siri_Festa__joy_2",
+   "titel": "Siri · Festa · joy_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Siri_Festa\\roh\\joy_2.png",
+   "soll": "Fehler: Arme am Rand."
+  },
+  {
+   "id": "Siri_Festa__optimism_2",
+   "titel": "Siri · Festa · optimism_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Siri_Festa\\roh\\optimism_2.png",
+   "soll": "Fehler: Arme am Rand."
+  },
+  {
+   "id": "Alva_Bar__worshipful",
+   "titel": "Alva · Bar · worshipful",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Alva_Bar\\roh\\worshipful.png",
+   "soll": "Fehler: Rest vom Hintergrund zwischen den Beinen."
+  },
+  {
+   "id": "Alva_Bar__joy_2",
+   "titel": "Alva · Bar · joy_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Alva_Bar\\roh\\joy_2.png",
+   "soll": "Fehler: Arm am Rand."
+  },
+  {
+   "id": "Alva_Bar__optimism_2",
+   "titel": "Alva · Bar · optimism_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Alva_Bar\\roh\\optimism_2.png",
+   "soll": "Fehler: Arm am Rand."
+  },
+  {
+   "id": "Alva_Bar__curiosity",
+   "titel": "Alva · Bar · curiosity",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Alva_Bar\\roh\\curiosity.png",
+   "soll": "Fehler: Hut oben abgeschnitten."
+  },
+  {
+   "id": "Sophia_Reading__caring_2",
+   "titel": "Sophia · Buchlesung · caring_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Sophia_Reading\\roh\\caring_2.png",
+   "soll": "Fehler: Rest vom Hintergrund am Bein."
+  },
+  {
+   "id": "Sophia_Reading__joy_2",
+   "titel": "Sophia · Buchlesung · joy_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Sophia_Reading\\roh\\joy_2.png",
+   "soll": "Fehler: Arm am Rand."
+  },
+  {
+   "id": "Sophia_Reading__optimism_2",
+   "titel": "Sophia · Buchlesung · optimism_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Sophia_Reading\\roh\\optimism_2.png",
+   "soll": "Fehler: Arm am Rand."
+  },
+  {
+   "id": "Siri_Morning__joy_2",
+   "titel": "Siri · Morgen · joy_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Siri_Morning\\roh\\joy_2.png",
+   "soll": "Fehler: Arme am Rand."
+  },
+  {
+   "id": "Siri_Morning__optimism_2",
+   "titel": "Siri · Morgen · optimism_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Siri_Morning\\roh\\optimism_2.png",
+   "soll": "Fehler: Arme am Rand."
+  },
+  {
+   "id": "Siri_Morning__remorse_2",
+   "titel": "Siri · Morgen · remorse_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wunsch_sets\\Siri_Morning\\roh\\remorse_2.png",
+   "soll": "Fehler: Hut oben abgeschnitten."
+  }
+ ]
+}

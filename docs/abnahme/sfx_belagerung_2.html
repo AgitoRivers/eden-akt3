@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SFX Belagerung 2</title>
+<style>
+  :root { --bg:#14181d; --karte:#1e242b; --linie:#333c46; --text:#e9e4d8; --leise:#a2a9b0; --gold:#e0b458; --neu:#7fb4e0; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:15px/1.45 system-ui,"Segoe UI",sans-serif; }
+  main { max-width:1040px; margin:0 auto; padding:24px 16px 96px; }
+  h1 { margin:0 0 6px; font-size:26px; }
+  p { margin:0 0 10px; max-width:75ch; }
+  .zeile { background:var(--karte); border:1px solid var(--linie); border-radius:8px; padding:12px; margin-bottom:8px; }
+  .zeile > b { display:block; margin-bottom:8px; }
+  .toene { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:8px; }
+  label.ton { display:block; padding:7px 8px; border:1px solid var(--linie); border-radius:6px; cursor:pointer; min-width:0; }
+  label.ton:has(input:checked) { border-color:var(--gold); }
+  .tname { display:flex; gap:6px; align-items:center; font-size:13px; overflow-wrap:anywhere; }
+  .tname a { color:var(--neu); }
+  audio { width:100%; height:30px; margin-top:5px; }
+  .vorschlag { font-size:11px; color:var(--gold); white-space:nowrap; }
+  #leiste { position:fixed; left:0; right:0; bottom:0; background:#0e1115; border-top:1px solid var(--linie); padding:10px 16px; display:flex; gap:12px; align-items:center; justify-content:center; flex-wrap:wrap; }
+  button { background:var(--gold); color:#1b1408; border:0; border-radius:6px; padding:8px 14px; font-weight:600; cursor:pointer; }
+</style>
+</head>
+<body>
+<main>
+  <h1>SFX Belagerung 2</h1>
+  <p>Nur noch eine Stelle ist offen: Ein Roboter reißt die Yacht auf. Ich suche diesmal eher Einschlag und Zerstörung als ächzendes Metall. Du hörst die Töne ungeschnitten, ich kürze sie danach auf den Moment.</p>
+  <div id="inhalt"></div>
+</main>
+<div id="leiste"><button type="button" id="kopieren">Auswahl kopieren</button></div>
+<script>
+const CDN = "https://cdn.pixabay.com/audio/", SE = "https://pixabay.com/sound-effects/";
+const px = (pfad, seite, titel) => ({pfad, seite, titel});
+const WAHL = [
+  ["Roboter reißt die Yacht auf", [px("2025/05/30/audio_8865fd3bde.mp3","film-special-effects-iron-smash-with-debris-351841","Iron Smash with Debris"), px("2025/07/18/audio_3c549ff337.mp3","film-special-effects-car-crash-sound-effect-376874","Car Crash Impact"), px("2025/07/29/audio_978229c762.mp3","film-special-effects-car-crash-382137","Car Crash"), px("2022/03/15/audio_cbf010246e.mp3","film-special-effects-wooden-ship-break-85277","Wooden Ship Break"), px("2022/03/10/audio_be0c51a0bc.mp3","film-special-effects-titanic-collision-34260","Titanic Collision"), px("2022/03/15/audio_ebe49a046b.mp3","film-special-effects-metal-grinding-very-slow-72680","Metal Grinding"), px("2023/12/28/audio_ec980f3107.mp3","film-special-effects-horror-metallic-screeches-183236","Metallic Screeches"), px("2022/03/15/audio_61ab506f1e.mp3","film-special-effects-metal-sheet-moving-81835","Metal Sheet Wobble")]],
+];
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+document.getElementById("inhalt").innerHTML = WAHL.map(([moment, toene], m) => `<div class="zeile wahl" data-moment="${esc(moment)}"><b>${esc(moment)}</b><div class="toene">` + toene.map((t, i) => `<label class="ton"><span class="tname"><input type="radio" name="w${m}" value="${esc(t.titel + " (" + t.seite + ")")}" ${i ? "" : "checked"}><span><a href="${SE + t.seite}/" target="_blank" rel="noopener">${esc(t.titel)}</a></span>${i ? "" : '<span class="vorschlag">Vorschlag</span>'}</span><audio controls preload="none" src="${CDN + t.pfad}"></audio></label>`).join("") + `<label class="ton"><span class="tname"><input type="radio" name="w${m}" value="anderer Ton gesucht"><span>Keiner passt</span></span></label></div></div>`).join("");
+document.addEventListener("play", e => document.querySelectorAll("audio").forEach(a => { if (a !== e.target) a.pause(); }), true);
+document.getElementById("kopieren").onclick = async ev => {
+  const text = [...document.querySelectorAll(".wahl")].map(z => z.dataset.moment + ": " + z.querySelector("input:checked").value).join("\n");
+  try { await navigator.clipboard.writeText(text); ev.target.textContent = "Kopiert"; }
+  catch { const t = document.createElement("textarea"); t.value = text; document.body.append(t); t.select(); document.execCommand("copy"); t.remove(); ev.target.textContent = "Kopiert"; }
+  setTimeout(() => ev.target.textContent = "Auswahl kopieren", 1500);
+};
+</script>
+</body>
+</html>

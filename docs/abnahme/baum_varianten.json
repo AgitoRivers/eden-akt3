@@ -1,0 +1,115 @@
+{
+ "id": "baum_varianten_v1",
+ "titel": "Drei neue Bäume, Schiefer und Stahl",
+ "hinweis": "Je Motiv das beste Bild mit OK markieren.",
+ "items": [
+  {
+   "id": "holm_oak_2_s1",
+   "titel": "Steineiche, alt und breit · Seed 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\baum_varianten\\holm_oak_2_s1_fertig.png",
+   "soll": "Freigestellter Baum fürs Minispiel, ganz im Bild, deutlich anders als die Bestehenden.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\abbau\\holm_oak.png",
+   "vergleich_titel": "Bestehender Baum"
+  },
+  {
+   "id": "holm_oak_2_s2",
+   "titel": "Steineiche, alt und breit · Seed 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\baum_varianten\\holm_oak_2_s2_fertig.png",
+   "soll": "Freigestellter Baum fürs Minispiel, ganz im Bild, deutlich anders als die Bestehenden.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\abbau\\holm_oak.png",
+   "vergleich_titel": "Bestehender Baum"
+  },
+  {
+   "id": "holm_oak_3_s1",
+   "titel": "Steineiche, schlank mit zwei Stämmen · Seed 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\baum_varianten\\holm_oak_3_s1_fertig.png",
+   "soll": "Freigestellter Baum fürs Minispiel, ganz im Bild, deutlich anders als die Bestehenden.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\abbau\\holm_oak.png",
+   "vergleich_titel": "Bestehender Baum"
+  },
+  {
+   "id": "holm_oak_3_s2",
+   "titel": "Steineiche, schlank mit zwei Stämmen · Seed 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\baum_varianten\\holm_oak_3_s2_fertig.png",
+   "soll": "Freigestellter Baum fürs Minispiel, ganz im Bild, deutlich anders als die Bestehenden.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\abbau\\holm_oak.png",
+   "vergleich_titel": "Bestehender Baum"
+  },
+  {
+   "id": "cork_oak_2_vorher_s1",
+   "titel": "Korkeiche, knorrig (mit Rinde) · Seed 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\baum_varianten\\cork_oak_2_vorher_s1_fertig.png",
+   "soll": "Freigestellter Baum fürs Minispiel, ganz im Bild, deutlich anders als die Bestehenden.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\abbau\\cork_oak_vorher.png",
+   "vergleich_titel": "Bestehender Baum"
+  },
+  {
+   "id": "cork_oak_2_vorher_s2",
+   "titel": "Korkeiche, knorrig (mit Rinde) · Seed 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\baum_varianten\\cork_oak_2_vorher_s2_fertig.png",
+   "soll": "Freigestellter Baum fürs Minispiel, ganz im Bild, deutlich anders als die Bestehenden.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\farm\\abbau\\cork_oak_vorher.png",
+   "vergleich_titel": "Bestehender Baum"
+  },
+  {
+   "id": "slate_a_s1",
+   "titel": "Schiefer A · Platten · Seed 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\baum_varianten\\slate_a_s1.webp",
+   "soll": "Item-Bild, bewusst grob. Text im Spiel: Slate: Dark plates split from the ridges above Corte. The old roofs here wear it. It breaks along its own grain, never along yours."
+  },
+  {
+   "id": "slate_a_s2",
+   "titel": "Schiefer A · Platten · Seed 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\baum_varianten\\slate_a_s2.webp",
+   "soll": "Item-Bild, bewusst grob. Text im Spiel: Slate: Dark plates split from the ridges above Corte. The old roofs here wear it. It breaks along its own grain, never along yours."
+  },
+  {
+   "id": "slate_b_s1",
+   "titel": "Schiefer B · Bruch · Seed 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\baum_varianten\\slate_b_s1.webp",
+   "soll": "Item-Bild, bewusst grob. Text im Spiel: Slate: Dark plates split from the ridges above Corte. The old roofs here wear it. It breaks along its own grain, never along yours."
+  },
+  {
+   "id": "slate_b_s2",
+   "titel": "Schiefer B · Bruch · Seed 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\baum_varianten\\slate_b_s2.webp",
+   "soll": "Item-Bild, bewusst grob. Text im Spiel: Slate: Dark plates split from the ridges above Corte. The old roofs here wear it. It breaks along its own grain, never along yours."
+  },
+  {
+   "id": "steel_a_s1",
+   "titel": "Stahl A · Stangen · Seed 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\baum_varianten\\steel_a_s1.webp",
+   "soll": "Item-Bild, bewusst grob. Text im Spiel: Steel: A rough bar that still smells of the forge. Nobody here makes it, so when one turns up, someone has stopped needing it. Nonna doesn't ask."
+  },
+  {
+   "id": "steel_a_s2",
+   "titel": "Stahl A · Stangen · Seed 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\baum_varianten\\steel_a_s2.webp",
+   "soll": "Item-Bild, bewusst grob. Text im Spiel: Steel: A rough bar that still smells of the forge. Nobody here makes it, so when one turns up, someone has stopped needing it. Nonna doesn't ask."
+  },
+  {
+   "id": "steel_b_s1",
+   "titel": "Stahl B · Barren · Seed 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\baum_varianten\\steel_b_s1.webp",
+   "soll": "Item-Bild, bewusst grob. Text im Spiel: Steel: A rough bar that still smells of the forge. Nobody here makes it, so when one turns up, someone has stopped needing it. Nonna doesn't ask."
+  },
+  {
+   "id": "steel_b_s2",
+   "titel": "Stahl B · Barren · Seed 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\baum_varianten\\steel_b_s2.webp",
+   "soll": "Item-Bild, bewusst grob. Text im Spiel: Steel: A rough bar that still smells of the forge. Nobody here makes it, so when one turns up, someone has stopped needing it. Nonna doesn't ask."
+  },
+  {
+   "id": "granite",
+   "titel": "Granit (von dir freigegeben)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\granite.webp",
+   "soll": "Nur zum Text: Grey, speckled and in no hurry. The island is made of it, and so is every wall still standing after a winter."
+  },
+  {
+   "id": "timber",
+   "titel": "Holz (von dir freigegeben)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\timber.webp",
+   "soll": "Nur zum Text: Split logs from the valley, stacked to dry. They smell better than anything you'll ever build with them."
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "id": "schiessen_ziele",
+ "titel": "Holms Wette – Ziele",
+ "hinweis": "Abgenommen von Duc 30.10.2026: alle drei Flaschen, Tontaube 2, Drohne 3, Moewe 1, Granate 3.",
+ "items": [
+  {
+   "id": "flasche_1",
+   "titel": "Flasche · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\schiessen_ziele\\flasche_1.png",
+   "soll": "Von mir bemerkt: dunkel auf dunklem Wasser, schlecht zu sehen. Eine Variante je Ziel mit OK markieren. Im Spiel klein auf dem Meer, muss sofort lesbar sein."
+  },
+  {
+   "id": "flasche_2",
+   "titel": "Flasche · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\schiessen_ziele\\flasche_2.png",
+   "soll": "Eine Variante je Ziel mit OK markieren. Im Spiel klein auf dem Meer, muss sofort lesbar sein."
+  },
+  {
+   "id": "flasche_3",
+   "titel": "Flasche · Variante 3",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\schiessen_ziele\\flasche_3.png",
+   "soll": "Mein Vorschlag: hell, hebt sich vom dunklen Wasser ab. Eine Variante je Ziel mit OK markieren. Im Spiel klein auf dem Meer, muss sofort lesbar sein."
+  },
+  {
+   "id": "ton_1",
+   "titel": "Tontaube · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\schiessen_ziele\\ton_1.png",
+   "soll": "Mein Vorschlag: leuchtet am stärksten vor dem Abendhimmel. Eine Variante je Ziel mit OK markieren. Im Spiel klein auf dem Meer, muss sofort lesbar sein."
+  },
+  {
+   "id": "ton_2",
+   "titel": "Tontaube · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\schiessen_ziele\\ton_2.png",
+   "soll": "Eine Variante je Ziel mit OK markieren. Im Spiel klein auf dem Meer, muss sofort lesbar sein."
+  },
+  {
+   "id": "ton_3",
+   "titel": "Tontaube · Variante 3",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\schiessen_ziele\\ton_3.png",
+   "soll": "Von mir bemerkt: zufällige Zahlen auf der Scheibe. Eine Variante je Ziel mit OK markieren. Im Spiel klein auf dem Meer, muss sofort lesbar sein."
+  },
+  {
+   "id": "drohne_1",
+   "titel": "Drohne · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\schiessen_ziele\\drohne_1.png",
+   "soll": "Eine Variante je Ziel mit OK markieren. Im Spiel klein auf dem Meer, muss sofort lesbar sein."
+  },
+  {
+   "id": "drohne_2",
+   "titel": "Drohne · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\schiessen_ziele\\drohne_2.png",
+   "soll": "Mein Vorschlag: mit Kamera, wirkt am ehesten nach Alons Technik. Eine Variante je Ziel mit OK markieren. Im Spiel klein auf dem Meer, muss sofort lesbar sein."
+  },
+  {
+   "id": "drohne_3",
+   "titel": "Drohne · Variante 3",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\schiessen_ziele\\drohne_3.png",
+   "soll": "Eine Variante je Ziel mit OK markieren. Im Spiel klein auf dem Meer, muss sofort lesbar sein."
+  },
+  {
+   "id": "moewe_1",
+   "titel": "Möwe · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\schiessen_ziele\\moewe_1.png",
+   "soll": "Mein Vorschlag: Flügel oben, sofort als Möwe erkennbar, Platz für die Granate darunter. Eine Variante je Ziel mit OK markieren. Im Spiel klein auf dem Meer, muss sofort lesbar sein."
+  },
+  {
+   "id": "moewe_2",
+   "titel": "Möwe · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\schiessen_ziele\\moewe_2.png",
+   "soll": "Eine Variante je Ziel mit OK markieren. Im Spiel klein auf dem Meer, muss sofort lesbar sein."
+  },
+  {
+   "id": "moewe_3",
+   "titel": "Möwe · Variante 3",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\schiessen_ziele\\moewe_3.png",
+   "soll": "Eine Variante je Ziel mit OK markieren. Im Spiel klein auf dem Meer, muss sofort lesbar sein."
+  },
+  {
+   "id": "granate_1",
+   "titel": "Blendgranate · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\schiessen_ziele\\granate_1.png",
+   "soll": "Mein Vorschlag: gelbes Band ohne Schrift, auch klein zu erkennen. Eine Variante je Ziel mit OK markieren. Im Spiel klein auf dem Meer, muss sofort lesbar sein."
+  },
+  {
+   "id": "granate_2",
+   "titel": "Blendgranate · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\schiessen_ziele\\granate_2.png",
+   "soll": "Von mir bemerkt: falscher Schriftzug „FLAND PLARE“ auf dem Band. Eine Variante je Ziel mit OK markieren. Im Spiel klein auf dem Meer, muss sofort lesbar sein."
+  },
+  {
+   "id": "granate_3",
+   "titel": "Blendgranate · Variante 3",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\schiessen_ziele\\granate_3.png",
+   "soll": "Von mir bemerkt: zufällige „80“ auf dem Band. Eine Variante je Ziel mit OK markieren. Im Spiel klein auf dem Meer, muss sofort lesbar sein."
+  }
+ ]
+}

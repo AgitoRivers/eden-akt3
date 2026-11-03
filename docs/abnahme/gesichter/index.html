@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kreise: Gesicht mittig</title>
+<style>
+:root{--bg:#16130f;--card:#211d17;--line:#3a3328;--text:#efe6d6;--mut:#a89c88;--beige:#d9c39a;--ok:#5fae6e;--neu:#d0644f}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 system-ui,Segoe UI,sans-serif}
+header{position:sticky;top:0;z-index:5;background:#16130fee;backdrop-filter:blur(6px);border-bottom:1px solid var(--line);
+ padding:12px 16px;display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center}
+h1{font-size:18px;margin:0;color:var(--beige);font-weight:600}
+.zahl{color:var(--mut)}.zahl b{color:var(--text)}
+.sp{flex:1}
+button{font:inherit;border:1px solid var(--line);background:#2b251d;color:var(--text);border-radius:8px;padding:6px 12px;cursor:pointer}
+button:hover{border-color:var(--beige)}
+.hinweis{color:var(--mut);padding:10px 16px 0;max-width:1100px}
+.filter button.an{background:var(--beige);color:#16130f;border-color:var(--beige)}
+main{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,420px),1fr));gap:16px;padding:16px}
+.k{background:var(--card);border:2px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.k.ok{border-color:var(--ok)}.k.neu{border-color:var(--neu)}
+.bilder{display:flex;gap:2px;background:#000}
+.bilder figure{margin:0;flex:1;position:relative;min-width:0}
+.bilder figure.v{flex:0 0 45%}
+.bilder img{width:100%;height:300px;object-fit:contain;display:block;cursor:zoom-in;background:#8f897e}   /* Grau: freigestellte Sprites (auch dunkle) bleiben sichtbar */
+.bilder .leer{height:300px;display:flex;align-items:center;justify-content:center;background:#0c0a08;color:var(--mut);
+ font-size:14px;letter-spacing:.04em;border:1px dashed var(--line)}
+.bilder figcaption{position:absolute;left:6px;top:6px;font-size:12px;background:#000a;padding:1px 6px;border-radius:4px;color:var(--mut)}
+.inh{padding:10px 12px;display:flex;flex-direction:column;gap:8px}
+.kopf{display:flex;gap:8px;align-items:baseline}.kopf b{font-size:16px}.kopf span{color:var(--mut);font-size:12px;margin-left:auto}
+.soll{color:var(--mut);font-size:13px}
+.knoepfe{display:flex;gap:8px}
+.knoepfe button{flex:1;padding:8px}
+.k.ok .b-ok{background:var(--ok);border-color:var(--ok);color:#0d1a10}
+.k.neu .b-neu{background:var(--neu);border-color:var(--neu);color:#1a0d0a}
+textarea{font:inherit;font-size:13px;width:100%;min-height:38px;resize:vertical;background:#16130f;color:var(--text);
+ border:1px solid var(--line);border-radius:8px;padding:6px 8px}
+#gross{position:fixed;inset:0;background:#000e;display:none;align-items:center;justify-content:center;z-index:9;cursor:zoom-out}
+#gross img{max-width:96vw;max-height:94vh}
+#kopiert{color:var(--ok);display:none}
+</style></head><body>
+<header><h1>Kreise: Gesicht mittig</h1>
+ <span class="zahl"><b id="n-ok">0</b> OK · <b id="n-neu">0</b> neu · <b id="n-offen">0</b> offen</span>
+ <span class="filter"><button data-f="alle" class="an">Alle</button> <button data-f="offen">Offen</button> <button data-f="neu">Neu</button></span>
+ <span class="sp"></span>
+ <button id="alle-ok">Rest OK</button>
+ <button id="kopieren">Ergebnis kopieren</button><span id="kopiert">kopiert</span>
+</header>
+<div class="hinweis">Oben der alte feste Zuschnitt, unten der neue, je Figur dieselben Sprites. Markiere Figuren mit Neu, wenn ein Kreis nicht passt.</div>
+<main id="liste"></main>
+<div id="gross"><img alt=""></div>
+<script>
+const D = {"id": "gesichter_kreise", "titel": "Kreise: Gesicht mittig", "items": [{"id": "adrien", "titel": "Adrien Morel (22 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/adrien_nachher.jpg", "stand": "31.10. 13:16", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/adrien_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "alva", "titel": "Alva Santoni (389 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/alva_nachher.jpg", "stand": "31.10. 13:16", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/alva_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "anghjulu", "titel": "Don Anghjulu (22 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/anghjulu_nachher.jpg", "stand": "31.10. 13:16", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/anghjulu_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "batu", "titel": "Bà Tư (22 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/batu_nachher.jpg", "stand": "31.10. 13:16", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/batu_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "bibi", "titel": "Bibi (52 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/bibi_nachher.jpg", "stand": "31.10. 13:16", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/bibi_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "casanova", "titel": "Madame Casanova (122 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/casanova_nachher.jpg", "stand": "31.10. 13:16", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/casanova_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "charly", "titel": "Charly de Ravenel (52 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/charly_nachher.jpg", "stand": "31.10. 13:16", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/charly_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "chiara", "titel": "Chiara Sonnberg (630 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/chiara_nachher.jpg", "stand": "31.10. 13:16", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/chiara_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "chloe", "titel": "Chloé Marchal (21 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/chloe_nachher.jpg", "stand": "31.10. 13:16", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/chloe_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "danzel", "titel": "Danzel (23 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/danzel_nachher.jpg", "stand": "31.10. 13:16", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/danzel_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "dumenica", "titel": "Dumenica (21 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/dumenica_nachher.jpg", "stand": "31.10. 13:16", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/dumenica_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "elsa", "titel": "Elsa Ferrandi (61 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/elsa_nachher.jpg", "stand": "31.10. 13:16", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/elsa_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "frederico", "titel": "Frederico (22 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/frederico_nachher.jpg", "stand": "31.10. 13:16", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/frederico_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "gennaro", "titel": "Gennaro Esposito (21 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/gennaro_nachher.jpg", "stand": "31.10. 13:16", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/gennaro_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "ghjuvan", "titel": "Ghjuvan Santucci (21 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/ghjuvan_nachher.jpg", "stand": "31.10. 13:16", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/ghjuvan_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "holm", "titel": "Captain Marit Holm (122 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/holm_nachher.jpg", "stand": "31.10. 13:16", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/holm_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "isabelle", "titel": "Isabelle (23 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/isabelle_nachher.jpg", "stand": "31.10. 13:16", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/isabelle_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "jana", "titel": "Jana Maihoff (346 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/jana_nachher.jpg", "stand": "31.10. 13:16", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/jana_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "laetitia", "titel": "Laetitia Albertini (23 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/laetitia_nachher.jpg", "stand": "31.10. 13:16", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/laetitia_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "lea", "titel": "Lea Moore (630 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/lea_nachher.jpg", "stand": "31.10. 13:16", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/lea_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "lola", "titel": "Lola Brennan (337 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/lola_nachher.jpg", "stand": "31.10. 13:16", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/lola_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "matteu", "titel": "Matteu Pinelli (21 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/matteu_nachher.jpg", "stand": "31.10. 13:16", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/matteu_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "maxwell", "titel": "Maxwell 'Mr. Maximum' Ndlovu (152 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/maxwell_nachher.jpg", "stand": "31.10. 13:16", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/maxwell_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "megan", "titel": "Megan McAllister (269 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/megan_nachher.jpg", "stand": "31.10. 13:16", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/megan_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "mrwhite", "titel": "Mr. White (23 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/mrwhite_nachher.jpg", "stand": "31.10. 13:16", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/mrwhite_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "nonna", "titel": "Nonna Fiora (27 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/nonna_nachher.jpg", "stand": "31.10. 13:16", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/nonna_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "pascal", "titel": "Pascal Leca (22 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/pascal_nachher.jpg", "stand": "31.10. 13:16", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/pascal_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "petru", "titel": "Petru Albertini (42 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/petru_nachher.jpg", "stand": "31.10. 13:17", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/petru_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "riscossore", "titel": "U Riscossore (21 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/riscossore_nachher.jpg", "stand": "31.10. 13:17", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/riscossore_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "rosi", "titel": "Rosi Scuderi (744 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/rosi_nachher.jpg", "stand": "31.10. 13:17", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/rosi_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "sandru", "titel": "Sandru Amrani (22 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/sandru_nachher.jpg", "stand": "31.10. 13:17", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/sandru_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "sirene", "titel": "The Siren (52 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/sirene_nachher.jpg", "stand": "31.10. 13:17", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/sirene_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "siri", "titel": "Siri Lindvik (630 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/siri_nachher.jpg", "stand": "31.10. 13:17", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/siri_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "sophia", "titel": "Sophia Moore (536 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/sophia_nachher.jpg", "stand": "31.10. 13:17", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/sophia_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "toto", "titel": "Salvatore 'Totò' Esposito (92 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/toto_nachher.jpg", "stand": "31.10. 13:17", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/toto_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "wolff", "titel": "Kaspar Wolff (21 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/wolff_nachher.jpg", "stand": "31.10. 13:17", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/wolff_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "yamamoto", "titel": "Yamamoto-san (186 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/yamamoto_nachher.jpg", "stand": "31.10. 13:17", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/yamamoto_vorher.jpg", "vergleich_titel": "Vorher"}, {"id": "yasin", "titel": "Yasin Benali (41 Sprites, 0 ohne Gesicht)", "soll": "Gesicht mittig, ganzer Kopf sichtbar. Orange = kein Gesicht gefunden, Kopf aus der Silhouette geschaetzt.", "bild": "file:///X:/AI/Eden/docs/abnahme/gesichter/yasin_nachher.jpg", "stand": "31.10. 13:17", "vergleich": "file:///X:/AI/Eden/docs/abnahme/gesichter/yasin_vorher.jpg", "vergleich_titel": "Vorher"}], "server": false, "urteile": {}};
+const KEY = "abnahme:" + D.id;
+let S = D.urteile || {};
+if (!D.server) { try { S = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { S = {}; } }
+let timer = null;
+const save = () => {
+  try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {}
+  if (D.server) { clearTimeout(timer); timer = setTimeout(() => fetch("urteil", {method: "POST", body: JSON.stringify(S)}), 300); }
+  zaehlen();
+};
+let filter = "alle";
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function karte(it) {
+  const st = S[it.id] || {};
+  const el = document.createElement("section");
+  el.className = "k " + (st.urteil || "");
+  el.dataset.id = it.id;
+  el.innerHTML =
+    '<div class="bilder"><figure>' + (it.bild ? '<img loading="lazy" src="' + it.bild + '" alt="">'
+      : '<div class="leer">noch kein Bild</div>') + '<figcaption>neu</figcaption></figure>' +
+    (it.vergleich ? '<figure class="v"><img loading="lazy" src="' + it.vergleich + '" alt=""><figcaption>' + esc(it.vergleich_titel) + '</figcaption></figure>' : '') +
+    '</div><div class="inh"><div class="kopf"><b>' + esc(it.titel) + '</b><span>' + esc(it.stand) + '</span></div>' +
+    (it.soll ? '<div class="soll">' + esc(it.soll) + '</div>' : '') +
+    '<div class="knoepfe"><button class="b-ok">✓ OK</button><button class="b-neu">✗ Neu</button></div>' +
+    '<textarea placeholder="Notiz (was soll anders werden?)">' + esc(st.notiz || "") + '</textarea></div>';
+  el.querySelector(".b-ok").onclick = () => setze(it.id, "ok");
+  el.querySelector(".b-neu").onclick = () => setze(it.id, "neu");
+  el.querySelector("textarea").oninput = e => { (S[it.id] = S[it.id] || {}).notiz = e.target.value; save(); };
+  el.querySelectorAll("img").forEach(i => i.onclick = () => { gross.querySelector("img").src = i.src; gross.style.display = "flex"; });
+  return el;
+}
+function setze(id, urteil) {
+  const st = S[id] = S[id] || {};
+  st.urteil = st.urteil === urteil ? "" : urteil;
+  document.querySelector('[data-id="' + id + '"]').className = "k " + st.urteil;
+  save(); zeigen();
+}
+function zaehlen() {
+  const u = D.items.map(it => (S[it.id] || {}).urteil || "");
+  document.getElementById("n-ok").textContent = u.filter(x => x === "ok").length;
+  document.getElementById("n-neu").textContent = u.filter(x => x === "neu").length;
+  document.getElementById("n-offen").textContent = u.filter(x => !x).length;
+}
+function zeigen() {
+  document.querySelectorAll(".k").forEach(el => {
+    const u = (S[el.dataset.id] || {}).urteil || "";
+    el.style.display = filter === "alle" || (filter === "offen" ? !u : u === filter) ? "" : "none";
+  });
+}
+function ergebnis() {
+  const z = ["Abnahme " + D.titel + ":"];
+  for (const it of D.items) {
+    const st = S[it.id] || {};
+    z.push("- " + it.id + ": " + (st.urteil === "ok" ? "OK" : st.urteil === "neu" ? "NEU" : "offen") + (st.notiz ? " – " + st.notiz.trim() : ""));
+  }
+  return z.join("\n");
+}
+window.abnahme = () => ({id: D.id, urteile: S, text: ergebnis()});   // read by Claude from the browser pane
+const liste = document.getElementById("liste"), gross = document.getElementById("gross");
+D.items.forEach(it => liste.appendChild(karte(it)));
+gross.onclick = () => gross.style.display = "none";
+document.querySelectorAll(".filter button").forEach(b => b.onclick = () => {
+  filter = b.dataset.f; document.querySelectorAll(".filter button").forEach(x => x.classList.toggle("an", x === b)); zeigen();
+});
+document.getElementById("alle-ok").onclick = () => {
+  D.items.forEach(it => { const st = S[it.id] = S[it.id] || {}; if (!st.urteil) st.urteil = "ok"; });
+  document.querySelectorAll(".k").forEach(el => el.className = "k " + (S[el.dataset.id].urteil || ""));
+  save(); zeigen();
+};
+document.getElementById("kopieren").onclick = async () => {
+  try { await navigator.clipboard.writeText(ergebnis()); } catch (e) { prompt("Ergebnis:", ergebnis()); return; }
+  const k = document.getElementById("kopiert"); k.style.display = "inline"; setTimeout(() => k.style.display = "none", 1500);
+};
+zaehlen();
+</script></body></html>

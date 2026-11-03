@@ -1,0 +1,135 @@
+{
+ "id": "duc_konter_2",
+ "titel": "Duc: Konter mit angewinkelten Knien",
+ "hinweis": "16 Posen: Schläger, Säbel, Schrubber und alle Messer. Vorschlag: alle freigeben. Speer, Flinte und DucErdeSword bleiben aus der ersten Runde, wie du sie freigegeben hast. Die Bilder sind noch nicht gespiegelt, darum schaut er hier nach links, die Vergleichsbilder der Messer sind schon gespiegelt. Noch nicht im Spiel.",
+ "items": [
+  {
+   "id": "DucCyberBat",
+   "titel": "DucCyberBat",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter2\\DucCyberBat\\konter.png",
+   "soll": "Gerade abgesprungen, Knie angewinkelt, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucCyberBat\\konter.png",
+   "vergleich_titel": "Vorher"
+  },
+  {
+   "id": "DucCyberKnife",
+   "titel": "DucCyberKnife",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter2\\DucCyberKnife\\konter.png",
+   "soll": "Gerade abgesprungen, Knie angewinkelt, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberKnife\\konter.png",
+   "vergleich_titel": "Vorher"
+  },
+  {
+   "id": "DucCyberSword",
+   "titel": "DucCyberSword",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter2\\DucCyberSword\\konter.png",
+   "soll": "Gerade abgesprungen, Knie angewinkelt, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucCyberSword\\konter.png",
+   "vergleich_titel": "Vorher"
+  },
+  {
+   "id": "DucErdeBat",
+   "titel": "DucErdeBat",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter2\\DucErdeBat\\konter.png",
+   "soll": "Gerade abgesprungen, Knie angewinkelt, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucErdeBat\\konter.png",
+   "vergleich_titel": "Vorher"
+  },
+  {
+   "id": "DucErdeKnife",
+   "titel": "DucErdeKnife",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter2\\DucErdeKnife\\konter.png",
+   "soll": "Gerade abgesprungen, Knie angewinkelt, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeKnife\\konter.png",
+   "vergleich_titel": "Vorher"
+  },
+  {
+   "id": "DucErdeMop",
+   "titel": "DucErdeMop",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter2\\DucErdeMop\\konter.png",
+   "soll": "Gerade abgesprungen, Knie angewinkelt, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucErdeMop\\konter.png",
+   "vergleich_titel": "Vorher"
+  },
+  {
+   "id": "DucFeuerBat",
+   "titel": "DucFeuerBat",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter2\\DucFeuerBat\\konter.png",
+   "soll": "Gerade abgesprungen, Knie angewinkelt, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucFeuerBat\\konter.png",
+   "vergleich_titel": "Vorher"
+  },
+  {
+   "id": "DucFeuerKnife",
+   "titel": "DucFeuerKnife",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter2\\DucFeuerKnife\\konter.png",
+   "soll": "Gerade abgesprungen, Knie angewinkelt, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerKnife\\konter.png",
+   "vergleich_titel": "Vorher"
+  },
+  {
+   "id": "DucFeuerSword",
+   "titel": "DucFeuerSword",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter2\\DucFeuerSword\\konter.png",
+   "soll": "Gerade abgesprungen, Knie angewinkelt, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucFeuerSword\\konter.png",
+   "vergleich_titel": "Vorher"
+  },
+  {
+   "id": "DucLuftBat",
+   "titel": "DucLuftBat",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter2\\DucLuftBat\\konter.png",
+   "soll": "Gerade abgesprungen, Knie angewinkelt, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucLuftBat\\konter.png",
+   "vergleich_titel": "Vorher"
+  },
+  {
+   "id": "DucLuftKnife",
+   "titel": "DucLuftKnife",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter2\\DucLuftKnife\\konter.png",
+   "soll": "Gerade abgesprungen, Knie angewinkelt, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftKnife\\konter.png",
+   "vergleich_titel": "Vorher"
+  },
+  {
+   "id": "DucLuftSword",
+   "titel": "DucLuftSword",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter2\\DucLuftSword\\konter.png",
+   "soll": "Gerade abgesprungen, Knie angewinkelt, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucLuftSword\\konter.png",
+   "vergleich_titel": "Vorher"
+  },
+  {
+   "id": "DucTauchKnife",
+   "titel": "DucTauchKnife",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter2\\DucTauchKnife\\konter.png",
+   "soll": "Gerade abgesprungen, Knie angewinkelt, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucTauchKnife\\konter.png",
+   "vergleich_titel": "Vorher"
+  },
+  {
+   "id": "DucWasserBat",
+   "titel": "DucWasserBat",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter2\\DucWasserBat\\konter.png",
+   "soll": "Gerade abgesprungen, Knie angewinkelt, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucWasserBat\\konter.png",
+   "vergleich_titel": "Vorher"
+  },
+  {
+   "id": "DucWasserKnife",
+   "titel": "DucWasserKnife",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter2\\DucWasserKnife\\konter.png",
+   "soll": "Gerade abgesprungen, Knie angewinkelt, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\konter.png",
+   "vergleich_titel": "Vorher"
+  },
+  {
+   "id": "DucWasserSword",
+   "titel": "DucWasserSword",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter2\\DucWasserSword\\konter.png",
+   "soll": "Gerade abgesprungen, Knie angewinkelt, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucWasserSword\\konter.png",
+   "vergleich_titel": "Vorher"
+  }
+ ]
+}

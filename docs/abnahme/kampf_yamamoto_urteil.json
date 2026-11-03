@@ -1,0 +1,45 @@
+{
+ "YamamotoSamurai_v3": {
+  "urteil": "ok"
+ },
+ "idle": {
+  "urteil": "ok"
+ },
+ "guard": {
+  "urteil": "ok"
+ },
+ "windup": {
+  "urteil": "ok"
+ },
+ "heavy_attack": {
+  "urteil": "neu",
+  "notiz": "Schwert sieht man nciht"
+ },
+ "heavy_windup": {
+  "notiz": "Falsche hand mit dem Schwert sollte  oben sein."
+ },
+ "attack": {
+  "urteil": "ok"
+ },
+ "hurt": {
+  "urteil": "ok"
+ },
+ "enraged": {
+  "urteil": "ok"
+ },
+ "weakened": {
+  "urteil": "ok"
+ },
+ "victory": {
+  "urteil": "ok"
+ },
+ "flee": {
+  "urteil": "ok"
+ },
+ "surrender": {
+  "urteil": "ok"
+ },
+ "defeated": {
+  "urteil": "ok"
+ }
+}

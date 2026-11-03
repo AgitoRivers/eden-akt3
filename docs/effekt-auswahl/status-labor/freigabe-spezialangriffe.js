@@ -1,0 +1,177 @@
+/* Ducs approved animation choices. */
+window.EDEN_APPROVED_ANIMATIONS={
+  "version": 1,
+  "createdAt": "2026-10-24T07:28:10.353Z",
+  "scope": "Spezialangriffe im Effektlabor",
+  "choices": {
+    "scirocco": {
+      "name": "Scirocco",
+      "variant": 2,
+      "variantNumber": 3,
+      "variantName": "Konzentrierter Feuerkern",
+      "note": "sound muss am Anfang länger sein bis der Feuerball geschossen wird. ",
+      "icon": "skill-icons/scirocco.png"
+    },
+    "retour": {
+      "name": "Retour de Flamme",
+      "variant": 2,
+      "variantNumber": 3,
+      "variantName": "Verdichtete Racheglut",
+      "note": "sound muss am Anfang länger sein bis der Feuerball geschossen wird.  Impact muss mehr wumms hab",
+      "icon": "skill-icons/retour.png"
+    },
+    "furia": {
+      "name": "Furia",
+      "variant": 2,
+      "variantNumber": 3,
+      "variantName": "Schlangenflamme",
+      "note": "gut",
+      "icon": "skill-icons/furia.png"
+    },
+    "vulcano": {
+      "name": "Vulcano",
+      "variant": 0,
+      "variantNumber": 1,
+      "variantName": "Aufsteigender Feuersturm",
+      "note": "sound muss am Anfang länger sein bis die Schläge starten. am ende muss es explodieren vom sound ",
+      "icon": "skill-icons/vulcano.png"
+    },
+    "mistral": {
+      "name": "Mistral",
+      "variant": 0,
+      "variantNumber": 1,
+      "variantName": "Wilder Schwung",
+      "note": "impact braucht mehr wumms. ",
+      "icon": "skill-icons/mistral.png"
+    },
+    "wave": {
+      "name": "Ressac",
+      "variant": 0,
+      "variantNumber": 1,
+      "variantName": "Wasserlanze · Referenz",
+      "note": "gut",
+      "icon": "skill-icons/wave.png"
+    },
+    "wind": {
+      "name": "Libeccio",
+      "variant": 0,
+      "variantNumber": 1,
+      "variantName": "Grobe Nebelwand",
+      "note": "gut ",
+      "icon": "skill-icons/wind.png"
+    },
+    "tidal": {
+      "name": "Lame de Fond",
+      "variant": 0,
+      "variantNumber": 1,
+      "variantName": "Brechende Wasserwand",
+      "note": "gut",
+      "icon": "skill-icons/tidal.png"
+    },
+    "doubleSlash": {
+      "name": "Doppio Gioco",
+      "variant": 0,
+      "variantNumber": 1,
+      "variantName": "Kreuzschnitt",
+      "note": "gut",
+      "icon": "skill-icons/doubleSlash.png"
+    },
+    "blur": {
+      "name": "Sotto Voce",
+      "variant": 0,
+      "variantNumber": 1,
+      "variantName": "Verdichtete Stimme",
+      "note": "mehr wumms am ende, den sound den wir jetzt haben einfach 2x so laut. ",
+      "icon": "skill-icons/blur.png"
+    },
+    "vendetta": {
+      "name": "Vendetta",
+      "variant": 2,
+      "variantNumber": 3,
+      "variantName": "Steiles Glut-V",
+      "note": "auch hier mehr laden und ein nachbrennen am Ende. ",
+      "icon": "skill-icons/vendetta.png"
+    },
+    "blackSlash": {
+      "name": "Omertà",
+      "variant": 1,
+      "variantNumber": 2,
+      "variantName": "Goldener Hinterhalt",
+      "note": "gut",
+      "icon": "skill-icons/blackSlash.png"
+    },
+    "reticle": {
+      "name": "Point de Mire",
+      "variant": 0,
+      "variantNumber": 1,
+      "variantName": "Präziser Fokus",
+      "note": "gut",
+      "icon": "skill-icons/reticle.png"
+    },
+    "calm": {
+      "name": "Bonaccia",
+      "variant": 0,
+      "variantNumber": 1,
+      "variantName": "Wasserschutzschild",
+      "note": "gut ",
+      "icon": "skill-icons/calm.png"
+    },
+    "beam": {
+      "name": "Phare",
+      "variant": 0,
+      "variantNumber": 1,
+      "variantName": "Suchscheinwerfer",
+      "note": "Das muss mehr wie Licht klingen. ",
+      "icon": "skill-icons/beam.png"
+    },
+    "rain": {
+      "name": "Pluie d’Étoiles",
+      "variant": 0,
+      "variantNumber": 1,
+      "variantName": "Dreifacher Fall",
+      "note": "der erste Sound muss 3 mal (je Kugel) ein anderer sein:\"S:\\VR\\Gallery\\Downloads\\Sounds\\ice-spell03.mp3\" aber doppelt so laut ",
+      "icon": "skill-icons/rain.png"
+    },
+    "balm": {
+      "name": "Elicriso",
+      "variant": 0,
+      "variantNumber": 1,
+      "variantName": "Verdant charge",
+      "note": "",
+      "status": "approved",
+      "icon": "skill-icons/balm.png"
+    },
+    "westWind": {
+      "name": "Ponente",
+      "variant": 1,
+      "variantNumber": 2,
+      "variantName": "Sheltering breeze",
+      "note": "viel mehr blätter und wirbelnd ",
+      "status": "selected_revision_requested",
+      "icon": "skill-icons/westWind.png"
+    },
+    "awaken": {
+      "name": "Risveglio",
+      "variant": 0,
+      "variantNumber": 1,
+      "variantName": "Morning from above",
+      "note": "",
+      "status": "approved",
+      "icon": "skill-icons/awaken.png"
+    },
+    "archangel": {
+      "name": "Arcangelo",
+      "variant": 2,
+      "variantNumber": 3,
+      "variantName": "Church dawn",
+      "note": "",
+      "status": "approved",
+      "icon": "skill-icons/archangel.png"
+    }
+  },
+  "status": "freigegeben",
+  "approvedBy": "Duc",
+  "resolvedNotes": {
+    "vendetta": "Zwei Schnitte von oben nach unten bilden ein V. Das fertige V bleibt 0,8 Sekunden und verblasst danach in 0,6 Sekunden."
+  }
+};

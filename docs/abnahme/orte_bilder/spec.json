@@ -1,0 +1,175 @@
+{
+ "id": "orte_bilder",
+ "titel": "Orte für Zweisamkeit: sieben neue Hintergründe",
+ "hinweis": "Je Ort vier Varianten, mein Vorschlag mit ⭐. Bitte je Ort eine mit OK markieren, Rest Neu oder leer lassen.",
+ "items": [
+  {
+   "id": "tenderboot_nacht_v1",
+   "titel": "Leas Ort: Tenderboot vor Anker, Nacht · v1  ⭐ Vorschlag",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_tenderboot_nacht_v1.png",
+   "soll": "v1: Laterne und Decken mittig, Yacht und Dorf gut verteilt."
+  },
+  {
+   "id": "tenderboot_nacht_v2",
+   "titel": "Leas Ort: Tenderboot vor Anker, Nacht · v2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_tenderboot_nacht_v2.png",
+   "soll": ""
+  },
+  {
+   "id": "tenderboot_nacht_v3",
+   "titel": "Leas Ort: Tenderboot vor Anker, Nacht · v3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_tenderboot_nacht_v3.png",
+   "soll": ""
+  },
+  {
+   "id": "tenderboot_nacht_v4",
+   "titel": "Leas Ort: Tenderboot vor Anker, Nacht · v4",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_tenderboot_nacht_v4.png",
+   "soll": ""
+  },
+  {
+   "id": "mochis_bucht_abend_v1",
+   "titel": "Bibis Ort: Badebucht unter Mochi's, Abend · v1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_mochis_bucht_abend_v1.png",
+   "soll": ""
+  },
+  {
+   "id": "mochis_bucht_abend_v2",
+   "titel": "Bibis Ort: Badebucht unter Mochi's, Abend · v2  ⭐ Vorschlag",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_mochis_bucht_abend_v2.png",
+   "soll": "v2: Treppe und Tor zur Station gut sichtbar, Decke auf dem Felsen."
+  },
+  {
+   "id": "mochis_bucht_abend_v3",
+   "titel": "Bibis Ort: Badebucht unter Mochi's, Abend · v3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_mochis_bucht_abend_v3.png",
+   "soll": ""
+  },
+  {
+   "id": "mochis_bucht_abend_v4",
+   "titel": "Bibis Ort: Badebucht unter Mochi's, Abend · v4",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_mochis_bucht_abend_v4.png",
+   "soll": ""
+  },
+  {
+   "id": "alvas_hinterzimmer_v1",
+   "titel": "Alvas Hinterzimmer (wird ggf. ihre Wohnung) · v1  ⭐ Vorschlag",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_alvas_hinterzimmer_v1.png",
+   "soll": "v1: wärmstes Licht, Hafen im Fenster. Wird neu gemacht, falls Duc ihre Wohnung mit Piazza-Blick freigibt."
+  },
+  {
+   "id": "alvas_hinterzimmer_v2",
+   "titel": "Alvas Hinterzimmer (wird ggf. ihre Wohnung) · v2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_alvas_hinterzimmer_v2.png",
+   "soll": ""
+  },
+  {
+   "id": "alvas_hinterzimmer_v3",
+   "titel": "Alvas Hinterzimmer (wird ggf. ihre Wohnung) · v3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_alvas_hinterzimmer_v3.png",
+   "soll": ""
+  },
+  {
+   "id": "alvas_hinterzimmer_v4",
+   "titel": "Alvas Hinterzimmer (wird ggf. ihre Wohnung) · v4",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_alvas_hinterzimmer_v4.png",
+   "soll": ""
+  },
+  {
+   "id": "kuehlraum_v1",
+   "titel": "Kühlraum der Kombüse (Risiko-Ort) · v1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_kuehlraum_v1.png",
+   "soll": ""
+  },
+  {
+   "id": "kuehlraum_v2",
+   "titel": "Kühlraum der Kombüse (Risiko-Ort) · v2  ⭐ Vorschlag",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_kuehlraum_v2.png",
+   "soll": "v2: aufgeräumt, Zettel lesbar wirkend. Auf allen Zetteln steht Fantasieschrift."
+  },
+  {
+   "id": "kuehlraum_v3",
+   "titel": "Kühlraum der Kombüse (Risiko-Ort) · v3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_kuehlraum_v3.png",
+   "soll": ""
+  },
+  {
+   "id": "kuehlraum_v4",
+   "titel": "Kühlraum der Kombüse (Risiko-Ort) · v4",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_kuehlraum_v4.png",
+   "soll": ""
+  },
+  {
+   "id": "genueser_turm_nacht_v1",
+   "titel": "Genueser Turm oben, Nacht (Risiko-Ort, Kevin) · v1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_genueser_turm_nacht_v1.png",
+   "soll": ""
+  },
+  {
+   "id": "genueser_turm_nacht_v2",
+   "titel": "Genueser Turm oben, Nacht (Risiko-Ort, Kevin) · v2  ⭐ Vorschlag",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_genueser_turm_nacht_v2.png",
+   "soll": "v2: ohne die weißen Rauchfahnen, die v1 und v4 haben; Mond und Küste."
+  },
+  {
+   "id": "genueser_turm_nacht_v3",
+   "titel": "Genueser Turm oben, Nacht (Risiko-Ort, Kevin) · v3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_genueser_turm_nacht_v3.png",
+   "soll": ""
+  },
+  {
+   "id": "genueser_turm_nacht_v4",
+   "titel": "Genueser Turm oben, Nacht (Risiko-Ort, Kevin) · v4",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_genueser_turm_nacht_v4.png",
+   "soll": ""
+  },
+  {
+   "id": "solar_deck_nacht_v1",
+   "titel": "Siris Ort: Solar-Deck, Nacht · v1  ⭐ Vorschlag",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_solar_deck_nacht_v1.png",
+   "soll": "v1: Handy liegt auf dem Polster, Sterne, Bucht."
+  },
+  {
+   "id": "solar_deck_nacht_v2",
+   "titel": "Siris Ort: Solar-Deck, Nacht · v2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_solar_deck_nacht_v2.png",
+   "soll": ""
+  },
+  {
+   "id": "solar_deck_nacht_v3",
+   "titel": "Siris Ort: Solar-Deck, Nacht · v3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_solar_deck_nacht_v3.png",
+   "soll": ""
+  },
+  {
+   "id": "solar_deck_nacht_v4",
+   "titel": "Siris Ort: Solar-Deck, Nacht · v4",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_solar_deck_nacht_v4.png",
+   "soll": ""
+  },
+  {
+   "id": "foredeck_nacht_v1",
+   "titel": "Vordeck, Nacht (Risiko-Ort) · v1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_foredeck_nacht_v1.png",
+   "soll": ""
+  },
+  {
+   "id": "foredeck_nacht_v2",
+   "titel": "Vordeck, Nacht (Risiko-Ort) · v2  ⭐ Vorschlag",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_foredeck_nacht_v2.png",
+   "soll": "v2: Mondweg auf dem Wasser, Sonnenpolster und Ankerwinde. Blick geht zurück zur Brücke statt nach vorn."
+  },
+  {
+   "id": "foredeck_nacht_v3",
+   "titel": "Vordeck, Nacht (Risiko-Ort) · v3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_foredeck_nacht_v3.png",
+   "soll": ""
+  },
+  {
+   "id": "foredeck_nacht_v4",
+   "titel": "Vordeck, Nacht (Risiko-Ort) · v4",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_foredeck_nacht_v4.png",
+   "soll": ""
+  }
+ ]
+}

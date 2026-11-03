@@ -1,0 +1,287 @@
+{
+ "id": "wolff_veteran_satz_v1",
+ "titel": "Sergent Kaspar Wolff: voller Satz",
+ "items": [
+  {
+   "id": "dialog_admiration_2",
+   "titel": "Dialog · admiration",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\dialog\\admiration_2.png",
+   "soll": "Gesicht, Rüstung und Schwert wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Kaspar Wolff\\admiration.png",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "dialog_amusement",
+   "titel": "Dialog · amusement",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\dialog\\amusement.png",
+   "soll": "Gesicht, Rüstung und Schwert wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Kaspar Wolff\\amusement.png",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "dialog_anger",
+   "titel": "Dialog · anger",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\dialog\\anger.png",
+   "soll": "Gesicht, Rüstung und Schwert wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Kaspar Wolff\\anger.png",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "dialog_annoyance",
+   "titel": "Dialog · annoyance",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\dialog\\annoyance.png",
+   "soll": "Die Beine sind überkreuzt, das steht so in der Pose-Karte.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Kaspar Wolff\\annoyance.png",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "dialog_approval",
+   "titel": "Dialog · approval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\dialog\\approval.png",
+   "soll": "Gesicht, Rüstung und Schwert wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Kaspar Wolff\\approval.png",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "dialog_caring",
+   "titel": "Dialog · caring",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\dialog\\caring.png",
+   "soll": "Ein Fuß ist angehoben.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Kaspar Wolff\\caring.png",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "dialog_confusion",
+   "titel": "Dialog · confusion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\dialog\\confusion.png",
+   "soll": "Gesicht, Rüstung und Schwert wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Kaspar Wolff\\confusion.png",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "dialog_curiosity",
+   "titel": "Dialog · curiosity",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\dialog\\curiosity.png",
+   "soll": "Leicht von oben, der Kopf wirkt dadurch groß.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Kaspar Wolff\\curiosity.png",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "dialog_disappointment",
+   "titel": "Dialog · disappointment",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\dialog\\disappointment.png",
+   "soll": "Gesicht, Rüstung und Schwert wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Kaspar Wolff\\disappointment.png",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "dialog_disapproval",
+   "titel": "Dialog · disapproval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\dialog\\disapproval.png",
+   "soll": "Gesicht, Rüstung und Schwert wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Kaspar Wolff\\disapproval.png",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "dialog_disgust",
+   "titel": "Dialog · disgust",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\dialog\\disgust.png",
+   "soll": "Ein Fuß ist angehoben, das kann schwebend wirken.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Kaspar Wolff\\disgust.png",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "dialog_embarrassment_2",
+   "titel": "Dialog · embarrassment",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\dialog\\embarrassment_2.png",
+   "soll": "Gesicht, Rüstung und Schwert wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Kaspar Wolff\\embarrassment.png",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "dialog_excitement_2",
+   "titel": "Dialog · excitement",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\dialog\\excitement_2.png",
+   "soll": "Gesicht, Rüstung und Schwert wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Kaspar Wolff\\excitement.png",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "dialog_fear_2",
+   "titel": "Dialog · fear",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\dialog\\fear_2.png",
+   "soll": "Gesicht, Rüstung und Schwert wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Kaspar Wolff\\fear.png",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "dialog_gratitude",
+   "titel": "Dialog · gratitude",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\dialog\\gratitude.png",
+   "soll": "Gesicht, Rüstung und Schwert wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Kaspar Wolff\\gratitude.png",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "dialog_joy",
+   "titel": "Dialog · joy",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\dialog\\joy.png",
+   "soll": "Gesicht, Rüstung und Schwert wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Kaspar Wolff\\joy.png",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "dialog_love_2",
+   "titel": "Dialog · love",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\dialog\\love_2.png",
+   "soll": "Neu: Der alte Satz hatte diese Pose nicht.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Kaspar Wolff\\love.png",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "dialog_nervousness",
+   "titel": "Dialog · nervousness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\dialog\\nervousness.png",
+   "soll": "Gesicht, Rüstung und Schwert wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Kaspar Wolff\\nervousness.png",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "dialog_neutral",
+   "titel": "Dialog · neutral",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\dialog\\neutral.png",
+   "soll": "Gesicht, Rüstung und Schwert wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Kaspar Wolff\\neutral.png",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "dialog_pride",
+   "titel": "Dialog · pride",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\dialog\\pride.png",
+   "soll": "Gesicht, Rüstung und Schwert wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Kaspar Wolff\\pride.png",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "dialog_sadness",
+   "titel": "Dialog · sadness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\dialog\\sadness.png",
+   "soll": "Gesicht, Rüstung und Schwert wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Kaspar Wolff\\sadness.png",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "dialog_surprise",
+   "titel": "Dialog · surprise",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\dialog\\surprise.png",
+   "soll": "Die Beine sind überkreuzt, das steht so in der Pose-Karte.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Kaspar Wolff\\surprise.png",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "kampf_attack",
+   "titel": "Kampf · attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\kampf\\attack.png",
+   "soll": "Gesicht, Rüstung und Schwert wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\Wolff\\attack.webp",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "kampf_defeated",
+   "titel": "Kampf · defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\kampf\\defeated.png",
+   "soll": "Gesicht, Rüstung und Schwert wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\Wolff\\defeated.webp",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "kampf_enraged",
+   "titel": "Kampf · enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\kampf\\enraged.png",
+   "soll": "Gesicht, Rüstung und Schwert wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\Wolff\\enraged.webp",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "kampf_flee",
+   "titel": "Kampf · flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\kampf\\flee.png",
+   "soll": "Wird beim Einbau gespiegelt, damit er nach rechts wegläuft.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\Wolff\\flee.webp",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "kampf_guard",
+   "titel": "Kampf · guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\kampf\\guard.png",
+   "soll": "Gesicht, Rüstung und Schwert wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\Wolff\\guard.webp",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "kampf_heavy_attack",
+   "titel": "Kampf · heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\kampf\\heavy_attack.png",
+   "soll": "Gesicht, Rüstung und Schwert wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\Wolff\\heavy_attack.webp",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "kampf_heavy_windup",
+   "titel": "Kampf · heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\kampf\\heavy_windup.png",
+   "soll": "Gesicht, Rüstung und Schwert wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\Wolff\\heavy_windup.webp",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "kampf_hurt",
+   "titel": "Kampf · hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\kampf\\hurt.png",
+   "soll": "Gesicht, Rüstung und Schwert wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\Wolff\\hurt.webp",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "kampf_idle",
+   "titel": "Kampf · idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\kampf\\idle.png",
+   "soll": "Gesicht, Rüstung und Schwert wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\Wolff\\idle.webp",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "kampf_surrender",
+   "titel": "Kampf · surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\kampf\\surrender.png",
+   "soll": "Gesicht, Rüstung und Schwert wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\Wolff\\surrender.webp",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "kampf_victory",
+   "titel": "Kampf · victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\kampf\\victory.png",
+   "soll": "Gesicht, Rüstung und Schwert wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\Wolff\\victory.webp",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "kampf_weakened",
+   "titel": "Kampf · weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\kampf\\weakened.png",
+   "soll": "Gesicht, Rüstung und Schwert wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\Wolff\\weakened.webp",
+   "vergleich_titel": "Alter Wolff"
+  },
+  {
+   "id": "kampf_windup",
+   "titel": "Kampf · windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\kampf\\windup.png",
+   "soll": "Gesicht, Rüstung und Schwert wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\Wolff\\windup.webp",
+   "vergleich_titel": "Alter Wolff"
+  }
+ ],
+ "hinweis": "22 Dialog-Posen und 13 Kampf-Posen auf Basis von Dialog 3 und Kampf 3. Mein Vorschlag: alles übernehmen. Nur was nicht passt, auf „Neu“ setzen. Ins Spiel kommt der Satz erst nach deinem Urteil."
+}

@@ -1,0 +1,1067 @@
+{
+ "id": "dorf_akt1_texte",
+ "titel": "Dorf-Figuren · Phase 2: Pascal und Mina in Akt 1",
+ "hinweis": "Noch nichts ist gebaut oder vertont. Pro Text OK oder Ändern mit Notiz, „Restliche OK“ für den Rest. Wörter in [eckigen Klammern] hört man nur in der Stimme, im Spiel sieht man sie nicht. Pascal schenkt dir: 2 Bandagen (Tag 2), Kaffee und 120 € (Hafenmeister), Bandage und Espresso (vor dem Kloster), Jade für Terremoto (nach den Riccis). Dazu kommt mechanisch: Das erste Verblassen deines Rufs fällt aus, und seine Legenden-Zeile „I told them about the boar again“ erklärt warum.",
+ "gruppen": [
+  {
+   "titel": "hk_pascal · The Man with the Barrel (neu, Tag 2)",
+   "items": [
+    {
+     "key": "hk_pascal#0",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "The barrel is nearly empty when Madame Casanova climbs on a crate for one more speech, mostly to the boats. At the end she stops, lifts her chin and waits. She always leaves this pause, for the applause. Nobody in the harbour claps. Then somebody does: a thin man behind the barrel, in a double-breasted pinstripe suit and a white fedora, clapping carefully so he doesn't spill his glass. There is barrel dirt on one knee of the suit.",
+     "vertont": false,
+     "notiz": "Direkt nach dem Abend am Hafen. Er rollt das Fass aus hk_abend. Geschenk: 2x Bandage. Die Glocke, „count what they owe“ und der Besen zahlen später ein."
+    },
+    {
+     "key": "hk_pascal#1",
+     "wer": "Pascal",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[chuckle] Somebody has to, or she starts again. Pascal Leca, deputy mayor. If a thing in this town doesn't need a speech, it's probably me.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "hk_pascal#2",
+     "wer": "Pascal",
+     "gefuehl": "gratitude",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "And you're Duc. Yes, I asked. You could have stayed on your boat tonight, and nobody here would have blamed you. [sigh] You didn't. This village will remember that, Duc, and so will I.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "hk_pascal#3",
+     "wer": "Pascal",
+     "gefuehl": "caring",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Now, you're bleeding on my harbour. That's not a complaint. Here, take these, the pharmacy doesn't open until Thursday.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "hk_pascal#4",
+     "wer": "Pascal",
+     "gefuehl": "approval",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "The Lieutenant has her list of the damage, and at the top of it I've written that the crew of the Eden Rise defended the quay. So nobody will send you a bill. [chuckle] Anything you need while you're stuck here, you come to me first. Leave it with me.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "hk_pascal#5",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Takes the bandages and shakes his hand. “Thanks, Pascal.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "hk_pascal#6",
+     "wer": "Pascal",
+     "gefuehl": "gratitude",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "No, no, you have it the wrong way round. We owe you. [chuckle] People here count what they owe, Duc. It's the one thing we're good at.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "hk_pascal#7",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Looks at the suit, then at the barrel. “You rolled that thing in that suit?”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "hk_pascal#8",
+     "wer": "Pascal",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[sigh] I know. My tailor in Bastia is going to cry. But a man with no hair has to look good somewhere, Duc, and I've run out of other places.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "hk_pascal#9",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "“Where were you when the boar came?”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "hk_pascal#10",
+     "wer": "Pascal",
+     "gefuehl": "embarrassment",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[cough] Up in the church tower, ringing the bell. Badly. The priest was, let's say, praying. I had never rung a bell in my life, and now the whole town knows it.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "hk_pascal#11",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "“So you're the one who really runs this place.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "hk_pascal#12",
+     "wer": "Pascal",
+     "gefuehl": "nervousness",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[clear throat] Shh, please. She has very good ears for that. I carry the broom, Duc. That's all I do, I carry the broom.",
+     "vertont": true,
+     "notiz": ""
+    }
+   ]
+  },
+  {
+   "titel": "hy_casanova_konfetti · With Ceremony (ändern, Tag 3–5)",
+   "items": [
+    {
+     "key": "hy_casanova_konfetti#0",
+     "wer": "Pascal",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "I have the broom, Madame. I brought two. [chuckle] It went much better at eleven o'clock, Duc, you should have seen it.",
+     "vertont": true,
+     "notiz": "Eine neue Zeile nach „And a broom.“ Der Rest bleibt."
+    }
+   ]
+  },
+  {
+   "titel": "g1_casanova_nebel · The Dress Rehearsal (ändern, Tag 3–5)",
+   "items": [
+    {
+     "key": "g1_casanova_nebel#0",
+     "wer": "Pascal",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[cough] Lieutenant, this is my fault, please write it down. I ordered the small machine. This is the small machine.",
+     "vertont": true,
+     "notiz": "Drei neue Zeilen nach Totò. Pascal nimmt die Schuld auf sich. Elsas Antenne: die Schublade von Akt 3, hier nur ein Witz."
+    },
+    {
+     "key": "g1_casanova_nebel#1",
+     "wer": "Elsa",
+     "gefuehl": "annoyance",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Then I'll need a form, Monsieur Leca. The same kind as the one for my antenna, I suppose. It's been eleven months.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_casanova_nebel#2",
+     "wer": "Pascal",
+     "gefuehl": "caring",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Almost through, Elsa. [chuckle] I promise you, almost.",
+     "vertont": true,
+     "notiz": ""
+    }
+   ]
+  },
+  {
+   "titel": "gv_casanova_alva · The VIP Lounge (ändern, Tag 3–5)",
+   "items": [
+    {
+     "key": "gv_casanova_alva#0",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "Madame Casanova wants to turn Alva's bar into a VIP lounge for the festa. With a velvet rope. Alva wants her bar to stay the way it is: loud, full, and for everyone.",
+     "neu": "Madame Casanova wants to turn Alva's bar into a VIP lounge for the festa. With a velvet rope. Alva wants her bar to stay the way it is: loud, full, and for everyone. Behind them Pascal walks along the wall with a tape measure, his hat pushed back.",
+     "vertont": false,
+     "notiz": "Pascal kommt als Zuschauer dazu. Laut Story misst er hier „die Ware“ aus, ohne Hinweis im Codex."
+    },
+    {
+     "key": "gv_casanova_alva#1",
+     "wer": "Pascal",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Four metres eighty, Madame. [chuckle] It's for the rope, Alva, only the rope. Don't look at me like that, I just hold the tape.",
+     "vertont": true,
+     "notiz": ""
+    }
+   ]
+  },
+  {
+   "titel": "g1_pascal_gebuehren · Mooring Fees (neu, Tag 3–6, Hafen)",
+   "items": [
+    {
+     "key": "g1_pascal_gebuehren#0",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "The harbourmaster has found you on the quay. He is a lovely man with a folder, and this is minute eleven. You have heard about his cousin in Propriano, and now he is on the third page of what you owe. Then a paper cup of coffee appears in your hand, and a white fedora appears beside it.",
+     "vertont": false,
+     "notiz": "Knüpft an den Hafenmeister aus Sophias Szene an. Geschenk: Kaffee (Americano) und 120 € erstatteter Gebühr. Ton warm, Option 2 ist der zweite Blick."
+    },
+    {
+     "key": "g1_pascal_gebuehren#1",
+     "wer": "Pascal",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Toussaint, your wife rang, the fish is getting cold. And think about it, my friend. The Eden Rise can't move, so it isn't a boat, it's a building. [chuckle] Buildings don't pay mooring fees.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_pascal_gebuehren#2",
+     "wer": "Pascal",
+     "gefuehl": "gratitude",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Look at that, he's gone. Here's what you paid him already, Duc, he had it in the folder. Drink that, you look like you slept on a rope. It's the least we can do, after the quay.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_pascal_gebuehren#3",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Raises the paper cup. “I owe you one.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_pascal_gebuehren#4",
+     "wer": "Pascal",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "You don't, and you won't. [chuckle] I keep very good accounts, Duc, and you are a long way ahead.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_pascal_gebuehren#5",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "“What do you get out of all this, Pascal?”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_pascal_gebuehren#6",
+     "wer": "Pascal",
+     "gefuehl": "optimism",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[sigh] Do you know, nobody has ever asked me that. A village that is still here in ten years, I suppose. And a chair at Alva's, if I ever get the time to sit down.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_pascal_gebuehren#7",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Sniffs the cup. “What's in this?”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_pascal_gebuehren#8",
+     "wer": "Pascal",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Coffee and a small prayer. [laugh] It's from Alva's, so it's mostly the prayer.",
+     "vertont": true,
+     "notiz": ""
+    }
+   ]
+  },
+  {
+   "titel": "hy_pascal_holm · Visiting Hours (neu, Handy, Tag 3–6)",
+   "items": [
+    {
+     "key": "hy_pascal_holm#0",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "Video call from the town hall. Pascal is at his desk, standing up, eating a sandwich over a stack of paper. His hat hangs on the corner of the old mayor's portrait.",
+     "vertont": false,
+     "notiz": "Er ruft jeden Morgen im Krankenhaus an. „Takk“ ist Holms Wort, „Frankfurt“ ihr Name für Duc. Wirkung: Moral +1."
+    },
+    {
+     "key": "hy_pascal_holm#1",
+     "wer": "Pascal",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Duc, sorry, one minute only. I ring the hospital in Ajaccio every morning, they know me there now, and your captain has just thrown a yoghurt at a doctor. [chuckle] I thought you'd want to know. I think it's a very good sign.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "hy_pascal_holm#2",
+     "wer": "Pascal",
+     "gefuehl": "caring",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "I told her the boat is in good hands, because nobody else had. She said something in Norwegian. I wrote it down, in case it was medical.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "hy_pascal_holm#3",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "“You don't have to do this, you know.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "hy_pascal_holm#4",
+     "wer": "Pascal",
+     "gefuehl": "caring",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "I know. [chuckle] That's why it's nice. You held my quay, Duc. I can hold a telephone.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "hy_pascal_holm#5",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "“What did she say?”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "hy_pascal_holm#6",
+     "wer": "Pascal",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "I have it here. T, A, K, K. The nurse says it means thank you. [sigh] Then she threw the yoghurt, though, so I don't know.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "hy_pascal_holm#7",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "“Tell her Frankfurt says get well.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "hy_pascal_holm#8",
+     "wer": "Pascal",
+     "gefuehl": "joy",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Frankfurt. [laugh] I will. I'll say it exactly like that, and I'll stand well back.",
+     "vertont": true,
+     "notiz": ""
+    }
+   ]
+  },
+  {
+   "titel": "g1_pascal_telefon · The Town Hall Telephone (neu, Tag nach „Forty Minutes“)",
+   "items": [
+    {
+     "key": "g1_pascal_telefon#0",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "Sunday. Lola comes down the town hall steps with red eyes and a huge grin, and Jana comes down behind her, holding a biscuit in each hand. It turns out the town hall has an old telephone with a real wire. The deputy mayor left it on his desk with a plate of biscuits, and then he went out for an hour.",
+     "vertont": false,
+     "notiz": "Pascal ist nicht da, die Crew erzählt von ihm. So liebt ihn auch die Crew, bevor er sie verrät. Wirkung: Moral +1, Lola und Jana etwas Vertrauen."
+    },
+    {
+     "key": "g1_pascal_telefon#1",
+     "wer": "Lola",
+     "gefuehl": "joy",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[sniff] Boss, that man! He asked me what Nan's name was before I'd even sat down! I was on for an hour and ten and she didn't ring the coast guard once!",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_pascal_telefon#2",
+     "wer": "Jana",
+     "gefuehl": "excitement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[gasp] He says Mama can ring back on it, Sir, any Sunday, and it's free because of you. Because of the quay. I don't know what to do. Sorry. Should I write him a letter?",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_pascal_telefon#3",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "“Write him a letter.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_pascal_telefon#4",
+     "wer": "Jana",
+     "gefuehl": "joy",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Okay! Yes! [laugh] Lola, how do you spell grateful?",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_pascal_telefon#5",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Takes one of Jana's biscuits. “Nobody has ever left me biscuits.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_pascal_telefon#6",
+     "wer": "Lola",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[laugh] Mate, get in line. I looked in all his drawers for more. They're locked.",
+     "vertont": true,
+     "notiz": ""
+    }
+   ]
+  },
+  {
+   "titel": "g1_pascal_ricci · Eleven Purses (neu, nach Ricci Stufe 3)",
+   "items": [
+    {
+     "key": "g1_pascal_ricci#0",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "Pascal finds you outside Alva's, a list in one hand and a small wooden box in the other. Word has gone round that the Ricci brothers have stopped working the harbour, and that their big cousin is walking strangely.",
+     "vertont": false,
+     "notiz": "Dein Wunsch: Dank für die Gauner. Geschenk: Jade für Terremoto, dazu Ruf +1. Option 2 macht die Tat persönlich. Balance prüfe ich noch mit Items, weil der Stein früh kommt."
+    },
+    {
+     "key": "g1_pascal_ricci#1",
+     "wer": "Pascal",
+     "gefuehl": "joy",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Duc. Eleven purses this summer, one wedding ring and Petru's tobacco, and the tobacco was the one that frightened me. [laugh] And now, nothing, for days. People are leaving their bags on the chairs again.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_pascal_ricci#2",
+     "wer": "Pascal",
+     "gefuehl": "gratitude",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "The town can't pay you, you've seen the town. But this has been in the safe since before my time. A Genoese captain left it to settle a bar bill, and all it has ever done is sit there.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_pascal_ricci#3",
+     "wer": "Pascal",
+     "gefuehl": "caring",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Your engineer says she can put it in that bat of yours. I didn't understand one word she said, I just nodded. [sigh] Please take it. It's a small thing, for what this village owes you.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_pascal_ricci#4",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Opens the box. A green stone, cool in the hand. “Pascal, this is worth real money.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_pascal_ricci#5",
+     "wer": "Pascal",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Probably. [chuckle] Don't tell Madame, she'd make it into a fountain.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_pascal_ricci#6",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "“It was three idiots with a bag.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_pascal_ricci#7",
+     "wer": "Pascal",
+     "gefuehl": "sadness",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "To you, Duc. To Madame Paoli it was her husband's ring, and he has been dead nine years. [sigh] She got it back on Tuesday. She wants to feed you.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_pascal_ricci#8",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "“Tell them they're welcome.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_pascal_ricci#9",
+     "wer": "Pascal",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Tell them yourself. They keep buying you drinks at Alva's, and you keep not being there. [chuckle] Petru has drunk three of them for you.",
+     "vertont": true,
+     "notiz": ""
+    }
+   ]
+  },
+  {
+   "titel": "g1_mina_post · Special Delivery (neu, Tag 3, Hafen)",
+   "items": [
+    {
+     "key": "g1_mina_post#0",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "An old Vespa comes down the harbour steps. Not the road, the steps. It stops with the front wheel ten centimetres from your shoe. On it sits a young woman in a pink rain jacket and a pink helmet, already holding out a handful of envelopes.",
+     "vertont": false,
+     "notiz": "Minas Auftritt. Sie nennt Duc „Yacht“. Der Monaco-Witz liegt laut Story vor Megans Telefonat und lenkt erst auf Megan. Elsa schreibt den ersten Strafzettel."
+    },
+    {
+     "key": "g1_mina_post#1",
+     "wer": "Mina",
+     "gefuehl": "excitement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "You're the yacht! Hi, Yacht! Three bills, one letter from a bank and one love letter. [laugh] No, I don't read them. I just know. Love letters are always on the good paper.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_mina_post#2",
+     "wer": "Mina",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "These ones are from Monaco, that's your boss, yes? Funny, the deputy mayor gets more post from Monaco than you do. [chuckle] It must be the hat.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_mina_post#3",
+     "wer": "Elsa",
+     "gefuehl": "annoyance",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Mina Orsoni. Those are stairs. I have told you what stairs are. [sigh] Thirty euros.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_mina_post#4",
+     "wer": "Mina",
+     "gefuehl": "surprise",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[gasp] Not agaaaain! Elsa, I was going slowly, I was only going slowly downwards!",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_mina_post#5",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Looks at the wheel, then at his shoe. “You nearly killed me.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_mina_post#6",
+     "wer": "Mina",
+     "gefuehl": "joy",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Nearly! Ask anybody, I've never hit a person. [laugh] Two goats and a priest, but the priest was standing in the road.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_mina_post#7",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Holds out five euros. “Who's the love letter for?”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_mina_post#8",
+     "wer": "Mina",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[chuckle] Five euros says it isn't for you. Ten euros says I saw nothing, and I'm very expensive when I see nothing.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_mina_post#9",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "“Elsa, let me pay it. She brought my post.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_mina_post#10",
+     "wer": "Elsa",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "You can't, First Officer. [clear throat] She would only do it again, and then I'd have to be nice to you as well.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_mina_post#11",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "“Slow down, kid.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_mina_post#12",
+     "wer": "Mina",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Kid? [laugh] I'm twenty-four! I have a licence and everything. Well. I have a licence.",
+     "vertont": true,
+     "notiz": ""
+    }
+   ]
+  },
+  {
+   "titel": "g1_casanova_morgen · Five in the Morning (neu, Tag 4–6)",
+   "items": [
+    {
+     "key": "g1_casanova_morgen#0",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "You can't sleep, so you walk up through the village at five in the morning. The piazza is dark. At the top of the town hall steps Madame Casanova stands in a dressing gown and rubber boots, holding a stack of cards. Her only audience is Kevin, on the edge of the fountain.",
+     "vertont": false,
+     "notiz": "Ihre erste Szene ohne Publikum. Geändert gegenüber dem Wiki: Sie WEISS, dass Pascal der Einzige ist, der klatscht. Dadurch trifft es an Tag 21 viel härter, wenn er nicht klatscht."
+    },
+    {
+     "key": "g1_casanova_morgen#1",
+     "wer": "Casanova",
+     "gefuehl": "nervousness",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "People of Cala d'Orsu. [clear throat] No. Friends. In this, our hour of… no. Kevin, you are not even trying.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_casanova_morgen#2",
+     "wer": "Casanova",
+     "gefuehl": "embarrassment",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Monsieur. You saw nothing. This is a mayor inspecting her steps.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_casanova_morgen#3",
+     "wer": "Casanova",
+     "gefuehl": "sadness",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "My father built these, you know. He could fill this square just by coming out to buy cigarettes. [sigh] I need a cannon.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_casanova_morgen#4",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Sits down on the cold step. “Read me the one you're working on.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_casanova_morgen#5",
+     "wer": "Casanova",
+     "gefuehl": "love",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[clear throat] It's very short. “Thank you for coming.” That is all of it. I have been trying to give that speech for years, Monsieur, and I always add something.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_casanova_morgen#6",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Claps slowly, alone, in the dark.",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_casanova_morgen#7",
+     "wer": "Casanova",
+     "gefuehl": "sadness",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[sniff] Oh, don't. Pascal does that. He thinks I don't know that he's the only one.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_casanova_morgen#8",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Says nothing and walks on, so she can keep going.",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_casanova_morgen#9",
+     "wer": "Casanova",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[clear throat] People of Cala d'Orsu. Kevin, one more time.",
+     "vertont": true,
+     "notiz": ""
+    }
+   ]
+  },
+  {
+   "titel": "gv_casanova_megan · Every Telephone in Corsica (neu, Tag 5–6, Megan an Bord)",
+   "items": [
+    {
+     "key": "gv_casanova_megan#0",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "Madame Casanova has come aboard with a sash, a photographer and a chart of the bay. Megan is here for one night and has no time for any of it. Four minutes later they are bent over the same chart, and neither of them wants to be the first to say she is enjoying herself.",
+     "vertont": false,
+     "notiz": "Ihre erste gemeinsame Szene, vorher null. Beim zweiten Durchlauf bitter: Megan soll genau diese Bucht verkaufen. Pascal ist laut Story nicht dabei."
+    },
+    {
+     "key": "gv_casanova_megan#1",
+     "wer": "Casanova",
+     "gefuehl": "excitement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Here, the yacht, every light on! Here, the cannon! [gasp] Madame, when it fires, every telephone in Corsica will point at this bay!",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "gv_casanova_megan#2",
+     "wer": "Megan",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Every telephone in Corsica. Go on. [clear throat] I have investors who like a nice view, mind. Could your people stand a wee bit further to the left?",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "gv_casanova_megan#3",
+     "wer": "Casanova",
+     "gefuehl": "pride",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Madame! [gasp] My people are the view!",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "gv_casanova_megan#4",
+     "wer": "Megan",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "You would do very well in my business. [chuckle] That's not a compliment, it's a warning.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "gv_casanova_megan#5",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "“The village stays in the picture.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "gv_casanova_megan#6",
+     "wer": "Casanova",
+     "gefuehl": "joy",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Monsieur! Write that down! [laugh] No, I will write it down, you would leave out the adjectives.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "gv_casanova_megan#7",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "“The investors are paying for the fuel.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "gv_casanova_megan#8",
+     "wer": "Megan",
+     "gefuehl": "approval",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Thank you, First Officer. [chuckle] Somebody on this boat can count.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "gv_casanova_megan#9",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Puts a glass on the chart. “Stand the investors on the quay with everybody else, and give them a drink.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "gv_casanova_megan#10",
+     "wer": "Megan",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Aye. All right. That's actually not terrible. [sigh] Don't tell her I said so.",
+     "vertont": true,
+     "notiz": ""
+    }
+   ]
+  },
+  {
+   "titel": "kl_casanova_auftrag · The Mayor's Office (ändern)",
+   "items": [
+    {
+     "key": "kl_casanova_auftrag#0",
+     "wer": "Casanova",
+     "gefuehl": "annoyance",
+     "feld": "Rede",
+     "alt": "Nobody I trust. Petru says the mountain will speak when it wants to. I'm tired of waiting for mountains.",
+     "neu": "Nobody. Pascal, of course, Pascal knows everything. Nobody else I trust. Petru says the mountain will speak when it wants to. [sigh] I'm tired of waiting for mountains.",
+     "vertont": true,
+     "notiz": "Geändert wie von Story vorgeschlagen. Die Tür schließt sie weiter selbst."
+    }
+   ]
+  },
+  {
+   "titel": "kl_pascal_tuer · In the Corridor (neu, nach dem Büro)",
+   "items": [
+    {
+     "key": "kl_pascal_tuer#0",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "When you come out, Pascal is standing in the corridor with his hat in his hands, as if he had only just arrived. He doesn't ask what she said. He gives you a canvas bag: bandages, a flask of coffee, and a sandwich wrapped in the town's official paper.",
+     "vertont": false,
+     "notiz": "Geschenk: Bandage, Espresso. Er sagt selbst, dass er dem Pfarrer abgeraten hat. Das klingt jetzt fürsorglich, in Akt 3 nicht mehr."
+    },
+    {
+     "key": "kl_pascal_tuer#1",
+     "wer": "Pascal",
+     "gefuehl": "caring",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[sigh] You're going up, then. I thought you would. I told the priest to stay down here, and he listened to me. I'm glad you are not that kind of man.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "kl_pascal_tuer#2",
+     "wer": "Pascal",
+     "gefuehl": "gratitude",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Bring yourself back, Duc. I mean it, we've only just got you. This village owes you enough already, and I don't want to owe you more.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "kl_pascal_tuer#3",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Takes the bag. “Keep the coffee hot.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "kl_pascal_tuer#4",
+     "wer": "Pascal",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Always. [chuckle] Leave it with me.",
+     "vertont": true,
+     "notiz": ""
+    }
+   ]
+  },
+  {
+   "titel": "kl_mina_post · Three Weeks of Post (neu, vor dem Aufstieg)",
+   "items": [
+    {
+     "key": "kl_mina_post#0",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "At the bottom of the town hall steps a Vespa is waiting with its engine running. Mina isn't grinning, and it makes her look like someone else. On the seat is a bundle of letters tied with a rubber band, three weeks thick.",
+     "vertont": false,
+     "notiz": "Ihr einziger ernster Moment in Akt 1. Auszahlung in Phase 3: Nonna und „Did they read them?“"
+    },
+    {
+     "key": "kl_mina_post#1",
+     "wer": "Mina",
+     "gefuehl": "sadness",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "You're going up to San Martinu. Don't look at me like that, Yacht, the whole street knows. [sigh] I go every Thursday, and Nonna gives me cake. But since the animals came I can't get past the bridge.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "kl_mina_post#2",
+     "wer": "Mina",
+     "gefuehl": "caring",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "So take them, please. Some of these are for the brothers, and they'll be wanting them.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "kl_mina_post#3",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Takes the letters. “I'll bring you back some cake.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "kl_mina_post#4",
+     "wer": "Mina",
+     "gefuehl": "optimism",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[sniff] You'd better. [chuckle] The chestnut one. Not the lemon, the lemon is a punishment.",
+     "vertont": true,
+     "notiz": ""
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1302 @@
+{
+ "id": "kampf_nachholen_posen_2026-10-22",
+ "titel": "Kampf-Sprites: alle Posen",
+ "hinweis": "Alle Posen des Volllaufs. Oben 'Rest OK' setzt alles Unmarkierte auf OK – also erst die schlechten mit ✗ Neu + Notiz markieren, dann 'Rest OK'. Bei Maxwell auf die orange Spiegelbrille achten.",
+ "items": [
+  {
+   "id": "YasinDrone/attack",
+   "titel": "Yasin – attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\attack.png"
+  },
+  {
+   "id": "YasinDrone/defeated",
+   "titel": "Yasin – defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\defeated.png"
+  },
+  {
+   "id": "YasinDrone/enraged",
+   "titel": "Yasin – enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\enraged.png"
+  },
+  {
+   "id": "YasinDrone/flee",
+   "titel": "Yasin – flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\flee.png"
+  },
+  {
+   "id": "YasinDrone/guard",
+   "titel": "Yasin – guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\guard.png"
+  },
+  {
+   "id": "YasinDrone/heavy_attack",
+   "titel": "Yasin – heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\heavy_attack.png"
+  },
+  {
+   "id": "YasinDrone/heavy_windup",
+   "titel": "Yasin – heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\heavy_windup.png"
+  },
+  {
+   "id": "YasinDrone/hurt",
+   "titel": "Yasin – hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\hurt.png"
+  },
+  {
+   "id": "YasinDrone/idle",
+   "titel": "Yasin – idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\idle.png"
+  },
+  {
+   "id": "YasinDrone/surrender",
+   "titel": "Yasin – surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\surrender.png"
+  },
+  {
+   "id": "YasinDrone/victory",
+   "titel": "Yasin – victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\victory.png"
+  },
+  {
+   "id": "YasinDrone/weakened",
+   "titel": "Yasin – weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\weakened.png"
+  },
+  {
+   "id": "YasinDrone/windup",
+   "titel": "Yasin – windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\windup.png"
+  },
+  {
+   "id": "MaxwellSteward/attack",
+   "titel": "Maxwell (mit oranger Spiegelbrille?) – attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\attack.png"
+  },
+  {
+   "id": "MaxwellSteward/defeated",
+   "titel": "Maxwell (mit oranger Spiegelbrille?) – defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\defeated.png"
+  },
+  {
+   "id": "MaxwellSteward/enraged",
+   "titel": "Maxwell (mit oranger Spiegelbrille?) – enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\enraged.png"
+  },
+  {
+   "id": "MaxwellSteward/flee",
+   "titel": "Maxwell (mit oranger Spiegelbrille?) – flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\flee.png"
+  },
+  {
+   "id": "MaxwellSteward/guard",
+   "titel": "Maxwell (mit oranger Spiegelbrille?) – guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\guard.png"
+  },
+  {
+   "id": "MaxwellSteward/heavy_attack",
+   "titel": "Maxwell (mit oranger Spiegelbrille?) – heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\heavy_attack.png"
+  },
+  {
+   "id": "MaxwellSteward/heavy_windup",
+   "titel": "Maxwell (mit oranger Spiegelbrille?) – heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\heavy_windup.png"
+  },
+  {
+   "id": "MaxwellSteward/hurt",
+   "titel": "Maxwell (mit oranger Spiegelbrille?) – hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\hurt.png"
+  },
+  {
+   "id": "MaxwellSteward/idle",
+   "titel": "Maxwell (mit oranger Spiegelbrille?) – idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\idle.png"
+  },
+  {
+   "id": "MaxwellSteward/surrender",
+   "titel": "Maxwell (mit oranger Spiegelbrille?) – surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\surrender.png"
+  },
+  {
+   "id": "MaxwellSteward/victory",
+   "titel": "Maxwell (mit oranger Spiegelbrille?) – victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\victory.png"
+  },
+  {
+   "id": "MaxwellSteward/weakened",
+   "titel": "Maxwell (mit oranger Spiegelbrille?) – weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\weakened.png"
+  },
+  {
+   "id": "MaxwellSteward/windup",
+   "titel": "Maxwell (mit oranger Spiegelbrille?) – windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\windup.png"
+  },
+  {
+   "id": "Alon/attack",
+   "titel": "Alon – attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\attack.png"
+  },
+  {
+   "id": "Alon/defeated",
+   "titel": "Alon – defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\defeated.png"
+  },
+  {
+   "id": "Alon/enraged",
+   "titel": "Alon – enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\enraged.png"
+  },
+  {
+   "id": "Alon/flee",
+   "titel": "Alon – flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\flee.png"
+  },
+  {
+   "id": "Alon/guard",
+   "titel": "Alon – guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\guard.png"
+  },
+  {
+   "id": "Alon/heavy_attack",
+   "titel": "Alon – heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\heavy_attack.png"
+  },
+  {
+   "id": "Alon/heavy_windup",
+   "titel": "Alon – heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\heavy_windup.png"
+  },
+  {
+   "id": "Alon/hurt",
+   "titel": "Alon – hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\hurt.png"
+  },
+  {
+   "id": "Alon/idle",
+   "titel": "Alon – idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\idle.png"
+  },
+  {
+   "id": "Alon/surrender",
+   "titel": "Alon – surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\surrender.png"
+  },
+  {
+   "id": "Alon/victory",
+   "titel": "Alon – victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\victory.png"
+  },
+  {
+   "id": "Alon/weakened",
+   "titel": "Alon – weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\weakened.png"
+  },
+  {
+   "id": "Alon/windup",
+   "titel": "Alon – windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\windup.png"
+  },
+  {
+   "id": "WildschweinKlein/attack",
+   "titel": "Wildschwein klein – attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKlein\\attack.png"
+  },
+  {
+   "id": "WildschweinKlein/death",
+   "titel": "Wildschwein klein – death",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKlein\\death.png"
+  },
+  {
+   "id": "WildschweinKlein/defeated",
+   "titel": "Wildschwein klein – defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKlein\\defeated.png"
+  },
+  {
+   "id": "WildschweinKlein/enraged",
+   "titel": "Wildschwein klein – enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKlein\\enraged.png"
+  },
+  {
+   "id": "WildschweinKlein/flee",
+   "titel": "Wildschwein klein – flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKlein\\flee.png"
+  },
+  {
+   "id": "WildschweinKlein/guard",
+   "titel": "Wildschwein klein – guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKlein\\guard.png"
+  },
+  {
+   "id": "WildschweinKlein/heavy_attack",
+   "titel": "Wildschwein klein – heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKlein\\heavy_attack.png"
+  },
+  {
+   "id": "WildschweinKlein/heavy_windup",
+   "titel": "Wildschwein klein – heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKlein\\heavy_windup.png"
+  },
+  {
+   "id": "WildschweinKlein/hurt",
+   "titel": "Wildschwein klein – hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKlein\\hurt.png"
+  },
+  {
+   "id": "WildschweinKlein/idle",
+   "titel": "Wildschwein klein – idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKlein\\idle.png"
+  },
+  {
+   "id": "WildschweinKlein/surrender",
+   "titel": "Wildschwein klein – surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKlein\\surrender.png"
+  },
+  {
+   "id": "WildschweinKlein/victory",
+   "titel": "Wildschwein klein – victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKlein\\victory.png"
+  },
+  {
+   "id": "WildschweinKlein/weakened",
+   "titel": "Wildschwein klein – weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKlein\\weakened.png"
+  },
+  {
+   "id": "WildschweinKlein/windup",
+   "titel": "Wildschwein klein – windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKlein\\windup.png"
+  },
+  {
+   "id": "Wildschwein/attack",
+   "titel": "Wildschwein – attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wildschwein\\attack.png"
+  },
+  {
+   "id": "Wildschwein/death",
+   "titel": "Wildschwein – death",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wildschwein\\death.png"
+  },
+  {
+   "id": "Wildschwein/defeated",
+   "titel": "Wildschwein – defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wildschwein\\defeated.png"
+  },
+  {
+   "id": "Wildschwein/enraged",
+   "titel": "Wildschwein – enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wildschwein\\enraged.png"
+  },
+  {
+   "id": "Wildschwein/flee",
+   "titel": "Wildschwein – flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wildschwein\\flee.png"
+  },
+  {
+   "id": "Wildschwein/guard",
+   "titel": "Wildschwein – guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wildschwein\\guard.png"
+  },
+  {
+   "id": "Wildschwein/heavy_attack",
+   "titel": "Wildschwein – heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wildschwein\\heavy_attack.png"
+  },
+  {
+   "id": "Wildschwein/heavy_windup",
+   "titel": "Wildschwein – heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wildschwein\\heavy_windup.png"
+  },
+  {
+   "id": "Wildschwein/hurt",
+   "titel": "Wildschwein – hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wildschwein\\hurt.png"
+  },
+  {
+   "id": "Wildschwein/idle",
+   "titel": "Wildschwein – idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wildschwein\\idle.png"
+  },
+  {
+   "id": "Wildschwein/surrender",
+   "titel": "Wildschwein – surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wildschwein\\surrender.png"
+  },
+  {
+   "id": "Wildschwein/victory",
+   "titel": "Wildschwein – victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wildschwein\\victory.png"
+  },
+  {
+   "id": "Wildschwein/weakened",
+   "titel": "Wildschwein – weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wildschwein\\weakened.png"
+  },
+  {
+   "id": "Wildschwein/windup",
+   "titel": "Wildschwein – windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wildschwein\\windup.png"
+  },
+  {
+   "id": "WildschweinKeiler/attack",
+   "titel": "Keiler – attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKeiler\\attack.png"
+  },
+  {
+   "id": "WildschweinKeiler/death",
+   "titel": "Keiler – death",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKeiler\\death.png"
+  },
+  {
+   "id": "WildschweinKeiler/defeated",
+   "titel": "Keiler – defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKeiler\\defeated.png"
+  },
+  {
+   "id": "WildschweinKeiler/enraged",
+   "titel": "Keiler – enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKeiler\\enraged.png"
+  },
+  {
+   "id": "WildschweinKeiler/flee",
+   "titel": "Keiler – flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKeiler\\flee.png"
+  },
+  {
+   "id": "WildschweinKeiler/guard",
+   "titel": "Keiler – guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKeiler\\guard.png"
+  },
+  {
+   "id": "WildschweinKeiler/heavy_attack",
+   "titel": "Keiler – heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKeiler\\heavy_attack.png"
+  },
+  {
+   "id": "WildschweinKeiler/heavy_windup",
+   "titel": "Keiler – heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKeiler\\heavy_windup.png"
+  },
+  {
+   "id": "WildschweinKeiler/hurt",
+   "titel": "Keiler – hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKeiler\\hurt.png"
+  },
+  {
+   "id": "WildschweinKeiler/idle",
+   "titel": "Keiler – idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKeiler\\idle.png"
+  },
+  {
+   "id": "WildschweinKeiler/surrender",
+   "titel": "Keiler – surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKeiler\\surrender.png"
+  },
+  {
+   "id": "WildschweinKeiler/victory",
+   "titel": "Keiler – victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKeiler\\victory.png"
+  },
+  {
+   "id": "WildschweinKeiler/weakened",
+   "titel": "Keiler – weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKeiler\\weakened.png"
+  },
+  {
+   "id": "WildschweinKeiler/windup",
+   "titel": "Keiler – windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKeiler\\windup.png"
+  },
+  {
+   "id": "RatAlpha/attack",
+   "titel": "Rat (Alpha) – attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\RatAlpha\\attack.png"
+  },
+  {
+   "id": "RatAlpha/death",
+   "titel": "Rat (Alpha) – death",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\RatAlpha\\death.png"
+  },
+  {
+   "id": "RatAlpha/defeated",
+   "titel": "Rat (Alpha) – defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\RatAlpha\\defeated.png"
+  },
+  {
+   "id": "RatAlpha/enraged",
+   "titel": "Rat (Alpha) – enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\RatAlpha\\enraged.png"
+  },
+  {
+   "id": "RatAlpha/flee",
+   "titel": "Rat (Alpha) – flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\RatAlpha\\flee.png"
+  },
+  {
+   "id": "RatAlpha/guard",
+   "titel": "Rat (Alpha) – guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\RatAlpha\\guard.png"
+  },
+  {
+   "id": "RatAlpha/heavy_attack",
+   "titel": "Rat (Alpha) – heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\RatAlpha\\heavy_attack.png"
+  },
+  {
+   "id": "RatAlpha/heavy_windup",
+   "titel": "Rat (Alpha) – heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\RatAlpha\\heavy_windup.png"
+  },
+  {
+   "id": "RatAlpha/hurt",
+   "titel": "Rat (Alpha) – hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\RatAlpha\\hurt.png"
+  },
+  {
+   "id": "RatAlpha/idle",
+   "titel": "Rat (Alpha) – idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\RatAlpha\\idle.png"
+  },
+  {
+   "id": "RatAlpha/surrender",
+   "titel": "Rat (Alpha) – surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\RatAlpha\\surrender.png"
+  },
+  {
+   "id": "RatAlpha/victory",
+   "titel": "Rat (Alpha) – victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\RatAlpha\\victory.png"
+  },
+  {
+   "id": "RatAlpha/weakened",
+   "titel": "Rat (Alpha) – weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\RatAlpha\\weakened.png"
+  },
+  {
+   "id": "RatAlpha/windup",
+   "titel": "Rat (Alpha) – windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\RatAlpha\\windup.png"
+  },
+  {
+   "id": "DogAlpha/attack",
+   "titel": "Dog (Alpha) – attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DogAlpha\\attack.png"
+  },
+  {
+   "id": "DogAlpha/death",
+   "titel": "Dog (Alpha) – death",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DogAlpha\\death.png"
+  },
+  {
+   "id": "DogAlpha/defeated",
+   "titel": "Dog (Alpha) – defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DogAlpha\\defeated.png"
+  },
+  {
+   "id": "DogAlpha/enraged",
+   "titel": "Dog (Alpha) – enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DogAlpha\\enraged.png"
+  },
+  {
+   "id": "DogAlpha/flee",
+   "titel": "Dog (Alpha) – flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DogAlpha\\flee.png"
+  },
+  {
+   "id": "DogAlpha/guard",
+   "titel": "Dog (Alpha) – guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DogAlpha\\guard.png"
+  },
+  {
+   "id": "DogAlpha/heavy_attack",
+   "titel": "Dog (Alpha) – heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DogAlpha\\heavy_attack.png"
+  },
+  {
+   "id": "DogAlpha/heavy_windup",
+   "titel": "Dog (Alpha) – heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DogAlpha\\heavy_windup.png"
+  },
+  {
+   "id": "DogAlpha/hurt",
+   "titel": "Dog (Alpha) – hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DogAlpha\\hurt.png"
+  },
+  {
+   "id": "DogAlpha/idle",
+   "titel": "Dog (Alpha) – idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DogAlpha\\idle.png"
+  },
+  {
+   "id": "DogAlpha/surrender",
+   "titel": "Dog (Alpha) – surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DogAlpha\\surrender.png"
+  },
+  {
+   "id": "DogAlpha/victory",
+   "titel": "Dog (Alpha) – victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DogAlpha\\victory.png"
+  },
+  {
+   "id": "DogAlpha/weakened",
+   "titel": "Dog (Alpha) – weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DogAlpha\\weakened.png"
+  },
+  {
+   "id": "DogAlpha/windup",
+   "titel": "Dog (Alpha) – windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DogAlpha\\windup.png"
+  },
+  {
+   "id": "SeagullAlpha/attack",
+   "titel": "Seagull (Alpha) – attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SeagullAlpha\\attack.png"
+  },
+  {
+   "id": "SeagullAlpha/death",
+   "titel": "Seagull (Alpha) – death",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SeagullAlpha\\death.png"
+  },
+  {
+   "id": "SeagullAlpha/defeated",
+   "titel": "Seagull (Alpha) – defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SeagullAlpha\\defeated.png"
+  },
+  {
+   "id": "SeagullAlpha/enraged",
+   "titel": "Seagull (Alpha) – enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SeagullAlpha\\enraged.png"
+  },
+  {
+   "id": "SeagullAlpha/flee",
+   "titel": "Seagull (Alpha) – flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SeagullAlpha\\flee.png"
+  },
+  {
+   "id": "SeagullAlpha/guard",
+   "titel": "Seagull (Alpha) – guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SeagullAlpha\\guard.png"
+  },
+  {
+   "id": "SeagullAlpha/heavy_attack",
+   "titel": "Seagull (Alpha) – heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SeagullAlpha\\heavy_attack.png"
+  },
+  {
+   "id": "SeagullAlpha/heavy_windup",
+   "titel": "Seagull (Alpha) – heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SeagullAlpha\\heavy_windup.png"
+  },
+  {
+   "id": "SeagullAlpha/hurt",
+   "titel": "Seagull (Alpha) – hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SeagullAlpha\\hurt.png"
+  },
+  {
+   "id": "SeagullAlpha/idle",
+   "titel": "Seagull (Alpha) – idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SeagullAlpha\\idle.png"
+  },
+  {
+   "id": "SeagullAlpha/surrender",
+   "titel": "Seagull (Alpha) – surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SeagullAlpha\\surrender.png"
+  },
+  {
+   "id": "SeagullAlpha/victory",
+   "titel": "Seagull (Alpha) – victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SeagullAlpha\\victory.png"
+  },
+  {
+   "id": "SeagullAlpha/weakened",
+   "titel": "Seagull (Alpha) – weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SeagullAlpha\\weakened.png"
+  },
+  {
+   "id": "SeagullAlpha/windup",
+   "titel": "Seagull (Alpha) – windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SeagullAlpha\\windup.png"
+  },
+  {
+   "id": "PigeonAlpha/attack",
+   "titel": "Pigeon (Alpha) – attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PigeonAlpha\\attack.png"
+  },
+  {
+   "id": "PigeonAlpha/death",
+   "titel": "Pigeon (Alpha) – death",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PigeonAlpha\\death.png"
+  },
+  {
+   "id": "PigeonAlpha/defeated",
+   "titel": "Pigeon (Alpha) – defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PigeonAlpha\\defeated.png"
+  },
+  {
+   "id": "PigeonAlpha/enraged",
+   "titel": "Pigeon (Alpha) – enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PigeonAlpha\\enraged.png"
+  },
+  {
+   "id": "PigeonAlpha/flee",
+   "titel": "Pigeon (Alpha) – flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PigeonAlpha\\flee.png"
+  },
+  {
+   "id": "PigeonAlpha/guard",
+   "titel": "Pigeon (Alpha) – guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PigeonAlpha\\guard.png"
+  },
+  {
+   "id": "PigeonAlpha/heavy_attack",
+   "titel": "Pigeon (Alpha) – heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PigeonAlpha\\heavy_attack.png"
+  },
+  {
+   "id": "PigeonAlpha/heavy_windup",
+   "titel": "Pigeon (Alpha) – heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PigeonAlpha\\heavy_windup.png"
+  },
+  {
+   "id": "PigeonAlpha/hurt",
+   "titel": "Pigeon (Alpha) – hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PigeonAlpha\\hurt.png"
+  },
+  {
+   "id": "PigeonAlpha/idle",
+   "titel": "Pigeon (Alpha) – idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PigeonAlpha\\idle.png"
+  },
+  {
+   "id": "PigeonAlpha/surrender",
+   "titel": "Pigeon (Alpha) – surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PigeonAlpha\\surrender.png"
+  },
+  {
+   "id": "PigeonAlpha/victory",
+   "titel": "Pigeon (Alpha) – victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PigeonAlpha\\victory.png"
+  },
+  {
+   "id": "PigeonAlpha/weakened",
+   "titel": "Pigeon (Alpha) – weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PigeonAlpha\\weakened.png"
+  },
+  {
+   "id": "PigeonAlpha/windup",
+   "titel": "Pigeon (Alpha) – windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PigeonAlpha\\windup.png"
+  },
+  {
+   "id": "BatAlpha/attack",
+   "titel": "Bat (Alpha) – attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BatAlpha\\attack.png"
+  },
+  {
+   "id": "BatAlpha/death",
+   "titel": "Bat (Alpha) – death",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BatAlpha\\death.png"
+  },
+  {
+   "id": "BatAlpha/defeated",
+   "titel": "Bat (Alpha) – defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BatAlpha\\defeated.png"
+  },
+  {
+   "id": "BatAlpha/enraged",
+   "titel": "Bat (Alpha) – enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BatAlpha\\enraged.png"
+  },
+  {
+   "id": "BatAlpha/flee",
+   "titel": "Bat (Alpha) – flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BatAlpha\\flee.png"
+  },
+  {
+   "id": "BatAlpha/guard",
+   "titel": "Bat (Alpha) – guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BatAlpha\\guard.png"
+  },
+  {
+   "id": "BatAlpha/heavy_attack",
+   "titel": "Bat (Alpha) – heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BatAlpha\\heavy_attack.png"
+  },
+  {
+   "id": "BatAlpha/heavy_windup",
+   "titel": "Bat (Alpha) – heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BatAlpha\\heavy_windup.png"
+  },
+  {
+   "id": "BatAlpha/hurt",
+   "titel": "Bat (Alpha) – hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BatAlpha\\hurt.png"
+  },
+  {
+   "id": "BatAlpha/idle",
+   "titel": "Bat (Alpha) – idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BatAlpha\\idle.png"
+  },
+  {
+   "id": "BatAlpha/surrender",
+   "titel": "Bat (Alpha) – surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BatAlpha\\surrender.png"
+  },
+  {
+   "id": "BatAlpha/victory",
+   "titel": "Bat (Alpha) – victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BatAlpha\\victory.png"
+  },
+  {
+   "id": "BatAlpha/weakened",
+   "titel": "Bat (Alpha) – weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BatAlpha\\weakened.png"
+  },
+  {
+   "id": "BatAlpha/windup",
+   "titel": "Bat (Alpha) – windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BatAlpha\\windup.png"
+  },
+  {
+   "id": "SnakeAlpha/attack",
+   "titel": "Snake (Alpha) – attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SnakeAlpha\\attack.png"
+  },
+  {
+   "id": "SnakeAlpha/death",
+   "titel": "Snake (Alpha) – death",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SnakeAlpha\\death.png"
+  },
+  {
+   "id": "SnakeAlpha/defeated",
+   "titel": "Snake (Alpha) – defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SnakeAlpha\\defeated.png"
+  },
+  {
+   "id": "SnakeAlpha/enraged",
+   "titel": "Snake (Alpha) – enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SnakeAlpha\\enraged.png"
+  },
+  {
+   "id": "SnakeAlpha/flee",
+   "titel": "Snake (Alpha) – flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SnakeAlpha\\flee.png"
+  },
+  {
+   "id": "SnakeAlpha/guard",
+   "titel": "Snake (Alpha) – guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SnakeAlpha\\guard.png"
+  },
+  {
+   "id": "SnakeAlpha/heavy_attack",
+   "titel": "Snake (Alpha) – heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SnakeAlpha\\heavy_attack.png"
+  },
+  {
+   "id": "SnakeAlpha/heavy_windup",
+   "titel": "Snake (Alpha) – heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SnakeAlpha\\heavy_windup.png"
+  },
+  {
+   "id": "SnakeAlpha/hurt",
+   "titel": "Snake (Alpha) – hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SnakeAlpha\\hurt.png"
+  },
+  {
+   "id": "SnakeAlpha/idle",
+   "titel": "Snake (Alpha) – idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SnakeAlpha\\idle.png"
+  },
+  {
+   "id": "SnakeAlpha/surrender",
+   "titel": "Snake (Alpha) – surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SnakeAlpha\\surrender.png"
+  },
+  {
+   "id": "SnakeAlpha/victory",
+   "titel": "Snake (Alpha) – victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SnakeAlpha\\victory.png"
+  },
+  {
+   "id": "SnakeAlpha/weakened",
+   "titel": "Snake (Alpha) – weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SnakeAlpha\\weakened.png"
+  },
+  {
+   "id": "SnakeAlpha/windup",
+   "titel": "Snake (Alpha) – windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SnakeAlpha\\windup.png"
+  },
+  {
+   "id": "ApeAlpha/attack",
+   "titel": "Ape (Alpha) – attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\attack.png"
+  },
+  {
+   "id": "ApeAlpha/death",
+   "titel": "Ape (Alpha) – death",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\death.png"
+  },
+  {
+   "id": "ApeAlpha/defeated",
+   "titel": "Ape (Alpha) – defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\defeated.png"
+  },
+  {
+   "id": "ApeAlpha/enraged",
+   "titel": "Ape (Alpha) – enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\enraged.png"
+  },
+  {
+   "id": "ApeAlpha/flee",
+   "titel": "Ape (Alpha) – flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\flee.png"
+  },
+  {
+   "id": "ApeAlpha/guard",
+   "titel": "Ape (Alpha) – guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\guard.png"
+  },
+  {
+   "id": "ApeAlpha/heavy_attack",
+   "titel": "Ape (Alpha) – heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\heavy_attack.png"
+  },
+  {
+   "id": "ApeAlpha/heavy_windup",
+   "titel": "Ape (Alpha) – heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\heavy_windup.png"
+  },
+  {
+   "id": "ApeAlpha/hurt",
+   "titel": "Ape (Alpha) – hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\hurt.png"
+  },
+  {
+   "id": "ApeAlpha/idle",
+   "titel": "Ape (Alpha) – idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\idle.png"
+  },
+  {
+   "id": "ApeAlpha/surrender",
+   "titel": "Ape (Alpha) – surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\surrender.png"
+  },
+  {
+   "id": "ApeAlpha/victory",
+   "titel": "Ape (Alpha) – victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\victory.png"
+  },
+  {
+   "id": "ApeAlpha/weakened",
+   "titel": "Ape (Alpha) – weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\weakened.png"
+  },
+  {
+   "id": "ApeAlpha/windup",
+   "titel": "Ape (Alpha) – windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\windup.png"
+  },
+  {
+   "id": "LionAlpha/attack",
+   "titel": "Lion (Alpha) – attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\attack.png"
+  },
+  {
+   "id": "LionAlpha/death",
+   "titel": "Lion (Alpha) – death",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\death.png"
+  },
+  {
+   "id": "LionAlpha/defeated",
+   "titel": "Lion (Alpha) – defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\defeated.png"
+  },
+  {
+   "id": "LionAlpha/enraged",
+   "titel": "Lion (Alpha) – enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\enraged.png"
+  },
+  {
+   "id": "LionAlpha/flee",
+   "titel": "Lion (Alpha) – flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\flee.png"
+  },
+  {
+   "id": "LionAlpha/guard",
+   "titel": "Lion (Alpha) – guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\guard.png"
+  },
+  {
+   "id": "LionAlpha/heavy_attack",
+   "titel": "Lion (Alpha) – heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\heavy_attack.png"
+  },
+  {
+   "id": "LionAlpha/heavy_windup",
+   "titel": "Lion (Alpha) – heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\heavy_windup.png"
+  },
+  {
+   "id": "LionAlpha/hurt",
+   "titel": "Lion (Alpha) – hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\hurt.png"
+  },
+  {
+   "id": "LionAlpha/idle",
+   "titel": "Lion (Alpha) – idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\idle.png"
+  },
+  {
+   "id": "LionAlpha/surrender",
+   "titel": "Lion (Alpha) – surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\surrender.png"
+  },
+  {
+   "id": "LionAlpha/victory",
+   "titel": "Lion (Alpha) – victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\victory.png"
+  },
+  {
+   "id": "LionAlpha/weakened",
+   "titel": "Lion (Alpha) – weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\weakened.png"
+  },
+  {
+   "id": "LionAlpha/windup",
+   "titel": "Lion (Alpha) – windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\windup.png"
+  },
+  {
+   "id": "SharkAlpha/attack",
+   "titel": "Shark (Alpha) – attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SharkAlpha\\attack.png"
+  },
+  {
+   "id": "SharkAlpha/death",
+   "titel": "Shark (Alpha) – death",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SharkAlpha\\death.png"
+  },
+  {
+   "id": "SharkAlpha/defeated",
+   "titel": "Shark (Alpha) – defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SharkAlpha\\defeated.png"
+  },
+  {
+   "id": "SharkAlpha/enraged",
+   "titel": "Shark (Alpha) – enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SharkAlpha\\enraged.png"
+  },
+  {
+   "id": "SharkAlpha/flee",
+   "titel": "Shark (Alpha) – flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SharkAlpha\\flee.png"
+  },
+  {
+   "id": "SharkAlpha/guard",
+   "titel": "Shark (Alpha) – guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SharkAlpha\\guard.png"
+  },
+  {
+   "id": "SharkAlpha/heavy_attack",
+   "titel": "Shark (Alpha) – heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SharkAlpha\\heavy_attack.png"
+  },
+  {
+   "id": "SharkAlpha/heavy_windup",
+   "titel": "Shark (Alpha) – heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SharkAlpha\\heavy_windup.png"
+  },
+  {
+   "id": "SharkAlpha/hurt",
+   "titel": "Shark (Alpha) – hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SharkAlpha\\hurt.png"
+  },
+  {
+   "id": "SharkAlpha/idle",
+   "titel": "Shark (Alpha) – idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SharkAlpha\\idle.png"
+  },
+  {
+   "id": "SharkAlpha/surrender",
+   "titel": "Shark (Alpha) – surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SharkAlpha\\surrender.png"
+  },
+  {
+   "id": "SharkAlpha/victory",
+   "titel": "Shark (Alpha) – victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SharkAlpha\\victory.png"
+  },
+  {
+   "id": "SharkAlpha/weakened",
+   "titel": "Shark (Alpha) – weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SharkAlpha\\weakened.png"
+  },
+  {
+   "id": "SharkAlpha/windup",
+   "titel": "Shark (Alpha) – windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SharkAlpha\\windup.png"
+  },
+  {
+   "id": "PirateAlpha/attack",
+   "titel": "Pirate (Alpha) – attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PirateAlpha\\attack.png"
+  },
+  {
+   "id": "PirateAlpha/defeated",
+   "titel": "Pirate (Alpha) – defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PirateAlpha\\defeated.png"
+  },
+  {
+   "id": "PirateAlpha/enraged",
+   "titel": "Pirate (Alpha) – enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PirateAlpha\\enraged.png"
+  },
+  {
+   "id": "PirateAlpha/flee",
+   "titel": "Pirate (Alpha) – flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PirateAlpha\\flee.png"
+  },
+  {
+   "id": "PirateAlpha/guard",
+   "titel": "Pirate (Alpha) – guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PirateAlpha\\guard.png"
+  },
+  {
+   "id": "PirateAlpha/heavy_attack",
+   "titel": "Pirate (Alpha) – heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PirateAlpha\\heavy_attack.png"
+  },
+  {
+   "id": "PirateAlpha/heavy_windup",
+   "titel": "Pirate (Alpha) – heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PirateAlpha\\heavy_windup.png"
+  },
+  {
+   "id": "PirateAlpha/hurt",
+   "titel": "Pirate (Alpha) – hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PirateAlpha\\hurt.png"
+  },
+  {
+   "id": "PirateAlpha/idle",
+   "titel": "Pirate (Alpha) – idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PirateAlpha\\idle.png"
+  },
+  {
+   "id": "PirateAlpha/surrender",
+   "titel": "Pirate (Alpha) – surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PirateAlpha\\surrender.png"
+  },
+  {
+   "id": "PirateAlpha/victory",
+   "titel": "Pirate (Alpha) – victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PirateAlpha\\victory.png"
+  },
+  {
+   "id": "PirateAlpha/weakened",
+   "titel": "Pirate (Alpha) – weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PirateAlpha\\weakened.png"
+  },
+  {
+   "id": "PirateAlpha/windup",
+   "titel": "Pirate (Alpha) – windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PirateAlpha\\windup.png"
+  },
+  {
+   "id": "ThiefAlpha/attack",
+   "titel": "Thief (Alpha) – attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefAlpha\\attack.png"
+  },
+  {
+   "id": "ThiefAlpha/defeated",
+   "titel": "Thief (Alpha) – defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefAlpha\\defeated.png"
+  },
+  {
+   "id": "ThiefAlpha/enraged",
+   "titel": "Thief (Alpha) – enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefAlpha\\enraged.png"
+  },
+  {
+   "id": "ThiefAlpha/flee",
+   "titel": "Thief (Alpha) – flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefAlpha\\flee.png"
+  },
+  {
+   "id": "ThiefAlpha/guard",
+   "titel": "Thief (Alpha) – guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefAlpha\\guard.png"
+  },
+  {
+   "id": "ThiefAlpha/heavy_attack",
+   "titel": "Thief (Alpha) – heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefAlpha\\heavy_attack.png"
+  },
+  {
+   "id": "ThiefAlpha/heavy_windup",
+   "titel": "Thief (Alpha) – heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefAlpha\\heavy_windup.png"
+  },
+  {
+   "id": "ThiefAlpha/hurt",
+   "titel": "Thief (Alpha) – hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefAlpha\\hurt.png"
+  },
+  {
+   "id": "ThiefAlpha/idle",
+   "titel": "Thief (Alpha) – idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefAlpha\\idle.png"
+  },
+  {
+   "id": "ThiefAlpha/surrender",
+   "titel": "Thief (Alpha) – surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefAlpha\\surrender.png"
+  },
+  {
+   "id": "ThiefAlpha/victory",
+   "titel": "Thief (Alpha) – victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefAlpha\\victory.png"
+  },
+  {
+   "id": "ThiefAlpha/weakened",
+   "titel": "Thief (Alpha) – weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefAlpha\\weakened.png"
+  },
+  {
+   "id": "ThiefAlpha/windup",
+   "titel": "Thief (Alpha) – windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefAlpha\\windup.png"
+  },
+  {
+   "id": "BruteAlpha/attack",
+   "titel": "Brute (Alpha) – attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BruteAlpha\\attack.png"
+  },
+  {
+   "id": "BruteAlpha/defeated",
+   "titel": "Brute (Alpha) – defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BruteAlpha\\defeated.png"
+  },
+  {
+   "id": "BruteAlpha/enraged",
+   "titel": "Brute (Alpha) – enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BruteAlpha\\enraged.png"
+  },
+  {
+   "id": "BruteAlpha/flee",
+   "titel": "Brute (Alpha) – flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BruteAlpha\\flee.png"
+  },
+  {
+   "id": "BruteAlpha/guard",
+   "titel": "Brute (Alpha) – guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BruteAlpha\\guard.png"
+  },
+  {
+   "id": "BruteAlpha/heavy_attack",
+   "titel": "Brute (Alpha) – heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BruteAlpha\\heavy_attack.png"
+  },
+  {
+   "id": "BruteAlpha/heavy_windup",
+   "titel": "Brute (Alpha) – heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BruteAlpha\\heavy_windup.png"
+  },
+  {
+   "id": "BruteAlpha/hurt",
+   "titel": "Brute (Alpha) – hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BruteAlpha\\hurt.png"
+  },
+  {
+   "id": "BruteAlpha/idle",
+   "titel": "Brute (Alpha) – idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BruteAlpha\\idle.png"
+  },
+  {
+   "id": "BruteAlpha/surrender",
+   "titel": "Brute (Alpha) – surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BruteAlpha\\surrender.png"
+  },
+  {
+   "id": "BruteAlpha/victory",
+   "titel": "Brute (Alpha) – victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BruteAlpha\\victory.png"
+  },
+  {
+   "id": "BruteAlpha/weakened",
+   "titel": "Brute (Alpha) – weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BruteAlpha\\weakened.png"
+  },
+  {
+   "id": "BruteAlpha/windup",
+   "titel": "Brute (Alpha) – windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BruteAlpha\\windup.png"
+  },
+  {
+   "id": "AgentAlpha/attack",
+   "titel": "Agent (Alpha) – attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\attack.png"
+  },
+  {
+   "id": "AgentAlpha/defeated",
+   "titel": "Agent (Alpha) – defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\defeated.png"
+  },
+  {
+   "id": "AgentAlpha/enraged",
+   "titel": "Agent (Alpha) – enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\enraged.png"
+  },
+  {
+   "id": "AgentAlpha/flee",
+   "titel": "Agent (Alpha) – flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\flee.png"
+  },
+  {
+   "id": "AgentAlpha/guard",
+   "titel": "Agent (Alpha) – guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\guard.png"
+  },
+  {
+   "id": "AgentAlpha/heavy_attack",
+   "titel": "Agent (Alpha) – heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\heavy_attack.png"
+  },
+  {
+   "id": "AgentAlpha/heavy_windup",
+   "titel": "Agent (Alpha) – heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\heavy_windup.png"
+  },
+  {
+   "id": "AgentAlpha/hurt",
+   "titel": "Agent (Alpha) – hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\hurt.png"
+  },
+  {
+   "id": "AgentAlpha/idle",
+   "titel": "Agent (Alpha) – idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\idle.png"
+  },
+  {
+   "id": "AgentAlpha/surrender",
+   "titel": "Agent (Alpha) – surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\surrender.png"
+  },
+  {
+   "id": "AgentAlpha/victory",
+   "titel": "Agent (Alpha) – victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\victory.png"
+  },
+  {
+   "id": "AgentAlpha/weakened",
+   "titel": "Agent (Alpha) – weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\weakened.png"
+  },
+  {
+   "id": "AgentAlpha/windup",
+   "titel": "Agent (Alpha) – windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\windup.png"
+  }
+ ]
+}

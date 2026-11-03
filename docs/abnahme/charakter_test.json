@@ -1,0 +1,31 @@
+{
+  "id": "charakter_test",
+  "titel": "Charakterbild-Test (Erde + Schläger)",
+  "hinweis": "Frontansicht für das neue Character-Fenster. Beste mit OK markieren, Wünsche in die Notiz.",
+  "items": [
+    {
+      "id": "DucErdeBat_v1",
+      "titel": "Duc · Terra Scura + Bat, Variante 1",
+      "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucErdeBat_v1.png",
+      "soll": "Front, ganzer Körper, cool, Sonnenbrille, Schläger auf der Schulter"
+    },
+    {
+      "id": "DucErdeBat_v2",
+      "titel": "Duc · Terra Scura + Bat, Variante 2",
+      "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucErdeBat_v2.png",
+      "soll": "Front, ganzer Körper, cool, Sonnenbrille, Schläger auf der Schulter"
+    },
+    {
+      "id": "DucErdeBat_v3",
+      "titel": "Duc · Terra Scura + Bat, Variante 3",
+      "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucErdeBat_v3.png",
+      "soll": "Front, ganzer Körper, cool, Sonnenbrille, Schläger auf der Schulter"
+    },
+    {
+      "id": "DucErdeBat_v4",
+      "titel": "Duc · Terra Scura + Bat, Variante 4",
+      "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucErdeBat_v4.png",
+      "soll": "Front, ganzer Körper, cool, Sonnenbrille, Schläger auf der Schulter"
+    }
+  ]
+}

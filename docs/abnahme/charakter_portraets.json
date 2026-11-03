@@ -1,0 +1,319 @@
+{
+ "id": "charakter_portraets",
+ "titel": "Character-Porträts: Jacke × Waffe (26 × 2)",
+ "hinweis": "Pro Kombination die bessere Variante mit OK markieren. Wenn keine passt, NEU und kurz in die Notiz, was fehlt.",
+ "items": [
+  {
+   "id": "DucErdeBat_v1",
+   "titel": "Terra Scura + Terremoto (Schläger, Schulter) · grinst",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucErdeBat_v1.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucErdeBat_v2",
+   "titel": "Terra Scura + Terremoto (Schläger, Schulter) · lacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucErdeBat_v2.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucErdeSword_v1",
+   "titel": "Terra Scura + Riposte (Säbel) · grinst",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucErdeSword_v1.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucErdeSword_v2",
+   "titel": "Terra Scura + Riposte (Säbel) · lacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucErdeSword_v2.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucErdeKnife_v1",
+   "titel": "Terra Scura + Sussurro (Messer) · grinst",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucErdeKnife_v1.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucErdeKnife_v2",
+   "titel": "Terra Scura + Sussurro (Messer) · lacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucErdeKnife_v2.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucErdeSpear_v1",
+   "titel": "Terra Scura + Le Large (Speer) · grinst",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucErdeSpear_v1.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucErdeSpear_v2",
+   "titel": "Terra Scura + Le Large (Speer) · lacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucErdeSpear_v2.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucErdeGun_v1",
+   "titel": "Terra Scura + Gemelli (Flinte) · grinst",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucErdeGun_v1.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucErdeGun_v2",
+   "titel": "Terra Scura + Gemelli (Flinte) · lacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucErdeGun_v2.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucErdeMop_v1",
+   "titel": "Terra Scura + Schrubber (Training) · grinst",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucErdeMop_v1.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucErdeMop_v2",
+   "titel": "Terra Scura + Schrubber (Training) · lacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucErdeMop_v2.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucWasserBat_v1",
+   "titel": "Meramie + Terremoto (Schläger, Schulter) · grinst",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucWasserBat_v1.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucWasserBat_v2",
+   "titel": "Meramie + Terremoto (Schläger, Schulter) · lacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucWasserBat_v2.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucWasserSword_v1",
+   "titel": "Meramie + Riposte (Säbel) · grinst",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucWasserSword_v1.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucWasserSword_v2",
+   "titel": "Meramie + Riposte (Säbel) · lacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucWasserSword_v2.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucWasserKnife_v1",
+   "titel": "Meramie + Sussurro (Messer) · grinst",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucWasserKnife_v1.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucWasserKnife_v2",
+   "titel": "Meramie + Sussurro (Messer) · lacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucWasserKnife_v2.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucWasserSpear_v1",
+   "titel": "Meramie + Le Large (Speer) · grinst",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucWasserSpear_v1.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucWasserSpear_v2",
+   "titel": "Meramie + Le Large (Speer) · lacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucWasserSpear_v2.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucWasserGun_v1",
+   "titel": "Meramie + Gemelli (Flinte) · grinst",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucWasserGun_v1.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucWasserGun_v2",
+   "titel": "Meramie + Gemelli (Flinte) · lacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucWasserGun_v2.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucFeuerBat_v1",
+   "titel": "Incendio + Terremoto (Schläger, Schulter) · grinst",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucFeuerBat_v1.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucFeuerBat_v2",
+   "titel": "Incendio + Terremoto (Schläger, Schulter) · lacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucFeuerBat_v2.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucFeuerSword_v1",
+   "titel": "Incendio + Riposte (Säbel) · grinst",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucFeuerSword_v1.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucFeuerSword_v2",
+   "titel": "Incendio + Riposte (Säbel) · lacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucFeuerSword_v2.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucFeuerKnife_v1",
+   "titel": "Incendio + Sussurro (Messer) · grinst",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucFeuerKnife_v1.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucFeuerKnife_v2",
+   "titel": "Incendio + Sussurro (Messer) · lacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucFeuerKnife_v2.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucFeuerSpear_v1",
+   "titel": "Incendio + Le Large (Speer) · grinst",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucFeuerSpear_v1.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucFeuerSpear_v2",
+   "titel": "Incendio + Le Large (Speer) · lacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucFeuerSpear_v2.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucFeuerGun_v1",
+   "titel": "Incendio + Gemelli (Flinte) · grinst",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucFeuerGun_v1.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucFeuerGun_v2",
+   "titel": "Incendio + Gemelli (Flinte) · lacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucFeuerGun_v2.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucLuftBat_v1",
+   "titel": "Zéphyr + Terremoto (Schläger, Schulter) · grinst",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucLuftBat_v1.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucLuftBat_v2",
+   "titel": "Zéphyr + Terremoto (Schläger, Schulter) · lacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucLuftBat_v2.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucLuftSword_v1",
+   "titel": "Zéphyr + Riposte (Säbel) · grinst",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucLuftSword_v1.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucLuftSword_v2",
+   "titel": "Zéphyr + Riposte (Säbel) · lacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucLuftSword_v2.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucLuftKnife_v1",
+   "titel": "Zéphyr + Sussurro (Messer) · grinst",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucLuftKnife_v1.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucLuftKnife_v2",
+   "titel": "Zéphyr + Sussurro (Messer) · lacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucLuftKnife_v2.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucLuftSpear_v1",
+   "titel": "Zéphyr + Le Large (Speer) · grinst",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucLuftSpear_v1.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucLuftSpear_v2",
+   "titel": "Zéphyr + Le Large (Speer) · lacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucLuftSpear_v2.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucLuftGun_v1",
+   "titel": "Zéphyr + Gemelli (Flinte) · grinst",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucLuftGun_v1.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucLuftGun_v2",
+   "titel": "Zéphyr + Gemelli (Flinte) · lacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucLuftGun_v2.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucCyberBat_v1",
+   "titel": "Citadelle + Terremoto (Schläger, Schulter) · grinst",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucCyberBat_v1.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucCyberBat_v2",
+   "titel": "Citadelle + Terremoto (Schläger, Schulter) · lacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucCyberBat_v2.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucCyberSword_v1",
+   "titel": "Citadelle + Riposte (Säbel) · grinst",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucCyberSword_v1.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucCyberSword_v2",
+   "titel": "Citadelle + Riposte (Säbel) · lacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucCyberSword_v2.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucCyberKnife_v1",
+   "titel": "Citadelle + Sussurro (Messer) · grinst",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucCyberKnife_v1.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucCyberKnife_v2",
+   "titel": "Citadelle + Sussurro (Messer) · lacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucCyberKnife_v2.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucCyberSpear_v1",
+   "titel": "Citadelle + Le Large (Speer) · grinst",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucCyberSpear_v1.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucCyberSpear_v2",
+   "titel": "Citadelle + Le Large (Speer) · lacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucCyberSpear_v2.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucCyberGun_v1",
+   "titel": "Citadelle + Gemelli (Flinte) · grinst",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucCyberGun_v1.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  },
+  {
+   "id": "DucCyberGun_v2",
+   "titel": "Citadelle + Gemelli (Flinte) · lacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\DucCyberGun_v2.png",
+   "soll": "frontal, ganzer Körper, Achterdeck in der Sonne, grinsend oder lachend, genau eine Waffe"
+  }
+ ]
+}

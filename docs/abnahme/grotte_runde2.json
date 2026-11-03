@@ -1,0 +1,307 @@
+{
+ "id": "grotte_runde2",
+ "titel": "Grotte – Sprites Gennaro & Matteu, Casting Riscossore & Chloé",
+ "hinweis": "Sprites: fehlerhafte auf NEU. Casting: je Figur 1 Bild OK, danach entsteht das Sprite-Set.",
+ "items": [
+  {
+   "id": "sprite_Gennaro_admiration_2",
+   "titel": "Gennaro – admiration_2",
+   "soll": "Gennaro Esposito, Sprite-Set (Fassung B Seed 2): blaues Auge, Schnurrbart, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Gennaro\\Standard\\roh\\admiration_2.png"
+  },
+  {
+   "id": "sprite_Gennaro_amusement",
+   "titel": "Gennaro – amusement",
+   "soll": "Gennaro Esposito, Sprite-Set (Fassung B Seed 2): blaues Auge, Schnurrbart, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Gennaro\\Standard\\roh\\amusement.png"
+  },
+  {
+   "id": "sprite_Gennaro_anger",
+   "titel": "Gennaro – anger",
+   "soll": "Gennaro Esposito, Sprite-Set (Fassung B Seed 2): blaues Auge, Schnurrbart, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Gennaro\\Standard\\roh\\anger.png"
+  },
+  {
+   "id": "sprite_Gennaro_annoyance",
+   "titel": "Gennaro – annoyance",
+   "soll": "Gennaro Esposito, Sprite-Set (Fassung B Seed 2): blaues Auge, Schnurrbart, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Gennaro\\Standard\\roh\\annoyance.png"
+  },
+  {
+   "id": "sprite_Gennaro_approval",
+   "titel": "Gennaro – approval",
+   "soll": "Gennaro Esposito, Sprite-Set (Fassung B Seed 2): blaues Auge, Schnurrbart, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Gennaro\\Standard\\roh\\approval.png"
+  },
+  {
+   "id": "sprite_Gennaro_caring",
+   "titel": "Gennaro – caring",
+   "soll": "Gennaro Esposito, Sprite-Set (Fassung B Seed 2): blaues Auge, Schnurrbart, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Gennaro\\Standard\\roh\\caring.png"
+  },
+  {
+   "id": "sprite_Gennaro_confusion",
+   "titel": "Gennaro – confusion",
+   "soll": "Gennaro Esposito, Sprite-Set (Fassung B Seed 2): blaues Auge, Schnurrbart, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Gennaro\\Standard\\roh\\confusion.png"
+  },
+  {
+   "id": "sprite_Gennaro_curiosity",
+   "titel": "Gennaro – curiosity",
+   "soll": "Gennaro Esposito, Sprite-Set (Fassung B Seed 2): blaues Auge, Schnurrbart, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Gennaro\\Standard\\roh\\curiosity.png"
+  },
+  {
+   "id": "sprite_Gennaro_disappointment",
+   "titel": "Gennaro – disappointment",
+   "soll": "Gennaro Esposito, Sprite-Set (Fassung B Seed 2): blaues Auge, Schnurrbart, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Gennaro\\Standard\\roh\\disappointment.png"
+  },
+  {
+   "id": "sprite_Gennaro_disapproval",
+   "titel": "Gennaro – disapproval",
+   "soll": "Gennaro Esposito, Sprite-Set (Fassung B Seed 2): blaues Auge, Schnurrbart, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Gennaro\\Standard\\roh\\disapproval.png"
+  },
+  {
+   "id": "sprite_Gennaro_disgust",
+   "titel": "Gennaro – disgust",
+   "soll": "Gennaro Esposito, Sprite-Set (Fassung B Seed 2): blaues Auge, Schnurrbart, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Gennaro\\Standard\\roh\\disgust.png"
+  },
+  {
+   "id": "sprite_Gennaro_embarrassment_2",
+   "titel": "Gennaro – embarrassment_2",
+   "soll": "Gennaro Esposito, Sprite-Set (Fassung B Seed 2): blaues Auge, Schnurrbart, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Gennaro\\Standard\\roh\\embarrassment_2.png"
+  },
+  {
+   "id": "sprite_Gennaro_excitement_2",
+   "titel": "Gennaro – excitement_2",
+   "soll": "Gennaro Esposito, Sprite-Set (Fassung B Seed 2): blaues Auge, Schnurrbart, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Gennaro\\Standard\\roh\\excitement_2.png"
+  },
+  {
+   "id": "sprite_Gennaro_fear",
+   "titel": "Gennaro – fear",
+   "soll": "Gennaro Esposito, Sprite-Set (Fassung B Seed 2): blaues Auge, Schnurrbart, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Gennaro\\Standard\\roh\\fear.png"
+  },
+  {
+   "id": "sprite_Gennaro_gratitude",
+   "titel": "Gennaro – gratitude",
+   "soll": "Gennaro Esposito, Sprite-Set (Fassung B Seed 2): blaues Auge, Schnurrbart, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Gennaro\\Standard\\roh\\gratitude.png"
+  },
+  {
+   "id": "sprite_Gennaro_joy",
+   "titel": "Gennaro – joy",
+   "soll": "Gennaro Esposito, Sprite-Set (Fassung B Seed 2): blaues Auge, Schnurrbart, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Gennaro\\Standard\\roh\\joy.png"
+  },
+  {
+   "id": "sprite_Gennaro_nervousness",
+   "titel": "Gennaro – nervousness",
+   "soll": "Gennaro Esposito, Sprite-Set (Fassung B Seed 2): blaues Auge, Schnurrbart, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Gennaro\\Standard\\roh\\nervousness.png"
+  },
+  {
+   "id": "sprite_Gennaro_neutral",
+   "titel": "Gennaro – neutral",
+   "soll": "Gennaro Esposito, Sprite-Set (Fassung B Seed 2): blaues Auge, Schnurrbart, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Gennaro\\Standard\\roh\\neutral.png"
+  },
+  {
+   "id": "sprite_Gennaro_pride",
+   "titel": "Gennaro – pride",
+   "soll": "Gennaro Esposito, Sprite-Set (Fassung B Seed 2): blaues Auge, Schnurrbart, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Gennaro\\Standard\\roh\\pride.png"
+  },
+  {
+   "id": "sprite_Gennaro_sadness",
+   "titel": "Gennaro – sadness",
+   "soll": "Gennaro Esposito, Sprite-Set (Fassung B Seed 2): blaues Auge, Schnurrbart, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Gennaro\\Standard\\roh\\sadness.png"
+  },
+  {
+   "id": "sprite_Gennaro_surprise",
+   "titel": "Gennaro – surprise",
+   "soll": "Gennaro Esposito, Sprite-Set (Fassung B Seed 2): blaues Auge, Schnurrbart, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Gennaro\\Standard\\roh\\surprise.png"
+  },
+  {
+   "id": "sprite_Matteu_admiration_2",
+   "titel": "Matteu – admiration_2",
+   "soll": "Matteu Pinelli, Sprite-Set (Fassung A Seed 1): zerrissener Neoprenanzug, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Matteu\\Standard\\roh\\admiration_2.png"
+  },
+  {
+   "id": "sprite_Matteu_amusement",
+   "titel": "Matteu – amusement",
+   "soll": "Matteu Pinelli, Sprite-Set (Fassung A Seed 1): zerrissener Neoprenanzug, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Matteu\\Standard\\roh\\amusement.png"
+  },
+  {
+   "id": "sprite_Matteu_anger",
+   "titel": "Matteu – anger",
+   "soll": "Matteu Pinelli, Sprite-Set (Fassung A Seed 1): zerrissener Neoprenanzug, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Matteu\\Standard\\roh\\anger.png"
+  },
+  {
+   "id": "sprite_Matteu_annoyance",
+   "titel": "Matteu – annoyance",
+   "soll": "Matteu Pinelli, Sprite-Set (Fassung A Seed 1): zerrissener Neoprenanzug, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Matteu\\Standard\\roh\\annoyance.png"
+  },
+  {
+   "id": "sprite_Matteu_approval",
+   "titel": "Matteu – approval",
+   "soll": "Matteu Pinelli, Sprite-Set (Fassung A Seed 1): zerrissener Neoprenanzug, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Matteu\\Standard\\roh\\approval.png"
+  },
+  {
+   "id": "sprite_Matteu_caring",
+   "titel": "Matteu – caring",
+   "soll": "Matteu Pinelli, Sprite-Set (Fassung A Seed 1): zerrissener Neoprenanzug, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Matteu\\Standard\\roh\\caring.png"
+  },
+  {
+   "id": "sprite_Matteu_confusion",
+   "titel": "Matteu – confusion",
+   "soll": "Matteu Pinelli, Sprite-Set (Fassung A Seed 1): zerrissener Neoprenanzug, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Matteu\\Standard\\roh\\confusion.png"
+  },
+  {
+   "id": "sprite_Matteu_curiosity",
+   "titel": "Matteu – curiosity",
+   "soll": "Matteu Pinelli, Sprite-Set (Fassung A Seed 1): zerrissener Neoprenanzug, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Matteu\\Standard\\roh\\curiosity.png"
+  },
+  {
+   "id": "sprite_Matteu_disappointment",
+   "titel": "Matteu – disappointment",
+   "soll": "Matteu Pinelli, Sprite-Set (Fassung A Seed 1): zerrissener Neoprenanzug, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Matteu\\Standard\\roh\\disappointment.png"
+  },
+  {
+   "id": "sprite_Matteu_disapproval",
+   "titel": "Matteu – disapproval",
+   "soll": "Matteu Pinelli, Sprite-Set (Fassung A Seed 1): zerrissener Neoprenanzug, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Matteu\\Standard\\roh\\disapproval.png"
+  },
+  {
+   "id": "sprite_Matteu_disgust",
+   "titel": "Matteu – disgust",
+   "soll": "Matteu Pinelli, Sprite-Set (Fassung A Seed 1): zerrissener Neoprenanzug, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Matteu\\Standard\\roh\\disgust.png"
+  },
+  {
+   "id": "sprite_Matteu_embarrassment_2",
+   "titel": "Matteu – embarrassment_2",
+   "soll": "Matteu Pinelli, Sprite-Set (Fassung A Seed 1): zerrissener Neoprenanzug, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Matteu\\Standard\\roh\\embarrassment_2.png"
+  },
+  {
+   "id": "sprite_Matteu_excitement_2",
+   "titel": "Matteu – excitement_2",
+   "soll": "Matteu Pinelli, Sprite-Set (Fassung A Seed 1): zerrissener Neoprenanzug, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Matteu\\Standard\\roh\\excitement_2.png"
+  },
+  {
+   "id": "sprite_Matteu_fear",
+   "titel": "Matteu – fear",
+   "soll": "Matteu Pinelli, Sprite-Set (Fassung A Seed 1): zerrissener Neoprenanzug, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Matteu\\Standard\\roh\\fear.png"
+  },
+  {
+   "id": "sprite_Matteu_gratitude",
+   "titel": "Matteu – gratitude",
+   "soll": "Matteu Pinelli, Sprite-Set (Fassung A Seed 1): zerrissener Neoprenanzug, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Matteu\\Standard\\roh\\gratitude.png"
+  },
+  {
+   "id": "sprite_Matteu_joy",
+   "titel": "Matteu – joy",
+   "soll": "Matteu Pinelli, Sprite-Set (Fassung A Seed 1): zerrissener Neoprenanzug, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Matteu\\Standard\\roh\\joy.png"
+  },
+  {
+   "id": "sprite_Matteu_nervousness",
+   "titel": "Matteu – nervousness",
+   "soll": "Matteu Pinelli, Sprite-Set (Fassung A Seed 1): zerrissener Neoprenanzug, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Matteu\\Standard\\roh\\nervousness.png"
+  },
+  {
+   "id": "sprite_Matteu_neutral",
+   "titel": "Matteu – neutral",
+   "soll": "Matteu Pinelli, Sprite-Set (Fassung A Seed 1): zerrissener Neoprenanzug, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Matteu\\Standard\\roh\\neutral.png"
+  },
+  {
+   "id": "sprite_Matteu_pride",
+   "titel": "Matteu – pride",
+   "soll": "Matteu Pinelli, Sprite-Set (Fassung A Seed 1): zerrissener Neoprenanzug, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Matteu\\Standard\\roh\\pride.png"
+  },
+  {
+   "id": "sprite_Matteu_sadness",
+   "titel": "Matteu – sadness",
+   "soll": "Matteu Pinelli, Sprite-Set (Fassung A Seed 1): zerrissener Neoprenanzug, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Matteu\\Standard\\roh\\sadness.png"
+  },
+  {
+   "id": "sprite_Matteu_surprise",
+   "titel": "Matteu – surprise",
+   "soll": "Matteu Pinelli, Sprite-Set (Fassung A Seed 1): zerrissener Neoprenanzug, eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Matteu\\Standard\\roh\\surprise.png"
+  },
+  {
+   "id": "casting_Riscossore_A1",
+   "titel": "Casting Riscossore – Fassung A, Seed 1",
+   "soll": "U Riscossore NEU als Schwarzer Mann, über 60, Leinenanzug, schält eine Orange – je Figur EIN Bild auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Riscossore_A\\neutral.png"
+  },
+  {
+   "id": "casting_Riscossore_A2",
+   "titel": "Casting Riscossore – Fassung A, Seed 2",
+   "soll": "U Riscossore NEU als Schwarzer Mann, über 60, Leinenanzug, schält eine Orange – je Figur EIN Bild auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Riscossore_A\\neutral-1.png"
+  },
+  {
+   "id": "casting_Riscossore_B1",
+   "titel": "Casting Riscossore – Fassung B, Seed 1",
+   "soll": "U Riscossore NEU als Schwarzer Mann, über 60, Leinenanzug, schält eine Orange – je Figur EIN Bild auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Riscossore_B\\neutral.png"
+  },
+  {
+   "id": "casting_Riscossore_B2",
+   "titel": "Casting Riscossore – Fassung B, Seed 2",
+   "soll": "U Riscossore NEU als Schwarzer Mann, über 60, Leinenanzug, schält eine Orange – je Figur EIN Bild auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Riscossore_B\\neutral-1.png"
+  },
+  {
+   "id": "casting_Chloe_A1",
+   "titel": "Casting Chloe – Fassung A, Seed 1",
+   "soll": "Chloé Marchal NEU mit Tags (A: Pferdeschwanz, B: kurze Locken; Dreck, Olive-Haut) – je Figur EIN Bild auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Chloe_A\\neutral.png"
+  },
+  {
+   "id": "casting_Chloe_A2",
+   "titel": "Casting Chloe – Fassung A, Seed 2",
+   "soll": "Chloé Marchal NEU mit Tags (A: Pferdeschwanz, B: kurze Locken; Dreck, Olive-Haut) – je Figur EIN Bild auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Chloe_A\\neutral-1.png"
+  },
+  {
+   "id": "casting_Chloe_B1",
+   "titel": "Casting Chloe – Fassung B, Seed 1",
+   "soll": "Chloé Marchal NEU mit Tags (A: Pferdeschwanz, B: kurze Locken; Dreck, Olive-Haut) – je Figur EIN Bild auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Chloe_B\\neutral.png"
+  },
+  {
+   "id": "casting_Chloe_B2",
+   "titel": "Casting Chloe – Fassung B, Seed 2",
+   "soll": "Chloé Marchal NEU mit Tags (A: Pferdeschwanz, B: kurze Locken; Dreck, Olive-Haut) – je Figur EIN Bild auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Chloe_B\\neutral-1.png"
+  }
+ ]
+}

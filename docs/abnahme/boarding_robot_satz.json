@@ -1,0 +1,215 @@
+{
+ "id": "boarding_robot_satz_v1",
+ "titel": "Boarding Robots: volle Kampf-Sätze",
+ "hinweis": "Je 13 Posen. Mein Vorschlag: beide Sätze so einbauen. Ich habe keinen Fehler gefunden, der einen neuen Lauf braucht. Der schwere Roboter ist rot statt gelb.",
+ "items": [
+  {
+   "id": "normal_idle",
+   "titel": "Normal · idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\normal\\idle.png",
+   "soll": "Grundhaltung, muss zur gewählten Fassung passen.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_boarding_robot_2\\n2\\idle.png",
+   "vergleich_titel": "Deine Wahl"
+  },
+  {
+   "id": "normal_windup",
+   "titel": "Normal · windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\normal\\windup.png",
+   "soll": "Holt mit dem rechten Arm aus.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_boarding_robot_2\\n2\\idle.png",
+   "vergleich_titel": "Deine Wahl"
+  },
+  {
+   "id": "normal_attack",
+   "titel": "Normal · attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\normal\\attack.png",
+   "soll": "Schlag nach links, Arm ganz gestreckt.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_boarding_robot_2\\n2\\idle.png",
+   "vergleich_titel": "Deine Wahl"
+  },
+  {
+   "id": "normal_heavy_windup",
+   "titel": "Normal · heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\normal\\heavy_windup.png",
+   "soll": "Beide Arme hoch über dem Kopf.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_boarding_robot_2\\n2\\idle.png",
+   "vergleich_titel": "Deine Wahl"
+  },
+  {
+   "id": "normal_heavy_attack",
+   "titel": "Normal · heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\normal\\heavy_attack.png",
+   "soll": "Beide Klammern schlagen nach vorn unten.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_boarding_robot_2\\n2\\idle.png",
+   "vergleich_titel": "Deine Wahl"
+  },
+  {
+   "id": "normal_guard",
+   "titel": "Normal · guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\normal\\guard.png",
+   "soll": "Unterarme vor Kopf und Brust, klar defensiv.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_boarding_robot_2\\n2\\idle.png",
+   "vergleich_titel": "Deine Wahl"
+  },
+  {
+   "id": "normal_hurt",
+   "titel": "Normal · hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\normal\\hurt.png",
+   "soll": "Getroffen, kippt nach hinten.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_boarding_robot_2\\n2\\idle.png",
+   "vergleich_titel": "Deine Wahl"
+  },
+  {
+   "id": "normal_enraged",
+   "titel": "Normal · enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\normal\\enraged.png",
+   "soll": "Beugt sich vor, Arme breit, Licht hell.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_boarding_robot_2\\n2\\idle.png",
+   "vergleich_titel": "Deine Wahl"
+  },
+  {
+   "id": "normal_weakened",
+   "titel": "Normal · weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\normal\\weakened.png",
+   "soll": "Beschädigt, sackt zusammen, Licht schwach.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_boarding_robot_2\\n2\\idle.png",
+   "vergleich_titel": "Deine Wahl"
+  },
+  {
+   "id": "normal_defeated",
+   "titel": "Normal · defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\normal\\defeated.png",
+   "soll": "Liegt am Boden. Der Kopf liegt rechts.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_boarding_robot_2\\n2\\idle.png",
+   "vergleich_titel": "Deine Wahl"
+  },
+  {
+   "id": "normal_surrender",
+   "titel": "Normal · surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\normal\\surrender.png",
+   "soll": "Auf den Knien, Klammern oben.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_boarding_robot_2\\n2\\idle.png",
+   "vergleich_titel": "Deine Wahl"
+  },
+  {
+   "id": "normal_flee",
+   "titel": "Normal · flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\normal\\flee.png",
+   "soll": "Läuft weg. Beim Einbau wird das Bild gespiegelt, dann läuft er nach rechts.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_boarding_robot_2\\n2\\idle.png",
+   "vergleich_titel": "Deine Wahl"
+  },
+  {
+   "id": "normal_victory",
+   "titel": "Normal · victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\normal\\victory.png",
+   "soll": "Beide Arme hoch.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_boarding_robot_2\\n2\\idle.png",
+   "vergleich_titel": "Deine Wahl"
+  },
+  {
+   "id": "schwer_idle",
+   "titel": "Schwer · idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\schwer\\idle.png",
+   "soll": "Grundhaltung, muss zur gewählten Fassung passen.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_boarding_robot_2\\h2\\idle.png",
+   "vergleich_titel": "Deine Wahl (noch gelb, Rot war dein Wunsch)"
+  },
+  {
+   "id": "schwer_windup",
+   "titel": "Schwer · windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\schwer\\windup.png",
+   "soll": "Holt mit dem rechten Arm aus.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_boarding_robot_2\\h2\\idle.png",
+   "vergleich_titel": "Deine Wahl (noch gelb, Rot war dein Wunsch)"
+  },
+  {
+   "id": "schwer_attack",
+   "titel": "Schwer · attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\schwer\\attack.png",
+   "soll": "Schlag nach links, Arm ganz gestreckt.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_boarding_robot_2\\h2\\idle.png",
+   "vergleich_titel": "Deine Wahl (noch gelb, Rot war dein Wunsch)"
+  },
+  {
+   "id": "schwer_heavy_windup",
+   "titel": "Schwer · heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\schwer\\heavy_windup.png",
+   "soll": "Beide Arme hoch über dem Kopf.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_boarding_robot_2\\h2\\idle.png",
+   "vergleich_titel": "Deine Wahl (noch gelb, Rot war dein Wunsch)"
+  },
+  {
+   "id": "schwer_heavy_attack",
+   "titel": "Schwer · heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\schwer\\heavy_attack.png",
+   "soll": "Beide Klammern schlagen nach vorn unten.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_boarding_robot_2\\h2\\idle.png",
+   "vergleich_titel": "Deine Wahl (noch gelb, Rot war dein Wunsch)"
+  },
+  {
+   "id": "schwer_guard",
+   "titel": "Schwer · guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\schwer\\guard.png",
+   "soll": "Unterarme vor Kopf und Brust, klar defensiv.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_boarding_robot_2\\h2\\idle.png",
+   "vergleich_titel": "Deine Wahl (noch gelb, Rot war dein Wunsch)"
+  },
+  {
+   "id": "schwer_hurt",
+   "titel": "Schwer · hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\schwer\\hurt.png",
+   "soll": "Getroffen, kippt nach hinten.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_boarding_robot_2\\h2\\idle.png",
+   "vergleich_titel": "Deine Wahl (noch gelb, Rot war dein Wunsch)"
+  },
+  {
+   "id": "schwer_enraged",
+   "titel": "Schwer · enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\schwer\\enraged.png",
+   "soll": "Beugt sich vor, Arme breit, Licht hell.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_boarding_robot_2\\h2\\idle.png",
+   "vergleich_titel": "Deine Wahl (noch gelb, Rot war dein Wunsch)"
+  },
+  {
+   "id": "schwer_weakened",
+   "titel": "Schwer · weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\schwer\\weakened.png",
+   "soll": "Beschädigt, sackt zusammen, Licht schwach.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_boarding_robot_2\\h2\\idle.png",
+   "vergleich_titel": "Deine Wahl (noch gelb, Rot war dein Wunsch)"
+  },
+  {
+   "id": "schwer_defeated",
+   "titel": "Schwer · defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\schwer\\defeated.png",
+   "soll": "Liegt am Boden. Der Kopf liegt rechts.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_boarding_robot_2\\h2\\idle.png",
+   "vergleich_titel": "Deine Wahl (noch gelb, Rot war dein Wunsch)"
+  },
+  {
+   "id": "schwer_surrender",
+   "titel": "Schwer · surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\schwer\\surrender.png",
+   "soll": "Auf den Knien, Klammern oben.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_boarding_robot_2\\h2\\idle.png",
+   "vergleich_titel": "Deine Wahl (noch gelb, Rot war dein Wunsch)"
+  },
+  {
+   "id": "schwer_flee",
+   "titel": "Schwer · flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\schwer\\flee.png",
+   "soll": "Läuft weg. Beim Einbau wird das Bild gespiegelt, dann läuft er nach rechts.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_boarding_robot_2\\h2\\idle.png",
+   "vergleich_titel": "Deine Wahl (noch gelb, Rot war dein Wunsch)"
+  },
+  {
+   "id": "schwer_victory",
+   "titel": "Schwer · victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_boarding_robot_satz\\schwer\\victory.png",
+   "soll": "Beide Arme hoch.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_boarding_robot_2\\h2\\idle.png",
+   "vergleich_titel": "Deine Wahl (noch gelb, Rot war dein Wunsch)"
+  }
+ ]
+}

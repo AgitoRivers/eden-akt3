@@ -1,0 +1,59 @@
+{
+ "wurf": {
+  "wahl": [
+   3
+  ],
+  "keiner": false,
+  "notiz": ""
+ },
+ "feuer": {
+  "wahl": [
+   0
+  ],
+  "keiner": false,
+  "notiz": ""
+ },
+ "wasser": {
+  "wahl": [
+   2
+  ],
+  "keiner": false,
+  "notiz": ""
+ },
+ "schock": {
+  "wahl": [
+   1
+  ],
+  "keiner": false,
+  "notiz": ""
+ },
+ "flash": {
+  "wahl": [
+   3
+  ],
+  "keiner": false,
+  "notiz": ""
+ },
+ "pfeifen": {
+  "wahl": [
+   1
+  ],
+  "keiner": false,
+  "notiz": "pitch auf 4 sek beschränken"
+ },
+ "erschuetterung": {
+  "wahl": [
+   2
+  ],
+  "keiner": false,
+  "notiz": ""
+ },
+ "splitter": {
+  "wahl": [
+   2
+  ],
+  "keiner": false,
+  "notiz": "aber vorher explosionsgeräusch"
+ },
+ "_stand": "2026-10-28 06:33:22"
+}

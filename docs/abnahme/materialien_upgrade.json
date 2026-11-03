@@ -1,0 +1,67 @@
+{
+ "id": "materialien_upgrade",
+ "titel": "Upgrade-Material: Plates und Steine",
+ "hinweis": "Je ein Bild. OK oder Neu mit Notiz. Keine Löcher oder Lochmuster.",
+ "items": [
+  {
+   "id": "steel_plate",
+   "titel": "Steel Plate",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\steel_plate.png",
+   "soll": "Solide graue Stahlplatte, glatt, ohne Löcher"
+  },
+  {
+   "id": "titanium_plate",
+   "titel": "Titanium Plate",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\titanium_plate.png",
+   "soll": "Titanplatte, grau mit leichtem Blauschimmer, ohne Löcher"
+  },
+  {
+   "id": "jade",
+   "titel": "Jade (Terremoto, Stufe 1)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\jade.png",
+   "soll": "glatter grüner Jade-Stein"
+  },
+  {
+   "id": "smaragd",
+   "titel": "Smaragd (Terremoto, Stufe 2)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\smaragd.png",
+   "soll": "geschliffener grüner Smaragd"
+  },
+  {
+   "id": "topas",
+   "titel": "Topas (Le Large, Stufe 1)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\topas.png",
+   "soll": "goldorange geschliffener Topas"
+  },
+  {
+   "id": "rubin",
+   "titel": "Rubin (Le Large, Stufe 2)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\rubin.png",
+   "soll": "roter geschliffener Rubin"
+  },
+  {
+   "id": "aquamarin",
+   "titel": "Aquamarin (Riposte, Stufe 1)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\aquamarin.png",
+   "soll": "hellblauer Aquamarin"
+  },
+  {
+   "id": "saphir",
+   "titel": "Saphir (Riposte, Stufe 2)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\saphir.png",
+   "soll": "tiefblauer Saphir"
+  },
+  {
+   "id": "amethyst",
+   "titel": "Amethyst (Sussurro, Stufe 1)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\amethyst.png",
+   "soll": "violetter Amethyst"
+  },
+  {
+   "id": "opal",
+   "titel": "Opal (Sussurro, Stufe 2)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\opal.png",
+   "soll": "weißer Opal mit Regenbogen-Schimmer"
+  }
+ ]
+}

@@ -1,0 +1,728 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SFX-Auswahl Pixabay</title>
+<style>
+:root{--bg:#14161b;--karte:#1d2027;--linie:#2e323b;--text:#ece6da;--leise:#a39d92;--akz:#d9b26f;--p0:#e08a7a;--p1:#d9b26f;--p2:#8fb7cf}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 system-ui,Segoe UI,sans-serif;padding:28px 20px 90px}
+main{max-width:1200px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+h1{margin:0;color:var(--akz);font-size:26px}header.kopf p{color:var(--leise);margin:6px 0 0;max-width:80ch}
+.slot{background:var(--karte);border:1px solid var(--linie);border-radius:14px;padding:14px 16px;display:flex;flex-direction:column;gap:10px}
+.slot.entschieden{border-color:var(--akz)}
+.slot header{display:flex;gap:12px;align-items:baseline}.slot h2{margin:0;font-size:17px}.slot code{color:var(--leise);font-size:12px}
+.prio{font:700 11px system-ui;letter-spacing:.08em;padding:2px 8px;border-radius:99px;background:#2a2e37;color:var(--p1)}
+.ks{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.k{display:flex;gap:8px;align-items:flex-start;background:#171a20;border:1px solid var(--linie);border-radius:10px;padding:10px;cursor:pointer;min-width:0}
+.k:has(input:checked){border-color:var(--akz);background:#221f18}
+.kk{display:flex;flex-direction:column;gap:6px;min-width:0;flex:1}.kk b{font-size:14px;overflow-wrap:anywhere}.kk small{color:var(--leise);font-size:12px}
+.kk a{color:var(--akz)}audio{width:100%;height:34px}
+.keiner .kk b{color:var(--leise)}
+.notiz{background:#171a20;color:var(--text);border:1px solid var(--linie);border-radius:8px;padding:6px 10px}
+.fuss{position:fixed;left:0;right:0;bottom:0;background:#0f1115ee;border-top:1px solid var(--linie);padding:10px 20px;display:flex;gap:14px;align-items:center;justify-content:center}
+.fuss button{background:var(--akz);color:#14161b;border:0;border-radius:8px;padding:8px 14px;font-weight:700;cursor:pointer}
+#stand{color:var(--leise);font-variant-numeric:tabular-nums}textarea{position:absolute;left:-9999px}
+@media (max-width:900px){.ks{grid-template-columns:1fr 1fr}}
+</style></head><body><main>
+<header class="kopf"><h1>SFX-Auswahl · Pixabay</h1>
+<p>Je offenem SFX drei Kandidaten von pixabay.com (Pixabay Content License, frei nutzbar). Die Hörproben kommen direkt von Pixabay – heruntergeladen wird erst, was du auswählst. Wähle je Zeile einen Kandidaten oder „Keiner passt“, unten „Ergebnis kopieren“ und in den Chat einfügen.</p></header>
+
+<article class="slot" data-id="ui_klick">
+  <header><span class="prio">Klick</span><h2>UI-Klick (Auswahl bestätigen)</h2><code>ui_klick</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="ui_klick" value="126517">
+        <div class="kk"><b>Soft Interface Click</b><small>1 s · Universfield ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-soft-interface-click-126517/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/11/20/audio_244968a8c0.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="ui_klick" value="547872">
+        <div class="kk"><b>Soft App Button Tap Sound #2</b><small>1 s · Vadim_Makes_Sound · KI-erzeugt ·
+        <a href="https://pixabay.com/sound-effects/technology-soft-app-button-tap-sound-2-547872/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/06/19/audio_7cc5dc75c8.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="ui_klick" value="512213">
+        <div class="kk"><b>UI Click Soft</b><small>1 s · SoundShelfStudio ·
+        <a href="https://pixabay.com/sound-effects/technology-ui-click-soft-512213/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/04/01/audio_27ba9d7340.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="ui_klick" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="kampf_schwung">
+  <header><span class="prio">P0</span><h2>Kampf: Schläger ausholen</h2><code>kampf_schwung</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="kampf_schwung" value="189819">
+        <div class="kk"><b>Swing Whoosh Weapon 1</b><small>0 s · floraphonic ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-swing-whoosh-weapon-1-189819/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2024/02/06/audio_f018c74fc7.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="kampf_schwung" value="198498">
+        <div class="kk"><b>Swing Whoosh 5</b><small>0 s · floraphonic ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-swing-whoosh-5-198498/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2024/03/27/audio_c93e2ad962.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="kampf_schwung" value="189823">
+        <div class="kk"><b>Swing Whoosh Weapon 3</b><small>0 s · floraphonic ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-swing-whoosh-weapon-3-189823/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2024/02/06/audio_6deca6ad5d.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="kampf_schwung" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="kampf_treffer">
+  <header><span class="prio">P0</span><h2>Kampf: Treffer (Körper/Holz)</h2><code>kampf_treffer</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="kampf_treffer" value="352040">
+        <div class="kk"><b>Punch 03</b><small>1 s · Universfield ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-punch-03-352040/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/05/30/audio_dd004c6c1b.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="kampf_treffer" value="352711">
+        <div class="kk"><b>Classic Punch Impact</b><small>0 s · Universfield ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-classic-punch-impact-352711/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/06/02/audio_8a9f3f7755.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="kampf_treffer" value="192118">
+        <div class="kk"><b>Power Punch</b><small>0 s · Universfield ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-power-punch-192118/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2024/02/20/audio_6d4de9d80e.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="kampf_treffer" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="kampf_parade">
+  <header><span class="prio">P0</span><h2>Kampf: Parade (Block)</h2><code>kampf_parade</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="kampf_parade" value="393845">
+        <div class="kk"><b>Sword Slice 2</b><small>2 s · DRAGON-STUDIO ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-sword-slice-2-393845/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/08/23/audio_70b1c0bff2.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="kampf_parade" value="393847">
+        <div class="kk"><b>Sword Slice</b><small>2 s · DRAGON-STUDIO ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-sword-slice-393847/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/08/23/audio_4c7ad7fc88.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="kampf_parade" value="241729">
+        <div class="kk"><b>Sword Clash</b><small>1 s · u_fe12rqkbth ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-sword-clash-241729/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2024/09/18/audio_52ea34712d.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="kampf_parade" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="kampf_parade_perfekt">
+  <header><span class="prio">P0</span><h2>Kampf: perfekte Parade</h2><code>kampf_parade_perfekt</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="kampf_parade_perfekt" value="390294">
+        <div class="kk"><b>Bell Ring</b><small>0 s · DRAGON-STUDIO ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-bell-ring-390294/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/08/15/audio_c12b07d680.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="kampf_parade_perfekt" value="346114">
+        <div class="kk"><b>Anime Shine Sound Effect</b><small>3 s · ALEXIS_GAMING_CAM ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-anime-shine-sound-effect-346114/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/05/23/audio_264197505f.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="kampf_parade_perfekt" value="355934">
+        <div class="kk"><b>Shine 02</b><small>3 s · KoiRoylers · KI-erzeugt ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-shine-02-355934/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/06/06/audio_4ee62f7d66.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="kampf_parade_perfekt" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="kampf_ausweichen">
+  <header><span class="prio">P0</span><h2>Kampf: Ausweichen / daneben</h2><code>kampf_ausweichen</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="kampf_ausweichen" value="382724">
+        <div class="kk"><b>Simple Whoosh</b><small>0 s · DRAGON-STUDIO ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-simple-whoosh-382724/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/07/30/audio_b3087a581e.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="kampf_ausweichen" value="382717">
+        <div class="kk"><b>Whoosh Effect</b><small>0 s · DRAGON-STUDIO ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-whoosh-effect-382717/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/07/30/audio_9b5f822de1.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="kampf_ausweichen" value="405447">
+        <div class="kk"><b>Whoosh Effect</b><small>1 s · DRAGON-STUDIO ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-whoosh-effect-405447/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/09/16/audio_f5d5f66e48.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="kampf_ausweichen" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="kampf_sieg">
+  <header><span class="prio">P0</span><h2>Kampf: Sieg-Jingle</h2><code>kampf_sieg</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="kampf_sieg" value="377829">
+        <div class="kk"><b>Studio Jingle</b><small>4 s · 33370286 ·
+        <a href="https://pixabay.com/sound-effects/musical-studio-jingle-377829/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/07/20/audio_5b2bbc5f79.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="kampf_sieg" value="610812">
+        <div class="kk"><b>Fantasy Flute Stinger - Magical RPG Forest Victory</b><small>3 s · Coghezzi ·
+        <a href="https://pixabay.com/sound-effects/musical-fantasy-flute-stinger-magical-rpg-forest-victory-610812/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/09/27/audio_9337dc94f4.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="kampf_sieg" value="7000">
+        <div class="kk"><b>Gewonnen2</b><small>5 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/musical-gewonnen2-7000/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2021/08/09/audio_a311aafe21.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="kampf_sieg" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="kampf_niederlage">
+  <header><span class="prio">P0</span><h2>Kampf: Niederlage</h2><code>kampf_niederlage</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="kampf_niederlage" value="405470">
+        <div class="kk"><b>Thud Sound Effect</b><small>3 s · DRAGON-STUDIO ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-thud-sound-effect-405470/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/09/16/audio_5e920f9ce0.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="kampf_niederlage" value="352053">
+        <div class="kk"><b>Ground Impact</b><small>1 s · Universfield ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-ground-impact-352053/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/05/30/audio_0d4c9a071d.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="kampf_niederlage" value="379990">
+        <div class="kk"><b>Thud Impact Sound SFX</b><small>2 s · Virtual_Vibes ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-thud-impact-sound-sfx-379990/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/07/25/audio_afa78c92d2.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="kampf_niederlage" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="level_up">
+  <header><span class="prio">P0</span><h2>Level-Aufstieg / Punkt verteilt</h2><code>level_up</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="level_up" value="191997">
+        <div class="kk"><b>Level Up</b><small>1 s · Universfield ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-level-up-191997/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2024/02/19/audio_e4043ea6be.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="level_up" value="199576">
+        <div class="kk"><b>Level Up 03</b><small>2 s · Universfield ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-level-up-03-199576/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2024/04/01/audio_e939eebbb1.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="level_up" value="326133">
+        <div class="kk"><b>Level Up 05</b><small>1 s · Universfield ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-level-up-05-326133/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/04/11/audio_3933ad0008.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="level_up" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="anruf_klingeln">
+  <header><span class="prio">P0</span><h2>Anruf klingelt</h2><code>anruf_klingeln</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="anruf_klingeln" value="372472">
+        <div class="kk"><b>Phone Vibration</b><small>2 s · DRAGON-STUDIO ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-phone-vibration-372472/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/07/09/audio_63dc0bdd6b.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="anruf_klingeln" value="372478">
+        <div class="kk"><b>Phone Vibrating</b><small>1 s · DRAGON-STUDIO ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-phone-vibrating-372478/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/07/09/audio_d92fb979d9.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="anruf_klingeln" value="602606">
+        <div class="kk"><b>Notification Message (22)</b><small>1 s · FreePalestine_LoveRespect · KI-erzeugt ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-notification-message-22-602606/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/09/13/audio_ac8f16f713.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="anruf_klingeln" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="explosion">
+  <header><span class="prio">P0</span><h2>Explosion / Überschlag (Nacht 1)</h2><code>explosion</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="explosion" value="228344">
+        <div class="kk"><b>Cinematic Electricity Explosive Stinger - Energy Burst 1</b><small>3 s · RescopicSound ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-cinematic-electricity-explosive-stinger-energy-burst-1-228344/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2024/07/30/audio_f717577007.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="explosion" value="202928">
+        <div class="kk"><b>Firecracker Sparkling</b><small>2 s · Alex_Jauk ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-firecracker-sparkling-202928/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2024/04/17/audio_1e0d06366e.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="explosion" value="228345">
+        <div class="kk"><b>Cinematic Electricity Explosive Stinger - Energy Burst 2</b><small>3 s · RescopicSound ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-cinematic-electricity-explosive-stinger-energy-burst-2-228345/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2024/07/30/audio_5c095edf22.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="explosion" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="feuer_loop">
+  <header><span class="prio">P0</span><h2>Feuerknistern (Loop)</h2><code>feuer_loop</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="feuer_loop" value="334130">
+        <div class="kk"><b>Fire Sound</b><small>44 s · SoundReality ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-fire-sound-334130/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/04/29/audio_b0d27b76b4.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="feuer_loop" value="499636">
+        <div class="kk"><b>Fire Crackling Sound</b><small>79 s · SoundReality ·
+        <a href="https://pixabay.com/sound-effects/nature-fire-crackling-sound-499636/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/03/10/audio_5894d22731.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="feuer_loop" value="405444">
+        <div class="kk"><b>Fire Sounds</b><small>32 s · DRAGON-STUDIO ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-fire-sounds-405444/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/09/16/audio_5847bf199b.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="feuer_loop" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="alarm">
+  <header><span class="prio">P0</span><h2>Schiffsalarm (Kurzloop)</h2><code>alarm</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="alarm" value="98704">
+        <div class="kk"><b>Severe Warning Alarm</b><small>5 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-severe-warning-alarm-98704/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/03/21/audio_7b23a10981.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="alarm" value="267664">
+        <div class="kk"><b>Australia EAS Alarm</b><small>9 s · JeremayJimenez ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-australia-eas-alarm-australia-267664/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2024/11/23/audio_97d60cc445.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="alarm" value="249125">
+        <div class="kk"><b>USA EAS Alarm</b><small>8 s · JeremayJimenez ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-usa-eas-alarm-us_outlying_islands-249125/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2024/10/10/audio_a352d048b9.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="alarm" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="schritte_kies">
+  <header><span class="prio">P1</span><h2>Expedition: Schritte</h2><code>schritte_kies</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="schritte_kies" value="9109">
+        <div class="kk"><b>Chase running</b><small>5 s · KM007_ ·
+        <a href="https://pixabay.com/sound-effects/chase-running-9109/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2021/10/06/audio_408a28445f.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="schritte_kies" value="47595">
+        <div class="kk"><b>Footsteps Gravel Running-Stop</b><small>5 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-footsteps-gravel-running-stop-47595/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/03/10/audio_d2c45fbe0b.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="schritte_kies" value="397986">
+        <div class="kk"><b>Footsteps on Gravel - 2</b><small>4 s · DRAGON-STUDIO ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-footsteps-on-gravel-2-397986/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/09/01/audio_7bbe71f4f7.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="schritte_kies" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="rast_feuer">
+  <header><span class="prio">P1</span><h2>Rasten am Feuer</h2><code>rast_feuer</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="rast_feuer" value="317280">
+        <div class="kk"><b>Short Fire Whoosh_1</b><small>5 s · DJARTMUSIC ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-short-fire-whoosh-1-317280/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/03/22/audio_a0ad187792.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="rast_feuer" value="186586">
+        <div class="kk"><b>Fire Torch Whoosh 2</b><small>0 s · floraphonic ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-fire-torch-whoosh-2-186586/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2024/01/17/audio_82b98c63f1.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="rast_feuer" value="268525">
+        <div class="kk"><b>campfire/fireplace crackling</b><small>8 s · FreeEverythingxx · KI-erzeugt ·
+        <a href="https://pixabay.com/sound-effects/nature-campfirefireplace-crackling-268525/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2024/11/25/audio_42e28dc867.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="rast_feuer" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="fund">
+  <header><span class="prio">P1</span><h2>Fund-Karte / Entdeckung</h2><code>fund</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="fund" value="487898">
+        <div class="kk"><b>Clear Bell Chime</b><small>1 s · Universfield ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-clear-bell-chime-487898/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/02/20/audio_547f040f5a.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="fund" value="7143">
+        <div class="kk"><b>Chime sound</b><small>1 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-chime-sound-7143/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2021/08/09/audio_0af6cbd186.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="fund" value="196405">
+        <div class="kk"><b>Mystical Chime</b><small>3 s · u_1cwn0vj1yq ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-mystical-chime-196405/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2024/03/16/audio_0982f2ed69.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="fund" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="spur_uhr">
+  <header><span class="prio">P1</span><h2>Spur-Uhr verliert ein Segment</h2><code>spur_uhr</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="spur_uhr" value="83775">
+        <div class="kk"><b>clock ticking</b><small>4 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-clock-ticking-83775/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/03/15/audio_790971df2d.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="spur_uhr" value="104746">
+        <div class="kk"><b>Tick tock</b><small>3 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/household-tick-tock-104746/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/03/24/audio_a2cd036bc8.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="spur_uhr" value="153321">
+        <div class="kk"><b>Clock Ticking</b><small>4 s · Universfield ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-clock-ticking-153321/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2023/06/11/audio_a44575d3b3.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="spur_uhr" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="auftrag_feder">
+  <header><span class="prio">P1</span><h2>Auftrag angenommen / Schritt</h2><code>auftrag_feder</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="auftrag_feder" value="102967">
+        <div class="kk"><b>Writing,Pen,Signature,Paper</b><small>3 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-writingpensignaturepaper-102967/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/03/24/audio_7cb2075d7e.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="auftrag_feder" value="411629">
+        <div class="kk"><b>Pen Click</b><small>1 s · SoundReality ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-pen-click-411629/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/09/28/audio_ba6c7f24a3.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="auftrag_feder" value="411631">
+        <div class="kk"><b>Pen Click 2</b><small>2 s · SoundReality ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-pen-click-2-411631/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/09/28/audio_2278602a22.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="auftrag_feder" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="auftrag_siegel">
+  <header><span class="prio">P1</span><h2>Auftrag abgeschlossen</h2><code>auftrag_siegel</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="auftrag_siegel" value="44189">
+        <div class="kk"><b>traditional stamp</b><small>1 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-traditional-stamp-44189/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/03/10/audio_c082c74781.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="auftrag_siegel" value="81635">
+        <div class="kk"><b>Stamp</b><small>0 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-stamp-81635/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/03/15/audio_582d76dd0c.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="auftrag_siegel" value="93279">
+        <div class="kk"><b>stomp2</b><small>1 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-stomp2-93279/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/03/15/audio_cb29664c17.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="auftrag_siegel" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="neue_waffe">
+  <header><span class="prio">P1</span><h2>Neue Waffe (Achievement)</h2><code>neue_waffe</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="neue_waffe" value="6185">
+        <div class="kk"><b>Success Fanfare Trumpets</b><small>3 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-success-fanfare-trumpets-6185/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2021/08/04/audio_12b0c7443c.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="neue_waffe" value="6313">
+        <div class="kk"><b>Tada Fanfare A</b><small>1 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/musical-tada-fanfare-a-6313/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2021/08/04/audio_473a42432c.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="neue_waffe" value="38258">
+        <div class="kk"><b>Item Pick Up</b><small>2 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-item-pick-up-38258/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/03/10/audio_49a54d836e.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="neue_waffe" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="chip_einrasten">
+  <header><span class="prio">P1</span><h2>Werkstatt: Chip rastet ein</h2><code>chip_einrasten</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="chip_einrasten" value="382723">
+        <div class="kk"><b>Close Door</b><small>0 s · DRAGON-STUDIO ·
+        <a href="https://pixabay.com/sound-effects/household-close-door-382723/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/07/30/audio_54dc8b11bf.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="chip_einrasten" value="515258">
+        <div class="kk"><b>Heavy Door Unlocking</b><small>2 s · DRAGON-STUDIO ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-heavy-door-unlocking-515258/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/04/06/audio_a40d86bee5.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="chip_einrasten" value="411628">
+        <div class="kk"><b>Closed Door</b><small>2 s · SoundReality ·
+        <a href="https://pixabay.com/sound-effects/household-closed-door-411628/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/09/28/audio_357c1888ea.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="chip_einrasten" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="werkstatt_fertig">
+  <header><span class="prio">P1</span><h2>Werkstatt: Stück fertig</h2><code>werkstatt_fertig</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="werkstatt_fertig" value="351962">
+        <div class="kk"><b>Gear Click</b><small>2 s · KoiRoylers · KI-erzeugt ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-gear-click-351962/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/05/30/audio_80f527123c.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="werkstatt_fertig" value="95253">
+        <div class="kk"><b>ratchet socket wrench tool</b><small>1 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-ratchet-socket-wrench-tool-95253/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/03/18/audio_4e7779d130.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="werkstatt_fertig" value="86142">
+        <div class="kk"><b>High Clank</b><small>0 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-high-clank-86142/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/03/15/audio_232ed1650c.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="werkstatt_fertig" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="heilung">
+  <header><span class="prio">P1</span><h2>Heilung</h2><code>heilung</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="heilung" value="228342">
+        <div class="kk"><b>Elemental Magic Spell Impact Outgoing</b><small>3 s · RescopicSound ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-elemental-magic-spell-impact-outgoing-228342/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2024/07/30/audio_e8c15810bd.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="heilung" value="229208">
+        <div class="kk"><b>Spell Casting</b><small>2 s · Universfield ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-spell-casting-229208/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2024/08/02/audio_d867c6e0c6.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="heilung" value="478364">
+        <div class="kk"><b>Epic Spell Impact</b><small>2 s · DRAGON-STUDIO ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-epic-spell-impact-478364/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/02/02/audio_bcd3b5a8b6.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="heilung" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="status">
+  <header><span class="prio">P1</span><h2>Statuseffekt (Akzent)</h2><code>status</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="status" value="244951">
+        <div class="kk"><b>Magic Twinkle</b><small>2 s · Universfield ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-magic-twinkle-244951/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2024/09/27/audio_13e824e22a.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="status" value="84935">
+        <div class="kk"><b>080245_SFX Magic</b><small>1 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-080245-sfx-magic-84935/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/03/15/audio_d59a34405e.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="status" value="561941">
+        <div class="kk"><b>Short Whoosh Swipe Sound Effect</b><small>0 s · biww ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-short-whoosh-swipe-sound-effect-561941/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/07/04/audio_116e555c05.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="status" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="amb_deck">
+  <header><span class="prio">P1</span><h2>Ambience: Deck / Wasser am Rumpf</h2><code>amb_deck</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="amb_deck" value="6328">
+        <div class="kk"><b>Beach Waves 04</b><small>354 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/nature-beach-waves-04-6328/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2021/08/09/audio_ea709910b5.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="amb_deck" value="331501">
+        <div class="kk"><b>Lake Lapping at the Bank</b><small>22 s · DRAGON-STUDIO ·
+        <a href="https://pixabay.com/sound-effects/nature-lake-lapping-at-the-bank-331501/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/04/23/audio_2355b885a2.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="amb_deck" value="6907">
+        <div class="kk"><b>WAVES</b><small>68 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/nature-waves-6907/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2021/08/09/audio_fc1bc78a66.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="amb_deck" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="amb_nacht">
+  <header><span class="prio">P1</span><h2>Ambience: Nacht vor Anker</h2><code>amb_nacht</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="amb_nacht" value="199971">
+        <div class="kk"><b>Creaking Wood</b><small>38 s · VoiceBosch ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-creaking-wood-199971/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2024/04/03/audio_90c54480ce.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="amb_nacht" value="30692">
+        <div class="kk"><b>Wood Creaking</b><small>60 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/household-wood-creaking-30692/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/03/10/audio_e89ecec2cc.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="amb_nacht" value="24603">
+        <div class="kk"><b>Squeaky Wooden Floor</b><small>136 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/household-squeaky-wooden-floor-24603/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/03/09/audio_1e84fd8637.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="amb_nacht" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="amb_macchia">
+  <header><span class="prio">P1</span><h2>Ambience: Macchia</h2><code>amb_macchia</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="amb_macchia" value="383838">
+        <div class="kk"><b>Suono delle cicale</b><small>32 s · Places_Atmosphere_Nature ·
+        <a href="https://pixabay.com/sound-effects/nature-suono-delle-cicale-383838/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/08/02/audio_1ee0efc424.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="amb_macchia" value="54307">
+        <div class="kk"><b>Cicadas chirping at night</b><small>71 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/nature-cicadas-chirping-at-night-54307/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/03/13/audio_a948996327.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="amb_macchia" value="18891">
+        <div class="kk"><b>Heat bugs summer insect cicadas</b><small>346 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/nature-heat-bugs-summer-insect-cicadas-various-clean-77mel-190831-18891/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/02/10/audio_ec0dae3c22.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="amb_macchia" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="bordrat">
+  <header><span class="prio">P1</span><h2>Bordrat / neue Bordregel</h2><code>bordrat</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="bordrat" value="494312">
+        <div class="kk"><b>Fast Knocking</b><small>2 s · DRAGON-STUDIO ·
+        <a href="https://pixabay.com/sound-effects/household-fast-knocking-494312/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/03/02/audio_f815352c32.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="bordrat" value="47108">
+        <div class="kk"><b>Knock</b><small>1 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-knock-47108/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/03/10/audio_9aa3217963.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="bordrat" value="96853">
+        <div class="kk"><b>Hard anger knocking with added reverb</b><small>2 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/household-hard-anger-knocking-with-added-reverb-96853/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/03/19/audio_29c24798df.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="bordrat" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="versprechen">
+  <header><span class="prio">P1</span><h2>Versprechen gegeben / gehalten</h2><code>versprechen</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="versprechen" value="123107">
+        <div class="kk"><b>Attention Chime</b><small>4 s · Universfield ·
+        <a href="https://pixabay.com/sound-effects/musical-attention-chime-123107/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/10/16/audio_10bebc0b9f.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="versprechen" value="487898">
+        <div class="kk"><b>Clear Bell Chime</b><small>1 s · Universfield ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-clear-bell-chime-487898/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/02/20/audio_547f040f5a.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="versprechen" value="7143">
+        <div class="kk"><b>Chime sound</b><small>1 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-chime-sound-7143/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2021/08/09/audio_0af6cbd186.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="versprechen" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="versprechen_gebrochen">
+  <header><span class="prio">P1</span><h2>Versprechen gebrochen</h2><code>versprechen_gebrochen</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="versprechen_gebrochen" value="118943">
+        <div class="kk"><b>dramatic sting</b><small>1 s · u_903n3qx7rq ·
+        <a href="https://pixabay.com/sound-effects/musical-dramatic-sting-118943/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/09/02/audio_adce41af91.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="versprechen_gebrochen" value="500897">
+        <div class="kk"><b>Cartoon Kids Logo Sting</b><small>2 s · OpenMindAudio · KI-erzeugt ·
+        <a href="https://pixabay.com/sound-effects/musical-cartoon-kids-logo-sting-little-loop-laugh-500897/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/03/12/audio_eaf3aaf7c8.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="versprechen_gebrochen" value="576223">
+        <div class="kk"><b>Happy Logo Pop Sting</b><small>4 s · Emand_Edroff · KI-erzeugt ·
+        <a href="https://pixabay.com/sound-effects/musical-happy-logo-pop-sting-576223/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/07/29/audio_91c39dd90f.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="versprechen_gebrochen" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="anhoerung_hammer">
+  <header><span class="prio">P2</span><h2>Anhörung: Hammer</h2><code>anhoerung_hammer</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="anhoerung_hammer" value="352702">
+        <div class="kk"><b>Cinematic Impact Hit</b><small>3 s · Universfield ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-cinematic-impact-hit-352702/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/06/02/audio_316d8e1c15.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="anhoerung_hammer" value="124029">
+        <div class="kk"><b>Gavel of Justice</b><small>3 s · IntrepidMedia ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-gavel-of-justice-124029/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/10/25/audio_f07c3636b6.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="anhoerung_hammer" value="567216">
+        <div class="kk"><b>Cinematic Piano Hit</b><small>4 s · Universfield ·
+        <a href="https://pixabay.com/sound-effects/musical-cinematic-piano-hit-567216/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/07/14/audio_8f98537420.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="anhoerung_hammer" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="anhoerung_einspruch">
+  <header><span class="prio">P2</span><h2>Anhörung: OBJECTION!-Stinger</h2><code>anhoerung_einspruch</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="anhoerung_einspruch" value="352465">
+        <div class="kk"><b>Cinematic Impact Boom 05</b><small>2 s · Universfield ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-cinematic-impact-boom-05-352465/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/05/31/audio_be1e4daf3e.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="anhoerung_einspruch" value="131801">
+        <div class="kk"><b>Appearance 017</b><small>4 s · Universfield ·
+        <a href="https://pixabay.com/sound-effects/horror-appearance-017-131801/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2023/01/01/audio_415381e3af.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="anhoerung_einspruch" value="242635">
+        <div class="kk"><b>Cinematic Riser Impact</b><small>4 s · Universfield ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-cinematic-riser-impact-242635/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2024/09/20/audio_3912589570.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="anhoerung_einspruch" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="amb_hafen">
+  <header><span class="prio">P2</span><h2>Ambience: Hafen</h2><code>amb_hafen</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="amb_hafen" value="157829">
+        <div class="kk"><b>Sound Effect Seagulls</b><small>47 s · ScottishPerson ·
+        <a href="https://pixabay.com/sound-effects/nature-sound-effect-seagulls-157829/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2023/07/12/audio_3023b4f6db.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="amb_hafen" value="486892">
+        <div class="kk"><b>Sea gently lapping waves far away seagulls</b><small>75 s · JonathanSlatterMusic ·
+        <a href="https://pixabay.com/sound-effects/nature-sea-gently-lapping-waves-far-away-seagulls-486892/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/02/18/audio_d2bf759645.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="amb_hafen" value="30068">
+        <div class="kk"><b>URBAN SEAGULLS</b><small>55 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/nature-urban-seagulls-30068/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/03/10/audio_0056b838a6.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="amb_hafen" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="amb_bar">
+  <header><span class="prio">P2</span><h2>Ambience: Bar</h2><code>amb_bar</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="amb_bar" value="6368">
+        <div class="kk"><b>talking people</b><small>68 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/people-talking-people-6368/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2021/08/04/audio_415d5e6d6e.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="amb_bar" value="5979">
+        <div class="kk"><b>bar chatter</b><small>372 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/people-bar-chatter-5979/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2021/08/09/audio_de858b3f3e.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="amb_bar" value="14816">
+        <div class="kk"><b>General Chatter In Bar</b><small>233 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/people-general-chatter-in-bar-14816/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/01/18/audio_937ab58728.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="amb_bar" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="menue_tab">
+  <header><span class="prio">P2</span><h2>Menü: Reiter wechseln</h2><code>menue_tab</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="menue_tab" value="336933">
+        <div class="kk"><b>Turn a Page</b><small>1 s · CreatorsHome ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-turn-a-page-336933/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/05/05/audio_ca4220361e.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="menue_tab" value="499646">
+        <div class="kk"><b>Flipping Book Page</b><small>1 s · DRAGON-STUDIO ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-flipping-book-page-499646/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/03/10/audio_eb81be454b.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="menue_tab" value="305789">
+        <div class="kk"><b>Page Turn</b><small>1 s · 49053354 ·
+        <a href="https://pixabay.com/sound-effects/film-special-effects-page-turn-305789/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/02/25/audio_d2ca9a8411.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="menue_tab" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+<article class="slot" data-id="ruhig_voegel">
+  <header><span class="prio">P2</span><h2>Ruhiger Ort („Quiet“)</h2><code>ruhig_voegel</code></header>
+  <div class="ks">
+      <label class="k"><input type="radio" name="ruhig_voegel" value="75156">
+        <div class="kk"><b>Birds chirping</b><small>22 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/nature-birds-chirping-75156/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/03/15/audio_442b144fc5.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="ruhig_voegel" value="217410">
+        <div class="kk"><b>Chirping Birds Ambience</b><small>97 s · OxidVideos ·
+        <a href="https://pixabay.com/sound-effects/nature-chirping-birds-ambience-217410/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2024/06/15/audio_7ab24f6957.mp3"></audio></div></label>
+      <label class="k"><input type="radio" name="ruhig_voegel" value="26052">
+        <div class="kk"><b>Birds chirping ambiance</b><small>19 s · freesound_community ·
+        <a href="https://pixabay.com/sound-effects/nature-birds-chirping-ambiance-26052/" target="_blank" rel="noopener">Pixabay</a></small>
+        <audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/03/09/audio_c610232c26.mp3"></audio></div></label>
+    <label class="k keiner"><input type="radio" name="ruhig_voegel" value="keiner"><div class="kk"><b>Keiner passt</b><small>neu suchen</small></div></label>
+  </div>
+  <input class="notiz" type="text" placeholder="Notiz (optional, z. B. „kürzer“, „weniger hell“)">
+</article>
+</main>
+<div class="fuss"><span id="stand"></span><button id="kopie">Ergebnis kopieren</button><textarea id="ta"></textarea></div>
+<script>
+const KEY="sfx_pixabay_v1";let S={};try{S=JSON.parse(localStorage.getItem(KEY)||"{}")}catch(e){}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}}
+const slots=[...document.querySelectorAll(".slot")];
+function zeichnen(){let n=0;slots.forEach(s=>{const v=S[s.dataset.id]||{};s.querySelectorAll("input[type=radio]").forEach(r=>r.checked=r.value===v.wahl);
+ s.querySelector(".notiz").value=v.notiz||"";s.classList.toggle("entschieden",!!v.wahl);if(v.wahl)n++});
+ document.getElementById("stand").textContent=n+" / "+slots.length+" gewählt"}
+slots.forEach(s=>{const id=s.dataset.id;
+ s.querySelectorAll("input[type=radio]").forEach(r=>r.onchange=()=>{S[id]=Object.assign(S[id]||{},{wahl:r.value});save();zeichnen()});
+ s.querySelector(".notiz").oninput=e=>{S[id]=Object.assign(S[id]||{},{notiz:e.target.value});save();zeichnen()};
+ s.querySelectorAll("audio").forEach(a=>a.addEventListener("play",()=>document.querySelectorAll("audio").forEach(o=>{if(o!==a)o.pause()})))});
+document.getElementById("kopie").onclick=async()=>{const t="SFX-Auswahl Pixabay:\n"+slots.map(s=>{const v=S[s.dataset.id]||{};return s.dataset.id+": "+(v.wahl||"–")+(v.notiz?" ("+v.notiz+")":"")}).join("\n");
+ try{await navigator.clipboard.writeText(t)}catch(e){const ta=document.getElementById("ta");ta.value=t;ta.select();document.execCommand("copy")}
+ const b=document.getElementById("kopie");b.textContent="Kopiert ✓";setTimeout(()=>b.textContent="Ergebnis kopieren",1500)};
+zeichnen();
+</script></body></html>

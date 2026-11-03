@@ -1,0 +1,67 @@
+{
+ "id": "zimmer_bilder2",
+ "titel": "Zimmer von innen, Yacht-Stil, ohne Tür",
+ "hinweis": "Je Zimmer meine Wahl, Türränder abgeschnitten. OK oder Neu mit Notiz.",
+ "items": [
+  {
+   "id": "crew_kabine_1",
+   "titel": "Crew 1, Sophia und Lea",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\zimmer_bilder2\\crew_kabine_1.png",
+   "soll": "Crew 1, Sophia und Lea: v2, rechts die Tür abgeschnitten"
+  },
+  {
+   "id": "crew_kabine_2",
+   "titel": "Crew 2, Lola und Jana",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\zimmer_bilder2\\crew_kabine_2.png",
+   "soll": "Crew 2, Lola und Jana: v1, rechts Tür und Bullauge abgeschnitten (alle Varianten hatten ein Bullauge)"
+  },
+  {
+   "id": "crew_kabine_3",
+   "titel": "Crew 3, Chiara und Rosi",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\zimmer_bilder2\\crew_kabine_3.png",
+   "soll": "Crew 3, Chiara und Rosi: v1, rechts die Tür abgeschnitten"
+  },
+  {
+   "id": "waescherei_kabine_tag",
+   "titel": "Wäscherei-Kabine Tag",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\zimmer_bilder2\\waescherei_kabine_tag.png",
+   "soll": "Wäscherei-Kabine Tag: v2, Ränder beschnitten"
+  },
+  {
+   "id": "waescherei_kabine_nacht",
+   "titel": "Wäscherei-Kabine Nacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\zimmer_bilder2\\waescherei_kabine_nacht.png",
+   "soll": "Wäscherei-Kabine Nacht: v2, links die Tür abgeschnitten"
+  },
+  {
+   "id": "kuehlraum",
+   "titel": "Kühlraum",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\zimmer_bilder2\\kuehlraum.png",
+   "soll": "Kühlraum: v2, ohne Tür, unverändert"
+  },
+  {
+   "id": "alva_wohnung_tag",
+   "titel": "Alvas Wohnung Tag",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\zimmer_bilder2\\alva_wohnung_tag.png",
+   "soll": "Alvas Wohnung Tag: v2, unverändert"
+  },
+  {
+   "id": "alva_wohnung_nacht",
+   "titel": "Alvas Wohnung Nacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\zimmer_bilder2\\alva_wohnung_nacht.png",
+   "soll": "Alvas Wohnung Nacht: v2, unverändert"
+  },
+  {
+   "id": "bibi_haeuschen_tag",
+   "titel": "Bibis Häuschen Tag",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\zimmer_bilder2\\bibi_haeuschen_tag.png",
+   "soll": "Bibis Häuschen Tag: v4, links den Türrahmen abgeschnitten. Das Löwenbild ist eher grafisch als abstrakt"
+  },
+  {
+   "id": "bibi_haeuschen_nacht",
+   "titel": "Bibis Häuschen Nacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\zimmer_bilder2\\bibi_haeuschen_nacht.png",
+   "soll": "Bibis Häuschen Nacht: v2, ohne Tür, unverändert"
+  }
+ ]
+}

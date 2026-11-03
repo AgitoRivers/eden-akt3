@@ -1,0 +1,47 @@
+{
+ "fabbiu_1": {
+  "lufs": -18.4,
+  "dauer": 14.7,
+  "band_8_10k_db": -18.2
+ },
+ "fabbiu_2": {
+  "lufs": -18.1,
+  "dauer": 18.5,
+  "band_8_10k_db": -18.7
+ },
+ "fabbiu_3": {
+  "lufs": -19.9,
+  "dauer": 17.3,
+  "band_8_10k_db": -20.5
+ },
+ "matte_1": {
+  "lufs": -21.1,
+  "dauer": 20.8,
+  "band_8_10k_db": -13.5
+ },
+ "matte_2": {
+  "lufs": -19.1,
+  "dauer": 20.2,
+  "band_8_10k_db": -17.8
+ },
+ "matte_3": {
+  "lufs": -20.6,
+  "dauer": 20.3,
+  "band_8_10k_db": -17.8
+ },
+ "santu_1": {
+  "lufs": -19.0,
+  "dauer": 20.1,
+  "band_8_10k_db": -18.7
+ },
+ "santu_2": {
+  "lufs": -19.0,
+  "dauer": 22.4,
+  "band_8_10k_db": -16.0
+ },
+ "santu_3": {
+  "lufs": -19.7,
+  "dauer": 22.2,
+  "band_8_10k_db": -18.1
+ }
+}

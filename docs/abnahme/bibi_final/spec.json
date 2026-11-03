@@ -1,0 +1,85 @@
+{
+ "id": "bibi_final_r1",
+ "titel": "Bibi – alle 13 Posen, Löwe überall schwarz",
+ "hinweis": "Bei deinen freigegebenen Posen wurde nur der Löwe neu gemalt. Alles OK, dann kommt Bibi ins Spiel.",
+ "items": [
+  {
+   "id": "Bibi_idle",
+   "titel": "Bibi · idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\idle.png",
+   "soll": "Löwe ganz schwarz, mit Gesicht und Pfoten; schwarze Dosen."
+  },
+  {
+   "id": "Bibi_windup",
+   "titel": "Bibi · windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\windup.png",
+   "soll": "Löwe ganz schwarz, mit Gesicht und Pfoten; schwarze Dosen."
+  },
+  {
+   "id": "Bibi_attack",
+   "titel": "Bibi · attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\attack.png",
+   "soll": "Löwe ganz schwarz, mit Gesicht und Pfoten; schwarze Dosen."
+  },
+  {
+   "id": "Bibi_heavy_windup",
+   "titel": "Bibi · heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\heavy_windup.png",
+   "soll": "Löwe ganz schwarz, mit Gesicht und Pfoten; schwarze Dosen."
+  },
+  {
+   "id": "Bibi_heavy_attack",
+   "titel": "Bibi · heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\heavy_attack.png",
+   "soll": "Löwe ganz schwarz, mit Gesicht und Pfoten; schwarze Dosen."
+  },
+  {
+   "id": "Bibi_guard",
+   "titel": "Bibi · guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\guard.png",
+   "soll": "Löwe ganz schwarz, mit Gesicht und Pfoten; schwarze Dosen."
+  },
+  {
+   "id": "Bibi_hurt",
+   "titel": "Bibi · hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\hurt.png",
+   "soll": "Löwe ganz schwarz, mit Gesicht und Pfoten; schwarze Dosen."
+  },
+  {
+   "id": "Bibi_weakened",
+   "titel": "Bibi · weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\weakened.png",
+   "soll": "Löwe ganz schwarz, mit Gesicht und Pfoten; schwarze Dosen."
+  },
+  {
+   "id": "Bibi_enraged",
+   "titel": "Bibi · enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\enraged.png",
+   "soll": "Löwe ganz schwarz, mit Gesicht und Pfoten; schwarze Dosen."
+  },
+  {
+   "id": "Bibi_flee",
+   "titel": "Bibi · flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\flee.png",
+   "soll": "Löwe ganz schwarz, mit Gesicht und Pfoten; schwarze Dosen."
+  },
+  {
+   "id": "Bibi_surrender",
+   "titel": "Bibi · surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\surrender.png",
+   "soll": "Löwe ganz schwarz, mit Gesicht und Pfoten; schwarze Dosen."
+  },
+  {
+   "id": "Bibi_victory",
+   "titel": "Bibi · victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\victory.png",
+   "soll": "Löwe ganz schwarz, mit Gesicht und Pfoten; schwarze Dosen."
+  },
+  {
+   "id": "Bibi_defeated",
+   "titel": "Bibi · defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\defeated.png",
+   "soll": "Löwe ganz schwarz, mit Gesicht und Pfoten; schwarze Dosen."
+  }
+ ]
+}

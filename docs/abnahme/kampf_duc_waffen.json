@@ -1,0 +1,157 @@
+{
+ "id": "kampf_duc_waffen",
+ "titel": "Duc-Kampf-Sprites: 5 Jacken × 5 Waffen",
+ "hinweis": "Von Claude geprüft und nachgebessert (19 Einzelposen neu). Ein Bild = ein Set mit 13 Posen, gespiegelt (Duc schaut nach rechts, flee bleibt ungespiegelt). Defeated ist ohne Waffe und daher je Look gleich. Bekannte Kleinigkeiten: Speer ragt in victory/surrender teils über den Rand, Saufeder hat manchmal eine rote Quaste.",
+ "items": [
+  {
+   "id": "DucErdeBat",
+   "titel": "Terra Scura – Terremoto (Schläger, Erde)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\duc_waffen\\DucErdeBat.jpg",
+   "soll": "13 Posen, genau eine Waffe, alles im Bild, kein Mündungsfeuer/Ball. Bei Neu bitte die Pose(n) in die Notiz."
+  },
+  {
+   "id": "DucErdeSpear",
+   "titel": "Terra Scura – Le Large (Saufeder, Feuer)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\duc_waffen\\DucErdeSpear.jpg",
+   "soll": "13 Posen, genau eine Waffe, alles im Bild, kein Mündungsfeuer/Ball. Bei Neu bitte die Pose(n) in die Notiz."
+  },
+  {
+   "id": "DucErdeSword",
+   "titel": "Terra Scura – Riposte (Säbel, Wasser)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\duc_waffen\\DucErdeSword.jpg",
+   "soll": "13 Posen, genau eine Waffe, alles im Bild, kein Mündungsfeuer/Ball. Bei Neu bitte die Pose(n) in die Notiz."
+  },
+  {
+   "id": "DucErdeKnife",
+   "titel": "Terra Scura – Sussurro (Messer, Luft)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\duc_waffen\\DucErdeKnife.jpg",
+   "soll": "13 Posen, genau eine Waffe, alles im Bild, kein Mündungsfeuer/Ball. Bei Neu bitte die Pose(n) in die Notiz."
+  },
+  {
+   "id": "DucErdeGun",
+   "titel": "Terra Scura – Gemelli (Flinte)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\duc_waffen\\DucErdeGun.jpg",
+   "soll": "13 Posen, genau eine Waffe, alles im Bild, kein Mündungsfeuer/Ball. Bei Neu bitte die Pose(n) in die Notiz."
+  },
+  {
+   "id": "DucWasserBat",
+   "titel": "Meramie – Terremoto (Schläger, Erde)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\duc_waffen\\DucWasserBat.jpg",
+   "soll": "13 Posen, genau eine Waffe, alles im Bild, kein Mündungsfeuer/Ball. Bei Neu bitte die Pose(n) in die Notiz."
+  },
+  {
+   "id": "DucWasserSpear",
+   "titel": "Meramie – Le Large (Saufeder, Feuer)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\duc_waffen\\DucWasserSpear.jpg",
+   "soll": "13 Posen, genau eine Waffe, alles im Bild, kein Mündungsfeuer/Ball. Bei Neu bitte die Pose(n) in die Notiz."
+  },
+  {
+   "id": "DucWasserSword",
+   "titel": "Meramie – Riposte (Säbel, Wasser)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\duc_waffen\\DucWasserSword.jpg",
+   "soll": "13 Posen, genau eine Waffe, alles im Bild, kein Mündungsfeuer/Ball. Bei Neu bitte die Pose(n) in die Notiz."
+  },
+  {
+   "id": "DucWasserKnife",
+   "titel": "Meramie – Sussurro (Messer, Luft)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\duc_waffen\\DucWasserKnife.jpg",
+   "soll": "13 Posen, genau eine Waffe, alles im Bild, kein Mündungsfeuer/Ball. Bei Neu bitte die Pose(n) in die Notiz."
+  },
+  {
+   "id": "DucWasserGun",
+   "titel": "Meramie – Gemelli (Flinte)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\duc_waffen\\DucWasserGun.jpg",
+   "soll": "13 Posen, genau eine Waffe, alles im Bild, kein Mündungsfeuer/Ball. Bei Neu bitte die Pose(n) in die Notiz."
+  },
+  {
+   "id": "DucFeuerBat",
+   "titel": "Incendio – Terremoto (Schläger, Erde)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\duc_waffen\\DucFeuerBat.jpg",
+   "soll": "13 Posen, genau eine Waffe, alles im Bild, kein Mündungsfeuer/Ball. Bei Neu bitte die Pose(n) in die Notiz."
+  },
+  {
+   "id": "DucFeuerSpear",
+   "titel": "Incendio – Le Large (Saufeder, Feuer)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\duc_waffen\\DucFeuerSpear.jpg",
+   "soll": "13 Posen, genau eine Waffe, alles im Bild, kein Mündungsfeuer/Ball. Bei Neu bitte die Pose(n) in die Notiz."
+  },
+  {
+   "id": "DucFeuerSword",
+   "titel": "Incendio – Riposte (Säbel, Wasser)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\duc_waffen\\DucFeuerSword.jpg",
+   "soll": "13 Posen, genau eine Waffe, alles im Bild, kein Mündungsfeuer/Ball. Bei Neu bitte die Pose(n) in die Notiz."
+  },
+  {
+   "id": "DucFeuerKnife",
+   "titel": "Incendio – Sussurro (Messer, Luft)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\duc_waffen\\DucFeuerKnife.jpg",
+   "soll": "13 Posen, genau eine Waffe, alles im Bild, kein Mündungsfeuer/Ball. Bei Neu bitte die Pose(n) in die Notiz."
+  },
+  {
+   "id": "DucFeuerGun",
+   "titel": "Incendio – Gemelli (Flinte)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\duc_waffen\\DucFeuerGun.jpg",
+   "soll": "13 Posen, genau eine Waffe, alles im Bild, kein Mündungsfeuer/Ball. Bei Neu bitte die Pose(n) in die Notiz."
+  },
+  {
+   "id": "DucLuftBat",
+   "titel": "Zéphyr – Terremoto (Schläger, Erde)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\duc_waffen\\DucLuftBat.jpg",
+   "soll": "13 Posen, genau eine Waffe, alles im Bild, kein Mündungsfeuer/Ball. Bei Neu bitte die Pose(n) in die Notiz."
+  },
+  {
+   "id": "DucLuftSpear",
+   "titel": "Zéphyr – Le Large (Saufeder, Feuer)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\duc_waffen\\DucLuftSpear.jpg",
+   "soll": "13 Posen, genau eine Waffe, alles im Bild, kein Mündungsfeuer/Ball. Bei Neu bitte die Pose(n) in die Notiz."
+  },
+  {
+   "id": "DucLuftSword",
+   "titel": "Zéphyr – Riposte (Säbel, Wasser)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\duc_waffen\\DucLuftSword.jpg",
+   "soll": "13 Posen, genau eine Waffe, alles im Bild, kein Mündungsfeuer/Ball. Bei Neu bitte die Pose(n) in die Notiz."
+  },
+  {
+   "id": "DucLuftKnife",
+   "titel": "Zéphyr – Sussurro (Messer, Luft)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\duc_waffen\\DucLuftKnife.jpg",
+   "soll": "13 Posen, genau eine Waffe, alles im Bild, kein Mündungsfeuer/Ball. Bei Neu bitte die Pose(n) in die Notiz."
+  },
+  {
+   "id": "DucLuftGun",
+   "titel": "Zéphyr – Gemelli (Flinte)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\duc_waffen\\DucLuftGun.jpg",
+   "soll": "13 Posen, genau eine Waffe, alles im Bild, kein Mündungsfeuer/Ball. Bei Neu bitte die Pose(n) in die Notiz."
+  },
+  {
+   "id": "DucCyberBat",
+   "titel": "Citadelle – Terremoto (Schläger, Erde)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\duc_waffen\\DucCyberBat.jpg",
+   "soll": "13 Posen, genau eine Waffe, alles im Bild, kein Mündungsfeuer/Ball. Bei Neu bitte die Pose(n) in die Notiz."
+  },
+  {
+   "id": "DucCyberSpear",
+   "titel": "Citadelle – Le Large (Saufeder, Feuer)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\duc_waffen\\DucCyberSpear.jpg",
+   "soll": "13 Posen, genau eine Waffe, alles im Bild, kein Mündungsfeuer/Ball. Bei Neu bitte die Pose(n) in die Notiz."
+  },
+  {
+   "id": "DucCyberSword",
+   "titel": "Citadelle – Riposte (Säbel, Wasser)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\duc_waffen\\DucCyberSword.jpg",
+   "soll": "13 Posen, genau eine Waffe, alles im Bild, kein Mündungsfeuer/Ball. Bei Neu bitte die Pose(n) in die Notiz."
+  },
+  {
+   "id": "DucCyberKnife",
+   "titel": "Citadelle – Sussurro (Messer, Luft)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\duc_waffen\\DucCyberKnife.jpg",
+   "soll": "13 Posen, genau eine Waffe, alles im Bild, kein Mündungsfeuer/Ball. Bei Neu bitte die Pose(n) in die Notiz."
+  },
+  {
+   "id": "DucCyberGun",
+   "titel": "Citadelle – Gemelli (Flinte)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\duc_waffen\\DucCyberGun.jpg",
+   "soll": "13 Posen, genau eine Waffe, alles im Bild, kein Mündungsfeuer/Ball. Bei Neu bitte die Pose(n) in die Notiz."
+  }
+ ]
+}

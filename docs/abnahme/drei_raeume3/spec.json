@@ -1,0 +1,51 @@
+{
+ "id": "drei_raeume3",
+ "titel": "Megans Nacht, Toilette weiter",
+ "hinweis": "v1 und v3 der Toilette hatten eine Tür im Bild und sind aussortiert.",
+ "items": [
+  {
+   "id": "megan_nacht_v1",
+   "titel": "Megans Kabine, Nacht · v1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_megan_kabine_nacht_e_v1.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_megan_kabine_auswahl.png",
+   "vergleich_titel": "Deine Tag-Wahl (B v1)",
+   "soll": ""
+  },
+  {
+   "id": "megan_nacht_v2",
+   "titel": "Megans Kabine, Nacht · v2  ⭐ Vorschlag",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_megan_kabine_nacht_e_v2.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_megan_kabine_auswahl.png",
+   "vergleich_titel": "Deine Tag-Wahl (B v1)",
+   "soll": "Mond auf dem Wasser, Lichter von Monaco im rechten Fenster."
+  },
+  {
+   "id": "megan_nacht_v3",
+   "titel": "Megans Kabine, Nacht · v3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_megan_kabine_nacht_e_v3.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_megan_kabine_auswahl.png",
+   "vergleich_titel": "Deine Tag-Wahl (B v1)",
+   "soll": ""
+  },
+  {
+   "id": "megan_nacht_v4",
+   "titel": "Megans Kabine, Nacht · v4",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_megan_kabine_nacht_e_v4.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_megan_kabine_auswahl.png",
+   "vergleich_titel": "Deine Tag-Wahl (B v1)",
+   "soll": ""
+  },
+  {
+   "id": "toilette_v4",
+   "titel": "Toilette, weiter rausgezoomt · v4  ⭐ Vorschlag",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_yacht_toilette_a_v4.png",
+   "soll": "Ganzer Raum im Bild, Boden vorn frei, keine Tür. Links eine Badewanne."
+  },
+  {
+   "id": "toilette_v2",
+   "titel": "Toilette, weiter rausgezoomt · v2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_yacht_toilette_a_v2.png",
+   "soll": "Links steht die Glastür der Dusche mit Griff, keine Raumtür."
+  }
+ ]
+}

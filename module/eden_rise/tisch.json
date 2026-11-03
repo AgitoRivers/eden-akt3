@@ -1,0 +1,327 @@
+{
+ "_hinweis": "Tischszenen (kern/tisch.py). Gebaut von werkzeuge/eden_rise/tisch_eden_rise.py - nicht von Hand aendern. Figur -> Szene; Rede ohne Tags, ohne Anfuehrungszeichen. Audio: tisch.<figur>.<0|1|2>.",
+ "szenen": {
+  "lea": {
+   "item": "bun_rieu",
+   "titel": "Bún Riêu · Lea's favourite",
+   "teller": {
+    "normal": "You set the bowl down on the bench beside the dive gear. Lea looks at the tomato broth, then at you, then at the bowl again.",
+    "kritisch": "The broth is the red of a Cornish sunset and the steam smells of crab and tomato. Lea has stopped moving altogether."
+   },
+   "antwort": "You tell her it's your mother's recipe, and that the secret is the shrimp paste. Lea looks at you as if you'd just handed her a country.",
+   "bissen": {
+    "text": "Wait. Wait, is that bún riêu? The crab, the tomato, the little sour bit at the end, that's Linh's! Did you know a crab tastes things with its legs? Linh told me that, and I think she was winding me up, but I've believed it ever since.",
+    "gefuehl": "joy"
+   },
+   "erinnerung": [
+    {
+     "text": "Linh was Grandad Jack's partner for years. She came to Cornwall with one suitcase and a recipe book, and she filled the house with the smell of crab and tomato every Sunday. Grandad ate it with a spoon and pretended he'd always liked it.",
+     "gefuehl": "amusement"
+    },
+    {
+     "text": "I'm going to see Vietnam one day, you know. I've got a map on my wall with every reef I want to dive marked in pencil. You just cooked the closest thing to being there. Thank you, Duc.",
+     "gefuehl": "sadness"
+    }
+   ]
+  },
+  "toto": {
+   "item": "thit_kho",
+   "titel": "Thịt Kho · Totò's favourite",
+   "teller": {
+    "normal": "You put the plate on the crate in the storeroom, the one Totò says is for the engine room. He lifts the lid of his lunch box to make space and stops with the lid in his hand.",
+    "kritisch": "The pork shines like polished wood and the egg is split exactly in half. Totò stops chewing a mouthful that isn't even there yet."
+   },
+   "antwort": "You tell him it's thịt kho, your mother's, with the eggs boiled in the same pot. Totò repeats the name three times, badly, with his hands.",
+   "bissen": {
+    "text": "Madonna, Comandante, WHAT IS THAT?! What did you do to the pork? It's sweet, it's salty, it's almost burnt and it's perfect, and I don't even know what to call it! Somebody tell me what I'm eating!",
+    "gefuehl": "surprise"
+   },
+   "erinnerung": [
+    {
+     "text": "Thịt kho. Okay, okay, I'll practise. In Napoli we have a pot like this on Sundays, pork, slow fire, an egg if you're lucky, but nobody ever put caramel in it. I think your mother and my mother would have fought about the sugar.",
+     "gefuehl": "amusement"
+    },
+    {
+     "text": "Nobody sold it to me, nobody stole it, nobody wrote it on a ticket. A man's mother made it, then the man made it for me. Two to one that you won't give me the real recipe. Today I am generous.",
+     "gefuehl": "caring"
+    }
+   ]
+  },
+  "yasin": {
+   "item": "bibimbap",
+   "titel": "Bibimbap · Yasin's favourite",
+   "teller": {
+    "normal": "You hand Yasin the bowl. His phone is already in his other hand, camera up, and he is already smiling at it.",
+    "kritisch": "The egg yolk sits like a small sun on top of the rice, and every vegetable has its own corner of the bowl. Yasin lowers the phone without noticing."
+   },
+   "antwort": "You say you learned it from a neighbour who never wrote the recipe down. Yasin offers to buy it. You tell him it isn't for sale.",
+   "bissen": {
+    "text": "Bro, this is so good. Hold on, I'm filming this, my followers are going to lose it. No. Actually no. Put it away. Let me just eat this one.",
+    "gefuehl": "surprise"
+   },
+   "erinnerung": [
+    {
+     "text": "My dad was never in Paris for long, but when he was, we went to this tiny Korean place two streets from our flat. He always ordered for both of us, and he always said the same thing: ‘You can't ruin a bowl.’",
+     "gefuehl": "caring"
+    },
+    {
+     "text": "I wouldn't say this on camera, but that's the only meal I remember better than the food. Anyway. That's business, bro. Put me down for a second helping. I'll pay you in exposure.",
+     "gefuehl": "embarrassment"
+    }
+   ]
+  },
+  "sophia": {
+   "item": "summer_rolls",
+   "titel": "Summer Rolls · Sophia's favourite",
+   "teller": {
+    "normal": "You set the plate down on the table on the aft deck, between her little brown notebook and her coffee. Sophia doesn't touch the notebook, which is unusual.",
+    "kritisch": "The rice paper is so thin you can see the prawn and the mint through it. Sophia puts her pencil down very slowly."
+   },
+   "antwort": "You say it's the way your mother rolls them, with the herbs inside and not on the side. Sophia takes out her notebook, thinks better of it, and puts it away.",
+   "bissen": {
+    "text": "Darling, these are transparent. And that herb mix, hold on, that's Linh's mix, the mint, the coriander, the little bit of perilla. Don't tell me where you learned it yet. Let me just enjoy being surprised.",
+    "gefuehl": "surprise"
+   },
+   "erinnerung": [
+    {
+     "text": "Linh, Grandad Jack's partner, taught us to roll these at the kitchen table when Lea was small and Mum had forgotten the shopping again. Lea called them ‘surprise parcels’ and filled them with whatever she liked, mostly prawns and once a sardine. I let her think it was a game.",
+     "gefuehl": "caring"
+    },
+    {
+     "text": "Do you know what I actually want? Nobody ever asks. A meal I didn't have to arrange, with someone I didn't have to win over. This is very close to that, darling, and I'd be grateful if you didn't make a fuss.",
+     "gefuehl": "sadness"
+    }
+   ]
+  },
+  "rosi": {
+   "item": "ramen",
+   "titel": "Ramen · Rosi's favourite",
+   "teller": {
+    "normal": "You carry the bowl down to the engine room and put it on the clean bench, the one she keeps free of oil. Rosi wipes her hands twice and takes the bowl anyway.",
+    "kritisch": "The broth is the colour of strong amber and the egg looks like it was set with a stopwatch. Rosi puts her spanner down without being asked."
+   },
+   "antwort": "You say you got the broth right on the fourth try, the one you gave up on and left simmering overnight. Rosi calls it a heretic's method and takes a second spoonful.",
+   "bissen": {
+    "text": "That's the bowl from the manga. The broth, the egg, the little spiral thing. I've looked at it in panels for years and nobody ever told me it smells like this.",
+    "gefuehl": "surprise"
+   },
+   "erinnerung": [
+    {
+     "text": "It's like a generator running right for once. You can hear that nothing in it is fighting itself. Unit-01 would love this, if Unit-01 loved anything except diesel.",
+     "gefuehl": "neutral"
+    },
+    {
+     "text": "Papa never had time to cook after the bank took the workshop. He ate standing up at the bench, a roll in one hand and a spanner in the other. If he sat down for a bowl like this, he'd forget the spanner for ten minutes. Don't tell him I said that. And this isn't a defeat, Officer. It's a tie.",
+     "gefuehl": "caring"
+    }
+   ]
+  },
+  "alva": {
+   "item": "chili_noodles",
+   "titel": "Chilli Noodles · Alva's favourite",
+   "teller": {
+    "normal": "You push the bowl across the bar. Alva dries a glass, puts it down, and looks at the bowl as if it had asked for a tab.",
+    "kritisch": "The steam stings your eyes from across the counter. Alva leans over it with her eyes half closed, the way she does for a good song."
+   },
+   "antwort": "You tell her it's the noodles your mother makes when the day has been too long. Alva fans her face with the menu, asks for water, and then for more noodles.",
+   "bissen": {
+    "text": "WHAT is that?! What's in it, o figliolu, fire? I run the only bar in the village, I've drunk Papa's worst moonshine, and I've never once been surprised by a bowl of noodles.",
+    "gefuehl": "surprise"
+   },
+   "erinnerung": [
+    {
+     "text": "Papa's chalkboard behind the bar still lists what everybody in the village orders, down to the sugar. Nobody ever wrote what I order, because I was always the one pouring. I forgot a plate could be a question somebody asked in advance.",
+     "gefuehl": "caring"
+    },
+    {
+     "text": "My mother calls every year at the end of the season and asks when I'm coming home. If she knew a man had cooked for me like this, she'd either hang up or book a flight. Don't give her ideas. Sit down, eat the other half before it goes cold.",
+     "gefuehl": "amusement"
+    }
+   ]
+  },
+  "casanova": {
+   "item": "bouillabaisse",
+   "titel": "Bouillabaisse · Madame Casanova's favourite",
+   "teller": {
+    "normal": "You set the tureen in the middle of the table in the mayor's office, next to the festa plans. Madame Casanova puts a hand on her chest as if the tureen had just made an entrance.",
+    "kritisch": "The saffron turns the broth the colour of the late sun over the harbour. Madame Casanova goes completely still, which has not happened since you met her."
+   },
+   "antwort": null,
+   "bissen": {
+    "text": "Monsieur! The rouille, the saffron, the little crusts floating like ships in a harbour at dusk! Someone applaud. No one? Fine, I will applaud myself.",
+    "gefuehl": "surprise"
+   },
+   "erinnerung": [
+    {
+     "text": "My mother sat on the jury at every tasting in this village for forty years, and she always said a bouillabaisse is not judged by the fish. It is judged by whether the whole table goes quiet. Look at me, Monsieur. I have gone quiet.",
+     "gefuehl": "neutral"
+    },
+    {
+     "text": "There was a copper pot in the old villa on the hill, as big as a bathtub. I could smell it again just now. Let us not talk about the villa. Let us talk about the festa, Monsieur!",
+     "gefuehl": "sadness"
+    }
+   ]
+  },
+  "lola": {
+   "item": "bao_buns",
+   "titel": "Bao Buns · Lola's favourite",
+   "teller": {
+    "normal": "You put the steamer basket down on the galley counter and lift the lid. Lola is standing very still with the wooden spoon in her hand, the way she does when something might burn.",
+    "kritisch": "The buns come out of the steam pale and round and perfectly fluffy. Lola doesn't say a word, which is the loudest thing she has done all week."
+   },
+   "antwort": "You say you steamed them with the lid slightly open, the way your mother did to keep the buns from collapsing. Lola squints at you, then at the lid, and says she's stealing that.",
+   "bissen": {
+    "text": "Boss! They're actual clouds. You stole my line, and I'm so proud of you I could cry, and I'm only a little bit crying, it's the steam. Mostly the steam.",
+    "gefuehl": "joy"
+   },
+   "erinnerung": [
+    {
+     "text": "Nan's ninety-one, and she once rang the coastguard because I missed a Sunday call. She says a bun only needs two things, a warm kitchen and nobody shouting. I think she's right, but don't tell her, she'd put it on a tea towel.",
+     "gefuehl": "amusement"
+    },
+    {
+     "text": "In that Sydney kitchen the bao were the one thing the chef let me make, and he still told me every night I'd never be more than a second cook. He yelled it. You just gave me my own recipe back, and it tasted like a kitchen where I'm allowed to be good. Don't tell anyone I told you.",
+     "gefuehl": "sadness"
+    }
+   ]
+  },
+  "petru": {
+   "item": "fish_pie",
+   "titel": "Fish Pie · Petru's favourite",
+   "teller": {
+    "normal": "You set the plate on the workbench, next to the radio that always plays Corsican football. Petru wipes his hands on his apron, slowly, and sits down.",
+    "kritisch": "The potato crust is golden at the edges and the steam smells of the sea and of milk. Petru takes a long time to pick up the fork."
+   },
+   "antwort": null,
+   "bissen": {
+    "text": "Hm. There is a bay leaf in the milk. My Marie did that. Nobody has done that in five years, and nobody told you, and you did it anyway. Either you are a very good cook, or the sea is being kind to you.",
+    "gefuehl": "neutral"
+   },
+   "erinnerung": [
+    {
+     "text": "Marie made it every Friday, with whatever the boats brought in. I sat at the table and said nothing, and she said that was my way of saying thank you. She was right, and it took me thirty years to know it.",
+     "gefuehl": "caring"
+    },
+    {
+     "text": "I eat it at Alva's every week now. It is good. It is not hers. This one is not hers either, but it is the first one that argues with me. Hm. That means: another one.",
+     "gefuehl": "caring"
+    }
+   ]
+  },
+  "chiara": {
+   "item": "bolognese",
+   "titel": "Spaghetti Bolognese · Chiara's favourite",
+   "teller": {
+    "normal": "You put the plate on the officers' table in the crew mess. Chiara looks at it, then at the clock, then at the plate, like a woman checking whether it's allowed.",
+    "kritisch": "The sauce has been simmering long enough that the whole mess smells of it. Chiara has her fork in her hand before she has decided to pick it up."
+   },
+   "antwort": null,
+   "bissen": {
+    "text": "Nine. No, don't look so smug, I'm not giving anyone a ten before the festa, it's a very strict scale. But a nine, First Officer, a proper nine. I'm rounding up because I'm hungry.",
+    "gefuehl": "joy"
+   },
+   "erinnerung": [
+    {
+     "text": "On Sundays my grandfather cooked this for the whole table in his captain's jacket, because he said an apron was for people who'd never been in a gale. He promised to explain the stars to me, and then he spent the whole Sunday explaining the sauce.",
+     "gefuehl": "amusement"
+    },
+    {
+     "text": "Nobody asks me what I'd cook, or what I'd do with the ship if it were mine. You put a plate down and watched me eat, and I felt, I don't know, asked. … Right. Enough of that. Eat, First Officer, before I assign you something.",
+     "gefuehl": "caring"
+    }
+   ]
+  },
+  "holm": {
+   "item": "pytt_i_panna",
+   "titel": "Pyttipanne · Captain Holm's favourite",
+   "teller": {
+    "normal": "You set the plate on the chart table, away from the charts. Holm takes the lid off her cold coffee, looks at the plate, and puts the lid back.",
+    "kritisch": "The egg sits on top, the beetroot is on the side, and the potatoes are fried exactly dark enough. Holm says nothing for a good while."
+   },
+   "antwort": null,
+   "bissen": {
+    "text": "Pytt i panna. Faen, Frankfurt. The egg is on top, the beetroot is on the side, and nobody told you. I'll say this once, so listen.",
+    "gefuehl": "neutral"
+   },
+   "erinnerung": [
+    {
+     "text": "My mother made it on Mondays, from whatever was left of Sunday. She said a good ship wastes nothing, and a good kitchen wastes less. I was eighteen before I understood she meant herself.",
+     "gefuehl": "caring"
+    },
+    {
+     "text": "Eleven seasons on this ship, and nobody has put this in front of me. Takk. That is all I'll say about it, Frankfurt. Don't let it go to your head.",
+     "gefuehl": "caring"
+    }
+   ]
+  },
+  "siri": {
+   "item": "fiskesuppe",
+   "titel": "Fiskesuppe · Siri's favourite",
+   "teller": {
+    "normal": "You set the bowl down on the sun deck, in the shade of the awning. Siri takes off her sunglasses, which she never does in front of a phone, and the phone is face down on the cushion.",
+    "kritisch": "The soup is pale and creamy with orange pieces of salmon and green dill on top. Siri holds the bowl in both hands like something that might get away."
+   },
+   "antwort": null,
+   "bissen": {
+    "text": "Oh. Oh, sorry, it's just that it smells like the kitchen at home. Is that dill? That's dill. You put dill in it. Sorry, I'm being silly about soup.",
+    "gefuehl": "surprise"
+   },
+   "erinnerung": [
+    {
+     "text": "Dad made it on Fridays, when the ferry was late and nobody could leave anyway. He said soup tastes better when you've waited for it. He said the same about the ferry, but only the soup was ever true.",
+     "gefuehl": "caring"
+    },
+    {
+     "text": "I haven't really talked to him in two years. I think he'd like you, which is annoying, because he doesn't like anyone who's met me on camera. Sorry. I'll eat now. Sorry again. Not for the soup, for the speech.",
+     "gefuehl": "sadness"
+    }
+   ]
+  },
+  "megan": {
+   "item": "lauchsuppe",
+   "titel": "Cullen Skink · Megan's favourite",
+   "teller": {
+    "normal": "You set the bowl down on her glass-topped desk, far from the paperwork. Megan turns it by a quarter, the way she'd turn a chess piece, and does not look at you.",
+    "kritisch": "The soup is thick and pale, with flakes of smoked haddock and a little parsley on top. Megan's hand, which was in the pocket with the rope, comes out empty."
+   },
+   "antwort": null,
+   "bissen": {
+    "text": "Cullen skink. … How... delightful. I want it noted that this is the only thing my stomach keeps down on open water, and that you found it without being told. That is either excellent intelligence or very bad luck for me.",
+    "gefuehl": "surprise"
+   },
+   "erinnerung": [
+    {
+     "text": "My father made this on the nights my parents had run out of things to say to each other. He bought the haddock off the boats at Newhaven and cooked it on ours, because the boat was the only place they didn't argue. It was always exactly the same soup, and I never asked why.",
+     "gefuehl": "sadness"
+    },
+    {
+     "text": "Every favour has a price, as you know. This one I will pay in a rare currency: I will not ask where you learned it. Now pass the bread, and don't look at my hands. I'm knotting something.",
+     "gefuehl": "amusement"
+    }
+   ]
+  },
+  "elsa": {
+   "item": "baguettes",
+   "titel": "Baguettes · Lieutenant Ferrandi's favourite",
+   "teller": {
+    "normal": "You put the basket down on the desk in the coastguard post, on top of the form she's been waiting for since last year. Elsa takes a baguette out and taps it like a witness.",
+    "kritisch": "The crust crackles when you set the basket down, and the whole post smells of warm bread. Elsa stops mid-sentence, which is against her own regulations."
+   },
+   "antwort": null,
+   "bissen": {
+    "text": "Lieutenant Ferrandi, official statement. The crust is correct, the crumb is correct, and I am not accepting this as a bribe. I am accepting it as evidence of good character.",
+    "gefuehl": "joy"
+   },
+   "erinnerung": [
+    {
+     "text": "My Nonna bakes on Sundays for fourteen people, and I'm ‘la piccola’, so I get the heel last, or not at all. Three brothers, and I have never once been given the heel. I'm a lieutenant of the coast guard, and I still wait for it.",
+     "gefuehl": "amusement"
+    },
+    {
+     "text": "Chapter twelve of my current book has a bakery in it. Don't ask which book. That is an order, First Officer, and also a favour. Both. Now eat, I have a harbour to inspect.",
+     "gefuehl": "embarrassment"
+    }
+   ]
+  }
+ }
+}

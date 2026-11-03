@@ -1,0 +1,61 @@
+{
+ "id": "ligeia_polaroids_r6",
+ "titel": "Ligeia – Polaroids mit kleinen Gedichten",
+ "hinweis": "Oben die gesetzten Paare, unten Alternativen für Pottwal und Gewitter. Die Texte der Flaschen bleiben geheim.",
+ "items": [
+  {
+   "id": "sirene",
+   "titel": "Polaroids · Dank der Kette, Wrack",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\ligeia_polaroids\\fv_sirene.jpg",
+   "soll": "Kleines Gedicht in ihrer Handschrift, Selfie mit Oktopus-Arm."
+  },
+  {
+   "id": "sirene_t2",
+   "titel": "Polaroids · Stufe 2, Pottwal",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\ligeia_polaroids\\fv_sirene_t2.jpg",
+   "soll": "Kleines Gedicht in ihrer Handschrift, Selfie mit Oktopus-Arm."
+  },
+  {
+   "id": "sirene_t3",
+   "titel": "Polaroids · Stufe 3, Gewitter",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\ligeia_polaroids\\fv_sirene_t3.jpg",
+   "soll": "Kleines Gedicht in ihrer Handschrift, Selfie mit Oktopus-Arm."
+  },
+  {
+   "id": "sirene_t4",
+   "titel": "Polaroids · Stufe 4, Korallenriff",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\ligeia_polaroids\\fv_sirene_t4.jpg",
+   "soll": "Kleines Gedicht in ihrer Handschrift, Selfie mit Oktopus-Arm."
+  },
+  {
+   "id": "sirene_t5",
+   "titel": "Polaroids · Stufe 5, Fischwirbel",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\ligeia_polaroids\\fv_sirene_t5.jpg",
+   "soll": "Kleines Gedicht in ihrer Handschrift, Selfie mit Oktopus-Arm."
+  },
+  {
+   "id": "alt_sirene_t2_r2",
+   "titel": "Alternative · Pottwal · 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\ligeia_polaroids\\alt_sirene_t2_r2.jpg",
+   "soll": "Nur falls dir das gesetzte Selfie nicht gefällt: mit OK markieren, dann tausche ich es."
+  },
+  {
+   "id": "alt_sirene_t2_r1",
+   "titel": "Alternative · Pottwal · 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\ligeia_polaroids\\alt_sirene_t2_r1.jpg",
+   "soll": "Nur falls dir das gesetzte Selfie nicht gefällt: mit OK markieren, dann tausche ich es."
+  },
+  {
+   "id": "alt_sirene_t3_r1",
+   "titel": "Alternative · Gewitter · 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\ligeia_polaroids\\alt_sirene_t3_r1.jpg",
+   "soll": "Nur falls dir das gesetzte Selfie nicht gefällt: mit OK markieren, dann tausche ich es."
+  },
+  {
+   "id": "alt_sirene_t3_r3",
+   "titel": "Alternative · Gewitter · 3",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\ligeia_polaroids\\alt_sirene_t3_r3.jpg",
+   "soll": "Nur falls dir das gesetzte Selfie nicht gefällt: mit OK markieren, dann tausche ich es."
+  }
+ ]
+}

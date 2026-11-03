@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "aktiv": true,
+  "kritisch_gross": true,
+  "effekte": true,
+  "gross": {
+    "ereignisse": [
+      "br_gaestekabinen", "br_elsas_kontrolle", "br_investoren_dinner",
+      "hy_megan_feuern", "hy_elsa_segler", "g1_drohne", "g1_chiara_tender",
+      "gv_megan_sophia", "gv_strip_poker", "gv_aussenborder",
+      "du_koch_lola", "du_koch_alva", "du_koch_toto", "du_reparatur_rosi",
+      "du_harpune_chiara", "du_poetry_sophia", "auf_karaoke"
+    ],
+    "missionen": ["petru_motor_2", "lea_chain", "toto_night"],
+    "szenen": []
+  }
+}

@@ -1,0 +1,1896 @@
+{
+ "_hinweis": "Gebaut von werkzeuge/eden_rise/kochen_eden_rise.py - nicht von Hand aendern.",
+ "zutaten": {
+  "rice": {
+   "label": "Rice",
+   "rolle": "basis",
+   "kat": null,
+   "quelle": "nonna",
+   "preis": 4,
+   "sg": 8,
+   "heilt": 4,
+   "effekt": null,
+   "text": "Plain white rice. It forgives a lot."
+  },
+  "noodles": {
+   "label": "Noodles",
+   "rolle": "basis",
+   "kat": null,
+   "quelle": "nonna",
+   "preis": 5,
+   "sg": 9,
+   "heilt": 3,
+   "effekt": null,
+   "text": "Wheat noodles, dried, from a good packet."
+  },
+  "flour": {
+   "label": "Flour",
+   "rolle": "basis",
+   "kat": null,
+   "quelle": "nonna",
+   "preis": 3,
+   "sg": 10,
+   "heilt": 3,
+   "effekt": null,
+   "text": "For dough, pancakes and everything that needs a base."
+  },
+  "rice_paper": {
+   "label": "Rice Paper",
+   "rolle": "basis",
+   "kat": null,
+   "quelle": "batu",
+   "preis": 5,
+   "sg": 9,
+   "heilt": 3,
+   "effekt": null,
+   "text": "Thin round sheets, dry as old letters. One second in warm water."
+  },
+  "potatoes": {
+   "label": "Potatoes",
+   "rolle": "basis",
+   "kat": null,
+   "quelle": "garten",
+   "preis": 3,
+   "sg": 8,
+   "heilt": 5,
+   "effekt": null,
+   "text": "Firm, earthy and honest."
+  },
+  "cabbage": {
+   "label": "Cabbage",
+   "rolle": "basis",
+   "kat": null,
+   "quelle": "garten",
+   "preis": 3,
+   "sg": 9,
+   "heilt": 2,
+   "effekt": null,
+   "text": "A tight green head from Nonna's garden."
+  },
+  "chicken_meat": {
+   "label": "Chicken",
+   "rolle": "haupt",
+   "kat": "poultry",
+   "quelle": "tier",
+   "preis": 18,
+   "sg": 0,
+   "heilt": 0,
+   "effekt": null,
+   "text": "From a hen that had a name."
+  },
+  "pork": {
+   "label": "Pork",
+   "rolle": "haupt",
+   "kat": "pork",
+   "quelle": "tier",
+   "preis": 28,
+   "sg": 1,
+   "heilt": 0,
+   "effekt": null,
+   "text": "Dark, well-marbled, from a Cinta Senese pig."
+  },
+  "beef": {
+   "label": "Beef",
+   "rolle": "haupt",
+   "kat": "beef",
+   "quelle": "tier",
+   "preis": 45,
+   "sg": 2,
+   "heilt": 0,
+   "effekt": null,
+   "text": "From a dark Pisana. Slow and generous."
+  },
+  "eggs": {
+   "label": "Eggs",
+   "rolle": "haupt",
+   "kat": "egg",
+   "quelle": "tier",
+   "preis": 6,
+   "sg": 0,
+   "heilt": 0,
+   "effekt": null,
+   "text": "Still warm, if you were quick."
+  },
+  "truffle": {
+   "label": "Truffle",
+   "rolle": "haupt",
+   "kat": "mushroom",
+   "quelle": "tier",
+   "preis": 60,
+   "sg": 3,
+   "heilt": 0,
+   "effekt": null,
+   "text": "Found by a pig with excellent priorities."
+  },
+  "zucchini": {
+   "label": "Zucchini",
+   "rolle": "haupt",
+   "kat": "veg",
+   "quelle": "garten",
+   "preis": 4,
+   "sg": 0,
+   "heilt": 0,
+   "effekt": null,
+   "text": "Long, green, and always more than you asked for."
+  },
+  "salmon_steak": {
+   "label": "Salmon Steaks, raw",
+   "rolle": "haupt",
+   "kat": "fish",
+   "quelle": "nonna",
+   "preis": 24,
+   "sg": 1,
+   "heilt": 0,
+   "effekt": null,
+   "text": "Not a local fish. Nonna's cousin sends it from the north."
+  },
+  "tofu": {
+   "label": "Tofu",
+   "rolle": "haupt",
+   "kat": "veg",
+   "quelle": "batu",
+   "preis": 8,
+   "sg": 0,
+   "heilt": 0,
+   "effekt": null,
+   "text": "White, firm, pressed this morning. It tastes of almost nothing until you teach it."
+  },
+  "chilis": {
+   "label": "Chillies",
+   "rolle": "akzent",
+   "kat": null,
+   "quelle": "garten",
+   "preis": 4,
+   "sg": 0,
+   "heilt": 0,
+   "effekt": "krit",
+   "text": "Small, red and rude."
+  },
+  "wildkraeuter": {
+   "label": "Wild Herbs",
+   "rolle": "akzent",
+   "kat": null,
+   "quelle": "garten",
+   "preis": 3,
+   "sg": 0,
+   "heilt": 0,
+   "effekt": "xp",
+   "text": "Thyme, myrtle and sage from the maquis."
+  },
+  "lemongrass": {
+   "label": "Lemongrass",
+   "rolle": "akzent",
+   "kat": null,
+   "quelle": "garten",
+   "preis": 4,
+   "sg": 0,
+   "heilt": 0,
+   "effekt": "xp",
+   "text": "Smells of lemon and tastes of somewhere else. It likes Nonna's soil."
+  },
+  "tomaten": {
+   "label": "Tomatoes",
+   "rolle": "akzent",
+   "kat": null,
+   "quelle": "garten",
+   "preis": 4,
+   "sg": 0,
+   "heilt": 0,
+   "effekt": "vertrauen",
+   "text": "Sun-warm and a little too ripe."
+  },
+  "milk": {
+   "label": "Milk",
+   "rolle": "akzent",
+   "kat": null,
+   "quelle": "tier",
+   "preis": 8,
+   "sg": 0,
+   "heilt": 0,
+   "effekt": "vertrauen",
+   "text": "Whole milk, still cool from the cow."
+  },
+  "knoblauch": {
+   "label": "Garlic",
+   "rolle": "akzent",
+   "kat": null,
+   "quelle": "garten",
+   "preis": 3,
+   "sg": 0,
+   "heilt": 0,
+   "effekt": "attribut",
+   "text": "A braid of bulbs. Vampires and cowards stay away."
+  },
+  "zitronen": {
+   "label": "Lemons",
+   "rolle": "akzent",
+   "kat": null,
+   "quelle": "nonna",
+   "preis": 4,
+   "sg": 0,
+   "heilt": 0,
+   "effekt": "preis",
+   "text": "From the terraces above the cove."
+  },
+  "sojasauce": {
+   "label": "Soy Sauce",
+   "rolle": "akzent",
+   "kat": null,
+   "quelle": "nonna",
+   "preis": 6,
+   "sg": 0,
+   "heilt": 0,
+   "effekt": "ankauf",
+   "text": "Dark and salty. Smells like the kitchen at home."
+  },
+  "fish_sauce": {
+   "label": "Fish Sauce",
+   "rolle": "akzent",
+   "kat": null,
+   "quelle": "batu",
+   "preis": 12,
+   "sg": 0,
+   "heilt": 0,
+   "effekt": "umami",
+   "text": "Amber and salty. Everybody says it stinks. Everybody comes back."
+  },
+  "sea_bass_roh": {
+   "label": "Sea Bass Fillets, raw",
+   "rolle": "haupt",
+   "kat": "fish",
+   "quelle": "fang",
+   "preis": 14,
+   "sg": 0,
+   "heilt": 0,
+   "effekt": null,
+   "text": "From the european sea bass: silvery and shy, it hides near the rocks of the bay.",
+   "fisch": "sea_bass"
+  },
+  "gilt_head_bream_roh": {
+   "label": "Bream Fillets, raw",
+   "rolle": "haupt",
+   "kat": "fish",
+   "quelle": "fang",
+   "preis": 13,
+   "sg": 0,
+   "heilt": 0,
+   "effekt": null,
+   "text": "From the gilt-head bream: recognised by the golden band between its eyes.",
+   "fisch": "gilt_head_bream"
+  },
+  "red_mullet_roh": {
+   "label": "Red Mullet Fillets, raw",
+   "rolle": "haupt",
+   "kat": "fish",
+   "quelle": "fang",
+   "preis": 12,
+   "sg": 0,
+   "heilt": 0,
+   "effekt": null,
+   "text": "From the red mullet: pink-red, with two whiskers it uses to feel the sand.",
+   "fisch": "red_mullet"
+  },
+  "scorpionfish_roh": {
+   "label": "Rascasse for the Pot, raw",
+   "rolle": "haupt",
+   "kat": "fish",
+   "quelle": "fang",
+   "preis": 15,
+   "sg": 0,
+   "heilt": 0,
+   "effekt": null,
+   "text": "From the scorpionfish: ugly as sin, wonderful in a bouillabaisse.",
+   "fisch": "scorpionfish"
+  },
+  "sardine_roh": {
+   "label": "Sardine Fillets, raw",
+   "rolle": "haupt",
+   "kat": "fish",
+   "quelle": "fang",
+   "preis": 6,
+   "sg": 0,
+   "heilt": 0,
+   "effekt": null,
+   "text": "From the sardine: small, silver, and everywhere in summer.",
+   "fisch": "sardine"
+  },
+  "salmon_roh": {
+   "label": "Salmon Fillets, raw",
+   "rolle": "haupt",
+   "kat": "fish",
+   "quelle": "fang",
+   "preis": 24,
+   "sg": 0,
+   "heilt": 0,
+   "effekt": null,
+   "text": "From the atlantic salmon: silver and strong. Nobody knows what it is doing this far south.",
+   "fisch": "salmon"
+  },
+  "cuttlefish_roh": {
+   "label": "Cuttlefish Strips, raw",
+   "rolle": "haupt",
+   "kat": "shellfish",
+   "quelle": "fang",
+   "preis": 11,
+   "sg": 1,
+   "heilt": 0,
+   "effekt": null,
+   "text": "From the cuttlefish: it changes colour when it is curious.",
+   "fisch": "cuttlefish"
+  },
+  "octopus_roh": {
+   "label": "Octopus Tentacle, raw",
+   "rolle": "haupt",
+   "kat": "shellfish",
+   "quelle": "fang",
+   "preis": 18,
+   "sg": 1,
+   "heilt": 0,
+   "effekt": null,
+   "text": "From the common octopus: clever hands, eight of them.",
+   "fisch": "octopus"
+  },
+  "red_prawn_roh": {
+   "label": "Peeled Red Prawns, raw",
+   "rolle": "haupt",
+   "kat": "shellfish",
+   "quelle": "fang",
+   "preis": 20,
+   "sg": 1,
+   "heilt": 0,
+   "effekt": null,
+   "text": "From the red prawn: from the deep water off the cape, red even before cooking.",
+   "fisch": "red_prawn"
+  },
+  "spiny_lobster_roh": {
+   "label": "Lobster Tail, raw",
+   "rolle": "haupt",
+   "kat": "shellfish",
+   "quelle": "fang",
+   "preis": 35,
+   "sg": 1,
+   "heilt": 0,
+   "effekt": null,
+   "text": "From the spiny lobster: no claws, but a crown of spines. A festa fish.",
+   "fisch": "spiny_lobster"
+  },
+  "brown_trout_roh": {
+   "label": "Trout Fillets, raw",
+   "rolle": "haupt",
+   "kat": "fish",
+   "quelle": "fang",
+   "preis": 12,
+   "sg": 0,
+   "heilt": 0,
+   "effekt": null,
+   "text": "From the mediterranean trout: spotted like the stones in its stream.",
+   "fisch": "brown_trout"
+  },
+  "eel_roh": {
+   "label": "Eel Pieces, raw",
+   "rolle": "haupt",
+   "kat": "fish",
+   "quelle": "fang",
+   "preis": 16,
+   "sg": 0,
+   "heilt": 0,
+   "effekt": null,
+   "text": "From the european eel: slippery and old. Some say it is older than the village.",
+   "fisch": "eel"
+  },
+  "carp_roh": {
+   "label": "Carp Steaks, raw",
+   "rolle": "haupt",
+   "kat": "fish",
+   "quelle": "fang",
+   "preis": 10,
+   "sg": 0,
+   "heilt": 0,
+   "effekt": null,
+   "text": "From the common carp: slow, wide and patient, like the river itself.",
+   "fisch": "carp"
+  },
+  "pike_roh": {
+   "label": "Pike Fillets, raw",
+   "rolle": "haupt",
+   "kat": "fish",
+   "quelle": "fang",
+   "preis": 15,
+   "sg": 0,
+   "heilt": 0,
+   "effekt": null,
+   "text": "From the northern pike: a long green hunter that waits in the reeds.",
+   "fisch": "pike"
+  },
+  "perch_roh": {
+   "label": "Perch Fillets, raw",
+   "rolle": "haupt",
+   "kat": "fish",
+   "quelle": "fang",
+   "preis": 11,
+   "sg": 0,
+   "heilt": 0,
+   "effekt": null,
+   "text": "From the european perch: striped like a tiny tiger, with a red fin.",
+   "fisch": "perch"
+  },
+  "tench_roh": {
+   "label": "Tench Fillets, raw",
+   "rolle": "haupt",
+   "kat": "fish",
+   "quelle": "fang",
+   "preis": 9,
+   "sg": 0,
+   "heilt": 0,
+   "effekt": null,
+   "text": "From the tench: the quiet doctor fish of the slow pools.",
+   "fisch": "tench"
+  },
+  "barbel_roh": {
+   "label": "Barbel Fillets, raw",
+   "rolle": "haupt",
+   "kat": "fish",
+   "quelle": "fang",
+   "preis": 10,
+   "sg": 0,
+   "heilt": 0,
+   "effekt": null,
+   "text": "From the barbel: it feeds along the stony bottom with four whiskers.",
+   "fisch": "barbel"
+  },
+  "zander_roh": {
+   "label": "Zander Fillets, raw",
+   "rolle": "haupt",
+   "kat": "fish",
+   "quelle": "fang",
+   "preis": 17,
+   "sg": 0,
+   "heilt": 0,
+   "effekt": null,
+   "text": "From the zander: pike-perch: firm white meat, shy eyes.",
+   "fisch": "zander"
+  },
+  "river_crayfish_roh": {
+   "label": "Crayfish Tails, raw",
+   "rolle": "haupt",
+   "kat": "shellfish",
+   "quelle": "fang",
+   "preis": 14,
+   "sg": 1,
+   "heilt": 0,
+   "effekt": null,
+   "text": "From the river crayfish: a small armoured fighter under the river stones.",
+   "fisch": "river_crayfish"
+  },
+  "river_crab_roh": {
+   "label": "River Crab Meat, raw",
+   "rolle": "haupt",
+   "kat": "shellfish",
+   "quelle": "fang",
+   "preis": 13,
+   "sg": 1,
+   "heilt": 0,
+   "effekt": null,
+   "text": "From the river crab: the sweet little crab of the Italian streams.",
+   "fisch": "river_crab"
+  }
+ },
+ "fische": [
+  {
+   "id": "sea_bass",
+   "label": "European Sea Bass",
+   "art": "fish",
+   "ort": "meer",
+   "roh": "sea_bass_roh",
+   "roh_label": "Sea Bass Fillets, raw",
+   "preis": 14,
+   "text": "Silvery and shy, it hides near the rocks of the bay.",
+   "motiv": "a European sea bass, silvery body with a faint dark spot on the gill cover",
+   "motiv_roh": "fresh raw sea bass fillets on a sheet of white butcher paper"
+  },
+  {
+   "id": "gilt_head_bream",
+   "label": "Gilt-head Bream",
+   "art": "fish",
+   "ort": "meer",
+   "roh": "gilt_head_bream_roh",
+   "roh_label": "Bream Fillets, raw",
+   "preis": 13,
+   "text": "Recognised by the golden band between its eyes.",
+   "motiv": "a gilt-head bream, silver-grey body with a golden crescent mark between the eyes",
+   "motiv_roh": "fresh raw bream fillets on a sheet of white butcher paper"
+  },
+  {
+   "id": "red_mullet",
+   "label": "Red Mullet",
+   "art": "fish",
+   "ort": "meer",
+   "roh": "red_mullet_roh",
+   "roh_label": "Red Mullet Fillets, raw",
+   "preis": 12,
+   "text": "Pink-red, with two whiskers it uses to feel the sand.",
+   "motiv": "a red mullet, rosy red body with two small chin barbels",
+   "motiv_roh": "fresh raw red mullet fillets on a sheet of white butcher paper"
+  },
+  {
+   "id": "scorpionfish",
+   "label": "Scorpionfish",
+   "art": "fish",
+   "ort": "meer",
+   "roh": "scorpionfish_roh",
+   "roh_label": "Rascasse for the Pot, raw",
+   "preis": 15,
+   "text": "Ugly as sin, wonderful in a bouillabaisse.",
+   "motiv": "a scorpionfish, mottled red-brown body with spiny fins and a wide mouth",
+   "motiv_roh": "a whole fresh raw red scorpionfish, bright red-orange mottled skin with spiny fins and a wide mouth, cleaned and ready for the pot, on a sheet of white butcher paper"
+  },
+  {
+   "id": "sardine",
+   "label": "Sardine",
+   "art": "fish",
+   "ort": "meer",
+   "roh": "sardine_roh",
+   "roh_label": "Sardine Fillets, raw",
+   "preis": 6,
+   "text": "Small, silver, and everywhere in summer.",
+   "motiv": "a sardine, slim silver body with a blue-green back and a row of dark spots",
+   "motiv_roh": "fresh raw sardine fillets on a sheet of white butcher paper"
+  },
+  {
+   "id": "salmon",
+   "label": "Atlantic Salmon",
+   "art": "fish",
+   "ort": "meer",
+   "roh": "salmon_roh",
+   "roh_label": "Salmon Fillets, raw",
+   "preis": 24,
+   "text": "Silver and strong. Nobody knows what it is doing this far south.",
+   "motiv": "an Atlantic salmon, sleek bright silver body with a blue-grey back and a faint pink sheen along the sides",
+   "motiv_roh": "fresh raw salmon fillets on a sheet of white butcher paper"
+  },
+  {
+   "id": "cuttlefish",
+   "label": "Cuttlefish",
+   "art": "shellfish",
+   "ort": "meer",
+   "roh": "cuttlefish_roh",
+   "roh_label": "Cuttlefish Strips, raw",
+   "preis": 11,
+   "text": "It changes colour when it is curious.",
+   "motiv": "a cuttlefish, soft oval body with a ruffled fin skirt and eight short arms with two long tentacles",
+   "motiv_roh": "fresh raw cuttlefish strips on a sheet of white butcher paper"
+  },
+  {
+   "id": "octopus",
+   "label": "Common Octopus",
+   "art": "shellfish",
+   "ort": "meer",
+   "roh": "octopus_roh",
+   "roh_label": "Octopus Tentacle, raw",
+   "preis": 18,
+   "text": "Clever hands, eight of them.",
+   "motiv": "a common octopus, mottled orange-brown rounded head with eight curling arms",
+   "motiv_roh": "fresh raw octopus tentacle on a sheet of white butcher paper"
+  },
+  {
+   "id": "red_prawn",
+   "label": "Red Prawn",
+   "art": "shellfish",
+   "ort": "meer",
+   "roh": "red_prawn_roh",
+   "roh_label": "Peeled Red Prawns, raw",
+   "preis": 20,
+   "text": "From the deep water off the cape, red even before cooking.",
+   "motiv": "a red prawn, deep coral-red body with long antennae and fine legs",
+   "motiv_roh": "fresh raw peeled red prawns on a sheet of white butcher paper"
+  },
+  {
+   "id": "spiny_lobster",
+   "label": "Spiny Lobster",
+   "art": "shellfish",
+   "ort": "meer",
+   "roh": "spiny_lobster_roh",
+   "roh_label": "Lobster Tail, raw",
+   "preis": 35,
+   "text": "No claws, but a crown of spines. A festa fish.",
+   "motiv": "a spiny lobster, brick-red spiny shell with very long antennae and no claws",
+   "motiv_roh": "fresh raw lobster tail on a sheet of white butcher paper"
+  },
+  {
+   "id": "brown_trout",
+   "label": "Mediterranean Trout",
+   "art": "fish",
+   "ort": "fluss",
+   "roh": "brown_trout_roh",
+   "roh_label": "Trout Fillets, raw",
+   "preis": 12,
+   "text": "Spotted like the stones in its stream.",
+   "motiv": "a Mediterranean trout, olive-brown body covered in red and dark spots",
+   "motiv_roh": "fresh raw trout fillets on a sheet of white butcher paper"
+  },
+  {
+   "id": "eel",
+   "label": "European Eel",
+   "art": "fish",
+   "ort": "fluss",
+   "roh": "eel_roh",
+   "roh_label": "Eel Pieces, raw",
+   "preis": 16,
+   "text": "Slippery and old. Some say it is older than the village.",
+   "motiv": "a European eel, long snake-like dark olive body with a pale yellow belly, curved in a gentle S-shape so that the whole eel fits inside the frame",
+   "motiv_roh": "fresh raw eel pieces on a sheet of white butcher paper"
+  },
+  {
+   "id": "carp",
+   "label": "Common Carp",
+   "art": "fish",
+   "ort": "fluss",
+   "roh": "carp_roh",
+   "roh_label": "Carp Steaks, raw",
+   "preis": 10,
+   "text": "Slow, wide and patient, like the river itself.",
+   "motiv": "a common carp, heavy golden-bronze scaled body with two small barbels",
+   "motiv_roh": "fresh raw carp steaks on a sheet of white butcher paper"
+  },
+  {
+   "id": "pike",
+   "label": "Northern Pike",
+   "art": "fish",
+   "ort": "fluss",
+   "roh": "pike_roh",
+   "roh_label": "Pike Fillets, raw",
+   "preis": 15,
+   "text": "A long green hunter that waits in the reeds.",
+   "motiv": "a northern pike, long olive-green body with pale spots and a duck-bill snout",
+   "motiv_roh": "fresh raw pike fillets on a sheet of white butcher paper"
+  },
+  {
+   "id": "perch",
+   "label": "European Perch",
+   "art": "fish",
+   "ort": "fluss",
+   "roh": "perch_roh",
+   "roh_label": "Perch Fillets, raw",
+   "preis": 11,
+   "text": "Striped like a tiny tiger, with a red fin.",
+   "motiv": "a European perch, green-gold body with dark vertical stripes and orange-red fins",
+   "motiv_roh": "fresh raw perch fillets on a sheet of white butcher paper"
+  },
+  {
+   "id": "tench",
+   "label": "Tench",
+   "art": "fish",
+   "ort": "fluss",
+   "roh": "tench_roh",
+   "roh_label": "Tench Fillets, raw",
+   "preis": 9,
+   "text": "The quiet doctor fish of the slow pools.",
+   "motiv": "a tench, thick olive-bronze body with small scales and round fins",
+   "motiv_roh": "fresh raw tench fillets on a sheet of white butcher paper"
+  },
+  {
+   "id": "barbel",
+   "label": "Barbel",
+   "art": "fish",
+   "ort": "fluss",
+   "roh": "barbel_roh",
+   "roh_label": "Barbel Fillets, raw",
+   "preis": 10,
+   "text": "It feeds along the stony bottom with four whiskers.",
+   "motiv": "a barbel, slim olive-brown body with a flat head and four fleshy barbels",
+   "motiv_roh": "fresh raw barbel fillets on a sheet of white butcher paper"
+  },
+  {
+   "id": "zander",
+   "label": "Zander",
+   "art": "fish",
+   "ort": "fluss",
+   "roh": "zander_roh",
+   "roh_label": "Zander Fillets, raw",
+   "preis": 17,
+   "text": "Pike-perch: firm white meat, shy eyes.",
+   "motiv": "a zander, long grey-green body with a dark banded back and large glassy eyes",
+   "motiv_roh": "fresh raw zander fillets on a sheet of white butcher paper"
+  },
+  {
+   "id": "river_crayfish",
+   "label": "River Crayfish",
+   "art": "shellfish",
+   "ort": "fluss",
+   "roh": "river_crayfish_roh",
+   "roh_label": "Crayfish Tails, raw",
+   "preis": 14,
+   "text": "A small armoured fighter under the river stones.",
+   "motiv": "a freshwater crayfish, olive-brown shell with two strong claws and a fan tail",
+   "motiv_roh": "fresh raw crayfish tails on a sheet of white butcher paper"
+  },
+  {
+   "id": "river_crab",
+   "label": "River Crab",
+   "art": "shellfish",
+   "ort": "fluss",
+   "roh": "river_crab_roh",
+   "roh_label": "River Crab Meat, raw",
+   "preis": 13,
+   "text": "The sweet little crab of the Italian streams.",
+   "motiv": "a freshwater river crab, rounded brown-orange shell with two claws, seen from above",
+   "motiv_roh": "fresh raw river crab meat on a sheet of white butcher paper"
+  }
+ ],
+ "effekte": {
+  "krit": {
+   "label": "Crit chance +%d %%",
+   "wert": 5,
+   "wo": "kampf.crit_chance (Chips-Summe)"
+  },
+  "xp": {
+   "label": "Experience +%d %%",
+   "wert": 10,
+   "wo": "kampf.award_xp"
+  },
+  "vertrauen": {
+   "label": "Trust +%d with everyone at the table",
+   "wert": 1,
+   "wo": "kuechen.kochen_baukasten (sofort, Teller und Crew)"
+  },
+  "preis": {
+   "label": "Shop prices -%d %%",
+   "wert": 10,
+   "wo": "handel.preis"
+  },
+  "attribut": {
+   "label": "Courage +%d in combat",
+   "wert": 1,
+   "wo": "kampf.attributes"
+  },
+  "ankauf": {
+   "label": "Sell prices +%d %%",
+   "wert": 10,
+   "wo": "handel.ankauf (Totò)"
+  },
+  "umami": {
+   "label": "Nobody dislikes this dish",
+   "wert": 1,
+   "wo": "kuechen.vorschau (sofort, leert mag_nicht)"
+  }
+ },
+ "geschmack": {
+  "lea": {
+   "mag": [
+    "shellfish",
+    "fish"
+   ],
+   "mag_nicht": [
+    "pork"
+   ]
+  },
+  "sophia": {
+   "mag": [
+    "fish",
+    "veg"
+   ],
+   "mag_nicht": [
+    "beef"
+   ]
+  },
+  "rosi": {
+   "mag": [
+    "beef",
+    "egg"
+   ],
+   "mag_nicht": [
+    "veg"
+   ]
+  },
+  "alva": {
+   "mag": [
+    "pork",
+    "shellfish"
+   ],
+   "mag_nicht": [
+    "fish"
+   ]
+  },
+  "lola": {
+   "mag": [
+    "poultry",
+    "veg"
+   ],
+   "mag_nicht": [
+    "mushroom"
+   ]
+  },
+  "siri": {
+   "mag": [
+    "fish",
+    "egg"
+   ],
+   "mag_nicht": [
+    "pork"
+   ]
+  },
+  "yasin": {
+   "mag": [
+    "beef",
+    "poultry"
+   ],
+   "mag_nicht": [
+    "veg"
+   ]
+  },
+  "megan": {
+   "mag": [
+    "veg",
+    "egg"
+   ],
+   "mag_nicht": [
+    "shellfish"
+   ]
+  },
+  "holm": {
+   "mag": [
+    "pork",
+    "fish"
+   ],
+   "mag_nicht": [
+    "veg"
+   ]
+  },
+  "toto": {
+   "mag": [
+    "pork",
+    "shellfish"
+   ],
+   "mag_nicht": [
+    "veg"
+   ]
+  },
+  "elsa": {
+   "mag": [
+    "poultry",
+    "egg"
+   ],
+   "mag_nicht": [
+    "fish"
+   ]
+  },
+  "petru": {
+   "mag": [
+    "fish",
+    "shellfish"
+   ],
+   "mag_nicht": [
+    "beef"
+   ]
+  },
+  "casanova": {
+   "mag": [
+    "fish",
+    "mushroom"
+   ],
+   "mag_nicht": [
+    "egg"
+   ]
+  },
+  "chiara": {
+   "mag": [
+    "beef",
+    "shellfish"
+   ],
+   "mag_nicht": [
+    "egg"
+   ]
+  }
+ },
+ "beete": 4,
+ "pflanzen": {
+  "potatoes": {
+   "preis": 2,
+   "ertrag": 3,
+   "tage": 1
+  },
+  "cabbage": {
+   "preis": 2,
+   "ertrag": 2,
+   "tage": 1
+  },
+  "chilis": {
+   "preis": 2,
+   "ertrag": 3,
+   "tage": 1
+  },
+  "wildkraeuter": {
+   "preis": 2,
+   "ertrag": 3,
+   "tage": 1
+  },
+  "tomaten": {
+   "preis": 2,
+   "ertrag": 3,
+   "tage": 1
+  },
+  "knoblauch": {
+   "preis": 2,
+   "ertrag": 2,
+   "tage": 1
+  },
+  "zucchini": {
+   "preis": 2,
+   "ertrag": 2,
+   "tage": 1
+  },
+  "lemongrass": {
+   "preis": 2,
+   "ertrag": 3,
+   "tage": 1,
+   "flag": "zitronengras_da",
+   "merkt": "zitronengras_gepflanzt"
+  }
+ },
+ "tiere": {
+  "chicken": {
+   "label": "Chicken",
+   "rasse": "Livorno hen",
+   "stall": 120,
+   "plaetze": 6,
+   "baby_preis": 25,
+   "baby_tage": 2,
+   "erwachsen_tage": 5,
+   "zucht_tage": 3,
+   "produkt": {
+    "art": "eggs",
+    "wer": "weibchen",
+    "alle_tage": 1,
+    "menge": 1
+   },
+   "fleisch": {
+    "art": "chicken_meat",
+    "menge": 2
+   },
+   "namen": [
+    "Gina",
+    "Pepe",
+    "Bianca",
+    "Tito",
+    "Rosa",
+    "Nello"
+   ],
+   "motiv": "a Livorno hen, a slender white Italian chicken with a bright red comb and yellow legs"
+  },
+  "pig": {
+   "label": "Pig",
+   "rasse": "Cinta Senese",
+   "stall": 200,
+   "plaetze": 4,
+   "baby_preis": 60,
+   "baby_tage": 3,
+   "erwachsen_tage": 6,
+   "zucht_tage": 5,
+   "produkt": {
+    "art": "truffle",
+    "wer": "alle",
+    "alle_tage": 2,
+    "menge": 1
+   },
+   "fleisch": {
+    "art": "pork",
+    "menge": 3
+   },
+   "namen": [
+    "Gigi",
+    "Fiora",
+    "Bruno",
+    "Lupa",
+    "Tonno",
+    "Mina"
+   ],
+   "motiv": "a Cinta Senese pig, a black Italian pig with a broad white band around its shoulders and front legs"
+  },
+  "cow": {
+   "label": "Cow",
+   "rasse": "Pisana",
+   "stall": 320,
+   "plaetze": 3,
+   "baby_preis": 110,
+   "baby_tage": 4,
+   "erwachsen_tage": 7,
+   "zucht_tage": 7,
+   "produkt": {
+    "art": "milk",
+    "wer": "weibchen",
+    "alle_tage": 1,
+    "menge": 1
+   },
+   "fleisch": {
+    "art": "beef",
+    "menge": 4
+   },
+   "namen": [
+    "Bella",
+    "Gino",
+    "Stella",
+    "Marco",
+    "Olga",
+    "Dino"
+   ],
+   "motiv": "a Pisana cow, a rare Tuscan cattle with a solid very dark chestnut coat that looks almost black, short smooth hair, short curved horns, dark muzzle"
+  }
+ },
+ "tier_varianten": [
+  "baby",
+  "adult_m",
+  "adult_f",
+  "old_m",
+  "old_f"
+ ],
+ "tier_groesse": {
+  "chicken": {
+   "baby": 0.5,
+   "adult_m": 0.95,
+   "adult_f": 0.85,
+   "old_m": 1.0,
+   "old_f": 0.9
+  },
+  "pig": {
+   "baby": 0.6,
+   "adult_m": 1.1,
+   "adult_f": 1.0,
+   "old_m": 1.15,
+   "old_f": 1.05
+  },
+  "cow": {
+   "baby": 0.9,
+   "adult_m": 1.55,
+   "adult_f": 1.4,
+   "old_m": 1.6,
+   "old_f": 1.45
+  }
+ },
+ "tier_laut": {
+  "chicken": "cluck",
+  "pig": "grunt",
+  "cow": "moo"
+ },
+ "nonna": {
+  "dauerhaft": [
+   "rice",
+   "noodles",
+   "flour",
+   "zitronen",
+   "sojasauce"
+  ],
+  "tagesvorrat": {
+   "eggs": 3,
+   "milk": 2,
+   "chicken_meat": 2,
+   "pork": 1,
+   "beef": 1,
+   "salmon_steak": 1
+  },
+  "ab_tag": 4
+ },
+ "frederico": [
+  {
+   "text": "I'll bring it over right now, Officer! Well... right after the goat finishes her lunch. She's very particular.",
+   "gesprochen": "I'll bring it over right now, Officer! [chuckle] Well... right after the goat finishes her lunch. She's very particular."
+  },
+  {
+   "text": "It'll be there before you've even said goodbye. Okay, maybe a little after. The cart has a wobbly wheel.",
+   "gesprochen": "It'll be there before you've even said goodbye. [laugh] Okay, maybe a little after. The cart has a wobbly wheel."
+  },
+  {
+   "text": "Nonna says I must carry it carefully. I have never dropped anything. Only once. Twice, if you count Tuesday.",
+   "gesprochen": "Nonna says I must carry it carefully. [sniff] I have never dropped anything. Only once. Twice, if you count Tuesday."
+  },
+  {
+   "text": "I'll run all the way! Almost all the way. The hill is very steep, and the goat has opinions.",
+   "gesprochen": "I'll run all the way! [gasp] Almost all the way. The hill is very steep, and the goat has opinions."
+  },
+  {
+   "text": "Your shopping is in good hands, Officer. Small hands, but fast ones.",
+   "gesprochen": "Your shopping is in good hands, Officer. [chuckle] Small hands, but fast ones."
+  },
+  {
+   "text": "I'll put it in the kitchen myself and I won't peek. Only a little peek. At the cheese.",
+   "gesprochen": "I'll put it in the kitchen myself and I won't peek. [laugh] Only a little peek. At the cheese."
+  },
+  {
+   "text": "Leave it to me! That's what Nonna says right before she gives me more work. But I like it.",
+   "gesprochen": "Leave it to me! [cough] That's what Nonna says right before she gives me more work. But I like it."
+  },
+  {
+   "text": "Goodbye, Officer! The cart and I are faster than the weather. Usually.",
+   "gesprochen": "Goodbye, Officer! The cart and I are faster than the weather. [chuckle] Usually."
+  }
+ ],
+ "rohstoffe": {
+  "timber": {
+   "label": "Timber",
+   "text": "Split logs from the valley, stacked to dry. They smell better than anything you'll ever build with them.",
+   "preis": 8
+  },
+  "slate": {
+   "label": "Slate",
+   "text": "Dark plates split from the ridges above Corte. The old roofs here wear it. It breaks along its own grain, never along yours.",
+   "preis": 6
+  },
+  "granite": {
+   "label": "Granite",
+   "text": "Grey, speckled and in no hurry. The island is made of it, and so is every wall still standing after a winter.",
+   "preis": 8
+  },
+  "iron": {
+   "label": "Iron Fittings",
+   "text": "Hinges, nails and brackets from the smith in Corte.",
+   "preis": 25
+  },
+  "cork": {
+   "label": "Cork",
+   "text": "Bark from a cork oak, light and warm to the touch. Petru carves floats from it.",
+   "preis": 5
+  },
+  "feather": {
+   "label": "Gull Feather",
+   "text": "A stiff grey-white feather, clean as paper. Petru ties them onto his best lures.",
+   "preis": 0
+  },
+  "cloth": {
+   "label": "Cloth",
+   "text": "A bolt of plain linen that fell off a ferry, according to the man who sold it. It still smells of the ferry.",
+   "preis": 15
+  },
+  "wool": {
+   "label": "Corsican Wool",
+   "text": "Rough, oily and warm, straight off a mountain sheep. It keeps out everything except the smell of sheep.",
+   "preis": 15
+  },
+  "leather": {
+   "label": "Boar Leather",
+   "text": "Thick hide with a few old scars in it. The boar had a hard life, and the leather remembers.",
+   "preis": 12
+  },
+  "coral": {
+   "label": "Red Coral",
+   "text": "A branch of red coral from the rocks off the Punta d'Orsu. A good tailor can get six buttons out of it. A bad one gets four.",
+   "preis": 20
+  },
+  "steel": {
+   "label": "Steel",
+   "text": "Nobody on this island makes it. It only comes ashore inside the machines sent to find you, so you take it back out.",
+   "preis": 40
+  }
+ },
+ "nonna_rohstoffe": {
+  "timber": 6,
+  "slate": 6,
+  "iron": 2
+ },
+ "stahl_kampf": {
+  "ab_tag": 22,
+  "n": 1,
+  "klasse": "maschine"
+ },
+ "leder_kampf": {
+  "n": 1,
+  "gegner": [
+   "Boar",
+   "Alpha Boar"
+  ]
+ },
+ "stall_stufen": {
+  "chicken": [
+   {
+    "geld": 120,
+    "rohstoffe": {
+     "timber": 4,
+     "slate": 2
+    },
+    "plaetze": 6,
+    "text": "A small henhouse with one perch row."
+   },
+   {
+    "geld": 150,
+    "rohstoffe": {
+     "timber": 6,
+     "cork": 2,
+     "slate": 2,
+     "granite": 2
+    },
+    "plaetze": 9,
+    "text": "A bigger run and a second perch row: room for three more."
+   },
+   {
+    "geld": 220,
+    "rohstoffe": {
+     "timber": 6,
+     "granite": 4,
+     "iron": 2,
+     "steel": 2
+    },
+    "plaetze": 9,
+    "menge_plus": 1,
+    "zucht_minus": 1,
+    "text": "Nesting boxes full of straw: every hen lays one more egg, and chicks come sooner."
+   }
+  ],
+  "pig": [
+   {
+    "geld": 200,
+    "rohstoffe": {
+     "timber": 6,
+     "slate": 2
+    },
+    "plaetze": 4,
+    "text": "A stone sty under the chestnut trees."
+   },
+   {
+    "geld": 220,
+    "rohstoffe": {
+     "timber": 6,
+     "cork": 3,
+     "slate": 4,
+     "granite": 2
+    },
+    "plaetze": 6,
+    "text": "A fenced oak grove next door: room for two more."
+   },
+   {
+    "geld": 300,
+    "rohstoffe": {
+     "timber": 8,
+     "granite": 6,
+     "iron": 2,
+     "steel": 3
+    },
+    "plaetze": 6,
+    "menge_plus": 1,
+    "zucht_minus": 1,
+    "text": "A muddy wallow and the deep oak wood: the pigs find one more truffle, and piglets come sooner."
+   }
+  ],
+  "cow": [
+   {
+    "geld": 320,
+    "rohstoffe": {
+     "timber": 8,
+     "slate": 4
+    },
+    "plaetze": 3,
+    "text": "A barn with a hayloft."
+   },
+   {
+    "geld": 300,
+    "rohstoffe": {
+     "timber": 8,
+     "cork": 4,
+     "slate": 6,
+     "granite": 4
+    },
+    "plaetze": 5,
+    "text": "A second stall row and a water trough: room for two more."
+   },
+   {
+    "geld": 400,
+    "rohstoffe": {
+     "timber": 10,
+     "granite": 8,
+     "iron": 3,
+     "steel": 4
+    },
+    "plaetze": 5,
+    "menge_plus": 1,
+    "zucht_minus": 1,
+    "text": "A summer pasture on the terraces: every cow gives one more milk, and calves come sooner."
+   }
+  ]
+ },
+ "angeln": {
+  "orte": {
+   "boot": {
+    "label": "Fishing off the Swim Platform",
+    "text": "Rod, bucket, the stern in the shade. The sea doesn't hurry.",
+    "bild": "eden_rise_angeln_boot.png",
+    "wasser": "meer",
+    "frei": null,
+    "pose": [
+     34,
+     62
+    ]
+   }
+  },
+  "wuerfe": 4,
+  "stufe": {
+   "sardine": 1,
+   "gilt_head_bream": 1,
+   "red_mullet": 1,
+   "sea_bass": 1,
+   "scorpionfish": 2,
+   "cuttlefish": 2,
+   "octopus": 2,
+   "salmon": 2,
+   "red_prawn": 3,
+   "spiny_lobster": 3,
+   "brown_trout": 1,
+   "perch": 1,
+   "carp": 1,
+   "tench": 1,
+   "barbel": 2,
+   "river_crayfish": 2,
+   "river_crab": 2,
+   "pike": 2,
+   "eel": 3,
+   "zander": 3
+  },
+  "gewicht": {
+   "1": 60,
+   "2": 30,
+   "3": 10
+  },
+  "drill": {
+   "0": {
+    "treffer": 2,
+    "tempo": 0.65,
+    "zone": 0.4,
+    "schwund": 0.022
+   },
+   "1": {
+    "treffer": 3,
+    "tempo": 0.85,
+    "zone": 0.34,
+    "schwund": 0.028
+   },
+   "2": {
+    "treffer": 3,
+    "tempo": 1.1,
+    "zone": 0.29,
+    "schwund": 0.03
+   },
+   "3": {
+    "treffer": 4,
+    "tempo": 1.3,
+    "zone": 0.27,
+    "schwund": 0.03
+   }
+  },
+  "fehler": 0.06,
+  "tempo_je_treffer": 1.08,
+  "wahrnehmung_zone": 0.015,
+  "biss": {
+   "warten": [
+    1.4,
+    3.6
+   ],
+   "fenster": 0.95,
+   "fenster_wahrnehmung": 0.1
+  },
+  "fund_chance": 0.15,
+  "fundsachen": {
+   "meer": [
+    {
+     "id": "driftwood",
+     "label": "Driftwood",
+     "text": "A bleached plank, still good wood.",
+     "rohstoffe": {
+      "timber": 1
+     }
+    },
+    {
+     "id": "rusty_chain",
+     "label": "Rusty Anchor Chain",
+     "text": "A length of old chain. The smith will want it.",
+     "rohstoffe": {
+      "iron": 1
+     }
+    },
+    {
+     "id": "gull_feather",
+     "label": "Gull Feather",
+     "text": "A grey-white feather caught in the rocks. Petru would know what to do with it.",
+     "rohstoffe": {
+      "feather": 1
+     }
+    },
+    {
+     "id": "red_coral",
+     "label": "Red Coral",
+     "text": "A branch of red coral tangled in your line. Somebody on the island will want that.",
+     "rohstoffe": {
+      "coral": 1
+     }
+    }
+   ],
+   "fluss": [
+    {
+     "id": "river_slate",
+     "label": "River Slate",
+     "text": "A handful of thin flat plates from the bottom.",
+     "rohstoffe": {
+      "slate": 2
+     }
+    },
+    {
+     "id": "old_branch",
+     "label": "Waterlogged Branch",
+     "text": "A heavy oak branch. It'll dry.",
+     "rohstoffe": {
+      "timber": 1
+     }
+    }
+   ]
+  },
+  "sammel_bonus": {
+   "meer": {
+    "label": "Lea's Lucky Lure",
+    "zone": 0.03,
+    "text": "Lea saw your journal and pressed her grandad's old lure into your hand. The golden band stays a little wider."
+   },
+   "fluss": {
+    "label": "Petru's Cork Float",
+    "zone": 0.03,
+    "text": "Petru turned your journal page by page and gave you a cork float he carved himself. The golden band stays a little wider."
+   }
+  }
+ },
+ "abbau": {
+  "quellen": {
+   "boot": {
+    "label": "Swim Platform",
+    "frames": [],
+    "wasser": "meer",
+    "angel_bild": "meer_01",
+    "pose": [
+     34,
+     62
+    ],
+    "angel_bild_datei": "eden_rise_angeln_boot.png"
+   },
+   "kl_bachufer": {
+    "label": "Under the Holm Oak",
+    "frames": [
+     "kl_bachufer"
+    ],
+    "holz": {
+     "cork_oak": 60,
+     "holm_oak": 40
+    },
+    "wasser": "fluss",
+    "angel_bild": "fluss_01",
+    "pose": [
+     34,
+     66
+    ],
+    "angel_bild_datei": "eden_rise_angeln_kl_bachufer.png"
+   },
+   "kl_huette": {
+    "label": "The Shepherd's Hut",
+    "frames": [
+     "kl_huette"
+    ],
+    "holz": {
+     "cork_oak": 50,
+     "holm_oak": 50
+    }
+   },
+   "kl_lager": {
+    "label": "The Brothers' Camp",
+    "frames": [
+     "kl_lager"
+    ],
+    "holz": {
+     "holm_oak": 60,
+     "cork_oak": 40
+    }
+   },
+   "kl_schlucht": {
+    "label": "Fire on the Ledge",
+    "frames": [
+     "kl_schluchtfeuer",
+     "kl_schluchtfeuer_kalt"
+    ],
+    "stein": {
+     "granite": 60,
+     "schist": 40
+    }
+   },
+   "bg_koehler": {
+    "label": "The Charcoal Burners' Clearing",
+    "frames": [
+     "bg_koehler"
+    ],
+    "holz": {
+     "holm_oak": 70,
+     "cork_oak": 30
+    }
+   },
+   "bg_see": {
+    "label": "The Mountain Lake",
+    "frames": [
+     "bg_see",
+     "bg_see_rast"
+    ],
+    "stein": {
+     "granite": 70,
+     "schist": 30
+    },
+    "wasser": "fluss",
+    "angel_bild": "fluss_02",
+    "pose": [
+     36,
+     60
+    ],
+    "angel_bild_datei": "eden_rise_angeln_bg_see.png"
+   },
+   "bg_kamm": {
+    "label": "The Foggy Ridge",
+    "frames": [
+     "bg_kamm_funk"
+    ],
+    "stein": {
+     "schist": 60,
+     "granite": 40
+    }
+   },
+   "bg_u1_huette": {
+    "label": "Ghjuvan's Summer Hut",
+    "frames": [
+     "bg_u1_huette"
+    ],
+    "holz": {
+     "holm_oak": 60,
+     "cork_oak": 40
+    }
+   },
+   "bg_u2_huette": {
+    "label": "An Empty Hut",
+    "frames": [
+     "bg_u2_huette_leer"
+    ],
+    "holz": {
+     "holm_oak": 70,
+     "cork_oak": 30
+    }
+   },
+   "gr_strand": {
+    "label": "The Drowned Beach",
+    "frames": [
+     "gr_strand"
+    ],
+    "stein": {
+     "granite": 50,
+     "schist": 50
+    },
+    "wasser": "meer",
+    "angel_bild": "meer_03",
+    "pose": [
+     32,
+     64
+    ],
+    "angel_bild_datei": "eden_rise_angeln_gr_strand.png"
+   },
+   "gr_u1_luft": {
+    "label": "The Air Pocket",
+    "frames": [
+     "gr_u1_luft"
+    ],
+    "stein": {
+     "schist": 60,
+     "granite": 40
+    }
+   },
+   "gr_u2_lager": {
+    "label": "The Treasure Hunters' Camp",
+    "frames": [
+     "gr_u2_lager"
+    ],
+    "stein": {
+     "granite": 60,
+     "schist": 40
+    }
+   },
+   "fn_teich": {
+    "label": "The Quiet Pool",
+    "frames": [
+     "fn_teich_leer"
+    ],
+    "wasser": "meer",
+    "angel_bild": "meer_06",
+    "pose": [
+     36,
+     62
+    ],
+    "angel_bild_datei": "eden_rise_angeln_fn_teich.png"
+   }
+  },
+  "menge": 4,
+  "pause": 3,
+  "knoten": {
+   "holm_oak": {
+    "art": "holz",
+    "label": "Holm Oak",
+    "ertrag": {
+     "timber": 3
+    },
+    "bilder": [
+     "holm_oak",
+     "holm_oak_2",
+     "holm_oak_3"
+    ]
+   },
+   "cork_oak": {
+    "art": "holz",
+    "label": "Cork Oak",
+    "ertrag": {
+     "cork": 2
+    },
+    "bilder": [
+     "cork_oak",
+     "cork_oak_2"
+    ]
+   },
+   "granite": {
+    "art": "stein",
+    "label": "Granite Boulder",
+    "ertrag": {
+     "granite": 2
+    }
+   },
+   "schist": {
+    "art": "stein",
+    "label": "Slate Rock",
+    "ertrag": {
+     "slate": 2
+    }
+   }
+  },
+  "perfekt_plus": 1,
+  "ring": {
+   "dauer": 1.1,
+   "schneller": 0.9,
+   "gut_ms": 150,
+   "perfekt_ms": 60,
+   "kraft_ms": 10
+  },
+  "stapel": {
+   "rohstoff": 10,
+   "fisch": 3
+  },
+  "angel_bilder": {
+   "boot": [
+    "eden_rise_angeln_meer_01.png",
+    "eden_rise_angeln_meer_02.png",
+    "eden_rise_angeln_meer_05.png",
+    "eden_rise_angeln_meer_06.png",
+    "eden_rise_angeln_meer_09.png"
+   ],
+   "meer": [
+    "eden_rise_angeln_meer_03.png",
+    "eden_rise_angeln_meer_04.png",
+    "eden_rise_angeln_meer_07.png",
+    "eden_rise_angeln_meer_08.png",
+    "eden_rise_angeln_meer_10.png"
+   ],
+   "fluss": [
+    "eden_rise_angeln_fluss_01.png",
+    "eden_rise_angeln_fluss_02.png",
+    "eden_rise_angeln_fluss_03.png",
+    "eden_rise_angeln_fluss_04.png",
+    "eden_rise_angeln_fluss_05.png",
+    "eden_rise_angeln_fluss_06.png",
+    "eden_rise_angeln_fluss_07.png",
+    "eden_rise_angeln_fluss_08.png",
+    "eden_rise_angeln_fluss_09.png",
+    "eden_rise_angeln_fluss_10.png"
+   ]
+  }
+ },
+ "werkzeuge": {
+  "axe": {
+   "art": "holz",
+   "label": "Axe",
+   "stufen": [
+    {
+     "label": "Old Hatchet",
+     "treffer": 3,
+     "geld": 40,
+     "rohstoffe": {},
+     "fisch": null,
+     "text": "His father's hatchet. Not sharp, but it has never let go of the handle."
+    },
+    {
+     "label": "Forester's Axe",
+     "treffer": 1,
+     "geld": 120,
+     "rohstoffe": {
+      "iron": 2,
+      "timber": 4
+     },
+     "fisch": "pike",
+     "text": "A new head on a hickory handle. One clean stroke per tree."
+    },
+    {
+     "label": "Tempered Axe",
+     "treffer": 0,
+     "geld": 220,
+     "rohstoffe": {
+      "iron": 3,
+      "timber": 6
+     },
+     "fisch": "eel",
+     "rosi": true,
+     "vertrauen": 3,
+     "text": "Petru forged it and Rosi hardened the steel. The tree simply comes down."
+    }
+   ]
+  },
+  "pickaxe": {
+   "art": "stein",
+   "label": "Pickaxe",
+   "stufen": [
+    {
+     "label": "Old Pick",
+     "treffer": 3,
+     "geld": 40,
+     "rohstoffe": {},
+     "fisch": null,
+     "text": "Heavy, blunt and honest. The rock decides when it breaks."
+    },
+    {
+     "label": "Quarry Pick",
+     "treffer": 1,
+     "geld": 120,
+     "rohstoffe": {
+      "iron": 2,
+      "timber": 4
+     },
+     "fisch": "barbel",
+     "text": "Freshly forged points. One good blow and the rock splits."
+    },
+    {
+     "label": "Tempered Pick",
+     "treffer": 0,
+     "geld": 220,
+     "rohstoffe": {
+      "iron": 3,
+      "timber": 6
+     },
+     "fisch": "zander",
+     "rosi": true,
+     "vertrauen": 3,
+     "text": "Tempered twice by Rosi. The stone gives way before you finish the swing."
+    }
+   ]
+  }
+ },
+ "koeder": {
+  "cork_float": {
+   "stufe": 1,
+   "label": "Cork Float",
+   "geld": 30,
+   "rohstoffe": {
+    "cork": 2,
+    "timber": 1
+   },
+   "text": "A round float carved from oak bark, painted by hand. It doesn't do much. It does it every time.",
+   "zone": 0.03,
+   "selten": {
+    "2": 0,
+    "3": 0
+   },
+   "warten": 1.0,
+   "looks": [
+    {
+     "id": "koeder_1_1",
+     "label": "Red and white"
+    },
+    {
+     "id": "koeder_1_4",
+     "label": "Green and white"
+    }
+   ]
+  },
+  "balsa_float": {
+   "stufe": 2,
+   "label": "Balsa Float",
+   "geld": 70,
+   "rohstoffe": {
+    "cork": 2,
+    "feather": 2,
+    "iron": 1
+   },
+   "text": "A slim balsa float with a gull's feather in the varnish. The golden band is wider and the better fish come closer.",
+   "zone": 0.05,
+   "selten": {
+    "2": 5,
+    "3": 2
+   },
+   "warten": 0.9,
+   "looks": [
+    {
+     "id": "koeder_2_3",
+     "label": "Red tip, cream body"
+    },
+    {
+     "id": "koeder_2_4",
+     "label": "Pink tip, blue body"
+    }
+   ]
+  },
+  "wooden_lure": {
+   "stufe": 3,
+   "label": "Wooden Lure",
+   "geld": 130,
+   "rohstoffe": {
+    "timber": 2,
+    "feather": 3,
+    "iron": 2
+   },
+   "text": "A little wooden fish with a diving lip and two silver hooks. It swims like something alive, and the fish are not clever about that.",
+   "zone": 0.07,
+   "selten": {
+    "2": 9,
+    "3": 6
+   },
+   "warten": 0.75,
+   "looks": [
+    {
+     "id": "koeder_3_1",
+     "label": "Silver sardine"
+    },
+    {
+     "id": "koeder_3_3",
+     "label": "Red mullet"
+    }
+   ]
+  }
+ },
+ "petru": {
+  "ab_tag": 2,
+  "fisch_anteil": {
+   "1": 0.5,
+   "2": 0.65,
+   "3": 0.8
+  },
+  "fisch_notiz": {
+   "sea_bass": "The French call him the sea wolf. He hunts in the white water where the waves break, when it is too rough for anyone sensible. There are plenty in the bay, so the price is small.",
+   "gilt_head_bream": "See the gold between the eyes? That's how you know her. She cracks mussels with those teeth, so the meat is sweet, but half the harbour catches her, and I can't pay much.",
+   "red_mullet": "Two whiskers to taste the sand with. The Romans paid silver for this fish, they say. Today I pay you a few coins, and that is how the world goes.",
+   "scorpionfish": "Careful with the spines, they sting worse than a wasp. Ugly fish. But without him there is no real bouillabaisse, so I pay you a fair price.",
+   "sardine": "Sardines come in their thousands every summer, so nobody pays much for one. Grill it with salt and eat it with your fingers. On this coast that is still the best supper there is.",
+   "salmon": "A salmon, here? He must have lost his way to the north. They say he finds the river he was born in by the smell, after years at sea. I pay fair for a fish that far from home.",
+   "cuttlefish": "She changes colour while you watch her, when she's afraid and when she's curious. The ink turns rice black, and the bone inside goes to the birds. A fair price for all of that.",
+   "octopus": "Hm. Clever animal. Bastianu, at my workshop, opens jars when I'm not looking. Don't tell him I bought this one. Fair price.",
+   "red_prawn": "From the deep water off the cape, where the light never reaches. Red before it ever sees a pan. The restaurants in Bastia fight over these, so I pay you well.",
+   "spiny_lobster": "No claws, only spines and those long whips. Hold him close to your ear, he creaks when he's angry. Weddings, baptisms, festas: for him I pay the best price I have.",
+   "brown_trout": "A trout from the cold water up high. Look at the spots, every stream paints them a little differently. The hills are full of streams, though, so I can't pay much.",
+   "eel": "Every eel in this river was born on the other side of the ocean, and one day she swims all the way back. Nobody has ever seen where. I pay well for a traveller like that.",
+   "carp": "The monks kept carp in their ponds for the fasting days. Slow fish, and he lives longer than most dogs. He tastes of mud if you cook him wrong, so the price is small.",
+   "pike": "He waits in the reeds without moving, an hour if he has to, and then he takes a duckling off the water. Mind the teeth, they point backwards. Fair price.",
+   "perch": "Stripes like a small tiger, and a fin that bites back if you grab him wrong. Where there is one, there are twenty. So, not much money.",
+   "tench": "The doctor fish. The old men say the others rub against him when they are sick, because of the slime. I don't know if it's true. Cheap, but honest.",
+   "barbel": "Four whiskers, and he reads the riverbed with them like a blind man reads a face. Don't eat the eggs, they'll keep you in bed for two days. A fair price for a fair fish.",
+   "zander": "The zander. Eyes like a cat, so he hunts at night while the others sleep. Firm white meat, no mud in it at all. I pay you well for him.",
+   "river_crayfish": "He only lives where the water is clean. When the crayfish leave a stream, something upstream is wrong. I pay fair for good news like that.",
+   "river_crab": "A crab that has never seen the sea. At night he climbs out and sits on the warm stones like an old man. Hm. Odd neighbour. Fair price."
+  }
+ }
+}

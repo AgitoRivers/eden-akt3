@@ -1,0 +1,436 @@
+{
+ "id": "englisch_akt1_extras",
+ "titel": "Englisch · Paket 2b: Nebenfelder",
+ "gruppen": [
+  {
+   "titel": "Nebenfelder",
+   "items": [
+    {
+     "key": "extra.0",
+     "alt": "Lola jeden Abend etwas genervt; Kontrollrisiko bei Elsa entfällt fürs Gras",
+     "neu": "Lola a little annoyed every evening; no inspection risk with Elsa over the weed"
+    },
+    {
+     "key": "extra.1",
+     "alt": "Lolas Abend-Event bleibt möglich; Holm/Chiara-Events mit Gras an Deck entfallen",
+     "neu": "Lola's evening event stays possible; Holm/Chiara events with weed on deck drop out"
+    },
+    {
+     "key": "extra.2",
+     "alt": "Essen wird geteilt, nicht gehortet",
+     "neu": "Food is shared, not hoarded"
+    },
+    {
+     "key": "extra.3",
+     "alt": "Siri +2 Vertrauen am Abend, Yasin-Content-Missionen nur tagsüber",
+     "neu": "Siri +2 trust in the evening; Yasin's content missions only during the day"
+    },
+    {
+     "key": "extra.4",
+     "alt": "Kombüsen-Ordnung",
+     "neu": "Galley order"
+    },
+    {
+     "key": "extra.5",
+     "alt": "Chiara +2, Lolas Gags in der Kombüse seltener",
+     "neu": "Chiara +2; Lola's galley gags happen less often"
+    },
+    {
+     "key": "extra.6",
+     "alt": "Gästebereich bleibt Gästebereich",
+     "neu": "The guest area stays the guest area"
+    },
+    {
+     "key": "extra.7",
+     "alt": "Rückhalt +1 jeden Abend, Alvas Bar-Lieferungen an Bord entfallen",
+     "neu": "Backing +1 every evening; Alva's bar deliveries to the boat drop out"
+    },
+    {
+     "key": "extra.8",
+     "alt": "Energie +1 am Morgen, nächtliche Handy-Events seltener",
+     "neu": "Energy +1 in the morning; fewer phone events at night"
+    },
+    {
+     "key": "extra.9",
+     "alt": "Kevin, die Möwe",
+     "neu": "Kevin the seagull"
+    },
+    {
+     "key": "extra.10",
+     "alt": "Megan lacht (und hasst es)",
+     "neu": "Megan laughs (and hates it)"
+    },
+    {
+     "key": "extra.11",
+     "alt": "Janas Training mit Maxwell",
+     "neu": "Jana's training with Maxwell"
+    },
+    {
+     "key": "extra.12",
+     "alt": "Lolas „Spezial-Pesto“",
+     "neu": "Lola's “Special Pesto”"
+    },
+    {
+     "key": "extra.13",
+     "alt": "Ein Glas grünes Pesto. Sehr grün. Hebt die Stimmung, sagt Lola.",
+     "neu": "A jar of green pesto. Very green. It lifts the mood, Lola says."
+    },
+    {
+     "key": "extra.14",
+     "alt": "Muschelkrone der Festa",
+     "neu": "Festa Shell Crown"
+    },
+    {
+     "key": "extra.15",
+     "alt": "Glitzer, Muscheln und Würde. Im Epilog sichtbar.",
+     "neu": "Glitter, shells and dignity. Visible in the epilogue."
+    },
+    {
+     "key": "extra.16",
+     "alt": "Selbstgemachte Muschelkette mit Perlen",
+     "neu": "Homemade Shell Necklace with Beads"
+    },
+    {
+     "key": "extra.17",
+     "alt": "Von den Dorfkindern als Dank. Siri liebt sie.",
+     "neu": "A thank-you from the village kids. Siri loves it."
+    },
+    {
+     "key": "extra.18",
+     "alt": "Ein Eimer Fisch. Lola macht daraus ein Fest.",
+     "neu": "A bucket of fish. Lola turns it into a feast."
+    },
+    {
+     "key": "extra.19",
+     "alt": "„Danke für den ersten Geburtstag ohne Kamera.“ Im Epilog sichtbar.",
+     "neu": "“Thank you for my first birthday without a camera.” Visible in the epilogue."
+    },
+    {
+     "key": "extra.20",
+     "alt": "Einmal am Tag Vorteil auf Empathy.",
+     "neu": "Once a day: advantage on Empathy."
+    },
+    {
+     "key": "extra.21",
+     "alt": "Bauchnabelpiercing mit Muschel",
+     "neu": "Belly Button Piercing with a Shell"
+    },
+    {
+     "key": "extra.22",
+     "alt": "Alva legt es dir für Lola auf die Rechnung. Lola liebt es.",
+     "neu": "Alva puts it on your tab for Lola. Lola loves it."
+    },
+    {
+     "key": "extra.23",
+     "alt": "Ein Foto, das du nicht löschen solltest",
+     "neu": "A Photo You Shouldn't Delete"
+    },
+    {
+     "key": "extra.24",
+     "alt": "Rosi weiß, dass du es hast. Im Epilog sichtbar.",
+     "neu": "Rosi knows you have it. Visible in the epilogue."
+    },
+    {
+     "key": "extra.25",
+     "alt": "Weiß, mit goldenem Anker. Totò liebt sie, Siri hasst sie.",
+     "neu": "White, with a golden anchor. Totò loves it, Siri hates it."
+    },
+    {
+     "key": "extra.26",
+     "alt": "Lolas Gewürzmischung",
+     "neu": "Lola's Spice Mix"
+    },
+    {
+     "key": "extra.27",
+     "alt": "Ein Glas „Ocean Glitter“. Rosi liebt es.",
+     "neu": "A jar of “Ocean Glitter”. Rosi loves it."
+    },
+    {
+     "key": "extra.28",
+     "alt": "Screenshot: Megan mit Goldmaske",
+     "neu": "Screenshot: Megan in a Gold Mask"
+    },
+    {
+     "key": "extra.29",
+     "alt": "Einmal am Tag Vorteil auf Charm bei Megan. Wehe, sie findet es.",
+     "neu": "Once a day: advantage on Charm with Megan. Heaven help you if she finds it."
+    },
+    {
+     "key": "extra.30",
+     "alt": "Abzeichen der Gendarmerie maritime",
+     "neu": "Gendarmerie Maritime Badge"
+    },
+    {
+     "key": "extra.31",
+     "alt": "Elsa hat es dir zugeworfen. Einmal am Tag Vorteil auf Courage.",
+     "neu": "Elsa tossed it to you. Once a day: advantage on Courage."
+    },
+    {
+     "key": "extra.32",
+     "alt": "Ein rostiger Frachter vor Bergen, eine junge Frau mit Mütze.",
+     "neu": "A rusty freighter off Bergen, a young woman in a cap."
+    },
+    {
+     "key": "extra.33",
+     "alt": "Trophäe. Megan will ihn zurück. Nie.",
+     "neu": "A trophy. Megan wants it back. Never."
+    },
+    {
+     "key": "extra.34",
+     "alt": "Ducs Gedicht über das Meer",
+     "neu": "Duc's Poem About the Sea"
+    },
+    {
+     "key": "extra.35",
+     "alt": "Reimt sea auf me. Chiara liebt es, heimlich.",
+     "neu": "Rhymes sea with me. Chiara loves it, secretly."
+    },
+    {
+     "key": "extra.36",
+     "alt": "Einmal am Tag Vorteil auf Perception.",
+     "neu": "Once a day: advantage on Perception."
+    },
+    {
+     "key": "extra.37",
+     "alt": "Goldfisch in der Wassertüte",
+     "neu": "Goldfish in a Water Bag"
+    },
+    {
+     "key": "extra.38",
+     "alt": "Casanova schenkt ihn „der Heldin der Bucht“. Lea liebt ihn, Chiara hasst ihn.",
+     "neu": "Casanova gives it to “the heroine of the bay”. Lea loves it, Chiara hates it."
+    },
+    {
+     "key": "extra.39",
+     "alt": "Sie hat es dir beim Tanzen ins Haar gesteckt. Im Epilog sichtbar.",
+     "neu": "She tucked it into your hair while you were dancing. Visible in the epilogue."
+    },
+    {
+     "key": "extra.40",
+     "alt": "Eine rote Rose aus Alvas Haar. Lola und Siri lieben sie.",
+     "neu": "A red rose from Alva's hair. Lola and Siri love it."
+    },
+    {
+     "key": "extra.41",
+     "alt": "+1 Courage, solange getragen. „Science, then hammer.“",
+     "neu": "+1 Courage while carried. “Science, then hammer.”"
+    },
+    {
+     "key": "extra.42",
+     "alt": "+1 Perception, solange getragen. Riecht nach Salz und Sonnencreme.",
+     "neu": "+1 Perception while carried. Smells of salt and sun cream."
+    },
+    {
+     "key": "extra.43",
+     "alt": "+1 Cunning, solange getragen. Zu klein, aber sie wollte, dass du sie nimmst.",
+     "neu": "+1 Cunning while carried. Too small, but she wanted you to have them."
+    },
+    {
+     "key": "extra.44",
+     "alt": "Einmal am Tag Vorteil auf Charm.",
+     "neu": "Once a day: advantage on Charm."
+    },
+    {
+     "key": "extra.45",
+     "alt": "Messing-Anker als Schlüsselanhänger",
+     "neu": "Brass Anchor Keyring"
+    },
+    {
+     "key": "extra.46",
+     "alt": "Rostig, aus der Bucht geangelt. Holm würde ihn lieben.",
+     "neu": "Rusty, fished out of the bay. Holm would love it."
+    },
+    {
+     "key": "extra.47",
+     "alt": "Grünes Seeglas",
+     "neu": "Green Sea Glass"
+    },
+    {
+     "key": "extra.48",
+     "alt": "Schlüssel zu Alvas Hinterzimmer",
+     "neu": "Key to Alva's Back Room"
+    },
+    {
+     "key": "extra.49",
+     "alt": "An einer roten Kordel. Öffnet das Hinterzimmer der Bar, auch für ruhige Gespräche ohne Zeugen.",
+     "neu": "On a red cord. Opens the bar's back room, also for quiet talks without witnesses."
+    },
+    {
+     "key": "extra.50",
+     "alt": "Die Rose der Bürgermeisterin",
+     "neu": "The Mayor's Rose"
+    },
+    {
+     "key": "extra.51",
+     "alt": "Aus Madame Casanovas Haar, nach dem Flamenco. Einmal benutzt: Begehren +6 bei allen Frauen.",
+     "neu": "From Madame Casanova's hair, after the flamenco. Used once: desire +6 with all the women."
+    },
+    {
+     "key": "extra.52",
+     "alt": "Duc kontrolliert die Kombüse selbst",
+     "neu": "Duc checks the galley himself"
+    },
+    {
+     "key": "extra.53",
+     "alt": "Duc baut Lea ein Regal an Deck",
+     "neu": "Duc builds Lea a rack on deck"
+    },
+    {
+     "key": "extra.54",
+     "alt": "Duc übernimmt Rosis Spätschicht",
+     "neu": "Duc takes Rosi's late shift"
+    },
+    {
+     "key": "extra.55",
+     "alt": "Duc besorgt Chiara eine neue Mütze",
+     "neu": "Duc gets Chiara a new cap"
+    },
+    {
+     "key": "extra.56",
+     "alt": "Duc kommt morgen zu Alva",
+     "neu": "Duc visits Alva tomorrow"
+    },
+    {
+     "key": "extra.57",
+     "alt": "Duc erzählt der Crew von Köln",
+     "neu": "Duc tells the crew about Cologne"
+    },
+    {
+     "key": "extra.58",
+     "alt": "Duc hat auf Alvas Tresen getanzt",
+     "neu": "Duc danced on Alva's bar"
+    },
+    {
+     "key": "extra.59",
+     "alt": "Duc und Rosi im Generatorraum",
+     "neu": "Duc and Rosi in the generator room"
+    },
+    {
+     "key": "extra.60",
+     "alt": "Duc schaut Lola beim Yoga zu",
+     "neu": "Duc watches Lola doing yoga"
+    },
+    {
+     "key": "extra.61",
+     "alt": "Duc konnte sich beim Dinner nicht entscheiden",
+     "neu": "Duc couldn't make up his mind at dinner"
+    },
+    {
+     "key": "extra.62",
+     "alt": "Siri und Lea cremen Duc gleichzeitig ein",
+     "neu": "Siri and Lea put sun cream on Duc at the same time"
+    },
+    {
+     "key": "extra.63",
+     "alt": "Duc tanzt auf der Festa mit zwei Frauen",
+     "neu": "Duc dances with two women at the festa"
+    },
+    {
+     "key": "extra.64",
+     "alt": "Duc hat Lola in ihrer eigenen Kombüse geschlagen",
+     "neu": "Duc beat Lola in her own galley"
+    },
+    {
+     "key": "extra.65",
+     "alt": "Ducs Fusionsküche hat das Dorf verwirrt",
+     "neu": "Duc's fusion cooking confused the village"
+    },
+    {
+     "key": "extra.66",
+     "alt": "Der Quizmaster wusste seine eigene Frage nicht",
+     "neu": "The quizmaster didn't know the answer to his own question"
+    },
+    {
+     "key": "extra.67",
+     "alt": "Du hast kaum geschlafen. Ihre Stimme um 02:13 ist noch immer da, ganz nah an deinem Ohr.",
+     "neu": "You hardly slept. Her voice at 02:13 is still there, very close to your ear."
+    },
+    {
+     "key": "extra.68",
+     "alt": "Schwarze Rüschen. Ihre Stimme, als sie sagte: langsamer. Du denkst an nichts anderes beim Kaffee.",
+     "neu": "Black ruffles. Her voice when she said: slower. Over coffee you can't think of anything else."
+    },
+    {
+     "key": "extra.69",
+     "alt": "Das Deck im Dunkeln, ihr Flüstern. Beim Frühstück trägt sie die Bluse bis oben zugeknöpft und sieht dich nicht an.",
+     "neu": "The deck in the dark, her whisper. At breakfast she has her blouse buttoned to the top and doesn't look at you."
+    },
+    {
+     "key": "extra.70",
+     "alt": "Ein beschlagener Spiegel, ein Handtuch, Rosis Grinsen. Beim Frühstück fragt sie zu laut, ob jemand ein Ersatzteil gesehen hat.",
+     "neu": "A steamed-up mirror, a towel, Rosi's grin. At breakfast she asks, too loudly, whether anyone has seen a spare part."
+    },
+    {
+     "key": "extra.71",
+     "alt": "Blaues Licht zwischen euren Fingern. Am Morgen hat Lea Salz im Haar und lächelt dich an, als hättet ihr ein Geheimnis.",
+     "neu": "Blue light between your fingers. In the morning Lea has salt in her hair and smiles at you as if you shared a secret."
+    },
+    {
+     "key": "extra.72",
+     "alt": "Ihr Gesicht ohne Filter, ihr Lachen ohne Publikum. Beim Frühstück trägt sie wieder Make-up, aber sie zwinkert dir zu.",
+     "neu": "Her face without a filter, her laugh without an audience. At breakfast she's wearing make-up again, but she winks at you."
+    },
+    {
+     "key": "extra.73",
+     "alt": "Öl an deinen Fingern, ihr Lachen im Generatorraum. Beim Frühstück trägt Rosi einen neuen Overall und grinst in ihren Kaffee.",
+     "neu": "Oil on your fingers, her laugh in the generator room. At breakfast Rosi is wearing a new coverall and grinning into her coffee."
+    },
+    {
+     "key": "extra.74",
+     "alt": "Wasser auf ihrer Haut, ihr Lachen an der Boje. Beim Frühstück fragt Chiara viel zu sachlich, ob du gut geschlafen hast.",
+     "neu": "Water on her skin, her laugh at the buoy. At breakfast Chiara asks, far too matter-of-factly, whether you slept well."
+    },
+    {
+     "key": "extra.75",
+     "alt": "Aloe vera und warme Haut unter deinen Händen. Beim Frühstück sagt Lea, ihr Rücken fühle sich viel besser an, und wird rot.",
+     "neu": "Aloe vera and warm skin under your hands. At breakfast Lea says her back feels much better, and goes red."
+    },
+    {
+     "key": "extra.76",
+     "alt": "Dein Pullover an ihr. Du findest den ganzen Tag graue Wollfussel an deinem Ärmel und lächelst darüber.",
+     "neu": "Your jumper on her. All day you keep finding grey wool fluff on your sleeve, and you smile about it."
+    },
+    {
+     "key": "extra.77",
+     "alt": "Die Liebenden auf dem Tisch, Sophias rote Wangen. Beim Frühstück sagt sie zu dir: „Es ist Unsinn.“ Und lächelt.",
+     "neu": "The Lovers on the table, Sophia's red cheeks. At breakfast she says to you, “It's nonsense.” And smiles."
+    },
+    {
+     "key": "extra.78",
+     "alt": "Eine leere Flasche, die auf dich zeigt. Am Morgen weiß jede am Tisch, was passiert ist. Keine sagt etwas.",
+     "neu": "An empty bottle pointing at you. In the morning everyone at the table knows what happened. Nobody says a word."
+    },
+    {
+     "key": "extra.79",
+     "alt": "Rauch, Salz, Lolas Lachen in der Dunkelheit. Beim Frühstück stellt sie dir als Einzigem einen Pfannkuchen in Herzform hin.",
+     "neu": "Smoke, salt, Lola's laugh in the dark. At breakfast you're the only one who gets a heart-shaped pancake."
+    },
+    {
+     "key": "extra.80",
+     "alt": "Schwarze Rüschen auf einem Barhocker, eine Rose auf dem Boden. Du riechst sie noch, als du am Morgen zurück an Bord ruderst.",
+     "neu": "Black ruffles on a bar stool, a rose on the floor. You can still smell her as you row back to the boat in the morning."
+    },
+    {
+     "key": "extra.81",
+     "alt": "Sophia hat dein Gedicht auf eine Serviette abgeschrieben. Am Morgen liegt die Serviette gefaltet in deiner Jackentasche.",
+     "neu": "Sophia copied your poem onto a napkin. In the morning the napkin is folded in your jacket pocket."
+    },
+    {
+     "key": "extra.82",
+     "alt": "Die Lichterkette flackert, die Gitarre lehnt an der Reling. Siri hat ihren Kopf eine Weile an deine Schulter gelegt.",
+     "neu": "The fairy lights flicker, the guitar leans against the railing. For a while Siri rested her head on your shoulder."
+    },
+    {
+     "key": "extra.83",
+     "alt": "Eine Rose aus ihrem Haar liegt in deiner Hand, als du zum Tender gehst. Am nächsten Morgen grüßt sie dich am Hafen, als wäre nichts gewesen. Ihre Augen sagen etwas anderes.",
+     "neu": "A rose from her hair lies in your hand as you walk to the tender. The next morning she greets you at the harbour as if nothing had happened. Her eyes say otherwise."
+    },
+    {
+     "key": "extra.84",
+     "alt": "Am Morgen liegt der Sternzettel auf deinem Platz in der Messe. Unten hat sie etwas dazugeschrieben: „Nacht 2?“",
+     "neu": "In the morning the page of stars is lying at your place in the mess. At the bottom she has added something: “Night 2?”"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kampf Tiere Runde 2</title><style>
+:root{--bg:#14161b;--karte:#1d2027;--linie:#2e323b;--text:#ece6da;--leise:#a39d92;--akz:#d9b26f;--p0:#e08a7a;--p1:#d9b26f;--p2:#8fb7cf}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 system-ui,Segoe UI,sans-serif;padding:28px 20px 90px}
+main{max-width:1200px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+h1{margin:0;color:var(--akz);font-size:26px}header.kopf p{color:var(--leise);margin:6px 0 0;max-width:80ch}
+.slot{background:var(--karte);border:1px solid var(--linie);border-radius:14px;padding:14px 16px;display:flex;flex-direction:column;gap:10px}
+.slot.entschieden{border-color:var(--akz)}
+.slot header{display:flex;gap:12px;align-items:baseline}.slot h2{margin:0;font-size:17px}.slot code{color:var(--leise);font-size:12px}
+.prio{font:700 11px system-ui;letter-spacing:.08em;padding:2px 8px;border-radius:99px;background:#2a2e37;color:var(--p1)}
+.ks{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.k{display:flex;gap:8px;align-items:flex-start;background:#171a20;border:1px solid var(--linie);border-radius:10px;padding:10px;cursor:pointer;min-width:0}
+.k:has(input:checked){border-color:var(--akz);background:#221f18}
+.kk{display:flex;flex-direction:column;gap:6px;min-width:0;flex:1}.kk b{font-size:14px;overflow-wrap:anywhere}.kk small{color:var(--leise);font-size:12px}
+.kk a{color:var(--akz)}audio{width:100%;height:34px}
+.keiner .kk b{color:var(--leise)}
+.notiz{background:#171a20;color:var(--text);border:1px solid var(--linie);border-radius:8px;padding:6px 10px}
+.fuss{position:fixed;left:0;right:0;bottom:0;background:#0f1115ee;border-top:1px solid var(--linie);padding:10px 20px;display:flex;gap:14px;align-items:center;justify-content:center}
+.fuss button{background:var(--akz);color:#14161b;border:0;border-radius:8px;padding:8px 14px;font-weight:700;cursor:pointer}
+#stand{color:var(--leise);font-variant-numeric:tabular-nums}textarea{position:absolute;left:-9999px}
+@media (max-width:900px){.ks{grid-template-columns:1fr 1fr}}
+
+.k.gesetzt{border-color:#5d7a52;background:#1b2219;cursor:default}</style></head><body><main>
+<header class="kopf"><h1>Kampf · Tiere · Runde 2</h1><p>Oben deine zwei gesetzten Titel. Darunter Alternativen im Stil von „Tribal Drums Epic Action“: Trommeln, Taiko, Jagd. Mehrere anhaken geht.</p></header>
+<article class="slot" data-id="kampf_tiere"><header><h2>Gesetzt</h2><code>kampf_tiere</code></header><div class="ks"><div class="k gesetzt"><div class="kk"><b>Tribal Drums Epic Action</b><small>1:52 · Stereo_Color · gesetzt</small><audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/03/01/audio_054bc6b0f2.mp3"></audio></div></div><div class="k gesetzt"><div class="kk"><b>Pop Thrash with Flamenco Flair</b><small>1:38 · NickPanek · gesetzt</small><audio controls preload="none" src="https://cdn.pixabay.com/audio/2024/11/12/audio_09977b785d.mp3"></audio></div></div></div>
+<header><h2>Alternativen</h2></header><div class="ks"><label class="k"><input type="checkbox" value="493731"><div class="kk"><b>Tribal Drum</b>
+<small>2:12 · Stereo_Color · <a href="https://pixabay.com/music/percussion-tribal-drum-493731/" target="_blank" rel="noopener">Pixabay</a></small>
+<audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/03/01/audio_d5373240f4.mp3"></audio></div></label><label class="k"><input type="checkbox" value="493713"><div class="kk"><b>Epic Drums Cinematic Tribal</b>
+<small>2:14 · Stereo_Color · <a href="https://pixabay.com/music/percussion-epic-drums-cinematic-tribal-493713/" target="_blank" rel="noopener">Pixabay</a></small>
+<audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/03/01/audio_dd6f5aca95.mp3"></audio></div></label><label class="k"><input type="checkbox" value="493733"><div class="kk"><b>Tribal (Rock)</b>
+<small>1:28 · Stereo_Color · <a href="https://pixabay.com/music/rock-tribal-493733/" target="_blank" rel="noopener">Pixabay</a></small>
+<audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/03/01/audio_8e33445379.mp3"></audio></div></label><label class="k"><input type="checkbox" value="485960"><div class="kk"><b>Battle Drums</b>
+<small>1:21 · Stereo_Color · <a href="https://pixabay.com/music/adventure-battle-drums-485960/" target="_blank" rel="noopener">Pixabay</a></small>
+<audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/02/16/audio_a686e053f3.mp3"></audio></div></label><label class="k"><input type="checkbox" value="484498"><div class="kk"><b>War Drum</b>
+<small>1:55 · Stereo_Color · <a href="https://pixabay.com/music/adventure-war-drum-484498/" target="_blank" rel="noopener">Pixabay</a></small>
+<audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/02/13/audio_dbe20eb04a.mp3"></audio></div></label><label class="k"><input type="checkbox" value="493734"><div class="kk"><b>War Drums</b>
+<small>2:02 · Stereo_Color · <a href="https://pixabay.com/music/rock-war-drums-493734/" target="_blank" rel="noopener">Pixabay</a></small>
+<audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/03/01/audio_b17bbd76a0.mp3"></audio></div></label><label class="k"><input type="checkbox" value="596656"><div class="kk"><b>Jungle Chase (Action Tribal Drums)</b>
+<small>1:55 · VasilYatsevich · <a href="https://pixabay.com/music/chase-scene-jungle-chase-action-tribal-drums-596656/" target="_blank" rel="noopener">Pixabay</a></small>
+<audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/09/03/audio_f2cc0a0d98.mp3"></audio></div></label><label class="k"><input type="checkbox" value="490670"><div class="kk"><b>Tribal</b>
+<small>2:20 · Alec_Koff · <a href="https://pixabay.com/music/percussion-tribal-490670/" target="_blank" rel="noopener">Pixabay</a></small>
+<audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/02/25/audio_067ec477b5.mp3"></audio></div></label><label class="k"><input type="checkbox" value="490668"><div class="kk"><b>The Drums Music Tribal Percussion</b>
+<small>2:23 · Alec_Koff · <a href="https://pixabay.com/music/percussion-the-drums-music-tribal-percussion-tribal-drums-music-490668/" target="_blank" rel="noopener">Pixabay</a></small>
+<audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/02/25/audio_8c6887b9a0.mp3"></audio></div></label><label class="k"><input type="checkbox" value="493411"><div class="kk"><b>Drums Epic Action</b>
+<small>2:31 · Alec_Koff · <a href="https://pixabay.com/music/rock-drums-epic-action-493411/" target="_blank" rel="noopener">Pixabay</a></small>
+<audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/03/01/audio_0d2d4f0bec.mp3"></audio></div></label><label class="k"><input type="checkbox" value="490660"><div class="kk"><b>Hunter</b>
+<small>2:08 · Alec_Koff · <a href="https://pixabay.com/music/percussion-hunter-490660/" target="_blank" rel="noopener">Pixabay</a></small>
+<audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/02/25/audio_bb4157be26.mp3"></audio></div></label><label class="k"><input type="checkbox" value="513718"><div class="kk"><b>Stomp Action Music</b>
+<small>1:42 · EnergySound · <a href="https://pixabay.com/music/beats-stomp-action-music-513718/" target="_blank" rel="noopener">Pixabay</a></small>
+<audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/04/10/audio_02a364dca5.mp3"></audio></div></label><label class="k"><input type="checkbox" value="616776"><div class="kk"><b>Drum Energetic (Gotta Go Fast)</b>
+<small>2:09 · BombinSound · <a href="https://pixabay.com/music/percussion-drum-energetic-gotta-go-fast-616776/" target="_blank" rel="noopener">Pixabay</a></small>
+<audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/10/07/audio_4c2e453100.mp3"></audio></div></label><label class="k"><input type="checkbox" value="21042"><div class="kk"><b>Cinematic Battle Percussion Hero Action</b>
+<small>1:57 · REDproductions · <a href="https://pixabay.com/music/upbeat-cinematic-battle-percussion-hero-action-boom-drums-music-21042/" target="_blank" rel="noopener">Pixabay</a></small>
+<audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/02/16/audio_043b9706b0.mp3"></audio></div></label></div><input class="notiz" type="text" placeholder="Notiz (optional)"></article>
+</main><div class="fuss"><span id="stand"></span><button id="kopie">Ergebnis kopieren</button><textarea id="ta"></textarea></div>
+<script>
+const KEY="musik_tiere_r2";let S={w:[]};try{S=JSON.parse(localStorage.getItem(KEY)||'{"w":[]}')}catch(e){}
+const s=document.querySelector(".slot"),no=s.querySelector(".notiz");
+function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}}
+function zeichnen(){s.querySelectorAll("input[type=checkbox]").forEach(c=>c.checked=S.w.includes(c.value));no.value=S.notiz||"";document.getElementById("stand").textContent=S.w.length+" angehakt"}
+s.querySelectorAll("input[type=checkbox]").forEach(c=>c.onchange=()=>{S.w=[...s.querySelectorAll("input:checked")].map(x=>x.value);save();zeichnen()});
+no.oninput=e=>{S.notiz=e.target.value;save()};
+document.querySelectorAll("audio").forEach(a=>a.addEventListener("play",()=>document.querySelectorAll("audio").forEach(o=>{if(o!==a)o.pause()})));
+document.getElementById("kopie").onclick=async()=>{const t="Kampf Tiere Runde 2: "+(S.w.join(", ")||"keiner")+(S.notiz?" ("+S.notiz+")":"");
+ try{await navigator.clipboard.writeText(t)}catch(e){const ta=document.getElementById("ta");ta.value=t;ta.select();document.execCommand("copy")}
+ const b=document.getElementById("kopie");b.textContent="Kopiert ✓";setTimeout(()=>b.textContent="Ergebnis kopieren",1500)};
+zeichnen();</script></body></html>

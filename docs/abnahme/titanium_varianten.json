@@ -1,0 +1,39 @@
+{
+ "id": "titanium_varianten",
+ "titel": "Titanium Plate: vier Varianten",
+ "hinweis": "Soll deutlich anders aussehen als die graue Steel Plate. Bitte die beste mit OK markieren.",
+ "items": [
+  {
+   "id": "titanium_plate_v1",
+   "titel": "Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\titanium_plate_v1.png",
+   "soll": "dunkles Graphit, gefaste Ecken, Rillen, blau-violett-goldener Schimmer, keine Löcher",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\steel_plate.png",
+   "vergleich_titel": "Steel Plate"
+  },
+  {
+   "id": "titanium_plate_v2",
+   "titel": "Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\titanium_plate_v2.png",
+   "soll": "dunkles Graphit, gefaste Ecken, Rillen, blau-violett-goldener Schimmer, keine Löcher",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\steel_plate.png",
+   "vergleich_titel": "Steel Plate"
+  },
+  {
+   "id": "titanium_plate_v3",
+   "titel": "Variante 3",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\titanium_plate_v3.png",
+   "soll": "dunkles Graphit, gefaste Ecken, Rillen, blau-violett-goldener Schimmer, keine Löcher",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\steel_plate.png",
+   "vergleich_titel": "Steel Plate"
+  },
+  {
+   "id": "titanium_plate_v4",
+   "titel": "Variante 4",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\titanium_plate_v4.png",
+   "soll": "dunkles Graphit, gefaste Ecken, Rillen, blau-violett-goldener Schimmer, keine Löcher",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\steel_plate.png",
+   "vergleich_titel": "Steel Plate"
+  }
+ ]
+}

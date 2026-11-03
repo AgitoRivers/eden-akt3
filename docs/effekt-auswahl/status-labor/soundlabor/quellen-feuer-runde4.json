@@ -1,0 +1,20 @@
+[
+  {
+    "id": "grass_fire",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Dry_grass_burning_in_open_fireplace.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dry_grass_burning_in_open_fireplace.ogg",
+    "author": "ezwa",
+    "license": "Public domain",
+    "file": "grass_fire.ogg",
+    "sha256": "0fb9fb4a44fe378ceffb2b80d0cf420e28404e04f5f200b7bc0205eadeebc8d4"
+  },
+  {
+    "id": "wood_fire",
+    "url": "https://opengameart.org/sites/default/files/fire-1.wav",
+    "page": "https://opengameart.org/content/fire-crackling/",
+    "author": "AntumDeluge",
+    "license": "CC0",
+    "file": "wood_fire.wav",
+    "sha256": "26702de8a195bcbafeae72034861d875a1b7917168a25106f4e1957ecdddf7e5"
+  }
+]

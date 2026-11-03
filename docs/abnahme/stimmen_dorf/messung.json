@@ -1,0 +1,137 @@
+{
+ "adrien_in_1": {
+  "lufs": -17.2,
+  "dauer": 27.8,
+  "band_8_10k_db": -16.7
+ },
+ "adrien_in_2": {
+  "lufs": -17.9,
+  "dauer": 30.2,
+  "band_8_10k_db": -19.3
+ },
+ "adrien_in_3": {
+  "lufs": -18.4,
+  "dauer": 29.8,
+  "band_8_10k_db": -18.7
+ },
+ "anghjulu_1": {
+  "lufs": -18.8,
+  "dauer": 26.7,
+  "band_8_10k_db": -20.9
+ },
+ "anghjulu_2": {
+  "lufs": -18.9,
+  "dauer": 30.4,
+  "band_8_10k_db": -25.6
+ },
+ "anghjulu_3": {
+  "lufs": -18.9,
+  "dauer": 30.0,
+  "band_8_10k_db": -26.3
+ },
+ "anghjulu_pt_1": {
+  "lufs": -18.6,
+  "dauer": 29.7,
+  "band_8_10k_db": -15.1
+ },
+ "anghjulu_pt_2": {
+  "lufs": -18.3,
+  "dauer": 32.0,
+  "band_8_10k_db": -24.1
+ },
+ "anghjulu_pt_3": {
+  "lufs": -18.9,
+  "dauer": 33.6,
+  "band_8_10k_db": -22.6
+ },
+ "batu_1": {
+  "lufs": -16.2,
+  "dauer": 23.9,
+  "band_8_10k_db": -28.4
+ },
+ "batu_2": {
+  "lufs": -17.3,
+  "dauer": 26.2,
+  "band_8_10k_db": -29.0
+ },
+ "batu_3": {
+  "lufs": -17.8,
+  "dauer": 28.3,
+  "band_8_10k_db": -35.8
+ },
+ "mina_1": {
+  "lufs": -18.5,
+  "dauer": 20.6,
+  "band_8_10k_db": -22.8
+ },
+ "mina_2": {
+  "lufs": -17.7,
+  "dauer": 22.0,
+  "band_8_10k_db": -25.8
+ },
+ "mina_3": {
+  "lufs": -18.7,
+  "dauer": 25.7,
+  "band_8_10k_db": -26.4
+ },
+ "mina_ma_1": {
+  "lufs": -17.1,
+  "dauer": 23.8,
+  "band_8_10k_db": -30.1
+ },
+ "mina_ma_2": {
+  "lufs": -18.0,
+  "dauer": 24.8,
+  "band_8_10k_db": -29.5
+ },
+ "mina_ma_3": {
+  "lufs": -18.3,
+  "dauer": 24.5,
+  "band_8_10k_db": -27.2
+ },
+ "mina_suess_1": {
+  "lufs": -18.1,
+  "dauer": 22.8,
+  "band_8_10k_db": -23.5
+ },
+ "mina_suess_2": {
+  "lufs": -17.9,
+  "dauer": 25.5,
+  "band_8_10k_db": -27.6
+ },
+ "mina_suess_3": {
+  "lufs": -18.4,
+  "dauer": 29.3,
+  "band_8_10k_db": -28.4
+ },
+ "pascal_1": {
+  "lufs": -18.8,
+  "dauer": 24.3,
+  "band_8_10k_db": -16.7
+ },
+ "pascal_2": {
+  "lufs": -18.6,
+  "dauer": 29.5,
+  "band_8_10k_db": -21.9
+ },
+ "pascal_3": {
+  "lufs": -18.6,
+  "dauer": 23.1,
+  "band_8_10k_db": -22.3
+ },
+ "sandru_1": {
+  "lufs": -17.5,
+  "dauer": 16.4,
+  "band_8_10k_db": -17.9
+ },
+ "sandru_2": {
+  "lufs": -18.6,
+  "dauer": 20.4,
+  "band_8_10k_db": -22.3
+ },
+ "sandru_3": {
+  "lufs": -18.2,
+  "dauer": 19.3,
+  "band_8_10k_db": -20.5
+ }
+}

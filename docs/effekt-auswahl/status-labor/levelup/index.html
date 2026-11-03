@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Eden · Level-up ceremony</title>
+<!-- Preview (Duc 28.10.2026): the real client module eden-levelup.js on states from werkzeuge/eden_rise/levelup_vorschau_bauen.py.
+     #mitte carries .kampf and eden-combat.css, so game rules that leak in show up here too.
+     Serve from the repo root, e.g. python -m http.server 8346 -d X:\AI\Eden, then open /docs/effekt-auswahl/status-labor/levelup/ -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Geist:wght@400;500;600&family=Geist+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="../../../../client/plugins/eden-combat/eden-combat.css">
+<link rel="stylesheet" href="../../../../client/plugins/eden-skills/eden-levelup.css">
+<style>
+:root{--ink:#07080b;--rauch:rgba(9,11,15,.52);--rauch-stark:rgba(9,11,15,.82);--perle:#f3eee4;--perle-leise:rgba(243,238,228,.7);--perle-dim:rgba(243,238,228,.45);
+ --akz:#d8bd86;--gut:#a8d5b1;--schlecht:#d9a198;--linie:rgba(216,189,134,.26);--linie-n:rgba(243,238,228,.16);
+ --f-name:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;--f-ui:"Geist","Segoe UI",system-ui,sans-serif;--f-zahl:"Geist Mono",ui-monospace,monospace;color-scheme:dark}
+html,body{height:100%;margin:0}body{background:radial-gradient(ellipse at 60% 70%,#2a2f36,#0b0d11 70%);color:var(--perle);font:14px var(--f-ui)}
+.kampfbild{position:fixed;inset:0;background:url('../../../../module/eden_rise/kampf/Lion/defeated.webp') 70% 80%/auto 70% no-repeat}
+.leiste{position:fixed;left:12px;bottom:12px;z-index:2000;display:flex;gap:6px;flex-wrap:wrap;padding:6px;border-radius:12px;background:#000c;border:1px solid #ffffff22}
+.leiste button{font:500 12px var(--f-ui);color:var(--perle);background:#ffffff10;border:1px solid #ffffff22;border-radius:8px;padding:5px 10px;cursor:pointer}
+.leiste button.an{background:var(--akz);color:#111}
+.vorschau-zu{position:fixed;inset:0;display:grid;place-items:center;font:600 18px var(--f-name);color:var(--perle-leise)}
+</style></head><body>
+<div class="kampfbild"></div><div id="mitte" class="kampf"></div>
+<div class="leiste" id="leiste"></div>
+<script>
+/* Stubs for what the game client provides: senden, beschaeftigt, EdenSfx */
+var beschaeftigt=false;
+window.EdenSfx={play(id,ms){setTimeout(()=>{try{const a=new Audio('../../../../module/eden_rise/sfx/'+id+'_1.mp3');a.volume=.6;a.play().catch(()=>{})}catch(e){}},ms||0)}};
+</script>
+<script src="../../../../client/plugins/eden-skills/eden-skills.js"></script>
+<script src="../../../../client/plugins/eden-skills/eden-levelup.js"></script>
+<script src="daten.js"></script>
+<script>
+const D=window.EDEN_LEVELUP_DEMO;let szene=Object.keys(D.szenen)[0],stand=D.start[szene],zu=false;
+function zeichnen(){
+ const m=document.getElementById('mitte'),sz=D.szenen[szene];
+ m.innerHTML=zu?`<div class="vorschau-zu">Fight closed · pick a scene below to watch again</div>`:EdenLevelUp.html({kampf_profil:D.profile[stand]},sz.kampf,{titel:'Victory'});
+ document.getElementById('leiste').innerHTML=Object.entries(D.szenen).map(([id,s])=>`<button class="${id===szene?'an':''}" onclick="wahl('${id}')">${s.titel}</button>`).join('');
+}
+function wahl(id){szene=id;stand=D.start[id];zu=false;D.szenen[id].kampf.id='vorschau-'+id+'-'+Date.now();zeichnen();}
+function senden(aktion,daten){
+ if(beschaeftigt)return;beschaeftigt=true;zeichnen();
+ setTimeout(()=>{beschaeftigt=false;
+  if(aktion==='kampf_schliessen')zu=true;
+  else{const w=(aktion==='attribut_steigern'?'attr:':'learn:')+daten.id,n=D.wege[stand][w];if(n)stand=n;}
+  zeichnen();},300);
+}
+zeichnen();
+</script></body></html>

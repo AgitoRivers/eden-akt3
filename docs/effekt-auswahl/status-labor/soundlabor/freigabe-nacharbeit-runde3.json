@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "source": "eden-soundnacharbeit-neu (1).json",
+  "source_sha256": "1d845aa48681dae234aed5db97f0567abbee4343a3adf24855fc3e2b0791b76d",
+  "selected": {
+    "water_jet": {
+      "label": "Gerichteter Wasserstoß",
+      "variant": "D",
+      "file": "audio/nacharbeit-v3/water_jet-r3-D.ogg",
+      "asset_id": "rework-v3-water_jet-D",
+      "sha256": "8bdfdae7acc5a781208b1044cddd354a13b501c1b69bbea305b85b4b9560f367"
+    },
+    "sound_charge": {
+      "label": "Resonanzladung",
+      "variant": "A",
+      "file": "audio/nacharbeit-v3/sound_charge-r3-A.ogg",
+      "asset_id": "rework-v3-sound_charge-A",
+      "sha256": "49de8fb9f4cd71fa48805a16c58cd36eb679b071dbcc14c4b4feb7dc0b5aab09"
+    },
+    "sound_release": {
+      "label": "Schallentladung",
+      "variant": "A",
+      "file": "audio/nacharbeit-v3/sound_release-r3-A.ogg",
+      "asset_id": "rework-v3-sound_release-A",
+      "sha256": "8fe14f96e9df1fccc62c96542bb047c1907cfc87da56f8b0f3672c33672a9cb5"
+    }
+  },
+  "pending": {
+    "afterburn": {
+      "note": "keins hört sich an wie feuer",
+      "reject": true,
+      "revision": 3,
+      "label": "Nachbrennen",
+      "attacks": [
+        "scirocco",
+        "retour",
+        "furia",
+        "vulcano"
+      ]
+    },
+    "focus_lock": {
+      "note": "zu schrill",
+      "reject": true,
+      "revision": 3,
+      "label": "Feines Fokusglitzern",
+      "attacks": [
+        "reticle"
+      ]
+    },
+    "compact_hit": {
+      "note": "",
+      "reject": true,
+      "revision": 3,
+      "label": "Satter Schnittkontakt",
+      "attacks": [
+        "mistral",
+        "doubleSlash",
+        "vendetta"
+      ]
+    },
+    "debris": {
+      "note": "sound muss sofort anfangen",
+      "reject": true,
+      "revision": 3,
+      "label": "Windböe nach dem Treffer",
+      "attacks": [
+        "mistral"
+      ]
+    }
+  },
+  "committed": false
+}

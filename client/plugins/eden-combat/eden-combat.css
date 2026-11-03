@@ -1,0 +1,533 @@
+/* Kampfbildschirm (Etappe 3, 19.10.2026) - Entwurf A1 "Schwaechen & Schild". Nur Darstellung, Regeln im Server. */
+#app[data-status="kampf"] #zeitpille,#app[data-status="kampf"] #schiff,#app[data-status="kampf"] #relkarte,
+#app[data-status="kampf"] #dock{display:none}
+.kampf{position:absolute;inset:0;overflow:hidden;font-family:var(--f-ui);color:var(--perle)}
+.kampf::before{content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(180deg,rgba(5,6,8,.35) 0%,rgba(5,6,8,0) 30%,rgba(5,6,8,.15) 60%,rgba(5,6,8,.85) 100%)}
+.kampf .rauch{background:var(--rauch-stark);border:1px solid var(--linie-n);border-radius:var(--r-mittel);backdrop-filter:blur(8px)}
+.kampf .zahl{font-family:var(--f-zahl);font-size:var(--t-klein);color:var(--perle-leise)}
+.kampf .kbd{font-family:var(--f-zahl);font-size:var(--t-mini);padding:1px var(--a15);border-radius:var(--r-taste);border:1px solid var(--linie-n);color:var(--perle-dim)}
+.kampf button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+.kampf button:disabled{cursor:not-allowed}
+.kampf .balken{position:relative;height:10px;border-radius:var(--r-rund);background:rgba(243,238,228,.1);overflow:hidden}
+.kampf .balken i{position:absolute;inset:0 auto 0 0;border-radius:var(--r-rund);transition:width .45s ease}
+.kampf .balken .lp{background:linear-gradient(90deg,var(--schlecht),var(--schlecht))}
+.kampf .balken .lp.du{background:linear-gradient(90deg,#86b993,var(--gut))}
+.kampf .pips{display:flex;gap:var(--a1)}
+.kampf .pips i{width:10px;height:10px;border-radius:50%;border:1px solid var(--akz);display:block}
+.kampf .pips i.voll{background:var(--akz)}
+.kampf .marke{display:inline-block;padding:var(--pille-klein);border-radius:var(--r-rund);font-size:var(--t-mini);border:1px solid var(--linie-n);color:var(--perle-leise)}
+.kampf .marke.offen{border-color:var(--akz);color:var(--akz)}
+.kampf .marke.gut{border-color:var(--gut);color:var(--gut)}
+.kampf .marke.schlecht{border-color:var(--schlecht);color:var(--schlecht)}
+.kampf .zeile{display:grid;grid-template-columns:56px 1fr 52px;gap:var(--a2);align-items:center;margin:var(--a1) 0}
+.kampf .zeile>span:first-child{font-size:var(--t-klein);color:var(--perle-dim)}
+/* Zugfolge mit Avataren */
+.kampf .zugfolge{position:absolute;top:16px;left:20px;display:flex;gap:var(--a15);align-items:center;padding:var(--a15) var(--a25);z-index:6}
+.kampf .zf{position:relative;width:44px;height:44px;border-radius:50%;border:2px solid var(--linie-n);background:var(--flaeche) center/cover no-repeat;
+  flex:none;display:grid;place-items:center;font-weight:600;font-size:var(--t-klein)}
+.kampf .zf.zdu{border-color:var(--gut);color:var(--gut)}
+.kampf .zf.zg{border-color:var(--schlecht);color:var(--schlecht)}
+.kampf .zf.an{width:58px;height:58px;box-shadow:0 0 0 3px rgba(216,189,134,.45)}
+.kampf .zf b{position:absolute;right:-6px;bottom:-6px;min-width:22px;height:20px;padding:0 var(--a1);border-radius:var(--r-rund);display:grid;place-items:center;
+  font-size:var(--t-mini);font-family:var(--f-zahl);font-weight:500;background:var(--ink);border:1px solid var(--schlecht);color:var(--schlecht);white-space:nowrap}
+.kampf .zpfeil{color:var(--perle-dim);font-size:var(--t-klein)}
+.kampf .zugfolge small{color:var(--perle-dim);margin-left:var(--a1)}
+.kampf .paradeschalter{margin-left:var(--a2);font-size:var(--t-mini);color:var(--perle-dim);border:1px solid var(--linie-n);border-radius:var(--r-rund);padding:var(--pille-klein)}
+.kampf .paradeschalter:hover{border-color:var(--akz);color:var(--akz)}
+/* Laufzeile */
+.kampf .log1{position:absolute;top:16px;right:20px;max-width:46%;z-index:7;display:flex;flex-direction:column;align-items:flex-end;gap:var(--a1)}
+.kampf .log1 span{padding:3px var(--a3);border-radius:var(--r-rund);background:rgba(12,12,16,.82);color:var(--perle-leise);font-size:var(--t-klein);text-align:right}
+.kampf .log1 span:last-child{color:var(--perle)}
+/* Gegner */
+.kampf .gsprite{position:absolute;right:15%;bottom:0;height:70%;max-width:46%;object-fit:contain;object-position:bottom;
+  filter:drop-shadow(0 20px 30px rgba(0,0,0,.6));transition:transform .18s ease,opacity .5s}
+.kampf .gsprite.zurueck{transform:translateX(26px) scale(.97)}
+.kampf .gsprite.stoss{transform:translateX(-70px) scale(1.07)}
+.kampf .gsprite.treffer{animation:kampfWackel .35s}
+.kampf .gsprite.weg{opacity:0;transform:translateX(80px)}
+@keyframes kampfWackel{0%{transform:translateX(0)}25%{transform:translateX(-14px);filter:brightness(1.8) drop-shadow(0 20px 30px rgba(0,0,0,.6))}60%{transform:translateX(8px)}100%{transform:translateX(0)}}
+/* Duc (25.10.2026): Look der Jacke x Waffe, Posen folgen dem Kampf */
+.kampf .dsprite{position:absolute;left:33%;bottom:0;height:70%;max-width:40%;object-fit:contain;object-position:bottom;z-index:3;
+  filter:drop-shadow(0 20px 30px rgba(0,0,0,.6));transition:transform .18s ease,opacity .5s}
+.kampf .dsprite.vor{transform:translateX(60px) scale(1.05)}
+.kampf .dsprite.treffer{animation:kampfWackelDuc .35s}
+@keyframes kampfWackelDuc{0%{transform:translateX(0)}25%{transform:translateX(14px);filter:brightness(1.8) drop-shadow(0 20px 30px rgba(0,0,0,.6))}60%{transform:translateX(-8px)}100%{transform:translateX(0)}}
+.kampf .gk{position:absolute;right:24px;top:96px;width:300px;padding:var(--a35) var(--a4);z-index:6}
+.kampf .gk h4{margin:0 0 var(--a2);font-family:var(--f-name);font-size:var(--t-gross);display:flex;align-items:center;gap:var(--a25)}
+.kampf .gk h4 small{display:block;font-family:var(--f-ui);font-size:var(--t-klein);color:var(--perle-dim);font-weight:400}
+.kampf .schild{position:relative;width:46px;height:52px;display:grid;place-items:center;background:var(--akz2);color:var(--ink);font-family:var(--f-name);
+  font-weight:800;font-size:var(--t-unter);clip-path:polygon(50% 0,100% 15%,100% 60%,50% 100%,0 60%,0 15%);flex:none}
+.kampf .icon-reihe{display:flex;gap:var(--a1);margin-top:var(--a2)}
+.kampf .ic{width:28px;height:28px;border-radius:var(--r-taste);display:grid;place-items:center;font-size:var(--t-info);border:1px solid var(--linie-n);
+  background:rgba(243,238,228,.05);color:var(--perle-dim);font-family:var(--f-zahl);flex:none}
+.kampf .ic.getestet{opacity:.75}
+.kampf .ic.schwach{border-color:var(--akz);background:rgba(216,189,134,.22);box-shadow:0 0 12px rgba(216,189,134,.55);animation:kampfGlimm 1.6s infinite}
+@keyframes kampfGlimm{50%{box-shadow:0 0 4px rgba(216,189,134,.3)}}
+/* Duc */
+.kampf .du{position:absolute;left:24px;bottom:30px;width:330px;padding:var(--a35) var(--a4);z-index:8}
+.kampf .du h4{margin:0 0 var(--a15);font-family:var(--f-name);font-size:var(--t-gross)}
+.kampf .cmds{display:flex;flex-direction:column;gap:2px;margin-top:var(--a25);border-top:1px solid var(--linie-n);padding-top:var(--a2)}
+.kampf .cmd{display:flex;align-items:center;gap:var(--a25);padding:var(--a15) var(--a25);border-radius:var(--r-taste);text-align:left;width:100%}
+.kampf .cmd b{font-family:var(--f-name);font-size:var(--t-text);flex:1}
+.kampf .cmd small{color:var(--perle-dim);font-size:var(--t-klein);text-align:right}
+.kampf .cmd:hover:not(:disabled),.kampf .cmd.an{background:rgba(216,189,134,.14)}
+.kampf .cmd:hover:not(:disabled) b,.kampf .cmd.an b{color:var(--akz)}
+.kampf .cmd:disabled{opacity:.4}
+.kampf .liste{position:absolute;left:364px;bottom:30px;width:430px;max-height:calc(100% - 310px);overflow:auto;padding:var(--a25);z-index:8;display:flex;flex-direction:column;gap:2px}
+.kampf .fz{display:grid;grid-template-columns:30px 1fr 54px 58px;gap:var(--a2);align-items:center;padding:var(--a1) var(--a25);border-radius:var(--r-taste);text-align:left;width:100%}
+.kampf .fz:hover:not(:disabled){background:rgba(216,189,134,.14)}
+.kampf .fz:disabled{opacity:.4}
+/* Kampf-Verbrauchsgegenstaende (27.10.2026): Bild statt Pflaster-Emoji, schnelle Items markiert */
+.kampf .fz.item .ic img{width:30px;height:30px;object-fit:cover;border-radius:var(--r-taste);display:block}.kampf .fz.item{grid-template-columns:30px 1fr 64px 78px}.kampf .fz .zahl.schnell{color:var(--gold,var(--akz));font-size:var(--t-mini);letter-spacing:.04em}
+.kampf .fz b{font-weight:600}
+.kampf .fz small{display:block;color:var(--perle-dim);font-size:var(--t-mini);line-height:1.3}
+.kampf .fz .zahl{text-align:right}
+/* Pop-Zahlen, Ergebnis */
+.kampf-pop{position:absolute;font-family:var(--f-name);font-weight:800;font-size:var(--t-held);pointer-events:none;text-shadow:0 3px 14px rgba(0,0,0,.8);
+  animation:kampfPop 1.3s ease-out forwards;z-index:30}
+.kampf-pop.schaden{color:var(--schlecht)}.kampf-pop.heil{color:var(--gut)}.kampf-pop.fassung{color:var(--akz2)}.kampf-pop.info{color:var(--akz);font-size:var(--t-titel)}
+@keyframes kampfPop{0%{opacity:0;transform:translateY(10px) scale(.7)}15%{opacity:1;transform:translateY(0) scale(1.08)}70%{opacity:1}100%{opacity:0;transform:translateY(-50px)}}
+.kampf-urteil{position:absolute;top:34%;left:50%;transform:translateX(-50%);z-index:37;white-space:nowrap;font-family:var(--f-name);font-weight:800;font-size:var(--t-held);
+  text-shadow:0 3px 16px #000;animation:kampfPop 1.2s ease-out forwards;pointer-events:none}
+.kampf-urteil.perfekt{color:var(--perle)}.kampf-urteil.gut,.kampf-urteil.ausweichen{color:var(--gut)}.kampf-urteil.verfehlt{color:var(--schlecht)}
+.kampf .ende{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(5,6,8,.6);z-index:40}
+.kampf .ende .karte{max-width:540px;padding:var(--karte-pad-gross);border-radius:var(--r-karte);background:var(--rauch-stark);border:1px solid var(--linie);text-align:center}
+.kampf .ende .knopfzeile{justify-content:center;margin-top:var(--a3)}
+.kampf .ende h2{font-family:var(--f-name);font-size:var(--t-kopf);margin:0 0 var(--a15);color:var(--akz)}
+.kampf .ende p{color:var(--perle-leise)}
+.kampf .ende .folgen{display:flex;flex-wrap:wrap;gap:var(--a15);justify-content:center;margin:var(--a25) 0 var(--a4)}
+.kampf .ende .folgen span{padding:var(--pille-klein);border-radius:var(--r-rund);border:1px solid var(--linie-n);font-size:var(--t-klein)}
+/* Parade-Proben (liegen ueber #mitte im #app, damit ein Neuzeichnen sie nicht loescht) */
+.kampf-qte{position:absolute;inset:0;z-index:35;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;padding-bottom:70px;gap:var(--a35);
+  background:linear-gradient(180deg,rgba(5,6,8,0) 40%,rgba(5,6,8,.75));touch-action:manipulation;user-select:none}
+/* Spezialangriff-Zwischensequenz (26.10.2026): Vollbild ueber dem Kampf, blendet weich ein und aus */
+.kampf-cutin{position:fixed;inset:0;z-index:200;background:rgba(3,4,6,.92);opacity:0;transition:opacity .25s ease-out;cursor:pointer}
+.kampf-cutin.an{opacity:1}.kampf-cutin.weg{opacity:0}
+.kampf-cutin iframe{position:absolute;inset:0;width:100%;height:100%;border:0;pointer-events:none;opacity:0;transition:opacity .3s ease-out}
+.kampf-cutin.bereit iframe{opacity:1}
+.kampf-cutin-titel{position:absolute;left:0;right:0;top:44%;text-align:center;font:750 var(--t-held)/1 var(--f-name);color:var(--akz);text-shadow:0 4px 24px rgba(0,0,0,.7);transition:opacity .3s}
+.kampf-cutin.bereit .kampf-cutin-titel{opacity:0}
+.kampf-cutin-zahl{z-index:2;width:120px;text-align:center;animation-duration:2.2s}.kampf-cutin-zahl.teil.teil{font-size:var(--t-held)}
+.kampf-cutin-tipp{position:absolute;right:22px;bottom:18px;font-size:var(--t-klein);color:var(--perle-dim);padding:var(--pille);border-radius:var(--r-rund);background:var(--rauch);border:1px solid var(--linie-n)}
+@media (prefers-reduced-motion:reduce){.kampf-cutin{transition:none}}
+.kampf-glanz{position:absolute;z-index:36;font-size:var(--t-riesig);color:var(--akz);text-shadow:0 0 30px var(--akz);pointer-events:none;animation:kampfGlanz .45s ease-out forwards}
+@keyframes kampfGlanz{0%{opacity:0;transform:scale(.3) rotate(0)}40%{opacity:1;transform:scale(1.25) rotate(25deg)}100%{opacity:0;transform:scale(.8) rotate(60deg)}}
+.kampf-blitz{position:absolute;inset:0;z-index:34;background:rgba(243,238,228,.22);pointer-events:none;animation:kampfBlitz .25s ease-out forwards}
+@keyframes kampfBlitz{to{opacity:0}}
+@media (max-width:900px){.kampf .liste{left:24px;bottom:340px;width:calc(100% - 48px)}
+  .kampf .gk{top:auto;bottom:340px;right:16px;width:min(300px,60%)}.kampf .du{width:calc(100% - 48px)}}
+@media (prefers-reduced-motion:reduce){.kampf .gsprite,.kampf-pop,.kampf-urteil,.kampf-glanz{animation:none;transition:none}}
+
+/* Stil der Dating-Oberfläche (21.10.2026, Duc: Entwurf freigegeben) - Glas, goldene Namen, Befehle als Pillen */
+.kampf::before{background:linear-gradient(180deg,rgba(5,6,8,.25) 0%,rgba(5,6,8,0) 35%,rgba(5,6,8,.2) 62%,rgba(5,6,8,.78) 100%)}
+.kampf .rauch{background:var(--rauch);border:1px solid var(--linie);border-radius:var(--r-karte);
+  backdrop-filter:blur(20px) saturate(1.15);-webkit-backdrop-filter:blur(20px) saturate(1.15);box-shadow:0 18px 50px rgba(0,0,0,.35)}
+/* Namen wie "Time with Lea": groß, gold, Bricolage */
+.kampf .du h4,.kampf .gk h4{font:750 var(--t-titel)/1.1 var(--f-name);letter-spacing:-.02em;color:var(--akz);margin-bottom:var(--a1)}
+.kampf .gk h4 small{font-size:var(--t-klein);color:var(--akz);opacity:.8}
+.kampf .du,.kampf .gk{padding:var(--a45) var(--a45) var(--a4)}
+.kampf .du{width:360px}
+.kampf .gk{width:320px}
+/* Absicht als Glas-Karte */
+/* Befehle als Pillen wie die Knöpfe der Dating-Oberfläche */
+.kampf .cmds{gap:var(--a2);border-top:0;padding-top:var(--a25)}
+.kampf .cmd{border-radius:var(--r-rund);padding:var(--pille-gross);background:rgba(243,238,228,.08);border:1px solid var(--linie-n)}
+.kampf .cmd b{font:650 var(--t-text) var(--f-name)}
+.kampf .cmd:hover:not(:disabled),.kampf .cmd.an{background:var(--akz);border-color:var(--akz)}
+.kampf .cmd:hover:not(:disabled) b,.kampf .cmd.an b,.kampf .cmd:hover:not(:disabled) small,.kampf .cmd.an small{color:var(--ink)}
+.kampf .cmd .kbd{border-radius:var(--r-taste);background:rgba(7,8,11,.35);color:var(--perle);border-color:transparent}
+.kampf .cmd:hover:not(:disabled) .kbd,.kampf .cmd.an .kbd{background:rgba(7,8,11,.2);color:var(--ink)}
+/* Zugfolge und Laufzeile in Glas */
+.kampf .zugfolge{border-radius:var(--r-rund);padding:var(--a2) var(--a35)}
+.kampf .log1 span{background:var(--rauch);border:1px solid var(--linie);backdrop-filter:blur(18px)}
+/* Balken etwas kräftiger und runder */
+.kampf .balken{height:12px}
+.kampf .ic{border-radius:var(--r-taste);border-color:var(--linie)}
+
+/* Parade-Probe: Grund unten dunkel (03.11.2026 ohne Gold, Gold gehoert Duc) */
+.kampf-qte{--ausw:var(--ausweichen);background:radial-gradient(ellipse at 50% 100%,rgba(243,238,228,.1),rgba(5,6,8,0) 55%),
+  linear-gradient(180deg,rgba(5,6,8,0) 40%,rgba(5,6,8,.7))}
+/* Parade-Zwischensequenz (25.10.2026): abdunkeln, nur der Gegner bleibt hell, die Leiste blendet nach der Lesezeit ein */
+.kampf-qte.dunkel{background:rgba(4,5,8,.66);animation:qteDunkel .3s ease-out}
+/* 26.10.2026: during the probe everything else steps back - only the enemy and the block remain */
+.kampf.probe .zugfolge,.kampf.probe .log1,.kampf.probe .dsprite,.kampf.probe .schatten.d,.kampf.probe .gk,.kampf.probe .du,.kampf.probe .kampf-wurf,.kampf.probe .liste{opacity:0;pointer-events:none;transition:opacity .2s}
+body:has(.kampf.probe) .tutorial{display:none}
+/* Maxwell's lesson box sits in the free space top centre, not over Duc's card and commands */
+body:has(#mitte .kampf) .tutorial{left:50%;right:auto;bottom:auto;top:180px;transform:translateX(-50%);width:min(440px,36vw)}
+.kampf-qte .block{display:flex;flex-direction:column;align-items:center;gap:var(--a3);width:min(560px,52%);margin-right:40%}
+.kampf.probe .gsprite{z-index:36}
+@keyframes qteDunkel{from{background:rgba(4,5,8,0)}to{background:rgba(4,5,8,.66)}}
+@media (prefers-reduced-motion:reduce){.kampf-qte.dunkel{animation:none}}
+/* Knöpfe als Pillen: Ausweichen blau, Parieren gold */
+
+/* Fähigkeiten als Karten (21.10.2026, Duc freigegeben) */
+.kampf .liste.karten{left:400px;bottom:30px;width:min(760px,calc(100% - 440px));max-height:none;padding:var(--a4);gap:var(--a35);
+  display:flex;flex-direction:column;border-radius:var(--r-panel)}
+.kampf .liste.karten h5{margin:0;font:600 var(--t-klein) var(--f-ui);letter-spacing:.12em;text-transform:uppercase;color:var(--perle-dim)}
+.kampf .kgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--a3)}
+.kampf .fk{position:relative;display:flex;flex-direction:column;gap:var(--a15);text-align:left;padding:var(--a35) var(--a4) var(--a35) var(--a4);border-radius:var(--r-karte);
+  background:rgba(243,238,228,.06);border:1px solid var(--linie-n);transition:transform .2s ease,border-color .2s,background .2s;overflow:hidden}
+.kampf .fk::before{content:"";position:absolute;left:0;top:14px;bottom:14px;width:4px;border-radius:0 4px 4px 0;background:var(--pfad)}
+.kampf .fk:hover:not(:disabled){transform:translateY(-3px);border-color:var(--akz);background:rgba(216,189,134,.1)}
+.kampf .fk .kopf{display:flex;align-items:baseline;gap:var(--a25)}
+.kampf .fk .name{font:750 var(--t-titel)/1.05 var(--f-name);letter-spacing:-.02em;color:var(--akz)}
+.kampf .fk .pfad{font:600 var(--t-mini) var(--f-ui);letter-spacing:.08em;text-transform:uppercase;color:var(--pfad)}
+.kampf .fk .wirk{font-size:var(--t-info);color:var(--perle-leise);line-height:1.35}
+.kampf .fk .fuss{display:flex;gap:var(--a15);flex-wrap:wrap;margin-top:2px}
+.kampf .fk .pill{padding:var(--pille-klein);border-radius:var(--r-rund);font:500 var(--t-klein) var(--f-zahl);border:1px solid var(--linie-n);color:var(--perle-leise)}
+.kampf .fk .pill.kosten{border-color:var(--akz);color:var(--akz)}
+.kampf .fk .pill.bed{border-color:var(--ausweichen);color:var(--ausweichen)}
+.kampf .fk .pill.ok{border-color:var(--gut);color:var(--gut)}
+.kampf .fk .taste{position:absolute;right:12px;top:12px;font:500 var(--t-mini) var(--f-zahl);padding:1px var(--a15);border-radius:var(--r-taste);background:rgba(7,8,11,.35);color:var(--perle-dim)}
+.kampf .fk:disabled{opacity:.42;cursor:not-allowed}
+.kampf .fk:disabled .name{color:var(--perle-leise)}
+.kampf .fk.k{--pfad:var(--pfad-k)}      /* Kämpfer: Terrakotta */
+.kampf .fk.s{--pfad:var(--pfad-s)}      /* Schmuggler: Violett */
+.kampf .fk.j{--pfad:var(--pfad-j)}      /* Schütze: Türkis */
+.kampf .fk.h{--pfad:var(--pfad-h)}      /* Heiler: Salbeigrün (26.10.2026) */
+.kampf .fk.g{--pfad:var(--perle-dim)} /* Grundfähigkeit */
+.kampf .grund{display:flex;gap:var(--a3)}
+.kampf .grund .fk{flex:1;padding:var(--a25) var(--a35) var(--a25) var(--a4)}
+.kampf .grund .fk .name{font-size:var(--t-gross)}
+.kampf .fk.schwach{border-color:var(--akz);box-shadow:0 0 16px rgba(216,189,134,.45)}
+
+/* Etappe 4b (24.10.2026): Spezialangriffe, Zustands-Chips, Bedrohung, "tut weh", Skillwahl, Reiter Ausrüstung */
+.kampf .fk.m{--pfad:var(--pfad-m)}      /* Berserker: Glut */
+.kampf .fk .pill.warn{border-color:var(--warn);color:var(--warn)}
+.kampf .liste.karten{max-height:calc(100% - 140px);overflow:auto}
+.kampf .chips{display:flex;gap:var(--a15);flex-wrap:wrap;margin-top:var(--a2)}
+.kampf .chip{display:inline-flex;align-items:center;gap:var(--a1);padding:var(--pille-klein);border-radius:var(--r-rund);font-size:var(--t-klein);border:1px solid var(--linie-n);
+  background:rgba(243,238,228,.06);color:var(--perle-leise);white-space:nowrap}
+.kampf .chip.brennend,.kampf .chip.glut{border-color:var(--pfad-m);color:#ffb08a;background:rgba(239,106,60,.14)}
+.kampf .chip.nass{border-color:var(--wasser);color:#a9d6f5}
+.kampf .chip.strom{border-color:var(--ausweichen);color:#cfe5ff}
+.kampf .chip.blutend{border-color:#d97b7b;color:var(--schlecht)}
+.kampf .chip.erschoepft,.kampf .chip.schlamm{border-color:var(--akz);color:var(--akz)}
+.kampf .chip.erschuettert{border-color:var(--akz);color:var(--akz)}
+.kampf .chip.ungedeckt,.kampf .chip.betaeubt,.kampf .chip.silence{border-color:var(--schlecht);color:var(--schlecht)}
+.kampf .du h4 small{font:500 var(--t-klein) var(--f-ui);color:var(--perle-dim);margin-left:var(--a15)}
+.kampf .waffe{font-size:var(--t-klein);color:var(--perle-leise);margin-top:var(--a15)}
+.kampf .balken .fas{background:linear-gradient(90deg,var(--akz),var(--akz2))}
+.kampf .bedrohung{padding:0 var(--a15);border-radius:var(--r-rund);border:1px solid currentColor}
+.kampf .bedrohung.laestig{color:#a3a3a3}.kampf .bedrohung.gefaehrlich{color:var(--gut)}
+.kampf .bedrohung.toedlich{color:#f0a050}.kampf .bedrohung.albtraum{color:var(--schlecht)}
+.kampf .bedrohung.albtraum::before{content:"☠ "}
+.kampf .ic .ui-ic{width:16px;height:16px}
+.kampf .sa,.kampf-qte .sa{display:inline-block;margin:var(--a1) 0 2px;padding:var(--pille-klein);border-radius:var(--r-rund);font:600 var(--t-klein) var(--f-ui);border:1px solid}
+.kampf .sa.weh,.kampf-qte .sa.weh{border-color:var(--schlecht);color:var(--schlecht);background:rgba(217,123,123,.12)}
+.kampf .sa.harmlos,.kampf-qte .sa.harmlos{border-color:var(--perle-dim);color:var(--perle-dim)}
+.kampf .zf.sa{box-shadow:0 0 0 3px rgba(243,238,228,.25)}
+.kampf .zf.sa.weh{box-shadow:0 0 0 3px rgba(217,123,123,.7)}
+.kampf .ende .karte.breit{max-width:820px;max-height:92%;overflow:auto}
+.kampf .skillwahl{margin:var(--a3) 0 var(--a4);text-align:left}
+/* Level-up (26.10.2026) */
+.kampf .aufstieg{display:flex;flex-direction:column;align-items:center;gap:var(--a1);margin:-6px 0 var(--a35);animation:aufstieg .6s ease-out}
+.kampf .aufstieg small{font-size:var(--t-klein);letter-spacing:.24em;text-transform:uppercase;color:var(--perle-leise)}
+.kampf .aufstieg b{font:800 var(--t-buehne)/1 var(--f-name);letter-spacing:-.02em;color:var(--akz);text-shadow:0 0 40px rgba(216,189,134,.45)}
+.kampf .aufstieg .gewinne{display:flex;gap:var(--a2);flex-wrap:wrap;justify-content:center;margin-top:var(--a15)}
+.kampf .aufstieg .gewinne span{border:1px solid var(--linie);border-radius:var(--r-rund);padding:var(--pille);font-size:var(--t-klein);color:var(--akz);background:rgba(216,189,134,.08)}
+@keyframes aufstieg{from{opacity:0;transform:scale(.92)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.kampf .aufstieg{animation:none}}
+.kampf .attrwahl{margin:var(--a3) 0 var(--a4);text-align:left}
+.kampf .attrwahl h3{font:700 var(--t-gross) var(--f-name);color:var(--akz);margin:0 0 var(--a25);text-align:center}
+.kampf .agrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--a25)}
+.kampf .attrwahl .attr{display:flex;flex-direction:column;align-items:stretch;gap:var(--a15);min-height:0;width:auto;text-align:left;padding:var(--karte-pad);border-radius:var(--r-mittel);border:1px solid var(--linie-n);background:rgba(243,238,228,.04);color:var(--perle);font:inherit;cursor:pointer;position:relative}
+.kampf .attr:hover:not(:disabled){border-color:var(--akz);background:rgba(216,189,134,.08)}
+.kampf .attr:disabled{opacity:.45;cursor:default}
+.kampf .attr .attr-kopf{display:flex;justify-content:space-between;align-items:baseline}
+.kampf .attr .attr-kopf b{font:700 var(--t-text) var(--f-name)}
+.kampf .attr .attr-pips{display:flex;gap:var(--a1)}.kampf .attr .attr-pips i{width:10px;height:10px;border-radius:50%;background:rgba(243,238,228,.14)}
+.kampf .attr .attr-pips i.an{background:var(--akz)}
+.kampf .attr .attr-wirk{font-size:var(--t-klein);color:var(--perle-leise);line-height:1.4;padding-right:var(--a5);white-space:normal}
+.kampf .attr .attr-plus{position:absolute;right:12px;bottom:10px;font:700 var(--t-klein) var(--f-zahl);color:var(--akz)}
+.kampf .behalten{margin:var(--a3) 0 var(--a4);text-align:left}.kampf .behalten h3{font:700 var(--t-gross) var(--f-name);color:var(--akz);margin:0 0 var(--a15);text-align:center}
+.kampf .behalten .leer{text-align:center;margin:0 0 var(--a25)}.kampf .behalten .fk.an{border-color:var(--akz);box-shadow:0 0 0 1px var(--akz) inset}
+.kampf .skillwahl h3{font:700 var(--t-gross) var(--f-name);color:var(--akz);margin:0 0 var(--a25);text-align:center}
+.kampf .hinweis,.ausruestung .hinweis{color:var(--warn);font-size:var(--t-klein)}
+.kampf-urteil.reaktion{font-size:var(--t-buehne);letter-spacing:.02em}
+.kampf-urteil.spezial{top:24%;font-size:var(--t-kopf);color:var(--akz)}
+/* Reiter "Ausrüstung" im Laden-&-Inventar-Fenster */
+.ausruestung .werte{padding:var(--karte-pad-klein);border-radius:var(--r-mittel);border:1px solid var(--linie-n);margin-bottom:var(--a25)}
+.ausruestung .werte .attr{display:flex;gap:var(--a3);flex-wrap:wrap;margin-top:var(--a15);font-size:var(--t-klein);color:var(--perle-leise)}
+.ausruestung h3{margin:var(--a4) 0 var(--a15)}
+.ausruestung .ware.selten b{color:#7fb2ff}.ausruestung .ware.episch b{color:#c39bff}.ausruestung .ware.legendaer b{color:var(--akz)}
+.ausruestung .pfade{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:var(--a25)}
+.ausruestung .pfadspalte{border:1px solid var(--linie-n);border-radius:var(--r-mittel);padding:var(--karte-pad-klein);border-top:4px solid var(--pfad)}
+.ausruestung .pfadspalte.k{--pfad:var(--pfad-k)}.ausruestung .pfadspalte.s{--pfad:var(--pfad-s)}.ausruestung .pfadspalte.j{--pfad:var(--pfad-j)}.ausruestung .pfadspalte.m{--pfad:var(--pfad-m)}.ausruestung .pfadspalte.h{--pfad:var(--pfad-h)}
+.ausruestung .pfadspalte h4{margin:0 0 var(--a2);color:var(--pfad)}
+.ausruestung .pfadspalte h4 small{color:var(--perle-dim);font-weight:400}
+.ausruestung .skill{padding:var(--a2);border-radius:var(--r-mittel);margin-bottom:var(--a15);background:rgba(243,238,228,.04);display:flex;flex-direction:column;gap:var(--a1)}
+.ausruestung .skill small{color:var(--perle-dim);font-size:var(--t-klein);line-height:1.3}
+.ausruestung .skill.gelernt{background:rgba(168,213,177,.1);border:1px solid rgba(168,213,177,.4)}
+.ausruestung .skill.zu{opacity:.6}
+.ausruestung .pill{align-self:flex-start;padding:var(--pille-klein);border-radius:var(--r-rund);font-size:var(--t-mini);border:1px solid var(--linie-n)}
+.ausruestung .pill.ok{border-color:var(--gut);color:var(--gut)}.ausruestung .pill.bed{border-color:var(--ausweichen);color:var(--ausweichen)}
+@media (max-width:900px){.ausruestung .pfade{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* ===== PC-Design (25.10.2026, Brain-Trust-Analyse): Bühne, Lesbarkeit, Fähigkeiten-Panel =====
+   Spiel nur am PC. Figuren stehen auf einer Bühne um die Mitte (Abstand wächst mit der Fensterhöhe), nichts überlappt;
+   bei geöffneter Liste rücken sie nach oben, damit man den Gegner beim Wählen sieht. translate (statt transform) zentriert,
+   damit die Bewegungs-Animationen unverändert weiterlaufen. */
+.kampf .dsprite,.kampf .gsprite{height:62%;max-width:34%;width:auto;translate:-50% 0;transition:transform .18s ease,opacity .5s,bottom .3s ease,height .3s ease}
+.kampf .dsprite{left:calc(52% - 25vh);right:auto}
+.kampf .gsprite{left:calc(52% + 25vh);right:auto}
+.kampf.mit-liste .dsprite,.kampf.mit-liste .gsprite{bottom:34%;height:46%}
+/* Schrift: nichts unter 13 px */
+.kampf .zahl,.kampf .zeile>span:first-child{font-size:var(--t-info)}
+.kampf .cmd small,.kampf .fz small{font-size:var(--t-info)}
+.kampf .marke,.kampf .kbd,.kampf .paradeschalter,.kampf .gk h4 small{font-size:var(--t-klein)}
+.kampf .waffe,.kampf .chip,.kampf .fk .pill{font-size:var(--t-klein)}
+.kampf .log1 span{font-size:var(--t-info)}
+.kampf .zf b{font-size:var(--t-mini)}
+.kampf .fk .wirk{font-size:var(--t-info)}
+/* Fähigkeiten: Karten ohne Abschneiden, Grundfähigkeiten 2×2, Kürzel kollidiert nicht mehr mit dem Titel */
+.kampf .grund{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--a3)}
+.kampf .grund .fk{flex:none;min-width:0}
+.kampf .fk{min-width:0}
+.kampf .fk .kopf{flex-wrap:wrap;gap:2px var(--a25);padding-right:46px}
+.kampf .fk .name{font-size:var(--t-unter);overflow-wrap:anywhere}
+.kampf .grund .fk .name{font-size:var(--t-gross)}
+.kampf .liste.karten{left:400px;right:24px;width:auto;bottom:30px;max-height:calc(100% - 130px)}
+/* Große Fenster: Panels mit der Auflösung mitwachsen lassen (zoom statt Einzel-Pixel) */
+.kampf{--ui-auto:1}
+@media (min-width:1900px){.kampf{--ui-auto:1.2}}
+@media (min-width:2500px){.kampf{--ui-auto:1.5}}
+.kampf .du,.kampf .gk,.kampf .liste,.kampf .kampf-wurf,.kampf .zugfolge,.kampf .log1{zoom:calc(var(--ui-auto) * var(--ui-opt,1))}
+/* Liste offen: Figuren stehen genau über der Liste (Höhe kommt als --lh aus dem Client), nie dahinter */
+.kampf.mit-liste .dsprite,.kampf.mit-liste .gsprite{bottom:calc(var(--lh,300px) + 48px);height:max(18%,calc(100% - var(--lh,300px) - 190px))}
+@media (min-width:1500px){.kampf .kgrid{grid-template-columns:repeat(3,minmax(0,1fr))}.kampf .grund{grid-template-columns:repeat(4,minmax(0,1fr))}}
+/* Niedrige Fenster (720p): kompakte Karten, Grundfähigkeiten in einer Reihe ohne Beschreibung (steht im Tooltip), damit die Figuren sichtbar bleiben */
+@media (max-height:820px){
+  .kampf .liste.karten{padding:var(--a35);gap:var(--a25)}
+  .kampf .fk{padding:var(--a25) var(--a35) var(--a25) var(--a4);gap:var(--a1)}
+  .kampf .fk .wirk{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .kampf .grund{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .kampf .grund .fk .wirk{display:none}
+  .kampf .fk .name{font-size:var(--t-unter)}.kampf .grund .fk .name{font-size:var(--t-gross)}
+}
+/* Ausrüstung im Duc-Panel (25.10.2026, Duc: "die Waffen haben Namen"): Waffe und Jacke mit Namen und englischem Untertitel */
+.kampf .ausr{display:flex;flex-direction:column;gap:3px;margin-top:var(--a2)}
+.kampf .ausr-z{display:flex;align-items:baseline;gap:var(--a15);flex-wrap:wrap}
+.kampf .ausr-i{font-size:var(--t-info)}
+.kampf .ausr b{font:700 var(--t-gross) var(--f-name);color:var(--perle)}
+.kampf .ausr i{font-style:normal;font-size:var(--t-klein);color:var(--perle-dim)}
+.kampf .ausr em{font-style:normal;font-size:var(--t-klein);padding:var(--pille-klein);border-radius:var(--r-rund);border:1px solid var(--akz);color:var(--akz);margin-left:auto}
+.kampf .ausr small{font-size:var(--t-klein);color:var(--perle-dim)}
+
+/* Treffer-Rückmeldung ohne Text (25.10.2026): stark = groß, warm, länger; schwach = klein, blass */
+.kampf-pop.stark{font-size:var(--t-riesig);color:#ffae5e;text-shadow:0 0 26px rgba(255,140,60,.85),0 3px 14px rgba(0,0,0,.8);animation-duration:1.7s}
+.kampf-pop.schwach{font-size:var(--t-kopf);color:var(--perle-dim);opacity:.8}
+.kampf .gsprite.treffer-stark{animation:kampfWackelStark .55s}
+@keyframes kampfWackelStark{0%{transform:translateX(0)}15%{transform:translateX(-30px) scale(.97);filter:brightness(2.2) drop-shadow(0 20px 30px rgba(0,0,0,.6))}45%{transform:translateX(14px)}100%{transform:translateX(0)}}
+/* Codex-Meldung: leise, unten rechts */
+.kampf-codex{position:absolute;right:24px;bottom:24px;z-index:45;max-width:340px;padding:var(--karte-pad);border-radius:var(--r-karte);background:var(--rauch);border:1px solid var(--akz);
+  backdrop-filter:blur(20px);box-shadow:0 18px 50px rgba(0,0,0,.4);animation:kampfCodex 4.2s ease forwards}
+.kampf-codex small{display:block;color:var(--akz);letter-spacing:.06em}
+.kampf-codex b{font:650 var(--t-gross) var(--f-name);color:var(--perle)}
+@keyframes kampfCodex{0%{opacity:0;transform:translateY(10px)}8%{opacity:1;transform:none}85%{opacity:1}100%{opacity:0}}
+/* Boden und Leben: Schatten unter den Figuren, leichtes Atmen im Ruhezustand */
+.kampf .schatten{position:absolute;bottom:1.2%;width:24vh;height:3.2vh;translate:-50% 0;border-radius:50%;z-index:2;
+  background:radial-gradient(ellipse at center,rgba(0,0,0,.55),rgba(0,0,0,0) 70%);transition:bottom .3s ease}
+.kampf .schatten.d{left:calc(52% - 25vh)}.kampf .schatten.g{left:calc(52% + 25vh)}
+.kampf.mit-liste .schatten{bottom:calc(var(--lh,300px) + 48px - 1.5vh)}
+.kampf .dsprite,.kampf .gsprite{transform-origin:50% 100%;animation:kampfAtmen 4.2s ease-in-out infinite}
+.kampf .gsprite{animation-delay:-1.7s}
+@keyframes kampfAtmen{50%{scale:1 1.012}}
+.menue .optgruppe{display:flex;gap:var(--a15)}
+.menue .optgruppe button[aria-pressed="true"]{background:var(--akz);color:var(--ink)}
+
+/* Upgrade-Fenster: Chips und Plaetze (25.10.2026) */
+.upgrade{display:grid;grid-template-columns:minmax(260px,340px) 1fr;gap:var(--a45);align-items:start}
+.up-reiter{margin-bottom:var(--a3)}
+.up-stuecke{display:flex;flex-direction:column;gap:var(--a25)}
+.up-stueck{border:1px solid var(--linie-n);border-radius:var(--r-karte);padding:var(--karte-pad);background:rgba(243,238,228,.03)}
+.up-stueck.getragen{border-color:var(--akz)}
+.up-kopf b{font:700 var(--t-gross) var(--f-name);color:var(--akz)}.up-kopf small{color:var(--perle-dim);margin-left:var(--a15)}
+.up-slots{display:flex;gap:var(--a4);margin-top:var(--a25);padding-bottom:var(--a4)}
+.slotk{position:relative;width:64px;height:64px;padding:0;border:0;background:none;display:grid;place-items:center;cursor:pointer;color:inherit}
+.slotk img{display:block}.slotk.zu{cursor:help}.slotk.zu small{position:absolute;bottom:-15px;left:50%;transform:translateX(-50%);font-size:var(--t-mini);color:#7c8492;white-space:nowrap}
+.slotk.frei[disabled]{cursor:default;opacity:.65}
+.slotk.ziel svg path{stroke-width:3;filter:drop-shadow(0 0 6px rgba(216,189,134,.7))}
+.slotk.voll:hover{transform:translateY(-3px)}
+.up-pool{display:flex;flex-direction:column;gap:var(--a25);min-width:0}
+.up-filter{display:flex;gap:var(--a15);align-items:center}
+.up-filter button,.up-reiter button{padding:var(--pille);border-radius:var(--r-rund);border:1px solid var(--linie-n);background:none;color:var(--perle-leise);cursor:pointer;font:inherit}
+.up-filter button[aria-pressed="true"],.up-reiter button[aria-pressed="true"]{background:var(--akz);border-color:var(--akz);color:var(--ink)}
+.chipraster{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:var(--a2)}
+.chipk{display:flex;gap:var(--a25);align-items:center;text-align:left;padding:var(--karte-pad-klein);border-radius:var(--r-mittel);border:1px solid var(--linie-n);background:rgba(243,238,228,.04);color:inherit;cursor:pointer;font:inherit}
+.chipk:hover{border-color:var(--akz)}.chipk.an{border-color:var(--akz);background:rgba(216,189,134,.14);box-shadow:0 0 12px rgba(216,189,134,.35)}
+.chipk.belegt{opacity:.85}.chipk b{display:block;font:650 var(--t-info) var(--f-name)}.chipk small{display:block;color:var(--perle-dim);font-size:var(--t-klein)}
+.up-info{padding:var(--karte-pad);border-radius:var(--r-mittel);border:1px solid var(--linie-n);min-height:84px;font-size:var(--t-info);line-height:1.45}
+.up-info i{color:var(--akz)}
+/* Jacken-Charm (28.10.2026): runder Platz, versetzt */
+.slotk.charmslot{width:66px;height:66px;margin-left:var(--a25);transform:translateY(12px);border-radius:50%;border:2px dashed var(--akz);background:rgba(216,189,134,.07);overflow:hidden}
+.slotk.charmslot.voll{border:2px solid var(--akz)}.slotk.charmslot img{width:62px;height:62px;object-fit:cover;border-radius:50%}
+.slotk.charmslot span{font:var(--t-titel) system-ui;color:var(--akz)}.slotk.charmslot[disabled]{opacity:.65;cursor:default}
+.slotk.charmslot.ziel{box-shadow:0 0 10px rgba(216,189,134,.7)}.slotk.charmslot.voll:hover{transform:translateY(9px)}
+.up-charms{margin:var(--a15) 0 0;font:700 var(--t-text) var(--f-name);color:var(--akz)}.up-charms small{color:var(--perle-dim);font-weight:400}
+.charmk img{border-radius:50%;object-fit:cover}.charmk.gold{border-color:#c9a23a}.charmk.unikat{border-color:#9a7bd1}
+@media (max-width:900px){.upgrade{grid-template-columns:1fr}}
+
+/* Porträtreihe im Laden-Fenster (25.10.2026) */
+.lportzeile{display:flex;flex-wrap:wrap;gap:var(--a25) var(--a45);align-items:flex-end}
+.lportgruppe small{display:block;color:var(--perle-dim);font-size:var(--t-mini);letter-spacing:.06em;margin-bottom:var(--a1)}
+.lportreihe{display:flex;gap:var(--a2)}
+.lport{display:flex;align-items:center;gap:var(--a2);padding:var(--a1) var(--a3) var(--a1) var(--a15);border-radius:var(--r-rund);border:1px solid var(--linie-n);background:transparent;color:var(--perle-leise);cursor:pointer;font:inherit;font-size:var(--t-klein)}
+.lport .av{width:30px;height:30px;border-radius:50%;flex:none;background-size:cover;background-position:center}
+.lport[aria-pressed="true"]{background:var(--akz);border-color:var(--akz);color:var(--ink);font-weight:600}
+.lport:disabled{opacity:.4;cursor:not-allowed}
+.lportgruppe.tender{border-left:1px dashed var(--linie-n);padding-left:var(--a4)}
+
+/* Orte wie ein Haendler in Skyrim (25.10.2026): Kacheln im Overlay, Vollbild-Ort mit Auswahlliste */
+.orte .kacheln{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:var(--a35)}
+.kachel{position:relative;height:280px;border-radius:var(--r-karte);border:1px solid var(--linie);background:var(--flaeche) center/cover no-repeat;overflow:hidden;cursor:pointer;padding:0;color:inherit;text-align:left;transition:transform .15s,border-color .15s}
+.kachel:hover:not(:disabled){transform:translateY(-4px);border-color:var(--akz)}
+.kachel:disabled{filter:grayscale(.8) brightness(.6);cursor:not-allowed}
+.kachel::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,6,8,0) 45%,rgba(5,6,8,.85))}
+.kachel-figur{position:absolute;bottom:0;left:50%;transform:translateX(-50%);height:92%;object-fit:contain;z-index:1}
+.kachel-name{position:absolute;left:14px;right:14px;bottom:12px;z-index:2}
+.kachel-name b{display:block;font:750 var(--t-unter) var(--f-name);color:var(--akz)}.kachel-name small{color:var(--perle-leise);font-size:var(--t-klein)}
+.orte-kopf{margin:var(--a45) 0 var(--a25);font:650 var(--t-text) var(--f-name);color:var(--perle-leise)}
+.orte-du{display:flex;gap:var(--a25);align-items:center;margin-top:var(--a4)}.orte-du .konto{margin-left:auto}
+.ort{position:absolute;inset:0;background:var(--ink) center/cover no-repeat}
+.ort::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,6,8,.15),rgba(5,6,8,0) 40%,rgba(5,6,8,.7));pointer-events:none}
+.ort-figur{position:absolute;bottom:0;left:56%;transform:translateX(-50%);height:88%;object-fit:contain;filter:drop-shadow(0 20px 30px rgba(0,0,0,.55))}
+.ort-blase{position:absolute;top:13%;left:calc(56% + 13vh);max-width:380px;padding:var(--a35) var(--a4);border-radius:var(--r-karte) var(--r-karte) var(--r-karte) var(--r-taste);z-index:2}
+.ort-blase b{display:block;font:700 var(--t-klein) var(--f-ui);letter-spacing:.08em;color:var(--akz);margin-bottom:var(--a1)}
+.ort-wahl{position:absolute;left:4%;bottom:calc(6% + 84px);width:min(340px,30%);padding:var(--a35);border-radius:var(--r-karte);display:flex;flex-direction:column;gap:var(--a15);z-index:3}
+.ort-wahl small{color:var(--akz);letter-spacing:.06em;margin:0 var(--a1) var(--a1)}
+.ort-wahl button{display:flex;align-items:center;gap:var(--a25);text-align:left;padding:var(--karte-pad-klein);border-radius:var(--r-mittel);border:1px solid transparent;background:rgba(243,238,228,.06);color:var(--perle);font:650 var(--t-gross) var(--f-name);cursor:pointer}
+.ort-wahl button:hover,.ort-wahl button[aria-pressed="true"]{background:var(--akz);color:var(--ink)}
+.ort-wahl .kbd{font:500 var(--t-mini) var(--f-zahl);padding:1px var(--a15);border-radius:var(--r-taste);background:rgba(7,8,11,.35);color:inherit}
+.ort-panel{position:absolute;right:3%;top:6%;bottom:6%;width:min(860px,58%);padding:var(--a4) var(--a45);border-radius:var(--r-karte);overflow:auto;z-index:4}
+.ort-panelkopf{display:flex;align-items:center;gap:var(--a35);margin-bottom:var(--a3)}.ort-panelkopf b{font:750 var(--t-unter) var(--f-name);color:var(--akz)}
+.ort-panelkopf .konto{margin-left:auto}
+.ort-panel .up-reiter{display:none}
+.ort-panel .upgrade{grid-template-columns:minmax(240px,300px) 1fr}
+
+/* Mehrere Gegner (29.10.2026, wie Final Fantasy): Gruppe nebeneinander, so gross wie Duc (Duc 30.10.2026), Ziel leuchtet, Besiegte blass,
+   Gegnerleiste mit Name, Leben und Absicht, Zielwahl mit Hinweis */
+.kampf.gruppe .gsprite{cursor:default}
+.kampf.gruppe .gsprite.ziel{filter:drop-shadow(0 0 14px rgba(216,189,134,.75))}
+.kampf.gruppe .gsprite.aus{opacity:.32;filter:grayscale(.7)}
+.kampf.zielwahl .gsprite.waehlbar{cursor:pointer}
+.kampf.zielwahl .gsprite.waehlbar:hover{filter:drop-shadow(0 0 14px rgba(216,189,134,.55))}
+.kampf.zielwahl .gsprite.ziel{filter:drop-shadow(0 0 22px rgba(255,214,120,1)) brightness(1.08)}
+.kampf .gleiste{position:absolute;right:360px;top:96px;display:flex;flex-direction:column;gap:var(--a15);width:230px;padding:var(--a25);z-index:7}
+.kampf .gleiste .gl{display:grid;gap:3px;text-align:left;padding:var(--a15) var(--a25);border-radius:var(--r-taste);border:1px solid var(--linie);
+  background:rgba(12,12,16,.55);color:var(--perle);font:inherit;cursor:default}
+.kampf .gleiste .gl b{font:700 var(--t-info) var(--f-name)}
+.kampf .gleiste .gl small{font-size:var(--t-klein);color:var(--perle-dim)}
+.kampf .gleiste .gl.ziel{border-color:var(--akz);box-shadow:0 0 0 1px var(--akz) inset}
+.kampf .gleiste .gl.ziel b{color:var(--akz)}
+.kampf .gleiste .gl.sa-weh{border-color:var(--schlecht)}
+.kampf .gleiste .gl.aus{opacity:.45}
+.kampf.zielwahl .gleiste .gl:not(.aus){cursor:pointer}
+.kampf.zielwahl .gleiste .gl:not(.aus):hover{border-color:var(--akz)}
+.kampf .gleiste .balken{height:6px}
+.kampf .zielwahl-hinweis{position:absolute;left:50%;top:64px;translate:-50% 0;z-index:40;padding:var(--karte-pad-klein);border-radius:var(--r-mittel);
+  background:rgba(12,12,16,.88);border:1px solid var(--akz);color:var(--akz);font:700 var(--t-gross) var(--f-name);text-align:center}
+.kampf .zielwahl-hinweis small{display:block;font:400 var(--t-klein) var(--f-ui);color:var(--perle-dim);margin-top:2px}
+.kampf.probe .gleiste,.kampf.probe .zielwahl-hinweis{opacity:0;pointer-events:none}
+@media (max-width:1200px){.kampf .gleiste{right:24px;top:auto;bottom:calc(var(--lh,300px) + 20px);flex-direction:row;width:auto}}
+
+/* Duc 30.10.2026: schlankere Panels, mehr Platz fuer den Kampf. Rechentext der Befehle nur beim Darueberfahren,
+   die Gruppe hat nur noch eine Leiste, das Ziel klappt darin auf. Zugfolge: .sa ist auch ein Etikett, darf aber das Gesicht nicht verschieben. */
+.kampf .zf.sa,.kampf .zf.sa.weh{display:grid;margin:0;padding:0;border-radius:50%;background:var(--flaeche) center/cover no-repeat}
+.kampf .dsprite,.kampf .gsprite{height:66%}
+.kampf .du{width:290px;left:20px;bottom:20px;padding:var(--a35) var(--a35) var(--a3)}
+.kampf .du h4,.kampf .gk h4{font-size:var(--t-unter)}
+.kampf .du .zeile,.kampf .gk .zeile{grid-template-columns:50px 1fr 46px;margin:3px 0}
+.kampf .du .chips:empty{display:none}
+.kampf .ausr-kurz{display:flex;align-items:center;gap:var(--a2);margin-top:var(--a15);font-size:var(--t-info);color:var(--perle-leise)}
+.kampf .ausr-kurz span{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.kampf .ausr-kurz b{font-weight:600;color:var(--perle)}
+.kampf .ausr-kurz em{flex:none;font-style:normal;font-size:var(--t-klein);color:var(--akz)}
+.kampf .cmds{gap:var(--a1);padding-top:var(--a2);margin-top:var(--a15)}
+.kampf .cmd{position:relative;padding:var(--a15) var(--a3)}
+.kampf .cmd b{font-size:var(--t-text)}
+.kampf .cmd:disabled{padding:2px var(--a3);opacity:.38}
+.kampf .cmd:disabled b{font-size:var(--t-info);font-weight:500}
+.kampf .cmd small,.kampf .cmd:hover:not(:disabled) small,.kampf .cmd.an small{display:none;position:absolute;left:calc(100% + 12px);top:50%;translate:0 -50%;width:max-content;max-width:280px;
+  padding:var(--a15) var(--a3);border-radius:var(--r-mittel);background:var(--rauch);border:1px solid var(--linie);backdrop-filter:blur(18px);color:var(--perle);text-align:left;z-index:20;pointer-events:none}
+.kampf .cmd:hover small,.kampf .cmd:hover:not(:disabled) small,.kampf .cmd:focus-visible small{display:block}
+.kampf.mit-liste .cmd:hover small,.kampf.mit-liste .cmd:hover:not(:disabled) small{display:none}
+.kampf .liste.karten{left:330px}
+.kampf .log1{right:310px;top:16px}
+.kampf .gk{top:16px;right:20px;width:270px;padding:var(--a3) var(--a35)}
+.kampf .schild{width:36px;height:42px;font-size:var(--t-gross)}
+.kampf .gk .ic,.kampf .gleiste .ic{width:24px;height:24px;font-size:var(--t-klein)}
+.kampf .gleiste{top:16px;right:20px;width:270px;padding:var(--a2);gap:var(--a1);zoom:calc(var(--ui-auto) * var(--ui-opt,1))}
+.kampf .gleiste .gl{padding:var(--a15) var(--a25)}
+.kampf .gl-mehr{display:grid;gap:var(--a1);margin-top:var(--a1);padding-top:var(--a15);border-top:1px solid var(--linie-n)}
+.kampf .gl-rang{font-size:var(--t-klein);color:var(--perle-dim)}
+.kampf .gl-mehr .zeile,.kampf .gk .zeile{display:grid;grid-template-columns:72px 1fr 46px;margin:3px 0}
+.kampf .gl-mehr .icon-reihe{margin-top:0}
+.kampf .gl-mehr .chips{margin-top:0}
+.kampf .gl-mehr .chips:empty{display:none}
+.kampf-ende-halt{position:absolute;inset:0;z-index:30}
+
+/* Parade-Probe (Duc 03.11.2026, Baustein eden-qte.js): erst leuchtet der Gegner 1 s (Perle = parieren, Blau = nur ausweichen),
+   dann eine schmale Glasleiste mit Zone und Lichtstrich als Marker. Kein Gold: Gold gehoert Ducs Hauptaktion. */
+.kampf .gsprite.tell{transition:filter .25s ease-out}
+.kampf .gsprite.tell.tell-par,.qte-demo .tell-par{filter:drop-shadow(0 0 2px rgba(243,238,228,.95)) drop-shadow(0 0 22px rgba(243,238,228,.55)) brightness(1.08)}
+.kampf .gsprite.tell.tell-aus,.qte-demo .tell-aus{filter:drop-shadow(0 0 2px rgba(142,197,255,.95)) drop-shadow(0 0 24px rgba(142,197,255,.6)) brightness(1.05)}
+.kampf-qte .block{display:flex;flex-direction:column;align-items:center;gap:var(--a3);width:min(560px,52%);margin-right:40%}
+.qte{display:flex;flex-direction:column;align-items:center;gap:var(--a25);width:100%}
+.qte-name{font:650 var(--t-info) var(--f-ui);letter-spacing:.04em;color:var(--perle-leise);text-shadow:0 2px 12px rgba(0,0,0,.8)}
+.qte-leiste{position:relative;width:100%;height:22px;border-radius:var(--r-rund);background:var(--rauch-stark);border:1px solid var(--linie-n);
+  backdrop-filter:blur(20px) saturate(1.15);box-shadow:0 10px 30px rgba(0,0,0,.4);opacity:0;transform:translateY(6px);transition:opacity .25s ease-out,transform .25s ease-out}
+.qte.los .qte-leiste{opacity:1;transform:none}
+.qte-leiste i{position:absolute;top:-1px;bottom:-1px;border-radius:var(--r-rund)}
+.qte-leiste .z-gut{background:rgba(243,238,228,.22);box-shadow:inset 0 0 0 1px rgba(243,238,228,.45)}
+.qte-leiste .z-perf{background:var(--perle);box-shadow:0 0 14px rgba(243,238,228,.85)}
+.qte-leiste i.getroffen{animation:zoneTreffer .3s ease-out forwards}
+@keyframes zoneTreffer{0%{background:var(--perle);box-shadow:0 0 18px rgba(243,238,228,.9);transform:scaleY(1.5)}100%{opacity:.35;transform:none}}
+.qte-leiste .z-hinweis{width:2px;margin-left:-1px;top:-6px;bottom:-6px;background:rgba(243,238,228,.45);box-shadow:none}
+.qte-marker{position:absolute;top:50%;left:0;width:4px;height:42px;margin-left:-2px;transform:translateY(-50%);border-radius:var(--r-rund);
+  background:var(--perle);box-shadow:0 0 10px rgba(243,238,228,.9),0 0 2px rgba(0,0,0,.8)}
+/* Ausweichen: bewusst eine andere Probe, ein Kreis zieht sich auf den Zielring zusammen (blaues Band = Ausweich-Fenster) */
+.qte-kreis{position:relative;width:320px;height:320px;opacity:0;transition:opacity .25s ease-out}
+.qte.los .qte-kreis{opacity:1}
+.qte-kreis i,.qte-kreis b{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);border-radius:50%;box-sizing:border-box}
+.qte-kreis .k-aus{border:solid rgba(142,197,255,.32);box-shadow:0 0 18px rgba(142,197,255,.3)}
+.qte-kreis .k-perf{border:solid rgba(243,238,228,.75);box-shadow:0 0 12px rgba(243,238,228,.6)}
+.qte-kreis .k-ziel{width:92px;height:92px;border:2px solid var(--ausweichen);box-shadow:0 0 16px rgba(142,197,255,.6)}
+.qte-kreis .k-lauf{border:3px solid var(--ausweichen);box-shadow:0 0 12px rgba(142,197,255,.7)}
+.qte-wahl .qte-kreis .k-lauf{border-color:var(--perle);box-shadow:0 0 12px rgba(243,238,228,.7)}
+.qte-tasten{font-size:var(--t-klein);color:var(--perle-dim);display:flex;align-items:center;gap:var(--a15);opacity:0;transition:opacity .25s ease-out}
+.qte.los .qte-tasten{opacity:1}
+.qte-tasten .taste{font:600 var(--t-mini) var(--f-zahl);padding:var(--pille-klein);border-radius:var(--r-taste);border:1px solid var(--linie-n);color:var(--perle-leise)}
+.qte-tasten .taste+.taste,.qte-tasten .taste:not(:first-child){margin-left:var(--a2)}
+@media (prefers-reduced-motion:reduce){.qte-leiste,.qte-kreis,.qte-tasten,.kampf .gsprite.tell{transition:none}}
+/* Ducs W20: der kompakte Goldwuerfel und danach das Ergebnis mit Rechnung ueber Ducs Karte (--duh = Hoehe der Karte) */
+.kampf > .eden-dice-card,.kampf .kampf-wurf{position:absolute;left:24px;bottom:calc(30px + var(--duh,300px) + var(--a3));width:360px;margin:0;z-index:40;
+  background:var(--rauch-stark);border:1px solid var(--linie);backdrop-filter:blur(20px) saturate(1.15);box-shadow:0 18px 50px rgba(0,0,0,.35)}
+.kampf .kampf-wurf{z-index:9;font-size:var(--t-info)}
+/* Perfekte Parade: Halt (120 ms) und heller Blitz (Perle, Gold gehoert Duc) */
+.kampf-halt .kampf .gsprite,.kampf-halt .kampf .dsprite{animation-play-state:paused!important;transition:none!important}
+.kampf-blitz.perle{background:radial-gradient(ellipse at 62% 45%,rgba(243,238,228,.62),rgba(243,238,228,.12) 45%,rgba(243,238,228,0) 70%);animation:kampfBlitz .4s ease-out forwards}
+/* Taunt beim Zoegern: kurze Zeile ueber dem Gegner, verschwindet nach 1,8 s */
+.kampf-taunt{position:absolute;z-index:38;transform:translate(-50%,-100%);max-width:320px;padding:var(--pille-gross);border-radius:var(--r-rund);
+  background:var(--rauch-stark);border:1px solid var(--linie-n);font:600 var(--t-info) var(--f-ui);color:var(--rede);pointer-events:none;
+  animation:tauntRein .2s ease-out}
+@keyframes tauntRein{from{opacity:0;transform:translate(-50%,-90%)}}
+@media (prefers-reduced-motion:reduce){.kampf-taunt{animation:none}}
+/* Rueckmeldung (Duc 03.11.2026): Ring platzt vom Kern bei perfekter Parade, "Too early/late" bei Fehlern, Serie als Punkte */
+.qte-burst{position:fixed;z-index:60;width:44px;height:44px;margin:-22px 0 0 -22px;border-radius:50%;border:3px solid var(--perle);
+  box-shadow:0 0 18px rgba(243,238,228,.8),inset 0 0 10px rgba(243,238,228,.5);pointer-events:none;animation:qteBurst .4s cubic-bezier(.16,1,.3,1) forwards}
+@keyframes qteBurst{from{transform:scale(.6);opacity:1}to{transform:scale(3.4);opacity:0}}
+.qte-zeitpunkt{position:fixed;z-index:60;transform:translateX(-50%);font:600 var(--t-klein) var(--f-ui);letter-spacing:.08em;text-transform:uppercase;
+  color:var(--perle-leise);pointer-events:none;animation:qteHinweis 1.1s ease-out forwards}
+@keyframes qteHinweis{0%{opacity:0;transform:translate(-50%,-4px)}15%{opacity:1;transform:translate(-50%,0)}75%{opacity:1}100%{opacity:0}}
+.qte-serie{display:inline-flex;gap:var(--a1);margin-left:var(--a3)}
+.qte-serie i{width:8px;height:8px;border-radius:50%;border:1px solid var(--perle-dim)}
+.qte-serie i.an{background:var(--perle);border-color:var(--perle)}
+.qte-serie i.neu{animation:seriePop .5s cubic-bezier(.16,1,.3,1)}
+@keyframes seriePop{40%{transform:scale(1.6)}}
+.kampf-qte.weg{opacity:0;transition:opacity .26s ease-in}
+@media (prefers-reduced-motion:reduce){.qte-burst,.qte-serie i.neu,.qte-leiste i.getroffen{animation:none}.qte-zeitpunkt{animation:none;opacity:1}.kampf-qte.weg{transition:none}}
+/* Atmen (Duc 04.11.2026): Leinwand mit Ducs Ruhepose liegt deckungsgleich auf dem Bild, das Bild ist solange unsichtbar */
+.kampf .dsprite.atmet{visibility:hidden}
+.kampf .dsprite.datem{animation:none;pointer-events:none}

@@ -1,0 +1,55 @@
+{
+ "id": "bibi_tier_selfies",
+ "titel": "Bibi: Selfies mit den Tieren (Probe)",
+ "hinweis": "Drei Tiere, je zwei Seeds. Mein Vorschlag: Biscuit 1, Monday 2 (liegt wirklich auf ihren Schultern, auch wenn er zu groß ist, das ist der Witz), Sunday 1. Gefällt dir die Richtung, mache ich die übrigen elf im selben Stil.",
+ "items": [
+  {
+   "id": "hund_1",
+   "titel": "Biscuit, Seed 1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies\\hund_1.png",
+   "soll": "Bibi im Station-Outfit macht ein Selfie mit Biscuit, ohne Halsband. Unterschrift im Spiel: look who's a good boy 🐶 he's been licking my ear for an hour",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\DogFrei\\idle.webp",
+   "vergleich_titel": "Biscuit im Spiel"
+  },
+  {
+   "id": "hund_2",
+   "titel": "Biscuit, Seed 2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies\\hund_2.png",
+   "soll": "Bibi im Station-Outfit macht ein Selfie mit Biscuit, ohne Halsband. Unterschrift im Spiel: look who's a good boy 🐶 he's been licking my ear for an hour",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\DogFrei\\idle.webp",
+   "vergleich_titel": "Biscuit im Spiel"
+  },
+  {
+   "id": "capybara_1",
+   "titel": "Monday, Seed 1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies\\capybara_1.png",
+   "soll": "Bibi im Station-Outfit macht ein Selfie mit Monday, ohne Halsband. Unterschrift im Spiel: he sat on me. i live here now",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\CapybaraFrei\\idle.webp",
+   "vergleich_titel": "Monday im Spiel"
+  },
+  {
+   "id": "capybara_2",
+   "titel": "Monday, Seed 2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies\\capybara_2.png",
+   "soll": "Bibi im Station-Outfit macht ein Selfie mit Monday, ohne Halsband. Unterschrift im Spiel: he sat on me. i live here now",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\CapybaraFrei\\idle.webp",
+   "vergleich_titel": "Monday im Spiel"
+  },
+  {
+   "id": "wolf_1",
+   "titel": "Sunday, Seed 1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies\\wolf_1.png",
+   "soll": "Bibi im Station-Outfit macht ein Selfie mit Sunday, ohne Halsband. Unterschrift im Spiel: she is asleep. i am very brave. don't look at the teeth",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\WolfFrei\\idle.webp",
+   "vergleich_titel": "Sunday im Spiel"
+  },
+  {
+   "id": "wolf_2",
+   "titel": "Sunday, Seed 2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies\\wolf_2.png",
+   "soll": "Bibi im Station-Outfit macht ein Selfie mit Sunday, ohne Halsband. Unterschrift im Spiel: she is asleep. i am very brave. don't look at the teeth",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\WolfFrei\\idle.webp",
+   "vergleich_titel": "Sunday im Spiel"
+  }
+ ]
+}

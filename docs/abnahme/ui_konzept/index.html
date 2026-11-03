@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eden UI-Konzept</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Geist:wght@400;500;600&family=Geist+Mono:wght@500&display=swap">
+<style>
+/* Tokens aus client/index.html (Deck Glass Noir), plus die vorgeschlagenen Skalen */
+:root{
+  color-scheme:dark;
+  --ink:#07080b; --rauch:rgba(9,11,15,.52); --rauch-stark:rgba(9,11,15,.82);
+  --perle:#f3eee4; --perle-leise:rgba(243,238,228,.7); --perle-dim:rgba(243,238,228,.45);
+  --akz:#d8bd86; --gut:#a8d5b1; --schlecht:#d9a198;
+  --linie:rgba(216,189,134,.26); --linie-n:rgba(243,238,228,.16);
+  --f-name:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --f-ui:"Geist","Segoe UI",system-ui,sans-serif;
+  --f-zahl:"Geist Mono",ui-monospace,monospace;
+  --s1:4px;--s2:8px;--s3:12px;--s4:16px;--s5:24px;--s6:32px;--s7:48px;
+  --t-klein:12.5px;--t-text:15px;--t-gross:18px;--t-titel:24px;--t-held:40px;
+  --r-klein:8px;--r-karte:14px;--r-rund:999px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--ink);color:var(--perle);font:var(--t-text)/1.55 var(--f-ui)}
+main{width:min(1180px,100%);margin:0 auto;padding:var(--s7) var(--s5)}
+h1{font:750 var(--t-held)/1.08 var(--f-name);letter-spacing:-.03em;margin:0 0 var(--s3)}
+h2{font:700 var(--t-titel)/1.2 var(--f-name);letter-spacing:-.02em;margin:0 0 var(--s2)}
+h3{font:600 var(--t-text)/1.3 var(--f-ui);margin:0 0 var(--s2);color:var(--akz)}
+section{margin-top:var(--s7);padding-top:var(--s6);border-top:1px solid var(--linie-n)}
+p{margin:0 0 var(--s3);max-width:76ch;color:var(--perle-leise)}
+.vorspann{font-size:var(--t-gross);color:var(--perle);max-width:62ch}
+a{color:var(--akz)}
+.klein{font-size:var(--t-klein);color:var(--perle-dim)}
+.zahl{font-family:var(--f-zahl);font-variant-numeric:tabular-nums}
+
+/* Befund */
+.kacheln{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:var(--s3);margin-top:var(--s4)}
+.kachel{border:1px solid var(--linie-n);border-radius:var(--r-karte);padding:var(--s3) var(--s4);background:rgba(243,238,228,.04)}
+.kachel b{display:block;font:700 var(--t-titel)/1.1 var(--f-name)}
+.kachel span{font-size:var(--t-klein);color:var(--perle-leise);display:block;margin-top:var(--s1)}
+
+/* Bühne */
+.buehne{position:relative;height:420px;border-radius:var(--r-karte);overflow:hidden;margin-top:var(--s3);transition:background .3s}
+.buehne[data-bg="holz"]{background:linear-gradient(115deg,#3b4a4a 0,#6a5644 30%,#8a6f58 62%,#5c4a3c 100%)}
+.buehne[data-bg="tag"]{background:linear-gradient(180deg,#a9d3ea 0,#dceaf0 44%,#3f86a8 46%,#2a6c8e 100%)}
+.buehne[data-bg="nacht"]{background:linear-gradient(180deg,#0a1020 0,#11203a 60%,#0d1a2b 100%)}
+.buehne.klein{height:170px}
+.glas{background:var(--rauch);border:1px solid var(--linie);backdrop-filter:blur(20px) saturate(1.15);-webkit-backdrop-filter:blur(20px) saturate(1.15);box-shadow:0 18px 50px rgba(0,0,0,.35)}
+.bgwahl{display:flex;gap:var(--s2);margin-top:var(--s3);flex-wrap:wrap;align-items:center}
+.bgwahl button,.demo button{border:1px solid var(--linie-n);background:rgba(243,238,228,.06);border-radius:var(--r-rund);padding:var(--s1) var(--s3);font:inherit;font-size:var(--t-klein);color:var(--perle);cursor:pointer}
+.bgwahl button[aria-pressed="true"]{border-color:var(--akz);color:var(--akz)}
+.demo{display:flex;gap:var(--s2);flex-wrap:wrap;margin-top:var(--s3);align-items:center}
+.demo label{font-size:var(--t-klein);color:var(--perle-leise);display:flex;gap:var(--s2);align-items:center}
+button:focus-visible{outline:2px solid var(--akz);outline-offset:2px}
+
+/* HUD alt: Nachbau der heutigen Regeln aus index.html */
+.alt-pille{position:absolute;top:20px;left:20px;display:flex;align-items:center;gap:14px;padding:10px 18px;border-radius:999px}
+.alt-pille .name,.neu-pille .name{font:750 18px var(--f-name);letter-spacing:-.02em;color:var(--akz)}
+.dots{display:flex;gap:6px;align-items:center}
+.dots i{width:7px;height:7px;border-radius:50%;background:rgba(243,238,228,.28)}
+.dots i.war{background:var(--perle)}.dots i.ist{width:22px;border-radius:99px;background:var(--akz)}
+.was{color:var(--perle-leise);white-space:nowrap}
+.geld{color:var(--perle);font-size:12.5px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.ziel{color:var(--akz);font-size:12.5px;white-space:nowrap}
+.alt-schiff{position:absolute;top:84px;left:20px;display:flex;gap:6px;padding:6px 8px;border-radius:999px;font-size:12.5px}
+.alt-schiff span.chip{display:flex;align-items:center;gap:6px;border:1px solid var(--linie-n);background:rgba(243,238,228,.06);border-radius:999px;padding:4px 11px}
+.alt-schiff .chip.niedrig{border-color:rgba(217,161,152,.6)}
+.alt-schiff .z{font:600 12.5px var(--f-zahl)}.alt-schiff .niedrig .z{color:var(--schlecht)}
+
+/* HUD neu: eine Leiste, ein Muster */
+.neu-pille{position:absolute;top:20px;left:20px;display:flex;align-items:center;gap:var(--s3);padding:6px 8px 6px var(--s4);border-radius:var(--r-rund)}
+.trenn{width:1px;height:22px;background:var(--linie-n)}
+.status{display:flex;gap:var(--s2)}
+.st{position:relative;width:40px;height:40px;padding:0;border:0;border-radius:50%;cursor:pointer;background:conic-gradient(var(--c,var(--akz)) calc(var(--p)*1%),rgba(243,238,228,.14) 0);transition:--p .5s;display:grid;place-items:center}
+.st::before{content:"";position:absolute;inset:3px;border-radius:50%;background:#14161b}
+.st img{position:relative;width:22px;height:22px;display:block}
+.st.niedrig{--c:var(--schlecht)}
+.st.niedrig::after{content:"!";position:absolute;right:-2px;top:-2px;width:15px;height:15px;border-radius:50%;background:var(--schlecht);color:var(--ink);font:700 11px/15px var(--f-ui);text-align:center}
+.st:hover::before{background:#20232a}
+.st[aria-expanded="true"]{box-shadow:0 0 0 2px #14161b,0 0 0 4px var(--perle)}
+.st.puls{animation:puls .7s ease}
+@keyframes puls{0%{transform:scale(1)}35%{transform:scale(1.18)}100%{transform:scale(1)}}
+.delta{position:absolute;left:50%;top:-4px;transform:translateX(-50%);font:600 var(--t-klein) var(--f-zahl);pointer-events:none;animation:steig 1.3s ease forwards;white-space:nowrap}
+@keyframes steig{0%{opacity:0;transform:translate(-50%,6px)}20%{opacity:1}100%{opacity:0;transform:translate(-50%,-20px)}}
+.namen{display:none}
+.mit-namen .namen{display:block;position:absolute;top:43px;left:50%;transform:translateX(-50%);font-size:11px;color:var(--perle);white-space:nowrap;background:var(--rauch-stark);padding:0 6px;border-radius:var(--r-klein)}
+.mit-namen .status{gap:var(--s6);padding:0 var(--s4)}
+.mit-namen~.karte{top:106px}
+.neu-bluete{position:absolute;top:82px;right:auto;padding:var(--s1) var(--s3);border-radius:var(--r-rund);font-size:var(--t-klein);animation:bluete 2s ease forwards}
+@keyframes bluete{0%{opacity:0}12%{opacity:1}80%{opacity:1}100%{opacity:0}}
+@media (prefers-reduced-motion:reduce){.st.puls,.delta{animation:none}}
+
+/* Statuskarte */
+.karte{position:absolute;top:82px;left:20px;width:min(440px,calc(100% - 40px));border-radius:var(--r-karte);padding:var(--s2);display:none;z-index:3}
+.karte.offen{display:block}
+.zeile{width:100%;display:grid;grid-template-columns:24px 1fr auto;gap:var(--s3);align-items:center;text-align:left;background:none;border:0;border-radius:var(--r-klein);padding:var(--s2);font:inherit;color:var(--perle);cursor:pointer}
+.zeile:hover{background:rgba(243,238,228,.06)}
+.zeile img{width:22px;height:22px}
+.zeile em{font-style:normal;color:var(--akz)}
+.zeile.niedrig em{color:var(--schlecht)}
+.mehr{display:none;padding:0 var(--s2) var(--s3) calc(24px + var(--s3) + var(--s2))}
+.mehr.offen{display:block}
+.balken{height:6px;border-radius:99px;background:rgba(243,238,228,.12);margin:0 0 var(--s2)}
+.balken i{display:block;height:100%;border-radius:99px;background:var(--akz)}
+.niedrig+.mehr .balken i{background:var(--schlecht)}
+.mehr p{font-size:13px;line-height:1.5;margin:0;color:var(--perle-leise)}
+
+/* Icon-Vergleich */
+.fam{width:100%;border-collapse:collapse;margin-top:var(--s3);background:linear-gradient(115deg,#22272b,#33291f);border-radius:var(--r-karte);overflow:hidden}
+.fam th,.fam td{padding:var(--s2) var(--s2);text-align:center;border-bottom:1px solid var(--linie-n)}
+.fam thead th{font:500 11.5px var(--f-ui);color:var(--perle-leise)}
+.fam tbody th{text-align:left;font-weight:600;white-space:nowrap;font-size:13px;padding-left:var(--s4)}
+.fam tbody th small{display:block;font-weight:400;color:var(--perle-dim);font-size:11.5px}
+.fam img{width:24px;height:24px;display:inline-block;vertical-align:middle}
+.fam .g{font-size:21px;line-height:24px}
+.fam tr.wahl th{color:var(--akz)}
+.fam tr.wahl td,.fam tr.wahl th{background:rgba(216,189,134,.09)}
+.scroll{overflow-x:auto}
+
+/* Regeln, Tabellen */
+ol.regeln{padding:0;margin:var(--s4) 0 0;list-style:none;counter-reset:r;display:grid;gap:var(--s3);grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
+ol.regeln li{counter-increment:r;border:1px solid var(--linie-n);border-radius:var(--r-karte);padding:var(--s3) var(--s4);background:rgba(243,238,228,.04);color:var(--perle-leise);font-size:14px}
+ol.regeln li b{display:block;color:var(--perle);font:700 var(--t-text)/1.3 var(--f-name);margin-bottom:var(--s1)}
+ol.regeln li b::before{content:counter(r) ". ";color:var(--akz)}
+table.tab{width:100%;border-collapse:collapse;margin-top:var(--s3);font-size:13.5px}
+.tab th{text-align:left;font-weight:500;color:var(--perle-dim);font-size:12px;padding:var(--s2);border-bottom:1px solid var(--linie)}
+.tab td{padding:var(--s2);border-bottom:1px solid var(--linie-n);vertical-align:top;color:var(--perle-leise)}
+.tab td:first-child{color:var(--perle);font-weight:500;white-space:nowrap}
+.tab tr.wahl td{background:rgba(216,189,134,.09)}
+.urteil{color:var(--akz)}.nein{color:var(--schlecht)}
+.warn{border-left:3px solid var(--schlecht);padding:var(--s2) var(--s4);margin:var(--s4) 0 0;background:rgba(217,161,152,.07)}
+.warn p{margin:0;color:var(--perle)}
+.empf{border:1px solid var(--akz);border-radius:var(--r-karte);padding:var(--s4) var(--s5);margin-top:var(--s4);background:rgba(216,189,134,.07)}
+.empf p{color:var(--perle);margin:0}
+</style>
+</head>
+<body>
+<main>
+<h1>UI-Konzept für Eden</h1>
+<p class="vorspann">Du hattest recht: Bisher sind das Einzellösungen. Hier sind der Befund, ein klickbarer Probelauf für die Kopfzeile und die Regeln, die es künftig aus einem Guss machen sollen.</p>
+<p class="klein">Entwurf vom 30.10.2026 · noch nichts im Spiel geändert · die Icons laden zur Ansicht online von Iconify, im Spiel lägen sie lokal.</p>
+
+<section>
+<h2>Befund: Warum es nicht aus einem Guss wirkt</h2>
+<p><b style="color:var(--perle)">Korrektur:</b> Hier stand zuerst „kein Styleguide“. Das war falsch. Seit dem 21.10. gibt es den Stilleitfaden <span class="zahl">docs/wiki/systeme/ui_stil.md</span> mit Farben, Schriften und Bausteinen. Ihm fehlten Icon-Regeln und feste Skalen, keine andere Seite verwies auf ihn, und kein Test prüfte ihn. Die Zahlen stammen aus <span class="zahl">client/</span> (36 Dateien, ohne Text-Client).</p>
+<div class="kacheln">
+  <div class="kachel"><b>3</b><span>Icon-Systeme gleichzeitig: 16 SVG-Symbole, Unicode-Zeichen, Emoji</span></div>
+  <div class="kachel"><b>115</b><span>verschiedene Symbole in 395 Fundstellen</span></div>
+  <div class="kachel"><b>40</b><span>verschiedene Schriftgrößen</span></div>
+  <div class="kachel"><b>26</b><span>verschiedene Eckenradien</span></div>
+  <div class="kachel"><b>81 / 58</b><span>verschiedene Hexfarben allein in den Fertigkeiten / der Anhörung</span></div>
+  <div class="kachel"><b>⚡ = 2</b><span>Der Blitz bedeutet Strom und auch Energie. Das Fenster sagt „morale“, die Leiste „Crew Mood“</span></div>
+</div>
+<p style="margin-top:var(--s4)"><b style="color:var(--perle)">Die eigentliche Ursache:</b> Mehrere Sitzungen bauen parallel, jede ohne gemeinsame Vorgabe. Mein Punkt 2 von vorhin (Ring, Füllung und Pips für drei gleichartige Werte) war genau derselbe Fehler. Der Leitfaden allein hat das nicht verhindert. Er braucht ein gemeinsames Bauteil und einen Test, der Abweichungen meldet.</p>
+</section>
+
+<section>
+<h2>Kopfzeile: vorher und Vorschlag</h2>
+<div class="bgwahl" id="bgwahl">
+  <span class="klein">Hintergrund zum Prüfen der Lesbarkeit:</span>
+  <button data-bg="holz" aria-pressed="true">Holz (dein Screenshot)</button>
+  <button data-bg="tag" aria-pressed="false">Heller Tag</button>
+  <button data-bg="nacht" aria-pressed="false">Nacht</button>
+</div>
+<h3 style="margin-top:var(--s4)">Heute</h3>
+<div class="buehne klein" data-bg="holz">
+  <div class="alt-pille glas"><span class="name">Day 11</span><span class="dots"><i class="war"></i><i class="ist"></i><i></i><i></i><i></i><i></i></span><span class="was">Midday</span><span class="geld">2.070 €</span><span class="ziel">→ End of week two · in 3 days</span></div>
+  <div class="alt-schiff glas"><span class="chip niedrig"><span>😟</span>Crew Mood <span class="z">Tense</span></span><span class="chip"><span>★</span>Village Reputation <span class="z">barely known</span></span></div>
+</div>
+<h3 style="margin-top:var(--s4)">Vorschlag: klick auf die Icons</h3>
+<div class="buehne" data-bg="holz" id="neu">
+  <div class="neu-pille glas" id="pille"><span class="name">Day 11</span><span class="dots"><i class="war"></i><i class="ist"></i><i></i><i></i><i></i><i></i></span><span class="was">Midday</span><span class="trenn"></span><span class="geld">2.070 €</span><span class="ziel">→ End of week two · in 3 days</span><span class="trenn"></span><span class="status" id="status"></span></div>
+  <div class="karte glas" id="karte" role="dialog" aria-label="Status"></div>
+</div>
+<div class="demo">
+  <span class="klein">So reagiert es auf das Spiel:</span>
+  <button data-w="moral" data-d="-1">Stimmung −1</button><button data-w="moral" data-d="1">Stimmung +1</button>
+  <button data-w="ruf" data-d="1">Ruf +1</button><button data-w="energie" data-d="-1">Energie −1</button>
+  <label><input type="checkbox" id="namen"> Tag 1–2: Namen sichtbar</label>
+</div>
+<div class="warn"><p><b>Einwand gegen „nur Icons“:</b> Die Nielsen Norman Group rät zu sichtbaren Textnamen, weil kaum ein Icon allgemein verstanden wird, und auch davon, sich auf Hover zu verlassen. Gesicht und Blitz sind leicht zu lesen, der Stern für den Ruf im Dorf nicht. Darum schlage ich vor: nur Icons, wie du es willst, aber an Tag 1–2 stehen die Namen darunter. Danach blendet jede Änderung den Namen kurz ein.</p></div>
+</section>
+
+<section>
+<h2>Icon-Familien im Vergleich</h2>
+<p>Dieselben Begriffe in jeder Familie, in echter Spielgröße auf Eden-Farben. Die obere Zeile ist der heutige Stand.</p>
+<div class="scroll"><table class="fam" id="fam"></table></div>
+<p class="klein" style="margin-top:var(--s2)">Ein Strich heißt: Für diesen Begriff habe ich in der Familie kein passendes Icon gefunden.</p>
+</section>
+
+<section>
+<h2>Regeln „aus einem Guss“</h2>
+<ol class="regeln">
+  <li><b>Eine Icon-Familie</b>Phosphor Duotone für alles Bedienbare und jeden Status. Standard 24 px, in Leisten 22 px. Farbe kommt immer aus Variablen.</li>
+  <li><b>Emoji nur in der Welt</b>Emoji stehen nur dort, wo eine Figur sie selbst tippt, also im Handy-Chat. Die Oberfläche nutzt keine.</li>
+  <li><b>Ein Begriff, ein Icon, ein Wort</b>Ein Icon-Wörterbuch legt jeden Begriff einmal fest. „Crew Mood“ heißt überall so, der Blitz ist nur noch Energie.</li>
+  <li><b>Ein Status-Bauteil</b>Jeder Wert ist derselbe Knopf: Icon im Ring, der Ring zeigt den Füllstand. Niedrig heißt rote Farbe und ein „!“, damit es auch ohne Farbsehen lesbar ist.</li>
+  <li><b>Eine Erklärung</b>Klick öffnet immer dieselbe Infokarte: Icon, Name, Zustand, Balken, ein Absatz Text. Hover zeigt höchstens den Namen.</li>
+  <li><b>Eine Rückmeldung</b>Jede Wertänderung sieht gleich aus: Puls, aufsteigende Zahl, kurz der Name. Reduzierte Bewegung wird beachtet.</li>
+  <li><b>Feste Skalen</b>Fünf Schriftgrößen (12,5 · 15 · 18 · 24 · 40), vier Radien nach dem Leitfaden (8 · 22 · 26 · rund), Abstände 4 · 8 · 12 · 16 · 24 · 32 · 48, Farben nach Bedeutung.</li>
+  <li><b>Spielmomente dürfen eigen sein</b>Kampf, Anhörung und Sturm behalten ihre Stimmung, nutzen aber dieselben Icons und Skalen. Die Bilder von Items und Zutaten bleiben gemalt.</li>
+  <li><b>Der Test wacht</b>Ein Test zählt Emoji, Einzelfarben und Schriftgrößen in der Oberfläche. Die Zahl darf nur sinken. So halten sich alle parallelen Sitzungen daran, ohne dass du es prüfen musst.</li>
+</ol>
+</section>
+
+<section>
+<h2>Was die Vorbilder lehren</h2>
+<table class="tab">
+<tr><th>Vorbild</th><th>Was es macht</th><th>Was wir übernehmen</th></tr>
+<tr><td>Persona 5</td><td>Ein starkes Motiv (Schwarz, Weiß, Rot), die Menüs teilen eine fast gleiche Grundstruktur.</td><td>Glas und Champagner überall, gleicher Aufbau je Fenster.</td></tr>
+<tr><td>Hades</td><td>Supergiant suchte eigens jemanden für Hunderte stilgleiche Icons. Menüs ziehen in die Welt, und das HUD hält sich im Kampf zurück.</td><td>Eine Quelle für alle Icons, Kopfzeile bleibt klein.</td></tr>
+<tr><td>Balatro</td><td>Die wichtigsten Zahlen haben immer Vorrang vor dem Look, und die starke Optik stört die Bedienung nicht.</td><td>Füllstand sofort sichtbar, Stimmung im Hintergrund.</td></tr>
+<tr><td>Nielsen Norman Group</td><td>Icons brauchen meist Namen. Hover ist kein Ersatz.</td><td>Namen an Tag 1–2 und bei jeder Änderung.</td></tr>
+<tr><td>Game UI Database</td><td>Kostenloses Nachschlagewerk mit über 55.000 Spiele-Screens, durchsuchbar auch nach Farbe.</td><td>Vor neuen Fenstern dort nachsehen.</td></tr>
+</table>
+<p class="klein" style="margin-top:var(--s2)">Die Quellen zu Spielen sind vor allem Artikel und Analysen, Entwickleraussagen gibt es nur vereinzelt. Sie sind Anregung, kein Messergebnis.</p>
+</section>
+
+<section>
+<h2>Bibliotheken und Kosten</h2>
+<table class="tab">
+<tr><th>Set</th><th>Stil</th><th>Icons</th><th>Lizenz / Preis</th><th>Urteil für Eden</th></tr>
+<tr class="wahl"><td>Phosphor</td><td>6 Stärken, darunter Duotone</td><td class="zahl">9.072 (alle Stärken)</td><td>MIT, kostenlos</td><td class="urteil">Empfehlung: ruhig, warm, passt zum Glas</td></tr>
+<tr><td>Game Icons</td><td>massive Silhouetten, Spielmotive</td><td class="zahl">4.133</td><td>CC BY 3.0, kostenlos, Autoren nennen</td><td>Nur als Ergänzung für einzelne Spielbegriffe. Eigener Stil, also sparsam und nie direkt neben Phosphor</td></tr>
+<tr><td>Solar</td><td>Duotone, weicher</td><td class="zahl">8.706</td><td>CC BY 4.0, kostenlos, nennen</td><td>Die beste Alternative, wenn dir Phosphor zu nüchtern ist</td></tr>
+<tr><td>Tabler</td><td>Linien</td><td class="zahl">6.257</td><td>MIT, kostenlos</td><td>Sauber, aber wirkt eher nach Büro-Software</td></tr>
+<tr><td>Lucide</td><td>Linien</td><td class="zahl">1.999</td><td>ISC, kostenlos</td><td>Dasselbe, und kleiner</td></tr>
+<tr><td>Kenney Game Icons</td><td>einfache Spielzeichen</td><td class="zahl">ab 105 je Paket</td><td>CC0, kostenlos</td><td>Zu schlicht für Deck Glass Noir</td></tr>
+<tr><td>Font Awesome Pro</td><td>viele Stile</td><td>–</td><td>etwa 120 $ im Jahr (laut Wikipedia, nicht auf der Preisseite geprüft)</td><td class="nein">Kein Vorteil gegenüber Phosphor</td></tr>
+<tr><td>Streamline</td><td>viele Stile</td><td>–</td><td>ab 19 $ im Monat</td><td class="nein">Abo ohne Mehrwert für uns</td></tr>
+<tr><td>Nucleo</td><td>viele Stile</td><td>–</td><td>Standardlizenz: höchstens 250 Icons je Projekt</td><td class="nein">Die Grenze kann uns später treffen</td></tr>
+<tr><td>Creative Market</td><td>Einzelpakete</td><td>–</td><td>Normale Lizenzen verbieten Spiele, nur Extended erlaubt sie</td><td class="nein">Lizenzfalle, für Spiele immer prüfen</td></tr>
+</table>
+<div class="empf" style="margin-top:var(--s4)"><p><b>Kosten: 0 €.</b> Für Icons brauchst du kein Geld auszugeben, die kostenlosen Sets sind gut genug. Sinnvoll wäre Geld später eher für einen bezahlten Blick eines UI-Designers oder ein eigenes kleines Icon-Set. Preise dafür habe ich nicht recherchiert.</p></div>
+<p class="klein" style="margin-top:var(--s2)">Anzahl und Lizenz der ersten fünf Sets: Iconify-Verzeichnis vom 30.10.2026. Vor dem Einbau prüfe ich die Lizenzdatei im jeweiligen Projekt.</p>
+</section>
+
+<section>
+<h2>So käme es ins Spiel</h2>
+<table class="tab">
+<tr><th>Schritt</th><th>Was</th></tr>
+<tr><td>1. Fundament</td><td>Der bestehende Leitfaden <span class="zahl">systeme/ui_stil.md</span> wird erweitert, dazu Icon-Wörterbuch, Phosphor lokal, gemeinsames Bauteil, Wächter-Test.</td></tr>
+<tr><td>2. Pilot</td><td>Die Kopfzeile wie oben. Daran sehen wir, ob das Konzept im Spiel trägt.</td></tr>
+<tr><td>3. Hauptwege</td><td>Menü, Journal, Chat-Leiste, Karten und Hinweise.</td></tr>
+<tr><td>4. Rest beim Anfassen</td><td>Plugins wandern um, wenn ohnehin jemand daran arbeitet. Kein großer Umbau auf einmal. Der Test sorgt dafür, dass es nur besser wird.</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Quellen</h2>
+<p class="klein">
+<a href="https://www.nngroup.com/articles/icon-usability/">NN/G: Icon Usability</a> ·
+<a href="https://sourcegaming.info/2016/11/24/the-aims-of-ui-sakurais-famitsu-column-vol-515/">Sakurai: The Aims of UI</a> ·
+<a href="https://mechanicsofmagic.com/?p=7280">Visual Design of Games: Persona 5</a> ·
+<a href="https://www.supergiantgames.com/blog/job-opportunity-ui-illustrator-for-hades-ii/">Supergiant: UI Illustrator</a> ·
+<a href="https://kotaku.com/the-art-of-hades-1845420064">Kotaku: The Art of Hades</a> ·
+<a href="https://medium.com/@bramhadalvi/hud-redesign-fdc332d05291">HUD Redesign für Hades</a> ·
+<a href="https://medium.com/@yyh19971004/balatro-design-analysis-visual-packaging-and-interactive-feedback-cc6fa6a65370">Balatro Design Analysis</a> ·
+<a href="https://creativebloq.com/3d/video-game-design/game-ui-database-20-is-the-ultimate-free-reference-tool-for-game-designers">Game UI Database 2.0</a> ·
+<a href="https://indieklem.substack.com/p/7-how-to-keep-your-interface-consistent">How to keep your interface consistent</a> ·
+<a href="https://game-icons.net/about.html">Game Icons</a> ·
+<a href="https://kenney-assets.itch.io/board-game-icons">Kenney</a> ·
+<a href="https://en.wikipedia.org/wiki/Font_Awesome">Font Awesome</a> ·
+<a href="https://home.streamlinehq.com/pricing">Streamline</a> ·
+<a href="https://nucleoapp.com/license">Nucleo</a> ·
+<a href="https://support.creativemarket.com/hc/en-us/articles/360026669574">Creative Market</a>
+</p>
+</section>
+</main>
+
+<script>
+const AKZ = "#d8bd86", PERLE = "#f3eee4", ROT = "#d9a198";
+const ic = (name, farbe = PERLE) => `https://api.iconify.design/${name}.svg?color=${encodeURIComponent(farbe)}`;
+
+// Texte und Bereiche wie im Spiel (eden.py VORRAT_INFO, modul_eden_rise.py, kern/legenden.py)
+const RUF = ["a stranger", "barely known", "known", "respected", "well liked", "a legend"];
+const stimmung = w => w >= 4 ? ["Buzzing", "smiley-wink"] : w >= 1 ? ["Good", "smiley"] : w >= 0 ? ["Calm", "smiley-meh"] : w >= -3 ? ["Tense", "smiley-nervous"] : ["Mutinous", "smiley-angry"];
+const WERTE = {
+  moral: {name: "Crew Mood", wert: -2, min: -5, max: 5, wort: w => stimmung(w)[0], icon: w => "ph/" + stimmung(w)[1] + "-duotone", niedrig: w => w < 0,
+    info: "How the crew feels about the week, from Mutinous to Buzzing. Big moments - events, the night council, missions, the hearing - move it twice as far, in both directions. Cooking, snacks and time together lift it, but only up to Good. Every night it slips one step back towards Calm. Buzzing: the crew backs you on the dice and leaves you things at breakfast. Tense: they sulk, and the dice feel it."},
+  ruf: {name: "Village Reputation", wert: 1, min: 0, max: 5, wort: w => RUF[w], icon: () => "ph/star-duotone", niedrig: () => false,
+    info: "What the village of Cala d'Orsu thinks of the crew. Good deeds in the village raise it; fencing that gets found out, smuggling and scandals lower it."},
+  energie: {name: "Energy", wert: 2, min: 0, max: 3, wort: w => w + " / 3", icon: () => "ph/lightning-duotone", niedrig: w => w <= 0,
+    info: "Your energy for the day. Every way that needs a roll when someone asks you for a favour costs 1. Each day brings 2 more, and an espresso or a relaxed hour with the crew gives +1."},
+};
+let offen = null;
+const anteil = v => Math.round(100 * (v.wert - v.min) / (v.max - v.min));
+
+function zeichnen(){
+  document.getElementById("status").innerHTML = Object.entries(WERTE).map(([k, v]) => {
+    const n = v.niedrig(v.wert);
+    return `<button type="button" class="st${n ? " niedrig" : ""}" data-k="${k}" style="--p:${anteil(v)}" aria-expanded="${offen === k}" aria-label="${v.name}: ${v.wort(v.wert)}" title="${v.name}">
+      <img src="${ic(v.icon(v.wert), n ? ROT : AKZ)}" alt=""><span class="namen">${v.name.replace("Village ", "").replace("Crew ", "")}</span></button>`;
+  }).join("");
+  const karte = document.getElementById("karte");
+  karte.classList.toggle("offen", !!offen);
+  karte.innerHTML = Object.entries(WERTE).map(([k, v]) => {
+    const n = v.niedrig(v.wert);
+    return `<button type="button" class="zeile${n ? " niedrig" : ""}" data-k="${k}"><img src="${ic(v.icon(v.wert), n ? ROT : AKZ)}" alt=""><span>${v.name}</span><em>${v.wort(v.wert)}</em></button>
+      <div class="mehr${offen === k ? " offen" : ""}"><div class="balken"><i style="width:${anteil(v)}%"></i></div><p>${v.info}</p></div>`;
+  }).join("");
+}
+function aendern(k, d){
+  const v = WERTE[k], neu = Math.max(v.min, Math.min(v.max, v.wert + d));
+  if (neu === v.wert) return;
+  v.wert = neu; zeichnen();
+  const b = document.querySelector(`.st[data-k="${k}"]`);
+  b.classList.add("puls");
+  const z = document.createElement("span");
+  z.className = "delta"; z.textContent = (d > 0 ? "+" : "−") + Math.abs(d); z.style.color = d > 0 ? "#a8d5b1" : ROT;
+  b.appendChild(z);
+  const pos = b.getBoundingClientRect(), box = document.getElementById("neu").getBoundingClientRect();
+  document.querySelectorAll(".neu-bluete").forEach(x => x.remove());
+  const t = document.createElement("div");
+  t.className = "neu-bluete glas"; t.textContent = v.name + ": " + v.wort(v.wert);
+  document.getElementById("neu").appendChild(t);
+  t.style.left = Math.max(20, Math.min(pos.left - box.left - 60, box.width - t.offsetWidth - 20)) + "px";
+  setTimeout(() => t.remove(), 2000);
+}
+document.getElementById("status").addEventListener("click", e => {
+  const b = e.target.closest(".st"); if (!b) return;
+  offen = offen === b.dataset.k ? null : b.dataset.k; zeichnen();
+  e.stopPropagation();
+});
+document.getElementById("karte").addEventListener("click", e => {
+  const b = e.target.closest(".zeile"); e.stopPropagation(); if (!b) return;
+  offen = b.dataset.k; zeichnen();
+});
+document.addEventListener("click", () => { if (offen){ offen = null; zeichnen(); } });
+document.addEventListener("keydown", e => { if (e.key === "Escape" && offen){ offen = null; zeichnen(); } });
+document.querySelectorAll(".demo button").forEach(b => b.addEventListener("click", e => { e.stopPropagation(); aendern(b.dataset.w, +b.dataset.d); }));
+document.getElementById("namen").addEventListener("change", e => document.getElementById("pille").classList.toggle("mit-namen", e.target.checked));
+document.querySelectorAll("#bgwahl button").forEach(b => b.addEventListener("click", () => {
+  document.querySelectorAll("#bgwahl button").forEach(x => x.setAttribute("aria-pressed", x === b));
+  document.querySelectorAll(".buehne").forEach(x => x.dataset.bg = b.dataset.bg);
+}));
+zeichnen();
+
+// Vergleich der Familien
+const SPALTEN = ["Crew Mood", "Reputation", "Energy", "Money", "Deadline", "Phone", "Investigate", "Backpack", "Fish", "Locked"];
+const FAM = [
+  {t: "Heute", u: "Emoji und Zeichen gemischt", g: ["😟", "★", "⚡", "€", "⏳", "📞", "🔎", "🎒", "🎣", "🔒"]},
+  {t: "Phosphor Duotone", u: "Empfehlung", wahl: 1, p: "ph", n: ["smiley-nervous-duotone", "star-duotone", "lightning-duotone", "coins-duotone", "hourglass-medium-duotone", "phone-duotone", "magnifying-glass-duotone", "backpack-duotone", "fish-duotone", "lock-duotone"]},
+  {t: "Solar Bold Duotone", u: "weicher", p: "solar", n: ["sad-circle-bold-duotone", "star-bold-duotone", "bolt-bold-duotone", "wallet-money-bold-duotone", "hourglass-bold-duotone", "phone-bold-duotone", "magnifer-bold-duotone", "backpack-bold-duotone", null, "lock-bold-duotone"]},
+  {t: "Lucide", u: "Linien", p: "lucide", n: ["frown", "star", "zap", "coins", "hourglass", "phone", "search", "backpack", "fish", "lock"]},
+  {t: "Tabler", u: "Linien", p: "tabler", n: ["mood-sad", "star", "bolt", "coins", "hourglass", "phone", "search", "backpack", "fish", "lock"]},
+  {t: "Game Icons", u: "Silhouetten", p: "game-icons", n: ["worried-eyes", "round-star", "lightning-helix", "two-coins", "hourglass", "rotary-phone", "magnifying-glass", "backpack", "fishing", "padlock"]},
+];
+document.getElementById("fam").innerHTML = `<thead><tr><th></th>${SPALTEN.map(s => `<th>${s}</th>`).join("")}</tr></thead><tbody>` +
+  FAM.map(f => `<tr class="${f.wahl ? "wahl" : ""}"><th>${f.t}<small>${f.u}</small></th>${(f.g || f.n).map(x =>
+    f.g ? `<td class="g">${x}</td>` : x ? `<td><img src="${ic(f.p + "/" + x, AKZ)}" alt="${x}" loading="lazy"></td>` : `<td class="klein">–</td>`).join("")}</tr>`).join("") + `</tbody>`;
+</script>
+</body>
+</html>

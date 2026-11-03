@@ -1,0 +1,37 @@
+{
+ "id": "werkstatt_hintergrund",
+ "titel": "Rosis Werkstatt ab Tag 8 (wiedereröffnet)",
+ "hinweis": "Lauf 6: weiß lackiert, Werkbänke voller Geräte (Lötstation, Multimeter, Laptop, Vespa-Scheinwerfer, Radio, Drohne), kein Holzschild. Von Claude geprüft: keine Personen, keine Lochwände. Eine Variante mit OK markieren.",
+ "items": [
+  {
+   "id": "neu_s1",
+   "titel": "Werkstatt – Variante 1",
+   "soll": "",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\werkstatt\\eden_werkstatt_neu_s1.png"
+  },
+  {
+   "id": "neu_s2",
+   "titel": "Werkstatt – Variante 2",
+   "soll": "",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\werkstatt\\eden_werkstatt_neu_s2.png"
+  },
+  {
+   "id": "neu_s3",
+   "titel": "Werkstatt – Variante 3",
+   "soll": "",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\werkstatt\\eden_werkstatt_neu_s3.png"
+  },
+  {
+   "id": "neu_s4",
+   "titel": "Werkstatt – Variante 4",
+   "soll": "",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\werkstatt\\eden_werkstatt_neu_s4.png"
+  },
+  {
+   "id": "neu_kandidat5",
+   "titel": "Werkstatt – Variante 5 (Wandschränke oben)",
+   "soll": "",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_werkstatt_neu_kandidat_lauf5.png"
+  }
+ ]
+}

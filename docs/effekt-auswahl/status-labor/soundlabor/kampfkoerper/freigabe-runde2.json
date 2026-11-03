@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "source": "Duc clipboard feedback 2026-10-25T19:09:24.416Z",
+  "created": "2026-10-25T19:09:24.416Z",
+  "selected": {
+    "boar_hurt": {
+      "label": "Keiler · Trefferreaktion",
+      "variant": "A",
+      "file": "revision2/audio/boar_hurt_1.ogg",
+      "asset_id": "combat-foley-v2-boar_hurt-A",
+      "revision": 2,
+      "sha256": "36fade6ad0d275161b336abb9c0c76a7e4bc1f19aece7414a07f6079679c2199",
+      "note": ""
+    },
+    "boxing_hammer": {
+      "label": "Maxwell · schwerer Hammer",
+      "variant": "A",
+      "file": "revision2/audio/boxing_hammer_1.ogg",
+      "asset_id": "combat-foley-v2-boxing_hammer-A",
+      "revision": 2,
+      "sha256": "beb05c3d9047cd8408192882f88cabc7e1ea630dc02adc36a50bbb4e91250af5",
+      "note": ""
+    },
+    "guard_body": {
+      "label": "Duc · geblockter Treffer",
+      "variant": "D",
+      "file": "audio/guard_body_4.ogg",
+      "asset_id": "combat-foley-v1-guard_body-D",
+      "revision": 1,
+      "sha256": "4101a832f885cce633080fe0c8c580d3a03d2a6bd7bf1c87d91e39dc3e9bc3ca",
+      "note": ""
+    },
+    "knife_stab": {
+      "label": "Messer · schneller Stich",
+      "variant": "C",
+      "file": "revision2/audio/knife_stab_3.ogg",
+      "asset_id": "combat-foley-v2-knife_stab-C",
+      "revision": 2,
+      "sha256": "d88e38164e6de485f401b6d91f6a415312de4b520c46326e0875404ae7d1618b",
+      "note": ""
+    },
+    "bat_swing": {
+      "label": "Schläger · wuchtiger Hieb",
+      "variant": "A",
+      "file": "revision2/audio/bat_swing_1.ogg",
+      "asset_id": "combat-foley-v2-bat_swing-A",
+      "revision": 2,
+      "sha256": "8fb5bf8937f6309b34da1837fe4a0734fd53686a107e3483e76b0be0ca6a1002",
+      "note": ""
+    },
+    "steam_reaction": {
+      "label": "Dampf · Feuer trifft Wasser",
+      "variant": "A",
+      "file": "revision2/audio/steam_reaction_1.ogg",
+      "asset_id": "combat-foley-v2-steam_reaction-A",
+      "revision": 2,
+      "sha256": "97dad40bc204d07d9716d3fdbf2ffbfb952c00fda95752b007c595005e43ca3e",
+      "note": ""
+    },
+    "mud_contact": {
+      "label": "Schlamm · Festsetzen",
+      "variant": "A",
+      "file": "revision2/audio/mud_contact_1.ogg",
+      "asset_id": "combat-foley-v2-mud_contact-A",
+      "revision": 2,
+      "sha256": "36a40899701531e514757c953abd091c9c19424b53be6cf7083ae96e6a629c69",
+      "note": ""
+    }
+  },
+  "requests": {
+    "rat_swarm": "DAs ist immer noch zu schrill. Denk dir was anderes aus",
+    "dog_pounce": "Merge bitte A mit C bitte umsetzen. ",
+    "guard_raise": "Es quietscht zu sehr das muss sich mehr wie stoff anhören ",
+    "duc_effort": "Bitte normales langes  ausatmen ",
+    "stance_step": "bitte unterschiedliche Töne in den Schritten ",
+    "spear_thrust": "noch satter ",
+    "gun_reload": "noch satter wie ein Shotgun",
+    "electric_contact": "mehr wie Strom "
+  },
+  "unreviewed": [
+    "stone_shock",
+    "bleed_reaction",
+    "state_recover"
+  ],
+  "committed": false
+}

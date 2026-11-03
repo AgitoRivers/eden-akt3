@@ -1,0 +1,103 @@
+{
+ "id": "charakter_elemente",
+ "titel": "Character: Element-Hintergründe mit Sprite (Terra Scura und Co. mit Schläger)",
+ "hinweis": "Vier verschiedene Hintergründe je Element, immer dasselbe Sprite davor. Pro Element den besten mit OK markieren. Notiz für Wünsche (heller/dunkler, anderer Ton, Pose). Der Hintergrund wird im Menü so abgedunkelt wie hier.",
+ "items": [
+  {
+   "id": "Erde_a",
+   "titel": "Terra Scura (Erde) · Granitwand mit Farn",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\Erde_a.jpg",
+   "soll": "Hintergrund im Menü abgedunkelt, mattes freigestelltes Sprite davor"
+  },
+  {
+   "id": "Erde_b",
+   "titel": "Terra Scura (Erde) · Urwald im Abendlicht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\Erde_b.jpg",
+   "soll": "Hintergrund im Menü abgedunkelt, mattes freigestelltes Sprite davor"
+  },
+  {
+   "id": "Erde_c",
+   "titel": "Terra Scura (Erde) · Sandstein-Canyon im Sonnenuntergang",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\Erde_c.jpg",
+   "soll": "Hintergrund im Menü abgedunkelt, mattes freigestelltes Sprite davor"
+  },
+  {
+   "id": "Erde_d",
+   "titel": "Terra Scura (Erde) · bemooste Steinruine",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\Erde_d.jpg",
+   "soll": "Hintergrund im Menü abgedunkelt, mattes freigestelltes Sprite davor"
+  },
+  {
+   "id": "Wasser_a",
+   "titel": "Meramie (Wasser) · brechende Welle",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\Wasser_a.jpg",
+   "soll": "Hintergrund im Menü abgedunkelt, mattes freigestelltes Sprite davor"
+  },
+  {
+   "id": "Wasser_b",
+   "titel": "Meramie (Wasser) · unter Wasser mit Lichtstrahlen",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\Wasser_b.jpg",
+   "soll": "Hintergrund im Menü abgedunkelt, mattes freigestelltes Sprite davor"
+  },
+  {
+   "id": "Wasser_c",
+   "titel": "Meramie (Wasser) · Wasserfall in dunkler Schlucht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\Wasser_c.jpg",
+   "soll": "Hintergrund im Menü abgedunkelt, mattes freigestelltes Sprite davor"
+  },
+  {
+   "id": "Wasser_d",
+   "titel": "Meramie (Wasser) · Hafenmole bei Regen und Nacht",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\Wasser_d.jpg",
+   "soll": "Hintergrund im Menü abgedunkelt, mattes freigestelltes Sprite davor"
+  },
+  {
+   "id": "Feuer_a",
+   "titel": "Incendio (Feuer) · Flammenwand mit Funken",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\Feuer_a.jpg",
+   "soll": "Hintergrund im Menü abgedunkelt, mattes freigestelltes Sprite davor"
+  },
+  {
+   "id": "Feuer_b",
+   "titel": "Incendio (Feuer) · Lavastrom mit Vulkan",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\Feuer_b.jpg",
+   "soll": "Hintergrund im Menü abgedunkelt, mattes freigestelltes Sprite davor"
+  },
+  {
+   "id": "Feuer_c",
+   "titel": "Incendio (Feuer) · glühende Schmiede",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\Feuer_c.jpg",
+   "soll": "Hintergrund im Menü abgedunkelt, mattes freigestelltes Sprite davor"
+  },
+  {
+   "id": "Feuer_d",
+   "titel": "Incendio (Feuer) · Himmel in Glut und Purpur",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\Feuer_d.jpg",
+   "soll": "Hintergrund im Menü abgedunkelt, mattes freigestelltes Sprite davor"
+  },
+  {
+   "id": "Luft_a",
+   "titel": "Zéphyr (Luft) · Gewitterwolken",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\Luft_a.jpg",
+   "soll": "Hintergrund im Menü abgedunkelt, mattes freigestelltes Sprite davor"
+  },
+  {
+   "id": "Luft_b",
+   "titel": "Zéphyr (Luft) · Berggrat über den Wolken",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\Luft_b.jpg",
+   "soll": "Hintergrund im Menü abgedunkelt, mattes freigestelltes Sprite davor"
+  },
+  {
+   "id": "Luft_c",
+   "titel": "Zéphyr (Luft) · blauer Himmel mit Quellwolken",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\Luft_c.jpg",
+   "soll": "Hintergrund im Menü abgedunkelt, mattes freigestelltes Sprite davor"
+  },
+  {
+   "id": "Luft_d",
+   "titel": "Zéphyr (Luft) · windgepeitschte Klippe",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\Luft_d.jpg",
+   "soll": "Hintergrund im Menü abgedunkelt, mattes freigestelltes Sprite davor"
+  }
+ ]
+}

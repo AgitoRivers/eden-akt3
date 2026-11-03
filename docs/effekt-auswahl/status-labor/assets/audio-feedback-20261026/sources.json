@@ -1,0 +1,53 @@
+{
+  "scirocco_charge_long": {
+    "file": "assets/audio-feedback-20261026/scirocco_charge_long.ogg",
+    "duration": 2.85,
+    "sha256": "3229e1ee949e432722b39a8d9b488af87647d0c40c12bd04b1efaea5409640f1",
+    "from": "existing approved fire/charge material, pitch-preserving overlap-add",
+    "feedback": "Hold charge sound until release"
+  },
+  "retour_charge_long": {
+    "file": "assets/audio-feedback-20261026/retour_charge_long.ogg",
+    "duration": 3.35,
+    "sha256": "9edbc4c52158005c5b42d2336985762b983f2e56ccdbc47cc41aa46fb2739b36",
+    "from": "existing approved fire/charge material, pitch-preserving overlap-add",
+    "feedback": "Hold charge sound until release"
+  },
+  "vulcano_charge_long": {
+    "file": "assets/audio-feedback-20261026/vulcano_charge_long.ogg",
+    "duration": 3.55,
+    "sha256": "5f5721ceeacd2f382dbe15bfe16c57bc5ae3ebca938da091840b7d60a504d28a",
+    "from": "existing approved fire/charge material, pitch-preserving overlap-add",
+    "feedback": "Hold charge sound until release"
+  },
+  "vendetta_charge_long": {
+    "file": "assets/audio-feedback-20261026/vendetta_charge_long.ogg",
+    "duration": 3.0,
+    "sha256": "328541df3af8e29c3b66df96957ad4d93e98b20dafa87fbfaf988255ba785b96",
+    "from": "existing approved fire/charge material, pitch-preserving overlap-add",
+    "feedback": "Hold charge sound until release"
+  },
+  "vulcano_final_explosion": {
+    "file": "assets/audio-feedback-20261026/vulcano_final_explosion.ogg",
+    "duration": 2.25,
+    "sha256": "83f67810dc9aa314fdbcb3fb2858d030fc483081e14c1f9850b54db2077362d1",
+    "source_file": "S:\\VR\\Gallery\\Downloads\\Sounds\\ripping-explosion.mp3",
+    "source_sha256": "cc06b47b78c303ea6b3d17d2b138ec22a12f6ed4686746a5cd1364fee5e12488",
+    "feedback": "Vulcano explodes at the last impact"
+  },
+  "phare_light_bloom": {
+    "file": "assets/audio-feedback-20261026/phare_light_bloom.ogg",
+    "duration": 1.35,
+    "sha256": "51a32593d3b214aef6da477831a26dc685218b66ef26138b466fc7bddf96fa02",
+    "from": "healer glass highlight and approved focus glimmer",
+    "feedback": "Phare sounds like light, not a physical strike"
+  },
+  "pluie_orb_ice": {
+    "file": "assets/audio-feedback-20261026/pluie_orb_ice.ogg",
+    "duration": 1.65,
+    "sha256": "55f62ffd0e77721764c4ae260f079eec596c7922e32d19b0ed469bed2c7695a4",
+    "source_file": "S:\\VR\\Gallery\\Downloads\\Sounds\\ice-spell03.mp3",
+    "source_sha256": "264382a2d6cd3825562c3fb2e5851b307337e758830df65da545b9fa31d7572e",
+    "feedback": "One ice charge per orb, gain x2"
+  }
+}

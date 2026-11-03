@@ -1,0 +1,151 @@
+{
+ "id": "skill_pfade",
+ "titel": "Skill Tree · Stimmungsbilder je Pfad",
+ "hinweis": "Je Pfad eine Variante OK geben (die anderen Neu oder leer). Das Bild läuft blass hinter der Reihe, links ausgeblendet: wichtig ist die Stimmung rechts.",
+ "items": [
+  {
+   "id": "K_v1",
+   "titel": "Fighter · Wind & Water · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\skill_pfade\\K_v1.png",
+   "soll": "Huge waves breaking against dark granite rocks on the wild coast of Corsica, white spray thrown high into the air, a stormy blue-grey sky with torn clouds, wind streaking foam across the turquoise sea"
+  },
+  {
+   "id": "K_v2",
+   "titel": "Fighter · Wind & Water · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\skill_pfade\\K_v2.png",
+   "soll": "Huge waves breaking against dark granite rocks on the wild coast of Corsica, white spray thrown high into the air, a stormy blue-grey sky with torn clouds, wind streaking foam across the turquoise sea"
+  },
+  {
+   "id": "K_v3",
+   "titel": "Fighter · Wind & Water · Variante 3",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\skill_pfade\\K_v3.png",
+   "soll": "Huge waves breaking against dark granite rocks on the wild coast of Corsica, white spray thrown high into the air, a stormy blue-grey sky with torn clouds, wind streaking foam across the turquoise sea"
+  },
+  {
+   "id": "L_v1",
+   "titel": "Smuggler · Cunning & Precision · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\skill_pfade\\L_v1.png",
+   "soll": "A narrow old harbour alley in a Corsican village at night, wet cobblestones gleaming, one wrought-iron lantern on the stone wall casting violet and warm amber light, stacked wooden crates and a coiled rope half in shadow, a glimpse of dark water and a moored boat at the end of the alley"
+  },
+  {
+   "id": "L_v2",
+   "titel": "Smuggler · Cunning & Precision · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\skill_pfade\\L_v2.png",
+   "soll": "A narrow old harbour alley in a Corsican village at night, wet cobblestones gleaming, one wrought-iron lantern on the stone wall casting violet and warm amber light, stacked wooden crates and a coiled rope half in shadow, a glimpse of dark water and a moored boat at the end of the alley"
+  },
+  {
+   "id": "L_v3",
+   "titel": "Smuggler · Cunning & Precision · Variante 3",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\skill_pfade\\L_v3.png",
+   "soll": "A narrow old harbour alley in a Corsican village at night, wet cobblestones gleaming, one wrought-iron lantern on the stone wall casting violet and warm amber light, stacked wooden crates and a coiled rope half in shadow, a glimpse of dark water and a moored boat at the end of the alley"
+  },
+  {
+   "id": "W_v1",
+   "titel": "Marksman · Focus & Control · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\skill_pfade\\W_v1.png",
+   "soll": "A white stone lighthouse on a rocky Corsican headland at blue hour, its bright beam sweeping in a long clean straight line across the calm sea, a clear deep teal sky with the first stars, a thin line of sunset glow on the horizon"
+  },
+  {
+   "id": "W_v2",
+   "titel": "Marksman · Focus & Control · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\skill_pfade\\W_v2.png",
+   "soll": "A white stone lighthouse on a rocky Corsican headland at blue hour, its bright beam sweeping in a long clean straight line across the calm sea, a clear deep teal sky with the first stars, a thin line of sunset glow on the horizon"
+  },
+  {
+   "id": "W_v3",
+   "titel": "Marksman · Focus & Control · Variante 3",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\skill_pfade\\W_v3.png",
+   "soll": "A white stone lighthouse on a rocky Corsican headland at blue hour, its bright beam sweeping in a long clean straight line across the calm sea, a clear deep teal sky with the first stars, a thin line of sunset glow on the horizon"
+  },
+  {
+   "id": "M_v1",
+   "titel": "Berserker · Embers & Release · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\skill_pfade\\M_v1.png",
+   "soll": "A big bonfire of driftwood on a dark rocky shore at night, glowing embers and countless orange sparks rising into the black sky, red light on the rough rocks, heat shimmer, deep orange and crimson tones"
+  },
+  {
+   "id": "M_v2",
+   "titel": "Berserker · Embers & Release · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\skill_pfade\\M_v2.png",
+   "soll": "A big bonfire of driftwood on a dark rocky shore at night, glowing embers and countless orange sparks rising into the black sky, red light on the rough rocks, heat shimmer, deep orange and crimson tones"
+  },
+  {
+   "id": "M_v3",
+   "titel": "Berserker · Embers & Release · Variante 3",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\skill_pfade\\M_v3.png",
+   "soll": "A big bonfire of driftwood on a dark rocky shore at night, glowing embers and countless orange sparks rising into the black sky, red light on the rough rocks, heat shimmer, deep orange and crimson tones"
+  },
+  {
+   "id": "H_v1",
+   "titel": "Healer · Herbs & Grace · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\skill_pfade\\H_v1.png",
+   "soll": "The quiet herb garden of an old Corsican stone monastery at dawn, soft golden rays of morning light falling through a gnarled olive tree, beds of yellow immortelle flowers, rosemary and lavender with dew, a weathered stone wall and an arched cloister in soft haze, gentle green and gold tones"
+  },
+  {
+   "id": "H_v2",
+   "titel": "Healer · Herbs & Grace · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\skill_pfade\\H_v2.png",
+   "soll": "The quiet herb garden of an old Corsican stone monastery at dawn, soft golden rays of morning light falling through a gnarled olive tree, beds of yellow immortelle flowers, rosemary and lavender with dew, a weathered stone wall and an arched cloister in soft haze, gentle green and gold tones"
+  },
+  {
+   "id": "H_v3",
+   "titel": "Healer · Herbs & Grace · Variante 3",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\skill_pfade\\H_v3.png",
+   "soll": "The quiet herb garden of an old Corsican stone monastery at dawn, soft golden rays of morning light falling through a gnarled olive tree, beds of yellow immortelle flowers, rosemary and lavender with dew, a weathered stone wall and an arched cloister in soft haze, gentle green and gold tones"
+  },
+  {
+   "id": "L_v4",
+   "titel": "Smuggler · Cunning & Precision · Variante 4",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\skill_pfade\\L_v4.png",
+   "soll": "A hidden smugglers' hideout in a rough rock cave under an old harbour town, lit by a few oil lanterns and candles in warm amber and violet light, heavy iron-bound wooden treasure chests and barrels stacked against the damp stone walls, a battered wooden training dummy with straw sticking out and a few knife cuts, a worn rug and a small table with a map, dark water of an underground canal glinting at the side"
+  },
+  {
+   "id": "L_v5",
+   "titel": "Smuggler · Cunning & Precision · Variante 5",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\skill_pfade\\L_v5.png",
+   "soll": "A hidden smugglers' hideout in a rough rock cave under an old harbour town, lit by a few oil lanterns and candles in warm amber and violet light, heavy iron-bound wooden treasure chests and barrels stacked against the damp stone walls, a battered wooden training dummy with straw sticking out and a few knife cuts, a worn rug and a small table with a map, dark water of an underground canal glinting at the side"
+  },
+  {
+   "id": "L_v6",
+   "titel": "Smuggler · Cunning & Precision · Variante 6",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\skill_pfade\\L_v6.png",
+   "soll": "A hidden smugglers' hideout in a rough rock cave under an old harbour town, lit by a few oil lanterns and candles in warm amber and violet light, heavy iron-bound wooden treasure chests and barrels stacked against the damp stone walls, a battered wooden training dummy with straw sticking out and a few knife cuts, a worn rug and a small table with a map, dark water of an underground canal glinting at the side"
+  },
+  {
+   "id": "M_v4",
+   "titel": "Berserker · Embers & Release · Variante 4",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\skill_pfade\\M_v4.png",
+   "soll": "A dark volcano erupting in the far background at night, glowing rivers of red lava running down its slope, fountains of orange lava sparks and glowing embers flying high into the black smoky sky, a dark rocky plain of cooled black lava in the foreground lit red from above, deep orange and crimson tones"
+  },
+  {
+   "id": "M_v5",
+   "titel": "Berserker · Embers & Release · Variante 5",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\skill_pfade\\M_v5.png",
+   "soll": "A dark volcano erupting in the far background at night, glowing rivers of red lava running down its slope, fountains of orange lava sparks and glowing embers flying high into the black smoky sky, a dark rocky plain of cooled black lava in the foreground lit red from above, deep orange and crimson tones"
+  },
+  {
+   "id": "M_v6",
+   "titel": "Berserker · Embers & Release · Variante 6",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\skill_pfade\\M_v6.png",
+   "soll": "A dark volcano erupting in the far background at night, glowing rivers of red lava running down its slope, fountains of orange lava sparks and glowing embers flying high into the black smoky sky, a dark rocky plain of cooled black lava in the foreground lit red from above, deep orange and crimson tones"
+  },
+  {
+   "id": "L_v7",
+   "titel": "Smuggler · Cunning & Precision · Variante 7",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\skill_pfade\\L_v7.png",
+   "soll": "A hidden smugglers' hideout in a rough rock cave under an old harbour town, heavy iron-bound wooden treasure chests and barrels stacked against the damp stone walls, a worn rug and a small wooden table with a map and candles, dark water of an underground canal glinting at the side. Mysterious purple light glows from a crack deep in the cave and tints the rock violet, mixed with the warm amber of a few oil lanterns"
+  },
+  {
+   "id": "L_v8",
+   "titel": "Smuggler · Cunning & Precision · Variante 8",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\skill_pfade\\L_v8.png",
+   "soll": "A hidden smugglers' hideout in a rough rock cave under an old harbour town, heavy iron-bound wooden treasure chests and barrels stacked against the damp stone walls, a worn rug and a small wooden table with a map and candles, dark water of an underground canal glinting at the side. Mysterious purple light glows from a crack deep in the cave and tints the rock violet, mixed with the warm amber of a few oil lanterns"
+  },
+  {
+   "id": "L_v9",
+   "titel": "Smuggler · Cunning & Precision · Variante 9",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\skill_pfade\\L_v9.png",
+   "soll": "A hidden smugglers' hideout in a rough rock cave under an old harbour town, heavy iron-bound wooden treasure chests and barrels stacked against the damp stone walls, a worn rug and a small wooden table with a map and candles, dark water of an underground canal glinting at the side. Mysterious purple light glows from a crack deep in the cave and tints the rock violet, mixed with the warm amber of a few oil lanterns"
+  }
+ ]
+}

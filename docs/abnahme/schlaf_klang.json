@@ -1,0 +1,31 @@
+{
+ "id": "schlaf_klang",
+ "titel": "Schlafgranate: Klang",
+ "hinweis": "Nach dem Wurf-Klang läuft einer dieser drei, während sich die blaue Wolke ausbreitet. Lokal erzeugt, keine Kosten. Im Spiel steht vorerst B.",
+ "gruppen": [
+  {
+   "id": "schlaf",
+   "titel": "Die Wolke platzt und atmet aus",
+   "farbe": "#7aa8e6",
+   "max": 1,
+   "soll": "Weich, kein Knall. Das Tier schläft ein.",
+   "kandidaten": [
+    {
+     "titel": "A: Plopp und Zischen",
+     "unter": "am klarsten, etwas technisch",
+     "datei": "schlaf_klang/schlaf_a.mp3"
+    },
+    {
+     "titel": "B: Plopp, Zischen, Ausatmen (Vorschlag)",
+     "unter": "weicher, mit tiefem Atem",
+     "datei": "schlaf_klang/schlaf_b.mp3"
+    },
+    {
+     "titel": "C: wie B, mit zwei fallenden Tönen",
+     "unter": "am märchenhaftesten",
+     "datei": "schlaf_klang/schlaf_c.mp3"
+    }
+   ]
+  }
+ ]
+}

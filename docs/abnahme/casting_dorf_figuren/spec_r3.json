@@ -1,0 +1,223 @@
+{
+ "id": "casting_dorf_figuren_r4",
+ "titel": "Dorf-Figuren - Casting Runde 3 (E-099, Mina neu)",
+ "hinweis": "Neue Runde nach Ducs Korrektur (E-099): alle sonnengebraeunt, neue Outfits, dazu Adrien Morel. Je Figur eine Fassung waehlen (OK), die anderen Neu. Das Set wird erst nach der Wahl gerendert. Nichts davon ist im Spiel.",
+ "items": [
+  {
+   "id": "Pascal_A1",
+   "titel": "Pascal Leca - Fassung A (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Pascal_A\\neutral-1.png",
+   "soll": "Preset Yacht_Pascal_A. 52, sonnengebraeunt, Halbglatze, doppelreihiger dunkler Nadelstreifenanzug mit Einstecktuch, weisser Fedora, freundlich"
+  },
+  {
+   "id": "Pascal_A2",
+   "titel": "Pascal Leca - Fassung A (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Pascal_A\\neutral.png",
+   "soll": "Preset Yacht_Pascal_A. 52, sonnengebraeunt, Halbglatze, doppelreihiger dunkler Nadelstreifenanzug mit Einstecktuch, weisser Fedora, freundlich"
+  },
+  {
+   "id": "Pascal_B1",
+   "titel": "Pascal Leca - Fassung B (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Pascal_B\\neutral-1.png",
+   "soll": "Preset Yacht_Pascal_B. 52, sonnengebraeunt, Halbglatze, doppelreihiger dunkler Nadelstreifenanzug mit Einstecktuch, weisser Fedora, freundlich"
+  },
+  {
+   "id": "Pascal_B2",
+   "titel": "Pascal Leca - Fassung B (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Pascal_B\\neutral.png",
+   "soll": "Preset Yacht_Pascal_B. 52, sonnengebraeunt, Halbglatze, doppelreihiger dunkler Nadelstreifenanzug mit Einstecktuch, weisser Fedora, freundlich"
+  },
+  {
+   "id": "Pascal_C1",
+   "titel": "Pascal Leca - Fassung C (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Pascal_C\\neutral-1.png",
+   "soll": "Preset Yacht_Pascal_C. 52, sonnengebraeunt, Halbglatze, doppelreihiger dunkler Nadelstreifenanzug mit Einstecktuch, weisser Fedora, freundlich"
+  },
+  {
+   "id": "Pascal_C2",
+   "titel": "Pascal Leca - Fassung C (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Pascal_C\\neutral.png",
+   "soll": "Preset Yacht_Pascal_C. 52, sonnengebraeunt, Halbglatze, doppelreihiger dunkler Nadelstreifenanzug mit Einstecktuch, weisser Fedora, freundlich"
+  },
+  {
+   "id": "Mina_A1",
+   "titel": "Mina Orsoni - Fassung A (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Mina_A\\neutral-1.png",
+   "soll": "Preset Yacht_Mina_A. 24, erwachsen, gebraeunt, pinke Regenjacke, enge beige Hot Pants, oversized Bluse, pinker Helm, frech"
+  },
+  {
+   "id": "Mina_A2",
+   "titel": "Mina Orsoni - Fassung A (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Mina_A\\neutral.png",
+   "soll": "Preset Yacht_Mina_A. 24, erwachsen, gebraeunt, pinke Regenjacke, enge beige Hot Pants, oversized Bluse, pinker Helm, frech"
+  },
+  {
+   "id": "Mina_B1",
+   "titel": "Mina Orsoni - Fassung B (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Mina_B\\neutral-1.png",
+   "soll": "Preset Yacht_Mina_B. 24, erwachsen, gebraeunt, pinke Regenjacke, enge beige Hot Pants, oversized Bluse, pinker Helm, frech"
+  },
+  {
+   "id": "Mina_B2",
+   "titel": "Mina Orsoni - Fassung B (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Mina_B\\neutral.png",
+   "soll": "Preset Yacht_Mina_B. 24, erwachsen, gebraeunt, pinke Regenjacke, enge beige Hot Pants, oversized Bluse, pinker Helm, frech"
+  },
+  {
+   "id": "Mina_C1",
+   "titel": "Mina Orsoni - Fassung C (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Mina_C\\neutral-1.png",
+   "soll": "Preset Yacht_Mina_C. 24, erwachsen, gebraeunt, pinke Regenjacke, enge beige Hot Pants, oversized Bluse, pinker Helm, frech"
+  },
+  {
+   "id": "Mina_C2",
+   "titel": "Mina Orsoni - Fassung C (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Mina_C\\neutral.png",
+   "soll": "Preset Yacht_Mina_C. 24, erwachsen, gebraeunt, pinke Regenjacke, enge beige Hot Pants, oversized Bluse, pinker Helm, frech"
+  },
+  {
+   "id": "BaTu_A1",
+   "titel": "Ba Tu - Fassung A (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_BaTu_A\\neutral-1.png",
+   "soll": "Preset Yacht_BaTu_A. um die 75, gebraeunt, hochgestecktes weisses Haar, Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel, wuerdevoll"
+  },
+  {
+   "id": "BaTu_A2",
+   "titel": "Ba Tu - Fassung A (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_BaTu_A\\neutral.png",
+   "soll": "Preset Yacht_BaTu_A. um die 75, gebraeunt, hochgestecktes weisses Haar, Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel, wuerdevoll"
+  },
+  {
+   "id": "BaTu_B1",
+   "titel": "Ba Tu - Fassung B (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_BaTu_B\\neutral-1.png",
+   "soll": "Preset Yacht_BaTu_B. um die 75, gebraeunt, hochgestecktes weisses Haar, Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel, wuerdevoll"
+  },
+  {
+   "id": "BaTu_B2",
+   "titel": "Ba Tu - Fassung B (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_BaTu_B\\neutral.png",
+   "soll": "Preset Yacht_BaTu_B. um die 75, gebraeunt, hochgestecktes weisses Haar, Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel, wuerdevoll"
+  },
+  {
+   "id": "BaTu_C1",
+   "titel": "Ba Tu - Fassung C (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_BaTu_C\\neutral-1.png",
+   "soll": "Preset Yacht_BaTu_C. um die 75, gebraeunt, hochgestecktes weisses Haar, Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel, wuerdevoll"
+  },
+  {
+   "id": "BaTu_C2",
+   "titel": "Ba Tu - Fassung C (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_BaTu_C\\neutral.png",
+   "soll": "Preset Yacht_BaTu_C. um die 75, gebraeunt, hochgestecktes weisses Haar, Seidenbluse, schwarze Hose mit gelben Blumen, kein Kochloeffel, wuerdevoll"
+  },
+  {
+   "id": "Sandru_A1",
+   "titel": "Sandru Amrani - Fassung A (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Sandru_A\\neutral-1.png",
+   "soll": "Preset Yacht_Sandru_A. 30, korsisch-marokkanisch, sichtbar gebraeunt, weisses Polo mit Schild ALEX (Schrift unleserlich, spaeter nachtragen), schwarze Beinschienen"
+  },
+  {
+   "id": "Sandru_A2",
+   "titel": "Sandru Amrani - Fassung A (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Sandru_A\\neutral.png",
+   "soll": "Preset Yacht_Sandru_A. 30, korsisch-marokkanisch, sichtbar gebraeunt, weisses Polo mit Schild ALEX (Schrift unleserlich, spaeter nachtragen), schwarze Beinschienen"
+  },
+  {
+   "id": "Sandru_B1",
+   "titel": "Sandru Amrani - Fassung B (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Sandru_B\\neutral-1.png",
+   "soll": "Preset Yacht_Sandru_B. 30, korsisch-marokkanisch, sichtbar gebraeunt, weisses Polo mit Schild ALEX (Schrift unleserlich, spaeter nachtragen), schwarze Beinschienen"
+  },
+  {
+   "id": "Sandru_B2",
+   "titel": "Sandru Amrani - Fassung B (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Sandru_B\\neutral.png",
+   "soll": "Preset Yacht_Sandru_B. 30, korsisch-marokkanisch, sichtbar gebraeunt, weisses Polo mit Schild ALEX (Schrift unleserlich, spaeter nachtragen), schwarze Beinschienen"
+  },
+  {
+   "id": "Sandru_C1",
+   "titel": "Sandru Amrani - Fassung C (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Sandru_C\\neutral-1.png",
+   "soll": "Preset Yacht_Sandru_C. 30, korsisch-marokkanisch, sichtbar gebraeunt, weisses Polo mit Schild ALEX (Schrift unleserlich, spaeter nachtragen), schwarze Beinschienen"
+  },
+  {
+   "id": "Sandru_C2",
+   "titel": "Sandru Amrani - Fassung C (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Sandru_C\\neutral.png",
+   "soll": "Preset Yacht_Sandru_C. 30, korsisch-marokkanisch, sichtbar gebraeunt, weisses Polo mit Schild ALEX (Schrift unleserlich, spaeter nachtragen), schwarze Beinschienen"
+  },
+  {
+   "id": "Anghjulu_A1",
+   "titel": "Don Anghjulu - Fassung A (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Anghjulu_A\\neutral-1.png",
+   "soll": "Preset Yacht_Anghjulu_A. um die 60, braun gebrannter Portugiese, rundlich, rote Nase, schwarze Soutane, Flachmann"
+  },
+  {
+   "id": "Anghjulu_A2",
+   "titel": "Don Anghjulu - Fassung A (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Anghjulu_A\\neutral.png",
+   "soll": "Preset Yacht_Anghjulu_A. um die 60, braun gebrannter Portugiese, rundlich, rote Nase, schwarze Soutane, Flachmann"
+  },
+  {
+   "id": "Anghjulu_B1",
+   "titel": "Don Anghjulu - Fassung B (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Anghjulu_B\\neutral-1.png",
+   "soll": "Preset Yacht_Anghjulu_B. um die 60, braun gebrannter Portugiese, rundlich, rote Nase, schwarze Soutane, Flachmann"
+  },
+  {
+   "id": "Anghjulu_B2",
+   "titel": "Don Anghjulu - Fassung B (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Anghjulu_B\\neutral.png",
+   "soll": "Preset Yacht_Anghjulu_B. um die 60, braun gebrannter Portugiese, rundlich, rote Nase, schwarze Soutane, Flachmann"
+  },
+  {
+   "id": "Anghjulu_C1",
+   "titel": "Don Anghjulu - Fassung C (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Anghjulu_C\\neutral-1.png",
+   "soll": "Preset Yacht_Anghjulu_C. um die 60, braun gebrannter Portugiese, rundlich, rote Nase, schwarze Soutane, Flachmann"
+  },
+  {
+   "id": "Anghjulu_C2",
+   "titel": "Don Anghjulu - Fassung C (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Anghjulu_C\\neutral.png",
+   "soll": "Preset Yacht_Anghjulu_C. um die 60, braun gebrannter Portugiese, rundlich, rote Nase, schwarze Soutane, Flachmann"
+  },
+  {
+   "id": "AdrienCast_A1",
+   "titel": "Adrien Morel (Casting) - Fassung A (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_AdrienCast_A\\neutral-1.png",
+   "soll": "Preset Yacht_AdrienCast_A. 28, gutaussehender Inder, Legionaer, verwundet (Verband am linken Oberschenkel), ruhig. Presets Yacht_AdrienCast_A/B/C, das bestehende Yacht_Adrien bleibt unberuehrt"
+  },
+  {
+   "id": "AdrienCast_A2",
+   "titel": "Adrien Morel (Casting) - Fassung A (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_AdrienCast_A\\neutral.png",
+   "soll": "Preset Yacht_AdrienCast_A. 28, gutaussehender Inder, Legionaer, verwundet (Verband am linken Oberschenkel), ruhig. Presets Yacht_AdrienCast_A/B/C, das bestehende Yacht_Adrien bleibt unberuehrt"
+  },
+  {
+   "id": "AdrienCast_B1",
+   "titel": "Adrien Morel (Casting) - Fassung B (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_AdrienCast_B\\neutral-1.png",
+   "soll": "Preset Yacht_AdrienCast_B. 28, gutaussehender Inder, Legionaer, verwundet (Verband am linken Oberschenkel), ruhig. Presets Yacht_AdrienCast_A/B/C, das bestehende Yacht_Adrien bleibt unberuehrt"
+  },
+  {
+   "id": "AdrienCast_B2",
+   "titel": "Adrien Morel (Casting) - Fassung B (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_AdrienCast_B\\neutral.png",
+   "soll": "Preset Yacht_AdrienCast_B. 28, gutaussehender Inder, Legionaer, verwundet (Verband am linken Oberschenkel), ruhig. Presets Yacht_AdrienCast_A/B/C, das bestehende Yacht_Adrien bleibt unberuehrt"
+  },
+  {
+   "id": "AdrienCast_C1",
+   "titel": "Adrien Morel (Casting) - Fassung C (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_AdrienCast_C\\neutral-1.png",
+   "soll": "Preset Yacht_AdrienCast_C. 28, gutaussehender Inder, Legionaer, verwundet (Verband am linken Oberschenkel), ruhig. Presets Yacht_AdrienCast_A/B/C, das bestehende Yacht_Adrien bleibt unberuehrt"
+  },
+  {
+   "id": "AdrienCast_C2",
+   "titel": "Adrien Morel (Casting) - Fassung C (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_AdrienCast_C\\neutral.png",
+   "soll": "Preset Yacht_AdrienCast_C. 28, gutaussehender Inder, Legionaer, verwundet (Verband am linken Oberschenkel), ruhig. Presets Yacht_AdrienCast_A/B/C, das bestehende Yacht_Adrien bleibt unberuehrt"
+  }
+ ]
+}

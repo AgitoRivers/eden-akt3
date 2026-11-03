@@ -1,0 +1,548 @@
+{
+  "variants": 36,
+  "phases": 144,
+  "waterReferencePixelEqual": 5,
+  "errors": [],
+  "summary": [
+    {
+      "id": "mistral",
+      "v": 0,
+      "hashes": [
+        2413565615,
+        2424400652,
+        3678595480,
+        3071660879
+      ],
+      "selected": {
+        "attack": "mistral",
+        "variant": 0
+      },
+      "description": "Ein schmaler, rotierender Nebeltrichter zieht zum Ziel und läuft seitlich aus."
+    },
+    {
+      "id": "mistral",
+      "v": 1,
+      "hashes": [
+        2849668017,
+        90059983,
+        2651401551,
+        549787315
+      ],
+      "selected": {
+        "attack": "mistral",
+        "variant": 1
+      },
+      "description": "Ein breiterer, bauchiger Nebeltrichter zieht mit langsamer gewundener Strömung an die Flanke."
+    },
+    {
+      "id": "mistral",
+      "v": 2,
+      "hashes": [
+        47449446,
+        3909935351,
+        105899453,
+        832157249
+      ],
+      "selected": {
+        "attack": "mistral",
+        "variant": 2
+      },
+      "description": "Zwei kleine Tornados treffen zeitversetzt aus verschiedenen Richtungen."
+    },
+    {
+      "id": "wave",
+      "v": 0,
+      "hashes": [
+        1565709630,
+        135301456,
+        1104735675,
+        3704604064
+      ],
+      "selected": {
+        "attack": "wave",
+        "variant": 0
+      },
+      "description": "Die abgestimmte Wasserkugel mit Gischt, kurzem Flug und länger sichtbarer Trefferpose."
+    },
+    {
+      "id": "wave",
+      "v": 1,
+      "hashes": [
+        3475876757,
+        1879609105,
+        2394780917,
+        1214030268
+      ],
+      "selected": {
+        "attack": "wave",
+        "variant": 1
+      },
+      "description": "Ein schwerer, flacherer Wasserkörper schießt in einem niedrigen Bogen zum Ziel."
+    },
+    {
+      "id": "wave",
+      "v": 2,
+      "hashes": [
+        3447888271,
+        3715012299,
+        4103151044,
+        4136122418
+      ],
+      "selected": {
+        "attack": "wave",
+        "variant": 2
+      },
+      "description": "Zwei kleinere Wasserkugeln treffen mit kurzem Abstand aus verschiedenen Höhen."
+    },
+    {
+      "id": "wind",
+      "v": 0,
+      "hashes": [
+        740244614,
+        570917346,
+        1591497581,
+        2199513857
+      ],
+      "selected": {
+        "attack": "wind",
+        "variant": 0
+      },
+      "description": "Zwei schmale Tornados stehen seitlich der Figur und lösen sich weich auf."
+    },
+    {
+      "id": "wind",
+      "v": 1,
+      "hashes": [
+        2801894448,
+        1970221061,
+        2052139653,
+        913039909
+      ],
+      "selected": {
+        "attack": "wind",
+        "variant": 1
+      },
+      "description": "Ein kleiner Wirbel zieht vor und hinter der Figur entlang."
+    },
+    {
+      "id": "wind",
+      "v": 2,
+      "hashes": [
+        1498937041,
+        1297297219,
+        1389633936,
+        2744403275
+      ],
+      "selected": {
+        "attack": "wind",
+        "variant": 2
+      },
+      "description": "Zwei schmale Trichter entstehen nah am Körper und wandern auseinander."
+    },
+    {
+      "id": "tidal",
+      "v": 0,
+      "hashes": [
+        278110333,
+        3999923194,
+        2394780917,
+        1214030268
+      ],
+      "selected": {
+        "attack": "tidal",
+        "variant": 0
+      },
+      "description": "Eine große, unruhige Wasserkugel verdichtet sich lange und bricht am Ziel auf."
+    },
+    {
+      "id": "tidal",
+      "v": 1,
+      "hashes": [
+        1910773782,
+        4271573830,
+        2394780917,
+        1214030268
+      ],
+      "selected": {
+        "attack": "tidal",
+        "variant": 1
+      },
+      "description": "Eine bodennahe Wassermasse steigt im Flug an und trifft von unten."
+    },
+    {
+      "id": "tidal",
+      "v": 2,
+      "hashes": [
+        3036729410,
+        1669041445,
+        1880858006,
+        4136122418
+      ],
+      "selected": {
+        "attack": "tidal",
+        "variant": 2
+      },
+      "description": "Ein erster Druckstoß wird von einem kleineren, höher liegenden Schub eingeholt."
+    },
+    {
+      "id": "doubleSlash",
+      "v": 0,
+      "hashes": [
+        2977502892,
+        2404218302,
+        3628938107,
+        1303823035
+      ],
+      "selected": {
+        "attack": "doubleSlash",
+        "variant": 0
+      },
+      "description": "Zwei gerade Stahlwischer kreuzen sich in getrennten, fühlbaren Treffern."
+    },
+    {
+      "id": "doubleSlash",
+      "v": 1,
+      "hashes": [
+        1388006680,
+        1482810042,
+        2202143110,
+        1303823035
+      ],
+      "selected": {
+        "attack": "doubleSlash",
+        "variant": 1
+      },
+      "description": "Ein kurzer erster Wischer kündigt die tiefere, kräftige Rückhand an."
+    },
+    {
+      "id": "doubleSlash",
+      "v": 2,
+      "hashes": [
+        1079745079,
+        1402310588,
+        1308180154,
+        1303823035
+      ],
+      "selected": {
+        "attack": "doubleSlash",
+        "variant": 2
+      },
+      "description": "Eine steigende Klinge geht in einen steilen Abwärtsschnitt über."
+    },
+    {
+      "id": "blur",
+      "v": 0,
+      "hashes": [
+        197188439,
+        3944357122,
+        1172427751,
+        3901395538
+      ],
+      "selected": {
+        "attack": "blur",
+        "variant": 0
+      },
+      "description": "Die Figur löst sich seitlich aus ihrer alten Silhouette und tritt wieder hervor."
+    },
+    {
+      "id": "blur",
+      "v": 1,
+      "hashes": [
+        3263463966,
+        37617001,
+        616297072,
+        2392544064
+      ],
+      "selected": {
+        "attack": "blur",
+        "variant": 1
+      },
+      "description": "Ein dünner Schleier verbirgt die Bewegung; ein versetztes Nachbild bleibt zurück."
+    },
+    {
+      "id": "blur",
+      "v": 2,
+      "hashes": [
+        3541591685,
+        1722380478,
+        1670951320,
+        3881783084
+      ],
+      "selected": {
+        "attack": "blur",
+        "variant": 2
+      },
+      "description": "Zwei kurze, entgegengesetzte Nachbilder laufen mit zeitlichem Abstand aus."
+    },
+    {
+      "id": "vendetta",
+      "v": 0,
+      "hashes": [
+        3380840919,
+        1658025392,
+        1975124918,
+        156589543
+      ],
+      "selected": {
+        "attack": "vendetta",
+        "variant": 0
+      },
+      "description": "Eine kurze Vorbereitung, ein kräftiger gerader Wischer und ein örtlicher Treffer."
+    },
+    {
+      "id": "vendetta",
+      "v": 1,
+      "hashes": [
+        917425378,
+        1625395351,
+        4113422011,
+        4182298328
+      ],
+      "selected": {
+        "attack": "vendetta",
+        "variant": 1
+      },
+      "description": "Ein knapper Ansatz wird von einer tieferen Rückhand abgelöst."
+    },
+    {
+      "id": "vendetta",
+      "v": 2,
+      "hashes": [
+        2878547254,
+        1095051936,
+        1556188172,
+        156589543
+      ],
+      "selected": {
+        "attack": "vendetta",
+        "variant": 2
+      },
+      "description": "Ein fast senkrechter Schnitt trifft einmal und klingt ohne zusätzliche Explosion aus."
+    },
+    {
+      "id": "blackSlash",
+      "v": 0,
+      "hashes": [
+        2839488065,
+        1367584139,
+        779410224,
+        2917849295
+      ],
+      "selected": {
+        "attack": "blackSlash",
+        "variant": 0
+      },
+      "description": "Eine dünne Schattenfahne geht dem silbrigen Wischer voraus."
+    },
+    {
+      "id": "blackSlash",
+      "v": 1,
+      "hashes": [
+        1067720633,
+        2855282377,
+        1769697248,
+        2917849295
+      ],
+      "selected": {
+        "attack": "blackSlash",
+        "variant": 1
+      },
+      "description": "Der Schatten zieht seitlich durch die Szene, dann folgt der flache Rückhandschnitt."
+    },
+    {
+      "id": "blackSlash",
+      "v": 2,
+      "hashes": [
+        829565856,
+        2792400346,
+        458164007,
+        2917849295
+      ],
+      "selected": {
+        "attack": "blackSlash",
+        "variant": 2
+      },
+      "description": "Ein kurzer örtlicher Lichtabfall markiert den einzelnen, steilen Treffer."
+    },
+    {
+      "id": "reticle",
+      "v": 0,
+      "hashes": [
+        3098821582,
+        3676846488,
+        746630049,
+        1716953844
+      ],
+      "selected": {
+        "attack": "reticle",
+        "variant": 0
+      },
+      "description": "Ein schmaler kühler Reflex markiert die Schwachstelle; das Ziel nimmt eine Schutzpose ein."
+    },
+    {
+      "id": "reticle",
+      "v": 1,
+      "hashes": [
+        4019142066,
+        3226390044,
+        7706517,
+        1551135018
+      ],
+      "selected": {
+        "attack": "reticle",
+        "variant": 1
+      },
+      "description": "Ein feiner Lichtreflex wandert seitlich über das Ziel und legt seine Schwäche offen."
+    },
+    {
+      "id": "reticle",
+      "v": 2,
+      "hashes": [
+        1176777979,
+        1155965912,
+        2315184904,
+        3688570778
+      ],
+      "selected": {
+        "attack": "reticle",
+        "variant": 2
+      },
+      "description": "Zwei dezente Reflexe betonen die Markierung; keine Flugspur und kein Schadenseinschlag."
+    },
+    {
+      "id": "calm",
+      "v": 0,
+      "hashes": [
+        4071514702,
+        2663211919,
+        1534789266,
+        83382637
+      ],
+      "selected": {
+        "attack": "calm",
+        "variant": 0
+      },
+      "description": "Bodennaher Wasserdunst wird ruhiger; ein kühler Reflex zieht über den Körper."
+    },
+    {
+      "id": "calm",
+      "v": 1,
+      "hashes": [
+        4057544017,
+        3727047184,
+        3219709191,
+        4119792189
+      ],
+      "selected": {
+        "attack": "calm",
+        "variant": 1
+      },
+      "description": "Zwei Luftfahnen weichen auseinander und geben die Figur frei."
+    },
+    {
+      "id": "calm",
+      "v": 2,
+      "hashes": [
+        125528993,
+        2117798984,
+        3977775208,
+        1482188300
+      ],
+      "selected": {
+        "attack": "calm",
+        "variant": 2
+      },
+      "description": "Ein langsamer Schleier sinkt zurück; Licht und Farbe beruhigen sich gemeinsam."
+    },
+    {
+      "id": "beam",
+      "v": 0,
+      "hashes": [
+        4255376245,
+        226014691,
+        1340254597,
+        1642225363
+      ],
+      "selected": {
+        "attack": "beam",
+        "variant": 0
+      },
+      "description": "Ein wandernder, volumetrischer Lichtkegel streift die Figur und hält kurz inne."
+    },
+    {
+      "id": "beam",
+      "v": 1,
+      "hashes": [
+        1007583081,
+        3837501945,
+        581577847,
+        1245083989
+      ],
+      "selected": {
+        "attack": "beam",
+        "variant": 1
+      },
+      "description": "Ein schmaler Lichtschacht öffnet sich von oben und fällt über Körper und Boden."
+    },
+    {
+      "id": "beam",
+      "v": 2,
+      "hashes": [
+        106093550,
+        3178304325,
+        1385397,
+        2739014807
+      ],
+      "selected": {
+        "attack": "beam",
+        "variant": 2
+      },
+      "description": "Zwei unterschiedlich warme Lichtquellen lösen einander hinter der Figur ab."
+    },
+    {
+      "id": "rain",
+      "v": 0,
+      "hashes": [
+        1513529814,
+        3268981016,
+        1034777860,
+        2872307882
+      ],
+      "selected": {
+        "attack": "rain",
+        "variant": 0
+      },
+      "description": "Drei kurze Lichtfälle treffen nacheinander; jeder Kontakt bleibt örtlich begrenzt."
+    },
+    {
+      "id": "rain",
+      "v": 1,
+      "hashes": [
+        1513529814,
+        2726503173,
+        913843470,
+        2872307882
+      ],
+      "selected": {
+        "attack": "rain",
+        "variant": 1
+      },
+      "description": "Drei schräg fallende Lichtspuren schlagen versetzt um die Figur ein."
+    },
+    {
+      "id": "rain",
+      "v": 2,
+      "hashes": [
+        1513529814,
+        3640718295,
+        3767104114,
+        627255507
+      ],
+      "selected": {
+        "attack": "rain",
+        "variant": 2
+      },
+      "description": "Drei schmale Bahnen laufen gleichzeitig am Körper zusammen."
+    }
+  ]
+}

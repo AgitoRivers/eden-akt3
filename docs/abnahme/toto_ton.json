@@ -1,0 +1,122 @@
+{
+ "id": "toto_ton",
+ "titel": "Totò: Sätze mit und ohne Geräusch-Tags (10 Beispiele)",
+ "hinweis": "Links der Satz ohne Tag, rechts mit Tag, jeweils mit Player. Hör beides an: Klingt das Geräusch (Lachen, Seufzer, Räuspern …) nach Totò? Auf dem Bildschirm steht im Spiel nur der Text ohne den Tag. Bitte pro Beispiel OK (mit Tag übernehmen) oder Ändern (ohne Tag lassen, Notiz: anderer Tag).",
+ "gruppen": [
+  {
+   "titel": "Beispiele mit Turbo-Tags",
+   "items": [
+    {
+     "key": "ton:01",
+     "wer": "Totò",
+     "feld": "After buying · intimate gift",
+     "alt": "Wrapped it twice. Once for the gift, once for your dignity.",
+     "neu": "Wrapped it twice. [chuckle] Once for the gift, once for your dignity.",
+     "gefuehl": "kauf_intim.2",
+     "vertont": true,
+     "audio_alt": "X:\\AI\\Eden\\docs\\abnahme\\stimmen_test\\vergleich\\01_alt.wav",
+     "audio_neu": "X:\\AI\\Eden\\docs\\abnahme\\stimmen_test\\vergleich\\01_neu.wav"
+    },
+    {
+     "key": "ton:02",
+     "wer": "Totò",
+     "feld": "After buying · intimate gift",
+     "alt": "Ah. Ah! Comandante. No, I don't ask. I only wonder, very loudly, inside my head, who it's for.",
+     "neu": "Ah. [gasp] Ah! Comandante. No, I don't ask. I only wonder, very loudly, inside my head, who it's for.",
+     "gefuehl": "kauf_intim.0",
+     "vertont": true,
+     "audio_alt": "X:\\AI\\Eden\\docs\\abnahme\\stimmen_test\\vergleich\\02_alt.wav",
+     "audio_neu": "X:\\AI\\Eden\\docs\\abnahme\\stimmen_test\\vergleich\\02_neu.wav"
+    },
+    {
+     "key": "ton:03",
+     "wer": "Totò",
+     "feld": "Greeting · trust 0",
+     "alt": "Comandante! Come in, come in. Don't look at the boxes, the boxes are for the engine room.",
+     "neu": "[clear throat] Comandante! Come in, come in. Don't look at the boxes, the boxes are for the engine room.",
+     "gefuehl": "gruss_0.0",
+     "vertont": true,
+     "audio_alt": "X:\\AI\\Eden\\docs\\abnahme\\stimmen_test\\vergleich\\03_alt.wav",
+     "audio_neu": "X:\\AI\\Eden\\docs\\abnahme\\stimmen_test\\vergleich\\03_neu.wav"
+    },
+    {
+     "key": "ton:04",
+     "wer": "Totò",
+     "feld": "Selling to him",
+     "alt": "Mm. It's worth less than you think. But I'll give you more than it's worth, because I'm stupid.",
+     "neu": "Mm. [sigh] It's worth less than you think. But I'll give you more than it's worth, because I'm stupid.",
+     "gefuehl": "verkauf.0",
+     "vertont": true,
+     "audio_alt": "X:\\AI\\Eden\\docs\\abnahme\\stimmen_test\\vergleich\\04_alt.wav",
+     "audio_neu": "X:\\AI\\Eden\\docs\\abnahme\\stimmen_test\\vergleich\\04_neu.wav"
+    },
+    {
+     "key": "ton:05",
+     "wer": "Totò",
+     "feld": "Greeting · trust 5",
+     "alt": "My brother! No, don't correct me. It's what you are now. Naples never forgets, and neither do I.",
+     "neu": "My brother! [sniff] No, don't correct me. It's what you are now. Naples never forgets, and neither do I.",
+     "gefuehl": "gruss_5.0",
+     "vertont": true,
+     "audio_alt": "X:\\AI\\Eden\\docs\\abnahme\\stimmen_test\\vergleich\\05_alt.wav",
+     "audio_neu": "X:\\AI\\Eden\\docs\\abnahme\\stimmen_test\\vergleich\\05_neu.wav"
+    },
+    {
+     "key": "ton:06",
+     "wer": "Totò",
+     "feld": "After buying · party gift",
+     "alt": "Don't open it in the engine room. Rosi will tell you why. Loudly.",
+     "neu": "Don't open it in the engine room. [laugh] Rosi will tell you why. Loudly.",
+     "gefuehl": "kauf_party.2",
+     "vertont": true,
+     "audio_alt": "X:\\AI\\Eden\\docs\\abnahme\\stimmen_test\\vergleich\\06_alt.wav",
+     "audio_neu": "X:\\AI\\Eden\\docs\\abnahme\\stimmen_test\\vergleich\\06_neu.wav"
+    },
+    {
+     "key": "ton:07",
+     "wer": "Totò",
+     "feld": "After buying · jewellery",
+     "alt": "Good eye. Small things shine the most. That's why I wear a very large chain.",
+     "neu": "Good eye. [chuckle] Small things shine the most. That's why I wear a very large chain.",
+     "gefuehl": "kauf_schmuck.1",
+     "vertont": true,
+     "audio_alt": "X:\\AI\\Eden\\docs\\abnahme\\stimmen_test\\vergleich\\07_alt.wav",
+     "audio_neu": "X:\\AI\\Eden\\docs\\abnahme\\stimmen_test\\vergleich\\07_neu.wav"
+    },
+    {
+     "key": "ton:08",
+     "wer": "Totò",
+     "feld": "Greeting · trust 4",
+     "alt": "I told my mother about you. She says you sound too thin. She's praying for you now. That's good news, she doesn't pray for everyone.",
+     "neu": "I told my mother about you. She says you sound too thin. [chuckle] She's praying for you now. That's good news, she doesn't pray for everyone.",
+     "gefuehl": "gruss_4.1",
+     "vertont": true,
+     "audio_alt": "X:\\AI\\Eden\\docs\\abnahme\\stimmen_test\\vergleich\\08_alt.wav",
+     "audio_neu": "X:\\AI\\Eden\\docs\\abnahme\\stimmen_test\\vergleich\\08_neu.wav"
+    },
+    {
+     "key": "ton:09",
+     "wer": "Totò",
+     "feld": "No money",
+     "alt": "Empty pockets, Comandante? Madonna. Sit, have a coffee. The coffee is on the house. Only the coffee.",
+     "neu": "Empty pockets, Comandante? [sigh] Madonna. Sit, have a coffee. The coffee is on the house. Only the coffee.",
+     "gefuehl": "pleite.2",
+     "vertont": true,
+     "audio_alt": "X:\\AI\\Eden\\docs\\abnahme\\stimmen_test\\vergleich\\09_alt.wav",
+     "audio_neu": "X:\\AI\\Eden\\docs\\abnahme\\stimmen_test\\vergleich\\09_neu.wav"
+    },
+    {
+     "key": "ton:10",
+     "wer": "Totò",
+     "feld": "Hint · party gift for the mayor",
+     "alt": "The mayor lives for that. You give her confetti, she gives you the village. Do you want the village? I'd think about it.",
+     "neu": "The mayor lives for that. You give her confetti, she gives you the village. [laugh] Do you want the village? I'd think about it.",
+     "gefuehl": "hinweis_party_casanova.0",
+     "vertont": true,
+     "audio_alt": "X:\\AI\\Eden\\docs\\abnahme\\stimmen_test\\vergleich\\10_alt.wav",
+     "audio_neu": "X:\\AI\\Eden\\docs\\abnahme\\stimmen_test\\vergleich\\10_neu.wav"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "id": "danzel_trio",
+ "titel": "Red Trio: Danzel, Bibi, Charly – 3 Fassungen",
+ "hinweis": "Je Figur eine Fassung wählen (OK) – Seed egal, oder Notiz zum Mischen (z. B. 'Gesicht A, Outfit B'). Weiß nur Danzels Haar, der weiße Anzug bleibt Mr. White.",
+ "items": [
+  {
+   "id": "Danzel_A1",
+   "titel": "Danzel · Fassung A · Seed 1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_A\\neutral.png",
+   "soll": "Danzel, a 29-year-old French-Vietnamese man, a slim boyish face with soft features, bright white hair slicked straight back with shiny gel, thin dark eyebrows, nervous dark eyes trying to look cool, a forced confident smirk, slender build — an extravagant tailored crimson red agent suit with exaggerated padded shoulders and a long cut jacket, gold buttons, a black shirt, a thin black tie, red-tinted narrow sunglasses pushed up into his white hair, a small manga paperback sticking out of his breast pocket, pointed black shoes"
+  },
+  {
+   "id": "Danzel_A2",
+   "titel": "Danzel · Fassung A · Seed 2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_A\\neutral-1.png",
+   "soll": "Danzel, a 29-year-old French-Vietnamese man, a slim boyish face with soft features, bright white hair slicked straight back with shiny gel, thin dark eyebrows, nervous dark eyes trying to look cool, a forced confident smirk, slender build — an extravagant tailored crimson red agent suit with exaggerated padded shoulders and a long cut jacket, gold buttons, a black shirt, a thin black tie, red-tinted narrow sunglasses pushed up into his white hair, a small manga paperback sticking out of his breast pocket, pointed black shoes"
+  },
+  {
+   "id": "Danzel_B1",
+   "titel": "Danzel · Fassung B · Seed 1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral.png",
+   "soll": "Danzel, a 31-year-old Japanese-French man, a long elegant face with high cheekbones, silver-white hair slicked back in a dramatic swept wave, a small silver earring, slightly droopy eyes that give away his fear, one eyebrow raised in an attempt at menace, tall and lanky — a flamboyant scarlet double-breasted agent suit with wide pointed lapels and a red silk lining, a black turtleneck under the jacket, round dark sunglasses, black leather gloves, an anime keychain dangling from his belt, glossy black shoes"
+  },
+  {
+   "id": "Danzel_B2",
+   "titel": "Danzel · Fassung B · Seed 2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_B\\neutral-1.png",
+   "soll": "Danzel, a 31-year-old Japanese-French man, a long elegant face with high cheekbones, silver-white hair slicked back in a dramatic swept wave, a small silver earring, slightly droopy eyes that give away his fear, one eyebrow raised in an attempt at menace, tall and lanky — a flamboyant scarlet double-breasted agent suit with wide pointed lapels and a red silk lining, a black turtleneck under the jacket, round dark sunglasses, black leather gloves, an anime keychain dangling from his belt, glossy black shoes"
+  },
+  {
+   "id": "Danzel_C1",
+   "titel": "Danzel · Fassung C · Seed 1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_C\\neutral.png",
+   "soll": "Danzel, a 28-year-old Korean-French man, a friendly round face with a soft jaw, platinum white hair slicked back but with one loose strand falling on his forehead, wide anxious eyes, a big hopeful grin showing slightly crooked teeth, average build with narrow shoulders — a slightly too big bright red agent suit with sharp exaggerated shoulder pads and a high stiff collar, a red-and-black patterned shirt, a gold chain, aviator sunglasses hanging from his collar, a telescopic baton he holds awkwardly like he has never used it, red sneakers"
+  },
+  {
+   "id": "Danzel_C2",
+   "titel": "Danzel · Fassung C · Seed 2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Danzel_C\\neutral-1.png",
+   "soll": "Danzel, a 28-year-old Korean-French man, a friendly round face with a soft jaw, platinum white hair slicked back but with one loose strand falling on his forehead, wide anxious eyes, a big hopeful grin showing slightly crooked teeth, average build with narrow shoulders — a slightly too big bright red agent suit with sharp exaggerated shoulder pads and a high stiff collar, a red-and-black patterned shirt, a gold chain, aviator sunglasses hanging from his collar, a telescopic baton he holds awkwardly like he has never used it, red sneakers"
+  },
+  {
+   "id": "Bibi_A1",
+   "titel": "Bibi · Fassung A · Seed 1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Bibi_A\\neutral.png",
+   "soll": "Bibi, a 25-year-old French woman from Marseille, a lively round face with freckles, big bright green eyes, copper red hair in two high bouncy pigtails, a wide fierce grin trying to look evil, petite and energetic — a fitted red agent suit jacket with rolled-up sleeves over a black top, short red suit trousers, a black utility belt with several round grenades, black combat boots, a small plush lion keychain that is entirely jet black on her belt"
+  },
+  {
+   "id": "Bibi_A2",
+   "titel": "Bibi · Fassung A · Seed 2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Bibi_A\\neutral-1.png",
+   "soll": "Bibi, a 25-year-old French woman from Marseille, a lively round face with freckles, big bright green eyes, copper red hair in two high bouncy pigtails, a wide fierce grin trying to look evil, petite and energetic — a fitted red agent suit jacket with rolled-up sleeves over a black top, short red suit trousers, a black utility belt with several round grenades, black combat boots, a small plush lion keychain that is entirely jet black on her belt"
+  },
+  {
+   "id": "Bibi_B1",
+   "titel": "Bibi · Fassung B · Seed 1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Bibi_B\\neutral.png",
+   "soll": "Bibi, a 24-year-old French woman of Algerian descent, an expressive oval face, dark sparkling eyes, thick black curly hair tied in two big puffy buns, thick eyebrows, a mischievous over-the-top grin, athletic and short — a cropped red agent jacket with gold buttons over a black turtleneck, red cargo trousers tucked into black boots, a bandolier of round grenades across her chest, fingerless black gloves, a sticker of a cartoon boar on her jacket"
+  },
+  {
+   "id": "Bibi_B2",
+   "titel": "Bibi · Fassung B · Seed 2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Bibi_B\\neutral-1.png",
+   "soll": "Bibi, a 24-year-old French woman of Algerian descent, an expressive oval face, dark sparkling eyes, thick black curly hair tied in two big puffy buns, thick eyebrows, a mischievous over-the-top grin, athletic and short — a cropped red agent jacket with gold buttons over a black turtleneck, red cargo trousers tucked into black boots, a bandolier of round grenades across her chest, fingerless black gloves, a sticker of a cartoon boar on her jacket"
+  },
+  {
+   "id": "Bibi_C1",
+   "titel": "Bibi · Fassung C · Seed 1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Bibi_C\\neutral.png",
+   "soll": "Bibi, a 26-year-old French woman, a sharp pretty face with a tiny scar on her chin, warm brown eyes, bleached blonde hair with pink tips in two long braided pigtails, a gleeful dramatic villain smile, compact and strong — a red agent suit with the jacket worn open over a black tank top, a red pleated skirt over black leggings, a heavy belt hung with round grenades, red-framed goggles pushed up on her head, chunky black boots"
+  },
+  {
+   "id": "Bibi_C2",
+   "titel": "Bibi · Fassung C · Seed 2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Bibi_C\\neutral-1.png",
+   "soll": "Bibi, a 26-year-old French woman, a sharp pretty face with a tiny scar on her chin, warm brown eyes, bleached blonde hair with pink tips in two long braided pigtails, a gleeful dramatic villain smile, compact and strong — a red agent suit with the jacket worn open over a black tank top, a red pleated skirt over black leggings, a heavy belt hung with round grenades, red-framed goggles pushed up on her head, chunky black boots"
+  },
+  {
+   "id": "Charly_A1",
+   "titel": "Charly · Fassung A · Seed 1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Charly_A\\neutral.png",
+   "soll": "Charly, a 26-year-old French woman, a calm heart-shaped face, sleepy half-closed grey eyes, a perfectly straight black chin-length bob with blunt bangs, a completely deadpan expression, tall and slim — a neat red agent suit with a long jacket and straight trousers, a black shirt buttoned up, a headset with a small microphone around her neck, a taser in a holster, a bag of crisps sticking out of her jacket pocket, flat black shoes"
+  },
+  {
+   "id": "Charly_A2",
+   "titel": "Charly · Fassung A · Seed 2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Charly_A\\neutral-1.png",
+   "soll": "Charly, a 26-year-old French woman, a calm heart-shaped face, sleepy half-closed grey eyes, a perfectly straight black chin-length bob with blunt bangs, a completely deadpan expression, tall and slim — a neat red agent suit with a long jacket and straight trousers, a black shirt buttoned up, a headset with a small microphone around her neck, a taser in a holster, a bag of crisps sticking out of her jacket pocket, flat black shoes"
+  },
+  {
+   "id": "Charly_B1",
+   "titel": "Charly · Fassung B · Seed 1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Charly_B\\neutral.png",
+   "soll": "Charly, a 25-year-old French woman of Vietnamese descent, a small delicate face, unimpressed dark eyes behind large round glasses, a sleek dark bob with one side tucked behind her ear, a flat bored mouth, slim — an oversized red agent blazer over a black hoodie, red suit trousers, black sneakers, a tablet in one hand, a coiled taser cable on her belt, a lollipop stick in the corner of her mouth"
+  },
+  {
+   "id": "Charly_B2",
+   "titel": "Charly · Fassung B · Seed 2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Charly_B\\neutral-1.png",
+   "soll": "Charly, a 25-year-old French woman of Vietnamese descent, a small delicate face, unimpressed dark eyes behind large round glasses, a sleek dark bob with one side tucked behind her ear, a flat bored mouth, slim — an oversized red agent blazer over a black hoodie, red suit trousers, black sneakers, a tablet in one hand, a coiled taser cable on her belt, a lollipop stick in the corner of her mouth"
+  },
+  {
+   "id": "Charly_C1",
+   "titel": "Charly · Fassung C · Seed 1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Charly_C\\neutral.png",
+   "soll": "Charly, a 27-year-old Senegalese-French woman, a long serene face, dark skin, heavy-lidded dark eyes with a dry look, short natural hair cut in a sharp tapered style, a tiny unamused smirk, tall and lean — a sharp red agent suit with a short tailored jacket and cropped trousers, a black polo shirt, a tool belt with a taser and a small net launcher, wireless earbuds, a thermos cup in her hand, black ankle boots"
+  },
+  {
+   "id": "Charly_C2",
+   "titel": "Charly · Fassung C · Seed 2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_danzel\\Yacht_Charly_C\\neutral-1.png",
+   "soll": "Charly, a 27-year-old Senegalese-French woman, a long serene face, dark skin, heavy-lidded dark eyes with a dry look, short natural hair cut in a sharp tapered style, a tiny unamused smirk, tall and lean — a sharp red agent suit with a short tailored jacket and cropped trousers, a black polo shirt, a tool belt with a taser and a small net launcher, wireless earbuds, a thermos cup in her hand, black ankle boots"
+  }
+ ]
+}

@@ -1,0 +1,454 @@
+{
+ "_hinweis": "Vorschlag 03.11.2026 (Duc: Zoegern immer mit Spruch, Tiere knurren). Noch nicht verdrahtet, nicht vertont. stimme = Katalogname in Chatterbox/stimmen.json. sfx = Laut-Id in module/eden_rise/sfx (Varianten _1, _2 ...).",
+ "gruppen": {
+  "agent": {
+   "titel": "A.V. Agents",
+   "art": "stimme",
+   "stimme": "Adrien Morel",
+   "zeilen": [
+    {
+     "id": "taunt_agent_1",
+     "text": "Hold still. This won't take long."
+    },
+    {
+     "id": "taunt_agent_2",
+     "text": "Not yet. I'm reading you."
+    },
+    {
+     "id": "taunt_agent_3",
+     "text": "Wait for it."
+    },
+    {
+     "id": "taunt_agent_4",
+     "text": "You blinked. I saw that."
+    },
+    {
+     "id": "taunt_agent_5",
+     "text": "Nothing personal. Just a long shift."
+    }
+   ],
+   "hinweis": "Mann, um die 30, kühl und höflich, Dienst nach Vorschrift. Die französische Adrien-Stimme ist frei, seit Adrien die indische hat."
+  },
+  "pirat": {
+   "titel": "Pirates and Smugglers",
+   "art": "stimme",
+   "stimme": "Ghjuvan Santucci",
+   "zeilen": [
+    {
+     "id": "taunt_pirat_1",
+     "text": "Wait for it, little fish."
+    },
+    {
+     "id": "taunt_pirat_2",
+     "text": "Not yet. Let me enjoy this."
+    },
+    {
+     "id": "taunt_pirat_3",
+     "text": "Go on, flinch. I'll wait."
+    },
+    {
+     "id": "taunt_pirat_4",
+     "text": "The sea is patient. So am I."
+    },
+    {
+     "id": "taunt_pirat_5",
+     "text": "Ha! Look at you, all jumpy."
+    }
+   ],
+   "hinweis": "Mann, 40+, rau und tief, grinst beim Reden. Ghjuvan spricht sonst nur in den Bergen, deshalb fällt die Doppelung kaum auf."
+  },
+  "dieb": {
+   "titel": "Thieves",
+   "art": "stimme",
+   "stimme": "Santu Ricci",
+   "zeilen": [
+    {
+     "id": "taunt_dieb_1",
+     "text": "Watch the hand. No, the other one."
+    },
+    {
+     "id": "taunt_dieb_2",
+     "text": "Wait... wait... made you look."
+    },
+    {
+     "id": "taunt_dieb_3",
+     "text": "Easy, easy. I'm just warming up."
+    },
+    {
+     "id": "taunt_dieb_4",
+     "text": "Nervous? You should be."
+    },
+    {
+     "id": "taunt_dieb_5",
+     "text": "Which way? You'll never guess."
+    }
+   ],
+   "hinweis": "Mann, Anfang 20, schleppend und höhnisch. Santus eigene Stimme; Fabbiu und der Taschendieb leihen sie sich."
+  },
+  "brute": {
+   "titel": "Brutes",
+   "art": "stimme",
+   "stimme": "Mattè Ricci",
+   "zeilen": [
+    {
+     "id": "taunt_brute_1",
+     "text": "Hmm. Not yet."
+    },
+    {
+     "id": "taunt_brute_2",
+     "text": "Wait. ...Wait."
+    },
+    {
+     "id": "taunt_brute_3",
+     "text": "I'm in no hurry."
+    },
+    {
+     "id": "taunt_brute_4",
+     "text": "Stand still. Easier for both of us."
+    },
+    {
+     "id": "taunt_brute_5",
+     "text": "Go on. Blink."
+    }
+   ],
+   "hinweis": "Mann, Mitte 30, sehr tiefer grollender Bass, wortkarg. Mattès eigene Stimme, der Big Man spricht mit ihr."
+  },
+  "wolff": {
+   "titel": "Sergent Wolff",
+   "art": "stimme",
+   "stimme": "Kaspar Wolff",
+   "zeilen": [
+    {
+     "id": "taunt_wolff_1",
+     "text": "Patience. You have none, I see."
+    },
+    {
+     "id": "taunt_wolff_2",
+     "text": "Steady. You lean too far forward."
+    },
+    {
+     "id": "taunt_wolff_3",
+     "text": "Not yet. Watch the blade."
+    },
+    {
+     "id": "taunt_wolff_4",
+     "text": "A good soldier waits. You don't."
+    },
+    {
+     "id": "taunt_wolff_5",
+     "text": "Breathe first. Then fall."
+    }
+   ],
+   "hinweis": "Mann, um die 56, trocken und korrekt, ein Ausbilder. Seine eigene Stimme."
+  },
+  "maxwell": {
+   "titel": "Maxwell",
+   "art": "stimme",
+   "stimme": "Maxwell",
+   "zeilen": [
+    {
+     "id": "taunt_maxwell_1",
+     "text": "Patience, Number One! Mr. Maximum waits."
+    },
+    {
+     "id": "taunt_maxwell_2",
+     "text": "Eish, look at you, already flinching!"
+    },
+    {
+     "id": "taunt_maxwell_3",
+     "text": "Not yet, brother. Not yet."
+    },
+    {
+     "id": "taunt_maxwell_4",
+     "text": "Breathe in. Mr. Maximum says breathe."
+    },
+    {
+     "id": "taunt_maxwell_5",
+     "text": "Mr. Maximum is counting. One..."
+    }
+   ],
+   "hinweis": "Mann, 35, groß, warm, theatralisch, spricht von sich in der dritten Person. Seine eigene Stimme."
+  },
+  "riscossore": {
+   "titel": "U Riscossore",
+   "art": "stimme",
+   "stimme": "U Riscossore",
+   "zeilen": [
+    {
+     "id": "taunt_riscossore_1",
+     "text": "I have time. Do you?"
+    },
+    {
+     "id": "taunt_riscossore_2",
+     "text": "No hurry. The tide is coming."
+    },
+    {
+     "id": "taunt_riscossore_3",
+     "text": "Shh. Let me finish my orange."
+    },
+    {
+     "id": "taunt_riscossore_4",
+     "text": "Everybody pays. Just wait."
+    },
+    {
+     "id": "taunt_riscossore_5",
+     "text": "Wait. It's always worse when you wait."
+    }
+   ],
+   "hinweis": "Alter Mann, ruhig und furchtbar, hat nie Eile. Seine eigene Stimme."
+  },
+  "bibi": {
+   "titel": "Bibi (Red Trio)",
+   "art": "stimme",
+   "stimme": "Bibi",
+   "zeilen": [
+    {
+     "id": "taunt_bibi_1",
+     "text": "Wait! Not ready! ...Okay, ready!"
+    },
+    {
+     "id": "taunt_bibi_2",
+     "text": "Ha! You flinched! I saw it!"
+    },
+    {
+     "id": "taunt_bibi_3",
+     "text": "Sorry, sorry, this is the fun part."
+    },
+    {
+     "id": "taunt_bibi_4",
+     "text": "Don't move. I'm aiming. Mostly."
+    },
+    {
+     "id": "taunt_bibi_5",
+     "text": "Charly, are you watching? Look!"
+    }
+   ],
+   "hinweis": "Frau, Anfang 30, laut, rau, redet schneller, als sie denkt. Ihre eigene Stimme."
+  },
+  "charly": {
+   "titel": "Charly (Red Trio)",
+   "art": "stimme",
+   "stimme": "Charly",
+   "zeilen": [
+    {
+     "id": "taunt_charly_1",
+     "text": "Wait. Counting. Three... two..."
+    },
+    {
+     "id": "taunt_charly_2",
+     "text": "You flinched. Four out of ten."
+    },
+    {
+     "id": "taunt_charly_3",
+     "text": "Not yet. I'm bored, not slow."
+    },
+    {
+     "id": "taunt_charly_4",
+     "text": "Breathe. It helps. Six out of ten."
+    },
+    {
+     "id": "taunt_charly_5",
+     "text": "This is the part where you panic."
+    }
+   ],
+   "hinweis": "Frau, 26, tief, monoton, immer ein bisschen müde, Zahlen statt Gefühle. Ihre eigene Stimme."
+  },
+  "danzel": {
+   "titel": "Danzel (Red Trio)",
+   "art": "stimme",
+   "stimme": "Danzel",
+   "zeilen": [
+    {
+     "id": "taunt_danzel_1",
+     "text": "Behold my final— wait, not yet."
+    },
+    {
+     "id": "taunt_danzel_2",
+     "text": "Feel my power! ...Any second now."
+    },
+    {
+     "id": "taunt_danzel_3",
+     "text": "Ha! You fell for— hold on."
+    },
+    {
+     "id": "taunt_danzel_4",
+     "text": "I am the storm! A small one."
+    },
+    {
+     "id": "taunt_danzel_5",
+     "text": "Don't move! Please. It's easier."
+    }
+   ],
+   "hinweis": "Mann, 30, heller Tenor, beginnt wie ein Anime-Schurke und bricht mitten im Satz. Seine eigene Stimme."
+  },
+  "sirene": {
+   "titel": "The Siren",
+   "art": "stimme",
+   "stimme": "Ligeia",
+   "zeilen": [
+    {
+     "id": "taunt_sirene_1",
+     "text": "Shh, sailor. Listen first."
+    },
+    {
+     "id": "taunt_sirene_2",
+     "text": "Not yet. I like the waiting."
+    },
+    {
+     "id": "taunt_sirene_3",
+     "text": "Come closer, sailor. A little more."
+    },
+    {
+     "id": "taunt_sirene_4",
+     "text": "You hold your breath so nicely."
+    },
+    {
+     "id": "taunt_sirene_5",
+     "text": "The sea never hurries, sailor."
+    }
+   ],
+   "hinweis": "Frau, ätherisch, hell und alt zugleich, neapolitanisch, sagt „sailor“. Ihre eigene Stimme (mit Hall wie sonst)."
+  },
+  "maschine": {
+   "titel": "Machines",
+   "art": "laut",
+   "stimme": null,
+   "sfx": "kampf_unit01",
+   "zeilen": [],
+   "hinweis": "Warn-Piepen und Servo-Surren. Unit-01 spricht laut Wiki nie in Worten; die Drohne auch nicht. Für die Drohne passt sonst tk_drohne (Vorbeiflug)."
+  },
+  "pale_lady": {
+   "titel": "The Pale Lady",
+   "art": "laut",
+   "stimme": null,
+   "sfx": "kampf_pale_lady",
+   "zeilen": [],
+   "hinweis": "Kaltes Lachen ohne Worte, Seide, flackernde Kerzen. Sie hat keine Stimme im Katalog, also kein bezahlter Lauf nötig."
+  },
+  "hund": {
+   "titel": "Dogs, Wolves, Hyenas",
+   "art": "laut",
+   "stimme": null,
+   "sfx": "rudel_hunde",
+   "zeilen": [],
+   "hinweis": "Knurren und Bellen (growl)."
+  },
+  "ratte": {
+   "titel": "Rats",
+   "art": "laut",
+   "stimme": null,
+   "sfx": "rudel_ratten",
+   "zeilen": [],
+   "hinweis": "Quieken und Kratzen (squeak)."
+  },
+  "keiler": {
+   "titel": "Boars and Mouflons",
+   "art": "laut",
+   "stimme": null,
+   "sfx": "keiler_ansturm",
+   "zeilen": [],
+   "hinweis": "Schnauben und Grunzen (snort). Für den Mufflon nur Ersatz, ein eigener Laut fehlt."
+  },
+  "zischer": {
+   "titel": "Snakes and Reptiles",
+   "art": "laut",
+   "stimme": null,
+   "sfx": "kampf_viper",
+   "zeilen": [],
+   "hinweis": "Langes Zischen (hiss). Waran und Schildkröte zischen echt auch so."
+  },
+  "raubtier": {
+   "titel": "Big Beasts",
+   "art": "laut",
+   "stimme": null,
+   "sfx": "tk_loewe",
+   "zeilen": [],
+   "hinweis": "Brüllen (roar). Für Bär und Affe nur Ersatz, ein eigener Laut fehlt."
+  },
+  "klein": {
+   "titel": "Small Animals",
+   "art": "laut",
+   "stimme": null,
+   "sfx": "tier_grunt_baby",
+   "zeilen": [],
+   "hinweis": "Hohes Quieken (squeal), klingt eher empört als gefährlich. Für die Katze passt auch katze_miau."
+  },
+  "voegel": {
+   "titel": "Gulls and Birds",
+   "art": "laut",
+   "stimme": null,
+   "sfx": "schiessen_moewe",
+   "zeilen": [],
+   "hinweis": "Möwen-Kreischen (screech). Für Kevins Tauben passt auch tauben_auf (Flügel)."
+  },
+  "fledermaus": {
+   "titel": "Bat Swarm",
+   "art": "laut",
+   "stimme": null,
+   "sfx": "kampf_fledermaeuse",
+   "zeilen": [],
+   "hinweis": "Schrilles Fiepen und Flügelschlagen (screech)."
+  }
+ },
+ "gegner": {
+  "taschendieb": "dieb",
+  "moewe": "voegel",
+  "ratte": "ratte",
+  "pirat": "pirat",
+  "fackelpirat": "pirat",
+  "maxwell": "maxwell",
+  "ratte_alpha": "ratte",
+  "hund_alpha": "hund",
+  "keiler": "keiler",
+  "schlange": "zischer",
+  "keiler_kloster": "keiler",
+  "hund_wild": "hund",
+  "affe": "raubtier",
+  "loewe_schwarz": "raubtier",
+  "bache": "keiler",
+  "wolf": "hund",
+  "wolf_alpha": "hund",
+  "agent": "agent",
+  "agent_fuehrer": "agent",
+  "agent_nass": "agent",
+  "brute_solo": "brute",
+  "wolff": "wolff",
+  "wolff_hart": "wolff",
+  "baer_junges": "klein",
+  "old_grey": "raubtier",
+  "panther": "raubtier",
+  "unit01": "maschine",
+  "schmuggler": "pirat",
+  "riscossore": "riscossore",
+  "tauben": "voegel",
+  "kevin": "voegel",
+  "fledermaeuse": "fledermaus",
+  "schlange_alpha": "zischer",
+  "vampirin": "pale_lady",
+  "sirene": "sirene",
+  "dieb_fabbiu": "dieb",
+  "dieb_santu": "dieb",
+  "matte": "brute",
+  "rt_bibi": "bibi",
+  "rt_charly": "charly",
+  "rt_danzel": "danzel",
+  "panzer_mufflon": "keiler",
+  "ark_hyaene": "hund",
+  "ark_hyaene_alpha": "hund",
+  "hirtendrohne": "maschine",
+  "mo_hund": "hund",
+  "mo_hyaene": "hund",
+  "mo_mufflon": "keiler",
+  "mo_affe": "raubtier",
+  "mo_wolf": "hund",
+  "mo_madame": "klein",
+  "mo_rotpanda": "klein",
+  "mo_capybara": "klein",
+  "mo_keiler": "keiler",
+  "mo_baerchen": "klein",
+  "mo_schildkroete": "zischer",
+  "mo_geier": "voegel",
+  "mo_schneeleopard": "raubtier",
+  "mo_waran": "zischer"
+ }
+}

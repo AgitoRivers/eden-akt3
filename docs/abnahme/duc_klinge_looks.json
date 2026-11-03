@@ -1,0 +1,39 @@
+{
+ "id": "duc_klinge_looks",
+ "titel": "Duc: heavy_attack in den anderen Looks",
+ "hinweis": "Die Klinge zeigte auch hier nach hinten. Vorschlag: alle vier freigeben, sie passen zu deiner Navy-Wahl. Noch nicht gespiegelt und nicht im Spiel.",
+ "items": [
+  {
+   "id": "erde",
+   "titel": "Erde",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_klinge\\erde_heavy_attack\\heavy_attack.png",
+   "soll": "Klinge nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeKnife\\heavy_attack.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "feuer",
+   "titel": "Feuer",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_klinge\\feuer_heavy_attack\\heavy_attack.png",
+   "soll": "Klinge nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerKnife\\heavy_attack.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "luft",
+   "titel": "Luft",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_klinge\\luft_heavy_attack\\heavy_attack.png",
+   "soll": "Klinge nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftKnife\\heavy_attack.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "cyber",
+   "titel": "Cyber",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_klinge\\cyber_heavy_attack\\heavy_attack.png",
+   "soll": "Klinge nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberKnife\\heavy_attack.png",
+   "vergleich_titel": "Bisher"
+  }
+ ]
+}

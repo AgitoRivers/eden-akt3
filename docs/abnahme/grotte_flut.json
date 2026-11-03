@@ -1,0 +1,73 @@
+{
+ "id": "grotte_flut",
+ "titel": "Grotte – Casting Chloé & The Siren, Flut-Teich",
+ "hinweis": "Je Figur 1 Bild OK, beim Teich 1 Variante OK.",
+ "items": [
+  {
+   "id": "casting_Chloe_A1",
+   "titel": "Casting Chloe – Fassung A, Seed 1",
+   "soll": "Chloé Marchal NEU mit Tags (A: Pferdeschwanz, B: kurze Locken; Dreck, Olive-Haut) – je Figur EIN Bild auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Chloe_A\\neutral.png"
+  },
+  {
+   "id": "casting_Chloe_A2",
+   "titel": "Casting Chloe – Fassung A, Seed 2",
+   "soll": "Chloé Marchal NEU mit Tags (A: Pferdeschwanz, B: kurze Locken; Dreck, Olive-Haut) – je Figur EIN Bild auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Chloe_A\\neutral-1.png"
+  },
+  {
+   "id": "casting_Chloe_B1",
+   "titel": "Casting Chloe – Fassung B, Seed 1",
+   "soll": "Chloé Marchal NEU mit Tags (A: Pferdeschwanz, B: kurze Locken; Dreck, Olive-Haut) – je Figur EIN Bild auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Chloe_B\\neutral.png"
+  },
+  {
+   "id": "casting_Chloe_B2",
+   "titel": "Casting Chloe – Fassung B, Seed 2",
+   "soll": "Chloé Marchal NEU mit Tags (A: Pferdeschwanz, B: kurze Locken; Dreck, Olive-Haut) – je Figur EIN Bild auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Chloe_B\\neutral-1.png"
+  },
+  {
+   "id": "casting_Siren_A1",
+   "titel": "Casting The Siren – Fassung A, Seed 1",
+   "soll": "The Siren: Meerjungfrau wie Kampf-Sprite, rotes Haar wie Seetang, meergrüne Augen, ab Hüfte aufwärts – EIN Bild auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Siren_A\\neutral.png"
+  },
+  {
+   "id": "casting_Siren_A2",
+   "titel": "Casting The Siren – Fassung A, Seed 2",
+   "soll": "The Siren: Meerjungfrau wie Kampf-Sprite, rotes Haar wie Seetang, meergrüne Augen, ab Hüfte aufwärts – EIN Bild auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Siren_A\\neutral-1.png"
+  },
+  {
+   "id": "casting_Siren_B1",
+   "titel": "Casting The Siren – Fassung B, Seed 1",
+   "soll": "The Siren: Meerjungfrau wie Kampf-Sprite, rotes Haar wie Seetang, meergrüne Augen, ab Hüfte aufwärts – EIN Bild auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Siren_B\\neutral.png"
+  },
+  {
+   "id": "casting_Siren_B2",
+   "titel": "Casting The Siren – Fassung B, Seed 2",
+   "soll": "The Siren: Meerjungfrau wie Kampf-Sprite, rotes Haar wie Seetang, meergrüne Augen, ab Hüfte aufwärts – EIN Bild auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Siren_B\\neutral-1.png"
+  },
+  {
+   "id": "underground_pool_tide_v1",
+   "titel": "underground_pool_tide – Variante 1",
+   "soll": "Schwarzer Teich bei Flut, nachts, Mondlicht durch Deckenspalt wie Münze auf dem Wasser, kalt-blau · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_underground_pool_tide_v1.png"
+  },
+  {
+   "id": "underground_pool_tide_v2",
+   "titel": "underground_pool_tide – Variante 2",
+   "soll": "Schwarzer Teich bei Flut, nachts, Mondlicht durch Deckenspalt wie Münze auf dem Wasser, kalt-blau · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_underground_pool_tide_v2.png"
+  },
+  {
+   "id": "underground_pool_tide_v3",
+   "titel": "underground_pool_tide – Variante 3",
+   "soll": "Schwarzer Teich bei Flut, nachts, Mondlicht durch Deckenspalt wie Münze auf dem Wasser, kalt-blau · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_underground_pool_tide_v3.png"
+  }
+ ]
+}

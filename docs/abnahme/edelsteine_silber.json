@@ -1,0 +1,159 @@
+{
+ "id": "edelsteine_silber",
+ "titel": "Edelsteine einheitlich und Silber",
+ "hinweis": "Je Stein bitte die beste Variante mit OK markieren. Links neu, rechts das bisherige Bild bzw. das Kupfer zum Vergleich.",
+ "items": [
+  {
+   "id": "jade_v1",
+   "titel": "Jade, Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\jade_v1.png",
+   "soll": "von oben, flach, mittig, Schliff oval, ein Drittel des Bildes",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\jade.png",
+   "vergleich_titel": "bisher"
+  },
+  {
+   "id": "jade_v2",
+   "titel": "Jade, Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\jade_v2.png",
+   "soll": "von oben, flach, mittig, Schliff oval, ein Drittel des Bildes",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\jade.png",
+   "vergleich_titel": "bisher"
+  },
+  {
+   "id": "smaragd_v1",
+   "titel": "Smaragd, Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\smaragd_v1.png",
+   "soll": "von oben, flach, mittig, Schliff oval, ein Drittel des Bildes",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\smaragd.png",
+   "vergleich_titel": "bisher"
+  },
+  {
+   "id": "smaragd_v2",
+   "titel": "Smaragd, Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\smaragd_v2.png",
+   "soll": "von oben, flach, mittig, Schliff oval, ein Drittel des Bildes",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\smaragd.png",
+   "vergleich_titel": "bisher"
+  },
+  {
+   "id": "topas_v1",
+   "titel": "Topas, Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\topas_v1.png",
+   "soll": "von oben, flach, mittig, Schliff oval, ein Drittel des Bildes",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\topas.png",
+   "vergleich_titel": "bisher"
+  },
+  {
+   "id": "topas_v2",
+   "titel": "Topas, Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\topas_v2.png",
+   "soll": "von oben, flach, mittig, Schliff oval, ein Drittel des Bildes",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\topas.png",
+   "vergleich_titel": "bisher"
+  },
+  {
+   "id": "rubin_v1",
+   "titel": "Rubin, Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\rubin_v1.png",
+   "soll": "von oben, flach, mittig, Schliff oval, ein Drittel des Bildes",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\rubin.png",
+   "vergleich_titel": "bisher"
+  },
+  {
+   "id": "rubin_v2",
+   "titel": "Rubin, Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\rubin_v2.png",
+   "soll": "von oben, flach, mittig, Schliff oval, ein Drittel des Bildes",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\rubin.png",
+   "vergleich_titel": "bisher"
+  },
+  {
+   "id": "aquamarin_v1",
+   "titel": "Aquamarin, Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\aquamarin_v1.png",
+   "soll": "von oben, flach, mittig, Schliff oval, ein Drittel des Bildes",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\aquamarin.png",
+   "vergleich_titel": "bisher"
+  },
+  {
+   "id": "aquamarin_v2",
+   "titel": "Aquamarin, Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\aquamarin_v2.png",
+   "soll": "von oben, flach, mittig, Schliff oval, ein Drittel des Bildes",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\aquamarin.png",
+   "vergleich_titel": "bisher"
+  },
+  {
+   "id": "saphir_v1",
+   "titel": "Saphir, Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\saphir_v1.png",
+   "soll": "von oben, flach, mittig, Schliff oval, ein Drittel des Bildes",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\saphir.png",
+   "vergleich_titel": "bisher"
+  },
+  {
+   "id": "saphir_v2",
+   "titel": "Saphir, Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\saphir_v2.png",
+   "soll": "von oben, flach, mittig, Schliff oval, ein Drittel des Bildes",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\saphir.png",
+   "vergleich_titel": "bisher"
+  },
+  {
+   "id": "amethyst_v1",
+   "titel": "Amethyst, Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\amethyst_v1.png",
+   "soll": "von oben, flach, mittig, Schliff oval, ein Drittel des Bildes",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\amethyst.png",
+   "vergleich_titel": "bisher"
+  },
+  {
+   "id": "amethyst_v2",
+   "titel": "Amethyst, Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\amethyst_v2.png",
+   "soll": "von oben, flach, mittig, Schliff oval, ein Drittel des Bildes",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\amethyst.png",
+   "vergleich_titel": "bisher"
+  },
+  {
+   "id": "opal_v1",
+   "titel": "Opal, Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\opal_v1.png",
+   "soll": "von oben, flach, mittig, Schliff oval, ein Drittel des Bildes",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\opal.png",
+   "vergleich_titel": "bisher"
+  },
+  {
+   "id": "opal_v2",
+   "titel": "Opal, Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\opal_v2.png",
+   "soll": "von oben, flach, mittig, Schliff oval, ein Drittel des Bildes",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\opal.png",
+   "vergleich_titel": "bisher"
+  },
+  {
+   "id": "silber_v1",
+   "titel": "Silber, Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\silber_v1.png",
+   "soll": "gleiche Perspektive wie der Kupferbarren",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\kupfer.png",
+   "vergleich_titel": "Kupfer (frei gegeben)"
+  },
+  {
+   "id": "silber_v2",
+   "titel": "Silber, Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\silber_v2.png",
+   "soll": "gleiche Perspektive wie der Kupferbarren",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\kupfer.png",
+   "vergleich_titel": "Kupfer (frei gegeben)"
+  },
+  {
+   "id": "silber_v3",
+   "titel": "Silber, Variante 3",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\silber_v3.png",
+   "soll": "gleiche Perspektive wie der Kupferbarren",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\kupfer.png",
+   "vergleich_titel": "Kupfer (frei gegeben)"
+  }
+ ]
+}

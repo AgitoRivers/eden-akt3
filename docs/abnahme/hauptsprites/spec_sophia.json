@@ -1,0 +1,279 @@
+{
+ "id": "sophia_neu",
+ "titel": "Sophia: 17 Posen neu",
+ "hinweis": "Ohne Krea_Nsfw2, Format 1104x1408, daneben das aktuelle Bild. Je Pose eine Variante auf OK.",
+ "items": [
+  {
+   "id": "Sophia_amusement-2__a",
+   "titel": "Sophia · amusement-2 · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\amusement-2__a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\amusement-2.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_amusement-2__b",
+   "titel": "Sophia · amusement-2 · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\amusement-2__b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\amusement-2.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_anger__a",
+   "titel": "Sophia · anger · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\anger__a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\anger.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_anger__b",
+   "titel": "Sophia · anger · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\anger__b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\anger.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_annoyance-1__a",
+   "titel": "Sophia · annoyance-1 · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\annoyance-1__a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\annoyance-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_annoyance-1__b",
+   "titel": "Sophia · annoyance-1 · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\annoyance-1__b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\annoyance-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_approval__a",
+   "titel": "Sophia · approval · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\approval__a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\approval.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_approval__b",
+   "titel": "Sophia · approval · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\approval__b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\approval.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_caring__a",
+   "titel": "Sophia · caring · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\caring__a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\caring.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_caring__b",
+   "titel": "Sophia · caring · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\caring__b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\caring.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_confusion-1__a",
+   "titel": "Sophia · confusion-1 · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\confusion-1__a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\confusion-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_confusion-1__b",
+   "titel": "Sophia · confusion-1 · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\confusion-1__b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\confusion-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_confusion__a",
+   "titel": "Sophia · confusion · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\confusion__a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\confusion.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_confusion__b",
+   "titel": "Sophia · confusion · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\confusion__b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\confusion.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_disappointment__a",
+   "titel": "Sophia · disappointment · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\disappointment__a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\disappointment.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_disappointment__b",
+   "titel": "Sophia · disappointment · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\disappointment__b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\disappointment.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_joy-1__a",
+   "titel": "Sophia · joy-1 · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\joy-1__a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\joy-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_joy-1__b",
+   "titel": "Sophia · joy-1 · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\joy-1__b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\joy-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_optimism-1__a",
+   "titel": "Sophia · optimism-1 · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\optimism-1__a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\optimism-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_optimism-1__b",
+   "titel": "Sophia · optimism-1 · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\optimism-1__b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\optimism-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_optimism__a",
+   "titel": "Sophia · optimism · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\optimism__a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\optimism.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_optimism__b",
+   "titel": "Sophia · optimism · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\optimism__b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\optimism.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_pride-1__a",
+   "titel": "Sophia · pride-1 · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\pride-1__a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\pride-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_pride-1__b",
+   "titel": "Sophia · pride-1 · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\pride-1__b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\pride-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_pride__a",
+   "titel": "Sophia · pride · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\pride__a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\pride.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_pride__b",
+   "titel": "Sophia · pride · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\pride__b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\pride.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_relief-1__a",
+   "titel": "Sophia · relief-1 · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\relief-1__a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\relief-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_relief-1__b",
+   "titel": "Sophia · relief-1 · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\relief-1__b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\relief-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_remorse-1__a",
+   "titel": "Sophia · remorse-1 · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\remorse-1__a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\remorse-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_remorse-1__b",
+   "titel": "Sophia · remorse-1 · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\remorse-1__b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\remorse-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_surprise-1__a",
+   "titel": "Sophia · surprise-1 · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\surprise-1__a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\surprise-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_surprise-1__b",
+   "titel": "Sophia · surprise-1 · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\surprise-1__b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\surprise-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_surprise__a",
+   "titel": "Sophia · surprise · Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\surprise__a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\surprise.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  },
+  {
+   "id": "Sophia_surprise__b",
+   "titel": "Sophia · surprise · Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia\\surprise__b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\surprise.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Hände und Arme im Bild, Haltung passt zum Gefühl. Je Pose höchstens eine Variante auf OK."
+  }
+ ]
+}

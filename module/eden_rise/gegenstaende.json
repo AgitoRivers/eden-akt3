@@ -1,0 +1,5392 @@
+{
+ "_hinweis": "Gebaut aus werkzeuge\\eden_rise\\gegenstaende_eden_rise.py - dort aendern.",
+ "kategorien": [
+  "essen",
+  "alkohol",
+  "schmuck",
+  "technik",
+  "papier",
+  "natur",
+  "party",
+  "intim"
+ ],
+ "haltung": {
+  "chiara": {
+   "essen": "0",
+   "alkohol": "0",
+   "schmuck": "+",
+   "technik": "0",
+   "papier": "+",
+   "natur": "+",
+   "party": "-",
+   "intim": "0"
+  },
+  "sophia": {
+   "essen": "+",
+   "alkohol": "+",
+   "schmuck": "+",
+   "technik": "-",
+   "papier": "+",
+   "natur": "0",
+   "party": "0",
+   "intim": "+"
+  },
+  "lea": {
+   "essen": "+",
+   "alkohol": "-",
+   "schmuck": "0",
+   "technik": "0",
+   "papier": "0",
+   "natur": "+",
+   "party": "+",
+   "intim": "0"
+  },
+  "rosi": {
+   "essen": "+",
+   "alkohol": "0",
+   "schmuck": "-",
+   "technik": "+",
+   "papier": "-",
+   "natur": "0",
+   "party": "+",
+   "intim": "0"
+  },
+  "siri": {
+   "essen": "0",
+   "alkohol": "0",
+   "schmuck": "-",
+   "technik": "-",
+   "papier": "+",
+   "natur": "+",
+   "party": "0",
+   "intim": "0"
+  },
+  "lola": {
+   "essen": "+",
+   "alkohol": "+",
+   "schmuck": "0",
+   "technik": "-",
+   "papier": "0",
+   "natur": "+",
+   "party": "+",
+   "intim": "+"
+  },
+  "alva": {
+   "essen": "0",
+   "alkohol": "+",
+   "schmuck": "+",
+   "technik": "-",
+   "papier": "0",
+   "natur": "0",
+   "party": "+",
+   "intim": "+"
+  },
+  "megan": {
+   "essen": "-",
+   "alkohol": "+",
+   "schmuck": "+",
+   "technik": "0",
+   "papier": "0",
+   "natur": "-",
+   "party": "-",
+   "intim": "0"
+  },
+  "holm": {
+   "essen": "+",
+   "alkohol": "0",
+   "schmuck": "-",
+   "technik": "0",
+   "papier": "+",
+   "natur": "+",
+   "party": "-",
+   "intim": "-"
+  },
+  "toto": {
+   "essen": "+",
+   "alkohol": "+",
+   "schmuck": "+",
+   "technik": "0",
+   "papier": "-",
+   "natur": "0",
+   "party": "+",
+   "intim": "0"
+  },
+  "yasin": {
+   "essen": "0",
+   "alkohol": "+",
+   "schmuck": "+",
+   "technik": "+",
+   "papier": "-",
+   "natur": "-",
+   "party": "+",
+   "intim": "0"
+  },
+  "elsa": {
+   "essen": "+",
+   "alkohol": "-",
+   "schmuck": "0",
+   "technik": "+",
+   "papier": "0",
+   "natur": "0",
+   "party": "-",
+   "intim": "-"
+  },
+  "petru": {
+   "essen": "+",
+   "alkohol": "+",
+   "schmuck": "-",
+   "technik": "-",
+   "papier": "0",
+   "natur": "+",
+   "party": "-",
+   "intim": "-"
+  },
+  "casanova": {
+   "essen": "+",
+   "alkohol": "0",
+   "schmuck": "+",
+   "technik": "-",
+   "papier": "0",
+   "natur": "0",
+   "party": "+",
+   "intim": "-"
+  }
+ },
+ "wirkung": {
+  "einzigartig": [
+   [
+    10,
+    6
+   ],
+   12
+  ],
+  "liebt": [
+   [
+    6,
+    4
+   ],
+   8
+  ],
+  "mag": [
+   [
+    4,
+    0
+   ],
+   4
+  ],
+  "neutral": [
+   [
+    0,
+    0
+   ],
+   0
+  ],
+  "mag_nicht": [
+   [
+    -4,
+    0
+   ],
+   -4
+  ],
+  "hasst": [
+   [
+    -8,
+    0
+   ],
+   -8
+  ]
+ },
+ "essen": {
+  "pro_tag": 1,
+  "lola_ab_3": 2,
+  "lieblings": 6,
+  "normal": 1,
+  "ekel": -6,
+  "deckel": 36,
+  "energie": 1
+ },
+ "kochen": {
+  "pro_tag": 1,
+  "ersetzt_essen": true,
+  "je_person_voll": 1,
+  "crew_moral": 1,
+  "moral_max_tag": 1,
+  "crew_punkte": 2,
+  "deckel": 36,
+  "vorteil": "kueche",
+  "stufen": {
+   "ekel": [
+    -6,
+    -6
+   ],
+   "fade": [
+    0,
+    0
+   ],
+   "normal": [
+    1,
+    1
+   ],
+   "gut": [
+    3,
+    2
+   ],
+   "liebt": [
+    6,
+    4
+   ]
+  },
+  "kritisch": "+1 Stufe",
+  "fehlschlag": "-1 Stufe"
+ },
+ "arten": {
+  "geschenk": [
+   "Vertrauen und Begehren nach Geschmack",
+   "handel.schenken (Geschmack je Person)"
+  ],
+  "einzigartig": [
+   "nur eine Person nimmt es an, +10 V · +6 B bzw. +12 V",
+   "handel.schenken (einzigartig)"
+  ],
+  "attribut": [
+   "+1 aufs Attribut, solange getragen, höchstens +2 pro Attribut",
+   "szene.feste_probe / Proben-Boni"
+  ],
+  "gluecksbringer": [
+   "einmal am Tag Vorteil auf ein Attribut",
+   "szene.feste_probe (vorteil, tagesnutzung)"
+  ],
+  "ressource": [
+   "Strom, Diesel, Moral, Energie, Reparatur",
+   "handel.benutzen -> zustand.folgen_anwenden"
+  ],
+  "teil": [
+   "Besorgung für einen Auftrag: keine Wirkung, nicht verschenkbar, nur kaufbar solange ein offener Auftrag es braucht, eigene Besorgungstasche mit 3 Plätzen",
+   "handel.sortiment/kaufen/job_machen (braucht)"
+  ],
+  "werkzeug": [
+   "Vorteil (oder +2) bei Aufträgen, die es nennen (werkzeug)",
+   "handel.jobs_heute (werkzeug_da)"
+  ],
+  "kampf": [
+   "wirkt nur im Kampf (heilen, Ausdauer, Zustaende, Gegner, Waffenpflege, Granaten), einmal verbraucht",
+   "kampf.gegenstand_anwenden"
+  ],
+  "material": [
+   "Rosis Material für Upgrades: Platten für Jacken, Steine und Barren für Waffen; wird beim Aufrüsten verbraucht",
+   "kampf.aufruesten (werkstatt.material)"
+  ],
+  "quest": [
+   "Quest-Gegenstand: noch keine Wirkung, wird später gebraucht; nicht verkaufbar, nicht verschenkbar, belegt keinen Taschenplatz",
+   "Menü Key Items (später Story/Aufträge)"
+  ],
+  "schluessel": [
+   "öffnet einen Ort, belegt keinen Taschenplatz",
+   "regeln.zugang ({\"item\": id})"
+  ],
+  "schmuggel": [
+   "wirkt beim Benutzen, Kontrollrisiko beim Tragen",
+   "handel.tagesende (Kontrolle bei Elsa)"
+  ],
+  "andenken": [
+   "keine Spielwirkung: Epilog und Sammlung",
+   "Epilog / Sammlung"
+  ],
+  "snack": [
+   "1 Essen am Tag: selbst essen = Energie +1, verschenken = Lieblingsessen +6 V/+6 B, sonst +1/+1, Ekel −6; zählt bis 36",
+   "handel.essen (neu, Merkmal 'heute gegessen')"
+  ],
+  "gericht": [
+   "selbst gekocht in Lolas Kombüse, 1 am Tag statt eines Snacks; Lieblingsgericht wirkt wie „liebt“ (+6 V · +4 B, je Person einmal voll), für die Crew Moral +1 (höchstens +1 am Tag aus Essen) und +2 für alle Anwesenden bis 36; Meisterwerk eine Stufe besser, misslungen eine schlechter",
+   "handel.kochen (Küchen-Vorteil der Persona)"
+  ]
+ },
+ "items": [
+  {
+   "id": "arancini",
+   "label": "Arancini from the Bakery",
+   "art": "geschenk",
+   "kat": "essen",
+   "preis": 15,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [
+    "rosi"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Arancini vom Bäcker",
+    "text": ""
+   }
+  },
+  {
+   "id": "olive_oil",
+   "label": "Corsican Olive Oil",
+   "art": "geschenk",
+   "kat": "essen",
+   "preis": 35,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Korsisches Olivenöl",
+    "text": ""
+   }
+  },
+  {
+   "id": "lolas_gewuerz",
+   "label": "Lola's Spice Mix “Ocean Glitter”",
+   "art": "geschenk",
+   "kat": "essen",
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [
+    "rosi"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Lolas Gewürzmischung „Ocean Glitter“",
+    "text": ""
+   }
+  },
+  {
+   "id": "tim_tams",
+   "label": "Tim Tams from Alva's Bar",
+   "art": "geschenk",
+   "kat": "essen",
+   "preis": 6,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [
+    "lola"
+   ],
+   "hasst": [
+    "yasin"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "The only Australian biscuits in all of Corsica. Lola cries a little.",
+   "de": {
+    "label": "Tim Tams aus Alvas Bar",
+    "text": "Die einzigen australischen Kekse in ganz Korsika. Lola weint ein bisschen."
+   }
+  },
+  {
+   "id": "lolas_kekse",
+   "label": "A Plate of Lola's Biscuits",
+   "art": "geschenk",
+   "kat": "essen",
+   "preis": null,
+   "quelle": [
+    "event",
+    "mission"
+   ],
+   "liebt": [
+    "megan"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "Megan doesn't eat sugar. Except these.",
+   "de": {
+    "label": "Ein Teller von Lolas Keksen",
+    "text": "Megan isst keinen Zucker. Außer diesen."
+   }
+  },
+  {
+   "id": "feigen",
+   "label": "Corsican Figs",
+   "art": "geschenk",
+   "kat": "essen",
+   "preis": 12,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [
+    "elsa"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Korsische Feigen",
+    "text": ""
+   }
+  },
+  {
+   "id": "proteinriegel",
+   "label": "Protein Bar",
+   "art": "geschenk",
+   "kat": "essen",
+   "preis": 6,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [
+    "yasin"
+   ],
+   "hasst": [
+    "lola"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Proteinriegel",
+    "text": ""
+   }
+  },
+  {
+   "id": "franzbroetchen",
+   "label": "Hamburg Cinnamon Roll (Homemade)",
+   "art": "geschenk",
+   "kat": "essen",
+   "preis": null,
+   "quelle": [
+    "mission"
+   ],
+   "liebt": [
+    "chiara"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "Like in Hamburg. Almost. Lola helped.",
+   "de": {
+    "label": "Franzbrötchen (selbst gebacken)",
+    "text": "Wie in Hamburg. Fast. Lola hat geholfen."
+   }
+  },
+  {
+   "id": "canistrelli",
+   "label": "Aniseed Canistrelli",
+   "art": "geschenk",
+   "kat": "essen",
+   "preis": 9,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [
+    "petru"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "Corsican biscuits that keep forever.",
+   "de": {
+    "label": "Canistrelli mit Anis",
+    "text": "Korsisches Gebäck, hält ewig."
+   }
+  },
+  {
+   "id": "myrtle",
+   "label": "Myrtle Liqueur",
+   "art": "geschenk",
+   "kat": "alkohol",
+   "preis": 30,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [
+    "alva",
+    "petru"
+   ],
+   "hasst": [
+    "elsa"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Myrtenlikör",
+    "text": ""
+   }
+  },
+  {
+   "id": "single_malt",
+   "label": "Islay Single Malt",
+   "art": "geschenk",
+   "kat": "alkohol",
+   "preis": 95,
+   "quelle": [
+    "eden",
+    "toto"
+   ],
+   "liebt": [
+    "megan"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Single Malt aus Islay",
+    "text": ""
+   }
+  },
+  {
+   "id": "limoncello",
+   "label": "Homemade Limoncello",
+   "art": "geschenk",
+   "kat": "alkohol",
+   "preis": 22,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [
+    "toto"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Hausgemachter Limoncello",
+    "text": ""
+   }
+  },
+  {
+   "id": "cap_corse",
+   "label": "Cap Corse Aperitif",
+   "art": "geschenk",
+   "kat": "alkohol",
+   "preis": 28,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Cap Corse Aperitif",
+    "text": ""
+   }
+  },
+  {
+   "id": "pink_pearl",
+   "label": "Pink Pearl on a Fine Chain",
+   "art": "geschenk",
+   "kat": "schmuck",
+   "preis": 150,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [
+    "chiara"
+   ],
+   "hasst": [
+    "rosi"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Rosa Perle an feiner Kette",
+    "text": ""
+   }
+  },
+  {
+   "id": "designer_perfume",
+   "label": "Designer Perfume",
+   "art": "geschenk",
+   "kat": "schmuck",
+   "preis": 140,
+   "quelle": [
+    "toto",
+    "eden"
+   ],
+   "liebt": [
+    "megan"
+   ],
+   "hasst": [
+    "siri",
+    "lea"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Designerparfum",
+    "text": ""
+   }
+  },
+  {
+   "id": "shell_anklet",
+   "label": "Shell Anklet",
+   "art": "geschenk",
+   "kat": "schmuck",
+   "preis": 30,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": {
+    "vertrauen": 2
+   },
+   "text": "",
+   "de": {
+    "label": "Fußkettchen mit Muschel",
+    "text": ""
+   }
+  },
+  {
+   "id": "herzbrille",
+   "label": "Heart-Shaped Diva Sunglasses",
+   "art": "geschenk",
+   "kat": "schmuck",
+   "preis": 25,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [
+    "casanova"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Diva-Sonnenbrille in Herzform",
+    "text": ""
+   }
+  },
+  {
+   "id": "goldkette",
+   "label": "Thick Gold Chain (Probably Real)",
+   "art": "geschenk",
+   "kat": "schmuck",
+   "preis": 90,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [
+    "toto"
+   ],
+   "hasst": [
+    "chiara"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Dicke Goldkette (vermutlich echt)",
+    "text": ""
+   }
+  },
+  {
+   "id": "designer_sonnenbrille",
+   "label": "Designer Sunglasses",
+   "art": "geschenk",
+   "kat": "schmuck",
+   "preis": 140,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [
+    "yasin"
+   ],
+   "hasst": [
+    "petru"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Designer-Sonnenbrille",
+    "text": ""
+   }
+  },
+  {
+   "id": "silberring",
+   "label": "Slim Silver Ring from the Market",
+   "art": "geschenk",
+   "kat": "schmuck",
+   "preis": 45,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Schmaler Silberring vom Markt",
+    "text": ""
+   }
+  },
+  {
+   "id": "torque_wrench",
+   "label": "Professional Torque Wrench",
+   "art": "geschenk",
+   "kat": "technik",
+   "preis": 90,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [
+    "rosi"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Profi-Drehmomentschlüssel",
+    "text": ""
+   }
+  },
+  {
+   "id": "dive_torch",
+   "label": "Dive Torch",
+   "art": "geschenk",
+   "kat": "technik",
+   "preis": 80,
+   "quelle": [
+    "toto",
+    "alva"
+   ],
+   "liebt": [
+    "lea",
+    "elsa"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Tauchlampe",
+    "text": ""
+   }
+  },
+  {
+   "id": "moka",
+   "label": "Neapolitan Moka Pot",
+   "art": "geschenk",
+   "kat": "technik",
+   "preis": 30,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [
+    "toto"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Neapolitanische Espressokanne",
+    "text": ""
+   }
+  },
+  {
+   "id": "selfie_stick",
+   "label": "Carbon Selfie Stick",
+   "art": "geschenk",
+   "kat": "technik",
+   "preis": 35,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [
+    "yasin"
+   ],
+   "hasst": [
+    "petru"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Selfie-Stick aus Karbon",
+    "text": ""
+   }
+  },
+  {
+   "id": "polbrille",
+   "label": "Polarised Sunglasses",
+   "art": "geschenk",
+   "kat": "technik",
+   "preis": 60,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [
+    "elsa"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Polarisierte Sonnenbrille",
+    "text": ""
+   }
+  },
+  {
+   "id": "schweizer_messer",
+   "label": "Pocket Knife",
+   "art": "geschenk",
+   "kat": "technik",
+   "preis": 40,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Taschenmesser",
+    "text": ""
+   }
+  },
+  {
+   "id": "fountain_pen",
+   "label": "Fountain Pen",
+   "art": "geschenk",
+   "kat": "papier",
+   "preis": 70,
+   "quelle": [
+    "toto",
+    "eden"
+   ],
+   "liebt": [
+    "sophia",
+    "megan"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Füllfederhalter",
+    "text": ""
+   }
+  },
+  {
+   "id": "notebook",
+   "label": "Leather Notebook",
+   "art": "geschenk",
+   "kat": "papier",
+   "preis": 40,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [
+    "siri"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Notizbuch aus Leder",
+    "text": ""
+   }
+  },
+  {
+   "id": "gedichtband",
+   "label": "Second-Hand Book of Poems",
+   "art": "geschenk",
+   "kat": "papier",
+   "preis": 15,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [
+    "sophia"
+   ],
+   "hasst": [
+    "toto"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Gedichtband aus dem Antiquariat",
+    "text": ""
+   }
+  },
+  {
+   "id": "almanac",
+   "label": "Nautical Almanac",
+   "art": "geschenk",
+   "kat": "papier",
+   "preis": 60,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [
+    "holm",
+    "petru"
+   ],
+   "hasst": [
+    "casanova"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Nautischer Almanach",
+    "text": ""
+   }
+  },
+  {
+   "id": "old_chart",
+   "label": "Old Chart of the West Coast",
+   "art": "geschenk",
+   "kat": "papier",
+   "preis": 120,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [
+    "petru"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Alte Seekarte der Westküste",
+    "text": ""
+   }
+  },
+  {
+   "id": "pinup_magazin",
+   "label": "Men's Magazine with a Pin-Up",
+   "art": "geschenk",
+   "kat": "papier",
+   "preis": 12,
+   "quelle": [
+    "toto",
+    "alva"
+   ],
+   "liebt": [
+    "toto"
+   ],
+   "hasst": [
+    "sophia",
+    "elsa"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "An Italian magazine with a beautiful, half-naked woman on the cover. Totò reads it “for the articles”.",
+   "de": {
+    "label": "Herrenmagazin mit Pin-up",
+    "text": "Italienisches Magazin, auf dem Titel eine schöne, halbnackte Frau. Totò liest es „wegen der Artikel“."
+   }
+  },
+  {
+   "id": "ducs_gedicht",
+   "label": "Duc's Poem about the Sea",
+   "art": "geschenk",
+   "kat": "papier",
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [
+    "chiara"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Ducs Gedicht über das Meer",
+    "text": ""
+   }
+  },
+  {
+   "id": "muschelkette_kinder",
+   "label": "Homemade Shell Necklace with Beads",
+   "art": "geschenk",
+   "kat": "schmuck",
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [
+    "siri"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "Made by the village children, a little crooked. Siri puts it on straight away.",
+   "de": {
+    "label": "Selbstgemachte Muschelkette mit Perlen",
+    "text": "Von den Dorfkindern gebastelt, ein bisschen schief. Siri trägt sie sofort."
+   }
+  },
+  {
+   "id": "pretty_shell",
+   "label": "A Beautiful Shell",
+   "art": "geschenk",
+   "kat": "natur",
+   "preis": 12,
+   "quelle": [
+    "alva",
+    "fund"
+   ],
+   "liebt": [
+    "lea"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Schöne Muschel",
+    "text": ""
+   }
+  },
+  {
+   "id": "seeglas",
+   "label": "Green Sea Glass",
+   "art": "geschenk",
+   "kat": "natur",
+   "preis": null,
+   "quelle": [
+    "event",
+    "fund"
+   ],
+   "liebt": [
+    "siri"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Grünes Seeglas",
+    "text": ""
+   }
+  },
+  {
+   "id": "alvas_rose",
+   "label": "Alva's Rose",
+   "art": "geschenk",
+   "kat": "natur",
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [
+    "lola",
+    "siri"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Alvas Rose",
+    "text": ""
+   }
+  },
+  {
+   "id": "wool_socks",
+   "label": "Hand-Knitted Wool Socks",
+   "art": "geschenk",
+   "kat": "natur",
+   "preis": 18,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [
+    "holm",
+    "chiara"
+   ],
+   "hasst": [
+    "yasin"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Handgestrickte Wollsocken",
+    "text": ""
+   }
+  },
+  {
+   "id": "wollmuetze",
+   "label": "Wool Hat with a Nordic Pattern",
+   "art": "geschenk",
+   "kat": "natur",
+   "preis": 22,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [
+    "holm"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Wollmütze mit Norwegermuster",
+    "text": ""
+   }
+  },
+  {
+   "id": "candles",
+   "label": "Scented Candles “Maquis”",
+   "art": "geschenk",
+   "kat": "natur",
+   "preis": 25,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [
+    "sophia"
+   ],
+   "hasst": [
+    "rosi"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Duftkerzen „Maquis“",
+    "text": ""
+   }
+  },
+  {
+   "id": "messing_anker",
+   "label": "Brass Anchor Keyring",
+   "art": "geschenk",
+   "kat": "natur",
+   "preis": null,
+   "quelle": [
+    "event",
+    "fund"
+   ],
+   "liebt": [
+    "holm"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "Rusty, fished out of the bay.",
+   "de": {
+    "label": "Messing-Anker als Schlüsselanhänger",
+    "text": "Rostig, aus der Bucht geangelt."
+   }
+  },
+  {
+   "id": "macchia_strauss",
+   "label": "Bouquet from the Macchia",
+   "art": "geschenk",
+   "kat": "natur",
+   "preis": 0,
+   "quelle": [
+    "fund"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "Wild myrtle and rosemary from the hillside.",
+   "de": {
+    "label": "Strauß aus der Macchia",
+    "text": "Wilde Myrte und Rosmarin vom Hang."
+   }
+  },
+  {
+   "id": "korallenzweig",
+   "label": "Small Branch of Coral (Beach Find)",
+   "art": "geschenk",
+   "kat": "natur",
+   "preis": null,
+   "quelle": [
+    "fund"
+   ],
+   "liebt": [
+    "petru"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Kleiner Korallenzweig (Strandfund)",
+    "text": ""
+   }
+  },
+  {
+   "id": "bauchnabelpiercing",
+   "label": "Belly Button Piercing with a Shell",
+   "art": "geschenk",
+   "kat": "schmuck",
+   "preis": 18,
+   "quelle": [
+    "alva",
+    "event"
+   ],
+   "liebt": [
+    "lola"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Bauchnabelpiercing mit Muschel",
+    "text": ""
+   }
+  },
+  {
+   "id": "eden_cap",
+   "label": "Eden Group Cap",
+   "art": "geschenk",
+   "kat": "party",
+   "preis": 25,
+   "quelle": [
+    "eden",
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [
+    "siri",
+    "holm",
+    "alva"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Eden-Group-Kappe",
+    "text": ""
+   }
+  },
+  {
+   "id": "goldfisch",
+   "label": "Goldfish in a Water Bag",
+   "art": "geschenk",
+   "kat": "natur",
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [
+    "lea"
+   ],
+   "hasst": [
+    "chiara"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "From a stall at the Festa. Lea names it immediately, somehow.",
+   "de": {
+    "label": "Goldfisch in der Wassertüte",
+    "text": "Vom Festa-Stand. Lea nennt ihn sofort irgendwie."
+   }
+  },
+  {
+   "id": "konfetti",
+   "label": "Bag of Confetti",
+   "art": "geschenk",
+   "kat": "party",
+   "preis": 8,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [
+    "casanova"
+   ],
+   "hasst": [
+    "megan"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Tüte Konfetti",
+    "text": ""
+   }
+  },
+  {
+   "id": "schaerpe",
+   "label": "Glitter Sash “Miss Cala d'Orsu”",
+   "art": "geschenk",
+   "kat": "party",
+   "preis": 30,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [
+    "casanova"
+   ],
+   "hasst": [
+    "elsa"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Glitzer-Schärpe „Miss Cala d'Orsu“",
+    "text": ""
+   }
+  },
+  {
+   "id": "faecher",
+   "label": "Flamenco Fan",
+   "art": "geschenk",
+   "kat": "party",
+   "preis": 18,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [
+    "alva"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Flamenco-Fächer",
+    "text": ""
+   }
+  },
+  {
+   "id": "lichterkette",
+   "label": "Solar Fairy Lights",
+   "art": "geschenk",
+   "kat": "party",
+   "preis": 20,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Solar-Lichterkette",
+    "text": ""
+   }
+  },
+  {
+   "id": "ukulele",
+   "label": "Second-Hand Ukulele",
+   "art": "geschenk",
+   "kat": "party",
+   "preis": 55,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [
+    "lola"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Gebrauchte Ukulele",
+    "text": ""
+   }
+  },
+  {
+   "id": "massage_oil",
+   "label": "Neroli Massage Oil",
+   "art": "geschenk",
+   "kat": "intim",
+   "preis": 35,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": {
+    "vertrauen": 2,
+    "begehren": 3
+   },
+   "text": "",
+   "de": {
+    "label": "Massageöl mit Neroli",
+    "text": ""
+   }
+  },
+  {
+   "id": "silk_blindfold",
+   "label": "Silk Blindfold",
+   "art": "geschenk",
+   "kat": "intim",
+   "preis": 45,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": {
+    "begehren": 3
+   },
+   "text": "",
+   "de": {
+    "label": "Seidene Augenbinde",
+    "text": ""
+   }
+  },
+  {
+   "id": "silk_kimono",
+   "label": "Silk Kimono",
+   "art": "geschenk",
+   "kat": "intim",
+   "preis": 95,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [
+    "alva"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": {
+    "begehren": 3
+   },
+   "text": "",
+   "de": {
+    "label": "Seidenkimono",
+    "text": ""
+   }
+  },
+  {
+   "id": "massage_candle",
+   "label": "Massage Candle with Warming Oil",
+   "art": "geschenk",
+   "kat": "intim",
+   "preis": 40,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": {
+    "begehren": 3
+   },
+   "text": "",
+   "de": {
+    "label": "Massagekerze mit Wärmeöl",
+    "text": ""
+   }
+  },
+  {
+   "id": "stockings",
+   "label": "Lace-Top Hold-Up Stockings",
+   "art": "geschenk",
+   "kat": "intim",
+   "preis": 55,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [
+    "alva"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": {
+    "vertrauen": 3,
+    "begehren": 3
+   },
+   "text": "",
+   "de": {
+    "label": "Halterlose Strümpfe mit Spitzenrand",
+    "text": ""
+   }
+  },
+  {
+   "id": "satin_ties",
+   "label": "Satin Bed Restraints",
+   "art": "geschenk",
+   "kat": "intim",
+   "preis": 50,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": {
+    "vertrauen": 4,
+    "begehren": 4
+   },
+   "text": "",
+   "de": {
+    "label": "Satin-Fesselband fürs Bett",
+    "text": ""
+   }
+  },
+  {
+   "id": "nipple_clamps",
+   "label": "Nipple Clamps with a Chain",
+   "art": "geschenk",
+   "kat": "intim",
+   "preis": 45,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": {
+    "vertrauen": 4,
+    "begehren": 5
+   },
+   "text": "",
+   "de": {
+    "label": "Nippelklemmen mit Kettchen",
+    "text": ""
+   }
+  },
+  {
+   "id": "lingerie",
+   "label": "Champagne Lace Lingerie",
+   "art": "geschenk",
+   "kat": "intim",
+   "preis": 120,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": {
+    "vertrauen": 3,
+    "begehren": 3
+   },
+   "text": "",
+   "de": {
+    "label": "Spitzen-Dessous in Champagner",
+    "text": ""
+   }
+  },
+  {
+   "id": "plush_cuffs",
+   "label": "Plush Handcuffs",
+   "art": "geschenk",
+   "kat": "intim",
+   "preis": 40,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": {
+    "vertrauen": 3,
+    "begehren": 4
+   },
+   "text": "",
+   "de": {
+    "label": "Plüsch-Handschellen",
+    "text": ""
+   }
+  },
+  {
+   "id": "eden_wave",
+   "label": "Vibrator “Eden Wave”",
+   "art": "geschenk",
+   "kat": "intim",
+   "preis": 90,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": {
+    "vertrauen": 3,
+    "begehren": 4
+   },
+   "text": "",
+   "de": {
+    "label": "Vibrator „Eden Wave“",
+    "text": ""
+   }
+  },
+  {
+   "id": "jeweled_plug",
+   "label": "Jewelled Butt Plug",
+   "art": "geschenk",
+   "kat": "intim",
+   "preis": 60,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": {
+    "vertrauen": 4,
+    "begehren": 5
+   },
+   "text": "",
+   "de": {
+    "label": "Butt Plug mit Schmuckstein",
+    "text": ""
+   }
+  },
+  {
+   "id": "flamenco_dessous",
+   "label": "Ruffled Lingerie",
+   "art": "geschenk",
+   "kat": "intim",
+   "preis": 85,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [
+    "alva"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": {
+    "vertrauen": 3,
+    "begehren": 3
+   },
+   "text": "Red and black, from Alva's own stock under the counter.",
+   "de": {
+    "label": "Dessous mit Rüschen",
+    "text": "Rot und schwarz, aus Alvas eigenem Laden unter der Theke."
+   }
+  },
+  {
+   "id": "chiara_tasse",
+   "label": "A Cup Just for Her",
+   "art": "einzigartig",
+   "kat": "technik",
+   "preis": 90,
+   "quelle": [
+    "toto3"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": "chiara",
+   "wirkung": {},
+   "intim": null,
+   "text": "Hand-painted in Petru's workshop, with her name on it. For her, not for the guests. Chain: Petru + Lola.",
+   "de": {
+    "label": "Eine Tasse nur für sie",
+    "text": "Handbemalt in Petrus Werkstatt, mit ihrem Namen. Für sie, nicht für die Gäste. Kette: Petru + Lola."
+   }
+  },
+  {
+   "id": "rosi_schild",
+   "label": "Workshop Sign “Scuderi & Figlie”",
+   "art": "einzigartig",
+   "kat": "technik",
+   "preis": 110,
+   "quelle": [
+    "toto3"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": "rosi",
+   "wirkung": {},
+   "intim": null,
+   "text": "Carved from driftwood by Petru. For the workshop she wants to have one day.",
+   "de": {
+    "label": "Werkstattschild „Scuderi & Figlie“",
+    "text": "Aus Treibholz, von Petru geschnitzt. Für die Werkstatt, die sie eines Tages haben will."
+   }
+  },
+  {
+   "id": "sophia_fueller",
+   "label": "A Pen with Her Own Name",
+   "art": "einzigartig",
+   "kat": "papier",
+   "preis": 140,
+   "quelle": [
+    "toto3"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": "sophia",
+   "wirkung": {},
+   "intim": null,
+   "text": "Engraved with Sophia Moore, not with any other name. For what she wants to write herself.",
+   "de": {
+    "label": "Füller mit ihrem eigenen Namen",
+    "text": "Graviert mit Sophia Moore, nicht mit irgendeinem anderen Namen. Für das, was sie selbst schreiben will."
+   }
+  },
+  {
+   "id": "lea_tauchcomputer",
+   "label": "Dive Computer",
+   "art": "einzigartig",
+   "kat": "technik",
+   "preis": 190,
+   "quelle": [
+    "toto3"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": "lea",
+   "wirkung": {},
+   "intim": null,
+   "text": "For her own plans, safely planned. Chain: Elsa + Totò.",
+   "de": {
+    "label": "Tauchcomputer",
+    "text": "Für ihre eigenen Pläne, sicher geplant. Kette: Elsa + Totò."
+   }
+  },
+  {
+   "id": "siri_ratgeber",
+   "label": "Guide: The Art of Fishing in Corsica",
+   "art": "einzigartig",
+   "kat": "papier",
+   "preis": 100,
+   "quelle": [
+    "toto3"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": "siri",
+   "wirkung": {},
+   "intim": null,
+   "text": "From Petru's stories, bound by hand. For her father.",
+   "de": {
+    "label": "Ratgeber: Die Kunst der Fischerei auf Korsika",
+    "text": "Aus Petrus Erzählungen, von Hand gebunden. Für ihren Vater."
+   }
+  },
+  {
+   "id": "lola_vegemite",
+   "label": "A Jar of Vegemite",
+   "art": "einzigartig",
+   "kat": "essen",
+   "preis": 60,
+   "quelle": [
+    "toto3"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": "lola",
+   "wirkung": {},
+   "intim": null,
+   "text": "From Alva's secret stash. Lola calls it home in brown.",
+   "de": {
+    "label": "Ein Glas Vegemite",
+    "text": "Aus Alvas Geheimvorrat. Lola nennt es Heimat in braun."
+   }
+  },
+  {
+   "id": "alva_kastagnetten",
+   "label": "Her Grandmother's Castanets",
+   "art": "einzigartig",
+   "kat": "party",
+   "preis": 130,
+   "quelle": [
+    "toto3"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": "alva",
+   "wirkung": {},
+   "intim": null,
+   "text": "Repaired by Petru. Chain: Alva + Petru.",
+   "de": {
+    "label": "Die Kastagnetten ihrer Großmutter",
+    "text": "Von Petru repariert. Kette: Alva + Petru."
+   }
+  },
+  {
+   "id": "megan_crewkarte",
+   "label": "A Card Signed by the Whole Crew",
+   "art": "einzigartig",
+   "kat": "papier",
+   "preis": null,
+   "quelle": [
+    "kette"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": "megan",
+   "wirkung": {},
+   "intim": null,
+   "text": "Framed. None of it can be bought.",
+   "de": {
+    "label": "Eine Karte, von der ganzen Crew unterschrieben",
+    "text": "Gerahmt. Nichts davon kann man kaufen."
+   }
+  },
+  {
+   "id": "holm_lakritz",
+   "label": "A Tin of Norwegian Salt Liquorice",
+   "art": "einzigartig",
+   "kat": "essen",
+   "preis": null,
+   "quelle": [
+    "mission"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": "holm",
+   "wirkung": {},
+   "intim": null,
+   "text": "Bring-me job: Elsa takes it to the hospital.",
+   "de": {
+    "label": "Eine Dose norwegischer Salzlakritz",
+    "text": "Bring-mir-Auftrag: Elsa bringt sie ins Krankenhaus."
+   }
+  },
+  {
+   "id": "toto_gennaro",
+   "label": "San Gennaro Figurine from Naples",
+   "art": "einzigartig",
+   "kat": "party",
+   "preis": 110,
+   "quelle": [
+    "toto3"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": "toto",
+   "wirkung": {},
+   "intim": null,
+   "text": "Chain: the cousin from Bastia + Alva.",
+   "de": {
+    "label": "Figur des San Gennaro aus Neapel",
+    "text": "Kette: der Cousin aus Bastia + Alva."
+   }
+  },
+  {
+   "id": "yasin_goldbrille",
+   "label": "Gold Sunglasses “Monaco”",
+   "art": "einzigartig",
+   "kat": "schmuck",
+   "preis": 150,
+   "quelle": [
+    "toto3"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": "yasin",
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Goldene Sonnenbrille „Monaco“",
+    "text": ""
+   }
+  },
+  {
+   "id": "elsa_strafzettelblock",
+   "label": "Leather-Bound Ticket Book",
+   "art": "einzigartig",
+   "kat": "papier",
+   "preis": 120,
+   "quelle": [
+    "toto3"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": "elsa",
+   "wirkung": {},
+   "intim": null,
+   "text": "With her initials. She laughs out loud for the first time.",
+   "de": {
+    "label": "Strafzettelblock, in Leder gebunden",
+    "text": "Mit ihren Initialen. Sie lacht zum ersten Mal laut."
+   }
+  },
+  {
+   "id": "petru_tabak",
+   "label": "Pipe Tobacco “Bastia Noir”",
+   "art": "einzigartig",
+   "kat": "natur",
+   "preis": 80,
+   "quelle": [
+    "toto3"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": "petru",
+   "wirkung": {},
+   "intim": null,
+   "text": "Bring-me job: only Totò can get it.",
+   "de": {
+    "label": "Pfeifentabak „Bastia Noir“",
+    "text": "Bring-mir-Auftrag: nur Totò kann ihn besorgen."
+   }
+  },
+  {
+   "id": "casanova_kanone",
+   "label": "Confetti Cannon",
+   "art": "einzigartig",
+   "kat": "party",
+   "preis": 100,
+   "quelle": [
+    "toto3"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": "casanova",
+   "wirkung": {},
+   "intim": null,
+   "text": "For the Festa. She will aim it at the yacht.",
+   "de": {
+    "label": "Konfettikanone",
+    "text": "Für die Festa. Sie wird damit auf die Yacht zielen."
+   }
+  },
+  {
+   "id": "holm_compass",
+   "label": "Holm's Brass Compass",
+   "art": "attribut",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "bonus": [
+     "courage",
+     1
+    ]
+   },
+   "intim": null,
+   "text": "At the farewell, from Holm's trust 2. Her father's compass.",
+   "de": {
+    "label": "Holms Messingkompass",
+    "text": "Beim Abschied, ab Holms Vertrauen 2. Der Kompass ihres Vaters."
+   }
+  },
+  {
+   "id": "petrus_hammer",
+   "label": "Petru's Little Hammer",
+   "art": "attribut",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "bonus": [
+     "courage",
+     1
+    ]
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Petrus kleiner Hammer",
+    "text": ""
+   }
+  },
+  {
+   "id": "leas_taucherbrille",
+   "label": "Lea's Old Dive Mask",
+   "art": "attribut",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "bonus": [
+     "perception",
+     1
+    ]
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Leas alte Taucherbrille",
+    "text": ""
+   }
+  },
+  {
+   "id": "elsas_taschenlampe",
+   "label": "Elsa's Service Torch",
+   "art": "attribut",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "mission"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "bonus": [
+     "perception",
+     1
+    ]
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Elsas Dienst-Taschenlampe",
+    "text": ""
+   }
+  },
+  {
+   "id": "rosis_handschuhe",
+   "label": "Rosi's Workshop Gloves",
+   "art": "attribut",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "bonus": [
+     "cunning",
+     1
+    ]
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Rosis Werkstatthandschuhe",
+    "text": ""
+   }
+  },
+  {
+   "id": "totos_notizbuch",
+   "label": "Totò's Notebook of Prices",
+   "art": "attribut",
+   "kat": null,
+   "preis": 220,
+   "quelle": [
+    "toto4"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "bonus": [
+     "cunning",
+     1
+    ]
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Totòs Notizbuch mit Preisen",
+    "text": ""
+   }
+  },
+  {
+   "id": "siris_halstuch",
+   "label": "Siri's Silk Neckerchief",
+   "art": "attribut",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "mission"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "bonus": [
+     "charm",
+     1
+    ]
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Siris Seidenhalstuch",
+    "text": ""
+   }
+  },
+  {
+   "id": "megans_manschetten",
+   "label": "Megan's Cufflinks",
+   "art": "attribut",
+   "kat": null,
+   "preis": 260,
+   "quelle": [
+    "eden"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "bonus": [
+     "charm",
+     1
+    ]
+   },
+   "intim": null,
+   "text": "Black onyx, a golden anchor. From Megan's trust 3 in the Eden Shop.",
+   "de": {
+    "label": "Megans Manschettenknöpfe",
+    "text": "Schwarzer Onyx, ein goldener Anker. Ab Megans Vertrauen 3 im Eden-Shop."
+   }
+  },
+  {
+   "id": "lolas_band",
+   "label": "Lola's Friendship Bracelet",
+   "art": "attribut",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "mission"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "bonus": [
+     "empathy",
+     1
+    ]
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Lolas Freundschaftsband",
+    "text": ""
+   }
+  },
+  {
+   "id": "sophias_lesezeichen",
+   "label": "Sophia's Bookmark",
+   "art": "attribut",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "mission"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "bonus": [
+     "empathy",
+     1
+    ]
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Sophias Lesezeichen",
+    "text": ""
+   }
+  },
+  {
+   "id": "multitool",
+   "label": "Multitool",
+   "art": "gluecksbringer",
+   "kat": null,
+   "preis": 90,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "vorteil": "cunning"
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Multitool",
+    "text": ""
+   }
+  },
+  {
+   "id": "lockpicks",
+   "label": "Lock Pick Set",
+   "art": "gluecksbringer",
+   "kat": null,
+   "preis": 180,
+   "quelle": [
+    "toto3"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "vorteil": "cunning"
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Dietrich-Set",
+    "text": ""
+   }
+  },
+  {
+   "id": "binoculars",
+   "label": "Binoculars",
+   "art": "gluecksbringer",
+   "kat": null,
+   "preis": 220,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "vorteil": "perception"
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Fernglas",
+    "text": ""
+   }
+  },
+  {
+   "id": "petrus_messer",
+   "label": "Petru's Old Fishing Knife",
+   "art": "gluecksbringer",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "vorteil": "perception"
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Petrus altes Fischermesser",
+    "text": ""
+   }
+  },
+  {
+   "id": "aftershave",
+   "label": "Aftershave “Bastia”",
+   "art": "gluecksbringer",
+   "kat": null,
+   "preis": 150,
+   "quelle": [
+    "alva3"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "vorteil": "charm"
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Rasierwasser „Bastia“",
+    "text": ""
+   }
+  },
+  {
+   "id": "plektrum",
+   "label": "Lola's Plectrum",
+   "art": "gluecksbringer",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "vorteil": "charm"
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Lolas Plektrum",
+    "text": ""
+   }
+  },
+  {
+   "id": "megan_screenshot",
+   "label": "Wrong Chat",
+   "art": "gluecksbringer",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "vorteil": "charm"
+   },
+   "intim": null,
+   "text": "She says it was a mistake. Megan McAllister doesn't make mistakes. Once a day: advantage on Charm with Megan.",
+   "de": {
+    "label": "Wrong Chat (Megans Foto)",
+    "text": ""
+   }
+  },
+  {
+   "id": "lucky_coin",
+   "label": "Lucky Coin from Alva",
+   "art": "gluecksbringer",
+   "kat": null,
+   "preis": 120,
+   "quelle": [
+    "alva2"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "vorteil": "courage"
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Glücksmünze von Alva",
+    "text": ""
+   }
+  },
+  {
+   "id": "elsas_abzeichen",
+   "label": "Badge of the Gendarmerie Maritime",
+   "art": "gluecksbringer",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "vorteil": "courage"
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Abzeichen der Gendarmerie maritime",
+    "text": ""
+   }
+  },
+  {
+   "id": "dumenica_amulet",
+   "label": "Dumenica's Amulet",
+   "art": "gluecksbringer",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "vorteil": "perception"
+   },
+   "intim": null,
+   "text": "A little silver hand on a black cord. Mazzere wear it so they wake up from the hunt."
+  },
+  {
+   "id": "legion_kepi",
+   "label": "Wolff's Képi",
+   "art": "gluecksbringer",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "vorteil": "courage"
+   },
+   "intim": null,
+   "text": "A white képi with a frayed band. People stand up straighter when they see it."
+  },
+  {
+   "id": "tarot",
+   "label": "Tarot Cards",
+   "art": "gluecksbringer",
+   "kat": null,
+   "preis": 100,
+   "quelle": [
+    "alva",
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "vorteil": "empathy"
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Tarotkarten",
+    "text": ""
+   }
+  },
+  {
+   "id": "netzknoten",
+   "label": "Petru's Net Knot",
+   "art": "gluecksbringer",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "vorteil": "empathy"
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Petrus Netzknoten",
+    "text": ""
+   }
+  },
+  {
+   "id": "diesel_canister",
+   "label": "Can of Diesel",
+   "art": "ressource",
+   "kat": null,
+   "preis": 120,
+   "quelle": [
+    "toto",
+    "alva"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "wert": [
+     "diesel",
+     1
+    ]
+   },
+   "intim": null,
+   "text": "At Alva's, one can a day at most, and dearer than at Totò's.",
+   "de": {
+    "label": "Kanister Diesel",
+    "text": "Bei Alva höchstens ein Kanister am Tag und teurer als bei Totò."
+   }
+  },
+  {
+   "id": "used_battery",
+   "label": "Used Boat Battery",
+   "art": "ressource",
+   "kat": null,
+   "preis": 250,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "wert": [
+     "strom",
+     2
+    ]
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Gebrauchte Bootsbatterie",
+    "text": ""
+   }
+  },
+  {
+   "id": "panel_cleaner",
+   "label": "Solar Panel Cleaner",
+   "art": "ressource",
+   "kat": null,
+   "preis": 60,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "wert": [
+     "strom",
+     1
+    ]
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Paneel-Reiniger",
+    "text": ""
+   }
+  },
+  {
+   "id": "ersatzteilkiste",
+   "label": "Box of Spare Parts",
+   "art": "ressource",
+   "kat": null,
+   "preis": 180,
+   "quelle": [
+    "eden",
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "uhr": [
+     "reparatur",
+     1
+    ]
+   },
+   "intim": null,
+   "text": "Screws, seals, cable lugs. Rosi beams.",
+   "de": {
+    "label": "Kiste Ersatzteile",
+    "text": "Schrauben, Dichtungen, Kabelschuhe. Rosi strahlt."
+   }
+  },
+  {
+   "id": "espresso",
+   "label": "Double Espresso",
+   "art": "ressource",
+   "kat": null,
+   "preis": 5,
+   "quelle": [
+    "toto",
+    "alva"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "wert": [
+     "energie",
+     1
+    ]
+   },
+   "intim": null,
+   "text": "In a fight: +3 stamina, but your hands shake: parry window −10 % this round. Quick: costs no turn.",
+   "kampf": {
+    "ausdauer": 3,
+    "parade": [
+     -0.1,
+     1
+    ],
+    "schnell": true
+   },
+   "de": {
+    "label": "Doppelter Espresso",
+    "text": ""
+   }
+  },
+  {
+   "id": "energieriegel",
+   "label": "Lola's Energy Bar",
+   "art": "ressource",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "lola3"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "wert": [
+     "energie",
+     1
+    ]
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Lolas Energieriegel",
+    "text": ""
+   }
+  },
+  {
+   "id": "lolas_pesto",
+   "label": "Lola's “Special Pesto”",
+   "art": "ressource",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Lolas „Spezial-Pesto“",
+    "text": ""
+   }
+  },
+  {
+   "id": "frischer_fang",
+   "label": "Fresh Catch",
+   "art": "ressource",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event",
+    "mission"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Frischer Fang",
+    "text": ""
+   }
+  },
+  {
+   "id": "kuehlakkus",
+   "label": "Ice Packs from the Village",
+   "art": "ressource",
+   "kat": null,
+   "preis": 40,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "flag": "vorraete_gekuehlt"
+   },
+   "intim": null,
+   "text": "The supplies last a day longer when power runs low.",
+   "de": {
+    "label": "Kühlakkus aus dem Dorf",
+    "text": "Die Vorräte halten einen Tag länger, wenn der Strom knapp ist."
+   }
+  },
+  {
+   "id": "rose_festa",
+   "label": "The Mayor's Rose",
+   "art": "ressource",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "punkte_frauen": [
+     "begehren",
+     6
+    ]
+   },
+   "intim": null,
+   "text": "From Madame Casanova's hair, after the flamenco. Used once: Desire +6 with every woman.",
+   "de": {
+    "label": "Die Rose der Bürgermeisterin",
+    "text": "Aus Madame Casanovas Haar, nach dem Flamenco. Einmal benutzt: Begehren +6 bei allen Frauen."
+   }
+  },
+  {
+   "id": "ersatzzellen",
+   "label": "Spare Cells for the House Battery",
+   "art": "teil",
+   "kat": null,
+   "preis": 180,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "Two lithium cells, used, tested.",
+   "kommentar": {
+    "wer": "toto",
+    "gefuehl": "amusement",
+    "text": "Cells for Rosi? Tell her they come from a very honest boat. Mostly honest."
+   },
+   "de": {
+    "label": "Ersatzzellen für die Hotelbatterie",
+    "text": "Zwei Lithium-Zellen, gebraucht, geprüft."
+   }
+  },
+  {
+   "id": "relais",
+   "label": "Compressor Relay",
+   "art": "teil",
+   "kat": null,
+   "preis": 90,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "kommentar": {
+    "wer": "toto",
+    "gefuehl": "pride",
+    "text": "The relay for Alva. I knew somebody would need it one day. That's why I had it."
+   },
+   "de": {
+    "label": "Kompressor-Relais",
+    "text": ""
+   }
+  },
+  {
+   "id": "messingbuchstaben",
+   "label": "Brass Letters",
+   "art": "teil",
+   "kat": null,
+   "preis": 70,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "kommentar": {
+    "wer": "toto",
+    "gefuehl": "amusement",
+    "text": "Brass letters. I have three R's and far too many S's. Spell carefully, Comandante."
+   },
+   "de": {
+    "label": "Messingbuchstaben",
+    "text": ""
+   }
+  },
+  {
+   "id": "holzleim",
+   "label": "Pot of Bone Glue",
+   "art": "teil",
+   "kat": null,
+   "preis": 15,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "kommentar": {
+    "wer": "toto",
+    "gefuehl": "neutral",
+    "text": "Glue. The one thing even I can't steal - it sticks to the fingers."
+   },
+   "de": {
+    "label": "Knochenleim im Topf",
+    "text": ""
+   }
+  },
+  {
+   "id": "eichenbrett",
+   "label": "An Old Oak Board",
+   "art": "teil",
+   "kat": null,
+   "preis": 45,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "kommentar": {
+    "wer": "alva",
+    "gefuehl": "amusement",
+    "text": "Oak from the old church pews. Don't tell the priest, o figliolu. He'll want it back."
+   },
+   "de": {
+    "label": "Ein altes Eichenbrett",
+    "text": ""
+   }
+  },
+  {
+   "id": "tonerde",
+   "label": "A Sack of Clay",
+   "art": "teil",
+   "kat": null,
+   "preis": 30,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "kommentar": {
+    "wer": "alva",
+    "gefuehl": "joy",
+    "text": "Clay for Petru's wheel? He'll grumble and love it. Like everything."
+   },
+   "de": {
+    "label": "Ein Sack Tonerde",
+    "text": ""
+   }
+  },
+  {
+   "id": "uhrenbatterie",
+   "label": "Button Cell",
+   "art": "teil",
+   "kat": null,
+   "preis": 25,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "kommentar": {
+    "wer": "alva",
+    "gefuehl": "curiosity",
+    "text": "A battery this small and you look so serious. Who is it for? Don't tell me. I'll find out anyway."
+   },
+   "de": {
+    "label": "Knopfzelle",
+    "text": ""
+   }
+  },
+  {
+   "id": "goldfarbe",
+   "label": "Gold Paint and a Fine Brush",
+   "art": "teil",
+   "kat": null,
+   "preis": 40,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "kommentar": {
+    "wer": "alva",
+    "gefuehl": "amusement",
+    "text": "Gold paint. Either you're painting a saint, or you've fallen for a pirate."
+   },
+   "de": {
+    "label": "Goldfarbe und ein feiner Pinsel",
+    "text": ""
+   }
+  },
+  {
+   "id": "safran",
+   "label": "Real Saffron",
+   "art": "teil",
+   "kat": null,
+   "preis": 60,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "kommentar": {
+    "wer": "alva",
+    "gefuehl": "approval",
+    "text": "Real saffron from Sardinia. Costs more than gold, smells better. Tell Lola to be gentle with it."
+   },
+   "de": {
+    "label": "Echter Safran",
+    "text": ""
+   }
+  },
+  {
+   "id": "buchbinde_leinen",
+   "label": "Bookbinding Linen",
+   "art": "teil",
+   "kat": null,
+   "preis": 30,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "kommentar": {
+    "wer": "alva",
+    "gefuehl": "caring",
+    "text": "Bookbinding linen. Somebody is making something to keep. Good. We need more of that."
+   },
+   "de": {
+    "label": "Buchbinder-Leinen",
+    "text": ""
+   }
+  },
+  {
+   "id": "netzgarn",
+   "label": "Roll of Net Twine",
+   "art": "teil",
+   "kat": null,
+   "preis": 25,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "kommentar": {
+    "wer": "alva",
+    "gefuehl": "amusement",
+    "text": "Net yarn for Petru. He'll never say thank you. He'll just mend faster."
+   },
+   "de": {
+    "label": "Rolle Netzgarn",
+    "text": ""
+   }
+  },
+  {
+   "id": "bilderrahmen",
+   "label": "A Simple Picture Frame",
+   "art": "teil",
+   "kat": null,
+   "preis": 35,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "kommentar": {
+    "wer": "alva",
+    "gefuehl": "surprise",
+    "text": "A frame. For what, a wanted poster? ...Oh. That's sweet. Don't tell anyone I said sweet."
+   },
+   "de": {
+    "label": "Ein schlichter Bilderrahmen",
+    "text": ""
+   }
+  },
+  {
+   "id": "armband",
+   "label": "Silicone Strap",
+   "art": "teil",
+   "kat": null,
+   "preis": 60,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "kommentar": {
+    "wer": "toto",
+    "gefuehl": "amusement",
+    "text": "A silicone strap. It fell off a container in Livorno. Very gently, Comandante."
+   },
+   "de": {
+    "label": "Silikon-Armband",
+    "text": ""
+   }
+  },
+  {
+   "id": "fueller_rohling",
+   "label": "Pen Blank for Engraving",
+   "art": "teil",
+   "kat": null,
+   "preis": 90,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "kommentar": {
+    "wer": "alva",
+    "gefuehl": "curiosity",
+    "text": "A pen blank? Somebody's going to write love letters. Don't look at me like that, I sell everything."
+   },
+   "de": {
+    "label": "Füller-Rohling zum Gravieren",
+    "text": ""
+   }
+  },
+  {
+   "id": "antennenkabel",
+   "label": "Antenna Cable, Seawater-Proof",
+   "art": "teil",
+   "kat": null,
+   "preis": 120,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "kommentar": {
+    "wer": "toto",
+    "gefuehl": "amusement",
+    "text": "Seawater-proof cable for the gendarmerie. Beautiful. Just don't tell Elsa where it came from."
+   },
+   "de": {
+    "label": "Antennenkabel, seewasserfest",
+    "text": ""
+   }
+  },
+  {
+   "id": "werkzeugkoffer",
+   "label": "Toolbox",
+   "art": "werkzeug",
+   "kat": null,
+   "preis": 180,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "Advantage on repair jobs (or +2 if your craft already gives advantage).",
+   "de": {
+    "label": "Werkzeugkoffer",
+    "text": "Vorteil bei Reparatur-Aufträgen (oder +2, wenn dein Handwerk schon Vorteil gibt)."
+   }
+  },
+  {
+   "id": "kochmesser",
+   "label": "Japanese Chef's Knife",
+   "art": "werkzeug",
+   "kat": null,
+   "preis": 110,
+   "quelle": [
+    "alva"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "Advantage on cooking jobs (or +2 if your cooking already gives advantage).",
+   "de": {
+    "label": "Japanisches Kochmesser",
+    "text": "Vorteil bei Koch-Aufträgen (oder +2, wenn deine Küche schon Vorteil gibt)."
+   }
+  },
+  {
+   "id": "plaster",
+   "label": "Plaster",
+   "art": "kampf",
+   "kat": null,
+   "preis": 10,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "heil_pct": 0.1,
+    "stoppt": [
+     "blutend"
+    ],
+    "schnell": true
+   },
+   "intim": null,
+   "text": "In a fight: heals 10 % of your HP and stops bleeding. Quick: costs no turn.",
+   "de": {
+    "label": "Pflaster",
+    "text": ""
+   }
+  },
+  {
+   "id": "bandage",
+   "label": "Bandage",
+   "art": "kampf",
+   "kat": null,
+   "preis": 25,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "heil_pct": 0.25,
+    "stoppt": [
+     "blutend"
+    ]
+   },
+   "intim": null,
+   "text": "In a fight: heals 25 % of your HP and stops bleeding.",
+   "de": {
+    "label": "Verband",
+    "text": ""
+   }
+  },
+  {
+   "id": "verbandskasten",
+   "label": "First Aid Kit",
+   "art": "kampf",
+   "kat": null,
+   "preis": 60,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "heil_pct": 0.4,
+    "stoppt": [
+     "blutend",
+     "brennend"
+    ]
+   },
+   "intim": null,
+   "text": "In a fight: heals 40 % of your HP and stops bleeding and burning.",
+   "de": {
+    "label": "Verbandskasten",
+    "text": ""
+   }
+  },
+  {
+   "id": "cooling_spray",
+   "label": "Cooling Spray",
+   "art": "kampf",
+   "kat": null,
+   "preis": 20,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "stoppt": [
+     "brennend"
+    ],
+    "immun": [
+     "brennend",
+     2
+    ],
+    "schnell": true
+   },
+   "intim": null,
+   "text": "In a fight: puts out every flame on you, and you can't catch fire for 2 rounds. Quick: costs no turn.",
+   "de": {
+    "label": "Kühlspray",
+    "text": ""
+   }
+  },
+  {
+   "id": "smoke_pot",
+   "label": "Smoke Pot",
+   "art": "kampf",
+   "kat": null,
+   "preis": 45,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "rauch": true
+   },
+   "intim": null,
+   "text": "In a fight: their next attack hits only smoke, and next turn you can run without a roll (not from bosses).",
+   "de": {
+    "label": "Rauchtopf",
+    "text": ""
+   }
+  },
+  {
+   "id": "antidote",
+   "label": "Herbal Tincture",
+   "art": "kampf",
+   "kat": null,
+   "preis": 40,
+   "quelle": [
+    "isabelle"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "stoppt": "alle"
+   },
+   "intim": null,
+   "text": "Isabelle's remedy from the monastery pharmacy. In a fight: ends every bad state on you.",
+   "de": {
+    "label": "Kräutertinktur (Gegengift)",
+    "text": ""
+   }
+  },
+  {
+   "id": "espresso_single",
+   "label": "Espresso",
+   "art": "kampf",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "ausdauer": 2,
+    "schnell": true
+   },
+   "intim": null,
+   "text": "In a fight: +2 stamina. Quick: costs no turn.",
+   "de": {
+    "label": "Espresso",
+    "text": ""
+   }
+  },
+  {
+   "id": "americano",
+   "label": "Americano",
+   "art": "kampf",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "ausdauer_runden": [
+     1,
+     4
+    ],
+    "schnell": true
+   },
+   "intim": null,
+   "text": "In a fight: +1 stamina every round for 4 rounds. Quick: costs no turn.",
+   "de": {
+    "label": "Americano",
+    "text": ""
+   }
+  },
+  {
+   "id": "mate",
+   "label": "Mate",
+   "art": "kampf",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "stoppt": [
+     "betaeubt",
+     "geblendet"
+    ],
+    "ausdauer": 1
+   },
+   "intim": null,
+   "text": "In a fight: clears your head of stun and blindness, +1 stamina.",
+   "de": {
+    "label": "Mate",
+    "text": ""
+   }
+  },
+  {
+   "id": "green_tea",
+   "label": "Green Tea",
+   "art": "kampf",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "parade": [
+     0.15,
+     3
+    ],
+    "schnell": true
+   },
+   "intim": null,
+   "text": "In a fight: parry window +15 % for 3 rounds. Quick: costs no turn.",
+   "de": {
+    "label": "Grüner Tee",
+    "text": ""
+   }
+  },
+  {
+   "id": "dog_food",
+   "label": "Dog Food",
+   "art": "kampf",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "gegner": {
+     "tier": {
+      "aussetzen": 1,
+      "fassung": 4
+     }
+    }
+   },
+   "intim": null,
+   "text": "In a fight, thrown at an animal: it eats instead of biting, skips a round and loses 4 composure.",
+   "de": {
+    "label": "Hundefutter",
+    "text": ""
+   }
+  },
+  {
+   "id": "megaphone",
+   "label": "Megaphone",
+   "art": "kampf",
+   "kat": null,
+   "preis": 80,
+   "quelle": [
+    "eden"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "gegner": {
+     "mensch": {
+      "fassung": 5
+     },
+     "tier": {
+      "erschoepft": 2
+     }
+    }
+   },
+   "intim": null,
+   "text": "In a fight: a human loses 5 composure, an animal is exhausted for 2 rounds.",
+   "de": {
+    "label": "Megafon",
+    "text": ""
+   }
+  },
+  {
+   "id": "duct_tape",
+   "label": "Duct Tape",
+   "art": "kampf",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "schutz": 2
+   },
+   "intim": null,
+   "text": "In a fight: you patch your jacket, protection +2 for the rest of the fight.",
+   "de": {
+    "label": "Panzertape",
+    "text": ""
+   }
+  },
+  {
+   "id": "whetstone_blue",
+   "label": "Blue Whetstone",
+   "art": "kampf",
+   "kat": null,
+   "preis": 30,
+   "quelle": [
+    "rosi"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "pflege": {
+     "art": "klinge",
+     "bonus": 3,
+     "runden": 5
+    }
+   },
+   "intim": null,
+   "text": "For sabres: +3 damage for 5 rounds. Use it before a fight or during one.",
+   "de": {
+    "label": "Blauer Schleifstein",
+    "text": ""
+   }
+  },
+  {
+   "id": "whetstone",
+   "label": "Grey Whetstone",
+   "art": "kampf",
+   "kat": null,
+   "preis": 30,
+   "quelle": [
+    "rosi"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "pflege": {
+     "art": "messer",
+     "bonus": 3,
+     "runden": 5
+    }
+   },
+   "intim": null,
+   "text": "For knives: +3 damage for 5 rounds. Use it before a fight or during one.",
+   "de": {
+    "label": "Grauer Schleifstein",
+    "text": ""
+   }
+  },
+  {
+   "id": "whetstone_red",
+   "label": "Red Whetstone",
+   "art": "kampf",
+   "kat": null,
+   "preis": 30,
+   "quelle": [
+    "rosi"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "pflege": {
+     "art": "stange",
+     "bonus": 3,
+     "runden": 5
+    }
+   },
+   "intim": null,
+   "text": "For the boar spear: +3 damage for 5 rounds. Use it before a fight or during one.",
+   "de": {
+    "label": "Roter Schleifstein",
+    "text": ""
+   }
+  },
+  {
+   "id": "spikes",
+   "label": "Spikes",
+   "art": "kampf",
+   "kat": null,
+   "preis": 30,
+   "quelle": [
+    "rosi"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "pflege": {
+     "art": "stumpf",
+     "bonus": 3,
+     "runden": 5
+    }
+   },
+   "intim": null,
+   "text": "For blunt weapons: +3 damage for 5 rounds. Use it before a fight or during one.",
+   "de": {
+    "label": "Spikes",
+    "text": ""
+   }
+  },
+  {
+   "id": "match_ammo",
+   "label": "Match Ammo",
+   "art": "kampf",
+   "kat": null,
+   "preis": 30,
+   "quelle": [
+    "rosi"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "pflege": {
+     "art": "fern",
+     "bonus": 3,
+     "runden": 5
+    }
+   },
+   "intim": null,
+   "text": "For the rifle: +3 damage for 5 rounds. Use it before a fight or during one.",
+   "de": {
+    "label": "Präzisionsmunition",
+    "text": ""
+   }
+  },
+  {
+   "id": "grenade_fire",
+   "label": "Fire Grenade",
+   "art": "kampf",
+   "kat": null,
+   "preis": 40,
+   "quelle": [
+    "rosi"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "granate": {
+     "pct": 0.12,
+     "zustand": "brennend",
+     "stapel": 2
+    }
+   },
+   "intim": null,
+   "text": "One of Rosi's home-made grenades. In a fight: 12 % of the enemy's HP straight through armour, and it burns (2 stacks).",
+   "de": {
+    "label": "Brandgranate",
+    "text": ""
+   }
+  },
+  {
+   "id": "grenade_water",
+   "label": "Water Grenade",
+   "art": "kampf",
+   "kat": null,
+   "preis": 30,
+   "quelle": [
+    "rosi"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "granate": {
+     "pct": 0.12,
+     "zustand": "nass"
+    }
+   },
+   "intim": null,
+   "text": "Rosi filled it from an old fire extinguisher. In a fight: 12 % of the enemy's HP straight through armour, and it's wet.",
+   "de": {
+    "label": "Wassergranate",
+    "text": ""
+   }
+  },
+  {
+   "id": "grenade_shock",
+   "label": "Shock Grenade",
+   "art": "kampf",
+   "kat": null,
+   "preis": 40,
+   "quelle": [
+    "rosi"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "granate": {
+     "pct": 0.12,
+     "zustand": "strom"
+    }
+   },
+   "intim": null,
+   "text": "Two battery cells and a lot of tape. In a fight: 12 % of the enemy's HP straight through armour, and it's charged. On a wet enemy: short circuit.",
+   "de": {
+    "label": "Schockgranate",
+    "text": ""
+   }
+  },
+  {
+   "id": "grenade_flash",
+   "label": "Flash Grenade",
+   "art": "kampf",
+   "kat": null,
+   "preis": 45,
+   "quelle": [
+    "rosi"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "granate": {
+     "pct": 0,
+     "zustand": "geblendet",
+     "runden": 1
+    }
+   },
+   "intim": null,
+   "text": "No damage, just light. In a fight: the enemy is blinded for a round and its next blow does half damage.",
+   "de": {
+    "label": "Blendgranate",
+    "text": ""
+   }
+  },
+  {
+   "id": "grenade_sleep",
+   "label": "Rosi's Sleep Grenade",
+   "art": "kampf",
+   "kat": null,
+   "preis": null,
+   "quelle": [],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "schlaf": {
+     "sicher": 0.1,
+     "boden": 0.05
+    }
+   },
+   "intim": null,
+   "text": "Bibi asked for something that doesn't kill them. Rosi laughed, then built it. The blue tape is so nobody throws it at a person. Rosi says that happened only once.\n\nOnly for collared animals. Below 10 % HP it always works. The more HP the animal has left, the less likely it is.",
+   "de": {
+    "label": "Schlafgranate",
+    "text": ""
+   }
+  },
+  {
+   "id": "grenade_concussion",
+   "label": "Concussion Grenade",
+   "art": "kampf",
+   "kat": null,
+   "preis": 40,
+   "quelle": [
+    "rosi"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "granate": {
+     "pct": 0.12,
+     "zustand": "erschuettert"
+    }
+   },
+   "intim": null,
+   "text": "Heavy, and it means it. In a fight: 12 % of the enemy's HP straight through armour, and it's shaken (armour gone).",
+   "de": {
+    "label": "Erschütterungsgranate",
+    "text": ""
+   }
+  },
+  {
+   "id": "grenade_shrapnel",
+   "label": "Shrapnel Grenade",
+   "art": "kampf",
+   "kat": null,
+   "preis": 50,
+   "quelle": [
+    "rosi"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "granate": {
+     "pct": 0.18,
+     "zustand": "blutend"
+    }
+   },
+   "intim": null,
+   "text": "Packed with boat nails. In a fight: 18 % of the enemy's HP straight through armour, and it bleeds. Useless against machines.",
+   "de": {
+    "label": "Splittergranate",
+    "text": ""
+   }
+  },
+  {
+   "id": "steel_plate",
+   "label": "Steel Plate",
+   "art": "material",
+   "kat": null,
+   "preis": 80,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "A steel plate for Rosi's workshop: the first upgrade for a jacket or Gemelli.",
+   "de": {
+    "label": "Steel Plate",
+    "text": "Eine Stahlplatte für Rosis Werkstatt: Jacke oder Gemelli zum ersten Mal verbessern."
+   }
+  },
+  {
+   "id": "titanium_plate",
+   "label": "Titanium Plate",
+   "art": "material",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "drop"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "A titanium plate for Rosi's workshop: the second upgrade for a jacket or Gemelli.",
+   "de": {
+    "label": "Titanium Plate",
+    "text": "Eine Titanplatte für Rosis Werkstatt: Jacke oder Gemelli zum zweiten Mal verbessern."
+   }
+  },
+  {
+   "id": "jade",
+   "label": "Jade",
+   "art": "material",
+   "kat": null,
+   "preis": 80,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "A stone for Rosi: it replaces Terremoto's base stone (first upgrade).",
+   "de": {
+    "label": "Jade",
+    "text": "Ein Stein für Rosi: Er ersetzt den Basisstein von Terremoto (erste Verbesserung)."
+   }
+  },
+  {
+   "id": "topas",
+   "label": "Topaz",
+   "art": "material",
+   "kat": null,
+   "preis": 80,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "A stone for Rosi: it replaces Le Large's base stone (first upgrade).",
+   "de": {
+    "label": "Topas",
+    "text": "Ein Stein für Rosi: Er ersetzt den Basisstein von Le Large (erste Verbesserung)."
+   }
+  },
+  {
+   "id": "aquamarin",
+   "label": "Aquamarine",
+   "art": "material",
+   "kat": null,
+   "preis": 80,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "A stone for Rosi: it replaces Riposte's base stone (first upgrade).",
+   "de": {
+    "label": "Aquamarin",
+    "text": "Ein Stein für Rosi: Er ersetzt den Basisstein von Riposte (erste Verbesserung)."
+   }
+  },
+  {
+   "id": "amethyst",
+   "label": "Amethyst",
+   "art": "material",
+   "kat": null,
+   "preis": 80,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "A stone for Rosi: it replaces Sussurro's base stone (first upgrade).",
+   "de": {
+    "label": "Amethyst",
+    "text": "Ein Stein für Rosi: Er ersetzt den Basisstein von Sussurro (erste Verbesserung)."
+   }
+  },
+  {
+   "id": "smaragd",
+   "label": "Emerald",
+   "art": "material",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "drop"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "A precious stone for Rosi: Terremoto's final stone (second upgrade).",
+   "de": {
+    "label": "Smaragd",
+    "text": "Ein edler Stein für Rosi: der Endstein für Terremoto (zweite Verbesserung)."
+   }
+  },
+  {
+   "id": "rubin",
+   "label": "Ruby",
+   "art": "material",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "drop"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "A precious stone for Rosi: Le Large's final stone (second upgrade).",
+   "de": {
+    "label": "Rubin",
+    "text": "Ein edler Stein für Rosi: der Endstein für Le Large (zweite Verbesserung)."
+   }
+  },
+  {
+   "id": "saphir",
+   "label": "Sapphire",
+   "art": "material",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "drop"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "A precious stone for Rosi: Riposte's final stone (second upgrade).",
+   "de": {
+    "label": "Saphir",
+    "text": "Ein edler Stein für Rosi: der Endstein für Riposte (zweite Verbesserung)."
+   }
+  },
+  {
+   "id": "opal",
+   "label": "Opal",
+   "art": "material",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "drop"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "A precious stone for Rosi: Sussurro's final stone (second upgrade).",
+   "de": {
+    "label": "Opal",
+    "text": "Ein edler Stein für Rosi: der Endstein für Sussurro (zweite Verbesserung)."
+   }
+  },
+  {
+   "id": "kupfer",
+   "label": "Copper",
+   "art": "material",
+   "kat": null,
+   "preis": 80,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "A copper ingot for Rosi: the first upgrade for Gemelli.",
+   "de": {
+    "label": "Kupfer",
+    "text": "Ein Kupfer-Barren für Rosi: erste Verbesserung für Gemelli."
+   }
+  },
+  {
+   "id": "silber",
+   "label": "Silver",
+   "art": "material",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "drop"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "A silver ingot for Rosi: the second upgrade for Gemelli.",
+   "de": {
+    "label": "Silber",
+    "text": "Ein Silber-Barren für Rosi: zweite Verbesserung für Gemelli."
+   }
+  },
+  {
+   "id": "petru_key",
+   "label": "Key to Petru's Workshop",
+   "art": "schluessel",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "mission"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "ort": "petru_workshop"
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Schlüssel zu Petrus Werkstatt",
+    "text": ""
+   }
+  },
+  {
+   "id": "festa_invite",
+   "label": "The Mayor's Invitation to the Festa",
+   "art": "schluessel",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "ort": "village_piazza"
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Einladung der Bürgermeisterin zur Festa",
+    "text": ""
+   }
+  },
+  {
+   "id": "alvas_schluessel",
+   "label": "Key to Alva's Back Room",
+   "art": "schluessel",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "ort": "alvas_bar_hinterzimmer"
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Schlüssel zu Alvas Hinterzimmer",
+    "text": ""
+   }
+  },
+  {
+   "id": "sat_data",
+   "label": "Satellite Data Package",
+   "art": "schmuggel",
+   "kat": null,
+   "preis": 300,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "benutzen": "phone feature for one day"
+   },
+   "intim": null,
+   "text": "Phone features for one day.",
+   "de": {
+    "label": "Satelliten-Datenpaket",
+    "text": ""
+   }
+  },
+  {
+   "id": "cuban_rum",
+   "label": "Cuban Rum",
+   "art": "schmuggel",
+   "kat": null,
+   "preis": 120,
+   "quelle": [
+    "toto",
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Kubanischer Rum",
+    "text": "Echter Havana Club, sieben Jahre. Zum Handeln oder Verschenken."
+   }
+  },
+  {
+   "id": "cigars",
+   "label": "Cohiba Cigars",
+   "art": "schmuggel",
+   "kat": null,
+   "preis": 150,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "benutzen": "Village Reputation +2 with the old men at the harbour"
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Cohiba-Zigarren",
+    "text": ""
+   }
+  },
+  {
+   "id": "limoncello_kiste",
+   "label": "Crate of Limoncello without a Tax Stamp",
+   "art": "schmuggel",
+   "kat": null,
+   "preis": 90,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "benutzen": "to Alva: +240 €"
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Kiste Limoncello ohne Steuerbanderole",
+    "text": ""
+   }
+  },
+  {
+   "id": "taschen",
+   "label": "Three “Designer” Handbags",
+   "art": "schmuggel",
+   "kat": null,
+   "preis": 60,
+   "quelle": [
+    "toto"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "benutzen": "to Yasin or Casanova: Trust +8"
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Drei „Designer“-Taschen",
+    "text": ""
+   }
+  },
+  {
+   "id": "muschelkrone",
+   "label": "Shell Crown of the Festa",
+   "art": "andenken",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Muschelkrone der Festa",
+    "text": ""
+   }
+  },
+  {
+   "id": "rosis_foto",
+   "label": "A Photo You Shouldn't Delete",
+   "art": "andenken",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Ein Foto, das du nicht löschen solltest",
+    "text": ""
+   }
+  },
+  {
+   "id": "siris_karte",
+   "label": "Siri's Thank-You Card",
+   "art": "andenken",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Siris Dankeskarte",
+    "text": ""
+   }
+  },
+  {
+   "id": "holms_foto",
+   "label": "Photo of Holm's First Command",
+   "art": "andenken",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Foto von Holms erstem Kommando",
+    "text": ""
+   }
+  },
+  {
+   "id": "siris_haarband",
+   "label": "Siri's Hairband",
+   "art": "andenken",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Siris Haarband",
+    "text": ""
+   }
+  },
+  {
+   "id": "drohnen_propeller",
+   "label": "Propeller from Megan's Drone",
+   "art": "andenken",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Propeller von Megans Drohne",
+    "text": ""
+   }
+  },
+  {
+   "id": "ambrosius_keule",
+   "label": "Brother Ambrosius' Golden Mace",
+   "art": "quest",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "The abbot's golden mace with an ivory grip. Frederico hid it until someone good came.",
+   "de": {
+    "label": "Goldener Streitkolben von Bruder Ambrosius",
+    "text": "Der goldene Streitkolben des Abts mit Elfenbeingriff. Frederico hat ihn versteckt, bis jemand Gutes kam."
+   }
+  },
+  {
+   "id": "diary_page_1",
+   "label": "Brother Ambrosius' Diary, Page 1",
+   "art": "andenken",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "“The animals don't flee from us. They flee from something inside themselves.”",
+   "de": {
+    "label": "Tagebuchseite von Bruder Ambrosius (1)",
+    "text": "„Die Tiere fliehen nicht vor uns. Sie fliehen vor etwas in sich selbst.“"
+   }
+  },
+  {
+   "id": "diary_page_2",
+   "label": "Brother Ambrosius' Diary, Page 2",
+   "art": "andenken",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "“I have seen the lion. He wears something on his neck that blinks. He suffers, as we do.”",
+   "de": {
+    "label": "Tagebuchseite von Bruder Ambrosius (2)",
+    "text": "Der Abt hat den Löwen gesehen: Er trägt etwas im Nacken, das blinkt, und er leidet wie die Brüder."
+   }
+  },
+  {
+   "id": "agent_note",
+   "label": "Torn Note",
+   "art": "quest",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "A torn note, written to sound greedy. On the back, in pencil, someone has sketched the collar of a jacket with far more care than the note itself.",
+   "de": {
+    "label": "Torn Note",
+    "text": "A torn note, written to sound greedy. On the back, in pencil, someone has sketched the collar of a jacket with far more care than the note itself."
+   }
+  },
+  {
+   "id": "tritons_dreizack",
+   "label": "Triton's Trident (Siren Drop)",
+   "art": "quest",
+   "kat": null,
+   "preis": null,
+   "quelle": [
+    "event"
+   ],
+   "liebt": [],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "A former weapon, later planned as the master weapon for Le Large.",
+   "de": {
+    "label": "Tritons Dreizack (Drop Sirene)",
+    "text": "Ehemalige Waffe – später als Masterwaffe für Le Large vorgesehen."
+   }
+  },
+  {
+   "id": "fairy_bread",
+   "label": "Fairy Bread",
+   "art": "snack",
+   "kat": "essen",
+   "preis": 4,
+   "quelle": [
+    "lola"
+   ],
+   "liebt": [
+    "lea"
+   ],
+   "hasst": [
+    "chiara"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "Buttered toast with hundreds and thousands. Lea thinks of birthdays.",
+   "de": {
+    "label": "Fairy Bread",
+    "text": "Toast mit Butter und bunten Streuseln. Lea denkt an Geburtstage."
+   }
+  },
+  {
+   "id": "lamingtons",
+   "label": "Lamingtons",
+   "art": "snack",
+   "kat": "essen",
+   "preis": 6,
+   "quelle": [
+    "lola"
+   ],
+   "liebt": [
+    "toto"
+   ],
+   "hasst": [
+    "megan"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "Chocolate squares rolled in coconut.",
+   "de": {
+    "label": "Lamingtons",
+    "text": "Schokowürfel mit Kokos."
+   }
+  },
+  {
+   "id": "pavlova",
+   "label": "Pavlova with Figs and Myrtle",
+   "art": "snack",
+   "kat": "essen",
+   "preis": 12,
+   "quelle": [
+    "lola"
+   ],
+   "liebt": [
+    "alva"
+   ],
+   "hasst": [
+    "rosi"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Pavlova mit Feigen und Myrte",
+    "text": ""
+   }
+  },
+  {
+   "id": "anzac",
+   "label": "Anzac Biscuits",
+   "art": "snack",
+   "kat": "essen",
+   "preis": 5,
+   "quelle": [
+    "lola"
+   ],
+   "liebt": [
+    "holm"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "Oat biscuits. Holm's biscuit for every night watch.",
+   "de": {
+    "label": "Anzac Biscuits",
+    "text": "Haferkekse. Holms Keks für jede Nachtwache."
+   }
+  },
+  {
+   "id": "vegemite_schnecken",
+   "label": "Vegemite Cheese Scrolls",
+   "art": "snack",
+   "kat": "essen",
+   "preis": 5,
+   "quelle": [
+    "lola"
+   ],
+   "liebt": [
+    "lola"
+   ],
+   "hasst": [
+    "sophia"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Vegemite-Käse-Schnecken",
+    "text": ""
+   }
+  },
+  {
+   "id": "tim_tam_slam",
+   "label": "Tim Tam Slam Set",
+   "art": "snack",
+   "kat": "essen",
+   "preis": 8,
+   "quelle": [
+    "lola"
+   ],
+   "liebt": [
+    "siri"
+   ],
+   "hasst": [
+    "yasin"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "Biscuits and hot cocoa to suck through them.",
+   "de": {
+    "label": "Tim-Tam-Slam-Set",
+    "text": "Kekse und heißer Kakao zum Durchsaugen."
+   }
+  },
+  {
+   "id": "ocean_popcorn",
+   "label": "Ocean Glitter Popcorn",
+   "art": "snack",
+   "kat": "essen",
+   "preis": 4,
+   "quelle": [
+    "lola"
+   ],
+   "liebt": [
+    "casanova"
+   ],
+   "hasst": [
+    "elsa"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Ocean-Glitter-Popcorn",
+    "text": ""
+   }
+  },
+  {
+   "id": "kevins_rache",
+   "label": "Kevin's Revenge",
+   "art": "snack",
+   "kat": "essen",
+   "preis": 6,
+   "quelle": [
+    "lola"
+   ],
+   "liebt": [
+    "lea"
+   ],
+   "hasst": [
+    "siri"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "Biscuits shaped like seagulls.",
+   "de": {
+    "label": "Kevins Rache",
+    "text": "Kekse in Möwenform."
+   }
+  },
+  {
+   "id": "rote_gruetze",
+   "label": "Red Berry Pudding with Vanilla Sauce",
+   "art": "snack",
+   "kat": "essen",
+   "preis": 7,
+   "quelle": [
+    "lola"
+   ],
+   "liebt": [
+    "chiara"
+   ],
+   "hasst": [
+    "alva"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Rote Grütze mit Vanillesauce",
+    "text": ""
+   }
+  },
+  {
+   "id": "madeleines",
+   "label": "Lavender Madeleines",
+   "art": "snack",
+   "kat": "essen",
+   "preis": 9,
+   "quelle": [
+    "lola"
+   ],
+   "liebt": [
+    "sophia"
+   ],
+   "hasst": [
+    "toto"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Lavendel-Madeleines",
+    "text": ""
+   }
+  },
+  {
+   "id": "cannoli",
+   "label": "Cannoli with a Spanner Biscuit",
+   "art": "snack",
+   "kat": "essen",
+   "preis": 10,
+   "quelle": [
+    "lola"
+   ],
+   "liebt": [
+    "rosi"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Cannoli mit Schraubenschlüssel-Keks",
+    "text": ""
+   }
+  },
+  {
+   "id": "plankton_gelee",
+   "label": "Glowing Plankton Jelly",
+   "art": "snack",
+   "kat": "essen",
+   "preis": 8,
+   "quelle": [
+    "lola"
+   ],
+   "liebt": [
+    "lea"
+   ],
+   "hasst": [
+    "petru"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Leuchtendes Plankton-Gelee",
+    "text": ""
+   }
+  },
+  {
+   "id": "seegras_chips",
+   "label": "Seaweed Crisps with Lime",
+   "art": "snack",
+   "kat": "essen",
+   "preis": 5,
+   "quelle": [
+    "lola"
+   ],
+   "liebt": [
+    "siri"
+   ],
+   "hasst": [
+    "toto"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Seegras-Chips mit Limette",
+    "text": ""
+   }
+  },
+  {
+   "id": "protein_pancakes",
+   "label": "Protein Pancakes, No Fun Included",
+   "art": "snack",
+   "kat": "essen",
+   "preis": 9,
+   "quelle": [
+    "lola"
+   ],
+   "liebt": [
+    "yasin"
+   ],
+   "hasst": [
+    "lola"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Protein-Pancakes ohne Spaß",
+    "text": ""
+   }
+  },
+  {
+   "id": "ghost_brownies",
+   "label": "Ghost Pepper Brownies",
+   "art": "snack",
+   "kat": "essen",
+   "preis": 7,
+   "quelle": [
+    "lola"
+   ],
+   "liebt": [
+    "elsa"
+   ],
+   "hasst": [
+    "chiara"
+   ],
+   "einzigartig": null,
+   "wirkung": {
+    "bonus": "beim Verschenken Courage-Probe SG 11: Erfolg +4 Vertrauen extra"
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Ghost-Pepper-Brownies",
+    "text": ""
+   }
+  },
+  {
+   "id": "fiadone",
+   "label": "Fiadone",
+   "art": "snack",
+   "kat": "essen",
+   "preis": 8,
+   "quelle": [
+    "lola"
+   ],
+   "liebt": [
+    "petru"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "Corsican cheesecake with lemon.",
+   "de": {
+    "label": "Fiadone",
+    "text": "Korsischer Käsekuchen mit Zitrone."
+   }
+  },
+  {
+   "id": "tiramisu_martini",
+   "label": "Espresso Martini Tiramisu",
+   "art": "snack",
+   "kat": "essen",
+   "preis": 12,
+   "quelle": [
+    "lola"
+   ],
+   "liebt": [
+    "megan"
+   ],
+   "hasst": [
+    "lea"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Espresso-Martini-Tiramisu",
+    "text": ""
+   }
+  },
+  {
+   "id": "unit01_muffins",
+   "label": "Unit-01 Muffins",
+   "art": "snack",
+   "kat": "essen",
+   "preis": 6,
+   "quelle": [
+    "lola"
+   ],
+   "liebt": [
+    "rosi"
+   ],
+   "hasst": [
+    "sophia"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "Black, and they taste of vanilla.",
+   "de": {
+    "label": "Unit-01-Muffins",
+    "text": "Schwarz, schmecken nach Vanille."
+   }
+  },
+  {
+   "id": "mango_sorbet",
+   "label": "Mango Chilli Sorbet",
+   "art": "snack",
+   "kat": "essen",
+   "preis": 7,
+   "quelle": [
+    "lola"
+   ],
+   "liebt": [
+    "alva"
+   ],
+   "hasst": [
+    "holm"
+   ],
+   "einzigartig": null,
+   "wirkung": {},
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Mango-Chili-Sorbet",
+    "text": ""
+   }
+  },
+  {
+   "id": "space_cake",
+   "label": "Space Cake “Universe Edition”",
+   "art": "snack",
+   "kat": "essen",
+   "preis": 15,
+   "quelle": [
+    "lola3"
+   ],
+   "liebt": [
+    "lola"
+   ],
+   "hasst": [
+    "chiara",
+    "elsa"
+   ],
+   "einzigartig": null,
+   "wirkung": {
+    "gras": true,
+    "naechster_morgen": "energie -1",
+    "kontrollrisiko": 10
+   },
+   "intim": null,
+   "text": "",
+   "kampf": {
+    "ausdauer_runden": [
+     1,
+     5
+    ]
+   },
+   "de": {
+    "label": "Space Cake „Universe Edition“",
+    "text": ""
+   }
+  },
+  {
+   "id": "brownie_calm",
+   "label": "Brownie “Captain's Calm”",
+   "art": "snack",
+   "kat": "essen",
+   "preis": 12,
+   "quelle": [
+    "lola4"
+   ],
+   "liebt": [
+    "toto"
+   ],
+   "hasst": [
+    "holm"
+   ],
+   "einzigartig": null,
+   "wirkung": {
+    "gras": true,
+    "naechster_morgen": "energie -1",
+    "kontrollrisiko": 10
+   },
+   "intim": null,
+   "text": "",
+   "kampf": {
+    "ausdauer_runden": [
+     1,
+     5
+    ]
+   },
+   "de": {
+    "label": "Brownie „Captain's Calm“",
+    "text": ""
+   }
+  },
+  {
+   "id": "toastie",
+   "label": "Midnight Toastie with Cheese and Fig",
+   "art": "snack",
+   "kat": "essen",
+   "preis": 6,
+   "quelle": [
+    "lola"
+   ],
+   "liebt": [
+    "chiara"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "nur_phase": "nacht",
+    "bonus": "mit Chiara nach der Wache: Vertrauen +2"
+   },
+   "intim": null,
+   "text": "",
+   "de": {
+    "label": "Mitternachts-Toastie mit Käse und Feige",
+    "text": ""
+   }
+  },
+  {
+   "id": "bun_rieu",
+   "label": "Bún Riêu",
+   "art": "gericht",
+   "kat": "essen",
+   "preis": null,
+   "quelle": [
+    "kochen"
+   ],
+   "liebt": [
+    "lea"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "sg": 12,
+    "kueche": "suedostasiatisch"
+   },
+   "intim": null,
+   "text": "Vietnamese noodle soup with crab and tomato.",
+   "de": {
+    "label": "Bún riêu",
+    "text": "Vietnamesische Nudelsuppe mit Krabben und Tomate."
+   }
+  },
+  {
+   "id": "thit_kho",
+   "label": "Thịt Kho",
+   "art": "gericht",
+   "kat": "essen",
+   "preis": null,
+   "quelle": [
+    "kochen"
+   ],
+   "liebt": [
+    "toto"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "sg": 10,
+    "kueche": "suedostasiatisch"
+   },
+   "intim": null,
+   "text": "Caramelised pork belly with egg, served with rice.",
+   "de": {
+    "label": "Thịt kho",
+    "text": "Karamellisierter Schweinebauch mit Ei, dazu Reis."
+   }
+  },
+  {
+   "id": "bibimbap",
+   "label": "Bibimbap",
+   "art": "gericht",
+   "kat": "essen",
+   "preis": null,
+   "quelle": [
+    "kochen"
+   ],
+   "liebt": [
+    "yasin"
+   ],
+   "hasst": [
+    "petru"
+   ],
+   "einzigartig": null,
+   "wirkung": {
+    "sg": 11,
+    "kueche": "suedostasiatisch"
+   },
+   "intim": null,
+   "text": "Petru: “Why is it in a bowl?”",
+   "de": {
+    "label": "Bibimbap",
+    "text": "Petru: „Why is it in a bowl?“"
+   }
+  },
+  {
+   "id": "summer_rolls",
+   "label": "Summer Rolls",
+   "art": "gericht",
+   "kat": "essen",
+   "preis": null,
+   "quelle": [
+    "kochen"
+   ],
+   "liebt": [
+    "sophia"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "sg": 10,
+    "kueche": "suedostasiatisch"
+   },
+   "intim": null,
+   "text": "Fresh rice paper rolls with prawns and herbs.",
+   "de": {
+    "label": "Sommerrollen",
+    "text": "Frische Reispapierrollen mit Garnelen und Kräutern."
+   }
+  },
+  {
+   "id": "ramen",
+   "label": "Ramen",
+   "art": "gericht",
+   "kat": "essen",
+   "preis": null,
+   "quelle": [
+    "kochen"
+   ],
+   "liebt": [
+    "rosi"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "sg": 13,
+    "kueche": "suedostasiatisch"
+   },
+   "intim": null,
+   "text": "The broth needs patience. Rosi knows ramen from her manga.",
+   "de": {
+    "label": "Ramen",
+    "text": "Die Brühe braucht Geduld. Rosi kennt Ramen aus ihren Manga."
+   }
+  },
+  {
+   "id": "chili_noodles",
+   "label": "Chilli Noodles",
+   "art": "gericht",
+   "kat": "essen",
+   "preis": null,
+   "quelle": [
+    "kochen"
+   ],
+   "liebt": [
+    "alva"
+   ],
+   "hasst": [
+    "megan"
+   ],
+   "einzigartig": null,
+   "wirkung": {
+    "sg": 9,
+    "kueche": "suedostasiatisch"
+   },
+   "intim": null,
+   "text": "Too hot for a seasick fleet manager.",
+   "de": {
+    "label": "Chili Noodles",
+    "text": "Zu scharf für eine seekranke Flottenmanagerin."
+   }
+  },
+  {
+   "id": "bouillabaisse",
+   "label": "Bouillabaisse",
+   "art": "gericht",
+   "kat": "essen",
+   "preis": null,
+   "quelle": [
+    "kochen"
+   ],
+   "liebt": [
+    "casanova"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "sg": 12,
+    "kueche": "europaeisch"
+   },
+   "intim": null,
+   "text": "Provençal fish stew with rouille.",
+   "de": {
+    "label": "Bouillabaisse",
+    "text": "Provenzalischer Fischtopf mit Rouille."
+   }
+  },
+  {
+   "id": "bao_buns",
+   "label": "Bao Buns",
+   "art": "gericht",
+   "kat": "essen",
+   "preis": null,
+   "quelle": [
+    "kochen"
+   ],
+   "liebt": [
+    "lola"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "sg": 11,
+    "kueche": "suedostasiatisch"
+   },
+   "intim": null,
+   "text": "Steamed buns with pork belly. Lola: “Fluffy clouds, Boss.”",
+   "de": {
+    "label": "Bao Buns",
+    "text": "Gedämpfte Hefebrötchen mit Schweinebauch. Lola: „Fluffy clouds, Boss.“"
+   }
+  },
+  {
+   "id": "fish_pie",
+   "label": "Fish Pie",
+   "art": "gericht",
+   "kat": "essen",
+   "preis": null,
+   "quelle": [
+    "kochen"
+   ],
+   "liebt": [
+    "petru"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "sg": 10,
+    "kueche": "europaeisch"
+   },
+   "intim": null,
+   "text": "Fish under a potato crust. Petru: “Hm.” That means: another one.",
+   "de": {
+    "label": "Fish Pie",
+    "text": "Fisch unter Kartoffelhaube. Petru: „Hm.“ Das heißt: noch eins."
+   }
+  },
+  {
+   "id": "bolognese",
+   "label": "Spaghetti Bolognese",
+   "art": "gericht",
+   "kat": "essen",
+   "preis": null,
+   "quelle": [
+    "kochen"
+   ],
+   "liebt": [
+    "chiara"
+   ],
+   "hasst": [
+    "toto"
+   ],
+   "einzigartig": null,
+   "wirkung": {
+    "sg": 9,
+    "kueche": "europaeisch"
+   },
+   "intim": null,
+   "text": "Totò: “In Napoli, this is a crime.”",
+   "de": {
+    "label": "Spaghetti Bolognese",
+    "text": "Totò: „In Napoli, this is a crime.“"
+   }
+  },
+  {
+   "id": "pytt_i_panna",
+   "label": "Pyttipanne",
+   "art": "gericht",
+   "kat": "essen",
+   "preis": null,
+   "quelle": [
+    "kochen"
+   ],
+   "liebt": [
+    "holm"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "sg": 9,
+    "kueche": "europaeisch"
+   },
+   "intim": null,
+   "text": "Fried potatoes with sausage, onion, a fried egg and beetroot.",
+   "de": {
+    "label": "Pytt i panna",
+    "text": "Bratkartoffeln mit Wurst, Zwiebel, Spiegelei und Roter Bete."
+   }
+  },
+  {
+   "id": "fiskesuppe",
+   "label": "Fiskesuppe",
+   "art": "gericht",
+   "kat": "essen",
+   "preis": null,
+   "quelle": [
+    "kochen"
+   ],
+   "liebt": [
+    "siri"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "sg": 11,
+    "kueche": "europaeisch"
+   },
+   "intim": null,
+   "text": "Norwegian fish soup with salmon, cream and dill.",
+   "de": {
+    "label": "Fiskesuppe",
+    "text": "Norwegische Fischsuppe mit Lachs, Sahne und Dill."
+   }
+  },
+  {
+   "id": "lauchsuppe",
+   "label": "Cullen Skink",
+   "art": "gericht",
+   "kat": "essen",
+   "preis": null,
+   "quelle": [
+    "kochen"
+   ],
+   "liebt": [
+    "megan"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "sg": 9,
+    "kueche": "europaeisch"
+   },
+   "intim": null,
+   "text": "Smoked haddock, potatoes and milk, the Scottish way. The only thing Megan keeps down at sea.",
+   "de": {
+    "label": "Cullen Skink",
+    "text": "Schottische Suppe aus Räucherschellfisch, Kartoffeln und Milch. Das Einzige, was Megan auf See bei sich behält."
+   }
+  },
+  {
+   "id": "baguettes",
+   "label": "Baguettes",
+   "art": "gericht",
+   "kat": "essen",
+   "preis": null,
+   "quelle": [
+    "kochen"
+   ],
+   "liebt": [
+    "elsa"
+   ],
+   "hasst": [],
+   "einzigartig": null,
+   "wirkung": {
+    "sg": 13,
+    "kueche": "europaeisch"
+   },
+   "intim": null,
+   "text": "Bread is the hardest discipline.",
+   "de": {
+    "label": "Baguettes",
+    "text": "Brot ist die schwerste Disziplin."
+   }
+  }
+ ]
+}

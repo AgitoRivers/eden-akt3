@@ -1,0 +1,55 @@
+{
+ "id": "charakter_messer_alle",
+ "titel": "Messer (Pose 2) für Meramie, Incendio, Zéphyr und Citadelle",
+ "hinweis": "Pro Jacke die bessere Variante mit OK markieren. Terra Scura ist schon übernommen (Pose 2).",
+ "items": [
+  {
+   "id": "DucWasserKnife_v1",
+   "titel": "Meramie + Sussurro (Messer) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucWasserKnife_v1.jpg",
+   "soll": "Rückwärtsgriff, Klinge am Unterarm, genau ein Messer, grinsend"
+  },
+  {
+   "id": "DucWasserKnife_v2",
+   "titel": "Meramie + Sussurro (Messer) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucWasserKnife_v2.jpg",
+   "soll": "Rückwärtsgriff, Klinge am Unterarm, genau ein Messer, grinsend"
+  },
+  {
+   "id": "DucFeuerKnife_v1",
+   "titel": "Incendio + Sussurro (Messer) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucFeuerKnife_v1.jpg",
+   "soll": "Rückwärtsgriff, Klinge am Unterarm, genau ein Messer, grinsend"
+  },
+  {
+   "id": "DucFeuerKnife_v2",
+   "titel": "Incendio + Sussurro (Messer) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucFeuerKnife_v2.jpg",
+   "soll": "Rückwärtsgriff, Klinge am Unterarm, genau ein Messer, grinsend"
+  },
+  {
+   "id": "DucLuftKnife_v1",
+   "titel": "Zéphyr + Sussurro (Messer) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucLuftKnife_v1.jpg",
+   "soll": "Rückwärtsgriff, Klinge am Unterarm, genau ein Messer, grinsend"
+  },
+  {
+   "id": "DucLuftKnife_v2",
+   "titel": "Zéphyr + Sussurro (Messer) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucLuftKnife_v2.jpg",
+   "soll": "Rückwärtsgriff, Klinge am Unterarm, genau ein Messer, grinsend"
+  },
+  {
+   "id": "DucCyberKnife_v1",
+   "titel": "Citadelle + Sussurro (Messer) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucCyberKnife_v1.jpg",
+   "soll": "Rückwärtsgriff, Klinge am Unterarm, genau ein Messer, grinsend"
+  },
+  {
+   "id": "DucCyberKnife_v2",
+   "titel": "Citadelle + Sussurro (Messer) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucCyberKnife_v2.jpg",
+   "soll": "Rückwärtsgriff, Klinge am Unterarm, genau ein Messer, grinsend"
+  }
+ ]
+}

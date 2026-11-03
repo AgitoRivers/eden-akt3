@@ -1,0 +1,55 @@
+{
+ "id": "ligeia_look",
+ "titel": "Ligeia – neuer Look, 3 Varianten",
+ "hinweis": "Wähle eine Variante (A, B oder C). Testbilder im Querformat; das fertige Set kommt wieder im Hochformat wie bisher.",
+ "items": [
+  {
+   "id": "A_neutral",
+   "titel": "Variante A · neutral",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_ligeia_test\\A\\neutral.png",
+   "soll": "dunkles Kupfer (Color: Auburn Red), offen; olivfarbene Haut, dunkle Bernstein-Augen, mediterranes Gesicht, leere Perlenfassung an Lederschnur",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\The Siren\\neutral.png",
+   "vergleich_titel": "bisher (keltisch, Perlenkette)"
+  },
+  {
+   "id": "A_amusement",
+   "titel": "Variante A · amusement",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_ligeia_test\\A\\amusement.png",
+   "soll": "dunkles Kupfer (Color: Auburn Red), offen; olivfarbene Haut, dunkle Bernstein-Augen, mediterranes Gesicht, leere Perlenfassung an Lederschnur",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\The Siren\\amusement.png",
+   "vergleich_titel": "bisher (keltisch, Perlenkette)"
+  },
+  {
+   "id": "B_neutral",
+   "titel": "Variante B · neutral",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_ligeia_test\\B\\neutral.png",
+   "soll": "helles Kupferrot (Color: Red), offen; olivfarbene Haut, dunkle Bernstein-Augen, mediterranes Gesicht, leere Perlenfassung an Lederschnur",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\The Siren\\neutral.png",
+   "vergleich_titel": "bisher (keltisch, Perlenkette)"
+  },
+  {
+   "id": "B_amusement",
+   "titel": "Variante B · amusement",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_ligeia_test\\B\\amusement.png",
+   "soll": "helles Kupferrot (Color: Red), offen; olivfarbene Haut, dunkle Bernstein-Augen, mediterranes Gesicht, leere Perlenfassung an Lederschnur",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\The Siren\\amusement.png",
+   "vergleich_titel": "bisher (keltisch, Perlenkette)"
+  },
+  {
+   "id": "C_neutral",
+   "titel": "Variante C · neutral",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_ligeia_test\\C\\neutral.png",
+   "soll": "dunkles Kupfer, lockerer Seitenzopf (Style: Side Braid); olivfarbene Haut, dunkle Bernstein-Augen, mediterranes Gesicht, leere Perlenfassung an Lederschnur",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\The Siren\\neutral.png",
+   "vergleich_titel": "bisher (keltisch, Perlenkette)"
+  },
+  {
+   "id": "C_amusement",
+   "titel": "Variante C · amusement",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_ligeia_test\\C\\amusement.png",
+   "soll": "dunkles Kupfer, lockerer Seitenzopf (Style: Side Braid); olivfarbene Haut, dunkle Bernstein-Augen, mediterranes Gesicht, leere Perlenfassung an Lederschnur",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\The Siren\\amusement.png",
+   "vergleich_titel": "bisher (keltisch, Perlenkette)"
+  }
+ ]
+}

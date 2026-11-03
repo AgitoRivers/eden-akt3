@@ -1,0 +1,111 @@
+{
+ "id": "duc_tauch",
+ "titel": "Duc im Neoprenanzug mit Messer",
+ "hinweis": "Tauchgang zur Margot: Neopren, Combat Suit F1, Sonnenbrille. Vorschlag: alle OK. Sussurro und das einfache Tauchmesser nutzen denselben Sprite. Noch nicht gespiegelt, im Spiel schaut er nach rechts.",
+ "items": [
+  {
+   "id": "idle",
+   "titel": "idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucTauchKnife\\idle.png",
+   "soll": "Bereit, leichtes Lächeln",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\idle.png",
+   "vergleich_titel": "Navy-Look"
+  },
+  {
+   "id": "guard",
+   "titel": "guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucTauchKnife\\guard.png",
+   "soll": "Deckung",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\guard.png",
+   "vergleich_titel": "Navy-Look"
+  },
+  {
+   "id": "windup",
+   "titel": "windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucTauchKnife\\windup.png",
+   "soll": "Holt zum Stich aus",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\windup.png",
+   "vergleich_titel": "Navy-Look"
+  },
+  {
+   "id": "attack",
+   "titel": "attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucTauchKnife\\attack.png",
+   "soll": "Stich nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\attack.png",
+   "vergleich_titel": "Navy-Look"
+  },
+  {
+   "id": "heavy_windup",
+   "titel": "heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucTauchKnife\\heavy_windup.png",
+   "soll": "Tiefe Hocke, Messer im Rückhandgriff",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\heavy_windup.png",
+   "vergleich_titel": "Navy-Look"
+  },
+  {
+   "id": "heavy_attack",
+   "titel": "heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucTauchKnife\\heavy_attack.png",
+   "soll": "Großer Schnitt im Sprung",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\heavy_attack.png",
+   "vergleich_titel": "Navy-Look"
+  },
+  {
+   "id": "hurt",
+   "titel": "hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucTauchKnife\\hurt.png",
+   "soll": "Getroffen, Schmerz im Gesicht",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\hurt.png",
+   "vergleich_titel": "Navy-Look"
+  },
+  {
+   "id": "enraged",
+   "titel": "enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucTauchKnife\\enraged.png",
+   "soll": "Wütend",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\enraged.png",
+   "vergleich_titel": "Navy-Look"
+  },
+  {
+   "id": "weakened",
+   "titel": "weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucTauchKnife\\weakened.png",
+   "soll": "Erschöpft",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\weakened.png",
+   "vergleich_titel": "Navy-Look"
+  },
+  {
+   "id": "surrender",
+   "titel": "surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucTauchKnife\\surrender.png",
+   "soll": "Auf den Knien, Messer am Boden",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\surrender.png",
+   "vergleich_titel": "Navy-Look"
+  },
+  {
+   "id": "flee",
+   "titel": "flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucTauchKnife\\flee.png",
+   "soll": "Flieht in Panik",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\flee.png",
+   "vergleich_titel": "Navy-Look"
+  },
+  {
+   "id": "victory",
+   "titel": "victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucTauchKnife\\victory.png",
+   "soll": "Sieg, Messer hoch",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\victory.png",
+   "vergleich_titel": "Navy-Look"
+  },
+  {
+   "id": "defeated",
+   "titel": "defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucTauchKnife\\defeated.png",
+   "soll": "Liegt k.o. am Boden",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\defeated.png",
+   "vergleich_titel": "Navy-Look"
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "id": "sophia_rest",
+ "titel": "Sophia: optimism-1 und disappointment",
+ "hinweis": "optimism-1 mit gesenkten Armen, disappointment mit ausdrücklichem Stehen. Gleicher Aufbau, Format 1:1.",
+ "items": [
+  {
+   "id": "optimism-1__arme_a",
+   "titel": "Sophia · optimism-1__arme_a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_rest\\optimism-1__arme_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\optimism-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Je Pose eine auf OK, sonst bleibt das aktuelle Bild."
+  },
+  {
+   "id": "optimism-1__arme_b",
+   "titel": "Sophia · optimism-1__arme_b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_rest\\optimism-1__arme_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\optimism-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Je Pose eine auf OK, sonst bleibt das aktuelle Bild."
+  },
+  {
+   "id": "optimism-1__arme_c",
+   "titel": "Sophia · optimism-1__arme_c",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_rest\\optimism-1__arme_c.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\optimism-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Je Pose eine auf OK, sonst bleibt das aktuelle Bild."
+  },
+  {
+   "id": "disappointment__steht_a",
+   "titel": "Sophia · disappointment__steht_a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_rest\\disappointment__steht_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\disappointment.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Je Pose eine auf OK, sonst bleibt das aktuelle Bild."
+  },
+  {
+   "id": "disappointment__steht_b",
+   "titel": "Sophia · disappointment__steht_b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_rest\\disappointment__steht_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\disappointment.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Je Pose eine auf OK, sonst bleibt das aktuelle Bild."
+  },
+  {
+   "id": "disappointment__steht_c",
+   "titel": "Sophia · disappointment__steht_c",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_rest\\disappointment__steht_c.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\disappointment.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Je Pose eine auf OK, sonst bleibt das aktuelle Bild."
+  }
+ ]
+}

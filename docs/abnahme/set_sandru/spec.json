@@ -1,0 +1,139 @@
+{
+ "id": "set_sandru",
+ "titel": "Set Sandru Amrani - NPC-Satz (22 Posen)",
+ "hinweis": "NPC-Ausdruecke ohne desire_2, ohne Rueckansichten. Ablage: expressions\\Yacht_Sandru\\Standard\roh. Noch nichts im Spiel.",
+ "items": [
+  {
+   "id": "admiration_2",
+   "titel": "Sandru Amrani - admiration_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Sandru\\Standard\\roh\\admiration_2.png",
+   "soll": "NPC-Satz, Preset Yacht_Sandru, Set sandru_av, Fassung C (A.V.-Polo mit ALEX, Beinschienen)"
+  },
+  {
+   "id": "amusement",
+   "titel": "Sandru Amrani - amusement",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Sandru\\Standard\\roh\\amusement.png",
+   "soll": "NPC-Satz, Preset Yacht_Sandru, Set sandru_av, Fassung C (A.V.-Polo mit ALEX, Beinschienen)"
+  },
+  {
+   "id": "anger",
+   "titel": "Sandru Amrani - anger",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Sandru\\Standard\\roh\\anger.png",
+   "soll": "NPC-Satz, Preset Yacht_Sandru, Set sandru_av, Fassung C (A.V.-Polo mit ALEX, Beinschienen)"
+  },
+  {
+   "id": "annoyance",
+   "titel": "Sandru Amrani - annoyance",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Sandru\\Standard\\roh\\annoyance.png",
+   "soll": "NPC-Satz, Preset Yacht_Sandru, Set sandru_av, Fassung C (A.V.-Polo mit ALEX, Beinschienen)"
+  },
+  {
+   "id": "approval",
+   "titel": "Sandru Amrani - approval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Sandru\\Standard\\roh\\approval.png",
+   "soll": "NPC-Satz, Preset Yacht_Sandru, Set sandru_av, Fassung C (A.V.-Polo mit ALEX, Beinschienen)"
+  },
+  {
+   "id": "caring",
+   "titel": "Sandru Amrani - caring",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Sandru\\Standard\\roh\\caring.png",
+   "soll": "NPC-Satz, Preset Yacht_Sandru, Set sandru_av, Fassung C (A.V.-Polo mit ALEX, Beinschienen)"
+  },
+  {
+   "id": "confusion",
+   "titel": "Sandru Amrani - confusion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Sandru\\Standard\\roh\\confusion.png",
+   "soll": "NPC-Satz, Preset Yacht_Sandru, Set sandru_av, Fassung C (A.V.-Polo mit ALEX, Beinschienen)"
+  },
+  {
+   "id": "curiosity",
+   "titel": "Sandru Amrani - curiosity",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Sandru\\Standard\\roh\\curiosity.png",
+   "soll": "NPC-Satz, Preset Yacht_Sandru, Set sandru_av, Fassung C (A.V.-Polo mit ALEX, Beinschienen)"
+  },
+  {
+   "id": "disappointment",
+   "titel": "Sandru Amrani - disappointment",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Sandru\\Standard\\roh\\disappointment.png",
+   "soll": "NPC-Satz, Preset Yacht_Sandru, Set sandru_av, Fassung C (A.V.-Polo mit ALEX, Beinschienen)"
+  },
+  {
+   "id": "disapproval",
+   "titel": "Sandru Amrani - disapproval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Sandru\\Standard\\roh\\disapproval.png",
+   "soll": "NPC-Satz, Preset Yacht_Sandru, Set sandru_av, Fassung C (A.V.-Polo mit ALEX, Beinschienen)"
+  },
+  {
+   "id": "disgust",
+   "titel": "Sandru Amrani - disgust",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Sandru\\Standard\\roh\\disgust.png",
+   "soll": "NPC-Satz, Preset Yacht_Sandru, Set sandru_av, Fassung C (A.V.-Polo mit ALEX, Beinschienen)"
+  },
+  {
+   "id": "embarrassment_2",
+   "titel": "Sandru Amrani - embarrassment_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Sandru\\Standard\\roh\\embarrassment_2.png",
+   "soll": "NPC-Satz, Preset Yacht_Sandru, Set sandru_av, Fassung C (A.V.-Polo mit ALEX, Beinschienen)"
+  },
+  {
+   "id": "excitement_2",
+   "titel": "Sandru Amrani - excitement_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Sandru\\Standard\\roh\\excitement_2.png",
+   "soll": "NPC-Satz, Preset Yacht_Sandru, Set sandru_av, Fassung C (A.V.-Polo mit ALEX, Beinschienen)"
+  },
+  {
+   "id": "fear_2",
+   "titel": "Sandru Amrani - fear_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Sandru\\Standard\\roh\\fear_2.png",
+   "soll": "NPC-Satz, Preset Yacht_Sandru, Set sandru_av, Fassung C (A.V.-Polo mit ALEX, Beinschienen)"
+  },
+  {
+   "id": "gratitude",
+   "titel": "Sandru Amrani - gratitude",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Sandru\\Standard\\roh\\gratitude.png",
+   "soll": "NPC-Satz, Preset Yacht_Sandru, Set sandru_av, Fassung C (A.V.-Polo mit ALEX, Beinschienen)"
+  },
+  {
+   "id": "joy",
+   "titel": "Sandru Amrani - joy",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Sandru\\Standard\\roh\\joy.png",
+   "soll": "NPC-Satz, Preset Yacht_Sandru, Set sandru_av, Fassung C (A.V.-Polo mit ALEX, Beinschienen)"
+  },
+  {
+   "id": "love_2",
+   "titel": "Sandru Amrani - love_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Sandru\\Standard\\roh\\love_2.png",
+   "soll": "NPC-Satz, Preset Yacht_Sandru, Set sandru_av, Fassung C (A.V.-Polo mit ALEX, Beinschienen)"
+  },
+  {
+   "id": "nervousness",
+   "titel": "Sandru Amrani - nervousness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Sandru\\Standard\\roh\\nervousness.png",
+   "soll": "NPC-Satz, Preset Yacht_Sandru, Set sandru_av, Fassung C (A.V.-Polo mit ALEX, Beinschienen)"
+  },
+  {
+   "id": "neutral",
+   "titel": "Sandru Amrani - neutral",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Sandru\\Standard\\roh\\neutral.png",
+   "soll": "NPC-Satz, Preset Yacht_Sandru, Set sandru_av, Fassung C (A.V.-Polo mit ALEX, Beinschienen)"
+  },
+  {
+   "id": "pride",
+   "titel": "Sandru Amrani - pride",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Sandru\\Standard\\roh\\pride.png",
+   "soll": "NPC-Satz, Preset Yacht_Sandru, Set sandru_av, Fassung C (A.V.-Polo mit ALEX, Beinschienen)"
+  },
+  {
+   "id": "sadness",
+   "titel": "Sandru Amrani - sadness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Sandru\\Standard\\roh\\sadness.png",
+   "soll": "NPC-Satz, Preset Yacht_Sandru, Set sandru_av, Fassung C (A.V.-Polo mit ALEX, Beinschienen)"
+  },
+  {
+   "id": "surprise",
+   "titel": "Sandru Amrani - surprise",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Sandru\\Standard\\roh\\surprise.png",
+   "soll": "NPC-Satz, Preset Yacht_Sandru, Set sandru_av, Fassung C (A.V.-Polo mit ALEX, Beinschienen)"
+  }
+ ]
+}

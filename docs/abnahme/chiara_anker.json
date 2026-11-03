@@ -1,0 +1,35 @@
+{
+ "id": "chiara_anker_v1",
+ "titel": "Chis Dress Whites: Anker-Pin und offene Haare",
+ "hinweis": "Test mit zwei Frisuren und je zwei Seeds. Links die bisherige Fassung zum Vergleich. Der Pin sitzt immer rechts im Bild.",
+ "items": [
+  {
+   "id": "blowout_a",
+   "titel": "Blowout, Bild A (Vorschlag)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_chiara_anker\\b\\neutral.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Chiara_Whites\\neutral.png",
+   "soll": "Vorschlag: Dieses Bild. Die Haare haben hier am meisten Volumen und wirken am ehesten frisiert, und der Pin ist frei."
+  },
+  {
+   "id": "blowout_b",
+   "titel": "Blowout, Bild B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_chiara_anker\\b\\neutral-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Chiara_Whites\\neutral.png",
+   "soll": "Gleiche Frisur, anderer Seed. Die Haare fallen schon etwas strähniger."
+  },
+  {
+   "id": "wellen_a",
+   "titel": "Neuer Tag Open Sculpted Waves, Bild A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_chiara_anker\\a\\neutral.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Chiara_Whites\\neutral.png",
+   "soll": "Bestellt waren geformte Wellen, gekommen sind fast glatte Strähnen. Offen, aber kaum gestylt."
+  },
+  {
+   "id": "wellen_b",
+   "titel": "Neuer Tag Open Sculpted Waves, Bild B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_chiara_anker\\a\\neutral-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch_haar\\Chiara_Whites\\neutral.png",
+   "soll": "Auch hier glatt statt Wellen, am wenigsten frisiert von den vier."
+  }
+ ]
+}

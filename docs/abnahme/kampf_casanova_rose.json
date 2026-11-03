@@ -1,0 +1,85 @@
+{
+ "id": "kampf_casanova_rose",
+ "titel": "Kampf-Sprites: Casanova mit einer Rose",
+ "hinweis": "Alle Posen neu: Grundbeschreibung jetzt mit EINER Rose und verkorkter Flasche. Die früheren roten Kratzer im Gesicht sind jetzt echte Lippenstift-Küsse. Die Liege-Fassung der anderen Gegner ist gespiegelt, Kopf rechts.",
+ "items": [
+  {
+   "id": "DrunkCasanova/idle",
+   "titel": "Casanova – idle",
+   "soll": "eine Rose, verkorkte Flasche, Lippenstift-Küsse statt roter Kratzer",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DrunkCasanova\\idle.png"
+  },
+  {
+   "id": "DrunkCasanova/guard",
+   "titel": "Casanova – guard",
+   "soll": "eine Rose, verkorkte Flasche, Lippenstift-Küsse statt roter Kratzer",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DrunkCasanova\\guard.png"
+  },
+  {
+   "id": "DrunkCasanova/hurt",
+   "titel": "Casanova – hurt",
+   "soll": "eine Rose, verkorkte Flasche, Lippenstift-Küsse statt roter Kratzer",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DrunkCasanova\\hurt.png"
+  },
+  {
+   "id": "DrunkCasanova/enraged",
+   "titel": "Casanova – enraged",
+   "soll": "eine Rose, verkorkte Flasche, Lippenstift-Küsse statt roter Kratzer",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DrunkCasanova\\enraged.png"
+  },
+  {
+   "id": "DrunkCasanova/weakened",
+   "titel": "Casanova – weakened",
+   "soll": "eine Rose, verkorkte Flasche, Lippenstift-Küsse statt roter Kratzer",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DrunkCasanova\\weakened.png"
+  },
+  {
+   "id": "DrunkCasanova/surrender",
+   "titel": "Casanova – surrender",
+   "soll": "eine Rose, verkorkte Flasche, Lippenstift-Küsse statt roter Kratzer",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DrunkCasanova\\surrender.png"
+  },
+  {
+   "id": "DrunkCasanova/flee",
+   "titel": "Casanova – flee",
+   "soll": "eine Rose, verkorkte Flasche, Lippenstift-Küsse statt roter Kratzer",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DrunkCasanova\\flee.png"
+  },
+  {
+   "id": "DrunkCasanova/victory",
+   "titel": "Casanova – victory",
+   "soll": "eine Rose, verkorkte Flasche, Lippenstift-Küsse statt roter Kratzer",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DrunkCasanova\\victory.png"
+  },
+  {
+   "id": "DrunkCasanova/windup",
+   "titel": "Casanova – windup",
+   "soll": "eine Rose, verkorkte Flasche, Lippenstift-Küsse statt roter Kratzer",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DrunkCasanova\\windup.png"
+  },
+  {
+   "id": "DrunkCasanova/attack",
+   "titel": "Casanova – attack",
+   "soll": "eine Rose, verkorkte Flasche, Lippenstift-Küsse statt roter Kratzer",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DrunkCasanova\\attack.png"
+  },
+  {
+   "id": "DrunkCasanova/heavy_windup",
+   "titel": "Casanova – heavy_windup",
+   "soll": "eine Rose, verkorkte Flasche, Lippenstift-Küsse statt roter Kratzer",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DrunkCasanova\\heavy_windup.png"
+  },
+  {
+   "id": "DrunkCasanova/heavy_attack",
+   "titel": "Casanova – heavy_attack",
+   "soll": "eine Rose, verkorkte Flasche, Lippenstift-Küsse statt roter Kratzer",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DrunkCasanova\\heavy_attack.png"
+  },
+  {
+   "id": "DrunkCasanova/defeated",
+   "titel": "Casanova – defeated",
+   "soll": "NEU (6. Versuch): ganz im Bild, Kopf rechts, Augen zu, eine Rose in der Hand. Claude: die Lippenstift-Küsse fehlen hier.",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DrunkCasanova\\defeated.png"
+  }
+ ]
+}

@@ -1,0 +1,325 @@
+{
+ "id": "charakter_alle",
+ "titel": "Character-Sprites: alle Jacken × Waffen auf ihrer Element-Wand",
+ "hinweis": "Pro Kombination die bessere Variante mit OK markieren (der Schrubber hat nur eine). Ganz unten die zwei Wände für Citadelle zur Wahl. NEU + Notiz, wenn etwas nicht passt (zum Beispiel zweite Waffe im Bild).",
+ "items": [
+  {
+   "id": "DucErdeBat_v1",
+   "titel": "Terra Scura + Terremoto (Schläger) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucErdeBat_v1.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucErdeBat_v2",
+   "titel": "Terra Scura + Terremoto (Schläger) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucErdeBat_v2.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucErdeSword_v1",
+   "titel": "Terra Scura + Riposte (Säbel) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucErdeSword_v1.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucErdeSword_v2",
+   "titel": "Terra Scura + Riposte (Säbel) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucErdeSword_v2.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucErdeKnife_v1",
+   "titel": "Terra Scura + Sussurro (Messer) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucErdeKnife_v1.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucErdeKnife_v2",
+   "titel": "Terra Scura + Sussurro (Messer) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucErdeKnife_v2.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucErdeSpear_v1",
+   "titel": "Terra Scura + Le Large (Speer) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucErdeSpear_v1.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucErdeSpear_v2",
+   "titel": "Terra Scura + Le Large (Speer) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucErdeSpear_v2.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucErdeGun_v1",
+   "titel": "Terra Scura + Gemelli (Flinte) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucErdeGun_v1.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucErdeGun_v2",
+   "titel": "Terra Scura + Gemelli (Flinte) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucErdeGun_v2.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucErdeMop_v1",
+   "titel": "Terra Scura + Schrubber (Training) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucErdeMop_v1.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucWasserBat_v1",
+   "titel": "Meramie + Terremoto (Schläger) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucWasserBat_v1.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucWasserBat_v2",
+   "titel": "Meramie + Terremoto (Schläger) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucWasserBat_v2.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucWasserSword_v1",
+   "titel": "Meramie + Riposte (Säbel) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucWasserSword_v1.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucWasserSword_v2",
+   "titel": "Meramie + Riposte (Säbel) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucWasserSword_v2.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucWasserKnife_v1",
+   "titel": "Meramie + Sussurro (Messer) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucWasserKnife_v1.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucWasserKnife_v2",
+   "titel": "Meramie + Sussurro (Messer) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucWasserKnife_v2.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucWasserSpear_v1",
+   "titel": "Meramie + Le Large (Speer) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucWasserSpear_v1.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucWasserSpear_v2",
+   "titel": "Meramie + Le Large (Speer) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucWasserSpear_v2.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucWasserGun_v1",
+   "titel": "Meramie + Gemelli (Flinte) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucWasserGun_v1.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucWasserGun_v2",
+   "titel": "Meramie + Gemelli (Flinte) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucWasserGun_v2.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucFeuerBat_v1",
+   "titel": "Incendio + Terremoto (Schläger) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucFeuerBat_v1.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucFeuerBat_v2",
+   "titel": "Incendio + Terremoto (Schläger) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucFeuerBat_v2.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucFeuerSword_v1",
+   "titel": "Incendio + Riposte (Säbel) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucFeuerSword_v1.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucFeuerSword_v2",
+   "titel": "Incendio + Riposte (Säbel) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucFeuerSword_v2.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucFeuerKnife_v1",
+   "titel": "Incendio + Sussurro (Messer) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucFeuerKnife_v1.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucFeuerKnife_v2",
+   "titel": "Incendio + Sussurro (Messer) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucFeuerKnife_v2.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucFeuerSpear_v1",
+   "titel": "Incendio + Le Large (Speer) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucFeuerSpear_v1.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucFeuerSpear_v2",
+   "titel": "Incendio + Le Large (Speer) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucFeuerSpear_v2.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucFeuerGun_v1",
+   "titel": "Incendio + Gemelli (Flinte) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucFeuerGun_v1.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucFeuerGun_v2",
+   "titel": "Incendio + Gemelli (Flinte) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucFeuerGun_v2.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucLuftBat_v1",
+   "titel": "Zéphyr + Terremoto (Schläger) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucLuftBat_v1.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucLuftBat_v2",
+   "titel": "Zéphyr + Terremoto (Schläger) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucLuftBat_v2.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucLuftSword_v1",
+   "titel": "Zéphyr + Riposte (Säbel) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucLuftSword_v1.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucLuftSword_v2",
+   "titel": "Zéphyr + Riposte (Säbel) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucLuftSword_v2.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucLuftKnife_v1",
+   "titel": "Zéphyr + Sussurro (Messer) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucLuftKnife_v1.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucLuftKnife_v2",
+   "titel": "Zéphyr + Sussurro (Messer) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucLuftKnife_v2.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucLuftSpear_v1",
+   "titel": "Zéphyr + Le Large (Speer) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucLuftSpear_v1.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucLuftSpear_v2",
+   "titel": "Zéphyr + Le Large (Speer) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucLuftSpear_v2.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucLuftGun_v1",
+   "titel": "Zéphyr + Gemelli (Flinte) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucLuftGun_v1.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucLuftGun_v2",
+   "titel": "Zéphyr + Gemelli (Flinte) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucLuftGun_v2.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucCyberBat_v1",
+   "titel": "Citadelle + Terremoto (Schläger) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucCyberBat_v1.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucCyberBat_v2",
+   "titel": "Citadelle + Terremoto (Schläger) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucCyberBat_v2.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucCyberSword_v1",
+   "titel": "Citadelle + Riposte (Säbel) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucCyberSword_v1.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucCyberSword_v2",
+   "titel": "Citadelle + Riposte (Säbel) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucCyberSword_v2.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucCyberKnife_v1",
+   "titel": "Citadelle + Sussurro (Messer) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucCyberKnife_v1.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucCyberKnife_v2",
+   "titel": "Citadelle + Sussurro (Messer) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucCyberKnife_v2.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucCyberSpear_v1",
+   "titel": "Citadelle + Le Large (Speer) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucCyberSpear_v1.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucCyberSpear_v2",
+   "titel": "Citadelle + Le Large (Speer) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucCyberSpear_v2.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucCyberGun_v1",
+   "titel": "Citadelle + Gemelli (Flinte) · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucCyberGun_v1.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "DucCyberGun_v2",
+   "titel": "Citadelle + Gemelli (Flinte) · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\DucCyberGun_v2.jpg",
+   "soll": "mattes Sprite grinsend, Waffe genau einmal, vor der Element-Wand"
+  },
+  {
+   "id": "CyberWand_a",
+   "titel": "Citadelle · Wand a zur Wahl (Labor aus Stahl und Frostglas)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\CyberWand_a.jpg",
+   "soll": "welche Wand für Citadelle"
+  },
+  {
+   "id": "CyberWand_b",
+   "titel": "Citadelle · Wand b zur Wahl (Kommandodeck über Stadt)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\alle\\CyberWand_b.jpg",
+   "soll": "welche Wand für Citadelle"
+  }
+ ]
+}

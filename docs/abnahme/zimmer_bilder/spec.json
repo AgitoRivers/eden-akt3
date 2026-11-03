@@ -1,0 +1,223 @@
+{
+ "id": "zimmer_bilder",
+ "titel": "Zimmer und Kabinen",
+ "hinweis": "Je Zimmer vier Varianten, mein Vorschlag mit ⭐.",
+ "items": [
+  {
+   "id": "crew_kabine_1_v1",
+   "titel": "Crew 1: Sophia und Lea · v1  ⭐ Vorschlag",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crew_kabine_1_v1.png",
+   "soll": "v1: Krimis und Notizbuch unten, Neoprenanzug und Walposter oben, kein Fenster."
+  },
+  {
+   "id": "crew_kabine_1_v2",
+   "titel": "Crew 1: Sophia und Lea · v2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crew_kabine_1_v2.png",
+   "soll": ""
+  },
+  {
+   "id": "crew_kabine_1_v3",
+   "titel": "Crew 1: Sophia und Lea · v3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crew_kabine_1_v3.png",
+   "soll": ""
+  },
+  {
+   "id": "crew_kabine_1_v4",
+   "titel": "Crew 1: Sophia und Lea · v4",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crew_kabine_1_v4.png",
+   "soll": ""
+  },
+  {
+   "id": "crew_kabine_2_v1",
+   "titel": "Crew 2: Lola und Jana · v1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crew_kabine_2_v1.png",
+   "soll": ""
+  },
+  {
+   "id": "crew_kabine_2_v2",
+   "titel": "Crew 2: Lola und Jana · v2  ⭐ Vorschlag",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crew_kabine_2_v2.png",
+   "soll": "v2: Gewürze und Postkarten links, ordentliches Bett mit Seil rechts. Alle vier haben ein Fenster, obwohl die Kabine unter Deck liegt; v3 zeigt eine Gestalt im Spiegel, v4 ein EU-Handtuch."
+  },
+  {
+   "id": "crew_kabine_2_v3",
+   "titel": "Crew 2: Lola und Jana · v3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crew_kabine_2_v3.png",
+   "soll": ""
+  },
+  {
+   "id": "crew_kabine_2_v4",
+   "titel": "Crew 2: Lola und Jana · v4",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crew_kabine_2_v4.png",
+   "soll": ""
+  },
+  {
+   "id": "crew_kabine_3_v1",
+   "titel": "Crew 3: Chiara und Rosi · v1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crew_kabine_3_v1.png",
+   "soll": ""
+  },
+  {
+   "id": "crew_kabine_3_v2",
+   "titel": "Crew 3: Chiara und Rosi · v2  ⭐ Vorschlag",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crew_kabine_3_v2.png",
+   "soll": "v2: Marinejacke, Sextant mit Zetteln, rote Werkzeugkiste oben. Auf dem Poster steht 'Vesca' statt Vespa."
+  },
+  {
+   "id": "crew_kabine_3_v3",
+   "titel": "Crew 3: Chiara und Rosi · v3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crew_kabine_3_v3.png",
+   "soll": ""
+  },
+  {
+   "id": "crew_kabine_3_v4",
+   "titel": "Crew 3: Chiara und Rosi · v4",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crew_kabine_3_v4.png",
+   "soll": ""
+  },
+  {
+   "id": "waescherei_kabine_tag_v1",
+   "titel": "Wäscherei-Kabine, Tag · v1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_waescherei_kabine_tag_v1.png",
+   "soll": ""
+  },
+  {
+   "id": "waescherei_kabine_tag_v2",
+   "titel": "Wäscherei-Kabine, Tag · v2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_waescherei_kabine_tag_v2.png",
+   "soll": ""
+  },
+  {
+   "id": "waescherei_kabine_tag_v3",
+   "titel": "Wäscherei-Kabine, Tag · v3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_waescherei_kabine_tag_v3.png",
+   "soll": ""
+  },
+  {
+   "id": "waescherei_kabine_tag_v4",
+   "titel": "Wäscherei-Kabine, Tag · v4  ⭐ Vorschlag",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_waescherei_kabine_tag_v4.png",
+   "soll": "v4: Bullauge, Schlüssel im Schloss. v1 und v3 zeigen eine Gestalt im Spiegel."
+  },
+  {
+   "id": "waescherei_kabine_nacht_v1",
+   "titel": "Wäscherei-Kabine, Nacht · v1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_waescherei_kabine_nacht_v1.png",
+   "soll": ""
+  },
+  {
+   "id": "waescherei_kabine_nacht_v2",
+   "titel": "Wäscherei-Kabine, Nacht · v2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_waescherei_kabine_nacht_v2.png",
+   "soll": ""
+  },
+  {
+   "id": "waescherei_kabine_nacht_v3",
+   "titel": "Wäscherei-Kabine, Nacht · v3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_waescherei_kabine_nacht_v3.png",
+   "soll": ""
+  },
+  {
+   "id": "waescherei_kabine_nacht_v4",
+   "titel": "Wäscherei-Kabine, Nacht · v4  ⭐ Vorschlag",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_waescherei_kabine_nacht_v4.png",
+   "soll": "v4: schmales Bett, Mond im Bullauge."
+  },
+  {
+   "id": "alva_wohnung_tag_v1",
+   "titel": "Alvas Wohnung über der Bar, Tag · v1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_alva_wohnung_tag_v1.png",
+   "soll": ""
+  },
+  {
+   "id": "alva_wohnung_tag_v2",
+   "titel": "Alvas Wohnung über der Bar, Tag · v2  ⭐ Vorschlag",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_alva_wohnung_tag_v2.png",
+   "soll": "v2: Flamenco-Kleid, Rose im Fenster, Piazza mit Laden gegenüber."
+  },
+  {
+   "id": "alva_wohnung_tag_v3",
+   "titel": "Alvas Wohnung über der Bar, Tag · v3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_alva_wohnung_tag_v3.png",
+   "soll": ""
+  },
+  {
+   "id": "alva_wohnung_tag_v4",
+   "titel": "Alvas Wohnung über der Bar, Tag · v4",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_alva_wohnung_tag_v4.png",
+   "soll": ""
+  },
+  {
+   "id": "alva_wohnung_nacht_v1",
+   "titel": "Alvas Wohnung über der Bar, Nacht · v1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_alva_wohnung_nacht_v1.png",
+   "soll": ""
+  },
+  {
+   "id": "alva_wohnung_nacht_v2",
+   "titel": "Alvas Wohnung über der Bar, Nacht · v2  ⭐ Vorschlag",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_alva_wohnung_nacht_v2.png",
+   "soll": "v2: Kerze und Rose im Vordergrund, Kleid am Schrank."
+  },
+  {
+   "id": "alva_wohnung_nacht_v3",
+   "titel": "Alvas Wohnung über der Bar, Nacht · v3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_alva_wohnung_nacht_v3.png",
+   "soll": ""
+  },
+  {
+   "id": "alva_wohnung_nacht_v4",
+   "titel": "Alvas Wohnung über der Bar, Nacht · v4",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_alva_wohnung_nacht_v4.png",
+   "soll": ""
+  },
+  {
+   "id": "bibi_haeuschen_tag_v1",
+   "titel": "Bibis Häuschen, Tag · v1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_bibi_haeuschen_tag_v1.png",
+   "soll": ""
+  },
+  {
+   "id": "bibi_haeuschen_tag_v2",
+   "titel": "Bibis Häuschen, Tag · v2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_bibi_haeuschen_tag_v2.png",
+   "soll": ""
+  },
+  {
+   "id": "bibi_haeuschen_tag_v3",
+   "titel": "Bibis Häuschen, Tag · v3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_bibi_haeuschen_tag_v3.png",
+   "soll": ""
+  },
+  {
+   "id": "bibi_haeuschen_tag_v4",
+   "titel": "Bibis Häuschen, Tag · v4  ⭐ Vorschlag",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_bibi_haeuschen_tag_v4.png",
+   "soll": "v4: schwarzer Plüschlöwe (v1 und v2 haben einen gelben), Weltkarte, Futtersäcke, Blick aufs Gehege."
+  },
+  {
+   "id": "bibi_haeuschen_nacht_v1",
+   "titel": "Bibis Häuschen, Nacht · v1  ⭐ Vorschlag",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_bibi_haeuschen_nacht_v1.png",
+   "soll": "v1: schwarzer Löwe, Ofen, Sterne im Fenster."
+  },
+  {
+   "id": "bibi_haeuschen_nacht_v2",
+   "titel": "Bibis Häuschen, Nacht · v2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_bibi_haeuschen_nacht_v2.png",
+   "soll": ""
+  },
+  {
+   "id": "bibi_haeuschen_nacht_v3",
+   "titel": "Bibis Häuschen, Nacht · v3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_bibi_haeuschen_nacht_v3.png",
+   "soll": ""
+  },
+  {
+   "id": "bibi_haeuschen_nacht_v4",
+   "titel": "Bibis Häuschen, Nacht · v4",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_bibi_haeuschen_nacht_v4.png",
+   "soll": ""
+  }
+ ]
+}

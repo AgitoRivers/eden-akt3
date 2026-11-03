@@ -1,0 +1,49 @@
+{
+ "id": "bar_sets_r2",
+ "titel": "Bar-Sets Runde 2",
+ "hinweis": "Die sieben Nachrender. Zu Bibi joy_2, Charly joy_2 und optimism_2: Die Arme gehen trotz mehr Abstand noch an den Rand.",
+ "items": [
+  {
+   "id": "Bibi_joy_2",
+   "titel": "Bibi: joy_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\joy_2.png",
+   "soll": "Arme, Haende und Beine im Bild"
+  },
+  {
+   "id": "Bibi_sadness_back",
+   "titel": "Bibi: sadness_back",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\sadness_back.png",
+   "soll": "Arme, Haende und Beine im Bild"
+  },
+  {
+   "id": "Bibi_worshipful",
+   "titel": "Bibi: worshipful",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Bikini\\roh\\worshipful.png",
+   "soll": "Arme, Haende und Beine im Bild"
+  },
+  {
+   "id": "Charly_joy_2",
+   "titel": "Charly: joy_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\joy_2.png",
+   "soll": "Arme, Haende und Beine im Bild"
+  },
+  {
+   "id": "Charly_joy_3",
+   "titel": "Charly: joy_3",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\joy_3.png",
+   "soll": "Arme, Haende und Beine im Bild"
+  },
+  {
+   "id": "Charly_optimism_2",
+   "titel": "Charly: optimism_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\optimism_2.png",
+   "soll": "Arme, Haende und Beine im Bild"
+  },
+  {
+   "id": "Charly_relief_2",
+   "titel": "Charly: relief_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Charly\\Bikini\\roh\\relief_2.png",
+   "soll": "Arme, Haende und Beine im Bild"
+  }
+ ]
+}

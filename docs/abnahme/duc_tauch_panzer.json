@@ -1,0 +1,55 @@
+{
+ "id": "duc_tauch_panzer",
+ "titel": "Duc im Neopren: drei Panzer-Varianten",
+ "hinweis": "Vorschlag: A, weil er etwas geschützt aussieht und nichts klobig wird, wie Lea rät. Danach rendere ich alle 13 Posen mit der gewählten Variante neu. Vergleich: ohne Panzer.",
+ "items": [
+  {
+   "id": "a1",
+   "titel": "A1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_tauch_panzer\\a\\idle.png",
+   "soll": "A: schlanke schwarze Platten an Schulter, Unterarm, Schienbein",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucTauchKnife\\idle.png",
+   "vergleich_titel": "Ohne Panzer"
+  },
+  {
+   "id": "a2",
+   "titel": "A2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_tauch_panzer\\a\\idle-1.png",
+   "soll": "A: schlanke schwarze Platten an Schulter, Unterarm, Schienbein",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucTauchKnife\\idle.png",
+   "vergleich_titel": "Ohne Panzer"
+  },
+  {
+   "id": "b1",
+   "titel": "B1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_tauch_panzer\\b\\idle.png",
+   "soll": "B: Rosis Werkstatt-Stahl mit Lederriemen",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucTauchKnife\\idle.png",
+   "vergleich_titel": "Ohne Panzer"
+  },
+  {
+   "id": "b2",
+   "titel": "B2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_tauch_panzer\\b\\idle-1.png",
+   "soll": "B: Rosis Werkstatt-Stahl mit Lederriemen",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucTauchKnife\\idle.png",
+   "vergleich_titel": "Ohne Panzer"
+  },
+  {
+   "id": "c1",
+   "titel": "C1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_tauch_panzer\\c\\idle.png",
+   "soll": "C: altes Messing eines Tauchers von vor 100 Jahren",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucTauchKnife\\idle.png",
+   "vergleich_titel": "Ohne Panzer"
+  },
+  {
+   "id": "c2",
+   "titel": "C2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_tauch_panzer\\c\\idle-1.png",
+   "soll": "C: altes Messing eines Tauchers von vor 100 Jahren",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucTauchKnife\\idle.png",
+   "vergleich_titel": "Ohne Panzer"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+  "asset": "assets/lame-wasserwand-v1.png",
+  "source": "C:\\Users\\DucNg\\.codex\\generated_images\\01a14a5c-defd-7ac1-88da-ea3225a65e1f\\exec-9731617c-4fae-44a8-b227-865a02ce09ae.png",
+  "sha256": "2e14668e0c8d2e22bbdc839cb8d68f35c683eef063528a7f7c5a8386a6824e2b",
+  "size": [
+    1122,
+    1402
+  ],
+  "mode": "RGBA",
+  "alpha_range": [
+    0,
+    255
+  ],
+  "mode_of_creation": "OpenAI built-in image generation, transparent background",
+  "animation": "canvas mesh deformation, existing LiquiGen ballistic splash frames; not a new LiquiGen simulation",
+  "native_spray_source": "quellen/native-v6/ballistic_render_all_rasterizer_.png"
+}

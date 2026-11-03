@@ -1,0 +1,890 @@
+{
+ "gr_000": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_001": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_002": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_003": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_004": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_005": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_006": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_007": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_008": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_009": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_010": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_011": [
+  {
+   "zug": 0,
+   "flags": [
+    "handlung_erfunden"
+   ],
+   "beleg": "Mwah!\" She pulls back, laughing again. \"There. Was that so hard?"
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_012": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_013": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_014": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_015": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_016": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_017": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_018": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_019": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_020": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_021": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_022": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_023": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_024": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_025": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [
+    "anruf_bruch"
+   ],
+   "beleg": "reaches off-screen and returns with a steaming mug, setting it down"
+  }
+ ],
+ "gr_026": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_027": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_028": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_029": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_030": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_031": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_032": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_033": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_034": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_035": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_036": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_037": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_038": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_039": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_040": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_041": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_042": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_043": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_044": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_045": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_046": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_047": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_048": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_049": [
+  {
+   "zug": 0,
+   "flags": [
+    "handlung_erfunden"
+   ],
+   "beleg": "She puts a hand on his chest, over his heart."
+  },
+  {
+   "zug": 1,
+   "flags": [
+    "handlung_erfunden"
+   ],
+   "beleg": "Chiara's hand lingers on Duc's chest a moment longer"
+  }
+ ],
+ "gr_050": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [
+    "handlung_erfunden"
+   ],
+   "beleg": "walks two fingers up Duc's chest"
+  }
+ ],
+ "gr_051": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_052": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_053": [
+  {
+   "zug": 0,
+   "flags": [
+    "handlung_erfunden"
+   ],
+   "beleg": "fingertips brushing his cheek lightly. Her thumb traces his lower lip"
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_054": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_055": [
+  {
+   "zug": 0,
+   "flags": [
+    "handlung_erfunden"
+   ],
+   "beleg": "takes a step closer to him, her hands on his chest"
+  },
+  {
+   "zug": 1,
+   "flags": [
+    "handlung_erfunden"
+   ],
+   "beleg": "Alva's hands linger on Duc's chest a moment longer"
+  }
+ ],
+ "gr_056": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_057": [
+  {
+   "zug": 0,
+   "flags": [
+    "handlung_erfunden"
+   ],
+   "beleg": "runs a gloved finger along his jaw"
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_058": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_059": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_060": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_061": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_062": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [
+    "handlung_erfunden"
+   ],
+   "beleg": "She walks two fingers up his chest"
+  }
+ ],
+ "gr_063": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_064": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_065": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_066": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_067": [
+  {
+   "zug": 0,
+   "flags": [
+    "handlung_erfunden"
+   ],
+   "beleg": "traces Duc's jawline gently with a finger"
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_068": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_069": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_070": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "gr_071": [
+  {
+   "zug": 0,
+   "flags": [
+    "handlung_erfunden"
+   ],
+   "beleg": "kissing him slowly, deeply. Her hands slide up his chest"
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ]
+}

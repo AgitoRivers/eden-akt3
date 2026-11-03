@@ -1,0 +1,85 @@
+{
+ "id": "kampf_duc_saebel",
+ "titel": "Duc · Säbel-Testsprite (Look 1, Erde)",
+ "hinweis": "Posen für Testkämpfe. Alle nach rechts gespiegelt, flee läuft nach links weg. Gesicht kommt später über die Duc-LoRA.",
+ "items": [
+  {
+   "id": "idle",
+   "titel": "idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSaebel\\idle.png",
+   "soll": "Duc in schwarzer Biker-Jacke mit Bronze, weißes T-Shirt, Bronze-Pilotenbrille, Säbel; Pose: idle"
+  },
+  {
+   "id": "guard",
+   "titel": "guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSaebel\\guard.png",
+   "soll": "Duc in schwarzer Biker-Jacke mit Bronze, weißes T-Shirt, Bronze-Pilotenbrille, Säbel; Pose: guard"
+  },
+  {
+   "id": "windup",
+   "titel": "windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSaebel\\windup.png",
+   "soll": "Duc in schwarzer Biker-Jacke mit Bronze, weißes T-Shirt, Bronze-Pilotenbrille, Säbel; Pose: windup"
+  },
+  {
+   "id": "attack",
+   "titel": "attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSaebel\\attack.png",
+   "soll": "Duc in schwarzer Biker-Jacke mit Bronze, weißes T-Shirt, Bronze-Pilotenbrille, Säbel; Pose: attack"
+  },
+  {
+   "id": "heavy_windup",
+   "titel": "heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSaebel\\heavy_windup.png",
+   "soll": "Duc in schwarzer Biker-Jacke mit Bronze, weißes T-Shirt, Bronze-Pilotenbrille, Säbel; Pose: heavy_windup"
+  },
+  {
+   "id": "heavy_attack",
+   "titel": "heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSaebel\\heavy_attack.png",
+   "soll": "Duc in schwarzer Biker-Jacke mit Bronze, weißes T-Shirt, Bronze-Pilotenbrille, Säbel; Pose: heavy_attack"
+  },
+  {
+   "id": "hurt",
+   "titel": "hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSaebel\\hurt.png",
+   "soll": "Duc in schwarzer Biker-Jacke mit Bronze, weißes T-Shirt, Bronze-Pilotenbrille, Säbel; Pose: hurt"
+  },
+  {
+   "id": "enraged",
+   "titel": "enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSaebel\\enraged.png",
+   "soll": "Duc in schwarzer Biker-Jacke mit Bronze, weißes T-Shirt, Bronze-Pilotenbrille, Säbel; Pose: enraged"
+  },
+  {
+   "id": "weakened",
+   "titel": "weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSaebel\\weakened.png",
+   "soll": "Duc in schwarzer Biker-Jacke mit Bronze, weißes T-Shirt, Bronze-Pilotenbrille, Säbel; Pose: weakened"
+  },
+  {
+   "id": "surrender",
+   "titel": "surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSaebel\\surrender.png",
+   "soll": "Duc in schwarzer Biker-Jacke mit Bronze, weißes T-Shirt, Bronze-Pilotenbrille, Säbel; Pose: surrender"
+  },
+  {
+   "id": "flee",
+   "titel": "flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSaebel\\flee.png",
+   "soll": "Duc in schwarzer Biker-Jacke mit Bronze, weißes T-Shirt, Bronze-Pilotenbrille, Säbel; Pose: flee"
+  },
+  {
+   "id": "victory",
+   "titel": "victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSaebel\\victory.png",
+   "soll": "Duc in schwarzer Biker-Jacke mit Bronze, weißes T-Shirt, Bronze-Pilotenbrille, Säbel; Pose: victory"
+  },
+  {
+   "id": "defeated",
+   "titel": "defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSaebel\\defeated.png",
+   "soll": "Duc in schwarzer Biker-Jacke mit Bronze, weißes T-Shirt, Bronze-Pilotenbrille, Säbel; Pose: defeated"
+  }
+ ]
+}

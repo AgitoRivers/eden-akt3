@@ -1,0 +1,55 @@
+{
+ "id": "metalle_neu",
+ "titel": "Schwarzes Titanium, Kupfer und Silber",
+ "hinweis": "Titanium soll schwarz sein, Kupfer und Silber klar verschieden. Pro Material bitte die beste mit OK markieren.",
+ "items": [
+  {
+   "id": "titanium_plate_v1",
+   "titel": "Titanium Plate (schwarz), Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\titanium_plate_v1.png",
+   "soll": "tiefschwarzes Metall, klar anders als die graue Steel Plate",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\steel_plate.png",
+   "vergleich_titel": "Steel Plate"
+  },
+  {
+   "id": "titanium_plate_v2",
+   "titel": "Titanium Plate (schwarz), Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\titanium_plate_v2.png",
+   "soll": "tiefschwarzes Metall, klar anders als die graue Steel Plate",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\steel_plate.png",
+   "vergleich_titel": "Steel Plate"
+  },
+  {
+   "id": "titanium_plate_v3",
+   "titel": "Titanium Plate (schwarz), Variante 3",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\titanium_plate_v3.png",
+   "soll": "tiefschwarzes Metall, klar anders als die graue Steel Plate",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\steel_plate.png",
+   "vergleich_titel": "Steel Plate"
+  },
+  {
+   "id": "kupfer_v1",
+   "titel": "Kupfer, Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\kupfer_v1.png",
+   "soll": "warmer rotbrauner Barren"
+  },
+  {
+   "id": "kupfer_v2",
+   "titel": "Kupfer, Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\kupfer_v2.png",
+   "soll": "warmer rotbrauner Barren"
+  },
+  {
+   "id": "silber_v1",
+   "titel": "Silber, Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\silber_v1.png",
+   "soll": "heller matter Silberbarren (zum Vergleich mit Kupfer)"
+  },
+  {
+   "id": "silber_v2",
+   "titel": "Silber, Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\silber_v2.png",
+   "soll": "heller matter Silberbarren (zum Vergleich mit Kupfer)"
+  }
+ ]
+}

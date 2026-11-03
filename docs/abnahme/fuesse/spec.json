@@ -1,0 +1,616 @@
+{
+ "id": "fuesse",
+ "titel": "Posen ohne Füße",
+ "hinweis": "Je Pose bis zu drei Varianten, daneben das Original. Eine je Pose auswählen.",
+ "items": [
+  {
+   "id": "AgentAlpha_idle-1",
+   "titel": "AgentAlpha: idle-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\AgentAlpha\\idle-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\idle.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "AgentAlpha_idle-2",
+   "titel": "AgentAlpha: idle-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\AgentAlpha\\idle-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\idle.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "AgentAlpha_idle",
+   "titel": "AgentAlpha: idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\AgentAlpha\\idle.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\idle.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "AgentAlpha_enraged-1",
+   "titel": "AgentAlpha: enraged-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\AgentAlpha\\enraged-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\enraged.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "AgentAlpha_enraged-2",
+   "titel": "AgentAlpha: enraged-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\AgentAlpha\\enraged-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\enraged.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "AgentAlpha_enraged",
+   "titel": "AgentAlpha: enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\AgentAlpha\\enraged.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\enraged.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "AgentAlpha_guard-1",
+   "titel": "AgentAlpha: guard-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\AgentAlpha\\guard-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\guard.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "AgentAlpha_guard-2",
+   "titel": "AgentAlpha: guard-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\AgentAlpha\\guard-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\guard.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "AgentAlpha_guard",
+   "titel": "AgentAlpha: guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\AgentAlpha\\guard.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\guard.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "AgentAlpha_heavy_attack-1",
+   "titel": "AgentAlpha: heavy_attack-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\AgentAlpha\\heavy_attack-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\heavy_attack.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "AgentAlpha_heavy_attack-2",
+   "titel": "AgentAlpha: heavy_attack-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\AgentAlpha\\heavy_attack-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\heavy_attack.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "AgentAlpha_heavy_attack",
+   "titel": "AgentAlpha: heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\AgentAlpha\\heavy_attack.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\heavy_attack.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "AgentAlpha_hurt-1",
+   "titel": "AgentAlpha: hurt-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\AgentAlpha\\hurt-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\hurt.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "AgentAlpha_hurt-2",
+   "titel": "AgentAlpha: hurt-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\AgentAlpha\\hurt-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\hurt.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "AgentAlpha_hurt",
+   "titel": "AgentAlpha: hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\AgentAlpha\\hurt.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\hurt.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "AgentAlpha_victory-1",
+   "titel": "AgentAlpha: victory-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\AgentAlpha\\victory-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\victory.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "AgentAlpha_victory-2",
+   "titel": "AgentAlpha: victory-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\AgentAlpha\\victory-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\victory.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "AgentAlpha_victory",
+   "titel": "AgentAlpha: victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\AgentAlpha\\victory.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\victory.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "AgentAlpha_weakened-1",
+   "titel": "AgentAlpha: weakened-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\AgentAlpha\\weakened-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\weakened.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "AgentAlpha_weakened-2",
+   "titel": "AgentAlpha: weakened-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\AgentAlpha\\weakened-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\weakened.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "AgentAlpha_weakened",
+   "titel": "AgentAlpha: weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\AgentAlpha\\weakened.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\weakened.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "YasinDrone_attack-1",
+   "titel": "YasinDrone: attack-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\YasinDrone\\attack-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\attack.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "YasinDrone_attack-2",
+   "titel": "YasinDrone: attack-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\YasinDrone\\attack-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\attack.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "YasinDrone_attack",
+   "titel": "YasinDrone: attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\YasinDrone\\attack.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\attack.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "YasinDrone_enraged-1",
+   "titel": "YasinDrone: enraged-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\YasinDrone\\enraged-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\enraged.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "YasinDrone_enraged-2",
+   "titel": "YasinDrone: enraged-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\YasinDrone\\enraged-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\enraged.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "YasinDrone_enraged",
+   "titel": "YasinDrone: enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\YasinDrone\\enraged.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\enraged.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "YasinDrone_heavy_attack-1",
+   "titel": "YasinDrone: heavy_attack-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\YasinDrone\\heavy_attack-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\heavy_attack.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "YasinDrone_heavy_attack-2",
+   "titel": "YasinDrone: heavy_attack-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\YasinDrone\\heavy_attack-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\heavy_attack.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "YasinDrone_heavy_attack",
+   "titel": "YasinDrone: heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\YasinDrone\\heavy_attack.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\heavy_attack.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "YasinDrone_victory-1",
+   "titel": "YasinDrone: victory-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\YasinDrone\\victory-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\victory.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "YasinDrone_victory-2",
+   "titel": "YasinDrone: victory-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\YasinDrone\\victory-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\victory.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "YasinDrone_victory",
+   "titel": "YasinDrone: victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\YasinDrone\\victory.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\victory.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "YasinDrone_weakened-1",
+   "titel": "YasinDrone: weakened-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\YasinDrone\\weakened-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\weakened.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "YasinDrone_weakened-2",
+   "titel": "YasinDrone: weakened-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\YasinDrone\\weakened-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\weakened.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "YasinDrone_weakened",
+   "titel": "YasinDrone: weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\YasinDrone\\weakened.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\weakened.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "YasinDrone_windup-1",
+   "titel": "YasinDrone: windup-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\YasinDrone\\windup-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\windup.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "YasinDrone_windup-2",
+   "titel": "YasinDrone: windup-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\YasinDrone\\windup-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\windup.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "YasinDrone_windup",
+   "titel": "YasinDrone: windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\YasinDrone\\windup.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\windup.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Paparazzo_idle-1",
+   "titel": "Paparazzo: idle-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Paparazzo\\idle-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Paparazzo\\idle.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Paparazzo_idle-2",
+   "titel": "Paparazzo: idle-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Paparazzo\\idle-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Paparazzo\\idle.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Paparazzo_idle",
+   "titel": "Paparazzo: idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Paparazzo\\idle.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Paparazzo\\idle.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Paparazzo_enraged-1",
+   "titel": "Paparazzo: enraged-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Paparazzo\\enraged-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Paparazzo\\enraged.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Paparazzo_enraged-2",
+   "titel": "Paparazzo: enraged-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Paparazzo\\enraged-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Paparazzo\\enraged.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Paparazzo_enraged",
+   "titel": "Paparazzo: enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Paparazzo\\enraged.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Paparazzo\\enraged.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Paparazzo_hurt-1",
+   "titel": "Paparazzo: hurt-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Paparazzo\\hurt-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Paparazzo\\hurt.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Paparazzo_hurt-2",
+   "titel": "Paparazzo: hurt-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Paparazzo\\hurt-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Paparazzo\\hurt.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Paparazzo_hurt",
+   "titel": "Paparazzo: hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Paparazzo\\hurt.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Paparazzo\\hurt.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Paparazzo_victory-1",
+   "titel": "Paparazzo: victory-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Paparazzo\\victory-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Paparazzo\\victory.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Paparazzo_victory-2",
+   "titel": "Paparazzo: victory-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Paparazzo\\victory-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Paparazzo\\victory.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Paparazzo_victory",
+   "titel": "Paparazzo: victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Paparazzo\\victory.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Paparazzo\\victory.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Paparazzo_weakened-1",
+   "titel": "Paparazzo: weakened-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Paparazzo\\weakened-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Paparazzo\\weakened.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Paparazzo_weakened-2",
+   "titel": "Paparazzo: weakened-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Paparazzo\\weakened-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Paparazzo\\weakened.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Paparazzo_weakened",
+   "titel": "Paparazzo: weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Paparazzo\\weakened.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Paparazzo\\weakened.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "MaxwellSteward_enraged-1",
+   "titel": "MaxwellSteward: enraged-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\MaxwellSteward\\enraged-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\enraged.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "MaxwellSteward_enraged-2",
+   "titel": "MaxwellSteward: enraged-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\MaxwellSteward\\enraged-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\enraged.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "MaxwellSteward_enraged",
+   "titel": "MaxwellSteward: enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\MaxwellSteward\\enraged.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\enraged.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "MaxwellSteward_heavy_attack-1",
+   "titel": "MaxwellSteward: heavy_attack-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\MaxwellSteward\\heavy_attack-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\heavy_attack.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "MaxwellSteward_heavy_attack-2",
+   "titel": "MaxwellSteward: heavy_attack-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\MaxwellSteward\\heavy_attack-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\heavy_attack.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "MaxwellSteward_heavy_attack",
+   "titel": "MaxwellSteward: heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\MaxwellSteward\\heavy_attack.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\heavy_attack.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "MaxwellSteward_hurt-1",
+   "titel": "MaxwellSteward: hurt-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\MaxwellSteward\\hurt-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\hurt.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "MaxwellSteward_hurt-2",
+   "titel": "MaxwellSteward: hurt-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\MaxwellSteward\\hurt-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\hurt.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "MaxwellSteward_hurt",
+   "titel": "MaxwellSteward: hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\MaxwellSteward\\hurt.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\hurt.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "MaxwellSteward_victory-1",
+   "titel": "MaxwellSteward: victory-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\MaxwellSteward\\victory-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\victory.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "MaxwellSteward_victory-2",
+   "titel": "MaxwellSteward: victory-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\MaxwellSteward\\victory-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\victory.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "MaxwellSteward_victory",
+   "titel": "MaxwellSteward: victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\MaxwellSteward\\victory.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\victory.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Alon_enraged-1",
+   "titel": "Alon: enraged-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Alon\\enraged-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\enraged.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Alon_enraged-2",
+   "titel": "Alon: enraged-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Alon\\enraged-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\enraged.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Alon_enraged",
+   "titel": "Alon: enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Alon\\enraged.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\enraged.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Alon_victory-1",
+   "titel": "Alon: victory-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Alon\\victory-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\victory.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Alon_victory-2",
+   "titel": "Alon: victory-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Alon\\victory-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\victory.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Alon_victory",
+   "titel": "Alon: victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Alon\\victory.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\victory.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Alon_weakened-1",
+   "titel": "Alon: weakened-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Alon\\weakened-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\weakened.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Alon_weakened-2",
+   "titel": "Alon: weakened-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Alon\\weakened-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\weakened.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Alon_weakened",
+   "titel": "Alon: weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Alon\\weakened.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\weakened.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "ThiefAlpha_enraged-1",
+   "titel": "ThiefAlpha: enraged-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\ThiefAlpha\\enraged-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefAlpha\\enraged.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "ThiefAlpha_enraged-2",
+   "titel": "ThiefAlpha: enraged-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\ThiefAlpha\\enraged-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefAlpha\\enraged.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "ThiefAlpha_enraged",
+   "titel": "ThiefAlpha: enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\ThiefAlpha\\enraged.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefAlpha\\enraged.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "ThiefAlpha_guard-1",
+   "titel": "ThiefAlpha: guard-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\ThiefAlpha\\guard-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefAlpha\\guard.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "ThiefAlpha_guard-2",
+   "titel": "ThiefAlpha: guard-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\ThiefAlpha\\guard-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefAlpha\\guard.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "ThiefAlpha_guard",
+   "titel": "ThiefAlpha: guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\ThiefAlpha\\guard.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefAlpha\\guard.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Bibi_guard-1",
+   "titel": "Bibi: guard-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Bibi\\guard-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\guard.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Bibi_guard-2",
+   "titel": "Bibi: guard-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Bibi\\guard-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\guard.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Bibi_guard",
+   "titel": "Bibi: guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Bibi\\guard.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\guard.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Heinrich_enraged-1",
+   "titel": "Heinrich: enraged-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Heinrich\\enraged-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Heinrich\\enraged.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Heinrich_enraged-2",
+   "titel": "Heinrich: enraged-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Heinrich\\enraged-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Heinrich\\enraged.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  },
+  {
+   "id": "Heinrich_enraged",
+   "titel": "Heinrich: enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_fuesse_neu\\Heinrich\\enraged.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Heinrich\\enraged.png",
+   "soll": "Beide Füße da, Pose und Gesicht wie im Original"
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+/* Sturm an Tag 5 (27.10.2026) - baut auf eden-hearing.css auf (.vh, .vh-moment, .vh-mblase, .vh-tratsch ...).
+   Waehrend des Sturms blendet body.st-aktiv die Spielleisten aus. */
+body.st-aktiv #zeitpille, body.st-aktiv #schiff, body.st-aktiv #relkarte, body.st-aktiv #chat, body.st-aktiv #chatauf,
+body.st-aktiv #dock, body.st-aktiv #toast, body.st-aktiv #vmeldung, body.st-aktiv #figuren{display:none!important}
+.vh.st{--tisch-h:250px}
+.st-megan{opacity:.82;max-width:28vw}
+/* Regen, Blitz, Notlicht */
+.st-regen{position:absolute;inset:0;z-index:0;pointer-events:none;opacity:.0;transition:opacity 1s;
+  background-image:repeating-linear-gradient(105deg,rgba(200,215,235,.0) 0 14px,rgba(200,215,235,.16) 14px 15px);
+  background-size:120px 120px;animation:st-regen .35s linear infinite}
+.vh.st.abend .st-regen{opacity:.25}
+.vh.st.nacht .st-regen{opacity:.7}
+@keyframes st-regen{from{background-position:0 0}to{background-position:-30px 120px}}
+.vh.st.nacht::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;background:rgba(6,10,20,.35);transition:background .6s}
+.vh.st.dunkel::before{background:radial-gradient(ellipse at 50% 100%,rgba(150,20,14,.32),rgba(2,2,4,.9) 70%)}
+.vh.st.dunkel .st-megan{filter:brightness(.45) sepia(.6) hue-rotate(-30deg) saturate(2)}
+.st-blitz{position:absolute;inset:0;z-index:7;pointer-events:none;background:#eef3ff;animation:st-blitz .7s ease-out forwards}
+@keyframes st-blitz{0%{opacity:.85}10%{opacity:.1}18%{opacity:.6}100%{opacity:0}}
+/* Brett mit fuenf Posten */
+.st-brett{position:absolute;z-index:4;left:20px;bottom:18px;width:min(1180px,calc(100% - 26vw - 40px));   /* rechts steht Megan */
+ 
+  display:flex;flex-direction:column;gap:var(--a25)}
+.st-karten{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:var(--a25)}
+.st-posten{position:relative;text-align:left;display:flex;flex-direction:column;gap:var(--a15);padding:var(--a3) var(--a3) var(--a25);border-radius:var(--r-mittel);
+  background:rgba(9,11,15,.82);border:1px solid var(--linie);color:var(--perle);cursor:default;font:inherit;min-width:0;
+  transition:border-color .2s,transform .2s,box-shadow .2s}
+.st-brett.aktiv .st-posten{cursor:pointer}
+.st-brett.aktiv .st-posten:hover,.st-posten.bereit{border-color:var(--akz)}
+.st-posten.bereit{box-shadow:0 0 0 3px rgba(216,189,134,.25)}
+.st-posten b{font-family:var(--f-name);font-weight:750;font-size:var(--t-text);color:var(--akz);display:flex;justify-content:space-between}
+.st-posten small{font-size:var(--t-klein);line-height:1.35;color:var(--perle-leise);min-height:34px}
+.st-slot{display:flex;align-items:center;gap:var(--a2);min-height:40px;padding:var(--a1) var(--a15);border-radius:var(--r-taste);border:1px dashed rgba(243,238,228,.22)}
+.st-slot em{font-style:normal;font-weight:600;font-size:var(--t-info)}
+.st-slot em.leer{color:var(--perle-dim);font-weight:500;font-size:var(--t-klein)}
+.st-av{width:34px;height:34px;flex:0 0 34px;border-radius:50%;background-size:cover;background-position:50% 18%;background-color:var(--tinte);
+  box-shadow:0 0 0 2px rgba(216,189,134,.5);display:grid;place-items:center;font:700 var(--t-mini) var(--f-ui);color:var(--akz)}
+.st-av.du{background:rgba(216,189,134,.16)}
+.st-posten.wunsch{border-color:var(--akz);transform:translateY(-6px);box-shadow:0 0 0 3px rgba(216,189,134,.35)}
+.st-posten.krise{border-color:#e7eefc;transform:translateY(-8px);box-shadow:0 0 22px rgba(200,220,255,.45)}
+.st-posten.e-ok{border-color:rgba(168,213,177,.6)}
+.st-posten.e-knapp{border-color:rgba(232,192,105,.6)}
+.st-posten.e-weg{border-color:rgba(217,161,152,.6);background:rgba(40,12,10,.85)}
+.st-erg{font-style:normal;font-size:var(--t-text)}
+.st-posten.e-ok .st-erg{color:var(--gut)}
+.st-posten.e-knapp .st-erg{color:var(--gold-hell)}
+.st-posten.e-weg .st-erg{color:var(--schlecht)}
+/* Chips der Crew */
+.st-reihe{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:var(--a2)}
+.st-chip{display:flex;gap:var(--a2);align-items:center;text-align:left;padding:var(--a15) var(--a2);border-radius:var(--r-mittel);background:rgba(9,11,15,.85);
+  border:1px solid var(--linie);color:var(--perle);font:inherit;cursor:grab;min-width:0;transition:opacity .2s,border-color .2s}
+.st-chip span{min-width:0}
+.st-chip b{display:block;font-size:var(--t-info)}
+.st-chip small{display:block;font-size:var(--t-mini);line-height:1.25;color:var(--perle-dim)}
+.st-chip.gewaehlt{border-color:var(--akz);box-shadow:0 0 0 3px rgba(216,189,134,.3)}
+.st-chip.weg{opacity:.38}
+.st-fuss{display:flex;justify-content:space-between;align-items:center;gap:var(--a35);padding:var(--a15) var(--a1) 0;color:var(--perle-leise);font-size:var(--t-info)}
+/* Krisen-Karte und Erzaehlung */
+.vh-moment.st-krise{background:radial-gradient(ellipse at center,rgba(10,14,26,.35),rgba(4,6,12,.85));animation:vh-ein .25s ease-out}
+.vh-moment.st-krise.dunkel{background:radial-gradient(ellipse at center,rgba(70,8,6,.45),rgba(0,0,0,.92))}
+.st-krise-karte{text-align:center;max-width:min(720px,90vw);animation:st-ruck .5s ease-out}
+.st-krise-karte h2{margin:2px 0 var(--a2);font-family:var(--f-name);font-size:clamp(30px,4.4vw,54px);color:#e7eefc;
+  text-shadow:0 0 24px rgba(160,190,255,.55);text-wrap:balance}
+.st-krise-karte p{margin:0;font-size:var(--t-gross);line-height:1.45;color:var(--perle)}
+.st-zeit{font-family:var(--f-zahl);font-size:var(--t-text);letter-spacing:.14em;color:var(--akz)}
+@keyframes st-ruck{0%{transform:translateX(-10px) rotate(-.8deg)}30%{transform:translateX(9px) rotate(.6deg)}60%{transform:translateX(-4px)}100%{transform:none}}
+.vh-moment.st-erz{background:rgba(7,8,11,.45);animation:vh-ein .3s ease-out}
+.st-erz-karte{max-width:min(640px,90vw)}
+.st-erz-karte p{font-style:normal}
+.vh-moment.st-erz.ok .st-erz-karte{border-color:rgba(168,213,177,.55)}
+.vh-moment.st-erz.knapp .st-erz-karte{border-color:rgba(232,192,105,.55)}
+.vh-moment.st-erz.weg .st-erz-karte{border-color:rgba(217,161,152,.6);background:rgba(36,10,8,.85)}
+.vh-moment.st-erz.weg .st-erz-karte b{color:var(--schlecht)}
+.vh-moment.blase.st-blase.panik .vh-mblase{border-color:#e08a7c;animation:vh-hoch .3s ease-out,vh-wackel .45s .25s ease-in-out 2}
+.vh-moment.blase.st-blase.a-ok .vh-mblase{border-color:rgba(168,213,177,.6)}
+.vh-moment.st-ruf{background:linear-gradient(rgba(7,8,11,.15),rgba(7,8,11,.6))}
+/* Sprint-Entscheidung, Abschluss */
+.st-sprint,.st-ende{position:absolute;z-index:6;left:50%;top:44%;transform:translate(-50%,-50%)}
+.st-klein{margin:var(--a1) 0 var(--a25);color:var(--perle-leise);font-size:var(--t-info);text-align:center}
+.st-sprint-k{font-size:var(--t-klein);padding:var(--pille);border-radius:var(--r-rund);border:1px solid rgba(232,192,105,.5);color:var(--gold-hell)}
+@media (max-width:1100px){
+  .st-karten{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .st-reihe{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media (prefers-reduced-motion:reduce){.st-regen,.st-blitz,.st-krise-karte{animation:none}}
+
+/* Duc's front portrait from the Character menu (29.10.2026): full figure, so the circle zooms onto his face */
+.st-av[style*="charakterbild"]{background-size:300%;background-position:52% 11%}

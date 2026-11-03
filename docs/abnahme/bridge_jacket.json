@@ -1,0 +1,13 @@
+{
+ "id": "bridge_jacket_v1",
+ "titel": "Chiaras Maßstück: Bridge Jacket",
+ "hinweis": "Pilot für neue Outfits. Bitte einen Look wählen. Erst danach rendere ich den ganzen Satz mit allen Gefühlen.",
+ "items": [
+  {"id": "look1a", "titel": "Look 1 · offene Jacke, Bild A", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_bridge_jacket\\Yacht_Chiara_Bridge_1\\neutral.png", "soll": "Navy-Wolljacke mit Korallknöpfen, offen über der tief ausgeschnittenen weißen Bluse, enger Skort."},
+  {"id": "look1b", "titel": "Look 1 · offene Jacke, Bild B", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_bridge_jacket\\Yacht_Chiara_Bridge_1\\neutral-1.png", "soll": "Wie A, anderer Seed."},
+  {"id": "look2a", "titel": "Look 2 · kurze Jacke, Bild A", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_bridge_jacket\\Yacht_Chiara_Bridge_2\\neutral.png", "soll": "Kurze Navy-Jacke über weißem Top, weiße Matrosenshorts."},
+  {"id": "look2b", "titel": "Look 2 · kurze Jacke, Bild B", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_bridge_jacket\\Yacht_Chiara_Bridge_2\\neutral-1.png", "soll": "Wie A, anderer Seed."},
+  {"id": "look3a", "titel": "Look 3 · Jackenkleid, Bild A", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_bridge_jacket\\Yacht_Chiara_Bridge_3\\neutral.png", "soll": "Lange tailliert geschnittene Jacke als kurzes Kleid, ein Korallknopf, tiefer V-Ausschnitt."},
+  {"id": "look3b", "titel": "Look 3 · Jackenkleid, Bild B", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_bridge_jacket\\Yacht_Chiara_Bridge_3\\neutral-1.png", "soll": "Wie A, anderer Seed."}
+ ]
+}

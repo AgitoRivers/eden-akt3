@@ -1,0 +1,22 @@
+{
+  "name": "stahlviolett",
+  "origin": "OpenAI built-in image edit; straight violet photographic blade-motion material",
+  "sha256": "9f21697bf0392ab4211e93729e77c5e2088c416b937db9035adbc5eea63c0b72",
+  "size": [
+    2172,
+    724
+  ],
+  "mode": "RGBA",
+  "alpha_range": [
+    0,
+    254
+  ],
+  "crop": [
+    39,
+    309,
+    2133,
+    415
+  ],
+  "source": "C:\\Users\\DucNg\\.codex\\generated_images\\01a14a5c-defd-7ac1-88da-ea3225a65e1f\\exec-e1197674-9136-4917-a14d-a271106dd72e.png",
+  "edit_target": "assets/realismus-v3/stahl-gerade.png"
+}

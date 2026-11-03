@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "source_file": "eden-soundnacharbeit-neu.json",
+  "source_sha256": "36ba46857a4cd4863349356e8c78ad93f5fd1d72c340c1bce8c2d8568ad2a43f",
+  "selection_created": "2026-10-24T23:14:26.212Z",
+  "selected": {
+    "wind_gust": {
+      "label": "Kräftiger Windstoß",
+      "variant": "A",
+      "file": "audio/nacharbeit-v1/wind_gust-new-A.ogg",
+      "asset_id": "rework-v1-wind_gust-A",
+      "sha256": "198d4822ea25def13fa22f24de2a19d537fdb9a4a3b102380d483e843b669faa",
+      "note": "A",
+      "needs_adaptation": false,
+      "evidence": "explicit_variant"
+    },
+    "sound_charge": {
+      "label": "Resonanzladung",
+      "variant": "B",
+      "file": "audio/nacharbeit-v1/sound_charge-new-B.ogg",
+      "asset_id": "rework-v1-sound_charge-B",
+      "sha256": "8d46042ef29d8bd7120ebcc21e50c46da00be8fdbca67d770f00af1d36eb84cc",
+      "note": "B aber mit einem ende",
+      "needs_adaptation": true,
+      "evidence": "explicit_variant"
+    },
+    "sound_release": {
+      "label": "Schallentladung",
+      "variant": "A",
+      "file": "audio/nacharbeit-v1/sound_release-new-A.ogg",
+      "asset_id": "rework-v1-sound_release-A",
+      "sha256": "46011aa32a14bb095feb891a67763918d658f14a41e768453c00ae9b24ed6ad0",
+      "note": "mehr impact",
+      "needs_adaptation": true,
+      "evidence": "explicit_variant"
+    },
+    "light_flash": {
+      "label": "Weißes Aufblenden",
+      "variant": "C",
+      "file": "audio/nacharbeit-v1/light_flash-new-C.ogg",
+      "asset_id": "rework-v1-light_flash-C",
+      "sha256": "644181c8a90d0f889e6d536267239997c0bcc80d89faa967a655aeb03a56133e",
+      "note": "",
+      "needs_adaptation": false,
+      "evidence": "explicit_variant"
+    },
+    "star_fall": {
+      "label": "Fallendes Geschoss",
+      "variant": "B",
+      "file": "audio/nacharbeit-v1/star_fall-new-B.ogg",
+      "asset_id": "rework-v1-star_fall-B",
+      "sha256": "7d4031a1554967bc896fd62e3a4c2f42026863c7e2b57d8bc4dc076b571fc7cb",
+      "note": "B",
+      "needs_adaptation": false,
+      "evidence": "note_B_confirmed_in_plan"
+    }
+  },
+  "pending": {
+    "afterburn": {
+      "note": "sehr schlecht hört sich an wie unter wasser aber kein brennen. ",
+      "label": "Nachbrennen",
+      "attacks": [
+        "scirocco",
+        "retour",
+        "furia",
+        "vulcano"
+      ]
+    },
+    "water_jet": {
+      "note": "alles sehr schlecht wie künstlicher laser aber keon wasser!",
+      "label": "Gerichteter Wasserstoß",
+      "attacks": [
+        "wave"
+      ]
+    },
+    "focus_lock": {
+      "note": "mehr wie ein glitzern",
+      "label": "Fokus erfassen",
+      "attacks": [
+        "reticle"
+      ]
+    },
+    "compact_hit": {
+      "note": "mehr wie ein schnitt",
+      "label": "Kompakter Schlag",
+      "attacks": [
+        "mistral",
+        "doubleSlash",
+        "vendetta"
+      ]
+    },
+    "debris": {
+      "note": "mehr wie eine windböe",
+      "label": "Rückstoß und Geröll",
+      "attacks": [
+        "mistral"
+      ]
+    }
+  },
+  "committed": false
+}

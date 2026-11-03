@@ -1,0 +1,15 @@
+{
+ "id": "cullen_skink",
+ "titel": "Cullen Skink – Megans Lieblingsgericht (ersetzt Potato and Leek Soup)",
+ "hinweis": "Item-Bild des Gerichts (id lauchsuppe bleibt). Eine Variante mit OK markieren; übernehmen mit: item_bilder.py --modul eden_rise --waehle N lauchsuppe",
+ "items": [
+  {"id": "cullen_skink_v1", "titel": "Variante 1", "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_varianten\\lauchsuppe_v1.webp",
+   "soll": "Cullen Skink: dicke, cremige Suppe mit Räucherschellfisch, Kartoffeln, Petersilie; Leinen-Look wie die anderen Gerichte"},
+  {"id": "cullen_skink_v2", "titel": "Variante 2", "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_varianten\\lauchsuppe_v2.webp",
+   "soll": "Cullen Skink: dicke, cremige Suppe mit Räucherschellfisch, Kartoffeln, Petersilie; Leinen-Look wie die anderen Gerichte"},
+  {"id": "cullen_skink_v3", "titel": "Variante 3", "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_varianten\\lauchsuppe_v3.webp",
+   "soll": "Cullen Skink: dicke, cremige Suppe mit Räucherschellfisch, Kartoffeln, Petersilie; Leinen-Look wie die anderen Gerichte"},
+  {"id": "cullen_skink_alt", "titel": "Bisher (Potato and Leek Soup) – nur zum Vergleich", "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\lauchsuppe.webp",
+   "soll": "Altes Bild, wird durch die gewählte Variante ersetzt"}
+ ]
+}

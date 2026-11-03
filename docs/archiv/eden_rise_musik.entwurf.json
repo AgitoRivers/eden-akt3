@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "stand": "2026-10-18",
+  "modul": "eden_rise",
+  "status": "Vorbereitung, noch nicht eingebunden",
+  "quelle_csv": "Eden_Rise_Music_Prompts.csv",
+  "comfy_quelle": "X:/AI/ComfyUI_Video_v30/ComfyUI/output/eden_music",
+  "auswahl": "explizite_stille > szene > ort_phase > ort > bereich_phase > bereich > standard",
+  "standard": "hauptthema",
+  "stille": [{"szene": "blackout", "uebergang_ms": 0}],
+  "slots": [
+    {"id": "hauptthema", "titel": "Eden Rise - Hauptthema", "csv_zeile": 1, "seconds": 180, "oberflaechen": ["titel", "prolog", "persona_wahl"]},
+    {"id": "deck_tag", "titel": "Sonnenlicht auf dem Deck", "csv_zeile": 2, "seconds": 180, "ort_phase": {"orte": ["aft_deck", "sun_deck", "solar_deck", "foredeck", "swim_platform"], "phasen": ["fruehstueck", "tag", "dinner", "abend"]}},
+    {"id": "crew_alltag", "titel": "Frühstück mit der Crew", "csv_zeile": 3, "seconds": 150, "orte": ["crew_mess", "galley", "crew_corridor"]},
+    {"id": "charter_party", "titel": "Die letzte Charter-Nacht", "csv_zeile": 4, "seconds": 240, "szenen": ["auftakt_party"]},
+    {"id": "meeresleuchten", "titel": "Leuchtendes Meer", "csv_zeile": 5, "seconds": 240, "notiz": "Noch kein eigener fester Szenenauslöser vorhanden; gezielt kuratieren, nicht automatisch jede Nachtszene zuordnen."},
+    {"id": "hafen_tag", "titel": "Cala d'Orsu - Hafen am Tag", "csv_zeile": 6, "seconds": 180, "szenen": ["landgang"], "ort_phase": {"orte": ["village_harbour", "alvas_terrace"], "phasen": ["fruehstueck", "tag", "dinner", "abend"]}},
+    {"id": "alvas_bar", "titel": "Alvas Bar - Später Abend", "csv_zeile": 7, "seconds": 180, "szenen": ["landgang_2"], "orte": ["alvas_bar"]},
+    {"id": "nacht_anker", "titel": "Nachts vor Anker", "csv_zeile": 8, "seconds": 240, "bereich_phase": {"bereiche": ["deck", "unterdeck", "land"], "phasen": ["nacht"]}, "ort_phase": {"orte": ["aft_deck", "sun_deck", "solar_deck", "foredeck", "swim_platform", "bridge", "village_harbour"], "phasen": ["nacht"]}},
+    {"id": "reparatur", "titel": "Rosi - Technik und Reparatur", "csv_zeile": 9, "seconds": 120, "szenen": ["reparaturschritt", "technischer_weg"], "orte": ["power_room", "generator_room", "workshop", "petru_workshop", "tender_garage"]},
+    {"id": "ermittlung", "titel": "Etwas stimmt nicht", "csv_zeile": 10, "seconds": 120, "szenen": ["erste_ermittlung", "widerspruch", "der_satz", "wendung", "was_schreibst_du", "etwas_anders"]},
+    {"id": "bericht", "titel": "Megan - Der Bericht", "csv_zeile": 11, "seconds": 120, "szenen": ["megan_erster_anruf", "megan_entwurf", "megan_kommt", "megan_inspektion", "bericht", "endfassung"]},
+    {"id": "naehe", "titel": "Jemand bleibt noch", "csv_zeile": 12, "seconds": 240, "szenen": ["naehe", "letzte_naehe"], "notiz": "Freie Kabinengespräche nicht allein wegen des Ortes romantisch vertonen; dafür ist später ein expliziter öffentlicher Situationshinweis nötig."},
+    {"id": "sturm", "titel": "Sturmvorbereitung und Sturmnacht", "csv_zeile": 13, "seconds": 120, "szenen": ["sturmvorbereitung", "sturmnacht"]},
+    {"id": "crew_waerme", "titel": "Kerzen in der Crew-Messe", "csv_zeile": 14, "seconds": 180, "szenen": ["gemeinsames_essen"]},
+    {"id": "festa", "titel": "La Festa - Eine Nacht ohne Batterien", "csv_zeile": 15, "seconds": 240, "szenen": ["festa"], "orte": ["village_piazza"]},
+    {"id": "calvi", "titel": "Calvi - Ein Stuhl mehr am Tisch", "csv_zeile": 16, "seconds": 180, "szenen": ["auslaufen", "zukunft", "schlussbild"], "orte": ["calvi_harbour"]}
+  ]
+}

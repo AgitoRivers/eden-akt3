@@ -1,0 +1,175 @@
+{
+ "id": "zimmer_bilder5",
+ "titel": "Zimmer, Runde 5 (Krea-Edit deiner Wahl)",
+ "hinweis": "Je Zimmer vier Seeds, links die Vorlage.",
+ "items": [
+  {
+   "id": "crew_kabine_1_v1",
+   "titel": "Crew 1: Leas Bett oben chaotischer (aus v4) · v1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crew_kabine_1_e_v1.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\_quellen\\eden_rise_crew_kabine_1_v4.png",
+   "vergleich_titel": "Vorlage"
+  },
+  {
+   "id": "crew_kabine_1_v2",
+   "titel": "Crew 1: Leas Bett oben chaotischer (aus v4) · v2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crew_kabine_1_e_v2.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\_quellen\\eden_rise_crew_kabine_1_v4.png",
+   "vergleich_titel": "Vorlage"
+  },
+  {
+   "id": "crew_kabine_1_v3",
+   "titel": "Crew 1: Leas Bett oben chaotischer (aus v4) · v3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crew_kabine_1_e_v3.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\_quellen\\eden_rise_crew_kabine_1_v4.png",
+   "vergleich_titel": "Vorlage"
+  },
+  {
+   "id": "crew_kabine_1_v4",
+   "titel": "Crew 1: Leas Bett oben chaotischer (aus v4) · v4",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crew_kabine_1_e_v4.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\_quellen\\eden_rise_crew_kabine_1_v4.png",
+   "vergleich_titel": "Vorlage"
+  },
+  {
+   "id": "crew_kabine_2_v1",
+   "titel": "Crew 2: Universum-Kuscheldecke bei Lola (aus v4) · v1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crew_kabine_2_e_v1.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\_quellen\\eden_rise_crew_kabine_2_v4.png",
+   "vergleich_titel": "Vorlage"
+  },
+  {
+   "id": "crew_kabine_2_v2",
+   "titel": "Crew 2: Universum-Kuscheldecke bei Lola (aus v4) · v2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crew_kabine_2_e_v2.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\_quellen\\eden_rise_crew_kabine_2_v4.png",
+   "vergleich_titel": "Vorlage"
+  },
+  {
+   "id": "crew_kabine_2_v3",
+   "titel": "Crew 2: Universum-Kuscheldecke bei Lola (aus v4) · v3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crew_kabine_2_e_v3.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\_quellen\\eden_rise_crew_kabine_2_v4.png",
+   "vergleich_titel": "Vorlage"
+  },
+  {
+   "id": "crew_kabine_2_v4",
+   "titel": "Crew 2: Universum-Kuscheldecke bei Lola (aus v4) · v4",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crew_kabine_2_e_v4.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\_quellen\\eden_rise_crew_kabine_2_v4.png",
+   "vergleich_titel": "Vorlage"
+  },
+  {
+   "id": "crew_kabine_3_v1",
+   "titel": "Crew 3: zweites Bett nur als Gerüst (aus v2) · v1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crew_kabine_3_e_v1.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\_quellen\\eden_rise_crew_kabine_3_v2.png",
+   "vergleich_titel": "Vorlage"
+  },
+  {
+   "id": "crew_kabine_3_v2",
+   "titel": "Crew 3: zweites Bett nur als Gerüst (aus v2) · v2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crew_kabine_3_e_v2.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\_quellen\\eden_rise_crew_kabine_3_v2.png",
+   "vergleich_titel": "Vorlage"
+  },
+  {
+   "id": "crew_kabine_3_v3",
+   "titel": "Crew 3: zweites Bett nur als Gerüst (aus v2) · v3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crew_kabine_3_e_v3.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\_quellen\\eden_rise_crew_kabine_3_v2.png",
+   "vergleich_titel": "Vorlage"
+  },
+  {
+   "id": "crew_kabine_3_v4",
+   "titel": "Crew 3: zweites Bett nur als Gerüst (aus v2) · v4",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crew_kabine_3_e_v4.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\_quellen\\eden_rise_crew_kabine_3_v2.png",
+   "vergleich_titel": "Vorlage"
+  },
+  {
+   "id": "waescherei_kabine_nacht_v1",
+   "titel": "Spare Cabin Nacht aus Tag v2 · v1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_waescherei_kabine_nacht_e_v1.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\_quellen\\eden_rise_waescherei_kabine_tag_v2.png",
+   "vergleich_titel": "Vorlage"
+  },
+  {
+   "id": "waescherei_kabine_nacht_v2",
+   "titel": "Spare Cabin Nacht aus Tag v2 · v2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_waescherei_kabine_nacht_e_v2.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\_quellen\\eden_rise_waescherei_kabine_tag_v2.png",
+   "vergleich_titel": "Vorlage"
+  },
+  {
+   "id": "waescherei_kabine_nacht_v3",
+   "titel": "Spare Cabin Nacht aus Tag v2 · v3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_waescherei_kabine_nacht_e_v3.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\_quellen\\eden_rise_waescherei_kabine_tag_v2.png",
+   "vergleich_titel": "Vorlage"
+  },
+  {
+   "id": "waescherei_kabine_nacht_v4",
+   "titel": "Spare Cabin Nacht aus Tag v2 · v4",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_waescherei_kabine_nacht_e_v4.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\_quellen\\eden_rise_waescherei_kabine_tag_v2.png",
+   "vergleich_titel": "Vorlage"
+  },
+  {
+   "id": "bibi_haeuschen_tag_v1",
+   "titel": "Bibi Tag ohne Kuscheltier (aus v1) · v1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_bibi_haeuschen_tag_e_v1.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\_quellen\\eden_rise_bibi_haeuschen_tag_v1.png",
+   "vergleich_titel": "Vorlage"
+  },
+  {
+   "id": "bibi_haeuschen_tag_v2",
+   "titel": "Bibi Tag ohne Kuscheltier (aus v1) · v2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_bibi_haeuschen_tag_e_v2.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\_quellen\\eden_rise_bibi_haeuschen_tag_v1.png",
+   "vergleich_titel": "Vorlage"
+  },
+  {
+   "id": "bibi_haeuschen_tag_v3",
+   "titel": "Bibi Tag ohne Kuscheltier (aus v1) · v3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_bibi_haeuschen_tag_e_v3.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\_quellen\\eden_rise_bibi_haeuschen_tag_v1.png",
+   "vergleich_titel": "Vorlage"
+  },
+  {
+   "id": "bibi_haeuschen_tag_v4",
+   "titel": "Bibi Tag ohne Kuscheltier (aus v1) · v4",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_bibi_haeuschen_tag_e_v4.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\_quellen\\eden_rise_bibi_haeuschen_tag_v1.png",
+   "vergleich_titel": "Vorlage"
+  },
+  {
+   "id": "bibi_haeuschen_nacht_v1",
+   "titel": "Bibi Nacht aus Tag v1, ohne Kuscheltier · v1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_bibi_haeuschen_nacht_e_v1.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\_quellen\\eden_rise_bibi_haeuschen_tag_v1.png",
+   "vergleich_titel": "Vorlage"
+  },
+  {
+   "id": "bibi_haeuschen_nacht_v2",
+   "titel": "Bibi Nacht aus Tag v1, ohne Kuscheltier · v2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_bibi_haeuschen_nacht_e_v2.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\_quellen\\eden_rise_bibi_haeuschen_tag_v1.png",
+   "vergleich_titel": "Vorlage"
+  },
+  {
+   "id": "bibi_haeuschen_nacht_v3",
+   "titel": "Bibi Nacht aus Tag v1, ohne Kuscheltier · v3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_bibi_haeuschen_nacht_e_v3.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\_quellen\\eden_rise_bibi_haeuschen_tag_v1.png",
+   "vergleich_titel": "Vorlage"
+  },
+  {
+   "id": "bibi_haeuschen_nacht_v4",
+   "titel": "Bibi Nacht aus Tag v1, ohne Kuscheltier · v4",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_bibi_haeuschen_nacht_e_v4.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\_quellen\\eden_rise_bibi_haeuschen_tag_v1.png",
+   "vergleich_titel": "Vorlage"
+  }
+ ]
+}

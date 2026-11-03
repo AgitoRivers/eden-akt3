@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eden</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+:root{
+  --bg:#0e131a; --panel:#151c26; --panel2:#1b2431; --rand:#26323f; --text:#d8dde5; --dim:#8794a6;
+  --messing:#c9a45c; --duc:#a9b6c8; --wurf:#e3bf6a; --gut:#7fbf8e; --schlecht:#d67272;
+  --chiara:#a8c1e4; --sophia:#e2a57c; --lea:#7fcab9; --voss:#b8a6d9; --holm:#c7c7a0; --erzaehler:#9aa3ad;
+  --serif:"Fraunces",Georgia,serif; --sans:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 var(--sans)}
+button{font:600 14px var(--sans);color:var(--bg);background:var(--messing);border:0;border-radius:6px;padding:8px 14px;cursor:pointer}
+button.leise{background:transparent;color:var(--dim);border:1px solid var(--rand)}
+button:disabled{opacity:.45;cursor:default}
+button:focus-visible,textarea:focus-visible{outline:2px solid var(--messing);outline-offset:2px}
+.app{display:grid;grid-template-columns:240px minmax(0,1fr) 280px;gap:16px;max-width:1500px;margin:0 auto;padding:16px;min-height:100vh}
+aside{display:flex;flex-direction:column;gap:14px}
+.box{background:var(--panel);border:1px solid var(--rand);border-radius:10px;padding:14px}
+.box h3{margin:0 0 10px;font:600 11px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--dim)}
+h1{font:600 26px var(--serif);margin:0;color:var(--messing);letter-spacing:.02em}
+.untertitel{color:var(--dim);font-size:13px}
+.tage{display:flex;gap:4px;margin:8px 0}
+.tage span{flex:1;height:6px;border-radius:3px;background:var(--rand)}
+.tage span.ist{background:var(--messing)} .tage span.war{background:#6d5a35}
+.phasen{list-style:none;margin:0;padding:0}
+.phasen li{padding:4px 0 4px 18px;position:relative;color:var(--dim);font-size:14px}
+.phasen li::before{content:"";position:absolute;left:3px;top:11px;width:7px;height:7px;border-radius:50%;background:var(--rand)}
+.phasen li.ist{color:var(--text);font-weight:600} .phasen li.ist::before{background:var(--messing)}
+.phasen li.war::before{background:#6d5a35}
+.phasen small{display:block;color:var(--dim);font-weight:400}
+.sanduhr{display:flex;gap:3px;margin-top:6px}
+.sanduhr i{flex:1;height:8px;border-radius:2px;background:var(--messing)}
+.sanduhr i.weg{background:var(--rand)}
+.attr{display:grid;grid-template-columns:1fr auto;font-size:14px;row-gap:2px}
+.attr b{font-weight:600;color:var(--messing)}
+.frau{margin-bottom:10px}
+.frau .n{font-weight:600}
+.balken{display:grid;grid-template-columns:70px 1fr;align-items:center;gap:6px;font-size:12px;color:var(--dim)}
+.balken .b{display:flex;gap:2px}
+.balken .b i{flex:1;height:6px;border-radius:2px;background:var(--rand)}
+.balken .b i.an{background:currentColor}
+.uhr{font-size:13px;margin-bottom:8px}
+.uhr .seg{display:flex;gap:2px;margin-top:3px}
+.uhr .seg i{flex:1;height:6px;background:var(--rand);border-radius:2px}
+.uhr .seg i.an{background:var(--schlecht)}
+.liste{margin:0;padding-left:18px;font-size:13px;color:var(--text)} .liste li{margin-bottom:4px}
+main{display:flex;flex-direction:column;gap:14px;min-width:0}
+.kopf{background:var(--panel);border:1px solid var(--rand);border-radius:10px;padding:16px 18px}
+.kopf h2{font:600 22px var(--serif);margin:0 0 2px}
+.kopf .ort{color:var(--dim);font-size:14px}
+.kopf .frage{margin-top:8px;font-style:italic;color:var(--messing);font-size:15px}
+#log{display:flex;flex-direction:column;gap:12px;padding:4px 2px}
+.e{max-width:72ch}
+.e.start{background:var(--panel2);border-left:3px solid var(--messing);padding:12px 14px;border-radius:0 8px 8px 0;color:var(--text)}
+.e.duc{align-self:flex-end;text-align:right;color:var(--duc);font-style:italic}
+.e.duc::before{content:"Du";display:block;font:600 11px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--dim);font-style:normal}
+.e.figur .wer{font:600 13px var(--sans);letter-spacing:.06em;text-transform:uppercase;margin-bottom:2px}
+.e.figur .t p{margin:0 0 8px}
+em.gedanke{color:#c9b98f}
+.badge{display:inline-block;font-size:12px;color:var(--dim);border:1px solid var(--rand);border-radius:20px;padding:1px 9px;margin-top:2px}
+.badge.ok{color:var(--gut);border-color:#35543d}
+.e.wurf{align-self:center;background:#211d12;border:1px solid #5b4a24;color:var(--wurf);border-radius:8px;padding:8px 12px;font-size:14px;font-variant-numeric:tabular-nums}
+.e.wurf.erfolg,.e.wurf.kritisch{border-color:#3d6a47;color:var(--gut);background:#142019}
+.e.wurf.fehlschlag,.e.wurf.patzer{border-color:#6b3434;color:var(--schlecht);background:#211416}
+.e.ereignis{align-self:center;text-align:center;color:var(--wurf);font-weight:600;padding:6px 12px;border-top:1px solid #5b4a24;border-bottom:1px solid #5b4a24}
+.verworfen{font-size:12px;color:var(--schlecht);margin-top:3px}
+.eingabe{position:sticky;bottom:0;background:var(--bg);padding:10px 0 4px;display:flex;flex-direction:column;gap:8px}
+textarea{width:100%;min-height:64px;resize:vertical;background:var(--panel);color:var(--text);border:1px solid var(--rand);border-radius:8px;padding:10px 12px;font:16px/1.5 var(--sans)}
+.reihe{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.reihe .rechts{margin-left:auto;color:var(--dim);font-size:13px}
+.karten{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.karte{background:var(--panel);border:1px solid var(--rand);border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:8px}
+.karte h4{font:600 18px var(--serif);margin:0}
+.karte .mit{font-size:13px;color:var(--dim)}
+.karte p{margin:0;font-size:14px}
+.karte .geheim{font-size:13px;color:#c9b98f;font-style:italic}
+.karte button{align-self:flex-start;margin-top:auto}
+.meldung{background:#141d16;border:1px solid #2f4a36;border-radius:10px;padding:12px 14px;font-size:14px}
+.meldung b{font-family:var(--serif)}
+.meldung ul{margin:6px 0 0;padding-left:18px}
+.fehler{background:#211416;border:1px solid #6b3434;color:#f0b7b7;border-radius:8px;padding:10px 12px;font-size:14px}
+.warten{color:var(--dim);font-style:italic;display:none}
+.warten.an{display:block}
+.leer{color:var(--dim);font-size:13px}
+/* Bühne */
+.buehne{position:relative;aspect-ratio:16/9;max-height:62vh;width:100%;border-radius:12px;overflow:hidden;border:1px solid var(--rand);background:#0b0f14 center/cover no-repeat}
+.buehne::after{content:"";position:absolute;left:0;right:0;bottom:0;height:20%;background:linear-gradient(transparent,rgba(8,11,15,.8));pointer-events:none;z-index:2}
+.buehne .fig{position:absolute;bottom:0;height:97%;transform:translateX(-50%);transition:filter .35s,transform .35s;filter:brightness(.6) saturate(.8)}
+.buehne .fig.spricht{filter:none;z-index:1;transform:translateX(-50%) scale(1.02)}
+.buehne .fig img{height:100%;display:block;user-select:none}
+.buehne .fig .name{position:absolute;bottom:12px;left:50%;transform:translateX(-50%);font:600 12px var(--sans);letter-spacing:.12em;text-transform:uppercase;background:rgba(10,14,20,.72);padding:3px 10px;border-radius:12px;z-index:3;white-space:nowrap}
+.buehne .knoepfe{position:absolute;top:10px;right:10px;display:flex;gap:6px;z-index:4}
+.rundknopf{background:rgba(10,14,20,.75);color:var(--text);border:1px solid var(--rand);border-radius:20px;padding:6px 12px;font:600 13px var(--sans);position:relative;cursor:pointer}
+.rundknopf.an{border-color:var(--messing);color:var(--messing)}
+.punkt{position:absolute;top:-5px;right:-5px;background:var(--schlecht);color:#fff;border-radius:9px;font-size:11px;padding:0 5px;line-height:17px}
+.handyknopf{position:fixed;right:22px;bottom:22px;z-index:40;font-size:15px;padding:10px 16px}
+main.szenemodus{height:calc(100vh - 32px);position:sticky;top:16px}
+main.szenemodus .buehne{flex:none;max-height:46vh}
+main.szenemodus .kopf{padding:10px 16px}
+main.szenemodus .kopf h2{font-size:19px}
+.logbox{flex:1;min-height:0;overflow:auto;display:flex;flex-direction:column;gap:12px;padding:0 6px 0 2px}
+main.szenemodus .eingabe{position:static;padding:0}
+/* Antwortvorschläge */
+.vorschlaege{display:flex;flex-direction:column;gap:6px}
+.vorschlag{all:unset;box-sizing:border-box;cursor:pointer;background:var(--panel);border:1px solid var(--rand);border-radius:8px;padding:8px 12px;font-size:14px;color:var(--text);display:flex;gap:10px;align-items:baseline}
+.vorschlag:hover,.vorschlag:focus-visible{border-color:var(--messing)}
+.vorschlag .chk{flex:none;font:600 12px var(--sans);color:var(--wurf);font-variant-numeric:tabular-nums}
+/* Handy */
+.handy{position:fixed;right:22px;bottom:22px;width:340px;max-width:calc(100vw - 32px);height:560px;max-height:calc(100vh - 44px);background:#0a0d12;border:1px solid #3a4656;border-radius:28px;box-shadow:0 20px 60px rgba(0,0,0,.6);display:flex;flex-direction:column;overflow:hidden;z-index:50}
+.handy header{padding:16px 16px 10px;display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--rand)}
+.handy header b{font:600 15px var(--sans);flex:1}
+.handy header button{padding:4px 10px}
+.handy .inhalt{flex:1;overflow:auto;padding:10px 12px;display:flex;flex-direction:column}
+.faden{all:unset;box-sizing:border-box;display:block;cursor:pointer;padding:10px;border-radius:10px;width:100%}
+.faden:hover{background:#141b25}
+.faden .vor{color:var(--dim);font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.blase{max-width:82%;padding:8px 12px;border-radius:16px;margin:3px 0;font-size:14px;line-height:1.4}
+.blase.sie{background:#1d2633;border-bottom-left-radius:4px;align-self:flex-start}
+.blase.ich{background:#6d5a35;color:#fff;border-bottom-right-radius:4px;align-self:flex-end}
+.handy form{display:flex;gap:6px;padding:10px;border-top:1px solid var(--rand)}
+.handy input{flex:1;background:var(--panel);border:1px solid var(--rand);border-radius:18px;color:var(--text);padding:8px 12px;font:14px var(--sans)}
+@media (max-width:1100px){.app{grid-template-columns:minmax(0,1fr)} aside{order:2}}
+@media (prefers-reduced-motion:no-preference){.e{animation:rein .25s ease-out}@keyframes rein{from{opacity:.0;transform:translateY(4px)}to{opacity:1;transform:none}}}
+</style>
+</head>
+<body>
+<div class="app">
+  <aside id="links"></aside>
+  <main id="mitte"></main>
+  <aside id="rechts"></aside>
+</div>
+<script>
+const DEBUG = location.search.includes("debug=1");
+const FARBE = {chiara:"var(--chiara)", sophia:"var(--sophia)", lea:"var(--lea)", voss:"var(--voss)", holm:"var(--holm)", erzaehler:"var(--erzaehler)"};
+const PHASE = {fruehstueck:"Breakfast", tag:"Day", dinner:"Dinner", abend:"Evening", nacht:"Night"};
+const ATTR = {charm:"Charm", empathy:"Empathy", perception:"Perception", cunning:"Cunning", courage:"Courage"};
+let V = null, beschaeftigt = false, ENTWURF = "", HANDY = {offen: false, faden: null};
+const merk = {lesen(k, d){ try { const v = localStorage.getItem(k); return v === null ? d : v; } catch(e){ return d; } },
+              schreiben(k, v){ try { localStorage.setItem(k, v); } catch(e){} }};
+let STIMME = merk.lesen("eden_stimme", "0") === "1";
+const gespielt = {};          // Szenen-Schlüssel -> ab welchem Log-Index schon vorgelesen
+let audioKette = Promise.resolve();
+
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function erzaehlung(t){
+  return esc(t).split(/\n{2,}/).map(abs => "<p>" + abs.replace(/\*([^*\n]+)\*/g, '<em class="gedanke">$1</em>').replace(/\n/g,"<br>") + "</p>").join("");
+}
+async function laden(){
+  const r = await fetch("/api/stand" + (DEBUG ? "?debug=1" : ""));
+  V = await r.json(); zeichnen();
+}
+async function senden(aktion, daten = {}, wartetext = "The scene answers …"){
+  if (beschaeftigt) return;
+  beschaeftigt = true; zeichnen(wartetext);
+  // Live: während die Engine arbeitet, neue Antworten schon zeigen (sie speichert nach jedem Eintrag)
+  let zuletzt = logLaenge(V);
+  const live = setInterval(async () => {
+    try{
+      const j = await (await fetch("/api/stand" + (DEBUG ? "?debug=1" : ""))).json();
+      if (beschaeftigt && logLaenge(j) !== zuletzt){ zuletzt = logLaenge(j); V = j; zeichnen(wartetext); }
+    } catch(e){}
+  }, 1200);
+  try{
+    const r = await fetch("/api/" + aktion + (DEBUG ? "?debug=1" : ""), {method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify(daten)});
+    const j = await r.json();
+    clearInterval(live);
+    if (!r.ok) { beschaeftigt = false; zeichnen(); fehlerZeigen(j.fehler || "Fehler"); return; }
+    V = j;
+    if (aktion === "zug") ENTWURF = "";
+  } catch(e){ clearInterval(live); fehlerZeigen("Engine not reachable: " + e); }
+  beschaeftigt = false; zeichnen();
+}
+const logLaenge = v => (v && v.z && v.z.szene) ? v.z.szene.log.length + "|" + v.z.szene.titel : (v && v.z ? v.z.status : "");
+function fehlerZeigen(t){
+  const m = document.getElementById("mitte");
+  const d = document.createElement("div"); d.className = "fehler"; d.textContent = t; m.prepend(d);
+  setTimeout(() => d.remove(), 9000);
+}
+
+function zeichnen(wartetext){
+  const z = V && V.z;
+  links(z); rechts(z); mitte(z, wartetext); handyZeichnen(z);
+  stimmeAbspielen();
+}
+
+// ------------------------------------------------------------------ Bühne
+function buehneHtml(z){
+  const s = z.szene;
+  if (!s.bild && !s.buehne.length) return "";
+  const pos = {1:[50], 2:[30,70], 3:[19,50,81]}[s.buehne.length] || s.buehne.map((_, i) => 12 + i * 76 / Math.max(1, s.buehne.length - 1));
+  const figs = s.buehne.map((f, i) => f.sprite ? `<div class="fig ${f.spricht ? "spricht" : ""}" style="left:${pos[i]}%">
+      <img src="${f.sprite}" alt="${esc(f.name)}${f.set ? " – " + esc(f.set) : ""}"><span class="name" style="color:${FARBE[f.id] || "var(--text)"}">${esc(f.name.split(" ")[0])}</span></div>` : "").join("");
+  return `<div class="buehne" style="background-image:url('${s.bild || ""}')">${figs}
+    <div class="knoepfe"><button class="rundknopf ${STIMME ? "an" : ""}" onclick="stimmeUmschalten()" title="Read spoken words aloud (ElevenLabs)">${STIMME ? "🔊 Voice on" : "🔈 Voice off"}</button></div></div>`;
+}
+
+// ------------------------------------------------------------------ Stimme
+function stimmeUmschalten(){
+  STIMME = !STIMME; merk.schreiben("eden_stimme", STIMME ? "1" : "0");
+  const z = V && V.z;
+  if (STIMME && z && z.szene){            // ab jetzt vorlesen: nur die letzte Antwort nachholen
+    const log = z.szene.log; let letzte = log.length;
+    for (let i = log.length - 1; i >= 0; i--) if (log[i].art === "figur"){ letzte = i; break; }
+    gespielt[szenenSchluessel(z)] = letzte;
+  }
+  zeichnen();
+}
+const szenenSchluessel = z => z.tag + "|" + z.phase + "|" + z.szene.titel;
+function stimmeAbspielen(){
+  const z = V && V.z;
+  if (!STIMME || !z || !z.szene) return;
+  const k = szenenSchluessel(z), log = z.szene.log;
+  if (!(k in gespielt)) gespielt[k] = 0;
+  for (let i = gespielt[k]; i < log.length; i++){
+    const e = log[i];
+    if (e.art === "figur" && z.stimmen[e.wer]){
+      audioKette = audioKette.then(() => new Promise(async fertig => {
+        try{
+          const r = await fetch("/api/audio?i=" + i);
+          if (r.status !== 200) return fertig();
+          const a = new Audio(URL.createObjectURL(await r.blob()));
+          a.onended = fertig; a.onerror = fertig; await a.play();
+        } catch(err){ fertig(); }
+      }));
+    }
+  }
+  gespielt[k] = log.length;
+}
+
+// ------------------------------------------------------------------ Handy
+function handyZeichnen(z){
+  let el = document.getElementById("handy");
+  if (!el){ el = document.createElement("div"); el.id = "handy"; document.body.appendChild(el); }
+  if (!z || !z.persona){ el.innerHTML = ""; return; }
+  const ungelesen = z.handy.filter(f => !f.gelesen).length;
+  if (!HANDY.offen){
+    el.innerHTML = `<button class="rundknopf handyknopf" onclick="HANDY.offen=true;HANDY.faden=null;zeichnen()">📱 Handy${ungelesen ? `<span class="punkt">${ungelesen}</span>` : ""}</button>`;
+    return;
+  }
+  let inhalt = "", fuss = "", titel = "Nachrichten";
+  const reiter = HANDY.reiter || "nachrichten";
+  const reiterLeiste = `<div class="reihe" style="padding:8px 12px 0">${[["nachrichten","Nachrichten"],["kalender","Kalender"],["karte","Karte"]].map(([k, l]) =>
+    `<button class="${k === reiter ? "" : "leise"}" style="padding:4px 10px" onclick="HANDY.reiter='${k}';HANDY.faden=null;zeichnen()">${l}</button>`).join("")}</div>`;
+  if (reiter === "kalender" && HANDY.faden === null){
+    titel = "Kalender";
+    inhalt = z.kalender.length ? z.kalender.map(k => `<div style="margin-bottom:10px"><div class="leer">Day ${k.tag} · ${PHASE[k.phase] || k.phase}</div><b>${esc(k.titel)}</b><div style="font-size:13px">${esc(k.kurz)}</div></div>`).join("")
+      : `<div class="leer">Nothing has happened yet.</div>`;
+  } else if (reiter === "karte" && HANDY.faden === null){
+    titel = "Map of the Eden";
+    const sym = {offen: "🔓", wurf: "🎲", gesperrt: "🔒"};
+    inhalt = z.karte.map(r => `<div style="margin-bottom:9px"><b>${sym[r.status]} ${esc(r.label)}</b>${r.wege.length ? `<div class="leer">Wege: ${r.wege.map(esc).join(" · ")}</div>` : ""}</div>`).join("");
+  } else if (HANDY.faden === null){
+    inhalt = z.handy.length ? z.handy.map((f, i) => ({f, i})).reverse().map(({f, i}) =>
+      `<button class="faden" onclick="fadenOeffnen(${i})"><b style="color:${FARBE[f.von]}">${esc(f.name)}</b>${f.gelesen ? "" : ` <span class="punkt" style="position:static">neu</span>`}
+       <div class="vor">${esc(f.verlauf[f.verlauf.length - 1].text)}</div><div class="leer">Day ${f.tag} · ${PHASE[f.phase] || f.phase}</div></button>`).join("")
+      : `<div class="leer">No messages yet. People text you when you're not with them.</div>`;
+  } else {
+    const f = z.handy[HANDY.faden]; titel = f.name;
+    inhalt = f.verlauf.map(v => `<div class="blase ${v.wer === "duc" ? "ich" : "sie"}">${esc(v.text)}</div>`).join("");
+    fuss = `<form onsubmit="event.preventDefault();handyAntworten(${HANDY.faden})"><input id="handytext" placeholder="Reply …" ${beschaeftigt ? "disabled" : ""}><button ${beschaeftigt ? "disabled" : ""}>Send</button></form>`;
+  }
+  el.innerHTML = `<div class="handy" role="dialog" aria-label="Handy"><header>${HANDY.faden !== null ? `<button class="leise" onclick="HANDY.faden=null;zeichnen()">‹</button>` : ""}<b>${esc(titel)}</b>
+    <button class="leise" onclick="HANDY.offen=false;zeichnen()">×</button></header>${HANDY.faden === null ? reiterLeiste : ""}<div class="inhalt" id="handyinhalt">${inhalt}</div>${fuss}</div>`;
+  const hi = document.getElementById("handyinhalt"); if (hi) hi.scrollTop = hi.scrollHeight;
+}
+function fadenOeffnen(i){
+  HANDY.faden = i;
+  if (!V.z.handy[i].gelesen){ V.z.handy[i].gelesen = true; fetch("/api/handy_gelesen", {method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify({indizes:[i]})}); }
+  zeichnen();
+}
+function handyAntworten(i){
+  const t = (document.getElementById("handytext").value || "").trim(); if (!t) return;
+  senden("handy_antwort", {index: i, text: t}, "Typing …");
+}
+function vorschlagNehmen(i){
+  ENTWURF = V.z.szene.vorschlaege[i].text; zeichnen();
+  const ta = document.getElementById("text"); if (ta){ ta.focus(); ta.setSelectionRange(ta.value.length, ta.value.length); }
+}
+
+function links(z){
+  const L = document.getElementById("links");
+  let h = `<div class="box"><h1>Eden</h1><div class="untertitel">${esc(V ? V.modul : "")}</div>`;
+  if (V && !V.kobold) h += `<div class="fehler" style="margin-top:8px">Game model not reachable (port 5010)</div>`;
+  h += `</div>`;
+  if (z){
+    let tage = ""; for (let i = 1; i <= z.tage; i++) tage += `<span class="${i < z.tag ? "war" : i === z.tag ? "ist" : ""}"></span>`;
+    const ip = z.phasen.indexOf(z.phase);
+    const ph = z.phasen.map((p, i) => {
+      const h = z.heute.find(x => x.phase === p);
+      return `<li class="${i < ip || (h && i !== ip) ? "war" : i === ip && z.status !== "warte_auf_plan" ? "ist" : ""}">${PHASE[p] || p}${h ? `<small>${esc(h.titel)}</small>` : ""}</li>`;
+    }).join("");
+    let uhr = "";
+    if (z.szene){
+      let s = ""; for (let i = 0; i < z.szene.max; i++) s += `<i class="${i < z.szene.zug ? "weg" : ""}"></i>`;
+      uhr = `<div style="margin-top:10px;font-size:13px;color:var(--dim)">Hourglass · ${z.szene.max - z.szene.zug} turns left</div><div class="sanduhr">${s}</div>`;
+    }
+    h += `<div class="box"><h3>Day ${Math.min(z.tag, z.tage)} of ${z.tage}</h3><div class="tage">${tage}</div><ul class="phasen">${ph}</ul>${uhr}</div>`;
+    if (z.persona){
+      const a = Object.entries(z.persona.attribute).map(([k, v]) => `<span>${ATTR[k]}</span><b>${v}</b>`).join("");
+      h += `<div class="box"><h3>You · ${esc(z.persona.titel)}</h3><div class="attr">${a}</div>
+            <p style="font-size:13px;color:#c9b98f;font-style:italic;margin:10px 0 0">${esc(z.persona.geheimnis)}</p></div>`;
+    }
+    h += `<div class="box"><h3>Run</h3><div class="leer">${z.modus === "ironman" ? "Ironman – every choice counts" : "Relaxed – scenes can be restarted"}</div>
+          <div style="margin-top:10px"><button class="leise" onclick="neuStarten()">New run</button></div></div>`;
+  }
+  L.innerHTML = h;
+}
+
+function rechts(z){
+  const R = document.getElementById("rechts");
+  if (!z || !z.persona){ R.innerHTML = ""; return; }
+  const balken = (label, w, farbe) => { let b = ""; for (let i = 0; i < 5; i++) b += `<i class="${i < w ? "an" : ""}"></i>`;
+    return `<div class="balken" style="color:${farbe}"><span style="color:var(--dim)">${label}</span><span class="b">${b}</span></div>`; };
+  let h = `<div class="box"><h3>The crew</h3>` + z.werte.map(f =>
+    `<div class="frau"><div class="n" style="color:${FARBE[f.id]}">${esc(f.name)}</div>${balken("Vertrauen", f.vertrauen, FARBE[f.id])}${balken("Begehren", f.begehren, FARBE[f.id])}
+     ${f.gedaechtnis && f.gedaechtnis.length ? `<div class="leer" style="margin-top:4px">${f.gedaechtnis.map(esc).join("<br>")}</div>` : ""}</div>`).join("") + `</div>`;
+  h += `<div class="box"><h3>Spannungen</h3>` + z.rivalitaet.map(r => `<div class="uhr">${esc(r.label)}<div class="seg">${[0,1,2,3,4].map(i => `<i class="${i < r.wert ? "an" : ""}"></i>`).join("")}</div></div>`).join("") + `</div>`;
+  h += `<div class="box"><h3>Uhren</h3>` + (z.uhren.map(u => `<div class="uhr">${esc(u.label)} <span class="leer">${u.stand}/${u.segmente}</span><div class="seg">${Array.from({length:u.segmente}, (_, i) => `<i class="${i < u.stand ? "an" : ""}"></i>`).join("")}</div></div>`).join("") || `<div class="leer">–</div>`) + `</div>`;
+  h += `<div class="box"><h3>Inventory · ${z.inventar.length}/6</h3>` + (z.inventar.length ? `<ul class="liste">${z.inventar.map(i => `<li>${esc(i)}</li>`).join("")}</ul>` : `<div class="leer">empty</div>`) + `</div>`;
+  h += `<div class="box"><h3>Codex</h3>` + (z.codex.length ? `<ul class="liste">${z.codex.map(i => `<li>${esc(i)}</li>`).join("")}</ul>` : `<div class="leer">Nothing discovered yet.</div>`) + `</div>`;
+  R.innerHTML = h;
+}
+
+function mitte(z, wartetext){
+  const M = document.getElementById("mitte");
+  let h = "";
+  if (z && z.meldungen && z.meldungen.length && (z.status !== "szene" || (z.szene && z.szene.zug === 0))){
+    const m = z.meldungen[z.meldungen.length - 1];
+    h += `<div class="meldung"><b>${esc(m.titel)}</b>${m.kurz ? ` – ${esc(m.kurz)}` : ""}${m.folgen && m.folgen.length ? `<ul>${m.folgen.map(f => `<li>${esc(f)}</li>`).join("")}</ul>` : ""}</div>`;
+  }
+  if (!z){
+    h += `<div class="kopf"><h2>A new run</h2><p>Three weeks aboard the M/Y Eden Rise. Choose how hard it should be.</p>
+      <div class="reihe"><button onclick="senden('neu',{modus:'ironman'},'Preparing the run …')">Ironman</button>
+      <button class="leise" onclick="senden('neu',{modus:'entspannt'},'Preparing the run …')">Relaxed</button></div></div>`;
+  } else if (z.status === "persona_wahl"){
+    h += `<div class="kopf"><h2>Who are you on board?</h2><div class="ort">You are Duc, the new First Officer of the Eden Rise, arriving today at the hangar in Antibes. Choose your background.</div></div><div class="karten">` +
+      z.persona_optionen.map((p, i) => `<div class="karte"><h4>${esc(p.titel)}</h4><p>${esc(p.vorgeschichte)}</p>
+        <div class="geheim">Geheimnis: ${esc(p.geheimnis)}</div>
+        <div class="attr">${Object.entries(p.attribute).map(([k, v]) => `<span>${ATTR[k]}</span><b>${v}</b>`).join("")}</div>
+        <p class="mit">+ ${esc(p.vorteil)}<br>− ${esc(p.schwaeche)}</p>
+        <button onclick="senden('persona',{index:${i}},'The first morning begins …')">Play like this</button></div>`).join("") + `</div>`;
+  } else if (z.status === "warte_auf_plan" || z.status === "plan_fehler"){
+    h += `<div class="kopf"><h2>Day ${z.tag}: the showrunner is planning</h2><div class="ort">The plan for day ${z.tag} is being made (right now: Claude in the chat). Once it's ready:</div>
+      <div class="reihe" style="margin-top:10px"><button onclick="senden('plan_laden',{},'Loading the day plan …')">Load plan</button></div>
+      ${z.plan_fehler.length ? `<ul class="liste" style="margin-top:10px">${z.plan_fehler.map(f => `<li>${esc(f)}</li>`).join("")}</ul>` : ""}</div>`;
+  } else if (z.status === "wahl"){
+    h += `<div class="kopf"><h2>${PHASE[z.phase]} · Day ${z.tag}</h2><div class="ort">${z.spannung ? esc(z.spannung) + " " : ""}Where do you spend this time? Only one is possible.</div></div><div class="karten">` +
+      z.optionen.map(o => `<div class="karte"><h4>${esc(o.titel)}</h4><div class="mit">${esc(o.ort)}${o.mit.length ? " · mit " + o.mit.map(esc).join(", ") : ""}</div>
+        <p>${esc(o.text)}</p><button onclick="senden('wahl',{id:'${o.id}'},'Die Szene beginnt …')">Hierhin</button></div>`).join("") + `</div>`;
+  } else if (z.status === "szene" && z.szene){
+    const s = z.szene, start = s.log.find(e => e.art === "start");
+    h += buehneHtml(z);
+    h += `<div class="kopf"><h2>${esc(s.titel)}</h2><div class="ort">${esc(start ? start.ort : "")}${start && start.anwesend.length ? " · mit " + start.anwesend.map(esc).join(", ") : ""}</div>
+      ${start && start.frage ? `<div class="frage">${esc(start.frage)}</div>` : ""}</div>`;
+    h += `<div class="logbox" id="logbox"><div id="log">` + s.log.map(eintrag).join("") + `</div>`;
+    if (s.vorschlaege && s.vorschlaege.length && !beschaeftigt){
+      h += `<div class="vorschlaege">` + s.vorschlaege.map((v, i) => `<button class="vorschlag" onclick="vorschlagNehmen(${i})">
+        ${v.check ? `<span class="chk">[${ATTR[v.check]} ${v.wert} · ${v.chance} %]</span>` : `<span class="chk" style="color:var(--dim)">›</span>`}<span>${esc(v.text)}</span></button>`).join("") + `</div>`;
+    }
+    h += `</div>`;
+    if (s.wahlmoment && !beschaeftigt){
+      h += `<div class="eingabe"><div class="kopf" style="border-color:#5b4a24"><div class="frage" style="margin:0 0 8px">${esc(s.wahlmoment.frage)}</div>
+        <div class="vorschlaege">${s.wahlmoment.optionen.map((o, i) => `<button class="vorschlag" onclick="senden('waehlen',{index:${i}},'Die Würfel rollen …')">
+        ${o.check ? `<span class="chk">[${ATTR[o.check]} ${o.wert} · SG ${o.sg} · ${o.chance} %]</span>` : `<span class="chk" style="color:var(--dim)">›</span>`}<span>${esc(o.text)}</span></button>`).join("")}</div></div></div>`;
+    } else
+    h += `<div class="eingabe"><div class="warten ${wartetext ? "an" : ""}">${esc(wartetext || "")}</div>
+      <textarea id="text" placeholder='Action as plain text, speech in "quotes".' ${beschaeftigt ? "disabled" : ""}></textarea>
+      <div class="reihe"><button onclick="zug()" ${beschaeftigt ? "disabled" : ""}>Senden</button>
+        <button class="leise" onclick="senden('swipe',{},'Rephrasing …')" ${beschaeftigt || !s.kann_swipen ? "disabled" : ""} title="Same result, other words">Rephrase</button>
+        <button class="leise" onclick="if(confirm('End the scene now?')) senden('ende',{},'The scene fades out …')" ${beschaeftigt ? "disabled" : ""}>End scene</button>
+        ${z.modus === "entspannt" ? `<button class="leise" onclick="if(confirm('Restart the scene?')) senden('szene_neu',{},'The scene starts over …')" ${beschaeftigt ? "disabled" : ""}>Restart scene</button>` : ""}
+        <span class="rechts">Enter sends · Shift+Enter new line</span></div></div>`;
+  } else if (z.status === "ende"){
+    h += `<div class="kopf"><h2>The trial run is over</h2><div class="ort">What happened on these days is in the Codex and in the crew's memory. The showrunner now knows your style.</div></div>`;
+  }
+  if (wartetext && z && z.status !== "szene") h += `<div class="warten an">${esc(wartetext)}</div>`;
+  M.className = z && z.status === "szene" && z.szene ? "szenemodus" : "";
+  M.innerHTML = h;
+  const lb = document.getElementById("logbox"); if (lb) lb.scrollTop = lb.scrollHeight;
+  const ta = document.getElementById("text");
+  if (ta){
+    ta.value = ENTWURF;
+    ta.addEventListener("input", () => { ENTWURF = ta.value; });
+    ta.addEventListener("keydown", ev => { if (ev.key === "Enter" && !ev.shiftKey){ ev.preventDefault(); zug(); } });
+    if (!beschaeftigt) ta.focus({preventScroll: true});
+  }
+}
+
+function eintrag(e){
+  if (e.art === "start") return `<div class="e start">${erzaehlung(e.text)}</div>`;
+  if (e.art === "duc") return `<div class="e duc">${esc(e.text)}</div>`;
+  if (e.art === "ereignis") return `<div class="e ereignis">${esc(e.text)}</div>`;
+  if (e.art === "wahl") return `<div class="e ereignis" style="color:var(--messing)">Entscheidung: ${esc(e.text)}</div>`;
+  if (e.art === "folgen") return `<div class="e meldung" style="align-self:center;padding:6px 12px">${e.zeilen.map(esc).join(" · ")}</div>`;
+  if (e.art === "wurf"){
+    const p = e.probe, boni = p.boni.map(([l, b]) => `${b >= 0 ? "+" : "−"}${Math.abs(b)} ${esc(l)}`).join(" ");
+    const w = p.wuerfe.length > 1 ? `${p.wuerfe.join(" / ")} → ${p.wurf} (Vorteil: ${esc(p.vorteil || "")})` : p.wurf;
+    return `<div class="e wurf ${p.ergebnis}">🎲 ${ATTR[p.attribut] || p.attribut}-Probe · SG ${p.sg} · Wurf ${w} ${boni} = <b>${p.summe}</b> → ${esc(p.text)}</div>`;
+  }
+  if (e.art === "figur"){
+    let b = "";
+    if (e.empathie) b = `<span class="badge ${e.empathie.erfolg ? "ok" : ""}">Empathy ${e.empathie.wurf}+${e.empathie.bonus}=${e.empathie.summe} gegen ${e.empathie.sg} · ${e.empathie.erfolg ? "du liest ihre Gedanken" : "ihre Gedanken bleiben verborgen"}</span>`;
+    const v = DEBUG && e.verworfen && e.verworfen.length ? `<div class="verworfen">Judge rejected ${e.verworfen.length}×: ${esc(JSON.stringify(e.verworfen))}</div>` : "";
+    return `<div class="e figur"><div class="wer" style="color:${FARBE[e.wer] || "var(--text)"}">${esc(e.name)}</div><div class="t">${erzaehlung(e.text)}</div>${b}${v}</div>`;
+  }
+  return "";
+}
+
+function zug(){
+  const ta = document.getElementById("text"); if (!ta) return;
+  const t = ta.value.trim(); if (!t) return;
+  senden("zug", {text: t});
+}
+function neuStarten(){ if (confirm("Start a new run? The current one stays saved.")) senden("neu", {modus: "ironman"}, "Preparing the run …"); }
+laden();
+</script>
+</body>
+</html>

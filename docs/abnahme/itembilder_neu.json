@@ -1,0 +1,23 @@
+{
+ "id": "itembilder_neu",
+ "titel": "Neue Item-Bilder (26.10.)",
+ "hinweis": "Je Item 4 Varianten. Bitte genau eine pro Item mit OK markieren, den Rest Neu oder leer lassen. Fotos zeigen bewusst keine Person.",
+ "items": [
+  {"id": "control_chip_v1", "titel": "Control Chip · 1", "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\control_chip_v1.png", "soll": "Schwarzer Chip mit roter LED, eingewachsen in ein Stück Löwenhalsband"},
+  {"id": "control_chip_v2", "titel": "Control Chip · 2", "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\control_chip_v2.png", "soll": "Schwarzer Chip mit roter LED, eingewachsen in ein Stück Löwenhalsband"},
+  {"id": "control_chip_v3", "titel": "Control Chip · 3", "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\control_chip_v3.png", "soll": "Schwarzer Chip mit roter LED, eingewachsen in ein Stück Löwenhalsband"},
+  {"id": "control_chip_v4", "titel": "Control Chip · 4", "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\control_chip_v4.png", "soll": "Schwarzer Chip mit roter LED, eingewachsen in ein Stück Löwenhalsband"},
+  {"id": "holms_foto_v1", "titel": "Photo of Holm's First Command · 1", "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\holms_foto_v1.png", "soll": "Alter Fotoabzug: rostiger Frachter im Fjordhafen bei Bergen"},
+  {"id": "holms_foto_v2", "titel": "Photo of Holm's First Command · 2", "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\holms_foto_v2.png", "soll": "Alter Fotoabzug: rostiger Frachter im Fjordhafen bei Bergen"},
+  {"id": "holms_foto_v3", "titel": "Photo of Holm's First Command · 3", "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\holms_foto_v3.png", "soll": "Alter Fotoabzug: rostiger Frachter im Fjordhafen bei Bergen"},
+  {"id": "holms_foto_v4", "titel": "Photo of Holm's First Command · 4", "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\holms_foto_v4.png", "soll": "Alter Fotoabzug: rostiger Frachter im Fjordhafen bei Bergen"},
+  {"id": "rosis_foto_v1", "titel": "A Photo You Shouldn't Delete · 1", "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\rosis_foto_v1.png", "soll": "Handy mit dem Display nach unten, rote Hülle mit Ölfleck, Schraubenschlüssel-Sticker, Lippenstift-Kuss"},
+  {"id": "rosis_foto_v2", "titel": "A Photo You Shouldn't Delete · 2", "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\rosis_foto_v2.png", "soll": "Handy mit dem Display nach unten, rote Hülle mit Ölfleck, Schraubenschlüssel-Sticker, Lippenstift-Kuss"},
+  {"id": "rosis_foto_v3", "titel": "A Photo You Shouldn't Delete · 3", "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\rosis_foto_v3.png", "soll": "Handy mit dem Display nach unten, rote Hülle mit Ölfleck, Schraubenschlüssel-Sticker, Lippenstift-Kuss"},
+  {"id": "rosis_foto_v4", "titel": "A Photo You Shouldn't Delete · 4", "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\rosis_foto_v4.png", "soll": "Handy mit dem Display nach unten, rote Hülle mit Ölfleck, Schraubenschlüssel-Sticker, Lippenstift-Kuss"},
+  {"id": "megan_screenshot_v1", "titel": "Screenshot: Megan in a Gold Mask · 1", "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\megan_screenshot_v1.png", "soll": "Handy-Display mit goldener venezianischer Maske, niemand trägt sie"},
+  {"id": "megan_screenshot_v2", "titel": "Screenshot: Megan in a Gold Mask · 2", "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\megan_screenshot_v2.png", "soll": "Handy-Display mit goldener venezianischer Maske, niemand trägt sie"},
+  {"id": "megan_screenshot_v3", "titel": "Screenshot: Megan in a Gold Mask · 3", "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\megan_screenshot_v3.png", "soll": "Handy-Display mit goldener venezianischer Maske, niemand trägt sie"},
+  {"id": "megan_screenshot_v4", "titel": "Screenshot: Megan in a Gold Mask · 4", "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\megan_screenshot_v4.png", "soll": "Handy-Display mit goldener venezianischer Maske, niemand trägt sie"}
+ ]
+}

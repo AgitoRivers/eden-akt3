@@ -1,0 +1,151 @@
+{
+ "id": "kampf_defeated_alle",
+ "titel": "Kampf-Sprites: Defeated aller Menschen-Gegner",
+ "hinweis": "Von Claude vorab geprüft: alle liegen, sind allein und vollständig im Bild. Hinweise mit 'Claude:' sind Geschmacksfragen. ✓ OK oder ✗ Neu + Notiz, dann im Chat Bescheid sagen.",
+ "items": [
+  {
+   "id": "Agent/defeated",
+   "titel": "Agent – defeated",
+   "soll": "liegt flach, Augen zu, allein im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Agent\\defeated.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Agent\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Alien/defeated",
+   "titel": "Alien – defeated",
+   "soll": "liegt flach, Augen zu, allein im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alien\\defeated.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alien\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Alon/defeated",
+   "titel": "Alon – defeated",
+   "soll": "liegt flach, Augen zu, allein im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\defeated.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Brute/defeated",
+   "titel": "Brute – defeated",
+   "soll": "liegt flach, Augen zu, allein im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Brute\\defeated.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Brute\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "BruteAlpha/defeated",
+   "titel": "BruteAlpha – defeated",
+   "soll": "liegt flach, Augen zu, allein im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BruteAlpha\\defeated.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BruteAlpha\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "DrunkCasanova/defeated",
+   "titel": "DrunkCasanova – defeated",
+   "soll": "Claude: Rose im Mund plus eine zweite auf der Brust – stört das?",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DrunkCasanova\\defeated.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DrunkCasanova\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Heinrich/defeated",
+   "titel": "Heinrich – defeated",
+   "soll": "Claude: hält das Champagnerglas noch hoch, obwohl er k.o. ist – passt zu ihm, oder lieber Glas am Boden?",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Heinrich\\defeated.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Heinrich\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Mime/defeated",
+   "titel": "Mime – defeated",
+   "soll": "liegt flach, Augen zu, allein im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Mime\\defeated.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Mime\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Pirate/defeated",
+   "titel": "Pirate – defeated",
+   "soll": "liegt flach, Augen zu, allein im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Pirate\\defeated.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Pirate\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "PirateAlpha/defeated",
+   "titel": "PirateAlpha – defeated",
+   "soll": "liegt flach, Augen zu, allein im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PirateAlpha\\defeated.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PirateAlpha\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "PirateTorch/defeated",
+   "titel": "PirateTorch – defeated",
+   "soll": "liegt flach, Augen zu, allein im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PirateTorch\\defeated.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PirateTorch\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Thief/defeated",
+   "titel": "Thief – defeated",
+   "soll": "liegt flach, Augen zu, allein im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Thief\\defeated.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Thief\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "ThiefAlpha/defeated",
+   "titel": "ThiefAlpha – defeated",
+   "soll": "liegt flach, Augen zu, allein im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefAlpha\\defeated.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefAlpha\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "ThiefArab/defeated",
+   "titel": "ThiefArab – defeated",
+   "soll": "liegt flach, Augen zu, allein im Bild",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefArab\\defeated.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefArab\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Paparazzo/defeated",
+   "titel": "Paparazzo – defeated",
+   "soll": "Vorlage war 'hurt', weil 'idle' abgeschnitten ist",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Paparazzo\\defeated.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Paparazzo\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Vampire/defeated",
+   "titel": "Vampire – defeated",
+   "soll": "Claude: kleiner roter Tropfen neben dem Dolch",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Vampire\\defeated.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Vampire\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "MaxwellMaximum/defeated",
+   "titel": "MaxwellMaximum – defeated",
+   "soll": "kniet erschöpft (Chuck-Norris-Regel); trägt hier Boxhandschuhe statt Bandagen",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellMaximum\\defeated.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellMaximum\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "MaxwellSports/defeated",
+   "titel": "MaxwellSports – defeated",
+   "soll": "kniet erschöpft (Chuck-Norris-Regel)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSports\\defeated.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSports\\idle.png",
+   "vergleich_titel": "idle"
+  }
+ ]
+}

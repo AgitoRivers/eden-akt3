@@ -1,0 +1,62 @@
+{
+ "id": "handy_klang",
+ "titel": "Handy: ein Klang aus einem Guss",
+ "hinweis": "Fast alles vom selben Pixabay-Urheber (Universfield, Pixabay Content License), damit Chat, Anruf und Benachrichtigung wie ein Handy klingen. Je Rolle einen Favoriten wählen, „heute“ ist der Klang im Spiel. Ich konnte die Kandidaten nicht anhören, die Vorauswahl folgt Titel und Länge. Für Verbinden und Auflegen hat Universfield nichts Eigenes: Alternative ist, beide aus deinem gewählten Empfangsklang abzuleiten (aufsteigend und rückwärts tiefer), dann bitte „keiner passt“ und eine Notiz.",
+ "gruppen": [
+  {"id": "chat_empfang", "titel": "1 · Ihre Blase im offenen Chat (neu)", "farbe": "#d8bd86", "max": 1,
+   "soll": "Sehr kurz und leise, ein „Tink“ je Blase. Ersetzt das Glockenspiel, das heute bei jeder Blase spielt.",
+   "kandidaten": [
+    {"titel": "Bubble Pop 06", "unter": "Universfield · 1 s", "cdn": "2025/05/29/audio_145c0e7b22.mp3", "seite": "https://pixabay.com/sound-effects/film-special-effects-bubble-pop-06-351337/"},
+    {"titel": "Message Ping", "unter": "Universfield · 1 s", "cdn": "2025/05/29/audio_71dbe67d89.mp3", "seite": "https://pixabay.com/sound-effects/film-special-effects-message-ping-351298/"},
+    {"titel": "New Notification 040", "unter": "Universfield · 1 s", "cdn": "2026/03/01/audio_4182fd0ce7.mp3", "seite": "https://pixabay.com/sound-effects/technology-new-notification-040-493469/"}]},
+  {"id": "benachrichtigung", "titel": "2 · Neue Nachricht, Handy zu", "farbe": "#a8d5b1", "max": 1,
+   "soll": "Einmal je Nachricht, wenn das Handy nicht offen ist. Freundlich, nicht schrill.",
+   "kandidaten": [
+    {"titel": "heute: notification", "unter": "im Spiel (Pixabay, 1,75 s)", "datei": "../../module/eden_rise/sfx/notification_1.mp3"},
+    {"titel": "Message Notification", "unter": "Universfield · 2 s", "cdn": "2023/08/14/audio_b9890b5019.mp3", "seite": "https://pixabay.com/sound-effects/film-special-effects-message-notification-161930/"},
+    {"titel": "New Message", "unter": "Universfield · 1 s", "cdn": "2023/03/18/audio_b77c18794b.mp3", "seite": "https://pixabay.com/sound-effects/film-special-effects-new-message-143041/"},
+    {"titel": "Incoming Message", "unter": "Universfield · 1 s", "cdn": "2023/01/04/audio_02f9b24f04.mp3", "seite": "https://pixabay.com/sound-effects/film-special-effects-incoming-message-132126/"}]},
+  {"id": "senden", "titel": "3 · Duc sendet", "farbe": "#9fb7d8", "max": 1,
+   "soll": "Kurzer Luftzug, die Nachricht geht raus. Ersetzt den selbst gebauten Platzhalter.",
+   "kandidaten": [
+    {"titel": "heute: handy_senden", "unter": "Platzhalter (lokal erzeugt)", "datei": "../../module/eden_rise/sfx/handy_senden_1.mp3"},
+    {"titel": "Swoosh 07", "unter": "Universfield · 1 s", "cdn": "2025/05/28/audio_06c890ad4c.mp3", "seite": "https://pixabay.com/sound-effects/film-special-effects-swoosh-07-351043/"},
+    {"titel": "Thin Swoosh", "unter": "Universfield · 1 s", "cdn": "2025/06/02/audio_87b54dbf23.mp3", "seite": "https://pixabay.com/sound-effects/film-special-effects-thin-swoosh-352756/"},
+    {"titel": "Fast Swoosh", "unter": "Universfield · 1 s", "cdn": "2025/08/03/audio_f3fcedb3d6.mp3", "seite": "https://pixabay.com/sound-effects/film-special-effects-fast-swoosh-383967/"}]},
+  {"id": "herz", "titel": "4 · Ihr Herz an Ducs Nachricht (neu)", "farbe": "#d9a198", "max": 1,
+   "soll": "Kleine Belohnung, warm, hörbar anders als der Empfang.",
+   "kandidaten": [
+    {"titel": "Rising Bubbly Pop", "unter": "Universfield · 1 s", "cdn": "2025/05/28/audio_b0a32665f5.mp3", "seite": "https://pixabay.com/sound-effects/film-special-effects-rising-bubbly-pop-351023/"},
+    {"titel": "Bubble Pop 08", "unter": "Universfield · 1 s", "cdn": "2025/05/29/audio_5ca2676796.mp3", "seite": "https://pixabay.com/sound-effects/film-special-effects-bubble-pop-08-351339/"},
+    {"titel": "Positive Notification", "unter": "Universfield · 1 s", "cdn": "2025/05/29/audio_8d79877e56.mp3", "seite": "https://pixabay.com/sound-effects/film-special-effects-positive-notification-351299/"}]},
+  {"id": "klingeln", "titel": "5 · Videoanruf klingelt", "farbe": "#c0a0d8", "max": 1,
+   "soll": "Klingelt in Schleife, bis Duc annimmt. Später ginge ein eigener Universfield-Klingelton je Frau (über 90 vorhanden).",
+   "kandidaten": [
+    {"titel": "heute: anruf_klingeln", "unter": "im Spiel (Pixabay, 1,1 s, alle 3,6 s)", "datei": "../../module/eden_rise/sfx/anruf_klingeln_1.mp3"},
+    {"titel": "Incoming Phone Call", "unter": "Universfield · 5 s", "cdn": "2023/06/04/audio_75cca20b5e.mp3", "seite": "https://pixabay.com/sound-effects/film-special-effects-incoming-phone-call-152490/"},
+    {"titel": "Marimba Ringtone", "unter": "Universfield · 8 s", "cdn": "2026/02/20/audio_8fe2df5ef7.mp3", "seite": "https://pixabay.com/sound-effects/musical-marimba-ringtone-487903/"},
+    {"titel": "Ringtone 067", "unter": "Universfield · 9 s", "cdn": "2026/03/06/audio_4a2bf4fc6c.mp3", "seite": "https://pixabay.com/sound-effects/technology-ringtone-067-496273/"}]},
+  {"id": "verbinden", "titel": "6 · Duc nimmt an (neu)", "farbe": "#8fd0c8", "max": 1,
+   "soll": "Der Anruf steht: kurz, hell, aufwärts.",
+   "kandidaten": [
+    {"titel": "Soft Interface Click", "unter": "Universfield · 1 s", "cdn": "2022/11/20/audio_244968a8c0.mp3", "seite": "https://pixabay.com/sound-effects/film-special-effects-soft-interface-click-126517/"},
+    {"titel": "New Notification 07", "unter": "Universfield · 1 s", "cdn": "2024/05/19/audio_48ac856676.mp3", "seite": "https://pixabay.com/sound-effects/film-special-effects-new-notification-07-210334/"},
+    {"titel": "Gadget Activation", "unter": "Universfield · 2 s", "cdn": "2024/10/12/audio_9720937bc4.mp3", "seite": "https://pixabay.com/sound-effects/film-special-effects-gadget-activation-250072/"}]},
+  {"id": "auflegen", "titel": "7 · Anruf endet (neu)", "farbe": "#b8b0a0", "max": 1,
+   "soll": "Kurz, abwärts, das Gespräch ist vorbei. Universfield hat hier nichts Eigenes.",
+   "kandidaten": [
+    {"titel": "End Call SFX", "unter": "Sdanezis · 6 s (würde gekürzt)", "cdn": "2025/03/22/audio_e9436dc119.mp3", "seite": "https://pixabay.com/sound-effects/film-special-effects-end-call-sfx-317327/"},
+    {"titel": "end-call", "unter": "u_z31mph1yzr", "cdn": "2022/09/21/audio_51f53043d7.mp3", "seite": "https://pixabay.com/sound-effects/household-end-call-120633/"},
+    {"titel": "Interface", "unter": "Universfield · 2 s", "cdn": "2022/10/30/audio_4fa75b6720.mp3", "seite": "https://pixabay.com/sound-effects/film-special-effects-interface-124464/"}]},
+  {"id": "verpasst", "titel": "8 · Verpasster Anruf (neu)", "farbe": "#d0b070", "max": 1,
+   "soll": "Leise Erinnerung, kein Alarm. Spielt, wenn Duc ablehnt.",
+   "kandidaten": [
+    {"titel": "Notification Beep", "unter": "Universfield · 2 s", "cdn": "2024/08/02/audio_3a4d7c617d.mp3", "seite": "https://pixabay.com/sound-effects/film-special-effects-notification-beep-229154/"},
+    {"titel": "Error Notification 05", "unter": "Universfield · 1 s", "cdn": "2024/03/31/audio_b0f7f7a083.mp3", "seite": "https://pixabay.com/sound-effects/film-special-effects-error-notification-05-199276/"},
+    {"titel": "Warning Notification", "unter": "Universfield · 1 s", "cdn": "2024/03/31/audio_00c75a25d1.mp3", "seite": "https://pixabay.com/sound-effects/film-special-effects-warning-notification-199277/"}]},
+  {"id": "nacht", "titel": "9 · Nachts: Vibration statt Klingeln", "farbe": "#7f8fa8", "max": 1, "optional": true,
+   "soll": "Kein neuer Klang: Die Vibration gibt es schon. Passt sie für Anrufe um 02:13?",
+   "kandidaten": [
+    {"titel": "heute: handy_nachricht", "unter": "Vibration im Spiel (4 Varianten)", "datei": "../../module/eden_rise/sfx/handy_nachricht_1.mp3"}]}
+ ]
+}

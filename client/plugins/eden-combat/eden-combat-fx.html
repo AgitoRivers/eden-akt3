@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- Special attack cut-in (26.10.2026): plays the approved effect-lab variant once, full screen, inside the fight.
+     The lab files stay the only source: they come through the existing read-only preview route of eden-skills
+     (docs/effekt-auswahl/status-labor, allowlist preview-files.json). Nothing in the lab is changed.
+     Query: angriff=<lab id> · duc=<lab Duc set, e.g. DucErdeBat> · idle/hurt/guard=<enemy pose URLs from the game>. -->
+<base href="/plugins/eden-skills/preview/ablaufprobe/">
+<title>Special attack</title>
+<style>
+html,body{margin:0;height:100%;background:#000;overflow:hidden}
+#scene{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.lab{display:none}
+</style>
+<script>
+// The lab's Duc actor reads its set from localStorage; the game decides it here (same origin, lab key).
+(() => { const q = new URLSearchParams(location.search), duc = q.get("duc");
+  if (duc && /^Duc[A-Za-z]+$/.test(duc)) try { localStorage.setItem("eden-fx-duc-set-v1", duc); } catch (e) {} })();
+</script>
+</head>
+<body>
+<canvas id="scene" width="960" height="600" aria-label="Special attack"></canvas>
+<!-- controls the lab script expects; hidden, the game plays the sequence once -->
+<div class="lab" aria-hidden="true">
+  <h1></h1><p id="attack-description"></p><h2 id="attack-type"></h2><p id="attack-rule"></p><p id="error"></p>
+  <select id="player-look"></select><select id="player-weapon"></select><select id="preview-figure"></select><select id="attack"></select>
+  <label id="fire-control"><select id="fire-mode"><option value="full">full</option><option value="charge" id="fire-mode-charge">charge</option><option value="release" id="fire-mode-release">release</option></select></label>
+  <label id="burn-control"><select id="burn-stacks"><option value="3" selected>3</option></select></label>
+  <button data-variant="0"></button><button data-variant="1"></button><button data-variant="2"></button>
+  <span data-phase="0"></span><span data-phase="1"></span><span data-phase="2"></span><span data-phase="3"></span>
+  <button id="play">Abspielen</button><button id="restart"></button><select id="speed"><option value="1">1</option></select>
+  <input id="effects" type="checkbox" checked><input id="timeline" type="range" min="0" max="5.44" step=".01" value="0"><output id="time"></output>
+</div>
+<script src="../freigabe-spezialangriffe.js?v=3"></script><script src="../realismus-quellen.js?v=6"></script><script src="tidal-wall.js?v=7"></script><script src="mistral-schwung.js?v=2"></script><script src="../blendung.js?v=2"></script><script src="licht-sterne.js?v=7"></script><script src="sotto-voce.js?v=1"></script><script src="point-de-mire.js?v=1"></script><script src="libeccio-nebelwand.js?v=1"></script><script src="bonaccia-wasserschild.js?v=5"></script><script src="../brennen.js?v=1"></script><script src="berserker.js?v=8"></script><script src="omerta.js?v=1"></script><script src="heiler.js?v=2"></script><script src="angriffe.js?v=36"></script><script src="spielwirkung.js?v=5"></script><script src="doppio-ladung.js?v=4"></script><script src="duc-links.js?v=12"></script>
+<script>
+// Scene background (26.10.2026): the cut-in plays in front of the current scene, not on the lab floor.
+// Darkened so the effects keep their contrast; a missing image falls back to the lab floor.
+const szene = (() => {
+  const url = new URLSearchParams(location.search).get("bg") || "";
+  if (!/^\/bg\/[A-Za-z0-9_\-.\/%]+$/.test(url)) return Promise.resolve(null);
+  return new Promise(ok => { const i = new Image(); i.onload = () => ok(i); i.onerror = () => ok(null); i.src = url; });
+})();
+let szenenBild = null;
+window.EdenCutinGround = (x, W, H) => {
+  const bild = szenenBild; if (!bild) return false;
+  const s = Math.max(W / bild.width, H / bild.height), w = bild.width * s, h = bild.height * s;
+  x.clearRect(0, 0, W, H); x.drawImage(bild, (W - w) / 2, (H - h) / 2, w, h);
+  let v = x.createLinearGradient(0, 0, 0, H); v.addColorStop(0, "rgba(4,6,9,.55)"); v.addColorStop(.55, "rgba(4,6,9,.4)"); v.addColorStop(1, "rgba(4,6,9,.75)");
+  x.fillStyle = v; x.fillRect(0, 0, W, H);
+  v = x.createRadialGradient(W / 2, H * .5, 120, W / 2, H * .5, W * .68); v.addColorStop(0, "rgba(0,0,0,0)"); v.addColorStop(1, "rgba(2,4,6,.8)");
+  x.fillStyle = v; x.fillRect(0, 0, W, H);
+  return true;
+};
+// Instead of the lab's comparison picker: the real enemy of this fight (its idle/hurt/guard poses from the game).
+window.EdenFigurePicker = {async mount(select, {onChange}){
+  szenenBild = await szene;
+  const q = new URLSearchParams(location.search), pose = p => new Promise((ok, bad) => {
+    const url = q.get(p) || "", i = new Image();
+    if (!/^\/kampfbild\/[A-Za-z0-9_]+\/[a-z_]+\.webp(\?v=\d+)?$/.test(url)) return bad(Error("enemy pose missing: " + p));
+    i.onload = () => ok([p, i]); i.onerror = () => bad(Error("enemy pose missing: " + p)); i.src = url;
+  });
+  onChange(Object.fromEntries(await Promise.all(["idle", "hurt", "guard"].map(pose))));
+}};
+// Sound: the lab calls EdenAttackAudio.sync every frame with its sequence clock; the game window owns the AudioContext.
+window.EdenAttackAudio = {sync(s){
+  if (new URLSearchParams(location.search).get("vorladen")) return;   // unsichtbares Vorladen bleibt stumm
+  try { const t = window.EdenAttackStudy && EdenAttackStudy.soundTimeline(); if (t && parent !== window && parent.EdenCombatEffects) parent.EdenCombatEffects.tonSync(Object.assign({}, s, {timeline: t})); } catch (e) {}
+}};
+const melden = (type, extra) => { if (parent !== window) parent.postMessage(Object.assign({type}, extra || {}), location.origin); };
+document.addEventListener("eden-preview-ready", () => melden("eden-cutin-ready", {dauer: window.EdenAttackStudy.duration}));
+new MutationObserver(() => { const t = document.querySelector("#error").textContent.trim(); if (t) melden("eden-cutin-fehler", {text: t}); })
+  .observe(document.querySelector("#error"), {childList: true, subtree: true, characterData: true});
+</script>
+<script src="probe.js?v=43"></script>
+</body>
+</html>

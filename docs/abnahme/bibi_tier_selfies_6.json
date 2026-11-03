@@ -1,0 +1,231 @@
+{
+ "id": "bibi_tier_selfies_6",
+ "titel": "Bibis Tier-Selfies: Nachlauf",
+ "hinweis": "Je Moment vier Seeds. Bitte je Tier eines mit OK markieren, rechts daneben der schon gewählte andere Moment.",
+ "items": [
+  {
+   "id": "sorry_b_1",
+   "titel": "sorry_b_1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\sorry_b_1.png",
+   "soll": "Hyäne gähnt mit geschlossenen Augen, Bibi deadpan",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_4\\sorry_a_1.png",
+   "vergleich_titel": "anderer Moment (schon gewählt)"
+  },
+  {
+   "id": "sorry_b_2",
+   "titel": "sorry_b_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\sorry_b_2.png",
+   "soll": "Hyäne gähnt mit geschlossenen Augen, Bibi deadpan",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_4\\sorry_a_1.png",
+   "vergleich_titel": "anderer Moment (schon gewählt)"
+  },
+  {
+   "id": "sorry_b_3",
+   "titel": "sorry_b_3",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\sorry_b_3.png",
+   "soll": "Hyäne gähnt mit geschlossenen Augen, Bibi deadpan",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_4\\sorry_a_1.png",
+   "vergleich_titel": "anderer Moment (schon gewählt)"
+  },
+  {
+   "id": "sorry_b_4",
+   "titel": "sorry_b_4",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\sorry_b_4.png",
+   "soll": "Hyäne gähnt mit geschlossenen Augen, Bibi deadpan",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_4\\sorry_a_1.png",
+   "vergleich_titel": "anderer Moment (schon gewählt)"
+  },
+  {
+   "id": "monsieur_b_1",
+   "titel": "monsieur_b_1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\monsieur_b_1.png",
+   "soll": "Makak hält das Handy, Bibi nur einmal im Bild",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_4\\monsieur_a_2.png",
+   "vergleich_titel": "anderer Moment (schon gewählt)"
+  },
+  {
+   "id": "monsieur_b_2",
+   "titel": "monsieur_b_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\monsieur_b_2.png",
+   "soll": "Makak hält das Handy, Bibi nur einmal im Bild",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_4\\monsieur_a_2.png",
+   "vergleich_titel": "anderer Moment (schon gewählt)"
+  },
+  {
+   "id": "monsieur_b_3",
+   "titel": "monsieur_b_3",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\monsieur_b_3.png",
+   "soll": "Makak hält das Handy, Bibi nur einmal im Bild",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_4\\monsieur_a_2.png",
+   "vergleich_titel": "anderer Moment (schon gewählt)"
+  },
+  {
+   "id": "monsieur_b_4",
+   "titel": "monsieur_b_4",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\monsieur_b_4.png",
+   "soll": "Makak hält das Handy, Bibi nur einmal im Bild",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_4\\monsieur_a_2.png",
+   "vergleich_titel": "anderer Moment (schon gewählt)"
+  },
+  {
+   "id": "truffle_b_1",
+   "titel": "truffle_b_1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\truffle_b_1.png",
+   "soll": "Apfel auf der flachen Hand weit vom Gesicht, Keiler nimmt ihn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_5\\truffle_a_2.png",
+   "vergleich_titel": "anderer Moment (schon gewählt)"
+  },
+  {
+   "id": "truffle_b_2",
+   "titel": "truffle_b_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\truffle_b_2.png",
+   "soll": "Apfel auf der flachen Hand weit vom Gesicht, Keiler nimmt ihn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_5\\truffle_a_2.png",
+   "vergleich_titel": "anderer Moment (schon gewählt)"
+  },
+  {
+   "id": "truffle_b_3",
+   "titel": "truffle_b_3",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\truffle_b_3.png",
+   "soll": "Apfel auf der flachen Hand weit vom Gesicht, Keiler nimmt ihn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_5\\truffle_a_2.png",
+   "vergleich_titel": "anderer Moment (schon gewählt)"
+  },
+  {
+   "id": "truffle_b_4",
+   "titel": "truffle_b_4",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\truffle_b_4.png",
+   "soll": "Apfel auf der flachen Hand weit vom Gesicht, Keiler nimmt ihn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_5\\truffle_a_2.png",
+   "vergleich_titel": "anderer Moment (schon gewählt)"
+  },
+  {
+   "id": "pudding_b_1",
+   "titel": "pudding_b_1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\pudding_b_1.png",
+   "soll": "katzengroßes Bärenjunges kaut den Löwen-Anhänger",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_5\\pudding_a_2.png",
+   "vergleich_titel": "anderer Moment (schon gewählt)"
+  },
+  {
+   "id": "pudding_b_2",
+   "titel": "pudding_b_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\pudding_b_2.png",
+   "soll": "katzengroßes Bärenjunges kaut den Löwen-Anhänger",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_5\\pudding_a_2.png",
+   "vergleich_titel": "anderer Moment (schon gewählt)"
+  },
+  {
+   "id": "pudding_b_3",
+   "titel": "pudding_b_3",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\pudding_b_3.png",
+   "soll": "katzengroßes Bärenjunges kaut den Löwen-Anhänger",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_5\\pudding_a_2.png",
+   "vergleich_titel": "anderer Moment (schon gewählt)"
+  },
+  {
+   "id": "pudding_b_4",
+   "titel": "pudding_b_4",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\pudding_b_4.png",
+   "soll": "katzengroßes Bärenjunges kaut den Löwen-Anhänger",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_5\\pudding_a_2.png",
+   "vergleich_titel": "anderer Moment (schon gewählt)"
+  },
+  {
+   "id": "ghost_a_1",
+   "titel": "ghost_a_1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\ghost_a_1.png",
+   "soll": "Schneeleopard gut sichtbar auf dem Felsen",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_4\\ghost_b_2.png",
+   "vergleich_titel": "anderer Moment (schon gewählt)"
+  },
+  {
+   "id": "ghost_a_2",
+   "titel": "ghost_a_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\ghost_a_2.png",
+   "soll": "Schneeleopard gut sichtbar auf dem Felsen",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_4\\ghost_b_2.png",
+   "vergleich_titel": "anderer Moment (schon gewählt)"
+  },
+  {
+   "id": "ghost_a_3",
+   "titel": "ghost_a_3",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\ghost_a_3.png",
+   "soll": "Schneeleopard gut sichtbar auf dem Felsen",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_4\\ghost_b_2.png",
+   "vergleich_titel": "anderer Moment (schon gewählt)"
+  },
+  {
+   "id": "ghost_a_4",
+   "titel": "ghost_a_4",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\ghost_a_4.png",
+   "soll": "Schneeleopard gut sichtbar auf dem Felsen",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_4\\ghost_b_2.png",
+   "vergleich_titel": "anderer Moment (schon gewählt)"
+  },
+  {
+   "id": "bones_b_1",
+   "titel": "bones_b_1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\bones_b_1.png",
+   "soll": "Geier sichtbar auf der Mauer, Knochen in ihrer Hand",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_5\\bones_a_2.png",
+   "vergleich_titel": "anderer Moment (schon gewählt)"
+  },
+  {
+   "id": "bones_b_2",
+   "titel": "bones_b_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\bones_b_2.png",
+   "soll": "Geier sichtbar auf der Mauer, Knochen in ihrer Hand",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_5\\bones_a_2.png",
+   "vergleich_titel": "anderer Moment (schon gewählt)"
+  },
+  {
+   "id": "bones_b_3",
+   "titel": "bones_b_3",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\bones_b_3.png",
+   "soll": "Geier sichtbar auf der Mauer, Knochen in ihrer Hand",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_5\\bones_a_2.png",
+   "vergleich_titel": "anderer Moment (schon gewählt)"
+  },
+  {
+   "id": "bones_b_4",
+   "titel": "bones_b_4",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\bones_b_4.png",
+   "soll": "Geier sichtbar auf der Mauer, Knochen in ihrer Hand",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_5\\bones_a_2.png",
+   "vergleich_titel": "anderer Moment (schon gewählt)"
+  },
+  {
+   "id": "mr_v_b_1",
+   "titel": "mr_v_b_1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\mr_v_b_1.png",
+   "soll": "nur der Waran trägt die Sonnenbrille",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_5\\mr_v_a_1.png",
+   "vergleich_titel": "anderer Moment (schon gewählt)"
+  },
+  {
+   "id": "mr_v_b_2",
+   "titel": "mr_v_b_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\mr_v_b_2.png",
+   "soll": "nur der Waran trägt die Sonnenbrille",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_5\\mr_v_a_1.png",
+   "vergleich_titel": "anderer Moment (schon gewählt)"
+  },
+  {
+   "id": "mr_v_b_3",
+   "titel": "mr_v_b_3",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\mr_v_b_3.png",
+   "soll": "nur der Waran trägt die Sonnenbrille",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_5\\mr_v_a_1.png",
+   "vergleich_titel": "anderer Moment (schon gewählt)"
+  },
+  {
+   "id": "mr_v_b_4",
+   "titel": "mr_v_b_4",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\mr_v_b_4.png",
+   "soll": "nur der Waran trägt die Sonnenbrille",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_5\\mr_v_a_1.png",
+   "vergleich_titel": "anderer Moment (schon gewählt)"
+  }
+ ]
+}

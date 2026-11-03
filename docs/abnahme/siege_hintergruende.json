@@ -1,0 +1,199 @@
+{
+ "id": "siege_hintergruende",
+ "titel": "Belagerung: Hintergründe",
+ "hinweis": "Je Ort eine Variante mit OK markieren, die anderen leer lassen. Bei Neu schreib kurz, was nicht stimmt.",
+ "items": [
+  {
+   "id": "strand_v1",
+   "titel": "Strand · Variante 1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_siege_strand_v1.png",
+   "soll": "Golden hour, Belagerung, keine Menschen, freier Boden in der Mitte.",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\beach_day.png",
+   "vergleich_titel": "Jetzt im Spiel"
+  },
+  {
+   "id": "strand_v2",
+   "titel": "Strand · Variante 2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_siege_strand_v2.png",
+   "soll": "Golden hour, Belagerung, keine Menschen, freier Boden in der Mitte.",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\beach_day.png",
+   "vergleich_titel": "Jetzt im Spiel"
+  },
+  {
+   "id": "strand_v3",
+   "titel": "Strand · Variante 3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_siege_strand_v3.png",
+   "soll": "Golden hour, Belagerung, keine Menschen, freier Boden in der Mitte.",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\beach_day.png",
+   "vergleich_titel": "Jetzt im Spiel"
+  },
+  {
+   "id": "macchia_v1",
+   "titel": "Macchia · Variante 1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_siege_macchia_v1.png",
+   "soll": "Golden hour, Belagerung, keine Menschen, freier Boden in der Mitte.",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\eden_rise_macchia_path.png",
+   "vergleich_titel": "Jetzt im Spiel"
+  },
+  {
+   "id": "macchia_v2",
+   "titel": "Macchia · Variante 2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_siege_macchia_v2.png",
+   "soll": "Golden hour, Belagerung, keine Menschen, freier Boden in der Mitte.",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\eden_rise_macchia_path.png",
+   "vergleich_titel": "Jetzt im Spiel"
+  },
+  {
+   "id": "macchia_v3",
+   "titel": "Macchia · Variante 3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_siege_macchia_v3.png",
+   "soll": "Golden hour, Belagerung, keine Menschen, freier Boden in der Mitte.",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\eden_rise_macchia_path.png",
+   "vergleich_titel": "Jetzt im Spiel"
+  },
+  {
+   "id": "felsen_v1",
+   "titel": "Felsen · Variante 1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_siege_felsen_v1.png",
+   "soll": "Golden hour, Belagerung, keine Menschen, freier Boden in der Mitte.",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\eden_rise_forest_edge_cliffs.png",
+   "vergleich_titel": "Jetzt im Spiel"
+  },
+  {
+   "id": "felsen_v2",
+   "titel": "Felsen · Variante 2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_siege_felsen_v2.png",
+   "soll": "Golden hour, Belagerung, keine Menschen, freier Boden in der Mitte.",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\eden_rise_forest_edge_cliffs.png",
+   "vergleich_titel": "Jetzt im Spiel"
+  },
+  {
+   "id": "felsen_v3",
+   "titel": "Felsen · Variante 3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_siege_felsen_v3.png",
+   "soll": "Golden hour, Belagerung, keine Menschen, freier Boden in der Mitte.",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\eden_rise_forest_edge_cliffs.png",
+   "vergleich_titel": "Jetzt im Spiel"
+  },
+  {
+   "id": "dorf_v1",
+   "titel": "Dorfgasse · Variante 1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_siege_dorf_v1.png",
+   "soll": "Golden hour, Belagerung, keine Menschen, freier Boden in der Mitte.",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\eden_rise_hafen_bar_tuer.png",
+   "vergleich_titel": "Jetzt im Spiel"
+  },
+  {
+   "id": "dorf_v2",
+   "titel": "Dorfgasse · Variante 2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_siege_dorf_v2.png",
+   "soll": "Golden hour, Belagerung, keine Menschen, freier Boden in der Mitte.",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\eden_rise_hafen_bar_tuer.png",
+   "vergleich_titel": "Jetzt im Spiel"
+  },
+  {
+   "id": "dorf_v3",
+   "titel": "Dorfgasse · Variante 3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_siege_dorf_v3.png",
+   "soll": "Golden hour, Belagerung, keine Menschen, freier Boden in der Mitte.",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\eden_rise_hafen_bar_tuer.png",
+   "vergleich_titel": "Jetzt im Spiel"
+  },
+  {
+   "id": "kirchplatz_v1",
+   "titel": "Kirchplatz, auch als Hintergrund der Belagerungsszenen · Variante 1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_siege_kirchplatz_v1.png",
+   "soll": "Golden hour, Belagerung, keine Menschen, freier Boden in der Mitte.",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\eden_rise_piazza_treppe.png",
+   "vergleich_titel": "Jetzt im Spiel"
+  },
+  {
+   "id": "kirchplatz_v2",
+   "titel": "Kirchplatz, auch als Hintergrund der Belagerungsszenen · Variante 2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_siege_kirchplatz_v2.png",
+   "soll": "Golden hour, Belagerung, keine Menschen, freier Boden in der Mitte.",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\eden_rise_piazza_treppe.png",
+   "vergleich_titel": "Jetzt im Spiel"
+  },
+  {
+   "id": "kirchplatz_v3",
+   "titel": "Kirchplatz, auch als Hintergrund der Belagerungsszenen · Variante 3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_siege_kirchplatz_v3.png",
+   "soll": "Golden hour, Belagerung, keine Menschen, freier Boden in der Mitte.",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\eden_rise_piazza_treppe.png",
+   "vergleich_titel": "Jetzt im Spiel"
+  },
+  {
+   "id": "hafen_v1",
+   "titel": "Hafen · Variante 1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_siege_hafen_v1.png",
+   "soll": "Golden hour, Belagerung, keine Menschen, freier Boden in der Mitte.",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\corsican_village_harbour.png",
+   "vergleich_titel": "Jetzt im Spiel"
+  },
+  {
+   "id": "hafen_v2",
+   "titel": "Hafen · Variante 2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_siege_hafen_v2.png",
+   "soll": "Golden hour, Belagerung, keine Menschen, freier Boden in der Mitte.",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\corsican_village_harbour.png",
+   "vergleich_titel": "Jetzt im Spiel"
+  },
+  {
+   "id": "hafen_v3",
+   "titel": "Hafen · Variante 3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_siege_hafen_v3.png",
+   "soll": "Golden hour, Belagerung, keine Menschen, freier Boden in der Mitte.",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\corsican_village_harbour.png",
+   "vergleich_titel": "Jetzt im Spiel"
+  },
+  {
+   "id": "mole_v1",
+   "titel": "Mole · Variante 1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_siege_mole_v1.png",
+   "soll": "Golden hour, Belagerung, keine Menschen, freier Boden in der Mitte.",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\eden_rise_hafen_kai_chaos.png",
+   "vergleich_titel": "Jetzt im Spiel"
+  },
+  {
+   "id": "mole_v2",
+   "titel": "Mole · Variante 2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_siege_mole_v2.png",
+   "soll": "Golden hour, Belagerung, keine Menschen, freier Boden in der Mitte.",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\eden_rise_hafen_kai_chaos.png",
+   "vergleich_titel": "Jetzt im Spiel"
+  },
+  {
+   "id": "mole_v3",
+   "titel": "Mole · Variante 3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_siege_mole_v3.png",
+   "soll": "Golden hour, Belagerung, keine Menschen, freier Boden in der Mitte.",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\eden_rise_hafen_kai_chaos.png",
+   "vergleich_titel": "Jetzt im Spiel"
+  },
+  {
+   "id": "yacht_v1",
+   "titel": "Yacht · Variante 1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_siege_yacht_v1.png",
+   "soll": "Golden hour, Belagerung, keine Menschen, freier Boden in der Mitte.",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\yacht_aft_deck_dining.png",
+   "vergleich_titel": "Jetzt im Spiel"
+  },
+  {
+   "id": "yacht_v2",
+   "titel": "Yacht · Variante 2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_siege_yacht_v2.png",
+   "soll": "Golden hour, Belagerung, keine Menschen, freier Boden in der Mitte.",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\yacht_aft_deck_dining.png",
+   "vergleich_titel": "Jetzt im Spiel"
+  },
+  {
+   "id": "yacht_v3",
+   "titel": "Yacht · Variante 3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_siege_yacht_v3.png",
+   "soll": "Golden hour, Belagerung, keine Menschen, freier Boden in der Mitte.",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\yacht_aft_deck_dining.png",
+   "vergleich_titel": "Jetzt im Spiel"
+  }
+ ]
+}

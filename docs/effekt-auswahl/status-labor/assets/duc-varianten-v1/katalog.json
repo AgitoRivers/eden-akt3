@@ -1,0 +1,3571 @@
+{
+  "version": 1,
+  "sourceUnmodified": true,
+  "normalisation": "werkzeuge/kampf_bilder.py",
+  "looks": {
+    "Erde": "Terra Scura",
+    "Wasser": "Meramie",
+    "Feuer": "Incendio",
+    "Luft": "Zéphyr",
+    "Cyber": "Citadelle",
+    "Maxwell": "Mr. Maximum"
+  },
+  "weapons": {
+    "Sword": "Riposte",
+    "Bat": "Terremoto",
+    "Knife": "Sussurro",
+    "Spear": "Le Large",
+    "Gun": "Gemelli",
+    "SteelMop": "Steel Mop"
+  },
+  "sets": [
+    {
+      "id": "DucErdeSword",
+      "look": "Erde",
+      "weapon": "Sword",
+      "label": "Terra Scura · Riposte",
+      "directory": "duc-varianten-v1/DucErdeSword/",
+      "poses": [
+        "idle",
+        "windup",
+        "attack",
+        "heavy_windup",
+        "heavy_attack",
+        "hurt",
+        "guard",
+        "weakened",
+        "enraged",
+        "flee",
+        "surrender",
+        "defeated",
+        "victory"
+      ],
+      "sourcePoses": [
+        {
+          "pose": "idle",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSword\\idle.png",
+          "sha256": "479065993201543597011e5b67d459e97c5bd21cb2eb9b70ad24c0476dad93dc",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSword\\windup.png",
+          "sha256": "159deca4d92dc2086305b88e949336baa3275680bca85342b5ffad47f78f91c9",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSword\\attack.png",
+          "sha256": "0a7d1def78bcd73516a79cf7cc93b2d342611337f8be940e62a6241ea7edcbe9",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSword\\heavy_windup.png",
+          "sha256": "097854dfe6bbd129e863c3762f572a127d7b20419f8b3013769e2759b1459570",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSword\\heavy_attack.png",
+          "sha256": "cea4175502f6bbd464ea6bee7c8cfabae9cc465e1b525373941ed5d5c1b4effc",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "hurt",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSword\\hurt.png",
+          "sha256": "5e2daa1115b5085fb0f7dbd6cf66cc2ee4e8a4262478a60192de8fa28caa6ab9",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "guard",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSword\\guard.png",
+          "sha256": "041b4be2cc02f00ec3e79946620608ae443b22bc64da2c3f200ad4813b09117b",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "weakened",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSword\\weakened.png",
+          "sha256": "ff8436a8271896f658247d81c573f88f6582e20fbeb37063af572946580097f4",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "enraged",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSword\\enraged.png",
+          "sha256": "ca990fb1fcc1b08b045001ca5d11b91bc67fbf76692360ee8becef97d8cadd31",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "flee",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSword\\flee.png",
+          "sha256": "b977f5f61a395b901c9b945946cbca691905e057018c54f8046ee75266be3122",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "surrender",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSword\\surrender.png",
+          "sha256": "2b2b19ee969589f11c244ed3a9d5cf49b888c0fdcfd7b99bc79045aeb1b33e73",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "defeated",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSword\\defeated.png",
+          "sha256": "3ca913c4a6c7e9e10c9a2e5016240a76619d0a7ee17f8ee7373ee58653119dbf",
+          "sourceSize": [
+            1328,
+            880
+          ]
+        },
+        {
+          "pose": "victory",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSword\\victory.png",
+          "sha256": "ac8d25bac4af6b4882bfded5e0dd039e54c8843e4aa5e4cf3d1bf8da6f825799",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DucErdeBat",
+      "look": "Erde",
+      "weapon": "Bat",
+      "label": "Terra Scura · Terremoto",
+      "directory": "duc-varianten-v1/DucErdeBat/",
+      "poses": [
+        "idle",
+        "windup",
+        "attack",
+        "heavy_windup",
+        "heavy_attack",
+        "hurt",
+        "guard",
+        "weakened",
+        "enraged",
+        "flee",
+        "surrender",
+        "defeated",
+        "victory"
+      ],
+      "sourcePoses": [
+        {
+          "pose": "idle",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeBat\\idle.png",
+          "sha256": "5d48f29cfd570cc60822cc97b2be9826570ac0fb8abd1b03815007edcaa5359d",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeBat\\windup.png",
+          "sha256": "f93df284438d55146c84d1a2f6338b5327f07743d1147e42b1b11cf4252da517",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeBat\\attack.png",
+          "sha256": "515d81e26e9b2251794a41fdf2e24464c39f8e62f258e286305938c4fa5577e6",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeBat\\heavy_windup.png",
+          "sha256": "75c5dea4b351ed5fced055b696e7918f3aac1dad59a7ebbffa7982fd6de32704",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeBat\\heavy_attack.png",
+          "sha256": "b5fb468ed1e626a01b9c09080ee15aed400c413ba16a8c9613b20f43d8129d12",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "hurt",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeBat\\hurt.png",
+          "sha256": "b4ca418be4b62744ab198528c393c04816cc01ff94712ecf7eb586b342d35a16",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "guard",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeBat\\guard.png",
+          "sha256": "dad44f82d8aa81c5413341a65c6a3743c1855e6a3503687f928dd4e33553de4c",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "weakened",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeBat\\weakened.png",
+          "sha256": "de866539ef88507b034575af9362273acc885ba09778d611e17ae22ea8bc596f",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "enraged",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeBat\\enraged.png",
+          "sha256": "2327d4d0df23e6067ed5080404c3e32a060ec23cda3295745308083e0a35c550",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "flee",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeBat\\flee.png",
+          "sha256": "f101bfc10a3ec02b496e8cf026b8594ddb21a6b3966ee2a9b9a3cc4e19520602",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "surrender",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeBat\\surrender.png",
+          "sha256": "aef879a603786a5fb286cc62ead46493ebf0a780770c48750c5a4419d633de8b",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "defeated",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeBat\\defeated.png",
+          "sha256": "3ca913c4a6c7e9e10c9a2e5016240a76619d0a7ee17f8ee7373ee58653119dbf",
+          "sourceSize": [
+            1328,
+            880
+          ]
+        },
+        {
+          "pose": "victory",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeBat\\victory.png",
+          "sha256": "69ab3f4e9ddd124ea10783a54b63804ef18639f963734be897ebd313817119d4",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DucErdeKnife",
+      "look": "Erde",
+      "weapon": "Knife",
+      "label": "Terra Scura · Sussurro",
+      "directory": "duc-varianten-v1/DucErdeKnife/",
+      "poses": [
+        "idle",
+        "windup",
+        "attack",
+        "heavy_windup",
+        "heavy_attack",
+        "hurt",
+        "guard",
+        "weakened",
+        "enraged",
+        "flee",
+        "surrender",
+        "defeated",
+        "victory"
+      ],
+      "sourcePoses": [
+        {
+          "pose": "idle",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeKnife\\idle.png",
+          "sha256": "1168823d38eb6e5ab549227009f0d37b6257c247a8c503aca5a23ccdfa730c91",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeKnife\\windup.png",
+          "sha256": "f333c7a9876a43e537f294e531e13723b61c2fdf565e1bd27f03de146aac97b9",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeKnife\\attack.png",
+          "sha256": "ab3dc032e369cc9cda52e0fb63d59e9b298f7b31a1835bf132e10833129f8c7f",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeKnife\\heavy_windup.png",
+          "sha256": "60bfb19562ac4190a8ebd7315a409beab709ad9a2ab93eff5b39bea08df4f214",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeKnife\\heavy_attack.png",
+          "sha256": "26fa574491c080bd4d46050bc877fd2901dbf40df86b295af4091450e8835262",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "hurt",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeKnife\\hurt.png",
+          "sha256": "16cf45315b21518c6d60391d5a6847f68932ea78d60d91e2ac7fff510adc08ad",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "guard",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeKnife\\guard.png",
+          "sha256": "5433b7aef2ca145482f4116b6b867e55252912b56324306677e52ee63adf96f0",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "weakened",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeKnife\\weakened.png",
+          "sha256": "21f376a3fdaa4d6f2ceaf0d79c1bc348938d53d19312b279b1a1f3234bf1a784",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "enraged",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeKnife\\enraged.png",
+          "sha256": "578d751f4ae6bfbb5cef40b9d1a861d1fe9f5eb94835ce6c34e38b29252084db",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "flee",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeKnife\\flee.png",
+          "sha256": "0e314138f3e52a4e9f80e4ccc1eda77cb56676695e4993073e585a1017f7e5b7",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "surrender",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeKnife\\surrender.png",
+          "sha256": "ead54b15c77abeff27b0486e46feab4158902b9a59488daca8c5a0bb5ad2af68",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "defeated",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeKnife\\defeated.png",
+          "sha256": "3ca913c4a6c7e9e10c9a2e5016240a76619d0a7ee17f8ee7373ee58653119dbf",
+          "sourceSize": [
+            1328,
+            880
+          ]
+        },
+        {
+          "pose": "victory",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeKnife\\victory.png",
+          "sha256": "891cc8ed7c97cd8c01214d1e11a97998930b1614d1dd760a05f435396aadf61c",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DucErdeSpear",
+      "look": "Erde",
+      "weapon": "Spear",
+      "label": "Terra Scura · Le Large",
+      "directory": "duc-varianten-v1/DucErdeSpear/",
+      "poses": [
+        "idle",
+        "windup",
+        "attack",
+        "heavy_windup",
+        "heavy_attack",
+        "hurt",
+        "guard",
+        "weakened",
+        "enraged",
+        "flee",
+        "surrender",
+        "defeated",
+        "victory"
+      ],
+      "sourcePoses": [
+        {
+          "pose": "idle",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSpear\\idle.png",
+          "sha256": "e8e71ef1a022256f3be2ae4c73cfa926a3095218536ad6e12ad4e828ba45d265",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSpear\\windup.png",
+          "sha256": "6f3a041274d206f0564565c199a77fdc0b6b7f1f087f744d6075c5eee655d5b6",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSpear\\attack.png",
+          "sha256": "f47e5eaf486e1a55eaf006612fb121e91f81457159a8e7a0e91b9995cccac203",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSpear\\heavy_windup.png",
+          "sha256": "fc97a6f72b70e067c65463a8b03aa81b6081d3815d1dddd7f011a0d2d9209ec9",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSpear\\heavy_attack.png",
+          "sha256": "ffb3355eda5a724b41dfb9b028b6601059424f2df21377fab2d002de5c38103a",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "hurt",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSpear\\hurt.png",
+          "sha256": "0f81f6da15409924859b25c381dfc3a41e9999ce5a5d35b5924c3c543f552e01",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "guard",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSpear\\guard.png",
+          "sha256": "7d481b7a717050df9afd80e5545d0c3c333095262fd9cc2410f2206e84c18a8b",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "weakened",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSpear\\weakened.png",
+          "sha256": "607a06fb7d0e56c880f865652b670c84cd5704aaad1d768a4713444f62993ed3",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "enraged",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSpear\\enraged.png",
+          "sha256": "02e279684cdfaec79cd45afe1c05d356b250647fff45ab65ca86b52704aad99f",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "flee",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSpear\\flee.png",
+          "sha256": "d502af82770eaf2303cf60fe7e6a3f940467f5d952e9dd402c7f830eb85ce899",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "surrender",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSpear\\surrender.png",
+          "sha256": "1af864406cc6c315d08023a2fe7e81d68834f1a5be188fca8278d031dae8ec17",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "defeated",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSpear\\defeated.png",
+          "sha256": "3ca913c4a6c7e9e10c9a2e5016240a76619d0a7ee17f8ee7373ee58653119dbf",
+          "sourceSize": [
+            1328,
+            880
+          ]
+        },
+        {
+          "pose": "victory",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSpear\\victory.png",
+          "sha256": "7b07969399eb0eae4dcbbf2b358244754ebd6c4d7b2af5b1736ee786a17b3dc7",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DucErdeGun",
+      "look": "Erde",
+      "weapon": "Gun",
+      "label": "Terra Scura · Gemelli",
+      "directory": "duc-varianten-v1/DucErdeGun/",
+      "poses": [
+        "idle",
+        "windup",
+        "attack",
+        "heavy_windup",
+        "heavy_attack",
+        "hurt",
+        "guard",
+        "weakened",
+        "enraged",
+        "flee",
+        "surrender",
+        "defeated",
+        "victory"
+      ],
+      "sourcePoses": [
+        {
+          "pose": "idle",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeGun\\idle.png",
+          "sha256": "32a7d1c549947b1f480c6050f9c66d9725840fcd91fbcb86fdcf067cb6bac8d1",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeGun\\windup.png",
+          "sha256": "c104c125f3cb14138f6fed995b6ce1f850bcf0f1eb3850e7cef8843c4d852900",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeGun\\attack.png",
+          "sha256": "e5bcbe1e379a5c618c0b26d167a48f6c1af3520daf408fe20691c46287be9e9e",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeGun\\heavy_windup.png",
+          "sha256": "a15cda653c148f551f0db7692c647ca0a315204cf5446a4f8e86eef51cd57e4c",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeGun\\heavy_attack.png",
+          "sha256": "0c027c1b7f2b01339ad2c80212670a66b7c6ff08c50b83de5bca3f8002d4661e",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "hurt",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeGun\\hurt.png",
+          "sha256": "6b8cf2b0f36a5dd07ad948f6b0b99801f98fcf0c9467c73bc47bc8bb52252f1a",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "guard",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeGun\\guard.png",
+          "sha256": "a4aa9df365dd11d02625ea983ac3a675f4b8e70843402f6747971e693e208868",
+          "sourceSize": [
+            1104,
+            1104
+          ]
+        },
+        {
+          "pose": "weakened",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeGun\\weakened.png",
+          "sha256": "5d6a814a8b8b471c164a2e628d036421b3eee5ae90f3fc9dab8016f9a7cec844",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "enraged",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeGun\\enraged.png",
+          "sha256": "a3278e3ead48f088bab6f737e32cbd9549fbcfbe555a106cf9957deeffe29596",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "flee",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeGun\\flee.png",
+          "sha256": "cdb33f807d0f32fd92b8950306dfba0756555c727e80ee452bd6d5b5b8dae0c1",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "surrender",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeGun\\surrender.png",
+          "sha256": "94a1a109e66eec36ecd6ecfec22e44e824f569652b29c452526b70311cfcb7b6",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "defeated",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeGun\\defeated.png",
+          "sha256": "3ca913c4a6c7e9e10c9a2e5016240a76619d0a7ee17f8ee7373ee58653119dbf",
+          "sourceSize": [
+            1328,
+            880
+          ]
+        },
+        {
+          "pose": "victory",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeGun\\victory.png",
+          "sha256": "d7762599a1f1d72c00f0ae30fedc958ecc62d331c6ed9398449e2bb44128cf22",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DucWasserSword",
+      "look": "Wasser",
+      "weapon": "Sword",
+      "label": "Meramie · Riposte",
+      "directory": "duc-varianten-v1/DucWasserSword/",
+      "poses": [
+        "idle",
+        "windup",
+        "attack",
+        "heavy_windup",
+        "heavy_attack",
+        "hurt",
+        "guard",
+        "weakened",
+        "enraged",
+        "flee",
+        "surrender",
+        "defeated",
+        "victory"
+      ],
+      "sourcePoses": [
+        {
+          "pose": "idle",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserSword\\idle.png",
+          "sha256": "53e68c109f56def17195caa3f2fa5dfd681ed8f09dc9519163016ad38f25cd3f",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserSword\\windup.png",
+          "sha256": "3545cc79a8c1d78570a126315419877c35009c98a934c0a995297bf0ccd49178",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserSword\\attack.png",
+          "sha256": "0e280a259e0f01d5d439ba44d85f77cd2877ee497325d5dabc344f68484131e0",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserSword\\heavy_windup.png",
+          "sha256": "0c77f20a6868956572fb3b2db03b29d585af27645e1c49a862b6aaa596f6f17c",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserSword\\heavy_attack.png",
+          "sha256": "9647b84b6d0d7a14c5b22475c0a3e5f6adc779139caf963ed8854817acc60950",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "hurt",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserSword\\hurt.png",
+          "sha256": "f2a2782b0d86beb39bf2f3228c9ababca40da2abf7233e7d7e3b978f2e97923e",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "guard",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserSword\\guard.png",
+          "sha256": "0acfb9b6dc57769b9ed0e666c0fc7bba2cb2c568dbc714310f089f92e61831cf",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "weakened",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserSword\\weakened.png",
+          "sha256": "ee860fbc6164ca5c14989608d271e04c8c48a4e03e2f277275a9fcd7ec366316",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "enraged",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserSword\\enraged.png",
+          "sha256": "bcc8344398d9d1bff1fa83a789ebd58a3575447a013570c7016c8a6f767c5455",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "flee",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserSword\\flee.png",
+          "sha256": "0ec2f6dc8f6819e80b82dd6ee2685b4d3c97c1296587ab4504cade00e18e9f44",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "surrender",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserSword\\surrender.png",
+          "sha256": "f42d4089ad116c306882ed864b149bc405fcc3ebdb0b93caec7769517707e048",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "defeated",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserSword\\defeated.png",
+          "sha256": "677a978ea87a28f66a30a7318c1c822921ab1eb4fe3141ba4cc3e3b0f8dc9be6",
+          "sourceSize": [
+            1328,
+            880
+          ]
+        },
+        {
+          "pose": "victory",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserSword\\victory.png",
+          "sha256": "8ac9a1c730de23760f8f9e8f6870e48a42e2ad910f0ddac70f043db71a6ed366",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DucWasserBat",
+      "look": "Wasser",
+      "weapon": "Bat",
+      "label": "Meramie · Terremoto",
+      "directory": "duc-varianten-v1/DucWasserBat/",
+      "poses": [
+        "idle",
+        "windup",
+        "attack",
+        "heavy_windup",
+        "heavy_attack",
+        "hurt",
+        "guard",
+        "weakened",
+        "enraged",
+        "flee",
+        "surrender",
+        "defeated",
+        "victory"
+      ],
+      "sourcePoses": [
+        {
+          "pose": "idle",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserBat\\idle.png",
+          "sha256": "9ca2adf12c28186b52bdb22b82f33d18e16f0dac7ffb2aa42e6cd8e6fac7b99c",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserBat\\windup.png",
+          "sha256": "5d5abec1c86e805761d743895bd876f8adc714ad2a08efa764bd874d52296a30",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserBat\\attack.png",
+          "sha256": "0b30a95a8751bff6784f2f2b8ea4f7ec5a3b75d2243006f7e70788315289273b",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserBat\\heavy_windup.png",
+          "sha256": "8b32c15974f87ca33b54b020d49e651839f2647db7b21705bbd4d1d42694fc8c",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserBat\\heavy_attack.png",
+          "sha256": "948be2c999cf9697773fc1d3ce2a05a6ebe0f62f4d1d16b8c9c370c348b49ad9",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "hurt",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserBat\\hurt.png",
+          "sha256": "3d6e478bc4c26bb37aebc8092613894182257f333b085497890eefac17354979",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "guard",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserBat\\guard.png",
+          "sha256": "9c5847422beef34e3a89af67e3a4f7efe3aa092d074e9b469c4a576abba2f604",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "weakened",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserBat\\weakened.png",
+          "sha256": "0544274a96dfb6dbc0559c4d8e3c471c2aad829ce1574014cde1fd09b1c394b3",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "enraged",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserBat\\enraged.png",
+          "sha256": "fb643c650fdba0735150ad0b1f170e32004dd1f937c40924ed65ec618d641422",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "flee",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserBat\\flee.png",
+          "sha256": "3e2af2695b7c54681cb05394a6377a7e8ae8a337a1e695f5fff7364d0943f05d",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "surrender",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserBat\\surrender.png",
+          "sha256": "6fc2045197a8a24082d83d642972efaded32a39758e34a7b778c36f78e47b9f7",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "defeated",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserBat\\defeated.png",
+          "sha256": "677a978ea87a28f66a30a7318c1c822921ab1eb4fe3141ba4cc3e3b0f8dc9be6",
+          "sourceSize": [
+            1328,
+            880
+          ]
+        },
+        {
+          "pose": "victory",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserBat\\victory.png",
+          "sha256": "0ba752cce4717b4fa3e786300818d546017213c74d6041b5c0aa844762290aa0",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DucWasserKnife",
+      "look": "Wasser",
+      "weapon": "Knife",
+      "label": "Meramie · Sussurro",
+      "directory": "duc-varianten-v1/DucWasserKnife/",
+      "poses": [
+        "idle",
+        "windup",
+        "attack",
+        "heavy_windup",
+        "heavy_attack",
+        "hurt",
+        "guard",
+        "weakened",
+        "enraged",
+        "flee",
+        "surrender",
+        "defeated",
+        "victory"
+      ],
+      "sourcePoses": [
+        {
+          "pose": "idle",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\idle.png",
+          "sha256": "9227bb6fc0bff59296e398d34b5d649f1cbb8e676d4d377261157bb94868b4f6",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\windup.png",
+          "sha256": "ba02b7bc3cb1983610381fc5933efba4d4fd29c8791e74bf29b29d6e0db3f94b",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\attack.png",
+          "sha256": "f8880fdf1bb343a3a159892b28135c10cabd7c7914ec94f6d9bcef007e8b95ce",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\heavy_windup.png",
+          "sha256": "b827ed92706b3f4ca0cfd8ebb64383ef49ad1dbed5ae0ff7f405b87dc16607a2",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\heavy_attack.png",
+          "sha256": "5913b660a4a68537ed8b23f487e9b02fda87b1099c9e0f144bbf1122a0ee5f87",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "hurt",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\hurt.png",
+          "sha256": "09ee5dc9458d1fad7f20a6e7d6b860777412ce6b705c93f4793268220fb5fb53",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "guard",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\guard.png",
+          "sha256": "273e34e371ed23365464e858c76ded46703d87abaea00f1cdf0a0c49510be3e9",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "weakened",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\weakened.png",
+          "sha256": "3dc115bbc4960d5c49eec72a384279b0beaf9613889bdf5ccbb16e1e30814de2",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "enraged",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\enraged.png",
+          "sha256": "b0b3acebacef51d788c92ad0fa42c055e96169ff7d004837cd1973174a3efcb3",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "flee",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\flee.png",
+          "sha256": "cc2a75b867596238c65e947deb04d1c4c3b504887b89bdf546cecdd14d3eefbf",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "surrender",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\surrender.png",
+          "sha256": "56bef3f29c8df08960fe9a4467f0f3cccbbe7c2324d24131f6c99074503111e2",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "defeated",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\defeated.png",
+          "sha256": "677a978ea87a28f66a30a7318c1c822921ab1eb4fe3141ba4cc3e3b0f8dc9be6",
+          "sourceSize": [
+            1328,
+            880
+          ]
+        },
+        {
+          "pose": "victory",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserKnife\\victory.png",
+          "sha256": "ed8f0e3bd20803972b9c726389b778eb29906be6cd25a73ad55b06f92d774b2a",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DucWasserSpear",
+      "look": "Wasser",
+      "weapon": "Spear",
+      "label": "Meramie · Le Large",
+      "directory": "duc-varianten-v1/DucWasserSpear/",
+      "poses": [
+        "idle",
+        "windup",
+        "attack",
+        "heavy_windup",
+        "heavy_attack",
+        "hurt",
+        "guard",
+        "weakened",
+        "enraged",
+        "flee",
+        "surrender",
+        "defeated",
+        "victory"
+      ],
+      "sourcePoses": [
+        {
+          "pose": "idle",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserSpear\\idle.png",
+          "sha256": "b625bc08f05c66390611ea7790d4b3b7bf6d89d615da3a18f8741543d234865b",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserSpear\\windup.png",
+          "sha256": "ecdc68ccda16d8fc025be2cf0899aa4cd24cbe157244e19e26581a9a5e069ff0",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserSpear\\attack.png",
+          "sha256": "fd55886b517a70c6b2f2c58e49d326fbed76b909ad91b71ccae5bbf5ae3adb11",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserSpear\\heavy_windup.png",
+          "sha256": "1be340d847d87f7b62af946e24ed9df790a0c075259dfee0056777939898896b",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserSpear\\heavy_attack.png",
+          "sha256": "081e87a945b3bec5f14a9363cbb39db865a730e16050f20a184ee74286a2cdaa",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "hurt",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserSpear\\hurt.png",
+          "sha256": "b26fd8f50d2776f61a355650664a2acdbe587d84bb16e1485fae6cb7915eb1e1",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "guard",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserSpear\\guard.png",
+          "sha256": "c07e88380072ddbe52dd52f58e5bdf5c469656bba339996aaf9a5bab9c64ea9d",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "weakened",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserSpear\\weakened.png",
+          "sha256": "d7f87ab4656855e0a883a046e575dffda2a7f5d174af8e6cc8e618d20830cb67",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "enraged",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserSpear\\enraged.png",
+          "sha256": "a617a36ca94e648bbc3555d49b8353ae8853f2e7937382a08877b8348a9accdf",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "flee",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserSpear\\flee.png",
+          "sha256": "da4eb69f7af7492c8a4441eecdddc1277cfe92d40a080095bf62857bfe6c20ee",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "surrender",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserSpear\\surrender.png",
+          "sha256": "13d7e2ffae2da75dd14cc977861d1f7c9764c880865cc7ea0c0200867df78f04",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "defeated",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserSpear\\defeated.png",
+          "sha256": "677a978ea87a28f66a30a7318c1c822921ab1eb4fe3141ba4cc3e3b0f8dc9be6",
+          "sourceSize": [
+            1328,
+            880
+          ]
+        },
+        {
+          "pose": "victory",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserSpear\\victory.png",
+          "sha256": "99470baa400c33e8d8269bfa5d48a28ccb83d1ad77d62465ad8a2d2c691b311a",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DucWasserGun",
+      "look": "Wasser",
+      "weapon": "Gun",
+      "label": "Meramie · Gemelli",
+      "directory": "duc-varianten-v1/DucWasserGun/",
+      "poses": [
+        "idle",
+        "windup",
+        "attack",
+        "heavy_windup",
+        "heavy_attack",
+        "hurt",
+        "guard",
+        "weakened",
+        "enraged",
+        "flee",
+        "surrender",
+        "defeated",
+        "victory"
+      ],
+      "sourcePoses": [
+        {
+          "pose": "idle",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserGun\\idle.png",
+          "sha256": "b5765f5de25b06a122574b040caa710efa4e0bb25f10b8941886e3f0b0befd41",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserGun\\windup.png",
+          "sha256": "75e3904ad7bc6fb1dcaa683dc2204fd861afe062a1b4887d49695d2b81eec514",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserGun\\attack.png",
+          "sha256": "f08fce2c482c52637eae619d0609f5312866954ff09f832456ceb524c13b7930",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserGun\\heavy_windup.png",
+          "sha256": "3a4ac19056825e2b7e96d032a1e70de43412475e2451efeee3b16ca0a3378586",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserGun\\heavy_attack.png",
+          "sha256": "529e82edc8be55f2e1e3325e15fd3ae1737a12c0196895051993c5077191d9ae",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "hurt",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserGun\\hurt.png",
+          "sha256": "289324c77d7bdb3e66b161010122cc53555358e857ab004ff23181f1ba539615",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "guard",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserGun\\guard.png",
+          "sha256": "2e2db0bae4c8843192e9eb1bb2b30c77d995db69b8b7ed92f8dee50e2d1e1994",
+          "sourceSize": [
+            1104,
+            1104
+          ]
+        },
+        {
+          "pose": "weakened",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserGun\\weakened.png",
+          "sha256": "adc8c5b0192c3753b9401df47bfff127bae7b4742576e3f67c82dcbcea3e0858",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "enraged",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserGun\\enraged.png",
+          "sha256": "9b539949193f6b5dc1ab45f82906d4155d11e6908efc76da6ed4222143ca9b68",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "flee",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserGun\\flee.png",
+          "sha256": "bdda01911f984be9eae9ff068761ed7b62f6e6116db1a6108198a5a8b5efc6cc",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "surrender",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserGun\\surrender.png",
+          "sha256": "0244bb28bf2cd09e0f23027f3e081a400b901e72448c441c657b28f4e3ba9063",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "defeated",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserGun\\defeated.png",
+          "sha256": "677a978ea87a28f66a30a7318c1c822921ab1eb4fe3141ba4cc3e3b0f8dc9be6",
+          "sourceSize": [
+            1328,
+            880
+          ]
+        },
+        {
+          "pose": "victory",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserGun\\victory.png",
+          "sha256": "7a3e20b9805e18a6c270e9cef2a25c83a18895cdaff79483bfa21caa37abd054",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DucFeuerSword",
+      "look": "Feuer",
+      "weapon": "Sword",
+      "label": "Incendio · Riposte",
+      "directory": "duc-varianten-v1/DucFeuerSword/",
+      "poses": [
+        "idle",
+        "windup",
+        "attack",
+        "heavy_windup",
+        "heavy_attack",
+        "hurt",
+        "guard",
+        "weakened",
+        "enraged",
+        "flee",
+        "surrender",
+        "defeated",
+        "victory"
+      ],
+      "sourcePoses": [
+        {
+          "pose": "idle",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerSword\\idle.png",
+          "sha256": "1dd7bf9228ab04b32b17ce095bbc7433a26d26f8c00b9fb4a35cac8bf4999b88",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerSword\\windup.png",
+          "sha256": "e6af93a38c2e9e011c2861789d7f6e00c77a00196a5d580a370e1a57d8fdc701",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerSword\\attack.png",
+          "sha256": "9debbd4decd7552f3d979c48575b5e0c508161770fc9985458e6d2329bfe2fb0",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerSword\\heavy_windup.png",
+          "sha256": "0228e1f4aafd26a1a8bf124fbaa77fddd4b0185b46666f20b8abd94b417f0fd2",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerSword\\heavy_attack.png",
+          "sha256": "11c0b1b31ea04486fe83e1b17cbf81c04e5b677aaafeb5eacbe16c1dcec06284",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "hurt",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerSword\\hurt.png",
+          "sha256": "314e7a94fb7eb4e91717600e8c60d169a91ab4b8ae357ba7458a8673c76c2b9c",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "guard",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerSword\\guard.png",
+          "sha256": "30f18b29b72caa4e5e0ed1115ffe1c20ae50753b36bdea8db8ec9c93f3506ece",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "weakened",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerSword\\weakened.png",
+          "sha256": "cd899afad2db6757eceb1e53e28a6ebe7a184bf1c5744ca9b4b4ca89c865ad81",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "enraged",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerSword\\enraged.png",
+          "sha256": "ff10978e12b23c6a10210a3bbb0a69e780e78cf287caaed5d8a5a52323d57285",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "flee",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerSword\\flee.png",
+          "sha256": "99600eaf65e35d90c2cff2bd8213646d95a387106183ec0e81d13106678854bb",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "surrender",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerSword\\surrender.png",
+          "sha256": "c28d1eca695b00b5d9f5608d39732ebbe38412a3b5ad134f19b2809accef0818",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "defeated",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerSword\\defeated.png",
+          "sha256": "9286dacb48764ba8f485527d6cbbc5aa93b9f1958b877b1277434a579e78aaa7",
+          "sourceSize": [
+            1328,
+            880
+          ]
+        },
+        {
+          "pose": "victory",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerSword\\victory.png",
+          "sha256": "acc24c12f5b6247ef8a27a9a8160e03a24ae76e2380958f4f5fb935c8bf4f461",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DucFeuerBat",
+      "look": "Feuer",
+      "weapon": "Bat",
+      "label": "Incendio · Terremoto",
+      "directory": "duc-varianten-v1/DucFeuerBat/",
+      "poses": [
+        "idle",
+        "windup",
+        "attack",
+        "heavy_windup",
+        "heavy_attack",
+        "hurt",
+        "guard",
+        "weakened",
+        "enraged",
+        "flee",
+        "surrender",
+        "defeated",
+        "victory"
+      ],
+      "sourcePoses": [
+        {
+          "pose": "idle",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerBat\\idle.png",
+          "sha256": "888f673faa62cf507a9358aec73cf79491d6a1437f34614fe35165daf8a82a62",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerBat\\windup.png",
+          "sha256": "89d31e7cb6950e33719fd673227216ad7772c963fe7b167459a1ed2f3eb8f5a8",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerBat\\attack.png",
+          "sha256": "c541d8ce12ddbc29d36b117dfcde70bff5aa27d4e600f807b1a0c3dd3911651b",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerBat\\heavy_windup.png",
+          "sha256": "6a60935d36c7815adcb6e225e1e4ef694cb85f161f97624257cb638c26bcaf35",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerBat\\heavy_attack.png",
+          "sha256": "2ae01d0293d6836bf6082e23e76434b4520c007a298dbe2ffa48fc523aa0f6c5",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "hurt",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerBat\\hurt.png",
+          "sha256": "1800d415451d0b1cc4be1a928e32d6cde9e00322728beb2ec1c394750d9f579a",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "guard",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerBat\\guard.png",
+          "sha256": "e474ca6ca64d2ed2d042735f7214dd0ed192f38a72f693547bf7b48eb6120aca",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "weakened",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerBat\\weakened.png",
+          "sha256": "689f95eea908132a5e7d27e696ff2b3c706f3ba9a39cfb0e7a0ac4a675625c5a",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "enraged",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerBat\\enraged.png",
+          "sha256": "b073cdc6e4d835c952e1ec78dbcd6ca4e1179052b03b2190f39a5b6a9a7b753b",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "flee",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerBat\\flee.png",
+          "sha256": "115ad0ca98b3263348a58fb1cf35df3c7e8d4678e4084094ce80ab7edfba253f",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "surrender",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerBat\\surrender.png",
+          "sha256": "5680990c09897c4a7791e8ebc8bf13a8bb418c7b81dd4db355be291adc263aff",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "defeated",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerBat\\defeated.png",
+          "sha256": "9286dacb48764ba8f485527d6cbbc5aa93b9f1958b877b1277434a579e78aaa7",
+          "sourceSize": [
+            1328,
+            880
+          ]
+        },
+        {
+          "pose": "victory",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerBat\\victory.png",
+          "sha256": "7213aa75d14bfc57dfbe3df1e14e428b692d9e8c1af22770774712dfbffd2b01",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DucFeuerKnife",
+      "look": "Feuer",
+      "weapon": "Knife",
+      "label": "Incendio · Sussurro",
+      "directory": "duc-varianten-v1/DucFeuerKnife/",
+      "poses": [
+        "idle",
+        "windup",
+        "attack",
+        "heavy_windup",
+        "heavy_attack",
+        "hurt",
+        "guard",
+        "weakened",
+        "enraged",
+        "flee",
+        "surrender",
+        "defeated",
+        "victory"
+      ],
+      "sourcePoses": [
+        {
+          "pose": "idle",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerKnife\\idle.png",
+          "sha256": "06fdc5c99cfef8170bd6634ce0a12954de47828f5dad6e45eb97cdd3b087a754",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerKnife\\windup.png",
+          "sha256": "2870d8ff35ba48334bcdbd000850f126dc3f70853734a68523322987cbde8d05",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerKnife\\attack.png",
+          "sha256": "81b26fbe0c5cea3ff47afc7290490fce07aeeb5d386fe1a2ba8664f7ce2c5c40",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerKnife\\heavy_windup.png",
+          "sha256": "35f9f590c5df6cbe194c9d533b660862b80c446241c3c90d93fbcaf74194c7cd",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerKnife\\heavy_attack.png",
+          "sha256": "92bcaf4fe2315e5a7cc33ad1aacc5f11de1b5d597b3272e74430a09e3fe1a463",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "hurt",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerKnife\\hurt.png",
+          "sha256": "b048bedfba1c9b40aa43241d768a2b87c15e1825df9d7d58cc8eec07c2ecf656",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "guard",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerKnife\\guard.png",
+          "sha256": "050f8856f557d8193240a50a1043bbb06f6ff4b99a43a7cdd1684950ca4ba138",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "weakened",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerKnife\\weakened.png",
+          "sha256": "c2d3c6f76be167f9cecffc0f62526aa192b234a1be59d1b2870c49b3450ac6e0",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "enraged",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerKnife\\enraged.png",
+          "sha256": "7b396302a4f37bbf2020eb4854f7769a3eca8f3dcb7142224fb1b111be763fe5",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "flee",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerKnife\\flee.png",
+          "sha256": "3cf9f1b60e390f779614d77479faba7df5af00f326fdaaab7eec1ce05ea0d32e",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "surrender",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerKnife\\surrender.png",
+          "sha256": "5e5d433aa9d3efe3e34735d334aaf6988994b7b720a201fb185330e82e6dc6e9",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "defeated",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerKnife\\defeated.png",
+          "sha256": "9286dacb48764ba8f485527d6cbbc5aa93b9f1958b877b1277434a579e78aaa7",
+          "sourceSize": [
+            1328,
+            880
+          ]
+        },
+        {
+          "pose": "victory",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerKnife\\victory.png",
+          "sha256": "19dd1f50403b28071130a74a470ef7cec3e75de063d8ee673abc91294453fb2d",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DucFeuerSpear",
+      "look": "Feuer",
+      "weapon": "Spear",
+      "label": "Incendio · Le Large",
+      "directory": "duc-varianten-v1/DucFeuerSpear/",
+      "poses": [
+        "idle",
+        "windup",
+        "attack",
+        "heavy_windup",
+        "heavy_attack",
+        "hurt",
+        "guard",
+        "weakened",
+        "enraged",
+        "flee",
+        "surrender",
+        "defeated",
+        "victory"
+      ],
+      "sourcePoses": [
+        {
+          "pose": "idle",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerSpear\\idle.png",
+          "sha256": "638d684bbc0def69277544ceac2bc6ef4a2efa99d0e7ba572b9d939783b03732",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerSpear\\windup.png",
+          "sha256": "45883b9cbbb069d13639a340a7aa6515cc38b255b6181d70f3758e2bbc00e1a6",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerSpear\\attack.png",
+          "sha256": "81523d465c961aef8d12aba417be8b10bab914f1c376d7897bc5d20c8b56a778",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerSpear\\heavy_windup.png",
+          "sha256": "8b747ceab90508bb6078a486680670297420f9715af76ef2ff579c0f3a13b7e8",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerSpear\\heavy_attack.png",
+          "sha256": "59018f2bb7e0ec2dc6af0dcb43f773bad33529e39bc283a5d764cfff8f55fa30",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "hurt",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerSpear\\hurt.png",
+          "sha256": "91c5be44324d49819279f52279ac9a825891b0d817715c786a33a47e632a75d1",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "guard",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerSpear\\guard.png",
+          "sha256": "b386e18c3d0a6c8b4f5c97871881e772c864fe0ee0c955c5ec381d2deda150dd",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "weakened",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerSpear\\weakened.png",
+          "sha256": "9d02eba1b299e24553d414e0d18ac4b7dc113f5381b883d175f09d6e7e93666c",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "enraged",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerSpear\\enraged.png",
+          "sha256": "32106f7724ae56064a703b6460f3cd24b13a00ab75fab9503d3fd218244e565f",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "flee",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerSpear\\flee.png",
+          "sha256": "ed85533664757e25267df9938e1bd060e9e0ea7a3ea6f8bb03d38f2274c8d691",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "surrender",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerSpear\\surrender.png",
+          "sha256": "01eb67c1cda4d97400ae82b25c6a4ff432ce332fdf858076e5bcffa3473241f5",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "defeated",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerSpear\\defeated.png",
+          "sha256": "9286dacb48764ba8f485527d6cbbc5aa93b9f1958b877b1277434a579e78aaa7",
+          "sourceSize": [
+            1328,
+            880
+          ]
+        },
+        {
+          "pose": "victory",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerSpear\\victory.png",
+          "sha256": "e0f3461e4b15e326fc2681a001942653ec714bcb66c5ac50771bf72ec8a78131",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DucFeuerGun",
+      "look": "Feuer",
+      "weapon": "Gun",
+      "label": "Incendio · Gemelli",
+      "directory": "duc-varianten-v1/DucFeuerGun/",
+      "poses": [
+        "idle",
+        "windup",
+        "attack",
+        "heavy_windup",
+        "heavy_attack",
+        "hurt",
+        "guard",
+        "weakened",
+        "enraged",
+        "flee",
+        "surrender",
+        "defeated",
+        "victory"
+      ],
+      "sourcePoses": [
+        {
+          "pose": "idle",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerGun\\idle.png",
+          "sha256": "46e95d056eac82fd992e12718c077b6dbbb1b17660bedfadb9b32ed598642272",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerGun\\windup.png",
+          "sha256": "666766a504b616d5b2264f3abc49429a1f807e309dde8c8cd5e6065c72acb918",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerGun\\attack.png",
+          "sha256": "adaddc3f9287e24f8e9d78a7d95330275d3011d4fb5dd47842c3c914c2ce4db9",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerGun\\heavy_windup.png",
+          "sha256": "91375eea029bef5a1f6575b742d4a032f43c5e6fefd46a2411da20b1b24bd4d0",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerGun\\heavy_attack.png",
+          "sha256": "420d3386723ac484bbba0465b660afb835f034158b80bfd0af93e52c36238443",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "hurt",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerGun\\hurt.png",
+          "sha256": "22fc445cf48d649090121396c8d21902132672ae0e5da08765d78d39cf5f0bec",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "guard",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerGun\\guard.png",
+          "sha256": "5343107c89efded4bd2ab3798d50ef4614e12d09ddc334335e4fbf0dcee10516",
+          "sourceSize": [
+            1104,
+            1104
+          ]
+        },
+        {
+          "pose": "weakened",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerGun\\weakened.png",
+          "sha256": "4c5f924008ebfda5520dea6c3aef49d0e2f2f8de82b850f036c33c4fd1040a3b",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "enraged",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerGun\\enraged.png",
+          "sha256": "a09a822eb55d2afadb022e03f2d1951faee9bcf7e3a8930166a92caf17751ead",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "flee",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerGun\\flee.png",
+          "sha256": "995261588839222fa94f0c779cc1cea3e988652f5c932fc119a3dfca8e48c4b0",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "surrender",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerGun\\surrender.png",
+          "sha256": "33cf9890150645c6659fc7d1ddabf5c2dbd95f1f3ba5fca677506206d77f24f6",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "defeated",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerGun\\defeated.png",
+          "sha256": "9286dacb48764ba8f485527d6cbbc5aa93b9f1958b877b1277434a579e78aaa7",
+          "sourceSize": [
+            1328,
+            880
+          ]
+        },
+        {
+          "pose": "victory",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerGun\\victory.png",
+          "sha256": "98ef7bcfdd2c05fb28364aaa7274e432baa593c007fabf3014bc1f5dc43ba788",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DucLuftSword",
+      "look": "Luft",
+      "weapon": "Sword",
+      "label": "Zéphyr · Riposte",
+      "directory": "duc-varianten-v1/DucLuftSword/",
+      "poses": [
+        "idle",
+        "windup",
+        "attack",
+        "heavy_windup",
+        "heavy_attack",
+        "hurt",
+        "guard",
+        "weakened",
+        "enraged",
+        "flee",
+        "surrender",
+        "defeated",
+        "victory"
+      ],
+      "sourcePoses": [
+        {
+          "pose": "idle",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftSword\\idle.png",
+          "sha256": "a52ab2b73cdd5d49d094ea6f30655058c2bad0b4af029f11a5ffcd18ae3539a1",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftSword\\windup.png",
+          "sha256": "e4a73a37db76e048d4b150c0c0ce61008bddf8ee08fe568ee8d4c3462c913e31",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftSword\\attack.png",
+          "sha256": "28cb2c69fec6a0345624e5681c3a3c2c87deeaf980c1b309845c17efa743eb6e",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftSword\\heavy_windup.png",
+          "sha256": "c91299daf92ceff2ad769b34e7395076fcf84a6aa65c13f07f14f09b1657ac36",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftSword\\heavy_attack.png",
+          "sha256": "6d88cba371f48364862cf5c58a390e919dbea75dd521054c1adfea242bf0c633",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "hurt",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftSword\\hurt.png",
+          "sha256": "8f85400cb068d09e04e846fd715717863ed59060b0c064c0a928f7873d1c1b7a",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "guard",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftSword\\guard.png",
+          "sha256": "7c0b6f801314fa9f0af3df3683f984bd4f0cc04d2dbf2ae750df99c08051012e",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "weakened",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftSword\\weakened.png",
+          "sha256": "0a75acab1a54d17ae35063c338d770f02fadb586d6c932e85f6c0936627589bb",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "enraged",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftSword\\enraged.png",
+          "sha256": "d06d02c24d64d67d8aaeaa4fa6d8e7d4a0208ff00e00e39c570ebb90be30e6e9",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "flee",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftSword\\flee.png",
+          "sha256": "646f19d16ad75eb2979e4090d7fb1e4a95126c471a0948bb82e15e3f7cb4c3a1",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "surrender",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftSword\\surrender.png",
+          "sha256": "0cf7252ad91eba9fecd39a3bf264034a52b98b71f04178ede4396fc184004c26",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "defeated",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftSword\\defeated.png",
+          "sha256": "5e62631a6bedf0632aab0b46df33837042f9098ce086b9747a72fdc4d8bb4505",
+          "sourceSize": [
+            1328,
+            880
+          ]
+        },
+        {
+          "pose": "victory",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftSword\\victory.png",
+          "sha256": "a04006089a34676c701de64812fc0036613fe2b988cd4f36fbc126ff08395b71",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DucLuftBat",
+      "look": "Luft",
+      "weapon": "Bat",
+      "label": "Zéphyr · Terremoto",
+      "directory": "duc-varianten-v1/DucLuftBat/",
+      "poses": [
+        "idle",
+        "windup",
+        "attack",
+        "heavy_windup",
+        "heavy_attack",
+        "hurt",
+        "guard",
+        "weakened",
+        "enraged",
+        "flee",
+        "surrender",
+        "defeated",
+        "victory"
+      ],
+      "sourcePoses": [
+        {
+          "pose": "idle",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftBat\\idle.png",
+          "sha256": "d3cf43171fdebfdcebf3152a62a930c1f1d30a81301c98068ef5cc8c2345b27e",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftBat\\windup.png",
+          "sha256": "c76f5209f440fae4fb71e94607596c94ec284add8185e97b72b736d51544c858",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftBat\\attack.png",
+          "sha256": "c95788ce2679ddc8f03bc6b09c8e42a0dedf17055924169cbb82f894b128ecad",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftBat\\heavy_windup.png",
+          "sha256": "c80f7da8f21a7e1285f1078ffc8fd772dcece27e67c78c3abb9c3429bbfdd7f1",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftBat\\heavy_attack.png",
+          "sha256": "0fd2f361d46002a1d33091d2157ccbc06cb21e07f5bf5a6fa389f9d227302539",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "hurt",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftBat\\hurt.png",
+          "sha256": "eb79a6a105f33634054f0bcadddd96a1ff09b3801f7d7e9349a03cb634a28046",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "guard",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftBat\\guard.png",
+          "sha256": "4815632862d40dab042b2f0f6217020de0f7e772edc0944451845967934dc725",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "weakened",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftBat\\weakened.png",
+          "sha256": "0411fcf8485b94e74cf554d27c5fe15c634538664f9a249e61b21fd615633318",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "enraged",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftBat\\enraged.png",
+          "sha256": "0de15071009021423022d19b2fa6173ba8f29da13fe82078e13e23785acc2be9",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "flee",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftBat\\flee.png",
+          "sha256": "f10bdef4565a0a2cbdb43ee9477888d766d749e67be81b729fba150f667873eb",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "surrender",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftBat\\surrender.png",
+          "sha256": "2bb363a2e4acc773e9974bd2a091bbf045deef854fbe6622a605714dd2dc483a",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "defeated",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftBat\\defeated.png",
+          "sha256": "5e62631a6bedf0632aab0b46df33837042f9098ce086b9747a72fdc4d8bb4505",
+          "sourceSize": [
+            1328,
+            880
+          ]
+        },
+        {
+          "pose": "victory",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftBat\\victory.png",
+          "sha256": "476585d8502d4b5721d94afbc362cbeb23e12f671c0dd99dea838d305de2c0cf",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DucLuftKnife",
+      "look": "Luft",
+      "weapon": "Knife",
+      "label": "Zéphyr · Sussurro",
+      "directory": "duc-varianten-v1/DucLuftKnife/",
+      "poses": [
+        "idle",
+        "windup",
+        "attack",
+        "heavy_windup",
+        "heavy_attack",
+        "hurt",
+        "guard",
+        "weakened",
+        "enraged",
+        "flee",
+        "surrender",
+        "defeated",
+        "victory"
+      ],
+      "sourcePoses": [
+        {
+          "pose": "idle",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftKnife\\idle.png",
+          "sha256": "330214d9b6cdd9ec1dbaa1f0955a5c205466ebee28705694372eb3040a0bd7d0",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftKnife\\windup.png",
+          "sha256": "3f3a278843dd6043053324f918bf6e118ea031b23e9e1a634fa51adfc14c3e23",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftKnife\\attack.png",
+          "sha256": "49fb841af8c41def795ea0c9b7543d4d40dd02fbaed05e09217c70e9e200ba62",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftKnife\\heavy_windup.png",
+          "sha256": "d5ce3cc25d9ba01c5d4e8e7b51597d697223e58291c4db6bdaca5437b5deeb51",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftKnife\\heavy_attack.png",
+          "sha256": "d7532906e3d8a928c04d722903752db29b0d4a808da90f91bfee8cda92273636",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "hurt",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftKnife\\hurt.png",
+          "sha256": "943468cac5561a3cb88abf2b670f41b7429e92f9890bb405428d1b25eafeaab7",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "guard",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftKnife\\guard.png",
+          "sha256": "bf48265c61fc5f2852e6ecb67719425a5972bf85fddaf81a77586c4ae6ef13a0",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "weakened",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftKnife\\weakened.png",
+          "sha256": "ba8b7efb6ee956b13fac2d33cddd237da484c04dea096964ac1dee62bc7f128d",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "enraged",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftKnife\\enraged.png",
+          "sha256": "8f3bcdefecf46f244116a7aa7d4c9add5c7fcfebc121b7c751ca5fcf85b693b2",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "flee",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftKnife\\flee.png",
+          "sha256": "9a8977172d12d26b68f3d8ce288622070fd58f656ffa72ba38ac427d4d27bf5f",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "surrender",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftKnife\\surrender.png",
+          "sha256": "bcad6b72bbd01baf6842581964e023685aa705ec06368db57332fc369693330d",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "defeated",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftKnife\\defeated.png",
+          "sha256": "5e62631a6bedf0632aab0b46df33837042f9098ce086b9747a72fdc4d8bb4505",
+          "sourceSize": [
+            1328,
+            880
+          ]
+        },
+        {
+          "pose": "victory",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftKnife\\victory.png",
+          "sha256": "e60544982468cb65f9c8fb904572520a85dc259755747874630d26ddecf38b0e",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DucLuftSpear",
+      "look": "Luft",
+      "weapon": "Spear",
+      "label": "Zéphyr · Le Large",
+      "directory": "duc-varianten-v1/DucLuftSpear/",
+      "poses": [
+        "idle",
+        "windup",
+        "attack",
+        "heavy_windup",
+        "heavy_attack",
+        "hurt",
+        "guard",
+        "weakened",
+        "enraged",
+        "flee",
+        "surrender",
+        "defeated",
+        "victory"
+      ],
+      "sourcePoses": [
+        {
+          "pose": "idle",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftSpear\\idle.png",
+          "sha256": "95e7399e182d221387cb3ca2a87f3c12f411681ad9a512fdd51b0529c6275206",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftSpear\\windup.png",
+          "sha256": "686b83cdcc35a2419b6c3f4d8f2b9de679861e6f8c54c0f079780695062de4b6",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftSpear\\attack.png",
+          "sha256": "6af4836edc15308e15cc8acd928ddc07e149089cb2b114cd97ce0bf81e94b4e9",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftSpear\\heavy_windup.png",
+          "sha256": "b0a7394dec8ffed2fe3bbd6807dada08edcc294935ee29968d26077759f5a795",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftSpear\\heavy_attack.png",
+          "sha256": "1156bc57bd06606c421ed3d7b43824991dbd653411980e6fc0e39cc3c4866c88",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "hurt",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftSpear\\hurt.png",
+          "sha256": "53b3fd64754ba448c602397a9eb4861db534abe393e513757a5451bf1f682777",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "guard",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftSpear\\guard.png",
+          "sha256": "2d38bec75d875974d8982a516f89284410cbdde3d6b4e1dd569428a22084a45c",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "weakened",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftSpear\\weakened.png",
+          "sha256": "3f069cafa624638a44cf7e177f19b4ac8961f3b6b3938f4f14c015ad36ca6d67",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "enraged",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftSpear\\enraged.png",
+          "sha256": "544601a23d179a4a89dc400124320dcb4a85118f24c4be33244bad4cf8964548",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "flee",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftSpear\\flee.png",
+          "sha256": "f0bc7b7e042799aad9104794d3f5f7387772d2827579b949f908734beb9c600f",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "surrender",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftSpear\\surrender.png",
+          "sha256": "db05d8d2a878cb7740f36cf4de9e8620c7f9f4091c04eca2effacfe5e3a217e5",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "defeated",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftSpear\\defeated.png",
+          "sha256": "5e62631a6bedf0632aab0b46df33837042f9098ce086b9747a72fdc4d8bb4505",
+          "sourceSize": [
+            1328,
+            880
+          ]
+        },
+        {
+          "pose": "victory",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftSpear\\victory.png",
+          "sha256": "f9086d2c8b17300ec1d52765843d286cd3dbed9928d08a4c410f152123b0f941",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DucLuftGun",
+      "look": "Luft",
+      "weapon": "Gun",
+      "label": "Zéphyr · Gemelli",
+      "directory": "duc-varianten-v1/DucLuftGun/",
+      "poses": [
+        "idle",
+        "windup",
+        "attack",
+        "heavy_windup",
+        "heavy_attack",
+        "hurt",
+        "guard",
+        "weakened",
+        "enraged",
+        "flee",
+        "surrender",
+        "defeated",
+        "victory"
+      ],
+      "sourcePoses": [
+        {
+          "pose": "idle",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftGun\\idle.png",
+          "sha256": "1c1940185ac346a742ee4ad52f15458390bb458777c5391dca2832476669ffc7",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftGun\\windup.png",
+          "sha256": "fdf4f54dbef92947b53135bc4a1f4fdf71b469df67f41fa3ea53426b779bd1bc",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftGun\\attack.png",
+          "sha256": "d9e01c9edb2a7c74013b3a721efcd1d172c3ea8b0a62b22d5e1c24a0900a5feb",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftGun\\heavy_windup.png",
+          "sha256": "78f76a1b817b3b33924f8435a644817fcceaa6f7ab956c51aab15c9fd02d2c79",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftGun\\heavy_attack.png",
+          "sha256": "4aeadb486974f1342836575b009916acdf239e9678f64bfb4f4b24e6f74428f2",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "hurt",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftGun\\hurt.png",
+          "sha256": "d8d1a6d20772f23415bc663826c0e2666d0bae427e3358038b0c54280b659e5f",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "guard",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftGun\\guard.png",
+          "sha256": "0734e876cec00facb851b342c3b02360970bdd143750f80cf0b33547b7e35149",
+          "sourceSize": [
+            1104,
+            1104
+          ]
+        },
+        {
+          "pose": "weakened",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftGun\\weakened.png",
+          "sha256": "4292d28467b8ad60a7180ac705de0b714459c26c4288b12f601e32b125fe0873",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "enraged",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftGun\\enraged.png",
+          "sha256": "8bcc6a86d30e2f2a98c7c94aa273c7cffb0d072c31ac2fd369b595cc49a17a03",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "flee",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftGun\\flee.png",
+          "sha256": "e10b5166255995c944abc9f10eccde920d2223823e14a4a67ad01236938b935b",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "surrender",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftGun\\surrender.png",
+          "sha256": "b37cf9dff20198d4c93cb7ecc3e20ef39b05d5b3694cfb6ff2a04e671f5ed3ab",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "defeated",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftGun\\defeated.png",
+          "sha256": "5e62631a6bedf0632aab0b46df33837042f9098ce086b9747a72fdc4d8bb4505",
+          "sourceSize": [
+            1328,
+            880
+          ]
+        },
+        {
+          "pose": "victory",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftGun\\victory.png",
+          "sha256": "1202f9eddcb1b3fa9f202bbe0b92a06de26797ff1d25151e155cd6c4141e41a4",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DucCyberSword",
+      "look": "Cyber",
+      "weapon": "Sword",
+      "label": "Citadelle · Riposte",
+      "directory": "duc-varianten-v1/DucCyberSword/",
+      "poses": [
+        "idle",
+        "windup",
+        "attack",
+        "heavy_windup",
+        "heavy_attack",
+        "hurt",
+        "guard",
+        "weakened",
+        "enraged",
+        "flee",
+        "surrender",
+        "defeated",
+        "victory"
+      ],
+      "sourcePoses": [
+        {
+          "pose": "idle",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSword\\idle.png",
+          "sha256": "5e99add4fd585316efed2bf1fbc54b59b86b889b4601d323c098efac6bc1f973",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSword\\windup.png",
+          "sha256": "1ab15aad127ce59d8ef503698dbffee8037e03fc9e691fa3553c2f012e1d0a8f",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSword\\attack.png",
+          "sha256": "7988c390225853ba94ea18e942ed215a15769ca36a615ead682c2c0cc4643e27",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSword\\heavy_windup.png",
+          "sha256": "144d0eaa810fce65a9dd0877afa6eee159e898b93c7311540664f49db3deae20",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSword\\heavy_attack.png",
+          "sha256": "39ef65f86fb02d726ce52ed4f2c1749b928fb4c60417e1933c5ea25866d3b14c",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "hurt",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSword\\hurt.png",
+          "sha256": "feaeb4e1313c3ff01a1a593f73473de2549c6d7d6c7b3dec89e5257f076da6be",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "guard",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSword\\guard.png",
+          "sha256": "832d060f50fce9fc01525a875cf78b1550e20e08f2c8e4a65ae4d50dc422d4df",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "weakened",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSword\\weakened.png",
+          "sha256": "b6797c7aae63282e6a1afbc0439a70fb2304db60b21baddbf825df8604b3bb43",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "enraged",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSword\\enraged.png",
+          "sha256": "3024b1fec100a65f0faaa010aa3cec5d31222e5563b23f2fc98b44287b2d07bb",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "flee",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSword\\flee.png",
+          "sha256": "3a89dd2ab67663b7346794e6bb117f6570500a69d9850a745770c33d9f569290",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "surrender",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSword\\surrender.png",
+          "sha256": "bed3acd80e1fc041154963df72b88614d3d8779ffabb856e4c88d527f847c454",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "defeated",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSword\\defeated.png",
+          "sha256": "30df3667a624691146ea6f043f5865426c6af5fd0c730de8a777f73d4213f88a",
+          "sourceSize": [
+            1328,
+            880
+          ]
+        },
+        {
+          "pose": "victory",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSword\\victory.png",
+          "sha256": "de5c80f08c06a846890897c6971b91375ab77bd4353b4a0c8f8e1e33789a5c71",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DucCyberBat",
+      "look": "Cyber",
+      "weapon": "Bat",
+      "label": "Citadelle · Terremoto",
+      "directory": "duc-varianten-v1/DucCyberBat/",
+      "poses": [
+        "idle",
+        "windup",
+        "attack",
+        "heavy_windup",
+        "heavy_attack",
+        "hurt",
+        "guard",
+        "weakened",
+        "enraged",
+        "flee",
+        "surrender",
+        "defeated",
+        "victory"
+      ],
+      "sourcePoses": [
+        {
+          "pose": "idle",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberBat\\idle.png",
+          "sha256": "872bf5fbabad60e5f2cd242e306c7a3ba9d3d6eac8414887d9fecb509832f60b",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberBat\\windup.png",
+          "sha256": "ee51a22188d77a06601a48b73a82b3622aec1a1869e50fb838eb62c0fbff5484",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberBat\\attack.png",
+          "sha256": "0fb386aad4cea3c9c2184f05f3e22785e7abdb666e3d600cc7a44801d4320e02",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberBat\\heavy_windup.png",
+          "sha256": "39c32574a88850009869f203b93caaf1ef94091e59a7762bcb40029ec3b23360",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberBat\\heavy_attack.png",
+          "sha256": "8a1b19e7202e7f0c1d5985add5da432d628e48180558090ff57a81ecd38755b4",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "hurt",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberBat\\hurt.png",
+          "sha256": "19d110368da491df1fc186fdc00da56780fee6b957c774425000c7853a76bf28",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "guard",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberBat\\guard.png",
+          "sha256": "76ac9084a63e3f0b33156e1fd6eb49121c73aa172b46a100c4216ed9ba9a99ad",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "weakened",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberBat\\weakened.png",
+          "sha256": "3aded9d2f3942053e5b1c1d859893c3e57261cf2253866940fda944185937e52",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "enraged",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberBat\\enraged.png",
+          "sha256": "820d5168a8641f923d146d5f18710778fdb4ed7693367fa73578439fd48fa8e8",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "flee",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberBat\\flee.png",
+          "sha256": "a7476a8622d8e629c276b957cafd6aa0ea2a2a50db5d879c5071b877f38a7df6",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "surrender",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberBat\\surrender.png",
+          "sha256": "79d5f624195cc291c2db9d76021704e2c617f1e7497af3dbda52b0d0ba75ee90",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "defeated",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberBat\\defeated.png",
+          "sha256": "30df3667a624691146ea6f043f5865426c6af5fd0c730de8a777f73d4213f88a",
+          "sourceSize": [
+            1328,
+            880
+          ]
+        },
+        {
+          "pose": "victory",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberBat\\victory.png",
+          "sha256": "88749b9652cfd25f343eeb0daa0845d9d2f0bee6e71e6bf981fb822e7272d3ad",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DucCyberKnife",
+      "look": "Cyber",
+      "weapon": "Knife",
+      "label": "Citadelle · Sussurro",
+      "directory": "duc-varianten-v1/DucCyberKnife/",
+      "poses": [
+        "idle",
+        "windup",
+        "attack",
+        "heavy_windup",
+        "heavy_attack",
+        "hurt",
+        "guard",
+        "weakened",
+        "enraged",
+        "flee",
+        "surrender",
+        "defeated",
+        "victory"
+      ],
+      "sourcePoses": [
+        {
+          "pose": "idle",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberKnife\\idle.png",
+          "sha256": "541ef8b86c06af5661aeeb1d97f6308fed48f4d87c4e26fac9a3202f17c21bb6",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberKnife\\windup.png",
+          "sha256": "e7766f3428a2103ce6e61dc1f79f005f99d4024f847fc300ab298e0b00e0604f",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberKnife\\attack.png",
+          "sha256": "9a3ab00d7d46382020d2b99f140717b2e33615c3a1e12f2e5acbffa8736e888d",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberKnife\\heavy_windup.png",
+          "sha256": "19c6f53e7ec0c644b39db20e1936ff57d36e16cbf4ea25b7a9139ce207b7b263",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberKnife\\heavy_attack.png",
+          "sha256": "fe0241f01d398055b46bed7c96baf394057783aeead8535c7d9dbf83c43f6623",
+          "sourceSize": [
+            1104,
+            1104
+          ]
+        },
+        {
+          "pose": "hurt",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberKnife\\hurt.png",
+          "sha256": "f9c2b0a75eba663c653d68118834a4c1bf854f1cf026bfc82bf6b7e88b372686",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "guard",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberKnife\\guard.png",
+          "sha256": "fc99f7270740fac10cc6e30bbf0fb7e9e94c1c8088a88f5877846e6b80c05831",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "weakened",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberKnife\\weakened.png",
+          "sha256": "b0408279efdcd044acf16b1b64972bd015aaec2317a62187a328128ce5117d5f",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "enraged",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberKnife\\enraged.png",
+          "sha256": "775ce7828311e6f659b42a4dcd76d888b2d439c6fa9a9ee3c25e58911f746e6a",
+          "sourceSize": [
+            1104,
+            1104
+          ]
+        },
+        {
+          "pose": "flee",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberKnife\\flee.png",
+          "sha256": "67626022da6dd43476009288fc0ba12de094b44310a696e375118a7d984e8cd1",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "surrender",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberKnife\\surrender.png",
+          "sha256": "10b144013a201814c0d7cc980266f9f7daa70ea3878bc622318ad5170e5e5786",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "defeated",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberKnife\\defeated.png",
+          "sha256": "30df3667a624691146ea6f043f5865426c6af5fd0c730de8a777f73d4213f88a",
+          "sourceSize": [
+            1328,
+            880
+          ]
+        },
+        {
+          "pose": "victory",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberKnife\\victory.png",
+          "sha256": "2cf44fccd38dd5f534481d1db330cf4dfeb88079a61f9b3414a6bd39bd601f66",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DucCyberSpear",
+      "look": "Cyber",
+      "weapon": "Spear",
+      "label": "Citadelle · Le Large",
+      "directory": "duc-varianten-v1/DucCyberSpear/",
+      "poses": [
+        "idle",
+        "windup",
+        "attack",
+        "heavy_windup",
+        "heavy_attack",
+        "hurt",
+        "guard",
+        "weakened",
+        "enraged",
+        "flee",
+        "surrender",
+        "defeated",
+        "victory"
+      ],
+      "sourcePoses": [
+        {
+          "pose": "idle",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSpear\\idle.png",
+          "sha256": "8f24262970e7cdde283ddd4e21572e32de98dd95eefe84316187757394b22263",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSpear\\windup.png",
+          "sha256": "13fb9c94184baa4c76a78c7e0f6530163936c84d43e7104868bb2ddddcb8f481",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSpear\\attack.png",
+          "sha256": "de7ab5a84838472421e01347ee62f2e9e87ac48951a2c6746a9ca408db716416",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSpear\\heavy_windup.png",
+          "sha256": "ca4bcc50dc89b1414b65850452ccc0ca7f1414fd766615803282e80fb7304ef5",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSpear\\heavy_attack.png",
+          "sha256": "3164af926bdcd20db6e5d7ac960c28db779c388102362e8002a18deb27cdee70",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "hurt",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSpear\\hurt.png",
+          "sha256": "df5885d7620efcfb7546e21d70ef6d5cb9190e1210af897906889800bc81ad2d",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "guard",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSpear\\guard.png",
+          "sha256": "402f5517ea7800dccb62dae567425bfa21abf0d07faa3c7ad3e953d4963dc09a",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "weakened",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSpear\\weakened.png",
+          "sha256": "92a5a6ecbe92ef5dc6c8cffd48056df104c45edd026926f19c25969d31002618",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "enraged",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSpear\\enraged.png",
+          "sha256": "e362560e5bd91d93dd1dfb0feff0dd2338b9992200b0c77febd05bef0a473008",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "flee",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSpear\\flee.png",
+          "sha256": "a4ca9fe612ee9ddb0cd80f40202fdaca7a454b46041be7220f0afeed8fca9e89",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "surrender",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSpear\\surrender.png",
+          "sha256": "68b0e8a5089d39d9808c10224899f202d284b87fb31d3489e02ca297436ecab2",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "defeated",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSpear\\defeated.png",
+          "sha256": "30df3667a624691146ea6f043f5865426c6af5fd0c730de8a777f73d4213f88a",
+          "sourceSize": [
+            1328,
+            880
+          ]
+        },
+        {
+          "pose": "victory",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSpear\\victory.png",
+          "sha256": "9396cf420a7fe2bf3597d8d3b098377cc40b3ec27b10cf254e882d3e1e9817d7",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DucCyberGun",
+      "look": "Cyber",
+      "weapon": "Gun",
+      "label": "Citadelle · Gemelli",
+      "directory": "duc-varianten-v1/DucCyberGun/",
+      "poses": [
+        "idle",
+        "windup",
+        "attack",
+        "heavy_windup",
+        "heavy_attack",
+        "hurt",
+        "guard",
+        "weakened",
+        "enraged",
+        "flee",
+        "surrender",
+        "defeated",
+        "victory"
+      ],
+      "sourcePoses": [
+        {
+          "pose": "idle",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberGun\\idle.png",
+          "sha256": "2c0ff77705b718142c24c8240258656eaab527ec4eef2afe99921feddda58a4b",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberGun\\windup.png",
+          "sha256": "39aa8595f942cf0e1d4052d99000e616fc9ac587824ba162fd5e38a03e2b96b9",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberGun\\attack.png",
+          "sha256": "c0db3252bf7bd77939e3fe0fb11842e50db3c34add251c961c2198043372b905",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_windup",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberGun\\heavy_windup.png",
+          "sha256": "ab83e58d9b8482376ac73fc436ab7ec59af6603f2cba7b355abc2998f50c164f",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "heavy_attack",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberGun\\heavy_attack.png",
+          "sha256": "d99bf295c2e48d40cbb0bc2e02fdccf8ea6d10c6a43cff40552f9247b58dea10",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "hurt",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberGun\\hurt.png",
+          "sha256": "814ad4adcb91813f5b2787ce875a95e8821c89a2e060c04161f66aa589501ac7",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "guard",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberGun\\guard.png",
+          "sha256": "9114fef4003800489b76b9edf0aa03934bb15ccc5f317a4002bc89a5d4939d26",
+          "sourceSize": [
+            1104,
+            1104
+          ]
+        },
+        {
+          "pose": "weakened",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberGun\\weakened.png",
+          "sha256": "0fd933b8454da2020431d3d067002bcd209b28196af204b7bed98dd4b652f60a",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "enraged",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberGun\\enraged.png",
+          "sha256": "d0a0d4ffb29c3d049262578137932da847b5aabc94ec1ac906285c3644545c85",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "flee",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberGun\\flee.png",
+          "sha256": "c2b968f204f2acc70ffd28e67729e833d50f8921887e9cf3ef4a6065757dcf2f",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "surrender",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberGun\\surrender.png",
+          "sha256": "3d6559fff9421e706a80aba3fd9b3abe515aa41efc0e032a9b36388108309ffe",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        },
+        {
+          "pose": "defeated",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberGun\\defeated.png",
+          "sha256": "30df3667a624691146ea6f043f5865426c6af5fd0c730de8a777f73d4213f88a",
+          "sourceSize": [
+            1328,
+            880
+          ]
+        },
+        {
+          "pose": "victory",
+          "source": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberGun\\victory.png",
+          "sha256": "3b6bf666a28faa9b4a328bd4b0e793256972d872066e330574095781733adfa1",
+          "sourceSize": [
+            880,
+            1328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DucMaxwellSteelMop",
+      "look": "Maxwell",
+      "weapon": "SteelMop",
+      "label": "Mr. Maximum · Steel Mop",
+      "directory": "duc-varianten-v1/DucMaxwellSteelMop/",
+      "poses": [
+        "idle",
+        "windup",
+        "attack",
+        "heavy_windup",
+        "heavy_attack",
+        "hurt",
+        "guard",
+        "weakened",
+        "enraged",
+        "flee",
+        "surrender",
+        "defeated",
+        "victory"
+      ],
+      "sourcePoses": []
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "minicu_casting",
+ "titel": "Minicu: Casting Dialog-Sprite",
+ "hinweis": "Vorschlag: Variante 1, erstes Bild. Lange Haare und Latzhose wirken am sanftesten und sind am weitesten weg von Maxwell. Danach kommt der NPC-Satz mit 22 Posen.",
+ "items": [
+  {
+   "id": "1a",
+   "titel": "Variante 1a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_minicu\\1\\neutral.png",
+   "soll": "Lange Haare, Bart, Latzhose"
+  },
+  {
+   "id": "1b",
+   "titel": "Variante 1b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_minicu\\1\\neutral-1.png",
+   "soll": "Lange Haare, Bart, Latzhose"
+  },
+  {
+   "id": "2a",
+   "titel": "Variante 2a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_minicu\\2\\neutral.png",
+   "soll": "Rundes Gesicht, zu kleines T-Shirt"
+  },
+  {
+   "id": "2b",
+   "titel": "Variante 2b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_minicu\\2\\neutral-1.png",
+   "soll": "Rundes Gesicht, zu kleines T-Shirt"
+  },
+  {
+   "id": "3a",
+   "titel": "Variante 3a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_minicu\\3\\neutral.png",
+   "soll": "Locken, Lederschürze, Tau auf der Schulter"
+  },
+  {
+   "id": "3b",
+   "titel": "Variante 3b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_minicu\\3\\neutral-1.png",
+   "soll": "Locken, Lederschürze, Tau auf der Schulter"
+  }
+ ]
+}

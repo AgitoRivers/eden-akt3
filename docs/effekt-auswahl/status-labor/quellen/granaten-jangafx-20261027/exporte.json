@@ -1,0 +1,272 @@
+{
+  "version": 2,
+  "date": "2026-10-27",
+  "status": "Rohmaterial, technisch geprüft; Auswahl und Einbau offen",
+  "main_exports": [
+    {
+      "id": "aerial-explosion-2",
+      "title": "Feuerball → Rauch",
+      "app": "EmberGen",
+      "file": "aerial-explosion-2/aerial_explosion_2_render_all.png",
+      "width": 4096,
+      "height": 4096,
+      "mode": "RGBA",
+      "grid": [
+        8,
+        8
+      ],
+      "frames": 64,
+      "tile_size": [
+        512,
+        512
+      ],
+      "first_frame": 0,
+      "frame_stride": 1,
+      "timing_note": "Werte im Exportdialog; Vorschaugeschwindigkeit frei wählbar, noch kein Spiel-Timing.",
+      "uses": [
+        "Feuer"
+      ],
+      "note": "Kompakte Explosion. Glutfunken und Brandfleck werden später separat ergänzt.",
+      "bytes": 11912711,
+      "sha256": "89783d073a3e0105021167b23ddfa75dc1ef09d2d26b022486c100c6759c47f7",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "nonempty_frames": 62,
+      "distinct_frames": 63,
+      "integrated": false,
+      "approved": false,
+      "source_projects": [
+        {
+          "file": "aerial-explosion-2/aerial_explosion_2-original.ember",
+          "sha256": "25861bc8e3644726394f0f0d4c322e3b1d597b4917efdafc9e725393b8a2166c"
+        }
+      ]
+    },
+    {
+      "id": "artillery-explosion-1",
+      "title": "Bodenexplosion mit Staub",
+      "app": "EmberGen",
+      "file": "artillery-explosion-1/artillery_explosion_1_render_all.png",
+      "width": 4096,
+      "height": 4096,
+      "mode": "RGBA",
+      "grid": [
+        8,
+        8
+      ],
+      "frames": 64,
+      "tile_size": [
+        512,
+        512
+      ],
+      "first_frame": 0,
+      "frame_stride": 1,
+      "timing_note": "Werte im Exportdialog; Vorschaugeschwindigkeit frei wählbar, noch kein Spiel-Timing.",
+      "uses": [
+        "Feuer",
+        "Erschütterung",
+        "Splitter"
+      ],
+      "note": "Feuerkern, grauer Rauch und bodennaher Druck. Für reine Erschütterung muss der Feueranteil separat behandelt werden.",
+      "bytes": 12363939,
+      "sha256": "4b74ccdcd07f2f1e95e3bf0caa20697249f44a6644dccf6ffeb328c536573061",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "nonempty_frames": 63,
+      "distinct_frames": 64,
+      "integrated": false,
+      "approved": false,
+      "source_projects": [
+        {
+          "file": "artillery-explosion-1/artillery_explosion_1-original.ember",
+          "sha256": "d02471acb5bcdc65b67ed5a6dbd91680b5c74962d379c0c1fd13a71ae460cf90"
+        }
+      ]
+    },
+    {
+      "id": "smoke-shockwave-2",
+      "title": "Breite Rauchdruckwelle",
+      "app": "EmberGen",
+      "file": "smoke-shockwave-2/smoke_shockwave_2_render_all.png",
+      "width": 4096,
+      "height": 4096,
+      "mode": "RGBA",
+      "grid": [
+        8,
+        8
+      ],
+      "frames": 64,
+      "tile_size": [
+        512,
+        512
+      ],
+      "first_frame": 0,
+      "frame_stride": 1,
+      "timing_note": "Werte im Exportdialog; Vorschaugeschwindigkeit frei wählbar, noch kein Spiel-Timing.",
+      "uses": [
+        "Erschütterung",
+        "Splitter"
+      ],
+      "note": "Original ist blau/violett. Graue Vorschau entsättigt nur die Anzeige; die Rohdatei bleibt unverändert.",
+      "bytes": 26098255,
+      "sha256": "5de30077efad1e05f5345ea81a236dd77849f161eaac8600c20af12634efdc09",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "nonempty_frames": 62,
+      "distinct_frames": 63,
+      "integrated": false,
+      "approved": false,
+      "source_projects": [
+        {
+          "file": "smoke-shockwave-2/smoke_shockwave_2-original.ember",
+          "sha256": "5f5fc3948bd9e8d7a10c2a6117516a5429d3a72a38ce5431287095594a259de5"
+        }
+      ]
+    },
+    {
+      "id": "fountain",
+      "title": "Freier Wasserstrahl · bereinigt",
+      "app": "LiquiGen",
+      "file": "fountain/fountain-original_render_all_path_tracer_.png",
+      "width": 4096,
+      "height": 4096,
+      "mode": "RGBA",
+      "grid": [
+        8,
+        8
+      ],
+      "frames": 64,
+      "tile_size": [
+        512,
+        512
+      ],
+      "first_frame": 240,
+      "frame_stride": 4,
+      "timing_note": "Werte im Exportdialog; Vorschaugeschwindigkeit frei wählbar, noch kein Spiel-Timing.",
+      "uses": [
+        "Wasser",
+        "Reserve"
+      ],
+      "note": "Neu simuliert: beide Collider-Gruppen deaktiviert und ausgeblendet, Shapes Rendering = Ignore. Freier schmaler Fallstrahl; noch keine breite Granatenfontäne. Alter Export mit Hinderniskonturen aus der Hauptauswahl entfernt.",
+      "bytes": 2188702,
+      "sha256": "90695ebbb76b78d52ab0d083b5b05dc2a1a98d1bfa2f21124aec3647b374c0ed",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "nonempty_frames": 64,
+      "distinct_frames": 64,
+      "integrated": false,
+      "approved": false,
+      "source_projects": [
+        {
+          "file": "fountain/fountain-original.liquigen",
+          "sha256": "b718b9bf0fdc69ab25403a98968f5a5f4aa154cb8f1fa26e5156d46bd47dc393"
+        }
+      ]
+    },
+    {
+      "id": "toroidal-force",
+      "title": "Geschlossener Wasserring",
+      "app": "LiquiGen",
+      "file": "toroidal-force/$toroidal-force.png",
+      "width": 4096,
+      "height": 4096,
+      "mode": "RGBA",
+      "grid": [
+        8,
+        8
+      ],
+      "frames": 64,
+      "tile_size": [
+        512,
+        512
+      ],
+      "first_frame": 0,
+      "frame_stride": 1,
+      "timing_note": "Werte im Exportdialog; Vorschaugeschwindigkeit frei wählbar, noch kein Spiel-Timing.",
+      "uses": [
+        "Wasser",
+        "Reserve"
+      ],
+      "note": "Path-Tracer-Export mit Alphakanal. Geeignet für Ring, Schild und Aufbau; allein noch keine fertige Wassergranate.",
+      "bytes": 3790108,
+      "sha256": "7be89a3d74eb5aa15bea442047dab50556eb8abbf244704b1b2312eb12ec0e1e",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "nonempty_frames": 64,
+      "distinct_frames": 64,
+      "integrated": false,
+      "approved": false,
+      "source_projects": [
+        {
+          "file": "toroidal-force/toroidal_force-original.liquigen",
+          "sha256": "ea6d2cc3468255d7efc6c1447a50a032a91a0a9b452a08d0497b8edaa2832759"
+        }
+      ]
+    },
+    {
+      "id": "press-splash",
+      "title": "Verdichteter Wasser-Ausbruch",
+      "app": "LiquiGen",
+      "file": "press-splash/press_splash-original_render_all_path_tracer_.png",
+      "width": 4096,
+      "height": 4096,
+      "mode": "RGBA",
+      "grid": [
+        8,
+        8
+      ],
+      "frames": 64,
+      "tile_size": [
+        512,
+        512
+      ],
+      "first_frame": 0,
+      "frame_stride": 8,
+      "timing_note": "Werte im Exportdialog; Vorschaugeschwindigkeit frei wählbar, noch kein Spiel-Timing.",
+      "uses": [
+        "Wasser"
+      ],
+      "note": "Kugel wird zusammengedrückt und bricht breit aus. Hilfsgeometrie ausgeblendet. Vorlauf und Ausklang müssen für den Spieleffekt noch zugeschnitten werden.",
+      "bytes": 7316216,
+      "sha256": "b72b25f970b8057e8223af09828d4c0facefd5abfd76c5f7104d7f927c5e30f4",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "nonempty_frames": 64,
+      "distinct_frames": 64,
+      "integrated": false,
+      "approved": false,
+      "source_projects": [
+        {
+          "file": "press-splash/press_splash-original.liquigen",
+          "sha256": "8f60b2f1ee396eacb94b6e5eaf8401123500e27c4a3b28a69109dc32231dfa92"
+        }
+      ]
+    }
+  ],
+  "references": [
+    "aerial-explosion-2/aerial_explosion_2_render_all-2048.png",
+    "fountain/fountain-startup-reference.png",
+    "fountain/fountain_render_all_rasterizer_.png",
+    "press-splash/press-splash-startup-reference.png"
+  ],
+  "prepared_only": [
+    "smoke-shockwave",
+    "gushing"
+  ],
+  "existing_reuse": {
+    "compact_smoke": "../omerta-shockwave-v1/omerta-rauchdruck_render_all.png",
+    "note": "Bereits vorhandener Export, blau/violett, kein neuer Export dieser Serie."
+  }
+}

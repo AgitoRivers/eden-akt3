@@ -1,0 +1,16 @@
+{
+ "Luft_b": {
+  "urteil": "ok"
+ },
+ "Feuer_d": {
+  "urteil": "ok"
+ },
+ "Wasser_c": {
+  "urteil": "neu",
+  "notiz": "schlucht etwas heller"
+ },
+ "Erde_a": {
+  "notiz": "Granit frontal",
+  "urteil": "neu"
+ }
+}

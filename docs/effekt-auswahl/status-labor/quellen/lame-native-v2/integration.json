@@ -1,0 +1,34 @@
+{
+  "source": "X:\\AI\\Eden\\docs\\effekt-auswahl\\status-labor\\quellen\\lame-native-v2\\lame-native-v6.png",
+  "source_sha256": "d42d298dbaf0c5d9164e4dfab9de8233d2a84e12c652e670f14b306a9c362983",
+  "source_size": [
+    4096,
+    4096
+  ],
+  "source_frame_size": [
+    512,
+    512
+  ],
+  "preset": "Y:/JangaFX/LiquiGen/presets_1_0_0/wave_maker_3.liquigen",
+  "export_parameters": {
+    "first_frame": 200,
+    "frame_stride": 4,
+    "frames": 64,
+    "flipbook": [
+      8,
+      8
+    ],
+    "shapes_rendering": "Ignore",
+    "ground": "None",
+    "camera_yaw": 90,
+    "camera_fov": 15
+  },
+  "asset": "assets/lame-liquigen-v6.png",
+  "frame_size": [
+    512,
+    320
+  ],
+  "unique_frames": 64,
+  "processing": "Fixed crop y60:360, feather base and lateral margins, gentle channel balance, 0.28 px smoothing; native fluid movement and alpha retained. Linear frame blending in browser. No generated still image.",
+  "quality": "Native simulation study; camera retains a broad water front rather than a single isolated curling crest. Not yet artistically approved by Duc."
+}

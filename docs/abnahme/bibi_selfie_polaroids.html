@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><title>Bibis Polaroids</title>
+<link rel="stylesheet" href="../../client/plugins/eden-ui/eden-ui.css">
+<link rel="stylesheet" href="../../client/plugins/eden-mochis/eden-mochis.css">
+<style>body{margin:0;padding:32px;background:var(--flaeche);color:var(--perle);font-family:var(--f-ui);display:flex;flex-wrap:wrap;gap:48px}</style>
+</head><body>
+<!-- Vorschau der Field-Book-Selfies (Markup wie eden-mochis.js selfie()), 02.11.2026 -->
+<script>
+const T = {hund: ["he says hello. with his whole tongue", "help. i live in the straw now", "look who's a good boy 🐶 he's been licking my ear for an hour", "biscuit 1, bibi 0. he won by lying on me. i let him win. mostly."],
+           affe: ["no. no. it's MY phone", "photo by monsieur. i've been replaced", "he took the phone off me and took this himself. i'm not joking", "monsieur took my phone and took a better selfie than me. he gave the phone back. he did not give back your pen."]};
+for (const [tid, [a, b, text, log]] of Object.entries(T)) {
+  document.body.insertAdjacentHTML("beforeend", `<div class="mo-selfie"><div class="mo-polaroids">
+    <figure class="mo-polaroid"><img src="../../module/eden_rise/selfies/bibi_fang_${tid}_a.webp" onclick="this.classList.toggle('gross')"><figcaption>${a}</figcaption></figure>
+    <figure class="mo-polaroid"><img src="../../module/eden_rise/selfies/bibi_fang_${tid}_b.webp" onclick="this.classList.toggle('gross')"><figcaption>${b}</figcaption></figure></div>
+    <p class="mo-selfie-text">${text}</p><p class="mo-selfie-log">${log}</p></div>`);
+}
+</script>
+</body></html>

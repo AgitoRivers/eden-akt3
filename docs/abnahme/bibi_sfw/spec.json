@@ -1,0 +1,19 @@
+{
+ "id": "bibi_sfw_r3",
+ "titel": "Bibi – Dialog-Sprites, niedrigere Arme (2 Posen)",
+ "hinweis": "Die anderen 50 hast du freigegeben.",
+ "items": [
+  {
+   "id": "optimism_2",
+   "titel": "Bibi · optimism_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Standard\\roh\\optimism_2.png",
+   "soll": "Niedrigere Arme, nichts abgeschnitten."
+  },
+  {
+   "id": "relief_2",
+   "titel": "Bibi · relief_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Bibi\\Standard\\roh\\relief_2.png",
+   "soll": "Niedrigere Arme, nichts abgeschnitten."
+  }
+ ]
+}

@@ -1,0 +1,247 @@
+{
+ "id": "wunsch_outfits_v1",
+ "titel": "Alternative Outfits: Konzepttest",
+ "hinweis": "Je Frau bitte genau ein OK. Ein Seed, nur fürs Konzept. Fehler stehen im Text; beim vollen Satz korrigiere ich sie.",
+ "items": [
+  {
+   "id": "Lea_W",
+   "titel": "Lea · ihr Wunsch · The One That Fits (Vorschlag)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Lea_W\\neutral.png",
+   "soll": "Fehler: Stoff ist durchscheinend, Kalmare sehr groß. Beim vollen Satz blickdicht und kleiner. a short shimmering bronze-gold sea silk slip dress that fits her perfectly, thin straps and a deep neckline, tiny hand-embroidered squid along the hem, barefoot"
+  },
+  {
+   "id": "Lea_A",
+   "titel": "Lea · ästhetisch",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Lea_A\\neutral.png",
+   "soll": "a soft seafoam green silk sundress with thin straps and a deep neckline, a flowing skirt to the knee, a thin silver chain, flat white sandals"
+  },
+  {
+   "id": "Lea_K",
+   "titel": "Lea · Korsika-Urlaub",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Lea_K\\neutral.png",
+   "soll": "Fehler: Stoff durchscheinend, nicht bestellt. a navy and white striped Breton crop top with a wide neck, faded coral cotton shorts, a straw bucket hat, rope espadrilles"
+  },
+  {
+   "id": "Lea_D",
+   "titel": "Lea · Danzels Fashion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Lea_D\\neutral.png",
+   "soll": "a deep red silk one-shoulder cocktail dress with one sculpted fabric shoulder shaped like a seashell, a wide black satin sash at the waist, black strappy heels"
+  },
+  {
+   "id": "Sophia_W",
+   "titel": "Sophia · ihr Wunsch · M. J. Penrose (Vorschlag)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Sophia_W\\neutral.png",
+   "soll": "a belted camel 1930s trench coat worn open over a low-cut cream silk blouse and a dark pencil skirt, a slim felt hat tilted to one side, a pencil behind her ear, dark heels"
+  },
+  {
+   "id": "Sophia_A",
+   "titel": "Sophia · ästhetisch",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Sophia_A\\neutral.png",
+   "soll": "a pale sage green silk slip top with a deep neckline, matching wide silk trousers and a long sage silk duster coat, thin gold earrings, nude sandals"
+  },
+  {
+   "id": "Sophia_K",
+   "titel": "Sophia · Korsika-Urlaub",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Sophia_K\\neutral.png",
+   "soll": "a white linen halter top with a deep neckline tied at the neck, a long sunflower yellow wrap skirt with a high slit, a wide straw hat, gold sandals"
+  },
+  {
+   "id": "Sophia_D",
+   "titel": "Sophia · Danzels Fashion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Sophia_D\\neutral.png",
+   "soll": "a black velvet tuxedo dress with wide red satin lapels cut down to the waist, a sharply structured shoulder, one long red leather glove, black heels"
+  },
+  {
+   "id": "Rosi_W",
+   "titel": "Rosi · ihr Wunsch · Scuderi & Figlia (Vorschlag)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Rosi_W\\neutral.png",
+   "soll": "Fehler: Schrift auf der Brust ist Kauderwelsch, Reißverschluss offener als bestellt. a fitted oxblood red boar leather 1950s motorcycle racing suit, the zip open down to her sternum over bare skin, cream stripes along the arms, the words SCUDERI & FIGLIA stitched on the chest, black boots"
+  },
+  {
+   "id": "Rosi_A",
+   "titel": "Rosi · ästhetisch",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Rosi_A\\neutral.png",
+   "soll": "a dusty rose satin camisole with a deep neckline, high-waisted cream wide-leg trousers, a thin gold necklace with a shell, flat sandals"
+  },
+  {
+   "id": "Rosi_K",
+   "titel": "Rosi · Korsika-Urlaub",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Rosi_K\\neutral.png",
+   "soll": "a fitted olive green tank top with a deep neckline, white cotton shorts, a red silk scarf tied in her hair, round sunglasses, tan leather sandals"
+  },
+  {
+   "id": "Rosi_D",
+   "titel": "Rosi · Danzels Fashion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Rosi_D\\neutral.png",
+   "soll": "Fehler: Korsett sitzt zu tief, Brust frei. Nicht bestellt, müsste ich korrigieren. a red leather corset with polished brass hinges down both sides like a piece of sculpted armour, black high-waisted cigarette trousers, black ankle boots, thin black gloves"
+  },
+  {
+   "id": "Lola_W",
+   "titel": "Lola · ihr Wunsch · Half a Name (Vorschlag)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Lola_W\\neutral.png",
+   "soll": "sun-faded terracotta linen dungaree shorts worn over a bright white bikini top, half a name hand-stitched on the bib, a white shell necklace, gold hoop earrings, barefoot"
+  },
+  {
+   "id": "Lola_A",
+   "titel": "Lola · ästhetisch",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Lola_A\\neutral.png",
+   "soll": "Fehler: Stoff durchscheinend, nicht bestellt. a butter yellow linen wrap top with a deep neckline and a long matching linen skirt, a white shell necklace, gold hoop earrings, barefoot"
+  },
+  {
+   "id": "Lola_K",
+   "titel": "Lola · Korsika-Urlaub",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Lola_K\\neutral.png",
+   "soll": "a bright orange cotton bikini top, a long tangerine sarong knotted at the hip, a white shell necklace, gold hoop earrings, a wide straw hat, barefoot"
+  },
+  {
+   "id": "Lola_D",
+   "titel": "Lola · Danzels Fashion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Lola_D\\neutral.png",
+   "soll": "Fehler: Kleid vorne offen, nicht bestellt, müsste ich korrigieren. a short red satin kimono dress cinched with a wide black sash tied in a huge sculptural bow at the back, a deep neckline, a white shell necklace, gold hoop earrings, black sandals"
+  },
+  {
+   "id": "Siri_W",
+   "titel": "Siri · ihr Wunsch · Oilskin (Vorschlag)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Siri_W\\neutral.png",
+   "soll": "Fehler: Bild zu nah, vom Ölzeug sieht man wenig. Beim vollen Satz weiter weg. bright yellow fisherman's oilskin bib trousers with the straps over a thin white tank top with a deep neckline, tall dark green rubber boots, her hair a little wind-blown"
+  },
+  {
+   "id": "Siri_A",
+   "titel": "Siri · ästhetisch",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Siri_A\\neutral.png",
+   "soll": "a long soft lilac silk gown draped from one shoulder with a deep neckline and a slit, a fine silver bracelet, silver sandals"
+  },
+  {
+   "id": "Siri_K",
+   "titel": "Siri · Korsika-Urlaub",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Siri_K\\neutral.png",
+   "soll": "a blue and white striped cotton sundress with thin straps and a deep neckline, tied at the waist, a wide straw hat, white rope espadrilles"
+  },
+  {
+   "id": "Siri_D",
+   "titel": "Siri · Danzels Fashion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Siri_D\\neutral.png",
+   "soll": "a long blood red column gown with a tall standing collar that frames her face, a deep narrow plunge down the front, a long train, thin black gloves"
+  },
+  {
+   "id": "Alva_W",
+   "titel": "Alva · ihr Wunsch · Traje Corto (Vorschlag)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Alva_W\\neutral.png",
+   "soll": "a black Andalusian traje corto: a short fitted black bolero jacket worn open over a low-cut white shirt, high-waisted black riding trousers, a flat wide-brimmed black Cordobes hat, black boots"
+  },
+  {
+   "id": "Alva_A",
+   "titel": "Alva · ästhetisch",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Alva_A\\neutral.png",
+   "soll": "Fehler: Wirkt wie ein Selfie mit Arm zur Kamera, müsste neu. a long ivory bias-cut silk dress with thin straps and a deep neckline, a heavy amber necklace, gold sandals"
+  },
+  {
+   "id": "Alva_K",
+   "titel": "Alva · Korsika-Urlaub",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Alva_K\\neutral.png",
+   "soll": "Fehler: Wirkt wie ein Selfie mit Arm zur Kamera, müsste neu. a terracotta off-the-shoulder linen blouse with a low neckline, a long white cotton skirt, big gold hoop earrings, tan leather sandals, a straw bag"
+  },
+  {
+   "id": "Alva_D",
+   "titel": "Alva · Danzels Fashion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Alva_D\\neutral.png",
+   "soll": "Fehler: Bild zu nah, vom Kleid sieht man wenig. an asymmetric black and red cape dress with one dramatic sleeve and one bare shoulder, a deep neckline, a tight black skirt with a red lining showing at the slit, black heels"
+  },
+  {
+   "id": "Elsa_W",
+   "titel": "Elsa · ihr Wunsch · Off Duty, Officially (Vorschlag)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Elsa_W\\neutral.png",
+   "soll": "Fehler: Elsa steht kleiner im Bild als die anderen (ohne Personen-LoRA), das gilt für alle vier. a blue and white checked cotton summer dress with a deep neckline, a fitted waist and two very large front pockets, a small ticket book in one pocket, white canvas shoes, a silver whistle on a thin chain"
+  },
+  {
+   "id": "Elsa_A",
+   "titel": "Elsa · ästhetisch",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Elsa_A\\neutral.png",
+   "soll": "a powder blue silk blouse with the top buttons open and a deep neckline, a high-waisted cream pencil skirt, thin gold earrings, nude heels"
+  },
+  {
+   "id": "Elsa_K",
+   "titel": "Elsa · Korsika-Urlaub",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Elsa_K\\neutral.png",
+   "soll": "a white cotton crop top with a deep neckline, red cotton shorts, a straw sun hat pushed back, round sunglasses, white sneakers"
+  },
+  {
+   "id": "Elsa_D",
+   "titel": "Elsa · Danzels Fashion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Elsa_D\\neutral.png",
+   "soll": "a sharply tailored oxblood skirt suit with high peaked lapels and nothing visible beneath the jacket, thin black leather gloves, a small black pillbox hat, black heels"
+  },
+  {
+   "id": "Megan_W",
+   "titel": "Megan · ihr Wunsch · Final Form (Vorschlag)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Megan_W\\neutral.png",
+   "soll": "a floor-length crimson commander's greatcoat with a tall stiff collar and gold shoulder boards, worn open over a black bustier, black leather gloves, black over-the-knee boots, the look of the final boss of an anime"
+  },
+  {
+   "id": "Megan_A",
+   "titel": "Megan · ästhetisch",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Megan_A\\neutral.png",
+   "soll": "a long liquid champagne satin bias-cut dress with thin straps and a deep neckline, black leather gloves, a small gold anchor pin, gold heels"
+  },
+  {
+   "id": "Megan_K",
+   "titel": "Megan · Korsika-Urlaub",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Megan_K\\neutral.png",
+   "soll": "a black one-piece swimsuit with a deep neckline, a white linen sarong, huge dark sunglasses, a very wide black straw hat, black leather gloves, gold sandals"
+  },
+  {
+   "id": "Megan_D",
+   "titel": "Megan · Danzels Fashion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Megan_D\\neutral.png",
+   "soll": "a black sculpted bustier gown with structured shoulder plates in stiff black silk and a red-lined cape falling from them, a deep neckline, black leather gloves, black heels"
+  },
+  {
+   "id": "Jana_W",
+   "titel": "Jana · ihr Wunsch · Bowline (Vorschlag)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Jana_W\\neutral.png",
+   "soll": "a white cotton wrap dress held together only by thick real sailor's rope knots at the shoulders and the waist, a deep neckline, a small silver bosun's whistle on a chain, white canvas shoes"
+  },
+  {
+   "id": "Jana_A",
+   "titel": "Jana · ästhetisch",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Jana_A\\neutral.png",
+   "soll": "a soft mint pleated mini dress with a small white collar and a low neckline, a thin gold necklace, white ballet flats"
+  },
+  {
+   "id": "Jana_K",
+   "titel": "Jana · Korsika-Urlaub",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Jana_K\\neutral.png",
+   "soll": "a white cotton sundress with a lemon print and thin straps, a low neckline, a straw boater hat with a yellow ribbon, flat rope sandals"
+  },
+  {
+   "id": "Jana_D",
+   "titel": "Jana · Danzels Fashion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Jana_D\\neutral.png",
+   "soll": "a short red velvet coat dress with a huge sculpted collar and a low neckline, long black opera gloves, black ankle boots, a little too bold for her and she knows it"
+  },
+  {
+   "id": "Chiara_W",
+   "titel": "Chiara · ihr Wunsch · Dress Whites (Knöpfe: deine Fassung folgt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dress_whites\\Yacht_Chiara_Whites_5\\neutral.png",
+   "soll": "Schon gewählt."
+  },
+  {
+   "id": "Chiara_A",
+   "titel": "Chiara · ästhetisch",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Chiara_A\\neutral.png",
+   "soll": "soft dove grey silk wide-leg trousers and a matching silk halter top with a deep neckline, a slim gold watch, silver sandals"
+  },
+  {
+   "id": "Chiara_K",
+   "titel": "Chiara · Korsika-Urlaub",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Chiara_K\\neutral.png",
+   "soll": "a coral red linen halter top with a deep neckline, white high-waisted cotton shorts, a slim gold watch, rope espadrilles, a straw hat in her hand"
+  },
+  {
+   "id": "Chiara_D",
+   "titel": "Chiara · Danzels Fashion (Vorschlag)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_wunsch\\Yacht_Chiara_D\\neutral.png",
+   "soll": "a long oxblood velvet captain's frock coat with a black collar and brass buttons worn open over a black corset and black leather shorts, black boots"
+  }
+ ]
+}

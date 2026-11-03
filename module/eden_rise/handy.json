@@ -1,0 +1,57 @@
+{
+ "tones": {
+  "warm": {
+   "axis": "vertrauen",
+   "points": 4,
+   "impression": "It touched her a little.",
+   "label": "Trust ↑"
+  },
+  "funny": {
+   "axis": "begehren",
+   "points": 4,
+   "impression": "It made her smile.",
+   "label": "Desire ↑"
+  },
+  "flirty": {
+   "axis": "begehren",
+   "points": 4,
+   "impression": "It flustered her a little, in a good way.",
+   "label": "Desire ↑"
+  },
+  "apology": {
+   "axis": "vertrauen",
+   "points": 4,
+   "impression": "She appreciates that he said sorry.",
+   "label": "Trust ↑"
+  },
+  "pushy": {
+   "axis": "vertrauen",
+   "points": -4,
+   "impression": "It annoyed her - she may say so, briefly.",
+   "label": "Trust ↓"
+  },
+  "rude": {
+   "axis": "vertrauen",
+   "points": -4,
+   "impression": "It stung - she answers cooler than usual.",
+   "label": "Trust ↓"
+  },
+  "neutral": {
+   "axis": null,
+   "points": 0,
+   "impression": "",
+   "label": "no effect"
+  }
+ },
+ "chip_tones": [
+  "warm",
+  "funny",
+  "flirty"
+ ],
+ "flirt_min_trust": 2,
+ "backfire_points": -3,
+ "backfire_impression": "Duc's text was far too forward for how well she knows him. She is taken aback, deflects and keeps her distance.",
+ "max_replies": 3,
+ "min_progress": 4,
+ "callback_days": 1
+}

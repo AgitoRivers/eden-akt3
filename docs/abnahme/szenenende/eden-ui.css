@@ -1,0 +1,74 @@
+/* Gemeinsame Bausteine der Oberflaeche (Duc 30.10.2026). Regeln: docs/wiki/systeme/ui_stil.md */
+:root{
+  color-scheme: dark;
+  --ink:#07080b; --rauch:rgba(9,11,15,.52); --rauch-stark:rgba(9,11,15,.82);
+  --perle:#f3eee4; --perle-leise:rgba(243,238,228,.7); --perle-dim:rgba(243,238,228,.45);
+  --rede:#ecd8ae; /* direkte Rede: klares Beige, hebt sich vom gedaempften Erzaehltext ab (17.10.2026) */
+  --akz:#d8bd86; --akz2:#9db9d6; --gut:#a8d5b1; --schlecht:#d9a198;
+  --linie:rgba(216,189,134,.26); --linie-n:rgba(243,238,228,.16);
+  --f-name:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --f-ui:"Geist","Segoe UI",system-ui,sans-serif;
+  --f-zahl:"Geist Mono",ui-monospace,"Cascadia Mono",monospace;
+  --chat-b:clamp(360px,33vw,540px); --rand:20px;
+  --t-mini:11px; --t-klein:12.5px; --t-info:14px; --t-text:15px; --t-gross:18px; --t-unter:20px; --t-titel:24px; --t-kopf:32px; --t-held:40px; --t-buehne:56px; --t-riesig:72px;
+  --r-fein:4px; --r-taste:8px; --r-mittel:14px; --r-karte:22px; --r-panel:26px; --r-rund:999px; --r-geraet:46px; --r-geraet-innen:38px; --r-kopfform:120px;
+  --a1:4px; --a15:6px; --a2:8px; --a25:10px; --a3:12px; --a35:14px; --a4:16px; --a45:20px; --a5:24px; --a6:32px; --a7:48px;
+  --pille-klein:2px 8px; --pille:4px 12px; --pille-gross:8px 16px; --pille-knopf:12px 24px;
+  --karte-pad-klein:10px 12px; --karte-pad:12px 16px; --karte-pad-gross:18px 20px;
+  --flaeche:#14161b; --flaeche2:#1f2229; --dunkelbraun:#1b1610; --grau-hell:#c9c4bb; --grau:#8d8a85; --grau-dunkel:#5a5d66; --gold-hell:#e8c069; --gold-dunkel:#a88a4f; --creme:#f6ecd2; --rot:#c3271c; --rot-dunkel:#8a1d14; --warn:#f0b35a; --ausweichen:#8ec5ff; --wasser:#6fb6e6; --pfad-k:#e0895f; --pfad-s:#b79ae6; --pfad-j:#6fc7b9; --pfad-h:#9fd6a6; --pfad-m:#ef6a3c; --papier:#f4ecd6; --tinte:#23252e;
+}
+.ui-ic{width:24px;height:24px;flex:none;display:block;fill:currentColor}
+.ui-ic.klein{width:16px;height:16px;display:inline-block;vertical-align:-3px}
+.ui-ic.imtext{width:1em;height:1em;display:inline-block;vertical-align:-.12em}
+.ui-ic.leer{opacity:.3}
+.ui-ic.imtext + .ui-ic.imtext{margin-left:-.12em}
+/* Grundbausteine */
+.glas{background:var(--rauch);border:1px solid var(--linie);backdrop-filter:blur(20px) saturate(1.15);-webkit-backdrop-filter:blur(20px) saturate(1.15);box-shadow:0 18px 50px rgba(0,0,0,.35)}
+.name{font-family:var(--f-name);font-weight:750;letter-spacing:-.02em}
+.zahl{font-family:var(--f-zahl);font-variant-numeric:tabular-nums}
+.knopf,.kampf .knopf{border:0;border-radius:var(--r-rund);padding:11px 20px;background:var(--akz);color:var(--ink);font-weight:600}
+.knopf.leise,.kampf .knopf.leise{background:rgba(243,238,228,.08);color:var(--perle);border:1px solid var(--linie-n)}
+.knopf:disabled,.kampf .knopf:disabled{opacity:.45;cursor:default}
+@property --ui-p{syntax:"<number>";inherits:false;initial-value:0}
+
+/* Status-Knopf: Icon im Ring, der Ring zeigt den Fuellstand. Niedrig = Farbe und "!" (lesbar auch ohne Farbsehen). */
+.ui-statusleiste{display:flex;align-items:flex-start;gap:var(--a2)}
+.ui-statusleiste.mit-namen{gap:var(--a3)}
+.ui-status{position:relative;display:flex;flex-direction:column;align-items:center;gap:2px;padding:0;border:0;background:none;color:var(--perle);cursor:pointer}
+.ui-ring{--ui-p:0;position:relative;width:40px;height:40px;border-radius:50%;display:grid;place-items:center;color:var(--perle);
+  background:conic-gradient(var(--ui-farbe,var(--akz)) calc(var(--ui-p)*1%),rgba(243,238,228,.16) 0);transition:--ui-p .5s ease}
+.ui-ring::before{content:"";position:absolute;inset:3px;border-radius:50%;background:#14161b;transition:background .15s}
+.ui-ring .ui-ic{position:relative;width:22px;height:22px}
+.ui-status:hover .ui-ring::before{background:#20232a}
+.ui-status[aria-expanded="true"] .ui-ring{box-shadow:0 0 0 2px #14161b,0 0 0 4px var(--perle)}
+.ui-status.niedrig .ui-ring{--ui-farbe:var(--schlecht);color:var(--schlecht)}
+.ui-status.niedrig .ui-ring::after{content:"!";position:absolute;right:-2px;top:-2px;width:15px;height:15px;border-radius:50%;background:var(--schlecht);color:var(--ink);font:700 var(--t-mini)/15px var(--f-ui);text-align:center}
+.ui-name{display:none;font-size:var(--t-klein);line-height:1.2;color:var(--perle);white-space:nowrap}
+.mit-namen .ui-name{display:block}
+.ui-status.puls .ui-ring{animation:ui-puls .7s ease}
+@keyframes ui-puls{35%{transform:scale(1.18)}}
+.ui-delta{position:absolute;left:50%;top:-6px;font:600 var(--t-klein) var(--f-zahl);pointer-events:none;white-space:nowrap;animation:ui-steigt 1.3s ease forwards}
+.ui-delta.plus{color:var(--gut)}.ui-delta.minus{color:var(--schlecht)}
+@keyframes ui-steigt{0%{opacity:0;transform:translate(-50%,6px)}20%{opacity:1}100%{opacity:0;transform:translate(-50%,-20px)}}
+
+/* Infokarte: immer gleich aufgebaut, schliesst per Klick daneben, Esc oder zweitem Klick */
+.ui-infokarte{position:absolute;top:calc(100% + var(--a2));left:0;width:min(460px,calc(100vw - 40px));padding:var(--a2);border-radius:var(--r-karte);background:rgba(9,11,15,.95);border:1px solid var(--linie);box-shadow:0 18px 50px rgba(0,0,0,.35);z-index:6}
+.ui-zeile{width:100%;display:grid;grid-template-columns:24px 1fr auto;gap:var(--a3);align-items:center;padding:var(--a2);border:0;border-radius:var(--r-taste);background:none;color:var(--perle);font:inherit;text-align:left;cursor:pointer}
+.ui-zeile:hover{background:rgba(243,238,228,.06)}
+.ui-zeile em{font-style:normal;color:var(--akz)}
+.ui-zeile.niedrig em,.ui-zeile.niedrig .ui-ic{color:var(--schlecht)}
+.ui-mehr{padding:0 var(--a2) var(--a3) calc(24px + var(--a3) + var(--a2))}
+.ui-balken{height:6px;border-radius:var(--r-rund);background:rgba(243,238,228,.12);margin:0 0 var(--a2)}
+.ui-balken i{display:block;height:100%;border-radius:var(--r-rund);background:var(--akz)}
+.niedrig+.ui-mehr .ui-balken i{background:var(--schlecht)}
+.ui-mehr p{margin:0;color:var(--perle-leise);font-size:var(--t-text);line-height:1.45}
+
+/* Rueckmeldung bei jeder Wertaenderung: Puls, aufsteigende Zahl, kurz Name und Zustand */
+.ui-wertmeldung{position:absolute;top:calc(100% + var(--a2));right:0;padding:var(--a1) var(--a3);border-radius:var(--r-rund);background:var(--rauch-stark);border:1px solid var(--linie);font-size:var(--t-klein);white-space:nowrap;pointer-events:none;animation:ui-meldung 2s ease forwards;z-index:6}
+@keyframes ui-meldung{0%{opacity:0}12%{opacity:1}80%{opacity:1}100%{opacity:0}}
+@media (prefers-reduced-motion:reduce){
+  .ui-ring{transition:none}
+  .ui-status.puls .ui-ring,.ui-delta{animation:none}
+  .ui-delta{opacity:0}
+  .ui-wertmeldung{animation:none}
+}

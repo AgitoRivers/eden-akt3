@@ -1,0 +1,313 @@
+{
+ "id": "red_trio_kampf_r3",
+ "titel": "Red Trio – Kampf-Sprites (Danzel, Bibi, Charly je 13 Posen)",
+ "hinweis": "Stand 30.10. (kampf_red_trio_neu.py, kampf_bibi_schwarz.py): Bibi neu mit schwarzen Dosen und schwarzem Loewen. Bibi und Charly ohne Make-up-Tags, ganze Figur, Studio-Hintergrund; Danzel heavy_attack, hurt, defeated neu. Alte Bilder im Papierkorb. OK oder Neu mit Wunsch; danach Ergebnis kopieren.",
+ "items": [
+  {
+   "id": "Danzel_idle",
+   "titel": "Danzel · idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\idle.png",
+   "soll": "Danzel · idle · Waffe: Teleskopschlagstock"
+  },
+  {
+   "id": "Danzel_windup",
+   "titel": "Danzel · windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\windup.png",
+   "soll": "Danzel · windup · Waffe: Teleskopschlagstock",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Danzel_attack",
+   "titel": "Danzel · attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\attack.png",
+   "soll": "Danzel · attack · Waffe: Teleskopschlagstock",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Danzel_heavy_windup",
+   "titel": "Danzel · heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\heavy_windup.png",
+   "soll": "Danzel · heavy_windup · Waffe: Teleskopschlagstock",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Danzel_heavy_attack",
+   "titel": "Danzel · heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\heavy_attack.png",
+   "soll": "Danzel · heavy_attack · Waffe: Teleskopschlagstock",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Danzel_guard",
+   "titel": "Danzel · guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\guard.png",
+   "soll": "Danzel · guard · Waffe: Teleskopschlagstock",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Danzel_hurt",
+   "titel": "Danzel · hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\hurt.png",
+   "soll": "Danzel · hurt · Waffe: Teleskopschlagstock — noch offen: schwarze Spritzer am Boden (3 Versuche) - OK oder nochmal?",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Danzel_weakened",
+   "titel": "Danzel · weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\weakened.png",
+   "soll": "Danzel · weakened · Waffe: Teleskopschlagstock",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Danzel_enraged",
+   "titel": "Danzel · enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\enraged.png",
+   "soll": "Danzel · enraged · Waffe: Teleskopschlagstock",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Danzel_flee",
+   "titel": "Danzel · flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\flee.png",
+   "soll": "Danzel · flee · Waffe: Teleskopschlagstock",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Danzel_surrender",
+   "titel": "Danzel · surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\surrender.png",
+   "soll": "Danzel · surrender · Waffe: Teleskopschlagstock",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Danzel_victory",
+   "titel": "Danzel · victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\victory.png",
+   "soll": "Danzel · victory · Waffe: Teleskopschlagstock",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Danzel_defeated",
+   "titel": "Danzel · defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\defeated.png",
+   "soll": "Danzel · defeated · Waffe: Teleskopschlagstock",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Danzel\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Bibi_idle",
+   "titel": "Bibi · idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\idle.png",
+   "soll": "Bibi · idle · Waffe: Granaten — Runde 3: schwarze Dosen (Prototypen), schwarzer Loewe statt Keiler"
+  },
+  {
+   "id": "Bibi_windup",
+   "titel": "Bibi · windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\windup.png",
+   "soll": "Bibi · windup · Waffe: Granaten — Stiefel unten knapp abgeschnitten",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Bibi_attack",
+   "titel": "Bibi · attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\attack.png",
+   "soll": "Bibi · attack · Waffe: Granaten — Stiefel unten knapp abgeschnitten, Anhaenger braeunlich",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Bibi_heavy_windup",
+   "titel": "Bibi · heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\heavy_windup.png",
+   "soll": "Bibi · heavy_windup · Waffe: Granaten",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Bibi_heavy_attack",
+   "titel": "Bibi · heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\heavy_attack.png",
+   "soll": "Bibi · heavy_attack · Waffe: Granaten",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Bibi_guard",
+   "titel": "Bibi · guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\guard.png",
+   "soll": "Bibi · guard · Waffe: Granaten",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Bibi_hurt",
+   "titel": "Bibi · hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\hurt.png",
+   "soll": "Bibi · hurt · Waffe: Granaten",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Bibi_weakened",
+   "titel": "Bibi · weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\weakened.png",
+   "soll": "Bibi · weakened · Waffe: Granaten — Stiefel unten knapp abgeschnitten",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Bibi_enraged",
+   "titel": "Bibi · enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\enraged.png",
+   "soll": "Bibi · enraged · Waffe: Granaten — Stiefel unten knapp abgeschnitten",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Bibi_flee",
+   "titel": "Bibi · flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\flee.png",
+   "soll": "Bibi · flee · Waffe: Granaten",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Bibi_surrender",
+   "titel": "Bibi · surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\surrender.png",
+   "soll": "Bibi · surrender · Waffe: Granaten",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Bibi_victory",
+   "titel": "Bibi · victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\victory.png",
+   "soll": "Bibi · victory · Waffe: Granaten",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Bibi_defeated",
+   "titel": "Bibi · defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\defeated.png",
+   "soll": "Bibi · defeated · Waffe: Granaten",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bibi\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Charly_idle",
+   "titel": "Charly · idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\idle.png",
+   "soll": "Charly · idle · Waffe: Taser — Runde 1: Studio statt Flur, Fuesse sichtbar, ohne Make-up-Tags"
+  },
+  {
+   "id": "Charly_windup",
+   "titel": "Charly · windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\windup.png",
+   "soll": "Charly · windup · Waffe: Taser",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Charly_attack",
+   "titel": "Charly · attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\attack.png",
+   "soll": "Charly · attack · Waffe: Taser",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Charly_heavy_windup",
+   "titel": "Charly · heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\heavy_windup.png",
+   "soll": "Charly · heavy_windup · Waffe: Taser",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Charly_heavy_attack",
+   "titel": "Charly · heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\heavy_attack.png",
+   "soll": "Charly · heavy_attack · Waffe: Taser",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Charly_guard",
+   "titel": "Charly · guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\guard.png",
+   "soll": "Charly · guard · Waffe: Taser",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Charly_hurt",
+   "titel": "Charly · hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\hurt.png",
+   "soll": "Charly · hurt · Waffe: Taser",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Charly_weakened",
+   "titel": "Charly · weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\weakened.png",
+   "soll": "Charly · weakened · Waffe: Taser",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Charly_enraged",
+   "titel": "Charly · enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\enraged.png",
+   "soll": "Charly · enraged · Waffe: Taser",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Charly_flee",
+   "titel": "Charly · flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\flee.png",
+   "soll": "Charly · flee · Waffe: Taser",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Charly_surrender",
+   "titel": "Charly · surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\surrender.png",
+   "soll": "Charly · surrender · Waffe: Taser",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Charly_victory",
+   "titel": "Charly · victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\victory.png",
+   "soll": "Charly · victory · Waffe: Taser",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Charly_defeated",
+   "titel": "Charly · defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\defeated.png",
+   "soll": "Charly · defeated · Waffe: Taser",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\idle.png",
+   "vergleich_titel": "idle"
+  }
+ ]
+}

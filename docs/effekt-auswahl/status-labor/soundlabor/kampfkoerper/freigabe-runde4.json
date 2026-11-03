@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "source": "Duc clipboard feedback 2026-10-26T08:03:44.771Z",
+  "selected": {
+    "rat_swarm": {
+      "label": "Alpha-Ratte · Rudelsprung",
+      "variant": "A",
+      "file": "revision4/audio/rat_swarm_1.ogg",
+      "asset_id": "combat-foley-v4-rat_swarm-A",
+      "revision": 4,
+      "sha256": "43e4ad8660dfbd0feb1abe6050faffdaf44ac2065014269685c314ca1534f49e",
+      "note": ""
+    },
+    "stance_step": {
+      "label": "Duc · zwei Schritte in den Stand",
+      "variant": "D",
+      "file": "revision4/audio/stance_step_4.ogg",
+      "asset_id": "combat-foley-v4-stance_step-D",
+      "revision": 4,
+      "sha256": "d645117daecccf4cccc5f0e4148cc61174d1a0efcd7db0964f4b0943d4c11d1f",
+      "note": ""
+    },
+    "spear_thrust": {
+      "label": "Saufeder · Stoß",
+      "variant": "B",
+      "file": "revision4/audio/spear_thrust_2.ogg",
+      "asset_id": "combat-foley-v4-spear_thrust-B",
+      "revision": 4,
+      "sha256": "81955641e171d6bb866d6ad41d0a7ae503cb98cb7e268e6dab145e60942ee873",
+      "note": ""
+    },
+    "gun_reload": {
+      "label": "Flinte · Nachladen",
+      "variant": "C",
+      "file": "revision4/audio/gun_reload_3.ogg",
+      "asset_id": "combat-foley-v4-gun_reload-C",
+      "revision": 4,
+      "sha256": "a6862d103ab622d11930216f0373e651f661a18917333cfe77b8f598e8a87492",
+      "note": ""
+    }
+  },
+  "committed": false
+}

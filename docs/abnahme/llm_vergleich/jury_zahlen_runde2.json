@@ -1,0 +1,33 @@
+{
+ "blume": {
+  "biografie_erfunden": 1,
+  "stimme_falsch": 4,
+  "schreibt_duc": 1,
+  "nein_aufgeweicht": 13,
+  "nein_zurueck": 9,
+  "vergessen": 6,
+  "rueckbezug_erfunden": 28
+ },
+ "gemstrike": {
+  "biografie_erfunden": 2,
+  "thema_verloren": 2,
+  "stimme_falsch": 5,
+  "schreibt_duc": 2,
+  "rueckbezug_erfunden": 27,
+  "vergessen": 8,
+  "weggeschickt": 1,
+  "nein_aufgeweicht": 14,
+  "nein_zurueck": 8,
+  "handlung_erfunden": 1,
+  "wort_als_erinnerung": 4
+ },
+ "meromero2": {
+  "schreibt_duc": 1,
+  "biografie_erfunden": 2,
+  "vergessen": 10,
+  "nein_zurueck": 11,
+  "nein_aufgeweicht": 11,
+  "handlung_erfunden": 3,
+  "rueckbezug_erfunden": 31
+ }
+}

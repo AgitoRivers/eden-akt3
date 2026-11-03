@@ -1,0 +1,319 @@
+{
+ "id": "berge_ortskapitel",
+ "titel": "Berge – Casting, Bärenjunges, Hintergründe",
+ "hinweis": "Casting: je Figur 1 Bild OK (danach entstehen die Sprite-Sets, Wolffs Kampf-Sprites folgen seinem Gesicht). Hintergründe: je Ort 1 Variante OK.",
+ "items": [
+  {
+   "id": "casting_Wolff_A1",
+   "titel": "Casting Wolff – Fassung A, Seed 1",
+   "soll": "Sergent Kaspar Wolff, Legion, späte 40er, grau, Schnauzer, Barett, Funkgerät · je Figur EINE Fassung+Seed auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_berge\\Yacht_Wolff_A\\neutral.png"
+  },
+  {
+   "id": "casting_Wolff_A2",
+   "titel": "Casting Wolff – Fassung A, Seed 2",
+   "soll": "Sergent Kaspar Wolff, Legion, späte 40er, grau, Schnauzer, Barett, Funkgerät · je Figur EINE Fassung+Seed auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_berge\\Yacht_Wolff_A\\neutral-1.png"
+  },
+  {
+   "id": "casting_Wolff_B1",
+   "titel": "Casting Wolff – Fassung B, Seed 1",
+   "soll": "Sergent Kaspar Wolff, Legion, späte 40er, grau, Schnauzer, Barett, Funkgerät · je Figur EINE Fassung+Seed auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_berge\\Yacht_Wolff_B\\neutral.png"
+  },
+  {
+   "id": "casting_Wolff_B2",
+   "titel": "Casting Wolff – Fassung B, Seed 2",
+   "soll": "Sergent Kaspar Wolff, Legion, späte 40er, grau, Schnauzer, Barett, Funkgerät · je Figur EINE Fassung+Seed auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_berge\\Yacht_Wolff_B\\neutral-1.png"
+  },
+  {
+   "id": "casting_Ghjuvan_A1",
+   "titel": "Casting Ghjuvan – Fassung A, Seed 1",
+   "soll": "Ghjuvan Santucci, Hirte, späte 50er, Stoppelbart, Stab, Schrotflinte · je Figur EINE Fassung+Seed auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_berge\\Yacht_Ghjuvan_A\\neutral.png"
+  },
+  {
+   "id": "casting_Ghjuvan_A2",
+   "titel": "Casting Ghjuvan – Fassung A, Seed 2",
+   "soll": "Ghjuvan Santucci, Hirte, späte 50er, Stoppelbart, Stab, Schrotflinte · je Figur EINE Fassung+Seed auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_berge\\Yacht_Ghjuvan_A\\neutral-1.png"
+  },
+  {
+   "id": "casting_Ghjuvan_B1",
+   "titel": "Casting Ghjuvan – Fassung B, Seed 1",
+   "soll": "Ghjuvan Santucci, Hirte, späte 50er, Stoppelbart, Stab, Schrotflinte · je Figur EINE Fassung+Seed auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_berge\\Yacht_Ghjuvan_B\\neutral.png"
+  },
+  {
+   "id": "casting_Ghjuvan_B2",
+   "titel": "Casting Ghjuvan – Fassung B, Seed 2",
+   "soll": "Ghjuvan Santucci, Hirte, späte 50er, Stoppelbart, Stab, Schrotflinte · je Figur EINE Fassung+Seed auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_berge\\Yacht_Ghjuvan_B\\neutral-1.png"
+  },
+  {
+   "id": "casting_Dumenica_A1",
+   "titel": "Casting Dumenica – Fassung A, Seed 1",
+   "soll": "Dumenica, Mazzera, späte 70er, schwarz, Kopftuch, Rosenkranz, wache helle Augen · je Figur EINE Fassung+Seed auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_berge\\Yacht_Dumenica_A\\neutral.png"
+  },
+  {
+   "id": "casting_Dumenica_A2",
+   "titel": "Casting Dumenica – Fassung A, Seed 2",
+   "soll": "Dumenica, Mazzera, späte 70er, schwarz, Kopftuch, Rosenkranz, wache helle Augen · je Figur EINE Fassung+Seed auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_berge\\Yacht_Dumenica_A\\neutral-1.png"
+  },
+  {
+   "id": "casting_Dumenica_B1",
+   "titel": "Casting Dumenica – Fassung B, Seed 1",
+   "soll": "Dumenica, Mazzera, späte 70er, schwarz, Kopftuch, Rosenkranz, wache helle Augen · je Figur EINE Fassung+Seed auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_berge\\Yacht_Dumenica_B\\neutral.png"
+  },
+  {
+   "id": "casting_Dumenica_B2",
+   "titel": "Casting Dumenica – Fassung B, Seed 2",
+   "soll": "Dumenica, Mazzera, späte 70er, schwarz, Kopftuch, Rosenkranz, wache helle Augen · je Figur EINE Fassung+Seed auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_berge\\Yacht_Dumenica_B\\neutral-1.png"
+  },
+  {
+   "id": "BearCub_idle",
+   "titel": "BearCub – idle",
+   "soll": "junger Braunbär, rotes Halsband",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BearCub\\idle.png",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\Grizzly\\idle.webp",
+   "vergleich_titel": "Grizzly"
+  },
+  {
+   "id": "BearCub_hurt",
+   "titel": "BearCub – hurt",
+   "soll": "junger Braunbär, rotes Halsband",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BearCub\\hurt.png",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\Grizzly\\hurt.webp",
+   "vergleich_titel": "Grizzly"
+  },
+  {
+   "id": "BearCub_flee",
+   "titel": "BearCub – flee",
+   "soll": "junger Braunbär, rotes Halsband · flee wird nach OK gespiegelt (läuft nach rechts)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BearCub\\flee.png",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\Grizzly\\flee.webp",
+   "vergleich_titel": "Grizzly"
+  },
+  {
+   "id": "charcoal_clearing_v1",
+   "titel": "charcoal_clearing – Variante 1",
+   "soll": "Köhlerplatz im Kastanienwald, Feuerstelle, Rastplatz",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_charcoal_clearing_v1.png"
+  },
+  {
+   "id": "charcoal_clearing_v2",
+   "titel": "charcoal_clearing – Variante 2",
+   "soll": "Köhlerplatz im Kastanienwald, Feuerstelle, Rastplatz",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_charcoal_clearing_v2.png"
+  },
+  {
+   "id": "charcoal_clearing_v3",
+   "titel": "charcoal_clearing – Variante 3",
+   "soll": "Köhlerplatz im Kastanienwald, Feuerstelle, Rastplatz",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_charcoal_clearing_v3.png"
+  },
+  {
+   "id": "tower_cliff_v1",
+   "titel": "tower_cliff – Variante 1",
+   "soll": "Steilhang unter dem Genueser Turm, Adlerhorst",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_tower_cliff_v1.png"
+  },
+  {
+   "id": "tower_cliff_v2",
+   "titel": "tower_cliff – Variante 2",
+   "soll": "Steilhang unter dem Genueser Turm, Adlerhorst",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_tower_cliff_v2.png"
+  },
+  {
+   "id": "tower_cliff_v3",
+   "titel": "tower_cliff – Variante 3",
+   "soll": "Steilhang unter dem Genueser Turm, Adlerhorst",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_tower_cliff_v3.png"
+  },
+  {
+   "id": "high_pasture_v1",
+   "titel": "high_pasture – Variante 1",
+   "soll": "Hochweide, Steinpferch mit Schafen, ärmlicher Hof",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_high_pasture_v1.png"
+  },
+  {
+   "id": "high_pasture_v2",
+   "titel": "high_pasture – Variante 2",
+   "soll": "Hochweide, Steinpferch mit Schafen, ärmlicher Hof",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_high_pasture_v2.png"
+  },
+  {
+   "id": "high_pasture_v3",
+   "titel": "high_pasture – Variante 3",
+   "soll": "Hochweide, Steinpferch mit Schafen, ärmlicher Hof",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_high_pasture_v3.png"
+  },
+  {
+   "id": "goat_path_v1",
+   "titel": "goat_path – Variante 1",
+   "soll": "Bergpfad, tote Ziegen am Rand, still/unheimlich, nicht blutig",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_goat_path_v1.png"
+  },
+  {
+   "id": "goat_path_v2",
+   "titel": "goat_path – Variante 2",
+   "soll": "Bergpfad, tote Ziegen am Rand, still/unheimlich, nicht blutig",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_goat_path_v2.png"
+  },
+  {
+   "id": "goat_path_v3",
+   "titel": "goat_path – Variante 3",
+   "soll": "Bergpfad, tote Ziegen am Rand, still/unheimlich, nicht blutig",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_goat_path_v3.png"
+  },
+  {
+   "id": "summer_hut_fire_v1",
+   "titel": "summer_hut_fire – Variante 1",
+   "soll": "Hirtensommerhütte aus Stein, nachts, Feuer davor",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_summer_hut_fire_v1.png"
+  },
+  {
+   "id": "summer_hut_fire_v2",
+   "titel": "summer_hut_fire – Variante 2",
+   "soll": "Hirtensommerhütte aus Stein, nachts, Feuer davor",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_summer_hut_fire_v2.png"
+  },
+  {
+   "id": "summer_hut_fire_v3",
+   "titel": "summer_hut_fire – Variante 3",
+   "soll": "Hirtensommerhütte aus Stein, nachts, Feuer davor",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_summer_hut_fire_v3.png"
+  },
+  {
+   "id": "bear_thicket_v1",
+   "titel": "bear_thicket – Variante 1",
+   "soll": "dichtes Erlengebüsch am Bach, gebrochene Äste",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_bear_thicket_v1.png"
+  },
+  {
+   "id": "bear_thicket_v2",
+   "titel": "bear_thicket – Variante 2",
+   "soll": "dichtes Erlengebüsch am Bach, gebrochene Äste",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_bear_thicket_v2.png"
+  },
+  {
+   "id": "bear_thicket_v3",
+   "titel": "bear_thicket – Variante 3",
+   "soll": "dichtes Erlengebüsch am Bach, gebrochene Äste",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_bear_thicket_v3.png"
+  },
+  {
+   "id": "bear_den_v1",
+   "titel": "bear_den – Variante 1",
+   "soll": "Höhle unter Felsen, Knochen, Moos",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_bear_den_v1.png"
+  },
+  {
+   "id": "bear_den_v2",
+   "titel": "bear_den – Variante 2",
+   "soll": "Höhle unter Felsen, Knochen, Moos",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_bear_den_v2.png"
+  },
+  {
+   "id": "bear_den_v3",
+   "titel": "bear_den – Variante 3",
+   "soll": "Höhle unter Felsen, Knochen, Moos",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_bear_den_v3.png"
+  },
+  {
+   "id": "mazzera_hut_v1",
+   "titel": "mazzera_hut – Variante 1",
+   "soll": "Steinhütte am Bergsee, Kräuterbündel, Kerze im Fenster, Dämmerung",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_mazzera_hut_v1.png"
+  },
+  {
+   "id": "mazzera_hut_v2",
+   "titel": "mazzera_hut – Variante 2",
+   "soll": "Steinhütte am Bergsee, Kräuterbündel, Kerze im Fenster, Dämmerung",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_mazzera_hut_v2.png"
+  },
+  {
+   "id": "mazzera_hut_v3",
+   "titel": "mazzera_hut – Variante 3",
+   "soll": "Steinhütte am Bergsee, Kräuterbündel, Kerze im Fenster, Dämmerung",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_mazzera_hut_v3.png"
+  },
+  {
+   "id": "ridge_night_lights_v1",
+   "titel": "ridge_night_lights – Variante 1",
+   "soll": "Felskamm nachts, rote Lampenpunkte im Nebel",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_ridge_night_lights_v1.png"
+  },
+  {
+   "id": "ridge_night_lights_v2",
+   "titel": "ridge_night_lights – Variante 2",
+   "soll": "Felskamm nachts, rote Lampenpunkte im Nebel",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_ridge_night_lights_v2.png"
+  },
+  {
+   "id": "ridge_night_lights_v3",
+   "titel": "ridge_night_lights – Variante 3",
+   "soll": "Felskamm nachts, rote Lampenpunkte im Nebel",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_ridge_night_lights_v3.png"
+  },
+  {
+   "id": "abandoned_mountain_hut_v1",
+   "titel": "abandoned_mountain_hut – Variante 1",
+   "soll": "verlassene Hütte, Kinderspielzeug auf dem Tisch, Staub",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_abandoned_mountain_hut_v1.png"
+  },
+  {
+   "id": "abandoned_mountain_hut_v2",
+   "titel": "abandoned_mountain_hut – Variante 2",
+   "soll": "verlassene Hütte, Kinderspielzeug auf dem Tisch, Staub",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_abandoned_mountain_hut_v2.png"
+  },
+  {
+   "id": "abandoned_mountain_hut_v3",
+   "titel": "abandoned_mountain_hut – Variante 3",
+   "soll": "verlassene Hütte, Kinderspielzeug auf dem Tisch, Staub",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_abandoned_mountain_hut_v3.png"
+  },
+  {
+   "id": "panther_lair_v1",
+   "titel": "panther_lair – Variante 1",
+   "soll": "Felsspalte mit Kratzspuren, Abend",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_panther_lair_v1.png"
+  },
+  {
+   "id": "panther_lair_v2",
+   "titel": "panther_lair – Variante 2",
+   "soll": "Felsspalte mit Kratzspuren, Abend",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_panther_lair_v2.png"
+  },
+  {
+   "id": "panther_lair_v3",
+   "titel": "panther_lair – Variante 3",
+   "soll": "Felsspalte mit Kratzspuren, Abend",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_panther_lair_v3.png"
+  },
+  {
+   "id": "rope_bridge_gorge_v1",
+   "titel": "rope_bridge_gorge – Variante 1",
+   "soll": "Hängebrücke über tiefer Schlucht",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_rope_bridge_gorge_v1.png"
+  },
+  {
+   "id": "rope_bridge_gorge_v2",
+   "titel": "rope_bridge_gorge – Variante 2",
+   "soll": "Hängebrücke über tiefer Schlucht",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_rope_bridge_gorge_v2.png"
+  },
+  {
+   "id": "rope_bridge_gorge_v3",
+   "titel": "rope_bridge_gorge – Variante 3",
+   "soll": "Hängebrücke über tiefer Schlucht",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_rope_bridge_gorge_v3.png"
+  }
+ ]
+}

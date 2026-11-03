@@ -1,0 +1,25 @@
+{
+ "id": "casting_dorf_orte_r3",
+ "titel": "Dorf-Orte: Bà Tưs Laden",
+ "hinweis": "Pro Ort eine Variante mit OK markieren. Die anderen drei Orte sind gesetzt.",
+ "items": [
+  {
+   "id": "batu_shop_1",
+   "titel": "Bà Tưs Laden · 1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_batu_shop_v1.png",
+   "soll": "Weiße Fliesen, beige Wände, Fenster, verwinkelt, kleiner Altar."
+  },
+  {
+   "id": "batu_shop_2",
+   "titel": "Bà Tưs Laden · 2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_batu_shop_v2.png",
+   "soll": "Weiße Fliesen, beige Wände, Fenster, verwinkelt, kleiner Altar."
+  },
+  {
+   "id": "batu_shop_3",
+   "titel": "Bà Tưs Laden · 3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_batu_shop_v3.png",
+   "soll": "Weiße Fliesen, beige Wände, Fenster, verwinkelt, kleiner Altar."
+  }
+ ]
+}

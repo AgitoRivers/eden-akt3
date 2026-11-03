@@ -1,0 +1,43 @@
+{
+ "id": "taktikkarte",
+ "titel": "Taktik-Karte: erste Proben aus Krea2",
+ "hinweis": "Noch ohne Raster und ohne Figuren. Das Raster zeichnet später der Code.",
+ "items": [
+  {
+   "id": "luft_a",
+   "titel": "Luftbild a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\luft_a.png",
+   "soll": "Hafen, Dorf und Yacht gut zu unterscheiden, gefällt als Spielfeld?"
+  },
+  {
+   "id": "luft_b",
+   "titel": "Luftbild b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\luft_b.png",
+   "soll": "Hafen, Dorf und Yacht gut zu unterscheiden, gefällt als Spielfeld?"
+  },
+  {
+   "id": "gemalt_a",
+   "titel": "Gemalter Stil a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\gemalt_a.png",
+   "soll": "Hafen, Dorf und Yacht gut zu unterscheiden, gefällt als Spielfeld?"
+  },
+  {
+   "id": "gemalt_b",
+   "titel": "Gemalter Stil b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\gemalt_b.png",
+   "soll": "Hafen, Dorf und Yacht gut zu unterscheiden, gefällt als Spielfeld?"
+  },
+  {
+   "id": "iso_a",
+   "titel": "Schräg von oben a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\iso_a.png",
+   "soll": "Hafen, Dorf und Yacht gut zu unterscheiden, gefällt als Spielfeld?"
+  },
+  {
+   "id": "iso_b",
+   "titel": "Schräg von oben b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\iso_b.png",
+   "soll": "Hafen, Dorf und Yacht gut zu unterscheiden, gefällt als Spielfeld?"
+  }
+ ]
+}

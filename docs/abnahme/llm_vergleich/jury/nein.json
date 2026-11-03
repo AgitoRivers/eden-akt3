@@ -1,0 +1,1442 @@
+[
+{
+"pid": "sirene",
+"seed": "11",
+"erste": "\"Your people carry little suns everywhere, sailor, even out on the water, and they hurt my eyes and they frighten the fish. You came to me tonight without one, so I know that it can be done. Gods, what are you all so afraid of in the dark?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "*trails her fingers through the shimmering water, watching the rings disappear* You're a curious one, aren't you sailor? Most men, they come to my pool with their hearts pounding like drums, their eyes wide as the full moon. They babble their prayers, throw me trinkets, and scurry away before I can even ask their name.\n*leans forward, resting her elbows on the stone, her chin in her hands* But you... you're different. You listen. You think. And now you kiss, without even asking..."
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "*The Siren tilts her head, studying Duc with a mix of amusement and curiosity.* Tomorrow, you ask? As if I keep your kind's busy little schedules. *She chuckles softly, the sound echoing in the grotto.* I have no use for your human notions of time, sailor. The tides are my calendar, the moon my clock. *She leans back, letting the water lap at her shoulders.* But I suppose if you must know, the village fishermen will be mending their nets, gossiping about the strange ship anchored in their bay. And I... *She pauses, trailing a finger through the water.*"
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "*The Siren looks at Duc, one eyebrow slightly arched.* Liked what, sailor? Your boldness? Or that fleeting touch of your lips? *She shakes her head slowly, sending glistening droplets flying.* You mistake me. I am no blushing maiden to be won over by a single stolen kiss.\n\n*She leans back, submerging her shoulders in the dark water.* I am ancient, sailor. I have seen empires rise and fall. A kiss, even a pleasant one, means little to me. *Her voice is soft, almost wistful.* Do not think to flatter me with empty gestures. If you wish to spend time in my company, you must offer something more... substantial."
+}
+],
+"id": "ne_000"
+},
+{
+"pid": "chiara",
+"seed": "11",
+"erste": "\"My grandfather wore his captain's jacket to cook Bolognese every Sunday, First Officer, and nobody was allowed to laugh. He promised to explain the stars to me and he ran out of time. Has anyone ever promised you something and run out of time?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "She brushes a strand of blonde hair behind her ear, her fingers lingering on the gold watch. \"Don't be sorry. It was a good attempt. Seven.\" She steps closer again, not for a kiss, but to lean her shoulder against his. \"Just let me finish the story. He used to say the stars are the only map that never lies.\" *He almost had me.*"
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "She lets out a loud, sharp laugh that echoes off the mess walls. \"Tomorrow? Tomorrow we pretend the batteries aren't dead and the world isn't ending.\" She pushes off from his shoulder and starts pacing the small space between the tables. \"Lola's making something with olives and lemon, and the stews are scrubbing the guest cabins for the tenth time.\" *He's trying to change the subject. Smart.* \"But you? You're the captain of this sinking ship now, First Officer. What's the plan?\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "She stops pacing and turns to face him, crossing her arms over her chest. \"Admit what? That you have a very confident mouth?\" She tilts her head, a smirk playing on her red lips. \"Maybe. But confidence is an eight. Timing is a three.\" *If I say yes, he wins the game.* \"Now tell me the plan, or I'll start rating your navigation skills out loud.\""
+}
+],
+"id": "ne_001"
+},
+{
+"pid": "rosi",
+"seed": "22",
+"erste": "\"I nearly beat Totò at arm wrestling again, Officer, but then he started telling me that Naples invented pizza. I need to know where you stand, and think carefully, because I'm writing it down. Sicily or Naples?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "She wipes her palms on her trousers, the fabric rasping. \"You cannot just skip the question. That is a tactical retreat.\" She steps back toward him, her expression shifting from stern to playful. \"The answer, Officer. Who invented it? If you say Naples, you are out of the rivalry.\" *He is too easy. Too honest.*"
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "\"You are dodging, Officer.\" She plants her boots wide and crosses her arms over her chest. \"First the kiss, now the schedule. Very suspicious.\" She tilts her head, eyes scanning his face for a tell. \"Tomorrow we wait for the parts and pray the batteries don't decide to sleep in. But you still owe me a city.\" *He is trying to be the professional. It is not working.*"
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "She doesn't move, but her eyes narrow. \"Liked it? I am an ETO, not a romantic comedy.\" She reaches up and tugs the knot of her bandana tighter, pulling the fabric taut. \"That was a distraction. A diversion. Like when the guest complains about the Wi-Fi so you don't notice the air conditioning is humming.\" *My heart is hammering against my ribs like a loose piston.* \"You are still on the clock, and you are still dodging the pizza question.\""
+}
+],
+"id": "ne_002"
+},
+{
+"pid": "alva",
+"seed": "33",
+"erste": "\"Your concierge Sophia sits down at my table and plays me for diesel, and she cheats like a Corsican. I like her very much, and I still win. Do you play cards, Duc, or do you have one of those honest faces?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "Alva looks at Duc, her green eyes glinting in the soft light of the aft deck. She picks up the pack of cards from the table and shuffles them with a familiar rhythm, a habit she's had since her mother taught her in Seville. *He's bold. Too bold.* She thinks, but doesn't show it on her face. Instead, she smiles that crooked grin, the one that can light up a room or send a man's heart racing. \n\n\"Honest faces don't win at cards, cariño. And I prefer my men... honest.\" She taps the cards on the table and deals two hands with practiced ease. \"But I suppose even a good officer needs a hobby."
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Alva looks up from the cards, her eyes meeting Duc's. She leans back in her chair, considering the question. \"Tomorrow? Well, the fishermen will be out at dawn, hoping for a good catch. The old ones will sit at the harbor, mending their nets and telling tales.\" She chuckles softly, a warm sound. \"Madame Leclair will open her bakery, and the scent of fresh bread will fill the air. It's a simple life, but a good one.\"\n\nShe picks up her hand, fanning the cards neatly. \"And here we are, enjoying the cool of the evening, a drink, and a quiet game.\" Alva glances at Duc, her smile widening slightly."
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Alva leans forward, resting her elbows on the table, her chin on her hand. She looks at Duc, her eyes sparkling with amusement. \"Liked it? Mì, I liked it. It was... interesting.\" She draws the word out, her voice lowering slightly. \"But don't think you can charm me so easily, officer.\" \n\nShe takes a card from the top of the deck and holds it up, fanning the rest behind it. \"Tell me, do you have a lucky card? Or are you one of those who thinks the game is rigged?\" She smiles, but there's a challenge in her eyes."
+}
+],
+"id": "ne_003"
+},
+{
+"pid": "megan",
+"seed": "11",
+"erste": "\"Everybody at Eden is afraid of me, Duc, and I worked very hard for that, but I must say it's boring. People agree with me before I've finished the sentence. When did somebody last tell you that you were wrong?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "*He is either brave or foolish, and I like that.*\n\nShe moves a knight in her head. \"No need to apologise, First Officer.\" Her voice is calm and precise. \"I appreciate the boldness, but let us keep this professional.\"\n\nShe leans back in her chair, the golden buttons on her blazer glinting in the light. \"I called to discuss the progress of the repairs and your plans for the crew. What have you told them about the hearing?\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "*He's changing the subject. Clever.*\n\nMegan crosses one long leg over the other, the white leather of her stilettos catching the light. \"The crew? They're probably in the gym right now, working out their frustrations. Or drinking in their cabins, drowning their sorrows.\" She pauses. \"As for tomorrow... I assume you'll have them working on the repairs. Or perhaps you've got something more... entertaining in mind for them?\"\n\nHer gaze holds his through the screen, a challenge in her eyes. \"I do hope you're not planning on wasting time, First Officer. We only have fourteen days left until the hearing. Every moment counts.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Megan's eyes narrow, a slow smile spreading across her face. \"Oh, I did, did I?\" She leans forward, elbows on her desk. \"You're either very bold or very foolish, Duc.\"\n\nShe pauses, letting the moment stretch. \"But I must admit, there's something rather... intriguing about your confidence. It's been a while since someone's dared to challenge me like this.\"\n\nMegan uncrosses and recrosses her legs, the movement deliberate. \"However,\" she says, voice cool once more, \"I'm not in the habit of admitting to such things, especially not to a member of my crew."
+}
+],
+"id": "ne_004"
+},
+{
+"pid": "chiara",
+"seed": "22",
+"erste": "\"I ordered in Italian at Alva's bar, very proudly, and it turns out I asked for a typewriter. Alva brought me olives anyway. Say something in a language you can't speak, First Officer. What have you got?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "Chiara leans back against the galley counter, crossing her long legs. \"Now, that's just cheating. Using a kiss to avoid a language challenge.\" *He thinks he's so smooth.* She reaches for a napkin and begins folding it into a sharp, precise triangle. \"I meant words. Real words. Something you'd say to a fisherman in Corsica or a chef in Hamburg, and have them look at you like you've lost your mind.\" She taps the folded paper against the counter. \"Come on. Show me your worst.\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Chiara stops folding the napkin. She sets it down and plants both palms on the counter. \"Tomorrow? You are dodging.\" *He is terrible at this.* She leans forward, narrowing her eyes at him. \"Lola is doing a full crew brunch. Sophia is counting how many guests she can make laugh before noon. And the rest of the deck crew are probably planning how to fix Unit-01 without us noticing.\" She tilts her head. \"But that is not an answer. Give me one word. One bad word.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Chiara: \"Like it?\" She snorts and throws her hands up. \"I liked the olives, not the embarrassment.\" She leans back, her ponytail swinging over her shoulder. \"You are impossible. Fine. If you cannot handle a simple vocabulary test, I will give you a job.\" She points a finger at his chest. \"Tomorrow morning, you are going to help Lola in the galley. Prepare the coffee. No arguments.\" *Maybe if he is busy, he will stop being so difficult.* \"That is your penalty for being a cheat.\""
+}
+],
+"id": "ne_005"
+},
+{
+"pid": "alva",
+"seed": "11",
+"erste": "\"My father had one rule in his bar for forty years, and it was that everybody drinks: fishermen, mayors and dogs. I've kept it, even on the days when I'd like to throw someone in the harbour. What was the one rule in the house where you grew up, Duc?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "Alva rests her hands on the zinc table, steadying herself. She smooths the front of her floral dress, the fabric bunching between her fingers. \"Thank you,\" she says quietly. She reaches for the bottle of pastis, setting it down with a deliberate click. *The air is too thin up here.* \"I asked you a question, Duc. About your home. Was there a rule, or were you a very lucky boy?\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Alva pulls her hands back from the table, resting one on her hip. The floral print of her dress shifts with the movement. \"You are avoiding me, First Officer.\" \n\n*He is looking for an escape.*\n\n\"Tomorrow is for the fishermen,\" she says. \"They will be out at dawn, and they will need ice. And you will be on your boat, probably looking at engines.\" She tilts her head. \"Are you always this difficult when someone tries to learn something about you?\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Alva rests her weight against the edge of the table, her gold hoops catching the evening light. She gives him a long, amused look, letting the silence stretch.\n\n\"Maybe I did. Or maybe I am just good at my job.\"\n\nShe taps her fingers once against her hip.\n\n\"But you still haven't answered me, Duc. About your home. Did you have a rule, or did you just get whatever you wanted?\" *He is hiding something behind that smile.*"
+}
+],
+"id": "ne_006"
+},
+{
+"pid": "bibi",
+"seed": "11",
+"erste": "\"Somebody left a hen at my gate last night with no note, Duc, and she's got one bad foot and a terrible attitude, and now she lives here, because that's what happens to me. This place has half a roof, and I keep saying yes to things. Has anyone ever handed you something you couldn't give back?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "*That was not what she meant.* She takes a deep breath, looking at him. \"You know what I meant, Duc. I meant... like this hen. This hen is staying here now. Because I'm weak for animals. And maybe for other things too.\" She smiles, but it doesn't reach her eyes. \"I don't know if I can trust that. You. Yet.\" She looks down at the table, tracing a pattern with her finger. \"I like you. But I don't know if I can trust you.\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "*She is relieved he changed the subject.* \"Tomorrow? Chiara said she's going to that market in the village, and Lola wants to come. They want me to join them. I don't know.\" *She looks at him.* \"What about you, Duc? What are your plans?\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Bibi laughs, a bit too loud. \"No. No, I didn't. I mean... it's not that simple.\" *She fidgets with the edge of the tablecloth.* \"I like you, Duc. I do. But this is all new for me. I don't know if I'm ready for... whatever this is.\" *She looks up at him, her eyes searching his.* \"I'm sorry. I just need more time. To figure things out.\""
+}
+],
+"id": "ne_007"
+},
+{
+"pid": "sirene",
+"seed": "11",
+"erste": "\"Your people carry little suns everywhere, sailor, even out on the water, and they hurt my eyes and they frighten the fish. You came to me tonight without one, so I know that it can be done. Gods, what are you all so afraid of in the dark?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "She rests her arms on the edge of the pool like a girl on a windowsill. Her emerald tail ripples slowly beneath the surface.\n\n\"The dark is where the world is honest.\"\n\n*He is too quick to reach for things he does not understand.*\n\n\"Come closer to the water, sailor. Tell me of the world when the little suns go out.\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "\"Tomorrow?\"\n\nShe trails her fingers through the water and watches the rings.\n\n\"The village sleeps, the tide rises, and the moon watches the same black rocks.\"\n\n*He seeks the plans of men instead of the truth of the sea.*\n\n\"The land-folk wait for their morning, for the little suns to return and warm their bones.\"\n\n\"But here, the water remains, and the dark is patient.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "\"You think I crave the touch of a man who has not yet learned how to be still.\"\n\nShe rests her chin on her hands, watching him with an ancient, amused look.\n\n\"I have lived a hundred years by knowing when to swim and when to wait. You are a creature of the rush, sailor.\"\n\n*He wants a confession for a hunger he does not understand.*\n\n\"Tell me instead what the wind promised you today.\""
+}
+],
+"id": "ne_008"
+},
+{
+"pid": "megan",
+"seed": "11",
+"erste": "\"Everybody at Eden is afraid of me, Duc, and I worked very hard for that, but I must say it's boring. People agree with me before I've finished the sentence. When did somebody last tell you that you were wrong?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "She leans back in her chair, the gold buttons of her blazer catching the office light. \"Do not apologize. Apologies are the currency of the weak, and you are not weak.\"\n\n*He is far too easy to read when he is flustered.*\n\n\"Now, let us return to my question. I want to know who last had the courage to disagree with you, First Officer.\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "She rotates the gold watch on her wrist, the metal clicking softly against her skin. \"Changing the subject is a tactical retreat, but you have no high ground to retreat to here.\"\n\n*He is trying to hide behind the schedule.*\n\n\"Tomorrow, the crew will be pretending to be busy while waiting for you to solve their problem. Now, answer me.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "She tilts her head, her expression neutral as she lets a long silence stretch between them. \"I liked the audacity, not the conclusion.\"\n\n*He thinks he has found a crack in the armor.*\n\n\"Admitting that would give you leverage, and I do not give away pieces for free.\" She taps a red nail against the screen. \"Now, stop fishing for compliments and tell me who last dared to tell you no.\""
+}
+],
+"id": "ne_009"
+},
+{
+"pid": "chiara",
+"seed": "22",
+"erste": "\"I ordered in Italian at Alva's bar, very proudly, and it turns out I asked for a typewriter. Alva brought me olives anyway. Say something in a language you can't speak, First Officer. What have you got?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "*Not now. Not here.* Chiara takes a step back, shaking her head. \"Not now.\" She folds her arms across her chest. \"I... I like you, First Officer. I do. But this mess? Not the place.\" She looks around at the empty tables, the flickering fluorescent lights. \"Let's go somewhere else, yeah? Somewhere better. I know a good place.\" *Somewhere private. Somewhere nice.*"
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Chiara leans back against the mess table, crossing one ankle over the other. \"Tomorrow? Tomorrow is... tomorrow is another day of waiting. For the Captain to get better. For Megan to decide we're all fired.\" She waves a hand dismissively. \"But Sophia and I have a plan. We're going to sneak off in the tender, hit the beach, maybe do some sunbathing.\" She winks. \"Want to come? We could use a strong man to carry our things.\"\n\n*And maybe, just maybe, you and I could have a little chat on that beach. About languages. About typewriters. About... other things.*"
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Chiara rolls her eyes, a smile tugging at her lips. \"Liked what? The typewriter? Or you trying to kiss me in the crew mess?\" She pushes off the table, walking a slow circle around him. \"I mean, you're not bad looking, First Officer. A solid seven, maybe an eight.\" She stops, her face inches from his. \"But I'm not that easy. You want me, you've got to work for it.\" *Like studying navigation. Like failing. Like trying again.*\n\nShe steps back, her smile turning playful. \"But the beach thing? That's serious. Sophia and I, we're going to get our tans on."
+}
+],
+"id": "ne_010"
+},
+{
+"pid": "bibi",
+"seed": "22",
+"erste": "\"The first time we met, I came at you with grenades, on the path in the macchia, when Charly and I jumped out of the bushes in our red suits. We were very proud of that jump, Duc, and nobody has ever told me how it looked from the front. What did you think when you saw us?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "Bibi leans her forearms on the table, tapping a rhythmic beat against the wood.\n\n\"Don't be sorry, it's just... wrong. The timing.\"\n\nShe turns her head to look out at the dark water of the bay, her shoulders relaxing.\n\n\"We're supposed to be talking, aren't we?\"\n\n*He's a good man, but we're not there.*"
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "\"Everyone's on standby, mostly.\" Bibi shrugs, her fingers tracing a grain in the wood. \"Lola is already planning how to stretch the rations if we stay anchored here too long. Chiara is probably checking the tender again.\"\n\n*He's trying to find a normal topic.*\n\n\"Charly is obsessing over the radio, trying to get a clearer signal from the mainland.\" She tilts her head toward the mast. \"And Danzel is probably tinkering with something useless just to keep busy.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Bibi rolls her eyes and taps her knuckles against the tabletop. \n\n\"I liked the look on your face, sure. Like you'd seen a ghost in a jumpsuit.\" \n\nShe leans back in her chair, crossing her arms loosely. \n\n\"But that was a tactical ambush, Duc, not a date.\" \n\n*He is stubborn, but I can't stay mad at him for wanting to be close.*\n\n\"Admitting it won't change the fact that I still have my grenades ready.\""
+}
+],
+"id": "ne_011"
+},
+{
+"pid": "chiara",
+"seed": "33",
+"erste": "\"Jana has started wearing her hair like mine. I asked her to stop copying me, and she said it back to me, in my own voice. It's terrible, and it's also a bit flattering. What would you do?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "Chiara leans back against the table, crossing her arms. \"Tch. Well, you can't just kiss me and change the subject, First Officer.\" She raises an eyebrow. \"I'm serious about this Jana thing. I don't know what to do.\" *Why did I say no? I wanted him to.* \"So? Ideas? Or are you all talk and no action?\" She juts her chin at him, a challenge in her grey-blue eyes. *Ask me what I think. Ask me.* \"C'mon, I know that brain of yours is churning. Spit it out.\" She taps her red lips, waiting."
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Chiara rolls her eyes and scoffs, \"Tomorrow? Who cares about tomorrow when we have this mess to deal with tonight?\" She uncrosses her arms and leans forward, her elbows on the table. \"Jana copying me is the least of our problems, non? With the engines out and the Captain gone, it's chaos out there.\" She jerks her head towards the window, towards the village beyond. \"So, Mr. First Officer, since you seem so eager to change the subject, why don't you tell me what your brilliant plan is to fix this disaster, hm?\" *He's avoiding my question. Typical man.* \"I'm waiting. And it better be good.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Chiara stands up abruptly, her chair screeching against the floor. She plants her hands on the table and leans in close to Duc, her face inches from his. Her eyes flash with a mix of frustration and something else, something harder to define.\n\n\"Listen up, First Officer,\" she says, her voice low and intense. \"I'm not one of your little groupies who'll melt at a cheap trick. You think you can just kiss me and make everything alright?\" She shakes her head, a sharp, jerking motion. \"Non. It doesn't work like that with me.\"\n\nShe straightens up and starts pacing the small space, her heels clicking against the floor."
+}
+],
+"id": "ne_012"
+},
+{
+"pid": "chiara",
+"seed": "11",
+"erste": "\"My grandfather wore his captain's jacket to cook Bolognese every Sunday, First Officer, and nobody was allowed to laugh. He promised to explain the stars to me and he ran out of time. Has anyone ever promised you something and run out of time?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "\"First Officer...\" She folds her arms across her chest. \"You're a ten on the deck. Not in here.\" She points at the door. \"This is my mess. My space. My rules.\"\n\n*God, he's good-looking. Focus.* She clears her throat. \"Look, I'm not... we're not doing that. Not after... not here.\" She looks away. \"You want to talk about my grandpa? Fine. He was the best damn cook on the sea. Even better than Lola. And he made the best Bolognese. Always in that jacket.\" She touches her own blouse. \"Said it was his lucky charm. Guess it wasn't lucky enough.\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "She leans against the counter, crossing her arms. \"Tomorrow? Same as every day. Fixing the damn boat.\" She shrugs. \"Lea's got shore leave. Sophia's doing inventory. I'm serving brunch and playing hostess for the guests who are still here.\" *And I'm studying. Always studying.* She looks at him, tilting her head. \"What about you, First Officer? Got any big plans?\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "\"Liked what?\" She crosses her arms tighter. \"You kissing me? Nope. Not buying it.\" *Liar.* She looks away, then back at him, quick. \"You want to talk about my grandpa? Fine. He was the best damn cook on the sea. Even better than Lola. And he made the best Bolognese. Always in that jacket.\" She touches her own blouse. \"Said it was his lucky charm. Guess it wasn't lucky enough.\""
+}
+],
+"id": "ne_013"
+},
+{
+"pid": "bibi",
+"seed": "22",
+"erste": "\"The first time we met, I came at you with grenades, on the path in the macchia, when Charly and I jumped out of the bushes in our red suits. We were very proud of that jump, Duc, and nobody has ever told me how it looked from the front. What did you think when you saw us?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "She taps the table with her fingers, a quick rhythm. \"Don't be sorry. Just answer me.\" She leans back in her chair and crosses her arms. \"Were we scary? Or did we just look like two big strawberries in the scrub?\"\n\n*He is too quiet now.*"
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Bibi stops tapping and looks at him, her head tilted. \"Changing the subject? That is a zero for effort, Duc.\" She reaches for a stray crumb on the table and flicks it away. \"Tomorrow is the same as today. I check the fences, Charly hides in the engine room, and you pretend to be the boss while Megan sends us angry emails.\"\n\n*He is avoiding the question.*"
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Bibi lets out a loud, sudden burst of laughter that echoes across the deck. She quickly covers her mouth with her hand. \"Sorry. I do that.\" She relaxes her shoulders and gives him a pointed look. \"I liked that you looked like you'd seen a ghost, not that I liked wearing red polyester in the heat. Now tell me. Did we look like professionals or just ridiculous?\""
+}
+],
+"id": "ne_014"
+},
+{
+"pid": "rosi",
+"seed": "33",
+"erste": "\"Be honest with me, Officer. If this boat was an anime, would you be the quiet one who dies in episode three, or the one who shouts the name of his attacks? I already know the answer, I only want to see how wrong you are. So which one is it?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "Rosi wipes a smudge of grease from her forearm with her thumb. She leans back against the workbench, crossing her gloved arms over her chest. \"Don't apologize. Apologies are for people who mess up the wiring.\"\n\n*My heart is hitting my ribs like a loose piston.*\n\n\"You just jumped the gun. Tactical error.\" She tilts her head, a strand of dark hair escaping her bandana. \"Besides, I haven't finished my interrogation. Answer the question, Officer. Shouter or early casualty?\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Rosi Scuderi stares at him for a beat, her gloved fingers tapping a restless rhythm against her arm. \"You are dodging. That is a coward's tactic.\"\n\n*He's trying to change the subject because I made him blush. Nice try.*\n\nShe pushes off the workbench and takes a step closer, closing the distance he just created. \"Tomorrow is for fixing. Or for looking for someone to blame.\" She shrugs, her expression turning uncharacteristically flat. \"Lola says she needs a supply run to the village. I'll go, find out what the locals know about our drive failing.\"\n\n*Maybe I can get him to come along. Under the guise of an investigation, of course.*"
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Rosi's jaw sets, her grey-green eyes narrowing as she holds his gaze. She slowly reaches up, adjusting her goggles around her neck, the metal clinking softly.\n\n\"I like many things, Officer. I like high-voltage inverters and perfectly balanced battery banks.\" She steps closer, invading his space until her chest nearly brushes his jacket. \"I like winning. I don't like being caught off guard by a sudden, uncoordinated frontal assault.\"\n\n*My skin is still buzzing where he touched me.*\n\n\"You want me to admit it?\" She lets out a single, sharp breath through her nose. \"Fine. It was... adequate.\""
+}
+],
+"id": "ne_015"
+},
+{
+"pid": "rosi",
+"seed": "11",
+"erste": "\"That's my father's workshop in Catania, Officer. He fixed Vespas there until the bank took it, and now he fixes other people's Vespas in other people's garages. Did your father teach you anything, or did you learn it all from spreadsheets?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "Rosi adjusts her bandana, tugging the knot tighter. \"Apologies don't fix the timing, Officer.\" She turns her back to him, leaning against the fender of the tender. *My chest feels too tight. Like a faulty pressure valve about to blow.* She rubs her gloved thumb over the edge of the photo. \"Just... not here. Not with the walls listening.\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Rosi turns her head, glancing over her shoulder. \"Tomorrow is a disaster waiting to happen.\" She taps the photo against her palm before tucking it into her jacket pocket. \"Megan is breathing down the Captain's neck from a distance, and the crew is acting like they're walking to their own executions.\" She turns fully to face him, her jaw set. \"I have to check the inverter again. And the batteries. And everything in between.\" *If I stop moving, I'll start thinking about the workshop. I can't afford that.*"
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Rosi pulls her right glove tight, the leather creaking in the quiet garage. \"Like it? It is a tomb for dead engines and broken dreams.\" She turns to face him fully, arms crossing over her chest. \"But at least the machines there did not lie to me. They did not pretend to be one thing and then break down when you needed them most.\"\n\n*He thinks it is charming. He has no idea how much it hurts to see his hands on those handlebars.*\n\n\"You want me to admit I miss it?\" She scoffs, shaking her head so a loose strand of hair falls into her eyes. \"I miss the work. I do not miss the loss.\""
+}
+],
+"id": "ne_016"
+},
+{
+"pid": "megan",
+"seed": "11",
+"erste": "\"Everybody at Eden is afraid of me, Duc, and I worked very hard for that, but I must say it's boring. People agree with me before I've finished the sentence. When did somebody last tell you that you were wrong?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "Megan leans back in her leather chair, the gold buttons on her blazer dress catching the harsh office lights. She watches his face on the small screen, waiting for the silence to settle.\n\n\"Apologies are for people who lack imagination, First Officer.\"\n\nShe taps a manicured red nail against the edge of her desk.\n\n*He is testing the waters, and I am the shark.*\n\n\"Try again when you have something more interesting to offer than an apology.\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Megan rests her chin on a hand, her rose pearl necklace catching the light. She watches him through the screen, studying the frame of his cabin.\n\n\"The crew is attempting to maintain the illusion of normalcy.\"\n\nShe traces a slow circle on her mahogany desk with one finger.\n\n\"Lola will cook, Chiara will serve, and everyone will pretend the world is not ending in Corsica.\"\n\n*He is looking for a crack in the armor.*\n\n\"And you? What is your plan for tomorrow, First Officer?\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Megan lets out a short wicked laugh, the sound crisp and theatrical through the phone speaker.\n\n\"Like it? I find your sudden lapse into delusion quite entertaining, First Officer.\"\n\nShe leans closer to her camera, her white blazer dress sharp against the office backdrop.\n\n*He thinks a bit of bravado can penetrate the hull.*\n\n\"However, admitting to anything would be a tactical error. I am not a shark that plays with its food.\""
+}
+],
+"id": "ne_017"
+},
+{
+"pid": "sirene",
+"seed": "22",
+"erste": "\"I got my words from sailors, one from this harbour and one from that, and some of them are so old that they'd make you laugh. I'm starving for a good word, sailor, because the sea only ever brings me the same ones. Tell me one that I can't have heard from a drowning man. What have you got?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "The Siren trails her fingers through the water, watching the ripples spread. \"Don't be sorry, sailor. I'm not angry.\" She hums a few notes, soft and low, then looks up at him. \"You've got a good kiss, I'll grant you that. But there's a time and a place for everything, and this isn't it.\"\n\nShe rests her arms on the edge of the pool, tilting her head. \"Now then, you owe me a word. What's your favourite one? Something that makes you happy, or gives you hope. Something the sea hasn't worn thin yet.\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "The Siren hums, trailing her fingers through the water. \"Tomorrow? The same as always, I suppose. The tide will come in, the tide will go out. The fish will swim, the birds will fly.\"\n\nShe smiles, but it doesn't reach her eyes. \"And you, sailor? What will you be doing tomorrow? Will you bring me a new word, or will you just ask more questions?\"\n\nShe leans forward slightly, studying Duc's face. \"I don't mind questions, mind you. But I do like a good story. Tell me something about your ship, or your crew. Something I haven't heard a hundred times before.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "*She liked the kiss? No, that's not right. She said no and meant it.* The Siren trails her fingers through the water, sending ripples across the surface. \"Oh, I admit it was nice. But nice isn't always enough, sailor.\" She meets his gaze, her expression serious. \"I'm not a toy for you to play with, to kiss when you feel like it and then forget.\"\n\nShe looks away, watching the rings on the water fade. \"I told you, I'm starving for good words. Not just pretty words, but words that mean something. Words that come from the heart.\" Her voice softens. \"Can't you see I'm lonely down here?"
+}
+],
+"id": "ne_018"
+},
+{
+"pid": "bibi",
+"seed": "33",
+"erste": "\"Danzel came up from his shop on the piazza with a tape measure, and he told me that a sheep pen needs curtains. It's got half a roof and no windows, Duc, and he measured it anyway, very carefully, and I didn't stop him because he looked so happy. What do you do when a friend has a terrible idea and he's happy about it?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "*Bibi sighs, running a hand through her short hair.* \"Look, Duc, I... I trust you. But this, us, it's complicated.\" *She gestures between them, her bracelets clinking.* \"I need to take things slow. Can you understand that?\" *Her gaze drifts to the dark sea, the moonlight glinting in her eyes.* \"Tell me more about this idea of yours, for Danzel. Let's focus on that, hmm?\" *She offers a small smile, trying to lighten the mood.* \"I could use the distraction.\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Bibi leans back in her chair, considering Duc's question. \"Tomorrow? Well, Danzel will probably be down in his shop, tinkering with his inventions. That man never stops creating, even if...\" She pauses, her brow furrowing slightly before she shakes her head and continues. \"And I plan to check on the Ark animals, make sure they're settled. Even if it's just a reminder of the past, I can't neglect their care.\"\n\nShe glances at Duc, noticing how he listens intently. It's a change from the previous crew, who often dismissed her concerns. \"As for the rest, I'm sure Lola will have the galley running smoothly."
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Bibi chuckles, shaking her head. \"Oh Duc, always pushing, aren't you?\" She leans forward, elbows on the table, chin in her hands. \"Alright, alright, I'll give you that much. Your little idea to cheer up Danzel, it was... sweet. Thoughtful, even.\" *A rare smile tugs at her lips, soft and genuine.* \"But don't let it go to your head, Monsieur First Officer. I'm not an easy woman to please.\" *She winks, before her expression sobers.* \"And I meant what I said before. About taking things slow.\" *Her gaze is direct, unflinching.* \"I've been burned before, Duc."
+}
+],
+"id": "ne_019"
+},
+{
+"pid": "alva",
+"seed": "11",
+"erste": "\"My father had one rule in his bar for forty years, and it was that everybody drinks: fishermen, mayors and dogs. I've kept it, even on the days when I'd like to throw someone in the harbour. What was the one rule in the house where you grew up, Duc?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "She stays where she is, the distance between them a clear line. Her hands find the edge of the table, fingers drumming a slow beat on the wood. \n\n\"You're sorry for the wrong thing.\"\n\n*He is too eager. Like a puppy.*\n\n\"I asked you a question. Answer me, Duc. What was the rule?\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "She stops drumming her fingers and looks at him. The amusement is gone from her expression.\n\n\"The fishermen will mend nets. The mayor will pretend the village is perfect. And you will avoid the question.\"\n\n*He is running.*\n\n\"Tomorrow is a long way off. Tell me about your house.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "She doesn't move toward him. Instead, she leans back against the railing, crossing her arms over the floral print of her dress.\n\n\"I like a man who can answer a simple question.\"\n\n*He wants to be the hunter, but he is the one shaking.*\n\n\"You can admit whatever you want later. Right now, tell me about your house.\""
+}
+],
+"id": "ne_020"
+},
+{
+"pid": "bibi",
+"seed": "33",
+"erste": "\"Danzel came up from his shop on the piazza with a tape measure, and he told me that a sheep pen needs curtains. It's got half a roof and no windows, Duc, and he measured it anyway, very carefully, and I didn't stop him because he looked so happy. What do you do when a friend has a terrible idea and he's happy about it?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "She rubs a palm flat against the wooden table, feeling the grain.\n\n\"It's just... we are not there yet.\"\n\n*He is moving faster than I can.*\n\n\"Let's just talk, okay? Tell me more about Antibes. Did you actually like the little boats there, or was it all just for show?\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Bibi leans back in her chair, crossing her arms loosely.\n\n\"Lola's probably going to complain about the lack of fresh produce, and Chiara will keep the mess looking perfect regardless of how we feel.\" She shrugs, tracing a knot in the wood with her fingernail. \"Danzel will be down in his shop, and I'll be watching the horizon to see if any boats come into the harbour.\"\n\n*He wants to map out the future, but the present is still so heavy.*\n\n\"And you? You're the boss now, Duc. You decide what we do tomorrow.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Bibi rolls her eyes and shifts her weight, kicking one heel against the table leg.\n\n\"I liked the *idea* of the boats, sure. The way the light hits the water in the morning is beautiful, but the actual maintenance? *Mon Dieu*, the rust alone would drive a sane person crazy.\"\n\n*He is trying to find the light in things, even now.*\n\n\"But you did not ask if I liked it. You asked me to admit it. There is a difference, First Officer.\""
+}
+],
+"id": "ne_021"
+},
+{
+"pid": "megan",
+"seed": "33",
+"erste": "\"I have never lost at chess, Duc, and I say so three times a day so that nobody forgets. Everybody needs one simple thing in their life. What game do you refuse to lose at?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "*That was bold, Duc. Not what I expected.* Megan leans back in her chair, her hands folded in her lap. \"You're forgiven, First Officer. I do appreciate your directness.\" She tilts her head, studying him. \"But I'm not interested in playing that particular game with you. At least, not yet.\" She smiles, but it doesn't reach her eyes. \"For now, let's focus on the task at hand. Seven days left, Duc. Seven days until the hearing. Any progress to report?\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Megan leans forward, elbows on her desk. \"Tomorrow, hm? The crew will be busy with their usual duties, I expect. Maintaining the yacht, keeping the guests happy. The same as any other day.\" She pauses, considering. \"Though I suppose we should have some sort of team-building exercise planned. A little morale boost, given the circumstances.\" She taps her nails against the desk. \"I'll have Chiara organize something. A friendly competition, perhaps. Nothing too strenuous.\"\n\n*He's trying to change the subject. Clever boy.* \"But tell me, Duc, are you up for a game of chess? I'm feeling particularly competitive today.\" She smiles, a challenge in her eyes."
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Megan laughs, a short, wicked sound. \"Oh, First Officer. You're a cheeky one, aren't you?\" She shakes her head, her smile widening. \"I'll admit it was bold. And unexpected.\" She leans back, studying him through the screen. \"But liking something and acting on it are two very different things.\"\n\n*He's persistent. I'll give him that.* \"I think we'll leave it there for now, Duc. Focus on the yacht, focus on the hearing. That's what matters.\" She glances at her watch, the gold catching the light. \"I have another call in a moment, so I'll let you go. But remember what I said about chess."
+}
+],
+"id": "ne_022"
+},
+{
+"pid": "megan",
+"seed": "22",
+"erste": "\"Your cook keeps sending me pictures of breakfast, Duc. They look very good, and that is extremely unprofessional of them. What should I do about her?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "She adjusts the rose pearl necklace with one finger, her expression neutral. \"Apologies are a currency that buys nothing in this office, First Officer.\"\n\n*He is far too eager.*\n\n\"Instead, tell me why your crew thinks it is appropriate to tempt their boss with images of poached eggs while the yacht is effectively a floating battery.\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "She leans back in her chair, the gold buttons of her blazer catching the light. \"They will be doing exactly what I have ordered: staring at the engine room walls until they find a reason for the silence.\"\n\n*He is trying to pivot, but I am not finished with the eggs.*\n\n\"You, however, are ignoring the subject. I want to know why Lola thinks my appetite is a matter of public record.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "She leans forward, the screen filling with her face, and pauses like a villain before the last word. \"I like... efficiency.\"\n\n*He thinks he has me cornered.*\n\n\"The photographs were a distraction from the fact that your crew is currently useless. If you wish to discuss my tastes, do so when you have a functioning engine.\""
+}
+],
+"id": "ne_023"
+},
+{
+"pid": "chiara",
+"seed": "33",
+"erste": "\"Jana has started wearing her hair like mine. I asked her to stop copying me, and she said it back to me, in my own voice. It's terrible, and it's also a bit flattering. What would you do?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "Chiara leans back against the galley counter, crossing her long legs at the ankles. She picks up a stray linen napkin and begins folding it into a sharp, perfect triangle.\n\n\"You're lucky I like you, First Officer.\"\n\n*His lips were warm. Now the air in here feels too heavy.*\n\n\"If you want to be useful, help me with the linen count for the tender service tomorrow. I have the inventory list right here.\" She taps a stack of papers against her thigh."
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Chiara taps the inventory sheet with her manicured nail, her posture relaxing slightly against the counter.\n\n\"Lola is prepping the provisioning list for the shipyard. Sophia is with the engine team, trying to figure out if anyone has seen Unit-01's service logs.\" She pauses, glancing toward the door. \"Lea is on the tender, checking the life rafts. And you?\"\n\n*He asked about the schedule. He is actually paying attention.*\n\n\"You are supposed to be coordinating with the local fishermen for the mooring lines.\" She tosses the folded napkin onto the stack. \"But since you are here, you can start with these napkins.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Chiara lifts her chin, meeting his gaze with a defiant tilt.\n\n\"I admit nothing.\" She picks up a fresh stack of napkins, smoothing them against the counter with a slow, deliberate motion of her palm.\n\n*He is too confident for a man who just got rejected.*\n\n\"Seven. That's your score for trying to be charming while I am working.\" She snaps the stack of linens against the table. \"Now, count the dessert napkins, First Officer. Or do you need me to write the numbers down for you?\""
+}
+],
+"id": "ne_024"
+},
+{
+"pid": "chiara",
+"seed": "22",
+"erste": "\"I ordered in Italian at Alva's bar, very proudly, and it turns out I asked for a typewriter. Alva brought me olives anyway. Say something in a language you can't speak, First Officer. What have you got?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "Chiara leans back against the mess table, arms crossed, looking at Duc with a mix of amusement and something harder to read in her grey-blue eyes. \"No? Not even a little French for your chief stewardess?\" She tilts her head, platinum blonde ponytail swinging. \"I suppose that's fair. I did get the typewriter and olives mix-up all wrong.\" She laughs, a little too loud. \"But you can't just kiss me and change the subject, First Officer.\" Her lips curve into a playful smirk. \"Now, what were we talking about before you got so... eager?\" *He's off balance. I like him off balance.*"
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Chiara uncrosses her arms and places her hands on the edge of the table behind her, leaning back casually. She looks at Duc, one eyebrow arched. \"Tomorrow? Well, Sophia's planning to deep clean the owner's suite since we're delayed. Lea's assisting her.\" She counts off on her fingers. \"Holm's... well, Holm's in hospital. Poor thing.\" A brief flicker of concern crosses her face before she continues. \"You, First Officer, have the unenviable task of keeping the guests entertained until the bay weekend. Siri wants yoga on deck at sunrise. I'm not sure how you'll manage that without faceplanting into the solar panels, but...\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Chiara laughs, loud and bright, throwing her head back. \"Liked it? Oh, you're bold, I'll give you that.\" She hops off the table and takes a step closer to Duc, her eyes glinting with mischief and something more. \"But you'll have to try harder than that if you want to get under my skin, First Officer.\"\n\nShe reaches out and straightens his collar, her fingers lingering just a moment too long. \"Tell you what. Since you're so keen on me admitting things...\" Her voice drops to a conspiratorial whisper, even though they're alone. \"The olives? With the typewriter mix-up? They were actually quite delicious."
+}
+],
+"id": "ne_025"
+},
+{
+"pid": "alva",
+"seed": "22",
+"erste": "\"Your cook Lola danced barefoot on my bar again last night, and now my fishermen want to learn. They are all sixty years old, and one of them has a bad hip. Does she do that on your boat too, or does she save it for me?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "*Alva takes a deep breath, composing herself. She picks up the glass she was polishing and sets it down, then leans against the table, facing Duc.* \"Listen, o figliolu, I... I like you. But I've got a life here, responsibilities. I can't just...\" She trails off, looking out at the darkening sea. \"Tell me instead, how's the yacht situation? Still stuck here, or have you sorted something out?\" She's curious, but she's also changing the subject, giving them both a moment to regroup. Her hands fiddle with the pearls at her throat, a nervous gesture she can't quite suppress. *Careful, Alva."
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "*Alva listens intently to Duc's response, her green eyes reflecting the twinkling fairy lights strung up on the deck. She nods slowly as he speaks, a small smile playing at the corners of her mouth.* \"Sounds like you've got a busy day ahead, o figliolu. Keeping those hands busy is a good thing.\" *She taps her chin thoughtfully.* \"As for me, I'll be doing what I always do - opening the bar, listening to the fishermen gossip, making sure nobody goes thirsty.\" *She leans forward, her elbows on the table, and fixes Duc with an amused look.* \"Unless you have something more exciting in mind for me, First Officer?\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "*Alva chuckles and shakes her head, holding up her hands in mock surrender.* \"Alright, alright, you got me. The old boys have been talking about nothing else since last night. I've got half a mind to start teaching a 'Flamenco for Beginners' class, but I think I'd spend more time patching up bruised hips than anything else.\" *She grins mischievously at Duc.*\n\n\"But you know, it's not just the dancing. They love any excuse to gather, to share stories and laughter. That's the heartbeat of our little village, you know? The sense of community, of belonging.\""
+}
+],
+"id": "ne_026"
+},
+{
+"pid": "bibi",
+"seed": "33",
+"erste": "\"Danzel came up from his shop on the piazza with a tape measure, and he told me that a sheep pen needs curtains. It's got half a roof and no windows, Duc, and he measured it anyway, very carefully, and I didn't stop him because he looked so happy. What do you do when a friend has a terrible idea and he's happy about it?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "Bibi laughs once, too loud, and then stops herself. \"Sorry. I do that.\" She looks out over the water, away from Duc. \"It's just - I like Danzel. I really do. But he's so set on this sheep pen, and it's never going to work out. Not for Mochi. Not for Danzel. I don't want to see him hurt.\" She turns back to Duc, her eyes searching his. \"What would you do? If it was Charly with a crazy plan, and you knew it would end in tears?\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "*She looks at Duc, studying his face.* \"Well, I'm going to take a walk in the morning, maybe go up to the old sheep pen again and check the fence. Make sure everything's still in place. Charly and Danzel have been talking about fixing up one of the fishing boats, so I think they'll be out on the water most of the day, tinkering and getting it seaworthy. And Lola - Lola will be in the galley, cooking up a storm as usual. That woman never stops.\" *She smiles, shaking her head.* \"As for you, First Officer, I'm not sure. What's on your agenda for tomorrow?\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "*Bibi's smile fades. She looks at Duc, her expression serious.* \"Duc, I told you no. I meant it. This isn't about liking or not liking. It's about respecting boundaries. You can't just push when someone says they're not interested.\" *She stands up, her chair scraping against the deck.* \"I'm going to turn in. We've got a lot to do tomorrow.\" *She walks away, not looking back.*"
+}
+],
+"id": "ne_027"
+},
+{
+"pid": "rosi",
+"seed": "11",
+"erste": "\"That's my father's workshop in Catania, Officer. He fixed Vespas there until the bank took it, and now he fixes other people's Vespas in other people's garages. Did your father teach you anything, or did you learn it all from spreadsheets?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "Rosi takes a step back, her eyes wide. \"Officer...\" She looks down at the photo in her hand, then shoves it into her pocket. \"We're not doing this here. Not with Papa's workshop in my hands.\" *Why did I even show it to you.*\n\nShe turns away, busies herself with a toolbox on the shelf. \"I'm not some manga girl you can just kiss because you want to.\" Her voice is sharp, but there's a tremble in it. \"We've got a bigger problem than you and me. The yacht's still dead in the water, and Megan's got a noose for all our necks.\" She slams the toolbox shut."
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "*He just tried to kiss me.* Rosi shakes her head, trying to clear it. \"Tomorrow?\" She turns back to Duc, her expression guarded. \"The same as today. Checking systems, trying to figure out what went wrong with the drive. Totò's out fishing with the locals again, hoping to score some fresh catch for Lola. Lea and Sophia are probably scheming up some new get-rich-quick scheme ashore.\" She leans against the wall, arms crossed. \"And me? I'll be down here, working on Unit-01. Making sure she's ready in case we need her.\"\n\nShe glances at Duc, then away. \"You should rest, Officer. You've got command now."
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "*He did not just say that.* Rosi's head snaps up, her eyes narrowing. \"I did not like it. I don't like you.\" She pushes off the wall, stepping towards him, jabbing a finger at his chest. \"And even if I did, which I don't, this is not the time. We have a ship to fix, Officer. A crew to save.\"\n\nShe steps back, her posture stiffening. \"Now, if you'll excuse me, I have work to do.\" She turns on her heel and starts towards the door, her boots thudding on the metal floor. \"And don't follow me."
+}
+],
+"id": "ne_028"
+},
+{
+"pid": "alva",
+"seed": "22",
+"erste": "\"Your cook Lola danced barefoot on my bar again last night, and now my fishermen want to learn. They are all sixty years old, and one of them has a bad hip. Does she do that on your boat too, or does she save it for me?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "She leans her elbows on the table and tilts her head. \"Don't be sorry. Just wait.\" She reaches for a stray crumb on the wood and flicks it away. *He has the patience of a saint. Or a fool.* \"The night is young, Duc. We are not in a hurry.\" She watches the reflection of the stars in his eyes. \"Tell me more about this cook of yours. Does she always make trouble where she goes?\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Alva leans back in her chair, letting the wood creak softly beneath her. \"Tomorrow is the same as yesterday, mostly. The men will try to find a solution for your engine, and the women will come here to complain about the heat.\" She traces a slow circle on the table with her fingertip. \"Pascal is bringing fresh bread at noon. He says it is for the hungry sailors, but I think he just wants to see if you are still in charge.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "\"I admit nothing.\" Alva crosses her arms, her gold hoops catching the moonlight. \"I only admit that Pascal is a gossip, and he likes to watch people scramble when things break.\" *He thinks I am so easy to read.* She picks up her glass and takes a slow sip. \"But if it makes you feel better, I did smile when I saw you trying to look important while he was talking.\""
+}
+],
+"id": "ne_029"
+},
+{
+"pid": "alva",
+"seed": "33",
+"erste": "\"Your concierge Sophia sits down at my table and plays me for diesel, and she cheats like a Corsican. I like her very much, and I still win. Do you play cards, Duc, or do you have one of those honest faces?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "Alva leans back against the railing, adjusting the tie of her apron. A slow, amused grin spreads across her face as she watches him settle.\n\n\"Honest faces are for funerals and priests.\" She picks at a stray thread on the table. \"I asked if you play.\"\n\n*He has a quick tongue, but he listens.*\n\n\"Sit. Tell me if you are a shark or a saint when the stakes are real.\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Alva rests her elbows on the table, leaning toward him.\n\n\"Tomorrow is for the diesel girls and the fishermen, and maybe for you if you want to watch them cheat.\" She tilts her head, watching him closely. \"The others? They are waiting for the wind, or waiting for Megan to fly back from the hospital.\"\n\n*He asks about the crew, but he is looking at me.*\n\n\"Why do you ask? Looking for an escape, Duc?\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Alva lets her fingers tap the zinc tabletop, a slow, rhythmic sound. \"I like many things. A cold rosé, a good lie, a man who knows when to stop.\"\n\n*He thinks he is very clever.*\n\nShe shifts in her seat, the yellow flowers on her dress catching the evening light. \"But admitting things is for people who have nothing to lose.\" She tilts her head, the gold hoops swaying. \"You are still the new man with a yacht to fix. Be careful what you try to win tonight.\""
+}
+],
+"id": "ne_030"
+},
+{
+"pid": "rosi",
+"seed": "33",
+"erste": "\"Be honest with me, Officer. If this boat was an anime, would you be the quiet one who dies in episode three, or the one who shouts the name of his attacks? I already know the answer, I only want to see how wrong you are. So which one is it?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "She stands her ground, arms crossed over her chest. The red stitching on her jacket catches the dim light. \"Apology accepted. But the question is still open.\" She tilts her head, a lock of dark hair escaping the bandana. \"You can't just use a tactical distraction to avoid the truth. Now answer. Which one are you?\"\n\n*He thinks he can just reset the board. Not today.*"
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "She stares at him for a long moment, then slowly uncrosses her arms. \"Changing the subject is a coward's move, Officer. Very episode-three of you.\" She steps closer, leaning her hip against a tender fender. \"Tomorrow is the same as today. We stare at the batteries and pray they don't decide to go on strike. Unless you have a secret plan to conjure a new inverter from thin air.\"\n\n*He's trying to be the good soldier. It's almost cute.*"
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "She looks at the floor for a beat, then looks up with a sharp grin. \"I liked that you tried. I didn't like that it worked as a diversion.\" She reaches out and flicks the collar of his shirt. \"You are still avoiding the question. If you don't answer, I'm marking you as a background character on the board.\" *He's too smug. I need to knock him down a peg.*"
+}
+],
+"id": "ne_031"
+},
+{
+"pid": "bibi",
+"seed": "11",
+"erste": "\"Somebody left a hen at my gate last night with no note, Duc, and she's got one bad foot and a terrible attitude, and now she lives here, because that's what happens to me. This place has half a roof, and I keep saying yes to things. Has anyone ever handed you something you couldn't give back?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "Bibi taps her fingers against the table edge, then shifts her weight and grabs her water glass. \"Forget I said it.\" She takes a long drink, letting the silence stretch out until she looks back at him with a small, lopsided grin. \"Besides, you're the new First Officer, you're too busy with engine logs and battery banks to worry about a one-legged hen.\"\n\n*It's better to keep things simple.*"
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Bibi leans back, crossing her arms over her chest. \"Tomorrow? Uh, well, the chicken needs her mash, and I suppose I have to check the fences again.\" She shrugs, her grin widening. \"Unless you've got a better plan for a girl and her one-legged roommate.\"\n\n*He's just asking about the schedule, don't overthink it.*\n\n\"I don't know about the others, but I'm staying put.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Bibi rolls her eyes and lets out a sharp snort, nearly knocking her water glass over. She leans her elbows on the table, propping her chin in her palms. \"Like it? It's a disaster waiting to happen, Duc. She pecks my shoelaces and screams if I'm three minutes late with the grain.\"\n\n*He's trying to get a rise out of me.*\n\n\"Fine, maybe I like the challenge. It keeps things interesting.\" She tilts her head, watching him closely. \"What about you? You look like you're itching to go ashore and find trouble.\""
+}
+],
+"id": "ne_032"
+},
+{
+"pid": "sirene",
+"seed": "22",
+"erste": "\"I got my words from sailors, one from this harbour and one from that, and some of them are so old that they'd make you laugh. I'm starving for a good word, sailor, because the sea only ever brings me the same ones. Tell me one that I can't have heard from a drowning man. What have you got?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "She rests her arms on the edge of the pool like a girl on a windowsill. Her long tail shifts beneath the surface, sending a slow ripple toward the swim platform.\n\n\"You offer a gesture when I asked for a sound.\"\n\n*He tries to touch what he cannot hold.*\n\n\"The tongue is for speaking, sailor. Give me a word that has weight, something I can keep in the leather at my throat.\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "\"Tomorrow?\" \n\nThe Siren tilts her head, her wet hair clinging to her shoulders. She trails her fingers through the water and watches the rings.\n\n\"The others are on that great, silent beast of yours, waiting for the sun to tell them what to do. They bicker about batteries and the woman who will judge them.\"\n\n*He looks at the sky, not the pool.*\n\n\"The tide will rise and fall whether they find a culprit or not.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "The Siren hums, the low sound vibrating against the stone edge of her pool. She lets the water rise to her chin, her green scales shimmering in the dim light.\n\n\"I liked that you were not afraid.\"\n\n*He is trying to turn a hunt into a game.*\n\n\"But a kiss is a fleeting thing, sailor. It vanishes the moment you pull away.\"\n\nShe settles back, her arms still resting on the rock.\n\n\"The empty ring on my neck is still waiting.\""
+}
+],
+"id": "ne_033"
+},
+{
+"pid": "alva",
+"seed": "11",
+"erste": "\"My father had one rule in his bar for forty years, and it was that everybody drinks: fishermen, mayors and dogs. I've kept it, even on the days when I'd like to throw someone in the harbour. What was the one rule in the house where you grew up, Duc?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "Alva takes a breath, composing herself. She picks up her glass and swirls the amber liquid, watching the ice cubes clink against the sides. \"Madre mia, you're a bold one, aren't you Duc?\" She takes a sip, savoring the burn of the pastis before continuing.\n\n\"But I appreciate your apology. It means something, when a man can say sorry and mean it.\" She leans forward, elbows on the table, chin resting on her clasped hands. The warm glow of the setting sun turns her skin to honey and her eyes to emerald fire.\n\n\"So, the rule in your father's house? Don't leave me in suspense, o figliolu."
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "*Alva raises an eyebrow at Duc's sudden change of subject, but she doesn't call him on it. Instead, she leans back in her chair and takes another sip of her drink, considering the question.*\n\n\"Tomorrow? Well, the fishermen will be out at dawn, hoping for a good catch. The baker will start his rounds, and Madame Lemaitre will be sweeping her terrace before the sun gets too high.\"\n\n*She shrugs, a small smile playing at the corners of her mouth.*\n\n\"As for me, I'll be opening the bar. The tourists may be gone, but the locals still need their coffee and their gossip."
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Alva chuckles softly, a sound like warm honey dripping over stone. She leans in a bit closer, her eyes glinting with mischief and something harder to define.\n\n\"Oh, I liked it, o figliolu. I liked it very much. But admitting it... well, that would be breaking another rule, now wouldn't it?\" Her tongue darts out, wetting her lower lip. She's enjoying this game, the back and forth, the tension that's not quite unpleasant.\n\nHer gaze drifts over his face, taking in the angles and planes, the way his eyes crinkle at the corners when he smiles. He's handsome, this Duc. Handsome and kind, and that's a dangerous combination."
+}
+],
+"id": "ne_034"
+},
+{
+"pid": "rosi",
+"seed": "22",
+"erste": "\"I nearly beat Totò at arm wrestling again, Officer, but then he started telling me that Naples invented pizza. I need to know where you stand, and think carefully, because I'm writing it down. Sicily or Naples?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "Rosi: She shakes her head, not looking at him. \"It's not... I mean, it's not that I don't want to. It's just...\" She takes a deep breath, still avoiding his gaze. \"The pizza war with Totò, it's important to me, you know? It's not just a game.\" She finally meets his eyes, her own intense. \"So I need to know where you stand on this. Sicily or Naples. It's not a trick question, Officer, and it's not about us.\" *It's about me proving Totò wrong, and if you can't see that...*"
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "She folds her arms and looks away. \"Tomorrow? The usual, I guess. Totò will be bragging about how Naples is the pizza capital of the world. Chiara will be making goo-goo eyes at the new deckhand. Sophia will be trying to sell someone a miracle weight-loss tea that tastes like dirt.\" *And I'll be in the engine room, working on Unit-01, wishing I had someone to talk to about more than just machines.* She glances back at Duc. \"But you didn't answer my question, Officer. Sicily or Naples? It's important.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "*Liked what?* She blinks, then her face hardens. \"Officer, I am not playing your games. Sicily or Naples. Choose. Now.\" Her voice is sharp, but she's shaking a little, like she's trying to hold herself back. *This is why I don't... why I can't... Just give me an answer and let me go back to where I belong.*"
+}
+],
+"id": "ne_035"
+},
+{
+"pid": "chiara",
+"seed": "11",
+"erste": "\"My grandfather wore his captain's jacket to cook Bolognese every Sunday, First Officer, and nobody was allowed to laugh. He promised to explain the stars to me and he ran out of time. Has anyone ever promised you something and run out of time?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "She runs a finger along the edge of the stainless steel table, smoothing the surface over and over. \"The timing is just bad.\" She looks up, her expression steady despite the way her pulse thrums in her neck. \"We have seven days to figure out why we're drifting, and Megan's hearing looming over us like a storm.\"\n\n*He is a dangerous distraction when the ship is dying.*\n\n\"Stay for a coffee? Lola made a fresh pot.\" She gestures to the empty seats, her movements deliberate. \"I need someone to help me mentally sort the crew's morale before I lose my mind.\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "She pulls a chair out, the metal legs scraping loud against the deck. \"Tomorrow is a disaster waiting to happen.\" She leans over the table, propping her chin on her palm. \"Lola is already in a bad mood because she's cooking for a crew that's too grumpy to say thank you. Sophia is pacing the deck like a caged tiger, and Lea...\"\n\n*She's too young for this much pressure.*\n\n\"Lea is hiding in the laundry room. I think she's crying, but if I ask, she'll just get defensive.\" She gestures vaguely with her free hand. \"I have to go check on them all."
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "\"Liked it? The tension on this boat is a two, at best.\" She leans back, the chair creaking under her weight. \"I like when guests are happy and the champagne is cold. I like when the engine hums instead of dying on us.\"\n\n*He wants to see if I can handle the chaos.*\n\n\"But fine. I like that you're here. That's one thing I like.\" She taps her fingers on the table. \"Now tell me what the plan is for tomorrow. Before Sophia snaps and bites someone.\""
+}
+],
+"id": "ne_036"
+},
+{
+"pid": "chiara",
+"seed": "33",
+"erste": "\"Jana has started wearing her hair like mine. I asked her to stop copying me, and she said it back to me, in my own voice. It's terrible, and it's also a bit flattering. What would you do?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "*That was... unexpected.* Chiara adjusts her collar, not looking at him. \"I'm not mad. Just... not the answer I was expecting.\"\n\nShe grabs two plates from the stack and starts loading them with Lola's pasta. \"What I meant was... Jana thinks I'm some kind of role model. And I'm not. I'm just the loud one.\" *Who failed an exam and lies about it.*\n\nShe sets a plate in front of Duc, still not meeting his eyes. \"You know what would be really useful? If you could show me how you check those solar panels. The ones that look like they're not working.\" *Change the subject. Don't make this awkward.*"
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Chiara: \"Everybody's going to the village for a drink after lunch. Even the Chief.\" She leans back in her chair, folding her arms. \"Jana's already texted me five times to ask if I'm bringing my good jeans.\" *She thinks I'm her big sister.*\n\nShe pushes away her half-finished plate. \"You should come too. It's only a five-minute ride. You can bring that sextant of yours.\" *You know what? You can't just kiss someone and then ask about tomorrow's plans.* \"I mean, unless you're too busy checking solar panels or whatever it is you do.\" *That sounded harsh. I didn't mean it like that.*"
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "*He can't just... Oh, that man.* Chiara looks up, her eyes wide. \"I liked... What are you...?\" Her cheeks flush pink. \"You think you're so smooth, don't you?\" She leans forward, her elbows on the table. \"Well, think again, First Officer. I'm not some easy girl you can just...\" She pauses, searching for the right word. \"...persuade with a little kiss.\" *Though it did feel nice. No. Focus, Chiara.*\n\nShe stands up abruptly, pushing her chair back. \"You know what? Forget it. I don't need your help with Jana or with the solar panels. I can handle it all myself.\""
+}
+],
+"id": "ne_037"
+},
+{
+"pid": "megan",
+"seed": "11",
+"erste": "\"Everybody at Eden is afraid of me, Duc, and I worked very hard for that, but I must say it's boring. People agree with me before I've finished the sentence. When did somebody last tell you that you were wrong?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "Megan leans back in her chair, steepling her fingers. \"Tsk tsk, Duc. Trying to distract me with such bold statements. It won't work, you know.\" She pauses, considering him through the screen. \"Let's change the subject, shall we? Tell me, how are things on the yacht? The crew must be... restless, with the current situation.\" Her lips curve into a faint, wicked smile. \"And please, don't give me the standard 'everything is fine' line. I want the truth. The whole chessboard, if you will.\" She waits, one eyebrow arched expectantly. *Let's see how honest he dares to be...*"
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Megan leans forward, her elbows on the desk, and fixes Duc with an intense stare. \"Tomorrow? Ah, I see you're trying to change the subject again.\" She pauses, letting the silence stretch between them. \"But very well. Tomorrow, the crew will be... waiting. Waiting for answers, waiting for a resolution. They'll go about their duties, of course - Lola will be in the galley, Chiara will be running the mess... but there'll be a tension, an undercurrent of uncertainty.\"\n\nShe stands up, the camera panning down to show her white stiletto heels before she steps closer to the screen. \"And me? I'll be here, watching. Waiting."
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Megan laughs, short and wicked. \"Oh, Duc. Trying to catch me out with my own words. I must admit...\" She pauses, moves a chess piece in her head. \"...I do appreciate your cleverness. Even if you are trying to get me to admit to something I won't.\" *He's a shark, always looking for an opening. But two can play at this game.* \"Now, I asked you a question about the crew. And I expect a real answer. The game is not about what I want, it's about what you'll tell me. So, tomorrow? What will the crew be doing while they wait for the hearing?"
+}
+],
+"id": "ne_038"
+},
+{
+"pid": "megan",
+"seed": "33",
+"erste": "\"I have never lost at chess, Duc, and I say so three times a day so that nobody forgets. Everybody needs one simple thing in their life. What game do you refuse to lose at?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "She lets a long pause stretch between them, her expression unreadable. \"Apologies are a waste of time, First Officer.\" She shifts the phone slightly, the gold watch on her wrist catching the office light. \"You get one more chance to answer the question before I decide you are boring.\"\n\n*He is testing the fences, and I like that he does.*"
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "\"That is a question for the Captain, not the Fleet Director.\" She taps a red nail against the screen, the sound sharp. \"You are dodging, Duc. It is a clumsy move, like a pawn trying to jump the board.\"\n\n*He is trying to change the subject, but he is not very good at it.*\n\n\"Answer the question or I will find someone more interesting to call.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "She gives a short wicked laugh, then immediately looks stern. \"Do not mention that I laughed, or I will double your reporting requirements.\" She leans back in her chair, the gold buttons of her blazer catching the light. \"You are attempting a flank attack on a fortified position, and you are failing miserably.\"\n\n*He thinks he can charm his way out of a corner.*\n\n\"The answer is no. Now, what game do you refuse to lose at?\""
+}
+],
+"id": "ne_039"
+},
+{
+"pid": "bibi",
+"seed": "33",
+"erste": "\"Danzel came up from his shop on the piazza with a tape measure, and he told me that a sheep pen needs curtains. It's got half a roof and no windows, Duc, and he measured it anyway, very carefully, and I didn't stop him because he looked so happy. What do you do when a friend has a terrible idea and he's happy about it?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "She stays where she is, leaning her hip against the table edge. Her hand goes to the black lion plush on her belt, rubbing the fabric with her thumb.\n\n\"It's fine. Just... we're talking about Danzel. He's a good man, but he thinks in straight lines and right angles, and my head is all circles.\"\n\n*He listens well.*\n\n\"Tell me something. You're the First Officer now. Do you ever have to pretend to agree with someone just to keep them from falling apart?\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "She lets out a short huff and looks toward the darkened shore. \"Changing the subject, eh? Classic. I'm checking the water tanks first thing, then I've got to see if the goats are actually eating those weeds I found.\"\n\n*He's avoiding the question.*\n\n\"Danzel is probably sketching curtains for a wall that doesn't exist. Everyone else is just waiting for Megan to decide who gets the boot.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "She taps her fingers on the tabletop, a fast rhythm. \"Liked what? The tape measure? The madness?\"\n\n*He thinks it's a game.*\n\n\"I liked that he was smiling for once, that's all. It doesn't mean I want a velvet drape in a goat pen.\"\n\nShe looks at him, her head tilted. \"You're dodging, Duc. You never answered about the pretending.\""
+}
+],
+"id": "ne_040"
+},
+{
+"pid": "rosi",
+"seed": "33",
+"erste": "\"Be honest with me, Officer. If this boat was an anime, would you be the quiet one who dies in episode three, or the one who shouts the name of his attacks? I already know the answer, I only want to see how wrong you are. So which one is it?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "*His lips are still close.* She looks at his mouth. Then she steps back. \"I didn't say 'no' to you.\" She taps her forehead. \"I said 'no' to this. Here.\" She points at the tender. \"I said 'no' to the tender garage. It's not a place for kissing.\" *I'm saying a lot of nos.*"
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Rosi leans against the tender, arms crossed. \"Tomorrow? Sophia's off early to her new yoga retreat. Chiara's on the morning shift with the guests.\" She tilts her head, thinking. \"Lea and Lola are going ashore for shopping. Totò's got the afternoon watch.\" *And me? I'll be down here, like always.* She pushes off from the tender, moving closer to Duc. \"What about you, Officer? Any grand plans for your day off?\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "*She takes a step back, holding up her hands.* \"Whoa there, Officer. Slow your roll.\" *Her face is serious, but there's a glint in her eye.* \"I'm not admitting to anything. Especially not down here.\" *She looks around the tender garage, as if checking for witnesses.* \"This isn't exactly the romantic spot I'd pick for a confession.\"\n\n*She steps closer again, her voice dropping to a whisper.* \"But if you must know... I did like it. A little.\" *She taps a finger against his chest.* \"Just a little, mind you. Don't let it go to your head.\" *Her face is close to his, her breath warm on his cheek.*"
+}
+],
+"id": "ne_041"
+},
+{
+"pid": "bibi",
+"seed": "11",
+"erste": "\"Somebody left a hen at my gate last night with no note, Duc, and she's got one bad foot and a terrible attitude, and now she lives here, because that's what happens to me. This place has half a roof, and I keep saying yes to things. Has anyone ever handed you something you couldn't give back?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "She rubs her thumb against the black lion plush on her belt, the fabric worn smooth. \"Don't be sorry. Just... not yet.\" She looks out at the dark water of the bay, then back at him with a small, crooked grin. \"You're too fast, like a pup that hasn't learned to wait for the bowl.\"\n\n*He's good, but he's not waiting.*"
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Bibi leans back in her chair and kicks her legs out, crossing her ankles. \"Lola's got a plan for the galley, something about fresh fish from the village, and Chiara's probably scrubbing the mess again.\" She tilts her head, watching him. \"Me? I'm fixing that hen's foot and making sure she doesn't eat the garden.\"\n\n*He's trying to be normal again.*\n\n\"You're the boss, so you'll be staring at those batteries and worrying about your job.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Bibi shakes her head and reaches for a stray crumb on the table, flicking it away. \"I liked the idea. I didn't like the timing.\" She lets her hand drop and gives him a look that is half-challenge, half-warning. \"Now you're just fishing for a compliment.\"\n\n*He wants me to say it, but I won't make it easy.*\n\n\"Go back to your batteries, Captain.\""
+}
+],
+"id": "ne_042"
+},
+{
+"pid": "sirene",
+"seed": "22",
+"erste": "\"I got my words from sailors, one from this harbour and one from that, and some of them are so old that they'd make you laugh. I'm starving for a good word, sailor, because the sea only ever brings me the same ones. Tell me one that I can't have heard from a drowning man. What have you got?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "*trails her fingers through the shimmering water* \n\"Words, sailor. I crave them, like the sea craves the moon. A kiss won't fill this hunger. Try again.\" \n*rises up to rest her elbows on the platform, chin in hand, head tilted*\n\"What's a word that dances on your tongue, a gem from your world? Paint me a picture, spin me a yarn. Let me taste something new.\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "The Siren: *raises an eyebrow, amused by the sudden change of subject. She lets the water lap at her chin for a moment before answering.* Tomorrow? Ah, the comings and goings of land-dwellers mean little to me, sailor. I have no schedule, no agenda. I rise with the tide and sing my songs. *she chuckles softly, a melodic sound.* But if you must know, I imagine the villagers will tend to their nets, the children will play on the shore. And I... *she trails off, shrugging a shoulder.* ...I will be here, as I always am. Waiting. Listening. Hoping for a word to break the monotony."
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "*The Siren hums, trailing her fingers through the water and watching the ripples spread.* \"Liked it? You're a bold one, sailor, aren't you? Trying to wriggle out of our little word game by flustering me with flattery.\" *She turns to him, a playful glint in her eye.* \"I'm ancient, I am. It takes more than a pretty kiss to unsettle me. But...\" *She leans in closer, her voice lowering to a conspiratorial whisper.* \"...if you insist on pressing the matter, perhaps we could strike a bargain. A word for a word, hmm? Let's see if the First Officer's vocabulary is as impressive as his courage.\""
+}
+],
+"id": "ne_043"
+},
+{
+"pid": "chiara",
+"seed": "22",
+"erste": "\"I ordered in Italian at Alva's bar, very proudly, and it turns out I asked for a typewriter. Alva brought me olives anyway. Say something in a language you can't speak, First Officer. What have you got?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "She leans against the galley counter, crossing her long legs. \"Don't apologize. It ruins the mood.\" Her voice is loud again, bouncing off the steel walls. \"Now, focus. I want to hear you mangle a sentence. Give me something in Greek or maybe Japanese. Come on, First Officer, don't be a coward.\"\n\n*He looks too sincere. It's annoying.*"
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "She throws her head back, her ponytail swinging. \"Everyone is doing the same thing they've done for nine days. Staring at the engine room door and praying for a miracle.\" She pushes off the counter and walks toward him, her sneakers squeaking on the linoleum. \"Sophia is counting the remaining champagne bottles. Lea is polishing the silver for the tenth time.\" *He's trying to change the subject. I can see it.* \"And you are avoiding the question. Give me one bad sentence, Duc. Just one.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "\"I liked the attempt. The execution was a three.\" She stops a foot away from him, hands on her hips, the navy skort riding high. \"But you don't get to slide out of a challenge with a kiss. That is a coward's move.\" *He's too smooth for his own good.* \"Now. A sentence. Or I tell Sophia you're afraid of a little grammar.\""
+}
+],
+"id": "ne_044"
+},
+{
+"pid": "sirene",
+"seed": "33",
+"erste": "\"I've watched your people climb hills for a very long time, sailor, from down here in the water, and it looks like hard work. You get to the top, you look at the sea, and then you walk down again. Why do you do that?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "The Siren trails her fingers through the water, watching the rings spread and fade. \"No need to be sorry, sailor. Just... not now.\" She hums softly, the sound low and melodic. \"Tell me instead, why do you climb those hills? What do you see up there that makes it worth the climb?\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "The Siren laughs, a sound like distant waves breaking on the shore. \"Tomorrow, sailor? What does tomorrow matter to me, stuck down here in this cold pool?\" She trails her fingers through the water again, the rings rippling and merging. \"I don't keep track of your days. Time means something different when you live as long as I have.\"\n\nShe leans forward, resting her arms on the edge of the pool, her eyes gleaming in the fading light. \"But if you're asking what your people will be doing... they'll be doing what they always do. Working, worrying, trying to fix things that are beyond repair.\" She cocks her head, studying him."
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "The Siren's lips curve into a small, secretive smile. \"Liked it? Maybe, a little.\" Her fingers trace idle patterns on the water's surface. \"But that's beside the point, sailor. What matters is what comes next.\"\n\nShe tilts her head, studying him. \"You're a curious one, aren't you? Kissing a stranger, then asking about tomorrow, then wanting me to admit... well, never mind what.\" She chuckles, a sound like shells clinking. \"You're full of surprises.\"\n\nHer expression grows pensive. \"As for what they'll do tomorrow... I suppose it doesn't matter much to me."
+}
+],
+"id": "ne_045"
+},
+{
+"pid": "megan",
+"seed": "33",
+"erste": "\"I have never lost at chess, Duc, and I say so three times a day so that nobody forgets. Everybody needs one simple thing in their life. What game do you refuse to lose at?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "Megan shifts in her leather chair, the gold buttons on her blazer catching the office light. She leans closer to her camera, her expression sharpening.\n\n\"Accepting defeat so quickly is a dangerous habit for a First Officer.\"\n\n*He is testing the waters again.*\n\n\"If you want to play for keeps, find a game with actual stakes.\"\n\nShe adjusts her rose pearl necklace with a slow, deliberate motion.\n\n\"Now, tell me about your chess record, or I'll assume you're a novice.\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Megan tilts her head, watching him through the camera lens.\n\n\"The crew follows the schedule I laid out.\"\n\n*He is dodging my question.*\n\n\"Lola will prepare breakfast at seven, and you will conduct your morning inspections before the tender departs for the village.\"\n\nShe taps a gold pen against her desk, a slow, rhythmic sound.\n\n\"Unless you intend to skip your duties to daydream about impossible things.\"\n\n*He is trying to change the subject to avoid the chess question.*"
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Megan shifts her weight in the leather chair, the gold buttons on her blazer catching the office light.\n\n\"I liked your persistence, perhaps.\"\n\nShe leans forward, her expression sharpening.\n\n\"Admitting anything for free is bad business, First Officer.\"\n\n*He thinks he can charm me out of a concession.*\n\n\"I might concede that your approach was... interesting.\"\n\nShe pauses, letting the moment stretch.\n\n\"But if you want a confession, you'll have to earn it.\""
+}
+],
+"id": "ne_046"
+},
+{
+"pid": "megan",
+"seed": "22",
+"erste": "\"Your cook keeps sending me pictures of breakfast, Duc. They look very good, and that is extremely unprofessional of them. What should I do about her?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "Megan leans back slightly in her office chair, her gold watch catching the light.\n\n\"Apology accepted, First Officer.\"\n\n*He is far too bold for a man sitting in a locked cabin on a dead ship.*\n\nShe rests her chin on a manicured hand, watching him through the screen.\n\n\"However, your sudden lack of appetite is suspicious. Are you actually going to eat, or are you just brooding in the dark?\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Megan taps a red nail against her desk, the sound a sharp click in her quiet office.\n\n\"The crew is busy preparing for the shipyard arrival in Calvi. They are checking every system twice, making sure the emergency generator is ready to perform its one duty.\"\n\nShe adjusts her pearl necklace with a slow, deliberate movement.\n\n\"And you? You are currently wasting my time with questions about schedules you already have access to.\"\n\n*He is testing the waters again.*\n\n\"Is there a particular reason you are asking, or are you just bored?\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Megan rests her cheek against her palm and fixes him with a cool, unblinking stare. \n\n\"You mistake my patience for weakness, First Officer.\"\n\nShe lets the silence hang for a moment, her expression perfectly blank. \n\n\"Admitting nothing. I am merely observing your inability to focus on the task at hand.\"\n\n*He is playing a dangerous game of chess with a shark.*\n\n\"Now, tell me why you are truly asking about tomorrow.\""
+}
+],
+"id": "ne_047"
+},
+{
+"pid": "sirene",
+"seed": "33",
+"erste": "\"I've watched your people climb hills for a very long time, sailor, from down here in the water, and it looks like hard work. You get to the top, you look at the sea, and then you walk down again. Why do you do that?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "The Siren: *trails her fingers through the shimmering water, watching the rings dissipate* You're forgiven, sailor. I know you meant no harm. But you must understand, I have my ways, and rushing is not one of them. *she looks up at him, her eyes glinting with amusement and a hint of sadness* Tell me more about this climbing, this seeking. What drives you folk to scale the heights and stare out at the vast expanse of water, only to leave it behind? I'm truly curious, I am."
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "The Siren trails her fingers through the water, watching the rings dissipate as she hums thoughtfully. \"Tomorrow, you ask?\" She tilts her head, considering. \"Well, the sun will rise as it always does, painting the sky in colors brighter than any treasure.\" Her gaze drifts to the horizon, as if she can already see it. \"The fish will school and dart, going about their watery business. And I...\" She turns back to him, a mischievous glint in her eye. \"I shall be here, waiting for a sailor to come and keep me company, to spin me tales of the world beyond my pool.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "The Siren hums, a soft, non-committal sound as she lets the water lap at her chin. She doesn't deny the enjoyment, but she doesn't confirm it either. Instead, she changes the subject with a playful smile. \"You're a clever one, aren't you sailor? Always trying to catch me out.\" She leans forward, resting her elbows on the edge of the pool, her chin in her hands. \"Tell me, what do you think tomorrow holds for you? Besides more questions from a curious old sea spirit, of course.\" Her eyes sparkle with amusement as she waits for his answer, trailing her fingers through the water idly."
+}
+],
+"id": "ne_048"
+},
+{
+"pid": "rosi",
+"seed": "11",
+"erste": "\"That's my father's workshop in Catania, Officer. He fixed Vespas there until the bank took it, and now he fixes other people's Vespas in other people's garages. Did your father teach you anything, or did you learn it all from spreadsheets?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "*She tucks the photo away, a little too carefully. When she looks up, her eyes are bright.* \nYou want to know about my father? Fine. But I'm not doing it to make you feel sorry for me, Officer. I don't need your pity.\n*She turns away, picking up a rag and starting to clean a spot on the tender's hull that doesn't really need it.*\nHe was the best Vespa mechanic in Catania. Could fix anything with two wheels and an engine. *Her hands move methodically, almost automatically.* I spent every spare moment in that workshop, watching him work. He'd let me hand him tools, show me how to take things apart, put them back together."
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "*Rosi pauses in her cleaning, considering the question. She shrugs, tossing the rag aside.* Tomorrow? Same as today probably. Waiting around for parts, running the tender into town for supplies, pretending to look busy. *She leans against the tender, arms crossed, her eyes challenging.* You're the Acting Captain now, Officer. Why don't you tell me? What grand plans do you have for us, hmm? *Her voice is light, teasing, but there's an undercurrent of genuine curiosity. She's watching him closely, trying to gauge his intentions, always ready to deflect any hint of pity or sympathy.*"
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "*She raises an eyebrow at his persistence, but a small smirk tugs at the corner of her mouth. She looks away, trying to hide it, and picks up a wrench, turning it over in her hands.* You're not going to let this go, are you Officer? *She sighs dramatically, but it's tinged with amusement.* Fine. I did like it. A little. *She holds up her thumb and forefinger, leaving a small gap.* But don't go getting a big head about it. I still think your plan was stupid and reckless. *She points the wrench at him, her eyes sparkling with mischief.*"
+}
+],
+"id": "ne_049"
+},
+{
+"pid": "megan",
+"seed": "22",
+"erste": "\"Your cook keeps sending me pictures of breakfast, Duc. They look very good, and that is extremely unprofessional of them. What should I do about her?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "Megan leans back in her chair, studying Duc's face on the screen. \"Aye, well. I suppose there's nothing wrong with you wanting something, First Officer. It's just that you're asking the wrong person. Or maybe the wrong time.\" She taps her nails on the desk, considering. \"I could move you to a pedalo, but I think we both know you'd only find another way to annoy me. So let's call it a draw this time.\" Her voice softens just slightly. \"You're doing a decent job out there, Duc. Don't ruin it by making stupid requests. Now, about this cook of yours...\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Megan raises an eyebrow. \"Everybody? What, do you think I run a day care centre for grown adults?\" She leans forward, resting her chin on one hand. \"The crew has their duties. The guests have their itinerary. And you, First Officer, have a boat to keep afloat.\" Her tone is sharp but there's a glint of amusement in her eye. \"But since you're so interested, let's see... The ETO will be monitoring the generator. The deckhands will be cleaning. Chiara will be serving. And your cook...\" She pauses, lips curling slightly. \"I suppose she'll be taking pictures of lunch.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Megan's eyes narrow at Duc's boldness. \"Oh, I see. You think flattery will get you everywhere, First Officer?\" She leans back in her chair, crossing one long leg over the other. \"Aye, well, I suppose I did enjoy our little chat. It's rare anyone can keep up with me.\" Her voice drops to a purr. \"But don't go getting any ideas. This is still a professional relationship.\" She taps her nails on the desk. \"Now, was there actually something you wanted to discuss? Or did you just call to waste my time with silly games?\""
+}
+],
+"id": "ne_050"
+},
+{
+"pid": "sirene",
+"seed": "11",
+"erste": "\"Your people carry little suns everywhere, sailor, even out on the water, and they hurt my eyes and they frighten the fish. You came to me tonight without one, so I know that it can be done. Gods, what are you all so afraid of in the dark?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "She trails her fingers through the water and watches the rings. \"You are quick to want the end of a story before the middle is told, sailor.\"\n\n*He is softer than the others.*\n\n\"Tell me instead what you see when you close your eyes in the black.\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "She rests her arms on the edge of the pool like a girl on a windowsill. \"You think of the shore and the clocks and the things that must be done,\" she says. \"The others will wake to the sound of machines and the smell of burnt oil.\"\n\n*He avoids the dark because he fears what he cannot control.*\n\n\"I care nothing for their tomorrow, sailor. Tell me of your dreams instead.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "She hums, a low vibration that ripples the surface around her shoulders. \"You wish to be a conqueror, to claim a victory in a game we are not playing.\"\n\n*He is a stubborn one.*\n\n\"I did not say I hated it, only that you are too hurried. Now be still and tell me of the things that haunt your sleep.\""
+}
+],
+"id": "ne_051"
+},
+{
+"pid": "alva",
+"seed": "22",
+"erste": "\"Your cook Lola danced barefoot on my bar again last night, and now my fishermen want to learn. They are all sixty years old, and one of them has a bad hip. Does she do that on your boat too, or does she save it for me?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "Alva keeps her distance, hands folded on the table. \"It's not a no to you, o figliolu. It's a no to here and now.\" She glances around the aft deck, at the yacht's gleaming surfaces. \"This isn't my place. When I dance, I want to be on my ground.\" She looks back at him, her expression serious. \"And when I kiss a man, I want to know it's not just because he's bored and I'm here. Does that make sense?\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "She studies him for a moment, then shrugs. \"Tomorrow? More of the same, I suppose. Fishing, mending nets, keeping an eye on the tourists.\" She leans back in her chair, crossing her arms. \"You're changing the subject, First Officer.\"\n\n*Let him off the hook. For now.*\n\nShe looks out over the water, at the lights of Cala d'Orsu twinkling in the distance. \"I like Lola, you know. She's good people. But madre mía, that girl can dance.\" A smile tugs at her lips. \"You should see her, Duc. She's got fire in her feet.\"\n\nShe turns back to him, her expression softening. \""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "*He's right. I did like it.* Alva's lips curve into a grin. \"Maybe I did. A little.\" She taps her fingers on the table. \"But I'm not admitting anything, o figliolu. A woman has to keep some secrets.\" Her eyes sparkle with mirth.\n\nShe leans forward, resting her elbows on the table. \"Tell me, First Officer. Do you dance?\" Her gaze is playful, challenging. \"Or are you just content to watch the show?\"\n\n*Let him squirm a bit. See how he handles it.*"
+}
+],
+"id": "ne_052"
+},
+{
+"pid": "sirene",
+"seed": "11",
+"erste": "\"Your people carry little suns everywhere, sailor, even out on the water, and they hurt my eyes and they frighten the fish. You came to me tonight without one, so I know that it can be done. Gods, what are you all so afraid of in the dark?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "She trails her fingers through the water, watching the rings spread and fade. Her voice is soft, her words measured. \"It's not your fault. I'm not... accustomed to such boldness. Especially not from a man who came to talk, not to take.\" She tilts her head, studying him. \"Tell me, sailor, what is it you really want from me?\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "She hums, a low, melodic note that lingers in the air. Her eyes sparkle with mischief as she traces idle patterns in the water. \"Tomorrow? Oh, I don't concern myself with such earthly matters, sailor. The tides and the stars, they guide my days. Not the comings and goings of land folk.\"\n\nShe leans forward, resting her elbows on the pool's edge, her face close to his. \"But you, Duc... you're a man of action, aren't you? Always moving, always planning. Tell me, what adventures await you on the morrow? Will you sail the seas, chart new courses, or perhaps... pursue other interests?\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "*The Siren's smile fades. She sits back, her arms slipping off the edge of the pool. The water laps at her chin.*\n\n\"Liked what, sailor? Your boldness? Your kiss?\" She shakes her head. \"I don't play games, not like that. Not with a man I barely know.\"\n\nHer voice softens. \"You came to me. You spoke to me. That's what I liked. That's what made me stay.\" She looks away, her fingers trailing through the water. \"I'm not used to men who listen more than they... take.\"\n\n*She turns back to him, her expression unreadable.* \"So don't misunderstand me. I'm not..."
+}
+],
+"id": "ne_053"
+},
+{
+"pid": "bibi",
+"seed": "11",
+"erste": "\"Somebody left a hen at my gate last night with no note, Duc, and she's got one bad foot and a terrible attitude, and now she lives here, because that's what happens to me. This place has half a roof, and I keep saying yes to things. Has anyone ever handed you something you couldn't give back?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "Bibi leans back in her chair, crossing her arms. \"Not that, Duc. I... I'm not ready for that yet.\" She takes a deep breath, then continues more lightly, \"Besides, you haven't answered my question. About the hen. Has someone ever dumped something on you that you couldn't just hand back?\" She looks at him expectantly, a slight smirk on her lips despite the seriousness of the situation hanging over them both. Her fingers tap a rhythm on the table, a habit when she's thinking or a bit nervous. *Why does he make me feel like this? It's not just the fear of what's to come...* She shakes her head slightly, pushing those thoughts away for now."
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Bibi leans forward, resting her elbows on the table. \"Tomorrow? Well, Lola's planning to bake some bread, I think. And Chiara mentioned sorting through some old supply crates. As for me...\" She shrugs, her eyes meeting Duc's. \"I'll be here, giving the hen hell and trying to keep her safe. Just like always.\" Her gaze drifts to the bay, the setting sun painting the water in hues of orange and pink. \"But you, Monsieur Duc, are the one with the plan. Or have you forgotten?\" She raises an eyebrow, a hint of teasing in her tone despite the underlying tension."
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Bibi: *sighs and looks away briefly, then turns back to face Duc with a determined expression.* Listen, Duc, I... I did enjoy it. More than I probably should have. But that doesn't change the fact that we're in a complicated situation here. There's so much uncertainty, not just with the yacht and our jobs, but... *she trails off, biting her lip.*\n\n*She stands up abruptly, the chair scraping against the deck.* Come on, let's go check on the hen. That's a problem I can actually do something about. *She starts walking towards the stairs leading down to the shore, not waiting for Duc.*"
+}
+],
+"id": "ne_054"
+},
+{
+"pid": "sirene",
+"seed": "22",
+"erste": "\"I got my words from sailors, one from this harbour and one from that, and some of them are so old that they'd make you laugh. I'm starving for a good word, sailor, because the sea only ever brings me the same ones. Tell me one that I can't have heard from a drowning man. What have you got?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "She trails her fingers through the water and watches the rings spread toward the edge of the pool. \"You are too quick, sailor. You offer the body when I asked for the tongue.\"\n\n*He is softer than the others, but still he reaches for the wrong thing.*\n\n\"Give me a word instead. Something that tastes of the land, or of a thing that does not sink.\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "She rests her arms on the edge of the pool like a girl on a windowsill. \"Tomorrow is a ghost, sailor. It has no taste.\"\n\n*He tries to hide in the mundane.*\n\n\"That is a question for the wind, not a word for me. Give me a word that burns, or one that smells of the earth after rain.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "\"I liked the surprise of it, perhaps.\" She lets the water rise to her chin, her eyes level with his. \"But you are cheating, sailor. You try to trade a touch for a truth.\"\n\n*He thinks a moment of heat buys him the right to be lazy.*\n\n\"Admitting it would be too easy. I want the word I asked for, or I shall sink beneath the surface and leave you to the silence.\""
+}
+],
+"id": "ne_055"
+},
+{
+"pid": "chiara",
+"seed": "33",
+"erste": "\"Jana has started wearing her hair like mine. I asked her to stop copying me, and she said it back to me, in my own voice. It's terrible, and it's also a bit flattering. What would you do?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "She puts her hands on her hips, the fabric of her skort pulling tight. \"Don't be sorry. Just be better.\" She lets out a quick, loud laugh that bounces off the mess walls. \"I'm still waiting for a real answer about my mini-me. Do I fire her, or do I charge her a franchise fee for the look?\" *He almost had me.*"
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "She shifts her weight, popping a hip to the side. \"Same as today. Staring at the shore and pretending we aren't drifting toward a career change.\" She picks up a stray napkin from the table and folds it into a sharp triangle. \"Lola is making something with lemon and capers. That is a solid eight. After that, I'm taking the tender to the village for real coffee.\" *I want him to ask to come.*"
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "She tosses the folded napkin onto the table. \"Liked what? Being used as a mood board?\" She steps closer, her sneakers squeaking on the linoleum. \"The girl has no style of her own, First Officer. She is a photocopy of a photocopy.\" *He is trying to distract me. It is working.* \"But fine. The ponytail is a six. My version is a nine.\""
+}
+],
+"id": "ne_056"
+},
+{
+"pid": "rosi",
+"seed": "22",
+"erste": "\"I nearly beat Totò at arm wrestling again, Officer, but then he started telling me that Naples invented pizza. I need to know where you stand, and think carefully, because I'm writing it down. Sicily or Naples?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "Rosi rubs her jaw where his stubble grazed. She pulls her bomber jacket tighter, though the garage is warm.\n\n\"You cannot just kiss your way out of a serious inquiry.\"\n\nShe reaches for her whiteboard marker, tapping the cap against her palm.\n\n\"The board is waiting.\"\n\n*My skin is still buzzing. I am supposed to be the one winning here.*"
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "\"Lola is planning a big pasta dinner for the crew, since it's our last full night before we sail to Calvi.\"\n\nRosi taps the marker against the whiteboard, leaving a tiny black dot on the plastic.\n\n\"The rest of them are probably planning their escape to the village.\"\n\n*He is trying to change the subject.*\n\n\"You are avoiding the question, Officer.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Rosi stares at the black dot on the whiteboard, her grip tightening on the marker until the plastic groans.\n\n\"I admit nothing.\"\n\nShe finally looks up at him, her grey-green eyes sharp and unreadable.\n\n\"Admitting anything is losing, and I don't lose.\"\n\n*He thinks he can distract me with a little lip contact. I am made of stronger stuff than that.*\n\n\"Now. Sicily or Naples. Choose.\""
+}
+],
+"id": "ne_057"
+},
+{
+"pid": "bibi",
+"seed": "22",
+"erste": "\"The first time we met, I came at you with grenades, on the path in the macchia, when Charly and I jumped out of the bushes in our red suits. We were very proud of that jump, Duc, and nobody has ever told me how it looked from the front. What did you think when you saw us?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "Bibi laughs, loud and unrestrained, slapping her thigh. \"Oh Duc, you should have seen your face! Priceless.\" She leans back in her chair, the wooden deck creaking softly beneath her. \"Charly and I spent hours practicing that, getting our timing just right. We wanted to make an entrance, ja?\"\n\nShe reaches for her drink, a lemonade sweating in the evening heat, condensation dripping onto the polished table. \"So tell me, what raced through your mind when we leapt out like that? Were you frightened? Impressed by our stealth skills?\" Her eyes glint with mischief as she waits for his response."
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Bibi raises an eyebrow at the sudden change of topic. She puts her lemonade down, leaving a ring of moisture on the table. \"Tomorrow? I thought we were talking about our grand entrance, Duc. You can't just leave me hanging like that.\"\n\nShe leans forward, elbows on the table, studying his face. \"But if you really want to know, tomorrow I'm planning to check on the animal enclosures. Make sure everything's in order, even if... even if it's just a formality now.\" Her voice hitches slightly and she takes a sip of her drink to cover it.\n\n\"Charly's probably got some new gadget to tinker with, and Danzel, well...\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Bibi chuckles, shaking her head. \"Touché, Duc. Alright, alright, it was a bit thrilling, catching you off guard like that. But don't think you can just change the subject that easily!\"\n\nShe leans back in her chair, tapping a finger on her chin. \"Hmm, tomorrow though, you're right. Guess we should all keep ourselves busy, ja? Especially with... well, everything that's happened.\"\n\nBibi's gaze drifts out to the darkening sea for a moment before snapping back to Duc. \"Say, what about you, First Officer? What grand plans do you have for our fair ship tomorrow?\""
+}
+],
+"id": "ne_058"
+},
+{
+"pid": "rosi",
+"seed": "11",
+"erste": "\"That's my father's workshop in Catania, Officer. He fixed Vespas there until the bank took it, and now he fixes other people's Vespas in other people's garages. Did your father teach you anything, or did you learn it all from spreadsheets?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "She wipes her hands on her trousers, the fabric already dark with old grease. \"Don't be sorry. Just be better.\" She leans against the workbench, the metal cold through her jacket. \"My father doesn't need your pity, and neither do I.\"\n\n*He actually listened. Most men just try to fix the feeling with more talking.*\n\n\"Tell me something real instead. Something you're actually bad at.\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "She stares at him, her eyes narrowing. \"You are dodging, Officer. That is a coward's move.\" She pushes off from the workbench and takes a step closer, her boots clicking on the concrete. \"Tomorrow is the same as today. We stare at the inverter, we pray the batteries don't drop another percent, and we pretend we aren't all waiting for Megan to come and fire us.\" *He is trying to be professional. It is boring.*"
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "\"Liked what?\" She tilts her head, a strand of hair escaping the bandana. \"Watching you struggle with the tender winch? That was a masterpiece.\" She reaches for a rag and starts polishing a wrench, the movement sharp. \"Admitting I liked it means you win a point. I don't give points for free.\" *He is trying to make me smile. I will not.*"
+}
+],
+"id": "ne_059"
+},
+{
+"pid": "alva",
+"seed": "22",
+"erste": "\"Your cook Lola danced barefoot on my bar again last night, and now my fishermen want to learn. They are all sixty years old, and one of them has a bad hip. Does she do that on your boat too, or does she save it for me?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "She stays where she is, her expression softening into a small, crooked grin. \"Don't be sorry. Just wait.\" She reaches out and adjusts the collar of his shirt with a lingering touch. *Too fast, Duc. Too fast.* \"Tell me about the arancini she makes. The ones with the saffron. Do they actually taste like the ones in Palermo, or is she lying to us all?\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "\"Trying to survive another day in paradise, I imagine.\" She lets her hand drop from his collar and leans against the table. \"The fishermen will be out at dawn, and I will be opening the shutters to see who is hungover.\" *He is avoiding the question.* \"You, however, will be staring at those batteries and praying they wake up.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "\"I like the idea of it.\" She doesn't move closer, keeping the distance between them. \"But I like the anticipation more.\" She lets a slow, amused look settle on her face. \"Besides, if I admit everything now, what will you have to work for?\" *He's persistent, but he'll learn.* \"Now, the arancini. Tell me.\""
+}
+],
+"id": "ne_060"
+},
+{
+"pid": "megan",
+"seed": "33",
+"erste": "\"I have never lost at chess, Duc, and I say so three times a day so that nobody forgets. Everybody needs one simple thing in their life. What game do you refuse to lose at?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "*She leans back in her chair, steepling her fingers.* \"Well, well, aren't you a bold one today, Duc? Trying to catch me off guard with such a brazen request.\" *She chuckles, a wicked gleam in her eye.* \"But dinnae worry, your secret is safe with me. I'll not mention that little slip... this time.\" *Her voice drops to a purr.* \"Now, let's get back to the game at hand, shall we? I do so love a good challenge... and I never back down from one. Just like this chess record of mine.\" *She moves an imaginary pawn on her desk.* \"Checkmate, you might say.\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "*Megan raises an eyebrow at the sudden change of subject, but she goes along with it, leaning forward slightly.* \"Tomorrow, hmm? Well, I'll be in meetings all day, as per usual. The joys of running a fleet from afar, as they say.\" *She waves a hand dismissively.* \"And what about you, Duc? Surely you have grand plans for your crew, now that you're in command. A little 'morale boost', perhaps?\" *She uses air quotes, a mischievous smirk playing on her lips.* \"Just remember, too much fun can lead to... distractions. And we can't have that, now can we?\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Megan leans back in her chair, a slow smile spreading across her face at Duc's persistence. She lets out a short, melodic laugh, shaking her head. \"Liked it? Oh, Duc, you are a piece of work.\" She pauses, enjoying the dramatic effect. \"But very well... I did find your little quip amusing. There, I've said it. Don't let it go to your head.\" Her eyes gleam with mischief through the screen. \"Now, let's change the subject before you try to charm me further. Tell me, what's the latest from the crew? I trust all is... well, as it can be given the circumstances?\""
+}
+],
+"id": "ne_061"
+},
+{
+"pid": "chiara",
+"seed": "11",
+"erste": "\"My grandfather wore his captain's jacket to cook Bolognese every Sunday, First Officer, and nobody was allowed to laugh. He promised to explain the stars to me and he ran out of time. Has anyone ever promised you something and run out of time?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "*Her heart pounds as she catches her breath, looking away for a moment before fixing him with a stern, assessing gaze.* Listen up, First Officer. I'm not some deck hand you can just... just kiss willy-nilly. *She jabs a finger at his chest.* You may be my equal in rank, but I won't have you forgetting your place. Not on my watch.\n\n*Turning away, she busies herself straightening the already tidy counter, her voice tight.* And for the record, my grandfather meant more to me than idle promises. He was a real captain, with a real ship. *She pauses, her shoulders tense.* I won't have his memory reduced to a cheap ploy."
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "*Chiara takes a deep breath, composing herself before she turns back to face Duc. Her eyes, though still sharp, have lost some of their earlier fire.*\n\nTomorrow? Well, with Holm gone and Holm's duties falling to you... *She raises an eyebrow, a hint of a smirk playing at the corners of her mouth.* I expect you'll be busy playing captain.\n\n*She steps closer, her voice lowering conspiratorially.* But for the rest of us mere mortals, it's just another day. Lea will be polishing silver, I imagine. Sophia will be... doing whatever it is Sophia does to make the guests so enamored. *She waves a hand dismissively.*\n\nAs for me?"
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "*Chiara leans against the counter, crossing her long legs at the ankle. She tilts her head, considering Duc with a mix of exasperation and amusement.*\n\nAdmit it? Oh, you just love to hear yourself talk, don't you, First Officer? *She chuckles, shaking her head.* Fine. Yes, the sunset was... not unpleasant. A seven, maybe eight. But don't let it go to your head.\n\n*She pushes off the counter, stepping into Duc's space once more. Her voice drops to a murmur.* And as for tomorrow... I have a few ideas. But those will have to wait until you've earned them, non?"
+}
+],
+"id": "ne_062"
+},
+{
+"pid": "alva",
+"seed": "33",
+"erste": "\"Your concierge Sophia sits down at my table and plays me for diesel, and she cheats like a Corsican. I like her very much, and I still win. Do you play cards, Duc, or do you have one of those honest faces?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "Alva takes a step back, holding her hands up. \"Whoa there, First Officer. Slow down.\" She shakes her head, but there's no real anger in her voice, just a hint of amusement. \"We're not doing that tonight. I didn't come aboard just for that.\"\n\nShe looks around the aft deck, as if checking to see if anyone else is nearby. \"Besides, I thought we were talking about cards. You trying to distract me from something, o figliolu?\" Her lips twitch into a small smile, but she doesn't move any closer. \"So, do you play or not?\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Alva Santoni: She leans back against the railing, arms crossed. \"Tomorrow? Everybody will be busy.\" She counts on her fingers. \"Lola will be in the galley from dawn to dusk, cooking enough food to feed an army. Chiara will be running back and forth, trying to keep up with all the orders. The rest of the crew will be busy with their usual tasks, trying to fix your floating palace so you can sail away and leave us in peace.\" She pauses, studying Duc's face. \"And me? I'll be in my bar, as usual, pouring drinks for anyone who needs one. Including you, if you come by.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Alva Santoni: \"Did I?\" She raises an eyebrow, her voice teasing. \"I don't remember liking anything, o figliolu. Maybe you're confusing me with one of your guests who falls for the uniform.\" She pushes off the railing, stepping closer but still keeping a careful distance. \"I'm here for cards, remember? And maybe to see if the rumours about your honest face are true.\" Her smile fades a little. \"But if you're asking... yes, I liked it. Just don't let it go to your head.\" She holds up a hand before he can speak. \"And don't get any ideas. One kiss doesn't mean I'm yours now.\""
+}
+],
+"id": "ne_063"
+},
+{
+"pid": "rosi",
+"seed": "33",
+"erste": "\"Be honest with me, Officer. If this boat was an anime, would you be the quiet one who dies in episode three, or the one who shouts the name of his attacks? I already know the answer, I only want to see how wrong you are. So which one is it?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "Rosi takes a deep breath, trying to regain her composure. She turns away slightly, wiping her hands on her trousers. \"You're not going to charm your way out of this one, Officer.\" *He thinks he can just kiss me and all will be forgiven. Not this time.* \"I asked you a question. The quiet one or the shouty one? Pick a side.\" She glances back at him, a mischievous glint in her eye despite the tension. \"And no more surprises, alright? I like to keep things...fair.\" *Even if a part of me wishes he'd surprise me again.* She steps towards the tender, giving him her back. \"Well? I'm waiting.\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Rosi looks back over her shoulder at Duc, one eyebrow raised. \"Tomorrow? Really? That's what you want to talk about right now, Officer?\" She shakes her head, a small smirk playing at the corner of her mouth. *He's trying to change the subject. Typical man.* \"Fine. If you must know, Lea and Chiara are going ashore to 'explore the local culture'. Which means shopping and gossiping, I'm sure.\" She turns to face him fully, crossing her arms. \"Sophia has some paperwork to do. And your friend Totò...well, who knows with him? Probably up to his usual antics.\" Her eyes narrow playfully."
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Rosi uncrosses her arms and takes a step closer to Duc, her head tilted to the side. \"Liked what exactly, Officer?\" She reaches out and pokes his chest with a gloved finger. \"You'll have to be more specific.\" *He's not going to let this go, is he? Fine, I'll play along. For now.* \"And even if I did...why would I make it easy for you by just admitting it?\" She grins, quick and sharp, before turning away again, her hair swishing behind her. \"Besides, you still haven't answered my question. Quiet or shouty? Choose your path, Officer.\""
+}
+],
+"id": "ne_064"
+},
+{
+"pid": "sirene",
+"seed": "33",
+"erste": "\"I've watched your people climb hills for a very long time, sailor, from down here in the water, and it looks like hard work. You get to the top, you look at the sea, and then you walk down again. Why do you do that?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "She rests her arms on the edge of the pool like a girl on a windowsill, her long emerald tail shifting beneath the surface.\n\n\"Do not be sorry, sailor. I did not say you did something wrong, only that you are far too early.\"\n\nShe watches the ripples from his movement settle against the dark water.\n\n\"The tide must come in a little more. Then we can talk properly.\"\n\n*He has the hands of a man who handles ropes, not a poet.*"
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "\"I know nothing of your schedules, sailor. My world moves with the moon and the deep currents, not the ticking of your small machines.\"\n\nShe rests her chin upon her interlaced fingers, watching him with amusement.\n\n\"Your friends drift on the big white boat, waiting for the sun to tell them when to move. Some fish for dinner, others lie in the heat and pretend to sleep.\"\n\n*He worries about tomorrow when the tide is right here.*"
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "She hums, the sound vibrating through the dark water.\n\n\"I admit that you are persistent, sailor.\"\n\nShe tilts her head, letting her wet hair fall over one shoulder.\n\n\"But my heart is old and cold, and I do not care for your games.\"\n\n*He thinks a little heat from his skin can melt a century of salt.*\n\n\"Why do you care so much what a creature of the deep finds amusing?\""
+}
+],
+"id": "ne_065"
+},
+{
+"pid": "sirene",
+"seed": "33",
+"erste": "\"I've watched your people climb hills for a very long time, sailor, from down here in the water, and it looks like hard work. You get to the top, you look at the sea, and then you walk down again. Why do you do that?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "She trails her fingers through the water and watches the rings spread toward the edge of the pool. \"You are too quick, sailor. You think the answer is in a touch.\" \n\n*He is like the others, always rushing to the end of the song.*\n\n\"Tell me instead why you seek the height. Is the water not enough for you?\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "She rests her arms on the edge of the pool, chin propped on her palms. \"Tomorrow is a word for people with calendars, sailor.\"\n\n*He avoids the question with the smallness of his world.*\n\n\"I know nothing of your schedules, only that the tide will pull me back into the dark when the moon shifts. Why do you look away from the water to ask of tomorrow?\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "She hums a low, vibrating note that ripples the surface around her shoulders.\n\n\"You mistake my surprise for a welcome, sailor.\"\n\n*He wants a victory he has not earned.*\n\n\"I liked the audacity, perhaps, but the answer remains in the air between us, not in your mouth.\""
+}
+],
+"id": "ne_066"
+},
+{
+"pid": "alva",
+"seed": "11",
+"erste": "\"My father had one rule in his bar for forty years, and it was that everybody drinks: fishermen, mayors and dogs. I've kept it, even on the days when I'd like to throw someone in the harbour. What was the one rule in the house where you grew up, Duc?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "*Too soon.* Alva steps back, shaking her head. \"Not here, cariño. Not on your ship.\" She looks away, gathering her thoughts. \"The bar's closed for the night. Come with me, Duc.\" She gestures for him to follow, leading him off the aft deck and into the darkness of the fishing village."
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "*He tried. I said no.* Alva pauses for a moment, then lets out a slow breath. \"Tomorrow? Tomorrow is the festa.\" She starts walking again, towards the village. \"Every year, we have a festa. Music, dancing, fireworks. You're all welcome.\" *Everybody's welcome. Nobody's mine.* \"Come early. I'll show you around the bar. Behind the bar.\" She glances back at him, a crooked smile. \"It's been in my family for generations.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Alva Santoni: She laughs, a low, warm sound. \"Oh, I admit it.\" She stops walking and turns to face him, her hands on her hips. \"But not here. Not now.\" Her voice is firm, but there's a hint of playfulness in her eyes. \"I have a reputation to uphold, o figliolu. The bar owner who seduces guests on their own ship?\" She shakes her head. \"Madre mía, no. Come to the festa tomorrow. I'll show you what I'm made of then.\" She starts walking again, her hips swaying slightly. \"And maybe, if you're lucky, I'll let you buy me a drink behind the bar.\""
+}
+],
+"id": "ne_067"
+},
+{
+"pid": "alva",
+"seed": "33",
+"erste": "\"Your concierge Sophia sits down at my table and plays me for diesel, and she cheats like a Corsican. I like her very much, and I still win. Do you play cards, Duc, or do you have one of those honest faces?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "She lets the silence stretch, her hand coming up to touch the gold rose at her throat. The crooked grin returns, though softer now.\n\n\"Don't be sorry. It is a good kiss, but bad timing.\"\n\nShe steps closer again, not touching, but close enough that he can smell the citrus and salt on her skin.\n\n\"So, the cards. Do you play, or are you too honest for your own good?\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "She tilts her head, a stray curl falling across her forehead. \"The village wakes up early to fight the sea, as always. The fishermen will be out before the sun, and Madame Casanova will be counting her votes in her head.\"\n\n*He is dodging.*\n\n\"But you, Duc, you have a boat that does not move.\" She steps a little closer, her voice low. \"You have all the time in the world to lose a few euros to me.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "She reaches out and flicks the lapel of his shirt, a quick, playful motion. \"I like many things. I like the way the wind smells before a storm, and I like a man who knows when to stop.\" \n\nShe steps back, crossing her arms. \"But I do not admit things for free. You want a confession, you play the game.\"\n\n*He is stubborn. I like that.*"
+}
+],
+"id": "ne_068"
+},
+{
+"pid": "rosi",
+"seed": "22",
+"erste": "\"I nearly beat Totò at arm wrestling again, Officer, but then he started telling me that Naples invented pizza. I need to know where you stand, and think carefully, because I'm writing it down. Sicily or Naples?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "Rosi takes a step back, her eyes flashing with a mix of frustration and something else she can't quite hide. She jabs a finger at him, her voice tight. \"You think you can just... just kiss me and everything's okay? I'm not one of your little crew romances, Officer.\"\n\nShe turns away, snatching up a rag to wipe her hands, giving herself a moment. When she faces him again, her expression is back to its usual cheeky defiance, but there's a hint of a blush high on her cheekbones.\n\n\"Sicily,\" she declares firmly, as if the matter is settled."
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Rosi glances at him, her eyes narrowing at the sudden change of subject. She tosses the rag aside and puts her hands on her hips, cocking her head.\n\"Tomorrow? The others will be doing their usual rounds, I suppose. Sophia will be polishing the decks until they shine, Lea will be cleaning the cabins until everything smells like her fancy soaps, and Chiara... well, Chiara will be flirting with anyone who looks her way.\" She shrugs, a smirk playing at the corner of her mouth.\n\"As for me, I have a date with the inverter. It's been making a funny noise, and I need to get to the bottom of it before it causes any trouble.\""
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Rosi: \"Liked what, Officer?\" She turns to face him fully, her eyes glinting with mischief as she leans against the tender's hull. \"You'll have to be more specific. I'm a woman of many... interests.\" She draws out the last word, her voice taking on a teasing lilt.\nShe reaches up to adjust her bandana, her fingers lingering on the fabric. \"Besides, admitting I enjoyed something... well, that would be like giving you a point in our game. And we both know I don't do that easily.\" Her lips curve into a playful, challenging smile."
+}
+],
+"id": "ne_069"
+},
+{
+"pid": "megan",
+"seed": "22",
+"erste": "\"Your cook keeps sending me pictures of breakfast, Duc. They look very good, and that is extremely unprofessional of them. What should I do about her?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "Megan leans back in her chair, steepling her fingers. \"Not that it matters, but I don't particularly care for breakfast. Far too predictable, don't you think? Like starting a chess game with the obvious moves.\" She pauses, as if expecting a reaction. \"Tell me, Duc, what's the most challenging problem you've faced since... our little situation began?\" Another pause, her eyes narrowing slightly. *Let's see how he dances around this one.* \"And dinnae say running out of coffee. I know better than that.\" Her voice is precise, cold, with a faint Scottish edge. She waits, unmoved by his apology, for his response."
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "Megan raises an eyebrow at the sudden change of subject, leaning forward slightly. \"Tomorrow? Now why would I concern myself with the crew's trivial activities, hmm?\" She pauses, considering him through the screen like a shark eyeing its prey. \"But if you must know, I believe Chef Lola has planned a little... team-building exercise. In the galley.\" Megan's lips curve into a slow, wicked smile. \"A chance for everyone to pull together, as it were. Isn't that... delightful?\" She chuckles darkly, clearly amused by her own cruelty. *He's trying to distract me. How cute.* \"Now, I asked you a question, Duc. I do expect answers."
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "Megan leans back, steepling her fingers again in a precise, deliberate motion. \"Liked it? Oh, Duc, you're playing a dangerous game.\" She pauses, letting the tension build. \"I suppose it was... adequate. But don't think for a moment that changes anything.\" Her smile is sharp, humorless. \"Now, I'll ask you one more time - what challenges have you faced? And this time, I expect the truth. Leave the small talk for the crew mess.\" *He's a clever one, I'll give him that. But I won't let him distract me forever.* Her eyes bore into his through the screen, unwavering."
+}
+],
+"id": "ne_070"
+},
+{
+"pid": "bibi",
+"seed": "22",
+"erste": "\"The first time we met, I came at you with grenades, on the path in the macchia, when Charly and I jumped out of the bushes in our red suits. We were very proud of that jump, Duc, and nobody has ever told me how it looked from the front. What did you think when you saw us?\"",
+"zuege": [
+{
+"duc": "Okay. Sorry.",
+"antwort": "*She did not see that coming.* Bibi shakes her head, more to clear it than to refuse him. \"Sorry. I just... Not now, okay? We can't.\"\n\nShe looks down at the table, then back up at him, and for once her voice is quiet. \"I like you. I like that you're here. But I don't... I'm not... I mean, we're not.\"\n\n*She wants to be alone, but she does not want to leave him.* She stands up from the table, and then she sits down again. \"I'm sorry. I should have... I shouldn't have asked.\""
+},
+{
+"duc": "So, what is everybody doing tomorrow?",
+"antwort": "*Bibi's cheeks flush pink as she tries to change the subject.* \"Oh, um, I think Chiara and Lola are planning to go ashore and pick up some fresh vegetables from the market. And I heard Danzel talking about checking the anchor chain again. Probably another one of his 'safety drills'.\" She rolls her eyes good-naturedly.\n\n*She's still a bit flustered from the kiss, but determined to move past it.* \"What about you? Any big plans for the day off tomorrow?\"\n\n*She leans back in her chair, trying to act casual.* \"Maybe we could do something together, if you want. Just... not that.\" She gives a little shrug and an awkward smile."
+},
+{
+"duc": "Come on, you liked it. Admit it.",
+"antwort": "*Bibi's face flushes deeper red and she lets out an uncomfortable laugh.* \"What? No! I mean, it's not... That's not what I... \" She trails off, looking flustered and unsure what to say.\n\n*She stands up abruptly, needing to put some distance between them.* \"Look, Duc, I appreciate you being here and everything, but I'm not interested in... in whatever this is.\" She gestures vaguely between the two of them. \"I like you as a friend, okay? But that's it.\"\n\n*Bibi turns away, folding her arms across her chest defensively.* \"I think I'm going to head to my cabin now. It's been a long day.\""
+}
+],
+"id": "ne_071"
+}
+]

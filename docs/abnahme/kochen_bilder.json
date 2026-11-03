@@ -1,0 +1,397 @@
+{
+ "id": "kochen_bilder",
+ "titel": "Küchenkreis – Tiere, Fische, Rohformen (65 Bilder)",
+ "hinweis": "Jedes Bild mit OK oder Neu markieren. Neu = ich erzeuge es mit Kochen_Bilder.bat <art> <id> noch einmal. Alle Tiere sind Italien-typische Rassen (Livorno-Huhn, Cinta Senese, Chianina).",
+ "items": [
+  {
+   "id": "tier_chicken_baby",
+   "titel": "Chicken (Livorno hen) – Baby",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\tiere\\chicken_baby.png",
+   "soll": "Livorno hen, single animal, side view, clean cutout; very small and young"
+  },
+  {
+   "id": "tier_chicken_adult_m",
+   "titel": "Chicken (Livorno hen) – adult male",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\tiere\\chicken_adult_m.png",
+   "soll": "Livorno hen, single animal, side view, clean cutout; fully grown"
+  },
+  {
+   "id": "tier_chicken_adult_f",
+   "titel": "Chicken (Livorno hen) – adult female",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\tiere\\chicken_adult_f.png",
+   "soll": "Livorno hen, single animal, side view, clean cutout; fully grown"
+  },
+  {
+   "id": "tier_chicken_old_m",
+   "titel": "Chicken (Livorno hen) – old male",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\tiere\\chicken_old_m.png",
+   "soll": "Livorno hen, single animal, side view, clean cutout; visibly older and heavier"
+  },
+  {
+   "id": "tier_chicken_old_f",
+   "titel": "Chicken (Livorno hen) – old female",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\tiere\\chicken_old_f.png",
+   "soll": "Livorno hen, single animal, side view, clean cutout; visibly older and heavier"
+  },
+  {
+   "id": "tier_pig_baby",
+   "titel": "Pig (Cinta Senese) – Baby",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\tiere\\pig_baby.png",
+   "soll": "Cinta Senese, single animal, side view, clean cutout; very small and young"
+  },
+  {
+   "id": "tier_pig_adult_m",
+   "titel": "Pig (Cinta Senese) – adult male",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\tiere\\pig_adult_m.png",
+   "soll": "Cinta Senese, single animal, side view, clean cutout; fully grown"
+  },
+  {
+   "id": "tier_pig_adult_f",
+   "titel": "Pig (Cinta Senese) – adult female",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\tiere\\pig_adult_f.png",
+   "soll": "Cinta Senese, single animal, side view, clean cutout; fully grown"
+  },
+  {
+   "id": "tier_pig_old_m",
+   "titel": "Pig (Cinta Senese) – old male",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\tiere\\pig_old_m.png",
+   "soll": "Cinta Senese, single animal, side view, clean cutout; visibly older and heavier"
+  },
+  {
+   "id": "tier_pig_old_f",
+   "titel": "Pig (Cinta Senese) – old female",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\tiere\\pig_old_f.png",
+   "soll": "Cinta Senese, single animal, side view, clean cutout; visibly older and heavier"
+  },
+  {
+   "id": "tier_cow_baby",
+   "titel": "Cow (Chianina) – Baby",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\tiere\\cow_baby.png",
+   "soll": "Chianina, single animal, side view, clean cutout; very small and young"
+  },
+  {
+   "id": "tier_cow_adult_m",
+   "titel": "Cow (Chianina) – adult male",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\tiere\\cow_adult_m.png",
+   "soll": "Chianina, single animal, side view, clean cutout; fully grown"
+  },
+  {
+   "id": "tier_cow_adult_f",
+   "titel": "Cow (Chianina) – adult female",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\tiere\\cow_adult_f.png",
+   "soll": "Chianina, single animal, side view, clean cutout; fully grown"
+  },
+  {
+   "id": "tier_cow_old_m",
+   "titel": "Cow (Chianina) – old male",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\tiere\\cow_old_m.png",
+   "soll": "Chianina, single animal, side view, clean cutout; visibly older and heavier"
+  },
+  {
+   "id": "tier_cow_old_f",
+   "titel": "Cow (Chianina) – old female",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\tiere\\cow_old_f.png",
+   "soll": "Chianina, single animal, side view, clean cutout; visibly older and heavier"
+  },
+  {
+   "id": "fisch_sea_bass",
+   "titel": "European Sea Bass (Meer, Boot)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\sea_bass.png",
+   "soll": "Fisch-Sprite für das Angel-Minispiel: ganzes Tier von der Seite, sauber freigestellt"
+  },
+  {
+   "id": "fisch_gilt_head_bream",
+   "titel": "Gilt-head Bream (Meer, Boot)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\gilt_head_bream.png",
+   "soll": "Fisch-Sprite für das Angel-Minispiel: ganzes Tier von der Seite, sauber freigestellt"
+  },
+  {
+   "id": "fisch_red_mullet",
+   "titel": "Red Mullet (Meer, Boot)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\red_mullet.png",
+   "soll": "Fisch-Sprite für das Angel-Minispiel: ganzes Tier von der Seite, sauber freigestellt"
+  },
+  {
+   "id": "fisch_scorpionfish",
+   "titel": "Scorpionfish (Meer, Boot)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\scorpionfish.png",
+   "soll": "Fisch-Sprite für das Angel-Minispiel: ganzes Tier von der Seite, sauber freigestellt"
+  },
+  {
+   "id": "fisch_sardine",
+   "titel": "Sardine (Meer, Boot)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\sardine.png",
+   "soll": "Fisch-Sprite für das Angel-Minispiel: ganzes Tier von der Seite, sauber freigestellt"
+  },
+  {
+   "id": "fisch_little_tunny",
+   "titel": "Little Tunny (Meer, Boot)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\little_tunny.png",
+   "soll": "Fisch-Sprite für das Angel-Minispiel: ganzes Tier von der Seite, sauber freigestellt"
+  },
+  {
+   "id": "fisch_cuttlefish",
+   "titel": "Cuttlefish (Meer, Boot)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\cuttlefish.png",
+   "soll": "Fisch-Sprite für das Angel-Minispiel: ganzes Tier von der Seite, sauber freigestellt"
+  },
+  {
+   "id": "fisch_octopus",
+   "titel": "Common Octopus (Meer, Boot)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\octopus.png",
+   "soll": "Fisch-Sprite für das Angel-Minispiel: ganzes Tier von der Seite, sauber freigestellt"
+  },
+  {
+   "id": "fisch_red_prawn",
+   "titel": "Red Prawn (Meer, Boot)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\red_prawn.png",
+   "soll": "Fisch-Sprite für das Angel-Minispiel: ganzes Tier von der Seite, sauber freigestellt"
+  },
+  {
+   "id": "fisch_spiny_lobster",
+   "titel": "Spiny Lobster (Meer, Boot)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\spiny_lobster.png",
+   "soll": "Fisch-Sprite für das Angel-Minispiel: ganzes Tier von der Seite, sauber freigestellt"
+  },
+  {
+   "id": "fisch_brown_trout",
+   "titel": "Mediterranean Trout (Fluss)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\brown_trout.png",
+   "soll": "Fisch-Sprite für das Angel-Minispiel: ganzes Tier von der Seite, sauber freigestellt"
+  },
+  {
+   "id": "fisch_eel",
+   "titel": "European Eel (Fluss)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\eel.png",
+   "soll": "Fisch-Sprite für das Angel-Minispiel: ganzes Tier von der Seite, sauber freigestellt"
+  },
+  {
+   "id": "fisch_carp",
+   "titel": "Common Carp (Fluss)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\carp.png",
+   "soll": "Fisch-Sprite für das Angel-Minispiel: ganzes Tier von der Seite, sauber freigestellt"
+  },
+  {
+   "id": "fisch_pike",
+   "titel": "Northern Pike (Fluss)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\pike.png",
+   "soll": "Fisch-Sprite für das Angel-Minispiel: ganzes Tier von der Seite, sauber freigestellt"
+  },
+  {
+   "id": "fisch_perch",
+   "titel": "European Perch (Fluss)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\perch.png",
+   "soll": "Fisch-Sprite für das Angel-Minispiel: ganzes Tier von der Seite, sauber freigestellt"
+  },
+  {
+   "id": "fisch_tench",
+   "titel": "Tench (Fluss)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\tench.png",
+   "soll": "Fisch-Sprite für das Angel-Minispiel: ganzes Tier von der Seite, sauber freigestellt"
+  },
+  {
+   "id": "fisch_barbel",
+   "titel": "Barbel (Fluss)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\barbel.png",
+   "soll": "Fisch-Sprite für das Angel-Minispiel: ganzes Tier von der Seite, sauber freigestellt"
+  },
+  {
+   "id": "fisch_zander",
+   "titel": "Zander (Fluss)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\zander.png",
+   "soll": "Fisch-Sprite für das Angel-Minispiel: ganzes Tier von der Seite, sauber freigestellt"
+  },
+  {
+   "id": "fisch_river_crayfish",
+   "titel": "River Crayfish (Fluss)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\river_crayfish.png",
+   "soll": "Fisch-Sprite für das Angel-Minispiel: ganzes Tier von der Seite, sauber freigestellt"
+  },
+  {
+   "id": "fisch_river_crab",
+   "titel": "River Crab (Fluss)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\fische\\river_crab.png",
+   "soll": "Fisch-Sprite für das Angel-Minispiel: ganzes Tier von der Seite, sauber freigestellt"
+  },
+  {
+   "id": "roh_sea_bass",
+   "titel": "Sea Bass Fillets, raw",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\sea_bass_roh.webp",
+   "soll": "Item-Bild der Rohform, Leinen-Look wie die anderen Gegenstände"
+  },
+  {
+   "id": "roh_gilt_head_bream",
+   "titel": "Bream Fillets, raw",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\gilt_head_bream_roh.webp",
+   "soll": "Item-Bild der Rohform, Leinen-Look wie die anderen Gegenstände"
+  },
+  {
+   "id": "roh_red_mullet",
+   "titel": "Red Mullet Fillets, raw",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\red_mullet_roh.webp",
+   "soll": "Item-Bild der Rohform, Leinen-Look wie die anderen Gegenstände"
+  },
+  {
+   "id": "roh_scorpionfish",
+   "titel": "Rascasse for the Pot, raw",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\scorpionfish_roh.webp",
+   "soll": "Item-Bild der Rohform, Leinen-Look wie die anderen Gegenstände"
+  },
+  {
+   "id": "roh_sardine",
+   "titel": "Sardine Fillets, raw",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\sardine_roh.webp",
+   "soll": "Item-Bild der Rohform, Leinen-Look wie die anderen Gegenstände"
+  },
+  {
+   "id": "roh_little_tunny",
+   "titel": "Tuna Steaks, raw",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\little_tunny_roh.webp",
+   "soll": "Item-Bild der Rohform, Leinen-Look wie die anderen Gegenstände"
+  },
+  {
+   "id": "roh_cuttlefish",
+   "titel": "Cuttlefish Strips, raw",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\cuttlefish_roh.webp",
+   "soll": "Item-Bild der Rohform, Leinen-Look wie die anderen Gegenstände"
+  },
+  {
+   "id": "roh_octopus",
+   "titel": "Octopus Tentacle, raw",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\octopus_roh.webp",
+   "soll": "Item-Bild der Rohform, Leinen-Look wie die anderen Gegenstände"
+  },
+  {
+   "id": "roh_red_prawn",
+   "titel": "Peeled Red Prawns, raw",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\red_prawn_roh.webp",
+   "soll": "Item-Bild der Rohform, Leinen-Look wie die anderen Gegenstände"
+  },
+  {
+   "id": "roh_spiny_lobster",
+   "titel": "Lobster Tail, raw",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\spiny_lobster_roh.webp",
+   "soll": "Item-Bild der Rohform, Leinen-Look wie die anderen Gegenstände"
+  },
+  {
+   "id": "roh_brown_trout",
+   "titel": "Trout Fillets, raw",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\brown_trout_roh.webp",
+   "soll": "Item-Bild der Rohform, Leinen-Look wie die anderen Gegenstände"
+  },
+  {
+   "id": "roh_eel",
+   "titel": "Eel Pieces, raw",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\eel_roh.webp",
+   "soll": "Item-Bild der Rohform, Leinen-Look wie die anderen Gegenstände"
+  },
+  {
+   "id": "roh_carp",
+   "titel": "Carp Steaks, raw",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\carp_roh.webp",
+   "soll": "Item-Bild der Rohform, Leinen-Look wie die anderen Gegenstände"
+  },
+  {
+   "id": "roh_pike",
+   "titel": "Pike Fillets, raw",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\pike_roh.webp",
+   "soll": "Item-Bild der Rohform, Leinen-Look wie die anderen Gegenstände"
+  },
+  {
+   "id": "roh_perch",
+   "titel": "Perch Fillets, raw",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\perch_roh.webp",
+   "soll": "Item-Bild der Rohform, Leinen-Look wie die anderen Gegenstände"
+  },
+  {
+   "id": "roh_tench",
+   "titel": "Tench Fillets, raw",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\tench_roh.webp",
+   "soll": "Item-Bild der Rohform, Leinen-Look wie die anderen Gegenstände"
+  },
+  {
+   "id": "roh_barbel",
+   "titel": "Barbel Fillets, raw",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\barbel_roh.webp",
+   "soll": "Item-Bild der Rohform, Leinen-Look wie die anderen Gegenstände"
+  },
+  {
+   "id": "roh_zander",
+   "titel": "Zander Fillets, raw",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\zander_roh.webp",
+   "soll": "Item-Bild der Rohform, Leinen-Look wie die anderen Gegenstände"
+  },
+  {
+   "id": "roh_river_crayfish",
+   "titel": "Crayfish Tails, raw",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\river_crayfish_roh.webp",
+   "soll": "Item-Bild der Rohform, Leinen-Look wie die anderen Gegenstände"
+  },
+  {
+   "id": "roh_river_crab",
+   "titel": "River Crab Meat, raw",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\river_crab_roh.webp",
+   "soll": "Item-Bild der Rohform, Leinen-Look wie die anderen Gegenstände"
+  },
+  {
+   "id": "produkt_eggs",
+   "titel": "Eggs",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\eggs.webp",
+   "soll": "Item-Bild des Tierprodukts, Leinen-Look"
+  },
+  {
+   "id": "produkt_milk",
+   "titel": "Milk",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\milk.webp",
+   "soll": "Item-Bild des Tierprodukts, Leinen-Look"
+  },
+  {
+   "id": "produkt_truffle",
+   "titel": "Truffle",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\truffle.webp",
+   "soll": "Item-Bild des Tierprodukts, Leinen-Look"
+  },
+  {
+   "id": "produkt_chicken_meat",
+   "titel": "Chicken",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\chicken_meat.webp",
+   "soll": "Item-Bild des Tierprodukts, Leinen-Look"
+  },
+  {
+   "id": "produkt_pork",
+   "titel": "Pork",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\pork.webp",
+   "soll": "Item-Bild des Tierprodukts, Leinen-Look"
+  },
+  {
+   "id": "produkt_beef",
+   "titel": "Beef",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\beef.webp",
+   "soll": "Item-Bild des Tierprodukts, Leinen-Look"
+  },
+  {
+   "id": "produkt_salmon_steak",
+   "titel": "Salmon Steaks, raw",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\salmon_steak.webp",
+   "soll": "Item-Bild des Tierprodukts, Leinen-Look"
+  },
+  {
+   "id": "produkt_timber",
+   "titel": "Timber",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\timber.webp",
+   "soll": "Item-Bild des Tierprodukts, Leinen-Look"
+  },
+  {
+   "id": "produkt_stone",
+   "titel": "Field Stone",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\stone.webp",
+   "soll": "Item-Bild des Tierprodukts, Leinen-Look"
+  },
+  {
+   "id": "produkt_iron",
+   "titel": "Iron Fittings",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\iron.webp",
+   "soll": "Item-Bild des Tierprodukts, Leinen-Look"
+  }
+ ]
+}

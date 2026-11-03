@@ -1,0 +1,145 @@
+{
+ "id": "bilder_akt1",
+ "titel": "Bilder der Nacht · Akt 1",
+ "hinweis": "Items: OK oder Neu. Hintergründe: je Motiv eine Variante mit OK. Casting: je Figur eine Fassung (A/B) mit OK – danach entstehen die Sprites. Trypophobie-Vorprüfung durch Claude: keine Lochmuster; Nonnas Kleid hat feinen Mehlstaub (Sprenkel).",
+ "items": [
+  {
+   "id": "item_bao_buns",
+   "titel": "Bao Buns (Lolas Lieblingsgericht)",
+   "bild": "X:\\AI\\Eden-nacht\\module\\eden_rise\\items\\_gross\\bao_buns.png",
+   "soll": "Produktfoto auf Leinen"
+  },
+  {
+   "id": "item_fish_pie",
+   "titel": "Fish Pie (Petrus Lieblingsgericht)",
+   "bild": "X:\\AI\\Eden-nacht\\module\\eden_rise\\items\\_gross\\fish_pie.png",
+   "soll": "Produktfoto auf Leinen"
+  },
+  {
+   "id": "item_verbandskasten",
+   "titel": "Verbandskasten (fehlte bisher)",
+   "bild": "X:\\AI\\Eden-nacht\\module\\eden_rise\\items\\_gross\\verbandskasten.png",
+   "soll": "Produktfoto auf Leinen"
+  },
+  {
+   "id": "strand_lagerfeuer=1",
+   "titel": "Lagerfeuer am Strand (Tag 6) · Variante 1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_strand_lagerfeuer_v1.png",
+   "soll": "Lagerfeuer am Strand (Tag 6)"
+  },
+  {
+   "id": "strand_lagerfeuer=2",
+   "titel": "Lagerfeuer am Strand (Tag 6) · Variante 2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_strand_lagerfeuer_v2.png",
+   "soll": "Lagerfeuer am Strand (Tag 6)"
+  },
+  {
+   "id": "strand_lagerfeuer=3",
+   "titel": "Lagerfeuer am Strand (Tag 6) · Variante 3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_strand_lagerfeuer_v3.png",
+   "soll": "Lagerfeuer am Strand (Tag 6)"
+  },
+  {
+   "id": "strand_lagerfeuer=4",
+   "titel": "Lagerfeuer am Strand (Tag 6) · Variante 4",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_strand_lagerfeuer_v4.png",
+   "soll": "Lagerfeuer am Strand (Tag 6)"
+  },
+  {
+   "id": "berge_rotes_licht=1",
+   "titel": "Cliffhanger: rotes Licht in den Bergen (Tag 7) · Variante 1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_berge_rotes_licht_v1.png",
+   "soll": "Cliffhanger: rotes Licht in den Bergen (Tag 7)"
+  },
+  {
+   "id": "berge_rotes_licht=2",
+   "titel": "Cliffhanger: rotes Licht in den Bergen (Tag 7) · Variante 2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_berge_rotes_licht_v2.png",
+   "soll": "Cliffhanger: rotes Licht in den Bergen (Tag 7)"
+  },
+  {
+   "id": "berge_rotes_licht=3",
+   "titel": "Cliffhanger: rotes Licht in den Bergen (Tag 7) · Variante 3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_berge_rotes_licht_v3.png",
+   "soll": "Cliffhanger: rotes Licht in den Bergen (Tag 7)"
+  },
+  {
+   "id": "berge_rotes_licht=4",
+   "titel": "Cliffhanger: rotes Licht in den Bergen (Tag 7) · Variante 4",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_berge_rotes_licht_v4.png",
+   "soll": "Cliffhanger: rotes Licht in den Bergen (Tag 7)"
+  },
+  {
+   "id": "Yacht_Laetitia_A_1",
+   "titel": "Laetitia Albertini · Fassung A · Seed 1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_akt1\\Yacht_Laetitia_A\\neutral.png",
+   "soll": "Casting-Portrait: Gesicht und Outfit"
+  },
+  {
+   "id": "Yacht_Laetitia_A_2",
+   "titel": "Laetitia Albertini · Fassung A · Seed 2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_akt1\\Yacht_Laetitia_A\\neutral-1.png",
+   "soll": "Casting-Portrait: Gesicht und Outfit"
+  },
+  {
+   "id": "Yacht_Laetitia_B_1",
+   "titel": "Laetitia Albertini · Fassung B · Seed 1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_akt1\\Yacht_Laetitia_B\\neutral.png",
+   "soll": "Casting-Portrait: Gesicht und Outfit"
+  },
+  {
+   "id": "Yacht_Laetitia_B_2",
+   "titel": "Laetitia Albertini · Fassung B · Seed 2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_akt1\\Yacht_Laetitia_B\\neutral-1.png",
+   "soll": "Casting-Portrait: Gesicht und Outfit"
+  },
+  {
+   "id": "Yacht_Adrien_A_1",
+   "titel": "Caporal Adrien Morel · Fassung A · Seed 1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_akt1\\Yacht_Adrien_A\\neutral.png",
+   "soll": "Casting-Portrait: Gesicht und Outfit"
+  },
+  {
+   "id": "Yacht_Adrien_A_2",
+   "titel": "Caporal Adrien Morel · Fassung A · Seed 2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_akt1\\Yacht_Adrien_A\\neutral-1.png",
+   "soll": "Casting-Portrait: Gesicht und Outfit"
+  },
+  {
+   "id": "Yacht_Adrien_B_1",
+   "titel": "Caporal Adrien Morel · Fassung B · Seed 1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_akt1\\Yacht_Adrien_B\\neutral.png",
+   "soll": "Casting-Portrait: Gesicht und Outfit"
+  },
+  {
+   "id": "Yacht_Adrien_B_2",
+   "titel": "Caporal Adrien Morel · Fassung B · Seed 2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_akt1\\Yacht_Adrien_B\\neutral-1.png",
+   "soll": "Casting-Portrait: Gesicht und Outfit"
+  },
+  {
+   "id": "Yacht_Nonna_C_1",
+   "titel": "Nonna Fiora · Fassung C (silbernes Haar, offen hochgesteckt) · Seed 1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_akt1\\Yacht_Nonna_C\\neutral.png",
+   "soll": "Runde 2: schön gealterte Frau um 60, weniger Nonna-Klischee"
+  },
+  {
+   "id": "Yacht_Nonna_C_2",
+   "titel": "Nonna Fiora · Fassung C (silbernes Haar, offen hochgesteckt) · Seed 2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_akt1\\Yacht_Nonna_C\\neutral-1.png",
+   "soll": "Runde 2: schön gealterte Frau um 60, weniger Nonna-Klischee"
+  },
+  {
+   "id": "Yacht_Nonna_D_1",
+   "titel": "Nonna Fiora · Fassung D (langer Zopf, Goldcreolen) · Seed 1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_akt1\\Yacht_Nonna_D\\neutral.png",
+   "soll": "Runde 2: schön gealterte Frau um 60, weniger Nonna-Klischee"
+  },
+  {
+   "id": "Yacht_Nonna_D_2",
+   "titel": "Nonna Fiora · Fassung D (langer Zopf, Goldcreolen) · Seed 2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_akt1\\Yacht_Nonna_D\\neutral-1.png",
+   "soll": "Runde 2: schön gealterte Frau um 60, weniger Nonna-Klischee"
+  }
+ ]
+}

@@ -1,0 +1,139 @@
+{
+ "id": "bonaventure_satz",
+ "titel": "Captain Bonaventure: NPC-Satz, 22 Posen",
+ "hinweis": "Vorschlag: alle freigeben. Nur was nicht passt, auf „Neu“ setzen. Noch nichts im Spiel.",
+ "items": [
+  {
+   "id": "neutral",
+   "titel": "neutral",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bonaventure_satz\\neutral.png",
+   "soll": "Deine Wahl C2, ohne Blechkrone, mit schwarzen Stiefeln und Goldmünze."
+  },
+  {
+   "id": "admiration_2",
+   "titel": "admiration_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bonaventure_satz\\admiration_2.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "amusement",
+   "titel": "amusement",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bonaventure_satz\\amusement.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "anger",
+   "titel": "anger",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bonaventure_satz\\anger.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "annoyance",
+   "titel": "annoyance",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bonaventure_satz\\annoyance.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "approval",
+   "titel": "approval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bonaventure_satz\\approval.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "caring",
+   "titel": "caring",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bonaventure_satz\\caring.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "confusion",
+   "titel": "confusion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bonaventure_satz\\confusion.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "curiosity",
+   "titel": "curiosity",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bonaventure_satz\\curiosity.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "disappointment",
+   "titel": "disappointment",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bonaventure_satz\\disappointment.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "disapproval",
+   "titel": "disapproval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bonaventure_satz\\disapproval.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "disgust",
+   "titel": "disgust",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bonaventure_satz\\disgust.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "embarrassment_2",
+   "titel": "embarrassment_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bonaventure_satz\\embarrassment_2.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "excitement_2",
+   "titel": "excitement_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bonaventure_satz\\excitement_2.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "fear_2",
+   "titel": "fear_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bonaventure_satz\\fear_2.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "gratitude",
+   "titel": "gratitude",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bonaventure_satz\\gratitude.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "joy",
+   "titel": "joy",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bonaventure_satz\\joy.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "love_2",
+   "titel": "love_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bonaventure_satz\\love_2.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "nervousness",
+   "titel": "nervousness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bonaventure_satz\\nervousness.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "pride",
+   "titel": "pride",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bonaventure_satz\\pride.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "sadness",
+   "titel": "sadness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bonaventure_satz\\sadness.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "surprise",
+   "titel": "surprise",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bonaventure_satz\\surprise.png",
+   "soll": "Wie deine Wahl."
+  }
+ ]
+}

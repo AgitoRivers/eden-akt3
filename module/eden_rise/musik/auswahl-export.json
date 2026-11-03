@@ -1,0 +1,1531 @@
+{
+  "schema": 1,
+  "project": "Eden Rise",
+  "catalog_created": "2026-10-20",
+  "exported_at": "2026-10-24T12:03:57.396Z",
+  "request": "Ausgewählte Titel nach separater Übergabe herunterladen, Credits sichern und in die aktuellen Szenen integrieren.",
+  "selections": [
+    {
+      "slot": "deck_tag",
+      "title": "Sonnenlicht auf dem Deck",
+      "source_prompts": [
+        "Sonnenlicht auf dem Deck",
+        "Sonnenlicht auf dem Deck - Alternative - Modern Soulful House"
+      ],
+      "track_ids": [
+        "USUAN1600055",
+        "USUAN1600012",
+        "USUAN1100153"
+      ],
+      "note": "",
+      "style_note": "Bossa Antigua ist deine bestätigte Stilreferenz. Hier bewusst Bossa statt House.",
+      "tracks": [
+        {
+          "title": "BossaBossa",
+          "filename": "BossaBossa.mp3",
+          "length": "00:02:47",
+          "instruments": "Piano, Bass, Drums, Guitar",
+          "genre": "12",
+          "bpm": "77",
+          "description": "What makes a Bossa Nova a Bossa Nova? Whatever it is, this has it double! Or maybe it is just compensating for its relatively simple chord progression. Enjoy your Bossa! Probably. Probably a Bossa Nova.",
+          "feel": "Calming, Grooving, Bright",
+          "uploaded": "2016-10-02",
+          "isrc": "USUAN1600055",
+          "collection": "15",
+          "sheetmusic": null,
+          "video": "https://youtu.be/Hdnz8DRzntk",
+          "itunes": "https://itunes.apple.com/us/album/bossabossa/id1187877605?i=1187877860",
+          "filmmusicURL": "https://incompetech.filmmusic.io/song/3455-bossabossa/",
+          "id": "USUAN1600055",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600055",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/BossaBossa.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"BossaBossa\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "5355450"
+          }
+        },
+        {
+          "title": "Casa Bossa Nova",
+          "filename": "Casa Bossa Nova.mp3",
+          "length": "00:04:02",
+          "instruments": "Piano, Flute, Bass, Percussion, Organ, Guitar, Mellotron",
+          "genre": "12",
+          "bpm": "116",
+          "description": "Okay, the tuning on the bass is a bit off here and there, but the heart is in the right place.Throw a filter on this and use it an your waiting area jam. Or on-hold music. Or pre-show music for your militia function. I'm sure the calming aspects would be very welcome in all the situations! Oh, you can also use this in your dance routines. Because bossa novas rock! ... or they Bossa... not sure.",
+          "feel": "Calming, Grooving, Humorous",
+          "uploaded": "2016-02-19",
+          "isrc": "USUAN1600012",
+          "collection": "15",
+          "sheetmusic": null,
+          "video": "https://youtu.be/O_TcGPoFwPo",
+          "itunes": "https://itunes.apple.com/us/album/casa-bossa-nova/id1103156406?i=1103156409",
+          "filmmusicURL": "https://incompetech.filmmusic.io/song/3481-casa-bossa-nova/",
+          "id": "USUAN1600012",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600012",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Casa%20Bossa%20Nova.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Casa Bossa Nova\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "7750389"
+          }
+        },
+        {
+          "title": "Modern Jazz Samba",
+          "filename": "Modern Jazz Samba.mp3",
+          "length": "00:04:09",
+          "instruments": "Drum Kit, Bass, Acoustic Guitar, Piano, Flute",
+          "genre": "12",
+          "bpm": "85",
+          "description": "A nice little 85 BMP piece with guitar, piano, bass, and flute. Kind of jazzy and slightly blues-y with a more rocking beat. The bass in this piece is actually a sample from an 18th century double bass. Most latin players aren't likely to be on one of these... but it was the only one I had at the time.",
+          "feel": "Bright, Driving, Bouncy",
+          "uploaded": "2004-01-01",
+          "isrc": "USUAN1100153",
+          "collection": "15",
+          "sheetmusic": null,
+          "video": null,
+          "itunes": "https://itunes.apple.com/us/album/modern-jazz-samba/id945183577?i=945183611",
+          "filmmusicURL": "https://incompetech.filmmusic.io/song/4063-modern-jazz-samba/",
+          "id": "USUAN1100153",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100153",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Modern%20Jazz%20Samba.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Modern Jazz Samba\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "6070802"
+          }
+        }
+      ]
+    },
+    {
+      "slot": "crew_alltag",
+      "title": "Frühstück mit der Crew",
+      "source_prompts": [
+        "Frühstück mit der Crew",
+        "Frühstück mit der Crew - Alternative - Morning Neo-Soul House"
+      ],
+      "track_ids": [
+        "USUAN1700074"
+      ],
+      "note": "Mehr wie Jazz Brunch",
+      "style_note": "",
+      "tracks": [
+        {
+          "title": "Jazz Brunch",
+          "filename": "Jazz Brunch.mp3",
+          "length": "00:05:23",
+          "instruments": "Electric Piano, Drums, Bass, Organ, Guitar",
+          "genre": "11",
+          "bpm": "100",
+          "description": "This is the music playing at the slightly-too-nice cafe - while you pretend to be rational while discussing who gets to keep which snakes in the divorce. I mean, the snakes don't really seem to care... they just hang out in the drawers most of the time. And you kind of really want to keep Alice, the piebald ball python... she's really photogenic, but she is kind of a jerk.",
+          "feel": "Bright, Grooving, Relaxed",
+          "uploaded": "2017-11-26",
+          "isrc": "USUAN1700074",
+          "collection": "14",
+          "sheetmusic": "Jazz Brunch (C chart).pdf",
+          "video": null,
+          "itunes": "https://itunes.apple.com/us/album/jazz-brunch/1312683881?i=1312683888",
+          "filmmusicURL": "https://incompetech.filmmusic.io/song/3937-jazz-brunch/",
+          "id": "USUAN1700074",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700074",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Jazz%20Brunch.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Jazz Brunch\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "10341722"
+          }
+        }
+      ]
+    },
+    {
+      "slot": "charter_nacht",
+      "title": "Die letzte Charter-Nacht",
+      "source_prompts": [
+        "Die letzte Charter-Nacht"
+      ],
+      "track_ids": [
+        "USUAN1500041"
+      ],
+      "note": "Mehr wie 1",
+      "style_note": "",
+      "tracks": [
+        {
+          "title": "Disco Medusae",
+          "filename": "Disco Medusae.mp3",
+          "length": "00:03:41",
+          "instruments": "Percussion, Bass, Synths, Clavinet, Guitar",
+          "genre": "6",
+          "bpm": "115",
+          "description": "Discomedusae is an obsolesced class of jellyfish. I'm guessing there was some biology schism back in the day and some crazy jellyfish specialist wrote some sort of definitive work on the animals and everyone had to change their classification. The jerk. I mean, it was probably JUST FINE the way it was! But NOOooo! You had to come along and screw up my perfectly good taxonomy key - rendering it USELESS! Hey jellyfish specialist - guess what? No one cares that much anyway! We're all just placating you until you die, and then everyone is going back to using the old keys, which we could at least figure out! This is a disco tune.",
+          "feel": "Bright, Grooving",
+          "uploaded": "2015-06-14",
+          "isrc": "USUAN1500041",
+          "collection": "7",
+          "sheetmusic": null,
+          "video": "https://youtu.be/lfbxJsfohlI",
+          "itunes": null,
+          "filmmusicURL": "https://incompetech.filmmusic.io/song/3652-disco-medusae/",
+          "id": "USUAN1500041",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500041",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Disco%20Medusae.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Disco Medusae\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "7083320"
+          }
+        }
+      ]
+    },
+    {
+      "slot": "leuchtendes_meer",
+      "title": "Leuchtendes Meer",
+      "source_prompts": [
+        "Leuchtendes Meer"
+      ],
+      "track_ids": [
+        "USUAN1300046"
+      ],
+      "note": "",
+      "style_note": "Allgemeiner Szenenvorschlag. Die bestehende Sophia-Zuordnung wird nicht verändert.",
+      "tracks": [
+        {
+          "title": "Dream Culture",
+          "filename": "Dream Culture.mp3",
+          "length": "00:03:34",
+          "instruments": "Piano, Percussion",
+          "genre": "5",
+          "bpm": "70",
+          "description": "Dreamy watery piano bits over a tight percussion with some reverse effects to add to the dreamlike state of things.",
+          "feel": "Calming, Relaxed, Uplifting",
+          "uploaded": "2013-11-16",
+          "isrc": "USUAN1300046",
+          "collection": "16",
+          "sheetmusic": null,
+          "video": "https://youtu.be/dWYS_iQNZys",
+          "itunes": "https://itunes.apple.com/us/album/dream-culture/id941913727?i=941913757",
+          "filmmusicURL": null,
+          "id": "USUAN1300046",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1300046",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Dream%20Culture.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Dream Culture\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "8576659"
+          }
+        }
+      ]
+    },
+    {
+      "slot": "nachts_vor_anker",
+      "title": "Nachts vor Anker",
+      "source_prompts": [
+        "Nachts vor Anker"
+      ],
+      "track_ids": [],
+      "note": "3 und 4 waren zu lang suche nochmal",
+      "style_note": "",
+      "tracks": []
+    },
+    {
+      "slot": "rosi_technik",
+      "title": "Rosi – Technik und Reparatur",
+      "source_prompts": [
+        "Rosi - Technik und Reparatur",
+        "Rosi - Technik und Reparatur - Alternative - Playful Soulful House"
+      ],
+      "track_ids": [],
+      "note": "hier etwas boogie & shuffle style ",
+      "style_note": "Groove-/Komödien-Alternativen statt eines exakten House-Treffers.",
+      "tracks": []
+    },
+    {
+      "slot": "mysterium",
+      "title": "Etwas stimmt nicht",
+      "source_prompts": [
+        "Etwas stimmt nicht"
+      ],
+      "track_ids": [
+        "USUAN1500049"
+      ],
+      "note": "",
+      "style_note": "",
+      "tracks": [
+        {
+          "title": "Ossuary 7 - Resolve",
+          "filename": "Ossuary 7 - Resolve.mp3",
+          "length": "00:04:18",
+          "instruments": "Synths, Percussion",
+          "genre": "24",
+          "bpm": "90",
+          "description": "Well, we've come to some sort of ending here... Our relaxation journey is complete, but to be honest, I've had more relaxing times clinging to the single floating piece of flotsam that resurfaced after the ship exploded.",
+          "feel": "Mysterious, Relaxed, Suspenseful",
+          "uploaded": "2015-07-15",
+          "isrc": "USUAN1500049",
+          "collection": "6",
+          "sheetmusic": null,
+          "video": "https://youtu.be/O-lwE7qJDRk",
+          "itunes": "https://itunes.apple.com/us/album/ossuary-7-resolve/id1068570838?i=1068571007",
+          "filmmusicURL": null,
+          "id": "USUAN1500049",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500049",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Ossuary%207%20-%20Resolve.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Ossuary 7 - Resolve\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "8260321"
+          }
+        }
+      ]
+    },
+    {
+      "slot": "megan_bericht",
+      "title": "Megan – Der Bericht",
+      "source_prompts": [
+        "Megan - Der Bericht"
+      ],
+      "track_ids": [
+        "USUAN1400030"
+      ],
+      "note": "",
+      "style_note": "Jazzige und kammermusikalische Alternativen mit unterschiedlicher Ernsthaftigkeit.",
+      "tracks": [
+        {
+          "title": "On the Ground",
+          "filename": "On the Ground.mp3",
+          "length": "00:02:39",
+          "instruments": "Bass, Electric Piano, Drums",
+          "genre": "11",
+          "bpm": "106",
+          "description": "A cool sort of background cop beat track.",
+          "feel": "Grooving, Mysterious",
+          "uploaded": "2014-06-28",
+          "isrc": "USUAN1400030",
+          "collection": "41",
+          "sheetmusic": null,
+          "video": "https://youtu.be/qDwvLrZdKNY",
+          "itunes": "https://itunes.apple.com/us/album/on-the-ground/id945463110?i=945463123",
+          "filmmusicURL": null,
+          "id": "USUAN1400030",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400030",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/On%20the%20Ground.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"On the Ground\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "5093797"
+          }
+        }
+      ]
+    },
+    {
+      "slot": "naehe",
+      "title": "Jemand bleibt noch",
+      "source_prompts": [
+        "Jemand bleibt noch"
+      ],
+      "track_ids": [
+        "USUAN1600015"
+      ],
+      "note": "mehr wie 2",
+      "style_note": "",
+      "tracks": [
+        {
+          "title": "Slow Jam",
+          "filename": "Slow Jam.mp3",
+          "length": "00:04:26",
+          "instruments": "Electric Piano, Piano, Synths, Percussion",
+          "genre": "24",
+          "bpm": "75",
+          "description": "Well, this is interesting... Smooth sine bass contrasted with a lovely excited drum machine and then... the magic! Genre bending magic! You're a cool kid right? This is for you. You're welcome. Think 'trap' meets 'R&B' meets 'shoegaze' meets some other genre that is SO COOL there isn't even a name for it yet. Download comes with a not-quite-so-slow version that is not quite so slow.",
+          "feel": "Grooving, Relaxed",
+          "uploaded": "2016-03-04",
+          "isrc": "USUAN1600015",
+          "collection": "7",
+          "sheetmusic": null,
+          "video": "https://youtu.be/z5VxAMkNC68",
+          "itunes": null,
+          "filmmusicURL": "https://incompetech.filmmusic.io/song/4374-slow-jam/",
+          "id": "USUAN1600015",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600015",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Slow%20Jam.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Slow Jam\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "8503563"
+          }
+        }
+      ]
+    },
+    {
+      "slot": "sturm",
+      "title": "Sturmvorbereitung und Sturmnacht",
+      "source_prompts": [
+        "Sturmvorbereitung und Sturmnacht"
+      ],
+      "track_ids": [
+        "USUAN1400025"
+      ],
+      "note": "",
+      "style_note": "",
+      "tracks": [
+        {
+          "title": "Undaunted",
+          "filename": "Undaunted.mp3",
+          "length": "00:03:33",
+          "instruments": "Percussion, Piano, Synths",
+          "genre": "22",
+          "bpm": "95",
+          "description": "Big big drums pushing a big cinematic feel.",
+          "feel": "Driving, Epic, Action, Intense",
+          "uploaded": "2014-06-01",
+          "isrc": "USUAN1400025",
+          "collection": "33",
+          "sheetmusic": null,
+          "video": "https://youtu.be/C4QAsMt3Hks",
+          "itunes": "https://itunes.apple.com/us/album/undaunted/id942772858?i=942772904",
+          "filmmusicURL": null,
+          "id": "USUAN1400025",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400025",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Undaunted.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Undaunted\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "6803270"
+          }
+        }
+      ]
+    },
+    {
+      "slot": "crew_messe",
+      "title": "Kerzen in der Crew-Messe",
+      "source_prompts": [
+        "Kerzen in der Crew-Messe",
+        "Kerzen in der Crew-Messe - Alternative - Warm Neo-Soul House"
+      ],
+      "track_ids": [],
+      "note": "mehr Lo fi morning neo souliges",
+      "style_note": "",
+      "tracks": []
+    },
+    {
+      "slot": "event_witzig",
+      "title": "Event – Witzig",
+      "source_prompts": [
+        "Event - Witzig - Anime Pop Rock"
+      ],
+      "track_ids": [
+        "USUAN1500015"
+      ],
+      "note": "",
+      "style_note": "Rock- und akustische Comedy-Alternativen; kein exakter Anime-Pop.",
+      "tracks": [
+        {
+          "title": "Marty Gots a Plan",
+          "filename": "Marty Gots a Plan.mp3",
+          "length": "00:02:48",
+          "instruments": "Cello, Viola, Violin, English Horn, Alto Flute, Percussion, Marimba",
+          "genre": "22",
+          "bpm": "140",
+          "description": "Sneaking around the house? Use this! Planning a comedic caper? Also good! Semi-random pizzicato is like magic for cheeky hijinks. You know... when Marty gots a plan, it aint usually a good one.",
+          "feel": "Humorous, Bouncy, Mysterious",
+          "uploaded": "2015-02-11",
+          "isrc": "USUAN1500015",
+          "collection": "34",
+          "sheetmusic": null,
+          "video": "https://youtu.be/RhRNWAbeBpE",
+          "itunes": null,
+          "filmmusicURL": null,
+          "id": "USUAN1500015",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500015",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Marty%20Gots%20a%20Plan.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Marty Gots a Plan\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "5380559"
+          }
+        }
+      ]
+    },
+    {
+      "slot": "event_frech",
+      "title": "Event – Frech",
+      "source_prompts": [
+        "Event - Frech - Anime Groove Rock"
+      ],
+      "track_ids": [
+        "USUAN1600038",
+        "USUAN1500054"
+      ],
+      "note": "",
+      "style_note": "Funk/Rock statt eines exakten Anime-Groove-Sounds.",
+      "tracks": [
+        {
+          "title": "Rocket Power",
+          "filename": "Rocket Power.mp3",
+          "length": "00:02:34",
+          "instruments": "Bass, Organ, Guitar, Percussion",
+          "genre": "11",
+          "bpm": "120",
+          "description": "Funky drum machines? Yes, please! Also a killer bass line. This is both big and fun... kind of like the Paul Bunyan Experience... if Paul Bunyan were hip. Unlike most of my tunes, this one has an actual ending! Uncompressed download comes with all the parts to make your own mixes - should this one be insufficient.",
+          "feel": "Aggressive, Bouncy, Grooving",
+          "uploaded": "2016-07-11",
+          "isrc": "USUAN1600038",
+          "collection": "11",
+          "sheetmusic": null,
+          "video": "https://youtu.be/5NvaMNsjFq8",
+          "itunes": null,
+          "filmmusicURL": "https://incompetech.filmmusic.io/song/4303-rocket-power/",
+          "id": "USUAN1600038",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600038",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Rocket%20Power.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Rocket Power\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "4914881"
+          }
+        },
+        {
+          "title": "Funky Chunk",
+          "filename": "Funky Chunk.mp3",
+          "length": "00:03:59",
+          "instruments": "Bass, Electric Piano, Drums, Guitar, Synth, Horns",
+          "genre": "8",
+          "bpm": "115",
+          "description": "Get down with the 'get down'! A very clean sort of funk thing. Appropriate for a widevariety of exciting sorts of things, including funky dance parties, car washing (dance parties), barbecuing (dance parties), and colonoscopy (dance parties).",
+          "feel": "Bright, Grooving, Uplifting",
+          "uploaded": "2015-08-06",
+          "isrc": "USUAN1500054",
+          "collection": "11",
+          "sheetmusic": null,
+          "video": "https://youtu.be/4Adsq94IGfU",
+          "itunes": "https://itunes.apple.com/us/album/funky-chunk/id1187877605?i=1187877608",
+          "filmmusicURL": "https://incompetech.filmmusic.io/song/3789-funky-chunk/",
+          "id": "USUAN1500054",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500054",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Funky%20Chunk.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Funky Chunk\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "7650907"
+          }
+        }
+      ]
+    },
+    {
+      "slot": "event_wholesome",
+      "title": "Event – Wholesome",
+      "source_prompts": [
+        "Event - Wholesome - K-Pop Lo-Fi Romance"
+      ],
+      "track_ids": [
+        "USUAN1900007",
+        "USUAN2100003"
+      ],
+      "note": "",
+      "style_note": "Lo-Fi-/Piano-/Akustik-Alternativen; kein exakter K-Pop-Treffer.",
+      "tracks": [
+        {
+          "title": "Past Sadness",
+          "filename": "Past Sadness.mp3",
+          "length": "00:03:33",
+          "instruments": "Electric Piano, Bass, Percussion",
+          "genre": "11",
+          "bpm": "72",
+          "description": "We all need sadness sometimes. I have a sadness Loot-Box subscription. This month, I got some get-well cards for babies, wilted iceberg lettuce, a 1999 Gateway laptop, 3 popped balloons, and a die-hard Montreal Expos fan. The service ships everything in an empty box of wine with a broken spigot.",
+          "feel": "Calming, Grooving, Relaxed",
+          "uploaded": "2019-06-08",
+          "isrc": "USUAN1900007",
+          "collection": "7",
+          "sheetmusic": null,
+          "video": "https://youtu.be/TCpAjWUn0qg",
+          "itunes": "https://music.apple.com/us/album/past-sadness-single/1467567244?app=itunes",
+          "filmmusicURL": "https://incompetech.filmmusic.io/song/5024-past-sadness/",
+          "id": "USUAN1900007",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900007",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Past%20Sadness.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Past Sadness\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "8539868"
+          }
+        },
+        {
+          "title": "Late Night Radio",
+          "filename": "Late Night Radio.mp3",
+          "length": "00:04:24",
+          "instruments": "Electric Piano, Bass, Drums, Synth",
+          "genre": "5",
+          "bpm": "72",
+          "description": "You know when you're at a friend's house overnight for an experimental airplane convention and there are people sleeping on various sofas, so you don't want to turn on the lights - but then you run your shin smack into the metal coffee table, knocking over 3 mostly empty bottles and somehow breaking your friends glasses? This music is the nice feeling before the coffee table incident.",
+          "feel": "Calming, Relaxed",
+          "uploaded": "2021-03-25",
+          "isrc": "USUAN2100003",
+          "collection": "27",
+          "sheetmusic": null,
+          "video": "https://youtu.be/QhtL-6Cf5Xk",
+          "itunes": "https://music.apple.com/us/album/late-night-radio/1555520331?i=1555520333",
+          "filmmusicURL": "https://incompetech.filmmusic.io/song/7613-late-night-radio",
+          "id": "USUAN2100003",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN2100003",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Late%20Night%20Radio.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Late Night Radio\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "5274288"
+          }
+        }
+      ]
+    },
+    {
+      "slot": "event_ernst",
+      "title": "Event – Ernst",
+      "source_prompts": [
+        "Event - Ernst - Melodic Anime Rock"
+      ],
+      "track_ids": [
+        "USUAN1900002"
+      ],
+      "note": "",
+      "style_note": "Emotionale Instrumental-Alternativen; kein exakter Anime-Rock.",
+      "tracks": [
+        {
+          "title": "Leaving Home",
+          "filename": "Leaving Home.mp3",
+          "length": "00:08:10",
+          "instruments": "Synths, Guitar, Flute, Clarinet, Zither, Piano",
+          "genre": "22",
+          "bpm": "98",
+          "description": "Ukulele and flutes and glockenspiel... I think you already know what this sounds like. The percussion is also adorable.",
+          "feel": "Dark, Grooving, Somber",
+          "uploaded": "2019-04-05",
+          "isrc": "USUAN1900002",
+          "collection": "41",
+          "sheetmusic": null,
+          "video": "https://youtu.be/FWfQw6TFvxM",
+          "itunes": "https://itunes.apple.com/us/album/leaving-home-single/1458676835?app=itunes",
+          "filmmusicURL": "https://incompetech.filmmusic.io/song/4708-leaving-home/",
+          "id": "USUAN1900002",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900002",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Leaving%20Home.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Leaving Home\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "19598023"
+          }
+        }
+      ]
+    },
+    {
+      "slot": "hafen_tag",
+      "title": "Cala d’Orsu – Hafen am Tag",
+      "source_prompts": [
+        "Cala d'Orsu - Hafen am Tag - Alternative - Cuban Son"
+      ],
+      "track_ids": [
+        "USUAN1100153"
+      ],
+      "note": "",
+      "style_note": "",
+      "tracks": [
+        {
+          "title": "Modern Jazz Samba",
+          "filename": "Modern Jazz Samba.mp3",
+          "length": "00:04:09",
+          "instruments": "Drum Kit, Bass, Acoustic Guitar, Piano, Flute",
+          "genre": "12",
+          "bpm": "85",
+          "description": "A nice little 85 BMP piece with guitar, piano, bass, and flute. Kind of jazzy and slightly blues-y with a more rocking beat. The bass in this piece is actually a sample from an 18th century double bass. Most latin players aren't likely to be on one of these... but it was the only one I had at the time.",
+          "feel": "Bright, Driving, Bouncy",
+          "uploaded": "2004-01-01",
+          "isrc": "USUAN1100153",
+          "collection": "15",
+          "sheetmusic": null,
+          "video": null,
+          "itunes": "https://itunes.apple.com/us/album/modern-jazz-samba/id945183577?i=945183611",
+          "filmmusicURL": "https://incompetech.filmmusic.io/song/4063-modern-jazz-samba/",
+          "id": "USUAN1100153",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100153",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Modern%20Jazz%20Samba.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Modern Jazz Samba\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "6070802"
+          }
+        }
+      ]
+    },
+    {
+      "slot": "dorf_gassen",
+      "title": "Cala d’Orsu – Dorf und Gassen",
+      "source_prompts": [
+        "Cala d'Orsu - Dorf und Gassen - Cuban Son"
+      ],
+      "track_ids": [
+        "USUAN1600055"
+      ],
+      "note": "",
+      "style_note": "",
+      "tracks": [
+        {
+          "title": "BossaBossa",
+          "filename": "BossaBossa.mp3",
+          "length": "00:02:47",
+          "instruments": "Piano, Bass, Drums, Guitar",
+          "genre": "12",
+          "bpm": "77",
+          "description": "What makes a Bossa Nova a Bossa Nova? Whatever it is, this has it double! Or maybe it is just compensating for its relatively simple chord progression. Enjoy your Bossa! Probably. Probably a Bossa Nova.",
+          "feel": "Calming, Grooving, Bright",
+          "uploaded": "2016-10-02",
+          "isrc": "USUAN1600055",
+          "collection": "15",
+          "sheetmusic": null,
+          "video": "https://youtu.be/Hdnz8DRzntk",
+          "itunes": "https://itunes.apple.com/us/album/bossabossa/id1187877605?i=1187877860",
+          "filmmusicURL": "https://incompetech.filmmusic.io/song/3455-bossabossa/",
+          "id": "USUAN1600055",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600055",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/BossaBossa.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"BossaBossa\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "5355450"
+          }
+        }
+      ]
+    },
+    {
+      "slot": "alvas_bar",
+      "title": "Alvas Bar – Später Abend",
+      "source_prompts": [
+        "Alvas Bar - Später Abend - Alternative - Cuban Bolero Son"
+      ],
+      "track_ids": [
+        "USUAN1900056",
+        "USUAN1700068"
+      ],
+      "note": "",
+      "style_note": "Cuban Sandwich ist deine bestätigte Stilreferenz; zwei Jazz-Alternativen zum Vergleich.",
+      "tracks": [
+        {
+          "title": "Night in Venice",
+          "filename": "Night in Venice.mp3",
+          "length": "00:03:38",
+          "instruments": "Alto Sax, Electric Piano, Bass, Drums",
+          "genre": "11",
+          "bpm": "114",
+          "description": "Just your run of the mill nice jazz; processed to sound a lot older than it is.",
+          "feel": "Calming, Grooving, Relaxed",
+          "uploaded": "2020-01-08",
+          "isrc": "USUAN1900056",
+          "collection": "14",
+          "sheetmusic": null,
+          "video": "https://youtu.be/dM2ZZ3Sdeco",
+          "itunes": "https://music.apple.com/us/album/night-in-venice/1493090549?i=1493090553&app=itunes",
+          "filmmusicURL": "https://incompetech.filmmusic.io/song/5763-night-in-venice/",
+          "id": "USUAN1900056",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900056",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Night%20in%20Venice.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Night in Venice\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "8860758"
+          }
+        },
+        {
+          "title": "Backbay Lounge",
+          "filename": "Backbay Lounge.mp3",
+          "length": "00:04:27",
+          "instruments": "Piano, Guitar, Drums, Bass",
+          "genre": "11",
+          "bpm": "120",
+          "description": "This is cool. You can walk into a dinner party, grab a glass of prosecco, kiss the host, then casually defuse a large bomb one second before the timer runs out. That level of cool. Maybe you're not that cool, but if you adopt this as your personal theme tune, people will THINK you're that cool.",
+          "feel": "Bright, Grooving, Relaxed",
+          "uploaded": "2017-11-13",
+          "isrc": "USUAN1700068",
+          "collection": "14",
+          "sheetmusic": "Backbay Lounge.pdf",
+          "video": "https://youtu.be/I0gPJrtRHds",
+          "itunes": "https://itunes.apple.com/us/album/backbay-lounge/1312683881?i=1312683882",
+          "filmmusicURL": "https://incompetech.filmmusic.io/song/3408-backbay-lounge/",
+          "id": "USUAN1700068",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700068",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Backbay%20Lounge.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Backbay Lounge\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "8531962"
+          }
+        }
+      ]
+    },
+    {
+      "slot": "festa",
+      "title": "La Festa – Eine Nacht ohne Batterien",
+      "source_prompts": [
+        "La Festa - Eine Nacht ohne Batterien - Alternative - Cuban Son Montuno"
+      ],
+      "track_ids": [
+        "USUAN1800011"
+      ],
+      "note": "Samba Isobel auch noch",
+      "style_note": "Die Salsa-Alternative ist ein separater Mix desselben Stücks; beide sind so gekennzeichnet.",
+      "tracks": [
+        {
+          "title": "Arroz Con Pollo",
+          "filename": "Arroz Con Pollo.mp3",
+          "length": "00:02:42",
+          "instruments": "Piano, Guitar, Bass, Drums, Percussion",
+          "genre": "12",
+          "bpm": "200",
+          "description": "When I think of Cuba, I think of one thing; Nickel mines! Moa, Cuba (aka \"The Sudbury of the Caribbean\") has had Canadian assistance in its mining for quite some time now. From what I can tell, it is much better for Canadian companies to poison far-away water than Canadian water. Makes sense!",
+          "feel": "Grooving, Bouncy, Bright",
+          "uploaded": "2018-08-05",
+          "isrc": "USUAN1800011",
+          "collection": "15",
+          "sheetmusic": null,
+          "video": "https://youtu.be/Kr99r_Ydz6U",
+          "itunes": "https://itunes.apple.com/us/album/arroz-con-pollo/1422505867?i=1422506660&app=itunes",
+          "filmmusicURL": "https://incompetech.filmmusic.io/song/3381-arroz-con-pollo/",
+          "id": "USUAN1800011",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1800011",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Arroz%20Con%20Pollo.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Arroz Con Pollo\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "5188298"
+          }
+        }
+      ]
+    },
+    {
+      "slot": "calvi_tisch",
+      "title": "Calvi – Ein Stuhl mehr am Tisch",
+      "source_prompts": [
+        "Calvi - Ein Stuhl mehr am Tisch - Alternative - Cuban Bolero"
+      ],
+      "track_ids": [
+        "USUAN1100088"
+      ],
+      "note": "",
+      "style_note": "",
+      "tracks": [
+        {
+          "title": "Sancho Panza gets a Latte",
+          "filename": "Sancho Panza gets a Latte.mp3",
+          "length": "00:03:13",
+          "instruments": null,
+          "genre": "25",
+          "bpm": "84",
+          "description": "Acoustic guitar, latin percussion, bass, alto flute, trumpet, and... accordion. Sort of Spanish, sort of French.",
+          "feel": "Relaxed, Eerie, Mystical, Calming",
+          "uploaded": "2006-01-01",
+          "isrc": "USUAN1100088",
+          "collection": "15",
+          "sheetmusic": null,
+          "video": null,
+          "itunes": "https://itunes.apple.com/us/album/sancho-panza-gets-a-latte/id945183577?i=945183616",
+          "filmmusicURL": "https://incompetech.filmmusic.io/song/4317-sancho-panza-gets-a-latte/",
+          "id": "USUAN1100088",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100088",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Sancho%20Panza%20gets%20a%20Latte.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Sancho Panza gets a Latte\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "7863497"
+          }
+        }
+      ]
+    },
+    {
+      "slot": "kabine",
+      "title": "Kabine – Privater Rückzugsort",
+      "source_prompts": [
+        "Kabine - Lo-Fi R&B",
+        "Kabine - Balearic Downtempo",
+        "Kabine - Intimate Bossa Nova",
+        "Kabine - Ambient Guitar"
+      ],
+      "track_ids": [
+        "USUAN2100003"
+      ],
+      "note": "hier auch lo fi neo soul",
+      "style_note": "Die vier Kabinen-Genre-Prompts bilden gemeinsam diesen Slot.",
+      "tracks": [
+        {
+          "title": "Late Night Radio",
+          "filename": "Late Night Radio.mp3",
+          "length": "00:04:24",
+          "instruments": "Electric Piano, Bass, Drums, Synth",
+          "genre": "5",
+          "bpm": "72",
+          "description": "You know when you're at a friend's house overnight for an experimental airplane convention and there are people sleeping on various sofas, so you don't want to turn on the lights - but then you run your shin smack into the metal coffee table, knocking over 3 mostly empty bottles and somehow breaking your friends glasses? This music is the nice feeling before the coffee table incident.",
+          "feel": "Calming, Relaxed",
+          "uploaded": "2021-03-25",
+          "isrc": "USUAN2100003",
+          "collection": "27",
+          "sheetmusic": null,
+          "video": "https://youtu.be/QhtL-6Cf5Xk",
+          "itunes": "https://music.apple.com/us/album/late-night-radio/1555520331?i=1555520333",
+          "filmmusicURL": "https://incompetech.filmmusic.io/song/7613-late-night-radio",
+          "id": "USUAN2100003",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN2100003",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Late%20Night%20Radio.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Late Night Radio\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "5274288"
+          }
+        }
+      ]
+    },
+    {
+      "slot": "casanova_flamenco",
+      "title": "Casanova – Flamenco-Abend",
+      "source_prompts": [
+        "Casanova - Flamenco-Abend"
+      ],
+      "track_ids": [
+        "USUAN1400055"
+      ],
+      "note": "",
+      "style_note": "Stilabweichung: spanische Gitarre / Latin / Spanish-Rock. Vier belastbare reine Flamenco-Treffer fehlen in dieser ersten Quelle.",
+      "tracks": [
+        {
+          "title": "Sardana",
+          "filename": "Sardana.mp3",
+          "length": "00:03:12",
+          "instruments": "Guitar",
+          "genre": "25",
+          "bpm": "75",
+          "description": "Intimate guitar dance piece, probably too rubato to be an actual Sardana, but it didn't sound enough like a Farruca to call it that. \"Vaguely Spanish Guitar Music\" also seemed wrong.",
+          "feel": "Mysterious, Intense",
+          "uploaded": "2014-11-25",
+          "isrc": "USUAN1400055",
+          "collection": "15",
+          "sheetmusic": "Sardana.pdf",
+          "video": null,
+          "itunes": "https://itunes.apple.com/us/album/sardana/id1110481536?i=1110481756",
+          "filmmusicURL": null,
+          "id": "USUAN1400055",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400055",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Sardana.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Sardana\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "6149590"
+          }
+        }
+      ]
+    },
+    {
+      "slot": "lola_abend",
+      "title": "Lola – Ein vertrauter Abend",
+      "source_prompts": [
+        "Lola - Ein vertrauter Abend"
+      ],
+      "track_ids": [
+        "USUAN1100476"
+      ],
+      "note": "hier echte dream pop kiff musik mit electro",
+      "style_note": "Instrumentaler Soul-/Akustik-Vergleich, keine Gesangsstücke.",
+      "tracks": [
+        {
+          "title": "Revival",
+          "filename": "Revival.mp3",
+          "length": "00:17:26",
+          "instruments": "Guitar, Bass, Electric Piano, Drum Kit",
+          "genre": "5",
+          "bpm": "56",
+          "description": "So you're thinking of doing a revival tour, but you don't have a band to back up your inspirational speech? Good news, good news indeed. This piece starts very thin, and builds a couple of times.",
+          "feel": "Calming, Mystical, Relaxed, Uplifting",
+          "uploaded": "2008-07-13",
+          "isrc": "USUAN1100476",
+          "collection": "17",
+          "sheetmusic": null,
+          "video": null,
+          "itunes": null,
+          "filmmusicURL": "https://incompetech.filmmusic.io/song/4283-revival/",
+          "id": "USUAN1100476",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100476",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Revival.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Revival\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "41994082"
+          }
+        }
+      ]
+    },
+    {
+      "slot": "alva_abend",
+      "title": "Alva – Ein vertrauter Abend",
+      "source_prompts": [
+        "Alva - Ein vertrauter Abend"
+      ],
+      "track_ids": [
+        "USUAN1600005"
+      ],
+      "note": "mehr romantische latin music",
+      "style_note": "",
+      "tracks": [
+        {
+          "title": "Cuban Sandwich",
+          "filename": "Cuban Sandwich.mp3",
+          "length": "00:03:15",
+          "instruments": "Piano, Percussion, Bass",
+          "genre": "12",
+          "bpm": "80",
+          "description": "A groovy little piece excellent for an evening at your local cabana.",
+          "feel": "Grooving, Relaxed",
+          "uploaded": "2016-01-21",
+          "isrc": "USUAN1600005",
+          "collection": "15",
+          "sheetmusic": null,
+          "video": "https://youtu.be/HXMzToGN3VQ",
+          "itunes": "https://itunes.apple.com/us/album/cuban-sandwich/id1103156406?i=1103156410",
+          "filmmusicURL": "https://incompetech.filmmusic.io/song/3570-cuban-sandwich/",
+          "id": "USUAN1600005",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600005",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Cuban%20Sandwich.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Cuban Sandwich\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": true,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "6244055"
+          }
+        }
+      ]
+    },
+    {
+      "slot": "holm_wache",
+      "title": "Holm – Wache auf der Brücke",
+      "source_prompts": [
+        "Holm - Wache auf der Brücke"
+      ],
+      "track_ids": [],
+      "note": "überzeugt mich nicht schon richtung peace of mind aber kürzer",
+      "style_note": "",
+      "tracks": []
+    },
+    {
+      "slot": "holm_abschied",
+      "title": "Holm – Abschied",
+      "source_prompts": [
+        "Holm - Abschied"
+      ],
+      "track_ids": [],
+      "note": "mehr minimalistisch",
+      "style_note": "",
+      "tracks": []
+    },
+    {
+      "slot": "finale",
+      "title": "Finale – Zurück nach Calvi",
+      "source_prompts": [
+        "Finale - Zurück nach Calvi"
+      ],
+      "track_ids": [],
+      "note": "mehr Italian chanson happiness",
+      "style_note": "Vier unterschiedliche Abschlussfarben; kein exakter mediterraner Pop mit Bolero-Puls.",
+      "tracks": []
+    },
+    {
+      "slot": "kampf_normal",
+      "title": "Kampf – Normal",
+      "source_prompts": [
+        "Kampf - Normal - Anime Battle Rock",
+        "Kampf - Normal - Alternative - Anime Funk Battle"
+      ],
+      "track_ids": [
+        "USUAN1600038"
+      ],
+      "note": "Suche mir noch Anime Rock Musik  raus",
+      "style_note": "Rock-/Funk-Kandidaten; konkrete JRPG-Wirkung und Loop-Grenzen müssen beim Hören geprüft werden.",
+      "tracks": [
+        {
+          "title": "Rocket Power",
+          "filename": "Rocket Power.mp3",
+          "length": "00:02:34",
+          "instruments": "Bass, Organ, Guitar, Percussion",
+          "genre": "11",
+          "bpm": "120",
+          "description": "Funky drum machines? Yes, please! Also a killer bass line. This is both big and fun... kind of like the Paul Bunyan Experience... if Paul Bunyan were hip. Unlike most of my tunes, this one has an actual ending! Uncompressed download comes with all the parts to make your own mixes - should this one be insufficient.",
+          "feel": "Aggressive, Bouncy, Grooving",
+          "uploaded": "2016-07-11",
+          "isrc": "USUAN1600038",
+          "collection": "11",
+          "sheetmusic": null,
+          "video": "https://youtu.be/5NvaMNsjFq8",
+          "itunes": null,
+          "filmmusicURL": "https://incompetech.filmmusic.io/song/4303-rocket-power/",
+          "id": "USUAN1600038",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600038",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Rocket%20Power.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Rocket Power\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "4914881"
+          }
+        }
+      ]
+    },
+    {
+      "slot": "kampf_gefaehrlich",
+      "title": "Kampf – Gefährlich",
+      "source_prompts": [
+        "Kampf - Gefährlich - Anime Hard Rock"
+      ],
+      "track_ids": [
+        "USUAN1600003",
+        "USUAN1700023"
+      ],
+      "note": "",
+      "style_note": "Zwei Rock-/Metal- und zwei orchestrale Alternativen.",
+      "tracks": [
+        {
+          "title": "Clash Defiant",
+          "filename": "Clash Defiant.mp3",
+          "length": "00:06:16",
+          "instruments": "Basses, Cellos, War Horn, Brass, Percussion, Choir",
+          "genre": "22",
+          "bpm": "170",
+          "description": "You want battle music? You can't HANDLE the battle music! Meh. You probably can. As battle music goes, this is pretty tame - no blaring trumpets or hyperactive xylophones... Why? Dialog! You can actually talk over this battle music! Feel free to punctuate with your own stabs after you cut around your dialog. Or don't. You can use this as a loop on your Twitch stream for anything... battle-y. That rough spiccato bass line is off the hook! (Do people still say \"off the hook\"? I might be a few years late on that.)  .",
+          "feel": "Aggressive, Driving, Dark, Suspenseful",
+          "uploaded": "2016-01-13",
+          "isrc": "USUAN1600003",
+          "collection": "33",
+          "sheetmusic": null,
+          "video": "https://youtu.be/KKVgIrnlWDg",
+          "itunes": "https://itunes.apple.com/us/album/clash-defiant/id1114513123?i=1114513303",
+          "filmmusicURL": "https://incompetech.filmmusic.io/song/3510-clash-defiant/",
+          "id": "USUAN1600003",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600003",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Clash%20Defiant.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Clash Defiant\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "12021086"
+          }
+        },
+        {
+          "title": "Metalmania",
+          "filename": "Metalmania.mp3",
+          "length": "00:03:10",
+          "instruments": "Drums, Bass, Guitar",
+          "genre": "19",
+          "bpm": "150",
+          "description": "I was doing some research on metal... today's description is going to involve some participation on your part. Step 1) Google: \"Death Metal English\" the first link should be from invisibleoranges. Step 2) Enjoy!  You're welcome.",
+          "feel": "Aggressive, Driving, Intense",
+          "uploaded": "2017-02-20",
+          "isrc": "USUAN1700023",
+          "collection": "26",
+          "sheetmusic": null,
+          "video": "https://youtu.be/b8riXda7RIU",
+          "itunes": null,
+          "filmmusicURL": "https://incompetech.filmmusic.io/song/4042-metalmania/",
+          "id": "USUAN1700023",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700023",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Metalmania.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Metalmania\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "6096909"
+          }
+        }
+      ]
+    },
+    {
+      "slot": "kampf_boss",
+      "title": "Kampf – Boss",
+      "source_prompts": [
+        "Kampf - Boss - Epic Anime Symphonic Rock"
+      ],
+      "track_ids": [
+        "USUAN1100875"
+      ],
+      "note": "Weitere Variante wie Clash Defiant",
+      "style_note": "Orchestrale Alternativen; Symphonic-Anime-Rock ist hier noch eine stilistische Lücke.",
+      "tracks": [
+        {
+          "title": "Five Armies",
+          "filename": "Five Armies.mp3",
+          "length": "00:02:36",
+          "instruments": "Cellos, French Horns, Trombones, Violins, Marimba, Trumpets, Percussion, Oboes, Clarinets, Flutes, Basses",
+          "genre": "22",
+          "bpm": "238",
+          "description": "Big giant building piece starting in 6/4 alternating to 4/4 and back. Soaring ending with a lot of brass.",
+          "feel": "Action, Aggressive, Dark, Driving, Epic, Intense",
+          "uploaded": "2011-11-06",
+          "isrc": "USUAN1100875",
+          "collection": "33",
+          "sheetmusic": "Five Armies Brass Band Score.pdf",
+          "video": null,
+          "itunes": "https://itunes.apple.com/us/album/five-armies/id942772858?i=942772870",
+          "filmmusicURL": null,
+          "id": "USUAN1100875",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100875",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Five%20Armies.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Five Armies\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "6235982"
+          }
+        }
+      ]
+    },
+    {
+      "slot": "kampf_komisch",
+      "title": "Kampf – Komisch",
+      "source_prompts": [
+        "Kampf - Komisch - Anime Comedy Battle"
+      ],
+      "track_ids": [
+        "USUAN1600020",
+        "USUAN1100768"
+      ],
+      "note": "",
+      "style_note": "Comedy-Rock / Verfolgung / Cartoonthemen statt eines exakten Ska-Punk-Treffers.",
+      "tracks": [
+        {
+          "title": "Professor Umlaut",
+          "filename": "Professor Umlaut.mp3",
+          "length": "00:03:32",
+          "instruments": "Guitar, Bass, Drums, Organ",
+          "genre": "24",
+          "bpm": "160",
+          "description": "This piece started its life as a random challenge on a show I do on Twitch.tv called \"The Wheels of Doom!\". The 4 randomized elements that came together here were: Drum Machine, Strings, Xylophone, and Comedic. I think it worked out pretty well!",
+          "feel": "Driving, Humorous, Suspenseful",
+          "uploaded": "2016-04-17",
+          "isrc": "USUAN1600020",
+          "collection": "34",
+          "sheetmusic": null,
+          "video": "https://youtu.be/Oel6rxdIQag",
+          "itunes": null,
+          "filmmusicURL": "https://incompetech.filmmusic.io/song/4243-professor-umlaut/",
+          "id": "USUAN1600020",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600020",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Professor%20Umlaut.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Professor Umlaut\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "6772355"
+          }
+        },
+        {
+          "title": "Fluffing a Duck",
+          "filename": "Fluffing a Duck.mp3",
+          "length": "00:01:07",
+          "instruments": "Tuba, Flute, Trombones, Bass Clarinet, Clarinet, Percussion",
+          "genre": "24",
+          "bpm": "122",
+          "description": "A trombone plays a humorous melody alongside timpanis and a variety of woodwind instruments. This music is suited for a short theme for a comedic piece that relies on visual jokes.  2 Small versions in one file.",
+          "feel": "Bouncy, Bright, Humorous",
+          "uploaded": "2010-10-31",
+          "isrc": "USUAN1100768",
+          "collection": "34",
+          "sheetmusic": "Fluffing%20a%20Duck.pdf",
+          "video": null,
+          "itunes": "https://itunes.apple.com/us/album/fluffing-a-duck/id945152827?i=945152832",
+          "filmmusicURL": null,
+          "id": "USUAN1100768",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100768",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Fluffing%20a%20Duck.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Fluffing a Duck\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "2696840"
+          }
+        }
+      ]
+    },
+    {
+      "slot": "kampf_sieg",
+      "title": "Kampf – Sieg",
+      "source_prompts": [
+        "Kampf - Sieg - Victory Fanfare"
+      ],
+      "track_ids": [],
+      "note": "Mehr wie ein Final Fantasy win",
+      "style_note": "Originale sind etwa 15–28 Sekunden lang; ein kürzerer Spiel-Jingle benötigt ggf. einen Schnitt.",
+      "tracks": []
+    },
+    {
+      "slot": "kampf_niederlage",
+      "title": "Kampf – Niederlage / Flucht",
+      "source_prompts": [
+        "Kampf - Niederlage - Defeat Sting"
+      ],
+      "track_ids": [
+        "USUAN1100530"
+      ],
+      "note": "",
+      "style_note": "Verschiedene emotionale Farben. Der längere Spannungsaufbau von Sneak ’n Get Caught braucht ggf. einen Schnitt.",
+      "tracks": [
+        {
+          "title": "Greta Sting",
+          "filename": "Greta Sting.mp3",
+          "length": "00:00:18",
+          "instruments": "Strings",
+          "genre": "23",
+          "bpm": "66",
+          "description": "A somber orchestral sting with a gentle rising motion.",
+          "feel": "Calming, Eerie, Relaxed, Somber",
+          "uploaded": "2009-01-10",
+          "isrc": "USUAN1100530",
+          "collection": "42",
+          "sheetmusic": null,
+          "video": null,
+          "itunes": null,
+          "filmmusicURL": "https://incompetech.filmmusic.io/song/3827-greta-sting/",
+          "id": "USUAN1100530",
+          "artist": "Kevin MacLeod",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100530",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Greta%20Sting.mp3",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "\"Greta Sting\" — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0. https://creativecommons.org/licenses/by/4.0/",
+          "favorite_reference": false,
+          "review_status": "Metadaten recherchiert; persönliche Hörentscheidung offen.",
+          "downloaded_for_project": false,
+          "availability": {
+            "status": 200,
+            "content_type": "application/octet-stream",
+            "bytes": "793112"
+          }
+        }
+      ]
+    }
+  ],
+  "unselected_slots": [
+    "hauptthema",
+    "nachts_vor_anker",
+    "rosi_technik",
+    "crew_messe",
+    "holm_wache",
+    "holm_abschied",
+    "finale",
+    "kampf_sieg"
+  ]
+}

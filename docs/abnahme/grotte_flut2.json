@@ -1,0 +1,157 @@
+{
+ "id": "grotte_flut2",
+ "titel": "Grotte – Sprites Chloé, Casting The Siren (offene Haare)",
+ "hinweis": "Sprites: fehlerhafte auf NEU. Sirene: 1 Bild OK.",
+ "items": [
+  {
+   "id": "sprite_Chloe_admiration_2",
+   "titel": "Chloé – admiration_2",
+   "soll": "Chloé Marchal, Sprite-Set (Fassung A Seed 1, Tags), eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Chloe\\Standard\\roh\\admiration_2.png"
+  },
+  {
+   "id": "sprite_Chloe_amusement",
+   "titel": "Chloé – amusement",
+   "soll": "Chloé Marchal, Sprite-Set (Fassung A Seed 1, Tags), eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Chloe\\Standard\\roh\\amusement.png"
+  },
+  {
+   "id": "sprite_Chloe_anger",
+   "titel": "Chloé – anger",
+   "soll": "Chloé Marchal, Sprite-Set (Fassung A Seed 1, Tags), eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Chloe\\Standard\\roh\\anger.png"
+  },
+  {
+   "id": "sprite_Chloe_annoyance",
+   "titel": "Chloé – annoyance",
+   "soll": "Chloé Marchal, Sprite-Set (Fassung A Seed 1, Tags), eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Chloe\\Standard\\roh\\annoyance.png"
+  },
+  {
+   "id": "sprite_Chloe_approval",
+   "titel": "Chloé – approval",
+   "soll": "Chloé Marchal, Sprite-Set (Fassung A Seed 1, Tags), eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Chloe\\Standard\\roh\\approval.png"
+  },
+  {
+   "id": "sprite_Chloe_caring",
+   "titel": "Chloé – caring",
+   "soll": "Chloé Marchal, Sprite-Set (Fassung A Seed 1, Tags), eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Chloe\\Standard\\roh\\caring.png"
+  },
+  {
+   "id": "sprite_Chloe_confusion",
+   "titel": "Chloé – confusion",
+   "soll": "Chloé Marchal, Sprite-Set (Fassung A Seed 1, Tags), eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Chloe\\Standard\\roh\\confusion.png"
+  },
+  {
+   "id": "sprite_Chloe_curiosity",
+   "titel": "Chloé – curiosity",
+   "soll": "Chloé Marchal, Sprite-Set (Fassung A Seed 1, Tags), eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Chloe\\Standard\\roh\\curiosity.png"
+  },
+  {
+   "id": "sprite_Chloe_disappointment",
+   "titel": "Chloé – disappointment",
+   "soll": "Chloé Marchal, Sprite-Set (Fassung A Seed 1, Tags), eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Chloe\\Standard\\roh\\disappointment.png"
+  },
+  {
+   "id": "sprite_Chloe_disapproval",
+   "titel": "Chloé – disapproval",
+   "soll": "Chloé Marchal, Sprite-Set (Fassung A Seed 1, Tags), eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Chloe\\Standard\\roh\\disapproval.png"
+  },
+  {
+   "id": "sprite_Chloe_disgust",
+   "titel": "Chloé – disgust",
+   "soll": "Chloé Marchal, Sprite-Set (Fassung A Seed 1, Tags), eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Chloe\\Standard\\roh\\disgust.png"
+  },
+  {
+   "id": "sprite_Chloe_embarrassment_2",
+   "titel": "Chloé – embarrassment_2",
+   "soll": "Chloé Marchal, Sprite-Set (Fassung A Seed 1, Tags), eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Chloe\\Standard\\roh\\embarrassment_2.png"
+  },
+  {
+   "id": "sprite_Chloe_excitement_2",
+   "titel": "Chloé – excitement_2",
+   "soll": "Chloé Marchal, Sprite-Set (Fassung A Seed 1, Tags), eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Chloe\\Standard\\roh\\excitement_2.png"
+  },
+  {
+   "id": "sprite_Chloe_fear",
+   "titel": "Chloé – fear",
+   "soll": "Chloé Marchal, Sprite-Set (Fassung A Seed 1, Tags), eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Chloe\\Standard\\roh\\fear.png"
+  },
+  {
+   "id": "sprite_Chloe_gratitude",
+   "titel": "Chloé – gratitude",
+   "soll": "Chloé Marchal, Sprite-Set (Fassung A Seed 1, Tags), eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Chloe\\Standard\\roh\\gratitude.png"
+  },
+  {
+   "id": "sprite_Chloe_joy",
+   "titel": "Chloé – joy",
+   "soll": "Chloé Marchal, Sprite-Set (Fassung A Seed 1, Tags), eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Chloe\\Standard\\roh\\joy.png"
+  },
+  {
+   "id": "sprite_Chloe_nervousness",
+   "titel": "Chloé – nervousness",
+   "soll": "Chloé Marchal, Sprite-Set (Fassung A Seed 1, Tags), eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Chloe\\Standard\\roh\\nervousness.png"
+  },
+  {
+   "id": "sprite_Chloe_neutral",
+   "titel": "Chloé – neutral",
+   "soll": "Chloé Marchal, Sprite-Set (Fassung A Seed 1, Tags), eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Chloe\\Standard\\roh\\neutral.png"
+  },
+  {
+   "id": "sprite_Chloe_pride",
+   "titel": "Chloé – pride",
+   "soll": "Chloé Marchal, Sprite-Set (Fassung A Seed 1, Tags), eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Chloe\\Standard\\roh\\pride.png"
+  },
+  {
+   "id": "sprite_Chloe_sadness",
+   "titel": "Chloé – sadness",
+   "soll": "Chloé Marchal, Sprite-Set (Fassung A Seed 1, Tags), eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Chloe\\Standard\\roh\\sadness.png"
+  },
+  {
+   "id": "sprite_Chloe_surprise",
+   "titel": "Chloé – surprise",
+   "soll": "Chloé Marchal, Sprite-Set (Fassung A Seed 1, Tags), eine Person – OK oder NEU",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Chloe\\Standard\\roh\\surprise.png"
+  },
+  {
+   "id": "casting_Siren_A1",
+   "titel": "Casting The Siren (offene Haare) – Fassung A, Seed 1",
+   "soll": "The Siren mit offenen roten Haaren (Seetang-Strähnen), ab Hüfte – EIN Bild auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Siren_A\\neutral.png"
+  },
+  {
+   "id": "casting_Siren_A2",
+   "titel": "Casting The Siren (offene Haare) – Fassung A, Seed 2",
+   "soll": "The Siren mit offenen roten Haaren (Seetang-Strähnen), ab Hüfte – EIN Bild auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Siren_A\\neutral-1.png"
+  },
+  {
+   "id": "casting_Siren_B1",
+   "titel": "Casting The Siren (offene Haare) – Fassung B, Seed 1",
+   "soll": "The Siren mit offenen roten Haaren (Seetang-Strähnen), ab Hüfte – EIN Bild auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Siren_B\\neutral.png"
+  },
+  {
+   "id": "casting_Siren_B2",
+   "titel": "Casting The Siren (offene Haare) – Fassung B, Seed 2",
+   "soll": "The Siren mit offenen roten Haaren (Seetang-Strähnen), ab Hüfte – EIN Bild auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Siren_B\\neutral-1.png"
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+  "sources": {
+    "heal_library_1": {
+      "file": "assets/audio-feedback-heal-20261026/heal_library_1.ogg",
+      "duration": 8.04,
+      "sha256": "c5a5a5bdcb851942ee49557bbeb5cbd45e4f13c0087a11295e4670423574d45d",
+      "source_file": "Heal 1.mp3",
+      "source_sha256": "53afd51f7897dc412f546a033c9443fe0290bdbf0378d00fe297822a7b53b1b0",
+      "approval": "Duc: direct sound assignment 2026-10-26; no pitch change"
+    },
+    "heal_library_2": {
+      "file": "assets/audio-feedback-heal-20261026/heal_library_2.ogg",
+      "duration": 2.533896,
+      "sha256": "5a277dfd7a6650eb88e5a121ee8b9d7f68b2e26de7be31a923bfc8215d6432f7",
+      "source_file": "heal 2.mp3",
+      "source_sha256": "c917467401e7f734803bafc46e41cfbf55838e119a5e1f27f2db5fd87b1497e8",
+      "approval": "Duc: direct sound assignment 2026-10-26; no pitch change"
+    },
+    "heal_library_3": {
+      "file": "assets/audio-feedback-heal-20261026/heal_library_3.ogg",
+      "duration": 3.030208,
+      "sha256": "4af583c063db1436b5bc6156f1765cb184a4920090e17fee09db51622b936589",
+      "source_file": "heal 3.mp3",
+      "source_sha256": "80c6fe5e60115d302ec31249683e38737384fb0f89b6a75f3692db36c7dd6d3e",
+      "approval": "Duc: direct sound assignment 2026-10-26; no pitch change"
+    },
+    "heal_library_4": {
+      "file": "assets/audio-feedback-heal-20261026/heal_library_4.ogg",
+      "duration": 5.184,
+      "sha256": "f36d13895b4e4dba28af97024a05c5f1dc1cdd806dfd392205c3e3b822ebac8b",
+      "source_file": "heal 4.mp3",
+      "source_sha256": "0fe4d27b74c61a305bf7fb305afede6f8e7c8d327046148bd9298f68c7bae9bb",
+      "approval": "Duc: direct sound assignment 2026-10-26; no pitch change"
+    },
+    "teleport_magic_strike": {
+      "file": "assets/audio-feedback-heal-20261026/teleport_magic_strike.ogg",
+      "duration": 2.0,
+      "sha256": "92be7c353c41385e3ab4940e7d1e5c27cd282317b435b7546b4663976e05e274",
+      "source_file": "magic-strike.mp3",
+      "source_sha256": "5f36107147fd76fdd1a30752b1e0c2099af771cd1bea89c7bd3ffb86a6e7ade5",
+      "approval": "Duc: direct sound assignment 2026-10-26; no pitch change"
+    },
+    "ponente_wind_leaves": {
+      "file": "assets/audio-feedback-heal-20261026/ponente_wind_leaves.ogg",
+      "duration": 5.9,
+      "sha256": "a55dad6ece34b14b389760a5a40ac682a28f53eedb4e64a88205b177b8a32398",
+      "source_file": "loswin23-wind-gust-and-blowing-leaves-503905.mp3",
+      "source_sha256": "63a882b609ac0c1ebd0c8ca952ae07baa320ba85eab6b475286a6964ab81607e",
+      "source_start": 1.0,
+      "source_duration": 30.024,
+      "processing": "Continuous excerpt, 0.65s fade in, 1.25s fade out; unchanged pitch/speed",
+      "approval": "Duc requested quiet Ponente background 2026-10-26"
+    },
+    "doppio_charge": {
+      "file": "assets/audio-feedback-heal-20261026/doppio_charge.ogg",
+      "duration": 2.65,
+      "sha256": "fb2d7daf50a3f565849c4209430be8bd59c0a652996c9417773dec1181faceea",
+      "source_file": "Doppio.mp3",
+      "source_sha256": "926be488ffc0a15b99d7ff9334558a476d2477e0cfc337f58ce531da02d4116c",
+      "source_start": 0,
+      "processing": "2.65 seconds, unchanged pitch/speed, 25ms fade in and 250ms fade out",
+      "approval": "Duc requested Doppio charge 2026-10-26"
+    }
+  },
+  "timing": "Heal 1 charge .18; Heal 2 crest at Risveglio launch; Heal 3 wings .30; Heal 4 crest at Arcangelo launch; Omerta source crest .70 matches vanish launch-.22 and reappearance launch+1.65.",
+  "rescue": "Arcangelo short rescue unchanged."
+}

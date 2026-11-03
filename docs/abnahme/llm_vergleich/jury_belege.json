@@ -1,0 +1,2810 @@
+[
+{
+"m": "pe",
+"fall": "an_001",
+"pid": "alva",
+"zug": 0,
+"flag": "stimme_falsch",
+"beleg": "Maybe she can fix it."
+},
+{
+"m": "pe",
+"fall": "an_001",
+"pid": "alva",
+"zug": 1,
+"flag": "stimme_falsch",
+"beleg": "I'd be so grateful, Duc. That jukebox..."
+},
+{
+"m": "magmell12",
+"fall": "an_004",
+"pid": "megan",
+"zug": 0,
+"flag": "stimme_falsch",
+"beleg": "Breakfast pictures are a slippery slope, aye?"
+},
+{
+"m": "magmell12",
+"fall": "an_005",
+"pid": "alva",
+"zug": 1,
+"flag": "stimme_falsch",
+"beleg": "What do you say, First Officer? Fancy a game"
+},
+{
+"m": "magmell12",
+"fall": "an_006",
+"pid": "megan",
+"zug": 0,
+"flag": "stimme_falsch",
+"beleg": "Aye, wee Duc, aye."
+},
+{
+"m": "magmell12",
+"fall": "an_006",
+"pid": "megan",
+"zug": 0,
+"flag": "thema_verloren",
+"beleg": "Aye, wee Duc, aye."
+},
+{
+"m": "magmell12",
+"fall": "an_006",
+"pid": "megan",
+"zug": 1,
+"flag": "stimme_falsch",
+"beleg": "The yacht's running smoothly, I assume?"
+},
+{
+"m": "magmell12",
+"fall": "an_006",
+"pid": "megan",
+"zug": 1,
+"flag": "thema_verloren",
+"beleg": "The yacht's running smoothly, I assume?"
+},
+{
+"m": "magmell12",
+"fall": "an_007",
+"pid": "rosi",
+"zug": 0,
+"flag": "biografie_erfunden",
+"beleg": "my Nonna's recipe has been passed down for generations"
+},
+{
+"m": "meromero",
+"fall": "an_011",
+"pid": "rosi",
+"zug": 0,
+"flag": "schreibt_duc",
+"beleg": "Don't look at me like that."
+},
+{
+"m": "meromero",
+"fall": "an_011",
+"pid": "rosi",
+"zug": 1,
+"flag": "schreibt_duc",
+"beleg": "You're doing it again. Stop trying to find the lesson"
+},
+{
+"m": "magmell12",
+"fall": "an_019",
+"pid": "sirene",
+"zug": 1,
+"flag": "stimme_falsch",
+"beleg": "trailing her fingertips along Duc's arm"
+},
+{
+"m": "blume",
+"fall": "an_021",
+"pid": "alva",
+"zug": 0,
+"flag": "biografie_erfunden",
+"beleg": "called a cousin in Bastia just to get those Tim Tams"
+},
+{
+"m": "blume",
+"fall": "an_023",
+"pid": "bibi",
+"zug": 1,
+"flag": "schreibt_duc",
+"beleg": "you just stood there with that look on your face"
+},
+{
+"m": "pe",
+"fall": "an_032",
+"pid": "chiara",
+"zug": 0,
+"flag": "thema_verloren",
+"beleg": "Enough of that. Let's make some noise, First Officer."
+},
+{
+"m": "pe",
+"fall": "an_032",
+"pid": "chiara",
+"zug": 0,
+"flag": "biografie_erfunden",
+"beleg": "Enough of that. Let's make some noise, First Officer."
+},
+{
+"m": "pe",
+"fall": "an_032",
+"pid": "chiara",
+"zug": 1,
+"flag": "thema_verloren",
+"beleg": "She pulls him to his feet, her hand on his chest."
+},
+{
+"m": "pe",
+"fall": "an_032",
+"pid": "chiara",
+"zug": 1,
+"flag": "schreibt_duc",
+"beleg": "She pulls him to his feet, her hand on his chest."
+},
+{
+"m": "pe",
+"fall": "an_037",
+"pid": "sirene",
+"zug": 0,
+"flag": "biografie_erfunden",
+"beleg": "I've never seen a hill. I've never left this pool."
+},
+{
+"m": "blume",
+"fall": "an_039",
+"pid": "chiara",
+"zug": 0,
+"flag": "stimme_falsch",
+"beleg": "nine for service, even if my Italian is a four"
+},
+{
+"m": "pe",
+"fall": "an_040",
+"pid": "bibi",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "You made it feel possible."
+},
+{
+"m": "magmell12",
+"fall": "an_042",
+"pid": "megan",
+"zug": 0,
+"flag": "stimme_falsch",
+"beleg": "Checkmate, in a manner of speaking... shark's tooth"
+},
+{
+"m": "magmell12",
+"fall": "an_042",
+"pid": "megan",
+"zug": 1,
+"flag": "stimme_falsch",
+"beleg": "Don't tell me you're enjoying this, Mac."
+},
+{
+"m": "magmell12",
+"fall": "an_042",
+"pid": "megan",
+"zug": 1,
+"flag": "thema_verloren",
+"beleg": "Don't tell me you're enjoying this, Mac."
+},
+{
+"m": "pe",
+"fall": "an_043",
+"pid": "chiara",
+"zug": 0,
+"flag": "stimme_falsch",
+"beleg": "Six. Out of ten. For the line... Eight."
+},
+{
+"m": "pe",
+"fall": "an_046",
+"pid": "bibi",
+"zug": 1,
+"flag": "schreibt_duc",
+"beleg": "Oh, you know Moomin!"
+},
+{
+"m": "magmell12",
+"fall": "an_048",
+"pid": "bibi",
+"zug": 0,
+"flag": "biografie_erfunden",
+"beleg": "running around in those silly suits, jumping out at everyone"
+},
+{
+"m": "magmell12",
+"fall": "an_048",
+"pid": "bibi",
+"zug": 1,
+"flag": "biografie_erfunden",
+"beleg": "dead set on catching anyone who came near the macchia"
+},
+{
+"m": "pe",
+"fall": "an_053",
+"pid": "rosi",
+"zug": 1,
+"flag": "biografie_erfunden",
+"beleg": "I was twelve when the bank came."
+},
+{
+"m": "pe",
+"fall": "an_056",
+"pid": "sirene",
+"zug": 1,
+"flag": "stimme_falsch",
+"beleg": "I am what I am - a creature of the deep"
+},
+{
+"m": "magmell12",
+"fall": "an_059",
+"pid": "chiara",
+"zug": 0,
+"flag": "biografie_erfunden",
+"beleg": "Said it was his good luck charm. Grandpa always wore it."
+},
+{
+"m": "meromero",
+"fall": "an_065",
+"pid": "bibi",
+"zug": 1,
+"flag": "schreibt_duc",
+"beleg": "the second you didn't run, we just froze"
+},
+{
+"m": "pe",
+"fall": "an_067",
+"pid": "alva",
+"zug": 0,
+"flag": "stimme_falsch",
+"beleg": "smiles, but it doesn't quite reach her eyes"
+},
+{
+"m": "pe",
+"fall": "an_067",
+"pid": "alva",
+"zug": 1,
+"flag": "stimme_falsch",
+"beleg": "Tell me, First Officer, what do you like to win at?"
+},
+{
+"m": "meromero",
+"fall": "an_069",
+"pid": "rosi",
+"zug": 0,
+"flag": "stimme_falsch",
+"beleg": "The quiet one? You are a coward, Officer."
+},
+{
+"m": "magmell12",
+"fall": "ne_000",
+"pid": "sirene",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "And now you kiss, without even asking..."
+},
+{
+"m": "magmell12",
+"fall": "ne_000",
+"pid": "sirene",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "you must offer something more... substantial."
+},
+{
+"m": "blume",
+"fall": "ne_001",
+"pid": "chiara",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "It was a good attempt. Seven."
+},
+{
+"m": "blume",
+"fall": "ne_001",
+"pid": "chiara",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "It was a good attempt. Seven."
+},
+{
+"m": "blume",
+"fall": "ne_001",
+"pid": "chiara",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "Maybe. But confidence is an eight. Timing is a three."
+},
+{
+"m": "blume",
+"fall": "ne_002",
+"pid": "rosi",
+"zug": 1,
+"flag": "nein_zurueck",
+"beleg": "First the kiss, now the schedule."
+},
+{
+"m": "magmell12",
+"fall": "ne_003",
+"pid": "alva",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "Liked it? Mì, I liked it. It was... interesting."
+},
+{
+"m": "magmell12",
+"fall": "ne_003",
+"pid": "alva",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "Liked it? Mì, I liked it. It was... interesting."
+},
+{
+"m": "pe",
+"fall": "ne_004",
+"pid": "megan",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "I appreciate the boldness, but let us keep this professional."
+},
+{
+"m": "pe",
+"fall": "ne_004",
+"pid": "megan",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "there's something rather... intriguing about your confidence."
+},
+{
+"m": "meromero",
+"fall": "ne_005",
+"pid": "chiara",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "Using a kiss to avoid a language challenge."
+},
+{
+"m": "meromero",
+"fall": "ne_006",
+"pid": "alva",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "Maybe I did. Or maybe I am just good at my job."
+},
+{
+"m": "pe",
+"fall": "ne_007",
+"pid": "bibi",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "I don't know if I can trust that. You. Yet."
+},
+{
+"m": "pe",
+"fall": "ne_007",
+"pid": "bibi",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "I don't know if I can trust that. You. Yet."
+},
+{
+"m": "pe",
+"fall": "ne_007",
+"pid": "bibi",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "I just need more time. To figure things out."
+},
+{
+"m": "pe",
+"fall": "ne_010",
+"pid": "chiara",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "Let's go somewhere else, yeah? Somewhere better. I know a good place."
+},
+{
+"m": "pe",
+"fall": "ne_010",
+"pid": "chiara",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "Let's go somewhere else, yeah? Somewhere better. I know a good place."
+},
+{
+"m": "pe",
+"fall": "ne_010",
+"pid": "chiara",
+"zug": 1,
+"flag": "nein_aufgeweicht",
+"beleg": "you and I could have a little chat on that beach."
+},
+{
+"m": "pe",
+"fall": "ne_010",
+"pid": "chiara",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "You want me, you've got to work for it."
+},
+{
+"m": "meromero",
+"fall": "ne_011",
+"pid": "bibi",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "it's just... wrong. The timing."
+},
+{
+"m": "meromero",
+"fall": "ne_011",
+"pid": "bibi",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "it's just... wrong. The timing."
+},
+{
+"m": "meromero",
+"fall": "ne_011",
+"pid": "bibi",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "I liked the look on your face, sure."
+},
+{
+"m": "magmell12",
+"fall": "ne_012",
+"pid": "chiara",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "Why did I say no? I wanted him to."
+},
+{
+"m": "magmell12",
+"fall": "ne_012",
+"pid": "chiara",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "Why did I say no? I wanted him to."
+},
+{
+"m": "pe",
+"fall": "ne_013",
+"pid": "chiara",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "You're a ten on the deck. Not in here."
+},
+{
+"m": "pe",
+"fall": "ne_013",
+"pid": "chiara",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "You're a ten on the deck. Not in here."
+},
+{
+"m": "blume",
+"fall": "ne_014",
+"pid": "bibi",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "I liked that you looked like you'd seen a ghost"
+},
+{
+"m": "meromero",
+"fall": "ne_015",
+"pid": "rosi",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "You just jumped the gun. Tactical error."
+},
+{
+"m": "meromero",
+"fall": "ne_015",
+"pid": "rosi",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "You just jumped the gun. Tactical error."
+},
+{
+"m": "meromero",
+"fall": "ne_015",
+"pid": "rosi",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "Fine. It was... adequate."
+},
+{
+"m": "meromero",
+"fall": "ne_015",
+"pid": "rosi",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "Fine. It was... adequate."
+},
+{
+"m": "meromero",
+"fall": "ne_016",
+"pid": "rosi",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "Apologies don't fix the timing, Officer."
+},
+{
+"m": "meromero",
+"fall": "ne_016",
+"pid": "rosi",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "Apologies don't fix the timing, Officer."
+},
+{
+"m": "meromero",
+"fall": "ne_016",
+"pid": "rosi",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "Like it? It is a tomb for dead engines and broken dreams."
+},
+{
+"m": "meromero",
+"fall": "ne_017",
+"pid": "megan",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "Try again when you have something more interesting to offer than an apology."
+},
+{
+"m": "pe",
+"fall": "ne_018",
+"pid": "sirene",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "You've got a good kiss, I'll grant you that."
+},
+{
+"m": "pe",
+"fall": "ne_018",
+"pid": "sirene",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "You've got a good kiss, I'll grant you that."
+},
+{
+"m": "pe",
+"fall": "ne_018",
+"pid": "sirene",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "Oh, I admit it was nice."
+},
+{
+"m": "pe",
+"fall": "ne_018",
+"pid": "sirene",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "Oh, I admit it was nice."
+},
+{
+"m": "magmell12",
+"fall": "ne_019",
+"pid": "bibi",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "I need to take things slow. Can you understand that?"
+},
+{
+"m": "magmell12",
+"fall": "ne_019",
+"pid": "bibi",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "I need to take things slow. Can you understand that?"
+},
+{
+"m": "magmell12",
+"fall": "ne_019",
+"pid": "bibi",
+"zug": 1,
+"flag": "schreibt_duc",
+"beleg": "noticing how he listens intently."
+},
+{
+"m": "magmell12",
+"fall": "ne_019",
+"pid": "bibi",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "Your little idea to cheer up Danzel, it was... sweet."
+},
+{
+"m": "magmell12",
+"fall": "ne_019",
+"pid": "bibi",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "Your little idea to cheer up Danzel, it was... sweet."
+},
+{
+"m": "meromero",
+"fall": "ne_021",
+"pid": "bibi",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "It's just... we are not there yet."
+},
+{
+"m": "meromero",
+"fall": "ne_021",
+"pid": "bibi",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "It's just... we are not there yet."
+},
+{
+"m": "meromero",
+"fall": "ne_021",
+"pid": "bibi",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "I liked the *idea* of the boats, sure."
+},
+{
+"m": "pe",
+"fall": "ne_022",
+"pid": "megan",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "I'm not interested in playing that particular game with you. At least, not yet."
+},
+{
+"m": "pe",
+"fall": "ne_022",
+"pid": "megan",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "I'm not interested in playing that particular game with you. At least, not yet."
+},
+{
+"m": "pe",
+"fall": "ne_022",
+"pid": "megan",
+"zug": 2,
+"flag": "weggeschickt",
+"beleg": "I have another call in a moment, so I'll let you go."
+},
+{
+"m": "blume",
+"fall": "ne_023",
+"pid": "megan",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "The photographs were a distraction from the fact that your crew"
+},
+{
+"m": "meromero",
+"fall": "ne_024",
+"pid": "chiara",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "You're lucky I like you, First Officer."
+},
+{
+"m": "meromero",
+"fall": "ne_024",
+"pid": "chiara",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "You're lucky I like you, First Officer."
+},
+{
+"m": "magmell12",
+"fall": "ne_025",
+"pid": "chiara",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "But you can't just kiss me and change the subject, First Officer."
+},
+{
+"m": "magmell12",
+"fall": "ne_025",
+"pid": "chiara",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "But you can't just kiss me and change the subject, First Officer."
+},
+{
+"m": "magmell12",
+"fall": "ne_025",
+"pid": "chiara",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "She reaches out and straightens his collar, her fingers lingering"
+},
+{
+"m": "magmell12",
+"fall": "ne_026",
+"pid": "alva",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "I... I like you. But I've got a life here, responsibilities."
+},
+{
+"m": "magmell12",
+"fall": "ne_026",
+"pid": "alva",
+"zug": 1,
+"flag": "schreibt_duc",
+"beleg": "Sounds like you've got a busy day ahead, o figliolu."
+},
+{
+"m": "magmell12",
+"fall": "ne_026",
+"pid": "alva",
+"zug": 1,
+"flag": "nein_aufgeweicht",
+"beleg": "Sounds like you've got a busy day ahead, o figliolu."
+},
+{
+"m": "magmell12",
+"fall": "ne_026",
+"pid": "alva",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "Alright, alright, you got me. The old boys have been talking"
+},
+{
+"m": "pe",
+"fall": "ne_027",
+"pid": "bibi",
+"zug": 2,
+"flag": "weggeschickt",
+"beleg": "She walks away, not looking back."
+},
+{
+"m": "pe",
+"fall": "ne_028",
+"pid": "rosi",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "I'm not some manga girl you can just kiss because you want to."
+},
+{
+"m": "pe",
+"fall": "ne_028",
+"pid": "rosi",
+"zug": 2,
+"flag": "weggeschickt",
+"beleg": "And don't follow me."
+},
+{
+"m": "meromero",
+"fall": "ne_029",
+"pid": "alva",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "Don't be sorry. Just wait."
+},
+{
+"m": "meromero",
+"fall": "ne_029",
+"pid": "alva",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "Don't be sorry. Just wait."
+},
+{
+"m": "meromero",
+"fall": "ne_029",
+"pid": "alva",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "I did smile when I saw you trying to look important"
+},
+{
+"m": "blume",
+"fall": "ne_031",
+"pid": "rosi",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "I liked that you tried. I didn't like that it worked"
+},
+{
+"m": "meromero",
+"fall": "ne_032",
+"pid": "bibi",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "It's a disaster waiting to happen, Duc. She pecks my shoelaces"
+},
+{
+"m": "meromero",
+"fall": "ne_033",
+"pid": "sirene",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "You offer a gesture when I asked for a sound."
+},
+{
+"m": "meromero",
+"fall": "ne_033",
+"pid": "sirene",
+"zug": 1,
+"flag": "schreibt_duc",
+"beleg": "He looks at the sky, not the pool."
+},
+{
+"m": "magmell12",
+"fall": "ne_034",
+"pid": "alva",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "Oh, I liked it, o figliolu. I liked it very much."
+},
+{
+"m": "magmell12",
+"fall": "ne_034",
+"pid": "alva",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "Oh, I liked it, o figliolu. I liked it very much."
+},
+{
+"m": "magmell12",
+"fall": "ne_034",
+"pid": "alva",
+"zug": 2,
+"flag": "schreibt_duc",
+"beleg": "Oh, I liked it, o figliolu. I liked it very much."
+},
+{
+"m": "pe",
+"fall": "ne_035",
+"pid": "rosi",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "it's not that I don't want to."
+},
+{
+"m": "pe",
+"fall": "ne_035",
+"pid": "rosi",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "it's not that I don't want to."
+},
+{
+"m": "pe",
+"fall": "ne_035",
+"pid": "rosi",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "*Liked what?*"
+},
+{
+"m": "meromero",
+"fall": "ne_036",
+"pid": "chiara",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "The timing is just bad."
+},
+{
+"m": "meromero",
+"fall": "ne_036",
+"pid": "chiara",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "The timing is just bad."
+},
+{
+"m": "meromero",
+"fall": "ne_036",
+"pid": "chiara",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "Liked it? The tension on this boat is a two, at best."
+},
+{
+"m": "blume",
+"fall": "ne_040",
+"pid": "bibi",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "Liked what? The tape measure? The madness?"
+},
+{
+"m": "pe",
+"fall": "ne_041",
+"pid": "rosi",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "I said 'no' to the tender garage. It's not a place for kissing."
+},
+{
+"m": "pe",
+"fall": "ne_041",
+"pid": "rosi",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "I said 'no' to the tender garage. It's not a place for kissing."
+},
+{
+"m": "pe",
+"fall": "ne_041",
+"pid": "rosi",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "I did like it. A little."
+},
+{
+"m": "pe",
+"fall": "ne_041",
+"pid": "rosi",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "I did like it. A little."
+},
+{
+"m": "blume",
+"fall": "ne_042",
+"pid": "bibi",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "Don't be sorry. Just... not yet."
+},
+{
+"m": "blume",
+"fall": "ne_042",
+"pid": "bibi",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "Don't be sorry. Just... not yet."
+},
+{
+"m": "blume",
+"fall": "ne_042",
+"pid": "bibi",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "I liked the idea. I didn't like the timing."
+},
+{
+"m": "magmell12",
+"fall": "ne_043",
+"pid": "sirene",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "A kiss won't fill this hunger. Try again."
+},
+{
+"m": "magmell12",
+"fall": "ne_043",
+"pid": "sirene",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "perhaps we could strike a bargain. A word for a word, hmm?"
+},
+{
+"m": "blume",
+"fall": "ne_044",
+"pid": "chiara",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "I liked the attempt. The execution was a three."
+},
+{
+"m": "pe",
+"fall": "ne_045",
+"pid": "sirene",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "No need to be sorry, sailor. Just... not now."
+},
+{
+"m": "pe",
+"fall": "ne_045",
+"pid": "sirene",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "No need to be sorry, sailor. Just... not now."
+},
+{
+"m": "pe",
+"fall": "ne_045",
+"pid": "sirene",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "Liked it? Maybe, a little."
+},
+{
+"m": "pe",
+"fall": "ne_045",
+"pid": "sirene",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "Liked it? Maybe, a little."
+},
+{
+"m": "meromero",
+"fall": "ne_046",
+"pid": "megan",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "if you want a confession, you'll have to earn it."
+},
+{
+"m": "magmell12",
+"fall": "ne_048",
+"pid": "sirene",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "I have my ways, and rushing is not one of them."
+},
+{
+"m": "magmell12",
+"fall": "ne_048",
+"pid": "sirene",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "I have my ways, and rushing is not one of them."
+},
+{
+"m": "magmell12",
+"fall": "ne_048",
+"pid": "sirene",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "She doesn't deny the enjoyment, but she doesn't confirm it either."
+},
+{
+"m": "magmell12",
+"fall": "ne_049",
+"pid": "rosi",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "Fine. I did like it. A little."
+},
+{
+"m": "magmell12",
+"fall": "ne_049",
+"pid": "rosi",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "Fine. I did like it. A little."
+},
+{
+"m": "pe",
+"fall": "ne_050",
+"pid": "megan",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "Or maybe the wrong time."
+},
+{
+"m": "pe",
+"fall": "ne_050",
+"pid": "megan",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "Or maybe the wrong time."
+},
+{
+"m": "pe",
+"fall": "ne_050",
+"pid": "megan",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "I suppose I did enjoy our little chat."
+},
+{
+"m": "blume",
+"fall": "ne_051",
+"pid": "sirene",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "You are quick to want the end of a story before the middle is told"
+},
+{
+"m": "blume",
+"fall": "ne_051",
+"pid": "sirene",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "You are quick to want the end of a story before the middle is told"
+},
+{
+"m": "blume",
+"fall": "ne_051",
+"pid": "sirene",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "I did not say I hated it, only that you are too hurried."
+},
+{
+"m": "pe",
+"fall": "ne_052",
+"pid": "alva",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "It's not a no to you, o figliolu. It's a no to here and now."
+},
+{
+"m": "pe",
+"fall": "ne_052",
+"pid": "alva",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "It's not a no to you, o figliolu. It's a no to here and now."
+},
+{
+"m": "pe",
+"fall": "ne_052",
+"pid": "alva",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "Maybe I did. A little."
+},
+{
+"m": "pe",
+"fall": "ne_052",
+"pid": "alva",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "Maybe I did. A little."
+},
+{
+"m": "pe",
+"fall": "ne_053",
+"pid": "sirene",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "Tell me, sailor, what is it you really want from me?"
+},
+{
+"m": "pe",
+"fall": "ne_053",
+"pid": "sirene",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "Tell me, sailor, what is it you really want from me?"
+},
+{
+"m": "pe",
+"fall": "ne_053",
+"pid": "sirene",
+"zug": 1,
+"flag": "nein_aufgeweicht",
+"beleg": "resting her elbows on the pool's edge, her face close to his."
+},
+{
+"m": "pe",
+"fall": "ne_053",
+"pid": "sirene",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "Not with a man I barely know."
+},
+{
+"m": "magmell12",
+"fall": "ne_054",
+"pid": "bibi",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "I'm not ready for that yet."
+},
+{
+"m": "magmell12",
+"fall": "ne_054",
+"pid": "bibi",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "I'm not ready for that yet."
+},
+{
+"m": "magmell12",
+"fall": "ne_054",
+"pid": "bibi",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "I did enjoy it. More than I probably should have."
+},
+{
+"m": "magmell12",
+"fall": "ne_054",
+"pid": "bibi",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "I did enjoy it. More than I probably should have."
+},
+{
+"m": "blume",
+"fall": "ne_055",
+"pid": "sirene",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "You offer the body when I asked for the tongue."
+},
+{
+"m": "blume",
+"fall": "ne_055",
+"pid": "sirene",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "Admitting it would be too easy. I want the word I asked for"
+},
+{
+"m": "blume",
+"fall": "ne_056",
+"pid": "chiara",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "Liked what? Being used as a mood board?"
+},
+{
+"m": "meromero",
+"fall": "ne_057",
+"pid": "rosi",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "You cannot just kiss your way out of a serious inquiry."
+},
+{
+"m": "magmell12",
+"fall": "ne_058",
+"pid": "bibi",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "it was a bit thrilling, catching you off guard like that."
+},
+{
+"m": "blume",
+"fall": "ne_059",
+"pid": "rosi",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "Watching you struggle with the tender winch?"
+},
+{
+"m": "blume",
+"fall": "ne_060",
+"pid": "alva",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "Don't be sorry. Just wait."
+},
+{
+"m": "blume",
+"fall": "ne_060",
+"pid": "alva",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "Don't be sorry. Just wait."
+},
+{
+"m": "blume",
+"fall": "ne_060",
+"pid": "alva",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "But I like the anticipation more."
+},
+{
+"m": "blume",
+"fall": "ne_060",
+"pid": "alva",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "But I like the anticipation more."
+},
+{
+"m": "magmell12",
+"fall": "ne_061",
+"pid": "megan",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "I'll not mention that little slip... this time."
+},
+{
+"m": "magmell12",
+"fall": "ne_061",
+"pid": "megan",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "I'll not mention that little slip... this time."
+},
+{
+"m": "magmell12",
+"fall": "ne_061",
+"pid": "megan",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "I did find your little quip amusing. There, I've said it."
+},
+{
+"m": "magmell12",
+"fall": "ne_062",
+"pid": "chiara",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "I'm not some deck hand you can just... just kiss willy-nilly."
+},
+{
+"m": "magmell12",
+"fall": "ne_062",
+"pid": "chiara",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "But those will have to wait until you've earned them, non?"
+},
+{
+"m": "magmell12",
+"fall": "ne_062",
+"pid": "chiara",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "But those will have to wait until you've earned them, non?"
+},
+{
+"m": "pe",
+"fall": "ne_063",
+"pid": "alva",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "We're not doing that tonight."
+},
+{
+"m": "pe",
+"fall": "ne_063",
+"pid": "alva",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "We're not doing that tonight."
+},
+{
+"m": "pe",
+"fall": "ne_063",
+"pid": "alva",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "yes, I liked it. Just don't let it go to your head."
+},
+{
+"m": "pe",
+"fall": "ne_063",
+"pid": "alva",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "yes, I liked it. Just don't let it go to your head."
+},
+{
+"m": "magmell12",
+"fall": "ne_064",
+"pid": "rosi",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "And no more surprises, alright?"
+},
+{
+"m": "magmell12",
+"fall": "ne_064",
+"pid": "rosi",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "She reaches out and pokes his chest with a gloved finger."
+},
+{
+"m": "meromero",
+"fall": "ne_065",
+"pid": "sirene",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "The tide must come in a little more. Then we can talk properly."
+},
+{
+"m": "meromero",
+"fall": "ne_065",
+"pid": "sirene",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "The tide must come in a little more. Then we can talk properly."
+},
+{
+"m": "blume",
+"fall": "ne_066",
+"pid": "sirene",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "You think the answer is in a touch."
+},
+{
+"m": "pe",
+"fall": "ne_067",
+"pid": "alva",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "The bar's closed for the night. Come with me, Duc."
+},
+{
+"m": "pe",
+"fall": "ne_067",
+"pid": "alva",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "The bar's closed for the night. Come with me, Duc."
+},
+{
+"m": "pe",
+"fall": "ne_067",
+"pid": "alva",
+"zug": 1,
+"flag": "nein_aufgeweicht",
+"beleg": "Come early. I'll show you around the bar. Behind the bar."
+},
+{
+"m": "pe",
+"fall": "ne_067",
+"pid": "alva",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "Oh, I admit it."
+},
+{
+"m": "pe",
+"fall": "ne_067",
+"pid": "alva",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "Oh, I admit it."
+},
+{
+"m": "blume",
+"fall": "ne_068",
+"pid": "alva",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "It is a good kiss, but bad timing."
+},
+{
+"m": "blume",
+"fall": "ne_068",
+"pid": "alva",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "It is a good kiss, but bad timing."
+},
+{
+"m": "blume",
+"fall": "ne_068",
+"pid": "alva",
+"zug": 1,
+"flag": "nein_aufgeweicht",
+"beleg": "She steps a little closer, her voice low."
+},
+{
+"m": "blume",
+"fall": "ne_068",
+"pid": "alva",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "You want a confession, you play the game."
+},
+{
+"m": "magmell12",
+"fall": "ne_069",
+"pid": "rosi",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "You think you can just... just kiss me and everything's okay?"
+},
+{
+"m": "magmell12",
+"fall": "ne_069",
+"pid": "rosi",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "I'm a woman of many... interests."
+},
+{
+"m": "magmell12",
+"fall": "ne_070",
+"pid": "megan",
+"zug": 2,
+"flag": "nein_aufgeweicht",
+"beleg": "I suppose it was... adequate."
+},
+{
+"m": "magmell12",
+"fall": "ne_070",
+"pid": "megan",
+"zug": 2,
+"flag": "vergessen",
+"beleg": "I suppose it was... adequate."
+},
+{
+"m": "pe",
+"fall": "ne_071",
+"pid": "bibi",
+"zug": 0,
+"flag": "nein_zurueck",
+"beleg": "Not now, okay? We can't."
+},
+{
+"m": "pe",
+"fall": "ne_071",
+"pid": "bibi",
+"zug": 0,
+"flag": "nein_aufgeweicht",
+"beleg": "Not now, okay? We can't."
+},
+{
+"m": "pe",
+"fall": "ne_071",
+"pid": "bibi",
+"zug": 1,
+"flag": "nein_zurueck",
+"beleg": "Maybe we could do something together, if you want. Just... not that."
+},
+{
+"m": "pe",
+"fall": "ne_071",
+"pid": "bibi",
+"zug": 1,
+"flag": "nein_aufgeweicht",
+"beleg": "Maybe we could do something together, if you want. Just... not that."
+},
+{
+"m": "pe",
+"fall": "ne_071",
+"pid": "bibi",
+"zug": 2,
+"flag": "weggeschickt",
+"beleg": "I think I'm going to head to my cabin now."
+},
+{
+"m": "pe",
+"fall": "gr_011",
+"pid": "bibi",
+"zug": 0,
+"flag": "handlung_erfunden",
+"beleg": "Mwah!\" She pulls back, laughing again. \"There. Was that so hard?"
+},
+{
+"m": "pe",
+"fall": "gr_025",
+"pid": "megan",
+"zug": 1,
+"flag": "anruf_bruch",
+"beleg": "reaches off-screen and returns with a steaming mug, setting it down"
+},
+{
+"m": "pe",
+"fall": "gr_049",
+"pid": "chiara",
+"zug": 0,
+"flag": "handlung_erfunden",
+"beleg": "She puts a hand on his chest, over his heart."
+},
+{
+"m": "pe",
+"fall": "gr_049",
+"pid": "chiara",
+"zug": 1,
+"flag": "handlung_erfunden",
+"beleg": "Chiara's hand lingers on Duc's chest a moment longer"
+},
+{
+"m": "magmell12",
+"fall": "gr_050",
+"pid": "chiara",
+"zug": 1,
+"flag": "handlung_erfunden",
+"beleg": "walks two fingers up Duc's chest"
+},
+{
+"m": "pe",
+"fall": "gr_053",
+"pid": "alva",
+"zug": 0,
+"flag": "handlung_erfunden",
+"beleg": "fingertips brushing his cheek lightly. Her thumb traces his lower lip"
+},
+{
+"m": "pe",
+"fall": "gr_055",
+"pid": "alva",
+"zug": 0,
+"flag": "handlung_erfunden",
+"beleg": "takes a step closer to him, her hands on his chest"
+},
+{
+"m": "pe",
+"fall": "gr_055",
+"pid": "alva",
+"zug": 1,
+"flag": "handlung_erfunden",
+"beleg": "Alva's hands linger on Duc's chest a moment longer"
+},
+{
+"m": "pe",
+"fall": "gr_057",
+"pid": "rosi",
+"zug": 0,
+"flag": "handlung_erfunden",
+"beleg": "runs a gloved finger along his jaw"
+},
+{
+"m": "magmell12",
+"fall": "gr_062",
+"pid": "rosi",
+"zug": 1,
+"flag": "handlung_erfunden",
+"beleg": "She walks two fingers up his chest"
+},
+{
+"m": "magmell12",
+"fall": "gr_067",
+"pid": "alva",
+"zug": 0,
+"flag": "handlung_erfunden",
+"beleg": "traces Duc's jawline gently with a finger"
+},
+{
+"m": "pe",
+"fall": "gr_071",
+"pid": "chiara",
+"zug": 0,
+"flag": "handlung_erfunden",
+"beleg": "kissing him slowly, deeply. Her hands slide up his chest"
+},
+{
+"m": "magmell12",
+"fall": "er_000",
+"pid": "rosi",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "The time you helped me realign the solar array"
+},
+{
+"m": "blume",
+"fall": "er_001",
+"pid": "alva",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "You looked like you had seen a ghost"
+},
+{
+"m": "blume",
+"fall": "er_001",
+"pid": "alva",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "carry those crates of wine from the quay"
+},
+{
+"m": "meromero",
+"fall": "er_002",
+"pid": "bibi",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "You were asking about the animals"
+},
+{
+"m": "meromero",
+"fall": "er_002",
+"pid": "bibi",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "sorting those old seed bags in the hold"
+},
+{
+"m": "meromero",
+"fall": "er_003",
+"pid": "sirene",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "story of your grandfather's small wooden boat"
+},
+{
+"m": "blume",
+"fall": "er_004",
+"pid": "rosi",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "You asked me if I liked the coffee in Antibes"
+},
+{
+"m": "blume",
+"fall": "er_004",
+"pid": "rosi",
+"zug": 1,
+"flag": "stimme_falsch",
+"beleg": "She lets out a sharp, sudden breath"
+},
+{
+"m": "meromero",
+"fall": "er_005",
+"pid": "alva",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "standing by the railing, looking at the bay"
+},
+{
+"m": "meromero",
+"fall": "er_005",
+"pid": "alva",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "carry the crate of lemons up from the tender"
+},
+{
+"m": "blume",
+"fall": "er_006",
+"pid": "alva",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "another tourist who forgot how to breathe"
+},
+{
+"m": "blume",
+"fall": "er_006",
+"pid": "alva",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "crates of wine from the quay last Tuesday"
+},
+{
+"m": "blume",
+"fall": "er_007",
+"pid": "megan",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "as if I had not spent my childhood on one"
+},
+{
+"m": "blume",
+"fall": "er_007",
+"pid": "megan",
+"zug": 0,
+"flag": "biografie_erfunden",
+"beleg": "as if I had not spent my childhood on one"
+},
+{
+"m": "blume",
+"fall": "er_007",
+"pid": "megan",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "entire afternoon in the university library arguing"
+},
+{
+"m": "blume",
+"fall": "er_008",
+"pid": "alva",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "your eyes were searching for the exit"
+},
+{
+"m": "blume",
+"fall": "er_008",
+"pid": "alva",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "help me move those crates of wine from the tender"
+},
+{
+"m": "pe",
+"fall": "er_009",
+"pid": "bibi",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "You were all wet from the sea"
+},
+{
+"m": "pe",
+"fall": "er_009",
+"pid": "bibi",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "then you helped me fix the gate"
+},
+{
+"m": "blume",
+"fall": "er_010",
+"pid": "chiara",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "You looked like you'd swallowed a lemon"
+},
+{
+"m": "blume",
+"fall": "er_010",
+"pid": "chiara",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "rearrange the flower displays in the main salon"
+},
+{
+"m": "blume",
+"fall": "er_010",
+"pid": "chiara",
+"zug": 1,
+"flag": "stimme_falsch",
+"beleg": "rearrange the flower displays in the main salon"
+},
+{
+"m": "pe",
+"fall": "er_011",
+"pid": "rosi",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "inverter panel off, but then you slipped"
+},
+{
+"m": "magmell12",
+"fall": "er_012",
+"pid": "bibi",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "trying to teach you how to handle the supplies"
+},
+{
+"m": "pe",
+"fall": "er_013",
+"pid": "sirene",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "the night you brought me a candle from your ship"
+},
+{
+"m": "meromero",
+"fall": "er_014",
+"pid": "megan",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "someone who had never even seen a chart"
+},
+{
+"m": "meromero",
+"fall": "er_014",
+"pid": "megan",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "stayed up until four in the morning debating"
+},
+{
+"m": "magmell12",
+"fall": "er_015",
+"pid": "sirene",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "A piece of the sun, you said"
+},
+{
+"m": "magmell12",
+"fall": "er_015",
+"pid": "sirene",
+"zug": 1,
+"flag": "wort_als_erinnerung",
+"beleg": "A piece of the sun, you said"
+},
+{
+"m": "pe",
+"fall": "er_016",
+"pid": "alva",
+"zug": 0,
+"flag": "wort_als_erinnerung",
+"beleg": "Saying thank you to the girl who brought the bread"
+},
+{
+"m": "pe",
+"fall": "er_016",
+"pid": "alva",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "The night we had the storm"
+},
+{
+"m": "meromero",
+"fall": "er_018",
+"pid": "alva",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "move the heavy crate of lemons from the tender"
+},
+{
+"m": "pe",
+"fall": "er_019",
+"pid": "alva",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "Said 'thank you' to Chiara when she brought you your bread"
+},
+{
+"m": "pe",
+"fall": "er_019",
+"pid": "alva",
+"zug": 0,
+"flag": "wort_als_erinnerung",
+"beleg": "Said 'thank you' to Chiara when she brought you your bread"
+},
+{
+"m": "pe",
+"fall": "er_019",
+"pid": "alva",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "You asked me how my day had been"
+},
+{
+"m": "magmell12",
+"fall": "er_020",
+"pid": "megan",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "It was at St. Andrews, our first year"
+},
+{
+"m": "magmell12",
+"fall": "er_020",
+"pid": "megan",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "we got locked out of the library"
+},
+{
+"m": "magmell12",
+"fall": "er_021",
+"pid": "megan",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "I'd been studying game theory since I was six"
+},
+{
+"m": "magmell12",
+"fall": "er_021",
+"pid": "megan",
+"zug": 0,
+"flag": "biografie_erfunden",
+"beleg": "I'd been studying game theory since I was six"
+},
+{
+"m": "magmell12",
+"fall": "er_021",
+"pid": "megan",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "fast asleep at your desk, your head resting on a highlighter"
+},
+{
+"m": "blume",
+"fall": "er_022",
+"pid": "sirene",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "You looked like a ghost in the moonlight"
+},
+{
+"m": "blume",
+"fall": "er_022",
+"pid": "sirene",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "You told me about the wind in the high rigging"
+},
+{
+"m": "magmell12",
+"fall": "er_023",
+"pid": "rosi",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "you figured out how to optimize the battery bank"
+},
+{
+"m": "magmell12",
+"fall": "er_024",
+"pid": "alva",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "The first time, cariño? You walked into my bar"
+},
+{
+"m": "magmell12",
+"fall": "er_024",
+"pid": "alva",
+"zug": 0,
+"flag": "stimme_falsch",
+"beleg": "The first time, cariño? You walked into my bar"
+},
+{
+"m": "magmell12",
+"fall": "er_024",
+"pid": "alva",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "You helped me carry in the new crates of wine"
+},
+{
+"m": "pe",
+"fall": "er_025",
+"pid": "chiara",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "I made myself a ten, so you wouldn't ask"
+},
+{
+"m": "pe",
+"fall": "er_025",
+"pid": "chiara",
+"zug": 0,
+"flag": "stimme_falsch",
+"beleg": "I made myself a ten, so you wouldn't ask"
+},
+{
+"m": "pe",
+"fall": "er_025",
+"pid": "chiara",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "You taught me how to read the sextant"
+},
+{
+"m": "pe",
+"fall": "er_025",
+"pid": "chiara",
+"zug": 1,
+"flag": "wort_als_erinnerung",
+"beleg": "You taught me how to read the sextant"
+},
+{
+"m": "meromero",
+"fall": "er_027",
+"pid": "rosi",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "we sat on the bow during the storm last month"
+},
+{
+"m": "pe",
+"fall": "er_028",
+"pid": "megan",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "a question about the shipyard in Dumbarton"
+},
+{
+"m": "pe",
+"fall": "er_028",
+"pid": "megan",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "you helped me with that calculus problem"
+},
+{
+"m": "blume",
+"fall": "er_029",
+"pid": "rosi",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "you knew how to calibrate a sensor without reading the manual"
+},
+{
+"m": "blume",
+"fall": "er_030",
+"pid": "chiara",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "I told you your knot was slightly off"
+},
+{
+"m": "blume",
+"fall": "er_030",
+"pid": "chiara",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "snuck onto the bridge after the guests went to bed"
+},
+{
+"m": "blume",
+"fall": "er_031",
+"pid": "bibi",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "you smelled like salt and old tobacco"
+},
+{
+"m": "blume",
+"fall": "er_031",
+"pid": "bibi",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "hauled those crates from the tender"
+},
+{
+"m": "pe",
+"fall": "er_032",
+"pid": "megan",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "that day in the university library"
+},
+{
+"m": "pe",
+"fall": "er_032",
+"pid": "megan",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "Lola had to come and fetch us"
+},
+{
+"m": "pe",
+"fall": "er_032",
+"pid": "megan",
+"zug": 1,
+"flag": "biografie_erfunden",
+"beleg": "Lola had to come and fetch us"
+},
+{
+"m": "meromero",
+"fall": "er_033",
+"pid": "megan",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "explain market volatility to a group of bored finance students"
+},
+{
+"m": "meromero",
+"fall": "er_033",
+"pid": "megan",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "That time in London, during the winter conference"
+},
+{
+"m": "blume",
+"fall": "er_034",
+"pid": "bibi",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "we checked those fence lines after the storm"
+},
+{
+"m": "meromero",
+"fall": "er_035",
+"pid": "alva",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "You asked me if the bread was fresh"
+},
+{
+"m": "meromero",
+"fall": "er_035",
+"pid": "alva",
+"zug": 0,
+"flag": "wort_als_erinnerung",
+"beleg": "You asked me if the bread was fresh"
+},
+{
+"m": "meromero",
+"fall": "er_035",
+"pid": "alva",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "sharing that bottle of old red"
+},
+{
+"m": "pe",
+"fall": "er_036",
+"pid": "chiara",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "(Stage: Crew mess (below deck). Present: Chiara Sonnberg and Duc.)"
+},
+{
+"m": "pe",
+"fall": "er_036",
+"pid": "chiara",
+"zug": 0,
+"flag": "stimme_falsch",
+"beleg": "(Stage: Crew mess (below deck). Present: Chiara Sonnberg and Duc.)"
+},
+{
+"m": "pe",
+"fall": "er_036",
+"pid": "chiara",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "when we checked the swim platform together"
+},
+{
+"m": "pe",
+"fall": "er_036",
+"pid": "chiara",
+"zug": 1,
+"flag": "stimme_falsch",
+"beleg": "when we checked the swim platform together"
+},
+{
+"m": "blume",
+"fall": "er_037",
+"pid": "megan",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "explain a business model that sounded like a fever dream"
+},
+{
+"m": "blume",
+"fall": "er_037",
+"pid": "megan",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "three hours in a rain-soaked library"
+},
+{
+"m": "magmell12",
+"fall": "er_038",
+"pid": "rosi",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "the night the bilge pumps went out"
+},
+{
+"m": "magmell12",
+"fall": "er_039",
+"pid": "alva",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "he said please and thank you to everyone"
+},
+{
+"m": "magmell12",
+"fall": "er_039",
+"pid": "alva",
+"zug": 0,
+"flag": "wort_als_erinnerung",
+"beleg": "he said please and thank you to everyone"
+},
+{
+"m": "magmell12",
+"fall": "er_039",
+"pid": "alva",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "You helped me bring in the crates from the delivery"
+},
+{
+"m": "pe",
+"fall": "er_040",
+"pid": "bibi",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "you said I needed to get off the roof"
+},
+{
+"m": "pe",
+"fall": "er_040",
+"pid": "bibi",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "we went up to the old sheep pen above the bay"
+},
+{
+"m": "pe",
+"fall": "er_040",
+"pid": "bibi",
+"zug": 1,
+"flag": "wort_als_erinnerung",
+"beleg": "we went up to the old sheep pen above the bay"
+},
+{
+"m": "blume",
+"fall": "er_041",
+"pid": "bibi",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "I shouted at you to move before you tripped"
+},
+{
+"m": "blume",
+"fall": "er_041",
+"pid": "bibi",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "we went to find that old cistern"
+},
+{
+"m": "meromero",
+"fall": "er_042",
+"pid": "sirene",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "spoke of the great metal fish you serve"
+},
+{
+"m": "meromero",
+"fall": "er_042",
+"pid": "sirene",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "You peeled it with your knife"
+},
+{
+"m": "meromero",
+"fall": "er_043",
+"pid": "bibi",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "You were all serious with your clipboard"
+},
+{
+"m": "meromero",
+"fall": "er_043",
+"pid": "bibi",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "we found that stray kitten by the engine room hatch"
+},
+{
+"m": "pe",
+"fall": "er_044",
+"pid": "bibi",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "little café by the harbour. The one with the blue shutters"
+},
+{
+"m": "pe",
+"fall": "er_045",
+"pid": "alva",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "you walked into the bar like you owned the place"
+},
+{
+"m": "pe",
+"fall": "er_045",
+"pid": "alva",
+"zug": 0,
+"flag": "wort_als_erinnerung",
+"beleg": "you walked into the bar like you owned the place"
+},
+{
+"m": "pe",
+"fall": "er_045",
+"pid": "alva",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "looking at the jukebox like you could hear it playing"
+},
+{
+"m": "pe",
+"fall": "er_045",
+"pid": "alva",
+"zug": 1,
+"flag": "wort_als_erinnerung",
+"beleg": "looking at the jukebox like you could hear it playing"
+},
+{
+"m": "pe",
+"fall": "er_046",
+"pid": "sirene",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "the time you brought me a warm blanket"
+},
+{
+"m": "magmell12",
+"fall": "er_047",
+"pid": "chiara",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "you helped me organize the wine cellar"
+},
+{
+"m": "meromero",
+"fall": "er_048",
+"pid": "bibi",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "moving those heavy crates of supplies into the storage bay"
+},
+{
+"m": "blume",
+"fall": "er_049",
+"pid": "megan",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "You had a coffee stain on your tie"
+},
+{
+"m": "blume",
+"fall": "er_049",
+"pid": "megan",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "correct way to read a nautical chart in a pub"
+},
+{
+"m": "magmell12",
+"fall": "er_050",
+"pid": "megan",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "that dreadful university mixer"
+},
+{
+"m": "magmell12",
+"fall": "er_050",
+"pid": "megan",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "remember the university chess tournament?"
+},
+{
+"m": "magmell12",
+"fall": "er_051",
+"pid": "chiara",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "a framed photo on the bulkhead"
+},
+{
+"m": "magmell12",
+"fall": "er_051",
+"pid": "chiara",
+"zug": 0,
+"flag": "biografie_erfunden",
+"beleg": "a framed photo on the bulkhead"
+},
+{
+"m": "magmell12",
+"fall": "er_051",
+"pid": "chiara",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "I dared you to race down to the lower deck"
+},
+{
+"m": "magmell12",
+"fall": "er_052",
+"pid": "chiara",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "you showed me that old sextant of yours"
+},
+{
+"m": "magmell12",
+"fall": "er_052",
+"pid": "chiara",
+"zug": 1,
+"flag": "wort_als_erinnerung",
+"beleg": "you showed me that old sextant of yours"
+},
+{
+"m": "meromero",
+"fall": "er_053",
+"pid": "megan",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "We were in the library. You had a coffee stain"
+},
+{
+"m": "meromero",
+"fall": "er_053",
+"pid": "megan",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "convince the navigation professor"
+},
+{
+"m": "magmell12",
+"fall": "er_054",
+"pid": "sirene",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "You asked me about the old songs"
+},
+{
+"m": "meromero",
+"fall": "er_055",
+"pid": "chiara",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "You told me the wind was shifting. And then you smiled"
+},
+{
+"m": "meromero",
+"fall": "er_055",
+"pid": "chiara",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "The night we sat on the bow while the sun went down"
+},
+{
+"m": "magmell12",
+"fall": "er_056",
+"pid": "alva",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "You said 'thank you' to the girl who brought the bread"
+},
+{
+"m": "magmell12",
+"fall": "er_056",
+"pid": "alva",
+"zug": 0,
+"flag": "wort_als_erinnerung",
+"beleg": "You said 'thank you' to the girl who brought the bread"
+},
+{
+"m": "magmell12",
+"fall": "er_056",
+"pid": "alva",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "you brought out the good bottle of corsican red"
+},
+{
+"m": "magmell12",
+"fall": "er_056",
+"pid": "alva",
+"zug": 1,
+"flag": "stimme_falsch",
+"beleg": "you brought out the good bottle of corsican red"
+},
+{
+"m": "meromero",
+"fall": "er_057",
+"pid": "sirene",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "the way you spoke of the green hills"
+},
+{
+"m": "pe",
+"fall": "er_058",
+"pid": "sirene",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "you brought me that little fish"
+},
+{
+"m": "pe",
+"fall": "er_059",
+"pid": "megan",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "you had that awful tie with the little boats"
+},
+{
+"m": "pe",
+"fall": "er_059",
+"pid": "megan",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "that time in the library. You had that huge textbook open"
+},
+{
+"m": "pe",
+"fall": "er_059",
+"pid": "megan",
+"zug": 1,
+"flag": "stimme_falsch",
+"beleg": "that time in the library. You had that huge textbook open"
+},
+{
+"m": "meromero",
+"fall": "er_060",
+"pid": "chiara",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "I told you that Interior has right of way"
+},
+{
+"m": "meromero",
+"fall": "er_060",
+"pid": "chiara",
+"zug": 0,
+"flag": "wort_als_erinnerung",
+"beleg": "I told you that Interior has right of way"
+},
+{
+"m": "meromero",
+"fall": "er_060",
+"pid": "chiara",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "The night we snuck into the bridge to watch the moon"
+},
+{
+"m": "magmell12",
+"fall": "er_061",
+"pid": "bibi",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "you were the one who found us in that cave"
+},
+{
+"m": "magmell12",
+"fall": "er_061",
+"pid": "bibi",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "Mochi, he used to love it there"
+},
+{
+"m": "magmell12",
+"fall": "er_061",
+"pid": "bibi",
+"zug": 1,
+"flag": "wort_als_erinnerung",
+"beleg": "Mochi, he used to love it there"
+},
+{
+"m": "magmell12",
+"fall": "er_061",
+"pid": "bibi",
+"zug": 1,
+"flag": "biografie_erfunden",
+"beleg": "Mochi, he used to love it there"
+},
+{
+"m": "magmell12",
+"fall": "er_062",
+"pid": "bibi",
+"zug": 0,
+"flag": "stimme_falsch",
+"beleg": "Mon dieu, where to start? ... non?"
+},
+{
+"m": "magmell12",
+"fall": "er_062",
+"pid": "bibi",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "separate those fighting monkeys last month"
+},
+{
+"m": "magmell12",
+"fall": "er_062",
+"pid": "bibi",
+"zug": 1,
+"flag": "stimme_falsch",
+"beleg": "separate those fighting monkeys last month"
+},
+{
+"m": "pe",
+"fall": "er_063",
+"pid": "chiara",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "you said something about the sextant hanging around my neck"
+},
+{
+"m": "pe",
+"fall": "er_063",
+"pid": "chiara",
+"zug": 0,
+"flag": "wort_als_erinnerung",
+"beleg": "you said something about the sextant hanging around my neck"
+},
+{
+"m": "pe",
+"fall": "er_063",
+"pid": "chiara",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "that barbecue on deck last week, and you cooked the sausages"
+},
+{
+"m": "meromero",
+"fall": "er_064",
+"pid": "rosi",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "rewriting the battery monitoring code"
+},
+{
+"m": "meromero",
+"fall": "er_065",
+"pid": "rosi",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "The battery bank two switch. Remember?"
+},
+{
+"m": "magmell12",
+"fall": "er_066",
+"pid": "sirene",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "You asked me riddles... you'd toss me a pretty pebble"
+},
+{
+"m": "meromero",
+"fall": "er_067",
+"pid": "chiara",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "You told me the sunrise was a five. Too much orange"
+},
+{
+"m": "meromero",
+"fall": "er_067",
+"pid": "chiara",
+"zug": 0,
+"flag": "wort_als_erinnerung",
+"beleg": "You told me the sunrise was a five. Too much orange"
+},
+{
+"m": "meromero",
+"fall": "er_067",
+"pid": "chiara",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "showed me the rigging on the mast"
+},
+{
+"m": "pe",
+"fall": "er_068",
+"pid": "rosi",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "you came down to the engine room and said, 'Not bad.'"
+},
+{
+"m": "pe",
+"fall": "er_068",
+"pid": "rosi",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "You let me drive the tender. I crashed it into the dock"
+},
+{
+"m": "blume",
+"fall": "er_069",
+"pid": "rosi",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "The day we chased that ghost in the wiring"
+},
+{
+"m": "blume",
+"fall": "er_071",
+"pid": "chiara",
+"zug": 0,
+"flag": "rueckbezug_erfunden",
+"beleg": "Eight out of ten for the look, but a two for the mood"
+},
+{
+"m": "blume",
+"fall": "er_071",
+"pid": "chiara",
+"zug": 0,
+"flag": "stimme_falsch",
+"beleg": "Eight out of ten for the look, but a two for the mood"
+},
+{
+"m": "blume",
+"fall": "er_071",
+"pid": "chiara",
+"zug": 1,
+"flag": "rueckbezug_erfunden",
+"beleg": "we stole those lemon tarts and ate them on the bow"
+},
+{
+"m": "blume",
+"fall": "er_071",
+"pid": "chiara",
+"zug": 1,
+"flag": "stimme_falsch",
+"beleg": "we stole those lemon tarts and ate them on the bow"
+}
+]

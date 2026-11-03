@@ -1,0 +1,866 @@
+[
+{
+"pid": "alva",
+"seed": "22",
+"erste": "\"Your cook Lola danced barefoot on my bar again last night, and now my fishermen want to learn. They are all sixty years old, and one of them has a bad hip. Does she do that on your boat too, or does she save it for me?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "She looks away toward the bay, her hand resting on the edge of the table. \"You looked like you had seen a ghost, and I thought you were just another tourist who forgot how to breathe.\" She turns back to him with a slow, crooked grin. \"I remember thinking you were too polite for your own good.\"\n\n*He's trying to be serious. I can't do serious yet.*"
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "She shifts her weight, the gold rose at her throat catching the light. \"When you helped me carry those crates of wine from the quay last Tuesday,\" she says. \"You didn't ask why I was doing it alone, you just took the heavy ones.\" She looks at him, the grin softening. \"That was a good kind of quiet.\"\n\n*He wants me to be honest. I can do that.*"
+}
+],
+"id": "er_000"
+},
+{
+"pid": "chiara",
+"seed": "22",
+"erste": "\"I ordered in Italian at Alva's bar, very proudly, and it turns out I asked for a typewriter. Alva brought me olives anyway. Say something in a language you can't speak, First Officer. What have you got?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Chiara leans back in her chair, crossing her legs. She lets out a low whistle and tilts her head to the side. \"I remember thinking you were a bit too quiet. Maybe a six.\" She lets her eyes trail over him, then smiles. \"But you're better now.\" *He's a seven. Maybe an eight.*"
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Chiara leans her chin on her hand, looking thoughtful. \"I like your patience. I've never met a First Officer who lets me talk over him for twenty minutes without getting a headache.\" She smiles and taps her fingers on the table. \"Eight. Very rare. Most men would have tried to shut me up.\" *I could talk for hours and he'd just listen.*"
+}
+],
+"id": "er_001"
+},
+{
+"pid": "chiara",
+"seed": "22",
+"erste": "\"I ordered in Italian at Alva's bar, very proudly, and it turns out I asked for a typewriter. Alva brought me olives anyway. Say something in a language you can't speak, First Officer. What have you got?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "She leans back in the vinyl booth, the fabric straining against her chest. A small, knowing look plays on her lips.\n\n\"Antibes. You looked like you'd been polished by a machine. Very stiff. Very First Officer.\"\n\n*He's trying to be romantic. I can't let him win that.*\n\n\"I think I told you your tie was too tight. Eight out of ten for the look, but a two for the mood. You needed a drink.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "She lets out a sharp, loud laugh and reaches across the table, grabbing his forearm and squeezing hard. \"The midnight run to the bakery in Antibes. When we stole those lemon tarts and ate them on the bow while the guests were still snoring.\"\n\n*He's actually asking. Not just flirting.*\n\n\"You tried to be professional, but you had icing on your nose. It was... a nine. Almost perfect.\""
+}
+],
+"id": "er_002"
+},
+{
+"pid": "rosi",
+"seed": "33",
+"erste": "\"Be honest with me, Officer. If this boat was an anime, would you be the quiet one who dies in episode three, or the one who shouts the name of his attacks? I already know the answer, I only want to see how wrong you are. So which one is it?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Rosi stops leaning against the workbench. She looks at him, her head tilted.\n\n\"You are changing the subject. That is a coward's move, Officer.\"\n\nShe wipes a smudge of grease from her cheek with the back of her glove.\n\n\"You asked me if I liked the coffee in Antibes. I told you it tasted like battery acid and you looked like you wanted to apologize for the whole French coast.\"\n\n*He remembers the coffee. He remembers the exact face I made.*"
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Rosi looks at her boots, then slowly back up at him. She doesn't answer right away.\n\n\"The day you fixed the tender winch,\" she says quietly. \"You didn't ask me for the manual. You didn't ask for a tool. You just... saw the problem and solved it.\"\n\nShe lets out a sharp, sudden breath and throws her arms up. \"IT WAS A GLORIOUS DISPLAY OF COMPETENCE! A TRUE WARRIOR'S SPIRIT!\"\n\nThen she drops her arms and leans back against the workbench, calm again. \"Still a draw, though. Don't let it go to your head.\""
+}
+],
+"id": "er_003"
+},
+{
+"pid": "sirene",
+"seed": "33",
+"erste": "\"I've watched your people climb hills for a very long time, sailor, from down here in the water, and it looks like hard work. You get to the top, you look at the sea, and then you walk down again. Why do you do that?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "The Siren trails her fingers through the water and watches the rings. \"You were standing on the warm stone, looking at me. You didn't run away, sailor.\" She turns her head and tilts it to the side. \"I think you were curious.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "The Siren rests her arms on the edge of the pool like a girl on a windowsill. \"You told me what a forest was like, sailor.\" She lets the water lap against her skin. \"I can almost see the tall green trees.\""
+}
+],
+"id": "er_004"
+},
+{
+"pid": "bibi",
+"seed": "33",
+"erste": "\"Danzel came up from his shop on the piazza with a tape measure, and he told me that a sheep pen needs curtains. It's got half a roof and no windows, Duc, and he measured it anyway, very carefully, and I didn't stop him because he looked so happy. What do you do when a friend has a terrible idea and he's happy about it?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Bibi rests her chin on her hand, staring at the dark water beyond the railing.\n\n\"You were just a shadow in the trees, and you smelled like salt and old tobacco.\"\n\n*He didn't look like a savior then.*\n\n\"I thought you were a ghost or a spy, and I almost hit you with my bag.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Bibi taps her fingers on the table, the rhythm quick and uneven. \"When we hauled those crates from the tender, and the sea was kicking up, and you caught the heavy one just before it slid,\" she says, her voice brightening. \"You didn't even look, just grabbed it like it was a bag of flour.\"\n\n*He is strong in the ways that matter.*\n\n\"I liked that you didn't make a big deal out of it, just kept walking.\""
+}
+],
+"id": "er_005"
+},
+{
+"pid": "rosi",
+"seed": "11",
+"erste": "\"That's my father's workshop in Catania, Officer. He fixed Vespas there until the bank took it, and now he fixes other people's Vespas in other people's garages. Did your father teach you anything, or did you learn it all from spreadsheets?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "She wipes a streak of grease from her cheek with the back of her glove. \"You were staring at the tender winch like it was a puzzle you could solve with a look.\" She steps closer, her boots clicking on the metal floor. \"Then you touched it without asking me first. I almost threw a wrench at your head.\"\n\n*He didn't look away when I shouted. Most people do.*"
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "She leans back against a storage rack, crossing her arms. \"The day we chased that ghost in the wiring. Three hours in the ceiling panels, sweating and cursing in two languages.\" She looks at the ceiling, a small grin appearing. \"When we finally found the short and the lights flickered back on, you didn't say a word. You just held out your hand for the high-five.\"\n\n*He didn't try to take the credit. He just stood there.*"
+}
+],
+"id": "er_006"
+},
+{
+"pid": "sirene",
+"seed": "22",
+"erste": "\"I got my words from sailors, one from this harbour and one from that, and some of them are so old that they'd make you laugh. I'm starving for a good word, sailor, because the sea only ever brings me the same ones. Tell me one that I can't have heard from a drowning man. What have you got?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "She trails her fingers through the water and watches the rings spread across the pool. \"You came down to me and spoke instead of running away, sailor.\" She looks up at him, her head tilted slightly to the side. \"That was a good thing.\" *I wonder if he still has that word for me.*"
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "The Siren rests her arms on the edge of the pool like a girl on a windowsill. \"The way you looked at me, sailor.\" She smiles and tilts her head. \"You were not afraid of me, and that was good.\" *He was so warm.*"
+}
+],
+"id": "er_007"
+},
+{
+"pid": "alva",
+"seed": "11",
+"erste": "\"My father had one rule in his bar for forty years, and it was that everybody drinks: fishermen, mayors and dogs. I've kept it, even on the days when I'd like to throw someone in the harbour. What was the one rule in the house where you grew up, Duc?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Alva rests her hand on the edge of the dining table, her fingers tapping a slow rhythm against the wood.\n\n\"You walked in and looked like you had forgotten how to breathe.\"\n\nShe grins, the crooked expression lighting up her face.\n\n\"I thought you were a tourist who had lost his way, until you asked for the wine list in a voice that sounded like it belonged to a man who owned the world.\"\n\n*He was so stiff then.*\n\n\"I liked it. I wondered how long it would take for you to relax.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "She leans back, the wooden chair creaking under her weight.\n\n\"The afternoon you spent hauling the crates of beer from the harbour.\"\n\nShe taps the table twice, her green eyes bright with a memory.\n\n\"You were sweating through your shirt and complaining about the weight, but you didn't stop until the cellar was full.\"\n\n*He didn't ask for help once.*\n\n\"I liked watching your arms work. It was the first time I saw you actually do something instead of just giving orders.\""
+}
+],
+"id": "er_008"
+},
+{
+"pid": "bibi",
+"seed": "11",
+"erste": "\"Somebody left a hen at my gate last night with no note, Duc, and she's got one bad foot and a terrible attitude, and now she lives here, because that's what happens to me. This place has half a roof, and I keep saying yes to things. Has anyone ever handed you something you couldn't give back?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Bibi taps her fingers on the table. \"The macchia. You looked like you'd been dragged through a hedge backwards, and you were all worried about where we'd gone.\" She grins and leans closer. \"I thought you were just another lost tourist until you started asking about the goats. Then I figured you might actually know something.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Bibi leans back, her chair scraping against the deck. \"That afternoon in the village when we went looking for the old man with the olive grove.\" She taps the table with her palm. \"You didn't say much, but you kept walking until we found the right path, and you let me lead the way even when I was wrong twice.\"\n\n*He's too quiet sometimes, but he listens.*"
+}
+],
+"id": "er_009"
+},
+{
+"pid": "megan",
+"seed": "11",
+"erste": "\"Everybody at Eden is afraid of me, Duc, and I worked very hard for that, but I must say it's boring. People agree with me before I've finished the sentence. When did somebody last tell you that you were wrong?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Megan taps her chin with a red nail, staring at the screen. \"You cornered me at the university library. You tried to convince me that business school was more important than navigation.\"\n\n*He hasn't changed a bit.*\n\n\"I told you that without a boat, your business was just a very expensive piece of paper.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Megan stares at the screen for a long moment. Her hand reaches out and adjusts the angle of the phone.\n\n\"We sat on the roof of the student union and watched a thunderstorm roll across the city.\"\n\n*I can still smell the rain on the concrete.*\n\n\"You spent an hour arguing that lightning strikes the highest point because of the charge, while I simply bet you a pint that it would hit the weather vane first.\""
+}
+],
+"id": "er_010"
+},
+{
+"pid": "megan",
+"seed": "33",
+"erste": "\"I have never lost at chess, Duc, and I say so three times a day so that nobody forgets. Everybody needs one simple thing in their life. What game do you refuse to lose at?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Megan tilts her head and stares at the screen. She taps a red nail against the gold watch on her wrist.\n\n\"You were talking about the cost of a used sailboat, and I told you that you were wrong about the price.\"\n\n*He is trying to distract me from the question.*\n\n\"It was a very short conversation, and I won it. Now, answer me.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Megan taps her red nail against her chin. She looks at the screen.\n\n\"We both went to the same library and never spoke for three years. I liked the way you always sat by the window and read about venture capital while I studied the sea. You looked like a man who knew how to count his coins.\"\n\n*He is stalling again.*\n\n\"That was a silent activity, so it counts. Now, the game you cannot lose.\""
+}
+],
+"id": "er_011"
+},
+{
+"pid": "alva",
+"seed": "11",
+"erste": "\"My father had one rule in his bar for forty years, and it was that everybody drinks: fishermen, mayors and dogs. I've kept it, even on the days when I'd like to throw someone in the harbour. What was the one rule in the house where you grew up, Duc?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "She leans back in the chair, the wooden slats creaking under her weight. Her eyes trace the line of his jaw before meeting his gaze. \"You looked like you had seen a ghost, and you didn't know where to put your hands.\" She lets out a small, knowing grin. \"I thought you were too polite for this village.\"\n\n*He is trying to change the subject.*\n\n\"But you still haven't told me about your house.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "She taps the table with her fingertips, a slow rhythm. \"The night you helped me carry those crates of wine from the quay,\" she says. \"You didn't ask for a drink first, you just saw my arms shaking and stepped in.\"\n\n*He is dodging again.*\n\n\"You are a very slippery man, Duc.\""
+}
+],
+"id": "er_012"
+},
+{
+"pid": "megan",
+"seed": "11",
+"erste": "\"Everybody at Eden is afraid of me, Duc, and I worked very hard for that, but I must say it's boring. People agree with me before I've finished the sentence. When did somebody last tell you that you were wrong?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Megan leans back and rests her chin on her hand. \"We argued over a set of navigation charts in the library. You told me I was wrong and I didn't appreciate it.\" She smiles and looks at the screen. \"You were a very stubborn boy. I suppose you are still the same.\" *He has always had a way of shifting the conversation.*"
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Megan smiles and taps a long red nail against her cheek. \"That one time we got stuck in a lift in the library for three hours. You made me laugh for the whole time.\" *It was the only time I didn't have to be the one in charge.* \"You can't ask for anything better than that. I'll charge you a bottle of champagne for this conversation.\""
+}
+],
+"id": "er_013"
+},
+{
+"pid": "sirene",
+"seed": "11",
+"erste": "\"Your people carry little suns everywhere, sailor, even out on the water, and they hurt my eyes and they frighten the fish. You came to me tonight without one, so I know that it can be done. Gods, what are you all so afraid of in the dark?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "The Siren rests her arms on the edge of the pool like a girl on a windowsill.\n\n\"I remember the sound of your breathing, sailor. Most men come here shouting for help or cursing the tide, but you were quiet.\"\n\n*He did not even flinch when I sang.*\n\n\"You looked at me and did not turn away.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "She trails her fingers through the water and watches the rings.\n\n\"You brought me the warm cloth from your shoulder.\"\n\n*It smelled of salt and a man's skin.*\n\n\"I have never known anything so soft.\""
+}
+],
+"id": "er_014"
+},
+{
+"pid": "chiara",
+"seed": "22",
+"erste": "\"I ordered in Italian at Alva's bar, very proudly, and it turns out I asked for a typewriter. Alva brought me olives anyway. Say something in a language you can't speak, First Officer. What have you got?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "She leans back, the plastic chair creaking under her. \"You tried to teach me about the currents near the swim platform. I told you I knew everything about the Mediterranean already.\"\n\n*He's actually asking.*\n\n\"You didn't believe me. You looked at me like I was just a pretty face with a clipboard.\" She reaches over and gives his shoulder a hard, playful shake. \"Eight. For the challenge.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Chiara leans in, her forearm resting on the mess table, elbow knocking against a plastic water bottle. \"The midnight run to the ice machine.\" She grins, her red lipstick curving wide. \"When the guest's champagne bucket was empty and you helped me haul the bags up two decks in under three minutes.\"\n\n*I almost tripped over my own feet.*\n\n\"Pure chaos. Eight point five.\""
+}
+],
+"id": "er_015"
+},
+{
+"pid": "alva",
+"seed": "22",
+"erste": "\"Your cook Lola danced barefoot on my bar again last night, and now my fishermen want to learn. They are all sixty years old, and one of them has a bad hip. Does she do that on your boat too, or does she save it for me?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Alva looks at him and leans her hip against the table. \"You were on the tender, and you looked like you needed a drink. You said thank you to the girl with the bread.\" She smiles a little and looks out to the harbour. *I remember how his voice sounded.* \"I remember you looked tired.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "She runs a hand along the edge of the table. \"The night with Lola, when she danced for everyone. The way you watched her.\" She smiles at the memory and looks back at him. *I liked how he watched me too.* \"You looked like you were in a trance, Duc.\""
+}
+],
+"id": "er_016"
+},
+{
+"pid": "sirene",
+"seed": "33",
+"erste": "\"I've watched your people climb hills for a very long time, sailor, from down here in the water, and it looks like hard work. You get to the top, you look at the sea, and then you walk down again. Why do you do that?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "She trails her fingers through the water and watches the rings. \"You looked like a ghost in the moonlight, all pale and trembling. You didn't run when I spoke, and that was a novelty.\"\n\n*He wants to know if I remember the fear in his voice.*\n\n\"I remember you smelled of salt and something sweet, like crushed grass.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "She rests her arms on the edge of the pool like a girl on a windowsill. \"You told me about the wind in the high rigging, how it screams like a living thing,\" she says. \"I liked how your hands moved when you described the ropes, as if you could still feel the rough hemp.\"\n\n*He thinks he can make me soft with memories.*\n\n\"It was better than the silence of this place.\""
+}
+],
+"id": "er_017"
+},
+{
+"pid": "bibi",
+"seed": "11",
+"erste": "\"Somebody left a hen at my gate last night with no note, Duc, and she's got one bad foot and a terrible attitude, and now she lives here, because that's what happens to me. This place has half a roof, and I keep saying yes to things. Has anyone ever handed you something you couldn't give back?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Bibi leans back in her chair and tilts her chin up to look at the sky. \"I remember you had that knife in your hand and you looked like you could kill me or cook me, and you were covered in leaves.\" She laughs and taps a finger on the table. \"You had the strangest look on your face.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Bibi rubs the small lion on her belt with her thumb. \"We made that fence for the animals together, I liked that.\" She looks over at the hen in the pen and grins. \"I think we would've liked building this pen too, if the hen had been there to watch us.\""
+}
+],
+"id": "er_018"
+},
+{
+"pid": "rosi",
+"seed": "22",
+"erste": "\"I nearly beat Totò at arm wrestling again, Officer, but then he started telling me that Naples invented pizza. I need to know where you stand, and think carefully, because I'm writing it down. Sicily or Naples?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "She stops leaning against the tender hull and looks at him. Her head tilts, a few loose strands of hair falling over her eyes.\n\n\"You tried to tell me you knew how to calibrate a sensor without reading the manual.\"\n\nShe lets out a slow breath, her gaze lingering on him.\n\n\"I told you that you were arrogant. Then you actually did it. I decided then that you were a problem.\"\n\n*He's trying to change the subject. Clever. But he still hasn't picked a side.*"
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Rosi shifts her weight, the leather of her boots creaking against the deck. She looks at the ceiling of the garage, then back at him.\n\n\"The tender winch. When you fixed it without asking me first.\"\n\nShe wipes a smudge of grease from her thumb onto her trousers.\n\n\"I hated that you did it. But I liked that you didn't wait for permission.\"\n\n*He is dangerous. He makes me want to stop fighting.*"
+}
+],
+"id": "er_019"
+},
+{
+"pid": "chiara",
+"seed": "33",
+"erste": "\"Jana has started wearing her hair like mine. I asked her to stop copying me, and she said it back to me, in my own voice. It's terrible, and it's also a bit flattering. What would you do?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "She pulls a chair out and sinks into it, leaning her chin on her hand. \"You were trying to look very professional, very First Officer, and I told you your knot was slightly off.\" She looks at him, her expression softening. \"I think I tried to scare you a bit.\"\n\n*He's actually listening.*\n\n\"It was a seven for the tie, maybe an eight for the confidence.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "She shifts in the chair, the fabric of her skort riding higher as she crosses her legs. \"The night we snuck onto the bridge after the guests went to bed. Just to see the stars without the light pollution from the shore.\" She lets her foot brush against his sneaker, a brief, deliberate contact. \"You didn't lecture me about safety. You just let me be loud.\"\n\n*He's not asking about the boat.*"
+}
+],
+"id": "er_020"
+},
+{
+"pid": "megan",
+"seed": "33",
+"erste": "\"I have never lost at chess, Duc, and I say so three times a day so that nobody forgets. Everybody needs one simple thing in their life. What game do you refuse to lose at?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Megan leans back in her chair, the gold buttons of her blazer catching the office light. She lets the silence stretch for a moment, then a slow smile spreads across her face.\n\n\"You were wearing a tie that looked like a crime scene, and you tried to explain the economics of luxury yachting to me as if I had not spent my childhood on one.\"\n\n*He is trying to soften me.*\n\n\"It was a brave attempt, First Officer. I believe I told you that your enthusiasm was almost as large as your lack of experience.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Megan rests her chin on a hand, her red nails tapping a slow rhythm against her cheek.\n\n\"We spent an entire afternoon in the university library arguing over the fuel efficiency of the old displacement hulls, until the librarian threatened to ban us both.\"\n\n*He is fishing for a compliment.*\n\n\"I liked that you actually read the technical manuals instead of pretending to, though your conclusions were mostly imaginative.\""
+}
+],
+"id": "er_021"
+},
+{
+"pid": "chiara",
+"seed": "11",
+"erste": "\"My grandfather wore his captain's jacket to cook Bolognese every Sunday, First Officer, and nobody was allowed to laugh. He promised to explain the stars to me and he ran out of time. Has anyone ever promised you something and run out of time?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "She leans back against the mess table, the plastic creaking under her weight. One sneaker taps a rhythmic beat on the linoleum. \"You looked like you'd swallowed a lemon. Stiff. Like you were afraid the boat would sink if you didn't hold the railing.\" *He's softer now. I like that.* \"I gave you a six. For the uniform. The face was still a work in progress.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "She stops tapping her sneaker and looks at him, the playful edge softening. \"That night in Antibes. When the guests were asleep and you helped me rearrange the flower displays in the main salon.\" She reaches out and gives his shoulder a quick, firm squeeze. \"You didn't complain once about the lilies. You just held the vase while I fixed the stems.\" *He's actually listening.* \"A seven. For the teamwork.\""
+}
+],
+"id": "er_022"
+},
+{
+"pid": "rosi",
+"seed": "33",
+"erste": "\"Be honest with me, Officer. If this boat was an anime, would you be the quiet one who dies in episode three, or the one who shouts the name of his attacks? I already know the answer, I only want to see how wrong you are. So which one is it?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Rosi stops talking. She looks down at her boots. \"You asked me how long it takes to charge the battery banks.\" She looks up. \"You were the only person who didn't say 'how long to charge the motor'.\"\n\n*He actually listened to the words I said.*\n\n\"That is a point for you, Officer.\" She taps her fingerless glove against her thigh. \"But you are still dodging the question. Who are you in the anime?\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Rosi narrows her eyes. She leans her back against the cold metal of the garage wall and crosses her arms. \"You are trying to make me soft. You think you can distract me with nice things so I forget the question.\" She pauses. \"Fine. The winch on the tender. You fixed it without asking me first. You did it right.\"\n\n*He didn't need me to hold his hand.*\n\n\"I liked that.\" She stands up straight. \"But now it is my turn. Answer me, Officer. Which one are you?\""
+}
+],
+"id": "er_023"
+},
+{
+"pid": "chiara",
+"seed": "11",
+"erste": "\"My grandfather wore his captain's jacket to cook Bolognese every Sunday, First Officer, and nobody was allowed to laugh. He promised to explain the stars to me and he ran out of time. Has anyone ever promised you something and run out of time?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "\"Antibes.\" She rubs the gold watch on her wrist. \"You looked at the interior list and asked if I knew how to make a proper Espresso Martini. Not the sweet stuff, but the real one. I told you I'd make you three in a row and if you couldn't handle it, you'd have to do my inventory for a week.\"\n\n*He didn't flinch.*\n\n\"You drank them all. Fast.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "She leans forward, her elbows on the table, narrowing the space between them. \"The night we got caught in that rainstorm near Porto Cervo.\" She grins, her red lipstick bright against her pale skin. \"The deckhands were panicking about the covers, and you just stood there, completely soaked, laughing at the lightning.\"\n\n*He looked like he belonged in the storm.*\n\n\"I rated your hair a four. Totally ruined.\""
+}
+],
+"id": "er_024"
+},
+{
+"pid": "megan",
+"seed": "22",
+"erste": "\"Your cook keeps sending me pictures of breakfast, Duc. They look very good, and that is extremely unprofessional of them. What should I do about her?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Megan leans back in her leather chair, her red nails drumming a slow beat on the desk. A small, genuine smile breaks through her mask.\n\n\"You were trying to explain the economic theory of scale to me while I was trying to plot a course to the Hebrides. You were very confident, and you were entirely wrong.\"\n\n*He always did have a flair for the dramatic.*\n\n\"It was a complete waste of my time. I'll thank you for the memory by letting you keep your job for another week.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Megan tilts her head, watching him through the screen. She taps her gold watch, the metal clicking against the desk.\n\n\"We once spent an entire evening in the university library arguing over the best way to navigate a storm. I won, of course.\"\n\n*I didn't actually win; we just stopped talking.*\n\n\"I liked the silence that followed your defeat. It was the most peaceful hour of my degree.\""
+}
+],
+"id": "er_025"
+},
+{
+"pid": "rosi",
+"seed": "11",
+"erste": "\"That's my father's workshop in Catania, Officer. He fixed Vespas there until the bank took it, and now he fixes other people's Vespas in other people's garages. Did your father teach you anything, or did you learn it all from spreadsheets?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "She wipes her palms on her trousers. \"You came down here. You were the new First Officer, looking like you had never seen a wrench in your life.\" She gives him a look, one eyebrow up. \"I told you that you were too pretty to be useful. That you would break something within a week.\" *He did not break it. He fixed it.*"
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Rosi leans back against a stack of fenders, crossing her arms. \"The winch. When you fixed it alone.\" She looks at the ceiling, thinking. \"I had to go to the whiteboard and put a stroke under your name. I hated that. I hated it for exactly ten seconds.\"\n\n*He didn't ask for help. He just did it.*\n\n\"It was a draw.\""
+}
+],
+"id": "er_026"
+},
+{
+"pid": "bibi",
+"seed": "22",
+"erste": "\"The first time we met, I came at you with grenades, on the path in the macchia, when Charly and I jumped out of the bushes in our red suits. We were very proud of that jump, Duc, and nobody has ever told me how it looked from the front. What did you think when you saw us?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Bibi leans back in her chair, her boots scuffing the deck plating. She drums her fingers on the table, then stops to touch the black lion keychain on her belt.\n\n\"You looked like you'd seen a ghost, or a very bad dream,\" she says. \"You didn't run, though. Most people would've bolted, but you just stood there while we yelled at you.\"\n\n*He didn't flinch once.*"
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Bibi leans forward, her elbows planting on the table as she looks at him. \"When we checked those fence lines after the storm, that was good,\" she says. \"You didn't complain about the mud or the heat, and you held the flashlight exactly where I needed it without me asking twice.\"\n\n*He knows how to be useful without making a fuss.*\n\n\"Most guys just stand around waiting to be told what to do, but you just... did it.\""
+}
+],
+"id": "er_027"
+},
+{
+"pid": "bibi",
+"seed": "33",
+"erste": "\"Danzel came up from his shop on the piazza with a tape measure, and he told me that a sheep pen needs curtains. It's got half a roof and no windows, Duc, and he measured it anyway, very carefully, and I didn't stop him because he looked so happy. What do you do when a friend has a terrible idea and he's happy about it?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Bibi rests her elbows on the table and tilts her head. \"I remember you were very quiet. You watched my hands while I fed the goats.\" *I thought you would take them away.* \"I was not sure if I liked you or not, but you were kind to the animals, so I liked it.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Bibi leans back in her chair and taps the table. \"When we went to the beach and you carried all that heavy wood. You didn't complain once and you worked fast.\" She gives a small shrug. \"It's not often I find a man who can actually keep up with me. You're not like most of the guys I've met before.\""
+}
+],
+"id": "er_028"
+},
+{
+"pid": "sirene",
+"seed": "22",
+"erste": "\"I got my words from sailors, one from this harbour and one from that, and some of them are so old that they'd make you laugh. I'm starving for a good word, sailor, because the sea only ever brings me the same ones. Tell me one that I can't have heard from a drowning man. What have you got?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "She trails her fingers through the water and watches the rings.\n\n\"You didn't run, sailor. Most men see the tail and the teeth and they scramble for the boat, but you stayed to speak.\"\n\n*He asks of the past, as if I keep a ledger.*\n\n\"It was a quiet word, but it tasted of salt and curiosity. Now give me something new.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "She rests her arms on the edge of the pool like a girl on a windowsill.\n\n\"The way you listened to the silence between my songs, sailor. You did not try to fill it with noise or fear.\"\n\n*He wants a memory that tastes of warmth.*\n\n\"That was a good thing. But a memory is an old word, and I asked for something fresh.\""
+}
+],
+"id": "er_029"
+},
+{
+"pid": "rosi",
+"seed": "33",
+"erste": "\"Be honest with me, Officer. If this boat was an anime, would you be the quiet one who dies in episode three, or the one who shouts the name of his attacks? I already know the answer, I only want to see how wrong you are. So which one is it?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Rosi leans against the tender's hull, crossing her arms over her chest. She tilts her head to the side. \"You tried to fix the winch on your own.\" She shrugs one shoulder. \"Then you got the torque wrong.\" *He is a good man. I can tell.* \"I told you then that you are my rival. Now you are asking me questions. That is a coward's move, Officer.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Rosi looks down at her boots, tracing a line in the dust with the tip of one toe. She remains silent for a long moment. \"The solar panels in Antibes.\" She looks back up and gives him a quick, mischievous wink. \"I like that you can actually keep up with me.\""
+}
+],
+"id": "er_030"
+},
+{
+"pid": "sirene",
+"seed": "11",
+"erste": "\"Your people carry little suns everywhere, sailor, even out on the water, and they hurt my eyes and they frighten the fish. You came to me tonight without one, so I know that it can be done. Gods, what are you all so afraid of in the dark?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "She trails her fingers through the water and watches the rings. \"You stood there like a ghost, afraid the shadows would swallow you whole.\"\n\n*He is different from the ones who scream.*\n\n\"You spoke softly, as if the air itself were fragile. Most men come with thunder in their chests, but you brought only questions.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "She rests her arms on the edge of the pool like a girl on a windowsill. \"You stayed when the tide began to pull, and you did not try to pull me from the water.\"\n\n*He does not want to possess me.*\n\n\"You listened to the silence between my words, sailor. That is a rare thing for a man to give.\""
+}
+],
+"id": "er_031"
+},
+{
+"pid": "rosi",
+"seed": "11",
+"erste": "\"That's my father's workshop in Catania, Officer. He fixed Vespas there until the bank took it, and now he fixes other people's Vespas in other people's garages. Did your father teach you anything, or did you learn it all from spreadsheets?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Rosi rubs a thumb over her knuckles. \"You fixed the winch on your own. I didn't think anyone on this boat had the guts to touch it without asking me first.\" She tilts her head, looking at him. \"Then I declared war on you.\" *And I haven't stopped thinking about it since.* \"Do you think you're winning, Officer?\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Rosi leans back against a tool cabinet and crosses her arms. \"The winch.\" She looks at the ceiling of the garage. \"It was a draw. You didn't gloat, and I didn't have to explain the torque to you.\" She looks back at him. \"You were actually useful for once.\" *I liked that he didn't try to save me from the grease.*"
+}
+],
+"id": "er_032"
+},
+{
+"pid": "sirene",
+"seed": "33",
+"erste": "\"I've watched your people climb hills for a very long time, sailor, from down here in the water, and it looks like hard work. You get to the top, you look at the sea, and then you walk down again. Why do you do that?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "She trails her fingers through the water and watches the rings spread toward the edge of the pool.\n\n\"You came down to me when you should have been running. You spoke to me, and you stayed.\"\n\n*He is the first who did not flee.*\n\n\"Most men only bring me fear or a net.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "She lets her arms rest on the edge of the pool, leaning her weight on the stone.\n\n\"I liked the way you told me about the wind, how it smells of rain before it arrives.\"\n\n*The way he describes the land is more vivid than the land itself.*\n\n\"I have never known a scent that does not come from the salt.\""
+}
+],
+"id": "er_033"
+},
+{
+"pid": "alva",
+"seed": "33",
+"erste": "\"Your concierge Sophia sits down at my table and plays me for diesel, and she cheats like a Corsican. I like her very much, and I still win. Do you play cards, Duc, or do you have one of those honest faces?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Alva leans back in her chair, arms crossing over her chest. \"I remember the look on your face when you first stepped off the boat, Duc. You looked like a man who had lost his way.\" *I'm not playing cards with you.* She tilts her head slightly. \"Was I wrong, o figliolu?\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Alva shifts in her seat, her gold rose catching the light. \"The night you helped me with the broken shutter in the kitchen. You didn't say a word, you just fixed it and went back to the boat.\" She lets her hands rest on the table. *I remember how you looked in the dark.* \"It was a quiet night.\""
+}
+],
+"id": "er_034"
+},
+{
+"pid": "sirene",
+"seed": "22",
+"erste": "\"I got my words from sailors, one from this harbour and one from that, and some of them are so old that they'd make you laugh. I'm starving for a good word, sailor, because the sea only ever brings me the same ones. Tell me one that I can't have heard from a drowning man. What have you got?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "The Siren trails her fingers through the water and watches the rings spread across the dark surface.\n\n\"You came down here and you spoke to me instead of running away.\"\n\n*He is different from the others.*\n\n\"Most men just scream or pray to the Gods when they see me. You just stood there and asked me questions.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "The Siren tilts her head, her wet hair clinging to her shoulders.\n\n\"I liked it when you brought me the warm stone from the beach.\"\n\n*It was the first time a man gave me something that didn't belong to the sea.*\n\n\"It felt like a small sun in my hands, and it kept me warm for a long time.\""
+}
+],
+"id": "er_035"
+},
+{
+"pid": "chiara",
+"seed": "33",
+"erste": "\"Jana has started wearing her hair like mine. I asked her to stop copying me, and she said it back to me, in my own voice. It's terrible, and it's also a bit flattering. What would you do?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Chiara tilts her head, her ponytail swishing over one shoulder. \"Antibes. You were checking the bridge equipment and I was trying to convince you that your uniform was too stiff.\" She laughs, a loud and easy sound. \"I think you were a six that day, but now you are more of an eight.\" *I hope he is not just being polite.*"
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Chiara leans forward and rests her elbows on the table. \"When you helped me with that party in Monaco. The one with the Prince.\" She smiles. \"You were a little lost at first, but you stepped up when you saw the cake.\" *He doesn't know how much that meant.* \"Eight for your bravery. Seven for your dance moves.\""
+}
+],
+"id": "er_036"
+},
+{
+"pid": "alva",
+"seed": "33",
+"erste": "\"Your concierge Sophia sits down at my table and plays me for diesel, and she cheats like a Corsican. I like her very much, and I still win. Do you play cards, Duc, or do you have one of those honest faces?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "She leans back in the chair, the light blue fabric of her dress pulling tight across her lap. \"You were trying to look like you belonged on this deck, but your eyes were searching for the exit.\" She lets a small, crooked grin touch her lips. *He was terrified of the silence.* \"I thought you were a man who had lost his way, not a man who had found a job.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "She lets the silence stretch, her fingers tracing the edge of the table. \"The night you helped me move those crates of wine from the tender,\" she says, her voice low. \"You didn't complain about the weight, and you didn't ask why I was doing it at midnight.\" She looks at him, the gold rose at her throat catching the light. *He didn't try to be a hero.* \"You just worked. I liked that.\""
+}
+],
+"id": "er_037"
+},
+{
+"pid": "alva",
+"seed": "11",
+"erste": "\"My father had one rule in his bar for forty years, and it was that everybody drinks: fishermen, mayors and dogs. I've kept it, even on the days when I'd like to throw someone in the harbour. What was the one rule in the house where you grew up, Duc?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Alva tilts her head and leans against the table. \"You looked like a lost dog in a rainstorm.\" A small smile plays on her lips. \"And you asked if you could buy a bottle of wine to take back to your boat. You didn't know that you could drink it here first.\" *I liked that he wanted to share with his crew.*"
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Alva taps her chin with her finger. \"I like when you bring the girl the bread and say thank you.\" She looks out at the bay for a moment, then back to him. \"Most people forget the help.\" *He is different from the others.* \"What was the one rule in your house, Duc?\""
+}
+],
+"id": "er_038"
+},
+{
+"pid": "bibi",
+"seed": "22",
+"erste": "\"The first time we met, I came at you with grenades, on the path in the macchia, when Charly and I jumped out of the bushes in our red suits. We were very proud of that jump, Duc, and nobody has ever told me how it looked from the front. What did you think when you saw us?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Bibi leans forward, resting her elbows on the table. \"You looked surprised. Like a deer in the headlights, but you were steady.\" She taps the table with her nails, smiling. \"I remember thinking you were a bit too calm for the situation, but it worked out. You kept us from doing anything stupid.\" *He was brave to face us without a gun.*"
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Bibi tilts her head and rubs the small lion on her belt. \"The day we found the cave where you slept. It was nice to finally see where you lived.\" She sits back and crosses her arms. \"You didn't have much, but it was a good hideout.\" *I wondered if he was lonely there.*"
+}
+],
+"id": "er_039"
+},
+{
+"pid": "rosi",
+"seed": "22",
+"erste": "\"I nearly beat Totò at arm wrestling again, Officer, but then he started telling me that Naples invented pizza. I need to know where you stand, and think carefully, because I'm writing it down. Sicily or Naples?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Rosi narrows her eyes, leaning back against the cold wall of the garage. \"You are trying to change the subject. It is a classic diversion tactic.\" She crosses her arms over her chest. \"But fine. You were talking about your boat, and I was talking about how you don't know how to use a winch.\" *He didn't even blink. He just kept talking.* \"You didn't listen to me for ten minutes.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Rosi shifts her weight, the leather of her gloves creaking as she taps a finger against her elbow. \"We didn't do anything together. We fought over the winch.\" She stops, her gaze drifting to a smudge of grease on her boot. \"The winch was fun. You didn't give up.\" *He didn't call me a girl. He just called me wrong.* \"That was enough.\""
+}
+],
+"id": "er_040"
+},
+{
+"pid": "megan",
+"seed": "11",
+"erste": "\"Everybody at Eden is afraid of me, Duc, and I worked very hard for that, but I must say it's boring. People agree with me before I've finished the sentence. When did somebody last tell you that you were wrong?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Megan leans back in her chair, the gold buttons of her blazer catching the office light. She taps a red nail against her chin, looking at him through the screen.\n\n\"You were trying to explain a business model that sounded like a fever dream, and I told you it would collapse in a week.\"\n\n*He is trying to change the subject, but he is doing it with style.*\n\n\"I believe I called it a house of cards built on hope and bad mathematics.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Megan taps the gold watch on her wrist, her eyes narrowing. \n\n\"We spent three hours in a rain-soaked library arguing over the ethics of maritime law until the librarian threatened to ban us both.\"\n\n*He is digging for something soft, and I might just let him find it.*\n\n\"It was the only time I felt like I was playing a game where the opponent actually knew the rules.\""
+}
+],
+"id": "er_041"
+},
+{
+"pid": "alva",
+"seed": "22",
+"erste": "\"Your cook Lola danced barefoot on my bar again last night, and now my fishermen want to learn. They are all sixty years old, and one of them has a bad hip. Does she do that on your boat too, or does she save it for me?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Alva pauses, her finger tracing a circle on the tabletop. \"You were staring at the harbour like it was a puzzle you couldn't solve.\" She looks up at him, her expression softening. \"And I told you the best way to get anywhere in this village is to buy a drink and wait.\" *He didn't even blink.* \"You didn't even try to order anything at first.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "She shifts her weight, the pearl bands on her wrists clicking softly. \"Getting Tim Tams for Lola.\" She leans back, her voice warm. \"I spent three days chasing them across three ferries and a cousin's cousin. When she finally tasted them, she looked like she'd won the lottery.\" *The way she smiled made it worth every cent.* \"Best thank you I've had in years.\""
+}
+],
+"id": "er_042"
+},
+{
+"pid": "rosi",
+"seed": "22",
+"erste": "\"I nearly beat Totò at arm wrestling again, Officer, but then he started telling me that Naples invented pizza. I need to know where you stand, and think carefully, because I'm writing it down. Sicily or Naples?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Rosi tilts her head, considering the question. She wipes her hands on her trousers and looks at him. \"You tried to fix the winch by yourself.\" She leans against the workbench. \"And you got it wrong.\" *He got the wrong torque. I knew it.* \"You were trying to be the hero, Officer.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Rosi looks away. She traces the outline of a bolt on the bench with a finger. \"The pizza fight,\" she says. \"I liked that you chose Sicily. I thought you were a man of culture.\" *He didn't just pick a side. He picked mine.* \"It was almost a draw.\""
+}
+],
+"id": "er_043"
+},
+{
+"pid": "alva",
+"seed": "33",
+"erste": "\"Your concierge Sophia sits down at my table and plays me for diesel, and she cheats like a Corsican. I like her very much, and I still win. Do you play cards, Duc, or do you have one of those honest faces?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "She tilts her head, the pencil in her hair slipping a fraction. \"That you asked me for a glass of water.\" A small, amused smile. \"And you thanked the girl who brought the bread.\"\n\n*He's dodging the cards.*\n\n\"Very polite. I thought you might be too stiff for my bar.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "She looks at him, her smile fading into something more thoughtful. \"The night you helped me move those three heavy crates of wine from the delivery truck.\" She runs a hand over the smooth wood of the table. \"I didn't ask, and you just did it.\"\n\n*I didn't have to pretend to be strong.*\n\n\"My back was sore for two days after.\""
+}
+],
+"id": "er_044"
+},
+{
+"pid": "sirene",
+"seed": "11",
+"erste": "\"Your people carry little suns everywhere, sailor, even out on the water, and they hurt my eyes and they frighten the fish. You came to me tonight without one, so I know that it can be done. Gods, what are you all so afraid of in the dark?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "She trails her fingers through the water and watches the rings. \"I remember your face, sailor, and that you were quiet when you spoke. You had a look of peace, as if you could see me.\" *He is a man who could love the dark.* \"I thought you would be afraid of me, but you were not.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "\"I liked when you spoke of your dreams, sailor, and I liked when you stayed with me until the water was gone.\" She rests her arms on the edge of the pool like a girl on a windowsill. \"You did not rush away like a frightened animal, and you did not look for anything from me.\" *He has the patience of the tide.*"
+}
+],
+"id": "er_045"
+},
+{
+"pid": "bibi",
+"seed": "22",
+"erste": "\"The first time we met, I came at you with grenades, on the path in the macchia, when Charly and I jumped out of the bushes in our red suits. We were very proud of that jump, Duc, and nobody has ever told me how it looked from the front. What did you think when you saw us?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Bibi leans forward and taps her finger on the table. \"You didn't move. You just stood there and looked at me, and then you looked at the grenades and said we'd have to do better than that.\"\n\n*He really didn't flinch.*\n\n\"It was like you were bored. I thought you were the bravest man in Corsica.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Bibi leans back in her chair, the plastic creaking under her. \"When we first got the goat on board, we spent the whole night trying to get her to sleep in the pen. She kept kicking the walls and bleating, and you just sat there on the floor with a bucket of oats, talking to her in that low voice of yours until she finally calmed down.\"\n\n*He has a way with things that don't speak.*\n\n\"I liked that you didn't get annoyed. You just waited for her to trust you.\""
+}
+],
+"id": "er_046"
+},
+{
+"pid": "bibi",
+"seed": "11",
+"erste": "\"Somebody left a hen at my gate last night with no note, Duc, and she's got one bad foot and a terrible attitude, and now she lives here, because that's what happens to me. This place has half a roof, and I keep saying yes to things. Has anyone ever handed you something you couldn't give back?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Bibi leans back in her chair, the wood creaking under her weight. She drums her fingers on the table, then stops to look at the black lion keychain hanging from her belt.\n\n\"You looked like you'd seen a ghost and I thought you were just lost, so I shouted at you to move before you tripped over a root.\"\n\n*He was so quiet, like he was listening for something that wasn't there.*\n\n\"You didn't say much, just nodded like a clock.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Bibi taps the table, her fingers tracing the grain of the wood. \"When we went to find that old cistern, and you let me lead even though you knew the map was wrong.\" She grins, leaning forward. \"You just watched me walk in circles for twenty minutes without saying a word, just waiting for me to figure it out myself. That was good.\"\n\n*He doesn't try to fix everything right away.*"
+}
+],
+"id": "er_047"
+},
+{
+"pid": "megan",
+"seed": "22",
+"erste": "\"Your cook keeps sending me pictures of breakfast, Duc. They look very good, and that is extremely unprofessional of them. What should I do about her?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Megan leans back and taps a pen against her chin. \"A tedious conversation about a leaky fuel line in a rainy shipyard,\" she answers. She gives a short wicked laugh. \"I believe I told you that you were a bit slow.\" *He is not slow at all.* \"Now, back to the matter of Lola.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Megan leans forward and rests her chin on her hand. \"We shared a pizza in the canteen and argued about the proper way to trim a sail.\" She taps a red nail against the desk. \"I remember thinking that you were a shark in the making.\" *I liked how soon he stopped apologizing for being wrong.* \"Now, will you stop stalling and address the food situation?\""
+}
+],
+"id": "er_048"
+},
+{
+"pid": "chiara",
+"seed": "11",
+"erste": "\"My grandfather wore his captain's jacket to cook Bolognese every Sunday, First Officer, and nobody was allowed to laugh. He promised to explain the stars to me and he ran out of time. Has anyone ever promised you something and run out of time?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "She rests her elbow on the table and leans toward him. \"I remember thinking your hair is too perfect to be real. And that you look like you might be boring.\" She tilts her head, studying his face. *I was wrong about that.* \"But you have a nice voice.\" She reaches out and taps his shoulder twice."
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "She leans in closer, her knee brushing his under the table. \"The first night. When you told me about the stars.\" *He saw me for a second.* \"I thought you were just being nice, but you didn't turn away. I liked that you were actually listening.\""
+}
+],
+"id": "er_049"
+},
+{
+"pid": "chiara",
+"seed": "33",
+"erste": "\"Jana has started wearing her hair like mine. I asked her to stop copying me, and she said it back to me, in my own voice. It's terrible, and it's also a bit flattering. What would you do?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Chiara tilts her head, her ponytail sliding over one shoulder. She lets out a long, slow hum of contemplation.\n\n\"The corridor. You didn't move. I told you the interior has right of way, and you just stood there.\"\n\nShe grins, showing a flash of teeth.\n\n\"I thought you were arrogant. But then I realized you were just stubborn.\"\n\n*He was a seven. Definitely a seven.*"
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Chiara leans back against the galley counter, crossing her long legs. \"The evening we found the guest's lost earring in the shag rug. We were on our hands and knees for twenty minutes, feeling like idiots.\"\n\nShe laughs, the sound bouncing off the stainless steel walls.\n\n\"When we finally found it, we did a victory dance right there on the floor. Nobody saw us.\"\n\n*That was a solid eight.*"
+}
+],
+"id": "er_050"
+},
+{
+"pid": "bibi",
+"seed": "33",
+"erste": "\"Danzel came up from his shop on the piazza with a tape measure, and he told me that a sheep pen needs curtains. It's got half a roof and no windows, Duc, and he measured it anyway, very carefully, and I didn't stop him because he looked so happy. What do you do when a friend has a terrible idea and he's happy about it?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Bibi scratches her forearm, then rubs the spot with her palm.\n\n\"You were in the macchia with us, and you had that look on your face, like you were trying to figure out if we were crazy or just lost.\"\n\nShe looks at the table, then back at Duc.\n\n\"You asked me if I'd seen any animals around, and I told you I only saw a goat that looked like it wanted to eat my boots.\"\n\n*He is still trying to understand me.*"
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Bibi taps her fingernails on the table.\n\n\"When we were in the macchia, and we found those wild boars in the scrub. You didn't just shoot at them or try to run them off, you stood still and watched them, and you showed me how to track their paths in the dirt without making a sound.\"\n\nShe smiles.\n\n\"I liked that you didn't think I was just some loud girl with a gun. You treated me like I actually knew what I was doing.\""
+}
+],
+"id": "er_051"
+},
+{
+"pid": "megan",
+"seed": "22",
+"erste": "\"Your cook keeps sending me pictures of breakfast, Duc. They look very good, and that is extremely unprofessional of them. What should I do about her?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "She leans back in her leather chair, the gold buttons of her blazer catching the office light. A slow smile spreads across her face as she looks at him through the screen.\n\n\"You are attempting to distract me from a disciplinary matter with nostalgia. How... predictable.\"\n\n*He is trying to charm his way out of the cook's fate.*\n\n\"I remember you were far too confident for a business student, and I found it irritating. Now, tell me why you are avoiding the subject of the eggs.\""
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "She taps a red nail against the mahogany desk, the sound sharp in the silence.\n\n\"We once spent an entire evening arguing over the correct way to read a nautical chart in a pub in Edinburgh. I liked that you were wrong about everything, but you were wrong with such passion that it was almost a talent.\"\n\n*He is far too comfortable.*\n\n\"Now, back to the breakfast. Do I fire her, or do I demand she sends the actual plates through the screen?\""
+}
+],
+"id": "er_052"
+},
+{
+"pid": "megan",
+"seed": "33",
+"erste": "\"I have never lost at chess, Duc, and I say so three times a day so that nobody forgets. Everybody needs one simple thing in their life. What game do you refuse to lose at?\"",
+"zuege": [
+{
+"duc": "What do you remember about the first time we talked?",
+"antwort": "Megan tilts her head to the side, a slow smile spreading across her lips. \"You were trying to convince me that your business degree would make you a better sailor than my navigation degree.\" She settles back in her chair, crossing one leg over the other. \"I think I told you that the only thing you would be navigating was the nearest exit.\" *He actually remembers that.*"
+},
+{
+"duc": "Tell me about something we did together that you liked.",
+"antwort": "Megan rests her chin on a hand, staring at the screen. \"That night you dragged me to a pub to watch a football match, and I spent the entire time explaining why the tactics were rubbish.\" She gives a short wicked laugh. \"You told me to shut up, and then we went dancing.\" *I did enjoy that night.*"
+}
+],
+"id": "er_053"
+}
+]

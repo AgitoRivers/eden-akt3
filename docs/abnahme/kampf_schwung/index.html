@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ducs Schlag · Abnahme</title>
+<style>
+:root{--bg:#14161b;--karte:#1d2028;--linie:#2e3340;--text:#e7e4dc;--leise:#a3a7b3;--gold:#d8b46a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 "Segoe UI",system-ui,sans-serif}
+main{max-width:1280px;margin:0 auto;padding:28px 20px 60px}
+h1{font-size:28px;margin:0 0 4px;color:var(--gold);font-weight:600}
+.unter{color:var(--leise);margin-bottom:18px}
+.leiste{display:flex;gap:10px;align-items:center;margin:10px 0 18px;flex-wrap:wrap}
+button{background:#262a33;color:var(--text);border:1px solid var(--linie);border-radius:6px;padding:6px 12px;cursor:pointer;font:inherit}
+button[aria-pressed=true]{border-color:var(--gold);color:var(--gold)}
+.raster{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:12px}
+.karte{background:var(--karte);border:1px solid var(--linie);border-radius:10px;padding:10px}
+.karte h3{margin:0 0 6px;font-size:15px;font-weight:600}
+.buehne{position:relative;height:230px;background:radial-gradient(ellipse at 50% 90%,#2a2e38,#181a20 70%);border-radius:6px;overflow:hidden}
+.buehne img{position:absolute;bottom:0;height:100%;left:50%;transform:translateX(-50%)}
+.boden{position:absolute;left:0;right:0;border-top:1px dashed rgba(216,180,106,.35)}
+.klein{font-size:12.5px;color:var(--leise)}
+</style>
+</head>
+<body>
+<main>
+<h1>Ducs Schlag im Kampf</h1>
+<div class="unter">Duc 03.11.2026 · 22 Bildfolgen aus <code>eden-duc-heavy-20261103-v1</code>, eingepasst mit <code>werkzeuge/kampf_schwung.py</code> · Takt 380 · 100 · 70 · 50 · 70 · 500 ms, danach Ruhepose. Gestrichelt: Bodenlinie der Posen.</div>
+<div class="leiste">
+  <button id="takt" aria-pressed="true" onclick="langsam(false)">Spieltakt</button>
+  <button id="lahm" aria-pressed="false" onclick="langsam(true)">4× langsamer</button>
+  <span class="klein">Jede Karte: Ruhepose (idle) → sechs Schlag-Bilder → Ruhepose. Bild e ist der Moment, in dem im Kampf die Schadenszahl erscheint.</span>
+</div>
+<div class="raster" id="raster"></div>
+</main>
+<script>
+const SETS = ["DucErdeBat","DucErdeKnife","DucErdeMop","DucErdeSpear","DucErdeSword","DucWasserBat","DucWasserKnife","DucWasserSpear","DucWasserSword",
+  "DucFeuerBat","DucFeuerKnife","DucFeuerSpear","DucFeuerSword","DucLuftBat","DucLuftKnife","DucLuftSpear","DucLuftSword",
+  "DucCyberBat","DucCyberKnife","DucCyberSpear","DucCyberSword","DucTauchKnife"];
+const BILDER = ["idle","schwung_a","schwung_b","schwung_c","schwung_d","schwung_e","schwung_f"];
+const MS = [900, 380, 100, 70, 50, 70, 500];
+const PFAD = s => `../../../module/eden_rise/kampf/${s}/`;
+let faktor = 1;
+function langsam(an){ faktor = an ? 4 : 1; document.getElementById("lahm").setAttribute("aria-pressed", an); document.getElementById("takt").setAttribute("aria-pressed", !an); }
+const raster = document.getElementById("raster");
+SETS.forEach(s => {
+  const k = document.createElement("div"); k.className = "karte";
+  k.innerHTML = `<h3>${s.replace(/^Duc/, "")}</h3><div class="buehne"><img alt=""><div class="boden" style="bottom:${(900-882)/900*100}%"></div></div><div class="klein">–</div>`;
+  raster.appendChild(k);
+  const img = k.querySelector("img"), info = k.querySelector(".klein");
+  BILDER.forEach(b => { const i = new Image(); i.src = PFAD(s) + b + ".webp"; });
+  let i = 0;
+  const weiter = () => { img.src = PFAD(s) + BILDER[i] + ".webp"; info.textContent = BILDER[i].replace("schwung_", "Bild ") + (BILDER[i] === "schwung_e" ? " · Treffer" : "");
+    const d = MS[i] * faktor; i = (i + 1) % BILDER.length; setTimeout(weiter, d); };
+  weiter();
+});
+</script>
+</body>
+</html>

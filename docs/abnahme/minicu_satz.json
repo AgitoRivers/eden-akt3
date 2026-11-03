@@ -1,0 +1,139 @@
+{
+ "id": "minicu_satz",
+ "titel": "Minicu: NPC-Satz, 22 Posen",
+ "hinweis": "Vorschlag: alle freigeben, nur annoyance und surprise neu, dort stehen die Beine überkreuzt. Nur was nicht passt, auf „Neu“ setzen. Noch nichts im Spiel.",
+ "items": [
+  {
+   "id": "neutral",
+   "titel": "neutral",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_minicu_satz\\neutral.png",
+   "soll": "Dein gewähltes Bild, ruhig und frontal."
+  },
+  {
+   "id": "admiration_2",
+   "titel": "admiration_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_minicu_satz\\admiration_2.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "amusement",
+   "titel": "amusement",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_minicu_satz\\amusement.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "anger",
+   "titel": "anger",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_minicu_satz\\anger.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "annoyance",
+   "titel": "annoyance",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_minicu_satz\\annoyance.png",
+   "soll": "Beine überkreuzt, wirkt lässiger als er ist."
+  },
+  {
+   "id": "approval",
+   "titel": "approval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_minicu_satz\\approval.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "caring",
+   "titel": "caring",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_minicu_satz\\caring.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "confusion",
+   "titel": "confusion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_minicu_satz\\confusion.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "curiosity",
+   "titel": "curiosity",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_minicu_satz\\curiosity.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "disappointment",
+   "titel": "disappointment",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_minicu_satz\\disappointment.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "disapproval",
+   "titel": "disapproval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_minicu_satz\\disapproval.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "disgust",
+   "titel": "disgust",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_minicu_satz\\disgust.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "embarrassment_2",
+   "titel": "embarrassment_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_minicu_satz\\embarrassment_2.png",
+   "soll": "Geht in die Hocke, das steht so in der Pose-Karte."
+  },
+  {
+   "id": "excitement_2",
+   "titel": "excitement_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_minicu_satz\\excitement_2.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "fear_2",
+   "titel": "fear_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_minicu_satz\\fear_2.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "gratitude",
+   "titel": "gratitude",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_minicu_satz\\gratitude.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "joy",
+   "titel": "joy",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_minicu_satz\\joy.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "love_2",
+   "titel": "love_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_minicu_satz\\love_2.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "nervousness",
+   "titel": "nervousness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_minicu_satz\\nervousness.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "pride",
+   "titel": "pride",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_minicu_satz\\pride.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "sadness",
+   "titel": "sadness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_minicu_satz\\sadness.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "surprise",
+   "titel": "surprise",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_minicu_satz\\surprise.png",
+   "soll": "Beine überkreuzt."
+  }
+ ]
+}

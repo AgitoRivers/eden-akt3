@@ -1,0 +1,37 @@
+{
+ "id": "trio_gruppenbild_v1",
+ "titel": "Red Trio: Gruppenfoto für Danzels Laden",
+ "hinweis": "Mein Vorschlag: Foto 4 gerahmt an der Wand. Die Wandprobe ist nur eingesetzt, die Laden-Variante wählst du auf der Laden-Seite.",
+ "items": [
+  {
+   "id": "wand",
+   "titel": "Wandprobe auf Laden-Variante 2 (Vorschlag)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_trio_gruppe\\wand_v2.png",
+   "soll": "Gerahmtes Foto über der Kasse. Im Spiel sitzen Figuren davor, darum so hoch."
+  },
+  {
+   "id": "foto1",
+   "titel": "Foto 1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_trio_gruppe\\gruppe.png",
+   "soll": "Gesichter und Outfits aus den Sprites."
+  },
+  {
+   "id": "foto2",
+   "titel": "Foto 2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_trio_gruppe\\gruppe-1.png",
+   "soll": "Gesichter und Outfits aus den Sprites."
+  },
+  {
+   "id": "foto3",
+   "titel": "Foto 3",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_trio_gruppe\\gruppe-2.png",
+   "soll": "Gesichter und Outfits aus den Sprites."
+  },
+  {
+   "id": "foto4",
+   "titel": "Foto 4 (Vorschlag)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_trio_gruppe\\gruppe-3.png",
+   "soll": "Gesichter und Outfits aus den Sprites."
+  }
+ ]
+}

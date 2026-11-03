@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Maxwells Schlag</title>
+<style>
+  :root { --bg:#14181d; --karte:#1e242b; --linie:#333c46; --text:#e9e4d8; --leise:#a2a9b0; --gold:#e0b458; --neu:#7fb4e0; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:15px/1.45 system-ui,"Segoe UI",sans-serif; }
+  main { max-width:1040px; margin:0 auto; padding:24px 16px 48px; }
+  h1 { margin:0 0 6px; font-size:26px; }
+  main > p { margin:0 0 16px; max-width:75ch; color:var(--leise); }
+  .raster { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:10px; }
+  .ton { background:var(--karte); border:1px solid var(--linie); border-radius:8px; padding:12px; min-width:0; }
+  .ton.vorschlag { border-color:var(--gold); }
+  .kopf { display:flex; justify-content:space-between; gap:8px; flex-wrap:wrap; }
+  .kopf span { font-size:12px; color:var(--gold); }
+  .ton p { margin:6px 0 8px; font-size:13px; color:var(--leise); }
+  audio { width:100%; height:32px; }
+  a { display:inline-block; margin-top:6px; font-size:12px; color:var(--neu); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Maxwells Schlag</h1>
+  <p>Der Treffer, wenn Maxwell mit dem Steel Mop zuschlägt. Alle Töne sind auf den Schlag gekürzt und ähnlich laut. Schreib mir einfach den Namen.</p>
+  <div class="raster">
+  <section class="ton"><div class="kopf"><b>So klingt es bisher</b></div><p>Power Punch, der normale Treffer. Nur zum Vergleich.</p><audio controls preload="auto" src="sfx_maxwell/jetzt_kampf_treffer.mp3"></audio></section>
+  <section class="ton vorschlag"><div class="kopf"><b>Stahl mit Tiefe</b><span>Vorschlag, schon im Spiel</span></div><p>Hammer Steel Impact, darunter der tiefe Teil von Heavy Metal Crush. Für beides: Klang vom Material und Wucht.</p><audio controls preload="auto" src="sfx_maxwell/v1_stahl_tief.mp3"></audio><a href="https://pixabay.com/sound-effects/hammer-steel-impact-454390/">Quelle bei Pixabay</a></section>
+  <section class="ton"><div class="kopf"><b>Hammer Steel Impact</b></div><p>Reiner Hammer auf Stahl, hell und trocken.</p><audio controls preload="auto" src="sfx_maxwell/v2_steel.mp3"></audio><a href="https://pixabay.com/sound-effects/hammer-steel-impact-454390/">Quelle bei Pixabay</a></section>
+  <section class="ton"><div class="kopf"><b>Massive Axe Impact 1</b></div><p>Schwerer Schlag auf Metall, etwas Tiefe, ohne das Nachprellen.</p><audio controls preload="auto" src="sfx_maxwell/v3_axe1.mp3"></audio><a href="https://pixabay.com/sound-effects/a-massive-axe-impact-hitting-metal-1-450251/">Quelle bei Pixabay</a></section>
+  <section class="ton"><div class="kopf"><b>Massive Axe Impact 3</b></div><p>Am tiefsten der echten Schläge, dumpf und schwer.</p><audio controls preload="auto" src="sfx_maxwell/v4_axe3.mp3"></audio><a href="https://pixabay.com/sound-effects/a-massive-axe-impact-hitting-metal-3-450254/">Quelle bei Pixabay</a></section>
+  <section class="ton"><div class="kopf"><b>Big Metal Knock</b></div><p>Großes Metall, mit kurzem Nachschlag.</p><audio controls preload="auto" src="sfx_maxwell/v5_knock.mp3"></audio><a href="https://pixabay.com/sound-effects/film-special-effects-big-metal-knock-001-11345/">Quelle bei Pixabay</a></section>
+  <section class="ton"><div class="kopf"><b>Hammer Striking</b></div><p>Ein einzelner Hammerschlag aus einer Folge, kurz und trocken.</p><audio controls preload="auto" src="sfx_maxwell/v6_strike.mp3"></audio><a href="https://pixabay.com/sound-effects/film-special-effects-hammer-striking-496028/">Quelle bei Pixabay</a></section>
+  </div>
+</main>
+</body>
+</html>

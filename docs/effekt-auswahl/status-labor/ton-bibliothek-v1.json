@@ -1,0 +1,2860 @@
+{
+  "version": 1,
+  "status": "library audition, not approved for engine",
+  "source_feedback_created": "2026-10-26T17:59:21.984Z",
+  "baseline_sha256": "f07dd97d25d8e6f05b0d24a1c3a42e5ef9f13394b581468cf1b16129b0f5f9af",
+  "sounds": {
+    "lib-01": {
+      "file": "assets/library-trial-v1/lib-01.ogg",
+      "duration": 1.7,
+      "sha256": "c783263e0853027345537805ceee4c4e4eb58aa5d80985115460b53462a0e410",
+      "source_file": "542825-kostas17-magic-spell.mp3",
+      "source_sha256": "3d4f34ed6f1d47b1181f76d06f0f17ec9826a9935fd29bfe12a65262a9e9e25a",
+      "source_preview_sha256": "e8c5060f82b8469c021887a416c0c05dc83ea84afd09fa3ad4507433b63785fa",
+      "clip_start": 0.1,
+      "clip_duration": 1.7,
+      "speed": 1,
+      "library_id": "lib-01",
+      "trial_only": true
+    },
+    "lib-15": {
+      "file": "assets/library-trial-v1/lib-15.ogg",
+      "duration": 0.777,
+      "sha256": "70141d4e24de4b7942f7d708e885780a8f34099e68ad290081a338df4bb2d5a7",
+      "source_file": "magic-spell.mp3",
+      "source_sha256": "badcc74c69a7e7b313c98d434c2011b70da0deef3ea87e24498868ce501fc9cc",
+      "source_preview_sha256": "de428ee05d026e6e950b61c38731456137b5b10e2dd6ff3212716c696b482cc2",
+      "clip_start": 0.364,
+      "clip_duration": 0.78,
+      "speed": 1,
+      "library_id": "lib-15",
+      "trial_only": true
+    },
+    "lib-20": {
+      "file": "assets/library-trial-v1/lib-20.ogg",
+      "duration": 3.05,
+      "sha256": "b86bdd3f45d43918c3c25193348aa5bc027939c1e544cc5ba666dac958663277",
+      "source_file": "summoned-sound-effect.mp3",
+      "source_sha256": "ed482a915a4c6ba803c28bc1425b67ba395be6f81f59b9a62c571b17a04a4cfd",
+      "source_preview_sha256": "5840e64297320514bf0bdd114a769cd34a809eceea08991606bedf11fd569319",
+      "clip_start": 0.112,
+      "clip_duration": 3.05,
+      "speed": 1,
+      "library_id": "lib-20",
+      "trial_only": true
+    },
+    "lib-03": {
+      "file": "assets/library-trial-v1/lib-03.ogg",
+      "duration": 0.777,
+      "sha256": "7da4580aad7c38c66bcbd0101d00ee0e99fc9297d18663a115a1ec32bf6e24c8",
+      "source_file": "dark-magic-spell-evil-wind-rush-whoosh-1.mp3",
+      "source_sha256": "5cc0b91503e5a5e6f24de2402b767efe8e718fb39ae82e29c406496f27e332f6",
+      "source_preview_sha256": "00665d8ab58fec95f64f0077eaefe2a281190a595e204d792133496e2d1550eb",
+      "clip_start": 1.7080000000000002,
+      "clip_duration": 0.78,
+      "speed": 1,
+      "library_id": "lib-03",
+      "trial_only": true
+    },
+    "lib-08": {
+      "file": "assets/library-trial-v1/lib-08.ogg",
+      "duration": 2.35,
+      "sha256": "dc4fe1ac36425a0bcf9f7451a6f7ccf70ea001d0bf1facaa03a121fea029f9a0",
+      "source_file": "freeze-ray-spell.mp3",
+      "source_sha256": "e3f2b1866c69ab0f3d9ac579d1e816e37ab7e44d533b01a6053c33b91751c135",
+      "source_preview_sha256": "a28cdc41273eac7e5cb72eb7fddeb311e29370bf3f75df3b874707b45dbec3e5",
+      "clip_start": 0.062,
+      "clip_duration": 2.35,
+      "speed": 1,
+      "library_id": "lib-08",
+      "trial_only": true
+    },
+    "lib-14-1": {
+      "file": "assets/library-trial-v1/lib-14-1.ogg",
+      "duration": 0.547,
+      "sha256": "8761daf306d3e58dde15883b5cbad26dc0ef53c44065069cd4bcf4414bd63fd7",
+      "source_file": "magic-missiles.mp3",
+      "source_sha256": "318301e98f2859cf77662397200e6a9ec8167a0b911e38df0013c3372689d863",
+      "source_preview_sha256": "b4c37296f563023fa9a41b89215aa68d7e8ea027e98f814519cf2984b1d071fd",
+      "clip_start": 0,
+      "clip_duration": 0.55,
+      "speed": 1,
+      "library_id": "lib-14",
+      "trial_only": true
+    },
+    "lib-14-2": {
+      "file": "assets/library-trial-v1/lib-14-2.ogg",
+      "duration": 0.547,
+      "sha256": "266e877d5a90827f5c6ec9452995f80651f443365e014045a44bde2e62510904",
+      "source_file": "magic-missiles.mp3",
+      "source_sha256": "318301e98f2859cf77662397200e6a9ec8167a0b911e38df0013c3372689d863",
+      "source_preview_sha256": "b4c37296f563023fa9a41b89215aa68d7e8ea027e98f814519cf2984b1d071fd",
+      "clip_start": 1.5209375,
+      "clip_duration": 0.55,
+      "speed": 1,
+      "library_id": "lib-14",
+      "trial_only": true
+    },
+    "lib-14-3": {
+      "file": "assets/library-trial-v1/lib-14-3.ogg",
+      "duration": 0.547,
+      "sha256": "4db1e7e1e57f590cf76a5ac621ec0b678cd4571b1df3d66466df32a3d6b17eef",
+      "source_file": "magic-missiles.mp3",
+      "source_sha256": "318301e98f2859cf77662397200e6a9ec8167a0b911e38df0013c3372689d863",
+      "source_preview_sha256": "b4c37296f563023fa9a41b89215aa68d7e8ea027e98f814519cf2984b1d071fd",
+      "clip_start": 1.9589999999999999,
+      "clip_duration": 0.55,
+      "speed": 1,
+      "library_id": "lib-14",
+      "trial_only": true
+    },
+    "lib-12": {
+      "file": "assets/library-trial-v1/lib-12.ogg",
+      "duration": 1.65,
+      "sha256": "2b5b620ddee5b6496b72d7797982f6dcc27f2dedad25659101209836c5c4725c",
+      "source_file": "ice-spell03.mp3",
+      "source_sha256": "264382a2d6cd3825562c3fb2e5851b307337e758830df65da545b9fa31d7572e",
+      "source_preview_sha256": "3ee38302c4518a29398412ab394dd1739285cba7b345710e8053cf336779af0e",
+      "clip_start": 0.133,
+      "clip_duration": 1.65,
+      "speed": 1,
+      "library_id": "lib-12",
+      "trial_only": true
+    },
+    "lib-10": {
+      "file": "assets/library-trial-v1/lib-10.ogg",
+      "duration": 1.35,
+      "sha256": "7a82e7201c678ed5be75ac919a0993c5b387a551f5624cd41561364e2ef7a4fe",
+      "source_file": "hit-fireball.mp3",
+      "source_sha256": "cf9e93f916a5c4dfe7952e52ff311c6cab1cbda4918c59e47200ce3352a8f769",
+      "source_preview_sha256": "dcbca29333cc781612d827fb48253867bf23b2d6945700051ba5dec8aeea66c7",
+      "clip_start": 0.651,
+      "clip_duration": 1.35,
+      "speed": 1,
+      "library_id": "lib-10",
+      "trial_only": true
+    },
+    "lib-11": {
+      "file": "assets/library-trial-v1/lib-11.ogg",
+      "duration": 1.05,
+      "sha256": "4254c32a6c7c7315f49a11981cb7bca2718842ef3fb84480a75cf533af6fb0d4",
+      "source_file": "hit-smite.mp3",
+      "source_sha256": "1d8d1b1702344070bf59fb705258bfbf89cff41b11f6ef3a1454a5c079498d13",
+      "source_preview_sha256": "4e5274ffbce01bf370bd2c2f1e2c298b8723e92c09dbe359b4c20311a0b30117",
+      "clip_start": 0.378,
+      "clip_duration": 1.05,
+      "speed": 1,
+      "library_id": "lib-11",
+      "trial_only": true
+    },
+    "lib-13-1": {
+      "file": "assets/library-trial-v1/lib-13-1.ogg",
+      "duration": 0.599,
+      "sha256": "c7aff513ec4b8f8a8bc6135fb4e325201ae826b8ff0dc6bad471d2e0800ade24",
+      "source_file": "kneeling-cleaver.mp3",
+      "source_sha256": "eb700b3c62fbd0e5f89c1e55b5989398145ea153dc39a3d2cc84b7d038ea33f8",
+      "source_preview_sha256": "5c89bc99b90bda53b34ed5dacba2e8ce87aece4cf1384379ed3358e49de268ca",
+      "clip_start": 0.25,
+      "clip_duration": 0.58,
+      "speed": 1,
+      "library_id": "lib-13",
+      "trial_only": true
+    },
+    "lib-13-2": {
+      "file": "assets/library-trial-v1/lib-13-2.ogg",
+      "duration": 0.577,
+      "sha256": "5d9215d8581b39b1f8b4dd7f71d0fe0754b1bfc703e68d4ab1a3a1d99a2b4a9a",
+      "source_file": "kneeling-cleaver.mp3",
+      "source_sha256": "eb700b3c62fbd0e5f89c1e55b5989398145ea153dc39a3d2cc84b7d038ea33f8",
+      "source_preview_sha256": "5c89bc99b90bda53b34ed5dacba2e8ce87aece4cf1384379ed3358e49de268ca",
+      "clip_start": 0.25,
+      "clip_duration": 0.58,
+      "speed": 0.96,
+      "library_id": "lib-13",
+      "trial_only": true
+    },
+    "lib-17": {
+      "file": "assets/library-trial-v1/lib-17.ogg",
+      "duration": 2.25,
+      "sha256": "0996994d57526f422214eae9b6f7497cb16f5cc46dffbfd8e69cd531b4da3ea0",
+      "source_file": "ripping-explosion.mp3",
+      "source_sha256": "cc06b47b78c303ea6b3d17d2b138ec22a12f6ed4686746a5cd1364fee5e12488",
+      "source_preview_sha256": "2e614e357478c48745794e89503fa21326f1b30d48562c1a561b051bb3f7c669",
+      "clip_start": 0.029,
+      "clip_duration": 2.25,
+      "speed": 1,
+      "library_id": "lib-17",
+      "trial_only": true
+    },
+    "lib-18": {
+      "file": "assets/library-trial-v1/lib-18.ogg",
+      "duration": 0.871,
+      "sha256": "5448212873ac25d7100ba704b515d5f89411bc3d109471cbf373e8528b106003",
+      "source_file": "spell-cast-whoosh-delay.mp3",
+      "source_sha256": "7141b71882980c286833ae8e80a5988cf6c3fbdd09d2a59d263a5e2bde888795",
+      "source_preview_sha256": "9f91c773636fd9875bcae87519051d7245182ed69aaa1c067d83376f7e281f07",
+      "clip_start": 0.21899999999999997,
+      "clip_duration": 0.85,
+      "speed": 1,
+      "library_id": "lib-18",
+      "trial_only": true
+    },
+    "lib-19": {
+      "file": "assets/library-trial-v1/lib-19.ogg",
+      "duration": 2.8,
+      "sha256": "bc156b450e648d50bbf78ec9e3465ba7c7a875c612c42944f0ac54b5be77d07d",
+      "source_file": "summond.mp3",
+      "source_sha256": "5c19d48147becf49da5f84d3142f6ae83c9289668e5d80dff73a1eaf45d0d956",
+      "source_preview_sha256": "86301213aee00be8a1a38094e930d60b65339e637d043dbe04a61dc1b914a7b2",
+      "clip_start": 0.047,
+      "clip_duration": 2.8,
+      "speed": 1,
+      "library_id": "lib-19",
+      "trial_only": true
+    },
+    "lib-21": {
+      "file": "assets/library-trial-v1/lib-21.ogg",
+      "duration": 1.55,
+      "sha256": "6279d8ffbb6c6c917bd6077483f2f104bed9f0bcec682a4744510de90214aba2",
+      "source_file": "water-elemantal-magic-skill.mp3",
+      "source_sha256": "0813fa938c18a128a35f324e26cb180cbdeddcfb300bd0920e4c270d5711dfed",
+      "source_preview_sha256": "70997b1b9571aa0243d279f0b28bb27e21c1f89511309d59374f780eecdba595",
+      "clip_start": 0.604,
+      "clip_duration": 1.55,
+      "speed": 1,
+      "library_id": "lib-21",
+      "trial_only": true
+    },
+    "lib-02": {
+      "file": "assets/library-trial-v1/lib-02.ogg",
+      "duration": 3.65,
+      "sha256": "fe5dbc90706b1e317e3bb50b948fbb1874527e3989f740e6ecce7520ef57a20b",
+      "source_file": "bloody-finger-died.mp3",
+      "source_sha256": "2376f9a93bf333accd66bbbc93637333073701d0c1d53e2a6daa5c77b43f87ee",
+      "source_preview_sha256": "8295e1debb4e3c200704fe3e5e8badd3618286f5e2ade5c1579547d4aabc37ec",
+      "clip_start": 0.236,
+      "clip_duration": 3.65,
+      "speed": 1,
+      "library_id": "lib-02",
+      "trial_only": true
+    },
+    "lib-04": {
+      "file": "assets/library-trial-v1/lib-04.ogg",
+      "duration": 1.5,
+      "sha256": "0dfa11a734cfcd56c1007765420d268a9682df74f352e71acbf0847b791c4405",
+      "source_file": "elden-ring-critical-hit.mp3",
+      "source_sha256": "6935045a81ed66c8dce4580529aa9eb3e63be03d0b5f3736ee4e23598b023e20",
+      "source_preview_sha256": "746a599735ea81df565053553f6bd806222a8dff424c0a0c75775c3ede4eacd1",
+      "clip_start": 0.383,
+      "clip_duration": 1.5,
+      "speed": 1,
+      "library_id": "lib-04",
+      "trial_only": true
+    },
+    "lib-05": {
+      "file": "assets/library-trial-v1/lib-05.ogg",
+      "duration": 1.65,
+      "sha256": "afaabcf4119a66eed0f9becaa0b9de9db06d5f86bf07f5e77effaa5e38ffac02",
+      "source_file": "elden-ring-loss-of-balance.mp3",
+      "source_sha256": "e81763e6cf7b7bfd53c183c89ff88686dca9b573b9770afb5c97b5092c1303c3",
+      "source_preview_sha256": "09d0b74da4cfccbd4d56e51e2f63a4c6f3b562005120ad5ea74a5a9844c85744",
+      "clip_start": 0.232,
+      "clip_duration": 1.65,
+      "speed": 1,
+      "library_id": "lib-05",
+      "trial_only": true
+    },
+    "lib-06": {
+      "file": "assets/library-trial-v1/lib-06.ogg",
+      "duration": 5.8,
+      "sha256": "215072461d7371012ad12eb8e0be1834453faf0a9bf557e52f57bafd57c8328b",
+      "source_file": "Enmy killed effects.flac",
+      "source_sha256": "37cd18c9f43eaa9468278e622579dee5bdcab38d43a68d82aca9b59d0ceb5e18",
+      "source_preview_sha256": "49c4d6947b2883aa52172fbfdb75543fc8e80cf0b1571caf4d45d4f955c65b5d",
+      "clip_start": 0.046,
+      "clip_duration": 5.8,
+      "speed": 1,
+      "library_id": "lib-06",
+      "trial_only": true
+    },
+    "lib-07": {
+      "file": "assets/library-trial-v1/lib-07.ogg",
+      "duration": 0.847,
+      "sha256": "8ebbbbb6178052e244815322798d328949b6e87ae39888e70291b9f106d7931d",
+      "source_file": "fire-mp44-plyr-pnchy-ed3.mp3",
+      "source_sha256": "c6f6287242e3dd40effa262a5092321eb14403ae0d3db0e2c7ec864baf5fa172",
+      "source_preview_sha256": "806b05821b6b39c30ab82c960fe70d969a6277357649b272ad5fb7a39c32c0ed",
+      "clip_start": 0,
+      "clip_duration": 0.85,
+      "speed": 1,
+      "library_id": "lib-07",
+      "trial_only": true
+    },
+    "lib-09": {
+      "file": "assets/library-trial-v1/lib-09.ogg",
+      "duration": 1.3,
+      "sha256": "bd0e30b985853df862245ecd17b5c4e990c7004cffa91f6fd4b8b9ccb6491225",
+      "source_file": "fx-lightning-strike-close.mp3",
+      "source_sha256": "38b44bc473a28a37345c9920ad5b0f0f9772fa6ee2e999ea1bfc0f5829a72988",
+      "source_preview_sha256": "8a0af9b31f6d24b7b44ff546e134ec0a6990f15d6fb9c12f845cdff370c3d421",
+      "clip_start": 0.649,
+      "clip_duration": 1.3,
+      "speed": 1,
+      "library_id": "lib-09",
+      "trial_only": true
+    },
+    "scirocco_charge_long": {
+      "file": "assets/audio-feedback-20261026/scirocco_charge_long.ogg",
+      "duration": 2.85,
+      "sha256": "3229e1ee949e432722b39a8d9b488af87647d0c40c12bd04b1efaea5409640f1",
+      "from": "existing approved fire/charge material, pitch-preserving overlap-add",
+      "feedback": "Hold charge sound until release"
+    },
+    "retour_charge_long": {
+      "file": "assets/audio-feedback-20261026/retour_charge_long.ogg",
+      "duration": 3.35,
+      "sha256": "9edbc4c52158005c5b42d2336985762b983f2e56ccdbc47cc41aa46fb2739b36",
+      "from": "existing approved fire/charge material, pitch-preserving overlap-add",
+      "feedback": "Hold charge sound until release"
+    },
+    "vulcano_charge_long": {
+      "file": "assets/audio-feedback-20261026/vulcano_charge_long.ogg",
+      "duration": 3.55,
+      "sha256": "5f5721ceeacd2f382dbe15bfe16c57bc5ae3ebca938da091840b7d60a504d28a",
+      "from": "existing approved fire/charge material, pitch-preserving overlap-add",
+      "feedback": "Hold charge sound until release"
+    },
+    "vendetta_charge_long": {
+      "file": "assets/audio-feedback-20261026/vendetta_charge_long.ogg",
+      "duration": 3.0,
+      "sha256": "328541df3af8e29c3b66df96957ad4d93e98b20dafa87fbfaf988255ba785b96",
+      "from": "existing approved fire/charge material, pitch-preserving overlap-add",
+      "feedback": "Hold charge sound until release"
+    },
+    "vulcano_final_explosion": {
+      "file": "assets/audio-feedback-20261026/vulcano_final_explosion.ogg",
+      "duration": 2.25,
+      "sha256": "83f67810dc9aa314fdbcb3fb2858d030fc483081e14c1f9850b54db2077362d1",
+      "source_file": "S:\\VR\\Gallery\\Downloads\\Sounds\\ripping-explosion.mp3",
+      "source_sha256": "cc06b47b78c303ea6b3d17d2b138ec22a12f6ed4686746a5cd1364fee5e12488",
+      "feedback": "Vulcano explodes at the last impact"
+    },
+    "phare_light_bloom": {
+      "file": "assets/audio-feedback-20261026/phare_light_bloom.ogg",
+      "duration": 1.35,
+      "sha256": "51a32593d3b214aef6da477831a26dc685218b66ef26138b466fc7bddf96fa02",
+      "from": "healer glass highlight and approved focus glimmer",
+      "feedback": "Phare sounds like light, not a physical strike"
+    },
+    "pluie_orb_ice": {
+      "file": "assets/audio-feedback-20261026/pluie_orb_ice.ogg",
+      "duration": 1.65,
+      "sha256": "55f62ffd0e77721764c4ae260f079eec596c7922e32d19b0ed469bed2c7695a4",
+      "source_file": "S:\\VR\\Gallery\\Downloads\\Sounds\\ice-spell03.mp3",
+      "source_sha256": "264382a2d6cd3825562c3fb2e5851b307337e758830df65da545b9fa31d7572e",
+      "feedback": "One ice charge per orb, gain x2"
+    }
+  },
+  "attacks": {
+    "reticle": {
+      "name": "Point de Mire",
+      "variants": {
+        "0": {
+          "launch": 2.4,
+          "hits": [
+            2.78
+          ],
+          "duration": 4.73,
+          "events": [
+            {
+              "sound_id": "lib-01",
+              "phase": "charge",
+              "offset": 0.3,
+              "gain": 0.14,
+              "anchor": "start",
+              "delta": 0.3,
+              "until": "launch"
+            },
+            {
+              "sound_id": "lib-15",
+              "phase": "lock",
+              "offset": 2.78,
+              "gain": 0.36,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.78
+            }
+          ]
+        },
+        "1": {
+          "launch": 2.4,
+          "hits": [
+            2.78
+          ],
+          "duration": 4.73,
+          "events": [
+            {
+              "sound_id": "lib-01",
+              "phase": "charge",
+              "offset": 0.3,
+              "gain": 0.14,
+              "anchor": "start",
+              "delta": 0.3,
+              "until": "launch"
+            },
+            {
+              "sound_id": "lib-15",
+              "phase": "lock",
+              "offset": 2.78,
+              "gain": 0.36,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.78
+            }
+          ]
+        },
+        "2": {
+          "launch": 2.4,
+          "hits": [
+            2.78
+          ],
+          "duration": 4.73,
+          "events": [
+            {
+              "sound_id": "lib-01",
+              "phase": "charge",
+              "offset": 0.3,
+              "gain": 0.14,
+              "anchor": "start",
+              "delta": 0.3,
+              "until": "launch"
+            },
+            {
+              "sound_id": "lib-15",
+              "phase": "lock",
+              "offset": 2.78,
+              "gain": 0.36,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.78
+            }
+          ]
+        }
+      }
+    },
+    "blackSlash": {
+      "name": "Omertà",
+      "variants": {
+        "0": {
+          "launch": 3.4,
+          "hits": [
+            3.62,
+            3.96,
+            4.28
+          ],
+          "duration": 6.83,
+          "events": [
+            {
+              "sound_id": "lib-20",
+              "phase": "charge",
+              "offset": 0.3,
+              "gain": 0.25,
+              "anchor": "start",
+              "delta": 0.3,
+              "until": "launch"
+            },
+            {
+              "sound_id": "lib-03",
+              "phase": "release",
+              "offset": 3.28,
+              "gain": 0.32,
+              "anchor": "launch",
+              "delta": -0.12,
+              "duration": 0.78
+            },
+            {
+              "sound_id": "blade_slash",
+              "phase": "release",
+              "offset": 3.555,
+              "gain": 0.38,
+              "anchor": "hit",
+              "delta": -0.065,
+              "hit_index": 0,
+              "duration": 0.4
+            },
+            {
+              "sound_id": "compact_hit_A",
+              "phase": "hit",
+              "offset": 3.62,
+              "gain": 0.56,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.35
+            },
+            {
+              "sound_id": "blade_slash",
+              "phase": "release",
+              "offset": 3.895,
+              "gain": 0.38,
+              "anchor": "hit",
+              "delta": -0.065,
+              "hit_index": 1,
+              "duration": 0.4
+            },
+            {
+              "sound_id": "compact_hit_D",
+              "phase": "hit",
+              "offset": 3.96,
+              "gain": 0.56,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 1,
+              "duration": 0.35
+            },
+            {
+              "sound_id": "smoke_shock",
+              "phase": "hit",
+              "offset": 4.28,
+              "gain": 0.65,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 2,
+              "duration": 1.4
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 4.28,
+              "gain": 0.4,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 2,
+              "duration": 0.6
+            },
+            {
+              "sound_id": "focus_lock",
+              "phase": "tail",
+              "offset": 4.4,
+              "gain": 0.12,
+              "anchor": "hit",
+              "delta": 0.12,
+              "hit_index": -1,
+              "until": "end"
+            },
+            {
+              "sound_id": "teleport_magic_strike",
+              "phase": "release",
+              "offset": 2.48,
+              "offset_ms": 2480,
+              "gain": 0.36,
+              "anchor": "launch",
+              "delta": -0.92,
+              "duration": 1.65
+            },
+            {
+              "sound_id": "teleport_magic_strike",
+              "phase": "release",
+              "offset": 4.35,
+              "offset_ms": 4350,
+              "gain": 0.36,
+              "anchor": "launch",
+              "delta": 0.95,
+              "duration": 1.65
+            }
+          ]
+        },
+        "1": {
+          "launch": 3.4,
+          "hits": [
+            3.62,
+            3.96,
+            4.28
+          ],
+          "duration": 6.83,
+          "events": [
+            {
+              "sound_id": "lib-20",
+              "phase": "charge",
+              "offset": 0.3,
+              "gain": 0.25,
+              "anchor": "start",
+              "delta": 0.3,
+              "until": "launch"
+            },
+            {
+              "sound_id": "lib-03",
+              "phase": "release",
+              "offset": 3.28,
+              "gain": 0.32,
+              "anchor": "launch",
+              "delta": -0.12,
+              "duration": 0.78
+            },
+            {
+              "sound_id": "blade_slash",
+              "phase": "release",
+              "offset": 3.555,
+              "gain": 0.38,
+              "anchor": "hit",
+              "delta": -0.065,
+              "hit_index": 0,
+              "duration": 0.4
+            },
+            {
+              "sound_id": "compact_hit_A",
+              "phase": "hit",
+              "offset": 3.62,
+              "gain": 0.56,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.35
+            },
+            {
+              "sound_id": "blade_slash",
+              "phase": "release",
+              "offset": 3.895,
+              "gain": 0.38,
+              "anchor": "hit",
+              "delta": -0.065,
+              "hit_index": 1,
+              "duration": 0.4
+            },
+            {
+              "sound_id": "compact_hit_D",
+              "phase": "hit",
+              "offset": 3.96,
+              "gain": 0.56,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 1,
+              "duration": 0.35
+            },
+            {
+              "sound_id": "smoke_shock",
+              "phase": "hit",
+              "offset": 4.28,
+              "gain": 0.65,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 2,
+              "duration": 1.4
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 4.28,
+              "gain": 0.4,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 2,
+              "duration": 0.6
+            },
+            {
+              "sound_id": "focus_lock",
+              "phase": "tail",
+              "offset": 4.4,
+              "gain": 0.12,
+              "anchor": "hit",
+              "delta": 0.12,
+              "hit_index": -1,
+              "until": "end"
+            },
+            {
+              "sound_id": "teleport_magic_strike",
+              "phase": "release",
+              "offset": 2.48,
+              "offset_ms": 2480,
+              "gain": 0.36,
+              "anchor": "launch",
+              "delta": -0.92,
+              "duration": 1.65
+            },
+            {
+              "sound_id": "teleport_magic_strike",
+              "phase": "release",
+              "offset": 4.35,
+              "offset_ms": 4350,
+              "gain": 0.36,
+              "anchor": "launch",
+              "delta": 0.95,
+              "duration": 1.65
+            }
+          ]
+        },
+        "2": {
+          "launch": 3.4,
+          "hits": [
+            3.62,
+            3.96,
+            4.28
+          ],
+          "duration": 6.83,
+          "events": [
+            {
+              "sound_id": "lib-20",
+              "phase": "charge",
+              "offset": 0.3,
+              "gain": 0.25,
+              "anchor": "start",
+              "delta": 0.3,
+              "until": "launch"
+            },
+            {
+              "sound_id": "lib-03",
+              "phase": "release",
+              "offset": 3.28,
+              "gain": 0.32,
+              "anchor": "launch",
+              "delta": -0.12,
+              "duration": 0.78
+            },
+            {
+              "sound_id": "blade_slash",
+              "phase": "release",
+              "offset": 3.555,
+              "gain": 0.38,
+              "anchor": "hit",
+              "delta": -0.065,
+              "hit_index": 0,
+              "duration": 0.4
+            },
+            {
+              "sound_id": "compact_hit_A",
+              "phase": "hit",
+              "offset": 3.62,
+              "gain": 0.56,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.35
+            },
+            {
+              "sound_id": "blade_slash",
+              "phase": "release",
+              "offset": 3.895,
+              "gain": 0.38,
+              "anchor": "hit",
+              "delta": -0.065,
+              "hit_index": 1,
+              "duration": 0.4
+            },
+            {
+              "sound_id": "compact_hit_D",
+              "phase": "hit",
+              "offset": 3.96,
+              "gain": 0.56,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 1,
+              "duration": 0.35
+            },
+            {
+              "sound_id": "smoke_shock",
+              "phase": "hit",
+              "offset": 4.28,
+              "gain": 0.65,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 2,
+              "duration": 1.4
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 4.28,
+              "gain": 0.4,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 2,
+              "duration": 0.6
+            },
+            {
+              "sound_id": "focus_lock",
+              "phase": "tail",
+              "offset": 4.4,
+              "gain": 0.12,
+              "anchor": "hit",
+              "delta": 0.12,
+              "hit_index": -1,
+              "until": "end"
+            },
+            {
+              "sound_id": "teleport_magic_strike",
+              "phase": "release",
+              "offset": 2.48,
+              "offset_ms": 2480,
+              "gain": 0.36,
+              "anchor": "launch",
+              "delta": -0.92,
+              "duration": 1.65
+            },
+            {
+              "sound_id": "teleport_magic_strike",
+              "phase": "release",
+              "offset": 4.35,
+              "offset_ms": 4350,
+              "gain": 0.36,
+              "anchor": "launch",
+              "delta": 0.95,
+              "duration": 1.65
+            }
+          ]
+        }
+      }
+    },
+    "rain": {
+      "name": "Pluie d’Étoiles",
+      "variants": {
+        "0": {
+          "launch": 2.65,
+          "hits": [
+            3.03,
+            3.3,
+            3.75
+          ],
+          "duration": 6.3,
+          "events": [
+            {
+              "sound_id": "lib-14-1",
+              "phase": "release",
+              "offset": 2.85,
+              "gain": 0.34,
+              "anchor": "hit",
+              "delta": -0.18,
+              "hit_index": 0,
+              "duration": 0.55
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 3.03,
+              "gain": 0.35,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.4
+            },
+            {
+              "sound_id": "lib-14-2",
+              "phase": "release",
+              "offset": 3.12,
+              "gain": 0.34,
+              "anchor": "hit",
+              "delta": -0.18,
+              "hit_index": 1,
+              "duration": 0.55
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 3.3,
+              "gain": 0.35,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 1,
+              "duration": 0.4
+            },
+            {
+              "sound_id": "lib-14-3",
+              "phase": "release",
+              "offset": 3.57,
+              "gain": 0.34,
+              "anchor": "hit",
+              "delta": -0.18,
+              "hit_index": 2,
+              "duration": 0.55
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 3.75,
+              "gain": 0.55,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 2,
+              "duration": 0.4
+            },
+            {
+              "sound_id": "star_burst",
+              "phase": "hit",
+              "offset": 3.75,
+              "gain": 0.6,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 2,
+              "duration": 0.9
+            },
+            {
+              "sound_id": "pressure_body",
+              "phase": "hit",
+              "offset": 3.75,
+              "gain": 0.26,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 2,
+              "duration": 0.45
+            },
+            {
+              "sound_id": "lib-12",
+              "phase": "tail",
+              "offset": 3.87,
+              "gain": 0.3,
+              "anchor": "hit",
+              "delta": 0.12,
+              "hit_index": -1,
+              "until": "end"
+            },
+            {
+              "sound_id": "pluie_orb_ice",
+              "phase": "charge",
+              "offset": 0.3,
+              "gain": 0.4,
+              "anchor": "start",
+              "delta": 0.3,
+              "duration": 1.65,
+              "orb_index": 0
+            },
+            {
+              "sound_id": "pluie_orb_ice",
+              "phase": "charge",
+              "offset": 0.62,
+              "gain": 0.4,
+              "anchor": "start",
+              "delta": 0.62,
+              "duration": 1.65,
+              "orb_index": 1
+            },
+            {
+              "sound_id": "pluie_orb_ice",
+              "phase": "charge",
+              "offset": 0.94,
+              "gain": 0.4,
+              "anchor": "start",
+              "delta": 0.94,
+              "duration": 1.65,
+              "orb_index": 2
+            }
+          ]
+        },
+        "1": {
+          "launch": 2.65,
+          "hits": [
+            3.03,
+            3.26,
+            3.53
+          ],
+          "duration": 6.08,
+          "events": [
+            {
+              "sound_id": "lib-14-1",
+              "phase": "release",
+              "offset": 2.85,
+              "gain": 0.34,
+              "anchor": "hit",
+              "delta": -0.18,
+              "hit_index": 0,
+              "duration": 0.55
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 3.03,
+              "gain": 0.35,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.4
+            },
+            {
+              "sound_id": "lib-14-2",
+              "phase": "release",
+              "offset": 3.08,
+              "gain": 0.34,
+              "anchor": "hit",
+              "delta": -0.18,
+              "hit_index": 1,
+              "duration": 0.55
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 3.26,
+              "gain": 0.35,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 1,
+              "duration": 0.4
+            },
+            {
+              "sound_id": "lib-14-3",
+              "phase": "release",
+              "offset": 3.35,
+              "gain": 0.34,
+              "anchor": "hit",
+              "delta": -0.18,
+              "hit_index": 2,
+              "duration": 0.55
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 3.53,
+              "gain": 0.55,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 2,
+              "duration": 0.4
+            },
+            {
+              "sound_id": "star_burst",
+              "phase": "hit",
+              "offset": 3.53,
+              "gain": 0.6,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 2,
+              "duration": 0.9
+            },
+            {
+              "sound_id": "pressure_body",
+              "phase": "hit",
+              "offset": 3.53,
+              "gain": 0.26,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 2,
+              "duration": 0.45
+            },
+            {
+              "sound_id": "lib-12",
+              "phase": "tail",
+              "offset": 3.65,
+              "gain": 0.3,
+              "anchor": "hit",
+              "delta": 0.12,
+              "hit_index": -1,
+              "until": "end"
+            },
+            {
+              "sound_id": "pluie_orb_ice",
+              "phase": "charge",
+              "offset": 0.3,
+              "gain": 0.4,
+              "anchor": "start",
+              "delta": 0.3,
+              "duration": 1.65,
+              "orb_index": 0
+            },
+            {
+              "sound_id": "pluie_orb_ice",
+              "phase": "charge",
+              "offset": 0.62,
+              "gain": 0.4,
+              "anchor": "start",
+              "delta": 0.62,
+              "duration": 1.65,
+              "orb_index": 1
+            },
+            {
+              "sound_id": "pluie_orb_ice",
+              "phase": "charge",
+              "offset": 0.94,
+              "gain": 0.4,
+              "anchor": "start",
+              "delta": 0.94,
+              "duration": 1.65,
+              "orb_index": 2
+            }
+          ]
+        },
+        "2": {
+          "launch": 2.65,
+          "hits": [
+            2.995,
+            3.03,
+            3.065
+          ],
+          "duration": 5.615,
+          "events": [
+            {
+              "sound_id": "lib-14-1",
+              "phase": "release",
+              "offset": 2.815,
+              "gain": 0.34,
+              "anchor": "hit",
+              "delta": -0.18,
+              "hit_index": 0,
+              "duration": 0.55
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 2.995,
+              "gain": 0.35,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.4
+            },
+            {
+              "sound_id": "lib-14-2",
+              "phase": "release",
+              "offset": 2.85,
+              "gain": 0.34,
+              "anchor": "hit",
+              "delta": -0.18,
+              "hit_index": 1,
+              "duration": 0.55
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 3.03,
+              "gain": 0.35,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 1,
+              "duration": 0.4
+            },
+            {
+              "sound_id": "lib-14-3",
+              "phase": "release",
+              "offset": 2.885,
+              "gain": 0.34,
+              "anchor": "hit",
+              "delta": -0.18,
+              "hit_index": 2,
+              "duration": 0.55
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 3.065,
+              "gain": 0.55,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 2,
+              "duration": 0.4
+            },
+            {
+              "sound_id": "star_burst",
+              "phase": "hit",
+              "offset": 3.065,
+              "gain": 0.6,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 2,
+              "duration": 0.9
+            },
+            {
+              "sound_id": "pressure_body",
+              "phase": "hit",
+              "offset": 3.065,
+              "gain": 0.26,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 2,
+              "duration": 0.45
+            },
+            {
+              "sound_id": "lib-12",
+              "phase": "tail",
+              "offset": 3.185,
+              "gain": 0.3,
+              "anchor": "hit",
+              "delta": 0.12,
+              "hit_index": -1,
+              "until": "end"
+            },
+            {
+              "sound_id": "pluie_orb_ice",
+              "phase": "charge",
+              "offset": 0.3,
+              "gain": 0.4,
+              "anchor": "start",
+              "delta": 0.3,
+              "duration": 1.65,
+              "orb_index": 0
+            },
+            {
+              "sound_id": "pluie_orb_ice",
+              "phase": "charge",
+              "offset": 0.62,
+              "gain": 0.4,
+              "anchor": "start",
+              "delta": 0.62,
+              "duration": 1.65,
+              "orb_index": 1
+            },
+            {
+              "sound_id": "pluie_orb_ice",
+              "phase": "charge",
+              "offset": 0.94,
+              "gain": 0.4,
+              "anchor": "start",
+              "delta": 0.94,
+              "duration": 1.65,
+              "orb_index": 2
+            }
+          ]
+        }
+      }
+    },
+    "scirocco": {
+      "name": "Scirocco",
+      "variants": {
+        "0": {
+          "launch": 3.1,
+          "hits": [
+            3.48
+          ],
+          "duration": 7.03,
+          "events": [
+            {
+              "sound_id": "fireball_flight",
+              "phase": "release",
+              "offset": 3.1,
+              "gain": 0.45,
+              "anchor": "launch",
+              "delta": 0,
+              "duration": 0.65
+            },
+            {
+              "sound_id": "lib-10",
+              "phase": "hit",
+              "offset": 3.48,
+              "gain": 0.44,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 1.35
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 3.48,
+              "gain": 0.45,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.48
+            },
+            {
+              "sound_id": "afterburn",
+              "phase": "tail",
+              "offset": 3.6,
+              "gain": 0.28,
+              "anchor": "hit",
+              "delta": 0.12,
+              "hit_index": -1,
+              "until": "end"
+            },
+            {
+              "sound_id": "scirocco_charge_long",
+              "phase": "charge",
+              "offset": 0.25,
+              "gain": 0.28,
+              "anchor": "start",
+              "delta": 0.25,
+              "duration": 2.85
+            }
+          ]
+        },
+        "1": {
+          "launch": 3.1,
+          "hits": [
+            3.48
+          ],
+          "duration": 7.03,
+          "events": [
+            {
+              "sound_id": "fireball_flight",
+              "phase": "release",
+              "offset": 3.1,
+              "gain": 0.45,
+              "anchor": "launch",
+              "delta": 0,
+              "duration": 0.65
+            },
+            {
+              "sound_id": "lib-10",
+              "phase": "hit",
+              "offset": 3.48,
+              "gain": 0.44,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 1.35
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 3.48,
+              "gain": 0.45,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.48
+            },
+            {
+              "sound_id": "afterburn",
+              "phase": "tail",
+              "offset": 3.6,
+              "gain": 0.28,
+              "anchor": "hit",
+              "delta": 0.12,
+              "hit_index": -1,
+              "until": "end"
+            },
+            {
+              "sound_id": "scirocco_charge_long",
+              "phase": "charge",
+              "offset": 0.25,
+              "gain": 0.28,
+              "anchor": "start",
+              "delta": 0.25,
+              "duration": 2.85
+            }
+          ]
+        },
+        "2": {
+          "launch": 3.1,
+          "hits": [
+            3.48
+          ],
+          "duration": 7.03,
+          "events": [
+            {
+              "sound_id": "fireball_flight",
+              "phase": "release",
+              "offset": 3.1,
+              "gain": 0.45,
+              "anchor": "launch",
+              "delta": 0,
+              "duration": 0.65
+            },
+            {
+              "sound_id": "lib-10",
+              "phase": "hit",
+              "offset": 3.48,
+              "gain": 0.44,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 1.35
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 3.48,
+              "gain": 0.45,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.48
+            },
+            {
+              "sound_id": "afterburn",
+              "phase": "tail",
+              "offset": 3.6,
+              "gain": 0.28,
+              "anchor": "hit",
+              "delta": 0.12,
+              "hit_index": -1,
+              "until": "end"
+            },
+            {
+              "sound_id": "scirocco_charge_long",
+              "phase": "charge",
+              "offset": 0.25,
+              "gain": 0.28,
+              "anchor": "start",
+              "delta": 0.25,
+              "duration": 2.85
+            }
+          ]
+        }
+      }
+    },
+    "beam": {
+      "name": "Phare",
+      "variants": {
+        "0": {
+          "launch": 3,
+          "hits": [
+            3.38
+          ],
+          "duration": 5.93,
+          "events": [
+            {
+              "sound_id": "focus_lock",
+              "phase": "charge",
+              "offset": 0.3,
+              "gain": 0.12,
+              "anchor": "start",
+              "delta": 0.3,
+              "until": "launch"
+            },
+            {
+              "sound_id": "phare_light_bloom",
+              "phase": "release",
+              "offset": 3.36,
+              "gain": 0.45,
+              "anchor": "hit",
+              "delta": -0.02,
+              "duration": 1.25,
+              "hit_index": 0
+            },
+            {
+              "sound_id": "focus_lock",
+              "phase": "tail",
+              "offset": 3.5,
+              "gain": 0.17,
+              "anchor": "hit",
+              "delta": 0.12,
+              "hit_index": -1,
+              "until": "end"
+            }
+          ]
+        },
+        "1": {
+          "launch": 3,
+          "hits": [
+            3.38
+          ],
+          "duration": 5.93,
+          "events": [
+            {
+              "sound_id": "focus_lock",
+              "phase": "charge",
+              "offset": 0.3,
+              "gain": 0.12,
+              "anchor": "start",
+              "delta": 0.3,
+              "until": "launch"
+            },
+            {
+              "sound_id": "phare_light_bloom",
+              "phase": "release",
+              "offset": 3.36,
+              "gain": 0.45,
+              "anchor": "hit",
+              "delta": -0.02,
+              "duration": 1.25,
+              "hit_index": 0
+            },
+            {
+              "sound_id": "focus_lock",
+              "phase": "tail",
+              "offset": 3.5,
+              "gain": 0.17,
+              "anchor": "hit",
+              "delta": 0.12,
+              "hit_index": -1,
+              "until": "end"
+            }
+          ]
+        },
+        "2": {
+          "launch": 3,
+          "hits": [
+            3.38
+          ],
+          "duration": 5.93,
+          "events": [
+            {
+              "sound_id": "focus_lock",
+              "phase": "charge",
+              "offset": 0.3,
+              "gain": 0.12,
+              "anchor": "start",
+              "delta": 0.3,
+              "until": "launch"
+            },
+            {
+              "sound_id": "phare_light_bloom",
+              "phase": "release",
+              "offset": 3.36,
+              "gain": 0.45,
+              "anchor": "hit",
+              "delta": -0.02,
+              "duration": 1.25,
+              "hit_index": 0
+            },
+            {
+              "sound_id": "focus_lock",
+              "phase": "tail",
+              "offset": 3.5,
+              "gain": 0.17,
+              "anchor": "hit",
+              "delta": 0.12,
+              "hit_index": -1,
+              "until": "end"
+            }
+          ]
+        }
+      }
+    },
+    "doubleSlash": {
+      "name": "Doppio Gioco",
+      "variants": {
+        "0": {
+          "launch": 2.85,
+          "hits": [
+            3.0,
+            3.29
+          ],
+          "duration": 5.24,
+          "events": [
+            {
+              "sound_id": "doppio_charge",
+              "phase": "charge",
+              "offset": 0.2,
+              "offset_ms": 200,
+              "gain": 0.4,
+              "anchor": "start",
+              "delta": 0.2,
+              "duration": 2.65,
+              "until": "launch"
+            },
+            {
+              "sound_id": "lib-13-1",
+              "phase": "release",
+              "offset": 2.925,
+              "gain": 0.3,
+              "anchor": "hit",
+              "delta": -0.075,
+              "hit_index": 0,
+              "duration": 0.58
+            },
+            {
+              "sound_id": "compact_hit_A",
+              "phase": "hit",
+              "offset": 3.0,
+              "gain": 0.65,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.43
+            },
+            {
+              "sound_id": "lib-13-2",
+              "phase": "release",
+              "offset": 3.215,
+              "gain": 0.3,
+              "anchor": "hit",
+              "delta": -0.075,
+              "hit_index": 1,
+              "duration": 0.58
+            },
+            {
+              "sound_id": "compact_hit_D",
+              "phase": "hit",
+              "offset": 3.29,
+              "gain": 0.65,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 1,
+              "duration": 0.43
+            },
+            {
+              "sound_id": "pressure_body",
+              "phase": "hit",
+              "offset": 3.29,
+              "gain": 0.43,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 1,
+              "duration": 0.9
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 3.29,
+              "gain": 0.4,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 1,
+              "duration": 0.68
+            }
+          ]
+        },
+        "1": {
+          "launch": 2.85,
+          "hits": [
+            2.96,
+            3.29
+          ],
+          "duration": 5.24,
+          "events": [
+            {
+              "sound_id": "doppio_charge",
+              "phase": "charge",
+              "offset": 0.2,
+              "offset_ms": 200,
+              "gain": 0.4,
+              "anchor": "start",
+              "delta": 0.2,
+              "duration": 2.65,
+              "until": "launch"
+            },
+            {
+              "sound_id": "lib-13-1",
+              "phase": "release",
+              "offset": 2.885,
+              "gain": 0.3,
+              "anchor": "hit",
+              "delta": -0.075,
+              "hit_index": 0,
+              "duration": 0.58
+            },
+            {
+              "sound_id": "compact_hit_A",
+              "phase": "hit",
+              "offset": 2.96,
+              "gain": 0.65,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.43
+            },
+            {
+              "sound_id": "lib-13-2",
+              "phase": "release",
+              "offset": 3.215,
+              "gain": 0.3,
+              "anchor": "hit",
+              "delta": -0.075,
+              "hit_index": 1,
+              "duration": 0.58
+            },
+            {
+              "sound_id": "compact_hit_D",
+              "phase": "hit",
+              "offset": 3.29,
+              "gain": 0.65,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 1,
+              "duration": 0.43
+            },
+            {
+              "sound_id": "pressure_body",
+              "phase": "hit",
+              "offset": 3.29,
+              "gain": 0.43,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 1,
+              "duration": 0.9
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 3.29,
+              "gain": 0.4,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 1,
+              "duration": 0.68
+            }
+          ]
+        },
+        "2": {
+          "launch": 2.85,
+          "hits": [
+            3.0,
+            3.29
+          ],
+          "duration": 5.24,
+          "events": [
+            {
+              "sound_id": "doppio_charge",
+              "phase": "charge",
+              "offset": 0.2,
+              "offset_ms": 200,
+              "gain": 0.4,
+              "anchor": "start",
+              "delta": 0.2,
+              "duration": 2.65,
+              "until": "launch"
+            },
+            {
+              "sound_id": "lib-13-1",
+              "phase": "release",
+              "offset": 2.925,
+              "gain": 0.3,
+              "anchor": "hit",
+              "delta": -0.075,
+              "hit_index": 0,
+              "duration": 0.58
+            },
+            {
+              "sound_id": "compact_hit_A",
+              "phase": "hit",
+              "offset": 3.0,
+              "gain": 0.65,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.43
+            },
+            {
+              "sound_id": "lib-13-2",
+              "phase": "release",
+              "offset": 3.215,
+              "gain": 0.3,
+              "anchor": "hit",
+              "delta": -0.075,
+              "hit_index": 1,
+              "duration": 0.58
+            },
+            {
+              "sound_id": "compact_hit_D",
+              "phase": "hit",
+              "offset": 3.29,
+              "gain": 0.65,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 1,
+              "duration": 0.43
+            },
+            {
+              "sound_id": "pressure_body",
+              "phase": "hit",
+              "offset": 3.29,
+              "gain": 0.43,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 1,
+              "duration": 0.9
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 3.29,
+              "gain": 0.4,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 1,
+              "duration": 0.68
+            }
+          ]
+        }
+      }
+    },
+    "vulcano": {
+      "name": "Vulcano",
+      "variants": {
+        "0": {
+          "launch": 3.8,
+          "hits": [
+            4.18,
+            4.66,
+            5.14
+          ],
+          "duration": 8.69,
+          "events": [
+            {
+              "sound_id": "fire_slash",
+              "phase": "release",
+              "offset": 3.8,
+              "gain": 0.45,
+              "anchor": "launch",
+              "delta": 0,
+              "duration": 0.65
+            },
+            {
+              "sound_id": "fire_slash",
+              "phase": "hit",
+              "offset": 4.18,
+              "gain": 0.36,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.7
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 4.18,
+              "gain": 0.45,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.48
+            },
+            {
+              "sound_id": "fire_slash",
+              "phase": "hit",
+              "offset": 4.66,
+              "gain": 0.36,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 1,
+              "duration": 0.7
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 4.66,
+              "gain": 0.45,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 1,
+              "duration": 0.48
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 5.14,
+              "gain": 0.45,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 2,
+              "duration": 0.48
+            },
+            {
+              "sound_id": "afterburn",
+              "phase": "tail",
+              "offset": 5.26,
+              "gain": 0.28,
+              "anchor": "hit",
+              "delta": 0.12,
+              "hit_index": -1,
+              "until": "end"
+            },
+            {
+              "sound_id": "fire_slash",
+              "phase": "hit",
+              "offset": 5.14,
+              "gain": 0.36,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 2,
+              "duration": 0.7
+            },
+            {
+              "sound_id": "vulcano_charge_long",
+              "phase": "charge",
+              "offset": 0.25,
+              "gain": 0.28,
+              "anchor": "start",
+              "delta": 0.25,
+              "duration": 3.55
+            },
+            {
+              "sound_id": "vulcano_final_explosion",
+              "phase": "tail",
+              "offset": 5.14,
+              "gain": 0.57,
+              "anchor": "hit",
+              "hit_index": -1,
+              "delta": 0,
+              "duration": 2.25
+            }
+          ]
+        },
+        "1": {
+          "launch": 3.8,
+          "hits": [
+            4.18,
+            4.66,
+            5.14
+          ],
+          "duration": 8.69,
+          "events": [
+            {
+              "sound_id": "fire_slash",
+              "phase": "release",
+              "offset": 3.8,
+              "gain": 0.45,
+              "anchor": "launch",
+              "delta": 0,
+              "duration": 0.65
+            },
+            {
+              "sound_id": "fire_slash",
+              "phase": "hit",
+              "offset": 4.18,
+              "gain": 0.36,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.7
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 4.18,
+              "gain": 0.45,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.48
+            },
+            {
+              "sound_id": "fire_slash",
+              "phase": "hit",
+              "offset": 4.66,
+              "gain": 0.36,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 1,
+              "duration": 0.7
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 4.66,
+              "gain": 0.45,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 1,
+              "duration": 0.48
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 5.14,
+              "gain": 0.45,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 2,
+              "duration": 0.48
+            },
+            {
+              "sound_id": "afterburn",
+              "phase": "tail",
+              "offset": 5.26,
+              "gain": 0.28,
+              "anchor": "hit",
+              "delta": 0.12,
+              "hit_index": -1,
+              "until": "end"
+            },
+            {
+              "sound_id": "fire_slash",
+              "phase": "hit",
+              "offset": 5.14,
+              "gain": 0.36,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 2,
+              "duration": 0.7
+            },
+            {
+              "sound_id": "vulcano_charge_long",
+              "phase": "charge",
+              "offset": 0.25,
+              "gain": 0.28,
+              "anchor": "start",
+              "delta": 0.25,
+              "duration": 3.55
+            },
+            {
+              "sound_id": "vulcano_final_explosion",
+              "phase": "tail",
+              "offset": 5.14,
+              "gain": 0.57,
+              "anchor": "hit",
+              "hit_index": -1,
+              "delta": 0,
+              "duration": 2.25
+            }
+          ]
+        },
+        "2": {
+          "launch": 3.8,
+          "hits": [
+            4.18,
+            4.66,
+            5.14
+          ],
+          "duration": 8.69,
+          "events": [
+            {
+              "sound_id": "fire_slash",
+              "phase": "release",
+              "offset": 3.8,
+              "gain": 0.45,
+              "anchor": "launch",
+              "delta": 0,
+              "duration": 0.65
+            },
+            {
+              "sound_id": "fire_slash",
+              "phase": "hit",
+              "offset": 4.18,
+              "gain": 0.36,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.7
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 4.18,
+              "gain": 0.45,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.48
+            },
+            {
+              "sound_id": "fire_slash",
+              "phase": "hit",
+              "offset": 4.66,
+              "gain": 0.36,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 1,
+              "duration": 0.7
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 4.66,
+              "gain": 0.45,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 1,
+              "duration": 0.48
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 5.14,
+              "gain": 0.45,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 2,
+              "duration": 0.48
+            },
+            {
+              "sound_id": "afterburn",
+              "phase": "tail",
+              "offset": 5.26,
+              "gain": 0.28,
+              "anchor": "hit",
+              "delta": 0.12,
+              "hit_index": -1,
+              "until": "end"
+            },
+            {
+              "sound_id": "fire_slash",
+              "phase": "hit",
+              "offset": 5.14,
+              "gain": 0.36,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 2,
+              "duration": 0.7
+            },
+            {
+              "sound_id": "vulcano_charge_long",
+              "phase": "charge",
+              "offset": 0.25,
+              "gain": 0.28,
+              "anchor": "start",
+              "delta": 0.25,
+              "duration": 3.55
+            },
+            {
+              "sound_id": "vulcano_final_explosion",
+              "phase": "tail",
+              "offset": 5.14,
+              "gain": 0.57,
+              "anchor": "hit",
+              "hit_index": -1,
+              "delta": 0,
+              "duration": 2.25
+            }
+          ]
+        }
+      }
+    },
+    "mistral": {
+      "name": "Mistral",
+      "variants": {
+        "0": {
+          "launch": 2.25,
+          "hits": [
+            2.63
+          ],
+          "duration": 4.58,
+          "events": [
+            {
+              "sound_id": "wind_windup",
+              "phase": "charge",
+              "offset": 0.3,
+              "gain": 0.32,
+              "anchor": "start",
+              "delta": 0.3,
+              "until": "launch"
+            },
+            {
+              "sound_id": "wind_vortex",
+              "phase": "charge",
+              "offset": 0.85,
+              "gain": 0.14,
+              "anchor": "start",
+              "delta": 0.85,
+              "duration": 0.8
+            },
+            {
+              "sound_id": "lib-18",
+              "phase": "release",
+              "offset": 2.43,
+              "gain": 0.48,
+              "anchor": "hit",
+              "delta": -0.2,
+              "duration": 0.85,
+              "hit_index": 0
+            },
+            {
+              "sound_id": "compact_hit_A",
+              "phase": "hit",
+              "offset": 2.63,
+              "gain": 0.84,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.4
+            },
+            {
+              "sound_id": "pressure_body",
+              "phase": "hit",
+              "offset": 2.63,
+              "gain": 0.45,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.38
+            },
+            {
+              "sound_id": "debris",
+              "phase": "tail",
+              "offset": 2.75,
+              "gain": 0.3,
+              "anchor": "hit",
+              "delta": 0.12,
+              "hit_index": -1,
+              "until": "end"
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 2.63,
+              "gain": 0.34,
+              "anchor": "hit",
+              "hit_index": 0,
+              "delta": 0,
+              "duration": 0.6
+            }
+          ]
+        },
+        "1": {
+          "launch": 2.25,
+          "hits": [
+            2.63
+          ],
+          "duration": 4.58,
+          "events": [
+            {
+              "sound_id": "wind_windup",
+              "phase": "charge",
+              "offset": 0.3,
+              "gain": 0.32,
+              "anchor": "start",
+              "delta": 0.3,
+              "until": "launch"
+            },
+            {
+              "sound_id": "wind_vortex",
+              "phase": "charge",
+              "offset": 0.85,
+              "gain": 0.14,
+              "anchor": "start",
+              "delta": 0.85,
+              "duration": 0.8
+            },
+            {
+              "sound_id": "lib-18",
+              "phase": "release",
+              "offset": 2.43,
+              "gain": 0.48,
+              "anchor": "hit",
+              "delta": -0.2,
+              "duration": 0.85,
+              "hit_index": 0
+            },
+            {
+              "sound_id": "compact_hit_A",
+              "phase": "hit",
+              "offset": 2.63,
+              "gain": 0.84,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.4
+            },
+            {
+              "sound_id": "pressure_body",
+              "phase": "hit",
+              "offset": 2.63,
+              "gain": 0.45,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.38
+            },
+            {
+              "sound_id": "debris",
+              "phase": "tail",
+              "offset": 2.75,
+              "gain": 0.3,
+              "anchor": "hit",
+              "delta": 0.12,
+              "hit_index": -1,
+              "until": "end"
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 2.63,
+              "gain": 0.34,
+              "anchor": "hit",
+              "hit_index": 0,
+              "delta": 0,
+              "duration": 0.6
+            }
+          ]
+        },
+        "2": {
+          "launch": 2.25,
+          "hits": [
+            2.63,
+            2.85
+          ],
+          "duration": 4.8,
+          "events": [
+            {
+              "sound_id": "wind_windup",
+              "phase": "charge",
+              "offset": 0.3,
+              "gain": 0.32,
+              "anchor": "start",
+              "delta": 0.3,
+              "until": "launch"
+            },
+            {
+              "sound_id": "wind_vortex",
+              "phase": "charge",
+              "offset": 0.85,
+              "gain": 0.14,
+              "anchor": "start",
+              "delta": 0.85,
+              "duration": 0.8
+            },
+            {
+              "sound_id": "lib-18",
+              "phase": "release",
+              "offset": 2.43,
+              "gain": 0.48,
+              "anchor": "hit",
+              "delta": -0.2,
+              "duration": 0.85,
+              "hit_index": 0
+            },
+            {
+              "sound_id": "compact_hit_A",
+              "phase": "hit",
+              "offset": 2.63,
+              "gain": 0.84,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.4
+            },
+            {
+              "sound_id": "compact_hit_D",
+              "phase": "hit",
+              "offset": 2.85,
+              "gain": 0.84,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 1,
+              "duration": 0.4
+            },
+            {
+              "sound_id": "pressure_body",
+              "phase": "hit",
+              "offset": 2.63,
+              "gain": 0.45,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.38
+            },
+            {
+              "sound_id": "debris",
+              "phase": "tail",
+              "offset": 2.97,
+              "gain": 0.3,
+              "anchor": "hit",
+              "delta": 0.12,
+              "hit_index": -1,
+              "until": "end"
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 2.63,
+              "gain": 0.34,
+              "anchor": "hit",
+              "hit_index": 0,
+              "delta": 0,
+              "duration": 0.6
+            }
+          ]
+        }
+      }
+    },
+    "furia": {
+      "name": "Furia",
+      "variants": {
+        "0": {
+          "launch": 2,
+          "hits": [
+            2.38
+          ],
+          "duration": 5.93,
+          "events": [
+            {
+              "sound_id": "lib-19",
+              "phase": "charge",
+              "offset": 0.3,
+              "gain": 0.29,
+              "anchor": "start",
+              "delta": 0.3,
+              "until": "launch"
+            },
+            {
+              "sound_id": "fire_whip",
+              "phase": "release",
+              "offset": 2,
+              "gain": 0.45,
+              "anchor": "launch",
+              "delta": 0,
+              "duration": 0.65
+            },
+            {
+              "sound_id": "fire_slash",
+              "phase": "hit",
+              "offset": 2.38,
+              "gain": 0.36,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.7
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 2.38,
+              "gain": 0.45,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.48
+            },
+            {
+              "sound_id": "afterburn",
+              "phase": "tail",
+              "offset": 2.5,
+              "gain": 0.28,
+              "anchor": "hit",
+              "delta": 0.12,
+              "hit_index": -1,
+              "until": "end"
+            }
+          ]
+        },
+        "1": {
+          "launch": 2,
+          "hits": [
+            2.38
+          ],
+          "duration": 5.93,
+          "events": [
+            {
+              "sound_id": "lib-19",
+              "phase": "charge",
+              "offset": 0.3,
+              "gain": 0.29,
+              "anchor": "start",
+              "delta": 0.3,
+              "until": "launch"
+            },
+            {
+              "sound_id": "fire_whip",
+              "phase": "release",
+              "offset": 2,
+              "gain": 0.45,
+              "anchor": "launch",
+              "delta": 0,
+              "duration": 0.65
+            },
+            {
+              "sound_id": "fire_slash",
+              "phase": "hit",
+              "offset": 2.38,
+              "gain": 0.36,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.7
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 2.38,
+              "gain": 0.45,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.48
+            },
+            {
+              "sound_id": "afterburn",
+              "phase": "tail",
+              "offset": 2.5,
+              "gain": 0.28,
+              "anchor": "hit",
+              "delta": 0.12,
+              "hit_index": -1,
+              "until": "end"
+            }
+          ]
+        },
+        "2": {
+          "launch": 2,
+          "hits": [
+            2.38
+          ],
+          "duration": 5.93,
+          "events": [
+            {
+              "sound_id": "lib-19",
+              "phase": "charge",
+              "offset": 0.3,
+              "gain": 0.29,
+              "anchor": "start",
+              "delta": 0.3,
+              "until": "launch"
+            },
+            {
+              "sound_id": "fire_whip",
+              "phase": "release",
+              "offset": 2,
+              "gain": 0.45,
+              "anchor": "launch",
+              "delta": 0,
+              "duration": 0.65
+            },
+            {
+              "sound_id": "fire_slash",
+              "phase": "hit",
+              "offset": 2.38,
+              "gain": 0.36,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.7
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 2.38,
+              "gain": 0.45,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.48
+            },
+            {
+              "sound_id": "afterburn",
+              "phase": "tail",
+              "offset": 2.5,
+              "gain": 0.28,
+              "anchor": "hit",
+              "delta": 0.12,
+              "hit_index": -1,
+              "until": "end"
+            }
+          ]
+        }
+      }
+    },
+    "wave": {
+      "name": "Ressac",
+      "variants": {
+        "0": {
+          "launch": 3.12,
+          "hits": [
+            3.5
+          ],
+          "duration": 5.45,
+          "events": [
+            {
+              "sound_id": "water_gather",
+              "phase": "charge",
+              "offset": 0.3,
+              "gain": 0.3,
+              "anchor": "start",
+              "delta": 0.3,
+              "until": "launch"
+            },
+            {
+              "sound_id": "lib-21",
+              "phase": "release",
+              "offset": 3.12,
+              "gain": 0.43,
+              "anchor": "launch",
+              "delta": 0,
+              "duration": 1.55
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 3.5,
+              "gain": 0.4,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.5
+            },
+            {
+              "sound_id": "pressure_body",
+              "phase": "hit",
+              "offset": 3.5,
+              "gain": 0.28,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.4
+            },
+            {
+              "sound_id": "spray_tail",
+              "phase": "tail",
+              "offset": 3.62,
+              "gain": 0.3,
+              "anchor": "hit",
+              "delta": 0.12,
+              "hit_index": -1,
+              "until": "end"
+            }
+          ]
+        },
+        "1": {
+          "launch": 3.12,
+          "hits": [
+            3.5
+          ],
+          "duration": 5.45,
+          "events": [
+            {
+              "sound_id": "water_gather",
+              "phase": "charge",
+              "offset": 0.3,
+              "gain": 0.3,
+              "anchor": "start",
+              "delta": 0.3,
+              "until": "launch"
+            },
+            {
+              "sound_id": "lib-21",
+              "phase": "release",
+              "offset": 3.12,
+              "gain": 0.43,
+              "anchor": "launch",
+              "delta": 0,
+              "duration": 1.55
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 3.5,
+              "gain": 0.4,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.5
+            },
+            {
+              "sound_id": "pressure_body",
+              "phase": "hit",
+              "offset": 3.5,
+              "gain": 0.28,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.4
+            },
+            {
+              "sound_id": "spray_tail",
+              "phase": "tail",
+              "offset": 3.62,
+              "gain": 0.3,
+              "anchor": "hit",
+              "delta": 0.12,
+              "hit_index": -1,
+              "until": "end"
+            }
+          ]
+        },
+        "2": {
+          "launch": 3.12,
+          "hits": [
+            3.5,
+            3.68
+          ],
+          "duration": 5.63,
+          "events": [
+            {
+              "sound_id": "water_gather",
+              "phase": "charge",
+              "offset": 0.3,
+              "gain": 0.3,
+              "anchor": "start",
+              "delta": 0.3,
+              "until": "launch"
+            },
+            {
+              "sound_id": "lib-21",
+              "phase": "release",
+              "offset": 3.12,
+              "gain": 0.43,
+              "anchor": "launch",
+              "delta": 0,
+              "duration": 1.55
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 3.5,
+              "gain": 0.4,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.5
+            },
+            {
+              "sound_id": "heavy_hit",
+              "phase": "hit",
+              "offset": 3.68,
+              "gain": 0.4,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 1,
+              "duration": 0.5
+            },
+            {
+              "sound_id": "pressure_body",
+              "phase": "hit",
+              "offset": 3.5,
+              "gain": 0.28,
+              "anchor": "hit",
+              "delta": 0,
+              "hit_index": 0,
+              "duration": 0.4
+            },
+            {
+              "sound_id": "spray_tail",
+              "phase": "tail",
+              "offset": 3.8,
+              "gain": 0.3,
+              "anchor": "hit",
+              "delta": 0.12,
+              "hit_index": -1,
+              "until": "end"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "engine_candidates": [
+    {
+      "library_id": "lib-02",
+      "event": "defeat_player",
+      "label": "Spieler besiegt",
+      "sound_id": "lib-02",
+      "file": "assets/library-trial-v1/lib-02.ogg",
+      "source_file": "bloody-finger-died.mp3",
+      "reference_only_until_provenance_checked": false,
+      "status": "Nur Laborprobe; Engine-Ereignis gehört Claude"
+    },
+    {
+      "library_id": "lib-04",
+      "event": "critical_hit",
+      "label": "Kritischer Treffer",
+      "sound_id": "lib-04",
+      "file": "assets/library-trial-v1/lib-04.ogg",
+      "source_file": "elden-ring-critical-hit.mp3",
+      "reference_only_until_provenance_checked": true,
+      "status": "Nur Laborprobe; Engine-Ereignis gehört Claude"
+    },
+    {
+      "library_id": "lib-05",
+      "event": "state_shaken",
+      "label": "Erschüttert / Haltungsbruch",
+      "sound_id": "lib-05",
+      "file": "assets/library-trial-v1/lib-05.ogg",
+      "source_file": "elden-ring-loss-of-balance.mp3",
+      "reference_only_until_provenance_checked": true,
+      "status": "Nur Laborprobe; Engine-Ereignis gehört Claude"
+    },
+    {
+      "library_id": "lib-06",
+      "event": "enemy_defeated",
+      "label": "Gegner besiegt",
+      "sound_id": "lib-06",
+      "file": "assets/library-trial-v1/lib-06.ogg",
+      "source_file": "Enmy killed effects.flac",
+      "reference_only_until_provenance_checked": false,
+      "status": "Nur Laborprobe; Engine-Ereignis gehört Claude"
+    },
+    {
+      "library_id": "lib-07",
+      "event": "gun_shot",
+      "label": "Schuss · kein Nachladen",
+      "sound_id": "lib-07",
+      "file": "assets/library-trial-v1/lib-07.ogg",
+      "source_file": "fire-mp44-plyr-pnchy-ed3.mp3",
+      "reference_only_until_provenance_checked": false,
+      "status": "Nur Laborprobe; Engine-Ereignis gehört Claude"
+    },
+    {
+      "library_id": "lib-09",
+      "event": "electric_contact",
+      "label": "Strom / Kurzschluss",
+      "sound_id": "lib-09",
+      "file": "assets/library-trial-v1/lib-09.ogg",
+      "source_file": "fx-lightning-strike-close.mp3",
+      "reference_only_until_provenance_checked": false,
+      "status": "Nur Laborprobe; Engine-Ereignis gehört Claude"
+    }
+  ],
+  "edits": [
+    {
+      "attack": "reticle",
+      "replaces": "focus_lock",
+      "with": "lib-01",
+      "cues": 6
+    },
+    {
+      "attack": "blackSlash",
+      "replaces": "shadow_charge",
+      "with": "lib-20",
+      "cues": 3
+    },
+    {
+      "attack": "blackSlash",
+      "replaces": "shadow_vanish",
+      "with": "lib-03",
+      "cues": 3
+    },
+    {
+      "attack": "rain",
+      "replaces": "focus_lock",
+      "with": "lib-08",
+      "cues": 3
+    },
+    {
+      "attack": "rain",
+      "replaces": "star_fall",
+      "with": "lib-14-1",
+      "cues": 3
+    },
+    {
+      "attack": "rain",
+      "replaces": "star_fall",
+      "with": "lib-14-2",
+      "cues": 3
+    },
+    {
+      "attack": "rain",
+      "replaces": "star_fall",
+      "with": "lib-14-3",
+      "cues": 3
+    },
+    {
+      "attack": "rain",
+      "replaces": "ice_dust",
+      "with": "lib-12",
+      "cues": 3
+    },
+    {
+      "attack": "scirocco",
+      "replaces": "firestorm",
+      "with": "lib-10",
+      "cues": 3
+    },
+    {
+      "attack": "beam",
+      "replaces": "light_flash",
+      "with": "lib-11",
+      "cues": 3
+    },
+    {
+      "attack": "doubleSlash",
+      "replaces": "blade_slash",
+      "with": "lib-13-1",
+      "cues": 3
+    },
+    {
+      "attack": "doubleSlash",
+      "replaces": "blade_slash",
+      "with": "lib-13-2",
+      "cues": 3
+    },
+    {
+      "attack": "mistral",
+      "replaces": "wind_gust",
+      "with": "lib-18",
+      "cues": 3
+    },
+    {
+      "attack": "furia",
+      "replaces": "ember_charge",
+      "with": "lib-19",
+      "cues": 3
+    },
+    {
+      "attack": "wave",
+      "replaces": "water_jet",
+      "with": "lib-21",
+      "cues": 3
+    },
+    {
+      "attack": "vulcano",
+      "adds": "lib-17",
+      "anchor": "last hit",
+      "original_fire_slashes": "preserved"
+    }
+  ],
+  "explicit_note": {
+    "lib-01": "Point de Mire testen; Sotto Voce unverändert"
+  },
+  "rejected": [
+    "lib-16"
+  ]
+}

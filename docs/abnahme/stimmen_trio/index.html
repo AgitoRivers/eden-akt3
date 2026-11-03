@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><title>Stimmen Red Trio</title>
+<style>
+:root{--bg:#f6f2ee;--fg:#2a1d1d;--card:#fff;--accent:#b3202a;--mut:#7a6a68}
+@media (prefers-color-scheme:dark){:root{--bg:#1c1515;--fg:#f1e6e4;--card:#2a2020;--accent:#e2525b;--mut:#b09c9a}}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 system-ui,sans-serif;margin:0;padding:24px 16px}
+main{max-width:980px;margin:auto}h1{margin:0 0 4px}p.h{color:var(--mut);margin:0 0 20px}
+section{background:var(--card);border-radius:10px;padding:16px 18px;margin-bottom:16px;border-left:4px solid var(--accent)}
+h2{margin:0 0 4px}.d{color:var(--mut);font-size:13px;margin-bottom:10px}
+.row{display:flex;gap:12px;flex-wrap:wrap}.p{flex:1 1 280px;min-width:0}
+.p b{display:block;margin-bottom:4px}audio{width:100%}.m{font-size:12px;color:var(--mut);font-variant-numeric:tabular-nums}
+</style></head><body><main>
+<h1>Stimmen · Red Trio</h1>
+<p class="h">Je Figur 3 Proben (ElevenLabs Voice Design, Französisch). Wähle je Figur eine Nummer; die wird 24 kHz-Referenz für Chatterbox, der die englischen Zeilen mit diesem Akzent spricht.</p>
+<div id="x"></div></main>
+<script>
+const F=[["danzel","Danzel","Französisch mit japanischem Akzent · heller, leicht nasaler Tenor, spielt den coolen Schurken und kippt bei Angst nach oben"],
+["bibi","Bibi","deutsch-französisch · bubbly, energetisch, rau, übt ihr Schurkinnen-Lachen"],
+["charly","Charly","Französisch · tief, ruhig, völlig monoton, trocken, verschlafen"]];
+fetch("messung.json").then(r=>r.json()).catch(()=>({})).then(M=>{
+ document.getElementById("x").innerHTML=F.map(([id,n,d])=>`<section><h2>${n}</h2><div class="d">${d}</div><div class="row">${
+  [1,2,3].map(i=>{const m=M[id+"_"+i]||{};return `<div class="p"><b>Probe ${i}</b><audio controls preload="none" src="${id}_${i}.mp3"></audio><div class="m">${m.dauer||"?"} s · ${m.lufs||"?"} LUFS · Rauschband ${m.band_8_10k_db||"?"} dB</div></div>`}).join("")}</div></section>`).join("");});
+</script></body></html>

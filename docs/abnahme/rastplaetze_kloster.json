@@ -1,0 +1,55 @@
+{
+ "id": "rastplaetze_kloster",
+ "titel": "Kloster: zwei neue Rastplätze",
+ "hinweis": "Je eine Variante pro Ort mit OK markieren. Von Claude geprüft: keine Personen, keine Lochmuster. Duc 26.10.: Bachufer v2, Schluchtfeuer v4 freigegeben und übernommen.",
+ "items": [
+  {
+   "id": "eden_rise_creek_rest_v1",
+   "titel": "Bachufer (Rast zwischen Pfad und Brücke) – Variante 1",
+   "soll": "Ruhiger Rastplatz am Bach, Mittag, Steinkreis mit Glut, Steineiche, Strohblumen, keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_creek_rest_v1.png"
+  },
+  {
+   "id": "eden_rise_creek_rest_v2",
+   "titel": "Bachufer (Rast zwischen Pfad und Brücke) – Variante 2",
+   "soll": "Ruhiger Rastplatz am Bach, Mittag, Steinkreis mit Glut, Steineiche, Strohblumen, keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_creek_rest_v2.png"
+  },
+  {
+   "id": "eden_rise_creek_rest_v3",
+   "titel": "Bachufer (Rast zwischen Pfad und Brücke) – Variante 3",
+   "soll": "Ruhiger Rastplatz am Bach, Mittag, Steinkreis mit Glut, Steineiche, Strohblumen, keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_creek_rest_v3.png"
+  },
+  {
+   "id": "eden_rise_creek_rest_v4",
+   "titel": "Bachufer (Rast zwischen Pfad und Brücke) – Variante 4",
+   "soll": "Ruhiger Rastplatz am Bach, Mittag, Steinkreis mit Glut, Steineiche, Strohblumen, keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_creek_rest_v4.png"
+  },
+  {
+   "id": "eden_rise_ravine_fire_v1",
+   "titel": "Feuer über der Schlucht (Rast vor dem Löwenbau) – Variante 1",
+   "soll": "Nacht, kleines Lagerfeuer auf einem Felsvorsprung, gegenüber die Höhle, Sterne, keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_ravine_fire_v1.png"
+  },
+  {
+   "id": "eden_rise_ravine_fire_v2",
+   "titel": "Feuer über der Schlucht (Rast vor dem Löwenbau) – Variante 2",
+   "soll": "Nacht, kleines Lagerfeuer auf einem Felsvorsprung, gegenüber die Höhle, Sterne, keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_ravine_fire_v2.png"
+  },
+  {
+   "id": "eden_rise_ravine_fire_v3",
+   "titel": "Feuer über der Schlucht (Rast vor dem Löwenbau) – Variante 3",
+   "soll": "Nacht, kleines Lagerfeuer auf einem Felsvorsprung, gegenüber die Höhle, Sterne, keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_ravine_fire_v3.png"
+  },
+  {
+   "id": "eden_rise_ravine_fire_v4",
+   "titel": "Feuer über der Schlucht (Rast vor dem Löwenbau) – Variante 4",
+   "soll": "Nacht, kleines Lagerfeuer auf einem Felsvorsprung, gegenüber die Höhle, Sterne, keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_ravine_fire_v4.png"
+  }
+ ]
+}

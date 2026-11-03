@@ -1,0 +1,616 @@
+{
+  "schema": 1,
+  "project": "Eden Rise",
+  "catalog_created": "2026-10-24",
+  "exported_at": "2026-10-24T14:57:57.523Z",
+  "selections": [
+    {
+      "slot": "crew_alltag",
+      "title": "Crew-Alltag",
+      "track_ids": [
+        "USUAN1700075",
+        "routenote-soul-wish"
+      ],
+      "note": "",
+      "tracks": [
+        {
+          "id": "USUAN1700075",
+          "title": "Deuces",
+          "artist": "Kevin MacLeod",
+          "length": "03:11",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Deuces.mp3",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700075",
+          "license": "CC BY 4.0 · mit Credits",
+          "license_url": "https://incompetech.com/music/royalty-free/licenses/",
+          "instruments": "Organ, Drums, Piano, Bass",
+          "credit": "Deuces by Kevin MacLeod (incompetech.com), CC BY 4.0"
+        },
+        {
+          "id": "routenote-soul-wish",
+          "title": "Soul Wish",
+          "artist": "Dizolve",
+          "length": "siehe Künstler-Player",
+          "bpm": 100,
+          "vocals": "Instrumental",
+          "instrumental": true,
+          "scenes": [
+            "Sonnendeck",
+            "Crew-Alltag",
+            "leichtere Minispiele"
+          ],
+          "style": "Chillhop / Trip-hop mit Funk-Einfluss",
+          "note": "100 BPM; E-Gitarre, E-Bass, Saxophon und Congas. Groovy, mellow, smooth und relaxed getaggt.",
+          "source": "https://licensing.routenote.com/track/soul-wish",
+          "instruments": "Ambient Tones Electric Guitar Saxophone Synth Electric Drums Bass Guitar Congas",
+          "license_status": "Vorauswahl, keine Spiellizenz erworben oder abschließend bestätigt.",
+          "preview_url": "https://storage.googleapis.com/routenote-licensing-storage/public/tracks/GBSMU7983348/GBSMU7983348.mp3",
+          "preview_source": "Public og:audio metadata on the official track page",
+          "provider": "RouteNote",
+          "listen_url": "https://licensing.routenote.com/track/soul-wish",
+          "license": "RouteNote · Lizenzumfang vor Übernahme prüfen",
+          "license_url": "https://licensing.routenote.com/license-agreement",
+          "credit": "Vorauswahl, keine Spiellizenz erworben oder abschließend bestätigt.",
+          "conditional": true
+        }
+      ]
+    },
+    {
+      "slot": "charter_nacht",
+      "title": "Charter-Nacht",
+      "track_ids": [
+        "USUAN1500010"
+      ],
+      "note": "",
+      "tracks": [
+        {
+          "id": "USUAN1500010",
+          "title": "Your Call",
+          "artist": "Kevin MacLeod",
+          "length": "03:44",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Your%20Call.mp3",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500010",
+          "license": "CC BY 4.0 · mit Credits",
+          "license_url": "https://incompetech.com/music/royalty-free/licenses/",
+          "instruments": "Bass, Guitar, Strings, Synth, Percussion",
+          "credit": "Your Call by Kevin MacLeod (incompetech.com), CC BY 4.0"
+        }
+      ]
+    },
+    {
+      "slot": "nachts_vor_anker",
+      "title": "Nachts vor Anker",
+      "track_ids": [
+        "USUAN1100535",
+        "routenote-suddenly-over"
+      ],
+      "note": "",
+      "tracks": [
+        {
+          "id": "USUAN1100535",
+          "title": "Comfortable Mystery 4",
+          "artist": "Kevin MacLeod",
+          "length": "01:16",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Comfortable%20Mystery%204.mp3",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100535",
+          "license": "CC BY 4.0 · mit Credits",
+          "license_url": "https://incompetech.com/music/royalty-free/licenses/",
+          "instruments": "Electric Piano",
+          "credit": "Comfortable Mystery 4 by Kevin MacLeod (incompetech.com), CC BY 4.0"
+        },
+        {
+          "id": "routenote-suddenly-over",
+          "title": "Suddenly Over",
+          "artist": "Fast Blurry, Domenique Sky",
+          "length": "2:12",
+          "bpm": 70,
+          "vocals": "Instrumental",
+          "instrumental": true,
+          "scenes": [
+            "Kabine",
+            "Nacht vor Anker"
+          ],
+          "style": "Rhodes / entspanntes Downtempo",
+          "note": "70 BPM; Rain Sounds sind Teil des Stücks. Deshalb weniger passend für eine deutlich sonnige Außenszene.",
+          "source": "https://licensing.routenote.com/track/suddenly-over",
+          "instruments": "Synth Electric Drums Rhodes Bass Synth Rain Sounds",
+          "license_status": "Vorauswahl, keine Spiellizenz erworben oder abschließend bestätigt.",
+          "preview_url": "https://storage.googleapis.com/routenote-licensing-storage/public/tracks/GX89G2322701/GX89G2322701.mp3",
+          "preview_source": "Public og:audio metadata on the official track page",
+          "provider": "RouteNote",
+          "listen_url": "https://licensing.routenote.com/track/suddenly-over",
+          "license": "RouteNote · Lizenzumfang vor Übernahme prüfen",
+          "license_url": "https://licensing.routenote.com/license-agreement",
+          "credit": "Vorauswahl, keine Spiellizenz erworben oder abschließend bestätigt.",
+          "conditional": true
+        }
+      ]
+    },
+    {
+      "slot": "rosi_technik",
+      "title": "Rosi · Technik",
+      "track_ids": [
+        "USUAN1100763",
+        "USUAN1500022"
+      ],
+      "note": "nein was mehr steam punk mäßiges muss nicht immer Kevin MacL sein. ",
+      "tracks": [
+        {
+          "id": "USUAN1100763",
+          "title": "Aces High",
+          "artist": "Kevin MacLeod",
+          "length": "03:13",
+          "preview_url": "https://storage.googleapis.com/routenote-licensing-storage/public/tracks/USUAN1100763/USUAN1100763.mp3",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100763",
+          "license": "CC BY 4.0 · mit Credits",
+          "license_url": "https://incompetech.com/music/royalty-free/licenses/",
+          "instruments": "Bass, Organ, Clavinet, Drum Kit",
+          "credit": "Aces High by Kevin MacLeod (incompetech.com), CC BY 4.0",
+          "provider": "RouteNote",
+          "listen_url": "https://licensing.routenote.com/track/aces-high",
+          "route_source": "https://licensing.routenote.com/track/aces-high",
+          "style": "Erste Hörrunde · Orgel & Bass",
+          "instrumental": true,
+          "vocals": "Instrumental",
+          "preview_source": "Öffentliche og:audio-Metadaten der RouteNote-Trackseite"
+        },
+        {
+          "id": "USUAN1500022",
+          "title": "Hep Cats",
+          "artist": "Kevin MacLeod",
+          "length": "04:11",
+          "preview_url": "https://storage.googleapis.com/routenote-licensing-storage/public/tracks/USUAN1500022/USUAN1500022.mp3",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500022",
+          "license": "CC BY 4.0 · mit Credits",
+          "license_url": "https://incompetech.com/music/royalty-free/licenses/",
+          "instruments": "Organ, Bass, Percussion, Flute, Electric Piano, Guitar",
+          "credit": "Hep Cats by Kevin MacLeod (incompetech.com), CC BY 4.0",
+          "provider": "RouteNote",
+          "listen_url": "https://licensing.routenote.com/track/hep-cats",
+          "route_source": "https://licensing.routenote.com/track/hep-cats",
+          "style": "Orgel-Jazz · weitere Stilrichtung",
+          "instrumental": true,
+          "vocals": "Instrumental",
+          "preview_source": "Öffentliche og:audio-Metadaten der RouteNote-Trackseite"
+        }
+      ]
+    },
+    {
+      "slot": "crew_messe",
+      "title": "Crew-Messe · Frühstück",
+      "track_ids": [
+        "purrplecat-04-vibin",
+        "purrplecat-06-beach-club",
+        "routenote-blue-afternoon-with-flaandrei",
+        "routenote-a-mixture-of-sound"
+      ],
+      "note": "",
+      "tracks": [
+        {
+          "id": "purrplecat-04-vibin",
+          "title": "Vibin’",
+          "artist": "Purrple Cat",
+          "length": "1:52",
+          "preview_url": "https://purrplecat-audio.pages.dev/audio/happy-place/04-vibin.mp3",
+          "source": "https://freelofi.com/#happy-place",
+          "license": "CC BY 4.0 laut aktuellem Katalog · mit Credits",
+          "license_url": "https://freelofi.com/",
+          "instruments": "Lo-Fi / Chillhop. Neo-Soul-Gitarren und bestimmte Akkorde sind damit noch nicht bestätigt.",
+          "credit": "Vibin’ — Music by Purrple Cat; CC BY 4.0 laut freelofi.com"
+        },
+        {
+          "id": "purrplecat-06-beach-club",
+          "title": "Beach Club",
+          "artist": "Purrple Cat",
+          "length": "2:15",
+          "preview_url": "https://purrplecat-audio.pages.dev/audio/happy-place/06-beach-club.mp3",
+          "source": "https://freelofi.com/#happy-place",
+          "license": "CC BY 4.0 laut aktuellem Katalog · mit Credits",
+          "license_url": "https://freelofi.com/",
+          "instruments": "Lo-Fi / Chillhop. Neo-Soul-Gitarren und bestimmte Akkorde sind damit noch nicht bestätigt.",
+          "credit": "Beach Club — Music by Purrple Cat; CC BY 4.0 laut freelofi.com"
+        },
+        {
+          "id": "routenote-blue-afternoon-with-flaandrei",
+          "title": "Blue Afternoon (with. Fla.Andrei)",
+          "artist": "Simber",
+          "length": "2:08",
+          "bpm": 77,
+          "vocals": "Instrumental",
+          "instrumental": true,
+          "scenes": [
+            "Kabine",
+            "Crew-Messe / Frühstück",
+            "Wholesome"
+          ],
+          "style": "Gitarren-Lo-Fi / Neo-Soul-nah",
+          "note": "Erster Kandidat für den Wunsch nach E-Gitarre, Rhodes und entspanntem Groove. Offiziell Lo-Fi, nicht ausdrücklich Neo-Soul.",
+          "source": "https://licensing.routenote.com/track/blue-afternoon-with-flaandrei",
+          "instruments": "Electric Guitar Synth Acoustic Drums Rhodes Bass Synth Shaker",
+          "license_status": "Vorauswahl, keine Spiellizenz erworben oder abschließend bestätigt.",
+          "preview_url": "https://storage.googleapis.com/routenote-licensing-storage/public/tracks/GX8KD2378947/GX8KD2378947.mp3",
+          "preview_source": "Public og:audio metadata on the official track page",
+          "provider": "RouteNote",
+          "listen_url": "https://licensing.routenote.com/track/blue-afternoon-with-flaandrei",
+          "license": "RouteNote · Lizenzumfang vor Übernahme prüfen",
+          "license_url": "https://licensing.routenote.com/license-agreement",
+          "credit": "Vorauswahl, keine Spiellizenz erworben oder abschließend bestätigt.",
+          "conditional": true
+        },
+        {
+          "id": "routenote-a-mixture-of-sound",
+          "title": "A Mixture of Sound",
+          "artist": "Jazz Lounge Bar",
+          "length": "2:50",
+          "bpm": 103,
+          "vocals": "Instrumental",
+          "instrumental": true,
+          "scenes": [
+            "Alva-Abend",
+            "Frühstück",
+            "ruhiges Zusammensitzen"
+          ],
+          "style": "Rhodes / Gitarren-Lounge-Jazz",
+          "note": "Klassische Gitarre, Rhodes und Kontrabass; warm und romantisch. Eine Jazz-Alternative, kein bestätigter Latin- oder Neo-Soul-Track.",
+          "source": "https://licensing.routenote.com/track/a-mixture-of-sound",
+          "instruments": "Acoustic Drums Rhodes Double Bass Classical Guitar",
+          "license_status": "Vorauswahl, keine Spiellizenz erworben oder abschließend bestätigt.",
+          "preview_url": "https://storage.googleapis.com/routenote-licensing-storage/public/tracks/GBSMU5562577/GBSMU5562577-1.mp3",
+          "preview_source": "Public og:audio metadata on the official track page",
+          "provider": "RouteNote",
+          "listen_url": "https://licensing.routenote.com/track/a-mixture-of-sound",
+          "license": "RouteNote · Lizenzumfang vor Übernahme prüfen",
+          "license_url": "https://licensing.routenote.com/license-agreement",
+          "credit": "Vorauswahl, keine Spiellizenz erworben oder abschließend bestätigt.",
+          "conditional": true
+        }
+      ]
+    },
+    {
+      "slot": "kabine",
+      "title": "Kabine",
+      "track_ids": [
+        "routenote-blue-afternoon-with-flaandrei",
+        "routenote-only-with-you-instrumental",
+        "routenote-backseat"
+      ],
+      "note": "",
+      "tracks": [
+        {
+          "id": "routenote-blue-afternoon-with-flaandrei",
+          "title": "Blue Afternoon (with. Fla.Andrei)",
+          "artist": "Simber",
+          "length": "2:08",
+          "bpm": 77,
+          "vocals": "Instrumental",
+          "instrumental": true,
+          "scenes": [
+            "Kabine",
+            "Crew-Messe / Frühstück",
+            "Wholesome"
+          ],
+          "style": "Gitarren-Lo-Fi / Neo-Soul-nah",
+          "note": "Erster Kandidat für den Wunsch nach E-Gitarre, Rhodes und entspanntem Groove. Offiziell Lo-Fi, nicht ausdrücklich Neo-Soul.",
+          "source": "https://licensing.routenote.com/track/blue-afternoon-with-flaandrei",
+          "instruments": "Electric Guitar Synth Acoustic Drums Rhodes Bass Synth Shaker",
+          "license_status": "Vorauswahl, keine Spiellizenz erworben oder abschließend bestätigt.",
+          "preview_url": "https://storage.googleapis.com/routenote-licensing-storage/public/tracks/GX8KD2378947/GX8KD2378947.mp3",
+          "preview_source": "Public og:audio metadata on the official track page",
+          "provider": "RouteNote",
+          "listen_url": "https://licensing.routenote.com/track/blue-afternoon-with-flaandrei",
+          "license": "RouteNote · Lizenzumfang vor Übernahme prüfen",
+          "license_url": "https://licensing.routenote.com/license-agreement",
+          "credit": "Vorauswahl, keine Spiellizenz erworben oder abschließend bestätigt.",
+          "conditional": true
+        },
+        {
+          "id": "routenote-only-with-you-instrumental",
+          "title": "Only With You (Instrumental)",
+          "artist": "Hilton Wright II, Ray Gifted Keys",
+          "length": "3:44",
+          "bpm": 90,
+          "vocals": "Instrumental",
+          "instrumental": true,
+          "scenes": [
+            "Nähe",
+            "Kabine",
+            "romantische Gespräche"
+          ],
+          "style": "Soul / R&B / Hip-Hop",
+          "note": "Romantisch und smooth getaggt; akustische Gitarre, Synths und ein ruhiger 90-BPM-Groove.",
+          "source": "https://licensing.routenote.com/track/only-with-you-instrumental",
+          "instruments": "Acoustic Guitar Synth Foley Electric Drums Bass Synth",
+          "license_status": "Vorauswahl, keine Spiellizenz erworben oder abschließend bestätigt.",
+          "preview_url": "https://storage.googleapis.com/routenote-licensing-storage/public/tracks/GX4R52168995/GX4R52168995.mp3",
+          "preview_source": "Public og:audio metadata on the official track page",
+          "provider": "RouteNote",
+          "listen_url": "https://licensing.routenote.com/track/only-with-you-instrumental",
+          "license": "RouteNote · Lizenzumfang vor Übernahme prüfen",
+          "license_url": "https://licensing.routenote.com/license-agreement",
+          "credit": "Vorauswahl, keine Spiellizenz erworben oder abschließend bestätigt.",
+          "conditional": true
+        },
+        {
+          "id": "routenote-backseat",
+          "title": "Backseat",
+          "artist": "Timeless Tunesmith, Blue Cat Guy",
+          "length": "2:48",
+          "bpm": 75,
+          "vocals": "Instrumental",
+          "instrumental": true,
+          "scenes": [
+            "Kabine",
+            "ruhige Nähe"
+          ],
+          "style": "Rhodes / Downtempo, Soul-nah",
+          "note": "75 BPM, Rhodes, weiche Synths und sparsame Rhythmik laut Instrumentierung; offiziell Easy Listening / Instrumental.",
+          "source": "https://licensing.routenote.com/track/backseat",
+          "instruments": "Synth Electric Drums Rhodes Bass Synth",
+          "license_status": "Vorauswahl, keine Spiellizenz erworben oder abschließend bestätigt.",
+          "preview_url": "https://storage.googleapis.com/routenote-licensing-storage/public/tracks/GX89G2382605/GX89G2382605.mp3",
+          "preview_source": "Public og:audio metadata on the official track page",
+          "provider": "RouteNote",
+          "listen_url": "https://licensing.routenote.com/track/backseat",
+          "license": "RouteNote · Lizenzumfang vor Übernahme prüfen",
+          "license_url": "https://licensing.routenote.com/license-agreement",
+          "credit": "Vorauswahl, keine Spiellizenz erworben oder abschließend bestätigt.",
+          "conditional": true
+        }
+      ]
+    },
+    {
+      "slot": "naehe",
+      "title": "Nähe",
+      "track_ids": [
+        "routenote-backseat",
+        "routenote-good-night"
+      ],
+      "note": "",
+      "tracks": [
+        {
+          "id": "routenote-backseat",
+          "title": "Backseat",
+          "artist": "Timeless Tunesmith, Blue Cat Guy",
+          "length": "2:48",
+          "bpm": 75,
+          "vocals": "Instrumental",
+          "instrumental": true,
+          "scenes": [
+            "Kabine",
+            "ruhige Nähe"
+          ],
+          "style": "Rhodes / Downtempo, Soul-nah",
+          "note": "75 BPM, Rhodes, weiche Synths und sparsame Rhythmik laut Instrumentierung; offiziell Easy Listening / Instrumental.",
+          "source": "https://licensing.routenote.com/track/backseat",
+          "instruments": "Synth Electric Drums Rhodes Bass Synth",
+          "license_status": "Vorauswahl, keine Spiellizenz erworben oder abschließend bestätigt.",
+          "preview_url": "https://storage.googleapis.com/routenote-licensing-storage/public/tracks/GX89G2382605/GX89G2382605.mp3",
+          "preview_source": "Public og:audio metadata on the official track page",
+          "provider": "RouteNote",
+          "listen_url": "https://licensing.routenote.com/track/backseat",
+          "license": "RouteNote · Lizenzumfang vor Übernahme prüfen",
+          "license_url": "https://licensing.routenote.com/license-agreement",
+          "credit": "Vorauswahl, keine Spiellizenz erworben oder abschließend bestätigt.",
+          "conditional": true
+        },
+        {
+          "id": "routenote-good-night",
+          "title": "Good Night",
+          "artist": "Dumas Etienne",
+          "length": "2:13",
+          "bpm": 92,
+          "vocals": "Instrumental",
+          "instrumental": true,
+          "scenes": [
+            "Kabine",
+            "ruhige Nacht",
+            "Nähe"
+          ],
+          "style": "Instrumentale Alternative / E-Gitarre",
+          "note": "92 BPM; nur elektrische Gitarre als Instrument angegeben. Calm, mellow und peaceful; wenig rhythmischer Schub zu erwarten.",
+          "source": "https://licensing.routenote.com/track/good-night",
+          "instruments": "Electric Guitar",
+          "license_status": "Vorauswahl, keine Spiellizenz erworben oder abschließend bestätigt.",
+          "preview_url": "https://storage.googleapis.com/routenote-licensing-storage/public/tracks/GX5MY2124236/GX5MY2124236.mp3",
+          "preview_source": "Public og:audio metadata on the official track page",
+          "provider": "RouteNote",
+          "listen_url": "https://licensing.routenote.com/track/good-night",
+          "license": "RouteNote · Lizenzumfang vor Übernahme prüfen",
+          "license_url": "https://licensing.routenote.com/license-agreement",
+          "credit": "Vorauswahl, keine Spiellizenz erworben oder abschließend bestätigt.",
+          "conditional": true
+        }
+      ]
+    },
+    {
+      "slot": "lola_abend",
+      "title": "Lola · Abend",
+      "track_ids": [
+        "paradise-sunset",
+        "routenote-90s-prom"
+      ],
+      "note": "",
+      "tracks": [
+        {
+          "id": "paradise-sunset",
+          "title": "Sunset Getaway",
+          "artist": "Paradise Blossom",
+          "length": "1:34",
+          "bpm": 105,
+          "vocals": "Instrumental",
+          "instrumental": true,
+          "scenes": [
+            "Lola-Abend",
+            "verliebte Übergänge",
+            "Sonnenuntergang"
+          ],
+          "style": "Indie / Dream Pop / Bedroom Pop",
+          "note": "Erster instrumentaler Indie-Prüfkandidat für Lola: E-Gitarre, echter Bass und Synth-Pad, 105 BPM. Kein reines Lo-Fi und nicht als 80er-Synthwave ausgewiesen.",
+          "source": "https://licensing.routenote.com/track/sunset-getaway",
+          "instruments": "Electric Guitar Bass Guitar Synth Pad",
+          "license_status": "Vorauswahl, keine Spiellizenz erworben oder abschließend bestätigt.",
+          "preview_url": "https://storage.googleapis.com/routenote-licensing-storage/public/tracks/GBSMU0128111/GBSMU0128111.mp3",
+          "preview_source": "Public og:audio metadata on the official track page",
+          "provider": "RouteNote",
+          "listen_url": "https://licensing.routenote.com/track/sunset-getaway",
+          "license": "RouteNote · Lizenzumfang vor Übernahme prüfen",
+          "license_url": "https://licensing.routenote.com/license-agreement",
+          "credit": "Vorauswahl, keine Spiellizenz erworben oder abschließend bestätigt.",
+          "conditional": true
+        },
+        {
+          "id": "routenote-90s-prom",
+          "title": "90s Prom",
+          "artist": "Paradise Blossom",
+          "length": "2:35",
+          "bpm": 120,
+          "vocals": "Male Filtered",
+          "instrumental": false,
+          "scenes": [
+            "Lola-Abend",
+            "Party-Ausklang",
+            "romantische Montage"
+          ],
+          "style": "Indie / Dream Pop / Bedroom Pop",
+          "note": "Männlicher, gefilterter Gesang. Stilistisch nahe beim instrumentalen Sunset Getaway; 120 BPM.",
+          "source": "https://licensing.routenote.com/track/90s-prom",
+          "instruments": "Electric Guitar Electric Drums Bass Guitar",
+          "license_status": "Vorauswahl, keine Spiellizenz erworben oder abschließend bestätigt.",
+          "preview_url": "https://storage.googleapis.com/routenote-licensing-storage/public/tracks/GBSMU0128116/GBSMU0128116.mp3",
+          "preview_source": "Public og:audio metadata on the official track page",
+          "provider": "RouteNote",
+          "listen_url": "https://licensing.routenote.com/track/90s-prom",
+          "license": "RouteNote · Lizenzumfang vor Übernahme prüfen",
+          "license_url": "https://licensing.routenote.com/license-agreement",
+          "credit": "Vorauswahl, keine Spiellizenz erworben oder abschließend bestätigt.",
+          "conditional": true
+        }
+      ]
+    },
+    {
+      "slot": "alva_abend",
+      "title": "Alva · Abend",
+      "track_ids": [
+        "USUAN1100185",
+        "USUAN1100404"
+      ],
+      "note": "",
+      "tracks": [
+        {
+          "id": "USUAN1100185",
+          "title": "Just As Soon",
+          "artist": "Kevin MacLeod",
+          "length": "03:48",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Just%20As%20Soon.mp3",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100185",
+          "license": "CC BY 4.0 · mit Credits",
+          "license_url": "https://incompetech.com/music/royalty-free/licenses/",
+          "instruments": "Bass, Acoustic Guitar, Brushed Kit, Electric Piano, Tenor Sax",
+          "credit": "Just As Soon by Kevin MacLeod (incompetech.com), CC BY 4.0"
+        },
+        {
+          "id": "USUAN1100404",
+          "title": "Tango de Manzana",
+          "artist": "Kevin MacLeod",
+          "length": "03:02",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Tango%20de%20Manzana.mp3",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100404",
+          "license": "CC BY 4.0 · mit Credits",
+          "license_url": "https://incompetech.com/music/royalty-free/licenses/",
+          "instruments": "Piano, Bass, Drums, Flute, Violin, Accordion",
+          "credit": "Tango de Manzana by Kevin MacLeod (incompetech.com), CC BY 4.0"
+        }
+      ]
+    },
+    {
+      "slot": "holm_wache",
+      "title": "Holm · Wache",
+      "track_ids": [
+        "USUAN1100082"
+      ],
+      "note": "",
+      "tracks": [
+        {
+          "id": "USUAN1100082",
+          "title": "Serene",
+          "artist": "Kevin MacLeod",
+          "length": "02:11",
+          "preview_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Serene.mp3",
+          "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100082",
+          "license": "CC BY 4.0 · mit Credits",
+          "license_url": "https://incompetech.com/music/royalty-free/licenses/",
+          "instruments": "Full Orchestra",
+          "credit": "Serene by Kevin MacLeod (incompetech.com), CC BY 4.0"
+        }
+      ]
+    },
+    {
+      "slot": "kampf_boss",
+      "title": "Kampf · Boss",
+      "track_ids": [
+        "peritune-demise"
+      ],
+      "note": "",
+      "tracks": [
+        {
+          "id": "peritune-demise",
+          "title": "Demise",
+          "artist": "PeriTune / Sei Mutsuki",
+          "length": "siehe Künstler-Player",
+          "preview_url": "https://peritune.com/music/PerituneMaterial_Demise.mp3",
+          "listen_url": "https://www.youtube.com/watch?v=Ouj_cwWJdmo",
+          "source": "https://peritune.com/blog/2018/11/06/demise/",
+          "license": "CC BY 4.0 · Veröffentlichung vor März 2026 · mit Credits",
+          "license_url": "https://peritune.com/about/",
+          "instruments": "Instrumentale RPG-Kampfmusik; Loop-Dateien auf der Künstlerseite.",
+          "credit": "Demise by PeriTune (Sei Mutsuki), CC BY 4.0; https://peritune.com/blog/2018/11/06/demise/"
+        }
+      ]
+    },
+    {
+      "slot": "event_wholesome",
+      "title": "Wholesome · warme Momente",
+      "track_ids": [
+        "routenote-blue-afternoon-with-flaandrei"
+      ],
+      "note": "",
+      "tracks": [
+        {
+          "id": "routenote-blue-afternoon-with-flaandrei",
+          "title": "Blue Afternoon (with. Fla.Andrei)",
+          "artist": "Simber",
+          "length": "2:08",
+          "bpm": 77,
+          "vocals": "Instrumental",
+          "instrumental": true,
+          "scenes": [
+            "Kabine",
+            "Crew-Messe / Frühstück",
+            "Wholesome"
+          ],
+          "style": "Gitarren-Lo-Fi / Neo-Soul-nah",
+          "note": "Erster Kandidat für den Wunsch nach E-Gitarre, Rhodes und entspanntem Groove. Offiziell Lo-Fi, nicht ausdrücklich Neo-Soul.",
+          "source": "https://licensing.routenote.com/track/blue-afternoon-with-flaandrei",
+          "instruments": "Electric Guitar Synth Acoustic Drums Rhodes Bass Synth Shaker",
+          "license_status": "Vorauswahl, keine Spiellizenz erworben oder abschließend bestätigt.",
+          "preview_url": "https://storage.googleapis.com/routenote-licensing-storage/public/tracks/GX8KD2378947/GX8KD2378947.mp3",
+          "preview_source": "Public og:audio metadata on the official track page",
+          "provider": "RouteNote",
+          "listen_url": "https://licensing.routenote.com/track/blue-afternoon-with-flaandrei",
+          "license": "RouteNote · Lizenzumfang vor Übernahme prüfen",
+          "license_url": "https://licensing.routenote.com/license-agreement",
+          "credit": "Vorauswahl, keine Spiellizenz erworben oder abschließend bestätigt.",
+          "conditional": true
+        }
+      ]
+    }
+  ],
+  "unselected_slots": [
+    "holm_abschied",
+    "finale",
+    "kampf_normal",
+    "kampf_sieg",
+    "deck_tag",
+    "hafen_tag",
+    "alvas_bar"
+  ]
+}

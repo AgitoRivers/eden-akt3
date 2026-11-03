@@ -1,0 +1,475 @@
+{
+ "id": "sets_vorschau_r1",
+ "titel": "Vorschau – Dorf-Figuren und Adrien, NPC-Posen",
+ "hinweis": "Nur die NPC-Posen, die schon fertig sind. Es fehlen noch excitement_2, embarrassment_2, admiration_2, love_2 und bei Adrien der Rest. Rohbilder, noch nicht geprüft, nichts davon im Spiel.",
+ "items": [
+  {
+   "id": "Yacht_Pascal_neutral",
+   "titel": "Pascal · neutral",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Pascal_neutral.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Pascal_caring",
+   "titel": "Pascal · caring",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Pascal_caring.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Pascal_joy",
+   "titel": "Pascal · joy",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Pascal_joy.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Pascal_sadness",
+   "titel": "Pascal · sadness",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Pascal_sadness.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Pascal_anger",
+   "titel": "Pascal · anger",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Pascal_anger.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Pascal_fear_2",
+   "titel": "Pascal · fear_2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Pascal_fear_2.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Pascal_surprise",
+   "titel": "Pascal · surprise",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Pascal_surprise.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Pascal_disgust",
+   "titel": "Pascal · disgust",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Pascal_disgust.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Pascal_amusement",
+   "titel": "Pascal · amusement",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Pascal_amusement.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Pascal_annoyance",
+   "titel": "Pascal · annoyance",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Pascal_annoyance.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Pascal_confusion",
+   "titel": "Pascal · confusion",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Pascal_confusion.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Pascal_curiosity",
+   "titel": "Pascal · curiosity",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Pascal_curiosity.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Pascal_pride",
+   "titel": "Pascal · pride",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Pascal_pride.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Pascal_approval",
+   "titel": "Pascal · approval",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Pascal_approval.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Pascal_gratitude",
+   "titel": "Pascal · gratitude",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Pascal_gratitude.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Pascal_nervousness",
+   "titel": "Pascal · nervousness",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Pascal_nervousness.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Pascal_disapproval",
+   "titel": "Pascal · disapproval",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Pascal_disapproval.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Pascal_disappointment",
+   "titel": "Pascal · disappointment",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Pascal_disappointment.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_BaTu_neutral",
+   "titel": "Bà Tư · neutral",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_BaTu_neutral.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_BaTu_caring",
+   "titel": "Bà Tư · caring",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_BaTu_caring.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_BaTu_joy",
+   "titel": "Bà Tư · joy",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_BaTu_joy.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_BaTu_sadness",
+   "titel": "Bà Tư · sadness",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_BaTu_sadness.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_BaTu_anger",
+   "titel": "Bà Tư · anger",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_BaTu_anger.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_BaTu_fear_2",
+   "titel": "Bà Tư · fear_2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_BaTu_fear_2.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_BaTu_surprise",
+   "titel": "Bà Tư · surprise",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_BaTu_surprise.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_BaTu_disgust",
+   "titel": "Bà Tư · disgust",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_BaTu_disgust.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_BaTu_amusement",
+   "titel": "Bà Tư · amusement",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_BaTu_amusement.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_BaTu_annoyance",
+   "titel": "Bà Tư · annoyance",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_BaTu_annoyance.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_BaTu_confusion",
+   "titel": "Bà Tư · confusion",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_BaTu_confusion.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_BaTu_curiosity",
+   "titel": "Bà Tư · curiosity",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_BaTu_curiosity.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_BaTu_pride",
+   "titel": "Bà Tư · pride",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_BaTu_pride.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_BaTu_approval",
+   "titel": "Bà Tư · approval",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_BaTu_approval.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_BaTu_gratitude",
+   "titel": "Bà Tư · gratitude",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_BaTu_gratitude.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_BaTu_nervousness",
+   "titel": "Bà Tư · nervousness",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_BaTu_nervousness.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_BaTu_disapproval",
+   "titel": "Bà Tư · disapproval",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_BaTu_disapproval.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_BaTu_disappointment",
+   "titel": "Bà Tư · disappointment",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_BaTu_disappointment.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Sandru_neutral",
+   "titel": "Sandru · neutral",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Sandru_neutral.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Sandru_caring",
+   "titel": "Sandru · caring",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Sandru_caring.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Sandru_joy",
+   "titel": "Sandru · joy",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Sandru_joy.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Sandru_sadness",
+   "titel": "Sandru · sadness",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Sandru_sadness.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Sandru_anger",
+   "titel": "Sandru · anger",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Sandru_anger.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Sandru_fear_2",
+   "titel": "Sandru · fear_2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Sandru_fear_2.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Sandru_surprise",
+   "titel": "Sandru · surprise",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Sandru_surprise.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Sandru_disgust",
+   "titel": "Sandru · disgust",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Sandru_disgust.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Sandru_amusement",
+   "titel": "Sandru · amusement",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Sandru_amusement.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Sandru_annoyance",
+   "titel": "Sandru · annoyance",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Sandru_annoyance.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Sandru_confusion",
+   "titel": "Sandru · confusion",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Sandru_confusion.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Sandru_curiosity",
+   "titel": "Sandru · curiosity",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Sandru_curiosity.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Sandru_pride",
+   "titel": "Sandru · pride",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Sandru_pride.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Sandru_approval",
+   "titel": "Sandru · approval",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Sandru_approval.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Sandru_gratitude",
+   "titel": "Sandru · gratitude",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Sandru_gratitude.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Sandru_nervousness",
+   "titel": "Sandru · nervousness",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Sandru_nervousness.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Sandru_disapproval",
+   "titel": "Sandru · disapproval",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Sandru_disapproval.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Sandru_disappointment",
+   "titel": "Sandru · disappointment",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Sandru_disappointment.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Anghjulu_neutral",
+   "titel": "Don Anghjulu · neutral",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Anghjulu_neutral.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Anghjulu_caring",
+   "titel": "Don Anghjulu · caring",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Anghjulu_caring.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Anghjulu_joy",
+   "titel": "Don Anghjulu · joy",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Anghjulu_joy.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Anghjulu_sadness",
+   "titel": "Don Anghjulu · sadness",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Anghjulu_sadness.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Anghjulu_anger",
+   "titel": "Don Anghjulu · anger",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Anghjulu_anger.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Anghjulu_fear_2",
+   "titel": "Don Anghjulu · fear_2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Anghjulu_fear_2.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Anghjulu_surprise",
+   "titel": "Don Anghjulu · surprise",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Anghjulu_surprise.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Anghjulu_disgust",
+   "titel": "Don Anghjulu · disgust",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Anghjulu_disgust.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Anghjulu_amusement",
+   "titel": "Don Anghjulu · amusement",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Anghjulu_amusement.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Anghjulu_annoyance",
+   "titel": "Don Anghjulu · annoyance",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Anghjulu_annoyance.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Anghjulu_confusion",
+   "titel": "Don Anghjulu · confusion",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Anghjulu_confusion.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Anghjulu_curiosity",
+   "titel": "Don Anghjulu · curiosity",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Anghjulu_curiosity.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Anghjulu_pride",
+   "titel": "Don Anghjulu · pride",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Anghjulu_pride.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Anghjulu_approval",
+   "titel": "Don Anghjulu · approval",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Anghjulu_approval.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Anghjulu_gratitude",
+   "titel": "Don Anghjulu · gratitude",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Anghjulu_gratitude.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Anghjulu_nervousness",
+   "titel": "Don Anghjulu · nervousness",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Anghjulu_nervousness.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Anghjulu_disapproval",
+   "titel": "Don Anghjulu · disapproval",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Anghjulu_disapproval.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_Anghjulu_disappointment",
+   "titel": "Don Anghjulu · disappointment",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_Anghjulu_disappointment.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_AdrienNeu_joy",
+   "titel": "Adrien · joy",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_AdrienNeu_joy.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_AdrienNeu_amusement",
+   "titel": "Adrien · amusement",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_AdrienNeu_amusement.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_AdrienNeu_pride",
+   "titel": "Adrien · pride",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_AdrienNeu_pride.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_AdrienNeu_approval",
+   "titel": "Adrien · approval",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_AdrienNeu_approval.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_AdrienNeu_gratitude",
+   "titel": "Adrien · gratitude",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_AdrienNeu_gratitude.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  },
+  {
+   "id": "Yacht_AdrienNeu_disappointment",
+   "titel": "Adrien · disappointment",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\sets_vorschau\\Yacht_AdrienNeu_disappointment.jpg",
+   "soll": "Vorschau, Rohbild aus dem laufenden Set."
+  }
+ ]
+}

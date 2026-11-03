@@ -1,0 +1,26 @@
+{
+  "source": "X:\\AI\\Eden\\docs\\effekt-auswahl\\status-labor\\quellen\\native-v4\\wave_maker_1_render_all_rasterizer_.png",
+  "source_sha256": "65e1221cba6847d530bfd7b57c5e43a738129d8efe75b4354da3c8525c278242",
+  "asset": "assets/liquigen-welle.png",
+  "columns": 8,
+  "rows": 4,
+  "frames": 32,
+  "frame_size": [
+    128,
+    96
+  ],
+  "source_frames": [
+    32,
+    63
+  ],
+  "playback_fps": 16,
+  "crop": [
+    0,
+    104,
+    110,
+    176
+  ],
+  "processing": "crop, beige basin removal, alpha feather; no simulation or AI generation",
+  "unique_frames": 32,
+  "limitation": "Small water region in a wide camera view; limited source detail."
+}

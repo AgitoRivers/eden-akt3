@@ -1,0 +1,175 @@
+{
+ "id": "duc_konter",
+ "titel": "Duc: Konter-Posen aller Waffen",
+ "hinweis": "21 Posen: Säbel, Schläger, Speer und Flinte in fünf Looks, dazu der Schrubber. Vorschlag: alle freigeben. Die Flinte steht als Einzige am Boden, ein Sprung mit langer Waffe im Anschlag sah unlogisch aus. Noch nicht gespiegelt, im Spiel schaut er nach rechts. Noch nicht im Spiel.",
+ "items": [
+  {
+   "id": "DucCyberBat",
+   "titel": "DucCyberBat",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucCyberBat\\konter.png",
+   "soll": "Konter nach der perfekten Parade, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberBat\\attack.png",
+   "vergleich_titel": "attack"
+  },
+  {
+   "id": "DucCyberGun",
+   "titel": "DucCyberGun",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucCyberGun\\konter.png",
+   "soll": "Konter nach der perfekten Parade, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberGun\\attack.png",
+   "vergleich_titel": "attack"
+  },
+  {
+   "id": "DucCyberSpear",
+   "titel": "DucCyberSpear",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucCyberSpear\\konter.png",
+   "soll": "Konter nach der perfekten Parade, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSpear\\attack.png",
+   "vergleich_titel": "attack"
+  },
+  {
+   "id": "DucCyberSword",
+   "titel": "DucCyberSword",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucCyberSword\\konter.png",
+   "soll": "Konter nach der perfekten Parade, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucCyberSword\\attack.png",
+   "vergleich_titel": "attack"
+  },
+  {
+   "id": "DucErdeBat",
+   "titel": "DucErdeBat",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucErdeBat\\konter.png",
+   "soll": "Konter nach der perfekten Parade, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeBat\\attack.png",
+   "vergleich_titel": "attack"
+  },
+  {
+   "id": "DucErdeGun",
+   "titel": "DucErdeGun",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucErdeGun\\konter.png",
+   "soll": "Konter nach der perfekten Parade, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeGun\\attack.png",
+   "vergleich_titel": "attack"
+  },
+  {
+   "id": "DucErdeMop",
+   "titel": "DucErdeMop",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucErdeMop\\konter.png",
+   "soll": "Konter nach der perfekten Parade, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeMop\\attack.png",
+   "vergleich_titel": "attack"
+  },
+  {
+   "id": "DucErdeSpear",
+   "titel": "DucErdeSpear",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucErdeSpear\\konter.png",
+   "soll": "Konter nach der perfekten Parade, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSpear\\attack.png",
+   "vergleich_titel": "attack"
+  },
+  {
+   "id": "DucErdeSword",
+   "titel": "DucErdeSword",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucErdeSword\\konter.png",
+   "soll": "Konter nach der perfekten Parade, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucErdeSword\\attack.png",
+   "vergleich_titel": "attack"
+  },
+  {
+   "id": "DucFeuerBat",
+   "titel": "DucFeuerBat",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucFeuerBat\\konter.png",
+   "soll": "Konter nach der perfekten Parade, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerBat\\attack.png",
+   "vergleich_titel": "attack"
+  },
+  {
+   "id": "DucFeuerGun",
+   "titel": "DucFeuerGun",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucFeuerGun\\konter.png",
+   "soll": "Konter nach der perfekten Parade, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerGun\\attack.png",
+   "vergleich_titel": "attack"
+  },
+  {
+   "id": "DucFeuerSpear",
+   "titel": "DucFeuerSpear",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucFeuerSpear\\konter.png",
+   "soll": "Konter nach der perfekten Parade, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerSpear\\attack.png",
+   "vergleich_titel": "attack"
+  },
+  {
+   "id": "DucFeuerSword",
+   "titel": "DucFeuerSword",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucFeuerSword\\konter.png",
+   "soll": "Konter nach der perfekten Parade, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucFeuerSword\\attack.png",
+   "vergleich_titel": "attack"
+  },
+  {
+   "id": "DucLuftBat",
+   "titel": "DucLuftBat",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucLuftBat\\konter.png",
+   "soll": "Konter nach der perfekten Parade, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftBat\\attack.png",
+   "vergleich_titel": "attack"
+  },
+  {
+   "id": "DucLuftGun",
+   "titel": "DucLuftGun",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucLuftGun\\konter.png",
+   "soll": "Konter nach der perfekten Parade, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftGun\\attack.png",
+   "vergleich_titel": "attack"
+  },
+  {
+   "id": "DucLuftSpear",
+   "titel": "DucLuftSpear",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucLuftSpear\\konter.png",
+   "soll": "Konter nach der perfekten Parade, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftSpear\\attack.png",
+   "vergleich_titel": "attack"
+  },
+  {
+   "id": "DucLuftSword",
+   "titel": "DucLuftSword",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucLuftSword\\konter.png",
+   "soll": "Konter nach der perfekten Parade, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucLuftSword\\attack.png",
+   "vergleich_titel": "attack"
+  },
+  {
+   "id": "DucWasserBat",
+   "titel": "DucWasserBat",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucWasserBat\\konter.png",
+   "soll": "Konter nach der perfekten Parade, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserBat\\attack.png",
+   "vergleich_titel": "attack"
+  },
+  {
+   "id": "DucWasserGun",
+   "titel": "DucWasserGun",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucWasserGun\\konter.png",
+   "soll": "Konter nach der perfekten Parade, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserGun\\attack.png",
+   "vergleich_titel": "attack"
+  },
+  {
+   "id": "DucWasserSpear",
+   "titel": "DucWasserSpear",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucWasserSpear\\konter.png",
+   "soll": "Konter nach der perfekten Parade, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserSpear\\attack.png",
+   "vergleich_titel": "attack"
+  },
+  {
+   "id": "DucWasserSword",
+   "titel": "DucWasserSword",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_duc_konter\\DucWasserSword\\konter.png",
+   "soll": "Konter nach der perfekten Parade, Waffe nach vorn",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DucWasserSword\\attack.png",
+   "vergleich_titel": "attack"
+  }
+ ]
+}

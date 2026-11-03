@@ -1,0 +1,627 @@
+{
+ "_hinweis": "Gebaut aus werkzeuge\\eden_rise\\laeden_eden_rise.py - dort aendern.",
+ "laeden": {
+  "alva": {
+   "name": "Alva's Bar",
+   "wer": "alva",
+   "nur_an_land": true,
+   "hintergrund": "corsican_village_bar.png",
+   "set": "Standard",
+   "text": "The only bar in Cala d'Orsu, and since the quarrel over the village shop the only shop too. Alva sells everything, diesel under the counter included.",
+   "gruss_stufen": {
+    "gruss_fremd": [
+     0,
+     1
+    ],
+    "gruss_freundin": [
+     2,
+     3
+    ],
+    "gruss_naehe": [
+     4,
+     5
+    ]
+   },
+   "zeilen": {
+    "gruss_fremd": [
+     "Benvenutu, o figliolu. Bar, bakery, hardware shop and post office. If I don't have it, it doesn't exist.",
+     "The yacht man. Everybody talks about you. Sit, buy something, give them something new to talk about.",
+     "Prices are on the board. The board lies a little. Ask nicely and it lies less."
+    ],
+    "gruss_freundin": [
+     "There he is. I put your glass aside before you came in. Don't ask how I knew.",
+     "My favourite customer. Don't tell the fishermen, they think it's them.",
+     "Ah, you again. Good. The day was getting boring."
+    ],
+    "gruss_naehe": [
+     "Close the door behind you, o figliolu. Slowly. I like watching you do it.",
+     "For you, everything is cheaper. Almost everything. Some things you pay for differently.",
+     "I was thinking about you just now. Then you walked in. The universe owes me money."
+    ],
+    "kauf": [
+     "Bravu. Good choice. I'd have chosen it too.",
+     "On the tab or cash? Cash. Good boy.",
+     "Take it. And come back tomorrow, I'll have something you didn't know you wanted."
+    ],
+    "diesel": [
+     "One canister, under the counter. Only one a day, I'm a bar, not a refinery.",
+     "Diesel again? You'll smell like a fisherman. I don't mind fishermen."
+    ],
+    "diesel_leer": [
+     "No more diesel today. Come back tomorrow. Or come back tonight, without a reason."
+    ],
+    "pleite": [
+     "No money? Then sing for it. No? Then come back richer, o figliolu.",
+     "Empty pockets and that face. Unfair. Still no."
+    ]
+   },
+   "gefuehl": {
+    "gruss": "joy",
+    "gruss_naehe": "desire",
+    "kauf": "amusement",
+    "diesel": "approval",
+    "diesel_leer": "amusement",
+    "pleite": "disappointment"
+   }
+  },
+  "lola": {
+   "name": "Lola's Galley",
+   "wer": "lola",
+   "nur_an_land": false,
+   "hintergrund": "yacht_galley.png",
+   "set": "Galley",
+   "text": "The galley smells of butter, sugar and something nobody talks about. One meal a day: eat it yourself or give it away.",
+   "gruss_stufen": {
+    "gruss_fremd": [
+     0,
+     1
+    ],
+    "gruss_freundin": [
+     2,
+     3
+    ],
+    "gruss_naehe": [
+     4,
+     5
+    ]
+   },
+   "zeilen": {
+    "gruss_fremd": [
+     "Boss! Welcome to the galley. Everything here is made with love. And butter. Mostly butter.",
+     "Hungry? You look hungry. You look like a man who forgot breakfast. Sit.",
+     "Today's menu is whatever survived the fridge. Trust me, it's good."
+    ],
+    "gruss_freundin": [
+     "There's my favourite taster! I made something weird today. You're going to love it. Or die. Probably love it.",
+     "Boss, my boss. I saved you the corner piece. The corner piece is the best piece.",
+     "You came back! The galley missed you. I missed you. The galley mostly."
+    ],
+    "gruss_naehe": [
+     "Hey, you. Come here. Taste this. From the spoon. From my spoon.",
+     "I baked something special. It's for you. It's also a little bit for me, if you know what I mean.",
+     "Every time you walk in, I burn something. That's a compliment, babe."
+    ],
+    "kauf": [
+     "Enjoy! Eat it slowly. Or give it to someone you like. Food is love, that's science.",
+     "Good choice, mate. That one has a secret ingredient. The secret is more sugar.",
+     "Wrapped in a napkin with a little heart on it. Don't tell Chiara I used the good napkins."
+    ],
+    "satt": [
+     "No, no, you already ate today. One a day, Boss. Otherwise you'll fall asleep in the generator room.",
+     "You're full. I can see it. Come back tomorrow, I'll make it worth your while."
+    ],
+    "special": [
+     "Today's special! Thirty percent off, because I made too much and the seagull is watching me."
+    ],
+    "gras": [
+     "These ones are… special special. Don't eat them before a meeting. Or a coast guard visit.",
+     "Shh. Under the tea towel. For grown-ups with nothing to do tomorrow morning."
+    ],
+    "pleite": [
+     "No money? That's fine. I'll put it on your tab. Your tab is a little drawing of you on the fridge."
+    ]
+   },
+   "gefuehl": {
+    "gruss": "joy",
+    "gruss_naehe": "desire",
+    "kauf": "amusement",
+    "satt": "caring",
+    "special": "excitement",
+    "gras": "amusement",
+    "pleite": "caring"
+   }
+  },
+  "megan": {
+   "name": "Eden Shop",
+   "wer": "megan",
+   "nur_an_land": false,
+   "hintergrund": "eden_hq_megan_office.png",
+   "set": "Boardroom",
+   "anruf": true,
+   "text": "Spare parts and Eden goods, ordered by video call from the fleet director and delivered with the next supply boat. From trust level 3 with Megan there is a discount.",
+   "gruss_stufen": {
+    "gruss_kalt": [
+     0,
+     2
+    ],
+    "gruss_warm": [
+     3,
+     5
+    ]
+   },
+   "zeilen": {
+    "gruss_kalt": [
+     "First Officer. You're calling the Eden shop. Which means you want something. Be quick, I bill by the minute.",
+     "Spare parts, merchandise, miracles. Two of those are in stock.",
+     "Order something sensible, and I'll pretend you're a responsible man."
+    ],
+    "gruss_warm": [
+     "Ah, my favourite disaster. What can I sell you today? I'm in a generous mood. It won't last.",
+     "You again. Good. Nobody else calls me just to buy screws. It's almost romantic.",
+     "For you, a discount. Don't tell the other captains. They'd cry. I'd enjoy it."
+    ],
+    "kauf": [
+     "Ordered. It arrives with the next supply boat. Try not to break it before then.",
+     "Excellent purchase. I'll put it on the Group's account and your conscience.",
+     "Done. You see? We can do business without anyone crying."
+    ],
+    "rabatt": [
+     "Ten percent off. Per level of my affection. You're doing better than most."
+    ],
+    "pleite": [
+     "Insufficient funds. How very human. Come back when you're liquid, First Officer.",
+     "No money. I'd lend you some, but I'm not that kind of villain. Yet."
+    ]
+   },
+   "gefuehl": {
+    "gruss": "neutral",
+    "gruss_warm": "amusement",
+    "kauf": "pride",
+    "rabatt": "amusement",
+    "pleite": "disapproval"
+   }
+  },
+  "rosi": {
+   "name": "Rosi's Workshop",
+   "wer": "rosi",
+   "nur_an_land": false,
+   "werkstatt": true,
+   "hintergrund": "eden_rise_workshop.png",
+   "set": "Engine Room",
+   "text": "Rosi's workshop on the lower deck: chips fitted, weapons and jackets upgraded.",
+   "gruss_stufen": {
+    "gruss_fremd": [
+     0,
+     1
+    ],
+    "gruss_freundin": [
+     2,
+     3
+    ],
+    "gruss_naehe": [
+     4,
+     5
+    ]
+   },
+   "zeilen": {
+    "gruss_fremd": [
+     "If you're here to look at the motor, don't touch anything. If you're here to fix something, welcome.",
+     "Workshop rules: you break it, you carry it. Now, what are we building?",
+     "Your plan is probably bad. Show me the part and I'll tell you how bad."
+    ],
+    "gruss_freundin": [
+     "Officer. Good. I was starting to talk to the drill again.",
+     "Put it on the bench. Gently. It's the only bench I trust.",
+     "You've got that look. Either you broke something or you have an idea. Both are fine."
+    ],
+    "gruss_naehe": [
+     "You came back. I kept the good stool for you. Don't make a thing of it.",
+     "Sit. Hold this. No, like that. ...Yes. You're not bad at this.",
+     "Everything on this bench has a name. You're the first person who asked what they are."
+    ],
+    "zu": [
+     "The workshop is still a mess. Give me a few more days. The locker's open, though.",
+     "I can't work in here yet. I can hand you your gear, nothing more."
+    ],
+    "kauf": [
+     "Put it on the bench. You'll hear from me in the morning.",
+     "Got it. Don't poke it while I'm gone."
+    ]
+   },
+   "gefuehl": {
+    "gruss": "joy",
+    "gruss_naehe": "amusement",
+    "zu": "annoyance",
+    "kauf": "pride"
+   }
+  },
+  "toto": {
+   "name": "Totò's Locker",
+   "wer": "toto",
+   "zeilen_aus": "modul.json laeden.toto.haendler_zeilen",
+   "hintergrund": "eden_rise_toto_spind.png"
+  },
+  "isabelle": {
+   "name": "San Martinu Pharmacy",
+   "wer": "isabelle",
+   "nur_an_land": false,
+   "anruf": true,
+   "hintergrund": "eden_rise_monastery_garden_dusk.png",
+   "set": "isabelle_standard",
+   "text": "Isabelle's herbal remedies from the monastery pharmacy. Order by phone, and Frederico brings it down to the harbour with the goat cart.",
+   "gruss_stufen": {
+    "gruss_fremd": [
+     0,
+     1
+    ],
+    "gruss_freundin": [
+     2,
+     5
+    ]
+   },
+   "zeilen": {
+    "gruss_fremd": [
+     "San Martinu pharmacy, Isabelle speaking! Sorry about the noise. That was a small explosion. A medicinal one.",
+     "Oh! The man from the yacht. Nonna says I'm allowed to sell to you. She said it with the spoon, but she said it.",
+     "Herbs, tinctures, and only one of them is still bubbling. What do you need?"
+    ],
+    "gruss_freundin": [
+     "You called! I made a fresh batch. It smells like rosemary and only a little bit like smoke.",
+     "Officer! Frederico wants to know if you've fought a lion yet. I told him not to ask. I also want to know.",
+     "I've been practising. Nothing has exploded since Tuesday. Well. Nothing important."
+    ],
+    "kauf": [
+     "It goes down with Frederico and the goat. The goat is very reliable. Frederico is mostly reliable.",
+     "Three drops, not four. Four is... also fine. Probably. Just do three.",
+     "Thank you! Nonna will pretend she isn't pleased. She'll be pleased."
+    ],
+    "pleite": [
+     "Oh, that's not enough. I'm sorry! Nonna counts every coin. Twice. With the spoon."
+    ]
+   },
+   "gefuehl": {
+    "gruss": "joy",
+    "gruss_fremd": "nervousness",
+    "kauf": "joy",
+    "pleite": "embarrassment"
+   }
+  },
+  "nonna": {
+   "name": "Nonna's Farm",
+   "wer": "nonna",
+   "nur_an_land": false,
+   "hintergrund": "eden_rise_monastery_garden_dusk.png",
+   "text": "Beds, sheds and a very opinionated goat. Nonna sells what she can spare, and Frederico runs it down to the harbour.",
+   "gruss_stufen": {
+    "gruss": [
+     0,
+     5
+    ]
+   },
+   "zeilen": {
+    "gruss": [
+     "Stand still, or I'll cook you! There. Now you can look at the animals. Don't feed the goat, she bites.",
+     "Come in, come in. Nobody leaves my farm hungry and rude. Wash your hands first.",
+     "The beds are ready, the animals are loud, and Frederico has been waiting all morning for an errand. What do you need?"
+    ],
+    "kauf": [
+     "Good. Frederico will bring it over before it gets cold. Frederico! Where is that boy?",
+     "Honest money for honest food. And don't haggle with the goat, she always wins."
+    ]
+   },
+   "gefuehl": {
+    "gruss": "joy",
+    "kauf": "approval"
+   }
+  },
+  "petru": {
+   "name": "Petru's Workshop",
+   "wer": "petru",
+   "nur_an_land": false,
+   "hintergrund": "corsican_fisherman_workshop.png",
+   "text": "Nets, a blue boat on trestles and a radio that only plays Corsican football. Petru sells tools now, because someone has to pay for the diesel.",
+   "gruss_stufen": {
+    "gruss": [
+     0,
+     5
+    ]
+   },
+   "zeilen": {
+    "gruss": [
+     "Hm. Sit down, if you like. Bastia is losing again, so don't expect much talking from me today.",
+     "You came back. Good. Mind the blue boat, the paint on her is still wet.",
+     "The tools are on the wall. Look as long as you want, nobody in here is in a hurry."
+    ],
+    "kauf_axe_1": [
+     "It was my father's. Old, and not very sharp, but it has never once let go of the handle. I'm sorry about the money. Marie, my wife, always did that part."
+    ],
+    "kauf_pickaxe_1": [
+     "For the rock up in the hills. Swing it slowly at first. The stone will tell you where it wants to break."
+    ],
+    "kauf_axe_2": [
+     "You brought me a pike. Then you get the good axe. Let the weight do the work, not your shoulders."
+    ],
+    "kauf_pickaxe_2": [
+     "A barbel. Hm. Marie would have baked it with fennel. Here, I forged the head new last night."
+    ],
+    "kauf_axe_3": [
+     "Rosi hardened the steel and complained the whole time. That means she enjoyed it. This edge will outlive both of us."
+    ],
+    "kauf_pickaxe_3": [
+     "Rosi tempered it twice, to be sure. Don't tell her I said so, but she is better at this than I am."
+    ],
+    "kauf_koeder_1": [
+     "Oak bark from the river. A float is only a promise to the sea. Watch it, not the water."
+    ],
+    "kauf_koeder_2": [
+     "Balsa, and a gull's feather in the paint. The sea will think it is dinner. Hold the line gently."
+    ],
+    "kauf_koeder_3": [
+     "Marie called this one the liar. It swims like something alive. Be kind to it, it has a short life in the water."
+    ],
+    "kalt_gruss": [
+     "Hm. What do you need.",
+     "Say what you want. Then go.",
+     "The tools are where they always are."
+    ],
+    "kalt_kauf": [
+     "Hm. Take it."
+    ],
+    "kalt_fisch": [
+     "Put it on the scale. Don't talk.",
+     "I'll give you less. You know why."
+    ],
+    "fisch_sardine": [
+     "Sardines come in their thousands every summer, so nobody pays much for one. Grill it with salt and eat it with your fingers. On this coast that is still the best supper there is."
+    ],
+    "fisch_gilt_head_bream": [
+     "See the gold between the eyes? That's how you know her. She cracks mussels with those teeth, so the meat is sweet, but half the harbour catches her, and I can't pay much."
+    ],
+    "fisch_red_mullet": [
+     "Two whiskers to taste the sand with. The Romans paid silver for this fish, they say. Today I pay you a few coins, and that is how the world goes."
+    ],
+    "fisch_sea_bass": [
+     "The French call him the sea wolf. He hunts in the white water where the waves break, when it is too rough for anyone sensible. There are plenty in the bay, so the price is small."
+    ],
+    "fisch_scorpionfish": [
+     "Careful with the spines, they sting worse than a wasp. Ugly fish. But without him there is no real bouillabaisse, so I pay you a fair price."
+    ],
+    "fisch_cuttlefish": [
+     "She changes colour while you watch her, when she's afraid and when she's curious. The ink turns rice black, and the bone inside goes to the birds. A fair price for all of that."
+    ],
+    "fisch_octopus": [
+     "Hm. Clever animal. Bastianu, at my workshop, opens jars when I'm not looking. Don't tell him I bought this one. Fair price."
+    ],
+    "fisch_salmon": [
+     "A salmon, here? He must have lost his way to the north. They say he finds the river he was born in by the smell, after years at sea. I pay fair for a fish that far from home."
+    ],
+    "fisch_red_prawn": [
+     "From the deep water off the cape, where the light never reaches. Red before it ever sees a pan. The restaurants in Bastia fight over these, so I pay you well."
+    ],
+    "fisch_spiny_lobster": [
+     "No claws, only spines and those long whips. Hold him close to your ear, he creaks when he's angry. Weddings, baptisms, festas: for him I pay the best price I have."
+    ],
+    "fisch_brown_trout": [
+     "A trout from the cold water up high. Look at the spots, every stream paints them a little differently. The hills are full of streams, though, so I can't pay much."
+    ],
+    "fisch_perch": [
+     "Stripes like a small tiger, and a fin that bites back if you grab him wrong. Where there is one, there are twenty. So, not much money."
+    ],
+    "fisch_carp": [
+     "The monks kept carp in their ponds for the fasting days. Slow fish, and he lives longer than most dogs. He tastes of mud if you cook him wrong, so the price is small."
+    ],
+    "fisch_tench": [
+     "The doctor fish. The old men say the others rub against him when they are sick, because of the slime. I don't know if it's true. Cheap, but honest."
+    ],
+    "fisch_barbel": [
+     "Four whiskers, and he reads the riverbed with them like a blind man reads a face. Don't eat the eggs, they'll keep you in bed for two days. A fair price for a fair fish."
+    ],
+    "fisch_river_crayfish": [
+     "He only lives where the water is clean. When the crayfish leave a stream, something upstream is wrong. I pay fair for good news like that."
+    ],
+    "fisch_river_crab": [
+     "A crab that has never seen the sea. At night he climbs out and sits on the warm stones like an old man. Hm. Odd neighbour. Fair price."
+    ],
+    "fisch_pike": [
+     "He waits in the reeds without moving, an hour if he has to, and then he takes a duckling off the water. Mind the teeth, they point backwards. Fair price."
+    ],
+    "fisch_eel": [
+     "Every eel in this river was born on the other side of the ocean, and one day she swims all the way back. Nobody has ever seen where. I pay well for a traveller like that."
+    ],
+    "fisch_zander": [
+     "The zander. Eyes like a cat, so he hunts at night while the others sleep. Firm white meat, no mud in it at all. I pay you well for him."
+    ]
+   },
+   "gefuehl": {
+    "gruss": "neutral",
+    "kauf_axe_1": "embarrassment",
+    "kauf_pickaxe_1": "neutral",
+    "kauf_axe_2": "approval",
+    "kauf_pickaxe_2": "joy",
+    "kauf_axe_3": "amusement",
+    "kauf_pickaxe_3": "approval",
+    "kauf_koeder_1": "approval",
+    "kauf_koeder_2": "amusement",
+    "kauf_koeder_3": "approval",
+    "kalt_gruss": "disapproval",
+    "kalt_kauf": "disapproval",
+    "kalt_fisch": "anger",
+    "fisch_sardine": "neutral",
+    "fisch_gilt_head_bream": "neutral",
+    "fisch_red_mullet": "neutral",
+    "fisch_sea_bass": "neutral",
+    "fisch_scorpionfish": "neutral",
+    "fisch_cuttlefish": "neutral",
+    "fisch_octopus": "neutral",
+    "fisch_salmon": "neutral",
+    "fisch_red_prawn": "neutral",
+    "fisch_spiny_lobster": "neutral",
+    "fisch_brown_trout": "neutral",
+    "fisch_perch": "neutral",
+    "fisch_carp": "neutral",
+    "fisch_tench": "neutral",
+    "fisch_barbel": "neutral",
+    "fisch_river_crayfish": "neutral",
+    "fisch_river_crab": "neutral",
+    "fisch_pike": "neutral",
+    "fisch_eel": "neutral",
+    "fisch_zander": "neutral"
+   },
+   "text_kalt": "The radio on the workbench is off. Petru serves you without looking up."
+  },
+  "danzel": {
+   "name": "Le Théâtre Rouge",
+   "wer": "danzel",
+   "nur_an_land": true,
+   "hintergrund": "corsican_village_festa.png",
+   "set": "danzel_B",
+   "text": "The old room on the piazza with the good window. One red curtain, one mannequin, and a man who measures you with his eyes before he says hello.",
+   "text_allein": "The old room on the piazza with the good window. One red curtain, one mannequin, and a man who works alone and doesn't look up until you speak.",
+   "gruss_stufen": {
+    "gruss_fremd": [
+     0,
+     1
+    ],
+    "gruss_freund": [
+     2,
+     3
+    ],
+    "gruss_naehe": [
+     4,
+     5
+    ]
+   },
+   "zeilen": {
+    "gruss_allein": [
+     "Come in. Mind the pins.",
+     "It's you. What do you need?",
+     "Look around. There's only me here now."
+    ],
+    "gruss_fremd": [
+     "Welcome to Le Théâtre Rouge, the finest house on the – the only house. Please don't touch the silk.",
+     "You came in! People mostly stand at the window. Looking is free. I checked.",
+     "Everything in here is cut by hand. My hand. So if a seam is wrong, please tell me quietly."
+    ],
+    "gruss_freund": [
+     "It's you. Good. Stand straight, I'm measuring you. Terrible shoulders. I can work with that.",
+     "Nobody in this village owns a proper hem. I have decided to take that personally.",
+     "Come in, come in. Mind the pins. The pins are the only ones here who are on my side."
+    ],
+    "gruss_naehe": [
+     "There you are. I kept something back for you. Don't tell the others I have favourites. I have one.",
+     "In Paris they said my work was fine. Here a fisherman cried over a waistcoat. I'll take the fisherman.",
+     "Sit. No, not there, that's the mannequin. She's a better customer than you, but I like you more."
+    ],
+    "kauf": [
+     "Look at the seam, not the price. The price is only a number. The seam took me two nights.",
+     "Sold! A triumph! A – yes. Thank you. That pays for the window.",
+     "I'll wrap it. I always wrap it. Paper is the one thing here that doesn't need altering."
+    ],
+    "kauf_intim": [
+     "I won't ask who it's for. I only need her size. No. Don't tell me. Just take it.",
+     "Silk shows every mistake. So be careful with it. And with her."
+    ],
+    "pleite": [
+     "You can't afford it. Neither can I, and I made it."
+    ]
+   },
+   "gefuehl": {
+    "gruss": "neutral",
+    "gruss_allein": "sadness",
+    "gruss_naehe": "joy",
+    "gruss_freund": "amusement",
+    "kauf": "approval",
+    "kauf_intim": "embarrassment",
+    "pleite": "amusement"
+   }
+  },
+  "batu": {
+   "name": "Bà Tư's Shop",
+   "wer": "batu",
+   "nur_an_land": true,
+   "hintergrund": "eden_rise_batu_shop.png",
+   "set": "batu_standard",
+   "text": "Too many shelves for the room, a wall of amber bottles and a small Virgin Mary with a fresh flower. The pot at the back is always on.",
+   "gruss_stufen": {
+    "gruss_fremd": [
+     0,
+     1
+    ],
+    "gruss_freund": [
+     2,
+     3
+    ],
+    "gruss_naehe": [
+     4,
+     5
+    ]
+   },
+   "zeilen": {
+    "gruss_fremd": [
+     "You again. Good. You are still too thin.",
+     "Look, don't touch. Touch means buy.",
+     "Prices are prices. I don't give a discount for handsome."
+    ],
+    "gruss_freund": [
+     "Con. You ate today? Don't lie, I can see.",
+     "For you I kept the good bottle. It costs the same."
+    ],
+    "gruss_naehe": [
+     "Con. Sit first. Buying is after.",
+     "Your mother called me? No. But she would."
+    ],
+    "kauf": [
+     "Correct money. Good boy.",
+     "This one you cook slowly. Not like the Italians."
+    ],
+    "pleite": [
+     "No money, no sauce. Soup I give you for free. Soup is different."
+    ]
+   },
+   "gefuehl": {
+    "gruss": "caring",
+    "kauf": "approval",
+    "pleite": "disappointment"
+   }
+  },
+  "mochis": {
+   "name": "Mochi's",
+   "wer": "bibi",
+   "nur_an_land": true,
+   "hintergrund": "eden_rise_mochis_station_voll.png",
+   "set": "Mochis",
+   "text": "An old sheep pen above the bay with half a roof, a very neat sign and a bowl of water. Bibi keeps a field book here, and she is the only one who can read it.",
+   "gruss_stufen": {
+    "gruss_fremd": [
+     0,
+     1
+    ],
+    "gruss_freund": [
+     2,
+     3
+    ],
+    "gruss_naehe": [
+     4,
+     5
+    ]
+   },
+   "zeilen": {
+    "gruss_fremd": [
+     "Mind the bowl! Everybody kicks the bowl. Sorry. I do that. Is that why you came up?",
+     "There are tracks by the road again. I wrote it all down. You can read it if you can read my writing.",
+     "Keep your hands where they can see them. I don't mean me. I mean them."
+    ],
+    "gruss_freund": [
+     "You're back! Good. I need someone to hold things, and you've got arms.",
+     "Look in the book. I've got more trails than legs. Pick one and be nice to it.",
+     "Don't ask how I slept. Ask how they slept. They slept great."
+    ],
+    "gruss_naehe": [
+     "There you are. There's coffee. It's terrible. I made it for you specially.",
+     "I used to think I needed the whole world for this. Turns out it fits in a sheep pen.",
+     "They know your boots now. Listen, you can hear them getting up."
+    ]
+   }
+  }
+ }
+}

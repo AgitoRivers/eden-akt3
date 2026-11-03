@@ -1,0 +1,147 @@
+{
+ "id": "kampf_nachholen_test_2026-10-22",
+ "titel": "Kampf-Sprites: Testbilder",
+ "hinweis": "Je Figur ein Testbild. ✓ OK oder ✗ Neu, bei Neu kurz notieren, was anders werden soll. Bei den Alphas steht rechts der normale Gegner zum Vergleich. Wenn alles markiert ist: Claude Bescheid sagen.",
+ "items": [
+  {
+   "id": "YasinDrone",
+   "titel": "Yasin (wütend, Drohne)",
+   "soll": "Wütender Blick, zusammengebissener Kiefer; offenes Leinenhemd, Goldkette, Drohnen-Fernbedienung, schwarze Quadrocopter-Drohne auf Kopfhöhe",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\outfit_check.png"
+  },
+  {
+   "id": "MaxwellSteward",
+   "titel": "Maxwell (Steward-Polo)",
+   "soll": "Weißes Polo MIT umgelegtem Kragen und Knopfleiste, goldener Anker links, Namensschild MR. MAXIMUM, navy Shorts",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\outfit_check.png"
+  },
+  {
+   "id": "Alon",
+   "titel": "Alon (Cyber-Rüstung)",
+   "soll": "Glänzend klavierschwarze Cyber-Rüstung wie die Item-Rüstung v8, Chrom-Jetpack, Fliegerbrille, weiß-schwarze Strahlenpistole rechts",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\outfit_check.png"
+  },
+  {
+   "id": "WildschweinKlein",
+   "titel": "Wildschwein klein",
+   "soll": "Junges, schlankes korsisches Wildschwein, rotbraun, noch keine Hauer",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKlein\\outfit_check.png"
+  },
+  {
+   "id": "Wildschwein",
+   "titel": "Wildschwein",
+   "soll": "Kräftiges Wildschwein, dunkelbraune Borsten, Rückenkamm, kurze weiße Hauer",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Wildschwein\\outfit_check.png"
+  },
+  {
+   "id": "WildschweinKeiler",
+   "titel": "Keiler",
+   "soll": "Riesiger alter Keiler, grau-schwarz mit Silberkamm, lange gelbliche Hauer, Narbe über Schnauze und Auge, eingerissenes Ohr",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WildschweinKeiler\\outfit_check.png"
+  },
+  {
+   "id": "RatAlpha",
+   "titel": "Ratte (Alpha)",
+   "soll": "an unusually huge old harbour rat, scarred grey-brown fur, a torn ear, a long scarred pink tail, small fierce black eyes, long yellow front teeth, pink paws",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\RatAlpha\\outfit_check.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Rat\\idle.png",
+   "vergleich_titel": "normal"
+  },
+  {
+   "id": "DogAlpha",
+   "titel": "Hund (Alpha)",
+   "soll": "a huge muscular fighting dog, short dark brindle fur marked with old scars, a thick plain black leather collar, a broad heavy head, one torn ear, drooling jaws",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DogAlpha\\outfit_check.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Dog\\idle.png",
+   "vergleich_titel": "normal"
+  },
+  {
+   "id": "SeagullAlpha",
+   "titel": "Möwe (Alpha)",
+   "soll": "an enormous fat seagull wearing a battered tiny captain's cap tilted on its head, ruffled white and grey feathers, a yellow beak with a red spot, fierce beady eyes",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SeagullAlpha\\outfit_check.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Seagull\\idle.png",
+   "vergleich_titel": "normal"
+  },
+  {
+   "id": "PigeonAlpha",
+   "titel": "Taube (Alpha)",
+   "soll": "a very fat grand old city pigeon, puffed-up grey feathers with an iridescent green and purple neck, a shiny gold ring on one leg, a self-important stare",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PigeonAlpha\\outfit_check.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Pigeon\\idle.png",
+   "vergleich_titel": "normal"
+  },
+  {
+   "id": "BatAlpha",
+   "titel": "Fledermaus (Alpha)",
+   "soll": "a large vampire bat with wings spread, dark grey-black leathery wings, deep red eyes, large pointed ears, sharp white fangs",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BatAlpha\\outfit_check.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Bat\\idle.png",
+   "vergleich_titel": "normal"
+  },
+  {
+   "id": "SnakeAlpha",
+   "titel": "Schlange (Alpha)",
+   "soll": "an enormous ancient king cobra, hood spread wide, smooth dark olive and black scales, old pale scars along its body, a forked tongue",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SnakeAlpha\\outfit_check.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Snake\\idle.png",
+   "vergleich_titel": "normal"
+  },
+  {
+   "id": "ApeAlpha",
+   "titel": "Affe (Alpha)",
+   "soll": "a huge silverback ape, dark fur with a broad silver-grey back, massive long arms, a scarred leathery face, a torn zoo ear tag",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\outfit_check.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Ape\\idle.png",
+   "vergleich_titel": "normal"
+  },
+  {
+   "id": "LionAlpha",
+   "titel": "Löwe (Alpha)",
+   "soll": "a huge old male lion with a thick black mane, many old scars on its muzzle, a torn ear, powerful paws",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\outfit_check.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Lion\\idle.png",
+   "vergleich_titel": "normal"
+  },
+  {
+   "id": "SharkAlpha",
+   "titel": "Hai (Alpha)",
+   "soll": "an enormous great white shark covered in long old scars, a torn dorsal fin, grey back and white belly, half out of the water",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\SharkAlpha\\outfit_check.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Shark\\idle.png",
+   "vergleich_titel": "normal"
+  },
+  {
+   "id": "PirateAlpha",
+   "titel": "Pirat (Alpha)",
+   "soll": "a long dark red pirate captain's coat with tarnished gold buttons, a black tricorn hat, a white shirt, a wide leather belt, high black boots, a long curved cutlass",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PirateAlpha\\outfit_check.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Pirate\\idle.png",
+   "vergleich_titel": "normal"
+  },
+  {
+   "id": "ThiefAlpha",
+   "titel": "Dieb (Alpha)",
+   "soll": "a worn black leather jacket over a dark hoodie with the hood down, black jeans, heavy black boots, a thick silver chain necklace, a short steel crowbar",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefAlpha\\outfit_check.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Thief\\idle.png",
+   "vergleich_titel": "normal"
+  },
+  {
+   "id": "BruteAlpha",
+   "titel": "Schläger (Alpha)",
+   "soll": "a ripped black tank top, grey work trousers, heavy steel-toe boots, a heavy iron chain wrapped around one fist, taped knuckles",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BruteAlpha\\outfit_check.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Brute\\idle.png",
+   "vergleich_titel": "normal"
+  },
+  {
+   "id": "AgentAlpha",
+   "titel": "Agent (Alpha)",
+   "soll": "a sharp white tailored suit, a black shirt, a white tie, an earpiece with a coiled wire, black sunglasses pushed up into his hair, black gloves",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\outfit_check.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Agent\\idle.png",
+   "vergleich_titel": "normal"
+  }
+ ]
+}

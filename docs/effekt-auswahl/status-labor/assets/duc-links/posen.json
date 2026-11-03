@@ -1,0 +1,37 @@
+{
+  "idle": {
+    "foot": 1315,
+    "width": 880,
+    "height": 1328
+  },
+  "windup": {
+    "foot": 1298,
+    "width": 880,
+    "height": 1328
+  },
+  "attack": {
+    "foot": 1242,
+    "width": 880,
+    "height": 1328
+  },
+  "heavy_windup": {
+    "foot": 1300,
+    "width": 880,
+    "height": 1328
+  },
+  "heavy_attack": {
+    "foot": 1297,
+    "width": 880,
+    "height": 1328
+  },
+  "guard": {
+    "foot": 1299,
+    "width": 880,
+    "height": 1328
+  },
+  "hurt": {
+    "foot": 1279,
+    "width": 880,
+    "height": 1328
+  }
+}

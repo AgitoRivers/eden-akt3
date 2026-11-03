@@ -1,0 +1,207 @@
+{
+ "id": "elsa_combat_2",
+ "titel": "Elsa: Combat-Satz, Rüstung genauer beschrieben",
+ "hinweis": "Gleiche Posen und Seeds wie dein Satz, nur die Rüstungs-Zeile ist neu; bei sieben Posen auch der Seed. Das Brustabzeichen sitzt jetzt überall mittig, die Schriftzüge sind weg. Vorschlag: übernehmen, kleine Aufnäher an einigen Ärmeln sind geblieben. Die großen Schulterplatten aus C sind nicht mehr drin, ich bin deinem neutral-Bild gefolgt. Liegt in roh2, dein roh ist unberührt. Nicht im Spiel.",
+ "items": [
+  {
+   "id": "admiration_2",
+   "titel": "admiration_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh2\\admiration_2.png",
+   "soll": "Abzeichen und Weste einheitlich",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh\\admiration_2.png",
+   "vergleich_titel": "Dein Satz"
+  },
+  {
+   "id": "amusement-1",
+   "titel": "amusement-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh2\\amusement-1.png",
+   "soll": "Abzeichen und Weste einheitlich",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh\\amusement-1.png",
+   "vergleich_titel": "Dein Satz"
+  },
+  {
+   "id": "amusement",
+   "titel": "amusement",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh2\\amusement.png",
+   "soll": "Abzeichen und Weste einheitlich",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh\\amusement.png",
+   "vergleich_titel": "Dein Satz"
+  },
+  {
+   "id": "anger",
+   "titel": "anger",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh2\\anger.png",
+   "soll": "Abzeichen und Weste einheitlich",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh\\anger.png",
+   "vergleich_titel": "Dein Satz"
+  },
+  {
+   "id": "annoyance",
+   "titel": "annoyance",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh2\\annoyance.png",
+   "soll": "Abzeichen und Weste einheitlich",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh\\annoyance.png",
+   "vergleich_titel": "Dein Satz"
+  },
+  {
+   "id": "approval-1",
+   "titel": "approval-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh2\\approval-1.png",
+   "soll": "Abzeichen und Weste einheitlich",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh\\approval-1.png",
+   "vergleich_titel": "Dein Satz"
+  },
+  {
+   "id": "approval",
+   "titel": "approval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh2\\approval.png",
+   "soll": "Am Ärmel sitzt noch ein Aufnäher",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh\\approval.png",
+   "vergleich_titel": "Dein Satz"
+  },
+  {
+   "id": "caring",
+   "titel": "caring",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh2\\caring.png",
+   "soll": "Abzeichen und Weste einheitlich",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh\\caring.png",
+   "vergleich_titel": "Dein Satz"
+  },
+  {
+   "id": "confusion",
+   "titel": "confusion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh2\\confusion.png",
+   "soll": "Abzeichen und Weste einheitlich",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh\\confusion.png",
+   "vergleich_titel": "Dein Satz"
+  },
+  {
+   "id": "curiosity",
+   "titel": "curiosity",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh2\\curiosity.png",
+   "soll": "Abzeichen und Weste einheitlich",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh\\curiosity.png",
+   "vergleich_titel": "Dein Satz"
+  },
+  {
+   "id": "desire_2",
+   "titel": "desire_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh2\\desire_2.png",
+   "soll": "Elsa ist nicht romanzierbar, der NPC-Satz braucht diese Pose eigentlich nicht",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh\\desire_2.png",
+   "vergleich_titel": "Dein Satz"
+  },
+  {
+   "id": "disappointment",
+   "titel": "disappointment",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh2\\disappointment.png",
+   "soll": "Abzeichen und Weste einheitlich",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh\\disappointment.png",
+   "vergleich_titel": "Dein Satz"
+  },
+  {
+   "id": "disapproval",
+   "titel": "disapproval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh2\\disapproval.png",
+   "soll": "Abzeichen und Weste einheitlich",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh\\disapproval.png",
+   "vergleich_titel": "Dein Satz"
+  },
+  {
+   "id": "disgust",
+   "titel": "disgust",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh2\\disgust.png",
+   "soll": "Abzeichen und Weste einheitlich",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh\\disgust.png",
+   "vergleich_titel": "Dein Satz"
+  },
+  {
+   "id": "embarrassment_2",
+   "titel": "embarrassment_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh2\\embarrassment_2.png",
+   "soll": "Abzeichen und Weste einheitlich",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh\\embarrassment_2.png",
+   "vergleich_titel": "Dein Satz"
+  },
+  {
+   "id": "excitement_2",
+   "titel": "excitement_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh2\\excitement_2.png",
+   "soll": "Abzeichen und Weste einheitlich",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh\\excitement_2.png",
+   "vergleich_titel": "Dein Satz"
+  },
+  {
+   "id": "fear_2",
+   "titel": "fear_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh2\\fear_2.png",
+   "soll": "Abzeichen und Weste einheitlich",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh\\fear_2.png",
+   "vergleich_titel": "Dein Satz"
+  },
+  {
+   "id": "gratitude",
+   "titel": "gratitude",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh2\\gratitude.png",
+   "soll": "Am Ärmel sitzt noch ein Aufnäher",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh\\gratitude-1.png",
+   "vergleich_titel": "Dein Satz"
+  },
+  {
+   "id": "joy",
+   "titel": "joy",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh2\\joy.png",
+   "soll": "Abzeichen und Weste einheitlich",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh\\joy.png",
+   "vergleich_titel": "Dein Satz"
+  },
+  {
+   "id": "love_2",
+   "titel": "love_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh2\\love_2.png",
+   "soll": "Arme am Bildrand, und am Ärmel sitzt noch ein Aufnäher",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh\\love_2.png",
+   "vergleich_titel": "Dein Satz"
+  },
+  {
+   "id": "nervousness",
+   "titel": "nervousness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh2\\nervousness.png",
+   "soll": "Abzeichen und Weste einheitlich",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh\\nervousness.png",
+   "vergleich_titel": "Dein Satz"
+  },
+  {
+   "id": "neutral",
+   "titel": "neutral",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh2\\neutral.png",
+   "soll": "Am Ärmel sitzt noch ein Aufnäher",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh\\neutral.png",
+   "vergleich_titel": "Dein Satz"
+  },
+  {
+   "id": "pride",
+   "titel": "pride",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh2\\pride.png",
+   "soll": "Abzeichen und Weste einheitlich",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh\\pride.png",
+   "vergleich_titel": "Dein Satz"
+  },
+  {
+   "id": "sadness",
+   "titel": "sadness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh2\\sadness.png",
+   "soll": "Abzeichen und Weste einheitlich",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh\\sadness.png",
+   "vergleich_titel": "Dein Satz"
+  },
+  {
+   "id": "surprise",
+   "titel": "surprise",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh2\\surprise.png",
+   "soll": "Abzeichen und Weste einheitlich",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Elsa\\Combat\\roh\\surprise.png",
+   "vergleich_titel": "Dein Satz"
+  }
+ ]
+}

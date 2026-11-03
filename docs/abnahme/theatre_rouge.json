@@ -1,0 +1,91 @@
+{
+ "id": "theatre_rouge_v1",
+ "titel": "Danzels Laden: Bild, neue Kleidung, geänderte Texte",
+ "hinweis": "Der Laden ist schon im Spiel und nutzt noch das Piazza-Bild. Beim Bild reicht ein OK für deinen Favoriten. Die sieben neuen Stücke sind noch nicht im Spiel, die drei geänderten Texte schon.",
+ "items": [
+  {
+   "id": "bild_v1",
+   "titel": "Laden · Variante 1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_theatre_rouge_v1.png",
+   "soll": "Kleiner Schneiderladen an der Piazza: großes Fenster, roter Vorhang, eine Schneiderpuppe, Registrierkasse. Rechts Platz für Danzel."
+  },
+  {
+   "id": "bild_v2",
+   "titel": "Laden · Variante 2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_theatre_rouge_v2.png",
+   "soll": "Wie Variante 1."
+  },
+  {
+   "id": "bild_v3",
+   "titel": "Laden · Variante 3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_theatre_rouge_v3.png",
+   "soll": "Wie Variante 1."
+  },
+  {
+   "id": "bild_v4",
+   "titel": "Laden · Variante 4",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_theatre_rouge_v4.png",
+   "soll": "Wie Variante 1."
+  },
+  {
+   "id": "neu_bridge_jacket",
+   "titel": "NEU · Bridge Jacket · 110 € · liebt Chiara",
+   "soll": "Navy wool, cut so both shoulders sit exactly level. The tailor spent two nights on the left one, and he will tell you about it.",
+   "bild": ""
+  },
+  {
+   "id": "neu_velvet_stole",
+   "titel": "NEU · Second-Act Stole · 85 € · liebt Sophia",
+   "soll": "Dark velvet, lined in red where only the wearer can see. Made for an entrance. The tailor says it has never failed, then admits nobody has worn one yet.",
+   "bild": ""
+  },
+  {
+   "id": "neu_salt_shirt",
+   "titel": "NEU · Salt Shirt · 45 € · liebt Lea",
+   "soll": "Washed linen with one pocket cut for a waterproof notebook. Salt won't stain it. It was tested in a bucket of harbour water, and the tailor would like the bucket back.",
+   "bild": ""
+  },
+  {
+   "id": "neu_bandana",
+   "titel": "NEU · Double-Stitched Bandana · 45 € · liebt Rosi",
+   "soll": "Red cotton, stitched twice at every edge. So far it has survived a spanner, a fan belt and a hot pipe. It will not survive being called cute.",
+   "bild": ""
+  },
+  {
+   "id": "neu_pullover",
+   "titel": "NEU · The Plain Pullover · 70 € · liebt Siri",
+   "soll": "Soft grey wool. No logo, no label, no colour that photographs well. Nobody will ask where it came from, and that is what you are paying for.",
+   "bild": ""
+  },
+  {
+   "id": "neu_apron",
+   "titel": "NEU · Butter Apron · 50 € · liebt Lola",
+   "soll": "Heavy linen, with one pocket for a spoon and one that is nobody's business. Butter comes out. Whatever else ends up on it stays between you and the laundry.",
+   "bild": ""
+  },
+  {
+   "id": "neu_shawl",
+   "titel": "NEU · Fringed Shawl · 90 € · liebt Alva",
+   "soll": "Black silk with a long fringe that answers every turn of the shoulder a moment late. Cut for a real dance floor, and far too good for the one in this village.",
+   "bild": ""
+  },
+  {
+   "id": "alt_wollmuetze",
+   "titel": "Geändert · Norwegian Wool Hat",
+   "soll": "A thick wool hat with a snowflake pattern, completely wrong for Corsica. It was ordered for a Norwegian guest years ago. He never came back for it.",
+   "bild": ""
+  },
+  {
+   "id": "alt_stockings",
+   "titel": "Geändert · Hold-Up Stockings",
+   "soll": "Sheer black stockings with a lace top that stays up on its own. The invoice calls them “luxury textiles”, between the towels and the tablecloths.",
+   "bild": ""
+  },
+  {
+   "id": "alt_flamenco",
+   "titel": "Geändert · Ruffled Lingerie",
+   "soll": "Red and black, with ruffles that move like a skirt in the wind. It isn't for sale to just anyone.",
+   "bild": ""
+  }
+ ]
+}

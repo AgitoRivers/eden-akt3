@@ -1,0 +1,485 @@
+{
+  "version": 1,
+  "source_file": "eden-soundauswahl (1).json",
+  "source_sha256": "e547bc6a2edf75377c3f40fdf4ae4b8c69493ba35815089249b081688e7e7b65",
+  "selection_created": "2026-10-24T21:51:54.714Z",
+  "selected_count": 25,
+  "status": "Selected individual base sounds; not assembled attacks. Notes requesting changes remain open.",
+  "selected": {
+    "blade_slash": {
+      "label": "Schwerer Klingenschnitt",
+      "variant": "D",
+      "selection_source": "favorite",
+      "asset_id": "A7L50mtXPQ8w6H4ruzlA",
+      "file": "audio/blade_slash-D.ogg",
+      "sha256": "a39dc3e0d4bb2a5ced19020bb860c46ffb2016da32749476f56301705d232e38",
+      "duration_seconds": 1.28,
+      "provider": "ElevenLabs",
+      "model": "eleven_text_to_sound_v2",
+      "original_sha256": "6bb3ea5651f9300437fdbac0cd202be9a3d4fb78bea7a49ca71ff2d347167363",
+      "note": "",
+      "needs_adaptation": false,
+      "attacks": [
+        "doubleSlash",
+        "vendetta",
+        "blackSlash"
+      ]
+    },
+    "shadow_charge": {
+      "label": "Körperladung · Luftdruck",
+      "variant": "D",
+      "selection_source": "favorite",
+      "asset_id": "local-pressure-v2-D",
+      "file": "audio/shadow_charge-v2-D.ogg",
+      "sha256": "bb26e96a278a54740d530fe0de15e2e26463c75cff20ab5a838c8a2771ff0b5b",
+      "duration_seconds": 3.2,
+      "provider": "Original procedural sound design",
+      "model": "broadband_pressure_v2",
+      "original_sha256": "581cdf284c19b8e4ba954bb90c41de2113b142daaeb35356f98dc4dc7636dfdb",
+      "note": "D",
+      "needs_adaptation": false,
+      "attacks": [
+        "doubleSlash",
+        "vendetta",
+        "blackSlash"
+      ]
+    },
+    "shadow_vanish": {
+      "label": "Verschwinden",
+      "variant": "B",
+      "selection_source": "favorite",
+      "asset_id": "7fPw9sbtRGgI51AYHB3n",
+      "file": "audio/shadow_vanish-B.ogg",
+      "sha256": "f92376d38e7366d8fbd9a6dc09583d1f9beea5c01fb987fec0b693ad7e2c7870",
+      "duration_seconds": 1.2,
+      "provider": "ElevenLabs",
+      "model": "eleven_text_to_sound_v2",
+      "original_sha256": "82c7f837d1a35e014651c7c2b070b63fc7dc4b876c6b5c84cfb570c3998c2f6d",
+      "note": "B",
+      "needs_adaptation": false,
+      "attacks": [
+        "blackSlash"
+      ]
+    },
+    "smoke_shock": {
+      "label": "Rauch-Druckwelle",
+      "variant": "D",
+      "selection_source": "favorite",
+      "asset_id": "cJ9utFXRcx5QduKQUcz9",
+      "file": "audio/smoke_shock-D.ogg",
+      "sha256": "09f263451eedec0ffc0aa27710128627255421dc07ec2cd0dc59e9e3ea6e1256",
+      "duration_seconds": 2.28,
+      "provider": "ElevenLabs",
+      "model": "eleven_text_to_sound_v2",
+      "original_sha256": "f068b8d83c6daa94549c9adf524ca6135fb5e3b7af7a1c3eb15c956039710bce",
+      "note": "D",
+      "needs_adaptation": false,
+      "attacks": [
+        "blackSlash"
+      ]
+    },
+    "ember_charge": {
+      "label": "Glutladung",
+      "variant": "B",
+      "selection_source": "favorite",
+      "asset_id": "BBOHBtBbexIJJIU49zRr",
+      "file": "audio/ember_charge-B.ogg",
+      "sha256": "85afda99a6701b941be04677701e56eb5cd927c2c23097b6dde7ba6d78c46ba8",
+      "duration_seconds": 3.2,
+      "provider": "ElevenLabs",
+      "model": "eleven_text_to_sound_v2",
+      "original_sha256": "1e727ffcdb9dcfe6ad213d542db72332722e4739ba88f9a0b56746e8e15aa900",
+      "note": "B",
+      "needs_adaptation": false,
+      "attacks": [
+        "scirocco",
+        "retour",
+        "furia",
+        "vulcano"
+      ]
+    },
+    "fireball_flight": {
+      "label": "Feuerball-Flug",
+      "variant": "C",
+      "selection_source": "favorite",
+      "asset_id": "7YpLRgaTFo2I63gI6Ixm",
+      "file": "audio/fireball_flight-C.ogg",
+      "sha256": "f06680d221840d27e223d2942cfeb7d839b9ad1819e33057e52a9de0f79af3ae",
+      "duration_seconds": 1.36,
+      "provider": "ElevenLabs",
+      "model": "eleven_text_to_sound_v2",
+      "original_sha256": "c35ee1a6ad15e2305a83ee28d939b29a32a631e986195737d08e56e029a27059",
+      "note": "C",
+      "needs_adaptation": false,
+      "attacks": [
+        "scirocco"
+      ]
+    },
+    "fire_slash": {
+      "label": "Feuerschnitt",
+      "variant": "B",
+      "selection_source": "favorite",
+      "asset_id": "DaAdxTQb19S3wgWemYNR",
+      "file": "audio/fire_slash-B.ogg",
+      "sha256": "211aebe1c8fd0933dc2e9a7ad26f052c2afe9f4deaf65cc4e4a71324dc9573c9",
+      "duration_seconds": 1.28,
+      "provider": "ElevenLabs",
+      "model": "eleven_text_to_sound_v2",
+      "original_sha256": "c888ed2b372273e04bec40fe1fdda8fc3a2aaeeda8a969053cbc93ffdc36ca31",
+      "note": "B",
+      "needs_adaptation": false,
+      "attacks": [
+        "retour",
+        "vulcano"
+      ]
+    },
+    "fire_whip": {
+      "label": "Feuerpeitsche",
+      "variant": "D",
+      "selection_source": "favorite",
+      "asset_id": "YRJRfSbYpq3XRDN3i78X",
+      "file": "audio/fire_whip-D.ogg",
+      "sha256": "192786b884f3097c13b7aca0c2024418ac526a43fe4145500e7a0d9abb4b7a78",
+      "duration_seconds": 1.6,
+      "provider": "ElevenLabs",
+      "model": "eleven_text_to_sound_v2",
+      "original_sha256": "93e741b1695b2de3358b9a52cc68ada406f02645c86f047a61be5132cbced3d0",
+      "note": "D",
+      "needs_adaptation": false,
+      "attacks": [
+        "furia"
+      ]
+    },
+    "firestorm": {
+      "label": "Feuersturm",
+      "variant": "D",
+      "selection_source": "favorite",
+      "asset_id": "QIpyTNhUcRWsMSc1M6Cd",
+      "file": "audio/firestorm-D.ogg",
+      "sha256": "9d1039bc9e6cdbc442722ff3b5bb611803545a283340e8762e2b968db348768e",
+      "duration_seconds": 3.48,
+      "provider": "ElevenLabs",
+      "model": "eleven_text_to_sound_v2",
+      "original_sha256": "5df1fc67851aaf1907cbb21b83cedf7f0fbc409fd1ec84e8ca2c0e7d261898f2",
+      "note": "D",
+      "needs_adaptation": false,
+      "attacks": [
+        "vulcano"
+      ]
+    },
+    "afterburn": {
+      "label": "Nachbrennen",
+      "variant": "B",
+      "selection_source": "favorite",
+      "asset_id": "4HUjenbxpAt9OguNYpf1",
+      "file": "audio/afterburn-B.ogg",
+      "sha256": "4977498431bfac6b4a6b9c831afef787770477c7d4fc7c577526af0a11b8d044",
+      "duration_seconds": 3.48,
+      "provider": "ElevenLabs",
+      "model": "eleven_text_to_sound_v2",
+      "original_sha256": "357d6f83d9bdfb95c549b363ddd64d87652542e8543dd697d751424dd573878b",
+      "note": "B aber länger",
+      "needs_adaptation": true,
+      "attacks": [
+        "scirocco",
+        "retour",
+        "furia",
+        "vulcano"
+      ]
+    },
+    "water_gather": {
+      "label": "Wasser sammeln",
+      "variant": "A",
+      "selection_source": "favorite",
+      "asset_id": "ZJmfmLP2PVFeY4U6Ulve",
+      "file": "audio/water_gather-A.ogg",
+      "sha256": "7481d9fda0392701388a8bfc3d6bccaf26311914de5ff078e2b0d455af43ba69",
+      "duration_seconds": 3.2,
+      "provider": "ElevenLabs",
+      "model": "eleven_text_to_sound_v2",
+      "original_sha256": "2fac4b43a6a529d501c3592d7a94f86d252b0d2efd09df2f9b01ed6df5904b1b",
+      "note": "A",
+      "needs_adaptation": false,
+      "attacks": [
+        "wave",
+        "tidal",
+        "calm"
+      ]
+    },
+    "water_jet": {
+      "label": "Gerichteter Wasserstoß",
+      "variant": "D",
+      "selection_source": "favorite",
+      "asset_id": "W7N3XikyEEJT82VFBQme",
+      "file": "audio/water_jet-D.ogg",
+      "sha256": "96e634dd749529c12437ce67eb2f495d19904f2c04be816211a39a2ad5e7d875",
+      "duration_seconds": 1.48,
+      "provider": "ElevenLabs",
+      "model": "eleven_text_to_sound_v2",
+      "original_sha256": "32f67a6d947a65a77c8abcc56adb2de6e749d044d8dfa6fbef67476a4d4a9b3e",
+      "note": "D aber länger",
+      "needs_adaptation": true,
+      "attacks": [
+        "wave"
+      ]
+    },
+    "breaking_wave": {
+      "label": "Brechende Wassermasse",
+      "variant": "B",
+      "selection_source": "favorite",
+      "asset_id": "M2pB8TYkIqHMkWvsyVYO",
+      "file": "audio/breaking_wave-B.ogg",
+      "sha256": "3bf19e907d52733238a1d71bbfe85cd8eaa92b8ea3a63d1e976c4bafde11f507",
+      "duration_seconds": 3.0,
+      "provider": "ElevenLabs",
+      "model": "eleven_text_to_sound_v2",
+      "original_sha256": "c18f83d5a88b283f203be816be633120bc9b52604ff66bb06782a2d7142c8fb7",
+      "note": "B",
+      "needs_adaptation": false,
+      "attacks": [
+        "tidal"
+      ]
+    },
+    "spray_tail": {
+      "label": "Gischt und Abfluss",
+      "variant": "B",
+      "selection_source": "favorite",
+      "asset_id": "8gnhpKzSSUo1U6SuWpah",
+      "file": "audio/spray_tail-B.ogg",
+      "sha256": "f646bf16d5e73588d1799c7ffe887f73b74d7bd4709d5a27c4e8d1dec132a76e",
+      "duration_seconds": 3.2,
+      "provider": "ElevenLabs",
+      "model": "eleven_text_to_sound_v2",
+      "original_sha256": "8740bbc4c024cbcf129932552b1bbc19e3ae17b79f9bd1d3ad9f197ca4d51e63",
+      "note": "B",
+      "needs_adaptation": false,
+      "attacks": [
+        "wave",
+        "tidal"
+      ]
+    },
+    "water_shield": {
+      "label": "Fließender Wasserschild",
+      "variant": "A",
+      "selection_source": "favorite",
+      "asset_id": "ehQTZ9nr13r4Vi35W1T5",
+      "file": "audio/water_shield-A.ogg",
+      "sha256": "1dd9b84602517992c23ee0295426b128ad7083679bd218b8f9c305929f0951c3",
+      "duration_seconds": 3.48,
+      "provider": "ElevenLabs",
+      "model": "eleven_text_to_sound_v2",
+      "original_sha256": "0396f8933c117d0f9a1d02bb24a18ebde3c229149889966b808448887c93f9df",
+      "note": "A",
+      "needs_adaptation": false,
+      "attacks": [
+        "calm"
+      ]
+    },
+    "wind_windup": {
+      "label": "Kreisendes Ausholen",
+      "variant": "A",
+      "selection_source": "favorite",
+      "asset_id": "4rQDd3OKGERNlXerlrWK",
+      "file": "audio/wind_windup-A.ogg",
+      "sha256": "932f014e29290db4b54037a633747833d8ff4654940d4907b5a2cdd56d3573be",
+      "duration_seconds": 2.56,
+      "provider": "ElevenLabs",
+      "model": "eleven_text_to_sound_v2",
+      "original_sha256": "2ff065413d4e0a56b56fa47b587366432a9d14d5598cce6d95be1208d75a0d89",
+      "note": "A",
+      "needs_adaptation": false,
+      "attacks": [
+        "mistral"
+      ]
+    },
+    "wind_vortex": {
+      "label": "Wirbel",
+      "variant": "D",
+      "selection_source": "favorite",
+      "asset_id": "8S3fzYKbU1FY0NUKm5VQ",
+      "file": "audio/wind_vortex-D.ogg",
+      "sha256": "ceb655591832b8ba5a915317f52d7a5469bfa85a9fd40db333b5921f889aca92",
+      "duration_seconds": 3.0,
+      "provider": "ElevenLabs",
+      "model": "eleven_text_to_sound_v2",
+      "original_sha256": "b177aca12f7d1457f304794da750963b8bbce0238ba0e26b7269dc051205f5b0",
+      "note": "D",
+      "needs_adaptation": false,
+      "attacks": [
+        "mistral",
+        "wind"
+      ]
+    },
+    "wind_armor": {
+      "label": "Anhaltende Windhülle",
+      "variant": "B",
+      "selection_source": "favorite",
+      "asset_id": "UwjeMxdlLvauj6Pnu6Sh",
+      "file": "audio/wind_armor-B.ogg",
+      "sha256": "3f37a802f48db80b5f14c339e1a39b5de4de2e1bf87a52f433860dfb9b47090c",
+      "duration_seconds": 3.48,
+      "provider": "ElevenLabs",
+      "model": "eleven_text_to_sound_v2",
+      "original_sha256": "a314f79c7b592c1556bd017129cbd2f283fc879a5b52f94253dfc4fbab63a514",
+      "note": "B",
+      "needs_adaptation": false,
+      "attacks": [
+        "wind"
+      ]
+    },
+    "sound_charge": {
+      "label": "Resonanzladung",
+      "variant": "B",
+      "selection_source": "note",
+      "asset_id": "UTEGLf5Yyw5p0OPbYEH4",
+      "file": "audio/sound_charge-B.ogg",
+      "sha256": "ec15a88809ce12a63b08d27a4bf6fc0a5d6bc33291fcb99c9059d9235ead2ffc",
+      "duration_seconds": 3.0,
+      "provider": "ElevenLabs",
+      "model": "eleven_text_to_sound_v2",
+      "original_sha256": "c4126f7a598544e7710c85c3711a3a8b9a04e68985a34af87398c2881409c268",
+      "note": "B aber mit einem ende",
+      "needs_adaptation": true,
+      "attacks": [
+        "blur"
+      ]
+    },
+    "sound_tail": {
+      "label": "Kurzes Nachschwingen",
+      "variant": "C",
+      "selection_source": "favorite",
+      "asset_id": "txQv0OifwZe4ucNrzV1Q",
+      "file": "audio/sound_tail-C.ogg",
+      "sha256": "704f5611eb32bdce0e2abb5f7cfc5cdeab7e9937ca4e30ceb20c0f67316db46b",
+      "duration_seconds": 1.76,
+      "provider": "ElevenLabs",
+      "model": "eleven_text_to_sound_v2",
+      "original_sha256": "daee43c96ace770df62c9548788ae40aefecd677b3ce772a4e9b519ec154fa84",
+      "note": "C",
+      "needs_adaptation": false,
+      "attacks": [
+        "blur"
+      ]
+    },
+    "star_fall": {
+      "label": "Fallendes Geschoss",
+      "variant": "D",
+      "selection_source": "favorite",
+      "asset_id": "ZbrK5ldU4O2ytpys2eIZ",
+      "file": "audio/star_fall-D.ogg",
+      "sha256": "299a9e677eac1f9ef85bf9e09a1cc9c4431805629edd9c4d960bd551f778c3d3",
+      "duration_seconds": 1.76,
+      "provider": "ElevenLabs",
+      "model": "eleven_text_to_sound_v2",
+      "original_sha256": "0f2d8af2b5f01741343e24aaa546e92a8ee8d9e967d7df56a1aabba509b24ccb",
+      "note": "weicher",
+      "needs_adaptation": true,
+      "attacks": [
+        "rain"
+      ]
+    },
+    "star_burst": {
+      "label": "Explosive Sternenentladung",
+      "variant": "A",
+      "selection_source": "note",
+      "asset_id": "9lh75cUZvky60zahaU9a",
+      "file": "audio/star_burst-A.ogg",
+      "sha256": "28d43e5ce1b1f59a4f5069d425390b3c011c881d5e2441202afec3f80e16c48a",
+      "duration_seconds": 2.4,
+      "provider": "ElevenLabs",
+      "model": "eleven_text_to_sound_v2",
+      "original_sha256": "1016141c82e120fcfe03a8e4cc61116f884570f29ac4118b88e2f623a1696cf1",
+      "note": "A",
+      "needs_adaptation": false,
+      "attacks": [
+        "rain"
+      ]
+    },
+    "ice_dust": {
+      "label": "Feiner Eisstaub",
+      "variant": "D",
+      "selection_source": "note",
+      "asset_id": "pJEj0Y2F62cDCs8kPxuH",
+      "file": "audio/ice_dust-D.ogg",
+      "sha256": "22edcccd44df991ad8a03693a04bb719e7063b0ac01873383ce4ce7e852c3b08",
+      "duration_seconds": 3.0,
+      "provider": "ElevenLabs",
+      "model": "eleven_text_to_sound_v2",
+      "original_sha256": "b8e93e5883b97f6ce6babfce4d2e8b6665663d21fdbbfb201ba0082000e3669d",
+      "note": "D",
+      "needs_adaptation": false,
+      "attacks": [
+        "rain"
+      ]
+    },
+    "heavy_hit": {
+      "label": "Schwerer Einschlag",
+      "variant": "D",
+      "selection_source": "note",
+      "asset_id": "F59O33eLo9edFnlOzV6b",
+      "file": "audio/heavy_hit-D.ogg",
+      "sha256": "1154a957a5f466943ef748903137980f4c4f7b9dd5f4e7b5b42042165b278b00",
+      "duration_seconds": 1.36,
+      "provider": "ElevenLabs",
+      "model": "eleven_text_to_sound_v2",
+      "original_sha256": "83035d59b9b82fa4b1dadae68ada1341c14bc9118c25bf50b733356f8c41877a",
+      "note": "D",
+      "needs_adaptation": false,
+      "attacks": [
+        "blackSlash",
+        "scirocco",
+        "tidal",
+        "vulcano",
+        "rain",
+        "retour"
+      ]
+    },
+    "pressure_body": {
+      "label": "Tiefer Druckimpuls",
+      "variant": "D",
+      "selection_source": "note",
+      "asset_id": "dukasGe9n3QaFnhUp1eQ",
+      "file": "audio/pressure_body-D.ogg",
+      "sha256": "8ddfdea548807b002e874ed915aa02fbd08c18970b9588e313e3a10a5e361aa8",
+      "duration_seconds": 1.08,
+      "provider": "ElevenLabs",
+      "model": "eleven_text_to_sound_v2",
+      "original_sha256": "71fcab8793d0c55a60cf087eb51e028c6983fc048328391d8b7df4412a4ec5a3",
+      "note": "D",
+      "needs_adaptation": false,
+      "attacks": [
+        "blackSlash",
+        "scirocco",
+        "tidal",
+        "vulcano",
+        "rain"
+      ]
+    }
+  },
+  "pending": {
+    "wind_gust": {
+      "label": "Kräftiger Windstoß",
+      "note": "länger mehr impact"
+    },
+    "sound_release": {
+      "label": "Schallentladung",
+      "note": "mehr impact"
+    },
+    "focus_lock": {
+      "label": "Fokus erfassen",
+      "note": "mehr wie ein beam"
+    },
+    "light_flash": {
+      "label": "Weißes Aufblenden",
+      "note": "weicher, weniger space"
+    },
+    "compact_hit": {
+      "label": "Kompakter Schlag",
+      "note": "sattter schmerz"
+    },
+    "debris": {
+      "label": "Rückstoß und Geröll",
+      "note": "mehr naüröich"
+    }
+  }
+}

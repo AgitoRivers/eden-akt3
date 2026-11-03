@@ -1,0 +1,10 @@
+{
+ "id": "piraten_neu_hurt_v1",
+ "titel": "PirateBrawler: hurt neu",
+ "hinweis": "Bitte einen auf OK setzen. Mein Vorschlag: Fassung 2, dort sieht man den Treffer am klarsten. Links die abgelehnte Pose mit der dritten Hand. Alle drei haben zwei Arme und einen Säbel.",
+ "items": [
+  {"id": "h1", "titel": "hurt 1 · taumelt zurück", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_hurt\\1\\hurt.png", "soll": "Säbel tief vorn, die freie Hand hängt hinten. Wirkt eher zurückgewichen als getroffen.", "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\brawler\\hurt.png", "vergleich_titel": "Abgelehnt"},
+  {"id": "h2", "titel": "hurt 2 · krümmt sich (Vorschlag)", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_hurt\\2\\hurt.png", "soll": "Linke Hand am Bauch, der Säbel hängt zu Boden. Der Treffer ist sofort zu sehen.", "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\brawler\\hurt.png", "vergleich_titel": "Abgelehnt"},
+  {"id": "h3", "titel": "hurt 3 · Arme weit auseinander", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_hurt\\3\\hurt.png", "soll": "Kopf im Nacken, beide Arme weit zur Seite. Wirkt etwas theatralisch und braucht am meisten Breite.", "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_piraten_neu_satz\\brawler\\hurt.png", "vergleich_titel": "Abgelehnt"}
+ ]
+}

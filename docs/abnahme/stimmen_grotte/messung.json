@@ -1,0 +1,62 @@
+{
+ "chloe_1": {
+  "lufs": -18.4,
+  "dauer": 16.5,
+  "band_8_10k_db": -16.6
+ },
+ "chloe_2": {
+  "lufs": -17.0,
+  "dauer": 17.0,
+  "band_8_10k_db": -21.3
+ },
+ "chloe_3": {
+  "lufs": -18.2,
+  "dauer": 18.6,
+  "band_8_10k_db": -18.9
+ },
+ "gennaro_1": {
+  "lufs": -19.0,
+  "dauer": 21.8,
+  "band_8_10k_db": -15.9
+ },
+ "gennaro_2": {
+  "lufs": -19.3,
+  "dauer": 22.8,
+  "band_8_10k_db": -20.5
+ },
+ "gennaro_3": {
+  "lufs": -19.1,
+  "dauer": 24.9,
+  "band_8_10k_db": -20.7
+ },
+ "matteu_1": {
+  "lufs": -20.3,
+  "dauer": 23.6,
+  "band_8_10k_db": -16.6
+ },
+ "matteu_2": {
+  "lufs": -19.0,
+  "dauer": 24.2,
+  "band_8_10k_db": -21.6
+ },
+ "matteu_3": {
+  "lufs": -18.9,
+  "dauer": 21.9,
+  "band_8_10k_db": -23.1
+ },
+ "riscossore_1": {
+  "lufs": -17.2,
+  "dauer": 30.4,
+  "band_8_10k_db": -15.5
+ },
+ "riscossore_2": {
+  "lufs": -17.5,
+  "dauer": 29.1,
+  "band_8_10k_db": -19.9
+ },
+ "riscossore_3": {
+  "lufs": -17.4,
+  "dauer": 30.0,
+  "band_8_10k_db": -20.2
+ }
+}

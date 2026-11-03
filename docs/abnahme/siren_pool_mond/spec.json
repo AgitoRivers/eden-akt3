@@ -1,0 +1,31 @@
+{
+ "id": "siren_pool_mond_r1",
+ "titel": "Teich der Sirene – Mondlicht von oben",
+ "hinweis": "Eine Variante mit OK markieren. Danach rendere ich Ligeias Set.",
+ "items": [
+  {
+   "id": "v1",
+   "titel": "Mondlicht · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\siren_pool_mond\\probe_v1.jpg",
+   "soll": "Riss in der Decke, Licht fällt von oben auf den Felsen. Ligeia mit angepasstem Licht, nachgestellt wie die Bühne."
+  },
+  {
+   "id": "v2",
+   "titel": "Mondlicht · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\siren_pool_mond\\probe_v2.jpg",
+   "soll": "Riss in der Decke, Licht fällt von oben auf den Felsen. Ligeia mit angepasstem Licht, nachgestellt wie die Bühne."
+  },
+  {
+   "id": "v3",
+   "titel": "Mondlicht · Variante 3",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\siren_pool_mond\\probe_v3.jpg",
+   "soll": "Riss in der Decke, Licht fällt von oben auf den Felsen. Ligeia mit angepasstem Licht, nachgestellt wie die Bühne."
+  },
+  {
+   "id": "v4",
+   "titel": "Mondlicht · Variante 4",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\siren_pool_mond\\probe_v4.jpg",
+   "soll": "Riss in der Decke, Licht fällt von oben auf den Felsen. Ligeia mit angepasstem Licht, nachgestellt wie die Bühne."
+  }
+ ]
+}

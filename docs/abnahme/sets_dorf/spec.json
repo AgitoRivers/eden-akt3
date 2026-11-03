@@ -1,0 +1,19 @@
+{
+ "id": "sets_dorf_r4",
+ "titel": "Dorf-Figuren und Adrien – nachgerenderte Posen (2)",
+ "hinweis": "Der Rest ist freigegeben.",
+ "items": [
+  {
+   "id": "Yacht_Pascal_love_2",
+   "titel": "Pascal · love_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Pascal\\Standard\\roh\\love_2.png",
+   "soll": "Ganze Figur, beide Hände und Füße im Bild, nach Messung nichts am Rand."
+  },
+  {
+   "id": "Yacht_Anghjulu_love_2",
+   "titel": "Don Anghjulu · love_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Anghjulu\\Standard\\roh\\love_2.png",
+   "soll": "Ganze Figur, beide Hände und Füße im Bild, nach Messung nichts am Rand."
+  }
+ ]
+}

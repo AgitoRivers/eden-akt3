@@ -1,0 +1,199 @@
+{
+ "id": "sophia_edit",
+ "titel": "Sophia: Arme vervollständigt",
+ "hinweis": "Krea-Edit mit der Pose auf größerer Leinwand. Daneben das aktuelle Bild im Spiel.",
+ "items": [
+  {
+   "id": "edit_caring-1",
+   "titel": "Sophia · Pose caring · Datei caring-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_edit\\caring-1.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\caring.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände vollständig, gleiches Gesicht, gleiche Pose. Je Pose eine auf OK."
+  },
+  {
+   "id": "edit_caring-2",
+   "titel": "Sophia · Pose caring · Datei caring-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_edit\\caring-2.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\caring.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände vollständig, gleiches Gesicht, gleiche Pose. Je Pose eine auf OK."
+  },
+  {
+   "id": "edit_caring",
+   "titel": "Sophia · Pose caring · Datei caring",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_edit\\caring.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\caring.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände vollständig, gleiches Gesicht, gleiche Pose. Je Pose eine auf OK."
+  },
+  {
+   "id": "edit_confusion-1-1",
+   "titel": "Sophia · Pose confusion-1 · Datei confusion-1-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_edit\\confusion-1-1.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\confusion-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände vollständig, gleiches Gesicht, gleiche Pose. Je Pose eine auf OK."
+  },
+  {
+   "id": "edit_confusion-1-2",
+   "titel": "Sophia · Pose confusion-1 · Datei confusion-1-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_edit\\confusion-1-2.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\confusion-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände vollständig, gleiches Gesicht, gleiche Pose. Je Pose eine auf OK."
+  },
+  {
+   "id": "edit_confusion-1",
+   "titel": "Sophia · Pose confusion-1 · Datei confusion-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_edit\\confusion-1.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\confusion-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände vollständig, gleiches Gesicht, gleiche Pose. Je Pose eine auf OK."
+  },
+  {
+   "id": "edit_disappointment-1",
+   "titel": "Sophia · Pose disappointment · Datei disappointment-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_edit\\disappointment-1.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\disappointment.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände vollständig, gleiches Gesicht, gleiche Pose. Je Pose eine auf OK."
+  },
+  {
+   "id": "edit_disappointment-2",
+   "titel": "Sophia · Pose disappointment · Datei disappointment-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_edit\\disappointment-2.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\disappointment.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände vollständig, gleiches Gesicht, gleiche Pose. Je Pose eine auf OK."
+  },
+  {
+   "id": "edit_disappointment",
+   "titel": "Sophia · Pose disappointment · Datei disappointment",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_edit\\disappointment.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\disappointment.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände vollständig, gleiches Gesicht, gleiche Pose. Je Pose eine auf OK."
+  },
+  {
+   "id": "edit_joy-1-1",
+   "titel": "Sophia · Pose joy-1 · Datei joy-1-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_edit\\joy-1-1.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\joy-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände vollständig, gleiches Gesicht, gleiche Pose. Je Pose eine auf OK."
+  },
+  {
+   "id": "edit_joy-1-2",
+   "titel": "Sophia · Pose joy-1 · Datei joy-1-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_edit\\joy-1-2.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\joy-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände vollständig, gleiches Gesicht, gleiche Pose. Je Pose eine auf OK."
+  },
+  {
+   "id": "edit_joy-1",
+   "titel": "Sophia · Pose joy-1 · Datei joy-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_edit\\joy-1.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\joy-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände vollständig, gleiches Gesicht, gleiche Pose. Je Pose eine auf OK."
+  },
+  {
+   "id": "edit_optimism-1-1",
+   "titel": "Sophia · Pose optimism-1 · Datei optimism-1-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_edit\\optimism-1-1.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\optimism-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände vollständig, gleiches Gesicht, gleiche Pose. Je Pose eine auf OK."
+  },
+  {
+   "id": "edit_optimism-1-2",
+   "titel": "Sophia · Pose optimism-1 · Datei optimism-1-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_edit\\optimism-1-2.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\optimism-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände vollständig, gleiches Gesicht, gleiche Pose. Je Pose eine auf OK."
+  },
+  {
+   "id": "edit_optimism-1",
+   "titel": "Sophia · Pose optimism-1 · Datei optimism-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_edit\\optimism-1.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\optimism-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände vollständig, gleiches Gesicht, gleiche Pose. Je Pose eine auf OK."
+  },
+  {
+   "id": "edit_relief-1-1",
+   "titel": "Sophia · Pose relief-1 · Datei relief-1-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_edit\\relief-1-1.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\relief-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände vollständig, gleiches Gesicht, gleiche Pose. Je Pose eine auf OK."
+  },
+  {
+   "id": "edit_relief-1-2",
+   "titel": "Sophia · Pose relief-1 · Datei relief-1-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_edit\\relief-1-2.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\relief-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände vollständig, gleiches Gesicht, gleiche Pose. Je Pose eine auf OK."
+  },
+  {
+   "id": "edit_relief-1",
+   "titel": "Sophia · Pose relief-1 · Datei relief-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_edit\\relief-1.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\relief-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände vollständig, gleiches Gesicht, gleiche Pose. Je Pose eine auf OK."
+  },
+  {
+   "id": "edit_surprise-1-1",
+   "titel": "Sophia · Pose surprise-1 · Datei surprise-1-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_edit\\surprise-1-1.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\surprise-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände vollständig, gleiches Gesicht, gleiche Pose. Je Pose eine auf OK."
+  },
+  {
+   "id": "edit_surprise-1-2",
+   "titel": "Sophia · Pose surprise-1 · Datei surprise-1-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_edit\\surprise-1-2.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\surprise-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände vollständig, gleiches Gesicht, gleiche Pose. Je Pose eine auf OK."
+  },
+  {
+   "id": "edit_surprise-1",
+   "titel": "Sophia · Pose surprise-1 · Datei surprise-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_edit\\surprise-1.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\surprise-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände vollständig, gleiches Gesicht, gleiche Pose. Je Pose eine auf OK."
+  },
+  {
+   "id": "edit_surprise-2",
+   "titel": "Sophia · Pose surprise · Datei surprise-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_edit\\surprise-2.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\surprise.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände vollständig, gleiches Gesicht, gleiche Pose. Je Pose eine auf OK."
+  },
+  {
+   "id": "edit_surprise-3",
+   "titel": "Sophia · Pose surprise · Datei surprise-3",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_edit\\surprise-3.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\surprise.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände vollständig, gleiches Gesicht, gleiche Pose. Je Pose eine auf OK."
+  },
+  {
+   "id": "edit_surprise-4",
+   "titel": "Sophia · Pose surprise · Datei surprise-4",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Sophia_edit\\surprise-4.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\surprise.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände vollständig, gleiches Gesicht, gleiche Pose. Je Pose eine auf OK."
+  }
+ ]
+}

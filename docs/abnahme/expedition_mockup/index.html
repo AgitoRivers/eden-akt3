@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Expedition Screen · Mockup</title>
+<!-- Mockup v2 (Brain Trust 26.10.2026, Duc's feedback): front-view portrait crop of the inventory sprite, no frame count,
+     a minimap that only shows what Duc has seen, foldable HUD (H), enemies hidden unless a Scout chip reveals them.
+     Static, no engine. Deck Glass Noir tokens from client/index.html. -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Geist:wght@400;500;600&family=Geist+Mono:wght@500&display=swap">
+<style>
+:root{
+  --ink:#07080b; --rauch:rgba(9,11,15,.52); --rauch-stark:rgba(9,11,15,.82);
+  --perle:#f3eee4; --perle-leise:rgba(243,238,228,.7); --perle-dim:rgba(243,238,228,.45);
+  --akz:#d8bd86; --akz2:#9db9d6; --gut:#a8d5b1; --schlecht:#d9a198;
+  --linie:rgba(216,189,134,.26); --linie-n:rgba(243,238,228,.16);
+  --f-name:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --f-ui:"Geist","Segoe UI",system-ui,sans-serif;
+  --f-zahl:"Geist Mono",ui-monospace,"Cascadia Mono",monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;background:var(--ink);color:var(--perle);font:15px/1.5 var(--f-ui);overflow:hidden}
+.glas{background:var(--rauch);border:1px solid var(--linie);backdrop-filter:blur(20px) saturate(1.15);box-shadow:0 18px 50px rgba(0,0,0,.35)}
+.zahl{font-family:var(--f-zahl);font-variant-numeric:tabular-nums}
+.hud{transition:opacity .3s ease,transform .3s ease}
+body.hud-aus .hud{opacity:0;pointer-events:none;transform:translateY(-8px)}
+body.hud-aus .karte{opacity:.0;pointer-events:none}
+
+.buehne{position:fixed;inset:0;background:url(bg.png) center/cover no-repeat}
+.buehne::after{content:"";position:absolute;inset:0;transition:opacity .3s;
+  background:linear-gradient(180deg,rgba(7,8,11,.38) 0%,rgba(7,8,11,0) 20%,rgba(7,8,11,0) 46%,rgba(7,8,11,.78) 72%,rgba(7,8,11,.94) 100%)}
+body.hud-aus .buehne::after{opacity:0}
+
+/* title card when a frame opens: fades out after a few seconds */
+.titelkarte{position:fixed;left:0;right:0;top:34%;z-index:4;text-align:center;pointer-events:none;animation:titel 4.2s ease forwards}
+.titelkarte small{display:block;font-size:13px;letter-spacing:.24em;text-transform:uppercase;color:var(--perle-leise)}
+.titelkarte b{display:block;font:750 56px/1.05 var(--f-name);letter-spacing:-.02em;color:var(--akz);text-shadow:0 6px 30px rgba(0,0,0,.6)}
+@keyframes titel{0%{opacity:0;transform:translateY(8px)}12%{opacity:1;transform:none}70%{opacity:1}100%{opacity:0}}
+
+/* top left: small place label + minimap (only what Duc has seen) */
+.ort{position:fixed;left:28px;top:24px;z-index:2;padding:12px 16px 14px;border-radius:22px}
+.ort .name{font:700 18px var(--f-name);letter-spacing:-.01em;color:var(--akz)}
+.ort small{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--perle-dim);margin-bottom:2px}
+.karte-mini{display:flex;align-items:center;margin-top:10px}
+.karte-mini .p{width:22px;height:22px;border-radius:50%;display:grid;place-items:center;font-size:11px;border:1px solid var(--linie-n);color:var(--perle-dim);background:rgba(243,238,228,.05)}
+.karte-mini .p.war{background:rgba(216,189,134,.22);border-color:var(--linie);color:var(--akz)}
+.karte-mini .p.hier{background:var(--akz);border-color:var(--akz);color:var(--ink);box-shadow:0 0 0 4px rgba(216,189,134,.2)}
+.karte-mini .p.nebel{border-style:dashed;color:var(--perle-dim);background:none}
+.karte-mini .s{width:18px;height:2px;background:var(--linie-n)}
+.karte-mini .s.nebel{background:repeating-linear-gradient(90deg,var(--linie-n) 0 3px,transparent 3px 6px)}
+
+/* top right: Duc (front portrait crop of the current inventory sprite) */
+.duc{position:fixed;right:28px;top:24px;z-index:2;padding:14px 18px;border-radius:24px;display:grid;grid-template-columns:64px 1fr;gap:6px 14px;width:350px}
+.portrait{width:64px;height:64px;border-radius:50%;grid-row:span 3;border:1px solid var(--linie);background:#1a1c22 url(duc_front.webp) no-repeat;
+  background-size:194px auto;background-position:-70px -9px}
+.duc .kopf{display:flex;justify-content:space-between;align-items:baseline}
+.duc .kopf b{font:750 20px var(--f-name);letter-spacing:-.02em}
+.duc .kopf span{font-size:12.5px;color:var(--perle-leise)}
+.balken{display:flex;align-items:center;gap:10px;font-size:12.5px}
+.balken .b{flex:1;height:7px;border-radius:99px;background:rgba(243,238,228,.1);overflow:hidden}
+.balken .b i{display:block;height:100%;border-radius:99px;background:var(--gut)}
+.pips{display:flex;gap:4px}.pips i{width:9px;height:9px;border-radius:50%;background:var(--akz)}
+.tasche{grid-column:1/-1;margin-top:6px;padding-top:10px;border-top:1px solid var(--linie-n);display:flex;justify-content:space-between;align-items:center;font-size:13px}
+.pille{border:1px solid var(--linie-n);border-radius:999px;padding:3px 10px;font-size:12px;color:var(--perle-leise);background:rgba(243,238,228,.05)}
+
+/* HUD toggle */
+.hudknopf{position:fixed;right:28px;bottom:28px;z-index:5;display:flex;align-items:center;gap:8px;border-radius:999px;padding:8px 14px;
+  font:600 13px var(--f-ui);color:var(--perle);cursor:pointer}
+.hudknopf kbd{font:500 12px var(--f-zahl);padding:1px 6px;border-radius:6px;background:rgba(243,238,228,.1)}
+
+/* bottom: text card + choices */
+.karte{position:fixed;left:50%;bottom:34px;transform:translateX(-50%);z-index:2;width:min(980px,calc(100vw - 56px));
+  padding:22px 26px 20px;border-radius:28px;background:var(--rauch-stark);transition:opacity .3s}
+.karte p.text{margin:0 0 16px;font-size:17px;line-height:1.6;color:var(--perle);max-width:72ch}
+.wahlen{display:grid;gap:10px}
+.wahl{display:grid;grid-template-columns:30px 1fr auto;align-items:center;gap:14px;padding:12px 14px 12px 12px;border-radius:18px;
+  border:1px solid var(--linie-n);background:rgba(243,238,228,.04);cursor:pointer}
+.wahl:hover,.wahl.fokus{border-color:var(--akz);background:rgba(216,189,134,.08)}
+.wahl .k{width:26px;height:26px;border-radius:8px;display:grid;place-items:center;font:500 13px var(--f-zahl);background:rgba(243,238,228,.08);color:var(--perle-leise)}
+.wahl .t{font-size:16px;font-weight:600}
+.folge{display:flex;align-items:center;gap:8px;border-radius:999px;padding:5px 12px 5px 6px;font-size:12.5px;white-space:nowrap;border:1px solid}
+.folge .kopfbild{width:26px;height:26px;border-radius:50%;background:#1a1c22 center/cover no-repeat;display:grid;place-items:center;font:700 13px var(--f-name);color:var(--perle-dim)}
+.folge.kampf{border-color:rgba(217,161,152,.45);color:var(--schlecht);background:rgba(217,161,152,.08)}
+.folge.weg{border-color:var(--linie-n);color:var(--perle-dim);padding-left:12px}
+.folge .chip{font-size:11px;color:var(--akz2);border:1px solid rgba(157,185,214,.45);border-radius:99px;padding:1px 7px}
+.bedr{font-size:11px;padding:1px 7px;border-radius:99px;border:1px solid currentColor;opacity:.85;color:#b9b4ab}
+.folge .nur1,.folge .nur2{display:none}
+body.scout1 .folge .nur1,body.scout2 .folge .nur1{display:inline-grid}
+body.scout2 .folge .nur2{display:inline}
+body.scout1 .folge .ohne-scout,body.scout2 .folge .ohne-scout{display:none}
+
+/* mockup controls (not part of the game screen) */
+.steuer{position:fixed;left:28px;bottom:8px;z-index:6;display:flex;gap:6px;font-size:11.5px;color:var(--perle-dim)}
+.steuer button{font:inherit;color:inherit;background:rgba(7,8,11,.6);border:1px solid var(--linie-n);border-radius:99px;padding:2px 10px;cursor:pointer}
+.steuer button[aria-pressed=true]{color:var(--akz);border-color:var(--akz)}
+</style>
+</head>
+<body>
+<div class="buehne" aria-hidden="true"></div>
+<div class="titelkarte" aria-hidden="true"><small>San Martinu</small><b>The Macchia Path</b></div>
+
+<section class="ort glas hud" aria-label="Location">
+  <small>San Martinu</small>
+  <div class="name">The Macchia Path</div>
+  <div class="karte-mini" aria-label="What you have seen of the path">
+    <span class="p hier" title="The Macchia Path">●</span><span class="s nebel"></span><span class="p nebel" title="Unknown">?</span>
+  </div>
+</section>
+
+<section class="duc glas hud" aria-label="Duc">
+  <div class="portrait" role="img" aria-label="Duc in Terra Scura"></div>
+  <div class="kopf"><b>Duc</b><span>Lv 2 · Terremoto</span></div>
+  <div class="balken"><span style="width:50px;color:var(--perle-leise)">Life</span><span class="b"><i style="width:100%"></i></span><span class="zahl">51/51</span></div>
+  <div class="balken"><span style="width:50px;color:var(--perle-leise)">Stamina</span><span class="pips"><i></i><i></i><i></i><i></i><i></i><i></i></span></div>
+  <div class="tasche"><span>🎒 Found on the way</span><span class="pille">nothing yet</span></div>
+</section>
+
+<section class="karte glas" aria-label="Scene">
+  <p class="text">The path climbs between cistus and myrtle. Halfway up a cork oak stands with deep claw marks in the bark, at chest height. Far too big for a dog.</p>
+  <div class="wahlen">
+    <div class="wahl fokus"><span class="k">1</span><span class="t">Follows the claw marks up the path, bat ready.</span>
+      <span class="folge kampf"><span class="kopfbild ohne-scout">?</span><span class="kopfbild nur1" style="background-image:url(rat.webp)"></span>⚔ <span class="ohne-scout">Something is waiting</span><span class="nur1">Rat</span> <span class="bedr nur2">Lv 1 · Nuisance</span> <span class="chip nur1">Scout</span></span></div>
+    <div class="wahl"><span class="k">2</span><span class="t">Cuts through the cistus to stay out of sight.</span>
+      <span class="folge kampf"><span class="kopfbild ohne-scout">?</span><span class="kopfbild nur1" style="background-image:url(snake.webp)"></span>⚔ <span class="ohne-scout">Something is waiting</span><span class="nur1">Snake</span> <span class="bedr nur2">Lv 1 · Nuisance</span> <span class="chip nur1">Scout</span></span></div>
+    <div class="wahl"><span class="k">3</span><span class="t">Turns back. “Not today.”</span>
+      <span class="folge weg">↩ Ends the trip · the phase is gone</span></div>
+  </div>
+</section>
+
+<button class="hudknopf glas" type="button" onclick="hud()" aria-label="Fold the interface away"><kbd>H</kbd> <span id="hudtext">Hide interface</span></button>
+
+<div class="steuer" aria-label="Mockup controls">
+  <span>Mockup:</span>
+  <button type="button" aria-pressed="true" onclick="scout(0,this)">no Scout chip</button>
+  <button type="button" aria-pressed="false" onclick="scout(1,this)">Scout I (enemy)</button>
+  <button type="button" aria-pressed="false" onclick="scout(2,this)">Scout II (enemy + level)</button>
+  <button type="button" onclick="titel()">replay title card</button>
+</div>
+<script>
+function hud(){ const aus = document.body.classList.toggle("hud-aus"); document.getElementById("hudtext").textContent = aus ? "Show interface" : "Hide interface"; }
+document.addEventListener("keydown", e => { if (e.key === "h" || e.key === "H") hud(); });
+function scout(n, b){ document.body.classList.remove("scout1", "scout2"); if (n) document.body.classList.add("scout" + n);
+  document.querySelectorAll(".steuer button[aria-pressed]").forEach(x => x.setAttribute("aria-pressed", x === b)); }
+function titel(){ const t = document.querySelector(".titelkarte"); t.style.animation = "none"; void t.offsetWidth; t.style.animation = ""; }
+</script>
+</body>
+</html>

@@ -1,0 +1,265 @@
+{
+ "id": "red_trio_phase0",
+ "titel": "Red Trio – Phase 0",
+ "hinweis": "Je Motiv eine Variante mit OK markieren, bei Neu kurz notieren, was falsch ist.",
+ "items": [
+  {
+   "id": "Charly_heavy_attack",
+   "titel": "Charly · heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\heavy_attack.png",
+   "soll": "Taser ganz schwarz, blauer Funke nur vorne wie bei attack",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\attack.png",
+   "vergleich_titel": "Charly attack"
+  },
+  {
+   "id": "Charly_surrender",
+   "titel": "Charly · surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\surrender.png",
+   "soll": "Taser ganz schwarz",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\attack.png",
+   "vergleich_titel": "Charly attack"
+  },
+  {
+   "id": "Charly_victory",
+   "titel": "Charly · victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\victory.png",
+   "soll": "Taser ganz schwarz",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Charly\\attack.png",
+   "vergleich_titel": "Charly attack"
+  },
+  {
+   "id": "MrWhite_A1",
+   "titel": "Mr. White A1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_A\\neutral-1.png",
+   "soll": "Dialog-Sprite. A = Gesicht des Kampf-Sprites; B/C brauchen einen neuen Kampfsatz",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\idle.png",
+   "vergleich_titel": "Kampf-Sprite AgentAlpha"
+  },
+  {
+   "id": "MrWhite_A2",
+   "titel": "Mr. White A2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_A\\neutral.png",
+   "soll": "Dialog-Sprite. A = Gesicht des Kampf-Sprites; B/C brauchen einen neuen Kampfsatz",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\idle.png",
+   "vergleich_titel": "Kampf-Sprite AgentAlpha"
+  },
+  {
+   "id": "MrWhite_B1",
+   "titel": "Mr. White B1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_B\\neutral-1.png",
+   "soll": "Dialog-Sprite. A = Gesicht des Kampf-Sprites; B/C brauchen einen neuen Kampfsatz",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\idle.png",
+   "vergleich_titel": "Kampf-Sprite AgentAlpha"
+  },
+  {
+   "id": "MrWhite_B2",
+   "titel": "Mr. White B2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_B\\neutral.png",
+   "soll": "Dialog-Sprite. A = Gesicht des Kampf-Sprites; B/C brauchen einen neuen Kampfsatz",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\idle.png",
+   "vergleich_titel": "Kampf-Sprite AgentAlpha"
+  },
+  {
+   "id": "MrWhite_C1",
+   "titel": "Mr. White C1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_C\\neutral-1.png",
+   "soll": "Dialog-Sprite. A = Gesicht des Kampf-Sprites; B/C brauchen einen neuen Kampfsatz",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\idle.png",
+   "vergleich_titel": "Kampf-Sprite AgentAlpha"
+  },
+  {
+   "id": "MrWhite_C2",
+   "titel": "Mr. White C2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_red_trio\\Yacht_MrWhite_C\\neutral.png",
+   "soll": "Dialog-Sprite. A = Gesicht des Kampf-Sprites; B/C brauchen einen neuen Kampfsatz",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\idle.png",
+   "vergleich_titel": "Kampf-Sprite AgentAlpha"
+  },
+  {
+   "id": "LionPlated_A",
+   "titel": "LionPlated A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated_A\\idle.png",
+   "soll": "Schwarzer Löwe erster Kampf: dünn, Platten an Schultern und Flanken, Lücke über dem Herzen",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\idle.png",
+   "vergleich_titel": "Bisheriger Löwe (bleibt für Akt 3)"
+  },
+  {
+   "id": "LionPlated_B",
+   "titel": "LionPlated B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated_B\\idle.png",
+   "soll": "Schwarzer Löwe erster Kampf: dünn, Platten an Schultern und Flanken, Lücke über dem Herzen",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\idle.png",
+   "vergleich_titel": "Bisheriger Löwe (bleibt für Akt 3)"
+  },
+  {
+   "id": "LionPlated_C",
+   "titel": "LionPlated C",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionPlated_C\\idle.png",
+   "soll": "Schwarzer Löwe erster Kampf: dünn, Platten an Schultern und Flanken, Lücke über dem Herzen",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\LionAlpha\\idle.png",
+   "vergleich_titel": "Bisheriger Löwe (bleibt für Akt 3)"
+  },
+  {
+   "id": "PlatedMouflon_A",
+   "titel": "PlatedMouflon A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon_A\\idle.png",
+   "soll": "Panzer-Mufflon: Stahlplatten mit Scharnieren, Halsband"
+  },
+  {
+   "id": "PlatedMouflon_B",
+   "titel": "PlatedMouflon B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon_B\\idle.png",
+   "soll": "Panzer-Mufflon: Stahlplatten mit Scharnieren, Halsband"
+  },
+  {
+   "id": "PlatedMouflon_C",
+   "titel": "PlatedMouflon C",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PlatedMouflon_C\\idle.png",
+   "soll": "Panzer-Mufflon: Stahlplatten mit Scharnieren, Halsband"
+  },
+  {
+   "id": "ArkHyena_A",
+   "titel": "ArkHyena A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena_A\\idle.png",
+   "soll": "ARK-Hyäne: Rudeltier aus dem Labor, Halsband"
+  },
+  {
+   "id": "ArkHyena_B",
+   "titel": "ArkHyena B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena_B\\idle.png",
+   "soll": "ARK-Hyäne: Rudeltier aus dem Labor, Halsband"
+  },
+  {
+   "id": "ArkHyena_C",
+   "titel": "ArkHyena C",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ArkHyena_C\\idle.png",
+   "soll": "ARK-Hyäne: Rudeltier aus dem Labor, Halsband"
+  },
+  {
+   "id": "ShepherdDrone_A",
+   "titel": "ShepherdDrone A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone_A\\idle.png",
+   "soll": "Hirtendrohne: Maschine, ein rotes Licht"
+  },
+  {
+   "id": "ShepherdDrone_B",
+   "titel": "ShepherdDrone B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone_B\\idle.png",
+   "soll": "Hirtendrohne: Maschine, ein rotes Licht"
+  },
+  {
+   "id": "ShepherdDrone_C",
+   "titel": "ShepherdDrone C",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ShepherdDrone_C\\idle.png",
+   "soll": "Hirtendrohne: Maschine, ein rotes Licht"
+  },
+  {
+   "id": "macchia_three_ways_1",
+   "titel": "macchia_three_ways 1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_macchia_three_ways_v1.png",
+   "soll": "Hintergrund macchia_three_ways"
+  },
+  {
+   "id": "macchia_three_ways_2",
+   "titel": "macchia_three_ways 2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_macchia_three_ways_v2.png",
+   "soll": "Hintergrund macchia_three_ways"
+  },
+  {
+   "id": "macchia_three_ways_3",
+   "titel": "macchia_three_ways 3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_macchia_three_ways_v3.png",
+   "soll": "Hintergrund macchia_three_ways"
+  },
+  {
+   "id": "charcoal_road_1",
+   "titel": "charcoal_road 1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_charcoal_road_v1.png",
+   "soll": "Hintergrund charcoal_road"
+  },
+  {
+   "id": "charcoal_road_2",
+   "titel": "charcoal_road 2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_charcoal_road_v2.png",
+   "soll": "Hintergrund charcoal_road"
+  },
+  {
+   "id": "charcoal_road_3",
+   "titel": "charcoal_road 3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_charcoal_road_v3.png",
+   "soll": "Hintergrund charcoal_road"
+  },
+  {
+   "id": "charcoal_hut_1",
+   "titel": "charcoal_hut 1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_charcoal_hut_v1.png",
+   "soll": "Hintergrund charcoal_hut"
+  },
+  {
+   "id": "charcoal_hut_2",
+   "titel": "charcoal_hut 2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_charcoal_hut_v2.png",
+   "soll": "Hintergrund charcoal_hut"
+  },
+  {
+   "id": "charcoal_hut_3",
+   "titel": "charcoal_hut 3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_charcoal_hut_v3.png",
+   "soll": "Hintergrund charcoal_hut"
+  },
+  {
+   "id": "bone_gorge_1",
+   "titel": "bone_gorge 1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_bone_gorge_v1.png",
+   "soll": "Hintergrund bone_gorge"
+  },
+  {
+   "id": "bone_gorge_2",
+   "titel": "bone_gorge 2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_bone_gorge_v2.png",
+   "soll": "Hintergrund bone_gorge"
+  },
+  {
+   "id": "bone_gorge_3",
+   "titel": "bone_gorge 3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_bone_gorge_v3.png",
+   "soll": "Hintergrund bone_gorge"
+  },
+  {
+   "id": "antenna_ridge_1",
+   "titel": "antenna_ridge 1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_antenna_ridge_v1.png",
+   "soll": "Hintergrund antenna_ridge"
+  },
+  {
+   "id": "antenna_ridge_2",
+   "titel": "antenna_ridge 2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_antenna_ridge_v2.png",
+   "soll": "Hintergrund antenna_ridge"
+  },
+  {
+   "id": "antenna_ridge_3",
+   "titel": "antenna_ridge 3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_antenna_ridge_v3.png",
+   "soll": "Hintergrund antenna_ridge"
+  },
+  {
+   "id": "village_beach_bar_1",
+   "titel": "village_beach_bar 1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_village_beach_bar_v1.png",
+   "soll": "Hintergrund village_beach_bar"
+  },
+  {
+   "id": "village_beach_bar_2",
+   "titel": "village_beach_bar 2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_village_beach_bar_v2.png",
+   "soll": "Hintergrund village_beach_bar"
+  },
+  {
+   "id": "village_beach_bar_3",
+   "titel": "village_beach_bar 3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_village_beach_bar_v3.png",
+   "soll": "Hintergrund village_beach_bar"
+  }
+ ]
+}

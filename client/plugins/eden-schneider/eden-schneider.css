@@ -1,0 +1,11 @@
+/* Danzels Auftraege: nur Tokens aus eden-ui.css und index.html (ui_stil.md) */
+.sn-liste { display: flex; flex-direction: column; gap: var(--a3); }
+.sn-karte { display: flex; flex-direction: column; gap: var(--a1); padding: var(--a3) var(--a4); border: 1px solid var(--linie); border-radius: var(--r-karte); }
+.sn-karte b { font-family: var(--f-name); font-size: var(--t-gross); color: var(--akz); }
+.sn-karte small, .sn-fuss { font-size: var(--t-klein); color: var(--perle-leise); }
+.sn-karte p { margin: 0; font-size: var(--t-text); color: var(--perle); }
+.sn-zeile { display: flex; flex-wrap: wrap; align-items: center; gap: var(--a2); margin-top: var(--a1); }
+.sn-mat { font-family: var(--f-zahl); font-size: var(--t-klein); padding: var(--a1) var(--a2); border: 1px solid var(--linie-n); border-radius: var(--r-rund); color: var(--schlecht); }
+.sn-mat.da { color: var(--gut); }
+.sn-preis, .sn-tisch { font-size: var(--t-klein); color: var(--perle-leise); }
+.sn-fuss { margin: 0; }

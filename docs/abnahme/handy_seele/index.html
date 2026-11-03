@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Handy mit Seele</title>
+<style>
+:root{--bg:#101217;--fl:#181b22;--fl2:#20242d;--tx:#f3eee4;--dim:#a9a397;--akz:#d8bd86;--gut:#a8d5b1;--sch:#d9a198;--li:rgba(243,238,228,.12)}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){--bg:#f6f3ec;--fl:#fff;--fl2:#efe9dd;--tx:#1d1b17;--dim:#6c665b;--akz:#8a6a2a;--gut:#2f7a43;--sch:#a5463a;--li:rgba(0,0,0,.12)}}
+:root[data-theme="dark"]{--bg:#101217;--fl:#181b22;--fl2:#20242d;--tx:#f3eee4;--dim:#a9a397;--akz:#d8bd86;--gut:#a8d5b1;--sch:#d9a198;--li:rgba(243,238,228,.12)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.55 system-ui,"Segoe UI",sans-serif}
+main{max-width:1180px;margin:0 auto;padding:32px 16px 64px}
+h1{font-size:30px;margin:0 0 4px} h2{font-size:21px;margin:40px 0 10px;color:var(--akz)}
+.unter{color:var(--dim);margin:0 0 24px}
+.bilder{display:grid;grid-template-columns:2fr 1fr 1fr;gap:12px}
+figure{margin:0;background:var(--fl);border:1px solid var(--li);border-radius:12px;overflow:hidden}
+figure img{width:100%;display:block;cursor:zoom-in}
+figcaption{padding:10px 12px;font-size:14px;color:var(--dim)}
+figcaption b{color:var(--tx)}
+table{width:100%;border-collapse:collapse;background:var(--fl);border:1px solid var(--li);border-radius:12px;overflow:hidden;font-size:15px}
+th,td{text-align:left;vertical-align:top;padding:9px 12px;border-bottom:1px solid var(--li)}
+th{background:var(--fl2);font-size:13px;text-transform:uppercase;letter-spacing:.05em;color:var(--dim)}
+tr.empf td{background:rgba(216,189,134,.1)}
+.stern{color:var(--akz);font-weight:700}
+.karten{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.karte{background:var(--fl);border:1px solid var(--li);border-radius:12px;padding:14px 16px}
+.karte b{display:block;margin-bottom:4px}
+.karte small{color:var(--dim)}
+.box{background:var(--fl);border:1px solid var(--akz);border-radius:12px;padding:16px 18px;margin-top:16px}
+a{color:var(--akz)}
+.gross{position:fixed;inset:0;background:rgba(0,0,0,.85);display:none;place-items:center;z-index:9;cursor:zoom-out}
+.gross img{max-width:96vw;max-height:94vh}
+@media (max-width:760px){.bilder{grid-template-columns:1fr} table{font-size:14px} th,td{padding:7px 8px}}
+.tw{overflow-x:auto}
+</style>
+</head>
+<body>
+<main>
+<h1>Das Handy bekommt eine Seele</h1>
+<p class="unter">Brain Trust vom 03.11.2026 · Ist-Stand, Recherche, Vorschläge, gebauter Stand und Nachschau. Protokoll: <code>docs/brain_trust/BRAIN_TRUST_HANDY.md</code></p>
+
+<h2>So sieht es heute aus</h2>
+<div class="bilder">
+  <figure><img src="ist_anruf.jpg" alt="Anruf-Karte heute"><figcaption><b>Anruf-Karte (Event):</b> starker Text, aber ein runder Kreis mit Gesicht und eine Antwortliste wie bei jedem Event. Kein Klingeln, kein Annehmen, sie ist nicht „in ihrer Welt“ zu sehen.</figcaption></figure>
+  <figure><img src="ist_liste.jpg" alt="Chat-Liste heute"><figcaption><b>Chat-Liste:</b> alle Fäden sehen gleich aus. Bank, Kalender und Karte teilen sich die Leiste mit den Gesprächen.</figcaption></figure>
+  <figure><img src="ist_chat.jpg" alt="Chat heute"><figcaption><b>Chat:</b> Chips mit „Trust ↑ / Desire ↑“, Zähler „3 left today“. Man wählt Pfeile, nicht Sätze. Kein Tippen, kein Status. (Chat-Texte in der Vorschau sind Beispiele von mir.)</figcaption></figure>
+</div>
+
+<h2>Was andere Spiele zeigen</h2>
+<div class="tw"><table>
+<tr><th>Spiel</th><th>Was dort passiert</th><th>Lehre für Eden</th></tr>
+<tr><td><a href="https://vice.com/en/article/precious-moments-hype-and-high-school-a-conversation-with-persona-5-director-katsura-hashino">Persona 5</a></td><td>Chats bauen Nähe und laden zu Treffen ein. <a href="https://steamcommunity.com/app/1687950/discussions/0/3721692478283144780">Kritik:</a> viele Texte erzählen nur nach</td><td>Ihr Text bringt Neues: ihr Leben außerhalb der Szene</td></tr>
+<tr><td><a href="https://www.gamebanshee.com/xuh9x">Cyberpunk 2077</a></td><td>Anrufe und Auto-SMS ohne Ende, Ablehnen erst mit <a href="https://www.inverse.com/input/gaming/new-cyberpunk-2077-patch-glitch-fixes">Patch 1.5</a></td><td>Nie unterbrechen, Ablehnen immer erlaubt</td></tr>
+<tr><td><a href="https://gta.wiki/w/Friendships_in_GTA_IV">GTA IV</a></td><td>„Let's go bowling“: Ignorieren senkt den Wert</td><td>Ein Nein bestraft nicht</td></tr>
+<tr><td><a href="https://deadrising.fandom.com/wiki/File:Otis_Funeral.jpg">Dead Rising</a></td><td>Otis ruft mitten im Kampf an, nach Unterbrechung alles von vorn</td><td>Verpasst = nachhören, nie neu anfangen</td></tr>
+<tr><td><a href="https://mechanicsofmagic.com/2023/06/08/looking-back-on-mystic-messenger/">Mystic Messenger</a></td><td>Echtzeit-Chats bis 3 Uhr nachts: süchtig, aber verpasst ist verloren</td><td>Dringlichkeit ja, Strafe nein</td></tr>
+<tr><td><a href="https://gamesbeat.com/florence-uses-clever-interactions-to-create-a-relatable-mobile-game-about-romance/">Florence</a></td><td>Gespräch als Puzzle, mit mehr Nähe weniger Teile</td><td>Die Oberfläche zeigt die Beziehung, ohne Zahlen</td></tr>
+<tr><td><a href="https://wegotthiscovered.com/gaming/interview-kyle-seeley-emily-is-away/">Emily is Away</a></td><td>Tippen, löschen, neu tippen: man sieht, was fast gesagt wurde</td><td>Zögern sichtbar machen</td></tr>
+<tr><td><a href="https://kotaku.com/snaaaaaake-a-love-letter-to-metal-gears-codec-screen-1722727408">Metal Gear Solid</a></td><td>Codec: Gesichter reagieren je Satz, eigener Ton, ikonisch</td><td>Jede Figur ist am Telefon unverwechselbar</td></tr>
+<tr><td><a href="https://en.wikipedia.org/wiki/Oxenfree">Oxenfree</a></td><td>Jederzeit unterbrechen. <a href="https://gamesradar.com/oxenfree-review">Kritik:</a> unklares Timing</td><td>Freiheit nur mit klarer Rückmeldung</td></tr>
+<tr><td><a href="https://www.destructoid.com/boyfriend-dungeon-messages-from-mom-option-news/">Boyfriend Dungeon</a></td><td>Texte zwischen Dates tragen schwere Themen; „Mom“-Texte abschaltbar</td><td>Kontrolle über heikle Nachrichten</td></tr>
+<tr><td><a href="https://www.pocketgamer.biz/from-game-jam-to-indie-hit-the-making-of-a-normal-lost-phone">A Normal Lost Phone</a></td><td>Das Handy erzählt seinen Besitzer: Fotos, Kalender, Notizen</td><td>Ducs Handy ist sein Tagebuch</td></tr>
+<tr><td><a href="https://life-is-strange.fandom.com/wiki/Texting">Life is Strange</a></td><td>Texte reagieren auf Entscheidungen, alte bleiben lesbar</td><td>Folgen kommen als Nachricht zurück</td></tr>
+</table></div>
+
+<h2>Die fünf Ideen des Brain Trust</h2>
+<div class="karten">
+  <div class="karte"><b><span class="stern">⭐ 1 · Chat mit Seele</span></b>Keine Zahlen im Chat. Wirkung als Gefühl: „typing …“, Pause, Herz auf deiner Nachricht oder nur „seen“. Oben ihr Gesicht und Status („on watch · bridge“). Profilbild = letztes Selfie. Chips erscheinen von selbst als Ducs Gedanken, Risiko als „too soon?“.<br><small>Vorbild Florence, iMessage</small></div>
+  <div class="karte"><b>2 · Anruf als Bühne</b>Annehmen-Bildschirm mit Klingeln, dann Video: sie groß in ihrer Welt, Duc klein im Bild-im-Bild mit Gefühls-Pose und Sonnenbrille. Ablehnen ohne Strafe.<br><small>Vorbild MGS-Codec, FaceTime</small></div>
+  <div class="karte"><b>3 · Das Handy wächst mit</b>Kontaktname ändert sich mit der Nähe, ab Stufe 3 Sprachnachrichten und Sticker, ab 5 oben angeheftet.<br><small>Vorbild Florence</small></div>
+  <div class="karte"><b>4 · Duc zögert</b>Bei riskanten Antworten tippt Duc, löscht, schreibt neu.<br><small>Vorbild Emily is Away</small></div>
+  <div class="karte"><b>5 · Galerie im Handy</b>Fotos-App mit Selfies, Polaroids und Dank-Fotos. Das Album gibt es schon im Pause-Menü.<br><small>Vorbild A Normal Lost Phone</small></div>
+</div>
+
+<h2>Entscheidung</h2>
+<div class="tw"><table>
+<tr><th>Option</th><th>Was es ist</th><th>Wirkung bei Ja</th><th>Bei Nein</th><th>Aufwand</th><th>Empfehlung</th></tr>
+<tr class="empf"><td><b>Paket 1 · Chat mit Seele</b> (Ideen 1 + Teil von 3)</td><td>Chat ohne Pfeile und Zähler, Status, Tippen, Herz/„seen“, Profilbild = letztes Selfie, Chips von selbst</td><td>Jede Nachricht fühlt sich wie ein Mensch an; passt zu E-116 (Töpfe unsichtbar)</td><td>Chat bleibt Werte-Werkzeug</td><td>1 Sitzung, keine neuen Sprechzeilen, keine Kosten</td><td class="stern">⭐ zuerst</td></tr>
+<tr><td><b>Paket 2 · Anruf als Bühne</b></td><td>Annehmen, Video mit ihr in ihrer Welt, Duc im Bild-im-Bild mit Sonnenbrille</td><td>Die vertonten Anrufe werden Momente; Running Gag sichtbar</td><td>Anrufe sehen weiter wie Events aus</td><td>1 Sitzung; eigene Klingeltöne je Figur wären bis zu 11 neue Klänge</td><td>danach</td></tr>
+<tr><td><b>Idee 4 · Duc zögert</b></td><td>Tippen und Löschen bei riskanten Chips</td><td>Subtext, Humor</td><td>nichts fehlt</td><td>klein, nur Client</td><td>in Paket 1 mitnehmen, wenn Zeit</td></tr>
+<tr><td><b>Idee 5 · Galerie</b></td><td>Album als Fotos-App im Handy</td><td>Sammeln am Ort, wo man die Fotos bekommt</td><td>Album bleibt im Menü</td><td>klein, Album gibt es</td><td>später</td></tr>
+</table></div>
+<div class="box"><b>Ich empfehle Paket 1 zuerst,</b> weil du dort selbst schreibst und Nähe aufbaust, weil es gerade E-116 widerspricht (sichtbare Pfeile trotz unsichtbarer Töpfe) und es ohne neue Texte, Stimmen oder Bilder geht. Danach Paket 2, das die vertonten Anrufe zur Bühne macht.</div>
+<p class="unter" style="margin-top:12px">Deine Antwort: „Paket 1 und 2 ja, Galerie auch.“</p>
+
+<h2>Gebaut · Paket 1, Paket 2 und Fotos (eab06812)</h2>
+<p class="unter">Aufnahmen aus der Vorschau, Tag 3, 1920×1080. Die Chat-Texte schreibt in der Vorschau ein Platzhalter („She nods and says nothing.“), nicht Blume.</p>
+<div class="bilder">
+  <figure><img src="neu_chat_antwort.jpg" alt="Chat mit Herz"><figcaption><b>Chat ohne Zahlen:</b> Chiara antwortet in drei kurzen Blasen, an Ducs Nachricht hängt ein Herz. Oben ihr Selfie als Profilbild und ihr Status („Main salon“).</figcaption></figure>
+  <figure><img src="neu_chat_tippt.jpg" alt="Sie tippt"><figcaption><b>Sie tippt:</b> drei Punkte, solange das Modell schreibt, dann Blase für Blase mit Klang.</figcaption></figure>
+  <figure><img src="neu_chat_ideen.jpg" alt="Antwort-Ideen"><figcaption><b>Ducs Gedanken:</b> Antwort-Ideen erscheinen von selbst, ohne Pfeile und ohne Zähler.</figcaption></figure>
+</div>
+<div class="bilder" style="margin-top:12px">
+  <figure><img src="neu_video.jpg" alt="Videoanruf"><figcaption><b>Videoanruf:</b> Sophia groß in ihrem Raum, Duc klein mit Gefühls-Pose und Sonnenbrille, die vorgelesene Zeile gold gerahmt.</figcaption></figure>
+  <figure><img src="neu_klingeln.jpg" alt="Klingeln"><figcaption><b>Klingeln:</b> „Incoming video call“ mit Annehmen. Ablehnen nur, wo das Event eine Auflegen-Antwort hat.</figcaption></figure>
+  <figure><img src="neu_nachricht_tippt.jpg" alt="Nachricht als Chat"><figcaption><b>Nachricht als Chat:</b> Rosis Zeilen kommen als Blasen mit ihrem Gesicht im Kopf.</figcaption></figure>
+</div>
+<div class="bilder" style="margin-top:12px">
+  <figure><img src="neu_liste.jpg" alt="Chat-Liste"><figcaption><b>Liste:</b> Profilbild, letzte Zeile, Ort darunter, Punkt bei Ungelesenem. Fotos ist ein eigener Reiter.</figcaption></figure>
+  <figure><img src="neu_fotos.jpg" alt="Fotos-App"><figcaption><b>Fotos:</b> alle Selfies je Person, neueste zuerst.</figcaption></figure>
+  <figure><img src="neu_foto_gross.jpg" alt="Foto groß"><figcaption><b>Foto groß:</b> Ein Klick zeigt das Bild auf dem ganzen Handy.</figcaption></figure>
+</div>
+
+<h2>Nachschau · Was noch fehlt</h2>
+<p class="unter">Brain Trust am Abend mit den Aufnahmen oben und einem Blick in den Code. Protokoll im selben Dokument, Abschnitt „Nachschau“.</p>
+<div class="tw"><table>
+<tr><th>Befund</th><th>Beleg</th></tr>
+<tr><td><b>Chat und Handy-Events sind zwei Welten.</b> Keins der 261 Handy-Events landet danach in ihrem Chat. Nach Sophias Anruf um 02:13 steht in ihrem Faden nichts davon.</td><td>Nur Lob, Mochi's, Ermittlung und Rosis Werkstatt schreiben in den Faden</td></tr>
+<tr><td><b>Im Videoanruf sehen ihre Zeilen aus wie Knöpfe.</b> Drei Kästen über drei Antworten.</td><td>Bild „Videoanruf“ oben</td></tr>
+<tr><td><b>Duc im kleinen Fenster steht in voller Größe</b> vor grauem Grund, nicht wie eine Webcam.</td><td>Bild „Videoanruf“ oben</td></tr>
+<tr><td><b>Die Events zeigen noch Zahlen:</b> 140 von 261 Handy-Events zeigen „Courage check · DC 12“.</td><td>Bild „Nachricht als Chat“ oben</td></tr>
+</table></div>
+
+<h2>Entscheidung</h2>
+<div class="tw"><table>
+<tr><th>Option</th><th>Was es ist</th><th>Wirkung bei Ja</th><th>Bei Nein</th><th>Aufwand</th><th>Empfehlung</th></tr>
+<tr class="empf"><td><b>Paket 3 · Das Handy erinnert sich</b></td><td>Handy-Events landen in ihrem Faden: nur was sie und Duc gesagt haben, Selfie als Foto, Anruf als grauer Eintrag „Video call · 02:13“ bzw. „Missed video call“. Favours und Megan bleiben draußen. Dazu im Videoanruf Untertitel statt Kästen und Duc als Kopf-und-Schultern-Ausschnitt</td><td>Ein Gedächtnis je Frau. Blume kennt im Chat auch die Anrufe, weil der Faden ihr Gedächtnis ist</td><td>Chat und Events bleiben getrennt</td><td>1 Sitzung, keine neuen Zeilen, Bilder oder Klänge</td><td class="stern">⭐ ja</td></tr>
+<tr><td><b>Würfel ruhiger</b></td><td>Knopf zeigt Würfel und Attribut, die Zahl steht im Tooltip. Der Wurf danach bleibt sichtbar</td><td>Weniger Zahlen, die Regeln bleiben prüfbar</td><td>Wie heute</td><td>klein, gilt aber für alle Events</td><td>eigene Entscheidung, nach Paket 3</td></tr>
+<tr><td><b>Rest aus Runde 1</b></td><td>Kontaktnamen je Stufe, Duc zögert beim riskanten Chip, Klingelton je Figur</td><td>Mehr Persönlichkeit</td><td>nichts bricht</td><td>Texte von Character Design, Klänge</td><td>geparkt</td></tr>
+</table></div>
+<div class="box"><b>Ich empfehle Paket 3,</b> weil es den größten Bruch schließt, den der Umbau sichtbar gemacht hat: Der Chat fühlt sich jetzt wie ein Mensch an, vergisst aber jeden Anruf. Es kostet eine Sitzung und nutzt nur Daten, die es schon gibt.</div>
+<p class="unter" style="margin-top:12px">Deine Antwort: „okay leg los mit 3“, dazu: „Foto groß soll mittig auf dem Handy dargestellt werden.“</p>
+
+<h2>Gebaut · Paket 3 „Das Handy erinnert sich“</h2>
+<p class="unter">Vorschau Tag 3, 1920×1080. Die Zeilen „She nods and says nothing.“ sind der Platzhalter der Vorschau statt Blume.</p>
+<div class="bilder">
+  <figure><img src="p3_video.jpg" alt="Videoanruf mit Untertiteln"><figcaption><b>Videoanruf:</b> Ihre Sätze stehen als Untertitel unten im Bild, die gesprochene Zeile hell. Darunter nur Ducs Antworten. Duc im kleinen Fenster als Webcam: Kopf und Schultern, Sonnenbrille.</figcaption></figure>
+  <figure><img src="p3_faden_anruf.jpg" alt="Faden nach dem Anruf"><figcaption><b>Nach dem Anruf:</b> In Sophias Chat steht „Video call“, ihre drei Sätze und Ducs „Read it again.“ Blume liest das als Gedächtnis mit.</figcaption></figure>
+  <figure><img src="p3_faden_foto.jpg" alt="Selfie im Faden"><figcaption><b>Selfie im Faden:</b> Chiaras Foto steht als Bild im Chat, darunter ihre Nachrichten und Ducs Antwort.</figcaption></figure>
+</div>
+<div class="bilder" style="margin-top:12px">
+  <figure><img src="p3_foto_gross.jpg" alt="Foto groß mittig"><figcaption><b>Foto groß:</b> mittig auf dem Handy, im Chat und in der Fotos-App gleich.</figcaption></figure>
+  <div class="karte"><b>Was in den Chat kommt</b>Nur Gesprochenes: ihre Zeilen, Ducs Antwort, wenn er etwas in Anführungszeichen sagt („Read it again.“), und ihre Reaktion. Erzählte Antworten („Rates it a seven and waits.“) bleiben draußen. Ein abgelehnter Anruf wird zu „Missed video call“. Favours und Figuren ohne Chat (Megan, Totò …) bleiben draußen.</div>
+  <div class="karte"><b>Bildformat für fast vollen Bildschirm</b>Das Handy-Display ist etwa 9:19 hoch, die Selfies sind 2:3 (763×1152) bzw. 7:9 (896×1152). Deshalb oben und unten Schwarz. <b>9:16</b> (z. B. 768×1344 in Krea) füllt das Display fast ganz, ohne dass Gesicht oder Hände zum Rand müssen, und ist das Format echter Handy-Stories. 9:19,5 füllt es ganz, ist aber so schmal, dass Ganzkörper-Selfies eng werden. Empfehlung: bestehende Bilder bleiben, neue Selfies in 9:16 (deine Entscheidung, betrifft Character Design).</div>
+</div>
+</main>
+<div class="gross" id="gross" onclick="this.style.display='none'"><img alt=""></div>
+<script>
+document.querySelectorAll("figure img").forEach(function(i){i.onclick=function(){var g=document.getElementById("gross");g.querySelector("img").src=i.src;g.style.display="grid";};});
+</script>
+</body>
+</html>

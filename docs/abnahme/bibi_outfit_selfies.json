@@ -1,0 +1,79 @@
+{
+ "id": "bibi_outfit_selfies",
+ "titel": "Bibi: vier neue Outfits im Tier-Selfie",
+ "hinweis": "Je Outfit drei Tiere auf deinen Probe-Seeds. Die Outfits liegen schon als Karten mit Tag bibi_selfie im Prompt Studio. Meine Einschätzung steht je Outfit beim ersten Bild.",
+ "items": [
+  {
+   "id": "arbeit_hund",
+   "titel": "Arbeitstag · Biscuit",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_outfit_selfies\\arbeit_hund.png",
+   "soll": "Sitzt: Latzhose, Streifen, Dutt mit Stift, Matsch im Gesicht. Vorschlag: so übernehmen."
+  },
+  {
+   "id": "arbeit_capybara",
+   "titel": "Arbeitstag · Monday",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_outfit_selfies\\arbeit_capybara.png",
+   "soll": ""
+  },
+  {
+   "id": "arbeit_wolf",
+   "titel": "Arbeitstag · Sunday",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_outfit_selfies\\arbeit_wolf.png",
+   "soll": ""
+  },
+  {
+   "id": "anime_hund",
+   "titel": "Anime-Abend · Biscuit",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_outfit_selfies\\anime_hund.png",
+   "soll": "Das Shirt-Motiv sieht zu sehr nach dem Joker aus und hat Schrift-Kauderwelsch. Vorschlag: neu mit einem eigenen Cartoon-Schurken ohne Schrift."
+  },
+  {
+   "id": "anime_capybara",
+   "titel": "Anime-Abend · Monday",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_outfit_selfies\\anime_capybara.png",
+   "soll": ""
+  },
+  {
+   "id": "anime_wolf",
+   "titel": "Anime-Abend · Sunday",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_outfit_selfies\\anime_wolf.png",
+   "soll": ""
+  },
+  {
+   "id": "festa_hund",
+   "titel": "Festa-Kleid · Biscuit",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_outfit_selfies\\festa_hund.png",
+   "soll": "Rotes Kleid stimmt, aber die Löwenmähne aus Rüschen ist nur ein kleiner Kragen geworden. Vorschlag: neu, Kragen stärker beschreiben."
+  },
+  {
+   "id": "festa_capybara",
+   "titel": "Festa-Kleid · Monday",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_outfit_selfies\\festa_capybara.png",
+   "soll": ""
+  },
+  {
+   "id": "festa_wolf",
+   "titel": "Festa-Kleid · Sunday",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_outfit_selfies\\festa_wolf.png",
+   "soll": ""
+  },
+  {
+   "id": "pitch_hund",
+   "titel": "Pitch-Tag · Biscuit",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_outfit_selfies\\pitch_hund.png",
+   "soll": "Statt Futterrechnungen hält sie Geldscheine, bei Monday sogar im Ausschnitt. Der Blazer ist eher schwarz als marineblau. Vorschlag: neu mit Papierquittungen und klar blauem Blazer."
+  },
+  {
+   "id": "pitch_capybara",
+   "titel": "Pitch-Tag · Monday",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_outfit_selfies\\pitch_capybara.png",
+   "soll": ""
+  },
+  {
+   "id": "pitch_wolf",
+   "titel": "Pitch-Tag · Sunday",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_outfit_selfies\\pitch_wolf.png",
+   "soll": ""
+  }
+ ]
+}

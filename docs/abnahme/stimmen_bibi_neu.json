@@ -1,0 +1,53 @@
+{
+ "id": "stimmen_bibi_neu",
+ "titel": "Bibi: neue Stimme, Runde 2",
+ "hinweis": "Rauch 2 aus Runde 1 steht oben zum Vergleich. Alle Proben sagen denselben Text auf Englisch mit starkem Akzent. Im Spiel spricht danach Chatterbox mit dieser Stimme, das klingt etwas anders als die Probe. Die übrigen Proben aus Runde 1 liegen weiter im Ordner stimmen_bibi_neu.",
+ "gruppen": [
+  {
+   "id": "favorit",
+   "titel": "Dein Favorit aus Runde 1",
+   "farbe": "#c0524a",
+   "max": 1,
+   "soll": "Der Maßstab für die neuen Proben.",
+   "kandidaten": [
+    {"titel": "Rauch 2", "unter": "40 s", "datei": "stimmen_bibi_neu/bibi_rauch_2.mp3"}
+   ]
+  },
+  {
+   "id": "gleich",
+   "titel": "Gleiche Beschreibung wie Rauch 2",
+   "farbe": "#e6a07a",
+   "max": 1,
+   "soll": "Tief, rauchig, sinnlich, schnell. Am nächsten an deinem Favoriten.",
+   "kandidaten": [
+    {"titel": "Gleich 1", "unter": "42 s, am meisten Rauschen der drei", "datei": "stimmen_bibi_neu/bibi_r2_gleich_1.mp3"},
+    {"titel": "Gleich 2", "unter": "40 s", "datei": "stimmen_bibi_neu/bibi_r2_gleich_2.mp3"},
+    {"titel": "Gleich 3 (Vorschlag)", "unter": "41 s, am saubersten der drei", "datei": "stimmen_bibi_neu/bibi_r2_gleich_3.mp3"}
+   ]
+  },
+  {
+   "id": "schnell",
+   "titel": "Noch schneller und energischer",
+   "farbe": "#d9b84a",
+   "max": 1,
+   "soll": "Überschlägt sich vor Freude, sinnlich ohne Absicht.",
+   "kandidaten": [
+    {"titel": "Schnell 1", "unter": "40 s", "datei": "stimmen_bibi_neu/bibi_r2_schnell_1.mp3"},
+    {"titel": "Schnell 2", "unter": "42 s", "datei": "stimmen_bibi_neu/bibi_r2_schnell_2.mp3"},
+    {"titel": "Schnell 3", "unter": "44 s, am saubersten der drei", "datei": "stimmen_bibi_neu/bibi_r2_schnell_3.mp3"}
+   ]
+  },
+  {
+   "id": "frech",
+   "titel": "Rauer und frecher",
+   "farbe": "#7aa8e6",
+   "max": 1,
+   "soll": "Raucherstimme, neckend, kehliges Lachen zwischen den Wörtern.",
+   "kandidaten": [
+    {"titel": "Frech 1", "unter": "50 s, am langsamsten, am meisten Rauschen", "datei": "stimmen_bibi_neu/bibi_r2_frech_1.mp3"},
+    {"titel": "Frech 2", "unter": "42 s", "datei": "stimmen_bibi_neu/bibi_r2_frech_2.mp3"},
+    {"titel": "Frech 3", "unter": "45 s", "datei": "stimmen_bibi_neu/bibi_r2_frech_3.mp3"}
+   ]
+  }
+ ]
+}

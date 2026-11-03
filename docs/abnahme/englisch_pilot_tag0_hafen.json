@@ -1,0 +1,3833 @@
+{
+ "id": "englisch_pilot_tag0_hafen",
+ "titel": "Englisch-Pilot · Tag 0, Hafen, Maxwells Lektion",
+ "hinweis": "Links alt, rechts neu. 🔊 = wird neu vertont. Pro Text OK oder Ändern (mit Notiz). Graue Zeilen ohne „alt“ sind unverändert. Unten: neu, Rosi wirft Terremoto – je nach deinem Tag-0-Chip bei ihr eine von vier Fassungen. Knopfnamen in Hinweisen („Attack“, „Skill“) folgen der englischen Oberfläche, die mit dem UI-Paket kommt.",
+ "gruppen": [
+  {
+   "titel": "mx_tutorial · Maximum ruft zum Training",
+   "items": [
+    {
+     "key": "mx_tutorial.titel",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Titel",
+     "alt": "Maximum ruft zum Training",
+     "neu": "Lesson One",
+     "vertont": false
+    },
+    {
+     "key": "mx_tutorial.lage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "Maxwell steht oben auf dem Sonnendeck, Handtücher über den Schultern, und winkt dich hoch. Unter freiem Himmel, die halbe Crew hängt an der Reling. „Erste Lektion, Nummer Eins!“",
+     "neu": "Maxwell stands at the top of the sun deck with towels over his shoulders, waving you up. Half the crew is hanging over the railing to watch.",
+     "vertont": false
+    },
+    {
+     "key": "mx_tutorial.betroffen.lea",
+     "wer": "Lea",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "feuert an",
+     "neu": "cheers you on",
+     "vertont": false
+    },
+    {
+     "key": "mx_tutorial.betroffen.toto",
+     "wer": "Toto",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "nimmt Wetten an",
+     "neu": "takes bets",
+     "vertont": false
+    },
+    {
+     "key": "mx_tutorial#z0",
+     "wer": "Maxwell",
+     "gefuehl": "excitement",
+     "feld": "Rede",
+     "alt": "Number One! The sea took our engine, not our muscles. Maximum teaches you to fight. Lesson one, now!",
+     "neu": "Number One! The sea took our engine, brother, but not our muscles. Mr. Maximum is going to teach you to fight, and lesson one starts right now!",
+     "vertont": true
+    },
+    {
+     "key": "mx_tutorial#z1",
+     "wer": "Toto",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "Two to one on the gigante. Comandante, do not make me rich.",
+     "neu": "Two to one on the gigante. Comandante, please don't make me rich.",
+     "vertont": true
+    },
+    {
+     "key": "mx_tutorial.o0",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Zeig her, Maximum.“",
+     "neu": "“Show me, Mr. Maximum.”",
+     "vertont": false
+    },
+    {
+     "key": "mx_tutorial#o0",
+     "wer": "Maxwell",
+     "gefuehl": "joy",
+     "feld": "Antwort",
+     "alt": "MAXIMUM! That's the spirit, brother!",
+     "neu": "MAXIMUM! That's the spirit, brother!",
+     "vertont": false
+    },
+    {
+     "key": "mx_tutorial.o1",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Erst seine Aufwärm-Liegestütze mitmachen",
+     "neu": "Joins his warm-up push-ups first.",
+     "vertont": false
+    },
+    {
+     "key": "mx_tutorial#o1",
+     "wer": "Maxwell",
+     "gefuehl": "pride",
+     "feld": "Antwort",
+     "alt": "Ten for you, twenty for Maximum! Now we fight!",
+     "neu": "Ten for you, twenty for Mr. Maximum! Now we fight!",
+     "vertont": true
+    }
+   ]
+  },
+  {
+   "titel": "t0_limousine · Antibes, 06:10",
+   "items": [
+    {
+     "key": "t0_limousine.titel",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Titel",
+     "alt": "Antibes, 06:10",
+     "neu": "Antibes, 06:10",
+     "vertont": false
+    },
+    {
+     "key": "t0_limousine.lage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "Die Hallentore stehen offen. Paletten, Gegenlicht, draußen der weiße Bug der Eden Rise. Eine schwarze Stretch-Limousine rollt in die Halle. Das Beladen stockt.",
+     "neu": "The hangar doors stand open. Pallets, low sun, and outside the white bow of the Eden Rise. A black stretch limousine rolls into the hall, and the loading stops.",
+     "vertont": false
+    },
+    {
+     "key": "t0_limousine.betroffen.toto",
+     "wer": "Toto",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "staunt",
+     "neu": "stares",
+     "vertont": false
+    },
+    {
+     "key": "t0_limousine.betroffen.lea",
+     "wer": "Lea",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "will mitfahren",
+     "neu": "wants a ride",
+     "vertont": false
+    },
+    {
+     "key": "t0_limousine.betroffen.rosi",
+     "wer": "Rosi",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "rollt die Augen",
+     "neu": "rolls her eyes",
+     "vertont": false
+    },
+    {
+     "key": "t0_limousine.betroffen.chiara",
+     "wer": "Chiara",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "rechnet",
+     "neu": "does the maths",
+     "vertont": false
+    },
+    {
+     "key": "t0_limousine.betroffen.lola",
+     "wer": "Lola",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "zieht eine Braue hoch",
+     "neu": "raises an eyebrow",
+     "vertont": false
+    },
+    {
+     "key": "t0_limousine#z0",
+     "wer": "Maxwell",
+     "gefuehl": "excitement",
+     "feld": "Rede",
+     "alt": "Number One has arrived! Mr. Maximum salutes the limousine!",
+     "neu": "Number One has arrived! Mr. Maximum salutes the limousine!",
+     "vertont": false
+    },
+    {
+     "key": "t0_limousine#z1",
+     "wer": "Toto",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "Madonna. Six windows. Comandante, I already like you. I already bet on you.",
+     "neu": "Madonna, six windows. Comandante, I like you already. I've already put money on you.",
+     "vertont": true
+    },
+    {
+     "key": "t0_limousine#z2",
+     "wer": "Lea",
+     "gefuehl": "excitement",
+     "feld": "Rede",
+     "alt": "Is that a real limo? Can I sit in it? Later? Please?",
+     "neu": "Is that a real limo? Can I sit in it? Not now, obviously. Later? Please?",
+     "vertont": true
+    },
+    {
+     "key": "t0_limousine#z3",
+     "wer": "Sophia",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "That's the Eden Consulting founder. Be charming. Not you, Lea. Me.",
+     "neu": "That's the founder of Eden Consulting, darlings. Be charming. Not you, Lea. Me.",
+     "vertont": true
+    },
+    {
+     "key": "t0_limousine#z4",
+     "wer": "Rosi",
+     "gefuehl": "annoyance",
+     "feld": "Rede",
+     "alt": "Great. A consultant. In a hearse.",
+     "neu": "Great. A consultant, and he came in a hearse.",
+     "vertont": true
+    },
+    {
+     "key": "t0_limousine#z5",
+     "wer": "Chiara",
+     "gefuehl": "disapproval",
+     "feld": "Rede",
+     "alt": "Six windows. We have thirteen people and no budget for napkins.",
+     "neu": "Six windows. We're thirteen people with no budget for napkins, and he has six windows.",
+     "vertont": true
+    },
+    {
+     "key": "t0_limousine#z6",
+     "wer": "Lola",
+     "gefuehl": "curiosity",
+     "feld": "Rede",
+     "alt": "Babe. Who arrives at a boat in a limo?",
+     "neu": "Mate. Who turns up to a boat in a limo?",
+     "vertont": true
+    },
+    {
+     "key": "t0_limousine.o0",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Morning, everyone. I'll carry my own bag.“",
+     "neu": "“Morning, everyone. I'll carry my own bag.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_limousine#o0",
+     "wer": "Chiara",
+     "gefuehl": "surprise",
+     "feld": "Antwort",
+     "alt": "…Noted.",
+     "neu": "…Noted. That's a first.",
+     "vertont": true
+    },
+    {
+     "key": "t0_limousine.o1",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„The CEO insisted on the car. I'd have taken the bus.“",
+     "neu": "“The CEO insisted on the car. I'd have taken the bus.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_limousine#o1",
+     "wer": "Lola",
+     "gefuehl": "amusement",
+     "feld": "Antwort",
+     "alt": "The bus. Sure. Babe, I like you a little.",
+     "neu": "The bus. Sure you would, Boss. Alright, I like you a little.",
+     "vertont": true
+    },
+    {
+     "key": "t0_limousine.o2",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Hi. I'm Duc.“",
+     "neu": "“Hi. I'm Duc.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_limousine.o3",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Careful with the bags. They're Louis Vuitton.“",
+     "neu": "“Careful with the bags, they're Louis Vuitton.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_limousine#o3",
+     "wer": "Rosi",
+     "gefuehl": "disapproval",
+     "feld": "Antwort",
+     "alt": "Told you. Hearse.",
+     "neu": "See? I told you. A hearse.",
+     "vertont": true
+    }
+   ]
+  },
+  {
+   "titel": "t0_megan · Mac",
+   "items": [
+    {
+     "key": "t0_megan.titel",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Titel",
+     "alt": "Mac",
+     "neu": "Mac",
+     "vertont": false
+    },
+    {
+     "key": "t0_megan.lage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "Eine Frau mit Klemmbrett kommt gegen das Licht. Zehn Jahre. Derselbe Gang.",
+     "neu": "A woman with a clipboard walks out of the glare. Ten years, and she still walks the same way.",
+     "vertont": false
+    },
+    {
+     "key": "t0_megan.betroffen.chiara",
+     "wer": "Chiara",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "beobachtet",
+     "neu": "watches",
+     "vertont": false
+    },
+    {
+     "key": "t0_megan#z0",
+     "wer": "Megan",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "Duc.",
+     "neu": "Duc.",
+     "vertont": false
+    },
+    {
+     "key": "t0_megan.o0",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„It's good to see you, Meg.“",
+     "neu": "“It's good to see you, Meg.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_megan#o0",
+     "wer": "Megan",
+     "gefuehl": "joy",
+     "feld": "Antwort",
+     "alt": "…It's Megan now. Fleet Director Megan.",
+     "neu": "…It's Megan now. Fleet Director Megan.",
+     "vertont": false
+    },
+    {
+     "key": "t0_megan.o1",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Fleet Director? Did you yell your way up?“",
+     "neu": "“Fleet Director? Did you yell your way to the top?”",
+     "vertont": false
+    },
+    {
+     "key": "t0_megan#o1",
+     "wer": "Megan",
+     "gefuehl": "amusement",
+     "feld": "Antwort",
+     "alt": "Yes. And I'll yell you down too.",
+     "neu": "I did. And I'll yell you right back down if I have to.",
+     "vertont": true
+    },
+    {
+     "key": "t0_megan.o2",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„And you still look so gorgeous, Mac. It feels like time didn't pass.“",
+     "neu": "“And you still look so gorgeous, Mac. It feels like time didn't pass.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_megan#o2",
+     "wer": "Megan",
+     "gefuehl": "embarrassment",
+     "feld": "Antwort",
+     "alt": "…Time passed, Duc. Gangway's that way.",
+     "neu": "…Time passed, Duc. The gangway's that way.",
+     "vertont": true
+    },
+    {
+     "key": "t0_megan.o3",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Ms McAllister.“",
+     "neu": "“Ms McAllister.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_megan#o3",
+     "wer": "Megan",
+     "gefuehl": "approval",
+     "feld": "Antwort",
+     "alt": "First Officer. Good. Keep it like that.",
+     "neu": "First Officer. Good. Let's keep it like that.",
+     "vertont": true
+    }
+   ]
+  },
+  {
+   "titel": "t0_holm · Die Kapitänin",
+   "items": [
+    {
+     "key": "t0_holm.titel",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Titel",
+     "alt": "Die Kapitänin",
+     "neu": "The Captain",
+     "vertont": false
+    },
+    {
+     "key": "t0_holm.lage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "Megan führt dich zur Gangway. Oben steht eine Frau mit kaltem Kaffee und sieht dich an wie das Wetter. Für eine Sekunde geht ihre Hand an die Seite. Dann wieder der Kaffee.",
+     "neu": "Megan leads you to the gangway. At the top stands a woman with a mug of cold coffee, looking at you the way she would look at the weather. For a second her hand goes to her side. Then back to the coffee.",
+     "vertont": false
+    },
+    {
+     "key": "t0_holm.betroffen.megan",
+     "wer": "Megan",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "stellt vor",
+     "neu": "introduces her",
+     "vertont": false
+    },
+    {
+     "key": "t0_holm#z0",
+     "wer": "Megan",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "Captain Marit Holm. Eleven seasons. She doesn't like consultants. She doesn't like anyone.",
+     "neu": "Captain Marit Holm. Eleven seasons on this boat. She doesn't like consultants. She doesn't like anyone, really.",
+     "vertont": true
+    },
+    {
+     "key": "t0_holm#z1",
+     "wer": "Holm",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "So you're the CEO's consultant. Can you tie a bowline?",
+     "neu": "So you're the CEO's consultant. Can you tie a bowline?",
+     "vertont": false
+    },
+    {
+     "key": "t0_holm.o0",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Knüpft einhändig einen Palstek. „Behind my back, if you like.“",
+     "neu": "Ties a bowline one-handed. “Behind my back, if you like.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_holm#o0",
+     "wer": "Holm",
+     "gefuehl": "approval",
+     "feld": "Antwort",
+     "alt": "…Hm. Takk. Don't get cocky.",
+     "neu": "…Hm. Takk. Don't let it go to your head.",
+     "vertont": true
+    },
+    {
+     "key": "t0_holm.o1",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„I can tie a tie. Does that count?“",
+     "neu": "“I can tie a tie. Does that count?”",
+     "vertont": false
+    },
+    {
+     "key": "t0_holm#o1",
+     "wer": "Holm",
+     "gefuehl": "amusement",
+     "feld": "Antwort",
+     "alt": "On my bridge? No. At the party? Maybe.",
+     "neu": "On my bridge, no. At the party, maybe.",
+     "vertont": true
+    },
+    {
+     "key": "t0_holm.o2",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„I have my Yachtmaster. It's in the papers.“",
+     "neu": "“I have my Yachtmaster. It's in the papers.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_holm#o2",
+     "wer": "Holm",
+     "gefuehl": "neutral",
+     "feld": "Antwort",
+     "alt": "Papers don't float, Frankfurt.",
+     "neu": "Papers don't float, Frankfurt.",
+     "vertont": false
+    },
+    {
+     "key": "t0_holm.o3",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Can't the crew do the knots?“",
+     "neu": "“Can't the crew do the knots?”",
+     "vertont": false
+    },
+    {
+     "key": "t0_holm#o3",
+     "wer": "Holm",
+     "gefuehl": "disapproval",
+     "feld": "Antwort",
+     "alt": "The crew does what I do. Coffee's cold. Like this conversation.",
+     "neu": "The crew does what I do. My coffee's cold, and so is this conversation.",
+     "vertont": true
+    }
+   ]
+  },
+  {
+   "titel": "t0_chiara · Die Chief Stew",
+   "items": [
+    {
+     "key": "t0_chiara.titel",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Titel",
+     "alt": "Die Chief Stew",
+     "neu": "The Chief Stew",
+     "vertont": false
+    },
+    {
+     "key": "t0_chiara.lage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "Am Fuß der Gangway: Uniform ohne Falte, Klemmbrett, ein Blick, der Staub findet.",
+     "neu": "At the foot of the gangway: a uniform without a single crease, a clipboard, and a look that finds dust.",
+     "vertont": false
+    },
+    {
+     "key": "t0_chiara.betroffen.megan",
+     "wer": "Megan",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "fragt nach",
+     "neu": "checks on her",
+     "vertont": false
+    },
+    {
+     "key": "t0_chiara#z0",
+     "wer": "Megan",
+     "gefuehl": "caring",
+     "feld": "Rede",
+     "alt": "Chiara Sonnberg. Chief Stew. The best in the fleet. Chiara, did you eat?",
+     "neu": "Chiara Sonnberg, Chief Stew. The best in the fleet. Chiara, have you eaten?",
+     "vertont": true
+    },
+    {
+     "key": "t0_chiara#z1",
+     "wer": "Chiara",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "Yes.",
+     "neu": "Yes.",
+     "vertont": false
+    },
+    {
+     "key": "t0_chiara#z2",
+     "wer": "Megan",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "Liar.",
+     "neu": "Liar.",
+     "vertont": false
+    },
+    {
+     "key": "t0_chiara#z3",
+     "wer": "Chiara",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "Welcome aboard, First Officer. Your cabin is ready. It used to be mine.",
+     "neu": "Welcome aboard, First Officer. Your cabin is ready. It used to be mine.",
+     "vertont": false
+    },
+    {
+     "key": "t0_chiara.o0",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Then you know what's wrong with it. What would you change?“",
+     "neu": "“Then you know what's wrong with it. What would you change?”",
+     "vertont": false
+    },
+    {
+     "key": "t0_chiara#o0",
+     "wer": "Chiara",
+     "gefuehl": "surprise",
+     "feld": "Antwort",
+     "alt": "…The shower. And the bell. Thank you for asking.",
+     "neu": "…The shower, and that bell. Thank you for asking. Nobody ever asks.",
+     "vertont": true
+    },
+    {
+     "key": "t0_chiara.o1",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Then I'll take good care of it. And of the one who had it before.“",
+     "neu": "“Then I'll take good care of it. And of the one who had it before.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_chiara#o1",
+     "wer": "Chiara",
+     "gefuehl": "embarrassment",
+     "feld": "Antwort",
+     "alt": "…That was almost charming. Don't do it on duty.",
+     "neu": "…That was almost charming. Don't do it on duty.",
+     "vertont": false
+    },
+    {
+     "key": "t0_chiara.o2",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Thank you.“",
+     "neu": "“Thank you.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_chiara#o2",
+     "wer": "Chiara",
+     "gefuehl": "neutral",
+     "feld": "Antwort",
+     "alt": "You're welcome. Breakfast is at seven.",
+     "neu": "You're welcome. Breakfast is at seven, and I mean seven.",
+     "vertont": true
+    },
+    {
+     "key": "t0_chiara.o3",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Great. Is there a bigger one?“",
+     "neu": "“Great. Is there a bigger one?”",
+     "vertont": false
+    },
+    {
+     "key": "t0_chiara#o3",
+     "wer": "Chiara",
+     "gefuehl": "disapproval",
+     "feld": "Antwort",
+     "alt": "No, First Officer. There is a smaller one. Mine. Now.",
+     "neu": "No, First Officer. There's a smaller one. Mine. As of now.",
+     "vertont": true
+    }
+   ]
+  },
+  {
+   "titel": "t0_rosi · Die Technikerin",
+   "items": [
+    {
+     "key": "t0_rosi.titel",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Titel",
+     "alt": "Die Technikerin",
+     "neu": "The Engineer",
+     "vertont": false
+    },
+    {
+     "key": "t0_rosi.lage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "Unter dem Heck ragen zwei Beine in Arbeitshosen hervor. Daneben brummt ein kleiner Dieselgenerator zufrieden.",
+     "neu": "Two legs in work trousers stick out from under the stern. Next to them, a small diesel generator hums away happily.",
+     "vertont": false
+    },
+    {
+     "key": "t0_rosi.betroffen.megan",
+     "wer": "Megan",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "warnt dich",
+     "neu": "warns you",
+     "vertont": false
+    },
+    {
+     "key": "t0_rosi#z0",
+     "wer": "Megan",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "Rosi Scuderi. Our ETO. Brilliant. Bites.",
+     "neu": "Rosi Scuderi, our ETO. Brilliant. She bites.",
+     "vertont": true
+    },
+    {
+     "key": "t0_rosi#z1",
+     "wer": "Rosi",
+     "gefuehl": "annoyance",
+     "feld": "Rede",
+     "alt": "If you're here to look at the motor, don't touch anything.",
+     "neu": "If you're here to look at the motor, don't touch anything.",
+     "vertont": false
+    },
+    {
+     "key": "t0_rosi.o0",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„It's not a motor. It's an inverter.“",
+     "neu": "“It's not a motor. It's an inverter.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_rosi#o0",
+     "wer": "Rosi",
+     "gefuehl": "surprise",
+     "feld": "Antwort",
+     "alt": "…Okay. You can touch one thing.",
+     "neu": "…Okay. Fine. You can touch one thing.",
+     "vertont": true
+    },
+    {
+     "key": "t0_rosi.o1",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„I'm here to look at the engineer.“",
+     "neu": "“I'm here to look at the engineer.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_rosi#o1",
+     "wer": "Rosi",
+     "gefuehl": "amusement",
+     "feld": "Antwort",
+     "alt": "Wow. Cheesy. Hold that rag. Don't drop it.",
+     "neu": "Wow, that was cheesy. Here, hold this rag, and don't drop it.",
+     "vertont": true
+    },
+    {
+     "key": "t0_rosi.o2",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„I won't.“",
+     "neu": "“I won't.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_rosi#o2",
+     "wer": "Rosi",
+     "gefuehl": "neutral",
+     "feld": "Antwort",
+     "alt": "Good.",
+     "neu": "Good. Then we'll get along.",
+     "vertont": true
+    },
+    {
+     "key": "t0_rosi.o3",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Can't we just call a mechanic?“",
+     "neu": "“Can't we just call a mechanic?”",
+     "vertont": false
+    },
+    {
+     "key": "t0_rosi#o3",
+     "wer": "Rosi",
+     "gefuehl": "anger",
+     "feld": "Antwort",
+     "alt": "I AM the mechanic.",
+     "neu": "I AM the mechanic, Officer!",
+     "vertont": true
+    }
+   ]
+  },
+  {
+   "titel": "t0_maxwell · Mr. Maximum",
+   "items": [
+    {
+     "key": "t0_maxwell.titel",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Titel",
+     "alt": "Mr. Maximum",
+     "neu": "Mr. Maximum",
+     "vertont": false
+    },
+    {
+     "key": "t0_maxwell.lage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "Ein Mann stemmt eine ganze Palette über den Kopf. Dann donnert ein Hubschrauber übers Hallendach, und er verschwindet blitzschnell dahinter.",
+     "neu": "A man lifts an entire pallet over his head. Then a helicopter thunders over the hangar roof, and he vanishes behind the pallet in a flash.",
+     "vertont": false
+    },
+    {
+     "key": "t0_maxwell.betroffen.megan",
+     "wer": "Megan",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "seufzt",
+     "neu": "sighs",
+     "vertont": false
+    },
+    {
+     "key": "t0_maxwell#z0",
+     "wer": "Megan",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "Maxwell. Steward and trainer. Don't challenge him to anything.",
+     "neu": "Maxwell, steward and trainer. Don't challenge him to anything.",
+     "vertont": true
+    },
+    {
+     "key": "t0_maxwell#z1",
+     "wer": "Maxwell",
+     "gefuehl": "excitement",
+     "feld": "Rede",
+     "alt": "Number One! Mr. Maximum has heard of you! Do you lift?",
+     "neu": "Number One! Mr. Maximum has heard of you! Do you lift?",
+     "vertont": false
+    },
+    {
+     "key": "t0_maxwell#z2",
+     "wer": "Maxwell",
+     "gefuehl": "nervousness",
+     "feld": "Rede",
+     "alt": "Mr. Maximum was checking the pallet. The pallet is fine.",
+     "neu": "Mr. Maximum was just checking the pallet. The pallet is fine. Everything is fine.",
+     "vertont": true
+    },
+    {
+     "key": "t0_maxwell.o0",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Show me. Tomorrow, six thirty.“",
+     "neu": "“Show me. Tomorrow, six thirty.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_maxwell#o0",
+     "wer": "Maxwell",
+     "gefuehl": "joy",
+     "feld": "Antwort",
+     "alt": "A MAN OF HONOUR! Six thirty! Mr. Maximum will cry, but quietly.",
+     "neu": "A MAN OF HONOUR! Six thirty! Mr. Maximum will cry, but quietly.",
+     "vertont": false
+    },
+    {
+     "key": "t0_maxwell.o1",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Only my expectations.“",
+     "neu": "“Only my expectations.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_maxwell#o1",
+     "wer": "Maxwell",
+     "gefuehl": "amusement",
+     "feld": "Antwort",
+     "alt": "One push-up for that joke!",
+     "neu": "Ha! One push-up for that joke, brother!",
+     "vertont": true
+    },
+    {
+     "key": "t0_maxwell.o2",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„A little.“",
+     "neu": "“A little.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_maxwell#o2",
+     "wer": "Maxwell",
+     "gefuehl": "optimism",
+     "feld": "Antwort",
+     "alt": "A little is the beginning of a lot!",
+     "neu": "A little is the beginning of a lot, brother!",
+     "vertont": true
+    },
+    {
+     "key": "t0_maxwell.o3",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„I have a personal trainer in Frankfurt.“",
+     "neu": "“I have a personal trainer in Frankfurt.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_maxwell#o3",
+     "wer": "Maxwell",
+     "gefuehl": "disappointment",
+     "feld": "Antwort",
+     "alt": "…Mr. Maximum will be very professional now.",
+     "neu": "…Mr. Maximum will be very professional now.",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "t0_toto · Der Bootsmann",
+   "items": [
+    {
+     "key": "t0_toto.titel",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Titel",
+     "alt": "Der Bootsmann",
+     "neu": "The Bosun",
+     "vertont": false
+    },
+    {
+     "key": "t0_toto.lage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "Ein Mann mit Goldzahn-Lächeln trägt eine kleine Kiste selbst, obwohl überall Paletten stehen.",
+     "neu": "A man with a gold-tooth grin is carrying a small crate himself, although there are pallets everywhere.",
+     "vertont": false
+    },
+    {
+     "key": "t0_toto.betroffen.megan",
+     "wer": "Megan",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "verdreht die Augen",
+     "neu": "rolls her eyes",
+     "vertont": false
+    },
+    {
+     "key": "t0_toto#z0",
+     "wer": "Megan",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "Toto. Bosun. If something goes missing, it was Toto. If it comes back, also Toto.",
+     "neu": "Totò, our bosun. If something goes missing, it was Totò. If it comes back, that was also Totò.",
+     "vertont": true
+    },
+    {
+     "key": "t0_toto#z1",
+     "wer": "Toto",
+     "gefuehl": "nervousness",
+     "feld": "Rede",
+     "alt": "Comandante! Welcome! Don't mind this. Potatoes. Very small potatoes.",
+     "neu": "Comandante! Welcome, welcome! Don't mind this. Potatoes. Very small potatoes.",
+     "vertont": true
+    },
+    {
+     "key": "t0_toto.o0",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Let me help you carry that.“",
+     "neu": "“Let me help you carry that.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_toto#o0",
+     "wer": "Toto",
+     "gefuehl": "nervousness",
+     "feld": "Antwort",
+     "alt": "No, no! Heavy potatoes. I mean light. I got it.",
+     "neu": "No, no! Heavy potatoes. I mean light. Very light. I've got it.",
+     "vertont": true
+    },
+    {
+     "key": "t0_toto.o1",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„What are the odds I survive the week?“",
+     "neu": "“What are the odds I survive the week?”",
+     "vertont": false
+    },
+    {
+     "key": "t0_toto#o1",
+     "wer": "Toto",
+     "gefuehl": "amusement",
+     "feld": "Antwort",
+     "alt": "Ten to one. Against. But I love a long shot.",
+     "neu": "Ten to one. Against. But I love a long shot, Comandante.",
+     "vertont": true
+    },
+    {
+     "key": "t0_toto.o2",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Morning.“",
+     "neu": "“Morning.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_toto#o2",
+     "wer": "Toto",
+     "gefuehl": "joy",
+     "feld": "Antwort",
+     "alt": "Buongiorno!",
+     "neu": "Buongiorno, Comandante!",
+     "vertont": true
+    },
+    {
+     "key": "t0_toto.o3",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Shouldn't those potatoes be inspected?“",
+     "neu": "“Shouldn't those potatoes be inspected?”",
+     "vertont": false
+    },
+    {
+     "key": "t0_toto#o3",
+     "wer": "Toto",
+     "gefuehl": "fear",
+     "feld": "Antwort",
+     "alt": "Inspected? By who? Elsa?! …I mean. Yes. Later.",
+     "neu": "Inspected? By who? Elsa?! …I mean, yes. Of course. Later.",
+     "vertont": true
+    }
+   ]
+  },
+  {
+   "titel": "t0_lola · Die Köchin",
+   "items": [
+    {
+     "key": "t0_lola.titel",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Titel",
+     "alt": "Die Köchin",
+     "neu": "The Cook",
+     "vertont": false
+    },
+    {
+     "key": "t0_lola.lage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "In einer Ecke der Halle dampft ein Bambuskorb auf einem Campingkocher. Barfuß, Mehl auf der Wange.",
+     "neu": "In a corner of the hangar, a bamboo steamer puffs away on a camping stove. She's barefoot, with flour on her cheek.",
+     "vertont": false
+    },
+    {
+     "key": "t0_lola.betroffen.megan",
+     "wer": "Megan",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "warnt dich",
+     "neu": "warns you",
+     "vertont": false
+    },
+    {
+     "key": "t0_lola#z0",
+     "wer": "Megan",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "Lola. Cook. Don't ask what's in the oregano.",
+     "neu": "Lola, our cook. Don't ask what's in the oregano.",
+     "vertont": true
+    },
+    {
+     "key": "t0_lola#z1",
+     "wer": "Lola",
+     "gefuehl": "curiosity",
+     "feld": "Rede",
+     "alt": "Okay, Boss. You look like a man who eats with tweezers. Prove me wrong.",
+     "neu": "Alright, Boss. You look like a bloke who eats with tweezers. Go on, prove me wrong.",
+     "vertont": true
+    },
+    {
+     "key": "t0_lola.o0",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„One day I cook for you. Pho. My mother's recipe.“",
+     "neu": "“One day I'll cook for you. Pho, my mother's recipe.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_lola#o0",
+     "wer": "Lola",
+     "gefuehl": "curiosity",
+     "feld": "Antwort",
+     "alt": "…A man who cooks? Okay. I'm listening.",
+     "neu": "…A man who cooks? Okay. Now I'm listening.",
+     "vertont": true
+    },
+    {
+     "key": "t0_lola.o1",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„That's the best thing I've had in years. Who taught you this?“",
+     "neu": "“That's the best thing I've had in years. Who taught you this?”",
+     "vertont": false
+    },
+    {
+     "key": "t0_lola#o1",
+     "wer": "Lola",
+     "gefuehl": "joy",
+     "feld": "Antwort",
+     "alt": "Nobody. That's the point.",
+     "neu": "Nobody! That's the whole point, mate.",
+     "vertont": true
+    },
+    {
+     "key": "t0_lola.o2",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Maybe later.“",
+     "neu": "“Maybe later.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_lola#o2",
+     "wer": "Lola",
+     "gefuehl": "amusement",
+     "feld": "Antwort",
+     "alt": "Later is how you starve, babe.",
+     "neu": "Later is how people starve, Boss.",
+     "vertont": true
+    },
+    {
+     "key": "t0_lola.o3",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Is it gluten-free?“",
+     "neu": "“Is it gluten-free?”",
+     "vertont": false
+    },
+    {
+     "key": "t0_lola#o3",
+     "wer": "Lola",
+     "gefuehl": "disapproval",
+     "feld": "Antwort",
+     "alt": "It's free. That's all it is.",
+     "neu": "It's free. That's all it is, mate.",
+     "vertont": true
+    }
+   ]
+  },
+  {
+   "titel": "t0_wahl · Where to first?",
+   "items": [
+    {
+     "key": "t0_wahl.titel",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Titel",
+     "alt": "Where to first?",
+     "neu": "Where to First?",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl.lage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "Megan sieht auf die Uhr. Die Flut wartet nicht.",
+     "neu": "Megan checks her watch. The tide doesn't wait.",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl.betroffen.lea",
+     "wer": "Lea",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "winkt",
+     "neu": "waves",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl.betroffen.jana",
+     "wer": "Jana",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "versteckt eine Kiste",
+     "neu": "hides a crate",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl.betroffen.siri",
+     "wer": "Siri",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "wird gefilmt",
+     "neu": "is being filmed",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl.betroffen.yamamoto",
+     "wer": "Yamamoto",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "fotografiert",
+     "neu": "takes photos",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl#z0",
+     "wer": "Megan",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "Where to first? You have five minutes.",
+     "neu": "Where to first? You've got five minutes.",
+     "vertont": true
+    },
+    {
+     "key": "t0_wahl.o0",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Zu den Moore-Schwestern",
+     "neu": "Visit the Moore sisters",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl.o1",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Zu Jana",
+     "neu": "Visit Jana",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl.o2",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Zu Siri und Yasin",
+     "neu": "Visit Siri and Yasin",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl.o3",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Zu Yamamoto-san",
+     "neu": "Visit Yamamoto-san",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "t0_wahl2_moore · And then?",
+   "items": [
+    {
+     "key": "t0_wahl2_moore.titel",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Titel",
+     "alt": "And then?",
+     "neu": "And Then?",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl2_moore.lage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "Megan klopft auf ihr Klemmbrett. Eine Station noch.",
+     "neu": "Megan taps her clipboard. One more stop.",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl2_moore.betroffen.chiara",
+     "wer": "Chiara",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "wartet an der Gangway",
+     "neu": "waits at the gangway",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl2_moore#z0",
+     "wer": "Megan",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "One more. Then we sail.",
+     "neu": "One more, and then we sail.",
+     "vertont": true
+    },
+    {
+     "key": "t0_wahl2_moore.o0",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Zu Jana",
+     "neu": "Visit Jana",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl2_moore.o1",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Zu Siri und Yasin",
+     "neu": "Visit Siri and Yasin",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl2_moore.o2",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Zu Yamamoto-san",
+     "neu": "Visit Yamamoto-san",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl2_moore.o3",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Zurück zur Gangway",
+     "neu": "Back to the gangway",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "t0_wahl2_jana · And then?",
+   "items": [
+    {
+     "key": "t0_wahl2_jana.titel",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Titel",
+     "alt": "And then?",
+     "neu": "And Then?",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl2_jana.lage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "Megan klopft auf ihr Klemmbrett. Eine Station noch.",
+     "neu": "Megan taps her clipboard. One more stop.",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl2_jana.betroffen.chiara",
+     "wer": "Chiara",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "wartet an der Gangway",
+     "neu": "waits at the gangway",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl2_jana#z0",
+     "wer": "Megan",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "One more. Then we sail.",
+     "neu": "One more, and then we sail.",
+     "vertont": true
+    },
+    {
+     "key": "t0_wahl2_jana.o0",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Zu den Moore-Schwestern",
+     "neu": "Visit the Moore sisters",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl2_jana.o1",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Zu Siri und Yasin",
+     "neu": "Visit Siri and Yasin",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl2_jana.o2",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Zu Yamamoto-san",
+     "neu": "Visit Yamamoto-san",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl2_jana.o3",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Zurück zur Gangway",
+     "neu": "Back to the gangway",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "t0_wahl2_siri · And then?",
+   "items": [
+    {
+     "key": "t0_wahl2_siri.titel",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Titel",
+     "alt": "And then?",
+     "neu": "And Then?",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl2_siri.lage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "Megan klopft auf ihr Klemmbrett. Eine Station noch.",
+     "neu": "Megan taps her clipboard. One more stop.",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl2_siri.betroffen.chiara",
+     "wer": "Chiara",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "wartet an der Gangway",
+     "neu": "waits at the gangway",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl2_siri#z0",
+     "wer": "Megan",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "One more. Then we sail.",
+     "neu": "One more, and then we sail.",
+     "vertont": true
+    },
+    {
+     "key": "t0_wahl2_siri.o0",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Zu den Moore-Schwestern",
+     "neu": "Visit the Moore sisters",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl2_siri.o1",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Zu Jana",
+     "neu": "Visit Jana",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl2_siri.o2",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Zu Yamamoto-san",
+     "neu": "Visit Yamamoto-san",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl2_siri.o3",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Zurück zur Gangway",
+     "neu": "Back to the gangway",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "t0_wahl2_yamamoto · And then?",
+   "items": [
+    {
+     "key": "t0_wahl2_yamamoto.titel",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Titel",
+     "alt": "And then?",
+     "neu": "And Then?",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl2_yamamoto.lage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "Megan klopft auf ihr Klemmbrett. Eine Station noch.",
+     "neu": "Megan taps her clipboard. One more stop.",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl2_yamamoto.betroffen.chiara",
+     "wer": "Chiara",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "wartet an der Gangway",
+     "neu": "waits at the gangway",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl2_yamamoto#z0",
+     "wer": "Megan",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "One more. Then we sail.",
+     "neu": "One more, and then we sail.",
+     "vertont": true
+    },
+    {
+     "key": "t0_wahl2_yamamoto.o0",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Zu den Moore-Schwestern",
+     "neu": "Visit the Moore sisters",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl2_yamamoto.o1",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Zu Jana",
+     "neu": "Visit Jana",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl2_yamamoto.o2",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Zu Siri und Yasin",
+     "neu": "Visit Siri and Yasin",
+     "vertont": false
+    },
+    {
+     "key": "t0_wahl2_yamamoto.o3",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Zurück zur Gangway",
+     "neu": "Back to the gangway",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "t0_lea · Lea",
+   "items": [
+    {
+     "key": "t0_lea.titel",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Titel",
+     "alt": "Lea",
+     "neu": "Lea",
+     "vertont": false
+    },
+    {
+     "key": "t0_lea.lage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "Zwischen den Tauchflaschen: zwei Schwestern. Die eine plant alles, die andere nichts.",
+     "neu": "Between the dive tanks stand two sisters, one with a notebook, one with wet hair.",
+     "vertont": false
+    },
+    {
+     "key": "t0_lea.betroffen.sophia",
+     "wer": "Sophia",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "beobachtet",
+     "neu": "watches",
+     "vertont": false
+    },
+    {
+     "key": "t0_lea.betroffen.megan",
+     "wer": "Megan",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "stellt vor",
+     "neu": "introduces them",
+     "vertont": false
+    },
+    {
+     "key": "t0_lea#z0",
+     "wer": "Megan",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "The Moore sisters. One plans everything. One plans nothing.",
+     "neu": "The Moore sisters. One plans everything, the other plans nothing.",
+     "vertont": true
+    },
+    {
+     "key": "t0_lea#z1",
+     "wer": "Lea",
+     "gefuehl": "excitement",
+     "feld": "Rede",
+     "alt": "Did you see the sea last night? It glowed. I swear it glowed.",
+     "neu": "Did you see the sea last night? It glowed. I swear it glowed, proper glowing!",
+     "vertont": true
+    },
+    {
+     "key": "t0_lea.o0",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Bioluminescence. Noctiluca, probably.“",
+     "neu": "“Bioluminescence. Noctiluca, probably.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_lea#o0",
+     "wer": "Lea",
+     "gefuehl": "excitement",
+     "feld": "Antwort",
+     "alt": "YOU KNOW NOCTILUCA?",
+     "neu": "You know Noctiluca? YOU KNOW NOCTILUCA?",
+     "vertont": true
+    },
+    {
+     "key": "t0_lea.o1",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Show me tonight.“",
+     "neu": "“Show me tonight.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_lea#o1",
+     "wer": "Lea",
+     "gefuehl": "joy",
+     "feld": "Antwort",
+     "alt": "It's a date. A science date.",
+     "neu": "It's a date! A science date. Obviously.",
+     "vertont": true
+    },
+    {
+     "key": "t0_lea.o2",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„I was in Frankfurt.“",
+     "neu": "“I was in Frankfurt.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_lea#o2",
+     "wer": "Lea",
+     "gefuehl": "neutral",
+     "feld": "Antwort",
+     "alt": "Frankfurt doesn't glow.",
+     "neu": "Frankfurt doesn't glow, though, does it?",
+     "vertont": true
+    },
+    {
+     "key": "t0_lea.o3",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Probably pollution.“",
+     "neu": "“Probably pollution.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_lea#o3",
+     "wer": "Sophia",
+     "gefuehl": "disapproval",
+     "feld": "Antwort",
+     "alt": "And that's how you lose her.",
+     "neu": "And that, darling, is how you lose her.",
+     "vertont": true
+    }
+   ]
+  },
+  {
+   "titel": "t0_sophia · Sophia",
+   "items": [
+    {
+     "key": "t0_sophia.titel",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Titel",
+     "alt": "Sophia",
+     "neu": "Sophia",
+     "vertont": false
+    },
+    {
+     "key": "t0_sophia.lage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "Sophia reicht dir die Hand, als hätte sie diesen Moment geprobt. Vielleicht hat sie das.",
+     "neu": "Sophia offers you her hand as if she had rehearsed this moment. Maybe she has.",
+     "vertont": false
+    },
+    {
+     "key": "t0_sophia.betroffen.lea",
+     "wer": "Lea",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "grinst",
+     "neu": "grins",
+     "vertont": false
+    },
+    {
+     "key": "t0_sophia#z0",
+     "wer": "Sophia",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "Sophia Moore. I read your interview. You said sustainability is a question of hospitality.",
+     "neu": "Sophia Moore. I read your interview, darling. You said sustainability is a question of hospitality.",
+     "vertont": true
+    },
+    {
+     "key": "t0_sophia.o0",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Then you're the expert on board. What would you change?“",
+     "neu": "“Then you're the expert on board. What would you change?”",
+     "vertont": false
+    },
+    {
+     "key": "t0_sophia#o0",
+     "wer": "Sophia",
+     "gefuehl": "surprise",
+     "feld": "Antwort",
+     "alt": "…Nobody asks the concierge. Thank you.",
+     "neu": "…Nobody ever asks the concierge. Thank you.",
+     "vertont": true
+    },
+    {
+     "key": "t0_sophia.o1",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„I wrote that for exactly one reader. Didn't know it was you.“",
+     "neu": "“I wrote that for exactly one reader. Didn't know it was you.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_sophia#o1",
+     "wer": "Sophia",
+     "gefuehl": "amusement",
+     "feld": "Antwort",
+     "alt": "Nice line. I'll steal it.",
+     "neu": "Nice line. I might steal it.",
+     "vertont": true
+    },
+    {
+     "key": "t0_sophia.o2",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Did I say that?“",
+     "neu": "“Did I say that?”",
+     "vertont": false
+    },
+    {
+     "key": "t0_sophia#o2",
+     "wer": "Sophia",
+     "gefuehl": "neutral",
+     "feld": "Antwort",
+     "alt": "You did. Page three.",
+     "neu": "You did. Page three, second column.",
+     "vertont": true
+    },
+    {
+     "key": "t0_sophia.o3",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„I don't usually give interviews to staff.“",
+     "neu": "“I don't usually give interviews to staff.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_sophia#o3",
+     "wer": "Sophia",
+     "gefuehl": "neutral",
+     "feld": "Antwort",
+     "alt": "Of course not.",
+     "neu": "Of course not. How silly of me.",
+     "vertont": true
+    }
+   ]
+  },
+  {
+   "titel": "t0_jana · Jana",
+   "items": [
+    {
+     "key": "t0_jana.titel",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Titel",
+     "alt": "Jana",
+     "neu": "Jana",
+     "vertont": false
+    },
+    {
+     "key": "t0_jana.lage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "Eine junge Decksfrau läuft rückwärts gegen eine Tür und entschuldigt sich bei ihr. Neben ihr steht eine Kiste. Die Kiste miaut.",
+     "neu": "A young deckhand walks backwards into a door and apologises to it. Next to her stands a crate. The crate meows.",
+     "vertont": false
+    },
+    {
+     "key": "t0_jana.betroffen.megan",
+     "wer": "Megan",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "stellt vor",
+     "neu": "introduces her",
+     "vertont": false
+    },
+    {
+     "key": "t0_jana#z0",
+     "wer": "Megan",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "Jana. First season. Apologises to furniture.",
+     "neu": "Jana, first season. She apologises to furniture.",
+     "vertont": true
+    },
+    {
+     "key": "t0_jana#z1",
+     "wer": "Jana",
+     "gefuehl": "embarrassment",
+     "feld": "Rede",
+     "alt": "Entschuldigung. Oh! Sorry, Sir. Not you. The door.",
+     "neu": "Sorry, sorry – oh! Sorry, Sir. Not you. I meant the door.",
+     "vertont": true
+    },
+    {
+     "key": "t0_jana.o0",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„I didn't hear anything.“",
+     "neu": "“I didn't hear anything.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_jana#o0",
+     "wer": "Jana",
+     "gefuehl": "gratitude",
+     "feld": "Antwort",
+     "alt": "…Danke, Sir. Really.",
+     "neu": "…Thank you, Sir. Really.",
+     "vertont": true
+    },
+    {
+     "key": "t0_jana.o1",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Your potatoes are meowing.“",
+     "neu": "“Your potatoes are meowing.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_jana#o1",
+     "wer": "Jana",
+     "gefuehl": "amusement",
+     "feld": "Antwort",
+     "alt": "Very small potatoes! Like Toto's!",
+     "neu": "Very small potatoes! Like Totò's!",
+     "vertont": true
+    },
+    {
+     "key": "t0_jana.o2",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Morning.“",
+     "neu": "“Morning.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_jana#o2",
+     "wer": "Jana",
+     "gefuehl": "joy",
+     "feld": "Antwort",
+     "alt": "Morning, Sir!",
+     "neu": "Morning, Sir! Servus!",
+     "vertont": true
+    },
+    {
+     "key": "t0_jana.o3",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Megan, there's a cat in that box.“",
+     "neu": "“Megan, there's a cat in that box.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_jana#o3",
+     "wer": "Megan",
+     "gefuehl": "neutral",
+     "feld": "Antwort",
+     "alt": "There is no cat.",
+     "neu": "There is no cat, First Officer.",
+     "vertont": true
+    }
+   ]
+  },
+  {
+   "titel": "t0_siri · Siri und Yasin",
+   "items": [
+    {
+     "key": "t0_siri.titel",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Titel",
+     "alt": "Siri und Yasin",
+     "neu": "Siri and Yasin",
+     "vertont": false
+    },
+    {
+     "key": "t0_siri.lage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "Ein Cabrio, zwei Sonnenbrillen, eine Kamera, die schon läuft, bevor jemand Hallo sagt.",
+     "neu": "A convertible, two pairs of sunglasses, and a camera that's already rolling before anyone says hello.",
+     "vertont": false
+    },
+    {
+     "key": "t0_siri.betroffen.yasin",
+     "wer": "Yasin",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "filmt",
+     "neu": "films",
+     "vertont": false
+    },
+    {
+     "key": "t0_siri.betroffen.megan",
+     "wer": "Megan",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "lächelt gequält",
+     "neu": "smiles through it",
+     "vertont": false
+    },
+    {
+     "key": "t0_siri#z0",
+     "wer": "Megan",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "Our guests. Smile. They have two million followers. Each.",
+     "neu": "Our guests. Smile, please. She has nearly three million followers, and he has opinions.",
+     "vertont": true
+    },
+    {
+     "key": "t0_siri#z1",
+     "wer": "Yasin",
+     "gefuehl": "excitement",
+     "feld": "Rede",
+     "alt": "The sustainability guy! Say something green!",
+     "neu": "The sustainability guy! Say something green, my man!",
+     "vertont": true
+    },
+    {
+     "key": "t0_siri#z2",
+     "wer": "Siri",
+     "gefuehl": "embarrassment",
+     "feld": "Rede",
+     "alt": "Hi. Sorry about him.",
+     "neu": "Hi. Sorry – sorry about him.",
+     "vertont": true
+    },
+    {
+     "key": "t0_siri.o0",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Hält die Hand vor die Linse. „Not before coffee, Yasin.“",
+     "neu": "Holds a hand over the lens. “Not before coffee, Yasin.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_siri#o0",
+     "wer": "Siri",
+     "gefuehl": "relief",
+     "feld": "Antwort",
+     "alt": "…Thank you.",
+     "neu": "…Thank you. Really.",
+     "vertont": true
+    },
+    {
+     "key": "t0_siri.o1",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Something green? Your eyes.“",
+     "neu": "“Something green? Your eyes.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_siri#o1",
+     "wer": "Siri",
+     "gefuehl": "amusement",
+     "feld": "Antwort",
+     "alt": "…They're grey. But nice try.",
+     "neu": "…They're blue, actually. But nice try.",
+     "vertont": true
+    },
+    {
+     "key": "t0_siri.o2",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Winkt in die Kamera.",
+     "neu": "Waves into the camera.",
+     "vertont": false
+    },
+    {
+     "key": "t0_siri#o2",
+     "wer": "Yasin",
+     "gefuehl": "joy",
+     "feld": "Antwort",
+     "alt": "Content!",
+     "neu": "Content! That's content, bro!",
+     "vertont": true
+    },
+    {
+     "key": "t0_siri.o3",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Tag Eden Consulting, please.“",
+     "neu": "“Tag Eden Consulting, please.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_siri#o3",
+     "wer": "Siri",
+     "gefuehl": "neutral",
+     "feld": "Antwort",
+     "alt": "Sure. Smile!",
+     "neu": "Sure! Smile for the camera!",
+     "vertont": true
+    }
+   ]
+  },
+  {
+   "titel": "t0_yamamoto · Yamamoto-san",
+   "items": [
+    {
+     "key": "t0_yamamoto.titel",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Titel",
+     "alt": "Yamamoto-san",
+     "neu": "Yamamoto-san",
+     "vertont": false
+    },
+    {
+     "key": "t0_yamamoto.lage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "Ein kleiner Herr im Hawaiihemd verbeugt sich tief. Dann klickt seine Kamera. Er fotografiert eine Möwe. Oder nicht.",
+     "neu": "A small gentleman in a Hawaiian shirt bows deeply. Then his camera clicks. He's photographing a seagull. Or not.",
+     "vertont": false
+    },
+    {
+     "key": "t0_yamamoto.betroffen.megan",
+     "wer": "Megan",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "stellt vor",
+     "neu": "introduces him",
+     "vertont": false
+    },
+    {
+     "key": "t0_yamamoto#z0",
+     "wer": "Megan",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "Mr. Yamamoto. Owner's suite. Four weeks. Tips like a king.",
+     "neu": "Mr. Yamamoto. Owner's suite, four weeks. He tips like a king.",
+     "vertont": true
+    },
+    {
+     "key": "t0_yamamoto#z1",
+     "wer": "Yamamoto",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "Officer-san. Very honoured.",
+     "neu": "Officer-san. Very honoured.",
+     "vertont": false
+    },
+    {
+     "key": "t0_yamamoto.o0",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Verbeugt sich, genau richtig tief. „Yamamoto-san. The honour is mine.“",
+     "neu": "Bows, exactly deep enough. “Yamamoto-san. The honour is mine.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_yamamoto#o0",
+     "wer": "Yamamoto",
+     "gefuehl": "admiration",
+     "feld": "Antwort",
+     "alt": "…You know the bow. Very interesting.",
+     "neu": "…You know the bow. Very interesting.",
+     "vertont": false
+    },
+    {
+     "key": "t0_yamamoto.o1",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Bird photography?“",
+     "neu": "“Bird photography?”",
+     "vertont": false
+    },
+    {
+     "key": "t0_yamamoto#o1",
+     "wer": "Yamamoto",
+     "gefuehl": "embarrassment",
+     "feld": "Antwort",
+     "alt": "Very rare bird. So sorry.",
+     "neu": "Very rare bird. So sorry.",
+     "vertont": false
+    },
+    {
+     "key": "t0_yamamoto.o2",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Welcome aboard.“",
+     "neu": "“Welcome aboard.”",
+     "vertont": false
+    },
+    {
+     "key": "t0_yamamoto#o2",
+     "wer": "Yamamoto",
+     "gefuehl": "neutral",
+     "feld": "Antwort",
+     "alt": "Thank you.",
+     "neu": "Thank you. Please take care of me.",
+     "vertont": true
+    },
+    {
+     "key": "t0_yamamoto.o3",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Can someone take his luggage?“",
+     "neu": "“Can someone take his luggage?”",
+     "vertont": false
+    },
+    {
+     "key": "t0_yamamoto#o3",
+     "wer": "Yamamoto",
+     "gefuehl": "disapproval",
+     "feld": "Antwort",
+     "alt": "I carry my own luggage. Thirty years.",
+     "neu": "I carry my own luggage. Thirty years, Officer-san.",
+     "vertont": true
+    }
+   ]
+  },
+  {
+   "titel": "t0_abschied_herzlich · Don't sink my boat",
+   "items": [
+    {
+     "key": "t0_abschied_herzlich.titel",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Titel",
+     "alt": "Don't sink my boat",
+     "neu": "Don't Sink My Boat",
+     "vertont": false
+    },
+    {
+     "key": "t0_abschied_herzlich.lage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "Der Hubschrauber wartet auf dem Vorplatz. Maxwell ist verschwunden. Sie berührt kurz deinen Arm.",
+     "neu": "The helicopter waits on the apron. Maxwell has disappeared. She touches your arm, just briefly.",
+     "vertont": false
+    },
+    {
+     "key": "t0_abschied_herzlich.betroffen.holm",
+     "wer": "Holm",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "salutiert",
+     "neu": "salutes",
+     "vertont": false
+    },
+    {
+     "key": "t0_abschied_herzlich#z0",
+     "wer": "Megan",
+     "gefuehl": "joy",
+     "feld": "Rede",
+     "alt": "See you at the end of the season, Duc. Don't sink my boat.",
+     "neu": "See you at the end of the season, Duc. Don't sink my boat.",
+     "vertont": false
+    },
+    {
+     "key": "t0_abschied_herzlich.o0",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Ihr nachsehen",
+     "neu": "Watch her go",
+     "vertont": false
+    },
+    {
+     "key": "t0_abschied_herzlich.o1",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Zur Gangway",
+     "neu": "Head for the gangway",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "t0_abschied_frech · Don't sink my boat",
+   "items": [
+    {
+     "key": "t0_abschied_frech.titel",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Titel",
+     "alt": "Don't sink my boat",
+     "neu": "Don't Sink My Boat",
+     "vertont": false
+    },
+    {
+     "key": "t0_abschied_frech.lage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "Der Hubschrauber wartet auf dem Vorplatz. Maxwell ist verschwunden. Sie grinst schief.",
+     "neu": "The helicopter waits on the apron. Maxwell has disappeared. She gives you a crooked grin.",
+     "vertont": false
+    },
+    {
+     "key": "t0_abschied_frech.betroffen.holm",
+     "wer": "Holm",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "salutiert",
+     "neu": "salutes",
+     "vertont": false
+    },
+    {
+     "key": "t0_abschied_frech#z0",
+     "wer": "Megan",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "See you at the end of the season. Don't sink my boat. And don't call me.",
+     "neu": "See you at the end of the season. Don't sink my boat, and don't call me.",
+     "vertont": true
+    },
+    {
+     "key": "t0_abschied_frech.o0",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Ihr nachsehen",
+     "neu": "Watch her go",
+     "vertont": false
+    },
+    {
+     "key": "t0_abschied_frech.o1",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Zur Gangway",
+     "neu": "Head for the gangway",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "t0_abschied_flirt · Don't sink my boat",
+   "items": [
+    {
+     "key": "t0_abschied_flirt.titel",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Titel",
+     "alt": "Don't sink my boat",
+     "neu": "Don't Sink My Boat",
+     "vertont": false
+    },
+    {
+     "key": "t0_abschied_flirt.lage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "Der Hubschrauber wartet auf dem Vorplatz. Maxwell ist verschwunden. Sie zögert an der Tür des Hubschraubers. Ganz leise:",
+     "neu": "The helicopter waits on the apron. Maxwell has disappeared. She hesitates at the helicopter door. Very quietly:",
+     "vertont": false
+    },
+    {
+     "key": "t0_abschied_flirt.betroffen.holm",
+     "wer": "Holm",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "salutiert",
+     "neu": "salutes",
+     "vertont": false
+    },
+    {
+     "key": "t0_abschied_flirt#z0",
+     "wer": "Megan",
+     "gefuehl": "love",
+     "feld": "Rede",
+     "alt": "Mac. Nobody called me that in ten years. Don't sink my boat, Duc.",
+     "neu": "Mac. Nobody's called me that in ten years. Don't sink my boat, Duc.",
+     "vertont": true
+    },
+    {
+     "key": "t0_abschied_flirt.o0",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Ihr nachsehen",
+     "neu": "Watch her go",
+     "vertont": false
+    },
+    {
+     "key": "t0_abschied_flirt.o1",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Zur Gangway",
+     "neu": "Head for the gangway",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "t0_abschied_foermlich · Don't sink my boat",
+   "items": [
+    {
+     "key": "t0_abschied_foermlich.titel",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Titel",
+     "alt": "Don't sink my boat",
+     "neu": "Don't Sink My Boat",
+     "vertont": false
+    },
+    {
+     "key": "t0_abschied_foermlich.lage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "Der Hubschrauber wartet auf dem Vorplatz. Maxwell ist verschwunden. Ein Händedruck. Fest. Kurz.",
+     "neu": "The helicopter waits on the apron. Maxwell has disappeared. A handshake. Firm. Short.",
+     "vertont": false
+    },
+    {
+     "key": "t0_abschied_foermlich.betroffen.holm",
+     "wer": "Holm",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "salutiert",
+     "neu": "salutes",
+     "vertont": false
+    },
+    {
+     "key": "t0_abschied_foermlich#z0",
+     "wer": "Megan",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "First Officer. Don't sink my boat.",
+     "neu": "First Officer. Don't sink my boat.",
+     "vertont": false
+    },
+    {
+     "key": "t0_abschied_foermlich.o0",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Ihr nachsehen",
+     "neu": "Watch her go",
+     "vertont": false
+    },
+    {
+     "key": "t0_abschied_foermlich.o1",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Zur Gangway",
+     "neu": "Head for the gangway",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "hk_hilfe · Hilfe holen",
+   "items": [
+    {
+     "key": "hk_hilfe.titel",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Titel",
+     "alt": "Hilfe holen",
+     "neu": "Getting Help",
+     "vertont": false
+    },
+    {
+     "key": "hk_hilfe.lage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "Der Tender legt am Kai von Cala d'Orsu an. Du willst Kabel, Diesel, irgendwas. Stattdessen: Geschrei. Fischkisten kippen um. Aus den Netzschuppen quillt eine graue Welle. Ratten. Viele.",
+     "neu": "The tender bumps against the quay of Cala d'Orsu. You came for cable, diesel, anything at all. Instead there's screaming. Fish crates tip over, and a grey wave pours out of the net sheds. Rats. Lots of them.",
+     "vertont": false
+    },
+    {
+     "key": "hk_hilfe.betroffen.lea",
+     "wer": "Lea",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "steuert den Tender",
+     "neu": "steers the tender",
+     "vertont": false
+    },
+    {
+     "key": "hk_hilfe#z0",
+     "wer": "Toto",
+     "gefuehl": "fear",
+     "feld": "Rede",
+     "alt": "Madonna. Comandante, that is not a welcome committee.",
+     "neu": "Madonna. Comandante, that is not a welcome committee.",
+     "vertont": false
+    },
+    {
+     "key": "hk_hilfe#z1",
+     "wer": "Lea",
+     "gefuehl": "nervousness",
+     "feld": "Rede",
+     "alt": "Duc. The big one. With the torn ear. It's leading them.",
+     "neu": "Duc, the big one with the torn ear – it's leading them!",
+     "vertont": true
+    },
+    {
+     "key": "hk_hilfe.o0",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Den Bootshaken vom Tender nehmen",
+     "neu": "Looks around for something to fight with.",
+     "vertont": false
+    },
+    {
+     "key": "hk_hilfe#o0",
+     "wer": "Lea",
+     "gefuehl": "nervousness",
+     "feld": "Antwort",
+     "alt": "Go. I keep the engine running.",
+     "neu": "Go! I'll keep the engine running!",
+     "vertont": true
+    },
+    {
+     "key": "hk_hilfe.o1",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Lesson one, Maximum.“ Tief durchatmen und los",
+     "neu": "“Lesson one, Mr. Maximum.” Takes a deep breath.",
+     "vertont": false
+    },
+    {
+     "key": "hk_hilfe#o1",
+     "wer": "Toto",
+     "gefuehl": "amusement",
+     "feld": "Antwort",
+     "alt": "Two to one on the Comandante. Today I am generous.",
+     "neu": "Two to one on the Comandante. Today I'm feeling generous.",
+     "vertont": true
+    }
+   ]
+  },
+  {
+   "titel": "hk_elsa · Die Küstenwache",
+   "items": [
+    {
+     "key": "hk_elsa.titel",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Titel",
+     "alt": "Die Küstenwache",
+     "neu": "The Coast Guard",
+     "vertont": false
+    },
+    {
+     "key": "hk_elsa.lage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "Die Ratten verschwinden in den Gassen. Eine junge Frau in Uniform der Küstenwache steht mit Notizblock mitten im Chaos, als wäre es ein Dienstag. Totò duckt sich hinter eine Kiste. Hinter ihr bellt es. Mehrere.",
+     "neu": "The rats scatter into the alleys. A young woman in a coast guard uniform stands in the middle of the chaos with a notepad, as if it were an ordinary Tuesday. Totò ducks behind a crate. Behind her, something barks. Several somethings.",
+     "vertont": false
+    },
+    {
+     "key": "hk_elsa.betroffen.toto",
+     "wer": "Toto",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "versteckt sich hinter einer Kiste",
+     "neu": "hides behind a crate",
+     "vertont": false
+    },
+    {
+     "key": "hk_elsa#z0",
+     "wer": "Elsa",
+     "gefuehl": "annoyance",
+     "feld": "Rede",
+     "alt": "Lieutenant Ferrandi, coast guard. You are the yacht with no power? TOTÒ, I can see you.",
+     "neu": "Lieutenant Ferrandi, coast guard. You're the yacht with no power, I take it? TOTÒ, I can see you behind that crate.",
+     "vertont": true
+    },
+    {
+     "key": "hk_elsa#z1",
+     "wer": "Elsa",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "I need a status update. Now. The dogs can wait thirty seconds.",
+     "neu": "I need a status update, and I need it now. The dogs can wait thirty seconds.",
+     "vertont": true
+    },
+    {
+     "key": "hk_elsa.o0",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Rats gone. Dogs next. Yacht dark. Nobody hurt.“",
+     "neu": "“Rats are gone, dogs are next, the yacht's dark and nobody's hurt.”",
+     "vertont": false
+    },
+    {
+     "key": "hk_elsa#o0",
+     "wer": "Elsa",
+     "gefuehl": "approval",
+     "feld": "Antwort",
+     "alt": "…Finally someone who can count.",
+     "neu": "…Finally, someone who can count. Thank you.",
+     "vertont": true
+    },
+    {
+     "key": "hk_elsa.o1",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Status: I'm a consultant holding a boat hook.“",
+     "neu": "“Status: I'm a consultant holding a baseball bat.”",
+     "vertont": false
+    },
+    {
+     "key": "hk_elsa#o1",
+     "wer": "Elsa",
+     "gefuehl": "amusement",
+     "feld": "Antwort",
+     "alt": "Noted. Badly. Go.",
+     "neu": "Noted. Badly noted. Now go.",
+     "vertont": true
+    },
+    {
+     "key": "hk_elsa.o2",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Later.“",
+     "neu": "“Later.”",
+     "vertont": false
+    },
+    {
+     "key": "hk_elsa#o2",
+     "wer": "Elsa",
+     "gefuehl": "neutral",
+     "feld": "Antwort",
+     "alt": "Later. Fine.",
+     "neu": "Later. Fine. I'll be right here, writing.",
+     "vertont": true
+    },
+    {
+     "key": "hk_elsa.o3",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Shouldn't the coast guard handle the dogs?“",
+     "neu": "“Shouldn't the coast guard handle the dogs?”",
+     "vertont": false
+    },
+    {
+     "key": "hk_elsa#o3",
+     "wer": "Elsa",
+     "gefuehl": "anger",
+     "feld": "Antwort",
+     "alt": "The coast guard is me. And you brought chaos.",
+     "neu": "The coast guard is me, First Officer. And you brought the chaos with you.",
+     "vertont": true
+    }
+   ]
+  },
+  {
+   "titel": "hk_alva · Die Barfrau",
+   "items": [
+    {
+     "key": "hk_alva.titel",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Titel",
+     "alt": "Die Barfrau",
+     "neu": "The Bar Owner",
+     "vertont": false
+    },
+    {
+     "key": "hk_alva.lage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "Die Hunde ziehen jaulend ab. Aus der Bar am Kai lehnt eine Frau mit hochgekrempelten Ärmeln. Sie wirft dir einen langen Bootshaken über die Netze zu. Dann bebt der Boden. Etwas Schweres kommt die Gasse herunter.",
+     "neu": "The dogs slink off, whining. A woman with rolled-up sleeves leans out of the bar on the quay and tosses you a bottle of water over the nets. Then the ground shakes. Something heavy is coming down the alley.",
+     "vertont": false
+    },
+    {
+     "key": "hk_alva.betroffen.elsa",
+     "wer": "Elsa",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "schreibt mit",
+     "neu": "takes notes",
+     "vertont": false
+    },
+    {
+     "key": "hk_alva#z0",
+     "wer": "Alva",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "Alva. That's my bar you're defending. Don't thank me. Just don't miss.",
+     "neu": "Alva. That's my bar you're defending, so drink that, and don't miss.",
+     "vertont": true
+    },
+    {
+     "key": "hk_alva.o0",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„If I win, the first round is on me.“",
+     "neu": "“If I win, the first round's on me.”",
+     "vertont": false
+    },
+    {
+     "key": "hk_alva#o0",
+     "wer": "Alva",
+     "gefuehl": "joy",
+     "feld": "Antwort",
+     "alt": "If you win, the first round is on the house.",
+     "neu": "If you win, o figliolu, the first round's on the house.",
+     "vertont": true
+    },
+    {
+     "key": "hk_alva.o1",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Are you always this calm with a boar coming?“",
+     "neu": "“Are you always this calm when a boar's coming?”",
+     "vertont": false
+    },
+    {
+     "key": "hk_alva#o1",
+     "wer": "Alva",
+     "gefuehl": "amusement",
+     "feld": "Antwort",
+     "alt": "Only when a stranger is standing in front of me.",
+     "neu": "Only when there's a stranger standing in front of me.",
+     "vertont": true
+    },
+    {
+     "key": "hk_alva.o2",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "Nickt nur.",
+     "neu": "Just nods.",
+     "vertont": false
+    },
+    {
+     "key": "hk_alva#o2",
+     "wer": "Alva",
+     "gefuehl": "neutral",
+     "feld": "Antwort",
+     "alt": "Good. Less talking.",
+     "neu": "Good. Less talking, more hitting.",
+     "vertont": true
+    },
+    {
+     "key": "hk_alva.o3",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Can't you just close the bar?“",
+     "neu": "“Can't you just close the bar?”",
+     "vertont": false
+    },
+    {
+     "key": "hk_alva#o3",
+     "wer": "Alva",
+     "gefuehl": "annoyance",
+     "feld": "Antwort",
+     "alt": "And let you have all the fun? No.",
+     "neu": "And miss the best show this harbour's had in years? No.",
+     "vertont": true
+    }
+   ]
+  },
+  {
+   "titel": "hk_petru · Der Fischer",
+   "items": [
+    {
+     "key": "hk_petru.titel",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Titel",
+     "alt": "Der Fischer",
+     "neu": "The Fisherman",
+     "vertont": false
+    },
+    {
+     "key": "hk_petru.lage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "Der Keiler bleibt stehen, schnaubt und trabt zurück in die Macchia, als hätte er einen Termin. Vor der Bootswerkstatt am Ende des Kais sitzt ein alter Fischer und flickt ein Netz. Er hat alles gesehen. Er nickt einmal.",
+     "neu": "The boar stops, snorts, and trots back into the macchia as if it had an appointment. In front of the boat workshop at the end of the quay, an old fisherman sits mending a net. He has seen everything. He nods once.",
+     "vertont": false
+    },
+    {
+     "key": "hk_petru.betroffen.alva",
+     "wer": "Alva",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "atmet aus",
+     "neu": "breathes out",
+     "vertont": false
+    },
+    {
+     "key": "hk_petru#z0",
+     "wer": "Petru",
+     "gefuehl": "approval",
+     "feld": "Rede",
+     "alt": "Hm. Petru. You fight like a sailor. Not like a tourist.",
+     "neu": "Hm. Petru. You fight like a sailor, not like a tourist.",
+     "vertont": true
+    },
+    {
+     "key": "hk_petru.o0",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„I had a good teacher. This morning.“",
+     "neu": "“I had a good teacher. This morning.”",
+     "vertont": false
+    },
+    {
+     "key": "hk_petru#o0",
+     "wer": "Petru",
+     "gefuehl": "approval",
+     "feld": "Antwort",
+     "alt": "Then he is a good teacher. My workshop is there. I have tools.",
+     "neu": "Then he is a good teacher. My workshop is there, by the blue boat. I have tools.",
+     "vertont": true
+    },
+    {
+     "key": "hk_petru.o1",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„I was mostly running in circles.“",
+     "neu": "“I was mostly running in circles.”",
+     "vertont": false
+    },
+    {
+     "key": "hk_petru#o1",
+     "wer": "Petru",
+     "gefuehl": "amusement",
+     "feld": "Antwort",
+     "alt": "The boar too. That's why you won.",
+     "neu": "So was the boar. That's why you won.",
+     "vertont": true
+    },
+    {
+     "key": "hk_petru.o2",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Thank you.“",
+     "neu": "“Thank you.”",
+     "vertont": false
+    },
+    {
+     "key": "hk_petru#o2",
+     "wer": "Petru",
+     "gefuehl": "neutral",
+     "feld": "Antwort",
+     "alt": "Hm.",
+     "neu": "Hm.",
+     "vertont": false
+    },
+    {
+     "key": "hk_petru.o3",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Does this happen every day here?“",
+     "neu": "“Does this happen every day here?”",
+     "vertont": false
+    },
+    {
+     "key": "hk_petru#o3",
+     "wer": "Petru",
+     "gefuehl": "disapproval",
+     "feld": "Antwort",
+     "alt": "No. And that's what worries me.",
+     "neu": "No. And that's what worries me.",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "hk_ziege · Woher kommen die Tiere?",
+   "items": [
+    {
+     "key": "hk_ziege.titel",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Titel",
+     "alt": "Woher kommen die Tiere?",
+     "neu": "Where Do the Animals Come From?",
+     "vertont": false
+    },
+    {
+     "key": "hk_ziege.lage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "Dann trottet eine Ziege über den Kai. Am Hals ein Lederband mit einem kleinen Kasten, der rot blinkt. Sie frisst ein Stück Netz und geht. Eine Dame mit Sonnenschirm schreitet auf dich zu wie zu einem Empfang.",
+     "neu": "Then a goat trots across the quay. Around its neck is a leather band with a small box that blinks red. It eats a piece of net and wanders off. A lady with a parasol sweeps towards you as if she were arriving at a reception.",
+     "vertont": false
+    },
+    {
+     "key": "hk_ziege.betroffen.elsa",
+     "wer": "Elsa",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "seufzt",
+     "neu": "sighs",
+     "vertont": false
+    },
+    {
+     "key": "hk_ziege.betroffen.alva",
+     "wer": "Alva",
+     "gefuehl": "",
+     "feld": "Reaktion",
+     "alt": "grinst",
+     "neu": "grins",
+     "vertont": false
+    },
+    {
+     "key": "hk_ziege#z0",
+     "wer": "Casanova",
+     "gefuehl": "surprise",
+     "feld": "Rede",
+     "alt": "Madame Casanova. The mayor. Rats, dogs, a boar, and now a goat with jewellery.",
+     "neu": "Madame Casanova, the mayor. Rats, dogs, a boar, and now a goat with jewellery.",
+     "vertont": true
+    },
+    {
+     "key": "hk_ziege#z1",
+     "wer": "Casanova",
+     "gefuehl": "curiosity",
+     "feld": "Rede",
+     "alt": "Monsieur, where do all these animals come from?",
+     "neu": "Monsieur, where do all these animals come from?",
+     "vertont": false
+    },
+    {
+     "key": "hk_ziege.o0",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„I'll find out. Where did the goat come from?“",
+     "neu": "“I'll find out. Where did the goat come from?”",
+     "vertont": false
+    },
+    {
+     "key": "hk_ziege#o0",
+     "wer": "Casanova",
+     "gefuehl": "curiosity",
+     "feld": "Antwort",
+     "alt": "From the hills. The monastery is up there. Nobody goes there anymore.",
+     "neu": "From the hills. The old monastery is up there, but nobody goes there anymore.",
+     "vertont": true
+    },
+    {
+     "key": "hk_ziege.o1",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Maybe the goat is the mayor's security.“",
+     "neu": "“Maybe the goat is the mayor's security.”",
+     "vertont": false
+    },
+    {
+     "key": "hk_ziege#o1",
+     "wer": "Casanova",
+     "gefuehl": "amusement",
+     "feld": "Antwort",
+     "alt": "Charming. And rude. I like you.",
+     "neu": "Charming, and rude. I like you already.",
+     "vertont": true
+    },
+    {
+     "key": "hk_ziege.o2",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„No idea.“",
+     "neu": "“No idea.”",
+     "vertont": false
+    },
+    {
+     "key": "hk_ziege#o2",
+     "wer": "Casanova",
+     "gefuehl": "neutral",
+     "feld": "Antwort",
+     "alt": "Then we both know nothing. A good start.",
+     "neu": "Then we both know nothing. That's a good start, Monsieur.",
+     "vertont": true
+    },
+    {
+     "key": "hk_ziege.o3",
+     "wer": "Duc",
+     "gefuehl": "",
+     "feld": "Chip",
+     "alt": "„Isn't that the mayor's job?“",
+     "neu": "“Isn't that the mayor's job?”",
+     "vertont": false
+    },
+    {
+     "key": "hk_ziege#o3",
+     "wer": "Casanova",
+     "gefuehl": "disapproval",
+     "feld": "Antwort",
+     "alt": "The mayor's job is the festa, Monsieur. Not goats.",
+     "neu": "The mayor's job is the festa, Monsieur. Not goats.",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "Kampf · hafen_ratten",
+   "items": [
+    {
+     "key": "kampf.hafen_ratten.title",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "title",
+     "alt": "Welle 1 · Ratten am Kai",
+     "neu": "Wave 1 · Rats on the Quay",
+     "vertont": false
+    },
+    {
+     "key": "kampf.hafen_ratten.goal",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "goal",
+     "alt": "Treib das Rudel aus dem Hafen",
+     "neu": "Drive the pack out of the harbour",
+     "vertont": false
+    },
+    {
+     "key": "kampf.hafen_ratten.flee_reason",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "flee_reason",
+     "alt": "Hinter dir ist das Dorf.",
+     "neu": "The village is behind you.",
+     "vertont": false
+    },
+    {
+     "key": "kampf.hafen_ratten.out.ko",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Ausgang ko",
+     "alt": "Die Alpha-Ratte quiekt und flitzt in die Gassen. Das Rudel hinterher.",
+     "neu": "The alpha rat squeals and darts into the alleys. The pack follows.",
+     "vertont": false
+    },
+    {
+     "key": "kampf.hafen_ratten.out.aufgabe",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Ausgang aufgabe",
+     "alt": "Das Rudel dreht ab und verschwindet unter den Netzen.",
+     "neu": "The pack turns and vanishes under the nets.",
+     "vertont": false
+    },
+    {
+     "key": "kampf.hafen_ratten.out.entkommen",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Ausgang entkommen",
+     "alt": "Die Alpha-Ratte gibt auf und rennt. Das Rudel folgt ihr in die Gassen.",
+     "neu": "The alpha rat gives up and runs. The pack follows it into the alleys.",
+     "vertont": false
+    },
+    {
+     "key": "kampf.hafen_ratten.out.flucht",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Ausgang flucht",
+     "alt": "Du weichst zurück.",
+     "neu": "You back away.",
+     "vertont": false
+    },
+    {
+     "key": "kampf.hafen_ratten.out.niederlage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Ausgang niederlage",
+     "alt": "Du gehst zwischen den Fischkisten zu Boden. Totò zieht dich hoch. „Again, Comandante!“",
+     "neu": "You go down between the fish crates. Totò pulls you back up. “Again, Comandante!”",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "Kampf · hafen_hunde",
+   "items": [
+    {
+     "key": "kampf.hafen_hunde.title",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "title",
+     "alt": "Welle 2 · Die Hunde",
+     "neu": "Wave 2 · The Dogs",
+     "vertont": false
+    },
+    {
+     "key": "kampf.hafen_hunde.goal",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "goal",
+     "alt": "Halt das Rudel vom Dorf fern",
+     "neu": "Keep the pack away from the village",
+     "vertont": false
+    },
+    {
+     "key": "kampf.hafen_hunde.flee_reason",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "flee_reason",
+     "alt": "Hinter dir ist das Dorf.",
+     "neu": "The village is behind you.",
+     "vertont": false
+    },
+    {
+     "key": "kampf.hafen_hunde.out.ko",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Ausgang ko",
+     "alt": "Der Alpha-Hund jault und zieht ab. Das Rudel folgt ihm den Hang hinauf.",
+     "neu": "The alpha dog yelps and slinks off. The pack follows it up the hillside.",
+     "vertont": false
+    },
+    {
+     "key": "kampf.hafen_hunde.out.aufgabe",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Ausgang aufgabe",
+     "alt": "Das Rudel weicht zurück und trollt sich in die Macchia.",
+     "neu": "The pack backs off and trots away into the macchia.",
+     "vertont": false
+    },
+    {
+     "key": "kampf.hafen_hunde.out.entkommen",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Ausgang entkommen",
+     "alt": "Der Alpha-Hund macht kehrt. Das Rudel verschwindet in der Macchia.",
+     "neu": "The alpha dog turns tail. The pack disappears into the macchia.",
+     "vertont": false
+    },
+    {
+     "key": "kampf.hafen_hunde.out.flucht",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Ausgang flucht",
+     "alt": "Du weichst zurück.",
+     "neu": "You back away.",
+     "vertont": false
+    },
+    {
+     "key": "kampf.hafen_hunde.out.niederlage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Ausgang niederlage",
+     "alt": "Die Hunde werfen dich um. Elsa notiert etwas. „Again. Properly this time.“",
+     "neu": "The dogs knock you flat. Elsa writes something down. “Again. Properly this time.”",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "Kampf · hafen_keiler",
+   "items": [
+    {
+     "key": "kampf.hafen_keiler.title",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "title",
+     "alt": "Welle 3 · Der Keiler",
+     "neu": "Wave 3 · The Boar",
+     "vertont": false
+    },
+    {
+     "key": "kampf.hafen_keiler.goal",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "goal",
+     "alt": "Stell dich dem Keiler",
+     "neu": "Stand up to the boar",
+     "vertont": false
+    },
+    {
+     "key": "kampf.hafen_keiler.flee_reason",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "flee_reason",
+     "alt": "Hinter dir ist Alvas Bar.",
+     "neu": "Alva's bar is behind you.",
+     "vertont": false
+    },
+    {
+     "key": "kampf.hafen_keiler.out.ko",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Ausgang ko",
+     "alt": "Der Keiler schnaubt, dreht ab und trabt zurück in die Macchia, als hätte er einen Termin.",
+     "neu": "The boar snorts, turns and trots back into the macchia as if it had an appointment.",
+     "vertont": false
+    },
+    {
+     "key": "kampf.hafen_keiler.out.aufgabe",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Ausgang aufgabe",
+     "alt": "Der Keiler bleibt stehen, mustert dich und geht.",
+     "neu": "The boar stops, looks you over, and leaves.",
+     "vertont": false
+    },
+    {
+     "key": "kampf.hafen_keiler.out.entkommen",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Ausgang entkommen",
+     "alt": "Der Keiler hat genug. Er trabt die Gasse hinauf und ist weg.",
+     "neu": "The boar has had enough. It trots up the alley and is gone.",
+     "vertont": false
+    },
+    {
+     "key": "kampf.hafen_keiler.out.flucht",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Ausgang flucht",
+     "alt": "Du weichst zurück.",
+     "neu": "You back away.",
+     "vertont": false
+    },
+    {
+     "key": "kampf.hafen_keiler.out.niederlage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Ausgang niederlage",
+     "alt": "Der Keiler wirft dich gegen ein Fass. Alva reicht dir den Bootshaken. „Again.“",
+     "neu": "The boar throws you against a barrel. Alva hands you your bat back. “Again.”",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "Gegner · ratte_alpha",
+   "items": [
+    {
+     "key": "gegner.ratte_alpha.name",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Name",
+     "alt": "Alpha-Ratte",
+     "neu": "Alpha Rat",
+     "vertont": false
+    },
+    {
+     "key": "gegner.ratte_alpha.attack",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Angriff",
+     "alt": "Kratzen",
+     "neu": "Scratch",
+     "vertont": false
+    },
+    {
+     "key": "gegner.ratte_alpha.w1",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Spezial w1",
+     "alt": "Biss",
+     "neu": "Bite",
+     "vertont": false
+    },
+    {
+     "key": "gegner.ratte_alpha.s1",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Spezial s1",
+     "alt": "Das Rudel springt mit",
+     "neu": "The Pack Joins In",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "Gegner · hund_alpha",
+   "items": [
+    {
+     "key": "gegner.hund_alpha.name",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Name",
+     "alt": "Alpha-Hund",
+     "neu": "Alpha Dog",
+     "vertont": false
+    },
+    {
+     "key": "gegner.hund_alpha.attack",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Angriff",
+     "alt": "Schnappen",
+     "neu": "Snap",
+     "vertont": false
+    },
+    {
+     "key": "gegner.hund_alpha.w1",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Spezial w1",
+     "alt": "Anspringen",
+     "neu": "Pounce",
+     "vertont": false
+    },
+    {
+     "key": "gegner.hund_alpha.s1",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Spezial s1",
+     "alt": "Das Rudel kreist ein",
+     "neu": "The Pack Circles",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "Gegner · keiler",
+   "items": [
+    {
+     "key": "gegner.keiler.name",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Name",
+     "alt": "Keiler",
+     "neu": "Boar",
+     "vertont": false
+    },
+    {
+     "key": "gegner.keiler.attack",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Angriff",
+     "alt": "Hauer",
+     "neu": "Tusks",
+     "vertont": false
+    },
+    {
+     "key": "gegner.keiler.w1",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Spezial w1",
+     "alt": "Schnauben",
+     "neu": "Snort",
+     "vertont": false
+    },
+    {
+     "key": "gegner.keiler.s1",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Spezial s1",
+     "alt": "Ansturm",
+     "neu": "Charge",
+     "vertont": false
+    },
+    {
+     "key": "gegner.keiler.immun_courage",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Immun Mut",
+     "alt": "Der Keiler senkt nur den Kopf. Drohen beeindruckt ihn nicht.",
+     "neu": "The boar just lowers its head. Threats don't impress it.",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "Maxwells Lektion 1 (kern/tutorial.py)",
+   "items": [
+    {
+     "key": "tut.l1_angriff.en",
+     "wer": "Maxwell",
+     "gefuehl": "",
+     "feld": "Rede",
+     "alt": "Welcome to the Maximum gym, brother! What is your weapon of choice? ...A baseball bat? Perfect. Rule one: hit me. Maximum can take it!",
+     "neu": "Welcome to the Maximum gym, brother! Today you fight with this – the mop. Don't laugh, the mop is a teacher. Rule one: hit me. Mr. Maximum can take it!",
+     "vertont": true
+    },
+    {
+     "key": "tut.l1_angriff.hint",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Hinweis",
+     "alt": "Duc greift nach dem Baseballschläger, der hier einfach herumlag: Terremoto, Element Erde. Wähle „Angriff“. Jeder Angriff gibt dir außerdem 1 Ausdauer ⚡.",
+     "neu": "Maxwell tosses you a wooden deck mop – training gear, no element. Choose “Attack”. Every attack also gives you 1 stamina ⚡.",
+     "vertont": false
+    },
+    {
+     "key": "tut.l1_absicht.en",
+     "wer": "Maxwell",
+     "gefuehl": "",
+     "feld": "Rede",
+     "alt": "Now Maximum strikes back! See my speech bubble? It always tells you what I do next. No surprises.",
+     "neu": "Now Mr. Maximum strikes back! See my speech bubble? It always tells you what I'll do next. No surprises, brother.",
+     "vertont": true
+    },
+    {
+     "key": "tut.l1_absicht.hint",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Hinweis",
+     "alt": "Die Sprechblase über dem Gegner zeigt seine nächste Absicht.",
+     "neu": "The speech bubble above your opponent shows their next move.",
+     "vertont": false
+    },
+    {
+     "key": "tut.l1_parade.en",
+     "wer": "Maxwell",
+     "gefuehl": "",
+     "feld": "Rede",
+     "alt": "When I wind up, watch for the golden spark. Press SPACE right then. Perfect timing: no damage, and you hit back!",
+     "neu": "When I wind up, watch for the golden spark and press SPACE right then. Perfect timing means no damage, and you hit back!",
+     "vertont": true
+    },
+    {
+     "key": "tut.l1_parade.hint",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Hinweis",
+     "alt": "Parade: Beim goldenen Funken Leertaste. Perfekt = kein Schaden + Konter, gut = halber Schaden.",
+     "neu": "Parry: press SPACE at the golden spark. Perfect = no damage + counter, good = half damage.",
+     "vertont": false
+    },
+    {
+     "key": "tut.l1_ausdauer.en",
+     "wer": "Maxwell",
+     "gefuehl": "",
+     "feld": "Rede",
+     "alt": "Feel that? Every hit and every parry fills your stamina. Skills cost stamina. Open Skills and try Spot Weakness.",
+     "neu": "Feel that? Every hit and every parry fills your stamina, and skills cost stamina. Open your skills and try Spot Weakness.",
+     "vertont": true
+    },
+    {
+     "key": "tut.l1_ausdauer.hint",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Hinweis",
+     "alt": "Ausdauer ⚡ füllt sich durch Angriffe und Paraden. Öffne „Fähigkeit“ → „Schwachstelle erkennen“ (1 ⚡).",
+     "neu": "Stamina ⚡ fills up with attacks and parries. Open “Skill” → “Spot Weakness” (1 ⚡).",
+     "vertont": false
+    },
+    {
+     "key": "tut.l1_schwaeche.en",
+     "wer": "Maxwell",
+     "gefuehl": "",
+     "feld": "Rede",
+     "alt": "Eish! You found it! Now Maximum is exhausted - your next hit does more. And you see my weakness: charm. Maximum is soft inside.",
+     "neu": "Eish! You found it! Now Mr. Maximum is exhausted, so your next hit does more. And look, my weakness is charm. Mr. Maximum is soft inside.",
+     "vertont": true
+    },
+    {
+     "key": "tut.l1_schwaeche.hint",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Hinweis",
+     "alt": "Erschöpft: dein nächster Treffer +4. Die goldene Schwäche zeigt, welche Fähigkeit besonders gut wirkt.",
+     "neu": "Exhausted: your next hit +4. The golden weakness shows which skill works especially well.",
+     "vertont": false
+    },
+    {
+     "key": "tut.l1_fassung.en",
+     "wer": "Maxwell",
+     "gefuehl": "",
+     "feld": "Rede",
+     "alt": "Two ways to win, brother. Knock me down - or talk me down. Every fighter has composure. Empty it with Talk, and they give up.",
+     "neu": "Two ways to win, brother. Knock me down, or talk me down. Every fighter has composure. Empty it with Talk, and they give up.",
+     "vertont": true
+    },
+    {
+     "key": "tut.l1_fassung.hint",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Hinweis",
+     "alt": "Zwei Siegwege: Lebenspunkte auf 0 oder Fassung 🛡 auf 0. „Reden“ senkt die Fassung (nur bei Menschen).",
+     "neu": "Two ways to win: HP to 0 or Composure 🛡 to 0. “Talk” lowers composure (humans only).",
+     "vertont": false
+    },
+    {
+     "key": "tut.l1_heilen.en",
+     "wer": "Maxwell",
+     "gefuehl": "",
+     "feld": "Rede",
+     "alt": "Hurt? Defend halves the next hit and gives you stamina. A first-aid kit heals. And Maximum patches you up after every fight.",
+     "neu": "Hurt? Defend halves the next hit and gives you stamina. A first-aid kit heals you. And Mr. Maximum patches you up after every fight.",
+     "vertont": true
+    },
+    {
+     "key": "tut.l1_heilen.hint",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Hinweis",
+     "alt": "Verteidigen halbiert den nächsten Treffer (+2 ⚡). Gegenstände heilen. Jede neue Phase füllt deine LP auf.",
+     "neu": "Defend halves the next hit (+2 ⚡). Items heal. Every new phase restores your HP.",
+     "vertont": false
+    },
+    {
+     "key": "tut.l1_ende.en",
+     "wer": "Maxwell",
+     "gefuehl": "",
+     "feld": "Rede",
+     "alt": "MAXIMUM is proud of you! Come up to the sun deck any time. Next lesson: heavy hits, criticals and fear.",
+     "neu": "Mr. Maximum is PROUD of you! Come up to the sun deck any time, brother. Next lesson: heavy hits, criticals and fear.",
+     "vertont": true
+    },
+    {
+     "key": "tut.l1_ende.hint",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Hinweis",
+     "alt": "Training mit Maxwell: jederzeit in freier Zeit auf dem Sonnendeck, kostet 1 Aktion.",
+     "neu": "Training with Maxwell: any time during free time on the sun deck. Costs 1 action.",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "Maxwells Lektion 2 (kern/tutorial.py)",
+   "items": [
+    {
+     "key": "tut.l2_heftig.en",
+     "wer": "Maxwell",
+     "gefuehl": "",
+     "feld": "Rede",
+     "alt": "Lesson two! Heavy Attack costs three stamina but hits like Maximum on leg day. Save stamina, then boom!",
+     "neu": "Lesson two! Heavy Attack costs three stamina, but it hits like Mr. Maximum on leg day. Save up your stamina, then boom!",
+     "vertont": true
+    },
+    {
+     "key": "tut.l2_heftig.hint",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Hinweis",
+     "alt": "„Heftiger Angriff“: 3 ⚡, Angriff +4, sicher.",
+     "neu": "“Heavy Attack”: 3 ⚡, attack +4, never misses.",
+     "vertont": false
+    },
+    {
+     "key": "tut.l2_krit.en",
+     "wer": "Maxwell",
+     "gefuehl": "",
+     "feld": "Rede",
+     "alt": "Sometimes a hit lands perfect - critical, one and a half times! Cunning makes that happen more often.",
+     "neu": "Sometimes a hit lands perfectly – a critical, one and a half times the damage! Cunning makes that happen more often.",
+     "vertont": true
+    },
+    {
+     "key": "tut.l2_krit.hint",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Hinweis",
+     "alt": "Kritische Treffer: 5 % + 3 % je Punkt List, Schaden ×1,5.",
+     "neu": "Critical hits: 5 % + 3 % per point of Cunning, damage ×1.5.",
+     "vertont": false
+    },
+    {
+     "key": "tut.l2_angst.en",
+     "wer": "Maxwell",
+     "gefuehl": "",
+     "feld": "Rede",
+     "alt": "Intimidate weakens a fighter's next blow. But Maximum? Maximum fears nothing! Some enemies are immune - the game tells you why.",
+     "neu": "Intimidate weakens a fighter's next blow. But Mr. Maximum? Mr. Maximum fears nothing! Some enemies are immune, and the game tells you why.",
+     "vertont": true
+    },
+    {
+     "key": "tut.l2_angst.hint",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Hinweis",
+     "alt": "„Einschüchtern“: Gegner geschwächt (nächster Angriff −3). Immune Gegner sind mit Begründung gesperrt.",
+     "neu": "“Intimidate”: opponent weakened (next attack −3). Immune opponents are locked, with a reason.",
+     "vertont": false
+    },
+    {
+     "key": "tut.l2_ungedeckt.en",
+     "wer": "Maxwell",
+     "gefuehl": "",
+     "feld": "Rede",
+     "alt": "Careful with fancy moves. Fumble a roll and you are open - my next hit lands harder. Brave is good. Reckless hurts.",
+     "neu": "Careful with the fancy moves, brother. Fumble a roll and you're open, so my next hit lands harder. Brave is good. Reckless hurts.",
+     "vertont": true
+    },
+    {
+     "key": "tut.l2_ungedeckt.hint",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Hinweis",
+     "alt": "Ungedeckt: Nach einem Patzer trifft dich der nächste Schlag +3.",
+     "neu": "Exposed: after a fumble, the next blow against you hits +3.",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "Maxwells Lektion 3 (kern/tutorial.py)",
+   "items": [
+    {
+     "key": "tut.l3_elemente.en",
+     "wer": "Maxwell",
+     "gefuehl": "",
+     "feld": "Rede",
+     "alt": "Final lesson, brother: elements. Water beats fire, fire beats earth, earth beats air, air beats water. Remember the circle!",
+     "neu": "Final lesson, brother: the elements. Water beats fire, fire beats earth, earth beats air, and air beats water. Remember the circle!",
+     "vertont": true
+    },
+    {
+     "key": "tut.l3_elemente.hint",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Hinweis",
+     "alt": "Elemente im Kreis: Wasser > Feuer > Erde > Luft > Wasser. Stark ×1,2, schwach ×0,85.",
+     "neu": "Elements in a circle: water > fire > earth > air > water. Strong ×1.2, weak ×0.85.",
+     "vertont": false
+    },
+    {
+     "key": "tut.l3_brennen.en",
+     "wer": "Maxwell",
+     "gefuehl": "",
+     "feld": "Rede",
+     "alt": "Fire burns. Every stack bites each round, up to five. Defend to put one out - and stop feeding the flames!",
+     "neu": "Fire burns, brother. Every stack bites each round, up to five of them. Defend to put one out, and stop feeding the flames!",
+     "vertont": true
+    },
+    {
+     "key": "tut.l3_brennen.hint",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Hinweis",
+     "alt": "Brennend 🔥: 1–5 Stufen, Schaden jede Runde. Verteidigen löscht 1 Stufe.",
+     "neu": "Burning 🔥: 1–5 stacks, damage every round. Defend removes 1 stack.",
+     "vertont": false
+    },
+    {
+     "key": "tut.l3_reaktion.en",
+     "wer": "Maxwell",
+     "gefuehl": "",
+     "feld": "Rede",
+     "alt": "Mix elements and things react! Fire on wet makes steam, lightning on wet makes a short circuit. Play with it!",
+     "neu": "Mix the elements and things react! Fire on wet makes steam, lightning on wet makes a short circuit. Play with it!",
+     "vertont": true
+    },
+    {
+     "key": "tut.l3_reaktion.hint",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Hinweis",
+     "alt": "Reaktionen: Dampf (Feuer + nass), Kurzschluss (Strom + nass), Aufplatzen, Funkenflug, Schlamm.",
+     "neu": "Reactions: steam (fire + wet), short circuit (shock + wet), rupture, sparks, mud.",
+     "vertont": false
+    }
+   ]
+  },
+  {
+   "titel": "NEU · Rosi wirft Terremoto (Tag-0-Chip v)",
+   "items": [
+    {
+     "key": "hk_rosi_v.lage",
+     "wer": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "Rosi jumps off the tender behind you, soot still on her cheek from the workshop fire, a baseball bat over her shoulder. She throws it to you without a word. *He was the only one who knew what an inverter was. If I give it to anyone, it's him.*"
+    },
+    {
+     "key": "hk_rosi_v#z0",
+     "wer": "Rosi",
+     "gefuehl": "caring",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Officer, you can't go out there with your bare hands. The workshop's gone, the whole thing burned, and this is the only thing I got out.",
+     "vertont": true
+    },
+    {
+     "key": "hk_rosi_v#z1",
+     "wer": "Rosi",
+     "gefuehl": "pride",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "His name's Terremoto. I put a weight in the barrel, so when you hit something, it really feels like an earthquake. Go on, I'm right behind you.",
+     "vertont": true
+    },
+    {
+     "key": "hk_rosi_v.o0",
+     "wer": "Duc",
+     "feld": "Chip",
+     "alt": "",
+     "neu": "Catches it and runs at the rats."
+    },
+    {
+     "key": "hk_rosi_v.o1",
+     "wer": "Duc",
+     "feld": "Chip",
+     "alt": "",
+     "neu": "“Thanks, Rosi.” Then charges."
+    }
+   ]
+  },
+  {
+   "titel": "NEU · Rosi wirft Terremoto (Tag-0-Chip b)",
+   "items": [
+    {
+     "key": "hk_rosi_b.lage",
+     "wer": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "Rosi whistles through her fingers. When you turn round, the bat is already flying at you. *Don't grin. Don't you dare grin. Now I'm grinning.*"
+    },
+    {
+     "key": "hk_rosi_b#z0",
+     "wer": "Rosi",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Hey, Officer! Since you like looking at engineers so much, here's something an engineer made for you. Catch!",
+     "vertont": true
+    },
+    {
+     "key": "hk_rosi_b#z1",
+     "wer": "Rosi",
+     "gefuehl": "embarrassment",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "That's Terremoto. There's a weighted core inside, I built it myself, so try not to drop it. And stop looking at me, the rats are over there!",
+     "vertont": true
+    },
+    {
+     "key": "hk_rosi_b.o0",
+     "wer": "Duc",
+     "feld": "Chip",
+     "alt": "",
+     "neu": "Catches it and runs at the rats."
+    },
+    {
+     "key": "hk_rosi_b.o1",
+     "wer": "Duc",
+     "feld": "Chip",
+     "alt": "",
+     "neu": "“Thanks, Rosi.” Then charges."
+    }
+   ]
+  },
+  {
+   "titel": "NEU · Rosi wirft Terremoto (Tag-0-Chip n)",
+   "items": [
+    {
+     "key": "hk_rosi_n.lage",
+     "wer": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "Rosi pushes through the people on the quay and tosses you a baseball bat without asking. *Let's see what he can do with it.*"
+    },
+    {
+     "key": "hk_rosi_n#z0",
+     "wer": "Rosi",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "You'll need something to fight with, Officer. That's all I could save from the workshop.",
+     "vertont": true
+    },
+    {
+     "key": "hk_rosi_n#z1",
+     "wer": "Rosi",
+     "gefuehl": "optimism",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "It's called Terremoto, like the earthquake. There's a weight in the barrel, so just swing it and let it do the work. Leave the thinking to me, okay?",
+     "vertont": true
+    },
+    {
+     "key": "hk_rosi_n.o0",
+     "wer": "Duc",
+     "feld": "Chip",
+     "alt": "",
+     "neu": "Catches it and runs at the rats."
+    },
+    {
+     "key": "hk_rosi_n.o1",
+     "wer": "Duc",
+     "feld": "Chip",
+     "alt": "",
+     "neu": "“Thanks, Rosi.” Then charges."
+    }
+   ]
+  },
+  {
+   "titel": "NEU · Rosi wirft Terremoto (Tag-0-Chip f)",
+   "items": [
+    {
+     "key": "hk_rosi_f.lage",
+     "wer": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "Rosi throws you a baseball bat, a little too hard, and it almost slips through your hands. *The only thing I got out of the fire, and of all people, he gets it.* Then her voice drops."
+    },
+    {
+     "key": "hk_rosi_f#z0",
+     "wer": "Rosi",
+     "gefuehl": "annoyance",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Here you go, Officer. Compliments of the mechanic.",
+     "vertont": true
+    },
+    {
+     "key": "hk_rosi_f#z1",
+     "wer": "Rosi",
+     "gefuehl": "sadness",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "His name's Terremoto. Papa would love him. So please don't make me regret this, alright?",
+     "vertont": true
+    },
+    {
+     "key": "hk_rosi_f.o0",
+     "wer": "Duc",
+     "feld": "Chip",
+     "alt": "",
+     "neu": "Catches it and runs at the rats."
+    },
+    {
+     "key": "hk_rosi_f.o1",
+     "wer": "Duc",
+     "feld": "Chip",
+     "alt": "",
+     "neu": "“Thanks, Rosi.” Then charges."
+    }
+   ]
+  }
+ ]
+}

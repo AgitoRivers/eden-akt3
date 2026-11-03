@@ -1,0 +1,17 @@
+{
+  "source": "EmberGen oil_fire; separate project oil-fire-vorlage.ember",
+  "frames": 64,
+  "firstFrame": 120,
+  "stride": 2,
+  "rawAtlas": [
+    4096,
+    4096
+  ],
+  "bodyCell": [
+    512,
+    420
+  ],
+  "bodyAlpha": "Native alpha unpremultiplied; cool opaque soot reduced for figure readability; soft cell and flame-base feather",
+  "sourceSha256": "34dda829428290b6aad91d196d0fa954256b0e41857e057e183daf7ef050dda4",
+  "bodySha256": "6d43334d5f05c50fef1f0e89c267a9dcf8e37b3ed334ef954018599cf2b52e40"
+}

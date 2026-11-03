@@ -1,0 +1,7894 @@
+{
+ "_hinweis": "Gebaut aus werkzeuge\\eden_rise\\kaempfe_eden_rise.py - dort aendern, nicht hier.",
+ "version": 3,
+ "basic": {
+  "reden": {
+   "label": "Talk",
+   "attr": "charm",
+   "cost": 2,
+   "probe": true,
+   "advantage_with": "charme",
+   "text": "Talk them down. Lowers their composure (anyone who can listen; animals can't).",
+   "effect": {
+    "erfolg": {
+     "fassung": 6
+    },
+    "kritisch": {
+     "fassung": 9
+    },
+    "fehlschlag": {},
+    "patzer": {
+     "exposed": true
+    }
+   }
+  },
+  "einschuechtern": {
+   "label": "Intimidate",
+   "attr": "courage",
+   "cost": 2,
+   "probe": true,
+   "text": "Stand tall and look dangerous: their next two attacks are weaker, and they lose composure. Works on most animals too.",
+   "effect": {
+    "erfolg": {
+     "weaken": true,
+     "fassung": 3
+    },
+    "kritisch": {
+     "weaken": true,
+     "fassung": 6
+    },
+    "fehlschlag": {},
+    "patzer": {
+     "exposed": true
+    }
+   }
+  }
+ },
+ "specials": {
+  "mistral": {
+   "code": "K3",
+   "path": "K",
+   "tier": 3,
+   "label": "Mistral",
+   "work": "Erschütterer",
+   "cost": 3,
+   "text": "+4 damage, and the enemy is shaken for 2 rounds (no protection)."
+  },
+  "ressac": {
+   "code": "K5",
+   "path": "K",
+   "tier": 5,
+   "label": "Ressac",
+   "work": "Konterwelle",
+   "cost": 3,
+   "text": "Answer to their special attack: a counter (×2 against a wet enemy); against a strong one they are also weakened.",
+   "answer": true
+  },
+  "libeccio": {
+   "code": "K7",
+   "path": "K",
+   "tier": 7,
+   "label": "Libeccio",
+   "work": "Windrüstung",
+   "cost": 2,
+   "text": "For 2 rounds you take half damage, and every perfect parry shakes them."
+  },
+  "lame_de_fond": {
+   "code": "K9",
+   "path": "K",
+   "tier": 9,
+   "label": "Lame de Fond",
+   "work": "Riesenwelle",
+   "cost": 4,
+   "text": "Finisher against an exhausted enemy: ×2, against a shaken one ×3.",
+   "finisher": true
+  },
+  "doppio_gioco": {
+   "code": "L3",
+   "path": "L",
+   "tier": 3,
+   "label": "Doppio Gioco",
+   "work": "Doppelschnitt",
+   "cost": 3,
+   "text": "Two cuts at 70 % each."
+  },
+  "sotto_voce": {
+   "code": "L5",
+   "path": "L",
+   "tier": 5,
+   "label": "Sotto Voce",
+   "work": "Abtauchen",
+   "cost": 2,
+   "text": "Answer to their special attack: your next attack is a sure crit; against a strong one their hit is also halved.",
+   "answer": true
+  },
+  "vendetta": {
+   "code": "L7",
+   "path": "L",
+   "tier": 7,
+   "label": "Vendetta",
+   "work": "Blutschnitt",
+   "cost": 3,
+   "text": "A cut at 30 %, then they bleed (not machines)."
+  },
+  "omerta": {
+   "code": "L9",
+   "path": "L",
+   "tier": 9,
+   "label": "Omertà",
+   "work": "Gnadenstoß",
+   "cost": 4,
+   "text": "Finisher against an exhausted enemy: crit ×2.5 (×3.5 with a sure crit), +25 % per condition, up to 4.",
+   "finisher": true
+  },
+  "point_de_mire": {
+   "code": "W3",
+   "path": "W",
+   "tier": 3,
+   "label": "Point de Mire",
+   "work": "Zielmarke",
+   "cost": 2,
+   "text": "They are exhausted for 3 rounds (below Perception 4: until your next turn)."
+  },
+  "bonaccia": {
+   "code": "W5",
+   "path": "W",
+   "tier": 5,
+   "label": "Bonaccia",
+   "work": "Ruhepuls",
+   "cost": 2,
+   "text": "Answer to their special attack: catch a strong one completely and strike back, halve a weak one and strike back at half strength (below Perception 4: only halved).",
+   "answer": true
+  },
+  "phare": {
+   "code": "W7",
+   "path": "W",
+   "tier": 7,
+   "label": "Phare",
+   "work": "Leuchtfeuer",
+   "cost": 3,
+   "text": "Against a strong special attack: blinds them and they skip 1 round (2 if charged with current); below Perception 4 only at 15 % per point.",
+   "answer": true,
+   "strong_only": true
+  },
+  "pluie_d_etoiles": {
+   "code": "W9",
+   "path": "W",
+   "tier": 9,
+   "label": "Pluie d'Étoiles",
+   "work": "Sternsalve",
+   "cost": 4,
+   "text": "Finisher: 3 hits at 85 % (full damage against flyers)."
+  },
+  "scirocco": {
+   "code": "M3",
+   "path": "M",
+   "tier": 3,
+   "label": "Scirocco",
+   "work": "Glutschlag",
+   "cost": 3,
+   "text": "+4 damage and one burn stack, but afterwards you are exposed."
+  },
+  "retour": {
+   "code": "M5",
+   "path": "M",
+   "tier": 5,
+   "label": "Retour de Flamme",
+   "work": "Rachefeuer",
+   "cost": 2,
+   "text": "Charges your weapon: their next attack is met with a counter. Parry it for ×1.5 and a burn stack (×2 against a strong special attack), miss it for ×0.5."
+  },
+  "furia": {
+   "code": "M7",
+   "path": "M",
+   "tier": 7,
+   "label": "Furia",
+   "work": "Flammenrausch",
+   "cost": 3,
+   "text": "One hit right away, then 2 rounds at ×1.3, and every hit adds a burn stack. You catch fire yourself and cannot defend."
+  },
+  "vulcano": {
+   "code": "M9",
+   "path": "M",
+   "tier": 9,
+   "label": "Vulcano",
+   "work": "Feuersturm",
+   "cost": 4,
+   "text": "Finisher: one blow per burn stack on the enemy at 60 %, ignores protection and uses up every stack. You skip 1 round afterwards."
+  },
+  "elicriso": {
+   "code": "H3",
+   "path": "H",
+   "tier": 3,
+   "label": "Elicriso",
+   "work": "Heilöl",
+   "cost": 3,
+   "text": "Heals 30 % of your HP and soothes a burn or a bleeding wound."
+  },
+  "ponente": {
+   "code": "H5",
+   "path": "H",
+   "tier": 5,
+   "label": "Ponente",
+   "work": "Westwind",
+   "cost": 3,
+   "text": "For 3 rounds you heal 10 % of your HP every round, and your parry window is 10 % wider."
+  },
+  "risveglio": {
+   "code": "H7",
+   "path": "H",
+   "tier": 7,
+   "label": "Risveglio",
+   "work": "Erwachen",
+   "cost": 4,
+   "text": "Heals 80 % of your HP. Once per fight."
+  },
+  "arcangelo": {
+   "code": "H9",
+   "path": "H",
+   "tier": 9,
+   "label": "Arcangelo",
+   "work": "Erzengel",
+   "cost": 4,
+   "text": "If you fall in this fight, you rise again with half your HP. Once per fight."
+  }
+ },
+ "weapons": {
+  "sword": {
+   "label": "Riposte",
+   "dmg": 5,
+   "element": "wasser",
+   "kind": "klinge",
+   "slots": 1,
+   "rarity": "gewoehnlich",
+   "sig": null,
+   "price": null,
+   "source": "Wreck dive, week 3 (open)",
+   "untertitel": "Cavalry Sabre",
+   "stein": [
+    "Seeglas",
+    "Aquamarin",
+    "Saphir"
+   ],
+   "eigenschaft": "Sea glass from the harbour is set in the grip. Smooth, a little wet, and it never lets go of the water."
+  },
+  "bat": {
+   "label": "Terremoto",
+   "dmg": 2,
+   "element": "erde",
+   "kind": "stumpf",
+   "slots": 1,
+   "rarity": "gewoehnlich",
+   "sig": null,
+   "price": null,
+   "source": "Rosi, at the harbour after the workshop fire",
+   "untertitel": "Baseball Bat",
+   "stein": [
+    "Granit",
+    "Jade",
+    "Smaragd"
+   ],
+   "eigenschaft": "There's a chunk of granite from the harbour wall in the barrel. It's heavy, and that's the whole trick."
+  },
+  "knife": {
+   "label": "Sussurro",
+   "dmg": 2,
+   "element": "luft",
+   "kind": "messer",
+   "slots": 1,
+   "rarity": "gewoehnlich",
+   "sig": null,
+   "price": null,
+   "source": "Gennaro's cell, the grotto",
+   "untertitel": "Combat Knife",
+   "stein": [
+    "Quarz",
+    "Amethyst",
+    "Opal"
+   ],
+   "eigenschaft": "A small quartz sits in the handle. Every cut leaves a spark, and no, I won't explain how."
+  },
+  "spear": {
+   "label": "Le Large",
+   "dmg": 4,
+   "element": "feuer",
+   "kind": "stange",
+   "slots": 1,
+   "rarity": "gewoehnlich",
+   "sig": null,
+   "price": null,
+   "source": "Madame Casanova, after her mission (Act 2)",
+   "untertitel": "Boar Spear",
+   "stein": [
+    "Lavastein",
+    "Topas",
+    "Rubin"
+   ],
+   "eigenschaft": "A piece of lava stone from the coast sits in the spearhead. It holds heat longer than you'd think."
+  },
+  "gun": {
+   "label": "Gemelli",
+   "dmg": 3,
+   "element": null,
+   "kind": "fern",
+   "slots": 2,
+   "rarity": "gewoehnlich",
+   "sig": "twin",
+   "price": null,
+   "source": "Captain Holm, before the siege (open)",
+   "untertitel": "Double Rifle",
+   "eigenschaft": "Two barrels, no stone. On the first shot and on every counter, both fire."
+  },
+  "steel_mop": {
+   "label": "Steel Mop",
+   "dmg": 5,
+   "element": null,
+   "kind": "stumpf",
+   "slots": 1,
+   "rarity": "gewoehnlich",
+   "sig": null,
+   "price": null,
+   "source": "Rosi, day 19",
+   "untertitel": "Maxwell's own, by Rosi",
+   "training_only": true
+  },
+  "mop": {
+   "label": "Deck Scrubber",
+   "dmg": 0,
+   "element": null,
+   "kind": "stumpf",
+   "slots": 1,
+   "rarity": "gewoehnlich",
+   "sig": null,
+   "price": null,
+   "source": "Training with Maxwell only",
+   "untertitel": "Maxwell's training gear",
+   "training_only": true
+  }
+ },
+ "helden": {
+  "maxwell": {
+   "name": "Mr. Maximum",
+   "sprite": "MaxwellSteelMop",
+   "fx_set": "DucMaxwellSteelMop",
+   "waffe": "steel_mop",
+   "pfad": "K",
+   "lp_faktor": 1.2,
+   "ausdauer_plus": -1,
+   "level_basis": 5,
+   "level_schritt": 2,
+   "attribute": {
+    "strength": 5,
+    "cunning": 1,
+    "perception": 2,
+    "courage": 5,
+    "empathy": 3,
+    "charm": 3
+   },
+   "ruestung": {
+    "id": "steward_shirt",
+    "label": "Steward Shirt",
+    "untertitel": "No sleeves",
+    "prot": 2,
+    "resist": null,
+    "heavy": false,
+    "bite": 0.0,
+    "bonus": {},
+    "rarity": "gewoehnlich",
+    "sig": null,
+    "eigenschaft": "",
+    "source": "Chiara"
+   },
+   "tasche": [
+    "verbandskasten",
+    "verbandskasten",
+    "verbandskasten",
+    "espresso_single",
+    "espresso_single",
+    "espresso_single",
+    "grenade_fire",
+    "grenade_concussion"
+   ],
+   "specials": {
+    "parry_the_dirt": {
+     "code": "K3",
+     "path": "K",
+     "tier": 3,
+     "label": "Parry the Dirt",
+     "work": "Konter",
+     "cost": 2,
+     "text": "He plants his feet and waits: their next attack gets a counter. Parry it for ×1.5, a strong one for ×2. Miss it for ×0.5."
+    },
+    "maximum": {
+     "code": "K5",
+     "path": "K",
+     "tier": 5,
+     "label": "Maximum",
+     "work": "Wucht",
+     "cost": 3,
+     "text": "+5 damage, ×1.5 against machines, and the enemy is shaken for a round (no protection)."
+    },
+    "approves": {
+     "code": "K7",
+     "path": "K",
+     "tier": 7,
+     "label": "Mr. Maximum Approves",
+     "work": "Ansporn",
+     "cost": 1,
+     "text": "+3 stamina, and his next hit is a sure crit."
+    }
+   }
+  }
+ },
+ "muendung": {
+  "PirateGunner": {
+   "attack": [
+    0.1823,
+    0.1411
+   ],
+   "heavy_attack": [
+    0.1662,
+    0.1767
+   ]
+  },
+  "AgentGunman": {
+   "attack": [
+    0.2944,
+    0.1617
+   ],
+   "heavy_attack": [
+    0.2536,
+    0.4444
+   ]
+  },
+  "DucCyberGun": {
+   "attack": [
+    0.7189,
+    0.2617
+   ],
+   "heavy_attack": [
+    0.6952,
+    0.4972
+   ],
+   "konter": [
+    0.8044,
+    0.4472
+   ]
+  },
+  "DucErdeGun": {
+   "attack": [
+    0.6942,
+    0.2306
+   ],
+   "heavy_attack": [
+    0.6904,
+    0.4572
+   ],
+   "konter": [
+    0.7873,
+    0.4628
+   ]
+  },
+  "DucFeuerGun": {
+   "attack": [
+    0.6999,
+    0.2167
+   ],
+   "heavy_attack": [
+    0.6923,
+    0.4222
+   ],
+   "konter": [
+    0.7939,
+    0.4667
+   ]
+  },
+  "DucLuftGun": {
+   "attack": [
+    0.717,
+    0.2389
+   ],
+   "heavy_attack": [
+    0.699,
+    0.4672
+   ],
+   "konter": [
+    0.7996,
+    0.4672
+   ]
+  },
+  "DucWasserGun": {
+   "attack": [
+    0.6961,
+    0.2194
+   ],
+   "heavy_attack": [
+    0.6933,
+    0.4656
+   ],
+   "konter": [
+    0.812,
+    0.4261
+   ]
+  }
+ },
+ "start_weapon": "bat",
+ "start_armor": "jacket_earth",
+ "start_gear": {
+  "weapons": [],
+  "armors": [
+   "jacket_earth"
+  ]
+ },
+ "chips": {
+  "verkauf": 10,
+  "text": {
+   "unbekannt": "You found a strange chip. Maybe Rosi can make something out of it.",
+   "neu": "New module found: {name}. Rosi can make use of it.",
+   "besser": "Better module: {name}. Rosi folds the old one into it.",
+   "schlechter": "You already have a better {familie}. Sold the spare for {geld} EUR.",
+   "gleich": "You already have {name}. Sold the spare for {geld} EUR."
+  },
+  "rosi": {
+   "wucht": "More weight behind it. Don't drop it on your foot.",
+   "praezision": "I tuned the sight. Try not to miss on purpose.",
+   "technik": "Faster hands. Don't ask what I did to the wiring.",
+   "konter": "Now it hits back harder. I like it.",
+   "zustand": "It does something nasty on contact. I love that.",
+   "element": "I rebuilt the shell for you. Fire, water, whatever you like. One at a time, please.",
+   "schutz": "Thicker lining. I sewed it myself. Badly, but it holds.",
+   "parade": "Your hands will feel steadier. That's the chip, not you.",
+   "ausdauer": "More air in your lungs. Mind the stairs now.",
+   "erholung": "It patches you up a little between the bruises.",
+   "auftritt": "Stand straight and look like you mean it. The chip does the rest.",
+   "abwehr": "Whatever it was made to hurt you with, it won't work now.",
+   "aufklaerung": "It listens to their collars. You'll know who's out there before they know you are."
+  },
+  "drops": {
+   "ratte_alpha": [
+    "zustand_blutend",
+    1
+   ],
+   "hund_alpha": [
+    "ausdauer",
+    1
+   ],
+   "keiler": [
+    "wucht",
+    1
+   ],
+   "keiler_kloster": [
+    "wucht",
+    2
+   ],
+   "affe": [
+    "technik",
+    1
+   ],
+   "hunde_paar": [
+    "scout",
+    2
+   ],
+   "bache": [
+    "erholung",
+    1
+   ],
+   "wolf": [
+    "ausdauer",
+    2
+   ],
+   "wolf_alpha": [
+    "konter",
+    2
+   ],
+   "agent": [
+    "praezision",
+    2
+   ],
+   "agent_fuehrer": [
+    "scout",
+    3
+   ],
+   "agent_nass": [
+    "scout",
+    3
+   ],
+   "brute_solo": [
+    "schutz",
+    3
+   ],
+   "old_grey": [
+    "wucht",
+    3
+   ],
+   "panther": [
+    "zustand_blutend",
+    2
+   ],
+   "unit01": [
+    "praezision",
+    2
+   ],
+   "schmuggler": [
+    "konter",
+    2
+   ],
+   "riscossore": [
+    "praezision",
+    3
+   ],
+   "kevin": [
+    "ausdauer",
+    2
+   ],
+   "vampirin": {
+    "eins_aus": [
+     [
+      "chip",
+      [
+       [
+        "praezision",
+        2
+       ],
+       [
+        "konter",
+        2
+       ],
+       [
+        "ausdauer",
+        2
+       ]
+      ]
+     ],
+     [
+      "geld",
+      120
+     ],
+     [
+      "material",
+      [
+       "jade",
+       "topas",
+       "aquamarin",
+       "amethyst",
+       "steel_plate"
+      ]
+     ]
+    ]
+   }
+  }
+ },
+ "fallback_weapon": "mop",
+ "werkstatt": {
+  "flag": "werkstatt_offen",
+  "event": "rosi_werkstatt_offen",
+  "stufen": [
+   {
+    "geld": 150
+   },
+   {
+    "geld": 400
+   }
+  ],
+  "material": {
+   "armor": [
+    "steel_plate",
+    "titanium_plate"
+   ],
+   "weapon": {
+    "bat": [
+     "jade",
+     "smaragd"
+    ],
+    "spear": [
+     "topas",
+     "rubin"
+    ],
+    "sword": [
+     "aquamarin",
+     "saphir"
+    ],
+    "knife": [
+     "amethyst",
+     "opal"
+    ],
+    "gun": [
+     "kupfer",
+     "silber"
+    ]
+   }
+  },
+  "materialien": {
+   "steel_plate": "Steel Plate",
+   "titanium_plate": "Titanium Plate",
+   "jade": "Jade",
+   "smaragd": "Emerald",
+   "topas": "Topaz",
+   "rubin": "Ruby",
+   "aquamarin": "Aquamarine",
+   "saphir": "Sapphire",
+   "amethyst": "Amethyst",
+   "opal": "Opal",
+   "kupfer": "Copper",
+   "silber": "Silver"
+  },
+  "text_zu": "The workshop is still wrecked after the explosion.",
+  "texte": {
+   "sword": [
+    "Riposte has aquamarine in the grip now. Clear as the water at the harbour, and it balances much better. It's waiting in your cabin.",
+    "Sapphire for Riposte. I balanced it on one finger and it stayed. Do not tell Totò that I said it's pretty."
+   ],
+   "bat": [
+    "Terremoto has jade in the barrel now. Heavier, tougher, and it still goes bang. It's waiting in your cabin.",
+    "Emerald this time. I tested it on a pallet and the pallet gave up. Come and get it, Maestro."
+   ],
+   "knife": [
+    "Sussurro has amethyst in the handle now. It sparks more than the quartz did, so keep it away from the fuel.",
+    "Opal in Sussurro's handle. It flashes every colour when it cuts. I may have stared at it for ten minutes."
+   ],
+   "spear": [
+    "Le Large has topaz in the spearhead. It glows a little when it's warm. Don't ask me why, I'm still enjoying it.",
+    "A ruby in the spearhead now. The boar will see it coming and still lose. It's in your cabin."
+   ],
+   "gun": [
+    "Gemelli has copper in the barrels now. It runs warm and it still kicks like a mule, I kept that part. It's in your cabin.",
+    "Silver this time, all the way down both barrels. Come and pick it up before I get attached."
+   ],
+   "jacket_earth": [
+    "Terra Scura is stitched, lined, and heavier in a good way. It's waiting in your cabin.",
+    "Terra Scura is done. I hit it with a hammer to test it. The hammer lost."
+   ],
+   "jacket_water": [
+    "Meramie is dry, mended, and smells less like the sea. Slightly. It's in your cabin.",
+    "Meramie is finished. New buttons, new lining, same attitude. Wear it in the rain, I dare you."
+   ],
+   "jacket_fire": [
+    "Incendio has fresh seams and a patch where the burn was. I think it looks cooler now. It's in your cabin.",
+    "Incendio is done. It's warm. It's very warm. Maybe don't wear it in the engine room."
+   ],
+   "jacket_air": [
+    "Zéphyr is lighter and tighter at the cuffs. You'll run faster. Not that you should have to.",
+    "Zéphyr is finished. It weighs about as much as a promise. Go and make some trouble in it."
+   ],
+   "cyber_armor": [
+    "Citadelle is open on my bench. Every panel. I've never seen a better armor. Don't tell Alon I said that.",
+    "Citadelle is done. All panels re-seated, all joints oiled. Wear it like you earned it, because you did."
+   ]
+  }
+ },
+ "geld_drop": {
+  "klassen": [
+   "mensch"
+  ],
+  "spanne": {
+   "laestig": [
+    10,
+    20
+   ],
+   "gefaehrlich": [
+    20,
+    40
+   ],
+   "toedlich": [
+    60,
+    120
+   ],
+   "albtraum": [
+    60,
+    120
+   ]
+  }
+ },
+ "armors": {
+  "jacket_earth": {
+   "label": "Terra Scura",
+   "untertitel": "Biker Jacket",
+   "prot": 3,
+   "resist": null,
+   "heavy": false,
+   "bite": 0.0,
+   "bonus": {},
+   "rarity": "gewoehnlich",
+   "sig": "standfest",
+   "eigenschaft": "Steadfast: protection +1, defending gives protection +2, and you are never shaken.",
+   "source": "Starting gear"
+  },
+  "jacket_water": {
+   "label": "Meramie",
+   "untertitel": "Navy Pea Coat",
+   "prot": 2,
+   "resist": null,
+   "heavy": false,
+   "bite": 0.0,
+   "bonus": {},
+   "rarity": "gewoehnlich",
+   "sig": "fliessend",
+   "eigenschaft": "Flowing: parry window +5 %, and a counter after a perfect parry does ×1.1.",
+   "source": "Petru, after the mountains"
+  },
+  "jacket_fire": {
+   "label": "Incendio",
+   "untertitel": "Burgundy Pea Coat",
+   "prot": 2,
+   "resist": null,
+   "heavy": false,
+   "bite": 0.0,
+   "bonus": {},
+   "rarity": "gewoehnlich",
+   "sig": "glut",
+   "eigenschaft": "Embers: you hit +2 harder for every burn stack on the enemy.",
+   "source": "Danzel, The Red Trio"
+  },
+  "jacket_air": {
+   "label": "Zéphyr",
+   "untertitel": "White Pea Coat",
+   "prot": 2,
+   "resist": null,
+   "heavy": false,
+   "bite": 0.0,
+   "bonus": {},
+   "rarity": "gewoehnlich",
+   "sig": "leicht",
+   "eigenschaft": "Light: stamina +2, and fleeing is easier.",
+   "source": "Unlockable (open)"
+  },
+  "cyber_armor": {
+   "label": "Citadelle",
+   "untertitel": "Cyber Armor",
+   "prot": 5,
+   "resist": "alle",
+   "heavy": true,
+   "bite": 0.0,
+   "bonus": {},
+   "rarity": "episch",
+   "sig": "alles",
+   "eigenschaft": "All-in-one: protects against every element, the first hit in each fight counts only half, parry window −10 %.",
+   "source": "After defeating Alon"
+  }
+ },
+ "enemies": {
+  "taschendieb": {
+   "name": "Pickpocket",
+   "sprite": "Thief",
+   "cls": "mensch",
+   "element": null,
+   "tier": "laestig",
+   "attack": {
+    "label": "Punch",
+    "icon": "🗡"
+   },
+   "specials": {
+    "w1": {
+     "label": "Knife Jab",
+     "icon": "🔪",
+     "bonus": 2,
+     "effect": null,
+     "dodge_only": false
+    }
+   },
+   "weakness": "charm",
+   "immune": {},
+   "flee_at": 0.25,
+   "parade": "sprite",
+   "parade_ziel": 70,
+   "taunt": {
+    "gruppe": "dieb",
+    "zeilen": [
+     {
+      "id": "kampf.taunt.dieb.0",
+      "text": "Watch the hand. No, the other one."
+     },
+     {
+      "id": "kampf.taunt.dieb.1",
+      "text": "Wait... wait... made you look."
+     },
+     {
+      "id": "kampf.taunt.dieb.2",
+      "text": "Easy, easy. I'm just warming up."
+     },
+     {
+      "id": "kampf.taunt.dieb.3",
+      "text": "Nervous? You should be."
+     },
+     {
+      "id": "kampf.taunt.dieb.4",
+      "text": "Which way? You'll never guess."
+     }
+    ]
+   }
+  },
+  "moewe": {
+   "name": "Seagull",
+   "sprite": "Seagull",
+   "cls": "flieger",
+   "element": "luft",
+   "tier": "laestig",
+   "attack": {
+    "label": "Peck",
+    "icon": "🪶"
+   },
+   "specials": {
+    "w1": {
+     "label": "Dive",
+     "icon": "💨",
+     "bonus": 3,
+     "effect": null,
+     "dodge_only": true
+    }
+   },
+   "weakness": "courage",
+   "immune": {
+    "charm": "Animals don't understand you."
+   },
+   "flee_at": 0.2,
+   "parade": "sprite",
+   "parade_ziel": 80,
+   "taunt": {
+    "gruppe": "voegel",
+    "sfx": "schiessen_moewe"
+   }
+  },
+  "ratte": {
+   "name": "Rat",
+   "sprite": "Rat",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "laestig",
+   "attack": {
+    "label": "Scratch",
+    "icon": "🐾"
+   },
+   "specials": {
+    "w1": {
+     "label": "Bite",
+     "icon": "🦷",
+     "bonus": 2,
+     "effect": null,
+     "dodge_only": false
+    }
+   },
+   "weakness": "courage",
+   "immune": {
+    "charm": "Animals don't understand you."
+   },
+   "parade": "skala",
+   "halsband": false,
+   "parade_ziel": 70,
+   "taunt": {
+    "gruppe": "ratte",
+    "sfx": "rudel_ratten"
+   }
+  },
+  "pirat": {
+   "name": "Pirate",
+   "sprite": "Pirate",
+   "cls": "mensch",
+   "element": "wasser",
+   "tier": "laestig",
+   "attack": {
+    "label": "Cutlass Slash",
+    "icon": "🗡"
+   },
+   "specials": {
+    "w1": {
+     "label": "Splash of Seawater",
+     "icon": "🌊",
+     "bonus": 0,
+     "effect": "nass",
+     "dodge_only": false
+    }
+   },
+   "weakness": "courage",
+   "immune": {},
+   "parade": "sprite",
+   "parade_ziel": 70,
+   "taunt": {
+    "gruppe": "pirat",
+    "zeilen": [
+     {
+      "id": "kampf.taunt.pirat.0",
+      "text": "Wait for it, little fish."
+     },
+     {
+      "id": "kampf.taunt.pirat.1",
+      "text": "Not yet. Let me enjoy this."
+     },
+     {
+      "id": "kampf.taunt.pirat.2",
+      "text": "Go on, flinch. I'll wait."
+     },
+     {
+      "id": "kampf.taunt.pirat.3",
+      "text": "The sea is patient. So am I."
+     },
+     {
+      "id": "kampf.taunt.pirat.4",
+      "text": "Ha! Look at you, all jumpy."
+     }
+    ]
+   }
+  },
+  "fackelpirat": {
+   "name": "Pirate with a Torch",
+   "sprite": "PirateTorch",
+   "cls": "mensch",
+   "element": "feuer",
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Slash",
+    "icon": "🗡"
+   },
+   "specials": {
+    "w1": {
+     "label": "Torch Strike",
+     "icon": "🔥",
+     "bonus": 3,
+     "effect": null,
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Burst of Flame",
+     "icon": "🔥🔥",
+     "bonus": 6,
+     "effect": "brennend",
+     "dodge_only": false,
+     "finte": {
+      "art": "zoegern",
+      "bei": 0.7,
+      "halt": 450
+     }
+    }
+   },
+   "weakness": "perception",
+   "immune": {},
+   "parade": "sprite",
+   "parade_ziel": 65,
+   "taunt": {
+    "gruppe": "pirat",
+    "zeilen": [
+     {
+      "id": "kampf.taunt.pirat.0",
+      "text": "Wait for it, little fish."
+     },
+     {
+      "id": "kampf.taunt.pirat.1",
+      "text": "Not yet. Let me enjoy this."
+     },
+     {
+      "id": "kampf.taunt.pirat.2",
+      "text": "Go on, flinch. I'll wait."
+     },
+     {
+      "id": "kampf.taunt.pirat.3",
+      "text": "The sea is patient. So am I."
+     },
+     {
+      "id": "kampf.taunt.pirat.4",
+      "text": "Ha! Look at you, all jumpy."
+     }
+    ]
+   }
+  },
+  "maxwell": {
+   "name": "Maxwell",
+   "sprite": "MaxwellSports",
+   "cls": "mensch",
+   "element": null,
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Jab",
+    "icon": "👊"
+   },
+   "specials": {
+    "w1": {
+     "label": "Power Pose",
+     "icon": "💪",
+     "bonus": 0,
+     "effect": "buff3x2",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Maximum Hammer",
+     "icon": "👊👊",
+     "bonus": 9,
+     "effect": "stamina",
+     "dodge_only": false
+    }
+   },
+   "weakness": "charm",
+   "immune": {
+    "courage": "Maxwell just laughs. “Mr. Maximum fears nothing, brother!”"
+   },
+   "parade": "sprite",
+   "parade_ziel": 75,
+   "taunt": {
+    "gruppe": "maxwell",
+    "zeilen": [
+     {
+      "id": "kampf.taunt.maxwell.0",
+      "text": "Patience, Number One! Mr. Maximum waits."
+     },
+     {
+      "id": "kampf.taunt.maxwell.1",
+      "text": "Eish, look at you, already flinching!"
+     },
+     {
+      "id": "kampf.taunt.maxwell.2",
+      "text": "Not yet, brother. Not yet."
+     },
+     {
+      "id": "kampf.taunt.maxwell.3",
+      "text": "Breathe in. Mr. Maximum says breathe."
+     },
+     {
+      "id": "kampf.taunt.maxwell.4",
+      "text": "Mr. Maximum is counting. One..."
+     }
+    ]
+   }
+  },
+  "ratte_alpha": {
+   "name": "Alpha Rat",
+   "sprite": "RatAlpha",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "laestig",
+   "attack": {
+    "label": "Scratch",
+    "icon": "🐾"
+   },
+   "specials": {
+    "w1": {
+     "label": "Bite",
+     "icon": "🦷",
+     "bonus": 2,
+     "effect": null,
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "The Pack Joins In",
+     "icon": "🐀🐀",
+     "bonus": 4,
+     "effect": null,
+     "dodge_only": false
+    }
+   },
+   "weakness": null,
+   "immune": {
+    "charm": "Animals don't understand you."
+   },
+   "flee_at": 0.2,
+   "parade": "skala",
+   "parade_ziel": 70,
+   "taunt": {
+    "gruppe": "ratte",
+    "sfx": "rudel_ratten"
+   }
+  },
+  "hund_alpha": {
+   "name": "Alpha Dog",
+   "sprite": "DogAlpha",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Snap",
+    "icon": "🦷"
+   },
+   "specials": {
+    "w1": {
+     "label": "Pounce",
+     "icon": "🐾",
+     "bonus": 3,
+     "effect": null,
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "The Pack Circles",
+     "icon": "🐕🐕",
+     "bonus": 5,
+     "effect": "erschuettert",
+     "dodge_only": false
+    }
+   },
+   "weakness": null,
+   "immune": {
+    "charm": "Animals don't understand you."
+   },
+   "flee_at": 0.2,
+   "parade": "sprite",
+   "parade_ziel": 75,
+   "taunt": {
+    "gruppe": "hund",
+    "sfx": "rudel_hunde"
+   }
+  },
+  "keiler": {
+   "name": "Boar",
+   "sprite": "WildschweinKeiler",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Tusks",
+    "icon": "🐗"
+   },
+   "specials": {
+    "w1": {
+     "label": "Snort",
+     "icon": "💨",
+     "bonus": 0,
+     "effect": "geschwaecht",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Charge",
+     "icon": "🐗💥",
+     "bonus": 7,
+     "effect": null,
+     "dodge_only": false,
+     "finte": {
+      "art": "zoegern",
+      "bei": 0.7,
+      "halt": 450
+     }
+    }
+   },
+   "weakness": null,
+   "flee_at": 0.25,
+   "parade": "sprite",
+   "immune": {
+    "charm": "Animals don't understand you.",
+    "courage": "The boar just lowers its head. Threats don't impress it."
+   },
+   "parade_ziel": 60,
+   "taunt": {
+    "gruppe": "keiler",
+    "sfx": "keiler_ansturm"
+   }
+  },
+  "schlange": {
+   "name": "Snake",
+   "sprite": "Snake",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "laestig",
+   "attack": {
+    "label": "Bite",
+    "icon": "🐍"
+   },
+   "specials": {
+    "w1": {
+     "label": "Venom",
+     "icon": "🟢",
+     "bonus": 1,
+     "effect": "geschwaecht",
+     "dodge_only": false
+    }
+   },
+   "weakness": "courage",
+   "immune": {
+    "charm": "Animals don't understand you."
+   },
+   "flee_at": 0.25,
+   "parade": "skala",
+   "halsband": false,
+   "parade_ziel": 85,
+   "taunt": {
+    "gruppe": "zischer",
+    "sfx": "kampf_viper"
+   }
+  },
+  "keiler_kloster": {
+   "name": "Alpha Boar",
+   "sprite": "WildschweinKeiler",
+   "cls": "monster",
+   "element": "erde",
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Tusks",
+    "icon": "🐗"
+   },
+   "specials": {
+    "w1": {
+     "label": "Snort",
+     "icon": "💨",
+     "bonus": 0,
+     "effect": "geschwaecht",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Charge",
+     "icon": "🐗💥",
+     "bonus": 8,
+     "effect": null,
+     "dodge_only": false,
+     "finte": {
+      "art": "zoegern",
+      "bei": 0.7,
+      "halt": 450
+     }
+    }
+   },
+   "weakness": null,
+   "flee_at": 0.2,
+   "parade": "sprite",
+   "boss": true,
+   "immune": {
+    "charm": "Animals don't understand you.",
+    "courage": "The boar just lowers its head. Threats don't impress it."
+   },
+   "parade_ziel": 60,
+   "taunt": {
+    "gruppe": "keiler",
+    "sfx": "keiler_ansturm"
+   }
+  },
+  "hund_wild": {
+   "name": "Feral Dog",
+   "sprite": "Dog",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Snap",
+    "icon": "🦷"
+   },
+   "specials": {
+    "w1": {
+     "label": "Pounce",
+     "icon": "🐾",
+     "bonus": 3,
+     "effect": null,
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Tears at the Leg",
+     "icon": "🦷🦷",
+     "bonus": 5,
+     "effect": "blutend",
+     "dodge_only": false,
+     "finte": {
+      "art": "taeuschung",
+      "bei": 0.8,
+      "zurueck": 0.55
+     }
+    }
+   },
+   "weakness": "courage",
+   "immune": {
+    "charm": "Animals don't understand you."
+   },
+   "flee_at": 0.25,
+   "parade": "sprite",
+   "parade_ziel": 75,
+   "taunt": {
+    "gruppe": "hund",
+    "sfx": "rudel_hunde"
+   }
+  },
+  "affe": {
+   "name": "Ape",
+   "sprite": "Ape",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Fist",
+    "icon": "✊"
+   },
+   "specials": {
+    "w1": {
+     "label": "Throws a Rock",
+     "icon": "🪨",
+     "bonus": 3,
+     "effect": null,
+     "dodge_only": true
+    },
+    "s1": {
+     "label": "Frenzy",
+     "icon": "💢",
+     "bonus": 6,
+     "effect": null,
+     "dodge_only": false
+    }
+   },
+   "weakness": "perception",
+   "immune": {
+    "charm": "Animals don't understand you."
+   },
+   "flee_at": 0.2,
+   "parade": "ring",
+   "parade_ziel": 65,
+   "taunt": {
+    "gruppe": "raubtier",
+    "sfx": "tk_loewe"
+   }
+  },
+  "loewe_schwarz": {
+   "name": "The Black Lion",
+   "sprite": "LionPlated",
+   "cls": "monster",
+   "element": "erde",
+   "tier": "toedlich",
+   "attack": {
+    "label": "Claws",
+    "icon": "🐾"
+   },
+   "specials": {
+    "w1": {
+     "label": "Roar",
+     "icon": "🦁",
+     "bonus": 0,
+     "effect": "geschwaecht",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Leap",
+     "icon": "🦁💥",
+     "bonus": 9,
+     "effect": "erschuettert",
+     "dodge_only": false,
+     "finte": {
+      "art": "taeuschung",
+      "bei": 0.8,
+      "zurueck": 0.55
+     }
+    }
+   },
+   "weakness": null,
+   "parade": "sprite",
+   "boss": true,
+   "immune": {
+    "charm": "Animals don't understand you.",
+    "courage": "The lion looks straight through you. It is past being afraid."
+   },
+   "parade_ziel": 80,
+   "taunt": {
+    "gruppe": "raubtier",
+    "sfx": "tk_loewe"
+   }
+  },
+  "bache": {
+   "name": "Wild Sow",
+   "sprite": "Wildschwein",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Tusks",
+    "icon": "🐗"
+   },
+   "specials": {
+    "w1": {
+     "label": "Squeal",
+     "icon": "💨",
+     "bonus": 0,
+     "effect": "geschwaecht",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Defends Her Young",
+     "icon": "🐗💥",
+     "bonus": 7,
+     "effect": null,
+     "dodge_only": false,
+     "finte": {
+      "art": "zoegern",
+      "bei": 0.7,
+      "halt": 450
+     }
+    }
+   },
+   "weakness": null,
+   "flee_at": 0.3,
+   "parade": "sprite",
+   "immune": {
+    "charm": "Animals don't understand you.",
+    "courage": "It is past being afraid of you."
+   },
+   "parade_ziel": 60,
+   "taunt": {
+    "gruppe": "keiler",
+    "sfx": "keiler_ansturm"
+   }
+  },
+  "wolf": {
+   "name": "Collared Wolf",
+   "sprite": "Wolf",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Bite",
+    "icon": "🐺"
+   },
+   "specials": {
+    "w1": {
+     "label": "Circles You",
+     "icon": "🐾",
+     "bonus": 3,
+     "effect": null,
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Goes for the Throat",
+     "icon": "🐺💥",
+     "bonus": 7,
+     "effect": "blutend",
+     "dodge_only": false,
+     "finte": {
+      "art": "zoegern",
+      "bei": 0.7,
+      "halt": 450
+     }
+    }
+   },
+   "weakness": "courage",
+   "flee_at": 0.25,
+   "parade": "sprite",
+   "immune": {
+    "charm": "Animals don't understand you."
+   },
+   "parade_ziel": 75,
+   "taunt": {
+    "gruppe": "hund",
+    "sfx": "rudel_hunde"
+   }
+  },
+  "wolf_alpha": {
+   "name": "The Grey Wolf",
+   "sprite": "WolfAlpha",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Bite",
+    "icon": "🐺"
+   },
+   "specials": {
+    "w1": {
+     "label": "Howl",
+     "icon": "🌕",
+     "bonus": 0,
+     "effect": "erschuettert",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Leaps from the Bridge Rope",
+     "icon": "🐺💥",
+     "bonus": 8,
+     "effect": null,
+     "dodge_only": false,
+     "finte": {
+      "art": "zoegern",
+      "bei": 0.75,
+      "halt": 650
+     }
+    }
+   },
+   "weakness": null,
+   "flee_at": 0.2,
+   "parade": "sprite",
+   "immune": {
+    "charm": "Animals don't understand you.",
+    "courage": "It is past being afraid of you."
+   },
+   "parade_ziel": 70,
+   "taunt": {
+    "gruppe": "hund",
+    "sfx": "rudel_hunde"
+   }
+  },
+  "agent": {
+   "name": "A.V. Agent",
+   "sprite": "Agent",
+   "cls": "mensch",
+   "element": "luft",
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Baton",
+    "icon": "🕴"
+   },
+   "specials": {
+    "w1": {
+     "label": "Shock Grenade",
+     "icon": "⚡",
+     "bonus": 2,
+     "effect": "strom",
+     "dodge_only": false,
+     "finte": {
+      "art": "zoegern",
+      "bei": 0.7,
+      "halt": 450
+     }
+    },
+    "s1": {
+     "label": "Draws the Pistol",
+     "icon": "🔫",
+     "bonus": 7,
+     "effect": null,
+     "dodge_only": true
+    }
+   },
+   "weakness": "perception",
+   "parade": "sprite",
+   "immune": {},
+   "parade_ziel": 70,
+   "taunt": {
+    "gruppe": "agent",
+    "zeilen": [
+     {
+      "id": "kampf.taunt.agent.0",
+      "text": "Hold still. This won't take long."
+     },
+     {
+      "id": "kampf.taunt.agent.1",
+      "text": "Not yet. I'm reading you."
+     },
+     {
+      "id": "kampf.taunt.agent.2",
+      "text": "Wait for it."
+     },
+     {
+      "id": "kampf.taunt.agent.3",
+      "text": "You blinked. I saw that."
+     },
+     {
+      "id": "kampf.taunt.agent.4",
+      "text": "Nothing personal. Just a long shift."
+     }
+    ]
+   }
+  },
+  "agent_fuehrer": {
+   "name": "A.V. Team Leader",
+   "sprite": "AgentAlpha",
+   "cls": "mensch",
+   "element": "luft",
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Baton",
+    "icon": "🕴"
+   },
+   "specials": {
+    "w1": {
+     "label": "Flash Grenade",
+     "icon": "💥",
+     "bonus": 0,
+     "effect": "geblendet",
+     "dodge_only": false,
+     "finte": {
+      "art": "zoegern",
+      "bei": 0.7,
+      "halt": 450
+     }
+    },
+    "s1": {
+     "label": "Draws the Pistol",
+     "icon": "🔫",
+     "bonus": 7,
+     "effect": null,
+     "dodge_only": true
+    }
+   },
+   "weakness": "perception",
+   "parade": "sprite",
+   "immune": {},
+   "parade_ziel": 70,
+   "taunt": {
+    "gruppe": "agent",
+    "zeilen": [
+     {
+      "id": "kampf.taunt.agent.0",
+      "text": "Hold still. This won't take long."
+     },
+     {
+      "id": "kampf.taunt.agent.1",
+      "text": "Not yet. I'm reading you."
+     },
+     {
+      "id": "kampf.taunt.agent.2",
+      "text": "Wait for it."
+     },
+     {
+      "id": "kampf.taunt.agent.3",
+      "text": "You blinked. I saw that."
+     },
+     {
+      "id": "kampf.taunt.agent.4",
+      "text": "Nothing personal. Just a long shift."
+     }
+    ]
+   }
+  },
+  "agent_nass": {
+   "name": "A.V. Agent with Lamps",
+   "sprite": "AgentAlpha",
+   "cls": "mensch",
+   "element": "luft",
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Baton",
+    "icon": "🕴"
+   },
+   "specials": {
+    "w1": {
+     "label": "Water Grenade",
+     "icon": "💧",
+     "bonus": 0,
+     "effect": "nass",
+     "dodge_only": false,
+     "linger": 1
+    }
+   },
+   "weakness": "perception",
+   "parade": "sprite",
+   "immune": {},
+   "parade_ziel": 70,
+   "taunt": {
+    "gruppe": "agent",
+    "zeilen": [
+     {
+      "id": "kampf.taunt.agent.0",
+      "text": "Hold still. This won't take long."
+     },
+     {
+      "id": "kampf.taunt.agent.1",
+      "text": "Not yet. I'm reading you."
+     },
+     {
+      "id": "kampf.taunt.agent.2",
+      "text": "Wait for it."
+     },
+     {
+      "id": "kampf.taunt.agent.3",
+      "text": "You blinked. I saw that."
+     },
+     {
+      "id": "kampf.taunt.agent.4",
+      "text": "Nothing personal. Just a long shift."
+     }
+    ]
+   }
+  },
+  "brute_solo": {
+   "name": "The Big Man",
+   "sprite": "BruteAlpha",
+   "cls": "mensch",
+   "element": "erde",
+   "tier": "toedlich",
+   "attack": {
+    "label": "Fist",
+    "icon": "👊"
+   },
+   "specials": {
+    "w1": {
+     "label": "Grabs You",
+     "icon": "✊",
+     "bonus": 3,
+     "effect": "erschuettert",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Throws You at the Wall",
+     "icon": "💥",
+     "bonus": 9,
+     "effect": null,
+     "dodge_only": false,
+     "finte": {
+      "art": "zoegern",
+      "bei": 0.75,
+      "halt": 650
+     }
+    }
+   },
+   "weakness": "cunning",
+   "parade": "sprite",
+   "boss": true,
+   "immune": {
+    "courage": "He has never been afraid of anything smaller than himself."
+   },
+   "parade_ziel": 65,
+   "taunt": {
+    "gruppe": "brute",
+    "zeilen": [
+     {
+      "id": "kampf.taunt.brute.0",
+      "text": "Hmm. Not yet."
+     },
+     {
+      "id": "kampf.taunt.brute.1",
+      "text": "Wait. ...Wait."
+     },
+     {
+      "id": "kampf.taunt.brute.2",
+      "text": "I'm in no hurry."
+     },
+     {
+      "id": "kampf.taunt.brute.3",
+      "text": "Stand still. Easier for both of us."
+     },
+     {
+      "id": "kampf.taunt.brute.4",
+      "text": "Go on. Blink."
+     }
+    ]
+   }
+  },
+  "wolff": {
+   "name": "Sergent Wolff",
+   "sprite": "Wolff",
+   "cls": "mensch",
+   "element": null,
+   "tier": "toedlich",
+   "attack": {
+    "label": "Long Sword",
+    "icon": "🗡",
+    "finte": {
+     "art": "taeuschung",
+     "bei": 0.8,
+     "zurueck": 0.55
+    }
+   },
+   "specials": {
+    "w1": {
+     "label": "Service Regulations",
+     "icon": "📕",
+     "bonus": 0,
+     "effect": "geschwaecht",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Thirty Years of Drill",
+     "icon": "🎖💥",
+     "bonus": 9,
+     "effect": null,
+     "dodge_only": false,
+     "finte": {
+      "art": "zoegern",
+      "bei": 0.7,
+      "halt": 450
+     }
+    }
+   },
+   "weakness": "empathy",
+   "flee_at": 0.35,
+   "parade": "sprite",
+   "boss": true,
+   "immune": {
+    "courage": "Wolff almost smiles. “I was shouted at by better men than you in Castelnaudary.”"
+   },
+   "parade_ziel": 75,
+   "taunt": {
+    "gruppe": "wolff",
+    "zeilen": [
+     {
+      "id": "kampf.taunt.wolff.0",
+      "text": "Patience. You have none, I see."
+     },
+     {
+      "id": "kampf.taunt.wolff.1",
+      "text": "Steady. You lean too far forward."
+     },
+     {
+      "id": "kampf.taunt.wolff.2",
+      "text": "Not yet. Watch the blade."
+     },
+     {
+      "id": "kampf.taunt.wolff.3",
+      "text": "A good soldier waits. You don't."
+     },
+     {
+      "id": "kampf.taunt.wolff.4",
+      "text": "Breathe first. Then fall."
+     }
+    ]
+   }
+  },
+  "wolff_hart": {
+   "name": "Sergent Wolff",
+   "sprite": "Wolff",
+   "cls": "mensch",
+   "element": null,
+   "tier": "toedlich",
+   "attack": {
+    "label": "Long Sword",
+    "icon": "🗡",
+    "finte": {
+     "art": "taeuschung",
+     "bei": 0.8,
+     "zurueck": 0.55
+    }
+   },
+   "specials": {
+    "w1": {
+     "label": "He Remembers Your Lies",
+     "icon": "📕",
+     "bonus": 2,
+     "effect": "geschwaecht",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Thirty Years of Drill",
+     "icon": "🎖💥",
+     "bonus": 11,
+     "effect": null,
+     "dodge_only": false,
+     "finte": {
+      "art": "zoegern",
+      "bei": 0.75,
+      "halt": 650
+     }
+    }
+   },
+   "weakness": null,
+   "parade": "sprite",
+   "boss": true,
+   "immune": {
+    "courage": "“You lied to me twice. Don't try to frighten me now.”",
+    "charm": "“No. Not from you. Not any more.”"
+   },
+   "parade_ziel": 70,
+   "taunt": {
+    "gruppe": "wolff",
+    "zeilen": [
+     {
+      "id": "kampf.taunt.wolff.0",
+      "text": "Patience. You have none, I see."
+     },
+     {
+      "id": "kampf.taunt.wolff.1",
+      "text": "Steady. You lean too far forward."
+     },
+     {
+      "id": "kampf.taunt.wolff.2",
+      "text": "Not yet. Watch the blade."
+     },
+     {
+      "id": "kampf.taunt.wolff.3",
+      "text": "A good soldier waits. You don't."
+     },
+     {
+      "id": "kampf.taunt.wolff.4",
+      "text": "Breathe first. Then fall."
+     }
+    ]
+   }
+  },
+  "baer_junges": {
+   "name": "Bear Cub",
+   "sprite": "BearCub",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "laestig",
+   "attack": {
+    "label": "Swipe",
+    "icon": "🐾"
+   },
+   "specials": {},
+   "weakness": null,
+   "flee_at": 1.0,
+   "parade": "skala",
+   "immune": {
+    "charm": "Animals don't understand you."
+   },
+   "parade_ziel": 75,
+   "taunt": {
+    "gruppe": "klein",
+    "sfx": "tier_grunt_baby"
+   }
+  },
+  "old_grey": {
+   "name": "Old Grey",
+   "sprite": "GrizzlyAlpha",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "toedlich",
+   "attack": {
+    "label": "Claws",
+    "icon": "🐻"
+   },
+   "specials": {
+    "w1": {
+     "label": "Roar",
+     "icon": "🐻",
+     "bonus": 0,
+     "effect": "erschuettert",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Charge",
+     "icon": "🐻💥",
+     "bonus": 10,
+     "effect": "blutend",
+     "dodge_only": false,
+     "finte": {
+      "art": "zoegern",
+      "bei": 0.75,
+      "halt": 650
+     }
+    }
+   },
+   "weakness": null,
+   "parade": "sprite",
+   "boss": true,
+   "immune": {
+    "charm": "Animals don't understand you.",
+    "courage": "It is past being afraid of you."
+   },
+   "parade_ziel": 60,
+   "taunt": {
+    "gruppe": "raubtier",
+    "sfx": "tk_loewe"
+   }
+  },
+  "panther": {
+   "name": "The Black Beast",
+   "sprite": "PantherAlpha",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "toedlich",
+   "attack": {
+    "label": "Claws",
+    "icon": "🐆"
+   },
+   "specials": {
+    "w1": {
+     "label": "Vanishes into the Dark",
+     "icon": "🌑",
+     "bonus": 3,
+     "effect": null,
+     "dodge_only": true
+    },
+    "s1": {
+     "label": "Leaps",
+     "icon": "🐆💥",
+     "bonus": 9,
+     "effect": "blutend",
+     "dodge_only": false,
+     "finte": {
+      "art": "taeuschung",
+      "bei": 0.8,
+      "zurueck": 0.55
+     }
+    }
+   },
+   "weakness": null,
+   "parade": "sprite",
+   "boss": true,
+   "immune": {
+    "charm": "Animals don't understand you.",
+    "courage": "It is past being afraid of you."
+   },
+   "parade_ziel": 80,
+   "taunt": {
+    "gruppe": "raubtier",
+    "sfx": "tk_loewe"
+   }
+  },
+  "unit01": {
+   "name": "Unit-01 (Red Eye)",
+   "sprite": "Unit1",
+   "cls": "maschine",
+   "element": null,
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Piston Punch",
+    "icon": "⚙"
+   },
+   "specials": {
+    "w1": {
+     "label": "Coughs Soot",
+     "icon": "💨",
+     "bonus": 0,
+     "effect": "geblendet",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Full Throttle",
+     "icon": "⚙💥",
+     "bonus": 6,
+     "effect": null,
+     "dodge_only": false,
+     "finte": {
+      "art": "zoegern",
+      "bei": 0.7,
+      "halt": 450
+     }
+    }
+   },
+   "weakness": "empathy",
+   "parade": "sprite",
+   "boss": true,
+   "immune": {
+    "charm": "Unit-01 grinds its teeth. Whatever is giving the orders isn't listening to you."
+   },
+   "parade_ziel": 70,
+   "taunt": {
+    "gruppe": "maschine",
+    "sfx": "kampf_unit01"
+   }
+  },
+  "schmuggler": {
+   "name": "Smuggler",
+   "sprite": "Thief",
+   "cls": "mensch",
+   "element": "wasser",
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Knife",
+    "icon": "🗡"
+   },
+   "specials": {
+    "w1": {
+     "label": "Sand in Your Eyes",
+     "icon": "🌫",
+     "bonus": 0,
+     "effect": "geblendet",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Knife Under the Ribs",
+     "icon": "🗡💥",
+     "bonus": 6,
+     "effect": null,
+     "dodge_only": false,
+     "finte": {
+      "art": "taeuschung",
+      "bei": 0.8,
+      "zurueck": 0.55
+     }
+    }
+   },
+   "weakness": "courage",
+   "parade": "sprite",
+   "immune": {},
+   "parade_ziel": 70,
+   "taunt": {
+    "gruppe": "pirat",
+    "zeilen": [
+     {
+      "id": "kampf.taunt.pirat.0",
+      "text": "Wait for it, little fish."
+     },
+     {
+      "id": "kampf.taunt.pirat.1",
+      "text": "Not yet. Let me enjoy this."
+     },
+     {
+      "id": "kampf.taunt.pirat.2",
+      "text": "Go on, flinch. I'll wait."
+     },
+     {
+      "id": "kampf.taunt.pirat.3",
+      "text": "The sea is patient. So am I."
+     },
+     {
+      "id": "kampf.taunt.pirat.4",
+      "text": "Ha! Look at you, all jumpy."
+     }
+    ]
+   }
+  },
+  "riscossore": {
+   "name": "U Riscossore",
+   "sprite": "PirateAlpha",
+   "cls": "mensch",
+   "element": "wasser",
+   "tier": "toedlich",
+   "attack": {
+    "label": "Cane Sword",
+    "icon": "🗡",
+    "finte": {
+     "art": "taeuschung",
+     "bei": 0.8,
+     "zurueck": 0.55
+    }
+   },
+   "specials": {
+    "w1": {
+     "label": "Peels an Orange",
+     "icon": "🍊",
+     "bonus": 0,
+     "effect": "geschwaecht",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "The Torches Close In",
+     "icon": "🔥🗡",
+     "bonus": 9,
+     "effect": "brennend",
+     "dodge_only": false,
+     "finte": {
+      "art": "zoegern",
+      "bei": 0.7,
+      "halt": 450
+     }
+    }
+   },
+   "weakness": null,
+   "parade": "sprite",
+   "boss": true,
+   "immune": {
+    "courage": "He finishes the orange first. “Signore. I have been threatened by better men, in better suits.”",
+    "charm": "“Charming. Charm is cheap. I collect debts.”"
+   },
+   "parade_ziel": 70,
+   "taunt": {
+    "gruppe": "riscossore",
+    "zeilen": [
+     {
+      "id": "kampf.taunt.riscossore.0",
+      "text": "I have time. Do you?"
+     },
+     {
+      "id": "kampf.taunt.riscossore.1",
+      "text": "No hurry. The tide is coming."
+     },
+     {
+      "id": "kampf.taunt.riscossore.2",
+      "text": "Shh. Let me finish my orange."
+     },
+     {
+      "id": "kampf.taunt.riscossore.3",
+      "text": "Everybody pays. Just wait."
+     },
+     {
+      "id": "kampf.taunt.riscossore.4",
+      "text": "Wait. It's always worse when you wait."
+     }
+    ]
+   }
+  },
+  "tauben": {
+   "name": "Kevin's Pigeons",
+   "sprite": "PigeonAlpha",
+   "cls": "flieger",
+   "element": "luft",
+   "tier": "laestig",
+   "attack": {
+    "label": "Peck",
+    "icon": "🪶"
+   },
+   "specials": {
+    "w1": {
+     "label": "All at Once",
+     "icon": "🕊🕊",
+     "bonus": 3,
+     "effect": null,
+     "dodge_only": false
+    }
+   },
+   "weakness": "courage",
+   "immune": {
+    "charm": "Animals don't understand you."
+   },
+   "flee_at": 0.3,
+   "parade": "sprite",
+   "taunt": {
+    "gruppe": "voegel",
+    "sfx": "schiessen_moewe"
+   }
+  },
+  "kevin": {
+   "name": "Kevin",
+   "sprite": "Kevin",
+   "cls": "flieger",
+   "element": "luft",
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Mine!",
+    "icon": "🪶"
+   },
+   "specials": {
+    "w1": {
+     "label": "Screams in Your Face",
+     "icon": "📢",
+     "bonus": 0,
+     "effect": "erschuettert",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Dive-Bomb",
+     "icon": "💨💥",
+     "bonus": 6,
+     "effect": null,
+     "dodge_only": true
+    }
+   },
+   "weakness": null,
+   "parade": "sprite",
+   "boss": true,
+   "immune": {
+    "charm": "Kevin looks at you. Kevin has never been charmed by anything but chips.",
+    "courage": "Kevin is not afraid of you. Kevin is not afraid of God."
+   },
+   "parade_ziel": 75,
+   "taunt": {
+    "gruppe": "voegel",
+    "sfx": "schiessen_moewe"
+   }
+  },
+  "fledermaeuse": {
+   "name": "The Bat Swarm",
+   "sprite": "BatAlpha",
+   "cls": "flieger",
+   "element": "luft",
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Bite",
+    "icon": "🦇"
+   },
+   "specials": {
+    "w1": {
+     "label": "They Drink",
+     "icon": "🩸",
+     "bonus": 0,
+     "effect": "heal3",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "The Whole Ceiling at Once",
+     "icon": "🦇🦇",
+     "bonus": 6,
+     "effect": null,
+     "dodge_only": true
+    }
+   },
+   "weakness": "courage",
+   "immune": {
+    "charm": "Animals don't understand you."
+   },
+   "flee_at": 0.25,
+   "parade": "sprite",
+   "halsband": false,
+   "taunt": {
+    "gruppe": "fledermaus",
+    "sfx": "kampf_fledermaeuse"
+   }
+  },
+  "schlange_alpha": {
+   "name": "Black Viper",
+   "sprite": "SnakeAlpha",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Bite",
+    "icon": "🐍"
+   },
+   "specials": {
+    "w1": {
+     "label": "Venom",
+     "icon": "🟢",
+     "bonus": 2,
+     "effect": "geschwaecht",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Strikes from the Water",
+     "icon": "🐍💥",
+     "bonus": 7,
+     "effect": "blutend",
+     "dodge_only": false,
+     "finte": {
+      "art": "zoegern",
+      "bei": 0.7,
+      "halt": 450
+     }
+    }
+   },
+   "weakness": "courage",
+   "immune": {
+    "charm": "Animals don't understand you."
+   },
+   "flee_at": 0.2,
+   "parade": "sprite",
+   "halsband": false,
+   "taunt": {
+    "gruppe": "zischer",
+    "sfx": "kampf_viper"
+   }
+  },
+  "vampirin": {
+   "name": "The Pale Lady",
+   "sprite": "Vampire",
+   "cls": "monster",
+   "element": "feuer",
+   "tier": "toedlich",
+   "attack": {
+    "label": "Claws",
+    "icon": "🩸"
+   },
+   "specials": {
+    "w1": {
+     "label": "Eyes Like Lanterns",
+     "icon": "👁",
+     "bonus": 0,
+     "effect": "ungedeckt",
+     "dodge_only": false
+    },
+    "w2": {
+     "label": "A Flutter of Wings",
+     "icon": "🦇",
+     "bonus": 3,
+     "effect": null,
+     "dodge_only": true
+    },
+    "s1": {
+     "label": "The Kiss",
+     "icon": "💋🩸",
+     "bonus": 9,
+     "effect": "drain",
+     "dodge_only": false,
+     "finte": {
+      "art": "zoegern",
+      "bei": 0.75,
+      "halt": 650
+     }
+    }
+   },
+   "weakness": null,
+   "parade": "sprite",
+   "boss": true,
+   "immune": {
+    "charm": "She smiles with far too many teeth. “Oh, you're sweet. They always are.”",
+    "courage": "She laughs, softly, like someone who has outlived every brave man she ever met."
+   },
+   "parade_ziel": 75,
+   "taunt": {
+    "gruppe": "pale_lady",
+    "sfx": "kampf_pale_lady"
+   }
+  },
+  "sirene": {
+   "name": "The Siren",
+   "sprite": "Siren",
+   "cls": "monster",
+   "element": "wasser",
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Song",
+    "icon": "🎶"
+   },
+   "specials": {
+    "w1": {
+     "label": "A Song Under the Skin",
+     "icon": "🎶",
+     "bonus": 0,
+     "effect": "ungedeckt",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "The Wave",
+     "icon": "🌊💥",
+     "bonus": 8,
+     "effect": "nass",
+     "dodge_only": true
+    }
+   },
+   "weakness": "charm",
+   "parade": "sprite",
+   "boss": true,
+   "fassung_faktor": 2,
+   "untouchable": "Your blow goes through her like through water. She laughs. “You can't cut the sea, sailor.”",
+   "untouchable_hinweise": [
+    {
+     "wer": "sirene",
+     "gefuehl": "amusement",
+     "text": "Ooh. That tickled, sailor. Do it again, I dare you."
+    },
+    {
+     "wer": "sirene",
+     "gefuehl": "amusement",
+     "text": "Men have been stabbing the sea for three thousand years. Not one of them thought to talk to it."
+    },
+    {
+     "wer": "sirene",
+     "gefuehl": "curiosity",
+     "text": "Still swinging? I didn't sing you down here for steel, sailor. I'm starving for a good word."
+    },
+    {
+     "wer": "sirene",
+     "gefuehl": "annoyance",
+     "text": "Gods, you're slow. Put the steel away and talk to me. Words are the only thing that can touch me."
+    }
+   ],
+   "immune": {
+    "courage": "“Frighten me? I have sung whole crews to sleep, sailor.”",
+    "empathy": "“Keep your kindness. I want words.”"
+   },
+   "parade_ziel": 70,
+   "taunt": {
+    "gruppe": "sirene",
+    "zeilen": [
+     {
+      "id": "kampf.taunt.sirene.0",
+      "text": "Shh, sailor. Listen first."
+     },
+     {
+      "id": "kampf.taunt.sirene.1",
+      "text": "Not yet. I like the waiting."
+     },
+     {
+      "id": "kampf.taunt.sirene.2",
+      "text": "Come closer, sailor. A little more."
+     },
+     {
+      "id": "kampf.taunt.sirene.3",
+      "text": "You hold your breath so nicely."
+     },
+     {
+      "id": "kampf.taunt.sirene.4",
+      "text": "The sea never hurries, sailor."
+     }
+    ]
+   }
+  },
+  "dieb_fabbiu": {
+   "name": "Fabbiu",
+   "sprite": "Thief",
+   "cls": "mensch",
+   "element": null,
+   "tier": "laestig",
+   "attack": {
+    "label": "Cheap Shot",
+    "icon": "👊"
+   },
+   "specials": {
+    "w1": {
+     "label": "Sand in the Eyes",
+     "icon": "🫳",
+     "bonus": 1,
+     "effect": "geblendet",
+     "dodge_only": false,
+     "finte": {
+      "art": "taeuschung",
+      "bei": 0.8,
+      "zurueck": 0.55
+     }
+    }
+   },
+   "weakness": "charm",
+   "immune": {},
+   "parade": "sprite",
+   "parade_ziel": 70,
+   "sprueche": {
+    "start": [
+     {
+      "wer": "fabbiu",
+      "text": "Ooh, nice jacket, tourist. Very leather. Very mine.",
+      "gefuehl": "amusement"
+     }
+    ],
+    "runde": [
+     {
+      "wer": "fabbiu",
+      "text": "Is that your fighting face? My nonna makes that face at the fish market.",
+      "gefuehl": "amusement"
+     },
+     {
+      "wer": "fabbiu",
+      "text": "Too slow! You swing like a man carrying shopping.",
+      "gefuehl": "amusement"
+     },
+     {
+      "wer": "fabbiu",
+      "text": "Careful, consultant. Don't spill your little snacks.",
+      "gefuehl": "amusement"
+     },
+     {
+      "wer": "fabbiu",
+      "text": "You know what you are? A walking pocket.",
+      "gefuehl": "amusement"
+     }
+    ],
+    "gewinnt": [
+     {
+      "wer": "fabbiu",
+      "text": "Thanks for the shopping, tourist! Same time next week?",
+      "gefuehl": "joy"
+     }
+    ],
+    "verliert": [
+     {
+      "wer": "fabbiu",
+      "text": "Ow! Ow! Okay, okay! I'm telling my brother!",
+      "gefuehl": "fear"
+     }
+    ]
+   },
+   "taunt": {
+    "gruppe": "dieb",
+    "zeilen": [
+     {
+      "id": "kampf.taunt.dieb.0",
+      "text": "Watch the hand. No, the other one."
+     },
+     {
+      "id": "kampf.taunt.dieb.1",
+      "text": "Wait... wait... made you look."
+     },
+     {
+      "id": "kampf.taunt.dieb.2",
+      "text": "Easy, easy. I'm just warming up."
+     },
+     {
+      "id": "kampf.taunt.dieb.3",
+      "text": "Nervous? You should be."
+     },
+     {
+      "id": "kampf.taunt.dieb.4",
+      "text": "Which way? You'll never guess."
+     }
+    ]
+   }
+  },
+  "dieb_santu": {
+   "name": "Santu",
+   "sprite": "ThiefArab",
+   "cls": "mensch",
+   "element": null,
+   "tier": "laestig",
+   "attack": {
+    "label": "Elbow",
+    "icon": "👊"
+   },
+   "specials": {
+    "w1": {
+     "label": "Trip You Up",
+     "icon": "🦶",
+     "bonus": 2,
+     "effect": "ungedeckt",
+     "dodge_only": false
+    }
+   },
+   "weakness": "charm",
+   "immune": {},
+   "parade": "sprite",
+   "parade_ziel": 70,
+   "sprueche": {
+    "start": [
+     {
+      "wer": "santu",
+      "text": "Easy, easy. We're just talking. Nice bag, by the way.",
+      "gefuehl": "amusement"
+     }
+    ],
+    "runde": [
+     {
+      "wer": "santu",
+      "text": "Hit me, then. My grandmother hits harder, and she's ninety.",
+      "gefuehl": "amusement"
+     },
+     {
+      "wer": "santu",
+      "text": "You're sweating, friend. Is it the sun, or is it me?",
+      "gefuehl": "amusement"
+     },
+     {
+      "wer": "santu",
+      "text": "Your pockets are getting lighter just looking at me.",
+      "gefuehl": "amusement"
+     },
+     {
+      "wer": "santu",
+      "text": "Hey, everybody! The man in the jacket is losing!",
+      "gefuehl": "joy"
+     }
+    ],
+    "gewinnt": [
+     {
+      "wer": "santu",
+      "text": "Keep the change. Oh, wait. I already did.",
+      "gefuehl": "joy"
+     }
+    ],
+    "verliert": [
+     {
+      "wer": "santu",
+      "text": "Fine. Fine. You'll see us again. There are more Riccis than you think.",
+      "gefuehl": "anger"
+     }
+    ]
+   },
+   "taunt": {
+    "gruppe": "dieb",
+    "zeilen": [
+     {
+      "id": "kampf.taunt.dieb.0",
+      "text": "Watch the hand. No, the other one."
+     },
+     {
+      "id": "kampf.taunt.dieb.1",
+      "text": "Wait... wait... made you look."
+     },
+     {
+      "id": "kampf.taunt.dieb.2",
+      "text": "Easy, easy. I'm just warming up."
+     },
+     {
+      "id": "kampf.taunt.dieb.3",
+      "text": "Nervous? You should be."
+     },
+     {
+      "id": "kampf.taunt.dieb.4",
+      "text": "Which way? You'll never guess."
+     }
+    ]
+   }
+  },
+  "matte": {
+   "name": "Mattè",
+   "sprite": "ThiefAlpha",
+   "cls": "mensch",
+   "element": null,
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Swing",
+    "icon": "👊"
+   },
+   "specials": {
+    "w1": {
+     "label": "Grabs Your Arms",
+     "icon": "🫳",
+     "bonus": 3,
+     "effect": "ungedeckt",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Mattè's Haymaker",
+     "icon": "💥",
+     "bonus": 8,
+     "effect": "erschuettert",
+     "dodge_only": false,
+     "finte": {
+      "art": "zoegern",
+      "bei": 0.7,
+      "halt": 450
+     }
+    }
+   },
+   "weakness": "charm",
+   "immune": {},
+   "parade": "sprite",
+   "parade_ziel": 65,
+   "taunt": {
+    "gruppe": "brute",
+    "zeilen": [
+     {
+      "id": "kampf.taunt.brute.0",
+      "text": "Hmm. Not yet."
+     },
+     {
+      "id": "kampf.taunt.brute.1",
+      "text": "Wait. ...Wait."
+     },
+     {
+      "id": "kampf.taunt.brute.2",
+      "text": "I'm in no hurry."
+     },
+     {
+      "id": "kampf.taunt.brute.3",
+      "text": "Stand still. Easier for both of us."
+     },
+     {
+      "id": "kampf.taunt.brute.4",
+      "text": "Go on. Blink."
+     }
+    ]
+   }
+  },
+  "rt_bibi": {
+   "name": "Bibi",
+   "sprite": "Bibi",
+   "cls": "mensch",
+   "element": "wasser",
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Grenade",
+    "icon": "💣"
+   },
+   "specials": {
+    "w1": {
+     "label": "Flash Grenade",
+     "icon": "💥",
+     "bonus": 0,
+     "effect": "geblendet",
+     "dodge_only": false
+    },
+    "w2": {
+     "label": "Water Grenade",
+     "icon": "💧",
+     "bonus": 0,
+     "effect": "nass",
+     "dodge_only": false
+    },
+    "s2": {
+     "label": "Frag Grenade",
+     "icon": "💣",
+     "bonus": 4,
+     "effect": null,
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Nervous Laugh",
+     "icon": "😂💣",
+     "bonus": 6,
+     "effect": null,
+     "dodge_only": false
+    }
+   },
+   "pattern": [
+    "n",
+    "w2",
+    "w1",
+    "s1"
+   ],
+   "pattern_allein": [
+    "n",
+    "s2",
+    "w1",
+    "s2",
+    "s1"
+   ],
+   "weakness": "perception",
+   "parade": "sprite",
+   "immune": {},
+   "parade_ziel": 70,
+   "armor_plus": 1,
+   "unterbrechbar": "s1",
+   "taunt": {
+    "gruppe": "bibi",
+    "zeilen": [
+     {
+      "id": "kampf.taunt.bibi.0",
+      "text": "Wait! Not ready! ...Okay, ready!"
+     },
+     {
+      "id": "kampf.taunt.bibi.1",
+      "text": "Ha! You flinched! I saw it!"
+     },
+     {
+      "id": "kampf.taunt.bibi.2",
+      "text": "Sorry, sorry, this is the fun part."
+     },
+     {
+      "id": "kampf.taunt.bibi.3",
+      "text": "Don't move. I'm aiming. Mostly."
+     },
+     {
+      "id": "kampf.taunt.bibi.4",
+      "text": "Charly, are you watching? Look!"
+     }
+    ]
+   }
+  },
+  "rt_charly": {
+   "name": "Charly",
+   "sprite": "Charly",
+   "cls": "mensch",
+   "element": "luft",
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Taser",
+    "icon": "⚡"
+   },
+   "specials": {
+    "w1": {
+     "label": "Three out of Ten",
+     "icon": "📉",
+     "bonus": 0,
+     "effect": "geschwaecht",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Full Charge",
+     "icon": "⚡💥",
+     "bonus": 6,
+     "effect": "strom",
+     "dodge_only": false,
+     "finte": {
+      "art": "zoegern",
+      "bei": 0.7,
+      "halt": 450
+     }
+    }
+   },
+   "pattern": [
+    "n",
+    "w1",
+    "s1",
+    "n"
+   ],
+   "weakness": "cunning",
+   "parade": "sprite",
+   "immune": {},
+   "parade_ziel": 70,
+   "armor_plus": 1,
+   "taunt": {
+    "gruppe": "charly",
+    "zeilen": [
+     {
+      "id": "kampf.taunt.charly.0",
+      "text": "Wait. Counting. Three... two..."
+     },
+     {
+      "id": "kampf.taunt.charly.1",
+      "text": "You flinched. Four out of ten."
+     },
+     {
+      "id": "kampf.taunt.charly.2",
+      "text": "Not yet. I'm bored, not slow."
+     },
+     {
+      "id": "kampf.taunt.charly.3",
+      "text": "Breathe. It helps. Six out of ten."
+     },
+     {
+      "id": "kampf.taunt.charly.4",
+      "text": "This is the part where you panic."
+     }
+    ]
+   }
+  },
+  "rt_danzel": {
+   "name": "Danzel",
+   "sprite": "Danzel",
+   "cls": "mensch",
+   "element": "luft",
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Baton",
+    "icon": "🕴"
+   },
+   "specials": {
+    "w1": {
+     "label": "Tactical Retreat",
+     "icon": "💨",
+     "bonus": 0,
+     "effect": null,
+     "dodge_only": true
+    },
+    "s1": {
+     "label": "Eyes Shut, Full Swing",
+     "icon": "🕴💥",
+     "bonus": 5,
+     "effect": null,
+     "dodge_only": false,
+     "finte": {
+      "art": "taeuschung",
+      "bei": 0.8,
+      "zurueck": 0.55
+     }
+    }
+   },
+   "weakness": "courage",
+   "parade": "sprite",
+   "immune": {},
+   "parade_ziel": 70,
+   "armor_plus": 1,
+   "taunt": {
+    "gruppe": "danzel",
+    "zeilen": [
+     {
+      "id": "kampf.taunt.danzel.0",
+      "text": "Behold my final— wait, not yet."
+     },
+     {
+      "id": "kampf.taunt.danzel.1",
+      "text": "Feel my power! ...Any second now."
+     },
+     {
+      "id": "kampf.taunt.danzel.2",
+      "text": "Ha! You fell for— hold on."
+     },
+     {
+      "id": "kampf.taunt.danzel.3",
+      "text": "I am the storm! A small one."
+     },
+     {
+      "id": "kampf.taunt.danzel.4",
+      "text": "Don't move! Please. It's easier."
+     }
+    ]
+   }
+  },
+  "panzer_mufflon": {
+   "name": "Plated Mouflon",
+   "sprite": "PlatedMouflon",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Horns",
+    "icon": "🐏"
+   },
+   "specials": {
+    "w1": {
+     "label": "Scrapes the Ground",
+     "icon": "🐾",
+     "bonus": 0,
+     "effect": "ungedeckt",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Ram",
+     "icon": "🐏💥",
+     "bonus": 5,
+     "effect": null,
+     "dodge_only": true
+    }
+   },
+   "pattern": [
+    "n",
+    "w1",
+    "s1"
+   ],
+   "cls_kampf": "maschine",
+   "weakness": "courage",
+   "immune": {
+    "charm": "Animals don't understand you.",
+    "courage": "It is past being afraid of you."
+   },
+   "parade": "sprite",
+   "parade_ziel": 70,
+   "taunt": {
+    "gruppe": "keiler",
+    "sfx": "keiler_ansturm"
+   }
+  },
+  "ark_hyaene": {
+   "name": "Ark Hyena",
+   "sprite": "ArkHyena",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Bite",
+    "icon": "🐾"
+   },
+   "specials": {
+    "w1": {
+     "label": "Flanks You",
+     "icon": "🐾",
+     "bonus": 0,
+     "effect": "ungedeckt",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Goes for the Throat",
+     "icon": "🩸",
+     "bonus": 2,
+     "effect": "blutend",
+     "dodge_only": false,
+     "finte": {
+      "art": "taeuschung",
+      "bei": 0.8,
+      "zurueck": 0.55
+     }
+    }
+   },
+   "pattern": [
+    "n",
+    "n",
+    "w1",
+    "n",
+    "n",
+    "s1"
+   ],
+   "weakness": "courage",
+   "immune": {
+    "charm": "Animals don't understand you.",
+    "courage": "It is past being afraid of you."
+   },
+   "parade": "sprite",
+   "parade_ziel": 70,
+   "taunt": {
+    "gruppe": "hund",
+    "sfx": "rudel_hunde"
+   }
+  },
+  "ark_hyaene_alpha": {
+   "name": "Ark Hyena Alpha",
+   "sprite": "ArkHyena",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Bite",
+    "icon": "🐾"
+   },
+   "specials": {
+    "w1": {
+     "label": "The Howl",
+     "icon": "🐺",
+     "bonus": 0,
+     "effect": "rudel",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Goes for the Throat",
+     "icon": "🩸",
+     "bonus": 4,
+     "effect": "blutend",
+     "dodge_only": false
+    }
+   },
+   "pattern": [
+    "w1",
+    "n",
+    "s1",
+    "n"
+   ],
+   "weakness": "courage",
+   "immune": {
+    "charm": "Animals don't understand you.",
+    "courage": "It is past being afraid of you."
+   },
+   "parade": "sprite",
+   "parade_ziel": 70,
+   "taunt": {
+    "gruppe": "hund",
+    "sfx": "rudel_hunde"
+   }
+  },
+  "hirtendrohne": {
+   "name": "Shepherd Drone",
+   "sprite": "ShepherdDrone",
+   "cls": "maschine",
+   "element": "luft",
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Pulse",
+    "icon": "📡"
+   },
+   "specials": {
+    "w1": {
+     "label": "The Pulse",
+     "icon": "📡",
+     "bonus": 0,
+     "effect": "erschuettert",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Dive",
+     "icon": "📡💥",
+     "bonus": 4,
+     "effect": null,
+     "dodge_only": true
+    }
+   },
+   "pattern": [
+    "w1",
+    "n",
+    "n",
+    "s1"
+   ],
+   "weakness": null,
+   "immune": {
+    "charm": "It is a machine. It does not care how you feel.",
+    "courage": "It is a machine. It has no fear to find."
+   },
+   "parade": "sprite",
+   "parade_ziel": 70,
+   "taunt": {
+    "gruppe": "maschine",
+    "sfx": "kampf_unit01"
+   }
+  },
+  "mo_hund": {
+   "name": "Collared Dog",
+   "sprite": "Dog",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "laestig",
+   "schlafbar": true,
+   "schlaf_faktor": 1.0,
+   "attack": {
+    "label": "Bite",
+    "icon": "🐕"
+   },
+   "specials": {
+    "s1": {
+     "label": "Snaps at Your Hand",
+     "icon": "🐕💥",
+     "bonus": 2,
+     "effect": null,
+     "dodge_only": false
+    }
+   },
+   "pattern": [
+    "n",
+    "n",
+    "s1"
+   ],
+   "weakness": null,
+   "fassung_faktor": 3.0,
+   "immune": {
+    "charm": "It can't hear you over the collar.",
+    "courage": "It can't be scared off. The collar won't let it run."
+   },
+   "parade": "sprite",
+   "parade_ziel": 75,
+   "taunt": {
+    "gruppe": "hund",
+    "sfx": "rudel_hunde"
+   }
+  },
+  "mo_hyaene": {
+   "name": "Ark Hyena",
+   "sprite": "ArkHyena",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "gefaehrlich",
+   "schlafbar": true,
+   "schlaf_faktor": 0.9,
+   "attack": {
+    "label": "Bite",
+    "icon": "🐾"
+   },
+   "specials": {
+    "w1": {
+     "label": "Laughs and Circles",
+     "icon": "🐾",
+     "bonus": 0,
+     "effect": "ungedeckt",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Goes for the Arm",
+     "icon": "🩸",
+     "bonus": 2,
+     "effect": "blutend",
+     "dodge_only": false
+    }
+   },
+   "pattern": [
+    "n",
+    "w1",
+    "n",
+    "s1"
+   ],
+   "weakness": null,
+   "fassung_faktor": 3.0,
+   "immune": {
+    "charm": "It can't hear you over the collar.",
+    "courage": "It can't be scared off. The collar won't let it run."
+   },
+   "parade": "sprite",
+   "parade_ziel": 70,
+   "taunt": {
+    "gruppe": "hund",
+    "sfx": "rudel_hunde"
+   }
+  },
+  "mo_mufflon": {
+   "name": "Plated Mouflon",
+   "sprite": "PlatedMouflon",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "gefaehrlich",
+   "schlafbar": true,
+   "schlaf_faktor": 0.8,
+   "attack": {
+    "label": "Horns",
+    "icon": "🐏"
+   },
+   "specials": {
+    "w1": {
+     "label": "Scrapes the Ground",
+     "icon": "🐾",
+     "bonus": 0,
+     "effect": "ungedeckt",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Ram",
+     "icon": "🐏💥",
+     "bonus": 5,
+     "effect": null,
+     "dodge_only": true
+    }
+   },
+   "pattern": [
+    "n",
+    "w1",
+    "s1"
+   ],
+   "cls_kampf": "maschine",
+   "weakness": null,
+   "fassung_faktor": 3.0,
+   "immune": {
+    "charm": "It can't hear you over the collar.",
+    "courage": "It can't be scared off. The collar won't let it run."
+   },
+   "parade": "sprite",
+   "parade_ziel": 70,
+   "taunt": {
+    "gruppe": "keiler",
+    "sfx": "keiler_ansturm"
+   }
+  },
+  "mo_affe": {
+   "name": "Collared Ape",
+   "sprite": "Ape",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "gefaehrlich",
+   "schlafbar": true,
+   "schlaf_faktor": 0.8,
+   "attack": {
+    "label": "Grabs",
+    "icon": "🐒"
+   },
+   "specials": {
+    "s1": {
+     "label": "Throws a Stone",
+     "icon": "🪨",
+     "bonus": 4,
+     "effect": null,
+     "dodge_only": true
+    }
+   },
+   "pattern": [
+    "n",
+    "s1",
+    "n"
+   ],
+   "weakness": null,
+   "fassung_faktor": 3.0,
+   "immune": {
+    "charm": "It can't hear you over the collar.",
+    "courage": "It can't be scared off. The collar won't let it run."
+   },
+   "parade": "sprite",
+   "parade_ziel": 70,
+   "taunt": {
+    "gruppe": "raubtier",
+    "sfx": "tk_loewe"
+   }
+  },
+  "mo_wolf": {
+   "name": "Collared Wolf",
+   "sprite": "Wolf",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "gefaehrlich",
+   "schlafbar": true,
+   "schlaf_faktor": 0.7,
+   "attack": {
+    "label": "Bite",
+    "icon": "🐺"
+   },
+   "specials": {
+    "w1": {
+     "label": "Circles You",
+     "icon": "🐾",
+     "bonus": 3,
+     "effect": null,
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Goes for the Throat",
+     "icon": "🐺💥",
+     "bonus": 5,
+     "effect": "blutend",
+     "dodge_only": false,
+     "finte": {
+      "art": "zoegern",
+      "bei": 0.7,
+      "halt": 450
+     }
+    }
+   },
+   "pattern": [
+    "n",
+    "w1",
+    "n",
+    "s1"
+   ],
+   "weakness": null,
+   "fassung_faktor": 3.0,
+   "immune": {
+    "charm": "It can't hear you over the collar.",
+    "courage": "It can't be scared off. The collar won't let it run."
+   },
+   "parade": "sprite",
+   "parade_ziel": 75,
+   "taunt": {
+    "gruppe": "hund",
+    "sfx": "rudel_hunde"
+   }
+  },
+  "mo_madame": {
+   "name": "Very Round Cat",
+   "sprite": "RussianBlue",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "laestig",
+   "schlafbar": true,
+   "schlaf_faktor": 1.0,
+   "attack": {
+    "label": "Claws",
+    "icon": "🐈"
+   },
+   "specials": {
+    "s1": {
+     "label": "Lands on You",
+     "icon": "🐈💥",
+     "bonus": 3,
+     "effect": null,
+     "dodge_only": true
+    }
+   },
+   "pattern": [
+    "n",
+    "n",
+    "s1"
+   ],
+   "weakness": null,
+   "fassung_faktor": 3.0,
+   "immune": {
+    "charm": "It can't hear you over the collar.",
+    "courage": "It can't be scared off. The collar won't let it run."
+   },
+   "parade": "sprite",
+   "parade_ziel": 75,
+   "taunt": {
+    "gruppe": "klein",
+    "sfx": "tier_grunt_baby"
+   }
+  },
+  "mo_rotpanda": {
+   "name": "Collared Red Panda",
+   "sprite": "RedPanda",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "laestig",
+   "schlafbar": true,
+   "schlaf_faktor": 1.0,
+   "attack": {
+    "label": "Claws",
+    "icon": "🐾"
+   },
+   "specials": {
+    "w1": {
+     "label": "Stands Up, Arms High",
+     "icon": "🐾",
+     "bonus": 0,
+     "effect": "ungedeckt",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Drops on You",
+     "icon": "🐾💥",
+     "bonus": 2,
+     "effect": null,
+     "dodge_only": false
+    }
+   },
+   "pattern": [
+    "n",
+    "w1",
+    "s1"
+   ],
+   "weakness": null,
+   "fassung_faktor": 3.0,
+   "immune": {
+    "charm": "It can't hear you over the collar.",
+    "courage": "It can't be scared off. The collar won't let it run."
+   },
+   "parade": "sprite",
+   "parade_ziel": 75,
+   "taunt": {
+    "gruppe": "klein",
+    "sfx": "tier_grunt_baby"
+   }
+  },
+  "mo_capybara": {
+   "name": "Collared Capybara",
+   "sprite": "Capybara",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "gefaehrlich",
+   "schlafbar": true,
+   "schlaf_faktor": 1.0,
+   "attack": {
+    "label": "Teeth",
+    "icon": "🦷"
+   },
+   "specials": {
+    "s1": {
+     "label": "Charges",
+     "icon": "💥",
+     "bonus": 4,
+     "effect": null,
+     "dodge_only": true
+    }
+   },
+   "pattern": [
+    "n",
+    "n",
+    "n",
+    "s1"
+   ],
+   "weakness": null,
+   "fassung_faktor": 3.0,
+   "immune": {
+    "charm": "It can't hear you over the collar.",
+    "courage": "It can't be scared off. The collar won't let it run."
+   },
+   "parade": "sprite",
+   "parade_ziel": 70,
+   "taunt": {
+    "gruppe": "klein",
+    "sfx": "tier_grunt_baby"
+   }
+  },
+  "mo_keiler": {
+   "name": "Collared Boar",
+   "sprite": "WildschweinKeiler",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "gefaehrlich",
+   "schlafbar": true,
+   "schlaf_faktor": 0.9,
+   "attack": {
+    "label": "Tusks",
+    "icon": "🐗"
+   },
+   "specials": {
+    "w1": {
+     "label": "Scrapes the Ground",
+     "icon": "🐾",
+     "bonus": 0,
+     "effect": "ungedeckt",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Charge",
+     "icon": "🐗💥",
+     "bonus": 5,
+     "effect": null,
+     "dodge_only": true
+    }
+   },
+   "pattern": [
+    "n",
+    "w1",
+    "s1"
+   ],
+   "weakness": null,
+   "fassung_faktor": 3.0,
+   "immune": {
+    "charm": "It can't hear you over the collar.",
+    "courage": "It can't be scared off. The collar won't let it run."
+   },
+   "parade": "sprite",
+   "parade_ziel": 70,
+   "taunt": {
+    "gruppe": "keiler",
+    "sfx": "keiler_ansturm"
+   }
+  },
+  "mo_baerchen": {
+   "name": "Bear Cub",
+   "sprite": "BearCub",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "laestig",
+   "schlafbar": true,
+   "schlaf_faktor": 1.0,
+   "attack": {
+    "label": "Swipe",
+    "icon": "🐾"
+   },
+   "specials": {
+    "s1": {
+     "label": "Bluff Charge",
+     "icon": "🐾💥",
+     "bonus": 2,
+     "effect": null,
+     "dodge_only": false
+    }
+   },
+   "pattern": [
+    "n",
+    "n",
+    "s1"
+   ],
+   "weakness": null,
+   "fassung_faktor": 3.0,
+   "immune": {
+    "charm": "It can't hear you over the collar.",
+    "courage": "It can't be scared off. The collar won't let it run."
+   },
+   "parade": "sprite",
+   "parade_ziel": 75,
+   "taunt": {
+    "gruppe": "klein",
+    "sfx": "tier_grunt_baby"
+   }
+  },
+  "mo_schildkroete": {
+   "name": "Very Old Tortoise",
+   "sprite": "Tortoise",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "gefaehrlich",
+   "schlafbar": true,
+   "schlaf_faktor": 0.8,
+   "attack": {
+    "label": "Bite",
+    "icon": "🐢"
+   },
+   "specials": {
+    "w1": {
+     "label": "Pulls Into Her Shell",
+     "icon": "🐢",
+     "bonus": 0,
+     "effect": null,
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Shell Slam",
+     "icon": "🐢💥",
+     "bonus": 4,
+     "effect": null,
+     "dodge_only": false
+    }
+   },
+   "pattern": [
+    "n",
+    "w1",
+    "w1",
+    "s1"
+   ],
+   "weakness": null,
+   "fassung_faktor": 3.0,
+   "immune": {
+    "charm": "It can't hear you over the collar.",
+    "courage": "It can't be scared off. The collar won't let it run."
+   },
+   "parade": "sprite",
+   "parade_ziel": 70,
+   "cls_kampf": "maschine",
+   "taunt": {
+    "gruppe": "zischer",
+    "sfx": "kampf_viper"
+   }
+  },
+  "mo_geier": {
+   "name": "Collared Vulture",
+   "sprite": "BeardedVulture",
+   "cls": "flieger",
+   "element": "erde",
+   "tier": "gefaehrlich",
+   "schlafbar": true,
+   "schlaf_faktor": 0.8,
+   "attack": {
+    "label": "Talons",
+    "icon": "🪶"
+   },
+   "specials": {
+    "w1": {
+     "label": "Climbs Out of Reach",
+     "icon": "🪶",
+     "bonus": 0,
+     "effect": "ungedeckt",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Stoop From Above",
+     "icon": "🪶💥",
+     "bonus": 6,
+     "effect": null,
+     "dodge_only": true
+    }
+   },
+   "pattern": [
+    "n",
+    "w1",
+    "s1"
+   ],
+   "weakness": null,
+   "fassung_faktor": 3.0,
+   "immune": {
+    "charm": "It can't hear you over the collar.",
+    "courage": "It can't be scared off. The collar won't let it run."
+   },
+   "parade": "sprite",
+   "parade_ziel": 70,
+   "taunt": {
+    "gruppe": "voegel",
+    "sfx": "schiessen_moewe"
+   }
+  },
+  "mo_schneeleopard": {
+   "name": "Collared Snow Leopard",
+   "sprite": "SnowLeopard",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "gefaehrlich",
+   "schlafbar": true,
+   "schlaf_faktor": 0.7,
+   "attack": {
+    "label": "Claws",
+    "icon": "🐆"
+   },
+   "specials": {
+    "w1": {
+     "label": "You Lose Sight of Her",
+     "icon": "🐾",
+     "bonus": 3,
+     "effect": null,
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Leap",
+     "icon": "🐆💥",
+     "bonus": 6,
+     "effect": "blutend",
+     "dodge_only": true
+    }
+   },
+   "pattern": [
+    "w1",
+    "n",
+    "s1"
+   ],
+   "weakness": null,
+   "fassung_faktor": 3.0,
+   "immune": {
+    "charm": "It can't hear you over the collar.",
+    "courage": "It can't be scared off. The collar won't let it run."
+   },
+   "parade": "sprite",
+   "parade_ziel": 65,
+   "taunt": {
+    "gruppe": "raubtier",
+    "sfx": "tk_loewe"
+   }
+  },
+  "mo_waran": {
+   "name": "Collared Komodo Dragon",
+   "sprite": "Komodo",
+   "cls": "tier",
+   "element": "erde",
+   "tier": "gefaehrlich",
+   "schlafbar": true,
+   "schlaf_faktor": 0.7,
+   "attack": {
+    "label": "Bite",
+    "icon": "🦎"
+   },
+   "specials": {
+    "w1": {
+     "label": "Waits",
+     "icon": "🦎",
+     "bonus": 0,
+     "effect": "ungedeckt",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Tail Sweep",
+     "icon": "🦎💥",
+     "bonus": 5,
+     "effect": null,
+     "dodge_only": true
+    },
+    "s2": {
+     "label": "Patient Bite",
+     "icon": "🩸",
+     "bonus": 2,
+     "effect": "blutend",
+     "dodge_only": false
+    }
+   },
+   "pattern": [
+    "w1",
+    "s2",
+    "n",
+    "s1"
+   ],
+   "weakness": null,
+   "fassung_faktor": 3.0,
+   "immune": {
+    "charm": "It can't hear you over the collar.",
+    "courage": "It can't be scared off. The collar won't let it run."
+   },
+   "parade": "sprite",
+   "parade_ziel": 70,
+   "taunt": {
+    "gruppe": "zischer",
+    "sfx": "kampf_viper"
+   }
+  }
+ },
+ "encounters": {
+  "hafen_dieb_test": {
+   "test": true,
+   "title": "The Pickpocket at the Harbour",
+   "goal": "Get your bag back",
+   "image": "corsican_village_harbour.png",
+   "enemy": "taschendieb",
+   "level": 1,
+   "flee_allowed": true,
+   "outcomes": {
+    "ko": {
+     "text": "The thief lies on the cobbles. You have your bag back.",
+     "folgen": [
+      {
+       "flag": "kampftest_tasche_zurueck"
+      }
+     ]
+    },
+    "aufgabe": {
+     "text": "He tosses you the bag and raises his hands. “All right, all right.”",
+     "folgen": [
+      {
+       "flag": "kampftest_tasche_zurueck"
+      },
+      {
+       "flag": "kampftest_ohne_gewalt"
+      }
+     ]
+    },
+    "entkommen": {
+     "text": "He ducks between the nets. The bag is gone.",
+     "folgen": [
+      {
+       "flag": "kampftest_tasche_weg"
+      }
+     ]
+    },
+    "flucht": {
+     "text": "You let him run. The bag is gone.",
+     "folgen": [
+      {
+       "flag": "kampftest_tasche_weg"
+      }
+     ]
+    },
+    "niederlage": {
+     "text": "Everything goes black. When you come round, he's gone, and so is the bag.",
+     "folgen": [
+      {
+       "flag": "kampftest_tasche_weg"
+      },
+      {
+       "flag": "kampftest_niederlage"
+      }
+     ]
+    }
+   }
+  },
+  "akt1_taschendieb": {
+   "title": "Pickpocket in the Harbour Quarter",
+   "goal": "Get your wallet back",
+   "image": "corsican_village_harbour.png",
+   "enemy": "taschendieb",
+   "level": 1,
+   "flee_allowed": true,
+   "outcomes": {
+    "ko": {
+     "text": "He slumps against a crate of nets. Your wallet lies in the dust.",
+     "folgen": [
+      {
+       "flag": "akt1_dieb_besiegt"
+      }
+     ]
+    },
+    "aufgabe": {
+     "text": "“Okay, okay. Tourists aren't usually this stubborn.” He gives it back, along with a tip about where you'd better not walk at night in the harbour.",
+     "folgen": [
+      {
+       "flag": "akt1_dieb_ueberredet"
+      }
+     ]
+    },
+    "entkommen": {
+     "text": "He vanishes between the boats. You're twenty euros lighter.",
+     "folgen": [
+      {
+       "geld": -20
+      }
+     ]
+    },
+    "flucht": {
+     "text": "You let him go. You're twenty euros lighter.",
+     "folgen": [
+      {
+       "geld": -20
+      }
+     ]
+    },
+    "niederlage": {
+     "text": "You end up on the cobbles. When you get up, he's gone, and so are twenty euros.",
+     "folgen": [
+      {
+       "geld": -20
+      }
+     ]
+    }
+   }
+  },
+  "akt1_moewe": {
+   "title": "The Seagull on the Aft Deck",
+   "goal": "Defend your breakfast",
+   "image": "yacht_aft_deck_dining.png",
+   "enemy": "moewe",
+   "level": 1,
+   "flee_allowed": true,
+   "outcomes": {
+    "ko": {
+     "text": "The seagull wobbles off over the railing, deeply offended. The croissant is yours.",
+     "folgen": [
+      {
+       "flag": "akt1_moewe_besiegt"
+      }
+     ]
+    },
+    "aufgabe": {
+     "text": "The seagull gives up and screams at you from the mast.",
+     "folgen": [
+      {
+       "flag": "akt1_moewe_besiegt"
+      }
+     ]
+    },
+    "entkommen": {
+     "text": "It flies off with your croissant.",
+     "folgen": [
+      {}
+     ]
+    },
+    "flucht": {
+     "text": "You leave it the croissant. Dignity intact? Not really.",
+     "folgen": [
+      {}
+     ]
+    },
+    "niederlage": {
+     "text": "You lost to a seagull. Lola saw the whole thing.",
+     "folgen": [
+      {
+       "flag": "akt1_moewe_peinlich"
+      }
+     ]
+    }
+   }
+  },
+  "angel_moewe": {
+   "title": "A Gull Steals Your Catch",
+   "goal": "Get your fish back",
+   "image": "yacht_aft_deck_dining.png",
+   "enemy": "moewe",
+   "level": "duc",
+   "level_plus": -1,
+   "flee_allowed": true,
+   "outcomes": {
+    "ko": {
+     "text": "The gull lets go with a furious scream. Your fish slaps down at your feet, a little pecked.",
+     "folgen": [
+      {}
+     ]
+    },
+    "aufgabe": {
+     "text": "The gull drops the fish and sulks on a post, pretending it never wanted it.",
+     "folgen": [
+      {}
+     ]
+    },
+    "entkommen": {
+     "text": "A white dot over the water, and your fish goes with it.",
+     "folgen": [
+      {}
+     ]
+    },
+    "flucht": {
+     "text": "You let the gull have it. It doesn't say thank you.",
+     "folgen": [
+      {}
+     ]
+    },
+    "niederlage": {
+     "text": "Beaten by a seagull. It eats your fish right in front of you, slowly.",
+     "folgen": [
+      {}
+     ]
+    }
+   }
+  },
+  "akt1_ratte": {
+   "title": "A Rat in the Workshop",
+   "goal": "Get the rat out of the nets",
+   "image": "corsican_fisherman_workshop.png",
+   "enemy": "ratte",
+   "level": 1,
+   "flee_allowed": true,
+   "outcomes": {
+    "ko": {
+     "text": "The rat shoots out through a gap in the wall and doesn't come back.",
+     "folgen": [
+      {
+       "flag": "akt1_ratte_weg"
+      }
+     ]
+    },
+    "aufgabe": {
+     "text": "The rat gives up and slinks off.",
+     "folgen": [
+      {
+       "flag": "akt1_ratte_weg"
+      }
+     ]
+    },
+    "entkommen": {
+     "text": "It's gone, somewhere in the nets.",
+     "folgen": [
+      {}
+     ]
+    },
+    "flucht": {
+     "text": "You leave the workshop to the rat.",
+     "folgen": [
+      {}
+     ]
+    },
+    "niederlage": {
+     "text": "Bitten. That will sting for a while.",
+     "folgen": [
+      {}
+     ]
+    }
+   }
+  },
+  "akt1_pirat": {
+   "title": "Pirate at the Swim Platform",
+   "goal": "Keep him off the boat",
+   "image": "yacht_swim_platform.png",
+   "enemy": "pirat",
+   "level": 2,
+   "flee_allowed": false,
+   "flee_reason": "There's nothing behind you but the yacht.",
+   "outcomes": {
+    "ko": {
+     "text": "The pirate topples backwards into the water and swims for his dinghy.",
+     "folgen": [
+      {
+       "flag": "akt1_pirat_besiegt"
+      }
+     ]
+    },
+    "aufgabe": {
+     "text": "He holds his cutlass over his head and jumps back into his boat.",
+     "folgen": [
+      {
+       "flag": "akt1_pirat_besiegt"
+      }
+     ]
+    },
+    "entkommen": {
+     "text": "He's gone before you can follow.",
+     "folgen": [
+      {}
+     ]
+    },
+    "flucht": {
+     "text": "You fall back.",
+     "folgen": [
+      {}
+     ]
+    },
+    "niederlage": {
+     "text": "You go down. When you come round, a can of diesel is missing.",
+     "folgen": [
+      {
+       "flag": "akt1_pirat_diesel"
+      }
+     ]
+    }
+   }
+  },
+  "akt1_fackelpirat": {
+   "title": "The Pirate with the Torch",
+   "goal": "Stop him before the yacht catches fire",
+   "image": "yacht_swim_platform_night.png",
+   "enemy": "fackelpirat",
+   "level": 4,
+   "flee_allowed": true,
+   "outcomes": {
+    "ko": {
+     "text": "The torch hisses in the sea. The pirate paddles off, swearing.",
+     "folgen": [
+      {
+       "flag": "akt1_fackelpirat_besiegt"
+      }
+     ]
+    },
+    "aufgabe": {
+     "text": "He throws the torch at your feet and disappears into the night.",
+     "folgen": [
+      {
+       "flag": "akt1_fackelpirat_besiegt"
+      }
+     ]
+    },
+    "entkommen": {
+     "text": "He's gone. A black scorch mark is left on the teak deck.",
+     "folgen": [
+      {}
+     ]
+    },
+    "flucht": {
+     "text": "You run for help. By the time you're back, he's gone.",
+     "folgen": [
+      {}
+     ]
+    },
+    "niederlage": {
+     "text": "You go down. Rosi puts the fire out and tells you off for half an hour.",
+     "folgen": [
+      {}
+     ]
+    }
+   }
+  },
+  "maxwell_tutorial": {
+   "title": "Maxwell's First Lesson",
+   "goal": "Learn to fight from Mr. Maximum",
+   "image": "yacht_sun_deck.png",
+   "enemy": "maxwell",
+   "level": "duc",
+   "training": true,
+   "xp_factor": 0.25,
+   "flee_allowed": true,
+   "weapon": "mop",
+   "outcomes": {
+    "ko": {
+     "text": "Maxwell lies on the teak, laughing. “Mr. Maximum has a student! Same time tomorrow, Number One!”",
+     "folgen": [
+      {}
+     ]
+    },
+    "aufgabe": {
+     "text": "Maxwell taps out and gives you a very sweaty hug. “Lesson one: passed! Eish, brother, that was lekker.”",
+     "folgen": [
+      {}
+     ]
+    },
+    "entkommen": {
+     "text": "Maxwell drops for twenty push-ups. “Lesson one is over. You'll be back, Mr. Maximum knows it.”",
+     "folgen": [
+      {}
+     ]
+    },
+    "flucht": {
+     "text": "“Running away is also a technique, brother!” Maxwell throws you a towel.",
+     "folgen": [
+      {}
+     ]
+    },
+    "niederlage": {
+     "text": "“You learn the most on the floor, brother.” Maxwell pulls you back up.",
+     "folgen": [
+      {}
+     ]
+    }
+   }
+  },
+  "maxwell_training": {
+   "title": "Training with Maxwell",
+   "goal": "Show Mr. Maximum what you've got",
+   "image": "yacht_sun_deck.png",
+   "enemy": "maxwell",
+   "level": "duc",
+   "training": true,
+   "xp_factor": 0.25,
+   "flee_allowed": true,
+   "weapon": "mop",
+   "outcomes": {
+    "ko": {
+     "text": "Maxwell lies on his back and laughs. “MAXIMUM! You've got it, brother!”",
+     "folgen": [
+      {}
+     ]
+    },
+    "aufgabe": {
+     "text": "Maxwell taps out. “Enough! Mr. Maximum is proud of you, Number One!”",
+     "folgen": [
+      {}
+     ]
+    },
+    "entkommen": {
+     "text": "Maxwell starts on his push-ups. Training is over.",
+     "folgen": [
+      {}
+     ]
+    },
+    "flucht": {
+     "text": "“A break is training too, brother!” Maxwell hands you a towel.",
+     "folgen": [
+      {}
+     ]
+    },
+    "niederlage": {
+     "text": "“Again, brother! Mr. Maximum believes in you!” He pulls you back up.",
+     "folgen": [
+      {}
+     ]
+    }
+   }
+  },
+  "kloster_1_ratte": {
+   "title": "Rats on the Path",
+   "goal": "Get past the rats",
+   "image": "eden_rise_macchia_path.png",
+   "enemy": "ratte",
+   "level": 1,
+   "flee_allowed": true,
+   "weapon": "bat",
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The last rat squeaks, and the whole pack vanishes into the cistus.",
+     "folgen": [
+      {
+       "flag": "kloster_1_ratte_weg"
+      }
+     ]
+    },
+    "aufgabe": {
+     "text": "The rats back off and disappear under the rocks.",
+     "folgen": [
+      {
+       "flag": "kloster_1_ratte_weg"
+      }
+     ]
+    },
+    "entkommen": {
+     "text": "The rats are gone before you can blink.",
+     "folgen": [
+      {
+       "flag": "kloster_1_ratte_weg"
+      }
+     ]
+    },
+    "flucht": {
+     "text": "You step back down the path.",
+     "folgen": [
+      {}
+     ]
+    },
+    "niederlage": {
+     "text": "Something bites, the path tilts, and everything goes black.",
+     "folgen": [
+      {}
+     ]
+    }
+   },
+   "enemies": [
+    "ratte",
+    "ratte",
+    "ratte"
+   ],
+   "lp_faktoren": [
+    0.4,
+    0.4,
+    0.4
+   ]
+  },
+  "kloster_1_schlange": {
+   "title": "A Snake in the Cistus",
+   "goal": "Don't get bitten",
+   "image": "eden_rise_macchia_path.png",
+   "enemy": "schlange",
+   "level": 1,
+   "flee_allowed": true,
+   "weapon": "bat",
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The snakes slide off into the bushes. They've had enough of you.",
+     "folgen": [
+      {
+       "flag": "kloster_1_schlange_weg"
+      }
+     ]
+    },
+    "aufgabe": {
+     "text": "The snakes coil up, think it over, and slide away.",
+     "folgen": [
+      {
+       "flag": "kloster_1_schlange_weg"
+      }
+     ]
+    },
+    "entkommen": {
+     "text": "The snakes are gone, just a rustle in the dry grass.",
+     "folgen": [
+      {
+       "flag": "kloster_1_schlange_weg"
+      }
+     ]
+    },
+    "flucht": {
+     "text": "You take the long way round.",
+     "folgen": [
+      {}
+     ]
+    },
+    "niederlage": {
+     "text": "The bite burns up your arm. Your knees give, and everything goes black.",
+     "folgen": [
+      {}
+     ]
+    }
+   },
+   "enemies": [
+    "schlange",
+    "schlange"
+   ],
+   "lp_faktoren": [
+    0.55,
+    0.55
+   ]
+  },
+  "kloster_2_keiler": {
+   "title": "The Alpha Boar at the Bridge",
+   "goal": "Get across the bridge",
+   "image": "eden_rise_macchia_creek_bridge.png",
+   "enemy": "keiler_kloster",
+   "level": 2,
+   "flee_allowed": false,
+   "flee_reason": "The bridge is the only way across.",
+   "weapon": "bat",
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The collar cracks and falls into the creek. The boar shakes its head, snorts once, and trots off into the macchia.",
+     "folgen": [
+      {
+       "flag": "kloster_2_keiler_weg"
+      }
+     ]
+    },
+    "aufgabe": {
+     "text": "The boar stops, its sides heaving. The collar slips off. It turns and leaves.",
+     "folgen": [
+      {
+       "flag": "kloster_2_keiler_weg"
+      }
+     ]
+    },
+    "entkommen": {
+     "text": "The boar crashes back into the undergrowth. The collar lies in the dust.",
+     "folgen": [
+      {
+       "flag": "kloster_2_keiler_weg"
+      }
+     ]
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": [
+      {}
+     ]
+    },
+    "niederlage": {
+     "text": "The boar hits you like a car. You fly, the stones come up, and everything goes black.",
+     "folgen": [
+      {}
+     ]
+    }
+   }
+  },
+  "kloster_3_hund": {
+   "title": "A Feral Dog at the Hut",
+   "goal": "Make the dog back off",
+   "image": "eden_rise_shepherd_hut_ruin.png",
+   "enemy": "hund_wild",
+   "level": 2,
+   "flee_allowed": true,
+   "weapon": "bat",
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The dogs yelp and run off between the ruins.",
+     "folgen": [
+      {
+       "flag": "kloster_3_hund_weg"
+      }
+     ]
+    },
+    "aufgabe": {
+     "text": "The dogs drop their heads and slink away.",
+     "folgen": [
+      {
+       "flag": "kloster_3_hund_weg"
+      }
+     ]
+    },
+    "entkommen": {
+     "text": "The dogs bolt up the slope.",
+     "folgen": [
+      {
+       "flag": "kloster_3_hund_weg"
+      }
+     ]
+    },
+    "flucht": {
+     "text": "You give the hut a wide berth.",
+     "folgen": [
+      {}
+     ]
+    },
+    "niederlage": {
+     "text": "Teeth, dust, the sky spinning. Everything goes black.",
+     "folgen": [
+      {}
+     ]
+    }
+   },
+   "enemies": [
+    "hund_wild",
+    "hund_wild"
+   ],
+   "lp_faktoren": [
+    0.6,
+    0.6
+   ]
+  },
+  "kloster_5_affe": {
+   "title": "An Ape at the Forest Edge",
+   "goal": "Get past the ape",
+   "image": "eden_rise_forest_edge_cliffs.png",
+   "enemy": "affe",
+   "level": 2,
+   "flee_allowed": true,
+   "weapon": "bat",
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The collars snap off with a crack. The apes stare at them, then at you, and swing away into the trees.",
+     "folgen": [
+      {
+       "flag": "kloster_5_affe_weg"
+      }
+     ]
+    },
+    "aufgabe": {
+     "text": "The apes screech, tear at their collars until they break, and flee.",
+     "folgen": [
+      {
+       "flag": "kloster_5_affe_weg"
+      }
+     ]
+    },
+    "entkommen": {
+     "text": "The apes are gone, up the cliff faster than you could climb it.",
+     "folgen": [
+      {
+       "flag": "kloster_5_affe_weg"
+      }
+     ]
+    },
+    "flucht": {
+     "text": "You leave the ape its rock.",
+     "folgen": [
+      {}
+     ]
+    },
+    "niederlage": {
+     "text": "A rock hits your temple. The trees lean over you, and everything goes black.",
+     "folgen": [
+      {}
+     ]
+    }
+   },
+   "enemies": [
+    "affe",
+    "affe"
+   ],
+   "lp_faktoren": [
+    0.6,
+    0.6
+   ]
+  },
+  "kloster_6_hunde": {
+   "title": "Two Dogs at the Fork",
+   "goal": "Hold the fork in the ravine",
+   "image": "eden_rise_ravine_fork.png",
+   "enemy": "hund_wild",
+   "level": 2,
+   "flee_allowed": true,
+   "weapon": "bat",
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The last dog yelps, and the pack runs off down the ravine.",
+     "folgen": [
+      {
+       "flag": "kloster_6_hunde_weg"
+      }
+     ]
+    },
+    "aufgabe": {
+     "text": "The pack backs off together and disappears between the rocks.",
+     "folgen": [
+      {
+       "flag": "kloster_6_hunde_weg"
+      }
+     ]
+    },
+    "entkommen": {
+     "text": "The pack bolts down the ravine.",
+     "folgen": [
+      {
+       "flag": "kloster_6_hunde_weg"
+      }
+     ]
+    },
+    "flucht": {
+     "text": "You back away from the fork.",
+     "folgen": [
+      {}
+     ]
+    },
+    "niederlage": {
+     "text": "They come from both sides at once. You go down, and everything goes black.",
+     "folgen": [
+      {}
+     ]
+    }
+   },
+   "enemies": [
+    "hund_wild",
+    "hund_wild",
+    "hund_wild"
+   ],
+   "lp_faktoren": [
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  "kloster_6b_wildschwein_affe": {
+   "title": "Boar and Ape at the Niche",
+   "goal": "Reach the rock niche",
+   "image": "eden_rise_hidden_rock_niche.png",
+   "enemy": "bache",
+   "level": 3,
+   "flee_allowed": true,
+   "weapon": "bat",
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The boar crashes off into the bushes. The ape's collar breaks and it flees after it.",
+     "folgen": [
+      {
+       "flag": "kloster_6b_wildschwein_affe_weg"
+      }
+     ]
+    },
+    "aufgabe": {
+     "text": "The two of them give up and scatter into the macchia.",
+     "folgen": [
+      {
+       "flag": "kloster_6b_wildschwein_affe_weg"
+      }
+     ]
+    },
+    "entkommen": {
+     "text": "Boar one way, ape the other. The niche is free.",
+     "folgen": [
+      {
+       "flag": "kloster_6b_wildschwein_affe_weg"
+      }
+     ]
+    },
+    "flucht": {
+     "text": "You leave the niche for later.",
+     "folgen": [
+      {}
+     ]
+    },
+    "niederlage": {
+     "text": "The boar knocks your legs out, the ape lands on your back, and everything goes black.",
+     "folgen": [
+      {}
+     ]
+    }
+   },
+   "enemies": [
+    "bache",
+    "affe"
+   ],
+   "lp_faktoren": [
+    0.6,
+    0.6
+   ]
+  },
+  "kloster_7_affe": {
+   "title": "Ambush in the Camp",
+   "goal": "Survive the ambush",
+   "image": "eden_rise_monks_camp_abandoned.png",
+   "enemy": "affe",
+   "level": 3,
+   "flee_allowed": false,
+   "flee_reason": "It came from above. There's nowhere to run.",
+   "weapon": "bat",
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The collars snap. The apes drop from the kettle, shake themselves, and run into the woods.",
+     "folgen": [
+      {
+       "flag": "kloster_7_affe_weg"
+      }
+     ]
+    },
+    "aufgabe": {
+     "text": "The apes screech, rip their collars off, and flee.",
+     "folgen": [
+      {
+       "flag": "kloster_7_affe_weg"
+      }
+     ]
+    },
+    "entkommen": {
+     "text": "The apes are gone, back up into the trees.",
+     "folgen": [
+      {
+       "flag": "kloster_7_affe_weg"
+      }
+     ]
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": [
+      {}
+     ]
+    },
+    "niederlage": {
+     "text": "It drops on you from the branches. Your head hits the kettle, and everything goes black.",
+     "folgen": [
+      {}
+     ]
+    }
+   },
+   "enemies": [
+    "affe",
+    "affe"
+   ],
+   "lp_faktoren": [
+    0.6,
+    0.6
+   ]
+  },
+  "kloster_8_loewe": {
+   "title": "The Black Lion",
+   "goal": "Face the lion",
+   "image": "eden_rise_lion_den_cave.png",
+   "enemy": "loewe_schwarz",
+   "level": 3,
+   "flee_allowed": false,
+   "flee_reason": "The lion is between you and the way out.",
+   "weapon": "bat",
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The lion goes down and stays down, breathing hard. The red light at the back of its neck keeps blinking.",
+     "folgen": [
+      {
+       "flag": "kloster_8_loewe_weg"
+      }
+     ]
+    },
+    "aufgabe": {
+     "text": "The lion sinks to the ground. It doesn't get up again. The red light keeps blinking.",
+     "folgen": [
+      {
+       "flag": "kloster_8_loewe_weg"
+      }
+     ]
+    },
+    "entkommen": {
+     "text": "The lion drags itself into the dark of the cave.",
+     "folgen": [
+      {
+       "flag": "kloster_8_loewe_weg"
+      }
+     ]
+    },
+    "flucht": {
+     "text": "You back out of the cave.",
+     "folgen": [
+      {}
+     ]
+    },
+    "niederlage": {
+     "text": "The lion is on you before you can lift the bat. Weight, heat, breath, and everything goes black.",
+     "folgen": [
+      {}
+     ]
+    }
+   }
+  },
+  "hafen_ratten": {
+   "title": "Wave 1 · Rats on the Quay",
+   "goal": "Drive the pack out of the harbour",
+   "image": "corsican_village_harbour.png",
+   "enemy": "ratte_alpha",
+   "level": 1,
+   "flee_allowed": false,
+   "flee_reason": "The village is behind you.",
+   "neustart_bei_niederlage": true,
+   "hilfe_event": "hk_tipp_ratten",
+   "hilfe_flag": "hafen_hilfe_bekommen",
+   "outcomes": {
+    "ko": {
+     "text": "The alpha rat squeals and darts into the alleys. The pack follows.",
+     "folgen": [
+      {
+       "flag": "hafen_ratten_weg"
+      }
+     ]
+    },
+    "aufgabe": {
+     "text": "The pack turns and vanishes under the nets.",
+     "folgen": [
+      {
+       "flag": "hafen_ratten_weg"
+      }
+     ]
+    },
+    "entkommen": {
+     "text": "The alpha rat gives up and runs. The pack follows it into the alleys.",
+     "folgen": [
+      {
+       "flag": "hafen_ratten_weg"
+      }
+     ]
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": [
+      {}
+     ]
+    },
+    "niederlage": {
+     "text": "You go down between the fish crates. A boat hook hooks your collar and hauls you up. Petru: “Hm. Again.”",
+     "folgen": [
+      {}
+     ]
+    }
+   },
+   "enemies": [
+    "ratte_alpha",
+    "ratte",
+    "ratte"
+   ],
+   "lp_faktoren": [
+    1.0,
+    0.4,
+    0.4
+   ]
+  },
+  "hafen_hunde": {
+   "title": "Wave 2 · The Dogs",
+   "goal": "Keep the pack away from the village",
+   "image": "eden_rise_hafen_bar_tuer.png",
+   "enemy": "hund_alpha",
+   "level": 2,
+   "flee_allowed": false,
+   "flee_reason": "The village is behind you.",
+   "neustart_bei_niederlage": true,
+   "hilfe_event": "hk_tipp_hunde",
+   "hilfe_flag": "hafen_hilfe_bekommen",
+   "outcomes": {
+    "ko": {
+     "text": "The alpha dog yelps and slinks off. The pack follows it up the hillside.",
+     "folgen": [
+      {
+       "flag": "hafen_hunde_weg"
+      }
+     ]
+    },
+    "aufgabe": {
+     "text": "The pack backs off and trots away into the macchia.",
+     "folgen": [
+      {
+       "flag": "hafen_hunde_weg"
+      }
+     ]
+    },
+    "entkommen": {
+     "text": "The alpha dog turns tail. The pack disappears into the macchia.",
+     "folgen": [
+      {
+       "flag": "hafen_hunde_weg"
+      }
+     ]
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": [
+      {}
+     ]
+    },
+    "niederlage": {
+     "text": "The pack knocks you flat against the shutters. The bar door opens a crack and Alva drags you in by the sleeve. “Again, o figliolu. Properly this time.”",
+     "folgen": [
+      {}
+     ]
+    }
+   },
+   "enemies": [
+    "hund_alpha",
+    "hund_wild"
+   ],
+   "lp_faktoren": [
+    1.0,
+    0.5
+   ]
+  },
+  "hafen_keiler": {
+   "title": "Wave 3 · The Boar",
+   "goal": "Stand up to the boar",
+   "image": "eden_rise_piazza_treppe.png",
+   "enemy": "keiler",
+   "level": 3,
+   "flee_allowed": false,
+   "flee_reason": "The mayor is on the stairs behind you.",
+   "neustart_bei_niederlage": true,
+   "hilfe_event": "hk_tipp_keiler",
+   "hilfe_flag": "hafen_hilfe_bekommen",
+   "outcomes": {
+    "ko": {
+     "text": "The boar snorts, turns and trots back into the macchia as if it had an appointment.",
+     "folgen": [
+      {
+       "flag": "hafen_keiler_weg"
+      }
+     ]
+    },
+    "aufgabe": {
+     "text": "The boar stops, looks you over, and leaves.",
+     "folgen": [
+      {
+       "flag": "hafen_keiler_weg"
+      }
+     ]
+    },
+    "entkommen": {
+     "text": "The boar has had enough. It trots up the alley and is gone.",
+     "folgen": [
+      {
+       "flag": "hafen_keiler_weg"
+      }
+     ]
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": [
+      {}
+     ]
+    },
+    "niederlage": {
+     "text": "The boar throws you against the fountain. From the top of the stairs: “Up, Monsieur! The audience is waiting!”",
+     "folgen": [
+      {}
+     ]
+    }
+   },
+   "enemies": [
+    "keiler",
+    "bache"
+   ],
+   "lp_faktoren": [
+    1.0,
+    0.45
+   ]
+  },
+  "berge_1_bache": {
+   "title": "The Sow on the Switchbacks",
+   "goal": "Get past her without hurting the young",
+   "image": "eden_rise_chestnut_switchbacks.png",
+   "enemy": "bache",
+   "level": 2,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The sow grunts, rounds up her piglets and crashes off downhill.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "She turns and herds her young into the chestnuts.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "The sow and her piglets are gone between the trees.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "She hits you at the knees. The chestnuts spin, and everything goes black.",
+     "folgen": []
+    }
+   }
+  },
+  "berge_4_wolf": {
+   "title": "Wolves Below the Tower",
+   "goal": "Get past the wolves on the ledge",
+   "image": "eden_rise_genoese_tower_camp.png",
+   "enemy": "wolf",
+   "level": 3,
+   "flee_allowed": false,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The collars snap. The wolves stare at them, then lope off along the cliff.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "The wolves back away, tails low, and slip over the edge onto a lower path.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "The wolves are gone, grey into grey.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "Teeth, rock, sky. Everything goes black.",
+     "folgen": []
+    }
+   },
+   "flee_reason": "The ledge is too narrow to turn round.",
+   "enemies": [
+    "wolf",
+    "wolf"
+   ],
+   "lp_faktoren": [
+    0.65,
+    0.65
+   ]
+  },
+  "berge_5_affe": {
+   "title": "An Ape at the Lake",
+   "goal": "Get to the shore",
+   "image": "eden_rise_mountain_lake.png",
+   "enemy": "affe",
+   "level": 3,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The collar breaks with a crack. The ape splashes off through the shallows.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "The ape tears off its collar and flees into the rocks.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "The ape is gone, up the scree faster than you could ever climb it.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "A rock, the water, cold. Everything goes black.",
+     "folgen": []
+    }
+   }
+  },
+  "berge_7_agent": {
+   "title": "A Man in Black",
+   "goal": "Get past the agent",
+   "image": "eden_rise_foggy_ridge.png",
+   "enemy": "agent",
+   "level": 3,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The agent goes down in the wet grass and stays there.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "He raises both hands and backs into the fog.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "He's gone, swallowed by the fog.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "A grenade, a spasm, the ground. Everything goes black.",
+     "folgen": []
+    }
+   }
+  },
+  "berge_8_agenten": {
+   "title": "Two on the Ridge",
+   "goal": "Take the radio",
+   "image": "eden_rise_foggy_ridge.png",
+   "enemy": "agent_fuehrer",
+   "level": 4,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The second agent drags the first one away into the fog. The radio stays behind.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They back off together, guns lowered, and disappear.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They're gone. The radio is still hissing in the grass.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "A white flash, then a baton. Everything goes black.",
+     "folgen": []
+    }
+   },
+   "enemies": [
+    "agent_fuehrer",
+    "agent"
+   ],
+   "lp_faktoren": [
+    0.8,
+    0.6
+   ]
+  },
+  "berge_9_wolf_alpha": {
+   "title": "The Grey Wolf at the Bridge",
+   "goal": "Cross the rope bridge",
+   "image": "eden_rise_foggy_ridge.png",
+   "enemy": "wolf_alpha",
+   "level": 3,
+   "flee_allowed": false,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The collar falls into the gorge, blinking all the way down. The wolf turns and goes.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "The grey wolf lowers its head and slips past you into the trees.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "The wolf is gone into the dark on the other side.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "The bridge swings, the wolf hits, and everything goes black.",
+     "folgen": []
+    }
+   },
+   "flee_reason": "You're in the middle of a rope bridge."
+  },
+  "berge_u1_hunde": {
+   "title": "Dogs on the Goat Path",
+   "goal": "Drive the dogs off",
+   "image": "eden_rise_ravine_fork.png",
+   "enemy": "hund_wild",
+   "level": 3,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The dogs yelp and scatter down the slope.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They give up the goats and slink away.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "Both dogs bolt.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "They come from both sides. Everything goes black.",
+     "folgen": []
+    }
+   },
+   "enemies": [
+    "hund_wild",
+    "hund_wild"
+   ],
+   "lp_faktoren": [
+    0.6,
+    0.6
+   ]
+  },
+  "berge_u1_junges": {
+   "title": "Something Small",
+   "goal": "Don't hurt it",
+   "image": "eden_rise_forest_edge_cliffs.png",
+   "enemy": "baer_junges",
+   "level": 5,
+   "flee_allowed": true,
+   "expedition_niederlage": false,
+   "outcomes": {
+    "ko": {
+     "text": "The cub tumbles over, squeals, and runs back into the alders.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "The cub turns and scrambles away, squealing for its mother.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "The cub bolts into the bushes, crying. Somewhere deeper in, something big answers.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "You trip over a root. When you get up, the cub is gone.",
+     "folgen": []
+    }
+   }
+  },
+  "berge_u1_old_grey": {
+   "title": "Old Grey",
+   "goal": "Face the bear",
+   "image": "eden_rise_lion_den_cave.png",
+   "enemy": "old_grey",
+   "level": 4,
+   "flee_allowed": false,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "Old Grey goes down on her side and stays down, breathing like a bellows.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "She sinks down in front of her cubs. She doesn't get up again.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "She drags herself back into the dark, to the crying.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "She comes out of the dark like a falling wall. Everything goes black.",
+     "folgen": []
+    }
+   },
+   "flee_reason": "She is between you and the light."
+  },
+  "berge_u2_agenten": {
+   "title": "Lights on the Ridge",
+   "goal": "Take the controller",
+   "image": "eden_rise_berge_rotes_licht.png",
+   "enemy": "agent_nass",
+   "level": 3,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "One agent lies still. The other runs, and drops the grey handset.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They throw down the lamps and run into the dark.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "Their lights go out one by one, further and further away.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "Red light, then nothing. Everything goes black.",
+     "folgen": []
+    }
+   },
+   "enemies": [
+    "agent_nass",
+    "agent"
+   ],
+   "lp_faktoren": [
+    0.8,
+    0.8
+   ]
+  },
+  "berge_u2_hunde": {
+   "title": "The Pack",
+   "goal": "Stand in their way",
+   "image": "eden_rise_ravine_fork.png",
+   "enemy": "hund_alpha",
+   "level": 4,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The lead dog yelps and the pack breaks up into the dark.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "The pack turns aside and loses the scent.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They're gone, barking further and further down the ravine.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "Teeth from every side. Everything goes black.",
+     "folgen": []
+    }
+   },
+   "enemies": [
+    "hund_alpha",
+    "hund_wild",
+    "hund_wild"
+   ],
+   "lp_faktoren": [
+    0.8,
+    0.4,
+    0.4
+   ]
+  },
+  "berge_u2_panther": {
+   "title": "The Black Beast",
+   "goal": "End the hunt",
+   "image": "eden_rise_hidden_rock_niche.png",
+   "enemy": "panther",
+   "level": 4,
+   "flee_allowed": false,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The panther sinks down and lies still, breathing, waiting.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "It lies down at your feet as if it had decided something.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "It drags itself back into the crack in the rock.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "It comes out of the dark without a sound. Everything goes black.",
+     "folgen": []
+    }
+   },
+   "flee_reason": "It's faster than you."
+  },
+  "berge_12_wolff": {
+   "title": "Sergent Wolff",
+   "goal": "Make him look at the pictures",
+   "image": "eden_rise_bergerie_dusk_exterior.png",
+   "enemy": "wolff",
+   "level": 5,
+   "flee_allowed": false,
+   "expedition_niederlage": false,
+   "outcomes": {
+    "ko": {
+     "text": "Wolff goes down on one knee, breathing hard, and holds up a hand. Enough.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "Wolff steps back and lowers the sword. “Enough. Show me.”",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "Wolff steps back and lowers the sword. “Enough. Show me.”",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "He puts you down the way thirty years of drill put people down.",
+     "folgen": [
+      {
+       "flag": "bg_wolff_niederlage"
+      }
+     ]
+    }
+   },
+   "flee_reason": "Not in front of his men."
+  },
+  "berge_12_wolff_hart": {
+   "title": "Sergent Wolff",
+   "goal": "Make him look at the pictures",
+   "image": "eden_rise_bergerie_dusk_exterior.png",
+   "enemy": "wolff_hart",
+   "level": 6,
+   "flee_allowed": false,
+   "expedition_niederlage": false,
+   "outcomes": {
+    "ko": {
+     "text": "Wolff goes down and stays down a long time before he holds up a hand.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "Wolff spits, steps back and lowers the sword. “Show me, then. Liar.”",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "Wolff spits, steps back and lowers the sword. “Show me, then. Liar.”",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "He doesn't stop until you stop moving.",
+     "folgen": [
+      {
+       "flag": "bg_wolff_niederlage"
+      }
+     ]
+    }
+   },
+   "flee_reason": "Not in front of his men."
+  },
+  "berge_11_duo": {
+   "title": "Nightfall at the Bergerie",
+   "goal": "Hold the door",
+   "image": "eden_rise_bergerie_dusk_exterior.png",
+   "enemy": "brute_solo",
+   "level": 4,
+   "flee_allowed": false,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The big man goes down like a tree. The others drag him away into the dark.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They pick up the big man between them and retreat down the slope.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They run, leaving a trail of torn black cloth in the thorns.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "The door, the wall, the floor. Everything goes black.",
+     "folgen": []
+    }
+   },
+   "flee_reason": "Adrien can't run, and Laetitia won't.",
+   "enemies": [
+    "brute_solo",
+    "agent"
+   ],
+   "lp_faktoren": [
+    0.9,
+    0.5
+   ]
+  },
+  "berge_11_duo_baer": {
+   "title": "Nightfall at the Bergerie",
+   "goal": "Hold the door",
+   "image": "eden_rise_bergerie_dusk_exterior.png",
+   "enemy": "brute_solo",
+   "level": 3,
+   "flee_allowed": false,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The big man goes down like a tree. The others drag him away into the dark.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They pick up the big man between them and retreat down the slope.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They run, leaving a trail of torn black cloth in the thorns.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "The door, the wall, the floor. Everything goes black.",
+     "folgen": []
+    }
+   },
+   "flee_reason": "Adrien can't run, and Laetitia won't.",
+   "enemies": [
+    "brute_solo",
+    "agent"
+   ],
+   "lp_faktoren": [
+    0.9,
+    0.5
+   ]
+  },
+  "berge_11_trio": {
+   "title": "Nightfall at the Bergerie",
+   "goal": "Hold the door",
+   "image": "eden_rise_bergerie_dusk_exterior.png",
+   "enemy": "brute_solo",
+   "level": 5,
+   "flee_allowed": false,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The big man goes down like a tree. The others drag him away into the dark.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They pick up the big man between them and retreat down the slope.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They run, leaving a trail of torn black cloth in the thorns.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "The door, the wall, the floor. Everything goes black.",
+     "folgen": []
+    }
+   },
+   "flee_reason": "Adrien can't run, and Laetitia won't.",
+   "enemies": [
+    "brute_solo",
+    "agent",
+    "agent"
+   ],
+   "lp_faktoren": [
+    0.8,
+    0.45,
+    0.45
+   ]
+  },
+  "berge_11_trio_baer": {
+   "title": "Nightfall at the Bergerie",
+   "goal": "Hold the door",
+   "image": "eden_rise_bergerie_dusk_exterior.png",
+   "enemy": "brute_solo",
+   "level": 4,
+   "flee_allowed": false,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The big man goes down like a tree. The others drag him away into the dark.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They pick up the big man between them and retreat down the slope.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They run, leaving a trail of torn black cloth in the thorns.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "The door, the wall, the floor. Everything goes black.",
+     "folgen": []
+    }
+   },
+   "flee_reason": "Adrien can't run, and Laetitia won't.",
+   "enemies": [
+    "brute_solo",
+    "agent",
+    "agent"
+   ],
+   "lp_faktoren": [
+    0.8,
+    0.45,
+    0.45
+   ]
+  },
+  "berge_11_solo": {
+   "title": "Nightfall at the Bergerie",
+   "goal": "Hold the door",
+   "image": "eden_rise_bergerie_dusk_exterior.png",
+   "enemy": "brute_solo",
+   "level": 4,
+   "flee_allowed": false,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The big man goes down like a tree. The others drag him away into the dark.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They pick up the big man between them and retreat down the slope.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They run, leaving a trail of torn black cloth in the thorns.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "The door, the wall, the floor. Everything goes black.",
+     "folgen": []
+    }
+   },
+   "flee_reason": "Adrien can't run, and Laetitia won't."
+  },
+  "berge_11_solo_baer": {
+   "title": "Nightfall at the Bergerie",
+   "goal": "Hold the door",
+   "image": "eden_rise_bergerie_dusk_exterior.png",
+   "enemy": "brute_solo",
+   "level": 3,
+   "flee_allowed": false,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The big man goes down like a tree. The others drag him away into the dark.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They pick up the big man between them and retreat down the slope.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They run, leaving a trail of torn black cloth in the thorns.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "The door, the wall, the floor. Everything goes black.",
+     "folgen": []
+    }
+   },
+   "flee_reason": "Adrien can't run, and Laetitia won't."
+  },
+  "a2_unit01": {
+   "title": "A Red Eye in the Dark",
+   "goal": "Bring Unit-01 down without breaking her",
+   "image": "eden_rise_workshop.png",
+   "enemy": "unit01",
+   "level": 2,
+   "flee_allowed": false,
+   "expedition_niederlage": false,
+   "outcomes": {
+    "ko": {
+     "text": "Unit-01 shudders, coughs one last cloud of soot and sits down. The red in her eye flickers, and goes amber.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "Unit-01 stops, whines like a dog, and lies down at your feet.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "Unit-01 rolls back into her corner and stays there, eye flickering red and amber.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "A piston, the wall, the floor. When you come to, Rosi has him switched off.",
+     "folgen": []
+    }
+   },
+   "flee_reason": "You're not leaving him like this."
+  },
+  "gr_1_ratten": {
+   "title": "Something Squeaks",
+   "goal": "Get down the steps",
+   "image": "eden_rise_grotto_steps.png",
+   "enemy": "ratte_alpha",
+   "level": 2,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The big rat squeals and the whole carpet of them pours back into the cracks.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They scatter into the rock.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They're gone.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "Weed, rock, teeth. Everything goes black.",
+     "folgen": []
+    }
+   },
+   "enemies": [
+    "ratte_alpha",
+    "ratte",
+    "ratte"
+   ],
+   "lp_faktoren": [
+    1.0,
+    0.4,
+    0.4
+   ]
+  },
+  "gr_3_viper": {
+   "title": "Something on the Rail",
+   "goal": "Get past it",
+   "image": "eden_rise_smugglers_tunnel.png",
+   "enemy": "schlange",
+   "level": 2,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "It flows off the rail and into a crack.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "It uncoils and slides away.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "It's gone.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "A bite, a burning arm, the dark.",
+     "folgen": []
+    }
+   }
+  },
+  "gr_4_schmuggler": {
+   "title": "Cards on a Crate",
+   "goal": "Get past the card game",
+   "image": "eden_rise_crate_hall.png",
+   "enemy": "schmuggler",
+   "level": 3,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The smugglers go down among the cards, one after the other.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They throw their knives on the crate and raise their hands.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They run off into the tunnels.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "Two knives. Everything goes black.",
+     "folgen": []
+    }
+   },
+   "enemies": [
+    "schmuggler",
+    "schmuggler"
+   ],
+   "lp_faktoren": [
+    0.7,
+    0.5
+   ]
+  },
+  "gr_6_fackel": {
+   "title": "Torches",
+   "goal": "Get past the torch gallery",
+   "image": "eden_rise_torch_gallery_2.png",
+   "enemy": "fackelpirat",
+   "level": 3,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The torch rolls into a puddle and hisses out. His mate drags him off into the dark.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They drop the torch and back away into the dark.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They're gone.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "Fire, then nothing.",
+     "folgen": []
+    }
+   },
+   "enemies": [
+    "fackelpirat",
+    "pirat"
+   ],
+   "lp_faktoren": [
+    0.8,
+    0.5
+   ]
+  },
+  "gr_u1_viper": {
+   "title": "On the Ledge",
+   "goal": "Keep it away from Matteu",
+   "image": "eden_rise_flooded_gallery.png",
+   "enemy": "schlange",
+   "level": 3,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "It slides off the ledge into the black water.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "It coils up and lets you pass.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "It's gone into the dark.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "A bite at the neck. Everything goes black.",
+     "folgen": []
+    }
+   }
+  },
+  "gr_u1_ratten": {
+   "title": "Behind the Grate",
+   "goal": "Drive the rats back",
+   "image": "eden_rise_air_pocket.png",
+   "enemy": "ratte_alpha",
+   "level": 3,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "They pour back through the bars.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They scatter.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They're gone.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "Teeth, from everywhere. Everything goes black.",
+     "folgen": []
+    }
+   },
+   "enemies": [
+    "ratte_alpha",
+    "ratte",
+    "ratte"
+   ],
+   "lp_faktoren": [
+    1.0,
+    0.4,
+    0.4
+   ]
+  },
+  "gr_u2_pirat": {
+   "title": "Two Men and a Rucksack",
+   "goal": "Get the bag back",
+   "image": "eden_rise_collapsed_passage.png",
+   "enemy": "pirat",
+   "level": 3,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The first one goes down. The second drops the rucksack and runs.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They drop the bag and back off into the dark.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They're gone, with the lamps.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "A cutlass flat across the head. Everything goes black.",
+     "folgen": []
+    }
+   },
+   "enemies": [
+    "pirat",
+    "pirat"
+   ],
+   "lp_faktoren": [
+    0.7,
+    0.7
+   ]
+  },
+  "kv_tauben": {
+   "title": "Kevin's Pigeons",
+   "goal": "Get across the roofs",
+   "image": "eden_rise_village_rooftops.png",
+   "enemy": "tauben",
+   "level": 2,
+   "flee_allowed": true,
+   "expedition_niederlage": false,
+   "outcomes": {
+    "ko": {
+     "text": "The pigeons explode into the sky.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They scatter over the roofs.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They're gone.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "You slip on a tile. Everything goes sideways.",
+     "folgen": []
+    }
+   }
+  },
+  "kv_kevin": {
+   "title": "Kevin",
+   "goal": "Get the page back",
+   "image": "eden_rise_bell_tower_nest.png",
+   "enemy": "kevin",
+   "level": 3,
+   "flee_allowed": false,
+   "expedition_niederlage": false,
+   "outcomes": {
+    "ko": {
+     "text": "Kevin flops onto the weathervane, beaten, and screams at the whole village about it.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "Kevin hops off the nest and sulks.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "Kevin flies one circle round the tower and comes back. He always comes back.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "Kevin wins. Kevin always wins. Lea pulls you back in by the belt.",
+     "folgen": []
+    }
+   },
+   "flee_reason": "Not in front of Lea."
+  },
+  "fn_1_ratten": {
+   "title": "Up from the Water",
+   "goal": "Get down the steps",
+   "image": "eden_rise_grotto_steps.png",
+   "enemy": "ratte_alpha",
+   "level": 4,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The big rat squeals and the rest of them pour back into the cracks above the waterline.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They scatter up the rock.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They're gone.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "Wet rock, teeth. Everything goes black.",
+     "folgen": []
+    }
+   },
+   "enemies": [
+    "ratte_alpha",
+    "ratte",
+    "ratte"
+   ],
+   "lp_faktoren": [
+    0.9,
+    0.3,
+    0.3
+   ]
+  },
+  "fn_2_fledermaeuse": {
+   "title": "The Ceiling Moves",
+   "goal": "Get through the tunnel",
+   "image": "eden_rise_smugglers_tunnel.png",
+   "enemy": "fledermaeuse",
+   "level": 4,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The swarm breaks apart and whirls out over the water.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They lift off the ceiling and stream away.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They're gone into the dark.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "Wings, teeth, everywhere. Everything goes black.",
+     "folgen": []
+    }
+   },
+   "selten": {
+    "title": "The Pale Lady",
+    "goal": "Survive her",
+    "enemy": "vampirin",
+    "level": "duc",
+    "outcomes": {
+     "ko": {
+      "text": "She folds into a cloud of bats and is gone. Something glints on the rail where she stood.",
+      "folgen": []
+     },
+     "aufgabe": {
+      "text": "She steps back into the dark, smiling. “Another night, sweet.” She leaves something behind.",
+      "folgen": []
+     },
+     "entkommen": {
+      "text": "She's gone, and so are the bats.",
+      "folgen": []
+     },
+     "flucht": {
+      "text": "You back away.",
+      "folgen": []
+     },
+     "niederlage": {
+      "text": "Cold lips at your neck. Everything goes very quiet.",
+      "folgen": []
+     }
+    },
+    "chance": 0.1,
+    "steigt": 0.1,
+    "level_plus": 2
+   }
+  },
+  "fn_3_viper": {
+   "title": "Something in the Water",
+   "goal": "Get across the gallery",
+   "image": "eden_rise_flooded_gallery.png",
+   "enemy": "schlange_alpha",
+   "level": 4,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "It slides off into the black water and doesn't come back.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "It coils up and lets you pass.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "It's gone under.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "A bite at the ankle, then the cold. Everything goes black.",
+     "folgen": []
+    }
+   }
+  },
+  "fn_4_piraten": {
+   "title": "The Night Shift",
+   "goal": "Get past the crates",
+   "image": "eden_rise_crate_hall.png",
+   "enemy": "pirat",
+   "level": 4,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The torch goes into the water. The others leave the boat and run.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "He drops the cutlass and raises his hands.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They row off into the dark.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "A cutlass flat across the head. Everything goes black.",
+     "folgen": []
+    }
+   },
+   "enemies": [
+    "fackelpirat",
+    "pirat",
+    "pirat"
+   ],
+   "lp_faktoren": [
+    0.6,
+    0.35,
+    0.35
+   ]
+  },
+  "fn_5_sirene": {
+   "title": "The Siren",
+   "goal": "Talk her down",
+   "image": "eden_rise_underground_pool_tide.png",
+   "enemy": "sirene",
+   "level": "duc",
+   "flee_allowed": true,
+   "expedition_niederlage": false,
+   "outcomes": {
+    "ko": {
+     "text": "",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "She sinks down to her shoulders and smiles. “All right, sailor. You talked. Now I'll talk.”",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "She slides under the black water. The humming goes on for a long time.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "Her song fills your head, and the water fills the rest. You wake on the beach.",
+     "folgen": []
+    }
+   },
+   "level_plus": 1
+  },
+  "gr_8_riscossore": {
+   "title": "U Riscossore",
+   "goal": "Get Gennaro out",
+   "image": "eden_rise_crate_hall.png",
+   "enemy": "riscossore",
+   "level": 4,
+   "flee_allowed": false,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The old man sits down against a crate, very slowly, and puts the cane sword across his knees.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "He raises one hand. “Enough. Let's talk business.”",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "His men drag him back to the boat.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "The torches close in. Everything goes black.",
+     "folgen": []
+    }
+   },
+   "flee_reason": "The tide is behind you."
+  },
+  "gr_8_riscossore_spaet": {
+   "title": "U Riscossore",
+   "goal": "Get Gennaro out",
+   "image": "eden_rise_crate_hall.png",
+   "enemy": "riscossore",
+   "level": 5,
+   "flee_allowed": false,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The old man sits down against a crate, very slowly, and puts the cane sword across his knees.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "He raises one hand. “Enough. Let's talk business.”",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "His men drag him back to the boat.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "The torches close in. Everything goes black.",
+     "folgen": []
+    }
+   },
+   "flee_reason": "The tide is behind you."
+  },
+  "gr_8_riscossore_matteu": {
+   "title": "U Riscossore",
+   "goal": "Get Gennaro out",
+   "image": "eden_rise_crate_hall.png",
+   "enemy": "riscossore",
+   "level": 3,
+   "flee_allowed": false,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The old man sits down against a crate, very slowly, and puts the cane sword across his knees.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "He raises one hand. “Enough. Let's talk business.”",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "His men drag him back to the boat.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "The torches close in. Everything goes black.",
+     "folgen": []
+    }
+   },
+   "flee_reason": "The tide is behind you."
+  },
+  "gr_8_riscossore_matteu_spaet": {
+   "title": "U Riscossore",
+   "goal": "Get Gennaro out",
+   "image": "eden_rise_crate_hall.png",
+   "enemy": "riscossore",
+   "level": 4,
+   "flee_allowed": false,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The old man sits down against a crate, very slowly, and puts the cane sword across his knees.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "He raises one hand. “Enough. Let's talk business.”",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "His men drag him back to the boat.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "The torches close in. Everything goes black.",
+     "folgen": []
+    }
+   },
+   "flee_reason": "The tide is behind you."
+  },
+  "hafen_ricci_1f": {
+   "title": "A Hand in Your Pocket",
+   "goal": "They want: 1 thing from your bag",
+   "image": "corsican_village_harbour.png",
+   "enemy": "dieb_fabbiu",
+   "level": "duc",
+   "level_plus": -1,
+   "flee_allowed": true,
+   "outcomes": {
+    "ko": {
+     "text": "Fabbiu sits in a puddle and holds his nose. He drops what he had in his sleeve and runs.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "“Okay, okay, take it!” He throws it at your feet and is gone before you can say anything.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They're gone between the boats. They took 1 thing from your bag.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You let them go. They took 1 thing from your bag.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "You end up on the cobbles. When you get up, Fabbiu is gone, and so is something from your bag.",
+     "folgen": []
+    }
+   }
+  },
+  "hafen_ricci_1s": {
+   "title": "A Hand in Your Pocket",
+   "goal": "They want: 1 thing from your bag",
+   "image": "corsican_village_harbour.png",
+   "enemy": "dieb_santu",
+   "level": "duc",
+   "level_plus": -1,
+   "flee_allowed": true,
+   "outcomes": {
+    "ko": {
+     "text": "Santu limps off between the nets. He leaves something on a crate, as if he'd never touched it.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "Santu raises both hands, grinning. “You win, you win.” He leaves it on a bollard and strolls off.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They're gone between the boats. They took 1 thing from your bag.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You let them go. They took 1 thing from your bag.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "You end up on the cobbles. Santu waves from the end of the quay with something of yours.",
+     "folgen": []
+    }
+   }
+  },
+  "hafen_ricci_2": {
+   "title": "The Ricci Brothers",
+   "goal": "They want: 2 things from your bag",
+   "image": "corsican_village_harbour.png",
+   "enemy": "dieb_fabbiu",
+   "level": "duc",
+   "level_plus": 0,
+   "flee_allowed": true,
+   "outcomes": {
+    "ko": {
+     "text": "Both brothers sit on the quay, holding their ribs and arguing about whose fault it was.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "“Truce, truce!” The brothers back away together, still bickering.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They're gone between the boats. They took 2 things from your bag.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You let them go. They took 2 things from your bag.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "Two pairs of hands, and then you're on the ground. They take their time choosing.",
+     "folgen": []
+    }
+   },
+   "enemies": [
+    "dieb_fabbiu",
+    "dieb_santu"
+   ],
+   "lp_faktoren": [
+    0.7,
+    0.7
+   ],
+   "sprueche_id": "ricci_brueder",
+   "sprueche": {
+    "start": [
+     {
+      "wer": "fabbiu",
+      "text": "Remember us? We brought family this time.",
+      "gefuehl": "amusement"
+     },
+     {
+      "wer": "santu",
+      "text": "Two of us, one of you. Do the maths, consultant.",
+      "gefuehl": "amusement"
+     }
+    ],
+    "runde": [
+     {
+      "wer": "santu",
+      "text": "He goes left, I go right, and your wallet goes with us.",
+      "gefuehl": "amusement"
+     },
+     {
+      "wer": "fabbiu",
+      "text": "Last time was luck. Pure luck!",
+      "gefuehl": "anger"
+     },
+     {
+      "wer": "santu",
+      "text": "Tell Elsa we said hello. Oh, wait. She can't catch us either.",
+      "gefuehl": "amusement"
+     },
+     {
+      "wer": "fabbiu",
+      "text": "Your snacks miss us. They told us.",
+      "gefuehl": "amusement"
+     }
+    ],
+    "gewinnt": [
+     {
+      "wer": "fabbiu",
+      "text": "Two for two! Write it down, tourist!",
+      "gefuehl": "joy"
+     }
+    ],
+    "verliert": [
+     {
+      "wer": "santu",
+      "text": "Okay. Okay. Next time we bring Mattè. You'll love Mattè.",
+      "gefuehl": "anger"
+     }
+    ]
+   }
+  },
+  "hafen_ricci_3": {
+   "title": "The Ricci Gang",
+   "goal": "They want: 3 things from your bag",
+   "image": "corsican_village_harbour.png",
+   "enemy": "dieb_fabbiu",
+   "level": "duc",
+   "level_plus": 0,
+   "flee_allowed": true,
+   "outcomes": {
+    "ko": {
+     "text": "Mattè goes down like a sack of flour. The brothers drag him off, and the harbour applauds.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "The brothers grab Mattè by the arms and pull him away. “Not today, not today!”",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They're gone between the boats. They took 3 things from your bag.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You let them go. They took 3 things from your bag.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "Mattè holds you, the brothers empty your bag. Three things are gone.",
+     "folgen": []
+    }
+   },
+   "enemies": [
+    "dieb_fabbiu",
+    "dieb_santu",
+    "matte"
+   ],
+   "sprueche_id": "ricci_bande",
+   "lp_faktoren": [
+    0.6,
+    0.6,
+    1.0
+   ],
+   "sprueche": {
+    "start": [
+     {
+      "wer": "santu",
+      "text": "This is our cousin Mattè. He doesn't talk much. He doesn't need to.",
+      "gefuehl": "amusement"
+     },
+     {
+      "wer": "matte",
+      "text": "Bag. Now.",
+      "gefuehl": "anger",
+      "name": "Mattè"
+     }
+    ],
+    "runde": [
+     {
+      "wer": "fabbiu",
+      "text": "Mattè, he's looking at you funny!",
+      "gefuehl": "amusement"
+     },
+     {
+      "wer": "matte",
+      "text": "Stand still.",
+      "gefuehl": "annoyance",
+      "name": "Mattè"
+     },
+     {
+      "wer": "santu",
+      "text": "Three bags this time. We counted.",
+      "gefuehl": "amusement"
+     },
+     {
+      "wer": "matte",
+      "text": "You hit like the wind. Soft.",
+      "gefuehl": "amusement",
+      "name": "Mattè"
+     },
+     {
+      "wer": "fabbiu",
+      "text": "Run, consultant! It's the healthy thing to do!",
+      "gefuehl": "amusement"
+     },
+     {
+      "wer": "santu",
+      "text": "Everybody in this harbour pays the Riccis. Why not you?",
+      "gefuehl": "amusement"
+     }
+    ],
+    "gewinnt": [
+     {
+      "wer": "matte",
+      "text": "Thank you. Come again.",
+      "gefuehl": "amusement",
+      "name": "Mattè"
+     }
+    ],
+    "verliert": [
+     {
+      "wer": "santu",
+      "text": "Mattè's on the floor. Mattè is never on the floor. Who are you?",
+      "gefuehl": "fear"
+     }
+    ]
+   }
+  },
+  "rt_1_bibi_charly": {
+   "title": "The Red Trio",
+   "goal": "Get through them",
+   "image": "eden_rise_macchia_path.png",
+   "enemy": "rt_bibi",
+   "enemies": [
+    "rt_bibi",
+    "rt_charly"
+   ],
+   "lp_faktoren": [
+    0.85,
+    0.85
+   ],
+   "level": 4,
+   "flee_allowed": false,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "Bibi lands on her back in the bushes. Charly sits down next to her and opens a bag of crisps.",
+     "folgen": [
+      {
+       "flag": "rt_1_sieg"
+      },
+      {
+       "flag": "rt_1_ko"
+      }
+     ]
+    },
+    "aufgabe": {
+     "text": "They lower their hands. Charly nods once. Bibi looks almost relieved.",
+     "folgen": [
+      {
+       "flag": "rt_1_sieg"
+      },
+      {
+       "flag": "rt_1_geredet"
+      }
+     ]
+    },
+    "entkommen": {
+     "text": "They're gone into the bushes.",
+     "folgen": [
+      {
+       "flag": "rt_1_sieg"
+      },
+      {
+       "flag": "rt_1_ko"
+      }
+     ]
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "A flash, a blue spark, the ground. Everything goes black.",
+     "folgen": []
+    }
+   },
+   "flee_reason": "They've seen you. There's no walking away from this."
+  },
+  "rt_3_trio": {
+   "title": "Three in Red",
+   "goal": "Get through all three",
+   "image": "eden_rise_macchia_creek_bridge.png",
+   "enemy": "rt_danzel",
+   "enemies": [
+    "rt_danzel",
+    "rt_bibi",
+    "rt_charly"
+   ],
+   "lp_faktoren": [
+    0.5,
+    0.6,
+    0.6
+   ],
+   "level": 5,
+   "flee_allowed": false,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "They go down on the stones, one after the other. Danzel last. He was the furthest back.",
+     "folgen": [
+      {
+       "flag": "rt_3_sieg"
+      },
+      {
+       "flag": "rt_3_ko"
+      }
+     ]
+    },
+    "aufgabe": {
+     "text": "Nobody decides it. They just stop. Danzel's baton is shaking so hard it rattles.",
+     "folgen": [
+      {
+       "flag": "rt_3_sieg"
+      },
+      {
+       "flag": "rt_3_geredet"
+      }
+     ]
+    },
+    "entkommen": {
+     "text": "They're off the bridge.",
+     "folgen": [
+      {
+       "flag": "rt_3_sieg"
+      },
+      {
+       "flag": "rt_3_ko"
+      }
+     ]
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "Blue light. The stream is very cold, and then everything goes black.",
+     "folgen": []
+    }
+   },
+   "flee_reason": "They've seen you. There's no walking away from this."
+  },
+  "rt_4a_rotte": {
+   "title": "Between the Black Trunks",
+   "goal": "Get down the charcoal road",
+   "image": "eden_rise_charcoal_road.png",
+   "enemy": "bache",
+   "enemies": [
+    "bache",
+    "bache"
+   ],
+   "lp_faktoren": [
+    0.85,
+    0.85
+   ],
+   "level": 4,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The boars crash off through the ash.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They back away, snorting.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They're gone.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "Tusks, ash, the dark.",
+     "folgen": []
+    }
+   }
+  },
+  "rt_4a_mufflon": {
+   "title": "Steel on Its Shoulders",
+   "goal": "Get past it",
+   "image": "eden_rise_charcoal_road.png",
+   "enemy": "panzer_mufflon",
+   "enemies": [
+    "panzer_mufflon"
+   ],
+   "lp_faktoren": [
+    2.0
+   ],
+   "level": 5,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "It falls on the ash with a clank of metal. The collar blinks, and stops.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "It stands there breathing, head low, and lets you pass.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "It's off through the trunks.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "It hits you like a door. Everything goes black.",
+     "folgen": []
+    }
+   }
+  },
+  "rt_4b_affen": {
+   "title": "Up on the Walls",
+   "goal": "Get into the gorge",
+   "image": "eden_rise_bone_gorge.png",
+   "enemy": "affe",
+   "enemies": [
+    "affe",
+    "affe"
+   ],
+   "lp_faktoren": [
+    0.6,
+    0.6
+   ],
+   "level": 4,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The apes scatter up the rock.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They back away along the ledge.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They're gone.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "Stones from above. Everything goes black.",
+     "folgen": []
+    }
+   },
+   "musik": "kampf_tiere"
+  },
+  "rt_4b_hyaenen": {
+   "title": "Three with Red Lights",
+   "goal": "Get through the pack",
+   "image": "eden_rise_bone_gorge.png",
+   "enemy": "ark_hyaene_alpha",
+   "enemies": [
+    "ark_hyaene_alpha",
+    "ark_hyaene",
+    "ark_hyaene"
+   ],
+   "lp_faktoren": [
+    0.6,
+    0.45,
+    0.45
+   ],
+   "level": 4,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The last of them drops. Three red lights keep blinking on the stones.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They creep back between the rocks, bellies low.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They run, laughing, down the gorge.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "They come from three sides at once. Everything goes black.",
+     "folgen": []
+    }
+   }
+  },
+  "rt_4c_agenten": {
+   "title": "Black Suits on the Ridge",
+   "goal": "Get up the ridge",
+   "image": "eden_rise_antenna_ridge.png",
+   "enemy": "agent",
+   "enemies": [
+    "agent",
+    "agent"
+   ],
+   "lp_faktoren": [
+    0.7,
+    0.7
+   ],
+   "level": 5,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The second agent goes down. Neither of them gets to his radio.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They drop their batons and keep their hands where you can see them.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They run for the tree line.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "A baton, the rocks. Everything goes black.",
+     "folgen": []
+    }
+   }
+  },
+  "rt_4c_drohne": {
+   "title": "Blink, Blink, Pause",
+   "goal": "Bring it down",
+   "image": "eden_rise_antenna_ridge.png",
+   "enemy": "hirtendrohne",
+   "enemies": [
+    "hirtendrohne"
+   ],
+   "lp_faktoren": [
+    2.6
+   ],
+   "level": 5,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "It drops out of the air and breaks apart on the rock.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "It lands. The light goes out on its own.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "It climbs away over the sea.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "The pulse goes through your teeth. Everything goes black.",
+     "folgen": []
+    }
+   }
+  },
+  "rt_7a_garten": {
+   "title": "Tidy Up",
+   "goal": "Hold the garden",
+   "image": "eden_rise_monastery_garden_dusk.png",
+   "enemy": "agent",
+   "enemies": [
+    "agent",
+    "agent",
+    "agent"
+   ],
+   "lp_faktoren": [
+    0.65,
+    0.55,
+    0.55
+   ],
+   "level": 5,
+   "flee_allowed": false,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The last one falls into Nonna's rosemary. There are more on the wall.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They back up against the wall. There are more behind them.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They fall back over the wall.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "You wake on the boat. Someone carried you.",
+     "folgen": []
+    }
+   },
+   "flee_reason": "Nonna is behind that door.",
+   "beistand": [
+    {
+     "wenn": {
+      "flag": "rt_ausgang_alle"
+     },
+     "aktionen": [
+      {
+       "wer": "Bibi",
+       "text": "A water grenade bursts on %(ziel)s.",
+       "anteil": 0.08,
+       "state": "nass"
+      },
+      {
+       "wer": "Charly",
+       "text": "Her taser hits %(ziel)s.",
+       "anteil": 0.12,
+       "state": "strom"
+      },
+      {
+       "wer": "Danzel",
+       "text": "He steps in front of you, and the plate in his lining takes the first of it. Your next hit is halved.",
+       "schutz": true
+      }
+     ]
+    },
+    {
+     "aktionen": [
+      null,
+      null,
+      {
+       "wer": "Danzel",
+       "text": "He steps in front of you, and the plate in his lining takes the first of it. Your next hit is halved.",
+       "schutz": true
+      }
+     ]
+    }
+   ]
+  },
+  "rt_7b_tuer": {
+   "title": "Nonna's Door",
+   "goal": "Hold the door",
+   "image": "eden_rise_monastery_garden_dusk.png",
+   "enemy": "agent",
+   "enemies": [
+    "agent",
+    "agent",
+    "hirtendrohne"
+   ],
+   "lp_faktoren": [
+    0.6,
+    0.6,
+    0.7
+   ],
+   "level": 5,
+   "flee_allowed": false,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The drone hits the well and goes dark. The rest of them run. Nobody in the garden moves for a while.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They carry their own away. Nobody in the garden moves for a while.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They're gone over the wall.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "You wake on the boat. Someone carried you.",
+     "folgen": []
+    }
+   },
+   "flee_reason": "Nonna is behind that door.",
+   "beistand": [
+    {
+     "wenn": {
+      "flag": "rt_ausgang_alle"
+     },
+     "aktionen": [
+      {
+       "wer": "Bibi",
+       "text": "A water grenade bursts on %(ziel)s.",
+       "anteil": 0.08,
+       "state": "nass"
+      },
+      {
+       "wer": "Charly",
+       "text": "Her taser hits %(ziel)s.",
+       "anteil": 0.12,
+       "state": "strom"
+      },
+      {
+       "wer": "Danzel",
+       "text": "He steps in front of you, and the plate in his lining takes the first of it. Your next hit is halved.",
+       "schutz": true
+      }
+     ]
+    },
+    {
+     "aktionen": [
+      null,
+      null,
+      {
+       "wer": "Danzel",
+       "text": "He steps in front of you, and the plate in his lining takes the first of it. Your next hit is halved.",
+       "schutz": true
+      }
+     ]
+    }
+   ]
+  },
+  "mochis_hund": {
+   "title": "A Dog on the Road",
+   "goal": "Wear it down, then throw the Sleep Grenade",
+   "image": "eden_rise_macchia_path.png",
+   "enemy": "mo_hund",
+   "level": "duc",
+   "flee_allowed": true,
+   "outcomes": {
+    "aufgabe": {
+     "text": "The collar blinks fast, then slow. The dog sits down in the road, puts its head on your boot and sleeps.",
+     "folgen": [
+      {
+       "flag": "mo_hund_ruhig"
+      }
+     ]
+    },
+    "ko": {
+     "text": "You hit it once too often. It runs off on three legs with the collar still blinking. You did that.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "You hit it once too often. It runs off on three legs with the collar still blinking. You did that.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away, slowly. It watches you all the way.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "Teeth, the road, Bibi's voice from far away. She gets you home.",
+     "folgen": []
+    }
+   }
+  },
+  "mochis_hyaene": {
+   "title": "Laughter in the Gorge",
+   "goal": "Wear it down, then throw the Sleep Grenade",
+   "image": "eden_rise_bone_gorge.png",
+   "enemy": "mo_hyaene",
+   "level": "duc",
+   "flee_allowed": true,
+   "outcomes": {
+    "aufgabe": {
+     "text": "The laughing gets slower and stops. She lies down with her chin on the stones, and for once her face is quiet.",
+     "folgen": [
+      {
+       "flag": "mo_hyaene_ruhig"
+      }
+     ]
+    },
+    "ko": {
+     "text": "You hit her once too often. She goes up the rocks, still laughing. It sounds worse from far away.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "You hit her once too often. She goes up the rocks, still laughing. It sounds worse from far away.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away, slowly. It watches you all the way.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "She's faster than you. Bibi's water grenade is the last thing you hear.",
+     "folgen": []
+    }
+   }
+  },
+  "mochis_mufflon": {
+   "title": "Steel on the Ridge",
+   "goal": "Wear it down, then throw the Sleep Grenade",
+   "image": "eden_rise_charcoal_road.png",
+   "enemy": "mo_mufflon",
+   "level": "duc",
+   "flee_allowed": true,
+   "outcomes": {
+    "aufgabe": {
+     "text": "She goes down on her knees very slowly, as if it was her own idea. Then her head comes down onto the road.",
+     "folgen": [
+      {
+       "flag": "mo_mufflon_ruhig"
+      }
+     ]
+    },
+    "ko": {
+     "text": "One hit too many. She turns and walks into the trunks with the collar still blinking. You won't catch her today.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "One hit too many. She turns and walks into the trunks with the collar still blinking. You won't catch her today.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away, slowly. It watches you all the way.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "It's like being hit by a door. Bibi drags you out by the jacket.",
+     "folgen": []
+    }
+   }
+  },
+  "mochis_affe": {
+   "title": "Something Is Watching",
+   "goal": "Wear it down, then throw the Sleep Grenade",
+   "image": "eden_rise_forest_edge_cliffs.png",
+   "enemy": "mo_affe",
+   "level": "duc",
+   "flee_allowed": true,
+   "outcomes": {
+    "aufgabe": {
+     "text": "He catches the grenade and looks at it. It goes off in his hand. He sits down, very politely, and falls asleep.",
+     "folgen": [
+      {
+       "flag": "mo_affe_ruhig"
+      }
+     ]
+    },
+    "ko": {
+     "text": "One hit too many. He's up the cliff before you can blink. A stone lands next to your foot, on purpose.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "One hit too many. He's up the cliff before you can blink. A stone lands next to your foot, on purpose.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away, slowly. It watches you all the way.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "The last stone was a good one. Bibi walks you home, very slowly.",
+     "folgen": []
+    }
+   }
+  },
+  "mochis_wolf": {
+   "title": "The Grey One Alone",
+   "goal": "Wear it down, then throw the Sleep Grenade",
+   "image": "eden_rise_high_pasture.png",
+   "enemy": "mo_wolf",
+   "level": "duc",
+   "flee_allowed": true,
+   "outcomes": {
+    "aufgabe": {
+     "text": "She fights the sleep for a long time, on her feet, looking at you. Then she lies down and the light on the collar goes slow.",
+     "folgen": [
+      {
+       "flag": "mo_wolf_ruhig"
+      }
+     ]
+    },
+    "ko": {
+     "text": "One hit too many. She's gone over the ridge. There's blood on the grass, and you are the reason.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "One hit too many. She's gone over the ridge. There's blood on the grass, and you are the reason.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away, slowly. It watches you all the way.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "She knew exactly what she was doing. Bibi gets you down the hill.",
+     "folgen": []
+    }
+   }
+  },
+  "mochis_madame": {
+   "title": "A Very Round Problem",
+   "goal": "Wear it down, then throw the Sleep Grenade",
+   "image": "eden_rise_shepherd_hut_ruin.png",
+   "enemy": "mo_madame",
+   "level": "duc",
+   "flee_allowed": true,
+   "outcomes": {
+    "aufgabe": {
+     "text": "She sits down in the middle of her own fury and looks surprised. Then she's asleep, with her chin on her front paws.",
+     "folgen": [
+      {
+       "flag": "mo_madame_ruhig"
+      }
+     ]
+    },
+    "ko": {
+     "text": "One hit too many. She goes under the hut faster than anything that shape should move. You hear her up there all evening.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "One hit too many. She goes under the hut faster than anything that shape should move. You hear her up there all evening.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away, slowly. It watches you all the way.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "You got beaten by a cat. Bibi will never mention it. She'll just smile.",
+     "folgen": []
+    }
+   }
+  },
+  "mochis_rotpanda": {
+   "title": "Something Red in the Trees",
+   "goal": "Wear it down, then throw the Sleep Grenade",
+   "image": "eden_rise_forest_edge_cliffs.png",
+   "enemy": "mo_rotpanda",
+   "level": "duc",
+   "flee_allowed": true,
+   "outcomes": {
+    "aufgabe": {
+     "text": "He's still standing with both arms up when the grenade works. He stays like that for a moment. Then he tips over, very slowly.",
+     "folgen": [
+      {
+       "flag": "mo_rotpanda_ruhig"
+      }
+     ]
+    },
+    "ko": {
+     "text": "One hit too many. He goes up the trunk and away through the branches, with the light still blinking.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "One hit too many. He goes up the trunk and away through the branches, with the light still blinking.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away, slowly. It watches you all the way.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "Small claws, a lot of them, right in the face. Bibi cleans you up and says nothing.",
+     "folgen": []
+    }
+   }
+  },
+  "mochis_capybara": {
+   "title": "The Calmest Animal There Is",
+   "goal": "Wear it down, then throw the Sleep Grenade",
+   "image": "eden_rise_macchia_creek_bridge.png",
+   "enemy": "mo_capybara",
+   "level": "duc",
+   "flee_allowed": true,
+   "outcomes": {
+    "aufgabe": {
+     "text": "All the rage goes out of him at once. He walks into the creek, sits down in it and falls asleep with his nose above the water.",
+     "folgen": [
+      {
+       "flag": "mo_capybara_ruhig"
+      }
+     ]
+    },
+    "ko": {
+     "text": "One hit too many. He crashes away along the creek. It's strange how much that hurts to watch.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "One hit too many. He crashes away along the creek. It's strange how much that hurts to watch.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away, slowly. It watches you all the way.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "He doesn't stop. He just keeps walking through you. Bibi gets you out of the water.",
+     "folgen": []
+    }
+   }
+  },
+  "mochis_keiler": {
+   "title": "Another Collar in the Macchia",
+   "goal": "Wear it down, then throw the Sleep Grenade",
+   "image": "eden_rise_ravine_fork.png",
+   "enemy": "mo_keiler",
+   "level": "duc",
+   "flee_allowed": true,
+   "outcomes": {
+    "aufgabe": {
+     "text": "His legs fold under him one by one. He goes down like a wall coming down, and the whole ravine is quiet.",
+     "folgen": [
+      {
+       "flag": "mo_keiler_ruhig"
+      }
+     ]
+    },
+    "ko": {
+     "text": "One hit too many. He crashes back into the undergrowth, and you can hear him for a long time.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "One hit too many. He crashes back into the undergrowth, and you can hear him for a long time.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away, slowly. It watches you all the way.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "It's like being hit by a car, and you remember that it was like that the last time, too. Bibi drags you clear.",
+     "folgen": []
+    }
+   }
+  },
+  "mochis_baerchen": {
+   "title": "Something Small, Again",
+   "goal": "Wear it down, then throw the Sleep Grenade",
+   "image": "eden_rise_forest_edge_cliffs.png",
+   "enemy": "mo_baerchen",
+   "level": "duc",
+   "flee_allowed": true,
+   "outcomes": {
+    "aufgabe": {
+     "text": "It wobbles, sits down, and falls over onto its side. It's asleep before it lands. Bibi is already there.",
+     "folgen": [
+      {
+       "flag": "mo_baerchen_ruhig"
+      }
+     ]
+    },
+    "ko": {
+     "text": "One hit too many. It runs into the alders, crying. Nothing answers now.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "One hit too many. It runs into the alders, crying. Nothing answers now.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away, slowly. It watches you all the way.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "You trip over a root. When you get up, it's gone, and your dignity with it.",
+     "folgen": []
+    }
+   }
+  },
+  "mochis_schildkroete": {
+   "title": "Number Twelve",
+   "goal": "Wear it down, then throw the Sleep Grenade",
+   "image": "eden_rise_macchia_path.png",
+   "enemy": "mo_schildkroete",
+   "level": "duc",
+   "flee_allowed": true,
+   "outcomes": {
+    "aufgabe": {
+     "text": "Her head comes down very slowly, and it takes a full minute to reach the ground. You stand there and wait. It seems polite.",
+     "folgen": [
+      {
+       "flag": "mo_schildkroete_ruhig"
+      }
+     ]
+    },
+    "ko": {
+     "text": "One hit too many. She shuts herself in her shell and won't come out, so you leave. Next morning she's gone. Nobody knows how.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "One hit too many. She shuts herself in her shell and won't come out, so you leave. Next morning she's gone. Nobody knows how.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away, slowly. It watches you all the way.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "It's hard to explain how you lost this fight. Bibi doesn't ask you to.",
+     "folgen": []
+    }
+   }
+  },
+  "mochis_geier": {
+   "title": "Over the Ridge",
+   "goal": "Wear it down, then throw the Sleep Grenade",
+   "image": "eden_rise_foggy_ridge.png",
+   "enemy": "mo_geier",
+   "level": "duc",
+   "flee_allowed": true,
+   "outcomes": {
+    "aufgabe": {
+     "text": "He lands badly and folds up, one huge wing at a time. His eye closes last. Up close, he's bigger than you thought.",
+     "folgen": [
+      {
+       "flag": "mo_geier_ruhig"
+      }
+     ]
+    },
+    "ko": {
+     "text": "One hit too many. He beats away into the fog with the collar blinking, and you lose him in three seconds.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "One hit too many. He beats away into the fog with the collar blinking, and you lose him in three seconds.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away, slowly. It watches you all the way.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "You never saw that one coming. You had the sky behind you. Bibi walks you down.",
+     "folgen": []
+    }
+   }
+  },
+  "mochis_schneeleopard": {
+   "title": "Tracks and Nothing Else",
+   "goal": "Wear it down, then throw the Sleep Grenade",
+   "image": "eden_rise_ravine_fork.png",
+   "enemy": "mo_schneeleopard",
+   "level": "duc",
+   "flee_allowed": true,
+   "outcomes": {
+    "aufgabe": {
+     "text": "She fights it on her feet for longer than anything should. Then she lies down on the rock, with her long tail around her, as if that's what she had meant to do.",
+     "folgen": [
+      {
+       "flag": "mo_schneeleopard_ruhig"
+      }
+     ]
+    },
+    "ko": {
+     "text": "One hit too many. You look up and she isn't there. She was never there. There's only a little blood on the stone.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "One hit too many. You look up and she isn't there. She was never there. There's only a little blood on the stone.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away, slowly. It watches you all the way.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "You didn't see any of it. You just wake up, with Bibi's hand on your face.",
+     "folgen": []
+    }
+   }
+  },
+  "mochis_waran": {
+   "title": "Something Long in the Sun",
+   "goal": "Wear it down, then throw the Sleep Grenade",
+   "image": "eden_rise_bone_gorge.png",
+   "enemy": "mo_waran",
+   "level": "duc",
+   "flee_allowed": true,
+   "outcomes": {
+    "aufgabe": {
+     "text": "He stops. He looks at the collar, somehow, and then at you. He lays his head on a warm stone and closes his eyes, as if he had decided to.",
+     "folgen": [
+      {
+       "flag": "mo_waran_ruhig"
+      }
+     ]
+    },
+    "ko": {
+     "text": "One hit too many. He leaves. He doesn't run. He just walks away, and for some reason you don't follow him.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "One hit too many. He leaves. He doesn't run. He just walks away, and for some reason you don't follow him.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away, slowly. It watches you all the way.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "It's only a small bite. You feel fine, and then you don't feel anything. Bibi knows what to do, thank God.",
+     "folgen": []
+    }
+   }
+  }
+ },
+ "taunts": {
+  "agent": {
+   "stimme": "Adrien Morel",
+   "sfx": null,
+   "zeilen": [
+    {
+     "id": "kampf.taunt.agent.0",
+     "text": "Hold still. This won't take long."
+    },
+    {
+     "id": "kampf.taunt.agent.1",
+     "text": "Not yet. I'm reading you."
+    },
+    {
+     "id": "kampf.taunt.agent.2",
+     "text": "Wait for it."
+    },
+    {
+     "id": "kampf.taunt.agent.3",
+     "text": "You blinked. I saw that."
+    },
+    {
+     "id": "kampf.taunt.agent.4",
+     "text": "Nothing personal. Just a long shift."
+    }
+   ]
+  },
+  "pirat": {
+   "stimme": "Ghjuvan Santucci",
+   "sfx": null,
+   "zeilen": [
+    {
+     "id": "kampf.taunt.pirat.0",
+     "text": "Wait for it, little fish."
+    },
+    {
+     "id": "kampf.taunt.pirat.1",
+     "text": "Not yet. Let me enjoy this."
+    },
+    {
+     "id": "kampf.taunt.pirat.2",
+     "text": "Go on, flinch. I'll wait."
+    },
+    {
+     "id": "kampf.taunt.pirat.3",
+     "text": "The sea is patient. So am I."
+    },
+    {
+     "id": "kampf.taunt.pirat.4",
+     "text": "Ha! Look at you, all jumpy."
+    }
+   ]
+  },
+  "dieb": {
+   "stimme": "Santu Ricci",
+   "sfx": null,
+   "zeilen": [
+    {
+     "id": "kampf.taunt.dieb.0",
+     "text": "Watch the hand. No, the other one."
+    },
+    {
+     "id": "kampf.taunt.dieb.1",
+     "text": "Wait... wait... made you look."
+    },
+    {
+     "id": "kampf.taunt.dieb.2",
+     "text": "Easy, easy. I'm just warming up."
+    },
+    {
+     "id": "kampf.taunt.dieb.3",
+     "text": "Nervous? You should be."
+    },
+    {
+     "id": "kampf.taunt.dieb.4",
+     "text": "Which way? You'll never guess."
+    }
+   ]
+  },
+  "brute": {
+   "stimme": "Mattè Ricci",
+   "sfx": null,
+   "zeilen": [
+    {
+     "id": "kampf.taunt.brute.0",
+     "text": "Hmm. Not yet."
+    },
+    {
+     "id": "kampf.taunt.brute.1",
+     "text": "Wait. ...Wait."
+    },
+    {
+     "id": "kampf.taunt.brute.2",
+     "text": "I'm in no hurry."
+    },
+    {
+     "id": "kampf.taunt.brute.3",
+     "text": "Stand still. Easier for both of us."
+    },
+    {
+     "id": "kampf.taunt.brute.4",
+     "text": "Go on. Blink."
+    }
+   ]
+  },
+  "wolff": {
+   "stimme": "Kaspar Wolff",
+   "sfx": null,
+   "zeilen": [
+    {
+     "id": "kampf.taunt.wolff.0",
+     "text": "Patience. You have none, I see."
+    },
+    {
+     "id": "kampf.taunt.wolff.1",
+     "text": "Steady. You lean too far forward."
+    },
+    {
+     "id": "kampf.taunt.wolff.2",
+     "text": "Not yet. Watch the blade."
+    },
+    {
+     "id": "kampf.taunt.wolff.3",
+     "text": "A good soldier waits. You don't."
+    },
+    {
+     "id": "kampf.taunt.wolff.4",
+     "text": "Breathe first. Then fall."
+    }
+   ]
+  },
+  "maxwell": {
+   "stimme": "Maxwell",
+   "sfx": null,
+   "zeilen": [
+    {
+     "id": "kampf.taunt.maxwell.0",
+     "text": "Patience, Number One! Mr. Maximum waits."
+    },
+    {
+     "id": "kampf.taunt.maxwell.1",
+     "text": "Eish, look at you, already flinching!"
+    },
+    {
+     "id": "kampf.taunt.maxwell.2",
+     "text": "Not yet, brother. Not yet."
+    },
+    {
+     "id": "kampf.taunt.maxwell.3",
+     "text": "Breathe in. Mr. Maximum says breathe."
+    },
+    {
+     "id": "kampf.taunt.maxwell.4",
+     "text": "Mr. Maximum is counting. One..."
+    }
+   ]
+  },
+  "riscossore": {
+   "stimme": "U Riscossore",
+   "sfx": null,
+   "zeilen": [
+    {
+     "id": "kampf.taunt.riscossore.0",
+     "text": "I have time. Do you?"
+    },
+    {
+     "id": "kampf.taunt.riscossore.1",
+     "text": "No hurry. The tide is coming."
+    },
+    {
+     "id": "kampf.taunt.riscossore.2",
+     "text": "Shh. Let me finish my orange."
+    },
+    {
+     "id": "kampf.taunt.riscossore.3",
+     "text": "Everybody pays. Just wait."
+    },
+    {
+     "id": "kampf.taunt.riscossore.4",
+     "text": "Wait. It's always worse when you wait."
+    }
+   ]
+  },
+  "bibi": {
+   "stimme": "Bibi",
+   "sfx": null,
+   "zeilen": [
+    {
+     "id": "kampf.taunt.bibi.0",
+     "text": "Wait! Not ready! ...Okay, ready!"
+    },
+    {
+     "id": "kampf.taunt.bibi.1",
+     "text": "Ha! You flinched! I saw it!"
+    },
+    {
+     "id": "kampf.taunt.bibi.2",
+     "text": "Sorry, sorry, this is the fun part."
+    },
+    {
+     "id": "kampf.taunt.bibi.3",
+     "text": "Don't move. I'm aiming. Mostly."
+    },
+    {
+     "id": "kampf.taunt.bibi.4",
+     "text": "Charly, are you watching? Look!"
+    }
+   ]
+  },
+  "charly": {
+   "stimme": "Charly",
+   "sfx": null,
+   "zeilen": [
+    {
+     "id": "kampf.taunt.charly.0",
+     "text": "Wait. Counting. Three... two..."
+    },
+    {
+     "id": "kampf.taunt.charly.1",
+     "text": "You flinched. Four out of ten."
+    },
+    {
+     "id": "kampf.taunt.charly.2",
+     "text": "Not yet. I'm bored, not slow."
+    },
+    {
+     "id": "kampf.taunt.charly.3",
+     "text": "Breathe. It helps. Six out of ten."
+    },
+    {
+     "id": "kampf.taunt.charly.4",
+     "text": "This is the part where you panic."
+    }
+   ]
+  },
+  "danzel": {
+   "stimme": "Danzel",
+   "sfx": null,
+   "zeilen": [
+    {
+     "id": "kampf.taunt.danzel.0",
+     "text": "Behold my final— wait, not yet."
+    },
+    {
+     "id": "kampf.taunt.danzel.1",
+     "text": "Feel my power! ...Any second now."
+    },
+    {
+     "id": "kampf.taunt.danzel.2",
+     "text": "Ha! You fell for— hold on."
+    },
+    {
+     "id": "kampf.taunt.danzel.3",
+     "text": "I am the storm! A small one."
+    },
+    {
+     "id": "kampf.taunt.danzel.4",
+     "text": "Don't move! Please. It's easier."
+    }
+   ]
+  },
+  "sirene": {
+   "stimme": "Ligeia",
+   "sfx": null,
+   "zeilen": [
+    {
+     "id": "kampf.taunt.sirene.0",
+     "text": "Shh, sailor. Listen first."
+    },
+    {
+     "id": "kampf.taunt.sirene.1",
+     "text": "Not yet. I like the waiting."
+    },
+    {
+     "id": "kampf.taunt.sirene.2",
+     "text": "Come closer, sailor. A little more."
+    },
+    {
+     "id": "kampf.taunt.sirene.3",
+     "text": "You hold your breath so nicely."
+    },
+    {
+     "id": "kampf.taunt.sirene.4",
+     "text": "The sea never hurries, sailor."
+    }
+   ]
+  },
+  "maschine": {
+   "stimme": null,
+   "sfx": "kampf_unit01",
+   "zeilen": []
+  },
+  "pale_lady": {
+   "stimme": null,
+   "sfx": "kampf_pale_lady",
+   "zeilen": []
+  },
+  "hund": {
+   "stimme": null,
+   "sfx": "rudel_hunde",
+   "zeilen": []
+  },
+  "ratte": {
+   "stimme": null,
+   "sfx": "rudel_ratten",
+   "zeilen": []
+  },
+  "keiler": {
+   "stimme": null,
+   "sfx": "keiler_ansturm",
+   "zeilen": []
+  },
+  "zischer": {
+   "stimme": null,
+   "sfx": "kampf_viper",
+   "zeilen": []
+  },
+  "raubtier": {
+   "stimme": null,
+   "sfx": "tk_loewe",
+   "zeilen": []
+  },
+  "klein": {
+   "stimme": null,
+   "sfx": "tier_grunt_baby",
+   "zeilen": []
+  },
+  "voegel": {
+   "stimme": null,
+   "sfx": "schiessen_moewe",
+   "zeilen": []
+  },
+  "fledermaus": {
+   "stimme": null,
+   "sfx": "kampf_fledermaeuse",
+   "zeilen": []
+  }
+ }
+}

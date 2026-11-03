@@ -1,0 +1,171 @@
+/* Fishing (27.10.2026) - Deck Glass Noir tokens from client/index.html */
+body.angeln-modus #dock, body.angeln-modus #chat, body.angeln-modus #chatauf, body.angeln-modus #zeitpille, body.angeln-modus #schiff,
+body.angeln-modus #relkarte, body.angeln-modus #figuren, body.angeln-modus #mitte, body.angeln-modus #toast, body.angeln-modus #vmeldung{visibility:hidden}
+#angeln{position:fixed;inset:0;z-index:75;color:var(--perle);user-select:none;-webkit-user-select:none}
+#angeln .ea-vignette{position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(ellipse at 40% 60%,rgba(7,8,11,0) 30%,rgba(7,8,11,.55) 80%),linear-gradient(180deg,rgba(7,8,11,.45),rgba(7,8,11,0) 25%,rgba(7,8,11,0) 60%,rgba(7,8,11,.7))}
+
+/* header */
+.ea-kopf{position:absolute;left:var(--rand);right:var(--rand);top:var(--rand);display:flex;align-items:center;gap:var(--a4);padding:var(--a25) var(--a35) var(--a25) var(--a4);border-radius:var(--r-karte);z-index:3}
+.ea-ort small{display:block;font-size:var(--t-mini);letter-spacing:.18em;text-transform:uppercase;color:var(--perle-dim)}
+.ea-ort b{font:700 var(--t-gross) var(--f-name);color:var(--akz)}
+.ea-wuerfe{display:flex;gap:var(--a2);margin:0 auto}
+.ea-wpip{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;font-size:var(--t-klein);border:1px solid var(--linie-n);background:rgba(243,238,228,.05);color:var(--perle-dim);transition:all .25s}
+.ea-wpip{white-space:nowrap;font-size:var(--t-mini);grid-auto-flow:column;justify-content:center}
+.ea-wpip.jetzt{border-color:var(--akz);box-shadow:0 0 0 3px rgba(216,189,134,.18)}
+.ea-wpip.fisch{background:rgba(216,189,134,.18);border-color:var(--akz);color:var(--akz);font-size:var(--t-mini);letter-spacing:-.05em}
+.ea-wpip.fund{background:rgba(168,213,177,.14);border-color:var(--gut)}
+.ea-wpip.fehl{color:var(--schlecht);border-color:rgba(217,161,152,.5)}
+.ea-knoepfe{display:flex;align-items:center;gap:var(--a2)}
+.ea-knopf{border:1px solid var(--linie-n);background:rgba(243,238,228,.06);border-radius:var(--r-rund);padding:var(--pille-gross);font-size:var(--t-klein)}
+.ea-knopf:hover{border-color:var(--akz)}
+.ea-hinweis{position:absolute;left:50%;top:calc(100% + 8px);transform:translateX(-50%);padding:var(--pille-gross);border-radius:var(--r-rund);background:rgba(9,11,15,.85);border:1px solid var(--akz);font-size:var(--t-klein);white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .2s}
+.ea-hinweis.an{opacity:1}
+.ea-jzahl{color:var(--akz);margin-left:var(--a1);font-family:var(--f-zahl)}
+.ea-leicht{display:flex;align-items:center;gap:var(--a15);font-size:var(--t-klein);color:var(--perle-leise);margin-right:var(--a15);cursor:pointer}
+.ea-leicht input{accent-color:var(--akz)}
+#angeln kbd{font:var(--t-mini) var(--f-zahl);padding:1px var(--a15);border:1px solid var(--linie-n);border-radius:var(--r-taste);background:rgba(7,8,11,.35)}
+
+/* water stage */
+.ea-wasser{position:absolute;left:0;top:0;bottom:0;right:28%;z-index:1;cursor:pointer}
+.ea-leine{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+/* line: a dark edge under a bright thread, so it reads on bright water and dark rocks alike (Duc 28.10.: "Leine klarer") */
+.ea-leine{--spannung:0}
+.ea-leine path{fill:none;vector-effect:non-scaling-stroke;stroke-linecap:round;transition:stroke .3s}
+.ea-leine path.rand{stroke:rgba(10,14,18,.55);stroke-width:calc(4.5px + var(--spannung) * 2px)}
+.ea-leine path.faden{stroke:var(--perle);stroke-width:calc(2px + var(--spannung) * 1.5px)}
+.ea-wasser[data-zustand="drill"] .ea-leine path{animation:eaZittern .18s linear infinite}
+.ea-wasser[data-zustand="drill"] .ea-leine path.faden{stroke:var(--akz)}
+.ea-wasser[data-zustand="riss"] .ea-leine path{stroke-dasharray:4 6;opacity:.35}
+@keyframes eaZittern{0%,100%{transform:translateX(0)}50%{transform:translateX(.4px)}}
+.ea-pose{position:absolute;left:var(--px,50%);top:var(--py,62%);width:16px;height:40px;transform:translate(-50%,-70%);transition:top .4s ease}
+.ea-pose i{display:block;width:100%;height:100%;border-radius:var(--r-taste) var(--r-taste) var(--r-taste) var(--r-taste);background:linear-gradient(180deg,var(--perle) 0 42%,#d9534f 42% 100%);
+  box-shadow:0 4px 14px rgba(0,0,0,.45);animation:eaSchaukeln 2.4s ease-in-out infinite}
+@keyframes eaSchaukeln{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(3px) rotate(3deg)}}
+/* Koeder (30.10.2026): der gebaute Schwimmer von Petru ersetzt den gezeichneten */
+.ea-pose-koeder{width:84px;height:84px}
+.ea-pose-koeder i{background:none;box-shadow:none;border-radius:0}
+.ea-pose-koeder img{display:block;width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 4px 8px rgba(0,0,0,.5))}
+.ea-wasser[data-zustand="wurf"] .ea-pose{top:20%;opacity:.0}
+.ea-wasser[data-zustand="biss"] .ea-pose i{animation:eaBiss .32s ease-in-out infinite}
+@keyframes eaBiss{0%,100%{transform:translateY(0)}50%{transform:translateY(16px) scaleY(.7)}}
+.ea-wasser[data-zustand="drill"] .ea-pose i{animation:eaDrillPose .5s ease-in-out infinite}
+@keyframes eaDrillPose{0%,100%{transform:translateY(10px) rotate(-12deg)}50%{transform:translateY(16px) rotate(10deg)}}
+.ea-welle{position:absolute;left:var(--px,50%);top:var(--py,62%);width:120px;height:26px;margin:-13px 0 0 -60px;border-radius:50%;border:2px solid rgba(243,238,228,.35);
+  animation:eaWelle 2.8s ease-out infinite;pointer-events:none}
+.ea-welle.w2{animation-delay:1.4s}
+.ea-wasser[data-zustand="biss"] .ea-welle{animation-duration:.8s;border-color:rgba(243,238,228,.6)}
+@keyframes eaWelle{0%{transform:scale(.3);opacity:.9}100%{transform:scale(1.8);opacity:0}}
+.ea-schatten{position:absolute;left:calc(var(--px,50%) - 9%);top:calc(var(--py,62%) - 1%);width:min(190px,18vw);filter:brightness(0) blur(1.5px);opacity:0;transition:opacity .6s;pointer-events:none}
+.ea-wasser[data-zustand="biss"] .ea-schatten,.ea-wasser[data-zustand="drill"] .ea-schatten{opacity:.42}
+.ea-wasser[data-zustand="drill"] .ea-schatten{animation:eaSchwimmen 1.4s ease-in-out infinite alternate}
+@keyframes eaSchwimmen{0%{transform:translateX(-40px) rotate(-4deg)}100%{transform:translateX(40px) rotate(4deg)}}
+
+/* reel bar */
+.ea-drill{position:absolute;right:calc(var(--rand) + 4%);top:50%;transform:translate(0,-50%) scale(.96);display:grid;justify-items:center;gap:var(--a3);z-index:2;
+  opacity:0;pointer-events:none;transition:opacity .25s,transform .25s}
+.ea-drill.an{opacity:1;pointer-events:auto;transform:translate(0,-50%) scale(1)}
+.ea-drill-titel{font:750 var(--t-gross) var(--f-name);color:var(--akz);text-shadow:0 2px 10px rgba(0,0,0,.7);letter-spacing:-.01em}
+.ea-drill-titel.s3{color:var(--gold-hell);animation:eaPuls .5s ease-in-out infinite alternate}
+.ea-pips{display:flex;gap:var(--a2)}
+.ea-pips i{width:16px;height:16px;border-radius:50%;border:2px solid var(--akz);transition:background .2s,transform .2s}
+.ea-pips i.voll{background:var(--akz);transform:scale(1.15)}
+.ea-balken{position:relative;width:74px;height:min(60vh,520px);border-radius:var(--r-rund);background:linear-gradient(180deg,rgba(9,11,15,.82),rgba(20,30,40,.82));
+  border:1px solid var(--linie);box-shadow:inset 0 0 22px rgba(0,0,0,.6),0 18px 50px rgba(0,0,0,.45);overflow:hidden;cursor:pointer}
+.ea-zone{position:absolute;left:6px;right:6px;border-radius:var(--r-karte);background:linear-gradient(180deg,rgba(216,189,134,.55),rgba(216,189,134,.9),rgba(216,189,134,.55));
+  box-shadow:0 0 18px rgba(216,189,134,.55);transition:bottom .22s ease}
+.ea-zone.knapp{background:linear-gradient(180deg,rgba(217,161,152,.6),rgba(217,161,152,.95),rgba(217,161,152,.6));box-shadow:0 0 18px rgba(217,161,152,.6);animation:eaKnapp .4s ease-in-out infinite}
+@keyframes eaKnapp{50%{opacity:.6}}
+.ea-punkt{position:absolute;left:50%;width:30px;height:30px;margin:0 0 -15px -15px;border-radius:50%;background:var(--perle);border:3px solid var(--ink);
+  box-shadow:0 0 0 2px rgba(243,238,228,.35),0 4px 10px rgba(0,0,0,.5);transition:background .1s}
+.ea-punkt.drin{background:var(--akz);box-shadow:0 0 0 4px rgba(216,189,134,.35),0 0 18px rgba(216,189,134,.8)}
+.ea-balken.treffer{animation:eaTreffer .35s ease}
+.ea-balken.fehl{animation:eaFehl .35s ease}
+@keyframes eaTreffer{30%{box-shadow:inset 0 0 22px rgba(0,0,0,.6),0 0 0 6px rgba(216,189,134,.55)}}
+@keyframes eaFehl{20%{transform:translateX(-6px);box-shadow:inset 0 0 22px rgba(0,0,0,.6),0 0 0 6px rgba(217,161,152,.6)}40%{transform:translateX(6px)}60%{transform:translateX(-3px)}}
+.ea-reel{border:1px solid var(--linie);background:rgba(9,11,15,.7);border-radius:var(--r-rund);padding:var(--pille-gross);font-weight:600}
+
+/* centre card */
+.ea-karte-mitte{position:absolute;left:36%;top:52%;transform:translate(-50%,-50%);z-index:4;width:min(440px,calc(100vw - 40px));padding:var(--a5) var(--a5);border-radius:var(--r-panel);
+  display:grid;justify-items:center;text-align:center;gap:var(--a2);animation:eaKarte .3s ease}
+.ea-karte-mitte[hidden]{display:none}
+@keyframes eaKarte{from{opacity:0;transform:translate(-50%,-46%)}to{opacity:1;transform:translate(-50%,-50%)}}
+.ea-karte-mitte small{font-size:var(--t-mini);letter-spacing:.18em;text-transform:uppercase;color:var(--perle-dim)}
+.ea-karte-mitte > b{font:750 var(--t-titel)/1.15 var(--f-name);color:var(--akz)}
+.ea-hilfe b{color:var(--perle)}
+.ea-karte-mitte p{margin:0;color:var(--perle-leise);line-height:1.5}
+.ea-hilfe{font-size:var(--t-info);text-align:left}.ea-hilfe .gold{color:var(--akz);font-weight:600}
+.ea-gross{margin-top:var(--a2);border:0;border-radius:var(--r-rund);padding:var(--pille-knopf);background:var(--akz);color:var(--ink);font-weight:700;font-size:var(--t-text);display:inline-flex;gap:var(--a2);align-items:center}
+.ea-gross kbd{border-color:rgba(7,8,11,.3)!important;background:rgba(7,8,11,.12)!important}
+.ea-gross small{color:rgba(7,8,11,.6)!important;letter-spacing:0!important;text-transform:none!important;font-size:var(--t-klein)!important}
+.ea-karte-mitte.strike{top:26%;width:auto;padding:var(--a35) var(--a6);background:rgba(9,11,15,.55);border-color:var(--akz)}
+.ea-strike{font-size:var(--t-held)!important;animation:eaPuls .35s ease-in-out infinite alternate}
+@keyframes eaPuls{to{transform:scale(1.08)}}
+.ea-karte-mitte.zufrueh b{color:var(--schlecht)}
+.ea-fang-bild{width:min(300px,70%);filter:drop-shadow(0 10px 18px rgba(0,0,0,.55));animation:eaHoch .6s cubic-bezier(.2,1.4,.4,1)}
+@keyframes eaHoch{from{transform:translateY(40px) rotate(-12deg) scale(.7);opacity:0}to{transform:none;opacity:1}}
+.ea-sterne{font-size:var(--t-unter);color:var(--akz);letter-spacing:2px}.ea-sterne i{font-style:normal;color:rgba(243,238,228,.2)}
+.ea-roh b{font:600 var(--t-text) var(--f-ui)!important;color:var(--perle)!important}
+.ea-perfekt{color:var(--gut)!important;font-size:var(--t-info)}
+.ea-neu{position:absolute;top:14px;right:14px;font-size:var(--t-mini);letter-spacing:.12em;text-transform:uppercase;padding:var(--a1) var(--a25);border-radius:var(--r-rund);background:var(--akz);color:var(--ink);font-weight:700}
+.ea-bonus{display:grid;gap:var(--a1);margin-top:var(--a15);padding:var(--karte-pad-klein);border-radius:var(--r-mittel);border:1px solid var(--akz);background:rgba(216,189,134,.12)}
+.ea-bonus b{font-size:var(--t-gross)!important}.ea-bonus span{font-size:var(--t-info);color:var(--perle-leise)}
+.ea-fund-icon,.ea-fehl-icon{font-size:var(--t-buehne);line-height:1}
+.ea-plus{color:var(--gut);font-weight:600}.ea-plus small{display:block;margin-top:2px}
+.ea-karte-mitte.fehl b{color:var(--schlecht)}
+
+/* journal */
+.ea-journal{position:absolute;right:var(--rand);top:calc(var(--rand) + 70px);bottom:var(--rand);width:min(560px,calc(100vw - 40px));z-index:6;border-radius:var(--r-karte);background:rgba(9,11,15,.92)!important;
+  padding:var(--a4) var(--a4);overflow:auto;animation:eaKarte2 .25s ease}
+@keyframes eaKarte2{from{opacity:0;transform:translateX(12px)}to{opacity:1;transform:none}}
+.ea-journal header{display:flex;align-items:center;gap:var(--a25);margin-bottom:var(--a2)}.ea-journal header b{font:750 var(--t-unter) var(--f-name);color:var(--akz)}
+.ea-journal header small{color:var(--perle-dim);font-family:var(--f-zahl)}.ea-journal header .ea-knopf{margin-left:auto}
+.ea-journal h4{margin:var(--a35) 0 var(--a15);font:700 var(--t-text) var(--f-name);display:flex;justify-content:space-between}.ea-journal h4 small{color:var(--perle-dim);font-family:var(--f-zahl)}
+.ea-jbalken{height:6px;border-radius:var(--r-taste);background:rgba(243,238,228,.08);overflow:hidden;margin-bottom:var(--a25)}.ea-jbalken i{display:block;height:100%;background:var(--akz)}
+.ea-jgitter{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:var(--a2)}
+.ea-jfisch{display:grid;justify-items:center;gap:3px;padding:var(--karte-pad-klein);border-radius:var(--r-mittel);background:rgba(243,238,228,.05);border:1px solid var(--linie-n);text-align:center}
+.ea-jfisch img{width:80px;height:46px;object-fit:contain}.ea-jfisch b{font-size:var(--t-klein);line-height:1.2}.ea-jfisch small{font-size:var(--t-mini);color:var(--perle-dim)}
+.ea-jfisch.unbekannt img{filter:brightness(0) invert(.32);opacity:.7}.ea-jfisch.unbekannt b{color:var(--perle-dim)}
+.ea-jbonus{margin:var(--a25) 0 0;font-size:var(--t-klein);color:var(--perle-dim)}.ea-jbonus.frei{color:var(--gut)}
+
+/* fishing cards on the choice screen */
+.ea-karte .bild{position:relative}
+.ea-karte-icon{position:absolute;right:10px;bottom:8px;font-size:var(--t-unter);filter:drop-shadow(0 2px 4px rgba(0,0,0,.6))}
+.ea-karte.ea-zu{opacity:.55;filter:grayscale(.6)}
+
+@media (max-width:900px){.ea-wasser{right:0}.ea-karte-mitte{left:50%}.ea-drill{right:var(--rand)}}
+@media (prefers-reduced-motion:reduce){.ea-pose i,.ea-welle,.ea-schatten,.ea-strike,.ea-fang-bild{animation:none!important}}
+
+/* nothing in the water before the cast, and the deck is calm again after the result */
+.ea-wasser[data-zustand="bereit"] .ea-leine,.ea-wasser[data-zustand="bereit"] .ea-pose,.ea-wasser[data-zustand="bereit"] .ea-welle,
+.ea-wasser[data-zustand="wurf"] .ea-welle,.ea-wasser[data-zustand="fang"] .ea-pose{visibility:hidden}
+.ea-leine,.ea-pose,.ea-welle{transition:opacity .4s}
+.ea-wasser[data-zustand="fang"] .ea-welle{animation-duration:.6s;border-color:rgba(243,238,228,.8)}
+
+#angeln.journal-auf .ea-karte-mitte{opacity:0;pointer-events:none}
+/* Journal notes with Petru's line (28.10.2026) */
+.ea-jfisch[data-fisch]{cursor:pointer}.ea-jfisch.gewaehlt{border-color:var(--akz)}
+.ea-jnotiz{margin:var(--a1) 0 var(--a15);padding:var(--karte-pad-klein);border-radius:var(--r-mittel);border:1px solid var(--linie-n);background:rgba(243,238,228,.04);font-size:var(--t-klein)}
+.ea-jnotiz b{font:700 var(--t-text) var(--f-name);color:var(--akz)}.ea-jnotiz p{margin:var(--a1) 0 0;color:var(--perle-leise)}
+.ea-jnotiz.leer{color:var(--perle-dim)}.ea-jpetru{font-style:italic}.ea-jpetru span{font-style:normal;color:var(--perle-dim)}
+
+/* Fishing circle left of the cabin circle (Duc 29.10.2026), same look as .kabkreis in client/index.html */
+.kopfzeile.mit-angel{position:relative;min-height:118px}
+.kopfzeile.mit-kab.mit-angel{padding-right:262px}
+.kopfzeile.mit-angel:not(.mit-kab){padding-right:132px}
+.eakreis-wrap{position:absolute;right:136px;top:0}
+.kopfzeile:not(.mit-kab) .eakreis-wrap{right:6px}
+.eakreis{position:relative;display:flex;flex-direction:column;align-items:center;gap:var(--a15);background:none;border:0;padding:0;font:inherit;color:var(--perle);cursor:pointer}
+.eakreis .bild{width:100px;height:100px;border-radius:50%;background-size:cover;background-position:center;box-shadow:0 0 0 2px var(--akz),0 0 0 7px rgba(216,189,134,.18),0 10px 28px rgba(0,0,0,.45);transition:transform .2s ease,box-shadow .2s ease}
+.eakreis:hover .bild,.eakreis:focus-visible .bild{transform:scale(1.05);box-shadow:0 0 0 2px var(--akz),0 0 0 10px rgba(216,189,134,.28),0 12px 30px rgba(0,0,0,.5)}
+.eakreis .lab{font-size:var(--t-klein);letter-spacing:.12em;text-transform:uppercase;color:var(--akz);display:flex;gap:var(--a15);align-items:center;white-space:nowrap}
+.eakreis kbd{font:600 var(--t-mini) var(--f-ui);border:1px solid var(--linie);border-radius:var(--r-taste);padding:1px var(--a1);color:var(--perle-leise);letter-spacing:0}
+.eakreis-zahl{position:absolute;top:2px;right:0;min-width:24px;height:24px;padding:0 var(--a15);border-radius:var(--r-mittel);background:var(--akz);color:var(--ink);font:700 var(--t-klein)/24px var(--f-ui);font-style:normal;text-align:center;box-shadow:0 0 0 3px rgba(12,12,16,.8)}
+.eakreis.zu{cursor:default}.eakreis.zu .bild{filter:grayscale(1) brightness(.6);box-shadow:0 0 0 2px var(--linie)}
+.eakreis.zu .lab{color:var(--perle-dim);text-transform:none;letter-spacing:.02em}
+.eakreis-liste{position:absolute;top:128px;right:-60px;z-index:20;display:grid;gap:var(--a15);padding:var(--a25);border-radius:var(--r-karte);min-width:260px}
+.eakreis-liste[hidden]{display:none}
+.eakreis-liste button{display:flex;gap:var(--a25);align-items:center;text-align:left;background:rgba(243,238,228,.04);border:1px solid var(--linie-n);border-radius:var(--r-mittel);padding:var(--karte-pad-klein);color:var(--perle);font:inherit;cursor:pointer}
+.eakreis-liste button:disabled{opacity:.5;cursor:default}
+.eakreis-liste .bild{width:44px;height:44px;border-radius:50%;background-size:cover;background-position:center;flex:none}
+.eakreis-liste b{display:block;font-weight:600}.eakreis-liste small{color:var(--perle-dim)}

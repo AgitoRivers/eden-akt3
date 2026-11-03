@@ -1,0 +1,1638 @@
+{
+ "id": "englisch_items",
+ "titel": "Englisch · Gegenstände (196)",
+ "hinweis": "Namen und Beschreibungen aller Gegenstände auf Englisch (britische Schreibung). Pytt i panna wird Pyttipanne (norwegisch, wegen K3/E-055). Deutsch bleibt in den Daten als Vorlage fürs spätere Mapping.",
+ "gruppen": [
+  {
+   "titel": "Geschenke",
+   "items": [
+    {
+     "key": "item:arancini.label",
+     "feld": "Name",
+     "alt": "Arancini vom Bäcker",
+     "neu": "Arancini from the Bakery"
+    },
+    {
+     "key": "item:olive_oil.label",
+     "feld": "Name",
+     "alt": "Korsisches Olivenöl",
+     "neu": "Corsican Olive Oil"
+    },
+    {
+     "key": "item:lolas_gewuerz.label",
+     "feld": "Name",
+     "alt": "Lolas Gewürzmischung „Ocean Glitter“",
+     "neu": "Lola's Spice Mix “Ocean Glitter”"
+    },
+    {
+     "key": "item:tim_tams.label",
+     "feld": "Name",
+     "alt": "Tim Tams aus Alvas Bar",
+     "neu": "Tim Tams from Alva's Bar"
+    },
+    {
+     "key": "item:tim_tams.text",
+     "feld": "Beschreibung",
+     "alt": "Die einzigen australischen Kekse in ganz Korsika. Lola weint ein bisschen.",
+     "neu": "The only Australian biscuits in all of Corsica. Lola cries a little."
+    },
+    {
+     "key": "item:lolas_kekse.label",
+     "feld": "Name",
+     "alt": "Ein Teller von Lolas Keksen",
+     "neu": "A Plate of Lola's Biscuits"
+    },
+    {
+     "key": "item:lolas_kekse.text",
+     "feld": "Beschreibung",
+     "alt": "Megan isst keinen Zucker. Außer diesen.",
+     "neu": "Megan doesn't eat sugar. Except these."
+    },
+    {
+     "key": "item:feigen.label",
+     "feld": "Name",
+     "alt": "Korsische Feigen",
+     "neu": "Corsican Figs"
+    },
+    {
+     "key": "item:proteinriegel.label",
+     "feld": "Name",
+     "alt": "Proteinriegel",
+     "neu": "Protein Bar"
+    },
+    {
+     "key": "item:franzbroetchen.label",
+     "feld": "Name",
+     "alt": "Franzbrötchen (selbst gebacken)",
+     "neu": "Franzbrötchen (Homemade)"
+    },
+    {
+     "key": "item:franzbroetchen.text",
+     "feld": "Beschreibung",
+     "alt": "Wie in Hamburg. Fast. Lola hat geholfen.",
+     "neu": "Like in Hamburg. Almost. Lola helped."
+    },
+    {
+     "key": "item:canistrelli.label",
+     "feld": "Name",
+     "alt": "Canistrelli mit Anis",
+     "neu": "Aniseed Canistrelli"
+    },
+    {
+     "key": "item:canistrelli.text",
+     "feld": "Beschreibung",
+     "alt": "Korsisches Gebäck, hält ewig.",
+     "neu": "Corsican biscuits that keep forever."
+    },
+    {
+     "key": "item:myrtle.label",
+     "feld": "Name",
+     "alt": "Myrtenlikör",
+     "neu": "Myrtle Liqueur"
+    },
+    {
+     "key": "item:single_malt.label",
+     "feld": "Name",
+     "alt": "Single Malt aus Islay",
+     "neu": "Islay Single Malt"
+    },
+    {
+     "key": "item:limoncello.label",
+     "feld": "Name",
+     "alt": "Hausgemachter Limoncello",
+     "neu": "Homemade Limoncello"
+    },
+    {
+     "key": "item:cap_corse.label",
+     "feld": "Name",
+     "alt": "Cap Corse Aperitif",
+     "neu": "Cap Corse Aperitif"
+    },
+    {
+     "key": "item:pink_pearl.label",
+     "feld": "Name",
+     "alt": "Rosa Perle an feiner Kette",
+     "neu": "Pink Pearl on a Fine Chain"
+    },
+    {
+     "key": "item:designer_perfume.label",
+     "feld": "Name",
+     "alt": "Designerparfum",
+     "neu": "Designer Perfume"
+    },
+    {
+     "key": "item:shell_anklet.label",
+     "feld": "Name",
+     "alt": "Fußkettchen mit Muschel",
+     "neu": "Shell Anklet"
+    },
+    {
+     "key": "item:herzbrille.label",
+     "feld": "Name",
+     "alt": "Diva-Sonnenbrille in Herzform",
+     "neu": "Heart-Shaped Diva Sunglasses"
+    },
+    {
+     "key": "item:goldkette.label",
+     "feld": "Name",
+     "alt": "Dicke Goldkette (vermutlich echt)",
+     "neu": "Thick Gold Chain (Probably Real)"
+    },
+    {
+     "key": "item:designer_sonnenbrille.label",
+     "feld": "Name",
+     "alt": "Designer-Sonnenbrille",
+     "neu": "Designer Sunglasses"
+    },
+    {
+     "key": "item:silberring.label",
+     "feld": "Name",
+     "alt": "Schmaler Silberring vom Markt",
+     "neu": "Slim Silver Ring from the Market"
+    },
+    {
+     "key": "item:torque_wrench.label",
+     "feld": "Name",
+     "alt": "Profi-Drehmomentschlüssel",
+     "neu": "Professional Torque Wrench"
+    },
+    {
+     "key": "item:dive_torch.label",
+     "feld": "Name",
+     "alt": "Tauchlampe",
+     "neu": "Dive Torch"
+    },
+    {
+     "key": "item:moka.label",
+     "feld": "Name",
+     "alt": "Neapolitanische Espressokanne",
+     "neu": "Neapolitan Moka Pot"
+    },
+    {
+     "key": "item:selfie_stick.label",
+     "feld": "Name",
+     "alt": "Selfie-Stick aus Karbon",
+     "neu": "Carbon Selfie Stick"
+    },
+    {
+     "key": "item:polbrille.label",
+     "feld": "Name",
+     "alt": "Polarisierte Sonnenbrille",
+     "neu": "Polarised Sunglasses"
+    },
+    {
+     "key": "item:schweizer_messer.label",
+     "feld": "Name",
+     "alt": "Taschenmesser",
+     "neu": "Pocket Knife"
+    },
+    {
+     "key": "item:fountain_pen.label",
+     "feld": "Name",
+     "alt": "Füllfederhalter",
+     "neu": "Fountain Pen"
+    },
+    {
+     "key": "item:notebook.label",
+     "feld": "Name",
+     "alt": "Notizbuch aus Leder",
+     "neu": "Leather Notebook"
+    },
+    {
+     "key": "item:gedichtband.label",
+     "feld": "Name",
+     "alt": "Gedichtband aus dem Antiquariat",
+     "neu": "Second-Hand Book of Poems"
+    },
+    {
+     "key": "item:almanac.label",
+     "feld": "Name",
+     "alt": "Nautischer Almanach",
+     "neu": "Nautical Almanac"
+    },
+    {
+     "key": "item:old_chart.label",
+     "feld": "Name",
+     "alt": "Alte Seekarte der Westküste",
+     "neu": "Old Chart of the West Coast"
+    },
+    {
+     "key": "item:pinup_magazin.label",
+     "feld": "Name",
+     "alt": "Herrenmagazin mit Pin-up",
+     "neu": "Men's Magazine with a Pin-Up"
+    },
+    {
+     "key": "item:pinup_magazin.text",
+     "feld": "Beschreibung",
+     "alt": "Italienisches Magazin, auf dem Titel eine schöne, halbnackte Frau. Totò liest es „wegen der Artikel“.",
+     "neu": "An Italian magazine with a beautiful, half-naked woman on the cover. Totò reads it “for the articles”."
+    },
+    {
+     "key": "item:ducs_gedicht.label",
+     "feld": "Name",
+     "alt": "Ducs Gedicht über das Meer",
+     "neu": "Duc's Poem about the Sea"
+    },
+    {
+     "key": "item:muschelkette_kinder.label",
+     "feld": "Name",
+     "alt": "Selbstgemachte Muschelkette mit Perlen",
+     "neu": "Homemade Shell Necklace with Beads"
+    },
+    {
+     "key": "item:muschelkette_kinder.text",
+     "feld": "Beschreibung",
+     "alt": "Von den Dorfkindern gebastelt, ein bisschen schief. Siri trägt sie sofort.",
+     "neu": "Made by the village children, a little crooked. Siri puts it on straight away."
+    },
+    {
+     "key": "item:pretty_shell.label",
+     "feld": "Name",
+     "alt": "Schöne Muschel",
+     "neu": "A Beautiful Shell"
+    },
+    {
+     "key": "item:seeglas.label",
+     "feld": "Name",
+     "alt": "Grünes Seeglas",
+     "neu": "Green Sea Glass"
+    },
+    {
+     "key": "item:alvas_rose.label",
+     "feld": "Name",
+     "alt": "Alvas Rose",
+     "neu": "Alva's Rose"
+    },
+    {
+     "key": "item:wool_socks.label",
+     "feld": "Name",
+     "alt": "Handgestrickte Wollsocken",
+     "neu": "Hand-Knitted Wool Socks"
+    },
+    {
+     "key": "item:wollmuetze.label",
+     "feld": "Name",
+     "alt": "Wollmütze mit Norwegermuster",
+     "neu": "Wool Hat with a Nordic Pattern"
+    },
+    {
+     "key": "item:candles.label",
+     "feld": "Name",
+     "alt": "Duftkerzen „Maquis“",
+     "neu": "Scented Candles “Maquis”"
+    },
+    {
+     "key": "item:messing_anker.label",
+     "feld": "Name",
+     "alt": "Messing-Anker als Schlüsselanhänger",
+     "neu": "Brass Anchor Keyring"
+    },
+    {
+     "key": "item:messing_anker.text",
+     "feld": "Beschreibung",
+     "alt": "Rostig, aus der Bucht geangelt.",
+     "neu": "Rusty, fished out of the bay."
+    },
+    {
+     "key": "item:macchia_strauss.label",
+     "feld": "Name",
+     "alt": "Strauß aus der Macchia",
+     "neu": "Bouquet from the Macchia"
+    },
+    {
+     "key": "item:macchia_strauss.text",
+     "feld": "Beschreibung",
+     "alt": "Wilde Myrte und Rosmarin vom Hang.",
+     "neu": "Wild myrtle and rosemary from the hillside."
+    },
+    {
+     "key": "item:korallenzweig.label",
+     "feld": "Name",
+     "alt": "Kleiner Korallenzweig (Strandfund)",
+     "neu": "Small Branch of Coral (Beach Find)"
+    },
+    {
+     "key": "item:bauchnabelpiercing.label",
+     "feld": "Name",
+     "alt": "Bauchnabelpiercing mit Muschel",
+     "neu": "Belly Button Piercing with a Shell"
+    },
+    {
+     "key": "item:eden_cap.label",
+     "feld": "Name",
+     "alt": "Eden-Group-Kappe",
+     "neu": "Eden Group Cap"
+    },
+    {
+     "key": "item:goldfisch.label",
+     "feld": "Name",
+     "alt": "Goldfisch in der Wassertüte",
+     "neu": "Goldfish in a Water Bag"
+    },
+    {
+     "key": "item:goldfisch.text",
+     "feld": "Beschreibung",
+     "alt": "Vom Festa-Stand. Lea nennt ihn sofort irgendwie.",
+     "neu": "From a stall at the Festa. Lea names it immediately, somehow."
+    },
+    {
+     "key": "item:konfetti.label",
+     "feld": "Name",
+     "alt": "Tüte Konfetti",
+     "neu": "Bag of Confetti"
+    },
+    {
+     "key": "item:schaerpe.label",
+     "feld": "Name",
+     "alt": "Glitzer-Schärpe „Miss Cala d'Orsu“",
+     "neu": "Glitter Sash “Miss Cala d'Orsu”"
+    },
+    {
+     "key": "item:faecher.label",
+     "feld": "Name",
+     "alt": "Flamenco-Fächer",
+     "neu": "Flamenco Fan"
+    },
+    {
+     "key": "item:lichterkette.label",
+     "feld": "Name",
+     "alt": "Solar-Lichterkette",
+     "neu": "Solar Fairy Lights"
+    },
+    {
+     "key": "item:ukulele.label",
+     "feld": "Name",
+     "alt": "Gebrauchte Ukulele",
+     "neu": "Second-Hand Ukulele"
+    },
+    {
+     "key": "item:massage_oil.label",
+     "feld": "Name",
+     "alt": "Massageöl mit Neroli",
+     "neu": "Neroli Massage Oil"
+    },
+    {
+     "key": "item:silk_blindfold.label",
+     "feld": "Name",
+     "alt": "Seidene Augenbinde",
+     "neu": "Silk Blindfold"
+    },
+    {
+     "key": "item:silk_kimono.label",
+     "feld": "Name",
+     "alt": "Seidenkimono",
+     "neu": "Silk Kimono"
+    },
+    {
+     "key": "item:massage_candle.label",
+     "feld": "Name",
+     "alt": "Massagekerze mit Wärmeöl",
+     "neu": "Massage Candle with Warming Oil"
+    },
+    {
+     "key": "item:stockings.label",
+     "feld": "Name",
+     "alt": "Halterlose Strümpfe mit Spitzenrand",
+     "neu": "Lace-Top Hold-Up Stockings"
+    },
+    {
+     "key": "item:satin_ties.label",
+     "feld": "Name",
+     "alt": "Satin-Fesselband fürs Bett",
+     "neu": "Satin Bed Restraints"
+    },
+    {
+     "key": "item:nipple_clamps.label",
+     "feld": "Name",
+     "alt": "Nippelklemmen mit Kettchen",
+     "neu": "Nipple Clamps with a Chain"
+    },
+    {
+     "key": "item:lingerie.label",
+     "feld": "Name",
+     "alt": "Spitzen-Dessous in Champagner",
+     "neu": "Champagne Lace Lingerie"
+    },
+    {
+     "key": "item:plush_cuffs.label",
+     "feld": "Name",
+     "alt": "Plüsch-Handschellen",
+     "neu": "Plush Handcuffs"
+    },
+    {
+     "key": "item:eden_wave.label",
+     "feld": "Name",
+     "alt": "Vibrator „Eden Wave“",
+     "neu": "Vibrator “Eden Wave”"
+    },
+    {
+     "key": "item:jeweled_plug.label",
+     "feld": "Name",
+     "alt": "Butt Plug mit Schmuckstein",
+     "neu": "Jewelled Butt Plug"
+    },
+    {
+     "key": "item:flamenco_dessous.label",
+     "feld": "Name",
+     "alt": "Dessous mit Rüschen",
+     "neu": "Ruffled Lingerie"
+    },
+    {
+     "key": "item:flamenco_dessous.text",
+     "feld": "Beschreibung",
+     "alt": "Rot und schwarz, aus Alvas eigenem Laden unter der Theke.",
+     "neu": "Red and black, from Alva's own stock under the counter."
+    }
+   ]
+  },
+  {
+   "titel": "Einzigartige Geschenke",
+   "items": [
+    {
+     "key": "item:chiara_tasse.label",
+     "feld": "Name",
+     "alt": "Eine Tasse nur für sie",
+     "neu": "A Cup Just for Her"
+    },
+    {
+     "key": "item:chiara_tasse.text",
+     "feld": "Beschreibung",
+     "alt": "Handbemalt in Petrus Werkstatt, mit ihrem Namen. Für sie, nicht für die Gäste. Kette: Petru + Lola.",
+     "neu": "Hand-painted in Petru's workshop, with her name on it. For her, not for the guests. Chain: Petru + Lola."
+    },
+    {
+     "key": "item:rosi_schild.label",
+     "feld": "Name",
+     "alt": "Werkstattschild „Scuderi & Figlie“",
+     "neu": "Workshop Sign “Scuderi & Figlie”"
+    },
+    {
+     "key": "item:rosi_schild.text",
+     "feld": "Beschreibung",
+     "alt": "Aus Treibholz, von Petru geschnitzt. Für die Werkstatt, die sie eines Tages haben will.",
+     "neu": "Carved from driftwood by Petru. For the workshop she wants to have one day."
+    },
+    {
+     "key": "item:sophia_fueller.label",
+     "feld": "Name",
+     "alt": "Füller mit ihrem eigenen Namen",
+     "neu": "A Pen with Her Own Name"
+    },
+    {
+     "key": "item:sophia_fueller.text",
+     "feld": "Beschreibung",
+     "alt": "Graviert mit Sophia Moore, nicht mit irgendeinem anderen Namen. Für das, was sie selbst schreiben will.",
+     "neu": "Engraved with Sophia Moore, not with any other name. For what she wants to write herself."
+    },
+    {
+     "key": "item:lea_tauchcomputer.label",
+     "feld": "Name",
+     "alt": "Tauchcomputer",
+     "neu": "Dive Computer"
+    },
+    {
+     "key": "item:lea_tauchcomputer.text",
+     "feld": "Beschreibung",
+     "alt": "Für ihre eigenen Pläne, sicher geplant. Kette: Elsa + Totò.",
+     "neu": "For her own plans, safely planned. Chain: Elsa + Totò."
+    },
+    {
+     "key": "item:siri_ratgeber.label",
+     "feld": "Name",
+     "alt": "Ratgeber: Die Kunst der Fischerei auf Korsika",
+     "neu": "Guide: The Art of Fishing in Corsica"
+    },
+    {
+     "key": "item:siri_ratgeber.text",
+     "feld": "Beschreibung",
+     "alt": "Aus Petrus Erzählungen, von Hand gebunden. Für ihren Vater.",
+     "neu": "From Petru's stories, bound by hand. For her father."
+    },
+    {
+     "key": "item:lola_vegemite.label",
+     "feld": "Name",
+     "alt": "Ein Glas Vegemite",
+     "neu": "A Jar of Vegemite"
+    },
+    {
+     "key": "item:lola_vegemite.text",
+     "feld": "Beschreibung",
+     "alt": "Aus Alvas Geheimvorrat. Lola nennt es Heimat in braun.",
+     "neu": "From Alva's secret stash. Lola calls it home in brown."
+    },
+    {
+     "key": "item:alva_kastagnetten.label",
+     "feld": "Name",
+     "alt": "Die Kastagnetten ihrer Großmutter",
+     "neu": "Her Grandmother's Castanets"
+    },
+    {
+     "key": "item:alva_kastagnetten.text",
+     "feld": "Beschreibung",
+     "alt": "Von Petru repariert. Kette: Alva + Petru.",
+     "neu": "Repaired by Petru. Chain: Alva + Petru."
+    },
+    {
+     "key": "item:megan_crewkarte.label",
+     "feld": "Name",
+     "alt": "Eine Karte, von der ganzen Crew unterschrieben",
+     "neu": "A Card Signed by the Whole Crew"
+    },
+    {
+     "key": "item:megan_crewkarte.text",
+     "feld": "Beschreibung",
+     "alt": "Gerahmt. Nichts davon kann man kaufen.",
+     "neu": "Framed. None of it can be bought."
+    },
+    {
+     "key": "item:holm_lakritz.label",
+     "feld": "Name",
+     "alt": "Eine Dose norwegischer Salzlakritz",
+     "neu": "A Tin of Norwegian Salt Liquorice"
+    },
+    {
+     "key": "item:holm_lakritz.text",
+     "feld": "Beschreibung",
+     "alt": "Bring-mir-Auftrag: Elsa bringt sie ins Krankenhaus.",
+     "neu": "Bring-me job: Elsa takes it to the hospital."
+    },
+    {
+     "key": "item:toto_gennaro.label",
+     "feld": "Name",
+     "alt": "Figur des San Gennaro aus Neapel",
+     "neu": "San Gennaro Figurine from Naples"
+    },
+    {
+     "key": "item:toto_gennaro.text",
+     "feld": "Beschreibung",
+     "alt": "Kette: der Cousin aus Bastia + Alva.",
+     "neu": "Chain: the cousin from Bastia + Alva."
+    },
+    {
+     "key": "item:yasin_goldbrille.label",
+     "feld": "Name",
+     "alt": "Goldene Sonnenbrille „Monaco“",
+     "neu": "Gold Sunglasses “Monaco”"
+    },
+    {
+     "key": "item:elsa_strafzettelblock.label",
+     "feld": "Name",
+     "alt": "Strafzettelblock, in Leder gebunden",
+     "neu": "Leather-Bound Ticket Book"
+    },
+    {
+     "key": "item:elsa_strafzettelblock.text",
+     "feld": "Beschreibung",
+     "alt": "Mit ihren Initialen. Sie lacht zum ersten Mal laut.",
+     "neu": "With her initials. She laughs out loud for the first time."
+    },
+    {
+     "key": "item:petru_tabak.label",
+     "feld": "Name",
+     "alt": "Pfeifentabak „Bastia Noir“",
+     "neu": "Pipe Tobacco “Bastia Noir”"
+    },
+    {
+     "key": "item:petru_tabak.text",
+     "feld": "Beschreibung",
+     "alt": "Bring-mir-Auftrag: nur Totò kann ihn besorgen.",
+     "neu": "Bring-me job: only Totò can get it."
+    },
+    {
+     "key": "item:casanova_kanone.label",
+     "feld": "Name",
+     "alt": "Konfettikanone",
+     "neu": "Confetti Cannon"
+    },
+    {
+     "key": "item:casanova_kanone.text",
+     "feld": "Beschreibung",
+     "alt": "Für die Festa. Sie wird damit auf die Yacht zielen.",
+     "neu": "For the Festa. She will aim it at the yacht."
+    }
+   ]
+  },
+  {
+   "titel": "Attribut-Gegenstände",
+   "items": [
+    {
+     "key": "item:holm_compass.label",
+     "feld": "Name",
+     "alt": "Holms Messingkompass",
+     "neu": "Holm's Brass Compass"
+    },
+    {
+     "key": "item:holm_compass.text",
+     "feld": "Beschreibung",
+     "alt": "Beim Abschied, ab Holms Vertrauen 2. Der Kompass ihres Vaters.",
+     "neu": "At the farewell, from Holm's trust 2. Her father's compass."
+    },
+    {
+     "key": "item:petrus_hammer.label",
+     "feld": "Name",
+     "alt": "Petrus kleiner Hammer",
+     "neu": "Petru's Little Hammer"
+    },
+    {
+     "key": "item:leas_taucherbrille.label",
+     "feld": "Name",
+     "alt": "Leas alte Taucherbrille",
+     "neu": "Lea's Old Dive Mask"
+    },
+    {
+     "key": "item:elsas_taschenlampe.label",
+     "feld": "Name",
+     "alt": "Elsas Dienst-Taschenlampe",
+     "neu": "Elsa's Service Torch"
+    },
+    {
+     "key": "item:rosis_handschuhe.label",
+     "feld": "Name",
+     "alt": "Rosis Werkstatthandschuhe",
+     "neu": "Rosi's Workshop Gloves"
+    },
+    {
+     "key": "item:totos_notizbuch.label",
+     "feld": "Name",
+     "alt": "Totòs Notizbuch mit Preisen",
+     "neu": "Totò's Notebook of Prices"
+    },
+    {
+     "key": "item:siris_halstuch.label",
+     "feld": "Name",
+     "alt": "Siris Seidenhalstuch",
+     "neu": "Siri's Silk Neckerchief"
+    },
+    {
+     "key": "item:megans_manschetten.label",
+     "feld": "Name",
+     "alt": "Megans Manschettenknöpfe",
+     "neu": "Megan's Cufflinks"
+    },
+    {
+     "key": "item:megans_manschetten.text",
+     "feld": "Beschreibung",
+     "alt": "Schwarzer Onyx, ein goldener Anker. Ab Megans Vertrauen 3 im Eden-Shop.",
+     "neu": "Black onyx, a golden anchor. From Megan's trust 3 in the Eden Shop."
+    },
+    {
+     "key": "item:lolas_band.label",
+     "feld": "Name",
+     "alt": "Lolas Freundschaftsband",
+     "neu": "Lola's Friendship Bracelet"
+    },
+    {
+     "key": "item:sophias_lesezeichen.label",
+     "feld": "Name",
+     "alt": "Sophias Lesezeichen",
+     "neu": "Sophia's Bookmark"
+    }
+   ]
+  },
+  {
+   "titel": "Glücksbringer",
+   "items": [
+    {
+     "key": "item:multitool.label",
+     "feld": "Name",
+     "alt": "Multitool",
+     "neu": "Multitool"
+    },
+    {
+     "key": "item:lockpicks.label",
+     "feld": "Name",
+     "alt": "Dietrich-Set",
+     "neu": "Lock Pick Set"
+    },
+    {
+     "key": "item:binoculars.label",
+     "feld": "Name",
+     "alt": "Fernglas",
+     "neu": "Binoculars"
+    },
+    {
+     "key": "item:petrus_messer.label",
+     "feld": "Name",
+     "alt": "Petrus altes Fischermesser",
+     "neu": "Petru's Old Fishing Knife"
+    },
+    {
+     "key": "item:aftershave.label",
+     "feld": "Name",
+     "alt": "Rasierwasser „Bastia“",
+     "neu": "Aftershave “Bastia”"
+    },
+    {
+     "key": "item:plektrum.label",
+     "feld": "Name",
+     "alt": "Lolas Plektrum",
+     "neu": "Lola's Plectrum"
+    },
+    {
+     "key": "item:megan_screenshot.label",
+     "feld": "Name",
+     "alt": "Screenshot: Megan mit Goldmaske",
+     "neu": "Screenshot: Megan in a Gold Mask"
+    },
+    {
+     "key": "item:lucky_coin.label",
+     "feld": "Name",
+     "alt": "Glücksmünze von Alva",
+     "neu": "Lucky Coin from Alva"
+    },
+    {
+     "key": "item:elsas_abzeichen.label",
+     "feld": "Name",
+     "alt": "Abzeichen der Gendarmerie maritime",
+     "neu": "Badge of the Gendarmerie Maritime"
+    },
+    {
+     "key": "item:tarot.label",
+     "feld": "Name",
+     "alt": "Tarotkarten",
+     "neu": "Tarot Cards"
+    },
+    {
+     "key": "item:netzknoten.label",
+     "feld": "Name",
+     "alt": "Petrus Netzknoten",
+     "neu": "Petru's Net Knot"
+    }
+   ]
+  },
+  {
+   "titel": "Vorräte",
+   "items": [
+    {
+     "key": "item:diesel_canister.label",
+     "feld": "Name",
+     "alt": "Kanister Diesel",
+     "neu": "Can of Diesel"
+    },
+    {
+     "key": "item:diesel_canister.text",
+     "feld": "Beschreibung",
+     "alt": "Bei Alva höchstens ein Kanister am Tag und teurer als bei Totò.",
+     "neu": "At Alva's, one can a day at most, and dearer than at Totò's."
+    },
+    {
+     "key": "item:used_battery.label",
+     "feld": "Name",
+     "alt": "Gebrauchte Bootsbatterie",
+     "neu": "Used Boat Battery"
+    },
+    {
+     "key": "item:panel_cleaner.label",
+     "feld": "Name",
+     "alt": "Paneel-Reiniger",
+     "neu": "Solar Panel Cleaner"
+    },
+    {
+     "key": "item:ersatzteilkiste.label",
+     "feld": "Name",
+     "alt": "Kiste Ersatzteile",
+     "neu": "Box of Spare Parts"
+    },
+    {
+     "key": "item:ersatzteilkiste.text",
+     "feld": "Beschreibung",
+     "alt": "Schrauben, Dichtungen, Kabelschuhe. Rosi strahlt.",
+     "neu": "Screws, seals, cable lugs. Rosi beams."
+    },
+    {
+     "key": "item:espresso.label",
+     "feld": "Name",
+     "alt": "Doppelter Espresso",
+     "neu": "Double Espresso"
+    },
+    {
+     "key": "item:energieriegel.label",
+     "feld": "Name",
+     "alt": "Lolas Energieriegel",
+     "neu": "Lola's Energy Bar"
+    },
+    {
+     "key": "item:lolas_pesto.label",
+     "feld": "Name",
+     "alt": "Lolas „Spezial-Pesto“",
+     "neu": "Lola's “Special Pesto”"
+    },
+    {
+     "key": "item:frischer_fang.label",
+     "feld": "Name",
+     "alt": "Frischer Fang",
+     "neu": "Fresh Catch"
+    },
+    {
+     "key": "item:kuehlakkus.label",
+     "feld": "Name",
+     "alt": "Kühlakkus aus dem Dorf",
+     "neu": "Ice Packs from the Village"
+    },
+    {
+     "key": "item:kuehlakkus.text",
+     "feld": "Beschreibung",
+     "alt": "Die Vorräte halten einen Tag länger, wenn der Strom knapp ist.",
+     "neu": "The supplies last a day longer when power runs low."
+    },
+    {
+     "key": "item:rose_festa.label",
+     "feld": "Name",
+     "alt": "Die Rose der Bürgermeisterin",
+     "neu": "The Mayor's Rose"
+    },
+    {
+     "key": "item:rose_festa.text",
+     "feld": "Beschreibung",
+     "alt": "Aus Madame Casanovas Haar, nach dem Flamenco. Einmal benutzt: Begehren +6 bei allen Frauen.",
+     "neu": "From Madame Casanova's hair, after the flamenco. Used once: Desire +6 with every woman."
+    },
+    {
+     "key": "item:trinkwasser.label",
+     "feld": "Name",
+     "alt": "Kanister Trinkwasser",
+     "neu": "Can of Drinking Water"
+    }
+   ]
+  },
+  {
+   "titel": "Besorgungen",
+   "items": [
+    {
+     "key": "item:ersatzzellen.label",
+     "feld": "Name",
+     "alt": "Ersatzzellen für die Hotelbatterie",
+     "neu": "Spare Cells for the House Battery"
+    },
+    {
+     "key": "item:ersatzzellen.text",
+     "feld": "Beschreibung",
+     "alt": "Zwei Lithium-Zellen, gebraucht, geprüft.",
+     "neu": "Two lithium cells, used, tested."
+    },
+    {
+     "key": "item:relais.label",
+     "feld": "Name",
+     "alt": "Kompressor-Relais",
+     "neu": "Compressor Relay"
+    },
+    {
+     "key": "item:messingbuchstaben.label",
+     "feld": "Name",
+     "alt": "Messingbuchstaben",
+     "neu": "Brass Letters"
+    },
+    {
+     "key": "item:holzleim.label",
+     "feld": "Name",
+     "alt": "Knochenleim im Topf",
+     "neu": "Pot of Bone Glue"
+    },
+    {
+     "key": "item:eichenbrett.label",
+     "feld": "Name",
+     "alt": "Ein altes Eichenbrett",
+     "neu": "An Old Oak Board"
+    },
+    {
+     "key": "item:tonerde.label",
+     "feld": "Name",
+     "alt": "Ein Sack Tonerde",
+     "neu": "A Sack of Clay"
+    },
+    {
+     "key": "item:uhrenbatterie.label",
+     "feld": "Name",
+     "alt": "Knopfzelle",
+     "neu": "Button Cell"
+    },
+    {
+     "key": "item:goldfarbe.label",
+     "feld": "Name",
+     "alt": "Goldfarbe und ein feiner Pinsel",
+     "neu": "Gold Paint and a Fine Brush"
+    },
+    {
+     "key": "item:safran.label",
+     "feld": "Name",
+     "alt": "Echter Safran",
+     "neu": "Real Saffron"
+    },
+    {
+     "key": "item:buchbinde_leinen.label",
+     "feld": "Name",
+     "alt": "Buchbinder-Leinen",
+     "neu": "Bookbinding Linen"
+    },
+    {
+     "key": "item:netzgarn.label",
+     "feld": "Name",
+     "alt": "Rolle Netzgarn",
+     "neu": "Roll of Net Twine"
+    },
+    {
+     "key": "item:bilderrahmen.label",
+     "feld": "Name",
+     "alt": "Ein schlichter Bilderrahmen",
+     "neu": "A Simple Picture Frame"
+    },
+    {
+     "key": "item:armband.label",
+     "feld": "Name",
+     "alt": "Silikon-Armband",
+     "neu": "Silicone Strap"
+    },
+    {
+     "key": "item:fueller_rohling.label",
+     "feld": "Name",
+     "alt": "Füller-Rohling zum Gravieren",
+     "neu": "Pen Blank for Engraving"
+    },
+    {
+     "key": "item:antennenkabel.label",
+     "feld": "Name",
+     "alt": "Antennenkabel, seewasserfest",
+     "neu": "Antenna Cable, Seawater-Proof"
+    }
+   ]
+  },
+  {
+   "titel": "Werkzeuge",
+   "items": [
+    {
+     "key": "item:werkzeugkoffer.label",
+     "feld": "Name",
+     "alt": "Werkzeugkoffer",
+     "neu": "Toolbox"
+    },
+    {
+     "key": "item:werkzeugkoffer.text",
+     "feld": "Beschreibung",
+     "alt": "Vorteil bei Reparatur-Aufträgen (oder +2, wenn dein Handwerk schon Vorteil gibt).",
+     "neu": "Advantage on repair jobs (or +2 if your craft already gives advantage)."
+    },
+    {
+     "key": "item:kochmesser.label",
+     "feld": "Name",
+     "alt": "Japanisches Kochmesser",
+     "neu": "Japanese Chef's Knife"
+    },
+    {
+     "key": "item:kochmesser.text",
+     "feld": "Beschreibung",
+     "alt": "Vorteil bei Koch-Aufträgen (oder +2, wenn deine Küche schon Vorteil gibt).",
+     "neu": "Advantage on cooking jobs (or +2 if your cooking already gives advantage)."
+    }
+   ]
+  },
+  {
+   "titel": "Kampf und Werkstatt",
+   "items": [
+    {
+     "key": "item:verbandskasten.label",
+     "feld": "Name",
+     "alt": "Verbandskasten",
+     "neu": "First Aid Kit"
+    },
+    {
+     "key": "item:verbandskasten.text",
+     "feld": "Beschreibung",
+     "alt": "Heilt im Kampf 12 Lebenspunkte. Einmal benutzbar.",
+     "neu": "Heals 12 HP in a fight. Single use."
+    },
+    {
+     "key": "item:steel_plate.label",
+     "feld": "Name",
+     "alt": "Steel Plate",
+     "neu": "Steel Plate"
+    },
+    {
+     "key": "item:steel_plate.text",
+     "feld": "Beschreibung",
+     "alt": "Eine Stahlplatte für Rosis Werkstatt: Jacke oder Gemelli zum ersten Mal verbessern.",
+     "neu": "A steel plate for Rosi's workshop: the first upgrade for a jacket or Gemelli."
+    },
+    {
+     "key": "item:titanium_plate.label",
+     "feld": "Name",
+     "alt": "Titanium Plate",
+     "neu": "Titanium Plate"
+    },
+    {
+     "key": "item:titanium_plate.text",
+     "feld": "Beschreibung",
+     "alt": "Eine Titanplatte für Rosis Werkstatt: Jacke oder Gemelli zum zweiten Mal verbessern.",
+     "neu": "A titanium plate for Rosi's workshop: the second upgrade for a jacket or Gemelli."
+    },
+    {
+     "key": "item:jade.label",
+     "feld": "Name",
+     "alt": "Jade",
+     "neu": "Jade"
+    },
+    {
+     "key": "item:jade.text",
+     "feld": "Beschreibung",
+     "alt": "Ein Stein für Rosi: Er ersetzt den Basisstein von Terremoto (erste Verbesserung).",
+     "neu": "A stone for Rosi: it replaces Terremoto's base stone (first upgrade)."
+    },
+    {
+     "key": "item:topas.label",
+     "feld": "Name",
+     "alt": "Topas",
+     "neu": "Topaz"
+    },
+    {
+     "key": "item:topas.text",
+     "feld": "Beschreibung",
+     "alt": "Ein Stein für Rosi: Er ersetzt den Basisstein von Le Large (erste Verbesserung).",
+     "neu": "A stone for Rosi: it replaces Le Large's base stone (first upgrade)."
+    },
+    {
+     "key": "item:aquamarin.label",
+     "feld": "Name",
+     "alt": "Aquamarin",
+     "neu": "Aquamarine"
+    },
+    {
+     "key": "item:aquamarin.text",
+     "feld": "Beschreibung",
+     "alt": "Ein Stein für Rosi: Er ersetzt den Basisstein von Riposte (erste Verbesserung).",
+     "neu": "A stone for Rosi: it replaces Riposte's base stone (first upgrade)."
+    },
+    {
+     "key": "item:amethyst.label",
+     "feld": "Name",
+     "alt": "Amethyst",
+     "neu": "Amethyst"
+    },
+    {
+     "key": "item:amethyst.text",
+     "feld": "Beschreibung",
+     "alt": "Ein Stein für Rosi: Er ersetzt den Basisstein von Sussurro (erste Verbesserung).",
+     "neu": "A stone for Rosi: it replaces Sussurro's base stone (first upgrade)."
+    },
+    {
+     "key": "item:smaragd.label",
+     "feld": "Name",
+     "alt": "Smaragd",
+     "neu": "Emerald"
+    },
+    {
+     "key": "item:smaragd.text",
+     "feld": "Beschreibung",
+     "alt": "Ein edler Stein für Rosi: der Endstein für Terremoto (zweite Verbesserung).",
+     "neu": "A precious stone for Rosi: Terremoto's final stone (second upgrade)."
+    },
+    {
+     "key": "item:rubin.label",
+     "feld": "Name",
+     "alt": "Rubin",
+     "neu": "Ruby"
+    },
+    {
+     "key": "item:rubin.text",
+     "feld": "Beschreibung",
+     "alt": "Ein edler Stein für Rosi: der Endstein für Le Large (zweite Verbesserung).",
+     "neu": "A precious stone for Rosi: Le Large's final stone (second upgrade)."
+    },
+    {
+     "key": "item:saphir.label",
+     "feld": "Name",
+     "alt": "Saphir",
+     "neu": "Sapphire"
+    },
+    {
+     "key": "item:saphir.text",
+     "feld": "Beschreibung",
+     "alt": "Ein edler Stein für Rosi: der Endstein für Riposte (zweite Verbesserung).",
+     "neu": "A precious stone for Rosi: Riposte's final stone (second upgrade)."
+    },
+    {
+     "key": "item:opal.label",
+     "feld": "Name",
+     "alt": "Opal",
+     "neu": "Opal"
+    },
+    {
+     "key": "item:opal.text",
+     "feld": "Beschreibung",
+     "alt": "Ein edler Stein für Rosi: der Endstein für Sussurro (zweite Verbesserung).",
+     "neu": "A precious stone for Rosi: Sussurro's final stone (second upgrade)."
+    },
+    {
+     "key": "item:kupfer.label",
+     "feld": "Name",
+     "alt": "Kupfer",
+     "neu": "Copper"
+    },
+    {
+     "key": "item:kupfer.text",
+     "feld": "Beschreibung",
+     "alt": "Ein Kupfer-Barren für Rosi: erste Verbesserung für Gemelli.",
+     "neu": "A copper ingot for Rosi: the first upgrade for Gemelli."
+    },
+    {
+     "key": "item:silber.label",
+     "feld": "Name",
+     "alt": "Silber",
+     "neu": "Silver"
+    },
+    {
+     "key": "item:silber.text",
+     "feld": "Beschreibung",
+     "alt": "Ein Silber-Barren für Rosi: zweite Verbesserung für Gemelli.",
+     "neu": "A silver ingot for Rosi: the second upgrade for Gemelli."
+    }
+   ]
+  },
+  {
+   "titel": "Schlüssel",
+   "items": [
+    {
+     "key": "item:petru_key.label",
+     "feld": "Name",
+     "alt": "Schlüssel zu Petrus Werkstatt",
+     "neu": "Key to Petru's Workshop"
+    },
+    {
+     "key": "item:festa_invite.label",
+     "feld": "Name",
+     "alt": "Einladung der Bürgermeisterin zur Festa",
+     "neu": "The Mayor's Invitation to the Festa"
+    },
+    {
+     "key": "item:alvas_schluessel.label",
+     "feld": "Name",
+     "alt": "Schlüssel zu Alvas Hinterzimmer",
+     "neu": "Key to Alva's Back Room"
+    }
+   ]
+  },
+  {
+   "titel": "Schmuggelware",
+   "items": [
+    {
+     "key": "item:sat_data.label",
+     "feld": "Name",
+     "alt": "Satelliten-Datenpaket",
+     "neu": "Satellite Data Package"
+    },
+    {
+     "key": "item:cuban_rum.label",
+     "feld": "Name",
+     "alt": "Kubanischer Rum",
+     "neu": "Cuban Rum"
+    },
+    {
+     "key": "item:cigars.label",
+     "feld": "Name",
+     "alt": "Cohiba-Zigarren",
+     "neu": "Cohiba Cigars"
+    },
+    {
+     "key": "item:limoncello_kiste.label",
+     "feld": "Name",
+     "alt": "Kiste Limoncello ohne Steuerbanderole",
+     "neu": "Crate of Limoncello without a Tax Stamp"
+    },
+    {
+     "key": "item:taschen.label",
+     "feld": "Name",
+     "alt": "Drei „Designer“-Taschen",
+     "neu": "Three “Designer” Handbags"
+    }
+   ]
+  },
+  {
+   "titel": "Andenken",
+   "items": [
+    {
+     "key": "item:rosi_spanner.label",
+     "feld": "Name",
+     "alt": "Papas Ringschlüssel (Rosi)",
+     "neu": "Dad's Ring Spanner (Rosi)"
+    },
+    {
+     "key": "item:chiara_haarspange.label",
+     "feld": "Name",
+     "alt": "Chiaras Haarspange",
+     "neu": "Chiara's Hair Clip"
+    },
+    {
+     "key": "item:sophia_page.label",
+     "feld": "Name",
+     "alt": "Eine Seite aus Sophias Notizbuch",
+     "neu": "A Page from Sophia's Notebook"
+    },
+    {
+     "key": "item:lea_muschelkette.label",
+     "feld": "Name",
+     "alt": "Leas Muschelkette",
+     "neu": "Lea's Shell Necklace"
+    },
+    {
+     "key": "item:siri_knot.label",
+     "feld": "Name",
+     "alt": "Siris Knotenarmband",
+     "neu": "Siri's Knot Bracelet"
+    },
+    {
+     "key": "item:festa_medal.label",
+     "feld": "Name",
+     "alt": "Medaille der Festa",
+     "neu": "Festa Medal"
+    },
+    {
+     "key": "item:muschelkrone.label",
+     "feld": "Name",
+     "alt": "Muschelkrone der Festa",
+     "neu": "Shell Crown of the Festa"
+    },
+    {
+     "key": "item:rosis_foto.label",
+     "feld": "Name",
+     "alt": "Ein Foto, das du nicht löschen solltest",
+     "neu": "A Photo You Shouldn't Delete"
+    },
+    {
+     "key": "item:siris_karte.label",
+     "feld": "Name",
+     "alt": "Siris Dankeskarte",
+     "neu": "Siri's Thank-You Card"
+    },
+    {
+     "key": "item:holms_foto.label",
+     "feld": "Name",
+     "alt": "Foto von Holms erstem Kommando",
+     "neu": "Photo of Holm's First Command"
+    },
+    {
+     "key": "item:siris_haarband.label",
+     "feld": "Name",
+     "alt": "Siris Haarband",
+     "neu": "Siri's Hairband"
+    },
+    {
+     "key": "item:drohnen_propeller.label",
+     "feld": "Name",
+     "alt": "Propeller von Megans Drohne",
+     "neu": "Propeller from Megan's Drone"
+    },
+    {
+     "key": "item:tritons_dreizack.label",
+     "feld": "Name",
+     "alt": "Tritons Dreizack (Drop Sirene)",
+     "neu": "Triton's Trident (Siren Drop)"
+    },
+    {
+     "key": "item:tritons_dreizack.text",
+     "feld": "Beschreibung",
+     "alt": "Ehemalige Waffe – später als Masterwaffe für Le Large vorgesehen.",
+     "neu": "A former weapon, later planned as the master weapon for Le Large."
+    }
+   ]
+  },
+  {
+   "titel": "Lolas Snacks",
+   "items": [
+    {
+     "key": "item:fairy_bread.label",
+     "feld": "Name",
+     "alt": "Fairy Bread",
+     "neu": "Fairy Bread"
+    },
+    {
+     "key": "item:fairy_bread.text",
+     "feld": "Beschreibung",
+     "alt": "Toast mit Butter und bunten Streuseln. Lea denkt an Geburtstage.",
+     "neu": "Buttered toast with hundreds and thousands. Lea thinks of birthdays."
+    },
+    {
+     "key": "item:lamingtons.label",
+     "feld": "Name",
+     "alt": "Lamingtons",
+     "neu": "Lamingtons"
+    },
+    {
+     "key": "item:lamingtons.text",
+     "feld": "Beschreibung",
+     "alt": "Schokowürfel mit Kokos.",
+     "neu": "Chocolate squares rolled in coconut."
+    },
+    {
+     "key": "item:pavlova.label",
+     "feld": "Name",
+     "alt": "Pavlova mit Feigen und Myrte",
+     "neu": "Pavlova with Figs and Myrtle"
+    },
+    {
+     "key": "item:anzac.label",
+     "feld": "Name",
+     "alt": "Anzac Biscuits",
+     "neu": "Anzac Biscuits"
+    },
+    {
+     "key": "item:anzac.text",
+     "feld": "Beschreibung",
+     "alt": "Haferkekse. Holms Keks für jede Nachtwache.",
+     "neu": "Oat biscuits. Holm's biscuit for every night watch."
+    },
+    {
+     "key": "item:vegemite_schnecken.label",
+     "feld": "Name",
+     "alt": "Vegemite-Käse-Schnecken",
+     "neu": "Vegemite Cheese Scrolls"
+    },
+    {
+     "key": "item:tim_tam_slam.label",
+     "feld": "Name",
+     "alt": "Tim-Tam-Slam-Set",
+     "neu": "Tim Tam Slam Set"
+    },
+    {
+     "key": "item:tim_tam_slam.text",
+     "feld": "Beschreibung",
+     "alt": "Kekse und heißer Kakao zum Durchsaugen.",
+     "neu": "Biscuits and hot cocoa to suck through them."
+    },
+    {
+     "key": "item:ocean_popcorn.label",
+     "feld": "Name",
+     "alt": "Ocean-Glitter-Popcorn",
+     "neu": "Ocean Glitter Popcorn"
+    },
+    {
+     "key": "item:kevins_rache.label",
+     "feld": "Name",
+     "alt": "Kevins Rache",
+     "neu": "Kevin's Revenge"
+    },
+    {
+     "key": "item:kevins_rache.text",
+     "feld": "Beschreibung",
+     "alt": "Kekse in Möwenform.",
+     "neu": "Biscuits shaped like seagulls."
+    },
+    {
+     "key": "item:rote_gruetze.label",
+     "feld": "Name",
+     "alt": "Rote Grütze mit Vanillesauce",
+     "neu": "Red Berry Pudding with Vanilla Sauce"
+    },
+    {
+     "key": "item:madeleines.label",
+     "feld": "Name",
+     "alt": "Lavendel-Madeleines",
+     "neu": "Lavender Madeleines"
+    },
+    {
+     "key": "item:cannoli.label",
+     "feld": "Name",
+     "alt": "Cannoli mit Schraubenschlüssel-Keks",
+     "neu": "Cannoli with a Spanner Biscuit"
+    },
+    {
+     "key": "item:plankton_gelee.label",
+     "feld": "Name",
+     "alt": "Leuchtendes Plankton-Gelee",
+     "neu": "Glowing Plankton Jelly"
+    },
+    {
+     "key": "item:seegras_chips.label",
+     "feld": "Name",
+     "alt": "Seegras-Chips mit Limette",
+     "neu": "Seaweed Crisps with Lime"
+    },
+    {
+     "key": "item:protein_pancakes.label",
+     "feld": "Name",
+     "alt": "Protein-Pancakes ohne Spaß",
+     "neu": "Protein Pancakes, No Fun Included"
+    },
+    {
+     "key": "item:ghost_brownies.label",
+     "feld": "Name",
+     "alt": "Ghost-Pepper-Brownies",
+     "neu": "Ghost Pepper Brownies"
+    },
+    {
+     "key": "item:fiadone.label",
+     "feld": "Name",
+     "alt": "Fiadone",
+     "neu": "Fiadone"
+    },
+    {
+     "key": "item:fiadone.text",
+     "feld": "Beschreibung",
+     "alt": "Korsischer Käsekuchen mit Zitrone.",
+     "neu": "Corsican cheesecake with lemon."
+    },
+    {
+     "key": "item:tiramisu_martini.label",
+     "feld": "Name",
+     "alt": "Espresso-Martini-Tiramisu",
+     "neu": "Espresso Martini Tiramisu"
+    },
+    {
+     "key": "item:unit01_muffins.label",
+     "feld": "Name",
+     "alt": "Unit-01-Muffins",
+     "neu": "Unit-01 Muffins"
+    },
+    {
+     "key": "item:unit01_muffins.text",
+     "feld": "Beschreibung",
+     "alt": "Schwarz, schmecken nach Vanille.",
+     "neu": "Black, and they taste of vanilla."
+    },
+    {
+     "key": "item:mango_sorbet.label",
+     "feld": "Name",
+     "alt": "Mango-Chili-Sorbet",
+     "neu": "Mango Chilli Sorbet"
+    },
+    {
+     "key": "item:space_cake.label",
+     "feld": "Name",
+     "alt": "Space Cake „Universe Edition“",
+     "neu": "Space Cake “Universe Edition”"
+    },
+    {
+     "key": "item:brownie_calm.label",
+     "feld": "Name",
+     "alt": "Brownie „Captain's Calm“",
+     "neu": "Brownie “Captain's Calm”"
+    },
+    {
+     "key": "item:toastie.label",
+     "feld": "Name",
+     "alt": "Mitternachts-Toastie mit Käse und Feige",
+     "neu": "Midnight Toastie with Cheese and Fig"
+    }
+   ]
+  },
+  {
+   "titel": "Gerichte",
+   "items": [
+    {
+     "key": "item:bun_rieu.label",
+     "feld": "Name",
+     "alt": "Bún riêu",
+     "neu": "Bún Riêu"
+    },
+    {
+     "key": "item:bun_rieu.text",
+     "feld": "Beschreibung",
+     "alt": "Vietnamesische Nudelsuppe mit Krabben und Tomate.",
+     "neu": "Vietnamese noodle soup with crab and tomato."
+    },
+    {
+     "key": "item:thit_kho.label",
+     "feld": "Name",
+     "alt": "Thịt kho",
+     "neu": "Thịt Kho"
+    },
+    {
+     "key": "item:thit_kho.text",
+     "feld": "Beschreibung",
+     "alt": "Karamellisierter Schweinebauch mit Ei, dazu Reis.",
+     "neu": "Caramelised pork belly with egg, served with rice."
+    },
+    {
+     "key": "item:bibimbap.label",
+     "feld": "Name",
+     "alt": "Bibimbap",
+     "neu": "Bibimbap"
+    },
+    {
+     "key": "item:bibimbap.text",
+     "feld": "Beschreibung",
+     "alt": "Petru: „Why is it in a bowl?“",
+     "neu": "Petru: “Why is it in a bowl?”"
+    },
+    {
+     "key": "item:summer_rolls.label",
+     "feld": "Name",
+     "alt": "Sommerrollen",
+     "neu": "Summer Rolls"
+    },
+    {
+     "key": "item:summer_rolls.text",
+     "feld": "Beschreibung",
+     "alt": "Frische Reispapierrollen mit Garnelen und Kräutern.",
+     "neu": "Fresh rice paper rolls with prawns and herbs."
+    },
+    {
+     "key": "item:ramen.label",
+     "feld": "Name",
+     "alt": "Ramen",
+     "neu": "Ramen"
+    },
+    {
+     "key": "item:ramen.text",
+     "feld": "Beschreibung",
+     "alt": "Die Brühe braucht Geduld. Rosi kennt Ramen aus ihren Manga.",
+     "neu": "The broth needs patience. Rosi knows ramen from her manga."
+    },
+    {
+     "key": "item:chili_noodles.label",
+     "feld": "Name",
+     "alt": "Chili Noodles",
+     "neu": "Chilli Noodles"
+    },
+    {
+     "key": "item:chili_noodles.text",
+     "feld": "Beschreibung",
+     "alt": "Zu scharf für eine seekranke Flottenmanagerin.",
+     "neu": "Too hot for a seasick fleet manager."
+    },
+    {
+     "key": "item:bouillabaisse.label",
+     "feld": "Name",
+     "alt": "Bouillabaisse",
+     "neu": "Bouillabaisse"
+    },
+    {
+     "key": "item:bouillabaisse.text",
+     "feld": "Beschreibung",
+     "alt": "Provenzalischer Fischtopf mit Rouille.",
+     "neu": "Provençal fish stew with rouille."
+    },
+    {
+     "key": "item:bao_buns.label",
+     "feld": "Name",
+     "alt": "Bao Buns",
+     "neu": "Bao Buns"
+    },
+    {
+     "key": "item:bao_buns.text",
+     "feld": "Beschreibung",
+     "alt": "Gedämpfte Hefebrötchen mit Schweinebauch. Lola: „Fluffy clouds, Boss.“",
+     "neu": "Steamed buns with pork belly. Lola: “Fluffy clouds, Boss.”"
+    },
+    {
+     "key": "item:fish_pie.label",
+     "feld": "Name",
+     "alt": "Fish Pie",
+     "neu": "Fish Pie"
+    },
+    {
+     "key": "item:fish_pie.text",
+     "feld": "Beschreibung",
+     "alt": "Fisch unter Kartoffelhaube. Petru: „Hm.“ Das heißt: noch eins.",
+     "neu": "Fish under a potato crust. Petru: “Hm.” That means: another one."
+    },
+    {
+     "key": "item:bolognese.label",
+     "feld": "Name",
+     "alt": "Spaghetti Bolognese",
+     "neu": "Spaghetti Bolognese"
+    },
+    {
+     "key": "item:bolognese.text",
+     "feld": "Beschreibung",
+     "alt": "Totò: „In Napoli, this is a crime.“",
+     "neu": "Totò: “In Napoli, this is a crime.”"
+    },
+    {
+     "key": "item:pytt_i_panna.label",
+     "feld": "Name",
+     "alt": "Pytt i panna",
+     "neu": "Pyttipanne"
+    },
+    {
+     "key": "item:pytt_i_panna.text",
+     "feld": "Beschreibung",
+     "alt": "Bratkartoffeln mit Wurst, Zwiebel, Spiegelei und Roter Bete.",
+     "neu": "Fried potatoes with sausage, onion, a fried egg and beetroot."
+    },
+    {
+     "key": "item:lauchsuppe.label",
+     "feld": "Name",
+     "alt": "Kartoffel-Lauch-Suppe",
+     "neu": "Potato and Leek Soup"
+    },
+    {
+     "key": "item:lauchsuppe.text",
+     "feld": "Beschreibung",
+     "alt": "Das Einzige, was Megan auf See bei sich behält.",
+     "neu": "The only thing Megan keeps down at sea."
+    },
+    {
+     "key": "item:baguettes.label",
+     "feld": "Name",
+     "alt": "Baguettes",
+     "neu": "Baguettes"
+    },
+    {
+     "key": "item:baguettes.text",
+     "feld": "Beschreibung",
+     "alt": "Brot ist die schwerste Disziplin.",
+     "neu": "Bread is the hardest discipline."
+    }
+   ]
+  }
+ ]
+}

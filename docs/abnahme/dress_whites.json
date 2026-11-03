@@ -1,0 +1,21 @@
+{
+ "id": "dress_whites_v2",
+ "titel": "Chis Dress Whites: Aquamarin-Knöpfe",
+ "hinweis": "Dein Look 2 mit Aquamarin. Wenn einer passt, rendere ich den ganzen Satz.",
+ "items": [
+  {
+   "id": "aqua_a",
+   "titel": "Aquamarin, Bild A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dress_whites\\Yacht_Chiara_Whites_5\\neutral.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dress_whites\\Yacht_Chiara_Whites_2\\neutral.png",
+   "soll": "Look 2 mit blassblauen Steinknöpfen."
+  },
+  {
+   "id": "aqua_b",
+   "titel": "Aquamarin, Bild B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dress_whites\\Yacht_Chiara_Whites_5\\neutral-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dress_whites\\Yacht_Chiara_Whites_2\\neutral.png",
+   "soll": "Wie A, anderer Seed."
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "schiessen_flasche": {
+  "wahl": [
+   0
+  ],
+  "keiner": false,
+  "notiz": ""
+ },
+ "schiessen_ton": {
+  "wahl": [
+   1
+  ],
+  "keiner": false,
+  "notiz": ""
+ },
+ "schiessen_drohne": {
+  "wahl": [
+   0
+  ],
+  "keiner": false,
+  "notiz": ""
+ },
+ "schiessen_moewe": {
+  "wahl": [
+   0
+  ],
+  "keiner": false,
+  "notiz": ""
+ },
+ "schiessen_blend": {
+  "wahl": [
+   0
+  ],
+  "keiner": false,
+  "notiz": "das pipen nur 2 sek. "
+ },
+ "_stand": "2026-10-30 20:20:07"
+}

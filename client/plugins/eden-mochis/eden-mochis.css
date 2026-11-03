@@ -1,0 +1,81 @@
+/* Bibis Tierstation: nur Tokens aus eden-ui.css und index.html (ui_stil.md). Field Book als Safari-Sammelbuch, Zettel und Schriften wie in der Anhoerung (eden-hearing.css). */
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Special+Elite&display=swap");
+.mo-buch { --hand: "Caveat", "Segoe Print", "Comic Sans MS", cursive; --typ: "Special Elite", "Courier New", monospace;
+  container-type: inline-size; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); color: var(--tinte); background: var(--creme);
+  border-radius: var(--r-taste); box-shadow: 0 18px 44px rgba(0, 0, 0, .55); overflow: hidden; min-height: 100%; }
+.mo-sammlung, .mo-seite { min-width: 0; padding: var(--a4); display: flex; flex-direction: column; gap: var(--a3); }
+.mo-sammlung { background: rgba(35, 37, 46, .07); box-shadow: inset -14px 0 18px -14px rgba(35, 37, 46, .4); }
+
+.mo-buchkopf { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--a1) var(--a3); }
+.mo-buchkopf h2 { margin: 0; font: 700 var(--t-titel) var(--hand); color: var(--tinte); }
+.mo-zaehler { margin-left: auto; font-size: var(--t-info); color: var(--tinte); }
+.mo-art { font: 400 var(--t-klein) var(--typ); color: var(--grau-dunkel); }
+.mo-buchkopf .mo-taten { flex-basis: 100%; }
+
+.mo-fotos { display: grid; grid-template-columns: repeat(auto-fill, minmax(84px, 1fr)); gap: var(--a25); }
+.mo-foto { position: relative; display: flex; flex-direction: column; align-items: center; gap: var(--a1); padding: var(--a15) var(--a15) var(--a1); border: 0; border-radius: var(--r-fein);
+  background: var(--perle); color: var(--tinte); box-shadow: 0 3px 8px rgba(0, 0, 0, .3); cursor: pointer; transition: transform .15s; }
+.mo-foto:nth-child(3n) { transform: rotate(-1.2deg); }
+.mo-foto:nth-child(3n + 1) { transform: rotate(.9deg); }
+.mo-foto:hover:not(:disabled) { transform: translateY(-3px); }
+.mo-foto.an { outline: 3px solid var(--akz); outline-offset: 2px; transform: scale(1.04); }
+.mo-foto img { width: 100%; aspect-ratio: 1; object-fit: contain; background: rgba(35, 37, 46, .08); transform: none; }
+.mo-foto-name { width: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; text-align: center; font: 700 var(--t-gross) var(--hand); line-height: 1; }
+.mo-foto.mo-nicht_da { cursor: default; opacity: .6; }
+.mo-foto.mo-nicht_da img, .mo-foto.mo-spur img { filter: brightness(0); opacity: .6; }
+.mo-paar { position: absolute; top: var(--a1); left: var(--a1); padding: 0 var(--a1); border-radius: var(--r-fein); background: var(--tinte); color: var(--perle); font-size: var(--t-mini); }
+.mo-marke { position: absolute; top: var(--a1); right: var(--a1); padding: 0 var(--a1); border-radius: var(--r-fein); background: var(--akz); color: var(--ink); font: 700 var(--t-mini) var(--f-ui); }
+
+.mo-seite { overflow: auto; }
+.mo-seite-kopf { display: flex; gap: var(--a3); align-items: center; }
+.mo-tierbild { position: relative; flex: none; width: 46%; max-width: 230px; padding: var(--a15) var(--a15) var(--a4); background: var(--perle); box-shadow: 0 6px 14px rgba(0, 0, 0, .35); transform: rotate(-2deg); }
+.mo-tierbild::before { content: ""; position: absolute; top: -8px; left: 34%; width: 32%; height: 18px; background: rgba(243, 227, 154, .75); }
+.mo-tierbild img { display: block; width: 100%; aspect-ratio: 1; object-fit: contain; background: rgba(35, 37, 46, .08); }
+.mo-seite-titel { min-width: 0; display: flex; flex-direction: column; align-items: flex-start; gap: var(--a15); }
+.mo-buch .mo-seite-titel h3 { margin: 0; font: 700 var(--t-titel) var(--hand); color: var(--tinte); text-transform: none; letter-spacing: 0; }
+.mo-seite-titel h3 small { font-size: var(--t-info); }
+.mo-stempel { padding: var(--a1) var(--a2); border: 2px solid currentColor; border-radius: var(--r-fein); color: var(--grau-dunkel); font: 400 var(--t-klein) var(--typ); text-transform: uppercase; letter-spacing: .08em; transform: rotate(-3deg); }
+.mo-stempel.mo-spur, .mo-stempel.mo-pflege { color: var(--schlecht); }
+
+.mo-taten { display: flex; flex-wrap: wrap; align-items: center; gap: var(--a2); padding: var(--a2) var(--a25); border-radius: var(--r-taste); background: var(--rauch-stark); color: var(--perle); }
+.mo-hinweis { font-size: var(--t-klein); color: var(--perle-leise); }
+
+.mo-zettel-reihe { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: var(--a25); align-items: start; }
+.mo-zettel { padding: var(--a3) var(--a25) var(--a2) var(--a3); border-radius: var(--r-fein); color: var(--tinte); background-color: var(--perle); box-shadow: 0 5px 12px rgba(0, 0, 0, .3);
+  background-image: repeating-linear-gradient(transparent 0 19px, rgba(35, 37, 46, .1) 19px 20px); font: 500 var(--t-gross) var(--hand); line-height: 20px; }
+.mo-zettel b { display: block; margin-bottom: var(--a1); font: 700 var(--t-mini) var(--f-ui); letter-spacing: .1em; text-transform: uppercase; color: var(--grau-dunkel); }
+.mo-zettel.fakt { background-color: var(--papier); }
+.mo-zettel.d0 { transform: rotate(-.8deg); }
+.mo-zettel.d1 { transform: rotate(.6deg); }
+.mo-zettel.d2 { transform: rotate(-.3deg); }
+.mo-zettel.leer { background: none; box-shadow: none; outline: 2px dashed rgba(35, 37, 46, .3); outline-offset: -2px; color: var(--grau-dunkel); }
+.mo-szene { margin: 0; padding-top: var(--a2); border-top: 1px solid rgba(35, 37, 46, .25); font: 400 var(--t-klein) var(--typ); line-height: 1.5; color: var(--grau-dunkel); }
+
+@container (max-width: 620px) {
+  .mo-sammlung { grid-column: 1 / -1; box-shadow: none; }
+  .mo-seite { grid-column: 1 / -1; }
+}
+
+/* Bibis Overlay nach dem ersten Fang (Duc 01.11.2026) */
+.mo-brief { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); z-index: 2; display: flex; align-items: flex-end; gap: var(--a4); width: min(860px, 92%); max-height: 92vh; padding: var(--a5); border-radius: var(--r-karte); background: var(--rauch-stark); }
+.mo-brief-figur { flex: none; align-self: flex-end; max-height: 74vh; width: 240px; object-fit: contain; object-position: bottom; }
+.mo-brief-mitte { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: var(--a2); }
+.mo-brief-tier { align-self: center; width: 240px; height: 200px; object-fit: contain; transform: scale(1.25); }
+.mo-brief-name { text-align: center; font-size: var(--t-titel); color: var(--akz); }
+.mo-brief-art { text-align: center; font-size: var(--t-klein); color: var(--perle-leise); }
+.mo-brief-zeile { margin: 0; font-size: var(--t-text); color: var(--perle-leise); }
+.mo-brief-zeile b { color: var(--akz); margin-right: var(--a1); }
+.mo-brief-zeile.an { color: var(--perle); }
+.mo-brief-fuss { display: flex; align-items: center; justify-content: space-between; gap: var(--a3); margin-top: var(--a2); }
+
+/* Bibis Selfies und Ducs Seite (Duc 02.11.2026) */
+.mo-selfie { display: flex; flex-direction: column; gap: var(--a2); max-width: 420px; }
+.mo-polaroids { display: flex; gap: var(--a2); }
+.mo-polaroid { margin: 0; flex: 1 1 0; min-width: 0; padding: 6px 6px 0; background: var(--perle); box-shadow: 0 3px 10px rgba(0,0,0,.45); transform: rotate(-2deg); }
+.mo-polaroid + .mo-polaroid { transform: rotate(1.5deg); }
+.mo-polaroid img { width: 100%; display: block; cursor: zoom-in; }
+.mo-polaroid img.gross { position: fixed; inset: 0; margin: auto; width: auto; max-width: 92vw; max-height: 92vh; z-index: 60; cursor: zoom-out; box-shadow: 0 0 0 100vmax rgba(0,0,0,.85); }
+.mo-polaroid figcaption { color: var(--ink); font: 700 1.3em/1.05 var(--hand, "Caveat", "Segoe Print", cursive); text-align: center; padding: var(--a1) 2px var(--a2); }   /* Bibis Handschrift (Duc 02.11.2026) */
+.mo-selfie-text { margin: 0; font-size: .9em; opacity: .85; }
+.mo-selfie-log { margin: 0; font: 500 1.15em/1.2 var(--hand, "Caveat", "Segoe Print", cursive); color: var(--perle-leise); }
+.mo-gestrichen { opacity: .55; font-weight: 400; font-size: .7em; }

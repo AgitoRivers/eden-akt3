@@ -1,0 +1,163 @@
+{
+ "id": "casting_nach_mission_r1",
+ "titel": "Nach der Mission - Casting Runde 1",
+ "hinweis": "Was Bibi, Charly und Danzel nach der Quest tragen. Je Figur Varianten waehlen (OK), Rest Neu. Ganzer Koerper bis zu den Schuhen. Nichts davon ist im Spiel, bestehende Presets sind unveraendert.",
+ "items": [
+  {
+   "id": "Bibi_N1_1",
+   "titel": "Bibi - Nach 1 (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Bibi_Nach_1\\neutral-1.png",
+   "soll": "Preset Yacht_Bibi_Nach_1. Bibi (25), Tierstation Mochi's, Khaki, knapp geschnitten, kleiner schwarzer Pluesch-Loewe am Guertel"
+  },
+  {
+   "id": "Bibi_N1_2",
+   "titel": "Bibi - Nach 1 (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Bibi_Nach_1\\neutral.png",
+   "soll": "Preset Yacht_Bibi_Nach_1. Bibi (25), Tierstation Mochi's, Khaki, knapp geschnitten, kleiner schwarzer Pluesch-Loewe am Guertel"
+  },
+  {
+   "id": "Bibi_N2_1",
+   "titel": "Bibi - Nach 2 (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Bibi_Nach_2\\neutral-1.png",
+   "soll": "Preset Yacht_Bibi_Nach_2. Bibi (25), Tierstation Mochi's, Khaki, knapp geschnitten, kleiner schwarzer Pluesch-Loewe am Guertel"
+  },
+  {
+   "id": "Bibi_N2_2",
+   "titel": "Bibi - Nach 2 (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Bibi_Nach_2\\neutral.png",
+   "soll": "Preset Yacht_Bibi_Nach_2. Bibi (25), Tierstation Mochi's, Khaki, knapp geschnitten, kleiner schwarzer Pluesch-Loewe am Guertel"
+  },
+  {
+   "id": "Bibi_N3_1",
+   "titel": "Bibi - Nach 3 (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Bibi_Nach_3\\neutral-1.png",
+   "soll": "Preset Yacht_Bibi_Nach_3. Bibi (25), Tierstation Mochi's, Khaki, knapp geschnitten, kleiner schwarzer Pluesch-Loewe am Guertel"
+  },
+  {
+   "id": "Bibi_N3_2",
+   "titel": "Bibi - Nach 3 (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Bibi_Nach_3\\neutral.png",
+   "soll": "Preset Yacht_Bibi_Nach_3. Bibi (25), Tierstation Mochi's, Khaki, knapp geschnitten, kleiner schwarzer Pluesch-Loewe am Guertel"
+  },
+  {
+   "id": "Bibi_N4_1",
+   "titel": "Bibi - Nach 4 (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Bibi_Nach_4\\neutral-1.png",
+   "soll": "Preset Yacht_Bibi_Nach_4. Bibi (25), Tierstation Mochi's, Khaki, knapp geschnitten, kleiner schwarzer Pluesch-Loewe am Guertel"
+  },
+  {
+   "id": "Bibi_N4_2",
+   "titel": "Bibi - Nach 4 (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Bibi_Nach_4\\neutral.png",
+   "soll": "Preset Yacht_Bibi_Nach_4. Bibi (25), Tierstation Mochi's, Khaki, knapp geschnitten, kleiner schwarzer Pluesch-Loewe am Guertel"
+  },
+  {
+   "id": "Bibi_N5_1",
+   "titel": "Bibi - Nach 5 (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Bibi_Nach_5\\neutral-1.png",
+   "soll": "Preset Yacht_Bibi_Nach_5. Bibi (25), Tierstation Mochi's, Khaki, knapp geschnitten, kleiner schwarzer Pluesch-Loewe am Guertel"
+  },
+  {
+   "id": "Bibi_N5_2",
+   "titel": "Bibi - Nach 5 (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Bibi_Nach_5\\neutral.png",
+   "soll": "Preset Yacht_Bibi_Nach_5. Bibi (25), Tierstation Mochi's, Khaki, knapp geschnitten, kleiner schwarzer Pluesch-Loewe am Guertel"
+  },
+  {
+   "id": "Charly_N1_1",
+   "titel": "Charly - Nach 1 (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Charly_Nach_1\\neutral-1.png",
+   "soll": "Preset Yacht_Charly_Nach_1. Charly (26), Werkstatt bei Rosi, Oelflecken, knapp geschnitten, Chipstuete"
+  },
+  {
+   "id": "Charly_N1_2",
+   "titel": "Charly - Nach 1 (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Charly_Nach_1\\neutral.png",
+   "soll": "Preset Yacht_Charly_Nach_1. Charly (26), Werkstatt bei Rosi, Oelflecken, knapp geschnitten, Chipstuete"
+  },
+  {
+   "id": "Charly_N2_1",
+   "titel": "Charly - Nach 2 (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Charly_Nach_2\\neutral-1.png",
+   "soll": "Preset Yacht_Charly_Nach_2. Charly (26), Werkstatt bei Rosi, Oelflecken, knapp geschnitten, Chipstuete"
+  },
+  {
+   "id": "Charly_N2_2",
+   "titel": "Charly - Nach 2 (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Charly_Nach_2\\neutral.png",
+   "soll": "Preset Yacht_Charly_Nach_2. Charly (26), Werkstatt bei Rosi, Oelflecken, knapp geschnitten, Chipstuete"
+  },
+  {
+   "id": "Charly_N3_1",
+   "titel": "Charly - Nach 3 (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Charly_Nach_3\\neutral-1.png",
+   "soll": "Preset Yacht_Charly_Nach_3. Charly (26), Werkstatt bei Rosi, Oelflecken, knapp geschnitten, Chipstuete"
+  },
+  {
+   "id": "Charly_N3_2",
+   "titel": "Charly - Nach 3 (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Charly_Nach_3\\neutral.png",
+   "soll": "Preset Yacht_Charly_Nach_3. Charly (26), Werkstatt bei Rosi, Oelflecken, knapp geschnitten, Chipstuete"
+  },
+  {
+   "id": "Charly_N4_1",
+   "titel": "Charly - Nach 4 (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Charly_Nach_4\\neutral-1.png",
+   "soll": "Preset Yacht_Charly_Nach_4. Charly (26), Werkstatt bei Rosi, Oelflecken, knapp geschnitten, Chipstuete"
+  },
+  {
+   "id": "Charly_N4_2",
+   "titel": "Charly - Nach 4 (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Charly_Nach_4\\neutral.png",
+   "soll": "Preset Yacht_Charly_Nach_4. Charly (26), Werkstatt bei Rosi, Oelflecken, knapp geschnitten, Chipstuete"
+  },
+  {
+   "id": "Charly_N5_1",
+   "titel": "Charly - Nach 5 (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Charly_Nach_5\\neutral-1.png",
+   "soll": "Preset Yacht_Charly_Nach_5. Charly (26), Werkstatt bei Rosi, Oelflecken, knapp geschnitten, Chipstuete"
+  },
+  {
+   "id": "Charly_N5_2",
+   "titel": "Charly - Nach 5 (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Charly_Nach_5\\neutral.png",
+   "soll": "Preset Yacht_Charly_Nach_5. Charly (26), Werkstatt bei Rosi, Oelflecken, knapp geschnitten, Chipstuete"
+  },
+  {
+   "id": "Danzel_N1_1",
+   "titel": "Danzel - Nach 1 (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Danzel_Nach_1\\neutral-1.png",
+   "soll": "Preset Yacht_Danzel_Nach_1. Danzel (30), Ladeneroeffnung, rotes Hemd, helle Hose - cremeweisse Hose"
+  },
+  {
+   "id": "Danzel_N1_2",
+   "titel": "Danzel - Nach 1 (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Danzel_Nach_1\\neutral.png",
+   "soll": "Preset Yacht_Danzel_Nach_1. Danzel (30), Ladeneroeffnung, rotes Hemd, helle Hose - cremeweisse Hose"
+  },
+  {
+   "id": "Danzel_N2_1",
+   "titel": "Danzel - Nach 2 (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Danzel_Nach_2\\neutral-1.png",
+   "soll": "Preset Yacht_Danzel_Nach_2. Danzel (30), Ladeneroeffnung, rotes Hemd, helle Hose - cremeweisse Hose"
+  },
+  {
+   "id": "Danzel_N2_2",
+   "titel": "Danzel - Nach 2 (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Danzel_Nach_2\\neutral.png",
+   "soll": "Preset Yacht_Danzel_Nach_2. Danzel (30), Ladeneroeffnung, rotes Hemd, helle Hose - cremeweisse Hose"
+  },
+  {
+   "id": "Danzel_N3_1",
+   "titel": "Danzel - Nach 3 (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Danzel_Nach_3\\neutral-1.png",
+   "soll": "Preset Yacht_Danzel_Nach_3. Danzel (30), Ladeneroeffnung, rotes Hemd, helle Hose - REINWEISSE Hose zum Vergleich (Weiss ist Mr. Whites Farbe)"
+  },
+  {
+   "id": "Danzel_N3_2",
+   "titel": "Danzel - Nach 3 (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_nach_mission\\Yacht_Danzel_Nach_3\\neutral.png",
+   "soll": "Preset Yacht_Danzel_Nach_3. Danzel (30), Ladeneroeffnung, rotes Hemd, helle Hose - REINWEISSE Hose zum Vergleich (Weiss ist Mr. Whites Farbe)"
+  }
+ ]
+}

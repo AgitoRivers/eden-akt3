@@ -1,0 +1,98 @@
+{
+ "id": "schiessen_klang_r2",
+ "titel": "Holms Wette – Schuss und Nachladen",
+ "hinweis": "Runde 2 von Pixabay (Pixabay Content License). Je einen Favoriten wählen. Lange Aufnahmen schneide ich danach kurz: Schuss etwa 1 Sekunde, Nachladen höchstens 2 Sekunden, passend zur Nachladezeit. Wenn du mit „die Töne“ auch die Trefferklänge meintest, schreib es in die Notiz.",
+ "gruppen": [
+  {
+   "id": "gun_shot",
+   "titel": "Schuss",
+   "soll": "Alte Doppelbüchse: trocken, wuchtig. Fällt in jeder Runde 10-mal und öfter, darf also nicht nerven.",
+   "max": 1,
+   "kandidaten": [
+    {
+     "titel": "Shotgun Blast · Universfield",
+     "cdn": "2025/05/30/audio_87b126642c.mp3",
+     "seite": "film-special-effects-shotgun-blast-352038"
+    },
+    {
+     "titel": "shotgun close · freesound_community",
+     "cdn": "2022/03/15/audio_26a347e42c.mp3",
+     "seite": "film-special-effects-shotgun-close-92204"
+    },
+    {
+     "titel": "Shotgun Firing (3) · freesound_community",
+     "cdn": "2022/01/18/audio_decfb3ba80.mp3",
+     "seite": "film-special-effects-shotgun-firing-3-14483"
+    },
+    {
+     "titel": "Shotgun Firing (4) · freesound_community",
+     "cdn": "2021/08/09/audio_42c2ce9d86.mp3",
+     "seite": "film-special-effects-shotgun-firing-4-6746"
+    },
+    {
+     "titel": "Rifle Gunshot · freesound_community",
+     "cdn": "2022/03/24/audio_1dcc7d1df8.mp3",
+     "seite": "film-special-effects-rifle-gunshot-99749"
+    },
+    {
+     "titel": "Rifle 6.5-55 · freesound_community",
+     "cdn": "2022/03/24/audio_4e51288bb8.mp3",
+     "seite": "film-special-effects-rifle-kaliber-65-55-compressed-the-spike-by-12-db-100827"
+    },
+    {
+     "titel": "Single Gunshot 5.4 · freesound_community",
+     "cdn": "2022/03/10/audio_b4f6ca7d10.mp3",
+     "seite": "film-special-effects-single-gunshot-54-40780"
+    },
+    {
+     "titel": "Shotgun 03 · freesound_community",
+     "cdn": "2022/03/10/audio_f33e96eec3.mp3",
+     "seite": "film-special-effects-shotgun-03-38220"
+    }
+   ]
+  },
+  {
+   "id": "gun_reload",
+   "titel": "Nachladen",
+   "soll": "Gemelli wird aufgeklappt und geladen, keine Pumpgun. Dauert im Spiel 2 Sekunden.",
+   "max": 1,
+   "kandidaten": [
+    {
+     "titel": "Rifle-or-shotgun-reload · freesound_community",
+     "cdn": "2021/08/09/audio_91cfcc96c2.mp3",
+     "seite": "film-special-effects-rifle-or-shotgun-reload-6787"
+    },
+    {
+     "titel": "Shotgun reload sfx · freesound_community",
+     "cdn": "2022/03/10/audio_f82202f40d.mp3",
+     "seite": "film-special-effects-shotgun-reload-sfx-36524"
+    },
+    {
+     "titel": "Gun Reload · Universfield",
+     "cdn": "2022/10/23/audio_4d629a93e0.mp3",
+     "seite": "film-special-effects-gun-reload-123781"
+    },
+    {
+     "titel": "Gun Reload · DRAGON-STUDIO",
+     "cdn": "2026/03/30/audio_d810dfcce4.mp3",
+     "seite": "film-special-effects-gun-reload-511309"
+    },
+    {
+     "titel": "Gun Reload 2 · DRAGON-STUDIO",
+     "cdn": "2026/03/30/audio_0905eaa991.mp3",
+     "seite": "film-special-effects-gun-reload-2-511308"
+    },
+    {
+     "titel": "shell load · freesound_community",
+     "cdn": "2022/03/15/audio_3d4a7ace16.mp3",
+     "seite": "film-special-effects-shell-load-87813"
+    },
+    {
+     "titel": "12 Gauge Shell drop · freesound_community",
+     "cdn": "2022/03/10/audio_4eb5888514.mp3",
+     "seite": "film-special-effects-12-gauge-shell-drop-47604"
+    }
+   ]
+  }
+ ]
+}

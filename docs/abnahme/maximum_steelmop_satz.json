@@ -1,0 +1,459 @@
+{
+ "id": "maximum_steelmop_satz_v1",
+ "titel": "Mr. Maximum: voller Satz mit Steel Mop",
+ "items": [
+  {
+   "id": "dialog_admiration",
+   "titel": "Dialog · admiration",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\admiration.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\admiration.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_amusement",
+   "titel": "Dialog · amusement",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\amusement.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\amusement.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_anger",
+   "titel": "Dialog · anger",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\anger.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\anger.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_anger_2",
+   "titel": "Dialog · anger_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\anger_2.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\anger-1.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_annoyance",
+   "titel": "Dialog · annoyance",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\annoyance.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\annoyance.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_annoyance_2",
+   "titel": "Dialog · annoyance_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\annoyance_2.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\annoyance-1.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_approval",
+   "titel": "Dialog · approval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\approval.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\approval.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_approval_2",
+   "titel": "Dialog · approval_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\approval_2.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\approval-1.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_caring",
+   "titel": "Dialog · caring",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\caring.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\caring.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_caring_2",
+   "titel": "Dialog · caring_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\caring_2.png",
+   "soll": "Er kniet, das steht so in der Pose-Karte.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\caring-1.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_confusion",
+   "titel": "Dialog · confusion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\confusion.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\confusion.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_confusion_2",
+   "titel": "Dialog · confusion_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\confusion_2.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\confusion-1.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_curiosity",
+   "titel": "Dialog · curiosity",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\curiosity.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\curiosity.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_disappointment",
+   "titel": "Dialog · disappointment",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\disappointment.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\disappointment.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_disappointment_2",
+   "titel": "Dialog · disappointment_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\disappointment_2.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\disappointment-1.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_disapproval",
+   "titel": "Dialog · disapproval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\disapproval.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\disapproval.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_disapproval_2",
+   "titel": "Dialog · disapproval_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\disapproval_2.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\disapproval-1.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_disgust",
+   "titel": "Dialog · disgust",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\disgust.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\disgust.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_disgust_2",
+   "titel": "Dialog · disgust_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\disgust_2.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\disgust-1.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_embarrassment",
+   "titel": "Dialog · embarrassment",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\embarrassment.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\embarrassment.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_fear",
+   "titel": "Dialog · fear",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\fear.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\fear.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_fear_2",
+   "titel": "Dialog · fear_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\fear_2.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\fear-1.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_gratitude",
+   "titel": "Dialog · gratitude",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\gratitude.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\gratitude.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_gratitude_2",
+   "titel": "Dialog · gratitude_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\gratitude_2.png",
+   "soll": "Er kniet, das steht so in der Pose-Karte.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\gratitude-1.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_grief",
+   "titel": "Dialog · grief",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\grief.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\grief.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_grief_2",
+   "titel": "Dialog · grief_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\grief_2.png",
+   "soll": "Er sitzt zusammengekauert, das steht so in der Pose-Karte."
+  },
+  {
+   "id": "dialog_joy",
+   "titel": "Dialog · joy",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\joy.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\joy.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_joy_2",
+   "titel": "Dialog · joy_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\joy_2.png",
+   "soll": "Luftsprung, nur für echte Freude.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\joy-1.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_joy_3",
+   "titel": "Dialog · joy_3",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\joy_3.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\joy-2.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_love",
+   "titel": "Dialog · love",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\love.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\love.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_nervousness",
+   "titel": "Dialog · nervousness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\nervousness.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\nervousness.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_neutral",
+   "titel": "Dialog · neutral",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\neutral.png",
+   "soll": "Dein gewähltes Bild.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\neutral.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_neutral_2",
+   "titel": "Dialog · neutral_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\neutral_2.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\neutral-1.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_optimism",
+   "titel": "Dialog · optimism",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\optimism.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\optimism.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_optimism_2",
+   "titel": "Dialog · optimism_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\optimism_2.png",
+   "soll": "Eine Hand reicht fast bis zum Bildrand.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\optimism-1.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_pride",
+   "titel": "Dialog · pride",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\pride.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\pride.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_realization",
+   "titel": "Dialog · realization",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\realization.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\realization.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_realization_2",
+   "titel": "Dialog · realization_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\realization_2.png",
+   "soll": "Wie deine Wahl."
+  },
+  {
+   "id": "dialog_relief",
+   "titel": "Dialog · relief",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\relief.png",
+   "soll": "Er kniet, das steht so in der Pose-Karte.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\relief.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_relief_2",
+   "titel": "Dialog · relief_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\relief_2.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\relief-1.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_remorse",
+   "titel": "Dialog · remorse",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\remorse.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\remorse.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_remorse_2",
+   "titel": "Dialog · remorse_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\remorse_2.png",
+   "soll": "Er sitzt zusammengesunken, das steht so in der Pose-Karte.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\remorse-1.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_sadness",
+   "titel": "Dialog · sadness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\sadness.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\sadness.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "dialog_surprise",
+   "titel": "Dialog · surprise",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\dialog\\surprise.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Maximum\\Steward\\Sorted\\surprise.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "kampf_attack",
+   "titel": "Kampf · attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\kampf\\attack.png",
+   "soll": "Der Kranz liegt um die ganze Fläche des Würfels, nicht nur ums Rohr. Das gilt auch für guard, windup, heavy_windup, weakened und victory.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\MaxwellMaximum\\attack.webp",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "kampf_defeated",
+   "titel": "Kampf · defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\kampf\\defeated.png",
+   "soll": "Ohne Waffe, wie vorher bestellt nichts in den Händen.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\MaxwellMaximum\\defeated.webp",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "kampf_enraged",
+   "titel": "Kampf · enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\kampf\\enraged.png",
+   "soll": "Am Würfel ist eine kleine dunkle Stelle zu sehen.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\MaxwellMaximum\\enraged.webp",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "kampf_flee",
+   "titel": "Kampf · flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\kampf\\flee.png",
+   "soll": "Der Borstenring sitzt auf einem Stummel seitlich am Würfel statt ums Rohr. Wird beim Einbau gespiegelt.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\MaxwellMaximum\\flee.webp",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "kampf_guard",
+   "titel": "Kampf · guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\kampf\\guard.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\MaxwellMaximum\\guard.webp",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "kampf_heavy_attack",
+   "titel": "Kampf · heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\kampf\\heavy_attack.png",
+   "soll": "Vorn ragt ein kurzer Stummel aus dem Würfel.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\MaxwellMaximum\\heavy_attack.webp",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "kampf_heavy_windup",
+   "titel": "Kampf · heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\kampf\\heavy_windup.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\MaxwellMaximum\\heavy_windup.webp",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "kampf_hurt",
+   "titel": "Kampf · hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\kampf\\hurt.png",
+   "soll": "Am Würfel ist eine kleine dunkle Stelle zu sehen, der Kranz liegt um die ganze Fläche.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\MaxwellMaximum\\hurt.webp",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "kampf_idle",
+   "titel": "Kampf · idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\kampf\\idle.png",
+   "soll": "Grundpose, deine Wahl: der Würfel auf der Schulter.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\MaxwellMaximum\\idle.webp",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "kampf_surrender",
+   "titel": "Kampf · surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\kampf\\surrender.png",
+   "soll": "Ohne Waffe.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\MaxwellMaximum\\surrender.webp",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "kampf_victory",
+   "titel": "Kampf · victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\kampf\\victory.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\MaxwellMaximum\\victory.webp",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "kampf_weakened",
+   "titel": "Kampf · weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\kampf\\weakened.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\MaxwellMaximum\\weakened.webp",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "kampf_windup",
+   "titel": "Kampf · windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_maximum_steelmop_satz\\kampf\\windup.png",
+   "soll": "Wie deine Wahl.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\MaxwellMaximum\\windup.webp",
+   "vergleich_titel": "Bisher"
+  }
+ ],
+ "hinweis": "44 Dialog-Posen ohne Waffe und 13 Kampf-Posen. Mein Vorschlag: den Dialog übernehmen und im Kampf nur flee und heavy_attack neu machen, dort stört der Stummel am Würfel am meisten. Nur was nicht passt, auf „Neu“ setzen. Es wird ein eigener Satz, die alten bleiben."
+}

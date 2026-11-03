@@ -1,0 +1,31 @@
+{
+ "id": "stimmen_alon",
+ "titel": "Alon: Stimme, zweiter Versuch",
+ "hinweis": "Neu: kanadisches Englisch aus Toronto, ohne Québec-Akzent, ganz nah am Mikrofon und ohne Hall. Dieselbe Keynote-Rede. Die erste Runde liegt in stimmen_alon/runde1.",
+ "gruppen": [
+  {
+   "id": "alon",
+   "titel": "Alon Varenne",
+   "farbe": "#3a6fd8",
+   "max": 1,
+   "soll": "Kanadier, nah, warm, selbstverliebt, nie laut.",
+   "kandidaten": [
+    {
+     "titel": "Probe 1",
+     "unter": "36 s · Whisper: en 1.00",
+     "datei": "stimmen_alon/alon_1.mp3"
+    },
+    {
+     "titel": "Probe 2",
+     "unter": "32 s · Whisper: en 1.00",
+     "datei": "stimmen_alon/alon_2.mp3"
+    },
+    {
+     "titel": "Probe 3",
+     "unter": "32 s · Whisper: en 1.00",
+     "datei": "stimmen_alon/alon_3.mp3"
+    }
+   ]
+  }
+ ]
+}

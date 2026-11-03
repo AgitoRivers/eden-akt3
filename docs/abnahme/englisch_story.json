@@ -1,0 +1,3166 @@
+{
+ "id": "englisch_story",
+ "titel": "Englisch · Paket 3: Story und Fälle (VERTRAULICH)",
+ "gruppen": [
+  {
+   "titel": "Story",
+   "items": [
+    {
+     "key": "story_basis.py:L35.0",
+     "alt": "Tag 2: Ereignisstreifen der Energiesteuerung sichern (wird zum Beweisstück)",
+     "neu": "Day 2: secure the event record of the power management system (becomes evidence)"
+    },
+    {
+     "key": "story_basis.py:L36.0",
+     "alt": "Ort/Objekt prüfen (kostet die Phase)",
+     "neu": "Examine a place or object (costs the phase)"
+    },
+    {
+     "key": "story_basis.py:L37.0",
+     "alt": "Gespräch mit einer Person (Antwort hängt an Vertrauen/Bedingung)",
+     "neu": "Talk to a person (the answer depends on trust or a condition)"
+    },
+    {
+     "key": "story_basis.py:L38.0",
+     "alt": "Anruf oder Nachricht (Holm im Krankenhaus, Petru, Elsa, Megan)",
+     "neu": "Call or message (Holm in hospital, Petru, Elsa, Megan)"
+    },
+    {
+     "key": "story_basis.py:L40.0",
+     "alt": "Kommando-Anweisung (ab Tag 2, Duc führt) - kostet Vertrauen/Rückhalt",
+     "neu": "Command order (from day 2, Duc leads) - costs trust or backing"
+    },
+    {
+     "key": "story_basis.py:L41.0",
+     "alt": "Figur gibt es von sich aus, wenn die Bedingung erfüllt ist",
+     "neu": "The character offers it of their own accord once the condition is met"
+    },
+    {
+     "key": "story_basis.py:L42.0",
+     "alt": "Gegenleistung - echte Information, aber neue Abhängigkeit",
+     "neu": "Trade - real information, but a new dependency"
+    },
+    {
+     "key": "story_basis.py:L43.0",
+     "alt": "Ducs eigene Erinnerung an den Auftakt (nur wenn er dort war)",
+     "neu": "Duc's own memory of the opening (only if he was there)"
+    },
+    {
+     "key": "story_basis.py:L52.0",
+     "alt": "Was ist in der Nacht am System passiert?",
+     "neu": "What happened to the system during the night?"
+    },
+    {
+     "key": "story_basis.py:L53.0",
+     "alt": "Wer hat es ausgelöst - und wusste diese Person, was sie tat?",
+     "neu": "Who triggered it - and did this person know what they were doing?"
+    },
+    {
+     "key": "story_basis.py:L54.0",
+     "alt": "Hat genau das den Ausfall verursacht?",
+     "neu": "Did exactly that cause the failure?"
+    },
+    {
+     "key": "story_basis.py:L167.0",
+     "alt": "Vertrauen der Person -2, sie schweigt für den Rest des Tages",
+     "neu": "The person's trust -2; they stay silent for the rest of the day"
+    },
+    {
+     "key": "story_faelle.py:L13.0",
+     "alt": "Den Ereignisstreifen der Energiesteuerung sichern",
+     "neu": "Secure the event record of the power management system"
+    },
+    {
+     "key": "story_faelle.py:L18.0",
+     "alt": "Kopie des Steuerungsprotokolls über den Servicezugang ziehen",
+     "neu": "Pull a copy of the controller log through the service access"
+    },
+    {
+     "key": "story_faelle.py:L23.0",
+     "alt": "Rosi die Störmeldungen vorlesen lassen",
+     "neu": "Have Rosi read out the fault messages"
+    },
+    {
+     "key": "story_faelle.py:L27.0",
+     "alt": "Das Brückenlogbuch lesen",
+     "neu": "Read the bridge logbook"
+    },
+    {
+     "key": "story_faelle.py:L31.0",
+     "alt": "Holm nach der Nacht fragen",
+     "neu": "Ask Holm about the night"
+    },
+    {
+     "key": "story_faelle.py:L35.0",
+     "alt": "Holm im Krankenhaus anrufen",
+     "neu": "Call Holm in hospital"
+    },
+    {
+     "key": "story_faelle.py:L39.0",
+     "alt": "Petru um die Herstellerunterlagen zum Modultyp bitten",
+     "neu": "Ask Petru for the manufacturer's documents on the module type"
+    },
+    {
+     "key": "story_faelle.py:L56.0",
+     "alt": "%%s: LM3 ausgefallen, Antrieb gestoppt, Hotelnetz im Inselbetrieb%s",
+     "neu": "%%s: LM3 failed, propulsion stopped, hotel load in island mode%s"
+    },
+    {
+     "key": "story_faelle.py:L62.0",
+     "alt": "Logbuch (Holm, Brückenuhr): ",
+     "neu": "Logbook (Holm, bridge clock): "
+    },
+    {
+     "key": "story_faelle.py:L70.0",
+     "alt": "Reisepläne am Büro-PC durchsehen",
+     "neu": "Look through the voyage plans on the office PC"
+    },
+    {
+     "key": "story_faelle.py:L71.0",
+     "alt": "Reiseplan v2 gilt seit T1 15:30: Nachtfahrt nach der Party, Morgenhalt in Cala d'Orsu (Gästewunsch Sonnenaufgang), eingereicht über Sophia, genehmigt von Holm.",
+     "neu": "Voyage plan v2 has applied since Day 1, 15:30: night passage after the party, morning stop in Cala d'Orsu (guests' wish: sunrise), submitted through Sophia, approved by Holm."
+    },
+    {
+     "key": "story_faelle.py:L74.0",
+     "alt": "Reiseplan v2: Nachtfahrt, Morgenhalt Cala d'Orsu (Gästewunsch), eingereicht über Sophia",
+     "neu": "Voyage plan v2: night passage, morning stop at Cala d'Orsu (guests' wish), submitted through Sophia"
+    },
+    {
+     "key": "story_faelle.py:L75.0",
+     "alt": "Duc kennt den gültigen Plan",
+     "neu": "Duc knows the valid plan"
+    },
+    {
+     "key": "story_faelle.py:L76.0",
+     "alt": "Lastgrenze Heckverteiler: höchstens 2 kW, nur die Bordladestation, keine Mehrfachadapter. Empfang von Yasin unterschrieben.",
+     "neu": "Load limit on the stern distribution board: 2 kW maximum, only the onboard charging station, no multi-socket adapters. Receipt signed by Yasin."
+    },
+    {
+     "key": "story_faelle.py:L80.0",
+     "alt": "Die Brückenmappe mit den Gästeunterlagen durchsehen",
+     "neu": "Look through the bridge folder with the guest documents"
+    },
+    {
+     "key": "story_faelle.py:L81.0",
+     "alt": "Rosi nach den Stromregeln für Gäste fragen",
+     "neu": "Ask Rosi about the power rules for guests"
+    },
+    {
+     "key": "story_faelle.py:L83.0",
+     "alt": "Holm überträgt Lea die Routenplanung für die Nachtpassage als Übung.",
+     "neu": "Holm hands Lea the route planning for the night passage as an exercise."
+    },
+    {
+     "key": "story_faelle.py:L84.0",
+     "alt": "Routenplanung: Lea (Übung, Auftrag Holm)",
+     "neu": "Route planning: Lea (exercise, assigned by Holm)"
+    },
+    {
+     "key": "story_faelle.py:L89.0",
+     "alt": "Gruppenfoto im Hauptsalon. Kamerazeit 21:32; die Anzeige der Energiesteuerung im Hintergrund zeigt %s.",
+     "neu": "Group photo in the main salon. Camera time 21:32; the power management display in the background shows %s."
+    },
+    {
+     "key": "story_faelle.py:L92.0",
+     "alt": "Gruppenfoto 21:32 (Kamerazeit) - im Hintergrund die Anzeige der Energiesteuerung",
+     "neu": "Group photo 21:32 (camera time) - power management display in the background"
+    },
+    {
+     "key": "story_faelle.py:L93.0",
+     "alt": "Das Gruppenfoto im Crew-Chat ansehen",
+     "neu": "Look at the group photo in the crew chat"
+    },
+    {
+     "key": "story_faelle.py:L94.0",
+     "alt": "Gästeparty endet um 00:30; Afterparty der Crew in Messe und Achterdeck bis etwa 03:30, Musik aus Lolas Lautsprecher.",
+     "neu": "The guest party ends at 00:30; the crew afterparty in the mess and on the aft deck goes on until about 03:30, with music from Lola's speaker."
+    },
+    {
+     "key": "story_faelle.py:L97.0",
+     "alt": "Holm schließt um 00:45 die Brücke ab und legt sich hin.",
+     "neu": "Holm locks the bridge at 00:45 and lies down."
+    },
+    {
+     "key": "story_faelle.py:L98.0",
+     "alt": "Holm: Brücke um 00:45 abgeschlossen",
+     "neu": "Holm: bridge locked at 00:45"
+    },
+    {
+     "key": "story_faelle.py:L103.0",
+     "alt": "Duc kann nicht schlafen und sitzt bei Lola in der Kombüse; sie backt für das Sonnenaufgangsfrühstück. Blackout: zuerst endet die Musik, dann sagt Lola \"Duc?\", dann der Alarm.",
+     "neu": "Duc can't sleep and sits with Lola in the galley; she is baking for the sunrise breakfast. Blackout: first the music stops, then Lola says \"Duc?\", then the alarm."
+    },
+    {
+     "key": "story_faelle.py:L106.0",
+     "alt": "Kombüse vor Sonnenaufgang: erst die Musik aus, dann dein Name, dann der Alarm",
+     "neu": "Galley before sunrise: first the music stops, then your name, then the alarm"
+    },
+    {
+     "key": "story_faelle.py:L108.0",
+     "alt": "Holm bringt die Eden Rise mit Bugstrahlruder und Unit-01 in die Bucht von Cala d'Orsu und ankert.",
+     "neu": "Holm brings the Eden Rise into the bay of Cala d'Orsu on the bow thruster and Unit-01 and drops anchor."
+    },
+    {
+     "key": "story_faelle.py:L110.0",
+     "alt": "07:50 vor Anker in der Bucht von Cala d'Orsu",
+     "neu": "07:50 at anchor in the bay of Cala d'Orsu"
+    },
+    {
+     "key": "story_faelle.py:L111.0",
+     "alt": "Die Uhr der Energiesteuerung geht 14 Minuten nach (Schiffszeit = Anzeige + 14).",
+     "neu": "The clock of the power management system is 14 minutes slow (ship's time = display + 14)."
+    },
+    {
+     "key": "story_faelle.py:L114.0",
+     "alt": "Uhrzeiten abgleichen: Foto gegen Anzeige im Hintergrund",
+     "neu": "Match the times: the photo against the display in the background"
+    },
+    {
+     "key": "story_faelle.py:L118.0",
+     "alt": "Die Uhr der Energiesteuerung mit dem Handy vergleichen",
+     "neu": "Compare the power management clock with your phone"
+    },
+    {
+     "key": "story_faelle.py:L120.0",
+     "alt": "Bordhandbuch S. 4-17: Rückfallprofil R2 als zulässiges Notfahrprofil nach Schutzabbruch, aktivierbar am Wartungsschalter; Rücksetzen über \"Diagnose beenden\".",
+     "neu": "Ship's manual p. 4-17: fallback profile R2 as a permitted emergency profile after a protective abort, activated at the maintenance switch; reset via \"End diagnosis\"."
+    },
+    {
+     "key": "story_faelle.py:L123.0",
+     "alt": "Bordhandbuch 4-17: Rückfallprofil R2 nach Schutzabbruch, Rücksetzen per \"Diagnose beenden\"",
+     "neu": "Ship's manual 4-17: fallback profile R2 after a protective abort, reset via \"End diagnosis\""
+    },
+    {
+     "key": "story_faelle.py:L125.0",
+     "alt": "Rosi nach dem Rückfallprofil fragen",
+     "neu": "Ask Rosi about the fallback profile"
+    },
+    {
+     "key": "story_faelle.py:L129.0",
+     "alt": "Rosi nach dem ausgefallenen Modul fragen",
+     "neu": "Ask Rosi about the failed module"
+    },
+    {
+     "key": "story_faelle.py:L130.0",
+     "alt": "Servicekarten: Karte 1 Kapitänin (ab Tag 2 Duc), Karte 2 Technik - hängt am Haken im Maschinenkontrollraum, Karte 3 Werft/Büro - Schublade im Schiffsbüro.",
+     "neu": "Service cards: card 1 Captain (Duc from day 2), card 2 Engineering - hangs on the hook in the engine control room, card 3 Yard/Office - drawer in the ship's office."
+    },
+    {
+     "key": "story_faelle.py:L133.0",
+     "alt": "Servicekarten: 1 Kapitänin, 2 Technik (Haken im Kontrollraum), 3 Büro (Schublade)",
+     "neu": "Service cards: 1 Captain, 2 Engineering (hook in the control room), 3 Office (drawer)"
+    },
+    {
+     "key": "story_faelle.py:L134.0",
+     "alt": "Rosi nach den Servicekarten fragen",
+     "neu": "Ask Rosi about the service cards"
+    },
+    {
+     "key": "story_faelle.py:L136.0",
+     "alt": "Schlüssel zum Wartungsschalter der Brücke haben Holm, Duc, Rosi und Chiara (am großen Bund).",
+     "neu": "Holm, Duc, Rosi and Chiara (on her big bunch) have keys to the bridge maintenance switch."
+    },
+    {
+     "key": "story_faelle.py:L138.0",
+     "alt": "Schlüssel Wartungsschalter: Holm, du, Rosi, Chiara",
+     "neu": "Maintenance switch keys: Holm, you, Rosi, Chiara"
+    },
+    {
+     "key": "story_faelle.py:L140.0",
+     "alt": "Totos Wettbuch \"Ankunft Calvi\": jede Wette mit Uhrzeit, Einsatz und Quote.",
+     "neu": "Totò's betting book \"Arrival Calvi\": every bet with time, stake and odds."
+    },
+    {
+     "key": "story_faelle.py:L143.0",
+     "alt": "Petru schreibt Lea das Margot-Suchgebiet vor der Punta d'Orsu, mit Koordinaten.",
+     "neu": "Petru writes Lea the Margot search area off the Punta d'Orsu, with coordinates."
+    },
+    {
+     "key": "story_faelle.py:L145.0",
+     "alt": "Petrus Nachricht an Lea: Margot-Suchgebiet vor der Punta d'Orsu (Koordinaten)",
+     "neu": "Petru's message to Lea: Margot search area off the Punta d'Orsu (coordinates)"
+    },
+    {
+     "key": "story_faelle.py:L147.0",
+     "alt": "Lea nach dem Fischer fragen, der ihr schreibt",
+     "neu": "Ask Lea about the fisherman who texts her"
+    },
+    {
+     "key": "story_faelle.py:L149.0",
+     "alt": "Holm hat auf der Party sichtbar Bauchschmerzen und winkt ab (medizinisch, kein Hinweis).",
+     "neu": "At the party Holm visibly has stomach pain and waves it off (medical, not a clue)."
+    },
+    {
+     "key": "story_faelle.py:L151.0",
+     "alt": "Duc hat es gesehen",
+     "neu": "Duc saw it"
+    },
+    {
+     "key": "story_faelle.py:L166.0",
+     "alt": "Chiara lernte von 01:30 bis 02:45 in der Messe für ihre Wachoffiziers-prüfung, von der niemand wissen soll.",
+     "neu": "Chiara studied in the mess from 01:30 to 02:45 for her Yachtmaster Offshore exam, which nobody is supposed to know about."
+    },
+    {
+     "key": "story_faelle.py:L168.0",
+     "alt": "Chiara: habe bis Viertel vor drei in der Messe gelernt",
+     "neu": "Chiara: studied in the mess until quarter to three"
+    },
+    {
+     "key": "story_faelle.py:L169.0",
+     "alt": "Chiara nach der Nacht fragen",
+     "neu": "Ask Chiara about the night"
+    },
+    {
+     "key": "story_faelle.py:L170.0",
+     "alt": "Lola: Chiara saß von halb zwei bis Viertel vor drei mit ihrem Ordner am Messetisch.",
+     "neu": "Lola: Chiara sat at the mess table with her binder from half past one to quarter to three."
+    },
+    {
+     "key": "story_faelle.py:L172.0",
+     "alt": "Lola: Chiara saß bis Viertel vor drei lernend am Messetisch",
+     "neu": "Lola: Chiara sat studying at the mess table until quarter to three"
+    },
+    {
+     "key": "story_faelle.py:L173.0",
+     "alt": "Lola fragen, wer wann in der Messe war",
+     "neu": "Ask Lola who was in the mess and when"
+    },
+    {
+     "key": "story_faelle.py:L174.0",
+     "alt": "Drucker im Schiffsbüro: Auftrag T1 16:10, \"Kollisionsverhütung Kap. 3\", Benutzer C. Sonnberg.",
+     "neu": "Printer in the ship's office: job Day 1, 16:10, \"Collision Regulations ch. 3\", user C. Sonnberg."
+    },
+    {
+     "key": "story_faelle.py:L176.0",
+     "alt": "Druckerspeicher: 16:10 \"Kollisionsverhütung Kap. 3\" (C. Sonnberg)",
+     "neu": "Printer memory: 16:10 \"Collision Regulations ch. 3\" (C. Sonnberg)"
+    },
+    {
+     "key": "story_faelle.py:L177.0",
+     "alt": "Den Druckerspeicher im Schiffsbüro ansehen",
+     "neu": "Look at the printer memory in the ship's office"
+    },
+    {
+     "key": "story_faelle.py:L178.0",
+     "alt": "Holm: Um 02:40 war die Brücke abgeschlossen, alles wie immer.",
+     "neu": "Holm: at 02:40 the bridge was locked, everything as usual."
+    },
+    {
+     "key": "story_faelle.py:L179.0",
+     "alt": "Holm: Brücke um 02:40 abgeschlossen vorgefunden",
+     "neu": "Holm: found the bridge locked at 02:40"
+    },
+    {
+     "key": "story_faelle.py:L181.0",
+     "alt": "Kartenplotter-Verlauf: Um 01:10 war ein Ausschnitt vor der Punta d'Orsu aufgerufen (Margot-Gebiet); Holm fand ihn um 02:40 noch offen.",
+     "neu": "Chart plotter history: at 01:10 a section off the Punta d'Orsu was opened (Margot area); Holm found it still open at 02:40."
+    },
+    {
+     "key": "story_faelle.py:L183.0",
+     "alt": "Plotter-Verlauf 01:10: Kartenausschnitt vor der Punta d'Orsu",
+     "neu": "Plotter history 01:10: chart section off the Punta d'Orsu"
+    },
+    {
+     "key": "story_faelle.py:L184.0",
+     "alt": "Den Verlauf des Kartenplotters ansehen",
+     "neu": "Look at the chart plotter history"
+    },
+    {
+     "key": "story_faelle.py:L185.0",
+     "alt": "Siri: Lea und sie saßen von 02:00 bis 03:30 auf dem Vordeck und haben das Meeresleuchten angeschaut.",
+     "neu": "Siri: she and Lea sat on the foredeck from 02:00 to 03:30 watching the sea glow."
+    },
+    {
+     "key": "story_faelle.py:L187.0",
+     "alt": "Siri: mit Lea von 02:00 bis 03:30 auf dem Vordeck",
+     "neu": "Siri: with Lea on the foredeck from 02:00 to 03:30"
+    },
+    {
+     "key": "story_faelle.py:L188.0",
+     "alt": "Siri nach der Nacht fragen",
+     "neu": "Ask Siri about the night"
+    },
+    {
+     "key": "story_faelle.py:L189.0",
+     "alt": "Routenplan (Lea): direkte Linie, 34 sm, Küstenabstand nach Standard.",
+     "neu": "Route plan (Lea): direct line, 34 nm, standard distance off the coast."
+    },
+    {
+     "key": "story_faelle.py:L192.0",
+     "alt": "Leas Routenplan am Büro-PC ansehen",
+     "neu": "Look at Lea's route plan on the office PC"
+    },
+    {
+     "key": "story_faelle.py:L193.0",
+     "alt": "GPS-Track der Nacht folgt der Planlinie ohne Abweichung.",
+     "neu": "The GPS track of the night follows the planned line without deviation."
+    },
+    {
+     "key": "story_faelle.py:L194.0",
+     "alt": "GPS-Track: auf der Planlinie, keine Abweichung",
+     "neu": "GPS track: on the planned line, no deviation"
+    },
+    {
+     "key": "story_faelle.py:L195.0",
+     "alt": "Den Track der Nacht am Plotter ansehen",
+     "neu": "Look at the night's track on the plotter"
+    },
+    {
+     "key": "story_faelle.py:L196.0",
+     "alt": "Sophia telefonierte von 02:30 bis 03:10 auf dem Sonnendeck auf Französisch mit ihrer Lektorin Helene Marchal über ihr Manuskript. Ein Treffen war nicht geplant.",
+     "neu": "From 02:30 to 03:10 Sophia was on the phone on the sun deck, in French, with her editor Helene Marchal, about her manuscript. No meeting was planned."
+    },
+    {
+     "key": "story_faelle.py:L198.0",
+     "alt": "Sophia: nachts auf dem Sonnendeck telefoniert (privat)",
+     "neu": "Sophia: on the phone on the sun deck at night (private)"
+    },
+    {
+     "key": "story_faelle.py:L200.0",
+     "alt": "Siri sah Sophia gegen Viertel vor drei auf dem Sonnendeck telefonieren, als sie eine Decke holte.",
+     "neu": "Siri saw Sophia on the phone on the sun deck around quarter to three when she went to fetch a blanket."
+    },
+    {
+     "key": "story_faelle.py:L202.0",
+     "alt": "Siri: Sophia um Viertel vor drei telefonierend auf dem Sonnendeck",
+     "neu": "Siri: Sophia on the phone on the sun deck at quarter to three"
+    },
+    {
+     "key": "story_faelle.py:L203.0",
+     "alt": "Siri fragen, wen sie nachts gesehen hat",
+     "neu": "Ask Siri who she saw at night"
+    },
+    {
+     "key": "story_faelle.py:L204.0",
+     "alt": "Reiseplan v2 im Detail: Abfahrt 03:00, Ladelauf Unit-01 von 01:00 bis 02:50, Ankunft Cala d'Orsu 07:15, Halt bis 09:30, 8 kn. Datei angelegt T1 13:30 nach Yasins Anfrage.",
+     "neu": "Voyage plan v2 in detail: departure 03:00, Unit-01 charging run from 01:00 to 02:50, arrival Cala d'Orsu 07:15, stop until 09:30, 8 kn. File created Day 1, 13:30 after Yasin's request."
+    },
+    {
+     "key": "story_faelle.py:L208.0",
+     "alt": "Die Plandatei am Büro-PC ansehen",
+     "neu": "Look at the plan file on the office PC"
+    },
+    {
+     "key": "story_faelle.py:L209.0",
+     "alt": "Yasin: \"Ich wollte den Sonnenaufgang für die Drohne. Ich hab Sophia mittags gefragt.\"",
+     "neu": "Yasin: \"I wanted the sunrise for the drone. I asked Sophia at lunchtime.\""
+    },
+    {
+     "key": "story_faelle.py:L212.0",
+     "alt": "Yasin nach dem Morgenhalt fragen",
+     "neu": "Ask Yasin about the morning stop"
+    },
+    {
+     "key": "story_faelle.py:L213.0",
+     "alt": "Alva: \"Sophia? Kenne ich nicht. Bei mir hat keiner von euch reserviert.\"",
+     "neu": "Alva: \"Sophia? Don't know her. Nobody from your boat booked a table with me.\""
+    },
+    {
+     "key": "story_faelle.py:L214.0",
+     "alt": "Alva: keine Reservierung von der Yacht",
+     "neu": "Alva: no reservation from the yacht"
+    },
+    {
+     "key": "story_faelle.py:L215.0",
+     "alt": "Alva nach der Crew fragen",
+     "neu": "Ask Alva about the crew"
+    },
+    {
+     "key": "story_faelle.py:L216.0",
+     "alt": "Betriebsstundenzähler Unit-01: Ladelauf in der Nacht von 01:00 bis 02:50.",
+     "neu": "Unit-01 hour meter: charging run during the night from 01:00 to 02:50."
+    },
+    {
+     "key": "story_faelle.py:L218.0",
+     "alt": "Zähler Unit-01: Ladelauf 01:00-02:50",
+     "neu": "Unit-01 meter: charging run 01:00-02:50"
+    },
+    {
+     "key": "story_faelle.py:L219.0",
+     "alt": "Den Zähler von Unit-01 ablesen",
+     "neu": "Read the Unit-01 meter"
+    },
+    {
+     "key": "story_faelle.py:L220.0",
+     "alt": "Totos Wettbuch: Rosi, 5 Euro auf \"16 bis 18 Uhr\" (T1 23:10); Quote unveraendert.",
+     "neu": "Totò's betting book: Rosi, €5 on \"4 to 6 pm\" (Day 1, 23:10); odds unchanged."
+    },
+    {
+     "key": "story_faelle.py:L222.0",
+     "alt": "Wettbuch: Rosi 5 EUR auf 16-18 Uhr, Quote unverändert",
+     "neu": "Betting book: Rosi €5 on 4-6 pm, odds unchanged"
+    },
+    {
+     "key": "story_faelle.py:L224.0",
+     "alt": "Chiara hörte Rosi um Viertel vor drei durch die Kabinenwand schnarchen.",
+     "neu": "Chiara heard Rosi snoring through the cabin wall at quarter to three."
+    },
+    {
+     "key": "story_faelle.py:L227.0",
+     "alt": "Chiara nach der Nacht im Crewgang fragen",
+     "neu": "Ask Chiara about the night in the crew corridor"
+    },
+    {
+     "key": "story_faelle.py:L230.0",
+     "alt": "Rosis Protokollordner in der Werkstatt ansehen",
+     "neu": "Look at Rosi's log binder in the workshop"
+    },
+    {
+     "key": "story_faelle.py:L231.0",
+     "alt": "Hotelnetz-Liste: Ladestation Messe 1,8 kW von 05:30 bis 06:40 (Yasins Geräte); Heckverteiler ohne Auslösung.",
+     "neu": "Hotel load list: charging station in the mess 1.8 kW from 05:30 to 06:40 (Yasin's devices); the stern distribution board did not trip."
+    },
+    {
+     "key": "story_faelle.py:L233.0",
+     "alt": "Hotelnetz: Ladestation Messe 1,8 kW 05:30-06:40, Heckverteiler ohne Auslösung",
+     "neu": "Hotel load: charging station in the mess 1.8 kW 05:30-06:40, stern board did not trip"
+    },
+    {
+     "key": "story_faelle.py:L234.0",
+     "alt": "Rosi die Verbrauchsliste zeigen lassen",
+     "neu": "Have Rosi show you the consumption list"
+    },
+    {
+     "key": "story_faelle.py:L235.0",
+     "alt": "Yasins Clips: ab 05:30 Morgendämmerung vom Sonnendeck, durchgehend.",
+     "neu": "Yasin's clips: dawn from the sun deck from 05:30, without a break."
+    },
+    {
+     "key": "story_faelle.py:L237.0",
+     "alt": "Yasins Clips: ab 05:30 durchgehend vom Sonnendeck",
+     "neu": "Yasin's clips: from 05:30, continuously from the sun deck"
+    },
+    {
+     "key": "story_faelle.py:L239.0",
+     "alt": "Toto: Sein Cousin legte von 01:50 bis 02:20 mit dem Schlauchboot an der Badeplattform an (Ware). Deshalb war er an Deck.",
+     "neu": "Totò: his cousin came alongside the swim platform in a dinghy from 01:50 to 02:20 (goods). That's why he was on deck."
+    },
+    {
+     "key": "story_faelle.py:L241.0",
+     "alt": "Toto: nachts an der Badeplattform (Besuch von seinem Cousin)",
+     "neu": "Totò: at the swim platform at night (a visit from his cousin)"
+    },
+    {
+     "key": "story_faelle.py:L244.0",
+     "alt": "Lola: Afterparty bis halb vier, dann am Heck geraucht, ab Viertel vor fünf in der Kombüse gebacken.",
+     "neu": "Lola: afterparty until half past three, then a smoke at the stern, baking in the galley from quarter to five."
+    },
+    {
+     "key": "story_faelle.py:L246.0",
+     "alt": "Lola: bis 03:30 Afterparty, ab 04:45 Kombüse",
+     "neu": "Lola: afterparty until 03:30, galley from 04:45"
+    },
+    {
+     "key": "story_faelle.py:L249.0",
+     "alt": "Auf der Party: Chiaras Ordner in der Pantry, Register \"Kollisionsverhütung\". Sie klappt ihn schnell zu.",
+     "neu": "At the party: Chiara's binder in the pantry, tab \"Collision Regulations\". She snaps it shut quickly."
+    },
+    {
+     "key": "story_faelle.py:L251.0",
+     "alt": "Erinnerung: Chiaras Ordner, Register Kollisionsverhütung",
+     "neu": "Memory: Chiara's binder, tab Collision Regulations"
+    },
+    {
+     "key": "story_faelle.py:L254.0",
+     "alt": "Auf der Party im Kontrollraum: alle Anzeigen grün. Rosi zeigt stolz Unit-01.",
+     "neu": "At the party, in the control room: all displays green. Rosi proudly shows off Unit-01."
+    },
+    {
+     "key": "story_faelle.py:L256.0",
+     "alt": "Erinnerung: Kontrollraum um 20:10, alles grün",
+     "neu": "Memory: control room at 20:10, everything green"
+    },
+    {
+     "key": "story_faelle.py:L258.0",
+     "alt": "Auf der Party: Siri atmet auf dem Achterdeck durch. Yasins Geräte laden an der Ladestation in der Messe.",
+     "neu": "At the party: Siri takes a breather on the aft deck. Yasin's devices are charging at the charging station in the mess."
+    },
+    {
+     "key": "story_faelle.py:L260.0",
+     "alt": "Erinnerung: Yasins Geräte an der Ladestation in der Messe",
+     "neu": "Memory: Yasin's devices at the charging station in the mess"
+    },
+    {
+     "key": "story_faelle.py:L261.0",
+     "alt": "Du hast Siri aus der Aufnahme geholt",
+     "neu": "You got Siri out of the shoot"
+    },
+    {
+     "key": "story_faelle.py:L282.0",
+     "alt": "Steigt nur, wenn die Person von der Ermittlung erfährt. Heimliche Suche ändert nichts.",
+     "neu": "Only rises when the person learns about the investigation. Searching in secret changes nothing."
+    },
+    {
+     "key": "story_faelle.py:L295.0",
+     "alt": "bestreitet; Angst +1; Duc darf vermuten, das Spiel bestätigt nichts",
+     "neu": "denies it; fear +1; Duc may suspect, the game confirms nothing"
+    },
+    {
+     "key": "story_faelle.py:L306.0",
+     "alt": "Übung auf der Brücke",
+     "neu": "Practice on the Bridge"
+    },
+    {
+     "key": "story_faelle.py:L307.0",
+     "alt": "Chiara übt nach der Party heimlich eine Diagnose für ihre Prüfung, aktiviert nach einem Schutzabbruch das dokumentiert wirkende, nicht freigegebene Rückfallprofil R2 und glaubt, es mit \"Diagnose beenden\" zurückgesetzt zu haben. R2 bleibt aktiv; das vorgeschädigte LM3 fällt unter der Dauerlast der Fahrt aus.",
+     "neu": "After the party Chiara secretly practises a diagnostic routine for her exam, activates the documented-looking but unapproved fallback profile R2 after a protective abort, and believes she reset it with \"End diagnosis\". R2 stays active; the already damaged LM3 fails under the sustained load of the passage."
+    },
+    {
+     "key": "story_faelle.py:L312.0",
+     "alt": "Chiara druckt die Übung 4-17 (Bedienfolge Diagnose, Schutzabbruch, R2)",
+     "neu": "Chiara prints exercise 4-17 (diagnosis procedure, protective abort, R2)"
+    },
+    {
+     "key": "story_faelle.py:L313.0",
+     "alt": "Ordner mit Register 4-17 in der Pantry",
+     "neu": "Binder with tab 4-17 in the pantry"
+    },
+    {
+     "key": "story_faelle.py:L314.0",
+     "alt": "Chiara verlässt die Afterparty (\"muss lernen\")",
+     "neu": "Chiara leaves the afterparty (\"have to study\")"
+    },
+    {
+     "key": "story_faelle.py:L315.0",
+     "alt": "Schlüsselbund mit Glöckchen an der Brückentür",
+     "neu": "Bunch of keys with a little bell at the bridge door"
+    },
+    {
+     "key": "story_faelle.py:L316.0",
+     "alt": "Diagnoseroutine am Wartungsschalter gestartet",
+     "neu": "Diagnostic routine started at the maintenance switch"
+    },
+    {
+     "key": "story_faelle.py:L317.0",
+     "alt": "Schutzabbruch LM3 Übertemperatur",
+     "neu": "Protective abort LM3 overtemperature"
+    },
+    {
+     "key": "story_faelle.py:L318.0",
+     "alt": "Rückfallprofil R2 aktiviert",
+     "neu": "Fallback profile R2 activated"
+    },
+    {
+     "key": "story_faelle.py:L319.0",
+     "alt": "\"Diagnose beenden\" - R2 bleibt aktiv; Übungsblatt bleibt am Pult liegen",
+     "neu": "\"End diagnosis\" - R2 stays active; the exercise sheet is left lying on the console"
+    },
+    {
+     "key": "story_faelle.py:L320.0",
+     "alt": "Chiara zurück in der Messe, Tee, 02:45 Koje",
+     "neu": "Chiara back in the mess, tea, bunk at 02:45"
+    },
+    {
+     "key": "story_faelle.py:L321.0",
+     "alt": "Holm: Tür offen, Anzeige \"PROFIL R2 BEREIT\", Blatt in die Logbuchmappe",
+     "neu": "Holm: door open, display \"PROFILE R2 READY\", sheet into the logbook folder"
+    },
+    {
+     "key": "story_faelle.py:L322.0",
+     "alt": "Abfahrt im Profil R2",
+     "neu": "Departure in profile R2"
+    },
+    {
+     "key": "story_faelle.py:L323.0",
+     "alt": "LM3 fällt unter Dauerlast aus",
+     "neu": "LM3 fails under sustained load"
+    },
+    {
+     "key": "story_faelle.py:L326.0",
+     "alt": "%s: Diagnoseroutine gestartet (Wartungsschalter Brücke)",
+     "neu": "%s: diagnostic routine started (bridge maintenance switch)"
+    },
+    {
+     "key": "story_faelle.py:L327.0",
+     "alt": "%s: Schutzabbruch Diagnoseroutine - LM3 Übertemperatur",
+     "neu": "%s: protective abort of diagnostic routine - LM3 overtemperature"
+    },
+    {
+     "key": "story_faelle.py:L328.0",
+     "alt": "%s: Rückfallprofil R2 aktiviert (Wartungsschalter Brücke)",
+     "neu": "%s: fallback profile R2 activated (bridge maintenance switch)"
+    },
+    {
+     "key": "story_faelle.py:L329.0",
+     "alt": "Holm: Um 02:40 war die Brückentür offen, obwohl sie um 00:45 abgeschlossen hatte; die Anzeige stand auf \"PROFIL R2 BEREIT\". Sie hielt es für eine Werfteinstellung.",
+     "neu": "Holm: at 02:40 the bridge door was open although she had locked it at 00:45; the display read \"PROFILE R2 READY\". She took it for a yard setting."
+    },
+    {
+     "key": "story_faelle.py:L331.0",
+     "alt": "Holm: Tür um 02:40 offen, Anzeige \"PROFIL R2 BEREIT\"",
+     "neu": "Holm: door open at 02:40, display \"PROFILE R2 READY\""
+    },
+    {
+     "key": "story_faelle.py:L333.0",
+     "alt": "Übungsblatt \"Bedienfolge 4-17\" mit Bleistiftnotizen \"2:05 / 2:22 / 2:24\" in Chiaras Handschrift. Lag am Wartungspult; Holm legte es in die Logbuchmappe.",
+     "neu": "Exercise sheet \"Procedure 4-17\" with pencil notes \"2:05 / 2:22 / 2:24\" in Chiara's handwriting. It was lying on the maintenance console; Holm put it in the logbook folder."
+    },
+    {
+     "key": "story_faelle.py:L335.0",
+     "alt": "Holm erzählt beim Kaffee von einem Zettel am Pult",
+     "neu": "Over coffee Holm mentions a note on the console"
+    },
+    {
+     "key": "story_faelle.py:L337.0",
+     "alt": "Übungsblatt 4-17 mit Bleistiftzeiten 2:05 / 2:22 / 2:24",
+     "neu": "Exercise sheet 4-17 with pencil times 2:05 / 2:22 / 2:24"
+    },
+    {
+     "key": "story_faelle.py:L339.0",
+     "alt": "Chiara bitten, ihren Prüfungsordner zu zeigen",
+     "neu": "Ask Chiara to show you her exam binder"
+    },
+    {
+     "key": "story_faelle.py:L341.0",
+     "alt": "Als Kommandant anordnen, den Spind zu öffnen",
+     "neu": "Order the locker opened, as commander"
+    },
+    {
+     "key": "story_faelle.py:L343.0",
+     "alt": "Holm: Am Wartungspult lag ein Zettel, \"Bedienfolge 4-17\", mit Bleistiftzeiten. Sie hat ihn in die Logbuchmappe gelegt.",
+     "neu": "Holm: there was a note on the maintenance console, \"Procedure 4-17\", with pencilled times. She put it in the logbook folder."
+    },
+    {
+     "key": "story_faelle.py:L346.0",
+     "alt": "Holm: Am Pult lag ein Zettel \"Bedienfolge 4-17\" – jetzt in der Logbuchmappe",
+     "neu": "Holm: there was a note \"Procedure 4-17\" on the console – now in the logbook folder"
+    },
+    {
+     "key": "story_faelle.py:L347.0",
+     "alt": "Holm fragen, ob nachts etwas am Pult lag",
+     "neu": "Ask Holm whether anything was lying on the console that night"
+    },
+    {
+     "key": "story_faelle.py:L349.0",
+     "alt": "Druckerspeicher: Auftrag T1 16:10, \"Übung_4-17.pdf\", 2 Seiten, Benutzer C. Sonnberg. Die Datei liegt noch auf dem Büro-PC.",
+     "neu": "Printer memory: job Day 1, 16:10, \"Exercise_4-17.pdf\", 2 pages, user C. Sonnberg. The file is still on the office PC."
+    },
+    {
+     "key": "story_faelle.py:L351.0",
+     "alt": "Druckerspeicher: 16:10 \"Übung_4-17\" (C. Sonnberg)",
+     "neu": "Printer memory: 16:10 \"Exercise_4-17\" (C. Sonnberg)"
+    },
+    {
+     "key": "story_faelle.py:L353.0",
+     "alt": "Zuletzt gedruckte Dateien am Büro-PC ansehen",
+     "neu": "Look at the last printed files on the office PC"
+    },
+    {
+     "key": "story_faelle.py:L354.0",
+     "alt": "Toto: Nach dem Partyende, so um zwei, hörte er Chiaras Schlüsselbund mit dem Glöckchen an der Brückentür.",
+     "neu": "Totò: after the party ended, around two, he heard Chiara's bunch of keys with the little bell at the bridge door."
+    },
+    {
+     "key": "story_faelle.py:L356.0",
+     "alt": "Toto: gegen zwei Chiaras Schlüsselbund an der Brückentür gehört",
+     "neu": "Totò: heard Chiara's keys at the bridge door around two"
+    },
+    {
+     "key": "story_faelle.py:L357.0",
+     "alt": "Toto fragen, was er nachts gehört hat",
+     "neu": "Ask Totò what he heard at night"
+    },
+    {
+     "key": "story_faelle.py:L359.0",
+     "alt": "Lola: Chiara ging kurz vor zwei (\"muss lernen\") und kam um halb drei zurück, machte Tee und ging ins Bett.",
+     "neu": "Lola: Chiara left shortly before two (\"have to study\") and came back at half past two, made tea and went to bed."
+    },
+    {
+     "key": "story_faelle.py:L361.0",
+     "alt": "Lola: Chiara ging kurz vor zwei, kam halb drei zurück",
+     "neu": "Lola: Chiara left shortly before two, back at half past two"
+    },
+    {
+     "key": "story_faelle.py:L363.0",
+     "alt": "Chiara: \"Ich habe bis halb drei in der Messe gelernt, dann bin ich ins Bett.\"",
+     "neu": "Chiara: \"I studied in the mess until half past two, then I went to bed.\""
+    },
+    {
+     "key": "story_faelle.py:L365.0",
+     "alt": "Chiara: bis halb drei in der Messe gelernt",
+     "neu": "Chiara: studied in the mess until half past two"
+    },
+    {
+     "key": "story_faelle.py:L367.0",
+     "alt": "Chiara (auf Nachfrage): \"Ich war kurz draußen. Frische Luft.\"",
+     "neu": "Chiara (when pressed): \"I was outside for a moment. Fresh air.\""
+    },
+    {
+     "key": "story_faelle.py:L368.0",
+     "alt": "Chiara: war kurz draußen, frische Luft",
+     "neu": "Chiara: was outside for a moment, fresh air"
+    },
+    {
+     "key": "story_faelle.py:L370.0",
+     "alt": "\"Diagnose beenden\" setzt R2 nicht zurück. Unter Dauerlast im R2 überhitzt ein PX-480 - genau das zeigt die Kurve bis zum Ausfall.",
+     "neu": "\"End diagnosis\" does not reset R2. Under sustained load in R2 a PX-480 overheats - exactly what the curve shows up to the failure."
+    },
+    {
+     "key": "story_faelle.py:L372.0",
+     "alt": "Technik: \"Diagnose beenden\" setzt R2 nicht zurück; R2 überlastet LM3",
+     "neu": "Engineering: \"End diagnosis\" does not reset R2; R2 overloads LM3"
+    },
+    {
+     "key": "story_faelle.py:L373.0",
+     "alt": "Rosi die Bedienfolge am Wartungspult nachstellen lassen",
+     "neu": "Have Rosi re-enact the procedure at the maintenance console"
+    },
+    {
+     "key": "story_faelle.py:L375.0",
+     "alt": "Auf der Party: Chiaras Ordner in der Pantry, Register \"4-17 Rückfallprofil\".",
+     "neu": "At the party: Chiara's binder in the pantry, tab \"4-17 Fallback profile\"."
+    },
+    {
+     "key": "story_faelle.py:L377.0",
+     "alt": "Erinnerung: Chiaras Ordner, Register 4-17 Rückfallprofil",
+     "neu": "Memory: Chiara's binder, tab 4-17 Fallback profile"
+    },
+    {
+     "key": "story_faelle.py:L380.0",
+     "alt": "Aushang an der Brückentür: \"Zutritt nur Kommando und Technik - Sicherheit nach dem Vorfall. C. Sonnberg\"",
+     "neu": "Notice on the bridge door: \"Access for command and engineering only - safety after the incident. C. Sonnberg\""
+    },
+    {
+     "key": "story_faelle.py:L382.0",
+     "alt": "Aushang Brückentür: Zutritt nur Kommando/Technik (gez. C. Sonnberg)",
+     "neu": "Notice on the bridge door: access for command/engineering only (signed C. Sonnberg)"
+    },
+    {
+     "key": "story_faelle.py:L383.0",
+     "alt": "Die Brückentür",
+     "neu": "The bridge door"
+    },
+    {
+     "key": "story_faelle.py:L384.0",
+     "alt": "In der Logbuchmappe ist die Hülle mit dem Übungsblatt leer.",
+     "neu": "In the logbook folder, the sleeve with the exercise sheet is empty."
+    },
+    {
+     "key": "story_faelle.py:L385.0",
+     "alt": "Logbuchmappe: eine Hülle ist leer",
+     "neu": "Logbook folder: one sleeve is empty"
+    },
+    {
+     "key": "story_faelle.py:L388.0",
+     "alt": "Holm nach dem Zettel vom Pult fragen",
+     "neu": "Ask Holm about the note from the console"
+    },
+    {
+     "key": "story_faelle.py:L393.0",
+     "alt": "Aussage: bis halb drei in der Messe gelernt - Lola: ging kurz vor zwei, kam halb drei zurück",
+     "neu": "Statement: studied in the mess until half past two - Lola: left shortly before two, came back at half past two"
+    },
+    {
+     "key": "story_faelle.py:L395.0",
+     "alt": "Ohne Abgleich liegt der Diagnosestart (Anzeige %s) vor Chiaras Weggang um 01:55 - mit Abgleich (02:05) mitten in ihrer Abwesenheit. Die Bleistiftzeiten auf dem Blatt passen erst nach dem Abgleich.",
+     "neu": "Without matching the clocks, the start of the diagnosis (display %s) comes before Chiara left at 01:55 - with the clocks matched (02:05) it falls right in her absence. The pencil times on the sheet only fit once the clocks are matched."
+    },
+    {
+     "key": "story_faelle.py:L398.0",
+     "alt": "Beschränkt den Brückenzugang mit sachlicher Sicherheitsbegruendung.",
+     "neu": "Restricts access to the bridge with a matter-of-fact safety reason."
+    },
+    {
+     "key": "story_faelle.py:L400.0",
+     "alt": "Kein Beweis geht verloren; Gegenmittel: Duc hebt den Aushang als Kommandant auf.",
+     "neu": "No evidence is lost; counter: Duc lifts the notice as commander."
+    },
+    {
+     "key": "story_faelle.py:L401.0",
+     "alt": "Nimmt ihr Übungsblatt aus der Logbuchmappe, nicht das Protokoll - die Hülle bleibt leer, das Blatt landet in ihrem Prüfungsordner.",
+     "neu": "Takes her exercise sheet out of the logbook folder, not the log - the sleeve stays empty, the sheet ends up in her exam binder."
+    },
+    {
+     "key": "story_faelle.py:L405.0",
+     "alt": "Sie bittet selbst um ein privates Gespräch.",
+     "neu": "She asks for a private talk herself."
+    },
+    {
+     "key": "story_faelle.py:L406.0",
+     "alt": "Ich wollte einmal nicht die sein, die den Kaffee bringt, während andere entscheiden.",
+     "neu": "For once I didn't want to be the one bringing the coffee while other people decide."
+    },
+    {
+     "key": "story_faelle.py:L409.0",
+     "alt": "Die Tür war offen. Ich hatte um Viertel vor eins abgeschlossen.",
+     "neu": "The door was open. I'd locked it at quarter to one."
+    },
+    {
+     "key": "story_faelle.py:L411.0",
+     "alt": "Die Werft hat beim letzten Service etwas verstellt.",
+     "neu": "The yard changed something at the last service."
+    },
+    {
+     "key": "story_faelle.py:L413.0",
+     "alt": "Chiara trägt ihren dicken Ordner seit gestern überall mit. Sonst liegt der im Spind.",
+     "neu": "Chiara's been carrying her fat binder everywhere since yesterday. Normally it lives in her locker."
+    },
+    {
+     "key": "story_faelle.py:L415.0",
+     "alt": "Holm hat beim Kaffee erzählt, sie hat nachts einen Zettel in die Logbuchmappe gesteckt.",
+     "neu": "Over coffee Holm said she put a note in the logbook folder that night."
+    },
+    {
+     "key": "story_faelle.py:L419.0",
+     "alt": "Sie trägt den Vorgang selbst in den Bericht ein und arbeitet unter überprüfbaren Zuständigkeiten mit. Kein geschenktes Kommando, keine geschenkte Qualifikation.",
+     "neu": "She enters the incident in the report herself and works on under verifiable responsibilities. No command handed to her, no qualification handed to her."
+    },
+    {
+     "key": "story_faelle.py:L423.0",
+     "alt": "Die Strecke, die nicht im Plan stand",
+     "neu": "The Leg That Wasn't in the Plan"
+    },
+    {
+     "key": "story_faelle.py:L424.0",
+     "alt": "Lea legt bei ihrer Routenübung WP4 auf das Margot-Suchgebiet und rechnet die Mehrstrecke gegen die längere Vorjahresroute klein (+1,8 statt +11,2 sm). Duc zeichnet ab. Der Autopilot hält die Zielzeit und fährt 10,6 statt 8 kn; unter der Dauerlast versagt das vorgeschädigte LM3.",
+     "neu": "During her route exercise Lea puts WP4 on the Margot search area and makes the extra distance look small by measuring it against last year's longer route (+1.8 instead of +11.2 nm). Duc signs it off. The autopilot holds the arrival time and runs at 10.6 instead of 8 kn; under the sustained load the already damaged LM3 fails."
+    },
+    {
+     "key": "story_faelle.py:L429.0",
+     "alt": "Petru schreibt Lea das Margot-Suchgebiet",
+     "neu": "Petru writes Lea the Margot search area"
+    },
+    {
+     "key": "story_faelle.py:L430.0",
+     "alt": "Lea setzt WP4 auf die Margot-Koordinaten, Mehrstrecke \"+1,8 sm\"",
+     "neu": "Lea sets WP4 on the Margot coordinates, extra distance \"+1.8 nm\""
+    },
+    {
+     "key": "story_faelle.py:L432.0",
+     "alt": "Lea zu Siri: \"Morgen früh fahren wir genau drüber.\"",
+     "neu": "Lea to Siri: \"Tomorrow morning we'll go right over it.\""
+    },
+    {
+     "key": "story_faelle.py:L433.0",
+     "alt": "Abfahrt; Zielzeit 07:15 -> Autopilot fährt 10,6 kn",
+     "neu": "Departure; arrival time 07:15 -> autopilot runs at 10.6 kn"
+    },
+    {
+     "key": "story_faelle.py:L434.0",
+     "alt": "Lea auf der Brücke, fragt nach WP4",
+     "neu": "Lea on the bridge, asks about WP4"
+    },
+    {
+     "key": "story_faelle.py:L437.0",
+     "alt": "06:15 Lea a. d. Brücke (fragt nach WP4). 06:35 Antrieb aus.",
+     "neu": "06:15 Lea on the bridge (asks about WP4). 06:35 propulsion off."
+    },
+    {
+     "key": "story_faelle.py:L438.0",
+     "alt": "GPS-Track: Kurs über WP4 im Margot-Gebiet, bis 9,4 sm seewärts der direkten Linie; Fahrt 10,6 kn; Ausfall 0,6 sm vor WP4.",
+     "neu": "GPS track: course via WP4 in the Margot area, up to 9.4 nm seaward of the direct line; speed 10.6 kn; failure 0.6 nm before WP4."
+    },
+    {
+     "key": "story_faelle.py:L440.0",
+     "alt": "GPS-Track: über WP4, 9,4 sm seewärts der direkten Linie, 10,6 kn",
+     "neu": "GPS track: via WP4, 9.4 nm seaward of the direct line, 10.6 kn"
+    },
+    {
+     "key": "story_faelle.py:L442.0",
+     "alt": "Rosi das Plotter-Backup ziehen lassen",
+     "neu": "Have Rosi pull the plotter backup"
+    },
+    {
+     "key": "story_faelle.py:L443.0",
+     "alt": "Routenplan (Lea, T1 16:30): WP4 \"Küstenabstand\", Mehrstrecke \"+1,8 sm\", abgezeichnet von Duc um 17:40.",
+     "neu": "Route plan (Lea, Day 1, 16:30): WP4 \"distance off the coast\", extra distance \"+1.8 nm\", signed off by Duc at 17:40."
+    },
+    {
+     "key": "story_faelle.py:L445.0",
+     "alt": "Routenplan Lea: WP4 \"Küstenabstand\", Mehrstrecke +1,8 sm (von dir abgezeichnet)",
+     "neu": "Lea's route plan: WP4 \"distance off the coast\", extra distance +1.8 nm (signed off by you)"
+    },
+    {
+     "key": "story_faelle.py:L447.0",
+     "alt": "Die abgezeichnete Papierfassung in der Brückenmappe",
+     "neu": "The signed paper copy in the bridge folder"
+    },
+    {
+     "key": "story_faelle.py:L449.0",
+     "alt": "Lea den Plan erklären lassen",
+     "neu": "Have Lea explain the plan"
+    },
+    {
+     "key": "story_faelle.py:L450.0",
+     "alt": "Die Mehrstrecke im Plan ist gegen die Vorjahresroute gerechnet; gegen die direkte Linie sind es +11,2 sm.",
+     "neu": "The extra distance in the plan is measured against last year's route; against the direct line it's +11.2 nm."
+    },
+    {
+     "key": "story_faelle.py:L452.0",
+     "alt": "Nachgerechnet: gegen die direkte Linie +11,2 sm (Plan rechnet gegen die Vorjahresroute)",
+     "neu": "Recalculated: against the direct line +11.2 nm (the plan measures against last year's route)"
+    },
+    {
+     "key": "story_faelle.py:L453.0",
+     "alt": "Plan und Track nachrechnen",
+     "neu": "Recalculate plan and track"
+    },
+    {
+     "key": "story_faelle.py:L455.0",
+     "alt": "Holm am Telefon nachrechnen lassen",
+     "neu": "Have Holm recalculate it over the phone"
+    },
+    {
+     "key": "story_faelle.py:L457.0",
+     "alt": "Rosi die Strecke nachrechnen lassen",
+     "neu": "Have Rosi recalculate the distance"
+    },
+    {
+     "key": "story_faelle.py:L459.0",
+     "alt": "Petru: WP4 liegt genau in dem Suchgebiet, das er Lea geschickt hat.",
+     "neu": "Petru: WP4 lies exactly in the search area he sent Lea."
+    },
+    {
+     "key": "story_faelle.py:L460.0",
+     "alt": "Petru: WP4 liegt in dem Suchgebiet, das er Lea schickte",
+     "neu": "Petru: WP4 lies in the search area he sent Lea"
+    },
+    {
+     "key": "story_faelle.py:L461.0",
+     "alt": "Petru die Koordinaten zeigen",
+     "neu": "Show Petru the coordinates"
+    },
+    {
+     "key": "story_faelle.py:L463.0",
+     "alt": "Petru die Koordinaten schicken",
+     "neu": "Send Petru the coordinates"
+    },
+    {
+     "key": "story_faelle.py:L465.0",
+     "alt": "Holm: Lea kam um Viertel nach sechs auf die Brücke und wollte wissen, wie weit es noch bis WP4 sei. WP4 lag weiter draußen, als Holm es geplant hätte - aber Duc hatte abgezeichnet.",
+     "neu": "Holm: Lea came onto the bridge at quarter past six and wanted to know how far it still was to WP4. WP4 lay further out than Holm would have planned it - but Duc had signed it off."
+    },
+    {
+     "key": "story_faelle.py:L467.0",
+     "alt": "Holm: Lea um 06:15 auf der Brücke, fragte nach WP4",
+     "neu": "Holm: Lea on the bridge at 06:15, asked about WP4"
+    },
+    {
+     "key": "story_faelle.py:L469.0",
+     "alt": "Lea: \"WP4 war nur Küstenabstand. Das waren keine zwei Meilen mehr.\"",
+     "neu": "Lea: \"WP4 was just distance off the coast. It wasn't even two miles extra.\""
+    },
+    {
+     "key": "story_faelle.py:L470.0",
+     "alt": "Lea: WP4 nur Küstenabstand, keine zwei Meilen",
+     "neu": "Lea: WP4 only distance off the coast, not even two miles"
+    },
+    {
+     "key": "story_faelle.py:L472.0",
+     "alt": "Lea: \"Ich war erst nach dem Alarm auf der Brücke.\"",
+     "neu": "Lea: \"I only came onto the bridge after the alarm.\""
+    },
+    {
+     "key": "story_faelle.py:L473.0",
+     "alt": "Lea: erst nach dem Alarm auf der Brücke",
+     "neu": "Lea: only on the bridge after the alarm"
+    },
+    {
+     "key": "story_faelle.py:L474.0",
+     "alt": "Lea nach der Nacht fragen",
+     "neu": "Ask Lea about the night"
+    },
+    {
+     "key": "story_faelle.py:L475.0",
+     "alt": "Lea (auf Nachfrage): \"Ich wollte nur sehen, ob wir gut liegen.\"",
+     "neu": "Lea (when pressed): \"I only wanted to see if we were on time.\""
+    },
+    {
+     "key": "story_faelle.py:L476.0",
+     "alt": "Lea: wollte nur sehen, ob wir gut liegen",
+     "neu": "Lea: only wanted to see if we were on time"
+    },
+    {
+     "key": "story_faelle.py:L478.0",
+     "alt": "Bei 10,6 kn Dauerfahrt liegt LM3 deutlich über Nennlast; bei 8 kn wäre es im Normalbereich geblieben.",
+     "neu": "At a sustained 10.6 kn LM3 is well above its rated load; at 8 kn it would have stayed in the normal range."
+    },
+    {
+     "key": "story_faelle.py:L480.0",
+     "alt": "Technik: bei 10,6 kn LM3 über Nennlast, bei 8 kn im Normalbereich",
+     "neu": "Engineering: at 10.6 kn LM3 over rated load, at 8 kn in the normal range"
+    },
+    {
+     "key": "story_faelle.py:L481.0",
+     "alt": "Rosi die Lastkurve der Nacht auswerten lassen",
+     "neu": "Have Rosi analyse the night's load curve"
+    },
+    {
+     "key": "story_faelle.py:L482.0",
+     "alt": "Lea: Ihr Großvater suchte sein Leben lang die Margot; sie wollte die Stelle einmal selbst sehen.",
+     "neu": "Lea: her grandfather searched for the Margot all his life; she wanted to see the spot herself once."
+    },
+    {
+     "key": "story_faelle.py:L484.0",
+     "alt": "Lea: ihr Großvater suchte die Margot",
+     "neu": "Lea: her grandfather searched for the Margot"
+    },
+    {
+     "key": "story_faelle.py:L485.0",
+     "alt": "Lea nach ihrem Großvater fragen",
+     "neu": "Ask Lea about her grandfather"
+    },
+    {
+     "key": "story_faelle.py:L486.0",
+     "alt": "Auf der Party: Lea sagt zu Siri: \"Morgen früh fahren wir genau drüber.\" Yasins Geräte laden an der Ladestation in der Messe.",
+     "neu": "At the party: Lea says to Siri, \"Tomorrow morning we'll go right over it.\" Yasin's devices are charging at the charging station in the mess."
+    },
+    {
+     "key": "story_faelle.py:L488.0",
+     "alt": "Erinnerung: Lea zu Siri - \"Morgen früh fahren wir genau drüber\"",
+     "neu": "Memory: Lea to Siri - \"Tomorrow morning we'll go right over it\""
+    },
+    {
+     "key": "story_faelle.py:L491.0",
+     "alt": "Navi-Ecke: drei Notizzettel mit Distanzrechnungen von Lea aus der Nacht zu Tag 3, alle gegen die Vorjahresroute.",
+     "neu": "Navigation corner: three notes with distance calculations by Lea from the night before day 3, all measured against last year's route."
+    },
+    {
+     "key": "story_faelle.py:L493.0",
+     "alt": "Navi-Ecke: Leas nächtliche Distanzrechnungen (Bezug: Vorjahresroute)",
+     "neu": "Navigation corner: Lea's night-time distance calculations (reference: last year's route)"
+    },
+    {
+     "key": "story_faelle.py:L496.0",
+     "alt": "Leas neues Distanzblatt: \"+1,9 sm\" - im Kopf klein der Bezug \"Vorjahresroute\".",
+     "neu": "Lea's new distance sheet: \"+1.9 nm\" - in small print at the top, the reference \"last year's route\"."
+    },
+    {
+     "key": "story_faelle.py:L497.0",
+     "alt": "Leas Distanzblatt: +1,9 sm (Bezug klein im Kopf: Vorjahresroute)",
+     "neu": "Lea's distance sheet: +1.9 nm (reference in small print: last year's route)"
+    },
+    {
+     "key": "story_faelle.py:L499.0",
+     "alt": "Lea bringt dir eine neue Rechnung",
+     "neu": "Lea brings you a new calculation"
+    },
+    {
+     "key": "story_faelle.py:L505.0",
+     "alt": "Aussage: erst nach dem Alarm auf der Brücke - Logbuch: 06:15, zwanzig Minuten vor dem Ausfall",
+     "neu": "Statement: only on the bridge after the alarm - logbook: 06:15, twenty minutes before the failure"
+    },
+    {
+     "key": "story_faelle.py:L507.0",
+     "alt": "Die Anzeige meldet den Ausfall um %s - das wirkt wie \"gleich nach Leas Besuch\". Mit Abgleich (06:35) liegen zwanzig Minuten dazwischen: Der Besuch war kein Eingriff; die Frage nach WP4 ist die Spur.",
+     "neu": "The display reports the failure at %s - that looks like \"right after Lea's visit\". With the clocks matched (06:35) there are twenty minutes in between: the visit wasn't an intervention; the question about WP4 is the lead."
+    },
+    {
+     "key": "story_faelle.py:L510.0",
+     "alt": "Meldet sich für Ankerwache und Reparaturtauchgänge, rechnet nachts heimlich nach und verschweigt ihre Erschöpfung.",
+     "neu": "Volunteers for anchor watch and repair dives, secretly recalculates at night and hides how exhausted she is."
+    },
+    {
+     "key": "story_faelle.py:L512.0",
+     "alt": "Kein Beweis geht verloren. Gegenmittel: Duc spricht die Erschöpfung an (Flag lea_erschöpfung_angesprochen); sonst unterläuft ihr bei der Sturmvorbereitung ein Fehler.",
+     "neu": "No evidence is lost. Counter: Duc raises her exhaustion (flag lea_erschöpfung_angesprochen); otherwise she makes a mistake during the storm preparation."
+    },
+    {
+     "key": "story_faelle.py:L514.0",
+     "alt": "Lässt sich bei der Entfernungsfrage auf eine zweite Unwahrheit ein: neues Distanzblatt, wieder gegen die Vorjahresroute.",
+     "neu": "When asked about the distance she goes along with a second untruth: a new distance sheet, again measured against last year's route."
+    },
+    {
+     "key": "story_faelle.py:L516.0",
+     "alt": "Gegenmittel: GPS-Track und Nachrechnung (f2_05).",
+     "neu": "Counter: GPS track and recalculation (f2_05)."
+    },
+    {
+     "key": "story_faelle.py:L519.0",
+     "alt": "Sie kommt nachts in die Navi-Ecke, als Duc dort ist, und erzählt von der Margot.",
+     "neu": "She comes to the navigation corner at night while Duc is there and tells him about the Margot."
+    },
+    {
+     "key": "story_faelle.py:L520.0",
+     "alt": "Ich dachte, wenn ich es wirklich finde, ist es nicht mehr nur eine Geschichte von ihm.",
+     "neu": "I thought if I really found it, it wouldn't just be his story any more."
+    },
+    {
+     "key": "story_faelle.py:L522.0",
+     "alt": "Ducs Freigabe um 17:40 gehört in den vollständigen Bericht.",
+     "neu": "Duc's sign-off at 17:40 belongs in the complete report."
+    },
+    {
+     "key": "story_faelle.py:L526.0",
+     "alt": "Die Kiste war der Fahrt nicht gewachsen. Werft.",
+     "neu": "The boat wasn't up to the passage. The yard."
+    },
+    {
+     "key": "story_faelle.py:L527.0",
+     "alt": "kurz angebunden; erinnert Duc daran, dass er abgezeichnet hat",
+     "neu": "curt; reminds Duc that he signed it off"
+    },
+    {
+     "key": "story_faelle.py:L528.0",
+     "alt": "Lea saß die halbe Nacht in der Navi-Ecke. Taschenrechner, drei Zettel.",
+     "neu": "Lea sat in the navigation corner half the night. Calculator, three notes."
+    },
+    {
+     "key": "story_faelle.py:L530.0",
+     "alt": "Lea redet seit Tagen von ihrem Opa und einem Schiff. Frag mal den Fischer, der ihr dauernd schreibt.",
+     "neu": "Lea's been talking about her grandad and a ship for days. Ask the fisherman who keeps texting her."
+    },
+    {
+     "key": "story_faelle.py:L534.0",
+     "alt": "Sie gibt die Koordinaten frei und akzeptiert, dass eine spätere Suche vorbereitet und begleitet wird. Der Großvater bleibt eine Verbindung, kein Hinweisgeber.",
+     "neu": "She hands over the coordinates and accepts that a later search will be prepared and accompanied. Her grandfather stays a connection, not an informant."
+    },
+    {
+     "key": "story_faelle.py:L539.0",
+     "alt": "Sophia hat für Tag 2 um 07:30 ein Treffen mit ihrer Lektorin in Alvas Bar vereinbart (Vertragschance für ihr Buch, von der niemand weiß). Sie erfindet den Gästewunsch Sonnenaufgang, drückt eine Abfahrt um 01:30 ohne Ladelauf von Unit-01 durch (\"Gäste wollen nachts keinen Diesel hören\") und überstimmt Holms Bedenken mit Megans Namen. Die Nachtfahrt leert Bank A; im Reservebetrieb schaltet die Steuerung ins Profil R2; LM3 fällt aus.",
+     "neu": "Sophia has arranged a meeting with her editor at Alva's bar at 07:30 on day 2 (a chance at a contract for her book, which nobody knows about). She invents the guests' wish for a sunrise, pushes through a 01:30 departure without a charging run of Unit-01 (\"guests don't want to hear diesel at night\") and overrules Holm's doubts with Megan's name. The night passage drains bank A; in reserve mode the controller switches to profile R2; LM3 fails."
+    },
+    {
+     "key": "story_faelle.py:L546.0",
+     "alt": "Sophia legt den Planentwurf an (Nachtabfahrt, Halt 06:30-12:00)",
+     "neu": "Sophia drafts the plan (night departure, stop 06:30-12:00)"
+    },
+    {
+     "key": "story_faelle.py:L548.0",
+     "alt": "Nachricht der Lektorin: Dienstag 7:30, Bar Santoni, Vertragsentwurf",
+     "neu": "Message from the editor: Tuesday 7:30, Bar Santoni, draft contract"
+    },
+    {
+     "key": "story_faelle.py:L549.0",
+     "alt": "Sophia schlägt Yasin den Sonnenaufgang vor",
+     "neu": "Sophia suggests the sunrise to Yasin"
+    },
+    {
+     "key": "story_faelle.py:L550.0",
+     "alt": "Yasin an Siri: \"Sophia meint, Sonnenaufgang in Cala d'Orsu wäre Gold\"",
+     "neu": "Yasin to Siri: \"Sophia says sunrise in Cala d'Orsu would be gold\""
+    },
+    {
+     "key": "story_faelle.py:L551.0",
+     "alt": "Plan v2 aktiv: Abfahrt 01:30, ohne Ladelauf; Holm hat Bedenken, genehmigt",
+     "neu": "Plan v2 active: departure 01:30, without a charging run; Holm has doubts, approves"
+    },
+    {
+     "key": "story_faelle.py:L553.0",
+     "alt": "Sophia an die Lektorin: \"Wir kommen früh, 7:30 passt.\"",
+     "neu": "Sophia to the editor: \"We're arriving early, 7:30 works.\""
+    },
+    {
+     "key": "story_faelle.py:L554.0",
+     "alt": "Reserveschwelle Bank A, Reservebetrieb im Profil R2",
+     "neu": "Bank A reserve threshold, reserve mode in profile R2"
+    },
+    {
+     "key": "story_faelle.py:L555.0",
+     "alt": "LM3-Ausfall 1,1 sm vor der Bucht",
+     "neu": "LM3 failure 1.1 nm before the bay"
+    },
+    {
+     "key": "story_faelle.py:L556.0",
+     "alt": "Die Lektorin geht; Notiz für Sophia bei Alva",
+     "neu": "The editor leaves; a note for Sophia at Alva's"
+    },
+    {
+     "key": "story_faelle.py:L559.0",
+     "alt": "%s: Bank A Reserveschwelle - Reservebetrieb, Profil R2 (Abfahrt mit 58 Prozent)",
+     "neu": "%s: bank A reserve threshold - reserve mode, profile R2 (departure at 58 percent)"
+    },
+    {
+     "key": "story_faelle.py:L560.0",
+     "alt": "Betriebsstundenzähler Unit-01: kein Lauf in der Nacht; letzter Lauf T1 11:00.",
+     "neu": "Unit-01 hour meter: no run during the night; last run Day 1, 11:00."
+    },
+    {
+     "key": "story_faelle.py:L561.0",
+     "alt": "Zähler Unit-01: kein Lauf in der Nacht",
+     "neu": "Unit-01 meter: no run during the night"
+    },
+    {
+     "key": "story_faelle.py:L563.0",
+     "alt": "Rosi nach Unit-01 in der Nacht fragen",
+     "neu": "Ask Rosi about Unit-01 during the night"
+    },
+    {
+     "key": "story_faelle.py:L564.0",
+     "alt": "Reiseplan v2 im Detail: Abfahrt 01:30, Ankunft Cala d'Orsu 06:30, Halt bis 12:00, Ladelauf gestrichen (\"Gäste wünschen Nachtruhe\"), eingereicht von Sophia.",
+     "neu": "Voyage plan v2 in detail: departure 01:30, arrival Cala d'Orsu 06:30, stop until 12:00, charging run removed (\"guests want a quiet night\"), submitted by Sophia."
+    },
+    {
+     "key": "story_faelle.py:L569.0",
+     "alt": "Holms ausgedruckten Plan in der Brückenmappe",
+     "neu": "Holm's printed plan in the bridge folder"
+    },
+    {
+     "key": "story_faelle.py:L570.0",
+     "alt": "Megan um den Plan bitten, wie er bei Eden eingegangen ist",
+     "neu": "Ask Megan for the plan as it reached Eden"
+    },
+    {
+     "key": "story_faelle.py:L572.0",
+     "alt": "Dateiversion am Büro-PC: Planentwurf v2 angelegt T-4 22:10 (Benutzer S.), geändert T1 15:30.",
+     "neu": "File version on the office PC: draft plan v2 created four days before the party at 22:10 (user S.), changed Day 1, 15:30."
+    },
+    {
+     "key": "story_faelle.py:L574.0",
+     "alt": "Dateiversion: Planentwurf v2 angelegt vier Tage vor der Abfahrt",
+     "neu": "File version: draft plan v2 created four days before departure"
+    },
+    {
+     "key": "story_faelle.py:L575.0",
+     "alt": "Die Dateiversionen am Büro-PC ansehen",
+     "neu": "Look at the file versions on the office PC"
+    },
+    {
+     "key": "story_faelle.py:L576.0",
+     "alt": "Megan den Dateiverlauf vom Firmenserver holen lassen",
+     "neu": "Have Megan pull the file history from the company server"
+    },
+    {
+     "key": "story_faelle.py:L584.0",
+     "alt": "Notiz bei Alva für Sophia (T2 08:15): \"Musste los. Schreiben Sie mir. H. M.\" - Alva: Eine Französin, Frau Marchal, hat eine Stunde gewartet.",
+     "neu": "Note at Alva's for Sophia (Day 2, 08:15): \"Had to leave. Write to me. H. M.\" - Alva: a Frenchwoman, Madame Marchal, waited an hour."
+    },
+    {
+     "key": "story_faelle.py:L591.0",
+     "alt": "Nachrichten auf Sophias Handy: Lektorin (T-3) \"Dienstag 7:30, Bar Santoni, ich bringe den Vertragsentwurf mit\"; Sophia (T2 02:50) \"Wir kommen früh, 7:30 passt.\"",
+     "neu": "Messages on Sophia's phone: editor (three days before the party) \"Tuesday 7:30, Bar Santoni, I'll bring the draft contract\"; Sophia (Day 2, 02:50) \"We're arriving early, 7:30 works.\""
+    },
+    {
+     "key": "story_faelle.py:L595.0",
+     "alt": "Sophia zeigt dir die Nachrichten",
+     "neu": "Sophia shows you the messages"
+    },
+    {
+     "key": "story_faelle.py:L598.0",
+     "alt": "Yasin: der Sonnenaufgang war Sophias Idee",
+     "neu": "Yasin: the sunrise was Sophia's idea"
+    },
+    {
+     "key": "story_faelle.py:L600.0",
+     "alt": "Chat Yasin an Siri (T1 13:20): \"Sophia meint, Sonnenaufgang in Cala d'Orsu wäre Gold.\"",
+     "neu": "Chat Yasin to Siri (Day 1, 13:20): \"Sophia says sunrise in Cala d'Orsu would be gold.\""
+    },
+    {
+     "key": "story_faelle.py:L602.0",
+     "alt": "Chat Yasin an Siri 13:20: \"Sophia meint, Sonnenaufgang ... wäre Gold\"",
+     "neu": "Chat Yasin to Siri 13:20: \"Sophia says sunrise ... would be gold\""
+    },
+    {
+     "key": "story_faelle.py:L603.0",
+     "alt": "Siri zeigt dir den Chat",
+     "neu": "Siri shows you the chat"
+    },
+    {
+     "key": "story_faelle.py:L604.0",
+     "alt": "Yasin den Chat zeigen lassen",
+     "neu": "Have Yasin show you the chat"
+    },
+    {
+     "key": "story_faelle.py:L605.0",
+     "alt": "Holm: Sie wollte nicht ohne Ladelauf nachts los. Sophia sagte, die Gäste wollen keinen Diesel hören, und Megan wolle zufriedene Gäste. Holm ließ sich breitschlagen.",
+     "neu": "Holm: she didn't want to leave at night without a charging run. Sophia said the guests didn't want to hear diesel and that Megan wanted happy guests. Holm let herself be talked into it."
+    },
+    {
+     "key": "story_faelle.py:L607.0",
+     "alt": "Holm: wollte den Ladelauf; Sophia drückte die 01:30 durch",
+     "neu": "Holm: wanted the charging run; Sophia pushed through the 01:30"
+    },
+    {
+     "key": "story_faelle.py:L609.0",
+     "alt": "Sophia: \"Yasin wollte unbedingt den Sonnenaufgang. Ich hab den Plan am Sonntagmittag angepasst, als er gefragt hat.\"",
+     "neu": "Sophia: \"Yasin absolutely wanted the sunrise. I changed the plan on Sunday at lunchtime when he asked.\""
+    },
+    {
+     "key": "story_faelle.py:L611.0",
+     "alt": "Sophia: Yasins Wunsch, Plan am Sonntagmittag angepasst",
+     "neu": "Sophia: Yasin's wish, plan changed on Sunday at lunchtime"
+    },
+    {
+     "key": "story_faelle.py:L612.0",
+     "alt": "Sophia nach dem Morgenhalt fragen",
+     "neu": "Ask Sophia about the morning stop"
+    },
+    {
+     "key": "story_faelle.py:L613.0",
+     "alt": "Sophia (auf Nachfrage): \"Ich hatte den Halt vorbereitet, falls Gäste fragen. Das ist mein Job.\"",
+     "neu": "Sophia (when pressed): \"I'd prepared the stop in case guests asked. That's my job.\""
+    },
+    {
+     "key": "story_faelle.py:L615.0",
+     "alt": "Sophia: Halt vorbereitet, falls Gäste fragen",
+     "neu": "Sophia: stop prepared in case guests asked"
+    },
+    {
+     "key": "story_faelle.py:L617.0",
+     "alt": "Mit Ladelauf (Bank A ~90 Prozent) und Abfahrt um 03:00 hätte die Reserve bis nach 08:00 gereicht; R2 wäre nie aktiv geworden.",
+     "neu": "With a charging run (bank A ~90 percent) and departure at 03:00, the reserve would have lasted until after 08:00; R2 would never have become active."
+    },
+    {
+     "key": "story_faelle.py:L619.0",
+     "alt": "Nachgerechnet: mit Ladelauf hätte die Reserve bis nach 08:00 gereicht",
+     "neu": "Recalculated: with a charging run the reserve would have lasted until after 08:00"
+    },
+    {
+     "key": "story_faelle.py:L620.0",
+     "alt": "Rosi die Energiebilanz der Nacht rechnen lassen",
+     "neu": "Have Rosi work out the night's energy balance"
+    },
+    {
+     "key": "story_faelle.py:L623.0",
+     "alt": "Sophia: \"Ich hab Rosi nachts im Maschinengang gesehen, kurz bevor alles ausging.\" (Wahr gesehen - aber um 01:40, nicht vor dem Ausfall.)",
+     "neu": "Sophia: \"I saw Rosi in the engine corridor at night, just before everything went off.\" (She did see her - but at 01:40, not before the failure.)"
+    },
+    {
+     "key": "story_faelle.py:L625.0",
+     "alt": "Sophia: Rosi nachts im Maschinengang gesehen",
+     "neu": "Sophia: saw Rosi in the engine corridor at night"
+    },
+    {
+     "key": "story_faelle.py:L626.0",
+     "alt": "Sophia erzählt dir etwas",
+     "neu": "Sophia tells you something"
+    },
+    {
+     "key": "story_faelle.py:L628.0",
+     "alt": "Lola: Sophia kam um Viertel vor zwei aus dem Crewgang in die Messe.",
+     "neu": "Lola: Sophia came into the mess from the crew corridor at quarter to two."
+    },
+    {
+     "key": "story_faelle.py:L629.0",
+     "alt": "Lola: Sophia kam um 01:45 aus dem Crewgang",
+     "neu": "Lola: Sophia came out of the crew corridor at 01:45"
+    },
+    {
+     "key": "story_faelle.py:L630.0",
+     "alt": "Lola fragen, wann Sophia in der Messe war",
+     "neu": "Ask Lola when Sophia was in the mess"
+    },
+    {
+     "key": "story_faelle.py:L631.0",
+     "alt": "Büro-PC: Plandatei v2 am T3 um 23:40 überschrieben (Halt jetzt 07:45-09:30, Ladelauf wieder drin); das alte Anlagedatum ist weg.",
+     "neu": "Office PC: plan file v2 overwritten on Day 3 at 23:40 (stop now 07:45-09:30, charging run back in); the old creation date is gone."
+    },
+    {
+     "key": "story_faelle.py:L633.0",
+     "alt": "Büro-PC: Plandatei nach dem Vorfall überschrieben (T3, 23:40)",
+     "neu": "Office PC: plan file overwritten after the incident (Day 3, 23:40)"
+    },
+    {
+     "key": "story_faelle.py:L636.0",
+     "alt": "Auf der Party erzählt Siri: Yasin schwärmt seit Mittag vom Sonnenaufgang - seit er bei Sophia war. Yasins Geräte laden an der Ladestation in der Messe.",
+     "neu": "At the party Siri says Yasin has been raving about the sunrise since lunchtime - ever since he was with Sophia. Yasin's devices are charging at the charging station in the mess."
+    },
+    {
+     "key": "story_faelle.py:L638.0",
+     "alt": "Erinnerung: Siri - Yasins Sonnenaufgangs-Idee kam nach einem Gespräch mit Sophia",
+     "neu": "Memory: Siri - Yasin's sunrise idea came after a talk with Sophia"
+    },
+    {
+     "key": "story_faelle.py:L641.0",
+     "alt": "Holm: Als sie um 01:15 zur Abfahrt auf die Brücke kam, war abgeschlossen, alles wie immer.",
+     "neu": "Holm: when she came onto the bridge for departure at 01:15, it was locked, everything as usual."
+    },
+    {
+     "key": "story_faelle.py:L642.0",
+     "alt": "Holm: Brücke um 01:15 abgeschlossen vorgefunden",
+     "neu": "Holm: found the bridge locked at 01:15"
+    },
+    {
+     "key": "story_faelle.py:L648.0",
+     "alt": "Aussage: Plan am Sonntagmittag angepasst - Dateiversion und Reservierung: vier Tage früher",
+     "neu": "Statement: plan changed on Sunday at lunchtime - file version and reservation: four days earlier"
+    },
+    {
+     "key": "story_faelle.py:L650.0",
+     "alt": "Die Anzeige meldet die Abfahrt um %s, die Crew erinnert \"halb zwei\" - erst mit Abgleich passt beides. Logbuch und Protokoll zeigen denselben Ablauf ohne Eingriff in der Nacht; die Ursache liegt im Plan, nicht an einem Schalter.",
+     "neu": "The display reports the departure at %s, the crew remembers \"half past one\" - only with the clocks matched do both fit. Logbook and log show the same sequence with no intervention during the night; the cause lies in the plan, not at a switch."
+    },
+    {
+     "key": "story_faelle.py:L653.0",
+     "alt": "Liefert eine wahre Beobachtung über eine andere Person im falschen Zusammenhang.",
+     "neu": "Supplies a true observation about another person in the wrong context."
+    },
+    {
+     "key": "story_faelle.py:L655.0",
+     "alt": "Gegenmittel: Zeit nachprüfen (Maschinenbuch 01:40, Lola 01:45). Ab Vertrauen 3 korrigiert sie sich am nächsten Morgen selbst (Flag sophia_korrigiert).",
+     "neu": "Counter: check the time (engine log 01:40, Lola 01:45). From trust 3 she corrects herself the next morning (flag sophia_korrigiert)."
+    },
+    {
+     "key": "story_faelle.py:L657.0",
+     "alt": "Überschreibt die Plandatei am Büro-PC.",
+     "neu": "Overwrites the plan file on the office PC."
+    },
+    {
+     "key": "story_faelle.py:L660.0",
+     "alt": "Sie korrigiert sich, bevor Duc sie festnagelt - ohne Charme, als Bitte um ein Gespräch.",
+     "neu": "She corrects herself before Duc pins her down - without charm, as a request for a talk."
+    },
+    {
+     "key": "story_faelle.py:L661.0",
+     "alt": "Für andere einen Gefallen zu organisieren ist mein Beruf. Für mich selbst war es plötzlich eine Lüge.",
+     "neu": "Arranging favours for other people is my job. Doing it for myself suddenly made it a lie."
+    },
+    {
+     "key": "story_faelle.py:L664.0",
+     "alt": "Ich hätte nicht nachgeben dürfen. Ohne Ladelauf nachts los - das war nicht meine Idee.",
+     "neu": "I shouldn't have given in. Leaving at night without a charging run - that wasn't my idea."
+    },
+    {
+     "key": "story_faelle.py:L666.0",
+     "alt": "Ich hätte nicht nachgeben dürfen.",
+     "neu": "I shouldn't have given in."
+    },
+    {
+     "key": "story_faelle.py:L667.0",
+     "alt": "nimmt die Schuld auf sich; nennt Sophias Namen nur, wenn Duc nach dem Plan fragt",
+     "neu": "takes the blame on herself; only names Sophia if Duc asks about the plan"
+    },
+    {
+     "key": "story_faelle.py:L668.0",
+     "alt": "Sophia hat mich letzte Woche gefragt, ob die Bar in Cala d'Orsu morgens Tische reserviert. Letzte Woche!",
+     "neu": "Last week Sophia asked me if the bar in Cala d'Orsu takes table reservations for the morning. Last week!"
+    },
+    {
+     "key": "story_faelle.py:L670.0",
+     "alt": "Sophia war vorletzte Nacht noch am Büro-PC. Um Mitternacht.",
+     "neu": "The night before last Sophia was still at the office PC. At midnight."
+    },
+    {
+     "key": "story_faelle.py:L673.0",
+     "alt": "Sie spricht ohne charmante Umleitung vor der betroffenen Gruppe. Das Risiko wird belohnt, die Verantwortung bleibt.",
+     "neu": "She speaks to the affected group without any charming detour. The risk is rewarded; the responsibility stays."
+    },
+    {
+     "key": "story_faelle.py:L675.0",
+     "alt": "Helene Marchal, Lektorin eines Pariser Verlags (existiert in allen Fällen als Sophias Kontakt; nur hier gibt es das Treffen). Identität nur durch Gespräch oder freigegebene Nachricht, nie durch Lesen eines fremden Handys.",
+     "neu": "Helene Marchal, editor at a Paris publishing house (exists in every case as Sophia's contact; only here is there a meeting). Her identity comes only through conversation or a message Sophia shares, never by reading someone else's phone."
+    },
+    {
+     "key": "story_faelle.py:L680.0",
+     "alt": "Die harmlose Verzögerung",
+     "neu": "The Harmless Delay"
+    },
+    {
+     "key": "story_faelle.py:L681.0",
+     "alt": "Rosi setzt nach ihrem Rundgang mit Karte 2 eine Service-Sperre, die ihrer Annahme nach nur einen kurzen, beaufsichtigten Funktionstest nach dem Ankern erzwingt - das hätte die Ankunft in Calvi verzögert (Wette) und ihr einen Morgen mit Duc gebracht. Die Steuerung behandelt aber die automatische Umschaltung A->B wie einen Kaltstart und geht ins R2; Schutzstopp; Holm drückt den angebotenen Wiederanlauf; LM3 fällt aus.",
+     "neu": "After her round Rosi sets a service lock with card 2, which she assumes will only force a short, supervised function test after anchoring. That would have delayed the arrival in Calvi (the bet) and given her a morning with Duc. But the controller treats the automatic switchover A->B like a cold start and goes into R2; protective stop; Holm presses the offered restart; LM3 fails."
+    },
+    {
+     "key": "story_faelle.py:L687.0",
+     "alt": "Rosi setzt 50 Euro auf \"nach 18 Uhr\"; Toto senkt die Quote 6:1 -> 2:1",
+     "neu": "Rosi bets €50 on \"after 6 pm\"; Totò cuts the odds from 6:1 to 2:1"
+    },
+    {
+     "key": "story_faelle.py:L689.0",
+     "alt": "Service-Sperre mit Karte 2, Ablauf 08:00",
+     "neu": "Service lock with card 2, expiry 08:00"
+    },
+    {
+     "key": "story_faelle.py:L690.0",
+     "alt": "Diagnoseentwurf: Funktionstest nach dem Ankern, mit Duc",
+     "neu": "Diagnosis draft: function test after anchoring, with Duc"
+    },
+    {
+     "key": "story_faelle.py:L692.0",
+     "alt": "Holm drückt \"Wiederanlauf\"",
+     "neu": "Holm presses \"Restart\""
+    },
+    {
+     "key": "story_faelle.py:L694.0",
+     "alt": "Rosi hebt die Sperre auf (Karte 2), allein im Kontrollraum",
+     "neu": "Rosi lifts the lock (card 2), alone in the control room"
+    },
+    {
+     "key": "story_faelle.py:L695.0",
+     "alt": "Rosis Diagnoseprotokoll mit dem alten Servicegerät (Sperrverlauf drin)",
+     "neu": "Rosi's diagnostic log with the old service device (lock history included)"
+    },
+    {
+     "key": "story_faelle.py:L698.0",
+     "alt": "%s: Service-Sperre gesetzt (Karte 2), Ablauf 08:00 - Funktionstest vor nächstem Kaltstart",
+     "neu": "%s: service lock set (card 2), expiry 08:00 - function test before next cold start"
+    },
+    {
+     "key": "story_faelle.py:L700.0",
+     "alt": "%s: Umschaltung A->B unter Service-Sperre - Profil R2; Schutzstopp; Wiederanlauf von der Brücke",
+     "neu": "%s: switchover A->B under service lock - profile R2; protective stop; restart from the bridge"
+    },
+    {
+     "key": "story_faelle.py:L703.0",
+     "alt": "Holm: Um sechs nach sechs stand SERVICE-SPERRE AKTIV, dann Schutzstopp. Die Anzeige bot Wiederanlauf an. Sie hat gedrückt. Danach war es vorbei.",
+     "neu": "Holm: at six minutes past six it read SERVICE LOCK ACTIVE, then protective stop. The display offered a restart. She pressed it. After that it was over."
+    },
+    {
+     "key": "story_faelle.py:L705.0",
+     "alt": "Holm: Anzeige Service-Sperre, Schutzstopp, sie drückte Wiederanlauf",
+     "neu": "Holm: service lock display, protective stop, she pressed restart"
+    },
+    {
+     "key": "story_faelle.py:L706.0",
+     "alt": "Totos Wettbuch: T2 00:50 Rosi, 50 Euro auf \"nach 18 Uhr\"; Quote von 6:1 auf 2:1 gesenkt.",
+     "neu": "Totò's betting book: Day 2, 00:50 Rosi, €50 on \"after 6 pm\"; odds cut from 6:1 to 2:1."
+    },
+    {
+     "key": "story_faelle.py:L708.0",
+     "alt": "Wettbuch: 00:50 Rosi 50 EUR auf \"nach 18 Uhr\", Quote 6:1 -> 2:1",
+     "neu": "Betting book: 00:50 Rosi €50 on \"after 6 pm\", odds 6:1 -> 2:1"
+    },
+    {
+     "key": "story_faelle.py:L710.0",
+     "alt": "Die Schublade unter dem Messetresen",
+     "neu": "The drawer under the mess counter"
+    },
+    {
+     "key": "story_faelle.py:L712.0",
+     "alt": "Toto: \"Rosi hat kurz vor eins fünfzig auf 'nach sechs' gesetzt. Da hab ich die Quote gesenkt. Die weiß doch was.\"",
+     "neu": "Totò: \"Shortly before one Rosi put fifty on 'after six'. So I cut the odds. She knows something.\""
+    },
+    {
+     "key": "story_faelle.py:L714.0",
+     "alt": "Toto: Rosi setzte 50 EUR auf spät - er senkte die Quote",
+     "neu": "Totò: Rosi bet €50 on late - he cut the odds"
+    },
+    {
+     "key": "story_faelle.py:L715.0",
+     "alt": "Toto nach den Wetten fragen",
+     "neu": "Ask Totò about the bets"
+    },
+    {
+     "key": "story_faelle.py:L716.0",
+     "alt": "Rosis Notizbuch (T2 01:50): \"Nach dem Ankern: Funktionstest nach Sperre, Kaltstart ca. 20 min - mit Duc.\"",
+     "neu": "Rosi's notebook (Day 2, 01:50): \"After anchoring: function test after lock, cold start approx. 20 min - with Duc.\""
+    },
+    {
+     "key": "story_faelle.py:L718.0",
+     "alt": "Rosis Notizbuch 01:50: Funktionstest nach Sperre, nach dem Ankern, mit dir",
+     "neu": "Rosi's notebook 01:50: function test after lock, after anchoring, with you"
+    },
+    {
+     "key": "story_faelle.py:L719.0",
+     "alt": "Rosis Notizbuch auf der Werkbank",
+     "neu": "Rosi's notebook on the workbench"
+    },
+    {
+     "key": "story_faelle.py:L722.0",
+     "alt": "Lola: Rosi ging um Viertel vor acht mit Kaffee allein in den Kontrollraum.",
+     "neu": "Lola: at quarter to eight Rosi went into the control room alone with a coffee."
+    },
+    {
+     "key": "story_faelle.py:L723.0",
+     "alt": "Lola: Rosi um 07:45 allein in den Kontrollraum",
+     "neu": "Lola: Rosi alone into the control room at 07:45"
+    },
+    {
+     "key": "story_faelle.py:L724.0",
+     "alt": "Lola nach dem Morgen fragen",
+     "neu": "Ask Lola about the morning"
+    },
+    {
+     "key": "story_faelle.py:L725.0",
+     "alt": "Rosi: \"Nach dem Rundgang um 01:40 bin ich direkt in die Koje.\"",
+     "neu": "Rosi: \"After my round at 01:40 I went straight to my bunk.\""
+    },
+    {
+     "key": "story_faelle.py:L726.0",
+     "alt": "Rosi: nach dem Rundgang 01:40 direkt in die Koje",
+     "neu": "Rosi: straight to her bunk after her round at 01:40"
+    },
+    {
+     "key": "story_faelle.py:L727.0",
+     "alt": "Rosi nach der Nacht fragen",
+     "neu": "Ask Rosi about the night"
+    },
+    {
+     "key": "story_faelle.py:L728.0",
+     "alt": "Rosi (auf Nachfrage): \"Ich hab am Terminal nur den Status abgefragt.\"",
+     "neu": "Rosi (when pressed): \"I only checked the status at the terminal.\""
+    },
+    {
+     "key": "story_faelle.py:L729.0",
+     "alt": "Rosi: am Terminal nur den Status abgefragt",
+     "neu": "Rosi: only checked the status at the terminal"
+    },
+    {
+     "key": "story_faelle.py:L731.0",
+     "alt": "Original-Diagnoseprotokoll Tag 2 (altes Servicegerät): \"Sperre 01:44-07:50 (Karte 2), Umschaltung im R2, Wiederanlauf 06:10.\"",
+     "neu": "Original diagnostic log, day 2 (old service device): \"Lock 01:44-07:50 (card 2), switchover in R2, restart 06:10.\""
+    },
+    {
+     "key": "story_faelle.py:L733.0",
+     "alt": "Altes Servicegerät: Sperre 01:44-07:50, Umschaltung im R2, Wiederanlauf 06:10",
+     "neu": "Old service device: lock 01:44-07:50, switchover in R2, restart 06:10"
+    },
+    {
+     "key": "story_faelle.py:L736.0",
+     "alt": "Petru das alte Servicegerät auslesen lassen",
+     "neu": "Have Petru read out the old service device"
+    },
+    {
+     "key": "story_faelle.py:L738.0",
+     "alt": "Rosi holt das alte Gerät selbst",
+     "neu": "Rosi fetches the old device herself"
+    },
+    {
+     "key": "story_faelle.py:L740.0",
+     "alt": "Im Protokollordner liegt seit T2 22:40 eine neue Messung (anderes Gerät, ohne Sperrverlauf); das alte Servicegerät ist in die Werkstattkiste geräumt.",
+     "neu": "Since Day 2, 22:40 there has been a new measurement in the log binder (a different device, without lock history); the old service device has been tidied away into the workshop crate."
+    },
+    {
+     "key": "story_faelle.py:L742.0",
+     "alt": "Protokollordner: Messung von T2 22:40 ersetzt die vom Morgen; altes Gerät in der Kiste",
+     "neu": "Log binder: measurement from Day 2, 22:40 replaces the one from the morning; old device in the crate"
+    },
+    {
+     "key": "story_faelle.py:L744.0",
+     "alt": "Rosis Protokollordner und die Werkstattkiste",
+     "neu": "Rosi's log binder and the workshop crate"
+    },
+    {
+     "key": "story_faelle.py:L746.0",
+     "alt": "Laut Handbuch gilt die Sperre nur für den nächsten Kaltstart; tatsächlich behandelt die Steuerung die automatische Umschaltung wie einen Kaltstart und geht ins R2. Der Wiederanlauf aus R2 überlastet LM3.",
+     "neu": "According to the manual the lock only applies to the next cold start; in reality the controller treats the automatic switchover like a cold start and goes into R2. The restart from R2 overloads LM3."
+    },
+    {
+     "key": "story_faelle.py:L749.0",
+     "alt": "Technik: Umschaltung unter Sperre geht ins R2; Wiederanlauf aus R2 überlastet LM3",
+     "neu": "Engineering: switchover under lock goes into R2; restart from R2 overloads LM3"
+    },
+    {
+     "key": "story_faelle.py:L751.0",
+     "alt": "Rosi erklären lassen, was die Sperre bei der Umschaltung tut",
+     "neu": "Have Rosi explain what the lock does during the switchover"
+    },
+    {
+     "key": "story_faelle.py:L753.0",
+     "alt": "Auf der Party im Kontrollraum: alles grün. Rosi zwinkert: \"Wenn wir morgen spät in Calvi sind, bin ich reich.\"",
+     "neu": "At the party, in the control room: all green. Rosi winks: \"If we're late into Calvi tomorrow, I'm rich.\""
+    },
+    {
+     "key": "story_faelle.py:L755.0",
+     "alt": "Erinnerung: Rosi - \"Wenn wir morgen spät in Calvi sind, bin ich reich\"",
+     "neu": "Memory: Rosi - \"If we're late into Calvi tomorrow, I'm rich\""
+    },
+    {
+     "key": "story_faelle.py:L762.0",
+     "alt": "Aussage: nach dem Rundgang direkt in die Koje - Protokoll: Service-Sperre um %s (Anzeigezeit)",
+     "neu": "Statement: straight to her bunk after her round - log: service lock at %s (display time)"
+    },
+    {
+     "key": "story_faelle.py:L764.0",
+     "alt": "Die Anzeige meldet die Sperre um %s - scheinbar VOR Rosis Rundgang (01:40, Maschinenbuch). Mit Abgleich ist es 01:44: während ihres Rundgangs.",
+     "neu": "The display reports the lock at %s - seemingly BEFORE Rosi's round (01:40, engine log). With the clocks matched it's 01:44: during her round."
+    },
+    {
+     "key": "story_faelle.py:L766.0",
+     "alt": "Ersetzt eigenmächtig das Diagnoseprotokoll vom Morgen durch eine neue Messung und räumt das alte Servicegerät weg.",
+     "neu": "On her own authority replaces the morning's diagnostic log with a new measurement and tidies the old service device away."
+    },
+    {
+     "key": "story_faelle.py:L769.0",
+     "alt": "Danach arbeitet sie zu lange und nimmt Korrekturen persönlich (Verhalten, keine weitere Gegenhandlung).",
+     "neu": "Afterwards she works too long and takes corrections personally (behaviour, no further counteraction)."
+    },
+    {
+     "key": "story_faelle.py:L773.0",
+     "alt": "Bei gemeinsamer Arbeit am Antrieb hört sie mitten im Satz auf zu reparieren.",
+     "neu": "When you work on the propulsion together, she stops repairing in the middle of a sentence."
+    },
+    {
+     "key": "story_faelle.py:L775.0",
+     "alt": "Holms Wiederanlauf gehört in den Bericht - sie folgte der Anzeige, nicht schuldhaft.",
+     "neu": "Holm's restart belongs in the report - she followed the display, she is not at fault."
+    },
+    {
+     "key": "story_faelle.py:L777.0",
+     "alt": "Ich hab's kaputtgedrückt. Die Anzeige bot Wiederanlauf an, und ich hab gedrückt.",
+     "neu": "I broke it by pressing. The display offered a restart, and I pressed it."
+    },
+    {
+     "key": "story_faelle.py:L779.0",
+     "alt": "Wer setzt nachts eine Sperre? Frag die Technik. Und mich - ich hab gedrückt.",
+     "neu": "Who sets a lock at night? Ask engineering. And me - I pressed the button."
+    },
+    {
+     "key": "story_faelle.py:L780.0",
+     "alt": "gibt sich selbst die Schuld; nimmt Duc ernster, wenn er sie entlastet",
+     "neu": "blames herself; takes Duc more seriously if he clears her"
+    },
+    {
+     "key": "story_faelle.py:L781.0",
+     "alt": "Rosi und Toto haben sich gestern über Quoten gezankt. Toto hat so ein Buch.",
+     "neu": "Rosi and Totò were arguing about odds yesterday. Totò has this book."
+    },
+    {
+     "key": "story_faelle.py:L783.0",
+     "alt": "Rosi hat mitten in der Nacht ein altes Messgerät in die Kiste in der Werkstatt geraeumt.",
+     "neu": "In the middle of the night Rosi put an old measuring device away in the crate in the workshop."
+    },
+    {
+     "key": "story_faelle.py:L787.0",
+     "alt": "Offenes Geständnis und Mitarbeit an der Rekonstruktion. Eine Romanze darf daran scheitern; Geschenk oder Sexszene heilen den Vertrauensbruch nicht.",
+     "neu": "An open confession and help with the reconstruction. A romance may break over it; a gift or a sex scene does not heal the breach of trust."
+    },
+    {
+     "key": "story_faelle.py:L791.0",
+     "alt": "Das Bild, das bleiben sollte",
+     "neu": "The Shot That Was Meant to Stay"
+    },
+    {
+     "key": "story_faelle.py:L792.0",
+     "alt": "Yasin lädt für den Sonnenaufgangsdreh sechs Drohnenakkus, LED-Panels und Laptop über einen Mehrfachadapter am Heckverteiler - gegen die unterschriebene 2-kW-Grenze. Der Abzweig löst aus und trennt die Querkupplung; Toto weigert sich, Yasin legt selbst wieder ein. Die Querkupplung schließt unter Last, die Steuerung geht ins R2, LM3 fällt aus. Seine Kamera läuft die ganze Zeit.",
+     "neu": "For the sunrise shoot Yasin charges six drone batteries, LED panels and a laptop through a multi-socket adapter on the stern distribution board, against the 2 kW limit he signed. The branch trips and opens the bus tie; Totò refuses, so Yasin closes it again himself. The bus tie closes under load, the controller goes into R2, LM3 fails. His camera is running the whole time."
+    },
+    {
+     "key": "story_faelle.py:L798.0",
+     "alt": "Yasin unterschreibt die Lastgrenze",
+     "neu": "Yasin signs the load limit"
+    },
+    {
+     "key": "story_faelle.py:L799.0",
+     "alt": "Ladegeräte am roten Mehrfachadapter in der Tendergarage",
+     "neu": "Chargers on the red multi-socket adapter in the tender garage"
+    },
+    {
+     "key": "story_faelle.py:L800.0",
+     "alt": "Akkus, Panels, Laptop über Adapter YB-CREW 3 am Heckverteiler (~4,6 kW); Kamera läuft",
+     "neu": "Batteries, panels, laptop via adapter YB-CREW 3 on the stern distribution board (~4.6 kW); camera running"
+    },
+    {
+     "key": "story_faelle.py:L802.0",
+     "alt": "Toto bereitet das Beiboot für den Dreh vor",
+     "neu": "Totò gets the tender ready for the shoot"
+    },
+    {
+     "key": "story_faelle.py:L805.0",
+     "alt": "Yasin legt selbst wieder ein -> Querkupplung unter Last, Profil R2",
+     "neu": "Yasin closes it again himself -> bus tie under load, profile R2"
+    },
+    {
+     "key": "story_faelle.py:L807.0",
+     "alt": "Adapter verschmort, landet im Abfallkorb der Tendergarage",
+     "neu": "Adapter scorched, ends up in the waste bin of the tender garage"
+    },
+    {
+     "key": "story_faelle.py:L808.0",
+     "alt": "Yasin schickt Siri den Rohclip für ihre Story-Auswahl",
+     "neu": "Yasin sends Siri the raw clip for her story selection"
+    },
+    {
+     "key": "story_faelle.py:L811.0",
+     "alt": "%s: Schutzabschaltung Abzweig Heck (Überlast), Querkupplung getrennt; drei Minuten später manuelle Wiederzuschaltung am Heckverteiler, Profil R2",
+     "neu": "%s: protective trip of the stern branch (overload), bus tie opened; three minutes later manually reconnected at the stern distribution board, profile R2"
+    },
+    {
+     "key": "story_faelle.py:L813.0",
+     "alt": "Speicher des Heckverteilers (eigene Uhr, Schiffszeit): Auslösung 06:22 bei 4,6 kW; manuelle Wiederzuschaltung 06:25.",
+     "neu": "Stern distribution board memory (own clock, ship's time): tripped at 06:22 at 4.6 kW; manually reconnected at 06:25."
+    },
+    {
+     "key": "story_faelle.py:L815.0",
+     "alt": "Heckverteiler: 06:22 Auslösung bei 4,6 kW, 06:25 manuell wieder eingelegt",
+     "neu": "Stern distribution board: tripped at 06:22 at 4.6 kW, manually reconnected at 06:25"
+    },
+    {
+     "key": "story_faelle.py:L816.0",
+     "alt": "Den Speicher des Heckverteilers auslesen",
+     "neu": "Read out the stern distribution board memory"
+    },
+    {
+     "key": "story_faelle.py:L817.0",
+     "alt": "Rosi den Heckverteiler auslesen lassen",
+     "neu": "Have Rosi read out the stern distribution board"
+    },
+    {
+     "key": "story_faelle.py:L820.0",
+     "alt": "Den Abfallkorb der Tendergarage",
+     "neu": "The waste bin in the tender garage"
+    },
+    {
+     "key": "story_faelle.py:L821.0",
+     "alt": "Als Kommandant anordnen, Yasins Kamerakiste zu öffnen",
+     "neu": "Order Yasin's camera case opened, as commander"
+    },
+    {
+     "key": "story_faelle.py:L823.0",
+     "alt": "Yasins Ausrüstung trägt Etiketten \"YB-CREW 1-6\".",
+     "neu": "Yasin's equipment carries labels \"YB-CREW 1-6\"."
+    },
+    {
+     "key": "story_faelle.py:L824.0",
+     "alt": "Yasins Ausrüstung: Etiketten YB-CREW 1-6",
+     "neu": "Yasin's equipment: labels YB-CREW 1-6"
+    },
+    {
+     "key": "story_faelle.py:L825.0",
+     "alt": "Yasins Ausrüstung an Deck ansehen",
+     "neu": "Look at Yasin's equipment on deck"
+    },
+    {
+     "key": "story_faelle.py:L826.0",
+     "alt": "Siri nach den Etiketten fragen",
+     "neu": "Ask Siri about the labels"
+    },
+    {
+     "key": "story_faelle.py:L827.0",
+     "alt": "Yasins Rohclip: Licht flackert (Schutzabschaltung), Yasin legt am Heckverteiler wieder ein (\"Komm schon...\"), drei Minuten später Blackout.",
+     "neu": "Yasin's raw clip: the light flickers (protective trip), Yasin reconnects at the stern distribution board (\"Come on...\"), three minutes later blackout."
+    },
+    {
+     "key": "story_faelle.py:L829.0",
+     "alt": "Yasin schickt ihr den Rohclip",
+     "neu": "Yasin sends her the raw clip"
+    },
+    {
+     "key": "story_faelle.py:L830.0",
+     "alt": "Rohclip: Yasin legt den Heckverteiler wieder ein, drei Minuten später Blackout",
+     "neu": "Raw clip: Yasin reconnects the stern distribution board, three minutes later blackout"
+    },
+    {
+     "key": "story_faelle.py:L835.0",
+     "alt": "Toto: Yasin wollte, dass er am Heckverteiler den Schalter wieder reindrückt. Toto weigerte sich (\"Frag Rosi\"). Yasin hat es selbst gemacht, kurz bevor alles aus war.",
+     "neu": "Totò: Yasin wanted him to push the switch back in at the stern distribution board. Totò refused (\"Ask Rosi\"). Yasin did it himself, shortly before everything went off."
+    },
+    {
+     "key": "story_faelle.py:L837.0",
+     "alt": "Toto: Yasin hat den Heckverteiler selbst wieder eingelegt",
+     "neu": "Totò: Yasin reconnected the stern distribution board himself"
+    },
+    {
+     "key": "story_faelle.py:L838.0",
+     "alt": "Toto nach dem Morgen in der Tendergarage fragen",
+     "neu": "Ask Totò about the morning in the tender garage"
+    },
+    {
+     "key": "story_faelle.py:L839.0",
+     "alt": "Toto: \"Der hatte so einen roten Stecker mit fünf Löchern. Hat danach gestunken.\"",
+     "neu": "Totò: \"He had this red five-way plug. It stank afterwards.\""
+    },
+    {
+     "key": "story_faelle.py:L840.0",
+     "alt": "Toto: roter Fünffachstecker, hat gestunken",
+     "neu": "Totò: red five-way plug, stank"
+    },
+    {
+     "key": "story_faelle.py:L842.0",
+     "alt": "Yasin: \"Ich hab nur an der Ladestation in der Messe geladen. Als das Licht flackerte, war ich oben an Deck.\"",
+     "neu": "Yasin: \"I only charged at the charging station in the mess. When the light flickered, I was up on deck.\""
+    },
+    {
+     "key": "story_faelle.py:L844.0",
+     "alt": "Yasin: nur an der Ladestation in der Messe geladen, beim Flackern an Deck",
+     "neu": "Yasin: only charged at the charging station in the mess, on deck when it flickered"
+    },
+    {
+     "key": "story_faelle.py:L845.0",
+     "alt": "Yasin nach dem Morgen fragen",
+     "neu": "Ask Yasin about the morning"
+    },
+    {
+     "key": "story_faelle.py:L846.0",
+     "alt": "Yasin (auf Nachfrage): \"Ich hab am Heckverteiler nur meine Akkus abgesteckt.\"",
+     "neu": "Yasin (when pressed): \"At the stern board I only unplugged my batteries.\""
+    },
+    {
+     "key": "story_faelle.py:L847.0",
+     "alt": "Yasin: am Heckverteiler nur abgesteckt",
+     "neu": "Yasin: only unplugged at the stern distribution board"
+    },
+    {
+     "key": "story_faelle.py:L849.0",
+     "alt": "Hotelnetz-Liste: Ladestation Messe ohne Ladevorgang zwischen 05:30 und 06:30.",
+     "neu": "Hotel load list: no charging at the charging station in the mess between 05:30 and 06:30."
+    },
+    {
+     "key": "story_faelle.py:L853.0",
+     "alt": "Wiederzuschalten der Querkupplung unter Last zwingt die Steuerung ins R2; LM3 trägt die Spitzenlast und fällt aus.",
+     "neu": "Closing the bus tie under load forces the controller into R2; LM3 carries the peak load and fails."
+    },
+    {
+     "key": "story_faelle.py:L855.0",
+     "alt": "Technik: Querkupplung unter Last -> R2 -> LM3 überlastet",
+     "neu": "Engineering: bus tie under load -> R2 -> LM3 overloaded"
+    },
+    {
+     "key": "story_faelle.py:L856.0",
+     "alt": "Rosi den Ablauf am Kontrollraum nachvollziehen lassen",
+     "neu": "Have Rosi trace the sequence in the control room"
+    },
+    {
+     "key": "story_faelle.py:L858.0",
+     "alt": "Auf der Party: An der Servicesteckdose der Tendergarage laden Yasins Geräte an einem roten Mehrfachadapter.",
+     "neu": "At the party: Yasin's devices are charging on a red multi-socket adapter at the service socket in the tender garage."
+    },
+    {
+     "key": "story_faelle.py:L860.0",
+     "alt": "Erinnerung: Yasins Ladegeräte am roten Mehrfachadapter in der Tendergarage",
+     "neu": "Memory: Yasin's chargers on the red multi-socket adapter in the tender garage"
+    },
+    {
+     "key": "story_faelle.py:L863.0",
+     "alt": "Gekürzter Clip online: Duc lachend auf der Afterparty, Schnitt, Blackout - \"Erster Offizier feiert, während die Yacht stirbt\". Der Zeitstempel springt von 03:02 auf 06:28.",
+     "neu": "Shortened clip online: Duc laughing at the afterparty, cut, blackout - \"First Officer parties while the yacht dies\". The timestamp jumps from 03:02 to 06:28."
+    },
+    {
+     "key": "story_faelle.py:L865.0",
+     "alt": "Clip online: Schnitt springt von 03:02 auf 06:28",
+     "neu": "Clip online: the cut jumps from 03:02 to 06:28"
+    },
+    {
+     "key": "story_faelle.py:L866.0",
+     "alt": "Den Clip im Netz ansehen",
+     "neu": "Watch the clip online"
+    },
+    {
+     "key": "story_faelle.py:L867.0",
+     "alt": "Der Abfallkorb der Tendergarage ist leer.",
+     "neu": "The waste bin in the tender garage is empty."
+    },
+    {
+     "key": "story_faelle.py:L871.0",
+     "alt": "Yasin bietet das Original an - gegen die Berichtsformulierung \"Ladestation fehlerhaft\".",
+     "neu": "Yasin offers the original - in exchange for the wording \"faulty charging station\" in the report."
+    },
+    {
+     "key": "story_faelle.py:L873.0",
+     "alt": "Yasins Angebot: Original gegen eine Formulierung im Bericht",
+     "neu": "Yasin's offer: the original in exchange for a wording in the report"
+    },
+    {
+     "key": "story_faelle.py:L880.0",
+     "alt": "Aussage: nur an der Ladestation geladen, beim Flackern oben - Toto: stand am Heckverteiler; Ladestation ohne Ladevorgang",
+     "neu": "Statement: only charged at the charging station, up on deck when it flickered - Totò: was at the stern distribution board; the charging station shows no charging"
+    },
+    {
+     "key": "story_faelle.py:L882.0",
+     "alt": "Der Heckverteiler zeigt 06:25 (Schiffszeit), die Steuerung %s - erst mit Abgleich ist es dieselbe Minute.",
+     "neu": "The stern distribution board shows 06:25 (ship's time), the controller %s - only with the clocks matched is it the same minute."
+    },
+    {
+     "key": "story_faelle.py:L884.0",
+     "alt": "Veröffentlicht einen gekürzten Ausschnitt, der Duc verantwortungslos aussehen lässt (Ruf -1, Megan ruft an).",
+     "neu": "Publishes a shortened excerpt that makes Duc look irresponsible (reputation -1, Megan calls)."
+    },
+    {
+     "key": "story_faelle.py:L887.0",
+     "alt": "Nimmt den Adapter aus dem Abfallkorb und versteckt ihn in seiner Kamerakiste.",
+     "neu": "Takes the adapter out of the waste bin and hides it in his camera case."
+    },
+    {
+     "key": "story_faelle.py:L889.0",
+     "alt": "Verknüpft die Herausgabe des Originals mit einem Vorteil (Flag yasin_angebot).",
+     "neu": "Ties handing over the original to an advantage (flag yasin_angebot)."
+    },
+    {
+     "key": "story_faelle.py:L891.0",
+     "alt": "Wer zustimmt, bekommt echte Information und eine neue Abhängigkeit (duc_schuldet_yasin). Danach wird kein zweites exklusives Original erfunden.",
+     "neu": "Whoever agrees gets real information and a new dependency (duc_schuldet_yasin). No second exclusive original is invented after that."
+    },
+    {
+     "key": "story_faelle.py:L893.0",
+     "alt": "Du brauchst eine Erklärung. Ich brauche, dass meine Leute mir noch glauben. Wir könnten beide bekommen, was wir brauchen.",
+     "neu": "You need an explanation. I need my people to still believe me. We could both get what we need."
+    },
+    {
+     "key": "story_faelle.py:L896.0",
+     "alt": "Kein freiwilliges Geständnis; bei vollständiger Kette räumt er ein, was belegt ist. Der Kernsatz fällt beim Angebot (f5_gh3).",
+     "neu": "No voluntary confession; with a complete chain he admits what is proven. The key sentence comes with the offer (f5_gh3)."
+    },
+    {
+     "key": "story_faelle.py:L899.0",
+     "alt": "Um zwanzig nach sechs hat es am Heck ausgelöst, drei Minuten später war's wieder drin. Ich hab in die Tendergarage gerufen. Keiner hat geantwortet.",
+     "neu": "At twenty past six it tripped at the stern, three minutes later it was back on. I shouted into the tender garage. Nobody answered."
+    },
+    {
+     "key": "story_faelle.py:L902.0",
+     "alt": "Irgendwer hat am Heck rumgespielt. Frag Toto, der war unten.",
+     "neu": "Somebody was messing about at the stern. Ask Totò, he was down there."
+    },
+    {
+     "key": "story_faelle.py:L904.0",
+     "alt": "Yasin hat was Verschmortes in seine Kamerakiste gepackt. Hat gestunken wie Toast.",
+     "neu": "Yasin put something scorched in his camera case. Smelled like burnt toast."
+    },
+    {
+     "key": "story_faelle.py:L906.0",
+     "alt": "Siri hat das ganze Video. Sie redet nur nicht drüber.",
+     "neu": "Siri has the whole video. She just doesn't talk about it."
+    },
+    {
+     "key": "story_faelle.py:L909.0",
+     "alt": "Siris Selbstbestimmung ist von seiner Schuld getrennt: Sie darf ihn in jedem Fall verlassen; ihre Freiheit ist keine Belohnung für den richtigen Verdacht.",
+     "neu": "Siri's self-determination is kept apart from his guilt: she may leave him in every case; her freedom is not a reward for the right suspicion."
+    },
+    {
+     "key": "story_faelle.py:L914.0",
+     "alt": "Das vorgeschädigte LM3 versagt im Normalbetrieb; die Warnung kam schon am Nachmittag vor der Party. Mehrere Personen verheimlichen private Dinge, deren Zeiten nicht passen. Unter Druck sucht die Crew einen Sündenbock; Megan fördert die schnelle menschliche Erklärung.",
+     "neu": "The already damaged LM3 fails in normal operation; the warning came in the afternoon before the party. Several people are hiding private things whose times don't add up. Under pressure the crew looks for a scapegoat; Megan pushes the quick human explanation."
+    },
+    {
+     "key": "story_faelle.py:L924.0",
+     "alt": "Unterschriftenliste gegen Rosi am Messe-Brett",
+     "neu": "Petition against Rosi on the mess board"
+    },
+    {
+     "key": "story_faelle.py:L925.0",
+     "alt": "; in der Nacht keine Umschaltung, kein Profilwechsel, keine Service-Aktion",
+     "neu": "; no switchover during the night, no profile change, no service action"
+    },
+    {
+     "key": "story_faelle.py:L926.0",
+     "alt": "06:40 Antrieb aus. Keine Vorwarnung auf der Brücke.",
+     "neu": "06:40 propulsion off. No prior warning on the bridge."
+    },
+    {
+     "key": "story_faelle.py:L928.0",
+     "alt": "%s: LM3-Temperatur steigt stetig bis zum Ausfall, bei normaler Last (8 kn)",
+     "neu": "%s: LM3 temperature rises steadily until the failure, at normal load (8 kn)"
+    },
+    {
+     "key": "story_faelle.py:L929.0",
+     "alt": "Holm: Am Nachmittag vor der Party hat LM3 eine Temperaturwarnung gezeigt. Sie hat quittiert - die Werft sollte in Calvi ohnehin drauf schauen.",
+     "neu": "Holm: in the afternoon before the party LM3 showed a temperature warning. She acknowledged it - the yard was going to look at it in Calvi anyway."
+    },
+    {
+     "key": "story_faelle.py:L931.0",
+     "alt": "Holm: LM3-Temperaturwarnung am Nachmittag, quittiert",
+     "neu": "Holm: LM3 temperature warning in the afternoon, acknowledged"
+    },
+    {
+     "key": "story_faelle.py:L933.0",
+     "alt": "Herstellerunterlagen zu PX-480 (über Petrus Kontakt): bekannte thermische Vorschädigung einzelner Chargen, Ausfall auch im Normalbetrieb möglich.",
+     "neu": "Manufacturer's documents on the PX-480 (through Petru's contact): known thermal pre-damage in certain batches, failure possible even in normal operation."
+    },
+    {
+     "key": "story_faelle.py:L936.0",
+     "alt": "Herstellerunterlagen PX-480: Ausfall im Normalbetrieb bei Vorschädigung möglich",
+     "neu": "PX-480 manufacturer's documents: failure in normal operation possible with pre-damage"
+    },
+    {
+     "key": "story_faelle.py:L940.0",
+     "alt": "Unabhängige Prüfung (Rosi misst nach den Herstellerunterlagen, Petru dokumentiert): thermische Vorschädigung von LM3, Ausfall ohne äußeren Auslöser.",
+     "neu": "Independent test (Rosi measures according to the manufacturer's documents, Petru documents it): thermal pre-damage to LM3, failure without an external trigger."
+    },
+    {
+     "key": "story_faelle.py:L942.0",
+     "alt": "Unabhängige Prüfung: LM3 vorgeschädigt, kein äußerer Auslöser",
+     "neu": "Independent test: LM3 pre-damaged, no external trigger"
+    },
+    {
+     "key": "story_faelle.py:L943.0",
+     "alt": "Rosi nach den Herstellerunterlagen messen lassen",
+     "neu": "Have Rosi measure according to the manufacturer's documents"
+    },
+    {
+     "key": "story_faelle.py:L944.0",
+     "alt": "Elsa um einen Gutachter der Hafenbehörde bitten",
+     "neu": "Ask Elsa for an inspector from the port authority"
+    },
+    {
+     "key": "story_faelle.py:L946.0",
+     "alt": "Auf der Party im Kontrollraum leuchtete \"LM3 TEMP\" gelb. Rosi: \"Die Werft soll sich das in Calvi ansehen.\"",
+     "neu": "At the party, in the control room, \"LM3 TEMP\" was lit yellow. Rosi: \"The yard can look at that in Calvi.\""
+    },
+    {
+     "key": "story_faelle.py:L950.0",
+     "alt": "Toto: \"Rosi war um drei im Maschinenraum, ich hab Licht gesehen.\"",
+     "neu": "Totò: \"Rosi was in the engine room at three, I saw the light.\""
+    },
+    {
+     "key": "story_faelle.py:L951.0",
+     "alt": "Toto: um drei Licht im Maschinenraum - Rosi",
+     "neu": "Totò: light in the engine room at three - Rosi"
+    },
+    {
+     "key": "story_faelle.py:L952.0",
+     "alt": "Toto nach der Nacht fragen",
+     "neu": "Ask Totò about the night"
+    },
+    {
+     "key": "story_faelle.py:L953.0",
+     "alt": "Zeitschaltuhr: Die Nachtbeleuchtung im Maschinenraum geht um 03:00 automatisch an.",
+     "neu": "Timer: the night lighting in the engine room switches on automatically at 03:00."
+    },
+    {
+     "key": "story_faelle.py:L955.0",
+     "alt": "Zeitschaltuhr: Nachtlicht im Maschinenraum geht um 03:00 an",
+     "neu": "Timer: night light in the engine room switches on at 03:00"
+    },
+    {
+     "key": "story_faelle.py:L956.0",
+     "alt": "Die Zeitschaltuhr der Nachtbeleuchtung ansehen",
+     "neu": "Look at the night-light timer"
+    },
+    {
+     "key": "story_faelle.py:L958.0",
+     "alt": "Rosi nach dem Licht im Maschinenraum fragen",
+     "neu": "Ask Rosi about the light in the engine room"
+    },
+    {
+     "key": "story_faelle.py:L960.0",
+     "alt": "Toto (auf Nachfrage): \"Ich hab nur Licht gesehen. Nicht sie.\"",
+     "neu": "Totò (when pressed): \"I only saw a light. Not her.\""
+    },
+    {
+     "key": "story_faelle.py:L961.0",
+     "alt": "Toto: nur Licht gesehen, nicht Rosi",
+     "neu": "Totò: only saw a light, not Rosi"
+    },
+    {
+     "key": "story_faelle.py:L963.0",
+     "alt": "Unterschriftenliste am Messe-Brett: \"Wir glauben, es war Rosi - sie war um 01:40 im Maschinenraum.\" Unterschrieben von Toto, Yasin, Chiara, Lola.",
+     "neu": "Petition on the mess board: \"We believe it was Rosi - she was in the engine room at 01:40.\" Signed by Totò, Yasin, Chiara, Lola."
+    },
+    {
+     "key": "story_faelle.py:L967.0",
+     "alt": "Das Brett in der Messe",
+     "neu": "The board in the mess"
+    },
+    {
+     "key": "story_faelle.py:L969.0",
+     "alt": "Megans Berichtsentwurf: \"Ursache: Bedienfehler eines Besatzungsmitglieds (Maschinenraum, 01:40)\" - ohne die Temperaturwarnung vom Nachmittag.",
+     "neu": "Megan's draft report: \"Cause: operating error by a crew member (engine room, 01:40)\" - without the temperature warning from the afternoon."
+    },
+    {
+     "key": "story_faelle.py:L976.0",
+     "alt": "Aussage: Rosi um drei im Maschinenraum - Zeitschaltuhr: Nachtlicht geht um drei an; Chiara hörte Rosi um Viertel vor drei schnarchen",
+     "neu": "Statement: Rosi in the engine room at three - timer: the night light comes on at three; Chiara heard Rosi snoring at quarter to three"
+    },
+    {
+     "key": "story_faelle.py:L978.0",
+     "alt": "Die Warnung steht mit %s im Protokoll, Holm erinnert \"am Nachmittag, vor der Party\" - mit Abgleich exakt 17:20. Rosis Rundgang (01:40, Maschinenbuch) liegt fünf Stunden vor dem Ausfall.",
+     "neu": "The warning is in the log at %s, Holm remembers \"in the afternoon, before the party\" - with the clocks matched, exactly 17:20. Rosi's round (01:40, engine log) is five hours before the failure."
+    },
+    {
+     "key": "story_faelle.py:L980.0",
+     "alt": "Die Crew bestimmt selbst einen Sündenbock: Unterschriftenliste gegen Rosi.",
+     "neu": "The crew picks its own scapegoat: a petition against Rosi."
+    },
+    {
+     "key": "story_faelle.py:L982.0",
+     "alt": "Gegenmittel: öffentliche Korrektur mit Belegen (Maschinenbuch, Zeitschaltuhr, Protokoll ohne Eingriff). Sagt Duc bis zum späten Essen an Tag 2 öffentlich \"Wir wissen es noch nicht\", entfällt die Liste.",
+     "neu": "Counter: a public correction with evidence (engine log, timer, log without intervention). If Duc says publicly \"We don't know yet\" before the late dinner on day 2, the list never appears."
+    },
+    {
+     "key": "story_faelle.py:L984.0",
+     "alt": "Megan fördert die schnelle menschliche Erklärung: Ihr Entwurf nennt einen Bedienfehler.",
+     "neu": "Megan pushes the quick human explanation: her draft names an operating error."
+    },
+    {
+     "key": "story_faelle.py:L986.0",
+     "alt": "Gegenmittel: unabhängige Prüfung (f6_07), Holms Warnung, Protokoll 17:20.",
+     "neu": "Counter: independent test (f6_07), Holm's warning, log 17:20."
+    },
+    {
+     "key": "story_faelle.py:L987.0",
+     "alt": "Du hast gesagt, ich darf dir alles erzählen. Du hast nicht gesagt, dass du daraus alles machen kannst.",
+     "neu": "You said I could tell you anything. You didn't say you could make anything you liked out of it."
+    },
+    {
+     "key": "story_faelle.py:L990.0",
+     "alt": "Kein Geständnis möglich. Der Kernsatz gehört der Person, die Duc zu Unrecht beschuldigt (dynamisch).",
+     "neu": "No confession possible. The key sentence belongs to the person Duc wrongly accuses (dynamic)."
+    },
+    {
+     "key": "story_faelle.py:L992.0",
+     "alt": "Öffentliche falsche Anschuldigung braucht eine öffentliche Korrektur (Flag öffentliche_korrektur). Unschuld erzeugt keinen Liebesbonus.",
+     "neu": "A public false accusation needs a public correction (flag öffentliche_korrektur). Innocence creates no romance bonus."
+    },
+    {
+     "key": "story_faelle.py:L997.0",
+     "alt": "Das Ding war gestern Nachmittag schon launisch. Temperatur. Ich hab quittiert.",
+     "neu": "That thing was already moody yesterday afternoon. Temperature. I acknowledged it."
+    },
+    {
+     "key": "story_faelle.py:L999.0",
+     "alt": "Werft, sag ich dir. Das Modul war schon krank, bevor wir losgefahren sind.",
+     "neu": "The yard, I'm telling you. That module was sick before we ever left."
+    },
+    {
+     "key": "story_faelle.py:L1000.0",
+     "alt": "trocken; hält Ermittlungen gegen die Crew für Zeitverschwendung",
+     "neu": "dry; thinks investigating the crew is a waste of time"
+    },
+    {
+     "key": "story_faelle.py:L1001.0",
+     "alt": "Holm hat gestern Nachmittag auf der Brücke über irgendein LM geflucht. Laut.",
+     "neu": "Yesterday afternoon Holm was swearing about some LM or other on the bridge. Loudly."
+    },
+    {
+     "key": "story_faelle.py:L1003.0",
+     "alt": "Die Liste mit den Unterschriften? Toto hat sie rumgehen lassen. Ich hab unterschrieben, weil alle unterschrieben haben. Tut mir leid.",
+     "neu": "The list with the signatures? Totò passed it round. I signed because everyone signed. I'm sorry."
+    },
+    {
+     "key": "story_faelle.py:L1007.0",
+     "alt": "Eine öffentliche falsche Anschuldigung braucht eine öffentliche Korrektur. Duc kann sich mit Belegen vor die Crew stellen - das ist die Wiedergutmachung in diesem Fall.",
+     "neu": "A public false accusation needs a public correction. Duc can stand in front of the crew with evidence - that is the amends in this case."
+    },
+    {
+     "key": "story_eden_rise.py:L23.0",
+     "alt": "Vereinfachtes, fiktives Bordnetz der Eden Rise. Gilt in allen sechs Fällen. Spuren zeigen Ereignisse in diesem Netz, nie magisch die Moral einer Person.",
+     "neu": "Simplified, fictional power grid of the Eden Rise. Applies in all six cases. Clues show events in this grid, never, as if by magic, a person's morals."
+    },
+    {
+     "key": "story_eden_rise.py:L27.0",
+     "alt": "lädt beide Bänke; klarer Tag etwa ein Drittel, bewölkt wenig, Sturm nichts",
+     "neu": "charges both banks; a clear day about a third, cloudy a little, a storm nothing"
+    },
+    {
+     "key": "story_eden_rise.py:L29.0",
+     "alt": "unter der Reserveschwelle geht die Steuerung in den Reservebetrieb (nutzt Profil R2)",
+     "neu": "below the reserve threshold the controller goes into reserve mode (uses profile R2)"
+    },
+    {
+     "key": "story_eden_rise.py:L32.0",
+     "alt": "unterwegs geschlossen, B stützt A; bei Überlast trennt sie (Schutz). Wird sie unter Last wieder geschlossen, schaltet die Steuerung ins Profil R2 – das steht nicht im Bordhandbuch.",
+     "neu": "closed while under way, B supports A; on overload it opens (protection). If it is closed again under load, the controller switches to profile R2 - that is not in the ship's manual."
+    },
+    {
+     "key": "story_eden_rise.py:L36.0",
+     "alt": "protokolliert jedes Ereignis mit Zeit; ihre Uhr geht %d Minuten nach",
+     "neu": "logs every event with its time; its clock is %d minutes slow"
+    },
+    {
+     "key": "story_eden_rise.py:L39.0",
+     "alt": "thermisch vorgeschädigt durch ein fremdes Bauteil (an Bord unbekannt, Akt 3)",
+     "neu": "thermally pre-damaged by a foreign component (unknown on board, Act 3)"
+    },
+    {
+     "key": "story_eden_rise.py:L40.0",
+     "alt": "Rückfallprofil R2",
+     "neu": "Fallback profile R2"
+    },
+    {
+     "key": "story_eden_rise.py:L41.0",
+     "alt": "Bordhandbuch S. 4-17 beschreibt R2 als zulässiges Notfahrprofil mit Rücksetzen über \"Diagnose beenden\". Laut Herstellermeldung für PX-480 nicht freigegeben; \"Diagnose beenden\" setzt es nicht zurück.",
+     "neu": "Ship's manual p. 4-17 describes R2 as a permitted emergency profile with reset via \"End diagnosis\". According to a manufacturer notice it is not approved for the PX-480; \"End diagnosis\" does not reset it."
+    },
+    {
+     "key": "story_eden_rise.py:L44.0",
+     "alt": "manuell am Wartungsschalter der Brücke nach Schutzabbruch",
+     "neu": "manually at the bridge maintenance switch after a protective abort"
+    },
+    {
+     "key": "story_eden_rise.py:L47.0",
+     "alt": "Wiederzuschalten der Querkupplung unter Last",
+     "neu": "closing the bus tie again under load"
+    },
+    {
+     "key": "story_eden_rise.py:L48.0",
+     "alt": "fährt mit verschobener Lastverteilung weiter; LM3 trägt die Spitzenlast – bei einem vorgeschädigten PX-480 thermische Überlast",
+     "neu": "carries on with a shifted load distribution; LM3 carries the peak load - thermal overload for a pre-damaged PX-480"
+    },
+    {
+     "key": "story_eden_rise.py:L50.0",
+     "alt": "E-Motor und Welle",
+     "neu": "E-motor and shaft"
+    },
+    {
+     "key": "story_eden_rise.py:L52.0",
+     "alt": "nach Antriebsausfall Inselbetrieb: Bank B versorgt nur das reduzierte Hotelnetz",
+     "neu": "after a propulsion failure, island mode: bank B only supplies the reduced hotel load"
+    },
+    {
+     "key": "story_eden_rise.py:L54.0",
+     "alt": "Kühlräume",
+     "neu": "Cold rooms"
+    },
+    {
+     "key": "story_eden_rise.py:L54.1",
+     "alt": "Kombüse",
+     "neu": "Galley"
+    },
+    {
+     "key": "story_eden_rise.py:L57.0",
+     "alt": "eigene Uhr in Schiffszeit; speichert Auslösungen und manuelle Wiederzuschaltungen",
+     "neu": "own clock in ship's time; stores trips and manual reconnections"
+    },
+    {
+     "key": "story_eden_rise.py:L58.0",
+     "alt": "Notversorgung 24 V mit eigener Batterie",
+     "neu": "24 V emergency supply with its own battery"
+    },
+    {
+     "key": "story_eden_rise.py:L61.0",
+     "alt": "unabhängig von A und B. Keine Entscheidung im Spiel schaltet sie ab oder tauscht sie gegen etwas ein.",
+     "neu": "independent of A and B. No decision in the game switches it off or trades it for something."
+    },
+    {
+     "key": "story_eden_rise.py:L64.0",
+     "alt": "Diagnoselauf des Antriebs (Reparaturarbeit)",
+     "neu": "Diagnostic run of the propulsion (repair work)"
+    },
+    {
+     "key": "story_eden_rise.py:L65.0",
+     "alt": "Bugstrahlruder für Manöver",
+     "neu": "Bow thruster for manoeuvres"
+    },
+    {
+     "key": "story_eden_rise.py:L67.0",
+     "alt": "Wartungsschalter Brücke (Schlüssel)",
+     "neu": "Bridge maintenance switch (key)"
+    },
+    {
+     "key": "story_eden_rise.py:L70.0",
+     "alt": "Kapitänin (ab Tag 2 Duc)",
+     "neu": "Captain (Duc from day 2)"
+    },
+    {
+     "key": "story_eden_rise.py:L70.1",
+     "alt": "Technik – hängt am Haken im Maschinenkontrollraum",
+     "neu": "Engineering – hangs on the hook in the engine control room"
+    },
+    {
+     "key": "story_eden_rise.py:L71.0",
+     "alt": "Werft/Büro – Schublade im Schiffsbüro",
+     "neu": "Yard/Office – drawer in the ship's office"
+    },
+    {
+     "key": "story_eden_rise.py:L73.0",
+     "alt": "laut Handbuch: Funktionstest vor dem nächsten Kaltstart. Tatsächlich behandelt die Steuerung auch die automatische Umschaltung A→B wie einen Kaltstart und geht ins R2.",
+     "neu": "according to the manual: function test before the next cold start. In reality the controller also treats the automatic switchover A→B like a cold start and goes into R2."
+    },
+    {
+     "key": "story_eden_rise.py:L76.0",
+     "alt": "Kartenplotter mit GPS-Track",
+     "neu": "Chart plotter with GPS track"
+    },
+    {
+     "key": "story_eden_rise.py:L77.0",
+     "alt": "Drucker im Schiffsbüro",
+     "neu": "Printer in the ship's office"
+    },
+    {
+     "key": "story_eden_rise.py:L77.1",
+     "alt": "speichert Aufträge mit Benutzer/Zeit",
+     "neu": "stores jobs with user and time"
+    },
+    {
+     "key": "story_eden_rise.py:L78.0",
+     "alt": "Büro-PC",
+     "neu": "Office PC"
+    },
+    {
+     "key": "story_eden_rise.py:L78.1",
+     "alt": "Reisepläne, Routenpläne, Dateiversionen",
+     "neu": "voyage plans, route plans, file versions"
+    },
+    {
+     "key": "story_eden_rise.py:L79.0",
+     "alt": "Altes Servicegerät (Werkstatt)",
+     "neu": "Old service device (workshop)"
+    },
+    {
+     "key": "story_eden_rise.py:L80.0",
+     "alt": "speichert jedes Protokoll, das mit ihm erstellt wurde",
+     "neu": "stores every log created with it"
+    },
+    {
+     "key": "story_eden_rise.py:L88.0",
+     "alt": "Ein ausgefallener Antrieb heißt nicht, dass kein Strom da ist: Hotelnetz im Inselbetrieb, Notversorgung unabhängig.",
+     "neu": "A failed propulsion doesn't mean there's no power: hotel load in island mode, emergency supply independent."
+    },
+    {
+     "key": "story_eden_rise.py:L90.0",
+     "alt": "Ein kleiner Verbraucher zerstört nie allein einen Antrieb: Jede Kette läuft über die gemeinsame Schwachstelle (vorgeschädigtes LM3 + schlecht dokumentiertes R2).",
+     "neu": "A small consumer never destroys a propulsion system on its own: every chain runs through the shared weak spot (pre-damaged LM3 + badly documented R2)."
+    },
+    {
+     "key": "story_eden_rise.py:L92.0",
+     "alt": "Der normale Schutz hätte die meisten Auslöser begrenzt – deshalb ist die zweite Wahrheit (Alons Bauteil an LM3) in allen Fällen echt.",
+     "neu": "The normal protection would have limited most triggers - that's why the second truth (Alon's component on LM3) is real in every case."
+    },
+    {
+     "key": "story_eden_rise.py:L94.0",
+     "alt": "Ausfall und Knall sind zwei Momente: Der Ausfall liegt je Fall zwischen 06:11 und 06:35, der Knall im Umrichter ist immer um 06:35 (das fremde Bauteil treibt LM3 nach dem Ausfall ins Durchgehen).",
+     "neu": "Failure and bang are two moments: the failure lies between 06:11 and 06:35 depending on the case, the bang in the inverter is always at 06:35 (the foreign component drives LM3 into runaway after the failure)."
+    },
+    {
+     "key": "story_eden_rise.py:L96.0",
+     "alt": "Kein erzwungener Diesel-gegen-Funk-Entscheid. Reparatur und Schleppen konkurrieren um Zeit, Material, Wetterfenster und Hände.",
+     "neu": "No forced diesel-versus-radio decision. Repair and towing compete for time, material, weather windows and hands."
+    },
+    {
+     "key": "story_eden_rise.py:L99.0",
+     "alt": "Referenz: Brückenuhr, Handys, Kamera, GPS, Maschinenbuch, Heckverteiler",
+     "neu": "Reference: bridge clock, phones, camera, GPS, engine log, stern distribution board"
+    },
+    {
+     "key": "story_eden_rise.py:L102.0",
+     "alt": "LM3 ersetzen oder überbrücken: Ersatzmodul (Megan/Petru), Diagnoseläufe mit Unit-01 (Diesel), Wetterfenster, Rosi und Petru als Hände.",
+     "neu": "Replace or bridge LM3: spare module (Megan/Petru), diagnostic runs with Unit-01 (diesel), weather window, Rosi and Petru as hands."
+    },
+    {
+     "key": "story_eden_rise.py:L104.0",
+     "alt": "Bergungsfenster über Elsa oder Megan; professionelle Rettung ist nie moralisch minderwertig.",
+     "neu": "Salvage window through Elsa or Megan; a professional rescue is never morally inferior."
+    },
+    {
+     "key": "story_eden_rise.py:L105.0",
+     "alt": "LM3 sachgerecht abtrennen: Brandgefahr gebannt, Eigenfahrt danach nur langsam oder gar nicht.",
+     "neu": "Isolate LM3 properly: fire risk eliminated, afterwards only slow or no motoring under her own power."
+    },
+    {
+     "key": "story_eden_rise.py:L106.0",
+     "alt": "Wärme am Umrichtergehäuse",
+     "neu": "Heat on the inverter casing"
+    },
+    {
+     "key": "story_eden_rise.py:L106.1",
+     "alt": "Geruch nach heißem Kunststoff",
+     "neu": "Smell of hot plastic"
+    },
+    {
+     "key": "story_eden_rise.py:L108.0",
+     "alt": "Entfällt in Akt 1: LM3 ist im Cold Open (06:35) explodiert, der Umrichter ist zerstört.",
+     "neu": "Not in Act 1: LM3 exploded in the cold open (06:35), the inverter is destroyed."
+    },
+    {
+     "key": "story_eden_rise.py:L117.0",
+     "alt": "Hinter dem ausgebrannten Umrichter blinkt ein kleines rotes Licht. Im Schaltplan ist an dieser Stelle kein Bauteil verzeichnet.",
+     "neu": "Behind the burnt-out inverter a small red light is blinking. There is no component at this spot in the wiring diagram."
+    },
+    {
+     "key": "story_eden_rise.py:L119.0",
+     "alt": "Rotes Blinklicht hinter dem Umrichter – im Schaltplan nicht verzeichnet",
+     "neu": "Red blinking light behind the inverter - not in the wiring diagram"
+    },
+    {
+     "key": "story_eden_rise.py:L120.0",
+     "alt": "Hinter den ausgebrannten Umrichter leuchten",
+     "neu": "Shine a light behind the burnt-out inverter"
+    },
+    {
+     "key": "story_eden_rise.py:L122.0",
+     "alt": "Totò meidet die Ecke mit dem roten Licht. Als Duc es ihm zeigt, wird er grau und wechselt das Thema.",
+     "neu": "Totò avoids the corner with the red light. When Duc shows it to him, he turns grey and changes the subject."
+    },
+    {
+     "key": "story_eden_rise.py:L124.0",
+     "alt": "Totò weicht dem roten Licht aus",
+     "neu": "Totò avoids the red light"
+    },
+    {
+     "key": "story_eden_rise.py:L125.0",
+     "alt": "Darauf achten, wer im Antriebsraum dem roten Licht ausweicht",
+     "neu": "Watch who avoids the red light in the propulsion room"
+    },
+    {
+     "key": "story_eden_rise.py:L127.0",
+     "alt": "Megan beim Anblick des Schadens: \"Ein PX-480 brennt nicht einfach so.\" Dann schreibt sie weiter, als hätte sie nichts gesagt.",
+     "neu": "Megan, looking at the damage: \"A PX-480 doesn't just burn.\" Then she carries on writing as if she hadn't said anything."
+    },
+    {
+     "key": "story_eden_rise.py:L129.0",
+     "alt": "Megan: \"Ein PX-480 brennt nicht einfach so.\"",
+     "neu": "Megan: \"A PX-480 doesn't just burn.\""
+    },
+    {
+     "key": "story_eden_rise.py:L130.0",
+     "alt": "Megan nach dem Schadensbild fragen",
+     "neu": "Ask Megan about the damage"
+    },
+    {
+     "key": "story_eden_rise.py:L131.0",
+     "alt": "Megan verlangt bis zum Ende der Woche einen Ursachenbericht und eine Anhörung an Bord. Ohne Schuldige kündigt sie der ganzen Crew; die Saisonprämie ist ihr Druckmittel.",
+     "neu": "Megan demands a cause report and a hearing on board by the end of the week. Without someone to blame she fires the whole crew; the season bonus is her leverage."
+    },
+    {
+     "key": "story_eden_rise.py:L134.0",
+     "alt": "Megans Ultimatum: Bericht und Anhörung in sieben Tagen – sonst fliegt die ganze Crew",
+     "neu": "Megan's ultimatum: report and hearing in seven days - otherwise the whole crew is out"
+    },
+    {
+     "key": "story_eden_rise.py:L136.0",
+     "alt": "Megan telefoniert leise an Deck und sagt zweimal \"A.V.\". Darauf angesprochen: \"Ein Käufer aus Monaco. Nicht dein Problem.\"",
+     "neu": "Megan is quietly on the phone on deck and says \"A.V.\" twice. Asked about it: \"A buyer from Monaco. Not your problem.\""
+    },
+    {
+     "key": "story_eden_rise.py:L138.0",
+     "alt": "Megan am Telefon: zweimal \"A.V.\" – \"ein Käufer aus Monaco\"",
+     "neu": "Megan on the phone: \"A.V.\" twice - \"a buyer from Monaco\""
+    },
+    {
+     "key": "story_eden_rise.py:L139.0",
+     "alt": "Megan auf das Telefonat ansprechen",
+     "neu": "Ask Megan about the phone call"
+    },
+    {
+     "key": "story_eden_rise.py:L140.0",
+     "alt": "Totòs Wettbuch: Seit der Partynacht zahlt er ungewöhnlich hohe Gewinne aus. Dazu trägt er eine neue Goldkette.",
+     "neu": "Totò's betting book: since the party night he's been paying out unusually high winnings. And he's wearing a new gold chain."
+    },
+    {
+     "key": "story_eden_rise.py:L142.0",
+     "alt": "Totò zahlt seit der Partynacht hohe Gewinne aus, neue Goldkette",
+     "neu": "Totò has been paying out big winnings since the party night, new gold chain"
+    },
+    {
+     "key": "story_eden_rise.py:L148.0",
+     "alt": "Totò zählt nachts Geld. Viel Geld. Seit der Party. Frag mich nicht, woher.",
+     "neu": "Totò counts money at night. A lot of money. Since the party. Don't ask me where it's from."
+    },
+    {
+     "key": "story_eden_rise.py:L153.0",
+     "alt": "Alons Agent kaufte Totò über seinen Cousin Gennaro (20.000 Euro, \"nobody gets hurt\"); Totò baute in Antibes nachts ein fremdes Bauteil an LM3 ein. Es schädigte das Modul thermisch vor und trieb es nach dem Ausfall ins Durchgehen – deshalb der Knall um 06:35 in allen Fällen. Der Auslöser aus dem Fall gab nur den letzten Stoß. Alons Motiv: Katastrophe statt Werbung für die Bucht, negative Presse, niedriger Preis.",
+     "neu": "Alon's agent bought Totò through his cousin Gennaro (€20,000, \"nobody gets hurt\"); one night in Antibes Totò fitted a foreign component to LM3. It thermally pre-damaged the module and drove it into runaway after the failure - hence the bang at 06:35 in every case. The trigger from the case only gave it the final push. Alon's motive: a disaster instead of an advertisement for the bay, bad press, a low price."
+    },
+    {
+     "key": "story_eden_rise.py:L157.0",
+     "alt": "Die Eden Group besitzt seit Jahrzehnten das kommerzielle Hafenviertel von Cala d'Orsu (Kai, Lagerhallen, Grund unter Alvas Bar). Megan soll es verkaufen, Käufer A.V. Estates (sie kennt nur den Firmennamen), ihre Beförderung hängt am Preis. Das Eden Bay Weekend (Sonnenaufgang, Siri postet, Yasin filmt) soll den Preis hochtreiben; der Knall um 06:35 ist Alons Gegenzug. Der Verkauf wird nicht vor Akt 2 enthüllt.",
+     "neu": "For decades the Eden Group has owned the commercial harbour quarter of Cala d'Orsu (quay, warehouses, the land under Alva's bar). Megan is supposed to sell it; the buyer is A.V. Estates (she only knows the company name), and her promotion depends on the price. The Eden Bay Weekend (sunrise, Siri posts, Yasin films) is meant to drive the price up; the bang at 06:35 is Alon's countermove. The sale is not revealed before Act 2."
+    },
+    {
+     "key": "story_eden_rise.py:L162.0",
+     "alt": "A: abgeschieden und doch nah (leere Berge, Monaco eine Nacht entfernt, Legion in Calvi -> Adriens Einheit). B: Der Hafen ist seine Logistik (Käfige, Tiere, Technik nicht über die Bergstraße; das Resort ist Vorwand für Kräne, Lagerhallen, Lieferboote) -> er braucht genau das Hafenviertel, billig. C: Als Kind Sommer bei seiner Großmutter in Cala d'Orsu, vor der Diagnose; stand als Junge vor dem Haus der Casanovas. Die Halsbänder sind Vorstufe einer Nervensteuerung, die zuerst seinen Körper retten und dann die Menschheit patchen soll. Krankheit keine Ausrede.",
+     "neu": "A: remote and yet close (empty mountains, Monaco one night away, the Legion in Calvi -> Adrien's unit). B: the harbour is his logistics (cages, animals and equipment can't come over the mountain road; the resort is a pretext for cranes, warehouses and supply boats) -> he needs exactly the harbour quarter, cheaply. C: as a child he spent summers with his grandmother in Cala d'Orsu, before the diagnosis; as a boy he stood outside the Casanovas' house. The collars are a precursor to a nerve control meant to save his own body first and then patch humanity. The illness is no excuse."
+    },
+    {
+     "key": "story_eden_rise.py:L169.0",
+     "alt": "Akt 1 urteilt über den Auslöser, Akt 3 über Alon. Totòs Aussagen zur Partynacht bleiben wahr; er lügt nur über das Gerät. Keine Akt-1-Spur wird durch den Verrat falsch.",
+     "neu": "Act 1 judges the trigger, Act 3 judges Alon. Totò's statements about the party night stay true; he only lies about the device. No Act 1 clue becomes false through the betrayal."
+    },
+    {
+     "key": "story_eden_rise.py:L171.0",
+     "alt": "Nur Beobachtungen ohne Kettenfunktion: rotes Licht (z_01), Totò weicht aus (z_02), Megans Zögern (z_03), \"A.V.\" (z_05), Totòs Geld (z_06). Lolas Tratsch \"zählt nachts Geld\" ist nur Wegweiser. Beweis im Antriebsraum erst ab Akt 2.",
+     "neu": "Only observations without a chain function: red light (z_01), Totò dodges (z_02), Megan's hesitation (z_03), \"A.V.\" (z_05), Totò's money (z_06). Lola's gossip \"counts money at night\" is only a signpost. Evidence in the propulsion room only from Act 2."
+    },
+    {
+     "key": "story_eden_rise.py:L179.0",
+     "alt": "Duc zeigt Megan bei der Inspektion alles, auch was gegen die Crew spricht",
+     "neu": "Duc shows Megan everything during the inspection, including what speaks against the crew"
+    },
+    {
+     "key": "story_eden_rise.py:L180.0",
+     "alt": "Duc hält bei der Inspektion etwas zurück",
+     "neu": "Duc holds something back during the inspection"
+    },
+    {
+     "key": "story_eden_rise.py:L181.0",
+     "alt": "öffentliche Anschuldigung ohne Beleg (gegen wen auch immer)",
+     "neu": "public accusation without evidence (against whoever)"
+    },
+    {
+     "key": "story_eden_rise.py:L182.0",
+     "alt": "Duc droht mit Presse oder Clip",
+     "neu": "Duc threatens with the press or the clip"
+    },
+    {
+     "key": "story_eden_rise.py:L183.0",
+     "alt": "In der Anhörung lässt sie Duc ausreden und hört das Plädoyer bis zum Ende.",
+     "neu": "In the hearing she lets Duc finish and listens to the plea to the end."
+    },
+    {
+     "key": "story_eden_rise.py:L184.0",
+     "alt": "In der Anhörung verliert sie schneller die Geduld (Scheibe 3).",
+     "neu": "In the hearing she loses patience faster (disc 3)."
+    },
+    {
+     "key": "story_eden_rise.py:L214.0",
+     "alt": "Noch eine Minute Licht",
+     "neu": "One More Minute of Light"
+    },
+    {
+     "key": "story_eden_rise.py:L218.0",
+     "alt": "Kaltstart ohne Erklärung: 06:35, ein Knall im Antriebsraum, Rauch, Funken, Rosis Hand auf dem Notaus. Ein Atemzug, dann Schwarzbild: \"The day before. Antibes.\" Niemand wird erkannt, nichts erklärt, keine Schuld angedeutet.",
+     "neu": "Cold open without explanation: 06:35, a bang in the propulsion room, smoke, sparks, Rosi's hand on the emergency stop. One breath, then black screen: \"The day before. Antibes.\" Nobody is recognised, nothing is explained, no guilt is hinted at."
+    },
+    {
+     "key": "story_eden_rise.py:L224.0",
+     "alt": "Party im Abendlicht, kein Figurenverzeichnis – und der erste Tatort: was Duc hier sieht, zählt später als Beobachtung. Zuerst: wem hilfst du? Danach Momente: Lea behauptet, das Meer könne heute leuchten; Rosi nennt Unit-01 den einzigen Gast, der seinen Strom selbst mitbringt; Sophia setzt unauffällig Lea und Rosi auseinander; Holm hat Bauchschmerzen und winkt ab; Maxwell macht Liegestütze für jeden Witz; Chiara lässt einen unbenutzten Platz abräumen (Bild, nicht erklären). Gruppenfoto um 21:32 – Duc darf fehlen.",
+     "neu": "Party in the evening light, no cast list - and the first scene of the crime: what Duc sees here counts later as an observation. First: who do you help? Then moments: Lea claims the sea might glow tonight; Rosi calls Unit-01 the only guest who brings its own power; Sophia quietly separates Lea and Rosi; Holm has stomach pain and waves it off; Maxwell does a push-up for every joke; Chiara has an unused place cleared away (an image, don't explain). Group photo at 21:32 - Duc may be missing from it."
+    },
+    {
+     "key": "story_eden_rise.py:L230.0",
+     "alt": "Wem hilfst du zuerst?",
+     "neu": "Who do you help first?"
+    },
+    {
+     "key": "story_eden_rise.py:L231.0",
+     "alt": "Chiara fehlt eine Hand beim Service",
+     "neu": "Chiara is a pair of hands short at the service"
+    },
+    {
+     "key": "story_eden_rise.py:L232.0",
+     "alt": "Rosi braucht jemanden für einen Test im Kontrollraum",
+     "neu": "Rosi needs someone for a test in the control room"
+    },
+    {
+     "key": "story_eden_rise.py:L233.0",
+     "alt": "Siri möchte kurz aus einer Aufnahme raus",
+     "neu": "Siri would like a short break from a shoot"
+    },
+    {
+     "key": "story_eden_rise.py:L234.0",
+     "alt": "Flag auftakt_hilfe_<id>, Vertrauen +2; die Person erinnert sich konkret. Keine versteckte Schuld, keine Option verhindert eine Tat.",
+     "neu": "Flag auftakt_hilfe_<id>, trust +2; the person remembers it specifically. No hidden guilt, no option prevents a deed."
+    },
+    {
+     "key": "story_eden_rise.py:L238.0",
+     "alt": "Afterparty bis halb vier; Duc kann nicht schlafen und sitzt bei Lola in der Kombüse, die fürs Sonnenaufgangsfrühstück backt. Zuerst endet die Musik. Dann sagt Lola \"Duc?\". Erst danach der Alarm. Keine Uhrzeit nennen – wann genau es still wurde, ist je Fall verschieden.",
+     "neu": "Afterparty until half past three; Duc can't sleep and sits with Lola in the galley, who is baking for the sunrise breakfast. First the music stops. Then Lola says \"Duc?\". Only then the alarm. Don't name a time - exactly when it went quiet differs from case to case."
+    },
+    {
+     "key": "story_eden_rise.py:L244.0",
+     "alt": "Totò und Lea laufen nach dem Alarm zum Antriebsraum. Um 06:35 (in allen Fällen gleich) knallt es im Umrichter. Maxwell fängt die Trümmer mit dem Rücken ab und rettet Totò und Lea – nur ein Kratzer, er macht eine Pose daraus. Sophias Charme fällt, als Lea unter den Trümmern liegt. Rosi rennt rein, schlägt den Notaus und sitzt danach länger als zehn Sekunden still vor dem Umrichter (nur Duc sieht es). Unit-01 läuft weiter. Alle sagen \"Motor\", Rosi korrigiert: \"It's not a motor. It's an inverter.\" Totò starrt kurz auf etwas hinter dem Umrichter und wird grau – nicht erklären. Holm fragt, ob alle okay sind, kümmert sich um Lola und bricht dann selbst zusammen.",
+     "neu": "Totò and Lea run to the propulsion room after the alarm. At 06:35 (the same in every case) the inverter goes bang. Maxwell catches the debris with his back and saves Totò and Lea - just a scratch, he turns it into a pose. Sophia's charm drops when Lea is lying under the debris. Rosi runs in, hits the emergency stop and then sits still in front of the inverter for longer than ten seconds (only Duc sees it). Unit-01 keeps running. Everyone says \"motor\", Rosi corrects them: \"It's not a motor. It's an inverter.\" Totò stares briefly at something behind the inverter and turns grey - don't explain. Holm asks whether everyone is okay, looks after Lola and then collapses herself."
+    },
+    {
+     "key": "story_eden_rise.py:L253.0",
+     "alt": "Wen rufst du an?",
+     "neu": "Who Do You Call?"
+    },
+    {
+     "key": "story_eden_rise.py:L254.0",
+     "alt": "Holm hat sich auf die Brücke geschleppt und lässt sich nicht ablösen. Die Yacht treibt, bis sie um 07:50 vor Cala d'Orsu vor Anker liegt. Holm, blass vor Schmerz, fragt nicht nach seiner Heldenbiografie, sondern: \"Wen rufst du an, wenn du nicht weiterweißt?\" Die Antwort kehrt wieder (Abschied). Zum Schluss erwähnt sie, dass ihr Logbuch und das Protokoll verschiedene Uhrzeiten zeigen.",
+     "neu": "Holm has dragged herself to the bridge and won't be relieved. The yacht drifts until she lies at anchor off Cala d'Orsu at 07:50. Holm, pale with pain, doesn't ask for his heroic biography but: \"Who do you call when you don't know what to do next?\" The answer comes back (farewell). At the end she mentions that her logbook and the log show different times."
+    },
+    {
+     "key": "story_eden_rise.py:L259.0",
+     "alt": "Wen rufst du an, wenn du nicht weiterweißt?",
+     "neu": "Who do you call when you don't know what to do next?"
+    },
+    {
+     "key": "story_eden_rise.py:L261.0",
+     "alt": "Niemanden. Ich mach das allein.",
+     "neu": "Nobody. I'll do it myself."
+    },
+    {
+     "key": "story_eden_rise.py:L268.0",
+     "alt": "Holm führt ein letztes Mal und nimmt Duc noch nicht ganz ernst. Rosi erklärt die konkrete Beschränkung (Umrichter zerstört, Hotel im Inselbetrieb, Notversorgung unabhängig, Unit-01 läuft), Chiara den Bedarf der Menschen, Sophia die Nachricht der Gesellschaft. Duc entscheidet eine spürbare Komforteinschränkung – die Reaktion zeigt eine spätere Szene.",
+     "neu": "Holm leads one last time and doesn't quite take Duc seriously yet. Rosi explains the concrete constraint (inverter destroyed, hotel load in island mode, emergency supply independent, Unit-01 running), Chiara the people's needs, Sophia the company's message. Duc decides on a noticeable cut in comfort - a later scene shows the reaction."
+    },
+    {
+     "key": "story_eden_rise.py:L274.0",
+     "alt": "halbe Kühlung",
+     "neu": "half cooling"
+    },
+    {
+     "key": "story_eden_rise.py:L276.0",
+     "alt": "Flag komfort_<id>; Bild dazu am Abend oder an Tag 3",
+     "neu": "Flag komfort_<id>; an image of it in the evening or on day 3"
+    },
+    {
+     "key": "story_eden_rise.py:L278.0",
+     "alt": "Videokonferenz auf dem Brückenschirm. Megan explodiert wie eine Anime-Chefin: zu laut, zu schnell, ein Kaffeebecher fliegt aus dem Bild: \"You were supposed to be my postcard!\" (das Eden Bay Weekend ist geplatzt). Dann eiskalt das Ultimatum: in sieben Tagen ein Ursachenbericht und eine Anhörung an Bord, sie selbst urteilt. Ohne Schuldige fliegt die ganze Crew. Holm hält dagegen, so gut sie noch kann.",
+     "neu": "Video conference on the bridge screen. Megan explodes like an anime boss: too loud, too fast, a coffee cup flies out of frame: \"You were supposed to be my postcard!\" (the Eden Bay Weekend has fallen through). Then, ice-cold, the ultimatum: in seven days a cause report and a hearing on board, and she will judge. Without someone to blame the whole crew is out. Holm pushes back as well as she still can."
+    },
+    {
+     "key": "story_eden_rise.py:L284.0",
+     "alt": "Holm hat einen Moment",
+     "neu": "Holm Has a Moment"
+    },
+    {
+     "key": "story_eden_rise.py:L285.0",
+     "alt": "Bevor der Hubschrauber kommt, hat Holm einen Moment. Wer genau fragt, bekommt genaue Antworten (fall.holm_tag1). Danach nur noch per Telefon.",
+     "neu": "Before the helicopter comes, Holm has a moment. Whoever asks precisely gets precise answers (fall.holm_tag1). After that only by phone."
+    },
+    {
+     "key": "story_eden_rise.py:L288.0",
+     "alt": "Abschied von der Kapitänin",
+     "neu": "Farewell to the Captain"
+    },
+    {
+     "key": "story_eden_rise.py:L289.0",
+     "alt": "Holm wird mit dem Rettungshubschrauber evakuiert (Blinddarm) – ein medizinischer Vorgang, kein Hinweis. Sie übergibt Duc Servicekarte 1 und das Kommando und greift seine Antwort aus der Nacht auf. Petru steht am Kai und schaut dem Hubschrauber nach.",
+     "neu": "Holm is evacuated by rescue helicopter (appendix) - a medical matter, not a clue. She hands Duc service card 1 and the command and picks up his answer from the night. Petru stands on the quay and watches the helicopter go."
+    },
+    {
+     "key": "story_eden_rise.py:L294.0",
+     "alt": "Nach dem Abflug stehen zu viele Tassen auf dem Tisch. Chiara will eine wegnehmen. Kleine Charakterentscheidung, keine Moralprüfung.",
+     "neu": "After take-off there are too many cups on the table. Chiara wants to take one away. A small character choice, not a moral test."
+    },
+    {
+     "key": "story_eden_rise.py:L296.0",
+     "alt": "Lass sie stehen.",
+     "neu": "Leave it."
+    },
+    {
+     "key": "story_eden_rise.py:L296.1",
+     "alt": "Selbst abräumen",
+     "neu": "Clear it away yourself"
+    },
+    {
+     "key": "story_eden_rise.py:L298.0",
+     "alt": "Was in der Nacht geschah",
+     "neu": "What Happened in the Night"
+    },
+    {
+     "key": "story_eden_rise.py:L299.0",
+     "alt": "Drei Wege, einer davon jetzt: den Ereignisstreifen der Energiesteuerung sichern (enthält noch keine Antwort auf das Wer), mit einer Person über die Nacht sprechen oder zuerst die Versorgung organisieren. Eine Kopie des Protokolls gibt es später über den Servicezugang – kostet dann eine Phase.",
+     "neu": "Three ways, one of them now: secure the event record of the power management system (it doesn't answer the who yet), talk to one person about the night, or organise the supplies first. A copy of the log is available later through the service access - but then it costs a phase."
+    },
+    {
+     "key": "story_eden_rise.py:L305.0",
+     "alt": "Wege der Gruppe streifen / befragen",
+     "neu": "Ways from the groups streifen / befragen"
+    },
+    {
+     "key": "story_eden_rise.py:L307.0",
+     "alt": "Ausdrücklich angebotene Handlung nach Holms Hinweis aus der Nacht (Weg-Gruppen abgleich_*): Foto, Logbuch oder die Uhr im Kontrollraum.",
+     "neu": "An explicitly offered action after Holm's hint from the night (way groups abgleich_*): the photo, the logbook or the clock in the control room."
+    },
+    {
+     "key": "story_eden_rise.py:L309.0",
+     "alt": "Das passt zeitlich nicht",
+     "neu": "That Doesn't Fit the Timeline"
+    },
+    {
+     "key": "story_eden_rise.py:L310.0",
+     "alt": "In einem Gespräch fällt der erste Satz, der einer anderen Aussage widerspricht (fall.widersprueche). Die Oberfläche erlaubt \"Das passt zeitlich nicht\", ohne jemanden als schuldig zu markieren. Wer sofort beschuldigt, bekommt Widerstand; wer nachfragt, eine überprüfbare neue Angabe.",
+     "neu": "In a conversation the first sentence comes up that contradicts another statement (fall.widersprueche). The interface allows \"That doesn't fit the timeline\" without marking anyone as guilty. Whoever accuses straight away meets resistance; whoever asks follow-up questions gets a new, checkable detail."
+    },
+    {
+     "key": "story_eden_rise.py:L315.0",
+     "alt": "Etwas ist anders",
+     "neu": "Something Is Different"
+    },
+    {
+     "key": "story_eden_rise.py:L316.0",
+     "alt": "Nur wenn in der Nacht eine Gegenhandlung stattfand: Eine schon untersuchte Sache ist verändert (Seite fehlt, Messung ersetzt, Zugangsvermerk, Liste am Brett). Heute kann man den konkreten Vorgang prüfen.",
+     "neu": "Only if a counteraction happened during the night: something already examined has changed (a page missing, a measurement replaced, an access note, a list on the board). Today the concrete event can be checked."
+    },
+    {
+     "key": "story_eden_rise.py:L319.0",
+     "alt": "Sonnenaufgang über Cala d'Orsu",
+     "neu": "Sunrise over Cala d'Orsu"
+    },
+    {
+     "key": "story_eden_rise.py:L320.0",
+     "alt": "Die Bucht verlieben lassen: der erste ruhige Morgen. Licht auf dem Wasser, Fischerboote, Glocken aus dem Dorf, Kevin die Möwe auf der Reling. Kein Problem, keine Ermittlung – ein stiller Moment, allein oder mit der vertrautesten Person.",
+     "neu": "Make the player fall in love with the bay: the first quiet morning. Light on the water, fishing boats, bells from the village, Kevin the seagull on the railing. No problem, no investigation - a still moment, alone or with the person closest to Duc."
+    },
+    {
+     "key": "story_eden_rise.py:L325.0",
+     "alt": "Das Dorf öffnet sich – man kennt Duc seit dem Hafenkampf gestern. Alva kennt die Lieferwege. Elsa verlangt einen sachlichen Zustandsbericht. Petru will wissen, was genau schon geprüft wurde. Casanova sitzt am Hafen, verspricht Hilfe und plant die Yacht schon als Kulisse für die Festa am Ende des Sommers – übergroße Präsentation, die Elsa mit der Frage nach der zulässigen Personenzahl beendet. Zwei von drei Vorhaben: eines jetzt, eines am Abend.",
+     "neu": "The village opens up - people know Duc from the harbour fight yesterday. Alva knows the supply routes. Elsa wants a factual status report. Petru wants to know exactly what has already been checked. Casanova sits at the harbour, promises help and is already planning the yacht as a backdrop for the festa at the end of the summer - an oversized presentation that Elsa ends by asking about the permitted number of people. Two of three plans: one now, one in the evening."
+    },
+    {
+     "key": "story_eden_rise.py:L331.0",
+     "alt": "Eine Spur an Land prüfen (fall: Wege an Land)",
+     "neu": "Check a lead ashore (case: ways ashore)"
+    },
+    {
+     "key": "story_eden_rise.py:L332.0",
+     "alt": "Ein persönliches Versprechen einlösen",
+     "neu": "Keep a personal promise"
+    },
+    {
+     "key": "story_eden_rise.py:L333.0",
+     "alt": "Das verpasste Vorhaben geht nicht verloren, braucht später aber Hilfe oder einen anderen Zugang.",
+     "neu": "The missed plan isn't lost, but later it needs help or another way in."
+    },
+    {
+     "key": "story_eden_rise.py:L336.0",
+     "alt": "Zweites der drei Vorhaben.",
+     "neu": "The second of the three plans."
+    },
+    {
+     "key": "story_eden_rise.py:L337.0",
+     "alt": "Lolas erstes Essen in der Bucht",
+     "neu": "Lola's First Meal in the Bay"
+    },
+    {
+     "key": "story_eden_rise.py:L339.0",
+     "alt": "Lola kocht zum ersten Mal mit dem, was das Dorf hergibt – und es ist das Beste seit Tagen. Kerzen wegen des Stroms, Blick auf die Bucht. Jemand lacht zum ersten Mal seit der Stille. Wer hier öffentlich sagt \"Wir wissen es noch nicht\", setzt oeffentlich_noch_offen.",
+     "neu": "For the first time Lola cooks with what the village has to offer - and it's the best meal in days. Candles because of the power, a view of the bay. Someone laughs for the first time since the silence. Whoever says publicly here \"We don't know yet\" sets oeffentlich_noch_offen."
+    },
+    {
+     "key": "story_eden_rise.py:L342.0",
+     "alt": "Ein geschützter Raum",
+     "neu": "A Safe Room"
+    },
+    {
+     "key": "story_eden_rise.py:L343.0",
+     "alt": "Eine vertraute Person sitzt mit Duc in einem geschützten Raum. Sexuelle Eskalation ist erwünscht (Lola bekifft: sehr horny und versaut). Endet bei Gespräch, Berührung, Kuss oder gemeinsamem Einschlafen; die Figur entscheidet mit; ein Nein lässt die Beziehung bestehen. Dialogkern: \"Morgen fragst du mich wieder nach dieser Nacht.\" – Ja / Nur wenn du reden willst / ausweichen. Lolas Einladung (Nebenbogen) darf diesen Platz füllen.",
+     "neu": "A person Duc trusts sits with him in a safe room. Sexual escalation is welcome (Lola stoned: very horny and filthy). It ends with conversation, touch, a kiss or falling asleep together; the character decides too; a no leaves the relationship intact. Dialogue core: \"Tomorrow you'll ask me about that night again.\" - Yes / Only if you want to talk / evade. Lola's invitation (side arc) may fill this slot."
+    },
+    {
+     "key": "story_eden_rise.py:L348.0",
+     "alt": "Nur wenn du reden willst.",
+     "neu": "Only if you want to talk."
+    },
+    {
+     "key": "story_eden_rise.py:L350.0",
+     "alt": "Eine konkrete Nachricht bestätigt oder widerlegt ein Alibi (fall.nachtende). Weiß Duc das schon, kommt stattdessen – wenn die Bedingungen stimmen – die Einladung zu einem freiwilligen Geständnis. Keine redundante Überraschung.",
+     "neu": "A concrete message confirms or refutes an alibi (fall.nachtende). If Duc already knows, then - if the conditions are right - the invitation to a voluntary confession comes instead. No redundant surprise."
+    },
+    {
+     "key": "story_eden_rise.py:L355.0",
+     "alt": "Das Whiteboard \"Rosi vs. Officer\" im Antriebsraum: Notstrom und Antriebsraum sichern, der erste Schritt der Reparatur in Akt 1. Ein Schritt gelingt oder scheitert aufgrund der bisherigen Arbeit (Material aus dem Dorf hilft). Die Verantwortliche kann entscheidend beitragen, ohne dadurch rückwirkend unschuldig zu werden.",
+     "neu": "The whiteboard \"Rosi vs. Officer\" in the propulsion room: securing emergency power and the propulsion room, the first step of the repair in Act 1. A step succeeds or fails based on the work so far (material from the village helps). The person responsible can contribute decisively without becoming retroactively innocent."
+    },
+    {
+     "key": "story_eden_rise.py:L359.0",
+     "alt": "Morgen komme ich",
+     "neu": "I'm Coming Tomorrow"
+    },
+    {
+     "key": "story_eden_rise.py:L360.0",
+     "alt": "Megan ruft an, ruhiger als am ersten Tag und deshalb unheimlicher: Morgen kommt sie selbst an Bord und bleibt bis zur Anhörung. Sie will das Schiff sehen, nicht Berichte lesen.",
+     "neu": "Megan calls, calmer than on the first day and therefore scarier: tomorrow she'll come aboard herself and stay until the hearing. She wants to see the ship, not read reports."
+    },
+    {
+     "key": "story_eden_rise.py:L364.0",
+     "alt": "Besuch aus der Zentrale",
+     "neu": "A Visit from Head Office"
+    },
+    {
+     "key": "story_eden_rise.py:L365.0",
+     "alt": "Am Ende des Frühstücks setzt die Hauptstory megan_besuch. Die Landung selbst spielt das Event g1_helikopter (Tag-Phase, Pflicht).",
+     "neu": "At the end of breakfast the main story sets megan_besuch. The landing itself is played by the event g1_helikopter (day phase, mandatory)."
+    },
+    {
+     "key": "story_eden_rise.py:L370.0",
+     "alt": "Megan geht das Schiff ab. Sie hat Nautik und Schiffbau studiert und sieht am Schadensbild, dass Überlast allein nicht reicht – sie sagt es nicht. Duc entscheidet, ob er ihr alles zeigt, auch was gegen die Crew spricht (zweite_wahrheit.megan_haltung).",
+     "neu": "Megan walks the ship. She studied navigation and naval architecture and can see from the damage that overload alone isn't enough - she doesn't say so. Duc decides whether he shows her everything, including what speaks against the crew (zweite_wahrheit.megan_haltung)."
+    },
+    {
+     "key": "story_eden_rise.py:L373.0",
+     "alt": "Etwas zurückhalten",
+     "neu": "Hold something back"
+    },
+    {
+     "key": "story_eden_rise.py:L375.0",
+     "alt": "Bevor der Sturm kommt",
+     "neu": "Before the Storm"
+    },
+    {
+     "key": "story_eden_rise.py:L376.0",
+     "alt": "Am Abend kommt ein Sturm. Klare Arbeitsteilung: Leinen und Anker, Strom sparen, Kombüse sichern, Tender sichern, das Provisorium prüfen. Duc kann nicht jede Person begleiten; die Ausgesandten erledigen nachvollziehbare Aufgaben und berichten mit ihrem tatsächlichen Wissen. Megan sieht zu und schreibt mit.",
+     "neu": "In the evening a storm comes. Clear division of work: lines and anchor, saving power, securing the galley, securing the tender, checking the makeshift fix. Duc can't go with every person; those he sends out do traceable tasks and report with what they actually know. Megan watches and takes notes."
+    },
+    {
+     "key": "story_eden_rise.py:L382.0",
+     "alt": "Vorbote: Duc hört Megan an Deck leise telefonieren, sie sagt zweimal \"A.V.\" und etwas vom \"Käufer aus Monaco\". Sie bemerkt ihn, legt auf, wird wieder Chefin. Nicht erklären, wer A.V. ist; Megan weiß selbst nicht, wofür sie arbeitet.",
+     "neu": "Foreshadowing: Duc hears Megan quietly on the phone on deck; she says \"A.V.\" twice and something about \"the buyer from Monaco\". She notices him, hangs up and becomes the boss again. Don't explain who A.V. is; Megan herself doesn't know what she is working for."
+    },
+    {
+     "key": "story_eden_rise.py:L386.0",
+     "alt": "Was man im Dunkeln hört",
+     "neu": "What You Hear in the Dark"
+    },
+    {
+     "key": "story_eden_rise.py:L387.0",
+     "alt": "Sturm: Strom fällt hart. Ein ungeprüftes Provisorium versagt (Folge, kein Strafwurf); ein vorbereiteter Ablauf verhindert es und wird als Zusammenarbeit gespielt. Megan erlebt die Crew zum ersten Mal bei der Arbeit.",
+     "neu": "Storm: the power drops hard. An unchecked makeshift fix fails (a consequence, not a punishment roll); a prepared procedure prevents it and is played as teamwork. Megan sees the crew at work for the first time."
+    },
+    {
+     "key": "story_eden_rise.py:L391.0",
+     "alt": "Lagerfeuer am Strand",
+     "neu": "Bonfire on the Beach"
+    },
+    {
+     "key": "story_eden_rise.py:L393.0",
+     "alt": "Pflicht-Atempause nach dem Sturm: Feuer am kleinen Strand neben der Yacht, Lola grillt, Maxwell erzählt eine Geschichte in der dritten Person, Totò nimmt Wetten an, wer zuerst einschläft. Morgen ist die Anhörung – heute redet niemand darüber, bis jemand es doch tut.",
+     "neu": "Mandatory breather after the storm: a fire on the little beach next to the yacht, Lola grills, Maxwell tells a story in the third person, Totò takes bets on who falls asleep first. The hearing is tomorrow - tonight nobody talks about it, until someone does."
+    },
+    {
+     "key": "story_eden_rise.py:L396.0",
+     "alt": "Ein Abend, den du wählst",
+     "neu": "An Evening of Your Choosing"
+    },
+    {
+     "key": "story_eden_rise.py:L397.0",
+     "alt": "Ein bewusst gewählter gemeinsamer Abend vor der Anhörung. Eine Liebesszene ist möglich, kein Pflichthöhepunkt und keine Belohnung für Vertuschung. Die entscheidende Aussage kann danach oder in einer gleichwertigen Freundschaftsszene fallen: ein Versprechen, das die Person selbst erfüllen will.",
+     "neu": "A shared evening, deliberately chosen, before the hearing. A love scene is possible, not a mandatory climax and no reward for a cover-up. The decisive statement can come afterwards or in an equivalent friendship scene: a promise the person wants to keep themselves."
+    },
+    {
+     "key": "story_eden_rise.py:L401.0",
+     "alt": "Die Anhörung",
+     "neu": "The Hearing"
+    },
+    {
+     "key": "story_eden_rise.py:L403.0",
+     "alt": "Megan urteilt im Salon. Ablauf: Anklage -> zwei Zeugen -> Einspruch mit Beweis -> Wahrheit -> Ducs eigene Rolle -> Plädoyer -> Urteil (story anhoerung, kern/anhoerung.py). Die Anhörung findet immer statt, auch mit leeren Händen. Hier: Anklage, Zeugen, Einsprüche.",
+     "neu": "Megan judges in the salon. Sequence: accusation -> two witnesses -> objection with evidence -> truth -> Duc's own role -> plea -> verdict (story anhoerung, kern/anhoerung.py). The hearing always takes place, even empty-handed. Here: accusation, witnesses, objections."
+    },
+    {
+     "key": "story_eden_rise.py:L408.0",
+     "alt": "Ducs eigene Rolle in der Nacht: ehrlich oder verschwiegen (zählt fürs Erbarmen).",
+     "neu": "Duc's own role in the night: honest or kept quiet (counts towards mercy)."
+    },
+    {
+     "key": "story_eden_rise.py:L411.0",
+     "alt": "Plädoyer (Gnade erbitten / Schuld teilen / Strafe fordern) und Urteil. Megan zögert beim Maschinenbericht: \"Ein PX-480 brennt nicht einfach so.\" Ihr Bauchgefühl macht Erbarmen möglich, wenn der Code es zulässt.",
+     "neu": "Plea (ask for mercy / share the blame / demand punishment) and verdict. Megan hesitates over the engine report: \"A PX-480 doesn't just burn.\" Her gut feeling makes mercy possible if the code allows it."
+    },
+    {
+     "key": "story_eden_rise.py:L414.0",
+     "alt": "Nach dem Urteil",
+     "neu": "After the Verdict"
+    },
+    {
+     "key": "story_eden_rise.py:L415.0",
+     "alt": "Die Crew nach dem Urteil. Megan fliegt ab; ab jetzt wieder nur Telefon. Wer zu Unrecht verdächtigt war, wartet auf ein Wort von Duc. Das Ergebnis der Anhörung färbt den Raum, erklärt aber nichts neu.",
+     "neu": "The crew after the verdict. Megan flies out; from now on only by phone again. Whoever was wrongly suspected is waiting for a word from Duc. The outcome of the hearing colours the room but explains nothing new."
+    },
+    {
+     "key": "story_eden_rise.py:L419.0",
+     "alt": "Rotes Licht in den Bergen",
+     "neu": "Red Light in the Mountains"
+    },
+    {
+     "key": "story_eden_rise.py:L420.0",
+     "alt": "Nacht, alles schläft. Hoch in den Bergen über der Bucht blinkt ein rotes Licht, im Takt wie das hinter dem Umrichter. Dann ein Heulen aus der Macchia, kein Hund. Schwarzbild: Ende von Akt 1. Nicht erklären.",
+     "neu": "Night, everyone is asleep. High in the mountains above the bay a red light is blinking, in the same rhythm as the one behind the inverter. Then a howl from the macchia, not a dog. Black screen: end of Act 1. Don't explain."
+    },
+    {
+     "key": "story_eden_rise.py:L428.0",
+     "alt": "Holm ist am Partytag (Tag 1) und am Morgen danach an Bord (Kommando) und wird am Ende des Frühstücks von Tag 2 evakuiert. Ihr Wissen je Fall steht in fall.holm_tag1; danach erreichbar per Telefon aus dem Krankenhaus.",
+     "neu": "Holm is on board on the party day (day 1) and the morning after (in command) and is evacuated at the end of breakfast on day 2. What she knows in each case is in fall.holm_tag1; after that she can be reached by phone from the hospital."
+    },
+    {
+     "key": "story_eden_rise.py:L431.0",
+     "alt": "Telefon und Videokonferenz",
+     "neu": "Phone and video conference"
+    },
+    {
+     "key": "story_eden_rise.py:L434.0",
+     "alt": "Genau einmal per Hubschrauber; sie bleibt bis zur Anhörung (Richterin) und fliegt nach dem Urteil. Die Hauptstory setzt das Flag, kein Event setzt es selbst.",
+     "neu": "Exactly once, by helicopter; she stays until the hearing (as judge) and flies out after the verdict. The main story sets the flag, no event sets it itself."
+    },
+    {
+     "key": "story_eden_rise.py:L440.0",
+     "alt": "Die persönlichen Geschichten von Lola und Alva nehmen keiner Hauptszene den Platz und kosten keine Phase (Zwischenspiel nach der Phase).",
+     "neu": "Lola's and Alva's personal stories take no main scene's place and cost no phase (an interlude after the phase)."
+    },
+    {
+     "key": "story_eden_rise.py:L442.0",
+     "alt": "Einladung oder Anruf übers Telefon.",
+     "neu": "Invitation or call by phone."
+    },
+    {
+     "key": "story_eden_rise.py:L443.0",
+     "alt": "Wie in BG3: \"Gerade keine Zeit\" verschiebt die Szene; die Einladung kommt am nächsten passenden Abend wieder. Kein Vertrauensverlust fürs Verschieben.",
+     "neu": "As in BG3: \"Not right now\" postpones the scene; the invitation comes back on the next suitable evening. No loss of trust for postponing."
+    },
+    {
+     "key": "story_eden_rise.py:L446.0",
+     "alt": "Lolas Tratsch (an Bord) und Alvas Tratsch (an Land) zeigen nur, wo man nachsehen sollte – nie allein Beweis.",
+     "neu": "Lola's gossip (on board) and Alva's gossip (ashore) only show where to look - never evidence on their own."
+    },
+    {
+     "key": "story_eden_rise.py:L449.0",
+     "alt": "an Bord: Kombüse, Moral, Bordtratsch",
+     "neu": "on board: galley, morale, ship's gossip"
+    },
+    {
+     "key": "story_eden_rise.py:L451.0",
+     "alt": "an Land: Bar, Lieferwege, Dorftratsch; alle Land-Rollen des Dossiers",
+     "neu": "ashore: bar, supply routes, village gossip; all shore roles from the dossier"
+    },
+    {
+     "key": "story_eden_rise.py:L459.0",
+     "alt": "Nur Raten kostet eine Ader (Beweis, der zu nichts passt; Anklage ohne Beleg). Jeder logisch passende Beweis zählt, egal auf welchem Weg Duc ihn fand.",
+     "neu": "Only guessing costs a vein (evidence that fits nothing; an accusation without proof). Any logically fitting evidence counts, no matter how Duc found it."
+    },
+    {
+     "key": "story_eden_rise.py:L461.0",
+     "alt": "Vorher erspielt (Vertrauen, Aussagen). Zeugen haben eigene Loyalität und können lügen, um jemanden zu schützen; ein Einspruch mit Beweis entlarvt die Lüge.",
+     "neu": "Earned beforehand (trust, statements). Witnesses have their own loyalties and can lie to protect someone; an objection with evidence exposes the lie."
+    },
+    {
+     "key": "story_eden_rise.py:L464.0",
+     "alt": "Duc ehrlich über die eigene Rolle",
+     "neu": "Duc honest about his own role"
+    },
+    {
+     "key": "story_eden_rise.py:L467.0",
+     "alt": "Zu Unrecht Verdächtigte bekommen nach dem Urteil eine Entschuldigung angeboten.",
+     "neu": "People who were wrongly suspected are offered an apology after the verdict."
+    },
+    {
+     "key": "story_eden_rise.py:L468.0",
+     "alt": "Die Anhörung findet immer statt, auch mit leeren Händen; dann urteilt Megan selbst (Kündigung als Roguelike-Folge, kein Game Over).",
+     "neu": "The hearing always takes place, even empty-handed; then Megan judges on her own (dismissal as a roguelike consequence, not game over)."
+    },
+    {
+     "key": "story_eden_rise.py:L470.0",
+     "alt": "Megan zögert beim Maschinenbericht: \"Ein PX-480 brennt nicht einfach so.\" (Bauchgefühl -> Erbarmen)",
+     "neu": "Megan hesitates over the engine report: \"A PX-480 doesn't just burn.\" (gut feeling -> mercy)"
+    },
+    {
+     "key": "story_eden_rise.py:L477.0",
+     "alt": "Kein Gesamtende: Akt 1 schließt mit dem Urteil, dem Zustand der Crew und dem Cliffhanger. Frauen-Abschlüsse, Bucht-Enden und Epiloge kommen erst am Ende von Akt 3.",
+     "neu": "No overall ending: Act 1 closes with the verdict, the state of the crew and the cliffhanger. Endings for the women, the bay and the epilogues only come at the end of Act 3."
+    },
+    {
+     "key": "story_eden_rise.py:L482.0",
+     "alt": "Vor dem Auftakt gleichverteilt aus 1-6, intern als Zahl gespeichert, nie im Klartext in Logs oder Ausgaben. Keine nachträgliche Wahl. Spielerhandlungen ändern, was Duc mitbekommt, nicht die Ursache.",
+     "neu": "Drawn evenly from 1-6 before the opening, stored internally as a number, never in plain text in logs or output. No choosing afterwards. Player actions change what Duc finds out, not the cause."
+    },
+    {
+     "key": "story_eden_rise.py:L484.0",
+     "alt": "Die Auslöser liegen außerhalb von Ducs Handlungsmöglichkeiten (keine Auftakt-Option verhindert eine Tat).",
+     "neu": "The triggers lie outside Duc's options (no opening option prevents a deed)."
+    },
+    {
+     "key": "story_eden_rise.py:L486.0",
+     "alt": "Jeder wichtige Fakt hat Inhalt, Zeit, Quelle, Zuverlässigkeit, Wissende und Übermittlung. Innerer Monolog ist nie Wissen einer anderen Figur.",
+     "neu": "Every important fact has content, time, source, reliability, who knows it and how it was passed on. Inner monologue is never another character's knowledge."
+    },
+    {
+     "key": "story_eden_rise.py:L488.0",
+     "alt": "Die verdeckte Entdeckungsangst steigt nur, wenn die Person von der Ermittlung erfährt (Wege mit auffaellig=true, Gespräche, Gerüchte). Heimliche Suche ändert nichts.",
+     "neu": "The hidden fear of discovery only rises when the person learns about the investigation (ways with auffaellig=true, conversations, rumours). Searching in secret changes nothing."
+    },
+    {
+     "key": "story_eden_rise.py:L490.0",
+     "alt": "Höchstens eine pro Tag. Jede hinterlässt eine Spur und hat einen Umweg. Kein vollständiger Beweisverlust ohne Ersatzweg.",
+     "neu": "At most one per day. Each leaves a trace and has a way around it. No complete loss of evidence without an alternative way."
+    },
+    {
+     "key": "story_eden_rise.py:L492.0",
+     "alt": "Konfrontation nur mit belegter Kette (je Glied ein Beweissatz). Öffentliche Anschuldigungen sind möglich, werden aber nie als Wahrheit markiert, solange sie unbewiesen sind. Eine öffentliche falsche Anschuldigung braucht eine öffentliche Korrektur.",
+     "neu": "Confrontation only with a proven chain (one piece of evidence per link). Public accusations are possible but never marked as the truth while unproven. A public false accusation needs a public correction."
+    },
+    {
+     "key": "story_eden_rise.py:L495.0",
+     "alt": "Kurze, sachliche Einträge, getrennt nach Protokoll, Aussage und \"Deine Vermutung\". Die Figurenliste verrät durch Sortierung oder fehlende Optionen nichts (alle Verdächtigen haben dieselben Optionen).",
+     "neu": "Short, factual entries, split into log, statement and \"Your suspicion\". The character list gives nothing away through sorting or missing options (all suspects have the same options)."
+    },
+    {
+     "key": "story_eden_rise.py:L497.0",
+     "alt": "Keine zentrale Spur exklusiv hinter Sex. Geschenk oder Sexszene heilen keinen Vertrauensbruch. Eine Liebesszene ist keine Belohnung für Vertuschung. Erotische Privatheit wird nur über einen etablierten Zeugen oder eine freiwillige Mitteilung zum Gerücht.",
+     "neu": "No central clue exclusively behind sex. A gift or a sex scene heals no breach of trust. A love scene is no reward for a cover-up. Erotic privacy only becomes a rumour through an established witness or a voluntary disclosure."
+    },
+    {
+     "key": "story_eden_rise.py:L500.0",
+     "alt": "Das Modell gestaltet Dialog und Atmosphäre innerhalb der Fakten. Es erfindet keine Tat, kein exklusives Beweisstück, keine geheime Überwachung und keine nachträgliche Täterwahl. Figuren wissen nur, was in wissende/uebermittlung steht. Neue Behauptungen sind Behauptungen und werden an den Fakten geprüft.",
+     "neu": "The model shapes dialogue and atmosphere within the facts. It invents no deed, no exclusive piece of evidence, no secret surveillance and no choosing the culprit afterwards. Characters only know what is in wissende/uebermittlung. New claims are claims and are checked against the facts."
+    },
+    {
+     "key": "story_eden_rise.py:L504.0",
+     "alt": "Funk, Seenotbake, Ankerlicht und Bilgepumpen sind nie Teil eines Tauschs.",
+     "neu": "Radio, emergency beacon, anchor light and bilge pumps are never part of a trade."
+    },
+    {
+     "key": "story_eden_rise.py:L505.0",
+     "alt": "Fälle heißen nur Fall 1-6; Fakt-IDs sind neutral; Prüf- und Bauausgaben nennen nur Zahlen.",
+     "neu": "Cases are only called case 1-6; fact IDs are neutral; check and build output only names numbers."
+    },
+    {
+     "key": "story_eden_rise.py:L549.0",
+     "alt": "Einladung zum freiwilligen Geständnis, falls fall.gestaendnis.freiwillig greift",
+     "neu": "Invitation to a voluntary confession, if fall.gestaendnis.freiwillig applies"
+    },
+    {
+     "key": "story_eden_rise.py:L559.0",
+     "alt": "VERTRAULICH – enthält die Auflösung. Gebaut aus werkzeuge\\eden_rise\\story_*.py; dort ändern, dann story_eden_rise.py und story_pruefen.py laufen lassen. Nie von Hand ändern.",
+     "neu": "CONFIDENTIAL - contains the solution. Built from werkzeuge\\eden_rise\\story_*.py; change it there, then run story_eden_rise.py and story_pruefen.py. Never edit by hand."
+    },
+    {
+     "key": "story_eden_rise.py:L564.0",
+     "alt": "T<tag> HH:MM (T1 = Partytag, die Partynacht nach Mitternacht ist T2)",
+     "neu": "T<day> HH:MM (T1 = party day, the party night after midnight is T2)"
+    },
+    {
+     "key": "story_eden_rise.py:L584.0",
+     "alt": "story.json geschrieben: %d Fälle, %d Fakten (je Fall %s), %d Wege, %d Szenen im Wochenbogen, %d Fakten zweite Wahrheit",
+     "neu": "story.json written: %d cases, %d facts (per case %s), %d ways, %d scenes in the week arc, %d facts of the second truth"
+    },
+    {
+     "key": "extra.0",
+     "alt": "Protokoll ",
+     "neu": "Log "
+    }
+   ]
+  }
+ ]
+}

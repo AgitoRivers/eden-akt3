@@ -1,0 +1,70 @@
+{
+ "id": "granaten_klang",
+ "titel": "Granaten-Klänge",
+ "hinweis": "Je Granate einen Favoriten wählen (bis zu zwei, dann wechselt das Spiel ab). Lange Aufnahmen werden danach auf 2–3 Sekunden mit Ausblende geschnitten und auf die Lautheit der übrigen Kampfklänge angeglichen. Pixabay: Pixabay Content License. Labor = schon freigegebener Klang der Spezialangriffe.",
+ "gruppen": [
+  {"id": "wurf", "titel": "Wurf (Splint + Wurf)", "farbe": "#c9c2b4", "max": 2,
+   "soll": "Läuft beim Ausholen, bevor die Granate fliegt.",
+   "kandidaten": [
+    {"titel": "Splint + Wurf A", "unter": "ElevenLabs · 1,6 s", "datei": "granaten_klang/granate_splint_1.mp3"},
+    {"titel": "Splint + Wurf B", "unter": "ElevenLabs · 1,6 s", "datei": "granaten_klang/granate_splint_2.mp3"},
+    {"titel": "Splint kurz A", "unter": "ElevenLabs · 1,0 s", "datei": "granaten_klang/granate_splint_kurz_1.mp3"},
+    {"titel": "Splint kurz B", "unter": "ElevenLabs · 1,0 s", "datei": "granaten_klang/granate_splint_kurz_2.mp3"}]},
+  {"id": "feuer", "titel": "Feuer", "farbe": "#ff7a2a", "max": 2,
+   "soll": "Feuerball mit Rauch, danach brennt der Gegner.",
+   "kandidaten": [
+    {"titel": "HQ Explosion", "unter": "Pixabay · 3 s", "cdn": "2021/08/04/audio_187390c215.mp3", "seite": "film-special-effects-hq-explosion-6288"},
+    {"titel": "Grenade Explosion 14", "unter": "Pixabay · 2 s · David Dumais", "cdn": "2024/02/08/audio_652e1f32d3.mp3", "seite": "film-special-effects-grenade-explosion-14-190266"},
+    {"titel": "Explosion", "unter": "Pixabay · 3 s", "cdn": "2021/08/04/audio_fadfc77b9e.mp3", "seite": "film-special-effects-explosion-6055"},
+    {"titel": "Deep Explosion", "unter": "Pixabay · 3 s", "cdn": "2022/03/24/audio_2a26602205.mp3", "seite": "film-special-effects-deep-explosion-104259"},
+    {"titel": "Vulcano-Finale", "unter": "Labor", "datei": "../effekt-auswahl/status-labor/assets/audio-feedback-20261026/vulcano_final_explosion.ogg"}]},
+  {"id": "wasser", "titel": "Wasser", "farbe": "#3fa7ff", "max": 2,
+   "soll": "Wasserfontäne aus dem Boden, der Gegner wird nass.",
+   "kandidaten": [
+    {"titel": "Large Underwater Explosion", "unter": "Pixabay · 3 s", "cdn": "2025/10/21/audio_917d7ec41c.mp3", "seite": "film-special-effects-large-underwater-explosion-423651"},
+    {"titel": "Underwater Explosion (kurz)", "unter": "Pixabay · 2 s", "cdn": "2025/12/23/audio_30175a139c.mp3", "seite": "sfx-an-underwater-explosion-sound-effect-455785"},
+    {"titel": "Underwater Explosion", "unter": "Pixabay · 8 s", "cdn": "2025/08/07/audio_3e49146fc1.mp3", "seite": "film-special-effects-underwater-explosion-386175"},
+    {"titel": "Large Underwater Explosion 2", "unter": "Pixabay · 7 s", "cdn": "2024/02/08/audio_b7f03fb030.mp3", "seite": "film-special-effects-large-underwater-explosion-190270"},
+    {"titel": "Wasserstrahl", "unter": "Labor", "datei": "../effekt-auswahl/status-labor/assets/attack-sound-v1/water_jet.ogg"}]},
+  {"id": "schock", "titel": "Schock", "farbe": "#ffe14a", "max": 2,
+   "soll": "Blitzbögen, Strom auf dem Gegner.",
+   "kandidaten": [
+    {"titel": "Electro Impact", "unter": "Pixabay · 2 s", "cdn": "2026/05/19/audio_e6de29be06.mp3", "seite": "film-special-effects-electro-impact-528398"},
+    {"titel": "Electricity Stinger 1", "unter": "Pixabay · 3 s", "cdn": "2024/07/30/audio_f717577007.mp3", "seite": "film-special-effects-cinematic-electricity-explosive-stinger-energy-burst-1-228344"},
+    {"titel": "Electric Cave Impact", "unter": "Pixabay · 5 s", "cdn": "2025/09/29/audio_6913a2ca12.mp3", "seite": "film-special-effects-electric-profound-cave-impact-412485"},
+    {"titel": "Electric Nether Impact", "unter": "Pixabay · 5 s", "cdn": "2025/09/20/audio_70140db418.mp3", "seite": "film-special-effects-grand-electric-nether-impact-407654"},
+    {"titel": "Electricity Stinger 2", "unter": "Pixabay · 4 s · schon im Spiel als „energie“", "cdn": "2024/07/30/audio_5c095edf22.mp3", "seite": "film-special-effects-cinematic-electricity-explosive-stinger-energy-burst-2-228345"}]},
+  {"id": "flash", "titel": "Flash – Knall", "farbe": "#ffffff", "max": 1,
+   "soll": "Weißblende, der Gegner ist geblendet. Die ersten beiden haben das Pfeifen schon eingebaut.",
+   "kandidaten": [
+    {"titel": "Flashbang", "unter": "Pixabay · 15 s · mit Pfeifen", "cdn": "2022/03/15/audio_5e74e9b10c.mp3", "seite": "film-special-effects-flashbang-78581"},
+    {"titel": "Flashbang 2", "unter": "Pixabay · 8 s · mit Pfeifen", "cdn": "2025/12/18/audio_5820a44a5f.mp3", "seite": "flashbang-453579"},
+    {"titel": "Stun Grenade", "unter": "Pixabay · 13 s", "cdn": "2025/12/29/audio_218ee3ea5b.mp3", "seite": "stun-grenade-flashbang-458535"},
+    {"titel": "Stun Grenade 2", "unter": "Pixabay · 13 s", "cdn": "2026/05/30/audio_89f760f671.mp3", "seite": "film-special-effects-stun-grenade-flashbang-543949"},
+    {"titel": "Lichtblitz", "unter": "Labor", "datei": "../effekt-auswahl/status-labor/assets/attack-sound-v1/light_flash.ogg"}]},
+  {"id": "pfeifen", "titel": "Flash – Pfeifen", "farbe": "#e8f0ff", "max": 1, "optional": true, "zusammen": "flash",
+   "soll": "Leise unter der Ausblende. Nur nötig, wenn dein Flash-Knall kein Pfeifen hat. „Mit Knall“ spielt beides zusammen.",
+   "kandidaten": [
+    {"titel": "Tinnitus", "unter": "Pixabay · 10 s", "cdn": "2021/08/09/audio_a6533a4d4e.mp3", "seite": "film-special-effects-tinnitus-7048"},
+    {"titel": "High Pitched Ringing", "unter": "Pixabay · 7 s", "cdn": "2022/03/15/audio_e66e87b927.mp3", "seite": "film-special-effects-high-pitched-ringing-88473"},
+    {"titel": "Ear Ringing, lange Ausblende", "unter": "Pixabay · 12 s", "cdn": "2022/03/10/audio_0de5741de1.mp3", "seite": "film-special-effects-052165-ear-ringing-long-extended-falloff-46090"},
+    {"titel": "Ear Ring", "unter": "Pixabay · 10 s", "cdn": "2022/03/24/audio_47fdf9746a.mp3", "seite": "film-special-effects-ear-ring-104945"}]},
+  {"id": "erschuetterung", "titel": "Erschütterung", "farbe": "#c8b89a", "max": 2,
+   "soll": "Druckwelle und Staub, stärkstes Wackeln.",
+   "kandidaten": [
+    {"titel": "Blast", "unter": "Pixabay · 2 s", "cdn": "2022/03/10/audio_f7009a6f8e.mp3", "seite": "film-special-effects-blast-37988"},
+    {"titel": "Blast Vibration", "unter": "Pixabay · 10 s", "cdn": "2023/03/04/audio_e26303b42d.mp3", "seite": "film-special-effects-blast-vibration-141530"},
+    {"titel": "Explosion (dumpf)", "unter": "Pixabay · 3 s", "cdn": "2021/08/04/audio_4a73b07cbb.mp3", "seite": "film-special-effects-explosion-5981"},
+    {"titel": "WW2 Bomb Blast", "unter": "Pixabay · 9 s", "cdn": "2023/08/30/audio_6f7070f540.mp3", "seite": "film-special-effects-sound-effect-ww2-uk-bomb-blast-164351"},
+    {"titel": "Druckkörper", "unter": "Labor", "datei": "../effekt-auswahl/status-labor/assets/attack-sound-v1/pressure_body.ogg"}]},
+  {"id": "splitter", "titel": "Splitter", "farbe": "#ff4a4a", "max": 2,
+   "soll": "Knall plus Metallsplitter. Zwei Häkchen = Knall und Splitter-Prasseln werden übereinandergelegt.",
+   "kandidaten": [
+    {"titel": "Grenade", "unter": "Pixabay · 1 s", "cdn": "2022/03/10/audio_ca2325b43c.mp3", "seite": "film-special-effects-grenade-37637"},
+    {"titel": "Explosion", "unter": "Pixabay · 5 s", "cdn": "2025/01/20/audio_d1354a9228.mp3", "seite": "film-special-effects-explosion-289984"},
+    {"titel": "Debris on Metal", "unter": "Pixabay · 4 s", "cdn": "2024/12/19/audio_245757a313.mp3", "seite": "film-special-effects-debris-on-metal-hq-275769"},
+    {"titel": "Iron Smash with Debris", "unter": "Pixabay · 5 s", "cdn": "2025/05/30/audio_8865fd3bde.mp3", "seite": "film-special-effects-iron-smash-with-debris-351841"},
+    {"titel": "Shattered Metallic Fragments", "unter": "Pixabay · 6 s", "cdn": "2024/10/15/audio_d412e669b7.mp3", "seite": "film-special-effects-sfx-shattered-metallic-fragments-reversed-metallic-sound-effects-251122"},
+    {"titel": "Trümmer", "unter": "Labor", "datei": "../effekt-auswahl/status-labor/assets/attack-sound-v1/debris.ogg"}]}
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "brennend": {
+  "notiz": "",
+  "wahl": "neu"
+ },
+ "nass": {
+  "wahl": "neu",
+  "notiz": ""
+ },
+ "erschuettert": {
+  "wahl": "neu"
+ },
+ "blutend": {
+  "wahl": "neu",
+  "notiz": ""
+ },
+ "strom": {
+  "wahl": "neu"
+ },
+ "geblendet": {
+  "notiz": "Pfeifen auf 1 s gekürzt, abgenommen (Duc 28.10.)",
+  "wahl": "neu"
+ },
+ "_stand": "2026-10-28 15:09:03"
+}

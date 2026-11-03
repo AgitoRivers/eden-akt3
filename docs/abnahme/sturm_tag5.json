@@ -1,0 +1,71 @@
+{
+ "id": "sturm_tag5",
+ "titel": "Sturm Tag 5 – Achterdeck",
+ "hinweis": "Je Motiv eine Variante auf OK, Rest NEU. Perspektive wie aft_deck_night, keine Personen.",
+ "items": [
+  {
+   "id": "yacht_aft_deck_storm_night_v1",
+   "titel": "yacht_aft_deck_storm_night – Variante 1",
+   "soll": "Nacht, Sturm vor Anker in der Bucht: Kueste im Blitz, Regen, Stuehle festgezurrt, Polster weg, nur Notlicht rot/orange + Taschenlampe, Hauptlicht aus",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\yacht_aft_deck_storm_night_v1.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\yacht_aft_deck_night.png",
+   "vergleich_titel": "Perspektive (aft_deck_night)"
+  },
+  {
+   "id": "yacht_aft_deck_storm_night_v2",
+   "titel": "yacht_aft_deck_storm_night – Variante 2",
+   "soll": "Nacht, Sturm vor Anker in der Bucht: Kueste im Blitz, Regen, Stuehle festgezurrt, Polster weg, nur Notlicht rot/orange + Taschenlampe, Hauptlicht aus",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\yacht_aft_deck_storm_night_v2.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\yacht_aft_deck_night.png",
+   "vergleich_titel": "Perspektive (aft_deck_night)"
+  },
+  {
+   "id": "yacht_aft_deck_storm_night_v3",
+   "titel": "yacht_aft_deck_storm_night – Variante 3",
+   "soll": "Nacht, Sturm vor Anker in der Bucht: Kueste im Blitz, Regen, Stuehle festgezurrt, Polster weg, nur Notlicht rot/orange + Taschenlampe, Hauptlicht aus",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\yacht_aft_deck_storm_night_v3.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\yacht_aft_deck_night.png",
+   "vergleich_titel": "Perspektive (aft_deck_night)"
+  },
+  {
+   "id": "yacht_aft_deck_storm_night_v4",
+   "titel": "yacht_aft_deck_storm_night – Variante 4",
+   "soll": "Nacht, Sturm vor Anker in der Bucht: Kueste im Blitz, Regen, Stuehle festgezurrt, Polster weg, nur Notlicht rot/orange + Taschenlampe, Hauptlicht aus",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\yacht_aft_deck_storm_night_v4.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\yacht_aft_deck_night.png",
+   "vergleich_titel": "Perspektive (aft_deck_night)"
+  },
+  {
+   "id": "yacht_aft_deck_storm_coming_v1",
+   "titel": "yacht_aft_deck_storm_coming – Variante 1",
+   "soll": "18:00 Abenddaemmerung, Sturmfront zieht ueber der Bucht auf, Wind frischt auf, Leinen und Spanngurte liegen bereit, Licht noch an",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\yacht_aft_deck_storm_coming_v1.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\yacht_aft_deck_night.png",
+   "vergleich_titel": "Perspektive (aft_deck_night)"
+  },
+  {
+   "id": "yacht_aft_deck_storm_coming_v2",
+   "titel": "yacht_aft_deck_storm_coming – Variante 2",
+   "soll": "18:00 Abenddaemmerung, Sturmfront zieht ueber der Bucht auf, Wind frischt auf, Leinen und Spanngurte liegen bereit, Licht noch an",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\yacht_aft_deck_storm_coming_v2.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\yacht_aft_deck_night.png",
+   "vergleich_titel": "Perspektive (aft_deck_night)"
+  },
+  {
+   "id": "yacht_aft_deck_storm_coming_v3",
+   "titel": "yacht_aft_deck_storm_coming – Variante 3",
+   "soll": "18:00 Abenddaemmerung, Sturmfront zieht ueber der Bucht auf, Wind frischt auf, Leinen und Spanngurte liegen bereit, Licht noch an",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\yacht_aft_deck_storm_coming_v3.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\yacht_aft_deck_night.png",
+   "vergleich_titel": "Perspektive (aft_deck_night)"
+  },
+  {
+   "id": "yacht_aft_deck_storm_coming_v4",
+   "titel": "yacht_aft_deck_storm_coming – Variante 4",
+   "soll": "18:00 Abenddaemmerung, Sturmfront zieht ueber der Bucht auf, Wind frischt auf, Leinen und Spanngurte liegen bereit, Licht noch an",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\yacht_aft_deck_storm_coming_v4.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\yacht_aft_deck_night.png",
+   "vergleich_titel": "Perspektive (aft_deck_night)"
+  }
+ ]
+}

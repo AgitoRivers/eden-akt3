@@ -1,0 +1,39 @@
+{
+ "id": "bibi_tier_selfies_7",
+ "titel": "Bibis Tier-Selfies: Monsieur A mit passender Frisur",
+ "hinweis": "Frisur wie in Monsieur B (gewählt): ohne Pony, Mittelscheitel, kleiner Knoten oben.",
+ "items": [
+  {
+   "id": "monsieur_a_1",
+   "titel": "monsieur_a_1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_7\\monsieur_a_1.png",
+   "soll": "Makak auf der Schulter greift nach dem Handy, Frisur wie B",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\monsieur_b_2.png",
+   "vergleich_titel": "Monsieur B (gewählt)"
+  },
+  {
+   "id": "monsieur_a_2",
+   "titel": "monsieur_a_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_7\\monsieur_a_2.png",
+   "soll": "Makak auf der Schulter greift nach dem Handy, Frisur wie B",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\monsieur_b_2.png",
+   "vergleich_titel": "Monsieur B (gewählt)"
+  },
+  {
+   "id": "monsieur_a_3",
+   "titel": "monsieur_a_3",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_7\\monsieur_a_3.png",
+   "soll": "Makak auf der Schulter greift nach dem Handy, Frisur wie B",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\monsieur_b_2.png",
+   "vergleich_titel": "Monsieur B (gewählt)"
+  },
+  {
+   "id": "monsieur_a_4",
+   "titel": "monsieur_a_4",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_7\\monsieur_a_4.png",
+   "soll": "Makak auf der Schulter greift nach dem Handy, Frisur wie B",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_bibi_tier_selfies_6\\monsieur_b_2.png",
+   "vergleich_titel": "Monsieur B (gewählt)"
+  }
+ ]
+}

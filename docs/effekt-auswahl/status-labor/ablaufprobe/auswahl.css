@@ -1,0 +1,29 @@
+.choice-jump{display:inline-block;margin:6px 0 12px}#animationsauswahl{margin-top:42px;padding-top:24px;border-top:1px solid #49636d;scroll-margin-top:16px}#animationsauswahl h2{font:500 30px Georgia,serif;margin:0 0 10px}#animationsauswahl h3{margin:0;font-size:21px}.choice-heading{display:flex;justify-content:space-between;gap:16px;align-items:baseline}.choice-heading p{margin:0 0 16px}.choice-heading strong,.choice-result{white-space:nowrap;color:#a9ddc9;font-size:14px}.choice-tools{display:flex;gap:22px;align-items:center;flex-wrap:wrap}#choice-save{font-size:13px;min-height:22px}.choice-card{border:1px solid #35474e;background:#151e24;border-radius:12px;padding:20px;margin:20px 0}.choice-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:18px}.choice-option{display:flex;flex-direction:column;align-items:start;border:1px solid #3c505a;border-radius:9px;padding:15px}.choice-option.chosen{border-color:#9ad8b5;background:#1f3934;box-shadow:inset 0 0 0 1px #9ad8b5}.choice-option label{align-items:start;cursor:pointer;line-height:1.5}.choice-option input{margin-top:5px;accent-color:#a2dbbb}.choice-option p{font-size:13px;margin:12px 0 16px}.choice-option button{margin-top:auto}.choice-footer{display:flex;gap:18px;align-items:end;margin-top:16px}.choice-footer label{display:flex;flex-direction:column;align-items:stretch;gap:6px;flex:1;font-size:13px}.choice-footer textarea{resize:vertical;background:#0e161b;color:#dce3e5;border:1px solid #49636d;border-radius:7px;padding:10px;font:inherit;min-height:62px}.choice-footer button{font-size:13px}.choice-card[hidden]{display:none}:focus-visible{outline:2px solid #c9eddd;outline-offset:4px}@media(max-width:700px){.choice-options{grid-template-columns:1fr}.choice-heading{flex-wrap:wrap;gap:8px}.choice-footer{align-items:stretch;flex-direction:column}.choice-card{padding:14px}.choice-tools{gap:14px}}
+
+/* Keep the stage visible while the choices scroll independently. */
+@media(min-width:701px){
+ body{overflow:hidden}main{max-width:1920px;height:100dvh;padding:18px 20px}
+ .choice-workspace{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(280px,1fr);gap:24px;height:100%;min-height:0}
+ .choice-preview{min-width:0;overflow:auto;scrollbar-gutter:stable;padding-right:5px}
+ .choice-preview header{gap:12px}.choice-preview h1{font-size:25px;margin:6px 0 10px}.choice-preview .badge{display:none}
+ .choice-preview .attack-selection{margin:12px 0;gap:10px}.choice-preview .variants{margin-bottom:12px}
+ .choice-preview .controls{margin:14px 0;gap:12px}.choice-preview .phase{margin:10px 2px}
+ .choice-preview p.description:not([id]){display:none}.choice-jump{display:none}
+ #animationsauswahl{display:flex;flex-direction:column;min-height:0;margin:0;padding:0 0 0 20px;border-top:0;border-left:1px solid #35474e;scroll-margin-top:0}
+ #animationsauswahl>.choice-heading{flex-wrap:wrap;gap:0}#animationsauswahl h2{font-size:25px}
+ #animationsauswahl>.choice-heading p{font-size:13px;margin-bottom:8px}#choice-progress{margin-bottom:12px}
+ .choice-tools{gap:10px;font-size:13px}.choice-tools>a{display:none}.choice-tools button{font-size:13px;padding:9px 12px}
+ #choice-save{font-size:12px;line-height:1.5;margin:10px 0}
+ #choice-list{overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable;min-height:0;flex:1;padding-right:8px}
+ .choice-card{padding:14px;margin:0 0 16px}.choice-options{grid-template-columns:1fr;gap:9px;margin-top:12px}
+ .choice-option{padding:12px}.choice-option p{margin:8px 0 10px}.choice-option button{font-size:13px;padding:8px 12px}
+ .choice-footer{flex-direction:column;align-items:stretch;gap:10px}.choice-heading{gap:8px}.choice-card h3{font-size:20px}.choice-result{font-size:12px}
+}
+@media(max-width:700px){.choice-preview{min-width:0}.choice-workspace{display:block}#animationsauswahl{margin-top:24px}.choice-options{grid-template-columns:1fr}}
+
+@media(min-width:701px) and (max-width:1100px){main{padding:12px}.choice-workspace{gap:12px}#animationsauswahl{padding-left:12px}.choice-preview header h1{font-size:21px}.choice-preview label{flex-wrap:wrap}.choice-preview select{max-width:100%}.choice-preview .controls{font-size:13px}.choice-preview .controls button,.choice-preview .controls select{padding:8px}.choice-card>.choice-heading{flex-wrap:wrap}#animationsauswahl h2{font-size:22px}}
+
+/* Approved skill artwork, with the attack name as its accessible label. */
+.choice-identity{display:flex;align-items:center;gap:12px;min-width:0}.choice-skill-icon{width:64px;height:64px;flex:none;object-fit:contain;border-radius:3px}.choice-card>.choice-heading{align-items:center}
+
+.choice-option[hidden],.variants [data-variant][hidden]{display:none!important}

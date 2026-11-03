@@ -1,0 +1,139 @@
+{
+ "id": "set_adrien",
+ "titel": "Set Adrien Morel - NPC-Satz (22 Posen)",
+ "hinweis": "NPC-Ausdruecke ohne desire_2, ohne Rueckansichten. Ablage: expressions\\Yacht_AdrienNeu\\Standard\roh. Noch nichts im Spiel.",
+ "items": [
+  {
+   "id": "admiration_2",
+   "titel": "Adrien Morel - admiration_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_AdrienNeu\\Standard\\roh\\admiration_2.png",
+   "soll": "NPC-Satz, Preset Yacht_AdrienNeu, Set adrien_standard, Fassung A aus Yacht_AdrienCast_A (Legionsuniform, Verband am linken Oberschenkel)"
+  },
+  {
+   "id": "amusement",
+   "titel": "Adrien Morel - amusement",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_AdrienNeu\\Standard\\roh\\amusement.png",
+   "soll": "NPC-Satz, Preset Yacht_AdrienNeu, Set adrien_standard, Fassung A aus Yacht_AdrienCast_A (Legionsuniform, Verband am linken Oberschenkel)"
+  },
+  {
+   "id": "anger",
+   "titel": "Adrien Morel - anger",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_AdrienNeu\\Standard\\roh\\anger.png",
+   "soll": "NPC-Satz, Preset Yacht_AdrienNeu, Set adrien_standard, Fassung A aus Yacht_AdrienCast_A (Legionsuniform, Verband am linken Oberschenkel)"
+  },
+  {
+   "id": "annoyance",
+   "titel": "Adrien Morel - annoyance",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_AdrienNeu\\Standard\\roh\\annoyance.png",
+   "soll": "NPC-Satz, Preset Yacht_AdrienNeu, Set adrien_standard, Fassung A aus Yacht_AdrienCast_A (Legionsuniform, Verband am linken Oberschenkel)"
+  },
+  {
+   "id": "approval",
+   "titel": "Adrien Morel - approval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_AdrienNeu\\Standard\\roh\\approval.png",
+   "soll": "NPC-Satz, Preset Yacht_AdrienNeu, Set adrien_standard, Fassung A aus Yacht_AdrienCast_A (Legionsuniform, Verband am linken Oberschenkel)"
+  },
+  {
+   "id": "caring",
+   "titel": "Adrien Morel - caring",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_AdrienNeu\\Standard\\roh\\caring.png",
+   "soll": "NPC-Satz, Preset Yacht_AdrienNeu, Set adrien_standard, Fassung A aus Yacht_AdrienCast_A (Legionsuniform, Verband am linken Oberschenkel)"
+  },
+  {
+   "id": "confusion",
+   "titel": "Adrien Morel - confusion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_AdrienNeu\\Standard\\roh\\confusion.png",
+   "soll": "NPC-Satz, Preset Yacht_AdrienNeu, Set adrien_standard, Fassung A aus Yacht_AdrienCast_A (Legionsuniform, Verband am linken Oberschenkel)"
+  },
+  {
+   "id": "curiosity",
+   "titel": "Adrien Morel - curiosity",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_AdrienNeu\\Standard\\roh\\curiosity.png",
+   "soll": "NPC-Satz, Preset Yacht_AdrienNeu, Set adrien_standard, Fassung A aus Yacht_AdrienCast_A (Legionsuniform, Verband am linken Oberschenkel)"
+  },
+  {
+   "id": "disappointment",
+   "titel": "Adrien Morel - disappointment",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_AdrienNeu\\Standard\\roh\\disappointment.png",
+   "soll": "NPC-Satz, Preset Yacht_AdrienNeu, Set adrien_standard, Fassung A aus Yacht_AdrienCast_A (Legionsuniform, Verband am linken Oberschenkel)"
+  },
+  {
+   "id": "disapproval",
+   "titel": "Adrien Morel - disapproval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_AdrienNeu\\Standard\\roh\\disapproval.png",
+   "soll": "NPC-Satz, Preset Yacht_AdrienNeu, Set adrien_standard, Fassung A aus Yacht_AdrienCast_A (Legionsuniform, Verband am linken Oberschenkel)"
+  },
+  {
+   "id": "disgust",
+   "titel": "Adrien Morel - disgust",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_AdrienNeu\\Standard\\roh\\disgust.png",
+   "soll": "NPC-Satz, Preset Yacht_AdrienNeu, Set adrien_standard, Fassung A aus Yacht_AdrienCast_A (Legionsuniform, Verband am linken Oberschenkel)"
+  },
+  {
+   "id": "embarrassment_2",
+   "titel": "Adrien Morel - embarrassment_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_AdrienNeu\\Standard\\roh\\embarrassment_2.png",
+   "soll": "NPC-Satz, Preset Yacht_AdrienNeu, Set adrien_standard, Fassung A aus Yacht_AdrienCast_A (Legionsuniform, Verband am linken Oberschenkel)"
+  },
+  {
+   "id": "excitement_2",
+   "titel": "Adrien Morel - excitement_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_AdrienNeu\\Standard\\roh\\excitement_2.png",
+   "soll": "NPC-Satz, Preset Yacht_AdrienNeu, Set adrien_standard, Fassung A aus Yacht_AdrienCast_A (Legionsuniform, Verband am linken Oberschenkel)"
+  },
+  {
+   "id": "fear_2",
+   "titel": "Adrien Morel - fear_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_AdrienNeu\\Standard\\roh\\fear_2.png",
+   "soll": "NPC-Satz, Preset Yacht_AdrienNeu, Set adrien_standard, Fassung A aus Yacht_AdrienCast_A (Legionsuniform, Verband am linken Oberschenkel)"
+  },
+  {
+   "id": "gratitude",
+   "titel": "Adrien Morel - gratitude",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_AdrienNeu\\Standard\\roh\\gratitude.png",
+   "soll": "NPC-Satz, Preset Yacht_AdrienNeu, Set adrien_standard, Fassung A aus Yacht_AdrienCast_A (Legionsuniform, Verband am linken Oberschenkel)"
+  },
+  {
+   "id": "joy",
+   "titel": "Adrien Morel - joy",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_AdrienNeu\\Standard\\roh\\joy.png",
+   "soll": "NPC-Satz, Preset Yacht_AdrienNeu, Set adrien_standard, Fassung A aus Yacht_AdrienCast_A (Legionsuniform, Verband am linken Oberschenkel)"
+  },
+  {
+   "id": "love_2",
+   "titel": "Adrien Morel - love_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_AdrienNeu\\Standard\\roh\\love_2.png",
+   "soll": "NPC-Satz, Preset Yacht_AdrienNeu, Set adrien_standard, Fassung A aus Yacht_AdrienCast_A (Legionsuniform, Verband am linken Oberschenkel)"
+  },
+  {
+   "id": "nervousness",
+   "titel": "Adrien Morel - nervousness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_AdrienNeu\\Standard\\roh\\nervousness.png",
+   "soll": "NPC-Satz, Preset Yacht_AdrienNeu, Set adrien_standard, Fassung A aus Yacht_AdrienCast_A (Legionsuniform, Verband am linken Oberschenkel)"
+  },
+  {
+   "id": "neutral",
+   "titel": "Adrien Morel - neutral",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_AdrienNeu\\Standard\\roh\\neutral.png",
+   "soll": "NPC-Satz, Preset Yacht_AdrienNeu, Set adrien_standard, Fassung A aus Yacht_AdrienCast_A (Legionsuniform, Verband am linken Oberschenkel)"
+  },
+  {
+   "id": "pride",
+   "titel": "Adrien Morel - pride",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_AdrienNeu\\Standard\\roh\\pride.png",
+   "soll": "NPC-Satz, Preset Yacht_AdrienNeu, Set adrien_standard, Fassung A aus Yacht_AdrienCast_A (Legionsuniform, Verband am linken Oberschenkel)"
+  },
+  {
+   "id": "sadness",
+   "titel": "Adrien Morel - sadness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_AdrienNeu\\Standard\\roh\\sadness.png",
+   "soll": "NPC-Satz, Preset Yacht_AdrienNeu, Set adrien_standard, Fassung A aus Yacht_AdrienCast_A (Legionsuniform, Verband am linken Oberschenkel)"
+  },
+  {
+   "id": "surprise",
+   "titel": "Adrien Morel - surprise",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_AdrienNeu\\Standard\\roh\\surprise.png",
+   "soll": "NPC-Satz, Preset Yacht_AdrienNeu, Set adrien_standard, Fassung A aus Yacht_AdrienCast_A (Legionsuniform, Verband am linken Oberschenkel)"
+  }
+ ]
+}

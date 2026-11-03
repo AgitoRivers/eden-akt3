@@ -1,0 +1,31 @@
+{
+ "id": "kabine_handschuhe",
+ "titel": "Kabine mit Boxhandschuhen (Tag)",
+ "hinweis": "Vier Varianten. Die Handschuhe hängen rechts an der Wand, dort sitzt später der Klick-Punkt. Bitte eine wählen.",
+ "items": [
+  {
+   "id": "v1",
+   "titel": "Variante 1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_duc_cabin_v1.png",
+   "soll": "Doppelbett, Tür links, Handschuhe oben rechts, Bank und Matte darunter"
+  },
+  {
+   "id": "v2",
+   "titel": "Variante 2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_duc_cabin_v2.png",
+   "soll": "Doppelbett, Teakboden mit hellen Fugen, Handschuhe oben rechts"
+  },
+  {
+   "id": "v3",
+   "titel": "Variante 3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_duc_cabin_v3.png",
+   "soll": "Doppelbett, Schreibtisch quer, Handschuhe oben rechts, wenig Gegenstände"
+  },
+  {
+   "id": "v4",
+   "titel": "Variante 4",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_duc_cabin_v4.png",
+   "soll": "Einzelbett, Blumen auf dem Schreibtisch, Handschuhe oben rechts, Hakenleiste"
+  }
+ ]
+}

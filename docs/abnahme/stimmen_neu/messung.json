@@ -1,0 +1,32 @@
+{
+ "buenaventura_1": {
+  "lufs": -19.4,
+  "dauer": 25.3,
+  "band_8_10k_db": -21.7
+ },
+ "buenaventura_2": {
+  "lufs": -17.5,
+  "dauer": 24.0,
+  "band_8_10k_db": -23.5
+ },
+ "buenaventura_3": {
+  "lufs": -18.4,
+  "dauer": 23.9,
+  "band_8_10k_db": -23.5
+ },
+ "minicu_1": {
+  "lufs": -19.5,
+  "dauer": 40.6,
+  "band_8_10k_db": -19.6
+ },
+ "minicu_2": {
+  "lufs": -19.0,
+  "dauer": 38.5,
+  "band_8_10k_db": -22.9
+ },
+ "minicu_3": {
+  "lufs": -19.2,
+  "dauer": 39.9,
+  "band_8_10k_db": -24.8
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "id": "taktikkarte4",
+ "titel": "Taktik-Karte: frontal mit Umland",
+ "hinweis": "Frontale Sicht ohne Horizont, weit herausgezoomt. Noch ohne Raster und Figuren.",
+ "items": [
+  {
+   "id": "flach_a",
+   "titel": "Flach, Variante a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\flach_a.png",
+   "soll": "Dorf, Hafen, Yacht, Berge mit Turm, Kloster, Macchia, Strand und Grotte zu erkennen?"
+  },
+  {
+   "id": "flach_b",
+   "titel": "Flach, Variante b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\flach_b.png",
+   "soll": "Dorf, Hafen, Yacht, Berge mit Turm, Kloster, Macchia, Strand und Grotte zu erkennen?"
+  },
+  {
+   "id": "flach_c",
+   "titel": "Flach, Variante c",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\flach_c.png",
+   "soll": "Dorf, Hafen, Yacht, Berge mit Turm, Kloster, Macchia, Strand und Grotte zu erkennen?"
+  },
+  {
+   "id": "flach_d",
+   "titel": "Flach, Variante d",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\flach_d.png",
+   "soll": "Dorf, Hafen, Yacht, Berge mit Turm, Kloster, Macchia, Strand und Grotte zu erkennen?"
+  },
+  {
+   "id": "flach_e",
+   "titel": "Flach, Variante e",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\flach_e.png",
+   "soll": "Dorf, Hafen, Yacht, Berge mit Turm, Kloster, Macchia, Strand und Grotte zu erkennen?"
+  },
+  {
+   "id": "flach_f",
+   "titel": "Flach, Variante f",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\flach_f.png",
+   "soll": "Dorf, Hafen, Yacht, Berge mit Turm, Kloster, Macchia, Strand und Grotte zu erkennen?"
+  },
+  {
+   "id": "flach_g",
+   "titel": "Flach, Variante g",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\flach_g.png",
+   "soll": "Dorf, Hafen, Yacht, Berge mit Turm, Kloster, Macchia, Strand und Grotte zu erkennen?"
+  },
+  {
+   "id": "flach_h",
+   "titel": "Flach, Variante h",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\flach_h.png",
+   "soll": "Dorf, Hafen, Yacht, Berge mit Turm, Kloster, Macchia, Strand und Grotte zu erkennen?"
+  }
+ ]
+}

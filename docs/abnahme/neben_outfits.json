@@ -1,0 +1,247 @@
+{
+ "id": "neben_outfits_v1",
+ "titel": "Nebenfiguren: Outfit-Varianten",
+ "hinweis": "Je Figur vier Varianten mit je zwei Bildern. Nur Casting, noch keine Sets und nichts im Spiel. Bibi und Charly lief zweimal, die Kamera blieb bei beiden oft zu nah und von oben.",
+ "items": [
+  {
+   "id": "isabelle_W_0",
+   "titel": "Isabelle · Wunsch · Bild A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Isabelle_W\\neutral.png",
+   "soll": "Vorschlag: Dieses Bild. Kräuterschürze mit Brandfleck, passt am besten zu ihr."
+  },
+  {
+   "id": "isabelle_W_1",
+   "titel": "Isabelle · Wunsch · Bild B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Isabelle_W\\neutral-1.png",
+   "soll": ""
+  },
+  {
+   "id": "isabelle_A_0",
+   "titel": "Isabelle · Ästhetisch · Bild A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Isabelle_A\\neutral.png",
+   "soll": ""
+  },
+  {
+   "id": "isabelle_A_1",
+   "titel": "Isabelle · Ästhetisch · Bild B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Isabelle_A\\neutral-1.png",
+   "soll": ""
+  },
+  {
+   "id": "isabelle_K_0",
+   "titel": "Isabelle · Korsika-Urlaub · Bild A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Isabelle_K\\neutral.png",
+   "soll": ""
+  },
+  {
+   "id": "isabelle_K_1",
+   "titel": "Isabelle · Korsika-Urlaub · Bild B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Isabelle_K\\neutral-1.png",
+   "soll": "Fehler: Haare und Gesicht wirken hier deutlich älter, das Bild nicht nehmen."
+  },
+  {
+   "id": "isabelle_D_0",
+   "titel": "Isabelle · Danzels Fashion · Bild A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Isabelle_D\\neutral.png",
+   "soll": "Das Blau kommt fast schwarz, der Kragen weiß statt creme."
+  },
+  {
+   "id": "isabelle_D_1",
+   "titel": "Isabelle · Danzels Fashion · Bild B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Isabelle_D\\neutral-1.png",
+   "soll": ""
+  },
+  {
+   "id": "casanova_W_0",
+   "titel": "Casanova · Wunsch · Bild A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Casanova_W\\neutral.png",
+   "soll": ""
+  },
+  {
+   "id": "casanova_W_1",
+   "titel": "Casanova · Wunsch · Bild B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Casanova_W\\neutral-1.png",
+   "soll": "Schärpe und Medaille wie bestellt. Starke Alternative für offizielle Auftritte."
+  },
+  {
+   "id": "casanova_A_0",
+   "titel": "Casanova · Ästhetisch · Bild A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Casanova_A\\neutral.png",
+   "soll": ""
+  },
+  {
+   "id": "casanova_A_1",
+   "titel": "Casanova · Ästhetisch · Bild B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Casanova_A\\neutral-1.png",
+   "soll": ""
+  },
+  {
+   "id": "casanova_K_0",
+   "titel": "Casanova · Korsika-Urlaub · Bild A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Casanova_K\\neutral.png",
+   "soll": ""
+  },
+  {
+   "id": "casanova_K_1",
+   "titel": "Casanova · Korsika-Urlaub · Bild B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Casanova_K\\neutral-1.png",
+   "soll": ""
+  },
+  {
+   "id": "casanova_D_0",
+   "titel": "Casanova · Danzels Fashion · Bild A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Casanova_D\\neutral.png",
+   "soll": ""
+  },
+  {
+   "id": "casanova_D_1",
+   "titel": "Casanova · Danzels Fashion · Bild B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Casanova_D\\neutral-1.png",
+   "soll": "Vorschlag: Dieses Bild. Ihr fehlt ohnehin ein eigenes Flamenco-Set, und das Bolero mit Cape ist so theatralisch wie sie."
+  },
+  {
+   "id": "bibi_W_0",
+   "titel": "Bibi · Wunsch · Bild A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Bibi_W\\neutral.png",
+   "soll": "Vorschlag: Dieses Bild. Safari-Look und der schwarze Plüschlöwe, am nächsten an ihrem Traum. Trockene Haut, ohne Tropfen."
+  },
+  {
+   "id": "bibi_W_1",
+   "titel": "Bibi · Wunsch · Bild B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Bibi_W\\neutral-1.png",
+   "soll": ""
+  },
+  {
+   "id": "bibi_A_0",
+   "titel": "Bibi · Ästhetisch · Bild A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Bibi_A\\neutral.png",
+   "soll": "Kamera zu nah, Hose und Schuhe fehlen."
+  },
+  {
+   "id": "bibi_A_1",
+   "titel": "Bibi · Ästhetisch · Bild B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Bibi_A\\neutral-1.png",
+   "soll": "Kamera zu nah, Hose und Schuhe fehlen."
+  },
+  {
+   "id": "bibi_K3_0",
+   "titel": "Bibi · Korsika-Urlaub · Bild A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Bibi_K\\neutral.png",
+   "soll": "NEU: Löwenhemd offen über goldenem Top und schwarzen Shorts. Mehr vom Outfit im Bild, aber deutliche Tropfen auf Bauch und Oberschenkeln. Die Shorts sitzen locker."
+  },
+  {
+   "id": "bibi_K3_1",
+   "titel": "Bibi · Korsika-Urlaub · Bild B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Bibi_K\\neutral-1.png",
+   "soll": "NEU. Vorschlag: Dieses Bild. Weniger Tropfen als bei A, die Spuren am Arm und auf dem Top sind aber noch zu sehen. Die Beine sind abgeschnitten, die Shorts sitzen locker."
+  },
+  {
+   "id": "bibi_D_0",
+   "titel": "Bibi · Danzels Fashion · Bild A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Bibi_D\\neutral.png",
+   "soll": "Die Löwenmähne aus Rüschen sitzt, aber Beine und Schuhe fehlen."
+  },
+  {
+   "id": "bibi_D_1",
+   "titel": "Bibi · Danzels Fashion · Bild B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Bibi_D\\neutral-1.png",
+   "soll": ""
+  },
+  {
+   "id": "charly_W_0",
+   "titel": "Charly · Wunsch · Bild A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Charly_W\\neutral.png",
+   "soll": "Meine Bedenken: Kamera von oben und der Hoodie lassen sie deutlich jünger wirken als 26. Ich rate davon ab."
+  },
+  {
+   "id": "charly_W_1",
+   "titel": "Charly · Wunsch · Bild B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Charly_W\\neutral-1.png",
+   "soll": "Meine Bedenken: Kamera von oben und der Hoodie lassen sie deutlich jünger wirken als 26. Ich rate davon ab."
+  },
+  {
+   "id": "charly_A_0",
+   "titel": "Charly · Ästhetisch · Bild A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Charly_A\\neutral.png",
+   "soll": ""
+  },
+  {
+   "id": "charly_A_1",
+   "titel": "Charly · Ästhetisch · Bild B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Charly_A\\neutral-1.png",
+   "soll": ""
+  },
+  {
+   "id": "charly_K_0",
+   "titel": "Charly · Korsika-Urlaub · Bild A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Charly_K\\neutral.png",
+   "soll": "Die Streifen kommen mit Weiß, obwohl nur Marine und Rot bestellt waren."
+  },
+  {
+   "id": "charly_K_1",
+   "titel": "Charly · Korsika-Urlaub · Bild B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Charly_K\\neutral-1.png",
+   "soll": "Die Streifen kommen mit Weiß, obwohl nur Marine und Rot bestellt waren."
+  },
+  {
+   "id": "charly_D_0",
+   "titel": "Charly · Danzels Fashion · Bild A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Charly_D\\neutral.png",
+   "soll": ""
+  },
+  {
+   "id": "charly_D_1",
+   "titel": "Charly · Danzels Fashion · Bild B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Charly_D\\neutral-1.png",
+   "soll": "Vorschlag: Dieses Bild. Der Pin mit der 10 verweist auf ihre erste 10 für Danzel. Kamera immer noch leicht von oben."
+  },
+  {
+   "id": "duc_W_0",
+   "titel": "Duc · Wunsch · Bild A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Duc_W\\neutral.png",
+   "soll": ""
+  },
+  {
+   "id": "duc_W_1",
+   "titel": "Duc · Wunsch · Bild B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Duc_W\\neutral-1.png",
+   "soll": "Starke Alternative für den Alltag, ganz im Bild mit Anker-Pin."
+  },
+  {
+   "id": "duc_A_0",
+   "titel": "Duc · Ästhetisch · Bild A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Duc_A\\neutral.png",
+   "soll": ""
+  },
+  {
+   "id": "duc_A_1",
+   "titel": "Duc · Ästhetisch · Bild B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Duc_A\\neutral-1.png",
+   "soll": ""
+  },
+  {
+   "id": "duc_K_0",
+   "titel": "Duc · Korsika-Urlaub · Bild A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Duc_K\\neutral.png",
+   "soll": ""
+  },
+  {
+   "id": "duc_K_1",
+   "titel": "Duc · Korsika-Urlaub · Bild B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Duc_K\\neutral-1.png",
+   "soll": ""
+  },
+  {
+   "id": "duc_D_0",
+   "titel": "Duc · Danzels Fashion · Bild A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Duc_D\\neutral.png",
+   "soll": "Vorschlag: Dieses Bild. Das Modell ergänzt eine weiße Blume am Revers, die nicht bestellt war. Weiß gehört eigentlich Mr. White, müsste also weg."
+  },
+  {
+   "id": "duc_D_1",
+   "titel": "Duc · Danzels Fashion · Bild B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Duc_D\\neutral-1.png",
+   "soll": ""
+  }
+ ]
+}

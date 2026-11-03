@@ -1,0 +1,147 @@
+/* Expedition screen (26.10.2026) - Deck Glass Noir tokens from client/index.html */
+body.exp-modus #hudstatus,body.exp-modus #zeitpille .trenn{display:none}                   /* ship supplies play no role on the trip */
+.exp{position:absolute;inset:0;background:var(--ink) center/cover no-repeat}
+.exp::after{content:"";position:absolute;inset:0;pointer-events:none;transition:opacity .3s;
+  background:linear-gradient(180deg,rgba(7,8,11,.38) 0%,rgba(7,8,11,0) 22%,rgba(7,8,11,0) 44%,rgba(7,8,11,.78) 70%,rgba(7,8,11,.94) 100%)}
+.exp > *{z-index:1}
+.exp-hud,.exp-karte{transition:opacity .3s ease,transform .3s ease}
+body.exp-hud-aus .exp-hud,body.exp-hud-aus .exp-karte{opacity:0;pointer-events:none;transform:translateY(-6px)}
+body.exp-hud-aus .exp::after{opacity:0}
+body.exp-hud-aus #zeitpille,body.exp-hud-aus #dock,body.exp-hud-aus .em-dock,body.exp-hud-aus #toast{opacity:0;pointer-events:none;transition:opacity .3s}
+
+/* Figures of the frame (29.10.2026): stand on the background behind the scene card, speaker in front and bright */
+.exp-figuren{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.exp-mit-figuren .exp-karte{left:48px;transform:none;width:min(880px,56vw)}
+body.exp-hud-aus .exp-mit-figuren .exp-karte{transform:translateY(6px)}
+.exp-mit-figuren .exp-karte .ev-erg img{display:none}          /* the big figure already shows the answer's mood */
+/* Size by head count (Duc + Brain Trust 01.11.2026): whoever is in the frame owns the picture, Duc's card steps aside */
+.exp-figur{position:absolute;bottom:0;height:72vh;max-width:34vw;object-fit:contain;object-position:bottom;
+  transform:translateX(-50%) scale(.94);transform-origin:bottom center;filter:brightness(.7) saturate(.85) drop-shadow(0 12px 30px rgba(0,0,0,.55));
+  -webkit-mask-image:linear-gradient(180deg,#000 90%,transparent 100%);mask-image:linear-gradient(180deg,#000 90%,transparent 100%);
+  transition:filter .35s ease,transform .35s ease}
+.exp-figur.ein{animation:expFigur .5s ease both}
+.exp-figuren.n1 .exp-figur{height:92vh}
+.exp-figuren.n2 .exp-figur{height:80vh}
+.exp-figur.spricht{transform:translateX(-50%) scale(1);filter:drop-shadow(0 12px 30px rgba(0,0,0,.6));z-index:1}
+/* Scene card without a second glass pane: the answer sits directly on the card, at full width */
+.exp-karte .ev-erg{max-width:none;padding:0!important;background:none;border:0;box-shadow:none;-webkit-backdrop-filter:none;backdrop-filter:none}
+.exp-karte .ev-erg .ev-blase{max-width:none;flex:1}
+.exp-ort-leben{display:flex;align-items:center;gap:var(--a2);margin-top:var(--a2);font-size:var(--t-klein);color:var(--perle-leise)}
+@keyframes expFigur{from{opacity:0;translate:0 14px}to{opacity:1;translate:0 0}}
+
+.exp-titel{position:absolute;left:0;right:0;top:32%;text-align:center;pointer-events:none;z-index:3;animation:expTitel 4.2s ease forwards}
+.exp-titel small{display:block;font-size:var(--t-klein);letter-spacing:.24em;text-transform:uppercase;color:var(--perle-leise)}
+.exp-titel b{display:block;font:750 var(--t-buehne)/1.05 var(--f-name);letter-spacing:-.02em;color:var(--akz);text-shadow:0 6px 30px rgba(0,0,0,.6)}
+@keyframes expTitel{0%{opacity:0;transform:translateY(8px)}12%{opacity:1;transform:none}70%{opacity:1}100%{opacity:0}}
+@media (prefers-reduced-motion:reduce){.exp-titel{animation:none;opacity:0}}
+
+.exp-ort{position:absolute;left:28px;top:84px;padding:var(--a3) var(--a4) var(--a35);border-radius:var(--r-karte)}
+.exp-ort small{display:block;font-size:var(--t-mini);letter-spacing:.14em;text-transform:uppercase;color:var(--perle-dim);margin-bottom:2px}
+.exp-ort .exp-ortname{font:700 var(--t-gross) var(--f-name);letter-spacing:-.01em;color:var(--akz)}
+.exp-mini{display:flex;align-items:center;margin-top:var(--a25)}
+.exp-mini .exp-p{width:22px;height:22px;border-radius:50%;display:grid;place-items:center;font-size:var(--t-mini);border:1px solid var(--linie-n);color:var(--perle-dim);background:rgba(243,238,228,.05)}
+.exp-mini .exp-p.war{background:rgba(216,189,134,.22);border-color:var(--linie)}
+.exp-mini .exp-p.hier{background:var(--akz);border-color:var(--akz);color:var(--ink);box-shadow:0 0 0 4px rgba(216,189,134,.2)}
+.exp-mini .exp-p.nebel{border-style:dashed;background:none}
+.exp-mini .exp-s{width:18px;height:2px;background:var(--linie-n)}
+.exp-mini .exp-s.nebel{background:repeating-linear-gradient(90deg,var(--linie-n) 0 3px,transparent 3px 6px)}
+.exp-spur{margin-top:var(--a2);font:500 var(--t-klein) var(--f-zahl);color:var(--schlecht)}
+
+.exp-duc{position:absolute;right:28px;top:84px;padding:var(--a35) var(--a4);border-radius:var(--r-karte);display:grid;grid-template-columns:64px 1fr;gap:var(--a15) var(--a35);width:350px}
+.exp-duc .exp-portrait{width:64px;height:64px;border-radius:50%;grid-row:span 3;border:1px solid var(--linie);background:var(--flaeche2) no-repeat;
+  background-size:303% auto;background-position:54% 4%}                   /* head of the front portrait (charakter/*.webp) */
+.exp-duc .exp-kopf{display:flex;justify-content:space-between;align-items:baseline;gap:var(--a2)}
+.exp-duc .exp-kopf b{font:750 var(--t-unter) var(--f-name);letter-spacing:-.02em}
+.exp-duc .exp-kopf span{font-size:var(--t-klein);color:var(--perle-leise)}
+.exp-duc .exp-balken{display:flex;align-items:center;gap:var(--a25);font-size:var(--t-klein)}
+.exp-duc .exp-lbl{width:50px;color:var(--perle-leise)}
+.exp-duc .exp-bar,.exp-ort-leben .exp-bar{flex:1;height:7px;border-radius:var(--r-rund);background:rgba(243,238,228,.1);overflow:hidden}
+.exp-ort-leben .exp-bar{min-width:90px}
+.exp-duc .exp-bar i,.exp-ort-leben .exp-bar i{display:block;height:100%;border-radius:var(--r-rund);background:var(--gut)}
+.exp-duc .exp-pips{display:flex;gap:var(--a1)}.exp-duc .exp-pips i{width:9px;height:9px;border-radius:50%;background:var(--akz)}
+.exp-duc .exp-tasche{grid-column:1/-1;margin-top:var(--a15);padding-top:var(--a25);border-top:1px solid var(--linie-n);display:flex;justify-content:space-between;align-items:flex-start;gap:var(--a25);font-size:var(--t-klein)}
+.exp-duc .exp-pillen{display:flex;flex-wrap:wrap;gap:var(--a15);justify-content:flex-end}
+.exp-duc .exp-pille{border:1px solid var(--linie-n);border-radius:var(--r-rund);padding:var(--pille);font-size:var(--t-klein);color:var(--perle-leise);background:rgba(243,238,228,.05)}
+
+.exp-karte{position:absolute;left:50%;bottom:96px;transform:translateX(-50%);width:min(980px,calc(100% - 56px));
+  padding:var(--a45) var(--a5) var(--a45);border-radius:var(--r-panel);background:var(--rauch-stark)}
+body.exp-hud-aus .exp-karte{transform:translateX(-50%) translateY(6px)}
+.exp-karte p.exp-lage{margin:0 0 var(--a35);font-size:var(--t-gross);line-height:1.6;color:var(--perle);max-width:72ch}
+.exp-karte .exp-zeile{margin:0 0 var(--a25);font-size:var(--t-text);color:var(--rede)}
+.exp-karte .exp-zeile b{color:var(--akz);font-weight:600;margin-right:var(--a15)}
+.exp-karte .exp-wahlen{display:grid;gap:var(--a25);margin-top:var(--a15)}
+.exp-karte .exp-wahl{display:grid;grid-template-columns:30px 1fr auto;align-items:center;gap:var(--a35);padding:var(--a3) var(--a35) var(--a3) var(--a3);border-radius:var(--r-karte);text-align:left;
+  border:1px solid var(--linie-n);background:rgba(243,238,228,.04);color:var(--perle);font:inherit;cursor:pointer}
+.exp-karte .exp-wahl:hover:not(:disabled),.exp-karte .exp-wahl:focus-visible{border-color:var(--akz);background:rgba(216,189,134,.08)}
+.exp-karte .exp-wahl .exp-taste{width:26px;height:26px;border-radius:var(--r-taste);display:grid;place-items:center;font:500 var(--t-klein) var(--f-zahl);background:rgba(243,238,228,.08);color:var(--perle-leise)}
+.exp-karte .exp-wahl .exp-wtext{font-size:var(--t-text);font-weight:600}
+.exp-karte .exp-folgen{display:flex;gap:var(--a2);flex-wrap:wrap;justify-content:flex-end}
+.exp .exp-folge{display:flex;align-items:center;gap:var(--a2);border-radius:var(--r-rund);padding:var(--a1) var(--a3) var(--a1) var(--a15);font-size:var(--t-klein);white-space:nowrap;border:1px solid}
+.exp .exp-folge .exp-kopfbild{width:26px;height:26px;border-radius:50%;background:var(--flaeche2) center/cover no-repeat;display:grid;place-items:center;font:700 var(--t-klein) var(--f-name);color:var(--perle-dim)}
+.exp .exp-folge.exp-kampf{border-color:rgba(217,161,152,.45);color:var(--schlecht);background:rgba(217,161,152,.08)}
+.exp .exp-folge.exp-probe{border-color:var(--linie);color:var(--akz);background:rgba(216,189,134,.08);padding-left:var(--a3)}
+.exp .exp-folge.exp-wegpille{border-color:var(--linie-n);color:var(--perle-dim);padding-left:var(--a3)}
+.exp .exp-folge .exp-leise{color:var(--perle-dim)}
+.exp .exp-bedr{font-size:var(--t-mini);padding:var(--pille-klein);border-radius:var(--r-rund);border:1px solid currentColor;opacity:.85;color:var(--grau-hell)}
+.exp .exp-bedr.gefaehrlich{color:var(--gut)}.exp .exp-bedr.toedlich{color:#e0a060}.exp .exp-bedr.albtraum{color:var(--schlecht)}
+
+.exp-hudknopf{position:absolute;right:28px;bottom:28px;z-index:4;display:flex;align-items:center;gap:var(--a2);border-radius:var(--r-rund);padding:var(--a2) var(--a35);
+  font:600 var(--t-klein) var(--f-ui);color:var(--perle);cursor:pointer}
+.exp-hudknopf kbd{font:500 var(--t-klein) var(--f-zahl);padding:1px var(--a15);border-radius:var(--r-taste);background:rgba(243,238,228,.1)}
+
+/* rest sites, going back, rest call (26.10.2026) */
+.exp-mini .exp-p.feuer{border-color:rgba(232,150,90,.6);font-size:var(--t-mini)}
+.exp-mini .exp-p.geruht{box-shadow:0 0 0 3px rgba(232,150,90,.25)}
+.exp .exp-folge.exp-feuer{border-color:rgba(232,150,90,.5);color:#f0a46c;background:rgba(232,150,90,.08);padding-left:var(--a3)}
+.exp .exp-folge.exp-ruhig{border-color:rgba(168,213,177,.4);color:var(--gut);background:rgba(168,213,177,.06);padding-left:var(--a3)}
+.exp-karte .exp-wahl.exp-rast{border-color:rgba(232,150,90,.35)}
+.exp-karte .exp-wahl.exp-verjagen{margin:calc(-1 * var(--a15)) 0 0 var(--a6);padding-block:var(--a2);border-style:dashed}
+.exp-karte .exp-wahl.exp-verjagen .exp-wtext{font-weight:500}
+.exp-anruf{position:absolute;inset:0;z-index:7;display:grid;place-items:center;background:rgba(7,8,11,.74);animation:expAnruf .35s ease-out}
+.exp-geraet{position:relative;right:auto;top:auto;transform:none;height:min(720px,calc(100% - 48px))}
+.exp-anruf-karte{flex:1;overflow-y:auto;padding:var(--a4) var(--a4) var(--a45);display:flex;flex-direction:column;align-items:center;gap:var(--a3);text-align:center}
+.exp-anruf-text{align-self:stretch;text-align:left;max-width:none}
+.exp-anruf-live{font:600 var(--t-klein) var(--f-zahl);letter-spacing:.14em;color:var(--gut)}
+.exp-anruf-bild{width:132px;height:132px;border-radius:50%;border:1px solid var(--linie);background:var(--flaeche2) center 12%/cover no-repeat}
+.exp-anruf-name{font:750 var(--t-titel) var(--f-name);color:var(--akz)}
+.exp-anruf-text{margin:0;font-size:var(--t-text);line-height:1.55;color:var(--rede)}
+.exp-anruf-wahl{display:grid;gap:var(--a2);width:100%;margin-top:var(--a15)}
+.exp-anruf-wahl button{display:flex;gap:var(--a25);align-items:center;text-align:left;padding:var(--karte-pad-klein);border-radius:var(--r-mittel);border:1px solid var(--linie-n);background:rgba(243,238,228,.04);color:var(--perle);font:inherit;cursor:pointer}
+.exp-anruf-wahl button:hover{border-color:var(--akz);background:rgba(216,189,134,.08)}
+.exp-anruf-wahl kbd{font:500 var(--t-klein) var(--f-zahl);padding:1px var(--a15);border-radius:var(--r-taste);background:rgba(243,238,228,.1)}
+@keyframes expAnruf{from{opacity:0}to{opacity:1}}
+
+/* rest site discovery card (26.10.2026) */
+.exp-fund{position:absolute;inset:0;z-index:6;display:grid;place-items:center;background:radial-gradient(ellipse at 50% 55%,rgba(38,22,12,.93),rgba(7,8,11,.96) 70%);cursor:pointer;animation:expFund .6s ease-out}
+.exp-fund-karte{max-width:min(640px,calc(100% - 64px));text-align:center;display:grid;gap:var(--a3)}
+.exp-fund-karte small{font-size:var(--t-klein);letter-spacing:.24em;text-transform:uppercase;color:#f0a46c}
+.exp-fund-karte p{margin:0;font:500 var(--t-unter)/1.55 var(--f-ui);color:var(--perle);text-shadow:0 4px 24px rgba(0,0,0,.7)}
+.exp-fund-weiter{font-size:var(--t-klein);color:var(--perle-dim)}
+@keyframes expFund{from{opacity:0}to{opacity:1}}
+@media (prefers-reduced-motion:reduce){.exp-fund{animation:none}}
+
+/* Fast travel (29.10.2026): "On foot" above the choices, "Or travel" with camp cards below - a moment, not a menu */
+.exp-reisen-kopf{display:flex;align-items:baseline;gap:var(--a25);margin:2px 0 var(--a2);font:700 var(--t-klein) var(--f-name);letter-spacing:.08em;
+  text-transform:uppercase;color:var(--akz)}
+.exp-reisen-kopf small{font:400 var(--t-klein) var(--f-text, inherit);letter-spacing:0;text-transform:none;color:var(--perle-leise, rgba(240,232,215,.7));font-style:italic}
+.exp-reisen{margin-top:var(--a35);padding-top:var(--a3);border-top:1px solid rgba(216,189,134,.22)}
+.exp-reisen-karten{display:flex;flex-wrap:wrap;gap:var(--a25)}
+.exp-reise{display:flex;align-items:stretch;gap:0;min-width:210px;flex:1 1 210px;max-width:300px;padding:0;overflow:hidden;cursor:pointer;
+  border:1px solid rgba(216,189,134,.35);border-radius:var(--r-mittel);background:rgba(12,14,20,.55);color:var(--perle);text-align:left;
+  transition:transform .15s ease,border-color .15s ease,box-shadow .15s ease}
+.exp-reise:hover:not(:disabled){transform:translateY(-2px);border-color:var(--akz);box-shadow:0 8px 24px rgba(0,0,0,.45)}
+.exp-reise:disabled{opacity:.5;cursor:default}
+.exp-reise-bild{flex:0 0 76px;background:var(--flaeche2) center/cover no-repeat}
+.exp-reise-text{display:flex;flex-direction:column;justify-content:center;gap:3px;padding:var(--a25) var(--a3)}
+.exp-reise-text b{font:700 var(--t-info) var(--f-name);color:var(--perle)}
+.exp-reise-text small{font-size:var(--t-klein);color:rgba(240,232,215,.7)}
+.exp-reisen.rast .exp-reise{min-width:180px;flex-basis:180px}
+.exp-reisen.rast .exp-reise-bild{flex-basis:56px}
+/* warning before a choice with lasting consequences (The Long Table) */
+.exp-warnung{display:grid;place-items:center}
+.exp-warnung::before{content:"";position:absolute;inset:0;background:rgba(6,4,4,.78)}
+.exp-warnung .exp-warnkarte{position:relative;left:auto;bottom:auto;transform:none;width:min(560px,90%);padding:var(--a6) var(--a6);border:1px solid rgba(190,70,55,.7)}
+.exp-warnkarte h2{margin:0 0 var(--a25);font:700 var(--t-titel) var(--f-name);color:var(--perle)}
+.exp-warnkarte p{margin:0 0 var(--a45);line-height:1.5}
+/* the animal at its gate in the epilogue (Mochi's, tier_bild) */
+.exp-tier{position:absolute;left:50%;bottom:30%;transform:translateX(-50%);max-height:52%;max-width:46%;object-fit:contain;pointer-events:none}

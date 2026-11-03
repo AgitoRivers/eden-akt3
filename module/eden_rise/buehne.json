@@ -1,0 +1,1162 @@
+{
+ "_hinweis": "Gebaut aus werkzeuge\\eden_rise\\story_buehne.py - dort aendern. Spoilerfrei: nur Buehne, nie Fall-Inhalte.",
+ "szenen": {
+  "cold_open": {
+   "zeit": "06:35",
+   "ort": "power_room",
+   "bild": "yacht_power_room_smoke.png",
+   "anwesend": [
+    "rosi"
+   ],
+   "max_zuege": 2,
+   "ausgangslage": "06:35. A bang somewhere below deck. Smoke, sparks, an alarm that will not stop. A hand slams down on a red button. Then darkness - and a line of white text: the day before. Antibes.",
+   "frage": "The day before. Antibes.",
+   "will": {
+    "rosi": "Stop it. Now."
+   },
+   "stimmung": {
+    "name": "krise",
+    "erlaubt": [
+     "fear",
+     "nervousness",
+     "anger",
+     "annoyance",
+     "confusion",
+     "sadness",
+     "surprise",
+     "realization",
+     "disapproval"
+    ]
+   }
+  },
+  "auftakt_party": {
+   "zeit": "20:30",
+   "ort": "aft_deck",
+   "anwesend": [
+    "chiara",
+    "rosi",
+    "siri"
+   ],
+   "max_zuege": 8,
+   "ausgangslage": "The last night of the charter season. Lanterns on the aft deck, music, the sun sinking behind Corsica. A banner over the bar reads EDEN BAY WEEKEND: tonight the Eden Rise sails for the bay of Cala d'Orsu, to arrive at sunrise - Megan's idea. Siri will post the sunrise, Yasin will film the arrival with his drone, and then it is on to the winter shipyard in Calvi. Lola swears the sea will glow tonight. Captain Holm holds a glass she does not drink from and calls the whole thing Megan's little photo stop. Everyone needs something from the new First Officer at once.",
+   "frage": "Who do you help first - and what else do you notice tonight?",
+   "will": {
+    "holm": "Enjoy the last night of her season and not show that her stomach hurts.",
+    "chiara": "Run a perfect party service, one pair of hands short.",
+    "rosi": "Get somebody to help with a quick test in the control room before she can party.",
+    "siri": "Escape Yasin's camera for five minutes.",
+    "lola": "Feed everyone and tell Duc about the glowing sea."
+   },
+   "wahl": {
+    "nach_zug": 1,
+    "frage": "Who do you help first?",
+    "optionen": [
+     {
+      "text": "Chiara – she is a pair of hands short at the service.",
+      "handlung": "He takes a tray and helps Chiara with the service.",
+      "folgen": [
+       {
+        "flag": "auftakt_hilfe_chiara"
+       },
+       {
+        "wert": "vertrauen.chiara",
+        "delta": 1
+       }
+      ]
+     },
+     {
+      "text": "Rosi – she needs someone for a quick test in the control room.",
+      "handlung": "He goes down with Rosi to help with her test in the control room.",
+      "folgen": [
+       {
+        "flag": "auftakt_hilfe_rosi"
+       },
+       {
+        "wert": "vertrauen.rosi",
+        "delta": 1
+       }
+      ]
+     },
+     {
+      "text": "Siri – she wants out of the recording for a moment.",
+      "handlung": "He gives Siri an excuse to step away from the camera for a moment.",
+      "folgen": [
+       {
+        "flag": "auftakt_hilfe_siri"
+       },
+       {
+        "wert": "vertrauen.siri",
+        "delta": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "blackout": {
+   "zeit": "05:50",
+   "ort": "galley",
+   "anwesend": [
+    "lola"
+   ],
+   "max_zuege": 4,
+   "ausgangslage": "The afterparty ended at half past three. Duc cannot sleep. He sits in the galley with Lola, who is baking for a sunrise breakfast and humming along to the music from the deck. The yacht is under way towards the bay of Cala d'Orsu, to be there by sunrise. Then the music stops.",
+   "frage": "What does Duc do in the first minute?",
+   "will": {
+    "lola": "Finish her bread - until something is very wrong, and then not be alone with it."
+   }
+  },
+  "explosion": {
+   "zeit": "06:35",
+   "ort": "power_room",
+   "bild": "yacht_power_room_smoke.png",
+   "anwesend": [
+    "maxwell",
+    "rosi",
+    "holm"
+   ],
+   "max_zuege": 6,
+   "ausgangslage": "06:35. Totò and Lea ran down to see what stopped. Then the bang - right here, in the inverter. Something heavy comes loose. When the smoke clears, Maxwell is standing over Totò and Lea, debris on his back, grinning. Rosi hits the emergency stop. Unit-01 keeps humming. Everyone is saying \"the motor\".",
+   "frage": "What does Duc do first?",
+   "will": {
+    "maxwell": "Turn the scare into a pose and make sure his little brothers and sisters are fine.",
+    "rosi": "Stop the damage - and then sit with her machine a moment longer than anyone should see.",
+    "holm": "Count every head, look after Lola, and not show how much it hurts - until she cannot any more."
+   },
+   "immer": [
+    {
+     "flag": "explosion"
+    }
+   ],
+   "stimmung": {
+    "name": "krise",
+    "erlaubt": [
+     "fear",
+     "nervousness",
+     "anger",
+     "annoyance",
+     "confusion",
+     "sadness",
+     "surprise",
+     "realization",
+     "disapproval"
+    ]
+   }
+  },
+  "wache_mit_holm": {
+   "zeit": "06:50",
+   "ort": "bridge",
+   "anwesend": [
+    "holm"
+   ],
+   "max_zuege": 6,
+   "ausgangslage": "The bridge in grey morning light. Holm collapsed below and came back up anyway. No drive. The Eden Rise drifts towards the coast while Holm, pale with pain, gives quiet orders. Then she drops the anchor in a bay with a small fishing village. For a moment it is just the two of them.",
+   "frage": "What does Duc answer when the captain asks the real question?",
+   "will": {
+    "holm": "Get her ship safe at anchor, find out who her First Officer really is, and not admit how bad the pain is."
+   },
+   "wahl": {
+    "nach_zug": 2,
+    "frage": "Who do you call when you don't know what to do next?",
+    "optionen": [
+     {
+      "text": "\"You.\"",
+      "handlung": "He says: \"You.\"",
+      "folgen": [
+       {
+        "flag": "antwort_wache_holm"
+       }
+      ]
+     },
+     {
+      "text": "\"My people here on board.\"",
+      "handlung": "He says: \"My people here on board.\"",
+      "folgen": [
+       {
+        "flag": "antwort_wache_crew"
+       }
+      ]
+     },
+     {
+      "text": "\"Nobody. I'll do it on my own.\"",
+      "handlung": "He says: \"Nobody. I'll do it on my own.\"",
+      "folgen": [
+       {
+        "flag": "antwort_wache_niemand"
+       }
+      ]
+     },
+     {
+      "text": "\"Somebody in Frankfurt.\"",
+      "handlung": "He says: \"Somebody in Frankfurt.\"",
+      "folgen": [
+       {
+        "flag": "antwort_wache_frankfurt"
+       }
+      ]
+     }
+    ]
+   },
+   "stimmung": {
+    "name": "krise",
+    "erlaubt": [
+     "fear",
+     "nervousness",
+     "anger",
+     "annoyance",
+     "confusion",
+     "sadness",
+     "surprise",
+     "realization",
+     "disapproval"
+    ]
+   }
+  },
+  "lage_mit_holm": {
+   "zeit": "08:30",
+   "ort": "bridge",
+   "anwesend": [
+    "holm",
+    "rosi",
+    "chiara"
+   ],
+   "max_zuege": 6,
+   "ausgangslage": "The morning after. The Eden Rise lies at anchor in the bay of Cala d'Orsu. The inverter is wrecked, the drive is dead; the hotel side runs on the batteries. Holm calls a briefing on the bridge, one hand pressed to her side. Rosi has the numbers, Chiara has thirteen people to look after. The company has already called twice.",
+   "frage": "What do you give up first to save power?",
+   "will": {
+    "holm": "Run one last briefing and see what her First Officer is made of.",
+    "rosi": "Make everyone understand what still works and what does not.",
+    "chiara": "Keep thirteen people fed, clean and calm.",
+    "sophia": "Pass on the company's message without starting a panic."
+   },
+   "wahl": {
+    "nach_zug": 2,
+    "frage": "What do you give up first?",
+    "optionen": [
+     {
+      "text": "Cold showers for everyone.",
+      "handlung": "He decides: cold showers for everyone until further notice.",
+      "folgen": [
+       {
+        "flag": "komfort_dusche"
+       }
+      ]
+     },
+     {
+      "text": "Half the cooling.",
+      "handlung": "He decides: the cold rooms run at half power.",
+      "folgen": [
+       {
+        "flag": "komfort_kuehlung"
+       }
+      ]
+     },
+     {
+      "text": "No more recordings for Yasin.",
+      "handlung": "He decides: Yasin's recording gear stays off.",
+      "folgen": [
+       {
+        "flag": "komfort_aufnahme"
+       }
+      ]
+     }
+    ]
+   },
+   "stimmung": {
+    "name": "ernst",
+    "erlaubt": [
+     "neutral",
+     "nervousness",
+     "annoyance",
+     "disapproval",
+     "disappointment",
+     "sadness",
+     "caring",
+     "pride",
+     "realization",
+     "confusion",
+     "fear",
+     "anger"
+    ]
+   }
+  },
+  "megan_erster_anruf": {
+   "zeit": "09:10",
+   "ort": "bridge",
+   "anwesend": [
+    "megan",
+    "holm"
+   ],
+   "max_zuege": 5,
+   "ausgangslage": "A video call on the big bridge screen. Megan McAllister, Fleet Director of the Eden Group, is furious - too loud, too fast, a coffee cup flies out of frame. \"You were supposed to be my postcard!\" Then she goes ice cold and sets her terms.",
+   "frage": "How does Duc meet the Fleet Director?",
+   "will": {
+    "megan": "Seven days: a report on the cause and a hearing on board with her as judge. No culprit, no crew - she fires all of them.",
+    "holm": "Hand over without being pushed aside, and stand up for her crew one last time."
+   },
+   "immer": [
+    {
+     "flag": "megan_ultimatum"
+    }
+   ]
+  },
+  "holm_ansprechbar": {
+   "zeit": "09:40",
+   "ort": "bridge",
+   "anwesend": [
+    "holm"
+   ],
+   "max_zuege": 4,
+   "ausgangslage": "The helicopter is twenty minutes out. Holm sits in the captain's chair one last time. She has a moment for questions - if Duc asks the right ones.",
+   "frage": "What does Duc want to know from the captain?",
+   "will": {
+    "holm": "Leave her ship in good hands and answer exactly what she is asked."
+   },
+   "stimmung": {
+    "name": "abschied",
+    "erlaubt": [
+     "sadness",
+     "grief",
+     "caring",
+     "gratitude",
+     "pride",
+     "remorse",
+     "admiration",
+     "relief",
+     "neutral"
+    ]
+   }
+  },
+  "holm_abschied": {
+   "zeit": "10:05",
+   "ort": "sun_deck",
+   "bild": "yacht_sun_deck_helicopter.png",
+   "anwesend": [
+    "holm"
+   ],
+   "max_zuege": 4,
+   "ausgangslage": "The rescue helicopter hovers over the sun deck. Appendicitis. Holm is strapped to a stretcher and still giving orders. Before they lift her, she looks for Duc one last time.",
+   "frage": "What does Duc say to her before she goes?",
+   "will": {
+    "holm": "Hand over her ship and remind Duc of his answer from last night."
+   },
+   "immer": [
+    {
+     "flag": "holm_evakuiert"
+    },
+    {
+     "flag": "kommando_duc"
+    }
+   ],
+   "stimmung": {
+    "name": "abschied",
+    "erlaubt": [
+     "sadness",
+     "grief",
+     "caring",
+     "gratitude",
+     "pride",
+     "remorse",
+     "admiration",
+     "relief",
+     "neutral"
+    ]
+   }
+  },
+  "der_freie_platz": {
+   "zeit": "10:30",
+   "ort": "crew_mess",
+   "anwesend": [
+    "chiara"
+   ],
+   "max_zuege": 4,
+   "ausgangslage": "The crew mess after the helicopter. There are too many cups on the table. Chiara reaches for the one that belonged to the captain.",
+   "frage": "What does Duc do?",
+   "will": {
+    "chiara": "Keep the room tidy, because tidy feels like control."
+   },
+   "wahl": {
+    "nach_zug": 1,
+    "frage": "The extra cup",
+    "optionen": [
+     {
+      "text": "\"Leave it there.\"",
+      "handlung": "He says quietly: \"Leave it there.\"",
+      "folgen": [
+       {
+        "flag": "freier_platz_stehen"
+       }
+      ]
+     },
+     {
+      "text": "Clear it away yourself.",
+      "handlung": "He picks up the cup and puts it away himself.",
+      "folgen": [
+       {
+        "flag": "freier_platz_selbst"
+       }
+      ]
+     },
+     {
+      "text": "Get straight to the situation.",
+      "handlung": "He moves straight on to the situation.",
+      "folgen": [
+       {
+        "flag": "freier_platz_lage"
+       }
+      ]
+     }
+    ]
+   },
+   "stimmung": {
+    "name": "abschied",
+    "erlaubt": [
+     "sadness",
+     "grief",
+     "caring",
+     "gratitude",
+     "pride",
+     "remorse",
+     "admiration",
+     "relief",
+     "neutral"
+    ]
+   }
+  },
+  "erste_ermittlung": {
+   "zeit": "11:30",
+   "ort": "power_room",
+   "anwesend": [
+    "rosi"
+   ],
+   "max_zuege": 6,
+   "ausgangslage": "Command is Duc's now. Rosi has the power room open, cables everywhere, the burnt smell still in the air. There is so much to do and only one morning.",
+   "frage": "Where does Duc start?",
+   "will": {
+    "rosi": "Understand her machine and not be told how to do her job."
+   },
+   "wahl": {
+    "nach_zug": 1,
+    "frage": "Where do you start?",
+    "optionen": [
+     {
+      "text": "Secure the event log of the power control.",
+      "handlung": "He asks Rosi to secure the event log of the power control before anything is changed.",
+      "folgen": [
+       {
+        "flag": "erste_streifen"
+       }
+      ]
+     },
+     {
+      "text": "Talk to someone about the night.",
+      "handlung": "He sits down with Rosi and asks her about the night.",
+      "folgen": [
+       {
+        "flag": "erste_gespraech"
+       }
+      ]
+     },
+     {
+      "text": "Get the supply organised first.",
+      "handlung": "He decides the supply comes first: water, cooling, food.",
+      "folgen": [
+       {
+        "flag": "erste_versorgung"
+       },
+       {
+        "wert": "moral",
+        "delta": 1
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "widerspruch": {
+   "zeit": "21:00",
+   "ort": "crew_mess",
+   "anwesend": [
+    "$fall3"
+   ],
+   "max_zuege": 6,
+   "ausgangslage": "Back on board. Dinner by headlamp. People talk about the night, each from where they were. Somewhere in all of it, something does not add up.",
+   "frage": "What does Duc do with what he hears?",
+   "will": {
+    "*": "Talk about the night from where you were - in your own way."
+   }
+  },
+  "sonnenaufgang": {
+   "zeit": "06:20",
+   "ort": "foredeck",
+   "anwesend": [
+    "$naehe"
+   ],
+   "max_zuege": 4,
+   "ausgangslage": "The first quiet morning. The sun comes up over Cala d'Orsu: fishing boats, church bells from the village, the water turning from grey to gold. A seagull with an attitude sits on the rail. Nothing needs fixing for ten minutes.",
+   "frage": "What does Duc do with ten quiet minutes?",
+   "will": {
+    "*": "Share the sunrise with Duc without talking about the night."
+   }
+  },
+  "landgang": {
+   "zeit": "11:00",
+   "ort": "village_harbour",
+   "anwesend": [
+    "alva",
+    "elsa",
+    "casanova"
+   ],
+   "max_zuege": 8,
+   "ausgangslage": "The tender to Cala d'Orsu. Three hundred people saw the yacht drift in - and yesterday they saw Duc drive the animals off their quay. The faces from that chaos are waiting: Alva from the only bar, Lieutenant Ferrandi from the coast guard, old Petru who says nothing, and the mayor, who already has plans. Duc has time for one thing now and one tonight.",
+   "frage": "What does Duc do first in the village?",
+   "will": {
+    "alva": "Find out who these people are and what they will need.",
+    "elsa": "Get a factual report on the state of the yacht.",
+    "petru": "Find out what exactly they have already checked.",
+    "casanova": "Win the stranded superyacht for her festa - with a big presentation."
+   },
+   "wahl": {
+    "nach_zug": 2,
+    "frage": "One thing now",
+    "optionen": [
+     {
+      "text": "Organise material (Alva, Petru).",
+      "handlung": "He asks Alva and Petru for help with parts and supplies.",
+      "folgen": [
+       {
+        "flag": "vorhaben_material"
+       }
+      ]
+     },
+     {
+      "text": "Check a lead ashore.",
+      "handlung": "He follows up on something he wants to check ashore.",
+      "folgen": [
+       {
+        "flag": "vorhaben_spur"
+       }
+      ]
+     },
+     {
+      "text": "Keep a personal promise.",
+      "handlung": "He keeps a promise he made to someone on board.",
+      "folgen": [
+       {
+        "flag": "vorhaben_versprechen"
+       }
+      ]
+     }
+    ]
+   },
+   "immer": [
+    {
+     "flag": "alva_kennengelernt"
+    },
+    {
+     "flag": "elsa_kennengelernt"
+    },
+    {
+     "flag": "petru_kennengelernt"
+    }
+   ]
+  },
+  "landgang_2": {
+   "zeit": "19:30",
+   "ort": "alvas_bar",
+   "anwesend": [
+    "alva"
+   ],
+   "max_zuege": 5,
+   "ausgangslage": "Alva's bar at dinner time. Fishermen at the counter, an old song on the radio. Duc has one more thing he wanted to do today.",
+   "frage": "What does Duc use the evening for?",
+   "will": {
+    "alva": "Close the bar late and hear everything."
+   },
+   "wahl": {
+    "nach_zug": 1,
+    "frage": "The second thing",
+    "optionen": [
+     {
+      "text": "Organise material.",
+      "handlung": "He uses the evening to organise material.",
+      "folgen": [
+       {
+        "flag": "vorhaben_material"
+       }
+      ]
+     },
+     {
+      "text": "Check a lead ashore.",
+      "handlung": "He uses the evening to check a lead.",
+      "folgen": [
+       {
+        "flag": "vorhaben_spur"
+       }
+      ]
+     },
+     {
+      "text": "Keep a personal promise.",
+      "handlung": "He uses the evening to keep a promise.",
+      "folgen": [
+       {
+        "flag": "vorhaben_versprechen"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "gemeinsames_essen": {
+   "zeit": "21:00",
+   "ort": "aft_deck",
+   "anwesend": [
+    "lola",
+    "lea",
+    "rosi"
+   ],
+   "max_zuege": 6,
+   "ausgangslage": "Lola's first dinner in the bay, cooked with whatever the village had - and somehow it is the best thing anyone has eaten in days. Candles because of the power, the lights of Cala d'Orsu across the water. Somebody laughs for the first time since the music stopped.",
+   "frage": "What does Duc say when someone asks what really happened?",
+   "will": {
+    "lola": "Make everyone eat and laugh.",
+    "lea": "Ask the question nobody else asks.",
+    "rosi": "Eat and pretend she is not worried."
+   }
+  },
+  "naehe": {
+   "zeit": "23:30",
+   "ort": "duc_cabin",
+   "anwesend": [
+    "$naehe"
+   ],
+   "max_zuege": 8,
+   "ausgangslage": "The first evening in the bay is over. The yacht is quiet. Someone did not want to be alone tonight and is sitting with Duc where nobody will walk in.",
+   "frage": "How close do you let this night get?",
+   "will": {
+    "*": "Not be alone tonight - and decide for herself how far it goes."
+   },
+   "wahl": {
+    "nach_zug": 4,
+    "frage": "\"Tomorrow you'll ask me about tonight again.\"",
+    "optionen": [
+     {
+      "text": "\"Yes.\"",
+      "handlung": "He says: \"Yes.\"",
+      "folgen": [
+       {
+        "flag": "naehe_ja"
+       }
+      ]
+     },
+     {
+      "text": "\"Only if you want to talk.\"",
+      "handlung": "He says: \"Only if you want to talk.\"",
+      "folgen": [
+       {
+        "flag": "naehe_nur_wenn"
+       }
+      ]
+     },
+     {
+      "text": "…",
+      "handlung": "He doesn't answer.",
+      "folgen": [
+       {
+        "flag": "naehe_ausweichen"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "reparaturschritt": {
+   "zeit": "18:00",
+   "ort": "power_room",
+   "anwesend": [
+    "rosi"
+   ],
+   "max_zuege": 6,
+   "ausgangslage": "The whiteboard in the power room says ROSI VS. OFFICER in big letters. Today: emergency power and the power room itself. Rosi has everything laid out. What they did in the last days decides whether this works.",
+   "frage": "Does the step work?",
+   "will": {
+    "rosi": "Make the machine do what she tells it to - and win the whiteboard."
+   }
+  },
+  "megan_ankuendigung": {
+   "zeit": "21:30",
+   "ort": "duc_cabin",
+   "anwesend": [
+    "megan"
+   ],
+   "max_zuege": 4,
+   "ausgangslage": "A video call in Duc's cabin. Megan is calm tonight, which is worse. Tomorrow she will come aboard herself, and she will stay until the hearing.",
+   "frage": "What does Duc tell her before she comes?",
+   "will": {
+    "megan": "Announce her visit and hear whether Duc is ready."
+   },
+   "immer": [
+    {
+     "flag": "megan_angekuendigt"
+    }
+   ]
+  },
+  "sturmvorbereitung": {
+   "zeit": "18:00",
+   "ort": "aft_deck",
+   "bild": "yacht_aft_deck_storm_coming.png",
+   "anwesend": [
+    "chiara",
+    "rosi",
+    "lea"
+   ],
+   "max_zuege": 7,
+   "ausgangslage": "A storm is coming tonight, gusts to forty knots. Megan is aboard and watching. Lines and anchor, power, galley, tender, and the makeshift supply that was rigged yesterday. Duc cannot be everywhere. He has to send people.",
+   "frage": "Who does Duc send where - and what does he check himself?",
+   "will": {
+    "chiara": "Get a clear job and do it perfectly.",
+    "rosi": "Save every amp for the night.",
+    "lea": "Be trusted with something real."
+   },
+   "immer": [
+    {
+     "flag": "sturm_vorbereitet"
+    }
+   ],
+   "stimmung": {
+    "name": "sturm",
+    "erlaubt": [
+     "fear",
+     "nervousness",
+     "anger",
+     "annoyance",
+     "confusion",
+     "sadness",
+     "surprise",
+     "realization",
+     "caring",
+     "pride",
+     "relief"
+    ]
+   }
+  },
+  "sturmnacht": {
+   "zeit": "23:30",
+   "ort": "aft_deck",
+   "bild": "yacht_aft_deck_storm_night.png",
+   "anwesend": [
+    "chiara",
+    "rosi",
+    "lea"
+   ],
+   "max_zuege": 8,
+   "ausgangslage": "The storm hits after midnight. The yacht pitches at anchor, rain hammers the windows, the power drops hard. Everyone has a place - if Duc gave them one.",
+   "frage": "How does the crew get through the night?",
+   "will": {
+    "chiara": "Hold her post.",
+    "rosi": "Keep the power alive.",
+    "lea": "Watch the anchor and not be afraid."
+   },
+   "stimmung": {
+    "name": "sturm",
+    "erlaubt": [
+     "fear",
+     "nervousness",
+     "anger",
+     "annoyance",
+     "confusion",
+     "sadness",
+     "surprise",
+     "realization",
+     "caring",
+     "pride",
+     "relief"
+    ]
+   }
+  },
+  "megan_kommt": {
+   "zeit": "08:30",
+   "ort": "crew_mess",
+   "anwesend": [
+    "chiara",
+    "lola"
+   ],
+   "max_zuege": 4,
+   "ausgangslage": "Breakfast in a hurry. Chiara has the crew in uniform, Lola has baked as if for royalty. Somewhere over the hills a helicopter is coming.",
+   "frage": "How does Duc prepare the crew for the visit?",
+   "will": {
+    "chiara": "Make the yacht look perfect.",
+    "lola": "Impress the boss with breakfast."
+   },
+   "immer": [
+    {
+     "flag": "megan_besuch"
+    }
+   ]
+  },
+  "megan_inspektion": {
+   "zeit": "11:00",
+   "ort": "power_room",
+   "anwesend": [
+    "megan",
+    "rosi"
+   ],
+   "max_zuege": 7,
+   "ausgangslage": "Megan McAllister in white, a clipboard, no small talk. She walks the yacht and ends up in the power room, where Rosi refuses to stand to attention.",
+   "frage": "What does Duc show the Fleet Director - and what does he ask her?",
+   "will": {
+    "megan": "See the damage for herself and keep control of the story - and keep quiet about what she sees.",
+    "rosi": "Explain her machine and not be blamed for it."
+   },
+   "wahl": {
+    "nach_zug": 3,
+    "frage": "What do you show her?",
+    "optionen": [
+     {
+      "text": "Everything - even what speaks against the crew.",
+      "handlung": "He shows Megan everything, even what speaks against his own crew.",
+      "folgen": [
+       {
+        "flag": "inspektion_offen"
+       }
+      ]
+     },
+     {
+      "text": "Hold something back.",
+      "handlung": "He keeps one thing back from Megan.",
+      "folgen": [
+       {
+        "flag": "inspektion_beschoenigt"
+       }
+      ]
+     }
+    ]
+   },
+   "stimmung": {
+    "name": "ernst",
+    "erlaubt": [
+     "neutral",
+     "nervousness",
+     "annoyance",
+     "disapproval",
+     "disappointment",
+     "sadness",
+     "caring",
+     "pride",
+     "realization",
+     "confusion",
+     "fear",
+     "anger"
+    ]
+   }
+  },
+  "leises_telefonat": {
+   "zeit": "19:40",
+   "ort": "sun_deck",
+   "anwesend": [
+    "megan"
+   ],
+   "max_zuege": 4,
+   "ausgangslage": "Wind is picking up. On the sun deck Megan is on the phone, half turned away, voice low. Duc hears two letters, twice: \"A.V.\" and something about \"the buyer from Monaco\". Then she sees him.",
+   "frage": "What does Duc do?",
+   "will": {
+    "megan": "End the call, become the boss again, and not explain."
+   }
+  },
+  "etwas_anders": {
+   "zeit": "07:10",
+   "ort": "$spur",
+   "anwesend": [],
+   "max_zuege": 3,
+   "ausgangslage": "Early morning, before breakfast. Duc passes a place he has already looked at closely. Something is not the way he left it.",
+   "frage": "What does Duc do about it?",
+   "will": {}
+  },
+  "lagerfeuer": {
+   "zeit": "20:30",
+   "ort": "swim_platform",
+   "bild": "eden_rise_strand_lagerfeuer.png",
+   "anwesend": [
+    "lola",
+    "maxwell",
+    "toto"
+   ],
+   "max_zuege": 8,
+   "ausgangslage": "A fire on the little beach next to the yacht, the storm gone, the sky washed clean. Lola grills, Maxwell tells a story about Maxwell, Totò takes bets on who falls asleep first. Tomorrow is the hearing. Nobody talks about it - until somebody does.",
+   "frage": "What does Duc share by the fire?",
+   "will": {
+    "lola": "Feed everyone and keep the mood up.",
+    "maxwell": "Make everyone laugh and do push-ups for every joke.",
+    "toto": "Run his book and not look at the hills."
+   }
+  },
+  "letzte_naehe": {
+   "zeit": "22:30",
+   "ort": "duc_cabin",
+   "anwesend": [
+    "$naehe"
+   ],
+   "max_zuege": 8,
+   "ausgangslage": "The last quiet evening before the hearing. Duc chose who to spend it with, and she came.",
+   "frage": "What is said tonight?",
+   "will": {
+    "*": "Spend the evening with him and say one thing she means."
+   }
+  },
+  "anhoerung": {
+   "zeit": "11:00",
+   "ort": "main_salon",
+   "bild": "eden_rise_salon_anhoerung.png",
+   "anwesend": [
+    "megan",
+    "$fall3"
+   ],
+   "max_zuege": 8,
+   "ausgangslage": "The main salon, rearranged into a courtroom by Chiara at dawn. Megan sits where the captain should. The crew on the sofas, two chairs for witnesses. Whatever Duc has found, now is when it counts.",
+   "frage": "Who does Duc name before the judge?",
+   "will": {
+    "megan": "Hear one name and the proof for it - and not admit that something about this bothers her.",
+    "*": "Get through the hearing - and see who Duc names."
+   },
+   "wahl": {
+    "nach_zug": 2,
+    "frage": "Who do you name?",
+    "optionen": [],
+    "optionen_aus": "anklage"
+   },
+   "immer": [
+    {
+     "flag": "anhoerung_gehalten"
+    }
+   ],
+   "stimmung": {
+    "name": "anhoerung",
+    "erlaubt": [
+     "neutral",
+     "nervousness",
+     "fear",
+     "anger",
+     "annoyance",
+     "disapproval",
+     "disappointment",
+     "pride",
+     "sadness",
+     "confusion",
+     "realization",
+     "remorse",
+     "relief",
+     "grief",
+     "surprise"
+    ]
+   }
+  },
+  "anhoerung_rolle": {
+   "zeit": "11:40",
+   "ort": "main_salon",
+   "bild": "eden_rise_salon_anhoerung.png",
+   "anwesend": [
+    "megan"
+   ],
+   "max_zuege": 4,
+   "ausgangslage": "The witnesses have spoken. Megan turns a page. \"And you, First Officer? Where were you, and what did you sign that night?\"",
+   "frage": "Does Duc tell the truth about his own part?",
+   "will": {
+    "megan": "Know whether the man in front of her lies to her too."
+   },
+   "wahl": {
+    "nach_zug": 1,
+    "frage": "Your own part",
+    "optionen": [
+     {
+      "text": "Tell her everything - including what I did wrong.",
+      "handlung": "He tells Megan honestly what he himself did and failed to do that night.",
+      "folgen": [],
+      "anhoerung": {
+       "schritt": "rolle",
+       "ehrlich": true
+      }
+     },
+     {
+      "text": "Keep it to myself.",
+      "handlung": "He keeps his own part to himself.",
+      "folgen": [],
+      "anhoerung": {
+       "schritt": "rolle",
+       "ehrlich": false
+      }
+     }
+    ]
+   },
+   "stimmung": {
+    "name": "anhoerung",
+    "erlaubt": [
+     "neutral",
+     "nervousness",
+     "fear",
+     "anger",
+     "annoyance",
+     "disapproval",
+     "disappointment",
+     "pride",
+     "sadness",
+     "confusion",
+     "realization",
+     "remorse",
+     "relief",
+     "grief",
+     "surprise"
+    ]
+   }
+  },
+  "anhoerung_urteil": {
+   "zeit": "12:10",
+   "ort": "main_salon",
+   "bild": "eden_rise_salon_anhoerung.png",
+   "anwesend": [
+    "megan"
+   ],
+   "max_zuege": 5,
+   "ausgangslage": "Megan closes the folder. Before she speaks, she looks at Duc one last time. \"Anything else?\"",
+   "frage": "What does Duc ask for?",
+   "will": {
+    "megan": "Pass a verdict she can live with."
+   },
+   "wahl": {
+    "nach_zug": 1,
+    "frage": "Your plea",
+    "optionen": [
+     {
+      "text": "Ask for mercy.",
+      "handlung": "He asks Megan for mercy.",
+      "folgen": [],
+      "anhoerung": {
+       "schritt": "plaedoyer",
+       "art": "gnade"
+      }
+     },
+     {
+      "text": "Share the blame.",
+      "handlung": "He offers to carry part of the blame himself.",
+      "folgen": [],
+      "anhoerung": {
+       "schritt": "plaedoyer",
+       "art": "teilen"
+      }
+     },
+     {
+      "text": "Demand the full penalty.",
+      "handlung": "He demands the full penalty.",
+      "folgen": [],
+      "anhoerung": {
+       "schritt": "plaedoyer",
+       "art": "strafe"
+      }
+     }
+    ]
+   },
+   "stimmung": {
+    "name": "anhoerung",
+    "erlaubt": [
+     "neutral",
+     "nervousness",
+     "fear",
+     "anger",
+     "annoyance",
+     "disapproval",
+     "disappointment",
+     "pride",
+     "sadness",
+     "confusion",
+     "realization",
+     "remorse",
+     "relief",
+     "grief",
+     "surprise"
+    ]
+   }
+  },
+  "nach_dem_urteil": {
+   "zeit": "18:00",
+   "ort": "crew_mess",
+   "anwesend": [
+    "megan",
+    "chiara",
+    "lola"
+   ],
+   "max_zuege": 6,
+   "ausgangslage": "After the verdict. The helicopter is waiting on the sun deck. The crew mess is too quiet, and somebody who was suspected all week is waiting for a word from Duc.",
+   "frage": "What does Duc say now that it is decided?",
+   "will": {
+    "megan": "Leave with the last word.",
+    "chiara": "Put the room back in order.",
+    "lola": "Cook something, because that is what you do after."
+   },
+   "immer": [
+    {
+     "flag": "megan_abgereist"
+    }
+   ]
+  },
+  "cliffhanger": {
+   "zeit": "02:00",
+   "ort": "foredeck",
+   "bild": "eden_rise_berge_rotes_licht.png",
+   "anwesend": [],
+   "max_zuege": 2,
+   "ausgangslage": "Night. Everyone is asleep. High up in the hills above the bay a red light is blinking - the same slow rhythm as the light behind the inverter. Then a howl from the macchia. It is not a dog.",
+   "frage": "End of Act 1.",
+   "will": {},
+   "immer": [
+    {
+     "flag": "akt1_ende"
+    }
+   ],
+   "stimmung": {
+    "name": "krise",
+    "erlaubt": [
+     "fear",
+     "nervousness",
+     "anger",
+     "annoyance",
+     "confusion",
+     "sadness",
+     "surprise",
+     "realization",
+     "disapproval"
+    ]
+   }
+  }
+ },
+ "frei": {
+  "fruehstueck": [
+   "Breakfast time, the bay still quiet. {name} is at {ort}, same as every morning.",
+   "Coffee, toast, the bay still grey. {name} is at {ort} and has saved you a seat, more or less.",
+   "The first light comes in low over the water. {name} is already up, at {ort}."
+  ],
+  "tag": [
+   "A free hour around midday. {name} could use some company - or some help.",
+   "Midday heat. {name} is at {ort}, pretending to be busy.",
+   "Nobody needs you for an hour. {name} is at {ort}."
+  ],
+  "nachmittag": [
+   "The long afternoon. {name} is at {ort} and in no hurry at all.",
+   "The afternoon drags on in the bay. {name} is at {ort} and wouldn't say no to a distraction.",
+   "Sun, salt, a slow afternoon. You find {name} at {ort}."
+  ],
+  "dinner": [
+   "Dinner time. {name} is eating at {ort} and there is a free chair.",
+   "Something smells good. {name} has a plate at {ort} and nods at the seat opposite.",
+   "Dinner, more or less. {name} is at {ort} with a plate that hasn't been touched yet."
+  ],
+  "abend": [
+   "A quiet evening. {name} is at {ort}, not quite ready to call it a day.",
+   "The light goes orange over Corsica. {name} is at {ort}, watching it.",
+   "Evening in the bay, and nothing left to do today. {name} is at {ort}."
+  ],
+  "nacht": [
+   "Late. The yacht creaks at anchor. {name} is still up, at {ort}.",
+   "Almost everyone is asleep. Almost. {name} is at {ort}.",
+   "Night, the anchor light, water slapping against the hull. {name} can't sleep either - you find them at {ort}."
+  ]
+ }
+}

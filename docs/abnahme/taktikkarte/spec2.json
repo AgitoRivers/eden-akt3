@@ -1,0 +1,55 @@
+{
+ "id": "taktikkarte2",
+ "titel": "Taktik-Karte: frontale Vogelperspektive",
+ "hinweis": "Ohne Raster und ohne Figuren. Oben genau von oben, unten leicht von vorn.",
+ "items": [
+  {
+   "id": "oben_a",
+   "titel": "Genau von oben a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\oben_a.png",
+   "soll": "Gerade, parallel zum Rand, passt als Spielfeld?"
+  },
+  {
+   "id": "oben_b",
+   "titel": "Genau von oben b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\oben_b.png",
+   "soll": "Gerade, parallel zum Rand, passt als Spielfeld?"
+  },
+  {
+   "id": "oben_c",
+   "titel": "Genau von oben c",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\oben_c.png",
+   "soll": "Gerade, parallel zum Rand, passt als Spielfeld?"
+  },
+  {
+   "id": "oben_d",
+   "titel": "Genau von oben d",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\oben_d.png",
+   "soll": "Gerade, parallel zum Rand, passt als Spielfeld?"
+  },
+  {
+   "id": "front_a",
+   "titel": "Leicht von vorn a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\front_a.png",
+   "soll": "Gerade, parallel zum Rand, passt als Spielfeld?"
+  },
+  {
+   "id": "front_b",
+   "titel": "Leicht von vorn b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\front_b.png",
+   "soll": "Gerade, parallel zum Rand, passt als Spielfeld?"
+  },
+  {
+   "id": "front_c",
+   "titel": "Leicht von vorn c",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\front_c.png",
+   "soll": "Gerade, parallel zum Rand, passt als Spielfeld?"
+  },
+  {
+   "id": "front_d",
+   "titel": "Leicht von vorn d",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_karte_test\\front_d.png",
+   "soll": "Gerade, parallel zum Rand, passt als Spielfeld?"
+  }
+ ]
+}

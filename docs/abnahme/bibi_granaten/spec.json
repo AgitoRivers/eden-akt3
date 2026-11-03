@@ -1,0 +1,25 @@
+{
+ "id": "bibi_granaten_r1",
+ "titel": "Bibi – Granaten in Dosenform (Test, 3 Posen)",
+ "hinweis": "Test vor dem Neu-Rendern aller 13 Posen. Bitte Form und Farbe bewerten.",
+ "items": [
+  {
+   "id": "idle",
+   "titel": "Bibi · idle",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\bibi_granaten\\idle.png",
+   "soll": "Dosenform in Schwarz. Dosenform passt, Dose und Gürtel noch olivgrün"
+  },
+  {
+   "id": "attack",
+   "titel": "Bibi · attack",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\bibi_granaten\\attack.png",
+   "soll": "Dosenform in Schwarz. Dosenform passt, Dose und Gürtel noch olivgrün"
+  },
+  {
+   "id": "heavy_windup",
+   "titel": "Bibi · heavy_windup",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\bibi_granaten\\heavy_windup.png",
+   "soll": "Dosenform in Schwarz. Dosen in den Händen schwarz, Gürtel dunkel mit etwas Oliv"
+  }
+ ]
+}

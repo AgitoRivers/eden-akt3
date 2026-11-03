@@ -1,0 +1,68 @@
+[
+  {
+    "name": "wasserstoss",
+    "source": "ballistic_render_all_rasterizer_.png",
+    "source_sha256": "d32aeaa59cd463f85884dbf3ac535a39381138f9c5c12fb84ede6a1766ceed61",
+    "crop": [
+      0,
+      4,
+      256,
+      256
+    ],
+    "frames": 64,
+    "columns": 8,
+    "rows": 8,
+    "frame_size": [
+      256,
+      256
+    ],
+    "unique_frames": 64,
+    "nonempty_frames": 64,
+    "alpha": "black-background reconstruction",
+    "processing": "shared crop, remove tiny isolated fragments, neutralize water dye / lift impact brightness; original files unchanged"
+  },
+  {
+    "name": "ausbruch",
+    "source": "fountain_render_all_rasterizer_.png",
+    "source_sha256": "af52889b5d09a3dcb84b5f92d2ad1473da8ce18d41ff687bff14d4b3676d1803",
+    "crop": [
+      30,
+      68,
+      224,
+      256
+    ],
+    "frames": 64,
+    "columns": 8,
+    "rows": 8,
+    "frame_size": [
+      256,
+      256
+    ],
+    "unique_frames": 64,
+    "nonempty_frames": 61,
+    "alpha": "native alpha; cleaned isolated fragments",
+    "processing": "shared crop, remove tiny isolated fragments, neutralize water dye / lift impact brightness; original files unchanged"
+  },
+  {
+    "name": "treffer",
+    "source": "treffer_render_all.png",
+    "source_sha256": "f68781e1e8bb6a87ba9937493367b8bab8359274016dea6b968ee41d629ef49f",
+    "crop": [
+      0,
+      69,
+      254,
+      195
+    ],
+    "frames": 64,
+    "columns": 8,
+    "rows": 8,
+    "frame_size": [
+      256,
+      256
+    ],
+    "unique_frames": 64,
+    "nonempty_frames": 63,
+    "alpha": "native alpha; cleaned isolated fragments",
+    "processing": "shared crop, remove tiny isolated fragments, neutralize water dye / lift impact brightness; original files unchanged"
+  }
+]

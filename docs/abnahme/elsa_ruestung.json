@@ -1,0 +1,55 @@
+{
+ "id": "elsa_ruestung",
+ "titel": "Elsa: Kampfrüstung, drei Richtungen",
+ "hinweis": "Chiara bleibt hell mit fliegendem Pferdeschwanz, Elsa soll dunkel und kantig sein. Vorschlag: B, das Käppi und der lange Mantel geben die klarste eigene Silhouette, und sie passen zu einer Frau, die jede Vorschrift befolgt. Im Spiel ändert sich noch nichts.",
+ "items": [
+  {
+   "id": "a1",
+   "titel": "A1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_elsa_ruestung\\a\\neutral-1.png",
+   "soll": "A: Einsatzhelm, schwarze Weste, Knieschoner (Entwurf der Story-Sitzung). Kommt Mr. Whites Agenten am nächsten",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Elsa Ferrandi\\neutral.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "a2",
+   "titel": "A2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_elsa_ruestung\\a\\neutral.png",
+   "soll": "A: Einsatzhelm, schwarze Weste, Knieschoner (Entwurf der Story-Sitzung). Kommt Mr. Whites Agenten am nächsten",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Elsa Ferrandi\\neutral.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "b1",
+   "titel": "B1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_elsa_ruestung\\b\\neutral-1.png",
+   "soll": "B: Gendarmerie-Käppi und langer Mantel mit breiten Schultern",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Elsa Ferrandi\\neutral.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "b2",
+   "titel": "B2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_elsa_ruestung\\b\\neutral.png",
+   "soll": "B: Gendarmerie-Käppi und langer Mantel mit breiten Schultern",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Elsa Ferrandi\\neutral.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "c1",
+   "titel": "C1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_elsa_ruestung\\c\\neutral-1.png",
+   "soll": "C: Barett und Entermontur der Küstenwache mit eckigen dunkelblauen Platten",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Elsa Ferrandi\\neutral.png",
+   "vergleich_titel": "Bisher"
+  },
+  {
+   "id": "c2",
+   "titel": "C2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_elsa_ruestung\\c\\neutral.png",
+   "soll": "C: Barett und Entermontur der Küstenwache mit eckigen dunkelblauen Platten",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\figuren\\Elsa Ferrandi\\neutral.png",
+   "vergleich_titel": "Bisher"
+  }
+ ]
+}

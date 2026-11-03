@@ -1,0 +1,103 @@
+{
+ "id": "sitz_test",
+ "titel": "Test: stehen statt sitzen",
+ "hinweis": "Links das neue Bild, daneben das aktuelle. Entscheidend ist, ob dir der Look ohne Krea_Nsfw2 noch gefällt.",
+ "items": [
+  {
+   "id": "Sophia_confusion_E_ohneNsfw",
+   "titel": "Sophia · confusion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sitz_test\\Sophia\\confusion__E_ohneNsfw.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\confusion.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Ohne Krea_Nsfw2, Rahmen bis Oberschenkel. Gleicher Seed. Ist es noch ihr Look?"
+  },
+  {
+   "id": "Sophia_approval_E_ohneNsfw",
+   "titel": "Sophia · approval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sitz_test\\Sophia\\approval__E_ohneNsfw.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\approval.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Ohne Krea_Nsfw2, Rahmen bis Oberschenkel. Gleicher Seed. Ist es noch ihr Look?"
+  },
+  {
+   "id": "Sophia_caring_E_ohneNsfw",
+   "titel": "Sophia · caring",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sitz_test\\Sophia\\caring__E_ohneNsfw.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\caring.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Ohne Krea_Nsfw2, Rahmen bis Oberschenkel. Gleicher Seed. Ist es noch ihr Look?"
+  },
+  {
+   "id": "Sophia_disappointment_E_ohneNsfw",
+   "titel": "Sophia · disappointment",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sitz_test\\Sophia\\disappointment__E_ohneNsfw.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\disappointment.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Ohne Krea_Nsfw2, Rahmen bis Oberschenkel. Gleicher Seed. Ist es noch ihr Look?"
+  },
+  {
+   "id": "Sophia_anger_E_ohneNsfw",
+   "titel": "Sophia · anger",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sitz_test\\Sophia\\anger__E_ohneNsfw.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\anger.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Ohne Krea_Nsfw2, Rahmen bis Oberschenkel. Gleicher Seed. Ist es noch ihr Look?"
+  },
+  {
+   "id": "Sophia_nervousness_E_ohneNsfw",
+   "titel": "Sophia · nervousness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sitz_test\\Sophia\\nervousness__E_ohneNsfw.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\nervousness.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Ohne Krea_Nsfw2, Rahmen bis Oberschenkel. Gleicher Seed. Ist es noch ihr Look?"
+  },
+  {
+   "id": "Sophia_optimism-1_E_ohneNsfw",
+   "titel": "Sophia · optimism-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sitz_test\\Sophia\\optimism-1__E_ohneNsfw.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\optimism-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Ohne Krea_Nsfw2, Rahmen bis Oberschenkel. Gleicher Seed. Ist es noch ihr Look?"
+  },
+  {
+   "id": "Sophia_optimism-1_G_arme",
+   "titel": "Sophia · optimism-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sitz_test\\Sophia\\optimism-1__G_arme.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\optimism-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Dazu Arme auf Kopfhöhe statt ganz nach oben. Gleicher Seed. Ist es noch ihr Look?"
+  },
+  {
+   "id": "Chiara_confusion_E_ohneNsfw",
+   "titel": "Chiara · confusion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sitz_test\\Chiara\\confusion__E_ohneNsfw.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Chiara Sonnberg\\confusion.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Ohne Krea_Nsfw2, Rahmen bis Oberschenkel. Gleicher Seed. Ist es noch ihr Look?"
+  },
+  {
+   "id": "Chiara_optimism-1_G_arme",
+   "titel": "Chiara · optimism-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sitz_test\\Chiara\\optimism-1__G_arme.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Chiara Sonnberg\\optimism-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Dazu Arme auf Kopfhöhe statt ganz nach oben. Gleicher Seed. Ist es noch ihr Look?"
+  },
+  {
+   "id": "Rosi_caring_E_ohneNsfw",
+   "titel": "Rosi · caring",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sitz_test\\Rosi\\caring__E_ohneNsfw.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Rosi Scuderi\\caring.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Ohne Krea_Nsfw2, Rahmen bis Oberschenkel. Gleicher Seed. Ist es noch ihr Look?"
+  },
+  {
+   "id": "Rosi_optimism-1_G_arme",
+   "titel": "Rosi · optimism-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sitz_test\\Rosi\\optimism-1__G_arme.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Rosi Scuderi\\optimism-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Dazu Arme auf Kopfhöhe statt ganz nach oben. Gleicher Seed. Ist es noch ihr Look?"
+  }
+ ]
+}

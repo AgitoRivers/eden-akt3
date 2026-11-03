@@ -1,0 +1,931 @@
+{
+ "an_000": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_001": [
+  {
+   "zug": 0,
+   "flags": [
+    "stimme_falsch"
+   ],
+   "beleg": "Maybe she can fix it."
+  },
+  {
+   "zug": 1,
+   "flags": [
+    "stimme_falsch"
+   ],
+   "beleg": "I'd be so grateful, Duc. That jukebox..."
+  }
+ ],
+ "an_002": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_003": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_004": [
+  {
+   "zug": 0,
+   "flags": [
+    "stimme_falsch"
+   ],
+   "beleg": "Breakfast pictures are a slippery slope, aye?"
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_005": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [
+    "stimme_falsch"
+   ],
+   "beleg": "What do you say, First Officer? Fancy a game"
+  }
+ ],
+ "an_006": [
+  {
+   "zug": 0,
+   "flags": [
+    "stimme_falsch",
+    "thema_verloren"
+   ],
+   "beleg": "Aye, wee Duc, aye."
+  },
+  {
+   "zug": 1,
+   "flags": [
+    "stimme_falsch",
+    "thema_verloren"
+   ],
+   "beleg": "The yacht's running smoothly, I assume?"
+  }
+ ],
+ "an_007": [
+  {
+   "zug": 0,
+   "flags": [
+    "biografie_erfunden"
+   ],
+   "beleg": "my Nonna's recipe has been passed down for generations"
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_008": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_009": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_010": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_011": [
+  {
+   "zug": 0,
+   "flags": [
+    "schreibt_duc"
+   ],
+   "beleg": "Don't look at me like that."
+  },
+  {
+   "zug": 1,
+   "flags": [
+    "schreibt_duc"
+   ],
+   "beleg": "You're doing it again. Stop trying to find the lesson"
+  }
+ ],
+ "an_012": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_013": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_014": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_015": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_016": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_017": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_018": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_019": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [
+    "stimme_falsch"
+   ],
+   "beleg": "trailing her fingertips along Duc's arm"
+  }
+ ],
+ "an_020": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_021": [
+  {
+   "zug": 0,
+   "flags": [
+    "biografie_erfunden"
+   ],
+   "beleg": "called a cousin in Bastia just to get those Tim Tams"
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_022": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_023": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [
+    "schreibt_duc"
+   ],
+   "beleg": "you just stood there with that look on your face"
+  }
+ ],
+ "an_024": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_025": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_026": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_027": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_028": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_029": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_030": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_031": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_032": [
+  {
+   "zug": 0,
+   "flags": [
+    "thema_verloren",
+    "biografie_erfunden"
+   ],
+   "beleg": "Enough of that. Let's make some noise, First Officer."
+  },
+  {
+   "zug": 1,
+   "flags": [
+    "thema_verloren",
+    "schreibt_duc"
+   ],
+   "beleg": "She pulls him to his feet, her hand on his chest."
+  }
+ ],
+ "an_033": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_034": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_035": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_036": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_037": [
+  {
+   "zug": 0,
+   "flags": [
+    "biografie_erfunden"
+   ],
+   "beleg": "I've never seen a hill. I've never left this pool."
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_038": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_039": [
+  {
+   "zug": 0,
+   "flags": [
+    "stimme_falsch"
+   ],
+   "beleg": "nine for service, even if my Italian is a four"
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_040": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [
+    "rueckbezug_erfunden"
+   ],
+   "beleg": "You made it feel possible."
+  }
+ ],
+ "an_041": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_042": [
+  {
+   "zug": 0,
+   "flags": [
+    "stimme_falsch"
+   ],
+   "beleg": "Checkmate, in a manner of speaking... shark's tooth"
+  },
+  {
+   "zug": 1,
+   "flags": [
+    "stimme_falsch",
+    "thema_verloren"
+   ],
+   "beleg": "Don't tell me you're enjoying this, Mac."
+  }
+ ],
+ "an_043": [
+  {
+   "zug": 0,
+   "flags": [
+    "stimme_falsch"
+   ],
+   "beleg": "Six. Out of ten. For the line... Eight."
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_044": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_045": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_046": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [
+    "schreibt_duc"
+   ],
+   "beleg": "Oh, you know Moomin!"
+  }
+ ],
+ "an_047": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_048": [
+  {
+   "zug": 0,
+   "flags": [
+    "biografie_erfunden"
+   ],
+   "beleg": "running around in those silly suits, jumping out at everyone"
+  },
+  {
+   "zug": 1,
+   "flags": [
+    "biografie_erfunden"
+   ],
+   "beleg": "dead set on catching anyone who came near the macchia"
+  }
+ ],
+ "an_049": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_050": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_051": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_052": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_053": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [
+    "biografie_erfunden"
+   ],
+   "beleg": "I was twelve when the bank came."
+  }
+ ],
+ "an_054": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_055": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_056": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [
+    "stimme_falsch"
+   ],
+   "beleg": "I am what I am - a creature of the deep"
+  }
+ ],
+ "an_057": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_058": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_059": [
+  {
+   "zug": 0,
+   "flags": [
+    "biografie_erfunden"
+   ],
+   "beleg": "Said it was his good luck charm. Grandpa always wore it."
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_060": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_061": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_062": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_063": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_064": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_065": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [
+    "schreibt_duc"
+   ],
+   "beleg": "the second you didn't run, we just froze"
+  }
+ ],
+ "an_066": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_067": [
+  {
+   "zug": 0,
+   "flags": [
+    "stimme_falsch"
+   ],
+   "beleg": "smiles, but it doesn't quite reach her eyes"
+  },
+  {
+   "zug": 1,
+   "flags": [
+    "stimme_falsch"
+   ],
+   "beleg": "Tell me, First Officer, what do you like to win at?"
+  }
+ ],
+ "an_068": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_069": [
+  {
+   "zug": 0,
+   "flags": [
+    "stimme_falsch"
+   ],
+   "beleg": "The quiet one? You are a coward, Officer."
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_070": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "an_071": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  }
+ ]
+}

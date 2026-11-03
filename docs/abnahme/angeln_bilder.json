@@ -1,0 +1,223 @@
+{
+ "id": "angeln_bilder",
+ "titel": "Angeln – Orte und Köder zur Auswahl",
+ "hinweis": "Je Gewässer (Meer, Fluss/See) 3 Orte mit OK markieren, je Köder-Stufe 1 Variante. Notizen für Änderungswünsche.",
+ "items": [
+  {
+   "id": "meer_01",
+   "titel": "Meer 1 · Badeplattform am Nachmittag",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_angeln_meer_01.png",
+   "soll": "Links offenes Wasser für den Köder, rechts Ufer/Deck. 3 je Gewässer mit OK markieren."
+  },
+  {
+   "id": "meer_02",
+   "titel": "Meer 2 · Achterdeck zur goldenen Stunde",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_angeln_meer_02.png",
+   "soll": "Links offenes Wasser für den Köder, rechts Ufer/Deck. 3 je Gewässer mit OK markieren."
+  },
+  {
+   "id": "meer_03",
+   "titel": "Meer 3 · Granitbucht auf Korsika",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_angeln_meer_03.png",
+   "soll": "Links offenes Wasser für den Köder, rechts Ufer/Deck. 3 je Gewässer mit OK markieren."
+  },
+  {
+   "id": "meer_04",
+   "titel": "Meer 4 · Hafenmole am Abend",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_angeln_meer_04.png",
+   "soll": "Links offenes Wasser für den Köder, rechts Ufer/Deck. 3 je Gewässer mit OK markieren."
+  },
+  {
+   "id": "meer_05",
+   "titel": "Meer 5 · Bug im Morgendunst",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_angeln_meer_05.png",
+   "soll": "Links offenes Wasser für den Köder, rechts Ufer/Deck. 3 je Gewässer mit OK markieren."
+  },
+  {
+   "id": "meer_06",
+   "titel": "Meer 6 · Badeplattform bei Nacht",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_angeln_meer_06.png",
+   "soll": "Links offenes Wasser für den Köder, rechts Ufer/Deck. 3 je Gewässer mit OK markieren."
+  },
+  {
+   "id": "meer_07",
+   "titel": "Meer 7 · Holzsteg eines Strandclubs",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_angeln_meer_07.png",
+   "soll": "Links offenes Wasser für den Köder, rechts Ufer/Deck. 3 je Gewässer mit OK markieren."
+  },
+  {
+   "id": "meer_08",
+   "titel": "Meer 8 · Felsküste bei Sonnenuntergang",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_angeln_meer_08.png",
+   "soll": "Links offenes Wasser für den Köder, rechts Ufer/Deck. 3 je Gewässer mit OK markieren."
+  },
+  {
+   "id": "meer_09",
+   "titel": "Meer 9 · Aus dem Beiboot",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_angeln_meer_09.png",
+   "soll": "Links offenes Wasser für den Köder, rechts Ufer/Deck. 3 je Gewässer mit OK markieren."
+  },
+  {
+   "id": "meer_10",
+   "titel": "Meer 10 · Leuchtturmfelsen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_angeln_meer_10.png",
+   "soll": "Links offenes Wasser für den Köder, rechts Ufer/Deck. 3 je Gewässer mit OK markieren."
+  },
+  {
+   "id": "fluss_01",
+   "titel": "Fluss/See 1 · Bach unter der Steineiche",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_angeln_fluss_01.png",
+   "soll": "Links offenes Wasser für den Köder, rechts Ufer/Deck. 3 je Gewässer mit OK markieren."
+  },
+  {
+   "id": "fluss_02",
+   "titel": "Fluss/See 2 · Bergsee",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_angeln_fluss_02.png",
+   "soll": "Links offenes Wasser für den Köder, rechts Ufer/Deck. 3 je Gewässer mit OK markieren."
+  },
+  {
+   "id": "fluss_03",
+   "titel": "Fluss/See 3 · Fluss an der Steinbrücke",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_angeln_fluss_03.png",
+   "soll": "Links offenes Wasser für den Köder, rechts Ufer/Deck. 3 je Gewässer mit OK markieren."
+  },
+  {
+   "id": "fluss_04",
+   "titel": "Fluss/See 4 · Alte Wassermühle",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_angeln_fluss_04.png",
+   "soll": "Links offenes Wasser für den Köder, rechts Ufer/Deck. 3 je Gewässer mit OK markieren."
+  },
+  {
+   "id": "fluss_05",
+   "titel": "Fluss/See 5 · Seesteg im Morgennebel",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_angeln_fluss_05.png",
+   "soll": "Links offenes Wasser für den Köder, rechts Ufer/Deck. 3 je Gewässer mit OK markieren."
+  },
+  {
+   "id": "fluss_06",
+   "titel": "Fluss/See 6 · Gumpe am Wasserfall",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_angeln_fluss_06.png",
+   "soll": "Links offenes Wasser für den Köder, rechts Ufer/Deck. 3 je Gewässer mit OK markieren."
+  },
+  {
+   "id": "fluss_07",
+   "titel": "Fluss/See 7 · Pappelfluss am Kiesufer",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_angeln_fluss_07.png",
+   "soll": "Links offenes Wasser für den Köder, rechts Ufer/Deck. 3 je Gewässer mit OK markieren."
+  },
+  {
+   "id": "fluss_08",
+   "titel": "Fluss/See 8 · Schlucht mit Smaragdbecken",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_angeln_fluss_08.png",
+   "soll": "Links offenes Wasser für den Köder, rechts Ufer/Deck. 3 je Gewässer mit OK markieren."
+  },
+  {
+   "id": "fluss_09",
+   "titel": "Fluss/See 9 · Klosterteich",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_angeln_fluss_09.png",
+   "soll": "Links offenes Wasser für den Köder, rechts Ufer/Deck. 3 je Gewässer mit OK markieren."
+  },
+  {
+   "id": "fluss_10",
+   "titel": "Fluss/See 10 · Lagune mit Flamingos",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_angeln_fluss_10.png",
+   "soll": "Links offenes Wasser für den Köder, rechts Ufer/Deck. 3 je Gewässer mit OK markieren."
+  },
+  {
+   "id": "koeder_0_1",
+   "titel": "Köder Stufe 0 · Bottle Cork · Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\koeder\\_kandidaten\\koeder_0_1.png",
+   "soll": "Eine Variante je Stufe mit OK markieren (natural light brown cork with a clean white gull feather)."
+  },
+  {
+   "id": "koeder_0_2",
+   "titel": "Köder Stufe 0 · Bottle Cork · Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\koeder\\_kandidaten\\koeder_0_2.png",
+   "soll": "Eine Variante je Stufe mit OK markieren (natural cork with one painted red ring and a soft grey gull feather)."
+  },
+  {
+   "id": "koeder_0_3",
+   "titel": "Köder Stufe 0 · Bottle Cork · Variante 3",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\koeder\\_kandidaten\\koeder_0_3.png",
+   "soll": "Eine Variante je Stufe mit OK markieren (a mushroom-shaped champagne cork with a white and grey gull feather)."
+  },
+  {
+   "id": "koeder_0_4",
+   "titel": "Köder Stufe 0 · Bottle Cork · Variante 4",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\koeder\\_kandidaten\\koeder_0_4.png",
+   "soll": "Eine Variante je Stufe mit OK markieren (dark weathered cork wrapped with blue twine and a white gull feather)."
+  },
+  {
+   "id": "koeder_1_1",
+   "titel": "Köder Stufe 1 · Cork Float · Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\koeder\\_kandidaten\\koeder_1_1.png",
+   "soll": "Eine Variante je Stufe mit OK markieren (painted red on top and white below)."
+  },
+  {
+   "id": "koeder_1_2",
+   "titel": "Köder Stufe 1 · Cork Float · Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\koeder\\_kandidaten\\koeder_1_2.png",
+   "soll": "Eine Variante je Stufe mit OK markieren (painted yellow on top and black below)."
+  },
+  {
+   "id": "koeder_1_3",
+   "titel": "Köder Stufe 1 · Cork Float · Variante 3",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\koeder\\_kandidaten\\koeder_1_3.png",
+   "soll": "Eine Variante je Stufe mit OK markieren (painted orange on top and natural cork below)."
+  },
+  {
+   "id": "koeder_1_4",
+   "titel": "Köder Stufe 1 · Cork Float · Variante 4",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\koeder\\_kandidaten\\koeder_1_4.png",
+   "soll": "Eine Variante je Stufe mit OK markieren (painted green on top and white below)."
+  },
+  {
+   "id": "koeder_2_1",
+   "titel": "Köder Stufe 2 · Balsa Float · Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\koeder\\_kandidaten\\koeder_2_1.png",
+   "soll": "Eine Variante je Stufe mit OK markieren (with a bright fluorescent orange tip and a black body)."
+  },
+  {
+   "id": "koeder_2_2",
+   "titel": "Köder Stufe 2 · Balsa Float · Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\koeder\\_kandidaten\\koeder_2_2.png",
+   "soll": "Eine Variante je Stufe mit OK markieren (with a fluorescent yellow tip and a dark green body)."
+  },
+  {
+   "id": "koeder_2_3",
+   "titel": "Köder Stufe 2 · Balsa Float · Variante 3",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\koeder\\_kandidaten\\koeder_2_3.png",
+   "soll": "Eine Variante je Stufe mit OK markieren (with a fluorescent red tip and a cream white body)."
+  },
+  {
+   "id": "koeder_2_4",
+   "titel": "Köder Stufe 2 · Balsa Float · Variante 4",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\koeder\\_kandidaten\\koeder_2_4.png",
+   "soll": "Eine Variante je Stufe mit OK markieren (with a fluorescent pink tip and a deep blue body)."
+  },
+  {
+   "id": "koeder_3_1",
+   "titel": "Köder Stufe 3 · Wooden Lure · Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\koeder\\_kandidaten\\koeder_3_1.png",
+   "soll": "Eine Variante je Stufe mit OK markieren (painted like a silver sardine with a blue back)."
+  },
+  {
+   "id": "koeder_3_2",
+   "titel": "Köder Stufe 3 · Wooden Lure · Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\koeder\\_kandidaten\\koeder_3_2.png",
+   "soll": "Eine Variante je Stufe mit OK markieren (painted like a golden perch with dark stripes)."
+  },
+  {
+   "id": "koeder_3_3",
+   "titel": "Köder Stufe 3 · Wooden Lure · Variante 3",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\koeder\\_kandidaten\\koeder_3_3.png",
+   "soll": "Eine Variante je Stufe mit OK markieren (painted like a red mullet with a pink belly)."
+  },
+  {
+   "id": "koeder_3_4",
+   "titel": "Köder Stufe 3 · Wooden Lure · Variante 4",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\koeder\\_kandidaten\\koeder_3_4.png",
+   "soll": "Eine Variante je Stufe mit OK markieren (painted like a green-gold trout with a white belly)."
+  }
+ ]
+}

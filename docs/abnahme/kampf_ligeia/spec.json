@@ -1,0 +1,91 @@
+{
+ "id": "kampf_ligeia_r1",
+ "titel": "Ligeia – Kampf-Sprites (14 Posen)",
+ "hinweis": "Ersetzt die rothaarigen Sprites Siren. Nach deinem OK kommen sie ins Spiel.",
+ "items": [
+  {
+   "id": "Siren_idle",
+   "titel": "Ligeia Kampf · idle",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Siren\\idle.png",
+   "soll": "Honigblond, Fischschwanz, greift mit der Stimme an."
+  },
+  {
+   "id": "Siren_windup",
+   "titel": "Ligeia Kampf · windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Siren\\windup.png",
+   "soll": "Honigblond, Fischschwanz, greift mit der Stimme an."
+  },
+  {
+   "id": "Siren_attack",
+   "titel": "Ligeia Kampf · attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Siren\\attack.png",
+   "soll": "Honigblond, Fischschwanz, greift mit der Stimme an."
+  },
+  {
+   "id": "Siren_heavy_windup",
+   "titel": "Ligeia Kampf · heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Siren\\heavy_windup.png",
+   "soll": "Honigblond, Fischschwanz, greift mit der Stimme an."
+  },
+  {
+   "id": "Siren_heavy_attack",
+   "titel": "Ligeia Kampf · heavy_attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Siren\\heavy_attack.png",
+   "soll": "Honigblond, Fischschwanz, greift mit der Stimme an."
+  },
+  {
+   "id": "Siren_guard",
+   "titel": "Ligeia Kampf · guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Siren\\guard.png",
+   "soll": "Honigblond, Fischschwanz, greift mit der Stimme an."
+  },
+  {
+   "id": "Siren_hurt",
+   "titel": "Ligeia Kampf · hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Siren\\hurt.png",
+   "soll": "Honigblond, Fischschwanz, greift mit der Stimme an."
+  },
+  {
+   "id": "Siren_weakened",
+   "titel": "Ligeia Kampf · weakened",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Siren\\weakened.png",
+   "soll": "Honigblond, Fischschwanz, greift mit der Stimme an."
+  },
+  {
+   "id": "Siren_enraged",
+   "titel": "Ligeia Kampf · enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Siren\\enraged.png",
+   "soll": "Honigblond, Fischschwanz, greift mit der Stimme an."
+  },
+  {
+   "id": "Siren_flee",
+   "titel": "Ligeia Kampf · flee",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Siren\\flee.png",
+   "soll": "Honigblond, Fischschwanz, greift mit der Stimme an."
+  },
+  {
+   "id": "Siren_surrender",
+   "titel": "Ligeia Kampf · surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Siren\\surrender.png",
+   "soll": "Honigblond, Fischschwanz, greift mit der Stimme an."
+  },
+  {
+   "id": "Siren_victory",
+   "titel": "Ligeia Kampf · victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Siren\\victory.png",
+   "soll": "Honigblond, Fischschwanz, greift mit der Stimme an."
+  },
+  {
+   "id": "Siren_defeated",
+   "titel": "Ligeia Kampf · defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Siren\\defeated.png",
+   "soll": "Honigblond, Fischschwanz, greift mit der Stimme an."
+  },
+  {
+   "id": "Siren_death",
+   "titel": "Ligeia Kampf · death",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Siren\\death.png",
+   "soll": "Honigblond, Fischschwanz, greift mit der Stimme an."
+  }
+ ]
+}

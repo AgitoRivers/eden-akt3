@@ -1,0 +1,893 @@
+{
+ "_hinweis": "Gebaut aus werkzeuge\\eden_rise\\ereignisse_legenden.py - dort aendern.",
+ "taten": {
+  "hafen": {
+   "flag": "kloster_faden",
+   "titel": "the stranger who held the quay against the animals",
+   "ruf": 1
+  },
+  "kloster": {
+   "flag": "kloster_fertig",
+   "titel": "the man who came back from San Martinu with a lion story",
+   "ruf": 1
+  },
+  "berge": {
+   "flag": "berge_fertig",
+   "titel": "Petru's daughter and the tower",
+   "ruf": 1,
+   "ruf_wenn": {
+    "nicht": {
+     "flag": "bg_weg_b"
+    }
+   }
+  },
+  "grotte": {
+   "flag": "grotte_fertig",
+   "titel": "the smugglers' grotto and the third step",
+   "ruf": 0
+  },
+  "sirene": {
+   "flag": "sirene_fertig",
+   "titel": "singing from the point at night",
+   "ruf": 0
+  },
+  "kevin": {
+   "flag": "kevin_fertig",
+   "titel": "the duel on the bell tower",
+   "ruf": 1
+  },
+  "red_trio": {
+   "flag": "red_trio_fertig",
+   "titel": "three people in red and the jacket",
+   "ruf": 1
+  }
+ },
+ "familie": [
+  "rosi",
+  "toto",
+  "lola",
+  "chiara",
+  "sophia",
+  "lea",
+  "maxwell",
+  "jana",
+  "siri",
+  "yasin",
+  "yamamoto",
+  "alva",
+  "petru",
+  "elsa",
+  "casanova",
+  "nonna",
+  "isabelle",
+  "danzel",
+  "bibi",
+  "charly",
+  "pascal",
+  "mina",
+  "batu",
+  "sandru",
+  "anghjulu"
+ ],
+ "zeilen": {
+  "hafen.rosi.zeit.0": {
+   "tat": "hafen",
+   "wer": "rosi",
+   "wo": "zeit",
+   "stufe": 0,
+   "text": "Officer. I checked the bat after the quay. Not one dent. The bat is fine. Your technique is a disaster, but the bat is fine.",
+   "gefuehl": "amusement"
+  },
+  "hafen.lola.zeit.0": {
+   "tat": "hafen",
+   "wer": "lola",
+   "wo": "zeit",
+   "stufe": 0,
+   "text": "Mate, Alva's telling everyone you fought the dogs off on your own. Don't tell anyone I told you, but I reckon she fancies you a bit. Mostly the bat.",
+   "gefuehl": "amusement"
+  },
+  "hafen.maxwell.zeit.0": {
+   "tat": "hafen",
+   "wer": "maxwell",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "Number One! The village says you knocked out a wild boar with one swing. Mr. Maximum is proud of you, brother. Mr. Maximum would also like to see the footwork.",
+   "gefuehl": "excitement"
+  },
+  "hafen.chiara.zeit.0": {
+   "tat": "hafen",
+   "wer": "chiara",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "On Tuesday the rats were twelve. Tonight at the bar they were forty, and one of them wore a little hat. I give the story a six. The hat was a nice touch.",
+   "gefuehl": "amusement"
+  },
+  "hafen.elsa.zeit.0": {
+   "tat": "hafen",
+   "wer": "elsa",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "First Officer. I have six statements about the harbour, and in four of them you are taller than you are. I am filing the other two.",
+   "gefuehl": "amusement"
+  },
+  "hafen.sophia.zeit.0": {
+   "tat": "hafen",
+   "wer": "sophia",
+   "wo": "zeit",
+   "stufe": 2,
+   "text": "Darling, in the latest version you ride the boar up the town hall steps. Ten euros says that by Friday it's a bear.",
+   "gefuehl": "amusement"
+  },
+  "hafen.jana.zeit.0": {
+   "tat": "hafen",
+   "wer": "jana",
+   "wo": "zeit",
+   "stufe": 2,
+   "text": "Sorry, Sir, sorry, is it true you threw the confetti cannon at the boar? Lola says yes and Chiara says don't ask, so I'm asking. Sorry.",
+   "gefuehl": "curiosity"
+  },
+  "hafen.danzel.zeit.0": {
+   "tat": "hafen",
+   "wer": "danzel",
+   "wo": "zeit",
+   "stufe": 2,
+   "text": "So you're the man who held the quay with a baseball bat. Three boars, they say. One boar, I say. And your jacket, if I may, was the real crime.",
+   "gefuehl": "amusement",
+   "wenn": {
+    "flag": "rt_ausgang_alle"
+   }
+  },
+  "hafen.alva.laden.0": {
+   "tat": "hafen",
+   "wer": "alva",
+   "wo": "laden",
+   "stufe": 0,
+   "text": "Look who it is, the man who saved my bar door with a stick. Your first drink is still free, o figliolu. The second one we can negotiate.",
+   "gefuehl": "desire"
+  },
+  "hafen.petru.laden.0": {
+   "tat": "hafen",
+   "wer": "petru",
+   "wo": "laden",
+   "stufe": 1,
+   "text": "Hm. They say you threw the boar into the sea. You didn't. But my boat is still blue. Sit.",
+   "gefuehl": "neutral"
+  },
+  "hafen.toto.laden.0": {
+   "tat": "hafen",
+   "wer": "toto",
+   "wo": "laden",
+   "stufe": 1,
+   "text": "Comandante! In my version I was right beside you on the quay. Behind a crate, yes, but beside you. Strategically.",
+   "gefuehl": "amusement"
+  },
+  "hafen.nonna.laden.0": {
+   "tat": "hafen",
+   "wer": "nonna",
+   "wo": "laden",
+   "stufe": 2,
+   "text": "So you're the one who fought three hundred rats with a broom. Sit down. A man who does that eats twice.",
+   "gefuehl": "amusement"
+  },
+  "kloster.lea.zeit.0": {
+   "tat": "kloster",
+   "wer": "lea",
+   "wo": "zeit",
+   "stufe": 0,
+   "text": "A lion, Duc. On Corsica. There have never been lions on Corsica, which means somebody brought one, and that's proper worse.",
+   "gefuehl": "fear"
+  },
+  "kloster.casanova.zeit.0": {
+   "tat": "kloster",
+   "wer": "casanova",
+   "wo": "zeit",
+   "stufe": 0,
+   "text": "Monsieur. My father's spear. I gave it to you in front of everyone and I would do it again tomorrow. With better music.",
+   "gefuehl": "pride"
+  },
+  "kloster.siri.zeit.0": {
+   "tat": "kloster",
+   "wer": "siri",
+   "wo": "zeit",
+   "stufe": 0,
+   "text": "Sorry, I keep thinking about the monks up there. You don't have to tell me anything. I just didn't want you to think nobody asked.",
+   "gefuehl": "sadness"
+  },
+  "kloster.yasin.zeit.0": {
+   "tat": "kloster",
+   "wer": "yasin",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "Bro. Lion hunter. Do you know what that does on a thumbnail? Don't say anything, just stand next to the spear and look tired. That's business.",
+   "gefuehl": "excitement"
+  },
+  "kloster.toto.zeit.0": {
+   "tat": "kloster",
+   "wer": "toto",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "Comandante, at the harbour they say the lion was as big as a fishing boat. I said bigger. Now they believe me more than they believe you.",
+   "gefuehl": "amusement"
+  },
+  "kloster.yamamoto.zeit.0": {
+   "tat": "kloster",
+   "wer": "yamamoto",
+   "wo": "zeit",
+   "stufe": 2,
+   "text": "Officer-san, so sorry. In the village they say you wrestled the lion and the lion apologised. Very interesting. I would like a photograph of the lion. From far away.",
+   "gefuehl": "curiosity"
+  },
+  "kloster.chiara.zeit.0": {
+   "tat": "kloster",
+   "wer": "chiara",
+   "wo": "zeit",
+   "stufe": 2,
+   "text": "Alva's version is that you carried the lion home on your back and Nonna cooked it. I give it a three. Nonna would never cook a lion, it's too tough.",
+   "gefuehl": "amusement"
+  },
+  "kloster.bibi.zeit.0": {
+   "tat": "kloster",
+   "wer": "bibi",
+   "wo": "zeit",
+   "stufe": 0,
+   "text": "You let him go. He's out there now, somewhere in the macchia, lying in the sun with nobody telling him what to do. I bet he has a lovely life. Thank you, Duc. Really.",
+   "gefuehl": "gratitude",
+   "wenn": {
+    "alle": [
+     {
+      "flag": "rt_bibi_bleibt"
+     },
+     {
+      "flag": "kl_loewe_frei"
+     }
+    ]
+   }
+  },
+  "kloster.bibi.zeit.1": {
+   "tat": "kloster",
+   "wer": "bibi",
+   "wo": "zeit",
+   "stufe": 0,
+   "text": "I still put out his bowl in the mornings. Isn't that stupid? He was this big when I got him, and now there's nothing left to feed. I keep waiting to hear him snore.",
+   "gefuehl": "grief",
+   "wenn": {
+    "alle": [
+     {
+      "flag": "rt_bibi_bleibt"
+     },
+     {
+      "flag": "kl_loewe_erloest"
+     }
+    ]
+   }
+  },
+  "kloster.nonna.laden.0": {
+   "tat": "kloster",
+   "wer": "nonna",
+   "wo": "laden",
+   "stufe": 0,
+   "text": "The boy brings the harvest down every morning now, and he says your name like it belongs to a saint. Don't let it go to your head. Eat.",
+   "gefuehl": "caring",
+   "wenn": {
+    "flag": "frederico_lebt"
+   }
+  },
+  "kloster.nonna.laden.1": {
+   "tat": "kloster",
+   "wer": "nonna",
+   "wo": "laden",
+   "stufe": 0,
+   "text": "Sit. Don't talk. Some days a kitchen is only for being quiet in.",
+   "gefuehl": "sadness",
+   "wenn": {
+    "flag": "kl_frederico_tot"
+   }
+  },
+  "kloster.isabelle.laden.0": {
+   "tat": "kloster",
+   "wer": "isabelle",
+   "wo": "laden",
+   "stufe": 1,
+   "text": "Officer! Frederico carved you a lion. It has five legs, and he says the fifth one is for luck. I said nothing. I also want one.",
+   "gefuehl": "joy",
+   "wenn": {
+    "flag": "frederico_lebt"
+   }
+  },
+  "kloster.alva.laden.0": {
+   "tat": "kloster",
+   "wer": "alva",
+   "wo": "laden",
+   "stufe": 1,
+   "text": "Half my bar says you killed the lion and the other half says you let it go. Tell me which, o figliolu, and I'll tell you which half pays tonight.",
+   "gefuehl": "desire"
+  },
+  "kloster.rosi.laden.0": {
+   "tat": "kloster",
+   "wer": "rosi",
+   "wo": "laden",
+   "stufe": 2,
+   "text": "Officer. The village says the lion followed you home and sleeps in Nonna's barn now. If that's true, I'm building it a kennel. A big one.",
+   "gefuehl": "excitement"
+  },
+  "berge.sophia.zeit.0": {
+   "tat": "berge",
+   "wer": "sophia",
+   "wo": "zeit",
+   "stufe": 0,
+   "text": "Petru walked past me at the harbour this morning and nodded. Petru doesn't nod, darling. Whatever you did up there, he's counting it.",
+   "gefuehl": "curiosity",
+   "wenn": {
+    "nicht": {
+     "flag": "bg_weg_b"
+    }
+   }
+  },
+  "berge.sophia.zeit.1": {
+   "tat": "berge",
+   "wer": "sophia",
+   "wo": "zeit",
+   "stufe": 0,
+   "text": "Petru's shop has been dark for two days, and nobody in the village says your name near it. I'm only telling you because nobody else will.",
+   "gefuehl": "sadness",
+   "wenn": {
+    "flag": "bg_weg_b"
+   }
+  },
+  "berge.maxwell.zeit.0": {
+   "tat": "berge",
+   "wer": "maxwell",
+   "wo": "zeit",
+   "stufe": 0,
+   "text": "Brother, you climbed the whole mountain and came down with both legs. Mr. Maximum respects that. Mr. Maximum also wants to hear about the bridge.",
+   "gefuehl": "admiration"
+  },
+  "berge.lola.zeit.0": {
+   "tat": "berge",
+   "wer": "lola",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "Mate, Alva says Petru cried. Petru! I didn't know he had water in him. Mostly salt, I reckon.",
+   "gefuehl": "amusement",
+   "wenn": {
+    "nicht": {
+     "flag": "bg_weg_b"
+    }
+   }
+  },
+  "berge.lea.zeit.0": {
+   "tat": "berge",
+   "wer": "lea",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "They're saying there's a bear up there the size of a car and you shook paws with it. Bears don't shake paws. That's proper rude of the village, to the bear.",
+   "gefuehl": "amusement"
+  },
+  "berge.siri.zeit.0": {
+   "tat": "berge",
+   "wer": "siri",
+   "wo": "zeit",
+   "stufe": 2,
+   "text": "Sorry, is it true there's a black panther up there that only you can see? The baker's daughter told me. I'm scared and I also want to go.",
+   "gefuehl": "curiosity"
+  },
+  "berge.petru.laden.0": {
+   "tat": "berge",
+   "wer": "petru",
+   "wo": "laden",
+   "stufe": 0,
+   "text": "Hm. On Sunday there is fish pie. You come. Don't bring anything.",
+   "gefuehl": "caring",
+   "wenn": {
+    "flag": "bg_weg_c_gewonnen"
+   }
+  },
+  "berge.petru.laden.1": {
+   "tat": "berge",
+   "wer": "petru",
+   "wo": "laden",
+   "stufe": 0,
+   "text": "Hm. She doesn't speak to you. She doesn't speak much to me either. Take what you need.",
+   "gefuehl": "sadness",
+   "wenn": {
+    "flag": "bg_adrien_verhaftet"
+   }
+  },
+  "berge.alva.laden.0": {
+   "tat": "berge",
+   "wer": "alva",
+   "wo": "laden",
+   "stufe": 1,
+   "text": "The tower story gets better every night, o figliolu. Tonight you climbed it without a rope. Tomorrow, I think, without trousers.",
+   "gefuehl": "desire"
+  },
+  "berge.nonna.laden.0": {
+   "tat": "berge",
+   "wer": "nonna",
+   "wo": "laden",
+   "stufe": 2,
+   "text": "They say you carried a soldier down the mountain over your shoulder, like a lamb. Sit down. Carrying soldiers makes a man hungry.",
+   "gefuehl": "amusement"
+  },
+  "grotte.toto.zeit.0": {
+   "tat": "grotte",
+   "wer": "toto",
+   "wo": "zeit",
+   "stufe": 0,
+   "text": "Comandante. You went in with the tide coming. Nobody does that for my family. Nobody. I don't forget things like that.",
+   "gefuehl": "gratitude"
+  },
+  "grotte.lea.zeit.0": {
+   "tat": "grotte",
+   "wer": "lea",
+   "wo": "zeit",
+   "stufe": 0,
+   "text": "You went past the third step. I watched the water from the deck the whole time, counting. Don't do that again. Or do, but tell me first.",
+   "gefuehl": "caring"
+  },
+  "grotte.maxwell.zeit.0": {
+   "tat": "grotte",
+   "wer": "maxwell",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "Number One goes into a cave full of smugglers and comes back with a cousin! Eish. Mr. Maximum goes to the shop and comes back with milk.",
+   "gefuehl": "amusement"
+  },
+  "grotte.rosi.zeit.0": {
+   "tat": "grotte",
+   "wer": "rosi",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "The village says there were rails in that cave and you rode a mine cart out of it. Officer, if there's a mine cart, I want it. For science.",
+   "gefuehl": "excitement"
+  },
+  "grotte.sophia.zeit.0": {
+   "tat": "grotte",
+   "wer": "sophia",
+   "wo": "zeit",
+   "stufe": 2,
+   "text": "The new version: you found the smugglers' treasure and gave all of it to the church. Ten euros says the priest believes it.",
+   "gefuehl": "amusement"
+  },
+  "grotte.alva.laden.0": {
+   "tat": "grotte",
+   "wer": "alva",
+   "wo": "laden",
+   "stufe": 0,
+   "text": "Totò was in here last night and didn't make a single bet. Not one. Whatever happened in that cave, o figliolu, it got to him.",
+   "gefuehl": "curiosity"
+  },
+  "grotte.lola.laden.0": {
+   "tat": "grotte",
+   "wer": "lola",
+   "wo": "laden",
+   "stufe": 1,
+   "text": "Boss! They're saying you swam out of that cave with a smuggler on your back. Don't tell anyone I told you, but I already told Chiara it was two.",
+   "gefuehl": "excitement"
+  },
+  "grotte.petru.laden.0": {
+   "tat": "grotte",
+   "wer": "petru",
+   "wo": "laden",
+   "stufe": 1,
+   "text": "Hm. My grandfather said nobody comes out of that cave with the tide. You did. So my grandfather was wrong. First time.",
+   "gefuehl": "neutral"
+  },
+  "sirene.sophia.zeit.0": {
+   "tat": "sirene",
+   "wer": "sophia",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "You came back at three in the morning, soaking wet and smelling of the sea, darling. Chiara has a theory. I have a bet.",
+   "gefuehl": "amusement"
+  },
+  "sirene.chiara.zeit.0": {
+   "tat": "sirene",
+   "wer": "chiara",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "First Officer. You took the tender out alone, at night, against my rota. I give the idea a two. Whatever you found out there, I'm still deciding.",
+   "gefuehl": "annoyance"
+  },
+  "sirene.yasin.zeit.0": {
+   "tat": "sirene",
+   "wer": "yasin",
+   "wo": "zeit",
+   "stufe": 2,
+   "text": "Bro, the village says there's a mermaid. If there's a mermaid and you didn't film her, we need to talk about your priorities.",
+   "gefuehl": "excitement"
+  },
+  "sirene.jana.zeit.0": {
+   "tat": "sirene",
+   "wer": "jana",
+   "wo": "zeit",
+   "stufe": 2,
+   "text": "Sorry, Sir. Lola says your new girlfriend is half a fish. Is it the top half or the bottom half? Sorry. Na geh, forget I asked.",
+   "gefuehl": "curiosity"
+  },
+  "sirene.petru.laden.0": {
+   "tat": "sirene",
+   "wer": "petru",
+   "wo": "laden",
+   "stufe": 0,
+   "text": "Hm. Last night there was singing from the point. My grandfather heard it once, in nineteen twenty-four. You were out there. Hm.",
+   "gefuehl": "neutral"
+  },
+  "sirene.alva.laden.0": {
+   "tat": "sirene",
+   "wer": "alva",
+   "wo": "laden",
+   "stufe": 1,
+   "text": "Somebody saw you rowing out alone at night, o figliolu. Half the village thinks you have a lover in the rocks, and the other half thinks you're mad. I'm in both halves.",
+   "gefuehl": "desire"
+  },
+  "sirene.nonna.laden.0": {
+   "tat": "sirene",
+   "wer": "nonna",
+   "wo": "laden",
+   "stufe": 2,
+   "text": "They say a woman sings in the sea and you sang back. My mother had a word for men who sing back. Eat first, then I'll tell you.",
+   "gefuehl": "amusement"
+  },
+  "kevin.lea.zeit.0": {
+   "tat": "kevin",
+   "wer": "lea",
+   "wo": "zeit",
+   "stufe": 0,
+   "text": "You got page forty back! Kevin's going to be furious, proper furious. I'm going to frame it. The page, not Kevin.",
+   "gefuehl": "joy"
+  },
+  "kevin.lola.zeit.0": {
+   "tat": "kevin",
+   "wer": "lola",
+   "wo": "zeit",
+   "stufe": 0,
+   "text": "Mate, my good fork was in that nest. My good fork! Kevin's a thief and you're a hero. Mostly a hero.",
+   "gefuehl": "amusement"
+  },
+  "kevin.rosi.zeit.0": {
+   "tat": "kevin",
+   "wer": "rosi",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "Officer. They say you screamed at a seagull from the bell tower until the seagull left. I respect it. That's how I talk to the generator.",
+   "gefuehl": "amusement"
+  },
+  "kevin.siri.zeit.0": {
+   "tat": "kevin",
+   "wer": "siri",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "Sorry, the whole village watched you on the church roof? Yasin is so annoyed he missed it. I'm a little bit proud of you, actually.",
+   "gefuehl": "admiration"
+  },
+  "kevin.yamamoto.zeit.0": {
+   "tat": "kevin",
+   "wer": "yamamoto",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "Officer-san, so sorry. I have photographed this seagull for many days, and you defeated him in one afternoon. Very interesting. May I photograph you instead?",
+   "gefuehl": "admiration"
+  },
+  "kevin.maxwell.zeit.0": {
+   "tat": "kevin",
+   "wer": "maxwell",
+   "wo": "zeit",
+   "stufe": 2,
+   "text": "Brother! In the village they say the seagull challenged you to a duel and you won on points. Mr. Maximum demands a rematch. With the seagull.",
+   "gefuehl": "amusement"
+  },
+  "kevin.chiara.zeit.0": {
+   "tat": "kevin",
+   "wer": "chiara",
+   "wo": "zeit",
+   "stufe": 2,
+   "text": "The bar says you rang the church bell with your head to scare the bird away. I give the story a nine. I give you a four.",
+   "gefuehl": "amusement"
+  },
+  "kevin.charly.zeit.0": {
+   "tat": "kevin",
+   "wer": "charly",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "You fought a seagull on a church. Three out of ten. The seagull was a seven.",
+   "gefuehl": "amusement",
+   "wenn": {
+    "flag": "rt_charly_bleibt"
+   }
+  },
+  "kevin.alva.laden.0": {
+   "tat": "kevin",
+   "wer": "alva",
+   "wo": "laden",
+   "stufe": 0,
+   "text": "You went out through my attic window and came back through it with feathers in your hair. Best thing that's happened in that attic in years, o figliolu.",
+   "gefuehl": "desire"
+  },
+  "kevin.toto.laden.0": {
+   "tat": "kevin",
+   "wer": "toto",
+   "wo": "laden",
+   "stufe": 0,
+   "text": "Comandante! My lighter! You found my lighter in the nest! I bet the whole crew it was gone forever. I lost, and I've never been so happy losing.",
+   "gefuehl": "joy"
+  },
+  "kevin.petru.laden.0": {
+   "tat": "kevin",
+   "wer": "petru",
+   "wo": "laden",
+   "stufe": 1,
+   "text": "Hm. The gull. I tried for six years. You, one afternoon. Hm.",
+   "gefuehl": "admiration"
+  },
+  "kevin.isabelle.laden.0": {
+   "tat": "kevin",
+   "wer": "isabelle",
+   "wo": "laden",
+   "stufe": 2,
+   "text": "Officer! Frederico says you can talk to birds now. He wants you to tell the pigeons to stop sitting on my herbs. I want that too, honestly.",
+   "gefuehl": "excitement"
+  },
+  "red_trio.alva.laden.0": {
+   "tat": "red_trio",
+   "wer": "alva",
+   "wo": "laden",
+   "stufe": 0,
+   "text": "They say you went up into the macchia after three people in red and came back with a red jacket and no answers for anyone. Not even for me, o figliolu, and I always get the answers.",
+   "gefuehl": "curiosity"
+  },
+  "red_trio.elsa.zeit.0": {
+   "tat": "red_trio",
+   "wer": "elsa",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "First Officer. I have three statements from the macchia on my desk. They are long, and they are honest, and I don't like any of them. Thank you for bringing them.",
+   "gefuehl": "gratitude",
+   "wenn": {
+    "flag": "ark_aussagen_3"
+   }
+  },
+  "red_trio.elsa.zeit.1": {
+   "tat": "red_trio",
+   "wer": "elsa",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "First Officer. I have one statement from the macchia on my desk. One. I have read it twice, because there is nothing else to read.",
+   "gefuehl": "disappointment",
+   "wenn": {
+    "flag": "ark_aussagen_1"
+   }
+  },
+  "red_trio.lola.zeit.0": {
+   "tat": "red_trio",
+   "wer": "lola",
+   "wo": "zeit",
+   "stufe": 2,
+   "text": "Mate, the village says you beat three ninjas in red and then made them all a cup of tea. Don't tell anyone I told you, but I reckon the tea won. Mostly the biscuits.",
+   "gefuehl": "amusement"
+  },
+  "hafen.pascal.zeit.0": {
+   "tat": "hafen",
+   "wer": "pascal",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "I told them about the boar again, Duc. It's bigger now. You're welcome. Madame says the steps have never looked so heroic.",
+   "gefuehl": "amusement",
+   "wenn": {
+    "bekannt": "pascal"
+   }
+  },
+  "kloster.pascal.zeit.0": {
+   "tat": "kloster",
+   "wer": "pascal",
+   "wo": "zeit",
+   "stufe": 0,
+   "text": "Duc. I heard what you found up there. You don't have to talk about it. If you need anything for the brothers, leave it with me.",
+   "gefuehl": "sadness",
+   "wenn": {
+    "bekannt": "pascal"
+   }
+  },
+  "berge.pascal.zeit.0": {
+   "tat": "berge",
+   "wer": "pascal",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "The village says you carried Petru's daughter down the mountain on your back. I didn't correct them. Petru didn't either, and from Petru that's a speech.",
+   "gefuehl": "amusement",
+   "wenn": {
+    "alle": [
+     {
+      "nicht": {
+       "flag": "bg_weg_b"
+      }
+     },
+     {
+      "bekannt": "pascal"
+     }
+    ]
+   }
+  },
+  "kevin.pascal.zeit.0": {
+   "tat": "kevin",
+   "wer": "pascal",
+   "wo": "zeit",
+   "stufe": 2,
+   "text": "Now the gull has a sword, I'm told. I've written it in the town minutes. Somebody should.",
+   "gefuehl": "amusement",
+   "wenn": {
+    "bekannt": "pascal"
+   }
+  },
+  "hafen.mina.zeit.0": {
+   "tat": "hafen",
+   "wer": "mina",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "They say you hit the boar so hard it flew over the church! I don't spread it. I just deliver it. Everywhere. Very fast.",
+   "gefuehl": "excitement",
+   "wenn": {
+    "bekannt": "mina"
+   }
+  },
+  "kloster.mina.zeit.0": {
+   "tat": "kloster",
+   "wer": "mina",
+   "wo": "zeit",
+   "stufe": 0,
+   "text": "Nonna gave me double cake this week. She never does that. So I know it was you who went up there. Thanks.",
+   "gefuehl": "caring",
+   "wenn": {
+    "alle": [
+     {
+      "flag": "frederico_lebt"
+     },
+     {
+      "bekannt": "mina"
+     }
+    ]
+   }
+  },
+  "grotte.mina.zeit.0": {
+   "tat": "grotte",
+   "wer": "mina",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "People want me to deliver letters to your smugglers' cave now. I told them no. Then I asked how much.",
+   "gefuehl": "amusement",
+   "wenn": {
+    "bekannt": "mina"
+   }
+  },
+  "kevin.mina.zeit.0": {
+   "tat": "kevin",
+   "wer": "mina",
+   "wo": "zeit",
+   "stufe": 0,
+   "text": "I saw you on the bell tower from the Vespa! You screamed at a seagull, and the seagull won on points!",
+   "gefuehl": "amusement",
+   "wenn": {
+    "bekannt": "mina"
+   }
+  },
+  "hafen.batu.zeit.0": {
+   "tat": "hafen",
+   "wer": "batu",
+   "wo": "zeit",
+   "stufe": 2,
+   "text": "They say you fought a bear with a stick. You? So thin? Eat first. Then you tell me about the bear.",
+   "gefuehl": "disapproval",
+   "wenn": {
+    "bekannt": "batu"
+   }
+  },
+  "kloster.batu.zeit.0": {
+   "tat": "kloster",
+   "wer": "batu",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "Fiora told me what you did on the mountain, con. She doesn't say thank you, so I say it. Sit. I made too much.",
+   "gefuehl": "caring",
+   "wenn": {
+    "bekannt": "batu"
+   }
+  },
+  "berge.batu.zeit.0": {
+   "tat": "berge",
+   "wer": "batu",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "Petru's girl is home, and they say because of you. Good. Now I can ask her when the baby is coming.",
+   "gefuehl": "amusement",
+   "wenn": {
+    "alle": [
+     {
+      "nicht": {
+       "flag": "bg_weg_b"
+      }
+     },
+     {
+      "bekannt": "batu"
+     }
+    ]
+   }
+  },
+  "hafen.sandru.zeit.0": {
+   "tat": "hafen",
+   "wer": "sandru",
+   "wo": "zeit",
+   "stufe": 2,
+   "text": "Ha, the boar again. In my shop they say you rode it. I'd have liked to see that. I'd have liked to do that, actually.",
+   "gefuehl": "amusement",
+   "wenn": {
+    "bekannt": "sandru"
+   }
+  },
+  "grotte.sandru.zeit.0": {
+   "tat": "grotte",
+   "wer": "sandru",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "Ha, sorry, people keep asking me if we sell treasure maps now. We don't. I checked the system. I checked twice.",
+   "gefuehl": "amusement",
+   "wenn": {
+    "bekannt": "sandru"
+   }
+  },
+  "kevin.sandru.zeit.0": {
+   "tat": "kevin",
+   "wer": "sandru",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "Ha. You went up the tower, the whole way up, on your own legs. Sorry. It's nice, that's all. Do you need a bag?",
+   "gefuehl": "sadness",
+   "wenn": {
+    "bekannt": "sandru"
+   }
+  },
+  "hafen.anghjulu.zeit.0": {
+   "tat": "hafen",
+   "wer": "anghjulu",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "Yes, yes, the bell was wrong that day. I was praying, my son. Very deeply. Let's talk about the boar instead.",
+   "gefuehl": "embarrassment",
+   "wenn": {
+    "bekannt": "anghjulu"
+   }
+  },
+  "kloster.anghjulu.zeit.0": {
+   "tat": "kloster",
+   "wer": "anghjulu",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "You went up to the brothers, my son. Somebody had to. Cut the cards, will you? My hands aren't good today.",
+   "gefuehl": "sadness",
+   "wenn": {
+    "bekannt": "anghjulu"
+   }
+  },
+  "grotte.anghjulu.zeit.0": {
+   "tat": "grotte",
+   "wer": "anghjulu",
+   "wo": "zeit",
+   "stufe": 2,
+   "text": "They say you gave the whole smugglers' treasure to the church. I believe it, my son. I believe it very much. When does it arrive?",
+   "gefuehl": "amusement",
+   "wenn": {
+    "bekannt": "anghjulu"
+   }
+  },
+  "kevin.anghjulu.zeit.0": {
+   "tat": "kevin",
+   "wer": "anghjulu",
+   "wo": "zeit",
+   "stufe": 0,
+   "text": "My son, you fought that devil on my tower! Fourteen years I've tried! Next time take wine up there, it helps the aim.",
+   "gefuehl": "joy",
+   "wenn": {
+    "bekannt": "anghjulu"
+   }
+  }
+ }
+}

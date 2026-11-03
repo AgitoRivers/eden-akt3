@@ -1,0 +1,66 @@
+{
+  "effects": 9,
+  "phases": 36,
+  "poseEntryAndRecovery": true,
+  "controls": true,
+  "feedbackPreserved": true,
+  "export": true,
+  "responsive": true,
+  "errors": [],
+  "summaries": [
+    {
+      "id": "fire",
+      "frames": 4,
+      "entryPose": true,
+      "recovered": true
+    },
+    {
+      "id": "water",
+      "frames": 4,
+      "entryPose": true,
+      "recovered": true
+    },
+    {
+      "id": "quake",
+      "frames": 4,
+      "entryPose": true,
+      "recovered": true
+    },
+    {
+      "id": "electric",
+      "frames": 4,
+      "entryPose": true,
+      "recovered": true
+    },
+    {
+      "id": "shortCircuit",
+      "frames": 4,
+      "entryPose": true,
+      "recovered": true
+    },
+    {
+      "id": "mud",
+      "frames": 4,
+      "entryPose": true,
+      "recovered": true
+    },
+    {
+      "id": "firestorm",
+      "frames": 4,
+      "entryPose": true,
+      "recovered": true
+    },
+    {
+      "id": "steam",
+      "frames": 4,
+      "entryPose": true,
+      "recovered": true
+    },
+    {
+      "id": "flare",
+      "frames": 4,
+      "entryPose": true,
+      "recovered": true
+    }
+  ]
+}

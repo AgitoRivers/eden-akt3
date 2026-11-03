@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "catalog_version": "library-v1",
+  "selection_type": "sound-library-candidates",
+  "created": "2026-10-26T17:59:21.984Z",
+  "choices": {
+    "lib-01": {
+      "note": "Sotto Voce bisher behalten. Point de Mire",
+      "target": "blur",
+      "decision": "try",
+      "source_file": "542825-kostas17-magic-spell.mp3",
+      "source_sha256": "3d4f34ed6f1d47b1181f76d06f0f17ec9826a9935fd29bfe12a65262a9e9e25a",
+      "preview": "audio/lib-01.ogg"
+    },
+    "lib-02": {
+      "decision": "try",
+      "target": "engine",
+      "note": "Gut",
+      "source_file": "bloody-finger-died.mp3",
+      "source_sha256": "2376f9a93bf333accd66bbbc93637333073701d0c1d53e2a6daa5c77b43f87ee",
+      "preview": "audio/lib-02.ogg"
+    },
+    "lib-03": {
+      "decision": "try",
+      "target": "blackSlash",
+      "source_file": "dark-magic-spell-evil-wind-rush-whoosh-1.mp3",
+      "source_sha256": "5cc0b91503e5a5e6f24de2402b767efe8e718fb39ae82e29c406496f27e332f6",
+      "preview": "audio/lib-03.ogg"
+    },
+    "lib-04": {
+      "decision": "try",
+      "target": "engine",
+      "source_file": "elden-ring-critical-hit.mp3",
+      "source_sha256": "6935045a81ed66c8dce4580529aa9eb3e63be03d0b5f3736ee4e23598b023e20",
+      "preview": "audio/lib-04.ogg"
+    },
+    "lib-05": {
+      "decision": "try",
+      "target": "engine",
+      "source_file": "elden-ring-loss-of-balance.mp3",
+      "source_sha256": "e81763e6cf7b7bfd53c183c89ff88686dca9b573b9770afb5c97b5092c1303c3",
+      "preview": "audio/lib-05.ogg"
+    },
+    "lib-06": {
+      "decision": "try",
+      "target": "engine",
+      "source_file": "Enmy killed effects.flac",
+      "source_sha256": "37cd18c9f43eaa9468278e622579dee5bdcab38d43a68d82aca9b59d0ceb5e18",
+      "preview": "audio/lib-06.ogg"
+    },
+    "lib-07": {
+      "decision": "try",
+      "target": "engine",
+      "source_file": "fire-mp44-plyr-pnchy-ed3.mp3",
+      "source_sha256": "c6f6287242e3dd40effa262a5092321eb14403ae0d3db0e2c7ec864baf5fa172",
+      "preview": "audio/lib-07.ogg"
+    },
+    "lib-08": {
+      "decision": "try",
+      "target": "rain",
+      "source_file": "freeze-ray-spell.mp3",
+      "source_sha256": "e3f2b1866c69ab0f3d9ac579d1e816e37ab7e44d533b01a6053c33b91751c135",
+      "preview": "audio/lib-08.ogg"
+    },
+    "lib-09": {
+      "decision": "try",
+      "target": "engine",
+      "source_file": "fx-lightning-strike-close.mp3",
+      "source_sha256": "38b44bc473a28a37345c9920ad5b0f0f9772fa6ee2e999ea1bfc0f5829a72988",
+      "preview": "audio/lib-09.ogg"
+    },
+    "lib-10": {
+      "decision": "try",
+      "target": "scirocco",
+      "source_file": "hit-fireball.mp3",
+      "source_sha256": "cf9e93f916a5c4dfe7952e52ff311c6cab1cbda4918c59e47200ce3352a8f769",
+      "preview": "audio/lib-10.ogg"
+    },
+    "lib-11": {
+      "decision": "try",
+      "target": "beam",
+      "source_file": "hit-smite.mp3",
+      "source_sha256": "1d8d1b1702344070bf59fb705258bfbf89cff41b11f6ef3a1454a5c079498d13",
+      "preview": "audio/lib-11.ogg"
+    },
+    "lib-12": {
+      "decision": "try",
+      "target": "rain",
+      "source_file": "ice-spell03.mp3",
+      "source_sha256": "264382a2d6cd3825562c3fb2e5851b307337e758830df65da545b9fa31d7572e",
+      "preview": "audio/lib-12.ogg"
+    },
+    "lib-13": {
+      "decision": "try",
+      "target": "doubleSlash",
+      "source_file": "kneeling-cleaver.mp3",
+      "source_sha256": "eb700b3c62fbd0e5f89c1e55b5989398145ea153dc39a3d2cc84b7d038ea33f8",
+      "preview": "audio/lib-13.ogg"
+    },
+    "lib-14": {
+      "decision": "try",
+      "target": "rain",
+      "source_file": "magic-missiles.mp3",
+      "source_sha256": "318301e98f2859cf77662397200e6a9ec8167a0b911e38df0013c3372689d863",
+      "preview": "audio/lib-14.ogg"
+    },
+    "lib-15": {
+      "decision": "try",
+      "target": "reticle",
+      "source_file": "magic-spell.mp3",
+      "source_sha256": "badcc74c69a7e7b313c98d434c2011b70da0deef3ea87e24498868ce501fc9cc",
+      "preview": "audio/lib-15.ogg"
+    },
+    "lib-16": {
+      "decision": "reject",
+      "target": "blackSlash",
+      "source_file": "magic-strike.mp3",
+      "source_sha256": "5f36107147fd76fdd1a30752b1e0c2099af771cd1bea89c7bd3ffb86a6e7ade5",
+      "preview": "audio/lib-16.ogg"
+    },
+    "lib-17": {
+      "decision": "try",
+      "target": "vulcano",
+      "source_file": "ripping-explosion.mp3",
+      "source_sha256": "cc06b47b78c303ea6b3d17d2b138ec22a12f6ed4686746a5cd1364fee5e12488",
+      "preview": "audio/lib-17.ogg"
+    },
+    "lib-18": {
+      "decision": "try",
+      "target": "mistral",
+      "source_file": "spell-cast-whoosh-delay.mp3",
+      "source_sha256": "7141b71882980c286833ae8e80a5988cf6c3fbdd09d2a59d263a5e2bde888795",
+      "preview": "audio/lib-18.ogg"
+    },
+    "lib-19": {
+      "decision": "try",
+      "target": "furia",
+      "source_file": "summond.mp3",
+      "source_sha256": "5c19d48147becf49da5f84d3142f6ae83c9289668e5d80dff73a1eaf45d0d956",
+      "preview": "audio/lib-19.ogg"
+    },
+    "lib-20": {
+      "decision": "try",
+      "target": "blackSlash",
+      "source_file": "summoned-sound-effect.mp3",
+      "source_sha256": "ed482a915a4c6ba803c28bc1425b67ba395be6f81f59b9a62c571b17a04a4cfd",
+      "preview": "audio/lib-20.ogg"
+    },
+    "lib-21": {
+      "decision": "try",
+      "target": "wave",
+      "source_file": "water-elemantal-magic-skill.mp3",
+      "source_sha256": "0813fa938c18a128a35f324e26cb180cbdeddcfb300bd0920e4c270d5711dfed",
+      "preview": "audio/lib-21.ogg"
+    }
+  }
+}

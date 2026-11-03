@@ -1,0 +1,35 @@
+{
+ "id": "zimmer_bilder6",
+ "titel": "Crew 2, Runde 6",
+ "hinweis": "Vier Seeds, links die Vorlage.",
+ "items": [
+  {
+   "id": "crew_kabine_2_v1",
+   "titel": "Crew 2: Decke kleiner, Janas Sachen · v1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crew_kabine_2_e_v1.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\_quellen\\eden_rise_crew_kabine_2_e_v3.png",
+   "vergleich_titel": "Vorlage (Runde 5 v3)"
+  },
+  {
+   "id": "crew_kabine_2_v2",
+   "titel": "Crew 2: Decke kleiner, Janas Sachen · v2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crew_kabine_2_e_v2.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\_quellen\\eden_rise_crew_kabine_2_e_v3.png",
+   "vergleich_titel": "Vorlage (Runde 5 v3)"
+  },
+  {
+   "id": "crew_kabine_2_v3",
+   "titel": "Crew 2: Decke kleiner, Janas Sachen · v3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crew_kabine_2_e_v3.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\_quellen\\eden_rise_crew_kabine_2_e_v3.png",
+   "vergleich_titel": "Vorlage (Runde 5 v3)"
+  },
+  {
+   "id": "crew_kabine_2_v4",
+   "titel": "Crew 2: Decke kleiner, Janas Sachen · v4",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crew_kabine_2_e_v4.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\_quellen\\eden_rise_crew_kabine_2_e_v3.png",
+   "vergleich_titel": "Vorlage (Runde 5 v3)"
+  }
+ ]
+}

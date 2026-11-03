@@ -1,0 +1,39 @@
+{
+ "id": "siren_pool_fels_r1",
+ "titel": "Teich der Sirene – kleiner Felsen (4 Varianten)",
+ "hinweis": "Nur die Fläche unten wurde neu erzeugt, der Rest ist das Original. Die Belichtung der Figur ist noch nicht angepasst. Das Bild der Flut-Nacht bleibt unverändert.",
+ "items": [
+  {
+   "id": "v1",
+   "titel": "Felsen · Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\siren_pool_fels\\probe_v1.jpg",
+   "soll": "Probe mit Ligeia, von Hand 170 px nach rechts gesetzt. Faserige Stelle links im Felsen",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\eden_rise_underground_pool_tide.png",
+   "vergleich_titel": "Original ohne Felsen"
+  },
+  {
+   "id": "v2",
+   "titel": "Felsen · Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\siren_pool_fels\\probe_v2.jpg",
+   "soll": "Probe mit Ligeia, von Hand 170 px nach rechts gesetzt. Felsen niedrig, wenig Licht",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\eden_rise_underground_pool_tide.png",
+   "vergleich_titel": "Original ohne Felsen"
+  },
+  {
+   "id": "v3",
+   "titel": "Felsen · Variante 3",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\siren_pool_fels\\probe_v3.jpg",
+   "soll": "Probe mit Ligeia, von Hand 170 px nach rechts gesetzt. Felsen am klarsten, mein Favorit",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\eden_rise_underground_pool_tide.png",
+   "vergleich_titel": "Original ohne Felsen"
+  },
+  {
+   "id": "v4",
+   "titel": "Felsen · Variante 4",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\siren_pool_fels\\probe_v4.jpg",
+   "soll": "Probe mit Ligeia, von Hand 170 px nach rechts gesetzt. Felsen sehr dunkel",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\eden_rise_underground_pool_tide.png",
+   "vergleich_titel": "Original ohne Felsen"
+  }
+ ]
+}

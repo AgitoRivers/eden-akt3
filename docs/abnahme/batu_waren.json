@@ -1,0 +1,18 @@
+{
+ "id": "batu_waren_v2",
+ "titel": "Bà Tưs Laden: neue Ware",
+ "hinweis": "Bitte Schale und Steckling wählen. Texte daneben prüfen. Mein Vorschlag: Schale A, Steckling B. Beim Zitronengras habe ich deine 3 als das Bündel mit der schlichten Schnur verstanden.",
+ "items": [
+  {"id": "pho_a", "titel": "Bowl from the Pot · A (Vorschlag) · 8 €", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\_batu_waren\\pho_bowl_1.png", "soll": "Pho from the pot at the back, the one that is never off the fire. She counts every cent, then gives you too much. You eat it here, standing, while she watches. | Wirkung: Energy +1. Counts as your meal of the day. Once a day."},
+  {"id": "pho_b", "titel": "Bowl from the Pot · B", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\_batu_waren\\pho_bowl_2.png", "soll": "Gleicher Text, anderer Seed."},
+  {"id": "steckling_a", "titel": "Lemongrass Cuttings · A · 25 €", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\_batu_waren\\lemongrass_cutting_1.png", "soll": "Three stalks in damp brown paper, from the pots behind her shop. They want sun, water and a better bed than she has. She knows who has one. | Wirkung: Unlocks Lemongrass in Nonna's garden."},
+  {"id": "steckling_b", "titel": "Lemongrass Cuttings · B (Vorschlag)", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\_batu_waren\\lemongrass_cutting_2.png", "soll": "Gleicher Text, ruhigeres Bild, Stoff durchgehend."},
+  {"id": "zitronengras", "titel": "Lemongrass · deine 3 (so verstanden)", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\_batu_waren\\lemongrass_1.png", "soll": "Smells of lemon and tastes of somewhere else. It likes Nonna's soil. | Flavour: Experience +10 %, aus dem Garten +20 %."},
+  {"id": "zitronengras_alt", "titel": "Lemongrass · die andere Fassung", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\_batu_waren\\lemongrass_2.png", "soll": "Falls du diese gemeint hast: kurz sagen."},
+  {"id": "fish_sauce", "titel": "Fish Sauce · 12 € · Flavour", "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\fish_sauce.webp", "soll": "Amber, salty, and a smell that gets into your shirt and stays until Christmas. It comes from a cousin in Marseille, and she won't say which cousin. Everybody says it stinks. Everybody comes back. | Wirkung: For cooking, as the flavour: nobody dislikes the dish, whatever is in it."},
+  {"id": "tofu", "titel": "Tofu · 8 € · Main (zählt als Gemüse)", "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\tofu.webp", "soll": "White, firm and pressed this morning at the back of the shop. It tastes of almost nothing until you teach it. Bà Tư says the same about young men."},
+  {"id": "rice_paper", "titel": "Rice Paper · 5 € · Base", "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\rice_paper.webp", "soll": "Thin round sheets, dry as old letters. One second in warm water and they bend to anything. Tear one, and you will hear how her mother did it."},
+  {"id": "rice", "titel": "Rice · 3 € · Base (Nonna 4 €)", "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\rice.webp", "soll": "Long-grain rice from the same cousin in Marseille. Still nobody knows which cousin. She washes it three times and thinks less of you if you wash it twice."},
+  {"id": "sojasauce", "titel": "Soy Sauce · 5 € · Flavour (Nonna 6 €)", "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\sojasauce.webp", "soll": "Dark, salty and cheaper here than at the farm. She keeps it on the bottom shelf. The fish sauce gets the top."}
+ ]
+}

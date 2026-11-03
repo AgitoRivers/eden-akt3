@@ -1,0 +1,16 @@
+{
+ "id": "mina_tags",
+ "titel": "Mina als Tag-Preset (Yacht_Mina)",
+ "hinweis": "Neu in Prompt Studio aufgebaut: Körper, Haar, Haut und Make-up kommen aus Tags (Body: Slender, Body: Long Legs, B - Soft, Color: dark brown, Style: Bob, State: Messy, Skin: Olive Tan, Freckles, Summer). Im Subject-Satz stehen nur noch Name, Alter, Courier, Grinsen, Augen und \"deeply sun-tanned\", weil der Tag Olive Tan allein zu hell wäre. Daneben deine Wahl A1. Selbst geprüft: gleiche Frau in allen drei, Outfit und Helm stimmen, Hände in Ordnung. Das Set wird nach deinem OK gerendert.",
+ "items": [
+  {"id": "Mina_Tags_1", "titel": "Mina Tags, Seed 240611", "soll": "Mina mit Tags: kurzer zerzauster Bob, Sommersprossen, gebräunt, pinke Regenjacke, Helm im Nacken", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Mina\\neutral.png", "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Mina_A\\neutral-1.png"},
+  {"id": "Mina_Tags_2", "titel": "Mina Tags, Seed 771203", "soll": "wie oben", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Mina\\neutral-1.png", "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Mina_A\\neutral-1.png"},
+  {"id": "Mina_Tags_3", "titel": "Mina Tags, Seed 90817", "soll": "wie oben", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Mina\\neutral-2.png", "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Mina_A\\neutral-1.png"},
+  {"id": "AdrienCast_A1", "titel": "Adrien Fassung A (1)", "soll": "gutaussehender Inder, 28, Legionär, Verband am Oberschenkel, ruhig", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_AdrienCast_A\\neutral-1.png"},
+  {"id": "AdrienCast_A2", "titel": "Adrien Fassung A (2)", "soll": "wie oben", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_AdrienCast_A\\neutral.png"},
+  {"id": "AdrienCast_B1", "titel": "Adrien Fassung B (1)", "soll": "wie oben", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_AdrienCast_B\\neutral-1.png"},
+  {"id": "AdrienCast_B2", "titel": "Adrien Fassung B (2)", "soll": "wie oben", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_AdrienCast_B\\neutral.png"},
+  {"id": "AdrienCast_C1", "titel": "Adrien Fassung C (1)", "soll": "wie oben", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_AdrienCast_C\\neutral-1.png"},
+  {"id": "AdrienCast_C2", "titel": "Adrien Fassung C (2)", "soll": "wie oben", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_AdrienCast_C\\neutral.png"}
+ ]
+}

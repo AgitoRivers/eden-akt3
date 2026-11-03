@@ -1,0 +1,31 @@
+{
+ "id": "barrikade_offen",
+ "titel": "Barrikade im Norden, offen",
+ "hinweis": "Links die gewaehlte Barrikade, rechts aufgeschoben. Eine waehlen.",
+ "items": [
+  {
+   "id": "offen_bruch-1",
+   "titel": "Open offen_bruch-1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_barrikade\\offen_bruch-1.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_barrikade\\zu.png",
+   "vergleich_titel": "Zu (gewaehlt)",
+   "soll": "Weg frei, dieselben Teile wie zu an der Seite, kein Wagen"
+  },
+  {
+   "id": "offen_bruch-2",
+   "titel": "Open offen_bruch-2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_barrikade\\offen_bruch-2.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_barrikade\\zu.png",
+   "vergleich_titel": "Zu (gewaehlt)",
+   "soll": "Weg frei, dieselben Teile wie zu an der Seite, kein Wagen"
+  },
+  {
+   "id": "offen_bruch",
+   "titel": "Open offen_bruch",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_barrikade\\offen_bruch.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_barrikade\\zu.png",
+   "vergleich_titel": "Zu (gewaehlt)",
+   "soll": "Weg frei, dieselben Teile wie zu an der Seite, kein Wagen"
+  }
+ ]
+}

@@ -1,0 +1,139 @@
+{
+ "id": "set_pascal",
+ "titel": "Set Pascal Leca - NPC-Satz (22 Posen)",
+ "hinweis": "NPC-Ausdruecke ohne desire_2, ohne Rueckansichten. Ablage: expressions\\Yacht_Pascal\\Standard\roh. Noch nichts im Spiel.",
+ "items": [
+  {
+   "id": "admiration_2",
+   "titel": "Pascal Leca - admiration_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Pascal\\Standard\\roh\\admiration_2.png",
+   "soll": "NPC-Satz, Preset Yacht_Pascal, Set pascal_standard, Fassung A (dunkler Nadelstreifen-Doppelreiher, Einstecktuch, weisser Fedora, offenes Hemd ohne Krawatte)"
+  },
+  {
+   "id": "amusement",
+   "titel": "Pascal Leca - amusement",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Pascal\\Standard\\roh\\amusement.png",
+   "soll": "NPC-Satz, Preset Yacht_Pascal, Set pascal_standard, Fassung A (dunkler Nadelstreifen-Doppelreiher, Einstecktuch, weisser Fedora, offenes Hemd ohne Krawatte)"
+  },
+  {
+   "id": "anger",
+   "titel": "Pascal Leca - anger",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Pascal\\Standard\\roh\\anger.png",
+   "soll": "NPC-Satz, Preset Yacht_Pascal, Set pascal_standard, Fassung A (dunkler Nadelstreifen-Doppelreiher, Einstecktuch, weisser Fedora, offenes Hemd ohne Krawatte)"
+  },
+  {
+   "id": "annoyance",
+   "titel": "Pascal Leca - annoyance",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Pascal\\Standard\\roh\\annoyance.png",
+   "soll": "NPC-Satz, Preset Yacht_Pascal, Set pascal_standard, Fassung A (dunkler Nadelstreifen-Doppelreiher, Einstecktuch, weisser Fedora, offenes Hemd ohne Krawatte)"
+  },
+  {
+   "id": "approval",
+   "titel": "Pascal Leca - approval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Pascal\\Standard\\roh\\approval.png",
+   "soll": "NPC-Satz, Preset Yacht_Pascal, Set pascal_standard, Fassung A (dunkler Nadelstreifen-Doppelreiher, Einstecktuch, weisser Fedora, offenes Hemd ohne Krawatte)"
+  },
+  {
+   "id": "caring",
+   "titel": "Pascal Leca - caring",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Pascal\\Standard\\roh\\caring.png",
+   "soll": "NPC-Satz, Preset Yacht_Pascal, Set pascal_standard, Fassung A (dunkler Nadelstreifen-Doppelreiher, Einstecktuch, weisser Fedora, offenes Hemd ohne Krawatte)"
+  },
+  {
+   "id": "confusion",
+   "titel": "Pascal Leca - confusion",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Pascal\\Standard\\roh\\confusion.png",
+   "soll": "NPC-Satz, Preset Yacht_Pascal, Set pascal_standard, Fassung A (dunkler Nadelstreifen-Doppelreiher, Einstecktuch, weisser Fedora, offenes Hemd ohne Krawatte)"
+  },
+  {
+   "id": "curiosity",
+   "titel": "Pascal Leca - curiosity",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Pascal\\Standard\\roh\\curiosity.png",
+   "soll": "NPC-Satz, Preset Yacht_Pascal, Set pascal_standard, Fassung A (dunkler Nadelstreifen-Doppelreiher, Einstecktuch, weisser Fedora, offenes Hemd ohne Krawatte)"
+  },
+  {
+   "id": "disappointment",
+   "titel": "Pascal Leca - disappointment",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Pascal\\Standard\\roh\\disappointment.png",
+   "soll": "NPC-Satz, Preset Yacht_Pascal, Set pascal_standard, Fassung A (dunkler Nadelstreifen-Doppelreiher, Einstecktuch, weisser Fedora, offenes Hemd ohne Krawatte)"
+  },
+  {
+   "id": "disapproval",
+   "titel": "Pascal Leca - disapproval",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Pascal\\Standard\\roh\\disapproval.png",
+   "soll": "NPC-Satz, Preset Yacht_Pascal, Set pascal_standard, Fassung A (dunkler Nadelstreifen-Doppelreiher, Einstecktuch, weisser Fedora, offenes Hemd ohne Krawatte)"
+  },
+  {
+   "id": "disgust",
+   "titel": "Pascal Leca - disgust",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Pascal\\Standard\\roh\\disgust.png",
+   "soll": "NPC-Satz, Preset Yacht_Pascal, Set pascal_standard, Fassung A (dunkler Nadelstreifen-Doppelreiher, Einstecktuch, weisser Fedora, offenes Hemd ohne Krawatte)"
+  },
+  {
+   "id": "embarrassment_2",
+   "titel": "Pascal Leca - embarrassment_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Pascal\\Standard\\roh\\embarrassment_2.png",
+   "soll": "NPC-Satz, Preset Yacht_Pascal, Set pascal_standard, Fassung A (dunkler Nadelstreifen-Doppelreiher, Einstecktuch, weisser Fedora, offenes Hemd ohne Krawatte)"
+  },
+  {
+   "id": "excitement_2",
+   "titel": "Pascal Leca - excitement_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Pascal\\Standard\\roh\\excitement_2.png",
+   "soll": "NPC-Satz, Preset Yacht_Pascal, Set pascal_standard, Fassung A (dunkler Nadelstreifen-Doppelreiher, Einstecktuch, weisser Fedora, offenes Hemd ohne Krawatte)"
+  },
+  {
+   "id": "fear_2",
+   "titel": "Pascal Leca - fear_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Pascal\\Standard\\roh\\fear_2.png",
+   "soll": "NPC-Satz, Preset Yacht_Pascal, Set pascal_standard, Fassung A (dunkler Nadelstreifen-Doppelreiher, Einstecktuch, weisser Fedora, offenes Hemd ohne Krawatte)"
+  },
+  {
+   "id": "gratitude",
+   "titel": "Pascal Leca - gratitude",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Pascal\\Standard\\roh\\gratitude.png",
+   "soll": "NPC-Satz, Preset Yacht_Pascal, Set pascal_standard, Fassung A (dunkler Nadelstreifen-Doppelreiher, Einstecktuch, weisser Fedora, offenes Hemd ohne Krawatte)"
+  },
+  {
+   "id": "joy",
+   "titel": "Pascal Leca - joy",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Pascal\\Standard\\roh\\joy.png",
+   "soll": "NPC-Satz, Preset Yacht_Pascal, Set pascal_standard, Fassung A (dunkler Nadelstreifen-Doppelreiher, Einstecktuch, weisser Fedora, offenes Hemd ohne Krawatte)"
+  },
+  {
+   "id": "love_2",
+   "titel": "Pascal Leca - love_2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Pascal\\Standard\\roh\\love_2.png",
+   "soll": "NPC-Satz, Preset Yacht_Pascal, Set pascal_standard, Fassung A (dunkler Nadelstreifen-Doppelreiher, Einstecktuch, weisser Fedora, offenes Hemd ohne Krawatte)"
+  },
+  {
+   "id": "nervousness",
+   "titel": "Pascal Leca - nervousness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Pascal\\Standard\\roh\\nervousness.png",
+   "soll": "NPC-Satz, Preset Yacht_Pascal, Set pascal_standard, Fassung A (dunkler Nadelstreifen-Doppelreiher, Einstecktuch, weisser Fedora, offenes Hemd ohne Krawatte)"
+  },
+  {
+   "id": "neutral",
+   "titel": "Pascal Leca - neutral",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Pascal\\Standard\\roh\\neutral.png",
+   "soll": "NPC-Satz, Preset Yacht_Pascal, Set pascal_standard, Fassung A (dunkler Nadelstreifen-Doppelreiher, Einstecktuch, weisser Fedora, offenes Hemd ohne Krawatte)"
+  },
+  {
+   "id": "pride",
+   "titel": "Pascal Leca - pride",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Pascal\\Standard\\roh\\pride.png",
+   "soll": "NPC-Satz, Preset Yacht_Pascal, Set pascal_standard, Fassung A (dunkler Nadelstreifen-Doppelreiher, Einstecktuch, weisser Fedora, offenes Hemd ohne Krawatte)"
+  },
+  {
+   "id": "sadness",
+   "titel": "Pascal Leca - sadness",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Pascal\\Standard\\roh\\sadness.png",
+   "soll": "NPC-Satz, Preset Yacht_Pascal, Set pascal_standard, Fassung A (dunkler Nadelstreifen-Doppelreiher, Einstecktuch, weisser Fedora, offenes Hemd ohne Krawatte)"
+  },
+  {
+   "id": "surprise",
+   "titel": "Pascal Leca - surprise",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Pascal\\Standard\\roh\\surprise.png",
+   "soll": "NPC-Satz, Preset Yacht_Pascal, Set pascal_standard, Fassung A (dunkler Nadelstreifen-Doppelreiher, Einstecktuch, weisser Fedora, offenes Hemd ohne Krawatte)"
+  }
+ ]
+}

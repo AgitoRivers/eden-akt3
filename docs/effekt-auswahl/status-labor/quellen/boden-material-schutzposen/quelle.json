@@ -1,0 +1,18 @@
+{
+  "tool": "built-in imagegen; generate then edit",
+  "source": "C:\\Users\\DucNg\\.codex\\generated_images\\01a14a5c-defd-7ac1-88da-ea3225a65e1f\\exec-370654f4-1c4d-45df-8a4b-b28c41e356da.png",
+  "project_file": "X:\\AI\\Eden\\docs\\effekt-auswahl\\status-labor\\assets\\bodenbruch-real-v1.png",
+  "sha256": "037d2d8b1b236f99af3c70ea5019e4c872d429d37f6a553562c333aae77533a6",
+  "size": [
+    2172,
+    724
+  ],
+  "crop": [
+    57,
+    98,
+    2128,
+    647
+  ],
+  "alpha": "generated alpha preserved; source image not repainted or masked in Python",
+  "final_prompt": "Edit this transparent realistic ground-fracture asset. Keep the photographic gray stone microtexture and asymmetric branching shape. Correct only the relief: the previous image still resembles raised broken paving slabs. Make the pieces flush with an existing flat floor, extremely shallow hairline fractures, no exposed slab side walls and no raised pile or pedestal. Depress the thin fissures slightly into the surface, with subtle dark occlusion in their interiors and just a few tiny grounded chips. Broaden the flatter continuous cracked area while retaining irregular transparent edges and long narrow branches. Low, shallow three-quarter viewing angle for a game floor decal, wide and horizontally flattened composition. Darker charcoal neutral stone and restrained contrast to sit naturally on a dark gray floor. No glow, no drawn outlines, no dust, no crater. Preserve true transparent alpha outside the asset; no rectangular backing."
+}

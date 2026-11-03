@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "createdAt": "2026-10-26T20:03:37.285Z",
+  "scope": "Spezialangriffe im Effektlabor",
+  "choices": {
+    "scirocco": {
+      "name": "Scirocco",
+      "variant": 2,
+      "variantNumber": 3,
+      "variantName": "Konzentrierter Feuerkern",
+      "note": "sound muss am Anfang länger sein bis der Feuerball geschossen wird. "
+    },
+    "retour": {
+      "name": "Retour de Flamme",
+      "variant": 2,
+      "variantNumber": 3,
+      "variantName": "Verdichtete Racheglut",
+      "note": "sound muss am Anfang länger sein bis der Feuerball geschossen wird.  Impact muss mehr wumms hab"
+    },
+    "furia": {
+      "name": "Furia",
+      "variant": 2,
+      "variantNumber": 3,
+      "variantName": "Schlangenflamme",
+      "note": "gut"
+    },
+    "vulcano": {
+      "name": "Vulcano",
+      "variant": 0,
+      "variantNumber": 1,
+      "variantName": "Aufsteigender Feuersturm",
+      "note": "sound muss am Anfang länger sein bis die Schläge starten. am ende muss es explodieren vom sound "
+    },
+    "mistral": {
+      "name": "Mistral",
+      "variant": 0,
+      "variantNumber": 1,
+      "variantName": "Wilder Schwung",
+      "note": "impact braucht mehr wumms. "
+    },
+    "wave": {
+      "name": "Ressac",
+      "variant": 0,
+      "variantNumber": 1,
+      "variantName": "Wasserlanze · Referenz",
+      "note": "gut"
+    },
+    "wind": {
+      "name": "Libeccio",
+      "variant": 0,
+      "variantNumber": 1,
+      "variantName": "Grobe Nebelwand",
+      "note": "gut "
+    },
+    "tidal": {
+      "name": "Lame de Fond",
+      "variant": 0,
+      "variantNumber": 1,
+      "variantName": "Brechende Wasserwand",
+      "note": "gut"
+    },
+    "doubleSlash": {
+      "name": "Doppio Gioco",
+      "variant": 0,
+      "variantNumber": 1,
+      "variantName": "Kreuzschnitt",
+      "note": "gut"
+    },
+    "blur": {
+      "name": "Sotto Voce",
+      "variant": 0,
+      "variantNumber": 1,
+      "variantName": "Verdichtete Stimme",
+      "note": "mehr wumms am ende, den sound den wir jetzt haben einfach 2x so laut. "
+    },
+    "vendetta": {
+      "name": "Vendetta",
+      "variant": 2,
+      "variantNumber": 3,
+      "variantName": "Steiles Glut-V",
+      "note": "auch hier mehr laden und ein nachbrennen am Ende. "
+    },
+    "blackSlash": {
+      "name": "Omertà",
+      "variant": 1,
+      "variantNumber": 2,
+      "variantName": "Goldener Hinterhalt",
+      "note": "gut"
+    },
+    "reticle": {
+      "name": "Point de Mire",
+      "variant": 0,
+      "variantNumber": 1,
+      "variantName": "Präziser Fokus",
+      "note": "gut"
+    },
+    "calm": {
+      "name": "Bonaccia",
+      "variant": 0,
+      "variantNumber": 1,
+      "variantName": "Wasserschutzschild",
+      "note": "gut "
+    },
+    "beam": {
+      "name": "Phare",
+      "variant": 0,
+      "variantNumber": 1,
+      "variantName": "Suchscheinwerfer",
+      "note": "Das muss mehr wie Licht klingen. "
+    },
+    "rain": {
+      "name": "Pluie d’Étoiles",
+      "variant": 0,
+      "variantNumber": 1,
+      "variantName": "Dreifacher Fall",
+      "note": "der erste Sound muss 3 mal (je Kugel) ein anderer sein:\"S:\\VR\\Gallery\\Downloads\\Sounds\\ice-spell03.mp3\" aber doppelt so laut "
+    },
+    "balm": {
+      "name": "Elicriso",
+      "variant": null,
+      "variantNumber": null,
+      "variantName": null,
+      "note": ""
+    },
+    "westWind": {
+      "name": "Ponente",
+      "variant": 1,
+      "variantNumber": 2,
+      "variantName": "Sheltering breeze",
+      "note": "viel mehr blätter und wirbelnd "
+    },
+    "awaken": {
+      "name": "Risveglio",
+      "variant": null,
+      "variantNumber": null,
+      "variantName": null,
+      "note": ""
+    },
+    "archangel": {
+      "name": "Arcangelo",
+      "variant": 2,
+      "variantNumber": 3,
+      "variantName": "Church dawn",
+      "note": ""
+    }
+  }
+}

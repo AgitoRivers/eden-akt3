@@ -1,0 +1,138 @@
+{
+ "id": "schiessen_klang",
+ "titel": "Holms Wette – Klänge",
+ "gruppen": [
+  {
+   "id": "gun_shot",
+   "titel": "Schuss",
+   "soll": "Kurz und knackig, sonst übertönt es den nächsten Schuss. Der erste ist mein Vorschlag und schon im Spiel.",
+   "max": 1,
+   "kandidaten": [
+    {
+     "titel": "Shotgun Firing (4) · freesound_community",
+     "cdn": "2021/08/09/audio_42c2ce9d86.mp3",
+     "seite": "film-special-effects-shotgun-firing-4-6746"
+    }
+   ]
+  },
+  {
+   "id": "gun_reload",
+   "titel": "Nachladen",
+   "soll": "Kurz und knackig, sonst übertönt es den nächsten Schuss. Der erste ist mein Vorschlag und schon im Spiel.",
+   "max": 1,
+   "kandidaten": [
+    {
+     "titel": "Rifle-or-shotgun-reload · freesound_community",
+     "cdn": "2021/08/09/audio_91cfcc96c2.mp3",
+     "seite": "film-special-effects-rifle-or-shotgun-reload-6787"
+    }
+   ]
+  },
+  {
+   "id": "schiessen_flasche",
+   "titel": "Flasche zerspringt",
+   "soll": "Kurz und knackig, sonst übertönt es den nächsten Schuss. Der erste ist mein Vorschlag und schon im Spiel.",
+   "max": 1,
+   "kandidaten": [
+    {
+     "titel": "Glass Bottle Smash · Universfield",
+     "cdn": "2024/12/17/audio_0a00729be9.mp3",
+     "seite": "film-special-effects-glass-bottle-smash-277554"
+    },
+    {
+     "titel": "Glass Bottle Smash · Universfield",
+     "cdn": "2024/02/19/audio_e1ff566468.mp3",
+     "seite": "film-special-effects-glass-bottle-smash-191998"
+    },
+    {
+     "titel": "Bottle Shatter · Universfield",
+     "cdn": "2024/08/02/audio_f31fd2d3e8.mp3",
+     "seite": "film-special-effects-bottle-shatter-229205"
+    },
+    {
+     "titel": "Glass break 3 · EAGLAXLE",
+     "cdn": "2026/05/07/audio_4ba150229c.mp3",
+     "seite": "film-special-effects-glass-break-3-530786"
+    }
+   ]
+  },
+  {
+   "id": "schiessen_ton",
+   "titel": "Tontaube zerspringt",
+   "soll": "Kurz und knackig, sonst übertönt es den nächsten Schuss. Der erste ist mein Vorschlag und schon im Spiel.",
+   "max": 1,
+   "kandidaten": [
+    {
+     "titel": "Plate Break 1 · freesound_community",
+     "cdn": "2022/03/10/audio_72c13eae35.mp3",
+     "seite": "household-plate-break-1-36468"
+    },
+    {
+     "titel": "Break the ceramic tiles · spinopel",
+     "cdn": "2025/09/28/audio_e2af439c0f.mp3",
+     "seite": "film-special-effects-break-the-ceramic-tiles-411504"
+    }
+   ]
+  },
+  {
+   "id": "schiessen_drohne",
+   "titel": "Drohne fällt aus",
+   "soll": "Kurz und knackig, sonst übertönt es den nächsten Schuss. Der erste ist mein Vorschlag und schon im Spiel.",
+   "max": 1,
+   "kandidaten": [
+    {
+     "titel": "Metal Crack Electrical Circuit Brake · Tutmozis",
+     "cdn": "2026/09/19/audio_fc60af0994.mp3",
+     "seite": "film-special-effects-metal-crack-electrical-circuit-brake-606771"
+    },
+    {
+     "titel": "Electronic element burn spark 1 · FxProSound",
+     "cdn": "2024/10/08/audio_d2090a2c23.mp3",
+     "seite": "film-special-effects-electronic-element-burn-spark-1-248606"
+    },
+    {
+     "titel": "Electric Shock Short Circuit 4 · floraphonic",
+     "cdn": "2024/04/28/audio_a550796a9e.mp3",
+     "seite": "film-special-effects-electric-shock-short-circuit-4-204986"
+    }
+   ]
+  },
+  {
+   "id": "schiessen_moewe",
+   "titel": "Möwe getroffen",
+   "soll": "Kurz und knackig, sonst übertönt es den nächsten Schuss. Der erste ist mein Vorschlag und schon im Spiel.",
+   "max": 1,
+   "kandidaten": [
+    {
+     "titel": "Seagulls Squawking 3 FX · SOUND_GARAGE",
+     "cdn": "2025/09/08/audio_12ef7e66a8.mp3",
+     "seite": "nature-seagulls-squawking-3-fx-401400"
+    },
+    {
+     "titel": "Seagulls Squawking 4 FX · SOUND_GARAGE",
+     "cdn": "2025/09/08/audio_357f1fb7fb.mp3",
+     "seite": "nature-seagulls-squawking-4-fx-401398"
+    },
+    {
+     "titel": "Seagull Calls · DRAGON-STUDIO",
+     "cdn": "2025/05/10/audio_9cb830e075.mp3",
+     "seite": "nature-seagull-calls-339723"
+    }
+   ]
+  },
+  {
+   "id": "schiessen_blend",
+   "titel": "Blendgranate",
+   "soll": "Kurz und knackig, sonst übertönt es den nächsten Schuss. Der erste ist mein Vorschlag und schon im Spiel.",
+   "max": 1,
+   "kandidaten": [
+    {
+     "titel": "Stun Grenade Flashbang (schon im Kampf)",
+     "cdn": "2026/05/30/audio_89f760f671.mp3",
+     "seite": "film-special-effects-stun-grenade-flashbang-543949"
+    }
+   ]
+  }
+ ],
+ "hinweis": "Je Ziel einen Favoriten wählen. Pixabay Content License. Schuss und Nachladen kommen aus dem freigegebenen Soundlabor."
+}

@@ -1,0 +1,127 @@
+{
+ "id": "kampf_nachbessern_1",
+ "titel": "Kampf-Sprites: Nachbesserung",
+ "hinweis": "Die beiden TEST-Bilder entscheiden, ob alle Menschen-Gegner ihr Defeated so bekommen. ✓ OK oder ✗ Neu + Notiz, dann im Chat Bescheid sagen.",
+ "items": [
+  {
+   "id": "YasinDrone/defeated",
+   "titel": "YasinDrone – defeated",
+   "soll": "TEST neue Defeated-Art: flach liegend, Augen zu, nur eine Person",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\defeated.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "AgentAlpha/defeated",
+   "titel": "AgentAlpha – defeated",
+   "soll": "TEST neue Defeated-Art: flach liegend, Augen zu, nur eine Person",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\defeated.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "MaxwellSteward/defeated",
+   "titel": "MaxwellSteward – defeated",
+   "soll": "Ausnahme Chuck Norris: auf einem Knie, erschöpft, aber nicht liegend",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\defeated.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "YasinDrone/attack",
+   "titel": "YasinDrone – attack",
+   "soll": "keine Pistole – er lenkt die Drohne zum Angriff",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\attack.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "YasinDrone/windup",
+   "titel": "YasinDrone – windup",
+   "soll": "Drohne steigt hoch, bereit zum Sturzflug",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\windup.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "YasinDrone/flee",
+   "titel": "YasinDrone – flee",
+   "soll": "rennt nach rechts weg, schaut zurück",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\flee.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "YasinDrone/weakened",
+   "titel": "YasinDrone – weakened",
+   "soll": "Drohne beschädigt, Rauch und Funken",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\weakened.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "YasinDrone/surrender",
+   "titel": "YasinDrone – surrender",
+   "soll": "kniet, Fernbedienung am Boden, Drohne kaputt daneben",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\surrender.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\YasinDrone\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "MaxwellSteward/attack",
+   "titel": "MaxwellSteward – attack",
+   "soll": "Faustschlag",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\attack.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "MaxwellSteward/heavy_windup",
+   "titel": "MaxwellSteward – heavy_windup",
+   "soll": "Polo mit Kragen jetzt richtig. Claude: Pose wirkt eher wie Deckung als Ausholen (4. Versuch) – OK so oder nochmal?",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\heavy_windup.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\MaxwellSteward\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Alon/windup",
+   "titel": "Alon – windup",
+   "soll": "zieht die Strahlenpistole an die Brust, zielt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\windup.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Alon/weakened",
+   "titel": "Alon – weakened",
+   "soll": "erschöpft, kein Lachen",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\weakened.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Alon/surrender",
+   "titel": "Alon – surrender",
+   "soll": "kniet, Hände hoch, kein Lachen",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\surrender.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "AgentAlpha/idle",
+   "titel": "AgentAlpha – idle",
+   "soll": "Claude: an den Knien abgeschnitten (war schon im Volllauf so) – neu rechnen?",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\idle.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "AgentAlpha/hurt",
+   "titel": "AgentAlpha – hurt",
+   "soll": "Claude: ebenfalls an den Knien abgeschnitten – neu rechnen?",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\hurt.png",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\idle.png",
+   "vergleich_titel": "idle"
+  }
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "id": "kraeuter_kloster",
+ "titel": "Kräuter aus dem Kloster (zweite Quelle ab Akt 2)",
+ "hinweis": "Isabelles Mittel aus der Klosterapotheke, Frederico bringt sie morgens. Je Gegenstand eine Variante mit OK markieren.",
+ "items": [
+  {
+   "id": "chestnut_honey_v1",
+   "titel": "Chestnut Honey Dab – heilt 15 % LP · Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\chestnut_honey_v1.png",
+   "soll": "Glas steht, Wachspapier, Honiglöffel. Keine Lochmuster."
+  },
+  {
+   "id": "chestnut_honey_v2",
+   "titel": "Chestnut Honey Dab – heilt 15 % LP · Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\chestnut_honey_v2.png",
+   "soll": "Glas steht, Wachspapier, Honiglöffel. Keine Lochmuster."
+  },
+  {
+   "id": "chestnut_honey_v3",
+   "titel": "Chestnut Honey Dab – heilt 15 % LP · Variante 3",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\chestnut_honey_v3.png",
+   "soll": "Glas steht, Wachspapier, Honiglöffel. Keine Lochmuster."
+  },
+  {
+   "id": "cistus_compress_v1",
+   "titel": "Cistus Compress – heilt 30 %, stoppt Blutung · Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\cistus_compress_v1.png",
+   "soll": "Leinenkompresse liegt, Zistrosenblätter. Keine Lochmuster."
+  },
+  {
+   "id": "cistus_compress_v2",
+   "titel": "Cistus Compress – heilt 30 %, stoppt Blutung · Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\cistus_compress_v2.png",
+   "soll": "Leinenkompresse liegt, Zistrosenblätter. Keine Lochmuster."
+  },
+  {
+   "id": "cistus_compress_v3",
+   "titel": "Cistus Compress – heilt 30 %, stoppt Blutung · Variante 3",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\cistus_compress_v3.png",
+   "soll": "Leinenkompresse liegt, Zistrosenblätter. Keine Lochmuster."
+  },
+  {
+   "id": "san_martinu_satchel_v1",
+   "titel": "San Martinu Satchel – heilt 50 %, löscht Brand und Blutung · Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\san_martinu_satchel_v1.png",
+   "soll": "Apothekentasche liegt quer, Wachssiegel. Keine Lochmuster."
+  },
+  {
+   "id": "san_martinu_satchel_v2",
+   "titel": "San Martinu Satchel – heilt 50 %, löscht Brand und Blutung · Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\san_martinu_satchel_v2.png",
+   "soll": "Apothekentasche liegt quer, Wachssiegel. Keine Lochmuster."
+  },
+  {
+   "id": "san_martinu_satchel_v3",
+   "titel": "San Martinu Satchel – heilt 50 %, löscht Brand und Blutung · Variante 3",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\san_martinu_satchel_v3.png",
+   "soll": "Apothekentasche liegt quer, Wachssiegel. Keine Lochmuster."
+  },
+  {
+   "id": "lavender_oil_v1",
+   "titel": "Lavender Oil – löscht alle Brandstufen an Duc · Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\lavender_oil_v1.png",
+   "soll": "violette Flasche steht, Leinenanhänger. Keine Lochmuster."
+  },
+  {
+   "id": "lavender_oil_v2",
+   "titel": "Lavender Oil – löscht alle Brandstufen an Duc · Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\lavender_oil_v2.png",
+   "soll": "violette Flasche steht, Leinenanhänger. Keine Lochmuster."
+  },
+  {
+   "id": "lavender_oil_v3",
+   "titel": "Lavender Oil – löscht alle Brandstufen an Duc · Variante 3",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\lavender_oil_v3.png",
+   "soll": "violette Flasche steht, Leinenanhänger. Keine Lochmuster."
+  },
+  {
+   "id": "rosemary_drops_v1",
+   "titel": "Rosemary Honey Drops – +2 Ausdauer · Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\rosemary_drops_v1.png",
+   "soll": "drei einzeln eingewickelte Bonbons, Rosmarinzweig. Keine Lochmuster."
+  },
+  {
+   "id": "rosemary_drops_v2",
+   "titel": "Rosemary Honey Drops – +2 Ausdauer · Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\rosemary_drops_v2.png",
+   "soll": "drei einzeln eingewickelte Bonbons, Rosmarinzweig. Keine Lochmuster."
+  },
+  {
+   "id": "rosemary_drops_v3",
+   "titel": "Rosemary Honey Drops – +2 Ausdauer · Variante 3",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\rosemary_drops_v3.png",
+   "soll": "drei einzeln eingewickelte Bonbons, Rosmarinzweig. Keine Lochmuster."
+  },
+  {
+   "id": "cedrat_tonic_v1",
+   "titel": "Cédrat Tonic – +4 Ausdauer · Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\cedrat_tonic_v1.png",
+   "soll": "Bügelflasche steht, Schalenstreifen. Keine Lochmuster."
+  },
+  {
+   "id": "cedrat_tonic_v2",
+   "titel": "Cédrat Tonic – +4 Ausdauer · Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\cedrat_tonic_v2.png",
+   "soll": "Bügelflasche steht, Schalenstreifen. Keine Lochmuster."
+  },
+  {
+   "id": "cedrat_tonic_v3",
+   "titel": "Cédrat Tonic – +4 Ausdauer · Variante 3",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\cedrat_tonic_v3.png",
+   "soll": "Bügelflasche steht, Schalenstreifen. Keine Lochmuster."
+  },
+  {
+   "id": "chestnut_cake_v1",
+   "titel": "Nonna's Chestnut Cake – +1 Ausdauer je Runde, 4 Runden · Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\chestnut_cake_v1.png",
+   "soll": "Stück auf glattem weißem Teller. Keine Lochmuster."
+  },
+  {
+   "id": "chestnut_cake_v2",
+   "titel": "Nonna's Chestnut Cake – +1 Ausdauer je Runde, 4 Runden · Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\chestnut_cake_v2.png",
+   "soll": "Stück auf glattem weißem Teller. Keine Lochmuster."
+  },
+  {
+   "id": "chestnut_cake_v3",
+   "titel": "Nonna's Chestnut Cake – +1 Ausdauer je Runde, 4 Runden · Variante 3",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\chestnut_cake_v3.png",
+   "soll": "Stück auf glattem weißem Teller. Keine Lochmuster."
+  }
+ ]
+}

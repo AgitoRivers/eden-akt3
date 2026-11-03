@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Erzählerin im Spiel</title>
+<style>
+:root{--grund:#14110f;--karte:#1f1a17;--perle:#f3eee4;--leise:rgba(243,238,228,.7);--dim:rgba(243,238,228,.45);--akz:#e0a960;--gut:#7fc98f}
+body{margin:0;background:var(--grund);color:var(--perle);font:16px/1.55 system-ui,sans-serif}
+main{max-width:860px;margin:0 auto;padding:32px 16px 64px}
+h1{font-size:28px;margin:0 0 4px}
+h2{font-size:18px;margin:32px 0 8px;color:var(--akz)}
+p,li{color:var(--leise)}
+.karte{background:var(--karte);border-radius:12px;padding:16px 18px;margin:12px 0}
+.karte b{color:var(--perle)}
+.lage{font-style:italic;color:var(--perle)}
+.ablauf{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+.ablauf span{background:#2a231f;border-radius:999px;padding:4px 12px;font-size:14px}
+.ablauf span.neu{background:var(--akz);color:#14110f;font-weight:600}
+audio{width:100%;margin-top:8px}
+code{background:#2a231f;border-radius:4px;padding:1px 5px;font-size:14px}
+.ok{color:var(--gut);font-weight:600}
+small{color:var(--dim)}
+</style>
+</head>
+<body>
+<main>
+<h1>Die Erzählerin spricht jetzt im Spiel</h1>
+<p>Branch <code>t/erzaehlerin</code> · 02.11.2026 · Interaction</p>
+
+<div class="karte">
+<b>Was neu ist:</b> Öffnet sich ein Ortsbild, liest die Erzählerin zuerst den Lagetext vor. Danach sprechen die Figuren
+ihre Zeilen wie bisher. Nach deiner Wahl spricht nur noch die Antwort. Alle 295 Ortsbilder sind schon vertont, es war
+kein neuer Lauf nötig. Der Stimm-Schalter im Spiel gilt auch für sie.
+</div>
+
+<h2>Beispiel 1 · Ortsbild ohne Figuren-Zeilen</h2>
+<div class="karte">
+<b>Something That Blinks</b> (Hafen, Casanova)
+<div class="ablauf"><span class="neu">Erzählerin 29 s</span><span>deine Wahl</span></div>
+<p class="lage">You're walking back to the tender when something stops you. On the stone wall above the quay stands a goat …</p>
+<audio controls preload="none" src="file:///X:/AI/Eden/module/eden_rise/audio/aaaa08c8f898a50eb1830c910e4a26ac.wav"></audio>
+</div>
+
+<h2>Beispiel 2 · Ortsbild mit Figuren-Zeilen</h2>
+<div class="karte">
+<b>The Air Pocket</b> (Grotte, Matteu)
+<div class="ablauf"><span class="neu">Erzählerin 11 s</span><span>Matteu, Zeile 1</span><span>Matteu, Zeile 2</span><span>deine Wahl</span></div>
+<p class="lage">A dome of rock with air in it, and a shelf just above the high-water mark …</p>
+<audio controls preload="none" src="file:///X:/AI/Eden/module/eden_rise/audio/cf8b387bfbc4be6d94ad5fd3beb24069.wav"></audio>
+<p><small>Im Vorschau-Server gemessen: Erzählerin ab Sekunde 1, Matteu ab 12 und 24, Ende bei 27.</small></p>
+</div>
+
+<h2>Live ausprobieren</h2>
+<div class="karte">
+Vorschau-Server mit genau diesem Ortsbild (Wegwerf-Spielstand, dein Spiel bleibt unberührt):
+<a href="http://localhost:8462" style="color:var(--akz)">http://localhost:8462</a>. Läuft, solange die Interaction-Sitzung offen ist.
+</div>
+
+<h2>Geprüft</h2>
+<div class="karte">
+<ul>
+<li><span class="ok">grün</span> Neuer Test <code>tests/test_erzaehlerin.py</code>: Server-Text gleich Vertonungs-Text für alle Ortsbilder, andere Events bleiben stumm.</li>
+<li><span class="ok">grün</span> UI-Wächter <code>tests/test_ui_einheit.py</code>.</li>
+<li><span class="ok">grün</span> Gate Seed 7 und Seed 3: identisch mit der Referenz, Ende Tag 24.</li>
+<li>Wiki: <code>systeme/interaktion.md</code>, Abschnitt „Erzählerin bei Ortsbildern“.</li>
+</ul>
+</div>
+
+<h2>Offen für später</h2>
+<div class="karte">
+Soll die Erzählerin auch den Text anderer Events lesen (Abende, Gags)? Mein Vorschlag: <b>nein, erst mal nicht</b>.
+Bei Ortsbildern ist sie der Ersatz für eine Kamera. Bei Abenden und Gags tragen die Figuren die Szene, eine Stimme davor
+würde sie nur verzögern. Nach ein paar Stunden Spielen merkst du, ob dir etwas fehlt.
+</div>
+</main>
+</body>
+</html>

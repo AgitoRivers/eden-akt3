@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="de">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Eden Rise · Effekte im Vergleich</title>
+<link rel="stylesheet" href="labor.css">
+<header><a href="../">← Gesamtauswahl</a><span>EDEN RISE / EFFEKTLABOR</span><h1 id="page-title">Zustände im Vergleich</h1><p id="page-intro">Vier Zustände im direkten Vergleich. Die Figuren und Spielregeln bleiben unverändert.</p></header>
+<main>
+<div class="categories" aria-label="Kategorie"><a href="./">C · Zustände</a><a href="?kategorie=reaktionen">D · Reaktionen</a><a href="?kategorie=spezialangriffe">E · Spezialangriffe</a></div>
+<nav id="effects-nav" aria-label="Effekt"><button data-state="fire" aria-pressed="true">Brennend</button><button data-state="water" aria-pressed="false">Nass</button><button data-state="quake" aria-pressed="false">Erschüttert</button><button data-state="electric" aria-pressed="false">Unter Strom</button></nav>
+<div class="controls"><button id="pause">Pause</button><label>Hintergrund <select id="background"><option value="dark">Dunkel</option><option value="light">Hell</option></select></label><label><input id="figure" type="checkbox" checked> Figur zeigen</label></div>
+<section class="compare" aria-label="Vorher und neuer Entwurf"><article><div class="caption"><h2>Bisher</h2><span>Dynamisch</span></div><canvas id="old" width="600" height="560" aria-label="Bisheriger Effekt"></canvas><p>Vorhandene Auswahlvorschau als Referenz.</p></article><article><div class="caption"><h2>Neuer Entwurf</h2><span id="state-label">Brennend</span></div><canvas id="new" width="600" height="560" aria-label="Verbesserter Effekt"></canvas><p id="description"></p></article></section>
+<section class="feedback"><h2>Dein Eindruck</h2><div><button data-vote="new">Neuer Entwurf überzeugt</button><button data-vote="revise">Weiter überarbeiten</button><button data-vote="old">Bisheriger besser</button></div><label for="note">Was soll anders werden?</label><textarea id="note" rows="2" placeholder="Zum Beispiel: weniger intensiv, mehr am Körper …"></textarea><p id="saved" aria-live="polite"></p><button id="export">Rückmeldung herunterladen</button></section>
+<details><summary>Quellen und Grenzen dieser Vorschau</summary><p>Feuer: originale farbige Animation aus den mitgelieferten IlluGen-Texturen mit rekonstruierter Transparenz. Staub: mitgelieferte Rauchanimation, als bodennahe Wolke angepasst. Strom: organische Blitzfolge aus einer eingebetteten IlluGen-Vorschau, noch mit begrenzter Auflösung. Nass: im Browser erzeugte Abdunklung und breite Glanzreflexe innerhalb der Figur.</p><p>Die Schnittbewegungen nutzen eine eingebettete IlluGen-Vorschau; die Lichtkegel sind Browser-Kompositionen. Wellen und Schlamm sind noch Materialstudien. Die Reaktionen und Spezialangriffe kombinieren diese vorhandenen Texturen mit Licht, Bewegung und weichen Materialmasken im Browser. Schlamm ist eine angepasste Rauchtextur mit einer zusammenhängenden Bodenfläche, noch keine Flüssigkeitssimulation. Dies sind Gestaltungstests, keine neuen Simulationen. Der native Feuer-Probeexport wurde geprüft, die detailreichere Originaltextur wird hier bevorzugt. Noch keine Einbindung in den Kampf, keine geänderten Spielregeln. Deine Auswahl der bisherigen Galerie bleibt erhalten.</p></details>
+<p id="error" role="alert"></p>
+</main><footer>Lokaler Vergleich · keine Änderungen an Spielständen</footer>
+<script src="../katalog.js"></script><script src="../effekte.js"></script><script src="labor.js"></script>
+</html>

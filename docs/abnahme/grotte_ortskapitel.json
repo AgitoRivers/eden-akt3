@@ -1,0 +1,337 @@
+{
+ "id": "grotte_ortskapitel",
+ "titel": "Grotte & Kevins Dächer – Casting, Hintergründe",
+ "hinweis": "Casting: je Figur 1 Bild OK (danach entstehen die Sprite-Sets). Hintergründe: je Ort 1 Variante OK.",
+ "items": [
+  {
+   "id": "casting_Gennaro_A1",
+   "titel": "Casting Gennaro – Fassung A, Seed 1",
+   "soll": "Gennaro Esposito, Totòs Cousin aus Bastia, Anfang 40, Schnurrbart, Goldzahn, blaues Auge, aufgeplatzte Lippe – je Figur EINE Fassung+Seed auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Gennaro_A\\neutral.png"
+  },
+  {
+   "id": "casting_Gennaro_A2",
+   "titel": "Casting Gennaro – Fassung A, Seed 2",
+   "soll": "Gennaro Esposito, Totòs Cousin aus Bastia, Anfang 40, Schnurrbart, Goldzahn, blaues Auge, aufgeplatzte Lippe – je Figur EINE Fassung+Seed auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Gennaro_A\\neutral-1.png"
+  },
+  {
+   "id": "casting_Gennaro_B1",
+   "titel": "Casting Gennaro – Fassung B, Seed 1",
+   "soll": "Gennaro Esposito, Totòs Cousin aus Bastia, Anfang 40, Schnurrbart, Goldzahn, blaues Auge, aufgeplatzte Lippe – je Figur EINE Fassung+Seed auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Gennaro_B\\neutral.png"
+  },
+  {
+   "id": "casting_Gennaro_B2",
+   "titel": "Casting Gennaro – Fassung B, Seed 2",
+   "soll": "Gennaro Esposito, Totòs Cousin aus Bastia, Anfang 40, Schnurrbart, Goldzahn, blaues Auge, aufgeplatzte Lippe – je Figur EINE Fassung+Seed auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Gennaro_B\\neutral-1.png"
+  },
+  {
+   "id": "casting_Matteu_A1",
+   "titel": "Casting Matteu – Fassung A, Seed 1",
+   "soll": "Matteu Pinelli, 19, Fischersohn, zerrissener Neoprenanzug, schüchtern und stur – je Figur EINE Fassung+Seed auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Matteu_A\\neutral.png"
+  },
+  {
+   "id": "casting_Matteu_A2",
+   "titel": "Casting Matteu – Fassung A, Seed 2",
+   "soll": "Matteu Pinelli, 19, Fischersohn, zerrissener Neoprenanzug, schüchtern und stur – je Figur EINE Fassung+Seed auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Matteu_A\\neutral-1.png"
+  },
+  {
+   "id": "casting_Matteu_B1",
+   "titel": "Casting Matteu – Fassung B, Seed 1",
+   "soll": "Matteu Pinelli, 19, Fischersohn, zerrissener Neoprenanzug, schüchtern und stur – je Figur EINE Fassung+Seed auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Matteu_B\\neutral.png"
+  },
+  {
+   "id": "casting_Matteu_B2",
+   "titel": "Casting Matteu – Fassung B, Seed 2",
+   "soll": "Matteu Pinelli, 19, Fischersohn, zerrissener Neoprenanzug, schüchtern und stur – je Figur EINE Fassung+Seed auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Matteu_B\\neutral-1.png"
+  },
+  {
+   "id": "casting_Chloe_A1",
+   "titel": "Casting Chloe – Fassung A, Seed 1",
+   "soll": "Chloé Marchal, 30, Schatzsucherin aus Marseille, Stirnlampe, verdreckte Expeditionskleidung, blutige Finger – je Figur EINE Fassung+Seed auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Chloe_A\\neutral.png"
+  },
+  {
+   "id": "casting_Chloe_A2",
+   "titel": "Casting Chloe – Fassung A, Seed 2",
+   "soll": "Chloé Marchal, 30, Schatzsucherin aus Marseille, Stirnlampe, verdreckte Expeditionskleidung, blutige Finger – je Figur EINE Fassung+Seed auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Chloe_A\\neutral-1.png"
+  },
+  {
+   "id": "casting_Chloe_B1",
+   "titel": "Casting Chloe – Fassung B, Seed 1",
+   "soll": "Chloé Marchal, 30, Schatzsucherin aus Marseille, Stirnlampe, verdreckte Expeditionskleidung, blutige Finger – je Figur EINE Fassung+Seed auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Chloe_B\\neutral.png"
+  },
+  {
+   "id": "casting_Chloe_B2",
+   "titel": "Casting Chloe – Fassung B, Seed 2",
+   "soll": "Chloé Marchal, 30, Schatzsucherin aus Marseille, Stirnlampe, verdreckte Expeditionskleidung, blutige Finger – je Figur EINE Fassung+Seed auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Chloe_B\\neutral-1.png"
+  },
+  {
+   "id": "casting_Riscossore_A1",
+   "titel": "Casting Riscossore – Fassung A, Seed 1",
+   "soll": "U Riscossore, über 60, Geldeintreiber, Leinenanzug mit vergilbten Manschetten, schält eine Orange – je Figur EINE Fassung+Seed auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Riscossore_A\\neutral.png"
+  },
+  {
+   "id": "casting_Riscossore_A2",
+   "titel": "Casting Riscossore – Fassung A, Seed 2",
+   "soll": "U Riscossore, über 60, Geldeintreiber, Leinenanzug mit vergilbten Manschetten, schält eine Orange – je Figur EINE Fassung+Seed auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Riscossore_A\\neutral-1.png"
+  },
+  {
+   "id": "casting_Riscossore_B1",
+   "titel": "Casting Riscossore – Fassung B, Seed 1",
+   "soll": "U Riscossore, über 60, Geldeintreiber, Leinenanzug mit vergilbten Manschetten, schält eine Orange – je Figur EINE Fassung+Seed auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Riscossore_B\\neutral.png"
+  },
+  {
+   "id": "casting_Riscossore_B2",
+   "titel": "Casting Riscossore – Fassung B, Seed 2",
+   "soll": "U Riscossore, über 60, Geldeintreiber, Leinenanzug mit vergilbten Manschetten, schält eine Orange – je Figur EINE Fassung+Seed auf OK",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_grotte\\Yacht_Riscossore_B\\neutral-1.png"
+  },
+  {
+   "id": "grotto_steps_v1",
+   "titel": "grotto_steps – Variante 1",
+   "soll": "Felsstufen unter der Klippe bei Ebbe, Seetang, Dinghy, dunkler Grotteneingang, Abendlicht · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_grotto_steps_v1.png"
+  },
+  {
+   "id": "grotto_steps_v2",
+   "titel": "grotto_steps – Variante 2",
+   "soll": "Felsstufen unter der Klippe bei Ebbe, Seetang, Dinghy, dunkler Grotteneingang, Abendlicht · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_grotto_steps_v2.png"
+  },
+  {
+   "id": "grotto_steps_v3",
+   "titel": "grotto_steps – Variante 3",
+   "soll": "Felsstufen unter der Klippe bei Ebbe, Seetang, Dinghy, dunkler Grotteneingang, Abendlicht · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_grotto_steps_v3.png"
+  },
+  {
+   "id": "drowned_beach_v1",
+   "titel": "drowned_beach – Variante 1",
+   "soll": "Grauer Sandstrand in großer Meeresgrotte, Treibholz, kalte Feuerstelle, Licht nur vom Eingang · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_drowned_beach_v1.png"
+  },
+  {
+   "id": "drowned_beach_v2",
+   "titel": "drowned_beach – Variante 2",
+   "soll": "Grauer Sandstrand in großer Meeresgrotte, Treibholz, kalte Feuerstelle, Licht nur vom Eingang · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_drowned_beach_v2.png"
+  },
+  {
+   "id": "drowned_beach_v3",
+   "titel": "drowned_beach – Variante 3",
+   "soll": "Grauer Sandstrand in großer Meeresgrotte, Treibholz, kalte Feuerstelle, Licht nur vom Eingang · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_drowned_beach_v3.png"
+  },
+  {
+   "id": "smugglers_tunnel_v1",
+   "titel": "smugglers_tunnel – Variante 1",
+   "soll": "Gehauener Tunnel, rostige Lorenschienen, Eisenringe für Laternen · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_smugglers_tunnel_v1.png"
+  },
+  {
+   "id": "smugglers_tunnel_v2",
+   "titel": "smugglers_tunnel – Variante 2",
+   "soll": "Gehauener Tunnel, rostige Lorenschienen, Eisenringe für Laternen · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_smugglers_tunnel_v2.png"
+  },
+  {
+   "id": "smugglers_tunnel_v3",
+   "titel": "smugglers_tunnel – Variante 3",
+   "soll": "Gehauener Tunnel, rostige Lorenschienen, Eisenringe für Laternen · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_smugglers_tunnel_v3.png"
+  },
+  {
+   "id": "crate_hall_v1",
+   "titel": "crate_hall – Variante 1",
+   "soll": "Höhlenhalle voller Schmugglerkisten (Zigaretten, Whisky, Jetski in Folie), hinten EINE graue Kiste mit kleinem weißem Logo · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crate_hall_v1.png"
+  },
+  {
+   "id": "crate_hall_v2",
+   "titel": "crate_hall – Variante 2",
+   "soll": "Höhlenhalle voller Schmugglerkisten (Zigaretten, Whisky, Jetski in Folie), hinten EINE graue Kiste mit kleinem weißem Logo · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crate_hall_v2.png"
+  },
+  {
+   "id": "crate_hall_v3",
+   "titel": "crate_hall – Variante 3",
+   "soll": "Höhlenhalle voller Schmugglerkisten (Zigaretten, Whisky, Jetski in Folie), hinten EINE graue Kiste mit kleinem weißem Logo · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_crate_hall_v3.png"
+  },
+  {
+   "id": "underground_pool_v1",
+   "titel": "underground_pool – Variante 1",
+   "soll": "Schwarzer spiegelglatter Teich, Lichtreflexe an der Decke · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_underground_pool_v1.png"
+  },
+  {
+   "id": "underground_pool_v2",
+   "titel": "underground_pool – Variante 2",
+   "soll": "Schwarzer spiegelglatter Teich, Lichtreflexe an der Decke · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_underground_pool_v2.png"
+  },
+  {
+   "id": "underground_pool_v3",
+   "titel": "underground_pool – Variante 3",
+   "soll": "Schwarzer spiegelglatter Teich, Lichtreflexe an der Decke · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_underground_pool_v3.png"
+  },
+  {
+   "id": "torch_gallery_v1",
+   "titel": "torch_gallery – Variante 1",
+   "soll": "Galerie mit brennenden Fackeln in Eisenringen · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_torch_gallery_v1.png"
+  },
+  {
+   "id": "torch_gallery_v2",
+   "titel": "torch_gallery – Variante 2",
+   "soll": "Galerie mit brennenden Fackeln in Eisenringen · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_torch_gallery_v2.png"
+  },
+  {
+   "id": "torch_gallery_v3",
+   "titel": "torch_gallery – Variante 3",
+   "soll": "Galerie mit brennenden Fackeln in Eisenringen · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_torch_gallery_v3.png"
+  },
+  {
+   "id": "gennaro_cell_v1",
+   "titel": "gennaro_cell – Variante 1",
+   "soll": "Trockene Felsnische über der Wasserlinie, Ringbolzen mit Kette, Kratzspuren · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_gennaro_cell_v1.png"
+  },
+  {
+   "id": "gennaro_cell_v2",
+   "titel": "gennaro_cell – Variante 2",
+   "soll": "Trockene Felsnische über der Wasserlinie, Ringbolzen mit Kette, Kratzspuren · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_gennaro_cell_v2.png"
+  },
+  {
+   "id": "gennaro_cell_v3",
+   "titel": "gennaro_cell – Variante 3",
+   "soll": "Trockene Felsnische über der Wasserlinie, Ringbolzen mit Kette, Kratzspuren · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_gennaro_cell_v3.png"
+  },
+  {
+   "id": "flooded_gallery_v1",
+   "titel": "flooded_gallery – Variante 1",
+   "soll": "Halb gefluteter Gang, Felssims über schwarzem Wasser, Strahl einer Tauchlampe · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_flooded_gallery_v1.png"
+  },
+  {
+   "id": "flooded_gallery_v2",
+   "titel": "flooded_gallery – Variante 2",
+   "soll": "Halb gefluteter Gang, Felssims über schwarzem Wasser, Strahl einer Tauchlampe · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_flooded_gallery_v2.png"
+  },
+  {
+   "id": "flooded_gallery_v3",
+   "titel": "flooded_gallery – Variante 3",
+   "soll": "Halb gefluteter Gang, Felssims über schwarzem Wasser, Strahl einer Tauchlampe · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_flooded_gallery_v3.png"
+  },
+  {
+   "id": "air_pocket_v1",
+   "titel": "air_pocket – Variante 1",
+   "soll": "Felskuppel mit Luft, schmaler Sims, Strichlisten an der Wand, hinten Eisengitter · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_air_pocket_v1.png"
+  },
+  {
+   "id": "air_pocket_v2",
+   "titel": "air_pocket – Variante 2",
+   "soll": "Felskuppel mit Luft, schmaler Sims, Strichlisten an der Wand, hinten Eisengitter · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_air_pocket_v2.png"
+  },
+  {
+   "id": "air_pocket_v3",
+   "titel": "air_pocket – Variante 3",
+   "soll": "Felskuppel mit Luft, schmaler Sims, Strichlisten an der Wand, hinten Eisengitter · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_air_pocket_v3.png"
+  },
+  {
+   "id": "collapsed_passage_v1",
+   "titel": "collapsed_passage – Variante 1",
+   "soll": "Eingestürzte Decke, Geröll, steigendes Wasser · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_collapsed_passage_v1.png"
+  },
+  {
+   "id": "collapsed_passage_v2",
+   "titel": "collapsed_passage – Variante 2",
+   "soll": "Eingestürzte Decke, Geröll, steigendes Wasser · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_collapsed_passage_v2.png"
+  },
+  {
+   "id": "collapsed_passage_v3",
+   "titel": "collapsed_passage – Variante 3",
+   "soll": "Eingestürzte Decke, Geröll, steigendes Wasser · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_collapsed_passage_v3.png"
+  },
+  {
+   "id": "treasure_camp_v1",
+   "titel": "treasure_camp – Variante 1",
+   "soll": "Schatzsucherlager auf Felssims: 2 Schlafsäcke, Seilwinde, Laptop in Folie, Fotowand mit altem Schoner · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_treasure_camp_v1.png"
+  },
+  {
+   "id": "treasure_camp_v2",
+   "titel": "treasure_camp – Variante 2",
+   "soll": "Schatzsucherlager auf Felssims: 2 Schlafsäcke, Seilwinde, Laptop in Folie, Fotowand mit altem Schoner · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_treasure_camp_v2.png"
+  },
+  {
+   "id": "treasure_camp_v3",
+   "titel": "treasure_camp – Variante 3",
+   "soll": "Schatzsucherlager auf Felssims: 2 Schlafsäcke, Seilwinde, Laptop in Folie, Fotowand mit altem Schoner · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_treasure_camp_v3.png"
+  },
+  {
+   "id": "village_rooftops_v1",
+   "titel": "village_rooftops – Variante 1",
+   "soll": "Terrakotta-Dächer des Dorfs von oben, Wäscheleinen, Antennen, Glockenturm hinten · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_village_rooftops_v1.png"
+  },
+  {
+   "id": "village_rooftops_v2",
+   "titel": "village_rooftops – Variante 2",
+   "soll": "Terrakotta-Dächer des Dorfs von oben, Wäscheleinen, Antennen, Glockenturm hinten · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_village_rooftops_v2.png"
+  },
+  {
+   "id": "village_rooftops_v3",
+   "titel": "village_rooftops – Variante 3",
+   "soll": "Terrakotta-Dächer des Dorfs von oben, Wäscheleinen, Antennen, Glockenturm hinten · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_village_rooftops_v3.png"
+  },
+  {
+   "id": "bell_tower_nest_v1",
+   "titel": "bell_tower_nest – Variante 1",
+   "soll": "Oben auf dem Glockenturm: riesiges Möwennest aus Angelschnur/Pommespapier mit geklauten Dingen · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_bell_tower_nest_v1.png"
+  },
+  {
+   "id": "bell_tower_nest_v2",
+   "titel": "bell_tower_nest – Variante 2",
+   "soll": "Oben auf dem Glockenturm: riesiges Möwennest aus Angelschnur/Pommespapier mit geklauten Dingen · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_bell_tower_nest_v2.png"
+  },
+  {
+   "id": "bell_tower_nest_v3",
+   "titel": "bell_tower_nest – Variante 3",
+   "soll": "Oben auf dem Glockenturm: riesiges Möwennest aus Angelschnur/Pommespapier mit geklauten Dingen · keine Personen",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_bell_tower_nest_v3.png"
+  }
+ ]
+}

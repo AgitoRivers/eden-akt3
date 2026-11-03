@@ -1,0 +1,529 @@
+{
+ "id": "selfie_texte_r10",
+ "titel": "Selfie-Nachrichten r10",
+ "hinweis": "r5 + Emojis + Nachschlag (▸ = nächste Blase). Nachschlag: Reue bei den meisten, Chiara/Megan offensiv wenn keine Antwort, Sophia/Rosi gekränkt. Emojis werden vor der Vertonung entfernt.",
+ "items": [
+  {
+   "id": "alva_bar_knapp",
+   "titel": "Alva · Bar · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_knapp-1.png",
+   "soll": "closing time 🥂  ▸  the till balanced. first time this year. we celebrated, me and the till 🍷  ▸  dont read anything into the dress. its just a dress   [Stimme: laugh]      ⟶ NACHSCHLAG (Reue): ok that was the wine  ▸  delete it. or dont. no delete it 🙈   [Stimme: chuckle]"
+  },
+  {
+   "id": "alva_bar_oben_ohne",
+   "titel": "Alva · Bar · Begehren 4 (oben ohne)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_oben_ohne-12.png",
+   "soll": "ok so  ▸  someone has to finish the last bottle or it goes off. thats just economics  ▸  why am i sending you this. dont answer. ok answer 🙃   [Stimme: chuckle]      ⟶ NACHSCHLAG (Reue): oh god what did i send  ▸  the till made me do it. blame the till 😅   [Stimme: laugh]"
+  },
+  {
+   "id": "alva_bar_nackt",
+   "titel": "Alva · Bar · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_nackt-13.png",
+   "soll": "chairs are up and im still sitting on the counter like an idiot  ▸  everybody's welcome here. you know that  ▸  ...just come over. before i sober up and get sensible again 💋   [Stimme: sigh]      ⟶ NACHSCHLAG (Reue): im going to regret this in the morning arent i  ▸  ...dont delete it though 🤫   [Stimme: sigh]"
+  },
+  {
+   "id": "alva_tresen_knapp",
+   "titel": "Alva · Tresen · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_knapp_3-1.png",
+   "soll": "closing time and theres one shot left 🥃  ▸  salt, tequila, lime. you know how it goes  ▸  except tonight im the bar 🍋   [Stimme: laugh]      ⟶ NACHSCHLAG (Reue): ok that was the wine  ▸  delete it. or dont. no delete it 🙈   [Stimme: chuckle]"
+  },
+  {
+   "id": "alva_tresen_oben_ohne",
+   "titel": "Alva · Tresen · Begehren 4 (oben ohne)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_oben_ohne_3.png",
+   "soll": "i was going to dance in sevilla once 💃  ▸  now i dance on my own counter with a fan. close enough  ▸  dont laugh. ok you can laugh a little   [Stimme: chuckle]      ⟶ NACHSCHLAG (Reue): oh god what did i send  ▸  the till made me do it. blame the till 😅   [Stimme: laugh]"
+  },
+  {
+   "id": "alva_tresen_nackt",
+   "titel": "Alva · Tresen · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_nackt_3-1.png",
+   "soll": "the salts still there  ▸  someone has to finish the shot properly, o figliolu  ▸  ...i mean you. i mean you 🙈   [Stimme: sigh]      ⟶ NACHSCHLAG (Reue): im going to regret this in the morning arent i  ▸  ...dont delete it though 🤫   [Stimme: sigh]"
+  },
+  {
+   "id": "alva_zimmer_knapp",
+   "titel": "Alva · Zimmer · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_knapp-4.png",
+   "soll": "too hot to sleep up here  ▸  you awake? no reason. the wine says hi 🍷😴   [Stimme: chuckle]      ⟶ NACHSCHLAG (Reue): ok that was the wine  ▸  delete it. or dont. no delete it 🙈   [Stimme: chuckle]"
+  },
+  {
+   "id": "alva_zimmer_oben_ohne",
+   "titel": "Alva · Zimmer · Begehren 4 (oben ohne)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_oben_ohne-16.png",
+   "soll": "the whole village is asleep under my floor  ▸  if one of them finds out i sent this i'll deny everything. even to you 🤫   [Stimme: laugh]      ⟶ NACHSCHLAG (Reue): oh god what did i send  ▸  the till made me do it. blame the till 😅   [Stimme: laugh]"
+  },
+  {
+   "id": "alva_zimmer_nackt",
+   "titel": "Alva · Zimmer · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_nackt-10.png",
+   "soll": "i dont do this.  ▸  i mean it. ask anyone. nobody's mine  ▸  so why is it you i keep thinking about at two in the morning, o figliolu 🌙   [Stimme: sigh]      ⟶ NACHSCHLAG (Reue): im going to regret this in the morning arent i  ▸  ...dont delete it though 🤫   [Stimme: sigh]"
+  },
+  {
+   "id": "chiara_bruecke_knapp",
+   "titel": "Chiara · Bruecke · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_knapp_3.png",
+   "soll": "Holm's asleep. Guess who's in command now 🫡  ▸  First Officer, report to the bridge.  ▸  That's an order. 😏   [Stimme: laugh]      ⟶ NACHSCHLAG (offensiv, wenn keine Antwort): Hello?? 👀  ▸  Seen at 23:14. Wow. Zero out of ten for manners.   [Stimme: chuckle]"
+  },
+  {
+   "id": "chiara_bruecke_oben_ohne",
+   "titel": "Chiara · Bruecke · Begehren 4 (oben ohne)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_oben_ohne_3-2.png",
+   "soll": "Captain's orders: no rating tonight. Only obeying.  ▸  You have three minutes. ⏳   [Stimme: chuckle]      ⟶ NACHSCHLAG (offensiv, wenn keine Antwort): You're seriously leaving me on read?  ▸  Fine. Then I'm rating YOU. Three. And that's generous. 😤   [Stimme: laugh]"
+  },
+  {
+   "id": "chiara_bruecke_nackt",
+   "titel": "Chiara · Bruecke · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_nackt_3-1.png",
+   "soll": "Okay, I'll admit it.  ▸  This chair is nicer with you on the bridge.  ▸  Come up. The captain's… asking. 🙄   [Stimme: sigh]      ⟶ NACHSCHLAG (offensiv, wenn keine Antwort): Duc.  ▸  Say something or I'm coming down there. I know which cabin is yours. 😈   [Stimme: sigh]"
+  },
+  {
+   "id": "chiara_kabine_knapp",
+   "titel": "Chiara · Kabine · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_knapp-3.png",
+   "soll": "Rate this. Honestly.  ▸  And yes, that's Opa's jacket. Yes, I'm allowed. ⚓  ▸  Your number. Now. I'm waiting. ⏳   [Stimme: laugh]      ⟶ NACHSCHLAG (offensiv, wenn keine Antwort): Hello?? 👀  ▸  Seen at 23:14. Wow. Zero out of ten for manners.   [Stimme: chuckle]"
+  },
+  {
+   "id": "chiara_kabine_oben_ohne",
+   "titel": "Chiara · Kabine · Begehren 4 (oben ohne)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_oben_ohne-3.png",
+   "soll": "You took too long to answer the last one.  ▸  So this is your punishment. 😈  ▸  Still no number? Coward. 😏   [Stimme: chuckle]      ⟶ NACHSCHLAG (offensiv, wenn keine Antwort): You're seriously leaving me on read?  ▸  Fine. Then I'm rating YOU. Three. And that's generous. 😤   [Stimme: laugh]"
+  },
+  {
+   "id": "chiara_kabine_nackt",
+   "titel": "Chiara · Kabine · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_nackt-10.png",
+   "soll": "Okay. No scale tonight.  ▸  I don't know what number this is and I don't want you to tell me.  ▸  Just come up to the bridge. Please. Don't make a big thing of the please. 🙄   [Stimme: sigh]      ⟶ NACHSCHLAG (offensiv, wenn keine Antwort): Duc.  ▸  Say something or I'm coming down there. I know which cabin is yours. 😈   [Stimme: sigh]"
+  },
+  {
+   "id": "chiara_nock_knapp",
+   "titel": "Chiara · Nock · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_knapp_2-1.png",
+   "soll": "Found this in the laundry. Finders keepers 😏  ▸  It was way too big for you anyway. On me it's a dress.  ▸  Want it back? Come and get it. ⏳   [Stimme: laugh]      ⟶ NACHSCHLAG (offensiv, wenn keine Antwort): Hello?? 👀  ▸  Seen at 23:14. Wow. Zero out of ten for manners.   [Stimme: chuckle]"
+  },
+  {
+   "id": "chiara_nock_oben_ohne",
+   "titel": "Chiara · Nock · Begehren 4 (oben ohne)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_oben_ohne_2-2.png",
+   "soll": "Your shirt and I have come to an arrangement. 🔥  ▸  It stays with me. You get… this.  ▸  Still want it back? Thought so.   [Stimme: chuckle]      ⟶ NACHSCHLAG (offensiv, wenn keine Antwort): You're seriously leaving me on read?  ▸  Fine. Then I'm rating YOU. Three. And that's generous. 😤   [Stimme: laugh]"
+  },
+  {
+   "id": "chiara_nock_nackt",
+   "titel": "Chiara · Nock · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_nackt_2-1.png",
+   "soll": "Okay. I'll give it back.  ▸  It's lying on the bridge wing. Right next to me. 😈  ▸  You'll have to come up and fetch it yourself. And maybe stay a bit.   [Stimme: sigh]      ⟶ NACHSCHLAG (offensiv, wenn keine Antwort): Duc.  ▸  Say something or I'm coming down there. I know which cabin is yours. 😈   [Stimme: sigh]"
+  },
+  {
+   "id": "elsa_posten_knapp",
+   "titel": "Elsa · Posten · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_elsa_knapp-3.png",
+   "soll": "Status report, 23:40. Radio quiet. Totò not sighted.  ▸  Attached: evidence that the uniform is technically off duty.  ▸  Delete after reading, First Officer. That is not a request. 🚨   [Stimme: clear throat]      ⟶ NACHSCHLAG (Reue): Previous message sent in error.  ▸  Please disregard. And delete. Thank you. 🙃   [Stimme: clear throat]"
+  },
+  {
+   "id": "elsa_posten_oben_ohne",
+   "titel": "Elsa · Posten · Begehren 4 (oben ohne)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_elsa_oben_ohne-3.png",
+   "soll": "Correction to the previous report.  ▸  I read chapter twelve again. The captain in it has your posture. Coincidence. Noted for the file.  ▸  Do not reply with emojis.   [Stimme: chuckle]      ⟶ NACHSCHLAG (Reue): I have reviewed my conduct and found it… unprofessional.  ▸  Do not tell Totò. He would never let it go. 🙈   [Stimme: sigh]"
+  },
+  {
+   "id": "elsa_posten_nackt",
+   "titel": "Elsa · Posten · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_elsa_nackt-3.png",
+   "soll": "Eleven years of service and I have never broken a rule.  ▸  This doesn't count. It's a bend. A very large bend.  ▸  If anyone sees this I'm moving to Sardinia and you're coming as my witness. 🙃   [Stimme: laugh]      ⟶ NACHSCHLAG (Reue): I'm going to pretend this was a dream.  ▸  You may pretend too. Or not. Your call, First Officer.   [Stimme: chuckle]"
+  },
+  {
+   "id": "elsa_verhoerzelle_knapp",
+   "titel": "Elsa · Verhoerzelle · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_elsa_knapp_3-2.png",
+   "soll": "Interrogation room two. Quiet night.  ▸  I'm conducting a test of the equipment. 🔒  ▸  The equipment is functioning, First Officer.   [Stimme: clear throat]      ⟶ NACHSCHLAG (Reue): Previous message sent in error.  ▸  Please disregard. And delete. Thank you. 🙃   [Stimme: clear throat]"
+  },
+  {
+   "id": "elsa_verhoerzelle_oben_ohne",
+   "titel": "Elsa · Verhoerzelle · Begehren 4 (oben ohne)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_elsa_oben_ohne_3-1.png",
+   "soll": "Chapter fourteen has an interrogation scene.  ▸  Purely for research, I'm reconstructing it.  ▸  You're the suspect. Obviously. 🙃   [Stimme: chuckle]      ⟶ NACHSCHLAG (Reue): I have reviewed my conduct and found it… unprofessional.  ▸  Do not tell Totò. He would never let it go. 🙈   [Stimme: sigh]"
+  },
+  {
+   "id": "elsa_verhoerzelle_nackt",
+   "titel": "Elsa · Verhoerzelle · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_elsa_nackt_3.png",
+   "soll": "Update: I've cuffed myself.  ▸  The key is on the table. Out of reach.  ▸  This is either a confession or a request for assistance. You decide. 🔑   [Stimme: laugh]      ⟶ NACHSCHLAG (Reue): I'm going to pretend this was a dream.  ▸  You may pretend too. Or not. Your call, First Officer.   [Stimme: chuckle]"
+  },
+  {
+   "id": "isabelle_apotheke_knapp",
+   "titel": "Isabelle · Apotheke · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_isabelle_knapp-2.png",
+   "soll": "oh no 😳  ▸  that was meant to be the lavender. for you. I pressed the wrong  ▸  no that's a lie, sorry. please don't tell Nonna. or God. mostly Nonna 🙏   [Stimme: gasp]      ⟶ NACHSCHLAG (Reue): I'm so sorry 😳  ▸  please delete it, I don't know what came over me   [Stimme: gasp]"
+  },
+  {
+   "id": "isabelle_lavendelbad_knapp",
+   "titel": "Isabelle · Lavendelbad · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_isabelle_knapp_3.png",
+   "soll": "Nonna says a lavender bath calms the nerves 🌿  ▸  it's not working  ▸  I keep looking at my phone instead   [Stimme: gasp]      ⟶ NACHSCHLAG (Reue): I'm so sorry 😳  ▸  please delete it, I don't know what came over me   [Stimme: gasp]"
+  },
+  {
+   "id": "isabelle_lavendelbad_oben_ohne",
+   "titel": "Isabelle · Lavendelbad · Begehren 4 (oben ohne)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_isabelle_oben_ohne_3.png",
+   "soll": "the robe keeps slipping. that's the robe's fault, not mine 🙈  ▸  sorry. I'm sorry. I'm not sorry. I don't know what I am tonight   [Stimme: sigh]      ⟶ NACHSCHLAG (Reue): oh dear Lord  ▸  I knelt down to pray and had to get up again because I can't stop thinking about what I sent 🙈   [Stimme: sigh]"
+  },
+  {
+   "id": "isabelle_lavendelbad_nackt",
+   "titel": "Isabelle · Lavendelbad · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_isabelle_nackt_3-1.png",
+   "soll": "I'm in the bath now  ▸  the candles are lit and the door is locked and I'm thinking about you, which is probably a sin 🕯️  ▸  I'll pray about it. later.   [Stimme: sigh]      ⟶ NACHSCHLAG (Reue): I should never have done that  ▸  ...but if you look at it again, just once, that's fine. I suppose. 🙏   [Stimme: sigh]"
+  },
+  {
+   "id": "isabelle_zelle_oben_ohne",
+   "titel": "Isabelle · Zelle · Begehren 4 (oben ohne)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_isabelle_oben_ohne-6.png",
+   "soll": "I'm supposed to be praying for patience  ▸  I'm not very good at it tonight 😇  ▸  sorry. I'll delete it. I can't delete it from your phone, can I   [Stimme: sigh]      ⟶ NACHSCHLAG (Reue): oh dear Lord  ▸  I knelt down to pray and had to get up again because I can't stop thinking about what I sent 🙈   [Stimme: sigh]"
+  },
+  {
+   "id": "isabelle_zelle_nackt",
+   "titel": "Isabelle · Zelle · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_isabelle_nackt.png",
+   "soll": "I've been sitting here for an hour with my thumb over the button  ▸  I think I'll have to confess this on Sunday  ▸  I don't think I'm sorry though. is that bad 🫣   [Stimme: sigh]      ⟶ NACHSCHLAG (Reue): I should never have done that  ▸  ...but if you look at it again, just once, that's fine. I suppose. 🙏   [Stimme: sigh]"
+  },
+  {
+   "id": "jana_dusche_knapp",
+   "titel": "Jana · Dusche · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_jana_knapp.png",
+   "soll": "Sorry Sir!! wrong photo 🙈  ▸  no wait. it's the right photo. the light in the crew shower is just very good  ▸  sorry 😳   [Stimme: laugh]      ⟶ NACHSCHLAG (Reue): sorry sorry sorry 🙈  ▸  please delete it Sir   [Stimme: gasp]"
+  },
+  {
+   "id": "jana_dusche_nackt",
+   "titel": "Jana · Dusche · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_jana_nackt-3.png",
+   "soll": "Jessas 😳  ▸  I counted to three and pressed it before I could stop  ▸  please don't say anything at breakfast. or say something. no, don't. sorry, Sir   [Stimme: gasp]      ⟶ NACHSCHLAG (Reue): was that a mistake  ▸  please say it wasn't a mistake 🥺   [Stimme: sigh]"
+  },
+  {
+   "id": "jana_koje_knapp",
+   "titel": "Jana · Koje · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_jana_knapp-1.png",
+   "soll": "Strudel took this one. Strudel is very talented 🐱  ▸  the wink was also Strudel 😉  ▸  goodnight Sir 🙈   [Stimme: laugh]      ⟶ NACHSCHLAG (Reue): sorry sorry sorry 🙈  ▸  please delete it Sir   [Stimme: gasp]"
+  },
+  {
+   "id": "jana_koje_oben_ohne",
+   "titel": "Jana · Koje · Begehren 4 (oben ohne)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_jana_oben_ohne-7.png",
+   "soll": "na geh, why did I do that  ▸  Chiara says you have to be brave sometimes. I don't think she meant this  ▸  please still be nice to me tomorrow 🥺   [Stimme: gasp]      ⟶ NACHSCHLAG (Reue): Jessas, I'm so embarrassed 😳  ▸  I'll never be able to look at you at breakfast again   [Stimme: gasp]"
+  },
+  {
+   "id": "jana_shibari_knapp",
+   "titel": "Jana · Shibari · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_jana_knapp_3-1.png",
+   "soll": "Sir!! I learned a new one 🪢  ▸  it's called a karada. I tied it myself. on me  ▸  is that weird? Chiara says it's weird. I'm very proud of it though   [Stimme: laugh]      ⟶ NACHSCHLAG (Reue): sorry sorry sorry 🙈  ▸  please delete it Sir   [Stimme: gasp]"
+  },
+  {
+   "id": "jana_shibari_oben_ohne",
+   "titel": "Jana · Shibari · Begehren 4 (oben ohne)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_jana_oben_ohne_3-1.png",
+   "soll": "sorry, I just wanted to show you how neat it is  ▸  look how even the knots are. LOOK at the knots, Sir, not at – ok you can look  ▸  😳   [Stimme: gasp]      ⟶ NACHSCHLAG (Reue): Jessas, I'm so embarrassed 😳  ▸  I'll never be able to look at you at breakfast again   [Stimme: gasp]"
+  },
+  {
+   "id": "jana_shibari_nackt",
+   "titel": "Jana · Shibari · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_jana_nackt_3-1.png",
+   "soll": "it's the only thing I'm really good at  ▸  and I wanted to be good at something for you 🥺  ▸  you can untie it. if you want. it's a slip knot   [Stimme: sigh]      ⟶ NACHSCHLAG (Reue): was that a mistake  ▸  please say it wasn't a mistake 🥺   [Stimme: sigh]"
+  },
+  {
+   "id": "lea_beach_knapp",
+   "titel": "Lea · Beach · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_knapp1.png",
+   "soll": "THE TURTLES HATCHED 🐢🐢🐢  ▸  look behind me!! tiny!! only one in a thousand makes it to the sea  ▸  anyway I wanted you to see. the turtles. mainly the turtles 😅   [Stimme: laugh]      ⟶ NACHSCHLAG (Reue): ok that was weird wasn't it 😅  ▸  you can delete it. the turtles won't mind   [Stimme: chuckle]"
+  },
+  {
+   "id": "lea_beach_nackt",
+   "titel": "Lea · Beach · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_nackt_2-7.png",
+   "soll": "nobody on the beach except me and about four hundred baby turtles 🌅  ▸  did you know turtles don't have ears? so technically nobody saw this  ▸  except you. that was sort of the plan. I think ✌️   [Stimme: laugh]      ⟶ NACHSCHLAG (Reue): did I just ruin everything  ▸  tell me I didn't ruin everything 🥺   [Stimme: sigh]"
+  },
+  {
+   "id": "lea_garage_knapp",
+   "titel": "Lea · Garage · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_knapp.png",
+   "soll": "back from the night dive, saw a squid the size of my arm 🦑  ▸  also here's me. wet. for scientific reference  ▸  is that weird? that's weird. it's for science 🤓   [Stimme: chuckle]      ⟶ NACHSCHLAG (Reue): ok that was weird wasn't it 😅  ▸  you can delete it. the turtles won't mind   [Stimme: chuckle]"
+  },
+  {
+   "id": "lea_garage_oben_ohne",
+   "titel": "Lea · Garage · Begehren 4 (oben ohne)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_oben_ohne.png",
+   "soll": "did you know octopuses change colour when they're nervous 🐙  ▸  I'm doing that right now. all over  ▸  say something before I throw my phone in the sea 😳   [Stimme: gasp]      ⟶ NACHSCHLAG (Reue): oh no oh no  ▸  I think I just made it really awkward 🙈 forget it? please?   [Stimme: gasp]"
+  },
+  {
+   "id": "lea_garage_nackt",
+   "titel": "Lea · Garage · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_nackt-2.png",
+   "soll": "I've never sent this to anyone. ever  ▸  I wanted the first time to be you and I don't really know how to say that bit  ▸  there's no fact for this one. sorry. no octopus 🥺   [Stimme: sigh]      ⟶ NACHSCHLAG (Reue): did I just ruin everything  ▸  tell me I didn't ruin everything 🥺   [Stimme: sigh]"
+  },
+  {
+   "id": "lea_plankton_knapp",
+   "titel": "Lea · Plankton · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_knapp_3.png",
+   "soll": "THE BAY IS GLOWING 🌊✨  ▸  it's dinoflagellates! they light up when you move  ▸  I'm basically a nightlight right now. come see   [Stimme: laugh]      ⟶ NACHSCHLAG (Reue): ok that was weird wasn't it 😅  ▸  you can delete it. the turtles won't mind   [Stimme: chuckle]"
+  },
+  {
+   "id": "lea_plankton_oben_ohne",
+   "titel": "Lea · Plankton · Begehren 4 (oben ohne)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_oben_ohne_3-2.png",
+   "soll": "did you know they glow to scare off predators  ▸  it's not working on me. I'm not scared at all. ok, a bit 🙈  ▸  come swim?   [Stimme: chuckle]      ⟶ NACHSCHLAG (Reue): oh no oh no  ▸  I think I just made it really awkward 🙈 forget it? please?   [Stimme: gasp]"
+  },
+  {
+   "id": "lea_plankton_nackt",
+   "titel": "Lea · Plankton · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_nackt_3-1.png",
+   "soll": "no wetsuit, nothing, just me and the glow  ▸  Opa would say I've gone mad  ▸  maybe I have. come and find out 🐙💙   [Stimme: sigh]      ⟶ NACHSCHLAG (Reue): did I just ruin everything  ▸  tell me I didn't ruin everything 🥺   [Stimme: sigh]"
+  },
+  {
+   "id": "lola_koje_knapp",
+   "titel": "Lola · Koje · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_knapp_2-1.png",
+   "soll": "can't sleep. new pyjamas 😴  ▸  rate the leopard. be honest. actually don't be honest 🐆  ▸  they were on sale in Antibes and I panicked 🛍️😅   [Stimme: laugh]      ⟶ NACHSCHLAG (Reue): hahaha ok that was dumb 🤦‍♀️  ▸  delete it Boss. or frame it. no, delete it   [Stimme: laugh]"
+  },
+  {
+   "id": "lola_koje_oben_ohne",
+   "titel": "Lola · Koje · Begehren 4 (oben ohne)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_oben_ohne_2-2.png",
+   "soll": "leopard update 🐆  ▸  the leopard is losing 😂  ▸  don't tell anyone I told you. mostly the leopard   [Stimme: chuckle]      ⟶ NACHSCHLAG (Reue): oh no. I've done it again haven't I 😬  ▸  I always do too much. sorry. forget it   [Stimme: sigh]"
+  },
+  {
+   "id": "lola_koje_nackt",
+   "titel": "Lola · Koje · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_nackt_2.png",
+   "soll": "ok the leopard's gone to bed. on the floor  ▸  funny, I talk heaps and then with you I just. send stuff  ▸  night Boss. sleep tight. or don't 💤   [Stimme: sigh]      ⟶ NACHSCHLAG (Reue): did I go too far  ▸  I went too far didn't I. I'll just be in the galley. forever 🙈   [Stimme: sigh]"
+  },
+  {
+   "id": "lola_kombuese_knapp",
+   "titel": "Lola · Kombuese · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_knapp-1.png",
+   "soll": "Boss!! emergency in the galley 🚨🔥  ▸  no there isn't. I just look cute in the apron and nobody's here to tell me  ▸  don't tell anyone I told you. mostly the bikini 😂   [Stimme: laugh]      ⟶ NACHSCHLAG (Reue): hahaha ok that was dumb 🤦‍♀️  ▸  delete it Boss. or frame it. no, delete it   [Stimme: laugh]"
+  },
+  {
+   "id": "lola_kombuese_oben_ohne",
+   "titel": "Lola · Kombuese · Begehren 4 (oben ohne)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_oben_ohne-1.png",
+   "soll": "ok so I was gonna send you the bao 🥟  ▸  and then I thought nah, he's seen the bao  ▸  yes that's flour. no I won't explain the flour 😇   [Stimme: chuckle]      ⟶ NACHSCHLAG (Reue): oh no. I've done it again haven't I 😬  ▸  I always do too much. sorry. forget it   [Stimme: sigh]"
+  },
+  {
+   "id": "lola_kombuese_nackt",
+   "titel": "Lola · Kombuese · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_nackt-1.png",
+   "soll": "no apron no bao no nothing, mate  ▸  reckon this is either the best or the worst idea I've ever had 🤷‍♀️  ▸  you'll still let me cook tomorrow right? right?? haha. right? 😬   [Stimme: laugh]      ⟶ NACHSCHLAG (Reue): did I go too far  ▸  I went too far didn't I. I'll just be in the galley. forever 🙈   [Stimme: sigh]"
+  },
+  {
+   "id": "lola_sahne_knapp",
+   "titel": "Lola · Sahne · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_knapp_3-2.png",
+   "soll": "dessert test run 🍒  ▸  the cream's for the pavlova. mostly  ▸  don't tell anyone I told you   [Stimme: laugh]      ⟶ NACHSCHLAG (Reue): hahaha ok that was dumb 🤦‍♀️  ▸  delete it Boss. or frame it. no, delete it   [Stimme: laugh]"
+  },
+  {
+   "id": "lola_sahne_oben_ohne",
+   "titel": "Lola · Sahne · Begehren 4 (oben ohne)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_oben_ohne_3-1.png",
+   "soll": "ok change of plan, I'm the dessert now 🍓  ▸  hahaha I can't believe I wrote that  ▸  I'm not deleting it though   [Stimme: laugh]      ⟶ NACHSCHLAG (Reue): oh no. I've done it again haven't I 😬  ▸  I always do too much. sorry. forget it   [Stimme: sigh]"
+  },
+  {
+   "id": "lola_sahne_nackt",
+   "titel": "Lola · Sahne · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_nackt_3.png",
+   "soll": "chocolate spread everywhere, Boss. like, everywhere 🙈  ▸  mostly the Nutella  ▸  someone has to clean this up and it's not gonna be me 😇   [Stimme: chuckle]      ⟶ NACHSCHLAG (Reue): did I go too far  ▸  I went too far didn't I. I'll just be in the galley. forever 🙈   [Stimme: sigh]"
+  },
+  {
+   "id": "megan_buero_knapp",
+   "titel": "Megan · Buero · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_megan_knapp.png",
+   "soll": "Board meeting ran late. I won.  ▸  The blouse didn't survive the third quarter.  ▸  You'll keep this to yourself, Duc. I'd hate to have to buy your silence. I'd win that negotiation too.   [Stimme: chuckle]      ⟶ NACHSCHLAG (offensiv, wenn keine Antwort): You've read it. I can see that.  ▸  Silence is a negotiating tactic, Duc. A poor one. ♟️   [Stimme: clear throat]"
+  },
+  {
+   "id": "megan_buero_oben_ohne",
+   "titel": "Megan · Buero · Begehren 4 (oben ohne)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_megan_oben_ohne.png",
+   "soll": "Do you know what this would cost me in the wrong hands?  ▸  Eleven yachts, a board seat, and my reputation as the most frightening woman in Monaco.  ▸  So think about whose hands I just put it in. Your move. ♟️   [Stimme: laugh]      ⟶ NACHSCHLAG (offensiv, wenn keine Antwort): Nobody leaves me waiting.  ▸  Not the board, not the press, and certainly not you. Answer.   [Stimme: sigh]"
+  },
+  {
+   "id": "megan_buero_nackt",
+   "titel": "Megan · Buero · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_megan_nackt.png",
+   "soll": "I have spent fifteen years making sure nobody has anything on me.  ▸  Now you do.  ▸  Don't thank me. Just don't make me regret it.   [Stimme: sigh]      ⟶ NACHSCHLAG (offensiv, wenn keine Antwort): I don't send things like that twice.  ▸  Think very carefully about what your silence is telling me.   [Stimme: sigh]"
+  },
+  {
+   "id": "megan_hubschrauber_knapp",
+   "titel": "Megan · Hubschrauber · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_megan_knapp_3-2.png",
+   "soll": "Monaco to Antibes. Twelve minutes.  ▸  I'm told the pilot can't see the back. I'm choosing to trust him. 🚁  ▸  I'm choosing to trust you too. Don't let it become a habit.   [Stimme: chuckle]      ⟶ NACHSCHLAG (offensiv, wenn keine Antwort): You've read it. I can see that.  ▸  Silence is a negotiating tactic, Duc. A poor one. ♟️   [Stimme: clear throat]"
+  },
+  {
+   "id": "megan_hubschrauber_oben_ohne",
+   "titel": "Megan · Hubschrauber · Begehren 4 (oben ohne)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_megan_oben_ohne_3-2.png",
+   "soll": "Four hundred metres above my own fleet, wearing my pearls and very little else.  ▸  Nobody on that board would believe it.  ▸  Only you get to know. Consider it a promotion. ♟️   [Stimme: laugh]      ⟶ NACHSCHLAG (offensiv, wenn keine Antwort): Nobody leaves me waiting.  ▸  Not the board, not the press, and certainly not you. Answer.   [Stimme: sigh]"
+  },
+  {
+   "id": "megan_hubschrauber_nackt",
+   "titel": "Megan · Hubschrauber · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_megan_nackt_3-1.png",
+   "soll": "We land in six minutes.  ▸  I could have the pilot circle until you reply.  ▸  I have the fuel. Do you have the nerve?   [Stimme: sigh]      ⟶ NACHSCHLAG (offensiv, wenn keine Antwort): I don't send things like that twice.  ▸  Think very carefully about what your silence is telling me.   [Stimme: sigh]"
+  },
+  {
+   "id": "rosi_generatorraum_knapp",
+   "titel": "Rosi · Generatorraum · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_knapp_2.png",
+   "soll": "your jacket was just lying there, Officer. unguarded 🏍️  ▸  it's mine now. spoils of war  ▸  fits better on me anyway. admit it 😏   [Stimme: laugh]      ⟶ NACHSCHLAG (gekränkt): …ok. no answer. fine.  ▸  it was about the jacket anyway   [Stimme: sigh]"
+  },
+  {
+   "id": "rosi_generatorraum_oben_ohne",
+   "titel": "Rosi · Generatorraum · Begehren 4 (oben ohne)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_oben_ohne_2-1.png",
+   "soll": "update: the shirt lost. the jacket stays 😤  ▸  it smells like you, which is very annoying, because now I can't concentrate on Unit-01  ▸  don't read anything into that   [Stimme: chuckle]      ⟶ NACHSCHLAG (gekränkt): you know what, forget it  ▸  stupid idea. I'll stick to machines. at least they react 😒   [Stimme: sigh]"
+  },
+  {
+   "id": "rosi_generatorraum_nackt",
+   "titel": "Rosi · Generatorraum · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_nackt_2-1.png",
+   "soll": "ok fine. you can have it back  ▸  I'm wearing it though. only it. come and take it 😈  ▸  or don't. call it a draw. you blinked first   [Stimme: sigh]      ⟶ NACHSCHLAG (gekränkt): right.  ▸  I'll take that as a no. don't mention it tomorrow.   [Stimme: sigh]"
+  },
+  {
+   "id": "rosi_strand_knapp",
+   "titel": "Rosi · Strand · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_knapp_3-2.png",
+   "soll": "day off. found a beach. found a boat 🚤  ▸  the boat is a disaster. I love it  ▸  red is my colour, admit it, Officer 😏   [Stimme: laugh]      ⟶ NACHSCHLAG (gekränkt): …ok. no answer. fine.  ▸  it was about the jacket anyway   [Stimme: sigh]"
+  },
+  {
+   "id": "rosi_strand_oben_ohne",
+   "titel": "Rosi · Strand · Begehren 4 (oben ohne)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_oben_ohne_3.png",
+   "soll": "bet you can't fix this boat faster than me  ▸  loser does what the winner says  ▸  I'm already winning. look 😤   [Stimme: chuckle]      ⟶ NACHSCHLAG (gekränkt): you know what, forget it  ▸  stupid idea. I'll stick to machines. at least they react 😒   [Stimme: sigh]"
+  },
+  {
+   "id": "rosi_strand_nackt",
+   "titel": "Rosi · Strand · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_nackt_3-2.png",
+   "soll": "ok. I lost the bet  ▸  on purpose. don't tell anyone  ▸  so. what does the winner want? 🔧   [Stimme: sigh]      ⟶ NACHSCHLAG (gekränkt): right.  ▸  I'll take that as a no. don't mention it tomorrow.   [Stimme: sigh]"
+  },
+  {
+   "id": "rosi_werkstatt_knapp",
+   "titel": "Rosi · Werkstatt · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_knapp-5.png",
+   "soll": "tally board: twelve to eleven, me 🏆  ▸  this is what the leader wears to work. memorise it  ▸  your next challenge is not thinking about it. good luck 😏   [Stimme: laugh]      ⟶ NACHSCHLAG (gekränkt): …ok. no answer. fine.  ▸  it was about the jacket anyway   [Stimme: sigh]"
+  },
+  {
+   "id": "rosi_werkstatt_oben_ohne",
+   "titel": "Rosi · Werkstatt · Begehren 4 (oben ohne)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_oben_ohne-5.png",
+   "soll": "I put a new mark on the board  ▸  it's not for a win. I don't know what it's for  ▸  don't ask. seriously, Officer, don't ask 🙄   [Stimme: chuckle]      ⟶ NACHSCHLAG (gekränkt): you know what, forget it  ▸  stupid idea. I'll stick to machines. at least they react 😒   [Stimme: sigh]"
+  },
+  {
+   "id": "rosi_werkstatt_nackt",
+   "titel": "Rosi · Werkstatt · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_nackt-3.png",
+   "soll": "my dad had a sign in his workshop: finish what you start  ▸  I've been starting this for a week  ▸  so. your turn. Captain.   [Stimme: sigh]      ⟶ NACHSCHLAG (gekränkt): right.  ▸  I'll take that as a no. don't mention it tomorrow.   [Stimme: sigh]"
+  },
+  {
+   "id": "siri_dessous_knapp",
+   "titel": "Siri · Dessous · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_knapp_3-1.png",
+   "soll": "a brand sent me this 🎀  ▸  I'm not allowed to post it before the launch  ▸  so technically I'm not posting it, I'm sending it. to one person. that's allowed, right?   [Stimme: laugh]      ⟶ NACHSCHLAG (Reue): sorry, was that too much? 🙈  ▸  you can delete it, it's really ok   [Stimme: gasp]"
+  },
+  {
+   "id": "siri_dessous_oben_ohne",
+   "titel": "Siri · Dessous · Begehren 4 (oben ohne)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_oben_ohne_3-2.png",
+   "soll": "the brand would kill me 🙈  ▸  but the brand isn't here and you are. kind of. in my phone  ▸  is pink ok? I can never tell what people actually like   [Stimme: chuckle]      ⟶ NACHSCHLAG (Reue): oh no. that was too much, wasn't it 😣  ▸  I'm so used to everyone liking everything. please just be honest   [Stimme: sigh]"
+  },
+  {
+   "id": "siri_dessous_nackt",
+   "titel": "Siri · Dessous · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_nackt_3-1.png",
+   "soll": "no ring light, no angles, no sponsor  ▸  just the stockings and me 🤍  ▸  I wanted you to see me before anyone else gets to   [Stimme: sigh]      ⟶ NACHSCHLAG (Reue): I'm shaking a bit  ▸  please don't screenshot it. I trust you. that's the scary part 🥺   [Stimme: sigh]"
+  },
+  {
+   "id": "siri_vip_knapp",
+   "titel": "Siri · Vip · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_knapp-5.png",
+   "soll": "hiii ✨  ▸  sorry, no, not the camera voice  ▸  is it weird that you're the only one I wanted to send this to? it's weird. sorry. ignore the wink 🙈   [Stimme: laugh]      ⟶ NACHSCHLAG (Reue): sorry, was that too much? 🙈  ▸  you can delete it, it's really ok   [Stimme: gasp]"
+  },
+  {
+   "id": "siri_vip_oben_ohne",
+   "titel": "Siri · Vip · Begehren 4 (oben ohne)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_oben_ohne-6.png",
+   "soll": "2.8 million followers and none of them get this one  ▸  peace ✌️ sorry, I don't know what my hand is doing  ▸  is this ok? tell me if it's not ok 🥺   [Stimme: laugh]      ⟶ NACHSCHLAG (Reue): oh no. that was too much, wasn't it 😣  ▸  I'm so used to everyone liking everything. please just be honest   [Stimme: sigh]"
+  },
+  {
+   "id": "siri_vip_nackt",
+   "titel": "Siri · Vip · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_nackt_2-2.png",
+   "soll": "no filter, no caption, no management 🤍  ▸  I asked myself what I actually want, for once  ▸  and then I got scared of the answer and sent this instead. does that make sense   [Stimme: sigh]      ⟶ NACHSCHLAG (Reue): I'm shaking a bit  ▸  please don't screenshot it. I trust you. that's the scary part 🥺   [Stimme: sigh]"
+  },
+  {
+   "id": "siri_vordeck_knapp",
+   "titel": "Siri · Vordeck · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_knapp-9.png",
+   "soll": "sunrise!! sorry, I said good morning to the anchor winch first 🌅  ▸  you're second. that's still really good 😊  ▸  are you awake? you don't have to be awake   [Stimme: laugh]      ⟶ NACHSCHLAG (Reue): sorry, was that too much? 🙈  ▸  you can delete it, it's really ok   [Stimme: gasp]"
+  },
+  {
+   "id": "siri_vordeck_oben_ohne",
+   "titel": "Siri · Vordeck · Begehren 4 (oben ohne)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_oben_ohne_2-3.png",
+   "soll": "the light is perfect and I didn't fix my hair  ▸  first photo in six years where I didn't fix anything  ▸  do you like it like this? the real version? 🙈   [Stimme: chuckle]      ⟶ NACHSCHLAG (Reue): oh no. that was too much, wasn't it 😣  ▸  I'm so used to everyone liking everything. please just be honest   [Stimme: sigh]"
+  },
+  {
+   "id": "siri_vordeck_nackt",
+   "titel": "Siri · Vordeck · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_nackt_2-5.png",
+   "soll": "nobody approved this photo  ▸  not my manager, not Yasin, not even me in the mirror  ▸  I just wanted one person to have the real one. it's you. ok bye 🤍   [Stimme: sigh]      ⟶ NACHSCHLAG (Reue): I'm shaking a bit  ▸  please don't screenshot it. I trust you. that's the scary part 🥺   [Stimme: sigh]"
+  },
+  {
+   "id": "sophia_achterdeck_knapp",
+   "titel": "Sophia · Achterdeck · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_knapp-10.png",
+   "soll": "Darling. Aft deck. Midnight.  ▸  Ten euros says you're up here before one. 🥂  ▸  I've already spent the ten euros, so do hurry.   [Stimme: chuckle]      ⟶ NACHSCHLAG (gekränkt): Hm. No reply.  ▸  Ten euros lost, then. I'll survive.   [Stimme: sigh]"
+  },
+  {
+   "id": "sophia_achterdeck_oben_ohne",
+   "titel": "Sophia · Achterdeck · Begehren 4 (oben ohne)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_oben_ohne_2-4.png",
+   "soll": "I lost a bet with myself.  ▸  This is the forfeit.  ▸  Don't tell anyone I lose bets. I have a reputation.   [Stimme: laugh]      ⟶ NACHSCHLAG (gekränkt): I'll take the silence as a review.  ▸  Noted. 📓   [Stimme: chuckle]"
+  },
+  {
+   "id": "sophia_achterdeck_nackt",
+   "titel": "Sophia · Achterdeck · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_nackt_2-5.png",
+   "soll": "I'm not managing you tonight.  ▸  I'm not managing anyone.  ▸  This is what's left. I'm told it's rather nice.   [Stimme: sigh]      ⟶ NACHSCHLAG (gekränkt): That was the first time I asked for anything.  ▸  I won't make that mistake again, darling.   [Stimme: sigh]"
+  },
+  {
+   "id": "sophia_koje_knapp",
+   "titel": "Sophia · Koje · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_knapp_2-1.png",
+   "soll": "2 a.m., a pen, a notebook and a terrible idea.  ▸  Guess which of the three this is.  ▸  Wrong. It's all three. 🖋️   [Stimme: chuckle]      ⟶ NACHSCHLAG (gekränkt): Hm. No reply.  ▸  Ten euros lost, then. I'll survive.   [Stimme: sigh]"
+  },
+  {
+   "id": "sophia_koje_oben_ohne",
+   "titel": "Sophia · Koje · Begehren 4 (oben ohne)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_oben_ohne_2-1.png",
+   "soll": "Research, darling. Purely research.  ▸  I'm writing a scene and I need to know how the hero reacts.  ▸  Take your time. I'll be taking notes. 📓   [Stimme: laugh]      ⟶ NACHSCHLAG (gekränkt): I'll take the silence as a review.  ▸  Noted. 📓   [Stimme: chuckle]"
+  },
+  {
+   "id": "sophia_koje_nackt",
+   "titel": "Sophia · Koje · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_nackt_2-1.png",
+   "soll": "No bet tonight.  ▸  You keep not asking what I want, so I'll tell you.  ▸  It's this. It's you. I'll pretend I didn't write that in the morning.   [Stimme: sigh]      ⟶ NACHSCHLAG (gekränkt): That was the first time I asked for anything.  ▸  I won't make that mistake again, darling.   [Stimme: sigh]"
+  },
+  {
+   "id": "sophia_noir_knapp",
+   "titel": "Sophia · Noir · Begehren 3 (knapp)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_knapp_3.png",
+   "soll": "Chapter one: the detective arrives at midnight 🕵️‍♀️  ▸  She's wearing a trench coat. Only a trench coat.  ▸  I'm told it's terribly clichéd. I'm doing the research anyway.   [Stimme: chuckle]      ⟶ NACHSCHLAG (gekränkt): Hm. No reply.  ▸  Ten euros lost, then. I'll survive.   [Stimme: sigh]"
+  },
+  {
+   "id": "sophia_noir_oben_ohne",
+   "titel": "Sophia · Noir · Begehren 4 (oben ohne)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_oben_ohne_3-1.png",
+   "soll": "Chapter two: the detective takes off her coat.  ▸  The reader is expected to be shocked.  ▸  Are you shocked, darling? Take notes. 📓   [Stimme: laugh]      ⟶ NACHSCHLAG (gekränkt): I'll take the silence as a review.  ▸  Noted. 📓   [Stimme: chuckle]"
+  },
+  {
+   "id": "sophia_noir_nackt",
+   "titel": "Sophia · Noir · Begehren 5 (nackt)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_nackt_3-1.png",
+   "soll": "Chapter three: the detective is caught.  ▸  Her hands are tied. Loosely. She could get free.  ▸  She doesn't want to. I haven't written the ending yet. You might. 🖋️   [Stimme: sigh]      ⟶ NACHSCHLAG (gekränkt): That was the first time I asked for anything.  ▸  I won't make that mistake again, darling.   [Stimme: sigh]"
+  }
+ ]
+}

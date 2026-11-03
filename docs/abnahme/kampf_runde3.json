@@ -1,0 +1,465 @@
+{
+ "id": "kampf_runde3",
+ "titel": "Kampf-Sprites: Runde 3 + Größen",
+ "hinweis": "Oben die 19 neu gerechneten Posen (rechts die Idle-Pose zum Vergleich). Darunter je Gegner ein Größen-Streifen mit allen Posen, wie sie im Spiel stehen. Neu = nochmal machen bzw. Größe ändern (gern mit Notiz: größer/kleiner).",
+ "items": [
+  {
+   "id": "Brute/guard",
+   "titel": "Brute · guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Brute\\guard.png",
+   "soll": "Schutzpose, ganz im Bild bis zu den Schuhen, nichts abgeschnitten – aus der Alpha-Pose umgestellt: passt das Gesicht (Bart?)",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Brute\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "BruteAlpha/guard",
+   "titel": "BruteAlpha · guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BruteAlpha\\guard.png",
+   "soll": "Schutzpose, ganz im Bild bis zu den Schuhen, nichts abgeschnitten",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BruteAlpha\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "DrunkCasanova/guard",
+   "titel": "DrunkCasanova · guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DrunkCasanova\\guard.png",
+   "soll": "Schutzpose, ganz im Bild bis zu den Schuhen, nichts abgeschnitten",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\DrunkCasanova\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Thief/guard",
+   "titel": "Thief · guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Thief\\guard.png",
+   "soll": "Schutzpose, ganz im Bild bis zu den Schuhen, nichts abgeschnitten – ohne Brecheisen",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Thief\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "ThiefArab/guard",
+   "titel": "ThiefArab · guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefArab\\guard.png",
+   "soll": "Schutzpose, ganz im Bild bis zu den Schuhen, nichts abgeschnitten – ohne Brecheisen",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ThiefArab\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Alon/hurt",
+   "titel": "Alon · hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\hurt.png",
+   "soll": "getroffen, ganz im Bild",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Alon/heavy_windup",
+   "titel": "Alon · heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\heavy_windup.png",
+   "soll": "holt mit beiden Händen weit aus, ganz im Bild",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Alon\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "AgentAlpha/attack",
+   "titel": "AgentAlpha · attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\attack.png",
+   "soll": "Faustschlag nach links, ganz im Bild bis zu den Schuhen",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\AgentAlpha\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "ApeAlpha/guard",
+   "titel": "ApeAlpha · guard",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\guard.png",
+   "soll": "Schutzpose, ganz im Bild bis zu den Schuhen, nichts abgeschnitten",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "ApeAlpha/hurt",
+   "titel": "ApeAlpha · hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\hurt.png",
+   "soll": "getroffen, ganz im Bild",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "ApeAlpha/enraged",
+   "titel": "ApeAlpha · enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\enraged.png",
+   "soll": "brüllt wütend, Piratenhut, ganz im Bild",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\ApeAlpha\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Lion/defeated",
+   "titel": "Lion · defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Lion\\defeated.png",
+   "soll": "liegt bewusstlos, Kopf rechts, ganz im Bild",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Lion\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Lion/death",
+   "titel": "Lion · death",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Lion\\death.png",
+   "soll": "liegt tot und friedlich, Kopf rechts, ganz im Bild",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Lion\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "WolfAlpha/defeated",
+   "titel": "WolfAlpha · defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WolfAlpha\\defeated.png",
+   "soll": "liegt bewusstlos, Kopf rechts, ganz im Bild",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WolfAlpha\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "WolfAlpha/death",
+   "titel": "WolfAlpha · death",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WolfAlpha\\death.png",
+   "soll": "liegt tot und friedlich, Kopf rechts, ganz im Bild",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\WolfAlpha\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Panther/defeated",
+   "titel": "Panther · defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Panther\\defeated.png",
+   "soll": "liegt bewusstlos, Kopf rechts, ganz im Bild",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Panther\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Panther/death",
+   "titel": "Panther · death",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Panther\\death.png",
+   "soll": "liegt tot und friedlich, Kopf rechts, ganz im Bild",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\Panther\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "PantherAlpha/defeated",
+   "titel": "PantherAlpha · defeated",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PantherAlpha\\defeated.png",
+   "soll": "liegt bewusstlos, Kopf rechts, ganz im Bild",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PantherAlpha\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "PantherAlpha/death",
+   "titel": "PantherAlpha · death",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PantherAlpha\\death.png",
+   "soll": "liegt tot und friedlich, Kopf rechts, ganz im Bild",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\PantherAlpha\\idle.png",
+   "vergleich_titel": "idle"
+  },
+  {
+   "id": "Größe/Agent",
+   "titel": "Größe · Agent",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\Agent.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/AgentAlpha",
+   "titel": "Größe · AgentAlpha",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\AgentAlpha.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/Alien",
+   "titel": "Größe · Alien",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\Alien.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/Alon",
+   "titel": "Größe · Alon",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\Alon.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/Ape",
+   "titel": "Größe · Ape",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\Ape.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/ApeAlpha",
+   "titel": "Größe · ApeAlpha",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\ApeAlpha.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/Bat",
+   "titel": "Größe · Bat",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\Bat.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/BatAlpha",
+   "titel": "Größe · BatAlpha",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\BatAlpha.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/Brute",
+   "titel": "Größe · Brute",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\Brute.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/BruteAlpha",
+   "titel": "Größe · BruteAlpha",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\BruteAlpha.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/Dog",
+   "titel": "Größe · Dog",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\Dog.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/DogAlpha",
+   "titel": "Größe · DogAlpha",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\DogAlpha.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/DrunkCasanova",
+   "titel": "Größe · DrunkCasanova",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\DrunkCasanova.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/Grizzly",
+   "titel": "Größe · Grizzly",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\Grizzly.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/GrizzlyAlpha",
+   "titel": "Größe · GrizzlyAlpha",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\GrizzlyAlpha.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/Heinrich",
+   "titel": "Größe · Heinrich",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\Heinrich.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/Lion",
+   "titel": "Größe · Lion",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\Lion.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/LionAlpha",
+   "titel": "Größe · LionAlpha",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\LionAlpha.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/MaxwellMaximum",
+   "titel": "Größe · MaxwellMaximum",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\MaxwellMaximum.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/MaxwellSports",
+   "titel": "Größe · MaxwellSports",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\MaxwellSports.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/MaxwellSteward",
+   "titel": "Größe · MaxwellSteward",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\MaxwellSteward.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/Mime",
+   "titel": "Größe · Mime",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\Mime.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/Panther",
+   "titel": "Größe · Panther",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\Panther.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/PantherAlpha",
+   "titel": "Größe · PantherAlpha",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\PantherAlpha.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/Paparazzo",
+   "titel": "Größe · Paparazzo",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\Paparazzo.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/Pigeon",
+   "titel": "Größe · Pigeon",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\Pigeon.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/PigeonAlpha",
+   "titel": "Größe · PigeonAlpha",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\PigeonAlpha.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/Pirate",
+   "titel": "Größe · Pirate",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\Pirate.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/PirateAlpha",
+   "titel": "Größe · PirateAlpha",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\PirateAlpha.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/PirateTorch",
+   "titel": "Größe · PirateTorch",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\PirateTorch.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/Rat",
+   "titel": "Größe · Rat",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\Rat.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/RatAlpha",
+   "titel": "Größe · RatAlpha",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\RatAlpha.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/SeaMonster",
+   "titel": "Größe · SeaMonster",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\SeaMonster.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/Seagull",
+   "titel": "Größe · Seagull",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\Seagull.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/SeagullAlpha",
+   "titel": "Größe · SeagullAlpha",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\SeagullAlpha.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/Shark",
+   "titel": "Größe · Shark",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\Shark.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/SharkAlpha",
+   "titel": "Größe · SharkAlpha",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\SharkAlpha.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/Siren",
+   "titel": "Größe · Siren",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\Siren.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/Snake",
+   "titel": "Größe · Snake",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\Snake.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/SnakeAlpha",
+   "titel": "Größe · SnakeAlpha",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\SnakeAlpha.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/Thief",
+   "titel": "Größe · Thief",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\Thief.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/ThiefAlpha",
+   "titel": "Größe · ThiefAlpha",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\ThiefAlpha.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/ThiefArab",
+   "titel": "Größe · ThiefArab",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\ThiefArab.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/Unit1",
+   "titel": "Größe · Unit1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\Unit1.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/Vampire",
+   "titel": "Größe · Vampire",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\Vampire.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/Wildschwein",
+   "titel": "Größe · Wildschwein",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\Wildschwein.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/WildschweinKeiler",
+   "titel": "Größe · WildschweinKeiler",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\WildschweinKeiler.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/WildschweinKlein",
+   "titel": "Größe · WildschweinKlein",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\WildschweinKlein.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/Wolf",
+   "titel": "Größe · Wolf",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\Wolf.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/WolfAlpha",
+   "titel": "Größe · WolfAlpha",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\WolfAlpha.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  },
+  {
+   "id": "Größe/YasinDrone",
+   "titel": "Größe · YasinDrone",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\groesse\\YasinDrone.png",
+   "soll": "alle Posen gleich groß (so stehen sie im Kampfbildschirm); Art passend groß"
+  }
+ ]
+}

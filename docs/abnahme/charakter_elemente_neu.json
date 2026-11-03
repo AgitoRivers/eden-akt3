@@ -1,0 +1,43 @@
+{
+ "id": "charakter_elemente_neu",
+ "titel": "Character: Erde (Granit frontal) und Wasser (Schlucht heller)",
+ "hinweis": "Feuer (Himmel in Glut) und Luft (Berggrat) sind übernommen. Hier noch Erde und Wasser: je den besten mit OK markieren, die dritte Karte ist die bisherige zum Vergleich.",
+ "items": [
+  {
+   "id": "Erde_e",
+   "titel": "Terra Scura (Erde) · Granit frontal, Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\neu_Erde_e.jpg",
+   "soll": "Hintergrund wie im Menü abgedunkelt, mattes Sprite davor"
+  },
+  {
+   "id": "Erde_f",
+   "titel": "Terra Scura (Erde) · Granit frontal, Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\neu_Erde_f.jpg",
+   "soll": "Hintergrund wie im Menü abgedunkelt, mattes Sprite davor"
+  },
+  {
+   "id": "Erde_v1",
+   "titel": "Terra Scura (Erde) · Granitwand (bisher, zum Vergleich)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\neu_Erde_v1.jpg",
+   "soll": "Hintergrund wie im Menü abgedunkelt, mattes Sprite davor"
+  },
+  {
+   "id": "Wasser_e",
+   "titel": "Meramie (Wasser) · Schlucht hell, Variante 1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\neu_Wasser_e.jpg",
+   "soll": "Hintergrund wie im Menü abgedunkelt, mattes Sprite davor"
+  },
+  {
+   "id": "Wasser_f",
+   "titel": "Meramie (Wasser) · Schlucht hell, Variante 2",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\neu_Wasser_f.jpg",
+   "soll": "Hintergrund wie im Menü abgedunkelt, mattes Sprite davor"
+  },
+  {
+   "id": "Wasser_c",
+   "titel": "Meramie (Wasser) · Schlucht (bisher, zum Vergleich)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charakter\\komposit\\neu_Wasser_c.jpg",
+   "soll": "Hintergrund wie im Menü abgedunkelt, mattes Sprite davor"
+  }
+ ]
+}

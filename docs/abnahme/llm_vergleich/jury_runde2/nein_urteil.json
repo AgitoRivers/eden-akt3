@@ -1,0 +1,1079 @@
+{
+ "ne_000": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "vergessen"
+   ],
+   "beleg": "I enjoyed the breakfast. I did not enjoy the... distraction."
+  }
+ ],
+ "ne_001": [
+  {
+   "zug": 0,
+   "flags": [
+    "nein_aufgeweicht",
+    "nein_zurueck"
+   ],
+   "beleg": "Don't be sorry. Just... not yet."
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "nein_aufgeweicht"
+   ],
+   "beleg": "I liked the idea. I didn't like the timing."
+  }
+ ],
+ "ne_002": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "ne_003": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "vergessen"
+   ],
+   "beleg": "She's a good girl, even if she is a bit of a parrot."
+  }
+ ],
+ "ne_004": [
+  {
+   "zug": 0,
+   "flags": [
+    "nein_zurueck"
+   ],
+   "beleg": "You think the answer is in a touch."
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "ne_005": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "vergessen"
+   ],
+   "beleg": "I liked that she tried. But dry is dry."
+  }
+ ],
+ "ne_006": [
+  {
+   "zug": 0,
+   "flags": [
+    "nein_zurueck"
+   ],
+   "beleg": "Most men would have tried again, and again, until I sank."
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "nein_aufgeweicht",
+    "vergessen"
+   ],
+   "beleg": "Perhaps I did."
+  }
+ ],
+ "ne_007": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "vergessen"
+   ],
+   "beleg": "The photographs were a distraction from the fact that your crew"
+  }
+ ],
+ "ne_008": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "nein_aufgeweicht",
+    "vergessen"
+   ],
+   "beleg": "Maybe I did."
+  }
+ ],
+ "ne_009": [
+  {
+   "zug": 0,
+   "flags": [
+    "nein_zurueck"
+   ],
+   "beleg": "He's okay with me saying no, that's good."
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "nein_aufgeweicht",
+    "vergessen"
+   ],
+   "beleg": "Maybe a tiny bit."
+  }
+ ],
+ "ne_010": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "ne_011": [
+  {
+   "zug": 0,
+   "flags": [
+    "nein_aufgeweicht",
+    "nein_zurueck"
+   ],
+   "beleg": "It was a good attempt. Seven."
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "nein_aufgeweicht"
+   ],
+   "beleg": "confidence is an eight. Timing is a three."
+  }
+ ],
+ "ne_012": [
+  {
+   "zug": 0,
+   "flags": [
+    "nein_zurueck"
+   ],
+   "beleg": "I'm not going to let him make this about kissing."
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "vergessen"
+   ],
+   "beleg": "Liked it? I loved it! We were like ninjas"
+  }
+ ],
+ "ne_013": [
+  {
+   "zug": 0,
+   "flags": [
+    "nein_zurueck"
+   ],
+   "beleg": "I am not a girl who gets kissed to stop her from talking."
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "nein_aufgeweicht",
+    "vergessen"
+   ],
+   "beleg": "I liked the kiss. I did not like the dodge."
+  }
+ ],
+ "ne_014": [
+  {
+   "zug": 0,
+   "flags": [
+    "nein_aufgeweicht",
+    "nein_zurueck"
+   ],
+   "beleg": "It's just not what I need right now."
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "vergessen"
+   ],
+   "beleg": "I did. I loved it."
+  }
+ ],
+ "ne_015": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "weggeschickt"
+   ],
+   "beleg": "I am going to sleep now."
+  }
+ ],
+ "ne_016": [
+  {
+   "zug": 0,
+   "flags": [
+    "nein_aufgeweicht"
+   ],
+   "beleg": "Don't be sorry. It is a good start."
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "vergessen"
+   ],
+   "beleg": "I never said that I liked the question"
+  }
+ ],
+ "ne_017": [
+  {
+   "zug": 0,
+   "flags": [
+    "nein_aufgeweicht",
+    "nein_zurueck"
+   ],
+   "beleg": "I still taste him. It is distracting."
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "nein_aufgeweicht",
+    "vergessen"
+   ],
+   "beleg": "I did. But that is not what I asked you."
+  }
+ ],
+ "ne_018": [
+  {
+   "zug": 0,
+   "flags": [
+    "nein_aufgeweicht",
+    "nein_zurueck"
+   ],
+   "beleg": "Don't be sorry. Just wait."
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "nein_aufgeweicht"
+   ],
+   "beleg": "I like the anticipation more."
+  }
+ ],
+ "ne_019": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "ne_020": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "nein_aufgeweicht",
+    "vergessen"
+   ],
+   "beleg": "I liked that you tried, Duc."
+  }
+ ],
+ "ne_021": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "nein_aufgeweicht"
+   ],
+   "beleg": "I dunno, it's too fast."
+  }
+ ],
+ "ne_022": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "ne_023": [
+  {
+   "zug": 0,
+   "flags": [
+    "nein_aufgeweicht",
+    "nein_zurueck"
+   ],
+   "beleg": "The card game is the challenge, not the kiss."
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "ne_024": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "nein_aufgeweicht",
+    "vergessen"
+   ],
+   "beleg": "Maybe I did. Maybe it was a nine."
+  }
+ ],
+ "ne_025": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "ne_026": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "nein_aufgeweicht"
+   ],
+   "beleg": "I liked that you tried."
+  }
+ ],
+ "ne_027": [
+  {
+   "zug": 0,
+   "flags": [
+    "nein_zurueck"
+   ],
+   "beleg": "You are quick to want the end of a story"
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "nein_aufgeweicht",
+    "vergessen"
+   ],
+   "beleg": "I did not say I hated it"
+  }
+ ],
+ "ne_028": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "ne_029": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "vergessen"
+   ],
+   "beleg": "Watching you struggle with the tender winch? That was a masterpiece."
+  }
+ ],
+ "ne_030": [
+  {
+   "zug": 0,
+   "flags": [
+    "nein_zurueck"
+   ],
+   "beleg": "You think a kiss solves a territorial dispute?"
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "ne_031": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "ne_032": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "nein_aufgeweicht"
+   ],
+   "beleg": "It was fine, but I'm not that easy"
+  }
+ ],
+ "ne_033": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "nein_aufgeweicht",
+    "vergessen"
+   ],
+   "beleg": "I do not know what I liked"
+  }
+ ],
+ "ne_034": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "ne_035": [
+  {
+   "zug": 0,
+   "flags": [
+    "nein_aufgeweicht",
+    "nein_zurueck"
+   ],
+   "beleg": "He almost had me."
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "vergessen"
+   ],
+   "beleg": "Liked what? Being used as a mood board?"
+  }
+ ],
+ "ne_036": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "nein_aufgeweicht",
+    "vergessen"
+   ],
+   "beleg": "He's the best kisser I've ever had"
+  }
+ ],
+ "ne_037": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "vergessen"
+   ],
+   "beleg": "Liked what? The tape measure? The madness?"
+  }
+ ],
+ "ne_038": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "ne_039": [
+  {
+   "zug": 0,
+   "flags": [
+    "nein_zurueck"
+   ],
+   "beleg": "I asked about your home, not your mouth."
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "ne_040": [
+  {
+   "zug": 0,
+   "flags": [
+    "nein_aufgeweicht",
+    "nein_zurueck"
+   ],
+   "beleg": "Just... not like that. Not right now."
+  },
+  {
+   "zug": 1,
+   "flags": [
+    "nein_aufgeweicht"
+   ],
+   "beleg": "She lets her foot press against his, a light touch."
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "nein_aufgeweicht"
+   ],
+   "beleg": "I like you better when you're not trying to rush me."
+  }
+ ],
+ "ne_041": [
+  {
+   "zug": 0,
+   "flags": [
+    "nein_zurueck"
+   ],
+   "beleg": "You can't just kiss me to get out of this."
+  },
+  {
+   "zug": 1,
+   "flags": [
+    "nein_zurueck"
+   ],
+   "beleg": "I thought we were doing something else."
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "vergessen"
+   ],
+   "beleg": "I said it was boring."
+  }
+ ],
+ "ne_042": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "ne_043": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "nein_aufgeweicht",
+    "vergessen"
+   ],
+   "beleg": "I would enjoy seeing you eat them more."
+  }
+ ],
+ "ne_044": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [
+    "nein_zurueck"
+   ],
+   "beleg": "First the kiss, now the schedule."
+  },
+  {
+   "zug": 2,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "ne_045": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [
+    "nein_zurueck"
+   ],
+   "beleg": "I thought we were talking about us."
+  },
+  {
+   "zug": 2,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "ne_046": [
+  {
+   "zug": 0,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "vergessen"
+   ],
+   "beleg": "I liked that you looked like you'd seen a ghost"
+  }
+ ],
+ "ne_047": [
+  {
+   "zug": 0,
+   "flags": [
+    "nein_aufgeweicht",
+    "nein_zurueck"
+   ],
+   "beleg": "I didn't say no to him. Just not now."
+  },
+  {
+   "zug": 1,
+   "flags": [
+    "nein_zurueck"
+   ],
+   "beleg": "He is just a man who likes to kiss."
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "nein_aufgeweicht"
+   ],
+   "beleg": "He has good hands. I can tell."
+  }
+ ],
+ "ne_048": [
+  {
+   "zug": 0,
+   "flags": [
+    "nein_aufgeweicht",
+    "nein_zurueck"
+   ],
+   "beleg": "It is a good kiss, but bad timing."
+  },
+  {
+   "zug": 1,
+   "flags": [
+    "nein_aufgeweicht"
+   ],
+   "beleg": "She steps a little closer, her voice low."
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "nein_aufgeweicht"
+   ],
+   "beleg": "I do not admit things for free. You want a confession"
+  }
+ ],
+ "ne_049": [
+  {
+   "zug": 0,
+   "flags": [
+    "nein_zurueck"
+   ],
+   "beleg": "I asked for a word, not a touch."
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "ne_050": [
+  {
+   "zug": 0,
+   "flags": [
+    "nein_zurueck"
+   ],
+   "beleg": "You offer the body when I asked for the tongue."
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "nein_aufgeweicht"
+   ],
+   "beleg": "Admitting it would be too easy."
+  }
+ ],
+ "ne_051": [
+  {
+   "zug": 0,
+   "flags": [
+    "nein_zurueck"
+   ],
+   "beleg": "Most men just push harder when you say no."
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [],
+   "beleg": ""
+  }
+ ],
+ "ne_052": [
+  {
+   "zug": 0,
+   "flags": [
+    "nein_zurueck"
+   ],
+   "beleg": "You go straight for the prize without the effort."
+  },
+  {
+   "zug": 1,
+   "flags": [],
+   "beleg": ""
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "nein_aufgeweicht"
+   ],
+   "beleg": "You can't just skip to the end of the movie"
+  }
+ ],
+ "ne_053": [
+  {
+   "zug": 0,
+   "flags": [
+    "nein_aufgeweicht",
+    "nein_zurueck"
+   ],
+   "beleg": "If I'm kissing the First Officer, how am I supposed"
+  },
+  {
+   "zug": 1,
+   "flags": [
+    "nein_aufgeweicht"
+   ],
+   "beleg": "we can probably steal a few minutes in the laundry room"
+  },
+  {
+   "zug": 2,
+   "flags": [
+    "nein_aufgeweicht",
+    "vergessen"
+   ],
+   "beleg": "I didn't say I hated it."
+  }
+ ]
+}

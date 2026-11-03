@@ -1,0 +1,764 @@
+[
+ {
+  "datei": "werkzeuge/eden_rise/auftraege_eden_rise.py",
+  "alt": "Get through the two in the bushes.",
+  "neu": "Get through the two women in red from the bushes.",
+  "grund": "\"the two\" ohne Bezug; rt_auftritt: zwei Frauen in Rot aus den Büschen"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/auftraege_eden_rise.py",
+  "alt": "You told her the truth.",
+  "neu": "You told Bibi what you did to her black lion, Mochi.",
+  "grund": "Welche Wahrheit? rt_bibi_frei/_erloest: Bibi fragt nach dem schwarzen Löwen Mochi"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/auftraege_eden_rise.py",
+  "alt": "You said nothing and helped her look.",
+  "neu": "You said nothing and helped Bibi look for Mochi.",
+  "grund": "Wonach suchen? rt_bibi_frei: sie folgt Mochis Spuren"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/auftraege_eden_rise.py",
+  "alt": "You told her to show them her game.",
+  "neu": "You told her to show Danzel and Bibi the little game she made about them.",
+  "grund": "\"them\" und \"her game\" unklar; rt_charly: Spiel mit den drei roten Figuren"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/auftraege_eden_rise.py",
+  "alt": "You followed the blood trail.",
+  "neu": "You followed the blood trail and the child's sandal.",
+  "grund": "Erinnerung an die Gabelung; kl_gabelung: Blutspur und kleine Sandale"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/auftraege_eden_rise.py",
+  "alt": "You climbed to the niche first.",
+  "neu": "You climbed to the shining niche in the rock first.",
+  "grund": "\"the niche\" ohne Erklärung; kl_gabelung: Metall glänzt in einer Felsnische"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/auftraege_eden_rise.py",
+  "alt": "You cut the chip out and let him go.",
+  "neu": "You cut the chip out of his neck and let him go.",
+  "grund": "\"the chip\" ohne Erklärung; kl_loewe_wahl: Chip im Nacken"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/auftraege_eden_rise.py",
+  "alt": "You handed Adrien over.",
+  "neu": "You handed Adrien over to Wolff.",
+  "grund": "An wen? bg_drei_wege"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/auftraege_eden_rise.py",
+  "alt": "You got them out by sea.",
+  "neu": "You got Adrien and Laetitia out by sea.",
+  "grund": "\"them\" nackt; bg_weg_b"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/auftraege_eden_rise.py",
+  "alt": "\"The mother\"",
+  "neu": "\"The mother bear\"",
+  "grund": "Bezeichnung ohne Bezug; bg_u1_wahl: Old Grey mit Jungen"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/auftraege_eden_rise.py",
+  "alt": "You cut out the chip and let her live.",
+  "neu": "You cut the chip out of Old Grey's neck and let her live.",
+  "grund": "\"the chip\", \"her\" nackt; bg_u1_wahl"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/auftraege_eden_rise.py",
+  "alt": "You ended it, awake.",
+  "neu": "You killed the black beast, awake, as Dumenica asked.",
+  "grund": "\"it\" nackt; bg_u2_wahl, Auftragstext Mazzera"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/auftraege_eden_rise.py",
+  "alt": "You sent it at its masters.",
+  "neu": "You sent the black beast at the agents who controlled it.",
+  "grund": "\"it\", \"masters\" nackt; bg_u2_wahl: Regler, die Agenten"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/auftraege_eden_rise.py",
+  "alt": "You freed Bastien and came too late for Gennaro.",
+  "neu": "You freed Bastien from the rubble and came too late for Gennaro.",
+  "grund": "Bastien wird nirgends im Journal erklärt; gr_u2_wahl"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/auftraege_eden_rise.py",
+  "alt": "You went for Gennaro and left Bastien to the tide.",
+  "neu": "You went for Gennaro and left Bastien under the rubble, to the tide.",
+  "grund": "Wie oben; gr_u2_wahl"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/auftraege_eden_rise.py",
+  "alt": "You paid Gennaro's debt with it.",
+  "neu": "You paid Gennaro's debt with the crate of collars.",
+  "grund": "Was war in der Kiste? gr_wahl: vierzig Halsbänder, eine Kiste Chips"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/auftraege_eden_rise.py",
+  "alt": "You kept it as proof.",
+  "neu": "You kept the crate of collars as proof.",
+  "grund": "Beweis wofür? gr_wahl (Gennaro: \"what Alon does\")"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/auftraege_eden_rise.py",
+  "alt": "You put the weapon away and talked.",
+  "neu": "You put the weapon away and talked to the woman with the fish tail.",
+  "grund": "Mit wem? Steht erst nach der Wahl da, also kein Spoiler; fn_teich"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/auftraege_eden_rise.py",
+  "alt": "Listen to what the sea keeps.",
+  "neu": "Listen to the voice in the black pool.",
+  "grund": "Schritt ohne erkennbares Ziel (Szenentitel fn_perle); ohne Spoiler formuliert"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/auftraege_eden_rise.py",
+  "alt": "Tell Petru at the boathouse.",
+  "neu": "Tell Petru what happened to Laetitia, at his boathouse.",
+  "grund": "Was erzählen? bg_hafen_a/b/c"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/missionen_eden_rise.py",
+  "alt": "Petru chalks the letters out, and his hand",
+  "neu": "Petru chalks the letters of Rosi's sign onto the oak board, and his hand",
+  "grund": "\"the letters\" nackt, Last time nennt nur Holz und Sägen (petru_schild_1)"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/missionen_eden_rise.py",
+  "alt": "The old strap has rotted away",
+  "neu": "The dive computer's old strap has rotted away",
+  "grund": "Last time sagt nur \"the display\", Riemen wovon? (elsa_fund_2/3)"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/missionen_eden_rise.py",
+  "alt": "Two halves, a hairline crack, sixty years of flamenco.",
+  "neu": "Alva's castanets, two halves, a hairline crack, sixty years of flamenco.",
+  "grund": "Hälften wovon? Last time nennt nur den Leimtopf (lola_kast_2/3)"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/missionen_eden_rise.py",
+  "alt": "You give it to him over a meal.",
+  "neu": "You give Totò his new saint over a meal.",
+  "grund": "Nacktes \"it\" und \"him\" (alva_gennaro_3)"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/missionen_eden_rise.py",
+  "alt": "Without a frame she bins it.",
+  "neu": "Without a frame Megan bins that card.",
+  "grund": "Nacktes \"she\" und \"it\", Last time nennt die Karte nicht (lola_megan_2)"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/missionen_eden_rise.py",
+  "alt": "Lola throws, you hold the shape, Petru watches",
+  "neu": "Lola works the clay for Chiara's mug on Petru's wheel, you hold the shape, Petru watches",
+  "grund": "\"throws\" doppeldeutig, Ziel unklar (lola_tasse_3)"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/missionen_eden_rise.py",
+  "alt": "only engraves a blank you bring yourself. Blanks are in",
+  "neu": "only engraves a blank pen you bring yourself. Blank pens are in",
+  "grund": "\"blank\" ohne Erklärung (lea_fueller_2, Teil fueller_rohling)"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/missionen_eden_rise.py",
+  "alt": "You're to ask the questions, so that Petru",
+  "neu": "You're to ask the questions about his fishing, so that Petru",
+  "grund": "Worum geht das Gespräch? Last time nennt nur das Garn (siri_ratgeber_1/2)"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/missionen_eden_rise.py",
+  "alt": "The antenna sits on the roof of the post,",
+  "neu": "The new cable goes up to the antenna on the roof of the post,",
+  "grund": "Ziel fehlte: das Kabel aus der Mission davor einbauen (elsa_antenne_2)"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/missionen_eden_rise.py",
+  "alt": "Air in the diesel line of the emergency generator.",
+  "neu": "There is air in the diesel line of Unit-01, the old emergency generator, and it has to come out.",
+  "grund": "Titel nennt Unit-01, Text erklärt es nicht; Ziel unklar (rosi_bleed)"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/missionen_eden_rise.py",
+  "alt": "in a way the Lieutenant ",
+  "neu": "in a way Lieutenant Elsa ",
+  "grund": "Dienstgrad ohne Namen (alva_diesel), Karte hat kein Last time, weil nach auf eine Gruppe zeigt"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/missionen_eden_rise.py",
+  "alt": "And if the Lieutenant asks: ",
+  "neu": "And if Lieutenant Elsa asks: ",
+  "grund": "Dienstgrad ohne Namen (toto_box)"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_akt2.py",
+  "id": "a2_morgen_kalt",
+  "feld": "zeile",
+  "alt": "Nobody knows what really happened that night.",
+  "neu": "Nobody knows what really happened the night of the fire.",
+  "grund": "\"that night\": welche Nacht, sagt der Satz jetzt selbst"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_akt2.py",
+  "id": "a2_unit01",
+  "feld": "lage",
+  "alt": "that Unit-01 has never made.",
+  "neu": "that Unit-01, Rosi's old diesel, has never made.",
+  "grund": "Unit-01 war seit Tagen kein Thema; das Fenster für die Generator-Gags ist vorbei"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_akt2.py",
+  "id": "a2_teil",
+  "feld": "zeile",
+  "alt": "Like the collars in the harbour.",
+  "neu": "Like the collars on those animals in the harbour.",
+  "grund": "Hafenkampf liegt eine Woche zurück"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_akt2.py",
+  "id": "a2_logo",
+  "feld": "lage",
+  "alt": "You sent Megan a photo of the little black module at three in the morning.",
+  "neu": "You sent Megan a photo of the little black module from Unit-01 at three in the morning.",
+  "grund": "Modul stammt aus der Vornacht; woher, steht jetzt dabei"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_akt2.py",
+  "id": "a2_logo",
+  "feld": "zeile",
+  "alt": "The man with the collars. The man who owns the mountain.",
+  "neu": "The man behind those collars in the harbour. The man who owns the mountain.",
+  "grund": "\"the man with the collars\" setzt den Hafenkampf voraus"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_akt2.py",
+  "id": "a2_kevin_raub",
+  "feld": "lage",
+  "alt": "a rush of wings. Kevin. And ",
+  "neu": "a rush of wings. Kevin, the fat seagull who steals everything on this boat. And ",
+  "grund": "Kevin-Gags sind optional und liegen oft eine Woche zurück"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_akt2.py",
+  "id": "a2_sonntag",
+  "feld": "zeile",
+  "alt": "To Gennaro. Wherever he is.",
+  "neu": "To my cousin Gennaro. Wherever he is.",
+  "grund": "nackter Name, Beichte war vor drei Tagen"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_akt2.py",
+  "id": "a2_koordinaten",
+  "feld": "zeile",
+  "alt": "That hum? It's been there since the bell tower.",
+  "neu": "That hum? It's been there since you climbed the bell tower after Kevin.",
+  "grund": "Glockenturm-Szene; kevin_seite ist hier sicher gesetzt"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_akt2.py",
+  "id": "a2_koordinaten_ohne",
+  "feld": "zeile",
+  "alt": "Kevin's nest is empty. The page is gone.",
+  "neu": "Kevin's nest on the bell tower is empty. Grandad's page is gone.",
+  "grund": "welches Nest, welche Seite"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_akt2.py",
+  "id": "a2_koordinaten_ohne",
+  "feld": "zeile",
+  "alt": "And that hum. It's been there since the bell tower.",
+  "neu": "And that hum. It's been there since the day Kevin stole the page.",
+  "grund": "hier war Duc nie auf dem Turm: Satz stimmt ohne die Mission"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_akt2.py",
+  "id": "a2_koordinaten_ohne",
+  "feld": "option",
+  "alt": "“I should have climbed that tower. I'm sorry, Lea.”",
+  "neu": "“I should have climbed that bell tower for your page. I'm sorry, Lea.”",
+  "grund": "Antwort ohne Vorwissen verständlich"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_akt2.py",
+  "id": "a2_koordinaten_ohne",
+  "feld": "zeile",
+  "alt": "You had a cousin to save and a grotto full of… stuff.",
+  "neu": "You had Totò's cousin to save and a grotto full of… stuff.",
+  "grund": "\"a cousin\" klang wie Ducs eigener Cousin"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_holm.py",
+  "id": "hb_megan",
+  "feld": "zeile",
+  "alt": "You went up to the monastery, and Frederico did not come back.",
+  "neu": "You went up to the monastery, and the boy Frederico did not come back.",
+  "grund": "Holms Bilanz über Tage hinweg: nackter Name"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_holm.py",
+  "id": "hb_megan",
+  "feld": "zeile",
+  "alt": "You went up to the monastery and brought Frederico down alive,",
+  "neu": "You went up to the monastery and brought the boy Frederico down alive,",
+  "grund": "wie oben"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_holm.py",
+  "id": "hb_megan",
+  "feld": "zeile",
+  "alt": "Laetitia will never tell you so.",
+  "neu": "Petru's daughter will never tell you so.",
+  "grund": "Name aus der Berge-Kette, hier ohne Kontext"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_holm.py",
+  "id": "hb_megan",
+  "feld": "zeile",
+  "alt": "In that grotto you had to choose",
+  "neu": "In the grotto under Punta d'Orsu you had to choose",
+  "grund": "\"that grotto\" am Anfang der Zeile"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_holm.py",
+  "id": "hb_megan",
+  "feld": "zeile",
+  "alt": "You got them all out of that grotto, and Gennaro paid",
+  "neu": "You got them all out of that grotto, and Totò's cousin Gennaro paid",
+  "grund": "nackter Name"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_holm.py",
+  "id": "hb_megan",
+  "feld": "zeile",
+  "alt": "You went into that grotto for Gennaro and",
+  "neu": "You went into that grotto for Totò's cousin Gennaro and",
+  "grund": "nackter Name"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_holm.py",
+  "id": "hb_sieg",
+  "feld": "option",
+  "alt": "Takes Gemelli with both hands.",
+  "neu": "Takes Gemelli, Holm's double rifle, with both hands.",
+  "grund": "Name fällt vorher in keiner Szene der Kette"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_holm.py",
+  "id": "hb_g_holm",
+  "feld": "lage",
+  "alt": "She has Gemelli's cartridges lined up",
+  "neu": "She has the cartridges for Gemelli, her double rifle, lined up",
+  "grund": "wie oben, falls hb_sieg lange her ist"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_holm.py",
+  "id": "hb_g_adrien",
+  "feld": "lage",
+  "alt": "Adrien has come down from the bergerie",
+  "neu": "Adrien, the soldier Wolff wrote down as dead, has come down from the bergerie",
+  "grund": "Nur diese Zeile erklärt \"A Dead Man's Evening Off\"; Weg C liegt lange zurück"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_holm.py",
+  "id": "hb_g_wolff",
+  "feld": "lage",
+  "alt": "Sergent Wolff comes up the gangway",
+  "neu": "Sergent Wolff, the Legion man from the Genoese tower, comes up the gangway",
+  "grund": "Turm kann eine Woche her sein; stimmt auch ohne Besuch"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_holm.py",
+  "id": "hb_g_rosi",
+  "feld": "zeile",
+  "alt": "Deal. And it goes on the whiteboard, Officer.",
+  "neu": "Deal. And it goes on the whiteboard in my workshop, Officer.",
+  "grund": "Whiteboard-Wettstreit ist optional und alt"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_ligeia.py",
+  "id": "lg_polaroid",
+  "feld": "lage",
+  "alt": "lies the woman from the pool,",
+  "neu": "lies the woman from the black pool in the grotto,",
+  "grund": "Figur war bis jetzt nur in der Flut-Nacht zu sehen"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_red_trio.py",
+  "id": "rt_elsa_drei",
+  "feld": "zeile",
+  "alt": "Three signed statements, with names and dates.",
+  "neu": "Three signed statements from Danzel, Bibi and Charly, with names and dates.",
+  "grund": "wessen Aussagen, steht jetzt dabei"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_red_trio.py",
+  "id": "rt_elsa_eine",
+  "feld": "zeile",
+  "alt": "What happened up there?",
+  "neu": "What happened up at Nonna Fiora's table?",
+  "grund": "\"up there\" ohne Ort; Elsa kam am Morgen wegen des Lärms hoch"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_red_trio.py",
+  "id": "rt_mochis_auf",
+  "feld": "lage",
+  "alt": "Above the bay there is an old sheep pen with half a roof.",
+  "neu": "Above the bay there is an old sheep pen with half a roof, and Bibi has taken it for the animals from the lab.",
+  "grund": "Lage sagt nicht, wessen Ort das ist (gilt auch für rt_mochis_auf_ohne, gemeinsamer Text)"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_red_trio.py",
+  "id": "rt_danzel_mass_3",
+  "feld": "lage",
+  "alt": "The room on the piazza still smells of old paint,",
+  "neu": "The room on the piazza, Danzel's new shop, still smells of old paint,",
+  "grund": "Laden fiel nur einmal in rt_was_nun (gemeinsamer Text für _1 bis _3)"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_red_trio.py",
+  "id": "rt_danzel_mass_3",
+  "feld": "zeile",
+  "alt": "I'm making you a second one. The first was only a prototype.",
+  "neu": "I'm making you a second jacket. The first, the burgundy one, was only a prototype.",
+  "grund": "\"second one\" ohne Bezug"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_red_trio.py",
+  "id": "rt_charly_spiel_3",
+  "feld": "lage",
+  "alt": "Charly has run a cable from her phone to an old television on a fish crate.",
+  "neu": "Charly has run a cable from her phone to an old television on a fish crate, and the game she makes at night is on it.",
+  "grund": "Spiel kam nur in Charlys Szene am Mast vor (gemeinsamer Text für _1 bis _3)"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_red_trio.py",
+  "id": "rt_charly_spiel_1",
+  "feld": "zeile",
+  "alt": "You told them about March. Four out of ten.",
+  "neu": "Four out of ten. For you. You know why.",
+  "grund": "Stufe 1 hängt nicht am März-Flag: alter Satz konnte falsch sein, neuer stimmt immer"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_red_trio.py",
+  "id": "rt_bibi_frischlinge_3",
+  "feld": "lage",
+  "alt": "Early at the pen.",
+  "neu": "Early at Mochi's, Bibi's old sheep pen.",
+  "grund": "\"the pen\" ohne Bezug (gemeinsamer Text für _1 bis _3)"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_red_trio.py",
+  "id": "rt_bibi_frischlinge_3",
+  "feld": "zeile",
+  "alt": "Nobody has a number on them. I checked.",
+  "neu": "Nobody has a lab number on them. I checked.",
+  "grund": "Nummern der Tiere aus der Schlucht-Szene"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_red_trio.py",
+  "id": "rt_karte_bibi",
+  "feld": "lage",
+  "alt": "Giraffes, and very fast handwriting.",
+  "neu": "Giraffes, and very fast handwriting. It must be from Bibi, the woman in red who looked after the lion.",
+  "grund": "Absenderin ungenannt; stimmt mit und ohne Bibis Abschiedssatz"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_red_trio.py",
+  "id": "rt_karte_charly",
+  "feld": "lage",
+  "alt": "It has no sender, and the statue on the front is very ugly.",
+  "neu": "It has no sender, and the statue on the front is very ugly. On the back it only says “2/10”, the way Charly rates everything.",
+  "grund": "Ohne Hinweis bleibt die Karte ein Rätsel"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_red_trio.py",
+  "id": "rt_karte_danzel",
+  "feld": "lage",
+  "alt": "There is no text on it.",
+  "neu": "There is no text on it, only the collar of a jacket in careful pencil, like the note Danzel left in yours.",
+  "grund": "Bezug auf den Zettel aus Incendio"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_dorf.py",
+  "id": "g1_zg_zitronengras",
+  "feld": "lage",
+  "alt": "spoon in one hand and a green stalk in the other.",
+  "neu": "spoon in one hand and a green stalk in the other. It is the lemongrass you planted.",
+  "grund": "Pflanzen auf der Farm ist Mechanik, die Szene setzt es ohne Erklärung voraus"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_schneider.py",
+  "id": "sn_jumper",
+  "feld": "zeile",
+  "alt": "Hm. [sigh] Marie knitted it.",
+  "neu": "Hm. [sigh] My Marie knitted it.",
+  "grund": "Petrus Frau, oft Tage nicht erwähnt; Turbo-Tag bleibt"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_schneider.py",
+  "id": "sn_apron",
+  "feld": "option",
+  "alt": "\"Takes the money.\", \"Takes a bowl of soup instead.\"",
+  "neu": "\"Takes his pay for the job.\", \"Takes a bowl of soup instead.\"",
+  "grund": "Chip setzt voraus, dass man den Auftrag noch kennt; alt enthält beide Chips, weil \"Takes the money.\" mehrfach vorkommt"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_schneider.py",
+  "id": "sn_strap",
+  "feld": "option",
+  "alt": "\"Takes the money.\", \"Tells her the first letter is free.\"",
+  "neu": "\"Takes his pay for the job.\", \"Tells her the first letter is free.\"",
+  "grund": "wie sn_apron"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_kloster.py",
+  "id": "kl_casanova_auftrag",
+  "feld": "zeile",
+  "alt": "You saw the goat, didn't you? With the light.",
+  "neu": "You saw that goat at the harbour, didn't you? With the blinking light on her collar.",
+  "grund": "Ziege aus dem Hafen-Ende, liegt mindestens sieben Tage zurück"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_dorf.py",
+  "id": "kv_don",
+  "feld": "option",
+  "alt": "“So you're the one who rang the bell so badly on the day of the boar.”",
+  "neu": "“So you're the one who rang the bell so badly, the day that boar came onto the piazza.”",
+  "grund": "Antwort-Chip braucht den Hafenkampf"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_red_trio.py",
+  "id": "rt_t_d1_brief",
+  "feld": "option",
+  "alt": "Puts Danzel's letter on the table.",
+  "neu": "Puts Danzel's letter on the table, the resignation he never sent.",
+  "grund": "Kette läuft über mehrere Szenen; Chip sagt jetzt, was der Brief ist"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_red_trio.py",
+  "id": "rt_t_c1_spiel",
+  "feld": "option",
+  "alt": "“Charly. Show her your phone.”",
+  "neu": "“Charly. Show her the game on your phone.”",
+  "grund": "Chip ohne Erinnerung an die Mast-Szene unverständlich"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_red_trio.py",
+  "id": "rt_t_b_wahrheit",
+  "feld": "option",
+  "alt": "“She went looking for him when nobody else did.”",
+  "neu": "“She went looking for Mochi when nobody else did.”",
+  "grund": "\"him\" klar machen"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_red_trio.py",
+  "id": "rt_t_b_notizbuch",
+  "feld": "option",
+  "alt": "Puts her notebook on the table.",
+  "neu": "Puts Bibi's notebook on the table.",
+  "grund": "Rückbezug auf rt_weg_bibi_buch"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_red_trio.py",
+  "id": "rt_t_ziege",
+  "feld": "lage",
+  "alt": "She takes a little wooden goat out of her apron",
+  "neu": "She takes one of the little wooden animals Frederico carves, a goat, out of her apron",
+  "grund": "Ziege trägt sonst keine Bedeutung; stimmt, ob Frederico lebt oder nicht"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_red_trio.py",
+  "id": "rt_tisch",
+  "feld": "zeile",
+  "alt": "Ambrosius always baked his bread too dark. Brother Teo said",
+  "neu": "Brother Ambrosius always baked his bread too dark. Brother Teo said",
+  "grund": "Kloster kann Tage her sein"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_red_trio.py",
+  "id": "rt_lager",
+  "feld": "zeile",
+  "alt": "Gennaro isn't coming.",
+  "neu": "Totò's cousin Gennaro isn't coming.",
+  "grund": "Bezug auf den Zettel in der Felsnische"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_red_trio.py",
+  "id": "rt_platte_truhe",
+  "feld": "lage",
+  "alt": "You tell him where the plate is.",
+  "neu": "You tell him where the steel plate from the rock niche is.",
+  "grund": "Fund liegt vor mehreren Szenen und Tagen"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_red_trio.py",
+  "id": "rt_platte_verbaut",
+  "feld": "lage",
+  "alt": "and stares at the lining of your jacket as if",
+  "neu": "and stares at the lining of your jacket, where the steel plate from the rock niche now sits, as if",
+  "grund": "wie oben, Rosis Einbau ist Werkstatt-Mechanik"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_berge.py",
+  "id": "bg_petru_auftrag",
+  "feld": "zeile",
+  "alt": "Not since Marie.",
+  "neu": "Not since Marie died.",
+  "grund": "nackter Name, kein Bezug auf ihre Szene nötig"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_berge.py",
+  "id": "bg_turm_capra",
+  "feld": "lage",
+  "alt": "Capra trots past you,",
+  "neu": "Capra, the goat with the collar, trots past you,",
+  "grund": "Name und Ziege aus der Kloster-Kette, lange her"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_berge.py",
+  "id": "bg_abend_duo_baer",
+  "feld": "lage",
+  "alt": "Old Grey looks at you once.",
+  "neu": "Old Grey, the bear you cut the chip out of, looks at you once.",
+  "grund": "Bär aus der Nebenmission, Flag bg_baer_frei sicher (gemeinsamer Text für duo, trio, solo)"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_berge.py",
+  "id": "bg_drei_wege_petru",
+  "feld": "zeile",
+  "alt": "The Mazzera dreamed you.",
+  "neu": "Old Dumenica, the Mazzera, dreamed you.",
+  "grund": "Titel \"Mazzera\" ohne Erinnerung unklar; Traum aus bg_u2_huette"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_berge.py",
+  "id": "bg_weg_c_hart",
+  "feld": "zeile",
+  "alt": "Of course, Sergent, you said.",
+  "neu": "Of course, Sergent, you said to me at the tower.",
+  "grund": "Antwort aus dem Verhör am Turm, Mission kann Tage her sein"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_berge.py",
+  "id": "bg_u1_wieder_tot",
+  "feld": "lage",
+  "alt": "You go back to the den once more.",
+  "neu": "You go back to Old Grey's den once more.",
+  "grund": "Rückkehr nach längerer Zeit"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_berge.py",
+  "id": "bg_u1_wieder_leer",
+  "feld": "lage",
+  "alt": "The fold is empty.",
+  "neu": "Ghjuvan's fold is empty.",
+  "grund": "Rückkehr nach längerer Zeit"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_berge.py",
+  "id": "bg_u2_start",
+  "feld": "zeile",
+  "alt": "I dreamed it again. Closer.",
+  "neu": "I dreamed the black beast again. Closer.",
+  "grund": "\"it\" setzt die Hütte-Szene voraus"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_berge.py",
+  "id": "bg_b_postkarte",
+  "feld": "zeile",
+  "alt": "From our two runaways, Comandante.",
+  "neu": "From our two runaways, Comandante, Laetitia and her soldier.",
+  "grund": "Flucht liegt mindestens drei Tage zurück"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_berge.py",
+  "id": "bg_b_versoehnung",
+  "feld": "lage",
+  "alt": "You put the postcard on the workbench,",
+  "neu": "You put Laetitia's postcard on the workbench,",
+  "grund": "kann Tage nach der Karte kommen"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_berge.py",
+  "id": "hy_ghjuvan_tot",
+  "feld": "zeile",
+  "alt": "The bear came down in the night with her young.",
+  "neu": "The bear you let live came down in the night with her young.",
+  "grund": "Antwort “That's on me” braucht diese Erinnerung"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_grotte.py",
+  "id": "hy_matteu",
+  "feld": "zeile",
+  "alt": "Your little diver is here.",
+  "neu": "Your little diver from the grotto is here.",
+  "grund": "Anruf kommt Tage nach der Grotte"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_grotte.py",
+  "id": "gr_start",
+  "feld": "zeile",
+  "alt": "Gennaro went in on Thursday.",
+  "neu": "My cousin Gennaro went in on Thursday.",
+  "grund": "Mission kann bis Tag 21 warten, Beichte war Tag 11"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_grotte.py",
+  "id": "fn_teich",
+  "feld": "lage",
+  "alt": "The humming you heard last ",
+  "neu": "The humming you heard at low tide the first ",
+  "grund": "\"last time\"; gr_teich liegt auf dem festen Weg der Grotte"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_grotte.py",
+  "id": "fn_galerie",
+  "feld": "lage",
+  "alt": "The forbidden gallery is a canal now.",
+  "neu": "The gallery behind the black pool is a canal now.",
+  "grund": "\"forbidden\" kam nur in einer Antwort von Matteu vor"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_legenden.py",
+  "id": "leg_hafen_elsa",
+  "feld": "zeile",
+  "alt": "For my report about the harbour.",
+  "neu": "For my report about the animals in the harbour.",
+  "grund": "Nachricht bis Tag 20 möglich"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_ligeia.py",
+  "id": "lg_perle",
+  "feld": "zeile",
+  "alt": "The night the ship went down,",
+  "neu": "The night that old sailing ship went down,",
+  "grund": "Schiff aus fn_perle, vorher genannt"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/ereignisse_ligeia.py",
+  "id": "lg_petru_1924",
+  "feld": "zeile",
+  "alt": "the night the Margot sank.",
+  "neu": "the night that old ship, the Margot, sank.",
+  "grund": "Verbindet den Namen mit Ligeias Geschichte"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/auftraege_eden_rise.py",
+  "alt": "\"You told Matteu the truth.\"",
+  "neu": "\"You told Matteu someone locked him in.\"",
+  "grund": "klar"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/auftraege_eden_rise.py",
+  "alt": "\"You told Matteu it was quick.\"",
+  "neu": "\"You told Matteu he drowned and it was quick.\"",
+  "grund": "klar"
+ },
+ {
+  "datei": "werkzeuge/eden_rise/auftraege_eden_rise.py",
+  "alt": "She asked you to come by once the harbour was cleaned up.",
+  "neu": "Madame Casanova asked you to come by once the harbour was cleaned up.",
+  "grund": "Name"
+ }
+]

@@ -1,0 +1,295 @@
+{
+ "id": "siri_alva",
+ "titel": "Siri und Alva: Posen im breiten Format",
+ "hinweis": "Gleiche LoRAs, ohne Krea_Nsfw2. 1:1 zweimal, quer einmal. Daneben das aktuelle Bild. Je Pose eine auf OK.",
+ "items": [
+  {
+   "id": "Siri_annoyance-1__q11_a",
+   "titel": "Siri · annoyance-1 · q11_a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Siri\\annoyance-1__q11_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\annoyance-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Siri_annoyance-1__q11_b",
+   "titel": "Siri · annoyance-1 · q11_b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Siri\\annoyance-1__q11_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\annoyance-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Siri_annoyance-1__quer_c",
+   "titel": "Siri · annoyance-1 · quer_c",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Siri\\annoyance-1__quer_c.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\annoyance-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Siri_caring__q11_a",
+   "titel": "Siri · caring · q11_a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Siri\\caring__q11_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\caring.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Siri_caring__q11_b",
+   "titel": "Siri · caring · q11_b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Siri\\caring__q11_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\caring.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Siri_caring__quer_c",
+   "titel": "Siri · caring · quer_c",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Siri\\caring__quer_c.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\caring.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Siri_disappointment__q11_a",
+   "titel": "Siri · disappointment · q11_a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Siri\\disappointment__q11_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\disappointment.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Siri_disappointment__q11_b",
+   "titel": "Siri · disappointment · q11_b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Siri\\disappointment__q11_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\disappointment.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Siri_disappointment__quer_c",
+   "titel": "Siri · disappointment · quer_c",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Siri\\disappointment__quer_c.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\disappointment.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Siri_joy-1__q11_a",
+   "titel": "Siri · joy-1 · q11_a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Siri\\joy-1__q11_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\joy-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Siri_joy-1__q11_b",
+   "titel": "Siri · joy-1 · q11_b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Siri\\joy-1__q11_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\joy-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Siri_joy-1__quer_c",
+   "titel": "Siri · joy-1 · quer_c",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Siri\\joy-1__quer_c.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\joy-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Siri_optimism-1__q11_a",
+   "titel": "Siri · optimism-1 · q11_a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Siri\\optimism-1__q11_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\optimism-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Siri_optimism-1__q11_b",
+   "titel": "Siri · optimism-1 · q11_b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Siri\\optimism-1__q11_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\optimism-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Siri_optimism-1__quer_c",
+   "titel": "Siri · optimism-1 · quer_c",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Siri\\optimism-1__quer_c.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\optimism-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_caring__q11_a",
+   "titel": "Alva · caring · q11_a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\caring__q11_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\caring.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_caring__q11_b",
+   "titel": "Alva · caring · q11_b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\caring__q11_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\caring.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_caring__quer_c",
+   "titel": "Alva · caring · quer_c",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\caring__quer_c.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\caring.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_confusion__q11_a",
+   "titel": "Alva · confusion · q11_a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\confusion__q11_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\confusion.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_confusion__q11_b",
+   "titel": "Alva · confusion · q11_b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\confusion__q11_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\confusion.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_confusion__quer_c",
+   "titel": "Alva · confusion · quer_c",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\confusion__quer_c.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\confusion.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_disappointment__q11_a",
+   "titel": "Alva · disappointment · q11_a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\disappointment__q11_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\disappointment.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_disappointment__q11_b",
+   "titel": "Alva · disappointment · q11_b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\disappointment__q11_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\disappointment.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_disappointment__quer_c",
+   "titel": "Alva · disappointment · quer_c",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\disappointment__quer_c.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\disappointment.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_joy-2__q11_a",
+   "titel": "Alva · joy-2 · q11_a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\joy-2__q11_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\joy-2.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_joy-2__q11_b",
+   "titel": "Alva · joy-2 · q11_b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\joy-2__q11_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\joy-2.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_joy-2__quer_c",
+   "titel": "Alva · joy-2 · quer_c",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\joy-2__quer_c.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\joy-2.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_optimism-1__q11_a",
+   "titel": "Alva · optimism-1 · q11_a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\optimism-1__q11_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\optimism-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_optimism-1__q11_b",
+   "titel": "Alva · optimism-1 · q11_b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\optimism-1__q11_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\optimism-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_optimism-1__quer_c",
+   "titel": "Alva · optimism-1 · quer_c",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\optimism-1__quer_c.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\optimism-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_relief-1__q11_a",
+   "titel": "Alva · relief-1 · q11_a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\relief-1__q11_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\relief-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_relief-1__q11_b",
+   "titel": "Alva · relief-1 · q11_b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\relief-1__q11_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\relief-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_relief-1__quer_c",
+   "titel": "Alva · relief-1 · quer_c",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\relief-1__quer_c.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\relief-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_relief__q11_a",
+   "titel": "Alva · relief · q11_a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\relief__q11_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\relief.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_relief__q11_b",
+   "titel": "Alva · relief · q11_b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\relief__q11_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\relief.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_relief__quer_c",
+   "titel": "Alva · relief · quer_c",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\relief__quer_c.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\relief.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "Arme und Hände im Bild, Haltung passt, Hautton wie im Set. Je Pose eine auf OK."
+  }
+ ]
+}

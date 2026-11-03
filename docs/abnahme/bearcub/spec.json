@@ -1,0 +1,87 @@
+{
+ "id": "bearcub_posen",
+ "titel": "BearCub – 10 neue Kampf-Posen",
+ "hinweis": "Gleicher Stil und Maßstab wie idle, Blick nach links. guard, defeated, weakened und heavy_attack sind neu gerendert (daneben der verworfene erste Versuch). OK oder Neu mit Wunsch.",
+ "items": [
+  {
+   "id": "windup",
+   "titel": "BearCub · windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BearCub\\windup.png",
+   "soll": "crouched, one paw drawn back, ready to swat left",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BearCub\\idle.png",
+   "vergleich_titel": "idle (vorhanden)"
+  },
+  {
+   "id": "attack",
+   "titel": "BearCub · attack",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BearCub\\attack.png",
+   "soll": "paw swiping left, claws out, small growl",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BearCub\\idle.png",
+   "vergleich_titel": "idle (vorhanden)"
+  },
+  {
+   "id": "guard",
+   "titel": "BearCub · guard (neu gerendert)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_kampf_t2i\\BearCub\\guard.png",
+   "soll": "defensive, wary, empty paws",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BearCub\\guard.png",
+   "vergleich_titel": "erster Versuch (verworfen)"
+  },
+  {
+   "id": "surrender",
+   "titel": "BearCub · surrender",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BearCub\\surrender.png",
+   "soll": "giving up, small and scared",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BearCub\\idle.png",
+   "vergleich_titel": "idle (vorhanden)"
+  },
+  {
+   "id": "heavy_windup",
+   "titel": "BearCub · heavy_windup",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BearCub\\heavy_windup.png",
+   "soll": "rearing up on hind legs to look big",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BearCub\\idle.png",
+   "vergleich_titel": "idle (vorhanden)"
+  },
+  {
+   "id": "heavy_attack",
+   "titel": "BearCub · heavy_attack (neu gerendert)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_kampf_t2i\\BearCub\\heavy_attack.png",
+   "soll": "clumsy leap left, both paws forward, bluff roar",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BearCub\\heavy_attack.png",
+   "vergleich_titel": "erster Versuch (verworfen)"
+  },
+  {
+   "id": "weakened",
+   "titel": "BearCub · weakened (neu gerendert)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_kampf_t2i\\BearCub\\weakened.png",
+   "soll": "worn out, sitting, head drooping",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BearCub\\weakened.png",
+   "vergleich_titel": "erster Versuch (verworfen)"
+  },
+  {
+   "id": "enraged",
+   "titel": "BearCub · enraged",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BearCub\\enraged.png",
+   "soll": "angry but still a cub",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BearCub\\idle.png",
+   "vergleich_titel": "idle (vorhanden)"
+  },
+  {
+   "id": "victory",
+   "titel": "BearCub · victory",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BearCub\\victory.png",
+   "soll": "proud little bear",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BearCub\\idle.png",
+   "vergleich_titel": "idle (vorhanden)"
+  },
+  {
+   "id": "defeated",
+   "titel": "BearCub · defeated (neu gerendert)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_kampf_t2i\\BearCub\\defeated.png",
+   "soll": "one cub lying on its belly, beaten (not dead)",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\combat\\BearCub\\defeated.png",
+   "vergleich_titel": "erster Versuch (verworfen)"
+  }
+ ]
+}

@@ -1,0 +1,1462 @@
+{
+ "id": "dorf_woche2_texte",
+ "titel": "Dorf-Figuren · Phase 3: Bà Tư, Sandru, Pfarrer in Woche 2",
+ "hinweis": "Noch nichts ist gebaut oder vertont. Pro Text OK oder Ändern mit Notiz, „Restliche OK“ für den Rest. Wörter in [eckigen Klammern] hört man nur in der Stimme, im Spiel sieht man sie nicht. Bà Tư spricht mit eigenem Satzbau, nie als Witz. Reihenfolge in Woche 2: Tag 9 Bà Tư, Tag 10 das Schild, Tag 13 die Tafel, Tag 14 die Messe. Die Totenfeier folgt immer direkt auf das Ende des Klosters.",
+ "gruppen": [
+  {
+   "titel": "g1_batu_intro · You, Later (Tag 9 nachmittags)",
+   "items": [
+    {
+     "key": "g1_batu_intro#0",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "Lola has been talking about this shop for ten minutes and she still can't find the door. It is behind the harbour, down an alley that smells of drying nets. Inside there are too many shelves for the room: rice, noodles, tins, a wall of amber bottles, a small Virgin Mary with a fresh flower in front of her. At the back a very small old woman in a silk blouse stands over a very big pot. She looks at Lola. Then she looks at you, for a long time. Then she picks up a bowl.",
+     "vertont": false,
+     "notiz": "Bà Tưs erster Auftritt. Sie ist die Erste auf der Insel, die Ducs Herkunft erkennt, und sie fragt nicht nach dem Krieg. Chip 2 ist Vietnamesisch, die Stimme liest nur ihre Antwort. Öffnet ihren Laden."
+    },
+    {
+     "key": "g1_batu_intro#1",
+     "wer": "Lola",
+     "gefuehl": "joy",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Auntie! This is my boss, the one from the quay, he cooks too, properly, I told you! [laugh] I just need two bottles of the good fish sauce, and then I'll get out of your way.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_batu_intro#2",
+     "wer": "Bà Tư",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "You, later.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_batu_intro#3",
+     "wer": "Bà Tư",
+     "gefuehl": "caring",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Him, now. [clear throat] Sit. Ăn đi. Eat. You are too thin, con. Who let you go out like this?",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_batu_intro#4",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Takes one bite before he says anything. It's thịt kho, and it tastes like the kitchen at home. “My parents left after the war. Germany, in the end.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_batu_intro#5",
+     "wer": "Bà Tư",
+     "gefuehl": "caring",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[sigh] Germany. Cold. Good schools. She did well, your mother. Eat, there is more egg.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_batu_intro#6",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Says it in Vietnamese, badly. “Dạ. Con cảm ơn bà.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_batu_intro#7",
+     "wer": "Bà Tư",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[chuckle] This accent. Your mother should be ashamed. Say it again, slowly, and then you can have more.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_batu_intro#8",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Looks into the pot. “You put a little too much sugar in the caramel.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_batu_intro#9",
+     "wer": "Bà Tư",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[laugh] Too much, he says. Sixty years, too much. Good. Now you sit, you tell me how much is right, and then I tell you why you are wrong.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_batu_intro#10",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "“I'm fine, thank you. I already ate on the boat.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_batu_intro#11",
+     "wer": "Bà Tư",
+     "gefuehl": "disapproval",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "On the boat. [sigh] That is not eating. That is fuel. Sit.",
+     "vertont": true,
+     "notiz": ""
+    }
+   ]
+  },
+  {
+   "titel": "batu_laden · Bà Tư's Shop (Laden-Sätze)",
+   "items": [
+    {
+     "key": "batu_laden#0",
+     "wer": "Bà Tư",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[clear throat] You again. Good. You are still too thin.",
+     "vertont": true,
+     "notiz": "Hält den Laden lebendig. Drei Stufen wie bei Alva. Waren: Fischsauce (neu), Reis, Nudeln, Sojasauce, Chili. Effekt der Fischsauce kläre ich mit Items."
+    },
+    {
+     "key": "batu_laden#1",
+     "wer": "Bà Tư",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Look, don't touch. [sigh] Touch means buy.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "batu_laden#2",
+     "wer": "Bà Tư",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Prices are prices. [chuckle] I don't give a discount for handsome.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "batu_laden#3",
+     "wer": "Bà Tư",
+     "gefuehl": "caring",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Con. You ate today? [clear throat] Don't lie, I can see.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "batu_laden#4",
+     "wer": "Bà Tư",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[chuckle] For you I kept the good bottle. It costs the same.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "batu_laden#5",
+     "wer": "Bà Tư",
+     "gefuehl": "caring",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[chuckle] Con. Sit first. Buying is after.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "batu_laden#6",
+     "wer": "Bà Tư",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[sniff] Your mother called me? No. But she would.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "batu_laden#7",
+     "wer": "Bà Tư",
+     "gefuehl": "approval",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[clear throat] Correct money. Good boy.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "batu_laden#8",
+     "wer": "Bà Tư",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "This one you cook slowly. [chuckle] Not like the Italians.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "batu_laden#9",
+     "wer": "Bà Tư",
+     "gefuehl": "disappointment",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[sigh] No money, no sauce. Soup I give you for free. Soup is different.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "batu_laden#10",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Item-Text",
+     "alt": "",
+     "neu": "Fish Sauce: Amber, salty, and a smell that gets into your shirt and stays until Christmas. It comes from a cousin in Marseille, and she won't say which cousin. Everybody says it stinks. Everybody comes back.",
+     "vertont": false,
+     "notiz": ""
+    }
+   ]
+  },
+  {
+   "titel": "g1_batu_mutter · Have You Called Your Mother? (Tag 10–14)",
+   "items": [
+    {
+     "key": "g1_batu_mutter#0",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "You only came in for rice. She puts the rice on the counter and keeps her hand on it.",
+     "vertont": false,
+     "notiz": "Die kleine Szene, die du wolltest. Wirkung: Moral +1, Vertrauen."
+    },
+    {
+     "key": "g1_batu_mutter#1",
+     "wer": "Bà Tư",
+     "gefuehl": "disapproval",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "When did you call your mother? [clear throat] I'm not asking when she called you. A mother always calls. I'm asking when you called.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_batu_mutter#2",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Takes out his phone and rings home, right there at the counter. “Mẹ? It's me. No, nothing's wrong.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_batu_mutter#3",
+     "wer": "Bà Tư",
+     "gefuehl": "caring",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[sniff] Good. Now you can have the rice. Tell her you are eating. Don't tell her what.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_batu_mutter#4",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "“Last week, I think.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_batu_mutter#5",
+     "wer": "Bà Tư",
+     "gefuehl": "disapproval",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "You think. [sigh] She knows exactly. To the day, she knows. The rice stays here until you know too.",
+     "vertont": true,
+     "notiz": ""
+    }
+   ]
+  },
+  {
+   "titel": "g1_sandru_logo · The New Sign (Tag 10 tagsüber)",
+   "items": [
+    {
+     "key": "g1_sandru_logo#0",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "The whole village is standing in the street, and nobody is going in. Over the door of the old shop house opposite Alva's bar hangs a new sign, cold and white even in the sun. You know that logo. You held it in your hand yesterday, on a small black part from your generator. Across the street Alva stands in her doorway with a cloth in her hand, not wiping anything. In the middle of it all a thin young man in a white polo shirt is giving out coupons.",
+     "vertont": false,
+     "notiz": "Einen Tag nach Megans Anruf hängt das Logo vom Bauteil im Dorf. Sandrus Auftritt: Er lacht vor jedem Satz. Chip 3 setzt die Spur für Rosi (das Surren)."
+    },
+    {
+     "key": "g1_sandru_logo#1",
+     "wer": "Sandru",
+     "gefuehl": "nervousness",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[laugh] Free coffee! Opening day, the first one is free, it's really free, you only need the app. No, there's no app yet. Ha. Just take one.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_sandru_logo#2",
+     "wer": "Elsa",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Alex. [chuckle] It says Alex on your chest. Sandru, I have known you since you were eating sand. Who is Alex?",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_sandru_logo#3",
+     "wer": "Sandru",
+     "gefuehl": "embarrassment",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[laugh] It's for the system, Elsa. The system didn't like the other one.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_sandru_logo#4",
+     "wer": "Sandru",
+     "gefuehl": "nervousness",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[laugh] You're the one from the quay. Hi. Alex. Sandru. Either is fine, really. Coffee?",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_sandru_logo#5",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Takes a coupon and looks up at the logo. “Who owns this place?”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_sandru_logo#6",
+     "wer": "Sandru",
+     "gefuehl": "nervousness",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[laugh] A company in Monaco. They send the prices, and I put them on the shelves. I've never actually met anyone. That's normal, I think?",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_sandru_logo#7",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Looks across the street at Alva. “She doesn't look happy.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_sandru_logo#8",
+     "wer": "Sandru",
+     "gefuehl": "sadness",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[sigh] No. It was her mother's house. Sorry, it is her mother's house. I know exactly whose house it is, I carried crates in here when I was twelve.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_sandru_logo#9",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Hears something small when he steps closer, a thin electric hum. “What's that noise?”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_sandru_logo#10",
+     "wer": "Sandru",
+     "gefuehl": "fear",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[clear throat] Nothing. New shoes.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_sandru_logo#11",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Gives the coupon back. “Not today.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_sandru_logo#12",
+     "wer": "Sandru",
+     "gefuehl": "sadness",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[laugh] That's okay. Nobody today, so far. You're in very good company.",
+     "vertont": true,
+     "notiz": ""
+    }
+   ]
+  },
+  {
+   "titel": "g1_sandru_tafel · The Chalkboard (ernst, Tag 13 abends)",
+   "items": [
+    {
+     "key": "g1_sandru_tafel#0",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "The bar goes quiet when he comes in, the way a bar does. Sandru is still wearing the white shirt, and he walks to the counter carefully, listening to his own legs. Behind Alva hangs her father's chalkboard, with the whole village on it and what each of them orders. His name is still there, low down, in an old man's handwriting. Sandru: orangeade.",
+     "vertont": false,
+     "notiz": "Deine ernste Sandru-Szene. Sie gibt ihm Orangeade statt Grappa. Der Satz „since he was eleven“ ist alles, was Alva je darüber sagt."
+    },
+    {
+     "key": "g1_sandru_tafel#1",
+     "wer": "Sandru",
+     "gefuehl": "nervousness",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[clear throat] A grappa, please, Alva.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_sandru_tafel#2",
+     "wer": "Alva",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "We're out.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_sandru_tafel#3",
+     "wer": "Sandru",
+     "gefuehl": "sadness",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "You are holding the bottle.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_sandru_tafel#4",
+     "wer": "Alva",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "I know what I'm holding. [sigh] Here.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_sandru_tafel#5",
+     "wer": "Sandru",
+     "gefuehl": "sadness",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "I'm thirty, Alva.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_sandru_tafel#6",
+     "wer": "Alva",
+     "gefuehl": "sadness",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "I know how old you are. I was there. [sigh] Take that thing off my mother's house, Sandru.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_sandru_tafel#7",
+     "wer": "Sandru",
+     "gefuehl": "sadness",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "You know I can't.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_sandru_tafel#8",
+     "wer": "Alva",
+     "gefuehl": "caring",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "I know. Drink your orangeade.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_sandru_tafel#9",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Sits down on the next stool. “I'll have what he's having.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_sandru_tafel#10",
+     "wer": "Alva",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[sigh] Two orangeades. God help this bar.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_sandru_tafel#11",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Stays at the counter with her. “He looks like he came to say something.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_sandru_tafel#12",
+     "wer": "Alva",
+     "gefuehl": "sadness",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "He did. [sigh] He has been coming to say it since he was eleven.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_sandru_tafel#13",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Puts money down for both glasses and leaves them to it.",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_sandru_tafel#14",
+     "wer": "Alva",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Take that back. [sniff] Papa never charged for that orangeade, and I'm not going to start.",
+     "vertont": true,
+     "notiz": ""
+    }
+   ]
+  },
+  {
+   "titel": "kl_totenfeier_lebt · The Long Table of Habits (wenn Frederico lebt, nach Le Large)",
+   "items": [
+    {
+     "key": "kl_totenfeier_lebt#0",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "Three days later they hold the service in the monastery garden. There is nothing to bury, so there is a row of folded habits on a long table, with a candle for each one. The deputy mayor arranged all of it: the candles, the chairs carried up the mountain, and the priest, who has shaved and is nearly standing straight. Pascal has taken off his hat. You have never seen him without it. Frederico holds a basket of bread, baked too dark on purpose.",
+     "vertont": false,
+     "notiz": "Direkt nach dem Kloster mit Zeitsprung, so ist sie garantiert. Auflagen von Story eingehalten: keine Särge, keine Toten. Pascal ohne Witz. Das schlechte Gewissen liest man erst beim zweiten Durchlauf. Don Anghjulu tritt hier oft zum ersten Mal auf, und zwar nüchtern. Die Post zahlt hier ein."
+    },
+    {
+     "key": "kl_totenfeier_lebt#1",
+     "wer": "Don Anghjulu",
+     "gefuehl": "sadness",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[clear throat] I did not come up. That is the first thing I have to say here, and I should say it before the other things.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "kl_totenfeier_lebt#2",
+     "wer": "Nonna",
+     "gefuehl": "disapproval",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "You're late, Anghjulu.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "kl_totenfeier_lebt#3",
+     "wer": "Don Anghjulu",
+     "gefuehl": "sadness",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[sigh] Yes, Fiora.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "kl_totenfeier_lebt#4",
+     "wer": "Nonna",
+     "gefuehl": "gratitude",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Pascal. The chairs, the candles. You paid for all of it, don't tell me you didn't. You are a good man.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "kl_totenfeier_lebt#5",
+     "wer": "Pascal",
+     "gefuehl": "sadness",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[sigh] No, no. Please, Madame. Leave it with me.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "kl_totenfeier_lebt#6",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Takes the rubber band off Mina's letters and lays each one on the habit it belongs to.",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "kl_totenfeier_lebt#7",
+     "wer": "Nonna",
+     "gefuehl": "grief",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Brother Teo's sister writes every month. She doesn't know yet. [sniff] I will write to her tonight.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "kl_totenfeier_lebt#8",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Keeps the letters in his jacket and gives them to Nonna afterwards, without a word.",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "kl_totenfeier_lebt#9",
+     "wer": "Nonna",
+     "gefuehl": "gratitude",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[sniff] Later, yes. You were brought up properly. Somebody should tell your mother.",
+     "vertont": true,
+     "notiz": ""
+    }
+   ]
+  },
+  {
+   "titel": "kl_totenfeier_tot · The Long Table of Habits (wenn Frederico tot ist)",
+   "items": [
+    {
+     "key": "kl_totenfeier_tot#0",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "Three days later they hold the service in the monastery garden. There is nothing to bury, so there is a row of folded habits on a long table, with a candle for each one. The deputy mayor arranged it all, and the priest has shaved. Nonna comes out last and sits at the back. At the end of the table, past the last habit, somebody has put a wooden goat. It has no candle.",
+     "vertont": false,
+     "notiz": "Zweite Fassung. Nonna hat die Tür geschlossen und kommt trotzdem. Pascal wusste nichts von dem Kind, das steht auch beim zweiten Durchlauf so."
+    },
+    {
+     "key": "kl_totenfeier_tot#1",
+     "wer": "Don Anghjulu",
+     "gefuehl": "sadness",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[clear throat] I did not come up. That is the first thing I have to say here, and I should say it before the other things.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "kl_totenfeier_tot#2",
+     "wer": "Nonna",
+     "gefuehl": "disapproval",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "You're late, Anghjulu.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "kl_totenfeier_tot#3",
+     "wer": "Don Anghjulu",
+     "gefuehl": "sadness",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[sigh] Yes, Fiora.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "kl_totenfeier_tot#4",
+     "wer": "Pascal",
+     "gefuehl": "sadness",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[sigh] Nobody told me there was a boy. I ordered for the brothers, I only ordered for the brothers. Please wait. I'll go down and get one more. It's an hour, please don't start without him.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "kl_totenfeier_tot#5",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Takes the rubber band off Mina's letters and lays each one on the habit it belongs to.",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "kl_totenfeier_tot#6",
+     "wer": "Isabelle",
+     "gefuehl": "grief",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[sniff] He used to run down to the bridge for these, so Mina wouldn't have to climb. He kept the stamps.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "kl_totenfeier_tot#7",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Gives the letters to Isabelle and waits with her for the candle.",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "kl_totenfeier_tot#8",
+     "wer": "Isabelle",
+     "gefuehl": "grief",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[sniff] Thank you. It's a long way down. He'll run. Look at him, he's already running.",
+     "vertont": true,
+     "notiz": ""
+    }
+   ]
+  },
+  {
+   "titel": "kl_mina_fragt · Did They Read Them? (nach der Totenfeier)",
+   "items": [
+    {
+     "key": "kl_mina_fragt#0",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "Mina is waiting at the bridge with the engine off. Nonna gave you something for her, in a napkin: a piece of chestnut cake. Mina breaks it in two and gives you the bigger half, and for a while nobody says anything.",
+     "vertont": false,
+     "notiz": "Ihr einziger ernster Moment. Die Kuchenzusage aus Akt 1 wird eingelöst. Stirbt Frederico, sagt sie die Zeile mit der Ernte und übernimmt seine Fahrt."
+    },
+    {
+     "key": "kl_mina_fragt#1",
+     "wer": "Mina",
+     "gefuehl": "sadness",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[sigh] So. Did they read them?",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "kl_mina_fragt#2",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "“No. I put them where they belonged.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "kl_mina_fragt#3",
+     "wer": "Mina",
+     "gefuehl": "sadness",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[sniff] Okay. That's okay. I'll go up on Thursday, same as always. There's still post for Nonna.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "kl_mina_fragt#4",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "“Some of them.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "kl_mina_fragt#5",
+     "wer": "Mina",
+     "gefuehl": "caring",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[sigh] You're a really bad liar, Yacht. [sniff] Thanks, though.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "kl_mina_fragt#6",
+     "wer": "Mina",
+     "gefuehl": "sadness",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "I'll do the harvest now, in the mornings. [sigh] Don't say anything, okay? Just don't say anything.",
+     "vertont": true,
+     "notiz": ""
+    }
+   ]
+  },
+  {
+   "titel": "kv_don · The Man at the Bottom (nach Kevins Dächern)",
+   "items": [
+    {
+     "key": "kv_don#0",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "At the bottom of the drainpipe a round, sun-browned man in a black cassock stands with his sleeves rolled up and a flask in his hand, looking up at the tower with deep satisfaction.",
+     "vertont": false,
+     "notiz": "Sein lustiger Auftritt. Wer die Totenfeier schon gesehen hat, erlebt ihn jetzt so, wie ihn das Dorf kennt, und merkt den Unterschied."
+    },
+    {
+     "key": "kv_don#1",
+     "wer": "Don Anghjulu",
+     "gefuehl": "joy",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "My son! [laugh] Fourteen years I fight that devil! I have tried prayer, a broom and one of Petru's nets. I have blessed him and I have cursed him, once with the same words. And you just went up there and screamed!",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "kv_don#2",
+     "wer": "Don Anghjulu",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Don Anghjulu. It isn't my name. My name is Padre Ângelo, but I came here from Portugal for one week, and this village doesn't give things back. [chuckle] God sees everything. Have a drink.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "kv_don#3",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Takes the flask. “Thank you, Father.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "kv_don#4",
+     "wer": "Don Anghjulu",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[chuckle] Careful, it's blessed. That's what I tell the Lieutenant, anyway.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "kv_don#5",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "“It's ten in the morning, Father.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "kv_don#6",
+     "wer": "Don Anghjulu",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[sigh] It is always ten in the morning somewhere, my son, and God is there too.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "kv_don#7",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "“So you're the one who rang the bell so badly on the day of the boar.”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "kv_don#8",
+     "wer": "Don Anghjulu",
+     "gefuehl": "embarrassment",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[cough] That was Pascal. I was praying. Very deeply. On my back.",
+     "vertont": true,
+     "notiz": ""
+    }
+   ]
+  },
+  {
+   "titel": "g1_messe · Sunday Mass (Tag 14 morgens, Pflicht)",
+   "items": [
+    {
+     "key": "g1_messe#0",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "Sunday. The bell rings in nearly the right rhythm. Everybody has come, because the church has a new roof and nobody wants to look as if they've noticed. Bà Tư sits in the first pew with a prayer book older than the building. Pascal goes along the rows with the collection plate and says every name. Sandru sits at the back near the door, where it's easier to stand up. Madame Casanova has a card up her sleeve. Alva hasn't come. Mina arrives during the first reading. You can hear the Vespa.",
+     "vertont": false,
+     "notiz": "Das ganze Dorf zum ersten Mal in einem Raum. Alles, was du angelegt hast, kommt hier zusammen. Der Toast am Abend bleibt."
+    },
+    {
+     "key": "g1_messe#1",
+     "wer": "Don Anghjulu",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "A man has come to this island with a lot of money, and he says he has brought the future. [clear throat] I have read about the future, brothers and sisters. It doesn't end well for the man with the money.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_messe#2",
+     "wer": "Bà Tư",
+     "gefuehl": "disapproval",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Vobiscum, Anghjulu. Vobiscum. [sigh] Sixty years I hear this, and nobody says it right.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_messe#3",
+     "wer": "Don Anghjulu",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[sigh] Thank you, Madame Tu. The Lord heard you. Everybody heard you.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_messe#4",
+     "wer": "Casanova",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[clear throat] If I may, Father, a small word from the municipality. And was that the blood of Christ I smelled at the door, or the good Patrimonio?",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_messe#5",
+     "wer": "Don Anghjulu",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[chuckle] Yes, Madame.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_messe#6",
+     "wer": "Pascal",
+     "gefuehl": "caring",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Good morning, Duc. [chuckle] No, put that away, you've done enough for this village. The roof is paid for, thank God. Don't ask me how, I only carry the plate.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_messe#7",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Puts a note on the plate anyway.",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_messe#8",
+     "wer": "Pascal",
+     "gefuehl": "gratitude",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[sigh] You see, this is what I mean. This is what I tell them about you.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_messe#9",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Looks up at the pale new beams. “Who did pay for it?”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_messe#10",
+     "wer": "Don Anghjulu",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "The Lord provides, my son. [chuckle] I don't ask which account.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "g1_messe#11",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Turns round to look at all the faces.",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "g1_messe#12",
+     "wer": "Bà Tư",
+     "gefuehl": "disapproval",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Eyes front, con. [clear throat] God is not back there.",
+     "vertont": true,
+     "notiz": ""
+    }
+   ]
+  },
+  {
+   "titel": "Vorbeigehen · Das Dorf lebt ohne dich (kleine Szenen, Zufall, Woche 2)",
+   "items": [
+    {
+     "key": "Vorbeigehen#0",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "Bread Under Review: Elsa stands at the door of the A.V. Market with a loaf under her arm and her notebook open.",
+     "vertont": false,
+     "notiz": "Sieben kleine Szenen ohne große Folgen. Das Spiel verlangt mindestens zwei Antworten, also gibt es immer „Walks on“ und einen kleinen Kommentar. Wirken nur als Dorf-Leben."
+    },
+    {
+     "key": "Vorbeigehen#1",
+     "wer": "Elsa",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "That's bribery, Sandru.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#2",
+     "wer": "Sandru",
+     "gefuehl": "joy",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[laugh] It's bread, Elsa.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#3",
+     "wer": "Elsa",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[clear throat] Figs are fine. Bread is under review.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#4",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "“What's the verdict, Lieutenant?”",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#5",
+     "wer": "Elsa",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Still warm. [chuckle] The investigation continues.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#6",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "Such a Pretty Girl: Elsa puts a coin on Bà Tư's counter as a tip. A small hand comes across the counter and takes her by the cheek.",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#7",
+     "wer": "Bà Tư",
+     "gefuehl": "caring",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Such a pretty girl. [sigh] Twenty-nine years old. Where is the husband?",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#8",
+     "wer": "Elsa",
+     "gefuehl": "embarrassment",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Madame, I am in uniform. [clear throat] I am armed.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#9",
+     "wer": "Bà Tư",
+     "gefuehl": "approval",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Armed is good. A husband likes a safe house. Take the soup.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#10",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Antwort-Chip",
+     "alt": "",
+     "neu": "Elsa sees you in the doorway.",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#11",
+     "wer": "Elsa",
+     "gefuehl": "annoyance",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "First Officer. [sigh] You saw nothing. That's an order, and I can't give you orders.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#12",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "Not Driving: Don Anghjulu comes down the church steps one at a time. Elsa watches him from across the piazza, then walks over.",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#13",
+     "wer": "Elsa",
+     "gefuehl": "disapproval",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "You're not driving, Father.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#14",
+     "wer": "Don Anghjulu",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[chuckle] I am walking, Lieutenant.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#15",
+     "wer": "Elsa",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[sigh] You're not doing that very well either.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#16",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "European Money: Mina stops her Vespa on the town hall steps with a handful of envelopes. The window above her flies open.",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#17",
+     "wer": "Casanova",
+     "gefuehl": "anger",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Mina! If that is another bill, throw it in the sea! [gasp] Where is my European money?",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#18",
+     "wer": "Mina",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Brussels says hi! [laugh] Also, you owe the water company.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#19",
+     "wer": "Casanova",
+     "gefuehl": "anger",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "I have applied FOUR times! Pascal! Tell her I have applied four times!",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#20",
+     "wer": "Pascal",
+     "gefuehl": "caring",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[chuckle] It's with them, Madame. Almost through.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#21",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "Fish Stew: Bà Tư has walked across the whole quay with a pot. Petru looks up from a net that isn't broken. She puts the pot on his workbench and takes off the lid, and the smell reaches the boats.",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#22",
+     "wer": "Bà Tư",
+     "gefuehl": "disapproval",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "You are alone too much. [clear throat] Eat.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#23",
+     "wer": "Petru",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[sigh] It stinks.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#24",
+     "wer": "Bà Tư",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "You said this last week. And then the pot was clean.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#25",
+     "wer": "Petru",
+     "gefuehl": "neutral",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[chuckle] Hm.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#26",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "Auntie Tu: Through the shop window you can see the mayor at the back table, sash folded on the chair, a third bowl in front of her. She isn't making a speech. You've never seen that from outside.",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#27",
+     "wer": "Casanova",
+     "gefuehl": "embarrassment",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "I only came about the municipal drains, Auntie Tu.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#28",
+     "wer": "Bà Tư",
+     "gefuehl": "caring",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Yes, yes. Drains. [chuckle] A mayor should not be so thin. Sit.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#29",
+     "wer": "Casanova",
+     "gefuehl": "caring",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[sniff] Is there any more of the egg?",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#30",
+     "wer": "",
+     "gefuehl": "",
+     "feld": "Erzählung",
+     "alt": "",
+     "neu": "The Back Seat: A Vespa comes up the mountain road much faster than it should. On the back, small and very straight, sits Bà Tư with a pot on her knees and not one drop spilled. Nonna is waiting in the garden with two hoes.",
+     "vertont": false,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#31",
+     "wer": "Nonna",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "Tu! You're late.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#32",
+     "wer": "Bà Tư",
+     "gefuehl": "disapproval",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "She drives like a war. [sigh] And that one, the novice, such good hands. Where is the husband?",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#33",
+     "wer": "Isabelle",
+     "gefuehl": "embarrassment",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "[gasp] Madame, I'm a novice.",
+     "vertont": true,
+     "notiz": ""
+    },
+    {
+     "key": "Vorbeigehen#34",
+     "wer": "Bà Tư",
+     "gefuehl": "amusement",
+     "feld": "Rede",
+     "alt": "",
+     "neu": "So? [chuckle] Novice is not finished.",
+     "vertont": true,
+     "notiz": ""
+    }
+   ]
+  }
+ ]
+}

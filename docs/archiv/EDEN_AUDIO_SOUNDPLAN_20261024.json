@@ -1,0 +1,794 @@
+{
+  "facts": {
+    "date": "2026-10-24",
+    "existing_effect_types": 39,
+    "mp3_files": 168,
+    "selected_urls": 49,
+    "scripted_scenes": 32,
+    "events": 162,
+    "encounters": 7,
+    "specials": 16,
+    "weapons": 13,
+    "missions": 68,
+    "repair_missions": 12,
+    "cooking_missions": 9
+  },
+  "fingerprints": {
+    "module\\eden_rise\\sfx.json": "2a8477eb131e596dbf76caeed34394920856bbde199e97122a338d6ccb7d7708",
+    "module\\eden_rise\\buehne.json": "305624495754bf28df6dd47cb1fbc73fd2d18a191e1663a27af902d466e93ae1",
+    "module\\eden_rise\\ereignisse.json": "673eb4dd2943397629e09beb1e13e3a9824cc900e52933cfc6d79e76b2731fce",
+    "module\\eden_rise\\kaempfe.json": "0f6f819f71c34b733475e8972a53c85042a80fa61e5f433c6365272a45ec1e21",
+    "module\\eden_rise\\missionen.json": "a88e22b32ae5f8934476c139f850d9b0fff995cc1ee4cad6cdf376c208579b81",
+    "kern\\sfx.py": "d0056d5e7e14dae5bf3df220f9afda961a15b118784acda3b810a54876849a58",
+    "client\\plugins\\eden-sfx\\eden-sfx.js": "2b1d97af59c14ccf04e149171634952d03c091043488a8ec0ae550928c8ef802",
+    "client\\plugins\\eden-combat\\eden-combat.js": "47d1ed748a309fade92d09b9d5a4a1f86ef3f153462868c92390b73b341037ba",
+    "client\\plugins\\eden-skills\\eden-skills.js": "e0fe76d1849a0dd8d909e3cf91d969c04fad559c700dd68ece6cdc7819946865",
+    "kern\\kampf.py": "c6c8a30384a074ff1461309abf8e9a77f717e991740534f87d1aed6491f3c255"
+  },
+  "existing": [
+    {
+      "id": "ui_meldung",
+      "purpose": "Allgemeine Meldung (Toast oben in der Mitte)",
+      "generated": 4,
+      "chosen": [
+        3
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "handy_nachricht",
+      "purpose": "Neue Nachricht im Handy",
+      "generated": 4,
+      "chosen": [
+        4
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "vorliebe_entdeckt",
+      "purpose": "Lavendel-Meldung: Vorliebe entdeckt",
+      "generated": 4,
+      "chosen": [
+        3
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "ui_klick",
+      "purpose": "Auswahl bestätigen (Antwort, Knopf, Ort)",
+      "generated": 10,
+      "chosen": [
+        2
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "vertrauen_plus",
+      "purpose": "Vertrauen steigt",
+      "generated": 4,
+      "chosen": [
+        4
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "vertrauen_minus",
+      "purpose": "Vertrauen sinkt",
+      "generated": 4,
+      "chosen": [
+        2
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "geld_ein",
+      "purpose": "Geld erhalten (Lohn, Verkauf)",
+      "generated": 4,
+      "chosen": [
+        3
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "geld_aus",
+      "purpose": "Geld ausgeben (Kauf)",
+      "generated": 4,
+      "chosen": [
+        4
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "item_erhalten",
+      "purpose": "Gegenstand erhalten",
+      "generated": 4,
+      "chosen": [
+        1
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "mission_neu",
+      "purpose": "Neue Mission angenommen",
+      "generated": 4,
+      "chosen": [
+        2
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "mission_erfolg",
+      "purpose": "Mission geschafft",
+      "generated": 4,
+      "chosen": [
+        1
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "mission_fehlschlag",
+      "purpose": "Mission fehlgeschlagen",
+      "generated": 4,
+      "chosen": [
+        3
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "tag_beginnt",
+      "purpose": "Neuer Tag beginnt (Morgen auf der Yacht)",
+      "generated": 4,
+      "chosen": [
+        3
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "wuerfel_rollen",
+      "purpose": "Würfel rollt (jede Probe)",
+      "generated": 4,
+      "chosen": [
+        3
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "wuerfel_erfolg",
+      "purpose": "Probe gelungen (normaler Erfolg)",
+      "generated": 4,
+      "chosen": [
+        4
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "wuerfel_fehlschlag",
+      "purpose": "Probe misslungen (normaler Fehlschlag)",
+      "generated": 4,
+      "chosen": [
+        3
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "wuerfel_kritisch",
+      "purpose": "Kritischer Erfolg (natürliche 20, Sonnenanker)",
+      "generated": 4,
+      "chosen": [
+        1
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "wuerfel_patzer",
+      "purpose": "Patzer (natürliche 1, gebrochener Anker in Flammen)",
+      "generated": 4,
+      "chosen": [
+        1
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "lola_brutzeln",
+      "purpose": "Lolas Kombüse: beim Kauf brutzelt es",
+      "generated": 4,
+      "chosen": [
+        1
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "hubschrauber_holm",
+      "purpose": "Rettungshubschrauber holt Holm (Tag 2)",
+      "generated": 4,
+      "chosen": [
+        3
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "hubschrauber_megan",
+      "purpose": "Megans Hubschrauber landet auf dem Sonnendeck (Tag 5)",
+      "generated": 4,
+      "chosen": [
+        4
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "blackout",
+      "purpose": "Blackout: Strom fällt aus",
+      "generated": 4,
+      "chosen": [
+        1
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "strom_zurueck",
+      "purpose": "Strom kommt zurück",
+      "generated": 4,
+      "chosen": [
+        3
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "sturm_nacht",
+      "purpose": "Sturmnacht: Donner und Wind über der Yacht",
+      "generated": 4,
+      "chosen": [
+        4
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "ankerkette",
+      "purpose": "Ankerkette rasselt (Anker lichten, Ankerwache)",
+      "generated": 4,
+      "chosen": [
+        4
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "tuer_klopfen",
+      "purpose": "Jemand klopft an Ducs Kabinentür (Nachtbesuch)",
+      "generated": 4,
+      "chosen": [
+        2
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "glaeser_anstossen",
+      "purpose": "Gläser klingen (Dinner, Festa, Toast)",
+      "generated": 4,
+      "chosen": [
+        1
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "sektkorken",
+      "purpose": "Sektkorken knallt",
+      "generated": 4,
+      "chosen": [
+        4
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "tender_motor",
+      "purpose": "Beiboot (Tender) startet und fährt ab",
+      "generated": 4,
+      "chosen": [
+        3
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "wasser_platsch",
+      "purpose": "Platschen ins Wasser (Drohne, Sprung, Plattform)",
+      "generated": 4,
+      "chosen": [
+        3
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "funk_rauschen",
+      "purpose": "Funk knackt (Bordfunk, Küstenwache)",
+      "generated": 4,
+      "chosen": [
+        3
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "phase_wechsel",
+      "purpose": "Tageszeit wechselt (Frühstück → Tag → Abend → Nacht)",
+      "generated": 7,
+      "chosen": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "geschenk",
+      "purpose": "Geschenk überreicht",
+      "generated": 4,
+      "chosen": [
+        4
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "kochen",
+      "purpose": "Duc kocht selbst",
+      "generated": 4,
+      "chosen": [
+        1
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "item_benutzen",
+      "purpose": "Snack essen / Gegenstand benutzen",
+      "generated": 4,
+      "chosen": [
+        1
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "hinweis_gefunden",
+      "purpose": "Hinweis gefunden (neuer Codex-Eintrag)",
+      "generated": 4,
+      "chosen": [
+        3
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "ereignis_start",
+      "purpose": "Ein Event beginnt (Event-Bildschirm geht auf)",
+      "generated": 7,
+      "chosen": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "nicht_moeglich",
+      "purpose": "Geht nicht (zu wenig Geld/Energie, Aktion abgelehnt)",
+      "generated": 4,
+      "chosen": [
+        2
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    },
+    {
+      "id": "begehren_plus",
+      "purpose": "Begehren steigt",
+      "generated": 4,
+      "chosen": [
+        4
+      ],
+      "selected_files_exist": true,
+      "loop": false
+    }
+  ],
+  "trigger_checks": [
+    {
+      "effect": "hubschrauber_holm",
+      "kind": "szenen",
+      "target": "holm_abschied",
+      "exists": true
+    },
+    {
+      "effect": "hubschrauber_megan",
+      "kind": "szenen",
+      "target": "megan_kommt",
+      "exists": true
+    },
+    {
+      "effect": "hubschrauber_megan",
+      "kind": "ereignisse",
+      "target": "g1_helikopter",
+      "exists": true
+    },
+    {
+      "effect": "blackout",
+      "kind": "szenen",
+      "target": "blackout",
+      "exists": true
+    },
+    {
+      "effect": "strom_zurueck",
+      "kind": "nach_szene",
+      "target": "blackout",
+      "exists": true
+    },
+    {
+      "effect": "sturm_nacht",
+      "kind": "szenen",
+      "target": "sturmnacht",
+      "exists": true
+    },
+    {
+      "effect": "funk_rauschen",
+      "kind": "szenen",
+      "target": "sturmvorbereitung",
+      "exists": true
+    },
+    {
+      "effect": "ankerkette",
+      "kind": "ereignisse",
+      "target": "br_nachtwache",
+      "exists": true
+    },
+    {
+      "effect": "tuer_klopfen",
+      "kind": "ereignisse",
+      "target": "ab_lola_klopft",
+      "exists": true
+    },
+    {
+      "effect": "sektkorken",
+      "kind": "szenen",
+      "target": "auftakt_party",
+      "exists": true
+    },
+    {
+      "effect": "tender_motor",
+      "kind": "szenen",
+      "target": "landgang",
+      "exists": true
+    },
+    {
+      "effect": "tender_motor",
+      "kind": "szenen",
+      "target": "landgang_2",
+      "exists": true
+    },
+    {
+      "effect": "tender_motor",
+      "kind": "ereignisse",
+      "target": "g1_chiara_tender",
+      "exists": true
+    },
+    {
+      "effect": "tender_motor",
+      "kind": "ereignisse",
+      "target": "gv_aussenborder",
+      "exists": true
+    },
+    {
+      "effect": "wasser_platsch",
+      "kind": "ereignisse",
+      "target": "g1_chiara_pause",
+      "exists": true
+    }
+  ],
+  "proposed_families": [
+    {
+      "id": "amb_deck_tag",
+      "priority": "P0",
+      "mode": "Loop",
+      "sound": "Leises Wasser am Rumpf, Wind und Tauwerk",
+      "where": "Deck, Badeplattform, sonnige Außengespräche",
+      "relation": "Kein Umgebungsloop vorhanden; Platsch-Einzeleffekt reicht dafür nicht.",
+      "variants": "2 Atmosphärenfassungen"
+    },
+    {
+      "id": "amb_nacht_anker",
+      "priority": "P0",
+      "mode": "Loop",
+      "sound": "Ruhiges Ankerwasser, vereinzeltes Holzknarzen",
+      "where": "Freie Nacht, Brückenwache, ruhige Romantik",
+      "relation": "Ankerkette vorhanden; sie ist ein einmaliges Ereignis und keine Nachtatmosphäre.",
+      "variants": "2 Atmosphärenfassungen"
+    },
+    {
+      "id": "amb_hafen",
+      "priority": "P0",
+      "mode": "Loop",
+      "sound": "Hafenwasser, entfernte Möwen, Takelage",
+      "where": "Cala-Orsu-Hafen und Calvi",
+      "relation": "Tender und Platschen vorhanden, aber kein kontinuierlicher Hafenraum.",
+      "variants": "2 Atmosphärenfassungen"
+    },
+    {
+      "id": "amb_innen_yacht",
+      "priority": "P1",
+      "mode": "Loop",
+      "sound": "Gedämpfter Schiffsrumpf und dezente Lüftung",
+      "where": "Kabine, Salon, Crew-Messe",
+      "relation": "Leise halten; Kabine deutlich intimer und ohne laute Außenmöwen mischen.",
+      "variants": "2 Atmosphärenfassungen"
+    },
+    {
+      "id": "amb_technik",
+      "priority": "P1",
+      "mode": "Loop",
+      "sound": "Lüfter, Relais und elektrischer Antrieb / Werkstatt",
+      "where": "Power room, Generatorraum, Rosis freie Szenen",
+      "relation": "Je nach tatsächlichem Strom-/Betriebszustand abschalten; kein Dieselbrummen bei jedem Raum.",
+      "variants": "2 Atmosphärenfassungen"
+    },
+    {
+      "id": "schiff_alarm",
+      "priority": "P0",
+      "mode": "Kurzloop",
+      "sound": "Klarer, begrenzter Schiffs-/Störungsalarm",
+      "where": "Cold Open und bestätigte Gefahr",
+      "relation": "Fehlt. Beim Not-Aus oder Ende der Gefahr stoppen; keine Dauerbeschallung unter langen Dialogen.",
+      "variants": "2 Atmosphärenfassungen"
+    },
+    {
+      "id": "elektro_knall",
+      "priority": "P0",
+      "mode": "Einzeln",
+      "sound": "Kurzer elektrischer Überschlag, dumpfer Knall, Metallnachhall",
+      "where": "Cold Open / Explosion",
+      "relation": "Blackout-Ton vorhanden, ersetzt aber keinen Gefahren-Impact. Pro tatsächlichem Ereignis einmal.",
+      "variants": "4 kurze Alternativen / Materialvarianten"
+    },
+    {
+      "id": "feuer_brand",
+      "priority": "P0",
+      "mode": "Loop + Ende",
+      "sound": "Feuerknistern, Flammenstoß und Löschzischen",
+      "where": "Bestätigter Brand / Fackelkontext",
+      "relation": "Fehlt; nur bei aktivem Feuer. Ende an Löschung koppeln, nicht an beliebigen Seitenwechsel.",
+      "variants": "2 Atmosphärenfassungen"
+    },
+    {
+      "id": "relais_notaus",
+      "priority": "P0",
+      "mode": "Einzeln",
+      "sound": "Schwerer Schalter / Relais fällt ab / kontrolliertes Wiederanlaufen",
+      "where": "Not-Aus, Reparaturabschluss, echter Stromwechsel",
+      "relation": "Strom-zurück-Datei vorhanden. Zuerst den Auslöser korrigieren, dann ggf. kurze mechanische Ergänzung.",
+      "variants": "4 kurze Alternativen / Materialvarianten"
+    },
+    {
+      "id": "kampf_schwung",
+      "priority": "P0",
+      "mode": "Einzeln",
+      "sound": "Kurze leichte und schwere Waffenbewegung",
+      "where": "Ausholen und Angriff",
+      "relation": "Neue Kampffamilie. Bewegung und Treffer getrennt, damit Fehlschläge keinen Treffer vortäuschen.",
+      "variants": "4 kurze Alternativen / Materialvarianten"
+    },
+    {
+      "id": "kampf_treffer",
+      "priority": "P0",
+      "mode": "Einzeln",
+      "sound": "Körper-/Kleidungstreffer; harte Metall-/Holzvariante",
+      "where": "Bestätigter Treffer auf Duc oder Gegner",
+      "relation": "Fehlt. Materialfamilien teilen, keine eigene Aufnahme für jede Waffe nötig; keine übertriebene Brutalität.",
+      "variants": "4 kurze Alternativen / Materialvarianten"
+    },
+    {
+      "id": "kampf_parade",
+      "priority": "P0",
+      "mode": "Einzeln",
+      "sound": "Kurzer metallischer Block und gedämpfter Waffenfang",
+      "where": "Tatsächlich gelungene Parade",
+      "relation": "Fehlt. Nah am bestätigten Paradezeitpunkt statt am bloßen Klick.",
+      "variants": "4 kurze Alternativen / Materialvarianten"
+    },
+    {
+      "id": "kampf_ausweichen",
+      "priority": "P0",
+      "mode": "Einzeln",
+      "sound": "Knapper Luftzug und Schritt auf dem Untergrund",
+      "where": "Ausweichen / vorbeigehender Angriff",
+      "relation": "Fehlt. Kein Trefferklang bei einem Fehlschlag.",
+      "variants": "4 kurze Alternativen / Materialvarianten"
+    },
+    {
+      "id": "kampf_konter",
+      "priority": "P0",
+      "mode": "Einzeln",
+      "sound": "Klarer, kurzer Akzent für perfekte Parade und Konter",
+      "where": "Perfekte Parade → Konter",
+      "relation": "Fehlt. Mit Parade/Impact schichten; kein dreifacher lauter Erfolgsjingle.",
+      "variants": "4 kurze Alternativen / Materialvarianten"
+    },
+    {
+      "id": "kampf_schuss",
+      "priority": "P1",
+      "mode": "Einzeln",
+      "sound": "Kurzer Schrotflintenknall mit kontrolliertem Nachhall",
+      "where": "Aktuell vorhandene Doppelflinte",
+      "relation": "Fehlt. Eigener Pegel, nie mit voller Originallautheit unter Sprache; Laden nur bei echter Aktion.",
+      "variants": "4 kurze Alternativen / Materialvarianten"
+    },
+    {
+      "id": "kampf_elektro",
+      "priority": "P1",
+      "mode": "Einzeln",
+      "sound": "Kurzer elektrischer Schlag / Lichtbogen",
+      "where": "Taser, Elektro-Harpune und passende Fähigkeiten",
+      "relation": "Fehlt. Gemeinsame Familie, bei Waffen unterschiedlich kurz/kräftig.",
+      "variants": "4 kurze Alternativen / Materialvarianten"
+    },
+    {
+      "id": "skill_wind",
+      "priority": "P1",
+      "mode": "Einzeln",
+      "sound": "Druckvolle, weiche Windbewegung in kurzen Schichten",
+      "where": "Wind-Spezials und deren sichtbare Phasen",
+      "relation": "Fehlt. An tatsächlich übermittelte Skill-ID/Phase koppeln, nicht bloß an Effektfarbe.",
+      "variants": "4 kurze Alternativen / Materialvarianten"
+    },
+    {
+      "id": "skill_wasser",
+      "priority": "P1",
+      "mode": "Einzeln",
+      "sound": "Wasseraufbau, Welle, gerichteter Aufprall",
+      "where": "Wasser-Spezials",
+      "relation": "Ein Platsch ist vorhanden. Für große Skills als Akzent wiederverwenden, eigene Wellen-/Druckschicht ergänzen.",
+      "variants": "4 kurze Alternativen / Materialvarianten"
+    },
+    {
+      "id": "skill_feuer",
+      "priority": "P1",
+      "mode": "Einzeln",
+      "sound": "Kurzer Zündstoß, Flammenbewegung, Ausklang",
+      "where": "Feuer-Spezials und brennende Waffe",
+      "relation": "Fehlt. Nicht bei jedem Schaden über Zeit denselben langen Feuerstoß abspielen.",
+      "variants": "4 kurze Alternativen / Materialvarianten"
+    },
+    {
+      "id": "skill_aufladen",
+      "priority": "P1",
+      "mode": "Einzeln / begrenzt",
+      "sound": "Kurzer Energieaufbau und Freisetzungsakzent",
+      "where": "Spezialphase Aufladen / Auslösen",
+      "relation": "Fehlt. Abbruch/Ende muss die Ladung stoppen; keine schrillen Dauertöne.",
+      "variants": "4 kurze Alternativen / Materialvarianten"
+    },
+    {
+      "id": "skill_heilung",
+      "priority": "P1",
+      "mode": "Einzeln",
+      "sound": "Warmer, kurzer Heilungsakzent ohne auffällige Melodie",
+      "where": "Bestätigte Heilung",
+      "relation": "Fehlt. Von Würfelerfolg und Beziehungs-Feedback klanglich unterscheiden.",
+      "variants": "4 kurze Alternativen / Materialvarianten"
+    },
+    {
+      "id": "skill_status",
+      "priority": "P1",
+      "mode": "Einzeln",
+      "sound": "Dezenter Status-Akzent: Schutz / Schwächung / Brechen",
+      "where": "Neue Statuswirkung und Ende eines Schutzes",
+      "relation": "Fehlt. Keine Dauerschleife für jeden aktiven Status, keine Wiederholung pro Redraw.",
+      "variants": "4 kurze Alternativen / Materialvarianten"
+    },
+    {
+      "id": "kampf_ergebnis",
+      "priority": "P1",
+      "mode": "Einzeln",
+      "sound": "Waffe senken / kurzer körperlicher Ausklang",
+      "where": "Kampfende, Aufgabe oder Flucht",
+      "relation": "Fehlt. Als Geräusch vom noch offenen musikalischen Sieg-Jingle trennen; nicht bei jedem Ausgang Niederlage signalisieren.",
+      "variants": "4 kurze Alternativen / Materialvarianten"
+    },
+    {
+      "id": "werkzeug_reparatur",
+      "priority": "P1",
+      "mode": "Einzeln",
+      "sound": "Ratsche, Metallklick, Kabelstecker, kurzer Prüfkontakt",
+      "where": "12 aktuell als Reparatur markierte Missionen und Rosis Technikaktionen",
+      "relation": "Fehlt. Vier unterschiedliche Werkzeuggesten sinnvoller als vier fast gleiche Pings; bei abstrakter Probe höchstens eine.",
+      "variants": "4 kurze Alternativen / Materialvarianten"
+    },
+    {
+      "id": "seil_festmachen",
+      "priority": "P2",
+      "mode": "Einzeln",
+      "sound": "Tau über Poller, Seil spannen, kleines Holzknarzen",
+      "where": "Anlegen, Hafenarbeit, Leinenmissionen",
+      "relation": "Ankerkette vorhanden, aber keine Festmacherfamilie. Nur auslösen, wenn die Handlung feststeht.",
+      "variants": "4 kurze Alternativen / Materialvarianten"
+    },
+    {
+      "id": "tuer_schloss",
+      "priority": "P2",
+      "mode": "Einzeln",
+      "sound": "Gedämpfte Kabinentür, Klinke, Schloss",
+      "where": "Echter Raum-/Kabinenwechsel oder explizite Handlung",
+      "relation": "Klopfen vorhanden. Kein Türsound für Inventar- oder Menü-Overlays.",
+      "variants": "4 kurze Alternativen / Materialvarianten"
+    },
+    {
+      "id": "handy_anruf",
+      "priority": "P1",
+      "mode": "Einzeln",
+      "sound": "Kurzes Vibrationssignal, Annehmen und Auflegen",
+      "where": "Tatsächliche Anrufereignisse",
+      "relation": "Nachrichtenvibration vorhanden. Wo passend wiederverwenden; Anrufe nicht wie jeden ungelesenen Chat behandeln.",
+      "variants": "4 kurze Alternativen / Materialvarianten"
+    },
+    {
+      "id": "fortschritt_faehigkeit",
+      "priority": "P1",
+      "mode": "Einzeln",
+      "sound": "Kurzer Level-/Fähigkeit-gelernt-Akzent",
+      "where": "Bestätigter Levelanstieg oder erfolgreiche Aktion skill_lernen",
+      "relation": "Das aktuelle Skillmenü existiert, aber der SFX-Beobachter unterscheidet diesen Fortschritt nicht. Nicht für das bloße Anwählen eines Skillknotens abspielen.",
+      "variants": "4 kurze Alternativen / Materialvarianten"
+    },
+    {
+      "id": "amb_bar_dorf",
+      "priority": "P2",
+      "mode": "Loop",
+      "sound": "Entferntes Geschirr und leises unverständliches Raumleben",
+      "where": "Alvas Bar, Piazza, Abendessen an Land",
+      "relation": "Keine verständlichen Stimmen. Tags/abends unterschiedliche Dichte; nicht lauter als die Figuren.",
+      "variants": "2 Atmosphärenfassungen"
+    },
+    {
+      "id": "amb_kochen_dinner",
+      "priority": "P2",
+      "mode": "Loop / Szene",
+      "sound": "Sehr dezente Küche oder Tisch-/Geschirrkulisse",
+      "where": "Kombüse und tatsächliche Essensszenen",
+      "relation": "Kochen, Brutzeln und Anstoßen vorhanden. Zuerst diese nutzen; eine längere, saubere Atmosphärenfassung nur bei Bedarf ergänzen.",
+      "variants": "2 Atmosphärenfassungen"
+    }
+  ]
+}

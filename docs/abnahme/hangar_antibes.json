@@ -1,0 +1,31 @@
+{
+ "id": "hangar_antibes",
+ "titel": "Tag 0 · Hangar in Antibes",
+ "hinweis": "Lauf 4 mit langer Stretch-Limousine. Eine Variante mit OK markieren. Hinweis: Die Limousine steht in der Bildmitte, dort stehen später die Sprites davor. Trypophobie: keine Lochmuster.",
+ "items": [
+  {
+   "id": "hangar_antibes=1",
+   "titel": "Hangar Antibes · Seed 1 · Stretch-Limousine längs, winzige Figuren auf dem Steg links",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\hangar_antibes\\eden_hangar_antibes_s1.png",
+   "soll": "Tag 0: Werfthalle in Antibes bei Sonnenaufgang, Tore offen, Eden Rise vor dem Tor, Paletten, lange Stretch-Limousine, keine Personen in der Halle"
+  },
+  {
+   "id": "hangar_antibes=2",
+   "titel": "Hangar Antibes · Seed 2 · Stretch-Limousine längs, menschenleer",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\hangar_antibes\\eden_hangar_antibes_s2.png",
+   "soll": "Tag 0: Werfthalle in Antibes bei Sonnenaufgang, Tore offen, Eden Rise vor dem Tor, Paletten, lange Stretch-Limousine, keine Personen in der Halle"
+  },
+  {
+   "id": "hangar_antibes=3",
+   "titel": "Hangar Antibes · Seed 3 · Limousine schräg im Vordergrund, evtl. winzige Figuren am Steg",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\hangar_antibes\\eden_hangar_antibes_s3.png",
+   "soll": "Tag 0: Werfthalle in Antibes bei Sonnenaufgang, Tore offen, Eden Rise vor dem Tor, Paletten, lange Stretch-Limousine, keine Personen in der Halle"
+  },
+  {
+   "id": "hangar_antibes=4",
+   "titel": "Hangar Antibes · Seed 4 · Stretch-Limousine längs, winzige Figuren auf dem Steg links",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\hangar_antibes\\eden_hangar_antibes_s4.png",
+   "soll": "Tag 0: Werfthalle in Antibes bei Sonnenaufgang, Tore offen, Eden Rise vor dem Tor, Paletten, lange Stretch-Limousine, keine Personen in der Halle"
+  }
+ ]
+}

@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eden Wiki</title>
+<style>
+:root{--bg:#0d0e11;--panel:#14161b;--linie:#262a32;--text:#e9e4da;--leise:#a39c8f;--dim:#6f6a61;--akz:#d8bd86;--akz2:#8ec5ff;
+  --code:#1b1e24;--mark:rgba(216,189,134,.28);color-scheme:dark}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{background:var(--bg);color:var(--text);font:15px/1.6 "Segoe UI",system-ui,sans-serif;display:grid;grid-template-columns:300px minmax(0,1fr)}
+aside{border-right:1px solid var(--linie);background:var(--panel);display:flex;flex-direction:column;min-height:0}
+.kopf{padding:18px 18px 12px;display:flex;flex-direction:column;gap:10px}
+.kopf h1{margin:0;font:700 19px/1.2 Georgia,serif;color:var(--akz);letter-spacing:.01em}
+.kopf input{width:100%;padding:8px 11px;border-radius:9px;border:1px solid var(--linie);background:var(--bg);color:var(--text);font:inherit}
+.kopf input:focus{outline:none;border-color:var(--akz)}
+nav{overflow:auto;padding:0 10px 24px;min-height:0;flex:1}
+nav h2{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);margin:18px 8px 6px}
+nav h3{font-size:12px;color:var(--leise);margin:10px 8px 2px;font-weight:600}
+nav a{display:block;padding:4px 10px;border-radius:7px;color:var(--text);text-decoration:none;font-size:13.5px;line-height:1.35}
+nav a:hover{background:#1c1f26}
+nav a.an{background:rgba(216,189,134,.14);color:var(--akz)}
+nav a small{display:block;color:var(--dim);font-size:11px}
+main{overflow:auto;min-height:0}
+article{max-width:860px;padding:34px 40px 80px}
+.pfad{font:12px/1 Consolas,monospace;color:var(--dim);margin-bottom:18px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+article h1{font:700 30px/1.2 Georgia,serif;color:var(--akz);margin:0 0 18px;text-wrap:balance}
+article h2{font:700 21px/1.3 Georgia,serif;margin:34px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--linie)}
+article h3{font-size:16.5px;margin:24px 0 8px}
+article h4{font-size:14.5px;margin:18px 0 6px;color:var(--leise)}
+article p{margin:0 0 12px}
+article a{color:var(--akz2)}
+article ul,article ol{margin:0 0 12px;padding-left:24px}
+article li{margin:3px 0}
+article blockquote{margin:0 0 12px;padding:6px 14px;border-left:3px solid var(--akz);background:#15171c;color:var(--leise)}
+article code{font:13px Consolas,monospace;background:var(--code);padding:1px 5px;border-radius:5px}
+article pre{background:var(--code);padding:12px 14px;border-radius:9px;overflow:auto}
+article pre code{background:none;padding:0}
+article hr{border:0;border-top:1px solid var(--linie);margin:26px 0}
+.tw{overflow-x:auto;margin:0 0 14px}
+article table{border-collapse:collapse;font-size:13.5px;min-width:100%}
+article th,article td{border:1px solid var(--linie);padding:6px 9px;text-align:left;vertical-align:top}
+article th{background:#181b21;color:var(--leise);font-weight:600}
+mark{background:var(--mark);color:inherit;border-radius:3px}
+.treffer{padding:10px 0;border-bottom:1px solid var(--linie)}
+.treffer a{font-weight:600}
+.treffer div{color:var(--leise);font-size:13.5px}
+iframe{border:0;width:100%;height:100%;display:block;background:#fff}
+@media (max-width:760px){body{grid-template-columns:1fr;grid-template-rows:auto 1fr}aside{max-height:45vh}article{padding:22px 16px 60px}}
+</style>
+</head>
+<body>
+<aside>
+  <div class="kopf"><h1>Eden Wiki</h1><input id="suche" type="search" placeholder="Suchen (alle Seiten)…" autocomplete="off"></div>
+  <nav id="nav"></nav>
+</aside>
+<main id="main"><article id="inhalt"><p style="color:var(--dim)">Lädt…</p></article></main>
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+let BAUM = [], ALLE = null;
+
+// ---- small Markdown renderer: headings, tables, lists, quotes, code, links, emphasis (enough for our docs)
+function inline(t, basis){
+  const codes = [];
+  t = t.replace(/`([^`]+)`/g, (_, c) => { codes.push(c); return "\u0000" + (codes.length - 1) + "\u0000"; });
+  t = esc(t)
+    .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (_, txt, href) => `<a href="${linkZiel(href, basis)}"${/^https?:/.test(href) ? ' target="_blank" rel="noopener"' : ""}>${txt}</a>`)
+    .replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>")
+    .replace(/(^|[^*\w])\*([^*\n]+)\*(?!\w)/g, "$1<i>$2</i>");
+  return t.replace(/\u0000(\d+)\u0000/g, (_, i) => `<code>${esc(codes[+i])}</code>`);
+}
+function linkZiel(href, basis){
+  if (/^(https?:|#)/.test(href)) return href;
+  const [p, anker] = href.split("#");
+  if (!p.toLowerCase().endsWith(".md") && !p.endsWith("/")) return "#" + encodeURIComponent(norm(basis, p));
+  const ziel = norm(basis, p.endsWith("/") ? p + "README.md" : p);
+  return "#" + encodeURIComponent(ziel) + (anker ? "@" + anker : "");
+}
+function norm(basis, rel){
+  const teile = basis.split("/").slice(0, -1);
+  for (const x of rel.split("/")){ if (x === "..") teile.pop(); else if (x && x !== ".") teile.push(x); }
+  return teile.join("/");
+}
+const slug = s => s.toLowerCase().replace(/<[^>]+>/g, "").replace(/[^\wäöüß -]/g, "").trim().replace(/\s+/g, "-");
+function md(src, basis){
+  const z = src.replace(/\r/g, "").split("\n"), out = [];
+  let i = 0;
+  const istTab = l => /^\s*\|.*\|\s*$/.test(l);
+  while (i < z.length){
+    let l = z[i];
+    if (/^```/.test(l)){ const b = []; i++; while (i < z.length && !/^```/.test(z[i])) b.push(z[i++]); i++; out.push(`<pre><code>${esc(b.join("\n"))}</code></pre>`); continue; }
+    let m = l.match(/^(#{1,4})\s+(.*)$/);
+    if (m){ const h = inline(m[2], basis); out.push(`<h${m[1].length} id="${slug(h)}">${h}</h${m[1].length}>`); i++; continue; }
+    if (/^\s*(---|\*\*\*)\s*$/.test(l)){ out.push("<hr>"); i++; continue; }
+    if (istTab(l) && i + 1 < z.length && /^\s*\|[\s:|-]+\|\s*$/.test(z[i + 1])){
+      const zellen = r => r.trim().replace(/^\||\|$/g, "").split(/(?<!\\)\|/).map(c => inline(c.trim().replace(/\\\|/g, "|"), basis));
+      const kopf = zellen(l); i += 2; const reihen = [];
+      while (i < z.length && istTab(z[i])) reihen.push(zellen(z[i++]));
+      out.push(`<div class="tw"><table><thead><tr>${kopf.map(c => `<th>${c}</th>`).join("")}</tr></thead><tbody>${reihen.map(r => `<tr>${r.map(c => `<td>${c}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`);
+      continue;
+    }
+    if (/^>\s?/.test(l)){ const b = []; while (i < z.length && /^>\s?/.test(z[i])) b.push(z[i++].replace(/^>\s?/, "")); out.push(`<blockquote>${md(b.join("\n"), basis)}</blockquote>`); continue; }
+    if (/^\s*([-*]|\d+\.)\s+/.test(l)){
+      const geordnet = /^\s*\d+\./.test(l), punkte = [];
+      while (i < z.length && (/^\s*([-*]|\d+\.)\s+/.test(z[i]) || (/^\s{2,}\S/.test(z[i]) && punkte.length))){
+        if (/^\s*([-*]|\d+\.)\s+/.test(z[i]) && !/^\s{4,}/.test(z[i])) punkte.push(z[i].replace(/^\s*([-*]|\d+\.)\s+/, ""));
+        else punkte[punkte.length - 1] += " " + z[i].trim();
+        i++;
+      }
+      const tag = geordnet ? "ol" : "ul";
+      out.push(`<${tag}>${punkte.map(p => `<li>${inline(p, basis)}</li>`).join("")}</${tag}>`);
+      continue;
+    }
+    if (!l.trim()){ i++; continue; }
+    const b = [];
+    while (i < z.length && z[i].trim() && !/^(#{1,4}\s|```|>|\s*([-*]|\d+\.)\s+)/.test(z[i]) && !(istTab(z[i]) && i + 1 < z.length && /^\s*\|[\s:|-]+\|\s*$/.test(z[i + 1]))) b.push(z[i++]);
+    out.push(`<p>${inline(b.join(" "), basis)}</p>`);
+  }
+  return out.join("\n");
+}
+
+// ---- navigation
+function navZeichnen(aktiv){
+  $("#nav").innerHTML = BAUM.map(g => {
+    let ordner = null;
+    return `<h2>${esc(g.titel)}</h2>` + g.seiten.map(s => {
+      const kopf = s.ordner !== ordner ? (ordner = s.ordner, s.ordner ? `<h3>${esc(s.ordner)}</h3>` : "") : "";
+      return kopf + `<a href="#${encodeURIComponent(s.pfad)}" class="${s.pfad === aktiv ? "an" : ""}">${esc(s.titel)}<small>${esc(s.datei || "")}</small></a>`;
+    }).join("");
+  }).join("");
+}
+async function zeigen(){
+  const roh = decodeURIComponent(location.hash.slice(1) || "wiki/START.md");
+  const [pfad, anker] = roh.split("@");
+  navZeichnen(pfad);
+  try { localStorage.setItem("eden-wiki-zuletzt", pfad); } catch (e) {}
+  if (pfad === "@kampf"){ $("#main").innerHTML = `<iframe src="/kampf" title="Combat guide"></iframe>`; return; }
+  if (!$("#inhalt")) $("#main").innerHTML = `<article id="inhalt"></article>`;
+  const r = await fetch("/api/seite?p=" + encodeURIComponent(pfad));
+  if (!r.ok){ $("#inhalt").innerHTML = `<p>Seite nicht gefunden: <code>${esc(pfad)}</code></p>`; return; }
+  const text = await r.text();
+  $("#inhalt").innerHTML = `<div class="pfad"><span>docs/${esc(pfad)}</span><span>file:///X:/AI/Eden/docs/${esc(pfad)}</span></div>` + md(text, pfad);
+  $("#main").scrollTop = 0;
+  if (anker){ const el = document.getElementById(anker); if (el) el.scrollIntoView(); }
+}
+async function suchen(q){
+  q = q.trim();
+  if (q.length < 2){ zeigen(); return; }
+  if (!ALLE) ALLE = await (await fetch("/api/alle")).json();
+  const titel = Object.fromEntries(BAUM.flatMap(g => g.seiten.map(s => [s.pfad, s.titel])));
+  const rx = new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "gi"), treffer = [];
+  for (const [p, t] of Object.entries(ALLE)){
+    const zeilen = t.split("\n").filter(z => rx.test(z)); rx.lastIndex = 0;
+    if (zeilen.length) treffer.push({p, n: zeilen.length, zeilen: zeilen.slice(0, 3)});
+  }
+  treffer.sort((a, b) => b.n - a.n);
+  if (!$("#inhalt")) $("#main").innerHTML = `<article id="inhalt"></article>`;
+  $("#inhalt").innerHTML = `<h1>Suche: ${esc(q)}</h1><p style="color:var(--dim)">${treffer.length} Seiten</p>` + treffer.map(x =>
+    `<div class="treffer"><a href="#${encodeURIComponent(x.p)}">${esc(titel[x.p] || x.p)}</a> <small style="color:var(--dim)">${x.n}×</small>${x.zeilen.map(z => `<div>${esc(z.slice(0, 220)).replace(rx, m => `<mark>${m}</mark>`)}</div>`).join("")}</div>`).join("");
+}
+(async () => {
+  BAUM = await (await fetch("/api/baum")).json();
+  if (!location.hash){ let z = null; try { z = localStorage.getItem("eden-wiki-zuletzt"); } catch (e) {} if (z) location.hash = encodeURIComponent(z); }
+  zeigen();
+  window.addEventListener("hashchange", () => { $("#suche").value = ""; zeigen(); });
+  let t; $("#suche").addEventListener("input", e => { clearTimeout(t); t = setTimeout(() => suchen(e.target.value), 180); });
+})();
+</script>
+</body>
+</html>

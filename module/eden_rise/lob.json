@@ -1,0 +1,161 @@
+{
+ "_hinweis": "Lob fuer Attributsteigerungen (kern/lob.py). Gebaut von werkzeuge/eden_rise/lob_eden_rise.py - nicht von Hand aendern. person -> attribut -> Wert (3/4/5) -> Zeile ohne Tags.",
+ "zeilen": {
+  "chiara": {
+   "courage": {
+    "3": "You walked in there without checking the exits first. One point for the nerve. One point off for the exits.",
+    "4": "Oh, you're braver now, I can tell. Seven out of ten. Don't let it go to your head, it's a very generous scale today.",
+    "5": "Nothing scares you anymore, does it? Eight, maybe nine. Please don't make me say ten."
+   },
+   "perception": {
+    "3": "You noticed my new earrings. Nobody notices my earrings. Okay. Okay, that's a point.",
+    "4": "You see everything lately. Careful, First Officer. That includes the napkin swans, and those are classified.",
+    "5": "How did you know it was me who moved the chairs? Don't answer. I like that you did."
+   }
+  },
+  "sophia": {
+   "perception": {
+    "3": "You noticed that, didn't you? Most people look straight past it, darling.",
+    "4": "You watch a room the way I do now. I can't decide whether to be flattered or to start locking my notebook.",
+    "5": "Darling, you read me from across the deck. Ten euros says you won't tell me what you saw. And I won't ask."
+   },
+   "cunning": {
+    "3": "That was a tidy little move just now. I almost missed the angle.",
+    "4": "I put money on you being straightforward. I've lost, haven't I? Splendid.",
+    "5": "You're playing three moves ahead and pretending you aren't. Do carry on, darling. I'm taking notes."
+   }
+  },
+  "lea": {
+   "empathy": {
+    "3": "You asked how I was and you actually waited for the answer. Did you know most people don't wait?",
+    "4": "You always know when someone needs a minute, proper. Octopuses have three hearts, and I think you've got at least two.",
+    "5": "I told you something I've never told anyone, and you just listened. Thank you. Okay. Tell me a fact so I stop crying."
+   },
+   "courage": {
+    "3": "You stood up to them and your voice didn't even shake. Mine would have squeaked. Proper squeaked.",
+    "4": "You're so brave lately that I salute you without thinking. Sorry. I do that. Nobody asked me to.",
+    "5": "A great white shark is less fearless than you are. That's not even a fact, I just wanted to say it."
+   }
+  },
+  "rosi": {
+   "cunning": {
+    "3": "That was a smart fix, Officer. Not as smart as mine would have been, but smart.",
+    "4": "You found the shortcut before I did. That's a draw. Don't argue, it's a draw.",
+    "5": "You're sneakier than the old diesel, and that thing hides its faults for weeks. I respect that. Mostly."
+   },
+   "courage": {
+    "3": "You went in there without a plan B, didn't you? Stupid. Also kind of good.",
+    "4": "You're getting louder with your bravery, Officer. Keep it up. I like the noise.",
+    "5": "Walk into the engine room like that and even Terremoto gets out of your way. That's a compliment. Take it before I take it back."
+   }
+  },
+  "siri": {
+   "empathy": {
+    "3": "You noticed I was quiet today. Sorry. I'm not good at being noticed. It's nice.",
+    "4": "Sorry, am I crying? It's just that you listen like I'm not on camera. Does that make sense?",
+    "5": "Nobody has ever just stayed with me when I was sad, without trying to fix it. You do. Thank you. I'm going to be embarrassing now."
+   },
+   "charm": {
+    "3": "You said that so easily. I'd need three takes. Sorry. I'm blushing at a chair again.",
+    "4": "You could sell anything with that smile. Please don't tell Yasin, he'd put you in a course.",
+    "5": "Okay, you're properly charming now, and it's a bit unfair. I forget my own lines around you."
+   }
+  },
+  "alva": {
+   "empathy": {
+    "3": "You listened to my whole story, even the boring part. Alva remembers who does that.",
+    "4": "Few people sit still long enough to hear what I don't say. You do, o figliolu. Dangerous habit.",
+    "5": "Nobody has made me feel this heard since my mother. Don't tell the bar. I have a reputation."
+   },
+   "perception": {
+    "3": "You looked at my face and saw I was tired. Most people look at the bottle.",
+    "4": "You catch things in this room before I do. That's my job, you know. Should I be worried?",
+    "5": "You read the whole bar in one glance. I'd hire you, but you'd drink the profits. Or give them away."
+   }
+  },
+  "lola": {
+   "charm": {
+    "3": "Alright Boss, that smile is heaps better than it was. Careful, I might start burning the toast.",
+    "4": "You could sweet-talk a dingo out of its dinner, mate. Heaps charming. Mostly the cheese.",
+    "5": "I reckon half the boat's in love with you, and the other half's in the pantry pretending not to be. Sweet as, Boss."
+   },
+   "empathy": {
+    "3": "You noticed I was a bit off today, didn't you? No worries, mate. It's just that nobody notices.",
+    "4": "You're a good listener, Boss. I've told you heaps of things I haven't even told the goat.",
+    "5": "Somebody finally sat in the galley and just let me talk. Don't tell anyone I cried into the dough."
+   }
+  },
+  "megan": {
+   "charm": {
+    "3": "Well, well. That was almost charming, Duc. I'll let it pass. For now.",
+    "4": "You've been practising, haven't you? I can smell it all the way from Edinburgh. A dangerous perfume, First Officer.",
+    "5": "How... delightful. You're becoming dangerous, Duc. Charming men usually cost me money. Send the invoice."
+   },
+   "strength": {
+    "3": "I hear you've been lifting things on one of my yachts. Good. A shark respects a fit swimmer.",
+    "4": "Maxwell sends me reports. Your arms get a full paragraph now, which is more than most of my directors get.",
+    "5": "A strong first officer. How... delightful. Do try not to break my railings, though. Every one of them has a price tag."
+   }
+  },
+  "maxwell": {
+   "strength": {
+    "3": "Eish, Number One! Mr. Maximum sees a muscle. It is a small muscle, but it is a muscle.",
+    "4": "Lekker, brother! Mr. Maximum sees arms like a proper sailor now. Mr. Maximum could hang a hammock off those.",
+    "5": "Number One, Mr. Maximum has no more lessons to give you. Mr. Maximum is proud. Mr. Maximum is not crying, the sea is just very salty today."
+   },
+   "courage": {
+    "3": "Shame, Number One, you went in first. Mr. Maximum would have gone in first too. Mr. Maximum would have screamed.",
+    "4": "Ja-nee, brother, that was brave. Mr. Maximum nearly forgot to be afraid of the seagull.",
+    "5": "Mr. Maximum has seen many men, Number One. Very few walk toward the noise. You walk toward the noise."
+   }
+  },
+  "jana": {
+   "strength": {
+    "3": "Sorry, Sir, but you carried that crate like it was nothing. Na geh! I mean, nice. Sorry.",
+    "4": "Coach says you're getting strong, Sir. I said it first. Well, I said it quietly. Sorry.",
+    "5": "Jessas, Sir, that rope would have broken me, and you just held it. Sorry. I'm staring at your arms. I'm not staring at your arms."
+   },
+   "charm": {
+    "3": "Sorry, Sir, what you said was really nice. I would have said it wrong. I always say it wrong.",
+    "4": "You talk like Chiara does, Sir, only more... right. Sorry. Please don't tell Chiara I said that.",
+    "5": "Sir, even the door says yes to you now. I said sorry to it earlier. It doesn't answer me. It answers you."
+   }
+  },
+  "toto": {
+   "cunning": {
+    "3": "Comandante, that was a clever little trick. Two to one that I would have thought of it first. Today I am generous.",
+    "4": "Madonna, you see around corners now. Do not look in my locker. The locker is nothing. The locker is for the engine room.",
+    "5": "Comandante, you are sneakier than a Neapolitan. That is the highest compliment I have. I have never given it before."
+   },
+   "strength": {
+    "3": "Comandante, you hauled that line without waiting for me. Good. One less man to call.",
+    "4": "Madonna, those arms! Soon you will lift the boat and I will sell tickets.",
+    "5": "Two to one that you break Maxwell's record, Comandante. The gigante is jealous. I can see it in his face."
+   }
+  },
+  "yasin": {
+   "charm": {
+    "3": "Not bad, bro. Not bad. With a little lighting, you'd be a content creator.",
+    "4": "First Officer, your charm is good for the brand. I'd put you in a course. I mean, I'd put you in a course for free.",
+    "5": "Bro, okay, honestly? You're better at this than I am. Don't screenshot that. That's business."
+   },
+   "cunning": {
+    "3": "Nice play, First Officer. I didn't see the angle. Which is annoying, because I always see the angle.",
+    "4": "You think like a trader, bro. A good one. Mine always lose money.",
+    "5": "I only work with winners, First Officer. ...And apparently you're one. Annoying. That's business."
+   }
+  },
+  "yamamoto": {
+   "perception": {
+    "3": "Officer-san. So sorry. You saw the gull before I did. Very interesting.",
+    "4": "Officer-san notices small things. In Japan we say this is a fisherman's eye. My father had it.",
+    "5": "Officer-san, you see the whole sea. Thirty years in the bank, I saw only numbers. Thank you for teaching me to look."
+   },
+   "courage": {
+    "3": "Officer-san. So sorry. That was brave. I would have bowed and walked away.",
+    "4": "Very brave. My daughter says I must be brave on this holiday. I think I will begin with the karaoke.",
+    "5": "Officer-san, you give me courage. Tomorrow I will carry my luggage and my worries. Both. Please take care of me."
+   }
+  }
+ }
+}

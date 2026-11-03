@@ -1,0 +1,15 @@
+{
+ "id": "robot_flink_hurt_v1",
+ "titel": "Skorpion: Aufbäumen",
+ "hinweis": "Nur diese eine Pose ist offen, sie ist schon so im Spiel-Ordner. Krea hielt den Körper immer waagerecht, darum ist das Bild um 30 Grad gedreht. Mein Vorschlag: so lassen.",
+ "items": [
+  {
+   "id": "skorpion_hurt",
+   "titel": "Skorpion · hurt",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_robot_flink_satz\\skorpion\\hurt.png",
+   "soll": "Bäumt sich auf: Vorderteil hoch, Hinterbeine unten. Weil das ganze Bild gedreht ist, stehen auch die Beine schräg.",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_robot_flink_satz\\skorpion\\idle.png",
+   "vergleich_titel": "idle"
+  }
+ ]
+}

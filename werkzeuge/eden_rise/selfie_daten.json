@@ -1,0 +1,1091 @@
+{
+ "_hinweis": "Selfie-Daten (Duc 27.10.2026): bilder = gewaehlte PNG je frau|reihe|stufe, haupt = [tag, blasen], nachschlag = frau -> stufe -> [tag, blasen]. Quelle: docs/abnahme/selfies_r10 + selfie_texte r10.",
+ "bilder": {
+  "alva|bar|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_knapp-1.png",
+  "alva|zimmer|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_knapp-4.png",
+  "alva|tresen|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_knapp_3-1.png",
+  "alva|zimmer|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_nackt-10.png",
+  "alva|bar|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_nackt-13.png",
+  "alva|tresen|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_nackt_3-1.png",
+  "alva|bar|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_oben_ohne-12.png",
+  "alva|zimmer|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_oben_ohne-16.png",
+  "alva|tresen|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_alva_oben_ohne_3.png",
+  "chiara|kabine|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_knapp-3.png",
+  "chiara|nock|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_knapp_2-1.png",
+  "chiara|bruecke|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_knapp_3.png",
+  "chiara|kabine|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_nackt-10.png",
+  "chiara|nock|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_nackt_2-1.png",
+  "chiara|bruecke|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_nackt_3-1.png",
+  "chiara|kabine|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_oben_ohne-3.png",
+  "chiara|nock|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_oben_ohne_2-2.png",
+  "chiara|bruecke|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_chiara_oben_ohne_3-2.png",
+  "elsa|posten|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_elsa_knapp-3.png",
+  "elsa|verhoerzelle|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_elsa_knapp_3-2.png",
+  "elsa|posten|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_elsa_nackt-3.png",
+  "elsa|verhoerzelle|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_elsa_nackt_3.png",
+  "elsa|posten|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_elsa_oben_ohne-3.png",
+  "elsa|verhoerzelle|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_elsa_oben_ohne_3-1.png",
+  "isabelle|apotheke|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_isabelle_knapp-2.png",
+  "isabelle|zelle|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_isabelle_nackt.png",
+  "isabelle|zelle|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_isabelle_oben_ohne-6.png",
+  "jana|koje|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_jana_knapp-1.png",
+  "jana|dusche|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_jana_knapp.png",
+  "jana|shibari|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_jana_knapp_3-1.png",
+  "jana|dusche|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_jana_nackt-3.png",
+  "jana|shibari|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_jana_nackt_3-1.png",
+  "jana|koje|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_jana_oben_ohne-7.png",
+  "jana|shibari|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_jana_oben_ohne_3-1.png",
+  "lea|garage|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_knapp.png",
+  "lea|beach|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_knapp1.png",
+  "lea|plankton|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_knapp_3.png",
+  "lea|garage|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_nackt-2.png",
+  "lea|beach|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_nackt_2-7.png",
+  "lea|plankton|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_nackt_3-1.png",
+  "lea|garage|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_oben_ohne.png",
+  "lea|plankton|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lea_oben_ohne_3-2.png",
+  "lola|kombuese|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_knapp-1.png",
+  "lola|koje|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_knapp_2-1.png",
+  "lola|sahne|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_knapp_3-2.png",
+  "lola|kombuese|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_nackt-1.png",
+  "lola|koje|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_nackt_2.png",
+  "lola|sahne|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_nackt_3.png",
+  "lola|kombuese|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_oben_ohne-1.png",
+  "lola|koje|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_oben_ohne_2-2.png",
+  "lola|sahne|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_lola_oben_ohne_3-1.png",
+  "megan|buero|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_megan_knapp.png",
+  "megan|hubschrauber|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_megan_knapp_3-2.png",
+  "megan|buero|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_megan_nackt.png",
+  "megan|hubschrauber|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_megan_nackt_3-1.png",
+  "megan|buero|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_megan_oben_ohne.png",
+  "megan|hubschrauber|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_megan_oben_ohne_3-2.png",
+  "rosi|werkstatt|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_knapp-5.png",
+  "rosi|generatorraum|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_knapp_2.png",
+  "rosi|werkstatt|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_nackt-3.png",
+  "rosi|generatorraum|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_nackt_2-1.png",
+  "rosi|strand|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_nackt_3-2.png",
+  "rosi|werkstatt|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_oben_ohne-5.png",
+  "rosi|generatorraum|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_oben_ohne_2-1.png",
+  "rosi|strand|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_oben_ohne_3.png",
+  "siri|vip|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_knapp-5.png",
+  "siri|vordeck|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_knapp-9.png",
+  "siri|dessous|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_knapp_3-1.png",
+  "siri|vip|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_nackt_2-2.png",
+  "siri|vordeck|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_nackt_2-5.png",
+  "siri|dessous|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_nackt_3-1.png",
+  "siri|vip|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_oben_ohne-6.png",
+  "siri|vordeck|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_oben_ohne_2-3.png",
+  "siri|dessous|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_siri_oben_ohne_3-2.png",
+  "sophia|achterdeck|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_knapp-10.png",
+  "sophia|koje|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_knapp_2-1.png",
+  "sophia|noir|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_knapp_3.png",
+  "sophia|koje|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_nackt_2-1.png",
+  "sophia|achterdeck|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_nackt_2-5.png",
+  "sophia|noir|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_nackt_3-1.png",
+  "sophia|koje|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_oben_ohne_2-1.png",
+  "sophia|achterdeck|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_oben_ohne_2-4.png",
+  "sophia|noir|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_sophia_oben_ohne_3-1.png",
+  "isabelle|lavendelbad|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_isabelle_knapp_3.png",
+  "isabelle|lavendelbad|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_isabelle_oben_ohne_3.png",
+  "isabelle|lavendelbad|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_isabelle_nackt_3-1.png",
+  "rosi|strand|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_rosi_knapp_3-2.png",
+  "bibi|station|knapp": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_bibi_knapp.png",
+  "bibi|station|oben_ohne": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_bibi_oben_ohne-2.png",
+  "bibi|station|nackt": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\CHARACTER\\selfie_bibi_nackt-7.png"
+ },
+ "haupt": {
+  "alva|bar|knapp": [
+   "laugh",
+   [
+    "closing time 🥂",
+    "the till balanced. first time this year. we celebrated, me and the till 🍷",
+    "dont read anything into the dress. its just a dress"
+   ]
+  ],
+  "alva|bar|oben_ohne": [
+   "chuckle",
+   [
+    "ok so",
+    "someone has to finish the last bottle or it goes off. thats just economics",
+    "why am i sending you this. dont answer. ok answer 🙃"
+   ]
+  ],
+  "alva|bar|nackt": [
+   "sigh",
+   [
+    "chairs are up and im still sitting on the counter like an idiot",
+    "everybody's welcome here. you know that",
+    "...just come over. before i sober up and get sensible again 💋"
+   ]
+  ],
+  "alva|zimmer|knapp": [
+   "chuckle",
+   [
+    "too hot to sleep up here",
+    "you awake? no reason. the wine says hi 🍷😴"
+   ]
+  ],
+  "alva|zimmer|oben_ohne": [
+   "laugh",
+   [
+    "the whole village is asleep under my floor",
+    "if one of them finds out i sent this i'll deny everything. even to you 🤫"
+   ]
+  ],
+  "alva|zimmer|nackt": [
+   "sigh",
+   [
+    "i dont do this.",
+    "i mean it. ask anyone. nobody's mine",
+    "so why is it you i keep thinking about at two in the morning, o figliolu 🌙"
+   ]
+  ],
+  "chiara|kabine|knapp": [
+   "laugh",
+   [
+    "Rate this. Honestly.",
+    "And yes, that's Opa's jacket. Yes, I'm allowed. ⚓",
+    "Your number. Now. I'm waiting. ⏳"
+   ]
+  ],
+  "chiara|kabine|oben_ohne": [
+   "chuckle",
+   [
+    "You took too long to answer the last one.",
+    "So this is your punishment. 😈",
+    "Still no number? Coward. 😏"
+   ]
+  ],
+  "chiara|kabine|nackt": [
+   "sigh",
+   [
+    "Okay. No scale tonight.",
+    "I don't know what number this is and I don't want you to tell me.",
+    "Just come up to the bridge. Please. Don't make a big thing of the please. 🙄"
+   ]
+  ],
+  "elsa|posten|knapp": [
+   "clear throat",
+   [
+    "Status report, 23:40. Radio quiet. Totò not sighted.",
+    "Attached: evidence that the uniform is technically off duty.",
+    "Delete after reading, First Officer. That is not a request. 🚨"
+   ]
+  ],
+  "elsa|posten|oben_ohne": [
+   "chuckle",
+   [
+    "Correction to the previous report.",
+    "I read chapter twelve again. The captain in it has your posture. Coincidence. Noted for the file.",
+    "Do not reply with emojis."
+   ]
+  ],
+  "elsa|posten|nackt": [
+   "laugh",
+   [
+    "Eleven years of service and I have never broken a rule.",
+    "This doesn't count. It's a bend. A very large bend.",
+    "If anyone sees this I'm moving to Sardinia and you're coming as my witness. 🙃"
+   ]
+  ],
+  "isabelle|apotheke|knapp": [
+   "gasp",
+   [
+    "oh no 😳",
+    "that was meant to be the lavender. for you. I pressed the wrong",
+    "no that's a lie, sorry. please don't tell Nonna. or God. mostly Nonna 🙏"
+   ]
+  ],
+  "isabelle|zelle|oben_ohne": [
+   "sigh",
+   [
+    "I'm supposed to be praying for patience",
+    "I'm not very good at it tonight 😇",
+    "sorry. I'll delete it. I can't delete it from your phone, can I"
+   ]
+  ],
+  "isabelle|zelle|nackt": [
+   "sigh",
+   [
+    "I've been sitting here for an hour with my thumb over the button",
+    "I think I'll have to confess this on Sunday",
+    "I don't think I'm sorry though. is that bad 🫣"
+   ]
+  ],
+  "jana|dusche|knapp": [
+   "laugh",
+   [
+    "Sorry Sir!! wrong photo 🙈",
+    "no wait. it's the right photo. the light in the crew shower is just very good",
+    "sorry 😳"
+   ]
+  ],
+  "jana|dusche|nackt": [
+   "gasp",
+   [
+    "Jessas 😳",
+    "I counted to three and pressed it before I could stop",
+    "please don't say anything at breakfast. or say something. no, don't. sorry, Sir"
+   ]
+  ],
+  "jana|koje|knapp": [
+   "laugh",
+   [
+    "Strudel took this one. Strudel is very talented 🐱",
+    "the wink was also Strudel 😉",
+    "goodnight Sir 🙈"
+   ]
+  ],
+  "jana|koje|oben_ohne": [
+   "gasp",
+   [
+    "na geh, why did I do that",
+    "Chiara says you have to be brave sometimes. I don't think she meant this",
+    "please still be nice to me tomorrow 🥺"
+   ]
+  ],
+  "lea|beach|knapp": [
+   "laugh",
+   [
+    "THE TURTLES HATCHED 🐢🐢🐢",
+    "look behind me!! tiny!! only one in a thousand makes it to the sea",
+    "anyway I wanted you to see. the turtles. mainly the turtles 😅"
+   ]
+  ],
+  "lea|beach|nackt": [
+   "laugh",
+   [
+    "nobody on the beach except me and about four hundred baby turtles 🌅",
+    "did you know turtles don't have ears? so technically nobody saw this",
+    "except you. that was sort of the plan. I think ✌️"
+   ]
+  ],
+  "lea|garage|knapp": [
+   "chuckle",
+   [
+    "back from the night dive, saw a squid the size of my arm 🦑",
+    "also here's me. wet. for scientific reference",
+    "is that weird? that's weird. it's for science 🤓"
+   ]
+  ],
+  "lea|garage|oben_ohne": [
+   "gasp",
+   [
+    "did you know octopuses change colour when they're nervous 🐙",
+    "I'm doing that right now. all over",
+    "say something before I throw my phone in the sea 😳"
+   ]
+  ],
+  "lea|garage|nackt": [
+   "sigh",
+   [
+    "I've never sent this to anyone. ever",
+    "I wanted the first time to be you and I don't really know how to say that bit",
+    "there's no fact for this one. sorry. no octopus 🥺"
+   ]
+  ],
+  "lola|kombuese|knapp": [
+   "laugh",
+   [
+    "Boss!! emergency in the galley 🚨🔥",
+    "no there isn't. I just look cute in the apron and nobody's here to tell me",
+    "don't tell anyone I told you. mostly the bikini 😂"
+   ]
+  ],
+  "lola|kombuese|oben_ohne": [
+   "chuckle",
+   [
+    "ok so I was gonna send you the bao 🥟",
+    "and then I thought nah, he's seen the bao",
+    "yes that's flour. no I won't explain the flour 😇"
+   ]
+  ],
+  "lola|kombuese|nackt": [
+   "laugh",
+   [
+    "no apron no bao no nothing, mate",
+    "reckon this is either the best or the worst idea I've ever had 🤷‍♀️",
+    "you'll still let me cook tomorrow right? right?? haha. right? 😬"
+   ]
+  ],
+  "lola|koje|knapp": [
+   "laugh",
+   [
+    "can't sleep. new pyjamas 😴",
+    "rate the leopard. be honest. actually don't be honest 🐆",
+    "they were on sale in Antibes and I panicked 🛍️😅"
+   ]
+  ],
+  "lola|koje|oben_ohne": [
+   "chuckle",
+   [
+    "leopard update 🐆",
+    "the leopard is losing 😂",
+    "don't tell anyone I told you. mostly the leopard"
+   ]
+  ],
+  "lola|koje|nackt": [
+   "sigh",
+   [
+    "ok the leopard's gone to bed. on the floor",
+    "funny, I talk heaps and then with you I just. send stuff",
+    "night Boss. sleep tight. or don't 💤"
+   ]
+  ],
+  "megan|buero|knapp": [
+   "chuckle",
+   [
+    "Board meeting ran late. I won.",
+    "The blouse didn't survive the third quarter.",
+    "You'll keep this to yourself, Duc. I'd hate to have to buy your silence. I'd win that negotiation too."
+   ]
+  ],
+  "megan|buero|oben_ohne": [
+   "laugh",
+   [
+    "Do you know what this would cost me in the wrong hands?",
+    "Eleven yachts, a board seat, and my reputation as the most frightening woman in Monaco.",
+    "So think about whose hands I just put it in. Your move. ♟️"
+   ]
+  ],
+  "megan|buero|nackt": [
+   "sigh",
+   [
+    "I have spent fifteen years making sure nobody has anything on me.",
+    "Now you do.",
+    "Don't thank me. Just don't make me regret it."
+   ]
+  ],
+  "rosi|generatorraum|knapp": [
+   "laugh",
+   [
+    "your jacket was just lying there, Officer. unguarded 🏍️",
+    "it's mine now. spoils of war",
+    "fits better on me anyway. admit it 😏"
+   ]
+  ],
+  "rosi|generatorraum|oben_ohne": [
+   "chuckle",
+   [
+    "update: the shirt lost. the jacket stays 😤",
+    "it smells like you, which is very annoying, because now I can't concentrate on Unit-01",
+    "don't read anything into that"
+   ]
+  ],
+  "rosi|generatorraum|nackt": [
+   "sigh",
+   [
+    "ok fine. you can have it back",
+    "I'm wearing it though. only it. come and take it 😈",
+    "or don't. call it a draw. you blinked first"
+   ]
+  ],
+  "rosi|werkstatt|knapp": [
+   "laugh",
+   [
+    "tally board: twelve to eleven, me 🏆",
+    "this is what the leader wears to work. memorise it",
+    "your next challenge is not thinking about it. good luck 😏"
+   ]
+  ],
+  "rosi|werkstatt|oben_ohne": [
+   "chuckle",
+   [
+    "I put a new mark on the board",
+    "it's not for a win. I don't know what it's for",
+    "don't ask. seriously, Officer, don't ask 🙄"
+   ]
+  ],
+  "rosi|werkstatt|nackt": [
+   "sigh",
+   [
+    "my dad had a sign in his workshop: finish what you start",
+    "I've been starting this for a week",
+    "so. your turn. Captain."
+   ]
+  ],
+  "siri|vip|knapp": [
+   "laugh",
+   [
+    "hiii ✨",
+    "sorry, no, not the camera voice",
+    "is it weird that you're the only one I wanted to send this to? it's weird. sorry. ignore the wink 🙈"
+   ]
+  ],
+  "siri|vip|oben_ohne": [
+   "laugh",
+   [
+    "2.8 million followers and none of them get this one",
+    "peace ✌️ sorry, I don't know what my hand is doing",
+    "is this ok? tell me if it's not ok 🥺"
+   ]
+  ],
+  "siri|vip|nackt": [
+   "sigh",
+   [
+    "no filter, no caption, no management 🤍",
+    "I asked myself what I actually want, for once",
+    "and then I got scared of the answer and sent this instead. does that make sense"
+   ]
+  ],
+  "siri|vordeck|knapp": [
+   "laugh",
+   [
+    "sunrise!! sorry, I said good morning to the anchor winch first 🌅",
+    "you're second. that's still really good 😊",
+    "are you awake? you don't have to be awake"
+   ]
+  ],
+  "siri|vordeck|oben_ohne": [
+   "chuckle",
+   [
+    "the light is perfect and I didn't fix my hair",
+    "first photo in six years where I didn't fix anything",
+    "do you like it like this? the real version? 🙈"
+   ]
+  ],
+  "siri|vordeck|nackt": [
+   "sigh",
+   [
+    "nobody approved this photo",
+    "not my manager, not Yasin, not even me in the mirror",
+    "I just wanted one person to have the real one. it's you. ok bye 🤍"
+   ]
+  ],
+  "sophia|achterdeck|knapp": [
+   "chuckle",
+   [
+    "Darling. Aft deck. Midnight.",
+    "Ten euros says you're up here before one. 🥂",
+    "I've already spent the ten euros, so do hurry."
+   ]
+  ],
+  "sophia|achterdeck|oben_ohne": [
+   "laugh",
+   [
+    "I lost a bet with myself.",
+    "This is the forfeit.",
+    "Don't tell anyone I lose bets. I have a reputation."
+   ]
+  ],
+  "sophia|achterdeck|nackt": [
+   "sigh",
+   [
+    "I'm not managing you tonight.",
+    "I'm not managing anyone.",
+    "This is what's left. I'm told it's rather nice."
+   ]
+  ],
+  "sophia|koje|knapp": [
+   "chuckle",
+   [
+    "2 a.m., a pen, a notebook and a terrible idea.",
+    "Guess which of the three this is.",
+    "Wrong. It's all three. 🖋️"
+   ]
+  ],
+  "sophia|koje|oben_ohne": [
+   "laugh",
+   [
+    "Research, darling. Purely research.",
+    "I'm writing a scene and I need to know how the hero reacts.",
+    "Take your time. I'll be taking notes. 📓"
+   ]
+  ],
+  "sophia|koje|nackt": [
+   "sigh",
+   [
+    "No bet tonight.",
+    "You keep not asking what I want, so I'll tell you.",
+    "It's this. It's you. I'll pretend I didn't write that in the morning."
+   ]
+  ],
+  "chiara|nock|knapp": [
+   "laugh",
+   [
+    "Found this in the laundry. Finders keepers 😏",
+    "It was way too big for you anyway. On me it's a dress.",
+    "Want it back? Come and get it. ⏳"
+   ]
+  ],
+  "chiara|nock|oben_ohne": [
+   "chuckle",
+   [
+    "Your shirt and I have come to an arrangement. 🔥",
+    "It stays with me. You get… this.",
+    "Still want it back? Thought so."
+   ]
+  ],
+  "chiara|nock|nackt": [
+   "sigh",
+   [
+    "Okay. I'll give it back.",
+    "It's lying on the bridge wing. Right next to me. 😈",
+    "You'll have to come up and fetch it yourself. And maybe stay a bit."
+   ]
+  ],
+  "alva|tresen|knapp": [
+   "laugh",
+   [
+    "closing time and theres one shot left 🥃",
+    "salt, tequila, lime. you know how it goes",
+    "except tonight im the bar 🍋"
+   ]
+  ],
+  "alva|tresen|oben_ohne": [
+   "chuckle",
+   [
+    "i was going to dance in sevilla once 💃",
+    "now i dance on my own counter with a fan. close enough",
+    "dont laugh. ok you can laugh a little"
+   ]
+  ],
+  "alva|tresen|nackt": [
+   "sigh",
+   [
+    "the salts still there",
+    "someone has to finish the shot properly, o figliolu",
+    "...i mean you. i mean you 🙈"
+   ]
+  ],
+  "chiara|bruecke|knapp": [
+   "laugh",
+   [
+    "The bridge is empty tonight. Guess who's in command now 🫡",
+    "First Officer, report to the bridge.",
+    "That's an order. 😏"
+   ]
+  ],
+  "chiara|bruecke|oben_ohne": [
+   "chuckle",
+   [
+    "Captain's orders: no rating tonight. Only obeying.",
+    "You have three minutes. ⏳"
+   ]
+  ],
+  "chiara|bruecke|nackt": [
+   "sigh",
+   [
+    "Okay, I'll admit it.",
+    "This chair is nicer with you on the bridge.",
+    "Come up. The captain's… asking. 🙄"
+   ]
+  ],
+  "elsa|verhoerzelle|knapp": [
+   "clear throat",
+   [
+    "Interrogation room two. Quiet night.",
+    "I'm conducting a test of the equipment. 🔒",
+    "The equipment is functioning, First Officer."
+   ]
+  ],
+  "elsa|verhoerzelle|oben_ohne": [
+   "chuckle",
+   [
+    "Chapter fourteen has an interrogation scene.",
+    "Purely for research, I'm reconstructing it.",
+    "You're the suspect. Obviously. 🙃"
+   ]
+  ],
+  "elsa|verhoerzelle|nackt": [
+   "laugh",
+   [
+    "Update: I've cuffed myself.",
+    "The key is on the table. Out of reach.",
+    "This is either a confession or a request for assistance. You decide. 🔑"
+   ]
+  ],
+  "isabelle|lavendelbad|knapp": [
+   "gasp",
+   [
+    "Nonna says a lavender bath calms the nerves 🌿",
+    "it's not working",
+    "I keep looking at my phone instead"
+   ]
+  ],
+  "isabelle|lavendelbad|oben_ohne": [
+   "sigh",
+   [
+    "the robe keeps slipping. that's the robe's fault, not mine 🙈",
+    "sorry. I'm sorry. I'm not sorry. I don't know what I am tonight"
+   ]
+  ],
+  "isabelle|lavendelbad|nackt": [
+   "sigh",
+   [
+    "I'm in the bath now",
+    "the candles are lit and the door is locked and I'm thinking about you, which is probably a sin 🕯️",
+    "I'll pray about it. later."
+   ]
+  ],
+  "jana|shibari|knapp": [
+   "laugh",
+   [
+    "Sir!! I learned a new one 🪢",
+    "it's called a karada. I tied it myself. on me",
+    "is that weird? Chiara says it's weird. I'm very proud of it though"
+   ]
+  ],
+  "jana|shibari|oben_ohne": [
+   "gasp",
+   [
+    "sorry, I just wanted to show you how neat it is",
+    "look how even the knots are. LOOK at the knots, Sir, not at – ok you can look",
+    "😳"
+   ]
+  ],
+  "jana|shibari|nackt": [
+   "sigh",
+   [
+    "it's the only thing I'm really good at",
+    "and I wanted to be good at something for you 🥺",
+    "you can untie it. if you want. it's a slip knot"
+   ]
+  ],
+  "lea|plankton|knapp": [
+   "laugh",
+   [
+    "THE BAY IS GLOWING 🌊✨",
+    "it's dinoflagellates! they light up when you move",
+    "I'm basically a nightlight right now. come see"
+   ]
+  ],
+  "lea|plankton|oben_ohne": [
+   "chuckle",
+   [
+    "did you know they glow to scare off predators",
+    "it's not working on me. I'm not scared at all. ok, a bit 🙈",
+    "come swim?"
+   ]
+  ],
+  "lea|plankton|nackt": [
+   "sigh",
+   [
+    "no wetsuit, nothing, just me and the glow",
+    "Opa would say I've gone mad",
+    "maybe I have. come and find out 🐙💙"
+   ]
+  ],
+  "lola|sahne|knapp": [
+   "laugh",
+   [
+    "dessert test run 🍒",
+    "the cream's for the pavlova. mostly",
+    "don't tell anyone I told you"
+   ]
+  ],
+  "lola|sahne|oben_ohne": [
+   "laugh",
+   [
+    "ok change of plan, I'm the dessert now 🍓",
+    "hahaha I can't believe I wrote that",
+    "I'm not deleting it though"
+   ]
+  ],
+  "lola|sahne|nackt": [
+   "chuckle",
+   [
+    "chocolate spread everywhere, Boss. like, everywhere 🙈",
+    "mostly the Nutella",
+    "someone has to clean this up and it's not gonna be me 😇"
+   ]
+  ],
+  "megan|hubschrauber|knapp": [
+   "chuckle",
+   [
+    "Monaco to Antibes. Twelve minutes.",
+    "I'm told the pilot can't see the back. I'm choosing to trust him. 🚁",
+    "I'm choosing to trust you too. Don't let it become a habit."
+   ]
+  ],
+  "megan|hubschrauber|oben_ohne": [
+   "laugh",
+   [
+    "Four hundred metres above my own fleet, wearing my pearls and very little else.",
+    "Nobody on that board would believe it.",
+    "Only you get to know. Consider it a promotion. ♟️"
+   ]
+  ],
+  "megan|hubschrauber|nackt": [
+   "sigh",
+   [
+    "We land in six minutes.",
+    "I could have the pilot circle until you reply.",
+    "I have the fuel. Do you have the nerve?"
+   ]
+  ],
+  "rosi|strand|knapp": [
+   "laugh",
+   [
+    "day off. found a beach. found a boat 🚤",
+    "the boat is a disaster. I love it",
+    "red is my colour, admit it, Officer 😏"
+   ]
+  ],
+  "rosi|strand|oben_ohne": [
+   "chuckle",
+   [
+    "bet you can't fix this boat faster than me",
+    "loser does what the winner says",
+    "I'm already winning. look 😤"
+   ]
+  ],
+  "rosi|strand|nackt": [
+   "sigh",
+   [
+    "ok. I lost the bet",
+    "on purpose. don't tell anyone",
+    "so. what does the winner want? 🔧"
+   ]
+  ],
+  "siri|dessous|knapp": [
+   "laugh",
+   [
+    "a brand sent me this 🎀",
+    "I'm not allowed to post it before the launch",
+    "so technically I'm not posting it, I'm sending it. to one person. that's allowed, right?"
+   ]
+  ],
+  "siri|dessous|oben_ohne": [
+   "chuckle",
+   [
+    "the brand would kill me 🙈",
+    "but the brand isn't here and you are. kind of. in my phone",
+    "is pink ok? I can never tell what people actually like"
+   ]
+  ],
+  "siri|dessous|nackt": [
+   "sigh",
+   [
+    "no ring light, no angles, no sponsor",
+    "just the stockings and me 🤍",
+    "I wanted you to see me before anyone else gets to"
+   ]
+  ],
+  "sophia|noir|knapp": [
+   "chuckle",
+   [
+    "Chapter one: the detective arrives at midnight 🕵️‍♀️",
+    "She's wearing a trench coat. Only a trench coat.",
+    "I'm told it's terribly clichéd. I'm doing the research anyway."
+   ]
+  ],
+  "sophia|noir|oben_ohne": [
+   "laugh",
+   [
+    "Chapter two: the detective takes off her coat.",
+    "The reader is expected to be shocked.",
+    "Are you shocked, darling? Take notes. 📓"
+   ]
+  ],
+  "sophia|noir|nackt": [
+   "sigh",
+   [
+    "Chapter three: the detective is caught.",
+    "Her hands are tied. Loosely. She could get free.",
+    "She doesn't want to. I haven't written the ending yet. You might. 🖋️"
+   ]
+  ],
+  "bibi|station|knapp": [
+   "chuckle",
+   [
+    "ok so",
+    "no animals in this one. i checked twice 😏",
+    "the goat walked in right after. we don't talk about it"
+   ]
+  ],
+  "bibi|station|oben_ohne": [
+   "gasp",
+   [
+    "i'm not going to explain this one, mon loup",
+    "i washed. for you. i'm deleting this in 5 min",
+    "...10 min 🙈"
+   ]
+  ],
+  "bibi|station|nackt": [
+   "sigh",
+   [
+    "the door's shut",
+    "they can all wait, chéri",
+    "come up the hill. bring nothing. i mean it 🖤"
+   ]
+  ]
+ },
+ "nachschlag": {
+  "alva": {
+   "knapp": [
+    "chuckle",
+    [
+     "ok that was the drink",
+     "delete it. or dont. no delete it 🙈"
+    ]
+   ],
+   "oben_ohne": [
+    "laugh",
+    [
+     "oh god what did i send",
+     "the bottle made me do it. blame the bottle 😅"
+    ]
+   ],
+   "nackt": [
+    "sigh",
+    [
+     "im going to regret this in the morning arent i",
+     "...dont delete it though 🤫"
+    ]
+   ]
+  },
+  "chiara": {
+   "knapp": [
+    "chuckle",
+    [
+     "Hello?? 👀",
+     "Seen at 23:14. Wow. Zero out of ten for manners."
+    ]
+   ],
+   "oben_ohne": [
+    "laugh",
+    [
+     "You're seriously leaving me on read?",
+     "Fine. Then I'm rating YOU. Three. And that's generous. 😤"
+    ]
+   ],
+   "nackt": [
+    "sigh",
+    [
+     "Duc.",
+     "Say something or I'm coming down there. I know which cabin is yours. 😈"
+    ]
+   ]
+  },
+  "elsa": {
+   "knapp": [
+    "clear throat",
+    [
+     "Previous message sent in error.",
+     "Please disregard. And delete. Thank you. 🙃"
+    ]
+   ],
+   "oben_ohne": [
+    "sigh",
+    [
+     "I have reviewed my conduct and found it… unprofessional.",
+     "Do not tell Totò. He would never let it go. 🙈"
+    ]
+   ],
+   "nackt": [
+    "chuckle",
+    [
+     "I'm going to pretend this was a dream.",
+     "You may pretend too. Or not. Your call, First Officer."
+    ]
+   ]
+  },
+  "isabelle": {
+   "knapp": [
+    "gasp",
+    [
+     "I'm so sorry 😳",
+     "please delete it, I don't know what came over me"
+    ]
+   ],
+   "oben_ohne": [
+    "sigh",
+    [
+     "oh dear Lord",
+     "I knelt down to pray and had to get up again because I can't stop thinking about what I sent 🙈"
+    ]
+   ],
+   "nackt": [
+    "sigh",
+    [
+     "I should never have done that",
+     "...but if you look at it again, just once, that's fine. I suppose. 🙏"
+    ]
+   ]
+  },
+  "jana": {
+   "knapp": [
+    "gasp",
+    [
+     "sorry sorry sorry 🙈",
+     "please delete it Sir"
+    ]
+   ],
+   "oben_ohne": [
+    "gasp",
+    [
+     "Jessas, I'm so embarrassed 😳",
+     "I'll never be able to look at you at breakfast again"
+    ]
+   ],
+   "nackt": [
+    "sigh",
+    [
+     "was that a mistake",
+     "please say it wasn't a mistake 🥺"
+    ]
+   ]
+  },
+  "lea": {
+   "knapp": [
+    "chuckle",
+    [
+     "ok that was weird wasn't it 😅",
+     "you can delete it. nobody has to know"
+    ]
+   ],
+   "oben_ohne": [
+    "gasp",
+    [
+     "oh no oh no",
+     "I think I just made it really awkward 🙈 forget it? please?"
+    ]
+   ],
+   "nackt": [
+    "sigh",
+    [
+     "did I just ruin everything",
+     "tell me I didn't ruin everything 🥺"
+    ]
+   ]
+  },
+  "lola": {
+   "knapp": [
+    "laugh",
+    [
+     "hahaha ok that was dumb 🤦‍♀️",
+     "delete it Boss. or frame it. no, delete it"
+    ]
+   ],
+   "oben_ohne": [
+    "sigh",
+    [
+     "oh no. I've done it again haven't I 😬",
+     "I always do too much. sorry. forget it"
+    ]
+   ],
+   "nackt": [
+    "sigh",
+    [
+     "did I go too far",
+     "I went too far didn't I. I'll just be in the galley. forever 🙈"
+    ]
+   ]
+  },
+  "megan": {
+   "knapp": [
+    "clear throat",
+    [
+     "You've read it. I can see that.",
+     "Silence is a negotiating tactic, Duc. A poor one. ♟️"
+    ]
+   ],
+   "oben_ohne": [
+    "sigh",
+    [
+     "Nobody leaves me waiting.",
+     "Not the board, not the press, and certainly not you. Answer."
+    ]
+   ],
+   "nackt": [
+    "sigh",
+    [
+     "I don't send things like that twice.",
+     "Think very carefully about what your silence is telling me."
+    ]
+   ]
+  },
+  "rosi": {
+   "knapp": [
+    "sigh",
+    [
+     "…ok. no answer. fine.",
+     "it was a stupid photo anyway"
+    ]
+   ],
+   "oben_ohne": [
+    "sigh",
+    [
+     "you know what, forget it",
+     "stupid idea. I'll stick to machines. at least they react 😒"
+    ]
+   ],
+   "nackt": [
+    "sigh",
+    [
+     "right.",
+     "I'll take that as a no. don't mention it tomorrow."
+    ]
+   ]
+  },
+  "siri": {
+   "knapp": [
+    "gasp",
+    [
+     "sorry, was that too much? 🙈",
+     "you can delete it, it's really ok"
+    ]
+   ],
+   "oben_ohne": [
+    "sigh",
+    [
+     "oh no. that was too much, wasn't it 😣",
+     "I'm so used to everyone liking everything. please just be honest"
+    ]
+   ],
+   "nackt": [
+    "sigh",
+    [
+     "I'm shaking a bit",
+     "please don't screenshot it. I trust you. that's the scary part 🥺"
+    ]
+   ]
+  },
+  "sophia": {
+   "knapp": [
+    "sigh",
+    [
+     "Hm. No reply.",
+     "I bet myself ten euros you'd answer. That's ten euros lost. I'll survive."
+    ]
+   ],
+   "oben_ohne": [
+    "chuckle",
+    [
+     "I'll take the silence as a review.",
+     "Noted. 📓"
+    ]
+   ],
+   "nackt": [
+    "sigh",
+    [
+     "I don't show that to anyone. That was the first time.",
+     "I won't make that mistake again, darling."
+    ]
+   ]
+  },
+  "bibi": {
+   "knapp": [
+    "sigh",
+    [
+     "ok you didn't answer",
+     "that's fine!! it's fine. i'm feeding everyone very loudly now"
+    ]
+   ],
+   "oben_ohne": [
+    "sigh",
+    [
+     "was that too much. it was too much wasn't it",
+     "sorry. i do that"
+    ]
+   ],
+   "nackt": [
+    "sigh",
+    [
+     "you're asleep. you're asleep, right?",
+     "tell me you're asleep 🙈"
+    ]
+   ]
+  }
+ }
+}

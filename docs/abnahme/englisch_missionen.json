@@ -1,0 +1,1176 @@
+{
+ "id": "englisch_missionen",
+ "titel": "Englisch · Paket 4: Missionen",
+ "gruppen": [
+  {
+   "titel": "Missionen",
+   "items": [
+    {
+     "key": "missionen:L26.0",
+     "alt": "Kochkurs: Lola lernt Thịt kho",
+     "neu": "Cooking Class: Lola Learns Thịt Kho"
+    },
+    {
+     "key": "missionen:L28.0",
+     "alt": "Lola will wissen, wie man Schweinebauch karamellisiert, ohne die Kombüse anzuzünden. Sie hat Notizen vorbereitet. Auf einer steht nur „nicht anzünden“.",
+     "neu": "Lola wants to know how to caramelise pork belly without setting the galley on fire. She has prepared notes. One of them just says “don't set on fire”."
+    },
+    {
+     "key": "missionen:L30.0",
+     "alt": "Lolas erster Thịt kho glänzt. Sie umarmt dich mit Kochlöffel in der Hand und schenkt dir ihr letztes Glas Vegemite.",
+     "neu": "Lola's first thịt kho gleams. She hugs you with the wooden spoon still in her hand and gives you her last jar of Vegemite."
+    },
+    {
+     "key": "missionen:L31.0",
+     "alt": "Der Zucker wird schwarz. Lola lacht so sehr, dass sie sich setzen muss.",
+     "neu": "The sugar turns black. Lola laughs so hard she has to sit down."
+    },
+    {
+     "key": "missionen:L33.0",
+     "alt": "Alvas Kassenbuch",
+     "neu": "Alva's Accounts"
+    },
+    {
+     "key": "missionen:L35.0",
+     "alt": "Alvas Kassenbuch ist ein Schuhkarton voller Zettel. Die Steuer will Zahlen bis Monatsende. Sie stellt dir einen Myrtenlikör hin und schiebt den Karton über die Theke.",
+     "neu": "Alva's accounts are a shoebox full of receipts. The tax office wants figures by the end of the month. She puts a myrtle liqueur in front of you and slides the box across the bar."
+    },
+    {
+     "key": "missionen:L37.0",
+     "alt": "Drei Spalten, eine Summe, ein vergessener Lieferant, der ihr Geld schuldet. Alva küsst dich auf die Stirn.",
+     "neu": "Three columns, one total, and a forgotten supplier who owes her money. Alva kisses you on the forehead."
+    },
+    {
+     "key": "missionen:L38.0",
+     "alt": "Die Zahlen gehen fast auf. Alva zahlt die Hälfte und nennt dich trotzdem „Commercialista“.",
+     "neu": "The figures almost add up. Alva pays half and calls you “Commercialista” anyway."
+    },
+    {
+     "key": "missionen:L39.0",
+     "alt": "Ein Nachhaltigkeitsplan für die Festa",
+     "neu": "A Sustainability Plan for the Festa"
+    },
+    {
+     "key": "missionen:L42.0",
+     "alt": "Madame Casanova hat gehört, dass du Nachhaltigkeitsberater bist. Sie will die grünste Festa Korsikas. Mit Feuerwerk. Und Einweggrills. Und vierhundert Luftballons.",
+     "neu": "Madame Casanova has heard that you're a sustainability consultant. She wants the greenest festa in Corsica. With fireworks. And disposable barbecues. And four hundred balloons."
+    },
+    {
+     "key": "missionen:L44.0",
+     "alt": "Pfandbecher, Lichterketten statt Fackeln, Fisch von Petru. Sie nennt es ihre Idee und schenkt dir ihre Konfettikanone.",
+     "neu": "Deposit cups, fairy lights instead of torches, fish from Petru. She calls it her idea and gives you her confetti cannon."
+    },
+    {
+     "key": "missionen:L45.0",
+     "alt": "Die Luftballons bleiben. Die Einweggrills nicht. Ein halber Sieg und ein halber Lohn.",
+     "neu": "The balloons stay. The disposable barbecues don't. Half a victory and half the pay."
+    },
+    {
+     "key": "missionen:L47.0",
+     "alt": "Petrus alter Bootsmotor",
+     "neu": "Petru's Old Boat Engine"
+    },
+    {
+     "key": "missionen:L49.0",
+     "alt": "In Petrus Werkstatt steht ein Motor unter einer Plane. Ein Volvo Penta, älter als du. Er gehörte seinem Vater. Petru zieht die Plane weg und sagt nichts.",
+     "neu": "In Petru's workshop an engine sits under a tarpaulin. A Volvo Penta, older than you. It belonged to his father. Petru pulls the tarpaulin off and says nothing."
+    },
+    {
+     "key": "missionen:L51.0",
+     "alt": "Der Motor dreht zum ersten Mal seit Jahren. Petru legt dir eine Hand auf die Schulter und lässt sie dort.",
+     "neu": "The engine turns over for the first time in years. Petru puts a hand on your shoulder and leaves it there."
+    },
+    {
+     "key": "missionen:L52.0",
+     "alt": "Er hustet und bleibt stehen. Petru nickt. „Morgen.“",
+     "neu": "It coughs and dies. Petru nods. “Tomorrow.”"
+    },
+    {
+     "key": "missionen:L53.0",
+     "alt": "Die erste Ausfahrt",
+     "neu": "The First Trip Out"
+    },
+    {
+     "key": "missionen:L56.0",
+     "alt": "Petru will den Motor auf dem Wasser hören. Im Boot seines Vaters, mit dir am Ruder, einmal um die Hafenmole.",
+     "neu": "Petru wants to hear the engine on the water. In his father's boat, with you at the helm, once around the harbour wall."
+    },
+    {
+     "key": "missionen:L57.0",
+     "alt": "Sie laufen aus. Petru erzählt eine ganze Geschichte, mit Anfang und Ende. Am Steg gibt er dir den Hammer seines Vaters.",
+     "neu": "You head out. Petru tells a whole story, with a beginning and an end. At the jetty he gives you his father's hammer."
+    },
+    {
+     "key": "missionen:L58.0",
+     "alt": "Kurz vor der Mole streikt der Motor. Ihr rudert zurück. Petru lacht. Das hat noch niemand gehört.",
+     "neu": "Just short of the harbour wall the engine quits. You row back. Petru laughs. Nobody has ever heard that before."
+    },
+    {
+     "key": "missionen:L60.0",
+     "alt": "Kühlung: Eis besorgen",
+     "neu": "Cooling: Fetch Ice"
+    },
+    {
+     "key": "missionen:L62.0",
+     "alt": "Totò hat Stangeneis im Lagerraum. Das rettet die Festa-Ware für heute – morgen schwitzt sie wieder.",
+     "neu": "Totò has block ice in the storeroom. That saves the festa stock for today – tomorrow it starts sweating again."
+    },
+    {
+     "key": "missionen:L63.0",
+     "alt": "Du schleppst zwei Stangen Eis in Alvas Keller. „Für heute bist du mein Held. Morgen sehen wir weiter.“",
+     "neu": "You haul two blocks of ice down to Alva's cellar. “Today you're my hero. Tomorrow we'll see.”"
+    },
+    {
+     "key": "missionen:L64.0",
+     "alt": "Kühlung: selbst reparieren",
+     "neu": "Cooling: Repair It Yourself"
+    },
+    {
+     "key": "missionen:L67.0",
+     "alt": "Der Kompressor ist tot, die ganze Festa-Ware schwitzt. Zerlegen, Relais tauschen – gelingt es, läuft die Kühlung für immer, und Alva zahlt.",
+     "neu": "The compressor is dead, and all the festa stock is sweating. Take it apart, swap the relay – if it works, the cooling runs for good and Alva pays."
+    },
+    {
+     "key": "missionen:L69.0",
+     "alt": "Der Kompressor brummt wieder. Alva stellt dir einen Myrtenlikör hin und zahlt, ohne zu verhandeln.",
+     "neu": "The compressor hums again. Alva puts a myrtle liqueur in front of you and pays without haggling."
+    },
+    {
+     "key": "missionen:L70.0",
+     "alt": "Ein Funke, ein Knall, Stille. Alva seufzt. „Dann eben Eis. Oder Totò.“",
+     "neu": "A spark, a bang, silence. Alva sighs. “Ice, then. Or Totò.”"
+    },
+    {
+     "key": "missionen:L71.0",
+     "alt": "Kühlung: Totò um ein Relais bitten",
+     "neu": "Cooling: Ask Totò for a Relay"
+    },
+    {
+     "key": "missionen:L73.0",
+     "alt": "Totò hat „zufällig“ genau das Relais, das Alvas Kompressor braucht. Er will kein Geld. Er will, dass du dich erinnerst.",
+     "neu": "Totò “happens” to have exactly the relay Alva's compressor needs. He doesn't want money. He wants you to remember."
+    },
+    {
+     "key": "missionen:L74.0",
+     "alt": "Das Relais passt. Alva ist glücklich. Totò zwinkert dir zu: „Du schuldest mir eine Kleinigkeit, Comandante.“",
+     "neu": "The relay fits. Alva is happy. Totò winks at you. “You owe me a little something, Comandante.”"
+    },
+    {
+     "key": "missionen:L75.0",
+     "alt": "Totòs kleine Kiste",
+     "neu": "Totò's Little Crate"
+    },
+    {
+     "key": "missionen:L78.0",
+     "alt": "„Erinnerst du dich an das Relais? Ich hätte da eine kleine Kiste, die heute Nacht an Elsas Boot vorbei muss.“",
+     "neu": "“Remember the relay? I have a little crate that needs to get past Elsa's boat tonight.”"
+    },
+    {
+     "key": "missionen:L79.0",
+     "alt": "Die Kiste ist drüben, Elsa hat nichts gesehen. Totò nennt dich „Fratello“. Ihr seid quitt.",
+     "neu": "The crate is across, Elsa saw nothing. Totò hugs you like a brother. You're square."
+    },
+    {
+     "key": "missionen:L80.0",
+     "alt": "Elsas Lampe streift das Beiboot. Niemand wird verhaftet, aber das Dorf redet.",
+     "neu": "Elsa's lamp sweeps over the dinghy. Nobody gets arrested, but the village talks."
+    },
+    {
+     "key": "missionen:L82.0",
+     "alt": "Eine Ersatzbatterie für Rosi",
+     "neu": "A Spare Battery for Rosi"
+    },
+    {
+     "key": "missionen:L84.0",
+     "alt": "Zwei Zellen der Hotelbatterie sind hinüber. Rosi braucht Ersatzzellen, egal woher. „Frag nicht Chiara, wie viel sie kosten.“",
+     "neu": "Two cells of the hotel battery are dead. Rosi needs replacements, no matter where from. “Don't ask Chiara what they cost.”"
+    },
+    {
+     "key": "missionen:L85.0",
+     "alt": "Rosi klemmt die Zellen an, das Display springt auf Grün. Sie wischt sich Öl von der Stirn und grinst dich an.",
+     "neu": "Rosi clamps the cells in and the display jumps to green. She wipes oil off her forehead and grins at you."
+    },
+    {
+     "key": "missionen:L92.0",
+     "alt": "Petrus Netze flicken",
+     "neu": "Mending Petru's Nets"
+    },
+    {
+     "key": "missionen:L94.0",
+     "alt": "Petru zeigt auf einen Haufen Netze und sagt nichts. Das ist ein Angebot.",
+     "neu": "Petru points at a heap of nets and says nothing. That's an offer."
+    },
+    {
+     "key": "missionen:L95.0",
+     "alt": "Petru nickt einmal. Bei ihm ist das ein Orden.",
+     "neu": "Petru nods once. From him, that's a medal."
+    },
+    {
+     "key": "missionen:L95.1",
+     "alt": "Zwei Löcher übersehen. Petru zahlt trotzdem etwas.",
+     "neu": "You missed two holes. Petru pays something anyway."
+    },
+    {
+     "key": "missionen:L96.0",
+     "alt": "Funkgerät im Küstenwache-Posten",
+     "neu": "The Radio at the Coast Guard Post"
+    },
+    {
+     "key": "missionen:L98.0",
+     "alt": "Elsas Funkgerät nach Ajaccio rauscht. Ohne Funk keine Bergung – sie zahlt bar und hasst es, fragen zu müssen.",
+     "neu": "Elsa's radio link to Ajaccio is crackling. No radio, no salvage – she pays cash and hates having to ask."
+    },
+    {
+     "key": "missionen:L99.0",
+     "alt": "Klarer Empfang. Elsa nickt einmal – das ist bei ihr ein Orden.",
+     "neu": "Clear reception. Elsa nods once – from her, that's a medal."
+    },
+    {
+     "key": "missionen:L99.1",
+     "alt": "Es rauscht weniger. Elsa zahlt die Hälfte.",
+     "neu": "It crackles less. Elsa pays half."
+    },
+    {
+     "key": "missionen:L100.0",
+     "alt": "Englisch für die Neffen der Bürgermeisterin",
+     "neu": "English for the Mayor's Nieces and Nephews"
+    },
+    {
+     "key": "missionen:L102.0",
+     "alt": "Ein Neffe, eine Nichte, eine Stunde, ein Schulbuch. Madame Casanova zahlt bar und erzählt es dem ganzen Dorf.",
+     "neu": "One nephew, one niece, one hour, one schoolbook. Madame Casanova pays cash and tells the whole village."
+    },
+    {
+     "key": "missionen:L103.0",
+     "alt": "Die Kinder lachen und können „anchor“ sagen. Das Dorf redet gut über dich.",
+     "neu": "The children laugh and can say “anchor”. The village speaks well of you."
+    },
+    {
+     "key": "missionen:L103.1",
+     "alt": "Chaos, aber herzlich. Halber Lohn.",
+     "neu": "Chaos, but warm-hearted chaos. Half pay."
+    },
+    {
+     "key": "missionen:L104.0",
+     "alt": "Yasins Drohne aus dem Wasser holen",
+     "neu": "Fish Yasin's Drone Out of the Water"
+    },
+    {
+     "key": "missionen:L106.0",
+     "alt": "Yasins Drohne ist neben dem Anker ins Wasser gefallen. Sechs Meter tief. Er zahlt bar, in Scheinen.",
+     "neu": "Yasin's drone has fallen into the water next to the anchor. Six metres down. He pays cash, in notes."
+    },
+    {
+     "key": "missionen:L107.0",
+     "alt": "Du tauchst sie hoch. Yasin zahlt und filmt dich dabei.",
+     "neu": "You dive it up. Yasin pays and films you doing it."
+    },
+    {
+     "key": "missionen:L107.1",
+     "alt": "Du findest nur den Akku. Yasin zahlt widerwillig die Hälfte.",
+     "neu": "You only find the battery. Yasin grudgingly pays half."
+    },
+    {
+     "key": "missionen:L108.0",
+     "alt": "Eine Kiste für Totò umladen",
+     "neu": "Move a Crate for Totò"
+    },
+    {
+     "key": "missionen:L110.0",
+     "alt": "„Nicht reinschauen, Comandante. Einfach vom Beiboot in den Lagerraum. Und wenn die Leutnantin fragt: Kartoffeln.“",
+     "neu": "“Don't look inside, Comandante. Just from the tender into the storeroom. And if the Lieutenant asks: potatoes.”"
+    },
+    {
+     "key": "missionen:L111.0",
+     "alt": "Niemand hat etwas gesehen. Totò küsst dich auf beide Wangen.",
+     "neu": "Nobody saw a thing. Totò kisses you on both cheeks."
+    },
+    {
+     "key": "missionen:L111.1",
+     "alt": "Elsa hat etwas gesehen. Totò zahlt trotzdem halb – und schwitzt.",
+     "neu": "Elsa saw something. Totò pays half anyway – and sweats."
+    },
+    {
+     "key": "missionen:L112.0",
+     "alt": "Außenborder eines Fischers",
+     "neu": "A Fisherman's Outboard"
+    },
+    {
+     "key": "missionen:L114.0",
+     "alt": "Petrus Nachbar hat einen Außenborder, der stottert. Petru hat dich empfohlen. Das ist neu.",
+     "neu": "Petru's neighbour has an outboard that stutters. Petru recommended you. That's new."
+    },
+    {
+     "key": "missionen:L115.0",
+     "alt": "Er schnurrt wie neu. Der Fischer zahlt und bringt morgen Fisch.",
+     "neu": "It purrs like new. The fisherman pays and brings fish tomorrow."
+    },
+    {
+     "key": "missionen:L115.1",
+     "alt": "Er läuft, aber laut. Halber Lohn.",
+     "neu": "It runs, but loudly. Half pay."
+    },
+    {
+     "key": "missionen:L116.0",
+     "alt": "Frühstück für die Gäste zaubern",
+     "neu": "Conjure Up Breakfast for the Guests"
+    },
+    {
+     "key": "missionen:L118.0",
+     "alt": "Yasin will Eggs Benedict ohne Strom. Er zahlt Trinkgeld, wenn es klappt. Viel Trinkgeld.",
+     "neu": "Yasin wants eggs Benedict without power. He'll tip if it works. A big tip."
+    },
+    {
+     "key": "missionen:L119.0",
+     "alt": "Campingkocher, Charme und gutes Timing. Yasin gibt großzügig Trinkgeld.",
+     "neu": "A camping stove, charm and good timing. Yasin tips generously."
+    },
+    {
+     "key": "missionen:L119.1",
+     "alt": "Die Eier sind hart. Das Trinkgeld auch.",
+     "neu": "The eggs are hard. So is the tip."
+    },
+    {
+     "key": "missionen:L125.0",
+     "alt": "Batteriezellen durchmessen",
+     "neu": "Testing the Battery Cells"
+    },
+    {
+     "key": "missionen:L127.0",
+     "alt": "Vierundzwanzig Zellen, ein Multimeter, eine Taschenlampe. Rosi liest vor, du misst – irgendwo ist eine faul.",
+     "neu": "Twenty-four cells, a multimeter, a torch. Rosi reads out, you measure – one of them is bad somewhere."
+    },
+    {
+     "key": "missionen:L128.0",
+     "alt": "Unit-01 entlüften",
+     "neu": "Bleeding Unit-01"
+    },
+    {
+     "key": "missionen:L130.0",
+     "alt": "Luft in der Dieselleitung des Notgenerators. Rosi hält die Lampe und flucht leise auf Sizilianisch.",
+     "neu": "Air in the diesel line of the emergency generator. Rosi holds the torch and swears quietly in Sicilian."
+    },
+    {
+     "key": "missionen:L131.0",
+     "alt": "Kühlraum-Inventur",
+     "neu": "Cold Room Inventory"
+    },
+    {
+     "key": "missionen:L133.0",
+     "alt": "Was hält noch, was muss heute weg? Chiara will eine Liste, bevor der Kühlraum warm wird – und aus dem, was weg muss, ein Essen für alle, bevor es Lola zu einem Experiment macht.",
+     "neu": "What will keep, and what has to go today? Chiara wants a list before the cold room warms up – and a meal for everyone out of whatever has to go, before Lola turns it into an experiment."
+    },
+    {
+     "key": "missionen:L135.0",
+     "alt": "Gästebeschwerde abfangen",
+     "neu": "Heading Off a Guest Complaint"
+    },
+    {
+     "key": "missionen:L137.0",
+     "alt": "Yasin droht mit einer Ein-Stern-Bewertung für die ganze Crew. Chiara braucht jemanden, der ihn freundlich ausbremst.",
+     "neu": "Yasin is threatening a one-star review for the whole crew. Chiara needs someone to slow him down, nicely."
+    },
+    {
+     "key": "missionen:L138.0",
+     "alt": "Papiere zur Küstenwache bringen",
+     "neu": "Taking the Papers to the Coast Guard"
+    },
+    {
+     "key": "missionen:L140.0",
+     "alt": "Ankererlaubnis, Crewliste, ein Stempel fehlt. Sophia hat die Mappe sortiert – bringen sollst du sie.",
+     "neu": "Anchoring permit, crew list, one stamp missing. Sophia has sorted the folder – you're the one taking it over."
+    },
+    {
+     "key": "missionen:L141.0",
+     "alt": "Einen Diesel-Gefallen einfädeln",
+     "neu": "Arranging a Diesel Favour"
+    },
+    {
+     "key": "missionen:L143.0",
+     "alt": "Sophia kennt jemanden, der jemanden kennt, der einen Kanister übrig hat. Sie braucht nur dein Gesicht dazu.",
+     "neu": "Sophia knows someone who knows someone who has a canister to spare. All she needs is your face."
+    },
+    {
+     "key": "missionen:L144.0",
+     "alt": "Ankerkette tauchend prüfen",
+     "neu": "Diving to Check the Anchor Chain"
+    },
+    {
+     "key": "missionen:L146.0",
+     "alt": "Lea will sehen, ob der Anker wirklich hält. Sieben Meter, klares Wasser, ein Seeigel-Feld.",
+     "neu": "Lea wants to see whether the anchor really holds. Seven metres, clear water, a patch of sea urchins."
+    },
+    {
+     "key": "missionen:L147.0",
+     "alt": "Fotos ohne Yasin",
+     "neu": "Photos Without Yasin"
+    },
+    {
+     "key": "missionen:L149.0",
+     "alt": "Siri will Bilder, auf denen sie nicht posiert. Nur Licht, Wasser und sie. Du hältst die Kamera.",
+     "neu": "Siri wants pictures where she isn't posing. Just light, water and her. You hold the camera."
+    },
+    {
+     "key": "missionen:L150.0",
+     "alt": "Meeresproben sammeln",
+     "neu": "Collecting Sea Samples"
+    },
+    {
+     "key": "missionen:L152.0",
+     "alt": "Siri hat Seegras-Proben gesammelt – sie will Meeresbiologie studieren. Sie hat es noch niemandem gesagt.",
+     "neu": "Siri has collected seagrass samples – she wants to study marine biology. She hasn't told anyone yet."
+    },
+    {
+     "key": "missionen:L153.0",
+     "alt": "Glasröhrchen, ein Notizbuch, die Badeplattform. Siri erklärt dir Seegras, als wäre es das Spannendste der Welt.",
+     "neu": "Glass tubes, a notebook, the swim platform. Siri explains seagrass to you as if it were the most exciting thing in the world."
+    },
+    {
+     "key": "missionen:L155.0",
+     "alt": "Diesel unter der Theke",
+     "neu": "Diesel Under the Bar"
+    },
+    {
+     "key": "missionen:L157.0",
+     "alt": "Alva hat da „etwas im Keller“. Abholen musst du es selbst, und zwar so, dass die Leutnantin es nicht sieht.",
+     "neu": "Alva has “something in the cellar”. You'll have to collect it yourself, and in a way the Lieutenant doesn't see."
+    },
+    {
+     "key": "missionen:L158.0",
+     "alt": "Festa-Banner aufhängen",
+     "neu": "Hanging the Festa Banner"
+    },
+    {
+     "key": "missionen:L160.0",
+     "alt": "Zwanzig Meter Stoff, ein Kirchturm, eine Leiter von 1962. Madame Casanova spendiert dafür eine Einladung zur Festa.",
+     "neu": "Twenty metres of fabric, a church tower, a ladder from 1962. In return Madame Casanova offers you an invitation to the festa."
+    },
+    {
+     "key": "missionen:L161.0",
+     "alt": "Nachtfahrt mit Totòs Cousin",
+     "neu": "Night Run with Totò's Cousin"
+    },
+    {
+     "key": "missionen:L163.0",
+     "alt": "Ein Schlauchboot aus Bastia, keine Lichter, eine Stunde nach Mitternacht. „Du steuerst nur, Comandante.“",
+     "neu": "A dinghy from Bastia, no lights, an hour after midnight. “You only steer, Comandante.”"
+    },
+    {
+     "key": "missionen:L190.0",
+     "alt": "Ein Schild für Rosi: das Brett",
+     "neu": "A Sign for Rosi: The Board"
+    },
+    {
+     "key": "missionen:L191.0",
+     "alt": "Petru hat Rosi gestern vor seiner Werkstatt stehen sehen. Sie hat lange auf das leere Brett über seiner Tür geschaut und gesagt: „Scuderi & Figlie. So hätte Papa es genannt.“ Petru will ihr eines schnitzen. Er schnitzt nur in Eiche, und Eiche hat im Dorf nur Alva.",
+     "neu": "Yesterday Petru saw Rosi standing outside his workshop. She looked at the empty board above his door for a long time and said, “Scuderi & Figlie. That's what Papa would have called it.” Petru wants to carve her one. He only carves oak, and the only oak in the village belongs to Alva."
+    },
+    {
+     "key": "missionen:L194.0",
+     "alt": "Petru klopft auf das Holz, hört hin und nickt. „Gut. Jetzt sägen wir.“",
+     "neu": "Petru knocks on the wood, listens, and nods. “Good. Now we saw.”"
+    },
+    {
+     "key": "missionen:L196.0",
+     "alt": "Ein Schild für Rosi: schnitzen",
+     "neu": "A Sign for Rosi: Carving"
+    },
+    {
+     "key": "missionen:L197.0",
+     "alt": "Petru zeichnet die Buchstaben mit Kreide vor, seine Hand zittert dabei. Die Feinarbeit soll jemand machen, dessen Hände noch ruhig sind.",
+     "neu": "Petru chalks the letters out, and his hand shakes as he does it. The fine work should be done by someone whose hands are still steady."
+    },
+    {
+     "key": "missionen:L199.0",
+     "alt": "Die Kanten sind sauber. Petru fährt mit dem Daumen darüber. „Fehlt nur das Messing.“",
+     "neu": "The edges are clean. Petru runs his thumb along them. “Only the brass is missing.”"
+    },
+    {
+     "key": "missionen:L200.0",
+     "alt": "Ein Span reißt aus, genau im S. Petru hobelt die Stelle glatt. „Morgen. Langsamer.“",
+     "neu": "A splinter tears out, right in the S. Petru planes the spot smooth. “Tomorrow. Slower.”"
+    },
+    {
+     "key": "missionen:L202.0",
+     "alt": "Ein Schild für Rosi: die Buchstaben",
+     "neu": "A Sign for Rosi: The Letters"
+    },
+    {
+     "key": "missionen:L203.0",
+     "alt": "Messingbuchstaben bekommt man auf dieser Insel nur bei einem Mann, der nie fragt, wofür. Petru nennt ihn nicht beim Namen. Er schaut nur zur Yacht hinüber.",
+     "neu": "On this island you can only get brass letters from one man, a man who never asks what they're for. Petru doesn't say his name. He just looks over at the yacht."
+    },
+    {
+     "key": "missionen:L205.0",
+     "alt": "Petru schraubt den letzten Buchstaben fest und schiebt dir das Schild über die Werkbank. „Du gibst es ihr. Von mir nimmt sie nichts an.“",
+     "neu": "Petru screws the last letter in place and slides the sign across the workbench to you. “You give it to her. She won't take anything from me.”"
+    },
+    {
+     "key": "missionen:L209.0",
+     "alt": "Eine Tasse für Chiara: die Farben",
+     "neu": "A Mug for Chiara: The Colours"
+    },
+    {
+     "key": "missionen:L210.0",
+     "alt": "Chiara trinkt seit drei Wochen aus Gästetassen, weil Lola „die Crew-Tassen irgendwie verloren“ hat. Lola will Frieden schließen und Chiara eine eigene Tasse töpfern lassen. Dafür muss jemand herausfinden, welche Farben Chiara mag, ohne dass Chiara merkt, warum. Lola selbst kann das nicht. Chiara redet nicht mit ihr.",
+     "neu": "For three weeks Chiara has been drinking out of guest mugs, because Lola “somehow lost” the crew mugs. Lola wants to make peace and make Chiara a mug of her own on a potter's wheel. For that, someone has to find out which colours Chiara likes without Chiara noticing why. Lola can't do it herself. Chiara isn't speaking to her."
+    },
+    {
+     "key": "missionen:L213.0",
+     "alt": "Dunkelblau und ein schmaler Goldrand, wie die Streifen auf ihrer Uniform. Chiara hat nichts gemerkt. Lola kreischt leise in ein Geschirrtuch.",
+     "neu": "Dark blue with a thin gold rim, like the stripes on her uniform. Chiara noticed nothing. Lola squeals quietly into a tea towel."
+    },
+    {
+     "key": "missionen:L215.0",
+     "alt": "Chiara kneift die Augen zusammen. „Warum willst du das wissen?“ Du lenkst ab. Lola hält das für einen Teilerfolg.",
+     "neu": "Chiara narrows her eyes. “Why do you want to know?” You change the subject. Lola counts it as a partial success."
+    },
+    {
+     "key": "missionen:L217.0",
+     "alt": "Eine Tasse für Chiara: der Ton",
+     "neu": "A Mug for Chiara: The Clay"
+    },
+    {
+     "key": "missionen:L218.0",
+     "alt": "Petru hat eine alte Töpferscheibe und erlaubt Lola, sie zu benutzen, wenn sie ihren eigenen Ton mitbringt und nichts anfasst. Lola fasst immer alles an. Deshalb sollst du den Ton zu Petru bringen.",
+     "neu": "Petru has an old potter's wheel and lets Lola use it, as long as she brings her own clay and touches nothing. Lola always touches everything. That's why you are the one taking the clay to Petru."
+    },
+    {
+     "key": "missionen:L220.0",
+     "alt": "Petru stellt den Sack neben die Scheibe und zeigt mit dem Finger auf dich, nicht auf Lola.",
+     "neu": "Petru puts the sack down next to the wheel and points at you, not at Lola."
+    },
+    {
+     "key": "missionen:L222.0",
+     "alt": "Eine Tasse für Chiara: drehen",
+     "neu": "A Mug for Chiara: Throwing"
+    },
+    {
+     "key": "missionen:L223.0",
+     "alt": "Lola dreht, du hältst die Form, Petru schaut zu und sagt nichts. Der Rand muss gerade werden, sonst tropft es. Chiara hasst Tropfen.",
+     "neu": "Lola throws, you hold the shape, Petru watches and says nothing. The rim has to come out straight or it'll drip. Chiara hates drips."
+    },
+    {
+     "key": "missionen:L225.0",
+     "alt": "Die Tasse ist schief, aber nur ein bisschen. Lola malt den Goldrand mit der Zunge zwischen den Zähnen. Du sollst sie Chiara geben. „Von mir glaubt sie, da ist Gras drin.“",
+     "neu": "The mug is crooked, but only a little. Lola paints the gold rim with her tongue between her teeth. You're supposed to give it to Chiara. “If it's from me, she'll think there's weed in it.”"
+    },
+    {
+     "key": "missionen:L227.0",
+     "alt": "Die Scheibe dreht durch, der Ton fliegt gegen Petrus Wand. Petru sagt ein korsisches Wort. Morgen noch einmal.",
+     "neu": "The wheel spins out and the clay flies against Petru's wall. Petru says a Corsican word. Again tomorrow."
+    },
+    {
+     "key": "missionen:L231.0",
+     "alt": "Ein Fundstück für Lea",
+     "neu": "A Lost-and-Found for Lea"
+    },
+    {
+     "key": "missionen:L232.0",
+     "alt": "In Elsas Fundsachenkiste liegt seit einem Jahr ein Tauchcomputer. Niemand hat ihn abgeholt. Elsa hat gesehen, wie Lea ohne einen taucht, und das macht ihr Sorgen. Herausgeben darf sie ihn nur mit einem Formular und einem Grund, den sie vor Ajaccio vertreten kann.",
+     "neu": "A dive computer has been sitting in Elsa's lost-property box for a year. Nobody has claimed it. Elsa has seen Lea dive without one, and it worries her. She can only release it with a form and a reason she can defend to Ajaccio."
+    },
+    {
+     "key": "missionen:L235.0",
+     "alt": "„Sicherheit an Bord eines havarierten Schiffs.“ Elsa stempelt das Formular zweimal. „Er braucht eine Batterie. Und ein Armband. Ich bin Gendarmin, kein Uhrmacher.“",
+     "neu": "“Safety on board a disabled vessel.” Elsa stamps the form twice. “It needs a battery. And a strap. I'm a gendarme, not a watchmaker.”"
+    },
+    {
+     "key": "missionen:L237.0",
+     "alt": "Elsa schiebt das Formular zurück. „Das klingt, als wollten Sie ein Geschenk. Ich verschenke nichts. Morgen.“",
+     "neu": "Elsa pushes the form back. “That sounds as if you wanted a present. I don't give presents. Tomorrow.”"
+    },
+    {
+     "key": "missionen:L239.0",
+     "alt": "Ein Fundstück für Lea: die Batterie",
+     "neu": "A Lost-and-Found for Lea: The Battery"
+    },
+    {
+     "key": "missionen:L240.0",
+     "alt": "Der Tauchcomputer ist tot. Elsa öffnet ihn mit einem winzigen Schraubenzieher aus ihrer Dienstweste. Die passende Knopfzelle hat sie nicht. Im Dorf gibt es so etwas nur bei Alva.",
+     "neu": "The dive computer is dead. Elsa opens it with a tiny screwdriver from her uniform vest. She doesn't have the right button cell. In the village only Alva has things like that."
+    },
+    {
+     "key": "missionen:L242.0",
+     "alt": "Das Display flackert und zeigt 0,0 Meter. Elsa lächelt, sehr kurz.",
+     "neu": "The display flickers and shows 0.0 metres. Elsa smiles, very briefly."
+    },
+    {
+     "key": "missionen:L243.0",
+     "alt": "Ein Fundstück für Lea: das Armband",
+     "neu": "A Lost-and-Found for Lea: The Strap"
+    },
+    {
+     "key": "missionen:L244.0",
+     "alt": "Das alte Armband ist im Salzwasser zerfallen. Ein seefestes bekommt man nur über die Ausrüstung der Reederei.",
+     "neu": "The old strap has rotted away in the salt water. You can only get a seaworthy one through the shipping company's supplies."
+    },
+    {
+     "key": "missionen:L245.0",
+     "alt": "Elsa legt dir den Tauchcomputer in die Hand. „Sie geben ihn ihr. Wenn ich das tue, ist es Bestechung.“",
+     "neu": "Elsa puts the dive computer in your hand. “You give it to her. If I do it, it's bribery.”"
+    },
+    {
+     "key": "missionen:L248.0",
+     "alt": "Alvas Kastagnetten: zuhören",
+     "neu": "Alva's Castanets: Listening"
+    },
+    {
+     "key": "missionen:L249.0",
+     "alt": "Nach drei Gläsern hat Alva Lola erzählt, dass die Kastagnetten ihrer Großmutter zerbrochen in einer Schublade liegen. Herausgeben würde sie sie nie. Außer an jemanden, der sich einen Abend lang anhört, wer diese Großmutter war. Lola meint, das klappt nur mit einem Essen, das nach Zuhause schmeckt.",
+     "neu": "After three glasses Alva told Lola that her grandmother's castanets are lying broken in a drawer. She would never hand them over. Except to someone who spends an evening listening to who that grandmother was. Lola reckons that only works with a meal that tastes of home."
+    },
+    {
+     "key": "missionen:L252.0",
+     "alt": "Du kochst, Alva isst, und irgendwann holt sie die Schublade hervor. Zwei Hälften, in ein Taschentuch gewickelt. „Wenn du sie kaputt machst, o figliolu, bringe ich dich um.“",
+     "neu": "You cook, Alva eats, and at some point she takes out the drawer. Two halves, wrapped in a handkerchief. “If you break them, o figliolu, I'll kill you.”"
+    },
+    {
+     "key": "missionen:L254.0",
+     "alt": "Das Essen ist gut, aber nicht gut genug für Erinnerungen. Alva erzählt vom Wetter. Lola seufzt.",
+     "neu": "The food is good, but not good enough for memories. Alva talks about the weather. Lola sighs."
+    },
+    {
+     "key": "missionen:L256.0",
+     "alt": "Alvas Kastagnetten: der Leim",
+     "neu": "Alva's Castanets: The Glue"
+    },
+    {
+     "key": "missionen:L257.0",
+     "alt": "Petru sagt, für altes Holz nimmt man Knochenleim, keinen modernen Kleber. Knochenleim hat auf dieser Insel nur jemand, der auch sonst alles hat.",
+     "neu": "Petru says old wood takes bone glue, not modern glue. On this island bone glue belongs to somebody who has everything else as well."
+    },
+    {
+     "key": "missionen:L259.0",
+     "alt": "Petru riecht am Leimtopf und verzieht das Gesicht. Das heißt: richtig.",
+     "neu": "Petru sniffs the glue pot and pulls a face. That means: right."
+    },
+    {
+     "key": "missionen:L260.0",
+     "alt": "Alvas Kastagnetten: leimen",
+     "neu": "Alva's Castanets: Gluing"
+    },
+    {
+     "key": "missionen:L261.0",
+     "alt": "Zwei Hälften, ein Haarriss, sechzig Jahre Flamenco. Petru erwärmt den Leim, du setzt die Teile zusammen. Verrutscht eines, klingen sie nie wieder.",
+     "neu": "Two halves, a hairline crack, sixty years of flamenco. Petru warms the glue, you fit the pieces together. If one slips, they'll never sound right again."
+    },
+    {
+     "key": "missionen:L263.0",
+     "alt": "Ein trockenes Klack, wie früher. Petru legt die Kastagnetten in deine Hand. „Für sie. Nicht von mir.“",
+     "neu": "A dry clack, like it used to be. Petru puts the castanets in your hand. “For her. Not from me.”"
+    },
+    {
+     "key": "missionen:L264.0",
+     "alt": "Ein Teil verrutscht. Petru löst den Leim mit heißem Wasser wieder. Morgen.",
+     "neu": "One piece slips. Petru loosens the glue again with hot water. Tomorrow."
+    },
+    {
+     "key": "missionen:L268.0",
+     "alt": "Ein Heiliger für Totò",
+     "neu": "A Saint for Totò"
+    },
+    {
+     "key": "missionen:L269.0",
+     "alt": "Totòs San Gennaro aus Neapel ist in der Nacht des Ausfalls vom Regal gefallen. Seitdem lacht Totò nicht mehr, und ein Totò ohne Lachen ist schlecht fürs Geschäft. Alva will ihm einen neuen besorgen. In ganz Korsika hat so eine Figur nur sein Cousin in Bastia, und der liefert nachts, an der Küstenwache vorbei.",
+     "neu": "Totò's San Gennaro from Naples fell off the shelf on the night of the failure. Since then Totò hasn't laughed, and a Totò who doesn't laugh is bad for business. Alva wants to get him a new one. In the whole of Corsica only his cousin in Bastia has a figure like that, and he delivers at night, past the coast guard."
+    },
+    {
+     "key": "missionen:L272.0",
+     "alt": "Ein Schlauchboot, kein Licht, ein Paket in Zeitungspapier. Der Heilige ist da, nur leider unbemalt und sehr grau.",
+     "neu": "A dinghy, no lights, a parcel in newspaper. The saint has arrived, only unfortunately unpainted and very grey."
+    },
+    {
+     "key": "missionen:L273.0",
+     "alt": "Elsas Scheinwerfer streift das Wasser. Der Cousin dreht ab. Im Dorf wird geredet.",
+     "neu": "Elsa's searchlight sweeps the water. The cousin turns away. The village talks."
+    },
+    {
+     "key": "missionen:L275.0",
+     "alt": "Ein Heiliger für Totò: Gold",
+     "neu": "A Saint for Totò: Gold"
+    },
+    {
+     "key": "missionen:L276.0",
+     "alt": "Alva will den Heiligen selbst bemalen. „Golden, wie in Neapel. Golden wie ein Lottogewinn.“ Die Goldfarbe hat sie im eigenen Regal, aber sie zahlt nicht für Geschenke an Totò. Grundsätzlich.",
+     "neu": "Alva wants to paint the saint herself. “Golden, like in Naples. Golden like a lottery win.” She has the gold paint on her own shelf, but she doesn't pay for presents for Totò. On principle."
+    },
+    {
+     "key": "missionen:L278.0",
+     "alt": "Alva malt, bis der Heilige glänzt wie ein Spielautomat. „Perfetto. Jetzt muss er nur noch hinsehen.“",
+     "neu": "Alva paints until the saint shines like a slot machine. “Perfect. Now he just has to look at it.”"
+    },
+    {
+     "key": "missionen:L280.0",
+     "alt": "Ein Heiliger für Totò: die Übergabe",
+     "neu": "A Saint for Totò: The Handover"
+    },
+    {
+     "key": "missionen:L281.0",
+     "alt": "Alva sagt, einem Neapolitaner gibt man nichts einfach so. Man gibt es ihm beim Essen. Und zwar bei einem, das nach seiner Mutter schmeckt: Genovese, sechs Stunden Zwiebeln.",
+     "neu": "Alva says you never just hand a Neapolitan something. You give it to him over a meal. One that tastes like his mother's: Genovese, six hours of onions."
+    },
+    {
+     "key": "missionen:L283.0",
+     "alt": "Totò probiert, legt die Gabel weg und starrt die Figur an. Dann lacht er, so laut, dass Alva die Gläser festhält. Die Figur gibst du ihm am besten selbst.",
+     "neu": "Totò tastes it, puts his fork down and stares at the figure. Then he laughs, so loudly that Alva grabs the glasses. You'd better give him the figure yourself."
+    },
+    {
+     "key": "missionen:L285.0",
+     "alt": "Die Zwiebeln brennen an. Totò isst trotzdem und lobt dich. Er lügt sehr schlecht. Morgen noch einmal.",
+     "neu": "The onions burn. Totò eats it anyway and praises you. He's a very bad liar. Again tomorrow."
+    },
+    {
+     "key": "missionen:L289.0",
+     "alt": "Ein Füller für Sophia: der Graveur",
+     "neu": "A Pen for Sophia: The Engraver"
+    },
+    {
+     "key": "missionen:L290.0",
+     "alt": "Lea will ihrer Schwester einen Füller schenken. Graviert mit ihrem eigenen Namen, für das, was Sophia nur für sich schreibt. Den einzigen Graveur weit und breit kennt Madame Casanova, und die gibt Adressen nur heraus, wenn man sie vorher lange genug bewundert hat.",
+     "neu": "Lea wants to give her sister a fountain pen. Engraved with her own name, for what Sophia only writes for herself. The only engraver for miles is known to Madame Casanova, and she only gives out addresses once she has been admired for long enough."
+    },
+    {
+     "key": "missionen:L293.0",
+     "alt": "Madame Casanova schreibt die Adresse auf eine Serviette und unterschreibt sie, als wäre sie ein Autogramm. Lea fällt dir um den Hals.",
+     "neu": "Madame Casanova writes the address on a napkin and signs it as if it were an autograph. Lea throws her arms around your neck."
+    },
+    {
+     "key": "missionen:L295.0",
+     "alt": "Madame Casanova erzählt dir zwei Stunden von ihrer Festa und vergisst die Adresse. Lea lacht, bis sie Schluckauf hat.",
+     "neu": "Madame Casanova talks to you about her festa for two hours and forgets the address. Lea laughs until she gets hiccups."
+    },
+    {
+     "key": "missionen:L297.0",
+     "alt": "Ein Füller für Sophia: der Rohling",
+     "neu": "A Pen for Sophia: The Blank"
+    },
+    {
+     "key": "missionen:L298.0",
+     "alt": "Der Graveur in Ajaccio graviert nur auf einen Rohling, den man mitbringt. Rohlinge hat die Ausrüstung der Reederei, also Megan.",
+     "neu": "The engraver in Ajaccio only engraves a blank you bring yourself. Blanks are in the shipping company's supplies, which means Megan."
+    },
+    {
+     "key": "missionen:L300.0",
+     "alt": "Zwei Tage später liegt der Füller in einem Samtetui im Postboot. Lea drückt ihn dir in die Hand. „Du gibst ihn ihr. Ich würde heulen.“",
+     "neu": "Two days later the pen arrives on the post boat in a velvet case. Lea presses it into your hand. “You give it to her. I'd cry.”"
+    },
+    {
+     "key": "missionen:L304.0",
+     "alt": "Ein Buch für Siris Vater: das Netzgarn",
+     "neu": "A Book for Siri's Father: The Net Twine"
+    },
+    {
+     "key": "missionen:L305.0",
+     "alt": "Siris Vater fischt seit vierzig Jahren vor Göteborg. Petru erinnert sie so sehr an ihn, dass sie ihn kaum ansehen kann. Sie will seine Geschichten über die Fischerei auf Korsika aufschreiben, für ihren Vater. Petru redet nicht mit Influencerinnen. Erst, wenn seine Netze geflickt sind, und Geld nimmt er nicht.",
+     "neu": "Siri's father has fished off Trøndelag for forty years. Petru reminds her of him so much she can hardly look at him. She wants to write down his stories about fishing in Corsica, for her father. Petru doesn't talk to influencers. Not until his nets are mended, and he doesn't take money."
+    },
+    {
+     "key": "missionen:L308.0",
+     "alt": "Petru wiegt die Rolle Garn in der Hand und deutet auf den Stuhl neben sich. Das ist eine Einladung.",
+     "neu": "Petru weighs the roll of twine in his hand and points at the chair beside him. That's an invitation."
+    },
+    {
+     "key": "missionen:L310.0",
+     "alt": "Ein Buch für Siris Vater: das Gespräch",
+     "neu": "A Book for Siri's Father: The Conversation"
+    },
+    {
+     "key": "missionen:L311.0",
+     "alt": "Petru erzählt, wenn man still ist. Siri ist nicht gut im Stillsein. Du sollst die Fragen stellen, so, dass Petru nicht merkt, dass es ein Interview ist, und so, dass es ihn nicht nervt.",
+     "neu": "Petru talks when you're quiet. Siri isn't good at being quiet. You're to ask the questions, so that Petru doesn't notice it's an interview, and so that it doesn't annoy him."
+    },
+    {
+     "key": "missionen:L313.0",
+     "alt": "Petru erzählt von Thunfisch, Stürmen und seinem Vater. Siri schreibt drei Stunden mit, ohne ein einziges Foto. Abends bindet sie die Seiten und gibt sie dir. „Bewahr es auf, bis ich nach Hause fahre. Ich verliere alles.“",
+     "neu": "Petru talks about tuna, storms and his father. Siri takes notes for three hours without a single photo. In the evening she binds the pages and gives them to you. “Keep it safe until I go home. I lose everything.”"
+    },
+    {
+     "key": "missionen:L315.0",
+     "alt": "Eine Frage zu viel. Petru steht auf und geht Netze holen, die er nicht braucht. Siri sieht dich lange an.",
+     "neu": "One question too many. Petru gets up and goes to fetch nets he doesn't need. Siri looks at you for a long time."
+    },
+    {
+     "key": "missionen:L319.0",
+     "alt": "Ein Geschenk für die Leutnantin: das Archiv",
+     "neu": "A Present for the Lieutenant: The Archive"
+    },
+    {
+     "key": "missionen:L320.0",
+     "alt": "Elsa ist seit fünf Jahren auf dem Posten von Cala d'Orsu. Das Dorf will ihr danken, aber sie nimmt nichts an. Alles wäre Bestechung. Madame Casanova hat eine Idee: Elsas eigene Strafzettel aus fünf Jahren, gebunden wie ein Buch. Die liegen irgendwo im Gemeindearchiv, unsortiert, zwischen Fischereilizenzen von 1974.",
+     "neu": "Elsa has been at the Cala d'Orsu post for five years. The village wants to thank her, but she won't accept anything. It would all be bribery. Madame Casanova has an idea: Elsa's own tickets from five years, bound like a book. They're somewhere in the town archive, unsorted, between fishing licences from 1974."
+    },
+    {
+     "key": "missionen:L323.0",
+     "alt": "Dreihundertzwölf Strafzettel, chronologisch. Einer davon ist für Madame Casanova selbst, wegen Feuerwerk ohne Genehmigung. Sie besteht darauf, dass er vorne liegt.",
+     "neu": "Three hundred and twelve tickets, in order. One of them is for Madame Casanova herself, for fireworks without a permit. She insists it goes at the front."
+    },
+    {
+     "key": "missionen:L325.0",
+     "alt": "Du findest die Fischereilizenzen von 1974. Und sonst nichts. Madame Casanova nennt es Kapitel eins.",
+     "neu": "You find the fishing licences from 1974. And nothing else. Madame Casanova calls it chapter one."
+    },
+    {
+     "key": "missionen:L327.0",
+     "alt": "Ein Geschenk für die Leutnantin: das Leinen",
+     "neu": "A Present for the Lieutenant: The Linen"
+    },
+    {
+     "key": "missionen:L328.0",
+     "alt": "Gebunden wird in Leinen, sagt Madame Casanova, wie ein Staatsdokument. Leinen gibt es nur bei Alva, und mit Alva redet Madame Casanova seit dem Dorfladen-Streit nicht mehr.",
+     "neu": "It has to be bound in linen, says Madame Casanova, like a state document. Only Alva has linen, and Madame Casanova hasn't spoken to Alva since the quarrel over the village shop."
+    },
+    {
+     "key": "missionen:L330.0",
+     "alt": "Madame Casanova streicht über das Leinen und flüstert: „Würdevoll.“",
+     "neu": "Madame Casanova strokes the linen and whispers, “Dignified.”"
+    },
+    {
+     "key": "missionen:L331.0",
+     "alt": "Ein Geschenk für die Leutnantin: binden",
+     "neu": "A Present for the Lieutenant: Binding"
+    },
+    {
+     "key": "missionen:L332.0",
+     "alt": "Dreihundertzwölf Blätter, ein Rücken, Ahle und Faden. Madame Casanova hält dabei eine Rede, die niemand bestellt hat.",
+     "neu": "Three hundred and twelve sheets, one spine, an awl and thread. Meanwhile Madame Casanova gives a speech nobody asked for."
+    },
+    {
+     "key": "missionen:L334.0",
+     "alt": "Ein dicker Block in Leinen, mit Elsas Initialen. Madame Casanova weint ein bisschen. „Sie geben ihn ihr. Ich würde eine Rede halten.“",
+     "neu": "A thick block bound in linen, with Elsa's initials. Madame Casanova cries a little. “You give it to her. I'd make a speech.”"
+    },
+    {
+     "key": "missionen:L336.0",
+     "alt": "Der Faden reißt bei Blatt zweihundert. Madame Casanova nennt es eine Probe des Schicksals.",
+     "neu": "The thread snaps at sheet two hundred. Madame Casanova calls it a trial sent by fate."
+    },
+    {
+     "key": "missionen:L340.0",
+     "alt": "Eine Karte für Megan: die Unterschriften",
+     "neu": "A Card for Megan: The Signatures"
+    },
+    {
+     "key": "missionen:L341.0",
+     "alt": "Lola sagt, Megan hat ein Glasbüro, und das Einzige, was ihr je jemand schickt, sind Berichte. „Everyone hates the boss, mate. I reckon that's lonely.“ Sie will Megan eine Karte schicken, unterschrieben von der ganzen Crew. Das Problem: Die Hälfte der Crew würde lieber über Bord springen.",
+     "neu": "Lola says Megan has a glass office, and the only things anyone ever sends her are reports. “Everyone hates the boss, mate. I reckon that's lonely.” She wants to send Megan a card signed by the whole crew. The problem: half the crew would rather jump overboard."
+    },
+    {
+     "key": "missionen:L344.0",
+     "alt": "Elf Unterschriften. Chiaras ist sehr klein, Totòs sehr groß, Rosis ist eine Zeichnung von Unit-01. Lola klebt ein Herz daneben, das niemand bestellt hat.",
+     "neu": "Eleven signatures. Chiara's is very small, Totò's very big, Rosi's is a drawing of Unit-01. Lola sticks a heart next to them that nobody asked for."
+    },
+    {
+     "key": "missionen:L346.0",
+     "alt": "Chiara weigert sich, Rosi unterschreibt mit „Nein“. Lola sagt, das zählt auch irgendwie.",
+     "neu": "Chiara refuses, Rosi signs with “No”. Lola says that sort of counts too."
+    },
+    {
+     "key": "missionen:L348.0",
+     "alt": "Eine Karte für Megan: der Rahmen",
+     "neu": "A Card for Megan: The Frame"
+    },
+    {
+     "key": "missionen:L349.0",
+     "alt": "„Ohne Rahmen schmeißt sie es weg. Mit Rahmen muss sie es aufhängen. That's science.“ Rahmen gibt es nur bei Alva.",
+     "neu": "“Without a frame she bins it. With a frame she has to hang it up. That's science.” Only Alva has frames."
+    },
+    {
+     "key": "missionen:L350.0",
+     "alt": "Lola rahmt die Karte, schief, und gibt sie dir. „Du gibst sie ihr. Mir glaubt sie nicht, dass ich lesen kann.“",
+     "neu": "Lola frames the card, crookedly, and hands it to you. “You give it to her. She doesn't believe I can read.”"
+    },
+    {
+     "key": "missionen:L353.0",
+     "alt": "Tabak für Petru",
+     "neu": "Tobacco for Petru"
+    },
+    {
+     "key": "missionen:L354.0",
+     "alt": "Petru raucht seit Wochen etwas, das nach Heu riecht. Sein Tabak, Bastia Noir, kommt nur über Totòs Cousin. Totò will ihn besorgen, weil Petru den Cousin vor Jahren aus dem Wasser gezogen hat. Er zahlt die Fahrt nicht allein, und Petru darf nicht wissen, von wem es kommt.",
+     "neu": "For weeks Petru has been smoking something that smells of hay. His tobacco, Bastia Noir, only comes through Totò's cousin. Totò wants to get it for him, because years ago Petru pulled the cousin out of the water. He won't pay for the run on his own, and Petru mustn't know who it's from."
+    },
+    {
+     "key": "missionen:L357.0",
+     "alt": "Totò legt dir die Dose in die Hand. „Von dir. Wenn Petru erfährt, dass es von mir ist, bedankt er sich. Das halte ich nicht aus.“",
+     "neu": "Totò puts the tin in your hand. “From you. If Petru finds out it's from me, he'll thank me. I can't take that.”"
+    },
+    {
+     "key": "missionen:L359.0",
+     "alt": "Salzlakritz für Holm",
+     "neu": "Liquorice for Holm"
+    },
+    {
+     "key": "missionen:L360.0",
+     "alt": "Siri hat eine Tüte schwedische Salzlakritz in ihrem Koffer. Holm liebt das Zeug, das weiß die ganze Crew. Siri traut sich nicht, sie der Kapitänin ins Krankenhaus zu schicken, mit der sie in drei Wochen kaum zwei Sätze geredet hat. Elsa fährt morgen nach Ajaccio. Jemand muss Siri Mut machen und Elsa fragen.",
+     "neu": "Siri has a bag of salty Norwegian liquorice in her suitcase. Holm loves the stuff, the whole crew knows it. Siri doesn't dare send it to the Captain in hospital; in three weeks they've barely exchanged two sentences. Elsa is going to Ajaccio tomorrow. Someone has to give Siri some courage and ask Elsa."
+    },
+    {
+     "key": "missionen:L363.0",
+     "alt": "Elsa nimmt die Tüte mit einem Nicken. Am Abend kommt eine Nachricht aus dem Krankenhaus, nur ein Wort: „Tack.“ Siri liest es fünfmal.",
+     "neu": "Elsa takes the bag with a nod. In the evening a message comes from the hospital, just one word: “Takk.” Siri reads it five times."
+    },
+    {
+     "key": "missionen:L365.0",
+     "alt": "Siri bekommt kalte Füße und isst aus Nervosität die halbe Tüte. Morgen ist sie neu gefüllt.",
+     "neu": "Siri gets cold feet and nervously eats half the bag. By tomorrow it's been refilled."
+    },
+    {
+     "key": "missionen:L367.0",
+     "alt": "Yasins Sonnenbrille",
+     "neu": "Yasin's Sunglasses"
+    },
+    {
+     "key": "missionen:L368.0",
+     "alt": "Yasins goldene Sonnenbrille ist beim Filmen von der Badeplattform gerutscht. Sie ist das Einzige, was er nie filmt: ein Geschenk seines Vaters. Er zahlt bar, und er bittet nicht gern. Acht Meter, Strömung am Nachmittag.",
+     "neu": "Yasin's gold sunglasses slipped off the swim platform while he was filming. They're the one thing he never films: a present from his father. He pays cash, and he doesn't like asking. Eight metres, a current in the afternoon."
+    },
+    {
+     "key": "missionen:L370.0",
+     "alt": "Du findest sie zwischen zwei Steinen. Yasin ist nicht da, als du auftauchst. Gib sie ihm selbst.",
+     "neu": "You find them between two rocks. Yasin isn't there when you surface. Give them to him yourself."
+    },
+    {
+     "key": "missionen:L371.0",
+     "alt": "Die Strömung drückt dich ab. Du siehst etwas Goldenes, kommst aber nicht hin. Morgen bei Stillwasser.",
+     "neu": "The current pushes you away. You see something golden but can't reach it. Tomorrow, at slack water."
+    },
+    {
+     "key": "missionen:L374.0",
+     "alt": "Nachtwache mit Chiara",
+     "neu": "Night Watch with Chiara"
+    },
+    {
+     "key": "missionen:L375.0",
+     "alt": "Chiara kann seit dem Ausfall nicht schlafen. Sie bittet dich, die Nachtwache mit ihr zu gehen und ihr die Sterne zu erklären. Ihr Vater hat es ihr immer versprochen und nie getan. Fragen würde sie sonst niemanden.",
+     "neu": "Chiara hasn't been able to sleep since the failure. She asks you to stand the night watch with her and explain the stars to her. Her grandfather always promised to and never got round to it. She wouldn't ask anyone else."
+    },
+    {
+     "key": "missionen:L377.0",
+     "alt": "Ihr findet den Großen Wagen, Kassiopeia und einen Satelliten, den Chiara zu einem Stern erklärt. Sie schläft auf der Bank ein. Du lässt sie.",
+     "neu": "You find the Plough, Cassiopeia and a satellite that Chiara declares to be a star. She falls asleep on the bench. You let her."
+    },
+    {
+     "key": "missionen:L379.0",
+     "alt": "Wolken. Ihr seht nichts, und Chiara redet stattdessen von der Arbeit. Morgen ist es vielleicht klar.",
+     "neu": "Clouds. You can't see anything, and Chiara talks about work instead. Maybe it'll be clear tomorrow."
+    },
+    {
+     "key": "missionen:L381.0",
+     "alt": "Arancini wie bei Nonna",
+     "neu": "Arancini Like Nonna's"
+    },
+    {
+     "key": "missionen:L382.0",
+     "alt": "Rosis Nonna ist letzten Winter gestorben. Das Rezept für ihre Arancini hat sie nie aufgeschrieben, und Rosi bekommt sie nicht hin. Sie will es nicht noch einmal allein versuchen.",
+     "neu": "Rosi's nonna died last winter. She never wrote down the recipe for her arancini, and Rosi can't get them right. She doesn't want to try again on her own."
+    },
+    {
+     "key": "missionen:L384.0",
+     "alt": "Ihr ändert den Reis zweimal und den Safran einmal. Beim dritten Versuch hält Rosi inne, kaut und sagt nichts. Dann isst sie drei hintereinander.",
+     "neu": "You change the rice twice and the saffron once. On the third attempt Rosi stops, chews and says nothing. Then she eats three in a row."
+    },
+    {
+     "key": "missionen:L386.0",
+     "alt": "Die Kugeln fallen in der Pfanne auseinander. Rosi lacht und weint ein bisschen gleichzeitig. Morgen.",
+     "neu": "The balls fall apart in the pan. Rosi laughs and cries a little at the same time. Tomorrow."
+    },
+    {
+     "key": "missionen:L388.0",
+     "alt": "Sophias erstes Kapitel",
+     "neu": "Sophia's First Chapter"
+    },
+    {
+     "key": "missionen:L389.0",
+     "alt": "Sophia legt dir zwölf Seiten hin. Etwas Eigenes, nicht für einen Verlag. Sie will eine ehrliche Meinung, keine nette. Wer ihr nur schmeichelt, bekommt nie wieder eine Zeile zu lesen.",
+     "neu": "Sophia puts twelve pages in front of you. Something of her own, not for a publisher. She wants an honest opinion, not a nice one. Anyone who only flatters her never gets to read another line."
+    },
+    {
+     "key": "missionen:L391.0",
+     "alt": "Du sagst ihr, was trägt und was nicht. Sie streicht zwei Seiten, ohne zu widersprechen. Dann fragt sie, ob du auch das zweite Kapitel lesen willst.",
+     "neu": "You tell her what works and what doesn't. She cuts two pages without arguing. Then she asks whether you'd like to read the second chapter too."
+    },
+    {
+     "key": "missionen:L393.0",
+     "alt": "Du bist zu höflich. Sophia merkt es sofort, nimmt die Seiten zurück und lächelt freundlich. Das ist schlimmer.",
+     "neu": "You're too polite. Sophia notices at once, takes the pages back and smiles kindly. That's worse."
+    },
+    {
+     "key": "missionen:L396.0",
+     "alt": "Paella für die Crew: Safran",
+     "neu": "Paella for the Crew: Saffron"
+    },
+    {
+     "key": "missionen:L397.0",
+     "alt": "Lola will der Crew eine Paella machen, damit nach der Woche alle wieder an einem Tisch sitzen. Sie hat noch nie eine gemacht. „It's basically fancy risotto, how hard can it be.“ Ohne echten Safran wird es gelbe Pampe, sagt Chiara. Lola will Chiara das Gegenteil beweisen.",
+     "neu": "Lola wants to make the crew a paella, so that after this week everyone sits at one table again. She has never made one. “It's basically fancy risotto, how hard can it be.” Without real saffron it'll be yellow mush, says Chiara. Lola wants to prove her wrong."
+    },
+    {
+     "key": "missionen:L400.0",
+     "alt": "Lola hält das Döschen gegen das Licht wie einen Edelstein. „Mate. That's not a spice, that's a personality.“",
+     "neu": "Lola holds the little tin up to the light like a gemstone. “Mate. That's not a spice, that's a personality.”"
+    },
+    {
+     "key": "missionen:L402.0",
+     "alt": "Paella für die Crew: kochen",
+     "neu": "Paella for the Crew: Cooking"
+    },
+    {
+     "key": "missionen:L403.0",
+     "alt": "Eine Pfanne, so groß wie ein Rettungsring, ein Gaskocher und Lola, die alle zwei Minuten umrühren will. Bei Paella rührt man nicht um. Jemand muss sie davon abhalten.",
+     "neu": "A pan as big as a lifebuoy, a gas burner, and Lola, who wants to stir every two minutes. You don't stir a paella. Someone has to stop her."
+    },
+    {
+     "key": "missionen:L405.0",
+     "alt": "Die Kruste knistert. Die Crew isst schweigend, dann sehr laut. Chiara nimmt zweimal und sagt nichts. Lola wertet das als Sieg.",
+     "neu": "The crust crackles. The crew eats in silence, then very loudly. Chiara takes seconds and says nothing. Lola counts it as a win."
+    },
+    {
+     "key": "missionen:L406.0",
+     "alt": "Lola rührt um. Es wird Risotto. Die Crew isst es trotzdem.",
+     "neu": "Lola stirs. It turns into risotto. The crew eats it anyway."
+    },
+    {
+     "key": "missionen:L410.0",
+     "alt": "Ein ESG-Kurzbericht für Megan",
+     "neu": "A Short ESG Report for Megan"
+    },
+    {
+     "key": "missionen:L411.0",
+     "alt": "Die Investoren wollen eine Seite darüber, wie nachhaltig eine gestrandete Solaryacht ist. Megan weiß, dass du das beruflich machst. Sie bittet nicht. Sie bestellt, mit Frist bis heute Abend.",
+     "neu": "The investors want one page on how sustainable a stranded solar yacht is. Megan knows you do this for a living. She doesn't ask. She orders, with a deadline of this evening."
+    },
+    {
+     "key": "missionen:L413.0",
+     "alt": "Eine Seite, drei Zahlen, kein Wort zu viel. Megan liest sie im Video, schweigt und sagt dann: „Annoyingly good.“",
+     "neu": "One page, three figures, not one word too many. Megan reads it on video, is silent, and then says, “Annoyingly good.”"
+    },
+    {
+     "key": "missionen:L414.0",
+     "alt": "Megan streicht die Hälfte und schickt den Rest zurück. „Ich wollte einen Bericht, kein Gedicht.“",
+     "neu": "Megan strikes out half and sends the rest back. “I asked for a report, not a poem.”"
+    },
+    {
+     "key": "missionen:L416.0",
+     "alt": "Megans Wäschelieferant",
+     "neu": "Megan's Laundry Supplier"
+    },
+    {
+     "key": "missionen:L417.0",
+     "alt": "Der neue Wäschelieferant der Flotte nennt sich klimaneutral. Megan will wissen, ob das stimmt, bevor sie unterschreibt, und zwar von jemandem, der nicht für den Lieferanten arbeitet.",
+     "neu": "The fleet's new laundry supplier calls itself climate-neutral. Megan wants to know whether that's true before she signs, and from someone who doesn't work for the supplier."
+    },
+    {
+     "key": "missionen:L419.0",
+     "alt": "Die Zertifikate gehören zu einer anderen Fabrik. Megan lächelt langsam. „Checkmate.“ Sie zahlt sofort.",
+     "neu": "The certificates belong to a different factory. Megan smiles slowly. “Checkmate.” She pays at once."
+    },
+    {
+     "key": "missionen:L420.0",
+     "alt": "Du findest nichts Belastbares. Megan unterschreibt trotzdem nicht. „Dann suchen Sie weiter.“",
+     "neu": "You find nothing solid. Megan still doesn't sign. “Then keep looking.”"
+    },
+    {
+     "key": "missionen:L423.0",
+     "alt": "Elsas Antenne: das Kabel",
+     "neu": "Elsa's Antenna: The Cable"
+    },
+    {
+     "key": "missionen:L424.0",
+     "alt": "Seit dem letzten Sturm reicht Elsas Funk nicht mehr bis Ajaccio. Das alte Antennenkabel ist durchgescheuert. Ein neues hat die Gendarmerie beantragt, vor elf Monaten. Die Reederei hat welches, und Elsa fragt keine Reederei um etwas.",
+     "neu": "Since the last storm Elsa's radio no longer reaches Ajaccio. The old antenna cable has worn through. The gendarmerie applied for a new one eleven months ago. The shipping company has some, and Elsa doesn't ask a shipping company for anything."
+    },
+    {
+     "key": "missionen:L427.0",
+     "alt": "Elsa nimmt das Kabel und mustert die Rolle. „Sie haben das nicht von mir.“",
+     "neu": "Elsa takes the cable and inspects the reel. “You didn't get this from me.”"
+    },
+    {
+     "key": "missionen:L428.0",
+     "alt": "Elsas Antenne: aufs Dach",
+     "neu": "Elsa's Antenna: Up on the Roof"
+    },
+    {
+     "key": "missionen:L429.0",
+     "alt": "Die Antenne sitzt auf dem Dach des Postens, vier Meter über dem Hafen. Wind aus Nordwest, Böen. Elsa hält die Leiter und sagt, sie würde selbst hochsteigen, wenn sie dürfte.",
+     "neu": "The antenna sits on the roof of the post, four metres above the harbour. Wind from the north-west, gusts. Elsa holds the ladder and says she would climb up herself if she were allowed to."
+    },
+    {
+     "key": "missionen:L431.0",
+     "alt": "Rauschen, dann Ajaccio, glasklar. Elsa salutiert, halb im Scherz, halb nicht.",
+     "neu": "Crackling, then Ajaccio, crystal clear. Elsa salutes, half joking, half not."
+    },
+    {
+     "key": "missionen:L432.0",
+     "alt": "Eine Böe reißt dir das Kabel aus der Hand. Elsa fängt dich am Knöchel. Morgen bei weniger Wind.",
+     "neu": "A gust rips the cable out of your hand. Elsa catches you by the ankle. Tomorrow, with less wind."
+    },
+    {
+     "key": "missionen:L436.0",
+     "alt": "Ein Probeessen für die Festa",
+     "neu": "A Tasting Menu for the Festa"
+    },
+    {
+     "key": "missionen:L437.0",
+     "alt": "Madame Casanova will auf der Festa ein Buffet „aus aller Welt, aber korsisch“. Die Jury besteht aus ihr, ihrer Mutter und dem Pfarrer. Der Dorfkoch hat abgesagt, weil sie ihm „Vision“ vorgeworfen hat. Sie hat gehört, dass du kochen kannst, und kündigt es schon im ganzen Dorf an.",
+     "neu": "Madame Casanova wants a buffet at the festa, “from all over the world, but Corsican”. The jury is her, her mother and the priest. The village cook has pulled out because she accused him of having “vision”. She has heard you can cook, and she's already announcing it all over the village."
+    },
+    {
+     "key": "missionen:L440.0",
+     "alt": "Der Pfarrer nimmt dreimal. Die Mutter sagt „Hm.“ Madame Casanova erklärt dich zum offiziellen Koch der Festa, mit Schärpe.",
+     "neu": "The priest takes three helpings. The mother says, “Hm.” Madame Casanova declares you the official cook of the festa, with a sash."
+    },
+    {
+     "key": "missionen:L442.0",
+     "alt": "Die Mutter schiebt den Teller weg. Madame Casanova verkündet, das sei Teil des Plans gewesen.",
+     "neu": "The mother pushes her plate away. Madame Casanova announces that this was part of the plan."
+    },
+    {
+     "key": "missionen:L445.0",
+     "alt": "Essen für die Nachtpatrouille",
+     "neu": "Food for the Night Patrol"
+    },
+    {
+     "key": "missionen:L446.0",
+     "alt": "Elsa und ihre zwei Leute fahren seit dem Ausfall jede Nacht Patrouille und essen kalte Dosen auf dem Boot. Geld oder Geschenke nimmt sie nicht. Ein warmes Essen für die Mannschaft ist aber Verpflegung, sagt sie, und das dürfe sie annehmen. Wenn es gut ist.",
+     "neu": "Since the failure Elsa and her two men have been on patrol every night, eating cold tins on the boat. She won't take money or presents. But a hot meal for the crew counts as rations, she says, and she's allowed to accept that. If it's good."
+    },
+    {
+     "key": "missionen:L449.0",
+     "alt": "Drei leere Dosen weniger. Elsas Leute nennen dich „Chef“. Elsa sagt nichts und nimmt die Box am nächsten Abend wieder mit.",
+     "neu": "Three fewer empty tins. Elsa's men call you “Chef”. Elsa says nothing and takes the box along again the next evening."
+    },
+    {
+     "key": "missionen:L451.0",
+     "alt": "Es ist lauwarm, als das Boot ablegt. Elsa bedankt sich trotzdem, sehr förmlich. Das ist schlimmer als Kritik.",
+     "neu": "It's lukewarm by the time the boat casts off. Elsa thanks you anyway, very formally. That's worse than criticism."
+    },
+    {
+     "key": "missionen:L455.0",
+     "alt": "Kühlung: ein Relais einbauen",
+     "neu": "Cooling: Fit a Relay"
+    },
+    {
+     "key": "missionen:L456.0",
+     "alt": "Der Kompressor braucht nur ein neues Relais. Es einzubauen ist leicht, es zu bekommen nicht: Auf der Insel hat so etwas nur einer.",
+     "neu": "The compressor only needs a new relay. Fitting it is easy; getting it isn't. On this island only one man has things like that."
+    },
+    {
+     "key": "missionen:L458.0",
+     "alt": "Klick, Brummen, kalte Luft. Alva zahlt und schenkt dir einen Myrtenlikör dazu.",
+     "neu": "Click, hum, cold air. Alva pays and gives you a myrtle liqueur on top."
+    },
+    {
+     "key": "missionen:L476.0",
+     "alt": "Die Kühlung streikt",
+     "neu": "The Cooling Has Packed Up"
+    },
+    {
+     "key": "missionen:L477.0",
+     "alt": "Der Kompressor in Alvas Keller ist tot, und die ganze Festa-Ware schwitzt. Bis heute Abend muss etwas passieren.",
+     "neu": "The compressor in Alva's cellar is dead, and all the festa stock is sweating. Something has to happen by this evening."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "casting_dorf_orte_r2",
+ "titel": "Dorf-Orte: Bà Tưs Laden und A.V. Market innen",
+ "hinweis": "Pro Ort eine Variante mit OK markieren. Kirche und Fassade sind nach deiner Wahl gesetzt.",
+ "items": [
+  {
+   "id": "batu_shop_1",
+   "titel": "Bà Tưs Laden · 1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_batu_shop_v1.png",
+   "soll": "Verwinkelt, wohnlich, kleiner katholischer Altar."
+  },
+  {
+   "id": "batu_shop_2",
+   "titel": "Bà Tưs Laden · 2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_batu_shop_v2.png",
+   "soll": "Verwinkelt, wohnlich, kleiner katholischer Altar."
+  },
+  {
+   "id": "batu_shop_3",
+   "titel": "Bà Tưs Laden · 3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_batu_shop_v3.png",
+   "soll": "Verwinkelt, wohnlich, kleiner katholischer Altar."
+  },
+  {
+   "id": "av_market_interior_1",
+   "titel": "A.V. Market innen · 1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_av_market_interior_v1.png",
+   "soll": "Regale voll, kaltes LED-Licht."
+  },
+  {
+   "id": "av_market_interior_2",
+   "titel": "A.V. Market innen · 2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_av_market_interior_v2.png",
+   "soll": "Regale voll, kaltes LED-Licht."
+  },
+  {
+   "id": "av_market_interior_3",
+   "titel": "A.V. Market innen · 3",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\backgrounds\\_varianten\\eden_rise_av_market_interior_v3.png",
+   "soll": "Regale voll, kaltes LED-Licht."
+  }
+ ]
+}

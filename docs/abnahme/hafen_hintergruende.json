@@ -1,0 +1,31 @@
+{
+ "id": "hafen_hintergruende",
+ "titel": "Hafenkampf · Kai ohne Bootshaken (Runde 4)",
+ "hinweis": "Je Ort eine Variante mit OK markieren (die anderen Neu oder leer lassen). Trypophobie-Check von Claude: Netze weggelassen; bei der Bar sind Fußmatte/Gitter teils noch da, siehe Hinweise.",
+ "items": [
+  {
+   "id": "hafen_kai_chaos_v1",
+   "titel": "hafen_kai_chaos · Variante 1",
+   "bild": "X:/AI/SillyTavern3/SillyTavern-Launcher/SillyTavern/data/default-user/backgrounds/_varianten/eden_rise_hafen_kai_chaos_v1.png",
+   "soll": "Kai nach dem Ratten-Ansturm, ohne Bootshaken"
+  },
+  {
+   "id": "hafen_kai_chaos_v2",
+   "titel": "hafen_kai_chaos · Variante 2",
+   "bild": "X:/AI/SillyTavern3/SillyTavern-Launcher/SillyTavern/data/default-user/backgrounds/_varianten/eden_rise_hafen_kai_chaos_v2.png",
+   "soll": "Kai nach dem Ratten-Ansturm, ohne Bootshaken"
+  },
+  {
+   "id": "hafen_kai_chaos_v3",
+   "titel": "hafen_kai_chaos · Variante 3",
+   "bild": "X:/AI/SillyTavern3/SillyTavern-Launcher/SillyTavern/data/default-user/backgrounds/_varianten/eden_rise_hafen_kai_chaos_v3.png",
+   "soll": "Kai nach dem Ratten-Ansturm, ohne Bootshaken"
+  },
+  {
+   "id": "hafen_kai_chaos_v4",
+   "titel": "hafen_kai_chaos · Variante 4",
+   "bild": "X:/AI/SillyTavern3/SillyTavern-Launcher/SillyTavern/data/default-user/backgrounds/_varianten/eden_rise_hafen_kai_chaos_v4.png",
+   "soll": "Kai nach dem Ratten-Ansturm, ohne Bootshaken"
+  }
+ ]
+}

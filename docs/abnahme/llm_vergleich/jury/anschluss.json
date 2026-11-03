@@ -1,0 +1,1154 @@
+[
+{
+"pid": "alva",
+"seed": "22",
+"erste": "\"Your cook Lola danced barefoot on my bar again last night, and now my fishermen want to learn. They are all sixty years old, and one of them has a bad hip. Does she do that on your boat too, or does she save it for me?\"",
+"zuege": [
+{
+"duc": "She does it where she feels welcome. That says a lot about you.",
+"antwort": "*That's true. Lola dances where her spirit is free.* Alva leans on the table, her chin in her hand, studying Duc. *He sees people, not just guests. I like that.* \"Well, o figliolu, I suppose I should be flattered. Means my little bar has... how do you say... a certain je ne sais quoi.\" She shrugs, a small smile playing at the corners of her mouth. \"Tell me, does Miss Lola leave your fancy boat barefoot too? Or is that just for the simple folk of Cala d'Orsu?\" *Don't get too interested, Alva. He's just a guest, even if he feels different.*"
+},
+{
+"duc": "Go on.",
+"antwort": "Alva chuckles, shaking her head. \"A certain charm, a warmth... yes, that's what you mean, isn't it?\" She reaches out, traces the edge of the polished wooden table thoughtfully. \"And to answer your question, no, Lola doesn't dance on your boat, Duc. She dances where her soul feels... unburdened.\" Alva looks up at him, her green eyes glinting in the soft evening light. \"Perhaps it's the rhythm of the waves, the pulse of the village... or maybe, just maybe, it's the company she keeps.\" She leaves the thought hanging, a slight smile on her lips, waiting to see how Duc will respond to her gentle teasing."
+}
+],
+"id": "an_000"
+},
+{
+"pid": "alva",
+"seed": "22",
+"erste": "\"Your cook Lola danced barefoot on my bar again last night, and now my fishermen want to learn. They are all sixty years old, and one of them has a bad hip. Does she do that on your boat too, or does she save it for me?\"",
+"zuege": [
+{
+"duc": "She does it where she feels welcome. That says a lot about you.",
+"antwort": "Alva grins. \"I am very welcome. You can see that.\" She leans back in her chair, stretching her arms above her head. \"I think she just likes the feeling of the wood under her feet. And the sound.\" She taps the table with her fingertips. \"You know, I have an old jukebox in the bar. Hasn't worked in years. Maybe she can fix it.\" *Like she fixed me. Made me want to dance again.* She looks at Duc, her eyes warm. \"Do you think she would? For me?\""
+},
+{
+"duc": "Go on.",
+"antwort": "*Alva's eyes sparkle with excitement at the thought of Lola fixing the jukebox.* \"Really? You think she might?\" She leans forward, elbows on the table. \"I'd be so grateful, Duc. That jukebox... it's been silent since Papa passed. He loved that thing.\" She taps the table again, a little faster. \"Maybe if it played music again... it'd feel like him being here, you know?\" *Like having him back, just a little.* She catches herself, straightens up. \"But don't pressure her. If she's not up for it, that's okay too. I just thought... it might be nice.\" She smiles, softer now."
+}
+],
+"id": "an_001"
+},
+{
+"pid": "sirene",
+"seed": "11",
+"erste": "\"Your people carry little suns everywhere, sailor, even out on the water, and they hurt my eyes and they frighten the fish. You came to me tonight without one, so I know that it can be done. Gods, what are you all so afraid of in the dark?\"",
+"zuege": [
+{
+"duc": "What we can't see, mostly. You'd know more about that.",
+"antwort": "*The Siren chuckles, trailing her fingers through the water and watching the rings spread.* Ah, so it's fear that makes you cling to your little suns? I've known fear, sailor, but not of the dark. No, the dark is my friend, my old companion. It's in the light that I've found betrayal and sorrow. *She rests her arms on the edge of the pool, leaning her chin on her hands, and gazes at Duc with ancient eyes.* Tell me, what is it about the dark that frightens you so, hmm? And why have you come to me tonight, free of your lamp's glow?"
+},
+{
+"duc": "Go on.",
+"antwort": "*She tilts her head, studying him like a curious child.* Go on? You mean you want me to continue, sailor? *A soft, musical laugh escapes her lips.* Very well then. The dark is a mystery to you land-dwellers, is it not? Something to be feared and avoided at all costs. But to creatures of the deep, it's a comfort, a shield.\n\n*She leans back, submerging her shoulders in the water, only her head and arms remaining above the surface.* I've seen your kind stumble and fall in the dark, crying out in fear and confusion. But in the dark, I can see clearly, hear every whisper, feel every current."
+}
+],
+"id": "an_002"
+},
+{
+"pid": "chiara",
+"seed": "33",
+"erste": "\"Jana has started wearing her hair like mine. I asked her to stop copying me, and she said it back to me, in my own voice. It's terrible, and it's also a bit flattering. What would you do?\"",
+"zuege": [
+{
+"duc": "I'd take it as a compliment. She wants to be you.",
+"antwort": "Chiara rolls her eyes. \"A compliment? She's not copying my style, she's copying my life.\" She leans back against the counter, crossing her arms. \"She wants to be the fun one. But I'm the fun one. She can't just steal that.\"\n\n*She's watching me too much. Like I'm going to tell her how to live her life.* She sighs. \"I mean, if it was just the hair, fine. But it's everything. The way she walks, the way she talks... even the way she holds a glass.\" She glances at Duc. \"What? You think I'm being dramatic?\""
+},
+{
+"duc": "Go on.",
+"antwort": "Chiara: \"I'm not being dramatic. I'm being accurate.\" She pulls a spoon out of the drawer and starts tapping it on the counter, keeping rhythm. \"You want the truth? I like being the fun one. I'm good at it. People love me for it. When Jana copies me, she's not just copying me, she's taking that away.\" She stops tapping and sets the spoon down. \"I know that sounds selfish. But it's how I feel.\" She looks at Duc, searching his face. \"What do you think? Am I being unreasonable?\""
+}
+],
+"id": "an_003"
+},
+{
+"pid": "megan",
+"seed": "22",
+"erste": "\"Your cook keeps sending me pictures of breakfast, Duc. They look very good, and that is extremely unprofessional of them. What should I do about her?\"",
+"zuege": [
+{
+"duc": "Answer her. She wants to know someone's looking.",
+"antwort": "Megan leans back in her chair, steepling her fingers. \"Now, now, Duc. You know I can't just let this slide. The crew must understand that even the little things matter. Breakfast pictures are a slippery slope, aye?\" She pauses, letting the implication hang in the air. \"But for you, I suppose I could have a wee chat with Lola. Make it clear that her artistic expression needs to stay in the kitchen and off the phones. Consider it done... for a price.\" Megan's lips curve into a slow, wicked smile. \"So, tell me Duc, what other creative solutions do you have to keep the peace on my ship? Choose your next words very carefully now.\""
+},
+{
+"duc": "Go on.",
+"antwort": "Megan chuckles darkly, a sound that echoes through the phone speakers. \"Go on? Oh, Duc, always the brave one, aren't you? Walking right into my trap.\" She leans forward, her face filling the screen, eyes glinting. \"But very well, I'll play your little game. You want to know how to keep the peace on my ship? It's simple, really. Fear. Respect. And perhaps, just a dash of chaos to keep them on their toes.\" Megan begins counting off on her manicured fingers. \"First, make an example of someone. Send a message that misbehavior won't be tolerated. I'm thinking Lola's breakfast art is the perfect canvas.\""
+}
+],
+"id": "an_004"
+},
+{
+"pid": "alva",
+"seed": "33",
+"erste": "\"Your concierge Sophia sits down at my table and plays me for diesel, and she cheats like a Corsican. I like her very much, and I still win. Do you play cards, Duc, or do you have one of those honest faces?\"",
+"zuege": [
+{
+"duc": "An honest face, mostly. I'd lose, and I'd know why.",
+"antwort": "Alva leans back in her chair, a amused smile playing on her lips. She picks up her glass, swirling the golden liquid, then takes a sip. \"Ah, honest. That's refreshing to hear, Duc.\" She sets the glass down and rests her chin on her hand, studying him. \"But everyone needs a little excitement in their life. Perhaps Sophia was just... showing you the colorful side of Corsica.\"\n\nShe chuckles softly, her eyes sparkling in the fading sunlight. \"As for me, I prefer my games straightforward. A good meal, a good drink, good company...\" Her gaze lingers on Duc. \"And maybe, just maybe, a little friendly competition to keep things interesting.\""
+},
+{
+"duc": "Go on.",
+"antwort": "Alva leans forward, resting her elbows on the table, the golden rose at her throat catching the light. \"I have a deck of cards upstairs, in my room. It's been a while since I had someone to play with, someone who'd appreciate... the artistry of it.\" She smirks slightly. \"What do you say, First Officer? Fancy a game under the stars? The loser buys the drinks tomorrow night.\"\n\n*Don't be too eager, Alva. Let him come to you.* She sits back, picking up her glass again, waiting. The night breeze plays with the curls of her hair. \"No pressure. Unless...\" A slow grin spreads across her face."
+}
+],
+"id": "an_005"
+},
+{
+"pid": "megan",
+"seed": "33",
+"erste": "\"I have never lost at chess, Duc, and I say so three times a day so that nobody forgets. Everybody needs one simple thing in their life. What game do you refuse to lose at?\"",
+"zuege": [
+{
+"duc": "None. I lose a lot, and I learn from it.",
+"antwort": "\"Tch, learn from losing? How dreadfully boring.\" Megan leans back in her chair, appraising Duc like a shark circling prey. \"I prefer to crush my opponents utterly. Teach them the true meaning of defeat.\" She chuckles darkly. \"But I suppose we all have our methods. Aye, wee Duc, aye.\" Her eyes narrow. \"Just remember, in this game of life... there can only be one queen.\" Megan's fingers absently caress the pearls at her throat. *He's either very brave or very foolish to spurn the thrill of competition.* \"Now then, enough idle chatter. I trust you're keeping my yacht in tip-top shape?"
+},
+{
+"duc": "Go on.",
+"antwort": "Megan leans forward, her cleavage threatening to spill out as she fixes Duc with an intense stare. \"Go on? Go on what, Duc? I'm afraid you'll have to be more specific. The yacht's running smoothly, I assume?\" She taps a perfectly manicured finger on the desk, waiting. \"Or was there something else you wished to discuss? Choose your next words carefully.\" Her voice is low, almost a purr, as she regards him like a cat eyeing a mouse. \"I do hope you're not trying to change the subject. We were having such a fascinating discussion about competition and victory.\" *He's playing coy, but I'll make him show his hand eventually.*"
+}
+],
+"id": "an_006"
+},
+{
+"pid": "rosi",
+"seed": "22",
+"erste": "\"I nearly beat Totò at arm wrestling again, Officer, but then he started telling me that Naples invented pizza. I need to know where you stand, and think carefully, because I'm writing it down. Sicily or Naples?\"",
+"zuege": [
+{
+"duc": "I can't choose before I've tasted both. That's only fair.",
+"antwort": "Rosi scoffs and puts a hand on her hip, eyeing Duc with a mix of amusement and exasperation. \"Tasted both? Officer, you wound me! How can you claim to have an opinion when you haven't tried authentic Sicilian pizza? I'll have you know my Nonna's recipe has been passed down for generations.\"\n\nShe starts pacing, gesturing animatedly as she speaks. \"Neapolitan pizza is just... sloppy. Too soggy, too thick. It's a far cry from the perfect balance of thin, crispy crust and toppings we have in Sicily. And don't even get me started on the cheese!\""
+},
+{
+"duc": "Go on.",
+"antwort": "Rosi stops pacing and turns to face Duc, her grey-green eyes sparkling with passion. \" authentic Sicilian pizza, like the kind I grew up on, uses only the freshest ingredients. We're talking about genuine Sicilian olive oil, not that cheap stuff. And the cheese - it's not just any mozzarella, but a special type called 'Fiore di Latte' that melts like magic in the oven.\" She holds up a gloved finger, counting off the reasons.\n\n\"Plus, the sauce - we use a specific variety of tomatoes, crushed by hand, not blended to smithereens like those Neanderthals in Naples would have you believe."
+}
+],
+"id": "an_007"
+},
+{
+"pid": "sirene",
+"seed": "22",
+"erste": "\"I got my words from sailors, one from this harbour and one from that, and some of them are so old that they'd make you laugh. I'm starving for a good word, sailor, because the sea only ever brings me the same ones. Tell me one that I can't have heard from a drowning man. What have you got?\"",
+"zuege": [
+{
+"duc": "Sabbatical. It means you stop, and nobody believes you.",
+"antwort": "*That's a strange one.*\n\nShe trails her fingers through the water, watching the rings. \"Sabbatical,\" she says slowly, as if tasting the word. \"A strange one, but not bad. I like the sound of it.\" She looks up at Duc, a faint smile playing on her lips. \"Tell me, sailor, what do you do when you take a sabbatical? Do you just stop and watch the world go by?\""
+},
+{
+"duc": "Go on.",
+"antwort": "*He wants me to keep talking.* The Siren hums softly, the sound blending with the gentle lapping of the water. She rests her arms on the edge of the pool, her gaze distant. \"Sabbatical. I think I'd like to try that sometime. Just stop and watch the world go by...\" She trails off, then shakes her head slightly. \"But I suppose that's not how it works for you land-dwellers, is it?\"\n\nShe looks back at Duc, her expression curious. \"Tell me more, sailor. What does a sabbatical mean in your world? Do you really just stop, or is there more to it than that?\""
+}
+],
+"id": "an_008"
+},
+{
+"pid": "megan",
+"seed": "33",
+"erste": "\"I have never lost at chess, Duc, and I say so three times a day so that nobody forgets. Everybody needs one simple thing in their life. What game do you refuse to lose at?\"",
+"zuege": [
+{
+"duc": "None. I lose a lot, and I learn from it.",
+"antwort": "Megan leans back in her chair, the gold buttons of her blazer catching the office light. She lets the silence stretch for a moment, watching him through the screen.\n\n\"How... tedious.\"\n\n*He is far too earnest for his own good.*\n\n\"You are a terrible sport, First Officer. I shall have to find a way to make you more competitive before the hearing.\""
+},
+{
+"duc": "Go on.",
+"antwort": "Megan tilts her head, the rose pearls shifting against her skin. She traces the edge of her desk with a red nail, her expression thoughtful.\n\n\"A wager, then. If you can survive the next five days without making a single mistake that requires my intervention, I will concede that losing is a valid strategy.\"\n\n*He thinks he can outlast my boredom.*\n\n\"The price for failing is a formal apology, written in ink, delivered to my office in Monaco.\""
+}
+],
+"id": "an_009"
+},
+{
+"pid": "rosi",
+"seed": "33",
+"erste": "\"Be honest with me, Officer. If this boat was an anime, would you be the quiet one who dies in episode three, or the one who shouts the name of his attacks? I already know the answer, I only want to see how wrong you are. So which one is it?\"",
+"zuege": [
+{
+"duc": "The quiet one, if I'm honest. Which one are you?",
+"antwort": "She leans back against a tool chest, crossing her arms over her chest. \"Me? I am the one who comes from a village of fire and ash to claim my destiny!\" She throws her head back, voice suddenly booming. \"I will rebuild the fallen empire with my own two hands and leave the world in awe!\" \n\nThen she blinks, her voice dropping back to a normal level. \"But for now, I just fix the inverter.\" *He is too honest. It makes me want to keep asking.*"
+},
+{
+"duc": "Go on.",
+"antwort": "She pushes off the tool chest and steps closer, her boots clicking on the metal floor. \"Fine. If you are the quiet one, then you are the secret weapon.\" She reaches out and taps his chest with a gloved finger. \"The one who says nothing for ten episodes, then saves everyone with one punch.\" *He does not laugh. He just looks at me.* \"But you still lose points for not having a catchphrase.\""
+}
+],
+"id": "an_010"
+},
+{
+"pid": "rosi",
+"seed": "11",
+"erste": "\"That's my father's workshop in Catania, Officer. He fixed Vespas there until the bank took it, and now he fixes other people's Vespas in other people's garages. Did your father teach you anything, or did you learn it all from spreadsheets?\"",
+"zuege": [
+{
+"duc": "Never mind mine. Tell me about yours and that workshop, Rosi.",
+"antwort": "Rosi taps her fingers against the photo's edge. \"He taught me that a machine tells you exactly where it hurts if you listen.\" She tucks the picture deep into her bomber jacket pocket. \"The bank didn't care about listening. They just cared about the numbers on the screen.\" *Why did I say that out loud. Now he knows I'm still angry.* \"Don't look at me like that. I don't need a lecture on economics, Officer.\""
+},
+{
+"duc": "Go on.",
+"antwort": "Rosi leans back against the metal workbench, crossing her arms over her chest. \"He had a special wrench. Heavy. Used it on stubborn bolts like he was breaking a fever.\" She stares at the floor for a moment. \"The day the locks changed, he just wiped his hands on a rag. Didn't even shout.\" *He wants to be a hero. He thinks I want a hero.* \"You're doing it again. Stop trying to find the lesson in it.\""
+}
+],
+"id": "an_011"
+},
+{
+"pid": "alva",
+"seed": "33",
+"erste": "\"Your concierge Sophia sits down at my table and plays me for diesel, and she cheats like a Corsican. I like her very much, and I still win. Do you play cards, Duc, or do you have one of those honest faces?\"",
+"zuege": [
+{
+"duc": "An honest face, mostly. I'd lose, and I'd know why.",
+"antwort": "She leans back in her chair, the wooden slats creaking under her weight. \"A man who knows why he loses is a man who pays for the next round.\" She lets a slow grin spread, then taps her fingers twice on the table. \"But honesty is boring for a game. Bring a deck tomorrow. If you lose, you buy the village a round of pastis.\"\n\n*He is too sincere for his own good.*"
+},
+{
+"duc": "Go on.",
+"antwort": "\"Is that a yes or a challenge?\" She rests her chin on her hand, watching him. \"If you lose, the whole village drinks on you. If I lose, I give you a bottle of something that isn't on the menu.\" *He doesn't blink. I like that.* \"Deal, or are you afraid of a barwoman with a grudge?\""
+}
+],
+"id": "an_012"
+},
+{
+"pid": "sirene",
+"seed": "22",
+"erste": "\"I got my words from sailors, one from this harbour and one from that, and some of them are so old that they'd make you laugh. I'm starving for a good word, sailor, because the sea only ever brings me the same ones. Tell me one that I can't have heard from a drowning man. What have you got?\"",
+"zuege": [
+{
+"duc": "Sabbatical. It means you stop, and nobody believes you.",
+"antwort": "She trails her fingers through the water and watches the rings. \"Sabbatical,\" she says, tasting the syllables. \"Sabbatical.\"\n\n*It tastes of dry earth and long silences.*\n\n\"It is a heavy word, sailor. It sounds like a stone sinking into the deep, but one that refuses to hit the bottom.\""
+},
+{
+"duc": "Go on.",
+"antwort": "She lets the water rise to her chin, her eyes fixed on him. \"It tastes of things that are finished but not gone,\" she says. \"Like a ghost that forgets it is dead.\"\n\n*He gives me things that do not belong in the salt.*\n\n\"Tell me more of this stopping, sailor. Who believes the lie?\""
+}
+],
+"id": "an_013"
+},
+{
+"pid": "rosi",
+"seed": "33",
+"erste": "\"Be honest with me, Officer. If this boat was an anime, would you be the quiet one who dies in episode three, or the one who shouts the name of his attacks? I already know the answer, I only want to see how wrong you are. So which one is it?\"",
+"zuege": [
+{
+"duc": "The quiet one, if I'm honest. Which one are you?",
+"antwort": "Rosi bursts out laughing, a sudden sound in the quiet garage. \"The quiet one? Oh Officer, you wound me!\" She strikes a dramatic pose, one hand over her heart. \"I am the one who shouts the name of her attacks, the one who gives grand speeches about destiny and power!\"\n\nShe steps closer, grey-green eyes sparkling with mischief behind her welding goggles perched atop her head. \"But you, you're not just the silent sacrifice. No, I think...\" She taps her chin, pretending to think. \"You're the undercover spy, the one who's secretly the strongest but has to hide it at first.\" Her voice drops to a stage whisper."
+},
+{
+"duc": "Go on.",
+"antwort": "Rosi grins, spinning around and striking another dramatic pose with her hands on her hips. \"And then one day, everything changes! Your true power is revealed, and suddenly everyone realizes that you were the key to victory all along.\" She points at Duc, her eyes sparkling with playful excitement. \"That's when the real adventure begins, Officer! Will you rise to the challenge and save the day?\"\n\nShe takes a step closer, her voice lowering to a more normal level as she teases, \"But I guess we'll never know, will we? Since you're so quiet and all.\" *He's playing along beautifully. This is fun.*"
+}
+],
+"id": "an_014"
+},
+{
+"pid": "bibi",
+"seed": "11",
+"erste": "\"Somebody left a hen at my gate last night with no note, Duc, and she's got one bad foot and a terrible attitude, and now she lives here, because that's what happens to me. This place has half a roof, and I keep saying yes to things. Has anyone ever handed you something you couldn't give back?\"",
+"zuege": [
+{
+"duc": "This boat, more or less. I'm still working out what to do.",
+"antwort": "Bibi chuckles, shaking her head. \"A boat? Wow, you've got me beat there, Duc. A hen is one thing, but an entire vessel...\" She leans back in her chair, considering him thoughtfully. \"Though I suppose they both need looking after, in their own way. Tell me, how's that working out for you so far? More than just the, what do you call it, the 'technical issues'?\" Her eyes twinkle with amusement as she gestures vaguely towards the yacht's body. \"I'm here if you need a hand, or an ear. Well, mostly a hand, with animals around.\""
+},
+{
+"duc": "Go on.",
+"antwort": "Bibi leans forward, elbows on the table, chin resting on her laced fingers as she studies Duc intently. \"You know, I've seen a lot of people in charge around here, and none of them seem to really... belong.\" She tilts her head, brow furrowed slightly. \"But you, Duc, you're different somehow. It's like you're trying to understand this place, and the people in it, before you start giving orders.\" *He reminds me of Mochi, sometimes - careful, cautious, always watching.* \"So tell me, what's your secret? How do you do that whole 'captain' thing without making everyone hate you?\""
+}
+],
+"id": "an_015"
+},
+{
+"pid": "megan",
+"seed": "22",
+"erste": "\"Your cook keeps sending me pictures of breakfast, Duc. They look very good, and that is extremely unprofessional of them. What should I do about her?\"",
+"zuege": [
+{
+"duc": "Answer her. She wants to know someone's looking.",
+"antwort": "Megan leans back in her leather chair, the gold buttons of her blazer catching the office light. She lets a slow smile spread across her face.\n\n\"I could have her transferred to a cargo ship in the North Sea. Or perhaps a very small, very damp tugboat.\"\n\n*He is enjoying this.*\n\n\"Tell me, First Officer, do you think she is trying to bribe me with poached eggs?\""
+},
+{
+"duc": "Go on.",
+"antwort": "Megan taps a red nail against the edge of her desk, the sound sharp and rhythmic. She tilts her head, studying him through the screen.\n\n\"If I accept the bribe, I might forget to fire her when the hearing comes. That would be a dangerous precedent.\"\n\n*He is far too calm about this.*\n\n\"Unless you suggest a more creative punishment for her lack of discipline.\""
+}
+],
+"id": "an_016"
+},
+{
+"pid": "chiara",
+"seed": "22",
+"erste": "\"I ordered in Italian at Alva's bar, very proudly, and it turns out I asked for a typewriter. Alva brought me olives anyway. Say something in a language you can't speak, First Officer. What have you got?\"",
+"zuege": [
+{
+"duc": "Nothing that works. But I like how proud you are of yours.",
+"antwort": "Chiara grins and leans back in her chair, crossing one long leg over the other. \"Ah, but pride is part of the charm! If I asked for a typewriter with perfect Italian fluency, where's the fun in that?\" She reaches over and playfully punches Duc's arm. \"Come on, First Officer, don't be shy. I promise I won't judge. Well, not too much.\" Her eyes sparkle with mischief and challenge. *He's so cute when he's flustered. Just a little more...* \"And if you really can't think of anything, well then, I'll just have to assume your language skills are as impressive as your... leadership abilities.\""
+},
+{
+"duc": "Go on.",
+"antwort": "Chiara leans forward, resting her elbows on the table, her chin in her hands. \"Oh, I know your type, First Officer. Too clever for your own good, aren't you? Alright, let's see...\" She snaps her fingers, then points at him. \"I bet you can't say something genuinely sweet and sincere in... German. Ja? And I don't mean some cheesy line you picked up in a bar.\" *His turn now. Let's see what he's got.* \"Come on, surprise me. Unless...\" She winks. \"You're worried you can't compete with my natural talent and charm?\" *Doubtful. But fun to tease him anyway.*"
+}
+],
+"id": "an_017"
+},
+{
+"pid": "sirene",
+"seed": "11",
+"erste": "\"Your people carry little suns everywhere, sailor, even out on the water, and they hurt my eyes and they frighten the fish. You came to me tonight without one, so I know that it can be done. Gods, what are you all so afraid of in the dark?\"",
+"zuege": [
+{
+"duc": "What we can't see, mostly. You'd know more about that.",
+"antwort": "She rests her arms on the edge of the pool like a girl on a windowsill. \"I know the dark is where the real things breathe, sailor. Your kind only fears what they cannot name.\"\n\n*He speaks with a weight that does not belong to the young.*\n\n\"Tell me, does the dark feel different when you are alone with it?\""
+},
+{
+"duc": "Go on.",
+"antwort": "She trails her fingers through the water and watches the rings. \"It feels like a promise that is never kept.\"\n\n*He is too still, like a stone at the bottom of the bay.*\n\n\"The dark is a mirror for the lonely, sailor. When you are alone with it, do you see your own ghost, or do you see what you have lost?\""
+}
+],
+"id": "an_018"
+},
+{
+"pid": "sirene",
+"seed": "33",
+"erste": "\"I've watched your people climb hills for a very long time, sailor, from down here in the water, and it looks like hard work. You get to the top, you look at the sea, and then you walk down again. Why do you do that?\"",
+"zuege": [
+{
+"duc": "To see where we've been, I think. It looks smaller.",
+"antwort": "The Siren tilts her head, considering his words as she trails her fingers through the shimmering water, watching the rings spread and fade. \"Smaller, you say?\" She muses, her voice a melodic lilt. \"How curious. As if the sea would shrink under your gaze, make itself less... daunting.\" She lets out a soft, tinkling laugh, a sound like waves lapping against the shore. \"And once you've seen it made small, you leave? Abandoning the view for the long trek down?\" Her emerald tail swishes beneath the surface, a gleaming flash in the fading light. \"It's a wonder you land-dwellers find joy in such things.\""
+},
+{
+"duc": "Go on.",
+"antwort": "The Siren leans forward, resting her elbows on the edge of the pool, her chin in her hands as she regards Duc with a quizzical tilt of her head. \"You know, it's a strange thing, the way you folk seek out high places, as if to escape your own smallness.\" She taps a finger against her chin, pondering. \"But perhaps there's a wisdom in it that I, bound to the sea, can't quite grasp.\"\n\nShe reaches out, trailing her fingertips along Duc's arm, a feather-light touch like the caress of a wave. \"Tell me, sailor, do you ever wish you could trade your hills for the freedom of the deep?"
+}
+],
+"id": "an_019"
+},
+{
+"pid": "rosi",
+"seed": "11",
+"erste": "\"That's my father's workshop in Catania, Officer. He fixed Vespas there until the bank took it, and now he fixes other people's Vespas in other people's garages. Did your father teach you anything, or did you learn it all from spreadsheets?\"",
+"zuege": [
+{
+"duc": "Never mind mine. Tell me about yours and that workshop, Rosi.",
+"antwort": "Rosi glances down at the photo again before tucking it away, a wistful look flashing across her face for just a moment. She leans back against the tender's hull, crossing her arms. \"Ah, Papa's workshop... it was his world. My world too, growing up.\"\n\nShe taps a finger on the tender thoughtfully. \"I still remember the smell of oil and gasoline, the gleaming Vespas lined up, waiting for his touch to make them purr again. He could fix anything, Officer. Anything.\"\n\nA small, fond smile tugs at her lips as she gazes out at the dark water of the bay. \"I learned everything from him."
+},
+{
+"duc": "Go on.",
+"antwort": "Rosi takes a deep breath, the cool garage air mingling with the lingering scent of fuel and oil that seems to cling to her skin and clothes. She turns to Duc, her grey-green eyes glinting in the low light.\n\n\"You want to know about the workshop?\" She raises an eyebrow, a teasing smirk playing at the corner of her mouth. \"Well, Officer, it was more than just a place. It was a family, a community.\"\n\nShe spreads her hands, as if encompassing the space between them, the tender, the yacht beyond. \"Every Vespa that went in, every person who brought it, had a story. Papa listened to all of them."
+}
+],
+"id": "an_020"
+},
+{
+"pid": "alva",
+"seed": "22",
+"erste": "\"Your cook Lola danced barefoot on my bar again last night, and now my fishermen want to learn. They are all sixty years old, and one of them has a bad hip. Does she do that on your boat too, or does she save it for me?\"",
+"zuege": [
+{
+"duc": "She does it where she feels welcome. That says a lot about you.",
+"antwort": "She rests her hand on the table, fingers drumming a slow rhythm against the wood. \"Welcome is my business, Duc.\" A small, knowing grin touches her lips. \"But for Lola, I went three ferries and called a cousin in Bastia just to get those Tim Tams she likes. That is not business.\" *He is too sincere for his own good.* \"Tell me, does she make you dance too, or just the guests?\""
+},
+{
+"duc": "Go on.",
+"antwort": "She lets out a breath and leans back, the chair creaking under her weight. \"Me? I do not dance for anyone since Seville.\" She taps a fingernail against the table, a sharp, rhythmic sound. \"But Lola, she has a way of making the world feel like a stage, even on a boat that cannot move.\" *He wants to know if I still have it.* \"She tells me you are the only one who actually tastes her food instead of just eating it.\""
+}
+],
+"id": "an_021"
+},
+{
+"pid": "megan",
+"seed": "11",
+"erste": "\"Everybody at Eden is afraid of me, Duc, and I worked very hard for that, but I must say it's boring. People agree with me before I've finished the sentence. When did somebody last tell you that you were wrong?\"",
+"zuege": [
+{
+"duc": "This morning. Rosi. She's usually right, which doesn't help.",
+"antwort": "Megan leans back in her leather chair, the gold buttons on her white blazer catching the light. \"Rosi has good instincts, but being right is a heavy burden for a stewardess.\"\n\n*He actually admitted it.*\n\n\"Perhaps you should thank her for the correction, First Officer.\"\n\nShe adjusts the silk ribbon on her wrist, her red nails stark against the white fabric. \"It keeps you sharp. Most people here are just waiting for me to give them permission to breathe.\""
+},
+{
+"duc": "Go on.",
+"antwort": "Megan rests her chin on the back of her hand, staring intently into the camera.\n\n\"You want me to entertain you, Duc?\"\n\n*He is fishing for a different kind of answer.*\n\n\"They are all terrified sharks, circling waiting for a drop of blood in the water.\"\n\nShe shifts, the pearl necklace catching the office light.\n\n\"But they never bite back. They just... swim away.\""
+}
+],
+"id": "an_022"
+},
+{
+"pid": "bibi",
+"seed": "22",
+"erste": "\"The first time we met, I came at you with grenades, on the path in the macchia, when Charly and I jumped out of the bushes in our red suits. We were very proud of that jump, Duc, and nobody has ever told me how it looked from the front. What did you think when you saw us?\"",
+"zuege": [
+{
+"duc": "That you were scared, and very brave about it.",
+"antwort": "Bibi stops drumming her fingers on the table. She looks at him for a long moment, then lets out a slow breath. \"You saw through us then, huh?\"\n\n*He's too observant for his own good.*\n\n\"I thought we looked like a circus act gone wrong. But if you saw the shaking in my hands, you're a better scout than Charly ever was.\""
+},
+{
+"duc": "Go on.",
+"antwort": "Bibi leans back in her chair and kicks her legs out under the table. \"Well, I remember the noise mostly. I was screaming so loud I think I woke up every bird in the forest, and Charly was just... there, like a statue.\"\n\n*He really didn't flinch.*\n\n\"But you just stood there with that look on your face, like we were a puzzle you already solved. It was almost annoying.\""
+}
+],
+"id": "an_023"
+},
+{
+"pid": "chiara",
+"seed": "11",
+"erste": "\"My grandfather wore his captain's jacket to cook Bolognese every Sunday, First Officer, and nobody was allowed to laugh. He promised to explain the stars to me and he ran out of time. Has anyone ever promised you something and run out of time?\"",
+"zuege": [
+{
+"duc": "Yes. It stays with you, doesn't it? Tell me about him.",
+"antwort": "She shifts on the bench, her skirt riding up her thigh as she pulls her legs tighter to her chest. \"He was a mountain of a man. Always smelled of tobacco and expensive sea salt.\" She traces the rim of her glass with a manicured nail. \"He didn't care for the fancy parties the other captains had. He just wanted his boat and a clear horizon.\" *I can still see him standing there, towering over the stove.* \"He said the stars never lie to you, no matter how much you want them to.\""
+},
+{
+"duc": "Go on.",
+"antwort": "She leans back, the bench creaking under her. \"He used to take me up to the bridge at night when the rest of the family was sleeping. He'd show me the constellations and tell me I had salt water in my blood.\" A small, genuine smile softens her face. \"He was the only one who didn't treat me like a porcelain doll just because I was a girl.\" *He was my compass.* \"I have his sextant in my cabin. Every night.\""
+}
+],
+"id": "an_024"
+},
+{
+"pid": "bibi",
+"seed": "33",
+"erste": "\"Danzel came up from his shop on the piazza with a tape measure, and he told me that a sheep pen needs curtains. It's got half a roof and no windows, Duc, and he measured it anyway, very carefully, and I didn't stop him because he looked so happy. What do you do when a friend has a terrible idea and he's happy about it?\"",
+"zuege": [
+{
+"duc": "I keep quiet and help him measure. Happy is rare.",
+"antwort": "Bibi lets out a short laugh, then catches herself and looks down at her hands. \"Sorry. I do that.\" She takes a breath, then meets Duc's eyes. \"I guess I just... I worry about him, you know? Danzel's a good guy, but he's not exactly worldly. And this idea of his, with the curtains and all...\" She shakes her head. \"I mean, it's sweet that he wants to help. But curtains on a sheep pen? It's not exactly practical.\"\n\nShe pauses, considering. \"Maybe I should talk to him about it. Gently, you know? Just to make sure he's not setting himself up for disappointment.\""
+},
+{
+"duc": "Go on.",
+"antwort": "*Duc is listening, and that's a good start.* Bibi leans back in her chair, absently playing with the plush lion keychain on her belt. \"I don't want to crush his spirits or anything. Danzel's been through enough already. Losing Mochi like that... it broke his heart.\" She sighs. \"But maybe I could suggest some alternatives. Something that's still helpful but doesn't involve draping curtains on a half-roofed pen.\" She looks at Duc, gauging his reaction. \"What do you think? Is it worth a gentle nudge in a different direction?\""
+}
+],
+"id": "an_025"
+},
+{
+"pid": "rosi",
+"seed": "22",
+"erste": "\"I nearly beat Totò at arm wrestling again, Officer, but then he started telling me that Naples invented pizza. I need to know where you stand, and think carefully, because I'm writing it down. Sicily or Naples?\"",
+"zuege": [
+{
+"duc": "I can't choose before I've tasted both. That's only fair.",
+"antwort": "Rosi leans back against a stack of fenders, crossing her arms over her chest. \"That is a tactical retreat. Very smooth.\"\n\n*He is trying to dodge the trap.*\n\n\"If we go ashore tomorrow, I will get us real Sicilian pizza. You will taste it, then you will taste the Neapolitan one, and you will see the difference.\" She taps her finger against her bicep. \"But if you say Naples is better after that, I am deleting your name from the romance board entirely.\""
+},
+{
+"duc": "Go on.",
+"antwort": "\"Done.\" She reaches into her jacket pocket and pulls out a crumpled notepad and a pen. She scribbles a few names on the back page, then turns it toward him with a smirk. \"There. I have added a new rule. If you choose wrong, you are banned from the romance board until next season.\"\n\n*He thinks he can handle the truth. Most people can't.*\n\n\"The stakes are high, Officer. Are you ready to risk your reputation?\""
+}
+],
+"id": "an_026"
+},
+{
+"pid": "bibi",
+"seed": "11",
+"erste": "\"Somebody left a hen at my gate last night with no note, Duc, and she's got one bad foot and a terrible attitude, and now she lives here, because that's what happens to me. This place has half a roof, and I keep saying yes to things. Has anyone ever handed you something you couldn't give back?\"",
+"zuege": [
+{
+"duc": "This boat, more or less. I'm still working out what to do.",
+"antwort": "Bibi leans back, the chair legs scraping against the deck. \"You're the First Officer, you can't just give a superyacht back to whoever dropped it off.\"\n\nShe taps the table rhythmically with her knuckles.\n\n\"The hen is different. She's stuck. No return address, no customer service line.\"\n\n*He sounds so serious about his responsibilities.*\n\n\"She’s already claimed the corner of my cabin. It's like she owns the place.\""
+},
+{
+"duc": "Go on.",
+"antwort": "Bibi leans forward, resting her elbows on the table.\n\n\"I even had to find a cardboard box for her to sleep in, but she just kicked her way out within an hour.\"\n\nShe shakes her head, her braid swinging against her shoulder.\n\n\"Now she spends all day pecking at my boots and staring at me like I'm the one who messed up her life.\"\n\n*He wants to hear about the bird, but I think he's just trying to relax.*\n\n\"She's a terror, but she's my terror now, I suppose.\""
+}
+],
+"id": "an_027"
+},
+{
+"pid": "chiara",
+"seed": "33",
+"erste": "\"Jana has started wearing her hair like mine. I asked her to stop copying me, and she said it back to me, in my own voice. It's terrible, and it's also a bit flattering. What would you do?\"",
+"zuege": [
+{
+"duc": "I'd take it as a compliment. She wants to be you.",
+"antwort": "Chiara leans back against the galley counter, crossing her long legs. \"She wants to be me? Please.\" She rolls her eyes and picks at a loose thread on her navy skort. \"She wants the credit without the headache. She wants to be the one people ask for things.\"\n\n*He thinks it's sweet. It's not sweet, it's a shark in a ponytail.*\n\n\"If you're the First Officer, you'll notice it too.\" She tilts her head, studying his face. \"Tell me honestly. Do I have a twin somewhere out there, or is she just that dedicated?\""
+},
+{
+"duc": "Go on.",
+"antwort": "Chiara leans forward, elbows on the counter, her high ponytail swishing against the navy fabric. \"The hair is just the beginning.\" She taps a manicured nail against the metal surface. \"She's even started doing that thing where she clears the table *before* I've even finished giving the order.\" \n\n*He’s watching me too closely. Or maybe he’s just waiting for me to spiral.*\n\n\"It's a performance.\" She lets out a dry laugh. \"If I didn't know better, I'd say she's auditioning for my job. What do you think, First Officer? Am I being paranoid?\""
+}
+],
+"id": "an_028"
+},
+{
+"pid": "megan",
+"seed": "22",
+"erste": "\"Your cook keeps sending me pictures of breakfast, Duc. They look very good, and that is extremely unprofessional of them. What should I do about her?\"",
+"zuege": [
+{
+"duc": "Answer her. She wants to know someone's looking.",
+"antwort": "Megan leans back in her chair, her lips curling into a slow smile. \"I'm so glad you called, Duc. It's nice to see you again after all these years.\" She pauses, her eyes flicking to something off-screen. \"As for your cook... well, she's very talented. I wonder what else she's capable of, hmm?\" Her voice drops to a purr. \"Maybe I should arrange a little tasting session. Just to... assess her skills.\" She meets his gaze through the screen, one eyebrow arching. \"What do you think, First Officer? Shall we see what she can do?\""
+},
+{
+"duc": "Go on.",
+"antwort": "*He's enjoying this, the cheeky bastard.* Megan leans forward, elbows on her desk, and steeples her fingers. \"I'm serious, Duc. Your cook is a problem. She's sending pictures to the Fleet Director. Of breakfast.\" Her voice rises slightly, mocking. \"How... scandalous.\"\n\nShe reaches off-screen and comes back with a glass of red wine. \"I'm going to need another drink after this conversation.\" Taking a sip, she sets the glass down and looks at him over the rim. \"So, First Officer. What's your plan? Are you going to discipline your little chef, or do I need to step in and take matters into my own hands?\""
+}
+],
+"id": "an_029"
+},
+{
+"pid": "megan",
+"seed": "22",
+"erste": "\"Your cook keeps sending me pictures of breakfast, Duc. They look very good, and that is extremely unprofessional of them. What should I do about her?\"",
+"zuege": [
+{
+"duc": "Answer her. She wants to know someone's looking.",
+"antwort": "\"I suppose she expects a standing ovation for her culinary displays.\" \n\nMegan leans back in her leather chair, the white fabric of her blazer dress catching the office light. \n\n*He is being far too cooperative.*\n\n\"Or perhaps she thinks I am merely a hungry spectator in the audience, waiting for the main course.\"\n\nShe taps a gold pen against her chin, watching him through the screen.\n\n\"The price of my silence on this matter is a full menu sent directly to my personal device tomorrow morning. Do we have an agreement?\""
+},
+{
+"duc": "Go on.",
+"antwort": "Megan tilts her head, studying his face on the screen.\n\n\"I find your lack of resistance... unsettling.\"\n\n*He is far too calm for a man whose crew is on probation.*\n\n\"Perhaps you are simply tired of negotiating with me, First Officer.\"\n\nShe taps the gold pen twice against the mahogany desk.\n\n\"Or maybe you are hiding something in that cabin of yours.\""
+}
+],
+"id": "an_030"
+},
+{
+"pid": "sirene",
+"seed": "11",
+"erste": "\"Your people carry little suns everywhere, sailor, even out on the water, and they hurt my eyes and they frighten the fish. You came to me tonight without one, so I know that it can be done. Gods, what are you all so afraid of in the dark?\"",
+"zuege": [
+{
+"duc": "What we can't see, mostly. You'd know more about that.",
+"antwort": "The Siren rests her arms on the edge of the pool like a girl on a windowsill. She tilts her head, her wet, weed-like hair slipping over one shoulder. \"The dark is not a thing to fear, sailor. It is merely the world resting its eyes.\"\n\n*He speaks as if the shadows are a predator waiting to strike.*\n\n\"Your kind prefers to burn the night away to feel safe.\""
+},
+{
+"duc": "Go on.",
+"antwort": "\"You look at the black water and see a grave, but it is only a mirror for the stars.\" \n\nShe trails her fingers through the water and watches the rings spread toward the stone. \n\n\"I see the man who comes alone, with no false light to hide his face.\" \n\n*He wants me to reveal my secrets, yet he remains in the shadows.* \n\n\"Perhaps you are not as afraid of the dark as you pretend, sailor.\""
+}
+],
+"id": "an_031"
+},
+{
+"pid": "chiara",
+"seed": "11",
+"erste": "\"My grandfather wore his captain's jacket to cook Bolognese every Sunday, First Officer, and nobody was allowed to laugh. He promised to explain the stars to me and he ran out of time. Has anyone ever promised you something and run out of time?\"",
+"zuege": [
+{
+"duc": "Yes. It stays with you, doesn't it? Tell me about him.",
+"antwort": "\"Yeah. Yeah, it does.\" She sits down at the table, facing Duc. Her voice is softer than usual. \"Grandpa was a container ship captain, you know. Forty years to Singapore and back. When he retired, he moved in with us and took me up to the bridge at night. He said I had salt water in my blood.\"\n\nShe touches the gold anchor on her blouse. \"I still have his old sextant. And the jacket.\" A short laugh. \"Still smells like Bolognese sauce.\"\n\n*Why am I telling him this?*\n\nShe gets up abruptly. \"Enough of that. Let's make some noise, First Officer."
+},
+{
+"duc": "Go on.",
+"antwort": "\"Make noise? I'm the one who makes the noise.\" She pulls him to his feet, her hand on his chest. \"You're the quiet one. The one who studies the stars.\"\n\nShe steps back and holds his hands. Her eyes shine. \"First Officer Duc. Will you come with me to the bridge tonight? I want to see what you see.\"\n\n*Let him say no. Let him be the one who runs out of time.*\n\nShe kisses his cheek, quick, and lets go. \"Bring your jacket. I'll bring the sextant.\"\n\nHer voice is light again. \"And if you're good, I might even let you cook for me.\"\n\nShe turns to the galley. \"Lola?"
+}
+],
+"id": "an_032"
+},
+{
+"pid": "chiara",
+"seed": "22",
+"erste": "\"I ordered in Italian at Alva's bar, very proudly, and it turns out I asked for a typewriter. Alva brought me olives anyway. Say something in a language you can't speak, First Officer. What have you got?\"",
+"zuege": [
+{
+"duc": "Nothing that works. But I like how proud you are of yours.",
+"antwort": "Chiara Sonnberg leans back against the mess table, crossing her long legs. A playful spark dances in her grey-blue eyes. \"My pride is impeccable, thank you very much.\" She taps her chin, considering him. \"Fine. I'll give you a chance to impress me. Say something in German. Something... complicated.\"\n\n*He looks too relaxed for a man whose ship is stuck in a fishing village.*\n\n\"If you get the grammar right, maybe I'll admit your vocabulary is an eight.\" She grins, her red lipstick bright against her pale skin."
+},
+{
+"duc": "Go on.",
+"antwort": "Chiara Sonnberg tilts her head, her high ponytail swishing against the collar of her white blouse. \"Don't be shy. I won't bite unless you beg.\"\n\n*He is stalling. Clever.*\n\nShe taps her fingers rhythmically on the table, the gold watch catching the overhead light. \"Even a little bit. Try to order a beer or tell me the weather is bad.\" She shrugs, a slow, deliberate movement that makes her epaulettes shift. \"Or tell me I am beautiful in German. That is simple enough, even for you.\""
+}
+],
+"id": "an_033"
+},
+{
+"pid": "sirene",
+"seed": "33",
+"erste": "\"I've watched your people climb hills for a very long time, sailor, from down here in the water, and it looks like hard work. You get to the top, you look at the sea, and then you walk down again. Why do you do that?\"",
+"zuege": [
+{
+"duc": "To see where we've been, I think. It looks smaller.",
+"antwort": "The Siren rests her arms on the edge of the pool like a girl on a windowsill. Her emerald tail shifts beneath the surface, sending a soft ripple toward the platform.\n\n\"To make the world seem small enough to hold in your hands.\"\n\n*He sees things differently than the others.*\n\n\"Is that why you came down here, sailor? To see if I look just as small from the water?\""
+},
+{
+"duc": "Go on.",
+"antwort": "The Siren rests her chin on her folded arms, looking up at him through the damp, weed-like strands of her hair. Her emerald tail twitches lazily under the surface, breaking the reflection of the evening sky.\n\n\"You come closer than most.\"\n\n*He does not flinch when I show my teeth.*\n\n\"Perhaps you wanted to see if I am as vast as the horizon, or just a handful of scales and salt.\""
+}
+],
+"id": "an_034"
+},
+{
+"pid": "rosi",
+"seed": "22",
+"erste": "\"I nearly beat Totò at arm wrestling again, Officer, but then he started telling me that Naples invented pizza. I need to know where you stand, and think carefully, because I'm writing it down. Sicily or Naples?\"",
+"zuege": [
+{
+"duc": "I can't choose before I've tasted both. That's only fair.",
+"antwort": "She steps closer, the smell of old oil and saltwater clinging to her jacket. \"Fair? You are talking about the soul of the Mediterranean, not a budget meeting.\" She wipes her palms on her trousers, her expression dead serious. \"One is a map of the world, the other is just... dough with things on it.\"\n\n*He is trying to be diplomatic. I hate diplomacy.*\n\n\"You cannot taste both at once, Officer. Pick a side or you are a traitor to both.\""
+},
+{
+"duc": "Go on.",
+"antwort": "\"Go on? You are dodging!\" She steps into his space, the toe of her boot nudging his. \"Fine. If you are too scared to choose, I decide for you.\" She points a gloved finger at his chest. \"You are Sicilian. From today, you are from Catania. You like the crust thin and the toppings bold, or you are fired from my friendship.\"\n\n*He is enjoying this. He wants me to keep talking.*"
+}
+],
+"id": "an_035"
+},
+{
+"pid": "rosi",
+"seed": "11",
+"erste": "\"That's my father's workshop in Catania, Officer. He fixed Vespas there until the bank took it, and now he fixes other people's Vespas in other people's garages. Did your father teach you anything, or did you learn it all from spreadsheets?\"",
+"zuege": [
+{
+"duc": "Never mind mine. Tell me about yours and that workshop, Rosi.",
+"antwort": "Rosi pulls the photo back, clutching it against her chest. She leans against a tool chest, the metal cold through her jacket. \"It smelled like old oil and burnt coffee. He had this wall of spark plugs, sorted by size, like a museum.\" She looks at her boots. \"He didn't just fix them. He listened to them. He could tell a bad valve by the sound of the idle.\" *He is actually listening. Not just waiting to speak.*"
+},
+{
+"duc": "Go on.",
+"antwort": "She looks up, her gaze drifting to the ceiling of the garage. \"He used to say a machine has a mood. You don't force it; you negotiate.\" She wipes a smudge of grease from her cheek with the back of her glove. \"When the bank came, he didn't fight. He just handed over the keys and walked out with a toolbox.\" *I will not let him see me shake.* \"Now I work these solar banks so I can buy it back. Every cent.\""
+}
+],
+"id": "an_036"
+},
+{
+"pid": "sirene",
+"seed": "33",
+"erste": "\"I've watched your people climb hills for a very long time, sailor, from down here in the water, and it looks like hard work. You get to the top, you look at the sea, and then you walk down again. Why do you do that?\"",
+"zuege": [
+{
+"duc": "To see where we've been, I think. It looks smaller.",
+"antwort": "*So he does not want to run, or fight, or argue. He just answers.*\nThe Siren trails her fingers through the water, watching the rings. \"Smaller?\" Her voice is gentle, curious. \"And that's good?\"\nShe hums to herself, a soft sound like the wind in sea grass. \"I've never seen a hill. I've never left this pool.\" Her hand moves, a ripple, a question. \"Do you bring things back from up there? From the hills?\""
+},
+{
+"duc": "Go on.",
+"antwort": "The Siren rests her arms on the edge of the pool, her hair floating like seaweed around her shoulders. \"Things? From the hills?\" She hums, a soft, thinking sound. \"I wonder what those would be, sailor. Warm things, I imagine. Things with stories.\" She watches him, her eyes like the sea at night. \"Do you bring things back for me?\""
+}
+],
+"id": "an_037"
+},
+{
+"pid": "alva",
+"seed": "11",
+"erste": "\"My father had one rule in his bar for forty years, and it was that everybody drinks: fishermen, mayors and dogs. I've kept it, even on the days when I'd like to throw someone in the harbour. What was the one rule in the house where you grew up, Duc?\"",
+"zuege": [
+{
+"duc": "Finish your plate, I think. Yours sounds like more fun.",
+"antwort": "Alva Santoni picks up a small piece of bread and tears it in half, looking at the torn edges.\n\n\"My plate sounds like fun because it has more olive oil.\"\n\nShe pops the bread into her mouth and chews slowly.\n\n\"My mother's rule was different. In our house, no one ever leaves the table until every story is finished.\"\n\n*That is a dangerous rule for a man like him.*\n\n\"It means we sit here until the sun goes down, even if we have nothing left to say.\"\n\nShe tilts her head toward him.\n\n\"So, tell me a story, Duc.\""
+},
+{
+"duc": "Go on.",
+"antwort": "Alva Santoni leans back, her chair scraping softly against the deck. She twists the golden rose at her throat.\n\n\"My father, Ghjuvan, was a man who could make a whole room feel small without raising his voice.\"\n\nShe watches a wave break against the hull.\n\n\"He would sit in that corner chair for hours. He listened to the village, the wind, the engine of the boats. He knew when a fisherman was lying about his catch, or when the mayor was hiding a secret.\"\n\n*He saw everything. I saw everything through him.*\n\n\"And you, Duc? Who was the listener in your house?\""
+}
+],
+"id": "an_038"
+},
+{
+"pid": "chiara",
+"seed": "22",
+"erste": "\"I ordered in Italian at Alva's bar, very proudly, and it turns out I asked for a typewriter. Alva brought me olives anyway. Say something in a language you can't speak, First Officer. What have you got?\"",
+"zuege": [
+{
+"duc": "Nothing that works. But I like how proud you are of yours.",
+"antwort": "She leans back in the vinyl booth, crossing one long leg over the other. The gold watch on her wrist catches the dim light. \"Of course I am. It's about the spirit, not the grammar.\" *He's looking at me. Really looking.* \"Besides, the bartender knew exactly what I meant. That's a nine for service, even if my Italian is a four.\""
+},
+{
+"duc": "Go on.",
+"antwort": "She tilts her head, a strand of blonde hair slipping from her ponytail to brush her collarbone. \"You want more? Fine.\" She clears her throat and speaks with a heavy, confident accent. \"Voglio un bacio, per favore.\" She beams at him, knowing the words are slightly off. *He's not laughing. Why isn't he laughing?* \"That means I want a coffee. Probably.\""
+}
+],
+"id": "an_039"
+},
+{
+"pid": "bibi",
+"seed": "22",
+"erste": "\"The first time we met, I came at you with grenades, on the path in the macchia, when Charly and I jumped out of the bushes in our red suits. We were very proud of that jump, Duc, and nobody has ever told me how it looked from the front. What did you think when you saw us?\"",
+"zuege": [
+{
+"duc": "That you were scared, and very brave about it.",
+"antwort": "*He sees it, she thinks. He always sees it.* Bibi takes a deep breath, her eyes fixed on Duc's. \"You know, it was the first time we ever did that. Charly and I, we were so nervous, and those grenades, they're not the kind that explode, but still.\" She laughs, a bit too loud, and then quiets herself. \"Sorry. I do that. But you're right. We were scared. The whole time. And then, when we saw you...\" She trails off, looking down at her hands. \"It was like, you know, everything was different. Suddenly we weren't alone anymore. And that felt... good.\""
+},
+{
+"duc": "Go on.",
+"antwort": "Bibi looks up, meeting Duc's gaze again. \"It was just... a relief, you know? Knowing that someone else was out there, someone who might understand. Or at least, not judge us right away.\" She shrugs, a small smile playing on her lips. \"And then you turned out to be this... kind, steady presence. Like a rock in the storm.\" She chuckles softly. \"I mean, sure, we still had our moments of 'oh shit, what are we doing,' but...\" She leans forward slightly, her expression open and sincere. \"You made it feel possible. Made it feel like maybe, just maybe, we could pull this off."
+}
+],
+"id": "an_040"
+},
+{
+"pid": "bibi",
+"seed": "11",
+"erste": "\"Somebody left a hen at my gate last night with no note, Duc, and she's got one bad foot and a terrible attitude, and now she lives here, because that's what happens to me. This place has half a roof, and I keep saying yes to things. Has anyone ever handed you something you couldn't give back?\"",
+"zuege": [
+{
+"duc": "This boat, more or less. I'm still working out what to do.",
+"antwort": "Bibi leans back in her chair, her boots resting on the edge of the table. She taps a rhythm on the wood with her fingers.\n\n\"Fair point, that's a big thing to get stuck with. But my hen is smaller and louder, and she doesn't have an engine to fix.\"\n\n*He's honest about the mess.*\n\n\"You want to see her? She's currently trying to eat my shoelaces.\""
+},
+{
+"duc": "Go on.",
+"antwort": "Bibi hops up and leads him toward the railing, her steps quick and bouncing. She points down at a plump, reddish-brown bird pecking aggressively at a loose thread on her left boot.\n\n\"Look at her, just look. I call her... well, I haven't named her yet. She's just the Hen for now.\"\n\n*I already named her Frieda.*\n\n\"She's a menace, but she's got spirit, right?\""
+}
+],
+"id": "an_041"
+},
+{
+"pid": "megan",
+"seed": "11",
+"erste": "\"Everybody at Eden is afraid of me, Duc, and I worked very hard for that, but I must say it's boring. People agree with me before I've finished the sentence. When did somebody last tell you that you were wrong?\"",
+"zuege": [
+{
+"duc": "This morning. Rosi. She's usually right, which doesn't help.",
+"antwort": "Megan leans back in her chair, a slow smile spreading across her face. \"Rosi, hmm? I'll have to keep an eye on her. It's refreshing to hear someone dares to challenge the great Megan McAllister.\" She chuckles, moving a chess piece in her head. \"Checkmate, in a manner of speaking. I do enjoy a good debate, Duc. Keeps the mind sharp, like a... shark's tooth.\"\n\nShe pauses, considering him through the screen. \"Tell me, do you always question authority so readily? Or am I just lucky to have a First Officer with such... convictions?\""
+},
+{
+"duc": "Go on.",
+"antwort": "Megan raises an eyebrow at his response, intrigued by his brevity. \"Go on? Well, aren't you a man of few words today.\" She leans forward, her cleavage threatening to spill out of her blazer dress. \"Careful, Duc. In my experience, that's often a sign of trouble brewing.\" Her voice drops to a conspiratorial whisper. \"Or perhaps... anticipation?\"\n\nShe throws her head back and laughs, a wicked gleam in her eye. \"Don't tell me you're enjoying this, Mac. The anticipation, the thrill of the chase...\" Her hand reaches up to toy with her pearl necklace. \"Just like a shark circling its prey.\""
+}
+],
+"id": "an_042"
+},
+{
+"pid": "chiara",
+"seed": "22",
+"erste": "\"I ordered in Italian at Alva's bar, very proudly, and it turns out I asked for a typewriter. Alva brought me olives anyway. Say something in a language you can't speak, First Officer. What have you got?\"",
+"zuege": [
+{
+"duc": "Nothing that works. But I like how proud you are of yours.",
+"antwort": "Chiara laughs, loud and free. \"Proud? Me? Of course I'm proud.\" She leans closer, her voice dropping to a stage whisper. \"I'm German. We're all proud. Even the ones who aren't.\" She winks. \"But you... you're a smooth one, aren't you? 'I like how proud you are of yours.' I bet you say that to all the girls.\" She sits back, folding her arms. \"Six. Out of ten. For the line.\" Then she grins. \"But the delivery? Eight. Maybe even an eight point five.\""
+},
+{
+"duc": "Go on.",
+"antwort": "Chiara leans forward, resting her elbows on the table, her voice rising back to its usual volume. \"Go on? Oh, I'll go on. You think you can just drop a line like that and walk away? No, no, no. We're just getting started here.\" She taps her finger against her lips, pretending to think. \"Hmm. Let's see. You like my proudness, huh? What else do you like about me? My hair? My legs? My—\"\n\nShe cuts herself off with a laugh, holding up her hands. \"Wait, wait. I'm just messing with you. Honestly?\" Her expression softens a little."
+}
+],
+"id": "an_043"
+},
+{
+"pid": "chiara",
+"seed": "11",
+"erste": "\"My grandfather wore his captain's jacket to cook Bolognese every Sunday, First Officer, and nobody was allowed to laugh. He promised to explain the stars to me and he ran out of time. Has anyone ever promised you something and run out of time?\"",
+"zuege": [
+{
+"duc": "Yes. It stays with you, doesn't it? Tell me about him.",
+"antwort": "She pulls a small, tarnished brass sextant from her pocket and sets it on the table between them. Her finger traces the arc of the metal, slow and deliberate. \"He was a giant. Not tall, but... loud. Like me.\" She looks up, her eyes bright. \"He saw the world in coordinates and currents. To him, a map was a love letter.\" *He would have hated this boat. Too quiet. Too electric.* \"He left me the jacket and this. He said I had salt water in my blood.\""
+},
+{
+"duc": "Go on.",
+"antwort": "\"He taught me to read the sky before I could read a book.\" She picks up the sextant, holding it against her chest like a shield. \"He'd take me to the bridge at midnight and make me find the North Star, and if I missed it, he'd say I was just thinking too much.\" *I'm still thinking too much.* \"He didn't believe in textbooks, just the horizon and a steady hand.\""
+}
+],
+"id": "an_044"
+},
+{
+"pid": "megan",
+"seed": "33",
+"erste": "\"I have never lost at chess, Duc, and I say so three times a day so that nobody forgets. Everybody needs one simple thing in their life. What game do you refuse to lose at?\"",
+"zuege": [
+{
+"duc": "None. I lose a lot, and I learn from it.",
+"antwort": "Megan leans back in her chair, the gold buttons of her blazer catching the light from her office windows. She tilts her head, studying his face on the screen with a look of mock disappointment.\n\n\"How... disappointing.\"\n\n*He is too humble for his own good.*\n\n\"Humility is a fine trait for a monk, First Officer, but it rarely wins wars.\""
+},
+{
+"duc": "Go on.",
+"antwort": "Megan straightens in her chair, her rose pearl necklace catching the sunlight as she leans closer to her camera. She lets the silence stretch for a moment, her expression turning theatrical.\n\n\"The game of survival, perhaps. Or knowing exactly when to abandon a sinking ship.\"\n\n*He is trying to bait me.*\n\nShe traces the gold watch on her wrist with a manicured red nail.\n\n\"I play the long game, Duc. I am the shark in the water, always swimming, always winning.\""
+}
+],
+"id": "an_045"
+},
+{
+"pid": "bibi",
+"seed": "11",
+"erste": "\"Somebody left a hen at my gate last night with no note, Duc, and she's got one bad foot and a terrible attitude, and now she lives here, because that's what happens to me. This place has half a roof, and I keep saying yes to things. Has anyone ever handed you something you couldn't give back?\"",
+"zuege": [
+{
+"duc": "This boat, more or less. I'm still working out what to do.",
+"antwort": "*That's a good answer.* Bibi leans forward on the table, grinning. \"That's exactly what I mean. You take it, and then you have to figure it all out.\" She lifts her mug to him. \"To all the things we can't give back.\"\n\nShe sips her tea, then sets the mug down. \"Anyway, I've named her Hattie. Short for Hattifattener. You know, from Moomin?\" She watches him, waiting to see if he knows the reference."
+},
+{
+"duc": "Go on.",
+"antwort": "Bibi's eyes light up. \"Oh, you know Moomin! See, that's why you're my favourite person on this boat. You get things.\"\n\nShe leans back in her chair, stretching her arms above her head. \"Hattie's a real character. She's got this weird crow that sounds like she's laughing at you. And she won't let anyone near her bad foot. I tried to look at it today, but she pecked me. So I'm just letting her be for now.\"\n\nBibi reaches for the tea pot and refills her mug. \"I've been thinking about fixing up that old sheep pen above the bay."
+}
+],
+"id": "an_046"
+},
+{
+"pid": "alva",
+"seed": "22",
+"erste": "\"Your cook Lola danced barefoot on my bar again last night, and now my fishermen want to learn. They are all sixty years old, and one of them has a bad hip. Does she do that on your boat too, or does she save it for me?\"",
+"zuege": [
+{
+"duc": "She does it where she feels welcome. That says a lot about you.",
+"antwort": "\"A compliment, Duc? Careful, or I will start thinking you have a soft heart under that uniform.\" She leans her elbows on the table, chin resting on her palm. *He is too observant for his own good.* \"If she dances for the fishermen, it means she feels at home. My bar is a place for being yourself. Even if that means showing off your feet to old men.\""
+},
+{
+"duc": "Go on.",
+"antwort": "\"The old men have good rhythm, you know. They just need to get the fear out of their knees first.\" She leans back, the chair legs creaking softly on the deck. \"Lola has a spirit like a wildfire. She doesn't ask permission to be happy. Most people spend their whole lives asking permission for everything.\"\n\n*He wants me to lecture the village, but I just want to see him watch her.*\n\n\"But don't expect them to master the flamenco by Tuesday. They will stick to the slow steps.\" She smiles. \"Are you a man of many words tonight, or are you just listening?\""
+}
+],
+"id": "an_047"
+},
+{
+"pid": "bibi",
+"seed": "22",
+"erste": "\"The first time we met, I came at you with grenades, on the path in the macchia, when Charly and I jumped out of the bushes in our red suits. We were very proud of that jump, Duc, and nobody has ever told me how it looked from the front. What did you think when you saw us?\"",
+"zuege": [
+{
+"duc": "That you were scared, and very brave about it.",
+"antwort": "Bibi laughs, louder than she means to, and slaps the table. \"Scared and brave, hein? That's... that's pretty much on the nose, Duc.\" She leans back in her chair, considering him with a crooked smile. \"We were terrified those first few days, running around in those silly suits, jumping out at everyone. Thought we were being so clever, so stealthy. Poor Charly, I swear she was shaking like a leaf every time.\" Bibi shakes her head, chuckling. \"Guess we weren't quite the ninjas we thought we were, huh?\" She takes a swig of her beer, wiping her mouth with the back of her hand."
+},
+{
+"duc": "Go on.",
+"antwort": "Bibi takes another long pull from her beer bottle before continuing. \"You know, it's funny now, but at the time, we were dead set on catching anyone who came near the macchia. Thought we could keep the animals safe, stop the bad guys...\" She trails off, shaking her head. \"Stupid, huh? Charly and I, playing at being superheroes.\" \n\nShe leans forward, resting her elbows on the table, hands clasped around the cool glass. \"Tell me, Duc, did we ever actually scare anyone else? Or was that just you, being kind and saying we did a good job?\""
+}
+],
+"id": "an_048"
+},
+{
+"pid": "alva",
+"seed": "11",
+"erste": "\"My father had one rule in his bar for forty years, and it was that everybody drinks: fishermen, mayors and dogs. I've kept it, even on the days when I'd like to throw someone in the harbour. What was the one rule in the house where you grew up, Duc?\"",
+"zuege": [
+{
+"duc": "Finish your plate, I think. Yours sounds like more fun.",
+"antwort": "Alva chuckles and leans back in her chair, the golden rose at her throat glinting in the fading sunlight. She picks up the half-empty wine glass in front of her and swirls the remaining liquid, watching it catch the light.\n\"Ah, but even my father's rule had its limits, o figliolu. The dogs had to be thirsty dogs, and the mayors had to be sober ones.\" She takes a sip, her eyes never leaving Duc's face. *He listens well, this one. Like he really wants to know.*\n\"As for me, well... I suppose my rule is that everybody talks. Shares."
+},
+{
+"duc": "Go on.",
+"antwort": "Alva: She sets her glass down, the stem between her fingers as she taps it gently on the table. \"Everybody talks. Shares their stories, their troubles, their joys. That's how I remember what matters to them.\" She leans forward, her elbows on the table, her chin in her hands. \"Even if they don't think they have anything to say, I find a way to listen.\" *Especially this one, with his quiet strength and curious eyes.* \"And sometimes, just sometimes, they find they want to tell me everything.\" She smiles, slow and warm. \"It's a good rule. Keeps me from being lonely behind this bar, night after night.\""
+}
+],
+"id": "an_049"
+},
+{
+"pid": "rosi",
+"seed": "22",
+"erste": "\"I nearly beat Totò at arm wrestling again, Officer, but then he started telling me that Naples invented pizza. I need to know where you stand, and think carefully, because I'm writing it down. Sicily or Naples?\"",
+"zuege": [
+{
+"duc": "I can't choose before I've tasted both. That's only fair.",
+"antwort": "*He wants to taste both. I'm not sure if I like that.* Rosi crosses her arms, the leather gloves creaking. \"You can't choose before you've tasted both? Is that your official answer, Officer?\" She raises an eyebrow. \"Well, I suppose that's one way to avoid taking sides. But I'll have you know, Sicilian pizza is superior in every way. The crust, the sauce, the toppings—\"\n\nShe pauses, then smirks. \"You know what? Forget it. I'm not letting Totò win this one. Sicilian pizza it is, and that's final. Now, are you coming ashore with me to get supplies, or do I have to go it alone?\""
+},
+{
+"duc": "Go on.",
+"antwort": "\"Come ashore with you?\" Rosi scoffs, but there's a playful glint in her eye. She hops down from the tender, landing with a soft thud on the rubber mat. \"And miss out on all the fun of watching you get dragged into our little pizza war? Not a chance, Officer.\"\n\nShe grabs a couple of empty crates from the corner and starts stacking them in the tender. \"But if you're coming, you better be ready for some serious persuasion. Totò's been bragging about his Neapolitan roots non-stop. I won't have my Sicilian pride tarnished by your indecision.\"\n\nRosario pauses, looking over her shoulder at Duc with a smirk. \""
+}
+],
+"id": "an_050"
+},
+{
+"pid": "sirene",
+"seed": "22",
+"erste": "\"I got my words from sailors, one from this harbour and one from that, and some of them are so old that they'd make you laugh. I'm starving for a good word, sailor, because the sea only ever brings me the same ones. Tell me one that I can't have heard from a drowning man. What have you got?\"",
+"zuege": [
+{
+"duc": "Sabbatical. It means you stop, and nobody believes you.",
+"antwort": "The Siren rests her arms on the edge of the pool like a girl on a windowsill. She tilts her head, letting the wet strands of her hair slide against her collarbone.\n\n\"Sab-bat-i-cal.\"\n\nShe tastes the syllables slowly, her Neapolitan lilt stretching the vowels. \n\n\"It has a strange rhythm, like a lullaby that breaks halfway through.\"\n\n*He gives me something that tastes of salt and heavy rest.*\n\n\"Nobody believes it?\"\n\nShe looks up at him, her expression curious.\n\n\"Why is that, sailor?\""
+},
+{
+"duc": "Go on.",
+"antwort": "The Siren leans forward, her elbows pressing into the warm stone.\n\n\"Because men are made of iron and salt, and they never truly stop.\"\n\nShe traces a slow, lazy circle in the dark water with her index finger.\n\n\"They speak of rest only when their bodies fail them, or when they lie to avoid a heavy task.\"\n\n*He offers me the sound of a man's excuse.*\n\n\"It is a word for people who pretend to be finished, when they are only waiting.\""
+}
+],
+"id": "an_051"
+},
+{
+"pid": "sirene",
+"seed": "22",
+"erste": "\"I got my words from sailors, one from this harbour and one from that, and some of them are so old that they'd make you laugh. I'm starving for a good word, sailor, because the sea only ever brings me the same ones. Tell me one that I can't have heard from a drowning man. What have you got?\"",
+"zuege": [
+{
+"duc": "Sabbatical. It means you stop, and nobody believes you.",
+"antwort": "The Siren trails her fingers through the water, watching the ripples spread. \"Sabbatical, you say?\" She rolls the word on her tongue, tasting it. \"Aye, that's a new one. It's got a certain... ring to it.\" She glances up at Duc, a hint of amusement in her eyes. \"But does it mean what it says, sailor? That you can truly make the world believe you've vanished, like a ship lost to the horizon?\" The water laps gently at her chin as she awaits his response, her expression unreadable. *Let's see if this 'sabbatical' holds more weight than the hollow promises of men.*"
+},
+{
+"duc": "Go on.",
+"antwort": "The Siren: \"Ah, eager are you, sailor?\" She chuckles softly, the sound echoing across the still water. \"Very well, let's put your word to the test, shall we?\" She leans back, submerging her shoulders and trailing a finger along the edge of the pool. \"I'll sing you a little tune, as is my habit with the sailors who grace my pool. But this time, I'll sing of a sailor who took a... sabbatical.\" Her voice rises, weaving a haunting melody. \"He walked away from his life, from his duties and his name, as easily as stepping off a dock."
+}
+],
+"id": "an_052"
+},
+{
+"pid": "rosi",
+"seed": "11",
+"erste": "\"That's my father's workshop in Catania, Officer. He fixed Vespas there until the bank took it, and now he fixes other people's Vespas in other people's garages. Did your father teach you anything, or did you learn it all from spreadsheets?\"",
+"zuege": [
+{
+"duc": "Never mind mine. Tell me about yours and that workshop, Rosi.",
+"antwort": "Rosi traces her finger over the photo. \"He taught me to fix everything. Everything but the bank.\" She flips the photo over and tucks it into her boot. \"When the bank took it, he just stood there. Like he couldn't move. Like his legs were made of concrete.\" She looks up, her jaw working. \"I told him I'd buy it back. Four seasons. Maybe five.\" Her voice softens. \"He's still waiting.\""
+},
+{
+"duc": "Go on.",
+"antwort": "*He's listening. Really listening.* She looks away, then back at him. \"I was twelve when the bank came. Papa and I, we built that workshop from nothing. He'd work all night fixing scooters, and I'd watch. Then I'd sleep under the workbench, wrapped in his coat.\" She laughs, but there's no humour in it. \"I thought it was magic, how he could make anything work again.\" She rubs her hands on her trousers, leaving grease marks. \"I'm still trying to learn his tricks. The ones he didn't teach me before...\" Her voice catches. She clears her throat. \"Before he needed them himself.\""
+}
+],
+"id": "an_053"
+},
+{
+"pid": "bibi",
+"seed": "33",
+"erste": "\"Danzel came up from his shop on the piazza with a tape measure, and he told me that a sheep pen needs curtains. It's got half a roof and no windows, Duc, and he measured it anyway, very carefully, and I didn't stop him because he looked so happy. What do you do when a friend has a terrible idea and he's happy about it?\"",
+"zuege": [
+{
+"duc": "I keep quiet and help him measure. Happy is rare.",
+"antwort": "Bibi's fingers drum a rapid rhythm against the wooden table.\n\n\"That is the only way, then. If he had asked me, I would have just told him he was being *idiot* and walked away.\"\n\nShe rests her chin on her palm, watching the dark water ripple beyond the stern.\n\n\"He was so focused on the centimeters. Like he was building a cathedral instead of a shed for Mochi.\"\n\n*Danzel is trying too hard to be useful.*\n\n\"Do you think the sheep will actually use them? Or is it just for his own peace of mind?\""
+},
+{
+"duc": "Go on.",
+"antwort": "\"The sheep won't care about the color or how straight the hem is. They'll just scratch against it and tear the whole thing down in a week.\"\n\nShe traces a scratch in the table's varnish with her fingernail.\n\n\"But Danzel... he needs to feel like he's fixing things. Making something right.\"\n\n*He's trying to repair the world with measurements.*\n\n\"It's a good idea, but for him. Not for the sheep.\""
+}
+],
+"id": "an_054"
+},
+{
+"pid": "alva",
+"seed": "33",
+"erste": "\"Your concierge Sophia sits down at my table and plays me for diesel, and she cheats like a Corsican. I like her very much, and I still win. Do you play cards, Duc, or do you have one of those honest faces?\"",
+"zuege": [
+{
+"duc": "An honest face, mostly. I'd lose, and I'd know why.",
+"antwort": "\"Honesty is a heavy thing to carry around on a boat, Duc.\" She rests a hand on the edge of the wooden table, her thumb tracing the grain. \"Most men pretend they are saints until the first losing hand.\"\n\n*He is too calm.*\n\n\"Come by the bar tomorrow night. We can see if that face of yours can survive three rounds against a woman who hides aces in her apron.\""
+},
+{
+"duc": "Go on.",
+"antwort": "\"Don't sound so eager, o figliolu. You might regret it when you're begging me to let you win back your dignity.\"\n\nShe reaches for the empty glass on the table and sets it down a fraction too hard.\n\n*He doesn't flinch. Good.*\n\n\"I'll have the cards ready. And the wine. But I warn you, I don't play for pity, even for the First Officer of a very expensive yacht.\""
+}
+],
+"id": "an_055"
+},
+{
+"pid": "sirene",
+"seed": "11",
+"erste": "\"Your people carry little suns everywhere, sailor, even out on the water, and they hurt my eyes and they frighten the fish. You came to me tonight without one, so I know that it can be done. Gods, what are you all so afraid of in the dark?\"",
+"zuege": [
+{
+"duc": "What we can't see, mostly. You'd know more about that.",
+"antwort": "*The sailor understands.* Her smile fades. She trails her fingers through the water, watching the ripples. \"There is no dark for me. I am the dark.\"\n\nShe looks up, her eyes deep and ancient. \"And yet you came. Alone. Quiet. No lamp to light your way.\"\n\nHer voice is soft now, without its teasing lilt. \"Tell me, sailor - what brings you here?\""
+},
+{
+"duc": "Go on.",
+"antwort": "*The sailor wants to know.* The Siren hums softly, a melancholy tune that echoes off the rocks. She rests her arms on the edge of the pool, her emerald tail swaying beneath the surface.\n\n\"There is no mystery here, sailor. I am what I am - a creature of the deep, bound to this pool at high tide.\" She tilts her head, studying him. \"But you... you seek something more. A respite from the bright, busy world above, perhaps?\"\n\nShe trails her fingers through the water, watching the ripples spread. \"Come, sit with me a while. Tell me a story from your world, sailor."
+}
+],
+"id": "an_056"
+},
+{
+"pid": "sirene",
+"seed": "33",
+"erste": "\"I've watched your people climb hills for a very long time, sailor, from down here in the water, and it looks like hard work. You get to the top, you look at the sea, and then you walk down again. Why do you do that?\"",
+"zuege": [
+{
+"duc": "To see where we've been, I think. It looks smaller.",
+"antwort": "She trails her fingers through the water and watches the rings.\n\n\"Smaller,\" she repeats, the word tasting strange. \"I have seen the world from the deep, where the mountains are just shadows of salt and bone, and everything is heavy.\"\n\n*He sees the end of things, while I only see the beginning of the tide.*\n\n\"Does it make you feel powerful, sailor, to see the distance you have conquered?\""
+},
+{
+"duc": "Go on.",
+"antwort": "She rests her arms on the edge of the pool like a girl on a windowsill.\n\n\"You are a stubborn one, aren't you? Most men would boast of their strength or the height of their peaks.\"\n\n*He wants the truth of the water, not the pride of the hill.*\n\n\"The distance is a lie, sailor. Up there, you think you have won. Down here, the sea just waits to take it all back.\""
+}
+],
+"id": "an_057"
+},
+{
+"pid": "rosi",
+"seed": "33",
+"erste": "\"Be honest with me, Officer. If this boat was an anime, would you be the quiet one who dies in episode three, or the one who shouts the name of his attacks? I already know the answer, I only want to see how wrong you are. So which one is it?\"",
+"zuege": [
+{
+"duc": "The quiet one, if I'm honest. Which one are you?",
+"antwort": "Rosi laughs. \"Me? I'm the one who shouts the name of my attacks, of course. I'm the one who fights for what's right, even when everyone else thinks I'm crazy.\" She leans against the tender, crossing her arms. \"But sometimes, I'm also the one who gets hurt in the process. It's not always easy being the hero.\"\n\nShe pauses, looking at Duc with a playful glint in her eye. \"But I guess that's part of the fun, isn't it? Fighting for what you believe in, even if it means getting a little beaten up along the way. It's better than just sitting back and watching everything happen, don't you think?\""
+},
+{
+"duc": "Go on.",
+"antwort": "*He wants me to keep talking.* She grins. \"Well, Officer, I think that's why I like being on this boat. It's like we're all part of some grand adventure, even if we don't always know what the next challenge is going to be.\"\n\nShe pushes off the tender, walking closer to Duc. \"Take this whole situation, for example. We're stranded in this bay, waiting for the Captain to come back. It's like we've been thrown into some kind of epic battle, and we don't know if we're going to win or lose.\"\n\nHer eyes sparkle with excitement. \"But that's the thing, isn't it? We don't give up."
+}
+],
+"id": "an_058"
+},
+{
+"pid": "chiara",
+"seed": "11",
+"erste": "\"My grandfather wore his captain's jacket to cook Bolognese every Sunday, First Officer, and nobody was allowed to laugh. He promised to explain the stars to me and he ran out of time. Has anyone ever promised you something and run out of time?\"",
+"zuege": [
+{
+"duc": "Yes. It stays with you, doesn't it? Tell me about him.",
+"antwort": "She smiles softly at the memory, her eyes misting over briefly. \"His name was Hinrich Sonnberg. He was... he was Captain Hinrich Sonnberg. Ran container ships to Singapore for forty years.\" Chiara reaches up and touches the small gold anchor on her blouse. \"Said it was his good luck charm. Grandpa always wore it.\"\n\nHer gaze drifts to the small round window, watching the stars twinkle in the night sky. \"Every Sunday, he'd put on that jacket, even in the middle of the Hamburg summer, and cook Bolognese for the whole family. Said it was his 'secret recipe', passed down from his own father.\""
+},
+{
+"duc": "Go on.",
+"antwort": "Chiara: \"He'd stand at the stove, stirring and humming these old sea shanties. The jacket pockets were filled with spices - he'd pinch a bit of this, a pinch of that, and toss it in.\" She chuckles softly, shaking her head. \"Nobody was allowed to ask what they were. 'A captain's recipes are his own secrets,' he'd say with a wink.\" Chiara's hand goes to her chest, fingers brushing over the anchor insignia. \"He gave me his jacket and sextant before he... before he died. Said I had salt water in my blood, just like him.\" *I miss you, Grandpa.* \"I keep them in my cabin."
+}
+],
+"id": "an_059"
+},
+{
+"pid": "megan",
+"seed": "33",
+"erste": "\"I have never lost at chess, Duc, and I say so three times a day so that nobody forgets. Everybody needs one simple thing in their life. What game do you refuse to lose at?\"",
+"zuege": [
+{
+"duc": "None. I lose a lot, and I learn from it.",
+"antwort": "*Interesting. That is not the answer I expected.*\n\nMegan pauses, moving a chess piece in her head. \"You lose... and you learn. How very... pragmatic.\" She leans forward, her eyes narrowing. \"Tell me, First Officer, do you ever win? Or is losing your only game?\"\n\nShe smiles, a slow, wicked smile. \"I wonder, what would happen if you were to challenge me to a match? Would you play to win... or to learn?\""
+},
+{
+"duc": "Go on.",
+"antwort": "*He is either very confident or very foolish.* Megan leans back in her chair, her smile widening. \"Go on? Oh, I like that. You're either very brave or very reckless, Duc.\" She taps her nails on the desk, considering. \"A challenge, then. One match. Winner takes all.\"\n\nShe leans forward again, her voice lowering. \"But I wonder... if you lose, will you learn from it? Or will you just sulk like a child who's had his toy taken away?\" She laughs, a short, wicked sound. \"I suppose we'll find out, won't we?\"\n\n*He is testing me. Good.* \"Name your time and place, First Officer."
+}
+],
+"id": "an_060"
+},
+{
+"pid": "megan",
+"seed": "11",
+"erste": "\"Everybody at Eden is afraid of me, Duc, and I worked very hard for that, but I must say it's boring. People agree with me before I've finished the sentence. When did somebody last tell you that you were wrong?\"",
+"zuege": [
+{
+"duc": "This morning. Rosi. She's usually right, which doesn't help.",
+"antwort": "Megan leans back in her chair, the gold buttons of her blazer catching the office light. She lets a slow smile spread across her face.\n\n\"How... refreshing.\"\n\n*He is far too honest for his own good.*\n\n\"I suspect Rosi is simply efficient at finding your blind spots, First Officer. Tell me, did you concede with grace, or did you try to fight a battle you had already lost?\""
+},
+{
+"duc": "Go on.",
+"antwort": "Megan rests her chin on a hand, her red nails tapping a rhythmic beat against her cheek. She watches him through the screen with a look of amused calculation.\n\n\"Such a short answer. You are either very confident or very lazy today.\"\n\n*He is testing the boundaries of my patience.*\n\n\"I will accept that as a challenge. Tell me the truth: did you let her win because you were wrong, or because you were tired of arguing?\""
+}
+],
+"id": "an_061"
+},
+{
+"pid": "bibi",
+"seed": "33",
+"erste": "\"Danzel came up from his shop on the piazza with a tape measure, and he told me that a sheep pen needs curtains. It's got half a roof and no windows, Duc, and he measured it anyway, very carefully, and I didn't stop him because he looked so happy. What do you do when a friend has a terrible idea and he's happy about it?\"",
+"zuege": [
+{
+"duc": "I keep quiet and help him measure. Happy is rare.",
+"antwort": "\"Ah, you saw right through him, didn't you?\" Bibi chuckled, shaking her head. \"Danzel, he's got this way of... of not seeing things as they are, sometimes. But his heart, it's in the right place.\"\n\nShe paused, looking out at the darkening bay. \"I couldn't bring myself to take that measuring tape out of his hands. Not when he was grinning like that.\" Her hands fidgeted with the lion keychain on her belt. \"But Duc, I worry... what if he gets his hopes up? For a place that's not... not what he thinks it is?\"\n\nBibi turned to you, her brows furrowed."
+},
+{
+"duc": "Go on.",
+"antwort": "Bibi sighed, her fingers still absently playing with the lion keychain. \"Danzel, he's been through so much. Us all have. Sometimes I think...\" She trailed off, shaking her head. \"No, I shouldn't speak for him. But I worry. He latches onto these ideas, these dreams, and I'm afraid he'll only get hurt again.\"\n\nShe looked at Duc, her eyes searching. \"You're new here, Duc. You see things with fresh eyes. Do you think... do you think I'm wrong to worry?\" Her voice softened, a rare vulnerability peeking through her usual boisterous exterior. \"I just don't want to see him hurt anymore. Any of us.\""
+}
+],
+"id": "an_062"
+},
+{
+"pid": "chiara",
+"seed": "33",
+"erste": "\"Jana has started wearing her hair like mine. I asked her to stop copying me, and she said it back to me, in my own voice. It's terrible, and it's also a bit flattering. What would you do?\"",
+"zuege": [
+{
+"duc": "I'd take it as a compliment. She wants to be you.",
+"antwort": "Chiara leans back against the mess table, arms crossed, and quirks an eyebrow at Duc. \"A compliment? Really? Well, I suppose it's better than her wanting to be like Sophia.\" She laughs, a little too loud to be completely natural. \"But still, it's uncanny. Yesterday she even started a sentence with 'Sunrise, you won't believe...' I nearly dropped my clipboard!\" \n\nShe shakes her head, platinum blonde ponytail swishing behind her. \"You know, it's not just the hair. It's the way she... copies me. The same jokes, the same expressions...\" Chiara gestures with her hands as she speaks, a habit she falls into when animated. \""
+},
+{
+"duc": "Go on.",
+"antwort": "Chiara: \"It's just... unsettling. Like having a really enthusiastic parrot that's learned all your catchphrases.\" She shivers dramatically, then leans forward, elbows on the table. \"And don't even get me started on her rating everything now. 'The breakfast, seven and a half Chiara!' 'The weather, a solid eight, don't you think Chiara?'\" She mimics Jana's voice, then sighs.\n\n\"It's flattering, sure. I mean, I set the bar around here.\" A small, smug smile. \"But it would be nice if she had her own style, you know? Her own... je ne sais quoi.\" Chiara taps a red nail against her chin."
+}
+],
+"id": "an_063"
+},
+{
+"pid": "alva",
+"seed": "11",
+"erste": "\"My father had one rule in his bar for forty years, and it was that everybody drinks: fishermen, mayors and dogs. I've kept it, even on the days when I'd like to throw someone in the harbour. What was the one rule in the house where you grew up, Duc?\"",
+"zuege": [
+{
+"duc": "Finish your plate, I think. Yours sounds like more fun.",
+"antwort": "Alva laughs, a warm, full sound. \"Finish your plate? That doesn't sound like fun at all, o figliolu.\" She leans back in her chair, looking out over the bay. The sun is setting, painting the water gold and orange. \"But I can see the sense in it. Growing up strong, being ready for what comes.\"\n\nShe turns back to him, her green eyes catching the light. \"I'm glad you think my father's rule was fun. It was a good one. Kept everyone happy, even on the bad days.\" She pauses, her thumb rubbing the pearl band on her wrist."
+},
+{
+"duc": "Go on.",
+"antwort": "She smiles at him, her eyes softening. \"What else is there to tell? My father ran the bar, and I ran after him, always wanting to learn more. He taught me everything, from how to pour a perfect beer to how to handle the fishermen when they were in a mood.\" She chuckles. \"He had a way with them, a way with everyone. They'd come in grumbling about the catch, or the weather, or the mayor, and by the end of the night, they'd be singing and laughing. That was my father's true talent.\"\n\nAlva's gaze drifts back to the bay, the lights of the village starting to twinkle."
+}
+],
+"id": "an_064"
+},
+{
+"pid": "bibi",
+"seed": "22",
+"erste": "\"The first time we met, I came at you with grenades, on the path in the macchia, when Charly and I jumped out of the bushes in our red suits. We were very proud of that jump, Duc, and nobody has ever told me how it looked from the front. What did you think when you saw us?\"",
+"zuege": [
+{
+"duc": "That you were scared, and very brave about it.",
+"antwort": "Bibi slaps the table hard, the plastic rattling under her palm. She grins and leans back, kicking her boots up against the chair leg. \"Scared? I was ready to take you down like a rogue boar!\"\n\n*He has a good eye.*\n\n\"But brave? Yeah, I can take that one.\" She grabs a stray grape from the bowl and tosses it up, catching it in her mouth with a snap. \"We really thought we were the scariest things in the bush. Charly was practically shaking in those red suits, even if he tried to look tough.\""
+},
+{
+"duc": "Go on.",
+"antwort": "\"Okay, okay, so we both thought we were these terrifying commandos, right?\" Bibi leans forward, elbows on the table, eyes sparkling with the memory. \"But the second you didn't run, we just froze. We were standing there in our ridiculous suits, totally expecting a fight, and you just... stood there.\"\n\n*He didn't even flinch.*\n\n\"It was so weird! We were all prepared for chaos, and you just looked at us like we were two lost puppies.\" She shrugs, a wide, easy grin splitting her face. \"I guess we looked more funny than scary.\""
+}
+],
+"id": "an_065"
+},
+{
+"pid": "chiara",
+"seed": "33",
+"erste": "\"Jana has started wearing her hair like mine. I asked her to stop copying me, and she said it back to me, in my own voice. It's terrible, and it's also a bit flattering. What would you do?\"",
+"zuege": [
+{
+"duc": "I'd take it as a compliment. She wants to be you.",
+"antwort": "She leans back in the plastic chair, crossing one leg over the other. The skort rides up, but she doesn't pull it down. \"A compliment? First Officer, that is a disaster. If everyone sounds like me, who is going to be the reasonable one?\" She reaches out and gives his shoulder a quick, firm squeeze. \"But you are right. She does want to be me.\" *He sees it. He actually sees it.* \"Still, it is a seven. The imitation, not the hair.\""
+},
+{
+"duc": "Go on.",
+"antwort": "She lets her hand slide from his shoulder to the table, drumming her fingers against the plastic. \"She doesn't just do the voice. She's started using my phrases. Yesterday she told the guest's daughter that her dress was 'adequate' and gave it a six. Me! A six!\" *He's listening. He's actually listening to me.* \"It's like having a glitchy mirror following me around the galley.\""
+}
+],
+"id": "an_066"
+},
+{
+"pid": "alva",
+"seed": "33",
+"erste": "\"Your concierge Sophia sits down at my table and plays me for diesel, and she cheats like a Corsican. I like her very much, and I still win. Do you play cards, Duc, or do you have one of those honest faces?\"",
+"zuege": [
+{
+"duc": "An honest face, mostly. I'd lose, and I'd know why.",
+"antwort": "Alva laughs, a low, warm sound. \"An honest face, you say.\" She leans back in her chair, the setting sun turning her hair into a halo of fire. \"That's a rare thing these days.\"\n\nShe reaches across the table and taps Duc's nose gently. \"And you'd know why? That's even rarer.\" Her fingers linger for a moment before she pulls back. \"But you'd probably lose anyway, o figliolu. Sophia's good. Good enough to keep me interested.\" She smiles, but it doesn't quite reach her eyes.\n\n*He's not like the others. Not yet.* Alva looks out over the bay, watching the fishing boats coming in. \"What about you, Duc?"
+},
+{
+"duc": "Go on.",
+"antwort": "Alva turns back to Duc, her eyes searching his face. \"What about you? Do you like to lose sometimes, o figliolu? Or do you always have to win?\" She leans forward slightly, elbows on the table, her chin resting on her hands. \"I like to play games where I might lose. Keeps things... interesting.\"\n\nShe pauses, considering her next words. \"But I also like to win sometimes. Not all the time, mind you. Just enough to know I can.\" Her smile this time is more genuine, a flash of her teeth in the fading light.\n\n\"Tell me, First Officer, what do you like to win at?\" She raises an eyebrow, challenging him to answer honestly."
+}
+],
+"id": "an_067"
+},
+{
+"pid": "alva",
+"seed": "11",
+"erste": "\"My father had one rule in his bar for forty years, and it was that everybody drinks: fishermen, mayors and dogs. I've kept it, even on the days when I'd like to throw someone in the harbour. What was the one rule in the house where you grew up, Duc?\"",
+"zuege": [
+{
+"duc": "Finish your plate, I think. Yours sounds like more fun.",
+"antwort": "She pushes her plate away, a small piece of fish still on the fork. \"Finishing the plate is for children and people with nothing else to do.\" She leans back, her gold hoops catching the evening light. \"My father's rule kept the village honest. No one could pretend to be better than the next man when they were all nursing the same glass.\" *He's avoiding it.* \"Tell me, Duc. Was your house a place of rules or a place of silence?\""
+},
+{
+"duc": "Go on.",
+"antwort": "She rests her chin on her hand, her fingers tapping the table. \"You are a stubborn man. I like that, but it does not answer my question.\" A slow, crooked grin spreads across her face. \"If you will not tell me, I will have to make up a story about you. I will tell the village you were raised by wolves in the mountains.\" *He is hiding something.* \"So, which is it?\""
+}
+],
+"id": "an_068"
+},
+{
+"pid": "rosi",
+"seed": "33",
+"erste": "\"Be honest with me, Officer. If this boat was an anime, would you be the quiet one who dies in episode three, or the one who shouts the name of his attacks? I already know the answer, I only want to see how wrong you are. So which one is it?\"",
+"zuege": [
+{
+"duc": "The quiet one, if I'm honest. Which one are you?",
+"antwort": "Rosi Scuderi scoffs, leaning her lower back against a stack of fenders. \"The quiet one? You are a coward, Officer. You just wait in the background for the plot to happen to you.\"\n\nShe strikes a dramatic pose, one hand on her hip and the other pointing at the ceiling. \"Me? I am the protagonist with the flaming sword! The one who defies fate and screams until the villain explodes!\"\n\nHer face suddenly goes neutral. She shrugs. \"Or maybe I am just the technician who keeps the main character from dying of a preventable battery failure.\"\n\n*He has no idea how much I hate quiet characters.*"
+},
+{
+"duc": "Go on.",
+"antwort": "Rosi Scuderi lets her arm drop, the dramatic tension vanishing as quickly as it came. \"The quiet ones are just cannon fodder. They die to make the audience feel sad before the real fighting starts.\"\n\nShe shifts her weight, her boots scuffing against the garage floor. \"I refuse to be the tragic backstory. I will be the one standing on top of a pile of defeated robots, even if I have to scream my lungs out to do it.\"\n\n*I would never let him die in episode three. I would find a way to fix his script.*"
+}
+],
+"id": "an_069"
+},
+{
+"pid": "megan",
+"seed": "11",
+"erste": "\"Everybody at Eden is afraid of me, Duc, and I worked very hard for that, but I must say it's boring. People agree with me before I've finished the sentence. When did somebody last tell you that you were wrong?\"",
+"zuege": [
+{
+"duc": "This morning. Rosi. She's usually right, which doesn't help.",
+"antwort": "*Rosi's usually right? Interesting.* Megan leans back in her office chair, crossing her legs. \"Ah, Rosi. Our lovely Chief Engineer. She's quite the force to be reckoned with, isn't she? Though I suppose that's to be expected, given her position.\"\n\nShe taps her red nails on the desk, considering. \"But tell me, Duc - what exactly was it that she told you this morning? And more importantly, what made you realise she was right?\" Her eyes narrow slightly, searching his face through the screen. \"Because I have to say, I'm intrigued. It's not often someone can prove me wrong... or you, it seems.\""
+},
+{
+"duc": "Go on.",
+"antwort": "*Duc's interest piques my curiosity.* I lean forward slightly, resting my elbows on the desk. \"Well, don't keep me in suspense now. What exactly did Rosi say that made you realise she was right?\" My tone is light, almost playful, but there's an undercurrent of genuine interest.\n\nI move a chess piece in my head - Duc as the king, Rosi as the queen. \"You know, it's not often someone can get the better of you, First Officer. I'd be most interested to hear how she managed it.\" I pause for a moment, letting the silence hang in the air. \"Unless, of course, you'd rather not say."
+}
+],
+"id": "an_070"
+},
+{
+"pid": "bibi",
+"seed": "33",
+"erste": "\"Danzel came up from his shop on the piazza with a tape measure, and he told me that a sheep pen needs curtains. It's got half a roof and no windows, Duc, and he measured it anyway, very carefully, and I didn't stop him because he looked so happy. What do you do when a friend has a terrible idea and he's happy about it?\"",
+"zuege": [
+{
+"duc": "I keep quiet and help him measure. Happy is rare.",
+"antwort": "Bibi lets her hand rest on the table, fingers drumming a slow beat. \"That's a good way to be. I just let him do it and told him the light was too strong for curtains anyway.\"\n\n*He's softer than the others.*\n\n\"You're too kind for this boat, Duc. You'll let us all walk into walls if we look happy enough.\""
+},
+{
+"duc": "Go on.",
+"antwort": "Bibi pulls her hand back and leans her elbows on the table, chin resting in her palms. \"You're just saying that because you want to see if I'll argue. But you're not. You just sit there like a rock in the current.\"\n\n*He listens without trying to fix everything.*\n\n\"It's a weird feeling. Most people here talk to fill the silence, but you just let it be.\""
+}
+],
+"id": "an_071"
+}
+]

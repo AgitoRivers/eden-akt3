@@ -1,0 +1,61 @@
+{
+ "id": "holm_uniform_v1",
+ "titel": "Holm: Uniform für Korsika",
+ "hinweis": "Ducs Look zuerst, darunter die drei strengen Varianten als Ersatz für Night Watch. Nur Casting, noch kein Satz und nichts im Spiel. Ducs Look ist von Kopf bis Fuß fotografiert, damit die Stiefel zu sehen sind, die anderen enden auf Kniehöhe.",
+ "items": [
+  {
+   "id": "holm_alt",
+   "titel": "Bisher · Night Watch",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\Yacht_Holm\\Night Watch\\Sorted\\neutral.png",
+   "soll": "Zum Vergleich: Leder und Schal, zu warm für Korsika."
+  },
+  {
+   "id": "holm_M_0",
+   "titel": "Holm · Ducs Look: erschöpft · Bild A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Holm_M\\neutral.png",
+   "soll": "Ganzer Look mit Stiefeln. Die Haare wehen stärker und wirken leicht feucht. Das Top kommt schwarz statt navy, die Hose fällt über die Stiefel statt hinein. Die Schuhsohle stößt an den Bildrand."
+  },
+  {
+   "id": "holm_M_1",
+   "titel": "Holm · Ducs Look: erschöpft · Bild B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Holm_M\\neutral-1.png",
+   "soll": "Vorschlag: Dieses Bild. Ruhiger als A und näher an müde, die Rangabzeichen sind gut zu sehen. Das Top kommt schwarz statt navy, die Hose fällt über die Stiefel statt hinein. Die Stiefel stoßen unten an den Bildrand."
+  },
+  {
+   "id": "holm_N_0",
+   "titel": "Holm · Dunkle Sommeruniform · Bild A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Holm_N\\neutral.png",
+   "soll": "Die beste der drei strengen Varianten. Vier Goldstreifen wie bestellt, das Fernglas führt Night Watch weiter."
+  },
+  {
+   "id": "holm_N_1",
+   "titel": "Holm · Dunkle Sommeruniform · Bild B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Holm_N\\neutral-1.png",
+   "soll": "Ebenfalls vier Streifen, etwas weicher im Ausdruck. Gute Alternative."
+  },
+  {
+   "id": "holm_K_0",
+   "titel": "Holm · Tropen-Khaki · Bild A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Holm_K\\neutral.png",
+   "soll": "Nur drei Streifen plus ein Abzeichen, das nicht bestellt war. Sie verschränkt die Arme, passt aber nicht zur ruhigen Grundpose."
+  },
+  {
+   "id": "holm_K_1",
+   "titel": "Holm · Tropen-Khaki · Bild B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Holm_K\\neutral-1.png",
+   "soll": "Nur drei Streifen plus ein Abzeichen, das nicht bestellt war. Die Arme sind auch hier verschränkt."
+  },
+  {
+   "id": "holm_P_0",
+   "titel": "Holm · Arbeitsuniform · Bild A",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Holm_P\\neutral.png",
+   "soll": "Fehler: Auf der Brust steht unlesbarer Text statt der vier Streifen. Die Shorts enden über dem Knie."
+  },
+  {
+   "id": "holm_P_1",
+   "titel": "Holm · Arbeitsuniform · Bild B",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_neben\\Neben_Holm_P\\neutral-1.png",
+   "soll": "Die Stickerei kommt als zwei unsaubere Reihen statt vier Streifen. Die Shorts enden über dem Knie. Wirkt am wenigsten nach Kapitänin."
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+  "source": "EmberGen smoke_shockwave_2; user-selected project saved as omerta-rauchdruck.ember",
+  "frames": 64,
+  "firstFrame": 0,
+  "stride": 2,
+  "atlas": [
+    4096,
+    4096
+  ],
+  "cell": [
+    512,
+    512
+  ],
+  "alpha": "Native premultiplied alpha converted to straight alpha; luminance preserved in gold palette",
+  "sourceSha256": "c2d34b4f691070be7b0247bc11f71a137ff99226fae5e92c46e5800c92818fa4",
+  "outputSha256": "0745905f9edeb1ff0edcd58fb8096e5b2eeeea90a2e5a518a5b1e398e1a8620b"
+}

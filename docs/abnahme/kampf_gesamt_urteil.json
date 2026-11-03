@@ -1,0 +1,598 @@
+{
+ "Agent/guard": {
+  "urteil": "ok"
+ },
+ "AgentAlpha/guard": {
+  "urteil": "ok"
+ },
+ "Alien/guard": {
+  "urteil": "ok"
+ },
+ "Thief/guard": {
+  "urteil": "ok",
+  "notiz": "Brecheisen schwebt. du kannst bei Guard auch es rausnehmen. Hat ja schon oft nicht geklappt"
+ },
+ "Brute/guard": {
+  "urteil": "ok"
+ },
+ "BruteAlpha/guard": {
+  "urteil": "ok"
+ },
+ "DrunkCasanova/guard": {
+  "urteil": "ok"
+ },
+ "ThiefArab/guard": {
+  "urteil": "ok",
+  "notiz": "Brecheisen schwebt. du kannst bei Guard auch es rausnehmen. Hat ja schon oft nicht geklappt"
+ },
+ "Alon/hurt": {
+  "urteil": "ok"
+ },
+ "Alon/heavy_windup": {
+  "urteil": "ok"
+ },
+ "AgentAlpha/attack": {
+  "urteil": "ok"
+ },
+ "Lion/defeated": {
+  "urteil": "ok"
+ },
+ "Lion/death": {
+  "urteil": "ok"
+ },
+ "ApeAlpha/guard": {
+  "urteil": "ok"
+ },
+ "ApeAlpha/hurt": {
+  "urteil": "ok"
+ },
+ "ApeAlpha/enraged": {
+  "urteil": "ok"
+ },
+ "WolfAlpha/defeated": {
+  "urteil": "ok"
+ },
+ "WolfAlpha/death": {
+  "urteil": "ok"
+ },
+ "Panther/defeated": {
+  "urteil": "ok"
+ },
+ "Panther/death": {
+  "urteil": "ok"
+ },
+ "PantherAlpha/defeated": {
+  "urteil": "ok"
+ },
+ "PantherAlpha/death": {
+  "urteil": "ok"
+ },
+ "Alon/guard": {
+  "urteil": "ok"
+ },
+ "Heinrich/guard": {
+  "urteil": "ok"
+ },
+ "MaxwellMaximum/guard": {
+  "urteil": "ok"
+ },
+ "MaxwellSports/guard": {
+  "urteil": "ok"
+ },
+ "MaxwellSteward/guard": {
+  "urteil": "ok"
+ },
+ "Mime/guard": {
+  "urteil": "ok"
+ },
+ "Paparazzo/guard": {
+  "urteil": "ok"
+ },
+ "Pirate/guard": {
+  "urteil": "ok"
+ },
+ "PirateAlpha/guard": {
+  "urteil": "ok"
+ },
+ "PirateTorch/guard": {
+  "urteil": "ok"
+ },
+ "ThiefAlpha/guard": {
+  "urteil": "ok"
+ },
+ "Vampire/guard": {
+  "urteil": "ok"
+ },
+ "YasinDrone/guard": {
+  "urteil": "ok"
+ },
+ "Agent/hurt": {
+  "urteil": "ok"
+ },
+ "Thief/hurt": {
+  "urteil": "ok"
+ },
+ "ThiefAlpha/hurt": {
+  "urteil": "ok"
+ },
+ "Pirate/hurt": {
+  "urteil": "ok"
+ },
+ "PirateAlpha/hurt": {
+  "urteil": "ok"
+ },
+ "BruteAlpha/hurt": {
+  "urteil": "ok"
+ },
+ "YasinDrone/hurt": {
+  "urteil": "ok"
+ },
+ "MaxwellMaximum/heavy_windup": {
+  "urteil": "ok"
+ },
+ "MaxwellSports/heavy_windup": {
+  "urteil": "ok"
+ },
+ "AgentAlpha/heavy_windup": {
+  "urteil": "ok"
+ },
+ "Mime/heavy_windup": {
+  "urteil": "ok"
+ },
+ "Heinrich/heavy_windup": {
+  "urteil": "ok"
+ },
+ "Thief/attack": {
+  "urteil": "ok"
+ },
+ "ThiefArab/attack": {
+  "urteil": "ok"
+ },
+ "ThiefAlpha/attack": {
+  "urteil": "ok"
+ },
+ "PirateTorch/windup": {
+  "urteil": "ok"
+ },
+ "AgentAlpha/windup": {
+  "urteil": "ok"
+ },
+ "Agent/surrender": {
+  "urteil": "ok"
+ },
+ "AgentAlpha/surrender": {
+  "urteil": "ok"
+ },
+ "Brute/surrender": {
+  "urteil": "ok"
+ },
+ "BruteAlpha/surrender": {
+  "urteil": "ok"
+ },
+ "DrunkCasanova/surrender": {
+  "urteil": "ok"
+ },
+ "Heinrich/surrender": {
+  "urteil": "ok"
+ },
+ "MaxwellMaximum/surrender": {
+  "urteil": "ok"
+ },
+ "MaxwellSports/surrender": {
+  "urteil": "ok"
+ },
+ "MaxwellSteward/surrender": {
+  "urteil": "ok"
+ },
+ "Paparazzo/surrender": {
+  "urteil": "ok"
+ },
+ "Pirate/surrender": {
+  "urteil": "ok"
+ },
+ "PirateAlpha/surrender": {
+  "urteil": "ok"
+ },
+ "PirateTorch/surrender": {
+  "urteil": "ok"
+ },
+ "ThiefArab/surrender": {
+  "urteil": "ok"
+ },
+ "Vampire/surrender": {
+  "urteil": "ok"
+ },
+ "Lion/idle": {
+  "urteil": "ok"
+ },
+ "Lion/guard": {
+  "urteil": "ok"
+ },
+ "Lion/hurt": {
+  "urteil": "ok"
+ },
+ "Lion/enraged": {
+  "urteil": "ok"
+ },
+ "Lion/weakened": {
+  "urteil": "ok"
+ },
+ "Lion/surrender": {
+  "urteil": "ok"
+ },
+ "Lion/flee": {
+  "urteil": "ok"
+ },
+ "Lion/victory": {
+  "urteil": "ok"
+ },
+ "Lion/windup": {
+  "urteil": "ok"
+ },
+ "Lion/attack": {
+  "urteil": "ok"
+ },
+ "Lion/heavy_windup": {
+  "urteil": "ok"
+ },
+ "Lion/heavy_attack": {
+  "urteil": "ok"
+ },
+ "LionAlpha/idle": {
+  "urteil": "ok"
+ },
+ "LionAlpha/guard": {
+  "urteil": "ok"
+ },
+ "LionAlpha/hurt": {
+  "urteil": "ok"
+ },
+ "LionAlpha/enraged": {
+  "urteil": "ok"
+ },
+ "LionAlpha/weakened": {
+  "urteil": "ok"
+ },
+ "LionAlpha/surrender": {
+  "urteil": "ok"
+ },
+ "LionAlpha/flee": {
+  "urteil": "ok"
+ },
+ "LionAlpha/victory": {
+  "urteil": "ok"
+ },
+ "LionAlpha/windup": {
+  "urteil": "ok"
+ },
+ "LionAlpha/attack": {
+  "urteil": "ok"
+ },
+ "LionAlpha/heavy_windup": {
+  "urteil": "ok"
+ },
+ "LionAlpha/heavy_attack": {
+  "urteil": "ok"
+ },
+ "LionAlpha/defeated": {
+  "urteil": "ok"
+ },
+ "LionAlpha/death": {
+  "urteil": "ok"
+ },
+ "Ape/idle": {
+  "urteil": "ok"
+ },
+ "Ape/guard": {
+  "urteil": "ok"
+ },
+ "Ape/hurt": {
+  "urteil": "ok"
+ },
+ "Ape/enraged": {
+  "urteil": "ok"
+ },
+ "Ape/weakened": {
+  "urteil": "ok"
+ },
+ "Ape/surrender": {
+  "urteil": "ok"
+ },
+ "Ape/flee": {
+  "urteil": "ok"
+ },
+ "Ape/victory": {
+  "urteil": "ok"
+ },
+ "Ape/windup": {
+  "urteil": "ok"
+ },
+ "Ape/attack": {
+  "urteil": "ok"
+ },
+ "Ape/heavy_windup": {
+  "urteil": "ok"
+ },
+ "Ape/heavy_attack": {
+  "urteil": "ok"
+ },
+ "Ape/defeated": {
+  "urteil": "ok"
+ },
+ "Ape/death": {
+  "urteil": "ok"
+ },
+ "ApeAlpha/idle": {
+  "urteil": "ok"
+ },
+ "ApeAlpha/weakened": {
+  "urteil": "ok"
+ },
+ "ApeAlpha/surrender": {
+  "urteil": "ok"
+ },
+ "ApeAlpha/flee": {
+  "urteil": "ok"
+ },
+ "ApeAlpha/victory": {
+  "urteil": "ok"
+ },
+ "ApeAlpha/windup": {
+  "urteil": "ok"
+ },
+ "ApeAlpha/attack": {
+  "urteil": "ok"
+ },
+ "ApeAlpha/heavy_windup": {
+  "urteil": "ok"
+ },
+ "ApeAlpha/heavy_attack": {
+  "urteil": "ok"
+ },
+ "ApeAlpha/defeated": {
+  "urteil": "ok"
+ },
+ "ApeAlpha/death": {
+  "urteil": "ok"
+ },
+ "Wolf/idle": {
+  "urteil": "ok"
+ },
+ "Wolf/guard": {
+  "urteil": "ok"
+ },
+ "Wolf/hurt": {
+  "urteil": "ok"
+ },
+ "Wolf/enraged": {
+  "urteil": "ok"
+ },
+ "Wolf/weakened": {
+  "urteil": "ok"
+ },
+ "Wolf/surrender": {
+  "urteil": "ok"
+ },
+ "Wolf/flee": {
+  "urteil": "ok"
+ },
+ "Wolf/victory": {
+  "urteil": "ok"
+ },
+ "Wolf/windup": {
+  "urteil": "ok"
+ },
+ "Wolf/attack": {
+  "urteil": "ok"
+ },
+ "Wolf/heavy_windup": {
+  "urteil": "ok"
+ },
+ "Wolf/heavy_attack": {
+  "urteil": "ok"
+ },
+ "Wolf/defeated": {
+  "urteil": "ok"
+ },
+ "Wolf/death": {
+  "urteil": "ok"
+ },
+ "WolfAlpha/idle": {
+  "urteil": "ok"
+ },
+ "WolfAlpha/guard": {
+  "urteil": "ok"
+ },
+ "WolfAlpha/hurt": {
+  "urteil": "ok"
+ },
+ "WolfAlpha/enraged": {
+  "urteil": "ok"
+ },
+ "WolfAlpha/weakened": {
+  "urteil": "ok"
+ },
+ "WolfAlpha/surrender": {
+  "urteil": "ok"
+ },
+ "WolfAlpha/flee": {
+  "urteil": "ok"
+ },
+ "WolfAlpha/victory": {
+  "urteil": "ok"
+ },
+ "WolfAlpha/windup": {
+  "urteil": "ok"
+ },
+ "WolfAlpha/attack": {
+  "urteil": "ok"
+ },
+ "WolfAlpha/heavy_windup": {
+  "urteil": "ok"
+ },
+ "WolfAlpha/heavy_attack": {
+  "urteil": "ok"
+ },
+ "Panther/idle": {
+  "urteil": "ok"
+ },
+ "Panther/guard": {
+  "urteil": "ok"
+ },
+ "Panther/hurt": {
+  "urteil": "ok"
+ },
+ "Panther/enraged": {
+  "urteil": "ok"
+ },
+ "Panther/weakened": {
+  "urteil": "ok"
+ },
+ "Panther/surrender": {
+  "urteil": "ok"
+ },
+ "Panther/flee": {
+  "urteil": "ok"
+ },
+ "Panther/victory": {
+  "urteil": "ok"
+ },
+ "Panther/windup": {
+  "urteil": "ok"
+ },
+ "Panther/attack": {
+  "urteil": "ok"
+ },
+ "Panther/heavy_windup": {
+  "urteil": "ok"
+ },
+ "Panther/heavy_attack": {
+  "urteil": "ok"
+ },
+ "PantherAlpha/idle": {
+  "urteil": "ok"
+ },
+ "PantherAlpha/guard": {
+  "urteil": "ok"
+ },
+ "PantherAlpha/hurt": {
+  "urteil": "ok"
+ },
+ "PantherAlpha/enraged": {
+  "urteil": "ok"
+ },
+ "PantherAlpha/weakened": {
+  "urteil": "ok"
+ },
+ "PantherAlpha/surrender": {
+  "urteil": "ok"
+ },
+ "PantherAlpha/flee": {
+  "urteil": "ok"
+ },
+ "PantherAlpha/victory": {
+  "urteil": "ok"
+ },
+ "PantherAlpha/windup": {
+  "urteil": "ok"
+ },
+ "PantherAlpha/attack": {
+  "urteil": "ok"
+ },
+ "PantherAlpha/heavy_windup": {
+  "urteil": "ok"
+ },
+ "PantherAlpha/heavy_attack": {
+  "urteil": "ok"
+ },
+ "Grizzly/idle": {
+  "urteil": "ok"
+ },
+ "Grizzly/guard": {
+  "urteil": "ok"
+ },
+ "Grizzly/hurt": {
+  "urteil": "ok"
+ },
+ "Grizzly/enraged": {
+  "urteil": "ok"
+ },
+ "Grizzly/weakened": {
+  "urteil": "ok"
+ },
+ "Grizzly/surrender": {
+  "urteil": "ok"
+ },
+ "Grizzly/flee": {
+  "urteil": "ok"
+ },
+ "Grizzly/victory": {
+  "urteil": "ok"
+ },
+ "Grizzly/windup": {
+  "urteil": "ok"
+ },
+ "Grizzly/attack": {
+  "urteil": "ok"
+ },
+ "Grizzly/heavy_windup": {
+  "urteil": "ok"
+ },
+ "Grizzly/heavy_attack": {
+  "urteil": "ok"
+ },
+ "Grizzly/defeated": {
+  "urteil": "ok"
+ },
+ "Grizzly/death": {
+  "urteil": "ok"
+ },
+ "GrizzlyAlpha/idle": {
+  "urteil": "ok"
+ },
+ "GrizzlyAlpha/guard": {
+  "urteil": "ok"
+ },
+ "GrizzlyAlpha/hurt": {
+  "urteil": "ok"
+ },
+ "GrizzlyAlpha/enraged": {
+  "urteil": "ok"
+ },
+ "GrizzlyAlpha/weakened": {
+  "urteil": "ok"
+ },
+ "GrizzlyAlpha/surrender": {
+  "urteil": "ok"
+ },
+ "GrizzlyAlpha/flee": {
+  "urteil": "ok"
+ },
+ "GrizzlyAlpha/victory": {
+  "urteil": "ok"
+ },
+ "GrizzlyAlpha/windup": {
+  "urteil": "ok"
+ },
+ "GrizzlyAlpha/attack": {
+  "urteil": "ok"
+ },
+ "GrizzlyAlpha/heavy_windup": {
+  "urteil": "ok"
+ },
+ "GrizzlyAlpha/heavy_attack": {
+  "urteil": "ok"
+ },
+ "GrizzlyAlpha/defeated": {
+  "urteil": "ok"
+ },
+ "GrizzlyAlpha/death": {
+  "urteil": "ok"
+ },
+ "Ziege": {
+  "urteil": "ok"
+ },
+ "ZiegeHalsband": {
+  "urteil": "ok"
+ }
+}

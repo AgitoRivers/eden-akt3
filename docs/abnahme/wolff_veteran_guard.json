@@ -1,0 +1,10 @@
+{
+ "id": "wolff_veteran_guard_v1",
+ "titel": "Sergent Kaspar Wolff: guard mit Schwert in Abwehr",
+ "hinweis": "Bitte einen auf OK setzen. Mein Vorschlag: Fassung 1, dort ist die Abwehr am klarsten zu erkennen. Links jeweils die abgelehnte Pose. Danach baue ich den ganzen Satz ein.",
+ "items": [
+  {"id": "guard1", "titel": "Guard 1 · Klinge senkrecht vor dem Gesicht (Vorschlag)", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_guard\\1\\guard.png", "soll": "Beide Hände am Griff, die Klinge steht senkrecht und schützt Gesicht und Brust.", "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\kampf\\guard.png", "vergleich_titel": "Abgelehnt"},
+  {"id": "guard2", "titel": "Guard 2 · Klinge waagerecht über dem Kopf", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_guard\\2\\guard.png", "soll": "Abwehr eines Schlags von oben. Die linke Hand stützt die Klinge nicht, wie ich es bestellt hatte, sondern bleibt unten.", "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\kampf\\guard.png", "vergleich_titel": "Abgelehnt"},
+  {"id": "guard3", "titel": "Guard 3 · Klinge schräg nach unten", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_guard\\3\\guard.png", "soll": "Die Klinge sollte quer vor dem Körper liegen, zeigt aber nach unten. Wirkt am wenigsten nach Abwehr.", "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_wolff_veteran_satz\\kampf\\guard.png", "vergleich_titel": "Abgelehnt"}
+ ]
+}

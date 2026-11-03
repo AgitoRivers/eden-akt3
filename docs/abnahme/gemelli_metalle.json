@@ -1,0 +1,31 @@
+{
+ "id": "gemelli_metalle",
+ "titel": "Gemelli-Material: Chrom und Silber",
+ "hinweis": "Beide als Barren, aber klar unterscheidbar. Je Metall bitte die beste mit OK markieren.",
+ "items": [
+  {
+   "id": "chrom_v1",
+   "titel": "Chrom, Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\chrom_v1.png",
+   "soll": "spiegelblanker rechteckiger Barren, kühl blau-weiß"
+  },
+  {
+   "id": "chrom_v2",
+   "titel": "Chrom, Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\chrom_v2.png",
+   "soll": "spiegelblanker rechteckiger Barren, kühl blau-weiß"
+  },
+  {
+   "id": "silber_v1",
+   "titel": "Silber, Variante 1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\silber_v1.png",
+   "soll": "warmer matter Silberbarren mit schrägen Seiten"
+  },
+  {
+   "id": "silber_v2",
+   "titel": "Silber, Variante 2",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\silber_v2.png",
+   "soll": "warmer matter Silberbarren mit schrägen Seiten"
+  }
+ ]
+}

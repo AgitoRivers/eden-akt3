@@ -1,0 +1,10 @@
+{
+ "id": "agent_gunman_v2",
+ "titel": "Die Schützin der Agenten: Valentina",
+ "hinweis": "Bitte eine wählen. Mein Vorschlag: Variante 1, der Pferdeschwanz ist auch auf dem Pixel-Blatt klar zu erkennen. Links der bisherige Agent mit Schlagstock, dessen Bild der Rifleman im Kampf noch nutzt. Erst nach deiner Wahl rendere ich den vollen Satz. Der Name Valentina ist nur mein Arbeitsname.",
+ "items": [
+  {"id": "g1", "titel": "Variante 1 · langer Pferdeschwanz (Vorschlag)", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_agent_gunman_2\\g1\\idle.png", "soll": "Langes Gesicht, hohe Wangenknochen. Passt zum DALL·E-Prompt, den du schon hast. Das Sturmgewehr hält sie bereit vor dem Körper, zum Zielen hebt sie es in den Angriffsposen.", "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\Agent\\idle.webp", "vergleich_titel": "Agent"},
+  {"id": "g2", "titel": "Variante 2 · strenger Dutt", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_agent_gunman_2\\g2\\idle-1.png", "soll": "Kantiger, wirkt am kühlsten. Die Narbe durch die Braue ist meine Zugabe, wegen der Sonnenbrille aber kaum zu sehen.", "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\Agent\\idle.webp", "vergleich_titel": "Agent"},
+  {"id": "g3", "titel": "Variante 3 · offene Locken", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_agent_gunman_2\\g3\\idle.png", "soll": "Am lebendigsten, sticht aus dem Agenten-Look aber am meisten heraus.", "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\Agent\\idle.webp", "vergleich_titel": "Agent"}
+ ]
+}

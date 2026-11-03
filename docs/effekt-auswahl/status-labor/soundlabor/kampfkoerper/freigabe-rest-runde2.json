@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "source": "Duc clipboard feedback 2026-10-26T08:04:23.022Z",
+  "selected": {
+    "stone_shock": {
+      "label": "Erschüttert · tiefer Körperstoß",
+      "variant": "B",
+      "file": "revision2/audio/stone_shock_2.ogg",
+      "asset_id": "combat-foley-v2-stone_shock-B",
+      "revision": 2,
+      "sha256": "c5e1490ae063d1008f88ef1dea87fc641e99bb9d832bb252158ef4b8e1777872",
+      "note": ""
+    },
+    "bleed_reaction": {
+      "label": "Blutend · Wunde reißt auf",
+      "variant": "A",
+      "file": "revision2/audio/bleed_reaction_1.ogg",
+      "asset_id": "combat-foley-v2-bleed_reaction-A",
+      "revision": 2,
+      "sha256": "dd9af1d9fda061bf0ad7556761e9a4f3363d0655fee5779ec30c54747285d215",
+      "note": ""
+    },
+    "state_recover": {
+      "label": "Zustand endet · Fassung gewinnen",
+      "variant": "C",
+      "file": "revision2/audio/state_recover_3.ogg",
+      "asset_id": "combat-foley-v2-state_recover-C",
+      "revision": 2,
+      "sha256": "0c8c42efc80c90af647ac2587797e97ab205bdbb9dd0f31b67d48ac700ad21f2",
+      "note": ""
+    }
+  },
+  "committed": false
+}

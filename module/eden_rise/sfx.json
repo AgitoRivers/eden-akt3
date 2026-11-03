@@ -1,0 +1,3300 @@
+{
+ "_hinweis": "Gebaut aus werkzeuge\\eden_rise\\sfx_eden_rise.py - dort aendern.",
+ "sfx": [
+  {
+   "id": "ui_meldung",
+   "wofuer": "Allgemeine Meldung (Toast oben in der Mitte)",
+   "prompt": "soft elegant user interface notification chime, two gentle glassy notes, warm and premium, luxury yacht app, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 1.2,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "ui",
+   "einfluss": 0.6,
+   "schleife": false,
+   "wahl": 3
+  },
+  {
+   "id": "handy_nachricht",
+   "wofuer": "Neue Nachricht im Handy",
+   "prompt": "smartphone vibrating on a wooden table, a pleasant warm low buzz in two short smooth pulses, soft and rounded, no ping, no beep, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 1.2,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "ui",
+   "einfluss": 0.6,
+   "schleife": false,
+   "wahl": 4
+  },
+  {
+   "id": "vorliebe_entdeckt",
+   "wofuer": "Lavendel-Meldung: Vorliebe entdeckt",
+   "prompt": "gentle pleasant discovery chime, soft warm bells rising slowly, mellow and harmonious, calm and tender, no harsh high frequencies, visual novel affection sound, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 1.8,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "ui",
+   "einfluss": 0.6,
+   "schleife": false,
+   "wahl": 3
+  },
+  {
+   "id": "ui_klick",
+   "wofuer": "Auswahl bestätigen (Antwort, Knopf, Ort)",
+   "prompt": "single deep satisfying user interface click, full-bodied and solid, soft thock like a premium mechanical keyboard key, warm low end, no ringing, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 0.5,
+   "mehrfach": false,
+   "varianten": 10,
+   "gruppe": "ui",
+   "einfluss": 0.75,
+   "schleife": false,
+   "wahl": 2,
+   "konzepte": [
+    {
+     "name": "Auto-Knopf 3 (behalten)",
+     "prompt": "a premium car infotainment button press, solid damped click, expensive and precise, single very short modern user interface click, rich and full-bodied, deep rounded low end with a crisp clean attack, tight and punchy, satisfying, no ringing, clean, high quality game sound effect, no music, no voices, dry, short tail"
+    },
+    {
+     "name": "Auto-Knopf 4 (behalten)",
+     "prompt": "a premium car infotainment button press, solid damped click, expensive and precise, single very short modern user interface click, rich and full-bodied, deep rounded low end with a crisp clean attack, tight and punchy, satisfying, no ringing, clean, high quality game sound effect, no music, no voices, dry, short tail"
+    },
+    {
+     "name": "Auto-Knopf neu 1",
+     "prompt": "a premium car infotainment button press, solid damped click, expensive and precise, single very short modern user interface click, rich and full-bodied, deep rounded low end with a crisp clean attack, tight and punchy, satisfying, no ringing, clean, high quality game sound effect, no music, no voices, dry, short tail"
+    },
+    {
+     "name": "Auto-Knopf neu 2",
+     "prompt": "a premium car infotainment button press, solid damped click, expensive and precise, single very short modern user interface click, rich and full-bodied, deep rounded low end with a crisp clean attack, tight and punchy, satisfying, no ringing, clean, high quality game sound effect, no music, no voices, dry, short tail"
+    },
+    {
+     "name": "Auto-Knopf neu 3",
+     "prompt": "a premium car infotainment button press, solid damped click, expensive and precise, single very short modern user interface click, rich and full-bodied, deep rounded low end with a crisp clean attack, tight and punchy, satisfying, no ringing, clean, high quality game sound effect, no music, no voices, dry, short tail"
+    },
+    {
+     "name": "Auto-Knopf neu 4",
+     "prompt": "a premium car infotainment button press, solid damped click, expensive and precise, single very short modern user interface click, rich and full-bodied, deep rounded low end with a crisp clean attack, tight and punchy, satisfying, no ringing, clean, high quality game sound effect, no music, no voices, dry, short tail"
+    },
+    {
+     "name": "Auto · tiefer 1",
+     "prompt": "a premium car infotainment button press, solid damped click with a slightly deeper and softer body, expensive and precise, single very short modern user interface click, rich and full-bodied, deep rounded low end with a crisp clean attack, tight and punchy, satisfying, no ringing, clean, high quality game sound effect, no music, no voices, dry, short tail"
+    },
+    {
+     "name": "Auto · tiefer 2",
+     "prompt": "a premium car infotainment button press, solid damped click with a slightly deeper and softer body, expensive and precise, single very short modern user interface click, rich and full-bodied, deep rounded low end with a crisp clean attack, tight and punchy, satisfying, no ringing, clean, high quality game sound effect, no music, no voices, dry, short tail"
+    },
+    {
+     "name": "Auto · knackiger 1",
+     "prompt": "a premium car infotainment button press, solid damped click, slightly crisper and tighter, very short, expensive and precise, single very short modern user interface click, rich and full-bodied, deep rounded low end with a crisp clean attack, tight and punchy, satisfying, no ringing, clean, high quality game sound effect, no music, no voices, dry, short tail"
+    },
+    {
+     "name": "Auto · knackiger 2",
+     "prompt": "a premium car infotainment button press, solid damped click, slightly crisper and tighter, very short, expensive and precise, single very short modern user interface click, rich and full-bodied, deep rounded low end with a crisp clean attack, tight and punchy, satisfying, no ringing, clean, high quality game sound effect, no music, no voices, dry, short tail"
+    }
+   ]
+  },
+  {
+   "id": "vertrauen_plus",
+   "wofuer": "Vertrauen steigt",
+   "prompt": "rich full-bodied two-note affection chime, a warm low note rising to a higher note a major third above, felt piano and soft marimba layered with a gentle warm bloom, heart-warming like a relationship level up in Persona or Stardew Valley, round and satisfying, clean, high quality game sound effect, no music, no voices, natural full ringing tail that fades out",
+   "dauer": 3.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "ui",
+   "einfluss": 0.7,
+   "schleife": false,
+   "wahl": 4
+  },
+  {
+   "id": "vertrauen_minus",
+   "wofuer": "Vertrauen sinkt",
+   "prompt": "rich full-bodied sad two-note chime in a minor key, a higher note falling to a lower note, the lower note sits inside a dark minor chord, felt piano and soft marimba, muted, melancholic and wistful, clearly minor and sorrowful, no major chord, no bright or happy tones, like losing affection in Persona, round and soft, not harsh, clean, high quality game sound effect, no music, no voices, natural full ringing tail that fades out",
+   "dauer": 3.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "ui",
+   "einfluss": 0.8,
+   "schleife": false,
+   "wahl": 2
+  },
+  {
+   "id": "geld_ein",
+   "wofuer": "Geld erhalten (Lohn, Verkauf)",
+   "prompt": "a few gold coins dropping into a leather pouch with a soft bright jingle, satisfying reward, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 1.5,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "ui",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 3
+  },
+  {
+   "id": "geld_aus",
+   "wofuer": "Geld ausgeben (Kauf)",
+   "prompt": "paper banknotes counted quickly then a small cash drawer closing with a short bell, a purchase being completed, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 1.5,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "ui",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 4
+  },
+  {
+   "id": "item_erhalten",
+   "wofuer": "Gegenstand erhalten",
+   "prompt": "satisfying two-note item pickup sound, a soft round pop then a bright higher chime, crisp and rewarding, small sparkle, video game item acquired, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 1.2,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "ui",
+   "einfluss": 0.7,
+   "schleife": false,
+   "wahl": 1
+  },
+  {
+   "id": "mission_neu",
+   "wofuer": "Neue Mission angenommen",
+   "prompt": "short intriguing notification, a soft low pluck followed by a rising glassy shimmer, quest accepted, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 1.6,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "ui",
+   "einfluss": 0.6,
+   "schleife": false,
+   "wahl": 2
+  },
+  {
+   "id": "mission_erfolg",
+   "wofuer": "Mission geschafft",
+   "prompt": "short satisfying quest complete jingle, warm bright bell notes resolving upwards, rewarding but understated, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 2.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "ui",
+   "einfluss": 0.6,
+   "schleife": false,
+   "wahl": 1
+  },
+  {
+   "id": "mission_fehlschlag",
+   "wofuer": "Mission fehlgeschlagen",
+   "prompt": "short quest failed jingle, warm muted bell notes falling downwards and settling low on a soft minor chord, full and heavy, disappointing but understated, the mirror image of a quest complete jingle, like a failed quest in The Witcher 3 or Zelda, clean, high quality game sound effect, no music, no voices, natural full ringing tail that fades out",
+   "dauer": 4.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "ui",
+   "einfluss": 0.6,
+   "schleife": false,
+   "wahl": 3
+  },
+  {
+   "id": "tag_beginnt",
+   "wofuer": "Neuer Tag beginnt (Morgen auf der Yacht)",
+   "prompt": "calm harmonious morning at sea, a soft warm ship's bell ringing twice in tune, gentle waves lapping, peaceful and melodic, no seagull screeches, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 3.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "ui",
+   "einfluss": 0.6,
+   "schleife": false,
+   "wahl": 3
+  },
+  {
+   "id": "wuerfel_rollen",
+   "wofuer": "Würfel rollt (jede Probe)",
+   "prompt": "a single heavy twenty-sided resin die thrown onto a wooden table, rolling and tumbling, then settling, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 1.8,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "wuerfel",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 3
+  },
+  {
+   "id": "wuerfel_erfolg",
+   "wofuer": "Probe gelungen (normaler Erfolg)",
+   "prompt": "a heavy resin die landing on a wooden table with a solid deep knock, then a rich resonant success chime, two warm bell notes rising a major fifth, full-bodied with a soft shimmer, satisfying like a skill check success in Baldur's Gate 3, clean, high quality game sound effect, no music, no voices, natural full ringing tail that fades out",
+   "dauer": 3.2,
+   "mehrfach": false,
+   "varianten": 5,
+   "gruppe": "wuerfel",
+   "einfluss": 0.7,
+   "schleife": false,
+   "wahl": 5,
+   "quelle": "pixabay"
+  },
+  {
+   "id": "wuerfel_fehlschlag",
+   "wofuer": "Probe misslungen (normaler Fehlschlag)",
+   "prompt": "a heavy resin die landing on a wooden table with a solid deep knock, then a rich resonant failure tone, two low bell notes falling a minor third, full-bodied but muted and heavy, like a skill check failure in Baldur's Gate 3, clean, high quality game sound effect, no music, no voices, natural full ringing tail that fades out",
+   "dauer": 3.2,
+   "mehrfach": false,
+   "varianten": 5,
+   "gruppe": "wuerfel",
+   "einfluss": 0.7,
+   "schleife": false,
+   "wahl": 5,
+   "quelle": "pixabay"
+  },
+  {
+   "id": "wuerfel_kritisch",
+   "wofuer": "Kritischer Erfolg (natürliche 20, Sonnenanker)",
+   "prompt": "triumphant short magical success stinger, bright shimmering sparkle and a warm brass hit, tabletop RPG critical success, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 2.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "wuerfel",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 1
+  },
+  {
+   "id": "wuerfel_patzer",
+   "wofuer": "Patzer (natürliche 1, gebrochener Anker in Flammen)",
+   "prompt": "a heavy die lands with a deep thud and a dark low brass hit, then something bursts into flames with a deep fiery whoosh, roaring crackling fire and sizzling embers, a low ominous boom underneath, weighty and dramatic, the dark mirror of a critical success stinger, critical fumble, clean, high quality game sound effect, no music, no voices, natural full ringing tail that fades out",
+   "dauer": 5.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "wuerfel",
+   "einfluss": 0.6,
+   "schleife": false,
+   "wahl": 1
+  },
+  {
+   "id": "lola_brutzeln",
+   "wofuer": "Lolas Kombüse: beim Kauf brutzelt es",
+   "prompt": "food sizzling loudly as it hits a hot oiled frying pan in a small galley kitchen, then a spatula scrape, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 2.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 1
+  },
+  {
+   "id": "hubschrauber_holm",
+   "wofuer": "Rettungshubschrauber holt Holm (Tag 2)",
+   "prompt": "rescue helicopter approaching over the open sea and hovering above a yacht, rotor wash and wind, urgent but calm, distant, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 6.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 3
+  },
+  {
+   "id": "hubschrauber_megan",
+   "wofuer": "Megans Hubschrauber landet auf dem Sonnendeck (Tag 5)",
+   "prompt": "sleek corporate helicopter landing on a yacht helipad, rotors spinning down, powerful and imposing, then the turbine winding down, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 6.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 4
+  },
+  {
+   "id": "blackout",
+   "wofuer": "Blackout: Strom fällt aus",
+   "prompt": "electrical hum of a ship suddenly cutting out, heavy relay clunk, lights powering down with a falling whine, then silence, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 3.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 1
+  },
+  {
+   "id": "strom_zurueck",
+   "wofuer": "Strom kommt zurück",
+   "prompt": "a ship's diesel generator trying to start, the engine sputtering and stalling twice, then catching and running steadily, electrical hum rising, lights clicking back on, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 6.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 3
+  },
+  {
+   "id": "sturm_nacht",
+   "wofuer": "Sturmnacht: Donner und Wind über der Yacht",
+   "prompt": "night storm at sea, a rolling thunderclap, howling wind, rain hammering on a ship deck, hull creaking, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 6.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 4
+  },
+  {
+   "id": "ankerkette",
+   "wofuer": "Ankerkette rasselt (Anker lichten, Ankerwache)",
+   "prompt": "heavy anchor chain rattling and clanking through a metal hawsepipe on a yacht, winch motor whining, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 4.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 4
+  },
+  {
+   "id": "tuer_klopfen",
+   "wofuer": "Jemand klopft an Ducs Kabinentür (Nachtbesuch)",
+   "prompt": "three soft knocks on a solid wooden cabin door, quiet and hesitant, small room, a faint ship hum, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 1.5,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 2
+  },
+  {
+   "id": "glaeser_anstossen",
+   "wofuer": "Gläser klingen (Dinner, Festa, Toast)",
+   "prompt": "four crystal wine glasses clinking together in a festive toast, many bright clear glass clinks close to the microphone, rich full glassy ringing resonance that lingers, cheers at a dinner table, clean, high quality game sound effect, no music, no voices, natural full ringing tail that fades out",
+   "dauer": 4.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.7,
+   "schleife": false,
+   "wahl": 1
+  },
+  {
+   "id": "sektkorken",
+   "wofuer": "Sektkorken knallt",
+   "prompt": "champagne bottle cork popping loudly with a fizzy hiss, then wine pouring into glasses, party mood, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 2.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 4
+  },
+  {
+   "id": "tender_motor",
+   "wofuer": "Beiboot (Tender) startet und fährt ab",
+   "prompt": "small outboard boat engine starting with a sputter, then revving and pulling away across water, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 4.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 3
+  },
+  {
+   "id": "wasser_platsch",
+   "wofuer": "Platschen ins Wasser (Drohne, Sprung, Plattform)",
+   "prompt": "an object splashing into the sea off a yacht swim platform, a big splash and bubbles, waves lapping, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 2.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 3
+  },
+  {
+   "id": "funk_rauschen",
+   "wofuer": "Funk knackt (Bordfunk, Küstenwache)",
+   "prompt": "marine VHF radio squelch click followed by static crackle and a brief radio beep, tinny and realistic, no speech, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 2.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 3
+  },
+  {
+   "id": "geschenk",
+   "wofuer": "Geschenk überreicht",
+   "prompt": "very gentle heartwarming gift given sound, a soft quiet harp glissando drifting up into a tender muted bell chime and a faint warm glow, delicate and soothing, affectionate, like giving a gift in a cozy dating sim, soft and round, clean, high quality game sound effect, no music, no voices, natural full ringing tail that fades out",
+   "dauer": 2.5,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "mehr",
+   "einfluss": 0.7,
+   "schleife": false,
+   "wahl": 4
+  },
+  {
+   "id": "kochen",
+   "wofuer": "Duc kocht selbst",
+   "prompt": "home cooking in a small galley kitchen, quick knife chopping on a wooden board, then ingredients hitting a hot pan with a big appetizing sizzle, rich and full, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 3.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "mehr",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 1
+  },
+  {
+   "id": "item_benutzen",
+   "wofuer": "Snack essen / Gegenstand benutzen",
+   "prompt": "an adult man quietly enjoying a tasty snack, first a soft bite and calm satisfied chewing, then at the very end a quiet low male closed-mouth hum 'mmhmm' of enjoyment, all at a gentle low volume, deep masculine voice, cozy, clean, high quality game sound effect, no music, no words, only chewing and a short low male hum, short tail",
+   "dauer": 2.5,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "mehr",
+   "einfluss": 0.75,
+   "schleife": false,
+   "wahl": 1
+  },
+  {
+   "id": "hinweis_gefunden",
+   "wofuer": "Hinweis gefunden (neuer Codex-Eintrag)",
+   "prompt": "intriguing clue discovered stinger, a deep soft piano note with a mysterious rising shimmer and a subtle low string swell, like finding evidence in Ace Attorney or a detective game, rich and full, clean, high quality game sound effect, no music, no voices, natural full ringing tail that fades out",
+   "dauer": 2.5,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "mehr",
+   "einfluss": 0.6,
+   "schleife": false,
+   "wahl": 3
+  },
+  {
+   "id": "nicht_moeglich",
+   "wofuer": "Geht nicht (zu wenig Geld/Energie, Aktion abgelehnt)",
+   "prompt": "soft modern denied user interface sound, two short low muted taps falling in pitch, gentle not harsh, like a locked option in a modern game menu, rich and round, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 0.8,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "mehr",
+   "einfluss": 0.7,
+   "schleife": false,
+   "wahl": 2
+  },
+  {
+   "id": "begehren_plus",
+   "wofuer": "Begehren steigt",
+   "prompt": "sensual warm two-note chime rising, soft breathy pad with a low velvety bass and a subtle heartbeat, intimate and romantic, like a romance meter rising in a dating sim, rich and full-bodied, clean, high quality game sound effect, no music, no voices, natural full ringing tail that fades out",
+   "dauer": 3.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "mehr",
+   "einfluss": 0.7,
+   "schleife": false,
+   "wahl": 4
+  },
+  {
+   "id": "limousine_ankunft",
+   "wofuer": "Tag 0: Limousine rollt in die Halle, Tür fällt ins Schloss",
+   "prompt": "large open shipyard hangar by the sea at dawn, distant seagulls and harbour water, a heavy luxury car rolls in slowly over concrete and stops, engine idles off, a solid heavy car door shuts with a deep satisfying thud, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 6.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 1
+  },
+  {
+   "id": "klemmbrett_schritte",
+   "wofuer": "Tag 0: Megan kommt mit Klemmbrett (Schritte auf Beton)",
+   "prompt": "confident footsteps of a woman in boots approaching on a bare concrete hangar floor with light echo, she stops, a pen clicks and a clipboard clip snaps shut, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 3.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 4
+  },
+  {
+   "id": "kaffee_schluerfen",
+   "wofuer": "Tag 0: Holm schlürft kalten Kaffee",
+   "prompt": "one slow unimpressed sip of coffee from a metal mug, a short slurp, then the mug set down on a steel railing with a dull clink, outdoors by a harbour, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 2.5,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 3
+  },
+  {
+   "id": "schraubenschluessel_klong",
+   "wofuer": "Tag 0: Rosi unterm Heck (Generator, Schraubenschlüssel)",
+   "prompt": "a small diesel generator humming steadily in a big hangar, then a heavy steel wrench drops onto concrete with a loud ringing clang that echoes through the hall, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 4.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 3
+  },
+  {
+   "id": "hubschrauber_ueberflug",
+   "wofuer": "Tag 0: Palette ab, Hubschrauber donnert übers Hallendach (Maxwell)",
+   "prompt": "a heavy wooden pallet set down hard on a concrete floor with a deep thud, then a helicopter roars low over a metal hangar roof, the roof rattles, the rotor sound passes overhead and fades away, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 6.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 2
+  },
+  {
+   "id": "katze_miau",
+   "wofuer": "Tag 0: Die Kiste miaut (Jana)",
+   "prompt": "a small kitten meowing softly from inside a closed cardboard box, muffled, two short curious meows and a faint scratching on cardboard, quiet hangar room tone, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 2.5,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 2
+  },
+  {
+   "id": "kamera_ausloeser",
+   "wofuer": "Tag 0: Kamera klickt (Yamamoto, Yasin)",
+   "prompt": "a mechanical film camera shutter click and the film advance lever wound once, crisp and close, then a second quick shutter click, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 1.5,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 2
+  },
+  {
+   "id": "hubschrauber_start",
+   "wofuer": "Tag 0: Megans Hubschrauber hebt ab (Abschied)",
+   "prompt": "a corporate helicopter on a concrete apron starting its turbine, rotors spinning up, lifting off and flying away over the harbour, rotor sound fading into the distance with seagulls, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 7.0,
+   "mehrfach": false,
+   "varianten": 5,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 5,
+   "quelle": "pixabay"
+  },
+  {
+   "id": "rudel_ratten",
+   "wofuer": "Hafenkampf: Welle 1 – Ratten-Rudel",
+   "prompt": "a swarm of rats rushing over wet cobblestones at a harbour, many tiny claws scratching and skittering, excited squeaking, a fish crate tipping over, close and chaotic, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 4.0,
+   "mehrfach": true,
+   "varianten": 8,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 7,
+   "quelle": "pixabay"
+  },
+  {
+   "id": "rudel_hunde",
+   "wofuer": "Hafenkampf: Welle 2 – Hunde-Rudel",
+   "prompt": "a pack of three feral dogs at a harbour, aggressive barking and low growling, paws running on stone, one dog snarling close to the microphone, tense and threatening, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 4.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 4
+  },
+  {
+   "id": "keiler_ansturm",
+   "wofuer": "Hafenkampf: Welle 3 – Keiler",
+   "prompt": "a huge wild boar coming down a narrow stone alley, heavy snorting and grunting, hooves pounding on cobblestones, a wooden barrel knocked over, powerful and menacing, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 4.5,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 4
+  },
+  {
+   "id": "ziege_halsband",
+   "wofuer": "Hafenkampf: Ziege mit blinkendem Halsband",
+   "prompt": "a goat bleating twice on a quiet harbour quay, a small electronic device on its collar beeping softly three times, light hooves on stone, slightly comical, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 3.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 4
+  },
+  {
+   "id": "anhoerung_hammer",
+   "wofuer": "Anhörung: Megan spricht das Urteil (Holzhammer)",
+   "prompt": "a single heavy wooden gavel striking a hardwood sound block in a quiet wood-panelled salon, firm and final, deep resonant knock, clean, high quality game sound effect, no music, no voices, natural full ringing tail that fades out",
+   "dauer": 1.5,
+   "mehrfach": false,
+   "varianten": 5,
+   "gruppe": "effekt",
+   "einfluss": 0.7,
+   "schleife": false,
+   "wahl": 5,
+   "quelle": "pixabay"
+  },
+  {
+   "id": "anhoerung_einspruch",
+   "wofuer": "Anhörung: OBJECTION! (Duc legt eine Notiz vor)",
+   "prompt": "dramatic courtroom game stinger, a sharp orchestral hit with a punchy brass stab and a timpani boom, sudden and confident, like Ace Attorney objection, clean, high quality game stinger, instrumental only, no voices, short tail",
+   "dauer": 1.5,
+   "mehrfach": false,
+   "varianten": 5,
+   "gruppe": "effekt",
+   "einfluss": 0.7,
+   "schleife": false,
+   "wahl": 5,
+   "quelle": "pixabay"
+  },
+  {
+   "id": "anhoerung_slam",
+   "wofuer": "Anhörung: Notizzettel knallt auf den Tisch",
+   "prompt": "a flat hand slamming a sheet of paper down hard on a wooden table, sharp paper slap and a dull wooden thud, close, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 0.8,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.7,
+   "schleife": false,
+   "wahl": 4
+  },
+  {
+   "id": "ereignis_jingle",
+   "wofuer": "Ein Event beginnt: Studio Jingle (Duc 02.11.2026, statt Anime-Rock)",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "szene_vorhang",
+   "wofuer": "Vorhang am Gespraechsende: Logo transition, Pixabay ejah_mu (K5, 02.11.2026)",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "szene_bruecke",
+   "wofuer": "Zwischenkarte vor einem Event: Swoosh 03, Pixabay Universfield (K11, 02.11.2026)",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tag_karte",
+   "wofuer": "Tageskarte: Acoustic Guitar Logo, Pixabay Muzaproduct (K1, 02.11.2026)",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "kampf_schwung",
+   "wofuer": "Kampf: Schlaeger ausholen",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "kampf_treffer",
+   "wofuer": "Kampf: Treffer",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "kampf_parade",
+   "wofuer": "Kampf: Parade (Block)",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "kampf_parade_perfekt",
+   "wofuer": "Kampf: perfekte Parade",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "kampf_ausweichen",
+   "wofuer": "Kampf: Ausweichen / daneben",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "kampf_sieg",
+   "wofuer": "Kampf: Sieg",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "kampf_niederlage",
+   "wofuer": "Kampf: Niederlage (Aufprall + Posaune)",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "level_up",
+   "wofuer": "Level-Aufstieg / Punkt verteilt",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "anruf_klingeln",
+   "wofuer": "Anruf klingelt (Handy-Event, Rast-Anruf); Marimba von Universfield, 4 s (Duc 03.11.2026)",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "notification",
+   "wofuer": "Handy-Benachrichtigung, wenn das Handy zu ist",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "ui",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "handy_senden",
+   "wofuer": "Handy: Duc schickt eine Nachricht ab (lokal erzeugt mit werkzeuge/handy_senden_klang.py; Duc 03.11.2026: bleibt)",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 2,
+   "gruppe": "ui",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1,
+    2
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "handy_empfang",
+   "wofuer": "Handy: ihre Blase kommt an, waehrend der Chat offen ist (statt notification je Blase)",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "ui",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "handy_herz",
+   "wofuer": "Handy: ihr Herz an Ducs Nachricht",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "ui",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "anruf_verbinden",
+   "wofuer": "Videoanruf: Duc nimmt an",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "ui",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "anruf_ende",
+   "wofuer": "Videoanruf: das Gespraech endet (2 s)",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "ui",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "anruf_verpasst",
+   "wofuer": "Videoanruf abgelehnt: verpasster Anruf",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "ui",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "explosion",
+   "wofuer": "Explosion Nacht 1 (Luefter + Knall)",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "alarm",
+   "wofuer": "Schiffsalarm",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "feuer_loop",
+   "wofuer": "Feuer (Schleife)",
+   "prompt": "pixabay",
+   "dauer": 30,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": true,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "schritte_kies",
+   "wofuer": "Expedition: naechster Ort",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "rast_feuer",
+   "wofuer": "Lagerfeuer am Rastplatz (Schleife)",
+   "prompt": "pixabay",
+   "dauer": 30,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": true,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "fund",
+   "wofuer": "Fund-Karte",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "spur_uhr",
+   "wofuer": "Spur-Uhr verliert ein Segment",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "auftrag_feder",
+   "wofuer": "Auftrag angenommen / Schritt erledigt",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "auftrag_siegel",
+   "wofuer": "Auftrag abgeschlossen",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "neue_waffe",
+   "wofuer": "Neue Waffe",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "chip_einrasten",
+   "wofuer": "Werkstatt: Chip rastet ein",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "werkstatt_fertig",
+   "wofuer": "Werkstatt: Stueck fertig",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "heilung",
+   "wofuer": "Heilung",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "status",
+   "wofuer": "Statuseffekt",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "amb_deck",
+   "wofuer": "Ambience Deck / Wasser am Rumpf",
+   "prompt": "pixabay",
+   "dauer": 30,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": true,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "amb_nacht",
+   "wofuer": "Ambience Nacht vor Anker",
+   "prompt": "pixabay",
+   "dauer": 30,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": true,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "amb_macchia",
+   "wofuer": "Ambience Macchia",
+   "prompt": "pixabay",
+   "dauer": 30,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": true,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "bordrat",
+   "wofuer": "Bordrat beginnt",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "versprechen",
+   "wofuer": "Versprechen gegeben / gehalten",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "versprechen_gebrochen",
+   "wofuer": "Versprechen gebrochen",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "amb_hafen",
+   "wofuer": "Ambience Hafen",
+   "prompt": "pixabay",
+   "dauer": 30,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": true,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "amb_bar",
+   "wofuer": "Ambience Bar",
+   "prompt": "pixabay",
+   "dauer": 30,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": true,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "menue_tab",
+   "wofuer": "Menue: Reiter wechseln",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "ui",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "ruhig_voegel",
+   "wofuer": "Ruhiger Ort (Schleife)",
+   "prompt": "pixabay",
+   "dauer": 30,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": true,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tag_ende",
+   "wofuer": "Tagesende",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 3,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1,
+    2,
+    3
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "phase_fruehstueck",
+   "wofuer": "Wechsel zu Fruehstueck (Gitarre)",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 3,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1,
+    2,
+    3
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "phase_tag",
+   "wofuer": "Wechsel zu Tag (Bossa/Latin)",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 5,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "phase_nachmittag",
+   "wofuer": "Wechsel zu Nachmittag (Rhodes)",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "phase_dinner",
+   "wofuer": "Wechsel zu Dinner (Jazz-Akkorde)",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 5,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "phase_abend",
+   "wofuer": "Wechsel zu Abend (Lo-Fi)",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 3,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1,
+    2,
+    3
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "phase_nacht",
+   "wofuer": "Wechsel zu Nacht (Lo-Fi)",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "phase_wechsel",
+   "wofuer": "Anhoerung: naechste Phase (Sci-Fi-Reveal)",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "anhoerung_wende",
+   "wofuer": "Anhoerung: Wende / Enthuellung",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "donner",
+   "wofuer": "Donnerschlag (Sturm an Tag 5: Blitz jeder Krise, ab und an zwischendurch)",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 2,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1,
+    2
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "kampf_granate_wurf",
+   "wofuer": "Kampf: Granate - Splint ziehen + Wurf (ElevenLabs)",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "kampf_granate_feuer",
+   "wofuer": "Kampf: Feuergranate schlaegt ein",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "kampf_granate_wasser",
+   "wofuer": "Kampf: Wassergranate schlaegt ein",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "kampf_granate_schock",
+   "wofuer": "Kampf: Schockgranate schlaegt ein",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "kampf_granate_flash",
+   "wofuer": "Kampf: Blendgranate - Knall",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "kampf_granate_pfeifen",
+   "wofuer": "Kampf: Blendgranate - Ohrenpfeifen unter der Weissblende",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "kampf_granate_erschuetterung",
+   "wofuer": "Kampf: Erschuetterungsgranate schlaegt ein",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "kampf_granate_splitter",
+   "wofuer": "Kampf: Splittergranate - Knall + Metallsplitter",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "skill_gemeistert",
+   "wofuer": "Level-up: Pfad gemeistert (Cinematic Piano Hit)",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tier_cluck",
+   "wofuer": "Farm: Huhn gluckst (Klick auf das Tier)",
+   "prompt": "a Livorno hen clucking contentedly in a farm shed, three soft clucks and a short scratch in straw, quiet barn room tone, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 2.5,
+   "mehrfach": true,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 1
+  },
+  {
+   "id": "tier_cluck_baby",
+   "wofuer": "Farm: Kueken piepst",
+   "prompt": "a baby chick peeping, three tiny high peeps and soft rustling in straw, quiet barn, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 2.0,
+   "mehrfach": true,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 4
+  },
+  {
+   "id": "tier_grunt",
+   "wofuer": "Farm: Schwein grunzt",
+   "prompt": "a black pig grunting twice in a wooden sty, deep snuffling and a contented snort, straw rustling, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 2.5,
+   "mehrfach": true,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 1
+  },
+  {
+   "id": "tier_grunt_baby",
+   "wofuer": "Farm: Ferkel quiekt",
+   "prompt": "a piglet squealing softly, two short high squeals and a snuffle, straw rustling, quiet barn, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 2.0,
+   "mehrfach": true,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 4
+  },
+  {
+   "id": "tier_moo",
+   "wofuer": "Farm: Kuh muht",
+   "prompt": "a big white cow mooing once deeply in a barn, a cow bell clinking faintly, hay rustling, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 3.0,
+   "mehrfach": true,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 4
+  },
+  {
+   "id": "tier_moo_baby",
+   "wofuer": "Farm: Kalb blökt",
+   "prompt": "a calf bleating, two short high moos, soft hooves in straw, quiet barn, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 2.0,
+   "mehrfach": true,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 1
+  },
+  {
+   "id": "angeln_wurf",
+   "wofuer": "Angeln: Auswerfen",
+   "prompt": "a fishing rod cast, a quick whoosh of line through the air, the reel ticking, then a small lure plopping into calm sea water, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 2.0,
+   "mehrfach": true,
+   "varianten": 5,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 5,
+   "quelle": "pixabay"
+  },
+  {
+   "id": "angeln_biss",
+   "wofuer": "Angeln: Biss (Pose taucht ab)",
+   "prompt": "a fishing float suddenly pulled under the water, a short sharp plop and a little splash, the line going taut, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 1.0,
+   "mehrfach": true,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 4
+  },
+  {
+   "id": "angeln_treffer",
+   "wofuer": "Angeln: Treffer im Drill (Rolle zieht an)",
+   "prompt": "a fishing reel cranked hard for a moment, a tight ratchet clicking and the line hissing through the water, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 1.0,
+   "mehrfach": true,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 4
+  },
+  {
+   "id": "angeln_fehl",
+   "wofuer": "Angeln: Fehlklick im Drill",
+   "prompt": "a fishing line going slack with a soft wet slap on the water and a loose reel rattle, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 0.8,
+   "mehrfach": true,
+   "varianten": 5,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 5,
+   "quelle": "pixabay"
+  },
+  {
+   "id": "angeln_fang",
+   "wofuer": "Angeln: Fisch ist gelandet",
+   "prompt": "a fish lifted out of the water with a lively splash and dripping water, then flapping on a wooden deck, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 2.0,
+   "mehrfach": true,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 1
+  },
+  {
+   "id": "angeln_riss",
+   "wofuer": "Angeln: Leine reisst",
+   "prompt": "a taut fishing line snapping with a sharp twang, the reel spinning free, a small splash in the distance, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 1.5,
+   "mehrfach": true,
+   "varianten": 5,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 5,
+   "quelle": "pixabay"
+  },
+  {
+   "id": "abbau_axt",
+   "wofuer": "Abbau: Axthieb in den Stamm",
+   "prompt": ", clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 1.2,
+   "mehrfach": true,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 4,
+   "konzepte": [
+    {
+     "name": "tief",
+     "prompt": "a heavy steel axe biting deep into a solid oak trunk, one deep satisfying thunk with a crisp woody crack, wood chips scattering, clean, high quality game sound effect, no music, no voices, dry, short tail"
+    },
+    {
+     "name": "knackig",
+     "prompt": "a sharp axe chopping hard into dense hardwood, a full round chock with a bright splintering crack, a chip landing in leaves, clean, high quality game sound effect, no music, no voices, dry, short tail"
+    },
+    {
+     "name": "schwer",
+     "prompt": "a big felling axe striking a thick living tree, a heavy resonant thud through the trunk, bark and splinters flying, clean, high quality game sound effect, no music, no voices, dry, short tail"
+    }
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "abbau_baum_faellt",
+   "wofuer": "Abbau: Baum knackt und faellt",
+   "prompt": ", clean, high quality game sound effect, no music, no voices, natural full ringing tail that fades out",
+   "dauer": 4.0,
+   "mehrfach": true,
+   "varianten": 3,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 3,
+   "konzepte": [
+    {
+     "name": "krachen",
+     "prompt": "a tree trunk creaking and cracking as it gives way, then a tall tree crashing down through branches onto the forest floor with a heavy thud and rustling leaves, clean, high quality game sound effect, no music, no voices, natural full ringing tail that fades out"
+    },
+    {
+     "name": "aechzen",
+     "prompt": "wood fibres groaning and snapping in a cut tree, a long creak, then the whole tree falling and hitting the ground with a deep boom and settling leaves, clean, high quality game sound effect, no music, no voices, natural full ringing tail that fades out"
+    }
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "abbau_rinde_faellt",
+   "wofuer": "Abbau: Korkrinde loest sich und faellt herunter",
+   "prompt": ", clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 2.0,
+   "mehrfach": true,
+   "varianten": 3,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 2,
+   "konzepte": [
+    {
+     "name": "platte",
+     "prompt": "a large thick slab of dry cork bark tearing away from a tree trunk with a soft creak, then dropping to the dry ground with a light hollow thud, clean, high quality game sound effect, no music, no voices, dry, short tail"
+    },
+    {
+     "name": "reissen",
+     "prompt": "dry bark peeling off a tree with a long fibrous rip, then light hollow pieces of cork tumbling and clattering softly on the earth, clean, high quality game sound effect, no music, no voices, dry, short tail"
+    },
+    {
+     "name": "hohl",
+     "prompt": "a curved piece of cork bark coming loose with a woody pop and landing on dry leaves, a soft papery hollow knock, very light and airy, clean, high quality game sound effect, no music, no voices, dry, short tail"
+    }
+   ]
+  },
+  {
+   "id": "abbau_hacke",
+   "wofuer": "Abbau: Spitzhacke auf Stein",
+   "prompt": ", clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 1.0,
+   "mehrfach": true,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 4,
+   "konzepte": [
+    {
+     "name": "klirren",
+     "prompt": "a steel pickaxe striking hard granite rock, a sharp ringing clank with a gritty crunch and small stones skittering, clean, high quality game sound effect, no music, no voices, dry, short tail"
+    },
+    {
+     "name": "dumpf",
+     "prompt": "a heavy pickaxe biting into a large boulder, a solid stony thock with a short metallic ring and grit falling, clean, high quality game sound effect, no music, no voices, dry, short tail"
+    },
+    {
+     "name": "funken",
+     "prompt": "a pickaxe point hitting flint-hard rock, a bright chink and a crunchy crack, little pebbles bouncing away, clean, high quality game sound effect, no music, no voices, dry, short tail"
+    }
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "abbau_stein_bricht",
+   "wofuer": "Abbau: Fels bricht auseinander",
+   "prompt": ", clean, high quality game sound effect, no music, no voices, natural full ringing tail that fades out",
+   "dauer": 2.5,
+   "mehrfach": true,
+   "varianten": 3,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 3,
+   "konzepte": [
+    {
+     "name": "spalten",
+     "prompt": "a large rock splitting apart with a deep crack, heavy chunks of stone tumbling and rolling onto gravel, a little dust, clean, high quality game sound effect, no music, no voices, natural full ringing tail that fades out"
+    },
+    {
+     "name": "bersten",
+     "prompt": "a boulder bursting in two with a loud stony crunch, the halves thudding onto the ground, small stones rattling after, clean, high quality game sound effect, no music, no voices, natural full ringing tail that fades out"
+    }
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "abbau_daneben",
+   "wofuer": "Abbau: Schlag geht daneben (streift)",
+   "prompt": "an axe glancing off hard bark with a dull scrape and a quick whoosh of air, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 0.8,
+   "mehrfach": true,
+   "varianten": 3,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": 3,
+   "quelle": "pixabay"
+  },
+  {
+   "id": "kampf_warnung",
+   "wofuer": "Kampf: Taeuschung angekuendigt (erster Gong-Schlag)",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "kampf_kette_2",
+   "wofuer": "Kampf: zweiter Treffer einer Kette pariert",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "kampf_kette_3",
+   "wofuer": "Kampf: dritter Treffer einer Kette pariert",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "kampf_finte",
+   "wofuer": "Kampf: der Gegner zuckt (Taeuschung), zwei Varianten reihum",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 2,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1,
+    2
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "kampf_konter_kette",
+   "wofuer": "Kampf: Konter nach voller Kette",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "kampf_parade_erfolg",
+   "wofuer": "Kampf: Ausklang der perfekten Parade (Ducs Klang 'Sucess Parry')",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "eigen"
+  },
+  {
+   "id": "amb_grotte",
+   "wofuer": "Grotte: Tropfen und Echo (Schleife)",
+   "prompt": "pixabay",
+   "dauer": 30,
+   "mehrfach": true,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": true,
+   "wahl": null,
+   "quelle": "pixabay"
+  },
+  {
+   "id": "amb_grotte_flut",
+   "wofuer": "Flut-Nacht: Wasser in der Grotte (Schleife)",
+   "prompt": "pixabay",
+   "dauer": 30,
+   "mehrfach": true,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": true,
+   "wahl": null,
+   "quelle": "pixabay"
+  },
+  {
+   "id": "amb_daecher",
+   "wofuer": "Kevins Daecher: Wind, Tauben, Dorf (Schleife)",
+   "prompt": "pixabay",
+   "dauer": 30,
+   "mehrfach": true,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": true,
+   "wahl": null,
+   "quelle": "pixabay"
+  },
+  {
+   "id": "gun_shot",
+   "wofuer": "Schiesswette: Schuss",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "gun_reload",
+   "wofuer": "Schiesswette: Nachladen",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "schiessen_flasche",
+   "wofuer": "Schiesswette: Flasche zerspringt",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "schiessen_ton",
+   "wofuer": "Schiesswette: Tontaube zerspringt",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "schiessen_drohne",
+   "wofuer": "Schiesswette: Drohne faellt aus",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "schiessen_moewe",
+   "wofuer": "Schiesswette: Moewe getroffen",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "schiessen_blend",
+   "wofuer": "Schiesswette: Blendgranate",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_taser",
+   "wofuer": "Karte: Chiaras Taser",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_flinte",
+   "wofuer": "Karte: Alvas Flinte",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_klinge",
+   "wofuer": "Karte: Klinge",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_granate",
+   "wofuer": "Karte: Bibis Granate (kurz)",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_drohne",
+   "wofuer": "Karte: Drohne fliegt an",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_roboter",
+   "wofuer": "Karte: Roboter stampft",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_ko",
+   "wofuer": "Karte: Figur faellt",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_stahlplatte",
+   "wofuer": "Karte: Danzels Stahlplatte",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_schritte",
+   "wofuer": "Karte: Trupp zieht",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_zugwechsel",
+   "wofuer": "Karte: Zug beginnt",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_cutin",
+   "wofuer": "Karte: grosse Tat",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_holzbruch",
+   "wofuer": "Karte: Barrikade bricht",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_kirche",
+   "wofuer": "Karte: Kirche getroffen",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_haus_weg",
+   "wofuer": "Karte: Haus verloren",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_yacht_sinkt",
+   "wofuer": "Karte: Yacht sinkt",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_gitter",
+   "wofuer": "Karte: Pascal oeffnet das Tor",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_loewe",
+   "wofuer": "Karte: Mochi",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_rauch",
+   "wofuer": "Karte: Rauch auf dem Platz",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_jubel",
+   "wofuer": "Karte: Welle gehalten",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_glocke",
+   "wofuer": "Belagerung: Kirchenglocke",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_hammer",
+   "wofuer": "Flicken: Hammerschlag",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_maxwell_schlag",
+   "wofuer": "Maxwell trifft mit dem Steel Mop",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_bretter",
+   "wofuer": "Flicken: Stelle fertig",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_bucht",
+   "wofuer": "Belagerung: die Bucht bewegt sich",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_unit_werkstatt",
+   "wofuer": "Manoever: Unit-01 rollt aus der Werkstatt",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_unit_wasser",
+   "wofuer": "Welle 2: Roboter auf dem Wasser",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "amb_maschine",
+   "wofuer": "Maschinenraum: Unit-01 summt (Schleife)",
+   "prompt": "pixabay",
+   "dauer": 30,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": true,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_yacht_riss",
+   "wofuer": "Karte: Roboter reisst die Yacht auf",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_drohne_ab",
+   "wofuer": "Karte: Drohne faellt",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_haus_feuer",
+   "wofuer": "Karte: Haus faengt Feuer",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_haus_schreie",
+   "wofuer": "Karte: Leute schreien im Haus",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_liste",
+   "wofuer": "Morgen: Holm geht die Liste durch",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_megan_weg",
+   "wofuer": "Kriegsrat: Megans Bild bricht ab",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "amb_taktik",
+   "wofuer": "Karte: Krieg in der Ferne (Schleife)",
+   "prompt": "pixabay",
+   "dauer": 30,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": true,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_ligeia",
+   "wofuer": "Welle 4: Ligeia singt",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_minicu_fall",
+   "wofuer": "Welle 6: der eine Schlag gegen Minicu, Fall und Koerper",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_applaus",
+   "wofuer": "Tag 21: das Dorf klatscht nach Casanovas Rede",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_kevin",
+   "wofuer": "Welle 6: Kevin fliegt vom Tor",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_rudern",
+   "wofuer": "Welle 4: das Dorf rudert hinaus (1924)",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_papier",
+   "wofuer": "Abend Tag 22: Casanova verbrennt das Papier im Ofen",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_kreide",
+   "wofuer": "Bericht: Alvas Kreidetafel",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "tk_drucker",
+   "wofuer": "Tag 15: die Kriegstafel kommt aus dem Drucker",
+   "prompt": "pixabay",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "pixabay"
+  },
+  {
+   "id": "flut_steigt",
+   "wofuer": "Grotte: die Flut drueckt herein (Boss-Halle, Flut-Nacht, Ebbe-Uhr)",
+   "prompt": "sea water surging into a rocky sea cave, a deep rushing swell filling the chamber, water slapping against stone walls, hollow cave echo, ominous and rising, clean, high quality game sound effect, no music, no voices, natural full ringing tail that fades out",
+   "dauer": 4.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.6,
+   "schleife": false,
+   "wahl": null
+  },
+  {
+   "id": "fackel_an",
+   "wofuer": "Grotte: Fackeln fauchen auf (Fackelgalerie)",
+   "prompt": "a pitch torch igniting in a damp stone cave, a sharp whoosh of flame catching, crackling fire, hollow echo, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 2.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": null
+  },
+  {
+   "id": "gitter",
+   "wofuer": "Grotte: Eisengitter ruettelt und gibt nach",
+   "prompt": "an old rusted iron grate rattling hard, then the bars bending and a bolt snapping loose with a metallic clang, dripping water, cave echo, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 2.5,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": null
+  },
+  {
+   "id": "steinschlag",
+   "wofuer": "Grotte: Steine rutschen im eingestuerzten Gang",
+   "prompt": "loose rocks and gravel sliding and tumbling down inside a cave passage, stones clattering and thudding, dust settling, hollow echo, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 3.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": null
+  },
+  {
+   "id": "tauchen",
+   "wofuer": "Grotte: Sprung ins Wasser, dann dumpf unter Wasser",
+   "prompt": "a person jumping feet first into deep cold water in a cave, a big splash, then muffled underwater sound with bubbles rising, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 3.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": null
+  },
+  {
+   "id": "kiste_auf",
+   "wofuer": "Grotte: schwere Schmugglerkiste wird geoeffnet",
+   "prompt": "a heavy old wooden smugglers' crate being pried open, an iron chain rattling off, the lid creaking up on rusty hinges, cave echo, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 2.5,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": null
+  },
+  {
+   "id": "glocke",
+   "wofuer": "Kevins Daecher: grosse Glocke im Glockenturm",
+   "prompt": "one huge bronze church bell struck once very close inside a bell tower, a deep booming strike with a long ringing hum, pigeons startled, clean, high quality game sound effect, no music, no voices, natural full ringing tail that fades out",
+   "dauer": 5.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": null
+  },
+  {
+   "id": "tauben_auf",
+   "wofuer": "Kevins Daecher: Taubenschwarm flattert auf",
+   "prompt": "a flock of pigeons suddenly taking off from a terracotta roof, loud flapping wings, a few startled coos, open air above a village, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 2.5,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": null
+  },
+  {
+   "id": "kampf_fledermaeuse",
+   "wofuer": "Kampf-Auftakt: Fledermaus-Schwarm",
+   "prompt": "a swarm of bats bursting out of a dark cave, dozens of leathery wings flapping, high shrill squeaks and screeches, echoing, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 3.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": null
+  },
+  {
+   "id": "kampf_viper",
+   "wofuer": "Kampf-Auftakt: Schwarze Viper",
+   "prompt": "a large venomous snake rearing up on stone, a long menacing hiss, scales sliding over rock, quiet cave, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 2.5,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": null
+  },
+  {
+   "id": "kampf_sirene",
+   "wofuer": "Kampf-Auftakt: die Sirene",
+   "prompt": "an eerie glassy siren tone rising over still water, a haunting wordless sustained female hum drenched in cave reverb, beautiful and dangerous, clean, high quality game sound effect, no music, no words, wordless voice only, short tail",
+   "dauer": 4.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.6,
+   "schleife": false,
+   "wahl": null
+  },
+  {
+   "id": "kampf_riscossore",
+   "wofuer": "Kampf-Auftakt: U Riscossore (Boss)",
+   "prompt": "heavy boss entrance stinger, slow heavy boot steps on wet stone, a deep cinematic low drum hit and a dark brass swell, menacing, clean, high quality game sound effect, no music, no voices, natural full ringing tail that fades out",
+   "dauer": 4.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.6,
+   "schleife": false,
+   "wahl": null
+  },
+  {
+   "id": "kampf_unit01",
+   "wofuer": "Kampf-Auftakt: Unit-01 (Red Eye)",
+   "prompt": "an old industrial machine powering up hostile, whirring servo motors, a rising electric warning hum and three sharp red alert beeps, clanking metal, clean, high quality game sound effect, no music, no voices, dry, short tail",
+   "dauer": 3.0,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": null
+  },
+  {
+   "id": "kampf_pale_lady",
+   "wofuer": "Kampf-Auftakt: The Pale Lady (selten)",
+   "prompt": "a cold gust of wind through a stone tunnel, rustling silk, candle flames guttering, a soft eerie wordless female laugh fading into reverb, chilling, clean, high quality game sound effect, no music, no words, wordless voice only, short tail",
+   "dauer": 3.5,
+   "mehrfach": false,
+   "varianten": 4,
+   "gruppe": "effekt",
+   "einfluss": 0.6,
+   "schleife": false,
+   "wahl": null
+  },
+  {
+   "id": "kampf_granate_schlaf",
+   "wofuer": "Kampf: Schlafgranate - blaue Wolke (lokal erzeugt, werkzeuge/eden_rise/schlaf_klang.py)",
+   "prompt": "lokal",
+   "dauer": 3,
+   "mehrfach": true,
+   "varianten": 1,
+   "gruppe": "effekt",
+   "einfluss": 0.5,
+   "schleife": false,
+   "wahl": [
+    1
+   ],
+   "quelle": "lokal"
+  }
+ ],
+ "ausloeser": {
+  "explosion": {
+   "szenen": [
+    "explosion"
+   ]
+  },
+  "rudel_ratten": {
+   "kaempfe": [
+    "hafen_ratten"
+   ]
+  },
+  "rudel_hunde": {
+   "kaempfe": [
+    "hafen_hunde",
+    "rt_4b_hyaenen"
+   ]
+  },
+  "keiler_ansturm": {
+   "kaempfe": [
+    "hafen_keiler",
+    "rt_4a_mufflon"
+   ]
+  },
+  "ziege_halsband": {
+   "ereignisse": [
+    "hk_ziege"
+   ]
+  },
+  "hubschrauber_holm": {
+   "szenen": [
+    "holm_abschied"
+   ]
+  },
+  "hubschrauber_megan": {
+   "szenen": [
+    "megan_kommt"
+   ],
+   "ereignisse": [
+    "g1_helikopter"
+   ]
+  },
+  "blackout": {
+   "szenen": [
+    "blackout"
+   ]
+  },
+  "strom_zurueck": {
+   "nach_szene": [
+    "blackout"
+   ]
+  },
+  "sturm_nacht": {
+   "szenen": [
+    "sturmnacht"
+   ]
+  },
+  "funk_rauschen": {
+   "szenen": [
+    "sturmvorbereitung"
+   ],
+   "ereignisse": [
+    "rt_mast_2",
+    "bl_belagerung",
+    "bl_funk",
+    "bl_funk_rosi",
+    "bl_funk_rosi_charly",
+    "bl_funk_sophia",
+    "bl_funk_nichts"
+   ]
+  },
+  "donner": {
+   "szenen": [
+    "leises_telefonat"
+   ]
+  },
+  "ankerkette": {
+   "ereignisse": [
+    "br_nachtwache"
+   ]
+  },
+  "anruf_klingeln": {
+   "ereignisse": [
+    "rt_charly"
+   ]
+  },
+  "versprechen_gebrochen": {
+   "ereignisse": [
+    "rt_t_bruch"
+   ]
+  },
+  "anhoerung_wende": {
+   "ereignisse": [
+    "rt_white"
+   ]
+  },
+  "tier_grunt_baby": {
+   "ereignisse": [
+    "rt_bibi_frischlinge_1",
+    "rt_bibi_frischlinge_2",
+    "rt_bibi_frischlinge_3"
+   ]
+  },
+  "tuer_klopfen": {
+   "ereignisse": [
+    "ab_lola_klopft",
+    "bl_tueren",
+    "bl_na_chiara",
+    "bl_na_chiara_still",
+    "bl_na_chiara_wieder",
+    "bl_na_chiara_wieder_still",
+    "bl_na_rosi",
+    "bl_na_rosi_still",
+    "bl_na_rosi_wieder",
+    "bl_na_rosi_wieder_still",
+    "bl_na_lola",
+    "bl_na_lola_still",
+    "bl_na_lola_wieder",
+    "bl_na_lola_wieder_still"
+   ]
+  },
+  "sektkorken": {
+   "szenen": [
+    "auftakt_party"
+   ]
+  },
+  "tender_motor": {
+   "szenen": [
+    "landgang",
+    "landgang_2"
+   ],
+   "ereignisse": [
+    "g1_chiara_tender",
+    "gv_aussenborder",
+    "bl_welle_3"
+   ]
+  },
+  "wasser_platsch": {
+   "ereignisse": [
+    "g1_chiara_pause"
+   ]
+  },
+  "limousine_ankunft": {
+   "ereignisse": [
+    "t0_limousine"
+   ]
+  },
+  "klemmbrett_schritte": {
+   "ereignisse": [
+    "t0_megan"
+   ]
+  },
+  "kaffee_schluerfen": {
+   "ereignisse": [
+    "t0_holm"
+   ]
+  },
+  "schraubenschluessel_klong": {
+   "ereignisse": [
+    "t0_rosi"
+   ]
+  },
+  "hubschrauber_ueberflug": {
+   "ereignisse": [
+    "t0_maxwell"
+   ]
+  },
+  "katze_miau": {
+   "ereignisse": [
+    "t0_jana"
+   ]
+  },
+  "kamera_ausloeser": {
+   "ereignisse": [
+    "t0_yamamoto",
+    "t0_siri"
+   ]
+  },
+  "hubschrauber_start": {
+   "ereignisse": [
+    "t0_abschied_herzlich",
+    "t0_abschied_frech",
+    "t0_abschied_flirt",
+    "t0_abschied_foermlich"
+   ]
+  },
+  "flut_steigt": {
+   "ereignisse": [
+    "gr_boss",
+    "gr_boss_spaet",
+    "gr_boss_matteu",
+    "gr_boss_matteu_spaet",
+    "fn_start"
+   ]
+  },
+  "fackel_an": {
+   "ereignisse": [
+    "gr_fackel"
+   ]
+  },
+  "gitter": {
+   "ereignisse": [
+    "gr_u1_gitter"
+   ]
+  },
+  "steinschlag": {
+   "ereignisse": [
+    "gr_u2_start",
+    "gr_rueckweg_bastien"
+   ]
+  },
+  "tauchen": {
+   "ereignisse": [
+    "gr_u1_start"
+   ]
+  },
+  "kiste_auf": {
+   "ereignisse": [
+    "gr_wahl"
+   ]
+  },
+  "glocke": {
+   "ereignisse": [
+    "kv_glocke",
+    "rt_weg_danzel",
+    "rt_weg_bibi",
+    "rt_weg_bibi_buch",
+    "rt_weg_charly"
+   ]
+  },
+  "tauben_auf": {
+   "ereignisse": [
+    "kv_start"
+   ]
+  },
+  "kampf_fledermaeuse": {
+   "gegner": [
+    "fledermaeuse"
+   ]
+  },
+  "kampf_viper": {
+   "gegner": [
+    "schlange",
+    "schlange_alpha"
+   ]
+  },
+  "kampf_sirene": {
+   "gegner": [
+    "sirene"
+   ]
+  },
+  "kampf_riscossore": {
+   "gegner": [
+    "riscossore"
+   ]
+  },
+  "kampf_unit01": {
+   "gegner": [
+    "unit01",
+    "hirtendrohne"
+   ]
+  },
+  "kampf_pale_lady": {
+   "gegner": [
+    "vampirin"
+   ]
+  },
+  "tk_unit_werkstatt": {
+   "ereignisse": [
+    "bl_manoever"
+   ]
+  },
+  "tk_unit_wasser": {
+   "ereignisse": [
+    "bl_welle_2"
+   ]
+  },
+  "tk_bucht": {
+   "ereignisse": [
+    "bl_welle_5"
+   ]
+  },
+  "tk_liste": {
+   "ereignisse": [
+    "bl_morgen_22",
+    "bl_morgen_23"
+   ]
+  },
+  "tk_glocke": {
+   "ereignisse": [
+    "bl_kirche",
+    "bl_kirche_don"
+   ]
+  },
+  "tk_hammer": {
+   "ereignisse": [
+    "bl_aufbau_heil",
+    "bl_aufbau_asche"
+   ]
+  },
+  "glaeser_anstossen": {
+   "ereignisse": [
+    "bl_bar"
+   ]
+  },
+  "schritte_kies": {
+   "ereignisse": [
+    "bl_wache_wolff_bericht",
+    "bl_wache_elsa_bericht",
+    "bl_wache_yamamoto_bericht"
+   ]
+  },
+  "tk_drucker": {
+   "ereignisse": [
+    "bl_tafel"
+   ]
+  },
+  "tk_kreide": {
+   "ereignisse": [
+    "bl_bericht"
+   ]
+  }
+ }
+}

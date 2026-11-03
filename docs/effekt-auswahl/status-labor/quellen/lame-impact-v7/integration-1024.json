@@ -1,0 +1,25 @@
+{
+  "source": "X:\\AI\\Eden\\docs\\effekt-auswahl\\status-labor\\quellen\\lame-native-v2\\lame-native-1024-v7.png",
+  "source_sha256": "052821cf101705a46513d5d55fdb83183ef38ea3ee5e51dda1d8c7bac9313cae",
+  "source_size": [
+    8192,
+    8192
+  ],
+  "source_frame_size": [
+    1024,
+    1024
+  ],
+  "frames": 64,
+  "unique_frames": 64,
+  "asset": "assets/lame-liquigen-1024-v7.png",
+  "asset_size": [
+    8192,
+    5120
+  ],
+  "asset_frame_size": [
+    1024,
+    640
+  ],
+  "processing": "Native 1024-pixel re-render; fixed crop y120:720; scale-matched base/side feather, original alpha multiplied; restrained channel balance and 0.4px smoothing. No upscaling.",
+  "impact": "Dense primary splash, angled shoulder spray, delayed lower spray; 104 ballistic droplets; stronger target recoil. Existing native spray material reused."
+}

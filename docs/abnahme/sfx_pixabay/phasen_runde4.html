@@ -1,0 +1,67 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dinner-Übergang Runde 4</title><style>
+:root{--bg:#14161b;--karte:#1d2027;--linie:#2e323b;--text:#ece6da;--leise:#a39d92;--akz:#d9b26f;--p0:#e08a7a;--p1:#d9b26f;--p2:#8fb7cf}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 system-ui,Segoe UI,sans-serif;padding:28px 20px 90px}
+main{max-width:1200px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+h1{margin:0;color:var(--akz);font-size:26px}header.kopf p{color:var(--leise);margin:6px 0 0;max-width:80ch}
+.slot{background:var(--karte);border:1px solid var(--linie);border-radius:14px;padding:14px 16px;display:flex;flex-direction:column;gap:10px}
+.slot.entschieden{border-color:var(--akz)}
+.slot header{display:flex;gap:12px;align-items:baseline}.slot h2{margin:0;font-size:17px}.slot code{color:var(--leise);font-size:12px}
+.prio{font:700 11px system-ui;letter-spacing:.08em;padding:2px 8px;border-radius:99px;background:#2a2e37;color:var(--p1)}
+.ks{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.k{display:flex;gap:8px;align-items:flex-start;background:#171a20;border:1px solid var(--linie);border-radius:10px;padding:10px;cursor:pointer;min-width:0}
+.k:has(input:checked){border-color:var(--akz);background:#221f18}
+.kk{display:flex;flex-direction:column;gap:6px;min-width:0;flex:1}.kk b{font-size:14px;overflow-wrap:anywhere}.kk small{color:var(--leise);font-size:12px}
+.kk a{color:var(--akz)}audio{width:100%;height:34px}
+.keiner .kk b{color:var(--leise)}
+.notiz{background:#171a20;color:var(--text);border:1px solid var(--linie);border-radius:8px;padding:6px 10px}
+.fuss{position:fixed;left:0;right:0;bottom:0;background:#0f1115ee;border-top:1px solid var(--linie);padding:10px 20px;display:flex;gap:14px;align-items:center;justify-content:center}
+.fuss button{background:var(--akz);color:#14161b;border:0;border-radius:8px;padding:8px 14px;font-weight:700;cursor:pointer}
+#stand{color:var(--leise);font-variant-numeric:tabular-nums}textarea{position:absolute;left:-9999px}
+@media (max-width:900px){.ks{grid-template-columns:1fr 1fr}}
+
+.k.gesetzt{border-color:#5d7a52;background:#1b2219;cursor:default}</style></head><body><main>
+<header class="kopf"><h1>Dinner · Runde 4</h1><p>Oben die drei, die schon im Spiel sind. Darunter neue Kandidaten: Jazz-Jingles, Jazzgitarre, Jazzbesen, Neo Soul und warme Piano-Logos. Was länger als 7 s ist, kürze ich wie gehabt auf 6 s mit 1,5 s Ausblende.</p></header>
+<article class="slot" data-id="dinner"><header><h2>Im Spiel</h2><code>phase_dinner</code></header><div class="ks"><div class="k gesetzt"><div class="kk"><b>phase_dinner_1</b><small>im Spiel</small><audio controls preload="none" src="../../../module/eden_rise/sfx/phase_dinner_1.mp3"></audio></div></div><div class="k gesetzt"><div class="kk"><b>phase_dinner_2</b><small>im Spiel</small><audio controls preload="none" src="../../../module/eden_rise/sfx/phase_dinner_2.mp3"></audio></div></div><div class="k gesetzt"><div class="kk"><b>phase_dinner_3</b><small>im Spiel</small><audio controls preload="none" src="../../../module/eden_rise/sfx/phase_dinner_3.mp3"></audio></div></div></div>
+<header><h2>Neue Kandidaten</h2></header><div class="ks"><label class="k"><input type="checkbox" value="467231"><div class="kk"><b>Summer Stroll (6 sec edit)</b>
+<small>6 s · Grumpynora · <a href="https://pixabay.com/sound-effects/musical-summer-stroll-6-sec-edit-467231/" target="_blank" rel="noopener">Pixabay</a></small>
+<audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/01/16/audio_4fa344ecd4.mp3"></audio></div></label><label class="k"><input type="checkbox" value="200026"><div class="kk"><b>JingleJazz</b>
+<small>5 s · SOUND-WORK · <a href="https://pixabay.com/sound-effects/musical-jinglejazz-200026/" target="_blank" rel="noopener">Pixabay</a></small>
+<audio controls preload="none" src="https://cdn.pixabay.com/audio/2024/04/03/audio_231a3649cf.mp3"></audio></div></label><label class="k"><input type="checkbox" value="610532"><div class="kk"><b>Short jazz Melody with drums</b>
+<small>9 s · icha_n · <a href="https://pixabay.com/sound-effects/musical-short-jazz-melody-with-drums-610532/" target="_blank" rel="noopener">Pixabay</a></small>
+<audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/09/26/audio_84c4666991.mp3"></audio></div></label><label class="k"><input type="checkbox" value="96157"><div class="kk"><b>Jazz Guitar Short Sample loop</b>
+<small>11 s · freesound_community · <a href="https://pixabay.com/sound-effects/musical-jazz-guitar-sort-sample-loop-96157/" target="_blank" rel="noopener">Pixabay</a></small>
+<audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/03/19/audio_21c4d5a62c.mp3"></audio></div></label><label class="k"><input type="checkbox" value="318264"><div class="kk"><b>Jazz Pentatonic Acoustic Guitar F</b>
+<small>8 s · 48442864 · <a href="https://pixabay.com/sound-effects/musical-jazz-pentatonic-acoustic-guitar-f-120-bpm-318264/" target="_blank" rel="noopener">Pixabay</a></small>
+<audio controls preload="none" src="https://cdn.pixabay.com/audio/2025/03/24/audio_5dfc328be1.mp3"></audio></div></label><label class="k"><input type="checkbox" value="609038"><div class="kk"><b>Emotional Neo Soul LoFi Beat 02</b>
+<small>11 s · Musinova · <a href="https://pixabay.com/sound-effects/musical-emotional-neo-soul-lofi-beat-loop-02-609038/" target="_blank" rel="noopener">Pixabay</a></small>
+<audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/09/23/audio_6a3b0241f5.mp3"></audio></div></label><label class="k"><input type="checkbox" value="609039"><div class="kk"><b>Emotional Neo Soul LoFi Beat 03</b>
+<small>11 s · Musinova · <a href="https://pixabay.com/sound-effects/musical-emotional-neo-soul-lofi-beat-loop-03-609039/" target="_blank" rel="noopener">Pixabay</a></small>
+<audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/09/23/audio_6444ab6eb7.mp3"></audio></div></label><label class="k"><input type="checkbox" value="9595"><div class="kk"><b>Jingle #10</b>
+<small>12 s · westphalesq · <a href="https://pixabay.com/sound-effects/musical-jingle-10-9595/" target="_blank" rel="noopener">Pixabay</a></small>
+<audio controls preload="none" src="https://cdn.pixabay.com/audio/2021/10/18/audio_82cea3ad88.mp3"></audio></div></label><label class="k"><input type="checkbox" value="91191"><div class="kk"><b>Brushes Loop 77bpm (Jazzbesen)</b>
+<small>6 s · freesound_community · <a href="https://pixabay.com/sound-effects/musical-brushes-loop-77bpm-by-canis-et-circensis-91191/" target="_blank" rel="noopener">Pixabay</a></small>
+<audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/03/15/audio_85cbe81e55.mp3"></audio></div></label><label class="k"><input type="checkbox" value="95026"><div class="kk"><b>Bright Line Piano Loop</b>
+<small>6 s · freesound_community · <a href="https://pixabay.com/sound-effects/musical-bright-line-piano-loop-95026/" target="_blank" rel="noopener">Pixabay</a></small>
+<audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/03/17/audio_72ad70ecc9.mp3"></audio></div></label><label class="k"><input type="checkbox" value="151764"><div class="kk"><b>Soft Cinematic Piano Outro</b>
+<small>5 s · Universfield · <a href="https://pixabay.com/sound-effects/musical-soft-cinematic-piano-outro-151764/" target="_blank" rel="noopener">Pixabay</a></small>
+<audio controls preload="none" src="https://cdn.pixabay.com/audio/2023/05/30/audio_91bebb7ff6.mp3"></audio></div></label><label class="k"><input type="checkbox" value="463102"><div class="kk"><b>Warm Piano Logo</b>
+<small>10 s · AleXZavesa · <a href="https://pixabay.com/sound-effects/musical-warm-piano-logo-463102/" target="_blank" rel="noopener">Pixabay</a></small>
+<audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/01/08/audio_6ebf176b25.mp3"></audio></div></label><label class="k"><input type="checkbox" value="622772"><div class="kk"><b>Losing Hand (10 sec edit)</b>
+<small>10 s · Grumpynora · <a href="https://pixabay.com/sound-effects/musical-losing-hand-10-sec-edit-622772/" target="_blank" rel="noopener">Pixabay</a></small>
+<audio controls preload="none" src="https://cdn.pixabay.com/audio/2026/10/19/audio_3189a277b4.mp3"></audio></div></label><label class="k"><input type="checkbox" value="116100"><div class="kk"><b>Ragtime Logo</b>
+<small>9 s · Music_For_Videos · <a href="https://pixabay.com/sound-effects/musical-ragtime-logo-standard-version-116100/" target="_blank" rel="noopener">Pixabay</a></small>
+<audio controls preload="none" src="https://cdn.pixabay.com/audio/2022/08/01/audio_147e0f1238.mp3"></audio></div></label></div><input class="notiz" type="text" placeholder="Notiz (optional)"></article>
+</main><div class="fuss"><span id="stand"></span><button id="kopie">Ergebnis kopieren</button><textarea id="ta"></textarea></div>
+<script>
+const KEY="sfx_phasen_r4";let S={w:[]};try{S=JSON.parse(localStorage.getItem(KEY)||'{"w":[]}')}catch(e){}
+const s=document.querySelector(".slot"),no=s.querySelector(".notiz");
+function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}}
+function zeichnen(){s.querySelectorAll("input[type=checkbox]").forEach(c=>c.checked=S.w.includes(c.value));no.value=S.notiz||"";document.getElementById("stand").textContent=S.w.length+" angehakt"}
+s.querySelectorAll("input[type=checkbox]").forEach(c=>c.onchange=()=>{S.w=[...s.querySelectorAll("input:checked")].map(x=>x.value);save();zeichnen()});
+no.oninput=e=>{S.notiz=e.target.value;save()};
+document.querySelectorAll("audio").forEach(a=>a.addEventListener("play",()=>document.querySelectorAll("audio").forEach(o=>{if(o!==a)o.pause()})));
+document.getElementById("kopie").onclick=async()=>{const t="Dinner Runde 4: "+(S.w.join(", ")||"keiner")+(S.notiz?" ("+S.notiz+")":"");
+ try{await navigator.clipboard.writeText(t)}catch(e){const ta=document.getElementById("ta");ta.value=t;ta.select();document.execCommand("copy")}
+ const b=document.getElementById("kopie");b.textContent="Kopiert ✓";setTimeout(()=>b.textContent="Ergebnis kopieren",1500)};
+zeichnen();</script></body></html>

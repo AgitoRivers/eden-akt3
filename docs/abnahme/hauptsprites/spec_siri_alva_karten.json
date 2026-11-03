@@ -1,0 +1,103 @@
+{
+ "id": "siri_alva_karten",
+ "titel": "Siri und Alva: deine NEU-Notizen",
+ "hinweis": "Neue Karten nach deinen Notizen, Format 1:1. Daneben das aktuelle Bild.",
+ "items": [
+  {
+   "id": "Siri_disappointment__karte_a",
+   "titel": "Siri · disappointment · neue Karte a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Siri\\disappointment__karte_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\disappointment.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "She stands with her arms crossed over her stomach, sagging shoulders, head turned toward the camera, both legs straight. Je Pose eine auf OK."
+  },
+  {
+   "id": "Siri_disappointment__karte_b",
+   "titel": "Siri · disappointment · neue Karte b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Siri\\disappointment__karte_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\disappointment.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "She stands with her arms crossed over her stomach, sagging shoulders, head turned toward the camera, both legs straight. Je Pose eine auf OK."
+  },
+  {
+   "id": "Siri_disappointment__karte_c",
+   "titel": "Siri · disappointment · neue Karte c",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Siri\\disappointment__karte_c.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\disappointment.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "She stands with her arms crossed over her stomach, sagging shoulders, head turned toward the camera, both legs straight. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_relief__karte_a",
+   "titel": "Alva · relief · neue Karte a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\relief__karte_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\relief.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "She stands with one hand resting on her collarbone and the other arm loose at her side, both legs straight. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_relief__karte_b",
+   "titel": "Alva · relief · neue Karte b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\relief__karte_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\relief.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "She stands with one hand resting on her collarbone and the other arm loose at her side, both legs straight. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_relief__karte_c",
+   "titel": "Alva · relief · neue Karte c",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\relief__karte_c.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\relief.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "She stands with one hand resting on her collarbone and the other arm loose at her side, both legs straight. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_relief-1__karte_a",
+   "titel": "Alva · relief-1 · neue Karte a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\relief-1__karte_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\relief-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "She stands with one hand pressed flat to her forehead, the other arm hanging loose, both legs straight. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_relief-1__karte_b",
+   "titel": "Alva · relief-1 · neue Karte b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\relief-1__karte_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\relief-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "She stands with one hand pressed flat to her forehead, the other arm hanging loose, both legs straight. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_relief-1__karte_c",
+   "titel": "Alva · relief-1 · neue Karte c",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\relief-1__karte_c.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\relief-1.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "She stands with one hand pressed flat to her forehead, the other arm hanging loose, both legs straight. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_caring__karte_a",
+   "titel": "Alva · caring · neue Karte a",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\caring__karte_a.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\caring.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "She stands with both hands held in front of her stomach, palms open, elbows close to her body, both legs straight. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_caring__karte_b",
+   "titel": "Alva · caring · neue Karte b",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\caring__karte_b.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\caring.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "She stands with both hands held in front of her stomach, palms open, elbows close to her body, both legs straight. Je Pose eine auf OK."
+  },
+  {
+   "id": "Alva_caring__karte_c",
+   "titel": "Alva · caring · neue Karte c",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_sprite_neu\\Alva\\caring__karte_c.png",
+   "vergleich": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\caring.png",
+   "vergleich_titel": "jetzt im Spiel",
+   "soll": "She stands with both hands held in front of her stomach, palms open, elbows close to her body, both legs straight. Je Pose eine auf OK."
+  }
+ ]
+}

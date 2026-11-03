@@ -1,0 +1,73 @@
+{
+ "id": "abbau_bilder",
+ "titel": "Abbauen – Bäume, Felsen, Werkzeuge",
+ "hinweis": "Sprites fürs Minispiel an den Rastplätzen und die Icons in Petrus Werkstatt. OK oder Notiz je Bild.",
+ "items": [
+  {
+   "id": "holm_oak",
+   "titel": "Sprite · Steineiche",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\abbau\\holm_oak.png",
+   "soll": "Ganzes Motiv freigestellt, nichts angeschnitten. Im Minispiel fällt der Baum bzw. bricht der Fels."
+  },
+  {
+   "id": "cork_oak",
+   "titel": "Sprite · Korkeiche (geschält)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\abbau\\cork_oak.png",
+   "soll": "Ganzes Motiv freigestellt, nichts angeschnitten. Im Minispiel fällt der Baum bzw. bricht der Fels."
+  },
+  {
+   "id": "granite",
+   "titel": "Sprite · Granitfels",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\abbau\\granite.png",
+   "soll": "Ganzes Motiv freigestellt, nichts angeschnitten. Im Minispiel fällt der Baum bzw. bricht der Fels."
+  },
+  {
+   "id": "schist",
+   "titel": "Sprite · Schieferfels",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\farm\\abbau\\schist.png",
+   "soll": "Ganzes Motiv freigestellt, nichts angeschnitten. Im Minispiel fällt der Baum bzw. bricht der Fels."
+  },
+  {
+   "id": "axe_1",
+   "titel": "Axt Stufe 1 · Old Hatchet",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\axe_1.webp",
+   "soll": "Icon bei Petru und in der Werkzeug-Anzeige. Stufen sollen sich klar unterscheiden."
+  },
+  {
+   "id": "axe_2",
+   "titel": "Axt Stufe 2 · Forester's Axe",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\axe_2.webp",
+   "soll": "Icon bei Petru und in der Werkzeug-Anzeige. Stufen sollen sich klar unterscheiden."
+  },
+  {
+   "id": "axe_3",
+   "titel": "Axt Stufe 3 · Tempered Axe",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\axe_3.webp",
+   "soll": "Icon bei Petru und in der Werkzeug-Anzeige. Stufen sollen sich klar unterscheiden."
+  },
+  {
+   "id": "pickaxe_1",
+   "titel": "Spitzhacke Stufe 1 · Old Pick",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\pickaxe_1.webp",
+   "soll": "Icon bei Petru und in der Werkzeug-Anzeige. Stufen sollen sich klar unterscheiden."
+  },
+  {
+   "id": "pickaxe_2",
+   "titel": "Spitzhacke Stufe 2 · Quarry Pick",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\pickaxe_2.webp",
+   "soll": "Icon bei Petru und in der Werkzeug-Anzeige. Stufen sollen sich klar unterscheiden."
+  },
+  {
+   "id": "pickaxe_3",
+   "titel": "Spitzhacke Stufe 3 · Tempered Pick",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\pickaxe_3.webp",
+   "soll": "Icon bei Petru und in der Werkzeug-Anzeige. Stufen sollen sich klar unterscheiden."
+  },
+  {
+   "id": "cork",
+   "titel": "Kork (Rohstoff)",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\cork.webp",
+   "soll": "Rohstoff-Icon für Kork (Beiprodukt der Korkeiche)."
+  }
+ ]
+}

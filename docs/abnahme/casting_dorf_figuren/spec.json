@@ -1,0 +1,187 @@
+{
+ "id": "casting_dorf_figuren_r2",
+ "titel": "Dorf-Figuren - Casting Phase 0",
+ "hinweis": "Sandru neu als korsisch-marokkanisch (Duc, E-097). Don Anghjulu ist jetzt Portugiese, die Bilder passen und bleiben. Mina bleibt korsisch.",
+ "items": [
+  {
+   "id": "Pascal_A1",
+   "titel": "Pascal Leca - Fassung A (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Pascal_A\\neutral-1.png",
+   "soll": "Preset Yacht_Pascal_A. 52, schlank, schuetteres graubraunes Haar, Lesebrille an der Schnur, aufgekrempelte Aermel, gelockerte Krawatte (bei den Bildern fehlt der Bleistift hinterm Ohr)"
+  },
+  {
+   "id": "Pascal_A2",
+   "titel": "Pascal Leca - Fassung A (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Pascal_A\\neutral.png",
+   "soll": "Preset Yacht_Pascal_A. 52, schlank, schuetteres graubraunes Haar, Lesebrille an der Schnur, aufgekrempelte Aermel, gelockerte Krawatte (bei den Bildern fehlt der Bleistift hinterm Ohr)"
+  },
+  {
+   "id": "Pascal_B1",
+   "titel": "Pascal Leca - Fassung B (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Pascal_B\\neutral-1.png",
+   "soll": "Preset Yacht_Pascal_B. 52, schlank, schuetteres graubraunes Haar, Lesebrille an der Schnur, aufgekrempelte Aermel, gelockerte Krawatte (bei den Bildern fehlt der Bleistift hinterm Ohr)"
+  },
+  {
+   "id": "Pascal_B2",
+   "titel": "Pascal Leca - Fassung B (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Pascal_B\\neutral.png",
+   "soll": "Preset Yacht_Pascal_B. 52, schlank, schuetteres graubraunes Haar, Lesebrille an der Schnur, aufgekrempelte Aermel, gelockerte Krawatte (bei den Bildern fehlt der Bleistift hinterm Ohr)"
+  },
+  {
+   "id": "Pascal_C1",
+   "titel": "Pascal Leca - Fassung C (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Pascal_C\\neutral-1.png",
+   "soll": "Preset Yacht_Pascal_C. 52, schlank, schuetteres graubraunes Haar, Lesebrille an der Schnur, aufgekrempelte Aermel, gelockerte Krawatte (bei den Bildern fehlt der Bleistift hinterm Ohr)"
+  },
+  {
+   "id": "Pascal_C2",
+   "titel": "Pascal Leca - Fassung C (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Pascal_C\\neutral.png",
+   "soll": "Preset Yacht_Pascal_C. 52, schlank, schuetteres graubraunes Haar, Lesebrille an der Schnur, aufgekrempelte Aermel, gelockerte Krawatte (bei den Bildern fehlt der Bleistift hinterm Ohr)"
+  },
+  {
+   "id": "Mina_A1",
+   "titel": "Mina Orsoni - Fassung A (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Mina_A\\neutral-1.png",
+   "soll": "Preset Yacht_Mina_A. 24, erwachsen, gebraeunt, Sommersprossen, kurzes zerzaustes Haar, senfgelbe Postjacke, Shorts, Kuriertasche, Helm im Nacken (C ohne sichtbaren Helm)"
+  },
+  {
+   "id": "Mina_A2",
+   "titel": "Mina Orsoni - Fassung A (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Mina_A\\neutral.png",
+   "soll": "Preset Yacht_Mina_A. 24, erwachsen, gebraeunt, Sommersprossen, kurzes zerzaustes Haar, senfgelbe Postjacke, Shorts, Kuriertasche, Helm im Nacken (C ohne sichtbaren Helm)"
+  },
+  {
+   "id": "Mina_B1",
+   "titel": "Mina Orsoni - Fassung B (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Mina_B\\neutral-1.png",
+   "soll": "Preset Yacht_Mina_B. 24, erwachsen, gebraeunt, Sommersprossen, kurzes zerzaustes Haar, senfgelbe Postjacke, Shorts, Kuriertasche, Helm im Nacken (C ohne sichtbaren Helm)"
+  },
+  {
+   "id": "Mina_B2",
+   "titel": "Mina Orsoni - Fassung B (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Mina_B\\neutral.png",
+   "soll": "Preset Yacht_Mina_B. 24, erwachsen, gebraeunt, Sommersprossen, kurzes zerzaustes Haar, senfgelbe Postjacke, Shorts, Kuriertasche, Helm im Nacken (C ohne sichtbaren Helm)"
+  },
+  {
+   "id": "Mina_C1",
+   "titel": "Mina Orsoni - Fassung C (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Mina_C\\neutral-1.png",
+   "soll": "Preset Yacht_Mina_C. 24, erwachsen, gebraeunt, Sommersprossen, kurzes zerzaustes Haar, senfgelbe Postjacke, Shorts, Kuriertasche, Helm im Nacken (C ohne sichtbaren Helm)"
+  },
+  {
+   "id": "Mina_C2",
+   "titel": "Mina Orsoni - Fassung C (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Mina_C\\neutral.png",
+   "soll": "Preset Yacht_Mina_C. 24, erwachsen, gebraeunt, Sommersprossen, kurzes zerzaustes Haar, senfgelbe Postjacke, Shorts, Kuriertasche, Helm im Nacken (C ohne sichtbaren Helm)"
+  },
+  {
+   "id": "BaTu_A1",
+   "titel": "Ba Tu - Fassung A (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_BaTu_A\\neutral-1.png",
+   "soll": "Preset Yacht_BaTu_A. um die 75, klein und aufrecht, weisser Knoten, Blumenbluse mit Strickjacke, Jade-Armreif, goldenes Kreuz, Kochloeffel"
+  },
+  {
+   "id": "BaTu_A2",
+   "titel": "Ba Tu - Fassung A (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_BaTu_A\\neutral.png",
+   "soll": "Preset Yacht_BaTu_A. um die 75, klein und aufrecht, weisser Knoten, Blumenbluse mit Strickjacke, Jade-Armreif, goldenes Kreuz, Kochloeffel"
+  },
+  {
+   "id": "BaTu_B1",
+   "titel": "Ba Tu - Fassung B (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_BaTu_B\\neutral-1.png",
+   "soll": "Preset Yacht_BaTu_B. um die 75, klein und aufrecht, weisser Knoten, Blumenbluse mit Strickjacke, Jade-Armreif, goldenes Kreuz, Kochloeffel"
+  },
+  {
+   "id": "BaTu_B2",
+   "titel": "Ba Tu - Fassung B (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_BaTu_B\\neutral.png",
+   "soll": "Preset Yacht_BaTu_B. um die 75, klein und aufrecht, weisser Knoten, Blumenbluse mit Strickjacke, Jade-Armreif, goldenes Kreuz, Kochloeffel"
+  },
+  {
+   "id": "BaTu_C1",
+   "titel": "Ba Tu - Fassung C (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_BaTu_C\\neutral-1.png",
+   "soll": "Preset Yacht_BaTu_C. um die 75, klein und aufrecht, weisser Knoten, Blumenbluse mit Strickjacke, Jade-Armreif, goldenes Kreuz, Kochloeffel"
+  },
+  {
+   "id": "BaTu_C2",
+   "titel": "Ba Tu - Fassung C (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_BaTu_C\\neutral.png",
+   "soll": "Preset Yacht_BaTu_C. um die 75, klein und aufrecht, weisser Knoten, Blumenbluse mit Strickjacke, Jade-Armreif, goldenes Kreuz, Kochloeffel"
+  },
+  {
+   "id": "Sandru_A1",
+   "titel": "Sandru Giorgi - Fassung A (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Sandru_A\\neutral-1.png",
+   "soll": "Sandru Amrani, 30, korsisch-marokkanisch, schmal, bemühtes Lächeln, A.V.-Poloshirt, Beinschienen."
+  },
+  {
+   "id": "Sandru_A2",
+   "titel": "Sandru Giorgi - Fassung A (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Sandru_A\\neutral.png",
+   "soll": "Sandru Amrani, 30, korsisch-marokkanisch, schmal, bemühtes Lächeln, A.V.-Poloshirt, Beinschienen."
+  },
+  {
+   "id": "Sandru_B1",
+   "titel": "Sandru Giorgi - Fassung B (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Sandru_B\\neutral-1.png",
+   "soll": "Sandru Amrani, 30, korsisch-marokkanisch, schmal, bemühtes Lächeln, A.V.-Poloshirt, Beinschienen."
+  },
+  {
+   "id": "Sandru_B2",
+   "titel": "Sandru Giorgi - Fassung B (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Sandru_B\\neutral.png",
+   "soll": "Sandru Amrani, 30, korsisch-marokkanisch, schmal, bemühtes Lächeln, A.V.-Poloshirt, Beinschienen."
+  },
+  {
+   "id": "Sandru_C1",
+   "titel": "Sandru Giorgi - Fassung C (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Sandru_C\\neutral-1.png",
+   "soll": "Sandru Amrani, 30, korsisch-marokkanisch, schmal, bemühtes Lächeln, A.V.-Poloshirt, Beinschienen."
+  },
+  {
+   "id": "Sandru_C2",
+   "titel": "Sandru Giorgi - Fassung C (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Sandru_C\\neutral.png",
+   "soll": "Sandru Amrani, 30, korsisch-marokkanisch, schmal, bemühtes Lächeln, A.V.-Poloshirt, Beinschienen."
+  },
+  {
+   "id": "Anghjulu_A1",
+   "titel": "Don Anghjulu - Fassung A (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Anghjulu_A\\neutral-1.png",
+   "soll": "Preset Yacht_Anghjulu_A. um die 60, rundlich, rote Nase, Stoppeln, schwarze Soutane mit aufgekrempelten Aermeln, grosses Lachen, kleiner Flachmann"
+  },
+  {
+   "id": "Anghjulu_A2",
+   "titel": "Don Anghjulu - Fassung A (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Anghjulu_A\\neutral.png",
+   "soll": "Preset Yacht_Anghjulu_A. um die 60, rundlich, rote Nase, Stoppeln, schwarze Soutane mit aufgekrempelten Aermeln, grosses Lachen, kleiner Flachmann"
+  },
+  {
+   "id": "Anghjulu_B1",
+   "titel": "Don Anghjulu - Fassung B (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Anghjulu_B\\neutral-1.png",
+   "soll": "Preset Yacht_Anghjulu_B. um die 60, rundlich, rote Nase, Stoppeln, schwarze Soutane mit aufgekrempelten Aermeln, grosses Lachen, kleiner Flachmann"
+  },
+  {
+   "id": "Anghjulu_B2",
+   "titel": "Don Anghjulu - Fassung B (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Anghjulu_B\\neutral.png",
+   "soll": "Preset Yacht_Anghjulu_B. um die 60, rundlich, rote Nase, Stoppeln, schwarze Soutane mit aufgekrempelten Aermeln, grosses Lachen, kleiner Flachmann"
+  },
+  {
+   "id": "Anghjulu_C1",
+   "titel": "Don Anghjulu - Fassung C (1)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Anghjulu_C\\neutral-1.png",
+   "soll": "Preset Yacht_Anghjulu_C. um die 60, rundlich, rote Nase, Stoppeln, schwarze Soutane mit aufgekrempelten Aermeln, grosses Lachen, kleiner Flachmann"
+  },
+  {
+   "id": "Anghjulu_C2",
+   "titel": "Don Anghjulu - Fassung C (2)",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_dorf\\Yacht_Anghjulu_C\\neutral.png",
+   "soll": "Preset Yacht_Anghjulu_C. um die 60, rundlich, rote Nase, Stoppeln, schwarze Soutane mit aufgekrempelten Aermeln, grosses Lachen, kleiner Flachmann"
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+  "feuerball": {
+    "file": "scirocco-feuerball_render_all.png",
+    "raw_size": [
+      4096,
+      4096
+    ],
+    "cell": [
+      343,
+      326
+    ],
+    "crop": [
+      90,
+      81,
+      433,
+      407
+    ],
+    "frames": 64,
+    "emission_alpha_derived": true,
+    "premultiplied_to_straight": true,
+    "unique": 64,
+    "sha256": "fd6fae217893183f6c9483e9f6f613f19c180f6b51d63fb63c2af68fd9c79a3d"
+  },
+  "explosion": {
+    "file": "feuer-entladung_render_all.png",
+    "raw_size": [
+      8192,
+      8192
+    ],
+    "cell": [
+      650,
+      719
+    ],
+    "crop": [
+      172,
+      127,
+      822,
+      846
+    ],
+    "frames": 64,
+    "emission_alpha_derived": false,
+    "premultiplied_to_straight": true,
+    "unique": 64,
+    "sha256": "ce3f2743587d8ac908a5855e2040e20c7507b63ccc47f93dc0d3b4a266738440"
+  }
+}

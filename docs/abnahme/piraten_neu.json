@@ -1,0 +1,13 @@
+{
+ "id": "piraten_neu_v1",
+ "titel": "Zwei neue Piraten: Brawler und Gunner",
+ "hinweis": "Bitte je einen wählen. Mein Vorschlag: Brawler 2 und Gunner 1. Links dein Pixel-Blatt beziehungsweise der bisherige PirateAlpha. Erst nach deiner Wahl rendere ich die vollen Sätze. Pirate und PirateAlpha bleiben unverändert, U Riscossore nutzt PirateAlpha weiter.",
+ "items": [
+  {"id": "b1", "titel": "Brawler 1 · Klinge tief, kurzer Bart", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_piraten_neu\\b1\\idle.png", "soll": "Am nächsten an der Haltung und dem Bart auf deinem Pixel-Blatt. Schlanker als dort.", "vergleich": "S:\\VR\\Gallery\\Downloads\\Tactics\\eden-pirate-redhair-saber-idle-walk-6x2-v1.png", "vergleich_titel": "Pixel-Blatt"},
+  {"id": "b2", "titel": "Brawler 2 · massig, Klinge hoch (Vorschlag)", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_piraten_neu\\b2\\idle.png", "soll": "Am klarsten stärker als der hagere Pirate und so massig wie dein Pixel-Blatt. Der Bart ist voller als dort, die Narbe auf der Wange ist meine Zugabe.", "vergleich": "S:\\VR\\Gallery\\Downloads\\Tactics\\eden-pirate-redhair-saber-idle-walk-6x2-v1.png", "vergleich_titel": "Pixel-Blatt"},
+  {"id": "b3", "titel": "Brawler 3 · jung, wilde Locken", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_piraten_neu\\b3\\idle.png", "soll": "Jünger und frecher, die Locken wehen. Weicht am stärksten von deinem Pixel-Blatt ab.", "vergleich": "S:\\VR\\Gallery\\Downloads\\Tactics\\eden-pirate-redhair-saber-idle-walk-6x2-v1.png", "vergleich_titel": "Pixel-Blatt"},
+  {"id": "g1", "titel": "Gunner 1 · Arm gestreckt, zielt (Vorschlag)", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_piraten_neu\\g1\\idle.png", "soll": "Sofort als Schütze zu erkennen. Steht aufrecht und ruhig, wie jemand, der aus der Ferne kämpft.", "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\PirateAlpha\\idle.webp", "vergleich_titel": "PirateAlpha"},
+  {"id": "g2", "titel": "Gunner 2 · Pistole an der Hüfte", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_piraten_neu\\g2\\idle.png", "soll": "Geduckt und lauernd, wirkt eher wie ein Nahkämpfer.", "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\PirateAlpha\\idle.webp", "vergleich_titel": "PirateAlpha"},
+  {"id": "g3", "titel": "Gunner 3 · Lauf nach oben", "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_piraten_neu\\g3\\idle-1.png", "soll": "Hält die Pistole hoch und winkt mit der freien Hand. Die Figur ist schmal, die Waffe weniger klar zu sehen.", "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\kampf\\PirateAlpha\\idle.webp", "vergleich_titel": "PirateAlpha"}
+ ]
+}

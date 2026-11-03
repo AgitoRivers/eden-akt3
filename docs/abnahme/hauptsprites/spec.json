@@ -1,0 +1,883 @@
+{
+ "id": "hauptsprites_seiten",
+ "titel": "Hauptfiguren: Seitenschnitte im Standard-Outfit",
+ "hinweis": "Standard-Outfits, nur nicht sexuelle Gefühle. Pro Figur stehen die deutlichsten Schnitte zuerst. Vorschlag: alles Knappe auf OK lassen und nur abgeschnittene Hände und Arme auf Neu setzen.",
+ "items": [
+  {
+   "id": "Chiara_set1_optimism-1",
+   "titel": "Chiara · set1 · optimism-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Chiara Sonnberg\\optimism-1.png",
+   "soll": "Deutlich an der Kante: links 235 px, rechts 204 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Chiara_set1_joy-1",
+   "titel": "Chiara · set1 · joy-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Chiara Sonnberg\\joy-1.png",
+   "soll": "Deutlich an der Kante: links 133 px, rechts 70 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Chiara_set1_excitement-1",
+   "titel": "Chiara · set1 · excitement-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Chiara Sonnberg\\excitement-1.png",
+   "soll": "Deutlich an der Kante: links 125 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Chiara_set1_confusion",
+   "titel": "Chiara · set1 · confusion",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Chiara Sonnberg\\confusion.png",
+   "soll": "Knapp an der Kante: rechts 44 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Chiara_set1_grief-1",
+   "titel": "Chiara · set1 · grief-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Chiara Sonnberg\\grief-1.png",
+   "soll": "Knapp an der Kante: links 26 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Rosi_set1_grief-1",
+   "titel": "Rosi · set1 · grief-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Rosi Scuderi\\grief-1.png",
+   "soll": "Deutlich an der Kante: links 309 px, rechts 357 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Rosi_set1_joy-1",
+   "titel": "Rosi · set1 · joy-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Rosi Scuderi\\joy-1.png",
+   "soll": "Deutlich an der Kante: rechts 173 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Rosi_set1_optimism-1",
+   "titel": "Rosi · set1 · optimism-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Rosi Scuderi\\optimism-1.png",
+   "soll": "Deutlich an der Kante: rechts 41 px, oben 156 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Sophia_set1_excitement-1",
+   "titel": "Sophia · set1 · excitement-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\excitement-1.png",
+   "soll": "Deutlich an der Kante: rechts 478 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Sophia_set1_surprise",
+   "titel": "Sophia · set1 · surprise",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\surprise.png",
+   "soll": "Deutlich an der Kante: links 241 px, rechts 336 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Sophia_set1_pride-1",
+   "titel": "Sophia · set1 · pride-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\pride-1.png",
+   "soll": "Deutlich an der Kante: links 129 px, rechts 305 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Sophia_set1_amusement-2",
+   "titel": "Sophia · set1 · amusement-2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\amusement-2.png",
+   "soll": "Deutlich an der Kante: rechts 300 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Sophia_set1_remorse-1",
+   "titel": "Sophia · set1 · remorse-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\remorse-1.png",
+   "soll": "Deutlich an der Kante: rechts 276 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Sophia_set1_disappointment",
+   "titel": "Sophia · set1 · disappointment",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\disappointment.png",
+   "soll": "Deutlich an der Kante: links 73 px, rechts 271 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Sophia_set1_surprise-1",
+   "titel": "Sophia · set1 · surprise-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\surprise-1.png",
+   "soll": "Deutlich an der Kante: links 257 px, rechts 270 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Sophia_set1_optimism-1",
+   "titel": "Sophia · set1 · optimism-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\optimism-1.png",
+   "soll": "Deutlich an der Kante: links 263 px, rechts 150 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Sophia_set1_annoyance-1",
+   "titel": "Sophia · set1 · annoyance-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\annoyance-1.png",
+   "soll": "Deutlich an der Kante: rechts 246 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Sophia_set1_pride",
+   "titel": "Sophia · set1 · pride",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\pride.png",
+   "soll": "Deutlich an der Kante: rechts 238 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Sophia_set1_caring",
+   "titel": "Sophia · set1 · caring",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\caring.png",
+   "soll": "Deutlich an der Kante: links 176 px, rechts 214 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Sophia_set1_confusion-1",
+   "titel": "Sophia · set1 · confusion-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\confusion-1.png",
+   "soll": "Deutlich an der Kante: links 127 px, rechts 199 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Sophia_set1_approval",
+   "titel": "Sophia · set1 · approval",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\approval.png",
+   "soll": "Deutlich an der Kante: rechts 189 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Sophia_set1_confusion",
+   "titel": "Sophia · set1 · confusion",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\confusion.png",
+   "soll": "Deutlich an der Kante: links 189 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Sophia_set1_optimism",
+   "titel": "Sophia · set1 · optimism",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\optimism.png",
+   "soll": "Deutlich an der Kante: rechts 182 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Sophia_set1_anger",
+   "titel": "Sophia · set1 · anger",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\anger.png",
+   "soll": "Deutlich an der Kante: links 93 px, rechts 178 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Sophia_set1_joy-1",
+   "titel": "Sophia · set1 · joy-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\joy-1.png",
+   "soll": "Deutlich an der Kante: links 130 px, rechts 171 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Sophia_set1_relief-1",
+   "titel": "Sophia · set1 · relief-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\relief-1.png",
+   "soll": "Deutlich an der Kante: links 166 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Sophia_set1_relief",
+   "titel": "Sophia · set1 · relief",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\relief.png",
+   "soll": "Knapp an der Kante: rechts 79 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Sophia_set1_disgust",
+   "titel": "Sophia · set1 · disgust",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\disgust.png",
+   "soll": "Knapp an der Kante: rechts 66 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Sophia_set1_neutral-1",
+   "titel": "Sophia · set1 · neutral-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Sophia Moore\\neutral-1.png",
+   "soll": "Knapp an der Kante: rechts 37 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Siri_set1_excitement",
+   "titel": "Siri · set1 · excitement",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\excitement.png",
+   "soll": "Deutlich an der Kante: links 577 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Siri_set1_caring",
+   "titel": "Siri · set1 · caring",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\caring.png",
+   "soll": "Deutlich an der Kante: links 394 px, rechts 265 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Siri_set1_optimism-1",
+   "titel": "Siri · set1 · optimism-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\optimism-1.png",
+   "soll": "Deutlich an der Kante: links 321 px, rechts 358 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Siri_set1_love-2",
+   "titel": "Siri · set1 · love-2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\love-2.png",
+   "soll": "Deutlich an der Kante: links 322 px, rechts 109 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Siri_set1_disappointment",
+   "titel": "Siri · set1 · disappointment",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\disappointment.png",
+   "soll": "Deutlich an der Kante: rechts 158 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Siri_set1_joy-1",
+   "titel": "Siri · set1 · joy-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\joy-1.png",
+   "soll": "Deutlich an der Kante: links 140 px, rechts 118 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Siri_set1_annoyance-1",
+   "titel": "Siri · set1 · annoyance-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\annoyance-1.png",
+   "soll": "Deutlich an der Kante: rechts 125 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Siri_set1_excitement-1",
+   "titel": "Siri · set1 · excitement-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\excitement-1.png",
+   "soll": "Deutlich an der Kante: links 101 px, rechts 67 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Siri_set1_confusion-1",
+   "titel": "Siri · set1 · confusion-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\confusion-1.png",
+   "soll": "Knapp an der Kante: rechts 46 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Siri_set1_amusement-1",
+   "titel": "Siri · set1 · amusement-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\amusement-1.png",
+   "soll": "Knapp an der Kante: links 31 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Siri_set1_gratitude-1",
+   "titel": "Siri · set1 · gratitude-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Siri Lindvik\\gratitude-1.png",
+   "soll": "Knapp an der Kante: rechts 31 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Alva_set1_optimism-1",
+   "titel": "Alva · set1 · optimism-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\optimism-1.png",
+   "soll": "Deutlich an der Kante: links 340 px, rechts 301 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Alva_set1_caring",
+   "titel": "Alva · set1 · caring",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\caring.png",
+   "soll": "Deutlich an der Kante: links 327 px, rechts 306 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Alva_set1_disappointment",
+   "titel": "Alva · set1 · disappointment",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\disappointment.png",
+   "soll": "Deutlich an der Kante: links 295 px, rechts 64 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Alva_set1_confusion",
+   "titel": "Alva · set1 · confusion",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\confusion.png",
+   "soll": "Deutlich an der Kante: links 263 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Alva_set1_joy-2",
+   "titel": "Alva · set1 · joy-2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\joy-2.png",
+   "soll": "Deutlich an der Kante: links 223 px, rechts 46 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Alva_set1_excitement",
+   "titel": "Alva · set1 · excitement",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\excitement.png",
+   "soll": "Deutlich an der Kante: links 184 px, rechts 62 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Alva_set1_relief",
+   "titel": "Alva · set1 · relief",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\relief.png",
+   "soll": "Deutlich an der Kante: links 118 px, rechts 71 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Alva_set1_excitement-1",
+   "titel": "Alva · set1 · excitement-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\excitement-1.png",
+   "soll": "Deutlich an der Kante: rechts 106 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Alva_set1_relief-1",
+   "titel": "Alva · set1 · relief-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\relief-1.png",
+   "soll": "Deutlich an der Kante: rechts 104 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Alva_set1_nervousness",
+   "titel": "Alva · set1 · nervousness",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\nervousness.png",
+   "soll": "Knapp an der Kante: links 63 px, rechts 60 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Alva_set1_joy-1",
+   "titel": "Alva · set1 · joy-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\joy-1.png",
+   "soll": "Knapp an der Kante: links 59 px, rechts 42 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Alva_set1_disappointment-1",
+   "titel": "Alva · set1 · disappointment-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Alva Santoni\\disappointment-1.png",
+   "soll": "Knapp an der Kante: links 56 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set1_joy-2",
+   "titel": "Megan · set1 · joy-2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\joy-2.png",
+   "soll": "Deutlich an der Kante: rechts 665 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set1_optimism-1",
+   "titel": "Megan · set1 · optimism-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\optimism-1.png",
+   "soll": "Deutlich an der Kante: links 524 px, rechts 304 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set1_disappointment",
+   "titel": "Megan · set1 · disappointment",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\disappointment.png",
+   "soll": "Deutlich an der Kante: links 210 px, rechts 441 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set1_excitement-1",
+   "titel": "Megan · set1 · excitement-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\excitement-1.png",
+   "soll": "Deutlich an der Kante: links 367 px, rechts 346 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set1_relief",
+   "titel": "Megan · set1 · relief",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\relief.png",
+   "soll": "Deutlich an der Kante: links 300 px, rechts 85 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set1_amusement-2",
+   "titel": "Megan · set1 · amusement-2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\amusement-2.png",
+   "soll": "Deutlich an der Kante: rechts 260 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set1_joy-1",
+   "titel": "Megan · set1 · joy-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\joy-1.png",
+   "soll": "Deutlich an der Kante: links 206 px, rechts 238 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set1_admiration-1",
+   "titel": "Megan · set1 · admiration-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\admiration-1.png",
+   "soll": "Deutlich an der Kante: rechts 177 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set1_grief-1",
+   "titel": "Megan · set1 · grief-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\grief-1.png",
+   "soll": "Deutlich an der Kante: links 152 px, rechts 109 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set1_fear-1",
+   "titel": "Megan · set1 · fear-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\fear-1.png",
+   "soll": "Deutlich an der Kante: links 150 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set1_admiration-2",
+   "titel": "Megan · set1 · admiration-2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\admiration-2.png",
+   "soll": "Deutlich an der Kante: links 143 px, rechts 112 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set1_gratitude-1",
+   "titel": "Megan · set1 · gratitude-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\gratitude-1.png",
+   "soll": "Deutlich an der Kante: links 141 px, rechts 119 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set1_nervousness",
+   "titel": "Megan · set1 · nervousness",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\nervousness.png",
+   "soll": "Deutlich an der Kante: links 107 px, rechts 96 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set1_relief-1",
+   "titel": "Megan · set1 · relief-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\relief-1.png",
+   "soll": "Deutlich an der Kante: rechts 101 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set1_annoyance-1",
+   "titel": "Megan · set1 · annoyance-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\annoyance-1.png",
+   "soll": "Deutlich an der Kante: rechts 93 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set1_love-1",
+   "titel": "Megan · set1 · love-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\love-1.png",
+   "soll": "Deutlich an der Kante: rechts 89 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set1_love-2",
+   "titel": "Megan · set1 · love-2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\love-2.png",
+   "soll": "Knapp an der Kante: links 63 px, rechts 71 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set1_caring-1",
+   "titel": "Megan · set1 · caring-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\caring-1.png",
+   "soll": "Knapp an der Kante: links 65 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set1_remorse-1",
+   "titel": "Megan · set1 · remorse-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\remorse-1.png",
+   "soll": "Knapp an der Kante: links 43 px, rechts 44 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set1_disgust",
+   "titel": "Megan · set1 · disgust",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\disgust.png",
+   "soll": "Knapp an der Kante: links 30 px, rechts 30 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set1_sadness",
+   "titel": "Megan · set1 · sadness",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\sadness.png",
+   "soll": "Knapp an der Kante: rechts 25 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set2_optimism-1",
+   "titel": "Megan · set2 · optimism-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\set2\\optimism-1.png",
+   "soll": "Deutlich an der Kante: links 361 px, rechts 216 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set2_excitement-1",
+   "titel": "Megan · set2 · excitement-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\set2\\excitement-1.png",
+   "soll": "Deutlich an der Kante: rechts 281 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set2_disappointment",
+   "titel": "Megan · set2 · disappointment",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\set2\\disappointment.png",
+   "soll": "Deutlich an der Kante: rechts 216 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set2_joy-1",
+   "titel": "Megan · set2 · joy-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\set2\\joy-1.png",
+   "soll": "Deutlich an der Kante: rechts 158 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set2_grief-1",
+   "titel": "Megan · set2 · grief-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\set2\\grief-1.png",
+   "soll": "Deutlich an der Kante: links 84 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set2_disgust",
+   "titel": "Megan · set2 · disgust",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\set2\\disgust.png",
+   "soll": "Deutlich an der Kante: links 82 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set2_confusion",
+   "titel": "Megan · set2 · confusion",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\set2\\confusion.png",
+   "soll": "Knapp an der Kante: rechts 45 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set2_relief",
+   "titel": "Megan · set2 · relief",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\set2\\relief.png",
+   "soll": "Knapp an der Kante: links 35 px, rechts 38 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Megan_set2_annoyance-1",
+   "titel": "Megan · set2 · annoyance-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Megan McAllister\\set2\\annoyance-1.png",
+   "soll": "Knapp an der Kante: rechts 34 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Marit_set1_disappointment",
+   "titel": "Marit · set1 · disappointment",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Marit Holm\\disappointment.png",
+   "soll": "Deutlich an der Kante: rechts 482 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Marit_set1_relief-1",
+   "titel": "Marit · set1 · relief-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Marit Holm\\relief-1.png",
+   "soll": "Deutlich an der Kante: links 390 px, rechts 299 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Marit_set1_excitement-1",
+   "titel": "Marit · set1 · excitement-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Marit Holm\\excitement-1.png",
+   "soll": "Deutlich an der Kante: links 373 px, rechts 27 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Marit_set1_caring",
+   "titel": "Marit · set1 · caring",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Marit Holm\\caring.png",
+   "soll": "Deutlich an der Kante: links 73 px, rechts 199 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Marit_set1_surprise-1",
+   "titel": "Marit · set1 · surprise-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Marit Holm\\surprise-1.png",
+   "soll": "Deutlich an der Kante: rechts 154 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Marit_set1_grief-1",
+   "titel": "Marit · set1 · grief-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Marit Holm\\grief-1.png",
+   "soll": "Deutlich an der Kante: links 150 px, rechts 98 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Marit_set1_joy-1",
+   "titel": "Marit · set1 · joy-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Marit Holm\\joy-1.png",
+   "soll": "Deutlich an der Kante: links 120 px, rechts 97 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Marit_set1_annoyance-1",
+   "titel": "Marit · set1 · annoyance-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Marit Holm\\annoyance-1.png",
+   "soll": "Deutlich an der Kante: links 85 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Marit_set1_gratitude-1",
+   "titel": "Marit · set1 · gratitude-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Marit Holm\\gratitude-1.png",
+   "soll": "Knapp an der Kante: rechts 53 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Marit_set1_relief",
+   "titel": "Marit · set1 · relief",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Marit Holm\\relief.png",
+   "soll": "Knapp an der Kante: rechts 44 px. OK = lassen, Neu = neu rendern."
+  },
+  {
+   "id": "Lola_set1_optimism-1",
+   "titel": "Lola · set1 · optimism-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\optimism-1.png",
+   "soll": "Deutlich an der Kante: links 398 px, rechts 736 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_pride",
+   "titel": "Lola · set1 · pride",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\pride.png",
+   "soll": "Deutlich an der Kante: rechts 520 px, oben 175 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_excitement-1",
+   "titel": "Lola · set1 · excitement-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\excitement-1.png",
+   "soll": "Deutlich an der Kante: links 431 px, rechts 464 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_admiration-1",
+   "titel": "Lola · set1 · admiration-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\admiration-1.png",
+   "soll": "Deutlich an der Kante: rechts 458 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_approval",
+   "titel": "Lola · set1 · approval",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\approval.png",
+   "soll": "Deutlich an der Kante: rechts 422 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_caring",
+   "titel": "Lola · set1 · caring",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\caring.png",
+   "soll": "Deutlich an der Kante: links 369 px, rechts 418 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_joy-1",
+   "titel": "Lola · set1 · joy-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\joy-1.png",
+   "soll": "Deutlich an der Kante: links 218 px, rechts 376 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_pride-1",
+   "titel": "Lola · set1 · pride-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\pride-1.png",
+   "soll": "Deutlich an der Kante: rechts 355 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_disgust",
+   "titel": "Lola · set1 · disgust",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\disgust.png",
+   "soll": "Deutlich an der Kante: rechts 294 px, oben 185 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_surprise",
+   "titel": "Lola · set1 · surprise",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\surprise.png",
+   "soll": "Deutlich an der Kante: links 226 px, rechts 290 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_admiration",
+   "titel": "Lola · set1 · admiration",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\admiration.png",
+   "soll": "Deutlich an der Kante: rechts 271 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_anger",
+   "titel": "Lola · set1 · anger",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\anger.png",
+   "soll": "Deutlich an der Kante: links 106 px, rechts 254 px, oben 220 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_relief",
+   "titel": "Lola · set1 · relief",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\relief.png",
+   "soll": "Deutlich an der Kante: links 176 px, rechts 232 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_anger-1",
+   "titel": "Lola · set1 · anger-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\anger-1.png",
+   "soll": "Deutlich an der Kante: links 215 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_annoyance-1",
+   "titel": "Lola · set1 · annoyance-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\annoyance-1.png",
+   "soll": "Deutlich an der Kante: links 125 px, rechts 205 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_sadness-1",
+   "titel": "Lola · set1 · sadness-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\sadness-1.png",
+   "soll": "Deutlich an der Kante: oben 203 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_confusion-1",
+   "titel": "Lola · set1 · confusion-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\confusion-1.png",
+   "soll": "Deutlich an der Kante: links 141 px, rechts 191 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_disgust-1",
+   "titel": "Lola · set1 · disgust-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\disgust-1.png",
+   "soll": "Deutlich an der Kante: rechts 183 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_optimism",
+   "titel": "Lola · set1 · optimism",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\optimism.png",
+   "soll": "Deutlich an der Kante: rechts 183 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_relief-1",
+   "titel": "Lola · set1 · relief-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\relief-1.png",
+   "soll": "Deutlich an der Kante: links 161 px, rechts 122 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_disappointment",
+   "titel": "Lola · set1 · disappointment",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\disappointment.png",
+   "soll": "Deutlich an der Kante: links 70 px, rechts 127 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_realization",
+   "titel": "Lola · set1 · realization",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\realization.png",
+   "soll": "Deutlich an der Kante: rechts 120 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_admiration-2",
+   "titel": "Lola · set1 · admiration-2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\admiration-2.png",
+   "soll": "Deutlich an der Kante: rechts 106 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_grief-1",
+   "titel": "Lola · set1 · grief-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\grief-1.png",
+   "soll": "Deutlich an der Kante: links 105 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_realization-1",
+   "titel": "Lola · set1 · realization-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\realization-1.png",
+   "soll": "Deutlich an der Kante: rechts 93 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_caring-1",
+   "titel": "Lola · set1 · caring-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\caring-1.png",
+   "soll": "Deutlich an der Kante: rechts 88 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_curiosity",
+   "titel": "Lola · set1 · curiosity",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\curiosity.png",
+   "soll": "Knapp an der Kante: rechts 63 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_gratitude-1",
+   "titel": "Lola · set1 · gratitude-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\gratitude-1.png",
+   "soll": "Knapp an der Kante: rechts 52 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_surprise-1",
+   "titel": "Lola · set1 · surprise-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\surprise-1.png",
+   "soll": "Knapp an der Kante: rechts 40 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_amusement-1",
+   "titel": "Lola · set1 · amusement-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\amusement-1.png",
+   "soll": "Knapp an der Kante: links 37 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lola_set1_remorse",
+   "titel": "Lola · set1 · remorse",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lola Brennan\\remorse.png",
+   "soll": "Knapp an der Kante: rechts 31 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lea_set1_caring",
+   "titel": "Lea · set1 · caring",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lea Moore\\caring.png",
+   "soll": "Deutlich an der Kante: links 244 px, rechts 251 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lea_set1_disappointment",
+   "titel": "Lea · set1 · disappointment",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lea Moore\\disappointment.png",
+   "soll": "Deutlich an der Kante: links 145 px, rechts 251 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lea_set1_relief-1",
+   "titel": "Lea · set1 · relief-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lea Moore\\relief-1.png",
+   "soll": "Deutlich an der Kante: links 199 px, rechts 169 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lea_set1_optimism-1",
+   "titel": "Lea · set1 · optimism-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lea Moore\\optimism-1.png",
+   "soll": "Deutlich an der Kante: links 129 px, rechts 137 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lea_set1_annoyance-1",
+   "titel": "Lea · set1 · annoyance-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lea Moore\\annoyance-1.png",
+   "soll": "Deutlich an der Kante: rechts 80 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lea_set1_joy-1",
+   "titel": "Lea · set1 · joy-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lea Moore\\joy-1.png",
+   "soll": "Knapp an der Kante: links 70 px, rechts 47 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lea_set1_amusement-1",
+   "titel": "Lea · set1 · amusement-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lea Moore\\amusement-1.png",
+   "soll": "Knapp an der Kante: links 50 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Lea_set1_relief",
+   "titel": "Lea · set1 · relief",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Lea Moore\\relief.png",
+   "soll": "Knapp an der Kante: rechts 33 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Jana_set1_caring",
+   "titel": "Jana · set1 · caring",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Jana Maihoff\\caring.png",
+   "soll": "Deutlich an der Kante: links 407 px, rechts 436 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Jana_set1_grief-1",
+   "titel": "Jana · set1 · grief-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Jana Maihoff\\grief-1.png",
+   "soll": "Deutlich an der Kante: rechts 435 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Jana_set1_disappointment",
+   "titel": "Jana · set1 · disappointment",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Jana Maihoff\\disappointment.png",
+   "soll": "Deutlich an der Kante: links 55 px, rechts 392 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Jana_set1_relief-1",
+   "titel": "Jana · set1 · relief-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Jana Maihoff\\relief-1.png",
+   "soll": "Deutlich an der Kante: links 312 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Jana_set1_optimism-1",
+   "titel": "Jana · set1 · optimism-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Jana Maihoff\\optimism-1.png",
+   "soll": "Deutlich an der Kante: links 303 px, rechts 96 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Jana_set1_confusion",
+   "titel": "Jana · set1 · confusion",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Jana Maihoff\\confusion.png",
+   "soll": "Deutlich an der Kante: links 224 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Jana_set1_anger",
+   "titel": "Jana · set1 · anger",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Jana Maihoff\\anger.png",
+   "soll": "Deutlich an der Kante: links 194 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Jana_set1_realization",
+   "titel": "Jana · set1 · realization",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Jana Maihoff\\realization.png",
+   "soll": "Deutlich an der Kante: rechts 184 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Jana_set1_annoyance-1",
+   "titel": "Jana · set1 · annoyance-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Jana Maihoff\\annoyance-1.png",
+   "soll": "Deutlich an der Kante: links 80 px, rechts 175 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Jana_set1_love-1",
+   "titel": "Jana · set1 · love-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Jana Maihoff\\love-1.png",
+   "soll": "Deutlich an der Kante: rechts 139 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Jana_set1_joy-1",
+   "titel": "Jana · set1 · joy-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Jana Maihoff\\joy-1.png",
+   "soll": "Deutlich an der Kante: links 130 px, rechts 99 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Jana_set1_confusion-1",
+   "titel": "Jana · set1 · confusion-1",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Jana Maihoff\\confusion-1.png",
+   "soll": "Deutlich an der Kante: links 61 px, rechts 105 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Jana_set1_excitement",
+   "titel": "Jana · set1 · excitement",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Jana Maihoff\\excitement.png",
+   "soll": "Deutlich an der Kante: links 70 px, rechts 98 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Jana_set1_joy-2",
+   "titel": "Jana · set1 · joy-2",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Jana Maihoff\\joy-2.png",
+   "soll": "Knapp an der Kante: rechts 47 px. Nur ansehen, hier rendere ich nichts neu."
+  },
+  {
+   "id": "Jana_set1_disgust",
+   "titel": "Jana · set1 · disgust",
+   "bild": "X:\\AI\\SillyTavern3\\SillyTavern-Launcher\\SillyTavern\\data\\default-user\\characters\\Jana Maihoff\\disgust.png",
+   "soll": "Knapp an der Kante: links 39 px. Nur ansehen, hier rendere ich nichts neu."
+  }
+ ]
+}

@@ -1,0 +1,210 @@
+{
+ "gesten": {
+  "kompliment": {
+   "ok": "A sincere, specific compliment showed her that you really see her.",
+   "nein": "A compliment works best when it is about something real and specific."
+  },
+  "fragen": {
+   "ok": "She opened up a little, because you really listened.",
+   "nein": "Asking something real shows interest. It lands best when she feels like talking."
+  },
+  "necken": {
+   "ok": "She enjoyed the game, and the mood got lighter.",
+   "nein": "Teasing needs a light mood. It lands best when she is relaxed with you."
+  },
+  "troesten": {
+   "ok": "You noticed how she felt, and that helped her.",
+   "nein": "Comfort helps most when something really weighs on her."
+  },
+  "entschuldigen": {
+   "ok": "Your honest apology cleared the air between you.",
+   "nein": "An apology means most when there is something to put right."
+  },
+  "geheimnis": {
+   "ok": "You shared something real, and that brought you closer.",
+   "nein": "A secret is a big step. It lands more easily once she knows you better."
+  },
+  "hand": {
+   "ok": "She let you take her hand, and the moment felt closer.",
+   "nein": "Taking her hand is a small step. It needs a quiet, private moment."
+  },
+  "umarmen": {
+   "ok": "The hug comforted her, and she felt safe with you.",
+   "nein": "A hug is close but warm. It suits moments when she needs support."
+  },
+  "haar": {
+   "ok": "It was a small touch, but the moment felt closer.",
+   "nein": "This is a very personal touch. It lands better once there is some spark."
+  },
+  "kuessen": {
+   "ok": "The kiss changed things, and you both share that moment now.",
+   "nein": "A kiss is a big step. It lands better when the mood is already close."
+  },
+  "massage": {
+   "ok": "She relaxed under your hands and felt closer to you.",
+   "nein": "A massage asks for trust. It suits moments when she is tired and at ease."
+  },
+  "einladen": {
+   "ok": "She said yes, so you have a date with her.",
+   "nein": "An invitation is a clear question. It lands better once she enjoys your company."
+  },
+  "gestehen": {
+   "ok": "You told her how you feel, and now she knows.",
+   "nein": "Saying how you feel is a big step. It needs trust and the right moment."
+  },
+  "eifersucht": {
+   "ok": "You asked her straight out, and that cleared something up between you.",
+   "nein": "This is a hard subject. It works best when she trusts you to listen."
+  },
+  "versprechen": {
+   "ok": "She believes your promise, so now you have to keep it.",
+   "nein": "A serious promise means most once she believes you will keep it."
+  },
+  "ausziehen": {
+   "ok": "She welcomed it, and you are both ready to go further.",
+   "nein": "This asks for a lot of closeness. It lands more easily once she trusts you more."
+  },
+  "vorspiel": {
+   "ok": "She enjoyed your touch, and she wants you close.",
+   "nein": "Slow touch needs a relaxed mood. It lands better when she feels at ease."
+  },
+  "schlafen": {
+   "ok": "You ended up together, and that moment stays with you both.",
+   "nein": "This is the biggest step of all. It needs trust, desire and the right moment."
+  }
+ },
+ "wiederholt": "Doing this twice in one talk has no effect. Try something else.",
+ "werte": {
+  "vertrauen": {
+   "plus": "She trusts you a little more after this talk.",
+   "minus": "She trusts you less now. An honest talk or an apology can repair that.",
+   "gleich": "Her trust stayed the same this time. Listening and being honest help most.",
+   "deckel": "Talking alone won't build more trust here. A shared moment with her will."
+  },
+  "begehren": {
+   "plus": "She is a little more drawn to you now.",
+   "minus": "Some of the spark has gone. A light joke or small gesture can help.",
+   "gleich": "The spark stayed the same this time. Playful words and closeness help most.",
+   "deckel": "Talking alone won't raise the spark here. A shared moment with her will."
+  }
+ },
+ "figuren": {
+  "rosi": {
+   "liebling": {
+    "zeit": "She likes having you around, and a shared job makes that easy to accept.",
+    "necken": "She likes someone who can give it back, so the rivalry means something.",
+    "entschuldigen": "She likes an honest apology: no excuses, no show, only the plain truth."
+   },
+   "chip": {
+    "vertrauen": "When you're honest, she stops joking for a moment and gives a real answer.",
+    "begehren": "When you flirt, she plays along and turns it into a contest.",
+    "beide": "A warm joke lets her stay close without admitting anything."
+   }
+  },
+  "chiara": {
+   "chip": {
+    "vertrauen": "When you're honest, she gets quieter and answers you before the next joke.",
+    "begehren": "When you flirt, she pushes back harder and stays a little closer.",
+    "beide": "A warm joke keeps up with her, and she enjoys being matched."
+   },
+   "liebling": {
+    "kompliment": "She spends all day rating others, so a sincere compliment really reaches her.",
+    "fragen": "Nobody asks her what she wants, so a real question means a lot.",
+    "versprechen": "A promise matters to her, because she knows what a broken one costs."
+   }
+  },
+  "lola": {
+   "chip": {
+    "vertrauen": "When you're honest, she laughs, loses her sentence, then asks if you mean it.",
+    "begehren": "When you flirt, she enjoys it out loud and gives it straight back.",
+    "beide": "A warm joke makes her laugh, and then she stays and talks."
+   },
+   "liebling": {
+    "kompliment": "She wants to believe it when you praise her, so make it honest.",
+    "geheimnis": "She is the boat's gossip, so being given a real secret means a lot.",
+    "zeit": "She likes company, and she wants to know you'll stay in the room."
+   }
+  },
+  "sophia": {
+   "chip": {
+    "vertrauen": "When you're honest, she looks for what you want, then her sentences get plain.",
+    "begehren": "When you flirt, she slows down and waits to see who speaks first.",
+    "beide": "A dry joke makes her smile, and she plays along a little longer."
+   },
+   "liebling": {
+    "necken": "She spends her days being charming, so being teased back is a real pleasure.",
+    "geheimnis": "She knows everyone's secrets, but people rarely offer her one freely.",
+    "einladen": "She arranges evenings for everyone else, and nobody arranges one for her."
+   }
+  },
+  "lea": {
+   "chip": {
+    "vertrauen": "When you're straight with her, she goes quiet and checks if you mean it.",
+    "begehren": "When you flirt, her facts get worse, and she knows exactly what she's doing.",
+    "beide": "A gentle joke lets her laugh without feeling laughed at."
+   },
+   "liebling": {
+    "zeit": "She wants to be taken seriously, and giving her your time proves it.",
+    "hand": "A small, plain gesture suits her, and she takes it as an answer.",
+    "umarmen": "She goes quiet in a hug, and that is rare for her."
+   }
+  },
+  "siri": {
+   "chip": {
+    "vertrauen": "When you're honest, she laughs first, then slows down and really answers.",
+    "begehren": "When you flirt, she gets shy, and if she's with someone, she says so.",
+    "beide": "A soft joke lets her laugh at herself without feeling alone."
+   },
+   "liebling": {
+    "fragen": "People look at her all day, but few ask her anything real.",
+    "troesten": "She laughs first, and kindness reaches her a moment later.",
+    "haar": "She only knows how she looks, so a gentle touch feels new."
+   }
+  },
+  "alva": {
+   "chip": {
+    "vertrauen": "When you're honest, she stops, says less, and sometimes forgets to name a price.",
+    "begehren": "When you flirt, she enjoys it and makes you work for the next step.",
+    "beide": "A dry joke makes her smile, and she gives the talk back to you."
+   },
+   "liebling": {
+    "fragen": "People tell her everything, but hardly anyone asks about her.",
+    "zeit": "She gives her time to everyone, so time just for her stands out.",
+    "kompliment": "She hears a lot of them, so she notices when one is honest."
+   }
+  },
+  "bibi": {
+   "chip": {
+    "vertrauen": "When you're honest, she stops talking for a moment, then answers you properly.",
+    "begehren": "When you flirt, she gets faster and louder, and checks what you really want.",
+    "beide": "A quick joke keeps up with her, and she laughs in the good way."
+   },
+   "liebling": {
+    "fragen": "She answers every question about the animals, and rarely gets one about herself.",
+    "zeit": "She watches what people do, so showing up counts for more than words.",
+    "necken": "She is loud and a bit rough herself, and she enjoys a quick answer."
+   }
+  },
+  "jana": {
+   "chip": {
+    "vertrauen": "When you're honest, she asks if you mean it, then gives one short, real answer.",
+    "begehren": "When you joke with her, she goes red and then, quietly, jokes back.",
+    "beide": "A kind joke lets her say sorry less and laugh a bit more."
+   }
+  },
+  "megan": {
+   "chip": {
+    "vertrauen": "When you're honest, the villain stops for one sentence, then she covers it dryly.",
+    "begehren": "When you flirt, she enjoys it from far above and gives you nothing free.",
+    "beide": "A dry joke makes her wait for your next one."
+   }
+  },
+  "sirene": {
+   "chip": {
+    "vertrauen": "When you're honest, she tells you not to be kind, and then it reaches her.",
+    "begehren": "When you flirt, she answers in old words and asks before she does anything.",
+    "beide": "A light joke makes her laugh, and she stays a little longer."
+   }
+  }
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "id": "bilder_kloster",
+ "titel": "Kloster-Figuren · Akt 1",
+ "hinweis": "Laetitia: Tag-Fassung gegen das bisherige Bild. Isabelle und Frederico: je eine Variante mit OK. Trypophobie-Vorprüfung: keine Lochmuster. Isabelle Runde 1 wirkte kindlich und wurde schon verworfen.",
+ "items": [
+  {
+   "id": "Laetitia_tags",
+   "titel": "Laetitia · neu mit Tags",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_akt1\\Yacht_Laetitia_tags\\neutral.png",
+   "soll": "Tags: Athletic, Chestnut, Side Braid, Freckles, Olive Tan",
+   "vergleich": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_akt1\\Yacht_Laetitia_B\\neutral-1.png",
+   "vergleich_titel": "bisher (fester Subject-Prompt)"
+  },
+  {
+   "id": "Yacht_Isabelle_A_1",
+   "titel": "Isabelle (Novizin) · Fassung A (rundes Gesicht, grüne Augen) · Seed 1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_akt1\\Yacht_Isabelle_A\\neutral.png",
+   "soll": "Casting"
+  },
+  {
+   "id": "Yacht_Isabelle_A_2",
+   "titel": "Isabelle (Novizin) · Fassung A (rundes Gesicht, grüne Augen) · Seed 2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_akt1\\Yacht_Isabelle_A\\neutral-1.png",
+   "soll": "Casting"
+  },
+  {
+   "id": "Yacht_Isabelle_B_1",
+   "titel": "Isabelle (Novizin) · Fassung B (Herzgesicht, Grübchen) · Seed 1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_akt1\\Yacht_Isabelle_B\\neutral.png",
+   "soll": "Casting"
+  },
+  {
+   "id": "Yacht_Isabelle_B_2",
+   "titel": "Isabelle (Novizin) · Fassung B (Herzgesicht, Grübchen) · Seed 2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_akt1\\Yacht_Isabelle_B\\neutral-1.png",
+   "soll": "Casting"
+  },
+  {
+   "id": "Yacht_Frederico_A_1",
+   "titel": "Frederico · Fassung A (Locken, Zahnlücke) · Seed 1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_akt1\\Yacht_Frederico_A\\neutral.png",
+   "soll": "Casting"
+  },
+  {
+   "id": "Yacht_Frederico_A_2",
+   "titel": "Frederico · Fassung A (Locken, Zahnlücke) · Seed 2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_akt1\\Yacht_Frederico_A\\neutral-1.png",
+   "soll": "Casting"
+  },
+  {
+   "id": "Yacht_Frederico_B_1",
+   "titel": "Frederico · Fassung B (große Ohren, schüchtern) · Seed 1",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_akt1\\Yacht_Frederico_B\\neutral.png",
+   "soll": "Casting"
+  },
+  {
+   "id": "Yacht_Frederico_B_2",
+   "titel": "Frederico · Fassung B (große Ohren, schüchtern) · Seed 2",
+   "bild": "X:\\AI\\ComfyUI_krea2\\ComfyUI\\output\\expressions\\_casting_akt1\\Yacht_Frederico_B\\neutral-1.png",
+   "soll": "Casting"
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+/* Eden Dice 1.0 — inherits Deck Glass Noir tokens; no external dependencies. */
+.eden-dice-card,.eden-dice-layer{--ed-ink:var(--ink,var(--ink));--ed-paper:var(--perle,var(--perle));--ed-muted:var(--perle-leise,rgba(243,238,228,.7));--ed-accent:var(--akz,var(--akz));--ed-line:var(--linie,rgba(216,189,134,.26));--ed-good:var(--gut,var(--gut));--ed-bad:var(--schlecht,var(--schlecht));font-family:var(--f-ui,"Segoe UI",sans-serif);color:var(--ed-paper);box-sizing:border-box}
+.eden-dice-card *,.eden-dice-layer *{box-sizing:border-box}
+.eden-dice-card{position:relative;display:flex;align-items:center;gap:var(--a3);padding:var(--a2) var(--a35) var(--a2) var(--a2);border:1px solid var(--ed-line);border-radius:var(--r-mittel);background:rgba(7,8,11,.45);max-width:100%;margin:var(--a25) 0;isolation:isolate}
+.eden-dice-card .ed-dice{display:flex;gap:var(--a1);flex-shrink:0}
+.eden-dice-card .ed-die{width:72px;height:72px;display:block;filter:drop-shadow(0 3px 6px rgba(0,0,0,.4))}
+.eden-dice-card .ed-values{display:grid;gap:3px;min-width:0}
+.ed-label{color:var(--ed-muted);font-size:var(--t-mini);letter-spacing:.06em;text-transform:uppercase;overflow-wrap:anywhere}
+.ed-equation{font:500 var(--t-klein)/1.5 var(--f-zahl,ui-monospace,monospace);overflow-wrap:anywhere}
+.ed-outcome{font-size:var(--t-klein);font-weight:600;color:var(--ed-good)}
+.ed-failure .ed-outcome{color:var(--ed-bad)}
+.ed-skip{border:1px solid var(--ed-line);border-radius:var(--r-rund);color:var(--ed-muted);background:rgba(243,238,228,.06);font:inherit;font-size:var(--t-mini);padding:var(--pille-gross);margin-left:auto;flex-shrink:0;cursor:pointer}
+.ed-skip:focus-visible{outline:2px solid var(--ed-accent);outline-offset:3px}
+.eden-dice-layer{position:fixed;inset:0;z-index:200;display:grid;place-items:center;padding:var(--a45);background:rgba(7,8,11,.55)}
+.eden-dice-layer.ed-floating{pointer-events:none;place-items:end center;background:transparent;padding-bottom:var(--a5)}
+.ed-floating .eden-dice-card{pointer-events:auto;box-shadow:0 16px 45px rgba(0,0,0,.5);background:rgba(9,11,15,.94);max-width:620px}
+.ed-sheet{width:min(660px,100%);padding:var(--karte-pad-gross);border-radius:var(--r-panel);border:1px solid var(--ed-line);background:rgba(9,11,15,.86);backdrop-filter:blur(20px) saturate(1.15);-webkit-backdrop-filter:blur(20px) saturate(1.15);box-shadow:0 18px 50px rgba(0,0,0,.35);overflow:hidden}
+.ed-sheet header{display:flex;justify-content:space-between;align-items:center;gap:var(--a3)}
+.ed-sheet h2{font:750 var(--t-titel)/1.15 var(--f-name,"Segoe UI",sans-serif);letter-spacing:-.02em;margin:0;overflow-wrap:anywhere}
+.ed-stage{position:relative;isolation:isolate;text-align:center;min-height:350px;padding:var(--a35) 0 var(--a2)}
+.ed-stage .ed-fx{position:absolute;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none}
+.ed-stage .ed-dice{height:268px;display:flex;align-items:center;justify-content:center;gap:var(--a3);position:relative;margin:auto;max-width:100%}
+.ed-stage .ed-die{width:250px;height:250px;max-width:100%;display:block;filter:drop-shadow(0 10px 15px rgba(0,0,0,.5))}
+.ed-stage.ed-advantage .ed-die{width:min(40vw,210px);height:min(40vw,210px)}
+.ed-stage .ed-equation{display:block;margin-top:var(--a15);font-size:var(--t-text)}
+.ed-stage .ed-outcome{display:block;margin-top:var(--a15);font:750 var(--t-titel)/1.2 var(--f-name,"Segoe UI",sans-serif)}
+.ed-stage .ed-label{display:block}
+.ed-die.ed-discarded{opacity:.35}
+.ed-die.ed-chosen{filter:drop-shadow(0 0 12px rgba(216,189,134,.35))}
+.eden-dice-static{width:64px;height:64px;flex:none;display:block;filter:drop-shadow(0 3px 6px rgba(0,0,0,.35))}
+.wurf.ed-enhanced{padding-left:var(--a2)}
+@media(max-width:480px){.eden-dice-layer{padding:var(--a25)}.ed-sheet{padding:var(--a4) var(--a35);border-radius:var(--r-karte)}.ed-sheet h2{font-size:var(--t-unter)}.eden-dice-card{gap:var(--a2);flex-wrap:wrap}.eden-dice-card .ed-die{width:60px;height:60px}.eden-dice-card.ed-advantage .ed-die{width:45px;height:45px}.ed-skip{font-size:var(--t-mini);padding:var(--a1) var(--a2)}.eden-dice-card .ed-skip{position:absolute;right:8px;top:-12px;background:rgba(9,11,15,.96)}.ed-stage .ed-outcome{font-size:var(--t-titel)}.ed-stage .ed-dice{height:245px}.ed-stage .ed-die{width:230px;height:230px}.ed-equation{font-size:var(--t-klein)}.eden-dice-static{width:56px;height:56px}}
+@media(prefers-reduced-motion:reduce){.eden-dice-card *,.eden-dice-layer *{animation:none!important;transition:none!important}}

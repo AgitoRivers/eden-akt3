@@ -1,0 +1,151 @@
+{
+ "id": "charms",
+ "titel": "Jacken-Charms – Abnahme",
+ "hinweis": "Ein Charm je Figur, ein Platz an der Jacke. NEU = heute gerendert, BESTAND = gab es schon. Bitte Bild UND Wirkung prüfen (OK / Neu + Notiz).",
+ "items": [
+  {
+   "id": "chiara",
+   "titel": "NEU Chiara – Charisma +1 (wie bisher das Seepferdchen)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charms\\chiara.png",
+   "soll": "Anhänger: dolphin in soft grey-blue, a tiny navy ribbon around its neck. Wirkung an der Jacke: Charisma +1 (wie bisher das Seepferdchen). Bekommt man: Vertrauen im Plus.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\anhaenger_seepferdchen.png",
+   "vergleich_titel": "bisher: Seepferdchen"
+  },
+  {
+   "id": "lola",
+   "titel": "NEU Lola – Strength +1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charms\\lola.png",
+   "soll": "Anhänger: kangaroo in warm sandy brown with a tiny joey peeking out of its pouch and a small shell on a string around its neck. Wirkung an der Jacke: Strength +1. Bekommt man: Vertrauen im Plus."
+  },
+  {
+   "id": "megan",
+   "titel": "NEU Megan – Cunning +1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charms\\megan.png",
+   "soll": "Anhänger: black puma, sleek jet black plush like a panther, calm green eyes and a tiny gold anchor pin on its chest. Wirkung an der Jacke: Cunning +1. Bekommt man: Vertrauen im Plus, kommt mit dem Versorgungsboot."
+  },
+  {
+   "id": "lea",
+   "titel": "NEU Lea – Empathy +1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charms\\lea.png",
+   "soll": "Anhänger: clownfish with soft orange and white stripes and a big friendly smile. Wirkung an der Jacke: Empathy +1. Bekommt man: Vertrauen im Plus."
+  },
+  {
+   "id": "rosi",
+   "titel": "NEU Rosi – Courage +1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charms\\rosi.png",
+   "soll": "Anhänger: super cute little round robot in soft white plush, a chubby rounded box body like a tiny generator, one big round glowing amber eye with a happy curve below it, rosy cheeks, short stubby legs, a tiny white exhaust pipe on top puffing a small soft heart-shaped cloud. Wirkung an der Jacke: Courage +1. Bekommt man: Vertrauen im Plus."
+  },
+  {
+   "id": "toto",
+   "titel": "NEU Totò – Cunning +1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charms\\toto.png",
+   "soll": "Anhänger: very chubby round raccoon with a big soft belly, the classic dark eye mask, a tiny gold chain around its neck and tiny flip-flops on its feet. Wirkung an der Jacke: Cunning +1. Bekommt man: Vertrauen im Plus."
+  },
+  {
+   "id": "holm",
+   "titel": "NEU Holm – Schutz +1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charms\\holm.png",
+   "soll": "Anhänger: polar bear, the whole bear standing on all four paws and facing the viewer straight from the front, wearing a tiny white captain's cap with a black peak. Wirkung an der Jacke: Schutz +1. Bekommt man: Vertrauen im Plus."
+  },
+  {
+   "id": "yamamoto",
+   "titel": "NEU Yamamoto – Perception +1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charms\\yamamoto.png",
+   "soll": "Anhänger: sea turtle with a smooth green shell and tiny round black sunglasses. Wirkung an der Jacke: Perception +1. Bekommt man: Vertrauen im Plus."
+  },
+  {
+   "id": "petru",
+   "titel": "NEU Petru – Parade-Fenster +10 %",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charms\\petru.png",
+   "soll": "Anhänger: octopus in soft coral red with smooth plain tentacles curled up underneath and a tiny knitted fisherman's cap. Wirkung an der Jacke: Parade-Fenster +10 %. Bekommt man: Vertrauen im Plus."
+  },
+  {
+   "id": "nonna",
+   "titel": "NEU Nonna – Empathy +1",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charms\\nonna.png",
+   "soll": "Anhänger: plump brown hen wearing a tiny checked kitchen apron. Wirkung an der Jacke: Empathy +1. Bekommt man: Vertrauen im Plus."
+  },
+  {
+   "id": "isabelle",
+   "titel": "NEU Isabelle – Heilung nach dem Kampf +3",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charms\\isabelle.png",
+   "soll": "Anhänger: super cute happy fluffy white sheep facing the viewer straight from the front, a big happy smile with closed smiling eyes, rosy cheeks, round chubby body, a small sprig of purple lavender embroidered in thread on its chest. Wirkung an der Jacke: Heilung nach dem Kampf +3. Bekommt man: Vertrauen im Plus."
+  },
+  {
+   "id": "alva",
+   "titel": "NEU Alva – Snacks heilen +2 (wie bisher der Koala)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charms\\alva.png",
+   "soll": "Anhänger: small black bull calf with short soft horns and a red carnation tucked behind one horn. Wirkung an der Jacke: Snacks heilen +2 (wie bisher der Koala). Bekommt man: Vertrauen im Plus.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\anhaenger_koala.png",
+   "vergleich_titel": "bisher: Koala"
+  },
+  {
+   "id": "yasin",
+   "titel": "NEU Yasin – Krit +5 % (wie bisher)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charms\\yasin.png",
+   "soll": "Anhänger: very round and fluffy peregrine falcon chick, soft and squishy like a pillow, big dark eyes, a tiny gold chain. Wirkung an der Jacke: Krit +5 % (wie bisher). Bekommt man: Vertrauen im Plus.",
+   "vergleich": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\anhaenger_falke.png",
+   "vergleich_titel": "bisher: Falke"
+  },
+  {
+   "id": "mazzera",
+   "titel": "NEU A Mazzera's Hunting Charm – Ausdauer +1 (Leiste 8 → 9)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charms\\mazzera.png",
+   "soll": "Anhänger: a striking dark hunter's talisman: two curved wild boar tusks joined tip to tip into a crescent moon, the ivory etched with fine black spiral engravings, bound at the joints with bright blood-red thread, a single smooth milky moonstone set in the middle, three glossy black raven feathers with a blue-violet sheen fanning out below, hanging from a braided red cord with an old blackened silver ring. Wirkung an der Jacke: Ausdauer +1 (Leiste 8 → 9). Bekommt man: Unikat der Berge, nicht verschenkbar."
+  },
+  {
+   "id": "mazzera_hell",
+   "titel": "NEU A Mazzera's Hunting Charm (helle Seide) – Ausdauer +1 (Leiste 8 → 9)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charms\\mazzera_hell.png",
+   "soll": "Anhänger: a striking dark hunter's talisman shaped like an open crescent moon, the opening pointing upwards like a smile: two curved pale ivory wild boar tusks joined tip to tip into a crescent moon, the ivory etched with fine black spiral engravings, bound at the joints with bright blood-red thread, a single smooth milky moonstone set in the middle, three glossy black raven feathers with a blue-violet sheen fanning out below, hanging from a braided red cord with an old blackened silver ring. Wirkung an der Jacke: Ausdauer +1 (Leiste 8 → 9). Bekommt man: Unikat der Berge, nicht verschenkbar."
+  },
+  {
+   "id": "mazzera_hell2",
+   "titel": "NEU A Mazzera's Hunting Charm (helle Seide, Variante 2) – Ausdauer +1 (Leiste 8 → 9)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charms\\mazzera_hell2.png",
+   "soll": "Anhänger: a striking dark hunter's talisman shaped like an open crescent moon, the opening pointing upwards like a smile: two curved pale ivory wild boar tusks joined tip to tip into a crescent moon, the ivory etched with fine black spiral engravings, bound at the joints with bright blood-red thread, a single smooth milky moonstone set in the middle, three glossy black raven feathers with a blue-violet sheen fanning out below, hanging from a braided red cord with an old blackened silver ring. Wirkung an der Jacke: Ausdauer +1 (Leiste 8 → 9). Bekommt man: Unikat der Berge, nicht verschenkbar."
+  },
+  {
+   "id": "frederico",
+   "titel": "NEU Frederico – Strength +1 und Courage +1 (Gold)",
+   "bild": "X:\\AI\\Eden\\docs\\abnahme\\charms\\frederico.png",
+   "soll": "Anhänger: black lion cub with a soft fluffy dark mane and warm golden eyes. Wirkung an der Jacke: Strength +1 und Courage +1 (Gold). Bekommt man: alle Ställe auf Nonnas Farm ausgebaut."
+  },
+  {
+   "id": "anhaenger_strudel",
+   "titel": "BESTAND Jana – Mut +1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\anhaenger_strudel.png",
+   "soll": "Plüsch-Kater „Strudel“ (schon vorhanden). Wirkung: Mut +1. Nur prüfen, ob es so bleibt."
+  },
+  {
+   "id": "anhaenger_robbe",
+   "titel": "BESTAND Siri – Empathie +1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\anhaenger_robbe.png",
+   "soll": "Plüsch-Robbe (schon vorhanden). Wirkung: Empathie +1. Nur prüfen, ob es so bleibt."
+  },
+  {
+   "id": "anhaenger_eule",
+   "titel": "BESTAND Sophia – Wahrnehmung +1",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\anhaenger_eule.png",
+   "soll": "Plüsch-Eule (schon vorhanden). Wirkung: Wahrnehmung +1. Nur prüfen, ob es so bleibt."
+  },
+  {
+   "id": "anhaenger_schaeferhund",
+   "titel": "BESTAND Elsa – Einschüchtern mit Vorteil",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\anhaenger_schaeferhund.png",
+   "soll": "Plüsch-Schäferhund (schon vorhanden). Wirkung: Einschüchtern mit Vorteil. Nur prüfen, ob es so bleibt."
+  },
+  {
+   "id": "anhaenger_gorilla",
+   "titel": "BESTAND Maxwell – Spezialangriffe +20 % Schaden",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\anhaenger_gorilla.png",
+   "soll": "Plüsch-Gorilla (schon vorhanden). Wirkung: Spezialangriffe +20 % Schaden. Nur prüfen, ob es so bleibt."
+  },
+  {
+   "id": "anhaenger_flamingo",
+   "titel": "BESTAND Madame Casanova – Fassung −4 schon nach 2 perfekten Paraden",
+   "bild": "X:\\AI\\Eden\\module\\eden_rise\\items\\_gross\\anhaenger_flamingo.png",
+   "soll": "Plüsch-Flamingo (schon vorhanden). Wirkung: Fassung −4 schon nach 2 perfekten Paraden. Nur prüfen, ob es so bleibt."
+  }
+ ]
+}

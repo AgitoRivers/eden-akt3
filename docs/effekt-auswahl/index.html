@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Eden Rise · Effektauswahl</title>
+  <link rel="stylesheet" href="auswahl.css">
+  <script src="katalog.js" defer></script>
+  <script src="effekte.js" defer></script>
+  <script src="auswahl.js" defer></script>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="index.html" aria-label="Eden Rise Effektauswahl Start"><span class="brand-mark">E</span><span>EDEN RISE<small>Das Effektatelier</small></span></a>
+  <div class="progress-area"><span id="progressText">0 von 81 gewählt</span><progress id="progress" max="81" value="0" aria-label="Auswahlfortschritt"></progress></div>
+  <button class="button quiet catalog-toggle" id="toggleCatalog" aria-expanded="false" aria-controls="effectList">Katalog</button>
+  <button class="button primary" id="export">Auswahl herunterladen <span aria-hidden="true">↗</span></button>
+  <button class="button quiet" id="import">Importieren</button>
+  <input id="importFile" type="file" accept="application/json,.json" hidden>
+</header>
+<div class="shell">
+  <aside class="sidebar" aria-label="Effektkatalog">
+    <div class="sidebar-head"><p class="eyebrow">DEINE AUSWAHL</p><h1>81 Effekte.<br>Drei Richtungen.</h1><p class="dim">Vergleiche die Bewegung.<br>Wähle, was zu Eden passt.</p></div>
+    <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Effekt oder ID suchen" aria-label="Effekte durchsuchen"></label>
+    <label class="filter-label">Bereich<select id="category"><option value="">Alle Bereiche</option></select></label>
+    <div class="filter-row"><label><input type="checkbox" id="onlyOpen"> Nur offene</label><label><input type="checkbox" id="onlyMust"> Nur Muss</label></div>
+    <div id="effectList" class="effect-list" aria-label="Effekte"></div>
+    <p class="sidebar-foot" id="listCount"></p>
+  </aside>
+  <main>
+    <div class="notice"><span class="notice-dot" aria-hidden="true"></span><p><strong>Animierte Auswahlentwürfe.</strong> IlluGen-Vorlagenvorschauen + Engine-Kompositionen. Die endgültigen Produktions-Exporte und die Soundabstimmung folgen nach deiner Auswahl.</p><button class="text-button" id="about">Details</button></div>
+    <section class="effect-heading" aria-labelledby="effectName">
+      <div><div class="eyebrow"><span id="effectCategory"></span><span class="separator">/</span><span id="effectId"></span><span id="priority" class="badge"></span></div><h2 id="effectName"></h2><p id="effectDescription" class="dim"></p></div>
+      <div class="pager"><button class="circle" id="prev" aria-label="Voriger Effekt">←</button><span id="position"></span><button class="circle" id="next" aria-label="Nächster Effekt">→</button></div>
+    </section>
+    <div class="toolbar">
+      <button class="button primary" id="playAll">▶ Vergleich abspielen</button>
+      <label class="toggle"><input id="loop" type="checkbox"> Wiederholen</label>
+      <div class="toolbar-spacer"></div>
+      <label class="small-label">Bühne<select id="stage"><option value="figure">Testfigur</option><option value="neutral">Dunkel · nur Effekt</option><option value="light">Hell · nur Effekt</option></select></label>
+      <label class="small-label" id="targetLabel">Ziel<select id="target"><option value="gegner">Gegner</option><option value="duc">Duc-Karte</option></select></label>
+    </div>
+    <div id="subtypes" class="subtypes" aria-label="Ausprägung des Effekts"></div>
+    <p id="motionNotice" class="motion-notice" hidden>Reduzierte Bewegung ist aktiv. Du siehst ruhige Standbilder. <button id="allowMotion" class="text-button">Animationen bewusst freigeben</button></p>
+    <section id="variants" class="variants" aria-label="Drei Varianten im Vergleich"></section>
+    <section class="decision glas">
+      <div><p class="eyebrow">DEIN EINDRUCK</p><p id="decisionText">Noch keine Variante gewählt.</p><button id="clearChoice" class="text-button" hidden>Auswahl für diesen Effekt aufheben</button></div>
+      <label class="note-label" for="note">Wunsch oder Änderung<textarea id="note" rows="2" maxlength="3000" placeholder="Zum Beispiel: Variante 2, aber schmaler und mit weniger Leuchten …"></textarea></label>
+    </section>
+    <div class="bottomline"><span id="saveStatus" role="status">Auswahl wird in diesem Browser gespeichert.</span><button id="nextOpen" class="text-button">Zum nächsten offenen Effekt →</button></div>
+    <details class="technical"><summary>Quelle und Einstellungen dieses Entwurfs</summary><div id="technicalContent"></div></details>
+    <p class="footer-note">Eigenständige Vorschau · keine Verbindung zu Spielständen · keine Änderung der Kampfregeln.<br>Tasten: <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> wählen · <kbd>←</kbd> <kbd>→</kbd> blättern. Deine Auswahl als Datei sichern, bevor du Browser oder Rechner wechselst.</p>
+  </main>
+</div>
+<dialog id="aboutDialog"><button id="closeAbout" class="circle close" aria-label="Details schließen">×</button><p class="eyebrow">WAS DU HIER VERGLEICHST</p><h2>Bewegung, Form und Wirkung.</h2><p>Diese Seite enthält drei animierte Gestaltungsvorschläge für jeden der 81 Einträge der Inventur. Gemeinsame Grundbausteine werden wiederverwendet.</p><p>Die IlluGen-Bilder stammen aus den eingebetteten Vorschauen der installierten Vorlagen. Sie wurden als weichere, transparente Helligkeitsmasken aufbereitet. Die Bewegung und Zusammenstellung läuft hier auf einer eigenen Canvas-Ebene.</p><p><strong>Das sind keine 243 neu in IlluGen gebauten Projekte und keine fertigen Produktionsrender.</strong> Vorschautexturen haben begrenzte Auflösung; die tatsächliche Beleuchtung und Transparenz der späteren Exporte müssen im Spiel geprüft werden. Sound ist noch nicht Bestandteil der Varianten.</p><p>Keine Loch-, Tropfen-, Blasen- oder Punktwolken-Muster. Blut erscheint als Streifen. Der reservierte Ausweichton bleibt der Ausweichen-Markierung vorbehalten.</p><p>Die Auswahl verändert das Spiel nicht. Beim Einbau werden die gewählten Entwürfe als Referenz für die endgültigen Effekte verwendet.</p></dialog>
+<div id="toast" class="toast" role="status" hidden></div>
+<noscript>Für die animierte Auswahl muss JavaScript aktiviert sein.</noscript>
+</body>
+</html>
