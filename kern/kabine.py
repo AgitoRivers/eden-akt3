@@ -34,7 +34,20 @@ def _init(z):
     z.setdefault("truhe", [])
 
 
-def ort(modul):
+# Akt 3 (Duc 04.11.2026, Drehbuch 4.4): Ist die Yacht schwer beschaedigt, schlaeft Duc bis zur Reparatur (Tag 31) auf einem
+# Feldbett vorne in der Kirche. Die Kabine bleibt dieselbe Ansicht (Truhe, Ausruhen, Telefon), nur Ort und Lage der Symbole aendern sich.
+FELDBETT = {"ort": "church", "titel": "Your camp bed in the church", "hotspots": {"truhe": [40, 82], "andenken": [22, 74], "handy": [60, 72],
+                                                                                  "handschuhe": [74, 78], "koje": [50, 66]}}
+
+
+def feldbett(z):
+    from . import ereignisse
+    return bool(z) and ereignisse.yacht_in_reparatur(z)
+
+
+def ort(modul, z=None):
+    if feldbett(z):
+        return FELDBETT["ort"]
     return _k(modul).get("ort") or "duc_cabin"
 
 
@@ -62,7 +75,7 @@ def betreten(z, modul, fixplan=None):
     _init(z)
     z["kabine"] = {"tag": z["tag"], "phase": z["phase"], "vorher_bild": z.get("letztes_bild")}
     z["status"] = "kabine"
-    z["letztes_bild"] = buehne.hintergrund(modul, ort(modul), z["phase"])
+    z["letztes_bild"] = buehne.hintergrund(modul, ort(modul, z), z["phase"])
 
 
 def zurueck(z):
@@ -210,7 +223,9 @@ def ansicht(z, modul, cfg, item_bild):
                         "bild": item_bild(iid) if da else None,
                         "echo": dict(e, name=gesten.kurz(modul, e["wer"])) if e else None})
     lo, hi = zustand.bereich(modul, "energie") if "energie" in modul.get("werte", {}) else (0, 0)
-    return {"bild": buehne.hintergrund(modul, ort(modul), z["phase"]), "hotspots": k.get("hotspots") or {},
+    fb = feldbett(z)
+    return {"bild": buehne.hintergrund(modul, ort(modul, z), z["phase"]),
+            "hotspots": FELDBETT["hotspots"] if fb else (k.get("hotspots") or {}), "titel": FELDBETT["titel"] if fb else None,
             "bei_dir": [ware(i, n) for i, n in zustand.stapel_liste(modul, z["inventar"])
                         if modul["items"].get(i, {}).get("art") != "andenken"],
             "andenken": [ware(i) for i in z["inventar"] if modul["items"].get(i, {}).get("art") == "andenken"],

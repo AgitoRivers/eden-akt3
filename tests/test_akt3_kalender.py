@@ -96,6 +96,13 @@ def main():
     pruefen(not z["flags"], "kein Flag ohne Rudern oder ausserhalb der Kapitaens-Welle")
 
     pruefen(schiessen.HOLM_TAG == 24, "Holms Revanche ab Tag 24")
+    from kern import auftraege, kabine
+    pruefen(kabine.ort(MODUL, {"tag": 26, "flags": ["tk_yacht_weg"]}) == "church" and kabine.ort(MODUL, {"tag": 32, "flags": ["tk_yacht_weg", "a3_yacht_repariert"]}) != "church",
+            "Ducs Kabine ist bei kaputter Yacht das Feldbett in der Kirche, bis zur Reparatur")
+    o = [{"id": i} for i in ["macchia", "a3_alva", "a3_siri", "a3_lose", "a3_scrap", "a3_baustellen", "a3_schluss_lea", "a3_zeugen"]]
+    ids = [x["id"] for x in auftraege._akt3_begrenzen(o)]
+    pruefen(sorted(i for i in ids if i.startswith("a3_") and not i.startswith("a3_schluss")) == ["a3_baustellen", "a3_lose", "a3_zeugen"]
+            and "macchia" in ids and "a3_schluss_lea" in ids, "hoechstens drei Akt-3-Karten, Vorrang Baustelle, Zeugen, Tafel; Romanzen extra")
     print("Alle Pruefungen gruen.")
 
 

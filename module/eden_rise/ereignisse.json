@@ -135566,6 +135566,125 @@
      }
     }
    ]
+  },
+  {
+   "id": "a2_sandru_name",
+   "art": "gag1",
+   "ton": "ernst",
+   "titel": "Your Own Name",
+   "wann": {
+    "tage": [
+     15,
+     20
+    ],
+    "phasen": [
+     "abend"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "a2_sandru"
+      },
+      {
+       "nicht": {
+        "flag": "sandru_herkunft"
+       }
+      }
+     ]
+    },
+    "akt2": [
+     24,
+     31
+    ]
+   },
+   "bild": "av_market",
+   "personen": {
+    "handelnd": "sandru",
+    "betroffen": [
+     {
+      "id": "alva",
+      "ton": "?",
+      "was": "has the light on across the street"
+     }
+    ]
+   },
+   "sets": {
+    "sandru": "sandru_av"
+   },
+   "lage": "The A.V. Market after closing time. The white lights hum. Sandru counts the money in the till. His name badge lies next to it, face down. Across the street, the light in Alva's bar is still on.",
+   "zeilen": [
+    {
+     "wer": "sandru",
+     "text": "We're closed, Duc. Ha. For you, half closed.",
+     "gefuehl": "neutral"
+    },
+    {
+     "wer": "sandru",
+     "text": "The badge? Alex. A.V. gave me that name. My father picked tomatoes in the east plain for thirty years, so that nobody would ever ask his son where he comes from. And then somebody asks anyway. Every week.",
+     "gefuehl": "sadness"
+    },
+    {
+     "wer": "sandru",
+     "text": "Alex doesn't come from anywhere. That's what I like about him. ...So. Where do you come from, Duc?",
+     "gefuehl": "nervousness"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“My parents fled from Vietnam. Night shifts in Germany. For years I acted like I came from nowhere. You can't run from it. You're carrying it anyway. So carry it with your head up.”",
+     "folgen": [
+      {
+       "flag": "sandru_herkunft"
+      },
+      {
+       "vertrauen": [
+        "sandru",
+        6
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "sandru",
+      "text": "...Iskander. My mother is the only one who still says it.",
+      "gefuehl": "sadness"
+     }
+    },
+    {
+     "text": "Picks up the badge and turns it over. “My parents fled from Vietnam. You can't run from it. So carry it with your head up.”",
+     "folgen": [
+      {
+       "flag": "sandru_herkunft"
+      },
+      {
+       "vertrauen": [
+        "sandru",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "sandru",
+      "text": "Head up. ...Iskander. That's my name. My mother is the only one who still says it.",
+      "gefuehl": "sadness"
+     }
+    },
+    {
+     "text": "“From Frankfurt. Mostly.”",
+     "folgen": [
+      {
+       "vertrauen": [
+        "sandru",
+        2
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "sandru",
+      "text": "Mostly. Ha. Me too. Mostly from here.",
+      "gefuehl": "neutral"
+     }
+    }
+   ]
   }
  ]
 }

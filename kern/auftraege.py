@@ -37,11 +37,28 @@ def status(z, a):
     return None
 
 
+# Akt 3 (Review Nr. 6, Duc 04.11.2026): hoechstens drei Akt-3-Karten gleichzeitig, damit Woche 4 atmet. Reihenfolge:
+# Baustelle, Zeugen, Tafel, dann der Rest in der Reihenfolge der Daten. Romanzen (a3_schluss_*) zaehlen nicht mit.
+AKT3_KARTEN_MAX = 3
+AKT3_VORRANG = ["a3_baustellen", "a3_zeugen", "a3_lose"]
+
+
+def _akt3_begrenzen(orte):
+    a3 = [o for o in orte if o["id"].startswith("a3_") and not o["id"].startswith("a3_schluss_")]
+    rang = lambda o: AKT3_VORRANG.index(o["id"]) if o["id"] in AKT3_VORRANG else len(AKT3_VORRANG) + a3.index(o)
+    bleiben = {o["id"] for o in sorted(a3, key=rang)[:AKT3_KARTEN_MAX]}
+    return [o for o in orte if o not in a3 or o["id"] in bleiben]
+
+
 def orte_frei(z, moddir):
     """Orte, die Duc in dieser freien Phase besuchen kann -> [{"id", "label", "text", "bild"}]."""
     d = daten(moddir)
     if not d:
         return []
+    return _akt3_begrenzen(_orte_offen(z, d, moddir))
+
+
+def _orte_offen(z, d, moddir):
     return [{"id": oid, "label": o["label"], "text": ort_text(z, o), "bild": "/bg/" + o["bild"] if o["bild"].endswith(".png") else "/bg/eden_rise_%s.png" % o["bild"]}
             for oid, o in d["orte"].items()
             if regeln.phase_passt(z["phase"], o["phasen"]) and regeln.gilt(o.get("wenn"), z) and start(z, moddir, oid)]

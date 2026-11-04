@@ -1364,7 +1364,7 @@ def ansicht(z, debug=False):
         v["z"]["hintergrund"] = v["z"]["ereignis"]["bild"]
     if kabine.aktiv(modul) and z["status"] == "wahl" and not kabine.gesperrt(
             z, (showrunner.vorrat(moddir(z["modul"])) or {}).get("fixplan")):
-        v["z"]["kabine_karte"] = {"bild": buehne.hintergrund(modul, kabine.ort(modul), z["phase"]),
+        v["z"]["kabine_karte"] = {"bild": buehne.hintergrund(modul, kabine.ort(modul, z), z["phase"]),
                                   # Kabinen-Kreis (27.10.2026): Hinweispunkt, wenn ein neues Andenken in der Vitrine liegt
                                   "andenken": sum(1 for iid, it in modul["items"].items()
                                                   if it.get("vitrine") and iid in z["inventar"])}
