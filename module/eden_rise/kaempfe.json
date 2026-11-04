@@ -3805,6 +3805,55 @@
     "gruppe": "zischer",
     "sfx": "kampf_viper"
    }
+  },
+  "alon_exo": {
+   "name": "Alon Varenne",
+   "sprite": "AgentAlpha",
+   "cls": "mensch",
+   "element": "luft",
+   "tier": "toedlich",
+   "attack": {
+    "label": "Servo Strike",
+    "icon": "🦾",
+    "finte": {
+     "art": "taeuschung",
+     "bei": 0.8,
+     "zurueck": 0.55
+    }
+   },
+   "specials": {
+    "w1": {
+     "label": "Reads Your Move",
+     "icon": "🧠",
+     "bonus": 2,
+     "effect": "geschwaecht",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Full Power",
+     "icon": "🦾💥",
+     "bonus": 11,
+     "effect": null,
+     "dodge_only": false,
+     "finte": {
+      "art": "zoegern",
+      "bei": 0.75,
+      "halt": 650
+     }
+    }
+   },
+   "weakness": null,
+   "parade": "sprite",
+   "boss": true,
+   "parade_ziel": 65,
+   "immune": {
+    "charm": "“I wrote the book on charm, Duc. Literally. It's on Amazon.”",
+    "courage": "“Fear? I have a ten-year plan. Fear isn't in it.”"
+   },
+   "taunt": {
+    "gruppe": "maschine",
+    "sfx": "kampf_unit01"
+   }
   }
  },
  "encounters": {
@@ -7549,6 +7598,172 @@
     "niederlage": {
      "text": "It's only a small bite. You feel fine, and then you don't feel anything. Bibi knows what to do, thank God.",
      "folgen": []
+    }
+   }
+  },
+  "a3_scrap_drohne": {
+   "title": "Something Still Moves",
+   "goal": "Get past the drone",
+   "image": "eden_rise_antenna_ridge.png",
+   "enemy": "hirtendrohne",
+   "level": 6,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The drone drops into the grass and goes dark. Rosi would want the steel.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "The drone hums, turns, and flies back towards the villa.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "The drone is gone over the ridge.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "A pulse knocks you flat. When you wake up, the drone is gone.",
+     "folgen": []
+    }
+   }
+  },
+  "a3_scrap_paar": {
+   "title": "Two Left Behind",
+   "goal": "Take the steel",
+   "image": "eden_rise_antenna_ridge.png",
+   "enemy": "hirtendrohne",
+   "level": 7,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "Both drones lie still between the rocks. Good steel, all of it.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "The drones lift off together and disappear.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They're gone.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "The drones circle above you until you stop moving.",
+     "folgen": []
+    }
+   },
+   "enemies": [
+    "hirtendrohne",
+    "hirtendrohne"
+   ],
+   "lp_faktoren": [
+    0.7,
+    0.7
+   ]
+  },
+  "a3_villa_keller": {
+   "title": "The Wine Cellar",
+   "goal": "Get to the server",
+   "image": "eden_rise_crate_hall.png",
+   "enemy": "agent_fuehrer",
+   "level": 8,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The two agents are asleep between the barrels. The robot sits down like a tired dog.",
+     "folgen": [
+      {
+       "flag": "a3_keller_frei"
+      }
+     ]
+    },
+    "aufgabe": {
+     "text": "They raise their hands. One of them says: “We just work here.”",
+     "folgen": [
+      {
+       "flag": "a3_keller_frei"
+      }
+     ]
+    },
+    "entkommen": {
+     "text": "They run up the stairs.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "A white flash between the barrels. You wake up outside the cellar door.",
+     "folgen": []
+    }
+   },
+   "enemies": [
+    "agent_fuehrer",
+    "agent",
+    "hirtendrohne"
+   ],
+   "lp_faktoren": [
+    0.8,
+    0.6,
+    0.6
+   ]
+  },
+  "a3_alon": {
+   "title": "Name Your Price",
+   "goal": "Stop Alon Varenne",
+   "image": "eden_rise_village_rooftops.png",
+   "enemy": "alon_exo",
+   "level": 10,
+   "flee_allowed": false,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The exoskeleton locks up. Alon sits down on the terrace, breathing hard. For once he says nothing.",
+     "folgen": [
+      {
+       "flag": "a3_alon_besiegt"
+      }
+     ]
+    },
+    "aufgabe": {
+     "text": "Alon raises one metal hand. “Fine. Fine. You win this one.”",
+     "folgen": [
+      {
+       "flag": "a3_alon_besiegt"
+      }
+     ]
+    },
+    "entkommen": {
+     "text": "Alon steps back into the villa and locks the glass door.",
+     "folgen": [
+      {
+       "flag": "a3_alon_entkommen"
+      }
+     ]
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "Alon stands over you. “Go home, Duc. The commission is tomorrow. I'll be watching.”",
+     "folgen": [
+      {
+       "flag": "a3_alon_niederlage"
+      }
+     ]
     }
    }
   }

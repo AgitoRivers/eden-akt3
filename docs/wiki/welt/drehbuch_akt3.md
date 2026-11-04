@@ -807,7 +807,20 @@ Test: `tests/test_akt3_kalender.py`, `tests/test_aufbau_akt3.py`, `tests/test_ak
 | **Who Saw It?** (Karte `a3_zeugen`, eine Phase) | nach `a3_uhr` (`a3_zeugen_auftrag`), sobald eine Tür offen ist | Frame je Zeuge (Petru, Mina, Bà Tư, Alva, Don, Casanova): drei Haltungen, **jede überzeugt**, sie setzt `a3_zeuge_<pid>` und `a3_zeuge_<pid>_<haltung>`, Vertrauen +2 bis +6. Vierte Wahl: zum nächsten Zeugen | Türen wie in Abschnitt 2 (`TUER` im Code). Mina, Bà Tư, Alva, Petru auch über die Dank-Szene. Sandru über die Schiene (Paket D), Buenaventura meldet sich selbst | `a3_frage_*` |
 | **Die Festa-Tafel** (Karte `a3_lose`, eine Phase je Los) | ab `a3_festa_tafel` (Tag 26) bis Tag 34 | 13 Lose, je eine Person mit Talent und eine Entscheidung (2 oder 3 Chips), Flag `a3_los_<id>` und `a3_los_<id>_<wahl>`. *The Long Table* und *The Stage* geben einer Baustelle eine Stufe. Bonus *Capra* (Bibi) im Pool ohne Phase | 8 Lose ab Tag 26, 5 nach dem ersten fertigen Haus. Zusätzlich: *The Menu* nur ohne `gefeuert_lola`, *The Lights* nach Scrap Field oder Villa, *Not in the System* nach `a3_alva_wach`, *The Dresses* mit `danzel_festa_auftrag`, *The Pictures* mit `bl_kirche_jana`. Kein Geld, kein Material, kein Zähler | `a3_los_*` |
 
-Test: `tests/test_akt3_lose.py`. Angepasst: `tests/test_akt2_events.py` (neue Fenster), `tests/test_holm_wette.py` (Tag 24, lokal nicht prüfbar wegen `eden-config.json`). Alle `test_*.py` vor und nach Paket A: 47 gegen 48 grün, kein Test hat seinen Status verloren.
+Test: `tests/test_akt3_lose.py`.
+
+**Paket D, gebaut (`ereignisse_akt3_woche5.py`, 44 Events, 110 Zeilen; `kaempfe_akt3.py`):**
+
+| Mechanik | Auslöser | Wirkung | Grenzen | Stelle |
+|---|---|---|---|---|
+| **Megans Wende** (Tag 31) | `megan_zurueck` | `a3_megan_wende`, wenn 4 Zeugen **oder** 2 Beweise **oder** Yamamoto Vertrauen 5, sonst `a3_megan_verloren` | neue Bedingung `{"anzahl": [[...], ">=", n]}`; Zeugen und Beweise stehen als Listen `ZEUGEN`, `BEWEISE` im Code | `kern/regeln.py`, `a3_megan_monaco` |
+| **Sandru** (Tag 32/33) | Switched Off immer | gekümmert (`sandru_surren`, `sandru_herkunft` oder Vertrauen 3): Rosis Schiene, `a3_zeuge_sandru`. Sonst nimmt er Alons Angebot an (`a3_sandru_alon`), keine Aussage | Rosi gefeuert: Maxwell per Video | `a3_switched_off`, `a3_schiene`, `a3_sandru_alon` |
+| **Nach Mitternacht** (Tag 33) | Pflicht am Abend | drei Seiten mit je drei Frauen; nur wer bereit ist (Begehren ab 4, nicht gefeuert; Megan mit `megan_funke`; Bibi mit `rt_bibi_bleibt`), fragt: `a3_mitternacht_<pid>`. Sonst „Not her, Yacht“ | eine Wahl; „Nobody“ geht immer | `a3_mn_*` |
+| **Villa** (Tag 34) | Plan, Keller (Kampf `a3_villa_keller`, Whites Plan `a3_beweis_feuer`), Dinner, Ende | Dinner: „Join me. Name your price.“ → `a3_deal` (Ende 1) oder Nein. Nein: Endkampf `a3_alon` (Alon im Exoskelett, Level 10, Luft, tödlich, keine Flucht): `a3_alon_besiegt` oder `a3_alon_niederlage`. Nachts Pascal, mit `elsa_hilft` und Vertrauen Elsa 4 die Festnahme `a3_alon_festgenommen` | ★-Zweig (Dorf am Fuß der Villa) kommt mit den Enden (Paket F, Feinschliff Duc) | `a3_villa_*`, `kaempfe_akt3.py` |
+| **Scrap Field** (Karte ab Tag 25) | | zwei Kämpfe gegen Maschinen (Stahl), `a3_scrap_field` öffnet das Los *The Lights* | bis Tag 33 | `a3_scrap_*` |
+| weitere | | Idee von Bibi oder Lea (29), The Man with the Orange (Karte, `a3_riscossore_kommt`), Maxwells Flug (30) und Rückkehr (32), Lot 14 (Karte), Einladung (33), Ligeias Flaschenpost | | |
+
+Test: `tests/test_akt3_woche5.py`. `kaempfe.json` gezielt ergänzt (der Kampf-Builder bricht hier an fehlenden Sounds ab): lokal `kaempfe_eden_rise.py` laufen lassen. Angepasst: `tests/test_akt2_events.py` (neue Fenster), `tests/test_holm_wette.py` (Tag 24, lokal nicht prüfbar wegen `eden-config.json`). Alle `test_*.py` vor und nach Paket A: 47 gegen 48 grün, kein Test hat seinen Status verloren.
 
 ## 13. Was aus den Befunden wurde
 

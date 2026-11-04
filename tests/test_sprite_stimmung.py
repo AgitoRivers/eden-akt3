@@ -28,6 +28,9 @@ FREI = {
     ("hk_tipp_ratten", "rosi", "amusement"), ("hk_tipp_hunde", "rosi", "amusement"), ("hk_tipp_keiler", "rosi", "amusement"),
     ("bg_turm_parole_2", "wolff", "amusement"), ("bl_cliff_alon", "alon", "joy"), ("bl_cliff_alon_siri", "alon", "joy"),
     ("bl_cliff_alon_siri", "alon", "amusement"), ("bl_cliff_team", "alon", "joy"),
+    # Akt 3 (04.11.2026): Alons Lacheln vor der Kamera ist die Luege (er spielt den Grosssprecher nur vor der Presse),
+    # der Riscossore droht mit Laecheln wie in der Grotte
+    ("a3_villa_ende", "alon", "joy"), ("a3_orange", "riscossore", "amusement"),
 }
 
 

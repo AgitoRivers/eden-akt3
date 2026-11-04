@@ -391,7 +391,8 @@ def pruefe(events):
             fehler.append("%s: duell braucht gegner + staerke (%s)" % (k, "/".join(STAERKEN)))
         if e["art"] == "auftritt" and (not (p.get("publikum") or p.get("partner")) or p.get("staerke") not in STAERKEN + ["herz"]):
             fehler.append("%s: auftritt braucht publikum/partner + staerke" % k)
-        if not 2 <= len(e["optionen"]) <= 4 and e["art"] != "abend" and not k.startswith(("hb_", "bl_")):
+        if not 2 <= len(e["optionen"]) <= 4 and e["art"] != "abend" and not k.startswith(("hb_", "bl_")) \
+                and not (k.startswith("a3_") and 1 <= len(e["optionen"]) <= 4):   # a3_: ein Chip fuer einen klaren Schritt (Villa)
             fehler.append("%s: %d Optionen" % (k, len(e["optionen"])))
         if not e["zeilen"]:
             fehler.append("%s: keine Zeilen" % k)
@@ -497,6 +498,7 @@ def bauen():
     import ereignisse_erinnerung                  # Erinnerungen der Auftraggeberinnen (02.11.2026)
     import ereignisse_akt3_woche4                 # Akt 3, Woche 4 (04.11.2026, Drehbuch akt3)
     import ereignisse_akt3_lose                   # Akt 3, Zeugen und Festa-Lose (Paket C)
+    import ereignisse_akt3_woche5                 # Akt 3, Woche 5 (Paket D)
     events = (ereignisse_bordrat.EVENTS + ereignisse_handy.EVENTS + ereignisse_gag1.EVENTS + ereignisse_gagv.EVENTS
               + ereignisse_abende.EVENTS + ereignisse_staerken.EVENTS + ereignisse_verrueckt.EVENTS
               + ereignisse_akt1.EVENTS + ereignisse_yamamoto.EVENTS + ereignisse_tag0.EVENTS + ereignisse_hafen.EVENTS
@@ -506,7 +508,8 @@ def bauen():
               + ereignisse_akt2.EVENTS + ereignisse_grotte.EVENTS + ereignisse_charms.EVENTS
               + ereignisse_favours.EVENTS + ereignisse_ligeia.EVENTS + ereignisse_legenden.EVENTS + ereignisse_red_trio.EVENTS + ereignisse_holm.EVENTS
               + ereignisse_dorf.EVENTS + ereignisse_schneider.EVENTS + ereignisse_romanzen.EVENTS + ereignisse_bibi.EVENTS + ereignisse_cliffhanger.EVENTS + ereignisse_outfit_quest.EVENTS + ereignisse_belagerung.EVENTS + ereignisse_belagerung_nacht.EVENTS + ereignisse_mochis.EVENTS
-              + ereignisse_erinnerung.EVENTS + ereignisse_akt3_woche4.EVENTS + ereignisse_akt3_lose.EVENTS)
+              + ereignisse_erinnerung.EVENTS + ereignisse_akt3_woche4.EVENTS + ereignisse_akt3_lose.EVENTS
+              + ereignisse_akt3_woche5.EVENTS)
     # Die Event-Dateien importieren dieses Modul unter seinem Namen - ihre Gegenstaende landen dort, nicht in __main__
     NEUE_ITEMS.update(sys.modules["ereignisse_basis"].NEUE_ITEMS)
     import ereignisse_fenster                    # Akt 2 (29.10.2026): zeitlose Events bis Tag 21 offen, "nachlauf"
@@ -535,6 +538,7 @@ def bauen():
     print("Schneider: %d gesprochene Zeilen -> stimme_tags.json" % ereignisse_schneider.tags_schreiben())
     print("Akt 3 Woche 4: %d gesprochene Zeilen -> stimme_tags.json" % sys.modules["ereignisse_akt3_woche4"].tags_schreiben())
     print("Akt 3 Lose: %d gesprochene Zeilen -> stimme_tags.json" % sys.modules["ereignisse_akt3_lose"].tags_schreiben())
+    print("Akt 3 Woche 5: %d gesprochene Zeilen -> stimme_tags.json" % sys.modules["ereignisse_akt3_woche5"].tags_schreiben())
     print("Outfit-Quest: %d gesprochene Zeilen -> stimme_tags.json" % ereignisse_outfit_quest.tags_schreiben())
     print("Legenden: %d Zeilen -> legenden.json, %d gesprochene -> stimme_tags.json" % ereignisse_legenden.schreiben(os.path.dirname(ZIEL)))
     print("Dorf: %d gesprochene Zeilen -> stimme_tags.json" % ereignisse_dorf.tags_schreiben())

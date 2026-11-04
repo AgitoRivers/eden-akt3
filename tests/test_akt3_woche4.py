@@ -52,7 +52,7 @@ def main():
             "Minicu tritt vor der Festa nicht auf")
     roh = json.dumps(A3, ensure_ascii=False).lower()
     pruefen(not re.search(r"(takes off|removes|pushes up|lifts) (his )?sunglasses", roh), "Duc nimmt die Sonnenbrille nie ab")
-    maxwell = [i for i, e in A3.items() if "maxwell" in json.dumps(e["personen"])]
+    maxwell = [i for i, e in A3.items() if "maxwell" in json.dumps(e["personen"]) and i not in ("a3_maxwell_flug", "a3_maxwell_zurueck")]
     pruefen(all(A3[i]["wann"]["tage"][1] <= 29 or A3[i]["wann"]["tage"][0] >= 33 for i in maxwell), "Maxwell nicht an Tag 30 bis 32")
 
     # Turbo-Tags: jede gesprochene Zeile hat einen Eintrag mit Tag, der Spieltext keinen

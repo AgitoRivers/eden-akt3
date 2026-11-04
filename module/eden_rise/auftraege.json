@@ -1839,6 +1839,107 @@
      "id": "a3_los_bilder"
     }
    ]
+  },
+  "a3_orange": {
+   "label": "The Man with the Orange",
+   "bild": "underground_pool_tide",
+   "phasen": [
+    "tag",
+    "nachmittag"
+   ],
+   "text": "Buenaventura wants to ask the old man in the grotto about tourists. He doesn't want to go alone. Takes the whole phase.",
+   "wenn": {
+    "alle": [
+     {
+      "flag": "a3_idee_fertig"
+     },
+     {
+      "nicht": {
+       "flag": "a3_orange_fertig"
+      }
+     }
+    ]
+   },
+   "start": [
+    {
+     "id": "a3_orange"
+    }
+   ]
+  },
+  "a3_lot14": {
+   "label": "Lot 14",
+   "bild": "generator_room",
+   "phasen": [
+    "nachmittag",
+    "abend"
+   ],
+   "text": "Yamamoto found something in A.V.'s property lists. It's about Rosi. Takes the whole phase.",
+   "wenn": {
+    "alle": [
+     {
+      "flag": "akt2_ende"
+     },
+     {
+      "tag_ab": 29
+     },
+     {
+      "wert": [
+       "vertrauen.yamamoto",
+       ">=",
+       3
+      ]
+     },
+     {
+      "nicht": {
+       "flag": "gefeuert_rosi"
+      }
+     },
+     {
+      "nicht": {
+       "flag": "a3_lot14"
+      }
+     }
+    ]
+   },
+   "start": [
+    {
+     "id": "a3_lot14"
+    }
+   ]
+  },
+  "a3_scrap": {
+   "label": "The Scrap Field",
+   "bild": "antenna_ridge",
+   "phasen": [
+    "tag",
+    "nachmittag"
+   ],
+   "text": "Up on the ridge lie the machines from the siege. Some of them still move. Good steel. Takes the whole phase.",
+   "wenn": {
+    "alle": [
+     {
+      "flag": "akt2_ende"
+     },
+     {
+      "tag_ab": 25
+     },
+     {
+      "nicht": {
+       "flag": "a3_scrap_field"
+      }
+     },
+     {
+      "nicht": {
+       "tag_ab": 34
+      }
+     }
+    ]
+   },
+   "start": [
+    {
+     "id": "a3_scrap_1"
+    }
+   ]
   }
  },
  "auftraege": {

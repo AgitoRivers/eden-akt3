@@ -768,6 +768,10 @@ import kaempfe_mochis as _mochis  # noqa: E402
 ENEMIES.update(_mochis.ENEMIES)
 ENCOUNTERS.update(_mochis.ENCOUNTERS)
 CHIPS["drops"].update(_red_trio.DROPS)
+# Akt 3 (04.11.2026): Scrap Field, Villa-Keller, Endkampf gegen Alon (kaempfe_akt3.py)
+import kaempfe_akt3 as _akt3  # noqa: E402
+ENEMIES.update(_akt3.ENEMIES)
+ENCOUNTERS.update(_akt3.ENCOUNTERS)
 
 # Finten (Duc 03.11.2026, Paket "Lesen statt rechnen", Vorbild Clair Obscur): ein Angriff je Gegnerart hat einen eigenen
 # Rhythmus, den man lernt. Immer gleich je Absicht, nie Zufall. Der Client spielt sie (client/plugins/eden-combat/eden-qte.js):

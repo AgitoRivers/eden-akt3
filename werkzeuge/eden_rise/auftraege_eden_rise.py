@@ -246,6 +246,8 @@ import ereignisse_akt3_woche4  # noqa: E402
 ORTE.update(ereignisse_akt3_woche4.ORTE)
 import ereignisse_akt3_lose  # noqa: E402
 ORTE.update(ereignisse_akt3_lose.ORTE)
+import ereignisse_akt3_woche5  # noqa: E402
+ORTE.update(ereignisse_akt3_woche5.ORTE)
 
 
 def pruefe():

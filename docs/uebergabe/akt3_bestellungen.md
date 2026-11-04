@@ -29,6 +29,17 @@ Stand 04.11.2026 · Cloud-Sitzung `akt3-cloud`. Bis ein Bild da ist, nutzt das S
 | Kommissarin | neutral, ernst | 5.30 | Beamtin aus Ajaccio, Klapptisch, Ordner (neue Nebenfigur, Legenden-Kommentar nötig) |
 | Pascal | im weißen Fedora hinter Alon, lächelnd | 5.26 | keine Zeile, nur Bild |
 
+## Neu mit dem Bau (04.11.2026)
+
+| Was | Wo | Platzhalter |
+|---|---|---|
+| Sprite **AlonExo** (Alon im Exoskelett, ruhig, Kampf-Posen idle, avatar, windup, attack, heavy_windup, heavy_attack) | Endkampf `a3_alon` | `AgentAlpha` |
+| Hintergrund `villa_dining` (Tisch für zwei, Fenster über der Bucht bei Nacht) | `a3_villa_dinner`, `a3_villa_preis` | `alon_keynote` |
+| Hintergrund `villa_terrace` (Terrasse über dem Dorf, Drohnenkamera) | `a3_villa_ende`, `a3_villa_kampf`, Kampf `a3_alon` | `alon_keynote`, Kampf `eden_rise_village_rooftops.png` |
+| Hintergrund `villa_cellar` | `a3_villa_keller`, `a3_villa_ordner`, Kampf `a3_villa_keller` | `power_room`, Kampf `eden_rise_crate_hall.png` |
+| Hintergrund `scrap_field` | Karte `a3_scrap` | `antenna_ridge` |
+| Sprite Buenaventura prüfen (`bonaventure_standard`, Ordner „Captain Bonaventure“) | alle Szenen mit ihm | – |
+
 ## Items
 
 | Item | Bild |
