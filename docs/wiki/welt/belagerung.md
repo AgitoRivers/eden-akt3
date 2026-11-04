@@ -140,6 +140,9 @@ Szenen in `werkzeuge/eden_rise/ereignisse_belagerung.py`, Regeln in `kern/taktik
 | Vertrauen Don Anghjulu ab 3 | Die Kirche hat 4 Leben |
 | Vertrauen Bà Tư ab 3 | Der Nachschub kommt eine Runde später |
 | Ruf ab 5 | Das Dorf rudert hinaus: Der letzte Schub Boote in Welle 2 fällt weg |
+| `bl_tueren_petru` (Tag 22) | Das Dorf rudert schon ab Ruf 4, mit heiler Werkstatt ab Ruf 3 (fix-akt2) |
+| `bl_kirche_don` (Tag 23) | Die Kirche hat in Welle 6 ein Leben mehr (fix-akt2, Vorschlag) |
+| `bl_alva_runde` (Tag 21) | Duc zahlt an Tag 22 die Runde in Alvas Bar, 60 €, Vertrauen Alva +4 (fix-akt2, Vorschlag) |
 
 **Noch nicht gebaut:** die Aufgaben der Crew wie in Mass Effect 2, Grotte als Schleichweg, Minas Szene zum Ruf, Bà Tưs Hinweis auf den Norden, das Feuer an durchbrochenen Fronten.
 

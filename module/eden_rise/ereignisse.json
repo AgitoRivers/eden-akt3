@@ -76217,7 +76217,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -77742,7 +77742,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -77853,7 +77853,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -77964,7 +77964,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -78075,7 +78075,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -78186,7 +78186,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -78296,7 +78296,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -78407,7 +78407,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -78518,7 +78518,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -78634,7 +78634,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -84670,7 +84670,7 @@
     },
     "leiter": true,
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -84840,7 +84840,7 @@
     },
     "leiter": true,
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -85263,7 +85263,7 @@
     },
     "leiter": true,
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -85598,7 +85598,7 @@
     },
     "leiter": true,
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -85759,7 +85759,7 @@
     },
     "leiter": true,
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -86271,7 +86271,7 @@
     },
     "leiter": true,
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -86449,7 +86449,7 @@
     },
     "leiter": true,
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -86997,7 +86997,7 @@
     },
     "leiter": true,
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -87167,7 +87167,7 @@
     },
     "leiter": true,
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -87710,7 +87710,7 @@
     },
     "leiter": true,
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -87894,7 +87894,7 @@
     },
     "leiter": true,
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -88367,7 +88367,7 @@
     },
     "leiter": true,
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -88532,7 +88532,7 @@
     },
     "leiter": true,
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -89006,7 +89006,7 @@
     },
     "leiter": true,
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -89172,7 +89172,7 @@
     },
     "leiter": true,
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -90871,7 +90871,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -91041,7 +91041,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -91133,7 +91133,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -91487,7 +91487,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -91642,7 +91642,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -91793,7 +91793,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -91944,7 +91944,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -92454,7 +92454,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -92521,7 +92521,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -94395,8 +94395,18 @@
    "zeilen": [
     {
      "wer": "alva",
-     "text": "Somebody promised me a round when this is over. It isn't over, but I'm pouring anyway.",
-     "gefuehl": "amusement"
+     "text": "Somebody promised me a round when this is over. Last night, on the quay, I wrote it on my board. It isn't over, but I'm pouring anyway.",
+     "gefuehl": "amusement",
+     "gruppe": "runde",
+     "wenn": {
+      "flag": "bl_alva_runde"
+     }
+    },
+    {
+     "wer": "alva",
+     "text": "This round is on the house. Don't get used to it.",
+     "gefuehl": "amusement",
+     "gruppe": "runde"
     },
     {
      "wer": "maxwell",
@@ -94426,6 +94436,16 @@
       {
        "wert": "moral",
        "delta": 1
+      },
+      {
+       "direkt": [
+        {
+         "wenn": {
+          "flag": "bl_alva_runde"
+         },
+         "id": "bl_bar_rechnung"
+        }
+       ]
       }
      ]
     },
@@ -94435,6 +94455,16 @@
       {
        "wert": "moral",
        "delta": 1
+      },
+      {
+       "direkt": [
+        {
+         "wenn": {
+          "flag": "bl_alva_runde"
+         },
+         "id": "bl_bar_rechnung"
+        }
+       ]
       }
      ],
      "zeile": {
@@ -94442,6 +94472,67 @@
       "text": "I'm not thirsty tonight, Duc. Go and laugh with them. Leave it with me.",
       "gefuehl": "neutral"
      }
+    }
+   ]
+  },
+  {
+   "id": "bl_bar_rechnung",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "The Last Round",
+   "wann": {
+    "tage": [
+     8,
+     23
+    ]
+   },
+   "bild": "alvas_bar",
+   "personen": {
+    "handelnd": "alva",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "Later, when the room is loud again, Alva puts a small piece of paper in front of you. It is the bill for the round you promised her last night on the quay. Under the number she has drawn a very small heart.",
+   "zeilen": [
+    {
+     "wer": "alva",
+     "text": "You said the first round, for everyone. Everyone came. I don't give credit to people who might die tomorrow, o figliolu, so you pay now.",
+     "gefuehl": "amusement"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Pays the bill and leaves a tip.",
+     "folgen": [
+      {
+       "geld": -60
+      },
+      {
+       "vertrauen": [
+        "alva",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "alva",
+      "text": "A tip. In a war. Alva remembers who helps her.",
+      "gefuehl": "gratitude"
+     }
+    },
+    {
+     "text": "Pays the bill. “It was worth it.”",
+     "folgen": [
+      {
+       "geld": -60
+      },
+      {
+       "vertrauen": [
+        "alva",
+        4
+       ]
+      }
+     ]
     }
    ]
   },
@@ -101596,7 +101687,7 @@
    "wann": {
     "tage": [
      11,
-     21
+     35
     ],
     "holt_leute": true,
     "pflicht": true,
@@ -101694,7 +101785,7 @@
    "wann": {
     "tage": [
      11,
-     21
+     34
     ],
     "holt_leute": true,
     "pflicht": true,

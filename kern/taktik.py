@@ -575,6 +575,10 @@ def _welle_start(z, D, t, nr):
     if w.get("finale"):
         t["barrikade"] = False
         t["jana_schutz"] = "bl_kirche_jana" in z.get("flags", [])
+        if "bl_kirche_don" in z.get("flags", []) and "don_glocke" not in t["gesehen"]:   # Don laeutet nuechtern fuer die Kinder (Tag 23 Mittag): ein Leben mehr (fix-akt2)
+            t["gesehen"].append("don_glocke")
+            t["kirche"] += 1
+            t["kirche_max"] = t.get("kirche_max", D["kirche"]["lp"]) + 1
         pascal = _e(t, "pascal")
         pascal["seite"] = "schwarz"
         pascal["fest"] = False
@@ -1597,9 +1601,11 @@ def _nacht_folgen(z, D, t):
 
 
 def _rudert(z, D, t):
-    """Das Dorf rudert hinaus (Ruf). Ist Petrus Werkstatt aus Welle 3 heil, reicht ein Punkt weniger: Petru rudert mit dem Ruder seines Grossvaters (Duc 02.11.2026)."""
+    """Das Dorf rudert hinaus (Ruf). Ist Petrus Werkstatt aus Welle 3 heil, reicht ein Punkt weniger: Petru rudert mit dem Ruder seines Grossvaters (Duc 02.11.2026).
+    Ist Petru mit Mina an die Tueren gegangen (bl_tueren_petru, Tag 22 Mittag), oeffnen die Leute fuer ihn: noch ein Punkt weniger (fix-akt2, Wiki systeme/taktik.md)."""
     ruder = (t.get("haeuser") or {}).get(D["ruder_haus"], {}).get("status") in ("gerettet", "brennt")
-    return z.get("werte", {}).get("ruf", 0) >= D["ruf_rudert"] - (1 if ruder else 0)
+    tueren = "bl_tueren_petru" in z.get("flags", [])
+    return z.get("werte", {}).get("ruf", 0) >= D["ruf_rudert"] - (1 if ruder else 0) - (1 if tueren else 0)
 
 
 def _nachtwache_stellen(z, D, t):

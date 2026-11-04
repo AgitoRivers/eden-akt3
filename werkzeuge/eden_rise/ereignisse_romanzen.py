@@ -35,7 +35,7 @@ def W_L(tage, phase, *bed, spaet=False):
     w = WANN(tage, [phase], bed={"alle": list(bed)}, pflicht=True, holt_leute=True)
     w["leiter"] = True
     if tage[1] <= 6 or spaet:
-        w["akt2"] = [22, 35] if spaet else [8, 35]
+        w["akt2"] = list(AKT3) if spaet else [8, 35]
     return w
 
 

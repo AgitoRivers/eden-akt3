@@ -206,11 +206,11 @@ ROHSTOFFE = {
     "wool": ("Corsican Wool", "Rough, oily and warm, straight off a mountain sheep. It keeps out everything except the smell of sheep.", 15),
     "leather": ("Boar Leather", "Thick hide with a few old scars in it. The boar had a hard life, and the leather remembers.", 12),
     "coral": ("Red Coral", "A branch of red coral from the rocks off the Punta d'Orsu. A good tailor can get six buttons out of it. A bad one gets four.", 20),
-    # Stahl (Duc 30.10.2026): nur fuer Stall-Stufe 3, kein Ladenartikel, faellt ab Tag 22 (Akt 3) aus gewonnenen Kaempfen gegen Menschen
+    # Stahl (Duc 30.10.2026): nur fuer Stall-Stufe 3, kein Ladenartikel, faellt ab Tag 24 (Akt 3) aus gewonnenen Kaempfen gegen Maschinen
     "steel": ("Steel", "Nobody on this island makes it. It only comes ashore inside the machines sent to find you, so you take it back out.", 40),
 }
 NONNA_ROHSTOFF_VORRAT = {"timber": 6, "slate": 6, "iron": 2}
-STAHL_KAMPF = {"ab_tag": 22, "n": 1, "klasse": "maschine"}
+STAHL_KAMPF = {"ab_tag": 24, "n": 1, "klasse": "maschine"}     # Akt 3 beginnt an Tag 24 (E-114, fix-akt2)
 LEDER_KAMPF = {"n": 1, "gegner": ["Boar", "Alpha Boar"]}
 
 # Stall-Stufen: Stufe 1 = bauen, 2 und 3 = ausbauen. Geld + Rohstoffe; Wirkung: Plaetze, +Menge je Produkt, Zucht schneller.

@@ -112,6 +112,7 @@
   function inventar(z){
     const h = z.handel, kp = z.kampf_profil;
     const alle = h ? h.inventar_info : [];
+    const platz = (h && h.plaetze) || 6;          // bag size from the server (8 / 12 / 16), 6 only for old saves without it
     const rang = it => { const i = RUBRIK_REIHE.indexOf(RUBRIK[it.art]); return i < 0 ? 99 : i; };
     const rubrik = it => it.intim ? "Intimate" : RUBRIK[it.art];
     const tasche = alle.filter(it => !OHNE_PLATZ.includes(it.art)).sort((a, b) => rang(a) - rang(b)),
@@ -137,7 +138,7 @@
         ${kp ? `<div class="em-getragen"><span><small>Weapon</small><b>${esc(kp.waffe ? kp.waffe.label : "–")}</b></span><span><small>Jacket</small><b>${esc(kp.ruestung ? kp.ruestung.label : "–")}</b></span></div>
           ${kp.waffe && kp.waffe.eigenschaft ? `<p class="em-zitat">${esc(kp.waffe.eigenschaft)}</p>` : ""}${kp.ruestung && kp.ruestung.eigenschaft ? `<p class="em-zitat">${esc(kp.ruestung.eigenschaft)}</p>` : ""}` : ""}</div>
       <div class="em-spalte em-tasche">
-        <section><h3>Bag <span class="em-zahl">${h ? h.belegt : 0}/6</span></h3><div class="em-slots">${tasche.map(kachel).join("")}${leer(6 - tasche.length)}</div></section>
+        <section><h3>Bag <span class="em-zahl">${h ? h.belegt : 0}/${platz}</span></h3><div class="em-slots">${tasche.map(kachel).join("")}${leer(platz - tasche.length)}</div></section>
         ${h && (h.tasche || []).length + (h.tasche_plaetze || 0) ? `<section><h3>Errands <span class="em-zahl">${(h.tasche || []).length}/${h.tasche_plaetze || 3}</span></h3>
           <div class="em-slots klein">${(h.tasche || []).map(it => `<span class="em-slot" title="${esc(it.label + (it.fuer ? " · for " + it.fuer : ""))}">${bild(it.bild, "")}<span>${esc(it.label)}</span></span>`).join("")}${leer((h.tasche_plaetze || 3) - (h.tasche || []).length)}</div></section>` : ""}
         ${schluessel.length ? `<section><h3>Key Items</h3><div class="em-slots klein">${schluessel.map(kachel).join("")}</div>
