@@ -7,7 +7,7 @@
 | Säule | Wege |
 |---|---|
 | **Wahrheit** | Adriens Fotos, Steuerchip aus dem Kloster, fremdes Teil aus Unit-01, Siris #StrandedInParadise (erst nach der Belagerung, Duc 01.11.2026) |
-| **Geld** | Yamamoto stoppt den Kredit bei Bindung 5, die Margot, Megans Wende. **Scheitert der Tauchgang, ist diese Säule hin** ([`ortskapitel_tauchgang.md`](ortskapitel_tauchgang.md)) |
+| **Geld** | Yamamoto stoppt den Kredit bei Bindung 5, die Margot, Megans Wende. Ein Weg reicht. **Scheitert der Tauchgang, fällt nur der Weg Margot weg** (E-122, [`ortskapitel_tauchgang.md`](ortskapitel_tauchgang.md)) |
 | **Gemeinschaft** | Breites Vertrauen, Ruf, Casanovas Groll wird Mut, Geldkassette der Margot zurück |
 | **Stärke** | Endkampf in Akt 3 gewonnen oder Festsetzen mit Elsa und der Küstenwache |
 

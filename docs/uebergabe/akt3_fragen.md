@@ -1,12 +1,12 @@
 # Akt 3 · Fragenliste an Duc
 
-Stand 04.11.2026, ergänzt für Drehbuch v2 · Cloud-Sitzung `akt3-cloud`. Widersprüche und offene Punkte, die ich nicht selbst lösen darf. Zu jeder Frage steht mein Vorschlag; das Drehbuch (`docs/wiki/welt/drehbuch_akt3.md`) ist mit diesem Vorschlag geschrieben.
+Stand 04.11.2026, ergänzt für Drehbuch v3 (Ducs Entscheide E-122) · Cloud-Sitzung `akt3-cloud`. Widersprüche und offene Punkte, die ich nicht selbst lösen darf. Zu jeder Frage steht mein Vorschlag; das Drehbuch (`docs/wiki/welt/drehbuch_akt3.md`) ist mit diesem Vorschlag geschrieben.
 
 | Nr | Frage | Fundstellen | Vorschlag | Bei Nein |
 |---|---|---|---|---|
-| F-01 | **Die Yacht bei 0 Leben** (`tk_yacht_weg`): auf Grund gesetzt oder gesunken? Hält sie (über 0 Leben), bleibt alles an Bord | Drehbuch Finale Abschnitt 9 Punkt 0, `kern/taktik.py:281-282` | Auf Grund gesetzt, fünfte Baustelle, Crew bei den Familien. Drehbuch v2.1: Weiche W1 mit drei Zweigen, Ersatzreihe Kirche, Piazza, Kai | gesunken wie heute im Code |
+| F-01 | **Die Yacht bei 0 Leben** (`tk_yacht_weg`): auf Grund gesetzt oder gesunken? Hält sie (über 0 Leben), bleibt alles an Bord | Drehbuch Finale Abschnitt 9 Punkt 0, `kern/taktik.py:281-282` | **Entschieden (E-122 a, b):** schwer beschädigt, Rosi und die Eden Group reparieren, Crew schläft in Kirche, bei Alva und im Dorf | – |
 | F-02 | **Elsa und Ajaccio:** Der Cliffhanger lässt Elsa in der Nacht von Tag 23 alles „straight to the commission“ schicken. `dorf_figuren.md` lässt sie sich früh in Akt 3 wundern, dass niemand ermittelt, und erst danach direkt melden | `ereignisse_cliffhanger.py` (`bl_cliff_netz`), `dorf_figuren.md` „Keine Polizei“ | Die Antwort am Morgen von Tag 25 setzt die Kommission auf Tag 35 und verrät nebenbei die „All quiet“-Berichte. Elsa fährt am Samstag (Tag 27) nach Ajaccio, Schublade am Sonntag (Tag 28) | `dorf_figuren.md` gilt, der Cliffhanger-Satz wird geändert und neu vertont |
-| F-03 | **Megans Rückkehrtag** | E-117 „Rückkehrtag offen“ | Tag 25 | ein anderer Tag, die Szene wandert mit |
+| F-03 | **Megans Rückkehrtag** | E-117 „Rückkehrtag offen“ | **Entschieden (E-122 e):** Tag 25 | – |
 | F-04 | **Alvas Applaus für Casanova:** `dorf_figuren.md` und `alva.md` sagen „nicht an die Festa gebunden“, Drehbuch Finale Abschnitt 8 sagt „Der große Applaus für sie bleibt der Festa“ | beide Seiten | Auf der Festa, weil das Drehbuch Finale jünger ist (02.11.) | Applaus nach `a3_berichte` (v2.1: Tag 29) |
 | F-05 | **Flag für die geborgene Margot:** Der Tauchgang ist nicht gebaut, ich finde kein Flag für „Margot geborgen“ | `ortskapitel_tauchgang.md`, `docs/uebergabe/story.md` | Ich lese ein neues Flag `margot_geborgen` und schreibe es in die Übergabe an die Tauchgang-Sitzung | anderer Name, den die Tauchgang-Sitzung festlegt |
 | F-06 | **Riscossore vor der Kommission:** Kommt er immer oder nur, wenn Duc ihn an Tag 29 besucht? | `akt3.md` „Riscossores Buch“ | Er kommt immer (Kanon), der Besuch macht nur die Eco Tours und Ducs Wissen davon | Er kommt nur nach dem Besuch, dann ist Buenaventuras Aussage ohne Besuch wertlos |
@@ -32,6 +32,10 @@ Stand 04.11.2026, ergänzt für Drehbuch v2 · Cloud-Sitzung `akt3-cloud`. Wider
 | F-25 | **Reihenfolge an Tag 35:** `mo_kommission` ist ein eigenes Pflicht-Event mit `holt_leute` in der Phase „tag“ | `ereignisse_mochis.py:182-185` | `mo_kommission` eröffnet, `a3_kommission` schließt an; Reihenfolge in `ereignisse_basis.py` festlegen | `a3_kommission` eröffnet immer, `mo_kommission` folgt |
 | F-26 | **Funkspruch um drei Uhr als Beweis:** Pascal bleibt außerhalb der Fälle (Auflage der Story-Sitzung). Darf die Kommission den Funkspruch hören? | `dorf_figuren.md`, „Regeln für die Spuren“ | ja, als Aussage der Wächter, ohne Pascal als Beschuldigten | streichen |
 | F-27 | **Megan und Pascal** sollen sich nicht begegnen (sie müsste ihn aus Monaco kennen). In der Villa steht Pascal neben Alon | `dorf_figuren.md`, Megan | v2.1: Megan ist weder beim Plan noch im Keller noch beim Dinner | Story-Sitzung schreibt eine Begegnung |
+
+| F-28 | **Lola und Bà Tư als Paar:** Lola ist 24, Bà Tư um die 75. Eine Romanze passt nicht zu beiden Figurenseiten | `lola.md`, `dorf_figuren.md` (Bà Tư) | Familienliebe: Bà Tư wird Lolas Insel-Nan (Drehbuch 7.1) | Duc beschreibt, was er sich vorstellt |
+| F-29 | **Chiara und Alva, Isabelle und Sophia:** Alva will laut Kanon heimlich „einen starken Mann“; Isabelle ist Novizin | `dorf_figuren.md`, `alva.md`, `kloster.md` | zart und offen ohne Etikett (Alva formuliert ihren Wunsch neu); bei Isabelle eine ungesagte Zeile, kein Gelübde gebrochen (Drehbuch 7.2, 7.3) | Paar fällt weg oder wird Freundschaft |
+| F-30 | **Zwei Code-Branches mit denselben Akt-2-Korrekturen:** `fix-akt2` (andere Sitzung) und `fix-akt2-folgen` (diese Sitzung) | beide Branches | nur `fix-akt2` mergen, Drehbuch v3 rechnet damit | `fix-akt2-folgen` mergen, dann Stahl ab Tag 22 und Dons Leben ab Welle 5 |
 
 ## Anschlussstellen, die ich nicht öffne
 

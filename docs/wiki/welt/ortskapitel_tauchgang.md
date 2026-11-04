@@ -16,7 +16,7 @@
 ## Was die Bergung bewirkt (Duc 01.11.2026)
 
 - **Erfolg:** Die Bergung ist ein Höhepunkt und der Abschluss für das Ende von Lea und Sophia. Es ist das gute Ende, das beide wollen.
-- **Fehlschlag (Frist verpasst):** Alon zerstört das Wrack für alle und die Säule Geld ist hin, denn ohne Margot gibt es keine Finanzierung für das Schutzgebiet und keine Touristenattraktion. Riposte ist weg. Die zerbrochene Galionsfigur treibt an den Strand und Lea findet sie, also bleibt Ligeia erreichbar. Lea geht dann auch bei geretteter Bucht auf die Azoren.
+- **Fehlschlag (Frist verpasst):** Alon zerstört das Wrack für alle, und der Weg „Margot“ der Säule Geld ist hin (keine Finanzierung aus dem Wrack, keine Touristenattraktion). Yamamoto mit Bindung 5 und Megans Wende bleiben als Wege offen (Duc, E-122, 04.11.). Riposte ist weg. Die zerbrochene Galionsfigur treibt an den Strand und Lea findet sie, also bleibt Ligeia erreichbar. Lea geht dann auch bei geretteter Bucht auf die Azoren.
 - **Galionsfigur:** Quest-Item. Duc bringt sie zu Ligeia und nennt ihren Namen (`sirene_frei`). Danach steht sie am Eingang des Schutzgebiets.
 
 ## Ablauf, soweit gesetzt
@@ -73,4 +73,4 @@ wieder ([`belagerung.md`](belagerung.md)).
 
 - Wie der Tauchgang spielt und was „erfolgreich“ genau heißt.
 - Wie episch: wie viele Wellen, welche Rettungen und Figuren dazwischen.
-- Beim Umbau der Säulen prüfen: Die Säule Geld hatte noch andere Wege (Yamamoto, Megan), die der Fehlschlag jetzt mit abschaltet ([`enden.md`](enden.md)).
+- Erledigt mit E-122: Der Fehlschlag schaltet nur den Weg Margot ab, Yamamoto und Megan bleiben ([`enden.md`](enden.md)).
