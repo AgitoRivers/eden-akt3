@@ -45,6 +45,19 @@ Stand 04.11.2026, Block 3: Drehbuch Version 3.4 (Bones, Charly und Danzel, Festa
 - **Für Character Design (optional):** Holms Mutter als Bild (F-14), bis dahin nur ihre Zeile. Der Chef der Eden Group bleibt nur Stimme (F-07), kein Bild.
 - **Kommission als Verhandlung (F-08):** Regeln, Daten, 49 Zeilen und Test gebaut (`kern/kommission.py`, `kommission_akt3.py`). **Lokal:** Plugin `eden-commission` bauen und `kommission.AN = True` setzen, Bauanleitung im Drehbuch 12a. Sprecher `anwalt` und `kommissar` brauchen Stimmen. Die Anhörung selbst ist an die Fall-Daten und die vh.-Texte gebunden, die diese Sitzung nicht öffnen darf; die Kommission bekommt eigenes Modul und eigene Daten.
 
+## Nachtrag 04.11. spät („ja mach alles“)
+
+- **Endsimulation:** `tests/sim_enden_akt3.py`, Bericht `akt3_enden_simulation.md`. Ende 3 kommt zu oft, 2½a, 2b und 2c fast nie. Vorschlag E-131 (offen).
+- **Prüfregeln enger:** Gezogene `a3_`-Szenen mit Megan brauchen `megan_zurueck` oder `megan_funke`, mit Holm `holm_zurueck` (außer Pflicht-Szenen). Ein Fund (`a3_mitternacht_megan`) ist behoben.
+- **Legenden:** Das Dorf redet über Buenaventuras Schwur, über den Anwalt Maître Delorme und Kommissar Luciani, und über das rote Licht auf dem Kamm (mit Fassungen für Mast aus und Mast an). 16 Zeilen mit Turbo-Tags, in `stimme_tags.json`.
+- **Kommissar umbenannt:** Er hieß Santoni wie Alva, jetzt **Luciani**. Stimme und Bild unter dem neuen Namen bestellen.
+- **Wiki gegen Code:** Bericht auf Branch `wiki-vs-code` abgeglichen. H1, H2, H4, H5, H6, H8 waren schon behoben. Gemacht: H9 (Rücksprünge, Wiki und Docstring), H10 (Bà Tư „You, later.“ hat jetzt `[sigh]`, lokal vertonen). Offen als Fragen: H3 Funken (F-37), H7 Funk-Vorwarnung (F-38).
+- **Figurenseiten:** 17 Seiten haben einen Abschnitt „Akt 3“ mit Szenen, Flags und Vermerken, wo Akt 3 älteren Text überholt. Minicu und Sandru haben keine eigene Seite.
+- **Bild-Prompts:** in `akt3_bestellungen.md`, Abschnitt „Prompts für Character Design“ (Hintergründe, Häuser je Bauphase, AlonExo, Delorme, Luciani und weitere).
+- **Textprüfung:** `akt3_textpruefung.md`, 80 Befunde. Einarbeitung läuft, Stand steht in der Datei hinter jeder Zeile.
+- **Kommission als Bildschirm:** Plugin `client/plugins/eden-commission/` blind gebaut und in `index.html` eingebunden. **Lokal:** Spiel starten, `kommission.AN = True`, einmal durchspielen (Press, Karte wählen, OBJECTION!, „I have nothing“, Plädoyer, Continue). Danach Bilder der Sprecher und das Ausblenden der Spielleisten nach dem Muster `eden-hearing` ergänzen.
+- **Danzel in Rosis Schluss-Szene** fehlt im Code (F-39).
+
 ## Wartet auf Ducs Urteil
 
 - E-128 (Säulen und Enden im Code), F-34 (Wohnen als Raum-Logik), F-35 (Enden ohne Wahrheit), F-36 (★).
