@@ -55,6 +55,22 @@ window.EdenFarm = (function(){
     return `<div class="ef-rohstoffe" title="Building materials: Nonna sells some each day, and the sea and the creek wash some up while you fish.">
       ${(f.rohstoffe || []).map(r => `<span>${rohIc(r.id)} <b>${r.n}</b> ${esc(r.label)}</span>`).join("")}</div>`;
   }
+  // Akt 3 (04.11.2026, kern/aufbau.py): building sites in the village. One stage at a time, the pirates build it overnight.
+  let hatBau = false;
+  const ROH_NAME = {timber: "Timber", slate: "Slate", granite: "Granite", steel: "Steel", iron: "Iron", cork: "Cork"};
+  function baustellen(k){
+    const b = k.baustellen || [];
+    if (!b.length) return `<p class="leer">No house in the village needs rebuilding.</p>`;
+    return `<p class="leer">Bring the materials for the next stage. Buenaventura's men build it during the night.${b.some(x => x.rabatt) ? " Charly's money makes every stage cheaper." : ""}</p>` + b.map(s => {
+      const kopf = `<h4>${esc(s.name)} <span class="ef-stufe-badge">Stage ${s.stufe}/${s.stufen}</span></h4>`;
+      if (s.fertig) return `<section class="ef-stall">${kopf}<p class="ef-voll">Rebuilt. The door is open again.</p></section>`;
+      if (!s.begonnen) return `<section class="ef-stall ef-zu">${kopf}<p class="leer">Nobody has started here yet. Lay the first stone in the village (“Lend a Hand”).</p></section>`;
+      if (s.geliefert) return `<section class="ef-stall">${kopf}<p class="leer">The materials are there. The pirates build tonight.</p></section>`;
+      const kosten = `<span class="ef-kosten">${s.braucht.map(r => `<span class="${r.hast >= r.n ? "ok" : "fehlt"}">${rohIc(r.id)} ${r.hast}/${r.n} ${esc(ROH_NAME[r.id] || r.id)}</span>`).join("")}</span>`;
+      return `<section class="ef-stall">${kopf}<div class="ef-ausbau"><div><b>Next stage</b></div>${kosten}
+        <button class="mini" type="button" ${s.geht ? "" : "disabled"} onclick="EdenFarm.act('baustelle_liefern', {haus:'${esc(s.id)}'})">Bring the materials</button></div></section>`;
+    }).join("");
+  }
   function garten(f){
     return `<div class="ef-beete">${f.garten.map(b => b.leer
       ? `<div class="ef-beet leer"><small>Bed ${b.beet + 1}</small><select id="efb-${b.beet}" aria-label="Plant for bed ${b.beet + 1}">${f.pflanzen.map(p => `<option value="${esc(p.id)}">${esc(p.label)} · ${geld(p.preis)}</option>`).join("")}</select>
@@ -87,9 +103,10 @@ window.EdenFarm = (function(){
     if (panel === "garten") return kopf + garten(k.farm);
     if (panel === "tiere") return kopf + `<div class="ef-staelle">${staelle(k.farm)}</div>`;
     if (panel === "vorrat") return kopf + vorrat(k);
+    if (panel === "dorf") return kopf + `<div class="ef-staelle">${baustellen(k)}</div>`;
     return kopf + laden(k);
   }
-  function wahlpunkte(){ return [["garten", "Garden"], ["tiere", "Animals"], ["kaufen", "Shop"], ["vorrat", "Pantry"]]; }
+  function wahlpunkte(){ return [["garten", "Garden"], ["tiere", "Animals"], ["kaufen", "Shop"], ["vorrat", "Pantry"]].concat(hatBau ? [["dorf", "Village"]] : []); }
 
   // ---------------------------------------------------------------- Kitchen builder (in Lola's galley)
   async function vorschauLaden(){
@@ -124,6 +141,7 @@ window.EdenFarm = (function(){
 
   // ---------------------------------------------------------------- Frederico (after leaving the shop)
   function update(z){
+    hatBau = !!(z && z.kueche && (z.kueche.baustellen || []).length);
     const f = z && z.kueche && z.kueche.fred;
     if (!f){ fredId = null; return; }
     if (fredId === f.id) return;

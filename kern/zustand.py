@@ -333,6 +333,12 @@ def folgen_anwenden(z, modul, folgen, frei=True, quelle="events"):
         if "expedition" in f:                   # Expedition (26.10.2026, kern/expedition.py): Name = Start, "ende" = geschafft
             from . import expedition
             zeilen += expedition.ende(z, modul) if f["expedition"] == "ende" else expedition.starten(z, f["expedition"], modul)
+        if "aufbau_beginnen" in f:              # Akt 3 (04.11.2026): Duc setzt den ersten Stein (kern/aufbau.py)
+            from . import aufbau
+            zeilen += aufbau.beginnen(z, f["aufbau_beginnen"])
+        if "aufbau_stufe" in f:                 # Bauen-Los der Festa: eine Stufe ohne Baustoffe
+            from . import aufbau
+            zeilen += aufbau.stufe_geschenkt(z, f["aufbau_stufe"])
         if "codex" in f and f["codex"] not in z["codex"]:
             z["codex"].append(f["codex"])
             zeilen.append("Codex: " + f["codex"])

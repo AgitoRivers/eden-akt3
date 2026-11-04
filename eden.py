@@ -23,7 +23,7 @@ from kern import handel, showrunner, chronik, gesten, wuerfel, kabine, ermittlun
 from kern import kampf  # noqa: E402
 from kern import tutorial  # noqa: E402
 from kern import anhoerung  # noqa: E402
-from kern import belagerung, taktik  # noqa: E402
+from kern import aufbau, belagerung, taktik  # noqa: E402
 from kern import album  # noqa: E402
 from kern import sturm  # noqa: E402
 from kern import expedition  # noqa: E402
@@ -125,6 +125,7 @@ def weiter(z, modul, r):
             zeilen += handel.tagesende(z, modul)      # Honorar, Hehlerei, Schmuggel (16.10.2026)
             zeilen += ereignisse.tagesende(z, modul, moddir(z["modul"]))    # Bordregeln, Versprechen (B5)
             zeilen += legenden.tagesende(z, modul, moddir(z["modul"]), zustand.folgen_anwenden)   # Dorf redet (30.10.)
+            zeilen += aufbau.tag_vorbei(z)              # Akt 3: Piraten bauen nachts, was Duc geliefert hat (04.11.2026)
             auftraege.tagesbeginn(z, moddir(z["modul"]))   # seit wann ein Ort offen ist (Erinnerung, 02.11.2026)
             if z["status"] != "ende":
                 zeilen += moral.morgen(z, modul)          # Crew-Stimmung: Verfall, Fruehstueck, Geschenk (27.10.2026)
@@ -171,6 +172,8 @@ def farm_aktion(z, modul, name, daten):
         i = kuechen.nonna_verlassen(z, modul)
         if i is not None:
             kuechen.kueche(z)["fred"] = i
+    elif name == "baustelle_liefern":                # Akt 3: Baustoffe fuer die naechste Stufe (kern/aufbau.py)
+        aufbau.liefern(z, daten.get("haus") or "")
     elif name == "fred_gehoert":
         (z.get("kueche") or {}).pop("fred", None)
     return []
@@ -190,6 +193,7 @@ def kuechen_ansicht(z, modul):
     fred = (z.get("kueche") or {}).get("fred")
     saetze = d.get("frederico") or []
     return {"vorrat": vorrat, "bonus": kuechen.bonus_ansicht(z, modul), "nonna": n, "farm": farm.ansicht(z, modul),
+            "baustellen": aufbau.ansicht(z),
             "fred": {"id": "fred.%d" % fred, "text": saetze[fred]["text"]} if fred is not None and fred < len(saetze) else None,
             "essen_frei": handel.essen_frei(z, modul)}
 
