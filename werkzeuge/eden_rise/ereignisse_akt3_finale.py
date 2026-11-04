@@ -43,17 +43,17 @@ KOMMISSION = [
        JE(G("batu", "[clear throat] Men in white. They asked me twice for the north road. I told Duc then. Now I tell you.", "neutral"), "batu", ZG("batu")),
        JE(G("alva", "[sniff] From the square I saw the north barricade open. Then men in white came through. Papa would say: tell them, then pour them a drink. So I tell you.", "sadness"), "alva", FL("a3_zeuge_alva_papa")),
        JE(G("alva", "[sigh] From the square I saw the north barricade open. Then men in white came through. I saw that with my own eyes.", "neutral"), "alva", ZG("alva")),
-       JE(G("sandru", "[clear throat] My name is Iskander. I carried Alva out of the rubble. And the next week, A.V. switched off my legs.", "neutral"), "sandru",
+       JE(G("sandru", "[clear throat] My name is Iskander. I carried Alva out of the rubble. And eleven days later, A.V. switched off my legs.", "neutral"), "sandru",
           {"alle": [ZG("sandru"), FL("sandru_herkunft")]}),
-       JE(G("sandru", "[clear throat] My name is Sandru. I carried Alva out of the rubble. And the next week, A.V. switched off my legs.", "neutral"), "sandru", ZG("sandru")),
+       JE(G("sandru", "[clear throat] My name is Sandru. I carried Alva out of the rubble. And eleven days later, A.V. switched off my legs.", "neutral"), "sandru", ZG("sandru")),
        JE(G("anghjulu", "[clear throat] I saw the gate open. I was sober. Write that down too. It doesn't happen often.", "neutral"), "don",
           {"alle": [ZG("anghjulu"), FL("bl_kirche_don")]}),
        JE(G("anghjulu", "[sigh] I was asleep on the church steps, my son. But I saw the gate open before I fell asleep.", "remorse"), "don",
           {"alle": [ZG("anghjulu"), FL("bl_kirche_don_schlaeft")]}),
        JE(G("anghjulu", "[clear throat] Only what my eyes saw, not my ears: the gate opened. I was outside the church door all night.", "neutral"), "don", FL("a3_zeuge_anghjulu_ehrlich")),
        JE(G("anghjulu", "[sigh] I was outside the church door all night. I saw the gate open.", "neutral"), "don", ZG("anghjulu")),
-       JE(G("casanova", "[sigh] Every night someone left his paper on my church steps. I kept all of it. I'm giving it to you for the festa. A terrible reason, but it's mine.", "embarrassment"), "casanova", FL("a3_zeuge_casanova_festa")),
-       JE(G("casanova", "[clear throat] Every night someone left his paper on my church steps. I kept all of it. Here it is.", "pride"), "casanova", ZG("casanova")),
+       JE(G("casanova", "[sigh] Every night, Alon's people left a letter on my church steps, in that neat handwriting. I kept all of them. I'm giving them to you for the festa. A terrible reason, but it's mine.", "embarrassment"), "casanova", FL("a3_zeuge_casanova_festa")),
+       JE(G("casanova", "[clear throat] Every night, Alon's people left a letter on my church steps, in that neat handwriting. I kept all of them. Here they are.", "pride"), "casanova", ZG("casanova")),
        G("bonaventure", "[clear throat] A man named White paid me in clean money, like a bank. I gave the order to burn. I gave the order to stop. "
                         "I am Captain Buenaventura of The Eventually.", "remorse"),
        JE(G("riscossore", "[chuckle] He's telling the truth. It's in my book, page forty-one. A man in prison pays nobody, so I'd like him to stay out.", "neutral"),
@@ -62,8 +62,8 @@ KOMMISSION = [
                           "A man in prison pays nobody.", "neutral"), "risc", None)],
       [O("Watches the clerk write.", [F("a3_zeuge_bonaventure"), DIREKT("a3_kom_minicu")])]),
     E("a3_kom_minicu", "gag1", "ernst", "The Big Man", FRAME(), "village_harbour", P1("anghjulu"),
-      "The older commissioner looks at his list.",
-      [G("anghjulu", "[sigh] The man at the gate? The big one? He can't come today.", "sadness")],
+      "The older commissioner looks at his list and asks: “The man at the gate? The big one?”",
+      [G("anghjulu", "[sigh] He can't come today, Commissioner.", "sadness")],
       [O("Says nothing. Nobody on the quay asks what that means.", [DIREKT("a3_kom_beweise")])],
       sets={"anghjulu": "anghjulu_standard"}),
     E("a3_kom_beweise", "gag1", "ernst", "Paper", FRAME(), "village_harbour", P1("elsa"),
@@ -73,7 +73,7 @@ KOMMISSION = [
        JE(G("siri", "[sigh] My video. No filter, no music. Just what we saw.", "neutral"), "siri", FL("a3_siri_post")),
        JE(G("sophia", "[clear throat] Darling, I wrote down every time and every word I heard on the radio that night. I didn't know why. Now I do.", "neutral"), "sophia", FL("sophia_notizen")),
        JE(G("charly", "[sigh] Twenty-one forty. He said 'tonight'. Seven out of ten for clarity.", "neutral"), "funk", {"eine": [FL("bl_funk_white"), FL("bl_funk_charly")]}),
-       JE(G("elsa", "[clear throat] The radio log. Three o'clock, the night of the twenty-second. Two words.", "neutral"), "wache", FL("bl_wache_gesehen")),
+       JE(G("elsa", "[clear throat] The radio log. Three o'clock, the night of the twenty-second, from the north road. Two words: 'Not yet.'", "neutral"), "wache", FL("bl_wache_gesehen")),
        G("elsa", "[clear throat] And Pascal's book, from his locked drawer. First Officer. All of it, or only Alon's part?", "neutral")],
       [O("“All of it.”", [F("a3_kassenbuch_alles"), DIREKT("a3_kom_ende")],
          zeile=G("casanova", "[sigh] Yes. Me too.", "neutral")),
@@ -131,7 +131,7 @@ FESTA = [
        JE(G("alva", "[chuckle] 'Fresh Bread.' Sandru knows why. Nobody else has to.", "embarrassment"), "drink", LOSW("getraenk", "brot")),
        JE(G("nonna", "[chuckle] Herbs on the long table. For everyone.", "caring"), "garten", LOSW("garten", "tafel")),
        JE(G("nonna", "[chuckle] Herbs in Bà Tư's pot. She says it's too much. It's never too much.", "amusement"), "garten", LOSW("garten", "topf")),
-       JE(G("nonna", "[laugh] Frederico ate half the basket on the way. The other half is here.", "amusement"), "garten", LOSW("garten", "fred"))],
+       JE(G("nonna", "[chuckle] Basil on the church steps. Don says he doesn't like it. He smells it every time he walks past.", "amusement"), "garten", LOSW("garten", "kirche"))],
       [O("Walks on to the decorations.", [DIREKT("a3_festa_schmuck")])]),
     E("a3_festa_schmuck", "gag1", "wholesome", "The Festa: Decoration", FRAME(), "village_piazza", P1("casanova"),
       "And over everything: what people hung up, painted and sewed.",
@@ -184,7 +184,7 @@ FESTA = [
        JE(G("danzel", "[gasp] In public?!", "love"), "danzel", FL("a3_paar_charly")),
        JE(G("charly", "[chuckle] Eleven.", "love"), "charly2", FL("a3_paar_charly")),
        JE(G("bibi", "[laugh] Finally! I had a bet with myself. I won.", "joy"), "bibi", {"alle": [FL("a3_paar_charly"), FL("rt_bibi_bleibt")]}),
-       JE(G("danzel", "[gasp] Duc! She gave me a nine yesterday, because you said so. Today: eleven. Nobody is humble here!", "joy"), "danzel2", FL("a3_paar_charly_neun")),
+       JE(G("danzel", "[gasp] Duc! She gave me a nine, because you said so. Tonight: eleven. Nobody is humble here!", "joy"), "danzel2", FL("a3_paar_charly_neun")),
        JE(G("danzel", "[sniff] You said it was the best ten you ever heard. It still is.", "love"), "danzel2", FL("a3_paar_charly_zehn")),
        JE(G("danzel", "[sniff] You left us alone in the shop. Thank you. I cried into a curtain. It's a good curtain.", "love"), "danzel2", FL("a3_paar_charly_allein")),
        JE(G("laetitia", "[sniff] Papa. You wrote 'I need you'. All my life you never said it.", "love"), "laetitia",
@@ -194,7 +194,8 @@ FESTA = [
        JE(G("laetitia", "[sniff] Papa. A bay leaf in the milk. You remembered Mama's secret. I'm here.", "love"), "laetitia",
           {"alle": [FL("a3_petru_brief_marie"), {"eine": [FL("bg_weg_c"), FL("petru_versoehnt")]}]}),
        JE(G("mina", "[clear throat] Petru! A postcard from the mountains, just now. One line: Me too, Papa.", "joy"), "laetitia", FL("a3_petru_brief")),
-       JE(G("ghjuvan", "[sigh] The red light on the ridge went out. I slept for the first time in a month. So did my sheep.", "relief"), "mast", FL("a3_mast_aus")),
+       JE(G("ghjuvan", "[sigh] Ghjuvan, from the hills. The red light on the ridge went out. I slept for the first time in a month. So did my sheep.", "relief"), "mast",
+          {"alle": [FL("a3_mast_aus"), NICHT(FL("bg_ghjuvan_tot"))]}),
        JE(G("charly", "[clear throat] ...Up there it's still blinking. She's watching. Let her watch this.", "pride"), "mast",
           {"alle": [FL("a3_mast_an"), {"flag": "rt_charly_bleibt"}]}),
        JE(G("lola", "[laugh] Nan's on the phone! Say hello to the whole village, Nan!", "joy"), "nan", FL("a3_paar_lola_nan")),
@@ -224,7 +225,7 @@ FESTA = [
 # ------------------------------------------------------------------ Mitternacht (Tag 35, Nacht)
 MITTERNACHT_ZEILE = {
     "chiara": ("[sigh] Ten. That's a ten, First Officer. Don't let it go to your head. ...Let it go to your head a little.", "love"),
-    "alva": ("[chuckle] Only you. Don't tell anyone. They'd never believe it.", "love"),
+    "alva": ("[chuckle] Only you. Not to everyone. They'd never believe it.", "love"),
     "lea": ("[sigh] The Azores can wait one more night. Two fingers?", "love"),
     "sophia": ("[chuckle] I've lost the bet. Best ten euros I ever lost.", "love"),
     "rosi": ("[sigh] ...Captain. There. I said it. Don't make a face.", "love"),
@@ -233,12 +234,17 @@ MITTERNACHT_ZEILE = {
     "bibi": ("[chuckle] I'm a mess, and you came anyway. Good.", "love"),
     "megan": ("[sigh] We never speak of this. ...Stay a bit.", "desire"),
 }
-SCHLUSS_ECHO = {'chiara': ['The torch, and you let me find the breaker myself.', 'The red one, second row. Show-off.', 'We found it together. In the dark.'], 'alva': ["You wrote 'stays' next to my name. In chalk. Chalk is forever, in my bar.", 'You left the space empty, so I could choose. I chose.', "You gave me the chalk. I wrote it myself. Don't ask what."], 'lea': ["Not fast, but yes. I'm holding you to that.", "You said stay. I'm thinking about it. Very hard.", "Two fingers. That's still an answer."], 'sophia': ["You gave me the letter. It said yes. I'm still shaking.", 'You read the first line out loud. I heard it in your voice. Better.', "It's still closed, in my notebook. Later. Together. Now?"], 'rosi': ["Captain. I said it once. That's the limit.", "Duc. It's still harder than Captain.", "Draw. We're a draw. I can live with that."], 'lola': ['You put your phone away. Nobody does that for me.', "You made me sit down too. I'm sitting. Look.", 'You stirred. Badly. Perfect.'], 'siri': ['No caption. Still none.', 'Siri, in her own words. Here they are.', "You took my hand and didn't answer. Do it again."], 'bibi': ['You let me cut the last collar. Mine.', 'We did it together. His head was so heavy.', 'You gave me the knife without a word. I love that. Still.'], 'megan': ['You already did. Off the record. Still.', 'Duc. There. I said it twice now.', 'You nodded and stayed. Stay again.']}
+SCHLUSS_ECHO = {'chiara': ['The flashlight, and you let me find the breaker myself.', 'The red one, second row. Show-off.', 'We found it together. In the dark.'], 'alva': ["You wrote 'stays' next to my name. In chalk. Chalk is forever, in my bar.", 'You left the space empty, so I could choose. I chose.', "You gave me the chalk. I wrote it myself. Don't ask what."], 'lea': ["Not fast, but yes. I'm holding you to that.", "You said stay. I'm thinking about it. Very hard.", "Two fingers. That's still an answer."], 'sophia': ["You gave me the letter. It said yes. I'm still shaking.", 'You read the first line out loud. I heard it in your voice. Better.', "It's still closed, in my notebook. Later. Together. Now?"], 'rosi': ["Captain. I said it once. That's the limit.", "Duc. It's still harder than Captain.", "A draw. Nobody won. I can live with that."], 'lola': ['You put your phone away. Nobody does that for me.', "You made me sit down too. I'm sitting. Look.", 'You stirred. Badly. Perfect.'], 'siri': ['No caption. Still none.', 'Siri, in her own words. Here they are.', "You took my hand and didn't answer. Do it again."], 'bibi': ['You let me cut the last collar. Mine.', 'We did it together. His head was so heavy.', 'You gave me the knife without a word. I love that. Still.'], 'megan': ['You already did. Off the record. Still.', 'Duc. There. I said it twice now.', 'You nodded and stayed. Stay again.']}
+# Echo-Tags je Zeile (Textpruefung Nr. 77): froehliche Echos lachen, der Rest seufzt
+ECHO_TAG = {"The red one, second row. Show-off.": "[chuckle]", "You gave me the knife without a word. I love that. Still.": "[laugh]",
+            "You stirred. Badly. Perfect.": "[chuckle]", "Duc. There. I said it twice now.": "[chuckle]",
+            "Two fingers. That's still an answer.": "[chuckle]", "A draw. Nobody won. I can live with that.": "[chuckle]",
+            "You made me sit down too. I'm sitting. Look.": "[laugh]", "You gave me the chalk. I wrote it myself. Don't ask what.": "[chuckle]"}
 MITTERNACHT = [
     E("a3_mitternacht_" + pid, "gag1", "wholesome", "After Midnight",
       PFL(35, "nacht", {"alle": [NICHT(DEAL), FL("a3_mitternacht_" + pid)] + ([FL("megan_zurueck")] if pid == "megan" else [])}), "village_harbour", P1(pid),
       "After midnight. The music from the piazza is quieter down here on the mole. She is already there.",
-      [JE(G(pid, "[sigh] " + SCHLUSS_ECHO[pid][n], "love" if pid != "megan" else "desire"), "echo", FL("a3_schluss_%s_%d" % (pid, n))) for n in range(3)]
+      [JE(G(pid, ECHO_TAG.get(SCHLUSS_ECHO[pid][n], "[sigh]") + " " + SCHLUSS_ECHO[pid][n], "love" if pid != "megan" else "desire"), "echo", FL("a3_schluss_%s_%d" % (pid, n))) for n in range(3)]
       + [G(pid, MITTERNACHT_ZEILE[pid][0], MITTERNACHT_ZEILE[pid][1])],
       [O("Stays.", [F("a3_mitternacht_fertig")])]) for pid, _n in MN_FRAUEN
 ] + [

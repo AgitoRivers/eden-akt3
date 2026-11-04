@@ -19,8 +19,8 @@ PETRU = [
     FR("a3_petru_netz", "petru_workshop", "Not in the Net",
        "Petru sits in front of his workshop and mends a net. It is the same net as every afternoon, and it is not broken. "
        "The radio on the workbench plays Corsican football, very quietly.",
-       [G("petru", "[clear throat] Marie used to say I mend this net so my hands don't think. She was right. She was always right, "
-                   "except about the fish pie. Mine was never as good as hers.", "sadness"),
+       [G("petru", "[clear throat] Marie used to say I mend this net so my hands don't think. She was right. She was always right. "
+                   "She said my fish pie was good. That was the only time she was wrong.", "sadness"),
         G("petru", "[sigh] Five years. Every afternoon. Not one hole in it. ...Sit. If you sit, you hold the other end.", "neutral")],
        [O("Sits down and holds the other end of the net.", [F("a3_petru_netz"), F("a3_petru_netz_halten"), V("petru", 6)],
           zeile=G("petru", "[sigh] Good. ...After the festa I give this net away. The people who spoke, their names go in the knots. "
@@ -36,7 +36,7 @@ PETRU = [
       "Rosi is working at Petru's bench. Her jar of small screws is open. A long red arm comes out of the water tank and takes the jar.",
       [G("rosi", "[gasp] Petru! Your octopus has my screws. All of them.", "anger"),
        G("petru", "[clear throat] Bastianu does not steal. He borrows. Like the sea. Everything comes back, eventually.", "neutral"),
-       G("rosi", "[sigh] Eventually? I need them now. ...He's screwing the lid back on. From the inside. That's a talent.", "surprise")],
+       G("rosi", "[sigh] Eventually? I need them now. ...He's putting the lid back on. From the inside. That's a talent.", "surprise")],
       [O("Offers Bastianu a sardine for the jar.", [V("petru", 2), V("rosi", 2)],
          zeile=G("petru", "[chuckle] A fair trade. He likes you. He doesn't like many people.", "amusement")),
        O("“Hire him, Rosi. He's faster than Totò.”", [V("rosi", 2)],
@@ -44,14 +44,14 @@ PETRU = [
       sets={"rosi": "Engine Room", "petru": "Standard"}),
     E("a3_petru_eintopf", "gag1", "wholesome", "Fish Sauce", WANN((26, 31), ["dinner"], bed=AKT3), "petru_workshop",
       P1("batu", ("petru", "+", "lifts the lid")),
-      "Bà Tư comes into the workshop with a pot. She has done this every week since the siege, because she thinks he is lonely.",
+      "Bà Tư comes into the workshop with a pot. She has come every evening since the siege, because she thinks he is lonely.",
       [G("batu", "[clear throat] Fish stew. With fish sauce. You said the first one smelled like a harbour at noon.", "caring"),
-       G("petru", "[chuckle] It did. Now I wait for it. The whole week. ...Here. Two mullet. From this morning.", "gratitude"),
+       G("petru", "[chuckle] It did. Now I wait for it. The whole week. ...Here. Two fish. From this morning.", "gratitude"),
        G("batu", "[sigh] He gives me fish, I give him fish. We are two old idiots, con. Eat with us.", "caring")],
       [O("Sits down between them and eats.", [V("batu", 2), V("petru", 2)],
          zeile=G("petru", "[sigh] Marie would like her. She would not say so. Like me.", "caring")),
        O("“Is this a date?”", [V("batu", 2)],
-         zeile=G("batu", "[laugh] A date! He has the Norwegian for that. I have the stew. Eat.", "amusement"))]),
+         zeile=G("batu", "[laugh] A date! He has the Norwegian captain for that. I have the stew. Eat.", "amusement"))]),
     E("a3_petru_brief", "gag1", "wholesome", "A Letter to Laetitia", WANN((29, 33), ["nachmittag"], bed={"alle": [AKT3, {"wert": ["vertrauen.petru", ">=", 3]}]}),
       "petru_workshop", P1("petru", ("mina", "?", "waits with her bag")),
       "Petru has a sheet of paper on the workbench and a pencil he has sharpened three times. Mina waits at the door with her bag.",
@@ -59,7 +59,7 @@ PETRU = [
                      "I want to say something to her. I am bad with paper.", "sadness"), "weg", FL("bg_weg_a")),
        JE(G("petru", "[clear throat] You took her over the sea, that night. I was angry. Her card made me less angry. "
                      "Now I want to write back. I am bad with paper.", "neutral"), "weg", FL("bg_weg_b")),
-       JE(G("petru", "[sigh] She is up there, in the Bergerie, with him. Happy, I think. I want to ask her to come down for the festa. "
+       JE(G("petru", "[sigh] She is up there, in the shepherd's hut, with him. Happy, I think. I want to ask her to come down for the festa. "
                      "I am bad with paper.", "sadness"), "weg", None),
        G("petru", "[clear throat] All her life I never told her I need her. What do I write?", "nervousness")],
       [O("“Write exactly that. 'I need you.'”", [F("a3_petru_brief"), F("a3_petru_brief_brauche"), V("petru", 6)],

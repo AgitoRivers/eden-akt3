@@ -10,7 +10,7 @@ from . import aufbau
 
 KEVIN = "Kevin is on the church roof again, above the back room. He hasn't moved."
 DANK = {
-    "post": "Mina rides past on her bicycle and honks twice. The post office came through the fire. She waves a letter at you: “Not a bill!”",
+    "post": "Mina rides past on her Vespa and honks twice. The post office came through the fire. She waves a letter at you: “Not a bill!”",
     "batu": "There is a tin of biscuits on the step of Bà Tư's shop, with your name on it. Her shop came through the fire.",
     "bar": "Alva has written one word on Papa's board, under all the names: OPEN. Her bar came through the fire.",
     "werkstatt": "Petru's rudder still hangs over his workshop door, not burned. He nods at you once when you walk past.",
@@ -63,13 +63,13 @@ ENDE_TEXT = {
            "Pascal stands in a queue of creditors in Monaco, a number in his hand."),
     "2b": ("The most beautiful festa the bay has seen. At midnight, a red light blinks once in the mountains.",
            "Buenaventura runs his Eco Tours, a hat made from a feeding bucket on his head.",
-           "Nonna's seedlings bloom on the festa table. Nobody says who sent them."),
+           "Pascal waters Nonna's seedlings on the festa table, early, before anyone is awake. Nobody says who sent them."),
     "2c": ("Elsa leads Alon away in handcuffs. Above the bay, a new helicopter is already coming: the next buyer.",
            "Buenaventura runs his Eco Tours, a hat made from a feeding bucket on his head.",
            "Pascal climbs out of the helicopter, with the next buyer's folder under his arm."),
     "2.5a": ("The village owns the bay now, and it owes everyone. Petru sells his green boat to pay the first bill.",
              "Buenaventura runs his Eco Tours, a hat made from a feeding bucket on his head.",
-             "The cooperative keeps its books in Pascal's old ledger, because his numbers were right."),
+             "The cooperative keeps its books in Pascal's old cash book, because his numbers were right."),
     "2.5b": ("The bay is a nature park now, owned by a foundation in Paris. Petru stands outside a fence.",
              "Buenaventura runs his Eco Tours, with a badge from the foundation.",
              "Pascal says good morning to Petru at the fence. He wears the foundation's badge around his neck."),

@@ -27028,300 +27028,6 @@
    "quelle": "erinnerung"
   },
   {
-   "wer": "kommissar",
-   "text": "First question. The fire on the night of the twenty-second. Maître, your client's version.",
-   "gesprochen": "[clear throat] First question. The fire on the night of the twenty-second. Maître, your client's version.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "anwalt",
-   "text": "A band of pirates attacked this village on their own, for loot. It is sad, but it is simple.",
-   "gesprochen": "[clear throat] A band of pirates attacked this village on their own, for loot. It is sad, but it is simple.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "anwalt",
-   "text": "Pirates steal, Commissioner. That is what the word means. Nobody needs to pay a pirate to be a pirate.",
-   "gesprochen": "[chuckle] Pirates steal, Commissioner. That is what the word means. Nobody needs to pay a pirate to be a pirate.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "anwalt",
-   "text": "Nobody could have known it was coming. Not the village, not my client.",
-   "gesprochen": "[sigh] Nobody could have known it was coming. Not the village, not my client.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "anwalt",
-   "text": "Nobody. Not one call, not one warning. If someone knew, they kept it to themselves.",
-   "gesprochen": "[clear throat] Nobody. Not one call, not one warning. If someone knew, they kept it to themselves.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "anwalt",
-   "text": "My client's security team arrived in forty minutes and saved lives. Zero dead.",
-   "gesprochen": "[clear throat] My client's security team arrived in forty minutes and saved lives. Zero dead.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "anwalt",
-   "text": "Forty minutes, door to door. It was on every screen in Europe. Ask anyone on this square who saw them.",
-   "gesprochen": "[chuckle] Forty minutes, door to door. It was on every screen in Europe. Ask anyone on this square who saw them.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "kommissar",
-   "text": "...Maître. Would you like to say that sentence again? Slowly?",
-   "gesprochen": "[sigh] ...Maître. Would you like to say that sentence again? Slowly?",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "anwalt",
-   "text": "I... my client was misinformed about the details. The details.",
-   "gesprochen": "[cough] I... my client was misinformed about the details. The details.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "petru",
-   "text": "Hm. The sea doesn't lie either.",
-   "gesprochen": "[clear throat] Hm. The sea doesn't lie either.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "kommissar",
-   "text": "Second question. How did the attackers get into the village?",
-   "gesprochen": "[clear throat] Second question. How did the attackers get into the village?",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "anwalt",
-   "text": "The north barricade broke under the attack. Old wood, Commissioner. It simply gave way.",
-   "gesprochen": "[clear throat] The north barricade broke under the attack. Old wood, Commissioner. It simply gave way.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "anwalt",
-   "text": "Broken, yes. From the outside, by force. It was closed and locked until the very end. I have that in writing.",
-   "gesprochen": "[sigh] Broken, yes. From the outside, by force. It was closed and locked until the very end. I have that in writing.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "anwalt",
-   "text": "The men in white were my client's security. They came to protect the village, not to attack it.",
-   "gesprochen": "[clear throat] The men in white were my client's security. They came to protect the village, not to attack it.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "anwalt",
-   "text": "They came when they heard the shots. Not one minute before. Why would they be there before?",
-   "gesprochen": "[chuckle] They came when they heard the shots. Not one minute before. Why would they be there before?",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "anwalt",
-   "text": "And frankly, nobody in this village saw who came through. It was dark, there was smoke, people were afraid.",
-   "gesprochen": "[sigh] And frankly, nobody in this village saw who came through. It was dark, there was smoke, people were afraid.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "anwalt",
-   "text": "Not one person. If somebody here saw something, why didn't they say so at the time?",
-   "gesprochen": "[clear throat] Not one person. If somebody here saw something, why didn't they say so at the time?",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "kommissar",
-   "text": "So the barricade did not break. It was opened. Clerk, write that down. In capitals.",
-   "gesprochen": "[gasp] So the barricade did not break. It was opened. Clerk, write that down. In capitals.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "anwalt",
-   "text": "Commissioner, I must ask for a short pause. ...No? No pause. I see.",
-   "gesprochen": "[cough] Commissioner, I must ask for a short pause. ...No? No pause. I see.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "mina",
-   "text": "They're writing it down. In capitals!",
-   "gesprochen": "[gasp] They're writing it down. In capitals!",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "kommissar",
-   "text": "Last question. Money. Who paid whom, and for what?",
-   "gesprochen": "[clear throat] Last question. Money. Who paid whom, and for what?",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "anwalt",
-   "text": "A.V. bought loans in this village to help people. Banks were cruel, my client was kind.",
-   "gesprochen": "[clear throat] A.V. bought loans in this village to help people. Banks were cruel, my client was kind.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "anwalt",
-   "text": "Lower interest, longer terms. Read the contracts. They are generous.",
-   "gesprochen": "[sigh] Lower interest, longer terms. Read the contracts. They are generous.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "anwalt",
-   "text": "And nobody can prove that my client paid a single euro to anyone in this bay. Not one euro.",
-   "gesprochen": "[chuckle] And nobody can prove that my client paid a single euro to anyone in this bay. Not one euro.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "anwalt",
-   "text": "Bring me a bank transfer, a signature, a receipt. You can't. Because there is none.",
-   "gesprochen": "[chuckle] Bring me a bank transfer, a signature, a receipt. You can't. Because there is none.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "anwalt",
-   "text": "My client has never threatened anyone. Not with a letter, not with a word.",
-   "gesprochen": "[clear throat] My client has never threatened anyone. Not with a letter, not with a word.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "anwalt",
-   "text": "A letter about a loan is not a threat. It is a letter. People send letters.",
-   "gesprochen": "[sigh] A letter about a loan is not a threat. It is a letter. People send letters.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "kommissar",
-   "text": "Page forty-one, Maître. Or a receipt. Or a man without his legs. Choose which one you'd like to explain first.",
-   "gesprochen": "[sigh] Page forty-one, Maître. Or a receipt. Or a man without his legs. Choose which one you'd like to explain first.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "anwalt",
-   "text": "...I would like to speak with my client.",
-   "gesprochen": "[cough] ...I would like to speak with my client.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "batu",
-   "text": "Eat, Maître. You look pale.",
-   "gesprochen": "[chuckle] Eat, Maître. You look pale.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "anwalt",
-   "text": "One last thing. This village is not innocent. A cash book, from the deputy mayor's drawer. The priest. The man with the braces. Your own mayor, Madame Casanova. They all took his money.",
-   "gesprochen": "[clear throat] One last thing. This village is not innocent. A cash book, from the deputy mayor's drawer. The priest. The man with the braces. Your own mayor, Madame Casanova. They all took his money.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "kommissar",
-   "text": "...First Officer. Lieutenant Elsa says you have the original. All of it, or only the part about Alon?",
-   "gesprochen": "[sigh] ...First Officer. Lieutenant Elsa says you have the original. All of it, or only the part about Alon?",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "casanova",
-   "text": "Yes. Me too. Write my name first.",
-   "gesprochen": "[sigh] Yes. Me too. Write my name first.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "kommissar",
-   "text": "A village that confesses its own debts. Twenty-two years in this job, and that is a first.",
-   "gesprochen": "[clear throat] A village that confesses its own debts. Twenty-two years in this job, and that is a first.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "casanova",
-   "text": "...Thank you, Monsieur. I won't forget it. Neither will he.",
-   "gesprochen": "[sigh] ...Thank you, Monsieur. I won't forget it. Neither will he.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "kommissar",
-   "text": "Noted. The rest of the book stays a village matter. For now.",
-   "gesprochen": "[clear throat] Noted. The rest of the book stays a village matter. For now.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "kommissar",
-   "text": "We are here to find out what happened in this bay on the twenty-first, twenty-second and twenty-third. Maître Delorme speaks for A.V. You speak for the village. Three questions.",
-   "gesprochen": "[clear throat] We are here to find out what happened in this bay on the twenty-first, twenty-second and twenty-third. Maître Delorme speaks for A.V. You speak for the village. Three questions.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "anwalt",
-   "text": "Commissioner. Gentlemen. Good people of Cala d'Orsu. My client sends his warmest regards. He is very busy saving the world.",
-   "gesprochen": "[chuckle] Commissioner. Gentlemen. Good people of Cala d'Orsu. My client sends his warmest regards. He is very busy saving the world.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "kommissar",
-   "text": "That doesn't answer the sentence, First Officer.",
-   "gesprochen": "[sigh] That doesn't answer the sentence, First Officer.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "kommissar",
-   "text": "We are not here for guesses. Please.",
-   "gesprochen": "[clear throat] We are not here for guesses. Please.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "kommissar",
-   "text": "My patience is a small boat, First Officer. Don't make it sink.",
-   "gesprochen": "[sigh] My patience is a small boat, First Officer. Don't make it sink.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "anwalt",
-   "text": "Objection to the objection. That sentence happens to be true.",
-   "gesprochen": "[chuckle] Objection to the objection. That sentence happens to be true.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "anwalt",
-   "text": "I said nothing of the kind, Commissioner. Perhaps the First Officer should listen first.",
-   "gesprochen": "[clear throat] I said nothing of the kind, Commissioner. Perhaps the First Officer should listen first.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "kommissar",
-   "text": "Enough. We have heard enough guesses. We will decide with what we have.",
-   "gesprochen": "[sigh] Enough. We have heard enough guesses. We will decide with what we have.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "kommissar",
-   "text": "No answer? Then the sentence stands as it is.",
-   "gesprochen": "[sigh] No answer? Then the sentence stands as it is.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "kommissar",
-   "text": "Thank you. We have what we need. All three questions. You'll know tonight, but I think you know already.",
-   "gesprochen": "[clear throat] Thank you. We have what we need. All three questions. You'll know tonight, but I think you know already.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "kommissar",
-   "text": "Thank you. Two questions answered, one still open. You'll know tonight.",
-   "gesprochen": "[clear throat] Thank you. Two questions answered, one still open. You'll know tonight.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "kommissar",
-   "text": "Thank you. One answer is not much. You'll know tonight.",
-   "gesprochen": "[sigh] Thank you. One answer is not much. You'll know tonight.",
-   "quelle": "akt3_kommission"
-  },
-  {
-   "wer": "kommissar",
-   "text": "Thank you, everyone. We will write our report. Don't expect too much from it.",
-   "gesprochen": "[sigh] Thank you, everyone. We will write our report. Don't expect too much from it.",
-   "quelle": "akt3_kommission"
-  },
-  {
    "wer": "mina",
    "text": "Sorry, Yacht. I don't know what to say to you today.",
    "gesprochen": "[sigh] Sorry, Yacht. I don't know what to say to you today.",
@@ -27443,8 +27149,8 @@
   },
   {
    "wer": "mina",
-   "text": "You want to start here? With my post office? Okay. I'll hold the bike. It's what I do.",
-   "gesprochen": "[chuckle] You want to start here? With my post office? Okay. I'll hold the bike. It's what I do.",
+   "text": "You want to start here? With my post office? Okay. I'll hold the ladder. It's what I do.",
+   "gesprochen": "[chuckle] You want to start here? With my post office? Okay. I'll hold the ladder. It's what I do.",
    "quelle": "akt3_woche4"
   },
   {
@@ -27455,8 +27161,8 @@
   },
   {
    "wer": "alva",
-   "text": "My bar first? ...Don't tell anyone I said thank you. I didn't.",
-   "gesprochen": "[cough] My bar first? ...Don't tell anyone I said thank you. I didn't.",
+   "text": "My bar first? ...I'm not saying thank you. Write that down.",
+   "gesprochen": "[cough] My bar first? ...I'm not saying thank you. Write that down.",
    "quelle": "akt3_woche4"
   },
   {
@@ -27587,8 +27293,8 @@
   },
   {
    "wer": "petru",
-   "text": "Nobody asked me that since Marie. I decide. I talk.",
-   "gesprochen": "[sigh] Nobody asked me that since Marie. I decide. I talk.",
+   "text": "Nobody asked me that since my wife Marie died. I decide. I talk.",
+   "gesprochen": "[sigh] Nobody asked me that since my wife Marie died. I decide. I talk.",
    "quelle": "akt3_woche4"
   },
   {
@@ -27689,8 +27395,8 @@
   },
   {
    "wer": "mina",
-   "text": "Okay. You knock. I'll hold the bike.",
-   "gesprochen": "[chuckle] Okay. You knock. I'll hold the bike.",
+   "text": "Okay. You knock. I'll hold the ladder.",
+   "gesprochen": "[chuckle] Okay. You knock. I'll hold the ladder.",
    "quelle": "akt3_woche4"
   },
   {
@@ -27701,8 +27407,8 @@
   },
   {
    "wer": "toto",
-   "text": "Grazie. ...Now it counts.",
-   "gesprochen": "[sniff] Grazie. ...Now it counts.",
+   "text": "Madonna. ...Now it counts, Comandante.",
+   "gesprochen": "[sniff] Madonna. ...Now it counts, Comandante.",
    "quelle": "akt3_woche4"
   },
   {
@@ -27713,8 +27419,8 @@
   },
   {
    "wer": "megan",
-   "text": "How... delightful. I'm gone for three weeks, and my yacht is a wreck with people living in it.",
-   "gesprochen": "[sigh] How... delightful. I'm gone for three weeks, and my yacht is a wreck with people living in it.",
+   "text": "How... delightful. Five days away, and my yacht is a wreck with people living in it.",
+   "gesprochen": "[sigh] How... delightful. Five days away, and my yacht is a wreck with people living in it.",
    "quelle": "akt3_woche4"
   },
   {
@@ -27875,8 +27581,8 @@
   },
   {
    "wer": "elsa",
-   "text": "My antenna form. Eleven months. 'Almost through.'",
-   "gesprochen": "[clear throat] My antenna form. Eleven months. 'Almost through.'",
+   "text": "My antenna form. Eleven months. Every week Pascal told me: 'Almost through.'",
+   "gesprochen": "[clear throat] My antenna form. Eleven months. Every week Pascal told me: 'Almost through.'",
    "quelle": "akt3_woche4"
   },
   {
@@ -27887,20 +27593,20 @@
   },
   {
    "wer": "elsa",
-   "text": "Three o'clock, the night of the twenty-second. I wrote it down myself, that night. Two words.",
-   "gesprochen": "[clear throat] Three o'clock, the night of the twenty-second. I wrote it down myself, that night. Two words.",
+   "text": "Three o'clock, the night of the twenty-second. I wrote it down myself, that night. Two words from the north road: 'Not yet.'",
+   "gesprochen": "[clear throat] Three o'clock, the night of the twenty-second. I wrote it down myself, that night. Two words from the north road: 'Not yet.'",
    "quelle": "akt3_woche4"
   },
   {
    "wer": "elsa",
-   "text": "Holm told me about three o'clock. Here it is. The night of the twenty-second: two words.",
-   "gesprochen": "[clear throat] Holm told me about three o'clock. Here it is. The night of the twenty-second: two words.",
+   "text": "Holm told me about three o'clock. Here it is. The night of the twenty-second, from the north road, two words: 'Not yet.'",
+   "gesprochen": "[clear throat] Holm told me about three o'clock. Here it is. The night of the twenty-second, from the north road, two words: 'Not yet.'",
    "quelle": "akt3_woche4"
   },
   {
    "wer": "elsa",
-   "text": "And this. A cash book in the same careful hand. The roof. The school bus. The festa money. And here: the priest. Sandru. ...Madame Casanova.",
-   "gesprochen": "[sigh] And this. A cash book in the same careful hand. The roof. The school bus. The festa money. And here: the priest. Sandru. ...Madame Casanova.",
+   "text": "And this. A cash book in the same neat handwriting. The roof. The school bus. The festa money. And here: the priest. Sandru. ...Madame Casanova.",
+   "gesprochen": "[sigh] And this. A cash book in the same neat handwriting. The roof. The school bus. The festa money. And here: the priest. Sandru. ...Madame Casanova.",
    "quelle": "akt3_woche4"
   },
   {
@@ -27917,32 +27623,38 @@
   },
   {
    "wer": "elsa",
+   "text": "Kind. I'm not sure it's right. But it's kind.",
+   "gesprochen": "[sigh] Kind. I'm not sure it's right. But it's kind.",
+   "quelle": "akt3_woche4"
+  },
+  {
+   "wer": "elsa",
    "text": "Good. Then you're thinking. Most people here stopped doing that years ago.",
    "gesprochen": "[sigh] Good. Then you're thinking. Most people here stopped doing that years ago.",
    "quelle": "akt3_woche4"
   },
   {
    "wer": "nonna",
-   "text": "He writes: I told the priest not to go up the mountain. Stay, Don. Leave it with me. I thought it was for safety.",
-   "gesprochen": "[sigh] He writes: I told the priest not to go up the mountain. Stay, Don. Leave it with me. I thought it was for safety.",
+   "text": "He writes: 'I told the priest not to go up the mountain. Stay, Don. Leave it with me. I thought it was for safety.'",
+   "gesprochen": "[sigh] He writes: 'I told the priest not to go up the mountain. Stay, Don. Leave it with me. I thought it was for safety.'",
    "quelle": "akt3_woche4"
   },
   {
    "wer": "nonna",
-   "text": "And I told him all of it, every month, for nine years. He can't say a word. That's why he drinks.",
-   "gesprochen": "[sigh] And I told him all of it, every month, for nine years. He can't say a word. That's why he drinks.",
+   "text": "'And I confessed all of it to him, every month, for nine years. He can't say a word. That's why he drinks.'",
+   "gesprochen": "[sigh] 'And I confessed all of it to him, every month, for nine years. He can't say a word. That's why he drinks.'",
    "quelle": "akt3_woche4"
   },
   {
    "wer": "nonna",
-   "text": "Duc told me to say it to him, to Minicu, at the gate. So I did. It was the only true thing I said that night.",
-   "gesprochen": "[sniff] Duc told me to say it to him, to Minicu, at the gate. So I did. It was the only true thing I said that night.",
+   "text": "'Duc told me to tell Minicu the truth, at the gate. So I did. It was the only true thing I said that night.'",
+   "gesprochen": "[sniff] 'Duc told me to tell Minicu the truth, at the gate. So I did. It was the only true thing I said that night.'",
    "quelle": "akt3_woche4"
   },
   {
    "wer": "nonna",
-   "text": "I told Isabelle that man has a good heart. You don't have a good heart, Pascal. You have a bad conscience.",
-   "gesprochen": "[sniff] I told Isabelle that man has a good heart. You don't have a good heart, Pascal. You have a bad conscience.",
+   "text": "That's the end of the letter. ...I told Isabelle that man has a good heart. You don't have a good heart, Pascal. You have a bad conscience.",
+   "gesprochen": "[sniff] That's the end of the letter. ...I told Isabelle that man has a good heart. You don't have a good heart, Pascal. You have a bad conscience.",
    "quelle": "akt3_woche4"
   },
   {
@@ -27965,8 +27677,8 @@
   },
   {
    "wer": "siri",
-   "text": "It was up for four seconds, and then his video slid over it. This time I'm not giving him four seconds.",
-   "gesprochen": "[sigh] It was up for four seconds, and then his video slid over it. This time I'm not giving him four seconds.",
+   "text": "My post from the siege was up for four seconds, and then his video slid over it. This time I'm not giving him four seconds.",
+   "gesprochen": "[sigh] My post from the siege was up for four seconds, and then his video slid over it. This time I'm not giving him four seconds.",
    "quelle": "akt3_woche4"
   },
   {
@@ -27995,8 +27707,8 @@
   },
   {
    "wer": "yasin",
-   "text": "...I filmed Minicu falling, and I kept filming. I don't want money for that. Okay? Don't tell anyone I said okay.",
-   "gesprochen": "[sigh] ...I filmed Minicu falling, and I kept filming. I don't want money for that. Okay? Don't tell anyone I said okay.",
+   "text": "...I filmed Minicu falling, and I kept filming. I don't want money for that. Okay? That's not business. That's just true.",
+   "gesprochen": "[sigh] ...I filmed Minicu falling, and I kept filming. I don't want money for that. Okay? That's not business. That's just true.",
    "quelle": "akt3_woche4"
   },
   {
@@ -28139,14 +27851,14 @@
   },
   {
    "wer": "rosi",
-   "text": "She's ugly, she leaks a bit, and she floats. Don't tell her I said ugly.",
-   "gesprochen": "[laugh] She's ugly, she leaks a bit, and she floats. Don't tell her I said ugly.",
+   "text": "Officer! Up here. She's ugly, she leaks a bit, and she floats. Don't tell her I said ugly.",
+   "gesprochen": "[laugh] Officer! Up here. She's ugly, she leaks a bit, and she floats. Don't tell her I said ugly.",
    "quelle": "akt3_woche4"
   },
   {
    "wer": "maxwell",
-   "text": "Rosi says she floats. Mr. Maximum has checked. She floats.",
-   "gesprochen": "[laugh] Rosi says she floats. Mr. Maximum has checked. She floats.",
+   "text": "Rosi says on the video: she floats. Mr. Maximum has checked. She floats.",
+   "gesprochen": "[laugh] Rosi says on the video: she floats. Mr. Maximum has checked. She floats.",
    "quelle": "akt3_woche4"
   },
   {
@@ -28307,8 +28019,14 @@
   },
   {
    "wer": "petru",
-   "text": "The commission. You want me to sign my name. My father signed his name once, for a bank. They took his boat. I saw the torches at my workshop, and who stayed. A.V. has the loan on my boat. So tell me why.",
-   "gesprochen": "[clear throat] The commission. You want me to sign my name. My father signed his name once, for a bank. They took his boat. I saw the torches at my workshop, and who stayed. A.V. has the loan on my boat. So tell me why.",
+   "text": "The commission. You want me to sign my name. My father signed his name once, for a bank. They took his boat.",
+   "gesprochen": "[clear throat] The commission. You want me to sign my name. My father signed his name once, for a bank. They took his boat.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "petru",
+   "text": "Now A.V. has the loan on mine. So tell me why I should sign.",
+   "gesprochen": "[sigh] Now A.V. has the loan on mine. So tell me why I should sign.",
    "quelle": "akt3_lose"
   },
   {
@@ -28379,8 +28097,8 @@
   },
   {
    "wer": "alva",
-   "text": "Then I'll say it. Papa always said: a bar is where people tell the truth. Mine too.",
-   "gesprochen": "[sigh] Then I'll say it. Papa always said: a bar is where people tell the truth. Mine too.",
+   "text": "Then I'll say it. Papa always said: a bar is where people tell the truth. So I will too.",
+   "gesprochen": "[sigh] Then I'll say it. Papa always said: a bar is where people tell the truth. So I will too.",
    "quelle": "akt3_lose"
   },
   {
@@ -28421,8 +28139,8 @@
   },
   {
    "wer": "casanova",
-   "text": "Every night someone left his paper on my church steps. I kept all of it. If I give it to the commission, they will also read my name in Pascal's book. Do I do it, Monsieur?",
-   "gesprochen": "[sigh] Every night someone left his paper on my church steps. I kept all of it. If I give it to the commission, they will also read my name in Pascal's book. Do I do it, Monsieur?",
+   "text": "Every night, Alon's people left a letter on my church steps, the ones in that neat handwriting. I kept all of them. If I give it to the commission, they will also read my name in Pascal's book. Do I do it, Monsieur?",
+   "gesprochen": "[sigh] Every night, Alon's people left a letter on my church steps, the ones in that neat handwriting. I kept all of them. If I give it to the commission, they will also read my name in Pascal's book. Do I do it, Monsieur?",
    "quelle": "akt3_lose"
   },
   {
@@ -28559,8 +28277,8 @@
   },
   {
    "wer": "alva",
-   "text": "Papa's recipe, with myrtle? Or a new one? If it's new, you give it a name.",
-   "gesprochen": "[chuckle] Papa's recipe, with myrtle? Or a new one? If it's new, you give it a name.",
+   "text": "Papa's recipe, with the berries from the hill? Or a new one? If it's new, you give it a name.",
+   "gesprochen": "[chuckle] Papa's recipe, with the berries from the hill? Or a new one? If it's new, you give it a name.",
    "quelle": "akt3_lose"
   },
   {
@@ -28589,14 +28307,14 @@
   },
   {
    "wer": "mina",
-   "text": "All of them. Even the ones from Monaco in the careful hand. Let them hang.",
-   "gesprochen": "[chuckle] All of them. Even the ones from Monaco in the careful hand. Let them hang.",
+   "text": "All of them. Even the ones from Monaco in that neat handwriting. Let them hang.",
+   "gesprochen": "[chuckle] All of them. Even the ones from Monaco in that neat handwriting. Let them hang.",
    "quelle": "akt3_lose"
   },
   {
    "wer": "mina",
-   "text": "Okay. His stay in the box.",
-   "gesprochen": "[sigh] Okay. His stay in the box.",
+   "text": "Okay. His letters stay in the box.",
+   "gesprochen": "[sigh] Okay. His letters stay in the box.",
    "quelle": "akt3_lose"
   },
   {
@@ -28637,20 +28355,20 @@
   },
   {
    "wer": "rosi",
-   "text": "What goes in the switch, Officer? One of your chips, or a piece of Alon's collars?",
-   "gesprochen": "[clear throat] What goes in the switch, Officer? One of your chips, or a piece of Alon's collars?",
+   "text": "What goes in the switch, Officer? A chip from one of the robots you beat, or a piece of Alon's collars?",
+   "gesprochen": "[clear throat] What goes in the switch, Officer? A chip from one of the robots you beat, or a piece of Alon's collars?",
    "quelle": "akt3_lose"
   },
   {
    "wer": "maxwell",
-   "text": "Rosi says on the video: one of your chips, or a piece of Alon's collars? Mr. Maximum holds the screwdriver.",
-   "gesprochen": "[clear throat] Rosi says on the video: one of your chips, or a piece of Alon's collars? Mr. Maximum holds the screwdriver.",
+   "text": "Rosi says on the video: a chip from one of the robots you beat, or a piece of Alon's collars? Mr. Maximum holds the screwdriver.",
+   "gesprochen": "[clear throat] Rosi says on the video: a chip from one of the robots you beat, or a piece of Alon's collars? Mr. Maximum holds the screwdriver.",
    "quelle": "akt3_lose"
   },
   {
    "wer": "rosi",
-   "text": "Your chip? ...White light. Thank you, Officer.",
-   "gesprochen": "[gasp] Your chip? ...White light. Thank you, Officer.",
+   "text": "A robot chip? ...White light. Thank you, Officer.",
+   "gesprochen": "[gasp] A robot chip? ...White light. Thank you, Officer.",
    "quelle": "akt3_lose"
   },
   {
@@ -28697,14 +28415,14 @@
   },
   {
    "wer": "nonna",
-   "text": "Frederico! He'll eat it on the way.",
-   "gesprochen": "[laugh] Frederico! He'll eat it on the way.",
+   "text": "For the church. Don will say he doesn't like basil. He likes it.",
+   "gesprochen": "[chuckle] For the church. Don will say he doesn't like basil. He likes it.",
    "quelle": "akt3_lose"
   },
   {
    "wer": "danzel",
-   "text": "Chiara's dress is finished already! So, whose dress next? I can only finish one more in time!",
-   "gesprochen": "[gasp] Chiara's dress is finished already! So, whose dress next? I can only finish one more in time!",
+   "text": "Chiara's dress is finished. Hem, darts, all of it. Whose dress next? I can finish one more in time, if nobody talks to me.",
+   "gesprochen": "[clear throat] Chiara's dress is finished. Hem, darts, all of it. Whose dress next? I can finish one more in time, if nobody talks to me.",
    "quelle": "akt3_lose"
   },
   {
@@ -28751,8 +28469,8 @@
   },
   {
    "wer": "holm",
-   "text": "Since the night before Bergen I have said everything only once. So listen. These four stripes on my shoulders. Do I keep them, or do they go in the table?",
-   "gesprochen": "[sigh] Since the night before Bergen I have said everything only once. So listen. These four stripes on my shoulders. Do I keep them, or do they go in the table?",
+   "text": "I say things once, Frankfurt. So listen. These four stripes on my shoulders. Do I keep them, or do they go in the table?",
+   "gesprochen": "[sigh] I say things once, Frankfurt. So listen. These four stripes on my shoulders. Do I keep them, or do they go in the table?",
    "quelle": "akt3_lose"
   },
   {
@@ -28781,8 +28499,8 @@
   },
   {
    "wer": "casanova",
-   "text": "Tomorrow, then. The festa doesn't build itself. ...Mostly it does, but don't tell anyone.",
-   "gesprochen": "[sigh] Tomorrow, then. The festa doesn't build itself. ...Mostly it does, but don't tell anyone.",
+   "text": "Tomorrow, then. The festa doesn't build itself. ...Well. Sometimes it does. That is the miracle of a festa.",
+   "gesprochen": "[sigh] Tomorrow, then. The festa doesn't build itself. ...Well. Sometimes it does. That is the miracle of a festa.",
    "quelle": "akt3_lose"
   },
   {
@@ -28847,8 +28565,8 @@
   },
   {
    "wer": "bonaventure",
-   "text": "The head of... ...I would need a hat.",
-   "gesprochen": "[clear throat] The head of... [sigh] ...I would need a hat.",
+   "text": "The head of... ...I would need a bigger hat.",
+   "gesprochen": "[clear throat] The head of... [sigh] ...I would need a bigger hat.",
    "quelle": "akt3_woche5"
   },
   {
@@ -28925,8 +28643,8 @@
   },
   {
    "wer": "riscossore",
-   "text": "Here. Your first payment.",
-   "gesprochen": "[chuckle] Here. Your first payment.",
+   "text": "Here. A piece of orange. Your first payment comes tomorrow. Eventually.",
+   "gesprochen": "[chuckle] Here. A piece of orange. Your first payment comes tomorrow. Eventually.",
    "quelle": "akt3_woche5"
   },
   {
@@ -28943,8 +28661,8 @@
   },
   {
    "wer": "maxwell",
-   "text": "Bibi says a plane has no bad temper. Mr. Maximum fed Bones. Mr. Maximum can sit in a plane.",
-   "gesprochen": "[chuckle] Bibi says a plane has no bad temper. Mr. Maximum fed Bones. Mr. Maximum can sit in a plane.",
+   "text": "Bibi says a plane has no bad temper. I fed Bones, brother. I can sit in a plane.",
+   "gesprochen": "[chuckle] Bibi says a plane has no bad temper. I fed Bones, brother. I can sit in a plane.",
    "quelle": "akt3_woche5"
   },
   {
@@ -29027,8 +28745,8 @@
   },
   {
    "wer": "yamamoto",
-   "text": "Officer-san. So sorry. I have stopped the loan to A.V. I did not ask permission. Very rude of me.",
-   "gesprochen": "[clear throat] Officer-san. So sorry. I have stopped the loan to A.V. I did not ask permission. Very rude of me.",
+   "text": "Officer-san. So sorry, I come in for one second only. I have stopped the loan to A.V. I did not ask permission. Very rude of me.",
+   "gesprochen": "[clear throat] Officer-san. So sorry, I come in for one second only. I have stopped the loan to A.V. I did not ask permission. Very rude of me.",
    "quelle": "akt3_woche5"
   },
   {
@@ -29087,8 +28805,8 @@
   },
   {
    "wer": "sandru",
-   "text": "They found the tin. My mother's recipes, under his sign.",
-   "gesprochen": "[sigh] They found the tin. My mother's recipes, under his sign.",
+   "text": "A.V. found my mother's tin of recipes. I sold her sweets in their market, under Alon's sign.",
+   "gesprochen": "[sigh] A.V. found my mother's tin of recipes. I sold her sweets in their market, under Alon's sign.",
    "quelle": "akt3_woche5"
   },
   {
@@ -29123,14 +28841,14 @@
   },
   {
    "wer": "maxwell",
-   "text": "Rosi says which way on the video, I hold the screwdriver. Teamwork, brother.",
-   "gesprochen": "[laugh] Rosi says which way on the video, I hold the screwdriver. Teamwork, brother.",
+   "text": "Rosi tells me on the video which way to turn. I hold the screwdriver. Teamwork, brother.",
+   "gesprochen": "[laugh] Rosi tells me on the video which way to turn. I hold the screwdriver. Teamwork, brother.",
    "quelle": "akt3_woche5"
   },
   {
    "wer": "sandru",
-   "text": "A.V. gave me six years of walking. You gave me a speech. ...And her. You gave me her. So what do I do now, Duc? Walk over there and say what?",
-   "gesprochen": "[chuckle] A.V. gave me six years of walking. You gave me a speech. ...And her. You gave me her. So what do I do now, Duc? Walk over there and say what?",
+   "text": "A.V. gave me six years of walking. You gave me a speech. ...And Rosi. You gave me Rosi and her screwdriver. So what do I do now, Duc? Walk over there and say what?",
+   "gesprochen": "[chuckle] A.V. gave me six years of walking. You gave me a speech. ...And Rosi. You gave me Rosi and her screwdriver. So what do I do now, Duc? Walk over there and say what?",
    "quelle": "akt3_woche5"
   },
   {
@@ -29171,8 +28889,8 @@
   },
   {
    "wer": "mina",
-   "text": "It says: Dinner. Tomorrow at eight. Just you. A.V. ...Yacht, that's the hand from the name sheet you picked up at the gate. And from the letters on the church steps.",
-   "gesprochen": "[sigh] It says: Dinner. Tomorrow at eight. Just you. A.V. ...Yacht, that's the hand from the name sheet you picked up at the gate. And from the letters on the church steps.",
+   "text": "It says: Dinner. Tomorrow at eight. Just you. A.V. ...Yacht, that's the same handwriting as on the name sheet you picked up at the gate. And from the letters on the church steps.",
+   "gesprochen": "[sigh] It says: Dinner. Tomorrow at eight. Just you. A.V. ...Yacht, that's the same handwriting as on the name sheet you picked up at the gate. And from the letters on the church steps.",
    "quelle": "akt3_woche5"
   },
   {
@@ -29219,8 +28937,8 @@
   },
   {
    "wer": "lea",
-   "text": "After midnight, on the mole. Will you come? Proper come?",
-   "gesprochen": "[sigh] After midnight, on the mole. Will you come? Proper come?",
+   "text": "After midnight, on the mole. Will you be there? Properly there?",
+   "gesprochen": "[sigh] After midnight, on the mole. Will you be there? Properly there?",
    "quelle": "akt3_woche5"
   },
   {
@@ -29351,8 +29069,8 @@
   },
   {
    "wer": "casanova",
-   "text": "My father kept his best wine down here. Now look at it.",
-   "gesprochen": "[sigh] My father kept his best wine down here. Now look at it.",
+   "text": "I'll wait at the top of the stairs, Monsieur. My father kept his best wine down there. Now look at it.",
+   "gesprochen": "[sigh] I'll wait at the top of the stairs, Monsieur. My father kept his best wine down there. Now look at it.",
    "quelle": "akt3_woche5"
   },
   {
@@ -29428,12 +29146,6 @@
    "quelle": "akt3_woche5"
   },
   {
-   "wer": "yamamoto",
-   "text": "So sorry, Officer-san. My bank has already stopped his loan. He does not know yet. Very rude of me.",
-   "gesprochen": "[clear throat] So sorry, Officer-san. My bank has already stopped his loan. He does not know yet. Very rude of me.",
-   "quelle": "akt3_woche5"
-  },
-  {
    "wer": "alon",
    "text": "Hi, Cala d'Orsu! Quick update from your future. And a big thank you to my partner on the ground, Paul... Paolo. Thank you, Paolo.",
    "gesprochen": "[laugh] Hi, Cala d'Orsu! Quick update from your future. And a big thank you to my partner on the ground, Paul... Paolo. Thank you, Paolo.",
@@ -29471,20 +29183,20 @@
   },
   {
    "wer": "rosi",
-   "text": "I took the leash out.",
-   "gesprochen": "[clear throat] I took the leash out.",
+   "text": "I took the leash out of Sandru's braces. I can take it out of yours.",
+   "gesprochen": "[clear throat] I took the leash out of Sandru's braces. I can take it out of yours.",
    "quelle": "akt3_woche5"
   },
   {
    "wer": "alon",
-   "text": "I know. That's how I learned to lock it.",
-   "gesprochen": "[chuckle] I know. That's how I learned to lock it.",
+   "text": "I know. That's how I learned to lock mine.",
+   "gesprochen": "[chuckle] I know. That's how I learned to lock mine.",
    "quelle": "akt3_woche5"
   },
   {
    "wer": "elsa",
-   "text": "Mr. Varenne. Coast guard. You're under arrest, and I'd honestly prefer it if you said nothing.",
-   "gesprochen": "[clear throat] Mr. Varenne. Coast guard. You're under arrest, and I'd honestly prefer it if you said nothing.",
+   "text": "Pascal. Don't go too far tonight. I'll have questions tomorrow.",
+   "gesprochen": "[clear throat] Pascal. Don't go too far tonight. I'll have questions tomorrow.",
    "quelle": "akt3_woche5"
   },
   {
@@ -29495,8 +29207,8 @@
   },
   {
    "wer": "pascal",
-   "text": "Good night, Monsieur. Everybody has a price. I just never found out mine.",
-   "gesprochen": "[sigh] Good night, Monsieur. Everybody has a price. I just never found out mine.",
+   "text": "Good night, Duc. Everybody has a price. I just never found out mine.",
+   "gesprochen": "[sigh] Good night, Duc. Everybody has a price. I just never found out mine.",
    "quelle": "akt3_woche5"
   },
   {
@@ -29525,8 +29237,14 @@
   },
   {
    "wer": "elsa",
-   "text": "I saw your face on his stream, First Officer. I don't want to know how you got in.",
-   "gesprochen": "[sigh] I saw your face on his stream, First Officer. I don't want to know how you got in.",
+   "text": "Mr. Varenne. Coast guard. You're under arrest, and I'd honestly prefer it if you said nothing.",
+   "gesprochen": "[clear throat] Mr. Varenne. Coast guard. You're under arrest, and I'd honestly prefer it if you said nothing.",
+   "quelle": "akt3_woche5"
+  },
+  {
+   "wer": "elsa",
+   "text": "I saw your face in his live video, First Officer. I don't want to know how you got in.",
+   "gesprochen": "[sigh] I saw your face in his live video, First Officer. I don't want to know how you got in.",
    "quelle": "akt3_woche5"
   },
   {
@@ -29597,8 +29315,8 @@
   },
   {
    "wer": "chiara",
-   "text": "Together. Okay. That's a ten. Don't tell anyone.",
-   "gesprochen": "[sigh] Together. Okay. That's a ten. Don't tell anyone.",
+   "text": "Together. Okay. That's a ten. Nobody hears that number but you.",
+   "gesprochen": "[sigh] Together. Okay. That's a ten. Nobody hears that number but you.",
    "quelle": "akt3_romanzen"
   },
   {
@@ -29699,8 +29417,8 @@
   },
   {
    "wer": "rosi",
-   "text": "The night with the stopwatch, when nobody lost. ...Officer. If I say 'Captain' now, is that an insult or a promotion?",
-   "gesprochen": "[clear throat] The night with the stopwatch, when nobody lost. ...Officer. If I say 'Captain' now, is that an insult or a promotion?",
+   "text": "Remember the night with the stopwatch? Nobody lost. ...Officer. If I say 'Captain' now, is that an insult or a promotion?",
+   "gesprochen": "[clear throat] Remember the night with the stopwatch? Nobody lost. ...Officer. If I say 'Captain' now, is that an insult or a promotion?",
    "quelle": "akt3_romanzen"
   },
   {
@@ -29717,8 +29435,8 @@
   },
   {
    "wer": "rosi",
-   "text": "Unentschieden. That's a draw. I'll take it.",
-   "gesprochen": "[chuckle] Unentschieden. That's a draw. I'll take it.",
+   "text": "A draw. So nobody won. I'll take it.",
+   "gesprochen": "[chuckle] A draw. So nobody won. I'll take it.",
    "quelle": "akt3_romanzen"
   },
   {
@@ -29729,8 +29447,8 @@
   },
   {
    "wer": "lola",
-   "text": "The first morning on the yacht, when you ate my eggs and didn't make a face.",
-   "gesprochen": "[chuckle] The first morning on the yacht, when you ate my eggs and didn't make a face.",
+   "text": "You remember the first morning on the yacht? You ate my eggs and didn't make a face.",
+   "gesprochen": "[chuckle] You remember the first morning on the yacht? You ate my eggs and didn't make a face.",
    "quelle": "akt3_romanzen"
   },
   {
@@ -29969,8 +29687,8 @@
   },
   {
    "wer": "chiara",
-   "text": "So. You and the First Officer. Lola told me, and Lola tells everybody. Seven out of ten for hiding it.",
-   "gesprochen": "[chuckle] So. You and the First Officer. Lola told me, and Lola tells everybody. Seven out of ten for hiding it.",
+   "text": "So. You and the First Officer. Lola told me, and Lola tells everybody. Hiding it: a three.",
+   "gesprochen": "[chuckle] So. You and the First Officer. Lola told me, and Lola tells everybody. Hiding it: a three.",
    "quelle": "akt3_romanzen"
   },
   {
@@ -29993,8 +29711,8 @@
   },
   {
    "wer": "alva",
-   "text": "Not to everyone. Shh.",
-   "gesprochen": "[chuckle] Not to everyone. Shh.",
+   "text": "Not to everyone.",
+   "gesprochen": "[shush] Not to everyone.",
    "quelle": "akt3_romanzen"
   },
   {
@@ -30071,8 +29789,8 @@
   },
   {
    "wer": "lea",
-   "text": "Did you know Mina's flat has a hundred and four letters in it? I counted. I sleep next to them.",
-   "gesprochen": "[chuckle] Did you know Mina's flat has a hundred and four letters in it? I counted. I sleep next to them.",
+   "text": "Mina's flat has a hundred and four letters in it. I counted. I sleep next to them.",
+   "gesprochen": "[chuckle] Mina's flat has a hundred and four letters in it. I counted. I sleep next to them.",
    "quelle": "akt3_romanzen"
   },
   {
@@ -30191,14 +29909,14 @@
   },
   {
    "wer": "bibi",
-   "text": "That's Bones. Six kilos. Three metres of wing, and six kilos! He's mostly air and bad temper. He's looking at the bucket, chéri.",
-   "gesprochen": "[laugh] That's Bones. Six kilos. Three metres of wing, and six kilos! He's mostly air and bad temper. He's looking at the bucket, chéri.",
+   "text": "That's Bones. Six kilos. Three metres of wing, and six kilos! He's mostly air and bad temper. He's looking at the bucket, Maxwell.",
+   "gesprochen": "[laugh] That's Bones. Six kilos. Three metres of wing, and six kilos! He's mostly air and bad temper. He's looking at the bucket, Maxwell.",
    "quelle": "akt3_romanzen"
   },
   {
    "wer": "maxwell",
-   "text": "Mr. Maximum is scared of everything that flies, sister. Everything. And in four days he sits in a plane.",
-   "gesprochen": "[sigh] Mr. Maximum is scared of everything that flies, sister. Everything. And in four days he sits in a plane.",
+   "text": "Everything that flies scares me, sister. Everything. And soon I sit in a plane.",
+   "gesprochen": "[sigh] Everything that flies scares me, sister. Everything. And soon I sit in a plane.",
    "quelle": "akt3_romanzen"
   },
   {
@@ -30365,14 +30083,14 @@
   },
   {
    "wer": "sandru",
-   "text": "My name is Iskander. I carried Alva out of the rubble. And the next week, A.V. switched off my legs.",
-   "gesprochen": "[clear throat] My name is Iskander. I carried Alva out of the rubble. And the next week, A.V. switched off my legs.",
+   "text": "My name is Iskander. I carried Alva out of the rubble. And eleven days later, A.V. switched off my legs.",
+   "gesprochen": "[clear throat] My name is Iskander. I carried Alva out of the rubble. And eleven days later, A.V. switched off my legs.",
    "quelle": "akt3_finale"
   },
   {
    "wer": "sandru",
-   "text": "My name is Sandru. I carried Alva out of the rubble. And the next week, A.V. switched off my legs.",
-   "gesprochen": "[clear throat] My name is Sandru. I carried Alva out of the rubble. And the next week, A.V. switched off my legs.",
+   "text": "My name is Sandru. I carried Alva out of the rubble. And eleven days later, A.V. switched off my legs.",
+   "gesprochen": "[clear throat] My name is Sandru. I carried Alva out of the rubble. And eleven days later, A.V. switched off my legs.",
    "quelle": "akt3_finale"
   },
   {
@@ -30401,14 +30119,14 @@
   },
   {
    "wer": "casanova",
-   "text": "Every night someone left his paper on my church steps. I kept all of it. I'm giving it to you for the festa. A terrible reason, but it's mine.",
-   "gesprochen": "[sigh] Every night someone left his paper on my church steps. I kept all of it. I'm giving it to you for the festa. A terrible reason, but it's mine.",
+   "text": "Every night, Alon's people left a letter on my church steps, in that neat handwriting. I kept all of them. I'm giving them to you for the festa. A terrible reason, but it's mine.",
+   "gesprochen": "[sigh] Every night, Alon's people left a letter on my church steps, in that neat handwriting. I kept all of them. I'm giving them to you for the festa. A terrible reason, but it's mine.",
    "quelle": "akt3_finale"
   },
   {
    "wer": "casanova",
-   "text": "Every night someone left his paper on my church steps. I kept all of it. Here it is.",
-   "gesprochen": "[clear throat] Every night someone left his paper on my church steps. I kept all of it. Here it is.",
+   "text": "Every night, Alon's people left a letter on my church steps, in that neat handwriting. I kept all of them. Here they are.",
+   "gesprochen": "[clear throat] Every night, Alon's people left a letter on my church steps, in that neat handwriting. I kept all of them. Here they are.",
    "quelle": "akt3_finale"
   },
   {
@@ -30431,8 +30149,8 @@
   },
   {
    "wer": "anghjulu",
-   "text": "The man at the gate? The big one? He can't come today.",
-   "gesprochen": "[sigh] The man at the gate? The big one? He can't come today.",
+   "text": "He can't come today, Commissioner.",
+   "gesprochen": "[sigh] He can't come today, Commissioner.",
    "quelle": "akt3_finale"
   },
   {
@@ -30467,8 +30185,8 @@
   },
   {
    "wer": "elsa",
-   "text": "The radio log. Three o'clock, the night of the twenty-second. Two words.",
-   "gesprochen": "[clear throat] The radio log. Three o'clock, the night of the twenty-second. Two words.",
+   "text": "The radio log. Three o'clock, the night of the twenty-second, from the north road. Two words: 'Not yet.'",
+   "gesprochen": "[clear throat] The radio log. Three o'clock, the night of the twenty-second, from the north road. Two words: 'Not yet.'",
    "quelle": "akt3_finale"
   },
   {
@@ -30659,8 +30377,8 @@
   },
   {
    "wer": "nonna",
-   "text": "Frederico ate half the basket on the way. The other half is here.",
-   "gesprochen": "[laugh] Frederico ate half the basket on the way. The other half is here.",
+   "text": "Basil on the church steps. Don says he doesn't like it. He smells it every time he walks past.",
+   "gesprochen": "[chuckle] Basil on the church steps. Don says he doesn't like it. He smells it every time he walks past.",
    "quelle": "akt3_finale"
   },
   {
@@ -30863,8 +30581,8 @@
   },
   {
    "wer": "danzel",
-   "text": "Duc! She gave me a nine yesterday, because you said so. Today: eleven. Nobody is humble here!",
-   "gesprochen": "[gasp] Duc! She gave me a nine yesterday, because you said so. Today: eleven. Nobody is humble here!",
+   "text": "Duc! She gave me a nine, because you said so. Tonight: eleven. Nobody is humble here!",
+   "gesprochen": "[gasp] Duc! She gave me a nine, because you said so. Tonight: eleven. Nobody is humble here!",
    "quelle": "akt3_finale"
   },
   {
@@ -30905,8 +30623,8 @@
   },
   {
    "wer": "ghjuvan",
-   "text": "The red light on the ridge went out. I slept for the first time in a month. So did my sheep.",
-   "gesprochen": "[sigh] The red light on the ridge went out. I slept for the first time in a month. So did my sheep.",
+   "text": "Ghjuvan, from the hills. The red light on the ridge went out. I slept for the first time in a month. So did my sheep.",
+   "gesprochen": "[sigh] Ghjuvan, from the hills. The red light on the ridge went out. I slept for the first time in a month. So did my sheep.",
    "quelle": "akt3_finale"
   },
   {
@@ -31031,14 +30749,14 @@
   },
   {
    "wer": "chiara",
-   "text": "The torch, and you let me find the breaker myself.",
-   "gesprochen": "[sigh] The torch, and you let me find the breaker myself.",
+   "text": "The flashlight, and you let me find the breaker myself.",
+   "gesprochen": "[sigh] The flashlight, and you let me find the breaker myself.",
    "quelle": "akt3_finale"
   },
   {
    "wer": "chiara",
    "text": "The red one, second row. Show-off.",
-   "gesprochen": "[sigh] The red one, second row. Show-off.",
+   "gesprochen": "[chuckle] The red one, second row. Show-off.",
    "quelle": "akt3_finale"
   },
   {
@@ -31068,13 +30786,13 @@
   {
    "wer": "alva",
    "text": "You gave me the chalk. I wrote it myself. Don't ask what.",
-   "gesprochen": "[sigh] You gave me the chalk. I wrote it myself. Don't ask what.",
+   "gesprochen": "[chuckle] You gave me the chalk. I wrote it myself. Don't ask what.",
    "quelle": "akt3_finale"
   },
   {
    "wer": "alva",
-   "text": "Only you. Don't tell anyone. They'd never believe it.",
-   "gesprochen": "[chuckle] Only you. Don't tell anyone. They'd never believe it.",
+   "text": "Only you. Not to everyone. They'd never believe it.",
+   "gesprochen": "[chuckle] Only you. Not to everyone. They'd never believe it.",
    "quelle": "akt3_finale"
   },
   {
@@ -31092,7 +30810,7 @@
   {
    "wer": "lea",
    "text": "Two fingers. That's still an answer.",
-   "gesprochen": "[sigh] Two fingers. That's still an answer.",
+   "gesprochen": "[chuckle] Two fingers. That's still an answer.",
    "quelle": "akt3_finale"
   },
   {
@@ -31139,8 +30857,8 @@
   },
   {
    "wer": "rosi",
-   "text": "Draw. We're a draw. I can live with that.",
-   "gesprochen": "[sigh] Draw. We're a draw. I can live with that.",
+   "text": "A draw. Nobody won. I can live with that.",
+   "gesprochen": "[chuckle] A draw. Nobody won. I can live with that.",
    "quelle": "akt3_finale"
   },
   {
@@ -31158,13 +30876,13 @@
   {
    "wer": "lola",
    "text": "You made me sit down too. I'm sitting. Look.",
-   "gesprochen": "[sigh] You made me sit down too. I'm sitting. Look.",
+   "gesprochen": "[laugh] You made me sit down too. I'm sitting. Look.",
    "quelle": "akt3_finale"
   },
   {
    "wer": "lola",
    "text": "You stirred. Badly. Perfect.",
-   "gesprochen": "[sigh] You stirred. Badly. Perfect.",
+   "gesprochen": "[chuckle] You stirred. Badly. Perfect.",
    "quelle": "akt3_finale"
   },
   {
@@ -31212,7 +30930,7 @@
   {
    "wer": "bibi",
    "text": "You gave me the knife without a word. I love that. Still.",
-   "gesprochen": "[sigh] You gave me the knife without a word. I love that. Still.",
+   "gesprochen": "[laugh] You gave me the knife without a word. I love that. Still.",
    "quelle": "akt3_finale"
   },
   {
@@ -31230,7 +30948,7 @@
   {
    "wer": "megan",
    "text": "Duc. There. I said it twice now.",
-   "gesprochen": "[sigh] Duc. There. I said it twice now.",
+   "gesprochen": "[chuckle] Duc. There. I said it twice now.",
    "quelle": "akt3_finale"
   },
   {
@@ -31259,8 +30977,8 @@
   },
   {
    "wer": "petru",
-   "text": "Marie used to say I mend this net so my hands don't think. She was right. She was always right, except about the fish pie. Mine was never as good as hers.",
-   "gesprochen": "[clear throat] Marie used to say I mend this net so my hands don't think. She was right. She was always right, except about the fish pie. Mine was never as good as hers.",
+   "text": "Marie used to say I mend this net so my hands don't think. She was right. She was always right. She said my fish pie was good. That was the only time she was wrong.",
+   "gesprochen": "[clear throat] Marie used to say I mend this net so my hands don't think. She was right. She was always right. She said my fish pie was good. That was the only time she was wrong.",
    "quelle": "akt3_petru"
   },
   {
@@ -31301,8 +31019,8 @@
   },
   {
    "wer": "rosi",
-   "text": "Eventually? I need them now. ...He's screwing the lid back on. From the inside. That's a talent.",
-   "gesprochen": "[sigh] Eventually? I need them now. ...He's screwing the lid back on. From the inside. That's a talent.",
+   "text": "Eventually? I need them now. ...He's putting the lid back on. From the inside. That's a talent.",
+   "gesprochen": "[sigh] Eventually? I need them now. ...He's putting the lid back on. From the inside. That's a talent.",
    "quelle": "akt3_petru"
   },
   {
@@ -31325,8 +31043,8 @@
   },
   {
    "wer": "petru",
-   "text": "It did. Now I wait for it. The whole week. ...Here. Two mullet. From this morning.",
-   "gesprochen": "[chuckle] It did. Now I wait for it. The whole week. ...Here. Two mullet. From this morning.",
+   "text": "It did. Now I wait for it. The whole week. ...Here. Two fish. From this morning.",
+   "gesprochen": "[chuckle] It did. Now I wait for it. The whole week. ...Here. Two fish. From this morning.",
    "quelle": "akt3_petru"
   },
   {
@@ -31343,8 +31061,8 @@
   },
   {
    "wer": "batu",
-   "text": "A date! He has the Norwegian for that. I have the stew. Eat.",
-   "gesprochen": "[laugh] A date! He has the Norwegian for that. I have the stew. Eat.",
+   "text": "A date! He has the Norwegian captain for that. I have the stew. Eat.",
+   "gesprochen": "[laugh] A date! He has the Norwegian captain for that. I have the stew. Eat.",
    "quelle": "akt3_petru"
   },
   {
@@ -31361,8 +31079,8 @@
   },
   {
    "wer": "petru",
-   "text": "She is up there, in the Bergerie, with him. Happy, I think. I want to ask her to come down for the festa. I am bad with paper.",
-   "gesprochen": "[sigh] She is up there, in the Bergerie, with him. Happy, I think. I want to ask her to come down for the festa. I am bad with paper.",
+   "text": "She is up there, in the shepherd's hut, with him. Happy, I think. I want to ask her to come down for the festa. I am bad with paper.",
+   "gesprochen": "[sigh] She is up there, in the shepherd's hut, with him. Happy, I think. I want to ask her to come down for the festa. I am bad with paper.",
    "quelle": "akt3_petru"
   },
   {
@@ -31439,8 +31157,8 @@
   },
   {
    "wer": "elsa",
-   "text": "I'll wait at the bottom of the path with the car. If you find anything, it comes to me. Not to Pascal, not to anyone. To me.",
-   "gesprochen": "[clear throat] I'll wait at the bottom of the path with the car. If you find anything, it comes to me. Not to Pascal, not to anyone. To me.",
+   "text": "I'll wait at the bottom of the path with the car. If you find anything, it comes to me. Not to the town hall, not to anyone. To me.",
+   "gesprochen": "[clear throat] I'll wait at the bottom of the path with the car. If you find anything, it comes to me. Not to the town hall, not to anyone. To me.",
    "quelle": "akt3_mast"
   },
   {
@@ -31613,8 +31331,8 @@
   },
   {
    "wer": "rosi",
-   "text": "That's Papa's street. Lot 14. They built this where his workshop was. ...And look. Every thread turns left.",
-   "gesprochen": "[gasp] That's Papa's street. Lot 14. They built this where his workshop was. ...And look. Every thread turns left.",
+   "text": "That's Papa's street. In Catania. They built this where his workshop was. ...And look. Every thread turns left.",
+   "gesprochen": "[gasp] That's Papa's street. In Catania. They built this where his workshop was. ...And look. Every thread turns left.",
    "quelle": "akt3_mast"
   },
   {
@@ -31697,8 +31415,8 @@
   },
   {
    "wer": "charly",
-   "text": "Duc. I can switch it off, and it's gone. Or I leave it on, and Elsa hears everything it hears. Then my mother watches forever. Your choice is mine, today. What do we do?",
-   "gesprochen": "[clear throat] Duc. I can switch it off, and it's gone. Or I leave it on, and Elsa hears everything it hears. Then my mother watches forever. Your choice is mine, today. What do we do?",
+   "text": "Duc. I can switch it off, and it's gone. Or I leave it on, and Elsa hears everything it hears. Then my mother watches forever. I can't choose this one. You choose. What do we do?",
+   "gesprochen": "[clear throat] Duc. I can switch it off, and it's gone. Or I leave it on, and Elsa hears everything it hears. Then my mother watches forever. I can't choose this one. You choose. What do we do?",
    "quelle": "akt3_mast"
   },
   {
@@ -31736,6 +31454,300 @@
    "text": "I have it. All of it. ...Come down carefully. And thank you.",
    "gesprochen": "[clear throat] I have it. All of it. ...Come down carefully. And thank you.",
    "quelle": "akt3_mast"
+  },
+  {
+   "wer": "kommissar",
+   "text": "First question. The fire on the night of the twenty-second. Maître, your client's version.",
+   "gesprochen": "[clear throat] First question. The fire on the night of the twenty-second. Maître, your client's version.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "A band of pirates attacked this village on their own, for loot. It is sad, but it is simple.",
+   "gesprochen": "[clear throat] A band of pirates attacked this village on their own, for loot. It is sad, but it is simple.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "Pirates steal, Commissioner. That is what the word means. Nobody needs to pay a pirate to be a pirate.",
+   "gesprochen": "[chuckle] Pirates steal, Commissioner. That is what the word means. Nobody needs to pay a pirate to be a pirate.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "Nobody could have known it was coming. Not the village, not my client.",
+   "gesprochen": "[sigh] Nobody could have known it was coming. Not the village, not my client.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "Nobody. Not one call, not one warning. If someone knew, they kept it to themselves.",
+   "gesprochen": "[clear throat] Nobody. Not one call, not one warning. If someone knew, they kept it to themselves.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "My client's security team arrived in forty minutes and saved lives. Zero dead.",
+   "gesprochen": "[clear throat] My client's security team arrived in forty minutes and saved lives. Zero dead.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "Forty minutes, door to door. It was on every screen in Europe. Ask anyone on this square who saw them.",
+   "gesprochen": "[chuckle] Forty minutes, door to door. It was on every screen in Europe. Ask anyone on this square who saw them.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "...Maître. Would you like to say that sentence again? Slowly?",
+   "gesprochen": "[sigh] ...Maître. Would you like to say that sentence again? Slowly?",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "I... my client was misinformed about the details. The details.",
+   "gesprochen": "[cough] I... my client was misinformed about the details. The details.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "petru",
+   "text": "Hm. The sea doesn't lie. Now the paper doesn't either.",
+   "gesprochen": "[clear throat] Hm. The sea doesn't lie. Now the paper doesn't either.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "Second question. How did the attackers get into the village?",
+   "gesprochen": "[clear throat] Second question. How did the attackers get into the village?",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "The north barricade broke under the attack. Old wood, Commissioner. It simply gave way.",
+   "gesprochen": "[clear throat] The north barricade broke under the attack. Old wood, Commissioner. It simply gave way.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "Broken, yes. From the outside, by force. It was closed and locked until the very end. I have that in writing.",
+   "gesprochen": "[sigh] Broken, yes. From the outside, by force. It was closed and locked until the very end. I have that in writing.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "The men in white were my client's security. They came to protect the village, not to attack it.",
+   "gesprochen": "[clear throat] The men in white were my client's security. They came to protect the village, not to attack it.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "They came when they heard the shots. Not one minute before. Why would they be there before?",
+   "gesprochen": "[chuckle] They came when they heard the shots. Not one minute before. Why would they be there before?",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "And frankly, nobody in this village saw who came through. It was dark, there was smoke, people were afraid.",
+   "gesprochen": "[sigh] And frankly, nobody in this village saw who came through. It was dark, there was smoke, people were afraid.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "Not one person. If somebody here saw something, why didn't they say so at the time?",
+   "gesprochen": "[clear throat] Not one person. If somebody here saw something, why didn't they say so at the time?",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "So the barricade did not break. It was opened. Clerk, write that down. In big letters.",
+   "gesprochen": "[gasp] So the barricade did not break. It was opened. Clerk, write that down. In big letters.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "Commissioner, I must ask for a short pause. ...No? No pause. I see.",
+   "gesprochen": "[cough] Commissioner, I must ask for a short pause. ...No? No pause. I see.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "mina",
+   "text": "They're writing it down. In big letters!",
+   "gesprochen": "[gasp] They're writing it down. In big letters!",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "Last question. Money. Who paid whom, and for what?",
+   "gesprochen": "[clear throat] Last question. Money. Who paid whom, and for what?",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "A.V. bought loans in this village to help people. Banks were cruel, my client was kind.",
+   "gesprochen": "[clear throat] A.V. bought loans in this village to help people. Banks were cruel, my client was kind.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "Lower interest, longer terms. Read the contracts. They are generous.",
+   "gesprochen": "[sigh] Lower interest, longer terms. Read the contracts. They are generous.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "And nobody can prove that my client paid a single euro to anyone in this bay. Not one euro.",
+   "gesprochen": "[chuckle] And nobody can prove that my client paid a single euro to anyone in this bay. Not one euro.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "Bring me a bank transfer, a signature, a receipt. You can't. Because there is none.",
+   "gesprochen": "[chuckle] Bring me a bank transfer, a signature, a receipt. You can't. Because there is none.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "My client has never threatened anyone. Not with a letter, not with a word.",
+   "gesprochen": "[clear throat] My client has never threatened anyone. Not with a letter, not with a word.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "A letter about a loan is not a threat. It is a letter. People send letters.",
+   "gesprochen": "[sigh] A letter about a loan is not a threat. It is a letter. People send letters.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "Page forty-one, Maître. Or a receipt. Or a man whose legs were switched off. Choose which one you'd like to explain first.",
+   "gesprochen": "[sigh] Page forty-one, Maître. Or a receipt. Or a man whose legs were switched off. Choose which one you'd like to explain first.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "...I would like to speak with my client.",
+   "gesprochen": "[cough] ...I would like to speak with my client.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "batu",
+   "text": "Eat, Maître. You look pale.",
+   "gesprochen": "[chuckle] Eat, Maître. You look pale.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "One last thing. This village is not innocent. A cash book, from the deputy mayor's drawer. The priest. The man with the braces. Your own mayor, Madame Casanova. They all took his money.",
+   "gesprochen": "[clear throat] One last thing. This village is not innocent. A cash book, from the deputy mayor's drawer. The priest. The man with the braces. Your own mayor, Madame Casanova. They all took his money.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "...First Officer. The lieutenant from the coast guard says you have the original. All of it, or only the part about Alon?",
+   "gesprochen": "[sigh] ...First Officer. The lieutenant from the coast guard says you have the original. All of it, or only the part about Alon?",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "casanova",
+   "text": "Yes. Me too. Write my name first.",
+   "gesprochen": "[sigh] Yes. Me too. Write my name first.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "A village that confesses its own debts. Twenty-two years in this job, and that is a first.",
+   "gesprochen": "[clear throat] A village that confesses its own debts. Twenty-two years in this job, and that is a first.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "casanova",
+   "text": "...Thank you, Monsieur. I won't forget it. Neither will Don.",
+   "gesprochen": "[sigh] ...Thank you, Monsieur. I won't forget it. Neither will Don.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "Noted. The rest of the book stays a village matter. For now.",
+   "gesprochen": "[clear throat] Noted. The rest of the book stays a village matter. For now.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "We are here to find out what happened in this bay on the twenty-first, twenty-second and twenty-third. Maître Delorme speaks for A.V. You speak for the village. Three questions.",
+   "gesprochen": "[clear throat] We are here to find out what happened in this bay on the twenty-first, twenty-second and twenty-third. Maître Delorme speaks for A.V. You speak for the village. Three questions.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "Commissioner. Gentlemen. Good people of Cala d'Orsu. My client sends his warmest regards. He is very busy saving the world.",
+   "gesprochen": "[chuckle] Commissioner. Gentlemen. Good people of Cala d'Orsu. My client sends his warmest regards. He is very busy saving the world.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "That doesn't answer the sentence, First Officer.",
+   "gesprochen": "[sigh] That doesn't answer the sentence, First Officer.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "We are not here for guesses. Please.",
+   "gesprochen": "[clear throat] We are not here for guesses. Please.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "My patience is a small boat, First Officer. Don't make it sink.",
+   "gesprochen": "[sigh] My patience is a small boat, First Officer. Don't make it sink.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "Objection to the objection. That sentence happens to be true.",
+   "gesprochen": "[chuckle] Objection to the objection. That sentence happens to be true.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "I said nothing of the kind, Commissioner. Perhaps the First Officer should listen first.",
+   "gesprochen": "[clear throat] I said nothing of the kind, Commissioner. Perhaps the First Officer should listen first.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "Enough. We have heard enough guesses. We will decide with what we have.",
+   "gesprochen": "[sigh] Enough. We have heard enough guesses. We will decide with what we have.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "No answer? Then the sentence stands as it is.",
+   "gesprochen": "[sigh] No answer? Then the sentence stands as it is.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "Thank you. We have what we need. All three questions. You'll know tonight, but I think you know already.",
+   "gesprochen": "[clear throat] Thank you. We have what we need. All three questions. You'll know tonight, but I think you know already.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "Thank you. Two questions answered, one still open. You'll know tonight.",
+   "gesprochen": "[clear throat] Thank you. Two questions answered, one still open. You'll know tonight.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "Thank you. One answer is not much. You'll know tonight.",
+   "gesprochen": "[sigh] Thank you. One answer is not much. You'll know tonight.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "Thank you, everyone. We will write our report. Don't expect too much from it.",
+   "gesprochen": "[sigh] Thank you, everyone. We will write our report. Don't expect too much from it.",
+   "quelle": "akt3_kommission"
   },
   {
    "wer": "mina",

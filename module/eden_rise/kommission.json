@@ -141,7 +141,7 @@
    },
    "dorf": {
     "wer": "petru",
-    "text": "Hm. The sea doesn't lie either.",
+    "text": "Hm. The sea doesn't lie. Now the paper doesn't either.",
     "gefuehl": "approval"
    }
   },
@@ -197,7 +197,7 @@
    ],
    "treffer": {
     "wer": "kommissar",
-    "text": "So the barricade did not break. It was opened. Clerk, write that down. In capitals.",
+    "text": "So the barricade did not break. It was opened. Clerk, write that down. In big letters.",
     "gefuehl": "surprise"
    },
    "anwalt_wackelt": {
@@ -207,7 +207,7 @@
    },
    "dorf": {
     "wer": "mina",
-    "text": "They're writing it down. In capitals!",
+    "text": "They're writing it down. In big letters!",
     "gefuehl": "excitement"
    }
   },
@@ -262,7 +262,7 @@
    ],
    "treffer": {
     "wer": "kommissar",
-    "text": "Page forty-one, Maître. Or a receipt. Or a man without his legs. Choose which one you'd like to explain first.",
+    "text": "Page forty-one, Maître. Or a receipt. Or a man whose legs were switched off. Choose which one you'd like to explain first.",
     "gefuehl": "anger"
    },
    "anwalt_wackelt": {
@@ -518,7 +518,7 @@
    "art": "zeuge",
    "wer": "petru",
    "titel": "Petru",
-   "text": "A.V. bought the loan on his boat. The letter came the morning after the fire.",
+   "text": "A.V. bought the loan on his boat. The letter came two days after the fire.",
    "wenn": {
     "flag": "a3_zeuge_petru"
    },
@@ -588,7 +588,7 @@
   },
   "stille": {
    "wer": "kommissar",
-   "text": "...First Officer. Lieutenant Elsa says you have the original. All of it, or only the part about Alon?",
+   "text": "...First Officer. The lieutenant from the coast guard says you have the original. All of it, or only the part about Alon?",
    "gefuehl": "neutral"
   },
   "alles": {
@@ -608,7 +608,7 @@
    "chip": "“Only Alon's part. The village has paid enough.”",
    "folge": {
     "wer": "casanova",
-    "text": "...Thank you, Monsieur. I won't forget it. Neither will he.",
+    "text": "...Thank you, Monsieur. I won't forget it. Neither will Don.",
     "gefuehl": "gratitude"
    },
    "kommission": {

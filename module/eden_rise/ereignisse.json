@@ -104512,11 +104512,11 @@
     "betroffen": []
    },
    "sets": {},
-   "lage": "The post office has no roof. Mina's bicycle is lying in the ashes, bent. Mina is sorting letters on the steps anyway. Who holds the first stone with you?",
+   "lage": "The post office has no roof. Mina's old Vespa is lying in the ashes, black with soot. Mina is sorting letters on the steps anyway. Who holds the first stone with you?",
    "zeilen": [
     {
      "wer": "mina",
-     "text": "You want to start here? With my post office? Okay. I'll hold the bike. It's what I do.",
+     "text": "You want to start here? With my post office? Okay. I'll hold the ladder. It's what I do.",
      "gefuehl": "gratitude"
     }
    ],
@@ -104784,7 +104784,7 @@
    "zeilen": [
     {
      "wer": "alva",
-     "text": "My bar first? ...Don't tell anyone I said thank you. I didn't.",
+     "text": "My bar first? ...I'm not saying thank you. Write that down.",
      "gefuehl": "gratitude"
     }
    ],
@@ -105072,7 +105072,7 @@
     ]
    },
    "sets": {},
-   "lage": "The post office has a roof again. Mina rides past the harbour and honks twice. The first letter after the fire is not a bill.",
+   "lage": "The post office has a roof again. Mina rides past the harbour on her Vespa and honks twice. The first letter after the fire is not a bill.",
    "zeilen": [
     {
      "wer": "mina",
@@ -105493,7 +105493,7 @@
      ],
      "zeile": {
       "wer": "petru",
-      "text": "Nobody asked me that since Marie. I decide. I talk.",
+      "text": "Nobody asked me that since my wife Marie died. I decide. I talk.",
       "gefuehl": "neutral"
      }
     },
@@ -105661,7 +105661,7 @@
    "sets": {
     "elsa": "Standard"
    },
-   "lage": "Elsa's phone lies on the harbour wall, on speaker. A tired man from Ajaccio is talking: Commissioner Luciani. We received your file, Lieutenant. Two men from the commission will come on the thirty-fifth. We are very busy here. And we have the feeling you have this under control. To be honest, we were surprised. Cala d'Orsu sends us a report every month. All quiet. Signed and stamped.",
+   "lage": "Elsa's phone lies on the harbour wall, on speaker. A tired man from Ajaccio is talking: Commissioner Luciani. “We received your file, Lieutenant. Two men from the commission will come in ten days, on Sunday. We are very busy here. And we have the feeling you have this under control. To be honest, we were surprised. Cala d'Orsu sends us a report every month. All quiet. Signed and stamped.”",
    "zeilen": [
     {
      "wer": "elsa",
@@ -105820,7 +105820,7 @@
      ],
      "zeile": {
       "wer": "mina",
-      "text": "Okay. You knock. I'll hold the bike.",
+      "text": "Okay. You knock. I'll hold the ladder.",
       "gefuehl": "gratitude"
      }
     }
@@ -105880,7 +105880,7 @@
      ],
      "zeile": {
       "wer": "toto",
-      "text": "Grazie. ...Now it counts.",
+      "text": "Madonna. ...Now it counts, Comandante.",
       "gefuehl": "gratitude"
      }
     },
@@ -105984,7 +105984,7 @@
    "zeilen": [
     {
      "wer": "megan",
-     "text": "How... delightful. I'm gone for three weeks, and my yacht is a wreck with people living in it.",
+     "text": "How... delightful. Five days away, and my yacht is a wreck with people living in it.",
      "gefuehl": "disapproval",
      "gruppe": "yacht",
      "wenn": {
@@ -106544,7 +106544,7 @@
    "zeilen": [
     {
      "wer": "elsa",
-     "text": "My antenna form. Eleven months. 'Almost through.'",
+     "text": "My antenna form. Eleven months. Every week Pascal told me: 'Almost through.'",
      "gefuehl": "anger"
     },
     {
@@ -106554,7 +106554,7 @@
     },
     {
      "wer": "elsa",
-     "text": "Three o'clock, the night of the twenty-second. I wrote it down myself, that night. Two words.",
+     "text": "Three o'clock, the night of the twenty-second. I wrote it down myself, that night. Two words from the north road: 'Not yet.'",
      "gefuehl": "neutral",
      "gruppe": "wache",
      "wenn": {
@@ -106570,7 +106570,7 @@
     },
     {
      "wer": "elsa",
-     "text": "Holm told me about three o'clock. Here it is. The night of the twenty-second: two words.",
+     "text": "Holm told me about three o'clock. Here it is. The night of the twenty-second, from the north road, two words: 'Not yet.'",
      "gefuehl": "neutral",
      "gruppe": "wache",
      "wenn": {
@@ -106579,7 +106579,7 @@
     },
     {
      "wer": "elsa",
-     "text": "And this. A cash book in the same careful hand. The roof. The school bus. The festa money. And here: the priest. Sandru. ...Madame Casanova.",
+     "text": "And this. A cash book in the same neat handwriting. The roof. The school bus. The festa money. And here: the priest. Sandru. ...Madame Casanova.",
      "gefuehl": "sadness"
     },
     {
@@ -106617,7 +106617,7 @@
      ],
      "zeile": {
       "wer": "elsa",
-      "text": "For the record: I'd make the same face you're making.",
+      "text": "Kind. I'm not sure it's right. But it's kind.",
       "gefuehl": "neutral"
      }
     },
@@ -106655,21 +106655,21 @@
    "sets": {
     "nonna": "nonna_standard"
    },
-   "lage": "Every week there is a crate of seedlings at Nonna's door. This one has stood there since the morning after the siege. Today she opens the folded letter that came with it.",
+   "lage": "Every week there is a crate of seedlings at Nonna's door. This one has stood there since the morning after the siege. Today she opens the folded letter that came with it. She reads it out loud. It is from Pascal.",
    "zeilen": [
     {
      "wer": "nonna",
-     "text": "He writes: I told the priest not to go up the mountain. Stay, Don. Leave it with me. I thought it was for safety.",
+     "text": "He writes: 'I told the priest not to go up the mountain. Stay, Don. Leave it with me. I thought it was for safety.'",
      "gefuehl": "sadness"
     },
     {
      "wer": "nonna",
-     "text": "And I told him all of it, every month, for nine years. He can't say a word. That's why he drinks.",
+     "text": "'And I confessed all of it to him, every month, for nine years. He can't say a word. That's why he drinks.'",
      "gefuehl": "sadness"
     },
     {
      "wer": "nonna",
-     "text": "Duc told me to say it to him, to Minicu, at the gate. So I did. It was the only true thing I said that night.",
+     "text": "'Duc told me to tell Minicu the truth, at the gate. So I did. It was the only true thing I said that night.'",
      "gefuehl": "grief",
      "gruppe": "minicu",
      "wenn": {
@@ -106678,7 +106678,7 @@
     },
     {
      "wer": "nonna",
-     "text": "I told Isabelle that man has a good heart. You don't have a good heart, Pascal. You have a bad conscience.",
+     "text": "That's the end of the letter. ...I told Isabelle that man has a good heart. You don't have a good heart, Pascal. You have a bad conscience.",
      "gefuehl": "anger"
     },
     {
@@ -106760,7 +106760,7 @@
    "zeilen": [
     {
      "wer": "siri",
-     "text": "It was up for four seconds, and then his video slid over it. This time I'm not giving him four seconds.",
+     "text": "My post from the siege was up for four seconds, and then his video slid over it. This time I'm not giving him four seconds.",
      "gefuehl": "anger",
      "gruppe": "vier",
      "wenn": {
@@ -106810,7 +106810,7 @@
      ],
      "zeile": {
       "wer": "yasin",
-      "text": "...I filmed Minicu falling, and I kept filming. I don't want money for that. Okay? Don't tell anyone I said okay.",
+      "text": "...I filmed Minicu falling, and I kept filming. I don't want money for that. Okay? That's not business. That's just true.",
       "gefuehl": "remorse"
      }
     },
@@ -107099,7 +107099,7 @@
    "sets": {
     "rosi": "Engine Room"
    },
-   "lage": "Rosi works in Petru's workshop while the yacht is broken. Her phone lies on a crate, on speaker. A friendly voice says: Thank you for calling Eden Fleet Services. Your yacht is important to us. Then the music starts. It is very long music.",
+   "lage": "Rosi works in Petru's workshop while the yacht is broken. Her phone lies on a crate, on speaker. A friendly voice says: “Thank you for calling Eden Fleet Services. Your yacht is important to us.” Then the music starts. It is very long music.",
    "zeilen": [
     {
      "wer": "rosi",
@@ -107393,11 +107393,11 @@
    "sets": {
     "rosi": "Engine Room"
    },
-   "lage": "The evening of day 31. Rosi climbs out of the engine room with black hands and knocks on the hull twice.",
+   "lage": "The evening of day 31. Someone knocks on the hull twice, from the engine room.",
    "zeilen": [
     {
      "wer": "rosi",
-     "text": "She's ugly, she leaks a bit, and she floats. Don't tell her I said ugly.",
+     "text": "Officer! Up here. She's ugly, she leaks a bit, and she floats. Don't tell her I said ugly.",
      "gefuehl": "pride",
      "gruppe": "rosi",
      "wenn": {
@@ -107408,7 +107408,7 @@
     },
     {
      "wer": "maxwell",
-     "text": "Rosi says she floats. Mr. Maximum has checked. She floats.",
+     "text": "Rosi says on the video: she floats. Mr. Maximum has checked. She floats.",
      "gefuehl": "pride",
      "gruppe": "rosi",
      "wenn": null
@@ -107462,6 +107462,11 @@
       },
       {
        "flag": "a3_yacht_repariert"
+      },
+      {
+       "nicht": {
+        "flag": "gefeuert_rosi"
+       }
       }
      ]
     }
@@ -107825,7 +107830,12 @@
    "zeilen": [
     {
      "wer": "petru",
-     "text": "The commission. You want me to sign my name. My father signed his name once, for a bank. They took his boat. I saw the torches at my workshop, and who stayed. A.V. has the loan on my boat. So tell me why.",
+     "text": "The commission. You want me to sign my name. My father signed his name once, for a bank. They took his boat.",
+     "gefuehl": "neutral"
+    },
+    {
+     "wer": "petru",
+     "text": "Now A.V. has the loan on mine. So tell me why I should sign.",
      "gefuehl": "neutral"
     }
    ],
@@ -108591,7 +108601,7 @@
      ],
      "zeile": {
       "wer": "alva",
-      "text": "Then I'll say it. Papa always said: a bar is where people tell the truth. Mine too.",
+      "text": "Then I'll say it. Papa always said: a bar is where people tell the truth. So I will too.",
       "gefuehl": "pride"
      }
     },
@@ -108618,7 +108628,7 @@
      }
     },
     {
-     "text": "“Say it the way you'd tell Papa.”",
+     "text": "“Say it the way you'd tell your father, if he were still behind the bar.”",
      "folgen": [
       {
        "flag": "a3_zeuge_alva"
@@ -109072,7 +109082,7 @@
    "zeilen": [
     {
      "wer": "casanova",
-     "text": "Every night someone left his paper on my church steps. I kept all of it. If I give it to the commission, they will also read my name in Pascal's book. Do I do it, Monsieur?",
+     "text": "Every night, Alon's people left a letter on my church steps, the ones in that neat handwriting. I kept all of them. If I give it to the commission, they will also read my name in Pascal's book. Do I do it, Monsieur?",
      "gefuehl": "nervousness"
     }
    ],
@@ -111915,7 +111925,7 @@
    "zeilen": [
     {
      "wer": "alva",
-     "text": "Papa's recipe, with myrtle? Or a new one? If it's new, you give it a name.",
+     "text": "Papa's recipe, with the berries from the hill? Or a new one? If it's new, you give it a name.",
      "gefuehl": "curiosity"
     }
    ],
@@ -111946,7 +111956,7 @@
      }
     },
     {
-     "text": "“A new one. We call it 'The Eventually'.”",
+     "text": "“A new one. We name it after the pirates' boat, The Eventually.”",
      "folgen": [
       {
        "flag": "a3_los_getraenk"
@@ -111971,7 +111981,7 @@
      }
     },
     {
-     "text": "“A new one. We call it 'Fresh Bread'.”",
+     "text": "“A new one. We call it 'Fresh Bread', for Sandru's bread.”",
      "folgen": [
       {
        "flag": "a3_los_getraenk"
@@ -112460,7 +112470,7 @@
      ],
      "zeile": {
       "wer": "mina",
-      "text": "All of them. Even the ones from Monaco in the careful hand. Let them hang.",
+      "text": "All of them. Even the ones from Monaco in that neat handwriting. Let them hang.",
       "gefuehl": "amusement"
      }
     },
@@ -112485,7 +112495,7 @@
      ],
      "zeile": {
       "wer": "mina",
-      "text": "Okay. His stay in the box.",
+      "text": "Okay. His letters stay in the box.",
       "gefuehl": "neutral"
      }
     },
@@ -113487,7 +113497,7 @@
    "zeilen": [
     {
      "wer": "rosi",
-     "text": "What goes in the switch, Officer? One of your chips, or a piece of Alon's collars?",
+     "text": "What goes in the switch, Officer? A chip from one of the robots you beat, or a piece of Alon's collars?",
      "gefuehl": "curiosity",
      "gruppe": "rosi",
      "wenn": {
@@ -113498,7 +113508,7 @@
     },
     {
      "wer": "maxwell",
-     "text": "Rosi says on the video: one of your chips, or a piece of Alon's collars? Mr. Maximum holds the screwdriver.",
+     "text": "Rosi says on the video: a chip from one of the robots you beat, or a piece of Alon's collars? Mr. Maximum holds the screwdriver.",
      "gefuehl": "neutral",
      "gruppe": "rosi",
      "wenn": null
@@ -113506,7 +113516,7 @@
    ],
    "optionen": [
     {
-     "text": "Gives her one of his own chips.",
+     "text": "Gives her a chip from one of the robots he beat.",
      "folgen": [
       {
        "flag": "a3_los_lichter"
@@ -113526,7 +113536,7 @@
      ],
      "zeile": {
       "wer": "rosi",
-      "text": "Your chip? ...White light. Thank you, Officer.",
+      "text": "A robot chip? ...White light. Thank you, Officer.",
       "gefuehl": "surprise"
      }
     },
@@ -113966,7 +113976,7 @@
    "sets": {
     "sandru": "sandru_av"
    },
-   "lage": "The board says: Sandru · his mother's recipes · a table of sweets. Sandru has a tin box with gazelle horns and chebakia.",
+   "lage": "The board says: Sandru · his mother's recipes · a table of sweets. Sandru has a tin box with gazelle horns, little almond cakes, and chebakia with honey.",
    "zeilen": [
     {
      "wer": "sandru",
@@ -114503,13 +114513,13 @@
      }
     },
     {
-     "text": "“Frederico. He carries everything.”",
+     "text": "“Don Anghjulu. For the church steps.”",
      "folgen": [
       {
        "flag": "a3_los_garten"
       },
       {
-       "flag": "a3_los_garten_fred"
+       "flag": "a3_los_garten_kirche"
       },
       {
        "vertrauen": [
@@ -114523,7 +114533,7 @@
      ],
      "zeile": {
       "wer": "nonna",
-      "text": "Frederico! He'll eat it on the way.",
+      "text": "For the church. Don will say he doesn't like basil. He likes it.",
       "gefuehl": "amusement"
      }
     },
@@ -114950,8 +114960,8 @@
    "zeilen": [
     {
      "wer": "danzel",
-     "text": "Chiara's dress is finished already! So, whose dress next? I can only finish one more in time!",
-     "gefuehl": "nervousness",
+     "text": "Chiara's dress is finished. Hem, darts, all of it. Whose dress next? I can finish one more in time, if nobody talks to me.",
+     "gefuehl": "neutral",
      "gruppe": "danzel",
      "wenn": {
       "flag": "chiara_festa_kleid"
@@ -115926,7 +115936,7 @@
     },
     {
      "wer": "holm",
-     "text": "Since the night before Bergen I have said everything only once. So listen. These four stripes on my shoulders. Do I keep them, or do they go in the table?",
+     "text": "I say things once, Frankfurt. So listen. These four stripes on my shoulders. Do I keep them, or do they go in the table?",
      "gefuehl": "nervousness"
     }
    ],
@@ -116508,7 +116518,7 @@
    "zeilen": [
     {
      "wer": "casanova",
-     "text": "Tomorrow, then. The festa doesn't build itself. ...Mostly it does, but don't tell anyone.",
+     "text": "Tomorrow, then. The festa doesn't build itself. ...Well. Sometimes it does. That is the miracle of a festa.",
      "gefuehl": "amusement"
     }
    ],
@@ -116785,7 +116795,7 @@
    "sets": {
     "lea": "Deck"
    },
-   "lage": "Lea sits at the harbour with her grandfather's chart and draws in the rocks with a pencil. Buenaventura looks over her shoulder.",
+   "lage": "Lea sits at the harbour with her grandfather's chart and marks the rocks on it with a pencil. Buenaventura looks over her shoulder.",
    "zeilen": [
     {
      "wer": "lea",
@@ -116870,7 +116880,7 @@
    "zeilen": [
     {
      "wer": "bonaventure",
-     "text": "The head of... ...I would need a hat.",
+     "text": "The head of... ...I would need a bigger hat.",
      "gefuehl": "pride"
     },
     {
@@ -117070,7 +117080,7 @@
     },
     {
      "wer": "riscossore",
-     "text": "Here. Your first payment.",
+     "text": "Here. A piece of orange. Your first payment comes tomorrow. Eventually.",
      "gefuehl": "amusement"
     }
    ],
@@ -117145,7 +117155,7 @@
     },
     {
      "wer": "maxwell",
-     "text": "Bibi says a plane has no bad temper. Mr. Maximum fed Bones. Mr. Maximum can sit in a plane.",
+     "text": "Bibi says a plane has no bad temper. I fed Bones, brother. I can sit in a plane.",
      "gefuehl": "pride",
      "gruppe": "bones",
      "wenn": {
@@ -117332,7 +117342,7 @@
    "sets": {
     "rosi": "Engine Room"
    },
-   "lage": "Yamamoto has a printout from her bank. She holds it out to Rosi with both hands, like a gift she is ashamed of.",
+   "lage": "Yamamoto has a printout from his bank. He holds it out to Rosi with both hands, like a gift he is ashamed of.",
    "zeilen": [
     {
      "wer": "yamamoto",
@@ -117430,7 +117440,7 @@
    "bild": "antenna_ridge",
    "personen": {},
    "sets": {},
-   "lage": "Up on the ridge, between the cistus and the rocks, lie the white machines from the siege. Grass grows through their joints. One of them still turns its head when you come closer.",
+   "lage": "Up on the ridge, between the bushes and the rocks, lie the white machines from the siege. Grass grows through their joints. One of them still turns its head when you come closer.",
    "zeilen": [],
    "optionen": [
     {
@@ -117468,7 +117478,7 @@
    "zeilen": [],
    "optionen": [
     {
-     "text": "Stands his ground.",
+     "text": "Stays where he is and gets ready to fight.",
      "folgen": [
       {
        "kampf": "a3_scrap_paar"
@@ -117561,7 +117571,7 @@
    "zeilen": [
     {
      "wer": "yamamoto",
-     "text": "Officer-san. So sorry. I have stopped the loan to A.V. I did not ask permission. Very rude of me.",
+     "text": "Officer-san. So sorry, I come in for one second only. I have stopped the loan to A.V. I did not ask permission. Very rude of me.",
      "gefuehl": "nervousness",
      "gruppe": "yama",
      "wenn": {
@@ -117871,7 +117881,7 @@
    "sets": {
     "megan": "Boardroom"
    },
-   "lage": "The man in Monaco says: Bring me something better than a fishing village, Megan. The screen goes black.",
+   "lage": "The man in Monaco says: “Bring me something better than a fishing village, Megan.” The screen goes black.",
    "zeilen": [
     {
      "wer": "megan",
@@ -117943,7 +117953,7 @@
     "sandru": "sandru_av",
     "alva": "alva_standard"
    },
-   "lage": "Mina comes running: The market. It's Sandru. In the A.V. Market, Sandru is sitting on the floor between the white shelves. The braces on his legs are quiet. You never noticed the sound until it stopped. A small screen on his knee says: Device paused. The user broke the rules of service. Thank you for your understanding.",
+   "lage": "Mina comes running: “The market. It's Sandru.” In the A.V. Market, Sandru is sitting on the floor between the white shelves. The braces on his legs are quiet. You never noticed the sound until it stopped. A small screen on his knee says: Device paused. The user broke the rules of service. Thank you for your understanding.",
    "zeilen": [
     {
      "wer": "sandru",
@@ -117961,7 +117971,7 @@
     },
     {
      "wer": "sandru",
-     "text": "They found the tin. My mother's recipes, under his sign.",
+     "text": "A.V. found my mother's tin of recipes. I sold her sweets in their market, under Alon's sign.",
      "gefuehl": "sadness",
      "gruppe": "dose",
      "wenn": {
@@ -118053,7 +118063,7 @@
     "alva": "alva_standard",
     "sandru": "sandru_av"
    },
-   "lage": "Alva has not stepped into her mother's old shop since her mother left for Seville. Today she carries her brother out of it, across the street, and up the stairs.",
+   "lage": "Alva has not stepped into her mother's old shop since her mother left for Seville. Today she carries Sandru out of it, like a brother, across the street, and up the stairs.",
    "zeilen": [
     {
      "wer": "alva",
@@ -118161,14 +118171,14 @@
     },
     {
      "wer": "maxwell",
-     "text": "Rosi says which way on the video, I hold the screwdriver. Teamwork, brother.",
+     "text": "Rosi tells me on the video which way to turn. I hold the screwdriver. Teamwork, brother.",
      "gefuehl": "pride",
      "gruppe": "rosi",
      "wenn": null
     },
     {
      "wer": "sandru",
-     "text": "A.V. gave me six years of walking. You gave me a speech. ...And her. You gave me her. So what do I do now, Duc? Walk over there and say what?",
+     "text": "A.V. gave me six years of walking. You gave me a speech. ...And Rosi. You gave me Rosi and her screwdriver. So what do I do now, Duc? Walk over there and say what?",
      "gefuehl": "nervousness"
     }
    ],
@@ -118361,7 +118371,7 @@
     "betroffen": []
    },
    "sets": {},
-   "lage": "Mina hands you an envelope made of very good paper. Your name is on it, in a careful hand.",
+   "lage": "Mina hands you an envelope made of very good paper. Your name is on it, in very neat handwriting.",
    "zeilen": [
     {
      "wer": "mina",
@@ -118370,7 +118380,7 @@
     },
     {
      "wer": "mina",
-     "text": "It says: Dinner. Tomorrow at eight. Just you. A.V. ...Yacht, that's the hand from the name sheet you picked up at the gate. And from the letters on the church steps.",
+     "text": "It says: Dinner. Tomorrow at eight. Just you. A.V. ...Yacht, that's the same handwriting as on the name sheet you picked up at the gate. And from the letters on the church steps.",
      "gefuehl": "fear",
      "gruppe": "hand",
      "wenn": {
@@ -120892,7 +120902,7 @@
    "zeilen": [
     {
      "wer": "lea",
-     "text": "After midnight, on the mole. Will you come? Proper come?",
+     "text": "After midnight, on the mole. Will you be there? Properly there?",
      "gefuehl": "nervousness"
     }
    ],
@@ -125654,7 +125664,7 @@
    "zeilen": [
     {
      "wer": "lea",
-     "text": "After midnight, on the mole. Will you come? Proper come?",
+     "text": "After midnight, on the mole. Will you be there? Properly there?",
      "gefuehl": "nervousness"
     }
    ],
@@ -128712,7 +128722,7 @@
      ]
     },
     {
-     "text": "Picks up the key. “I'll go alone.”",
+     "text": "Turns to the cellar door. “I'll go alone.”",
      "folgen": [
       {
        "flag": "a3_villa_allein"
@@ -128746,7 +128756,7 @@
     "betroffen": []
    },
    "sets": {},
-   "lage": "The cellar under the villa. Wine barrels, very old, and between them a tall black cabinet with blue lights. It hums. Madame Casanova stops at the door.",
+   "lage": "The cellar under the villa. Wine barrels, very old, and between them a tall black cabinet with blue lights. It hums.",
    "zeilen": [
     {
      "wer": "casanova",
@@ -128768,7 +128778,7 @@
     },
     {
      "wer": "casanova",
-     "text": "My father kept his best wine down here. Now look at it.",
+     "text": "I'll wait at the top of the stairs, Monsieur. My father kept his best wine down there. Now look at it.",
      "gefuehl": "sadness",
      "gruppe": "tuer",
      "wenn": null
@@ -129175,17 +129185,12 @@
    "sets": {
     "alon": "alon_standard"
    },
-   "lage": "For a second, Alon says nothing. Then he smiles, the stage smile.",
+   "lage": "For a second, Alon says nothing. Then he smiles, the stage smile. Under the table, your phone buzzes. A message from Yamamoto: “So sorry, Officer-san. My bank has already stopped his loan. He does not know yet. Very rude of me.”",
    "zeilen": [
     {
      "wer": "alon",
      "text": "In front of the village. With cameras. A consultant who finally understands marketing. Fine. Tomorrow night.",
      "gefuehl": "pride"
-    },
-    {
-     "wer": "yamamoto",
-     "text": "So sorry, Officer-san. My bank has already stopped his loan. He does not know yet. Very rude of me.",
-     "gefuehl": "nervousness"
     }
    ],
    "optionen": [
@@ -129292,7 +129297,7 @@
    "sets": {
     "alon": "alon_standard"
    },
-   "lage": "Below the terrace, torches are coming up the path. Not pirates' torches: the whole village, with candles from the church. Madame Casanova walks in front. She opens the door of the house she grew up in and steps inside.",
+   "lage": "Below the terrace, lights are coming up the path. Not torches this time: the whole village, with candles from the church. Madame Casanova walks in front. She opens the door of the house she grew up in and steps inside.",
    "zeilen": [
     {
      "wer": "casanova",
@@ -129343,7 +129348,7 @@
    "sets": {
     "alon": "alon_standard"
    },
-   "lage": "You stand next to Alon in the stream. Down in the village, the phones light up one by one.",
+   "lage": "You stand next to Alon in his live video. Down in the village, the phones light up one by one.",
    "zeilen": [
     {
      "wer": "alon",
@@ -129398,7 +129403,7 @@
     },
     {
      "wer": "rosi",
-     "text": "I took the leash out.",
+     "text": "I took the leash out of Sandru's braces. I can take it out of yours.",
      "gefuehl": "pride",
      "gruppe": "rosi",
      "wenn": {
@@ -129407,7 +129412,7 @@
     },
     {
      "wer": "alon",
-     "text": "I know. That's how I learned to lock it.",
+     "text": "I know. That's how I learned to lock mine.",
      "gefuehl": "neutral",
      "gruppe": "rosi2",
      "wenn": {
@@ -129417,7 +129422,7 @@
    ],
    "optionen": [
     {
-     "text": "Stands his ground.",
+     "text": "Stays where he is and gets ready to fight.",
      "folgen": [
       {
        "kampf": "a3_alon"
@@ -129469,7 +129474,7 @@
    "zeilen": [
     {
      "wer": "elsa",
-     "text": "Mr. Varenne. Coast guard. You're under arrest, and I'd honestly prefer it if you said nothing.",
+     "text": "Pascal. Don't go too far tonight. I'll have questions tomorrow.",
      "gefuehl": "neutral",
      "gruppe": "elsa",
      "wenn": {
@@ -129509,7 +129514,7 @@
     },
     {
      "wer": "pascal",
-     "text": "Good night, Monsieur. Everybody has a price. I just never found out mine.",
+     "text": "Good night, Duc. Everybody has a price. I just never found out mine.",
      "gefuehl": "neutral",
      "gruppe": "pascal",
      "wenn": null
@@ -129631,7 +129636,12 @@
    "zeilen": [
     {
      "wer": "elsa",
-     "text": "I saw your face on his stream, First Officer. I don't want to know how you got in.",
+     "text": "Mr. Varenne. Coast guard. You're under arrest, and I'd honestly prefer it if you said nothing.",
+     "gefuehl": "neutral"
+    },
+    {
+     "wer": "elsa",
+     "text": "I saw your face in his live video, First Officer. I don't want to know how you got in.",
      "gefuehl": "neutral"
     }
    ],
@@ -129856,7 +129866,7 @@
    ],
    "optionen": [
     {
-     "text": "Holds the torch and lets her find it.",
+     "text": "Holds the flashlight and lets her find it.",
      "folgen": [
       {
        "flag": "a3_schluss_chiara"
@@ -129935,7 +129945,7 @@
      ],
      "zeile": {
       "wer": "chiara",
-      "text": "Together. Okay. That's a ten. Don't tell anyone.",
+      "text": "Together. Okay. That's a ten. Nobody hears that number but you.",
       "gefuehl": "love"
      }
     }
@@ -130220,7 +130230,7 @@
    "sets": {
     "sophia": "Writing Night"
    },
-   "lage": "Sophia has a letter in her hand. Fifteen letters said no. This is number sixteen, and it is still closed.",
+   "lage": "Sophia has a letter from a publisher in her hand. Fifteen publishers said no to her novel. This is number sixteen, and it is still closed.",
    "zeilen": [
     {
      "wer": "sophia",
@@ -130343,7 +130353,7 @@
    "zeilen": [
     {
      "wer": "rosi",
-     "text": "The night with the stopwatch, when nobody lost. ...Officer. If I say 'Captain' now, is that an insult or a promotion?",
+     "text": "Remember the night with the stopwatch? Nobody lost. ...Officer. If I say 'Captain' now, is that an insult or a promotion?",
      "gefuehl": "nervousness"
     }
    ],
@@ -130428,7 +130438,7 @@
      ],
      "zeile": {
       "wer": "rosi",
-      "text": "Unentschieden. That's a draw. I'll take it.",
+      "text": "A draw. So nobody won. I'll take it.",
       "gefuehl": "amusement"
      }
     }
@@ -130473,7 +130483,7 @@
     },
     {
      "wer": "lola",
-     "text": "The first morning on the yacht, when you ate my eggs and didn't make a face.",
+     "text": "You remember the first morning on the yacht? You ate my eggs and didn't make a face.",
      "gefuehl": "joy",
      "gruppe": "rueck",
      "wenn": null
@@ -131523,7 +131533,7 @@
     },
     {
      "wer": "chiara",
-     "text": "So. You and the First Officer. Lola told me, and Lola tells everybody. Seven out of ten for hiding it.",
+     "text": "So. You and the First Officer. Lola told me, and Lola tells everybody. Hiding it: a three.",
      "gefuehl": "amusement",
      "gruppe": "tratsch",
      "wenn": null
@@ -131584,7 +131594,7 @@
      ],
      "zeile": {
       "wer": "alva",
-      "text": "Not to everyone. Shh.",
+      "text": "Not to everyone.",
       "gefuehl": "amusement"
      }
     }
@@ -131912,7 +131922,7 @@
    "zeilen": [
     {
      "wer": "lea",
-     "text": "Did you know Mina's flat has a hundred and four letters in it? I counted. I sleep next to them.",
+     "text": "Mina's flat has a hundred and four letters in it. I counted. I sleep next to them.",
      "gefuehl": "amusement",
      "gruppe": "wo",
      "wenn": {
@@ -132304,12 +132314,12 @@
     },
     {
      "wer": "bibi",
-     "text": "That's Bones. Six kilos. Three metres of wing, and six kilos! He's mostly air and bad temper. He's looking at the bucket, chéri.",
+     "text": "That's Bones. Six kilos. Three metres of wing, and six kilos! He's mostly air and bad temper. He's looking at the bucket, Maxwell.",
      "gefuehl": "joy"
     },
     {
      "wer": "maxwell",
-     "text": "Mr. Maximum is scared of everything that flies, sister. Everything. And in four days he sits in a plane.",
+     "text": "Everything that flies scares me, sister. Everything. And soon I sit in a plane.",
      "gefuehl": "fear"
     },
     {
@@ -132716,7 +132726,7 @@
     },
     {
      "wer": "sandru",
-     "text": "My name is Iskander. I carried Alva out of the rubble. And the next week, A.V. switched off my legs.",
+     "text": "My name is Iskander. I carried Alva out of the rubble. And eleven days later, A.V. switched off my legs.",
      "gefuehl": "neutral",
      "gruppe": "sandru",
      "wenn": {
@@ -132732,7 +132742,7 @@
     },
     {
      "wer": "sandru",
-     "text": "My name is Sandru. I carried Alva out of the rubble. And the next week, A.V. switched off my legs.",
+     "text": "My name is Sandru. I carried Alva out of the rubble. And eleven days later, A.V. switched off my legs.",
      "gefuehl": "neutral",
      "gruppe": "sandru",
      "wenn": {
@@ -132791,7 +132801,7 @@
     },
     {
      "wer": "casanova",
-     "text": "Every night someone left his paper on my church steps. I kept all of it. I'm giving it to you for the festa. A terrible reason, but it's mine.",
+     "text": "Every night, Alon's people left a letter on my church steps, in that neat handwriting. I kept all of them. I'm giving them to you for the festa. A terrible reason, but it's mine.",
      "gefuehl": "embarrassment",
      "gruppe": "casanova",
      "wenn": {
@@ -132800,7 +132810,7 @@
     },
     {
      "wer": "casanova",
-     "text": "Every night someone left his paper on my church steps. I kept all of it. Here it is.",
+     "text": "Every night, Alon's people left a letter on my church steps, in that neat handwriting. I kept all of them. Here they are.",
      "gefuehl": "pride",
      "gruppe": "casanova",
      "wenn": {
@@ -132862,11 +132872,11 @@
    "sets": {
     "anghjulu": "anghjulu_standard"
    },
-   "lage": "The older commissioner looks at his list.",
+   "lage": "The older commissioner looks at his list and asks: “The man at the gate? The big one?”",
    "zeilen": [
     {
      "wer": "anghjulu",
-     "text": "The man at the gate? The big one? He can't come today.",
+     "text": "He can't come today, Commissioner.",
      "gefuehl": "sadness"
     }
    ],
@@ -132956,7 +132966,7 @@
     },
     {
      "wer": "elsa",
-     "text": "The radio log. Three o'clock, the night of the twenty-second. Two words.",
+     "text": "The radio log. Three o'clock, the night of the twenty-second, from the north road. Two words: 'Not yet.'",
      "gefuehl": "neutral",
      "gruppe": "wache",
      "wenn": {
@@ -133482,11 +133492,11 @@
     },
     {
      "wer": "nonna",
-     "text": "Frederico ate half the basket on the way. The other half is here.",
+     "text": "Basil on the church steps. Don says he doesn't like it. He smells it every time he walks past.",
      "gefuehl": "amusement",
      "gruppe": "garten",
      "wenn": {
-      "flag": "a3_los_garten_fred"
+      "flag": "a3_los_garten_kirche"
      }
     }
    ],
@@ -134026,7 +134036,7 @@
     },
     {
      "wer": "danzel",
-     "text": "Duc! She gave me a nine yesterday, because you said so. Today: eleven. Nobody is humble here!",
+     "text": "Duc! She gave me a nine, because you said so. Tonight: eleven. Nobody is humble here!",
      "gefuehl": "joy",
      "gruppe": "danzel2",
      "wenn": {
@@ -134131,11 +134141,20 @@
     },
     {
      "wer": "ghjuvan",
-     "text": "The red light on the ridge went out. I slept for the first time in a month. So did my sheep.",
+     "text": "Ghjuvan, from the hills. The red light on the ridge went out. I slept for the first time in a month. So did my sheep.",
      "gefuehl": "relief",
      "gruppe": "mast",
      "wenn": {
-      "flag": "a3_mast_aus"
+      "alle": [
+       {
+        "flag": "a3_mast_aus"
+       },
+       {
+        "nicht": {
+         "flag": "bg_ghjuvan_tot"
+        }
+       }
+      ]
      }
     },
     {
@@ -134421,7 +134440,7 @@
    "zeilen": [
     {
      "wer": "chiara",
-     "text": "The torch, and you let me find the breaker myself.",
+     "text": "The flashlight, and you let me find the breaker myself.",
      "gefuehl": "love",
      "gruppe": "echo",
      "wenn": {
@@ -134535,7 +134554,7 @@
     },
     {
      "wer": "alva",
-     "text": "Only you. Don't tell anyone. They'd never believe it.",
+     "text": "Only you. Not to everyone. They'd never believe it.",
      "gefuehl": "love"
     }
    ],
@@ -134787,7 +134806,7 @@
     },
     {
      "wer": "rosi",
-     "text": "Draw. We're a draw. I can live with that.",
+     "text": "A draw. Nobody won. I can live with that.",
      "gefuehl": "love",
      "gruppe": "echo",
      "wenn": {
@@ -135299,7 +135318,7 @@
    "zeilen": [
     {
      "wer": "petru",
-     "text": "Marie used to say I mend this net so my hands don't think. She was right. She was always right, except about the fish pie. Mine was never as good as hers.",
+     "text": "Marie used to say I mend this net so my hands don't think. She was right. She was always right. She said my fish pie was good. That was the only time she was wrong.",
      "gefuehl": "sadness"
     },
     {
@@ -135433,7 +135452,7 @@
     },
     {
      "wer": "rosi",
-     "text": "Eventually? I need them now. ...He's screwing the lid back on. From the inside. That's a talent.",
+     "text": "Eventually? I need them now. ...He's putting the lid back on. From the inside. That's a talent.",
      "gefuehl": "surprise"
     }
    ],
@@ -135507,7 +135526,7 @@
     ]
    },
    "sets": {},
-   "lage": "Bà Tư comes into the workshop with a pot. She has done this every week since the siege, because she thinks he is lonely.",
+   "lage": "Bà Tư comes into the workshop with a pot. She has come every evening since the siege, because she thinks he is lonely.",
    "zeilen": [
     {
      "wer": "batu",
@@ -135516,7 +135535,7 @@
     },
     {
      "wer": "petru",
-     "text": "It did. Now I wait for it. The whole week. ...Here. Two mullet. From this morning.",
+     "text": "It did. Now I wait for it. The whole week. ...Here. Two fish. From this morning.",
      "gefuehl": "gratitude"
     },
     {
@@ -135560,7 +135579,7 @@
      ],
      "zeile": {
       "wer": "batu",
-      "text": "A date! He has the Norwegian for that. I have the stew. Eat.",
+      "text": "A date! He has the Norwegian captain for that. I have the stew. Eat.",
       "gefuehl": "amusement"
      }
     }
@@ -135630,7 +135649,7 @@
     },
     {
      "wer": "petru",
-     "text": "She is up there, in the Bergerie, with him. Happy, I think. I want to ask her to come down for the festa. I am bad with paper.",
+     "text": "She is up there, in the shepherd's hut, with him. Happy, I think. I want to ask her to come down for the festa. I am bad with paper.",
      "gefuehl": "sadness",
      "gruppe": "weg",
      "wenn": null
@@ -135774,7 +135793,7 @@
    ],
    "optionen": [
     {
-     "text": "“My parents fled from Vietnam. Night shifts in Germany. For years I acted like I came from nowhere. You can't run from it. You're carrying it anyway. So carry it with your head up.”",
+     "text": "“My parents fled from Vietnam and worked night shifts in Germany. You can't run from where you come from. So carry it with your head up.”",
      "folgen": [
       {
        "flag": "sandru_herkunft"
@@ -135848,7 +135867,7 @@
    "sets": {
     "elsa": "Standard"
    },
-   "lage": "Every night since the siege, a red light blinks on the ridge above San Martinu. Elsa still sees drones over the village at night. Ghjuvan says the light keeps his sheep awake. Up there, Alon has built something new.",
+   "lage": "Every night since the siege, a red light blinks on the ridge above San Martinu. Elsa still sees drones over the village at night. The shepherds in the hills say the light keeps their sheep awake. Up there, Alon has built something new.",
    "zeilen": [
     {
      "wer": "charly",
@@ -135877,7 +135896,7 @@
     },
     {
      "wer": "elsa",
-     "text": "I'll wait at the bottom of the path with the car. If you find anything, it comes to me. Not to Pascal, not to anyone. To me.",
+     "text": "I'll wait at the bottom of the path with the car. If you find anything, it comes to me. Not to the town hall, not to anyone. To me.",
      "gefuehl": "neutral"
     }
    ],
@@ -135930,7 +135949,7 @@
     "betroffen": []
    },
    "sets": {},
-   "lage": "At the old Genoese tower someone is sitting in the shadow: Sergent Wolff, with a bandage on his arm. The good one. Yours.",
+   "lage": "At the old Genoese tower someone is sitting in the shadow: Sergent Wolff, with your bandage on his arm, the good one you gave him in the siege.",
    "zeilen": [
     {
      "wer": "wolff",
@@ -135963,7 +135982,7 @@
    "bild": "macchia_path",
    "personen": {},
    "sets": {},
-   "lage": "The cistus is high here. Something moves in it, low and fast, with a sound like a zip. Steel snakes from the beach.",
+   "lage": "The bushes are high here. Something moves in it, low and fast, with a sound like a zip. Steel snakes from the beach.",
    "zeilen": [
     {
      "wer": "charly",
@@ -135993,7 +136012,7 @@
    ],
    "optionen": [
     {
-     "text": "Stands his ground.",
+     "text": "Stays where he is and gets ready to fight.",
      "folgen": [
       {
        "kampf": "a3_mast_kobra"
@@ -136100,7 +136119,7 @@
     "betroffen": []
    },
    "sets": {},
-   "lage": "The control box on the mast has a small screen. Three questions. The cursor blinks. Charly reads it without any voice at all.",
+   "lage": "The control box on the mast has a small screen. Three questions. The cursor blinks. Charly reads it out loud, flat, like a weather report.",
    "zeilen": [
     {
      "wer": "charly",
@@ -136483,7 +136502,7 @@
    "zeilen": [
     {
      "wer": "rosi",
-     "text": "That's Papa's street. Lot 14. They built this where his workshop was. ...And look. Every thread turns left.",
+     "text": "That's Papa's street. In Catania. They built this where his workshop was. ...And look. Every thread turns left.",
      "gefuehl": "grief"
     },
     {
@@ -136510,7 +136529,7 @@
      }
     },
     {
-     "text": "“Right, like every other screw.”",
+     "text": "“To the right, like every other screw.”",
      "folgen": [
       {
        "kampf": "a3_mast_alarm"
@@ -136793,7 +136812,7 @@
    "zeilen": [
     {
      "wer": "charly",
-     "text": "Duc. I can switch it off, and it's gone. Or I leave it on, and Elsa hears everything it hears. Then my mother watches forever. Your choice is mine, today. What do we do?",
+     "text": "Duc. I can switch it off, and it's gone. Or I leave it on, and Elsa hears everything it hears. Then my mother watches forever. I can't choose this one. You choose. What do we do?",
      "gefuehl": "nervousness",
      "gruppe": "wer",
      "wenn": {

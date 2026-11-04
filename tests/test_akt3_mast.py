@@ -60,7 +60,7 @@ def main():
         pruefen(len(falsch) == 2 and all({"weiter": "a3_mast_c_frage_%d" % n} in o["folgen"] for o in falsch), "Frage %d: falsch = Alarm, nochmal" % n)
     f3 = json.dumps(EV["a3_mast_c_frage_3"])
     pruefen("a3_mast_mutter_antwort" in f3 and "a3_mast_eigene_antwort" in f3, "letzte Frage: ihre Antwort oder die der Mutter")
-    pruefen("Lot 14" in json.dumps(EV["a3_mast_r_kasten"]) and "Old Lady" in json.dumps(EV["a3_mast_r_old_lady"]), "Rosis Fassung: Papas Strasse, Old Lady")
+    pruefen("Papa's street" in json.dumps(EV["a3_mast_r_kasten"]) and "Old Lady" in json.dumps(EV["a3_mast_r_old_lady"]), "Rosis Fassung: Papas Strasse, Old Lady")
     pruefen("You're cold" in json.dumps(EV["a3_mast_c_anruf"]), "der Anruf der Mutter")
 
     # Wahl und Folgen

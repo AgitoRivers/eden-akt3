@@ -119,15 +119,15 @@ def _naechste(hid):
 
 
 BAU_LAGE = {
-    "post": "The post office has no roof. Mina's bicycle is lying in the ashes, bent. Mina is sorting letters on the steps anyway.",
+    "post": "The post office has no roof. Mina's old Vespa is lying in the ashes, black with soot. Mina is sorting letters on the steps anyway.",
     "batu": "Bà Tư's shop is black inside. The sign is still there, half of it. Bà Tư is cooking in the street, on a gas ring.",
     "bar": "Alva's bar is a shell. Papa's chalk board hangs on the one wall that is still standing.",
     "werkstatt": "Petru's workshop is open to the sky. The tools are hanging on the wall, black, in the right order.",
 }
 BAU_ZEILE = {
-    "post": G("mina", "[chuckle] You want to start here? With my post office? Okay. I'll hold the bike. It's what I do.", "gratitude"),
+    "post": G("mina", "[chuckle] You want to start here? With my post office? Okay. I'll hold the ladder. It's what I do.", "gratitude"),
     "batu": G("batu", "[sigh] Here, con? First you eat. Then you carry. Then you eat again.", "caring"),
-    "bar": G("alva", "[cough] My bar first? ...Don't tell anyone I said thank you. I didn't.", "gratitude"),
+    "bar": G("alva", "[cough] My bar first? ...I'm not saying thank you. Write that down.", "gratitude"),
     "werkstatt": G("petru", "[clear throat] Here. Wood first, then we talk. A house is like a boat. You start with the bones.", "approval"),
 }
 BAU_BILD = {"post": "village_piazza", "batu": "batu_shop", "bar": "alvas_bar", "werkstatt": "petru_workshop"}   # beim Haus, nicht am Hafen
@@ -153,7 +153,7 @@ def _dank(hid):
 
 DANK = [
     E("a3_dank_post", "gag1", "wholesome", "The First Post", _dank("post"), "village_piazza", P1("mina", ("casanova", "+", "is reading")),
-      "The post office has a roof again. Mina rides past the harbour and honks twice. The first letter after the fire is not a bill.",
+      "The post office has a roof again. Mina rides past the harbour on her Vespa and honks twice. The first letter after the fire is not a bill.",
       [G("mina", "[laugh] Yacht! A postcard. From Montréal. It's not for me, it's for the baker. But still!", "joy"),
        G("mina", "[clear throat] You did this. So listen. Every day I go to Bastia anyway. What do you need? I'll bring it.", "gratitude"),
        G("mina", "[clear throat] And one more thing. The day the phones were dead, I knocked on every door. I saw who opened and who didn't. "
@@ -196,7 +196,7 @@ DANK = [
       [O("“Yes. And if they take your boat, we build you a new one.”", [F("a3_zeuge_petru"), F("a3_zeuge_petru_ehrlich"), V("petru", 6)],
          zeile=G("petru", "[chuckle] A new boat. You don't know how to build a boat. ...I'll teach you. Then I talk.", "approval")),
        O("“It's your boat, Petru. You decide.”", [F("a3_zeuge_petru"), F("a3_zeuge_petru_frei"), V("petru", 4)],
-         zeile=G("petru", "[sigh] Nobody asked me that since Marie. I decide. I talk.", "neutral")),
+         zeile=G("petru", "[sigh] Nobody asked me that since my wife Marie died. I decide. I talk.", "neutral")),
        O("Says nothing and helps him with the rudder.", [V("petru", 2)],
          zeile=G("petru", "[clear throat] You hold it like a fisherman now. Good. ...I'll talk to them.", "approval"))]),
 ]
@@ -228,9 +228,9 @@ UHR = [
     E("a3_uhr", "gag1", "ernst", "Under Control", PFL(25, "fruehstueck"), "village_harbour",
       P1("elsa", ("mina", "?", "has a basket of letters")),
       "Elsa's phone lies on the harbour wall, on speaker. A tired man from Ajaccio is talking: Commissioner Luciani. "
-      "We received your file, Lieutenant. Two men from the commission will come on the thirty-fifth. "
+      "“We received your file, Lieutenant. Two men from the commission will come in ten days, on Sunday. "
       "We are very busy here. And we have the feeling you have this under control. To be honest, we were surprised. "
-      "Cala d'Orsu sends us a report every month. All quiet. Signed and stamped.",
+      "Cala d'Orsu sends us a report every month. All quiet. Signed and stamped.”",
       [G("elsa", "[sigh] That's ten days. ...Five years on this post, and they have never been this polite to me.", "anger"),
        G("elsa", "[clear throat] I sent them a report every month too. Through the town hall. So where did mine go?", "realization"),
        G("mina", "[sigh] Twelve letters from Monaco, all signed by a lawyer in Lyon, Maître Delorme. One is for Petru. A.V. bought the loan on his boat. "
@@ -243,7 +243,7 @@ UHR = [
        O("“What about the crew? We saw everything.”", [F("a3_zeugen_auftrag"), ZU_TOTO],
          zeile=G("elsa", "[sigh] You're guests. And Alon just called you his partner on television. The village has to speak for itself.", "neutral")),
        O("Takes Mina's basket. “Then we start with the letters.”", [F("a3_zeugen_auftrag"), V("mina", 4), ZU_TOTO],
-         zeile=G("mina", "[chuckle] Okay. You knock. I'll hold the bike.", "gratitude"))],
+         zeile=G("mina", "[chuckle] Okay. You knock. I'll hold the ladder.", "gratitude"))],
       sets={"elsa": "Standard"}),
     E("a3_uhr_toto", "gag1", "ernst", "Under Control", FRAME(), "village_harbour", P1("elsa", ("toto", "?", "is waiting")),
       "Elsa writes a list on the back of an envelope. At the top, she writes: Commission in 10 days.",
@@ -251,7 +251,7 @@ UHR = [
        G("toto", "[clear throat] Comandante. The night we lost Gennaro, you promised me that crate would bring Alon down. "
                  "Do you give it to her now?", "grief")],
       [O("Hands Elsa the crate of collars from the grotto.", [F("alon_kiste_genutzt"), V("toto", 6)],
-         zeile=G("toto", "[sniff] Grazie. ...Now it counts.", "gratitude")),
+         zeile=G("toto", "[sniff] Madonna. ...Now it counts, Comandante.", "gratitude")),
        O("“Not yet, Totò. When the men from Ajaccio are here.”", [],
          zeile=G("toto", "[sigh] Not yet. Okay. But you remember.", "sadness"))],
       sets={"elsa": "Standard"}),
@@ -268,7 +268,7 @@ MEGAN = [
     E("a3_megan_landet", "gag1", "wholesome", "Until I Land", PFL(25, "dinner"), "village_harbour",
       P1("megan", ("rosi", "?", "has oil on her hands")),
       "No helicopter this time. A water taxi from Bastia, and one suitcase. Megan walks along the quay and stops in front of the yacht.",
-      [JE(G("megan", "[sigh] How... delightful. I'm gone for three weeks, and my yacht is a wreck with people living in it.", "disapproval"), "yacht", KAPUTT),
+      [JE(G("megan", "[sigh] How... delightful. Five days away, and my yacht is a wreck with people living in it.", "disapproval"), "yacht", KAPUTT),
        JE(G("megan", "[sigh] How... delightful. Three weeks, and my yacht becomes a field hospital.", "disapproval"), "yacht", None),
        JE(G("rosi", "[laugh] Don't worry. We fixed her once already, after the explosion. Twice is a tradition.", "pride"), "rosi", {"alle": [KAPUTT, DA("rosi")]}),
        JE(G("rosi", "[chuckle] It's only paint. Nearly only paint.", "pride"), "rosi", DA("rosi")),
@@ -344,20 +344,20 @@ SONNTAG = [
     E("a3_sonntag_zimmer", "gag1", "ernst", "The Drawer", FRAME(), "village_piazza", P1("elsa", ("anghjulu", "?", "opens the door")),
       "Elsa comes up the stairs with a crowbar. Behind the door is Pascal's room: a desk, an empty hook, and a lighter square on the wall "
       "where a picture used to hang. She opens the locked drawer.",
-      [G("elsa", "[clear throat] My antenna form. Eleven months. 'Almost through.'", "anger"),
+      [G("elsa", "[clear throat] My antenna form. Eleven months. Every week Pascal told me: 'Almost through.'", "anger"),
        G("elsa", "[sigh] My reports to the mayor. Never delivered. Madame Casanova's EU applications, signed, never sent. "
                  "And copies of the monthly report to Ajaccio. 'All quiet.' His signature.", "realization"),
-       JE(G("elsa", "[clear throat] Three o'clock, the night of the twenty-second. I wrote it down myself, that night. Two words.", "neutral"),
+       JE(G("elsa", "[clear throat] Three o'clock, the night of the twenty-second. I wrote it down myself, that night. Two words from the north road: 'Not yet.'", "neutral"),
           "wache", {"alle": [FL("bl_wache_gesehen"), FL("bl_nachtwache_elsa")]}),
-       JE(G("elsa", "[clear throat] Holm told me about three o'clock. Here it is. The night of the twenty-second: two words.", "neutral"),
+       JE(G("elsa", "[clear throat] Holm told me about three o'clock. Here it is. The night of the twenty-second, from the north road, two words: 'Not yet.'", "neutral"),
           "wache", FL("bl_wache_gesehen")),
-       G("elsa", "[sigh] And this. A cash book in the same careful hand. The roof. The school bus. The festa money. And here: the priest. "
+       G("elsa", "[sigh] And this. A cash book in the same neat handwriting. The roof. The school bus. The festa money. And here: the priest. "
                  "Sandru. ...Madame Casanova.", "sadness"),
        G("elsa", "[clear throat] This goes to the commission. All of it, or only his part? Think about it until then.", "neutral")],
       [O("“All of it.”", [F("a3_kassenbuch"), F("a3_kassenbuch_alles_vor")],
          zeile=G("elsa", "[sigh] For the record: I'd make the same face you're making.", "neutral")),
        O("“Only Alon's part. The village has paid enough.”", [F("a3_kassenbuch"), F("a3_kassenbuch_teil_vor")],
-         zeile=G("elsa", "[sigh] For the record: I'd make the same face you're making.", "neutral")),
+         zeile=G("elsa", "[sigh] Kind. I'm not sure it's right. But it's kind.", "neutral")),
        O("“I don't know yet.”", [F("a3_kassenbuch")],
          zeile=G("elsa", "[sigh] Good. Then you're thinking. Most people here stopped doing that years ago.", "neutral"))],
       sets={"elsa": "Standard"}),
@@ -367,12 +367,12 @@ SONNTAG = [
 NONNA = [
     FR("a3_nonna_kiste", "monastery_garden_dusk", "The Last Crate",
        "Every week there is a crate of seedlings at Nonna's door. This one has stood there since the morning after the siege. "
-       "Today she opens the folded letter that came with it.",
-       [G("nonna", "[sigh] He writes: I told the priest not to go up the mountain. Stay, Don. Leave it with me. I thought it was for safety.", "sadness"),
-        G("nonna", "[sigh] And I told him all of it, every month, for nine years. He can't say a word. That's why he drinks.", "sadness"),
-        JE(G("nonna", "[sniff] Duc told me to say it to him, to Minicu, at the gate. So I did. It was the only true thing I said that night.", "grief"),
+       "Today she opens the folded letter that came with it. She reads it out loud. It is from Pascal.",
+       [G("nonna", "[sigh] He writes: 'I told the priest not to go up the mountain. Stay, Don. Leave it with me. I thought it was for safety.'", "sadness"),
+        G("nonna", "[sigh] 'And I confessed all of it to him, every month, for nine years. He can't say a word. That's why he drinks.'", "sadness"),
+        JE(G("nonna", "[sniff] 'Duc told me to tell Minicu the truth, at the gate. So I did. It was the only true thing I said that night.'", "grief"),
            "minicu", FL("bl_minicu_sag_es")),
-        G("nonna", "[sniff] I told Isabelle that man has a good heart. You don't have a good heart, Pascal. You have a bad conscience.", "anger"),
+        G("nonna", "[sniff] That's the end of the letter. ...I told Isabelle that man has a good heart. You don't have a good heart, Pascal. You have a bad conscience.", "anger"),
         G("nonna", "[clear throat] There's a key in the crate. The cellar door of the Casanova house. Do you want it, or shall I throw it in the sea?", "neutral")],
        [O("Takes the key.", [F("a3_kellerschluessel"), F("a3_nonna_kiste"), V("nonna", 4)],
           zeile=G("nonna", "[sigh] Go carefully. And plant something when you come back.", "caring")),
@@ -385,7 +385,7 @@ NONNA = [
 SIRI = [
     FR("a3_siri_post", "village_harbour", "In My Own Words",
        "The quay at sunset. Siri is wearing her father's jumper with the stars on it. Yasin sits next to her with his phone.",
-       [JE(G("siri", "[sigh] It was up for four seconds, and then his video slid over it. This time I'm not giving him four seconds.", "anger"),
+       [JE(G("siri", "[sigh] My post from the siege was up for four seconds, and then his video slid over it. This time I'm not giving him four seconds.", "anger"),
            "vier", FL("siri_darf_posten")),
         G("yasin", "[laugh] Bro. Somebody offered me twenty thousand for the video. Twenty! That's business.", "pride"),
         G("siri", "[sigh] It's his company, Yasin. He'll buy it, and nobody will ever see it.", "anger"),
@@ -394,7 +394,7 @@ SIRI = [
         JE(G("siri", "[clear throat] Duc. I want to post it myself. No filter, no music, just what we saw. Is that brave or stupid?", "nervousness"),
            "frage", None)],
        [O("“Post it now. Everybody should see what happened.”", [F("a3_siri_post"), V("siri", 4)],
-          zeile=G("yasin", "[sigh] ...I filmed Minicu falling, and I kept filming. I don't want money for that. Okay? Don't tell anyone I said okay.", "remorse")),
+          zeile=G("yasin", "[sigh] ...I filmed Minicu falling, and I kept filming. I don't want money for that. Okay? That's not business. That's just true.", "remorse")),
         O("“Post it, and I'll stand next to you when he calls it fake.”", [F("a3_siri_post"), V("siri", 6)],
           zeile=G("siri", "[sniff] Okay. Hold my hand when I press it. No, don't. Yes. Hold it.", "nervousness")),
         O("“Wait. It's Minicu's face. Wait until we know.”", [F("a3_siri_festa"), V("siri", 4)],
@@ -438,8 +438,8 @@ def _rep(tag_von, tag_bis, bed=None):
 YACHT = [
     E("a3_yacht_hotline", "gag1", "witzig", "Eden Fleet Services", _rep(25, 31, DA("rosi")), "petru_workshop",
       P1("rosi", ("toto", "+", "is humming along")),
-      "Rosi works in Petru's workshop while the yacht is broken. Her phone lies on a crate, on speaker. A friendly voice says: Thank you for calling Eden Fleet Services. "
-      "Your yacht is important to us. Then the music starts. It is very long music.",
+      "Rosi works in Petru's workshop while the yacht is broken. Her phone lies on a crate, on speaker. A friendly voice says: “Thank you for calling Eden Fleet Services. "
+      "Your yacht is important to us.” Then the music starts. It is very long music.",
       [G("rosi", "[sigh] Eleven minutes. I'm timing it. ...Twelve.", "annoyance"),
        G("toto", "[laugh] Comandante, I know this song now. All of it. Even the sad part.", "amusement")],
       [O("Sits down next to Rosi and waits with her.", [V("rosi", 2)],
@@ -469,13 +469,13 @@ YACHT = [
       sets={"maxwell": "maximum_steelmop", "rosi": "Engine Room"}),
     E("a3_yacht_haesslich", "gag1", "wholesome", "Ugly", WANN((31, 31), ["abend"], bed={"alle": [AKT3, KAPUTT, NICHT(FL("a3_yacht_repariert"))]}, pflicht=True, holt_leute=True),
       "village_harbour", P1("rosi", ("toto", "+", "claps")),
-      "The evening of day 31. Rosi climbs out of the engine room with black hands and knocks on the hull twice.",
-      [JE(G("rosi", "[laugh] She's ugly, she leaks a bit, and she floats. Don't tell her I said ugly.", "pride"), "rosi", DA("rosi")),
-       JE(G("maxwell", "[laugh] Rosi says she floats. Mr. Maximum has checked. She floats.", "pride"), "rosi", None)],
+      "The evening of day 31. Someone knocks on the hull twice, from the engine room.",
+      [JE(G("rosi", "[laugh] Officer! Up here. She's ugly, she leaks a bit, and she floats. Don't tell her I said ugly.", "pride"), "rosi", DA("rosi")),
+       JE(G("maxwell", "[laugh] Rosi says on the video: she floats. Mr. Maximum has checked. She floats.", "pride"), "rosi", None)],
       [O("Knocks on the hull too.", [F("a3_yacht_repariert"), W("moral", 1)]),
        O("“Tomorrow we take her out.”", [F("a3_yacht_repariert")])],
       sets={"rosi": "Engine Room"}),
-    E("a3_probefahrt", "gag1", "wholesome", "She Still Swims", WANN((32, 32), ["fruehstueck"], bed={"alle": [AKT3, KAPUTT, FL("a3_yacht_repariert")]}, pflicht=True, holt_leute=True),
+    E("a3_probefahrt", "gag1", "wholesome", "She Still Swims", WANN((32, 32), ["fruehstueck"], bed={"alle": [AKT3, KAPUTT, FL("a3_yacht_repariert"), DA("rosi")]}, pflicht=True, holt_leute=True),
       "bridge", P1("holm", ("rosi", "+", "is listening to the engine")),
       "Holm stands on the bridge for the first time since the siege. One slow round in the harbour.",
       [G("holm", "[clear throat] Frankfurt. Ready to see if she still swims?", "neutral")],

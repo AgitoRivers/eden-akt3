@@ -20,8 +20,8 @@ EVENTS = [
        G("sandru", "[sigh] The badge? Alex. A.V. gave me that name. My father picked tomatoes in the east plain for thirty years, "
                    "so that nobody would ever ask his son where he comes from. And then somebody asks anyway. Every week.", "sadness"),
        G("sandru", "[clear throat] Alex doesn't come from anywhere. That's what I like about him. ...So. Where do you come from, Duc?", "nervousness")],
-      [O("“My parents fled from Vietnam. Night shifts in Germany. For years I acted like I came from nowhere. "
-         "You can't run from it. You're carrying it anyway. So carry it with your head up.”",
+      [O("“My parents fled from Vietnam and worked night shifts in Germany. You can't run from where you come from. "
+         "So carry it with your head up.”",
          [F("sandru_herkunft"), V("sandru", 6)],
          zeile=G("sandru", "[sigh] ...Iskander. My mother is the only one who still says it.", "sadness")),
        O("Picks up the badge and turns it over. “My parents fled from Vietnam. You can't run from it. So carry it with your head up.”",

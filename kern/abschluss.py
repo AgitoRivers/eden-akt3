@@ -31,6 +31,11 @@ AKT3_BETA = {"titel": "End of Act 3", "akt": 3, "dimensionen": {}, "frauen": [],
                           {"titel": "Beta", "text": "You reached the ending of the Beta release. Thank you so much for testing and supporting."}]}
 
 
+# Textpruefung Nr. 23: wo Pascal im Bild bleibt, passt "Nobody opens" nicht. Kanon-Epilog (dorf_figuren.md): der Brief aus Bruessel.
+EPILOG = {e: "Mina brings Madame Casanova a letter from Brussels, the first one that ever arrived. “I read this one,” she says."
+          for e in ("0", "1", "2c", "2.5b")}
+
+
 def akt3_ende(z, modul):
     """Schlusskarte Akt 3 (Paket F): welches Ende, welche Saeulen, wer ausgesagt hat, Minicu, Pascal, Minas Epilog.
     Platzhalter-Texte bis zum Feinschliff (enden.md, Duc). Ohne Saeulen-Daten: AKT3_BETA."""
@@ -43,6 +48,9 @@ def akt3_ende(z, modul):
     bild, buena, pascal = akt3.ENDE_TEXT[eid]
     if eid == "2b" and "a3_mast_aus" in z.get("flags", []):     # The Red Light: der Mast auf dem Kamm ist dunkel
         bild = "The most beautiful festa the bay has seen. At midnight, the ridge above San Martinu stays dark."
+    fl = z.get("flags", [])
+    if not ("rt_bibi_bleibt" in fl and "mo_eco_idee" in fl):    # Textpruefung Nr. 24: den Eimer-Hut macht nur Bibi
+        buena = buena.replace("a hat made from a feeding bucket on his head", "a new purple hat on his head")
     fehlt = [akt3.FEHLT[k] for k, v in s.items() if not v] if eid in ("0", "2.5a", "2.5b", "2.5c", "2a", "2b", "2c") else []
     absaetze = [
         {"titel": "The Last Picture", "text": bild},
@@ -55,8 +63,8 @@ def akt3_ende(z, modul):
                                     if eid != "1" else "Minicu carries crates at the harbour, for A.V., and doesn't ask."},
         {"titel": "Buenaventura", "text": buena},
         {"titel": "Pascal", "text": pascal},
-        {"titel": "Epilogue", "text": "Mina rings at Pascal's door with a registered letter. “Sign here.” Nobody opens. "
-                                      "It's the first letter she can't deliver."},
+        {"titel": "Epilogue", "text": EPILOG.get(eid, "Mina rings at Pascal's door with a registered letter. “Sign here.” Nobody opens. "
+                                                      "It's the first letter she can't deliver.")},
         {"titel": "Beta", "text": "The endings are still being polished. Thank you so much for testing and supporting."}]
     if eid == "stern":
         absaetze[0]["text"] += " You played the long game."

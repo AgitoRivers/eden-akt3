@@ -71,7 +71,7 @@ KARTEN = [
      "text": "She knocked on every door the day the phones were dead. She carries A.V.'s letters too.",
      "wenn": {"flag": "a3_zeuge_mina"}, "passt": [["tor", 2], ["geld", 2]]},
     {"id": "petru", "art": "zeuge", "wer": "petru", "titel": "Petru",
-     "text": "A.V. bought the loan on his boat. The letter came the morning after the fire.",
+     "text": "A.V. bought the loan on his boat. The letter came two days after the fire.",
      "wenn": {"flag": "a3_zeuge_petru"}, "passt": [["geld", 2]]},
     {"id": "sandru", "art": "zeuge", "wer": "sandru", "titel": "Sandru",
      "text": "His legs work with A.V.'s braces. After he helped the village, A.V. switched them off.",
@@ -98,7 +98,7 @@ RUNDEN = [
      ],
      "treffer": S("kommissar", "[sigh] ...Maître. Would you like to say that sentence again? Slowly?", "disapproval"),
      "anwalt_wackelt": S("anwalt", "[cough] I... my client was misinformed about the details. The details.", "nervousness"),
-     "dorf": S("petru", "[clear throat] Hm. The sea doesn't lie either.", "approval")},
+     "dorf": S("petru", "[clear throat] Hm. The sea doesn't lie. Now the paper doesn't either.", "approval")},
     {"id": "tor", "titel": "The Gate",
      "ansage": S("kommissar", "[clear throat] Second question. How did the attackers get into the village?", "neutral"),
      "saetze": [
@@ -110,9 +110,9 @@ RUNDEN = [
          {"text": S("anwalt", "[sigh] And frankly, nobody in this village saw who came through. It was dark, there was smoke, people were afraid.", "neutral"),
           "falsch": True, "press": S("anwalt", "[clear throat] Not one person. If somebody here saw something, why didn't they say so at the time?", "neutral")},
      ],
-     "treffer": S("kommissar", "[gasp] So the barricade did not break. It was opened. Clerk, write that down. In capitals.", "surprise"),
+     "treffer": S("kommissar", "[gasp] So the barricade did not break. It was opened. Clerk, write that down. In big letters.", "surprise"),
      "anwalt_wackelt": S("anwalt", "[cough] Commissioner, I must ask for a short pause. ...No? No pause. I see.", "nervousness"),
-     "dorf": S("mina", "[gasp] They're writing it down. In capitals!", "excitement")},
+     "dorf": S("mina", "[gasp] They're writing it down. In big letters!", "excitement")},
     {"id": "geld", "titel": "The Money",
      "ansage": S("kommissar", "[clear throat] Last question. Money. Who paid whom, and for what?", "neutral"),
      "saetze": [
@@ -123,7 +123,7 @@ RUNDEN = [
          {"text": S("anwalt", "[clear throat] My client has never threatened anyone. Not with a letter, not with a word.", "neutral"),
           "falsch": True, "press": S("anwalt", "[sigh] A letter about a loan is not a threat. It is a letter. People send letters.", "neutral")},
      ],
-     "treffer": S("kommissar", "[sigh] Page forty-one, Maître. Or a receipt. Or a man without his legs. Choose which one you'd like to explain first.", "anger"),
+     "treffer": S("kommissar", "[sigh] Page forty-one, Maître. Or a receipt. Or a man whose legs were switched off. Choose which one you'd like to explain first.", "anger"),
      "anwalt_wackelt": S("anwalt", "[cough] ...I would like to speak with my client.", "fear"),
      "dorf": S("batu", "[chuckle] Eat, Maître. You look pale.", "amusement")},
 ]
@@ -131,12 +131,12 @@ RUNDEN = [
 PLAEDOYER = {
     "ansage": S("anwalt", "[clear throat] One last thing. This village is not innocent. A cash book, from the deputy mayor's drawer. The priest. "
                           "The man with the braces. Your own mayor, Madame Casanova. They all took his money.", "pride"),
-    "stille": S("kommissar", "[sigh] ...First Officer. Lieutenant Elsa says you have the original. All of it, or only the part about Alon?", "neutral"),
+    "stille": S("kommissar", "[sigh] ...First Officer. The lieutenant from the coast guard says you have the original. All of it, or only the part about Alon?", "neutral"),
     "alles": {"chip": "“All of it. They'll carry it. And they'll stand next to the truth.”",
               "folge": S("casanova", "[sigh] Yes. Me too. Write my name first.", "pride"),
               "kommission": S("kommissar", "[clear throat] A village that confesses its own debts. Twenty-two years in this job, and that is a first.", "admiration")},
     "teil": {"chip": "“Only Alon's part. The village has paid enough.”",
-             "folge": S("casanova", "[sigh] ...Thank you, Monsieur. I won't forget it. Neither will he.", "gratitude"),
+             "folge": S("casanova", "[sigh] ...Thank you, Monsieur. I won't forget it. Neither will Don.", "gratitude"),
              "kommission": S("kommissar", "[clear throat] Noted. The rest of the book stays a village matter. For now.", "neutral")},
 }
 
