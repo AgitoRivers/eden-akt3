@@ -47,6 +47,28 @@ def _b(titel, ziel, bild, gegner, level, ko, aufgabe, entkommen, niederlage, flu
     return b
 
 
+# Endkampf mit Verbuendeten (Duc 04.11.2026, Review Nr. 8): wer da ist, greift ab Runde 2 einmal je Runde ein (kern/kampf._beistand),
+# wie die Auftritte in der Belagerung. Der Kampf ist dafuer kuerzer (Alon 80 % Leben). kern/kampf waehlt die erste passende Liste,
+# darum stehen hier alle Kombinationen, die groessten zuerst: Es greifen genau die ein, deren Bedingung gilt.
+from itertools import combinations as _komb
+
+VERBUENDETE = [
+    ({"flag": "a3_villa_mit_rosi"}, {"wer": "Rosi and Unit-01", "text": "Unit-01 breaks through the cellar door and rams %(ziel)s. Rosi: “I took the leash out.”", "anteil": 0.12}),
+    ({"flag": "elsa_hilft"}, {"wer": "Elsa", "text": "Elsa fires once into the air. %(ziel)s turns his head for half a second.", "state": "erschuettert"}),
+    ({"flag": "bl_verband_wolff"}, {"wer": "Wolff", "text": "Wolff's long sword finds the servo in the knee of %(ziel)s. “The Legion pays its debts.”", "anteil": 0.1}),
+    ({"flag": "holm_zurueck"}, {"wer": "Holm", "text": "Holm, from the terrace steps: “Frankfurt, left!” You are already moving.", "schutz": True}),
+    ({"flag": "buenaventura_schwur"}, {"wer": "Buenaventura", "text": "Buenaventura's men cut the cable of the camera drone. %(ziel)s has no audience now.", "anteil": 0.06}),
+]
+
+
+def _beistand_varianten():
+    out = []
+    for n in range(len(VERBUENDETE), 0, -1):
+        for teil in _komb(VERBUENDETE, n):
+            out.append({"wenn": {"alle": [b for b, _a in teil]}, "aktionen": [None] + [a for _b, a in teil]})
+    return out
+
+
 ENCOUNTERS = {
     "a3_scrap_drohne": _b("Something Still Moves", "Get past the drone", "eden_rise_antenna_ridge.png", "hirtendrohne", 6,
                           "The drone drops into the grass and goes dark. Rosi would want the steel.",
@@ -70,3 +92,4 @@ ENCOUNTERS = {
                   flags={"ko": "a3_alon_besiegt", "aufgabe": "a3_alon_besiegt", "entkommen": "a3_alon_entkommen",
                          "niederlage": "a3_alon_niederlage"}),
 }
+ENCOUNTERS["a3_alon"].update(enemies=["alon_exo"], lp_faktoren=[0.8], beistand=_beistand_varianten())

@@ -77,6 +77,15 @@ def main():
     pruefen(k["enemy"] == "alon_exo" and k["level"] == 10 and not k["flee_allowed"], "Endkampf gegen Alon im Exoskelett, Level 10, keine Flucht")
     pruefen(k["outcomes"]["ko"]["folgen"] == [{"flag": "a3_alon_besiegt"}] and k["outcomes"]["niederlage"]["folgen"] == [{"flag": "a3_alon_niederlage"}],
             "Ausgang des Endkampfs als Flag")
+    from kern import regeln as R
+    def helfer(*flags):
+        z = {"flags": list(flags), "werte": {}}
+        v = next((x["aktionen"] for x in k["beistand"] if R.gilt(x.get("wenn"), z)), None)
+        return sorted(a["wer"] for a in (v or []) if a)
+    pruefen(helfer() == [] and helfer("elsa_hilft") == ["Elsa"], "Endkampf: nur wer da ist, greift ein")
+    pruefen(helfer("a3_villa_mit_rosi", "elsa_hilft", "bl_verband_wolff", "holm_zurueck", "buenaventura_schwur")
+            == sorted(["Rosi and Unit-01", "Elsa", "Wolff", "Holm", "Buenaventura"]), "Endkampf: alle Verbuendeten zusammen")
+    pruefen(k["beistand"][0]["aktionen"][0] is None and k["lp_faktoren"] == [0.8], "Hilfe ab Runde 2, Kampf kuerzer (80 %)")
     e = KAEMPFE["enemies"]["alon_exo"]
     pruefen(e["element"] == "luft" and e["tier"] == "toedlich" and e.get("boss"), "Alon: Luft, toedlich, Boss")
     pruefen("a3_beweis_feuer" in json.dumps(EV["a3_villa_ordner"]), "Whites Einsatzplan ist ein Beweis")

@@ -7765,7 +7765,934 @@
       }
      ]
     }
-   }
+   },
+   "enemies": [
+    "alon_exo"
+   ],
+   "lp_faktoren": [
+    0.8
+   ],
+   "beistand": [
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_villa_mit_rosi"
+       },
+       {
+        "flag": "elsa_hilft"
+       },
+       {
+        "flag": "bl_verband_wolff"
+       },
+       {
+        "flag": "holm_zurueck"
+       },
+       {
+        "flag": "buenaventura_schwur"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Rosi and Unit-01",
+       "text": "Unit-01 breaks through the cellar door and rams %(ziel)s. Rosi: “I took the leash out.”",
+       "anteil": 0.12
+      },
+      {
+       "wer": "Elsa",
+       "text": "Elsa fires once into the air. %(ziel)s turns his head for half a second.",
+       "state": "erschuettert"
+      },
+      {
+       "wer": "Wolff",
+       "text": "Wolff's long sword finds the servo in the knee of %(ziel)s. “The Legion pays its debts.”",
+       "anteil": 0.1
+      },
+      {
+       "wer": "Holm",
+       "text": "Holm, from the terrace steps: “Frankfurt, left!” You are already moving.",
+       "schutz": true
+      },
+      {
+       "wer": "Buenaventura",
+       "text": "Buenaventura's men cut the cable of the camera drone. %(ziel)s has no audience now.",
+       "anteil": 0.06
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_villa_mit_rosi"
+       },
+       {
+        "flag": "elsa_hilft"
+       },
+       {
+        "flag": "bl_verband_wolff"
+       },
+       {
+        "flag": "holm_zurueck"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Rosi and Unit-01",
+       "text": "Unit-01 breaks through the cellar door and rams %(ziel)s. Rosi: “I took the leash out.”",
+       "anteil": 0.12
+      },
+      {
+       "wer": "Elsa",
+       "text": "Elsa fires once into the air. %(ziel)s turns his head for half a second.",
+       "state": "erschuettert"
+      },
+      {
+       "wer": "Wolff",
+       "text": "Wolff's long sword finds the servo in the knee of %(ziel)s. “The Legion pays its debts.”",
+       "anteil": 0.1
+      },
+      {
+       "wer": "Holm",
+       "text": "Holm, from the terrace steps: “Frankfurt, left!” You are already moving.",
+       "schutz": true
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_villa_mit_rosi"
+       },
+       {
+        "flag": "elsa_hilft"
+       },
+       {
+        "flag": "bl_verband_wolff"
+       },
+       {
+        "flag": "buenaventura_schwur"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Rosi and Unit-01",
+       "text": "Unit-01 breaks through the cellar door and rams %(ziel)s. Rosi: “I took the leash out.”",
+       "anteil": 0.12
+      },
+      {
+       "wer": "Elsa",
+       "text": "Elsa fires once into the air. %(ziel)s turns his head for half a second.",
+       "state": "erschuettert"
+      },
+      {
+       "wer": "Wolff",
+       "text": "Wolff's long sword finds the servo in the knee of %(ziel)s. “The Legion pays its debts.”",
+       "anteil": 0.1
+      },
+      {
+       "wer": "Buenaventura",
+       "text": "Buenaventura's men cut the cable of the camera drone. %(ziel)s has no audience now.",
+       "anteil": 0.06
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_villa_mit_rosi"
+       },
+       {
+        "flag": "elsa_hilft"
+       },
+       {
+        "flag": "holm_zurueck"
+       },
+       {
+        "flag": "buenaventura_schwur"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Rosi and Unit-01",
+       "text": "Unit-01 breaks through the cellar door and rams %(ziel)s. Rosi: “I took the leash out.”",
+       "anteil": 0.12
+      },
+      {
+       "wer": "Elsa",
+       "text": "Elsa fires once into the air. %(ziel)s turns his head for half a second.",
+       "state": "erschuettert"
+      },
+      {
+       "wer": "Holm",
+       "text": "Holm, from the terrace steps: “Frankfurt, left!” You are already moving.",
+       "schutz": true
+      },
+      {
+       "wer": "Buenaventura",
+       "text": "Buenaventura's men cut the cable of the camera drone. %(ziel)s has no audience now.",
+       "anteil": 0.06
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_villa_mit_rosi"
+       },
+       {
+        "flag": "bl_verband_wolff"
+       },
+       {
+        "flag": "holm_zurueck"
+       },
+       {
+        "flag": "buenaventura_schwur"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Rosi and Unit-01",
+       "text": "Unit-01 breaks through the cellar door and rams %(ziel)s. Rosi: “I took the leash out.”",
+       "anteil": 0.12
+      },
+      {
+       "wer": "Wolff",
+       "text": "Wolff's long sword finds the servo in the knee of %(ziel)s. “The Legion pays its debts.”",
+       "anteil": 0.1
+      },
+      {
+       "wer": "Holm",
+       "text": "Holm, from the terrace steps: “Frankfurt, left!” You are already moving.",
+       "schutz": true
+      },
+      {
+       "wer": "Buenaventura",
+       "text": "Buenaventura's men cut the cable of the camera drone. %(ziel)s has no audience now.",
+       "anteil": 0.06
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "elsa_hilft"
+       },
+       {
+        "flag": "bl_verband_wolff"
+       },
+       {
+        "flag": "holm_zurueck"
+       },
+       {
+        "flag": "buenaventura_schwur"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Elsa",
+       "text": "Elsa fires once into the air. %(ziel)s turns his head for half a second.",
+       "state": "erschuettert"
+      },
+      {
+       "wer": "Wolff",
+       "text": "Wolff's long sword finds the servo in the knee of %(ziel)s. “The Legion pays its debts.”",
+       "anteil": 0.1
+      },
+      {
+       "wer": "Holm",
+       "text": "Holm, from the terrace steps: “Frankfurt, left!” You are already moving.",
+       "schutz": true
+      },
+      {
+       "wer": "Buenaventura",
+       "text": "Buenaventura's men cut the cable of the camera drone. %(ziel)s has no audience now.",
+       "anteil": 0.06
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_villa_mit_rosi"
+       },
+       {
+        "flag": "elsa_hilft"
+       },
+       {
+        "flag": "bl_verband_wolff"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Rosi and Unit-01",
+       "text": "Unit-01 breaks through the cellar door and rams %(ziel)s. Rosi: “I took the leash out.”",
+       "anteil": 0.12
+      },
+      {
+       "wer": "Elsa",
+       "text": "Elsa fires once into the air. %(ziel)s turns his head for half a second.",
+       "state": "erschuettert"
+      },
+      {
+       "wer": "Wolff",
+       "text": "Wolff's long sword finds the servo in the knee of %(ziel)s. “The Legion pays its debts.”",
+       "anteil": 0.1
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_villa_mit_rosi"
+       },
+       {
+        "flag": "elsa_hilft"
+       },
+       {
+        "flag": "holm_zurueck"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Rosi and Unit-01",
+       "text": "Unit-01 breaks through the cellar door and rams %(ziel)s. Rosi: “I took the leash out.”",
+       "anteil": 0.12
+      },
+      {
+       "wer": "Elsa",
+       "text": "Elsa fires once into the air. %(ziel)s turns his head for half a second.",
+       "state": "erschuettert"
+      },
+      {
+       "wer": "Holm",
+       "text": "Holm, from the terrace steps: “Frankfurt, left!” You are already moving.",
+       "schutz": true
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_villa_mit_rosi"
+       },
+       {
+        "flag": "elsa_hilft"
+       },
+       {
+        "flag": "buenaventura_schwur"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Rosi and Unit-01",
+       "text": "Unit-01 breaks through the cellar door and rams %(ziel)s. Rosi: “I took the leash out.”",
+       "anteil": 0.12
+      },
+      {
+       "wer": "Elsa",
+       "text": "Elsa fires once into the air. %(ziel)s turns his head for half a second.",
+       "state": "erschuettert"
+      },
+      {
+       "wer": "Buenaventura",
+       "text": "Buenaventura's men cut the cable of the camera drone. %(ziel)s has no audience now.",
+       "anteil": 0.06
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_villa_mit_rosi"
+       },
+       {
+        "flag": "bl_verband_wolff"
+       },
+       {
+        "flag": "holm_zurueck"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Rosi and Unit-01",
+       "text": "Unit-01 breaks through the cellar door and rams %(ziel)s. Rosi: “I took the leash out.”",
+       "anteil": 0.12
+      },
+      {
+       "wer": "Wolff",
+       "text": "Wolff's long sword finds the servo in the knee of %(ziel)s. “The Legion pays its debts.”",
+       "anteil": 0.1
+      },
+      {
+       "wer": "Holm",
+       "text": "Holm, from the terrace steps: “Frankfurt, left!” You are already moving.",
+       "schutz": true
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_villa_mit_rosi"
+       },
+       {
+        "flag": "bl_verband_wolff"
+       },
+       {
+        "flag": "buenaventura_schwur"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Rosi and Unit-01",
+       "text": "Unit-01 breaks through the cellar door and rams %(ziel)s. Rosi: “I took the leash out.”",
+       "anteil": 0.12
+      },
+      {
+       "wer": "Wolff",
+       "text": "Wolff's long sword finds the servo in the knee of %(ziel)s. “The Legion pays its debts.”",
+       "anteil": 0.1
+      },
+      {
+       "wer": "Buenaventura",
+       "text": "Buenaventura's men cut the cable of the camera drone. %(ziel)s has no audience now.",
+       "anteil": 0.06
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_villa_mit_rosi"
+       },
+       {
+        "flag": "holm_zurueck"
+       },
+       {
+        "flag": "buenaventura_schwur"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Rosi and Unit-01",
+       "text": "Unit-01 breaks through the cellar door and rams %(ziel)s. Rosi: “I took the leash out.”",
+       "anteil": 0.12
+      },
+      {
+       "wer": "Holm",
+       "text": "Holm, from the terrace steps: “Frankfurt, left!” You are already moving.",
+       "schutz": true
+      },
+      {
+       "wer": "Buenaventura",
+       "text": "Buenaventura's men cut the cable of the camera drone. %(ziel)s has no audience now.",
+       "anteil": 0.06
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "elsa_hilft"
+       },
+       {
+        "flag": "bl_verband_wolff"
+       },
+       {
+        "flag": "holm_zurueck"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Elsa",
+       "text": "Elsa fires once into the air. %(ziel)s turns his head for half a second.",
+       "state": "erschuettert"
+      },
+      {
+       "wer": "Wolff",
+       "text": "Wolff's long sword finds the servo in the knee of %(ziel)s. “The Legion pays its debts.”",
+       "anteil": 0.1
+      },
+      {
+       "wer": "Holm",
+       "text": "Holm, from the terrace steps: “Frankfurt, left!” You are already moving.",
+       "schutz": true
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "elsa_hilft"
+       },
+       {
+        "flag": "bl_verband_wolff"
+       },
+       {
+        "flag": "buenaventura_schwur"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Elsa",
+       "text": "Elsa fires once into the air. %(ziel)s turns his head for half a second.",
+       "state": "erschuettert"
+      },
+      {
+       "wer": "Wolff",
+       "text": "Wolff's long sword finds the servo in the knee of %(ziel)s. “The Legion pays its debts.”",
+       "anteil": 0.1
+      },
+      {
+       "wer": "Buenaventura",
+       "text": "Buenaventura's men cut the cable of the camera drone. %(ziel)s has no audience now.",
+       "anteil": 0.06
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "elsa_hilft"
+       },
+       {
+        "flag": "holm_zurueck"
+       },
+       {
+        "flag": "buenaventura_schwur"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Elsa",
+       "text": "Elsa fires once into the air. %(ziel)s turns his head for half a second.",
+       "state": "erschuettert"
+      },
+      {
+       "wer": "Holm",
+       "text": "Holm, from the terrace steps: “Frankfurt, left!” You are already moving.",
+       "schutz": true
+      },
+      {
+       "wer": "Buenaventura",
+       "text": "Buenaventura's men cut the cable of the camera drone. %(ziel)s has no audience now.",
+       "anteil": 0.06
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "bl_verband_wolff"
+       },
+       {
+        "flag": "holm_zurueck"
+       },
+       {
+        "flag": "buenaventura_schwur"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Wolff",
+       "text": "Wolff's long sword finds the servo in the knee of %(ziel)s. “The Legion pays its debts.”",
+       "anteil": 0.1
+      },
+      {
+       "wer": "Holm",
+       "text": "Holm, from the terrace steps: “Frankfurt, left!” You are already moving.",
+       "schutz": true
+      },
+      {
+       "wer": "Buenaventura",
+       "text": "Buenaventura's men cut the cable of the camera drone. %(ziel)s has no audience now.",
+       "anteil": 0.06
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_villa_mit_rosi"
+       },
+       {
+        "flag": "elsa_hilft"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Rosi and Unit-01",
+       "text": "Unit-01 breaks through the cellar door and rams %(ziel)s. Rosi: “I took the leash out.”",
+       "anteil": 0.12
+      },
+      {
+       "wer": "Elsa",
+       "text": "Elsa fires once into the air. %(ziel)s turns his head for half a second.",
+       "state": "erschuettert"
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_villa_mit_rosi"
+       },
+       {
+        "flag": "bl_verband_wolff"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Rosi and Unit-01",
+       "text": "Unit-01 breaks through the cellar door and rams %(ziel)s. Rosi: “I took the leash out.”",
+       "anteil": 0.12
+      },
+      {
+       "wer": "Wolff",
+       "text": "Wolff's long sword finds the servo in the knee of %(ziel)s. “The Legion pays its debts.”",
+       "anteil": 0.1
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_villa_mit_rosi"
+       },
+       {
+        "flag": "holm_zurueck"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Rosi and Unit-01",
+       "text": "Unit-01 breaks through the cellar door and rams %(ziel)s. Rosi: “I took the leash out.”",
+       "anteil": 0.12
+      },
+      {
+       "wer": "Holm",
+       "text": "Holm, from the terrace steps: “Frankfurt, left!” You are already moving.",
+       "schutz": true
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_villa_mit_rosi"
+       },
+       {
+        "flag": "buenaventura_schwur"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Rosi and Unit-01",
+       "text": "Unit-01 breaks through the cellar door and rams %(ziel)s. Rosi: “I took the leash out.”",
+       "anteil": 0.12
+      },
+      {
+       "wer": "Buenaventura",
+       "text": "Buenaventura's men cut the cable of the camera drone. %(ziel)s has no audience now.",
+       "anteil": 0.06
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "elsa_hilft"
+       },
+       {
+        "flag": "bl_verband_wolff"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Elsa",
+       "text": "Elsa fires once into the air. %(ziel)s turns his head for half a second.",
+       "state": "erschuettert"
+      },
+      {
+       "wer": "Wolff",
+       "text": "Wolff's long sword finds the servo in the knee of %(ziel)s. “The Legion pays its debts.”",
+       "anteil": 0.1
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "elsa_hilft"
+       },
+       {
+        "flag": "holm_zurueck"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Elsa",
+       "text": "Elsa fires once into the air. %(ziel)s turns his head for half a second.",
+       "state": "erschuettert"
+      },
+      {
+       "wer": "Holm",
+       "text": "Holm, from the terrace steps: “Frankfurt, left!” You are already moving.",
+       "schutz": true
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "elsa_hilft"
+       },
+       {
+        "flag": "buenaventura_schwur"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Elsa",
+       "text": "Elsa fires once into the air. %(ziel)s turns his head for half a second.",
+       "state": "erschuettert"
+      },
+      {
+       "wer": "Buenaventura",
+       "text": "Buenaventura's men cut the cable of the camera drone. %(ziel)s has no audience now.",
+       "anteil": 0.06
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "bl_verband_wolff"
+       },
+       {
+        "flag": "holm_zurueck"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Wolff",
+       "text": "Wolff's long sword finds the servo in the knee of %(ziel)s. “The Legion pays its debts.”",
+       "anteil": 0.1
+      },
+      {
+       "wer": "Holm",
+       "text": "Holm, from the terrace steps: “Frankfurt, left!” You are already moving.",
+       "schutz": true
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "bl_verband_wolff"
+       },
+       {
+        "flag": "buenaventura_schwur"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Wolff",
+       "text": "Wolff's long sword finds the servo in the knee of %(ziel)s. “The Legion pays its debts.”",
+       "anteil": 0.1
+      },
+      {
+       "wer": "Buenaventura",
+       "text": "Buenaventura's men cut the cable of the camera drone. %(ziel)s has no audience now.",
+       "anteil": 0.06
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "holm_zurueck"
+       },
+       {
+        "flag": "buenaventura_schwur"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Holm",
+       "text": "Holm, from the terrace steps: “Frankfurt, left!” You are already moving.",
+       "schutz": true
+      },
+      {
+       "wer": "Buenaventura",
+       "text": "Buenaventura's men cut the cable of the camera drone. %(ziel)s has no audience now.",
+       "anteil": 0.06
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_villa_mit_rosi"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Rosi and Unit-01",
+       "text": "Unit-01 breaks through the cellar door and rams %(ziel)s. Rosi: “I took the leash out.”",
+       "anteil": 0.12
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "elsa_hilft"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Elsa",
+       "text": "Elsa fires once into the air. %(ziel)s turns his head for half a second.",
+       "state": "erschuettert"
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "bl_verband_wolff"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Wolff",
+       "text": "Wolff's long sword finds the servo in the knee of %(ziel)s. “The Legion pays its debts.”",
+       "anteil": 0.1
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "holm_zurueck"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Holm",
+       "text": "Holm, from the terrace steps: “Frankfurt, left!” You are already moving.",
+       "schutz": true
+      }
+     ]
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "buenaventura_schwur"
+       }
+      ]
+     },
+     "aktionen": [
+      null,
+      {
+       "wer": "Buenaventura",
+       "text": "Buenaventura's men cut the cable of the camera drone. %(ziel)s has no audience now.",
+       "anteil": 0.06
+      }
+     ]
+    }
+   ]
   }
  },
  "taunts": {
