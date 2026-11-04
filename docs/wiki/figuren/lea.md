@@ -44,6 +44,15 @@ So klingt sie:
   (bittersüß) · ohne Bogen = die Margot bleibt Geschichte, sie hört auf zu staunen.
 - In einem Fall verdächtig (Auflösung nur in story.json).
 
+### Akt 3 (Stand 04.11.2026, Drehbuch akt3)
+- **Two Letters (7.4, `a3_paar_lea_*`):** Freundschaft mit Mina, beide mit einem Brief, der vom Gehen handelt: Minas ungeöffneter Brief von Dumè aus Montréal, Leas Brief von den Azoren. *“If you go, I'll bring your post. To the Azores. On the Vespa.”* Wahl `_zusammen`, `_frei` oder `_festa`. Mit „together“ oder „festa“ öffnet Mina auf der Festa Dumès Brief, Lea sitzt daneben. Mit Ducs Romanze: `_langsam` oder `_finger`, Minas Girlande bekommt Leas Karte von der Bucht. [Drehbuch 7.4](../welt/drehbuch_akt3.md)
+- **Wohnen:** Solange die Yacht kaputt ist, schläft sie bei Mina. [Drehbuch 4.4](../welt/drehbuch_akt3.md)
+- **Every Rock (`a3_lea_idee`, Tag 29, nur ohne Bibi):** Die Eco-Idee für Buenaventura kommt von Lea. *“Did you know a protected bay needs people who know every rock?”* Ohne Margot: *“The wreck is gone, but the bay isn't.”* [Drehbuch 5.12](../welt/drehbuch_akt3.md)
+- **Schluss-Szene „One More Dive“ (Expedition, 2 Phasen, Grottenmündung):** *“The Azores letter is still in my bag. If I go, will you come and see me?”* Nach einem gescheiterten Tauchgang (`a3_tauchgang_gescheitert`) geht Lea in jedem Fall, dann fehlt der Chip „Stay“. [Drehbuch 6](../welt/drehbuch_akt3.md)
+- **Nach Mitternacht (`a3_mitternacht_lea`):** zwei Finger, das Zeichen vom Vordeck: *“After midnight. Yes?”* Lea oder Sophia, nie beide. [Drehbuch 5.21](../welt/drehbuch_akt3.md)
+- **Vermerk (E-122 (g), E-124):** Ein gescheiterter Tauchgang nimmt nur den Weg Margot der Säule Geld. Mina und Lea sind Freundinnen, keine Romanze.
+
+
 ## Mechanik
 Romanzierbar, Vertrauen/Begehren Start 2. Schätzt Empathie + Mut. Lieblingsorte Badeplattform, Tender-Garage.
 Kein Alkohol. Lieblingsgericht Bún riêu. Unikat-Geschenk Tauchcomputer.

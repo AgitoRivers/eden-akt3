@@ -50,6 +50,17 @@ Petrus späte Liebe bleibt Holm.**
 - **Tag 21 (Duc 01.11.2026):** Er fährt mit Mina und Lea hinaus, wie sein Großvater 1924 ([`belagerung.md`](../welt/belagerung.md)). Er steht nicht mehr in der Bürgerwehr.
 - Akt 3: späte Liebe mit Holm.
 
+### Akt 3 (Stand 04.11.2026, Drehbuch akt3)
+- **Der Morgen danach (Tag 24, `a3_morgen`):** Er tritt vor Duc und spricht für ihn, als das Dorf fragt: *“Did you know?”* Mit `bl_dorf_rudert` erinnert er an die Ruderfahrt wie 1924. [Drehbuch 5.1](../welt/drehbuch_akt3.md)
+- **Zeuge:** Er sah die Fackeln an seiner Werkstatt. Seine Tür öffnet die Dank-Szene, wenn die Werkstatt wieder steht (`a3_dank_werkstatt`), oder `bl_tueren_petru`, oder die Werkstatt hat nicht gebrannt. Haltungen `a3_zeuge_petru_ehrlich`, `_frei`, `_kalt`, jede überzeugt. Vor der Kommission: *“I saw the torches at my workshop. And I saw who stayed.”* [Drehbuch 2, 4.2, 5.25](../welt/drehbuch_akt3.md)
+- **Die lange Tafel (Los *The Long Table*):** *Stella* ist Maries Boot. Marie fuhr damit dreißig Jahre jeden Morgen hinaus, seit ihrem Tod liegt es aufgebockt in der Werkstatt. Sein Arbeitsboot ist das grüne am Kai. Duc wählt *Stella* (`a3_los_tafel_boot`, Petru lässt Marie los) oder die Balken aus dem Brand (`a3_los_tafel_asche`). Das Los gibt einer Baustelle eine Stufe. Ist Holm da, folgt ihr Los mit den vier Streifen (siehe `holm.md`). [Drehbuch 4.3, 12a](../welt/drehbuch_akt3.md)
+- **Das Netz der Namen (`a3_petru_netz`, Besuch der Werkstatt ab Tag 25, ohne Phase):** Marie, das heile Netz, das Lorbeerblatt in der Milch. Auf der Festa hängt das Netz über der langen Tafel, jeder Zeuge ist ein Knoten. Wer nicht aussagt, fehlt im Netz. [Drehbuch 12a, Mehr Petru](../welt/drehbuch_akt3.md)
+- **Kleine Szenen im Pool:** *Bastianu* (Tag 25 bis 31, der Oktopus leiht sich Rosis Schrauben) und *Fish Sauce* (Tag 26 bis 31: Bà Tư bringt Eintopf, er gibt Fisch zurück, Kanon, keine Romanze). Die Reparatur der Yacht läuft in seiner Werkstatt. [Drehbuch 12a, 4.4](../welt/drehbuch_akt3.md)
+- **Ein Brief an Laetitia (`a3_petru_brief`, Tag 29 bis 33, Vertrauen Petru 3):** drei Fassungen nach dem Weg in den Bergen, drei Wahlen, was er schreibt (`_brauche`, `_festa`, `_marie`). Auf der Festa kommt Laetitia mit Weg C oder nach der Versöhnung selbst, sonst schickt sie eine Karte. [Drehbuch 12a, Mehr Petru](../welt/drehbuch_akt3.md)
+- **Holm (7.5 „The Metre“):** späte Liebe. Holm schläft bei Petru, solange die Yacht kaputt ist (`tk_yacht_weg`). Auf der Festa bringt er zwei Gläser, Holm stellt ihn ihrer Mutter vor. Nach der Revanche stellt er die letzte Flasche hin: *“Again.”* [Drehbuch 7.5, 5.10, 5.27](../welt/drehbuch_akt3.md)
+- **Vermerk (E-129, E-130):** *Stella* als Maries Boot und die lange Tafel sind entschieden, ebenso dass sein Vater einmal ein Boot an eine Bank verlor (E-130). Das Netz der Namen ist noch offen (E-129). In Akt 3 spricht er knappe ganze Sätze mit Bildern vom Meer, das nackte „Hm.“ kommt nur noch zweimal.
+
+
 ## Mechanik
 Nicht romanzierbar. Geschenke: dreht es in den Händen, sagt fast nichts, nickt einmal – für ihn ist das viel.
 Petrus Werkstatt ist ab Tag 2 ein freier Laden („Petru's Workshop“, Duc 28.10.2026): Axt und Spitzhacke in 3 Stufen (Stufe 1 für

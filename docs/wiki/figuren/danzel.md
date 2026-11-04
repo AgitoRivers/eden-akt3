@@ -59,6 +59,16 @@ Nebenquest „The Red Trio“ (Macchia, nach Kloster und Grotte, Woche 2). Stati
 - **Danach:** eröffnet aus eigenem Antrieb den Laden „Le Théâtre Rouge“ an der Piazza und entwirft alle Festa-Kleider. Findet in Akt 3 zu Charly, wenn sie geblieben ist.
 - **Wenn das Trio zerbricht (Duc 01.11.2026):** Er bleibt, weil er nirgendwo hingehen kann, und baut den Laden trotzdem auf. Allein, trister und ernster, ohne Teambild. Seine Begrüßungen sind knapp.
 
+### Akt 3 (Stand 04.11.2026, Drehbuch akt3)
+- **Ten (7.7, `a3_paar_charly`, Le Théâtre Rouge, abends):** Charly baut die Kasse, die „Merci“ sagt. Danzel wird ruhig und genau, wie nur bei Stoff, und gibt ihr einen grauen Kapuzenpulli mit Laptop-Tasche: *“Your left sleeve has been two centimetres short for three years.”* Sie gibt ihm ihre erste Zehn. Seine Formel bricht: *“Then... then nobody leaves!”* [Drehbuch 7.7](../welt/drehbuch_akt3.md)
+- **Ducs Wahl:** *“the best ten I've ever heard”* (`_zehn`), *“a nine next time”* (`_neun`, *“Never! I will never be humble!”*) oder Duc lässt die beiden allein (`_allein`). Auf der Festa sagt Danzel dazu seinen Satz. [Drehbuch 7.7, 12a](../welt/drehbuch_akt3.md)
+- **Ein Paar (E-127):** Nach Alvas Flamenco küsst Charly ihn vor allen: *“In public?!”* Wholesome, keine Intim-Szene. Beide sitzen im Festbild auf den Stufen vor seinem Laden.
+- **Die Schwärmerei für Rosi und Lola** endet mit diesem Ereignis, danach ist er vergeben (F-33). Laut Drehbuch fällt er Duc vorher in Rosis Schluss-Szene dazwischen, das ist im Code noch nicht gebaut. [Drehbuch 6, 7](../welt/drehbuch_akt3.md)
+- **Los *The Dresses* (nur mit `danzel_festa_auftrag`):** *“Whose dress first? I can only finish one in time!”* Eine der Frauen (`a3_los_kleider_crew`) oder Casanova (`_casanova`, auf der Festa: *“Red! The mayor in red! I'm going to faint.”*). Mit `chiara_festa_kleid` ist Chiaras Kleid schon fertig. [Drehbuch 4.3](../welt/drehbuch_akt3.md)
+- **Ohne Charly** (`rt_charly_weg` oder nicht geblieben): kein 7.7, er baut den Laden allein auf wie oben beschrieben.
+- **Vermerk (E-127, F-33):** Die Zeile oben „wird Danzel in Akt 3 zum Rivalen“ gilt nur bis 7.7. Aus „findet in Akt 3 zu Charly“ wird ein echtes Paar.
+
+
 ## Mechanik
 Keine Karte, keine Romanze mit Duc. Nach der Versöhnung Dorf-NPC: Events erhöhen den Ruf.
 **Kampf** (Station 3): Teleskopschlagstock, kämpft ganz hinten. Spezialangriff **„Tactical Retreat“**. Seine Einlagen geben

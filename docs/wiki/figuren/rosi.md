@@ -55,6 +55,16 @@ Nicht so: “Terremoto. Earthquake. Weighted core. Don't drop it.” (Haiku-Stak
 - **Ende:** gerettet + Bogen = Werkstatt in Cala d'Orsu („Scuderi & Figlie“, Petrus Schild), Papa als Partner.
 - In einem Fall verdächtig (Auflösung nur in story.json).
 
+### Akt 3 (Stand 04.11.2026, Drehbuch akt3)
+- **Reparatur der Yacht (`a3_yacht_*`, ab Tag 25):** Ist die Yacht schwer beschädigt (`tk_yacht_weg`), repariert Rosi mit der Eden Group und schwarzem Humor: *“We fixed her once already, after the explosion. Twice is a tradition.”* Hotline, Propeller, Tür, an Tag 31 „Ugly“ (`a3_yacht_repariert`). Sie schläft im Maschinenraum. Ohne Schaden gibt es nur „Mostly Cosmetic“. Ist sie gefeuert, spricht Maxwell ihre Zeile oder sie hilft per Video. [Drehbuch 4.4, 12a](../welt/drehbuch_akt3.md)
+- **The Red Light ohne Charly:** Ist Charly nicht geblieben, geht Rosi mit zum Mast. Am Rastplatz: Papas drei Regeln (Gewinde links, nie zuerst den roten Draht, wo die Maschine hoch summt, tut es weh). Der Kasten wurde in Catania gebaut, in der Straße von Lot 14. Drei Schritte nach Papas Regeln (`a3_mast_r_kasten`, `_draht`, `_old_lady`), am Ende: *“Sorry, Old Lady.”* [Drehbuch 5.29](../welt/drehbuch_akt3.md)
+- **Lot 14 (`a3_lot14`, Karte ab Tag 29, Yamamoto ab Vertrauen 3):** Yamamoto findet Papas geschlossene Werkstatt in Catania in Alons Listen. Die Presse dort hieß Old Lady und hatte einen Riss links. *“Officer. If he goes down, can I buy it back?”* Das Flag trägt Rosis Ende 2a und 3. [Drehbuch 5.15](../welt/drehbuch_akt3.md)
+- **Two Thirds (Schluss-Szene, Maschinenraum, nach `a3_lot14`):** *“Officer. If I say 'Captain' now, is that an insult or a promotion?”* Antworten setzen `a3_schluss_rosi_<n>`. Nach Mitternacht (`a3_mitternacht_rosi`): *“At midnight I take off this stupid dress.”* [Drehbuch 6, 5.21](../welt/drehbuch_akt3.md)
+- **Sandrus Schiene (`a3_schiene`, Tag 33):** Sie nimmt die Leine aus Alons Schienen: *“That sound is mine now. Don't let them tell you otherwise.”* [Drehbuch 5.19](../welt/drehbuch_akt3.md)
+- **Los und Villa:** Los *The Lights* mit einem Chip von Duc (`a3_los_lichter_chip`) oder einem Teil aus Alons Halsbändern (`_halsband`). Mit dem Kellerschlüssel geht sie mit in die Villa (`a3_villa_mit_rosi`). Im Endkampf bricht Unit-01 durch die Kellertür: *“She doesn't have a leash. She never did.”* [Drehbuch 4.3, 5.22, 5.24](../welt/drehbuch_akt3.md)
+- **Danzel:** Laut Drehbuch schwärmt Danzel in „Two Thirds“ dazwischen, wenn Ducs Begehren bei Rosi höchstens 3 ist. Das endet mit 7.7 (E-127, F-33) und ist im Code noch nicht gebaut. [Drehbuch 6, 7.7](../welt/drehbuch_akt3.md)
+
+
 ## Mechanik
 Romanzierbar, Vertrauen/Begehren Start 1. Schätzt List + Mut. Lieblingsorte Werkstatt, Petrus Bootswerkstatt.
 Rosis Werkstatt verbessert jede Waffe/Jacke zweimal. Lieblingsgericht Ramen.

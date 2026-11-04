@@ -41,6 +41,14 @@ So klingt er:
   (Lieferzettel Antibes, Akt-2-Spur, Flag `tag0_lieferzettel`).
 - Akt 3: Geständnis oder Verrat (siehe oben).
 
+### Akt 3 (Stand 04.11.2026, Drehbuch akt3)
+- **Die Kiste (`a3_uhr_toto`, Tag 25):** Nur wenn Duc ihm in der Grotte versprochen hat, dass die Kiste Alon stürzt (`{"versprochen": ["toto", "crate"]}`), die Kiste genommen hat (`gr_kiste_genommen`) und sie noch nicht genutzt ist. *“The night we lost Gennaro, you promised me that crate would bring Alon down.”* Duc gibt sie Elsa (`alon_kiste_genutzt`, Beweis, Totò +6) oder sagt *“Not yet.”* [Drehbuch 5.4, 12a](../welt/drehbuch_akt3.md)
+- **The Man with the Orange (`a3_orange`, ab Tag 29):** Ab Vertrauen 3 ist er bei Riscossore dabei. Mit `gennaro_verschwunden` kann Duc ihn nur ansehen, dann geht Totò hinaus. [Drehbuch 5.13](../welt/drehbuch_akt3.md)
+- **Reparatur der Yacht:** *“Comandante! The Eden Group sent us one propeller. One. We have two.”* Er schläft vorne in der Kirche. [Drehbuch 4.4](../welt/drehbuch_akt3.md)
+- **Kommission:** Die Kiste ist eine Beweis-Karte. [Drehbuch 5.25, Kommission](../welt/drehbuch_akt3.md)
+- **Vermerk (E-130):** Totòs Geheimnis schreibt die Story-Sitzung. Der Akt-3-Bau der Cloud-Sitzung enthält davon nichts. Der Weg oben (Vertrauen 5, sonst Verrat) bleibt.
+
+
 ## Mechanik
 Nicht romanzierbar; Händler (Ankauf 40 %); eigener Wert „Draht“ (0–5) neben Vertrauen. Geschenke: begutachtet sie wie
 ein Hehler und ist trotzdem gerührt.

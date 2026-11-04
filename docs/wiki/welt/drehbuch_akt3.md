@@ -899,7 +899,7 @@ Gegner (`kaempfe_akt3.py`): Kobra, Skorpion und Wächter sind die Roboter der Be
 
 | Teil | Regel | Zahlen |
 |---|---|---|
-| **Gegenseite** | Maître Delorme, Anwalt von A.V. aus Lyon, liest je Runde eine Aussage mit drei Sätzen. Kommissar Santoni aus Ajaccio leitet | neue Nebenfiguren, Legenden-Kommentar folgt |
+| **Gegenseite** | Maître Delorme, Anwalt von A.V. aus Lyon, liest je Runde eine Aussage mit drei Sätzen. Kommissar Luciani aus Ajaccio leitet | neue Nebenfiguren, Legenden-Kommentar folgt |
 | **Runden** | 1 *The Fire* (Piraten allein? niemand wusste es? vierzig Minuten?), 2 *The Gate* (Barrikade gebrochen? Männer in Weiß zum Schutz? niemand sah etwas?), 3 *The Money* (Kredite aus Güte? kein Euro bezahlt? nie gedroht?) | 3 Runden, je 3 Sätze, 8 davon falsch |
 | **Press** | jeden Satz hinterfragen; der Anwalt legt sich fest. Zwei falsche Sätze sind erst danach angreifbar (die vierzig Minuten, die Barrikade) | ohne Kosten |
 | **Objection!** | eine Karte gegen einen Satz: passt sie zu einem falschen, festgelegten Satz, kippt die Runde (Kommissar, der Anwalt wackelt, das Dorf reagiert). Sonst Geduld −1, bei einem wahren Satz mit Spott, bei einem noch nicht festgelegten mit „listen first“ | Geduld 3 |

@@ -64,9 +64,9 @@ ZEILEN = [
     ("schwur", "batu", "zeit", 1, "[sigh] The pirates eat like my nephews. I cook for forty now. I'm not complaining. A little.", "caring"),
     ("schwur", "petru", "zeit", 1, "[clear throat] They carry stones well. Badly at first. Now well. The sea teaches everyone.", "approval"),
     ("schwur", "lola", "zeit", 2, "[laugh] Boss, Mina says the captain wants to be made mayor now. Mostly a rumour. Mostly.", "amusement"),
-    # ------------------------------------------------------------ Akt 3: Maitre Delorme und Kommissar Santoni (ab Tag 25)
+    # ------------------------------------------------------------ Akt 3: Maitre Delorme und Kommissar Luciani (ab Tag 25)
     ("anwalt", "mina", "zeit", 0, "[sigh] Every letter from Monaco has the same name at the bottom now. Maître Delorme, a lawyer in Lyon. Even his signature looks expensive.", "neutral"),
-    ("anwalt", "elsa", "zeit", 0, "[clear throat] Commissioner Santoni is coming himself. Twenty-two years in Ajaccio. They say he has never smiled in public.", "neutral"),
+    ("anwalt", "elsa", "zeit", 0, "[clear throat] Commissioner Luciani is coming himself. Twenty-two years in Ajaccio. They say he has never smiled in public.", "neutral"),
     ("anwalt", "casanova", "zeit", 1, "[sigh] A lawyer from Lyon. In my village. For a fishing village, Monsieur, that is like sending a shark to a swimming pool.", "anger"),
     ("anwalt", "sophia", "zeit", 1, "[chuckle] Darling, I looked him up. Delorme has never lost a case. Ten euros says he has never met a Corsican grandmother either.", "amusement"),
     ("anwalt", "petru", "zeit", 2, "[clear throat] The lawyer has a boat in Lyon, they say. Lyon has no sea. Hm.", "neutral"),

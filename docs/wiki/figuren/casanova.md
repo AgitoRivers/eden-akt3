@@ -34,6 +34,16 @@ So klingt sie:
 - Gegen Alon: Nebenquest „Casanova gegen Alon“, Bucht-Ende 2 (öffentlich machen mit dem Dorf). Ihr Geschenk an Duc: **Le Large** (Boar Spear, Feuer), vor dem Weg in die Macchia (Items, 25.10.; die alte
   Elektro-Harpune gibt es nicht mehr, Duc hat genau fünf feste Waffen, `docs/wiki/systeme/aufruestung.md`).
 
+### Akt 3 (Stand 04.11.2026, Drehbuch akt3)
+- **THIS. IS. THE. FESTA! (`a3_festa_tafel`, Tag 26):** Sie hängt die Tafel mit 13 Losen in drei Spalten an die Kirchenmauer: Bauen, Essen, Schmuck. *“Monsieur. Can I count on you, or should I count on someone else?”* Die Karte „The Festa Board“ zeigt bis zu drei Lose hintereinander, danach fragt sie *“Who's next?”* Die erledigten Lose bestimmen, wie voll die Festa ist. [Drehbuch 5.6, 4.3, 12a](../welt/drehbuch_akt3.md)
+- **Borrowed:** Sie nimmt Charlys Geld (`a3_charly_geld`), mit dem zweiten Chip schreibt sie Charlys Namen klein auf die Tafel. [Drehbuch 5.28](../welt/drehbuch_akt3.md)
+- **Every Report (`a3_berichte`, Tag 29 abends):** Elsa liest die Berichte, die Pascal nie weitergab. *“Monsieur. Pascal kept the truth in a drawer for nine years. What did you keep in yours?”* Ducs Antwort gibt +6, +4 oder +2 und öffnet ihre Zeugen-Tür. Sie sah das Papier, das jede Nacht auf ihren Kirchenstufen lag. [Drehbuch 5.11, 2](../welt/drehbuch_akt3.md)
+- **Villa (Tag 34):** Ohne Schlüssel führt sie Duc in den Keller ihres Elternhauses: *“I hid there from my father when I was seven.”* Sie bleibt an der Tür. Im geheimen Ende ★ betritt sie ihr Elternhaus (Kanon `enden.md`, Feinschliff Duc). [Drehbuch 5.22, 5.23, 5.24](../welt/drehbuch_akt3.md)
+- **Kommission:** Wählt Duc beim Kassenbuch „alles“, steht sie dazu: *“Write my name first.”* [Drehbuch 5.25, Kommission](../welt/drehbuch_akt3.md)
+- **Festa (Tag 35):** ihre Rede mit Pause, niemand klatscht, dann Alva, langsam, dann Minicu an der Kirchentür. *“Thank you, Alva. Thank you, Minicu.”* Das Los *The Dresses* kann ihr ein rotes Kleid geben. [Drehbuch 5.27, 4.3](../welt/drehbuch_akt3.md)
+- **Wohnen:** Solange die Yacht kaputt ist, wohnt Megan in ihrem Gästezimmer. [Drehbuch 4.4](../welt/drehbuch_akt3.md)
+
+
 ## Was dazukommt (Duc 30.10.2026, Entwurf)
 Der Ausbau läuft über das, was schon da ist, nicht über mehr Reden. Quelle: [dorf_figuren.md](../welt/dorf_figuren.md).
 - **Bürgermeisterin für alle:** Sie schaut ab und zu bei Bà Tư vorbei, nennt sie „Auntie Tu“. Bà Tư kocht dann viel zu viel, und

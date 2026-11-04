@@ -39,6 +39,15 @@ Oberdeck) · Duc (Freund, keine Romanze). Weiß von Lolas Oregano-Glas und tut a
   Duc 25.10.: für ihn kein Trypophobie-Auslöser).
 - **Akt 3:** fliegt Gogos Medizin selbst (drei Tage weg) – seine Angst gegen seine Liebe.
 
+### Akt 3 (Stand 04.11.2026, Drehbuch akt3)
+- **Bones (7.6, Tag 26 bis 29):** Bibi übt mit ihm seine Flugangst am Bartgeier. *“Mr. Maximum fed the worst bird in Corsica.”* Nur mit `rt_bibi_bleibt`, offener Station und gerettetem Bones. [Drehbuch 7.6](../welt/drehbuch_akt3.md)
+- **Gogo's Medicine (`a3_maxwell_flug`, Tag 30):** Er fliegt mit der Kühltasche nach Durban. *“What does a big man do when he's scared of the sky?”* Drei Antworten, mit der dritten hält Jana bis Bastia seine Hand. Mit `bl_verband_maxwell` trägt er den Verband aus der Belagerung als Glücksbringer. [Drehbuch 5.14](../welt/drehbuch_akt3.md)
+- **Weg und zurück:** Tag 30 bis 32 fehlt er (`a3_maxwell_weg`), alle Pool-Events mit ihm schließen diese Tage aus, freie Gags mit ihm laufen nur bis Tag 29. Zurück am Frühstück von Tag 33 (`a3_maxwell_zurueck`): *“Mr. Maximum has flown. We will never speak of it.”* [Drehbuch 5.14, 12a](../welt/drehbuch_akt3.md)
+- **Reparatur der Yacht:** Er trägt eine Tür: *“Mr. Maximum has found a door. He does not know where it goes.”* Ist Rosi gefeuert, spricht er ihre Zeile in „Ugly“ und hält bei Sandrus Schiene den Schraubenzieher, Rosi hilft per Video. [Drehbuch 4.4, 5.19](../welt/drehbuch_akt3.md)
+- **Wohnen:** Solange die Yacht kaputt ist, schläft er vorne in der Kirche. [Drehbuch 4.4](../welt/drehbuch_akt3.md)
+- **Vermerk (Review 04.11.2026):** Das Drehbuch nennt die Rückkehr am Abend von Tag 32, gebaut ist Tag 33 Frühstück. „Drei Tage weg“ bleibt richtig.
+
+
 ## Mechanik
 Nicht romanzierbar. Training jederzeit (wenig Erfahrung, 1 Attributpunkt pro Akt, E-042). Kampfgegner im Training
 (Maxwell Sports), Maximum-Form als späterer Gegner.

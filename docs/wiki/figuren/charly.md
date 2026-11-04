@@ -53,6 +53,17 @@ Nebenquest „The Red Trio“ (Macchia). Stationen und Beats stehen auf der Ques
 - **Nach der Belagerung (Duc 02.11.2026, nicht gebaut):** Sie hackt Alons Satelliten und bricht sie auf, Elsa schickt die Beweise an die Kommission. Ist sie nicht geblieben, schafft Rosi es allein über das Handy eines Agenten ([`belagerung.md`](../welt/belagerung.md)).
 - **Danach (nur wenn alle drei sich versöhnen):** Sie fragt Duc, ob er einen Techie braucht. Ja: Sie arbeitet bei Rosi, baut Danzel die Kasse und findet in Akt 3 zu ihm. Nein: Sie fliegt nach Hause.
 
+### Akt 3 (Stand 04.11.2026, Drehbuch akt3)
+- **The Red Light (Tag 24 bis 28, `ereignisse_akt3_mast.py`):** Mit `rt_charly_bleibt` steigt sie mit Duc zum Mast auf dem Kamm. Am Rastplatz erzählt sie: zwölf Geburtstage vor dem Bildschirm, statt eines Hundes ein Taser (Modell R-7), das Versteck unter Mamas Schreibtisch in Marseille. [Drehbuch 5.29](../welt/drehbuch_akt3.md)
+- **Das Rätsel der Mutter:** drei Sicherheitsfragen (*First pet*, *Favourite place*, *What makes Charlotte happy?*). Die Antwort der Mutter (*Being the best*, `a3_mast_mutter_antwort`) öffnet, Charlys eigene (*Danzel. Ten.*, `a3_mast_eigene_antwort`) löst den Alarm aus. Dann ruft die Mutter an: *“Charlotte. You're cold. Put on your jacket.”* Duc nimmt das Handy, reicht es ihr oder stellt sich vor die Kamera. [Drehbuch 5.29](../welt/drehbuch_akt3.md)
+- **Abschalten oder weiterlaufen:** `a3_mast_aus` (*“Nobody's watching. Is this what everybody else has?”*, Bà Tư sagt auch ohne Haus aus) oder `a3_mast_an` (Elsa bekommt die Aufnahme, Karte „The Mast Recording“ in der Kommission, auf der Festa winkt Charly dem Licht). [Drehbuch 5.29](../welt/drehbuch_akt3.md)
+- **Borrowed (`a3_charly_geld`, Karte ab Tag 26, sobald eine Baustelle begonnen ist):** Sie holt heimlich Geld vom Konto ihrer Mutter (Ravenel Défense macht Geschäfte mit Alon) und gibt es Casanova: *“Three out of ten for stolen. Eight for borrowed.”* Jede offene Baustufe kostet 20 % weniger. Mit dem zweiten Chip steht ihr Name auf Casanovas Tafel (`a3_charly_tafel`). [Drehbuch 5.28, 4.1](../welt/drehbuch_akt3.md)
+- **Ten (7.7, `a3_paar_charly`):** Danzel näht ihr einen grauen Kapuzenpulli mit Laptop-Tasche und RED am Kragen. Sie gibt ihre erste Zehn und sagt: *“I want to stay. Here. In the shop. With you.”* Ducs Antwort setzt `_zehn`, `_neun` oder `_allein`. [Drehbuch 7.7](../welt/drehbuch_akt3.md)
+- **Festa:** Beide sitzen auf den Stufen vor Le Théâtre Rouge. Nach Alvas Flamenco sagt sie *“Ten”* und küsst Danzel, kurz und vor allen: *“Eleven.”* [Drehbuch 7.7, 5.27](../welt/drehbuch_akt3.md)
+- **Kommission:** Mit `bl_funk_charly` legt sie den Funkspruch vor: *“Twenty-one forty. He said 'tonight'. Seven out of ten for clarity.”* [Drehbuch 5.25](../welt/drehbuch_akt3.md)
+- **Vermerk (Drehbuch 5.29, E-125, E-126, E-127):** Aus „hackt Alons Satelliten“ wird der Mast mit dem roten Licht, ohne Charly schafft es Rosi. Charly und Danzel sind ein Paar (E-127), das ersetzt die Freundschaft Charly und Rosi (E-125) und die Freundschaft mit Danzel (E-126). Ohne `rt_charly_bleibt` kommt keine dieser Szenen.
+
+
 ## Mechanik
 Keine Karte, keine Romanze mit Duc. Bleibt sie, wird sie Dorf-NPC: Events erhöhen den Ruf.
 **Kampf** (Stationen 1 und 3): Taser (Schock, Betäubung); im selben Zug nach Bibis Wassergranate löst „Full Charge“ den

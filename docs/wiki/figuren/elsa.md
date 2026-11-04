@@ -51,6 +51,16 @@ wegen Tauchen ohne Computer) · Sophia (Papiere zur Küstenwache) · Siri/Holm (
 - **Erste Begegnung:** Hafenkampf Tag 2 nach der ersten Welle – steht mit Notizblock mitten im Chaos (Kennenlern-Chips).
 - Keine Romanze (Duc 01.11.2026).
 
+### Akt 3 (Stand 04.11.2026, Drehbuch akt3)
+- **Under Control (`a3_uhr`, Tag 25):** Auf einem Umschlag steht: *Commission in 10 days.* Hier beginnt die Zeugensuche. Mit Totòs Kiste bekommt sie den ersten Beweis. [Drehbuch 5.4, 4.2](../welt/drehbuch_akt3.md)
+- **The Red Light (Tag 24 bis 28):** Sie sieht nachts noch Drohnen und wartet unten mit dem Auto: *“If you find anything, it comes to me.”* Mit `a3_mast_an` bekommt sie die Aufnahme. [Drehbuch 5.29](../welt/drehbuch_akt3.md)
+- **Sunday (Tag 28):** Mit dem Brecheisen in Pascals Zimmer. Ihr Antennenantrag, ihre nie zugestellten Berichte, das Kassenbuch (`a3_kassenbuch`). *“This goes to the commission. All of it, or only his part?”* [Drehbuch 5.7](../welt/drehbuch_akt3.md)
+- **Every Report (`a3_berichte`, Tag 29 abends):** Sie liest Casanova auf den Kirchenstufen einunddreißig Berichte vor. *“I wrote every month, Madame.”* Danach berichtet sie direkt an Casanova, *“...Every week.”* [Drehbuch 5.11](../welt/drehbuch_akt3.md)
+- **Festnahme (Tag 34):** Mit `elsa_hilft` und Vertrauen Elsa 4 nimmt sie Alon an der Mole fest (`a3_alon_festgenommen`, Säule Stärke): *“Mr. Varenne. Coast guard. You're under arrest, and I'd honestly prefer it if you said nothing.”* Pascal zu ihr: *“Elsa. Your mother's birthday is next week.”* [Drehbuch 5.24, 8](../welt/drehbuch_akt3.md)
+- **Kommission (Tag 35):** Sie fragt nach dem Kassenbuch, alles oder nur Alons Teil (`a3_kassenbuch_alles` oder `_teil`). Ist Sophia gefeuert, liest Elsa ihre Notizen vor. [Drehbuch 5.25, Kommission](../welt/drehbuch_akt3.md)
+- **Villa:** Beim Plan am Tag 34 ist sie nicht dabei. [Drehbuch 5.22](../welt/drehbuch_akt3.md)
+
+
 ## Belagerung (Duc 01.11.2026, Text ist Entwurf)
 An Tag 20 vor dem Kriegsrat bietet sie Duc und der Crew ihre Hilfe an (`bl_elsa_hilfe`, Vorschrift, „section nine“). Sie freut sich darauf, endlich ihre Kampfuniform zu tragen, die fünf Jahre im Spind hing, weil in Cala d'Orsu nie etwas passiert. Set `elsa_combat`, ab der Szene bis zum Ende der Belagerung. Danach steht sie als Trupp bereit, auch ohne Vertrauen 2.
 

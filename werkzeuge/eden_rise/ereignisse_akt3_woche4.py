@@ -227,7 +227,7 @@ SAMSTAG = G("elsa", "[sigh] On Saturday I drive to Ajaccio. I want to see these 
 UHR = [
     E("a3_uhr", "gag1", "ernst", "Under Control", PFL(25, "fruehstueck"), "village_harbour",
       P1("elsa", ("mina", "?", "has a basket of letters")),
-      "Elsa's phone lies on the harbour wall, on speaker. A tired man from Ajaccio is talking: Commissioner Santoni. "
+      "Elsa's phone lies on the harbour wall, on speaker. A tired man from Ajaccio is talking: Commissioner Luciani. "
       "We received your file, Lieutenant. Two men from the commission will come on the thirty-fifth. "
       "We are very busy here. And we have the feeling you have this under control. To be honest, we were surprised. "
       "Cala d'Orsu sends us a report every month. All quiet. Signed and stamped.",

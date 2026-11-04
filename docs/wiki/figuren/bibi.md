@@ -55,6 +55,16 @@ Nebenquest „The Red Trio“ (Macchia). Stationen und Beats stehen auf der Ques
 - **Wenn das Trio zerbricht (Duc 01.11.2026):** Sie geht nach Frankreich in einen Zoo, später kommt eine Postkarte.
 - **Danach (nur wenn alle drei sich versöhnen):** Duc kann ihr raten, die befreiten Tiere aufzupäppeln. Dann entsteht ihre Tierstation „Mochi's“, sonst geht sie reisen.
 
+### Akt 3 (Stand 04.11.2026, Drehbuch akt3)
+- **Six Kilos of Bad Temper (7.6, `a3_paar_bones`, Tag 26 bis 29):** nur mit `rt_bibi_bleibt`, offener Station und gerettetem Bones (Bartgeier, Bedingung `{"mochi": "geier"}`). Bibi übt mit Maxwell seine Flugangst: ein Knochen in seiner Hand, Bones landet und frisst. *“You just fed the worst bird in Corsica.”* Ducs Wahl `_gleich`, `_sicher`, `_hand`. [Drehbuch 7.6](../welt/drehbuch_akt3.md)
+- **Wirkung:** Am Tag 30 sagt Maxwell vor dem Flug: *“Bibi says a plane has no bad temper.”* Im Festbild landet Bones auf dem Dach hinter Maxwell. [Drehbuch 5.14, 7.6](../welt/drehbuch_akt3.md)
+- **Forty Men and a Boat (`a3_bibi_idee`, Tag 29, mit `rt_bibi_bleibt` und `mo_eco_idee`):** Ihre Idee für Buenaventura: Touristen auf *The Eventually*. *“They'll pay double to see a pirate who's sorry.”* Er braucht einen Hut, Bibi macht ihn aus einem alten Futtereimer. Ohne Bibi kommt die Idee von Lea. [Drehbuch 5.12](../welt/drehbuch_akt3.md)
+- **Bonus-Los *Capra* (ohne Phase, Station offen):** *“Capra wants to come. Do we let her?”* Ja (sie frisst ein Kleid an) oder nein. [Drehbuch 4.3](../welt/drehbuch_akt3.md)
+- **Schluss-Szene „Mochi“ (Expedition, 2 Phasen, `kl_loewe_frei`):** das letzte Halsband: *“He's asleep. Do I cut it, or do you?”* Bedingung `rt_bibi_bleibt` und Begehren 4. Danach *Last Page* am Nachmittag von Tag 35 und, wenn sie fragt, nach Mitternacht an der Mole (`a3_mitternacht_bibi`). [Drehbuch 6, 5.21, 5.26](../welt/drehbuch_akt3.md)
+- **Festa:** Bei Charlys Kuss: *“Finally! I had a bet with myself. I won.”* [Drehbuch 7.7](../welt/drehbuch_akt3.md)
+- **Vermerk (E-126 (4)):** Maxwell übt mit Bones, nicht mit Kevin. Ohne Bones kommt 7.6 nicht.
+
+
 ## Neuer Arc (Duc 02.11.2026, gebaut 4fb3fa08, nicht vertont, Bilder offen)
 Technik: [`../systeme/tierstation.md`](../systeme/tierstation.md) (Arbeit, Selfies, Ducs Seite) und [`../systeme/beziehungen.md`](../systeme/beziehungen.md) (Romanze ab Bedingung, Leiter `rm_b1`–`rm_b4`).
 Sie schaltet spät frei, und Spieler sollen trotzdem alles für sie tun. Dass man sie verpassen kann, ist gewollt.

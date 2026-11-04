@@ -43,6 +43,15 @@ So klingt sie:
 - **Leiter (31.10.2026):** *Caption*, *One Star*, *Salmon*, *My Own Words*; Szenen: [Romanzen-Leiter](../systeme/beziehungen.md#romanzen-leiter).
 - **Romanze:** erst nach der Trennung von Yasin über Stufe 3; überspringt nie eine Stufe. Loyal zu Yasin in der Anhörung.
 
+### Akt 3 (Stand 04.11.2026, Drehbuch akt3)
+- **In My Own Words (`a3_siri_post`, Karte ab Tag 24 abends, Kai):** Siri im Pullover ihres Vaters will das Video selbst posten, ohne Filter. Mit `siri_wartet` fragt sie, ob sie auf Minicu wartet. Jetzt posten setzt `a3_siri_post` (Beweis), warten setzt `a3_siri_festa`. [Drehbuch 5.9](../welt/drehbuch_akt3.md)
+- **Yasin:** *“Somebody offered me twenty thousand for the video.”* Dann ehrlich: *“I filmed Minicu falling, and I kept filming. I don't want money for that.”* [Drehbuch 5.9](../welt/drehbuch_akt3.md)
+- **Festa:** Mit `a3_siri_festa` postet sie, als Minicu steht: *“Now I can post it. He's standing.”* Das zählt nicht als Beweis, steht aber im Schlussbild. [Drehbuch 5.27](../welt/drehbuch_akt3.md)
+- **Kommission:** Siris Video ist eine Beweis-Karte. [Drehbuch 5.25, Kommission](../welt/drehbuch_akt3.md)
+- **Schluss-Szene „No Caption“ (Sonnenuntergang ohne Handy):** *“If this was a photo, what would you write under it?”* Nach Mitternacht (`a3_mitternacht_siri`): *“No camera after midnight. Will you meet me by the water?”* [Drehbuch 6, 5.21](../welt/drehbuch_akt3.md)
+- **Wohnen:** Solange die Yacht kaputt ist, schläft sie vorne in der Kirche. [Drehbuch 4.4](../welt/drehbuch_akt3.md)
+
+
 ## Mechanik
 Romanzierbar, `vergeben` bis Flag `siri_frei` (Uhr „Siri löst sich“). Schätzt Empathie + Charme. Lieblingsorte
 Vordeck, Solardeck. Bordregel „Kamera aus nach 22 Uhr“. Lieblingsgericht **Fiskesuppe** (norwegische Fischsuppe, statt Kåldolmar).

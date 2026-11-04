@@ -9,7 +9,7 @@ Aussage mit drei Saetzen. Duc kann jeden Satz hinterfragen ("Press") und einen Z
 ("Objection!"). Trifft er einen falschen Satz mit einer passenden Karte, kippt die Runde. Legt er falsch, sinkt die Geduld der
 Kommission (3). Manche falschen Saetze werden erst nach dem Hinterfragen angreifbar (der Anwalt legt sich fest).
 Zum Schluss legt der Anwalt Pascals Kassenbuch gegen das Dorf vor: Duc haelt das Plaedoyer (alles oder nur Alons Teil).
-Neue Nebenfiguren (Legenden-Kommentar folgt): Maitre Delorme (Anwalt von A.V., Lyon), der aeltere Kommissar Santoni aus Ajaccio.
+Neue Nebenfiguren (Legenden-Kommentar folgt): Maitre Delorme (Anwalt von A.V., Lyon), der aeltere Kommissar Luciani aus Ajaccio.
 Alle Saetze mit Turbo-Tag; die Anzeige zeigt sie ohne."""
 import json, os, re
 
@@ -27,7 +27,7 @@ def S(wer, text, gefuehl="neutral"):
     return {"wer": wer, "text": klar, "gefuehl": gefuehl}
 
 
-SPRECHER = {"anwalt": "Maître Delorme", "kommissar": "Commissioner Santoni"}
+SPRECHER = {"anwalt": "Maître Delorme", "kommissar": "Commissioner Luciani"}
 
 # Karten: was Duc vorlegen kann. "wenn": Bedingung (kern/regeln). "passt": [runde, satz] - welche Saetze die Karte widerlegt.
 KARTEN = [

@@ -46,6 +46,16 @@ Nicht so: “I am very angry. Report now. You have one week.” (Telegrammstil, 
 - Verkauft das Hafenviertel an A.V. Estates, ohne zu wissen, wer dahintersteckt (E-003).
 - **Akt 3:** merkt, dass sie für den Deal gearbeitet hat, der ihr Schiff fast versenkt hätte → Wende.
 
+### Akt 3 (Stand 04.11.2026, Drehbuch akt3)
+- **Until I Land (`a3_megan_landet`, Tag 25 Dinner):** Sie kommt mit dem Wassertaxi aus Bastia, ein Koffer. Bei `tk_yacht_weg`: *“My yacht is a wreck with people living in it.”* Sie fragt Duc, ob er wusste, wer den Hafen kauft, und gibt zu: *“I negotiated that sale. Every line.”* Dann der Handel: Sie will den Verkauf stoppen und braucht Namen. Flags `megan_zurueck`, `a3_megan_handel`. [Drehbuch 5.5](../welt/drehbuch_akt3.md)
+- **Wohnen:** Solange die Yacht kaputt ist, schläft sie bis Tag 31 in Casanovas Gästezimmer (ihr komisches Bündnis). [Drehbuch 4.4](../welt/drehbuch_akt3.md)
+- **The Board (`a3_megan_monaco`, Tag 31 Dinner, Säule Geld):** Videocall mit dem CEO in Monaco (nur Stimme). Wende `a3_megan_wende` mit 4 Zeugen **oder** 2 Beweisen **oder** Yamamoto Vertrauen 5, sonst `a3_megan_verloren`. Duc darf ins Bild treten. *“That's the first argument I've won that I actually believe in.”* [Drehbuch 5.16, 12a](../welt/drehbuch_akt3.md)
+- **Schluss-Szene „Still Off the Record“ (Tag 26 bis 30, nur mit `megan_funke`):** VIP-Kabine. Ist die Yacht noch kaputt, spielt sie am Ende des Kais (`a3_schluss_megan_kai`). *“This stays off the record too, First Officer. Can you do that?”* Morgens Set `megan_morning_after`, nie öffentlich. [Drehbuch 6, 12a](../welt/drehbuch_akt3.md)
+- **Nach Mitternacht (`a3_mitternacht_megan`):** *“The aft deck, after midnight. Then we never speak of it. Agreed?”* [Drehbuch 5.21](../welt/drehbuch_akt3.md)
+- **Villa:** Megan ist am Tag 34 nicht dabei. [Drehbuch 5.22](../welt/drehbuch_akt3.md)
+- **Vermerk (E-122 (e)):** Megan fehlt ab Tag 20 abends und kommt an Tag 25 zurück. Ihre Wende aus „Akt 3“ oben ist das Board-Gespräch an Tag 31.
+
+
 ## Mechanik
 Nicht offen romanzierbar; versteckte Romanze über den Tag-0-Flirt (`megan_funke`). Vertrauen Start 0. Eden-Shop per
 Video (Rabatt ab Vertrauen 3). **Der Eden-Shop öffnet erst in Akt 2** (Duc 27.10.2026; `laeden.megan.ab_tag = 8`, vorher fehlt er in der

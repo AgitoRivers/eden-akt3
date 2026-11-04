@@ -47,6 +47,15 @@ So klingt sie:
 - **Schwestern-Klausel:** Flirt mit beiden erlaubt, vor der Festa entscheiden, nie beide.
 - In einem Fall verdächtig (Auflösung nur in story.json).
 
+### Akt 3 (Stand 04.11.2026, Drehbuch akt3)
+- **A Line in the Margin (7.3, `a3_paar_sophia_*`):** Freundschaft mit der Novizin Isabelle im Kloster, kein Gelübde wird berührt. *“Darling, I've seen worse things explode. Usually men.”* Sophia schreibt Isabelle eine Zeile für Mut an den Rand des Kräuterbuchs, die Zeile bleibt im Spiel ungesagt. Mit Ducs Romanze: *“For when you want to leave somewhere. Or stay.”* Festa: Isabelle steckt ihr eine Rosmarinblüte an. [Drehbuch 7.3](../welt/drehbuch_akt3.md)
+- **Wohnen:** Solange die Yacht kaputt ist, schläft sie im Kloster bei Nonna und hilft im Garten (auch bei Nonnas Kiste). [Drehbuch 4.4, 5.8](../welt/drehbuch_akt3.md)
+- **Schluss-Szene „The Sixteenth Letter“ (Klostergarten oder an Bord):** *“Darling, will you open it, or shall I?”* Rückbezug auf die Zehn-Euro-Wette. [Drehbuch 6](../welt/drehbuch_akt3.md)
+- **Kommission:** `sophia_notizen` sind ein Beweis: *“I wrote down every time and every word I heard on the radio that night.”* Ist sie gefeuert, kommen die Notizen per Post und Elsa liest vor. [Drehbuch 5.25](../welt/drehbuch_akt3.md)
+- **Nach Mitternacht (`a3_mitternacht_sophia`):** *“Ten euros says you'll come down to the mole after midnight.”* Lea oder Sophia, nie beide (Schwestern-Klausel). [Drehbuch 5.21](../welt/drehbuch_akt3.md)
+- **Chiara:** In ihrem Notizbuch steht noch eine Seite für Chiara, als Bild, ohne Text. [Drehbuch 7, Kanon-Prüfung](../welt/drehbuch_akt3.md)
+
+
 ## Mechanik
 Romanzierbar, Vertrauen 1, Begehren 2. Schätzt Wahrnehmung + List. Lieblingsorte Alvas Bar, Achterdeck.
 Lieblingsgericht Sommerrollen. Unikat: Füller mit ihrem eigenen Namen (über Leas Mission).

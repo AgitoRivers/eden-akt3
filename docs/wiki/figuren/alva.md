@@ -72,6 +72,17 @@ Casanova (Fehde) · Sophia (Lieblingsort, Poker um Diesel).
 - **Leiter (31.10.2026):** *The Board*, *The Jukebox*, *Papa's Photo*, *Chalk*; Szenen: [Romanzen-Leiter](../systeme/beziehungen.md#romanzen-leiter). Neu im Kanon: Sie kam aus Sevilla auch aus Angst heim, das weiß nur Duc.
 - Tag-4-NSFW-Event (ab Vertrauen 3, Handy-Wiederholung ab 4).
 
+### Akt 3 (Stand 04.11.2026, Drehbuch akt3)
+- **Since Last Night (`a3_alva_wach`, Karte ab Tag 24):** Alva ist verletzt und wacht auf. Die Karte öffnet das Los *Not in the System*. [Drehbuch 5.3](../welt/drehbuch_akt3.md)
+- **Zeugin:** Sie sah vom Platz aus die offene Nordbarrikade, man glaubt ihr nicht, weil sie bewusstlos war. Tür über die Dank-Szene der Bar (`a3_dank_bar`, der erste neue Name auf Papas Tafel). Haltungen `a3_zeuge_alva_ehrlich`, `_frei`, `_papa`. [Drehbuch 2, 4.1, 5.25](../welt/drehbuch_akt3.md)
+- **Los *The Festa Drink*:** Papas Myrte (`a3_los_getraenk_papa`) oder ein neues Getränk, dem Duc einen Namen gibt. [Drehbuch 4.3](../welt/drehbuch_akt3.md)
+- **Olivetti (7.2):** Aus Chiaras Eifersucht wird die beste Freundin, die keine von beiden je hatte. Chiara schläft bei Alva. Drei Fassungen, je nachdem, ob Duc mit einer von beiden zusammen ist. Festbild: Tanz nach dem Flamenco oder das Getränk zu zweit. [Drehbuch 7.2](../welt/drehbuch_akt3.md)
+- **Switched Off (Tag 32):** Alva betritt zum ersten Mal das Haus ihrer Mutter und trägt Sandru hinaus: *“You're my little brother, you idiot. I've carried you since you were six.”* Sandru liebt sie, ein Paar wird es nicht (E-122 h). [Drehbuch 5.17](../welt/drehbuch_akt3.md)
+- **Schluss-Szene „The Board Is Full“ (Bar nach Feierabend, sonst Notbar am Kai):** *“My name isn't on Papa's board. What do you write next to it?”* Nach Mitternacht (`a3_mitternacht_alva`): *“After my dance, Duc, I close the bar for one hour.”* [Drehbuch 6, 5.21](../welt/drehbuch_akt3.md)
+- **Festa:** Nach Casanovas Rede klatscht niemand, dann Alva, langsam. Ihr Satz kommt genau einmal: *“Don't get used to it.”* [Drehbuch 5.27](../welt/drehbuch_akt3.md)
+- **Vermerk (E-130):** Alvas Applaus auf der Festa und „ihr Satz einmal“ sind entschieden. Das beendet die Fehde aus `casanova.md`.
+
+
 ## Mechanik
 Romanzierbar. Händlerin (Laden mit Teilen, Zutaten, Geschenken). Geschenke: das Dorf weiß es morgen (Ruf).
 Lieblingsgericht Chili Noodles.

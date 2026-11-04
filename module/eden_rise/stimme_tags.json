@@ -26032,672 +26032,6 @@
    "quelle": "outfit_quest"
   },
   {
-   "wer": "rosi",
-   "text": "Officer. I checked the bat after the quay. Not one dent. The bat is fine. Your technique is a disaster, but the bat is fine.",
-   "gesprochen": "[chuckle] Officer. I checked the bat after the quay. Not one dent. The bat is fine. Your technique is a disaster, but the bat is fine.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "lola",
-   "text": "Mate, Alva's telling everyone you fought the dogs off on your own. Don't tell anyone I told you, but I reckon she fancies you a bit. Mostly the bat.",
-   "gesprochen": "[laugh] Mate, Alva's telling everyone you fought the dogs off on your own. Don't tell anyone I told you, but I reckon she fancies you a bit. Mostly the bat.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "maxwell",
-   "text": "Number One! The village says you knocked out a wild boar with one swing. Mr. Maximum is proud of you, brother. Mr. Maximum would also like to see the footwork.",
-   "gesprochen": "[laugh] Number One! The village says you knocked out a wild boar with one swing. Mr. Maximum is proud of you, brother. Mr. Maximum would also like to see the footwork.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "chiara",
-   "text": "On Tuesday the rats were twelve. Tonight at the bar they were forty, and one of them wore a little hat. I give the story a six. The hat was a nice touch.",
-   "gesprochen": "[sigh] On Tuesday the rats were twelve. Tonight at the bar they were forty, and one of them wore a little hat. I give the story a six. The hat was a nice touch.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "elsa",
-   "text": "First Officer. I have six statements about the harbour, and in four of them you are taller than you are. I am filing the other two.",
-   "gesprochen": "[clear throat] First Officer. I have six statements about the harbour, and in four of them you are taller than you are. I am filing the other two.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "sophia",
-   "text": "Darling, in the latest version you ride the boar up the town hall steps. Ten euros says that by Friday it's a bear.",
-   "gesprochen": "[chuckle] Darling, in the latest version you ride the boar up the town hall steps. Ten euros says that by Friday it's a bear.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "jana",
-   "text": "Sorry, Sir, sorry, is it true you threw the confetti cannon at the boar? Lola says yes and Chiara says don't ask, so I'm asking. Sorry.",
-   "gesprochen": "[gasp] Sorry, Sir, sorry, is it true you threw the confetti cannon at the boar? Lola says yes and Chiara says don't ask, so I'm asking. Sorry.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "danzel",
-   "text": "So you're the man who held the quay with a baseball bat. Three boars, they say. One boar, I say. And your jacket, if I may, was the real crime.",
-   "gesprochen": "[clear throat] So you're the man who held the quay with a baseball bat. Three boars, they say. One boar, I say. And your jacket, if I may, was the real crime.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "alva",
-   "text": "Look who it is, the man who saved my bar door with a stick. Your first drink is still free, o figliolu. The second one we can negotiate.",
-   "gesprochen": "[chuckle] Look who it is, the man who saved my bar door with a stick. Your first drink is still free, o figliolu. The second one we can negotiate.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "petru",
-   "text": "Hm. They say you threw the boar into the sea. You didn't. But my boat is still blue. Sit.",
-   "gesprochen": "[clear throat] Hm. They say you threw the boar into the sea. You didn't. But my boat is still blue. Sit.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "toto",
-   "text": "Comandante! In my version I was right beside you on the quay. Behind a crate, yes, but beside you. Strategically.",
-   "gesprochen": "[chuckle] Comandante! In my version I was right beside you on the quay. Behind a crate, yes, but beside you. Strategically.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "nonna",
-   "text": "So you're the one who fought three hundred rats with a broom. Sit down. A man who does that eats twice.",
-   "gesprochen": "[laugh] So you're the one who fought three hundred rats with a broom. Sit down. A man who does that eats twice.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "lea",
-   "text": "A lion, Duc. On Corsica. There have never been lions on Corsica, which means somebody brought one, and that's proper worse.",
-   "gesprochen": "[gasp] A lion, Duc. On Corsica. There have never been lions on Corsica, which means somebody brought one, and that's proper worse.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "casanova",
-   "text": "Monsieur. My father's spear. I gave it to you in front of everyone and I would do it again tomorrow. With better music.",
-   "gesprochen": "[sniff] Monsieur. My father's spear. I gave it to you in front of everyone and I would do it again tomorrow. With better music.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "siri",
-   "text": "Sorry, I keep thinking about the monks up there. You don't have to tell me anything. I just didn't want you to think nobody asked.",
-   "gesprochen": "[sigh] Sorry, I keep thinking about the monks up there. You don't have to tell me anything. I just didn't want you to think nobody asked.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "yasin",
-   "text": "Bro. Lion hunter. Do you know what that does on a thumbnail? Don't say anything, just stand next to the spear and look tired. That's business.",
-   "gesprochen": "[laugh] Bro. Lion hunter. Do you know what that does on a thumbnail? Don't say anything, just stand next to the spear and look tired. That's business.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "toto",
-   "text": "Comandante, at the harbour they say the lion was as big as a fishing boat. I said bigger. Now they believe me more than they believe you.",
-   "gesprochen": "[chuckle] Comandante, at the harbour they say the lion was as big as a fishing boat. I said bigger. Now they believe me more than they believe you.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "yamamoto",
-   "text": "Officer-san, so sorry. In the village they say you wrestled the lion and the lion apologised. Very interesting. I would like a photograph of the lion. From far away.",
-   "gesprochen": "[clear throat] Officer-san, so sorry. In the village they say you wrestled the lion and the lion apologised. Very interesting. I would like a photograph of the lion. From far away.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "chiara",
-   "text": "Alva's version is that you carried the lion home on your back and Nonna cooked it. I give it a three. Nonna would never cook a lion, it's too tough.",
-   "gesprochen": "[sigh] Alva's version is that you carried the lion home on your back and Nonna cooked it. I give it a three. Nonna would never cook a lion, it's too tough.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "bibi",
-   "text": "You let him go. He's out there now, somewhere in the macchia, lying in the sun with nobody telling him what to do. I bet he has a lovely life. Thank you, Duc. Really.",
-   "gesprochen": "[sniff] You let him go. He's out there now, somewhere in the macchia, lying in the sun with nobody telling him what to do. I bet he has a lovely life. Thank you, Duc. Really.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "bibi",
-   "text": "I still put out his bowl in the mornings. Isn't that stupid? He was this big when I got him, and now there's nothing left to feed. I keep waiting to hear him snore.",
-   "gesprochen": "[sniff] I still put out his bowl in the mornings. Isn't that stupid? He was this big when I got him, and now there's nothing left to feed. I keep waiting to hear him snore.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "nonna",
-   "text": "The boy brings the harvest down every morning now, and he says your name like it belongs to a saint. Don't let it go to your head. Eat.",
-   "gesprochen": "[sniff] The boy brings the harvest down every morning now, and he says your name like it belongs to a saint. Don't let it go to your head. Eat.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "nonna",
-   "text": "Sit. Don't talk. Some days a kitchen is only for being quiet in.",
-   "gesprochen": "[sigh] Sit. Don't talk. Some days a kitchen is only for being quiet in.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "isabelle",
-   "text": "Officer! Frederico carved you a lion. It has five legs, and he says the fifth one is for luck. I said nothing. I also want one.",
-   "gesprochen": "[gasp] Officer! Frederico carved you a lion. It has five legs, and he says the fifth one is for luck. I said nothing. I also want one.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "alva",
-   "text": "Half my bar says you killed the lion and the other half says you let it go. Tell me which, o figliolu, and I'll tell you which half pays tonight.",
-   "gesprochen": "[laugh] Half my bar says you killed the lion and the other half says you let it go. Tell me which, o figliolu, and I'll tell you which half pays tonight.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "rosi",
-   "text": "Officer. The village says the lion followed you home and sleeps in Nonna's barn now. If that's true, I'm building it a kennel. A big one.",
-   "gesprochen": "[chuckle] Officer. The village says the lion followed you home and sleeps in Nonna's barn now. If that's true, I'm building it a kennel. A big one.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "sophia",
-   "text": "Petru walked past me at the harbour this morning and nodded. Petru doesn't nod, darling. Whatever you did up there, he's counting it.",
-   "gesprochen": "[sigh] Petru walked past me at the harbour this morning and nodded. Petru doesn't nod, darling. Whatever you did up there, he's counting it.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "sophia",
-   "text": "Petru's shop has been dark for two days, and nobody in the village says your name near it. I'm only telling you because nobody else will.",
-   "gesprochen": "[sigh] Petru's shop has been dark for two days, and nobody in the village says your name near it. I'm only telling you because nobody else will.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "maxwell",
-   "text": "Brother, you climbed the whole mountain and came down with both legs. Mr. Maximum respects that. Mr. Maximum also wants to hear about the bridge.",
-   "gesprochen": "[chuckle] Brother, you climbed the whole mountain and came down with both legs. Mr. Maximum respects that. Mr. Maximum also wants to hear about the bridge.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "lola",
-   "text": "Mate, Alva says Petru cried. Petru! I didn't know he had water in him. Mostly salt, I reckon.",
-   "gesprochen": "[chuckle] Mate, Alva says Petru cried. Petru! I didn't know he had water in him. Mostly salt, I reckon.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "lea",
-   "text": "They're saying there's a bear up there the size of a car and you shook paws with it. Bears don't shake paws. That's proper rude of the village, to the bear.",
-   "gesprochen": "[chuckle] They're saying there's a bear up there the size of a car and you shook paws with it. Bears don't shake paws. That's proper rude of the village, to the bear.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "siri",
-   "text": "Sorry, is it true there's a black panther up there that only you can see? The baker's daughter told me. I'm scared and I also want to go.",
-   "gesprochen": "[gasp] Sorry, is it true there's a black panther up there that only you can see? The baker's daughter told me. I'm scared and I also want to go.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "petru",
-   "text": "Hm. On Sunday there is fish pie. You come. Don't bring anything.",
-   "gesprochen": "[clear throat] Hm. On Sunday there is fish pie. You come. Don't bring anything.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "petru",
-   "text": "Hm. She doesn't speak to you. She doesn't speak much to me either. Take what you need.",
-   "gesprochen": "[sigh] Hm. She doesn't speak to you. She doesn't speak much to me either. Take what you need.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "alva",
-   "text": "The tower story gets better every night, o figliolu. Tonight you climbed it without a rope. Tomorrow, I think, without trousers.",
-   "gesprochen": "[chuckle] The tower story gets better every night, o figliolu. Tonight you climbed it without a rope. Tomorrow, I think, without trousers.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "nonna",
-   "text": "They say you carried a soldier down the mountain over your shoulder, like a lamb. Sit down. Carrying soldiers makes a man hungry.",
-   "gesprochen": "[laugh] They say you carried a soldier down the mountain over your shoulder, like a lamb. Sit down. Carrying soldiers makes a man hungry.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "toto",
-   "text": "Comandante. You went in with the tide coming. Nobody does that for my family. Nobody. I don't forget things like that.",
-   "gesprochen": "[sigh] Comandante. You went in with the tide coming. Nobody does that for my family. Nobody. I don't forget things like that.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "lea",
-   "text": "You went past the third step. I watched the water from the deck the whole time, counting. Don't do that again. Or do, but tell me first.",
-   "gesprochen": "[sniff] You went past the third step. I watched the water from the deck the whole time, counting. Don't do that again. Or do, but tell me first.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "maxwell",
-   "text": "Number One goes into a cave full of smugglers and comes back with a cousin! Eish. Mr. Maximum goes to the shop and comes back with milk.",
-   "gesprochen": "[laugh] Number One goes into a cave full of smugglers and comes back with a cousin! Eish. Mr. Maximum goes to the shop and comes back with milk.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "rosi",
-   "text": "The village says there were rails in that cave and you rode a mine cart out of it. Officer, if there's a mine cart, I want it. For science.",
-   "gesprochen": "[chuckle] The village says there were rails in that cave and you rode a mine cart out of it. Officer, if there's a mine cart, I want it. For science.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "sophia",
-   "text": "The new version: you found the smugglers' treasure and gave all of it to the church. Ten euros says the priest believes it.",
-   "gesprochen": "[chuckle] The new version: you found the smugglers' treasure and gave all of it to the church. Ten euros says the priest believes it.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "alva",
-   "text": "Totò was in here last night and didn't make a single bet. Not one. Whatever happened in that cave, o figliolu, it got to him.",
-   "gesprochen": "[sigh] Totò was in here last night and didn't make a single bet. Not one. Whatever happened in that cave, o figliolu, it got to him.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "lola",
-   "text": "Boss! They're saying you swam out of that cave with a smuggler on your back. Don't tell anyone I told you, but I already told Chiara it was two.",
-   "gesprochen": "[gasp] Boss! They're saying you swam out of that cave with a smuggler on your back. Don't tell anyone I told you, but I already told Chiara it was two.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "petru",
-   "text": "Hm. My grandfather said nobody comes out of that cave with the tide. You did. So my grandfather was wrong. First time.",
-   "gesprochen": "[clear throat] Hm. My grandfather said nobody comes out of that cave with the tide. You did. So my grandfather was wrong. First time.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "sophia",
-   "text": "You came back at three in the morning, soaking wet and smelling of the sea, darling. Chiara has a theory. I have a bet.",
-   "gesprochen": "[chuckle] You came back at three in the morning, soaking wet and smelling of the sea, darling. Chiara has a theory. I have a bet.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "chiara",
-   "text": "First Officer. You took the tender out alone, at night, against my rota. I give the idea a two. Whatever you found out there, I'm still deciding.",
-   "gesprochen": "[sigh] First Officer. You took the tender out alone, at night, against my rota. I give the idea a two. Whatever you found out there, I'm still deciding.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "yasin",
-   "text": "Bro, the village says there's a mermaid. If there's a mermaid and you didn't film her, we need to talk about your priorities.",
-   "gesprochen": "[laugh] Bro, the village says there's a mermaid. If there's a mermaid and you didn't film her, we need to talk about your priorities.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "jana",
-   "text": "Sorry, Sir. Lola says your new girlfriend is half a fish. Is it the top half or the bottom half? Sorry. Na geh, forget I asked.",
-   "gesprochen": "[gasp] Sorry, Sir. Lola says your new girlfriend is half a fish. Is it the top half or the bottom half? Sorry. Na geh, forget I asked.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "petru",
-   "text": "Hm. Last night there was singing from the point. My grandfather heard it once, in nineteen twenty-four. You were out there. Hm.",
-   "gesprochen": "[clear throat] Hm. Last night there was singing from the point. My grandfather heard it once, in nineteen twenty-four. You were out there. Hm.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "alva",
-   "text": "Somebody saw you rowing out alone at night, o figliolu. Half the village thinks you have a lover in the rocks, and the other half thinks you're mad. I'm in both halves.",
-   "gesprochen": "[chuckle] Somebody saw you rowing out alone at night, o figliolu. Half the village thinks you have a lover in the rocks, and the other half thinks you're mad. I'm in both halves.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "nonna",
-   "text": "They say a woman sings in the sea and you sang back. My mother had a word for men who sing back. Eat first, then I'll tell you.",
-   "gesprochen": "[sigh] They say a woman sings in the sea and you sang back. My mother had a word for men who sing back. Eat first, then I'll tell you.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "lea",
-   "text": "You got page forty back! Kevin's going to be furious, proper furious. I'm going to frame it. The page, not Kevin.",
-   "gesprochen": "[laugh] You got page forty back! Kevin's going to be furious, proper furious. I'm going to frame it. The page, not Kevin.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "lola",
-   "text": "Mate, my good fork was in that nest. My good fork! Kevin's a thief and you're a hero. Mostly a hero.",
-   "gesprochen": "[chuckle] Mate, my good fork was in that nest. My good fork! Kevin's a thief and you're a hero. Mostly a hero.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "rosi",
-   "text": "Officer. They say you screamed at a seagull from the bell tower until the seagull left. I respect it. That's how I talk to the generator.",
-   "gesprochen": "[chuckle] Officer. They say you screamed at a seagull from the bell tower until the seagull left. I respect it. That's how I talk to the generator.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "siri",
-   "text": "Sorry, the whole village watched you on the church roof? Yasin is so annoyed he missed it. I'm a little bit proud of you, actually.",
-   "gesprochen": "[gasp] Sorry, the whole village watched you on the church roof? Yasin is so annoyed he missed it. I'm a little bit proud of you, actually.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "yamamoto",
-   "text": "Officer-san, so sorry. I have photographed this seagull for many days, and you defeated him in one afternoon. Very interesting. May I photograph you instead?",
-   "gesprochen": "[chuckle] Officer-san, so sorry. I have photographed this seagull for many days, and you defeated him in one afternoon. Very interesting. May I photograph you instead?",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "maxwell",
-   "text": "Brother! In the village they say the seagull challenged you to a duel and you won on points. Mr. Maximum demands a rematch. With the seagull.",
-   "gesprochen": "[laugh] Brother! In the village they say the seagull challenged you to a duel and you won on points. Mr. Maximum demands a rematch. With the seagull.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "chiara",
-   "text": "The bar says you rang the church bell with your head to scare the bird away. I give the story a nine. I give you a four.",
-   "gesprochen": "[sigh] The bar says you rang the church bell with your head to scare the bird away. I give the story a nine. I give you a four.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "charly",
-   "text": "You fought a seagull on a church. Three out of ten. The seagull was a seven.",
-   "gesprochen": "[sigh] You fought a seagull on a church. Three out of ten. The seagull was a seven.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "alva",
-   "text": "You went out through my attic window and came back through it with feathers in your hair. Best thing that's happened in that attic in years, o figliolu.",
-   "gesprochen": "[laugh] You went out through my attic window and came back through it with feathers in your hair. Best thing that's happened in that attic in years, o figliolu.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "toto",
-   "text": "Comandante! My lighter! You found my lighter in the nest! I bet the whole crew it was gone forever. I lost, and I've never been so happy losing.",
-   "gesprochen": "[chuckle] Comandante! My lighter! You found my lighter in the nest! I bet the whole crew it was gone forever. I lost, and I've never been so happy losing.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "petru",
-   "text": "Hm. The gull. I tried for six years. You, one afternoon. Hm.",
-   "gesprochen": "[clear throat] Hm. The gull. I tried for six years. You, one afternoon. Hm.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "isabelle",
-   "text": "Officer! Frederico says you can talk to birds now. He wants you to tell the pigeons to stop sitting on my herbs. I want that too, honestly.",
-   "gesprochen": "[gasp] Officer! Frederico says you can talk to birds now. He wants you to tell the pigeons to stop sitting on my herbs. I want that too, honestly.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "alva",
-   "text": "They say you went up into the macchia after three people in red and came back with a red jacket and no answers for anyone. Not even for me, o figliolu, and I always get the answers.",
-   "gesprochen": "[sigh] They say you went up into the macchia after three people in red and came back with a red jacket and no answers for anyone. Not even for me, o figliolu, and I always get the answers.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "elsa",
-   "text": "First Officer. I have three statements from the macchia on my desk. They are long, and they are honest, and I don't like any of them. Thank you for bringing them.",
-   "gesprochen": "[clear throat] First Officer. I have three statements from the macchia on my desk. They are long, and they are honest, and I don't like any of them. Thank you for bringing them.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "elsa",
-   "text": "First Officer. I have one statement from the macchia on my desk. One. I have read it twice, because there is nothing else to read.",
-   "gesprochen": "[sigh] First Officer. I have one statement from the macchia on my desk. One. I have read it twice, because there is nothing else to read.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "lola",
-   "text": "Mate, the village says you beat three ninjas in red and then made them all a cup of tea. Don't tell anyone I told you, but I reckon the tea won. Mostly the biscuits.",
-   "gesprochen": "[laugh] Mate, the village says you beat three ninjas in red and then made them all a cup of tea. Don't tell anyone I told you, but I reckon the tea won. Mostly the biscuits.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "pascal",
-   "text": "I told them about the boar again, Duc. It's bigger now. You're welcome. Madame says the steps have never looked so heroic.",
-   "gesprochen": "[chuckle] I told them about the boar again, Duc. It's bigger now. You're welcome. Madame says the steps have never looked so heroic.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "pascal",
-   "text": "Duc. I heard what you found up there. You don't have to talk about it. If you need anything for the brothers, leave it with me.",
-   "gesprochen": "[sigh] Duc. I heard what you found up there. You don't have to talk about it. If you need anything for the brothers, leave it with me.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "pascal",
-   "text": "The village says you carried Petru's daughter down the mountain on your back. I didn't correct them. Petru didn't either, and from Petru that's a speech.",
-   "gesprochen": "[chuckle] The village says you carried Petru's daughter down the mountain on your back. I didn't correct them. Petru didn't either, and from Petru that's a speech.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "pascal",
-   "text": "Now the gull has a sword, I'm told. I've written it in the town minutes. Somebody should.",
-   "gesprochen": "[laugh] Now the gull has a sword, I'm told. I've written it in the town minutes. Somebody should.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "mina",
-   "text": "They say you hit the boar so hard it flew over the church! I don't spread it. I just deliver it. Everywhere. Very fast.",
-   "gesprochen": "[laugh] They say you hit the boar so hard it flew over the church! I don't spread it. I just deliver it. Everywhere. Very fast.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "mina",
-   "text": "Nonna gave me double cake this week. She never does that. So I know it was you who went up there. Thanks.",
-   "gesprochen": "[sigh] Nonna gave me double cake this week. She never does that. So I know it was you who went up there. Thanks.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "mina",
-   "text": "People want me to deliver letters to your smugglers' cave now. I told them no. Then I asked how much.",
-   "gesprochen": "[chuckle] People want me to deliver letters to your smugglers' cave now. I told them no. Then I asked how much.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "mina",
-   "text": "I saw you on the bell tower from the Vespa! You screamed at a seagull, and the seagull won on points!",
-   "gesprochen": "[laugh] I saw you on the bell tower from the Vespa! You screamed at a seagull, and the seagull won on points!",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "batu",
-   "text": "They say you fought a bear with a stick. You? So thin? Eat first. Then you tell me about the bear.",
-   "gesprochen": "[clear throat] They say you fought a bear with a stick. You? So thin? Eat first. Then you tell me about the bear.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "batu",
-   "text": "Fiora told me what you did on the mountain, con. She doesn't say thank you, so I say it. Sit. I made too much.",
-   "gesprochen": "[sigh] Fiora told me what you did on the mountain, con. She doesn't say thank you, so I say it. Sit. I made too much.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "batu",
-   "text": "Petru's girl is home, and they say because of you. Good. Now I can ask her when the baby is coming.",
-   "gesprochen": "[chuckle] Petru's girl is home, and they say because of you. Good. Now I can ask her when the baby is coming.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "sandru",
-   "text": "Ha, the boar again. In my shop they say you rode it. I'd have liked to see that. I'd have liked to do that, actually.",
-   "gesprochen": "[laugh] Ha, the boar again. In my shop they say you rode it. I'd have liked to see that. I'd have liked to do that, actually.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "sandru",
-   "text": "Ha, sorry, people keep asking me if we sell treasure maps now. We don't. I checked the system. I checked twice.",
-   "gesprochen": "[laugh] Ha, sorry, people keep asking me if we sell treasure maps now. We don't. I checked the system. I checked twice.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "sandru",
-   "text": "Ha. You went up the tower, the whole way up, on your own legs. Sorry. It's nice, that's all. Do you need a bag?",
-   "gesprochen": "[chuckle] Ha. You went up the tower, the whole way up, on your own legs. Sorry. It's nice, that's all. Do you need a bag?",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "anghjulu",
-   "text": "Yes, yes, the bell was wrong that day. I was praying, my son. Very deeply. Let's talk about the boar instead.",
-   "gesprochen": "[cough] Yes, yes, the bell was wrong that day. I was praying, my son. Very deeply. Let's talk about the boar instead.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "anghjulu",
-   "text": "You went up to the brothers, my son. Somebody had to. Cut the cards, will you? My hands aren't good today.",
-   "gesprochen": "[sigh] You went up to the brothers, my son. Somebody had to. Cut the cards, will you? My hands aren't good today.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "anghjulu",
-   "text": "They say you gave the whole smugglers' treasure to the church. I believe it, my son. I believe it very much. When does it arrive?",
-   "gesprochen": "[chuckle] They say you gave the whole smugglers' treasure to the church. I believe it, my son. I believe it very much. When does it arrive?",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "anghjulu",
-   "text": "My son, you fought that devil on my tower! Fourteen years I've tried! Next time take wine up there, it helps the aim.",
-   "gesprochen": "[laugh] My son, you fought that devil on my tower! Fourteen years I've tried! Next time take wine up there, it helps the aim.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "elsa",
-   "text": "First Officer. For my report about the animals in the harbour.",
-   "gesprochen": "[clear throat] First Officer. For my report about the animals in the harbour.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "elsa",
-   "text": "The bar says forty rats. The mayor says two hundred. How many rats were there?",
-   "gesprochen": "[sigh] The bar says forty rats. The mayor says two hundred. How many rats were there?",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "elsa",
-   "text": "Twelve. Thank you. You are the first person in this village who has given me a number.",
-   "gesprochen": "[sigh] Twelve. Thank you. You are the first person in this village who has given me a number.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "elsa",
-   "text": "I will write two hundred. Then I will write that you said it.",
-   "gesprochen": "[clear throat] I will write two hundred. Then I will write that you said it.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "elsa",
-   "text": "I asked Petru. He said hm. That is his entire statement.",
-   "gesprochen": "[chuckle] I asked Petru. He said hm. That is his entire statement.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "jana",
-   "text": "sorry sir. is it true you have a lion spear now?? 😳",
-   "gesprochen": "[gasp] sorry sir. is it true you have a lion spear now?? 😳",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "jana",
-   "text": "coach says you'll train with it and I can watch if I'm quiet. I'm always quiet. sorry. jessas",
-   "gesprochen": "[sigh] coach says you'll train with it and I can watch if I'm quiet. I'm always quiet. sorry. jessas",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "jana",
-   "text": "ok. a normal spear. from a lion story. very normal 😅",
-   "gesprochen": "[chuckle] ok. a normal spear. from a lion story. very normal 😅",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "jana",
-   "text": "REALLY?? sorry. yes. thank you. I won't drop it. probably 🙏",
-   "gesprochen": "[gasp] REALLY?? sorry. yes. thank you. I won't drop it. probably 🙏",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "lola",
-   "text": "boss is it true there's a BEAR up there 🐻🐻🐻",
-   "gesprochen": "[gasp] boss is it true there's a BEAR up there 🐻🐻🐻",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "lola",
-   "text": "alva says you looked it in the eye and it went home. did it go home?? does it have a home?? 😭",
-   "gesprochen": "[laugh] alva says you looked it in the eye and it went home. did it go home?? does it have a home?? 😭",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "lola",
-   "text": "I KNEW it. I'm making it a honey cake. you're delivering it, mate 🍯",
-   "gesprochen": "[laugh] I KNEW it. I'm making it a honey cake. you're delivering it, mate 🍯",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "lola",
-   "text": "boo. you're no fun. there was a bear in my heart 🐻",
-   "gesprochen": "[sigh] boo. you're no fun. there was a bear in my heart 🐻",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "siri",
-   "text": "sorry, is it true you went into the smugglers' cave? 🥺",
-   "gesprochen": "[sigh] sorry, is it true you went into the smugglers' cave? 🥺",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "siri",
-   "text": "yasin wants to film in there. I said no. I think I'm allowed to say no now? sorry",
-   "gesprochen": "[gasp] yasin wants to film in there. I said no. I think I'm allowed to say no now? sorry",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "siri",
-   "text": "ok. I'll tell him you said it. no, I'll tell him I said it 💛",
-   "gesprochen": "[sniff] ok. I'll tell him you said it. no, I'll tell him I said it 💛",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "siri",
-   "text": "I'm stealing that. sorry. I'm stealing it anyway",
-   "gesprochen": "[laugh] I'm stealing that. sorry. I'm stealing it anyway",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "lea",
-   "text": "duc. is it true you found a siren in the grotto?? a proper siren?? 🐚",
-   "gesprochen": "[gasp] duc. is it true you found a siren in the grotto?? a proper siren?? 🐚",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "lea",
-   "text": "ok I have questions. does she breathe air or water. is there a swim bladder. is she a human or a fish. can I see her. I'll be quiet. mostly 🙏",
-   "gesprochen": "[sigh] ok I have questions. does she breathe air or water. is there a swim bladder. is she a human or a fish. can I see her. I'll be quiet. mostly 🙏",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "lea",
-   "text": "mostly human is the best answer and the worst data 😭 I need to see her",
-   "gesprochen": "[laugh] mostly human is the best answer and the worst data 😭 I need to see her",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "lea",
-   "text": "no. you're right. sorry. I'd still like to say hello one day. just hello 🌊",
-   "gesprochen": "[sniff] no. you're right. sorry. I'd still like to say hello one day. just hello 🌊",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "lea",
-   "text": "fishing. at three in the morning. with no rod. ok duc 🐟",
-   "gesprochen": "[chuckle] fishing. at three in the morning. with no rod. ok duc 🐟",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "casanova",
-   "text": "Monsieur. Three people have told me there was a man on my bell tower, screaming at a seagull.",
-   "gesprochen": "[clear throat] Monsieur. Three people have told me there was a man on my bell tower, screaming at a seagull.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "casanova",
-   "text": "I have only one question, and I want you to think about the answer. Did. You. Win?",
-   "gesprochen": "[sigh] I have only one question, and I want you to think about the answer. Did. You. Win?",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "casanova",
-   "text": "MAGNIFICENT! This goes into my speech for the Festa. With pauses.",
-   "gesprochen": "[laugh] MAGNIFICENT! This goes into my speech for the Festa. With pauses.",
-   "quelle": "legenden"
-  },
-  {
-   "wer": "casanova",
-   "text": "A draw. With a seagull. I will say you won, Monsieur. Nobody checks speeches.",
-   "gesprochen": "[sigh] A draw. With a seagull. I will say you won, Monsieur. Nobody checks speeches.",
-   "quelle": "legenden"
-  },
-  {
    "wer": "pascal",
    "text": "Somebody has to, or she starts again. Pascal Leca, deputy mayor. If a thing in this town doesn't need a speech, it's probably me.",
    "gesprochen": "[chuckle] Somebody has to, or she starts again. Pascal Leca, deputy mayor. If a thing in this town doesn't need a speech, it's probably me.",
@@ -32402,6 +31736,768 @@
    "text": "I have it. All of it. ...Come down carefully. And thank you.",
    "gesprochen": "[clear throat] I have it. All of it. ...Come down carefully. And thank you.",
    "quelle": "akt3_mast"
+  },
+  {
+   "wer": "mina",
+   "text": "Yacht, a pirate carried my bicycle to the post office this morning. He said sorry three times. In Spanish.",
+   "gesprochen": "[chuckle] Yacht, a pirate carried my bicycle to the post office this morning. He said sorry three times. In Spanish.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "batu",
+   "text": "The pirates eat like my nephews. I cook for forty now. I'm not complaining. A little.",
+   "gesprochen": "[sigh] The pirates eat like my nephews. I cook for forty now. I'm not complaining. A little.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "petru",
+   "text": "They carry stones well. Badly at first. Now well. The sea teaches everyone.",
+   "gesprochen": "[clear throat] They carry stones well. Badly at first. Now well. The sea teaches everyone.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "lola",
+   "text": "Boss, Mina says the captain wants to be made mayor now. Mostly a rumour. Mostly.",
+   "gesprochen": "[laugh] Boss, Mina says the captain wants to be made mayor now. Mostly a rumour. Mostly.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "mina",
+   "text": "Every letter from Monaco has the same name at the bottom now. Maître Delorme, a lawyer in Lyon. Even his signature looks expensive.",
+   "gesprochen": "[sigh] Every letter from Monaco has the same name at the bottom now. Maître Delorme, a lawyer in Lyon. Even his signature looks expensive.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "elsa",
+   "text": "Commissioner Luciani is coming himself. Twenty-two years in Ajaccio. They say he has never smiled in public.",
+   "gesprochen": "[clear throat] Commissioner Luciani is coming himself. Twenty-two years in Ajaccio. They say he has never smiled in public.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "casanova",
+   "text": "A lawyer from Lyon. In my village. For a fishing village, Monsieur, that is like sending a shark to a swimming pool.",
+   "gesprochen": "[sigh] A lawyer from Lyon. In my village. For a fishing village, Monsieur, that is like sending a shark to a swimming pool.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "sophia",
+   "text": "Darling, I looked him up. Delorme has never lost a case. Ten euros says he has never met a Corsican grandmother either.",
+   "gesprochen": "[chuckle] Darling, I looked him up. Delorme has never lost a case. Ten euros says he has never met a Corsican grandmother either.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "petru",
+   "text": "The lawyer has a boat in Lyon, they say. Lyon has no sea. Hm.",
+   "gesprochen": "[clear throat] The lawyer has a boat in Lyon, they say. Lyon has no sea. Hm.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "jana",
+   "text": "Sir, Lola says the commissioner can see lies. Like a shark sees blood. Sorry, is that true?",
+   "gesprochen": "[gasp] Sir, Lola says the commissioner can see lies. Like a shark sees blood. Sorry, is that true?",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "batu",
+   "text": "Last night the little lights fell into the sea. Like stars. My neighbour made a wish. I made two.",
+   "gesprochen": "[chuckle] Last night the little lights fell into the sea. Like stars. My neighbour made a wish. I made two.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "elsa",
+   "text": "I hear everything on that mast now, First Officer. Every drone, every word. I barely sleep. I'm not complaining.",
+   "gesprochen": "[clear throat] I hear everything on that mast now, First Officer. Every drone, every word. I barely sleep. I'm not complaining.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "petru",
+   "text": "No red light on the ridge. The night looks like the night again.",
+   "gesprochen": "[sigh] No red light on the ridge. The night looks like the night again.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "mina",
+   "text": "The red light is still blinking, Yacht. People whisper again when they pass under it. I know it's ours now. They don't.",
+   "gesprochen": "[sigh] The red light is still blinking, Yacht. People whisper again when they pass under it. I know it's ours now. They don't.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "lola",
+   "text": "Boss! The village says you climbed the mountain and punched a robot the size of a fridge. Mostly true?",
+   "gesprochen": "[laugh] Boss! The village says you climbed the mountain and punched a robot the size of a fridge. Mostly true?",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "danzel",
+   "text": "She climbed that ridge in the dark and switched the red light off. Charly. My... Charly. I'm going to sew her a medal.",
+   "gesprochen": "[gasp] She climbed that ridge in the dark and switched the red light off. Charly. My... Charly. I'm going to sew her a medal.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "rosi",
+   "text": "Officer. I checked the bat after the quay. Not one dent. The bat is fine. Your technique is a disaster, but the bat is fine.",
+   "gesprochen": "[chuckle] Officer. I checked the bat after the quay. Not one dent. The bat is fine. Your technique is a disaster, but the bat is fine.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "lola",
+   "text": "Mate, Alva's telling everyone you fought the dogs off on your own. Don't tell anyone I told you, but I reckon she fancies you a bit. Mostly the bat.",
+   "gesprochen": "[laugh] Mate, Alva's telling everyone you fought the dogs off on your own. Don't tell anyone I told you, but I reckon she fancies you a bit. Mostly the bat.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "maxwell",
+   "text": "Number One! The village says you knocked out a wild boar with one swing. Mr. Maximum is proud of you, brother. Mr. Maximum would also like to see the footwork.",
+   "gesprochen": "[laugh] Number One! The village says you knocked out a wild boar with one swing. Mr. Maximum is proud of you, brother. Mr. Maximum would also like to see the footwork.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "chiara",
+   "text": "On Tuesday the rats were twelve. Tonight at the bar they were forty, and one of them wore a little hat. I give the story a six. The hat was a nice touch.",
+   "gesprochen": "[sigh] On Tuesday the rats were twelve. Tonight at the bar they were forty, and one of them wore a little hat. I give the story a six. The hat was a nice touch.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "elsa",
+   "text": "First Officer. I have six statements about the harbour, and in four of them you are taller than you are. I am filing the other two.",
+   "gesprochen": "[clear throat] First Officer. I have six statements about the harbour, and in four of them you are taller than you are. I am filing the other two.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "sophia",
+   "text": "Darling, in the latest version you ride the boar up the town hall steps. Ten euros says that by Friday it's a bear.",
+   "gesprochen": "[chuckle] Darling, in the latest version you ride the boar up the town hall steps. Ten euros says that by Friday it's a bear.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "jana",
+   "text": "Sorry, Sir, sorry, is it true you threw the confetti cannon at the boar? Lola says yes and Chiara says don't ask, so I'm asking. Sorry.",
+   "gesprochen": "[gasp] Sorry, Sir, sorry, is it true you threw the confetti cannon at the boar? Lola says yes and Chiara says don't ask, so I'm asking. Sorry.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "danzel",
+   "text": "So you're the man who held the quay with a baseball bat. Three boars, they say. One boar, I say. And your jacket, if I may, was the real crime.",
+   "gesprochen": "[clear throat] So you're the man who held the quay with a baseball bat. Three boars, they say. One boar, I say. And your jacket, if I may, was the real crime.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "alva",
+   "text": "Look who it is, the man who saved my bar door with a stick. Your first drink is still free, o figliolu. The second one we can negotiate.",
+   "gesprochen": "[chuckle] Look who it is, the man who saved my bar door with a stick. Your first drink is still free, o figliolu. The second one we can negotiate.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "petru",
+   "text": "Hm. They say you threw the boar into the sea. You didn't. But my boat is still blue. Sit.",
+   "gesprochen": "[clear throat] Hm. They say you threw the boar into the sea. You didn't. But my boat is still blue. Sit.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "toto",
+   "text": "Comandante! In my version I was right beside you on the quay. Behind a crate, yes, but beside you. Strategically.",
+   "gesprochen": "[chuckle] Comandante! In my version I was right beside you on the quay. Behind a crate, yes, but beside you. Strategically.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "nonna",
+   "text": "So you're the one who fought three hundred rats with a broom. Sit down. A man who does that eats twice.",
+   "gesprochen": "[laugh] So you're the one who fought three hundred rats with a broom. Sit down. A man who does that eats twice.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "lea",
+   "text": "A lion, Duc. On Corsica. There have never been lions on Corsica, which means somebody brought one, and that's proper worse.",
+   "gesprochen": "[gasp] A lion, Duc. On Corsica. There have never been lions on Corsica, which means somebody brought one, and that's proper worse.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "casanova",
+   "text": "Monsieur. My father's spear. I gave it to you in front of everyone and I would do it again tomorrow. With better music.",
+   "gesprochen": "[sniff] Monsieur. My father's spear. I gave it to you in front of everyone and I would do it again tomorrow. With better music.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "siri",
+   "text": "Sorry, I keep thinking about the monks up there. You don't have to tell me anything. I just didn't want you to think nobody asked.",
+   "gesprochen": "[sigh] Sorry, I keep thinking about the monks up there. You don't have to tell me anything. I just didn't want you to think nobody asked.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "yasin",
+   "text": "Bro. Lion hunter. Do you know what that does on a thumbnail? Don't say anything, just stand next to the spear and look tired. That's business.",
+   "gesprochen": "[laugh] Bro. Lion hunter. Do you know what that does on a thumbnail? Don't say anything, just stand next to the spear and look tired. That's business.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "toto",
+   "text": "Comandante, at the harbour they say the lion was as big as a fishing boat. I said bigger. Now they believe me more than they believe you.",
+   "gesprochen": "[chuckle] Comandante, at the harbour they say the lion was as big as a fishing boat. I said bigger. Now they believe me more than they believe you.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "yamamoto",
+   "text": "Officer-san, so sorry. In the village they say you wrestled the lion and the lion apologised. Very interesting. I would like a photograph of the lion. From far away.",
+   "gesprochen": "[clear throat] Officer-san, so sorry. In the village they say you wrestled the lion and the lion apologised. Very interesting. I would like a photograph of the lion. From far away.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "chiara",
+   "text": "Alva's version is that you carried the lion home on your back and Nonna cooked it. I give it a three. Nonna would never cook a lion, it's too tough.",
+   "gesprochen": "[sigh] Alva's version is that you carried the lion home on your back and Nonna cooked it. I give it a three. Nonna would never cook a lion, it's too tough.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "bibi",
+   "text": "You let him go. He's out there now, somewhere in the macchia, lying in the sun with nobody telling him what to do. I bet he has a lovely life. Thank you, Duc. Really.",
+   "gesprochen": "[sniff] You let him go. He's out there now, somewhere in the macchia, lying in the sun with nobody telling him what to do. I bet he has a lovely life. Thank you, Duc. Really.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "bibi",
+   "text": "I still put out his bowl in the mornings. Isn't that stupid? He was this big when I got him, and now there's nothing left to feed. I keep waiting to hear him snore.",
+   "gesprochen": "[sniff] I still put out his bowl in the mornings. Isn't that stupid? He was this big when I got him, and now there's nothing left to feed. I keep waiting to hear him snore.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "nonna",
+   "text": "The boy brings the harvest down every morning now, and he says your name like it belongs to a saint. Don't let it go to your head. Eat.",
+   "gesprochen": "[sniff] The boy brings the harvest down every morning now, and he says your name like it belongs to a saint. Don't let it go to your head. Eat.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "nonna",
+   "text": "Sit. Don't talk. Some days a kitchen is only for being quiet in.",
+   "gesprochen": "[sigh] Sit. Don't talk. Some days a kitchen is only for being quiet in.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "isabelle",
+   "text": "Officer! Frederico carved you a lion. It has five legs, and he says the fifth one is for luck. I said nothing. I also want one.",
+   "gesprochen": "[gasp] Officer! Frederico carved you a lion. It has five legs, and he says the fifth one is for luck. I said nothing. I also want one.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "alva",
+   "text": "Half my bar says you killed the lion and the other half says you let it go. Tell me which, o figliolu, and I'll tell you which half pays tonight.",
+   "gesprochen": "[laugh] Half my bar says you killed the lion and the other half says you let it go. Tell me which, o figliolu, and I'll tell you which half pays tonight.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "rosi",
+   "text": "Officer. The village says the lion followed you home and sleeps in Nonna's barn now. If that's true, I'm building it a kennel. A big one.",
+   "gesprochen": "[chuckle] Officer. The village says the lion followed you home and sleeps in Nonna's barn now. If that's true, I'm building it a kennel. A big one.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "sophia",
+   "text": "Petru walked past me at the harbour this morning and nodded. Petru doesn't nod, darling. Whatever you did up there, he's counting it.",
+   "gesprochen": "[sigh] Petru walked past me at the harbour this morning and nodded. Petru doesn't nod, darling. Whatever you did up there, he's counting it.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "sophia",
+   "text": "Petru's shop has been dark for two days, and nobody in the village says your name near it. I'm only telling you because nobody else will.",
+   "gesprochen": "[sigh] Petru's shop has been dark for two days, and nobody in the village says your name near it. I'm only telling you because nobody else will.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "maxwell",
+   "text": "Brother, you climbed the whole mountain and came down with both legs. Mr. Maximum respects that. Mr. Maximum also wants to hear about the bridge.",
+   "gesprochen": "[chuckle] Brother, you climbed the whole mountain and came down with both legs. Mr. Maximum respects that. Mr. Maximum also wants to hear about the bridge.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "lola",
+   "text": "Mate, Alva says Petru cried. Petru! I didn't know he had water in him. Mostly salt, I reckon.",
+   "gesprochen": "[chuckle] Mate, Alva says Petru cried. Petru! I didn't know he had water in him. Mostly salt, I reckon.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "lea",
+   "text": "They're saying there's a bear up there the size of a car and you shook paws with it. Bears don't shake paws. That's proper rude of the village, to the bear.",
+   "gesprochen": "[chuckle] They're saying there's a bear up there the size of a car and you shook paws with it. Bears don't shake paws. That's proper rude of the village, to the bear.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "siri",
+   "text": "Sorry, is it true there's a black panther up there that only you can see? The baker's daughter told me. I'm scared and I also want to go.",
+   "gesprochen": "[gasp] Sorry, is it true there's a black panther up there that only you can see? The baker's daughter told me. I'm scared and I also want to go.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "petru",
+   "text": "Hm. On Sunday there is fish pie. You come. Don't bring anything.",
+   "gesprochen": "[clear throat] Hm. On Sunday there is fish pie. You come. Don't bring anything.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "petru",
+   "text": "Hm. She doesn't speak to you. She doesn't speak much to me either. Take what you need.",
+   "gesprochen": "[sigh] Hm. She doesn't speak to you. She doesn't speak much to me either. Take what you need.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "alva",
+   "text": "The tower story gets better every night, o figliolu. Tonight you climbed it without a rope. Tomorrow, I think, without trousers.",
+   "gesprochen": "[chuckle] The tower story gets better every night, o figliolu. Tonight you climbed it without a rope. Tomorrow, I think, without trousers.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "nonna",
+   "text": "They say you carried a soldier down the mountain over your shoulder, like a lamb. Sit down. Carrying soldiers makes a man hungry.",
+   "gesprochen": "[laugh] They say you carried a soldier down the mountain over your shoulder, like a lamb. Sit down. Carrying soldiers makes a man hungry.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "toto",
+   "text": "Comandante. You went in with the tide coming. Nobody does that for my family. Nobody. I don't forget things like that.",
+   "gesprochen": "[sigh] Comandante. You went in with the tide coming. Nobody does that for my family. Nobody. I don't forget things like that.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "lea",
+   "text": "You went past the third step. I watched the water from the deck the whole time, counting. Don't do that again. Or do, but tell me first.",
+   "gesprochen": "[sniff] You went past the third step. I watched the water from the deck the whole time, counting. Don't do that again. Or do, but tell me first.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "maxwell",
+   "text": "Number One goes into a cave full of smugglers and comes back with a cousin! Eish. Mr. Maximum goes to the shop and comes back with milk.",
+   "gesprochen": "[laugh] Number One goes into a cave full of smugglers and comes back with a cousin! Eish. Mr. Maximum goes to the shop and comes back with milk.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "rosi",
+   "text": "The village says there were rails in that cave and you rode a mine cart out of it. Officer, if there's a mine cart, I want it. For science.",
+   "gesprochen": "[chuckle] The village says there were rails in that cave and you rode a mine cart out of it. Officer, if there's a mine cart, I want it. For science.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "sophia",
+   "text": "The new version: you found the smugglers' treasure and gave all of it to the church. Ten euros says the priest believes it.",
+   "gesprochen": "[chuckle] The new version: you found the smugglers' treasure and gave all of it to the church. Ten euros says the priest believes it.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "alva",
+   "text": "Totò was in here last night and didn't make a single bet. Not one. Whatever happened in that cave, o figliolu, it got to him.",
+   "gesprochen": "[sigh] Totò was in here last night and didn't make a single bet. Not one. Whatever happened in that cave, o figliolu, it got to him.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "lola",
+   "text": "Boss! They're saying you swam out of that cave with a smuggler on your back. Don't tell anyone I told you, but I already told Chiara it was two.",
+   "gesprochen": "[gasp] Boss! They're saying you swam out of that cave with a smuggler on your back. Don't tell anyone I told you, but I already told Chiara it was two.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "petru",
+   "text": "Hm. My grandfather said nobody comes out of that cave with the tide. You did. So my grandfather was wrong. First time.",
+   "gesprochen": "[clear throat] Hm. My grandfather said nobody comes out of that cave with the tide. You did. So my grandfather was wrong. First time.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "sophia",
+   "text": "You came back at three in the morning, soaking wet and smelling of the sea, darling. Chiara has a theory. I have a bet.",
+   "gesprochen": "[chuckle] You came back at three in the morning, soaking wet and smelling of the sea, darling. Chiara has a theory. I have a bet.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "chiara",
+   "text": "First Officer. You took the tender out alone, at night, against my rota. I give the idea a two. Whatever you found out there, I'm still deciding.",
+   "gesprochen": "[sigh] First Officer. You took the tender out alone, at night, against my rota. I give the idea a two. Whatever you found out there, I'm still deciding.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "yasin",
+   "text": "Bro, the village says there's a mermaid. If there's a mermaid and you didn't film her, we need to talk about your priorities.",
+   "gesprochen": "[laugh] Bro, the village says there's a mermaid. If there's a mermaid and you didn't film her, we need to talk about your priorities.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "jana",
+   "text": "Sorry, Sir. Lola says your new girlfriend is half a fish. Is it the top half or the bottom half? Sorry. Na geh, forget I asked.",
+   "gesprochen": "[gasp] Sorry, Sir. Lola says your new girlfriend is half a fish. Is it the top half or the bottom half? Sorry. Na geh, forget I asked.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "petru",
+   "text": "Hm. Last night there was singing from the point. My grandfather heard it once, in nineteen twenty-four. You were out there. Hm.",
+   "gesprochen": "[clear throat] Hm. Last night there was singing from the point. My grandfather heard it once, in nineteen twenty-four. You were out there. Hm.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "alva",
+   "text": "Somebody saw you rowing out alone at night, o figliolu. Half the village thinks you have a lover in the rocks, and the other half thinks you're mad. I'm in both halves.",
+   "gesprochen": "[chuckle] Somebody saw you rowing out alone at night, o figliolu. Half the village thinks you have a lover in the rocks, and the other half thinks you're mad. I'm in both halves.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "nonna",
+   "text": "They say a woman sings in the sea and you sang back. My mother had a word for men who sing back. Eat first, then I'll tell you.",
+   "gesprochen": "[sigh] They say a woman sings in the sea and you sang back. My mother had a word for men who sing back. Eat first, then I'll tell you.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "lea",
+   "text": "You got page forty back! Kevin's going to be furious, proper furious. I'm going to frame it. The page, not Kevin.",
+   "gesprochen": "[laugh] You got page forty back! Kevin's going to be furious, proper furious. I'm going to frame it. The page, not Kevin.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "lola",
+   "text": "Mate, my good fork was in that nest. My good fork! Kevin's a thief and you're a hero. Mostly a hero.",
+   "gesprochen": "[chuckle] Mate, my good fork was in that nest. My good fork! Kevin's a thief and you're a hero. Mostly a hero.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "rosi",
+   "text": "Officer. They say you screamed at a seagull from the bell tower until the seagull left. I respect it. That's how I talk to the generator.",
+   "gesprochen": "[chuckle] Officer. They say you screamed at a seagull from the bell tower until the seagull left. I respect it. That's how I talk to the generator.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "siri",
+   "text": "Sorry, the whole village watched you on the church roof? Yasin is so annoyed he missed it. I'm a little bit proud of you, actually.",
+   "gesprochen": "[gasp] Sorry, the whole village watched you on the church roof? Yasin is so annoyed he missed it. I'm a little bit proud of you, actually.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "yamamoto",
+   "text": "Officer-san, so sorry. I have photographed this seagull for many days, and you defeated him in one afternoon. Very interesting. May I photograph you instead?",
+   "gesprochen": "[chuckle] Officer-san, so sorry. I have photographed this seagull for many days, and you defeated him in one afternoon. Very interesting. May I photograph you instead?",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "maxwell",
+   "text": "Brother! In the village they say the seagull challenged you to a duel and you won on points. Mr. Maximum demands a rematch. With the seagull.",
+   "gesprochen": "[laugh] Brother! In the village they say the seagull challenged you to a duel and you won on points. Mr. Maximum demands a rematch. With the seagull.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "chiara",
+   "text": "The bar says you rang the church bell with your head to scare the bird away. I give the story a nine. I give you a four.",
+   "gesprochen": "[sigh] The bar says you rang the church bell with your head to scare the bird away. I give the story a nine. I give you a four.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "charly",
+   "text": "You fought a seagull on a church. Three out of ten. The seagull was a seven.",
+   "gesprochen": "[sigh] You fought a seagull on a church. Three out of ten. The seagull was a seven.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "alva",
+   "text": "You went out through my attic window and came back through it with feathers in your hair. Best thing that's happened in that attic in years, o figliolu.",
+   "gesprochen": "[laugh] You went out through my attic window and came back through it with feathers in your hair. Best thing that's happened in that attic in years, o figliolu.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "toto",
+   "text": "Comandante! My lighter! You found my lighter in the nest! I bet the whole crew it was gone forever. I lost, and I've never been so happy losing.",
+   "gesprochen": "[chuckle] Comandante! My lighter! You found my lighter in the nest! I bet the whole crew it was gone forever. I lost, and I've never been so happy losing.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "petru",
+   "text": "Hm. The gull. I tried for six years. You, one afternoon. Hm.",
+   "gesprochen": "[clear throat] Hm. The gull. I tried for six years. You, one afternoon. Hm.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "isabelle",
+   "text": "Officer! Frederico says you can talk to birds now. He wants you to tell the pigeons to stop sitting on my herbs. I want that too, honestly.",
+   "gesprochen": "[gasp] Officer! Frederico says you can talk to birds now. He wants you to tell the pigeons to stop sitting on my herbs. I want that too, honestly.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "alva",
+   "text": "They say you went up into the macchia after three people in red and came back with a red jacket and no answers for anyone. Not even for me, o figliolu, and I always get the answers.",
+   "gesprochen": "[sigh] They say you went up into the macchia after three people in red and came back with a red jacket and no answers for anyone. Not even for me, o figliolu, and I always get the answers.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "elsa",
+   "text": "First Officer. I have three statements from the macchia on my desk. They are long, and they are honest, and I don't like any of them. Thank you for bringing them.",
+   "gesprochen": "[clear throat] First Officer. I have three statements from the macchia on my desk. They are long, and they are honest, and I don't like any of them. Thank you for bringing them.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "elsa",
+   "text": "First Officer. I have one statement from the macchia on my desk. One. I have read it twice, because there is nothing else to read.",
+   "gesprochen": "[sigh] First Officer. I have one statement from the macchia on my desk. One. I have read it twice, because there is nothing else to read.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "lola",
+   "text": "Mate, the village says you beat three ninjas in red and then made them all a cup of tea. Don't tell anyone I told you, but I reckon the tea won. Mostly the biscuits.",
+   "gesprochen": "[laugh] Mate, the village says you beat three ninjas in red and then made them all a cup of tea. Don't tell anyone I told you, but I reckon the tea won. Mostly the biscuits.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "pascal",
+   "text": "I told them about the boar again, Duc. It's bigger now. You're welcome. Madame says the steps have never looked so heroic.",
+   "gesprochen": "[chuckle] I told them about the boar again, Duc. It's bigger now. You're welcome. Madame says the steps have never looked so heroic.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "pascal",
+   "text": "Duc. I heard what you found up there. You don't have to talk about it. If you need anything for the brothers, leave it with me.",
+   "gesprochen": "[sigh] Duc. I heard what you found up there. You don't have to talk about it. If you need anything for the brothers, leave it with me.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "pascal",
+   "text": "The village says you carried Petru's daughter down the mountain on your back. I didn't correct them. Petru didn't either, and from Petru that's a speech.",
+   "gesprochen": "[chuckle] The village says you carried Petru's daughter down the mountain on your back. I didn't correct them. Petru didn't either, and from Petru that's a speech.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "pascal",
+   "text": "Now the gull has a sword, I'm told. I've written it in the town minutes. Somebody should.",
+   "gesprochen": "[laugh] Now the gull has a sword, I'm told. I've written it in the town minutes. Somebody should.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "mina",
+   "text": "They say you hit the boar so hard it flew over the church! I don't spread it. I just deliver it. Everywhere. Very fast.",
+   "gesprochen": "[laugh] They say you hit the boar so hard it flew over the church! I don't spread it. I just deliver it. Everywhere. Very fast.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "mina",
+   "text": "Nonna gave me double cake this week. She never does that. So I know it was you who went up there. Thanks.",
+   "gesprochen": "[sigh] Nonna gave me double cake this week. She never does that. So I know it was you who went up there. Thanks.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "mina",
+   "text": "People want me to deliver letters to your smugglers' cave now. I told them no. Then I asked how much.",
+   "gesprochen": "[chuckle] People want me to deliver letters to your smugglers' cave now. I told them no. Then I asked how much.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "mina",
+   "text": "I saw you on the bell tower from the Vespa! You screamed at a seagull, and the seagull won on points!",
+   "gesprochen": "[laugh] I saw you on the bell tower from the Vespa! You screamed at a seagull, and the seagull won on points!",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "batu",
+   "text": "They say you fought a bear with a stick. You? So thin? Eat first. Then you tell me about the bear.",
+   "gesprochen": "[clear throat] They say you fought a bear with a stick. You? So thin? Eat first. Then you tell me about the bear.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "batu",
+   "text": "Fiora told me what you did on the mountain, con. She doesn't say thank you, so I say it. Sit. I made too much.",
+   "gesprochen": "[sigh] Fiora told me what you did on the mountain, con. She doesn't say thank you, so I say it. Sit. I made too much.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "batu",
+   "text": "Petru's girl is home, and they say because of you. Good. Now I can ask her when the baby is coming.",
+   "gesprochen": "[chuckle] Petru's girl is home, and they say because of you. Good. Now I can ask her when the baby is coming.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "sandru",
+   "text": "Ha, the boar again. In my shop they say you rode it. I'd have liked to see that. I'd have liked to do that, actually.",
+   "gesprochen": "[laugh] Ha, the boar again. In my shop they say you rode it. I'd have liked to see that. I'd have liked to do that, actually.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "sandru",
+   "text": "Ha, sorry, people keep asking me if we sell treasure maps now. We don't. I checked the system. I checked twice.",
+   "gesprochen": "[laugh] Ha, sorry, people keep asking me if we sell treasure maps now. We don't. I checked the system. I checked twice.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "sandru",
+   "text": "Ha. You went up the tower, the whole way up, on your own legs. Sorry. It's nice, that's all. Do you need a bag?",
+   "gesprochen": "[chuckle] Ha. You went up the tower, the whole way up, on your own legs. Sorry. It's nice, that's all. Do you need a bag?",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "anghjulu",
+   "text": "Yes, yes, the bell was wrong that day. I was praying, my son. Very deeply. Let's talk about the boar instead.",
+   "gesprochen": "[cough] Yes, yes, the bell was wrong that day. I was praying, my son. Very deeply. Let's talk about the boar instead.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "anghjulu",
+   "text": "You went up to the brothers, my son. Somebody had to. Cut the cards, will you? My hands aren't good today.",
+   "gesprochen": "[sigh] You went up to the brothers, my son. Somebody had to. Cut the cards, will you? My hands aren't good today.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "anghjulu",
+   "text": "They say you gave the whole smugglers' treasure to the church. I believe it, my son. I believe it very much. When does it arrive?",
+   "gesprochen": "[chuckle] They say you gave the whole smugglers' treasure to the church. I believe it, my son. I believe it very much. When does it arrive?",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "anghjulu",
+   "text": "My son, you fought that devil on my tower! Fourteen years I've tried! Next time take wine up there, it helps the aim.",
+   "gesprochen": "[laugh] My son, you fought that devil on my tower! Fourteen years I've tried! Next time take wine up there, it helps the aim.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "elsa",
+   "text": "First Officer. For my report about the animals in the harbour.",
+   "gesprochen": "[clear throat] First Officer. For my report about the animals in the harbour.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "elsa",
+   "text": "The bar says forty rats. The mayor says two hundred. How many rats were there?",
+   "gesprochen": "[sigh] The bar says forty rats. The mayor says two hundred. How many rats were there?",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "elsa",
+   "text": "Twelve. Thank you. You are the first person in this village who has given me a number.",
+   "gesprochen": "[sigh] Twelve. Thank you. You are the first person in this village who has given me a number.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "elsa",
+   "text": "I will write two hundred. Then I will write that you said it.",
+   "gesprochen": "[clear throat] I will write two hundred. Then I will write that you said it.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "elsa",
+   "text": "I asked Petru. He said hm. That is his entire statement.",
+   "gesprochen": "[chuckle] I asked Petru. He said hm. That is his entire statement.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "jana",
+   "text": "sorry sir. is it true you have a lion spear now?? 😳",
+   "gesprochen": "[gasp] sorry sir. is it true you have a lion spear now?? 😳",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "jana",
+   "text": "coach says you'll train with it and I can watch if I'm quiet. I'm always quiet. sorry. jessas",
+   "gesprochen": "[sigh] coach says you'll train with it and I can watch if I'm quiet. I'm always quiet. sorry. jessas",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "jana",
+   "text": "ok. a normal spear. from a lion story. very normal 😅",
+   "gesprochen": "[chuckle] ok. a normal spear. from a lion story. very normal 😅",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "jana",
+   "text": "REALLY?? sorry. yes. thank you. I won't drop it. probably 🙏",
+   "gesprochen": "[gasp] REALLY?? sorry. yes. thank you. I won't drop it. probably 🙏",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "lola",
+   "text": "boss is it true there's a BEAR up there 🐻🐻🐻",
+   "gesprochen": "[gasp] boss is it true there's a BEAR up there 🐻🐻🐻",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "lola",
+   "text": "alva says you looked it in the eye and it went home. did it go home?? does it have a home?? 😭",
+   "gesprochen": "[laugh] alva says you looked it in the eye and it went home. did it go home?? does it have a home?? 😭",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "lola",
+   "text": "I KNEW it. I'm making it a honey cake. you're delivering it, mate 🍯",
+   "gesprochen": "[laugh] I KNEW it. I'm making it a honey cake. you're delivering it, mate 🍯",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "lola",
+   "text": "boo. you're no fun. there was a bear in my heart 🐻",
+   "gesprochen": "[sigh] boo. you're no fun. there was a bear in my heart 🐻",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "siri",
+   "text": "sorry, is it true you went into the smugglers' cave? 🥺",
+   "gesprochen": "[sigh] sorry, is it true you went into the smugglers' cave? 🥺",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "siri",
+   "text": "yasin wants to film in there. I said no. I think I'm allowed to say no now? sorry",
+   "gesprochen": "[gasp] yasin wants to film in there. I said no. I think I'm allowed to say no now? sorry",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "siri",
+   "text": "ok. I'll tell him you said it. no, I'll tell him I said it 💛",
+   "gesprochen": "[sniff] ok. I'll tell him you said it. no, I'll tell him I said it 💛",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "siri",
+   "text": "I'm stealing that. sorry. I'm stealing it anyway",
+   "gesprochen": "[laugh] I'm stealing that. sorry. I'm stealing it anyway",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "lea",
+   "text": "duc. is it true you found a siren in the grotto?? a proper siren?? 🐚",
+   "gesprochen": "[gasp] duc. is it true you found a siren in the grotto?? a proper siren?? 🐚",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "lea",
+   "text": "ok I have questions. does she breathe air or water. is there a swim bladder. is she a human or a fish. can I see her. I'll be quiet. mostly 🙏",
+   "gesprochen": "[sigh] ok I have questions. does she breathe air or water. is there a swim bladder. is she a human or a fish. can I see her. I'll be quiet. mostly 🙏",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "lea",
+   "text": "mostly human is the best answer and the worst data 😭 I need to see her",
+   "gesprochen": "[laugh] mostly human is the best answer and the worst data 😭 I need to see her",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "lea",
+   "text": "no. you're right. sorry. I'd still like to say hello one day. just hello 🌊",
+   "gesprochen": "[sniff] no. you're right. sorry. I'd still like to say hello one day. just hello 🌊",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "lea",
+   "text": "fishing. at three in the morning. with no rod. ok duc 🐟",
+   "gesprochen": "[chuckle] fishing. at three in the morning. with no rod. ok duc 🐟",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "casanova",
+   "text": "Monsieur. Three people have told me there was a man on my bell tower, screaming at a seagull.",
+   "gesprochen": "[clear throat] Monsieur. Three people have told me there was a man on my bell tower, screaming at a seagull.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "casanova",
+   "text": "I have only one question, and I want you to think about the answer. Did. You. Win?",
+   "gesprochen": "[sigh] I have only one question, and I want you to think about the answer. Did. You. Win?",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "casanova",
+   "text": "MAGNIFICENT! This goes into my speech for the Festa. With pauses.",
+   "gesprochen": "[laugh] MAGNIFICENT! This goes into my speech for the Festa. With pauses.",
+   "quelle": "legenden"
+  },
+  {
+   "wer": "casanova",
+   "text": "A draw. With a seagull. I will say you won, Monsieur. Nobody checks speeches.",
+   "gesprochen": "[sigh] A draw. With a seagull. I will say you won, Monsieur. Nobody checks speeches.",
+   "quelle": "legenden"
   }
  ]
 }
