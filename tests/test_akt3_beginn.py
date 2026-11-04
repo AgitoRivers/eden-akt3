@@ -42,7 +42,7 @@ def main():
 
     # Zweite Fenster (wann.akt2) fuer Akt 3 beginnen an Tag 24
     spaet = {i: e["wann"]["akt2"] for i, e in EV.items() if e["wann"].get("akt2") and e["wann"]["akt2"][0] > 8}
-    pruefen(spaet and all(w == [AKT3_AB, 35] for w in spaet.values()), "%d Akt-3-Fenster, alle [24, 35]" % len(spaet))
+    pruefen(spaet and all(w[0] == AKT3_AB and w[1] <= 35 for w in spaet.values()), "%d Akt-3-Fenster, alle ab Tag 24" % len(spaet))   # Sandrus Name bis 31 (vor Switched Off)
     pruefen(not any(e["wann"]["tage"][0] == 22 for i, e in EV.items() if not i.startswith("bl_")), "kein Nicht-bl_-Event startet an Tag 22")
 
     # Daten: Rosis groesste Tasche und Stahl aus Maschinen erst in Akt 3
