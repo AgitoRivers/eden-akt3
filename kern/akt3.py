@@ -94,6 +94,19 @@ def ende(z):
 BESUCH = {"petru": ["tafel"], "alva": ["getraenk"], "angeln": ["fang"], "kochen": ["topf", "menue"], "nonna": ["garten"]}
 
 
+SZENEN_BESUCH = {"petru": [("a3_petru_netz", 25)]}   # Petrus Netz beim Werkstattbesuch (ereignisse_akt3_petru.py)
+
+
+def szene_besuch(z, wo):
+    """-> Frame einer kleinen Szene beim Besuch (ohne Phase), wenn kein Los kommt, oder None."""
+    if z.get("status") != "wahl" or "akt2_ende" not in z.get("flags", []):
+        return None
+    for eid, ab in SZENEN_BESUCH.get(wo, []):
+        if z.get("tag", 0) >= ab and eid not in z.get("flags", []):
+            return eid
+    return None
+
+
 def los_besuch(z, moddir, wo):
     """-> Frame-ID eines offenen Loses fuer diesen Besuch, oder None. Bedingungen wie an der Tafel (auftraege.json)."""
     if z.get("status") != "wahl" or "akt2_ende" not in z.get("flags", []) or wo not in BESUCH:

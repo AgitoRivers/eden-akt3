@@ -27833,8 +27833,8 @@
   },
   {
    "wer": "petru",
-   "text": "Hm. Here. Wood first. Then we talk.",
-   "gesprochen": "[clear throat] Hm. Here. Wood first. Then we talk.",
+   "text": "Here. Wood first, then we talk. A house is like a boat. You start with the bones.",
+   "gesprochen": "[clear throat] Here. Wood first, then we talk. A house is like a boat. You start with the bones.",
    "quelle": "akt3_woche4"
   },
   {
@@ -27935,8 +27935,8 @@
   },
   {
    "wer": "petru",
-   "text": "Hm. The rudder stays. Burned or not.",
-   "gesprochen": "[clear throat] Hm. The rudder stays. Burned or not.",
+   "text": "The rudder stays over the door. My grandfather steered with it in 1924. Burned wood still knows the way home.",
+   "gesprochen": "[clear throat] The rudder stays over the door. My grandfather steered with it in 1924. Burned wood still knows the way home.",
    "quelle": "akt3_woche4"
   },
   {
@@ -27947,20 +27947,20 @@
   },
   {
    "wer": "petru",
-   "text": "Hm. A new boat. ...Then I talk.",
-   "gesprochen": "[clear throat] Hm. A new boat. ...Then I talk.",
+   "text": "A new boat. You don't know how to build a boat. ...I'll teach you. Then I talk.",
+   "gesprochen": "[chuckle] A new boat. You don't know how to build a boat. ...I'll teach you. Then I talk.",
    "quelle": "akt3_woche4"
   },
   {
    "wer": "petru",
-   "text": "Hm. I decide. I talk.",
-   "gesprochen": "[sigh] Hm. I decide. I talk.",
+   "text": "Nobody asked me that since Marie. I decide. I talk.",
+   "gesprochen": "[sigh] Nobody asked me that since Marie. I decide. I talk.",
    "quelle": "akt3_woche4"
   },
   {
    "wer": "petru",
-   "text": "Hm. Good.",
-   "gesprochen": "[clear throat] Hm. Good.",
+   "text": "You hold it like a fisherman now. Good. ...I'll talk to them.",
+   "gesprochen": "[clear throat] You hold it like a fisherman now. Good. ...I'll talk to them.",
    "quelle": "akt3_woche4"
   },
   {
@@ -28643,8 +28643,8 @@
   },
   {
    "wer": "petru",
-   "text": "Hm. Again.",
-   "gesprochen": "[clear throat] Hm. Again.",
+   "text": "The sea doesn't hurry. Neither do bottles. Again.",
+   "gesprochen": "[clear throat] The sea doesn't hurry. Neither do bottles. Again.",
    "quelle": "akt3_woche4"
   },
   {
@@ -28673,20 +28673,20 @@
   },
   {
    "wer": "petru",
-   "text": "Hm. The commission. You want me to sign my name. I saw the torches at my workshop, and who stayed. A.V. has the loan on my boat. So tell me why.",
-   "gesprochen": "[clear throat] Hm. The commission. You want me to sign my name. I saw the torches at my workshop, and who stayed. A.V. has the loan on my boat. So tell me why.",
+   "text": "The commission. You want me to sign my name. My father signed his name once, for a bank. They took his boat. I saw the torches at my workshop, and who stayed. A.V. has the loan on my boat. So tell me why.",
+   "gesprochen": "[clear throat] The commission. You want me to sign my name. My father signed his name once, for a bank. They took his boat. I saw the torches at my workshop, and who stayed. A.V. has the loan on my boat. So tell me why.",
    "quelle": "akt3_lose"
   },
   {
    "wer": "petru",
-   "text": "Hm. That's a reason.",
-   "gesprochen": "[sigh] Hm. That's a reason.",
+   "text": "That's a reason. A good one. Marie would like it.",
+   "gesprochen": "[sigh] That's a reason. A good one. Marie would like it.",
    "quelle": "akt3_lose"
   },
   {
    "wer": "petru",
-   "text": "Hm. That's also a reason. A worse one.",
-   "gesprochen": "[clear throat] Hm. That's also a reason. A worse one.",
+   "text": "That's also a reason. A worse one. But true, like a cold wind.",
+   "gesprochen": "[clear throat] That's also a reason. A worse one. But true, like a cold wind.",
    "quelle": "akt3_lose"
   },
   {
@@ -28805,14 +28805,14 @@
   },
   {
    "wer": "petru",
-   "text": "Hm. The wood from my old boat, or the beams from the burned houses?",
-   "gesprochen": "[clear throat] Hm. The wood from my old boat, or the beams from the burned houses?",
+   "text": "Two piles. The wood from my old boat, the one Marie named. Or the beams from the burned houses. Which one?",
+   "gesprochen": "[clear throat] Two piles. The wood from my old boat, the one Marie named. Or the beams from the burned houses. Which one?",
    "quelle": "akt3_lose"
   },
   {
    "wer": "petru",
-   "text": "Hm. She'd like that.",
-   "gesprochen": "[sigh] Hm. She'd like that.",
+   "text": "Marie named her Stella. Now Stella feeds the whole village. She'd like that.",
+   "gesprochen": "[sigh] Marie named her Stella. Now Stella feeds the whole village. She'd like that.",
    "quelle": "akt3_lose"
   },
   {
@@ -30731,14 +30731,20 @@
   },
   {
    "wer": "petru",
-   "text": "Hm. My old boat. Now she holds the whole village.",
-   "gesprochen": "[clear throat] Hm. My old boat. Now she holds the whole village.",
+   "text": "Stella, my old boat. Now she holds the whole village. Mind the plates, she leaks a little.",
+   "gesprochen": "[clear throat] Stella, my old boat. Now she holds the whole village. Mind the plates, she leaks a little.",
    "quelle": "akt3_finale"
   },
   {
    "wer": "petru",
-   "text": "Hm. Black wood. Last week it was a house.",
-   "gesprochen": "[clear throat] Hm. Black wood. Last week it was a house.",
+   "text": "Black wood. Last week it was a house. Now people eat on it. That's the sea's way too.",
+   "gesprochen": "[clear throat] Black wood. Last week it was a house. Now people eat on it. That's the sea's way too.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "petru",
+   "text": "And over the table: the net. Every name that spoke is in a knot. Tie well, and the sea keeps it.",
+   "gesprochen": "[sigh] And over the table: the net. Every name that spoke is in a knot. Tie well, and the sea keeps it.",
    "quelle": "akt3_finale"
   },
   {
@@ -31075,6 +31081,30 @@
    "wer": "danzel",
    "text": "You left us alone in the shop. Thank you. I cried into a curtain. It's a good curtain.",
    "gesprochen": "[sniff] You left us alone in the shop. Thank you. I cried into a curtain. It's a good curtain.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "laetitia",
+   "text": "Papa. You wrote 'I need you'. All my life you never said it.",
+   "gesprochen": "[sniff] Papa. You wrote 'I need you'. All my life you never said it.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "laetitia",
+   "text": "Papa. You asked me to come. So I came. Is there fish pie?",
+   "gesprochen": "[chuckle] Papa. You asked me to come. So I came. Is there fish pie?",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "laetitia",
+   "text": "Papa. A bay leaf in the milk. You remembered Mama's secret. I'm here.",
+   "gesprochen": "[sniff] Papa. A bay leaf in the milk. You remembered Mama's secret. I'm here.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "mina",
+   "text": "Petru! A postcard from the mountains, just now. One line: Me too, Papa.",
+   "gesprochen": "[clear throat] Petru! A postcard from the mountains, just now. One line: Me too, Papa.",
    "quelle": "akt3_finale"
   },
   {
@@ -31418,6 +31448,138 @@
    "text": "...Cheers, Monsieur.",
    "gesprochen": "[sigh] ...Cheers, Monsieur.",
    "quelle": "akt3_finale"
+  },
+  {
+   "wer": "petru",
+   "text": "Marie used to say I mend this net so my hands don't think. She was right. She was always right, except about the fish pie. Mine was never as good as hers.",
+   "gesprochen": "[clear throat] Marie used to say I mend this net so my hands don't think. She was right. She was always right, except about the fish pie. Mine was never as good as hers.",
+   "quelle": "akt3_petru"
+  },
+  {
+   "wer": "petru",
+   "text": "Five years. Every afternoon. Not one hole in it. ...Sit. If you sit, you hold the other end.",
+   "gesprochen": "[sigh] Five years. Every afternoon. Not one hole in it. ...Sit. If you sit, you hold the other end.",
+   "quelle": "akt3_petru"
+  },
+  {
+   "wer": "petru",
+   "text": "Good. ...After the festa I give this net away. The people who spoke, their names go in the knots. The sea keeps what you tie well.",
+   "gesprochen": "[sigh] Good. ...After the festa I give this net away. The people who spoke, their names go in the knots. The sea keeps what you tie well.",
+   "quelle": "akt3_petru"
+  },
+  {
+   "wer": "petru",
+   "text": "Because one day it breaks. And then my hands know it already. ...This one is for the village now. For names. You'll see.",
+   "gesprochen": "[clear throat] Because one day it breaks. And then my hands know it already. ...This one is for the village now. For names. You'll see.",
+   "quelle": "akt3_petru"
+  },
+  {
+   "wer": "petru",
+   "text": "A bay leaf in the milk. That was her secret. Nobody else knows it. Now you. ...Don't tell Alva.",
+   "gesprochen": "[sniff] A bay leaf in the milk. That was her secret. Nobody else knows it. Now you. ...Don't tell Alva.",
+   "quelle": "akt3_petru"
+  },
+  {
+   "wer": "rosi",
+   "text": "Petru! Your octopus has my screws. All of them.",
+   "gesprochen": "[gasp] Petru! Your octopus has my screws. All of them.",
+   "quelle": "akt3_petru"
+  },
+  {
+   "wer": "petru",
+   "text": "Bastianu does not steal. He borrows. Like the sea. Everything comes back, eventually.",
+   "gesprochen": "[clear throat] Bastianu does not steal. He borrows. Like the sea. Everything comes back, eventually.",
+   "quelle": "akt3_petru"
+  },
+  {
+   "wer": "rosi",
+   "text": "Eventually? I need them now. ...He's screwing the lid back on. From the inside. That's a talent.",
+   "gesprochen": "[sigh] Eventually? I need them now. ...He's screwing the lid back on. From the inside. That's a talent.",
+   "quelle": "akt3_petru"
+  },
+  {
+   "wer": "petru",
+   "text": "A fair trade. He likes you. He doesn't like many people.",
+   "gesprochen": "[chuckle] A fair trade. He likes you. He doesn't like many people.",
+   "quelle": "akt3_petru"
+  },
+  {
+   "wer": "rosi",
+   "text": "Unit-01 is jealous already.",
+   "gesprochen": "[laugh] Unit-01 is jealous already.",
+   "quelle": "akt3_petru"
+  },
+  {
+   "wer": "batu",
+   "text": "Fish stew. With fish sauce. You said the first one smelled like a harbour at noon.",
+   "gesprochen": "[clear throat] Fish stew. With fish sauce. You said the first one smelled like a harbour at noon.",
+   "quelle": "akt3_petru"
+  },
+  {
+   "wer": "petru",
+   "text": "It did. Now I wait for it. The whole week. ...Here. Two mullet. From this morning.",
+   "gesprochen": "[chuckle] It did. Now I wait for it. The whole week. ...Here. Two mullet. From this morning.",
+   "quelle": "akt3_petru"
+  },
+  {
+   "wer": "batu",
+   "text": "He gives me fish, I give him fish. We are two old idiots, con. Eat with us.",
+   "gesprochen": "[sigh] He gives me fish, I give him fish. We are two old idiots, con. Eat with us.",
+   "quelle": "akt3_petru"
+  },
+  {
+   "wer": "petru",
+   "text": "Marie would like her. She would not say so. Like me.",
+   "gesprochen": "[sigh] Marie would like her. She would not say so. Like me.",
+   "quelle": "akt3_petru"
+  },
+  {
+   "wer": "batu",
+   "text": "A date! He has the Norwegian for that. I have the stew. Eat.",
+   "gesprochen": "[laugh] A date! He has the Norwegian for that. I have the stew. Eat.",
+   "quelle": "akt3_petru"
+  },
+  {
+   "wer": "petru",
+   "text": "My daughter. She doesn't talk to you since the mountains, I know. To me she writes once a year. I want to say something to her. I am bad with paper.",
+   "gesprochen": "[sigh] My daughter. She doesn't talk to you since the mountains, I know. To me she writes once a year. I want to say something to her. I am bad with paper.",
+   "quelle": "akt3_petru"
+  },
+  {
+   "wer": "petru",
+   "text": "You took her over the sea, that night. I was angry. Her card made me less angry. Now I want to write back. I am bad with paper.",
+   "gesprochen": "[clear throat] You took her over the sea, that night. I was angry. Her card made me less angry. Now I want to write back. I am bad with paper.",
+   "quelle": "akt3_petru"
+  },
+  {
+   "wer": "petru",
+   "text": "She is up there, in the Bergerie, with him. Happy, I think. I want to ask her to come down for the festa. I am bad with paper.",
+   "gesprochen": "[sigh] She is up there, in the Bergerie, with him. Happy, I think. I want to ask her to come down for the festa. I am bad with paper.",
+   "quelle": "akt3_petru"
+  },
+  {
+   "wer": "petru",
+   "text": "All her life I never told her I need her. What do I write?",
+   "gesprochen": "[clear throat] All her life I never told her I need her. What do I write?",
+   "quelle": "akt3_petru"
+  },
+  {
+   "wer": "petru",
+   "text": "Three words. The sea is bigger, and it is easier.",
+   "gesprochen": "[sniff] Three words. The sea is bigger, and it is easier.",
+   "quelle": "akt3_petru"
+  },
+  {
+   "wer": "mina",
+   "text": "Express, Petru. For you, express. No charge.",
+   "gesprochen": "[chuckle] Express, Petru. For you, express. No charge.",
+   "quelle": "akt3_petru"
+  },
+  {
+   "wer": "petru",
+   "text": "Her mother's secret. ...Yes. She will understand that better than words.",
+   "gesprochen": "[sigh] Her mother's secret. ...Yes. She will understand that better than words.",
+   "quelle": "akt3_petru"
   }
  ]
 }

@@ -128,7 +128,7 @@ BAU_ZEILE = {
     "post": G("mina", "[chuckle] You want to start here? With my post office? Okay. I'll hold the bike. It's what I do.", "gratitude"),
     "batu": G("batu", "[sigh] Here, con? First you eat. Then you carry. Then you eat again.", "caring"),
     "bar": G("alva", "[cough] My bar first? ...Don't tell anyone I said thank you. I didn't.", "gratitude"),
-    "werkstatt": G("petru", "[clear throat] Hm. Here. Wood first. Then we talk.", "approval"),
+    "werkstatt": G("petru", "[clear throat] Here. Wood first, then we talk. A house is like a boat. You start with the bones.", "approval"),
 }
 BAU_BILD = {"post": "village_piazza", "batu": "batu_shop", "bar": "alvas_bar", "werkstatt": "petru_workshop"}   # beim Haus, nicht am Hafen
 PIRAT = {"post": "the pirate who burned it", "batu": "the pirate who burned it", "bar": "the pirate who burned it",
@@ -190,15 +190,15 @@ DANK = [
          zeile=G("alva", "[laugh] The bar first. You're learning, o figliolu.", "amusement"))]),
     E("a3_dank_werkstatt", "gag1", "wholesome", "The Rudder", _dank("werkstatt"), "petru_workshop", P1("petru", ("bonaventure", "+", "carried the beams")),
       "Petru's workshop has a roof again. He hangs the old rudder over the door, the one that came through the fire.",
-      [G("petru", "[clear throat] Hm. The rudder stays. Burned or not.", "neutral"),
+      [G("petru", "[clear throat] The rudder stays over the door. My grandfather steered with it in 1924. Burned wood still knows the way home.", "pride"),
        G("petru", "[sigh] I saw the torches at my workshop. And I saw who stayed. A.V. bought the loan on my boat. "
                   "If I talk, they take the boat. You want me to talk?", "neutral")],
       [O("“Yes. And if they take your boat, we build you a new one.”", [F("a3_zeuge_petru"), F("a3_zeuge_petru_ehrlich"), V("petru", 6)],
-         zeile=G("petru", "[clear throat] Hm. A new boat. ...Then I talk.", "approval")),
+         zeile=G("petru", "[chuckle] A new boat. You don't know how to build a boat. ...I'll teach you. Then I talk.", "approval")),
        O("“It's your boat, Petru. You decide.”", [F("a3_zeuge_petru"), F("a3_zeuge_petru_frei"), V("petru", 4)],
-         zeile=G("petru", "[sigh] Hm. I decide. I talk.", "neutral")),
+         zeile=G("petru", "[sigh] Nobody asked me that since Marie. I decide. I talk.", "neutral")),
        O("Says nothing and helps him with the rudder.", [V("petru", 2)],
-         zeile=G("petru", "[clear throat] Hm. Good.", "approval"))]),
+         zeile=G("petru", "[clear throat] You hold it like a fisherman now. Good. ...I'll talk to them.", "approval"))]),
 ]
 
 # ------------------------------------------------------------------ 5.3 Since Last Night (Karte Alva)
@@ -537,7 +537,7 @@ REVANCHE = [
        G("holm", "[chuckle] It pulls left. Like the day you won it from me.", "amusement"),
        JE(G("holm", "[sigh] And one more thing. That night in the siege, you said nobody goes to the north road, Pascal has it. "
                     "I should have gone myself. That's mine, not yours.", "remorse"), "nacht", FL("bl_nachtwache_pascal")),
-       G("petru", "[clear throat] Hm. Again.", "neutral")],
+       G("petru", "[clear throat] The sea doesn't hurry. Neither do bottles. Again.", "neutral")],
       [O("“Tomorrow. And I'm keeping it.”", [V("holm", 2), F("a3_revanche")],
          zeile=G("holm", "[laugh] Faen. We'll see, Frankfurt.", "amusement")),
        O("Sits down next to her on the mole first.", [V("holm", 4), F("a3_revanche")],

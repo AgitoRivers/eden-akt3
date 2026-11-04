@@ -53,10 +53,10 @@ def ZEUGE(pid, bild, titel, lage, zeilen, haltungen, sets=None):
 FRAGEN = [
     ZEUGE("petru", "petru_workshop", "Who Saw It? Petru",
           "Petru is mending a net in front of his workshop. He doesn't look up, but he moves over on the bench.",
-          [G("petru", "[clear throat] Hm. The commission. You want me to sign my name. I saw the torches at my workshop, and who stayed. "
+          [G("petru", "[clear throat] The commission. You want me to sign my name. My father signed his name once, for a bank. They took his boat. I saw the torches at my workshop, and who stayed. "
                       "A.V. has the loan on my boat. So tell me why.", "neutral")],
-          [("“Because you saw it, and they need someone who saw it.”", "ehrlich", 6, G("petru", "[sigh] Hm. That's a reason.", "approval")),
-           ("“Because if you don't, they'll buy the next boat too.”", "kalt", 2, G("petru", "[clear throat] Hm. That's also a reason. A worse one.", "neutral")),
+          [("“Because you saw it, and they need someone who saw it.”", "ehrlich", 6, G("petru", "[sigh] That's a reason. A good one. Marie would like it.", "approval")),
+           ("“Because if you don't, they'll buy the next boat too.”", "kalt", 2, G("petru", "[clear throat] That's also a reason. A worse one. But true, like a cold wind.", "neutral")),
            ("Sits down and mends the net with him until he answers.", "still", 4, G("petru", "[sigh] ...I'll sign.", "neutral"))]),
     ZEUGE("mina", "village_piazza", "Who Saw It? Mina",
           "Mina is sitting on the post office steps with her bag on her knees. The letters from Monaco are on top.",
@@ -146,8 +146,8 @@ def LOS(lid, wer, bild, titel, lage, zeilen, wahlen, bauen=False, sets=None):
 LOS_FRAMES = [
     LOS("tafel", "petru", "petru_workshop", "The Long Table",
         "The board says: Petru · wood · a table for the whole village. Petru has two piles of wood in front of the workshop.",
-        [G("petru", "[clear throat] Hm. The wood from my old boat, or the beams from the burned houses?", "neutral")],
-        [("“From the old boat. Something good should come out of her.”", "boot", G("petru", "[sigh] Hm. She'd like that.", "sadness")),
+        [G("petru", "[clear throat] Two piles. The wood from my old boat, the one Marie named. Or the beams from the burned houses. Which one?", "neutral")],
+        [("“From the old boat. Something good should come out of her.”", "boot", G("petru", "[sigh] Marie named her Stella. Now Stella feeds the whole village. She'd like that.", "sadness")),
          ("“The burned beams. Let the fire turn into a table.”", "asche", G("petru", "[clear throat] Hm. Ash makes a good table. Black, but good.", "approval"))],
         bauen=True),
     LOS("buehne", "bonaventure", "village_piazza", "The Stage",

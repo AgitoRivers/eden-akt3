@@ -104047,7 +104047,7 @@
     },
     {
      "wer": "petru",
-     "text": "Hm. Again.",
+     "text": "The sea doesn't hurry. Neither do bottles. Again.",
      "gefuehl": "neutral"
     }
    ],
@@ -104918,7 +104918,7 @@
    "zeilen": [
     {
      "wer": "petru",
-     "text": "Hm. Here. Wood first. Then we talk.",
+     "text": "Here. Wood first, then we talk. A house is like a boat. You start with the bones.",
      "gefuehl": "approval"
     }
    ],
@@ -105443,8 +105443,8 @@
    "zeilen": [
     {
      "wer": "petru",
-     "text": "Hm. The rudder stays. Burned or not.",
-     "gefuehl": "neutral"
+     "text": "The rudder stays over the door. My grandfather steered with it in 1924. Burned wood still knows the way home.",
+     "gefuehl": "pride"
     },
     {
      "wer": "petru",
@@ -105471,7 +105471,7 @@
      ],
      "zeile": {
       "wer": "petru",
-      "text": "Hm. A new boat. ...Then I talk.",
+      "text": "A new boat. You don't know how to build a boat. ...I'll teach you. Then I talk.",
       "gefuehl": "approval"
      }
     },
@@ -105493,7 +105493,7 @@
      ],
      "zeile": {
       "wer": "petru",
-      "text": "Hm. I decide. I talk.",
+      "text": "Nobody asked me that since Marie. I decide. I talk.",
       "gefuehl": "neutral"
      }
     },
@@ -105509,7 +105509,7 @@
      ],
      "zeile": {
       "wer": "petru",
-      "text": "Hm. Good.",
+      "text": "You hold it like a fisherman now. Good. ...I'll talk to them.",
       "gefuehl": "approval"
      }
     }
@@ -107814,7 +107814,7 @@
    "zeilen": [
     {
      "wer": "petru",
-     "text": "Hm. The commission. You want me to sign my name. I saw the torches at my workshop, and who stayed. A.V. has the loan on my boat. So tell me why.",
+     "text": "The commission. You want me to sign my name. My father signed his name once, for a bank. They took his boat. I saw the torches at my workshop, and who stayed. A.V. has the loan on my boat. So tell me why.",
      "gefuehl": "neutral"
     }
    ],
@@ -107837,7 +107837,7 @@
      ],
      "zeile": {
       "wer": "petru",
-      "text": "Hm. That's a reason.",
+      "text": "That's a reason. A good one. Marie would like it.",
       "gefuehl": "approval"
      }
     },
@@ -107859,7 +107859,7 @@
      ],
      "zeile": {
       "wer": "petru",
-      "text": "Hm. That's also a reason. A worse one.",
+      "text": "That's also a reason. A worse one. But true, like a cold wind.",
       "gefuehl": "neutral"
      }
     },
@@ -109232,7 +109232,7 @@
    "zeilen": [
     {
      "wer": "petru",
-     "text": "Hm. The wood from my old boat, or the beams from the burned houses?",
+     "text": "Two piles. The wood from my old boat, the one Marie named. Or the beams from the burned houses. Which one?",
      "gefuehl": "neutral"
     }
    ],
@@ -109261,7 +109261,7 @@
      ],
      "zeile": {
       "wer": "petru",
-      "text": "Hm. She'd like that.",
+      "text": "Marie named her Stella. Now Stella feeds the whole village. She'd like that.",
       "gefuehl": "sadness"
      }
     },
@@ -123351,7 +123351,7 @@
    "zeilen": [
     {
      "wer": "petru",
-     "text": "Hm. My old boat. Now she holds the whole village.",
+     "text": "Stella, my old boat. Now she holds the whole village. Mind the plates, she leaks a little.",
      "gefuehl": "pride",
      "gruppe": "tafel",
      "wenn": {
@@ -123360,11 +123360,53 @@
     },
     {
      "wer": "petru",
-     "text": "Hm. Black wood. Last week it was a house.",
+     "text": "Black wood. Last week it was a house. Now people eat on it. That's the sea's way too.",
      "gefuehl": "pride",
      "gruppe": "tafel",
      "wenn": {
       "flag": "a3_los_tafel_asche"
+     }
+    },
+    {
+     "wer": "petru",
+     "text": "And over the table: the net. Every name that spoke is in a knot. Tie well, and the sea keeps it.",
+     "gefuehl": "pride",
+     "gruppe": "netz",
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_petru_netz"
+       },
+       {
+        "anzahl": [
+         [
+          {
+           "flag": "a3_zeuge_petru"
+          },
+          {
+           "flag": "a3_zeuge_mina"
+          },
+          {
+           "flag": "a3_zeuge_batu"
+          },
+          {
+           "flag": "a3_zeuge_alva"
+          },
+          {
+           "flag": "a3_zeuge_anghjulu"
+          },
+          {
+           "flag": "a3_zeuge_casanova"
+          },
+          {
+           "flag": "a3_zeuge_sandru"
+          }
+         ],
+         ">=",
+         1
+        ]
+       }
+      ]
      }
     },
     {
@@ -124158,6 +124200,84 @@
      "gruppe": "danzel2",
      "wenn": {
       "flag": "a3_paar_charly_allein"
+     }
+    },
+    {
+     "wer": "laetitia",
+     "text": "Papa. You wrote 'I need you'. All my life you never said it.",
+     "gefuehl": "love",
+     "gruppe": "laetitia",
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_petru_brief_brauche"
+       },
+       {
+        "eine": [
+         {
+          "flag": "bg_weg_c"
+         },
+         {
+          "flag": "petru_versoehnt"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "wer": "laetitia",
+     "text": "Papa. You asked me to come. So I came. Is there fish pie?",
+     "gefuehl": "joy",
+     "gruppe": "laetitia",
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_petru_brief_festa"
+       },
+       {
+        "eine": [
+         {
+          "flag": "bg_weg_c"
+         },
+         {
+          "flag": "petru_versoehnt"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "wer": "laetitia",
+     "text": "Papa. A bay leaf in the milk. You remembered Mama's secret. I'm here.",
+     "gefuehl": "love",
+     "gruppe": "laetitia",
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_petru_brief_marie"
+       },
+       {
+        "eine": [
+         {
+          "flag": "bg_weg_c"
+         },
+         {
+          "flag": "petru_versoehnt"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "wer": "mina",
+     "text": "Petru! A postcard from the mountains, just now. One line: Me too, Papa.",
+     "gefuehl": "joy",
+     "gruppe": "laetitia",
+     "wenn": {
+      "flag": "a3_petru_brief"
      }
     },
     {
@@ -125276,6 +125396,440 @@
        "flag": "akt3_festa"
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "a3_petru_netz",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "Not in the Net",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "petru_workshop",
+   "personen": {
+    "handelnd": "petru",
+    "betroffen": []
+   },
+   "sets": {
+    "petru": "Standard"
+   },
+   "lage": "Petru sits in front of his workshop and mends a net. It is the same net as every afternoon, and it is not broken. The radio on the workbench plays Corsican football, very quietly.",
+   "zeilen": [
+    {
+     "wer": "petru",
+     "text": "Marie used to say I mend this net so my hands don't think. She was right. She was always right, except about the fish pie. Mine was never as good as hers.",
+     "gefuehl": "sadness"
+    },
+    {
+     "wer": "petru",
+     "text": "Five years. Every afternoon. Not one hole in it. ...Sit. If you sit, you hold the other end.",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Sits down and holds the other end of the net.",
+     "folgen": [
+      {
+       "flag": "a3_petru_netz"
+      },
+      {
+       "flag": "a3_petru_netz_halten"
+      },
+      {
+       "vertrauen": [
+        "petru",
+        6
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "petru",
+      "text": "Good. ...After the festa I give this net away. The people who spoke, their names go in the knots. The sea keeps what you tie well.",
+      "gefuehl": "caring"
+     }
+    },
+    {
+     "text": "“Why do you mend a net that isn't broken, Petru?”",
+     "folgen": [
+      {
+       "flag": "a3_petru_netz"
+      },
+      {
+       "flag": "a3_petru_netz_frage"
+      },
+      {
+       "vertrauen": [
+        "petru",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "petru",
+      "text": "Because one day it breaks. And then my hands know it already. ...This one is for the village now. For names. You'll see.",
+      "gefuehl": "neutral"
+     }
+    },
+    {
+     "text": "“Tell me about Marie.”",
+     "folgen": [
+      {
+       "flag": "a3_petru_netz"
+      },
+      {
+       "flag": "a3_petru_netz_marie"
+      },
+      {
+       "vertrauen": [
+        "petru",
+        6
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "petru",
+      "text": "A bay leaf in the milk. That was her secret. Nobody else knows it. Now you. ...Don't tell Alva.",
+      "gefuehl": "love"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_petru_bastianu",
+   "art": "gag1",
+   "ton": "witzig",
+   "titel": "Bastianu",
+   "wann": {
+    "tage": [
+     25,
+     31
+    ],
+    "phasen": [
+     "tag",
+     "nachmittag"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "nicht": {
+        "flag": "gefeuert_rosi"
+       }
+      }
+     ]
+    }
+   },
+   "bild": "petru_workshop",
+   "personen": {
+    "handelnd": "rosi",
+    "betroffen": [
+     {
+      "id": "petru",
+      "ton": "?",
+      "was": "pretends to see nothing"
+     }
+    ]
+   },
+   "sets": {
+    "rosi": "Engine Room",
+    "petru": "Standard"
+   },
+   "lage": "Rosi is working at Petru's bench. Her jar of small screws is open. A long red arm comes out of the water tank and takes the jar.",
+   "zeilen": [
+    {
+     "wer": "rosi",
+     "text": "Petru! Your octopus has my screws. All of them.",
+     "gefuehl": "anger"
+    },
+    {
+     "wer": "petru",
+     "text": "Bastianu does not steal. He borrows. Like the sea. Everything comes back, eventually.",
+     "gefuehl": "neutral"
+    },
+    {
+     "wer": "rosi",
+     "text": "Eventually? I need them now. ...He's screwing the lid back on. From the inside. That's a talent.",
+     "gefuehl": "surprise"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Offers Bastianu a sardine for the jar.",
+     "folgen": [
+      {
+       "vertrauen": [
+        "petru",
+        2
+       ]
+      },
+      {
+       "vertrauen": [
+        "rosi",
+        2
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "petru",
+      "text": "A fair trade. He likes you. He doesn't like many people.",
+      "gefuehl": "amusement"
+     }
+    },
+    {
+     "text": "“Hire him, Rosi. He's faster than Totò.”",
+     "folgen": [
+      {
+       "vertrauen": [
+        "rosi",
+        2
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "rosi",
+      "text": "Unit-01 is jealous already.",
+      "gefuehl": "amusement"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_petru_eintopf",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "Fish Sauce",
+   "wann": {
+    "tage": [
+     26,
+     31
+    ],
+    "phasen": [
+     "dinner"
+    ],
+    "bedingung": {
+     "flag": "akt2_ende"
+    }
+   },
+   "bild": "petru_workshop",
+   "personen": {
+    "handelnd": "batu",
+    "betroffen": [
+     {
+      "id": "petru",
+      "ton": "+",
+      "was": "lifts the lid"
+     }
+    ]
+   },
+   "sets": {},
+   "lage": "Bà Tư comes into the workshop with a pot. She has done this every week since the siege, because she thinks he is lonely.",
+   "zeilen": [
+    {
+     "wer": "batu",
+     "text": "Fish stew. With fish sauce. You said the first one smelled like a harbour at noon.",
+     "gefuehl": "caring"
+    },
+    {
+     "wer": "petru",
+     "text": "It did. Now I wait for it. The whole week. ...Here. Two mullet. From this morning.",
+     "gefuehl": "gratitude"
+    },
+    {
+     "wer": "batu",
+     "text": "He gives me fish, I give him fish. We are two old idiots, con. Eat with us.",
+     "gefuehl": "caring"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Sits down between them and eats.",
+     "folgen": [
+      {
+       "vertrauen": [
+        "batu",
+        2
+       ]
+      },
+      {
+       "vertrauen": [
+        "petru",
+        2
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "petru",
+      "text": "Marie would like her. She would not say so. Like me.",
+      "gefuehl": "caring"
+     }
+    },
+    {
+     "text": "“Is this a date?”",
+     "folgen": [
+      {
+       "vertrauen": [
+        "batu",
+        2
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "batu",
+      "text": "A date! He has the Norwegian for that. I have the stew. Eat.",
+      "gefuehl": "amusement"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_petru_brief",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "A Letter to Laetitia",
+   "wann": {
+    "tage": [
+     29,
+     33
+    ],
+    "phasen": [
+     "nachmittag"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "wert": [
+        "vertrauen.petru",
+        ">=",
+        3
+       ]
+      }
+     ]
+    }
+   },
+   "bild": "petru_workshop",
+   "personen": {
+    "handelnd": "petru",
+    "betroffen": [
+     {
+      "id": "mina",
+      "ton": "?",
+      "was": "waits with her bag"
+     }
+    ]
+   },
+   "sets": {
+    "petru": "Standard"
+   },
+   "lage": "Petru has a sheet of paper on the workbench and a pencil he has sharpened three times. Mina waits at the door with her bag.",
+   "zeilen": [
+    {
+     "wer": "petru",
+     "text": "My daughter. She doesn't talk to you since the mountains, I know. To me she writes once a year. I want to say something to her. I am bad with paper.",
+     "gefuehl": "sadness",
+     "gruppe": "weg",
+     "wenn": {
+      "flag": "bg_weg_a"
+     }
+    },
+    {
+     "wer": "petru",
+     "text": "You took her over the sea, that night. I was angry. Her card made me less angry. Now I want to write back. I am bad with paper.",
+     "gefuehl": "neutral",
+     "gruppe": "weg",
+     "wenn": {
+      "flag": "bg_weg_b"
+     }
+    },
+    {
+     "wer": "petru",
+     "text": "She is up there, in the Bergerie, with him. Happy, I think. I want to ask her to come down for the festa. I am bad with paper.",
+     "gefuehl": "sadness",
+     "gruppe": "weg",
+     "wenn": null
+    },
+    {
+     "wer": "petru",
+     "text": "All her life I never told her I need her. What do I write?",
+     "gefuehl": "nervousness"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Write exactly that. 'I need you.'”",
+     "folgen": [
+      {
+       "flag": "a3_petru_brief"
+      },
+      {
+       "flag": "a3_petru_brief_brauche"
+      },
+      {
+       "vertrauen": [
+        "petru",
+        6
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "petru",
+      "text": "Three words. The sea is bigger, and it is easier.",
+      "gefuehl": "love"
+     }
+    },
+    {
+     "text": "“Ask her to come to the festa. Nothing more.”",
+     "folgen": [
+      {
+       "flag": "a3_petru_brief"
+      },
+      {
+       "flag": "a3_petru_brief_festa"
+      },
+      {
+       "vertrauen": [
+        "petru",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "mina",
+      "text": "Express, Petru. For you, express. No charge.",
+      "gefuehl": "caring"
+     }
+    },
+    {
+     "text": "“Tell her about the fish pie. The bay leaf. She'll understand.”",
+     "folgen": [
+      {
+       "flag": "a3_petru_brief"
+      },
+      {
+       "flag": "a3_petru_brief_marie"
+      },
+      {
+       "vertrauen": [
+        "petru",
+        6
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "petru",
+      "text": "Her mother's secret. ...Yes. She will understand that better than words.",
+      "gefuehl": "love"
+     }
     }
    ]
   }

@@ -861,6 +861,17 @@ Test: `tests/test_akt3_finale.py`.
 
 Gelesene Wahlen jetzt: Lose 46 von 47 (Capra „nein“ hat bewusst kein Bild), Paare 32 von 34, Schluss-Szenen 36 von 36. Offen aus dem Review: 5 (Mitternachts-Chips), 6 (höchstens drei Karten), 8 (Endkampf mit Verbündeten), 10 und 11.
 
+**Mehr Petru (04.11.2026, `ereignisse_akt3_petru.py`):** Er bleibt knapp, spricht aber ganze Sätze mit Bildern vom Meer, und das nackte „Hm.“ kommt nur noch zweimal (vorher 16).
+
+| Szene | Auslöser | Wirkung |
+|---|---|---|
+| **Not in the Net** | Besuch der Werkstatt ab Tag 25, ohne Phase (`kern/akt3.szene_besuch`, wenn kein Los dran ist) | Marie, das heile Netz, das Lorbeerblatt. Das Netz wird das Netz der Namen: Auf der Festa hängt es über der langen Tafel, jeder Zeuge ein Knoten |
+| **Bastianu** | Pool Tag 25 bis 31 | der Oktopus leiht sich Rosis Schrauben, Gag |
+| **Fish Sauce** | Pool Tag 26 bis 31, Dinner | Bà Tư bringt Eintopf, er gibt Fisch zurück (Kanon, keine Romanze) |
+| **A Letter to Laetitia** | Pool Tag 29 bis 33, Vertrauen Petru 3 | drei Fassungen nach dem Weg in den Bergen; drei Wahlen, was er schreibt. Festa: mit Weg C oder nach der Versöhnung kommt Laetitia selbst, sonst schickt sie eine Karte |
+
+**Neuer Kanon (Vorschlag, E-129 offen):** Petrus altes Boot heißt *Stella*, Marie hat es getauft. Sein Vater verlor einmal ein Boot an eine Bank.
+
 **Akt 3 einschalten:** `AKT3_SPIELBAR = True` in `werkzeuge/eden_rise/modul_eden_rise.py`, dann `modul_eden_rise.py` bauen. Erst nach Ducs lokalem Durchlauf mit Bildern (Bot-Lauf `PYTHONHASHSEED=0`, Paket G). `kaempfe.json` gezielt ergänzt (der Kampf-Builder bricht hier an fehlenden Sounds ab): lokal `kaempfe_eden_rise.py` laufen lassen. Angepasst: `tests/test_akt2_events.py` (neue Fenster), `tests/test_holm_wette.py` (Tag 24, lokal nicht prüfbar wegen `eden-config.json`). Alle `test_*.py` vor und nach Paket A: 47 gegen 48 grün, kein Test hat seinen Status verloren.
 
 ## 13. Was aus den Befunden wurde

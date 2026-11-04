@@ -230,7 +230,7 @@ def _rast_pruefen(z, modul):
 
 def los_beim_besuch(z, modul, wo):
     """Akt 3: ein Festa-Los beim Besuch der Person, ohne Phase und ohne Ausflug (kern/akt3.los_besuch)."""
-    eid = akt3.los_besuch(z, moddir(z["modul"]), wo)
+    eid = akt3.los_besuch(z, moddir(z["modul"]), wo) or akt3.szene_besuch(z, wo)
     if eid:
         ereignisse.ort_oeffnen(z, modul, moddir(z["modul"]), eid)
         z["event"]["weiter"], z["event"]["status_vorher"] = "wahl", "wahl"
