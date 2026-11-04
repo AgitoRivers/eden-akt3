@@ -319,6 +319,8 @@ Kaffee-Gutscheine. Alva schaut von gegenüber zu und kommt nicht. Am Namensschil
 
 **Akt 3:** Er wacht verbunden auf und geht zurück auf seinen Posten, weil Pascal es ihm gesagt hat. Frühestens an Tag 23 und freiwillig kann Duc ihm sagen, dass er nach Hause gehen darf: *“Is Pascal coming?”* Danach hilft er beim Wiederaufbau, zerstörte Häuser stehen früher wieder; keine Szene nennt das als Belohnung. Im Ende „Neu geschrieben“ schreibt er seinen Namen selbst ins Netz, schief und langsam, neben Pascals leerem Knoten.
 
+> **Vermerk (Duc, E-122, 04.11.):** Minicu ist schwer verletzt, der Spieler erfährt sein Überleben erst auf der Festa (Tag 35), er überlebt in allen Enden. Bis dahin bleibt die Tür zum Hinterzimmer der Kirche zu, *“Is Pascal coming?”* fragt er erst auf der Festa, beim Wiederaufbau hilft er nicht. Der Absatz oben gilt nur noch für das Netz im Ende „Neu geschrieben“. Umsetzung: `drehbuch_akt3.md` 5.27.
+
 ---
 
 ## Don Anghjulu: „God sees everything. Cut the cards.“

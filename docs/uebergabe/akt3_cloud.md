@@ -1,6 +1,6 @@
 # Übergabe Akt 3 · Cloud-Sitzung (Branch `akt3-cloud`)
 
-Stand 04.11.2026, Block 3: Drehbuch Version 3 mit Ducs Entscheiden (E-122). **Keine Events gebaut.**
+Stand 04.11.2026, Block 3: Drehbuch Version 3.1 mit Ducs Entscheiden (E-122) und der unabhängigen Prüfung (30 Befunde, Abschnitt 13b). **Keine Events gebaut.**
 
 ## Gebaut (Commits)
 
@@ -14,6 +14,7 @@ Stand 04.11.2026, Block 3: Drehbuch Version 3 mit Ducs Entscheiden (E-122). **Ke
 
 ## Wartet auf Ducs Urteil
 
+- E-123 offen: Piraten bauen nur, wo Duc den ersten Stein gesetzt hat.
 - Weiche W (was 100 % Belagerung an Schwierigkeit heißt), Drehbuch Abschnitt 1.
 - Freigabe der Paare Chiara und Alva, Isabelle und Sophia (F-29), Lola und Bà Tư als Familienliebe (F-28).
 - Welcher Code-Branch nach master: Empfehlung `fix-akt2`, nicht `fix-akt2-folgen` (F-30).
@@ -24,4 +25,6 @@ Stand 04.11.2026, Block 3: Drehbuch Version 3 mit Ducs Entscheiden (E-122). **Ke
 
 - `ereignisse_basis.py` baut hier ohne Bilder und tauscht dabei bei 64 Events den Hintergrund. In `fix-akt2-folgen` sind darum nur die 23 betroffenen Events übernommen. Lokal neu bauen und `git diff module/eden_rise/ereignisse.json` prüfen.
 - Neue und geänderte Zeilen aus `fix-akt2-folgen` sind nicht vertont (Alva in `bl_bar` und `bl_bar_runde`).
+- Auf `fix-akt2` steht `HOLM_TAG = 22`, Akt 3 braucht 24.
+- Neue Flags fürs Bauen: `bl_dorf_rudert`, `bl_nachtwache_pascal`, `gr_riscossore_gesehen`.
 - Favours und Handy nicht öffnen (F-11, F-12).
