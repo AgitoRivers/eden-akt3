@@ -1,6 +1,6 @@
 # Akt 3 · Fragenliste an Duc
 
-Stand 04.11.2026 · Cloud-Sitzung `akt3-cloud`. Widersprüche und offene Punkte, die ich nicht selbst lösen darf. Zu jeder Frage steht mein Vorschlag; das Drehbuch (`docs/wiki/welt/drehbuch_akt3.md`) ist mit diesem Vorschlag geschrieben.
+Stand 04.11.2026, ergänzt für Drehbuch v2 · Cloud-Sitzung `akt3-cloud`. Widersprüche und offene Punkte, die ich nicht selbst lösen darf. Zu jeder Frage steht mein Vorschlag; das Drehbuch (`docs/wiki/welt/drehbuch_akt3.md`) ist mit diesem Vorschlag geschrieben.
 
 | Nr | Frage | Fundstellen | Vorschlag | Bei Nein |
 |---|---|---|---|---|
@@ -20,6 +20,12 @@ Stand 04.11.2026 · Cloud-Sitzung `akt3-cloud`. Widersprüche und offene Punkte,
 | F-14 | **Holms Mutter auf der Festa:** Kanon sagt, sie kommt. Kein Sprite, kein Name | `holm.md` | Nur erwähnt, im Festa-Bild eine Silhouette neben Holm | Figur mit Bild (Bestellung) |
 | F-15 | **Pascals Name:** Alon dankt ihm „unter falschem Namen“. Ich schreibe „Paul? Paolo.“ | `dorf_figuren.md` „Das Rädchen“ | so | anderer Name |
 | F-16 | **Kassenbuch, zwei Schritte:** Vorgemerkt an Tag 27, endgültig an Tag 35. Ist das zu viel Zögern? | `dorf_figuren.md` „Die Schublade“ | so lassen, damit der Spieler die Menschen im Buch erst kennt | nur an Tag 27, endgültig |
+
+| F-17 | **Ereignis-Dichte in Akt 3:** Der Faktor 0,45 aus Akt 2 gilt ohne Ende weiter (`kern/ereignisse.AKT2_FAKTOR`) | `docs/berichte/wiki_vs_code.md` M5 | Woche 4 auf 0,6, Woche 5 bei 0,45 | überall 0,45 |
+| F-18 | **Chiaras „Blackout in Akt 3“** (`figuren/chiara.md:43`): Was ist gemeint? | Figurenseite | Deutung im Drehbuch v2: Stromausfall auf der Brücke, sie muss Duc um Hilfe bitten. Character Design prüfen | andere Szene nach Kanon |
+| F-19 | **Totòs Akt-3-Geheimnis** (`figuren/toto.md:8, :42`): Inhalt steht nur in den Fall-Daten | `story.json` (nicht geöffnet) | Story-Sitzung schreibt die Szene, Drehbuch v2 lässt ihr einen freien Platz in Woche 5 | – |
+| F-20 | **`sandru_herkunft`** ist noch nicht gebaut (Woche 3, „Your Own Name“) | `dorf_figuren.md`, Ernste Events | Bedingung bleibt im Drehbuch, die Szene kommt mit Akt 3 nach | ersetzen durch Vertrauen Sandru 3 |
+| F-21 | **Neues Flag `bl_dorf_rudert`** am Ende von Welle 4, damit Akt 3 das Rudern lesen kann | `kern/taktik.py` (`dorf_rudert` ist nur Zustand) | einbauen mit Paket A | Akt 3 liest `z["taktik"]["dorf_rudert"]` direkt |
 
 ## Anschlussstellen, die ich nicht öffne
 
