@@ -107705,8 +107705,19 @@
    "zeilen": [
     {
      "wer": "charly",
+     "text": "I switched off one of my mother's machines on the ridge. Now her money. My mother's company sells to Alon. I moved some of it tonight. Quietly. For the houses.",
+     "gefuehl": "neutral",
+     "gruppe": "kamm",
+     "wenn": {
+      "flag": "a3_mast_fertig"
+     }
+    },
+    {
+     "wer": "charly",
      "text": "My mother's company sells to Alon. I moved some of her money tonight. Quietly. For the houses.",
-     "gefuehl": "neutral"
+     "gefuehl": "neutral",
+     "gruppe": "kamm",
+     "wenn": null
     },
     {
      "wer": "casanova",
@@ -107921,17 +107932,36 @@
          "wenn": {
           "alle": [
            {
-            "eine": [
+            "alle": [
              {
-              "flag": "bl_batu_norden"
+              "eine": [
+               {
+                "flag": "bl_batu_norden"
+               },
+               {
+                "flag": "aufbau_fertig_batu"
+               },
+               {
+                "nicht": {
+                 "flag": "tk_haus_weg_batu"
+                }
+               },
+               {
+                "flag": "a3_mast_aus"
+               }
+              ]
              },
              {
-              "flag": "aufbau_fertig_batu"
-             },
-             {
-              "nicht": {
-               "flag": "tk_haus_weg_batu"
-              }
+              "eine": [
+               {
+                "nicht": {
+                 "flag": "a3_mast_an"
+                }
+               },
+               {
+                "flag": "aufbau_fertig_batu"
+               }
+              ]
              }
             ]
            },
@@ -108129,17 +108159,36 @@
          "wenn": {
           "alle": [
            {
-            "eine": [
+            "alle": [
              {
-              "flag": "bl_batu_norden"
+              "eine": [
+               {
+                "flag": "bl_batu_norden"
+               },
+               {
+                "flag": "aufbau_fertig_batu"
+               },
+               {
+                "nicht": {
+                 "flag": "tk_haus_weg_batu"
+                }
+               },
+               {
+                "flag": "a3_mast_aus"
+               }
+              ]
              },
              {
-              "flag": "aufbau_fertig_batu"
-             },
-             {
-              "nicht": {
-               "flag": "tk_haus_weg_batu"
-              }
+              "eine": [
+               {
+                "nicht": {
+                 "flag": "a3_mast_an"
+                }
+               },
+               {
+                "flag": "aufbau_fertig_batu"
+               }
+              ]
              }
             ]
            },
@@ -108697,17 +108746,36 @@
          "wenn": {
           "alle": [
            {
-            "eine": [
+            "alle": [
              {
-              "flag": "bl_batu_norden"
+              "eine": [
+               {
+                "flag": "bl_batu_norden"
+               },
+               {
+                "flag": "aufbau_fertig_batu"
+               },
+               {
+                "nicht": {
+                 "flag": "tk_haus_weg_batu"
+                }
+               },
+               {
+                "flag": "a3_mast_aus"
+               }
+              ]
              },
              {
-              "flag": "aufbau_fertig_batu"
-             },
-             {
-              "nicht": {
-               "flag": "tk_haus_weg_batu"
-              }
+              "eine": [
+               {
+                "nicht": {
+                 "flag": "a3_mast_an"
+                }
+               },
+               {
+                "flag": "aufbau_fertig_batu"
+               }
+              ]
              }
             ]
            },
@@ -108901,17 +108969,36 @@
          "wenn": {
           "alle": [
            {
-            "eine": [
+            "alle": [
              {
-              "flag": "bl_batu_norden"
+              "eine": [
+               {
+                "flag": "bl_batu_norden"
+               },
+               {
+                "flag": "aufbau_fertig_batu"
+               },
+               {
+                "nicht": {
+                 "flag": "tk_haus_weg_batu"
+                }
+               },
+               {
+                "flag": "a3_mast_aus"
+               }
+              ]
              },
              {
-              "flag": "aufbau_fertig_batu"
-             },
-             {
-              "nicht": {
-               "flag": "tk_haus_weg_batu"
-              }
+              "eine": [
+               {
+                "nicht": {
+                 "flag": "a3_mast_an"
+                }
+               },
+               {
+                "flag": "aufbau_fertig_batu"
+               }
+              ]
              }
             ]
            },
@@ -109119,17 +109206,36 @@
          "wenn": {
           "alle": [
            {
-            "eine": [
+            "alle": [
              {
-              "flag": "bl_batu_norden"
+              "eine": [
+               {
+                "flag": "bl_batu_norden"
+               },
+               {
+                "flag": "aufbau_fertig_batu"
+               },
+               {
+                "nicht": {
+                 "flag": "tk_haus_weg_batu"
+                }
+               },
+               {
+                "flag": "a3_mast_aus"
+               }
+              ]
              },
              {
-              "flag": "aufbau_fertig_batu"
-             },
-             {
-              "nicht": {
-               "flag": "tk_haus_weg_batu"
-              }
+              "eine": [
+               {
+                "nicht": {
+                 "flag": "a3_mast_an"
+                }
+               },
+               {
+                "flag": "aufbau_fertig_batu"
+               }
+              ]
              }
             ]
            },
@@ -117542,6 +117648,9 @@
               },
               {
                "flag": "a3_beweis_feuer"
+              },
+              {
+               "flag": "a3_mast_an"
               }
              ],
              ">=",
@@ -117641,6 +117750,9 @@
               },
               {
                "flag": "a3_beweis_feuer"
+              },
+              {
+               "flag": "a3_mast_an"
               }
              ],
              ">=",
@@ -128928,6 +129040,9 @@
               },
               {
                "flag": "a3_beweis_feuer"
+              },
+              {
+               "flag": "a3_mast_an"
               }
              ],
              ">=",
@@ -134015,6 +134130,31 @@
      }
     },
     {
+     "wer": "ghjuvan",
+     "text": "The red light on the ridge went out. I slept for the first time in a month. So did my sheep.",
+     "gefuehl": "relief",
+     "gruppe": "mast",
+     "wenn": {
+      "flag": "a3_mast_aus"
+     }
+    },
+    {
+     "wer": "charly",
+     "text": "...Up there it's still blinking. She's watching. Let her watch this.",
+     "gefuehl": "pride",
+     "gruppe": "mast",
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_mast_an"
+       },
+       {
+        "flag": "rt_charly_bleibt"
+       }
+      ]
+     }
+    },
+    {
      "wer": "lola",
      "text": "Nan's on the phone! Say hello to the whole village, Nan!",
      "gefuehl": "joy",
@@ -135683,6 +135823,1133 @@
       "text": "Mostly. Ha. Me too. Mostly from here.",
       "gefuehl": "neutral"
      }
+    }
+   ]
+  },
+  {
+   "id": "a3_mast_start",
+   "art": "ort",
+   "ton": "ernst",
+   "titel": "The Red Light",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "macchia_path",
+   "personen": {
+    "handelnd": "elsa",
+    "betroffen": []
+   },
+   "sets": {
+    "elsa": "Standard"
+   },
+   "lage": "Every night since the siege, a red light blinks on the ridge above San Martinu. Elsa still sees drones over the village at night. Ghjuvan says the light keeps his sheep awake. Up there, Alon has built something new.",
+   "zeilen": [
+    {
+     "wer": "charly",
+     "text": "It's a mast. My mother's company makes them. I know the model. Seven out of ten for hiding it.",
+     "gefuehl": "neutral",
+     "gruppe": "wer",
+     "wenn": {
+      "alle": [
+       {
+        "flag": "rt_charly_bleibt"
+       },
+       {
+        "nicht": {
+         "flag": "rt_charly_weg"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "wer": "rosi",
+     "text": "It's a relay mast, Officer. Brand new. The drones talk to it, the men in white talk to it. I want to see its insides.",
+     "gefuehl": "curiosity",
+     "gruppe": "wer",
+     "wenn": null
+    },
+    {
+     "wer": "elsa",
+     "text": "I'll wait at the bottom of the path with the car. If you find anything, it comes to me. Not to Pascal, not to anyone. To me.",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Takes the goat path, the slow and quiet way.",
+     "folgen": [
+      {
+       "weiter": [
+        {
+         "wenn": {
+          "flag": "bl_verband_wolff"
+         },
+         "id": "a3_mast_wolff"
+        },
+        {
+         "id": "a3_mast_macchia"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "text": "Takes the old road, the fast way.",
+     "folgen": [
+      {
+       "kampf": "a3_mast_strasse"
+      },
+      {
+       "weiter": "a3_mast_macchia"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_mast_wolff",
+   "art": "ort",
+   "ton": "ernst",
+   "titel": "The Red Light",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "genoese_tower_camp",
+   "personen": {
+    "handelnd": "wolff",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "At the old Genoese tower someone is sitting in the shadow: Sergent Wolff, with a bandage on his arm. The good one. Yours.",
+   "zeilen": [
+    {
+     "wer": "wolff",
+     "text": "The goat path goes round the drones. I know it from before. The Legion pays its debts. Follow me, and don't talk.",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Follows him without a word.",
+     "folgen": [
+      {
+       "weiter": "a3_mast_macchia"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_mast_macchia",
+   "art": "ort",
+   "ton": "ernst",
+   "titel": "The Red Light",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "macchia_path",
+   "personen": {},
+   "sets": {},
+   "lage": "The cistus is high here. Something moves in it, low and fast, with a sound like a zip. Steel snakes from the beach.",
+   "zeilen": [
+    {
+     "wer": "charly",
+     "text": "Cobras. Mother's catalogue, page twelve. Don't let them get behind you.",
+     "gefuehl": "fear",
+     "gruppe": "wer",
+     "wenn": {
+      "alle": [
+       {
+        "flag": "rt_charly_bleibt"
+       },
+       {
+        "nicht": {
+         "flag": "rt_charly_weg"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "wer": "rosi",
+     "text": "Cobra robots. Beautiful welding. I hate that it's beautiful.",
+     "gefuehl": "fear",
+     "gruppe": "wer",
+     "wenn": null
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Stands his ground.",
+     "folgen": [
+      {
+       "kampf": "a3_mast_kobra"
+      },
+      {
+       "weiter": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "rt_charly_bleibt"
+           },
+           {
+            "nicht": {
+             "flag": "rt_charly_weg"
+            }
+           }
+          ]
+         },
+         "id": "a3_mast_c_rast"
+        },
+        {
+         "id": "a3_mast_r_rast"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_mast_c_rast",
+   "art": "ort",
+   "ton": "ernst",
+   "titel": "The Red Light",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "antenna_ridge",
+   "personen": {
+    "handelnd": "charly",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "A small fire below the ridge. The red light blinks above you, slowly, like a heartbeat. Charly sits close to the fire and looks at it, not at you.",
+   "zeilen": [
+    {
+     "wer": "charly",
+     "text": "Every birthday, my mother watched me on a screen. She was never in the room. Twelve birthdays, twelve screens.",
+     "gefuehl": "sadness"
+    },
+    {
+     "wer": "charly",
+     "text": "I wanted a dog. For my twelfth, she gave me a taser instead. Model R-7. From her own catalogue. I named it. I'm not telling you what.",
+     "gefuehl": "sadness"
+    },
+    {
+     "wer": "charly",
+     "text": "There was one place her cameras couldn't see: under her desk in the office in Marseille. I hid there. Four out of ten as a hiding place. Ten out of ten for quiet.",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Puts another stick on the fire and listens.",
+     "folgen": [
+      {
+       "weiter": "a3_mast_c_frage_1"
+      }
+     ]
+    },
+    {
+     "text": "“You don't have to do this, Charly.”",
+     "folgen": [
+      {
+       "weiter": "a3_mast_c_frage_1"
+      }
+     ],
+     "zeile": {
+      "wer": "charly",
+      "text": "Yes I do. Somebody has to switch her off. I'd rather it's me.",
+      "gefuehl": "neutral"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_mast_c_frage_1",
+   "art": "ort",
+   "ton": "ernst",
+   "titel": "The Red Light",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "antenna_ridge",
+   "personen": {
+    "handelnd": "charly",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "The control box on the mast has a small screen. Three questions. The cursor blinks. Charly reads it without any voice at all.",
+   "zeilen": [
+    {
+     "wer": "charly",
+     "text": "Security question one. 'First pet.' ...She set these questions herself. Of course she did.",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Types: R-7.",
+     "folgen": [
+      {
+       "flag": "a3_mast_frage_1"
+      },
+      {
+       "weiter": "a3_mast_c_frage_2"
+      }
+     ],
+     "zeile": {
+      "wer": "charly",
+      "text": "...Accepted. She remembers the taser. She remembers.",
+      "gefuehl": "sadness"
+     }
+    },
+    {
+     "text": "Types: None.",
+     "folgen": [
+      {
+       "kampf": "a3_mast_alarm"
+      },
+      {
+       "weiter": "a3_mast_c_frage_1"
+      }
+     ],
+     "zeile": {
+      "wer": "charly",
+      "text": "Wrong. Alarm. They're coming.",
+      "gefuehl": "fear"
+     }
+    },
+    {
+     "text": "Types: Capybara.",
+     "folgen": [
+      {
+       "kampf": "a3_mast_alarm"
+      },
+      {
+       "weiter": "a3_mast_c_frage_1"
+      }
+     ],
+     "zeile": {
+      "wer": "charly",
+      "text": "That's Bibi's answer, not mine. Alarm!",
+      "gefuehl": "fear"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_mast_c_frage_2",
+   "art": "ort",
+   "ton": "ernst",
+   "titel": "The Red Light",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "antenna_ridge",
+   "personen": {
+    "handelnd": "charly",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "The screen changes. One question gone, two left.",
+   "zeilen": [
+    {
+     "wer": "charly",
+     "text": "'Favourite place.'",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Types: Under the desk.",
+     "folgen": [
+      {
+       "flag": "a3_mast_frage_2"
+      },
+      {
+       "weiter": "a3_mast_c_frage_3"
+      }
+     ],
+     "zeile": {
+      "wer": "charly",
+      "text": "...Accepted. She knew. All those years, she knew where I was hiding.",
+      "gefuehl": "sadness"
+     }
+    },
+    {
+     "text": "Types: Marseille.",
+     "folgen": [
+      {
+       "kampf": "a3_mast_alarm"
+      },
+      {
+       "weiter": "a3_mast_c_frage_2"
+      }
+     ],
+     "zeile": {
+      "wer": "charly",
+      "text": "Too big. She wants the exact place. Alarm!",
+      "gefuehl": "fear"
+     }
+    },
+    {
+     "text": "Types: The red team.",
+     "folgen": [
+      {
+       "kampf": "a3_mast_alarm"
+      },
+      {
+       "weiter": "a3_mast_c_frage_2"
+      }
+     ],
+     "zeile": {
+      "wer": "charly",
+      "text": "That's mine, not hers. She doesn't know it exists. Alarm.",
+      "gefuehl": "sadness"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_mast_c_frage_3",
+   "art": "ort",
+   "ton": "ernst",
+   "titel": "The Red Light",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "antenna_ridge",
+   "personen": {
+    "handelnd": "charly",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "The last question. Charly reads it, and for a long time she doesn't move.",
+   "zeilen": [
+    {
+     "wer": "charly",
+     "text": "'What makes Charlotte happy?' ...She wrote the answer herself. I know what she wrote: Being the best.",
+     "gefuehl": "sadness"
+    },
+    {
+     "wer": "charly",
+     "text": "Duc. If I type her answer, it opens. If I type mine, it won't. Which one do I type?",
+     "gefuehl": "nervousness"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Type hers. Then switch her off.”",
+     "folgen": [
+      {
+       "flag": "a3_mast_frage_3"
+      },
+      {
+       "flag": "a3_mast_mutter_antwort"
+      },
+      {
+       "weiter": "a3_mast_c_anruf"
+      }
+     ],
+     "zeile": {
+      "wer": "charly",
+      "text": "...Accepted. Being the best. It's open. I feel sick.",
+      "gefuehl": "sadness"
+     }
+    },
+    {
+     "text": "“Type yours. We'll get in another way.”",
+     "folgen": [
+      {
+       "flag": "a3_mast_frage_3"
+      },
+      {
+       "flag": "a3_mast_eigene_antwort"
+      },
+      {
+       "kampf": "a3_mast_alarm"
+      },
+      {
+       "weiter": "a3_mast_c_anruf"
+      }
+     ],
+     "zeile": {
+      "wer": "charly",
+      "text": "Danzel. Ten out of ten. ...Wrong, it says. Good. Alarm. Let them come.",
+      "gefuehl": "pride"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_mast_c_anruf",
+   "art": "ort",
+   "ton": "ernst",
+   "titel": "The Red Light",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "antenna_ridge",
+   "personen": {
+    "handelnd": "charly",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "The control box is open. Then Charly's phone rings. The camera on the mast turns, slowly, until its lens looks at her. Her mother's name is on the screen.",
+   "zeilen": [
+    {
+     "wer": "charly",
+     "text": "Maman.",
+     "gefuehl": "neutral"
+    },
+    {
+     "wer": "charly",
+     "text": "She says: Charlotte. You're cold. Put on your jacket. ...She can see me. Through her own camera.",
+     "gefuehl": "sadness"
+    },
+    {
+     "wer": "charly",
+     "text": "Six... I can't rate this. I can't.",
+     "gefuehl": "grief"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Takes the phone out of her hand.",
+     "folgen": [
+      {
+       "vertrauen": [
+        "charly",
+        4
+       ]
+      },
+      {
+       "weiter": "a3_mast_wende"
+      }
+     ],
+     "zeile": {
+      "wer": "charly",
+      "text": "...Thank you. Don't hang up. Just hold it.",
+      "gefuehl": "sadness"
+     }
+    },
+    {
+     "text": "Holds the phone out to her. “You decide what you say.”",
+     "folgen": [
+      {
+       "vertrauen": [
+        "charly",
+        6
+       ]
+      },
+      {
+       "weiter": "a3_mast_wende"
+      }
+     ],
+     "zeile": {
+      "wer": "charly",
+      "text": "Maman. I'm not cold. I'm working. Goodbye.",
+      "gefuehl": "pride"
+     }
+    },
+    {
+     "text": "Stands in front of the camera, so it sees him and not her.",
+     "folgen": [
+      {
+       "vertrauen": [
+        "charly",
+        6
+       ]
+      },
+      {
+       "weiter": "a3_mast_wende"
+      }
+     ],
+     "zeile": {
+      "wer": "charly",
+      "text": "Nobody ever stood there before. Seven out of ten for height. Ten for the rest.",
+      "gefuehl": "gratitude"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_mast_r_rast",
+   "art": "ort",
+   "ton": "ernst",
+   "titel": "The Red Light",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "antenna_ridge",
+   "personen": {
+    "handelnd": "rosi",
+    "betroffen": []
+   },
+   "sets": {
+    "rosi": "Engine Room"
+   },
+   "lage": "A small fire below the ridge. Rosi has taken her boots off and is cleaning cobra oil from her spanner.",
+   "zeilen": [
+    {
+     "wer": "rosi",
+     "text": "Papa had three rules. Every thread on his machines turned the wrong way, left, so thieves gave up. Never cut the red wire first.",
+     "gefuehl": "caring"
+    },
+    {
+     "wer": "rosi",
+     "text": "And: listen to the machine. Where it hums high, that's where it hurts. Old Lady, his press, hummed high on the left side. That's where the crack was.",
+     "gefuehl": "sadness"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Listens and says nothing.",
+     "folgen": [
+      {
+       "weiter": "a3_mast_r_kasten"
+      }
+     ]
+    },
+    {
+     "text": "“He sounds like a good teacher.”",
+     "folgen": [
+      {
+       "weiter": "a3_mast_r_kasten"
+      }
+     ],
+     "zeile": {
+      "wer": "rosi",
+      "text": "He was. He is. He sells tomatoes now.",
+      "gefuehl": "sadness"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_mast_r_kasten",
+   "art": "ort",
+   "ton": "ernst",
+   "titel": "The Red Light",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "antenna_ridge",
+   "personen": {
+    "handelnd": "rosi",
+    "betroffen": []
+   },
+   "sets": {
+    "rosi": "Engine Room"
+   },
+   "lage": "Rosi opens the control box on the mast. Inside there is a metal plate: assembled in Catania. Under it, a street name. Rosi goes very still.",
+   "zeilen": [
+    {
+     "wer": "rosi",
+     "text": "That's Papa's street. Lot 14. They built this where his workshop was. ...And look. Every thread turns left.",
+     "gefuehl": "grief"
+    },
+    {
+     "wer": "rosi",
+     "text": "Officer. Three screws, two wires, one hum. Tell me where to start.",
+     "gefuehl": "nervousness"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Left. Everything turns left. Your father's rule.”",
+     "folgen": [
+      {
+       "flag": "a3_mast_frage_1"
+      },
+      {
+       "weiter": "a3_mast_r_draht"
+      }
+     ],
+     "zeile": {
+      "wer": "rosi",
+      "text": "Left. They copied him, Officer. They took his street and his tricks.",
+      "gefuehl": "anger"
+     }
+    },
+    {
+     "text": "“Right, like every other screw.”",
+     "folgen": [
+      {
+       "kampf": "a3_mast_alarm"
+      },
+      {
+       "weiter": "a3_mast_r_kasten"
+      }
+     ],
+     "zeile": {
+      "wer": "rosi",
+      "text": "No! Wrong way, it's locking! Drones!",
+      "gefuehl": "fear"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_mast_r_draht",
+   "art": "ort",
+   "ton": "ernst",
+   "titel": "The Red Light",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "antenna_ridge",
+   "personen": {
+    "handelnd": "rosi",
+    "betroffen": []
+   },
+   "sets": {
+    "rosi": "Engine Room"
+   },
+   "lage": "Two wires: red and black. The box hums.",
+   "zeilen": [
+    {
+     "wer": "rosi",
+     "text": "Which one first?",
+     "gefuehl": "nervousness"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Not the red one first. Black.”",
+     "folgen": [
+      {
+       "flag": "a3_mast_frage_2"
+      },
+      {
+       "weiter": "a3_mast_r_old_lady"
+      }
+     ],
+     "zeile": {
+      "wer": "rosi",
+      "text": "Black. ...Good. Papa would say: good.",
+      "gefuehl": "relief"
+     }
+    },
+    {
+     "text": "“Red. It's always the red one.”",
+     "folgen": [
+      {
+       "kampf": "a3_mast_alarm"
+      },
+      {
+       "weiter": "a3_mast_r_draht"
+      }
+     ],
+     "zeile": {
+      "wer": "rosi",
+      "text": "Not in this family! Alarm!",
+      "gefuehl": "fear"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_mast_r_old_lady",
+   "art": "ort",
+   "ton": "ernst",
+   "titel": "The Red Light",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "antenna_ridge",
+   "personen": {
+    "handelnd": "rosi",
+    "betroffen": []
+   },
+   "sets": {
+    "rosi": "Engine Room"
+   },
+   "lage": "The mast hums. Rosi puts her ear against the box, the way she does with the generator on the yacht. Then she puts her hand flat on the left side.",
+   "zeilen": [
+    {
+     "wer": "rosi",
+     "text": "It hums high on the left. Like Old Lady. ...I love machines, Officer. I've never killed one on purpose.",
+     "gefuehl": "grief"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Puts his hand next to hers on the box.",
+     "folgen": [
+      {
+       "flag": "a3_mast_frage_3"
+      },
+      {
+       "vertrauen": [
+        "rosi",
+        6
+       ]
+      },
+      {
+       "weiter": "a3_mast_wende"
+      }
+     ],
+     "zeile": {
+      "wer": "rosi",
+      "text": "Sorry, Old Lady. It's not your fault who built you.",
+      "gefuehl": "grief"
+     }
+    },
+    {
+     "text": "“It's not her, Rosi. It just looks like her.”",
+     "folgen": [
+      {
+       "flag": "a3_mast_frage_3"
+      },
+      {
+       "vertrauen": [
+        "rosi",
+        4
+       ]
+      },
+      {
+       "weiter": "a3_mast_wende"
+      }
+     ],
+     "zeile": {
+      "wer": "rosi",
+      "text": "I know. That's the worst part.",
+      "gefuehl": "sadness"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_mast_wende",
+   "art": "ort",
+   "ton": "ernst",
+   "titel": "The Red Light",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "antenna_ridge",
+   "personen": {},
+   "sets": {},
+   "lage": "Inside the box is a memory card. On the small screen: the night of the siege, filmed from up here. The men in white walk along the north road to the barricade, an hour before the attack. And there, in front of the church, a small figure that doesn't move: you.",
+   "zeilen": [
+    {
+     "wer": "charly",
+     "text": "It saw everything. It just never told anyone.",
+     "gefuehl": "sadness",
+     "gruppe": "wer",
+     "wenn": {
+      "alle": [
+       {
+        "flag": "rt_charly_bleibt"
+       },
+       {
+        "nicht": {
+         "flag": "rt_charly_weg"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "wer": "rosi",
+     "text": "It saw everything, Officer. It just never told anyone.",
+     "gefuehl": "sadness",
+     "gruppe": "wer",
+     "wenn": null
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Takes the memory card.",
+     "folgen": [
+      {
+       "flag": "a3_mast_aufnahme"
+      },
+      {
+       "weiter": "a3_mast_waechter"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_mast_waechter",
+   "art": "ort",
+   "ton": "ernst",
+   "titel": "The Red Light",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "antenna_ridge",
+   "personen": {},
+   "sets": {},
+   "lage": "Behind the mast, something big unfolds from the rocks: a heavy robot with an armoured head, and a scorpion at its feet. The guardian.",
+   "zeilen": [
+    {
+     "wer": "charly",
+     "text": "Page one of the catalogue. The expensive one.",
+     "gefuehl": "fear",
+     "gruppe": "wer",
+     "wenn": {
+      "alle": [
+       {
+        "flag": "rt_charly_bleibt"
+       },
+       {
+        "nicht": {
+         "flag": "rt_charly_weg"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "wer": "rosi",
+     "text": "That's not a robot, that's a fridge with opinions. Get ready!",
+     "gefuehl": "fear",
+     "gruppe": "wer",
+     "wenn": null
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Steps between the guardian and the mast.",
+     "folgen": [
+      {
+       "kampf": "a3_mast_waechter"
+      },
+      {
+       "weiter": "a3_mast_wahl"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_mast_wahl",
+   "art": "ort",
+   "ton": "ernst",
+   "titel": "The Red Light",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "antenna_ridge",
+   "personen": {},
+   "sets": {},
+   "lage": "The guardian lies still between the rocks. Good steel, a lot of it. The red light still blinks above you. Down in the bay, the village sleeps.",
+   "zeilen": [
+    {
+     "wer": "charly",
+     "text": "Duc. I can switch it off, and it's gone. Or I leave it on, and Elsa hears everything it hears. Then my mother watches forever. Your choice is mine, today. What do we do?",
+     "gefuehl": "nervousness",
+     "gruppe": "wer",
+     "wenn": {
+      "alle": [
+       {
+        "flag": "rt_charly_bleibt"
+       },
+       {
+        "nicht": {
+         "flag": "rt_charly_weg"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "wer": "rosi",
+     "text": "Officer. Off, and it's dead. Or on, and Elsa gets every word it hears, until the commission. What do we do?",
+     "gefuehl": "nervousness",
+     "gruppe": "wer",
+     "wenn": null
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Switch it off.”",
+     "folgen": [
+      {
+       "flag": "a3_mast_aus"
+      },
+      {
+       "flag": "a3_mast_fertig"
+      },
+      {
+       "weiter": "a3_mast_aus"
+      }
+     ]
+    },
+    {
+     "text": "“Leave it on. Send everything to Elsa.”",
+     "folgen": [
+      {
+       "flag": "a3_mast_an"
+      },
+      {
+       "flag": "a3_mast_fertig"
+      },
+      {
+       "weiter": "a3_mast_an"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_mast_aus",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "The Red Light",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "antenna_ridge",
+   "personen": {},
+   "sets": {},
+   "lage": "The red light goes out. A second later, all over the bay, small lights fall from the sky into the sea, one after the other, like shooting stars. The drones. Down in the village, a window opens, then another.",
+   "zeilen": [
+    {
+     "wer": "charly",
+     "text": "Nobody's watching. ...Is this what everybody else has?",
+     "gefuehl": "sadness",
+     "gruppe": "wer",
+     "wenn": {
+      "alle": [
+       {
+        "flag": "rt_charly_bleibt"
+       },
+       {
+        "nicht": {
+         "flag": "rt_charly_weg"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "wer": "rosi",
+     "text": "Look at them fall. ...That's the most beautiful thing I ever broke.",
+     "gefuehl": "sadness",
+     "gruppe": "wer",
+     "wenn": null
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Sits down next to her in the dark.",
+     "folgen": []
+    }
+   ]
+  },
+  {
+   "id": "a3_mast_an",
+   "art": "ort",
+   "ton": "ernst",
+   "titel": "The Red Light",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "antenna_ridge",
+   "personen": {
+    "handelnd": "elsa",
+    "betroffen": []
+   },
+   "sets": {
+    "elsa": "Standard"
+   },
+   "lage": "The red light keeps blinking. The camera turns away from you and looks down at the village, at the road, at the villa on the other side of the bay.",
+   "zeilen": [
+    {
+     "wer": "charly",
+     "text": "Then watch, Maman. Watch what he did.",
+     "gefuehl": "anger",
+     "gruppe": "wer",
+     "wenn": {
+      "alle": [
+       {
+        "flag": "rt_charly_bleibt"
+       },
+       {
+        "nicht": {
+         "flag": "rt_charly_weg"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "wer": "rosi",
+     "text": "Elsa gets everything. Every drone, every word. Let it watch him for a change.",
+     "gefuehl": "anger",
+     "gruppe": "wer",
+     "wenn": null
+    },
+    {
+     "wer": "elsa",
+     "text": "I have it. All of it. ...Come down carefully. And thank you.",
+     "gefuehl": "gratitude"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Walks down the path in the blinking red light.",
+     "folgen": []
     }
    ]
   }

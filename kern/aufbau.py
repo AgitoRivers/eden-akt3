@@ -15,9 +15,10 @@ ORTE = {"post": "Post Office", "batu": "Ba Tu's Shop", "bar": "Alva's Bar", "wer
 BESITZER = {"post": "mina", "batu": "batu", "bar": "alva", "werkstatt": "petru"}
 # Drei Stufen je Haus (Duc 04.11.2026 bestaetigt): Geruest aus Holz, Dach, zuletzt das Eisen. Die letzte oeffnet den Ort wieder.
 STUFEN = {
-    "post": ({"timber": 4}, {"slate": 3, "cork": 2}, {"cork": 2, "iron": 2}),
-    "batu": ({"timber": 3, "granite": 2}, {"slate": 3}, {"granite": 4, "iron": 1}),
-    "bar": ({"timber": 4}, {"timber": 2, "slate": 2}, {"iron": 3}),
+    # Duc 04.11.2026: der Stahl der Roboter (The Red Light, Scrap Field, Villa) gehoert in jede letzte Stufe
+    "post": ({"timber": 4}, {"slate": 3, "cork": 2}, {"cork": 2, "iron": 1, "steel": 1}),
+    "batu": ({"timber": 3, "granite": 2}, {"slate": 3}, {"granite": 4, "steel": 1}),
+    "bar": ({"timber": 4}, {"timber": 2, "slate": 2}, {"iron": 2, "steel": 1}),
     "werkstatt": ({"timber": 5}, {"timber": 2, "slate": 3}, {"iron": 2, "steel": 2}),
 }
 RABATT = 0.8                       # Charlys Geld (E-125)

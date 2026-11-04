@@ -25,7 +25,7 @@ Format
 
     python kaempfe_eden_rise.py   -> module\eden_rise\kaempfe.json (validated)
 """
-import json, os, sys
+import copy, json, os, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 EDEN = os.path.dirname(os.path.dirname(HERE))    # werkzeuge\eden_rise -> Eden
@@ -771,6 +771,10 @@ CHIPS["drops"].update(_red_trio.DROPS)
 # Akt 3 (04.11.2026): Scrap Field, Villa-Keller, Endkampf gegen Alon (kaempfe_akt3.py)
 import kaempfe_akt3 as _akt3  # noqa: E402
 ENEMIES.update(_akt3.ENEMIES)
+for _vid, _q in _akt3.KLONE.items():                      # Roboter aus der Belagerung als echte Gegner (The Red Light)
+    _w = copy.deepcopy(ENEMIES[_q["vorlage"]])
+    _w.update({_k: _v for _k, _v in _q.items() if _k != "vorlage"})
+    ENEMIES[_vid] = _w
 ENCOUNTERS.update(_akt3.ENCOUNTERS)
 
 # Finten (Duc 03.11.2026, Paket "Lesen statt rechnen", Vorbild Clair Obscur): ein Angriff je Gegnerart hat einen eigenen

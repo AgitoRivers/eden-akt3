@@ -27694,6 +27694,300 @@
    "quelle": "erinnerung"
   },
   {
+   "wer": "kommissar",
+   "text": "First question. The fire on the night of the twenty-second. Maître, your client's version.",
+   "gesprochen": "[clear throat] First question. The fire on the night of the twenty-second. Maître, your client's version.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "A band of pirates attacked this village on their own, for loot. It is sad, but it is simple.",
+   "gesprochen": "[clear throat] A band of pirates attacked this village on their own, for loot. It is sad, but it is simple.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "Pirates steal, Commissioner. That is what the word means. Nobody needs to pay a pirate to be a pirate.",
+   "gesprochen": "[chuckle] Pirates steal, Commissioner. That is what the word means. Nobody needs to pay a pirate to be a pirate.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "Nobody could have known it was coming. Not the village, not my client.",
+   "gesprochen": "[sigh] Nobody could have known it was coming. Not the village, not my client.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "Nobody. Not one call, not one warning. If someone knew, they kept it to themselves.",
+   "gesprochen": "[clear throat] Nobody. Not one call, not one warning. If someone knew, they kept it to themselves.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "My client's security team arrived in forty minutes and saved lives. Zero dead.",
+   "gesprochen": "[clear throat] My client's security team arrived in forty minutes and saved lives. Zero dead.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "Forty minutes, door to door. It was on every screen in Europe. Ask anyone on this square who saw them.",
+   "gesprochen": "[chuckle] Forty minutes, door to door. It was on every screen in Europe. Ask anyone on this square who saw them.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "...Maître. Would you like to say that sentence again? Slowly?",
+   "gesprochen": "[sigh] ...Maître. Would you like to say that sentence again? Slowly?",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "I... my client was misinformed about the details. The details.",
+   "gesprochen": "[cough] I... my client was misinformed about the details. The details.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "petru",
+   "text": "Hm. The sea doesn't lie either.",
+   "gesprochen": "[clear throat] Hm. The sea doesn't lie either.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "Second question. How did the attackers get into the village?",
+   "gesprochen": "[clear throat] Second question. How did the attackers get into the village?",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "The north barricade broke under the attack. Old wood, Commissioner. It simply gave way.",
+   "gesprochen": "[clear throat] The north barricade broke under the attack. Old wood, Commissioner. It simply gave way.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "Broken, yes. From the outside, by force. It was closed and locked until the very end. I have that in writing.",
+   "gesprochen": "[sigh] Broken, yes. From the outside, by force. It was closed and locked until the very end. I have that in writing.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "The men in white were my client's security. They came to protect the village, not to attack it.",
+   "gesprochen": "[clear throat] The men in white were my client's security. They came to protect the village, not to attack it.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "They came when they heard the shots. Not one minute before. Why would they be there before?",
+   "gesprochen": "[chuckle] They came when they heard the shots. Not one minute before. Why would they be there before?",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "And frankly, nobody in this village saw who came through. It was dark, there was smoke, people were afraid.",
+   "gesprochen": "[sigh] And frankly, nobody in this village saw who came through. It was dark, there was smoke, people were afraid.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "Not one person. If somebody here saw something, why didn't they say so at the time?",
+   "gesprochen": "[clear throat] Not one person. If somebody here saw something, why didn't they say so at the time?",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "So the barricade did not break. It was opened. Clerk, write that down. In capitals.",
+   "gesprochen": "[gasp] So the barricade did not break. It was opened. Clerk, write that down. In capitals.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "Commissioner, I must ask for a short pause. ...No? No pause. I see.",
+   "gesprochen": "[cough] Commissioner, I must ask for a short pause. ...No? No pause. I see.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "mina",
+   "text": "They're writing it down. In capitals!",
+   "gesprochen": "[gasp] They're writing it down. In capitals!",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "Last question. Money. Who paid whom, and for what?",
+   "gesprochen": "[clear throat] Last question. Money. Who paid whom, and for what?",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "A.V. bought loans in this village to help people. Banks were cruel, my client was kind.",
+   "gesprochen": "[clear throat] A.V. bought loans in this village to help people. Banks were cruel, my client was kind.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "Lower interest, longer terms. Read the contracts. They are generous.",
+   "gesprochen": "[sigh] Lower interest, longer terms. Read the contracts. They are generous.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "And nobody can prove that my client paid a single euro to anyone in this bay. Not one euro.",
+   "gesprochen": "[chuckle] And nobody can prove that my client paid a single euro to anyone in this bay. Not one euro.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "Bring me a bank transfer, a signature, a receipt. You can't. Because there is none.",
+   "gesprochen": "[chuckle] Bring me a bank transfer, a signature, a receipt. You can't. Because there is none.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "My client has never threatened anyone. Not with a letter, not with a word.",
+   "gesprochen": "[clear throat] My client has never threatened anyone. Not with a letter, not with a word.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "A letter about a loan is not a threat. It is a letter. People send letters.",
+   "gesprochen": "[sigh] A letter about a loan is not a threat. It is a letter. People send letters.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "Page forty-one, Maître. Or a receipt. Or a man without his legs. Choose which one you'd like to explain first.",
+   "gesprochen": "[sigh] Page forty-one, Maître. Or a receipt. Or a man without his legs. Choose which one you'd like to explain first.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "...I would like to speak with my client.",
+   "gesprochen": "[cough] ...I would like to speak with my client.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "batu",
+   "text": "Eat, Maître. You look pale.",
+   "gesprochen": "[chuckle] Eat, Maître. You look pale.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "One last thing. This village is not innocent. A cash book, from the deputy mayor's drawer. The priest. The man with the braces. Your own mayor, Madame Casanova. They all took his money.",
+   "gesprochen": "[clear throat] One last thing. This village is not innocent. A cash book, from the deputy mayor's drawer. The priest. The man with the braces. Your own mayor, Madame Casanova. They all took his money.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "...First Officer. Lieutenant Elsa says you have the original. All of it, or only the part about Alon?",
+   "gesprochen": "[sigh] ...First Officer. Lieutenant Elsa says you have the original. All of it, or only the part about Alon?",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "casanova",
+   "text": "Yes. Me too. Write my name first.",
+   "gesprochen": "[sigh] Yes. Me too. Write my name first.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "A village that confesses its own debts. Twenty-two years in this job, and that is a first.",
+   "gesprochen": "[clear throat] A village that confesses its own debts. Twenty-two years in this job, and that is a first.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "casanova",
+   "text": "...Thank you, Monsieur. I won't forget it. Neither will he.",
+   "gesprochen": "[sigh] ...Thank you, Monsieur. I won't forget it. Neither will he.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "Noted. The rest of the book stays a village matter. For now.",
+   "gesprochen": "[clear throat] Noted. The rest of the book stays a village matter. For now.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "We are here to find out what happened in this bay on the twenty-first, twenty-second and twenty-third. Maître Delorme speaks for A.V. You speak for the village. Three questions.",
+   "gesprochen": "[clear throat] We are here to find out what happened in this bay on the twenty-first, twenty-second and twenty-third. Maître Delorme speaks for A.V. You speak for the village. Three questions.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "Commissioner. Gentlemen. Good people of Cala d'Orsu. My client sends his warmest regards. He is very busy saving the world.",
+   "gesprochen": "[chuckle] Commissioner. Gentlemen. Good people of Cala d'Orsu. My client sends his warmest regards. He is very busy saving the world.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "That doesn't answer the sentence, First Officer.",
+   "gesprochen": "[sigh] That doesn't answer the sentence, First Officer.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "We are not here for guesses. Please.",
+   "gesprochen": "[clear throat] We are not here for guesses. Please.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "My patience is a small boat, First Officer. Don't make it sink.",
+   "gesprochen": "[sigh] My patience is a small boat, First Officer. Don't make it sink.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "Objection to the objection. That sentence happens to be true.",
+   "gesprochen": "[chuckle] Objection to the objection. That sentence happens to be true.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "anwalt",
+   "text": "I said nothing of the kind, Commissioner. Perhaps the First Officer should listen first.",
+   "gesprochen": "[clear throat] I said nothing of the kind, Commissioner. Perhaps the First Officer should listen first.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "Enough. We have heard enough guesses. We will decide with what we have.",
+   "gesprochen": "[sigh] Enough. We have heard enough guesses. We will decide with what we have.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "No answer? Then the sentence stands as it is.",
+   "gesprochen": "[sigh] No answer? Then the sentence stands as it is.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "Thank you. We have what we need. All three questions. You'll know tonight, but I think you know already.",
+   "gesprochen": "[clear throat] Thank you. We have what we need. All three questions. You'll know tonight, but I think you know already.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "Thank you. Two questions answered, one still open. You'll know tonight.",
+   "gesprochen": "[clear throat] Thank you. Two questions answered, one still open. You'll know tonight.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "Thank you. One answer is not much. You'll know tonight.",
+   "gesprochen": "[sigh] Thank you. One answer is not much. You'll know tonight.",
+   "quelle": "akt3_kommission"
+  },
+  {
+   "wer": "kommissar",
+   "text": "Thank you, everyone. We will write our report. Don't expect too much from it.",
+   "gesprochen": "[sigh] Thank you, everyone. We will write our report. Don't expect too much from it.",
+   "quelle": "akt3_kommission"
+  },
+  {
    "wer": "mina",
    "text": "Sorry, Yacht. I don't know what to say to you today.",
    "gesprochen": "[sigh] Sorry, Yacht. I don't know what to say to you today.",
@@ -28561,6 +28855,12 @@
    "wer": "rosi",
    "text": "Liar. Give me the brush.",
    "gesprochen": "[chuckle] Liar. Give me the brush.",
+   "quelle": "akt3_woche4"
+  },
+  {
+   "wer": "charly",
+   "text": "I switched off one of my mother's machines on the ridge. Now her money. My mother's company sells to Alon. I moved some of it tonight. Quietly. For the houses.",
+   "gesprochen": "[sigh] I switched off one of my mother's machines on the ridge. Now her money. My mother's company sells to Alon. I moved some of it tonight. Quietly. For the houses.",
    "quelle": "akt3_woche4"
   },
   {
@@ -31270,6 +31570,18 @@
    "quelle": "akt3_finale"
   },
   {
+   "wer": "ghjuvan",
+   "text": "The red light on the ridge went out. I slept for the first time in a month. So did my sheep.",
+   "gesprochen": "[sigh] The red light on the ridge went out. I slept for the first time in a month. So did my sheep.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "charly",
+   "text": "...Up there it's still blinking. She's watching. Let her watch this.",
+   "gesprochen": "[clear throat] ...Up there it's still blinking. She's watching. Let her watch this.",
+   "quelle": "akt3_finale"
+  },
+  {
    "wer": "lola",
    "text": "Nan's on the phone! Say hello to the whole village, Nan!",
    "gesprochen": "[laugh] Nan's on the phone! Say hello to the whole village, Nan!",
@@ -31780,298 +32092,316 @@
    "quelle": "akt3_sandru"
   },
   {
-   "wer": "kommissar",
-   "text": "First question. The fire on the night of the twenty-second. Maître, your client's version.",
-   "gesprochen": "[clear throat] First question. The fire on the night of the twenty-second. Maître, your client's version.",
-   "quelle": "akt3_kommission"
+   "wer": "charly",
+   "text": "It's a mast. My mother's company makes them. I know the model. Seven out of ten for hiding it.",
+   "gesprochen": "[sigh] It's a mast. My mother's company makes them. I know the model. Seven out of ten for hiding it.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "anwalt",
-   "text": "A band of pirates attacked this village on their own, for loot. It is sad, but it is simple.",
-   "gesprochen": "[clear throat] A band of pirates attacked this village on their own, for loot. It is sad, but it is simple.",
-   "quelle": "akt3_kommission"
+   "wer": "rosi",
+   "text": "It's a relay mast, Officer. Brand new. The drones talk to it, the men in white talk to it. I want to see its insides.",
+   "gesprochen": "[clear throat] It's a relay mast, Officer. Brand new. The drones talk to it, the men in white talk to it. I want to see its insides.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "anwalt",
-   "text": "Pirates steal, Commissioner. That is what the word means. Nobody needs to pay a pirate to be a pirate.",
-   "gesprochen": "[chuckle] Pirates steal, Commissioner. That is what the word means. Nobody needs to pay a pirate to be a pirate.",
-   "quelle": "akt3_kommission"
+   "wer": "elsa",
+   "text": "I'll wait at the bottom of the path with the car. If you find anything, it comes to me. Not to Pascal, not to anyone. To me.",
+   "gesprochen": "[clear throat] I'll wait at the bottom of the path with the car. If you find anything, it comes to me. Not to Pascal, not to anyone. To me.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "anwalt",
-   "text": "Nobody could have known it was coming. Not the village, not my client.",
-   "gesprochen": "[sigh] Nobody could have known it was coming. Not the village, not my client.",
-   "quelle": "akt3_kommission"
+   "wer": "wolff",
+   "text": "The goat path goes round the drones. I know it from before. The Legion pays its debts. Follow me, and don't talk.",
+   "gesprochen": "[clear throat] The goat path goes round the drones. I know it from before. The Legion pays its debts. Follow me, and don't talk.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "anwalt",
-   "text": "Nobody. Not one call, not one warning. If someone knew, they kept it to themselves.",
-   "gesprochen": "[clear throat] Nobody. Not one call, not one warning. If someone knew, they kept it to themselves.",
-   "quelle": "akt3_kommission"
+   "wer": "charly",
+   "text": "Cobras. Mother's catalogue, page twelve. Don't let them get behind you.",
+   "gesprochen": "[gasp] Cobras. Mother's catalogue, page twelve. Don't let them get behind you.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "anwalt",
-   "text": "My client's security team arrived in forty minutes and saved lives. Zero dead.",
-   "gesprochen": "[clear throat] My client's security team arrived in forty minutes and saved lives. Zero dead.",
-   "quelle": "akt3_kommission"
+   "wer": "rosi",
+   "text": "Cobra robots. Beautiful welding. I hate that it's beautiful.",
+   "gesprochen": "[gasp] Cobra robots. Beautiful welding. I hate that it's beautiful.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "anwalt",
-   "text": "Forty minutes, door to door. It was on every screen in Europe. Ask anyone on this square who saw them.",
-   "gesprochen": "[chuckle] Forty minutes, door to door. It was on every screen in Europe. Ask anyone on this square who saw them.",
-   "quelle": "akt3_kommission"
+   "wer": "charly",
+   "text": "Every birthday, my mother watched me on a screen. She was never in the room. Twelve birthdays, twelve screens.",
+   "gesprochen": "[sigh] Every birthday, my mother watched me on a screen. She was never in the room. Twelve birthdays, twelve screens.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "kommissar",
-   "text": "...Maître. Would you like to say that sentence again? Slowly?",
-   "gesprochen": "[sigh] ...Maître. Would you like to say that sentence again? Slowly?",
-   "quelle": "akt3_kommission"
+   "wer": "charly",
+   "text": "I wanted a dog. For my twelfth, she gave me a taser instead. Model R-7. From her own catalogue. I named it. I'm not telling you what.",
+   "gesprochen": "[sigh] I wanted a dog. For my twelfth, she gave me a taser instead. Model R-7. From her own catalogue. I named it. I'm not telling you what.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "anwalt",
-   "text": "I... my client was misinformed about the details. The details.",
-   "gesprochen": "[cough] I... my client was misinformed about the details. The details.",
-   "quelle": "akt3_kommission"
+   "wer": "charly",
+   "text": "There was one place her cameras couldn't see: under her desk in the office in Marseille. I hid there. Four out of ten as a hiding place. Ten out of ten for quiet.",
+   "gesprochen": "[clear throat] There was one place her cameras couldn't see: under her desk in the office in Marseille. I hid there. Four out of ten as a hiding place. Ten out of ten for quiet.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "petru",
-   "text": "Hm. The sea doesn't lie either.",
-   "gesprochen": "[clear throat] Hm. The sea doesn't lie either.",
-   "quelle": "akt3_kommission"
+   "wer": "charly",
+   "text": "Yes I do. Somebody has to switch her off. I'd rather it's me.",
+   "gesprochen": "[sigh] Yes I do. Somebody has to switch her off. I'd rather it's me.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "kommissar",
-   "text": "Second question. How did the attackers get into the village?",
-   "gesprochen": "[clear throat] Second question. How did the attackers get into the village?",
-   "quelle": "akt3_kommission"
+   "wer": "charly",
+   "text": "Security question one. 'First pet.' ...She set these questions herself. Of course she did.",
+   "gesprochen": "[sigh] Security question one. 'First pet.' ...She set these questions herself. Of course she did.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "anwalt",
-   "text": "The north barricade broke under the attack. Old wood, Commissioner. It simply gave way.",
-   "gesprochen": "[clear throat] The north barricade broke under the attack. Old wood, Commissioner. It simply gave way.",
-   "quelle": "akt3_kommission"
+   "wer": "charly",
+   "text": "...Accepted. She remembers the taser. She remembers.",
+   "gesprochen": "[sniff] ...Accepted. She remembers the taser. She remembers.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "anwalt",
-   "text": "Broken, yes. From the outside, by force. It was closed and locked until the very end. I have that in writing.",
-   "gesprochen": "[sigh] Broken, yes. From the outside, by force. It was closed and locked until the very end. I have that in writing.",
-   "quelle": "akt3_kommission"
+   "wer": "charly",
+   "text": "Wrong. Alarm. They're coming.",
+   "gesprochen": "[gasp] Wrong. Alarm. They're coming.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "anwalt",
-   "text": "The men in white were my client's security. They came to protect the village, not to attack it.",
-   "gesprochen": "[clear throat] The men in white were my client's security. They came to protect the village, not to attack it.",
-   "quelle": "akt3_kommission"
+   "wer": "charly",
+   "text": "That's Bibi's answer, not mine. Alarm!",
+   "gesprochen": "[gasp] That's Bibi's answer, not mine. Alarm!",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "anwalt",
-   "text": "They came when they heard the shots. Not one minute before. Why would they be there before?",
-   "gesprochen": "[chuckle] They came when they heard the shots. Not one minute before. Why would they be there before?",
-   "quelle": "akt3_kommission"
+   "wer": "charly",
+   "text": "'Favourite place.'",
+   "gesprochen": "[clear throat] 'Favourite place.'",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "anwalt",
-   "text": "And frankly, nobody in this village saw who came through. It was dark, there was smoke, people were afraid.",
-   "gesprochen": "[sigh] And frankly, nobody in this village saw who came through. It was dark, there was smoke, people were afraid.",
-   "quelle": "akt3_kommission"
+   "wer": "charly",
+   "text": "...Accepted. She knew. All those years, she knew where I was hiding.",
+   "gesprochen": "[sigh] ...Accepted. She knew. All those years, she knew where I was hiding.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "anwalt",
-   "text": "Not one person. If somebody here saw something, why didn't they say so at the time?",
-   "gesprochen": "[clear throat] Not one person. If somebody here saw something, why didn't they say so at the time?",
-   "quelle": "akt3_kommission"
+   "wer": "charly",
+   "text": "Too big. She wants the exact place. Alarm!",
+   "gesprochen": "[gasp] Too big. She wants the exact place. Alarm!",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "kommissar",
-   "text": "So the barricade did not break. It was opened. Clerk, write that down. In capitals.",
-   "gesprochen": "[gasp] So the barricade did not break. It was opened. Clerk, write that down. In capitals.",
-   "quelle": "akt3_kommission"
+   "wer": "charly",
+   "text": "That's mine, not hers. She doesn't know it exists. Alarm.",
+   "gesprochen": "[sigh] That's mine, not hers. She doesn't know it exists. Alarm.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "anwalt",
-   "text": "Commissioner, I must ask for a short pause. ...No? No pause. I see.",
-   "gesprochen": "[cough] Commissioner, I must ask for a short pause. ...No? No pause. I see.",
-   "quelle": "akt3_kommission"
+   "wer": "charly",
+   "text": "'What makes Charlotte happy?' ...She wrote the answer herself. I know what she wrote: Being the best.",
+   "gesprochen": "[sigh] 'What makes Charlotte happy?' ...She wrote the answer herself. I know what she wrote: Being the best.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "mina",
-   "text": "They're writing it down. In capitals!",
-   "gesprochen": "[gasp] They're writing it down. In capitals!",
-   "quelle": "akt3_kommission"
+   "wer": "charly",
+   "text": "Duc. If I type her answer, it opens. If I type mine, it won't. Which one do I type?",
+   "gesprochen": "[clear throat] Duc. If I type her answer, it opens. If I type mine, it won't. Which one do I type?",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "kommissar",
-   "text": "Last question. Money. Who paid whom, and for what?",
-   "gesprochen": "[clear throat] Last question. Money. Who paid whom, and for what?",
-   "quelle": "akt3_kommission"
+   "wer": "charly",
+   "text": "...Accepted. Being the best. It's open. I feel sick.",
+   "gesprochen": "[sigh] ...Accepted. Being the best. It's open. I feel sick.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "anwalt",
-   "text": "A.V. bought loans in this village to help people. Banks were cruel, my client was kind.",
-   "gesprochen": "[clear throat] A.V. bought loans in this village to help people. Banks were cruel, my client was kind.",
-   "quelle": "akt3_kommission"
+   "wer": "charly",
+   "text": "Danzel. Ten out of ten. ...Wrong, it says. Good. Alarm. Let them come.",
+   "gesprochen": "[sniff] Danzel. Ten out of ten. ...Wrong, it says. Good. Alarm. Let them come.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "anwalt",
-   "text": "Lower interest, longer terms. Read the contracts. They are generous.",
-   "gesprochen": "[sigh] Lower interest, longer terms. Read the contracts. They are generous.",
-   "quelle": "akt3_kommission"
+   "wer": "charly",
+   "text": "Maman.",
+   "gesprochen": "[clear throat] Maman.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "anwalt",
-   "text": "And nobody can prove that my client paid a single euro to anyone in this bay. Not one euro.",
-   "gesprochen": "[chuckle] And nobody can prove that my client paid a single euro to anyone in this bay. Not one euro.",
-   "quelle": "akt3_kommission"
+   "wer": "charly",
+   "text": "She says: Charlotte. You're cold. Put on your jacket. ...She can see me. Through her own camera.",
+   "gesprochen": "[sigh] She says: Charlotte. You're cold. Put on your jacket. ...She can see me. Through her own camera.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "anwalt",
-   "text": "Bring me a bank transfer, a signature, a receipt. You can't. Because there is none.",
-   "gesprochen": "[chuckle] Bring me a bank transfer, a signature, a receipt. You can't. Because there is none.",
-   "quelle": "akt3_kommission"
+   "wer": "charly",
+   "text": "Six... I can't rate this. I can't.",
+   "gesprochen": "[sniff] Six... I can't rate this. I can't.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "anwalt",
-   "text": "My client has never threatened anyone. Not with a letter, not with a word.",
-   "gesprochen": "[clear throat] My client has never threatened anyone. Not with a letter, not with a word.",
-   "quelle": "akt3_kommission"
+   "wer": "charly",
+   "text": "...Thank you. Don't hang up. Just hold it.",
+   "gesprochen": "[sigh] ...Thank you. Don't hang up. Just hold it.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "anwalt",
-   "text": "A letter about a loan is not a threat. It is a letter. People send letters.",
-   "gesprochen": "[sigh] A letter about a loan is not a threat. It is a letter. People send letters.",
-   "quelle": "akt3_kommission"
+   "wer": "charly",
+   "text": "Maman. I'm not cold. I'm working. Goodbye.",
+   "gesprochen": "[clear throat] Maman. I'm not cold. I'm working. Goodbye.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "kommissar",
-   "text": "Page forty-one, Maître. Or a receipt. Or a man without his legs. Choose which one you'd like to explain first.",
-   "gesprochen": "[sigh] Page forty-one, Maître. Or a receipt. Or a man without his legs. Choose which one you'd like to explain first.",
-   "quelle": "akt3_kommission"
+   "wer": "charly",
+   "text": "Nobody ever stood there before. Seven out of ten for height. Ten for the rest.",
+   "gesprochen": "[sniff] Nobody ever stood there before. Seven out of ten for height. Ten for the rest.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "anwalt",
-   "text": "...I would like to speak with my client.",
-   "gesprochen": "[cough] ...I would like to speak with my client.",
-   "quelle": "akt3_kommission"
+   "wer": "rosi",
+   "text": "Papa had three rules. Every thread on his machines turned the wrong way, left, so thieves gave up. Never cut the red wire first.",
+   "gesprochen": "[sigh] Papa had three rules. Every thread on his machines turned the wrong way, left, so thieves gave up. Never cut the red wire first.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "batu",
-   "text": "Eat, Maître. You look pale.",
-   "gesprochen": "[chuckle] Eat, Maître. You look pale.",
-   "quelle": "akt3_kommission"
+   "wer": "rosi",
+   "text": "And: listen to the machine. Where it hums high, that's where it hurts. Old Lady, his press, hummed high on the left side. That's where the crack was.",
+   "gesprochen": "[clear throat] And: listen to the machine. Where it hums high, that's where it hurts. Old Lady, his press, hummed high on the left side. That's where the crack was.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "anwalt",
-   "text": "One last thing. This village is not innocent. A cash book, from the deputy mayor's drawer. The priest. The man with the braces. Your own mayor, Madame Casanova. They all took his money.",
-   "gesprochen": "[clear throat] One last thing. This village is not innocent. A cash book, from the deputy mayor's drawer. The priest. The man with the braces. Your own mayor, Madame Casanova. They all took his money.",
-   "quelle": "akt3_kommission"
+   "wer": "rosi",
+   "text": "He was. He is. He sells tomatoes now.",
+   "gesprochen": "[sniff] He was. He is. He sells tomatoes now.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "kommissar",
-   "text": "...First Officer. Lieutenant Elsa says you have the original. All of it, or only the part about Alon?",
-   "gesprochen": "[sigh] ...First Officer. Lieutenant Elsa says you have the original. All of it, or only the part about Alon?",
-   "quelle": "akt3_kommission"
+   "wer": "rosi",
+   "text": "That's Papa's street. Lot 14. They built this where his workshop was. ...And look. Every thread turns left.",
+   "gesprochen": "[gasp] That's Papa's street. Lot 14. They built this where his workshop was. ...And look. Every thread turns left.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "casanova",
-   "text": "Yes. Me too. Write my name first.",
-   "gesprochen": "[sigh] Yes. Me too. Write my name first.",
-   "quelle": "akt3_kommission"
+   "wer": "rosi",
+   "text": "Officer. Three screws, two wires, one hum. Tell me where to start.",
+   "gesprochen": "[clear throat] Officer. Three screws, two wires, one hum. Tell me where to start.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "kommissar",
-   "text": "A village that confesses its own debts. Twenty-two years in this job, and that is a first.",
-   "gesprochen": "[clear throat] A village that confesses its own debts. Twenty-two years in this job, and that is a first.",
-   "quelle": "akt3_kommission"
+   "wer": "rosi",
+   "text": "Left. They copied him, Officer. They took his street and his tricks.",
+   "gesprochen": "[sniff] Left. They copied him, Officer. They took his street and his tricks.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "casanova",
-   "text": "...Thank you, Monsieur. I won't forget it. Neither will he.",
-   "gesprochen": "[sigh] ...Thank you, Monsieur. I won't forget it. Neither will he.",
-   "quelle": "akt3_kommission"
+   "wer": "rosi",
+   "text": "No! Wrong way, it's locking! Drones!",
+   "gesprochen": "[gasp] No! Wrong way, it's locking! Drones!",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "kommissar",
-   "text": "Noted. The rest of the book stays a village matter. For now.",
-   "gesprochen": "[clear throat] Noted. The rest of the book stays a village matter. For now.",
-   "quelle": "akt3_kommission"
+   "wer": "rosi",
+   "text": "Which one first?",
+   "gesprochen": "[clear throat] Which one first?",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "kommissar",
-   "text": "We are here to find out what happened in this bay on the twenty-first, twenty-second and twenty-third. Maître Delorme speaks for A.V. You speak for the village. Three questions.",
-   "gesprochen": "[clear throat] We are here to find out what happened in this bay on the twenty-first, twenty-second and twenty-third. Maître Delorme speaks for A.V. You speak for the village. Three questions.",
-   "quelle": "akt3_kommission"
+   "wer": "rosi",
+   "text": "Black. ...Good. Papa would say: good.",
+   "gesprochen": "[sigh] Black. ...Good. Papa would say: good.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "anwalt",
-   "text": "Commissioner. Gentlemen. Good people of Cala d'Orsu. My client sends his warmest regards. He is very busy saving the world.",
-   "gesprochen": "[chuckle] Commissioner. Gentlemen. Good people of Cala d'Orsu. My client sends his warmest regards. He is very busy saving the world.",
-   "quelle": "akt3_kommission"
+   "wer": "rosi",
+   "text": "Not in this family! Alarm!",
+   "gesprochen": "[gasp] Not in this family! Alarm!",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "kommissar",
-   "text": "That doesn't answer the sentence, First Officer.",
-   "gesprochen": "[sigh] That doesn't answer the sentence, First Officer.",
-   "quelle": "akt3_kommission"
+   "wer": "rosi",
+   "text": "It hums high on the left. Like Old Lady. ...I love machines, Officer. I've never killed one on purpose.",
+   "gesprochen": "[sniff] It hums high on the left. Like Old Lady. ...I love machines, Officer. I've never killed one on purpose.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "kommissar",
-   "text": "We are not here for guesses. Please.",
-   "gesprochen": "[clear throat] We are not here for guesses. Please.",
-   "quelle": "akt3_kommission"
+   "wer": "rosi",
+   "text": "Sorry, Old Lady. It's not your fault who built you.",
+   "gesprochen": "[sigh] Sorry, Old Lady. It's not your fault who built you.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "kommissar",
-   "text": "My patience is a small boat, First Officer. Don't make it sink.",
-   "gesprochen": "[sigh] My patience is a small boat, First Officer. Don't make it sink.",
-   "quelle": "akt3_kommission"
+   "wer": "rosi",
+   "text": "I know. That's the worst part.",
+   "gesprochen": "[sniff] I know. That's the worst part.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "anwalt",
-   "text": "Objection to the objection. That sentence happens to be true.",
-   "gesprochen": "[chuckle] Objection to the objection. That sentence happens to be true.",
-   "quelle": "akt3_kommission"
+   "wer": "charly",
+   "text": "It saw everything. It just never told anyone.",
+   "gesprochen": "[sigh] It saw everything. It just never told anyone.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "anwalt",
-   "text": "I said nothing of the kind, Commissioner. Perhaps the First Officer should listen first.",
-   "gesprochen": "[clear throat] I said nothing of the kind, Commissioner. Perhaps the First Officer should listen first.",
-   "quelle": "akt3_kommission"
+   "wer": "rosi",
+   "text": "It saw everything, Officer. It just never told anyone.",
+   "gesprochen": "[sigh] It saw everything, Officer. It just never told anyone.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "kommissar",
-   "text": "Enough. We have heard enough guesses. We will decide with what we have.",
-   "gesprochen": "[sigh] Enough. We have heard enough guesses. We will decide with what we have.",
-   "quelle": "akt3_kommission"
+   "wer": "charly",
+   "text": "Page one of the catalogue. The expensive one.",
+   "gesprochen": "[gasp] Page one of the catalogue. The expensive one.",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "kommissar",
-   "text": "No answer? Then the sentence stands as it is.",
-   "gesprochen": "[sigh] No answer? Then the sentence stands as it is.",
-   "quelle": "akt3_kommission"
+   "wer": "rosi",
+   "text": "That's not a robot, that's a fridge with opinions. Get ready!",
+   "gesprochen": "[gasp] That's not a robot, that's a fridge with opinions. Get ready!",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "kommissar",
-   "text": "Thank you. We have what we need. All three questions. You'll know tonight, but I think you know already.",
-   "gesprochen": "[clear throat] Thank you. We have what we need. All three questions. You'll know tonight, but I think you know already.",
-   "quelle": "akt3_kommission"
+   "wer": "charly",
+   "text": "Duc. I can switch it off, and it's gone. Or I leave it on, and Elsa hears everything it hears. Then my mother watches forever. Your choice is mine, today. What do we do?",
+   "gesprochen": "[clear throat] Duc. I can switch it off, and it's gone. Or I leave it on, and Elsa hears everything it hears. Then my mother watches forever. Your choice is mine, today. What do we do?",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "kommissar",
-   "text": "Thank you. Two questions answered, one still open. You'll know tonight.",
-   "gesprochen": "[clear throat] Thank you. Two questions answered, one still open. You'll know tonight.",
-   "quelle": "akt3_kommission"
+   "wer": "rosi",
+   "text": "Officer. Off, and it's dead. Or on, and Elsa gets every word it hears, until the commission. What do we do?",
+   "gesprochen": "[clear throat] Officer. Off, and it's dead. Or on, and Elsa gets every word it hears, until the commission. What do we do?",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "kommissar",
-   "text": "Thank you. One answer is not much. You'll know tonight.",
-   "gesprochen": "[sigh] Thank you. One answer is not much. You'll know tonight.",
-   "quelle": "akt3_kommission"
+   "wer": "charly",
+   "text": "Nobody's watching. ...Is this what everybody else has?",
+   "gesprochen": "[sigh] Nobody's watching. ...Is this what everybody else has?",
+   "quelle": "akt3_mast"
   },
   {
-   "wer": "kommissar",
-   "text": "Thank you, everyone. We will write our report. Don't expect too much from it.",
-   "gesprochen": "[sigh] Thank you, everyone. We will write our report. Don't expect too much from it.",
-   "quelle": "akt3_kommission"
+   "wer": "rosi",
+   "text": "Look at them fall. ...That's the most beautiful thing I ever broke.",
+   "gesprochen": "[sniff] Look at them fall. ...That's the most beautiful thing I ever broke.",
+   "quelle": "akt3_mast"
+  },
+  {
+   "wer": "charly",
+   "text": "Then watch, Maman. Watch what he did.",
+   "gesprochen": "[clear throat] Then watch, Maman. Watch what he did.",
+   "quelle": "akt3_mast"
+  },
+  {
+   "wer": "rosi",
+   "text": "Elsa gets everything. Every drone, every word. Let it watch him for a change.",
+   "gesprochen": "[clear throat] Elsa gets everything. Every drone, every word. Let it watch him for a change.",
+   "quelle": "akt3_mast"
+  },
+  {
+   "wer": "elsa",
+   "text": "I have it. All of it. ...Come down carefully. And thank you.",
+   "gesprochen": "[clear throat] I have it. All of it. ...Come down carefully. And thank you.",
+   "quelle": "akt3_mast"
   }
  ]
 }

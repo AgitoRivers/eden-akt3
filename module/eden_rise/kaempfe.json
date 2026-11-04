@@ -3854,6 +3854,126 @@
     "gruppe": "maschine",
     "sfx": "kampf_unit01"
    }
+  },
+  "a3_kobra": {
+   "name": "Cobra Robot",
+   "sprite": "RobotCobra",
+   "cls": "maschine",
+   "element": null,
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Neck Blades",
+    "icon": "⚙"
+   },
+   "specials": {
+    "w1": {
+     "label": "Hot Oil Spray",
+     "icon": "💨",
+     "bonus": 0,
+     "effect": "geblendet",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Strike from the Grass",
+     "icon": "🐍💥",
+     "bonus": 5,
+     "effect": null,
+     "dodge_only": true
+    }
+   },
+   "weakness": null,
+   "parade": "sprite",
+   "boss": false,
+   "immune": {
+    "charm": "Unit-01 grinds its teeth. Whatever is giving the orders isn't listening to you."
+   },
+   "parade_ziel": 70,
+   "taunt": {
+    "gruppe": "maschine",
+    "sfx": "kampf_unit01"
+   }
+  },
+  "a3_skorpion": {
+   "name": "Scorpion Robot",
+   "sprite": "RobotScorpion",
+   "cls": "maschine",
+   "element": null,
+   "tier": "gefaehrlich",
+   "attack": {
+    "label": "Pincers",
+    "icon": "⚙"
+   },
+   "specials": {
+    "w1": {
+     "label": "Tail Shock",
+     "icon": "⚡",
+     "bonus": 2,
+     "effect": "strom",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Sting",
+     "icon": "🦂💥",
+     "bonus": 6,
+     "effect": null,
+     "dodge_only": false
+    }
+   },
+   "weakness": null,
+   "parade": "sprite",
+   "boss": false,
+   "immune": {
+    "charm": "Unit-01 grinds its teeth. Whatever is giving the orders isn't listening to you."
+   },
+   "parade_ziel": 70,
+   "taunt": {
+    "gruppe": "maschine",
+    "sfx": "kampf_unit01"
+   }
+  },
+  "a3_waechter": {
+   "name": "The Guardian",
+   "sprite": "BoardingRobotHeavy",
+   "cls": "maschine",
+   "element": null,
+   "tier": "toedlich",
+   "attack": {
+    "label": "Hydraulic Fist",
+    "icon": "⚙"
+   },
+   "specials": {
+    "w1": {
+     "label": "Floodlight",
+     "icon": "💡",
+     "bonus": 0,
+     "effect": "geblendet",
+     "dodge_only": false
+    },
+    "s1": {
+     "label": "Full Weight",
+     "icon": "⚙💥",
+     "bonus": 9,
+     "effect": null,
+     "dodge_only": false,
+     "finte": {
+      "art": "zoegern",
+      "bei": 0.75,
+      "halt": 650
+     }
+    }
+   },
+   "weakness": null,
+   "parade": "sprite",
+   "boss": true,
+   "immune": {
+    "charm": "It is a machine. It does not care how you feel.",
+    "courage": "It is a machine. It has no fear to find."
+   },
+   "parade_ziel": 70,
+   "taunt": {
+    "gruppe": "maschine",
+    "sfx": "kampf_unit01"
+   }
   }
  },
  "encounters": {
@@ -8692,6 +8812,164 @@
       }
      ]
     }
+   ]
+  },
+  "a3_mast_strasse": {
+   "title": "The Old Road",
+   "goal": "Get past the patrol",
+   "image": "eden_rise_antenna_ridge.png",
+   "enemy": "agent_fuehrer",
+   "level": 7,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The two agents lie in the dust. The drone above them spins and falls.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "They back off towards the villa.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They're gone.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "A flash, a baton. You wake up on the road, alone.",
+     "folgen": []
+    }
+   },
+   "enemies": [
+    "agent_fuehrer",
+    "agent",
+    "hirtendrohne"
+   ],
+   "lp_faktoren": [
+    0.7,
+    0.5,
+    0.5
+   ]
+  },
+  "a3_mast_kobra": {
+   "title": "Steel in the Grass",
+   "goal": "Get through the macchia",
+   "image": "eden_rise_macchia_path.png",
+   "enemy": "a3_kobra",
+   "level": 7,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The cobras twitch once and lie still in the cistus. Good steel.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "The cobras slide away under the rocks.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They're gone into the grass.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "Something cold wraps around your leg. Then nothing.",
+     "folgen": []
+    }
+   },
+   "enemies": [
+    "a3_kobra",
+    "a3_kobra"
+   ],
+   "lp_faktoren": [
+    0.7,
+    0.7
+   ]
+  },
+  "a3_mast_alarm": {
+   "title": "Alarm",
+   "goal": "Survive the drones",
+   "image": "eden_rise_antenna_ridge.png",
+   "enemy": "hirtendrohne",
+   "level": 7,
+   "flee_allowed": true,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The drones fall between the rocks. The screen on the mast waits.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "The drones fly back to the mast and wait.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "They're gone.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "The drones circle above you until you stop moving.",
+     "folgen": []
+    }
+   },
+   "enemies": [
+    "hirtendrohne",
+    "hirtendrohne"
+   ],
+   "lp_faktoren": [
+    0.6,
+    0.6
+   ]
+  },
+  "a3_mast_waechter": {
+   "title": "The Guardian",
+   "goal": "Protect the mast",
+   "image": "eden_rise_antenna_ridge.png",
+   "enemy": "a3_waechter",
+   "level": 9,
+   "flee_allowed": false,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The guardian falls forward and lies still between the rocks. The scorpion stops ticking.",
+     "folgen": []
+    },
+    "aufgabe": {
+     "text": "The guardian folds itself back into the rocks.",
+     "folgen": []
+    },
+    "entkommen": {
+     "text": "It's gone behind the mast.",
+     "folgen": []
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "A steel fist, then the sky. You wake up below the ridge.",
+     "folgen": []
+    }
+   },
+   "enemies": [
+    "a3_waechter",
+    "a3_skorpion"
+   ],
+   "lp_faktoren": [
+    0.9,
+    0.5
    ]
   }
  },

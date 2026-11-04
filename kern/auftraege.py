@@ -40,7 +40,7 @@ def status(z, a):
 # Akt 3 (Review Nr. 6, Duc 04.11.2026): hoechstens drei Akt-3-Karten gleichzeitig, damit Woche 4 atmet. Reihenfolge:
 # Baustelle, Zeugen, Tafel, dann der Rest in der Reihenfolge der Daten. Romanzen (a3_schluss_*) zaehlen nicht mit.
 AKT3_KARTEN_MAX = 3
-AKT3_VORRANG = ["a3_baustellen", "a3_zeugen", "a3_lose"]
+AKT3_VORRANG = ["a3_baustellen", "a3_mast", "a3_zeugen", "a3_lose"]   # The Red Light nur Tag 24 bis 28, darum Rang 2
 
 
 def _akt3_begrenzen(orte):

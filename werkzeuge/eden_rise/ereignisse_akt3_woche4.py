@@ -503,7 +503,9 @@ CHARLY = [
                                                          {"eine": [FL("aufbau_begonnen_" + h) for h in FOLGE]}]}),
       "village_piazza", P1("charly", ("casanova", "?", "is holding the festa board")),
       "Charly sits down next to the mayor on the church steps with her laptop. She doesn't say hello. She never does.",
-      [G("charly", "[clear throat] My mother's company sells to Alon. I moved some of her money tonight. Quietly. For the houses.", "neutral"),
+      [JE(G("charly", "[sigh] I switched off one of my mother's machines on the ridge. Now her money. My mother's company sells to Alon. "
+                    "I moved some of it tonight. Quietly. For the houses.", "neutral"), "kamm", FL("a3_mast_fertig")),
+       JE(G("charly", "[clear throat] My mother's company sells to Alon. I moved some of her money tonight. Quietly. For the houses.", "neutral"), "kamm", None),
        G("casanova", "[gasp] You... moved it? Is this stolen, Mademoiselle?", "surprise"),
        G("charly", "[sigh] Three out of ten for stolen. Eight for borrowed. She won't notice for a month.", "neutral"),
        G("casanova", "[clear throat] Monsieur. Do I take money that a girl took from her own mother?", "confusion")],

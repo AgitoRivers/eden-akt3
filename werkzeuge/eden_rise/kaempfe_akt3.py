@@ -92,4 +92,37 @@ ENCOUNTERS = {
                   flags={"ko": "a3_alon_besiegt", "aufgabe": "a3_alon_besiegt", "entkommen": "a3_alon_entkommen",
                          "niederlage": "a3_alon_niederlage"}),
 }
+# The Red Light (Quest am Mast): Gegner aus der Belagerung als echte Kaempfe. Die Roboter sind dort nur Taktik-Varianten
+# (taktik.json "vorlagen"); hier werden sie zu Gegnern, geklont aus unit01 mit eigenem Sprite (kaempfe_eden_rise.py, KLONE).
+KLONE = {
+    "a3_kobra": {"vorlage": "unit01", "name": "Cobra Robot", "sprite": "RobotCobra", "boss": False, "tier": "gefaehrlich", "weakness": None,
+                 "attack": {"label": "Neck Blades", "icon": "⚙"},
+                 "specials": {"w1": SP("Hot Oil Spray", "💨", effect="geblendet"), "s1": SP("Strike from the Grass", "🐍💥", bonus=5, dodge_only=True)}},
+    "a3_skorpion": {"vorlage": "unit01", "name": "Scorpion Robot", "sprite": "RobotScorpion", "boss": False, "tier": "gefaehrlich", "weakness": None,
+                    "attack": {"label": "Pincers", "icon": "⚙"},
+                    "specials": {"w1": SP("Tail Shock", "⚡", bonus=2, effect="strom"), "s1": SP("Sting", "🦂💥", bonus=6)}},
+    "a3_waechter": {"vorlage": "unit01", "name": "The Guardian", "sprite": "BoardingRobotHeavy", "boss": True, "tier": "toedlich", "weakness": None,
+                    "attack": {"label": "Hydraulic Fist", "icon": "⚙"},
+                    "specials": {"w1": SP("Floodlight", "💡", effect="geblendet"), "s1": SP("Full Weight", "⚙💥", bonus=9, finte=ZOEGERN_LANG)},
+                    "immune": {"charm": "It is a machine. It does not care how you feel.", "courage": "It is a machine. It has no fear to find."}},
+}
+ENCOUNTERS.update({
+    "a3_mast_strasse": _b("The Old Road", "Get past the patrol", "eden_rise_antenna_ridge.png", "agent_fuehrer", 7,
+                          "The two agents lie in the dust. The drone above them spins and falls.", "They back off towards the villa.",
+                          "They're gone.", "A flash, a baton. You wake up on the road, alone.",
+                          gruppe=["agent_fuehrer", "agent", "hirtendrohne"], lp=[0.7, 0.5, 0.5]),
+    "a3_mast_kobra": _b("Steel in the Grass", "Get through the macchia", "eden_rise_macchia_path.png", "a3_kobra", 7,
+                        "The cobras twitch once and lie still in the cistus. Good steel.", "The cobras slide away under the rocks.",
+                        "They're gone into the grass.", "Something cold wraps around your leg. Then nothing.",
+                        gruppe=["a3_kobra", "a3_kobra"], lp=[0.7, 0.7]),
+    "a3_mast_alarm": _b("Alarm", "Survive the drones", "eden_rise_antenna_ridge.png", "hirtendrohne", 7,
+                        "The drones fall between the rocks. The screen on the mast waits.", "The drones fly back to the mast and wait.",
+                        "They're gone.", "The drones circle above you until you stop moving.",
+                        gruppe=["hirtendrohne", "hirtendrohne"], lp=[0.6, 0.6]),
+    "a3_mast_waechter": _b("The Guardian", "Protect the mast", "eden_rise_antenna_ridge.png", "a3_waechter", 9,
+                           "The guardian falls forward and lies still between the rocks. The scorpion stops ticking.",
+                           "The guardian folds itself back into the rocks.", "It's gone behind the mast.",
+                           "A steel fist, then the sky. You wake up below the ridge.", flucht=False,
+                           gruppe=["a3_waechter", "a3_skorpion"], lp=[0.9, 0.5]),
+})
 ENCOUNTERS["a3_alon"].update(enemies=["alon_exo"], lp_faktoren=[0.8], beistand=_beistand_varianten())

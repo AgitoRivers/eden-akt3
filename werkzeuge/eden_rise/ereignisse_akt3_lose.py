@@ -25,7 +25,8 @@ HAUS_OK = lambda hid: {"eine": [{"nicht": FL("tk_haus_weg_" + hid)}, FL("aufbau_
 TUER = {
     "petru": {"eine": [FL("aufbau_fertig_werkstatt"), FL("bl_tueren_petru"), NICHT(FL("tk_haus_weg_werkstatt"))]},
     "mina": {"eine": [FL("aufbau_fertig_post"), FL("bl_tueren_mina"), NICHT(FL("tk_haus_weg_post"))]},
-    "batu": {"eine": [FL("bl_batu_norden"), FL("aufbau_fertig_batu"), NICHT(FL("tk_haus_weg_batu"))]},
+    "batu": {"alle": [{"eine": [FL("bl_batu_norden"), FL("aufbau_fertig_batu"), NICHT(FL("tk_haus_weg_batu")), FL("a3_mast_aus")]},
+                      {"eine": [NICHT(FL("a3_mast_an")), FL("aufbau_fertig_batu")]}]},          # The Red Light: der Mast faerbt ihren Mut
     "alva": {"alle": [FL("a3_alva_wach"), HAUS_OK("bar")]},
     "anghjulu": {"eine": [FL("a3_zeuge_tuer_don"), {"wert": ["vertrauen.anghjulu", ">=", 3]}, FL("a3_los_glocke")]},
     "casanova": FL("a3_zeuge_tuer_casanova"),

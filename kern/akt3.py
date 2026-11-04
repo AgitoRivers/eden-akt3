@@ -45,7 +45,7 @@ def morgen(z):
 # Vorschlag der Cloud-Sitzung; der Feinschliff der Enden ist Ducs (enden.md). Listen wie in ereignisse_akt3_woche5.py.
 ZEUGEN = ["petru", "mina", "batu", "alva", "anghjulu", "casanova", "sandru", "bonaventure"]
 BEWEISE = ["alon_kiste_genutzt", "a3_siri_post", "sophia_notizen", "bl_funk_white", "bl_funk_charly", "bl_wache_gesehen",
-           "rt_ausgang_alle", "mo_ark_beweis", "a3_beweis_feuer"]
+           "rt_ausgang_alle", "mo_ark_beweis", "a3_beweis_feuer", "a3_mast_an"]
 ENDEN = {"0": "Too Late", "1": "The Deal", "2a": "Broke, but Free", "2b": "The Village Holds Together",
          "2c": "Alon in Handcuffs", "2.5a": "On Credit", "2.5b": "Saved, but Not Ours", "2.5c": "He'll Be Back",
          "3": "Rewritten", "stern": "The Long Game"}

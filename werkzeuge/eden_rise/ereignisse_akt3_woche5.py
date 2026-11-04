@@ -18,7 +18,7 @@ KAMPF = lambda bid: {"kampf": bid}
 ZEUGEN = ["petru", "mina", "batu", "alva", "anghjulu", "casanova", "sandru", "bonaventure"]
 ZEUGE = lambda p: FL("a3_zeuge_" + p)
 BEWEISE = ["alon_kiste_genutzt", "a3_siri_post", "sophia_notizen", "bl_funk_white", "bl_funk_charly", "bl_wache_gesehen",
-           "rt_ausgang_alle", "mo_ark_beweis", "a3_beweis_feuer"]
+           "rt_ausgang_alle", "mo_ark_beweis", "a3_beweis_feuer", "a3_mast_an"]
 ZEUGEN_N = lambda op, n: {"anzahl": [[ZEUGE(p) for p in ZEUGEN], op, n]}
 BEWEISE_N = lambda op, n: {"anzahl": [[FL(b) for b in BEWEISE], op, n]}
 MEGAN_WENDE = {"eine": [ZEUGEN_N(">=", 4), BEWEISE_N(">=", 2), {"wert": ["vertrauen.yamamoto", ">=", 5]}]}

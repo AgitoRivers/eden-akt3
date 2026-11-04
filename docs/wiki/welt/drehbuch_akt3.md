@@ -130,9 +130,9 @@ Freie Kartenphasen Tag 24 bis 34: **34**.
 
 | Haus | führt zu | Stufe 1 | Stufe 2 | Stufe 3 (öffnet das Haus) |
 |---|---|---|---|---|
-| Post (Mina) | Macchia, Korkeiche (Pinnwand und Postfächer) | 4 Timber | 3 Slate, 2 Cork | 2 Cork, 2 Iron |
-| Bà Tưs Laden | Steinbruch, Granitfels (der Herd) | 3 Timber, 2 Granite | 3 Slate | 4 Granite, 1 Iron |
-| Alvas Bar | Angeln, Strandgut (Treibholz, Rusty Chain) | 4 Timber | 2 Timber, 2 Slate | 3 Iron |
+| Post (Mina) | Macchia, Korkeiche (Pinnwand und Postfächer) | 4 Timber | 3 Slate, 2 Cork | 2 Cork, 1 Iron, 1 Steel |
+| Bà Tưs Laden | Steinbruch, Granitfels (der Herd) | 3 Timber, 2 Granite | 3 Slate | 4 Granite, 1 Steel |
+| Alvas Bar | Angeln, Strandgut (Treibholz, Rusty Chain) | 4 Timber | 2 Timber, 2 Slate | 2 Iron, 1 Steel |
 | Petrus Werkstatt | Kampf, Stahl (Scrap Field oder Villa) | 5 Timber | 2 Timber, 3 Slate | 2 Iron, 2 Steel |
 
 - **Grenzen:** Bauen bleibt „alles oder nichts“ wie bei den Ställen (`kochen.md`), die Baustellenkarte zeigt nur die **nächste** Stufe eines Hauses, jeden Posten grün oder rot. Ohne Charly bleiben die vollen Kosten, kein Satz erinnert an die verpasste Hilfe. Nonna verkauft Timber, Slate und Iron mit Tagesvorrat (6/6/2), Granite und Cork nur selbst abgebaut, Steel nur von Maschinen. Ein Bauen-Los (4.3) ersetzt eine ganze Stufe.
@@ -872,6 +872,26 @@ Gelesene Wahlen jetzt: Lose 46 von 47 (Capra „nein“ hat bewusst kein Bild), 
 
 **Die lange Tafel, Weg A (Duc 04.11.2026):** *Stella* ist Maries Boot. Sie fuhr damit dreißig Jahre jeden Morgen hinaus, seit ihrem Tod liegt es aufgebockt in der Werkstatt. Petrus Arbeitsboot ist das grüne am Kai. Wählt Duc *Stella*, lässt Petru Marie los, und das Dorf sitzt an ihrem Boot. Ist Holm zurück, sägt sie mit, und es folgt **ihr Loslassen** (`a3_los_tafel_holm`): vielleicht ihre letzte Saison, die Mutter in Ålesund ist alt, sie schläft an Land besser. Sie fragt Duc, ob ihre vier Kapitänsstreifen in den Tisch kommen: „in den Tisch“ (sie bleibt an Land, `_streifen`), „noch eine Saison“ (`_saison`) oder „frag Petru“ (er sagt ein Wort: *Stay*, `_petru`). Die Festa zeigt die Wahl am Kopf der Tafel. Beim Besuch der Werkstatt läuft der zweite Takt ohne Ausflug weiter (`direkt`).
 **Neuer Kanon (Vorschlag, E-129 offen):** *Stella*, Maries Boot. Sein Vater verlor einmal ein Boot an eine Bank. Holms Streifen am Tisch.
+
+### 5.29 Quest „The Red Light“ (Duc 04.11.2026, `ereignisse_akt3_mast.py`)
+
+**Kanon:** Alon baut nach der Belagerung auf dem Kamm über San Martinu einen Mast und schaltet ihn ein. Er ist das Auge über der Bucht, für die Drohnen und den Funk der Männer in Weiß. Das Dorf hört er nicht ab: Pascal bleibt das Rädchen. Sein rotes Licht ist das rote Licht in Ende 2b. `charly.md`: Charly bricht ihn auf. Ist sie nicht geblieben, schafft es Rosi.
+**Karte:** „The Red Light“, Tag 24 bis 28, Rang 2 nach der Baustelle, eine Phase. Die Begleiterin bestimmt der Kanon: Charly (`rt_charly_bleibt`), sonst Rosi.
+
+| Beat | Was | Kern |
+|---|---|---|
+| Ansage | Elsa sieht nachts noch Drohnen, Ghjuvan das rote Licht. Elsa wartet unten mit dem Auto | *“If you find anything, it comes to me.”* |
+| Weg | Ziegenpfad (mit `bl_verband_wolff` zeigt Wolff ihn am Genueserturm) oder die alte Straße (Kampf: Agenten und Drohne) | Wahl mit Folge |
+| Macchia | Kobra-Roboter im Cistus (Kampf) | Stahl |
+| Rastplatz | **Charly:** zwölf Geburtstage vor dem Bildschirm, statt eines Hundes ein Taser (Modell R-7), das Versteck unter Mamas Schreibtisch in Marseille. **Rosi:** Papas drei Regeln (Gewinde links, nie zuerst den roten Draht, wo die Maschine hoch summt, tut es weh) | die Hinweise für das Rätsel |
+| Rätsel | **Charly:** drei Sicherheitsfragen der Mutter (*First pet*, *Favourite place*, *What makes Charlotte happy?*). Falsch = Alarm-Kampf, dann dieselbe Frage. Die letzte: die Antwort der Mutter (*Being the best*) öffnet, Charlys eigene (*Danzel. Ten.*) löst den Alarm aus. **Rosi:** der Kasten wurde in Catania gebaut, in der Straße von Lot 14, mit Papas Tricks; drei Schritte nach seinen Regeln, am Ende *“Sorry, Old Lady.”* | Deduktion mit Herz |
+| Anruf (Charly) | Die Kamera dreht sich zu ihr, die Mutter ruft an: *“Charlotte. You're cold. Put on your jacket.”* Charly: *“Six... I can't rate this.”* Duc nimmt das Handy, reicht es ihr oder stellt sich vor die Kamera | Liebe und Überwachung in einem Satz |
+| Wende | Die Speicherkarte: die Belagerungsnacht von oben, die Männer in Weiß eine Stunde vor dem Angriff auf dem Nordweg, Duc vor der Kirche. *“It saw everything. It just never told anyone.”* | das Thema des Akts |
+| Endkampf | der Wächter (schwerer Kampfroboter) mit Skorpion, keine Flucht | Stahl |
+| Wahl | **Abschalten** (`a3_mast_aus`): die Drohnen fallen wie Sternschnuppen ins Meer, Charly: *“Nobody's watching. Is this what everybody else has?”*; Bà Tư sagt auch ohne Haus aus; Festa: Ghjuvan schläft wieder; Ende 2b: der Kamm bleibt dunkel. **Weiterlaufen** (`a3_mast_an`): Elsa bekommt alles, Kommissions-Karte „The Mast Recording“ (Runde 1 und 2), Bà Tư nur mit Haus; Festa: Charly winkt dem Licht | Preis auf beiden Seiten |
+| Folge | *Borrowed* (Charlys Geld) beginnt mit dem Kamm. Alle Roboter geben Stahl, und jedes Haus braucht Stahl in der letzten Stufe | Wiederaufbau |
+
+Gegner (`kaempfe_akt3.py`): Kobra, Skorpion und Wächter sind die Roboter der Belagerung (Sprites `RobotCobra`, `RobotScorpion`, `BoardingRobotHeavy`), jetzt als echte Gegner aus `unit01` geklont (`KLONE`). Test: `tests/test_akt3_mast.py`.
 
 ### Kommission als Verhandlung (Duc 04.11.2026: „wie Ace Attorney, aber oscarpreisträchtig“, E-130)
 

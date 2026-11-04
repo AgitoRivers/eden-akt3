@@ -546,6 +546,25 @@
    ]
   },
   {
+   "id": "mast",
+   "art": "beweis",
+   "titel": "The Mast Recording",
+   "text": "The night of the siege from the ridge: the men in white on the north road, an hour before the attack.",
+   "wenn": {
+    "flag": "a3_mast_an"
+   },
+   "passt": [
+    [
+     "feuer",
+     1
+    ],
+    [
+     "tor",
+     1
+    ]
+   ]
+  },
+  {
    "id": "tiere",
    "art": "beweis",
    "titel": "Bibi's Shoebox",

@@ -1001,17 +1001,36 @@
        {
         "alle": [
          {
-          "eine": [
+          "alle": [
            {
-            "flag": "bl_batu_norden"
+            "eine": [
+             {
+              "flag": "bl_batu_norden"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "nicht": {
+               "flag": "tk_haus_weg_batu"
+              }
+             },
+             {
+              "flag": "a3_mast_aus"
+             }
+            ]
            },
            {
-            "flag": "aufbau_fertig_batu"
-           },
-           {
-            "nicht": {
-             "flag": "tk_haus_weg_batu"
-            }
+            "eine": [
+             {
+              "nicht": {
+               "flag": "a3_mast_an"
+              }
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             }
+            ]
            }
           ]
          },
@@ -1151,17 +1170,36 @@
      "wenn": {
       "alle": [
        {
-        "eine": [
+        "alle": [
          {
-          "flag": "bl_batu_norden"
+          "eine": [
+           {
+            "flag": "bl_batu_norden"
+           },
+           {
+            "flag": "aufbau_fertig_batu"
+           },
+           {
+            "nicht": {
+             "flag": "tk_haus_weg_batu"
+            }
+           },
+           {
+            "flag": "a3_mast_aus"
+           }
+          ]
          },
          {
-          "flag": "aufbau_fertig_batu"
-         },
-         {
-          "nicht": {
-           "flag": "tk_haus_weg_batu"
-          }
+          "eine": [
+           {
+            "nicht": {
+             "flag": "a3_mast_an"
+            }
+           },
+           {
+            "flag": "aufbau_fertig_batu"
+           }
+          ]
          }
         ]
        },
@@ -2360,6 +2398,76 @@
     },
     {
      "id": "a3_schluss_megan"
+    }
+   ]
+  },
+  "a3_mast": {
+   "label": "The Red Light",
+   "bild": "antenna_ridge",
+   "phasen": [
+    "tag",
+    "nachmittag"
+   ],
+   "text": "Every night a red light blinks on the ridge above San Martinu. Alon built something up there after the siege. Takes the whole phase.",
+   "wenn": {
+    "alle": [
+     {
+      "flag": "akt2_ende"
+     },
+     {
+      "eine": [
+       {
+        "alle": [
+         {
+          "flag": "rt_charly_bleibt"
+         },
+         {
+          "nicht": {
+           "flag": "rt_charly_weg"
+          }
+         }
+        ]
+       },
+       {
+        "alle": [
+         {
+          "nicht": {
+           "alle": [
+            {
+             "flag": "rt_charly_bleibt"
+            },
+            {
+             "nicht": {
+              "flag": "rt_charly_weg"
+             }
+            }
+           ]
+          }
+         },
+         {
+          "nicht": {
+           "flag": "gefeuert_rosi"
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "nicht": {
+       "flag": "a3_mast_fertig"
+      }
+     },
+     {
+      "nicht": {
+       "tag_ab": 29
+      }
+     }
+    ]
+   },
+   "start": [
+    {
+     "id": "a3_mast_start"
     }
    ]
   }
