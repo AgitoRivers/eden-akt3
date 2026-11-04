@@ -48,7 +48,8 @@ def main():
     yacht = [i for i in A3 if i.startswith("a3_yacht_")]
     pruefen(yacht and all(A3[i]["wann"]["tage"][0] >= 25 for i in yacht), "Yacht-Gags erst ab Tag 25 (Tag 24 gehoert Buenaventura)")
     pruefen(A3["a3_megan_landet"]["wann"]["tage"] == [25, 25], "Megan kommt an Tag 25")
-    pruefen(not any("minicu" in json.dumps(e["personen"]) or any(z["wer"] == "minicu" for z in zeilen(e)) for e in A3.values()),
+    pruefen(not any("minicu" in json.dumps(e["personen"]) or any(z["wer"] == "minicu" for z in zeilen(e))
+                    for i, e in A3.items() if not i.startswith("a3_festa")),
             "Minicu tritt vor der Festa nicht auf")
     roh = json.dumps(A3, ensure_ascii=False).lower()
     pruefen(not re.search(r"(takes off|removes|pushes up|lifts) (his )?sunglasses", roh), "Duc nimmt die Sonnenbrille nie ab")

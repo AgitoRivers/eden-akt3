@@ -39,3 +39,50 @@ def morgen(z):
             zeilen.append(LEGION)
             zeilen += aufbau.stufe_geschenkt(z, max(offen)[1])
     return zeilen
+
+
+# ------------------------------------------------------------------ Die vier Saeulen und das Ende (Drehbuch Abschnitt 8, enden.md)
+# Vorschlag der Cloud-Sitzung; der Feinschliff der Enden ist Ducs (enden.md). Listen wie in ereignisse_akt3_woche5.py.
+ZEUGEN = ["petru", "mina", "batu", "alva", "anghjulu", "casanova", "sandru", "bonaventure"]
+BEWEISE = ["alon_kiste_genutzt", "a3_siri_post", "sophia_notizen", "bl_funk_white", "bl_funk_charly", "bl_wache_gesehen",
+           "rt_ausgang_alle", "mo_ark_beweis", "a3_beweis_feuer"]
+ENDEN = {"0": "Too Late", "1": "The Deal", "2a": "Broke, but Free", "2b": "The Village Holds Together",
+         "2c": "Alon in Handcuffs", "2.5a": "On Credit", "2.5b": "Saved, but Not Ours", "2.5c": "He'll Be Back",
+         "3": "Rewritten"}
+
+
+def zeugen(z):
+    return [p for p in ZEUGEN if "a3_zeuge_" + p in z.get("flags", [])]
+
+
+def beweise(z):
+    return [b for b in BEWEISE if b in z.get("flags", [])]
+
+
+def saeulen(z):
+    """-> dict Saeule -> bool. Wahrheit: 3 Beweise oder 2 mit Kassenbuch 'alles'. Geld: ein Weg (Margot, Yamamoto 5,
+    Megans Wende). Gemeinschaft: 5 Zeugen oder 4 mit Kassenbuch 'teil' (Ruf ab 5 zaehlt wie ein Zeuge). Staerke: Endkampf
+    gewonnen oder Festnahme."""
+    f, w = z.get("flags", []), z.get("werte", {})
+    nb, nz = len(beweise(z)), len(zeugen(z)) + (1 if w.get("ruf", 0) >= 5 else 0)
+    return {
+        "wahrheit": nb >= 3 or (nb >= 2 and "a3_kassenbuch_alles" in f),
+        "geld": "margot_geborgen" in f or w.get("vertrauen.yamamoto", 0) >= 5 or "a3_megan_wende" in f,
+        "gemeinschaft": nz >= 5 or (nz >= 4 and "a3_kassenbuch_teil" in f),
+        "staerke": "a3_alon_besiegt" in f or "a3_alon_festgenommen" in f,
+    }
+
+
+def ende(z):
+    """-> Kennung aus ENDEN. Ohne Wahrheit traegt keine Saeule (Vorschlag, Fragenliste F-35)."""
+    if "a3_deal" in z.get("flags", []):
+        return "1"
+    s = saeulen(z)
+    n = sum(s.values())
+    if n == 4:
+        return "3"
+    if n == 3:
+        return "2.5a" if not s["geld"] else "2.5b" if not s["gemeinschaft"] else "2.5c" if not s["staerke"] else "0"
+    if n == 2 and s["wahrheit"]:
+        return "2a" if s["geld"] else "2b" if s["gemeinschaft"] else "2c"
+    return "0"

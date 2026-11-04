@@ -31,10 +31,32 @@ AKT3_BETA = {"titel": "End of Act 3", "akt": 3, "dimensionen": {}, "frauen": [],
                           {"titel": "Beta", "text": "You reached the ending of the Beta release. Thank you so much for testing and supporting."}]}
 
 
+def akt3_ende(z, modul):
+    """Schlusskarte Akt 3 (Paket F): welches Ende, welche Saeulen, wer ausgesagt hat, Minicu, Pascal, Minas Epilog.
+    Platzhalter-Texte bis zum Feinschliff (enden.md, Duc). Ohne Saeulen-Daten: AKT3_BETA."""
+    from . import akt3
+    if "a3_festa_fertig" not in z.get("flags", []):
+        return dict(AKT3_BETA)
+    eid, s = akt3.ende(z), akt3.saeulen(z)
+    namen = [_name(modul, p) for p in akt3.zeugen(z) if p in modul.get("personen", {})]
+    saeule = {"wahrheit": "Truth", "geld": "Money", "gemeinschaft": "Community", "staerke": "Strength"}
+    absaetze = [
+        {"titel": "The Pillars", "text": " · ".join("%s %s" % (saeule[k], "✓" if v else "–") for k, v in s.items())},
+        {"titel": "Who Saw It", "text": ("They signed their names: " + ", ".join(namen) + ".") if namen else "Nobody signed."},
+        {"titel": "Minicu", "text": "Minicu is in the picture, a bandage around his head, clapping much too loud."
+                                    if eid != "1" else "Minicu carries crates at the harbour, for A.V., and doesn't ask."},
+        {"titel": "Pascal", "text": "Pascal is there too. He always is."},
+        {"titel": "Epilogue", "text": "Mina rings at Pascal's door with a registered letter. “Sign here.” Nobody opens. "
+                                      "It's the first letter she can't deliver."},
+        {"titel": "Beta", "text": "The endings are still being polished. Thank you so much for testing and supporting."}]
+    return {"titel": "Ending: " + akt3.ENDEN[eid], "akt": 3, "ende": eid, "saeulen": s, "dimensionen": {}, "frauen": [],
+            "fall": None, "absaetze": absaetze}
+
+
 def berechnen(z, modul):
     if "akt2_ende" in z.get("flags", []):          # Cliffhanger Akt 2 gesehen (Duc 02.11.2026): Schluss der Beta
         # Akt 3 (Drehbuch akt3): solange modul.akt3_spielbar fehlt, endet die Beta nach Tag 23. Danach Platzhalter bis zu den Enden (Paket F).
-        return dict(AKT3_BETA) if modul.get("akt3_spielbar") else dict(AKT2_BETA)
+        return akt3_ende(z, modul) if modul.get("akt3_spielbar") else dict(AKT2_BETA)
     if not ermittlung.aktiv(z):
         return None
     if (ermittlung._story(z) or {}).get("akt") == 1:

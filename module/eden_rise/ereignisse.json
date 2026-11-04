@@ -3609,21 +3609,28 @@
    "titel": "Honorary Citizen of Cala d'Orsu",
    "wann": {
     "tage": [
-     21,
-     21
+     35,
+     35
     ],
     "phasen": [
-     "nacht"
+     "abend"
     ],
     "bedingung": {
      "alle": [
       {
        "flag": "akt3_festa"
+      },
+      {
+       "nicht": {
+        "flag": "a3_deal"
+       }
       }
      ]
-    }
+    },
+    "pflicht": true,
+    "holt_leute": true
    },
-   "bild": "crew_mess",
+   "bild": "village_piazza",
    "personen": {
     "sprecher": "rosi",
     "links": "lea",
@@ -16126,12 +16133,11 @@
    "titel": "Flamenco with the Mayor",
    "wann": {
     "tage": [
-     21,
-     21
+     35,
+     35
     ],
     "phasen": [
-     "abend",
-     "nacht"
+     "abend"
     ],
     "bedingung": {
      "alle": [
@@ -16156,7 +16162,9 @@
       }
      ]
     },
-    "an_land": true
+    "an_land": true,
+    "pflicht": true,
+    "holt_leute": true
    },
    "bild": "village_piazza",
    "personen": {
@@ -25571,8 +25579,8 @@
    "titel": "The Red Dress",
    "wann": {
     "tage": [
-     21,
-     21
+     35,
+     35
     ],
     "phasen": [
      "abend"
@@ -25583,7 +25591,9 @@
        "flag": "akt3_festa"
       }
      ]
-    }
+    },
+    "pflicht": true,
+    "holt_leute": true
    },
    "bild": "village_piazza",
    "personen": {
@@ -120425,6 +120435,1525 @@
       "text": "Seven out of ten for crying. Come here.",
       "gefuehl": "love"
      }
+    }
+   ]
+  },
+  {
+   "id": "a3_kommission",
+   "art": "gag1",
+   "ton": "ernst",
+   "titel": "The Commission",
+   "wann": {
+    "tage": [
+     35,
+     35
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "tag"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "nicht": {
+        "flag": "a3_deal"
+       }
+      }
+     ]
+    }
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "elsa",
+    "betroffen": [
+     {
+      "id": "casanova",
+      "ton": "?",
+      "was": "stands very straight"
+     }
+    ]
+   },
+   "sets": {
+    "elsa": "Standard"
+   },
+   "lage": "Day 35. Sunday. Two men from Ajaccio sit behind a folding table on the quay. A clerk with a lot of paper. Half the village stands behind them. Kevin is on the church roof.",
+   "zeilen": [
+    {
+     "wer": "elsa",
+     "text": "The animals are done. Now the people.",
+     "gefuehl": "neutral",
+     "gruppe": "an",
+     "wenn": {
+      "gesehen": "mo_kommission"
+     }
+    },
+    {
+     "wer": "elsa",
+     "text": "Gentlemen. Thank you for coming. Finally.",
+     "gefuehl": "neutral",
+     "gruppe": "an",
+     "wenn": null
+    },
+    {
+     "wer": "elsa",
+     "text": "They are asking what happened in this bay on the twenty-first, twenty-second and twenty-third. And who saw it with their own eyes.",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Steps back, so the village can speak.",
+     "folgen": [
+      {
+       "direkt": "a3_kom_zeugen"
+      }
+     ]
+    },
+    {
+     "text": "Stands next to Elsa.",
+     "folgen": [
+      {
+       "vertrauen": [
+        "elsa",
+        2
+       ]
+      },
+      {
+       "direkt": "a3_kom_zeugen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_kom_zeugen",
+   "art": "gag1",
+   "ton": "ernst",
+   "titel": "Who Saw It?",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "casanova",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "One by one, people step up to the folding table. The clerk writes down every name.",
+   "zeilen": [
+    {
+     "wer": "petru",
+     "text": "I saw the torches at my workshop. And I saw who stayed. And the village rowed out. Like in 1924.",
+     "gefuehl": "neutral",
+     "gruppe": "petru",
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_zeuge_petru"
+       },
+       {
+        "flag": "bl_dorf_rudert"
+       }
+      ]
+     }
+    },
+    {
+     "wer": "petru",
+     "text": "I saw the torches at my workshop. And I saw who stayed.",
+     "gefuehl": "neutral",
+     "gruppe": "petru",
+     "wenn": {
+      "flag": "a3_zeuge_petru"
+     }
+    },
+    {
+     "wer": "mina",
+     "text": "I knocked on every door that day, when the phones were dead. I saw who opened, and who didn't.",
+     "gefuehl": "nervousness",
+     "gruppe": "mina",
+     "wenn": {
+      "flag": "a3_zeuge_mina"
+     }
+    },
+    {
+     "wer": "batu",
+     "text": "Men in white. They asked me twice for the north road. I told Duc then. Now I tell you.",
+     "gefuehl": "neutral",
+     "gruppe": "batu",
+     "wenn": {
+      "flag": "a3_zeuge_batu"
+     }
+    },
+    {
+     "wer": "alva",
+     "text": "From the square I saw the north barricade open. Then men in white came through. I saw that with my own eyes.",
+     "gefuehl": "neutral",
+     "gruppe": "alva",
+     "wenn": {
+      "flag": "a3_zeuge_alva"
+     }
+    },
+    {
+     "wer": "sandru",
+     "text": "My name is Iskander. I carried Alva out of the rubble. And the next week, A.V. switched off my legs.",
+     "gefuehl": "neutral",
+     "gruppe": "sandru",
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_zeuge_sandru"
+       },
+       {
+        "flag": "sandru_herkunft"
+       }
+      ]
+     }
+    },
+    {
+     "wer": "sandru",
+     "text": "My name is Sandru. I carried Alva out of the rubble. And the next week, A.V. switched off my legs.",
+     "gefuehl": "neutral",
+     "gruppe": "sandru",
+     "wenn": {
+      "flag": "a3_zeuge_sandru"
+     }
+    },
+    {
+     "wer": "anghjulu",
+     "text": "I saw the gate open. I was sober. Write that down too. It doesn't happen often.",
+     "gefuehl": "neutral",
+     "gruppe": "don",
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_zeuge_anghjulu"
+       },
+       {
+        "flag": "bl_kirche_don"
+       }
+      ]
+     }
+    },
+    {
+     "wer": "anghjulu",
+     "text": "I was asleep on the church steps, my son. But I saw the gate open before I fell asleep.",
+     "gefuehl": "remorse",
+     "gruppe": "don",
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_zeuge_anghjulu"
+       },
+       {
+        "flag": "bl_kirche_don_schlaeft"
+       }
+      ]
+     }
+    },
+    {
+     "wer": "anghjulu",
+     "text": "I was outside the church door all night. I saw the gate open.",
+     "gefuehl": "neutral",
+     "gruppe": "don",
+     "wenn": {
+      "flag": "a3_zeuge_anghjulu"
+     }
+    },
+    {
+     "wer": "casanova",
+     "text": "Every night someone left his paper on my church steps. I kept all of it. Here it is.",
+     "gefuehl": "pride",
+     "gruppe": "casanova",
+     "wenn": {
+      "flag": "a3_zeuge_casanova"
+     }
+    },
+    {
+     "wer": "bonaventure",
+     "text": "A man named White paid me in clean money, like a bank. I gave the order to burn. I gave the order to stop. I am Captain Buenaventura of The Eventually.",
+     "gefuehl": "remorse"
+    },
+    {
+     "wer": "riscossore",
+     "text": "He's telling the truth. It's in my book, page forty-one. A man in prison pays nobody, so I'd like him to stay out.",
+     "gefuehl": "neutral",
+     "gruppe": "risc",
+     "wenn": {
+      "flag": "a3_riscossore_kommt"
+     }
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Watches the clerk write.",
+     "folgen": [
+      {
+       "flag": "a3_zeuge_bonaventure"
+      },
+      {
+       "direkt": "a3_kom_minicu"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_kom_minicu",
+   "art": "gag1",
+   "ton": "ernst",
+   "titel": "The Big Man",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "anghjulu",
+    "betroffen": []
+   },
+   "sets": {
+    "anghjulu": "anghjulu_standard"
+   },
+   "lage": "The older commissioner looks at his list.",
+   "zeilen": [
+    {
+     "wer": "anghjulu",
+     "text": "The man at the gate? The big one? He can't come today.",
+     "gefuehl": "sadness"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Says nothing. Nobody on the quay asks what that means.",
+     "folgen": [
+      {
+       "direkt": "a3_kom_beweise"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_kom_beweise",
+   "art": "gag1",
+   "ton": "ernst",
+   "titel": "Paper",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "elsa",
+    "betroffen": []
+   },
+   "sets": {
+    "elsa": "Standard"
+   },
+   "lage": "Then the paper. Elsa lays out everything the village has, one piece after the other.",
+   "zeilen": [
+    {
+     "wer": "elsa",
+     "text": "White's orders from the villa cellar. Day 22, phase 3: torches, houses.",
+     "gefuehl": "neutral",
+     "gruppe": "feuer",
+     "wenn": {
+      "flag": "a3_beweis_feuer"
+     }
+    },
+    {
+     "wer": "elsa",
+     "text": "A crate of collars from the grotto. Totò kept it for this day.",
+     "gefuehl": "neutral",
+     "gruppe": "kiste",
+     "wenn": {
+      "flag": "alon_kiste_genutzt"
+     }
+    },
+    {
+     "wer": "siri",
+     "text": "My video. No filter, no music. Just what we saw.",
+     "gefuehl": "neutral",
+     "gruppe": "siri",
+     "wenn": {
+      "flag": "a3_siri_post"
+     }
+    },
+    {
+     "wer": "sophia",
+     "text": "Darling, I wrote down every time and every word I heard on the radio that night. I didn't know why. Now I do.",
+     "gefuehl": "neutral",
+     "gruppe": "sophia",
+     "wenn": {
+      "flag": "sophia_notizen"
+     }
+    },
+    {
+     "wer": "charly",
+     "text": "Twenty-one forty. He said 'tonight'. Seven out of ten for clarity.",
+     "gefuehl": "neutral",
+     "gruppe": "funk",
+     "wenn": {
+      "eine": [
+       {
+        "flag": "bl_funk_white"
+       },
+       {
+        "flag": "bl_funk_charly"
+       }
+      ]
+     }
+    },
+    {
+     "wer": "elsa",
+     "text": "The radio log. Three o'clock, the night of the twenty-second. Two words.",
+     "gefuehl": "neutral",
+     "gruppe": "wache",
+     "wenn": {
+      "flag": "bl_wache_gesehen"
+     }
+    },
+    {
+     "wer": "elsa",
+     "text": "And Pascal's book, from his locked drawer. First Officer. All of it, or only Alon's part?",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“All of it.”",
+     "folgen": [
+      {
+       "flag": "a3_kassenbuch_alles"
+      },
+      {
+       "direkt": "a3_kom_ende"
+      }
+     ],
+     "zeile": {
+      "wer": "casanova",
+      "text": "Yes. Me too.",
+      "gefuehl": "neutral"
+     }
+    },
+    {
+     "text": "“Only Alon's part.”",
+     "folgen": [
+      {
+       "flag": "a3_kassenbuch_teil"
+      },
+      {
+       "direkt": "a3_kom_ende"
+      }
+     ],
+     "zeile": {
+      "wer": "elsa",
+      "text": "For the record: understood.",
+      "gefuehl": "neutral"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_kom_ende",
+   "art": "gag1",
+   "ton": "ernst",
+   "titel": "The Commission",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "elsa",
+    "betroffen": []
+   },
+   "sets": {
+    "elsa": "Standard"
+   },
+   "lage": "The clerk closes his folder. The older commissioner stands up and puts on his hat.",
+   "zeilen": [
+    {
+     "wer": "elsa",
+     "text": "He says: Thank you. We have what we need. Or we don't. You'll know tonight.",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Goes to help with the festa.",
+     "folgen": [
+      {
+       "flag": "a3_kommission_fertig"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_kommission_deal",
+   "art": "gag1",
+   "ton": "ernst",
+   "titel": "The Commission",
+   "wann": {
+    "tage": [
+     35,
+     35
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "tag"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "flag": "a3_deal"
+      }
+     ]
+    }
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "casanova",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "Two men from Ajaccio sit behind a folding table on the quay. Nobody steps forward. You are not down there. You are up at the villa, watching it on a screen.",
+   "zeilen": [
+    {
+     "wer": "casanova",
+     "text": "Nobody saw anything, gentlemen. Nobody.",
+     "gefuehl": "sadness"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Turns off the screen.",
+     "folgen": [
+      {
+       "flag": "a3_kommission_fertig"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_festa",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "The Festa",
+   "wann": {
+    "tage": [
+     35,
+     35
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "abend"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "nicht": {
+        "flag": "a3_deal"
+       }
+      }
+     ]
+    }
+   },
+   "bild": "village_piazza",
+   "personen": {
+    "handelnd": "casanova",
+    "betroffen": [
+     {
+      "id": "alva",
+      "ton": "?",
+      "was": "is standing at the back"
+     }
+    ]
+   },
+   "sets": {},
+   "lage": "The piazza. Lights over the square, tables full anyway. Everything the village made for the festa is here: whatever was built, cooked and hung up these last days. Madame Casanova climbs onto the stage.",
+   "zeilen": [
+    {
+     "wer": "bonaventure",
+     "text": "The stage holds! I built it myself. Mostly my men.",
+     "gefuehl": "pride",
+     "gruppe": "buehne",
+     "wenn": {
+      "flag": "a3_los_buehne"
+     }
+    },
+    {
+     "wer": "batu",
+     "text": "The pot is too small. I knew it.",
+     "gefuehl": "amusement",
+     "gruppe": "topf",
+     "wenn": {
+      "flag": "a3_los_topf"
+     }
+    },
+    {
+     "wer": "alva",
+     "text": "One drink on every table. Don't get used to it.",
+     "gefuehl": "amusement",
+     "gruppe": "drink",
+     "wenn": {
+      "flag": "a3_los_getraenk"
+     }
+    },
+    {
+     "wer": "lea",
+     "text": "Did you know she's here? Ligeia. She's singing from the rocks!",
+     "gefuehl": "excitement",
+     "gruppe": "ligeia",
+     "wenn": {
+      "flag": "a3_ligeia_festa"
+     }
+    },
+    {
+     "wer": "casanova",
+     "text": "Cala d'Orsu has stood on this rock for four hundred years. Pirates came. Tax men came. A man with a satellite came. And tonight...",
+     "gefuehl": "pride"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Waits for the end of her sentence.",
+     "folgen": [
+      {
+       "flag": "akt3_festa"
+      },
+      {
+       "direkt": "a3_festa_minicu"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_festa_minicu",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "Minicu",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_piazza",
+   "personen": {
+    "handelnd": "minicu",
+    "betroffen": [
+     {
+      "id": "jana",
+      "ton": "+",
+      "was": "screams his name"
+     }
+    ]
+   },
+   "sets": {
+    "minicu": "minicu_standard",
+    "jana": "jana_deck_a"
+   },
+   "lage": "Silence. Nobody claps. Then Alva does, slowly. Then a second pair of hands, much too loud. The church door is open. Minicu stands there with a bandage around his head, and Don holds him up. Kevin lands on his head.",
+   "zeilen": [
+    {
+     "wer": "jana",
+     "text": "Jessas... MINICU!",
+     "gefuehl": "surprise"
+    },
+    {
+     "wer": "lola",
+     "text": "Oh, mate. I saved you the leftovers. Twelve days of leftovers.",
+     "gefuehl": "joy",
+     "gruppe": "lola",
+     "wenn": {
+      "nicht": {
+       "flag": "gefeuert_lola"
+      }
+     }
+    },
+    {
+     "wer": "minicu",
+     "text": "Does it hurt? The noise? I can clap quieter.",
+     "gefuehl": "joy"
+    },
+    {
+     "wer": "casanova",
+     "text": "...Thank you. Thank you, Alva. Thank you, Minicu.",
+     "gefuehl": "gratitude"
+    },
+    {
+     "wer": "alva",
+     "text": "Don't get used to it.",
+     "gefuehl": "amusement"
+    },
+    {
+     "wer": "minicu",
+     "text": "You came first, when I was on the ground. Before Pascal. I heard you.",
+     "gefuehl": "gratitude",
+     "gruppe": "zuerst",
+     "wenn": {
+      "flag": "bl_minicu_duc_zuerst"
+     }
+    },
+    {
+     "wer": "minicu",
+     "text": "Is Pascal coming?",
+     "gefuehl": "curiosity"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“No, Minicu.”",
+     "folgen": [
+      {
+       "flag": "a3_minicu_lebt"
+      },
+      {
+       "direkt": "a3_festa_bild"
+      }
+     ],
+     "zeile": {
+      "wer": "minicu",
+      "text": "Okay. Then I stay with you.",
+      "gefuehl": "sadness"
+     }
+    },
+    {
+     "text": "Puts a hand on his shoulder and doesn't answer.",
+     "folgen": [
+      {
+       "flag": "a3_minicu_lebt"
+      },
+      {
+       "direkt": "a3_festa_bild"
+      }
+     ]
+    },
+    {
+     "text": "“Not tonight.”",
+     "folgen": [
+      {
+       "flag": "a3_minicu_lebt"
+      },
+      {
+       "direkt": "a3_festa_bild"
+      }
+     ],
+     "zeile": {
+      "wer": "minicu",
+      "text": "Tomorrow, then. I'll wait. I'm good at waiting.",
+      "gefuehl": "joy"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_festa_bild",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "The Festa",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_piazza",
+   "personen": {
+    "handelnd": "holm",
+    "betroffen": [
+     {
+      "id": "petru",
+      "ton": "+",
+      "was": "brings two glasses"
+     }
+    ]
+   },
+   "sets": {},
+   "lage": "The music starts. The bell rings for the dance.",
+   "zeilen": [
+    {
+     "wer": "siri",
+     "text": "Now I can post it. He's standing.",
+     "gefuehl": "joy",
+     "gruppe": "siri",
+     "wenn": {
+      "flag": "a3_siri_festa"
+     }
+    },
+    {
+     "wer": "jana",
+     "text": "Madame, sorry, the children want the end of the long story. The one from the church.",
+     "gefuehl": "joy",
+     "gruppe": "casa",
+     "wenn": {
+      "flag": "bl_kirche_casanova"
+     }
+    },
+    {
+     "wer": "holm",
+     "text": "Mamma, this is Petru. He's the one who taught me to sit still.",
+     "gefuehl": "love",
+     "gruppe": "holm",
+     "wenn": {
+      "flag": "a3_paar_holm"
+     }
+    },
+    {
+     "wer": "charly",
+     "text": "Ten.",
+     "gefuehl": "love",
+     "gruppe": "charly",
+     "wenn": {
+      "flag": "a3_paar_charly"
+     }
+    },
+    {
+     "wer": "danzel",
+     "text": "In public?!",
+     "gefuehl": "love",
+     "gruppe": "danzel",
+     "wenn": {
+      "flag": "a3_paar_charly"
+     }
+    },
+    {
+     "wer": "charly",
+     "text": "Eleven.",
+     "gefuehl": "love",
+     "gruppe": "charly2",
+     "wenn": {
+      "flag": "a3_paar_charly"
+     }
+    },
+    {
+     "wer": "bibi",
+     "text": "Finally! I had a bet with myself. I won.",
+     "gefuehl": "joy",
+     "gruppe": "bibi",
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_paar_charly"
+       },
+       {
+        "flag": "rt_bibi_bleibt"
+       }
+      ]
+     }
+    },
+    {
+     "wer": "mina",
+     "text": "I opened it. Dumè's letter. ...He says come and visit. I think I'll stay. I think I'll visit.",
+     "gefuehl": "joy",
+     "gruppe": "mina",
+     "wenn": {
+      "eine": [
+       {
+        "flag": "a3_paar_lea_zusammen"
+       },
+       {
+        "flag": "a3_paar_lea_festa"
+       }
+      ]
+     }
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Dances.",
+     "folgen": [
+      {
+       "flag": "a3_festa_fertig"
+      }
+     ]
+    },
+    {
+     "text": "Sits down at the long table and watches everyone.",
+     "folgen": [
+      {
+       "flag": "a3_festa_fertig"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_mitternacht_chiara",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "After Midnight",
+   "wann": {
+    "tage": [
+     35,
+     35
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "nacht"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "alle": [
+        {
+         "nicht": {
+          "flag": "a3_deal"
+         }
+        },
+        {
+         "flag": "a3_mitternacht_chiara"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "chiara",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "After midnight. The music from the piazza is quieter down here on the mole. She is already there.",
+   "zeilen": [
+    {
+     "wer": "chiara",
+     "text": "Ten. That's a ten, First Officer. Don't let it go to your head. ...Let it go to your head a little.",
+     "gefuehl": "love"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Stays.",
+     "folgen": [
+      {
+       "flag": "a3_mitternacht_fertig"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_mitternacht_alva",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "After Midnight",
+   "wann": {
+    "tage": [
+     35,
+     35
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "nacht"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "alle": [
+        {
+         "nicht": {
+          "flag": "a3_deal"
+         }
+        },
+        {
+         "flag": "a3_mitternacht_alva"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "alva",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "After midnight. The music from the piazza is quieter down here on the mole. She is already there.",
+   "zeilen": [
+    {
+     "wer": "alva",
+     "text": "Only you. Don't tell anyone. They'd never believe it.",
+     "gefuehl": "love"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Stays.",
+     "folgen": [
+      {
+       "flag": "a3_mitternacht_fertig"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_mitternacht_lea",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "After Midnight",
+   "wann": {
+    "tage": [
+     35,
+     35
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "nacht"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "alle": [
+        {
+         "nicht": {
+          "flag": "a3_deal"
+         }
+        },
+        {
+         "flag": "a3_mitternacht_lea"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "lea",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "After midnight. The music from the piazza is quieter down here on the mole. She is already there.",
+   "zeilen": [
+    {
+     "wer": "lea",
+     "text": "The Azores can wait one more night. Two fingers?",
+     "gefuehl": "love"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Stays.",
+     "folgen": [
+      {
+       "flag": "a3_mitternacht_fertig"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_mitternacht_sophia",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "After Midnight",
+   "wann": {
+    "tage": [
+     35,
+     35
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "nacht"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "alle": [
+        {
+         "nicht": {
+          "flag": "a3_deal"
+         }
+        },
+        {
+         "flag": "a3_mitternacht_sophia"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "sophia",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "After midnight. The music from the piazza is quieter down here on the mole. She is already there.",
+   "zeilen": [
+    {
+     "wer": "sophia",
+     "text": "I've lost the bet. Best ten euros I ever lost.",
+     "gefuehl": "love"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Stays.",
+     "folgen": [
+      {
+       "flag": "a3_mitternacht_fertig"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_mitternacht_rosi",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "After Midnight",
+   "wann": {
+    "tage": [
+     35,
+     35
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "nacht"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "alle": [
+        {
+         "nicht": {
+          "flag": "a3_deal"
+         }
+        },
+        {
+         "flag": "a3_mitternacht_rosi"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "rosi",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "After midnight. The music from the piazza is quieter down here on the mole. She is already there.",
+   "zeilen": [
+    {
+     "wer": "rosi",
+     "text": "...Captain. There. I said it. Don't make a face.",
+     "gefuehl": "love"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Stays.",
+     "folgen": [
+      {
+       "flag": "a3_mitternacht_fertig"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_mitternacht_lola",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "After Midnight",
+   "wann": {
+    "tage": [
+     35,
+     35
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "nacht"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "alle": [
+        {
+         "nicht": {
+          "flag": "a3_deal"
+         }
+        },
+        {
+         "flag": "a3_mitternacht_lola"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "lola",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "After midnight. The music from the piazza is quieter down here on the mole. She is already there.",
+   "zeilen": [
+    {
+     "wer": "lola",
+     "text": "One song. Mostly one. Sit down, Boss. Properly.",
+     "gefuehl": "love"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Stays.",
+     "folgen": [
+      {
+       "flag": "a3_mitternacht_fertig"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_mitternacht_siri",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "After Midnight",
+   "wann": {
+    "tage": [
+     35,
+     35
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "nacht"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "alle": [
+        {
+         "nicht": {
+          "flag": "a3_deal"
+         }
+        },
+        {
+         "flag": "a3_mitternacht_siri"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "siri",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "After midnight. The music from the piazza is quieter down here on the mole. She is already there.",
+   "zeilen": [
+    {
+     "wer": "siri",
+     "text": "No camera. Just this.",
+     "gefuehl": "love"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Stays.",
+     "folgen": [
+      {
+       "flag": "a3_mitternacht_fertig"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_mitternacht_bibi",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "After Midnight",
+   "wann": {
+    "tage": [
+     35,
+     35
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "nacht"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "alle": [
+        {
+         "nicht": {
+          "flag": "a3_deal"
+         }
+        },
+        {
+         "flag": "a3_mitternacht_bibi"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "bibi",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "After midnight. The music from the piazza is quieter down here on the mole. She is already there.",
+   "zeilen": [
+    {
+     "wer": "bibi",
+     "text": "I'm a mess, and you came anyway. Good.",
+     "gefuehl": "love"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Stays.",
+     "folgen": [
+      {
+       "flag": "a3_mitternacht_fertig"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_mitternacht_megan",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "After Midnight",
+   "wann": {
+    "tage": [
+     35,
+     35
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "nacht"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "alle": [
+        {
+         "nicht": {
+          "flag": "a3_deal"
+         }
+        },
+        {
+         "flag": "a3_mitternacht_megan"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "megan",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "After midnight. The music from the piazza is quieter down here on the mole. She is already there.",
+   "zeilen": [
+    {
+     "wer": "megan",
+     "text": "We never speak of this. ...Stay a bit.",
+     "gefuehl": "desire"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Stays.",
+     "folgen": [
+      {
+       "flag": "a3_mitternacht_fertig"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_mitternacht_allein",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "After Midnight",
+   "wann": {
+    "tage": [
+     35,
+     35
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "nacht"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "alle": [
+        {
+         "nicht": {
+          "flag": "a3_deal"
+         }
+        },
+        {
+         "flag": "a3_mitternacht_niemand"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "mina",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "After midnight. The mole is empty, and that's fine. Behind you the whole village is still dancing.",
+   "zeilen": [
+    {
+     "wer": "mina",
+     "text": "Yacht! You're missing the best part. Come back up!",
+     "gefuehl": "joy"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Goes back up to the piazza.",
+     "folgen": [
+      {
+       "flag": "a3_mitternacht_fertig"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_festa_deal",
+   "art": "gag1",
+   "ton": "ernst",
+   "titel": "The Festa",
+   "wann": {
+    "tage": [
+     35,
+     35
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "abend"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "flag": "a3_deal"
+      }
+     ]
+    }
+   },
+   "bild": "village_piazza",
+   "personen": {
+    "handelnd": "casanova",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "The festa happens under a white banner with two letters on it. Alon raises a glass from a hologram over the stage. Rosi doesn't say a word all evening. Minicu carries crates at the harbour, for A.V., and doesn't ask.",
+   "zeilen": [
+    {
+     "wer": "casanova",
+     "text": "...Cheers, Monsieur.",
+     "gefuehl": "sadness"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Raises his glass.",
+     "folgen": [
+      {
+       "flag": "a3_festa_fertig"
+      },
+      {
+       "flag": "akt3_festa"
+      }
+     ]
     }
    ]
   }

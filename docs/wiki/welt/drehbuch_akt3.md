@@ -832,7 +832,20 @@ Test: `tests/test_akt3_woche5.py`.
 
 **Wer schläft wo** steht als Zeile in den Szenen (Chiara bei Alva, Sophia im Kloster, Lea bei Mina, Holm bei Petru), jeweils nur bei `tk_yacht_weg` und stehendem Haus. Eine Raum-Logik im Modul (`zimmer`) für Akt 3 ist **nicht gebaut** (Fragenliste F-34).
 
-Test: `tests/test_akt3_romanzen.py`. `kaempfe.json` gezielt ergänzt (der Kampf-Builder bricht hier an fehlenden Sounds ab): lokal `kaempfe_eden_rise.py` laufen lassen. Angepasst: `tests/test_akt2_events.py` (neue Fenster), `tests/test_holm_wette.py` (Tag 24, lokal nicht prüfbar wegen `eden-config.json`). Alle `test_*.py` vor und nach Paket A: 47 gegen 48 grün, kein Test hat seinen Status verloren.
+Test: `tests/test_akt3_romanzen.py`.
+
+**Paket F, gebaut (`ereignisse_akt3_finale.py`, 20 Events, 61 Zeilen; `kern/akt3.py`, `kern/abschluss.py`):**
+
+| Mechanik | Auslöser | Wirkung | Grenzen | Stelle |
+|---|---|---|---|---|
+| **Kommission** (Tag 35, Phase tag) | Pflicht, nach `mo_kommission` (steht in der Liste vorher, F-25) | jeder Zeuge mit `a3_zeuge_<pid>` sagt seinen Satz (Don in drei Fassungen, Sandru als Iskander mit `sandru_herkunft`), Buenaventura immer (`a3_zeuge_bonaventure`), Riscossore mit `a3_riscossore_kommt`, Minicu „can't come today“, die Beweise, die Duc hat, zuletzt das Kassenbuch: `a3_kassenbuch_alles` oder `_teil` | mit `a3_deal` eine kurze stille Fassung | `a3_kom_*` |
+| **Festa** (Tag 35, Abend) | Pflicht | Bild nach den Losen, Casanovas Rede, Alva klatscht, dann Minicu an der Kirchentür (`a3_minicu_lebt`), danach das Festbild mit Paaren und Freundschaften, `akt3_festa` öffnet die drei gebauten Festa-Szenen (Schalter F-22: Tag 35, Abend, Piazza, Pflicht; Ehrenbürger nicht im Deal) | Deal: `a3_festa_deal` unter A.V.-Banner, Minicu trägt Kisten | `a3_festa*` |
+| **Mitternacht** (Tag 35, Nacht) | `a3_mitternacht_<pid>` aus 5.21 | eine Zeile an der Mole, oder allein zurück zur Piazza | | `a3_mitternacht_*` |
+| **Säulen und Enden** | Ende von Tag 35 (`zeitraster.tage = 35`, nur mit `akt3_spielbar`) | Wahrheit: 3 Beweise oder 2 mit „alles“. Geld: Margot, Yamamoto 5 oder Megans Wende. Gemeinschaft: 5 Zeugen oder 4 mit „teil“, Ruf ab 5 zählt wie ein Zeuge. Stärke: Endkampf oder Festnahme. Ende 1 bei Deal, 3 bei vier Säulen, 2½a/b/c bei drei, 2a/b/c bei zwei mit Wahrheit, sonst 0 | ★ ist nicht gebaut (braucht „Ende 1 schon gesehen“ über Spielstände hinweg). Texte der Schlusskarte sind Platzhalter, Feinschliff Duc (E-128 offen, F-35) | `kern/akt3.saeulen`, `ende`, `kern/abschluss.akt3_ende` |
+
+Test: `tests/test_akt3_finale.py`.
+
+**Akt 3 einschalten:** `AKT3_SPIELBAR = True` in `werkzeuge/eden_rise/modul_eden_rise.py`, dann `modul_eden_rise.py` bauen. Erst nach Ducs lokalem Durchlauf mit Bildern (Bot-Lauf `PYTHONHASHSEED=0`, Paket G). `kaempfe.json` gezielt ergänzt (der Kampf-Builder bricht hier an fehlenden Sounds ab): lokal `kaempfe_eden_rise.py` laufen lassen. Angepasst: `tests/test_akt2_events.py` (neue Fenster), `tests/test_holm_wette.py` (Tag 24, lokal nicht prüfbar wegen `eden-config.json`). Alle `test_*.py` vor und nach Paket A: 47 gegen 48 grün, kein Test hat seinen Status verloren.
 
 ## 13. Was aus den Befunden wurde
 

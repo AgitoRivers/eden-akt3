@@ -500,6 +500,7 @@ def bauen():
     import ereignisse_akt3_lose                   # Akt 3, Zeugen und Festa-Lose (Paket C)
     import ereignisse_akt3_woche5                 # Akt 3, Woche 5 (Paket D)
     import ereignisse_akt3_romanzen               # Akt 3, Romanzen und Freundschaften (Paket E)
+    import ereignisse_akt3_finale                 # Akt 3, Kommission, Festa, Mitternacht (Paket F)
     events = (ereignisse_bordrat.EVENTS + ereignisse_handy.EVENTS + ereignisse_gag1.EVENTS + ereignisse_gagv.EVENTS
               + ereignisse_abende.EVENTS + ereignisse_staerken.EVENTS + ereignisse_verrueckt.EVENTS
               + ereignisse_akt1.EVENTS + ereignisse_yamamoto.EVENTS + ereignisse_tag0.EVENTS + ereignisse_hafen.EVENTS
@@ -510,17 +511,22 @@ def bauen():
               + ereignisse_favours.EVENTS + ereignisse_ligeia.EVENTS + ereignisse_legenden.EVENTS + ereignisse_red_trio.EVENTS + ereignisse_holm.EVENTS
               + ereignisse_dorf.EVENTS + ereignisse_schneider.EVENTS + ereignisse_romanzen.EVENTS + ereignisse_bibi.EVENTS + ereignisse_cliffhanger.EVENTS + ereignisse_outfit_quest.EVENTS + ereignisse_belagerung.EVENTS + ereignisse_belagerung_nacht.EVENTS + ereignisse_mochis.EVENTS
               + ereignisse_erinnerung.EVENTS + ereignisse_akt3_woche4.EVENTS + ereignisse_akt3_lose.EVENTS
-              + ereignisse_akt3_woche5.EVENTS + ereignisse_akt3_romanzen.EVENTS)
+              + ereignisse_akt3_woche5.EVENTS + ereignisse_akt3_romanzen.EVENTS + ereignisse_akt3_finale.EVENTS)
     # Die Event-Dateien importieren dieses Modul unter seinem Namen - ihre Gegenstaende landen dort, nicht in __main__
     NEUE_ITEMS.update(sys.modules["ereignisse_basis"].NEUE_ITEMS)
     import ereignisse_fenster                    # Akt 2 (29.10.2026): zeitlose Events bis Tag 21 offen, "nachlauf"
     fenster_fehlt = ereignisse_fenster.anwenden(events)
     ereignisse_romanzen.zusatz(events)           # alte Flirts reagieren auf die erste Nacht (Duc 31.10.2026)
     # Festa und Ehrenbuerger gehoeren ans Ende von Akt 3 (E-100). An Tag 21 ist die Belagerung, darum warten sie auf ein Flag.
+    # Festa-Schalter (Duc 04.11.2026, F-22 Zweig A): Tag 35, Abend, Piazza, garantiert nach a3_festa (setzt akt3_festa).
+    # Der Ehrenbuerger kommt nicht im Ende "Der Deal".
     for e in events:
         if e["id"] in ("br_ehrenbuerger", "ab_casanova_flamenco", "gv_rotes_kleid"):
             alt = e["wann"].get("bedingung")
-            e["wann"]["bedingung"] = {"alle": [{"flag": "akt3_festa"}] + ([alt] if alt else [])}
+            extra = [{"nicht": {"flag": "a3_deal"}}] if e["id"] == "br_ehrenbuerger" else []
+            e["wann"]["bedingung"] = {"alle": [{"flag": "akt3_festa"}] + extra + ([alt] if alt else [])}
+            e["wann"].update(tage=[35, 35], phasen=["abend"], pflicht=True, holt_leute=True)
+            e["bild"] = "village_piazza"
     fehler, warn = pruefe(events)
     fehler += ["Fenster: unbekanntes Event %s" % i for i in fenster_fehlt]
     statistik(events)
@@ -541,6 +547,7 @@ def bauen():
     print("Akt 3 Lose: %d gesprochene Zeilen -> stimme_tags.json" % sys.modules["ereignisse_akt3_lose"].tags_schreiben())
     print("Akt 3 Woche 5: %d gesprochene Zeilen -> stimme_tags.json" % sys.modules["ereignisse_akt3_woche5"].tags_schreiben())
     print("Akt 3 Romanzen: %d gesprochene Zeilen -> stimme_tags.json" % sys.modules["ereignisse_akt3_romanzen"].tags_schreiben())
+    print("Akt 3 Finale: %d gesprochene Zeilen -> stimme_tags.json" % sys.modules["ereignisse_akt3_finale"].tags_schreiben())
     print("Outfit-Quest: %d gesprochene Zeilen -> stimme_tags.json" % ereignisse_outfit_quest.tags_schreiben())
     print("Legenden: %d Zeilen -> legenden.json, %d gesprochene -> stimme_tags.json" % ereignisse_legenden.schreiben(os.path.dirname(ZIEL)))
     print("Dorf: %d gesprochene Zeilen -> stimme_tags.json" % ereignisse_dorf.tags_schreiben())
