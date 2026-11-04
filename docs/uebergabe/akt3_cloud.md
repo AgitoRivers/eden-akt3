@@ -54,7 +54,7 @@ Stand 04.11.2026, Block 3: Drehbuch Version 3.4 (Bones, Charly und Danzel, Festa
 - **Wiki gegen Code:** Bericht auf Branch `wiki-vs-code` abgeglichen. H1, H2, H4, H5, H6, H8 waren schon behoben. Gemacht: H9 (Rücksprünge, Wiki und Docstring), H10 (Bà Tư „You, later.“ hat jetzt `[sigh]`, lokal vertonen). Offen als Fragen: H3 Funken (F-37), H7 Funk-Vorwarnung (F-38).
 - **Figurenseiten:** 17 Seiten haben einen Abschnitt „Akt 3“ mit Szenen, Flags und Vermerken, wo Akt 3 älteren Text überholt. Minicu und Sandru haben keine eigene Seite.
 - **Bild-Prompts:** in `akt3_bestellungen.md`, Abschnitt „Prompts für Character Design“ (Hintergründe, Häuser je Bauphase, AlonExo, Delorme, Luciani und weitere).
-- **Textprüfung:** `akt3_textpruefung.md`, 80 Befunde. Einarbeitung läuft, Stand steht in der Datei hinter jeder Zeile.
+- **Textprüfung:** `akt3_textpruefung.md`, 80 Befunde, 77 eingearbeitet (Commit 80c0938), drei nur teilweise (Nr. 30, 57, 78: Feinschliff bei Duc). Neue Fragen F-40 bis F-42. Der Epilog hängt jetzt vom Ende ab (`kern/abschluss.py` EPILOG).
 - **Kommission als Bildschirm:** Plugin `client/plugins/eden-commission/` blind gebaut und in `index.html` eingebunden. **Lokal:** Spiel starten, `kommission.AN = True`, einmal durchspielen (Press, Karte wählen, OBJECTION!, „I have nothing“, Plädoyer, Continue). Danach Bilder der Sprecher und das Ausblenden der Spielleisten nach dem Muster `eden-hearing` ergänzen.
 - **Danzel in Rosis Schluss-Szene** fehlt im Code (F-39).
 
