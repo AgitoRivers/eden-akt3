@@ -114693,7 +114693,7 @@
      "gefuehl": "pride",
      "gruppe": "bones",
      "wenn": {
-      "flag": "a3_bones_geuebt"
+      "flag": "a3_paar_bones"
      }
     },
     {
@@ -117809,6 +117809,2622 @@
        "flag": "a3_ligeia_festa"
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "a3_schluss_chiara",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "Blackout",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "bridge",
+   "personen": {
+    "handelnd": "chiara",
+    "betroffen": []
+   },
+   "sets": {
+    "chiara": "Bridge Night"
+   },
+   "lage": "The evening of day 32. You are alone with Chiara on the bridge when every light goes out at once. Only the stars are left.",
+   "zeilen": [
+    {
+     "wer": "chiara",
+     "text": "The night in the siege, on the bridge wing, when I rated the sky because I'd run out of things to count. It was a six.",
+     "gefuehl": "caring",
+     "gruppe": "rueck",
+     "wenn": {
+      "eine": [
+       {
+        "flag": "bl_ab_fertig_chiara"
+       },
+       {
+        "flag": "bl_na_fertig_chiara"
+       }
+      ]
+     }
+    },
+    {
+     "wer": "chiara",
+     "text": "The first day you came on board, I gave you a four. I'm not changing it. Yet.",
+     "gefuehl": "amusement",
+     "gruppe": "rueck",
+     "wenn": null
+    },
+    {
+     "wer": "chiara",
+     "text": "And you gave me the good bandage. I never said thank you. I'm not saying it now either.",
+     "gefuehl": "embarrassment",
+     "gruppe": "verband",
+     "wenn": {
+      "flag": "bl_verband_chiara"
+     }
+    },
+    {
+     "wer": "chiara",
+     "text": "First Officer. I don't know which breaker it is. What would you do?",
+     "gefuehl": "nervousness"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Holds the torch and lets her find it.",
+     "folgen": [
+      {
+       "flag": "a3_schluss_chiara"
+      },
+      {
+       "flag": "a3_schluss_chiara_0"
+      },
+      {
+       "vertrauen": [
+        "chiara",
+        4
+       ]
+      },
+      {
+       "begehren": [
+        "chiara",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "chiara",
+      "text": "...There. Light. For once I won't give it a number.",
+      "gefuehl": "love"
+     }
+    },
+    {
+     "text": "“The red one. Second row.”",
+     "folgen": [
+      {
+       "flag": "a3_schluss_chiara"
+      },
+      {
+       "flag": "a3_schluss_chiara_1"
+      },
+      {
+       "vertrauen": [
+        "chiara",
+        4
+       ]
+      },
+      {
+       "begehren": [
+        "chiara",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "chiara",
+      "text": "Show-off. It was the red one.",
+      "gefuehl": "amusement"
+     }
+    },
+    {
+     "text": "“I don't know either. Let's find it together.”",
+     "folgen": [
+      {
+       "flag": "a3_schluss_chiara"
+      },
+      {
+       "flag": "a3_schluss_chiara_2"
+      },
+      {
+       "vertrauen": [
+        "chiara",
+        4
+       ]
+      },
+      {
+       "begehren": [
+        "chiara",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "chiara",
+      "text": "Together. Okay. That's a ten. Don't tell anyone.",
+      "gefuehl": "love"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_schluss_alva",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "The Board Is Full",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "alvas_bar",
+   "personen": {
+    "handelnd": "alva",
+    "betroffen": []
+   },
+   "sets": {
+    "alva": "alva_standard"
+   },
+   "lage": "Alva's bar after closing time. Papa's chalk board is full of names. There is one empty space at the bottom.",
+   "zeilen": [
+    {
+     "wer": "alva",
+     "text": "The evening on the quay, in the siege, when I gave out drinks and wrote down every glass. You paid the first round. You did.",
+     "gefuehl": "amusement",
+     "gruppe": "rueck",
+     "wenn": {
+      "flag": "bl_alva_runde"
+     }
+    },
+    {
+     "wer": "alva",
+     "text": "My name isn't on Papa's board. What do you write next to it?",
+     "gefuehl": "nervousness"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Writes ALVA and, next to it, “stays”.",
+     "folgen": [
+      {
+       "flag": "a3_schluss_alva"
+      },
+      {
+       "flag": "a3_schluss_alva_0"
+      },
+      {
+       "vertrauen": [
+        "alva",
+        4
+       ]
+      },
+      {
+       "begehren": [
+        "alva",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "alva",
+      "text": "Stays. ...Idiot. Okay. Stays.",
+      "gefuehl": "love"
+     }
+    },
+    {
+     "text": "Writes ALVA and leaves the space next to it empty.",
+     "folgen": [
+      {
+       "flag": "a3_schluss_alva"
+      },
+      {
+       "flag": "a3_schluss_alva_1"
+      },
+      {
+       "vertrauen": [
+        "alva",
+        4
+       ]
+      },
+      {
+       "begehren": [
+        "alva",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "alva",
+      "text": "Empty. So I can choose. You know me too well.",
+      "gefuehl": "caring"
+     }
+    },
+    {
+     "text": "Gives her the chalk back. “You write it.”",
+     "folgen": [
+      {
+       "flag": "a3_schluss_alva"
+      },
+      {
+       "flag": "a3_schluss_alva_2"
+      },
+      {
+       "vertrauen": [
+        "alva",
+        4
+       ]
+      },
+      {
+       "begehren": [
+        "alva",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "alva",
+      "text": "Me? ...Fine. Don't look.",
+      "gefuehl": "embarrassment"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_schluss_lea",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "One More Dive",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "swim_platform",
+   "personen": {
+    "handelnd": "lea",
+    "betroffen": []
+   },
+   "sets": {
+    "lea": "Dive"
+   },
+   "lage": "The mouth of the grotto, at low tide. You sit with Lea on the flat rock that is an island twice a day.",
+   "zeilen": [
+    {
+     "wer": "lea",
+     "text": "Two fingers, side by side, the sign I showed you on the foredeck, the night of the siege.",
+     "gefuehl": "love",
+     "gruppe": "rueck",
+     "wenn": {
+      "eine": [
+       {
+        "flag": "bl_ab_fertig_lea"
+       },
+       {
+        "flag": "bl_na_fertig_lea"
+       }
+      ]
+     }
+    },
+    {
+     "wer": "lea",
+     "text": "The squid, the night they came up to the swim platform and you made the okay sign at me.",
+     "gefuehl": "joy",
+     "gruppe": "rueck",
+     "wenn": null
+    },
+    {
+     "wer": "lea",
+     "text": "The Azores letter is still in my bag. If I go, will you come and see me? Proper see me?",
+     "gefuehl": "nervousness"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Yes. Not fast, but yes.”",
+     "folgen": [
+      {
+       "flag": "a3_schluss_lea"
+      },
+      {
+       "flag": "a3_schluss_lea_0"
+      },
+      {
+       "vertrauen": [
+        "lea",
+        4
+       ]
+      },
+      {
+       "begehren": [
+        "lea",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "lea",
+      "text": "Not fast. That's very you.",
+      "gefuehl": "love"
+     }
+    },
+    {
+     "text": "“Stay. The bay will need you.”",
+     "folgen": [
+      {
+       "flag": "a3_schluss_lea"
+      },
+      {
+       "flag": "a3_schluss_lea_1"
+      },
+      {
+       "vertrauen": [
+        "lea",
+        4
+       ]
+      },
+      {
+       "begehren": [
+        "lea",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "lea",
+      "text": "The bay. ...And you?",
+      "gefuehl": "love"
+     }
+    },
+    {
+     "text": "Holds up two fingers and says nothing.",
+     "folgen": [
+      {
+       "flag": "a3_schluss_lea"
+      },
+      {
+       "flag": "a3_schluss_lea_2"
+      },
+      {
+       "vertrauen": [
+        "lea",
+        4
+       ]
+      },
+      {
+       "begehren": [
+        "lea",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "lea",
+      "text": "Two fingers. Okay. That's an answer.",
+      "gefuehl": "love"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_schluss_sophia",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "The Sixteenth Letter",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "aft_deck",
+   "personen": {
+    "handelnd": "sophia",
+    "betroffen": []
+   },
+   "sets": {
+    "sophia": "Writing Night"
+   },
+   "lage": "Sophia has a letter in her hand. Fifteen letters said no. This is number sixteen, and it is still closed.",
+   "zeilen": [
+    {
+     "wer": "sophia",
+     "text": "Ten euros, the bet that you'd ask me what I actually want. You did ask. I still owe you the answer.",
+     "gefuehl": "amusement"
+    },
+    {
+     "wer": "sophia",
+     "text": "Darling, will you open it, or shall I?",
+     "gefuehl": "nervousness"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Gives her the letter. “It's yours.”",
+     "folgen": [
+      {
+       "flag": "a3_schluss_sophia"
+      },
+      {
+       "flag": "a3_schluss_sophia_0"
+      },
+      {
+       "vertrauen": [
+        "sophia",
+        4
+       ]
+      },
+      {
+       "begehren": [
+        "sophia",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "sophia",
+      "text": "...Yes. It says yes. Oh God.",
+      "gefuehl": "joy"
+     }
+    },
+    {
+     "text": "Opens it and reads the first line out loud.",
+     "folgen": [
+      {
+       "flag": "a3_schluss_sophia"
+      },
+      {
+       "flag": "a3_schluss_sophia_1"
+      },
+      {
+       "vertrauen": [
+        "sophia",
+        4
+       ]
+      },
+      {
+       "begehren": [
+        "sophia",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "sophia",
+      "text": "Read it again. Slowly.",
+      "gefuehl": "love"
+     }
+    },
+    {
+     "text": "Puts it in her notebook, unopened. “Later. Together.”",
+     "folgen": [
+      {
+       "flag": "a3_schluss_sophia"
+      },
+      {
+       "flag": "a3_schluss_sophia_2"
+      },
+      {
+       "vertrauen": [
+        "sophia",
+        4
+       ]
+      },
+      {
+       "begehren": [
+        "sophia",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "sophia",
+      "text": "Together. That's the best line anyone ever wrote for me.",
+      "gefuehl": "love"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_schluss_rosi",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "Two Thirds",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "generator_room",
+   "personen": {
+    "handelnd": "rosi",
+    "betroffen": []
+   },
+   "sets": {
+    "rosi": "Engine Room"
+   },
+   "lage": "The engine room. Rosi is wiping her hands for the third time, which means she wants to say something.",
+   "zeilen": [
+    {
+     "wer": "rosi",
+     "text": "The night with the stopwatch, when nobody lost. ...Officer. If I say 'Captain' now, is that an insult or a promotion?",
+     "gefuehl": "nervousness"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“A promotion. I'll take it.”",
+     "folgen": [
+      {
+       "flag": "a3_schluss_rosi"
+      },
+      {
+       "flag": "a3_schluss_rosi_0"
+      },
+      {
+       "vertrauen": [
+        "rosi",
+        4
+       ]
+      },
+      {
+       "begehren": [
+        "rosi",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "rosi",
+      "text": "Then, Captain. Don't let it go to your head. It's a small head.",
+      "gefuehl": "love"
+     }
+    },
+    {
+     "text": "“Neither. Say Duc.”",
+     "folgen": [
+      {
+       "flag": "a3_schluss_rosi"
+      },
+      {
+       "flag": "a3_schluss_rosi_1"
+      },
+      {
+       "vertrauen": [
+        "rosi",
+        4
+       ]
+      },
+      {
+       "begehren": [
+        "rosi",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "rosi",
+      "text": "...Duc. That's harder than Captain.",
+      "gefuehl": "love"
+     }
+    },
+    {
+     "text": "Laughs and hands her the spanner.",
+     "folgen": [
+      {
+       "flag": "a3_schluss_rosi"
+      },
+      {
+       "flag": "a3_schluss_rosi_2"
+      },
+      {
+       "vertrauen": [
+        "rosi",
+        4
+       ]
+      },
+      {
+       "begehren": [
+        "rosi",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "rosi",
+      "text": "Unentschieden. That's a draw. I'll take it.",
+      "gefuehl": "amusement"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_schluss_lola",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "First Guest, Again",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "lola",
+    "betroffen": []
+   },
+   "sets": {
+    "lola": "Off Duty"
+   },
+   "lage": "Lola's hut on the beach. One table, two chairs, a pan that is too big.",
+   "zeilen": [
+    {
+     "wer": "lola",
+     "text": "The night in the siege you said yes to the toastie, and it wasn't burnt. Not even a bit.",
+     "gefuehl": "joy",
+     "gruppe": "rueck",
+     "wenn": {
+      "eine": [
+       {
+        "flag": "bl_ab_fertig_lola"
+       },
+       {
+        "flag": "bl_na_fertig_lola"
+       }
+      ]
+     }
+    },
+    {
+     "wer": "lola",
+     "text": "The first morning on the yacht, when you ate my eggs and didn't make a face.",
+     "gefuehl": "joy",
+     "gruppe": "rueck",
+     "wenn": null
+    },
+    {
+     "wer": "lola",
+     "text": "Boss. If I cook for you here, will you sit down? Properly? No running off?",
+     "gefuehl": "nervousness"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Sits down and puts his phone away.",
+     "folgen": [
+      {
+       "flag": "a3_schluss_lola"
+      },
+      {
+       "flag": "a3_schluss_lola_0"
+      },
+      {
+       "vertrauen": [
+        "lola",
+        4
+       ]
+      },
+      {
+       "begehren": [
+        "lola",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "lola",
+      "text": "Phone away. Oh, mate. Okay. Okay.",
+      "gefuehl": "love"
+     }
+    },
+    {
+     "text": "“Only if you sit down too.”",
+     "folgen": [
+      {
+       "flag": "a3_schluss_lola"
+      },
+      {
+       "flag": "a3_schluss_lola_1"
+      },
+      {
+       "vertrauen": [
+        "lola",
+        4
+       ]
+      },
+      {
+       "begehren": [
+        "lola",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "lola",
+      "text": "Me? Sit? ...Mostly I can do that.",
+      "gefuehl": "love"
+     }
+    },
+    {
+     "text": "“Can I help?”",
+     "folgen": [
+      {
+       "flag": "a3_schluss_lola"
+      },
+      {
+       "flag": "a3_schluss_lola_2"
+      },
+      {
+       "vertrauen": [
+        "lola",
+        4
+       ]
+      },
+      {
+       "begehren": [
+        "lola",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "lola",
+      "text": "You can stir. Badly. Perfect.",
+      "gefuehl": "amusement"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_schluss_siri",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "No Caption",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "siri",
+    "betroffen": []
+   },
+   "sets": {
+    "siri": "Dad's Sweater"
+   },
+   "lage": "Sunset on the quay. Siri has left her phone on the yacht. Her hands don't know what to do.",
+   "zeilen": [
+    {
+     "wer": "siri",
+     "text": "The sunset on the foredeck, when I told you I hadn't written my own caption since I was nineteen. If this was a photo, what would you write under it?",
+     "gefuehl": "nervousness"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Nothing. Some things don't need words.”",
+     "folgen": [
+      {
+       "flag": "a3_schluss_siri"
+      },
+      {
+       "flag": "a3_schluss_siri_0"
+      },
+      {
+       "vertrauen": [
+        "siri",
+        4
+       ]
+      },
+      {
+       "begehren": [
+        "siri",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "siri",
+      "text": "Nothing. That's the best caption.",
+      "gefuehl": "love"
+     }
+    },
+    {
+     "text": "“Siri, in her own words.”",
+     "folgen": [
+      {
+       "flag": "a3_schluss_siri"
+      },
+      {
+       "flag": "a3_schluss_siri_1"
+      },
+      {
+       "vertrauen": [
+        "siri",
+        4
+       ]
+      },
+      {
+       "begehren": [
+        "siri",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "siri",
+      "text": "My own words. I'll think of some.",
+      "gefuehl": "love"
+     }
+    },
+    {
+     "text": "Takes her hand and doesn't answer.",
+     "folgen": [
+      {
+       "flag": "a3_schluss_siri"
+      },
+      {
+       "flag": "a3_schluss_siri_2"
+      },
+      {
+       "vertrauen": [
+        "siri",
+        4
+       ]
+      },
+      {
+       "begehren": [
+        "siri",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "siri",
+      "text": "...Okay. No caption.",
+      "gefuehl": "love"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_schluss_bibi",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "Mochi",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "mochis",
+   "personen": {
+    "handelnd": "bibi",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "The last collar. An old lion sleeps by the campfire at the station, and Bibi has the knife.",
+   "zeilen": [
+    {
+     "wer": "bibi",
+     "text": "The night at the campfire with the three of us, when I said 'until every collar is off', and you didn't laugh. This is the last one. He's asleep. Do I cut it, or do you?",
+     "gefuehl": "nervousness"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“You. He's yours.”",
+     "folgen": [
+      {
+       "flag": "a3_schluss_bibi"
+      },
+      {
+       "flag": "a3_schluss_bibi_0"
+      },
+      {
+       "vertrauen": [
+        "bibi",
+        4
+       ]
+      },
+      {
+       "begehren": [
+        "bibi",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "bibi",
+      "text": "Mine. ...There. Off. Every one of them.",
+      "gefuehl": "love"
+     }
+    },
+    {
+     "text": "“Together.”",
+     "folgen": [
+      {
+       "flag": "a3_schluss_bibi"
+      },
+      {
+       "flag": "a3_schluss_bibi_1"
+      },
+      {
+       "vertrauen": [
+        "bibi",
+        4
+       ]
+      },
+      {
+       "begehren": [
+        "bibi",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "bibi",
+      "text": "Together. Hold his head. Gently.",
+      "gefuehl": "love"
+     }
+    },
+    {
+     "text": "Hands her the knife without a word.",
+     "folgen": [
+      {
+       "flag": "a3_schluss_bibi"
+      },
+      {
+       "flag": "a3_schluss_bibi_2"
+      },
+      {
+       "vertrauen": [
+        "bibi",
+        4
+       ]
+      },
+      {
+       "begehren": [
+        "bibi",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "bibi",
+      "text": "You always know when to shut up. I love that. Oops.",
+      "gefuehl": "embarrassment"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_schluss_megan",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "Still Off the Record",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "vip_cabin",
+   "personen": {
+    "handelnd": "megan",
+    "betroffen": []
+   },
+   "sets": {
+    "megan": "Boardroom"
+   },
+   "lage": "Megan closes the cabin door and leans against it.",
+   "zeilen": [
+    {
+     "wer": "megan",
+     "text": "That night I called you and said it was off the record. You never told anyone. This stays off the record too, First Officer. Can you do that?",
+     "gefuehl": "nervousness"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“I already did, Megan.”",
+     "folgen": [
+      {
+       "flag": "a3_schluss_megan"
+      },
+      {
+       "flag": "a3_schluss_megan_0"
+      },
+      {
+       "vertrauen": [
+        "megan",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "megan",
+      "text": "How... reassuring.",
+      "gefuehl": "love"
+     }
+    },
+    {
+     "text": "“Only if you call me Duc.”",
+     "folgen": [
+      {
+       "flag": "a3_schluss_megan"
+      },
+      {
+       "flag": "a3_schluss_megan_1"
+      },
+      {
+       "vertrauen": [
+        "megan",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "megan",
+      "text": "...Duc. Don't make it a habit.",
+      "gefuehl": "love"
+     }
+    },
+    {
+     "text": "Nods and closes the door behind him.",
+     "folgen": [
+      {
+       "flag": "a3_schluss_megan"
+      },
+      {
+       "flag": "a3_schluss_megan_2"
+      },
+      {
+       "vertrauen": [
+        "megan",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "megan",
+      "text": "Good. Then we never speak of it.",
+      "gefuehl": "desire"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_paar_lola",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "You, Now",
+   "wann": {
+    "tage": [
+     26,
+     33
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "fruehstueck"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "nicht": {
+        "flag": "gefeuert_lola"
+       }
+      },
+      {
+       "nicht": {
+        "eine": [
+         {
+          "flag": "rm_o3"
+         },
+         {
+          "flag": "lola_zusammen"
+         },
+         {
+          "flag": "lola_offen"
+         }
+        ]
+       }
+      },
+      {
+       "nicht": {
+        "flag": "a3_paar_lola"
+       }
+      }
+     ]
+    },
+    "leiter": true
+   },
+   "bild": "batu_shop",
+   "personen": {
+    "handelnd": "batu",
+    "betroffen": [
+     {
+      "id": "lola",
+      "ton": "+",
+      "was": "is learning"
+     }
+    ]
+   },
+   "sets": {
+    "lola": "Off Duty"
+   },
+   "lage": "Bà Tư's shop, early. Lola has come to help again. Bà Tư is teaching her to wash rice. Lola does it too fast.",
+   "zeilen": [
+    {
+     "wer": "batu",
+     "text": "Again. Slower. You cook like you're running away.",
+     "gefuehl": "caring"
+    },
+    {
+     "wer": "lola",
+     "text": "I sort of am, Auntie. Mostly from the dishes. ...My Nan in Byron Bay is ninety-one. Once she called the coast guard because I didn't ring on a Sunday.",
+     "gefuehl": "joy"
+    },
+    {
+     "wer": "batu",
+     "text": "The first time you came to my shop, I said: you, later. Now: you, now.",
+     "gefuehl": "caring",
+     "gruppe": "teller",
+     "wenn": {
+      "gesehen": "g1_batu_intro"
+     }
+    },
+    {
+     "wer": "batu",
+     "text": "In my shop, the first plate goes to family. Here. You, now.",
+     "gefuehl": "caring",
+     "gruppe": "teller",
+     "wenn": null
+    },
+    {
+     "wer": "lola",
+     "text": "Boss, she's adopting me. Is that allowed?",
+     "gefuehl": "surprise"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Say yes before she changes her mind.”",
+     "folgen": [
+      {
+       "flag": "a3_paar_lola"
+      },
+      {
+       "flag": "a3_paar_lola_ja"
+      }
+     ],
+     "zeile": {
+      "wer": "batu",
+      "text": "I don't change my mind. Eat.",
+      "gefuehl": "caring"
+     }
+    },
+    {
+     "text": "Sits down and holds out his own plate.",
+     "folgen": [
+      {
+       "flag": "a3_paar_lola"
+      },
+      {
+       "flag": "a3_paar_lola_teller"
+      }
+     ],
+     "zeile": {
+      "wer": "batu",
+      "text": "You too. Later.",
+      "gefuehl": "amusement"
+     }
+    },
+    {
+     "text": "“Call your Nan and ask her.”",
+     "folgen": [
+      {
+       "flag": "a3_paar_lola"
+      },
+      {
+       "flag": "a3_paar_lola_nan"
+      }
+     ],
+     "zeile": {
+      "wer": "lola",
+      "text": "Nan says: is she feeding you? Then she's family.",
+      "gefuehl": "joy"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_paar_lola_duc",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "You, Now",
+   "wann": {
+    "tage": [
+     26,
+     33
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "fruehstueck"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "nicht": {
+        "flag": "gefeuert_lola"
+       }
+      },
+      {
+       "eine": [
+        {
+         "flag": "rm_o3"
+        },
+        {
+         "flag": "lola_zusammen"
+        },
+        {
+         "flag": "lola_offen"
+        }
+       ]
+      },
+      {
+       "nicht": {
+        "flag": "a3_paar_lola"
+       }
+      }
+     ]
+    },
+    "leiter": true
+   },
+   "bild": "batu_shop",
+   "personen": {
+    "handelnd": "batu",
+    "betroffen": [
+     {
+      "id": "lola",
+      "ton": "+",
+      "was": "is learning"
+     }
+    ]
+   },
+   "sets": {
+    "lola": "Off Duty"
+   },
+   "lage": "Bà Tư's shop, early. Lola is learning to wash rice. Bà Tư watches the pot and Lola at the same time.",
+   "zeilen": [
+    {
+     "wer": "batu",
+     "text": "Mina says the Boss eats at your table now. Good. You feed him. He's too thin.",
+     "gefuehl": "caring"
+    },
+    {
+     "wer": "lola",
+     "text": "Auntie! ...I feed him toast, mainly.",
+     "gefuehl": "embarrassment"
+    },
+    {
+     "wer": "batu",
+     "text": "In my shop, the first plate goes to family. Here. You, now. And you tell him he can come, too. Later.",
+     "gefuehl": "caring"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Later is fine.”",
+     "folgen": [
+      {
+       "flag": "a3_paar_lola"
+      },
+      {
+       "flag": "a3_paar_lola_spaeter"
+      }
+     ],
+     "zeile": {
+      "wer": "batu",
+      "text": "Good boy.",
+      "gefuehl": "amusement"
+     }
+    },
+    {
+     "text": "Sits down next to Lola anyway.",
+     "folgen": [
+      {
+       "flag": "a3_paar_lola"
+      },
+      {
+       "flag": "a3_paar_lola_teller"
+      }
+     ],
+     "zeile": {
+      "wer": "lola",
+      "text": "Told you he's stubborn, Auntie.",
+      "gefuehl": "joy"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_paar_chiara",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "Olivetti",
+   "wann": {
+    "tage": [
+     26,
+     33
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "abend"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "nicht": {
+        "flag": "gefeuert_chiara"
+       }
+      },
+      {
+       "nicht": {
+        "eine": [
+         {
+          "flag": "rm_c3"
+         },
+         {
+          "flag": "chiara_zusammen"
+         },
+         {
+          "flag": "chiara_offen"
+         }
+        ]
+       }
+      },
+      {
+       "nicht": {
+        "eine": [
+         {
+          "flag": "rm_a3"
+         },
+         {
+          "flag": "alva_zusammen"
+         },
+         {
+          "flag": "alva_offen"
+         }
+        ]
+       }
+      },
+      {
+       "nicht": {
+        "flag": "a3_paar_chiara"
+       }
+      }
+     ]
+    },
+    "leiter": true
+   },
+   "bild": "alvas_bar",
+   "personen": {
+    "handelnd": "alva",
+    "betroffen": [
+     {
+      "id": "chiara",
+      "ton": "+",
+      "was": "dries the glasses wrong"
+     }
+    ]
+   },
+   "sets": {},
+   "lage": "Alva's bar, late. Chiara dries the glasses, wrongly. Alva lets her.",
+   "zeilen": [
+    {
+     "wer": "chiara",
+     "text": "I sleep upstairs now. Your sofa is a seven.",
+     "gefuehl": "amusement",
+     "gruppe": "wo",
+     "wenn": {
+      "alle": [
+       {
+        "flag": "tk_yacht_weg"
+       },
+       {
+        "nicht": {
+         "flag": "tk_haus_weg_bar"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "wer": "chiara",
+     "text": "Four. Your glasses are a four. The bar is a nine.",
+     "gefuehl": "neutral"
+    },
+    {
+     "wer": "alva",
+     "text": "And me?",
+     "gefuehl": "curiosity"
+    },
+    {
+     "wer": "chiara",
+     "text": "Not on the scale. Scales are for things.",
+     "gefuehl": "embarrassment"
+    },
+    {
+     "wer": "alva",
+     "text": "Due Olivetti, per favore. ...Nobody makes me laugh in my own bar. That's my job, Hamburg.",
+     "gefuehl": "joy"
+    },
+    {
+     "wer": "chiara",
+     "text": "There was someone once. Saint-Tropez. I never told anyone. ...I'm telling you. First Officer, is it strange to get a best friend at twenty-nine? I never had one.",
+     "gefuehl": "nervousness"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“It's not strange. It's a nine.”",
+     "folgen": [
+      {
+       "flag": "a3_paar_chiara"
+      },
+      {
+       "flag": "a3_paar_chiara_neun"
+      }
+     ],
+     "zeile": {
+      "wer": "alva",
+      "text": "A nine. She'll take it.",
+      "gefuehl": "amusement"
+     }
+    },
+    {
+     "text": "Smiles and says nothing.",
+     "folgen": [
+      {
+       "flag": "a3_paar_chiara"
+      },
+      {
+       "flag": "a3_paar_chiara_still"
+      }
+     ],
+     "zeile": {
+      "wer": "chiara",
+      "text": "Good answer. Seven.",
+      "gefuehl": "caring"
+     }
+    },
+    {
+     "text": "“Tell her, not me.”",
+     "folgen": [
+      {
+       "flag": "a3_paar_chiara"
+      },
+      {
+       "flag": "a3_paar_chiara_sag"
+      }
+     ],
+     "zeile": {
+      "wer": "alva",
+      "text": "...Ten. Don't you dare cry, Hamburg.",
+      "gefuehl": "caring"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_paar_chiara_duc",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "Olivetti",
+   "wann": {
+    "tage": [
+     26,
+     33
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "abend"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "nicht": {
+        "flag": "gefeuert_chiara"
+       }
+      },
+      {
+       "eine": [
+        {
+         "eine": [
+          {
+           "flag": "rm_c3"
+          },
+          {
+           "flag": "chiara_zusammen"
+          },
+          {
+           "flag": "chiara_offen"
+          }
+         ]
+        },
+        {
+         "eine": [
+          {
+           "flag": "rm_a3"
+          },
+          {
+           "flag": "alva_zusammen"
+          },
+          {
+           "flag": "alva_offen"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "nicht": {
+        "flag": "a3_paar_chiara"
+       }
+      }
+     ]
+    },
+    "leiter": true
+   },
+   "bild": "alvas_bar",
+   "personen": {
+    "handelnd": "alva",
+    "betroffen": [
+     {
+      "id": "chiara",
+      "ton": "+",
+      "was": "dries the glasses wrong"
+     }
+    ]
+   },
+   "sets": {},
+   "lage": "Alva's bar, late. Chiara dries the glasses, wrongly. Alva lets her.",
+   "zeilen": [
+    {
+     "wer": "alva",
+     "text": "Mina says you rated the First Officer a nine and a half. Out loud. In a bar.",
+     "gefuehl": "amusement",
+     "gruppe": "tratsch",
+     "wenn": {
+      "eine": [
+       {
+        "flag": "rm_c3"
+       },
+       {
+        "flag": "chiara_zusammen"
+       },
+       {
+        "flag": "chiara_offen"
+       }
+      ]
+     }
+    },
+    {
+     "wer": "chiara",
+     "text": "So. You and the First Officer. Lola told me, and Lola tells everybody. Seven out of ten for hiding it.",
+     "gefuehl": "amusement",
+     "gruppe": "tratsch",
+     "wenn": null
+    },
+    {
+     "wer": "chiara",
+     "text": "That's a classified number. ...Is it strange that she's nice to me now?",
+     "gefuehl": "embarrassment",
+     "gruppe": "frage",
+     "wenn": {
+      "eine": [
+       {
+        "flag": "rm_c3"
+       },
+       {
+        "flag": "chiara_zusammen"
+       },
+       {
+        "flag": "chiara_offen"
+       }
+      ]
+     }
+    },
+    {
+     "wer": "chiara",
+     "text": "I was jealous of you for three weeks. That's a ten in jealousy. I'm retiring now.",
+     "gefuehl": "embarrassment",
+     "gruppe": "frage",
+     "wenn": null
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“It's the best thing that happened all week.”",
+     "folgen": [
+      {
+       "flag": "a3_paar_chiara"
+      },
+      {
+       "flag": "a3_paar_chiara_gut"
+      }
+     ],
+     "zeile": {
+      "wer": "alva",
+      "text": "Then stay for a drink, Hamburg.",
+      "gefuehl": "joy"
+     }
+    },
+    {
+     "text": "“She's nice to everyone. You just noticed.”",
+     "folgen": [
+      {
+       "flag": "a3_paar_chiara"
+      },
+      {
+       "flag": "a3_paar_chiara_alle"
+      }
+     ],
+     "zeile": {
+      "wer": "alva",
+      "text": "Not to everyone. Shh.",
+      "gefuehl": "amusement"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_paar_sophia",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "A Line in the Margin",
+   "wann": {
+    "tage": [
+     26,
+     33
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "abend"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "nicht": {
+        "flag": "gefeuert_sophia"
+       }
+      },
+      {
+       "nicht": {
+        "eine": [
+         {
+          "flag": "rm_s3"
+         },
+         {
+          "flag": "sophia_zusammen"
+         },
+         {
+          "flag": "sophia_offen"
+         }
+        ]
+       }
+      },
+      {
+       "nicht": {
+        "flag": "a3_paar_sophia"
+       }
+      }
+     ]
+    },
+    "leiter": true
+   },
+   "bild": "church",
+   "personen": {
+    "handelnd": "sophia",
+    "betroffen": [
+     {
+      "id": "isabelle",
+      "ton": "+",
+      "was": "has exploded something again"
+     }
+    ]
+   },
+   "sets": {
+    "sophia": "Writing Night"
+   },
+   "lage": "Isabelle has come down from the monastery with her herb basket, and something in it has exploded again. Sophia helps her clean up, without a show.",
+   "zeilen": [
+    {
+     "wer": "sophia",
+     "text": "I sleep up at the monastery now, in a cell with a crucifix. Very good for writing.",
+     "gefuehl": "amusement",
+     "gruppe": "wo",
+     "wenn": {
+      "flag": "tk_yacht_weg"
+     }
+    },
+    {
+     "wer": "isabelle",
+     "text": "Sorry. Sorry, it was only rosemary.",
+     "gefuehl": "embarrassment"
+    },
+    {
+     "wer": "sophia",
+     "text": "Darling, I've seen worse things explode. Usually men.",
+     "gefuehl": "amusement"
+    },
+    {
+     "wer": "isabelle",
+     "text": "Mina once said to me, up on the hill: you could have left. Did you ever leave somewhere, Sophia?",
+     "gefuehl": "curiosity"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“She did. Ask her where.”",
+     "folgen": [
+      {
+       "flag": "a3_paar_sophia"
+      },
+      {
+       "flag": "a3_paar_sophia_frag"
+      }
+     ],
+     "zeile": {
+      "wer": "sophia",
+      "text": "Everywhere. Then I stopped. Here, write this down.",
+      "gefuehl": "caring"
+     }
+    },
+    {
+     "text": "“Isabelle, you can ask her anything. She's a good friend.”",
+     "folgen": [
+      {
+       "flag": "a3_paar_sophia"
+      },
+      {
+       "flag": "a3_paar_sophia_freundin"
+      }
+     ],
+     "zeile": {
+      "wer": "isabelle",
+      "text": "A friend. I've never had one outside the walls.",
+      "gefuehl": "gratitude"
+     }
+    },
+    {
+     "text": "Leaves them alone.",
+     "folgen": [
+      {
+       "flag": "a3_paar_sophia"
+      },
+      {
+       "flag": "a3_paar_sophia_allein"
+      }
+     ],
+     "zeile": {
+      "wer": "sophia",
+      "text": "He's tactful. Rare in a man.",
+      "gefuehl": "amusement"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_paar_sophia_duc",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "A Line in the Margin",
+   "wann": {
+    "tage": [
+     26,
+     33
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "abend"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "nicht": {
+        "flag": "gefeuert_sophia"
+       }
+      },
+      {
+       "eine": [
+        {
+         "flag": "rm_s3"
+        },
+        {
+         "flag": "sophia_zusammen"
+        },
+        {
+         "flag": "sophia_offen"
+        }
+       ]
+      },
+      {
+       "nicht": {
+        "flag": "a3_paar_sophia"
+       }
+      }
+     ]
+    },
+    "leiter": true
+   },
+   "bild": "church",
+   "personen": {
+    "handelnd": "sophia",
+    "betroffen": [
+     {
+      "id": "isabelle",
+      "ton": "+",
+      "was": "is curious"
+     }
+    ]
+   },
+   "sets": {
+    "sophia": "Writing Night"
+   },
+   "lage": "Isabelle has come down from the monastery with her herbs. Sophia is helping her sort them on the church steps.",
+   "zeilen": [
+    {
+     "wer": "isabelle",
+     "text": "Mina says you and the officer talk every night. She just knows things. Is it true?",
+     "gefuehl": "curiosity"
+    },
+    {
+     "wer": "sophia",
+     "text": "Darling, Mina knows everything. Don't tell Lea. ...Here. For when you want to leave somewhere. Or stay.",
+     "gefuehl": "caring"
+    },
+    {
+     "wer": "isabelle",
+     "text": "She's brave, isn't she? Is it hard, being brave?",
+     "gefuehl": "curiosity"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Ask her. She'll tell you it isn't.”",
+     "folgen": [
+      {
+       "flag": "a3_paar_sophia"
+      },
+      {
+       "flag": "a3_paar_sophia_frag"
+      }
+     ],
+     "zeile": {
+      "wer": "sophia",
+      "text": "It isn't. It's terrible. Do it anyway.",
+      "gefuehl": "amusement"
+     }
+    },
+    {
+     "text": "“Yes. She does it anyway.”",
+     "folgen": [
+      {
+       "flag": "a3_paar_sophia"
+      },
+      {
+       "flag": "a3_paar_sophia_ja"
+      }
+     ],
+     "zeile": {
+      "wer": "isabelle",
+      "text": "Anyway. I like that word.",
+      "gefuehl": "gratitude"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_paar_lea",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "Two Letters",
+   "wann": {
+    "tage": [
+     26,
+     33
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "dinner"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "nicht": {
+        "flag": "gefeuert_lea"
+       }
+      },
+      {
+       "nicht": {
+        "eine": [
+         {
+          "flag": "rm_l3"
+         },
+         {
+          "flag": "lea_zusammen"
+         },
+         {
+          "flag": "lea_offen"
+         }
+        ]
+       }
+      },
+      {
+       "nicht": {
+        "flag": "a3_paar_lea"
+       }
+      }
+     ]
+    },
+    "leiter": true
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "mina",
+    "betroffen": [
+     {
+      "id": "lea",
+      "ton": "+",
+      "was": "has a letter too"
+     }
+    ]
+   },
+   "sets": {
+    "lea": "Off Duty"
+   },
+   "lage": "Mina's Vespa at the quay. Mina and Lea sit on it, not going anywhere.",
+   "zeilen": [
+    {
+     "wer": "lea",
+     "text": "Did you know Mina's flat has a hundred and four letters in it? I counted. I sleep next to them.",
+     "gefuehl": "amusement",
+     "gruppe": "wo",
+     "wenn": {
+      "alle": [
+       {
+        "flag": "tk_yacht_weg"
+       },
+       {
+        "nicht": {
+         "flag": "tk_haus_weg_post"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "wer": "lea",
+     "text": "Did you know some letters are older than the people who carry them?",
+     "gefuehl": "curiosity"
+    },
+    {
+     "wer": "mina",
+     "text": "I know. I carry one. It's from my brother. In Montréal. I never opened it.",
+     "gefuehl": "sadness"
+    },
+    {
+     "wer": "lea",
+     "text": "I have one too. The Azores. I opened it. That's worse.",
+     "gefuehl": "sadness"
+    },
+    {
+     "wer": "mina",
+     "text": "If you go, I'll bring your post. To the Azores. On the Vespa. ...Yacht. Do you think we should open them? Both?",
+     "gefuehl": "curiosity"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Together, then. On the same day.”",
+     "folgen": [
+      {
+       "flag": "a3_paar_lea"
+      },
+      {
+       "flag": "a3_paar_lea_zusammen"
+      }
+     ],
+     "zeile": {
+      "wer": "lea",
+      "text": "Same day. Deal.",
+      "gefuehl": "joy"
+     }
+    },
+    {
+     "text": "“Only if you both want to.”",
+     "folgen": [
+      {
+       "flag": "a3_paar_lea"
+      },
+      {
+       "flag": "a3_paar_lea_frei"
+      }
+     ],
+     "zeile": {
+      "wer": "mina",
+      "text": "Only if. Okay.",
+      "gefuehl": "caring"
+     }
+    },
+    {
+     "text": "“Not yet. Keep them for the festa.”",
+     "folgen": [
+      {
+       "flag": "a3_paar_lea"
+      },
+      {
+       "flag": "a3_paar_lea_festa"
+      }
+     ],
+     "zeile": {
+      "wer": "mina",
+      "text": "The festa. Then I'll open it with everybody watching. Terrible. Okay.",
+      "gefuehl": "amusement"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_paar_lea_duc",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "Two Letters",
+   "wann": {
+    "tage": [
+     26,
+     33
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "dinner"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "nicht": {
+        "flag": "gefeuert_lea"
+       }
+      },
+      {
+       "eine": [
+        {
+         "flag": "rm_l3"
+        },
+        {
+         "flag": "lea_zusammen"
+        },
+        {
+         "flag": "lea_offen"
+        }
+       ]
+      },
+      {
+       "nicht": {
+        "flag": "a3_paar_lea"
+       }
+      }
+     ]
+    },
+    "leiter": true
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "mina",
+    "betroffen": [
+     {
+      "id": "lea",
+      "ton": "+",
+      "was": "is red"
+     }
+    ]
+   },
+   "sets": {},
+   "lage": "Mina's Vespa at the quay. Lea sits on the back.",
+   "zeilen": [
+    {
+     "wer": "mina",
+     "text": "So. You and the Yacht. I didn't read it anywhere. I just know.",
+     "gefuehl": "amusement"
+    },
+    {
+     "wer": "lea",
+     "text": "Did you know octopuses can change colour? I'm doing that now.",
+     "gefuehl": "embarrassment"
+    },
+    {
+     "wer": "mina",
+     "text": "If he's slow, honk at him. I'll lend you the horn. ...Duc, Lea says you're slow. Are you slow?",
+     "gefuehl": "amusement"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Very. On purpose.”",
+     "folgen": [
+      {
+       "flag": "a3_paar_lea"
+      },
+      {
+       "flag": "a3_paar_lea_langsam"
+      }
+     ],
+     "zeile": {
+      "wer": "lea",
+      "text": "On purpose. Mina, he's doing it on purpose!",
+      "gefuehl": "joy"
+     }
+    },
+    {
+     "text": "Holds up two fingers.",
+     "folgen": [
+      {
+       "flag": "a3_paar_lea"
+      },
+      {
+       "flag": "a3_paar_lea_finger"
+      }
+     ],
+     "zeile": {
+      "wer": "lea",
+      "text": "...Two fingers. Okay. Not slow.",
+      "gefuehl": "caring"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_paar_holm",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "The Metre",
+   "wann": {
+    "tage": [
+     26,
+     33
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "abend"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "flag": "holm_zurueck"
+      },
+      {
+       "nicht": {
+        "flag": "a3_paar_holm"
+       }
+      }
+     ]
+    },
+    "leiter": true
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "holm",
+    "betroffen": [
+     {
+      "id": "petru",
+      "ton": "+",
+      "was": "sits a metre away"
+     }
+    ]
+   },
+   "sets": {
+    "holm": "holm_shirt"
+   },
+   "lage": "The mole in the evening. Holm and Petru sit on the same bench. There is one metre between them.",
+   "zeilen": [
+    {
+     "wer": "holm",
+     "text": "Petru's spare room has a boat engine in it. I sleep next to a boat engine. Very Norwegian.",
+     "gefuehl": "amusement",
+     "gruppe": "wo",
+     "wenn": {
+      "alle": [
+       {
+        "flag": "tk_yacht_weg"
+       },
+       {
+        "nicht": {
+         "flag": "tk_haus_weg_werkstatt"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "wer": "holm",
+     "text": "My mother is coming. For the festa. She wants to see the man who taught me to sit still.",
+     "gefuehl": "neutral"
+    },
+    {
+     "wer": "petru",
+     "text": "Who?",
+     "gefuehl": "neutral"
+    },
+    {
+     "wer": "holm",
+     "text": "Don't. ...Frankfurt. Are you lost, or are you staying?",
+     "gefuehl": "embarrassment"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Walks on quietly.",
+     "folgen": [
+      {
+       "flag": "a3_paar_holm"
+      },
+      {
+       "flag": "a3_paar_holm_still"
+      }
+     ],
+     "zeile": {
+      "wer": "petru",
+      "text": "Hm.",
+      "gefuehl": "approval"
+     }
+    },
+    {
+     "text": "“Evening, you two.”",
+     "folgen": [
+      {
+       "flag": "a3_paar_holm"
+      },
+      {
+       "flag": "a3_paar_holm_stoeren"
+      }
+     ],
+     "zeile": {
+      "wer": "holm",
+      "text": "Go away, Frankfurt.",
+      "gefuehl": "annoyance"
+     }
+    },
+    {
+     "text": "Sits down on the far end of the bench.",
+     "folgen": [
+      {
+       "flag": "a3_paar_holm"
+      },
+      {
+       "flag": "a3_paar_holm_bank"
+      }
+     ],
+     "zeile": {
+      "wer": "petru",
+      "text": "Hm. Beer.",
+      "gefuehl": "neutral"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_paar_bones",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "Six Kilos of Bad Temper",
+   "wann": {
+    "tage": [
+     26,
+     29
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "nachmittag"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "flag": "rt_bibi_bleibt"
+      },
+      {
+       "flag": "mochis_offen"
+      },
+      {
+       "mochi": "geier"
+      },
+      {
+       "nicht": {
+        "flag": "a3_paar_bones"
+       }
+      }
+     ]
+    },
+    "leiter": true
+   },
+   "bild": "mochis",
+   "personen": {
+    "handelnd": "bibi",
+    "betroffen": [
+     {
+      "id": "maxwell",
+      "ton": "-",
+      "was": "is scared of the sky"
+     }
+    ]
+   },
+   "sets": {},
+   "lage": "The animal station in the afternoon. Maxwell carries two buckets of bones, as far from the sky as possible. Above him circles Bones, the bearded vulture, with three metres of wing.",
+   "zeilen": [
+    {
+     "wer": "maxwell",
+     "text": "Eish! Bibi. The big bird is looking at Mr. Maximum.",
+     "gefuehl": "fear"
+    },
+    {
+     "wer": "bibi",
+     "text": "That's Bones. Six kilos. Three metres of wing, and six kilos! He's mostly air and bad temper. He's looking at the bucket, chéri.",
+     "gefuehl": "joy"
+    },
+    {
+     "wer": "maxwell",
+     "text": "Mr. Maximum is scared of everything that flies, sister. Everything. And in four days he sits in a plane.",
+     "gefuehl": "fear"
+    },
+    {
+     "wer": "bibi",
+     "text": "A plane is just a big bird with no bad temper. Here. Hold out your hand.",
+     "gefuehl": "caring"
+    },
+    {
+     "wer": "maxwell",
+     "text": "...Mr. Maximum fed the worst bird in Corsica. Number One. Is it the same, a plane and a bird? Tell me it is the same.",
+     "gefuehl": "surprise"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“It's the same. Only the plane is nicer.”",
+     "folgen": [
+      {
+       "flag": "a3_paar_bones"
+      },
+      {
+       "flag": "a3_paar_bones_gleich"
+      }
+     ],
+     "zeile": {
+      "wer": "maxwell",
+      "text": "Nicer. Okay. Lekker.",
+      "gefuehl": "relief"
+     }
+    },
+    {
+     "text": "“No. The plane is safer. Bones is not.”",
+     "folgen": [
+      {
+       "flag": "a3_paar_bones"
+      },
+      {
+       "flag": "a3_paar_bones_sicher"
+      }
+     ],
+     "zeile": {
+      "wer": "bibi",
+      "text": "True. Bones bites.",
+      "gefuehl": "amusement"
+     }
+    },
+    {
+     "text": "Puts a bone in his own hand, next to Maxwell's.",
+     "folgen": [
+      {
+       "flag": "a3_paar_bones"
+      },
+      {
+       "flag": "a3_paar_bones_hand"
+      }
+     ],
+     "zeile": {
+      "wer": "maxwell",
+      "text": "Two brave men. Brother.",
+      "gefuehl": "gratitude"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_paar_charly",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "Ten",
+   "wann": {
+    "tage": [
+     26,
+     33
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "abend"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "flag": "rt_charly_bleibt"
+      },
+      {
+       "nicht": {
+        "flag": "rt_charly_weg"
+       }
+      },
+      {
+       "nicht": {
+        "flag": "a3_paar_charly"
+       }
+      }
+     ]
+    },
+    "leiter": true
+   },
+   "bild": "village_piazza",
+   "personen": {
+    "handelnd": "danzel",
+    "betroffen": [
+     {
+      "id": "charly",
+      "ton": "+",
+      "was": "sits on the floor"
+     }
+    ]
+   },
+   "sets": {},
+   "lage": "Le Théâtre Rouge, late. Fabric everywhere. On the counter, a cash register with open cables. Charly sits on the floor with her laptop. Danzel sews.",
+   "zeilen": [
+    {
+     "wer": "danzel",
+     "text": "Halt! Nobody touches the fabric, or nobody... nobody touches it very much.",
+     "gefuehl": "nervousness"
+    },
+    {
+     "wer": "charly",
+     "text": "Four out of ten. You got shorter again.",
+     "gefuehl": "neutral"
+    },
+    {
+     "wer": "charly",
+     "text": "The cash register works. It says 'Merci' in a robot voice. I couldn't make it stop.",
+     "gefuehl": "neutral"
+    },
+    {
+     "wer": "danzel",
+     "text": "Hold still. Your left sleeve has been two centimetres short for three years. I noticed on the first day. Here. A pullover. A pocket for your laptop. And RED, inside the collar. Small.",
+     "gefuehl": "caring"
+    },
+    {
+     "wer": "charly",
+     "text": "...Ten. I want to stay. Here. In the shop. With you. That's not a rating, Danzel.",
+     "gefuehl": "love"
+    },
+    {
+     "wer": "danzel",
+     "text": "Then... then nobody leaves! Nobody leaves very... nobody leaves. ...Duc, did you hear that?",
+     "gefuehl": "love"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“That was the best ten I've ever heard.”",
+     "folgen": [
+      {
+       "flag": "a3_paar_charly"
+      },
+      {
+       "flag": "a3_paar_charly_zehn"
+      }
+     ],
+     "zeile": {
+      "wer": "charly",
+      "text": "Then it stays a ten. Don't tell Bibi. She'll cry louder than him.",
+      "gefuehl": "love"
+     }
+    },
+    {
+     "text": "“Give him a nine next time, so he stays humble.”",
+     "folgen": [
+      {
+       "flag": "a3_paar_charly"
+      },
+      {
+       "flag": "a3_paar_charly_neun"
+      }
+     ],
+     "zeile": {
+      "wer": "danzel",
+      "text": "Never! I will never be humble!",
+      "gefuehl": "joy"
+     }
+    },
+    {
+     "text": "Looks at Danzel, who is crying into a curtain, and quietly leaves them alone.",
+     "folgen": [
+      {
+       "flag": "a3_paar_charly"
+      },
+      {
+       "flag": "a3_paar_charly_allein"
+      }
+     ],
+     "zeile": {
+      "wer": "charly",
+      "text": "Seven out of ten for crying. Come here.",
+      "gefuehl": "love"
+     }
     }
    ]
   }

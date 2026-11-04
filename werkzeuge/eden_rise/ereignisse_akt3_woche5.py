@@ -92,7 +92,7 @@ MAXWELL = [
       "Maxwell stands on the quay with a cool box in his arms, like a baby. A taxi to the airport in Bastia is waiting.",
       [G("maxwell", "[clear throat] Number One. Mr. Maximum is going to fly. In an aeroplane. Gogo needs this medicine in Durban, and the post is too slow.", "fear"),
        JE(G("maxwell", "[sniff] I kept the bandage from the siege, brother. For luck.", "caring"), "verband", FL("bl_verband_maxwell")),
-       JE(G("maxwell", "[chuckle] Bibi says a plane has no bad temper. Mr. Maximum fed Bones. Mr. Maximum can sit in a plane.", "pride"), "bones", FL("a3_bones_geuebt")),
+       JE(G("maxwell", "[chuckle] Bibi says a plane has no bad temper. Mr. Maximum fed Bones. Mr. Maximum can sit in a plane.", "pride"), "bones", FL("a3_paar_bones")),
        G("maxwell", "[sigh] Number One. What does a big man do when he's scared of the sky?", "nervousness")],
       [O("“He takes the window seat and looks anyway.”", [F("a3_maxwell_weg"), V("maxwell", 4)],
          zeile=G("maxwell", "[gasp] The window! Eish. ...Okay. Okay.", "nervousness")),

@@ -820,7 +820,19 @@ Test: `tests/test_akt3_lose.py`.
 | **Scrap Field** (Karte ab Tag 25) | | zwei Kämpfe gegen Maschinen (Stahl), `a3_scrap_field` öffnet das Los *The Lights* | bis Tag 33 | `a3_scrap_*` |
 | weitere | | Idee von Bibi oder Lea (29), The Man with the Orange (Karte, `a3_riscossore_kommt`), Maxwells Flug (30) und Rückkehr (32), Lot 14 (Karte), Einladung (33), Ligeias Flaschenpost | | |
 
-Test: `tests/test_akt3_woche5.py`. `kaempfe.json` gezielt ergänzt (der Kampf-Builder bricht hier an fehlenden Sounds ab): lokal `kaempfe_eden_rise.py` laufen lassen. Angepasst: `tests/test_akt2_events.py` (neue Fenster), `tests/test_holm_wette.py` (Tag 24, lokal nicht prüfbar wegen `eden-config.json`). Alle `test_*.py` vor und nach Paket A: 47 gegen 48 grün, kein Test hat seinen Status verloren.
+Test: `tests/test_akt3_woche5.py`.
+
+**Paket E, gebaut (`ereignisse_akt3_romanzen.py`, 20 Events, 121 Zeilen):**
+
+| Mechanik | Auslöser | Wirkung | Grenzen | Stelle |
+|---|---|---|---|---|
+| **Schluss-Szenen** (Karten „A Moment with …“, eine Phase) | Leiter oben (`rm_<k>4` oder `<pid>_zusammen`; Bibi: `rt_bibi_bleibt` und Begehren 4; Megan: `megan_funke`) | drei Antworten, `a3_schluss_<pid>` und `a3_schluss_<pid>_<n>`, Vertrauen und Begehren +4 | Tag 24 bis 33, Chiaras Blackout ab Tag 32 (abends allein auf der Brücke), Megan bis Tag 30; Rückbezüge mit Bedingung (`bl_ab_fertig_`/`bl_na_fertig_`, sonst eine Ersatz-Erinnerung) | `a3_schluss_*` |
+| **Freundschaften und Paare** | Leiter-Mechanismus (Pflicht mit `leiter`): höchstens eine Szene am Tag, Tag 26 bis 33 | Lola und Bà Tư, Chiara und Alva, Isabelle und Sophia, Mina und Lea (je zwei Fassungen: mit Ducs Romanze neckt oder unterstützt die andere, Tratsch nur über Mina oder Lola), Holm und Petru (Paar), Bibi und Maxwell mit Bones (bis Tag 29, nur wenn Bones gerettet), Charly und Danzel (Paar). Jede Duc-Wahl: `a3_paar_<id>_<wahl>` für das Festbild | Freundschaften ohne Verliebtheit im Sprite (Test); Unterkunft während der Reparatur als Zeile in der Szene | `a3_paar_*` |
+| neue Bedingung | | `{"mochi": "geier"}`: Tier in der Station gerettet | | `kern/regeln.py` |
+
+**Wer schläft wo** steht als Zeile in den Szenen (Chiara bei Alva, Sophia im Kloster, Lea bei Mina, Holm bei Petru), jeweils nur bei `tk_yacht_weg` und stehendem Haus. Eine Raum-Logik im Modul (`zimmer`) für Akt 3 ist **nicht gebaut** (Fragenliste F-34).
+
+Test: `tests/test_akt3_romanzen.py`. `kaempfe.json` gezielt ergänzt (der Kampf-Builder bricht hier an fehlenden Sounds ab): lokal `kaempfe_eden_rise.py` laufen lassen. Angepasst: `tests/test_akt2_events.py` (neue Fenster), `tests/test_holm_wette.py` (Tag 24, lokal nicht prüfbar wegen `eden-config.json`). Alle `test_*.py` vor und nach Paket A: 47 gegen 48 grün, kein Test hat seinen Status verloren.
 
 ## 13. Was aus den Befunden wurde
 

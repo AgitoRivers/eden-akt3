@@ -1940,6 +1940,413 @@
      "id": "a3_scrap_1"
     }
    ]
+  },
+  "a3_schluss_chiara": {
+   "label": "A Moment on the Bridge",
+   "bild": "bridge",
+   "phasen": [
+    "abend"
+   ],
+   "text": "She has been waiting for a moment with you alone. Takes the whole phase.",
+   "wenn": {
+    "alle": [
+     {
+      "flag": "akt2_ende"
+     },
+     {
+      "eine": [
+       {
+        "flag": "rm_c4"
+       },
+       {
+        "flag": "chiara_zusammen"
+       }
+      ]
+     },
+     {
+      "nicht": {
+       "flag": "a3_schluss_chiara"
+      }
+     },
+     {
+      "nicht": {
+       "tag_ab": 34
+      }
+     },
+     {
+      "nicht": {
+       "flag": "gefeuert_chiara"
+      }
+     },
+     {
+      "tag_ab": 32
+     }
+    ]
+   },
+   "start": [
+    {
+     "id": "a3_schluss_chiara"
+    }
+   ]
+  },
+  "a3_schluss_alva": {
+   "label": "A Moment with Alva",
+   "bild": "alvas_bar",
+   "phasen": [
+    "nachmittag",
+    "abend"
+   ],
+   "text": "She has been waiting for a moment with you alone. Takes the whole phase.",
+   "wenn": {
+    "alle": [
+     {
+      "flag": "akt2_ende"
+     },
+     {
+      "eine": [
+       {
+        "flag": "rm_a4"
+       },
+       {
+        "flag": "alva_zusammen"
+       }
+      ]
+     },
+     {
+      "nicht": {
+       "flag": "a3_schluss_alva"
+      }
+     },
+     {
+      "nicht": {
+       "tag_ab": 34
+      }
+     },
+     {
+      "nicht": {
+       "flag": "gefeuert_alva"
+      }
+     }
+    ]
+   },
+   "start": [
+    {
+     "id": "a3_schluss_alva"
+    }
+   ]
+  },
+  "a3_schluss_lea": {
+   "label": "A Moment with Lea",
+   "bild": "swim_platform",
+   "phasen": [
+    "nachmittag",
+    "abend"
+   ],
+   "text": "She has been waiting for a moment with you alone. Takes the whole phase.",
+   "wenn": {
+    "alle": [
+     {
+      "flag": "akt2_ende"
+     },
+     {
+      "eine": [
+       {
+        "flag": "rm_l4"
+       },
+       {
+        "flag": "lea_zusammen"
+       }
+      ]
+     },
+     {
+      "nicht": {
+       "flag": "a3_schluss_lea"
+      }
+     },
+     {
+      "nicht": {
+       "tag_ab": 34
+      }
+     },
+     {
+      "nicht": {
+       "flag": "gefeuert_lea"
+      }
+     }
+    ]
+   },
+   "start": [
+    {
+     "id": "a3_schluss_lea"
+    }
+   ]
+  },
+  "a3_schluss_sophia": {
+   "label": "A Moment with Sophia",
+   "bild": "aft_deck",
+   "phasen": [
+    "nachmittag",
+    "abend"
+   ],
+   "text": "She has been waiting for a moment with you alone. Takes the whole phase.",
+   "wenn": {
+    "alle": [
+     {
+      "flag": "akt2_ende"
+     },
+     {
+      "eine": [
+       {
+        "flag": "rm_s4"
+       },
+       {
+        "flag": "sophia_zusammen"
+       }
+      ]
+     },
+     {
+      "nicht": {
+       "flag": "a3_schluss_sophia"
+      }
+     },
+     {
+      "nicht": {
+       "tag_ab": 34
+      }
+     },
+     {
+      "nicht": {
+       "flag": "gefeuert_sophia"
+      }
+     }
+    ]
+   },
+   "start": [
+    {
+     "id": "a3_schluss_sophia"
+    }
+   ]
+  },
+  "a3_schluss_rosi": {
+   "label": "A Moment with Rosi",
+   "bild": "generator_room",
+   "phasen": [
+    "nachmittag",
+    "abend"
+   ],
+   "text": "She has been waiting for a moment with you alone. Takes the whole phase.",
+   "wenn": {
+    "alle": [
+     {
+      "flag": "akt2_ende"
+     },
+     {
+      "eine": [
+       {
+        "flag": "rm_r4"
+       },
+       {
+        "flag": "rosi_zusammen"
+       }
+      ]
+     },
+     {
+      "nicht": {
+       "flag": "a3_schluss_rosi"
+      }
+     },
+     {
+      "nicht": {
+       "tag_ab": 34
+      }
+     },
+     {
+      "nicht": {
+       "flag": "gefeuert_rosi"
+      }
+     }
+    ]
+   },
+   "start": [
+    {
+     "id": "a3_schluss_rosi"
+    }
+   ]
+  },
+  "a3_schluss_lola": {
+   "label": "A Moment with Lola",
+   "bild": "village_harbour",
+   "phasen": [
+    "nachmittag",
+    "abend"
+   ],
+   "text": "She has been waiting for a moment with you alone. Takes the whole phase.",
+   "wenn": {
+    "alle": [
+     {
+      "flag": "akt2_ende"
+     },
+     {
+      "eine": [
+       {
+        "flag": "rm_o4"
+       },
+       {
+        "flag": "lola_zusammen"
+       }
+      ]
+     },
+     {
+      "nicht": {
+       "flag": "a3_schluss_lola"
+      }
+     },
+     {
+      "nicht": {
+       "tag_ab": 34
+      }
+     },
+     {
+      "nicht": {
+       "flag": "gefeuert_lola"
+      }
+     }
+    ]
+   },
+   "start": [
+    {
+     "id": "a3_schluss_lola"
+    }
+   ]
+  },
+  "a3_schluss_siri": {
+   "label": "A Moment with Siri",
+   "bild": "village_harbour",
+   "phasen": [
+    "nachmittag",
+    "abend"
+   ],
+   "text": "She has been waiting for a moment with you alone. Takes the whole phase.",
+   "wenn": {
+    "alle": [
+     {
+      "flag": "akt2_ende"
+     },
+     {
+      "eine": [
+       {
+        "flag": "rm_i4"
+       },
+       {
+        "flag": "siri_zusammen"
+       }
+      ]
+     },
+     {
+      "nicht": {
+       "flag": "a3_schluss_siri"
+      }
+     },
+     {
+      "nicht": {
+       "tag_ab": 34
+      }
+     },
+     {
+      "nicht": {
+       "flag": "gefeuert_siri"
+      }
+     }
+    ]
+   },
+   "start": [
+    {
+     "id": "a3_schluss_siri"
+    }
+   ]
+  },
+  "a3_schluss_bibi": {
+   "label": "A Moment with Bibi",
+   "bild": "mochis",
+   "phasen": [
+    "nachmittag",
+    "abend"
+   ],
+   "text": "She has been waiting for a moment with you alone. Takes the whole phase.",
+   "wenn": {
+    "alle": [
+     {
+      "flag": "akt2_ende"
+     },
+     {
+      "alle": [
+       {
+        "flag": "rt_bibi_bleibt"
+       },
+       {
+        "wert": [
+         "begehren.bibi",
+         ">=",
+         4
+        ]
+       }
+      ]
+     },
+     {
+      "nicht": {
+       "flag": "a3_schluss_bibi"
+      }
+     },
+     {
+      "nicht": {
+       "tag_ab": 34
+      }
+     }
+    ]
+   },
+   "start": [
+    {
+     "id": "a3_schluss_bibi"
+    }
+   ]
+  },
+  "a3_schluss_megan": {
+   "label": "Megan's Cabin",
+   "bild": "vip_cabin",
+   "phasen": [
+    "abend"
+   ],
+   "text": "She has been waiting for a moment with you alone. Takes the whole phase.",
+   "wenn": {
+    "alle": [
+     {
+      "flag": "akt2_ende"
+     },
+     {
+      "flag": "megan_funke"
+     },
+     {
+      "nicht": {
+       "flag": "a3_schluss_megan"
+      }
+     },
+     {
+      "nicht": {
+       "tag_ab": 34
+      }
+     },
+     {
+      "nicht": {
+       "tag_ab": 31
+      }
+     }
+    ]
+   },
+   "start": [
+    {
+     "id": "a3_schluss_megan"
+    }
+   ]
   }
  },
  "auftraege": {
