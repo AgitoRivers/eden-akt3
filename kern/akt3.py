@@ -48,7 +48,44 @@ BEWEISE = ["alon_kiste_genutzt", "a3_siri_post", "sophia_notizen", "bl_funk_whit
            "rt_ausgang_alle", "mo_ark_beweis", "a3_beweis_feuer"]
 ENDEN = {"0": "Too Late", "1": "The Deal", "2a": "Broke, but Free", "2b": "The Village Holds Together",
          "2c": "Alon in Handcuffs", "2.5a": "On Credit", "2.5b": "Saved, but Not Ours", "2.5c": "He'll Be Back",
-         "3": "Rewritten"}
+         "3": "Rewritten", "stern": "The Long Game"}
+
+# Entwuerfe der Schlusskarte (Duc 04.11.2026: Entwurf hier, Feinschliff Duc, enden.md). Je Ende: das letzte Bild, Buenaventura, Pascal.
+ENDE_TEXT = {
+    "0": ("Diggers on the beach. They start with Lola's hut. Kevin sits on the first digger and doesn't move.",
+          "Buenaventura works for the hotel now: Pirate Experience, plastic parrot, “Arrr!” for tips.",
+          "Pascal reads out the eviction letters on the piazza. He calls everyone by their first name."),
+    "1": ("The festa happens under an A.V. banner. Alon raises a glass from a hologram. Rosi doesn't say a word all night. The church roof still leaks.",
+          "Buenaventura works for the hotel now: Pirate Experience, plastic parrot, “Arrr!” for tips.",
+          "Alon thanks his partner on the ground, under the wrong name. Pascal raises his glass to him anyway."),
+    "2a": ("The Eden Group falls apart live on every phone. The village argues. The festa is half empty. Rosi buys back the workshop in Catania.",
+           "Buenaventura runs his Eco Tours, a hat made from a feeding bucket on his head.",
+           "Pascal stands in a queue of creditors in Monaco, a number in his hand."),
+    "2b": ("The most beautiful festa the bay has seen. At midnight, a red light blinks once in the mountains.",
+           "Buenaventura runs his Eco Tours, a hat made from a feeding bucket on his head.",
+           "Nonna's seedlings bloom on the festa table. Nobody says who sent them."),
+    "2c": ("Elsa leads Alon away in handcuffs. Above the bay, a new helicopter is already coming: the next buyer.",
+           "Buenaventura runs his Eco Tours, a hat made from a feeding bucket on his head.",
+           "Pascal climbs out of the helicopter, with the next buyer's folder under his arm."),
+    "2.5a": ("The village owns the bay now, and it owes everyone. Petru sells his green boat to pay the first bill.",
+             "Buenaventura runs his Eco Tours, a hat made from a feeding bucket on his head.",
+             "The cooperative keeps its books in Pascal's old ledger, because his numbers were right."),
+    "2.5b": ("The bay is a nature park now, owned by a foundation in Paris. Petru stands outside a fence.",
+             "Buenaventura runs his Eco Tours, with a badge from the foundation.",
+             "Pascal says good morning to Petru at the fence. He wears the foundation's badge around his neck."),
+    "2.5c": ("A quiet morning after the festa. Then your phone rings. A calm voice: “Round two, Officer.”",
+             "Buenaventura runs his Eco Tours, a hat made from a feeding bucket on his head.",
+             "In the background of the call, a careful voice says: “Leave it with me.”"),
+    "3": ("The cooperative signs at Lola's beach bar. Every name goes into a knot of Petru's net. Rosi buys back the workshop in Catania.",
+          "Buenaventura runs his Eco Tours, a hat made from a feeding bucket on his head.",
+          "Pascal's name is missing from the net. Don ties an empty knot for him, without a word."),
+    "stern": ("The whole village stands at the foot of the villa. Madame Casanova walks into her parents' house for the first time in years.",
+              "Buenaventura runs his Eco Tours, a hat made from a feeding bucket on his head.",
+              "Casanova says his full name in front of Alon: Pascal Leca. Alon asks: “Who?”"),
+}
+FEHLT = {"wahrheit": "Nobody believed what you saw. Without proof, Alon's story stayed the true one.",
+         "geld": "There was no money to protect the bay.", "gemeinschaft": "Too few people dared to say their names.",
+         "staerke": "Alon walked away. Nobody stopped him."}
 
 
 def zeugen(z):
@@ -75,6 +112,8 @@ def saeulen(z):
 
 def ende(z):
     """-> Kennung aus ENDEN. Ohne Wahrheit traegt keine Saeule (Vorschlag, Fragenliste F-35)."""
+    if "a3_stern" in z.get("flags", []):
+        return "stern"
     if "a3_deal" in z.get("flags", []):
         return "1"
     s = saeulen(z)

@@ -23,7 +23,7 @@ from kern import handel, showrunner, chronik, gesten, wuerfel, kabine, ermittlun
 from kern import kampf  # noqa: E402
 from kern import tutorial  # noqa: E402
 from kern import anhoerung  # noqa: E402
-from kern import akt3, aufbau, belagerung, taktik  # noqa: E402
+from kern import akt3, aufbau, belagerung, meta, taktik  # noqa: E402
 from kern import album  # noqa: E402
 from kern import sturm  # noqa: E402
 from kern import expedition  # noqa: E402
@@ -85,6 +85,7 @@ def aktiv():
         z = zustand.laden(STAENDE, rid)
         modul = modul_laden(z.get("modul"))
         rollen.romanze_abgleichen(z, modul)
+        meta.flags_setzen(z, STAENDE)          # Akt 3: gesehene Enden aus anderen Durchlaeufen (geheimes Ende ★)
         if zustand.angleichen(z, modul):       # alter Spielstand -> ans aktuelle Modul anpassen, einmal sichern
             handel.init(z, modul)
             zustand.speichern(STAENDE, z)
@@ -133,6 +134,8 @@ def weiter(z, modul, r):
             z["meldungen"].append({"titel": "Day %d is over" % (z["tag"] - 1), "folgen": zeilen, "kurz": "", "tag_ende": True})
             if z["status"] == "ende":
                 z["abschluss"] = abschluss.berechnen(z, modul)      # Hauptstory: Ende aus den Entscheidungen (B4)
+                if (z["abschluss"] or {}).get("akt") == 3 and z["abschluss"].get("ende"):
+                    meta.ende_merken(STAENDE, z["abschluss"]["ende"])   # fuer das geheime Ende ★ im naechsten Durchlauf
                 return
             if not plan.plan_laden(z, modul, moddir(z["modul"])):
                 return

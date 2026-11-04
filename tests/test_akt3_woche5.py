@@ -54,15 +54,25 @@ def main():
             "nur mit der Schiene sagt Sandru aus")
 
     # Nach Mitternacht: wer nicht bereit ist, hat nicht gefragt
-    pruefen(regeln.gilt(W._mn_bereit("chiara"), z_mit(begehren_chiara=4)) and not regeln.gilt(W._mn_bereit("chiara"), z_mit(begehren_chiara=3)),
-            "Chiara fragt ab Begehren 4")
-    pruefen(not regeln.gilt(W._mn_bereit("rosi"), z_mit("gefeuert_rosi", begehren_rosi=5)), "gefeuerte Frauen fragen nicht")
-    pruefen(regeln.gilt(W._mn_bereit("megan"), z_mit("megan_funke")), "Megan mit megan_funke")
-    pruefen(all("a3_mn_%s" % p in EV for p, _n in W.MN_FRAUEN) and "a3_mn_nein" in EV, "neun Fragen und ein Nein")
+    pruefen(regeln.gilt(W._mn_bereit("chiara"), z_mit(vertrauen_chiara=4, begehren_chiara=4))
+            and not regeln.gilt(W._mn_bereit("chiara"), z_mit(vertrauen_chiara=3, begehren_chiara=5)), "Einladung ab Vertrauen 4 und Begehren 4")
+    pruefen(not regeln.gilt(W._mn_bereit("rosi"), z_mit("gefeuert_rosi", vertrauen_rosi=5, begehren_rosi=5)), "gefeuerte Frauen laden nicht ein")
+    pruefen(regeln.gilt(W._mn_bereit("megan"), z_mit("megan_funke", vertrauen_megan=4)), "Megan mit megan_funke und Vertrauen 4")
+    pruefen(all("a3_einl_%s" % p in EV and "a3_einl_%s_spaet" % p in EV for p, _n in W.MN_FRAUEN), "je Frau eine Einladung und eine ehrliche Absage")
+    pruefen(all(len(EV["a3_einl_" + p]["optionen"]) == 2 for p, _n in W.MN_FRAUEN), "Duc muss jeder antworten: Ja oder Nein")
+    ziel = [f["direkt"] for o in EV["a3_einl_chiara"]["optionen"] for f in o["folgen"] if "direkt" in f][0]
+    pruefen(ziel[0]["id"] == "a3_einl_alva_spaet" and ziel[1]["id"] == "a3_einl_alva" and ziel[-1]["id"] == "a3_einl_ende_nein",
+            "nach einem Ja kommt bei der naechsten die ehrliche Absage")
+    pruefen("Looks for" not in json.dumps(EV["a3_mn_start"]), "keine Liste aller Frauen mehr (E-060)")
 
     # Villa: Deal oder Endkampf, Kampf-Ausgaenge setzen Flags
     ziel = [f["direkt"] for o in EV["a3_villa_ende"]["optionen"] for f in o["folgen"] if "direkt" in f][0]
-    pruefen(ziel[0] == {"wenn": {"flag": "a3_deal"}, "id": "a3_villa_deal"} and ziel[1]["id"] == "a3_villa_kampf", "Deal fuehrt zu Ende 1, sonst Endkampf")
+    pruefen(ziel[0]["id"] == "a3_villa_lange" and ziel[1] == {"wenn": {"flag": "a3_deal"}, "id": "a3_villa_deal"} and ziel[2]["id"] == "a3_villa_kampf",
+            "★ vor Deal, Deal fuehrt zu Ende 1, sonst Endkampf")
+    st = W.STERN
+    voll = z_mit("meta_ende_1", *W.BEWEISE[:3], *["a3_zeuge_" + p for p in W.ZEUGEN[:5]], vertrauen_yamamoto=5)
+    pruefen(regeln.gilt(st, voll) and not regeln.gilt(st, dict(voll, flags=[f for f in voll["flags"] if f != "meta_ende_1"])),
+            "★ nur, wenn Ende 1 in einem frueheren Durchlauf gesehen wurde")
     k = KAEMPFE["encounters"]["a3_alon"]
     pruefen(k["enemy"] == "alon_exo" and k["level"] == 10 and not k["flee_allowed"], "Endkampf gegen Alon im Exoskelett, Level 10, keine Flucht")
     pruefen(k["outcomes"]["ko"]["folgen"] == [{"flag": "a3_alon_besiegt"}] and k["outcomes"]["niederlage"]["folgen"] == [{"flag": "a3_alon_niederlage"}],

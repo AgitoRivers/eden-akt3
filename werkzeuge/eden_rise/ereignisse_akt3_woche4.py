@@ -183,7 +183,7 @@ DANK = [
        G("alva", "[sigh] From the square, that night, I saw the north barricade open. Then the men in white came through. "
                  "Nobody believes me, because I was knocked out after. Will you stand next to me when I say it?", "neutral")],
       [O("“Yes. Every word.”", [F("a3_zeuge_alva"), F("a3_zeuge_alva_ehrlich"), V("alva", 6)],
-         zeile=G("alva", "[sigh] Then I'll say it. Don't get used to me needing you.", "pride")),
+         zeile=G("alva", "[sigh] Then I'll say it. Out loud. In front of men in suits. ...You'll owe me a drink for this.", "pride")),
        O("“They'll believe you. You don't need me for that.”", [F("a3_zeuge_alva"), F("a3_zeuge_alva_frei"), V("alva", 4)],
          zeile=G("alva", "[chuckle] Liar. A kind one. I'll take it.", "amusement")),
        O("“Let's open the bar first. Then we talk about the commission.”", [V("alva", 2)],

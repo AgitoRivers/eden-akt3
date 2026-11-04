@@ -40,15 +40,24 @@ def akt3_ende(z, modul):
     eid, s = akt3.ende(z), akt3.saeulen(z)
     namen = [_name(modul, p) for p in akt3.zeugen(z) if p in modul.get("personen", {})]
     saeule = {"wahrheit": "Truth", "geld": "Money", "gemeinschaft": "Community", "staerke": "Strength"}
+    bild, buena, pascal = akt3.ENDE_TEXT[eid]
+    fehlt = [akt3.FEHLT[k] for k, v in s.items() if not v] if eid in ("0", "2.5a", "2.5b", "2.5c", "2a", "2b", "2c") else []
     absaetze = [
-        {"titel": "The Pillars", "text": " · ".join("%s %s" % (saeule[k], "✓" if v else "–") for k, v in s.items())},
+        {"titel": "The Last Picture", "text": bild},
+        {"titel": "The Pillars", "text": " · ".join("%s %s" % (saeule[k], "✓" if v else "–") for k, v in s.items())}]
+    if fehlt:                                          # F-35: fair erklaert, was gefehlt hat
+        absaetze.append({"titel": "What Was Missing", "text": " ".join(fehlt)})
+    absaetze += [
         {"titel": "Who Saw It", "text": ("They signed their names: " + ", ".join(namen) + ".") if namen else "Nobody signed."},
         {"titel": "Minicu", "text": "Minicu is in the picture, a bandage around his head, clapping much too loud."
                                     if eid != "1" else "Minicu carries crates at the harbour, for A.V., and doesn't ask."},
-        {"titel": "Pascal", "text": "Pascal is there too. He always is."},
+        {"titel": "Buenaventura", "text": buena},
+        {"titel": "Pascal", "text": pascal},
         {"titel": "Epilogue", "text": "Mina rings at Pascal's door with a registered letter. “Sign here.” Nobody opens. "
                                       "It's the first letter she can't deliver."},
         {"titel": "Beta", "text": "The endings are still being polished. Thank you so much for testing and supporting."}]
+    if eid == "stern":
+        absaetze[0]["text"] += " You played the long game."
     return {"titel": "Ending: " + akt3.ENDEN[eid], "akt": 3, "ende": eid, "saeulen": s, "dimensionen": {}, "frauen": [],
             "fall": None, "absaetze": absaetze}
 

@@ -57,7 +57,9 @@ KOMMISSION = [
        G("bonaventure", "[clear throat] A man named White paid me in clean money, like a bank. I gave the order to burn. I gave the order to stop. "
                         "I am Captain Buenaventura of The Eventually.", "remorse"),
        JE(G("riscossore", "[chuckle] He's telling the truth. It's in my book, page forty-one. A man in prison pays nobody, so I'd like him to stay out.", "neutral"),
-          "risc", FL("a3_riscossore_kommt"))],
+          "risc", FL("a3_riscossore_kommt")),
+       JE(G("riscossore", "[clear throat] Nobody believes a pirate. Fine. Believe my book. Page forty-one: what a man named White offered the captain. "
+                          "A man in prison pays nobody.", "neutral"), "risc", None)],
       [O("Watches the clerk write.", [F("a3_zeuge_bonaventure"), DIREKT("a3_kom_minicu")])]),
     E("a3_kom_minicu", "gag1", "ernst", "The Big Man", FRAME(), "village_harbour", P1("anghjulu"),
       "The older commissioner looks at his list.",

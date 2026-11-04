@@ -76,7 +76,7 @@ FRAGEN = [
           "Alva is wiping the bar that is already clean.",
           [G("alva", "[sigh] From the square I saw the north barricade open. Then the men in white came through. "
                      "I was knocked out after, so nobody believes me. Why would the men from Ajaccio?", "anger")],
-          [("“Because I believe you. And I'll stand next to you.”", "ehrlich", 6, G("alva", "[sigh] Then I'll say it. Don't get used to me needing you.", "pride")),
+          [("“Because I believe you. And I'll stand next to you.”", "ehrlich", 6, G("alva", "[sigh] Then I'll say it. Papa always said: a bar is where people tell the truth. Mine too.", "pride")),
            ("“Because you're the only one who saw the north side.”", "fakt", 4, G("alva", "[chuckle] The only one. I like that. Fine.", "pride")),
            ("“Say it the way you'd tell Papa.”", "papa", 4, G("alva", "[sniff] ...Papa would say: tell them, and then pour them a drink. Okay.", "sadness"))]),
     ZEUGE("anghjulu", "church", "Who Saw It? Don",

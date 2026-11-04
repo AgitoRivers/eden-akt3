@@ -22,6 +22,9 @@ BEWEISE = ["alon_kiste_genutzt", "a3_siri_post", "sophia_notizen", "bl_funk_whit
 ZEUGEN_N = lambda op, n: {"anzahl": [[ZEUGE(p) for p in ZEUGEN], op, n]}
 BEWEISE_N = lambda op, n: {"anzahl": [[FL(b) for b in BEWEISE], op, n]}
 MEGAN_WENDE = {"eine": [ZEUGEN_N(">=", 4), BEWEISE_N(">=", 2), {"wert": ["vertrauen.yamamoto", ">=", 5]}]}
+# Das geheime Ende ★ (enden.md, F-36): alle Saeulen bis auf Staerke (die ersetzt das Dorf vor der Villa), Yamamoto Bindung 5,
+# und Ende 1 in einem frueheren Durchlauf gesehen (kern/meta.py setzt meta_ende_1).
+STERN = {"alle": [FL("meta_ende_1"), {"wert": ["vertrauen.yamamoto", ">=", 5]}, BEWEISE_N(">=", 3), ZEUGEN_N(">=", 5)]}
 GEKUEMMERT = {"eine": [FL("sandru_surren"), FL("sandru_herkunft"), {"wert": ["vertrauen.sandru", ">=", 3]}]}
 BIBI = {"alle": [FL("rt_bibi_bleibt"), FL("mo_eco_idee")]}
 
@@ -243,16 +246,13 @@ MN_FRAUEN = [("chiara", "Chiara"), ("alva", "Alva"), ("lea", "Lea"), ("sophia", 
 
 
 def _mn_bereit(pid):
+    """Duc 04.11.2026: Jede Frau mit Vertrauen 4 und Begehren 4 laedt ein (Megan: Vertrauen 4 und megan_funke). Duc antwortet jeder."""
     if pid == "megan":
-        return FL("megan_funke")
-    b = [{"wert": ["begehren." + pid, ">=", 4]}, DA(pid)]
+        return {"alle": [FL("megan_funke"), {"wert": ["vertrauen.megan", ">=", 4]}]}
+    b = [{"wert": ["vertrauen." + pid, ">=", 4]}, {"wert": ["begehren." + pid, ">=", 4]}, DA(pid)]
     if pid == "bibi":
         b.append(FL("rt_bibi_bleibt"))
     return {"alle": b}
-
-
-def _mn_zu(pid):
-    return DIREKT([{"wenn": _mn_bereit(pid), "id": "a3_mn_" + pid}, {"id": "a3_mn_nein"}])
 
 
 MN_FRAGE = {
@@ -266,37 +266,59 @@ MN_FRAGE = {
     "bibi": ("[chuckle] The gates open on Sunday afternoon, and I'll be a mess. After midnight, will you come anyway?", "desire"),
     "megan": ("[sigh] Don't make me say it twice, First Officer. The aft deck, after midnight. Then we never speak of it. Agreed?", "desire"),
 }
-MN_SEITEN = [MN_FRAUEN[0:3], MN_FRAUEN[3:6], MN_FRAUEN[6:9]]
+MN_NEIN = {
+    "chiara": "[sigh] Okay. That's a three. ...For the night, not for you.",
+    "alva": "[chuckle] Fine. I'll close the bar for nobody, then. Nobody is good company.",
+    "lea": "[sniff] Okay. Did you know octopuses hide when they're sad? I'm going to hide a bit.",
+    "sophia": "[sigh] Then I keep my ten euros. It's not much comfort, darling.",
+    "rosi": "[clear throat] Okay. The dress comes off anyway. For me.",
+    "lola": "[sigh] Oh. No worries, Boss. Mostly no worries.",
+    "siri": "[sigh] Okay. Thank you for saying it to my face. Nobody does that.",
+    "bibi": "[sigh] Then I'll sit with the animals. They never say no.",
+    "megan": "[clear throat] Noted, First Officer. We never spoke of it. That part is easy.",
+}
+MN_REIHE = [p for p, _n in MN_FRAUEN]
 
 
-def _mn_seite(i):
-    opt = [O("Looks for %s." % name, [_mn_zu(pid)]) for pid, name in MN_SEITEN[i]]
-    opt.append(O("Looks around the quay for someone else." if i < 2 else "“Nobody. The festa is for everyone.”",
-                 [DIREKT("a3_mn_seite_%d" % (i + 1))] if i < 2 else [F("a3_mitternacht_niemand")]))
-    lage = ("The evening before the villa. The festa is the day after tomorrow, and everybody already knows: after midnight, the mole "
-            "belongs to whoever is standing there. Someone is waiting for you to ask, or to be asked." if i == 0 else
-            ["", "You go up to Alva's bar. More faces, more noise.", "You cross the square. More lights in the windows."][i])
-    return E("a3_mn_seite_%d" % i, "gag1", "wholesome", "After Midnight", PFL(33, "abend") if i == 0 else FRAME(),
-             ["village_harbour", "alvas_bar", "village_piazza"][i],
-             {"handelnd": "mina", "betroffen": []}, lage,
-             [G("mina", "[chuckle] Yacht. Everybody's asking who you'll be with after midnight. I'm not asking. I just know you know.", "amusement")] if i == 0 else
-             [G("alva", "[chuckle] Still looking, o figliolu?", "amusement")],
-             opt)
+def _mn_weiter(ab):
+    """Zur naechsten Frau, die einlaedt (nach Ja: die ehrliche Absage), am Ende der Abschluss."""
+    ziele = []
+    for p in MN_REIHE[ab + 1:]:
+        ziele += [{"wenn": {"alle": [_mn_bereit(p), FL("a3_mitternacht")]}, "id": "a3_einl_%s_spaet" % p},
+                  {"wenn": _mn_bereit(p), "id": "a3_einl_" + p}]
+    return DIREKT(ziele + [{"wenn": FL("a3_mitternacht"), "id": "a3_einl_ende_ja"}, {"id": "a3_einl_ende_nein"}])
 
 
-MITTERNACHT = [_mn_seite(i) for i in range(3)] + [
-    E("a3_mn_" + pid, "gag1", "frech", "After Midnight", FRAME(), "village_harbour", P1(pid),
+MITTERNACHT = [
+    E("a3_mn_start", "gag1", "wholesome", "After Midnight", PFL(33, "abend"), "village_harbour", P1("mina"),
+      "The evening before the villa. The festa is the day after tomorrow, and everybody already knows: after midnight, the mole "
+      "belongs to whoever is standing there with you. Tonight, people come to ask.",
+      [G("mina", "[chuckle] Yacht. Everybody's asking who you'll be with after midnight. I'm not asking. I just know you'll have to answer.", "amusement")],
+      [O("Waits on the quay.", [_mn_weiter(-1)])]),
+] + [
+    E("a3_einl_" + pid, "gag1", "frech", "After Midnight", FRAME(), ["village_harbour", "alvas_bar", "village_piazza"][n % 3], P1(pid),
       "She finds you before you find her.",
       [G(pid, MN_FRAGE[pid][0], MN_FRAGE[pid][1])],
-      [O("“Yes.”", [F("a3_mitternacht_" + pid), F("a3_mitternacht")]),
-       O("“I'll be there. Early.”", [F("a3_mitternacht_" + pid), F("a3_mitternacht")]),
-       O("Looks for someone else after all.", [DIREKT("a3_mn_seite_0")])]) for pid, _n in MN_FRAUEN
+      [O("“Yes.”", [F("a3_mitternacht_" + pid), F("a3_mitternacht"), _mn_weiter(n)]),
+       O("“Not this time. I'm sorry.”", [F("a3_mitternacht_nein_" + pid), _mn_weiter(n)],
+         zeile=G(pid, MN_NEIN[pid], "sadness"))]) for n, pid in enumerate(MN_REIHE)
 ] + [
-    E("a3_mn_nein", "gag1", "wholesome", "After Midnight", FRAME(), "village_harbour", P1("mina"),
-      "She smiles at you from across the quay and waves. Then she turns back to her friends. She hasn't asked you, and maybe that's fine.",
-      [G("mina", "[chuckle] Not her, Yacht. Not this time. Try again, or don't.", "amusement")],
-      [O("Looks for someone else.", [DIREKT("a3_mn_seite_0")]),
-       O("“Nobody, then. The festa is for everyone.”", [F("a3_mitternacht_niemand")])]),
+    E("a3_einl_%s_spaet" % pid, "gag1", "wholesome", "After Midnight", FRAME(), ["village_harbour", "alvas_bar", "village_piazza"][n % 3], P1(pid),
+      "She finds you too. You have already said yes to someone tonight.",
+      [G(pid, MN_FRAGE[pid][0], MN_FRAGE[pid][1])],
+      [O("“I already said yes to someone else. I'm sorry. You deserve the truth.”", [F("a3_mitternacht_nein_" + pid), V(pid, 2), _mn_weiter(n)],
+         zeile=G(pid, MN_NEIN[pid], "sadness")),
+       O("“Not tonight.”", [F("a3_mitternacht_nein_" + pid), _mn_weiter(n)],
+         zeile=G(pid, MN_NEIN[pid], "sadness"))]) for n, pid in enumerate(MN_REIHE)
+] + [
+    E("a3_einl_ende_ja", "gag1", "wholesome", "After Midnight", FRAME(), "village_harbour", P1("mina"),
+      "The quay is quiet again. You said yes once tonight, and only once.",
+      [G("mina", "[chuckle] Good night, Yacht. Don't be late on Sunday. Midnight comes fast at a festa.", "amusement")],
+      [O("Goes to bed.", [])]),
+    E("a3_einl_ende_nein", "gag1", "wholesome", "After Midnight", FRAME(), "village_harbour", P1("mina"),
+      "The quay is quiet again. Nobody waits for you after midnight, and that's fine. The festa is for everyone.",
+      [G("mina", "[chuckle] Nobody? Then you dance with me. Once. Badly.", "amusement")],
+      [O("“Deal, Mina.”", [F("a3_mitternacht_niemand")])]),
 ]
 
 # ------------------------------------------------------------------ 5.22 - 5.24 Die Villa (Tag 34)
@@ -346,13 +368,38 @@ VILLA = [
       [O("“Deal.”", [F("a3_deal")],
          zeile=G("alon", "[laugh] Welcome to the team. Again. This time for real.", "pride")),
        O("“No.”", [F("a3_alon_nein")],
+         zeile=G("alon", "[sigh] Pity. I liked you.", "disappointment")),
+       O("“Deal. But we sign it tomorrow night, in front of the village.”",
+         [DIREKT([{"wenn": STERN, "id": "a3_villa_stern"}, {"id": "a3_villa_publikum"}])])],
+      sets={"alon": "alon_standard"}),
+    E("a3_villa_publikum", "gag1", "ernst", "Name Your Price", FRAME(), "alon_keynote", P1("alon"),
+      "Alon laughs quietly and shakes his head.",
+      [G("alon", "[chuckle] An audience? No, Duc. You don't have enough people for that. Here, tonight, or not at all.", "neutral")],
+      [O("“Deal.”", [F("a3_deal")],
+         zeile=G("alon", "[laugh] Welcome to the team. Again. This time for real.", "pride")),
+       O("“No.”", [F("a3_alon_nein")],
          zeile=G("alon", "[sigh] Pity. I liked you.", "disappointment"))],
+      sets={"alon": "alon_standard"}),
+    E("a3_villa_stern", "gag1", "ernst", "The Long Game", FRAME(), "alon_keynote", P1("alon", ("pascal", "?", "goes pale")),
+      "For a second, Alon says nothing. Then he smiles, the stage smile.",
+      [G("alon", "[laugh] In front of the village. With cameras. A consultant who finally understands marketing. Fine. Tomorrow night.", "pride"),
+       G("yamamoto", "[clear throat] So sorry, Officer-san. My bank has already stopped his loan. He does not know yet. Very rude of me.", "nervousness")],
+      [O("Shakes Alon's hand and smiles back.", [F("a3_stern")])],
       sets={"alon": "alon_standard"}),
     E("a3_villa_ende", "gag1", "ernst", "The Last Push", PFL(34, "abend"), "alon_keynote", P1("alon", ("pascal", "?", "smiles")),
       "The terrace. A drone camera hums in the air. Alon talks to it with a big smile.",
       [G("alon", "[laugh] Hi, Cala d'Orsu! Quick update from your future. And a big thank you to my partner on the ground, Paul... Paolo. Thank you, Paolo.", "joy")],
       [O("Looks at Pascal, the man who knows every name in the village.",
-         [DIREKT([{"wenn": FL("a3_deal"), "id": "a3_villa_deal"}, {"id": "a3_villa_kampf"}])])],
+         [DIREKT([{"wenn": FL("a3_stern"), "id": "a3_villa_lange"}, {"wenn": FL("a3_deal"), "id": "a3_villa_deal"}, {"id": "a3_villa_kampf"}])])],
+      sets={"alon": "alon_standard"}),
+    E("a3_villa_lange", "gag1", "ernst", "The Long Game", FRAME(), "alon_keynote", P1("casanova", ("alon", "?", "stops smiling")),
+      "Below the terrace, torches are coming up the path. Not pirates' torches: the whole village, with candles from the church. "
+      "Madame Casanova walks in front. She opens the door of the house she grew up in and steps inside.",
+      [G("casanova", "[clear throat] Good evening, Monsieur Varenne. This was my father's house. And this man behind you is Pascal Leca. "
+                     "He was my deputy mayor for nine years.", "pride"),
+       G("alon", "[sigh] ...Who?", "confusion"),
+       G("casanova", "[sigh] Exactly. That is the whole problem with you.", "anger")],
+      [O("Tears the contract in two, slowly, in front of the camera.", [F("a3_villa_ende"), F("a3_alon_entlarvt")])],
       sets={"alon": "alon_standard"}),
     E("a3_villa_deal", "gag1", "ernst", "The Last Push", FRAME(), "alon_keynote", P1("alon"),
       "You stand next to Alon in the stream. Down in the village, the phones light up one by one.",

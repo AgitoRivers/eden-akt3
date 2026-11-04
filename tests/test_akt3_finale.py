@@ -75,6 +75,17 @@ def main():
             "Festbild zeigt die Wahlen der Paar-Szenen")
     pruefen(EV["a3_maxwell_zurueck"]["wann"]["tage"] == [33, 33] and EV["a3_maxwell_zurueck"]["wann"]["phasen"] == ["fruehstueck"], "Maxwell kommt Tag 33 frueh zurueck")
     pruefen(EV["a3_schluss_megan_kai"]["bild"] == "village_harbour", "Megans Schluss-Szene am Kai, solange die Kabine kaputt ist")
+    import tempfile
+    from kern import meta
+    d = tempfile.mkdtemp()
+    z = {"flags": []}
+    meta.ende_merken(d, "1")
+    meta.flags_setzen(z, d)
+    pruefen(z["flags"] == ["meta_ende_1"] and not meta.flags_setzen(z, d), "gesehene Enden gelten im naechsten Durchlauf (geheimes Ende ★)")
+    pruefen(akt3.ende({"flags": ["a3_stern", "a3_deal"], "werte": {}}) == "stern", "★ vor allen anderen Enden")
+    karte0 = abschluss.berechnen(z_mit("akt2_ende", "a3_festa_fertig"), dict(MODUL, akt3_spielbar=True))
+    pruefen(karte0["ende"] == "0" and any(a["titel"] == "What Was Missing" for a in karte0["absaetze"]), "Ende 0 sagt fair, was gefehlt hat (F-35)")
+    pruefen(set(akt3.ENDE_TEXT) == set(akt3.ENDEN), "jedes Ende hat seinen Entwurf")
     print("Alle Pruefungen gruen.")
 
 

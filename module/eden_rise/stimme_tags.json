@@ -27923,6 +27923,12 @@
   },
   {
    "wer": "alva",
+   "text": "Then I'll say it. Out loud. In front of men in suits. ...You'll owe me a drink for this.",
+   "gesprochen": "[sigh] Then I'll say it. Out loud. In front of men in suits. ...You'll owe me a drink for this.",
+   "quelle": "akt3_woche4"
+  },
+  {
+   "wer": "alva",
    "text": "Liar. A kind one. I'll take it.",
    "gesprochen": "[chuckle] Liar. A kind one. I'll take it.",
    "quelle": "akt3_woche4"
@@ -28666,12 +28672,6 @@
    "quelle": "akt3_lose"
   },
   {
-   "wer": "alva",
-   "text": "Then I'll say it. Don't get used to me needing you.",
-   "gesprochen": "[sigh] Then I'll say it. Don't get used to me needing you.",
-   "quelle": "akt3_lose"
-  },
-  {
    "wer": "petru",
    "text": "The commission. You want me to sign my name. My father signed his name once, for a bank. They took his boat. I saw the torches at my workshop, and who stayed. A.V. has the loan on my boat. So tell me why.",
    "gesprochen": "[clear throat] The commission. You want me to sign my name. My father signed his name once, for a bank. They took his boat. I saw the torches at my workshop, and who stayed. A.V. has the loan on my boat. So tell me why.",
@@ -28741,6 +28741,12 @@
    "wer": "alva",
    "text": "From the square I saw the north barricade open. Then the men in white came through. I was knocked out after, so nobody believes me. Why would the men from Ajaccio?",
    "gesprochen": "[sigh] From the square I saw the north barricade open. Then the men in white came through. I was knocked out after, so nobody believes me. Why would the men from Ajaccio?",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "alva",
+   "text": "Then I'll say it. Papa always said: a bar is where people tell the truth. Mine too.",
+   "gesprochen": "[sigh] Then I'll say it. Papa always said: a bar is where people tell the truth. Mine too.",
    "quelle": "akt3_lose"
   },
   {
@@ -29549,14 +29555,8 @@
   },
   {
    "wer": "mina",
-   "text": "Yacht. Everybody's asking who you'll be with after midnight. I'm not asking. I just know you know.",
-   "gesprochen": "[chuckle] Yacht. Everybody's asking who you'll be with after midnight. I'm not asking. I just know you know.",
-   "quelle": "akt3_woche5"
-  },
-  {
-   "wer": "alva",
-   "text": "Still looking, o figliolu?",
-   "gesprochen": "[chuckle] Still looking, o figliolu?",
+   "text": "Yacht. Everybody's asking who you'll be with after midnight. I'm not asking. I just know you'll have to answer.",
+   "gesprochen": "[chuckle] Yacht. Everybody's asking who you'll be with after midnight. I'm not asking. I just know you'll have to answer.",
    "quelle": "akt3_woche5"
   },
   {
@@ -29566,9 +29566,21 @@
    "quelle": "akt3_woche5"
   },
   {
+   "wer": "chiara",
+   "text": "Okay. That's a three. ...For the night, not for you.",
+   "gesprochen": "[sigh] Okay. That's a three. ...For the night, not for you.",
+   "quelle": "akt3_woche5"
+  },
+  {
    "wer": "alva",
    "text": "After my dance, Duc, I close the bar for one hour. Will you be on the quay?",
    "gesprochen": "[chuckle] After my dance, Duc, I close the bar for one hour. Will you be on the quay?",
+   "quelle": "akt3_woche5"
+  },
+  {
+   "wer": "alva",
+   "text": "Fine. I'll close the bar for nobody, then. Nobody is good company.",
+   "gesprochen": "[chuckle] Fine. I'll close the bar for nobody, then. Nobody is good company.",
    "quelle": "akt3_woche5"
   },
   {
@@ -29578,9 +29590,21 @@
    "quelle": "akt3_woche5"
   },
   {
+   "wer": "lea",
+   "text": "Okay. Did you know octopuses hide when they're sad? I'm going to hide a bit.",
+   "gesprochen": "[sniff] Okay. Did you know octopuses hide when they're sad? I'm going to hide a bit.",
+   "quelle": "akt3_woche5"
+  },
+  {
    "wer": "sophia",
    "text": "Ten euros says you'll come down to the mole after midnight. ...Oh. Have I just lost?",
    "gesprochen": "[chuckle] Ten euros says you'll come down to the mole after midnight. ...Oh. Have I just lost?",
+   "quelle": "akt3_woche5"
+  },
+  {
+   "wer": "sophia",
+   "text": "Then I keep my ten euros. It's not much comfort, darling.",
+   "gesprochen": "[sigh] Then I keep my ten euros. It's not much comfort, darling.",
    "quelle": "akt3_woche5"
   },
   {
@@ -29590,9 +29614,21 @@
    "quelle": "akt3_woche5"
   },
   {
+   "wer": "rosi",
+   "text": "Okay. The dress comes off anyway. For me.",
+   "gesprochen": "[clear throat] Okay. The dress comes off anyway. For me.",
+   "quelle": "akt3_woche5"
+  },
+  {
    "wer": "lola",
    "text": "Boss. When the cooking's done. One song, just us, on the mole. Mostly one song. Yes?",
    "gesprochen": "[laugh] Boss. When the cooking's done. One song, just us, on the mole. Mostly one song. Yes?",
+   "quelle": "akt3_woche5"
+  },
+  {
+   "wer": "lola",
+   "text": "Oh. No worries, Boss. Mostly no worries.",
+   "gesprochen": "[sigh] Oh. No worries, Boss. Mostly no worries.",
    "quelle": "akt3_woche5"
   },
   {
@@ -29602,9 +29638,21 @@
    "quelle": "akt3_woche5"
   },
   {
+   "wer": "siri",
+   "text": "Okay. Thank you for saying it to my face. Nobody does that.",
+   "gesprochen": "[sigh] Okay. Thank you for saying it to my face. Nobody does that.",
+   "quelle": "akt3_woche5"
+  },
+  {
    "wer": "bibi",
    "text": "The gates open on Sunday afternoon, and I'll be a mess. After midnight, will you come anyway?",
    "gesprochen": "[chuckle] The gates open on Sunday afternoon, and I'll be a mess. After midnight, will you come anyway?",
+   "quelle": "akt3_woche5"
+  },
+  {
+   "wer": "bibi",
+   "text": "Then I'll sit with the animals. They never say no.",
+   "gesprochen": "[sigh] Then I'll sit with the animals. They never say no.",
    "quelle": "akt3_woche5"
   },
   {
@@ -29614,9 +29662,21 @@
    "quelle": "akt3_woche5"
   },
   {
+   "wer": "megan",
+   "text": "Noted, First Officer. We never spoke of it. That part is easy.",
+   "gesprochen": "[clear throat] Noted, First Officer. We never spoke of it. That part is easy.",
+   "quelle": "akt3_woche5"
+  },
+  {
    "wer": "mina",
-   "text": "Not her, Yacht. Not this time. Try again, or don't.",
-   "gesprochen": "[chuckle] Not her, Yacht. Not this time. Try again, or don't.",
+   "text": "Good night, Yacht. Don't be late on Sunday. Midnight comes fast at a festa.",
+   "gesprochen": "[chuckle] Good night, Yacht. Don't be late on Sunday. Midnight comes fast at a festa.",
+   "quelle": "akt3_woche5"
+  },
+  {
+   "wer": "mina",
+   "text": "Nobody? Then you dance with me. Once. Badly.",
+   "gesprochen": "[chuckle] Nobody? Then you dance with me. Once. Badly.",
    "quelle": "akt3_woche5"
   },
   {
@@ -29723,8 +29783,44 @@
   },
   {
    "wer": "alon",
+   "text": "An audience? No, Duc. You don't have enough people for that. Here, tonight, or not at all.",
+   "gesprochen": "[chuckle] An audience? No, Duc. You don't have enough people for that. Here, tonight, or not at all.",
+   "quelle": "akt3_woche5"
+  },
+  {
+   "wer": "alon",
+   "text": "In front of the village. With cameras. A consultant who finally understands marketing. Fine. Tomorrow night.",
+   "gesprochen": "[laugh] In front of the village. With cameras. A consultant who finally understands marketing. Fine. Tomorrow night.",
+   "quelle": "akt3_woche5"
+  },
+  {
+   "wer": "yamamoto",
+   "text": "So sorry, Officer-san. My bank has already stopped his loan. He does not know yet. Very rude of me.",
+   "gesprochen": "[clear throat] So sorry, Officer-san. My bank has already stopped his loan. He does not know yet. Very rude of me.",
+   "quelle": "akt3_woche5"
+  },
+  {
+   "wer": "alon",
    "text": "Hi, Cala d'Orsu! Quick update from your future. And a big thank you to my partner on the ground, Paul... Paolo. Thank you, Paolo.",
    "gesprochen": "[laugh] Hi, Cala d'Orsu! Quick update from your future. And a big thank you to my partner on the ground, Paul... Paolo. Thank you, Paolo.",
+   "quelle": "akt3_woche5"
+  },
+  {
+   "wer": "casanova",
+   "text": "Good evening, Monsieur Varenne. This was my father's house. And this man behind you is Pascal Leca. He was my deputy mayor for nine years.",
+   "gesprochen": "[clear throat] Good evening, Monsieur Varenne. This was my father's house. And this man behind you is Pascal Leca. He was my deputy mayor for nine years.",
+   "quelle": "akt3_woche5"
+  },
+  {
+   "wer": "alon",
+   "text": "...Who?",
+   "gesprochen": "[sigh] ...Who?",
+   "quelle": "akt3_woche5"
+  },
+  {
+   "wer": "casanova",
+   "text": "Exactly. That is the whole problem with you.",
+   "gesprochen": "[sigh] Exactly. That is the whole problem with you.",
    "quelle": "akt3_woche5"
   },
   {
@@ -30691,6 +30787,12 @@
    "wer": "riscossore",
    "text": "He's telling the truth. It's in my book, page forty-one. A man in prison pays nobody, so I'd like him to stay out.",
    "gesprochen": "[chuckle] He's telling the truth. It's in my book, page forty-one. A man in prison pays nobody, so I'd like him to stay out.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "riscossore",
+   "text": "Nobody believes a pirate. Fine. Believe my book. Page forty-one: what a man named White offered the captain. A man in prison pays nobody.",
+   "gesprochen": "[clear throat] Nobody believes a pirate. Fine. Believe my book. Page forty-one: what a man named White offered the captain. A man in prison pays nobody.",
    "quelle": "akt3_finale"
   },
   {
