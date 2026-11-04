@@ -8,7 +8,7 @@
 angepasst, dass es dazu passt.
 
 **Festa und Ehrenbürger bleiben ohne festes Datum (Duc 30.10.), sind aber die Schlussszene von Akt 3 (E-100).** Die Events im Code bleiben unverändert, nichts in dieser
-Seite darf an einem Festa-Tag hängen. Die Belagerung bleibt Tag 21. Akt 3 hat zwei Wochen (Tag 22–35).
+Seite darf an einem Festa-Tag hängen. Die Belagerung läuft Tag 21–23 (E-114). Akt 3 hat Tag 24–35.
 
 ## Überblick
 
@@ -437,7 +437,7 @@ Das Netz erfüllt Ducs Vorgabe, dass nicht alle für die Genossenschaft sein dü
 | 15–21 | Ernste Sandru-Szenen, Dorf-Events der Paare oben | neu |
 | 21 | Belagerung: Pascal gibt den Weg frei | in Woche 3 planen |
 | früh in Akt 3 | Elsa: „Nobody from Ajaccio has called me.“ Sie fährt hin, „All quiet“, dann die Schublade | neu |
-| Akt 3 (22–35) | Kiste bei Nonna (Brief, Schlüssel), Schublade, Preis (Bus, Dach), Don vor Pascals Tür, letzte Hilfe, Sandrus Beine, Minas Brief, Rädchen im Finale neben Alon, Epilog | neu |
+| Akt 3 (24–35) | Kiste bei Nonna (Brief, Schlüssel), Schublade, Preis (Bus, Dach), Don vor Pascals Tür, letzte Hilfe, Sandrus Beine, Minas Brief, Rädchen im Finale neben Alon, Epilog | neu |
 
 Festa-Events (`gv_rotes_kleid`, `ab_casanova_flamenco`, `br_ehrenbuerger`) werden **nicht** angefasst.
 

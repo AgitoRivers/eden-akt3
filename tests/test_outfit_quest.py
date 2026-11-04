@@ -170,7 +170,7 @@ def main():
         pruefen(ziehen(z, "abend") == "ol_tuer_" + name, "Name %s: eigene Lesung" % name)
 
     # Akt 3 bleibt offen, Zufall zieht die Takte nie
-    pruefen(EV["ol_wunsch"]["wann"].get("akt2") == [22, 35], "die Quest geht auch in Akt 3")
+    pruefen(EV["ol_wunsch"]["wann"].get("akt2") == [24, 35], "die Quest geht auch in Akt 3 (ab Tag 24, E-114)")
     pruefen(all("phasen" not in e["wann"] for e in QUEST if not e["wann"].get("pflicht")), "Folgetakte werden nie zufällig gezogen")
     ereignisse.daten = _daten
     print("Alles gut.")

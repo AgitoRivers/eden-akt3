@@ -107,7 +107,7 @@ Tasche 8 → 12 → 16 gebaut (Abschnitt 5). Noch offen: Ankauf je Laden (Abschn
 - **A · Gage halbieren:** 250 € → **125 €** am Tag. Die fehlenden ~2.600 € über 21 Tage kommen aus Wertsachen und
   Kämpfen.
 - **C · Geld nur von Menschen:** Gegner der Klasse `mensch` lassen zusätzlich Geld fallen (lästig 10–20 €,
-  gefährlich 20–40 €, tödlich/Boss 60–120 €). Tiere, Flieger, Maschinen und Monster haben kein Geld. Maschinen geben ab Tag 22 stattdessen Stahl (`systeme/kochen.md`).
+  gefährlich 20–40 €, tödlich/Boss 60–120 €). Tiere, Flieger, Maschinen und Monster haben kein Geld. Maschinen geben ab Tag 24 (Akt 3) stattdessen Stahl (`systeme/kochen.md`).
 - **B · Sparziele, die man sieht:**
 
 | Sparziel | Preis | heute |
@@ -174,7 +174,7 @@ Küchen-Tagesbonus „Ankauf“ (Sojasauce) bleibt obendrauf. Umsetzung: Tabelle
 - **Eine Tasche für alles** – mitgenommene Verbandskästen und Granaten belegen Plätze, die der Beute fehlen.
 - Größe je Akt: **8 / 12 / 16** (gebaut 29.10.2026). Andenken, Quest-Gegenstände und Schlüssel zählen weiter nicht.
 - **Upgrades bei Rosi, nur gegen Geld (Duc 29.10.):** in ihrer Werkstatt (Reiter „Upgrade“ → Rosi, Abschnitt
-  „Bag“), sofort fertig, kostet keine Aktion. Akt 2 ab Tag 8 „Rosi's Diving Bag“ (12 Plätze, 400 €), Akt 3 ab Tag 22
+  „Bag“), sofort fertig, kostet keine Aktion. Akt 2 ab Tag 8 „Rosi's Diving Bag“ (12 Plätze, 400 €), Akt 3 ab Tag 24
   „Rosi's Expedition Pack“ (16 Plätze, 800 €). Vorher zeigt die Werkstatt, warum es noch nicht geht. Daten:
   `MODUL["tasche"]` in `modul_eden_rise.py`; Code `kern/handel.tasche_kaufen`, Größe `kern/zustand.inventar_plaetze`;
   Test `tests/test_geld.py`. Bilder fehlen noch.

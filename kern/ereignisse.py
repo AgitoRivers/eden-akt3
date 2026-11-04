@@ -102,9 +102,10 @@ def _beteiligte(ev):
 
 
 def gesperrt_durch_story(z, modul, phase):
-    """Laeuft gerade die Belagerung (modul "sperre")? Dann gibt es nur noch ihre eigenen Szenen, keine Selfies mitten im Krieg (Duc 01.11.2026)."""
+    """Laeuft gerade die Belagerung (modul "sperre")? Dann gibt es nur noch ihre eigenen Szenen, keine Selfies mitten im Krieg (Duc 01.11.2026).
+    Ab "bis_tag" (Akt 3, Tag 24) ist die Sperre vorbei (fix-akt2)."""
     s = modul.get("sperre")
-    if not s:
+    if not s or (s.get("bis_tag") and z["tag"] >= s["bis_tag"]):
         return None
     ph = modul["zeitraster"]["phasen"]
     return s["praefix"] if z["tag"] > s["tag"] or (z["tag"] == s["tag"] and ph.index(phase) >= ph.index(s["phase"])) else None

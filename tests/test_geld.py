@@ -73,7 +73,9 @@ def main():
         pruefen(False, "Expedition Pack vor Akt 3")
     except ValueError as e:
         pruefen(True, "Expedition Pack vor Akt 3 gesperrt (%s)" % e)
-    z["tag"], z["konto"] = 22, 799
+    z["tag"], z["konto"] = 23, 5000
+    pruefen(handel.tasche_ansicht(z, MODUL)["naechste"]["fehlt"], "Tag 23 (Belagerung): Expedition Pack noch nicht")
+    z["tag"], z["konto"] = 24, 799                   # Akt 3 beginnt an Tag 24 (E-114, fix-akt2)
     pruefen("1 €" in (handel.tasche_ansicht(z, MODUL)["naechste"]["fehlt"] or ""), "799 EUR: 1 EUR fehlt")
     z["konto"] = 800
     titel, satz, zeilen = handel.tasche_kaufen(z, MODUL)

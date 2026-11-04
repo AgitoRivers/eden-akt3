@@ -17,7 +17,6 @@ sys.path.insert(0, EDEN)
 from kern import stimme  # noqa: E402
 
 TAGE = (11, 21)                  # Akt 2, dazu Akt 3 als zweites Fenster (nie ueber eine Aktgrenze)
-AKT3 = [22, 35]
 READING = "Book Reading"
 FD = lambda name: {"flag_datiert": name}
 DIREKT = lambda ziel: {"direkt": ziel}

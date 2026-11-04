@@ -516,7 +516,7 @@ for _e in EVENTS:
     if _e["id"] in ("g1_pascal_gebuehren", "g1_pascal_ricci", "g1_casanova_morgen", "g1_batu_mutter", "g1_batu_intro_allein"):
         _e["solo"] = True                       # nur eine Figur auf der Buehne
     if _e["id"] == "g1_zg_zitronengras":
-        _e["wann"]["akt2"] = [22, 35]           # auch spaeter gekauft: die Szene kommt trotzdem
+        _e["wann"]["akt2"] = list(AKT3)           # auch spaeter gekauft: die Szene kommt trotzdem
     if _e["id"] == "g1_pascal_ricci":
         _e["wann"]["akt2"] = [8, 21]            # die Riccis koennen auch in Akt 2 enden
 

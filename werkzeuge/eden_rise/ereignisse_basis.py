@@ -229,6 +229,10 @@ def INTIM(pid, ort, set_, fuehrung, hinweis):
     return {"szene_intim": {"pid": pid, "ort": ort, "set": set_, "fuehrung": fuehrung, "hinweis": hinweis}}
 
 
+AKT3_AB = 24                                # Akt 3 beginnt am Tag nach der Belagerung (E-114: Tag 21-23), Ende Tag 35 (fix-akt2)
+AKT3 = [AKT3_AB, 35]                        # zweites Fenster (wann.akt2) fuer Szenen, die auch in Akt 3 kommen duerfen
+
+
 def WANN(tage=(1, 7), phasen=None, orte=None, anwesend=None, bed=None, an_land=None, wetter=None, pflicht=False,
          prolog=False, holt_leute=False):
     w = {"tage": list(tage)}
@@ -330,8 +334,8 @@ def pruefe(events):
         if e["ton"] not in TOENE:
             fehler.append("%s: ton %s" % (k, e["ton"]))
         w = e["wann"]
-        # 21 Tage in drei Akten (24.10.2026): Akt 1 = Tag 1-7, Akt 2 = 8-14, Akt 3 = 15-21. Tag 7 ist die Anhoerung
-        # (keine Zufalls-Events), die Festa-Events liegen in Akt 3.
+        # Kalender (E-114): Akt 1 = Tag 1-7, Akt 2 = Tag 8-23 (Belagerung 21-23), Akt 3 = Tag AKT3_AB-35. Tag 7 ist die Anhoerung
+        # (keine Zufalls-Events), die Festa-Events liegen am Ende von Akt 3.
         if not (1 <= w["tage"][0] <= w["tage"][1] <= (23 if k.startswith("bl_") else 35)) or w["tage"][0] <= 7 < w["tage"][1]:   # bl_: Die Belagerung geht bis Tag 23 (E-114)
             fehler.append("%s: tage %s (Akt 1 = Tag 1-7, Fenster nie über eine Aktgrenze)" % (k, w["tage"]))
         if w["tage"][1] == 7 and not w.get("pflicht"):

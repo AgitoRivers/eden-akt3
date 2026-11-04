@@ -26,7 +26,8 @@ Alles in Woche 1 ist optional, soll aber möglichst dort passieren. In Woche 2 b
 | 19 | Morgens übergibt Rosi den Steel Mop und das Taser-Gewehr (`a2_steelmop`), tagsüber das Manöver auf der Taktik-Karte (Duc 01.11.2026, [`belagerung.md`](belagerung.md)) | |
 | 19–20 | „Paid in Full“ | Forschungsanlage (optional), Gemelli wirkt dort gegen Drohnen; Aufgaben der Crew |
 | 20 | Zum Dinner bietet Elsa ihre Hilfe an, abends der Kriegsrat (Duc 01.11.2026: einen Tag vor der Belagerung, ersetzt Tag 15 aus E-100), danach eine ruhige letzte Nacht an Bord | |
-| 21–23 | Belagerung, sechs Wellen auf drei Tage ([`belagerung.md`](belagerung.md), E-114) | |
+| 21–23 | Belagerung, sechs Wellen auf drei Tage ([`belagerung.md`](belagerung.md), E-114). Ab Tag 21 Nachmittag laufen nur `bl_`-Szenen (`modul.sperre`) | |
+| 24 | **Akt 3 beginnt** (E-114): Die Sperre endet (`sperre.bis_tag = 24`), zweite Fenster für Akt 3 laufen `[24, 35]` (`ereignisse_basis.AKT3_AB`). Das Spiel endet vorerst nach Tag 23 (`zeitraster.tage = 23`, Schluss der Beta mit `akt2_ende`) | |
 
 ## Der Grund für die Belagerung
 
