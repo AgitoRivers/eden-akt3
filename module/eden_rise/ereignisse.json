@@ -109225,20 +109225,40 @@
    "bild": "petru_workshop",
    "personen": {
     "handelnd": "petru",
-    "betroffen": []
+    "betroffen": [
+     {
+      "id": "holm",
+      "ton": "?",
+      "was": "holds the saw"
+     }
+    ]
    },
    "sets": {},
-   "lage": "The board says: Petru · wood · a table for the whole village. Petru has two piles of wood in front of the workshop.",
+   "lage": "The board says: Petru · wood · a table for the whole village. At the back of the workshop, on blocks, lies a small blue boat with a name on the bow: Stella. There is dust on her seats. In front of the workshop: a pile of black beams from the burned houses.",
    "zeilen": [
     {
      "wer": "petru",
-     "text": "Two piles. The wood from my old boat, the one Marie named. Or the beams from the burned houses. Which one?",
+     "text": "Stella was Marie's boat. She went out with her every morning, for thirty years. Since Marie died, Stella hasn't touched the water. My own boat is the green one at the quay.",
+     "gefuehl": "sadness"
+    },
+    {
+     "wer": "holm",
+     "text": "Five years on blocks, Frankfurt. A boat that doesn't swim is only a cupboard.",
+     "gefuehl": "neutral",
+     "gruppe": "holm",
+     "wenn": {
+      "flag": "holm_zurueck"
+     }
+    },
+    {
+     "wer": "petru",
+     "text": "Maybe it's time she held something again. Or the beams from the fire. Which one?",
      "gefuehl": "neutral"
     }
    ],
    "optionen": [
     {
-     "text": "“From the old boat. Something good should come out of her.”",
+     "text": "“Stella. Let her hold the whole village.”",
      "folgen": [
       {
        "flag": "a3_los_tafel"
@@ -109256,12 +109276,32 @@
        "aufbau_stufe": "*"
       },
       {
-       "weiter": "a3_los_weiter"
+       "weiter": [
+        {
+         "wenn": {
+          "flag": "holm_zurueck"
+         },
+         "id": "a3_los_tafel_holm"
+        },
+        {
+         "id": "a3_los_weiter"
+        }
+       ]
+      },
+      {
+       "direkt": [
+        {
+         "wenn": {
+          "flag": "holm_zurueck"
+         },
+         "id": "a3_los_tafel_holm"
+        }
+       ]
       }
      ],
      "zeile": {
       "wer": "petru",
-      "text": "Marie named her Stella. Now Stella feeds the whole village. She'd like that.",
+      "text": "Marie would like that. She always fed too many people.",
       "gefuehl": "sadness"
      }
     },
@@ -109284,12 +109324,32 @@
        "aufbau_stufe": "*"
       },
       {
-       "weiter": "a3_los_weiter"
+       "weiter": [
+        {
+         "wenn": {
+          "flag": "holm_zurueck"
+         },
+         "id": "a3_los_tafel_holm"
+        },
+        {
+         "id": "a3_los_weiter"
+        }
+       ]
+      },
+      {
+       "direkt": [
+        {
+         "wenn": {
+          "flag": "holm_zurueck"
+         },
+         "id": "a3_los_tafel_holm"
+        }
+       ]
       }
      ],
      "zeile": {
       "wer": "petru",
-      "text": "Hm. Ash makes a good table. Black, but good.",
+      "text": "Black wood makes a good table. Stella stays on her blocks. For now.",
       "gefuehl": "approval"
      }
     },
@@ -115723,6 +115783,128 @@
        ]
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "a3_los_tafel_holm",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "The Long Table",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "petru_workshop",
+   "personen": {
+    "handelnd": "holm",
+    "betroffen": [
+     {
+      "id": "petru",
+      "ton": "+",
+      "was": "waits"
+     }
+    ]
+   },
+   "sets": {
+    "holm": "holm_shirt"
+   },
+   "lage": "Holm holds the other end of the saw. Halfway through, she stops and looks at the sea through the open door.",
+   "zeilen": [
+    {
+     "wer": "holm",
+     "text": "Frankfurt. Thirty-four years at sea. Eleven seasons on the Eden Rise. My mother in Ålesund is old. And I sleep well here. Better than on any bridge.",
+     "gefuehl": "neutral"
+    },
+    {
+     "wer": "holm",
+     "text": "Since the night before Bergen I have said everything only once. So listen. These four stripes on my shoulders. Do I keep them, or do they go in the table?",
+     "gefuehl": "nervousness"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Put them in the table. You can stay.”",
+     "folgen": [
+      {
+       "flag": "a3_los_tafel_holm"
+      },
+      {
+       "flag": "a3_los_tafel_holm_streifen"
+      },
+      {
+       "vertrauen": [
+        "holm",
+        6
+       ]
+      },
+      {
+       "weiter": "a3_los_weiter"
+      }
+     ],
+     "zeile": {
+      "wer": "holm",
+      "text": "Faen. ...Takk. Petru, give me a nail.",
+      "gefuehl": "relief"
+     }
+    },
+    {
+     "text": "“Keep them. One more season, then decide.”",
+     "folgen": [
+      {
+       "flag": "a3_los_tafel_holm"
+      },
+      {
+       "flag": "a3_los_tafel_holm_saison"
+      },
+      {
+       "vertrauen": [
+        "holm",
+        4
+       ]
+      },
+      {
+       "weiter": "a3_los_weiter"
+      }
+     ],
+     "zeile": {
+      "wer": "holm",
+      "text": "One more. Then we see. That's an honest answer, Frankfurt.",
+      "gefuehl": "neutral"
+     }
+    },
+    {
+     "text": "“Don't ask me. Ask Petru.”",
+     "folgen": [
+      {
+       "flag": "a3_los_tafel_holm"
+      },
+      {
+       "flag": "a3_los_tafel_holm_petru"
+      },
+      {
+       "vertrauen": [
+        "holm",
+        4
+       ]
+      },
+      {
+       "vertrauen": [
+        "petru",
+        4
+       ]
+      },
+      {
+       "weiter": "a3_los_weiter"
+      }
+     ],
+     "zeile": {
+      "wer": "petru",
+      "text": "Stay.",
+      "gefuehl": "love"
+     }
     }
    ]
   },
@@ -123351,7 +123533,7 @@
    "zeilen": [
     {
      "wer": "petru",
-     "text": "Stella, my old boat. Now she holds the whole village. Mind the plates, she leaks a little.",
+     "text": "Stella. Marie's boat. Five years on blocks, and tonight she holds the whole village. Marie always fed too many people.",
      "gefuehl": "pride",
      "gruppe": "tafel",
      "wenn": {
@@ -123365,6 +123547,33 @@
      "gruppe": "tafel",
      "wenn": {
       "flag": "a3_los_tafel_asche"
+     }
+    },
+    {
+     "wer": "holm",
+     "text": "Look at the head of the table, Frankfurt. Four gold stripes, nailed into the wood. I sleep on land now.",
+     "gefuehl": "pride",
+     "gruppe": "holmtafel",
+     "wenn": {
+      "flag": "a3_los_tafel_holm_streifen"
+     }
+    },
+    {
+     "wer": "holm",
+     "text": "My stripes are still on my shoulders. One more season. Then we see. Petru says he'll wait. Petru is good at waiting.",
+     "gefuehl": "neutral",
+     "gruppe": "holmtafel",
+     "wenn": {
+      "flag": "a3_los_tafel_holm_saison"
+     }
+    },
+    {
+     "wer": "holm",
+     "text": "Petru said one word in the workshop: stay. One word. From him that's a speech.",
+     "gefuehl": "love",
+     "gruppe": "holmtafel",
+     "wenn": {
+      "flag": "a3_los_tafel_holm_petru"
      }
     },
     {

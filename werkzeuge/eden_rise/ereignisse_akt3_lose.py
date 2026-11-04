@@ -133,23 +133,31 @@ def _weiter_los(lid=None):
     return WEITER([{"wenn": {"alle": [platz, los_offen(l)]}, "id": "a3_los_" + l} for l in LOSE if l != lid] + [{"id": "a3_los_genug"}])
 
 
-def LOS(lid, wer, bild, titel, lage, zeilen, wahlen, bauen=False, sets=None):
+def LOS(lid, wer, bild, titel, lage, zeilen, wahlen, bauen=False, sets=None, danach=None, personen=None):
     """wahlen: [(chip, kurz, antwort-Zeile)] - 2 oder 3; die letzte Option geht zum naechsten Los."""
     opt = []
     for chip, kurz, z in wahlen:
-        fo = [F("a3_los_" + lid), F("a3_los_%s_%s" % (lid, kurz)), V(wer, 4)] + ([STUFE] if bauen else []) + [WEITER("a3_los_weiter")]
+        nach = danach or "a3_los_weiter"                    # danach: [{"wenn": ..., "id": zweiter Takt}] vor dem Rundgang
+        fo = [F("a3_los_" + lid), F("a3_los_%s_%s" % (lid, kurz)), V(wer, 4)] + ([STUFE] if bauen else []) + [WEITER(nach)]
+        if danach:
+            fo.append({"direkt": [x for x in danach if x["id"] != "a3_los_weiter"]})   # beim Besuch (ohne Ausflug) zaehlt direkt
         opt.append(O(chip, fo, zeile=z))
     opt.append(O("Leaves this one for another day.", [_weiter_los(lid)]))
-    return FR("a3_los_" + lid, bild, titel, lage, zeilen, opt, personen={"handelnd": wer, "betroffen": []}, sets=sets)
+    return FR("a3_los_" + lid, bild, titel, lage, zeilen, opt, personen=personen or {"handelnd": wer, "betroffen": []}, sets=sets)
 
 
 LOS_FRAMES = [
     LOS("tafel", "petru", "petru_workshop", "The Long Table",
-        "The board says: Petru · wood · a table for the whole village. Petru has two piles of wood in front of the workshop.",
-        [G("petru", "[clear throat] Two piles. The wood from my old boat, the one Marie named. Or the beams from the burned houses. Which one?", "neutral")],
-        [("“From the old boat. Something good should come out of her.”", "boot", G("petru", "[sigh] Marie named her Stella. Now Stella feeds the whole village. She'd like that.", "sadness")),
-         ("“The burned beams. Let the fire turn into a table.”", "asche", G("petru", "[clear throat] Hm. Ash makes a good table. Black, but good.", "approval"))],
-        bauen=True),
+        "The board says: Petru · wood · a table for the whole village. At the back of the workshop, on blocks, lies a small blue boat with "
+        "a name on the bow: Stella. There is dust on her seats. In front of the workshop: a pile of black beams from the burned houses.",
+        [G("petru", "[clear throat] Stella was Marie's boat. She went out with her every morning, for thirty years. Since Marie died, "
+                    "Stella hasn't touched the water. My own boat is the green one at the quay.", "sadness"),
+         JE(G("holm", "[clear throat] Five years on blocks, Frankfurt. A boat that doesn't swim is only a cupboard.", "neutral"), "holm", FL("holm_zurueck")),
+         G("petru", "[sigh] Maybe it's time she held something again. Or the beams from the fire. Which one?", "neutral")],
+        [("“Stella. Let her hold the whole village.”", "boot", G("petru", "[sniff] Marie would like that. She always fed too many people.", "sadness")),
+         ("“The burned beams. Let the fire turn into a table.”", "asche", G("petru", "[clear throat] Black wood makes a good table. Stella stays on her blocks. For now.", "approval"))],
+        bauen=True, danach=[{"wenn": FL("holm_zurueck"), "id": "a3_los_tafel_holm"}, {"id": "a3_los_weiter"}],
+        personen={"handelnd": "petru", "betroffen": [{"id": "holm", "ton": "?", "was": "holds the saw"}]}),
     LOS("buehne", "bonaventure", "village_piazza", "The Stage",
         "The board says: Buenaventura · carrying stones · a stage. Forty pirates wait with their hats in their hands.",
         [G("bonaventure", "[clear throat] Señor, where do we build it? Where the fire was, or where the people are?", "neutral")],
@@ -230,6 +238,22 @@ LOS_FRAMES = [
         sets={"jana": "jana_deck_a"}),
 ]
 
+TAFEL_HOLM = [
+    FR("a3_los_tafel_holm", "petru_workshop", "The Long Table",
+       "Holm holds the other end of the saw. Halfway through, she stops and looks at the sea through the open door.",
+       [G("holm", "[clear throat] Frankfurt. Thirty-four years at sea. Eleven seasons on the Eden Rise. My mother in Ålesund is old. "
+                  "And I sleep well here. Better than on any bridge.", "neutral"),
+        G("holm", "[sigh] Since the night before Bergen I have said everything only once. So listen. These four stripes on my shoulders. "
+                  "Do I keep them, or do they go in the table?", "nervousness")],
+       [O("“Put them in the table. You can stay.”", [F("a3_los_tafel_holm"), F("a3_los_tafel_holm_streifen"), V("holm", 6), WEITER("a3_los_weiter")],
+          zeile=G("holm", "[sigh] Faen. ...Takk. Petru, give me a nail.", "relief")),
+        O("“Keep them. One more season, then decide.”", [F("a3_los_tafel_holm"), F("a3_los_tafel_holm_saison"), V("holm", 4), WEITER("a3_los_weiter")],
+          zeile=G("holm", "[clear throat] One more. Then we see. That's an honest answer, Frankfurt.", "neutral")),
+        O("“Don't ask me. Ask Petru.”", [F("a3_los_tafel_holm"), F("a3_los_tafel_holm_petru"), V("holm", 4), V("petru", 4), WEITER("a3_los_weiter")],
+          zeile=G("petru", "[clear throat] Stay.", "love"))],
+       personen={"handelnd": "holm", "betroffen": [{"id": "petru", "ton": "+", "was": "waits"}]}, sets={"holm": "holm_shirt"}),
+]
+
 RUNDGANG = [
     FR("a3_los_weiter", "village_piazza", "The Festa Board",
        "You walk back past the board. Madame Casanova crosses one more name off with a red pencil.",
@@ -256,7 +280,7 @@ CAPRA = [
          zeile=G("bibi", "[sigh] Fine. But she'll be sad, and so will I.", "disappointment"))]),
 ]
 
-EVENTS = FRAGEN + LOS_FRAMES + RUNDGANG + CAPRA
+EVENTS = FRAGEN + LOS_FRAMES + TAFEL_HOLM + RUNDGANG + CAPRA
 
 ORTE = {
     "a3_zeugen": {

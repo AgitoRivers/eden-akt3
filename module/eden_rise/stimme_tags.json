@@ -28805,20 +28805,32 @@
   },
   {
    "wer": "petru",
-   "text": "Two piles. The wood from my old boat, the one Marie named. Or the beams from the burned houses. Which one?",
-   "gesprochen": "[clear throat] Two piles. The wood from my old boat, the one Marie named. Or the beams from the burned houses. Which one?",
+   "text": "Stella was Marie's boat. She went out with her every morning, for thirty years. Since Marie died, Stella hasn't touched the water. My own boat is the green one at the quay.",
+   "gesprochen": "[clear throat] Stella was Marie's boat. She went out with her every morning, for thirty years. Since Marie died, Stella hasn't touched the water. My own boat is the green one at the quay.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "holm",
+   "text": "Five years on blocks, Frankfurt. A boat that doesn't swim is only a cupboard.",
+   "gesprochen": "[clear throat] Five years on blocks, Frankfurt. A boat that doesn't swim is only a cupboard.",
    "quelle": "akt3_lose"
   },
   {
    "wer": "petru",
-   "text": "Marie named her Stella. Now Stella feeds the whole village. She'd like that.",
-   "gesprochen": "[sigh] Marie named her Stella. Now Stella feeds the whole village. She'd like that.",
+   "text": "Maybe it's time she held something again. Or the beams from the fire. Which one?",
+   "gesprochen": "[sigh] Maybe it's time she held something again. Or the beams from the fire. Which one?",
    "quelle": "akt3_lose"
   },
   {
    "wer": "petru",
-   "text": "Hm. Ash makes a good table. Black, but good.",
-   "gesprochen": "[clear throat] Hm. Ash makes a good table. Black, but good.",
+   "text": "Marie would like that. She always fed too many people.",
+   "gesprochen": "[sniff] Marie would like that. She always fed too many people.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "petru",
+   "text": "Black wood makes a good table. Stella stays on her blocks. For now.",
+   "gesprochen": "[clear throat] Black wood makes a good table. Stella stays on her blocks. For now.",
    "quelle": "akt3_lose"
   },
   {
@@ -29089,6 +29101,36 @@
    "wer": "jana",
    "text": "Everybody! They'll be so proud.",
    "gesprochen": "[laugh] Everybody! They'll be so proud.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "holm",
+   "text": "Frankfurt. Thirty-four years at sea. Eleven seasons on the Eden Rise. My mother in Ålesund is old. And I sleep well here. Better than on any bridge.",
+   "gesprochen": "[clear throat] Frankfurt. Thirty-four years at sea. Eleven seasons on the Eden Rise. My mother in Ålesund is old. And I sleep well here. Better than on any bridge.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "holm",
+   "text": "Since the night before Bergen I have said everything only once. So listen. These four stripes on my shoulders. Do I keep them, or do they go in the table?",
+   "gesprochen": "[sigh] Since the night before Bergen I have said everything only once. So listen. These four stripes on my shoulders. Do I keep them, or do they go in the table?",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "holm",
+   "text": "Faen. ...Takk. Petru, give me a nail.",
+   "gesprochen": "[sigh] Faen. ...Takk. Petru, give me a nail.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "holm",
+   "text": "One more. Then we see. That's an honest answer, Frankfurt.",
+   "gesprochen": "[clear throat] One more. Then we see. That's an honest answer, Frankfurt.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "petru",
+   "text": "Stay.",
+   "gesprochen": "[clear throat] Stay.",
    "quelle": "akt3_lose"
   },
   {
@@ -30731,14 +30773,32 @@
   },
   {
    "wer": "petru",
-   "text": "Stella, my old boat. Now she holds the whole village. Mind the plates, she leaks a little.",
-   "gesprochen": "[clear throat] Stella, my old boat. Now she holds the whole village. Mind the plates, she leaks a little.",
+   "text": "Stella. Marie's boat. Five years on blocks, and tonight she holds the whole village. Marie always fed too many people.",
+   "gesprochen": "[sniff] Stella. Marie's boat. Five years on blocks, and tonight she holds the whole village. Marie always fed too many people.",
    "quelle": "akt3_finale"
   },
   {
    "wer": "petru",
    "text": "Black wood. Last week it was a house. Now people eat on it. That's the sea's way too.",
    "gesprochen": "[clear throat] Black wood. Last week it was a house. Now people eat on it. That's the sea's way too.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "holm",
+   "text": "Look at the head of the table, Frankfurt. Four gold stripes, nailed into the wood. I sleep on land now.",
+   "gesprochen": "[clear throat] Look at the head of the table, Frankfurt. Four gold stripes, nailed into the wood. I sleep on land now.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "holm",
+   "text": "My stripes are still on my shoulders. One more season. Then we see. Petru says he'll wait. Petru is good at waiting.",
+   "gesprochen": "[clear throat] My stripes are still on my shoulders. One more season. Then we see. Petru says he'll wait. Petru is good at waiting.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "holm",
+   "text": "Petru said one word in the workshop: stay. One word. From him that's a speech.",
+   "gesprochen": "[chuckle] Petru said one word in the workshop: stay. One word. From him that's a speech.",
    "quelle": "akt3_finale"
   },
   {

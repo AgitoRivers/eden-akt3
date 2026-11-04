@@ -71,7 +71,13 @@ def main():
             "Rundgang: hoechstens drei Lose je Phase")
     for lid in L.LOSE:
         wahl = [o for o in EV["a3_los_" + lid]["optionen"] if any(f.get("flag") == "a3_los_" + lid for f in folgen(o))]
-        pruefen(all({"weiter": "a3_los_weiter"} in folgen(o) for o in wahl), "Los %s: nach der Wahl geht der Rundgang weiter" % lid)
+        pruefen(all(any("a3_los_weiter" in json.dumps(f.get("weiter", "")) for f in folgen(o)) for o in wahl), "Los %s: nach der Wahl geht der Rundgang weiter" % lid)
+    tafel = json.dumps(EV["a3_los_tafel"])
+    pruefen("a3_los_tafel_holm" in tafel and '"direkt"' in tafel and "holm_zurueck" in tafel, "Tafel: mit Holm folgt ihr Takt (Ausflug und Besuch)")
+    pruefen(all(any(f.get("flag", "").startswith("a3_los_tafel_holm_") for f in folgen(o)) for o in EV["a3_los_tafel_holm"]["optionen"]),
+            "Holms Streifen: jede Wahl hat ihr Flag")
+    pruefen(all(k in json.dumps(EV["a3_festa_bauen"]) for k in ("a3_los_tafel_holm_streifen", "a3_los_tafel_holm_saison", "a3_los_tafel_holm_petru")),
+            "die Festa zeigt Holms Wahl")
     festa = json.dumps([EV[i] for i in ("a3_festa_bauen", "a3_festa_essen", "a3_festa_schmuck")])
     fehlt = [f for l in L.LOSE for o in EV["a3_los_" + l]["optionen"] for f in [x.get("flag", "") for x in folgen(o)]
              if f.startswith("a3_los_%s_" % l) and '"%s"' % f not in festa]
