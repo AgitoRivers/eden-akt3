@@ -550,7 +550,7 @@ AUSLOESER = {
     # Drehbuch "Hold the Line" (Duc 02.11.2026). Im Bericht laeutet die Glocke erst bei Casanovas Satz (index.html ZEILEN_TON), vorher ist es still.
     "tk_glocke": {"ereignisse": ["bl_kirche", "bl_kirche_don"]},
     "tk_hammer": {"ereignisse": ["bl_aufbau_heil", "bl_aufbau_asche"]},
-    "glaeser_anstossen": {"ereignisse": ["bl_bar"]},
+    "glaeser_anstossen": {"ereignisse": ["bl_bar", "bl_bar_runde"]},
     "schritte_kies": {"ereignisse": ["bl_wache_wolff_bericht", "bl_wache_elsa_bericht", "bl_wache_yamamoto_bericht"]},
     "tk_drucker": {"ereignisse": ["bl_tafel"]},
     "tk_kreide": {"ereignisse": ["bl_bericht"]},

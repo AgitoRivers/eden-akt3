@@ -246,18 +246,26 @@ EVENTS = [
        Z("holm", "You'll get your chance. That captain is coming himself this time, with everything he has.", "neutral")],
       [O("“Then let's go and meet him.”", [TAKTIK("echt")])]),
     # Abend nach Welle 4: die letzte Runde in Alvas Bar, dann Ba Tu (Vertrauen ab 3), dann der Auftrag Nachtwache
-    E("bl_bar", "gag1", "wholesome", "The Last Round", PFL(22, "abend"), "alvas_bar",
-      P1("alva", ("maxwell", "+", "is telling a story"), ("chiara", "+", "is giving it marks"), ("minicu", "+", "has coins in his hand"), ("pascal", "?", "sits at the end of the bar")),
-      "Alva's bar smells of smoke and lemons. The windows are boarded, the chairs are back on the floor, and for one hour everybody laughs. "
-      "Behind the bar, on Alva's chalkboard, it still says MINICU 11. Minicu puts a handful of coins on the counter. Pascal sits at the far end and drinks nothing.",
-      [Z("alva", "Somebody promised me a round when this is over. It isn't over, but I'm pouring anyway.", "amusement"),
-       Z("maxwell", "...and then Mr. Maximum hit the robot so hard that it apologised.", "pride"),
-       Z("chiara", "Story: seven. Delivery: four. The robot did not apologise.", "amusement"),
-       Z("alva", "Put your money away, Minicu. You pay when this is over.", "caring"),
-       Z("minicu", "Okay. When it's over.", "joy")],
-      [O("Raises a glass to the room.", [MUT]),
-       O("Sits down next to Pascal at the end of the bar.", [MUT],
-         zeile=Z("pascal", "I'm not thirsty tonight, Duc. Go and laugh with them. Leave it with me.", "neutral"))]),
+    # Die letzte Runde: Hat Duc ihr an Tag 21 die erste Runde versprochen (bl_alva_runde), zahlt er sie jetzt, sonst geht sie aufs Haus
+    # (Drehbuch Finale, Tag 22 Abend; vorher las niemand das Flag, Duc 04.11.2026). Gleiche Szene, zwei Fassungen.
+    *[E(eid, "gag1", "wholesome", "The Last Round", PFL(22, "abend", bed), "alvas_bar",
+        P1("alva", ("maxwell", "+", "is telling a story"), ("chiara", "+", "is giving it marks"), ("minicu", "+", "has coins in his hand"), ("pascal", "?", "sits at the end of the bar")),
+        "Alva's bar smells of smoke and lemons. The windows are boarded, the chairs are back on the floor, and for one hour everybody laughs. "
+        "Behind the bar, on Alva's chalkboard, it still says MINICU 11. Minicu puts a handful of coins on the counter. Pascal sits at the far end and drinks nothing.",
+        [erste,
+         Z("maxwell", "...and then Mr. Maximum hit the robot so hard that it apologised.", "pride"),
+         Z("chiara", "Story: seven. Delivery: four. The robot did not apologise.", "amusement"),
+         Z("alva", "Put your money away, Minicu. You pay when this is over.", "caring"),
+         Z("minicu", "Okay. When it's over.", "joy")],
+        [O(chip1, [MUT] + zahlt),
+         O("Sits down next to Pascal at the end of the bar.", [MUT] + zahlt,
+           zeile=Z("pascal", "I'm not thirsty tonight, Duc. Go and laugh with them. Leave it with me.", "neutral"))])
+      for eid, bed, erste, chip1, zahlt in (
+          ("bl_bar", {"nicht": {"flag": "bl_alva_runde"}}, Z("alva", "This round is on the house. Don't get used to it.", "amusement"),
+           "Raises a glass to the room.", []),
+          ("bl_bar_runde", {"flag": "bl_alva_runde"},
+           Z("alva", "Somebody promised me a round when this is over. It isn't over, but I'm pouring anyway, and he's paying.", "amusement"),
+           "Puts the money for the round on the counter and raises a glass to the room.", [G(-60)]))],
     E("bl_batu", "gag1", "ernst", "Twice", PFL(22, "abend", {"wert": ["vertrauen.batu", ">=", 3]}), "batu_shop", P1("batu"),
       "On the way back, the light is still on in Bà Tư's shop. She puts a bowl of soup in front of you before you can say no.",
       [Z("batu", "Ăn đi, con. The men in white ate here last week. They asked me twice for the north road. Nobody asks twice for a road they don't want.", "neutral")],

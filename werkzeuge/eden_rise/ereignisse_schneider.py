@@ -14,7 +14,7 @@ from kern import stimme  # noqa: E402
 import ereignisse_outfit_quest as _oq  # noqa: E402
 
 TAGE = (11, 21)                  # Akt 2, dazu Akt 3 als zweites Fenster (nie ueber eine Aktgrenze)
-AKT3 = [22, 35]
+AKT3 = [24, 35]             # Akt 3 beginnt nach dem Cliffhanger (E-114, Duc 04.11.2026)
 BILD = "village_piazza"
 S = {"danzel": "danzel_B", "batu": "batu_standard", "mina": "mina_standard", "petru": "Standard", "anghjulu": "anghjulu_standard",
      "elsa": "Standard", "sandru": "sandru_av", "chiara": "Uniform"}

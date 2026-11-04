@@ -83,7 +83,7 @@ def beginnen(z, moddir, art=None):
     z["taktik"]["kirche_max"] = z["taktik"]["kirche"]
     z["status"] = "taktik"
     if (art == "echt" or morgen) and _weiter_aus_stand(z, D, z["taktik"]):
-        pass
+        _don_glocke(z, z["taktik"])
     else:
         kampf.lp_auffuellen(z)
     if art == "echt":
@@ -98,7 +98,7 @@ def beginnen(z, moddir, art=None):
             belagerung.notration(z, D)
 
 
-BEHALTEN = ("kirche", "kirche_max", "yacht", "haeuser", "hilfe", "hilfe_genutzt", "gesehen", "duo_gesehen", "vorbereitung", "rueckspruenge")
+BEHALTEN = ("kirche", "kirche_max", "yacht", "haeuser", "hilfe", "hilfe_genutzt", "gesehen", "duo_gesehen", "vorbereitung", "rueckspruenge", "don_glocke")
 
 
 def _sprecher(wer):
@@ -280,6 +280,15 @@ def _sichern(z, D, t):
             f.append("tk_haus_weg_" + hid)
     if t.get("yacht", 1) <= 0 and "tk_yacht_weg" not in f:
         f.append("tk_yacht_weg")
+
+
+def _don_glocke(z, t):
+    """Auftrag Kirche (Tag 23 morgens): Bleibt Don Anghjulu bei den Kindern (bl_kirche_don), laeutet er nuechtern, und die Kirche haelt
+    einen Schlag mehr aus, einmal fuer den Rest der Belagerung (Drehbuch Finale, Duc 04.11.2026). Das vierte Leben ab Vertrauen 3 bleibt davon getrennt."""
+    if "bl_kirche_don" in z.get("flags", []) and not t.get("don_glocke"):
+        t["kirche"] += 1
+        t["kirche_max"] = t.get("kirche_max", t["kirche"] - 1) + 1
+        t["don_glocke"] = True
 
 
 def _weiter_aus_stand(z, D, t):
@@ -1597,9 +1606,11 @@ def _nacht_folgen(z, D, t):
 
 
 def _rudert(z, D, t):
-    """Das Dorf rudert hinaus (Ruf). Ist Petrus Werkstatt aus Welle 3 heil, reicht ein Punkt weniger: Petru rudert mit dem Ruder seines Grossvaters (Duc 02.11.2026)."""
+    """Das Dorf rudert hinaus (Ruf). Ist Petrus Werkstatt aus Welle 3 heil, reicht ein Punkt weniger: Petru rudert mit dem Ruder seines Grossvaters (Duc 02.11.2026).
+    Ist Petru am Mittag von Tag 22 mit Mina an jede Tuer gegangen (Auftrag Tueren, bl_tueren_petru), reicht noch ein Punkt weniger (Drehbuch Finale, Duc 04.11.2026)."""
     ruder = (t.get("haeuser") or {}).get(D["ruder_haus"], {}).get("status") in ("gerettet", "brennt")
-    return z.get("werte", {}).get("ruf", 0) >= D["ruf_rudert"] - (1 if ruder else 0)
+    tueren = "bl_tueren_petru" in z.get("flags", [])
+    return z.get("werte", {}).get("ruf", 0) >= D["ruf_rudert"] - (1 if ruder else 0) - (1 if tueren else 0)
 
 
 def _nachtwache_stellen(z, D, t):

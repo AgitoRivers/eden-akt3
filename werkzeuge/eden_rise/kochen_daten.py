@@ -206,7 +206,7 @@ ROHSTOFFE = {
     "wool": ("Corsican Wool", "Rough, oily and warm, straight off a mountain sheep. It keeps out everything except the smell of sheep.", 15),
     "leather": ("Boar Leather", "Thick hide with a few old scars in it. The boar had a hard life, and the leather remembers.", 12),
     "coral": ("Red Coral", "A branch of red coral from the rocks off the Punta d'Orsu. A good tailor can get six buttons out of it. A bad one gets four.", 20),
-    # Stahl (Duc 30.10.2026): nur fuer Stall-Stufe 3, kein Ladenartikel, faellt ab Tag 22 (Akt 3) aus gewonnenen Kaempfen gegen Menschen
+    # Stahl (Duc 30.10.2026): nur fuer Stall-Stufe 3, kein Ladenartikel, faellt ab Tag 22 aus gewonnenen Kaempfen gegen Maschinen (bleibt bewusst vor Akt 3: die Roboter der Belagerung an Tag 22 und 23 geben schon Stahl, Duc 04.11.2026)
     "steel": ("Steel", "Nobody on this island makes it. It only comes ashore inside the machines sent to find you, so you take it back out.", 40),
 }
 NONNA_ROHSTOFF_VORRAT = {"timber": 6, "slate": 6, "iron": 2}

@@ -7,7 +7,7 @@ import mochis_daten as _mo
 
 KAMPF = lambda bid: {"kampf": bid}
 WEITER = lambda ziel: {"weiter": ziel}
-TAGE = (11, 35)            # Spuren laufen bis zum Ende, sonst bleibt das Buch fuer viele leer (Duc 01.11.2026, 14 Tiere)
+TAGE = (11, 35)            # Granate und Beweis-Szene laufen ab Tag 24 weiter (akt2-Fenster), sonst fehlt wer das dritte Halsband spaet findet mo_kommission (Duc 04.11.2026). Spuren laufen bis zum Ende, sonst bleibt das Buch fuer viele leer (Duc 01.11.2026, 14 Tiere)
 BIBI = {"bibi": "Mochis"}
 
 
@@ -149,7 +149,7 @@ EVENTS += (
 
 # Bibi hat Rosi um die Granate gebeten (Duc 01.11.2026). Die Granaten selbst gibt Bibi vor jeder Spur (kern/mochis.kampf_vorbereiten).
 EVENTS.append(E("mo_schlafgranate", "gag1", "ernst", "A Grenade for Bibi",
-                WANN((11, 21), ["tag"], bed={"alle": [{"flag": "mochis_offen"}, {"flag_seit": ["rt_ende_tag", 1]}]}, pflicht=True, holt_leute=True),
+                dict(WANN((11, 21), ["tag"], bed={"alle": [{"flag": "mochis_offen"}, {"flag_seit": ["rt_ende_tag", 1]}]}, pflicht=True, holt_leute=True), akt2=[24, 35]),
                 "village_harbour", {"handelnd": "bibi", "betroffen": [{"id": "rosi", "ton": "?", "was": ""}]},
                 "Bibi stops you on the quay and holds out a shoebox. Rosi stands behind her, wiping her hands on a rag. In the box are small grey grenades with blue tape around them.",
                 [Z("bibi", "The collars make them crazy. You've seen it. I can't get near them to cut one off. So I asked Rosi for something that doesn't kill them.", "sadness"),
@@ -162,7 +162,7 @@ EVENTS.append(E("mo_schlafgranate", "gag1", "ernst", "A Grenade for Bibi",
 
 # Drei Halsbaender (kern/mochis._halsband): Bibi bringt sie zu Elsa. Merker mo_ark_beweis fuer die Kommission an Tag 35 (Wiki systeme/tierstation.md).
 EVENTS.append(E("mo_halsbaender", "gag1", "ernst", "A Box of Collars",
-                WANN((11, 21), ["tag"], bed={"alle": [{"flag_seit": ["rt_ende_tag", 1]}, {"flag": "mo_halsband_3"}]}, pflicht=True, holt_leute=True),
+                dict(WANN((11, 21), ["tag"], bed={"alle": [{"flag_seit": ["rt_ende_tag", 1]}, {"flag": "mo_halsband_3"}]}, pflicht=True, holt_leute=True), akt2=[24, 35]),
                 "village_harbour", {"handelnd": "bibi", "betroffen": [{"id": "elsa", "ton": "?", "was": ""}]},
                 "Bibi puts a shoebox on the quay in front of Elsa and takes off the lid. Inside there are steel collars, cut open, each with a lab number. Elsa looks into the box for a long time without touching it.",
                 [Z("bibi", "Every number in there was an animal. I can tell you what each of them weighs. I fed them. I signed for them.", "sadness"),

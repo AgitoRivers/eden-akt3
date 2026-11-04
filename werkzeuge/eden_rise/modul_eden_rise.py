@@ -37,7 +37,7 @@ MODUL.update({
     "untertitel": "The last charter night. Then the days that change everything.",
     "hauptstory": "story.json",
     # Modell B (24.10.2026): "tag" = Mittag, dazu der Nachmittag - mehr freie Zeit in Akt 1
-    "sperre": {"tag": 21, "phase": "nachmittag", "praefix": "bl_"},   # Ab dem Angriff nur noch Szenen der Belagerung
+    "sperre": {"tag": 21, "phase": "nachmittag", "praefix": "bl_", "bis": 23},   # Ab dem Angriff nur noch Szenen der Belagerung
     "zeitraster": {"tage": 23, "phasen": ["fruehstueck", "tag", "nachmittag", "dinner", "abend", "nacht"],
                    # Die Hauptstory legt je Phase fest, was gespielt wird; freie Phasen sind eine Wahl
                    "pflicht": ["fruehstueck", "nacht"], "wahl": ["tag", "nachmittag", "dinner", "abend"]},
@@ -860,7 +860,7 @@ MODUL["tasche"] = {
          "text": "Cut from an old dive suit and a tender cover, stitched twice where it matters. It smells of neoprene and holds four more things than it should.",
          "text_frueh": "Rosi wants to cut it from the old dive gear. Ask her again next week.",
          "satz": "Neoprene, double seams, a pocket for your phone. If it tears, you were carrying a boar."},
-        {"plaetze": 16, "geld": 800, "ab_tag": 22, "label": "Rosi's Expedition Pack",
+        {"plaetze": 16, "geld": 800, "ab_tag": 24, "label": "Rosi's Expedition Pack",
          "text": "A frame pack built around a tender's spare hull rib. Rosi signed the inside flap, in case anyone forgets whose work it is.",
          "text_frueh": "Rosi has the frame on her bench, but she won't finish it before the siege is over.",
          "satz": "Sixteen slots, a frame that won't bend, and my name inside. Bring it back full, Maestro."},

@@ -9480,7 +9480,8 @@
  "sperre": {
   "tag": 21,
   "phase": "nachmittag",
-  "praefix": "bl_"
+  "praefix": "bl_",
+  "bis": 23
  },
  "ziel_kurz": "Megan's hearing",
  "ziel_en": "Megan's hearing on board",
@@ -10867,7 +10868,7 @@
    {
     "plaetze": 16,
     "geld": 800,
-    "ab_tag": 22,
+    "ab_tag": 24,
     "label": "Rosi's Expedition Pack",
     "text": "A frame pack built around a tender's spare hull rib. Rosi signed the inside flap, in case anyone forgets whose work it is.",
     "text_frueh": "Rosi has the frame on her bench, but she won't finish it before the siege is over.",

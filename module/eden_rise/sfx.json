@@ -3276,7 +3276,8 @@
   },
   "glaeser_anstossen": {
    "ereignisse": [
-    "bl_bar"
+    "bl_bar",
+    "bl_bar_runde"
    ]
   },
   "schritte_kies": {

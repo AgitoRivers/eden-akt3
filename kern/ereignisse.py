@@ -106,6 +106,8 @@ def gesperrt_durch_story(z, modul, phase):
     s = modul.get("sperre")
     if not s:
         return None
+    if s.get("bis") and z["tag"] > s["bis"]:          # Akt 3 ab Tag 24: nach dem Cliffhanger laufen wieder alle Events (E-114, Duc 04.11.2026)
+        return None
     ph = modul["zeitraster"]["phasen"]
     return s["praefix"] if z["tag"] > s["tag"] or (z["tag"] == s["tag"] and ph.index(phase) >= ph.index(s["phase"])) else None
 

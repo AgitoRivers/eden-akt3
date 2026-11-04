@@ -77742,7 +77742,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -77853,7 +77853,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -77964,7 +77964,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -78075,7 +78075,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -78186,7 +78186,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -78296,7 +78296,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -78407,7 +78407,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -78518,7 +78518,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -78634,7 +78634,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -90871,7 +90871,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -91041,7 +91041,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -91133,7 +91133,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -91487,7 +91487,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -91642,7 +91642,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -91793,7 +91793,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -91944,7 +91944,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -92454,7 +92454,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -92521,7 +92521,7 @@
      ]
     },
     "akt2": [
-     22,
+     24,
      35
     ]
    },
@@ -94362,7 +94362,12 @@
     "pflicht": true,
     "phasen": [
      "abend"
-    ]
+    ],
+    "bedingung": {
+     "nicht": {
+      "flag": "bl_alva_runde"
+     }
+    }
    },
    "bild": "alvas_bar",
    "personen": {
@@ -94395,7 +94400,7 @@
    "zeilen": [
     {
      "wer": "alva",
-     "text": "Somebody promised me a round when this is over. It isn't over, but I'm pouring anyway.",
+     "text": "This round is on the house. Don't get used to it.",
      "gefuehl": "amusement"
     },
     {
@@ -94435,6 +94440,112 @@
       {
        "wert": "moral",
        "delta": 1
+      }
+     ],
+     "zeile": {
+      "wer": "pascal",
+      "text": "I'm not thirsty tonight, Duc. Go and laugh with them. Leave it with me.",
+      "gefuehl": "neutral"
+     }
+    }
+   ]
+  },
+  {
+   "id": "bl_bar_runde",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "The Last Round",
+   "wann": {
+    "tage": [
+     22,
+     22
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "abend"
+    ],
+    "bedingung": {
+     "flag": "bl_alva_runde"
+    }
+   },
+   "bild": "alvas_bar",
+   "personen": {
+    "handelnd": "alva",
+    "betroffen": [
+     {
+      "id": "maxwell",
+      "ton": "+",
+      "was": "is telling a story"
+     },
+     {
+      "id": "chiara",
+      "ton": "+",
+      "was": "is giving it marks"
+     },
+     {
+      "id": "minicu",
+      "ton": "+",
+      "was": "has coins in his hand"
+     },
+     {
+      "id": "pascal",
+      "ton": "?",
+      "was": "sits at the end of the bar"
+     }
+    ]
+   },
+   "sets": {},
+   "lage": "Alva's bar smells of smoke and lemons. The windows are boarded, the chairs are back on the floor, and for one hour everybody laughs. Behind the bar, on Alva's chalkboard, it still says MINICU 11. Minicu puts a handful of coins on the counter. Pascal sits at the far end and drinks nothing.",
+   "zeilen": [
+    {
+     "wer": "alva",
+     "text": "Somebody promised me a round when this is over. It isn't over, but I'm pouring anyway, and he's paying.",
+     "gefuehl": "amusement"
+    },
+    {
+     "wer": "maxwell",
+     "text": "...and then Mr. Maximum hit the robot so hard that it apologised.",
+     "gefuehl": "pride"
+    },
+    {
+     "wer": "chiara",
+     "text": "Story: seven. Delivery: four. The robot did not apologise.",
+     "gefuehl": "amusement"
+    },
+    {
+     "wer": "alva",
+     "text": "Put your money away, Minicu. You pay when this is over.",
+     "gefuehl": "caring"
+    },
+    {
+     "wer": "minicu",
+     "text": "Okay. When it's over.",
+     "gefuehl": "joy"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Puts the money for the round on the counter and raises a glass to the room.",
+     "folgen": [
+      {
+       "wert": "moral",
+       "delta": 1
+      },
+      {
+       "geld": -60
+      }
+     ]
+    },
+    {
+     "text": "Sits down next to Pascal at the end of the bar.",
+     "folgen": [
+      {
+       "wert": "moral",
+       "delta": 1
+      },
+      {
+       "geld": -60
       }
      ],
      "zeile": {
@@ -101615,7 +101726,11 @@
        ]
       }
      ]
-    }
+    },
+    "akt2": [
+     24,
+     35
+    ]
    },
    "bild": "village_harbour",
    "personen": {
@@ -101713,7 +101828,11 @@
        "flag": "mo_halsband_3"
       }
      ]
-    }
+    },
+    "akt2": [
+     24,
+     35
+    ]
    },
    "bild": "village_harbour",
    "personen": {
