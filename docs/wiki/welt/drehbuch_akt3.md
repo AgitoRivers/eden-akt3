@@ -1,7 +1,7 @@
-# Drehbuch Akt 3: „Who Saw It?“ · Tag 24 bis Tag 35 · Version 3.3
+# Drehbuch Akt 3: „Who Saw It?“ · Tag 24 bis Tag 35 · Version 3.4
 
 > Stand 04.11.2026 · Besitz: Brain Trust (Cloud-Sitzung, Branch `akt3-cloud`) · **Entwurf zur Abnahme durch Duc, nichts davon ist gebaut.**
-> Version 3.2 baut auf v2.1 (`41ae2ac`) auf, die Prüfung von v3 ist eingearbeitet (Abschnitt 13b), dazu Ducs Entscheide vom Abend des 04.11. (E-124: Belagerung ohne Prozent, Freundschaften statt Paare; E-125: Baustoffe je Haus, Charlys Geld, zwei weitere Freundschaften, Sandrus Schiene erst in Akt 3) und setzt **Ducs Entscheide vom 04.11.2026** um (E-122, Abschnitt 1). Eingearbeitet: Gegenrede (`docs/uebergabe/drehbuch_gegenrede.md`, Branch `drehbuch-gegenrede`), Wiki gegen Code (`docs/berichte/wiki_vs_code.md`, Branch `wiki-vs-code`), Folgen der Belagerung (`docs/wiki/welt/akt3_folgen_belagerung.md`, Branch `folgen-belagerung`), Text-Audit (`docs/uebergabe/audit_text.md`, Branch `audit-text`), die Audits der anderen Sitzung (`docs/berichte/audits_zusammenfassung.md`, Branch `berichte-audits`) und die unabhängigen Prüfungen von v1, v2 und v3 (Abschnitt 13).
+> Version 3.4 baut auf v2.1 (`41ae2ac`) auf, die Prüfung von v3 ist eingearbeitet (Abschnitt 13b), dazu Ducs Entscheide vom Abend des 04.11. (E-124: Belagerung ohne Prozent, Freundschaften statt Paare; E-125: Baustoffe je Haus, Charlys Geld, zwei weitere Freundschaften, Sandrus Schiene erst in Akt 3; E-126: Bones statt Kevin, Charly und Danzel statt Charly und Rosi, Festa-Schalter) und setzt **Ducs Entscheide vom 04.11.2026** um (E-122, Abschnitt 1). Eingearbeitet: Gegenrede (`docs/uebergabe/drehbuch_gegenrede.md`, Branch `drehbuch-gegenrede`), Wiki gegen Code (`docs/berichte/wiki_vs_code.md`, Branch `wiki-vs-code`), Folgen der Belagerung (`docs/wiki/welt/akt3_folgen_belagerung.md`, Branch `folgen-belagerung`), Text-Audit (`docs/uebergabe/audit_text.md`, Branch `audit-text`), die Audits der anderen Sitzung (`docs/berichte/audits_zusammenfassung.md`, Branch `berichte-audits`) und die unabhängigen Prüfungen von v1, v2 und v3 (Abschnitt 13).
 > **Code-Stand:** Akt 3 ab Tag 24, die drei Belagerungs-Aufträge und die Fenster der Auffangstation sind **zweimal** gebaut, auf `fix-akt2` (andere Sitzung, vollständiger, dazu die Taschengröße im Menü) und auf `fix-akt2-folgen` (diese Sitzung). Nur einer darf nach `master`. Empfehlung: `fix-akt2`. Dieses Drehbuch rechnet mit dessen Verhalten: Stahl aus Maschinen erst ab Tag 24, Dons Wahl gibt der Kirche ein Leben in Welle 6. **Falle:** Auf `fix-akt2` steht `HOLM_TAG` noch auf 22 (nur `fix-akt2-folgen` hat 24), das wird beim Merge nachgezogen (F-30).
 > Spieltext Englisch, einfach, vertonbar, Erzähltext im Präsens. Turbo-Tags siehe Abschnitt 10.
 
@@ -383,7 +383,7 @@ Mit Gemelli, ab Tag 24 (`HOLM_TAG = 24` steht auf `fix-akt2-folgen`, auf `fix-ak
 
 | Beat | Zeilen |
 |---|---|
-| Inhalt | Maxwell mit einer Kühltasche: [clear throat] *“Number One. Mr. Maximum is going to fly. In an aeroplane. Gogo needs this medicine in Durban, and the post is too slow.”* · mit `bl_verband_maxwell`: *“I kept the bandage from the siege, brother. For luck.”* · mit 7.6: *“Bibi says a plane is a bird with feelings. Mr. Maximum will feed it.”* |
+| Inhalt | Maxwell mit einer Kühltasche: [clear throat] *“Number One. Mr. Maximum is going to fly. In an aeroplane. Gogo needs this medicine in Durban, and the post is too slow.”* · mit `bl_verband_maxwell`: *“I kept the bandage from the siege, brother. For luck.”* · mit 7.6: *“Bibi says a plane has no bad temper. Mr. Maximum fed Bones. Mr. Maximum can sit in a plane.”* |
 | Handlung | *“What does a big man do when he's scared of the sky?”* · Chips: “He takes the window seat and looks anyway.” · Puts a hand on the cool box. “He carries it. Like you always do.” · “He holds Jana's hand. She's coming to the airport.” |
 | Reaktion | dritter: Jana: *“Coach, I'll hold your hand the whole way to Bastia. And I'm not sorry.”* |
 | Übergang | Maxwell fehlt Tag 30 bis 32, zurück am Abend von Tag 32: *“Mr. Maximum has flown. We will never speak of it.”* |
@@ -540,7 +540,7 @@ Nur mit `rt_charly_bleibt` und ohne `rt_charly_weg`. Kommt, sobald eine Baustell
 | Inhalt | Minicu und Duc, kurz. | mit `bl_minicu_duc_zuerst`: Minicu: *“You came first, when I was on the ground. Before Pascal. I heard you.”* · Minicu: *“Is Pascal coming?”* · Chips: “No, Minicu.” · Puts a hand on his shoulder and doesn't answer. · “Not tonight.” |
 | Inhalt | mit `a3_siri_festa` (Siri hat gewartet): | Siri: *“Now I can post it. He's standing.”* |
 | Inhalt | mit `bl_kirche_casanova`: | Jana: *“Madame, sorry, the children want the end of the long story. The one from the church.”* · Casanova: *“Later. I promise.”* |
-| Inhalt | Festa-Schalter (F-22, Vorschlag): `br_ehrenbuerger` (nicht Ende 1), `ab_casanova_flamenco`, `gv_rotes_kleid` in dieser Reihenfolge | |
+| Inhalt | Festa-Schalter (F-22, entschieden E-126: Fenster 35, Phase Abend, Ort `village_piazza`): `br_ehrenbuerger` (nicht Ende 1), `ab_casanova_flamenco`, `gv_rotes_kleid` in dieser Reihenfolge | |
 | Inhalt | Die Freundschaften aus Abschnitt 7 stehen im Bild. Holm sitzt neben ihrer Mutter, Petru bringt zwei Gläser. Lola trägt Bà Tưs Topf. Die übrigen je nach ihrem Ereignis | Holm: *“Mamma, this is Petru. He's the one who taught me to sit still.”* · Petru: *“Hm.”* |
 | Mitternacht | der private Moment an der Mole (5.21), dann das Ende (Abschnitt 8) | z. B. Chiara: *“Ten. That's a ten, First Officer. Don't let it go to your head. ...Let it go to your head a little.”* |
 | Epilog (Nacht) | Minas Einschreiben, Pascals Tür, niemand macht auf (Kanon) | Mina: *“Sign here.”* · Erzählerin: *Nobody is there. It's the first letter she can't deliver.* |
@@ -567,7 +567,7 @@ Je Frau eine Schluss-Szene zwischen Tag 24 und 33 (vor der Villa), Bedingung: St
 
 ## 7. Sechs Freundschaften und eine Liebe: Die Yacht wächst mit dem Dorf zusammen (Entscheid h, E-124, E-125)
 
-**Der Bogen:** Akt 1 Duldung, Akt 2 Zusammenarbeit, Akt 3 Gemeinschaft. Je ein Crew-Mitglied und ein Mensch aus dem Dorf verbringen Zeit miteinander, und eine tiefe Freundschaft wächst. Keine Romanze. **Holm und Petru sind die einzigen, die am Ende zusammenkommen** (Kanon: späte Liebe, Duc E-125). Dazu zwei Freundschaften innerhalb der Gäste: Bibi und Maxwell, Charly und Rosi (E-125). Pool-Regel: höchstens ein Ereignis je Tag, Tag 26 bis 33, also sieben Ereignisse auf acht Tage.
+**Der Bogen:** Akt 1 Duldung, Akt 2 Zusammenarbeit, Akt 3 Gemeinschaft. Je ein Crew-Mitglied und ein Mensch aus dem Dorf verbringen Zeit miteinander, und eine tiefe Freundschaft wächst. Keine Romanze. **Holm und Petru sind die einzigen, die am Ende zusammenkommen** (Kanon: späte Liebe, Duc E-125). Dazu zwei Freundschaften innerhalb der Gäste: Bibi und Maxwell, Charly und Danzel (E-125, E-126). Pool-Regel: höchstens ein Ereignis je Tag, Tag 26 bis 33, also sieben Ereignisse auf acht Tage.
 
 **Regeln:** wholesome, kein Drama, keine Intim-Szene. Jedes Paar hat ein Ereignis (2 bis 3 Beats) im Pool ab Tag 26, höchstens eins je Tag, Vorrang 65 % wie bei Flirt-Events, spätestens Tag 33 als Nachzügler. Duc ist Zeuge oder hilft und hat **eine Wahl mit Wirkung im Festbild**. **„Duc hat die Romanze“** heißt: Leiter-Stufe 3 erreicht oder Status „zusammen“ oder „offen“ (Begehren allein reicht nicht, Lea und Sophia starten bei 2). Gilt Duc für beide Frauen eines Paares (Chiara und Alva), spielt die Fassung der Frau mit der höheren Leiter-Stufe. Dann spielt die Fassung, in der die andere Figur sie herzlich neckt oder unterstützt. Woher sie davon weiß: nur aus Tratsch, den das Spiel zeigt (Mina „just knows“, Lola erzählt es), wie E-060 es erlaubt. Die volle Fassung lässt die Freundschaft zwischen den beiden wachsen. Bei Chiara und Alva (beide romanzierbar) spielt die volle Fassung nur, wenn Duc mit keiner von beiden zusammen ist.
 
@@ -581,7 +581,7 @@ Je Frau eine Schluss-Szene zwischen Tag 24 und 33 (vor der Villa), Bedingung: St
 | **Mina und Lea** | beide jung (24, 23), beide mit einem Brief, der vom Gehen handelt (Dumè in Montréal, die Azoren) · Mina weiß alles, Lea stellt Fragen, die sich keiner traut | Lea für Duc romanzierbar · Mina „keine Pflicht-Romanze“ (gilt für Duc) | **Freundschaft:** zwei, die beide nicht wissen, ob sie bleiben. Lea schläft bei Mina (wenn die Yacht beschädigt ist) |
 | **Chiara und Sophia (kein Paar, aber Kanon)** | beide Figurenseiten: ein unausgesprochener Kuss nach Saint-Tropez, Sophia lehnte Megans Angebot wegen Chiara ab | beide werden neu verpaart | Je eine Zeile, die es anerkennt, als Vertrauen unter Freundinnen: Chiara in 7.2 erzählt Alva davon, zum ersten Mal überhaupt · Sophia in 7.3 schreibt die Zeile an Isabelle in dasselbe Notizbuch, in dem noch eine Seite für Chiara steht (Bild, kein Text) |
 | **Bibi und Maxwell** | Maxwell hat panische Angst vor allem, was fliegt, und fliegt an Tag 30 Gogos Medizin selbst (`maxwell.md`) · Bibi ist nie genervt, energisch, mit Tieren (`bibi.md`) | Bibi für Duc romanzierbar · Szene muss vor Tag 30 liegen | **Freundschaft:** Bibi übt mit Maxwell seine Angst, mit Kevin. Bedingung `rt_bibi_bleibt`, Station offen |
-| **Charly und Rosi** | Charly arbeitet nach der Versöhnung bei Rosi und hackt mit ihr Alons Satelliten (`charly.md`) · beide Technik, Charly bewertet alles von 1 bis 10, Rosi gibt nie eine Niederlage zu | Rosi für Duc romanzierbar · Charlys erste 10 gehört Danzel (Kanon) · Kanon „findet in Akt 3 zu Danzel“ gegen „nur Holm und Petru kommen zusammen“ (F-32) | **Freundschaft:** zwei Technikerinnen. Bedingung `rt_charly_bleibt`, nicht `gefeuert_rosi`. Charly gibt Rosi keine 10, Rosi nennt es „unentschieden“ |
+| **Charly und Danzel** | beste Freunde seit dem Mitarbeiter-Event, Danzel „findet in Akt 3 zu Charly“, ihre erste 10 gehört ihm, sie baut ihm die Kasse (`charly.md`, `danzel.md`) | „findet zu ihm“ klingt nach Romanze, Duc: nur Holm und Petru kommen zusammen | **Freundschaft (E-126):** zwei seltsame Menschen, die sich dafür mögen. Die 10 bekommt Danzel für einen Pulli |
 | **Holm und Petru** | Kanon: späte Liebe in Akt 3 (`holm.md`, `petru.md`), Holms Mutter kommt, Ingrid ruft an | keine | volle Fassung immer, beide nicht romanzierbar |
 
 ### 7.1 Lola und Bà Tư · „You, Now“ (wholesome, Familienliebe)
@@ -639,29 +639,32 @@ Je Frau eine Schluss-Szene zwischen Tag 24 und 33 (vor der Villa), Bedingung: St
 | Reaktion | still weiter: Erzählerin: *When you look back, the metre between them is gone.* · stören: *“Go away, Frankfurt.”* · Petru: *“Go away.”* · hinsetzen: Petru reicht Duc wortlos ein Bier, Holm rückt einen halben Meter näher an Petru. |
 | Wirkung | Holms Mutter auf der Festa, Petru bringt zwei Gläser (5.27). Mit „still weiter“ sitzen sie im Festbild auf derselben Bank |
 
-### 7.6 Bibi und Maxwell · „A Small Plane with Feelings“ (wholesome, Freundschaft, Tag 26 bis 29)
+### 7.6 Bibi und Maxwell · „Six Kilos of Bad Temper“ (wholesome, Freundschaft, Tag 26 bis 29)
+
+Bedingung: `rt_bibi_bleibt`, Station offen und **Bones gerettet** (Bartgeier, `geier` in `mochis.tiere`). Ohne Bones kommt das Ereignis nicht, und Maxwell fliegt an Tag 30 mit seiner Angst (5.14 ohne Zusatz).
 
 | Beat | Volle Fassung | Fassung mit Duc und Bibi |
 |---|---|---|
-| Ansage | Tierstation am Morgen. Maxwell trägt zwei Futtereimer, so weit weg vom Himmel wie möglich. Kevin landet auf dem Zaun. | gleich |
-| Inhalt | Maxwell: [gasp] *“Eish! Bibi. Your bird is looking at Mr. Maximum.”* · Bibi: [laugh] *“He's not my bird. Nobody owns Kevin. And he's looking at the bucket, chéri.”* | gleich |
-| Inhalt | Bibi weiß von seinem Flug (Mina hat es erzählt). Bibi: *“In four days you sit in a plane for eleven hours. And you're scared of a gull?”* · Maxwell, leise (Kanon: leise nur, wenn es ernst ist): *“Mr. Maximum is scared of everything that flies, brother. Sister. Everything.”* | Bibi: *“Duc says you're the bravest man on the boat. Mina told me he said it. So. Prove it.”* |
-| Wende | Bibi legt ein Stück Brot auf Maxwells offene Hand. Kevin kommt, nimmt es und fliegt weg. Bibi: *“A bird is just a small plane with feelings. You just fed a plane.”* · Maxwell: *“...Mr. Maximum fed a plane.”* | gleich |
-| Handlung (Duc) | Maxwell: *“Number One. Is it the same, a plane and a bird? Tell me it is the same.”* · Chips: “It's the same. Only the plane has better food.” · “No. The plane is safer. Kevin is not.” · Puts a piece of bread in his own hand, next to Maxwell's. | Bibi: *“Is he ready, Duc? Yes or no?”* · Chips: “Yes. He fed a plane.” · “Nearly. One more bird.” |
-| Wirkung | In 5.14 (Tag 30) sagt Maxwell: *“Bibi says a plane is a bird with feelings. Mr. Maximum will feed it.”* Im Festbild sitzt Kevin auf Maxwells Schulter, und er hält still | gleich |
+| Ansage | Tierstation am Morgen. Maxwell trägt zwei Eimer mit Knochen, so weit weg vom Himmel wie möglich. Über ihm kreist Bones, drei Meter Flügel. | gleich |
+| Inhalt | Maxwell: [gasp] *“Eish! Bibi. The big bird is looking at Mr. Maximum.”* · Bibi: [laugh] *“That's Bones. Six kilos. Three metres of wing, and six kilos! He's mostly air and bad temper. He's looking at the bucket, chéri.”* | gleich |
+| Inhalt | Bibi weiß von seinem Flug (Mina hat es erzählt). Bibi: *“In four days you sit in a plane for eleven hours. And you're scared of a bird who eats only bones?”* · Maxwell, leise (Kanon: leise nur, wenn es ernst ist): *“Mr. Maximum is scared of everything that flies, sister. Everything.”* | Bibi: *“Duc says you're the bravest man on the boat. Mina told me he said it. So. Prove it.”* |
+| Wende | Bibi legt einen Knochen auf Maxwells offene Hand. Bones landet, nimmt ihn und fliegt wieder hoch. Bibi: *“A plane is just a big bird with no bad temper. You just fed the worst bird in Corsica.”* · Maxwell: *“...Mr. Maximum fed the worst bird in Corsica.”* | gleich |
+| Handlung (Duc) | Maxwell: *“Number One. Is it the same, a plane and a bird? Tell me it is the same.”* · Chips: “It's the same. Only the plane is nicer.” · “No. The plane is safer. Bones is not.” · Puts a bone in his own hand, next to Maxwell's. | Bibi: *“Is he ready, Duc? Yes or no?”* · Chips: “Yes. He fed Bones.” · “Nearly. One more bone.” |
+| Wirkung | In 5.14 (Tag 30) sagt Maxwell: *“Bibi says a plane has no bad temper. Mr. Maximum fed Bones. Mr. Maximum can sit in a plane.”* Im Festbild landet Bones auf dem Dach hinter Maxwell, und Maxwell winkt ihm | gleich |
 
-### 7.7 Charly und Rosi · „Undecided“ (wholesome, Freundschaft)
+### 7.7 Charly und Danzel · „Ten“ (wholesome, beide ein bisschen seltsam)
 
-| Beat | Volle Fassung | Fassung mit Duc und Rosi |
-|---|---|---|
-| Ansage | Maschinenraum der Yacht (schwer beschädigt) oder Rosis Werkbank am Kai, spät. Zwei Laptops, ein Halsband von Alon auf dem Tisch. | gleich |
-| Inhalt | Rosi: *“You open it. I already know how. I want to see if you're faster.”* · Charly, monoton: *“Four minutes. You took six. Seven out of ten for you.”* · Rosi: *“That's a draw. I was talking.”* | Rosi: *“Mina says the Officer brings me coffee now. He doesn't. It's tea. Write that down.”* · Charly: *“Noted. Six out of ten for tea.”* |
-| Inhalt | Charly erzählt, ohne den Ton zu ändern, dass ihre Mutter heute angerufen hat. *“She sells to him. Alon. Everything in this collar could be from her catalogue.”* · Rosi legt den Schraubenschlüssel hin, was sie nie tut. | gleich |
-| Wende | Rosi: *“My father's press was older than him. Alon bought it and switched it off. So your mother and my father are on the same list now. His list.”* · Charly: *“...That's the first thing anyone said to me about her that wasn't a question.”* | gleich |
-| Handlung (Duc) | Rosi: *“Officer. She's better than me with code. Do I say it, or do I keep my pride?”* · Chips: “Say it. Your pride will survive.” · “Call it a draw. She'll know.” · Hands Charly the next collar without a word. | Rosi: *“Officer, is it okay if she works here? At my bench? Next to... my things?”* · Chips: “It's your bench. You decide.” · “Yes. You need someone who's faster.” |
-| Wirkung | Im Festbild hängen die Lichterketten (Los *The Lights*) gerade, Charly hat sie nachgemessen. Chip „Say it“: Rosi sagt auf der Festa laut *“Draw.”*, und Charly antwortet *“Eight.”* | gleich |
+Bedingung: `rt_charly_bleibt`, nicht `rt_charly_weg`. Kanon: Danzel eröffnet „Le Théâtre Rouge“ an der Piazza, Charly baut ihm die Kasse, ihre erste 10 gibt sie in Akt 3 Danzel für etwas, das er genäht hat (`charly.md`, `danzel.md`). Keine Romanze (E-125): zwei Menschen, die beide etwas seltsam sind und sich genau dafür mögen. Weder Charly noch Danzel ist für Duc romanzierbar, darum gibt es nur die volle Fassung.
 
-**Hinweis:** Charlys erste 10 bleibt bei Danzel (Kanon), ob als Liebe oder Freundschaft entscheidet F-32.
+| Beat | Zeilen |
+|---|---|
+| Ansage | Le Théâtre Rouge, spät. Stoffe überall, an der Theke eine halbfertige Kasse mit offenen Kabeln. Charly sitzt auf dem Boden mit dem Laptop. Danzel näht. |
+| Inhalt | Danzel, als Duc hereinkommt, in seiner Fluchtformel: *“Halt! Nobody touches the fabric, or nobody... nobody touches it very much.”* · Charly, ohne aufzusehen: *“Four out of ten. You got shorter again.”* · Danzel: *“It's getting smaller because I mean it less!”* |
+| Inhalt | Charly: *“The cash register works. It says 'Merci' in a robot voice. I couldn't make it stop.”* · Danzel: *“Leave it. It's the only thing in this shop that's polite to me.”* |
+| Wende | Danzel steht auf, wird ruhig und genau (Kanon: nur bei Stoff). Er legt Charly einen grauen Kapuzenpulli hin, mit einer Innentasche genau für ihren Laptop und dem Wort RED innen am Kragen, klein. *“Hold still. Your left sleeve has been two centimetres short for three years. I noticed on the first day.”* · Charly zieht ihn an. Lange Pause. *“...Ten.”* · Danzel, die Stimme kippt nach oben: [gasp] *“Ten? TEN? Nobody has ever... Duc, did you hear that?”* |
+| Handlung (Duc) | Charly: *“Duc. I've never given a ten. Was that a mistake? Be honest.”* · Chips: “No. That was the best ten I've ever heard.” · “Give him a nine next time, so he stays humble.” · Looks at Danzel, who is crying into a curtain, and says nothing. |
+| Reaktion | erste: Charly: *“Okay. Then it stays a ten. Don't tell Bibi.”* · zweite: Danzel: *“Never! I will never be humble!”* · dritte: Charly reicht Danzel ein Stück Stoff als Taschentuch. *“Seven out of ten for crying.”* |
+| Wirkung | Im Festbild trägt Charly den Pulli über ihrem Festa-Kleid, die Kasse am Stand sagt „Merci“. Danzel schwärmt weiter schüchtern für Rosi und Lola (Kanon), das bleibt unberührt |
 
 ## 8. Die Enden lesen den Akt
 
@@ -710,7 +713,8 @@ Sichtbar im Schlussbild: Lose (was steht, wie es aussieht), wer im Netz fehlt (M
 | Rudern | 5.1, 5.25 | neues Flag `bl_dorf_rudert` (F-21) |
 | `tk_yacht_weg` | 4.4 | schwer beschädigt, Reparatur |
 | `danzel_festa_auftrag`, `chiara_festa_kleid` (Wirkpunkt-Audit) | 4.3 | Los *The Dresses* |
-| `rt_charly_bleibt`, `rt_charly_weg` | 5.28, 7.7 | Charlys Geld, Freundschaft mit Rosi |
+| `rt_charly_bleibt`, `rt_charly_weg` | 5.28, 7.7 | Charlys Geld, Freundschaft mit Danzel |
+| Bones gerettet (`geier` in `mochis.tiere`) | 7.6, 5.14 | Maxwells Übung vor dem Flug |
 | `rt_bibi_bleibt` | 5.12, 7.6 | Idee, Freundschaft mit Maxwell |
 | `belagerung_gewonnen` | 5.1, 8 | Akt 3 startet nur danach normal; ohne Sieg ist das Dorf stiller (Baustellen bleiben, Fassung beim Bau) |
 | `rt_ausgang_alle` (wie `rt_ende_alle`) | 5.7, 5.25 | Red-Trio-Aussagen |
