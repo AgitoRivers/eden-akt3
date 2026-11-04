@@ -1,34 +1,35 @@
-# Drehbuch Akt 3: „Who Saw It?“ · Tag 24 bis Tag 35 · Version 2
+# Drehbuch Akt 3: „Who Saw It?“ · Tag 24 bis Tag 35 · Version 2.1
 
 > Stand 04.11.2026 · Besitz: Brain Trust (Cloud-Sitzung, Branch `akt3-cloud`) · **Entwurf zur Abnahme durch Duc, nichts davon ist gebaut.**
-> Version 2 ersetzt Version 1 (Commit `506dce2`). Eingearbeitet sind die Gegenrede (`docs/uebergabe/drehbuch_gegenrede.md`, Branch `drehbuch-gegenrede`),
-> der Abgleich Wiki gegen Code (`docs/berichte/wiki_vs_code.md`, Branch `wiki-vs-code`), die Folgen der Belagerung (`docs/wiki/welt/akt3_folgen_belagerung.md`,
-> Branch `folgen-belagerung`) und das Text-Audit (`docs/uebergabe/audit_text.md`, Branch `audit-text`). Abschnitt 12 zeigt je Befund, was daraus wurde.
-> Quellen im Kanon: [`akt3.md`](akt3.md), [`enden.md`](enden.md), [`dorf_figuren.md`](dorf_figuren.md), [`drehbuch_finale.md`](drehbuch_finale.md), [`belagerung.md`](belagerung.md),
-> [`ortskapitel_tauchgang.md`](ortskapitel_tauchgang.md), die Figurenseiten, `kern/aufbau.py`, `ereignisse_mochis.py` (`mo_kommission`, `mo_frei_start`).
-> Was neu ist und Kanon berührt, steht als E-120 „offen“ im Register. Spieltext Englisch, einfach, vertonbar. Turbo-Tags stehen hier in eckigen Klammern vor der Stelle, im Spiel nie sichtbar.
+> Version 2 ersetzt Version 1 (`506dce2`). Version 2.1 arbeitet zusätzlich die unabhängige Prüfung von v2 ein (Abschnitt 12b).
+> Eingearbeitet: Gegenrede (`docs/uebergabe/drehbuch_gegenrede.md`, Branch `drehbuch-gegenrede`), Wiki gegen Code (`docs/berichte/wiki_vs_code.md`, Branch `wiki-vs-code`),
+> Folgen der Belagerung (`docs/wiki/welt/akt3_folgen_belagerung.md`, Branch `folgen-belagerung`), Text-Audit (`docs/uebergabe/audit_text.md`, Branch `audit-text`).
+> Code-Stand: Akt 3 ab Tag 24 und die drei Belagerungs-Aufträge sind auf Branch `fix-akt2-folgen` gebaut (E-121), **noch nicht auf `akt3-cloud` und nicht auf `master`**.
+> Was Kanon berührt, steht als E-120 „offen“ im Register. Spieltext Englisch, einfach, vertonbar, Erzähltext im Präsens. Turbo-Tags: siehe Abschnitt 9.
 
-## 0. Feste Vorgaben dieser Fassung
+## 0. Feste Vorgaben
 
-| Vorgabe | Wie v2 sie einhält |
+| Vorgabe | Wie diese Fassung sie einhält |
 |---|---|
-| Akt 3 = Tag 24 bis 35 (E-114) | Kalender beginnt an Tag 24 nach dem Cliffhanger. Im Code gebaut auf Branch `fix-akt2-folgen` (E-121): Sperre der Belagerung endet nach Tag 23, Schneider, Lesung, Holms Revanche und Rosis Expedition Pack ab Tag 24 |
-| Duc trägt **immer** die Sonnenbrille (`figuren/duc.md:47`) | Keine Zeile und kein Chip nimmt sie ab. Nähe zeigt Duc über Haltung: er setzt sich, stellt etwas ab, bleibt stehen |
-| Kommission passt zu `mo_kommission` | Tag 35, Phase „tag“, am Kai, Klapptisch, zwei Männer aus Ajaccio und ein Schreiber, Elsa legt vor. `mo_kommission` ist ein Beat darin (5.27) |
-| Woche 4 atmet | Woche 4: 8 Pflicht-Events, höchstens 2 je Tag, Tag 27 ganz frei. Woche 5: 16 Pflicht-Events |
-| Festa-Aufträge sind Spiel | Jeder Auftrag ist eine kurze Szene mit einer Entscheidung und kleinen Mengen (4.3) |
-| Romanzen fertig spielen | Eigener Abschnitt 6 mit einer Schluss-Szene je Frau |
-| Ungelesene `bl_`-Flags | Jedes bekommt einen Wirkpunkt (Abschnitt 8) |
-| Offene Entscheidungen | Als Weiche mit zwei Zweigen (Abschnitt 1), nie als Tatsache |
+| Akt 3 = Tag 24 bis 35 (E-114) | Kalender ab Tag 24. Im Code: `sperre.bis = 23`, Schneider, Lesung, Holms Revanche (`HOLM_TAG = 24`), Expedition Pack ab Tag 24 (Branch `fix-akt2-folgen`) |
+| Duc trägt **immer** die Sonnenbrille | Keine Zeile, kein Chip nimmt sie ab. Nähe zeigt er über Haltung: setzt sich, stellt etwas ab, bleibt stehen |
+| Kommission passt zu `mo_kommission` | Tag 35, Phase „tag“, Kai, Klapptisch, zwei Männer aus Ajaccio, ein Schreiber, Elsa legt vor. `mo_kommission` eröffnet die Kette, wenn es läuft (5.26) |
+| Woche 4 atmet | Woche 4: **6** Pflicht-Events, Tag 27 ganz frei, je Tag im Schnitt 3,4 freie Phasen. Woche 5: **16**, je Tag 2,8 |
+| Festa-Aufträge sind Spiel | acht kurze Szenen mit einer Entscheidung und wenig Material (4.3) |
+| Romanzen fertig spielen | Abschnitt 6, je Frau eine Schluss-Szene mit Beat-Tabelle |
+| Ungelesene `bl_`-Flags | jedes mit Wirkpunkt in seiner Szene (Abschnitt 8 ist das Register dazu) |
+| Romanzen bleiben privat (E-060) | Festa-Begleitung ist ein privater Moment an der Mole, nicht vor dem Dorf (5.21) |
+| Offene Entscheidungen | Weichen mit allen Zweigen (Abschnitt 1) |
 
-## 1. Die Weichen (Duc entscheidet, das Drehbuch trägt beide Zweige)
+## 1. Die Weichen (Duc entscheidet, das Drehbuch trägt alle Zweige)
 
-| Weiche | Zweig A | Zweig B | Wo es im Drehbuch wirkt |
-|---|---|---|---|
-| **W1 · Die Yacht** (`tk_yacht_weg`) | **Auf Grund gesetzt** (Vorschlag Drehbuch Finale, Abschnitt 9): Sie sitzt mit dem Heck im flachen Hafen. Die Crew schläft bei den Familien, deren Häuser sie gerettet hat. Fünfte Baustelle `yacht` (Rosi, Petru, das Dorf). Megans VIP-Kabine und alle Szenen „an Bord“ spielen bis zum Heben im Dorf | **Gesunken** (heutiger Code): keine Baustelle, die Crew bleibt im Dorf bis zum Ende, Megan wohnt in Alvas Gästezimmer | 4.1, 5.1, 5.5, 6, Bestellliste. Jede Szene „an Bord“ nennt ihren Ersatzort |
-| **W2 · Minicus Überleben** | **Erst in Akt 3 gezeigt** (Vorschlag): Der Bericht an Tag 23 lässt es offen, am Morgen von Tag 24 steht er am Tor (5.1, Beat „Wende“) | **Schon im Bericht gesagt:** Der Morgen von Tag 24 beginnt ohne die Enthüllung, Minicu steht trotzdem am Tor. Jana und Lola reagieren auf den Verband, nicht auf das Überleben | 5.1, 5.4, Siris Post (5.12) |
-| **W3 · Festa-Flag** (`akt3_festa`) | **Die gebauten Festa-Events laufen, wie sie sind:** `akt3_festa` wird nach der Kommission gesetzt, `br_ehrenbuerger`, `ab_casanova_flamenco`, `gv_rotes_kleid` laufen innerhalb von `a3_festa` in fester Reihenfolge | **Die Festa wird neu geschrieben:** `a3_festa` übernimmt die drei Szenen als Beats, `akt3_festa` bleibt nur der Schalter, die alten Events werden stillgelegt | 5.29 |
-| **W4 · Was 100 % schwer heißt** | Definition steht (E-121): 100 % = der Spieler hat nichts getan. **Balancing bleibt wie heute:** Anfänger verlieren in Welle 3 rund 3 von 4 Häusern, Vorbereitete 1 | **100 % wird härter:** mehr verlorene Häuser, öfter `tk_yacht_weg` | Akt 3 liest nur das Ergebnis: 0 bis 4 Baustellen plus W1. Jede Szene funktioniert mit 0 und mit 4 abgebrannten Häusern (4.1, „Nicht abgebrannt“) |
+| Weiche | Zweige | Wo es wirkt |
+|---|---|---|
+| **W1 · Die Yacht** | **Hält** (der häufigste Fall, Yacht-Leben über 0): alles an Bord wie gewohnt. · **Auf Grund gesetzt** (Vorschlag Drehbuch Finale): fünfte Baustelle `yacht`, Crew schläft bei den Familien, VIP-Kabine erst nach dem Heben. · **Gesunken** (heutiger Code bei `tk_yacht_weg`): keine Baustelle, die Crew bleibt im Dorf bis zum Ende | Jeder Ort an Bord hat dieselbe **Ersatzreihe: Kirche, dann Piazza, dann Kai** (die Kirche brennt nie). In den Szenen steht „Bord (Ersatzreihe)“ |
+| **W2 · Minicus Überleben** | **A:** Der Bericht an Tag 23 lässt es offen, am Morgen von Tag 24 steht er am Tor (Vorschlag). · **B:** Der Bericht sagt es schon, Tag 24 zeigt ihn ohne Enthüllung. Kanon: er lebt (`drehbuch_finale.md`, Abschnitt 9) | 5.1, 5.12 |
+| **W3 · Festa-Flag** (`akt3_festa`) | **A · die gebauten Events laufen:** Dafür muss `ereignisse_basis.py` beim Festa-Schalter **Tag, Phase und Ort mitsetzen** (heute steht in allen drei `tage: [21, 21]`, `br_ehrenbuerger` spielt nachts in `crew_mess`). Neu: Fenster (35, 35), Phase Abend, Ort `village_piazza`. Das berührt „Festa-Events nicht anfassen“ (`dorf_figuren.md`), Fragenliste F-22. · **B · neu geschrieben:** `a3_festa` übernimmt die drei Szenen als Beats, `akt3_festa` bleibt nur der Schalter | 5.28 |
+| **W4 · Wie schwer 100 % ist** | Definition steht (E-121: 100 % = der Spieler hat nichts getan). **A:** Balancing wie heute (Anfänger verlieren in Welle 3 rund 3 von 4 Häusern). **B:** 100 % wird härter (mehr verlorene Häuser, öfter `tk_yacht_weg`) | Akt 3 liest nur das Ergebnis: 0 bis 4 Baustellen plus W1. Jede Szene funktioniert mit 0 und mit 4 abgebrannten Häusern |
+| **W5 · Sandrus Schiene** (Kanon-Widerspruch) | `dorf_figuren.md`, Ernste Events 5 (30.10.): Alon schaltet die Beine in Akt 3 ab, danach baut Rosi die Schiene. `dorf_figuren.md`, „Rosis Schiene“ (01.11.): Mit Rosis Schiene hebt Sandru schon an Tag 21 die Trümmer, abgeschaltet wird nur ohne Rosi. **A (Vorschlag):** Switched Off kommt immer, die Schiene danach (die Fassung mit den ausgearbeiteten Zeilen). **B:** Wer Sandru in Akt 2 zu Rosi gebracht hat, trägt Rosis Schiene schon (eine neue Akt-2-Szene wäre nötig). Dann trifft Alon nicht die Beine, sondern **die Arbeit**: Er schließt den A.V. Market, zwölf Leute im Dorf verlieren ihre Stelle, Sandru steht auf eigenen Beinen vor dem dunklen Laden (Alons Drohung mit Jobs, Kanon `akt3.md`). Fragenliste F-24 | 5.18, 5.19 |
 
 ## 2. Die Idee in einem Satz
 
@@ -36,711 +37,718 @@ Zwölf Tage lang baut Duc ein Dorf wieder auf, das ihn am ersten Morgen nicht me
 
 **Das Motiv:** *Who saw it?* Akt 2 fragte, wer die Linie hält. Akt 3 fragt, wer es gesehen hat und es sagt. Alon droht nicht mit Gewalt, sondern mit Papier: Jobs, Kredite, Anwaltsbriefe. Gegen Papier hilft nur ein Name, laut gesagt. Das Fischernetz am Ende ist die Liste dieser Namen.
 
-**Was Duc weiß (eine Fassung für alle Szenen):** Ducs Firma gehört zur Eden Group. Dass die Gruppe das Hafenviertel heimlich verkauft hat und an wen, wusste er nicht (E-001, E-003). Sein Satz dazu ist immer derselbe Kern: *“My company belongs to the Eden Group. I didn't know they sold your harbour, or who bought it.”* Seine ESG-Arbeit hat mit dem Resort nichts zu tun (`figuren/duc.md`).
+**Was Duc weiß (eine Fassung):** Ducs Firma gehört zur Eden Group. Dass die Gruppe das Hafenviertel heimlich verkauft hat und an wen, wusste er nicht (E-001, E-003). Kern seines Satzes: *“My company belongs to the Eden Group. I didn't know they sold your harbour, or who bought it.”* Seine ESG-Arbeit hat mit dem Resort nichts zu tun.
+
+**Zeugen sagen nur, was sie selbst gesehen haben.** Wer bezahlt hat, belegen das Kassenbuch, Riscossores Buch und Buenaventura.
 
 | Wer | Was er gesehen hat | Was ihn schweigen lässt | Seine Tür (4.2) |
 |---|---|---|---|
-| Petru | die Fackeln an seiner Werkstatt, die Boote von 1924 | A.V. hat den Kredit auf sein Boot gekauft | Werkstatt Stufe 2 oder heil |
-| Mina | jede Tür in der Nacht der Türen | sie stellt die Drohbriefe selbst zu | Post Stufe 2 oder heil |
-| Bà Tư | die Männer in Weiß, die zweimal nach dem Nordweg fragten | Alons Arbeiter sind ihre Kunden | `bl_batu_norden` oder Vertrauen 3 |
-| Alva | Pascal an der offenen Barrikade, in ihrem Visier | sie war bewusstlos, man glaubt ihr nicht | Alva besucht (5.3), Bar Stufe 2 oder heil |
-| Sandru | wer Alva aus den Trümmern trug | seine Beine gehören A.V. | Schiene (5.20) |
-| Don Anghjulu | den Verrat am Tor, wenn er nüchtern war | das Kirchendach, das Beichtgeheimnis | an seiner Seite an der Tür (5.8) |
+| Petru | die Fackeln an seiner Werkstatt, mit Rudern auch die Boote | A.V. hat den Kredit auf sein Boot gekauft | Dank-Szene der Werkstatt |
+| Mina | jede Tür in der Nacht der Türen | sie stellt die Drohbriefe selbst zu | Dank-Szene der Post, oder `bl_tueren_mina` |
+| Bà Tư | die Männer in Weiß, die zweimal nach dem Nordweg fragten | Alons Arbeiter sind ihre Kunden | `bl_batu_norden`, oder Dank-Szene des Ladens |
+| Alva | die offene Nordbarrikade, die Männer in Weiß | sie war bewusstlos, man glaubt ihr nicht | Dank-Szene der Bar |
+| Sandru | wer Alva aus den Trümmern trug | seine Beine (W5 A) oder seine Stelle (W5 B) gehören A.V. | Schiene (5.19) oder W5 B nach 5.18 |
+| Don Anghjulu | das offene Tor | das Kirchendach, das Beichtgeheimnis | an seiner Seite an der Tür, **oder** Vertrauen 3, **oder** *The Bell* begonnen |
 | Minicu | White, ein Schlag | niemand will ihn vor Fremden reden lassen | nach Hause geschickt (5.4) |
 | Casanova | das Papier, das jede Nacht auf den Stufen lag | ihre Schuld am Elternhaus | Elsas Berichte gehört (5.11) |
 | Buenaventura | wer ihn bezahlt hat | **nichts**, ihm glaubt nur keiner | meldet sich selbst (5.2) |
 
 ## 3. Kalender und Bogen
 
-**Wochentage:** Tag 14 war Sonntag (Messe), also sind Tag 21, 28 und 35 Sonntage. Tag 24 ist ein Mittwoch.
-**Phasen:** Frühstück, Tag, Nachmittag, Dinner, Abend, Nacht. Karten (also echte Zeit des Spielers) gibt es in **Tag, Nachmittag, Dinner, Abend** (`akt2_kalender.md`, Messung). Frühstück und Nacht zählen nicht als freie Kartenphasen.
+**Wochentage:** Tag 14 war Sonntag, also sind 21, 28 und 35 Sonntage, Tag 24 ist ein Mittwoch.
+**Phasen:** Karten (echte Zeit) gibt es in **Tag, Nachmittag, Dinner, Abend**. Frühstück und Nacht zählen nicht als freie Kartenphasen.
 
 ### Woche 4 · „The Morning After“ (Mi 24 bis So 28)
 
-| Tag | Frühstück | Tag | Nachmittag | Dinner | Abend | Pflicht |
-|---|---|---|---|---|---|---|
-| **24** Mi | `a3_morgen` | `a3_schwur` | frei | frei | frei | 2 |
-| **25** Do | `a3_uhr` (mit den ersten Briefen) | frei | frei | `a3_megan_landet` | frei | 2 |
-| **26** Fr | `a3_festa_tafel` | frei | `a3_don_tuer` | frei | frei | 2 |
-| **27** Sa | frei | frei | frei | frei | frei | **0** |
-| **28** So | frei | `a3_messe_schublade` | frei | frei | `a3_berichte` | 2 |
+| Tag | Frühstück | Tag | Nachmittag | Dinner | Abend | Pflicht | frei |
+|---|---|---|---|---|---|---|---|
+| **24** Mi | `a3_morgen` | `a3_schwur` | frei | frei | frei | 2 | 3 |
+| **25** Do | `a3_uhr` (mit den Briefen) | frei | frei | `a3_megan_landet` | frei | 2 | 3 |
+| **26** Fr | `a3_festa_tafel` | frei | frei | frei | frei | 1 | 4 |
+| **27** Sa | Vignette | frei | frei | frei | frei | **0** | 4 |
+| **28** So | Vignette | `a3_sonntag` (Messe, Don an der Tür, Schublade) | frei | frei | frei | 1 | 3 |
 
-Woche 4: **8 Pflicht-Events**, freie Kartenphasen **15**. Empfohlen und mit Erinnerung angeboten (keine Pflicht): Alva besuchen (5.3), Minicu nach Hause schicken (5.4), Nonnas Kiste (5.9, ab Tag 27), Holms Revanche (5.13, ab Tag 24 mit Gemelli), Baustellen, erste Festa-Aufträge, Mochi in der Macchia.
+**Woche 4: 6 Pflicht, 17 freie Phasen.** Ton: 5.1 ernst zu warm, 5.2 komisch, 5.5 trocken, 5.6 Megan-Theater, 5.7 komisch, 5.10 ernst. Dazu morgens an Tag 25 bis 28 je eine **Vignette** (kurz, warm oder komisch, keine Pflicht-Phase): die Dank-Szenen der Häuser, die nicht abgebrannt sind (4.1), oder ein Gag aus dem Dorf.
+Angeboten mit Erinnerung, keine Pflicht: Alva besuchen (5.3), Minicu (5.4), Holms Revanche (5.13), Siris Post (5.12, ab Tag 24 Abend), Nonnas Kiste (5.9, ab Tag 28 Nachmittag), Baustellen, Festa-Aufträge, Mochi.
 
 ### Woche 5 · „Name Your Price“ (Mo 29 bis So 35)
 
-| Tag | Frühstück | Tag | Nachmittag | Dinner | Abend | Pflicht |
-|---|---|---|---|---|---|---|
-| **29** Mo | `a3_idee` | frei | frei | frei | frei | 1 |
-| **30** Di | `a3_maxwell_flug` | frei | frei | frei | frei | 1 |
-| **31** Mi | frei | frei | frei | `a3_megan_monaco` | frei | 1 |
-| **32** Do | frei | frei | `a3_switched_off` | frei | frei | 1 |
-| **33** Fr | `a3_einladung` (Maxwell zurück) | frei | frei | frei | `a3_festa_frage` | 2 (+1 `a3_schiene`, wenn möglich) |
-| **34** Sa | `a3_villa_plan` | `a3_villa_keller` | frei | `a3_villa_dinner` | `a3_villa_ende` | 4 (Nacht: `a3_letzte_nacht`) |
-| **35** So | `a3_sonntag` | `a3_kommission` mit `mo_kommission` | `mo_frei_start` (gebaut) | `a3_festa` | Ende, Epilog | 5 |
+| Tag | Frühstück | Tag | Nachmittag | Dinner | Abend | Pflicht | frei |
+|---|---|---|---|---|---|---|---|
+| **29** Mo | `a3_idee` | frei | frei | frei | `a3_berichte` | 2 | 3 |
+| **30** Di | `a3_maxwell_flug` | frei | frei | frei | frei | 1 | 4 |
+| **31** Mi | frei | frei | frei | `a3_megan_monaco` | frei | 1 | 3 |
+| **32** Do | frei | frei | `a3_switched_off` | frei | frei (Maxwell zurück) | 1 | 3 |
+| **33** Fr | `a3_einladung` (+ `a3_schiene`, wenn möglich) | frei | frei | frei | `a3_festa_frage` | 2 (3) | 3 |
+| **34** Sa | `a3_villa_plan` | `a3_villa_keller` | frei | `a3_villa_dinner` | `a3_villa_ende` | 4 | 1 |
+| **35** So | frei | `a3_kommission` (mit `mo_kommission`) | `mo_frei_start`, danach *Last Page* (Bibi, wenn) | frei | `a3_festa` | 5 (mit Ende) | – |
+| 35 Nacht | Ende, Epilog | | | | | | |
 
-Woche 5: **16 Pflicht-Events** (17 mit Schiene). Freie Kartenphasen Tag 29 bis 34: **18**. Gags laufen bis Tag 31, ab Tag 32 ist das Spiel gagfrei. **Switched Off liegt deshalb auf Tag 32**, dem ersten Tag ohne Gags.
+**Woche 5: 16 Pflicht** (17 mit Schiene), **17 freie Phasen** (Tag 29 bis 34). Gags bis Tag 31, ab Tag 32 gagfrei: **Switched Off liegt auf Tag 32.**
 
 ### Spannungsbogen
 
-| Tag | Szene | Spannung | Aufgabe |
-|---|---|---|---|
-| 24 | Der Morgen danach | 6 → 3 | dem Dorf ins Gesicht sehen |
-| 24 | Der Schwur | 3 | Bleiben lassen oder prüfen |
-| 25 | Die Uhr, die Briefe | 5 | Zeugenliste öffnet |
-| 25 | Megan | 4 | ihr die Wahrheit sagen |
-| 26 | Die Tafel | 2 | Aufträge sehen |
-| 26 | Don an der Tür | 4 | dazustellen oder nicht |
-| 27 | frei | 1 | durchatmen |
-| 28 | Messe, Schublade | 4 | ein leiser Fund, kein Gipfel |
-| 28 | Elsas Berichte | 3 | Casanova taut auf |
-| 29 | Die Idee | 3 | Lösung für Buenaventura |
-| 30 | Maxwell fliegt | 3 | Abschied auf Zeit |
-| 31 | Monaco | 6 | Wer zahlt? |
-| 32 | **Switched Off** | 8 → 4 | der eine schwere Moment |
-| 33 | Einladung, Festa-Frage | 6 | Wen nimmst du mit? |
-| 34 | **Villa** | 9 → 10 | „Join me. Name your price.“ |
-| 35 | Kommission | 7 | Wer sagt aus? |
-| 35 | Festa | 10 → 2 | Schlussbild |
-
-**Ein schwerer Moment (Prüfstein Ton):** Nur Switched Off ist schwer. Schublade und Nonna bleiben kurz und leise (`dorf_figuren.md`). Die Villa ist Spannung und Aktion, keine Trauer.
-
-### Zeitbudget (Prüfstein Zeitbudget, ohne Bot-Lauf)
-
-Freie Kartenphasen Tag 24 bis 34: **33**. Ein Bot-Lauf ist erst möglich, wenn der Kalender gebaut ist, die Zahl ist von Hand gerechnet.
-
-| Bedarf | Phasen | Begründung |
+| Tag | Szene | Spannung |
 |---|---|---|
-| Baustellen | 2 bis 4 | Die Piraten tragen ab Tag 24 je Tag eine Stufe (gebaut), Minicu jeden dritten Tag eine. Bei 4 Häusern (12 Stufen) ist fast alles bis Tag 34 fertig. Duc beschleunigt, er muss nicht alles selbst tragen |
-| Zeugen | 4 | Petru, Mina, Bà Tư und Alva fragt Duc in ihrer Dank-Szene (ohne Phase, 4.1). Sandru, Don, Minicu, Casanova je eine Phase |
-| Festa-Aufträge | 6 bis 8 | acht kurze Szenen, zwei davon zählen zugleich als Romanzen-Zeit (4.3) |
-| Romanzen | 2 bis 4 | eine Schluss-Szene je verfolgter Frau, meist eine oder zwei Frauen |
-| Freie Dates und Abende | 3 bis 5 | |
-| Optional | 3 bis 6 | Mochi, Riscossore, Scrap Field, Siris Post, Alva, Minicu, Lot 14 |
-| **Summe** | **20 bis 31 von 33** | etwa 60 bis 95 %. Wer alles will, muss wählen, aber nicht hetzen |
+| 24 | Der Morgen danach, der Schwur | 6 → 3 |
+| 25 | Die Uhr, Megan | 5 |
+| 26 | Die Tafel | 2 |
+| 27 | frei | 1 |
+| 28 | Sonntag: Messe, Don, Schublade | 4, ein leiser Fund |
+| 29 | Die Idee, Elsas Berichte | 3 |
+| 30 | Maxwell fliegt | 3 |
+| 31 | Monaco | 6 |
+| 32 | **Switched Off** | 8 → 4, der eine schwere Moment |
+| 33 | Einladung, Festa-Frage | 6 |
+| 34 | **Villa** | 9 → 10, Spannung und Aktion, keine Trauer |
+| 35 | Kommission, Festa | 7, dann 10 → 2 |
+
+### Zeitbudget (von Hand, Bot-Lauf erst nach dem Bau)
+
+Freie Kartenphasen Tag 24 bis 34: **34**.
+
+| Bedarf | Phasen | |
+|---|---|---|
+| Baustellen | 2 bis 4 | Duc setzt je Haus den ersten Stein, die Piraten tragen dann weiter (4.1) |
+| Zeugen | 3 bis 4 | vier fragt Duc in Dank-Szenen ohne Phase, je eine Phase Sandru (nur W5 B), Don, Minicu, Casanova |
+| Festa-Aufträge | 8 bis 9 | acht Szenen, *The Bell* zwei Abende (mit `bl_kirche_don` einer) |
+| Romanzen | 2 bis 6 | je Frau eine Szene, die beiden Expeditionen (Lea, Bibi) kosten 2 |
+| Freie Dates | 2 bis 4 | |
+| Kleine Szenen | 6 bis 10 | Alva 1, Minicu 1 bis 2, Siri 1, Revanche 1, Riscossore 1, Lot 14 1, Nonna 1, Mochi 1 bis 2, Scrap Field 2 |
+| **Summe** | **23 bis 37 von 34** | Wer alles will, schafft es nicht. Ein Spieler mit einer Romanze und allen Zeugen braucht etwa 27 bis 30. Vor dem Bau von Woche 5: Bot-Lauf mit zwei Profilen (Bauplan G) |
 
 ## 4. Die drei Mechaniken
 
 ### 4.1 Die Baustellen („Lend a Hand“)
 
-**Vorbild:** das Gemeinschaftshaus in Stardew Valley. **Gegenvorbild:** Anno-Verwaltung ohne Menschen.
+**Vorbild:** Stardew Valley, Gemeinschaftshaus. **Gegenvorbild:** Anno-Verwaltung ohne Menschen.
 
-- **Fundament (gebaut):** `kern/aufbau.py`. Jedes Haus mit `tk_haus_weg_<id>` (`post`, `batu`, `bar`, `werkstatt`) wird Baustelle mit drei Stufen. Notdürftig geflickt (`tk_haus_geflickt_<id>`) beginnt bei Stufe 1. Nach `buenaventura_schwur` tragen die Piraten je Tag eine Stufe.
-- **Karte „Lend a Hand“** (1 Phase): Duc baut eine Stufe mit eigenem Material. Jede Stufe hat eine kleine Wahl, keine Menge: *Wer hält mit?* Ein Pirat, der Besitzer oder ein Crew-Mitglied. Der Besitzer bringt eine Zeile über sein Haus, der Pirat eine Zeile über das, was er angezündet hat, das Crew-Mitglied eine Romanzen-Zeile (zählt als Zeit zusammen, `kern`-Töpfe Quelle „Szene“). So ist jede Stufe auch ein Gespräch.
-- **Minicu** trägt nach `a3_minicu_heim` jeden dritten Tag eine Stufe dazu. Keine Szene nennt das als Belohnung (Kanon).
-- **Fertig** (`aufbau_fertig_<id>`, gebaut) → **Dank-Szene** `a3_dank_<id>`. In dieser Szene fragt Duc den Besitzer, ob er aussagt (4.2). Das kostet keine eigene Phase:
+- **Fundament (gebaut):** `kern/aufbau.py`, drei Stufen je abgebranntem Haus, geflickt (`tk_haus_geflickt_<id>`) beginnt bei Stufe 1.
+- **Neu, Duc entscheidet, wo gebaut wird:** Die Piraten tragen je Tag eine Stufe (gebaut), aber **nur an Häusern, an denen Duc den ersten Stein gesetzt hat** (eine „Lend a Hand“-Karte je Haus). Heute bauen sie automatisch an der am weitesten fortgeschrittenen Baustelle (`kern/aufbau.tag_vorbei`), das ändert Paket B. So zählt Woche 4 für Woche 5: Wessen Haus Duc anfängt, dessen Tür geht zuerst auf.
+- **Karte „Lend a Hand“** (1 Phase): eine Stufe mit eigenem Material. Jede Stufe hat eine Wahl: **Wer hält mit?** Der Besitzer (eine Zeile über sein Haus), ein Pirat (eine Zeile über das, was er angezündet hat), ein Crew-Mitglied (zählt als Zeit zusammen).
+- **Minicu** trägt nach `a3_minicu_heim` jeden dritten Tag eine Stufe. **Die Legion** mit `bl_verband_wolff` einen Tag lang eine Stufe (Wolff: *“You gave me the bandage, the one good one. The Legion pays its debts.”*).
+- **Fertig** (`aufbau_fertig_<id>`) → **Dank-Szene** `a3_dank_<id>`. **Dort öffnet die Zeugen-Tür.** Ist die Zeugenliste schon offen (ab Tag 25), fragt Duc in derselben Szene, ohne eigene Phase:
 
-| Haus | Dank-Szene | Wirkpunkt im Code |
+| Haus | Dank-Szene | Wirkpunkt |
 |---|---|---|
-| Post | Mina hupt zweimal vor dem Kai. Sie stellt die erste Post nach dem Brand zu, und es ist keine Rechnung | **Zugang:** Mina bringt einmal am Tag eine Zutat oder ein Baumaterial aus Bastia mit, das es im Dorf nicht gibt (Wahl aus drei, ohne Phase) |
-| Bà Tưs Laden | Bà Tư stellt zwei Teller hin, diesmal auch einen für Lola | **Küche:** Kochen mit Bà Tư (Zutaten ★★), ihr Thịt kho als Rezept, Akzent „Ăn đi“ (+10 % Leben bis zum Dinner des Folgetags) |
-| Alvas Bar | Alva schreibt den ersten neuen Namen auf Papas Tafel | **Abende:** Bar-Abende wieder möglich, Alvas Festa-Auftrag öffnet, mit `bl_alva_runde` schreibt sie unter *“Paid. P.”* eine zweite Zeile (8, `bl_alva_runde`) |
-| Petrus Werkstatt | Petru hängt das Ruder zurück über die Tür, heil oder verkohlt | **Angeln vom Boot:** die fünf Küstenbilder ohne Expedition, Auftrag *The Catch* öffnet |
+| Post | Mina hupt zweimal vor dem Kai. Die erste Post nach dem Brand ist keine Rechnung | Mina bringt einmal am Tag eine Zutat oder ein Baumaterial aus Bastia mit, das es im Dorf nicht gibt (Wahl aus drei, ohne Phase) |
+| Bà Tưs Laden | zwei Teller, diesmal auch einer für Lola | Kochen mit Bà Tư (★★), ihr Thịt kho, Akzent „Ăn đi“ (+10 % Leben bis zum Dinner des Folgetags) |
+| Alvas Bar | Alva schreibt den ersten neuen Namen auf Papas Tafel. Mit `bl_alva_runde` darunter: *“Everyone. Paid. D.”* | Bar-Abende, Alvas Festa-Auftrag |
+| Petrus Werkstatt | Petru hängt das Ruder zurück über die Tür, heil oder verkohlt | Angeln vom Boot, *The Catch* öffnet |
 
-- **Nicht abgebrannt (W4):** Ohne Baustelle kommt die Dank-Szene am Abend von Tag 24 als „Danke fürs Retten“, kürzer, mit derselben Frage nach der Aussage. Wer gut gespielt hat, gewinnt Zeit, nicht weniger Inhalt.
-- **Die Kirche** ist keine Baustelle. Das Dach war Alons Geld (Kanon „Der Preis“). Es tropft bis zum Ende, nur Ende 3 und ★ reparieren es im Epilog (E-096).
-- **W1 Zweig A:** fünfte Baustelle `yacht`, Stufen 6 Timber, 4 Iron, 2 Steel. Ihre Dank-Szene ist Rosis: *“She floats. She's ugly, she leaks a bit, and she floats. Don't tell her I said ugly.”* Megan zieht dann in die VIP-Kabine.
+- **Nicht abgebrannt (W4):** Die Dank-Szene kommt als Frühstücks-Vignette an Tag 25 bis 28, je eine (nie mehrere an einem Tag), kurz und warm, **ohne Frage**. Die Zeugenfrage stellt Duc dann über die Karte „Ask <Name>“ (ohne Mindestbedingung, die Tür ist offen).
+- **Die Kirche** ist keine Baustelle. Das Dach war Alons Geld, es tropft bis zum Ende, nur Ende 3 und ★ reparieren es (E-096).
+- **W1 auf Grund:** Baustelle `yacht` (6 Timber, 4 Iron, 2 Steel). Rosi: *“She floats. She's ugly, she leaks a bit, and she floats. Don't tell her I said ugly.”*
 
 ### 4.2 Die Zeugen („Who Saw It?“)
 
-**Vorbild:** Mass Effect 2, Loyalitätsmissionen; Persona 5, Confidants. **Gegenvorbild:** L.A. Noire (Raten ohne lesbare Gründe). **Darum kein Rätselchip.**
+**Vorbild:** Mass Effect 2, Persona 5. **Gegenvorbild:** L.A. Noire. **Kein Rätselchip.**
 
-- **Auslöser:** `a3_uhr` (Tag 25). Elsa gibt eine Liste mit neun Namen, als Seite im Codex („Witnesses“), mit Bild, Angst und Tür. Kein Prozentbalken.
-- **Die Tür** ist eine Tat aus dem Spiel (Tabelle in Abschnitt 2). Ist sie zu, sagt die Liste warum, als Satz: *“Not while her bar is a building site.”*
-- **Das Gespräch** stellt eine klare Frage. Duc hat drei Chips. **Jeder Chip ist eine ehrliche Haltung** (herzlich, frech, nüchtern), und **jeder überzeugt**, wenn die Tür offen ist. Die Haltung entscheidet nur, **wie** der Zeuge aussagt: Die Zeile vor der Kommission ändert sich, und die Haltung zählt bei der Figur als Vertrauen (+4 / +2 / +2, die passende Haltung nach Figurenseite +6). So gibt es keine falsche Antwort, nur eine, die besser zu diesem Menschen passt.
-- **Ein Zeuge schweigt nur**, wenn seine Tür bis Tag 34 zu bleibt. Dann sitzt er bei der Kommission sichtbar am Rand, ohne Zeile, und sein Name fehlt im Netz.
-- **Ergebnis:** `a3_zeuge_<id>` und die Haltung `a3_zeuge_<id>_<h>`. Zählt auf Säule Gemeinschaft und auf Megans Anruf (5.18).
-- **Selbst im besten Durchlauf fehlt einer** (Kanon „Das Netz hat Lücken“): Pascals Knoten bleibt immer leer. Sandru kann nur mit Schiene aussagen.
-
-**Pascal steht nicht auf der Liste** und nie in einem Fall (Auflage der Story-Sitzung). Elsas Liste hat am Rand eine durchgestrichene Zeile. Sie sagt nichts dazu.
+- **Auslöser:** `a3_uhr` (Tag 25). Codex-Seite „Witnesses“: Bild, Angst, Tür als Satz (*“Not while her bar is a building site.”*).
+- **Das Gespräch** stellt eine klare Frage. **Jede der drei Haltungen überzeugt**, sie färbt nur die Aussage vor der Kommission und gibt Vertrauen (+2, die zur Figur passende +6). **Eine Tür ist nie mit einem einzigen Chip für immer zu:** Wer in 5.8 unten bleibt, öffnet Dons Tür später über Vertrauen 3 oder *The Bell*. Wer bei Minicu sitzt und wartet, bekommt die Karte am nächsten Tag wieder.
+- **Ein Zeuge schweigt nur**, wenn seine Tür bis Tag 34 zu bleibt. Dann sitzt er am Kai am Rand, ohne Zeile, und sein Name fehlt im Netz.
+- **Ergebnis:** `a3_zeuge_<id>`, Haltung `a3_zeuge_<id>_<h>`. Zählt auf Gemeinschaft und auf Monaco (5.17).
+- **Pascal** steht nie auf der Liste und in keinem Fall. Am Rand der Liste eine durchgestrichene Zeile. Elsa sagt nichts dazu.
 
 ### 4.3 Casanovas Tafel („THIS. IS. THE. FESTA!“)
 
-**Vorbild:** Stardew Valley, Bündel und Festival; Spiritfarer (jeder Wunsch hat einen Menschen). **Gegenvorbild:** Survival-Einkaufslisten.
+**Vorbild:** Stardew Valley, Spiritfarer. **Gegenvorbild:** Survival-Einkaufslisten.
 
-- **Auslöser:** `a3_festa_tafel` (Tag 26). Acht Aufträge an der Kirchenmauer. **Jeder Auftrag ist eine kurze Szene** (1 Phase) mit einer Entscheidung. Material braucht es wenig, gekauft zählt nicht (*“From the shop? Monsieur. This is a festa, not a supermarket.”*).
-- **Wirkung:** `a3_festa_<id>` stellt etwas ins Schlussbild, und **die Entscheidung bestimmt, wie es aussieht**. Wie voll die Festa ist, liest das Ende zusammen mit den Säulen (Abschnitt 7): Die Tafel bestimmt Ausstattung und Licht, das Ende bestimmt, wer bleibt.
+- **Auslöser:** `a3_festa_tafel` (Tag 26). Acht Aufträge, **jeder eine Szene** (1 Phase) mit einer Entscheidung. Gekauft zählt nicht: *“From the shop? Monsieur. This is a festa, not a supermarket.”*
+- **Wirkung:** `a3_festa_<id>` stellt etwas ins Schlussbild, die Entscheidung bestimmt, **wie** es aussieht. Die Tafel bestimmt Ausstattung und Licht, das Ende bestimmt, wer bleibt (Ende 2a: die Lichter brennen, die Tische leeren sich im Streit).
 
-| Auftrag | Wer | Szene | Die Entscheidung | Wenig Material | Ins Schlussbild |
+| Auftrag | Wer | Szene | Frage und Entscheidung | Wenig Material | Ins Schlussbild |
 |---|---|---|---|---|---|
-| **The Catch** | Petru | Eine Ausfahrt im Morgengrauen auf Petrus Boot (nach Wiederaufbau oder heil) | Wohin? Zum Riff (viele kleine Fische), zur Grotte (Buenaventuras Leute zeigen die Stelle, nur mit `a3_eco_tours`), aufs offene Wasser (ein großer Fisch, Angeln-Probe) | 3 Fische aus dieser Fahrt | Grill am Hafen, je nach Wahl Sardinen, Muränen-Spieß oder ein ganzer Zackenbarsch |
-| **The Garden** | Nonna | Ernte mit Nonna im Klostergarten | Für wen ist das erste Körbchen? Für die lange Tafel, für Bà Tưs Topf oder für Frederico (nur wenn er lebt) | 3 Gemüse ★★★ (gebaut: Garten) | Körbe auf der langen Tafel |
-| **The Pot** | Bà Tư | Bà Tư korrigiert Ducs Thịt kho (Kanon) | Ihr Rezept oder das Rezept seiner Mutter? Beide gelingen, Bà Tư reagiert anders | 1 Gericht ★★ | dampfender Topf, eine Schlange davor |
-| **The Menu** | Lola | Lola hat Angst vor so vielen Gästen | Wer probiert zuerst? Minicu, Casanova oder Duc selbst | 1 Kochen in der Kombüse (W1: in Alvas Küche) | Lola am Grill, Schürze |
-| **The Lights** | Rosi | Rosi baut die Lichterkette | Was kommt in den Schalter? Ein Chip von Duc (echter Verlust, die Kette leuchtet weiß) oder ein Teil aus Alons Halsbändern (die Kette leuchtet bernstein wie Unit-01s Auge) | 2 Steel (Scrap Field oder Belagerungs-Roboter) | Lichter über der Piazza, weiß oder bernstein |
-| **The Stage** | Minicu | Bühne bauen, Minicu trägt | Für wen ist die Bühne zuerst? Kinderchor, Casanovas Rede oder Alvas Flamenco | 4 Timber | wer zuerst auf der Bühne steht |
-| **The Dresses** | Danzel | Anprobe in „Le Théâtre Rouge“ (gebaut: Schneider) | Wessen Kleid zuerst? Eine der Frauen oder Casanova | ein Festa-Auftrag aus `schneider.md` | ein Kleid im Schlussbild |
-| **The Bell** | Don | Zwei Abende Karten statt Wein (zwei kurze Besuche, je eine Abend-Phase; mit `bl_kirche_don` reicht einer) | Lässt Duc ihn gewinnen oder nicht? | – | die Glocke läutet zum Tanz im richtigen Takt |
+| **The Catch** | Petru | Ausfahrt im Morgengrauen | Petru: *“Hm. Where do we go?”* · Zum Riff (viele kleine) · zur Grottenmündung (ein Pirat zeigt die Stelle, mit `a3_riscossore_kommt`) · aufs offene Wasser (ein großer Fisch, Angeln-Probe) | 3 Fische aus dieser Fahrt | Grill am Hafen: Sardinen, Muränen-Spieß oder ein ganzer Zackenbarsch |
+| **The Garden** | Nonna | Ernte im Klostergarten | Nonna: *“Who gets the first basket?”* · die lange Tafel · Bà Tưs Topf · Frederico (nur wenn er lebt) | 3 Gemüse ★★★ | Körbe auf der langen Tafel |
+| **The Pot** | Bà Tư | Thịt kho (Kanon) | Bà Tư: *“My way, or your mother's way, con?”* · beide gelingen, sie reagiert anders | 1 Gericht ★★ | der Topf, eine Schlange davor |
+| **The Menu** | Lola | Lola hat Angst vor so vielen Gästen | Lola: *“Who tastes it first, Boss?”* · Minicu · Casanova · Duc | 1 Kochen. Mit `bl_tueren_lola` kennt sie jede Küche: *“I've been in every kitchen in this village, Boss. Mostly the biscuits.”*, ein Gericht weniger | Lola am Grill |
+| **The Lights** | Rosi | Lichterkette | Rosi: *“What goes in the switch, Officer?”* · ein Chip von Duc (echter Verlust, weißes Licht) · ein Teil aus Alons Halsbändern (bernstein, wie Unit-01s Auge) | 2 Steel (Scrap Field oder Belagerungs-Roboter) | Lichter, weiß oder bernstein |
+| **The Stage** | Minicu | Bühne bauen | Minicu: *“Who stands on it first?”* · Casanovas Rede · Alvas Flamenco · der Kinderchor (singt hinter der Kirchentür, nur zu hören, Kanon: kein Kind im Bild) | 4 Timber | wer zuerst auf der Bühne steht |
+| **The Dresses** | Danzel | Anprobe in „Le Théâtre Rouge“ | Danzel: *“Whose dress first? I can only finish one in time!”* | ein Festa-Auftrag aus `schneider.md` | ein Kleid im Schlussbild |
+| **The Bell** | Don | zwei Abende Karten statt Wein (mit `bl_kirche_don` einer, er war schon einmal nüchtern, als es zählte) | Don: *“Shall I win tonight, my son, or will you?”* · Lässt Duc ihn gewinnen? | – | die Glocke läutet zum Tanz im richtigen Takt |
 
-Zwei kleine Aufträge kommen dazu, wenn Akt 2 sie verdient hat: **Kinderbilder** (Jana, nur `bl_kirche_jana`, ohne Phase, die Kinder bringen sie) und **The Eventually liefert** (Buenaventura, nur `a3_eco_tours`, Kanon: er beliefert die Festa). Die Konfettikanone fehlt, Pascal hatte sie bezahlt (Kanon). In Ende 1 ist sie wieder da.
+Zwei kleine dazu: **Kinderbilder** (nur `bl_kirche_jana`, ohne Phase: Jana bringt sie, *“Sir, they made these for the festa. For me. Jessas.”*) und **The Eventually bringt Fisch** (Kanon, Buenaventura beliefert die Festa, nach `a3_riscossore_kommt`). Die Konfettikanone fehlt (Pascal hatte sie bezahlt). In Ende 1 ist sie wieder da.
 
 ## 5. Die Szenen
 
-Jede Szene: **Ansage → Inhalt → Handlung → Reaktion → Übergang**. Titelkarten mit Continue und Skip. Ernste Szenen nur mit ernsten Posen, kein joy oder amusement (`test_sprite_stimmung`). Vor jedem Chip stellt eine Figur eine klare Frage.
+Jede Szene: **Ansage → Inhalt → Handlung → Reaktion → Übergang**, Titelkarten mit Continue und Skip, ernste Szenen mit ernsten Posen. Vor jedem Chip eine klare Frage. Chips: zuerst die Handlung als ganzer Satz, dann die Rede.
 
 ### 5.1 Tag 24, Frühstück · `a3_morgen` „The Morning After“ (ernst → warm)
 
-Anschluss an den Cliffhanger: Alon hat Duc vor dem Dorf „their consultant on the ground“ genannt.
-
 | Beat | Was | Zeilen |
 |---|---|---|
-| Ansage | Titelkarte *Day 24 · The Morning After*. Piazza im Morgenlicht (`village_piazza`), Rauch über der Post (nur mit `tk_haus_weg_post`). | Erzählerin: *The village slept in the church. Nobody slept much.* |
-| Inhalt | Duc kommt mit zwei Kaffeebechern von Bà Tư (W4: steht ihr Laden nicht, aus der Kombüse oder vom Feuer am Kai). Die Leute gehen auseinander, als er kommt. Auf einem Handy läuft noch Alons Clip. | Mina, leise: *“Sorry, Yacht. I don't know what to say to you today.”* |
-| Inhalt | | Erzählerin: *A man near the fountain asks it out loud: “Did you know?”* |
-| Handlung | Duc antwortet. | Chips: Puts both coffees down on the fountain. “My company belongs to the Eden Group. I didn't know they sold your harbour.” · “No. And I'm staying until you believe me.” · Stays where he is and says nothing. |
-| Reaktion | Stille. Dann tritt Petru vor ihn, mit dem Rücken zu Duc, das Gesicht zum Dorf. | Petru: [clear throat] *“Hm. I rowed out with Mina while he carried water to the church. Three days. That's all I need to know.”* |
-| Reaktion | Er geht. Ein paar folgen ihm. Die anderen bleiben, aber sie bleiben. | Lola, zu laut: *“Right! Who wants breakfast? I made heaps. Mostly the eggs.”* |
-| Wende (W2 A) | Am Tor steht jemand, groß, verbunden, die Axt gesenkt. Titelkarte *Minicu*. | Jana: [gasp] *“Jessas! He's... Sir, he's standing!”* |
-| Wende (W2 B) | Minicu steht am Tor, wie man es im Bericht gehört hat. | Jana: *“Sir, he's back at the gate. With the bandage and everything.”* |
-| Inhalt | | Minicu: *“Pascal said hold the gate. So I hold it.”* · Lola: [sniff] *“Oh, mate. Oh, you big... I'm bringing you eggs, don't you move.”* |
-| Übergang | Neue Karten: „Talk to Minicu“ (5.4), „Visit Alva“ (5.3). Ziel-Zeile: *Buenaventura has asked the whole village to meet at the harbour.* | |
-
-Zu W1 A: Die Crew kommt aus den Häusern der Familien, Lola aus Bà Tưs Küche. Der Wohnort steht nur in der Lage, die Beats bleiben gleich.
+| Ansage | Titelkarte *Day 24 · The Morning After*. Piazza im Morgenlicht, Rauch über der Post (mit `tk_haus_weg_post`). | Erzählerin: *The village spends the night in the church. Nobody sleeps much.* |
+| Inhalt | Duc kommt mit zwei Kaffeebechern. Die Leute gehen auseinander. Auf einem Handy läuft Alons Clip. | Mina, leise: *“Sorry, Yacht. I don't know what to say to you today.”* · Erzählerin: *A man near the fountain asks it out loud: “Did you know?”* |
+| Handlung | | Chips: Puts both coffees down on the fountain. “My company belongs to the Eden Group. I didn't know they sold your harbour.” · “No. And I'm staying until you believe me.” · Stays where he is and says nothing. |
+| Reaktion | Petru tritt vor ihn, das Gesicht zum Dorf. **Mit Rudern** (`bl_dorf_rudert`): | Petru: [clear throat] *“Hm. I rowed out with the village, like in 1924, and he held the church until we came back. Three days. That's all I need to know.”* |
+| Reaktion | **Ohne Rudern:** | Petru: [clear throat] *“Hm. Three days he stood between the fire and the church. That's all I need to know.”* |
+| Reaktion | | Lola, zu laut: *“Right! Who wants breakfast? I made heaps. Mostly the eggs.”* |
+| Wende | W2 A: Titelkarte *Minicu*, er steht verbunden am Tor. W2 B: er steht am Tor, wie man es im Bericht hörte. | A: Jana: [gasp] *“Jessas! He's... Sir, he's standing!”* · B: Jana: *“Sir, he's back at the gate. With the bandage and everything.”* · Minicu: *“Pascal said hold the gate. So I hold it.”* · Lola: [sniff] *“Oh, mate. I'm bringing you eggs, don't you move.”* |
+| Übergang | Karten „Talk to Minicu“, „Visit Alva“. Ziel-Zeile: *Buenaventura has asked the whole village to meet at the harbour.* | |
 
 ### 5.2 Tag 24, Tag · `a3_schwur` „The Oath“ (komisch → ernst → warm)
 
 | Beat | Was | Zeilen |
 |---|---|---|
-| Ansage | Titelkarte *The Oath*. Hafen (`village_harbour`). *The Eventually* an der Mole, die purpurne Flagge auf halbmast. | Erzählerin: *Forty men stand on the quay. None of them is holding a torch.* |
-| Inhalt (Kanon: der Fernseh-Moment) | Ein Pirat hält ein Handy hoch. Alons Clip: „pirates attacked a small village“. | Buenaventura: [laugh] *“I am famous! Look, Paco, that is our flag!”* (Pause) *“...Robots? I have never owned a robot in my life. They are saying I had robots!”* |
-| Inhalt | Er wird ernst, nimmt den Hut ab. | Buenaventura: [clear throat] *“We burned your houses. I gave the order to stop, and I gave it too late. I am sorry.”* · *“I don't know how a man makes that right. I have a flag, an anthem and forty men who can carry stones. We will find a way. I swear it.”* |
-| Reaktion | | Casanova: *“You... you burned the post office.”* · Buenaventura: *“Yes, Madame.”* |
-| Handlung | Er fragt Duc, nicht das Dorf. | Buenaventura: *“You beat me twice, Señor. So you decide. Do we stay and carry, or do we sail?”* · Chips: “Stay. Start with the houses you burned.” · Turns to Casanova. “Ask her, not me.” · “Stay. And you tell the commission who paid you.” |
-| Reaktion | „Ask her“: Casanova: *“Stay. And carry everything twice.”* (Vertrauen Casanova +4). Kommission: *“Of course. I am a pirate, not a liar.”* | |
-| Reaktion | | Petru: *“Hm. Then carry stones.”* |
-| Schluss | Ein Pirat trägt eine ausgebrannte Fackel am Gürtel (Saat für die Fackelgalerie, Kanon). | Buenaventura: *“Leave that.”* · Pirat: *“It's my torch, Capitán.”* |
-| Übergang | `buenaventura_schwur`. Baustellen auf der Karte. Ziel-Zeile: *The burned houses are building sites now. Lend a hand when you can.* | |
+| Ansage | Hafen, *The Eventually*, die Flagge auf halbmast. | Erzählerin: *Forty men stand on the quay. None of them is holding a torch.* |
+| Inhalt (Fernseh-Moment, Kanon) | Ein Pirat hält ein Handy hoch: „pirates attacked a small village“. | Buenaventura: [laugh] *“I am famous! Look, Paco, that is our flag!”* · *“...Robots? I have never owned a robot in my life. They are saying I had robots!”* |
+| Inhalt | Hut ab. | Buenaventura: [clear throat] *“We burned your houses. I gave the order to stop, and I gave it too late. I am sorry.”* · *“I don't know how a man makes that right. I have a flag, an anthem and forty men who can carry stones. We will find a way. I swear it.”* |
+| Reaktion | | Casanova: *“You burned the post office.”* · Buenaventura: *“Yes, Madame.”* |
+| Handlung | | Buenaventura: *“You beat me twice, Señor. So you decide. Do we stay and carry, or do we sail?”* · Chips: “Stay. Start with the houses you burned.” · Turns to Casanova. “Ask her, not me.” · “Stay. And you tell the commission who paid you.” |
+| Reaktion | „Ask her“: Casanova: *“Stay. And carry everything twice.”* (+4) · Kommission: *“Of course. I am a pirate, not a liar.”* · Petru: *“Hm. Then carry stones.”* | |
+| Schluss | | Buenaventura, zu einem Piraten mit ausgebrannter Fackel am Gürtel: *“Leave that.”* · Pirat: *“It's my torch, Capitán.”* |
+| Übergang | `buenaventura_schwur`. Ziel-Zeile: *The burned houses are building sites now. Lay the first stone where you want them to start.* | |
 
-Mit Bibi und `mo_eco_idee` steht sie hinten und zählt die Piraten. Erzählerin: *Bibi is counting the pirates. You don't know why yet.* Ihr Einfall kommt an Tag 29 (Kanon: an diesem Tag kennt niemand die Lösung).
+Mit Bibi und `mo_eco_idee`: Erzählerin: *Bibi is counting the pirates. You don't know why yet.*
 
-### 5.3 Ab Tag 24, freie Karte · `a3_alva_wach` „Since Last Night“ (ernst)
-
-Karte „Visit Alva“ ab Tag 24 Nachmittag, mit Erinnerung, wenn sie zwei Tage liegt.
+### 5.3 Ab Tag 24, Karte · `a3_alva_wach` „Since Last Night“ (ernst)
 
 | Beat | Was | Zeilen |
 |---|---|---|
-| Ansage | Mina holt Duc. | Mina: *“Yacht! She's awake. Sandru says come, and Sandru never says come.”* |
-| Inhalt | **Bar abgebrannt:** Hinterzimmer in Bà Tưs Laden (oder, wenn auch der Laden brannte, ein Feldbett in der Kirche). **Bar steht:** `alvas_hinterzimmer`. Nie im A.V. Market, das gehört zu 5.19. Sandru sitzt auf einem Hocker, die Schienen surren. | |
-| Inhalt | | Alva: [cough] *“How long?”* · Sandru: *“Since last night. You missed the end. Ha. That's... sorry. That's not funny.”* |
-| Inhalt | | Alva: *“Minicu?”* · Sandru: *“He's standing at the gate. He won't go home.”* · Alva: [sigh] *“Of course he won't.”* |
+| Ansage | | Mina: *“Yacht! She's awake. Sandru says come, and Sandru never says come.”* |
+| Inhalt | Bar abgebrannt: Feldbett in der Kirche (die Kirche brennt nie). Bar steht: `alvas_hinterzimmer`. Nie im A.V. Market. Sandru auf einem Hocker. | Alva: [cough] *“How long?”* · Sandru: *“Since last night. You missed the end. Ha. That's... sorry. That's not funny.”* · Alva: *“Minicu?”* · Sandru: *“He's standing at the gate. He won't go home.”* · Alva: [sigh] *“Of course he won't.”* |
 | Handlung | | Alva: *“Who carried me out, Duc? Don't lie to me, I'll know.”* · Chips: “Sandru. He carried you out of the rubble.” · Looks at Sandru and waits. · “Does it matter?” |
-| Reaktion | Wahrheit: Alva sieht Sandru lange an. *“...Orangeade's on me, then. For a year.”* · Sandru: *“I'm thirty, Alva.”* · Alva: *“I know how old you are. I was there.”* Warten: Sandru sagt es selbst und lacht davor. „Does it matter?“: *“Everything matters to me, Duc. That's my whole problem.”* | |
-| Übergang | `a3_alva_wach`. Alvas Zeugen-Tür geht mit der Bar auf. Kein Paar (Kanon). | |
+| Reaktion | Wahrheit: *“...Orangeade's on me, then. For a year.”* · Sandru: *“I'm thirty, Alva.”* · Alva: *“I know how old you are. I was there.”* · Warten: Sandru sagt es selbst und lacht davor. · „Does it matter?“: *“Everything matters to me, Duc. That's my whole problem.”* | |
+| Übergang | `a3_alva_wach`. Kein Paar. | |
 
-### 5.4 Ab Tag 24, freie Karte · `a3_minicu_heim` „Is Pascal Coming?“ (ernst, leise)
+### 5.4 Ab Tag 24, Karte · `a3_minicu_heim` „Is Pascal Coming?“ (ernst, leise)
 
 | Beat | Was | Zeilen |
 |---|---|---|
-| Ansage | Nordtor, die Barrikade halb weg. Kevin sitzt auf dem Torpfosten. | Erzählerin: *He has been standing here since six. Lola brought eggs twice.* |
-| Inhalt | | Minicu: *“Hello. Does it still hurt? Your arm. You had a cut.”* |
+| Ansage | Nordtor, Kevin auf dem Pfosten. | Erzählerin: *He has stood here since six. Lola has brought eggs twice.* |
+| Inhalt | Minicu fragt jeden, ob es wehtut (Figurenseite). | Minicu: *“Hello. Does it still hurt, from the fighting?”* · mit `bl_minicu_duc_zuerst`: *“You came first, when I was on the ground. Before Pascal. I heard you.”* |
 | Handlung | | Minicu: *“Pascal said hold the gate. Did he say stop?”* · Chips: “You can go home now, Minicu. You held it.” · “Not yet. But I'll tell you when.” · Sits down next to him on the stones and waits. |
-| Reaktion | „Go home“: | Minicu: *“Is Pascal coming?”* · Chips: “No.” · “I don't know.” · Looks at the gate and doesn't answer. |
-| Reaktion | | Minicu, nach einer langen Pause: *“Okay.”* Er nimmt die Axt. Nach drei Schritten: *“Who holds it now?”* Kevin bleibt sitzen. |
-| Übergang | `a3_minicu_heim`. Ab morgen trägt er an den Baustellen. Zeugen-Tür offen. | |
+| Reaktion | Go home: Minicu: *“Is Pascal coming?”* · Chips: “No.” · “I don't know.” · Looks at the gate and doesn't answer. · Minicu nach einer Pause: *“Okay.”* Nach drei Schritten: *“Who holds it now?”* | |
+| Reaktion | Warten: Die Karte kommt morgen wieder, Minicu sagt dann zuerst: *“You came back. Thank you.”* | |
+| Übergang | `a3_minicu_heim`, Zeugen-Tür, ab morgen trägt er an den Baustellen. | |
 
-Mit `bl_minicu_duc_zuerst` (Welle 6) sagt Minicu zuerst: *“You came first. Before Pascal. I heard you.”* Wer sich setzt und wartet, bekommt die Karte am nächsten Tag noch einmal, und Minicu sagt: *“You came back. Thank you.”*
-
-### 5.5 Tag 25, Frühstück · `a3_uhr` „Under Control“ (ernst, mit trockenem Haken)
-
-Zusammengelegt aus „Uhr“ und „Briefe“ (Gegenrede G4). Elsa hat in der Nacht von Tag 23 alles an die Kommission geschickt (Cliffhanger, gebaut).
+### 5.5 Tag 25, Frühstück · `a3_uhr` „Under Control“ (ernst, trocken)
 
 | Beat | Was | Zeilen |
 |---|---|---|
-| Ansage | Messe (`crew_mess`, W1 A: Bà Tưs Laden), Telefon auf Lautsprecher. Titelkarte *Under Control*. | |
-| Inhalt | Ein Beamter aus Ajaccio (Stimme ohne Bild). | Beamter: *“We received your file, Lieutenant. All of it. Two men from the commission will come on the thirty-fifth.”* · Elsa: *“That's ten days.”* |
-| Inhalt | | Beamter: [clear throat] *“We're very busy here. And we have the feeling you have this under control. Don't you?”* · *“To be honest, we were surprised. Cala d'Orsu sends us a report every month. 'All quiet.' Signed and stamped.”* |
-| Reaktion | Elsa legt auf. | Elsa: *“Five years on this post, and they have never been this polite to me.”* · *“I sent them a report every month too. Through the town hall. So where did mine go?”* |
-| Inhalt | Mina kommt mit der Vespa, ohne Hupe, zwölf Einschreiben aus Monaco im Korb. Einen hält sie hoch. | Mina: *“There's one for Petru. A.V. bought the loan on his boat. And I have to take it to him. Me.”* |
-| Handlung | Elsa wendet sich an Duc. | Elsa: *“First Officer. The commission wants witnesses. People who saw it with their own eyes and will sign their name. Will you help me find them?”* · Chips: “I'll talk to every one of them.” · “What about the crew? We saw everything.” · Takes Mina's basket. “Then we start with the letters.” |
+| Ansage | Messe (Bord, Ersatzreihe), Telefon auf Lautsprecher. | |
+| Inhalt | Beamter aus Ajaccio, nur Stimme. | Beamter: *“We received your file, Lieutenant. Two men from the commission will come on the thirty-fifth.”* · Elsa: *“That's ten days.”* · Beamter: [clear throat] *“We're very busy here. And we have the feeling you have this under control. Don't you?”* · *“To be honest, we were surprised. Cala d'Orsu sends us a report every month. 'All quiet.' Signed and stamped.”* |
+| Reaktion | | Elsa: *“Five years on this post, and they have never been this polite to me.”* · *“I sent them a report every month too. Through the town hall. So where did mine go?”* |
+| Inhalt | Mina mit zwölf Einschreiben aus Monaco. | Mina: *“There's one for Petru. A.V. bought the loan on his boat. And I have to take it to him. Me.”* · mit `bl_tueren_mina`: *“You let me go alone that night, when the phones were dead. I knocked on every door. I can do this too.”* |
+| Handlung | | Elsa: *“First Officer. The commission wants witnesses. People who saw it with their own eyes and will sign their name. Will you help me find them?”* · Chips: “I'll talk to every one of them.” · “What about the crew? We saw everything.” · Takes Mina's basket. “Then we start with the letters.” |
 | Reaktion | Crew: *“You're guests, and Alon just called you his partner on television. The village has to speak for itself.”* · Korb: Mina: *“...Okay. You knock. I'll hold the bike.”* | |
-| Zusatz | **Totòs Versprechen** (`ereignisse_grotte.py:514`, „Make the crate count against Alon“): Hat Duc die Kiste aus der Grotte behalten (`gr_kiste_genommen`), bietet Totò sie hier an. Totò: *“Comandante. The crate from the grotto, the one with the collars. Give it to her. I promised you it would count.”* Chip: Hands Elsa the crate. Setzt `alon_kiste_genutzt` (innerhalb der Frist) und einen Beweis für 5.27 | |
-| Übergang | Zeugenliste offen. Kopfzeile: *Commission in 10 days.* Elsa: *“Tomorrow I drive to Ajaccio. I want to see these 'all quiet' reports myself.”* | |
+| Zusatz (Totòs Versprechen) | Nur wenn Duc Totò in der Grotte versprochen hat, dass die Kiste Alon zu Fall bringt (`VER("toto", …, {"flag": "alon_kiste_genutzt"})`, `ereignisse_grotte.py:513-514`), das Versprechen noch offen ist und Duc die Kiste hat. | Totò: *“Comandante. You promised me that crate would bring Alon down, the night we lost Gennaro. Give it to her.”* · Chips: Hands Elsa the crate. · “Not yet, Totò.” (die Frist läuft weiter) · Kiste: `alon_kiste_genutzt`, Beweis für 5.26 |
+| Übergang | Zeugenliste offen, Kopfzeile *Commission in 10 days.* Elsa: *“On Saturday I drive to Ajaccio. I want to see these 'all quiet' reports myself.”* | |
 
-### 5.6 Tag 25, Dinner · `a3_megan_landet` „Until I Land“ (ernst, Megan-Theater)
+### 5.6 Tag 25, Dinner · `a3_megan_landet` „Until I Land“ (Megan-Theater)
 
-Vorschlag zum offenen Rückkehrtag (E-117): **Tag 25**, zwei Tage nach dem Netz. Ihr Satz im Cliffhanger: *“Don't say a word to anyone until I land.”*
+Rückkehrtag Vorschlag **Tag 25** (E-117 offen), zwei Tage nach dem Netz. Im Cliffhanger: *“Don't say a word to anyone until I land.”*
 
 | Beat | Was | Zeilen |
 |---|---|---|
-| Ansage | Wassertaxi aus Bastia, ein Koffer. Achterdeck (`aft_deck`; W1 A: der Kai). | Erzählerin: *No helicopter this time. A water taxi from Bastia, and one suitcase.* |
-| Inhalt | | Megan: [sigh] *“How... delightful. I leave for three weeks, and my yacht becomes a field hospital.”* · Holm: *“Megan.”* · Megan: *“Captain. You're standing.”* · Holm: *“Mostly.”* |
-| Handlung | Megan nimmt Duc beiseite. | Megan: *“Duc. Alon thanked 'our partners at the Eden Group'. Did you know who was buying the harbour?”* · Chips: “No. Did you?” · “I didn't know they were selling it at all.” · Doesn't joke this time. “Mac. I'd never sell them.” (nur mit `megan_funke`) |
-| Reaktion | | Megan: *“I negotiated that sale. Every line. I never asked who A.V. was, because the numbers were good.”* · *“So that's two of us who didn't ask.”* |
-| Inhalt | Sie bietet einen Handel an, wie immer mit Preis. | Megan: *“Here's the deal, First Officer. I'll try to stop the sale. The board in Monaco won't believe a video, they'll call it fake. They want paper and names. Can you get me names?”* · Chips: “I'm already collecting them.” · “Why do you care now?” · “What's in it for you, Mac?” |
+| Ansage | Wassertaxi, ein Koffer, Achterdeck (Bord, Ersatzreihe). | Erzählerin: *No helicopter this time. A water taxi from Bastia, and one suitcase.* |
+| Inhalt | | Megan: [sigh] *“How... delightful. I'm gone for three weeks, and my yacht becomes a field hospital.”* · Holm: *“Megan.”* · Megan: *“Captain. You're standing.”* · Holm: *“Mostly.”* |
+| Inhalt | Megans alte Kriegstafel hängt noch (`bl_tafel`). | Megan: *“My list. Six jobs. You did {n} of them.”* · Holm, mit `bl_will_ab_niemand` und `bl_will_na_niemand`: *“He slept, both nights. First sensible man on this boat.”* |
+| Handlung | Megan nimmt Duc beiseite. | Megan: *“Duc. Alon thanked 'our partners at the Eden Group'. Did you know who was buying the harbour?”* · Chips: “No. Did you?” · “I didn't know they were selling it at all.” · Doesn't joke this time. “Mac. I'd never sell these people.” (nur `megan_funke`) |
+| Reaktion | | Megan: *“I negotiated that sale. Every line. I never asked who A.V. was, because the numbers were good. So that's two of us who didn't ask.”* |
+| Inhalt | | Megan: *“Here's the deal, First Officer. I'll try to stop the sale. The board in Monaco won't believe a video. They want paper and names. Can you get me names?”* · Chips: “I'm already collecting them.” · “Why do you care now?” · “What's in it for you, Mac?” |
 | Reaktion | Warum: *“Because he nearly sank my ship. And because I signed it.”* · Mac: [chuckle] *“A seat on the board. Obviously. And a quiet evening, maybe. Don't push it.”* | |
-| Übergang | `megan_zurueck` (gebaut, VIP-Kabine; W1 A: Alvas Gästezimmer bis zum Heben), löscht `megan_abgereist`, setzt `a3_megan_handel`. | |
+| Übergang | `megan_zurueck`, VIP-Kabine (W1 auf Grund: erst nach dem Heben, bis dahin Alvas Gästezimmer; W1 gesunken: Alvas Gästezimmer), `a3_megan_handel`. | |
 
 ### 5.7 Tag 26, Frühstück · `a3_festa_tafel` „THIS. IS. THE. FESTA!“ (komisch, warm)
 
 | Beat | Was | Zeilen |
 |---|---|---|
-| Ansage | Piazza. Casanova auf einem Stuhl, eine Tafel an der Kirchenmauer, Kevin darauf. | Erzählerin: *She has been here since five. The board is taller than she is.* |
-| Inhalt | Rede mit Pause für Applaus. **Diesmal klatscht Minicu**, zu laut und allein (nur mit `a3_minicu_heim`, sonst Kevin, der kreischt). | Casanova: *“Cala d'Orsu! They burned our houses. They want us to cancel the festa. So we will NOT!”* (Pause) · Erzählerin: *One person claps. Very loudly. It's Minicu.* · Casanova: *“...Thank you, Minicu. Thank you. That was very loud.”* |
-| Inhalt | | Casanova: *“Eight jobs. Every job is a person. Nothing from the shop! This is a festa, not a supermarket.”* |
-| Handlung | Sie sieht Duc an, zum ersten Mal seit dem Cliffhanger. | Casanova: *“Monsieur. I need fish, lights and a stage. Can I count on you, or should I count on someone else?”* · Chips: “Count on me.” · “I'll bring you the fish myself.” · “Count on me. And on the pirates.” |
-| Reaktion | | Casanova: *“Good. ...Good. That's all I wanted to know today.”* Sie dreht sich schnell weg. |
-| Komisch | Kevin sitzt auf „The Catch“. | Casanova: *“And somebody get that bird off the fish!”* |
-| Übergang | Tafel offen (4.3). | |
+| Ansage | Piazza, eine Tafel an der Kirchenmauer, Kevin darauf. | Erzählerin: *She has been here since five. The board is taller than she is.* |
+| Inhalt | Rede mit Pause. Mit `a3_minicu_heim` klatscht Minicu, zu laut und allein. Sonst kreischt Kevin. | Casanova: *“Cala d'Orsu! They burned our houses. They want us to cancel the festa. So we will NOT!”* (Pause) · Erzählerin: *One person claps. Very loudly. It's Minicu.* · Casanova: *“...Thank you, Minicu. That was very loud.”* |
+| Inhalt | | Casanova: *“Eight jobs. Every job is a person. Nothing from the shop!”* |
+| Handlung | | Casanova: *“Monsieur. I need fish, lights and a stage. Can I count on you, or should I count on someone else?”* · Chips: “Count on me.” · “I'll bring you the fish myself.” · “Count on me. And on the pirates.” |
+| Reaktion | | Casanova: *“Good. ...Good. That's all I wanted to know today.”* · *“And somebody get that bird off the fish!”* |
+| Übergang | Tafel offen. | |
 
-So bleibt die Stille ohne Applaus allein der Festa (Muster dreimal vermieden, G14).
+### 5.8 Tag 28, Tag · `a3_sonntag` „Sunday“ (warm → ernst, leise, eine Kette)
 
-### 5.8 Tag 26, Nachmittag · `a3_don_tuer` „The Priest at the Door“ (ernst, Heiter-Moment)
-
-| Beat | Was | Zeilen |
-|---|---|---|
-| Ansage | Rathaus, Treppe zu Pascals Zimmer (Bestellung `town_hall_stairs`, Platzhalter `village_piazza`). Ein Dutzend Leute mit Kisten. Elsa ist in Ajaccio. | Erzählerin: *They want to throw everything he owned into the harbour.* |
-| Inhalt | Don vor der Tür, ohne Flachmann. | Don: *“No.”* · Mann: *“Father, he opened the gate!”* · Don: *“I know what he did, my son. I was there.”* · *“Nobody goes in. Not today.”* |
-| Handlung | | Mann: *“Are you with him or with us?”* · Chips: Walks up the stairs and stands next to Don. · “Elsa needs what's in there. Leave it until she's back.” · Stays at the bottom of the stairs. |
-| Reaktion | Neben Don: *“Thank you, my son. My knees are not as brave as my mouth.”* (Vertrauen +6, Zeugen-Tür) · Elsa: Die Leute gehen murrend, Don: *“Hm. Logic. I never tried that.”* · Unten: Don hält allein, später: *“Not everyone has to stand on stairs.”* | |
-| Schluss | Don holt den Flachmann doch heraus, sieht ihn an, steckt ihn wieder ein. | |
-| Übergang | `a3_don_tuer`. Die Schublade bleibt heil. | |
-
-### 5.9 Ab Tag 27, freie Karte · `a3_nonna_kiste` „The Last Crate“ (ernst, kurz, leise)
-
-Kanon: Die Kiste stand am Morgen nach der Belagerung (Tag 24) vor Nonnas Tür. Nonna öffnet den Brief erst, **nachdem** Don sich vor Pascals Tür gestellt hat, so versteht sie es rückblickend (`dorf_figuren.md`). Karte ab Tag 27 („Nonna asks for you“, über Frederico oder den Boten). Kommt Duc bis Tag 29 nicht, bringt Mina Schlüssel und Brief mit einem Zettel von Nonna (kürzer, ohne ihre Stimme).
+Messe, Don an der Tür und die Schublade in einer Kette (Woche 4 bleibt leicht). Elsa kommt am Sonntagmorgen aus Ajaccio zurück. Spannung 4.
 
 | Beat | Was | Zeilen |
 |---|---|---|
-| Ansage | Klostergarten. Titelkarte *The Last Crate*. Eine Holzkiste mit Setzlingen, ein sauber gefalteter Brief. | Erzählerin: *Every week there was a crate of seedlings at her door. This one came the morning after the siege. She waited three days to open the letter.* |
-| Inhalt | Nonna liest Pascals Sätze vor. | Nonna (liest): *“I told the priest not to go up the mountain. 'Stay, Don. Leave it with me.' I thought it was for safety.”* · *“And I told him all of it, every month, for nine years. He can't say a word. That's why he drinks.”* |
-| Inhalt | Nonna, zu sich: | Nonna: *“And on Friday he stood in front of that door for him. Now I understand.”* |
-| Reaktion | Zur Kiste: | Nonna: [sniff] *“I told Isabelle that man has a good heart. You don't have a good heart, Pascal. You have a bad conscience.”* |
-| Zusatz | Mit `bl_minicu_sag_es` steht ein Satz mehr im Brief: | Nonna (liest): *“Duc told me to say it to him. So I did. It was the only true thing I said that night.”* |
-| Handlung | Unter den Setzlingen ein alter Schlüssel mit Zettel. | Zettel: *“Leave it with... no. You do it. I just have the key.”* · Nonna: *“The cellar door of the Casanova house. Do you want it, or shall I throw it in the sea?”* · Chips: Takes the key. · “Keep it, Nonna. I'll find another way in.” |
-| Reaktion | Nimmt: Item „Cellar Key“ (`a3_kellerschluessel`). Lehnt ab: `a3_schluessel_nein`, Casanova führt an Tag 34 (Kanon). | |
-| Schluss | Sie pflanzt die Setzlinge trotzdem. | Erzählerin: *She plants them anyway. Nothing in her garden goes hungry.* |
-
-Item: *Old iron, a little rust, a ribbon from a seedling tray. It came in a crate of seedlings. The man who sent it used to open every door in this village.*
-
-### 5.10 Tag 28, Tag · `a3_messe_schublade` „Sunday, Eleven Months“ (warm → ernst, leise)
-
-Zusammengelegt (G4). Erst die Messe, dann die Schublade. Spannung 4, ein Fund, kein Gipfel (G13).
-
-| Beat | Was | Zeilen |
-|---|---|---|
-| Ansage | Kirche (`church`). Ein Eimer in der ersten Reihe, es tropft. | Erzählerin: *The new roof was his money. The money stopped. The rain did not.* |
-| Inhalt | | Don: *“Today I'll keep it short, because the roof is listening.”* |
-| Inhalt | Draußen an der Haltestelle reißt ein Vater den Busfahrplan ab. Kein Kind im Bild (Kanon). | Erzählerin: *The school bus won't come on Monday. A father takes the timetable down and folds it very small.* |
-| Inhalt | Bà Tư drückt Duc eine Dose in die Hand. | Bà Tư: *“Eat. You're too thin. And don't look at the bus stop like that. You didn't stop that bus.”* |
-| Ansage | Rathaus, Pascals Zimmer (Bestellung `pascal_room`). Schreibtisch, verschlossen. **Ein leerer Haken an der Wand, ein heller Rand, wo der Hut hing.** Elsa ist zurück, mit einem Brecheisen. | |
-| Inhalt | | Elsa: *“Father. I'm going in.”* · Don: *“You're the law, Lieutenant. I'm only a door.”* |
-| Inhalt | Erstes Blatt. | Elsa: *“My antenna form. Eleven months. 'Almost through.'”* Kein Witz. |
-| Inhalt | Vier Bilder, je ein Satz. | Erzählerin: *Elsa's reports to the mayor, never delivered.* · *Casanova's EU applications, signed, never sent.* · *Copies of the monthly report to Ajaccio: “All quiet.” His signature.* · mit `rt_ende_alle` oder `ark_aussagen_3`: *The signed statements from the red team. Elsa handed them in herself.* · mit `bl_wache_gesehen`: *A radio log. Night of the twenty-second, three o'clock: two words.* Holm erkennt die Uhrzeit, ein Beweis mehr |
+| Ansage | Kirche, ein Eimer in der ersten Reihe, es tropft. | Erzählerin: *The new roof is his money. The money has stopped. The rain hasn't.* |
+| Inhalt | | Don: *“Today I'll keep it short, because the roof is listening.”* · Erzählerin: *Outside, at the bus stop, a father takes the timetable down and folds it very small. The school bus won't come on Monday.* · Bà Tư, eine Dose in Ducs Hand: *“Eat. You're too thin. And don't look at the bus stop like that. You didn't stop that bus.”* |
+| Ansage | Nach der Messe: Leute mit Kisten an der Rathaustreppe (Bestellung `town_hall_stairs`). | Erzählerin: *They want to throw everything he owned into the harbour.* |
+| Inhalt | Don vor der Tür, ohne Flachmann. | Don: *“No.”* · Mann: *“Father, he opened the gate!”* · Don: *“I know what he did, my son. I was there. Nobody goes in.”* |
+| Handlung | | Mann: *“Are you with him or with us?”* · Chips: Walks up the stairs and stands next to Don. · “Elsa is on her way. Leave it for her.” · Stays at the bottom of the stairs. |
+| Reaktion | Neben Don: *“Thank you, my son. My knees are not as brave as my mouth.”* (+6, Tür) · Elsa: *“Logic. I never tried that.”* · Unten: Don hält allein (seine Tür bleibt über Vertrauen 3 und *The Bell* erreichbar) | |
+| Ansage | Elsa kommt mit einem Brecheisen. Pascals Zimmer (Bestellung `pascal_room`): Schreibtisch, **ein leerer Haken, ein heller Rand an der Wand**. | Elsa: *“Father. I'm going in.”* · Don: *“You're the law, Lieutenant. I'm only a door.”* |
+| Inhalt | | Elsa: *“My antenna form. Eleven months. 'Almost through.'”* · Erzählerin: *Elsa's reports to the mayor, never delivered.* · *Casanova's EU applications, signed, never sent.* · *Copies of the monthly report to Ajaccio: “All quiet.” His signature.* · mit `rt_ende_alle` oder `ark_aussagen_3`: *The red team's signed statements. Elsa handed them in herself.* |
+| Inhalt | mit `bl_wache_gesehen` (Duc hat Holm von der Nachtwache erzählt, Holm hat es Elsa gesagt): ein Funkbuch. | Elsa: *“Holm told me about three o'clock. Here it is. Night of the twenty-second: two words.”* (Beweis) |
 | Wende | Ganz unten ein Kassenbuch in derselben sorgfältigen Hand. | Elsa: [sigh] *“The roof. The school bus. The festa money. And here: the priest. Sandru. ...Madame Casanova.”* |
-| Handlung | | Elsa: *“This goes to the commission. All of it, or only his part? Think about it until then. You'll be there when I hand it over.”* · Chips: “All of it.” · “Only Alon's part. The village has paid enough.” · “I don't know yet.” |
-| Reaktion | Vorgemerkt (`a3_buch_alles` / `_teil` / `_offen`), endgültig an Tag 35. | Elsa: *“For the record: I'd make the same face you're making.”* |
-| Übergang | Item „Pascal's Ledger“ bei Elsa. Ziel-Zeile: *Elsa wants to read the reports to Casanova tonight.* | |
+| Handlung | | Elsa: *“This goes to the commission. All of it, or only his part? Think about it until then.”* · Chips: “All of it.” · “Only Alon's part. The village has paid enough.” · “I don't know yet.” |
+| Reaktion | vorgemerkt (`a3_buch_alles` / `_teil` / `_offen`) | Elsa: *“For the record: I'd make the same face you're making.”* |
+| Übergang | `a3_don_tuer`, Item „Pascal's Ledger“ bei Elsa. Nonnas Karte ab dem Nachmittag (5.9). | |
 
-### 5.11 Tag 28, Abend · `a3_berichte` „Every Report“ (ernst, Casanovas Wende)
+### 5.9 Ab Tag 28 Nachmittag, Karte · `a3_nonna_kiste` „The Last Crate“ (ernst, kurz)
+
+Die Kiste stand seit dem Morgen von Tag 24 vor Nonnas Tür. Sie öffnet den Brief erst, nachdem Don vor Pascals Tür stand (Kanon: sie versteht es rückblickend). Kommt Duc bis Tag 30 nicht, bringt Mina Schlüssel und Brief mit einem Zettel von Nonna.
 
 | Beat | Was | Zeilen |
 |---|---|---|
-| Ansage | Kirchenstufen bei Nacht (Bestellung, Platzhalter `village_piazza`). Kerzen, Elsa mit einem Stapel. | |
+| Ansage | Klostergarten, Kiste mit Setzlingen, ein gefalteter Brief. | Erzählerin: *Every week there is a crate of seedlings at her door. This one came the morning after the siege. She waited until today to read the letter.* |
+| Inhalt | | Nonna (liest): *“I told the priest not to go up the mountain. 'Stay, Don. Leave it with me.' I thought it was for safety.”* · *“And I told him all of it, every month, for nine years. He can't say a word. That's why he drinks.”* · Nonna: *“And today he stood in front of that door for him. Now I understand.”* |
+| Zusatz | mit `bl_minicu_sag_es` | Nonna (liest): *“Duc told me to say it to him, to Minicu at the gate. So I did. It was the only true thing I said that night.”* |
+| Reaktion | | Nonna: [sniff] *“I told Isabelle that man has a good heart. You don't have a good heart, Pascal. You have a bad conscience.”* |
+| Handlung | Ein alter Schlüssel mit Zettel. | Zettel: *“Leave it with... no. You do it. I just have the key.”* · Nonna: *“The cellar door of the Casanova house. Do you want it, or shall I throw it in the sea?”* · Chips: Takes the key. · “Keep it, Nonna. I'll find another way in.” |
+| Schluss | | Erzählerin: *She plants them anyway. Nothing in her garden goes hungry.* |
+
+### 5.10 Ab Tag 24 Abend, Karte · `a3_siri_post` „In My Own Words“ (ernst → warm)
+
+Kanon: Siris Post in eigenen Worten, Vaters Pullover, Yasins Geldangebot.
+
+| Beat | Was | Zeilen |
+|---|---|---|
+| Ansage | Kai bei Sonnenuntergang, Siri im Pullover ihres Vaters, dem mit den Sternen. | |
+| Inhalt | mit `siri_wartet` (sie wollte auf Minicu warten): Siri geht zuerst zu Minicu. | Siri: *“Minicu, can I show them you're standing?”* · Minicu: *“Does it hurt them to see?”* · Siri: *“No. I think it helps.”* |
+| Inhalt | mit `siri_darf_posten`: | Siri: *“It was up for four seconds, and then his video slid over it. This time I'm not giving him four seconds.”* |
+| Inhalt | | Yasin: *“Bro. Somebody offered me twenty thousand for the video. Twenty! That's business.”* · Siri: *“It's his company, Yasin. He'll buy it, and nobody will ever see it.”* |
+| Handlung | | Siri: *“Duc. I want to post it myself. No filter, no music, just what we saw. Is that brave or stupid?”* · Chips: “Brave. Post it.” · “Post it, and I'll stand next to you when he calls it fake.” · “Ask Yasin. It's his video too.” |
+| Reaktion | Yasin, ehrlich, dann überspielt: *“...I filmed Minicu falling, and I kept filming. I don't want money for that. Okay? Don't tell anyone I said okay.”* | |
+| Übergang | `a3_siri_post`, Beweis (Wahrheit). Mit `siri_wartet` stärker: der Post zeigt Minicu stehend. | |
+
+### 5.11 Tag 29, Abend · `a3_berichte` „Every Report“ (ernst, Casanovas Wende)
+
+| Beat | Was | Zeilen |
+|---|---|---|
+| Ansage | Kirchenstufen bei Nacht, Kerzen, Elsa mit einem Stapel. | |
 | Inhalt | | Elsa: *“March. 'Dogs with collars near the monastery road.'”* · *“May. 'Request for a meeting with the mayor.'”* · *“August. 'Request for a meeting with the mayor.'”* · Erzählerin: *She reads thirty-one of them. Casanova doesn't stop her once.* |
-| Reaktion | Casanova leise und kurz, ihre Stimme beim Thema Elternhaus. | Casanova: *“He told me you never wrote.”* · Elsa: *“I wrote every month, Madame.”* |
+| Reaktion | | Casanova: *“He told me you never wrote.”* · Elsa: *“I wrote every month, Madame.”* |
 | Handlung | | Casanova: *“Monsieur. Pascal kept the truth in a drawer for nine years. What did you keep in yours?”* · Chips: “Nothing about your harbour. But I should have asked my own company more questions.” · Sits down on the step below her. “Only that I'm sorry it came on television.” · “I'm still here. That's my answer.” |
-| Reaktion | Erste: *“Questions. Hm. Nobody here asked enough of those, Monsieur.”* (+6) · Zweite: Sie nickt. (+4) · Dritte: *“Yes. You are. So is the bell, and the bell has no choice.”* (+2) | |
+| Reaktion | Erste: *“Questions. Nobody here asked enough of those, Monsieur.”* (+6) · Zweite: sie nickt (+4) · Dritte: *“Yes. You are. So is the bell, and the bell has no choice.”* (+2) | |
 | Schluss | | Casanova: *“Lieutenant. From now on you report to me. Directly. Every day, if you like.”* · Elsa: *“Every day, Madame?”* · Casanova: *“...Every week.”* |
-| Übergang | `a3_berichte`, Casanovas Zeugen-Tür. Elsa schickt die EU-Anträge selbst (Saat für den Brüssel-Brief im Epilog). | |
+| Übergang | Casanovas Tür. Elsa schickt die EU-Anträge selbst (Brüssel-Brief im Epilog). | |
 
-### 5.12 Ab Tag 25, freie Karte · `a3_siri_post` „In My Own Words“ (ernst → warm)
+### 5.12 Ab Tag 24, Karte · `a3_revanche` „The Rematch“ (komisch, warm)
 
-Kanon: Siris Post in eigenen Worten (Säule Wahrheit), Yasin bekommt Geld für sein Video angeboten (`belagerung.md`), Vaters Pullover (`siri.md`).
-
-| Beat | Was | Zeilen |
-|---|---|---|
-| Ansage | Vorderdeck oder Kai bei Sonnenuntergang (W1). Yasin mit Handy, Siri im Pullover ihres Vaters, dem mit den Sternen. | |
-| Inhalt | | Yasin: *“Bro. Somebody offered me twenty thousand for the video. Twenty! That's business.”* |
-| Inhalt | Wer kauft? Eine Agentur, die Alon gehört. Siri weiß es. | Siri: *“It's his company, Yasin. He'll buy it and nobody will ever see it.”* |
-| Handlung | Siri fragt Duc. | Siri: *“Duc. I want to post it myself. No filter, no music, just what we saw. Is that brave or stupid?”* · Chips: “Brave. Post it.” · “Post it, and I'll stand next to you when he calls it fake.” · “Ask Yasin. It's his video too.” |
-| Reaktion | Yasin, beim dritten Chip, ein ehrlicher Satz, dann überspielt: *“...I filmed Minicu falling, and I kept filming. I don't want money for that. Okay? Don't tell anyone I said okay.”* | |
-| Weiche W2 | Mit `siri_wartet` (sie wollte auf Minicu warten): Die Karte kommt erst, wenn Minicu wieder steht (W2 A: Tag 24 Morgen; W2 B: sofort). Mit `siri_darf_posten`: Siri erinnert an die vier Sekunden im Cliffhanger: *“It was up for four seconds, and then his video slid over it. This time I'm not giving him four seconds.”* | |
-| Übergang | `a3_siri_post`, Beweis für Säule Wahrheit. | |
-
-### 5.13 Ab Tag 24, freie Karte · `a3_revanche` „The Rematch“ (komisch, warm)
-
-Nur mit Gemelli (gebaut, `kern/schiessen.HOLM_TAG = 24`). Holm hatte im Bericht gesagt: *“Keep it until the rematch.”*
+Mit Gemelli, ab Tag 24 (`HOLM_TAG = 24`, Branch `fix-akt2-folgen`).
 
 | Beat | Was | Zeilen |
 |---|---|---|
-| Ansage | Holm auf der Mole, ohne Krücke. Petru hat Flaschen auf einen Felsen gestellt. | Holm: *“Frankfurt. You still have my rifle. I want it back, so we shoot for it. Ready?”* |
+| Ansage | Holm auf der Mole, ohne Krücke. | Holm: *“Frankfurt. You still have my rifle. I want it back, so we shoot for it. Ready?”* |
 | Inhalt | Schießwette (gebaut). | Holm: *“It pulls left, like the day you won it from me.”* |
-| Reaktion | Gewinnt Duc: *“Faen. Keep it. I'll win it back at the festa.”* · Verliert Duc: Sie prüft Gemelli und gibt es zurück. *“Keep it anyway. My hands are fine now. My head isn't, yet.”* Mit `bl_nachtwache_niemand`: leiser Nachsatz: *“I told you to send somebody to the north road that night. I should have gone myself.”* | |
-| Schluss | Petru stellt die letzte Flasche wieder hin. | Petru: *“Hm. Again.”* · Holm, zu ihm: *“Takk.”* |
+| Reaktion | Duc gewinnt: *“Faen. Keep it. I'll win it back at the festa.”* · verliert: *“Keep it anyway. My hands are fine now. My head isn't, yet.”* · mit `bl_nachtwache_niemand`: *“I told you to send somebody to the north road that night. I should have gone myself.”* | |
+| Schluss | | Petru, stellt die letzte Flasche hin: *“Hm. Again.”* · Holm: *“Takk.”* |
 
-### 5.14 Tag 29, Frühstück · `a3_idee` „Forty Men and a Boat“ (komisch → warm)
-
-Drei Fassungen, die erste passende gilt.
+### 5.13 Tag 29, Frühstück · `a3_idee` „Forty Men and a Boat“ (komisch → warm)
 
 | Fassung | Bedingung | Kernzeile |
 |---|---|---|
-| Bibi | `rt_bibi_bleibt` und `mo_eco_idee` | Bibi: [laugh] *“So he's got forty men, a boat and nothing to do? And they know every rock in that bay? Doudou. Doudou, come here. I need you to do some numbers.”* (Kanon) |
-| Lea | `margot_geborgen` (Flag der Tauchgang-Sitzung, Fragenliste F-05) | Lea: *“Did you know a protected bay needs people who know every rock? Proper people, with boats. And they've got forty!”* |
+| Bibi | `rt_bibi_bleibt` und `mo_eco_idee` | Bibi: [laugh] *“So he's got forty men, a boat and nothing to do? And they know every rock in that bay? Doudou. Doudou, come here. I need you to do some numbers.”* |
+| Lea | `margot_geborgen` (F-05) | Lea: *“Did you know a protected bay needs people who know every rock? Proper people, with boats. And they've got forty!”* |
 | Petru | sonst | Petru: *“Hm. Boats need captains. He has one boat and forty men who are good at one thing. Finding things in caves.”* |
 
-| Beat | Was | Zeilen |
-|---|---|---|
-| Ansage | Hafen, die Piraten tragen Schiefer, Buenaventura zählt laut auf Spanisch und verliert sich. | |
-| Inhalt | Die Idee (Fassung oben). | |
-| Handlung | | Buenaventura: *“Tours? Tourists? On my ship? Why would a pirate do that, Señor?”* · Chips: “You were a pirate. Now you're a captain with a debt.” · “You'd be head of something. Head of Sea Captains Eco Tours.” · “There's a rock in front of the grotto. At low tide, it's an island.” |
-| Reaktion | | Buenaventura: *“Head of...”* (Pause) *“...Sea Captains Eco Tours.”* (Pause) *“I would need a hat.”* |
-| Wende | | Buenaventura: *“But the grotto belongs to him. The old man with the oranges. And I owe him everything already. The ship. Even the name of the ship.”* |
-| Übergang | Karte „The Man with the Orange“ (5.15). | |
+| Beat | Zeilen |
+|---|---|
+| Handlung | Buenaventura: *“Tours? Tourists? On my ship? Why would a pirate do that, Señor?”* · Chips: “You were a pirate. Now you're a captain with a debt.” · “You'd be the head of something. The head of the sea captains.” · “Show people the grotto. They'll pay to see it.” |
+| Reaktion | Buenaventura: *“The head of...”* (Pause) *“...I would need a hat.”* · *“But the grotto belongs to the old man with the oranges. And I owe him everything already. The ship. Even the name of the ship.”* |
+| Übergang | Karte „The Man with the Orange“. |
 
-### 5.15 Ab Tag 29, freie Karte · `a3_orange` „The Man with the Orange“ (ernst-komisch, grau)
-
-Bitter mit `gennaro_verschwunden` (Kanon: Riscossore hat Gennaro auf dem Gewissen). Wird nicht aufgelöst.
+### 5.14 Ab Tag 29, Karte · `a3_orange` „The Man with the Orange“ (ernst-komisch)
 
 | Beat | Was | Zeilen |
 |---|---|---|
-| Ansage | Grotte, Halle. Riscossore schält eine Orange. Totò kommt mit, ab Vertrauen 3. | Mit `gr_8_riscossore` (Duc hat ihn besiegt): Riscossore: *“Last time you came with a knife. Today you came with a captain. Better.”* · Ohne: Erzählerin: *An old man in a white suit sits by the water and peels an orange. Everybody here owes him money.* |
+| Ansage | Grotte, Riscossore schält eine Orange. Totò ab Vertrauen 3 dabei. | mit `gr_8_riscossore`: Riscossore: *“Last time you came with a knife. Today you came with a captain. Better.”* · ohne: Erzählerin: *An old man in a white suit sits by the water and peels an orange. Everybody here owes him money.* |
 | Inhalt | | Buenaventura: *“I want to show tourists your grotto. I pay you from every ticket.”* · Riscossore: *“Eventually.”* · Buenaventura: *“...Eventually.”* · Riscossore: *“A man in prison pays nobody. A man with tourists pays me every day, a little. I prefer every day.”* |
-| Handlung | | Riscossore: *“You want something too, I think. The commission. Why should I come and open my book for you?”* · Chips: “Because Alon paid Buenaventura through you. It's in your book.” · “Because nobody pays you if Alon gets the bay.” · Looks at Totò and says nothing. (nur mit `gennaro_verschwunden` und Totò dabei) |
-| Reaktion | Erste: *“Clever. Not kind. Clever.”* · Zweite: *“Yes. That is the reason. Not kindness. I want you to know that.”* · Dritte: Erzählerin: *Totò walks out. Somewhere off Cap Corse, Gennaro's boat is still empty.* Riscossore: *“He hates me. He should.”* (Pause) *“I'll come.”* | |
-| Schluss | | Riscossore, zu Buenaventura, ein Orangenstück: *“Here. Your first payment.”* |
-| Übergang | `a3_riscossore_kommt`, `a3_eco_tours` (nur im guten Weg sichtbar, Kanon). | |
+| Handlung | | Riscossore: *“You want something too, I think. The commission. Why should I come and open my book for you?”* · Chips: “Because Alon paid Buenaventura through you. It's in your book.” · “Because nobody pays you if Alon gets the bay.” · Looks at Totò and says nothing. (nur `gennaro_verschwunden`, Totò dabei) |
+| Reaktion | Erste: *“Clever. Not kind. Clever.”* · Zweite: *“Yes. That is the reason. Not kindness.”* · Dritte: Erzählerin: *Totò walks out. Gennaro's boat is still empty, somewhere off Cap Corse.* Riscossore: *“He hates me. He should. ...I'll come.”* | |
+| Schluss (Kanon `akt3.md`) | Ebbe. Buenaventura watet zu dem Felsen vor der Grotte und steckt seine Flagge hinein. | Buenaventura: *“It is an island. Twice a day.”* · Riscossore, ein Orangenstück: *“Here. Your first payment.”* |
+| Übergang | `a3_riscossore_kommt`. Bis Tag 35 zeigen die Piraten Wege nur als Freundschaftsdienst. Den Namen „Head of Sea Captains Eco Tours“ gibt es erst im Epilog, nur im guten Weg (Kanon). | |
 
-Ohne diese Szene kommt Riscossore trotzdem zur Kommission (Kanon), als Überraschung.
+### 5.15 Tag 30, Frühstück · `a3_maxwell_flug` „Gogo's Medicine“ (warm)
 
-### 5.16 Tag 30, Frühstück · `a3_maxwell_flug` „Gogo's Medicine“ (warm, Maxwell-Kanon)
+| Beat | Zeilen |
+|---|---|
+| Inhalt | Maxwell mit einer Kühltasche: [clear throat] *“Number One. Mr. Maximum is going to fly. In an aeroplane. Up there. Gogo's medicine is in Johannesburg, and the post is too slow.”* · mit `bl_verband_maxwell` zeigt er den Verband aus der Belagerung: *“Mr. Maximum kept it. For luck.”* |
+| Handlung | Maxwell: *“Tell Mr. Maximum something, brother. What does a big man do when he's scared of the sky?”* · Chips: “He takes the window seat and looks anyway.” · Puts a hand on the cool box. “He carries it. Like you always do.” · “He holds Jana's hand. She's coming to the airport.” |
+| Reaktion | dritter: Jana: *“Coach, I'll hold your hand the whole way to Bastia. Sorry. Not sorry.”* |
+| Übergang | Maxwell fehlt Tag 30 bis 32, zurück am Abend von Tag 32: *“Mr. Maximum has flown. Mr. Maximum will never speak of it.”* |
 
-Kanon (`maxwell.md`): Maxwell fliegt Gogos Medizin selbst, drei Tage weg, seine Angst gegen seine Liebe.
+### 5.16 Ab Tag 29, Karte · `a3_lot14` „Lot 14“ (ernst)
 
-| Beat | Was | Zeilen |
-|---|---|---|
-| Ansage | Kai, Maxwell mit einer Kühltasche, sehr still. | |
-| Inhalt | | Maxwell: [clear throat] *“Number One. Mr. Maximum is going to fly. In an aeroplane. Up there.”* · *“Gogo's medicine is in Johannesburg, and the post is too slow. So he carries it himself.”* |
-| Handlung | | Maxwell: *“Tell Mr. Maximum something, brother. What does a big man do when he's scared of the sky?”* · Chips: “He takes the window seat and looks anyway.” · Puts a hand on the cool box. “He carries it. Like you always do.” · “He holds Jana's hand. She's coming to the airport.” |
-| Reaktion | Jana: *“Coach, I'll hold your hand the whole way to Bastia. Sorry. Not sorry.”* (dritter Chip) | |
-| Übergang | Maxwell fehlt Tag 30 bis 32 (kein Training, kein Maxwell in Szenen), zurück an Tag 33. | |
+Kanon: Rosi erfährt durch Yamamoto von „Lot 14“. Ab Vertrauen Yamamoto 3.
 
-### 5.17 Ab Tag 29, freie Karte · `a3_lot14` „Lot 14“ (ernst, Rosi-Kanon)
+| Beat | Zeilen |
+|---|---|
+| Inhalt | Yamamoto: *“So sorry, Rosi-san. I read A.V.'s property lists for my bank. There is a street in Catania. Lot 14. A workshop, closed three years ago.”* · Rosi: *“...The press in that workshop was older than Papa. It had a crack in the left side. He called it Old Lady.”* |
+| Handlung | Rosi: *“Officer. If he goes down, can I buy it back? Tell me the truth.”* · Chips: “If he goes down, yes. So let's make him go down.” · “I don't know. But I'll help you try.” · Sits down on the toolbox next to her and waits. |
+| Übergang | `a3_lot14` (Rosis Ende 2a und 3). |
 
-Kanon (`rosi.md`): Rosi erfährt durch Yamamoto, dass Alon Papas Werkstatt in Catania für Bürogebäude kaufte, „Lot 14“. Nur wenn Yamamoto ab Vertrauen 3. Liegt vor Monaco, damit es auf Ende 2a und 3 einzahlt.
+### 5.17 Tag 31, Dinner · `a3_megan_monaco` „The Board“ (ernst, Säule Geld)
 
-| Beat | Was | Zeilen |
-|---|---|---|
-| Ansage | Werkstatt. Yamamoto mit einem Tablet, verbeugt sich zu oft. | |
-| Inhalt | | Yamamoto: *“So sorry, Rosi-san. I read A.V.'s property lists for my bank. There is a street in Catania. Lot 14. A workshop, closed three years ago.”* |
-| Reaktion | Rosi redet über eine Maschine statt über sich (Figurenseite). | Rosi: *“...The press in that workshop was older than Papa. It had a crack in the left side. He called it Nonna.”* |
-| Handlung | | Rosi: *“Officer. If he goes down, can I buy it back? Tell me the truth.”* · Chips: “If he goes down, yes. So let's make him go down.” · “I don't know. But I'll help you try.” · Sits down on the toolbox next to her and waits. |
-| Übergang | `a3_lot14`. Zahlt auf Rosis Ende (kauft die Werkstatt zurück, Enden 2a und 3). | |
-
-### 5.18 Tag 31, Dinner · `a3_megan_monaco` „The Board“ (ernst, Säule Geld)
-
-Videoanruf aus der VIP-Kabine (W1 A: Alvas Gästezimmer). Der CEO ist laut Kanon Ducs Fan und tritt kaum auf (`nebenfiguren.md`): nur Stimme, schwarzer Bildschirm mit Logo.
-
-**Megans Erfolg hängt an dem, was Duc ihr bringt** (G17): ab 4 Zeugen **oder** 2 Beweisen (Abschnitt 7). Yamamoto mit Bindung 5 ruft vorher an und stoppt den Kredit (Kanon): *“Officer-san. So sorry. I have stopped the loan. I did not ask permission. Very rude of me.”*
+Megans Erfolg hängt an Ducs Material: ab **4 Zeugen oder 2 Beweisen**. Yamamoto mit Bindung 5 ruft vorher an: *“Officer-san. So sorry. I have stopped the loan. I did not ask permission. Very rude of me.”*
 
 | Beat | Was | Zeilen |
 |---|---|---|
-| Ansage | Megan in Boardroom-Kleidung, Duc außerhalb der Kamera. | Megan: *“Stay out of the picture, First Officer. And don't breathe so loudly.”* |
-| Inhalt | | Megan: *“I have {zeugen} people ready to sign. In front of a commission.”* · CEO: *“Megan. A.V. pays us well. Is this about the yacht, or about you?”* |
-| Wende (genug) | | Megan: *“It's about a bay that's worth more protected than sold.”* · CEO: *“...Is Duc there? Put him on.”* · Chips (Duc tritt ins Bild): “The numbers are hers. The names are the village's. I just carried the letters.” · “Sell them the bay, and you sell them me with it.” |
+| Ansage | VIP-Kabine (Bord, Ersatzreihe), Megan in Boardroom-Kleidung. | Megan: *“Stay out of the picture, First Officer. And don't breathe so loudly.”* |
+| Inhalt | | mit Zeugen: Megan: *“I have {zeugen} people ready to sign, in front of a commission.”* · nur Beweise: *“I have papers from his own cellar, and a video he can't buy.”* · CEO (nur Stimme): *“Megan. A.V. pays us well. Is this about the yacht, or about you?”* |
+| Wende (genug) | | Megan: *“It's about a bay that's worth more protected than sold.”* · CEO: *“...Is Duc there? Put him on. Duc, tell me straight. Is this village worth more than what A.V. pays me?”* · Chips: Steps into the picture. “The numbers are hers. The names are the village's. I just carried the letters.” · “Sell them the bay, and you sell them me with it.” |
 | Wende (zu wenig) | | CEO: *“Bring me something better than a fishing village, Megan.”* Bildschirm aus. |
-| Reaktion | | genug: Megan: *“That's the first argument I've won that I actually believe in. It's... uncomfortable.”* · zu wenig: *“How... delightful.”* (leise) |
-| Übergang | `a3_megan_wende` oder `a3_megan_verloren`. Die Säule Geld braucht weiter die Margot (Kanon). | |
+| Reaktion | | genug: *“That's the first argument I've won that I actually believe in. It's uncomfortable.”* · zu wenig: *“How... delightful.”* (leise) |
+| Übergang | `a3_megan_wende` oder `a3_megan_verloren`. Säule Geld braucht weiter die Margot. | |
 
-### 5.19 Tag 32, Nachmittag · `a3_switched_off` „Switched Off“ (ernst, **der** schwere Moment)
+### 5.18 Tag 32, Nachmittag · `a3_switched_off` „Switched Off“ (ernst, **der** schwere Moment)
 
-Tag 32 ist der erste Tag ohne Gags. Die Szene kommt immer, ob Sandru reden wollte oder nicht. Sonst passiert es, *weil Alon kann* (Kanon).
+**W5 A (Vorschlag).** Tag 32 ist gagfrei. Die Szene kommt immer, *weil Alon kann* (Kanon).
 
 | Beat | Was | Zeilen |
 |---|---|---|
-| Ansage | Keine Titelkarte. Mina rennt die Mole herunter, ohne Vespa. | Mina: *“Yacht! YACHT! The market. It's Sandru.”* |
-| Inhalt | A.V. Market (`av_market`), Sandru zwischen den weißen Regalen. Die Schienen sind still. Keine Musik. | Erzählerin: *The braces are quiet. You never noticed the sound until it stopped.* |
-| Inhalt | Ein Bildschirm über der Kasse, nur Text. | Bildschirm: *Device paused. The user broke the rules of service. Thank you for your understanding.* |
-| Inhalt | | Sandru: [laugh] *“Ha. They switched me off. Like a lamp.”* · mit `a3_zeuge_sandru`: *“I said one word on the phone. One. 'Yes.'”* |
-| Wende | Die Tür. Alva kommt herüber, **zum ersten Mal** in das Haus ihrer Mutter. Titelkarte *Alva*. | Erzählerin: *She has not stepped into this house in six years.* |
+| Ansage | Keine Titelkarte, keine Musik. | Mina: *“Yacht! YACHT! The market. It's Sandru.”* |
+| Inhalt | A.V. Market, Sandru zwischen den Regalen, die Schienen still. | Erzählerin: *The braces are quiet. You never noticed the sound until it stopped.* · Bildschirm: *Device paused. The user broke the rules of service. Thank you for your understanding.* · Sandru: [laugh] *“Ha. They switched me off. Like a lamp.”* · mit `sandru_surren` (Duc hat das Surren gehört): *“You heard them hum, the first day you came in here. Now listen.”* |
+| Wende | Alva betritt **zum ersten Mal** das Haus ihrer Mutter. Titelkarte *Alva*. | Erzählerin: *She has not stepped into this house in six years.* |
 | Handlung | | Alva: *“Duc. The door. Can you hold the door?”* · Chips: Holds the door. · Takes his other arm. · Steps back and lets her do it. |
-| Reaktion | Alva trägt ihn über die Straße in ihre Bar (W4: oder auf eine Matratze in der Baustelle) und die Treppe hoch. | Alva: [sigh] *“You're my little brother, you idiot. I've carried you since you were six.”* · Sandru: *“I know. That's the whole problem.”* |
+| Reaktion | Alva trägt ihn über die Straße in ihre Bar (oder auf eine Matratze in der Baustelle) und die Treppe hoch. | Alva: [sigh] *“You're my little brother, you idiot. I've carried you since you were six.”* · Sandru: *“I know. That's the whole problem.”* |
 | Schluss | Kein Paar. | Erzählerin: *She sits on the stairs for a minute. Then she goes back down to the bar.* |
-| Übergang | `a3_sandru_aus`. Siehe 5.20. Gags mit Ton `witzig` bleiben für den Rest des Akts aus. | |
+| Übergang | `a3_sandru_aus`. Gags mit Ton `witzig` bleiben bis zum Ende aus. | |
 
-### 5.20 Tag 33, Frühstück · `a3_schiene` „No Leash“ (warm, leise)
+**W5 B:** gleicher Aufbau, aber die Lampen des A.V. Market gehen aus, ein Zettel an der Tür (*“Closed until further notice. A.V.”*), zwölf Leute aus dem Dorf stehen vor der dunklen Tür. Sandru steht auf Rosis Schiene vor ihnen und lacht nicht: *“He can't switch my legs off any more. So he switched off your jobs.”* Alva kommt herüber und stellt sich neben ihn. Seine Tür öffnet danach.
 
-Nur wenn Duc sich um Sandru gekümmert hat (`sandru_surren` oder `sandru_herkunft` oder Vertrauen Sandru ab 3; `sandru_herkunft` ist noch nicht gebaut, Fragenliste). Zwei Fassungen (Kanon: ist Rosi gefeuert, hört Maxwell das Surren und Rosi hilft aus der Ferne).
+### 5.19 Tag 33, Frühstück · `a3_schiene` „No Leash“ (warm, leise)
 
-| Beat | Was | Zeilen |
-|---|---|---|
-| Ansage | **Rosi da:** ihre Werkstatt. **Rosi gefeuert:** Maxwells Kabine (W1 A: Petrus Werkstatt), Maxwell gerade zurück, Rosi per Video. | |
-| Inhalt | | Rosi: *“Same motors. Same chips. I only took out the part that talks to his computers. The leash, Officer. Like with the collars.”* · gefeuert: Maxwell: *“Mr. Maximum holds the screwdriver. Rosi says which way. It's teamwork, brother.”* |
-| Inhalt | Sandru steht auf. Die Schienen surren tiefer. | Rosi: *“That sound is mine now. Don't let them tell you otherwise.”* |
-| Handlung | | Sandru: *“A.V. gave me six years of walking. You gave me a speech.”* (Kanon) · *“...And her. You gave me her.”* · Chips: “You gave yourself the speech. I just listened.” · “Go and stand in front of Alva. Straight.” |
-| Reaktion | Erste, mit `sandru_herkunft`: Sandru lacht nicht. *“Iskander. You can say it. My mother says it.”* · Zweite: *“Ha. One thing at a time, Duc.”* | |
-| Übergang | Namensschild ISKANDER mit `sandru_herkunft`, sonst SANDRU. `a3_sandru_schiene`, Zeugen-Tür offen. | |
-
-Ohne Schiene steht Sandru an Tag 34 auf Alons Seite, auf Beinen, die wieder an sind: *“They switched me back on. That's how it works, Duc.”* Sein Name fehlt im Netz.
-
-### 5.21 Tag 33, Frühstück · `a3_einladung` „An Invitation“ (ernst, Mina)
+Nur W5 A, wenn Duc sich gekümmert hat (`sandru_surren`, `sandru_herkunft` (noch nicht gebaut, F-20) oder Vertrauen Sandru 3). Ist Rosi gefeuert, hört Maxwell (zurück seit Tag 32 abends) und Rosi hilft per Video (Kanon).
 
 | Beat | Zeilen |
 |---|---|
-| Ansage | Mina an der Mole mit einem schweren, cremefarbenen Umschlag. Sie hält ihn nur. |
-| Inhalt | Mina: *“This one's for you, Yacht. The good paper. From the house on the hill.”* · Erzählerin liest: *“Dinner. Tomorrow at eight. Just you. A.V.”* |
-| Inhalt | Mit `bl_blatt_gefunden`: Erzählerin: *Your name on the envelope is in a careful hand. You have seen it before: on Minicu's name sheet, the one you picked up at the gate, and on Alon's letters on the church steps.* Sonst nur: *Your name is written in a very careful hand.* |
+| Inhalt | Rosi: *“Same motors. Same chips. I only took out the part that talks to his computers. The leash, Officer. Like with the collars.”* · gefeuert: Maxwell: *“Mr. Maximum holds the screwdriver. Rosi says which way. Teamwork, brother.”* · Rosi: *“That sound is mine now. Don't let them tell you otherwise.”* |
+| Inhalt | Sandru steht auf: *“A.V. gave me six years of walking. You gave me a speech.”* (Kanon) · *“...And her. You gave me her.”* · *“So what do I do now, Duc? Walk over there and say what?”* |
+| Handlung | Chips: “Say thank you. Then say nothing.” · “Go and stand in front of Alva. Straight.” · Shrugs. “You gave yourself the speech. I just listened.” |
+| Reaktion | mit `sandru_herkunft`: *“Iskander. You can say it. My mother says it.”* · sonst: *“Ha. One thing at a time, Duc.”* |
+| Übergang | Namensschild ISKANDER oder SANDRU, `a3_sandru_schiene`, Tür offen. Ohne Schiene: Sandru steht an Tag 34 auf Alons Seite (*“They switched me back on. That's how it works, Duc.”*), sein Name fehlt im Netz. |
+
+### 5.20 Tag 33, Frühstück · `a3_einladung` „An Invitation“ (ernst)
+
+| Beat | Zeilen |
+|---|---|
+| Inhalt | Mina mit einem cremefarbenen Umschlag: *“This one's for you, Yacht. The good paper. From the house on the hill.”* · Erzählerin: *“Dinner. Tomorrow at eight. Just you. A.V.”* · *Your name on the envelope is in a careful hand. You have seen it before: on Minicu's name sheet, the one you picked up at the gate, and on Alon's letters on the church steps.* (`bl_blatt_gefunden`, das beide Bericht-Chips setzen) |
 | Handlung | Mina: *“Are you going?”* · Chips: “Yes.” · “Yes. But not alone.” · “I don't know yet.” |
-| Übergang | Ziel-Zeile: *Tomorrow: dinner at the villa.* Mit Schlüssel: *And you have a key.* Maxwell kommt am Kai an, mit leerer Kühltasche: *“Mr. Maximum has flown. Mr. Maximum will never speak of it.”* |
+| Übergang | Ziel-Zeile: *Tomorrow: dinner at the villa.* Mit Schlüssel: *And you have a key.* |
 
-### 5.22 Tag 33, Abend · `a3_festa_frage` „Who Are You Taking?“ (frech, warm)
+### 5.21 Tag 33, Abend · `a3_festa_frage` „After Midnight“ (frech, warm, **privat**)
 
-Startet die Schluss-Szenen der Romanzen (Abschnitt 6). Jede Frau ab Vertrauen und Begehren 4 fragt in einer kurzen Szene. Duc wählt **eine** oder niemanden. **Lea oder Sophia, nie beide** (Schwestern-Regel). Megan nur mit `megan_funke` und einer gemeinsamen Nacht.
+E-060: Romanzen sind privat. Darum fragt keine Frau nach einer Begleitung vor dem Dorf, sondern nach einem Moment für sich: **nach Mitternacht an der Mole**, wenn die Festa noch läuft. Das Dorf sieht höchstens zwei Menschen, die zusammen am Wasser stehen. Öffentlich bleibt nur, was gebaut und Kanon ist (Alvas Flamenco). Duc wählt eine oder niemanden. **Lea oder Sophia, nie beide.**
+Bedingung je Frau: die Stufe-5-Szene ihrer Leiter gesehen. Megan: `megan_funke` und eine gemeinsame Nacht (sie hat kein Begehren). Bibi: `rt_bibi_bleibt`, Leiter bis *The Brochure*.
 
-| Frau | Ihre Frage | Bei Ja auf der Festa |
+| Frau | Ihre Frage | Nach Mitternacht |
 |---|---|---|
-| Chiara | *“First Officer. I'll ask you once, and if you laugh, it's a two. The festa on Sunday. With me?”* | ihre Zehn (Kanon) |
-| Alva | *“Somebody has to dance with me at the festa, Duc, or I'll dance with Kevin. Your choice?”* | Flamenco, „Only you“ (Kanon) |
-| Lea | *“Two fingers? For the festa. Stay together. You know what it means. Yes?”* | ihre Azoren-Antwort wird Bild (Kanon) |
-| Sophia | *“Ten euros says you'll ask me before I ask you. ...Oh. I've just asked you. Have I lost?”* | erste Lesung vor dem Dorf |
-| Rosi | *“Officer. My mother wears yellow at every festa. If you come, she'll ask questions. Will you come anyway?”* | Rosis Mutter in Zitronengelb |
-| Lola | *“Boss. I'm cooking for everyone on Sunday. Will you sit down with me for one song? Mostly one song.”* | Lola setzt sich hin |
-| Siri | *“No camera at the festa. I want to be there with my own eyes. With you?”* | Siri ohne Handy im Bild |
-| Bibi | *“Okay. Okay! The gates open on Sunday afternoon, the festa's at eight, and I'll be a mess. Will you come anyway?”* | nach *Last Page* (Kanon) |
-| Megan | *“Don't make me say it twice, First Officer. One dance. Then we never speak of it. Agreed?”* | Abendkleid ohne Anker |
+| Chiara | *“First Officer. I'll ask you once, and if you laugh, it's a two. After midnight, on the mole. Will you come?”* | ihre Zehn (Kanon) |
+| Alva | *“After my dance, Duc, I close the bar for one hour. Will you be on the quay?”* | „Only you“ (Kanon, nach dem Flamenco) |
+| Lea | *“Two fingers, the sign from the swim platform. After midnight. Yes?”* | ihre Azoren-Antwort (Kanon) |
+| Sophia | *“Ten euros says you'll come down to the mole after midnight. ...Oh. Have I just lost?”* | eine Zeile aus ihrem Buch, nur für ihn |
+| Rosi | *“Officer. My mother leaves the festa at midnight. Will you be on the mole after that?”* | Rosi sagt „Captain“, wenn er es verdient |
+| Lola | *“Boss. When the cooking's done. One song, just us, on the mole. Mostly one song. Yes?”* | Lola setzt sich hin |
+| Siri | *“No camera after midnight. Will you meet me by the water?”* | ihre eigenen Worte, ohne Handy |
+| Bibi | *“The gates open on Sunday afternoon, and I'll be a mess. After midnight, will you come anyway?”* | nach *Last Page* |
+| Megan | *“Don't make me say it twice, First Officer. The aft deck, after midnight. Then we never speak of it. Agreed?”* | Abendkleid ohne Anker |
 
-Die Gewählte steht in der Nacht von Tag 34 oben auf der Liste, mit eigener erster Zeile. Die anderen bekommen am Tag 35 ein freundliches Echo (`rm_e_*`, Anlass `festa_nein`), z. B. Chiara: *“A nine. For honesty. I'll live.”*
+Die Gewählte steht in der Nacht von Tag 34 oben in der Liste, mit eigener erster Zeile. Kein Echo für die anderen (höchstens eine Leiter-Szene oder ein Echo am Tag, `beziehungen.md`). Sie sind auf der Festa einfach da, jede mit einer Zeile im Festbild.
 
-### 5.23 Tag 34, Frühstück · `a3_villa_plan` „The House on the Hill“ (ernst, kurz)
+### 5.22 Tag 34, Frühstück · `a3_villa_plan` „The House on the Hill“ (ernst, kurz)
 
-Eine Wahl, drei Zeilen (G4). **Elsa ist nicht dabei** (sie darf vom Schlüssel nichts wissen, `dorf_figuren.md`).
+Elsa ist nicht dabei (sie darf vom Schlüssel nichts wissen). Megan auch nicht (sie und Pascal sollen sich nicht begegnen, `dorf_figuren.md`).
 
 | Beat | Zeilen |
 |---|---|
-| Inhalt | Messe: Holm, Rosi, Megan, Casanova. Holm: *“You're invited, Frankfurt. That's not a warrant. It's better.”* · Mit Schlüssel: Rosi: *“A cellar door nobody locks properly. Old iron. My favourite kind of door.”* · Ohne: Casanova: *“I know the cellar. I hid there from my father when I was seven. I'll take you.”* |
-| Handlung | Holm: *“Who goes down with you, Frankfurt?”* · Chips: Rosi · Casanova (ohne Schlüssel Pflicht) · Megan · Alone. |
-| Übergang | `a3_villa_mit_<id>`. Der Nachmittag bleibt frei. |
+| Inhalt | Holm: *“You're invited, Frankfurt. Better than a police paper.”* · mit Schlüssel: Rosi: *“A cellar door nobody locks properly. Old iron. My favourite kind of door.”* · ohne: Casanova: *“I know the cellar. I hid there from my father when I was seven. I'll take you.”* |
+| Handlung | Holm: *“Who goes down with you, Frankfurt?”* · Chips: Nods at Rosi. “You and me.” · Turns to Casanova. “Show me the way, Madame.” (ohne Schlüssel die einzige) · Picks up the key. “I'll go alone.” |
+| Übergang | `a3_villa_mit_<id>`. Nachmittag frei. |
 
-### 5.24 Tag 34, Tag · `a3_villa_keller` „The Cellar“ (ernst, Mission)
-
-Frame-Kette, vier Bilder, ein Kampf (zwei Agenten, ein Roboter, Steel als Beute). Ziel: der Beweis, dass das Feuer befohlen war (Säule Wahrheit, gegen die Lüge im Cliffhanger).
+### 5.23 Tag 34, Tag · `a3_villa_keller` „The Cellar“ (ernst, Mission)
 
 | Frame | Bild (Bestellung) | Inhalt |
 |---|---|---|
-| 1 | `villa_cellar` | Der Schlüssel passt. Mit Casanova: Sie bleibt an der Tür stehen. *“It's smaller than I remember. ...Go. I'll wait here.”* Sie betritt das Haus **nicht** (das bleibt ★, `enden.md`) |
-| 2 | `villa_cellar` | Ein Server-Schrank zwischen alten Weinfässern. Rosi: *“He put his computers in a wine cellar. That's a crime too.”* |
-| 3 | `villa_office` | Ein Ordner mit Whites Einsatzplan: *Day 22, phase 3: torches, houses.* Die Quittung an Buenaventura, bar. Item „White's Orders“ (`a3_beweis_feuer`) |
-| 4 | Treppe | Zwei Agenten, ein Roboter. Kampf. Danach Musik von oben |
+| 1 | `villa_cellar` | Der Schlüssel passt. Casanova bleibt an der Tür: *“It's smaller than I remember. ...Go. I'll wait here.”* (Sie betritt das Haus nicht, das bleibt ★) |
+| 2 | `villa_cellar` | Server-Schrank zwischen Weinfässern. Rosi: *“He put his computers in a wine cellar. That's a crime too.”* |
+| 3 | `villa_office` | Whites Einsatzplan: *Day 22, phase 3: torches, houses.* Quittung an Buenaventura. Item „White's Orders“ (`a3_beweis_feuer`) |
+| 4 | Treppe | zwei Agenten, ein Roboter, Kampf (Steel als Beute) |
 
-### 5.25 Tag 34, Dinner · `a3_villa_dinner` „Name Your Price“ (ernst, Spitze)
+### 5.24 Tag 34, Dinner · `a3_villa_dinner` „Name Your Price“ (ernst, Spitze)
 
-Alon ohne Kamera: ruhig und genau, kein Großsprecher (Figurenseite).
-
-| Beat | Was | Zeilen |
-|---|---|---|
-| Ansage | Titelkarte *Name Your Price*. Speisesaal (`villa_dining`, Platzhalter `alon_keynote`). Ein Tisch für zwei, das Fenster zur Bucht. Pascal steht im weißen Fedora an der Tür. | Erzählerin: *From up here, the village looks like a model. The building sites look like toys.* |
-| Inhalt | Alon im Anzug über dem Exoskelett. | Alon: *“Duc. Sit. Two of my people are asleep in my cellar, so I assume you came the back way. You've been busy.”* · *“Keep the folder. Paper. In my experience, paper loses.”* |
-| Inhalt | Die Chips-Wendung (Kanon, `aufruestung.md`). | Alon: *“Every collar your mechanic cut open sent me one last message. That's how I learned to lock them. You helped me more than any engineer I hired.”* |
-| Inhalt | Sein Motiv in einer Zahl. | Alon: *“Four hundred thousand people died in wars last year. I can bring that to zero. I need one bay and ten more years.”* · *“You've seen my health. I don't have ten years. So I need the bay now.”* |
-| Handlung | **Das Angebot.** | Alon: *“Join me. Name your price.”* · Chips: “No.” · Looks out of the window at the village and says nothing. · “What would my price be?” · Puts his glass down. “Everyone I've met down there. Can you buy that?” |
-| Reaktion | „What would my price be?“: *“Eden Consulting, free of debt. Your name on a building in Frankfurt. And you never think about this village again.”* Dann nur zwei Chips: “Deal.” · “No.” · ★ (alle vier Säulen, Yamamoto Bindung 5, Ende 1 gesehen): dritter Chip *“Deal. Let's sign it in front of the village.”* (Kanon) | |
-| Übergang | Ja → `a3_deal`. Nein → 5.26. | |
-
-### 5.26 Tag 34, Abend · `a3_villa_ende` „The Last Push“ (Presse, dann Kampf oder Festnahme)
+Ohne Kamera: ruhig und genau. Pascal im weißen Fedora an der Tür, ohne Zeile.
 
 | Beat | Was | Zeilen |
 |---|---|---|
-| Presse (Kanon: „vor laufendem Stream“) | Alon tritt auf die Terrasse. Eine Drohnenkamera streamt. Jetzt ist er der Großsprecher. Pascal neben ihm. | Alon: *“Hi, Cala d'Orsu! Quick update from your future. And a big thank you to my partner on the ground, Paul... Paolo. Thank you, Paolo.”* Pascal lächelt. Er korrigiert ihn nicht. · Erzählerin: *The man who knew every name in the village. His master doesn't know his.* |
-| Mit Deal | Duc steht im Stream neben Alon. → Ende 1 (Kanon: Dank unter falschem Namen auch an Duc). | |
-| Endkampf | Ohne Deal: Kamera aus, Alon wird ruhig, das Exoskelett fährt hoch. Kampf (Luft, tödlich, Kanon). Ducs Ausrüstung fällt nicht aus (Kanon). Mit Rosi (`werkstatt_offen`): Unit-01 bricht in Runde 3 durch die Kellertür, ein alter Diesel ohne Chip. | Rosi: *“I took the leash out.”* · Alon: *“I know. That's how I learned to lock it.”* · Rosi: *“She doesn't have a leash. She never did.”* |
-| Festnahme | **Draußen**, an der Mole unter der Villa (G15): Duc kommt mit „White's Orders“ heraus, als eingeladener Gast. Elsa (Vertrauen ab 4, `elsa_hilft`) und die Küstenwache warten. Gilt auch nach einem gewonnenen Kampf. | Elsa: *“Mr. Varenne. Section nine. You have the right to say nothing, and I'd honestly prefer it.”* |
-| Niederlage | Kein Game Over. | Alon: *“Go home, Duc. The commission is tomorrow. I'll be watching.”* |
-| Pascal | Er geht in jedem Fall. Bei der Festnahme sieht er Elsa an. | Pascal: *“Lieutenant. Your mother's birthday is next week.”* Elsa antwortet nicht. |
-| Übergang | `a3_alon_besiegt` und/oder `a3_alon_festgenommen` (Säule Stärke). Nacht: `a3_letzte_nacht` (wie die Belagerungs-Nächte, gebaut; mit Deal keine). | |
+| Ansage | Speisesaal (`villa_dining`, Platzhalter `alon_keynote`), Tisch für zwei, Fenster zur Bucht. | Erzählerin: *From up here, the village looks like a model. The building sites look like toys.* |
+| Inhalt | | Alon: *“Duc. Sit. Two of my people are asleep in my cellar, so I think you came the back way. You've been busy.”* · *“Keep the folder. Paper. In my experience, paper loses.”* · *“Every collar your mechanic cut open sent me one last message. That's how I learned to lock them. You helped me more than any engineer I hired.”* · *“Four hundred thousand people died in wars last year. I can bring that to zero. I need one bay and ten more years. You've seen my health. I don't have ten years. So I need the bay now.”* |
+| Handlung | | Alon: *“Join me. Name your price.”* · Chips: “No.” · Looks out of the window at the village and says nothing. · “What would my price be?” · Puts his glass down. “Everyone I've met down there. Can you buy that?” |
+| Reaktion | Preis: *“Eden Consulting, free of debt. Your name on a building in Frankfurt. And you never think about this village again. So?”* · Chips: “Deal.” · “No.” · ★ (alle vier Säulen, Yamamoto Bindung 5, Ende 1 gesehen): dritter Chip “Deal. Let's sign it in front of the village.” | |
+| Übergang | Ja → 5.25 mit Deal · ★ → 5.25 mit ★ · Nein → 5.25 | |
 
-### 5.27 Tag 35, Tag · `a3_kommission` „Who Saw It?“ (ernst) **mit `mo_kommission`**
+### 5.25 Tag 34, Abend · `a3_villa_ende` „The Last Push“
 
-Ort und Besetzung wie das gebaute `mo_kommission` (`ereignisse_mochis.py:182-185`): **am Kai** (`village_harbour`), Klapptisch, **zwei Männer aus Ajaccio und ein Schreiber**, Elsa legt vor. Die Szene ist eine Kette in der Phase „tag“. Bau-Hinweis: `a3_kommission` öffnet, `mo_kommission` (unverändert, nur mit `mo_ark_beweis`) folgt als Beat, `a3_kommission_2` schließt. Reihenfolge über `direkt`.
+| Zweig | Was | Zeilen |
+|---|---|---|
+| Presse (immer, Kanon „vor laufendem Stream“) | Terrasse, Drohnenkamera, Alon als Großsprecher, Pascal neben ihm. | Alon: *“Hi, Cala d'Orsu! Quick update from your future. And a big thank you to my partner on the ground, Paul... Paolo. Thank you, Paolo.”* Pascal lächelt und korrigiert ihn nicht. · Erzählerin: *The man who knows every name in the village. His master doesn't know his.* |
+| Deal | Duc steht im Stream neben Alon, Ende 1 (Kanon). | |
+| ★ | Das Dorf steht am Fuß der Villa (Kanon `enden.md`), Alon will vor ihnen unterschreiben. Casanova tritt vor und betritt ihr Elternhaus (Schlussbild ★). Genauer Ablauf mit Ducs Feinschliff der Enden | |
+| Nein: Endkampf | Kamera aus, Exoskelett. Kampf (Luft, tödlich). Ducs Ausrüstung fällt nicht aus. Mit Rosi: Unit-01 bricht in Runde 3 durch die Kellertür. | Rosi: *“I took the leash out.”* · Alon: *“I know. That's how I learned to lock it.”* · Rosi: *“She doesn't have a leash. She never did.”* |
+| Nein: Festnahme | An der Mole unter der Villa. Elsa hat den Stream gesehen und ist mit der Küstenwache gekommen. Duc kommt als eingeladener Gast mit „White's Orders“ heraus. Bedingung: Elsa Vertrauen 4, `elsa_hilft`. | Elsa: *“I saw your face on his stream, First Officer. I don't want to know how you got in.”* · zu Alon: *“Mr. Varenne. Coast guard. You're under arrest, and I'd honestly prefer it if you said nothing.”* |
+| Niederlage | kein Game Over | Alon: *“Go home, Duc. The commission is tomorrow. I'll be watching.”* |
+| Pascal | geht in jedem Zweig. Bei der Festnahme: | Pascal: *“Elsa. Your mother's birthday is next week.”* Elsa antwortet nicht. |
+| Nachtwache | mit `bl_nachtwache_wolff` / `_elsa` / `_yamamoto`: Die Person steht im Hof, als Pascal vorbeigeht. | Wolff: *“Three o'clock. 'Not yet.' I remember.”* · Elsa: *“For the record, Pascal: three o'clock.”* · Yamamoto: *“Pascal-san. The coffee was very good. I am still worried.”* |
+| Übergang | `a3_alon_besiegt`, `a3_alon_festgenommen` (Stärke). Nacht: `a3_letzte_nacht` (wie die Belagerungs-Nächte). Mit Deal: keine Nacht. | |
+
+### 5.26 Tag 35, Tag · `a3_kommission` „Who Saw It?“ mit `mo_kommission`
+
+Ort und Besetzung wie `mo_kommission` (`ereignisse_mochis.py:182-185`): **Kai**, Klapptisch, **zwei Männer aus Ajaccio, ein Schreiber**.
+**Reihenfolge:** Hat der Spieler `mo_ark_beweis`, **eröffnet** `mo_kommission` (unverändert, mit seiner eigenen Vorstellung des Tischs), und `a3_kommission` schließt ohne zweite Ansage an. Sonst eröffnet `a3_kommission` mit der Ansage unten. Bau-Hinweis: welches Pflicht-Event zuerst kommt, in `ereignisse_basis.py` festlegen (F-25).
+**Mit Deal:** Die Männer kommen, aber das Dorf schweigt, Duc ist oben in der Villa. Drei Zeilen, dann Ende 1.
 
 | Beat | Was | Zeilen |
 |---|---|---|
-| Ansage | Titelkarte *The Commission*. Erzählerin: *Two men from Ajaccio. One folding table. One clerk with a lot of paper.* | |
-| Inhalt | Der ältere der beiden (Rolle `kommissar`, „the gentleman“ aus `mo_kommission`). | Kommissar: *“We are here to find out what happened in this bay on the twenty-first, twenty-second and twenty-third. Who saw it?”* |
-| Inhalt | **Die Zeugen**, je eine Zeile in ihrer Haltung (4.2). Wer schweigt, sitzt sichtbar am Rand. | Petru: *“I saw the torches. I saw who paid for them. And I saw who stayed.”* · mit Rudern: *“And the village rowed out. Like in 1924.”* · Mina: *“I knocked on every door that night. I don't read the post. This time I read it.”* · Bà Tư (mit `bl_batu_norden`): *“Men in white. They asked me twice for the north road. I told him then. Now I tell you.”* · Alva: *“I had him in my sights. I missed on purpose. Write that down.”* · Sandru: *“My name is {sandru_name}. I carried her out. And the man who switched off my legs is the man who paid for the fire.”* · Don, mit `bl_kirche_don`: *“I was sober. Write that down too. It doesn't happen often.”* · Don, ohne: *“I was asleep on the church steps, my son. But I saw the gate open before I fell asleep.”* · Minicu: *“Pascal said hold the gate. I held it. A man in white hit me. Once.”* · Casanova: *“I am the mayor of Cala d'Orsu. I signed nothing. And I am still here.”* |
-| Inhalt | **Buenaventura.** | Buenaventura: *“A man named White paid me in clean money, like a bank. I gave the order to burn. I gave the order to stop.”* · Kommissar: *“And you are?”* · Buenaventura: *“Captain Buenaventura of The Eventually.”* · Kommissar: *“...I see.”* |
-| Wende | **Riscossore** mit Orange (Kanon). | Riscossore: *“He's telling the truth. It's in my book, page forty-one. A man in prison pays nobody, so I'd like him to stay out.”* |
-| Beat `mo_kommission` | Elsas Schuhschachtel mit den Halsbändern (gebaut, Wert nach `kern/mochis.beweis_stand`) | (gebaute Zeilen) |
-| Inhalt | **Die Beweise**, je ein Satz, nur was der Spieler hat: Whites Einsatzplan (`a3_beweis_feuer`), die Kiste aus der Grotte (`alon_kiste_genutzt`), Siris Post (`a3_siri_post`), Sophias Notizen (`sophia_notizen`), Charlys Mitschrift und die Aufnahme von Whites Angebot (`bl_funk_charly`, `bl_funk_white`), das Funkbuch der Nacht (`bl_wache_gesehen`), die Zeugen der Nachtwache (`bl_nachtwache_*`), Adriens Fotos, der Steuerchip, das fremde Teil, die Aussagen des Red Trio. **Nichts über die Yacht von Tag 0** (`dorf_figuren.md`). | Sophia: *“Darling, I wrote down every time and every word that night on the radio. I didn't know why. Now I do.”* · Elsa (Nachtwache): *“For the record: Pascal used the radio at three. Two words, 'not yet'.”* |
-| Handlung | **Das Kassenbuch**, jetzt endgültig. | Elsa: *“First Officer. All of it, or only his part?”* · Chips: “All of it.” · “Only Alon's part.” |
-| Reaktion | Alles: Wahrheit stärker, der Kommissar liest auch Don, Sandru und Casanova vor. Casanova: *“Yes. Me too.”* Gemeinschaft schwächer. · Teil: Gemeinschaft stärker, Wahrheit bleibt, schwächer (Kanon) | |
+| Ansage (ohne `mo_kommission`) | | Erzählerin: *Two men from Ajaccio. One folding table. One clerk with a lot of paper.* |
+| Inhalt | Der ältere der beiden („the gentleman“). | Kommissar: *“We are here to find out what happened in this bay on the twenty-first, twenty-second and twenty-third. Who saw it with their own eyes?”* |
+| Inhalt | **Zeugen**, je eine Zeile in ihrer Haltung, nur was sie sahen. Wer schweigt, sitzt am Rand. | Petru: *“I saw the torches at my workshop. And I saw who stayed.”* · mit Rudern: *“And the village rowed out. Like in 1924.”* · Mina: *“I knocked on every door that night. I don't read the post. This time I read it.”* · Bà Tư (mit `bl_batu_norden`): *“Men in white. They asked me twice for the north road. I told Duc then. Now I tell you.”* · Alva: *“From the square I saw the north barricade open. Then men in white came through. I saw that with my own eyes.”* · Sandru: *“My name is {sandru_name}. I carried Alva out of the rubble. And the next week, A.V. switched off my legs.”* (W5 B: *“...closed the shop.”*) · Don, mit `bl_kirche_don`: *“I was sober. Write that down too. It doesn't happen often.”* · Don, ohne: *“I was asleep on the church steps, my son. But I saw the gate open before I fell asleep.”* · Minicu: *“Pascal said hold the gate. I held it. A man in white hit me. Once.”* · Casanova: *“I am the mayor of Cala d'Orsu. I signed nothing. And I am still here.”* |
+| Inhalt | **Buenaventura** | *“A man named White paid me in clean money, like a bank. I gave the order to burn. I gave the order to stop.”* · Kommissar: *“And you are?”* · *“Captain Buenaventura of The Eventually.”* · Kommissar: *“...I see.”* |
+| Wende | **Riscossore** mit Orange (Kanon) | *“He's telling the truth. It's in my book, page forty-one. A man in prison pays nobody, so I'd like him to stay out.”* |
+| Inhalt | **Beweise**, je ein Satz, nur was der Spieler hat. Nichts über die Yacht von Tag 0. | `a3_beweis_feuer` · `alon_kiste_genutzt` · `a3_siri_post` · `sophia_notizen`: Sophia: *“Darling, I wrote down every time and every word I heard on the radio that night. I didn't know why. Now I do.”* · `bl_funk_white` / `bl_funk_charly`: Charly: *“Twenty-one forty. He said 'tonight'. Seven out of ten for clarity.”* · Funkbuch (`bl_wache_gesehen`) · Nachtwache je Person: Wolff: *“Three o'clock, the north radio. Two words: 'not yet'.”* · Elsa: *“For the record: three o'clock, two words, 'not yet'.”* · Yamamoto: *“So sorry. At three o'clock I heard two words. 'Not yet.'”* · Adriens Fotos, Steuerchip, fremdes Teil, Red-Trio-Aussagen |
+| Handlung | **Das Kassenbuch**, endgültig | Elsa: *“First Officer. Pascal's book, the one from his locked drawer. All of it, or only Alon's part?”* · Chips: “All of it.” · “Only Alon's part.” |
+| Reaktion | Alles: Wahrheit stärker, der Kommissar liest Don, Sandru und Casanova vor, Casanova: *“Yes. Me too.”* · Teil: Gemeinschaft stärker | |
 | Schluss | | Kommissar: *“Thank you. We have what we need. Or we don't. You'll know tonight.”* |
-| Übergang | Rechnet die Säulen (Abschnitt 7), setzt bei W3 A `akt3_festa`. | |
+| Übergang | Säulen (Abschnitt 7), W3 A setzt `akt3_festa`. | |
 
-**Alvas Aussage zieht Pascal in keinen Fall** (Auflage der Story-Sitzung): Sie sagt nur, was sie sah, nicht, wer es war. Ihr Name für ihn fällt nicht.
+Ob der Funkspruch um drei Uhr als Beweis vorkommen darf, prüft die Story-Sitzung (Auflage: Pascal bleibt außerhalb der Fälle, F-26).
 
-### 5.28 Tag 35, Frühstück · `a3_sonntag` „Coffee, Not Wine“ (warm, kurz)
+### 5.27 Tag 35, Nachmittag · `mo_frei_start` (gebaut) und *Last Page*
 
-| Beat | Zeilen |
-|---|---|
-| Inhalt | Lola gibt Duc zwei Tassen. Lola: *“One for you, one for the priest. Will you take it to him, Boss, or shall I?”* |
-| Handlung | Chips: Takes both cups to the church. · “You take it. He likes you better.” |
-| Reaktion | Don: *“Coffee. On a Sunday. Like the morning of the last wave.”* Er trinkt. (Zahlt nur auf *The Bell*, wenn der Auftrag schon begonnen ist.) |
+Bibis Tore wie gebaut. *Last Page* (Bibi, Leiter Stufe 4, gebaut für Tag 35 Abend) rückt direkt hinter `mo_frei_ende` in den Nachmittag, damit der Abend der Festa gehört.
 
-### 5.29 Tag 35, Dinner · `a3_festa` „The Festa“ (Schlussszene)
+### 5.28 Tag 35, Abend · `a3_festa` „The Festa“
 
 | Beat | Was | Zeilen |
 |---|---|---|
-| Ansage | Titelkarte *The Festa*. Piazza (`village_piazza`, das Festa-Bild). Die Tafel bestimmt Ausstattung und Licht (4.3), das Ende bestimmt, wer bleibt. | Erzählerin je Ausstattung: *Half the lights work. The tables are full anyway.* · *The whole bay is here. Even Kevin.* |
-| Inhalt | Casanovas Rede mit Pause. Niemand klatscht, weil der, der immer anfing, weg ist (Bericht Tag 23). | Casanova: *“Cala d'Orsu has stood on this rock for four hundred years. Pirates came. Tax men came. A man with a satellite came. And tonight...”* (Pause) |
-| Wende | Zwei Takte Stille. Dann fängt Alva an, langsam (Kanon). | Erzählerin: *Nobody claps. Then Alva does. Slowly. Then everyone.* · Casanova: [sniff] *“...Thank you, Alva.”* · Alva: *“Don't get used to it.”* |
-| W3 A | `br_ehrenbuerger` (nicht in Ende 1), `ab_casanova_flamenco`, `gv_rotes_kleid` laufen in dieser Reihenfolge, wie gebaut | |
-| W3 B | dieselben drei als Beats von `a3_festa`, neu geschrieben | |
-| Inhalt | Der Moment der gewählten Frau (5.22). | z. B. Chiara: *“Ten. That's a ten, First Officer. Don't let it go to your head. ...Let it go to your head a little.”* |
-| Inhalt | Holm tanzt nicht. Ihre Mutter (Kanon, Silhouette, Bestellung) sitzt neben ihr. Petru bringt zwei Gläser. | Holm: *“Mamma, this is Petru. He's the one who taught me to sit still.”* · Petru: *“Hm.”* |
-| Wende | Mitternacht, das Ende (Abschnitt 7). | |
-| Epilog | Minas Einschreiben (Kanon, jedes Ende): Pascals Tür, niemand macht auf. | Mina: *“Sign here.”* · Erzählerin: *Nobody is there. It's the first letter she can't deliver.* |
+| Ansage | Piazza, das Festa-Bild. Ausstattung nach der Tafel. | Erzählerin: *Half the lights work. The tables are full anyway.* · oder *The whole bay is here. Even Kevin.* |
+| Inhalt | Casanovas Rede, ihre Pause. Minicu hebt die Hände, sieht auf den leeren Platz neben der Kirchentür, wo Pascal immer stand, und wartet. | Casanova: *“Cala d'Orsu has stood on this rock for four hundred years. Pirates came. Tax men came. A man with a satellite came. And tonight...”* (Pause) |
+| Wende | Zwei Takte Stille, dann Alva, langsam (Kanon). Minicu fällt als Erster ein. | Erzählerin: *Nobody claps. Then Alva does. Slowly. Minicu joins her first. Then everyone.* · Casanova: [sniff] *“...Thank you, Alva.”* · Alva: *“Don't get used to it.”* |
+| Inhalt | mit `bl_kirche_casanova`: Jana kommt mit einer Bitte von den Kindern hinter der Kirchentür. | Jana: *“Madame, sorry, they want the end of the long story. The one from the church.”* · Casanova: *“...Later. I promise.”* |
+| W3 A | `br_ehrenbuerger` (nicht Ende 1), `ab_casanova_flamenco`, `gv_rotes_kleid` in dieser Reihenfolge, mit neuem Fenster (W3) | |
+| W3 B | dieselben drei als Beats von `a3_festa` | |
+| Inhalt | Holms Mutter (Silhouette, Bestellung) sitzt neben Holm, Petru bringt zwei Gläser. | Holm: *“Mamma, this is Petru. He's the one who taught me to sit still.”* · Petru: *“Hm.”* |
+| Inhalt | Die anderen Frauen, je eine Zeile im Festbild (ohne Leiter, ohne Echo) | |
+| Mitternacht | **Der private Moment an der Mole** mit der Gewählten (5.21), dann das Ende (Abschnitt 7). | z. B. Chiara: *“Ten. That's a ten, First Officer. Don't let it go to your head. ...Let it go to your head a little.”* |
+| Epilog (Nacht) | Minas Einschreiben, Pascals Tür, niemand macht auf (Kanon). | Mina: *“Sign here.”* · Erzählerin: *Nobody is there. It's the first letter she can't deliver.* |
 
 ## 6. Romanzen fertig spielen
 
-Jede Frau, deren Leiter bei Stufe 5 angekommen ist (`beziehungen.md`, Romanzen-Leiter), hat in Akt 3 **eine Schluss-Szene** zwischen Tag 24 und 32. Sie liegt vor Monaco und vor der Villa, damit sie dort zählt, und sie ist Durchatmen, kein Drama. Zwei davon sind **Expeditionen mit Rastplatz-Szene** (OFFEN.md, Duc 02.11.2026: Romanzen auf Expeditionen, Rastplatz als intime Szene). Jede beginnt mit einem Rückbezug auf ihre Belagerungs-Nacht oder ihren Abend (`bl_will_ab_<pid>`, `bl_ab_fertig_<pid>`), mit Erinnerung im Satz. Zwei Belagerungs-Nächte mit ihr (`bl_na_fertig_<pid>`) heißt Status „zusammen“ (Folge `fakt`, gebaut).
+Je Frau eine Schluss-Szene zwischen Tag 24 und 32 (vor Monaco und Villa), Bedingung: die Stufe-5-Szene ihrer Leiter. Zwei sind Expeditionen mit Rastplatz-Szene (OFFEN.md, Duc 02.11.). Jede beginnt mit einem Rückbezug mit Erinnerung, aus ihrer Belagerungs-Nacht oder ihrem Abend (`bl_will_ab_<pid>`, `bl_ab_fertig_<pid>`), oder aus ihrer Leiter, wenn es keine gab. Zwei Belagerungs-Nächte (`bl_na_fertig_<pid>`) setzen den Status „zusammen“ (Folge `fakt`).
 
-| Frau | Szene | Kern | Rückbezug mit Erinnerung |
-|---|---|---|---|
-| Chiara | **„Blackout“** (Kanon, `chiara.md:43`, Deutung zur Prüfung): Stromausfall auf der Brücke bei der ersten Probefahrt nach dem Heben (W1 A) oder beim Funktest im Dorf (W1 B). Sie muss Duc um Hilfe bitten, zum ersten Mal ohne Wertung | Romanze über Gefragtwerden | *“That night in the siege, when you came up to the bridge wing and I gave you a nine and a half...”* |
-| Alva | „The Board Is Full“: Papas Tafel ist neu geschrieben, ihr eigener Name steht jetzt darauf, von Duc geschrieben | „Only you“ bleibt der Festa | *“...the evening on the quay, when I gave out free drinks and you said you'd pay the first round...”* |
-| Lea | **Expedition** „One More Dive“: kurzer Tauchgang an der Mündung der Grotte mit Buenaventuras Leuten als Führer (nach `a3_eco_tours`), Rastplatz auf dem Felsen, der nur bei Ebbe eine Insel ist | die Azoren-Antwort reift | *“...two fingers, stay together, the sign I showed you on the swim platform...”* |
-| Sophia | „The Fifteenth Letter“: Die fünfzehnte Antwort eines Verlags kommt mit Minas Post (wenn die Post steht). Duc öffnet ihn nicht, sie entscheidet | keine Show, ihre echte Stimme | *“...ten euros, the bet that you'd ask me what I actually want...”* |
-| Rosi | nach `a3_lot14`: „Two Thirds“: Rosi und Duc setzen Unit-01 neu zusammen, Stoppuhr, unentschieden | „Captain“ fällt, wenn er es verdient hat | *“...the night with the stopwatch, when nobody lost...”* |
-| Lola | „First Guest, Again“: Ihre Hütte am Strand hat überlebt (oder nicht), sie kocht für einen Gast | sie beendet einen ganzen Satz | *“...the night you said yes to the toastie and it wasn't burnt...”* |
-| Siri | nach `a3_siri_post`: „No Caption“: Sonnenuntergang ohne Handy | ihre eigenen Worte | *“...the sunset when I told you I hadn't written my own caption since I was nineteen...”* |
-| Bibi | **Expedition** „Mochi“ (nur `kl_loewe_frei` und offene Station): Mochi in der Macchia einfangen (Kanon E-106), Rastplatz am Feuer. *Last Page* bleibt an Tag 35 | das Field Book bekommt Ducs Seite | *“...the night you said 'until every collar is off', at the campfire with the three of us...”* |
-| Megan | nur `megan_funke`: „Off the Record“: VIP-Kabine (W1 A: nach dem Heben), Outfit `megan_morning_after` am Morgen danach | nie öffentlich (E-060) | *“...the night you called me Mac in the press release week...”* |
+### 6.1 Chiara · „Blackout“ (Deutung von `chiara.md:43`, Character Design prüft, F-18)
 
-**Danzel als Rivale** (Kanon, `danzel.md`): Liegt Ducs Begehren bei Rosi oder Lola höchstens bei 3, schwärmt Danzel in ihrer Szene schüchtern dazwischen, eine Zeile, nie übergriffig.
-**Holm und Petru** (Kanon): freie Abend-Szene `a3_holm_petru` ab Tag 30, beide ab Vertrauen 3. Ingrid ruft dabei an (Kanon, `holm.md`), sie ist Mutter geworden: Holm: *“Ingrid. From the night before Bergen. She has a daughter.”* · Petru: *“Hm. Good.”* Duc kann still weitergehen (*When you look back, the metre between them is gone.*) oder stören (*“Frankfurt. Go away.”* · Petru: *“Hm. Go away.”*).
-**Ligeia:** keine Romanze. Mit `sirene_frei` kommt eine Flaschenpost (Kanon E-117) an Tag 30: *“Sailor. They say the bay will be safe. I would like to sing at something that isn't a shipwreck.”* In den Enden mit geschützter Bucht steht die Galionsfigur am Eingang (Kanon).
+| Beat | Zeilen |
+|---|---|
+| Ansage | Brücke (W1 auf Grund: erste Probefahrt nach dem Heben; sonst Funktest am Kai). Der Strom fällt aus, alles dunkel. |
+| Inhalt | Rückbezug: *“The night in the siege, on the bridge wing, when I rated the sky because I'd run out of things to count. It was a six.”* · mit `bl_verband_chiara`: *“And you gave me the good bandage. I never said thank you. I'm not saying it now either.”* |
+| Handlung | Chiara, leise: *“First Officer. I don't know which breaker it is. What would you do?”* (Romanze über Gefragtwerden) · Chips: Holds the torch and lets her find it. · “The red one. Second row.” · “I don't know either. Let's find it together.” |
+| Reaktion | Licht. Sie bewertet nicht. Erzählerin: *For once, she doesn't give it a number.* |
 
-Der Anteil „frech“ steigt so auf rund 20 % (Festa-Frage, Expeditionen, Megan).
+### 6.2 Alva · „The Board Is Full“
+
+| Beat | Zeilen |
+|---|---|
+| Ansage | Bar nach Feierabend (nach dem Wiederaufbau oder wenn sie steht). Papas Tafel, frisch gewischt. |
+| Inhalt | Rückbezug mit `bl_alva_runde`: *“The evening on the quay, in the siege, when I gave out free drinks and you said you'd pay the first round. You did. I wrote it down.”* |
+| Handlung | Alva gibt ihm die Kreide: *“My name isn't on Papa's board. It never was. What do you write next to it?”* · Chips: Writes ALVA and, next to it, “stays”. · Writes ALVA and leaves the space next to it empty. · Gives the chalk back. “You write it.” |
+| Reaktion | „Only you“ bleibt der Festa (Kanon). |
+
+### 6.3 Lea · Expedition „One More Dive“ (2 Phasen)
+
+| Beat | Zeilen |
+|---|---|
+| Ansage | Grottenmündung, ein Pirat zeigt den Weg (nach `a3_riscossore_kommt`). Rastplatz auf dem Felsen, der bei Ebbe eine Insel ist. |
+| Inhalt | Rückbezug: *“Two fingers, side by side, the sign I showed you on the swim platform when the squid were up.”* |
+| Handlung | Lea: *“The Azores letter is still in my bag. If I go, will you come and see me? Proper see me?”* (nicht bei „locker“) · Chips: “Yes. Dreckly, but yes.” · “Stay. The bay will need you.” · Holds up two fingers and says nothing. |
+| Reaktion | färbt ihr Ende, ändert seine Regel nicht (Kanon *No Glow Tonight*) |
+
+### 6.4 Sophia · „The Sixteenth Letter“
+
+| Beat | Zeilen |
+|---|---|
+| Ansage | Mit Minas Post (wenn die Post steht): ein Brief von einem Verlag, der sechzehnte. |
+| Inhalt | Rückbezug: *“Ten euros, the bet that you'd ask me what I actually want. You did ask. I still owe you the answer.”* |
+| Handlung | Sophia: *“Darling, will you open it, or shall I?”* · Chips: Gives her the letter. “It's yours.” · Opens it and reads the first line out loud. · Puts it in her notebook, unopened. “Later. Together.” |
+| Reaktion | Der Inhalt bleibt offen bis zum Ende (Feinschliff Duc). |
+
+### 6.5 Rosi · „Two Thirds“ (nach `a3_lot14`)
+
+| Beat | Zeilen |
+|---|---|
+| Inhalt | Rückbezug: *“The night with the stopwatch, when nobody lost.”* Rosi und Duc bauen Unit-01s Arm neu, Stoppuhr, unentschieden. |
+| Handlung | Rosi: *“Officer. If I say 'Captain' now, is that an insult or a promotion?”* · Chips: “A promotion. I'll take it.” · “Neither. Say Duc.” · Laughs and hands her the spanner. |
+| Reaktion | „Captain“ fällt, wenn er es verdient (Kanon K1). Danzel schwärmt in einer Zeile dazwischen, wenn Ducs Begehren bei Rosi höchstens 3 ist (Kanon, schüchtern) |
+
+### 6.6 Lola · „First Guest, Again“
+
+| Beat | Zeilen |
+|---|---|
+| Inhalt | Ihre Hütte am Strand. Rückbezug: *“The night in the siege you said yes to the toastie, and it wasn't burnt. Not even a bit.”* |
+| Handlung | Lola: *“Boss. If I cook for you here, will you sit down? Properly? No running off?”* · Chips: Sits down and puts his phone away. · “Only if you sit down too.” · “Can I help?” |
+| Reaktion | Sie beendet einen ganzen Satz (Kanon). Danzel wie bei Rosi. |
+
+### 6.7 Siri · „No Caption“ (nach `a3_siri_post`)
+
+| Beat | Zeilen |
+|---|---|
+| Inhalt | Sonnenuntergang ohne Handy. Rückbezug: *“The sunset on the foredeck, when I told you I hadn't written my own caption since I was nineteen.”* |
+| Handlung | Siri: *“If this was a photo, what would you write under it?”* · Chips: “Nothing. Some things don't need words.” · “Siri, in her own words.” · Takes her hand and doesn't answer. |
+
+### 6.8 Bibi · Expedition „Mochi“ (2 Phasen, nur `kl_loewe_frei` und offene Station)
+
+| Beat | Zeilen |
+|---|---|
+| Ansage | Macchia, Mochis Spur (Kanon E-106: in Akt 3 fangbar). Kampf mit Schlafgranate (gebaut), Rastplatz am Feuer. |
+| Inhalt | Rückbezug: *“The night at the campfire with the three of us, when you said 'until every collar is off'. This is the last one.”* |
+| Handlung | Bibi: *“He's asleep. Do I cut it, or do you? It's the last one.”* · Chips: “You. He's yours.” · “Together.” · Hands her the knife without a word. |
+| Reaktion | *Last Page* an Tag 35 (5.27) |
+
+### 6.9 Megan · „Off the Record“ (nur `megan_funke`)
+
+| Beat | Zeilen |
+|---|---|
+| Inhalt | VIP-Kabine (W1: nach dem Heben, sonst Alvas Gästezimmer). Rückbezug: *“The night of the press release, when I told you not to say a word until I landed. You didn't.”* |
+| Handlung | Megan: *“This stays off the record, First Officer. Can you do that?”* · Chips: “I already did, Mac.” · “Only if you call me Duc.” · Nods and closes the door. |
+| Reaktion | Am Morgen Outfit `megan_morning_after`. Nie öffentlich (E-060). |
+
+**Holm und Petru** (Kanon): Karte `a3_holm_petru` ab Tag 30, beide ab Vertrauen 3. Ingrid ruft an (Kanon): Holm: *“Ingrid. From the night before Bergen. She has a daughter.”* · Petru: *“Hm. Good.”* · Duc geht still weiter (*When you look back, the metre between them is gone.*) oder stört (*“Frankfurt. Go away.”* · Petru: *“Hm. Go away.”*).
+**Ligeia:** keine Romanze. Mit `ligeia_freund` (gebaut, `ereignisse_grotte.py:483`) kommt an Tag 30 eine Flaschenpost: *“Sailor. They say the bay will be safe. I would like to sing at something that isn't a shipwreck.”* Mit `sirene_weg` (der Saphir liegt bei Riposte) eine Zeile mehr: *“And keep my stone safe. It has waited longer than you.”* Die Galionsfigur am Eingang des Schutzgebiets (Kanon) nur mit geborgener Margot.
 
 ## 7. Die Enden lesen den Akt
 
-Die Säulen werden am Spielende umgebaut (Duc 01.11.). Bis dahin (Vorschlag, Zahlen Entwurf):
-
-| Säule | Akt 3 zahlt ein über | Erfüllt, wenn |
+| Säule | Akt 3 zahlt ein über | Erfüllt, wenn (Vorschlag) |
 |---|---|---|
-| **Wahrheit** | Whites Einsatzplan, Kassenbuch „alles“, Siris Post, Sophias Notizen, Funk-Aufnahme und Mitschrift, Funkbuch, Nachtwache, Kiste (`alon_kiste_genutzt`), `mo_kommission` (`beweis_stand`), Adriens Fotos, Steuerchip, Red-Trio-Aussagen | 3 Beweise, oder 2 mit Kassenbuch „alles“ |
-| **Geld** | Margot geborgen (Kanon: ohne sie ist die Säule hin) und `a3_megan_wende` oder Yamamoto Bindung 5 | Margot und eins der beiden |
-| **Gemeinschaft** | Zeugen, Kassenbuch „teil“, Baustellen fertig, Casanova Vertrauen, Ruf ab 5 als Bonus (der Ruf wird hier nur gelesen) | 5 Zeugen, oder 4 mit Kassenbuch „teil“ |
+| **Wahrheit** | Whites Einsatzplan, Kassenbuch „alles“, Siris Post, Sophias Notizen, Funk-Aufnahme und Mitschrift, Funkbuch, Nachtwache, Kiste, `mo_kommission` (`beweis_stand`), Adriens Fotos, Steuerchip, Red-Trio-Aussagen | 3 Beweise, oder 2 mit „alles“ |
+| **Geld** | Margot geborgen (Kanon) und `a3_megan_wende` oder Yamamoto Bindung 5 | Margot und eins davon |
+| **Gemeinschaft** | Zeugen, Kassenbuch „teil“, Baustellen fertig, Casanova Vertrauen, Geldkassette der Margot zurück (Kanon `enden.md`), Ruf ab 5 als Bonus | 5 Zeugen, oder 4 mit „teil“ |
 | **Stärke** | Endkampf gewonnen oder Festnahme | `a3_alon_besiegt` oder `a3_alon_festgenommen` |
 
-**Megans Wende (Monaco)** braucht 4 Zeugen **oder** 2 Beweise bis Tag 31. So hängt sie an Ducs Arbeit, nicht an der Säule, die sie trägt.
+Sichtbar im Schlussbild: Ausstattung der Festa (Tafel), wer im Netz fehlt (Minicu schreibt seinen Namen selbst, schief; vorher gibt Duc ihm das Namensblatt zurück; Pascals Knoten leer, Don knotet ihn wortlos), wer nach Mitternacht an der Mole steht. Die Enden-Tabelle in `enden.md` bleibt. Buenaventura: Eco Tours nur bei freier Bucht, sonst „Pirate Experience“ (Kanon).
 
-**Sichtbar im Schlussbild:** Ausstattung der Festa (Tafel), wer im Netz fehlt (Zeugen; Minicu schreibt seinen Namen selbst, schief, neben Pascals leerem Knoten, den Don wortlos knotet; mit `bl_blatt_gefunden` gibt Duc ihm vorher das Namensblatt zurück), wer an Ducs Tisch sitzt (5.22). Die Enden-Tabelle in `enden.md` bleibt. Buenaventura (Kanon): Eco Tours nur bei freier Bucht, sonst „Pirate Experience“.
+## 8. Register der Belagerungs-Flags
 
-## 8. Wirkpunkte der Belagerungs-Flags
-
-Alle Flags aus `akt3_folgen_belagerung.md`, die nach Tag 23 niemand liest, und wo sie in v2 wirken. (Drei davon wirken seit `fix-akt2-folgen` auch schon in Akt 2.)
-
-| Flag | Wirkt in v2 | Wie |
+| Flag | Szene | Wirkung |
 |---|---|---|
-| `bl_tafel` | 5.6 | Megan sieht ihre alte Kriegstafel: *“My list. Six jobs. You did {n} of them.”* |
-| `bl_verband_wolff` | 4.1 | Die Legion trägt einen Tag an einer Baustelle (+1 Stufe) |
-| `bl_verband_chiara` / `_maxwell` / `_duc` | 6, 5.16 | Chiara: ihre Schluss-Szene ab Tag 24 statt 25 · Maxwell zeigt am Kai den Verband: *“Mr. Maximum kept it. Mr. Maximum keeps everything.”* · Duc: Lola: *“You kept it for yourself? Good. Somebody on this boat has sense.”* |
-| `bl_funk_white`, `bl_funk_charly` | 5.27, Charly | Aufnahme und Mitschrift als Beweis · Charly: *“Twenty-one forty. He said 'tonight'. Seven out of ten for clarity.”* · Grund für Rosi, ihr eine Stelle anzubieten (E-098) |
-| `bl_tueren_petru` | 4.2, 5.27 | Petrus Tür ohne Mindestvertrauen, er bringt einen zweiten Namen mit (ein namenloser Fischer, Legenden-Kommentar) |
-| `bl_tueren_lola` | 4.3 | *The Menu*: Lola kennt jede Küche. *“I've been in every kitchen in this village, Boss. Every single one. Mostly the biscuits.”* Der Auftrag wird eine Entscheidung kürzer |
-| `bl_tueren_mina` | 5.5 | Mina beim Korb: *“You let me go alone that night, when the phones were dead. I knocked on every door. I can do this too.”* Ihre Tür öffnet ohne Post |
-| `bl_batu_norden` | 4.2, 5.27 | Bà Tưs Tür offen, ihre Aussage nimmt „twice“ auf |
-| `bl_nachtwache_wolff` / `_elsa` / `_yamamoto` | 5.27, 5.26 | Zeuge des Funkspruchs um drei, im Ton der Person · steht im Hof der Villa und sagt einen Satz zu Pascal |
-| `bl_nachtwache_niemand` | 5.13 | Holms Nachsatz bei der Revanche |
-| `bl_wache_gesehen` | 5.10 | Funkbuch in der Schublade wird Beweis |
-| `bl_kirche_jana` | 4.3 | Auftrag Kinderbilder |
-| `bl_kirche_don` | 4.3, 5.27 | *The Bell* mit einem Abend · Dons ehrliche Zeile „I was sober“ |
-| `bl_kirche_casanova` | 5.29 | Die Kinder wollen ihre lange Geschichte hören: Casanovas Rede bekommt nach Alvas Applaus einen zweiten, kleinen Teil |
-| `bl_will_ab_<pid>`, `bl_ab_fertig_<pid>` | 6 | Rückbezug am Anfang der Schluss-Szene |
-| `bl_will_ab_niemand`, `bl_will_na_niemand` | 5.1 | Holm, eine Zeile: *“You slept, both nights. Good. Now you can work.”* |
-| `bl_will_na_<pid>`, `bl_na_fertig_<pid>` | 5.22, 6 | erste in der Festa-Frage · Status „zusammen“ |
-| `bl_alva_runde` | 4.1, 6 | Zweite Zeile auf Papas Tafel nach dem Wiederaufbau: *“Everyone. Paid. D.”* · Alvas Rückbezug in ihrer Schluss-Szene |
-| `bl_minicu_duc_zuerst` | 5.4 | *“You came first. Before Pascal. I heard you.”* (gilt in W2 A und B) |
-| `bl_minicu_sag_es` | 5.9 | ein Satz mehr in Pascals Brief |
-| `bl_minicu_gewartet` | – | bewusst ohne Wirkpunkt, Warten war in Ordnung |
-| `bl_blatt_gefunden` | 5.21, 7 | Handschrift auf dem Umschlag, Namensblatt zurück an Minicu |
-| `bl_werkstatt_heil` | 4.1, 4.3 | keine Baustelle, *The Catch* ab Tag 24 |
-| `sophia_notizen` | 5.27 | Beweis |
-| `siri_wartet` | 5.12 | Siris Post wartet auf Minicu |
-| Rettungen (`haeuser[*].status`), `tk_haus_geflickt_` | 4.1 | Dank-Szene je gerettetem Haus, geflickt startet Stufe 1 |
-| Rudern (`dorf_rudert`) | 5.27, 5.29 | **neues Flag** `bl_dorf_rudert` am Ende von Welle 4 (Bau): Petrus Zusatz bei der Kommission, die Boote von 1924 geschmückt im Hafen |
-| `tk_yacht_weg` | W1 | beide Zweige |
+| `bl_tafel` | 5.6 | Megan: „My list. Six jobs.“ |
+| `bl_verband_wolff` | 4.1 | Legion baut eine Stufe |
+| `bl_verband_chiara` | 6.1 | Zeile in ihrer Schluss-Szene |
+| `bl_verband_maxwell` | 5.15 | Verband als Glücksbringer |
+| `bl_verband_duc` | – | bewusst ohne Wirkpunkt (Duc behielt ihn selbst, Welle 2 war die Folge) |
+| `bl_funk_white`, `bl_funk_charly` | 5.26 | Beweise, Charlys Zeile |
+| `bl_tueren_petru` | 2 (Tür), 5.1 | Tür ohne Mindestvertrauen; wirkt seit `fix-akt2-folgen` auch beim Rudern |
+| `bl_tueren_lola` | 4.3 | *The Menu* kürzer |
+| `bl_tueren_mina` | 5.5 | Minas Zeile, Tür ohne Post |
+| `bl_batu_norden` | 2, 5.26 | Tür, Aussage „twice“ |
+| `bl_nachtwache_*` | 5.25, 5.26 | Hof der Villa, Beweis je Person |
+| `bl_nachtwache_niemand` | 5.12 | Holms Nachsatz |
+| `bl_wache_gesehen` | 5.8 | Funkbuch |
+| `bl_kirche_jana` | 4.3 | Kinderbilder |
+| `bl_kirche_don` | 4.3, 5.26 | *The Bell* in einem Abend, „I was sober“; wirkt seit `fix-akt2-folgen` auch in Welle 5 und 6 |
+| `bl_kirche_casanova` | 5.28 | Jana und die lange Geschichte |
+| `bl_will_ab_<pid>`, `bl_ab_fertig_<pid>` | 6 | Rückbezug |
+| `bl_will_ab_niemand`, `bl_will_na_niemand` | 5.6 | Holms Satz |
+| `bl_will_na_<pid>`, `bl_na_fertig_<pid>` | 5.21, 6 | oben in der Liste, Status „zusammen“ |
+| `bl_alva_runde` | 4.1, 6.2 | zweite Zeile auf Papas Tafel; wirkt seit `fix-akt2-folgen` auch in `bl_bar_runde` |
+| `bl_minicu_duc_zuerst` | 5.4 | „You came first.“ |
+| `bl_minicu_sag_es` | 5.9 | ein Satz mehr im Brief |
+| `bl_minicu_gewartet` | – | bewusst ohne Wirkpunkt |
+| `bl_blatt_gefunden` | 5.20, 7 | Handschrift, Namensblatt zurück |
+| `bl_werkstatt_heil` | 4.1, 4.3 | keine Baustelle, *The Catch* sofort |
+| `sophia_notizen` | 5.26 | Beweis |
+| `siri_wartet` | 5.10 | Siri fragt Minicu, stärkerer Post |
+| `siri_darf_posten` | 5.10 | „four seconds“ |
+| `sirene_weg`, `ligeia_freund` | 6 | Flaschenpost |
+| Rettungen, `tk_haus_geflickt_` | 4.1 | Vignette oder Stufe 1 |
+| Rudern | 5.1, 5.26 | **neues Flag** `bl_dorf_rudert` (F-21) |
+| `tk_yacht_weg` | W1 | drei Zweige |
 
-## 9. Gags, Ton, Englisch
+## 9. Gags, Ton, Englisch, Tags
 
-- **Gags** bis Tag 31 (`wann.akt2` auf `[8, 31]`), vorher Texte prüfen, die Alon, Holm, die Festa, „tomorrow“, Megan an Bord, Pascal, Maxwell (Tag 30 bis 32 weg) oder die Yacht (W1) voraussetzen. Ab Tag 32 gagfrei.
-- **Ereignis-Dichte:** Der Faktor 0,45 aus Akt 2 (`kern/ereignisse.AKT2_FAKTOR`) gilt ohne Ende auch in Akt 3. Vorschlag: In Woche 4 auf 0,6 (Durchatmen heißt mehr kleine Momente), in Woche 5 bei 0,45 lassen. Fragenliste F-17.
+- **Gags** bis Tag 31, vorher Texte prüfen (Alon, Holm, Festa, „tomorrow“, Megan an Bord, Pascal, Maxwell Tag 30 bis 32, Yacht). Ab Tag 32 gagfrei.
+- **Ereignis-Dichte:** Woche 4 auf Faktor 0,6, Woche 5 bei 0,45 (F-17).
 - **Ton-Mischung (Ziel):** 35 % warm, 25 % komisch, 20 % ernst, 20 % frech.
-- **Englisch** nach dem Text-Audit: Rückbezüge tragen die Erinnerung im Satz, Chips mit Rückbezug immer im Chip selbst, keine seltenen Wörter ohne Not (in v2 ersetzt: *phones home, dividend, in breach of service agreement, the one who knocks, no warrant*). Seemannswörter einmal erklärt (Audit, Muster 3). Erzähltext im Präsens.
+- **Englisch:** Rückbezüge mit Erinnerung, Chips mit Rückbezug tragen sie selbst, Erzähltext im Präsens, keine seltenen Wörter ohne Not.
+- **Turbo-Tags:** Das Drehbuch setzt Tags nur an den Stellen, an denen das Geräusch die Szene trägt. **Jede vertonte Zeile bekommt beim Bau mindestens einen Tag** in `stimme_tags.json` (CLAUDE.md), Paket F. Grund für die Reihenfolge: Tags hängen am endgültigen Wortlaut, und der ändert sich in Ducs Abnahme noch.
 
-## 10. Brain Trust zu v2
+## 10. Brain Trust zu v2.1
 
-**Sienna (Game Direction):** Die Kette Baustelle, Dank-Szene, Aussage ist jetzt ohne Reibung: Wer ein Haus fertig hat, fragt den Besitzer in derselben Szene. Das ist Stardew mit Mass-Effect-Folgen. ✨ Gegenvorbild bleibt Mass Effect 3 (Zahlen, die niemand fühlt). Darum sitzt jeder Schweigende sichtbar am Kai.
+**Sienna (Game Direction):** Jetzt zählt Woche 4 wirklich: Duc entscheidet, wo die Piraten anfangen, und damit, wer zuerst aussagen kann. Das ist eine Entscheidung mit Folgen, nicht nur Zeit. ✨ Gegenvorbild Mass Effect 3 bleibt, darum sitzt jeder Schweigende sichtbar am Kai.
 
-**Aly (Tech):** Gebaute Haken passen jetzt: `mo_kommission` ist ein Beat, `alon_kiste_genutzt` fällt in Totòs Frist, Akt 3 startet im Code an Tag 24 (E-121). 🤓 Einwand: 33 freie Phasen sind von Hand gerechnet. Ich will einen Bot-Lauf, sobald der Kalender steht, mit zwei Profilen (eine Romanze, alle Zeugen). Gegenvorschlag bis dahin: Zeugen in Dank-Szenen ohne Phase, das spart vier.
+**Aly (Tech):** Drei Dinge brauchen Code, bevor eine Zeile gebaut wird: der Festa-Schalter mit Tag, Phase und Ort (W3 A), die Reihenfolge von `mo_kommission` und `a3_kommission`, und `kern/aufbau.tag_vorbei` nur für angefangene Häuser. 🤓 Das Budget ist von Hand gerechnet, 23 bis 37 Phasen auf 34. Ohne Bot-Lauf glaube ich keiner Zahl über 30.
 
-**Luise (Art & Story):** Der leere Haken in Pascals Zimmer und der tropfende Eimer sind die zwei stillen Bilder des Akts, und Minicus zu lautes Klatschen an Tag 26 ist das warme. 🥹 Kritik: Chiaras „Blackout“ ist eine Deutung. Wenn der Kanon etwas anderes meint, verliert sie ihre stärkste Szene. Gegenvorschlag: Duc fragt Character Design, bevor sie gebaut wird.
+**Luise (Art & Story):** Der private Moment an der Mole ist besser als jede Festa-Begleitung, weil er die Romanze schützt und sie trotzdem in das letzte Bild stellt. 🥹 Kritik: W5 B nimmt Sandru den Moment, in dem Alva ihn trägt. Gegenvorschlag: Wenn Duc W5 B wählt, trägt Alva ihn trotzdem, aber aus einem anderen Grund, nur ohne die Schienen. Das wäre eine Frage an Character Design.
 
-**Maelle (Producerin):** Preis: rund 36 Szenen, grob 650 Sprechzeilen, 8 Hintergründe, 10 Sprite-Wünsche, drei kleine Mechaniken. Das sind fünf bis sechs Bau-Sitzungen. 📋 Kritik: Woche 5 hat an Tag 34 und 35 neun Pflicht-Events am Stück. Das ist gewollt (das Finale zieht an), aber der Nachmittag von Tag 34 muss frei bleiben. Meine Frage an dich, Duc: Bauen wir zuerst Woche 4 mit Baustellen und Zeugen, spielst du sie, und erst dann Woche 5?
+**Maelle (Producerin):** Preis: rund 38 Szenen, grob 700 Sprechzeilen, 8 Hintergründe, 10 Sprite-Wünsche. Fünf Weichen sind viel, aber vier davon sind kleine Ja/Nein-Fragen. 📋 Frage an dich, Duc: Entscheidest du W1 und W5 zuerst? Die beiden ändern die meisten Szenen.
 
-**Sora (Spielerstimme / QA):** Minute 1: Petru tritt vor, ich habe Gänsehaut. Minute 30: Ich trage Steine mit einem Piraten, der seine Fackel nicht hergeben will. 😂 Minute 90: Alva trägt Sandru die Treppe hoch. 😭 Nochmal-Lust 5: Die Festa-Tafel ist jetzt eine Reihe kleiner Dates mit dem Dorf, und die Lichter leuchten bernstein, wenn ich Alons Teile nehme. Das will ich beim zweiten Mal anders sehen. 🔥 Veto bleibt bereit für jeden Auftrag, der wieder zur Mengenliste wird.
+**Sora (Spielerstimme / QA):** Minute 1: Petru tritt vor, und wenn ich gerudert habe, sagt er es. Gänsehaut. Minute 40: Ich entscheide, ob Rosis Lichter bernstein oder weiß leuchten, und ich weiß jetzt schon, dass ich beim zweiten Mal das andere nehme. 😂 Mitternacht an der Mole: Nochmal-Lust 5, und es ist heißer, weil es nicht vor dem ganzen Dorf passiert. 🔥
 
 ## 11. Bauplan (nach Ducs Ja)
 
-| Paket | Inhalt | Dateien |
-|---|---|---|
-| A · Kalender | Akt-3-Kalender bis Tag 35, `zeitraster`, Gags bis 31, Dichte je Woche, `bl_dorf_rudert` | `modul_eden_rise.py`, `ereignisse_basis.py`, `kern/taktik.py`, `kern/abschluss.py` (Beta-Schluss nach `akt2_ende` aufheben) |
-| B · Woche 4 | 5.1 bis 5.13, Baustellen-Karte mit Wahl, Dank-Szenen | `ereignisse_akt3_woche4.py`, `kern/aufbau.py` |
-| C · Zeugen und Tafel | Liste, Türen, Haltungen, acht Auftrags-Szenen | `ereignisse_akt3_zeugen.py`, `ereignisse_akt3_festa.py`, `kern/zeugen.py`, `kern/festa.py` |
-| D · Woche 5 | 5.14 bis 5.26, Villa als Frame-Kette, Endkampf | `ereignisse_akt3_woche5.py`, `ereignisse_akt3_villa.py` |
-| E · Romanzen | Abschnitt 6, zwei Expeditionen | `ereignisse_akt3_romanzen.py` |
-| F · Kommission, Festa, Enden | 5.27 bis 5.29 mit `mo_kommission`, Säulen | `ereignisse_akt3_finale.py` |
-| G · Stimme, Tests | `stimme_tags.json`, `test_akt3_kalender`, `test_zeugen`, `test_festa_tafel`, `test_akt3_events`, Bot-Lauf | `module/eden_rise/`, `tests/` |
+| Paket | Inhalt |
+|---|---|
+| A · Kalender | Kalender bis Tag 35, Gags bis 31, Dichte je Woche, `bl_dorf_rudert`, Beta-Schluss nach `akt2_ende` aufheben, Branch `fix-akt2-folgen` vorher mergen |
+| B · Woche 4 | 5.1 bis 5.12, Baustellen mit Wahl, Piraten nur an angefangenen Häusern, Dank-Szenen und Vignetten |
+| C · Zeugen, Tafel | Liste, Türen, Haltungen, acht Auftrags-Szenen |
+| D · Woche 5 | 5.13 bis 5.25, Villa als Frame-Kette, Endkampf |
+| E · Romanzen | Abschnitt 6, zwei Expeditionen |
+| F · Kommission, Festa, Enden, Stimme | 5.26 bis 5.28, Festa-Schalter (W3), Säulen, alle Zeilen mit Tags in `stimme_tags.json` |
+| G · Tests | `test_akt3_kalender`, `test_zeugen`, `test_festa_tafel`, `test_akt3_events`, Bot-Lauf mit zwei Profilen vor Paket D |
 
 ## 12. Was aus jedem Befund wurde
 
-### Gegenrede (G1 bis G19)
+### 12a. Gegenrede (G1 bis G19)
 
-| # | Befund | Ergebnis in v2 |
+| # | Befund | Ergebnis |
 |---|---|---|
-| G1 | Sonnenbrille dreimal ab | **eingearbeitet:** keine Zeile nimmt sie ab (0, 5.1, 5.6, 5.25) |
-| G2 | Rädchen privat statt Stream | **eingearbeitet:** Dinner privat, danach Pressemoment mit Drohnenkamera (5.26) |
-| G3 | Kommission gegen `mo_kommission` | **eingearbeitet:** Kai, zwei Männer und ein Schreiber, `mo_kommission` als Beat (5.27) |
-| G4 | Woche 4 voller als Woche 5 | **eingearbeitet:** 8 gegen 16 Pflicht, Tag 27 frei, Uhr und Briefe zusammen, Messe und Schublade zusammen |
-| G5 | Zeitbudget falsch | **eingearbeitet:** nur vier Kartenphasen gezählt, 33 frei, Bedarf 20 bis 31. **Nicht eingearbeitet:** Bot-Lauf, weil der Kalender noch nicht gebaut ist (Bauplan G) |
-| G6 | Wochentage | **eingearbeitet:** Tag 24 Mittwoch, 28 und 35 Sonntag |
-| G7 | Petru „am Tor“ | **eingearbeitet:** *“I rowed out with Mina...”* (5.1) |
-| G8 | Alva drei Tage, zweimal „erstes Mal“ | **eingearbeitet:** „since last night“, wacht bei Bà Tư auf, betritt das Haus ihrer Mutter erst in 5.19 |
-| G9 | Zeugen-Chips als Rätsel | **eingearbeitet:** jede Haltung überzeugt, sie färbt nur die Aussage (4.2) |
-| G10 | Tafel als Einkaufsliste, Post wirkungslos | **eingearbeitet:** acht Szenen mit Entscheidung (4.3), Post bringt Zugang aus Bastia (4.1) |
-| G11 | Akt-2-Flags ungenutzt | **eingearbeitet:** Abschnitt 8, jedes Flag mit Wirkpunkt |
-| G12 | Romanzen fehlen | **eingearbeitet:** Abschnitt 6 |
-| G13 | drei schwere Gipfel | **eingearbeitet:** nur Switched Off schwer, Schublade Spannung 4 |
-| G14 | Doppelungen (Applaus, Don) | **eingearbeitet:** Minicu klatscht an Tag 26, *The Bell* mit Plan, Kaffee mit Erinnerung, Dons Epilog-Pointe nicht vorweggenommen |
-| G15 | kleine Kanon- und Logikbrüche | **eingearbeitet:** Lea oder Sophia; „on Sunday“ statt „tomorrow“; Nonna nach Don; Elsa nicht bei der Planung, Festnahme draußen; Casanova bleibt an der Kellertür; Schiene mit Maxwell; Don ohne Flag ehrlich |
-| G16 | Siris Post fehlt | **eingearbeitet:** 5.12, mit Yasins Angebot |
-| G17 | Säule Geld zirkulär | **eingearbeitet:** Megan braucht Zeugen oder Beweise, CEO will Duc sprechen (5.18) |
-| G18 | schwieriges Englisch | **eingearbeitet:** ersetzt (Abschnitt 9), Präsens |
-| G19 | Chips ohne Frage | **eingearbeitet:** jede Wahl hat eine Frage davor (5.14, 5.23, 5.28) |
+| G1 | Sonnenbrille | eingearbeitet, keine Zeile nimmt sie ab |
+| G2 | Rädchen privat | eingearbeitet: Dinner privat, Presse danach (5.25) |
+| G3 | Kommission gegen `mo_kommission` | eingearbeitet: Kai, Besetzung, `mo_kommission` eröffnet (5.26) |
+| G4 | Woche 4 voll | eingearbeitet: 6 gegen 16 Pflicht, 3,4 gegen 2,8 freie Phasen je Tag, Tag 27 frei, Tag 26 nur warm und komisch |
+| G5 | Zeitbudget | eingearbeitet mit Phasen je Szene. **Nicht eingearbeitet:** Bot-Lauf, weil es noch keinen Kalender gibt (Bauplan G) |
+| G6 | Wochentage | eingearbeitet |
+| G7 | Petru am Tor | eingearbeitet, zwei Fassungen nach Rudern |
+| G8 | Alva | eingearbeitet: „since last night“, Kirche statt Market |
+| G9 | Rätselchips | eingearbeitet: jede Haltung überzeugt, keine Tür nach einem Chip für immer zu |
+| G10 | Einkaufsliste, Post | eingearbeitet (4.3, 4.1) |
+| G11 | Flags | eingearbeitet, jedes Flag in seiner Szene (Abschnitt 8 verweist) |
+| G12 | Romanzen | eingearbeitet mit Beat-Tabellen (6) |
+| G13 | Schwere Gipfel | eingearbeitet: nur Switched Off |
+| G14 | Doppelungen | eingearbeitet: Applaus-Logik über Minicu, Kaffee-Szene gestrichen, *The Bell* mit Plan |
+| G15 | Kanon- und Logikbrüche | eingearbeitet |
+| G16 | Siris Post | eingearbeitet (5.10) |
+| G17 | Säule Geld | eingearbeitet (5.17) |
+| G18 | Englisch, Präsens | eingearbeitet: Erzähltext im Präsens, „warrant“, „dividend“, „phones home“, „breach“ ersetzt |
+| G19 | Fragen vor Chips | eingearbeitet, auch 5.17, 5.19, 5.22 |
 
-### Fragen aus der Gegenrede
+### 12b. Unabhängige Prüfung von v2 (30 Funde)
 
-| Frage | Ergebnis |
-|---|---|
-| Was wusste Duc über den Verkauf? | **entschieden im Drehbuch nach Kanon:** nichts, eine feste Fassung (Abschnitt 2) |
-| Petrus Platz an Tag 23 | **nach Kanon:** auf dem Wasser, nicht am Tor |
-| Ort der Kommission | **nach dem gebauten Event:** Kai |
-| Stream oder privat | beides, nacheinander (5.26) |
-| `megan_funke_3`, `sandru_herkunft` | `megan_funke_3` ersetzt durch `megan_funke` und eine gemeinsame Nacht; `sandru_herkunft` bleibt Bedingung, ist aber noch nicht gebaut (Fragenliste) |
-| Alvas Aussage und Pascal | eingehalten (5.27, Hinweis) |
-| Yacht von Tag 0 bei der Kommission | ausgeschlossen (5.27) |
-
-### Weitere Befunde des Prüfers zu v1, die nicht in G1 bis G19 standen
-
-| Befund | Ergebnis |
-|---|---|
-| Totòs Versprechen `alon_kiste_genutzt` | eingearbeitet (5.5, 5.27) |
-| Totòs Akt-3-Geheimnis | **nicht eingearbeitet:** gehört der Story-Sitzung und steht in `story.json`, die diese Sitzung nicht öffnet. Anschlussstelle in der Fragenliste |
-| Maxwells Flug, Ingrid, Buenaventuras Fernseh-Moment und Festa-Lieferung | eingearbeitet (5.16, 6, 5.2, 4.3) |
-| Rosi und Lot 14 | eingearbeitet (5.17) |
-| Riscossore kennt den Grottenkampf | eingearbeitet, zwei Fassungen (5.15) |
-| Alon weiß vom Keller | eingearbeitet (5.25) |
-| Festa-Fülle gegen Ende 2a | eingearbeitet: Tafel = Ausstattung, Ende = wer bleibt (4.3, 5.29) |
-| leerer Fedora-Haken, Kinder an der Haltestelle | eingearbeitet (5.10) |
-| Gags am Tag von Switched Off | eingearbeitet: Switched Off auf Tag 32 |
-| „Brain-Trust-Runde zu zahm“ | eingearbeitet: Abschnitt 10 mit Preis, Einwand und offener Frage |
+| # | Befund | Ergebnis |
+|---|---|---|
+| 1 | W3 A technisch unmöglich | eingearbeitet: W3 A nennt Fenster, Phase, Ort, F-22 |
+| 2 | Yacht hat drei Zustände, Ersatzorte können brennen | eingearbeitet: drei Zweige, Ersatzreihe Kirche, Piazza, Kai |
+| 3 | Baustellen laufen ohne Duc, Tür Stufe 2 gegen fertig | eingearbeitet: Piraten nur an angefangenen Häusern, Tür einheitlich mit der Dank-Szene |
+| 4 | Don und Minicu nach einem Chip zu | eingearbeitet: zweite Tür, Karte kommt wieder |
+| 5 | Präteritum, „warrant“ | eingearbeitet |
+| 6 | Fragen vor Chips, nackte Namen | eingearbeitet |
+| 7 | Woche 4 nur in der Zählung leicht, ernst, Dank-Szenen an Tag 24 | eingearbeitet: neue Verteilung, Vignetten Tag 25 bis 28 ohne Frage, Berichte auf Tag 29 |
+| 8 | Sandru: tote Bedingung, Kanon-Konflikt | eingearbeitet: Zeile an `sandru_surren`, Weiche W5, F-24 |
+| 9 | Totòs Kiste falsch herum | eingearbeitet (5.5) |
+| 10 | Petrus Zeile | eingearbeitet, zwei Fassungen |
+| 11 | E-060 | eingearbeitet: privater Moment nach Mitternacht, Bedingungen je Frau |
+| 12 | Romanzen als Liste, falsche Rückbezüge, Last Page, Echos | eingearbeitet: Beat-Tabellen, Chiara und Sophia korrigiert, Last Page am Nachmittag, keine Echos |
+| 13 | Aussagen ziehen Pascal hinein | eingearbeitet: Alva sagt, was sie sah, Nachtwache je Person, F-26 |
+| 14 | Fragenliste und Register veraltet | eingearbeitet (Fragenliste, E-120) |
+| 15 | hohle Flags, `sirene_frei` | eingearbeitet: `ligeia_freund`, `sirene_weg`, `siri_wartet` mit Minicu, Chiara, `bl_blatt_gefunden` ohne toten Zweig, Flags in den Szenen |
+| 16 | Reihenfolge `mo_kommission` | eingearbeitet, F-25 |
+| 17 | Budget optimistisch | eingearbeitet: 23 bis 37 auf 34, Bot-Lauf als Bedingung |
+| 18 | Insel bei Ebbe, Eco Tours zu früh | eingearbeitet (5.14) |
+| 19 | Applaus-Logik, Kaffee | eingearbeitet (5.28, Kaffee gestrichen) |
+| 20 | Kinder im Bild | eingearbeitet: Chor nur zu hören, Jana bringt die Bilder |
+| 21 | Turbo-Tags fehlen | **nicht im Drehbuch eingearbeitet:** Tags werden beim Bau je Zeile gesetzt, weil sie am endgültigen Wortlaut hängen (Abschnitt 9) |
+| 22 | Rückbezüge ohne Erinnerung | eingearbeitet (Kassenbuch, Lea, Minicu) |
+| 23 | Elsa an der Mole | eingearbeitet: sie hat den Stream gesehen |
+| 24 | ★ und Deal | eingearbeitet (5.25, 5.26) |
+| 25 | `HOLM_TAG` auf welchem Branch | eingearbeitet (Kopf, 5.12) |
+| 26 | unklares Englisch | eingearbeitet: „these people“, „I'm gone“, „You're under arrest“, „Old Lady“ |
+| 27 | Pascal „Lieutenant“, Don „Hm.“ | eingearbeitet |
+| 28 | Zeugen sagen mehr, als sie sahen | eingearbeitet (Regel in Abschnitt 2, Zeilen in 5.26) |
+| 29 | `{zeugen}` = 0, Maxwell, Holm in 5.8, Geldkassette | eingearbeitet |
+| 30 | Megan in der Villa | eingearbeitet: Megan nicht im Plan, nicht im Keller |
