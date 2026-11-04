@@ -12,6 +12,8 @@ TAKTIK = lambda art: {"taktik": art}
 FRAME = lambda: WANN((8, 23))                         # nie gezogen, nur ueber "direkt" geoeffnet
 DIREKT = lambda ziel: {"direkt": ziel}
 MUT = {"wert": "moral", "delta": 1}
+RUNDE_PREIS = 60                                       # Alvas Runde fuer die ganze Bar an Tag 22 (fix-akt2)
+ALVA_RECHNUNG = DIREKT([{"wenn": {"flag": "bl_alva_runde"}, "id": "bl_bar_rechnung"}])   # ohne Versprechen kein zweiter Takt
 # Drehbuch "Hold the Line" (Duc 02.11.2026, docs/wiki/welt/drehbuch_finale.md): Mehrere Pflicht-Events einer Phase laufen in dieser Reihenfolge nacheinander.
 # Die Auftraege (Funk, Tueren, Nachtwache, Kirche) setzen Flags, die kern/taktik.py in den Wellen liest.
 
@@ -250,14 +252,23 @@ EVENTS = [
       P1("alva", ("maxwell", "+", "is telling a story"), ("chiara", "+", "is giving it marks"), ("minicu", "+", "has coins in his hand"), ("pascal", "?", "sits at the end of the bar")),
       "Alva's bar smells of smoke and lemons. The windows are boarded, the chairs are back on the floor, and for one hour everybody laughs. "
       "Behind the bar, on Alva's chalkboard, it still says MINICU 11. Minicu puts a handful of coins on the counter. Pascal sits at the far end and drinks nothing.",
-      [Z("alva", "Somebody promised me a round when this is over. It isn't over, but I'm pouring anyway.", "amusement"),
+      [dict(Z("alva", "Somebody promised me a round when this is over. Last night, on the quay, I wrote it on my board. It isn't over, but I'm pouring anyway.", "amusement"),
+            gruppe="runde", wenn={"flag": "bl_alva_runde"}),
+       dict(Z("alva", "This round is on the house. Don't get used to it.", "amusement"), gruppe="runde"),
        Z("maxwell", "...and then Mr. Maximum hit the robot so hard that it apologised.", "pride"),
        Z("chiara", "Story: seven. Delivery: four. The robot did not apologise.", "amusement"),
        Z("alva", "Put your money away, Minicu. You pay when this is over.", "caring"),
        Z("minicu", "Okay. When it's over.", "joy")],
-      [O("Raises a glass to the room.", [MUT]),
-       O("Sits down next to Pascal at the end of the bar.", [MUT],
+      [O("Raises a glass to the room.", [MUT, ALVA_RECHNUNG]),
+       O("Sits down next to Pascal at the end of the bar.", [MUT, ALVA_RECHNUNG],
          zeile=Z("pascal", "I'm not thirsty tonight, Duc. Go and laugh with them. Leave it with me.", "neutral"))]),
+    # Duc hat Alva an Tag 21 die erste Runde versprochen (bl_alva_runde, ereignisse_belagerung_nacht.py): jetzt kommt die Rechnung (fix-akt2)
+    E("bl_bar_rechnung", "gag1", "wholesome", "The Last Round", FRAME(), "alvas_bar", P1("alva"),
+      "Later, when the room is loud again, Alva puts a small piece of paper in front of you. It is the bill for the round you promised her last night on the quay. Under the number she has drawn a very small heart.",
+      [Z("alva", "You said the first round, for everyone. Everyone came. I don't give credit to people who might die tomorrow, o figliolu, so you pay now.", "amusement")],
+      [O("Pays the bill and leaves a tip.", [{"geld": -RUNDE_PREIS}, V("alva", 4)],
+         zeile=Z("alva", "A tip. In a war. Alva remembers who helps her.", "gratitude")),
+       O("Pays the bill. “It was worth it.”", [{"geld": -RUNDE_PREIS}, V("alva", 4)])]),
     E("bl_batu", "gag1", "ernst", "Twice", PFL(22, "abend", {"wert": ["vertrauen.batu", ">=", 3]}), "batu_shop", P1("batu"),
       "On the way back, the light is still on in Bà Tư's shop. She puts a bowl of soup in front of you before you can say no.",
       [Z("batu", "Ăn đi, con. The men in white ate here last week. They asked me twice for the north road. Nobody asks twice for a road they don't want.", "neutral")],

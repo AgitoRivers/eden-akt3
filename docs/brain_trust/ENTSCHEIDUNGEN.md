@@ -146,3 +146,10 @@ Nur die Hauptsitzung schreibt hier; andere Sitzungen melden Beschlüsse per Nach
 | E-095 | 30.10. | **Dorf, Ausbau (Duc):** Pascal beichtet Don seit Jahren · Minas ungeöffneter Brief von Dumè · Pascals Sturz kostet das Dorf Bus und Dach · Lücken im Netz des Genossenschafts-Endes. Dazu fragt Elsa früh in Akt 3, warum niemand aus der Hauptstadt ermittelt; ihre förmlichen Meldungen lagen in Pascals Schublade, Ajaccio bekam von ihm „All quiet“ | entschieden, nicht gebaut, Story hat geprüft | `wiki/welt/dorf_figuren.md` |
 | E-094 | 30.10. | **Alon heißt Varenne** (Duc), nicht Vance. Er ist Kanadier mit alten französischen Wurzeln | entschieden, Zeile in `a2_logo` noch zu korrigieren und neu zu vertonen | `wiki/figuren/alon.md` |
 | E-106 | 31.10. | **Mochi's mit Pokémon- und Monster-Hunter-Gefühl (Duc, Umsetzung Brain Trust nachts):** nichts wird gefangen, Tiere werden im Kampf beruhigt, Field Book, Köder, Tor, ein Begleiter, Halsbänder als Beweis | gebaut auf Branch `mochis_station`, wartet auf Ducs Probespiel | `wiki/systeme/tierstation.md` |
+
+## Vorschläge aus der Sitzung fix-akt2 (offen, Duc entscheidet)
+
+| Nr | Datum | Vorschlag | Status | Fundstelle |
+|---|---|---|---|---|
+| – | 04.11. | **Dons Kirchen-Wahl wirkt:** Mit `bl_kirche_don` hat die Kirche in Welle 6 ein Leben mehr (zusätzlich zu Vertrauen 3). Damit stehen Jana (erster Schlag zählt nicht) und Don gleich stark gegeneinander | offen, gebaut auf `fix-akt2` | `kern/taktik.py` `_welle_start`, `wiki/systeme/taktik.md` |
+| – | 04.11. | **Alvas Runde wird bezahlt:** Mit `bl_alva_runde` folgt auf die Bar an Tag 22 die Rechnung (`bl_bar_rechnung`, 60 €, Vertrauen Alva +4), ohne Versprechen „On the house“. Neue Zeilen nicht vertont (die `bl_`-Zeilen dieser Datei haben keine Stimm-Tags) | offen, gebaut auf `fix-akt2` | `ereignisse_belagerung.py`, `wiki/welt/drehbuch_finale.md` |
