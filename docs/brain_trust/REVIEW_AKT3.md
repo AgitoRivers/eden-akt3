@@ -142,3 +142,7 @@ Was vor einem Release fehlt, in der Reihenfolge der Wirkung:
 | 11 | Prüfregeln: Ausnahmen für `a3_` enger fassen, `tags_fuer` nur gleiche Quelle ersetzen | Schutz der Werkzeugkette | klein |
 
 **Maelle (Producerin):** Ein nächster Schritt, Duc: Gib die Nummern 1 bis 4 frei. Das sind die fehlenden Verbindungen zwischen Wahl und Folge, und sie heben Akt 3 von gut auf sehr gut, ohne neue Bilder. 📋
+
+## Stand nach dem Umbau (04.11.2026, gleicher Tag)
+
+Umgesetzt: 1, 2, 3, 4, 7, 9 und dazu die Lose bei den Menschen (Besuch ohne Phase, Rundgang mit bis zu drei Losen). Gelesene Wahlen: Lose 46 von 47, Paare 32 von 34, Schluss-Szenen 36 von 36. Hafen 51 von 147. Offen: 5, 6, 8, 10, 11. Einzelheiten: `docs/wiki/welt/drehbuch_akt3.md`, Abschnitt 12a.

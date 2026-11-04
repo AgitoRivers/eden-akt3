@@ -130,11 +130,12 @@ BAU_ZEILE = {
     "bar": G("alva", "[cough] My bar first? ...Don't tell anyone I said thank you. I didn't.", "gratitude"),
     "werkstatt": G("petru", "[clear throat] Hm. Here. Wood first. Then we talk.", "approval"),
 }
+BAU_BILD = {"post": "village_piazza", "batu": "batu_shop", "bar": "alvas_bar", "werkstatt": "petru_workshop"}   # beim Haus, nicht am Hafen
 PIRAT = {"post": "the pirate who burned it", "batu": "the pirate who burned it", "bar": "the pirate who burned it",
          "werkstatt": "the pirate who burned it"}
 
 BAU = [
-    FR("a3_bau_" + hid, "village_piazza", "Lend a Hand: " + BESITZER[hid][2],
+    FR("a3_bau_" + hid, BAU_BILD[hid], "Lend a Hand: " + BESITZER[hid][2],
        BAU_LAGE[hid] + " Who holds the first stone with you?",
        [BAU_ZEILE[hid]],
        [O("Lays the first stone here, with %s." % BESITZER[hid][1], [BAU(hid), V(BESITZER[hid][0], 4)]),
@@ -434,9 +435,9 @@ def _rep(tag_von, tag_bis, bed=None):
 
 
 YACHT = [
-    E("a3_yacht_hotline", "gag1", "witzig", "Eden Fleet Services", _rep(25, 31, DA("rosi")), "village_harbour",
+    E("a3_yacht_hotline", "gag1", "witzig", "Eden Fleet Services", _rep(25, 31, DA("rosi")), "petru_workshop",
       P1("rosi", ("toto", "+", "is humming along")),
-      "Rosi's phone lies on a crate, on speaker. A friendly voice says: Thank you for calling Eden Fleet Services. "
+      "Rosi works in Petru's workshop while the yacht is broken. Her phone lies on a crate, on speaker. A friendly voice says: Thank you for calling Eden Fleet Services. "
       "Your yacht is important to us. Then the music starts. It is very long music.",
       [G("rosi", "[sigh] Eleven minutes. I'm timing it. ...Twelve.", "annoyance"),
        G("toto", "[laugh] Comandante, I know this song now. All of it. Even the sad part.", "amusement")],
@@ -445,9 +446,9 @@ YACHT = [
        O("Hangs up for her. “We fix it ourselves.”", [V("rosi", 4), W("moral", 1)],
          zeile=G("rosi", "[laugh] Finally somebody on this boat who talks sense.", "approval"))],
       sets={"rosi": "Engine Room"}),
-    E("a3_yacht_propeller", "gag1", "witzig", "One Propeller", _rep(26, 31, DA("rosi")), "village_harbour",
+    E("a3_yacht_propeller", "gag1", "witzig", "One Propeller", _rep(26, 31, DA("rosi")), "petru_workshop",
       P1("toto", ("rosi", "-", "reads the delivery note")),
-      "A crate from Monaco stands on the quay. Totò opens it like a birthday present.",
+      "A crate from Monaco stands in Petru's workshop. Totò opens it like a birthday present.",
       [G("toto", "[gasp] Comandante! The Eden Group sent us one propeller. One. We have two.", "surprise"),
        G("rosi", "[sigh] Then we're half finished.", "neutral")],
       [O("“Half is better than nothing.”", [W("moral", 1)],
@@ -517,8 +518,8 @@ CHARLY = [
 # ------------------------------------------------------------------ 5.8 Ersatz: Mina bringt Schluessel und Brief (Tag 31)
 NONNA_MINA = [
     E("a3_nonna_mina", "gag1", "ernst", "A Key from Nonna", PFL(31, "fruehstueck", {"alle": [{"gesehen": "a3_sonntag"}, NICHT(FL("a3_nonna_kiste"))]}),
-      "village_harbour", P1("mina"),
-      "Mina comes down the quay with a small parcel. Inside: an old iron key with a ribbon from a crate of seedlings, and a letter in Nonna's hand.",
+      "village_piazza", P1("mina"),
+      "Mina comes across the square with a small parcel. Inside: an old iron key with a ribbon from a crate of seedlings, and a letter in Nonna's hand.",
       [G("mina", "[clear throat] From Nonna. She says you didn't come, so the mountain comes to you. That's what she said. I don't know what it means.", "neutral"),
        G("mina", "[sigh] The letter says: It's the cellar door of the Casanova house. Pascal left it for me. I don't want it. Do you?", "neutral")],
       [O("Takes the key.", [F("a3_kellerschluessel"), F("a3_nonna_kiste")],

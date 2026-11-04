@@ -119,19 +119,27 @@ def los_offen(lid):
     return {"alle": b}
 
 
-def _weiter_los(lid):
-    i = LOSE.index(lid)
-    rest = LOSE[i + 1:] + LOSE[:i]
-    return WEITER([{"wenn": los_offen(l), "id": "a3_los_" + l} for l in rest] + [{"id": "a3_los_" + lid}])
+# Rundgang (Umbau nach dem Review, 04.11.2026): eine Phase an der Tafel = bis zu drei Lose hintereinander. Nach jedem Los
+# fragt der Frame a3_los_weiter, ob Duc weitergeht. ort_schritte zaehlt die Frames dieses Ausflugs (Los + Pause = 2).
+RUNDGANG_MAX = 3
+BESUCH = {   # Lose, die auch beim Besuch der Person kommen, ohne Phase (kern/akt3.los_besuch, eden.py)
+    "tafel": "petru", "getraenk": "alva", "fang": "angeln", "topf": "kochen", "menue": "kochen", "garten": "nonna",
+}
+
+
+def _weiter_los(lid=None):
+    """Zum naechsten offenen Los, solange der Rundgang noch Platz hat, sonst zum Abschied."""
+    platz = {"ort_schritte": ["<", 2 * RUNDGANG_MAX - 1]}
+    return WEITER([{"wenn": {"alle": [platz, los_offen(l)]}, "id": "a3_los_" + l} for l in LOSE if l != lid] + [{"id": "a3_los_genug"}])
 
 
 def LOS(lid, wer, bild, titel, lage, zeilen, wahlen, bauen=False, sets=None):
     """wahlen: [(chip, kurz, antwort-Zeile)] - 2 oder 3; die letzte Option geht zum naechsten Los."""
     opt = []
     for chip, kurz, z in wahlen:
-        fo = [F("a3_los_" + lid), F("a3_los_%s_%s" % (lid, kurz)), V(wer, 4)] + ([STUFE] if bauen else [])
+        fo = [F("a3_los_" + lid), F("a3_los_%s_%s" % (lid, kurz)), V(wer, 4)] + ([STUFE] if bauen else []) + [WEITER("a3_los_weiter")]
         opt.append(O(chip, fo, zeile=z))
-    opt.append(O("Looks at another name on the board.", [_weiter_los(lid)]))
+    opt.append(O("Leaves this one for another day.", [_weiter_los(lid)]))
     return FR("a3_los_" + lid, bild, titel, lage, zeilen, opt, personen={"handelnd": wer, "betroffen": []}, sets=sets)
 
 
@@ -153,7 +161,7 @@ LOS_FRAMES = [
         [G("batu", "[chuckle] For the festa I cook too much. Like always, but bigger. My way, or your mother's way, con?", "caring")],
         [("“Your way. Always your way.”", "batu", G("batu", "[laugh] Smart boy. My way.", "amusement")),
          ("“My mother's way. I'll tell you how she made it.”", "mutter", G("batu", "[sniff] Tell me. We cook it together. For her.", "caring"))]),
-    LOS("menue", "lola", "village_harbour", "The Menu",
+    LOS("menue", "lola", "batu_shop", "The Menu",
         "The board says: Lola · cooking · the grill. Lola has written a menu on her arm because she ran out of paper.",
         [JE(G("lola", "[laugh] I've been in every kitchen in this village, Boss. Mostly for the biscuits. Who tastes it first?", "joy"), "lola", FL("bl_tueren_lola")),
          JE(G("lola", "[laugh] Boss! The festa menu. Who tastes it first?", "joy"), "lola", None)],
@@ -222,6 +230,20 @@ LOS_FRAMES = [
         sets={"jana": "jana_deck_a"}),
 ]
 
+RUNDGANG = [
+    FR("a3_los_weiter", "village_piazza", "The Festa Board",
+       "You walk back past the board. Madame Casanova crosses one more name off with a red pencil.",
+       [G("casanova", "[clear throat] Good. Who's next, Monsieur? Or is that enough for today?", "neutral")],
+       [O("Walks on to the next name on the board.", [_weiter_los()]),
+        O("“That's enough for today.”", [])],
+       personen={"handelnd": "casanova", "betroffen": []}),
+    FR("a3_los_genug", "village_piazza", "The Festa Board",
+       "The sun is lower now. The board is still there, and so are the names.",
+       [G("casanova", "[sigh] Tomorrow, then. The festa doesn't build itself. ...Mostly it does, but don't tell anyone.", "amusement")],
+       [O("Goes home.", [])],
+       personen={"handelnd": "casanova", "betroffen": []}),
+]
+
 CAPRA = [
     E("a3_los_capra", "gag1", "witzig", "Capra", WANN((26, 34), ["tag", "nachmittag"], bed={"alle": [AKT3, FL("a3_festa_tafel"), FL("rt_bibi_bleibt"), FL("mochis_offen")]}),
       "village_piazza", P1("bibi", ("casanova", "-", "sees the goat")),
@@ -234,7 +256,7 @@ CAPRA = [
          zeile=G("bibi", "[sigh] Fine. But she'll be sad, and so will I.", "disappointment"))]),
 ]
 
-EVENTS = FRAGEN + LOS_FRAMES + CAPRA
+EVENTS = FRAGEN + LOS_FRAMES + RUNDGANG + CAPRA
 
 ORTE = {
     "a3_zeugen": {
@@ -244,7 +266,9 @@ ORTE = {
         "start": [{"wenn": _frage_offen(p), "id": "a3_frage_" + p} for p in ZEUGEN]},
     "a3_lose": {
         "label": "The Festa Board", "bild": "village_piazza", "phasen": ["tag", "nachmittag"],
-        "text": "Madame Casanova's board. Every name is a person with a gift. Help one of them. Takes the whole phase.",
+        "text": "Madame Casanova's board. Walk through the village and help up to three of them. Some you also meet at work, "
+                "without the board: Petru in his workshop, Alva at the bar, Bà Tư and Lola when you cook, Nonna in her shop, "
+                "Buenaventura's men when you fish. Takes the whole phase.",
         "wenn": {"alle": [AKT3, FL("a3_festa_tafel"), {"eine": [los_offen(l) for l in LOSE]}, {"nicht": {"tag_ab": 35}}]},
         "start": [{"wenn": los_offen(l), "id": "a3_los_" + l} for l in LOSE]},
 }

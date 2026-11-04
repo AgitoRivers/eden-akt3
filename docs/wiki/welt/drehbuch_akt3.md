@@ -84,7 +84,7 @@ Minicu steht nicht auf der Liste (Entscheid c). Pascal steht nie darauf (Auflage
 | **30** Di | `a3_maxwell_flug` | frei | frei | frei | frei | 1 | 4 |
 | **31** Mi | frei | frei | frei | `a3_megan_monaco` | frei | 1 | 3 |
 | **32** Do | `a3_probefahrt` (nur wenn die Yacht schwer beschädigt war) | frei | `a3_switched_off` | frei | frei | 1 | 3 |
-| **33** Fr | `a3_einladung` (+ `a3_schiene`) | frei | frei | frei | `a3_nach_mitternacht` | 2 (3) | 3 |
+| **33** Fr | `a3_schiene` oder `a3_sandru_alon`, `a3_maxwell_zurueck` | `a3_einladung` | frei | frei | `a3_nach_mitternacht` | 3 | 2 |
 | **34** Sa | `a3_villa_plan` | `a3_villa_keller` | frei | `a3_villa_dinner` | `a3_villa_ende` | 4 | 1 |
 | **35** So | frei | `a3_kommission` mit `mo_kommission` | `mo_frei_start`, *Last Page* | Vorbereitung (Vignette, keine Wahl) | `a3_festa` | 5 (mit Ende) | 0 |
 
@@ -844,6 +844,22 @@ Test: `tests/test_akt3_romanzen.py`.
 | **Säulen und Enden** | Ende von Tag 35 (`zeitraster.tage = 35`, nur mit `akt3_spielbar`) | Wahrheit: 3 Beweise oder 2 mit „alles“. Geld: Margot, Yamamoto 5 oder Megans Wende. Gemeinschaft: 5 Zeugen oder 4 mit „teil“, Ruf ab 5 zählt wie ein Zeuge. Stärke: Endkampf oder Festnahme. Ende 1 bei Deal, 3 bei vier Säulen, 2½a/b/c bei drei, 2a/b/c bei zwei mit Wahrheit, sonst 0 | ★ ist nicht gebaut (braucht „Ende 1 schon gesehen“ über Spielstände hinweg). Texte der Schlusskarte sind Platzhalter, Feinschliff Duc (E-128 offen, F-35) | `kern/akt3.saeulen`, `ende`, `kern/abschluss.akt3_ende` |
 
 Test: `tests/test_akt3_finale.py`.
+
+**Umbau nach dem Review (04.11.2026, `docs/brain_trust/REVIEW_AKT3.md`, Maßnahmen 1 bis 4, 7, 9):**
+
+| Mechanik | Auslöser | Wirkung | Grenzen | Stelle |
+|---|---|---|---|---|
+| **Lose beim Besuch** | Duc betritt Petrus Werkstatt oder Alvas Bar, angelt, kocht oder verlässt Nonnas Laden, aus der freien Wahl | das offene Los dieser Person öffnet sich **ohne Phase**: Tafel (Petru), Getränk (Alva), The Catch (Angeln), Topf und danach Menü (Kochen), Garten (Nonna) | gleiche Bedingungen wie an der Tafel, je Besuch höchstens ein Los | `kern/akt3.los_besuch`, `eden.los_beim_besuch` |
+| **Rundgang an der Tafel** | Karte „The Festa Board“ (eine Phase) | bis zu **drei Lose** hintereinander, nach jedem fragt Casanova „Who's next?“ | neue Bedingung `{"ort_schritte": ["<", n]}` | `a3_los_weiter`, `a3_los_genug` |
+| **Festa zeigt die Lose** | Abend Tag 35, vor Casanovas Rede | drei Bilder (Building, Food, Decoration), jede Los-Wahl hat ihren Satz; fehlt viel, sagt Casanova es leise, sind fast alle erledigt, freut sie sich laut | ein Satz je Los, kein Zähler | `a3_festa_bauen`, `_essen`, `_schmuck` |
+| **Festbild zeigt die Paar-Wahlen** | danach | je Paar ein Satz zur Wahl in seiner Szene | | `a3_festa_bild` |
+| **Mitternacht erinnert an die Romanze** | Nacht Tag 35, privat (E-060) | ein Satz zur Antwort aus ihrer Schluss-Szene | | `a3_mitternacht_*` |
+| **Kommission färbt die Aussage** | Tag 35 | Petru, Mina, Bà Tư, Alva, Don, Casanova haben je Haltung eine eigene Färbung (ehrlich, unter Druck, mit Papa …), die übrigen Haltungen sprechen die Grundfassung. Keine Fassung ist schwächer | | `a3_kom_zeugen` |
+| **Orte** | | Baustellen beim Haus, Reparatur in Petrus Werkstatt, Bibis Idee an der Station, Mina und Lea vor der Post, Holm und Petru auf der Bank vor der Werkstatt, Einladung und Maxwells Rückkehr auf der Piazza, Nach Mitternacht über Hafen, Bar und Piazza. Hafen: 51 von 147 statt 62 von 140 | | |
+| **Megan** | `tk_yacht_weg` und noch nicht repariert | Schluss-Szene am Ende des Kais statt in der kaputten Kabine | | `a3_schluss_megan_kai` |
+| **Maxwell** | | Rückkehr von Tag 32 Dinner auf Tag 33 Frühstück (Tonbruch an Tag 32) | | `a3_maxwell_zurueck` |
+
+Gelesene Wahlen jetzt: Lose 46 von 47 (Capra „nein“ hat bewusst kein Bild), Paare 32 von 34, Schluss-Szenen 36 von 36. Offen aus dem Review: 5 (Mitternachts-Chips), 6 (höchstens drei Karten), 8 (Endkampf mit Verbündeten), 10 und 11.
 
 **Akt 3 einschalten:** `AKT3_SPIELBAR = True` in `werkzeuge/eden_rise/modul_eden_rise.py`, dann `modul_eden_rise.py` bauen. Erst nach Ducs lokalem Durchlauf mit Bildern (Bot-Lauf `PYTHONHASHSEED=0`, Paket G). `kaempfe.json` gezielt ergänzt (der Kampf-Builder bricht hier an fehlenden Sounds ab): lokal `kaempfe_eden_rise.py` laufen lassen. Angepasst: `tests/test_akt2_events.py` (neue Fenster), `tests/test_holm_wette.py` (Tag 24, lokal nicht prüfbar wegen `eden-config.json`). Alle `test_*.py` vor und nach Paket A: 47 gegen 48 grün, kein Test hat seinen Status verloren.
 

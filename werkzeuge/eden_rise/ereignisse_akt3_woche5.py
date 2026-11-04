@@ -27,9 +27,9 @@ BIBI = {"alle": [FL("rt_bibi_bleibt"), FL("mo_eco_idee")]}
 
 # ------------------------------------------------------------------ 5.12 Die Idee (Tag 29, Fruehstueck)
 IDEE = [
-    E("a3_bibi_idee", "gag1", "witzig", "Forty Men and a Boat", PFL(29, "fruehstueck", BIBI), "village_harbour",
+    E("a3_bibi_idee", "gag1", "witzig", "Forty Men and a Boat", PFL(29, "fruehstueck", BIBI), "mochis",
       P1("bibi", ("bonaventure", "?", "doesn't understand yet")),
-      "Bibi sits on the mole with her field book. On one page there are forty little lines. Buenaventura stands next to her and waits.",
+      "Bibi sits at the gate of her animal station with her field book. On one page there are forty little lines. Buenaventura has come up to see her, hat in hand.",
       [G("bibi", "[laugh] So he's got forty men, a boat and nothing to do? And they know every rock in that bay? "
                  "Doudou. Doudou, come here. I need you to do some numbers.", "excitement"),
        G("bibi", "[chuckle] People pay me to watch a capybara sleep. They'll pay double to see a pirate who's sorry.", "amusement"),
@@ -101,9 +101,9 @@ MAXWELL = [
        O("“He holds Jana's hand. She's coming to the airport.”", [F("a3_maxwell_weg"), V("jana", 4)],
          zeile=G("jana", "[laugh] Coach, I'll hold your hand the whole way to Bastia. And I'm not sorry.", "joy"))],
       sets={"maxwell": "maximum_steward_a", "jana": "jana_deck_a"}),
-    E("a3_maxwell_zurueck", "gag1", "witzig", "Mr. Maximum Has Flown", PFL(32, "dinner", FL("a3_maxwell_weg")), "village_harbour",
+    E("a3_maxwell_zurueck", "gag1", "witzig", "Mr. Maximum Has Flown", PFL(33, "fruehstueck", FL("a3_maxwell_weg")), "village_piazza",
       P1("maxwell", ("jana", "+", "runs to him")),
-      "A taxi stops at the harbour. Maxwell gets out with an empty cool box and a face like a man who has seen the clouds from above.",
+      "Early morning. A taxi stops on the square. Maxwell gets out with an empty cool box and a face like a man who has seen the clouds from above.",
       [G("maxwell", "[sigh] Mr. Maximum has flown. We will never speak of it.", "pride"),
        G("maxwell", "[chuckle] Gogo says thank you. And she says you are too thin.", "joy")],
       [O("“Welcome back, Maxwell.”", [F("a3_maxwell_da"), V("maxwell", 2)]),
@@ -225,7 +225,7 @@ SANDRU = [
 
 # ------------------------------------------------------------------ 5.20 An Invitation (Tag 33, Tag)
 EINLADUNG = [
-    E("a3_einladung", "gag1", "ernst", "An Invitation", PFL(33, "tag"), "village_harbour", P1("mina"),
+    E("a3_einladung", "gag1", "ernst", "An Invitation", PFL(33, "tag"), "village_piazza", P1("mina"),
       "Mina hands you an envelope made of very good paper. Your name is on it, in a careful hand.",
       [G("mina", "[clear throat] This one's for you, Yacht. The good paper. From the house on the hill.", "nervousness"),
        JE(G("mina", "[sigh] It says: Dinner. Tomorrow at eight. Just you. A.V. ...Yacht, that's the hand from the name sheet you picked up at the gate. "
@@ -275,8 +275,9 @@ def _mn_seite(i):
                  [DIREKT("a3_mn_seite_%d" % (i + 1))] if i < 2 else [F("a3_mitternacht_niemand")]))
     lage = ("The evening before the villa. The festa is the day after tomorrow, and everybody already knows: after midnight, the mole "
             "belongs to whoever is standing there. Someone is waiting for you to ask, or to be asked." if i == 0 else
-            "You walk along the quay. More faces, more lights in the windows.")
-    return E("a3_mn_seite_%d" % i, "gag1", "wholesome", "After Midnight", PFL(33, "abend") if i == 0 else FRAME(), "village_harbour",
+            ["", "You go up to Alva's bar. More faces, more noise.", "You cross the square. More lights in the windows."][i])
+    return E("a3_mn_seite_%d" % i, "gag1", "wholesome", "After Midnight", PFL(33, "abend") if i == 0 else FRAME(),
+             ["village_harbour", "alvas_bar", "village_piazza"][i],
              {"handelnd": "mina", "betroffen": []}, lage,
              [G("mina", "[chuckle] Yacht. Everybody's asking who you'll be with after midnight. I'm not asking. I just know you know.", "amusement")] if i == 0 else
              [G("alva", "[chuckle] Still looking, o figliolu?", "amusement")],

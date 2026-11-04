@@ -29092,6 +29092,18 @@
    "quelle": "akt3_lose"
   },
   {
+   "wer": "casanova",
+   "text": "Good. Who's next, Monsieur? Or is that enough for today?",
+   "gesprochen": "[clear throat] Good. Who's next, Monsieur? Or is that enough for today?",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "casanova",
+   "text": "Tomorrow, then. The festa doesn't build itself. ...Mostly it does, but don't tell anyone.",
+   "gesprochen": "[sigh] Tomorrow, then. The festa doesn't build itself. ...Mostly it does, but don't tell anyone.",
+   "quelle": "akt3_lose"
+  },
+  {
    "wer": "bibi",
    "text": "Capra wants to come to the festa. Do we let her?",
    "gesprochen": "[laugh] Capra wants to come to the festa. Do we let her?",
@@ -30527,8 +30539,26 @@
   },
   {
    "wer": "petru",
+   "text": "I saw the torches at my workshop. He asked me to say it. So I say it.",
+   "gesprochen": "[clear throat] I saw the torches at my workshop. He asked me to say it. So I say it.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "petru",
+   "text": "I saw the torches at my workshop, and who stayed. And I'm not afraid of a letter from Monaco.",
+   "gesprochen": "[clear throat] I saw the torches at my workshop, and who stayed. And I'm not afraid of a letter from Monaco.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "petru",
    "text": "I saw the torches at my workshop. And I saw who stayed.",
    "gesprochen": "[clear throat] I saw the torches at my workshop. And I saw who stayed.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "mina",
+   "text": "I knocked on every door that day, when the phones were dead. I saw who opened, and who didn't. I'm scared. I'm saying it anyway.",
+   "gesprochen": "[sigh] I knocked on every door that day, when the phones were dead. I saw who opened, and who didn't. I'm scared. I'm saying it anyway.",
    "quelle": "akt3_finale"
   },
   {
@@ -30539,8 +30569,20 @@
   },
   {
    "wer": "batu",
+   "text": "Men in white. Twice they asked me for the north road. The crew buys all my rice now, so I can say it.",
+   "gesprochen": "[chuckle] Men in white. Twice they asked me for the north road. The crew buys all my rice now, so I can say it.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "batu",
    "text": "Men in white. They asked me twice for the north road. I told Duc then. Now I tell you.",
    "gesprochen": "[clear throat] Men in white. They asked me twice for the north road. I told Duc then. Now I tell you.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "alva",
+   "text": "From the square I saw the north barricade open. Then men in white came through. Papa would say: tell them, then pour them a drink. So I tell you.",
+   "gesprochen": "[sniff] From the square I saw the north barricade open. Then men in white came through. Papa would say: tell them, then pour them a drink. So I tell you.",
    "quelle": "akt3_finale"
   },
   {
@@ -30575,8 +30617,20 @@
   },
   {
    "wer": "anghjulu",
+   "text": "Only what my eyes saw, not my ears: the gate opened. I was outside the church door all night.",
+   "gesprochen": "[clear throat] Only what my eyes saw, not my ears: the gate opened. I was outside the church door all night.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "anghjulu",
    "text": "I was outside the church door all night. I saw the gate open.",
    "gesprochen": "[sigh] I was outside the church door all night. I saw the gate open.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "casanova",
+   "text": "Every night someone left his paper on my church steps. I kept all of it. I'm giving it to you for the festa. A terrible reason, but it's mine.",
+   "gesprochen": "[sigh] Every night someone left his paper on my church steps. I kept all of it. I'm giving it to you for the festa. A terrible reason, but it's mine.",
    "quelle": "akt3_finale"
   },
   {
@@ -30670,21 +30724,219 @@
    "quelle": "akt3_finale"
   },
   {
+   "wer": "casanova",
+   "text": "Walk with me, Monsieur. Once around the square. I want to see it with you first.",
+   "gesprochen": "[clear throat] Walk with me, Monsieur. Once around the square. I want to see it with you first.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "petru",
+   "text": "Hm. My old boat. Now she holds the whole village.",
+   "gesprochen": "[clear throat] Hm. My old boat. Now she holds the whole village.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "petru",
+   "text": "Hm. Black wood. Last week it was a house.",
+   "gesprochen": "[clear throat] Hm. Black wood. Last week it was a house.",
+   "quelle": "akt3_finale"
+  },
+  {
    "wer": "bonaventure",
-   "text": "The stage holds! I built it myself. Mostly my men.",
-   "gesprochen": "[laugh] The stage holds! I built it myself. Mostly my men.",
+   "text": "The stage stands where the fire was. It's the right place.",
+   "gesprochen": "[sigh] The stage stands where the fire was. It's the right place.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "bonaventure",
+   "text": "In front of the church, where the people are! Look at them all!",
+   "gesprochen": "[laugh] In front of the church, where the people are! Look at them all!",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "rosi",
+   "text": "White light. That's your chip up there, Officer.",
+   "gesprochen": "[chuckle] White light. That's your chip up there, Officer.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "rosi",
+   "text": "Amber, like Unit-01's eye. Alon's collars are lighting our festa.",
+   "gesprochen": "[laugh] Amber, like Unit-01's eye. Alon's collars are lighting our festa.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "casanova",
+   "text": "Half the lights work. The tables are full anyway.",
+   "gesprochen": "[sigh] Half the lights work. The tables are full anyway.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "sandru",
+   "text": "They counted every sweet at the market. Now we eat them. Ha.",
+   "gesprochen": "[chuckle] They counted every sweet at the market. Now we eat them. Ha.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "sandru",
+   "text": "My mother's recipes. Only for us. Try the chebakia.",
+   "gesprochen": "[sigh] My mother's recipes. Only for us. Try the chebakia.",
    "quelle": "akt3_finale"
   },
   {
    "wer": "batu",
-   "text": "The pot is too small. I knew it.",
-   "gesprochen": "[chuckle] The pot is too small. I knew it.",
+   "text": "My way. Too much, like always.",
+   "gesprochen": "[chuckle] My way. Too much, like always.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "batu",
+   "text": "Your mother's way, con. I think she would like it.",
+   "gesprochen": "[sniff] Your mother's way, con. I think she would like it.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "lola",
+   "text": "Auntie said yes, so the menu is perfect. Official.",
+   "gesprochen": "[laugh] Auntie said yes, so the menu is perfect. Official.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "lola",
+   "text": "The mayor gave my menu a speech. Eleven minutes.",
+   "gesprochen": "[chuckle] The mayor gave my menu a speech. Eleven minutes.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "lola",
+   "text": "The Boss tasted it first, and he's still alive!",
+   "gesprochen": "[laugh] The Boss tasted it first, and he's still alive!",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "bonaventure",
+   "text": "Many small fish from the reef. Enough for everyone!",
+   "gesprochen": "[laugh] Many small fish from the reef. Enough for everyone!",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "bonaventure",
+   "text": "The Señor's big fish! It's on the grill, and it's bigger than Paco.",
+   "gesprochen": "[laugh] The Señor's big fish! It's on the grill, and it's bigger than Paco.",
    "quelle": "akt3_finale"
   },
   {
    "wer": "alva",
-   "text": "One drink on every table. Don't get used to it.",
-   "gesprochen": "[chuckle] One drink on every table. Don't get used to it.",
+   "text": "Papa's myrtle. One glass on every table.",
+   "gesprochen": "[sniff] Papa's myrtle. One glass on every table.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "alva",
+   "text": "'The Eventually.' The pirates are crying into it.",
+   "gesprochen": "[laugh] 'The Eventually.' The pirates are crying into it.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "alva",
+   "text": "'Fresh Bread.' Sandru knows why. Nobody else has to.",
+   "gesprochen": "[chuckle] 'Fresh Bread.' Sandru knows why. Nobody else has to.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "nonna",
+   "text": "Herbs on the long table. For everyone.",
+   "gesprochen": "[chuckle] Herbs on the long table. For everyone.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "nonna",
+   "text": "Herbs in Bà Tư's pot. She says it's too much. It's never too much.",
+   "gesprochen": "[chuckle] Herbs in Bà Tư's pot. She says it's too much. It's never too much.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "nonna",
+   "text": "Frederico ate half the basket on the way. The other half is here.",
+   "gesprochen": "[laugh] Frederico ate half the basket on the way. The other half is here.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "mina",
+   "text": "Every letter nobody could deliver. Now everybody can read them.",
+   "gesprochen": "[chuckle] Every letter nobody could deliver. Now everybody can read them.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "mina",
+   "text": "All the letters, except his.",
+   "gesprochen": "[sigh] All the letters, except his.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "mina",
+   "text": "Flowers. My mother would be proud of me.",
+   "gesprochen": "[chuckle] Flowers. My mother would be proud of me.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "anghjulu",
+   "text": "The bell rings in time! You won the cards, I won the bell.",
+   "gesprochen": "[laugh] The bell rings in time! You won the cards, I won the bell.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "anghjulu",
+   "text": "The bell rings in time. You let me win, I know.",
+   "gesprochen": "[chuckle] The bell rings in time. You let me win, I know.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "anghjulu",
+   "text": "We played until the bell was fixed. It is fixed.",
+   "gesprochen": "[chuckle] We played until the bell was fixed. It is fixed.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "danzel",
+   "text": "My dress, on the dance floor! Nobody spill anything on it!",
+   "gesprochen": "[gasp] My dress, on the dance floor! Nobody spill anything on it!",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "danzel",
+   "text": "Red! The mayor in red! I'm going to faint.",
+   "gesprochen": "[gasp] Red! The mayor in red! I'm going to faint.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "jana",
+   "text": "The pictures are on the church door. The door the children hid behind.",
+   "gesprochen": "[sniff] The pictures are on the church door. The door the children hid behind.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "jana",
+   "text": "Everybody can see the pictures! The children are so proud.",
+   "gesprochen": "[laugh] Everybody can see the pictures! The children are so proud.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "bibi",
+   "text": "Capra is wearing a flower crown. She's eating it. It's her festa too.",
+   "gesprochen": "[laugh] Capra is wearing a flower crown. She's eating it. It's her festa too.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "casanova",
+   "text": "Every name on my board. Every single one. Monsieur, I could kiss you. I won't.",
+   "gesprochen": "[laugh] Every name on my board. Every single one. Monsieur, I could kiss you. I won't.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "casanova",
+   "text": "Half the board is still empty. It's still our festa.",
+   "gesprochen": "[sigh] Half the board is still empty. It's still our festa.",
    "quelle": "akt3_finale"
   },
   {
@@ -30767,6 +31019,18 @@
   },
   {
    "wer": "holm",
+   "text": "Mamma, this is Petru. He's the one who taught me to sit still. ...Frankfurt, you can sit with us. At the far end.",
+   "gesprochen": "[chuckle] Mamma, this is Petru. He's the one who taught me to sit still. ...Frankfurt, you can sit with us. At the far end.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "holm",
+   "text": "Mamma, this is Petru. He's the one who taught me to sit still. Frankfurt walked past us once and said nothing. Smart man.",
+   "gesprochen": "[chuckle] Mamma, this is Petru. He's the one who taught me to sit still. Frankfurt walked past us once and said nothing. Smart man.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "holm",
    "text": "Mamma, this is Petru. He's the one who taught me to sit still.",
    "gesprochen": "[chuckle] Mamma, this is Petru. He's the one who taught me to sit still.",
    "quelle": "akt3_finale"
@@ -30796,9 +31060,153 @@
    "quelle": "akt3_finale"
   },
   {
+   "wer": "danzel",
+   "text": "Duc! She gave me a nine yesterday, because you said so. Today: eleven. Nobody is humble here!",
+   "gesprochen": "[gasp] Duc! She gave me a nine yesterday, because you said so. Today: eleven. Nobody is humble here!",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "danzel",
+   "text": "You said it was the best ten you ever heard. It still is.",
+   "gesprochen": "[sniff] You said it was the best ten you ever heard. It still is.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "danzel",
+   "text": "You left us alone in the shop. Thank you. I cried into a curtain. It's a good curtain.",
+   "gesprochen": "[sniff] You left us alone in the shop. Thank you. I cried into a curtain. It's a good curtain.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "lola",
+   "text": "Nan's on the phone! Say hello to the whole village, Nan!",
+   "gesprochen": "[laugh] Nan's on the phone! Say hello to the whole village, Nan!",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "batu",
+   "text": "She said yes before I changed my mind. I never change my mind. Eat, Lola.",
+   "gesprochen": "[chuckle] She said yes before I changed my mind. I never change my mind. Eat, Lola.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "batu",
+   "text": "Two plates. One for Lola, one for the Boss. Later is now.",
+   "gesprochen": "[chuckle] Two plates. One for Lola, one for the Boss. Later is now.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "alva",
+   "text": "Come on, Hamburg. Dance. ...She said it to me, you know. Out loud. Ten.",
+   "gesprochen": "[sniff] Come on, Hamburg. Dance. ...She said it to me, you know. Out loud. Ten.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "chiara",
+   "text": "A nine, the First Officer said. Best friend at twenty-nine. Dance with me, Alva.",
+   "gesprochen": "[laugh] A nine, the First Officer said. Best friend at twenty-nine. Dance with me, Alva.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "alva",
+   "text": "Hamburg is dancing! Badly! Somebody film this. No, don't.",
+   "gesprochen": "[laugh] Hamburg is dancing! Badly! Somebody film this. No, don't.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "isabelle",
+   "text": "Rosemary. For your coat, Sophia. ...My first friend outside the walls.",
+   "gesprochen": "[chuckle] Rosemary. For your coat, Sophia. ...My first friend outside the walls.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "isabelle",
+   "text": "Rosemary. For your coat, Sophia. You told me where you went. I wrote it down.",
+   "gesprochen": "[chuckle] Rosemary. For your coat, Sophia. You told me where you went. I wrote it down.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "isabelle",
+   "text": "Rosemary. For your coat, Sophia. You said: do it anyway. I'm dancing. Anyway.",
+   "gesprochen": "[chuckle] Rosemary. For your coat, Sophia. You said: do it anyway. I'm dancing. Anyway.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "isabelle",
+   "text": "Rosemary. For your coat, Sophia.",
+   "gesprochen": "[chuckle] Rosemary. For your coat, Sophia.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "maxwell",
+   "text": "Bones is on the roof! Number One said a plane is nicer. Number One was right. Mr. Maximum waves.",
+   "gesprochen": "[laugh] Bones is on the roof! Number One said a plane is nicer. Number One was right. Mr. Maximum waves.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "maxwell",
+   "text": "Bones is on the roof! Bones bites, a plane doesn't. Mr. Maximum knows the difference now.",
+   "gesprochen": "[laugh] Bones is on the roof! Bones bites, a plane doesn't. Mr. Maximum knows the difference now.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "maxwell",
+   "text": "Bones is on the roof! Two brave men fed him once. Brother!",
+   "gesprochen": "[laugh] Bones is on the roof! Two brave men fed him once. Brother!",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "alva",
+   "text": "Look at Papa's board. ALVA, and next to it: stays. I wonder who wrote that.",
+   "gesprochen": "[chuckle] Look at Papa's board. ALVA, and next to it: stays. I wonder who wrote that.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "sophia",
+   "text": "I'm reading at the festa tonight. My first reading with a yes in my pocket.",
+   "gesprochen": "[laugh] I'm reading at the festa tonight. My first reading with a yes in my pocket.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "siri",
+   "text": "I wrote my own caption tonight. Three words. You don't get to read it.",
+   "gesprochen": "[sigh] I wrote my own caption tonight. Three words. You don't get to read it.",
+   "quelle": "akt3_finale"
+  },
+  {
    "wer": "mina",
    "text": "I opened it. Dumè's letter. ...He says come and visit. I think I'll stay. I think I'll visit.",
    "gesprochen": "[sniff] I opened it. Dumè's letter. ...He says come and visit. I think I'll stay. I think I'll visit.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "lea",
+   "text": "Did you know Mina will drive to the Azores on a Vespa? She says she's fast. She isn't.",
+   "gesprochen": "[gasp] Did you know Mina will drive to the Azores on a Vespa? She says she's fast. She isn't.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "lea",
+   "text": "Mina says you're slow on purpose. I told everyone. Sorry. I'm not really sorry.",
+   "gesprochen": "[laugh] Mina says you're slow on purpose. I told everyone. Sorry. I'm not really sorry.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "chiara",
+   "text": "The torch, and you let me find the breaker myself.",
+   "gesprochen": "[sigh] The torch, and you let me find the breaker myself.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "chiara",
+   "text": "The red one, second row. Show-off.",
+   "gesprochen": "[sigh] The red one, second row. Show-off.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "chiara",
+   "text": "We found it together. In the dark.",
+   "gesprochen": "[sigh] We found it together. In the dark.",
    "quelle": "akt3_finale"
   },
   {
@@ -30809,8 +31217,44 @@
   },
   {
    "wer": "alva",
+   "text": "You wrote 'stays' next to my name. In chalk. Chalk is forever, in my bar.",
+   "gesprochen": "[sigh] You wrote 'stays' next to my name. In chalk. Chalk is forever, in my bar.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "alva",
+   "text": "You left the space empty, so I could choose. I chose.",
+   "gesprochen": "[sigh] You left the space empty, so I could choose. I chose.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "alva",
+   "text": "You gave me the chalk. I wrote it myself. Don't ask what.",
+   "gesprochen": "[sigh] You gave me the chalk. I wrote it myself. Don't ask what.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "alva",
    "text": "Only you. Don't tell anyone. They'd never believe it.",
    "gesprochen": "[chuckle] Only you. Don't tell anyone. They'd never believe it.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "lea",
+   "text": "Not fast, but yes. I'm holding you to that.",
+   "gesprochen": "[sigh] Not fast, but yes. I'm holding you to that.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "lea",
+   "text": "You said stay. I'm thinking about it. Very hard.",
+   "gesprochen": "[sigh] You said stay. I'm thinking about it. Very hard.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "lea",
+   "text": "Two fingers. That's still an answer.",
+   "gesprochen": "[sigh] Two fingers. That's still an answer.",
    "quelle": "akt3_finale"
   },
   {
@@ -30821,8 +31265,44 @@
   },
   {
    "wer": "sophia",
+   "text": "You gave me the letter. It said yes. I'm still shaking.",
+   "gesprochen": "[sigh] You gave me the letter. It said yes. I'm still shaking.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "sophia",
+   "text": "You read the first line out loud. I heard it in your voice. Better.",
+   "gesprochen": "[sigh] You read the first line out loud. I heard it in your voice. Better.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "sophia",
+   "text": "It's still closed, in my notebook. Later. Together. Now?",
+   "gesprochen": "[sigh] It's still closed, in my notebook. Later. Together. Now?",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "sophia",
    "text": "I've lost the bet. Best ten euros I ever lost.",
    "gesprochen": "[chuckle] I've lost the bet. Best ten euros I ever lost.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "rosi",
+   "text": "Captain. I said it once. That's the limit.",
+   "gesprochen": "[sigh] Captain. I said it once. That's the limit.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "rosi",
+   "text": "Duc. It's still harder than Captain.",
+   "gesprochen": "[sigh] Duc. It's still harder than Captain.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "rosi",
+   "text": "Draw. We're a draw. I can live with that.",
+   "gesprochen": "[sigh] Draw. We're a draw. I can live with that.",
    "quelle": "akt3_finale"
   },
   {
@@ -30833,8 +31313,44 @@
   },
   {
    "wer": "lola",
+   "text": "You put your phone away. Nobody does that for me.",
+   "gesprochen": "[sigh] You put your phone away. Nobody does that for me.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "lola",
+   "text": "You made me sit down too. I'm sitting. Look.",
+   "gesprochen": "[sigh] You made me sit down too. I'm sitting. Look.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "lola",
+   "text": "You stirred. Badly. Perfect.",
+   "gesprochen": "[sigh] You stirred. Badly. Perfect.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "lola",
    "text": "One song. Mostly one. Sit down, Boss. Properly.",
    "gesprochen": "[laugh] One song. Mostly one. Sit down, Boss. Properly.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "siri",
+   "text": "No caption. Still none.",
+   "gesprochen": "[sigh] No caption. Still none.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "siri",
+   "text": "Siri, in her own words. Here they are.",
+   "gesprochen": "[sigh] Siri, in her own words. Here they are.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "siri",
+   "text": "You took my hand and didn't answer. Do it again.",
+   "gesprochen": "[sigh] You took my hand and didn't answer. Do it again.",
    "quelle": "akt3_finale"
   },
   {
@@ -30845,8 +31361,44 @@
   },
   {
    "wer": "bibi",
+   "text": "You let me cut the last collar. Mine.",
+   "gesprochen": "[sigh] You let me cut the last collar. Mine.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "bibi",
+   "text": "We did it together. His head was so heavy.",
+   "gesprochen": "[sigh] We did it together. His head was so heavy.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "bibi",
+   "text": "You gave me the knife without a word. I love that. Still.",
+   "gesprochen": "[sigh] You gave me the knife without a word. I love that. Still.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "bibi",
    "text": "I'm a mess, and you came anyway. Good.",
    "gesprochen": "[chuckle] I'm a mess, and you came anyway. Good.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "megan",
+   "text": "You already did. Off the record. Still.",
+   "gesprochen": "[sigh] You already did. Off the record. Still.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "megan",
+   "text": "Duc. There. I said it twice now.",
+   "gesprochen": "[sigh] Duc. There. I said it twice now.",
+   "quelle": "akt3_finale"
+  },
+  {
+   "wer": "megan",
+   "text": "You nodded and stayed. Stay again.",
+   "gesprochen": "[sigh] You nodded and stayed. Stay again.",
    "quelle": "akt3_finale"
   },
   {

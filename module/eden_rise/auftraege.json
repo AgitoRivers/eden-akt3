@@ -1258,7 +1258,7 @@
     "tag",
     "nachmittag"
    ],
-   "text": "Madame Casanova's board. Every name is a person with a gift. Help one of them. Takes the whole phase.",
+   "text": "Madame Casanova's board. Walk through the village and help up to three of them. Some you also meet at work, without the board: Petru in his workshop, Alva at the bar, Bà Tư and Lola when you cook, Nonna in her shop, Buenaventura's men when you fish. Takes the whole phase.",
    "wenn": {
     "alle": [
      {
@@ -2343,6 +2343,21 @@
     ]
    },
    "start": [
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "tk_yacht_weg"
+       },
+       {
+        "nicht": {
+         "flag": "a3_yacht_repariert"
+        }
+       }
+      ]
+     },
+     "id": "a3_schluss_megan_kai"
+    },
     {
      "id": "a3_schluss_megan"
     }

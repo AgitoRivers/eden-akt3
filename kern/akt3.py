@@ -86,3 +86,23 @@ def ende(z):
     if n == 2 and s["wahrheit"]:
         return "2a" if s["geld"] else "2b" if s["gemeinschaft"] else "2c"
     return "0"
+
+
+# ------------------------------------------------------------------ Lose beim Besuch (Umbau nach dem Review, 04.11.2026)
+# Wo Duc ohnehin hingeht, ohne Phase: Petrus Werkstatt, Alvas Bar, Angeln, Kochen, Nonnas Laden. Kommt ein offenes Los dieser
+# Person, oeffnet es sich als Frame ohne Ausflug (eden.py: laden_besuch, angeln_ende, kochen_baukasten, nonna_verlassen).
+BESUCH = {"petru": ["tafel"], "alva": ["getraenk"], "angeln": ["fang"], "kochen": ["topf", "menue"], "nonna": ["garten"]}
+
+
+def los_besuch(z, moddir, wo):
+    """-> Frame-ID eines offenen Loses fuer diesen Besuch, oder None. Bedingungen wie an der Tafel (auftraege.json)."""
+    if z.get("status") != "wahl" or "akt2_ende" not in z.get("flags", []) or wo not in BESUCH:
+        return None
+    from . import auftraege, regeln
+    start = ((auftraege.daten(moddir) or {}).get("orte", {}).get("a3_lose") or {}).get("start", [])
+    wenn = {s["id"]: s.get("wenn") for s in start}
+    for lid in BESUCH[wo]:
+        eid = "a3_los_" + lid
+        if eid in wenn and regeln.gilt(wenn[eid], z):
+            return eid
+    return None

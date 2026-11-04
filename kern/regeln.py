@@ -81,6 +81,8 @@ def gilt(b, z, kontext=None):
             ok = (z.get("kampf_tag") == z["tag"]) == bool(v)
         elif k == "bekannt":            # Duc hat die Person kennengelernt (Favours, 29.10.2026)
             ok = v in (z.get("bekannt") or [])
+        elif k == "ort_schritte":       # {"ort_schritte": ["<", 5]}: Frames dieses Ausflugs (Rundgang an der Festa-Tafel, Akt 3)
+            ok = OPS[v[0]](len(z.get("ort_weg") or []), v[1])
         elif k == "mochi":              # {"mochi": "geier"}: dieses Tier ist in Bibis Station gerettet (Akt 3, Bones)
             ok = v in ((z.get("mochis") or {}).get("tiere") or {})
         elif k == "anzahl":             # {"anzahl": [[bed, bed, ...], ">=", 4]}: wie viele der Bedingungen gelten (Akt 3: Zeugen, Beweise)

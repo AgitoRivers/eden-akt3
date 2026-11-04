@@ -63,6 +63,18 @@ def main():
     pruefen(karte["akt"] == 3 and karte["ende"] == "3" and "Rewritten" in karte["titel"], "Schlusskarte zeigt das Ende")
     pruefen(any("Pascal" in a["text"] for a in karte["absaetze"]) and any("Sign here" in a["text"] for a in karte["absaetze"]),
             "Pascal in jedem Ende, Minas Einschreiben als Epilog")
+    kz = json.dumps(EV["a3_kom_zeugen"])
+    for f in ("a3_zeuge_petru_kalt", "a3_zeuge_petru_ehrlich", "a3_zeuge_mina_ehrlich", "a3_zeuge_batu_kauf", "a3_zeuge_alva_papa",
+              "a3_zeuge_casanova_festa", "a3_zeuge_anghjulu_ehrlich"):
+        pruefen(f in kz, "Kommission: die Haltung faerbt die Aussage (%s)" % f)
+    for p in ("chiara", "alva", "lea", "sophia", "rosi", "lola", "siri", "bibi", "megan"):
+        m = json.dumps(EV["a3_mitternacht_" + p])
+        pruefen(all("a3_schluss_%s_%d" % (p, n) in m for n in range(3)), "Mitternacht erinnert an die Antwort der Schluss-Szene (%s)" % p)
+    bild = json.dumps(EV["a3_festa_bild"])
+    pruefen(all(k in bild for k in ("a3_paar_holm_bank", "a3_paar_chiara_sag", "a3_paar_bones_hand", "a3_paar_charly_zehn", "a3_paar_lola_nan")),
+            "Festbild zeigt die Wahlen der Paar-Szenen")
+    pruefen(EV["a3_maxwell_zurueck"]["wann"]["tage"] == [33, 33] and EV["a3_maxwell_zurueck"]["wann"]["phasen"] == ["fruehstueck"], "Maxwell kommt Tag 33 frueh zurueck")
+    pruefen(EV["a3_schluss_megan_kai"]["bild"] == "village_harbour", "Megans Schluss-Szene am Kai, solange die Kabine kaputt ist")
     print("Alle Pruefungen gruen.")
 
 

@@ -173,6 +173,7 @@ def farm_aktion(z, modul, name, daten):
         i = kuechen.nonna_verlassen(z, modul)
         if i is not None:
             kuechen.kueche(z)["fred"] = i
+        los_beim_besuch(z, modul, "nonna")            # Akt 3: der Garten mit Nonna und Isabelle
     elif name == "baustelle_liefern":                # Akt 3: Baustoffe fuer die naechste Stufe (kern/aufbau.py)
         aufbau.liefern(z, daten.get("haus") or "")
     elif name == "fred_gehoert":
@@ -225,6 +226,15 @@ def _rast_pruefen(z, modul):
         raise ValueError("Das geht nur an einem Rastplatz, vor einer Wahl.")
     if z.get("rast_anruf"):
         raise ValueError("Erst den Anruf beenden.")
+
+
+def los_beim_besuch(z, modul, wo):
+    """Akt 3: ein Festa-Los beim Besuch der Person, ohne Phase und ohne Ausflug (kern/akt3.los_besuch)."""
+    eid = akt3.los_besuch(z, moddir(z["modul"]), wo)
+    if eid:
+        ereignisse.ort_oeffnen(z, modul, moddir(z["modul"]), eid)
+        z["event"]["weiter"], z["event"]["status_vorher"] = "wahl", "wahl"
+        z["status"] = "ereignis"
 
 
 def ort_aufraeumen(z):
@@ -604,6 +614,8 @@ def aktion(name, daten):
         bid = taschendieb.ausloesen(z, daten.get("laden") or "")
         if bid:
             kampf_starten(z, modul, bid)
+        else:
+            los_beim_besuch(z, modul, daten.get("laden") or "")   # Akt 3: Petrus Tafel, Alvas Getraenk
     elif name == "ort_reisen":                        # Schnellreise im Ortskapitel (Duc 29.10.2026, kern/wegpunkte.py)
         idx = (ereignisse.daten(moddir(z["modul"])) or {}).get("_index", {})
         r = wegpunkte.ziele(z, idx)
@@ -885,6 +897,7 @@ def aktion(name, daten):
         if z["status"] == "szene" and z.get("szene"):
             z["szene"]["log"].append({"art": "folgen", "zeilen": [titel] + zeilen, "handel": True})
         z["meldungen"].append({"titel": "🍳 " + titel, "kurz": "", "folgen": zeilen})
+        los_beim_besuch(z, modul, "kochen")           # Akt 3: Ba Tus Topf, Lolas Menue
     elif name in ("garten_pflanzen", "stall_kaufen", "stall_ausbauen", "tier_kaufen", "tier_benennen", "tier_schlachten", "nonna_kaufen",
                   "nonna_verlassen", "fred_gehoert"):  # Farm bei Nonna (27.10.2026): keine Aktion, keine Phase
         if not z.get("persona") or z["status"] in ("prolog", "ende", "persona_wahl"):
@@ -911,6 +924,7 @@ def aktion(name, daten):
         zeilen = angeln.ende(z, modul)
         if zeilen:
             z["meldungen"].append({"titel": "🎣 Fishing", "kurz": "", "folgen": zeilen})
+        los_beim_besuch(z, modul, "angeln")           # Akt 3: The Catch mit Buenaventuras Maennern
     elif name == "schiessen_start":                   # Holms Wette um Gemelli (30.10.2026), Plugin eden-schiessen, kein Zeitpreis
         eid = schiessen.starten(z)                    # neuer Gegner: erst die Szene, danach startet der Client erneut
         if eid:

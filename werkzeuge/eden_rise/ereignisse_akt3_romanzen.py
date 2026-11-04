@@ -36,10 +36,10 @@ def NACHT_MIT(pid):
 
 
 # ------------------------------------------------------------------ Drehbuch 6: Schluss-Szenen
-def SCHLUSS(pid, bild, titel, lage, zeilen, chips, sets=None):
+def SCHLUSS(pid, bild, titel, lage, zeilen, chips, sets=None, eid=None):
     opt = [O(t, [F("a3_schluss_" + pid), F("a3_schluss_%s_%d" % (pid, i)), V(pid, 4)] + ([B(pid, 4)] if pid != "megan" else []), zeile=z)
            for i, (t, z) in enumerate(chips)]
-    return FR("a3_schluss_" + pid, bild, titel, lage, zeilen, opt, personen={"handelnd": pid, "betroffen": []}, sets=sets, ton="wholesome")
+    return FR(eid or "a3_schluss_" + pid, bild, titel, lage, zeilen, opt, personen={"handelnd": pid, "betroffen": []}, sets=sets, ton="wholesome")
 
 
 SCHLUESSE = [
@@ -117,6 +117,14 @@ SCHLUESSE = [
              ("“Only if you call me Duc.”", G("megan", "[sigh] ...Duc. Don't make it a habit.", "love")),
              ("Nods and closes the door behind him.", G("megan", "[clear throat] Good. Then we never speak of it.", "desire"))],
             sets={"megan": "Boardroom"}),
+    SCHLUSS("megan", "village_harbour", "Still Off the Record",
+            "Her cabin is still a building site, so Megan walks with you to the end of the quay, where nobody can hear.",
+            [G("megan", "[sigh] That night I called you and said it was off the record. You never told anyone. "
+                        "This stays off the record too, First Officer. Can you do that?", "nervousness")],
+            [("“I already did, Megan.”", G("megan", "[chuckle] How... reassuring.", "love")),
+             ("“Only if you call me Duc.”", G("megan", "[sigh] ...Duc. Don't make it a habit.", "love")),
+             ("Nods and stays next to her in the dark.", G("megan", "[clear throat] Good. Then we never speak of it.", "desire"))],
+            sets={"megan": "Boardroom"}, eid="a3_schluss_megan_kai"),
 ]
 
 # ------------------------------------------------------------------ Drehbuch 7: Freundschaften und Paare (Leiter, eine am Tag)
@@ -201,8 +209,8 @@ PAARE = [
           ("“Yes. She does it anyway.”", "ja", G("isabelle", "[sniff] Anyway. I like that word.", "gratitude"))],
          sets={"sophia": "Writing Night"}),
     # 7.4 Mina und Lea: Freundschaft
-    PAAR("lea", "Two Letters", "dinner", [DA("lea"), NICHT(romanze("lea"))], "village_harbour", P1("mina", ("lea", "+", "has a letter too")),
-         "Mina's Vespa at the quay. Mina and Lea sit on it, not going anywhere.",
+    PAAR("lea", "Two Letters", "dinner", [DA("lea"), NICHT(romanze("lea"))], "village_piazza", P1("mina", ("lea", "+", "has a letter too")),
+         "Mina's Vespa in front of the post office. Mina and Lea sit on it, not going anywhere.",
          [WO(("lea", "[chuckle] Did you know Mina's flat has a hundred and four letters in it? I counted. I sleep next to them.", "amusement"), "post"),
           G("lea", "[gasp] Did you know some letters are older than the people who carry them?", "curiosity"),
           G("mina", "[sigh] I know. I carry one. It's from my brother. In Montréal. I never opened it.", "sadness"),
@@ -212,16 +220,16 @@ PAARE = [
           ("“Only if you both want to.”", "frei", G("mina", "[sigh] Only if. Okay.", "caring")),
           ("“Not yet. Keep them for the festa.”", "festa", G("mina", "[chuckle] The festa. Then I'll open it with everybody watching. Terrible. Okay.", "amusement"))],
          sets={"lea": "Off Duty"}),
-    PAAR("lea_duc", "Two Letters", "dinner", [DA("lea"), romanze("lea")], "village_harbour", P1("mina", ("lea", "+", "is red")),
-         "Mina's Vespa at the quay. Lea sits on the back.",
+    PAAR("lea_duc", "Two Letters", "dinner", [DA("lea"), romanze("lea")], "village_piazza", P1("mina", ("lea", "+", "is red")),
+         "Mina's Vespa in front of the post office. Lea sits on the back.",
          [G("mina", "[chuckle] So. You and the Yacht. I didn't read it anywhere. I just know.", "amusement"),
           G("lea", "[gasp] Did you know octopuses can change colour? I'm doing that now.", "embarrassment"),
           G("mina", "[laugh] If he's slow, honk at him. I'll lend you the horn. ...Duc, Lea says you're slow. Are you slow?", "amusement")],
          [("“Very. On purpose.”", "langsam", G("lea", "[laugh] On purpose. Mina, he's doing it on purpose!", "joy")),
           ("Holds up two fingers.", "finger", G("lea", "[sigh] ...Two fingers. Okay. Not slow.", "caring"))]),
     # 7.5 Holm und Petru: die spaete Liebe (immer voll)
-    PAAR("holm", "The Metre", "abend", [FL("holm_zurueck")], "village_harbour", P1("holm", ("petru", "+", "sits a metre away")),
-         "The mole in the evening. Holm and Petru sit on the same bench. There is one metre between them.",
+    PAAR("holm", "The Metre", "abend", [FL("holm_zurueck")], "petru_workshop", P1("holm", ("petru", "+", "sits a metre away")),
+         "The bench outside Petru's workshop, in the evening. Holm and Petru sit on it. There is one metre between them.",
          [WO(("holm", "[chuckle] Petru's spare room has a boat engine in it. I sleep next to a boat engine. Very Norwegian.", "amusement"), "werkstatt"),
           G("holm", "[clear throat] My mother is coming. For the festa. She wants to see the man who taught me to sit still.", "neutral"),
           G("petru", "[clear throat] Who?", "neutral"),
@@ -270,7 +278,8 @@ for _pid in ("chiara", "alva", "lea", "sophia", "rosi", "lola", "siri", "bibi", 
         "text": "She has been waiting for a moment with you alone. Takes the whole phase.",
         "wenn": {"alle": [AKT3, oben(_pid), NICHT(FL("a3_schluss_" + _pid)), {"nicht": {"tag_ab": 34}}]
                  + ([DA(_pid)] if _pid not in ("megan", "bibi") else []) + _extra},
-        "start": [{"id": "a3_schluss_" + _pid}]}
+        "start": ([{"wenn": {"alle": [KAPUTT, NICHT(FL("a3_yacht_repariert"))]}, "id": "a3_schluss_megan_kai"}] if _pid == "megan" else [])
+                 + [{"id": "a3_schluss_" + _pid}]}
 
 
 def tags_schreiben():

@@ -57,6 +57,25 @@ def main():
     pruefen(not regeln.gilt(L._frage_offen("petru"), dict(z, flags=z["flags"] + ["a3_zeuge_petru"])), "gefragter Zeuge kommt nicht wieder")
     for oid in ("a3_zeugen", "a3_lose"):
         pruefen(oid in ORTE and all(EV[s["id"]]["art"] == "ort" for s in ORTE[oid]["start"]), "Karte %s" % oid)
+    # Umbau nach dem Review: Lose beim Besuch (ohne Phase) und Rundgang mit bis zu drei Losen je Phase
+    from kern import akt3
+    md = os.path.join(EDEN, "module", "eden_rise")
+    z = {"status": "wahl", "flags": ["akt2_ende", "a3_festa_tafel"], "werte": {}, "tag": 27}
+    pruefen(akt3.los_besuch(z, md, "petru") == "a3_los_tafel" and akt3.los_besuch(z, md, "angeln") == "a3_los_fang", "Petrus Tafel beim Werkstattbesuch, The Catch beim Angeln")
+    pruefen(akt3.los_besuch(dict(z, status="szene"), md, "petru") is None, "nur aus der freien Wahl heraus")
+    pruefen(akt3.los_besuch(dict(z, flags=z["flags"] + ["a3_los_tafel"]), md, "petru") is None, "erledigtes Los kommt nicht wieder")
+    pruefen(akt3.los_besuch(z, md, "nonna") is None, "Garten erst nach dem ersten Haus (Welle 2)")
+    pruefen(akt3.los_besuch(dict(z, flags=z["flags"] + ["a3_los_topf"]), md, "kochen") == "a3_los_menue", "Kochen: erst der Topf, dann das Menue")
+    pruefen(all(L.BESUCH[l] for l in L.BESUCH) and set(L.BESUCH) <= set(L.LOSE), "Besuchs-Lose sind Lose der Tafel")
+    pruefen(regeln.gilt({"ort_schritte": ["<", 5]}, {"ort_weg": ["a", "b", "c", "d"]}) and not regeln.gilt({"ort_schritte": ["<", 5]}, {"ort_weg": list("abcdef")}),
+            "Rundgang: hoechstens drei Lose je Phase")
+    for lid in L.LOSE:
+        wahl = [o for o in EV["a3_los_" + lid]["optionen"] if any(f.get("flag") == "a3_los_" + lid for f in folgen(o))]
+        pruefen(all({"weiter": "a3_los_weiter"} in folgen(o) for o in wahl), "Los %s: nach der Wahl geht der Rundgang weiter" % lid)
+    festa = json.dumps([EV[i] for i in ("a3_festa_bauen", "a3_festa_essen", "a3_festa_schmuck")])
+    fehlt = [f for l in L.LOSE for o in EV["a3_los_" + l]["optionen"] for f in [x.get("flag", "") for x in folgen(o)]
+             if f.startswith("a3_los_%s_" % l) and '"%s"' % f not in festa]
+    pruefen(not fehlt, "die Festa zeigt jede Los-Wahl (%s)" % ", ".join(fehlt))
     print("Alle Pruefungen gruen.")
 
 
