@@ -514,7 +514,36 @@ CHARLY = [
          zeile=G("charly", "[sigh] Take it. It's the first good thing her money ever did.", "neutral"))]),
 ]
 
-EVENTS = MORGEN + SCHWUR + BAU + DANK + ALVA + UHR + MEGAN + TAFEL + SONNTAG + NONNA + SIRI + BERICHTE + YACHT + CHARLY
+# ------------------------------------------------------------------ 5.8 Ersatz: Mina bringt Schluessel und Brief (Tag 31)
+NONNA_MINA = [
+    E("a3_nonna_mina", "gag1", "ernst", "A Key from Nonna", PFL(31, "fruehstueck", {"alle": [{"gesehen": "a3_sonntag"}, NICHT(FL("a3_nonna_kiste"))]}),
+      "village_harbour", P1("mina"),
+      "Mina comes down the quay with a small parcel. Inside: an old iron key with a ribbon from a crate of seedlings, and a letter in Nonna's hand.",
+      [G("mina", "[clear throat] From Nonna. She says you didn't come, so the mountain comes to you. That's what she said. I don't know what it means.", "neutral"),
+       G("mina", "[sigh] The letter says: It's the cellar door of the Casanova house. Pascal left it for me. I don't want it. Do you?", "neutral")],
+      [O("Takes the key.", [F("a3_kellerschluessel"), F("a3_nonna_kiste")],
+         zeile=G("mina", "[chuckle] Signed and delivered. That's my job.", "pride")),
+       O("“Give it back to her. I'll find another way in.”", [F("a3_nonna_kiste")],
+         zeile=G("mina", "[sigh] Okay. Up the mountain again. My legs hate you.", "annoyance"))]),
+]
+
+# ------------------------------------------------------------------ 5.10 The Rematch (Holm, Tag 24-29)
+REVANCHE = [
+    E("a3_revanche", "gag1", "witzig", "The Rematch", WANN((24, 29), ["nachmittag"], bed={"alle": [AKT3, FL("holm_zurueck")]}),
+      "village_harbour", P1("holm", ("petru", "?", "is setting up bottles")),
+      "Holm is sitting on the mole with a stick next to her and a row of empty bottles on the wall. Petru is putting up the last one.",
+      [G("holm", "[clear throat] Frankfurt. You still have my rifle. I want it back, so we shoot for it. At the stand, whenever you're ready.", "neutral"),
+       G("holm", "[chuckle] It pulls left. Like the day you won it from me.", "amusement"),
+       JE(G("holm", "[sigh] And one more thing. That night in the siege, you said nobody goes to the north road, Pascal has it. "
+                    "I should have gone myself. That's mine, not yours.", "remorse"), "nacht", FL("bl_nachtwache_pascal")),
+       G("petru", "[clear throat] Hm. Again.", "neutral")],
+      [O("“Tomorrow. And I'm keeping it.”", [V("holm", 2), F("a3_revanche")],
+         zeile=G("holm", "[laugh] Faen. We'll see, Frankfurt.", "amusement")),
+       O("Sits down next to her on the mole first.", [V("holm", 4), F("a3_revanche")],
+         zeile=G("holm", "[sigh] My hands are fine now. My head isn't, yet. Takk.", "gratitude"))]),
+]
+
+EVENTS = NONNA_MINA + REVANCHE + MORGEN + SCHWUR + BAU + DANK + ALVA + UHR + MEGAN + TAFEL + SONNTAG + NONNA + SIRI + BERICHTE + YACHT + CHARLY
 
 # Orte (Karten) fuer auftraege_eden_rise.py: kosten die ganze Phase
 ORTE = {

@@ -280,7 +280,7 @@ EVENTS = [
       [O("“Wolff.”", [F("bl_nachtwache_wolff")], zeile=Z("wolff", "Fine. I don't sleep much anyway.", "neutral")),
        O("“Elsa.”", [DIREKT([{"wenn": {"flag": "elsa_hilft"}, "id": "bl_wache_elsa"}, {"id": "bl_wache_keiner"}])]),
        O("“Yamamoto.”", [DIREKT([{"wenn": {"wert": ["vertrauen.yamamoto", ">=", 2]}, "id": "bl_wache_yamamoto"}, {"id": "bl_wache_keiner"}])]),
-       O("“Nobody. Pascal has it.”", [F("bl_nachtwache_niemand")])]),
+       O("“Nobody. Pascal has it.”", [F("bl_nachtwache_niemand"), F("bl_nachtwache_pascal")])]),   # Akt 3: Holm erinnert daran (a3_revanche)
     E("bl_wache_elsa", "gag1", "ernst", "The North Road", FRAME(), "crew_mess", P1("elsa"),
       "Elsa is already putting on her jacket.",
       [Z("elsa", "A night patrol on the north road. That is in the regulations. I'll write it all down.", "neutral")],

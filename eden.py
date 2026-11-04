@@ -23,7 +23,7 @@ from kern import handel, showrunner, chronik, gesten, wuerfel, kabine, ermittlun
 from kern import kampf  # noqa: E402
 from kern import tutorial  # noqa: E402
 from kern import anhoerung  # noqa: E402
-from kern import aufbau, belagerung, taktik  # noqa: E402
+from kern import akt3, aufbau, belagerung, taktik  # noqa: E402
 from kern import album  # noqa: E402
 from kern import sturm  # noqa: E402
 from kern import expedition  # noqa: E402
@@ -126,6 +126,7 @@ def weiter(z, modul, r):
             zeilen += ereignisse.tagesende(z, modul, moddir(z["modul"]))    # Bordregeln, Versprechen (B5)
             zeilen += legenden.tagesende(z, modul, moddir(z["modul"]), zustand.folgen_anwenden)   # Dorf redet (30.10.)
             zeilen += aufbau.tag_vorbei(z)              # Akt 3: Piraten bauen nachts, was Duc geliefert hat (04.11.2026)
+            zeilen += akt3.morgen(z)                    # Akt 3: Kevin auf dem Dach, Dank heiler Haeuser, die Legion
             auftraege.tagesbeginn(z, moddir(z["modul"]))   # seit wann ein Ort offen ist (Erinnerung, 02.11.2026)
             if z["status"] != "ende":
                 zeilen += moral.morgen(z, modul)          # Crew-Stimmung: Verfall, Fruehstueck, Geschenk (27.10.2026)

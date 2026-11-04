@@ -94681,6 +94681,9 @@
      "folgen": [
       {
        "flag": "bl_nachtwache_niemand"
+      },
+      {
+       "flag": "bl_nachtwache_pascal"
       }
      ]
     }
@@ -103886,6 +103889,196 @@
     {
      "text": "Deletes it. Some things can stay a mystery.",
      "folgen": []
+    }
+   ]
+  },
+  {
+   "id": "a3_nonna_mina",
+   "art": "gag1",
+   "ton": "ernst",
+   "titel": "A Key from Nonna",
+   "wann": {
+    "tage": [
+     31,
+     31
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "fruehstueck"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "alle": [
+        {
+         "gesehen": "a3_sonntag"
+        },
+        {
+         "nicht": {
+          "flag": "a3_nonna_kiste"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "mina",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "Mina comes down the quay with a small parcel. Inside: an old iron key with a ribbon from a crate of seedlings, and a letter in Nonna's hand.",
+   "zeilen": [
+    {
+     "wer": "mina",
+     "text": "From Nonna. She says you didn't come, so the mountain comes to you. That's what she said. I don't know what it means.",
+     "gefuehl": "neutral"
+    },
+    {
+     "wer": "mina",
+     "text": "The letter says: It's the cellar door of the Casanova house. Pascal left it for me. I don't want it. Do you?",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Takes the key.",
+     "folgen": [
+      {
+       "flag": "a3_kellerschluessel"
+      },
+      {
+       "flag": "a3_nonna_kiste"
+      }
+     ],
+     "zeile": {
+      "wer": "mina",
+      "text": "Signed and delivered. That's my job.",
+      "gefuehl": "pride"
+     }
+    },
+    {
+     "text": "“Give it back to her. I'll find another way in.”",
+     "folgen": [
+      {
+       "flag": "a3_nonna_kiste"
+      }
+     ],
+     "zeile": {
+      "wer": "mina",
+      "text": "Okay. Up the mountain again. My legs hate you.",
+      "gefuehl": "annoyance"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_revanche",
+   "art": "gag1",
+   "ton": "witzig",
+   "titel": "The Rematch",
+   "wann": {
+    "tage": [
+     24,
+     29
+    ],
+    "phasen": [
+     "nachmittag"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "flag": "holm_zurueck"
+      }
+     ]
+    }
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "holm",
+    "betroffen": [
+     {
+      "id": "petru",
+      "ton": "?",
+      "was": "is setting up bottles"
+     }
+    ]
+   },
+   "sets": {},
+   "lage": "Holm is sitting on the mole with a stick next to her and a row of empty bottles on the wall. Petru is putting up the last one.",
+   "zeilen": [
+    {
+     "wer": "holm",
+     "text": "Frankfurt. You still have my rifle. I want it back, so we shoot for it. At the stand, whenever you're ready.",
+     "gefuehl": "neutral"
+    },
+    {
+     "wer": "holm",
+     "text": "It pulls left. Like the day you won it from me.",
+     "gefuehl": "amusement"
+    },
+    {
+     "wer": "holm",
+     "text": "And one more thing. That night in the siege, you said nobody goes to the north road, Pascal has it. I should have gone myself. That's mine, not yours.",
+     "gefuehl": "remorse",
+     "gruppe": "nacht",
+     "wenn": {
+      "flag": "bl_nachtwache_pascal"
+     }
+    },
+    {
+     "wer": "petru",
+     "text": "Hm. Again.",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Tomorrow. And I'm keeping it.”",
+     "folgen": [
+      {
+       "vertrauen": [
+        "holm",
+        2
+       ]
+      },
+      {
+       "flag": "a3_revanche"
+      }
+     ],
+     "zeile": {
+      "wer": "holm",
+      "text": "Faen. We'll see, Frankfurt.",
+      "gefuehl": "amusement"
+     }
+    },
+    {
+     "text": "Sits down next to her on the mole first.",
+     "folgen": [
+      {
+       "vertrauen": [
+        "holm",
+        4
+       ]
+      },
+      {
+       "flag": "a3_revanche"
+      }
+     ],
+     "zeile": {
+      "wer": "holm",
+      "text": "My hands are fine now. My head isn't, yet. Takk.",
+      "gefuehl": "gratitude"
+     }
     }
    ]
   },

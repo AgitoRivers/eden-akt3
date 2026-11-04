@@ -83,7 +83,22 @@ def main():
     pruefen(ziel[0]["id"] == "a3_uhr_toto" and "versprochen" in json.dumps(ziel[0]["wenn"]), "Totos Kiste nur mit Versprechen")
     pruefen(all(any(fo.get("flag") == "a3_charly_geld" for fo in o["folgen"]) for o in A3["a3_charly_geld"]["optionen"]), "Charlys Geld wirkt in jeder Wahl")
     pruefen("rt_charly_weg" in json.dumps(A3["a3_charly_geld"]["wann"]), "Charlys Geld nur, wenn sie nicht verloren ist")
-    from kern import regeln
+    from kern import akt3, aufbau, regeln
+    # Morgen-Vignetten: Kevin (nicht Tag 26), Dank heiler Haeuser je Morgen eins, Legion einmal
+    z = {"tag": 25, "flags": ["akt2_ende", "tk_haus_weg_post", "bl_verband_wolff", "buenaventura_schwur"], "kueche": {"rohstoffe": {}}}
+    pruefen(akt3.morgen({"tag": 25, "flags": []}) == [], "Vignetten erst nach dem Cliffhanger")
+    zl = akt3.morgen(z)
+    pruefen(akt3.KEVIN in zl and any("came through the fire" in x for x in zl), "Tag 25: Kevin und ein heiles Haus")
+    pruefen(akt3.KEVIN not in akt3.morgen(dict(z, tag=26)), "Tag 26 sitzt Kevin auf der Tafel")
+    pruefen(akt3.KEVIN not in akt3.morgen(dict(z, tag=35)), "Tag 35: keine Kevin-Zeile mehr")
+    aufbau.beginnen(z, "post")
+    z["tag"] = 27
+    zl = akt3.morgen(z)
+    pruefen(akt3.LEGION in zl and aufbau.baustellen(z)["post"]["stufe"] == 1, "Legion baut einmal eine Stufe")
+    pruefen(akt3.LEGION not in akt3.morgen(dict(z, tag=28)), "Legion nur einmal")
+    pruefen("bl_nachtwache_pascal" in json.dumps(EV["bl_nachtwache"]) and "bl_nachtwache_pascal" in json.dumps(A3["a3_revanche"]),
+            "Holms Vorwurf nur nach 'Nobody. Pascal has it.'")
+    pruefen(A3["a3_nonna_mina"]["wann"]["tage"] == [31, 31] and "a3_nonna_kiste" in json.dumps(A3["a3_nonna_mina"]["wann"]), "Mina bringt den Schluessel, wenn Duc nicht kam")
     z = {"flags": [], "ev": {"versprechen": [{"an": "toto", "text": "Make the crate count against Alon"}]}}
     pruefen(regeln.gilt({"versprochen": ["toto", "crate"]}, z) and not regeln.gilt({"versprochen": ["rosi", "crate"]}, z), "Bedingung versprochen")
     print("Alle Pruefungen gruen.")
