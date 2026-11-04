@@ -103888,6 +103888,3707 @@
      "folgen": []
     }
    ]
+  },
+  {
+   "id": "a3_morgen",
+   "art": "gag1",
+   "ton": "ernst",
+   "titel": "The Morning After",
+   "wann": {
+    "tage": [
+     24,
+     24
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "fruehstueck"
+    ],
+    "bedingung": {
+     "flag": "akt2_ende"
+    }
+   },
+   "bild": "village_piazza",
+   "personen": {
+    "handelnd": "mina",
+    "betroffen": [
+     {
+      "id": "petru",
+      "ton": "?",
+      "was": "is watching you"
+     },
+     {
+      "id": "anghjulu",
+      "ton": "?",
+      "was": "is standing at the church door"
+     },
+     {
+      "id": "jana",
+      "ton": "?",
+      "was": "has not slept"
+     }
+    ]
+   },
+   "sets": {},
+   "lage": "Day 24. The village spent the night in the church, and nobody slept much. Smoke still hangs over the square. The church door is open. The door to the back room behind the altar is shut. You are holding two cups of coffee. On someone's phone, Alon's video is playing again, and a man near the fountain asks it out loud: Did you know?",
+   "zeilen": [
+    {
+     "wer": "mina",
+     "text": "Sorry, Yacht. I don't know what to say to you today.",
+     "gefuehl": "sadness"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Puts both coffees down on the fountain. “My company belongs to the Eden Group. I didn't know they sold your harbour.”",
+     "folgen": [
+      {
+       "vertrauen": [
+        "casanova",
+        2
+       ]
+      },
+      {
+       "direkt": "a3_morgen_petru"
+      }
+     ]
+    },
+    {
+     "text": "“No, I didn't know. And I'm staying here until you believe me.”",
+     "folgen": [
+      {
+       "wert": "ruf",
+       "delta": 1
+      },
+      {
+       "direkt": "a3_morgen_petru"
+      }
+     ]
+    },
+    {
+     "text": "Stays where he is and says nothing.",
+     "folgen": [
+      {
+       "direkt": "a3_morgen_petru"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_morgen_petru",
+   "art": "gag1",
+   "ton": "ernst",
+   "titel": "The Morning After",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_piazza",
+   "personen": {
+    "handelnd": "petru",
+    "betroffen": [
+     {
+      "id": "jana",
+      "ton": "?",
+      "was": "wants to ask something"
+     },
+     {
+      "id": "anghjulu",
+      "ton": "?",
+      "was": "is guarding the back room"
+     }
+    ]
+   },
+   "sets": {},
+   "lage": "Petru steps out of the crowd and stands in front of you. He looks at you for a long time. Then he turns to the others.",
+   "zeilen": [
+    {
+     "wer": "petru",
+     "text": "Hm. I rowed out with the village, like in 1924, and he held the church until we came back. Three days. That's all I need to know.",
+     "gefuehl": "neutral",
+     "gruppe": "petru",
+     "wenn": {
+      "flag": "bl_dorf_rudert"
+     }
+    },
+    {
+     "wer": "petru",
+     "text": "Three days he stood between the fire and the church. That's all I need to know.",
+     "gefuehl": "neutral",
+     "gruppe": "petru",
+     "wenn": null
+    },
+    {
+     "wer": "jana",
+     "text": "Sir... Minicu. Is he... nobody will tell me.",
+     "gefuehl": "fear"
+    },
+    {
+     "wer": "anghjulu",
+     "text": "Not today, my child. Pray for him, and leave that door shut.",
+     "gefuehl": "sadness"
+    },
+    {
+     "wer": "lola",
+     "text": "Right! Who wants breakfast? I made heaps. Mostly the eggs.",
+     "gefuehl": "nervousness",
+     "gruppe": "essen",
+     "wenn": {
+      "nicht": {
+       "flag": "gefeuert_lola"
+      }
+     }
+    },
+    {
+     "wer": "batu",
+     "text": "Eat. Everybody eat. I made too much, like always.",
+     "gefuehl": "caring",
+     "gruppe": "essen",
+     "wenn": null
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Picks up his coffee again and goes to the church door to wait with Don.",
+     "folgen": [
+      {
+       "vertrauen": [
+        "anghjulu",
+        2
+       ]
+      },
+      {
+       "flag": "a3_morgen_fertig"
+      }
+     ],
+     "zeile": {
+      "wer": "anghjulu",
+      "text": "You can wait with me, my son. But you can't go in. Nobody can.",
+      "gefuehl": "sadness"
+     }
+    },
+    {
+     "text": "Sits down next to Jana and eats something, so she does too.",
+     "folgen": [
+      {
+       "vertrauen": [
+        "jana",
+        2
+       ]
+      },
+      {
+       "flag": "a3_morgen_fertig"
+      }
+     ],
+     "zeile": {
+      "wer": "jana",
+      "text": "Okay. One egg. For Minicu.",
+      "gefuehl": "sadness"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_schwur",
+   "art": "gag1",
+   "ton": "ernst",
+   "titel": "The Oath",
+   "wann": {
+    "tage": [
+     24,
+     24
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "tag"
+    ],
+    "bedingung": {
+     "flag": "akt2_ende"
+    }
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "bonaventure",
+    "betroffen": [
+     {
+      "id": "casanova",
+      "ton": "-",
+      "was": "has her arms folded"
+     },
+     {
+      "id": "petru",
+      "ton": "?",
+      "was": "waits"
+     }
+    ]
+   },
+   "sets": {},
+   "lage": "The harbour. The Eventually is tied up at the quay, its purple flag at half-mast. Forty men stand on the stones, and none of them is holding a torch. One of them holds up a phone. A news video is playing: pirates attacked a small village.",
+   "zeilen": [
+    {
+     "wer": "bonaventure",
+     "text": "I am famous! Look, Paco, that is our flag! ...Robots? I have never owned a robot in my life. They are saying I had robots!",
+     "gefuehl": "surprise"
+    },
+    {
+     "wer": "bonaventure",
+     "text": "We burned your houses. I gave the order to stop, and I gave it too late. I am sorry.",
+     "gefuehl": "remorse"
+    },
+    {
+     "wer": "bonaventure",
+     "text": "I don't know how a man makes that right. I have a flag, an anthem and forty men who can carry stones. We will find a way. I swear it.",
+     "gefuehl": "remorse"
+    },
+    {
+     "wer": "casanova",
+     "text": "You burned the post office.",
+     "gefuehl": "anger"
+    },
+    {
+     "wer": "bonaventure",
+     "text": "Yes, Madame. ...Señor. You beat me twice. So you decide. Do we stay and carry stones, or do we sail away?",
+     "gefuehl": "remorse"
+    },
+    {
+     "wer": "bibi",
+     "text": "Forty men. I'm counting them. Don't ask me why yet.",
+     "gefuehl": "curiosity",
+     "gruppe": "bibi",
+     "wenn": {
+      "alle": [
+       {
+        "flag": "rt_bibi_bleibt"
+       },
+       {
+        "flag": "mo_eco_idee"
+       }
+      ]
+     }
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Stay. Start with the houses you burned.”",
+     "folgen": [
+      {
+       "flag": "buenaventura_schwur"
+      },
+      {
+       "vertrauen": [
+        "bonaventure",
+        4
+       ]
+      },
+      {
+       "direkt": "a3_schwur_ende"
+      }
+     ],
+     "zeile": {
+      "wer": "petru",
+      "text": "Hm. Then carry stones.",
+      "gefuehl": "neutral"
+     }
+    },
+    {
+     "text": "Turns to Madame Casanova. “Ask her, not me. It's her village.”",
+     "folgen": [
+      {
+       "flag": "buenaventura_schwur"
+      },
+      {
+       "vertrauen": [
+        "casanova",
+        4
+       ]
+      },
+      {
+       "direkt": "a3_schwur_ende"
+      }
+     ],
+     "zeile": {
+      "wer": "casanova",
+      "text": "Stay. And carry everything twice.",
+      "gefuehl": "neutral"
+     }
+    },
+    {
+     "text": "“Stay. And when the commission comes, you tell them who paid you.”",
+     "folgen": [
+      {
+       "flag": "buenaventura_schwur"
+      },
+      {
+       "flag": "a3_buenaventura_aussage"
+      },
+      {
+       "direkt": "a3_schwur_ende"
+      }
+     ],
+     "zeile": {
+      "wer": "bonaventure",
+      "text": "Of course. I am a pirate, not a liar.",
+      "gefuehl": "pride"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_schwur_ende",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "The Oath",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "bonaventure",
+    "betroffen": [
+     {
+      "id": "petru",
+      "ton": "?",
+      "was": "is already giving orders"
+     }
+    ]
+   },
+   "sets": {},
+   "lage": "The pirates put their hats back on. One of them still has a burnt-out torch on his belt.",
+   "zeilen": [
+    {
+     "wer": "bonaventure",
+     "text": "Leave that.",
+     "gefuehl": "neutral"
+    },
+    {
+     "wer": "bonaventure",
+     "text": "...Señor, the burned houses are building sites now. My men will carry, but only where somebody lays the first stone. Tell us where to start.",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“I'll show you. Today.”",
+     "folgen": [
+      {
+       "flag": "a3_schwur_fertig"
+      }
+     ]
+    },
+    {
+     "text": "Looks up at the burned roofs. “Give me a day to choose.”",
+     "folgen": [
+      {
+       "flag": "a3_schwur_fertig"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_bau_post",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "Lend a Hand: Post Office",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_piazza",
+   "personen": {
+    "handelnd": "mina",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "The post office has no roof. Mina's bicycle is lying in the ashes, bent. Mina is sorting letters on the steps anyway. Who holds the first stone with you?",
+   "zeilen": [
+    {
+     "wer": "mina",
+     "text": "You want to start here? With my post office? Okay. I'll hold the bike. It's what I do.",
+     "gefuehl": "gratitude"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Lays the first stone here, with Mina.",
+     "folgen": [
+      {
+       "aufbau_beginnen": "post"
+      },
+      {
+       "vertrauen": [
+        "mina",
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "text": "Lays the first stone here, with one of the pirates who set the fire.",
+     "folgen": [
+      {
+       "aufbau_beginnen": "post"
+      },
+      {
+       "vertrauen": [
+        "bonaventure",
+        2
+       ]
+      },
+      {
+       "wert": "ruf",
+       "delta": 1
+      }
+     ],
+     "zeile": {
+      "wer": "bonaventure",
+      "text": "Paco! You burned it. You carry it.",
+      "gefuehl": "neutral"
+     }
+    },
+    {
+     "text": "Lays the first stone here, with someone from the crew.",
+     "folgen": [
+      {
+       "aufbau_beginnen": "post"
+      },
+      {
+       "wert": "moral",
+       "delta": 1
+      }
+     ]
+    },
+    {
+     "text": "Walks on to the next building site.",
+     "folgen": [
+      {
+       "weiter": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "tk_haus_weg_batu"
+           },
+           {
+            "nicht": {
+             "flag": "aufbau_begonnen_batu"
+            }
+           }
+          ]
+         },
+         "id": "a3_bau_batu"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "tk_haus_weg_bar"
+           },
+           {
+            "nicht": {
+             "flag": "aufbau_begonnen_bar"
+            }
+           }
+          ]
+         },
+         "id": "a3_bau_bar"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "tk_haus_weg_werkstatt"
+           },
+           {
+            "nicht": {
+             "flag": "aufbau_begonnen_werkstatt"
+            }
+           }
+          ]
+         },
+         "id": "a3_bau_werkstatt"
+        },
+        {
+         "id": "a3_bau_post"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_bau_batu",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "Lend a Hand: Bà Tư's shop",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_piazza",
+   "personen": {
+    "handelnd": "batu",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "Bà Tư's shop is black inside. The sign is still there, half of it. Bà Tư is cooking in the street, on a gas ring. Who holds the first stone with you?",
+   "zeilen": [
+    {
+     "wer": "batu",
+     "text": "Here, con? First you eat. Then you carry. Then you eat again.",
+     "gefuehl": "caring"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Lays the first stone here, with Bà Tư.",
+     "folgen": [
+      {
+       "aufbau_beginnen": "batu"
+      },
+      {
+       "vertrauen": [
+        "batu",
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "text": "Lays the first stone here, with one of the pirates who set the fire.",
+     "folgen": [
+      {
+       "aufbau_beginnen": "batu"
+      },
+      {
+       "vertrauen": [
+        "bonaventure",
+        2
+       ]
+      },
+      {
+       "wert": "ruf",
+       "delta": 1
+      }
+     ],
+     "zeile": {
+      "wer": "bonaventure",
+      "text": "Paco! You burned it. You carry it.",
+      "gefuehl": "neutral"
+     }
+    },
+    {
+     "text": "Lays the first stone here, with someone from the crew.",
+     "folgen": [
+      {
+       "aufbau_beginnen": "batu"
+      },
+      {
+       "wert": "moral",
+       "delta": 1
+      }
+     ]
+    },
+    {
+     "text": "Walks on to the next building site.",
+     "folgen": [
+      {
+       "weiter": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "tk_haus_weg_bar"
+           },
+           {
+            "nicht": {
+             "flag": "aufbau_begonnen_bar"
+            }
+           }
+          ]
+         },
+         "id": "a3_bau_bar"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "tk_haus_weg_werkstatt"
+           },
+           {
+            "nicht": {
+             "flag": "aufbau_begonnen_werkstatt"
+            }
+           }
+          ]
+         },
+         "id": "a3_bau_werkstatt"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "tk_haus_weg_post"
+           },
+           {
+            "nicht": {
+             "flag": "aufbau_begonnen_post"
+            }
+           }
+          ]
+         },
+         "id": "a3_bau_post"
+        },
+        {
+         "id": "a3_bau_batu"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_bau_bar",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "Lend a Hand: Alva's bar",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_piazza",
+   "personen": {
+    "handelnd": "alva",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "Alva's bar is a shell. Papa's chalk board hangs on the one wall that is still standing. Who holds the first stone with you?",
+   "zeilen": [
+    {
+     "wer": "alva",
+     "text": "My bar first? ...Don't tell anyone I said thank you. I didn't.",
+     "gefuehl": "gratitude"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Lays the first stone here, with Alva.",
+     "folgen": [
+      {
+       "aufbau_beginnen": "bar"
+      },
+      {
+       "vertrauen": [
+        "alva",
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "text": "Lays the first stone here, with one of the pirates who set the fire.",
+     "folgen": [
+      {
+       "aufbau_beginnen": "bar"
+      },
+      {
+       "vertrauen": [
+        "bonaventure",
+        2
+       ]
+      },
+      {
+       "wert": "ruf",
+       "delta": 1
+      }
+     ],
+     "zeile": {
+      "wer": "bonaventure",
+      "text": "Paco! You burned it. You carry it.",
+      "gefuehl": "neutral"
+     }
+    },
+    {
+     "text": "Lays the first stone here, with someone from the crew.",
+     "folgen": [
+      {
+       "aufbau_beginnen": "bar"
+      },
+      {
+       "wert": "moral",
+       "delta": 1
+      }
+     ]
+    },
+    {
+     "text": "Walks on to the next building site.",
+     "folgen": [
+      {
+       "weiter": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "tk_haus_weg_werkstatt"
+           },
+           {
+            "nicht": {
+             "flag": "aufbau_begonnen_werkstatt"
+            }
+           }
+          ]
+         },
+         "id": "a3_bau_werkstatt"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "tk_haus_weg_post"
+           },
+           {
+            "nicht": {
+             "flag": "aufbau_begonnen_post"
+            }
+           }
+          ]
+         },
+         "id": "a3_bau_post"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "tk_haus_weg_batu"
+           },
+           {
+            "nicht": {
+             "flag": "aufbau_begonnen_batu"
+            }
+           }
+          ]
+         },
+         "id": "a3_bau_batu"
+        },
+        {
+         "id": "a3_bau_bar"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_bau_werkstatt",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "Lend a Hand: Petru's workshop",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_piazza",
+   "personen": {
+    "handelnd": "petru",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "Petru's workshop is open to the sky. The tools are hanging on the wall, black, in the right order. Who holds the first stone with you?",
+   "zeilen": [
+    {
+     "wer": "petru",
+     "text": "Hm. Here. Wood first. Then we talk.",
+     "gefuehl": "approval"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Lays the first stone here, with Petru.",
+     "folgen": [
+      {
+       "aufbau_beginnen": "werkstatt"
+      },
+      {
+       "vertrauen": [
+        "petru",
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "text": "Lays the first stone here, with one of the pirates who set the fire.",
+     "folgen": [
+      {
+       "aufbau_beginnen": "werkstatt"
+      },
+      {
+       "vertrauen": [
+        "bonaventure",
+        2
+       ]
+      },
+      {
+       "wert": "ruf",
+       "delta": 1
+      }
+     ],
+     "zeile": {
+      "wer": "bonaventure",
+      "text": "Paco! You burned it. You carry it.",
+      "gefuehl": "neutral"
+     }
+    },
+    {
+     "text": "Lays the first stone here, with someone from the crew.",
+     "folgen": [
+      {
+       "aufbau_beginnen": "werkstatt"
+      },
+      {
+       "wert": "moral",
+       "delta": 1
+      }
+     ]
+    },
+    {
+     "text": "Walks on to the next building site.",
+     "folgen": [
+      {
+       "weiter": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "tk_haus_weg_post"
+           },
+           {
+            "nicht": {
+             "flag": "aufbau_begonnen_post"
+            }
+           }
+          ]
+         },
+         "id": "a3_bau_post"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "tk_haus_weg_batu"
+           },
+           {
+            "nicht": {
+             "flag": "aufbau_begonnen_batu"
+            }
+           }
+          ]
+         },
+         "id": "a3_bau_batu"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "tk_haus_weg_bar"
+           },
+           {
+            "nicht": {
+             "flag": "aufbau_begonnen_bar"
+            }
+           }
+          ]
+         },
+         "id": "a3_bau_bar"
+        },
+        {
+         "id": "a3_bau_werkstatt"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_dank_post",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "The First Post",
+   "wann": {
+    "tage": [
+     25,
+     35
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "fruehstueck"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "flag_seit": [
+        "aufbau_fertig_post",
+        1
+       ]
+      }
+     ]
+    }
+   },
+   "bild": "village_piazza",
+   "personen": {
+    "handelnd": "mina",
+    "betroffen": [
+     {
+      "id": "casanova",
+      "ton": "+",
+      "was": "is reading"
+     }
+    ]
+   },
+   "sets": {},
+   "lage": "The post office has a roof again. Mina rides past the harbour and honks twice. The first letter after the fire is not a bill.",
+   "zeilen": [
+    {
+     "wer": "mina",
+     "text": "Yacht! A postcard. From Montréal. It's not for me, it's for the baker. But still!",
+     "gefuehl": "joy"
+    },
+    {
+     "wer": "mina",
+     "text": "You did this. So listen. Every day I go to Bastia anyway. What do you need? I'll bring it.",
+     "gefuehl": "gratitude"
+    },
+    {
+     "wer": "mina",
+     "text": "And one more thing. The day the phones were dead, I knocked on every door. I saw who opened and who didn't. If the commission asks, I'll tell them. Will you want me to?",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Yes. Tell them what you saw.”",
+     "folgen": [
+      {
+       "flag": "a3_zeuge_mina"
+      },
+      {
+       "flag": "a3_zeuge_mina_ehrlich"
+      },
+      {
+       "vertrauen": [
+        "mina",
+        6
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "mina",
+      "text": "Okay. I'm scared. But okay.",
+      "gefuehl": "nervousness"
+     }
+    },
+    {
+     "text": "“Only if you want to, Mina. It's your name, not mine.”",
+     "folgen": [
+      {
+       "flag": "a3_zeuge_mina"
+      },
+      {
+       "flag": "a3_zeuge_mina_frei"
+      },
+      {
+       "vertrauen": [
+        "mina",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "mina",
+      "text": "Then I want to. Nobody asked me that before.",
+      "gefuehl": "gratitude"
+     }
+    },
+    {
+     "text": "“Think about it. Ask me again next week.”",
+     "folgen": [
+      {
+       "vertrauen": [
+        "mina",
+        2
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "mina",
+      "text": "Next week. You sound like the post.",
+      "gefuehl": "amusement"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_dank_batu",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "Two Plates",
+   "wann": {
+    "tage": [
+     25,
+     35
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "fruehstueck"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "flag_seit": [
+        "aufbau_fertig_batu",
+        1
+       ]
+      }
+     ]
+    }
+   },
+   "bild": "batu_shop",
+   "personen": {
+    "handelnd": "batu",
+    "betroffen": [
+     {
+      "id": "lola",
+      "ton": "+",
+      "was": "gets a plate too"
+     }
+    ]
+   },
+   "sets": {},
+   "lage": "Bà Tư's shop is open again. She puts two plates on the counter, and the second one is for Lola.",
+   "zeilen": [
+    {
+     "wer": "batu",
+     "text": "Eat. You're too thin, con. Both of you.",
+     "gefuehl": "caring"
+    },
+    {
+     "wer": "batu",
+     "text": "Men in white. Twice they asked me for the north road. I told you then. If the men from Ajaccio ask, do I tell them too?",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Yes. You told me first. Now tell them.”",
+     "folgen": [
+      {
+       "flag": "a3_zeuge_batu"
+      },
+      {
+       "flag": "a3_zeuge_batu_ehrlich"
+      },
+      {
+       "vertrauen": [
+        "batu",
+        6
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "batu",
+      "text": "Good. My mother was afraid of nobody. Me too.",
+      "gefuehl": "pride"
+     }
+    },
+    {
+     "text": "“Only if you're not afraid for the shop.”",
+     "folgen": [
+      {
+       "flag": "a3_zeuge_batu"
+      },
+      {
+       "flag": "a3_zeuge_batu_frei"
+      },
+      {
+       "vertrauen": [
+        "batu",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "batu",
+      "text": "I'm afraid. I still tell them. Eat.",
+      "gefuehl": "caring"
+     }
+    },
+    {
+     "text": "Eats first, and doesn't answer yet.",
+     "folgen": [
+      {
+       "vertrauen": [
+        "batu",
+        2
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "batu",
+      "text": "Smart boy. Eating first is always right.",
+      "gefuehl": "amusement"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_dank_bar",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "Papa's Board",
+   "wann": {
+    "tage": [
+     25,
+     35
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "fruehstueck"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "flag_seit": [
+        "aufbau_fertig_bar",
+        1
+       ]
+      }
+     ]
+    }
+   },
+   "bild": "alvas_bar",
+   "personen": {
+    "handelnd": "alva",
+    "betroffen": [
+     {
+      "id": "sandru",
+      "ton": "+",
+      "was": "brings the bread"
+     }
+    ]
+   },
+   "sets": {},
+   "lage": "Alva's bar is open again. On Papa's chalk board there is a new name, the first one after the fire.",
+   "zeilen": [
+    {
+     "wer": "alva",
+     "text": "Look. Under the new name somebody wrote: Everyone. Paid. D. That's you. You paid the first round, on the quay, in the siege.",
+     "gefuehl": "gratitude",
+     "gruppe": "board",
+     "wenn": {
+      "flag": "bl_alva_runde"
+     }
+    },
+    {
+     "wer": "alva",
+     "text": "Look. The first name after the fire. I wrote it myself. I'm not telling you whose it is.",
+     "gefuehl": "gratitude",
+     "gruppe": "board",
+     "wenn": null
+    },
+    {
+     "wer": "alva",
+     "text": "From the square, that night, I saw the north barricade open. Then the men in white came through. Nobody believes me, because I was knocked out after. Will you stand next to me when I say it?",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Yes. Every word.”",
+     "folgen": [
+      {
+       "flag": "a3_zeuge_alva"
+      },
+      {
+       "flag": "a3_zeuge_alva_ehrlich"
+      },
+      {
+       "vertrauen": [
+        "alva",
+        6
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "alva",
+      "text": "Then I'll say it. Don't get used to me needing you.",
+      "gefuehl": "pride"
+     }
+    },
+    {
+     "text": "“They'll believe you. You don't need me for that.”",
+     "folgen": [
+      {
+       "flag": "a3_zeuge_alva"
+      },
+      {
+       "flag": "a3_zeuge_alva_frei"
+      },
+      {
+       "vertrauen": [
+        "alva",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "alva",
+      "text": "Liar. A kind one. I'll take it.",
+      "gefuehl": "amusement"
+     }
+    },
+    {
+     "text": "“Let's open the bar first. Then we talk about the commission.”",
+     "folgen": [
+      {
+       "vertrauen": [
+        "alva",
+        2
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "alva",
+      "text": "The bar first. You're learning, o figliolu.",
+      "gefuehl": "amusement"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_dank_werkstatt",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "The Rudder",
+   "wann": {
+    "tage": [
+     25,
+     35
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "fruehstueck"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "flag_seit": [
+        "aufbau_fertig_werkstatt",
+        1
+       ]
+      }
+     ]
+    }
+   },
+   "bild": "petru_workshop",
+   "personen": {
+    "handelnd": "petru",
+    "betroffen": [
+     {
+      "id": "bonaventure",
+      "ton": "+",
+      "was": "carried the beams"
+     }
+    ]
+   },
+   "sets": {},
+   "lage": "Petru's workshop has a roof again. He hangs the old rudder over the door, the one that came through the fire.",
+   "zeilen": [
+    {
+     "wer": "petru",
+     "text": "Hm. The rudder stays. Burned or not.",
+     "gefuehl": "neutral"
+    },
+    {
+     "wer": "petru",
+     "text": "I saw the torches at my workshop. And I saw who stayed. A.V. bought the loan on my boat. If I talk, they take the boat. You want me to talk?",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Yes. And if they take your boat, we build you a new one.”",
+     "folgen": [
+      {
+       "flag": "a3_zeuge_petru"
+      },
+      {
+       "flag": "a3_zeuge_petru_ehrlich"
+      },
+      {
+       "vertrauen": [
+        "petru",
+        6
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "petru",
+      "text": "Hm. A new boat. ...Then I talk.",
+      "gefuehl": "approval"
+     }
+    },
+    {
+     "text": "“It's your boat, Petru. You decide.”",
+     "folgen": [
+      {
+       "flag": "a3_zeuge_petru"
+      },
+      {
+       "flag": "a3_zeuge_petru_frei"
+      },
+      {
+       "vertrauen": [
+        "petru",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "petru",
+      "text": "Hm. I decide. I talk.",
+      "gefuehl": "neutral"
+     }
+    },
+    {
+     "text": "Says nothing and helps him with the rudder.",
+     "folgen": [
+      {
+       "vertrauen": [
+        "petru",
+        2
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "petru",
+      "text": "Hm. Good.",
+      "gefuehl": "approval"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_alva_wach",
+   "art": "ort",
+   "ton": "ernst",
+   "titel": "Since Last Night",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_piazza",
+   "personen": {
+    "handelnd": "alva",
+    "betroffen": [
+     {
+      "id": "sandru",
+      "ton": "?",
+      "was": ""
+     }
+    ]
+   },
+   "sets": {
+    "alva": "alva_morgen"
+   },
+   "lage": "Mina found you: Sandru says come, and Sandru never says come. Alva is awake. She is lying on a camp bed at the front of the church, far away from the back room. Sandru sits on a stool next to her.",
+   "zeilen": [
+    {
+     "wer": "alva",
+     "text": "How long?",
+     "gefuehl": "confusion"
+    },
+    {
+     "wer": "sandru",
+     "text": "Since last night. You missed the end. Ha. Sorry. That's not funny.",
+     "gefuehl": "nervousness"
+    },
+    {
+     "wer": "alva",
+     "text": "And Minicu?",
+     "gefuehl": "fear"
+    },
+    {
+     "wer": "sandru",
+     "text": "Don won't let anyone in.",
+     "gefuehl": "sadness"
+    },
+    {
+     "wer": "alva",
+     "text": "Then we wait. ...Duc. Who carried me out? Don't lie to me, I'll know.",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Sandru. He carried you out of the rubble.”",
+     "folgen": [
+      {
+       "flag": "a3_alva_wach"
+      },
+      {
+       "vertrauen": [
+        "sandru",
+        4
+       ]
+      },
+      {
+       "vertrauen": [
+        "alva",
+        2
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "alva",
+      "text": "...Orangeade's on me, then. For a year.",
+      "gefuehl": "gratitude"
+     }
+    },
+    {
+     "text": "Looks at Sandru and waits.",
+     "folgen": [
+      {
+       "flag": "a3_alva_wach"
+      },
+      {
+       "vertrauen": [
+        "sandru",
+        6
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "sandru",
+      "text": "It was me. Okay? I'm thirty, Alva. I can carry things.",
+      "gefuehl": "embarrassment"
+     }
+    },
+    {
+     "text": "“Does it matter?”",
+     "folgen": [
+      {
+       "flag": "a3_alva_wach"
+      }
+     ],
+     "zeile": {
+      "wer": "alva",
+      "text": "Everything matters to me, Duc. That's my whole problem.",
+      "gefuehl": "sadness"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_uhr",
+   "art": "gag1",
+   "ton": "ernst",
+   "titel": "Under Control",
+   "wann": {
+    "tage": [
+     25,
+     25
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "fruehstueck"
+    ],
+    "bedingung": {
+     "flag": "akt2_ende"
+    }
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "elsa",
+    "betroffen": [
+     {
+      "id": "mina",
+      "ton": "?",
+      "was": "has a basket of letters"
+     }
+    ]
+   },
+   "sets": {
+    "elsa": "Standard"
+   },
+   "lage": "Elsa's phone lies on the harbour wall, on speaker. A tired man from Ajaccio is talking. We received your file, Lieutenant. Two men from the commission will come on the thirty-fifth. We are very busy here. And we have the feeling you have this under control. To be honest, we were surprised. Cala d'Orsu sends us a report every month. All quiet. Signed and stamped.",
+   "zeilen": [
+    {
+     "wer": "elsa",
+     "text": "That's ten days. ...Five years on this post, and they have never been this polite to me.",
+     "gefuehl": "anger"
+    },
+    {
+     "wer": "elsa",
+     "text": "I sent them a report every month too. Through the town hall. So where did mine go?",
+     "gefuehl": "realization"
+    },
+    {
+     "wer": "mina",
+     "text": "Twelve letters from Monaco. One is for Petru. A.V. bought the loan on his boat. And I have to take it to him. Me.",
+     "gefuehl": "sadness"
+    },
+    {
+     "wer": "mina",
+     "text": "You let me go alone that day, when the phones were dead. I knocked on every door. I can do this too.",
+     "gefuehl": "pride",
+     "gruppe": "mina",
+     "wenn": {
+      "flag": "bl_tueren_mina"
+     }
+    },
+    {
+     "wer": "elsa",
+     "text": "First Officer. The commission wants witnesses. People who saw it with their own eyes and will sign their name. Will you help me find them?",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“I'll talk to every one of them.”",
+     "folgen": [
+      {
+       "flag": "a3_zeugen_auftrag"
+      },
+      {
+       "vertrauen": [
+        "elsa",
+        4
+       ]
+      },
+      {
+       "direkt": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "versprochen": [
+             "toto",
+             "crate"
+            ]
+           },
+           {
+            "flag": "gr_kiste_genommen"
+           },
+           {
+            "nicht": {
+             "flag": "alon_kiste_genutzt"
+            }
+           }
+          ]
+         },
+         "id": "a3_uhr_toto"
+        },
+        {
+         "id": "a3_uhr_ende"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "text": "“What about the crew? We saw everything.”",
+     "folgen": [
+      {
+       "flag": "a3_zeugen_auftrag"
+      },
+      {
+       "direkt": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "versprochen": [
+             "toto",
+             "crate"
+            ]
+           },
+           {
+            "flag": "gr_kiste_genommen"
+           },
+           {
+            "nicht": {
+             "flag": "alon_kiste_genutzt"
+            }
+           }
+          ]
+         },
+         "id": "a3_uhr_toto"
+        },
+        {
+         "id": "a3_uhr_ende"
+        }
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "elsa",
+      "text": "You're guests. And Alon just called you his partner on television. The village has to speak for itself.",
+      "gefuehl": "neutral"
+     }
+    },
+    {
+     "text": "Takes Mina's basket. “Then we start with the letters.”",
+     "folgen": [
+      {
+       "flag": "a3_zeugen_auftrag"
+      },
+      {
+       "vertrauen": [
+        "mina",
+        4
+       ]
+      },
+      {
+       "direkt": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "versprochen": [
+             "toto",
+             "crate"
+            ]
+           },
+           {
+            "flag": "gr_kiste_genommen"
+           },
+           {
+            "nicht": {
+             "flag": "alon_kiste_genutzt"
+            }
+           }
+          ]
+         },
+         "id": "a3_uhr_toto"
+        },
+        {
+         "id": "a3_uhr_ende"
+        }
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "mina",
+      "text": "Okay. You knock. I'll hold the bike.",
+      "gefuehl": "gratitude"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_uhr_toto",
+   "art": "gag1",
+   "ton": "ernst",
+   "titel": "Under Control",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "elsa",
+    "betroffen": [
+     {
+      "id": "toto",
+      "ton": "?",
+      "was": "is waiting"
+     }
+    ]
+   },
+   "sets": {
+    "elsa": "Standard"
+   },
+   "lage": "Elsa writes a list on the back of an envelope. At the top, she writes: Commission in 10 days.",
+   "zeilen": [
+    {
+     "wer": "elsa",
+     "text": "On Saturday I drive to Ajaccio. I want to see these 'all quiet' reports with my own eyes.",
+     "gefuehl": "neutral"
+    },
+    {
+     "wer": "toto",
+     "text": "Comandante. The night we lost Gennaro, you promised me that crate would bring Alon down. Do you give it to her now?",
+     "gefuehl": "grief"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Hands Elsa the crate of collars from the grotto.",
+     "folgen": [
+      {
+       "flag": "alon_kiste_genutzt"
+      },
+      {
+       "vertrauen": [
+        "toto",
+        6
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "toto",
+      "text": "Grazie. ...Now it counts.",
+      "gefuehl": "gratitude"
+     }
+    },
+    {
+     "text": "“Not yet, Totò. When the men from Ajaccio are here.”",
+     "folgen": [],
+     "zeile": {
+      "wer": "toto",
+      "text": "Not yet. Okay. But you remember.",
+      "gefuehl": "sadness"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_uhr_ende",
+   "art": "gag1",
+   "ton": "ernst",
+   "titel": "Under Control",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "elsa",
+    "betroffen": [
+     {
+      "id": "mina",
+      "ton": "?",
+      "was": "is waiting"
+     }
+    ]
+   },
+   "sets": {
+    "elsa": "Standard"
+   },
+   "lage": "Elsa writes a list on the back of an envelope. At the top, she writes: Commission in 10 days.",
+   "zeilen": [
+    {
+     "wer": "elsa",
+     "text": "On Saturday I drive to Ajaccio. I want to see these 'all quiet' reports with my own eyes.",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Then we have ten days.”",
+     "folgen": [
+      {
+       "vertrauen": [
+        "elsa",
+        2
+       ]
+      }
+     ]
+    },
+    {
+     "text": "Reads the list over her shoulder.",
+     "folgen": []
+    }
+   ]
+  },
+  {
+   "id": "a3_megan_landet",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "Until I Land",
+   "wann": {
+    "tage": [
+     25,
+     25
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "dinner"
+    ],
+    "bedingung": {
+     "flag": "akt2_ende"
+    }
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "megan",
+    "betroffen": [
+     {
+      "id": "rosi",
+      "ton": "?",
+      "was": "has oil on her hands"
+     }
+    ]
+   },
+   "sets": {
+    "megan": "Boardroom",
+    "rosi": "Engine Room"
+   },
+   "lage": "No helicopter this time. A water taxi from Bastia, and one suitcase. Megan walks along the quay and stops in front of the yacht.",
+   "zeilen": [
+    {
+     "wer": "megan",
+     "text": "How... delightful. I'm gone for three weeks, and my yacht is a wreck with people living in it.",
+     "gefuehl": "disapproval",
+     "gruppe": "yacht",
+     "wenn": {
+      "flag": "tk_yacht_weg"
+     }
+    },
+    {
+     "wer": "megan",
+     "text": "How... delightful. Three weeks, and my yacht becomes a field hospital.",
+     "gefuehl": "disapproval",
+     "gruppe": "yacht",
+     "wenn": null
+    },
+    {
+     "wer": "rosi",
+     "text": "Don't worry. We fixed her once already, after the explosion. Twice is a tradition.",
+     "gefuehl": "pride",
+     "gruppe": "rosi",
+     "wenn": {
+      "alle": [
+       {
+        "flag": "tk_yacht_weg"
+       },
+       {
+        "nicht": {
+         "flag": "gefeuert_rosi"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "wer": "rosi",
+     "text": "It's only paint. Nearly only paint.",
+     "gefuehl": "pride",
+     "gruppe": "rosi",
+     "wenn": {
+      "nicht": {
+       "flag": "gefeuert_rosi"
+      }
+     }
+    },
+    {
+     "wer": "megan",
+     "text": "How reassuring. I'll call Monaco. They'll send parts, and a man who says 'unfortunately' a lot.",
+     "gefuehl": "annoyance",
+     "gruppe": "teile",
+     "wenn": {
+      "flag": "tk_yacht_weg"
+     }
+    },
+    {
+     "wer": "holm",
+     "text": "Megan.",
+     "gefuehl": "neutral",
+     "gruppe": "holm",
+     "wenn": {
+      "flag": "holm_zurueck"
+     }
+    },
+    {
+     "wer": "megan",
+     "text": "Captain. You're standing.",
+     "gefuehl": "surprise",
+     "gruppe": "holm2",
+     "wenn": {
+      "flag": "holm_zurueck"
+     }
+    },
+    {
+     "wer": "holm",
+     "text": "On one leg, yes. Frankfurt did the rest.",
+     "gefuehl": "amusement",
+     "gruppe": "holm3",
+     "wenn": {
+      "flag": "holm_zurueck"
+     }
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Takes her suitcase.",
+     "folgen": [
+      {
+       "direkt": "a3_megan_frage"
+      }
+     ]
+    },
+    {
+     "text": "“Welcome back, Megan.”",
+     "folgen": [
+      {
+       "direkt": "a3_megan_frage"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_megan_frage",
+   "art": "gag1",
+   "ton": "ernst",
+   "titel": "Until I Land",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "megan",
+    "betroffen": []
+   },
+   "sets": {
+    "megan": "Boardroom"
+   },
+   "lage": "Megan pulls you away from the others, to the end of the quay.",
+   "zeilen": [
+    {
+     "wer": "megan",
+     "text": "Duc. Alon thanked 'our partners at the Eden Group'. Did you know who was buying the harbour?",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“No. Did you?”",
+     "folgen": [
+      {
+       "direkt": "a3_megan_handel"
+      }
+     ]
+    },
+    {
+     "text": "“I didn't know they were selling it at all.”",
+     "folgen": [
+      {
+       "direkt": "a3_megan_handel"
+      }
+     ]
+    },
+    {
+     "text": "Doesn't joke this time. “Megan. I'd never sell these people.”",
+     "folgen": [
+      {
+       "vertrauen": [
+        "megan",
+        2
+       ]
+      },
+      {
+       "direkt": "a3_megan_handel"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_megan_handel",
+   "art": "gag1",
+   "ton": "ernst",
+   "titel": "Until I Land",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "megan",
+    "betroffen": []
+   },
+   "sets": {
+    "megan": "Boardroom"
+   },
+   "lage": "She looks at the burned roofs for a moment before she speaks.",
+   "zeilen": [
+    {
+     "wer": "megan",
+     "text": "I negotiated that sale. Every line. I never asked who A.V. was, because the numbers were good. So that's two of us who didn't ask.",
+     "gefuehl": "remorse"
+    },
+    {
+     "wer": "megan",
+     "text": "Here's the deal, First Officer. I'll try to stop the sale. The board in Monaco won't believe a video. They want paper and names. Can you get me names?",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“I'm already collecting them.”",
+     "folgen": [
+      {
+       "flag": "megan_zurueck"
+      },
+      {
+       "flag": "a3_megan_handel"
+      },
+      {
+       "vertrauen": [
+        "megan",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "megan",
+      "text": "Of course you are. How... efficient.",
+      "gefuehl": "approval"
+     }
+    },
+    {
+     "text": "“Why do you care now?”",
+     "folgen": [
+      {
+       "flag": "megan_zurueck"
+      },
+      {
+       "flag": "a3_megan_handel"
+      }
+     ],
+     "zeile": {
+      "wer": "megan",
+      "text": "Because he nearly sank my ship. And because I signed it.",
+      "gefuehl": "sadness"
+     }
+    },
+    {
+     "text": "“And what's in it for you?”",
+     "folgen": [
+      {
+       "flag": "megan_zurueck"
+      },
+      {
+       "flag": "a3_megan_handel"
+      }
+     ],
+     "zeile": {
+      "wer": "megan",
+      "text": "A seat on the board. Obviously. And a quiet evening, maybe. Don't ask for more.",
+      "gefuehl": "pride"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_festa_tafel",
+   "art": "gag1",
+   "ton": "witzig",
+   "titel": "THIS. IS. THE. FESTA!",
+   "wann": {
+    "tage": [
+     26,
+     26
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "fruehstueck"
+    ],
+    "bedingung": {
+     "flag": "akt2_ende"
+    }
+   },
+   "bild": "village_piazza",
+   "personen": {
+    "handelnd": "casanova",
+    "betroffen": [
+     {
+      "id": "petru",
+      "ton": "?",
+      "was": "is holding the ladder"
+     },
+     {
+      "id": "mina",
+      "ton": "+",
+      "was": "claps too early"
+     }
+    ]
+   },
+   "sets": {},
+   "lage": "Madame Casanova has been here since five in the morning. There is a big board on the church wall, taller than she is. Kevin the gull is sitting on top of it.",
+   "zeilen": [
+    {
+     "wer": "casanova",
+     "text": "Cala d'Orsu! They burned our houses. They want us to cancel the festa. So we will NOT!",
+     "gefuehl": "pride"
+    },
+    {
+     "wer": "casanova",
+     "text": "...Thank you, Kevin.",
+     "gefuehl": "annoyance"
+    },
+    {
+     "wer": "casanova",
+     "text": "Three columns. Building, food, decoration. Every name on this board is a person with a gift. Nothing from the shop! ...Monsieur. Can I count on you, or should I count on someone else?",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Count on me.”",
+     "folgen": [
+      {
+       "flag": "a3_festa_tafel"
+      },
+      {
+       "vertrauen": [
+        "casanova",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "casanova",
+      "text": "Good. ...Good. That's all I wanted to know today. And somebody get that bird off the board!",
+      "gefuehl": "relief"
+     }
+    },
+    {
+     "text": "“Tell me who to start with.”",
+     "folgen": [
+      {
+       "flag": "a3_festa_tafel"
+      },
+      {
+       "vertrauen": [
+        "casanova",
+        2
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "casanova",
+      "text": "With everyone, Monsieur. One at a time.",
+      "gefuehl": "amusement"
+     }
+    },
+    {
+     "text": "“Count on me. And on the pirates.”",
+     "folgen": [
+      {
+       "flag": "a3_festa_tafel"
+      },
+      {
+       "vertrauen": [
+        "casanova",
+        2
+       ]
+      },
+      {
+       "vertrauen": [
+        "bonaventure",
+        2
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "casanova",
+      "text": "The pirates. On my festa. ...Fine. They carry the tables.",
+      "gefuehl": "annoyance"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_sonntag",
+   "art": "gag1",
+   "ton": "ernst",
+   "titel": "Sunday",
+   "wann": {
+    "tage": [
+     28,
+     28
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "tag"
+    ],
+    "bedingung": {
+     "flag": "akt2_ende"
+    }
+   },
+   "bild": "church",
+   "personen": {
+    "handelnd": "anghjulu",
+    "betroffen": [
+     {
+      "id": "batu",
+      "ton": "+",
+      "was": "has a tin for you"
+     }
+    ]
+   },
+   "sets": {
+    "anghjulu": "anghjulu_standard"
+   },
+   "lage": "The church. A bucket stands in the first row, and it is dripping. Pascal paid for the new roof. That money has stopped. The rain hasn't. The door to the back room is still shut. Outside, a father takes down the bus timetable and folds it very small. The school bus won't come on Monday.",
+   "zeilen": [
+    {
+     "wer": "anghjulu",
+     "text": "Today I'll keep it short, because the roof is listening. And pray quietly for the one in the back room.",
+     "gefuehl": "sadness"
+    },
+    {
+     "wer": "batu",
+     "text": "Eat. You're too thin. And don't look at the bus stop like that. You didn't stop that bus.",
+     "gefuehl": "caring"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Takes the tin and goes outside after the mass.",
+     "folgen": [
+      {
+       "direkt": "a3_sonntag_treppe"
+      }
+     ]
+    },
+    {
+     "text": "Eats one biscuit from the tin right away, so Bà Tư sees it.",
+     "folgen": [
+      {
+       "vertrauen": [
+        "batu",
+        2
+       ]
+      },
+      {
+       "direkt": "a3_sonntag_treppe"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_sonntag_treppe",
+   "art": "gag1",
+   "ton": "ernst",
+   "titel": "Sunday",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_piazza",
+   "personen": {
+    "handelnd": "anghjulu",
+    "betroffen": []
+   },
+   "sets": {
+    "anghjulu": "anghjulu_standard"
+   },
+   "lage": "People with boxes stand at the town hall stairs. They want to throw everything Pascal owned into the harbour. Don stands in front of the door, alone.",
+   "zeilen": [
+    {
+     "wer": "anghjulu",
+     "text": "No. ...I know what he did, my son. I was there. Nobody goes in.",
+     "gefuehl": "anger"
+    },
+    {
+     "wer": "anghjulu",
+     "text": "Monsieur Duc. They are asking you. Are you with them, or with an old priest?",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Walks up the stairs and stands next to Don.",
+     "folgen": [
+      {
+       "vertrauen": [
+        "anghjulu",
+        6
+       ]
+      },
+      {
+       "flag": "a3_don_tuer"
+      },
+      {
+       "flag": "a3_zeuge_tuer_don"
+      },
+      {
+       "direkt": "a3_sonntag_zimmer"
+      }
+     ],
+     "zeile": {
+      "wer": "anghjulu",
+      "text": "Thank you, my son. My knees are not as brave as my mouth.",
+      "gefuehl": "gratitude"
+     }
+    },
+    {
+     "text": "“Elsa is on her way. Leave it for her.”",
+     "folgen": [
+      {
+       "vertrauen": [
+        "anghjulu",
+        2
+       ]
+      },
+      {
+       "direkt": "a3_sonntag_zimmer"
+      }
+     ],
+     "zeile": {
+      "wer": "anghjulu",
+      "text": "...They are putting the boxes down. Logic. I never tried that.",
+      "gefuehl": "relief"
+     }
+    },
+    {
+     "text": "Stays at the bottom of the stairs.",
+     "folgen": [
+      {
+       "direkt": "a3_sonntag_zimmer"
+      }
+     ],
+     "zeile": {
+      "wer": "anghjulu",
+      "text": "Then I stand here alone. I have done it before.",
+      "gefuehl": "sadness"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_sonntag_zimmer",
+   "art": "gag1",
+   "ton": "ernst",
+   "titel": "The Drawer",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_piazza",
+   "personen": {
+    "handelnd": "elsa",
+    "betroffen": [
+     {
+      "id": "anghjulu",
+      "ton": "?",
+      "was": "opens the door"
+     }
+    ]
+   },
+   "sets": {
+    "elsa": "Standard"
+   },
+   "lage": "Elsa comes up the stairs with a crowbar. Behind the door is Pascal's room: a desk, an empty hook, and a lighter square on the wall where a picture used to hang. She opens the locked drawer.",
+   "zeilen": [
+    {
+     "wer": "elsa",
+     "text": "My antenna form. Eleven months. 'Almost through.'",
+     "gefuehl": "anger"
+    },
+    {
+     "wer": "elsa",
+     "text": "My reports to the mayor. Never delivered. Madame Casanova's EU applications, signed, never sent. And copies of the monthly report to Ajaccio. 'All quiet.' His signature.",
+     "gefuehl": "realization"
+    },
+    {
+     "wer": "elsa",
+     "text": "Three o'clock, the night of the twenty-second. I wrote it down myself, that night. Two words.",
+     "gefuehl": "neutral",
+     "gruppe": "wache",
+     "wenn": {
+      "alle": [
+       {
+        "flag": "bl_wache_gesehen"
+       },
+       {
+        "flag": "bl_nachtwache_elsa"
+       }
+      ]
+     }
+    },
+    {
+     "wer": "elsa",
+     "text": "Holm told me about three o'clock. Here it is. The night of the twenty-second: two words.",
+     "gefuehl": "neutral",
+     "gruppe": "wache",
+     "wenn": {
+      "flag": "bl_wache_gesehen"
+     }
+    },
+    {
+     "wer": "elsa",
+     "text": "And this. A cash book in the same careful hand. The roof. The school bus. The festa money. And here: the priest. Sandru. ...Madame Casanova.",
+     "gefuehl": "sadness"
+    },
+    {
+     "wer": "elsa",
+     "text": "This goes to the commission. All of it, or only his part? Think about it until then.",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“All of it.”",
+     "folgen": [
+      {
+       "flag": "a3_kassenbuch"
+      },
+      {
+       "flag": "a3_kassenbuch_alles_vor"
+      }
+     ],
+     "zeile": {
+      "wer": "elsa",
+      "text": "For the record: I'd make the same face you're making.",
+      "gefuehl": "neutral"
+     }
+    },
+    {
+     "text": "“Only Alon's part. The village has paid enough.”",
+     "folgen": [
+      {
+       "flag": "a3_kassenbuch"
+      },
+      {
+       "flag": "a3_kassenbuch_teil_vor"
+      }
+     ],
+     "zeile": {
+      "wer": "elsa",
+      "text": "For the record: I'd make the same face you're making.",
+      "gefuehl": "neutral"
+     }
+    },
+    {
+     "text": "“I don't know yet.”",
+     "folgen": [
+      {
+       "flag": "a3_kassenbuch"
+      }
+     ],
+     "zeile": {
+      "wer": "elsa",
+      "text": "Good. Then you're thinking. Most people here stopped doing that years ago.",
+      "gefuehl": "neutral"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_nonna_kiste",
+   "art": "ort",
+   "ton": "ernst",
+   "titel": "The Last Crate",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "monastery_garden_dusk",
+   "personen": {
+    "handelnd": "nonna",
+    "betroffen": []
+   },
+   "sets": {
+    "nonna": "nonna_standard"
+   },
+   "lage": "Every week there is a crate of seedlings at Nonna's door. This one has stood there since the morning after the siege. Today she opens the folded letter that came with it.",
+   "zeilen": [
+    {
+     "wer": "nonna",
+     "text": "He writes: I told the priest not to go up the mountain. Stay, Don. Leave it with me. I thought it was for safety.",
+     "gefuehl": "sadness"
+    },
+    {
+     "wer": "nonna",
+     "text": "And I told him all of it, every month, for nine years. He can't say a word. That's why he drinks.",
+     "gefuehl": "sadness"
+    },
+    {
+     "wer": "nonna",
+     "text": "Duc told me to say it to him, to Minicu, at the gate. So I did. It was the only true thing I said that night.",
+     "gefuehl": "grief",
+     "gruppe": "minicu",
+     "wenn": {
+      "flag": "bl_minicu_sag_es"
+     }
+    },
+    {
+     "wer": "nonna",
+     "text": "I told Isabelle that man has a good heart. You don't have a good heart, Pascal. You have a bad conscience.",
+     "gefuehl": "anger"
+    },
+    {
+     "wer": "nonna",
+     "text": "There's a key in the crate. The cellar door of the Casanova house. Do you want it, or shall I throw it in the sea?",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Takes the key.",
+     "folgen": [
+      {
+       "flag": "a3_kellerschluessel"
+      },
+      {
+       "flag": "a3_nonna_kiste"
+      },
+      {
+       "vertrauen": [
+        "nonna",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "nonna",
+      "text": "Go carefully. And plant something when you come back.",
+      "gefuehl": "caring"
+     }
+    },
+    {
+     "text": "“Keep it, Nonna. I'll find another way in.”",
+     "folgen": [
+      {
+       "flag": "a3_nonna_kiste"
+      },
+      {
+       "vertrauen": [
+        "nonna",
+        2
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "nonna",
+      "text": "Then I plant the seedlings anyway. Nothing in my garden goes hungry.",
+      "gefuehl": "caring"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_siri_post",
+   "art": "ort",
+   "ton": "ernst",
+   "titel": "In My Own Words",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "siri",
+    "betroffen": [
+     {
+      "id": "yasin",
+      "ton": "?",
+      "was": ""
+     }
+    ]
+   },
+   "sets": {
+    "siri": "Dad's Sweater"
+   },
+   "lage": "The quay at sunset. Siri is wearing her father's jumper with the stars on it. Yasin sits next to her with his phone.",
+   "zeilen": [
+    {
+     "wer": "siri",
+     "text": "It was up for four seconds, and then his video slid over it. This time I'm not giving him four seconds.",
+     "gefuehl": "anger",
+     "gruppe": "vier",
+     "wenn": {
+      "flag": "siri_darf_posten"
+     }
+    },
+    {
+     "wer": "yasin",
+     "text": "Bro. Somebody offered me twenty thousand for the video. Twenty! That's business.",
+     "gefuehl": "pride"
+    },
+    {
+     "wer": "siri",
+     "text": "It's his company, Yasin. He'll buy it, and nobody will ever see it.",
+     "gefuehl": "anger"
+    },
+    {
+     "wer": "siri",
+     "text": "Duc. I said I'd wait for Minicu. Nobody knows if he's awake. Do I post it now, or do I keep waiting?",
+     "gefuehl": "nervousness",
+     "gruppe": "frage",
+     "wenn": {
+      "flag": "siri_wartet"
+     }
+    },
+    {
+     "wer": "siri",
+     "text": "Duc. I want to post it myself. No filter, no music, just what we saw. Is that brave or stupid?",
+     "gefuehl": "nervousness",
+     "gruppe": "frage",
+     "wenn": null
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Post it now. Everybody should see what happened.”",
+     "folgen": [
+      {
+       "flag": "a3_siri_post"
+      },
+      {
+       "vertrauen": [
+        "siri",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "yasin",
+      "text": "...I filmed Minicu falling, and I kept filming. I don't want money for that. Okay? Don't tell anyone I said okay.",
+      "gefuehl": "remorse"
+     }
+    },
+    {
+     "text": "“Post it, and I'll stand next to you when he calls it fake.”",
+     "folgen": [
+      {
+       "flag": "a3_siri_post"
+      },
+      {
+       "vertrauen": [
+        "siri",
+        6
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "siri",
+      "text": "Okay. Hold my hand when I press it. No, don't. Yes. Hold it.",
+      "gefuehl": "nervousness"
+     }
+    },
+    {
+     "text": "“Wait. It's Minicu's face. Wait until we know.”",
+     "folgen": [
+      {
+       "flag": "a3_siri_festa"
+      },
+      {
+       "vertrauen": [
+        "siri",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "siri",
+      "text": "Okay. I wait. But not forever.",
+      "gefuehl": "sadness"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_berichte",
+   "art": "gag1",
+   "ton": "ernst",
+   "titel": "Every Report",
+   "wann": {
+    "tage": [
+     29,
+     29
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "abend"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "flag": "a3_kassenbuch"
+      }
+     ]
+    }
+   },
+   "bild": "church",
+   "personen": {
+    "handelnd": "elsa",
+    "betroffen": [
+     {
+      "id": "casanova",
+      "ton": "?",
+      "was": "doesn't stop her"
+     }
+    ]
+   },
+   "sets": {},
+   "lage": "The church steps at night. Candles. Elsa has a pile of papers on her knees, and she reads them out one by one. Madame Casanova sits two steps higher and listens. Elsa reads thirty-one of them. Casanova doesn't stop her once.",
+   "zeilen": [
+    {
+     "wer": "elsa",
+     "text": "March. 'Dogs with collars near the monastery road.' May. 'Request for a meeting with the mayor.' August. 'Request for a meeting with the mayor.'",
+     "gefuehl": "neutral"
+    },
+    {
+     "wer": "casanova",
+     "text": "He told me you never wrote.",
+     "gefuehl": "sadness"
+    },
+    {
+     "wer": "elsa",
+     "text": "I wrote every month, Madame.",
+     "gefuehl": "sadness"
+    },
+    {
+     "wer": "casanova",
+     "text": "Monsieur. Pascal kept the truth in a drawer for nine years. What did you keep in yours?",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Nothing about your harbour. But I should have asked my own company more questions.”",
+     "folgen": [
+      {
+       "vertrauen": [
+        "casanova",
+        6
+       ]
+      },
+      {
+       "flag": "a3_zeuge_tuer_casanova"
+      },
+      {
+       "direkt": "a3_berichte_ende"
+      }
+     ],
+     "zeile": {
+      "wer": "casanova",
+      "text": "Questions. Nobody here asked enough of those, Monsieur.",
+      "gefuehl": "neutral"
+     }
+    },
+    {
+     "text": "Sits down on the step below her. “Only that I'm sorry it came out on television.”",
+     "folgen": [
+      {
+       "vertrauen": [
+        "casanova",
+        4
+       ]
+      },
+      {
+       "flag": "a3_zeuge_tuer_casanova"
+      },
+      {
+       "direkt": "a3_berichte_ende"
+      }
+     ]
+    },
+    {
+     "text": "“I'm still here. That's my answer.”",
+     "folgen": [
+      {
+       "vertrauen": [
+        "casanova",
+        2
+       ]
+      },
+      {
+       "direkt": "a3_berichte_ende"
+      }
+     ],
+     "zeile": {
+      "wer": "casanova",
+      "text": "Yes. You are. That is something.",
+      "gefuehl": "neutral"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_berichte_ende",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "Every Report",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "church",
+   "personen": {
+    "handelnd": "casanova",
+    "betroffen": [
+     {
+      "id": "elsa",
+      "ton": "+",
+      "was": "almost smiles"
+     }
+    ]
+   },
+   "sets": {
+    "elsa": "Standard"
+   },
+   "lage": "Madame Casanova stands up and brushes off her skirt.",
+   "zeilen": [
+    {
+     "wer": "casanova",
+     "text": "Lieutenant. From now on you report to me. Directly. Every day, if you like.",
+     "gefuehl": "neutral"
+    },
+    {
+     "wer": "elsa",
+     "text": "Every day, Madame?",
+     "gefuehl": "amusement"
+    },
+    {
+     "wer": "casanova",
+     "text": "...Every week.",
+     "gefuehl": "embarrassment"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Blows out the last candle.",
+     "folgen": [
+      {
+       "flag": "a3_berichte_fertig"
+      }
+     ]
+    },
+    {
+     "text": "Walks them both home.",
+     "folgen": [
+      {
+       "flag": "a3_berichte_fertig"
+      },
+      {
+       "vertrauen": [
+        "elsa",
+        2
+       ]
+      },
+      {
+       "vertrauen": [
+        "casanova",
+        2
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_yacht_hotline",
+   "art": "gag1",
+   "ton": "witzig",
+   "titel": "Eden Fleet Services",
+   "wann": {
+    "tage": [
+     25,
+     31
+    ],
+    "phasen": [
+     "tag",
+     "nachmittag"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "flag": "tk_yacht_weg"
+      },
+      {
+       "nicht": {
+        "flag": "a3_yacht_repariert"
+       }
+      },
+      {
+       "nicht": {
+        "flag": "gefeuert_rosi"
+       }
+      }
+     ]
+    }
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "rosi",
+    "betroffen": [
+     {
+      "id": "toto",
+      "ton": "+",
+      "was": "is humming along"
+     }
+    ]
+   },
+   "sets": {
+    "rosi": "Engine Room"
+   },
+   "lage": "Rosi's phone lies on a crate, on speaker. A friendly voice says: Thank you for calling Eden Fleet Services. Your yacht is important to us. Then the music starts. It is very long music.",
+   "zeilen": [
+    {
+     "wer": "rosi",
+     "text": "Eleven minutes. I'm timing it. ...Twelve.",
+     "gefuehl": "annoyance"
+    },
+    {
+     "wer": "toto",
+     "text": "Comandante, I know this song now. All of it. Even the sad part.",
+     "gefuehl": "amusement"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Sits down next to Rosi and waits with her.",
+     "folgen": [
+      {
+       "vertrauen": [
+        "rosi",
+        2
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "rosi",
+      "text": "Thirteen minutes. If they answer now, I'll cry. From anger.",
+      "gefuehl": "amusement"
+     }
+    },
+    {
+     "text": "Hangs up for her. “We fix it ourselves.”",
+     "folgen": [
+      {
+       "vertrauen": [
+        "rosi",
+        4
+       ]
+      },
+      {
+       "wert": "moral",
+       "delta": 1
+      }
+     ],
+     "zeile": {
+      "wer": "rosi",
+      "text": "Finally somebody on this boat who talks sense.",
+      "gefuehl": "approval"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_yacht_propeller",
+   "art": "gag1",
+   "ton": "witzig",
+   "titel": "One Propeller",
+   "wann": {
+    "tage": [
+     26,
+     31
+    ],
+    "phasen": [
+     "tag",
+     "nachmittag"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "flag": "tk_yacht_weg"
+      },
+      {
+       "nicht": {
+        "flag": "a3_yacht_repariert"
+       }
+      },
+      {
+       "nicht": {
+        "flag": "gefeuert_rosi"
+       }
+      }
+     ]
+    }
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "toto",
+    "betroffen": [
+     {
+      "id": "rosi",
+      "ton": "-",
+      "was": "reads the delivery note"
+     }
+    ]
+   },
+   "sets": {
+    "rosi": "Engine Room"
+   },
+   "lage": "A crate from Monaco stands on the quay. Totò opens it like a birthday present.",
+   "zeilen": [
+    {
+     "wer": "toto",
+     "text": "Comandante! The Eden Group sent us one propeller. One. We have two.",
+     "gefuehl": "surprise"
+    },
+    {
+     "wer": "rosi",
+     "text": "Then we're half finished.",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Half is better than nothing.”",
+     "folgen": [
+      {
+       "wert": "moral",
+       "delta": 1
+      }
+     ],
+     "zeile": {
+      "wer": "toto",
+      "text": "You see? That's why he is the Comandante.",
+      "gefuehl": "amusement"
+     }
+    },
+    {
+     "text": "Helps Totò carry the crate anyway.",
+     "folgen": [
+      {
+       "vertrauen": [
+        "toto",
+        2
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "toto",
+      "text": "Heavy. For one propeller. Monaco puts stones in it, I think.",
+      "gefuehl": "amusement"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_yacht_tuer",
+   "art": "gag1",
+   "ton": "witzig",
+   "titel": "A Door",
+   "wann": {
+    "tage": [
+     26,
+     29
+    ],
+    "phasen": [
+     "tag",
+     "nachmittag"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "flag": "tk_yacht_weg"
+      },
+      {
+       "nicht": {
+        "flag": "a3_yacht_repariert"
+       }
+      },
+      {
+       "nicht": {
+        "flag": "gefeuert_rosi"
+       }
+      }
+     ]
+    }
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "maxwell",
+    "betroffen": [
+     {
+      "id": "rosi",
+      "ton": "-",
+      "was": "points at the sea"
+     }
+    ]
+   },
+   "sets": {
+    "maxwell": "maximum_steelmop",
+    "rosi": "Engine Room"
+   },
+   "lage": "Maxwell comes along the quay with a door on his shoulder. Nobody knows where he found it.",
+   "zeilen": [
+    {
+     "wer": "maxwell",
+     "text": "Mr. Maximum has found a door. He does not know where it goes.",
+     "gefuehl": "pride"
+    },
+    {
+     "wer": "rosi",
+     "text": "The sea. It goes in the sea.",
+     "gefuehl": "annoyance"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Put it on the pile, Maxwell. It'll be a table at the festa.”",
+     "folgen": [
+      {
+       "vertrauen": [
+        "maxwell",
+        2
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "maxwell",
+      "text": "Eish! A door that becomes a table. Lekker.",
+      "gefuehl": "joy"
+     }
+    },
+    {
+     "text": "Takes the other end of the door.",
+     "folgen": [
+      {
+       "vertrauen": [
+        "maxwell",
+        2
+       ]
+      },
+      {
+       "wert": "moral",
+       "delta": 1
+      }
+     ],
+     "zeile": {
+      "wer": "maxwell",
+      "text": "Teamwork, brother. Into the sea. Slowly.",
+      "gefuehl": "amusement"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_yacht_haesslich",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "Ugly",
+   "wann": {
+    "tage": [
+     31,
+     31
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "abend"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "flag": "tk_yacht_weg"
+      },
+      {
+       "nicht": {
+        "flag": "a3_yacht_repariert"
+       }
+      }
+     ]
+    }
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "rosi",
+    "betroffen": [
+     {
+      "id": "toto",
+      "ton": "+",
+      "was": "claps"
+     }
+    ]
+   },
+   "sets": {
+    "rosi": "Engine Room"
+   },
+   "lage": "The evening of day 31. Rosi climbs out of the engine room with black hands and knocks on the hull twice.",
+   "zeilen": [
+    {
+     "wer": "rosi",
+     "text": "She's ugly, she leaks a bit, and she floats. Don't tell her I said ugly.",
+     "gefuehl": "pride",
+     "gruppe": "rosi",
+     "wenn": {
+      "nicht": {
+       "flag": "gefeuert_rosi"
+      }
+     }
+    },
+    {
+     "wer": "maxwell",
+     "text": "Rosi says she floats. Mr. Maximum has checked. She floats.",
+     "gefuehl": "pride",
+     "gruppe": "rosi",
+     "wenn": null
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Knocks on the hull too.",
+     "folgen": [
+      {
+       "flag": "a3_yacht_repariert"
+      },
+      {
+       "wert": "moral",
+       "delta": 1
+      }
+     ]
+    },
+    {
+     "text": "“Tomorrow we take her out.”",
+     "folgen": [
+      {
+       "flag": "a3_yacht_repariert"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_probefahrt",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "She Still Swims",
+   "wann": {
+    "tage": [
+     32,
+     32
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "fruehstueck"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "flag": "tk_yacht_weg"
+      },
+      {
+       "flag": "a3_yacht_repariert"
+      }
+     ]
+    }
+   },
+   "bild": "bridge",
+   "personen": {
+    "handelnd": "holm",
+    "betroffen": [
+     {
+      "id": "rosi",
+      "ton": "+",
+      "was": "is listening to the engine"
+     }
+    ]
+   },
+   "sets": {
+    "holm": "Bridge",
+    "rosi": "Engine Room"
+   },
+   "lage": "Holm stands on the bridge for the first time since the siege. One slow round in the harbour.",
+   "zeilen": [
+    {
+     "wer": "holm",
+     "text": "Frankfurt. Ready to see if she still swims?",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Stands next to Holm on the bridge.",
+     "folgen": [
+      {
+       "vertrauen": [
+        "holm",
+        4
+       ]
+      },
+      {
+       "flag": "a3_probefahrt"
+      }
+     ],
+     "zeile": {
+      "wer": "holm",
+      "text": "Takk, Rosi. ...She swims.",
+      "gefuehl": "gratitude"
+     }
+    },
+    {
+     "text": "Goes down to Rosi in the engine room.",
+     "folgen": [
+      {
+       "vertrauen": [
+        "rosi",
+        4
+       ]
+      },
+      {
+       "flag": "a3_probefahrt"
+      }
+     ],
+     "zeile": {
+      "wer": "rosi",
+      "text": "Don't say anything nice. I'll cry, and then the engine cries.",
+      "gefuehl": "embarrassment"
+     }
+    },
+    {
+     "text": "“After you, Captain.”",
+     "folgen": [
+      {
+       "vertrauen": [
+        "holm",
+        2
+       ]
+      },
+      {
+       "flag": "a3_probefahrt"
+      }
+     ],
+     "zeile": {
+      "wer": "holm",
+      "text": "After me. Of course after me. It's my bridge.",
+      "gefuehl": "amusement"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_yacht_klein",
+   "art": "gag1",
+   "ton": "witzig",
+   "titel": "Mostly Cosmetic",
+   "wann": {
+    "tage": [
+     25,
+     29
+    ],
+    "phasen": [
+     "tag",
+     "nachmittag"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "nicht": {
+        "flag": "tk_yacht_weg"
+       }
+      },
+      {
+       "nicht": {
+        "flag": "gefeuert_rosi"
+       }
+      }
+     ]
+    }
+   },
+   "bild": "aft_deck",
+   "personen": {
+    "handelnd": "rosi",
+    "betroffen": [
+     {
+      "id": "maxwell",
+      "ton": "+",
+      "was": "holds the paint"
+     }
+    ]
+   },
+   "sets": {
+    "rosi": "Engine Room",
+    "maxwell": "maximum_steelmop"
+   },
+   "lage": "The yacht came through the siege. Mostly. Rosi is painting over a burn mark on the aft deck, very slowly.",
+   "zeilen": [
+    {
+     "wer": "rosi",
+     "text": "If anyone asks, this was always here. It's a design.",
+     "gefuehl": "annoyance"
+    },
+    {
+     "wer": "maxwell",
+     "text": "Mr. Maximum likes the design. Very modern.",
+     "gefuehl": "amusement"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“It's a beautiful design, Rosi.”",
+     "folgen": [
+      {
+       "vertrauen": [
+        "rosi",
+        2
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "rosi",
+      "text": "Liar. Give me the brush.",
+      "gefuehl": "amusement"
+     }
+    },
+    {
+     "text": "Picks up a second brush.",
+     "folgen": [
+      {
+       "vertrauen": [
+        "rosi",
+        2
+       ]
+      },
+      {
+       "wert": "moral",
+       "delta": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_charly_geld",
+   "art": "gag1",
+   "ton": "frech",
+   "titel": "Borrowed",
+   "wann": {
+    "tage": [
+     26,
+     33
+    ],
+    "phasen": [
+     "tag",
+     "nachmittag"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "flag": "rt_charly_bleibt"
+      },
+      {
+       "nicht": {
+        "flag": "rt_charly_weg"
+       }
+      },
+      {
+       "eine": [
+        {
+         "flag": "aufbau_begonnen_post"
+        },
+        {
+         "flag": "aufbau_begonnen_batu"
+        },
+        {
+         "flag": "aufbau_begonnen_bar"
+        },
+        {
+         "flag": "aufbau_begonnen_werkstatt"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "bild": "village_piazza",
+   "personen": {
+    "handelnd": "charly",
+    "betroffen": [
+     {
+      "id": "casanova",
+      "ton": "?",
+      "was": "is holding the festa board"
+     }
+    ]
+   },
+   "sets": {},
+   "lage": "Charly sits down next to the mayor on the church steps with her laptop. She doesn't say hello. She never does.",
+   "zeilen": [
+    {
+     "wer": "charly",
+     "text": "My mother's company sells to Alon. I moved some of her money tonight. Quietly. For the houses.",
+     "gefuehl": "neutral"
+    },
+    {
+     "wer": "casanova",
+     "text": "You... moved it? Is this stolen, Mademoiselle?",
+     "gefuehl": "surprise"
+    },
+    {
+     "wer": "charly",
+     "text": "Three out of ten for stolen. Eight for borrowed. She won't notice for a month.",
+     "gefuehl": "neutral"
+    },
+    {
+     "wer": "casanova",
+     "text": "Monsieur. Do I take money that a girl took from her own mother?",
+     "gefuehl": "confusion"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Take it. Her mother pays for what Alon burned.”",
+     "folgen": [
+      {
+       "flag": "a3_charly_geld"
+      },
+      {
+       "vertrauen": [
+        "charly",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "casanova",
+      "text": "...Then the houses are built with Ravenel money. How funny.",
+      "gefuehl": "amusement"
+     }
+    },
+    {
+     "text": "“Take it, and put Charly's name on the board.”",
+     "folgen": [
+      {
+       "flag": "a3_charly_geld"
+      },
+      {
+       "flag": "a3_charly_tafel"
+      },
+      {
+       "vertrauen": [
+        "charly",
+        2
+       ]
+      },
+      {
+       "vertrauen": [
+        "casanova",
+        2
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "charly",
+      "text": "Don't. Five out of ten for that idea.",
+      "gefuehl": "embarrassment"
+     }
+    },
+    {
+     "text": "“Ask Charly, not me.”",
+     "folgen": [
+      {
+       "flag": "a3_charly_geld"
+      },
+      {
+       "vertrauen": [
+        "charly",
+        6
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "charly",
+      "text": "Take it. It's the first good thing her money ever did.",
+      "gefuehl": "neutral"
+     }
+    }
+   ]
   }
  ]
 }

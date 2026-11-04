@@ -20,6 +20,16 @@ Stand 04.11.2026, Block 3: Drehbuch Version 3.4 (Bones, Charly und Danzel, Festa
 - Tests: `test_akt3_kalender` neu und grün, `test_akt2_events` angepasst. Alle Tests 47 gegen 48 grün, keine Verschlechterung. `test_holm_wette` lokal prüfen (braucht `eden-config.json`).
 - Handy-Events (`hy_`) bleiben bei Tag 21: Ob sie bis Tag 31 dürfen, prüft die Handy-Sitzung.
 
+## Paket B (Code und Szenen, 04.11.2026)
+
+- **B1 Baustellen:** `kern/aufbau.py` neu (erster Stein, Baustoffe je Haus, Lieferung ohne Phase, Piraten nachts, Charly, Bauen-Los), eingehängt in `eden.py`, Reiter „Village“ in Nonnas Fenster. Tests `test_aufbau_akt3`, `test_taktik.test_aufbau` angepasst.
+- **B2 Woche 4:** `werkzeuge/eden_rise/ereignisse_akt3_woche4.py`, 34 Events, 4 neue Karten in `auftraege.json`, 157 Zeilen mit Turbo-Tags in `stimme_tags.json` (quelle `akt3_woche4`). Test `test_akt3_woche4`.
+- **Buenaventura** (`bonaventure`) spricht jetzt in Events: in `ereignisse_basis.NEBEN` und `SETS` (`bonaventure_standard`) eingetragen. Lokal prüfen, ob das Sprite im Figurenordner „Captain Bonaventure“ liegt.
+- `ereignisse_basis.pruefe` erlaubt für `a3_` dasselbe wie für `bl_` (Holm und Megan sind zurück, Kloster-Figuren, `gag1` ohne Betroffene).
+- `ereignisse.json`, `stimme_tags.json` gezielt ergänzt (nur die 34 neuen Events, nur die neuen Zeilen). **Lokal neu bauen** (`ereignisse_basis.py`, dann `auftraege_eden_rise.py`), `git diff` sollte leer sein.
+- Alle Tests: 50 grün, keine Verschlechterung. Vertonung der neuen Zeilen steht aus.
+- Offen aus Paket B: siehe Drehbuch 12a, „Noch nicht gebaut aus Paket B“.
+
 ## Wartet auf Ducs Urteil
 
 - (erledigt) Zahlen der Baustoffe je Haus bestätigt.

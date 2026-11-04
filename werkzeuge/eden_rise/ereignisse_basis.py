@@ -40,7 +40,8 @@ NEBEN = ["toto", "yasin", "holm", "elsa", "alva", "petru", "casanova", "lola", "
          "sirene",                                          # Flut-Nacht in der Grotte (28.10.2026)
          "danzel", "bibi", "charly", "mrwhite",            # Red Trio (30.10.2026): nur in den Frames
          "pascal", "mina", "batu", "sandru", "anghjulu", "minicu",
-         "alon"]                                            # Cliffhanger Akt 2 (02.11.2026): Keynote auf der Buehne    # Dorf-Figuren (30.10.2026, ereignisse_dorf.py)
+         "alon",
+         "bonaventure"]                                     # Akt 3 (04.11.2026): Buenaventura nach dem Schwur. Cliffhanger Akt 2 (02.11.2026): Keynote auf der Buehne    # Dorf-Figuren (30.10.2026, ereignisse_dorf.py)
 # Ortskapitel (26.10.2026): Frames haben art "ort", eigene Hintergruende eden_rise_<bild>.png (oder einen Raum) und werden
 # nie gezogen - sie laufen nur als Kette ab dem Ort (auftraege.json). Folgen: weiter, spur_uhr, expedition, chip, kampf.
 ORT_BILDER = ["macchia_three_ways", "charcoal_road", "charcoal_hut", "bone_gorge", "antenna_ridge",  # Red Trio (30.10.2026)
@@ -105,7 +106,7 @@ SETS = {
     "laetitia": ["laetitia_standard"], "adrien": ["adrien_standard"], "wolff": ["wolff_standard"],
     "ghjuvan": ["ghjuvan_standard"], "dumenica": ["dumenica_standard"],
     "gennaro": ["gennaro_standard"], "matteu": ["matteu_standard"], "chloe": ["chloe_standard"],
-    "riscossore": ["riscossore_standard"], "sirene": ["sirene_standard"],
+    "riscossore": ["riscossore_standard"], "bonaventure": ["bonaventure_standard"], "sirene": ["sirene_standard"],
     "danzel": ["danzel_B"], "bibi": ["bibi_A", "Mochis"], "charly": ["charly_A"], "mrwhite": ["mrwhite_A"],
     "minicu": ["minicu_standard"], "alon": ["alon_standard"], "pascal": ["pascal_standard"], "mina": ["mina_standard"], "batu": ["batu_standard"],
     "sandru": ["sandru_av", "sandru_frei"], "anghjulu": ["anghjulu_standard"],
@@ -326,7 +327,7 @@ def pruefe(events):
         handy_selfie = e["art"] == "handy" and (e["personen"].get("selfie") or e["personen"].get("nachschlag")
                                             or e["personen"].get("charm")    # Charm-Uebergabe (28.10.2026)
                                             or e["personen"].get("favour"))  # Favours (29.10.2026)
-        if any(pid in NUR_ORT for pid in beteiligte(e) + [z["wer"] for z in e["zeilen"]]) and not ort and not handy_selfie and not k.startswith(("hb_", "g1_zg_", "bl_")):   # hb_: Holms Wette, Gaeste an Bord; g1_zg_: Nonna kommt in Ba Tus Laden; bl_: Wolff bei der Belagerung
+        if any(pid in NUR_ORT for pid in beteiligte(e) + [z["wer"] for z in e["zeilen"]]) and not ort and not handy_selfie and not k.startswith(("hb_", "g1_zg_", "bl_", "a3_")):   # hb_: Holms Wette, Gaeste an Bord; g1_zg_: Nonna kommt in Ba Tus Laden; bl_: Wolff bei der Belagerung
             fehler.append("%s: Kloster-Figuren nur in Ort-Frames" % k)
         if ort:
             fehler += pruefe_ort(e, ids)
@@ -367,10 +368,10 @@ def pruefe(events):
         # Events fruehestens ab Tag 2. Holm ist persoenlich nur am Fruehstueck von Tag 2 vor ihrem Abschied da.
         if w["tage"][0] < 2 and not w.get("prolog"):
             fehler.append("%s: Tag 1 ist die Party (exklusiv) - Events erst ab Tag 2" % k)
-        if "holm" in beteiligte(e) and e["art"] != "handy" and not w.get("prolog") and not k.startswith(("hb_", "bl_")) and not (   # hb_, bl_: Holm ist zurueck (Woche 3)
+        if "holm" in beteiligte(e) and e["art"] != "handy" and not w.get("prolog") and not k.startswith(("hb_", "bl_", "a3_")) and not (   # hb_, bl_, a3_: Holm ist zurueck (Woche 3, Akt 3)
                 w["tage"] == [2, 2] and w.get("phasen") == ["fruehstueck"] and "holm_evakuiert" in json.dumps(w.get("bedingung", {}))):
             fehler.append("%s: Holm an Bord nur Tag 2 Fruehstueck mit Bedingung nicht holm_evakuiert" % k)
-        if "megan" in beteiligte(e) and e["art"] != "handy" and e["bild"] not in FERNORTE and not p_fern(e) and not k.startswith("bl_") and \
+        if "megan" in beteiligte(e) and e["art"] != "handy" and e["bild"] not in FERNORTE and not p_fern(e) and not k.startswith(("bl_", "a3_")) and \
                 not w.get("prolog") and \
                 "megan_besuch" not in json.dumps(w.get("bedingung", {})):
             fehler.append("%s: Megan an Bord nur mit Bedingung megan_besuch" % k)
@@ -380,7 +381,7 @@ def pruefe(events):
         p = e["personen"]
         if e["art"] == "bordrat" and not all(p.get(x) for x in ("sprecher", "links", "rechts")):
             fehler.append("%s: bordrat braucht sprecher/links/rechts" % k)
-        if e["art"] == "gag1" and (not p.get("handelnd") or not p.get("betroffen")) and not k.startswith(("hb_", "bl_")) and not e.get("solo"):
+        if e["art"] == "gag1" and (not p.get("handelnd") or not p.get("betroffen")) and not k.startswith(("hb_", "bl_", "a3_")) and not e.get("solo"):
             fehler.append("%s: gag1 braucht handelnd + betroffen" % k)
         if e["art"] == "gagv" and not (p.get("links") and p.get("rechts")):
             fehler.append("%s: gagv braucht links/rechts" % k)
@@ -494,6 +495,7 @@ def bauen():
     import ereignisse_bibi, ereignisse_cliffhanger
     import ereignisse_legenden, ereignisse_red_trio, ereignisse_holm, ereignisse_dorf, ereignisse_schneider, ereignisse_romanzen, ereignisse_outfit_quest, ereignisse_belagerung, ereignisse_belagerung_nacht, ereignisse_mochis
     import ereignisse_erinnerung                  # Erinnerungen der Auftraggeberinnen (02.11.2026)
+    import ereignisse_akt3_woche4                 # Akt 3, Woche 4 (04.11.2026, Drehbuch akt3)
     events = (ereignisse_bordrat.EVENTS + ereignisse_handy.EVENTS + ereignisse_gag1.EVENTS + ereignisse_gagv.EVENTS
               + ereignisse_abende.EVENTS + ereignisse_staerken.EVENTS + ereignisse_verrueckt.EVENTS
               + ereignisse_akt1.EVENTS + ereignisse_yamamoto.EVENTS + ereignisse_tag0.EVENTS + ereignisse_hafen.EVENTS
@@ -503,7 +505,7 @@ def bauen():
               + ereignisse_akt2.EVENTS + ereignisse_grotte.EVENTS + ereignisse_charms.EVENTS
               + ereignisse_favours.EVENTS + ereignisse_ligeia.EVENTS + ereignisse_legenden.EVENTS + ereignisse_red_trio.EVENTS + ereignisse_holm.EVENTS
               + ereignisse_dorf.EVENTS + ereignisse_schneider.EVENTS + ereignisse_romanzen.EVENTS + ereignisse_bibi.EVENTS + ereignisse_cliffhanger.EVENTS + ereignisse_outfit_quest.EVENTS + ereignisse_belagerung.EVENTS + ereignisse_belagerung_nacht.EVENTS + ereignisse_mochis.EVENTS
-              + ereignisse_erinnerung.EVENTS)
+              + ereignisse_erinnerung.EVENTS + ereignisse_akt3_woche4.EVENTS)
     # Die Event-Dateien importieren dieses Modul unter seinem Namen - ihre Gegenstaende landen dort, nicht in __main__
     NEUE_ITEMS.update(sys.modules["ereignisse_basis"].NEUE_ITEMS)
     import ereignisse_fenster                    # Akt 2 (29.10.2026): zeitlose Events bis Tag 21 offen, "nachlauf"
@@ -530,6 +532,7 @@ def bauen():
     print("geschrieben:", ZIEL, "-", len(events), "Events")
     print("Favours: %d gesprochene Zeilen -> stimme_tags.json" % ereignisse_favours.tags_schreiben())
     print("Schneider: %d gesprochene Zeilen -> stimme_tags.json" % ereignisse_schneider.tags_schreiben())
+    print("Akt 3 Woche 4: %d gesprochene Zeilen -> stimme_tags.json" % sys.modules["ereignisse_akt3_woche4"].tags_schreiben())
     print("Outfit-Quest: %d gesprochene Zeilen -> stimme_tags.json" % ereignisse_outfit_quest.tags_schreiben())
     print("Legenden: %d Zeilen -> legenden.json, %d gesprochene -> stimme_tags.json" % ereignisse_legenden.schreiben(os.path.dirname(ZIEL)))
     print("Dorf: %d gesprochene Zeilen -> stimme_tags.json" % ereignisse_dorf.tags_schreiben())

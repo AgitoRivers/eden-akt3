@@ -240,6 +240,12 @@ AUFTRAEGE = {
 }
 
 
+# Akt 3 (04.11.2026): Karten der Woche 4 (Lend a Hand, Alva, Siri, Nonnas Kiste) aus ereignisse_akt3_woche4.py
+sys.path.insert(0, HIER)
+import ereignisse_akt3_woche4  # noqa: E402
+ORTE.update(ereignisse_akt3_woche4.ORTE)
+
+
 def pruefe():
     ev = json.load(open(os.path.join(EDEN, "module", "eden_rise", "ereignisse.json"), encoding="utf-8"))
     idx = {e["id"]: e for e in ev["events"]}

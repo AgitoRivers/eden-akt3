@@ -789,7 +789,15 @@ Sichtbar im Schlussbild: Lose (was steht, wie es aussieht), wer im Netz fehlt (M
 | **`bl_dorf_rudert`** | Ende einer Welle mit Kapitän, in der das Dorf rudert | Flag bleibt nach der Belagerung, Akt 3 liest es (5.1, 5.25) | einmal je Durchlauf | `kern/taktik.rudern_merken` |
 | **Holms Revanche ab Tag 24** | `HOLM_TAG = 24` | Holm wird erst nach der Belagerung vierter Gegner beim Schießen | | `kern/schiessen.py` |
 
-Test: `tests/test_akt3_kalender.py`. Angepasst: `tests/test_akt2_events.py` (neue Fenster), `tests/test_holm_wette.py` (Tag 24, lokal nicht prüfbar wegen `eden-config.json`). Alle `test_*.py` vor und nach Paket A: 47 gegen 48 grün, kein Test hat seinen Status verloren.
+| **Baustellen (Paket B1)** | Karte „Lend a Hand“ (Ort `a3_baustellen`, eine Phase): Duc wählt das Haus und wer den ersten Stein mit ihm setzt (Besitzer +4 Vertrauen, ein Pirat: Buenaventura +2 und Ruf +1, Crew: Moral +1) | Duc liefert die Baustoffe der nächsten Stufe in Nonnas Fenster, Reiter „Village“ (keine Phase). In der Nacht bauen die Piraten jede gelieferte Stufe. Charlys Geld: 20 % weniger je Posten, abgerundet, mindestens 1 | nur nach `buenaventura_schwur`, nur an begonnenen Häusern, je Haus und Nacht eine Stufe, alles oder nichts | `kern/aufbau.py`, `eden.py` (Tagesende, `baustelle_liefern`), `client/plugins/eden-farm/eden-farm.js` |
+| **Dank-Szenen** | Morgen nach `aufbau_fertig_<id>` (`flag_seit`) | Besitzer dankt und öffnet die Zeugen-Tür (`a3_zeuge_<id>` mit Haltung `_ehrlich` oder `_frei`). Mina, Bà Tư, Alva, Petru | dritte Wahl verschiebt die Frage, die Tür bleibt dann über spätere Karten offen | `a3_dank_*` |
+| **Totòs Kiste** | Tag 25, nur mit Versprechen aus der Grotte, Kiste genommen und noch nicht genutzt | `alon_kiste_genutzt` (Beweis), Totò +6 | neue Bedingung `{"versprochen": [an, Wort]}` | `kern/regeln.py`, `a3_uhr_toto` |
+| **Reparatur der Yacht** | `tk_yacht_weg` | vier kleine Szenen im Pool (Hotline, Propeller, Tür, Tag 31 „Ugly“ setzt `a3_yacht_repariert`), Probefahrt Tag 32. Ohne Schaden: eine kleine Szene „Mostly Cosmetic“ | ab Tag 25; Maxwell nur bis Tag 29; Rosi gefeuert: Maxwell spricht ihre Zeile in „Ugly“ | `a3_yacht_*`, `a3_probefahrt` |
+
+Test: `tests/test_akt3_kalender.py`, `tests/test_aufbau_akt3.py`, `tests/test_akt3_woche4.py`.
+
+**Paket B2, gebaut (Woche 4, `ereignisse_akt3_woche4.py`, 34 Events, 157 gesprochene Zeilen):** 5.1 The Morning After, 5.2 The Oath, Lend a Hand (vier Baustellen), Dank-Szenen, 5.3 Alva (Karte), 5.4 Under Control mit Totòs Kiste, 5.5 Until I Land, 5.6 die Festa-Tafel, 5.7 Sunday mit Don an der Tür und der Schublade, 5.8 Nonnas Kiste (Karte), 5.9 Siri (Karte), 5.11 Every Report, die Yacht (4.4), 5.28 Charlys Geld.
+**Noch nicht gebaut aus Paket B:** Vignetten am Morgen (Kevin auf dem Kirchendach, Dank der nicht abgebrannten Häuser), Holms Revanche-Zeilen (5.10, nutzt die gebaute Schießwette), Wer schläft wo (Paket E), Megans Raum bei `tk_yacht_weg` (Paket E), die Legion beim Bau (`bl_verband_wolff`), Minas Fallback mit dem Kellerschlüssel. Angepasst: `tests/test_akt2_events.py` (neue Fenster), `tests/test_holm_wette.py` (Tag 24, lokal nicht prüfbar wegen `eden-config.json`). Alle `test_*.py` vor und nach Paket A: 47 gegen 48 grün, kein Test hat seinen Status verloren.
 
 ## 13. Was aus den Befunden wurde
 

@@ -105,6 +105,7 @@ def _stufe_hoch(z, hid, s):
         f = "aufbau_fertig_" + hid
         if f not in z.setdefault("flags", []):
             z["flags"].append(f)
+            z.setdefault("flag_tag", {}).setdefault(f, z.get("tag", 0))   # fuer flag_seit: Dank-Szene am Morgen danach
         return True
     return False
 

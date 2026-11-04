@@ -81,6 +81,9 @@ def gilt(b, z, kontext=None):
             ok = (z.get("kampf_tag") == z["tag"]) == bool(v)
         elif k == "bekannt":            # Duc hat die Person kennengelernt (Favours, 29.10.2026)
             ok = v in (z.get("bekannt") or [])
+        elif k == "versprochen":        # {"versprochen": ["toto", "crate"]}: Duc hat ihr/ihm etwas versprochen, Text enthaelt das Wort (Akt 3, 04.11.2026)
+            ok = any(x.get("an") == v[0] and v[1].lower() in x.get("text", "").lower()
+                     for x in ((z.get("ev") or {}).get("versprechen") or []))
         elif k == "flag_seit":          # {"flag_seit": ["bg_baer_frei", 2]}: Flag mit Datum, mindestens n Tage her
             ok = v[0] in z["flags"] and z["tag"] - z.get("flag_tag", {}).get(v[0], z["tag"]) >= v[1]
         elif k == "ort_ruhe":           # {"ort_ruhe": ["macchia", 3]}: Ort offen und Duc seit n Tagen nicht dort (02.11.2026)

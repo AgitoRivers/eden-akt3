@@ -715,6 +715,224 @@
      "id": "kv_start"
     }
    ]
+  },
+  "a3_baustellen": {
+   "label": "Lend a Hand",
+   "bild": "village_piazza",
+   "phasen": [
+    "tag",
+    "nachmittag"
+   ],
+   "text": "The burned houses are building sites now. Lay the first stone where you want the pirates to start. Takes the whole phase.",
+   "wenn": {
+    "alle": [
+     {
+      "flag": "buenaventura_schwur"
+     },
+     {
+      "eine": [
+       {
+        "alle": [
+         {
+          "flag": "tk_haus_weg_post"
+         },
+         {
+          "nicht": {
+           "flag": "aufbau_begonnen_post"
+          }
+         }
+        ]
+       },
+       {
+        "alle": [
+         {
+          "flag": "tk_haus_weg_batu"
+         },
+         {
+          "nicht": {
+           "flag": "aufbau_begonnen_batu"
+          }
+         }
+        ]
+       },
+       {
+        "alle": [
+         {
+          "flag": "tk_haus_weg_bar"
+         },
+         {
+          "nicht": {
+           "flag": "aufbau_begonnen_bar"
+          }
+         }
+        ]
+       },
+       {
+        "alle": [
+         {
+          "flag": "tk_haus_weg_werkstatt"
+         },
+         {
+          "nicht": {
+           "flag": "aufbau_begonnen_werkstatt"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "start": [
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "tk_haus_weg_post"
+       },
+       {
+        "nicht": {
+         "flag": "aufbau_begonnen_post"
+        }
+       }
+      ]
+     },
+     "id": "a3_bau_post"
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "tk_haus_weg_batu"
+       },
+       {
+        "nicht": {
+         "flag": "aufbau_begonnen_batu"
+        }
+       }
+      ]
+     },
+     "id": "a3_bau_batu"
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "tk_haus_weg_bar"
+       },
+       {
+        "nicht": {
+         "flag": "aufbau_begonnen_bar"
+        }
+       }
+      ]
+     },
+     "id": "a3_bau_bar"
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "tk_haus_weg_werkstatt"
+       },
+       {
+        "nicht": {
+         "flag": "aufbau_begonnen_werkstatt"
+        }
+       }
+      ]
+     },
+     "id": "a3_bau_werkstatt"
+    }
+   ]
+  },
+  "a3_alva": {
+   "label": "Alva Is Awake",
+   "bild": "church",
+   "phasen": [
+    "nachmittag",
+    "dinner",
+    "abend"
+   ],
+   "text": "Mina says Sandru wants you to come. Sandru never asks. Takes the whole phase.",
+   "wenn": {
+    "alle": [
+     {
+      "flag": "a3_morgen_fertig"
+     },
+     {
+      "nicht": {
+       "flag": "a3_alva_wach"
+      }
+     }
+    ]
+   },
+   "start": [
+    {
+     "id": "a3_alva_wach"
+    }
+   ]
+  },
+  "a3_siri": {
+   "label": "The Quay at Sunset",
+   "bild": "village_harbour",
+   "phasen": [
+    "abend"
+   ],
+   "text": "Siri is sitting on the quay with Yasin and a phone. Takes the whole phase.",
+   "wenn": {
+    "alle": [
+     {
+      "flag": "a3_morgen_fertig"
+     },
+     {
+      "nicht": {
+       "flag": "a3_siri_post"
+      }
+     },
+     {
+      "nicht": {
+       "flag": "a3_siri_festa"
+      }
+     },
+     {
+      "nicht": {
+       "flag": "gefeuert_siri"
+      }
+     }
+    ]
+   },
+   "start": [
+    {
+     "id": "a3_siri_post"
+    }
+   ]
+  },
+  "a3_nonna": {
+   "label": "Nonna's Crate",
+   "bild": "monastery_garden_dusk",
+   "phasen": [
+    "nachmittag",
+    "dinner"
+   ],
+   "text": "There is a crate of seedlings at Nonna's door, with a letter. Takes the whole phase.",
+   "wenn": {
+    "alle": [
+     {
+      "gesehen": "a3_sonntag"
+     },
+     {
+      "nicht": {
+       "flag": "a3_nonna_kiste"
+      }
+     }
+    ]
+   },
+   "start": [
+    {
+     "id": "a3_nonna_kiste"
+    }
+   ]
   }
  },
  "auftraege": {
