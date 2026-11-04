@@ -14,7 +14,7 @@ Stand 04.11.2026, Block 3: Drehbuch Version 3.4 (Bones, Charly und Danzel, Festa
 
 ## Wartet auf Ducs Urteil
 
-- Zahlen der Baustoffe je Haus (Drehbuch 4.1).
+- (erledigt) Zahlen der Baustoffe je Haus bestätigt.
 - Für die lokale Sitzung: `belagerung.md` und `drehbuch_finale.md` an E-122 angleichen (Yacht repariert, Minicu erst auf der Festa).
 - F-31: Yacht und Minicu, in E-122 entschieden, in `belagerung.md` noch offen.
 - Nach master geht `fix-akt2` (E-124), `fix-akt2-folgen` bleibt liegen.
