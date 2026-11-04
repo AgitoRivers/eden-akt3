@@ -191,7 +191,7 @@ Jeder Truppenführer hat eine Leiste über der Figur. Ausgeteilter Schaden lädt
 
 **Duo-Sprüche:** Beim ersten Doppelangriff eines Paars steht ein kurzer Wortwechsel in der Meldung (Entwurf, unvertont).
 
-**Rethink (Duc 31.10.):** Bis zur ersten endgültigen Tat der Runde (Angriff, Rettung, großer Moment, Hilfstruppe) setzt der Knopf alle Züge der Runde gratis zurück. Danach gibt es drei Rücksprünge je Schlacht: zurück zum Beginn der Runde, ist dort noch nichts passiert, eine Runde früher, bis zu fünf Runden. Auch nach einer Niederlage geht das, dort neben „Restart wave“.
+**Rethink (Duc 31.10.):** Bis zur ersten endgültigen Tat der Runde (Angriff, Rettung, großer Moment, Hilfstruppe) setzt der Knopf alle Züge der Runde gratis zurück. Danach gibt es zwei Rücksprünge je Tag (Code: `taktik_eden_rise.py` `"rueckspruenge": 2`, Abgleich 04.11.2026): zurück zum Beginn der Runde, ist dort noch nichts passiert, eine Runde früher, bis zu fünf Runden. Auch nach einer Niederlage geht das, dort neben „Restart wave“.
 
 ## Support (Duc 31.10.)
 

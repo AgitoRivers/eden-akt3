@@ -659,7 +659,7 @@ def _zug_frisch(z, t):
 
 def rueckspringen(z):
     """Rethink (Duc 31.10.2026): Bis zum ersten Angriff der Runde setzt es alle Zuege gratis zurueck. Danach zurueck zum Rundenbeginn, und ist dort nichts passiert, eine Runde
-    weiter, das kostet einen von drei Ruecksprüngen je Schlacht (Divine Pulse)."""
+    weiter, das kostet einen von zwei Ruecksprüngen je Tag (taktik_eden_rise.py "rueckspruenge": 2) (Divine Pulse)."""
     t = _t(z)
     if t["phase"] not in ("spieler", "verloren"):
         raise ValueError("Es geht nicht weiter zurueck.")

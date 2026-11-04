@@ -309,7 +309,7 @@ EVENTS += [
       "She looks at Lola. Then she looks at you, for a long time. Then she picks up a bowl.",
       [S("lola", "Auntie! This is my boss, the one from the quay, he cooks too, properly, I told you! [laugh] I just need two bottles "
                  "of the good fish sauce, and then I'll get out of your way.", "joy"),
-       S("batu", "You, later.", "neutral"),
+       S("batu", "[sigh] You, later.", "neutral"),
        S("batu", "Him, now. [clear throat] Sit. Ăn đi. Eat. You are too thin, con. Who let you go out like this?", "caring")],
       batu_chips(), sets={"lola": "Off Duty", "batu": "batu_standard"}),
     E("g1_batu_intro_allein", "gag1", "wholesome", "You, Later", WANN((9, 9), ["nachmittag"], bed=OHNE_LOLA, **PFLICHT), "batu_shop",
