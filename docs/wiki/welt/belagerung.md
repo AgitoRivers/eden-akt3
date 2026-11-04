@@ -28,6 +28,8 @@ Der Weg dorthin steht in [`akt2_kalender.md`](akt2_kalender.md): Frist an Tag 15
 
 Die Belagerung läuft über ein **Punktesystem** und startet bei **100 %**.
 
+**Was 100 % heißt (Duc 04.11.2026, E-121):** 100 % ist der Stand, wenn der Spieler nichts getan hat, um die Belagerung zu schwächen. Ob 100 % dann fast unmöglich oder nur sehr schwer sein soll, ist noch offen (Simulation: Anfänger kommen bei 100 % in vier von sechs Wellen beim ersten Versuch durch, `docs/uebergabe/balancing_bericht.md` auf Branch `balancing-bericht`).
+
 - **Bei 100 % ist der Kampf fast unmöglich:** etliche Kämpfe, sehr starke und motivierte Gegner, alle Gegenmaßnahmen sind
   aktiv. Duc kommt nur mit 0,01 % durch. Es ist möglich, aber sehr schwer, ein Ereignis für Speedrunner auf YouTube, die
   es mit perfekten Paraden versuchen. **Das ist so gewollt.**

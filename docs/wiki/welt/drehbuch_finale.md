@@ -214,7 +214,7 @@ Mina: *“The phones are dead, Yacht. I can still knock. Who's coming with me?�
 
 | Wahl | Ergebnis |
 |---|---|
-| Petru | Das Dorf öffnet schon ab Ruf 4. Petru: *“Hm. They'll open for me.”* |
+| Petru | Das Dorf öffnet schon ab Ruf 4 (gebaut 04.11.2026, `kern/taktik._rudert`, zusammen mit dem heilen Ruder ab Ruf 3). Petru: *“Hm. They'll open for me.”* |
 | Lola | Ab Ruf 5. Lola redet zu viel, aber sie bringt Kekse mit |
 | niemand | Ab Ruf 5. Mina geht allein |
 
@@ -262,7 +262,7 @@ Thema: Ein Feind mit Ehre, ein Dorf mit Gedächtnis. Neu dabei: das Dorf in den 
 
 Nach Buenaventuras Aufgabe, vor Bà Tư. Freude, das einzige Mal, dass alle zusammen lachen.
 
-- Alva gibt die Runde aus. Mit `bl_alva_runde` (Duc hat sie ihr an Tag 21 versprochen) zahlt Duc, sonst zahlt sie selbst: *“On the house. Don't get used to it.”*
+- Alva gibt die Runde aus. Mit `bl_alva_runde` (Duc hat sie ihr an Tag 21 versprochen) zahlt Duc (60 €, Event `bl_bar_runde`, gebaut 04.11.2026), sonst zahlt sie selbst (`bl_bar`): *“This round is on the house. Don't get used to it.”*
 - Maxwell erzählt seinen Kampf in der dritten Person, Chiara gibt ihm eine Note, alle lachen. Bibi lacht zu laut, diesmal vor Freude.
 - **Minicu** legt Münzen auf die Theke, für seine elf Getränke. Hinter der Theke steht auf Alvas Kreidetafel MINICU 11 (Brotkrume 2).
   **Alva** schiebt das Geld zurück: *“You pay when this is over, Minicu.”*
@@ -291,7 +291,7 @@ Flicken (gebaut). Dann Casanova: *“Monsieur! The children are scared of the be
 | Wahl | Ergebnis |
 |---|---|
 | Jana | Die Kinder bleiben ruhig, die Kirche verliert den ersten Treffer in Welle 6 nicht. Jana steht an der Kirchentür und sieht Minicu fallen |
-| Don (Vertrauen ab 3) | Er läutet nüchtern, die Kirche hat 4 Leben (gebaut als Wert) |
+| Don (Vertrauen ab 3) | Er läutet nüchtern. Das vierte Leben ab Vertrauen 3 bleibt (Vorbereitung), wer Don wählt, gibt der Kirche ab Welle 5 ein Leben mehr (`bl_kirche_don`, `kern/taktik._don_glocke`, gebaut 04.11.2026) |
 | niemand | Casanova bleibt allein drin |
 
 ### Welle 5 · Tag 23 Nachmittag · „The Fifth Wave“
