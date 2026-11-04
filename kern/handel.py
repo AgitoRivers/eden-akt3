@@ -1061,6 +1061,7 @@ def ansicht(z, modul, V, in_szene):
             "haendler": rollen.rolle(modul, "haendler"),
             "haendler_name": anzeigename(modul, rollen.rolle(modul, "haendler")) if rollen.rolle(modul, "haendler") else "",
             "belegt": zustand.belegt(z, modul),
+            "plaetze": zustand.inventar_plaetze(z, modul),                  # Taschengroesse 8 / 12 / 16 fuers Menue (fix-akt2)
             "laeden": {k: {"name": l["name"], "text": l.get("text", ""), "waren": sortiment(z, modul, k),
                            "essen": bool(l.get("essen")), "nur_an_land": bool(l.get("nur_an_land")), "werkstatt": bool(l.get("werkstatt")), "farm": bool(l.get("farm")),
                            "werkzeug": bool(l.get("werkzeug_laden")),                     # Petrus Werkstatt (28.10.2026)
