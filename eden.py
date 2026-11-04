@@ -753,7 +753,7 @@ def aktion(name, daten):
             elif z["status"] == "wahl" and ereignisse.pflicht_ziehen(z, modul, moddir(z["modul"]), nur_prolog=True):
                 z["event"]["weiter"], z["event"]["status_vorher"] = "wahl", "wahl"
                 z["status"] = "ereignis"              # Kette (Hafenkampf): naechstes Glied nach dem Kampf
-    elif name == "kommission":                        # Akt 3: Kommission als Verhandlung (kern/kommission.py, Plugin folgt lokal)
+    elif name == "kommission":                        # Akt 3: Kommission als Verhandlung (kern/kommission.py, Plugin client/plugins/eden-commission, blind gebaut, lokal pruefen)
         d = kommission.daten(moddir(z["modul"]))
         if z["status"] != "kommission" or not z.get("kommission") or not d:
             raise ValueError("Gerade tagt keine Kommission.")

@@ -23,6 +23,8 @@
 <link rel="stylesheet" href="/plugins/eden-menu/eden-menu.css?v=10">
 <script defer src="/plugins/eden-menu/eden-menu.js?v=9"></script>
 <script defer src="/plugins/eden-hearing/eden-hearing.js"></script>
+<link rel="stylesheet" href="/plugins/eden-commission/eden-commission.css?v=1">
+<script defer src="/plugins/eden-commission/eden-commission.js?v=1"></script>
 <link rel="stylesheet" href="/plugins/eden-storm/eden-storm.css?v=4">
 <script defer src="/plugins/eden-storm/eden-storm.js?v=3"></script>
 <link rel="stylesheet" href="/plugins/eden-tactics/eden-tactics.css?v=29">
@@ -1860,6 +1862,10 @@ function mitte(z){
   if (z && (z.status === "angeln" || z.status === "abbau" || z.status === "schiessen")) { M.innerHTML = ""; return; }  // Angeln/Abbauen: die Plugins zeichnen ueber allem
   if (z && z.status === "verhandlung") {                         // Anhoerung (Variante B, 25.10.2026): Plugin eden-hearing
     M.innerHTML = window.EdenHearing ? EdenHearing.html(z) : `<div class="zentrum"><p class="unter">Hearing plugin missing.</p></div>`;
+    return;
+  }
+  if (z && z.status === "kommission") {                          // Kommission an Tag 35 (Akt 3, 04.11.2026): Plugin eden-commission, blind gebaut
+    M.innerHTML = window.EdenCommission ? EdenCommission.html(z) : `<div class="zentrum"><p class="unter">Commission plugin missing.</p></div>`;
     return;
   }
   if (z && z.status === "taktik") {                              // Taktik-Karte (Duc 31.10.2026): Plugin eden-tactics

@@ -15,7 +15,7 @@ import json, os
 
 from . import regeln
 
-AN = False          # Schalter: erst an, wenn die Oberflaeche (Plugin) gebaut ist. Bis dahin laeuft die Szenen-Kette a3_kommission.
+AN = False          # Schalter: erst an, wenn das Plugin eden-commission (blind gebaut 04.11.2026) lokal geprueft ist. Bis dahin laeuft die Szenen-Kette a3_kommission.
 
 
 def daten(moddir):
