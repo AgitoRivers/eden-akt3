@@ -33,7 +33,7 @@ Stand 04.11.2026, Block 3: Drehbuch Version 3.4 (Bones, Charly und Danzel, Festa
 ## Paket C bis F (04.11.2026)
 
 - **C** Zeugen-Karte und Festa-Tafel (`ereignisse_akt3_lose.py`). **D** Woche 5 mit Villa und Endkampf (`ereignisse_akt3_woche5.py`, `kaempfe_akt3.py`). **E** Schluss-Szenen der Romanzen, Freundschaften und Paare (`ereignisse_akt3_romanzen.py`). **F** Kommission, Festa mit Minicu, Mitternacht, Säulen und Enden (`ereignisse_akt3_finale.py`, `kern/akt3.py`, `kern/abschluss.py`).
-- Zusammen: 158 Akt-3-Events, 27 Karten, 4 Kämpfe, 529 gesprochene Zeilen mit Turbo-Tags. Alle Tests: 53 grün, keine Verschlechterung. Neue Tests: `test_akt3_kalender`, `test_aufbau_akt3`, `test_akt3_woche4`, `test_akt3_lose`, `test_akt3_woche5`, `test_akt3_romanzen`, `test_akt3_finale`.
+- Zusammen: 140 Akt-3-Events, 18 neue Karten, 4 Kämpfe, 529 gesprochene Zeilen mit Turbo-Tags. Alle Tests: 53 grün, keine Verschlechterung. Neue Tests: `test_akt3_kalender`, `test_aufbau_akt3`, `test_akt3_woche4`, `test_akt3_lose`, `test_akt3_woche5`, `test_akt3_romanzen`, `test_akt3_finale`.
 - **Akt 3 ist noch ausgeschaltet** (`AKT3_SPIELBAR = False`). Einschalten nach dem lokalen Durchlauf, siehe Drehbuch 12a.
 - **Lokal neu bauen und prüfen:** `ereignisse_basis.py`, `auftraege_eden_rise.py`, `kaempfe_eden_rise.py`, `modul_eden_rise.py`. `ereignisse.json`, `auftraege.json`, `kaempfe.json`, `stimme_tags.json` sind hier gezielt ergänzt. Nach dem Neubau sollte `git diff` leer sein.
 - **Paket G (lokal):** Bot-Lauf mit `PYTHONHASHSEED=0` über Tag 24 bis 35, Endkampf-Balancing (Alon Level 10), Vertonung der neuen Zeilen.
