@@ -1200,18 +1200,20 @@ def test_manoever():
 
 
 def test_aufbau():
-    """Wiederaufbau: abgebrannte Haeuser werden Baustellen, Material baut, nach dem Schwur tragen die Piraten."""
+    """Wiederaufbau (Umbau 04.11.2026, E-123/E-125): abgebrannte Haeuser werden Baustellen, Duc setzt den ersten Stein und
+    liefert, nach dem Schwur bauen die Piraten nachts. Ausfuehrlich: tests/test_aufbau_akt3.py."""
     from kern import aufbau
-    z = {"flags": ["tk_haus_weg_bar"]}
+    z = {"flags": ["tk_haus_weg_bar"], "kueche": {"rohstoffe": {"timber": 4}}}
     assert [b["id"] for b in aufbau.ansicht(z)] == ["bar"]
-    lager = {"timber": 4}
-    assert aufbau.bauen(z, "bar", lager) is False and lager["timber"] == 0
-    nie(aufbau.bauen, z, "bar", lager)
-    assert aufbau.tag_vorbei(z) is None, "Ohne Schwur tragen sie nichts"
+    nie(aufbau.liefern, z, "bar")                   # ohne ersten Stein
+    aufbau.beginnen(z, "bar")
+    aufbau.liefern(z, "bar")
+    assert z["kueche"]["rohstoffe"]["timber"] == 0
+    nie(aufbau.liefern, z, "bar")
+    assert aufbau.tag_vorbei(z) == [], "Ohne Schwur tragen sie nichts"
     z["flags"].append("buenaventura_schwur")
-    assert aufbau.tag_vorbei(z) == "bar"
-    assert aufbau.tag_vorbei(z) == "bar" and "aufbau_fertig_bar" in z["flags"]
-    assert aufbau.tag_vorbei(z) is None
+    assert len(aufbau.tag_vorbei(z)) == 1 and aufbau.baustellen(z)["bar"]["stufe"] == 1
+    assert aufbau.tag_vorbei(z) == []
 
 
 
