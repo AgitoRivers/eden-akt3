@@ -933,6 +933,912 @@
      "id": "a3_nonna_kiste"
     }
    ]
+  },
+  "a3_zeugen": {
+   "label": "Who Saw It?",
+   "bild": "village_piazza",
+   "phasen": [
+    "tag",
+    "nachmittag",
+    "abend"
+   ],
+   "text": "The commission wants witnesses. Ask the people who saw it with their own eyes. Takes the whole phase.",
+   "wenn": {
+    "alle": [
+     {
+      "flag": "a3_zeugen_auftrag"
+     },
+     {
+      "eine": [
+       {
+        "alle": [
+         {
+          "eine": [
+           {
+            "flag": "aufbau_fertig_werkstatt"
+           },
+           {
+            "flag": "bl_tueren_petru"
+           },
+           {
+            "nicht": {
+             "flag": "tk_haus_weg_werkstatt"
+            }
+           }
+          ]
+         },
+         {
+          "nicht": {
+           "flag": "a3_zeuge_petru"
+          }
+         }
+        ]
+       },
+       {
+        "alle": [
+         {
+          "eine": [
+           {
+            "flag": "aufbau_fertig_post"
+           },
+           {
+            "flag": "bl_tueren_mina"
+           },
+           {
+            "nicht": {
+             "flag": "tk_haus_weg_post"
+            }
+           }
+          ]
+         },
+         {
+          "nicht": {
+           "flag": "a3_zeuge_mina"
+          }
+         }
+        ]
+       },
+       {
+        "alle": [
+         {
+          "eine": [
+           {
+            "flag": "bl_batu_norden"
+           },
+           {
+            "flag": "aufbau_fertig_batu"
+           },
+           {
+            "nicht": {
+             "flag": "tk_haus_weg_batu"
+            }
+           }
+          ]
+         },
+         {
+          "nicht": {
+           "flag": "a3_zeuge_batu"
+          }
+         }
+        ]
+       },
+       {
+        "alle": [
+         {
+          "alle": [
+           {
+            "flag": "a3_alva_wach"
+           },
+           {
+            "eine": [
+             {
+              "nicht": {
+               "flag": "tk_haus_weg_bar"
+              }
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "nicht": {
+           "flag": "a3_zeuge_alva"
+          }
+         }
+        ]
+       },
+       {
+        "alle": [
+         {
+          "eine": [
+           {
+            "flag": "a3_zeuge_tuer_don"
+           },
+           {
+            "wert": [
+             "vertrauen.anghjulu",
+             ">=",
+             3
+            ]
+           },
+           {
+            "flag": "a3_los_glocke"
+           }
+          ]
+         },
+         {
+          "nicht": {
+           "flag": "a3_zeuge_anghjulu"
+          }
+         }
+        ]
+       },
+       {
+        "alle": [
+         {
+          "flag": "a3_zeuge_tuer_casanova"
+         },
+         {
+          "nicht": {
+           "flag": "a3_zeuge_casanova"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "start": [
+    {
+     "wenn": {
+      "alle": [
+       {
+        "eine": [
+         {
+          "flag": "aufbau_fertig_werkstatt"
+         },
+         {
+          "flag": "bl_tueren_petru"
+         },
+         {
+          "nicht": {
+           "flag": "tk_haus_weg_werkstatt"
+          }
+         }
+        ]
+       },
+       {
+        "nicht": {
+         "flag": "a3_zeuge_petru"
+        }
+       }
+      ]
+     },
+     "id": "a3_frage_petru"
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "eine": [
+         {
+          "flag": "aufbau_fertig_post"
+         },
+         {
+          "flag": "bl_tueren_mina"
+         },
+         {
+          "nicht": {
+           "flag": "tk_haus_weg_post"
+          }
+         }
+        ]
+       },
+       {
+        "nicht": {
+         "flag": "a3_zeuge_mina"
+        }
+       }
+      ]
+     },
+     "id": "a3_frage_mina"
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "eine": [
+         {
+          "flag": "bl_batu_norden"
+         },
+         {
+          "flag": "aufbau_fertig_batu"
+         },
+         {
+          "nicht": {
+           "flag": "tk_haus_weg_batu"
+          }
+         }
+        ]
+       },
+       {
+        "nicht": {
+         "flag": "a3_zeuge_batu"
+        }
+       }
+      ]
+     },
+     "id": "a3_frage_batu"
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "alle": [
+         {
+          "flag": "a3_alva_wach"
+         },
+         {
+          "eine": [
+           {
+            "nicht": {
+             "flag": "tk_haus_weg_bar"
+            }
+           },
+           {
+            "flag": "aufbau_fertig_bar"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "nicht": {
+         "flag": "a3_zeuge_alva"
+        }
+       }
+      ]
+     },
+     "id": "a3_frage_alva"
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "eine": [
+         {
+          "flag": "a3_zeuge_tuer_don"
+         },
+         {
+          "wert": [
+           "vertrauen.anghjulu",
+           ">=",
+           3
+          ]
+         },
+         {
+          "flag": "a3_los_glocke"
+         }
+        ]
+       },
+       {
+        "nicht": {
+         "flag": "a3_zeuge_anghjulu"
+        }
+       }
+      ]
+     },
+     "id": "a3_frage_anghjulu"
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_zeuge_tuer_casanova"
+       },
+       {
+        "nicht": {
+         "flag": "a3_zeuge_casanova"
+        }
+       }
+      ]
+     },
+     "id": "a3_frage_casanova"
+    }
+   ]
+  },
+  "a3_lose": {
+   "label": "The Festa Board",
+   "bild": "village_piazza",
+   "phasen": [
+    "tag",
+    "nachmittag"
+   ],
+   "text": "Madame Casanova's board. Every name is a person with a gift. Help one of them. Takes the whole phase.",
+   "wenn": {
+    "alle": [
+     {
+      "flag": "akt2_ende"
+     },
+     {
+      "flag": "a3_festa_tafel"
+     },
+     {
+      "eine": [
+       {
+        "alle": [
+         {
+          "flag": "a3_festa_tafel"
+         },
+         {
+          "nicht": {
+           "flag": "a3_los_tafel"
+          }
+         }
+        ]
+       },
+       {
+        "alle": [
+         {
+          "flag": "a3_festa_tafel"
+         },
+         {
+          "nicht": {
+           "flag": "a3_los_buehne"
+          }
+         }
+        ]
+       },
+       {
+        "alle": [
+         {
+          "flag": "a3_festa_tafel"
+         },
+         {
+          "nicht": {
+           "flag": "a3_los_topf"
+          }
+         }
+        ]
+       },
+       {
+        "alle": [
+         {
+          "flag": "a3_festa_tafel"
+         },
+         {
+          "nicht": {
+           "flag": "a3_los_menue"
+          }
+         },
+         {
+          "nicht": {
+           "flag": "gefeuert_lola"
+          }
+         }
+        ]
+       },
+       {
+        "alle": [
+         {
+          "flag": "a3_festa_tafel"
+         },
+         {
+          "nicht": {
+           "flag": "a3_los_fang"
+          }
+         }
+        ]
+       },
+       {
+        "alle": [
+         {
+          "flag": "a3_festa_tafel"
+         },
+         {
+          "nicht": {
+           "flag": "a3_los_getraenk"
+          }
+         }
+        ]
+       },
+       {
+        "alle": [
+         {
+          "flag": "a3_festa_tafel"
+         },
+         {
+          "nicht": {
+           "flag": "a3_los_girlande"
+          }
+         }
+        ]
+       },
+       {
+        "alle": [
+         {
+          "flag": "a3_festa_tafel"
+         },
+         {
+          "nicht": {
+           "flag": "a3_los_glocke"
+          }
+         }
+        ]
+       },
+       {
+        "alle": [
+         {
+          "flag": "a3_festa_tafel"
+         },
+         {
+          "nicht": {
+           "flag": "a3_los_lichter"
+          }
+         },
+         {
+          "eine": [
+           {
+            "flag": "aufbau_fertig_post"
+           },
+           {
+            "flag": "aufbau_fertig_batu"
+           },
+           {
+            "flag": "aufbau_fertig_bar"
+           },
+           {
+            "flag": "aufbau_fertig_werkstatt"
+           }
+          ]
+         },
+         {
+          "eine": [
+           {
+            "flag": "a3_scrap_field"
+           },
+           {
+            "flag": "a3_villa_keller"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "alle": [
+         {
+          "flag": "a3_festa_tafel"
+         },
+         {
+          "nicht": {
+           "flag": "a3_los_system"
+          }
+         },
+         {
+          "eine": [
+           {
+            "flag": "aufbau_fertig_post"
+           },
+           {
+            "flag": "aufbau_fertig_batu"
+           },
+           {
+            "flag": "aufbau_fertig_bar"
+           },
+           {
+            "flag": "aufbau_fertig_werkstatt"
+           }
+          ]
+         },
+         {
+          "flag": "a3_alva_wach"
+         }
+        ]
+       },
+       {
+        "alle": [
+         {
+          "flag": "a3_festa_tafel"
+         },
+         {
+          "nicht": {
+           "flag": "a3_los_garten"
+          }
+         },
+         {
+          "eine": [
+           {
+            "flag": "aufbau_fertig_post"
+           },
+           {
+            "flag": "aufbau_fertig_batu"
+           },
+           {
+            "flag": "aufbau_fertig_bar"
+           },
+           {
+            "flag": "aufbau_fertig_werkstatt"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "alle": [
+         {
+          "flag": "a3_festa_tafel"
+         },
+         {
+          "nicht": {
+           "flag": "a3_los_kleider"
+          }
+         },
+         {
+          "eine": [
+           {
+            "flag": "aufbau_fertig_post"
+           },
+           {
+            "flag": "aufbau_fertig_batu"
+           },
+           {
+            "flag": "aufbau_fertig_bar"
+           },
+           {
+            "flag": "aufbau_fertig_werkstatt"
+           }
+          ]
+         },
+         {
+          "flag": "danzel_festa_auftrag"
+         }
+        ]
+       },
+       {
+        "alle": [
+         {
+          "flag": "a3_festa_tafel"
+         },
+         {
+          "nicht": {
+           "flag": "a3_los_bilder"
+          }
+         },
+         {
+          "eine": [
+           {
+            "flag": "aufbau_fertig_post"
+           },
+           {
+            "flag": "aufbau_fertig_batu"
+           },
+           {
+            "flag": "aufbau_fertig_bar"
+           },
+           {
+            "flag": "aufbau_fertig_werkstatt"
+           }
+          ]
+         },
+         {
+          "flag": "bl_kirche_jana"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "nicht": {
+       "tag_ab": 35
+      }
+     }
+    ]
+   },
+   "start": [
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_festa_tafel"
+       },
+       {
+        "nicht": {
+         "flag": "a3_los_tafel"
+        }
+       }
+      ]
+     },
+     "id": "a3_los_tafel"
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_festa_tafel"
+       },
+       {
+        "nicht": {
+         "flag": "a3_los_buehne"
+        }
+       }
+      ]
+     },
+     "id": "a3_los_buehne"
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_festa_tafel"
+       },
+       {
+        "nicht": {
+         "flag": "a3_los_topf"
+        }
+       }
+      ]
+     },
+     "id": "a3_los_topf"
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_festa_tafel"
+       },
+       {
+        "nicht": {
+         "flag": "a3_los_menue"
+        }
+       },
+       {
+        "nicht": {
+         "flag": "gefeuert_lola"
+        }
+       }
+      ]
+     },
+     "id": "a3_los_menue"
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_festa_tafel"
+       },
+       {
+        "nicht": {
+         "flag": "a3_los_fang"
+        }
+       }
+      ]
+     },
+     "id": "a3_los_fang"
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_festa_tafel"
+       },
+       {
+        "nicht": {
+         "flag": "a3_los_getraenk"
+        }
+       }
+      ]
+     },
+     "id": "a3_los_getraenk"
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_festa_tafel"
+       },
+       {
+        "nicht": {
+         "flag": "a3_los_girlande"
+        }
+       }
+      ]
+     },
+     "id": "a3_los_girlande"
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_festa_tafel"
+       },
+       {
+        "nicht": {
+         "flag": "a3_los_glocke"
+        }
+       }
+      ]
+     },
+     "id": "a3_los_glocke"
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_festa_tafel"
+       },
+       {
+        "nicht": {
+         "flag": "a3_los_lichter"
+        }
+       },
+       {
+        "eine": [
+         {
+          "flag": "aufbau_fertig_post"
+         },
+         {
+          "flag": "aufbau_fertig_batu"
+         },
+         {
+          "flag": "aufbau_fertig_bar"
+         },
+         {
+          "flag": "aufbau_fertig_werkstatt"
+         }
+        ]
+       },
+       {
+        "eine": [
+         {
+          "flag": "a3_scrap_field"
+         },
+         {
+          "flag": "a3_villa_keller"
+         }
+        ]
+       }
+      ]
+     },
+     "id": "a3_los_lichter"
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_festa_tafel"
+       },
+       {
+        "nicht": {
+         "flag": "a3_los_system"
+        }
+       },
+       {
+        "eine": [
+         {
+          "flag": "aufbau_fertig_post"
+         },
+         {
+          "flag": "aufbau_fertig_batu"
+         },
+         {
+          "flag": "aufbau_fertig_bar"
+         },
+         {
+          "flag": "aufbau_fertig_werkstatt"
+         }
+        ]
+       },
+       {
+        "flag": "a3_alva_wach"
+       }
+      ]
+     },
+     "id": "a3_los_system"
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_festa_tafel"
+       },
+       {
+        "nicht": {
+         "flag": "a3_los_garten"
+        }
+       },
+       {
+        "eine": [
+         {
+          "flag": "aufbau_fertig_post"
+         },
+         {
+          "flag": "aufbau_fertig_batu"
+         },
+         {
+          "flag": "aufbau_fertig_bar"
+         },
+         {
+          "flag": "aufbau_fertig_werkstatt"
+         }
+        ]
+       }
+      ]
+     },
+     "id": "a3_los_garten"
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_festa_tafel"
+       },
+       {
+        "nicht": {
+         "flag": "a3_los_kleider"
+        }
+       },
+       {
+        "eine": [
+         {
+          "flag": "aufbau_fertig_post"
+         },
+         {
+          "flag": "aufbau_fertig_batu"
+         },
+         {
+          "flag": "aufbau_fertig_bar"
+         },
+         {
+          "flag": "aufbau_fertig_werkstatt"
+         }
+        ]
+       },
+       {
+        "flag": "danzel_festa_auftrag"
+       }
+      ]
+     },
+     "id": "a3_los_kleider"
+    },
+    {
+     "wenn": {
+      "alle": [
+       {
+        "flag": "a3_festa_tafel"
+       },
+       {
+        "nicht": {
+         "flag": "a3_los_bilder"
+        }
+       },
+       {
+        "eine": [
+         {
+          "flag": "aufbau_fertig_post"
+         },
+         {
+          "flag": "aufbau_fertig_batu"
+         },
+         {
+          "flag": "aufbau_fertig_bar"
+         },
+         {
+          "flag": "aufbau_fertig_werkstatt"
+         }
+        ]
+       },
+       {
+        "flag": "bl_kirche_jana"
+       }
+      ]
+     },
+     "id": "a3_los_bilder"
+    }
+   ]
   }
  },
  "auftraege": {

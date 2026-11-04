@@ -27844,24 +27844,6 @@
    "quelle": "akt3_woche4"
   },
   {
-   "wer": "bonaventure",
-   "text": "Paco! You burned it. You carry it.",
-   "gesprochen": "[clear throat] Paco! You burned it. You carry it.",
-   "quelle": "akt3_woche4"
-  },
-  {
-   "wer": "bonaventure",
-   "text": "Paco! You burned it. You carry it.",
-   "gesprochen": "[clear throat] Paco! You burned it. You carry it.",
-   "quelle": "akt3_woche4"
-  },
-  {
-   "wer": "bonaventure",
-   "text": "Paco! You burned it. You carry it.",
-   "gesprochen": "[clear throat] Paco! You burned it. You carry it.",
-   "quelle": "akt3_woche4"
-  },
-  {
    "wer": "mina",
    "text": "Yacht! A postcard. From Montréal. It's not for me, it's for the baker. But still!",
    "gesprochen": "[laugh] Yacht! A postcard. From Montréal. It's not for me, it's for the baker. But still!",
@@ -27911,12 +27893,6 @@
   },
   {
    "wer": "batu",
-   "text": "Good. My mother was afraid of nobody. Me too.",
-   "gesprochen": "[chuckle] Good. My mother was afraid of nobody. Me too.",
-   "quelle": "akt3_woche4"
-  },
-  {
-   "wer": "batu",
    "text": "I'm afraid. I still tell them. Eat.",
    "gesprochen": "[sigh] I'm afraid. I still tell them. Eat.",
    "quelle": "akt3_woche4"
@@ -27943,12 +27919,6 @@
    "wer": "alva",
    "text": "From the square, that night, I saw the north barricade open. Then the men in white came through. Nobody believes me, because I was knocked out after. Will you stand next to me when I say it?",
    "gesprochen": "[sigh] From the square, that night, I saw the north barricade open. Then the men in white came through. Nobody believes me, because I was knocked out after. Will you stand next to me when I say it?",
-   "quelle": "akt3_woche4"
-  },
-  {
-   "wer": "alva",
-   "text": "Then I'll say it. Don't get used to me needing you.",
-   "gesprochen": "[sigh] Then I'll say it. Don't get used to me needing you.",
    "quelle": "akt3_woche4"
   },
   {
@@ -28303,12 +28273,6 @@
    "wer": "elsa",
    "text": "This goes to the commission. All of it, or only his part? Think about it until then.",
    "gesprochen": "[clear throat] This goes to the commission. All of it, or only his part? Think about it until then.",
-   "quelle": "akt3_woche4"
-  },
-  {
-   "wer": "elsa",
-   "text": "For the record: I'd make the same face you're making.",
-   "gesprochen": "[sigh] For the record: I'd make the same face you're making.",
    "quelle": "akt3_woche4"
   },
   {
@@ -28694,6 +28658,462 @@
    "text": "My hands are fine now. My head isn't, yet. Takk.",
    "gesprochen": "[sigh] My hands are fine now. My head isn't, yet. Takk.",
    "quelle": "akt3_woche4"
+  },
+  {
+   "wer": "batu",
+   "text": "Good. My mother was afraid of nobody. Me too.",
+   "gesprochen": "[chuckle] Good. My mother was afraid of nobody. Me too.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "alva",
+   "text": "Then I'll say it. Don't get used to me needing you.",
+   "gesprochen": "[sigh] Then I'll say it. Don't get used to me needing you.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "petru",
+   "text": "Hm. The commission. You want me to sign my name. I saw the torches at my workshop, and who stayed. A.V. has the loan on my boat. So tell me why.",
+   "gesprochen": "[clear throat] Hm. The commission. You want me to sign my name. I saw the torches at my workshop, and who stayed. A.V. has the loan on my boat. So tell me why.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "petru",
+   "text": "Hm. That's a reason.",
+   "gesprochen": "[sigh] Hm. That's a reason.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "petru",
+   "text": "Hm. That's also a reason. A worse one.",
+   "gesprochen": "[clear throat] Hm. That's also a reason. A worse one.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "petru",
+   "text": "...I'll sign.",
+   "gesprochen": "[sigh] ...I'll sign.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "mina",
+   "text": "I carry their letters, Yacht. A.V.'s letters. If I talk, maybe they find another postwoman. The day the phones were dead, I knocked on every door. Do I tell the men from Ajaccio?",
+   "gesprochen": "[sigh] I carry their letters, Yacht. A.V.'s letters. If I talk, maybe they find another postwoman. The day the phones were dead, I knocked on every door. Do I tell the men from Ajaccio?",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "mina",
+   "text": "More than anyone. Okay. I'll tell them.",
+   "gesprochen": "[sniff] More than anyone. Okay. I'll tell them.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "mina",
+   "text": "Nobody asked me that before. I want to.",
+   "gesprochen": "[sigh] Nobody asked me that before. I want to.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "mina",
+   "text": "Nobody. That's true. Okay.",
+   "gesprochen": "[chuckle] Nobody. That's true. Okay.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "batu",
+   "text": "Eat first. ...The men in white asked me twice for the north road. Alon's workers buy my rice. If I talk, maybe they stop. Do I talk, con?",
+   "gesprochen": "[clear throat] Eat first. ...The men in white asked me twice for the north road. Alon's workers buy my rice. If I talk, maybe they stop. Do I talk, con?",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "batu",
+   "text": "All of it? You can't eat all of it. ...Okay. I talk.",
+   "gesprochen": "[laugh] All of it? You can't eat all of it. ...Okay. I talk.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "batu",
+   "text": "Good boy. Now I talk.",
+   "gesprochen": "[sigh] Good boy. Now I talk.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "alva",
+   "text": "From the square I saw the north barricade open. Then the men in white came through. I was knocked out after, so nobody believes me. Why would the men from Ajaccio?",
+   "gesprochen": "[sigh] From the square I saw the north barricade open. Then the men in white came through. I was knocked out after, so nobody believes me. Why would the men from Ajaccio?",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "alva",
+   "text": "The only one. I like that. Fine.",
+   "gesprochen": "[chuckle] The only one. I like that. Fine.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "alva",
+   "text": "...Papa would say: tell them, and then pour them a drink. Okay.",
+   "gesprochen": "[sniff] ...Papa would say: tell them, and then pour them a drink. Okay.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "anghjulu",
+   "text": "I saw the gate open, my son. But a priest hears many things he can't repeat. If I talk, people think I talk about the confessions too. What do I say?",
+   "gesprochen": "[sigh] I saw the gate open, my son. But a priest hears many things he can't repeat. If I talk, people think I talk about the confessions too. What do I say?",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "anghjulu",
+   "text": "Only my eyes. Not my ears. Yes. That I can do.",
+   "gesprochen": "[sigh] Only my eyes. Not my ears. Yes. That I can do.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "anghjulu",
+   "text": "From me. God help us. ...Yes.",
+   "gesprochen": "[clear throat] From me. God help us. ...Yes.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "anghjulu",
+   "text": "Thank you. Yes, I will talk.",
+   "gesprochen": "[chuckle] Thank you. Yes, I will talk.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "casanova",
+   "text": "Every night someone left his paper on my church steps. I kept all of it. If I give it to the commission, they will also read my name in Pascal's book. Do I do it, Monsieur?",
+   "gesprochen": "[sigh] Every night someone left his paper on my church steps. I kept all of it. If I give it to the commission, they will also read my name in Pascal's book. Do I do it, Monsieur?",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "casanova",
+   "text": "From me. Yes. ...You are right, and I hate it.",
+   "gesprochen": "[sigh] From me. Yes. ...You are right, and I hate it.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "casanova",
+   "text": "I signed nothing for him. Write that down.",
+   "gesprochen": "[clear throat] I signed nothing for him. Write that down.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "casanova",
+   "text": "For the festa. ...That is a terrible reason. Yes.",
+   "gesprochen": "[sniff] For the festa. ...That is a terrible reason. Yes.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "petru",
+   "text": "Hm. The wood from my old boat, or the beams from the burned houses?",
+   "gesprochen": "[clear throat] Hm. The wood from my old boat, or the beams from the burned houses?",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "petru",
+   "text": "Hm. She'd like that.",
+   "gesprochen": "[sigh] Hm. She'd like that.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "petru",
+   "text": "Hm. Ash makes a good table. Black, but good.",
+   "gesprochen": "[clear throat] Hm. Ash makes a good table. Black, but good.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "bonaventure",
+   "text": "Señor, where do we build it? Where the fire was, or where the people are?",
+   "gesprochen": "[clear throat] Señor, where do we build it? Where the fire was, or where the people are?",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "bonaventure",
+   "text": "Where the fire was. Yes. That is right.",
+   "gesprochen": "[sigh] Where the fire was. Yes. That is right.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "bonaventure",
+   "text": "Where the people are! A pirate likes an audience.",
+   "gesprochen": "[laugh] Where the people are! A pirate likes an audience.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "batu",
+   "text": "For the festa I cook too much. Like always, but bigger. My way, or your mother's way, con?",
+   "gesprochen": "[chuckle] For the festa I cook too much. Like always, but bigger. My way, or your mother's way, con?",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "batu",
+   "text": "Smart boy. My way.",
+   "gesprochen": "[laugh] Smart boy. My way.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "batu",
+   "text": "Tell me. We cook it together. For her.",
+   "gesprochen": "[sniff] Tell me. We cook it together. For her.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "lola",
+   "text": "I've been in every kitchen in this village, Boss. Mostly for the biscuits. Who tastes it first?",
+   "gesprochen": "[laugh] I've been in every kitchen in this village, Boss. Mostly for the biscuits. Who tastes it first?",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "lola",
+   "text": "Boss! The festa menu. Who tastes it first?",
+   "gesprochen": "[laugh] Boss! The festa menu. Who tastes it first?",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "lola",
+   "text": "Scary. Good. Scary good.",
+   "gesprochen": "[gasp] Scary. Good. Scary good.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "lola",
+   "text": "She'll give it a speech. A long one.",
+   "gesprochen": "[chuckle] She'll give it a speech. A long one.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "lola",
+   "text": "Open wide, Boss. It's hot. Sorry!",
+   "gesprochen": "[laugh] Open wide, Boss. It's hot. Sorry!",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "bonaventure",
+   "text": "Señor. The reef, with many small fish? Or the open sea, with one big fish, if you can catch it?",
+   "gesprochen": "[clear throat] Señor. The reef, with many small fish? Or the open sea, with one big fish, if you can catch it?",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "bonaventure",
+   "text": "Many small fish. Like my crew.",
+   "gesprochen": "[chuckle] Many small fish. Like my crew.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "bonaventure",
+   "text": "Ha! The Señor fishes! I want to see this.",
+   "gesprochen": "[laugh] Ha! The Señor fishes! I want to see this.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "alva",
+   "text": "Papa's recipe, with myrtle? Or a new one? If it's new, you give it a name.",
+   "gesprochen": "[chuckle] Papa's recipe, with myrtle? Or a new one? If it's new, you give it a name.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "alva",
+   "text": "Papa's. He'd like that. Don't watch me while I make it.",
+   "gesprochen": "[sniff] Papa's. He'd like that. Don't watch me while I make it.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "alva",
+   "text": "The pirates will cry. Good.",
+   "gesprochen": "[laugh] The pirates will cry. Good.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "alva",
+   "text": "Fresh Bread. ...Sandru will know why. Fine.",
+   "gesprochen": "[chuckle] Fresh Bread. ...Sandru will know why. Fine.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "mina",
+   "text": "Letters for people who moved away. Or who aren't here any more. Shall I hang them up over the street?",
+   "gesprochen": "[sigh] Letters for people who moved away. Or who aren't here any more. Shall I hang them up over the street?",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "mina",
+   "text": "All of them. Even the ones from Monaco in the careful hand. Let them hang.",
+   "gesprochen": "[chuckle] All of them. Even the ones from Monaco in the careful hand. Let them hang.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "mina",
+   "text": "Okay. His stay in the box.",
+   "gesprochen": "[sigh] Okay. His stay in the box.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "mina",
+   "text": "Flowers. You sound like my mother.",
+   "gesprochen": "[clear throat] Flowers. You sound like my mother.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "anghjulu",
+   "text": "You let me stay sober once already, at the church door, the night of the siege. Twice is a habit. Cards instead of wine, my son. Shall I win tonight, or will you?",
+   "gesprochen": "[chuckle] You let me stay sober once already, at the church door, the night of the siege. Twice is a habit. Cards instead of wine, my son. Shall I win tonight, or will you?",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "anghjulu",
+   "text": "Cards instead of wine, my son. We play until the bell is fixed. Shall I win tonight, or will you?",
+   "gesprochen": "[chuckle] Cards instead of wine, my son. We play until the bell is fixed. Shall I win tonight, or will you?",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "anghjulu",
+   "text": "You cheat like a fisherman. I like it.",
+   "gesprochen": "[laugh] You cheat like a fisherman. I like it.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "anghjulu",
+   "text": "You let me win. I saw it. Thank you.",
+   "gesprochen": "[sigh] You let me win. I saw it. Thank you.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "anghjulu",
+   "text": "Then we play all night. Good.",
+   "gesprochen": "[chuckle] Then we play all night. Good.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "rosi",
+   "text": "What goes in the switch, Officer? One of your chips, or a piece of Alon's collars?",
+   "gesprochen": "[clear throat] What goes in the switch, Officer? One of your chips, or a piece of Alon's collars?",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "maxwell",
+   "text": "Rosi says on the video: one of your chips, or a piece of Alon's collars? Mr. Maximum holds the screwdriver.",
+   "gesprochen": "[clear throat] Rosi says on the video: one of your chips, or a piece of Alon's collars? Mr. Maximum holds the screwdriver.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "rosi",
+   "text": "Your chip? ...White light. Thank you, Officer.",
+   "gesprochen": "[gasp] Your chip? ...White light. Thank you, Officer.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "rosi",
+   "text": "Amber, like Unit-01's eye. I love it.",
+   "gesprochen": "[laugh] Amber, like Unit-01's eye. I love it.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "sandru",
+   "text": "Ha. My mother's tin. Do I sell these at the market, under Alon's sign, or only at the festa?",
+   "gesprochen": "[laugh] Ha. My mother's tin. Do I sell these at the market, under Alon's sign, or only at the festa?",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "sandru",
+   "text": "Not in the system. Ha. They'll count it.",
+   "gesprochen": "[chuckle] Not in the system. Ha. They'll count it.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "sandru",
+   "text": "For us. Yes. Better.",
+   "gesprochen": "[sigh] For us. Yes. Better.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "nonna",
+   "text": "Who gets the first basket? Tell me, before Isabelle gives them all away.",
+   "gesprochen": "[clear throat] Who gets the first basket? Tell me, before Isabelle gives them all away.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "nonna",
+   "text": "For everyone. Good answer.",
+   "gesprochen": "[chuckle] For everyone. Good answer.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "nonna",
+   "text": "Ah. She'll say it's too much. It's never too much.",
+   "gesprochen": "[chuckle] Ah. She'll say it's too much. It's never too much.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "nonna",
+   "text": "Frederico! He'll eat it on the way.",
+   "gesprochen": "[laugh] Frederico! He'll eat it on the way.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "danzel",
+   "text": "Chiara's dress is finished already! So, whose dress next? I can only finish one more in time!",
+   "gesprochen": "[gasp] Chiara's dress is finished already! So, whose dress next? I can only finish one more in time!",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "danzel",
+   "text": "Whose dress first? I can only finish one in time!",
+   "gesprochen": "[gasp] Whose dress first? I can only finish one in time!",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "danzel",
+   "text": "I choose. Good. I always choose right.",
+   "gesprochen": "[clear throat] I choose. Good. I always choose right.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "danzel",
+   "text": "The mayor! Red. It has to be red.",
+   "gesprochen": "[gasp] The mayor! Red. It has to be red.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "jana",
+   "text": "Sir, the children made these for the festa. Where do I hang them?",
+   "gesprochen": "[chuckle] Sir, the children made these for the festa. Where do I hang them?",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "jana",
+   "text": "On the door they hid behind. That's nice.",
+   "gesprochen": "[sniff] On the door they hid behind. That's nice.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "jana",
+   "text": "Everybody! They'll be so proud.",
+   "gesprochen": "[laugh] Everybody! They'll be so proud.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "bibi",
+   "text": "Capra wants to come to the festa. Do we let her?",
+   "gesprochen": "[laugh] Capra wants to come to the festa. Do we let her?",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "casanova",
+   "text": "A goat. At my festa.",
+   "gesprochen": "[gasp] A goat. At my festa.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "bibi",
+   "text": "Hear that, Capra? Family. Don't eat the dresses.",
+   "gesprochen": "[chuckle] Hear that, Capra? Family. Don't eat the dresses.",
+   "quelle": "akt3_lose"
+  },
+  {
+   "wer": "bibi",
+   "text": "Fine. But she'll be sad, and so will I.",
+   "gesprochen": "[sigh] Fine. But she'll be sad, and so will I.",
+   "quelle": "akt3_lose"
   }
  ]
 }

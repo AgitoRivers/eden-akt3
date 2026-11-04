@@ -244,6 +244,8 @@ AUFTRAEGE = {
 sys.path.insert(0, HIER)
 import ereignisse_akt3_woche4  # noqa: E402
 ORTE.update(ereignisse_akt3_woche4.ORTE)
+import ereignisse_akt3_lose  # noqa: E402
+ORTE.update(ereignisse_akt3_lose.ORTE)
 
 
 def pruefe():

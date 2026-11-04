@@ -107782,6 +107782,6389 @@
      }
     }
    ]
+  },
+  {
+   "id": "a3_frage_petru",
+   "art": "ort",
+   "ton": "ernst",
+   "titel": "Who Saw It? Petru",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "petru_workshop",
+   "personen": {
+    "handelnd": "petru",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "Petru is mending a net in front of his workshop. He doesn't look up, but he moves over on the bench.",
+   "zeilen": [
+    {
+     "wer": "petru",
+     "text": "Hm. The commission. You want me to sign my name. I saw the torches at my workshop, and who stayed. A.V. has the loan on my boat. So tell me why.",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Because you saw it, and they need someone who saw it.”",
+     "folgen": [
+      {
+       "flag": "a3_zeuge_petru"
+      },
+      {
+       "flag": "a3_zeuge_petru_ehrlich"
+      },
+      {
+       "vertrauen": [
+        "petru",
+        6
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "petru",
+      "text": "Hm. That's a reason.",
+      "gefuehl": "approval"
+     }
+    },
+    {
+     "text": "“Because if you don't, they'll buy the next boat too.”",
+     "folgen": [
+      {
+       "flag": "a3_zeuge_petru"
+      },
+      {
+       "flag": "a3_zeuge_petru_kalt"
+      },
+      {
+       "vertrauen": [
+        "petru",
+        2
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "petru",
+      "text": "Hm. That's also a reason. A worse one.",
+      "gefuehl": "neutral"
+     }
+    },
+    {
+     "text": "Sits down and mends the net with him until he answers.",
+     "folgen": [
+      {
+       "flag": "a3_zeuge_petru"
+      },
+      {
+       "flag": "a3_zeuge_petru_still"
+      },
+      {
+       "vertrauen": [
+        "petru",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "petru",
+      "text": "...I'll sign.",
+      "gefuehl": "neutral"
+     }
+    },
+    {
+     "text": "Leaves it for today and goes to someone else.",
+     "folgen": [
+      {
+       "weiter": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "bl_tueren_mina"
+             },
+             {
+              "nicht": {
+               "flag": "tk_haus_weg_post"
+              }
+             }
+            ]
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_mina"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_mina"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "eine": [
+             {
+              "flag": "bl_batu_norden"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "nicht": {
+               "flag": "tk_haus_weg_batu"
+              }
+             }
+            ]
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_batu"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_batu"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "alle": [
+             {
+              "flag": "a3_alva_wach"
+             },
+             {
+              "eine": [
+               {
+                "nicht": {
+                 "flag": "tk_haus_weg_bar"
+                }
+               },
+               {
+                "flag": "aufbau_fertig_bar"
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_alva"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_alva"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "eine": [
+             {
+              "flag": "a3_zeuge_tuer_don"
+             },
+             {
+              "wert": [
+               "vertrauen.anghjulu",
+               ">=",
+               3
+              ]
+             },
+             {
+              "flag": "a3_los_glocke"
+             }
+            ]
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_anghjulu"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_anghjulu"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_zeuge_tuer_casanova"
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_casanova"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_casanova"
+        },
+        {
+         "id": "a3_frage_petru"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_frage_mina",
+   "art": "ort",
+   "ton": "ernst",
+   "titel": "Who Saw It? Mina",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_piazza",
+   "personen": {
+    "handelnd": "mina",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "Mina is sitting on the post office steps with her bag on her knees. The letters from Monaco are on top.",
+   "zeilen": [
+    {
+     "wer": "mina",
+     "text": "I carry their letters, Yacht. A.V.'s letters. If I talk, maybe they find another postwoman. The day the phones were dead, I knocked on every door. Do I tell the men from Ajaccio?",
+     "gefuehl": "nervousness"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Yes. You saw more than anyone that day.”",
+     "folgen": [
+      {
+       "flag": "a3_zeuge_mina"
+      },
+      {
+       "flag": "a3_zeuge_mina_ehrlich"
+      },
+      {
+       "vertrauen": [
+        "mina",
+        6
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "mina",
+      "text": "More than anyone. Okay. I'll tell them.",
+      "gefuehl": "pride"
+     }
+    },
+    {
+     "text": "“Only if you want to. It's your name, not mine.”",
+     "folgen": [
+      {
+       "flag": "a3_zeuge_mina"
+      },
+      {
+       "flag": "a3_zeuge_mina_frei"
+      },
+      {
+       "vertrauen": [
+        "mina",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "mina",
+      "text": "Nobody asked me that before. I want to.",
+      "gefuehl": "gratitude"
+     }
+    },
+    {
+     "text": "“Nobody can replace you, Mina. Who else knows every door?”",
+     "folgen": [
+      {
+       "flag": "a3_zeuge_mina"
+      },
+      {
+       "flag": "a3_zeuge_mina_lob"
+      },
+      {
+       "vertrauen": [
+        "mina",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "mina",
+      "text": "Nobody. That's true. Okay.",
+      "gefuehl": "pride"
+     }
+    },
+    {
+     "text": "Leaves it for today and goes to someone else.",
+     "folgen": [
+      {
+       "weiter": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "eine": [
+             {
+              "flag": "bl_batu_norden"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "nicht": {
+               "flag": "tk_haus_weg_batu"
+              }
+             }
+            ]
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_batu"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_batu"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "alle": [
+             {
+              "flag": "a3_alva_wach"
+             },
+             {
+              "eine": [
+               {
+                "nicht": {
+                 "flag": "tk_haus_weg_bar"
+                }
+               },
+               {
+                "flag": "aufbau_fertig_bar"
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_alva"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_alva"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "eine": [
+             {
+              "flag": "a3_zeuge_tuer_don"
+             },
+             {
+              "wert": [
+               "vertrauen.anghjulu",
+               ">=",
+               3
+              ]
+             },
+             {
+              "flag": "a3_los_glocke"
+             }
+            ]
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_anghjulu"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_anghjulu"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_zeuge_tuer_casanova"
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_casanova"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_casanova"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             },
+             {
+              "flag": "bl_tueren_petru"
+             },
+             {
+              "nicht": {
+               "flag": "tk_haus_weg_werkstatt"
+              }
+             }
+            ]
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_petru"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_petru"
+        },
+        {
+         "id": "a3_frage_mina"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_frage_batu",
+   "art": "ort",
+   "ton": "ernst",
+   "titel": "Who Saw It? Bà Tư",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "batu_shop",
+   "personen": {
+    "handelnd": "batu",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "Bà Tư is cutting vegetables, very fast. There is already a bowl in front of your seat.",
+   "zeilen": [
+    {
+     "wer": "batu",
+     "text": "Eat first. ...The men in white asked me twice for the north road. Alon's workers buy my rice. If I talk, maybe they stop. Do I talk, con?",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Yes. You told me first. Now tell them.”",
+     "folgen": [
+      {
+       "flag": "a3_zeuge_batu"
+      },
+      {
+       "flag": "a3_zeuge_batu_ehrlich"
+      },
+      {
+       "vertrauen": [
+        "batu",
+        6
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "batu",
+      "text": "Good. My mother was afraid of nobody. Me too.",
+      "gefuehl": "pride"
+     }
+    },
+    {
+     "text": "“Yes. And the crew will buy your rice, all of it.”",
+     "folgen": [
+      {
+       "flag": "a3_zeuge_batu"
+      },
+      {
+       "flag": "a3_zeuge_batu_kauf"
+      },
+      {
+       "vertrauen": [
+        "batu",
+        2
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "batu",
+      "text": "All of it? You can't eat all of it. ...Okay. I talk.",
+      "gefuehl": "caring"
+     }
+    },
+    {
+     "text": "Eats everything in the bowl first.",
+     "folgen": [
+      {
+       "flag": "a3_zeuge_batu"
+      },
+      {
+       "flag": "a3_zeuge_batu_still"
+      },
+      {
+       "vertrauen": [
+        "batu",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "batu",
+      "text": "Good boy. Now I talk.",
+      "gefuehl": "caring"
+     }
+    },
+    {
+     "text": "Leaves it for today and goes to someone else.",
+     "folgen": [
+      {
+       "weiter": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "alle": [
+             {
+              "flag": "a3_alva_wach"
+             },
+             {
+              "eine": [
+               {
+                "nicht": {
+                 "flag": "tk_haus_weg_bar"
+                }
+               },
+               {
+                "flag": "aufbau_fertig_bar"
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_alva"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_alva"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "eine": [
+             {
+              "flag": "a3_zeuge_tuer_don"
+             },
+             {
+              "wert": [
+               "vertrauen.anghjulu",
+               ">=",
+               3
+              ]
+             },
+             {
+              "flag": "a3_los_glocke"
+             }
+            ]
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_anghjulu"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_anghjulu"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_zeuge_tuer_casanova"
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_casanova"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_casanova"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             },
+             {
+              "flag": "bl_tueren_petru"
+             },
+             {
+              "nicht": {
+               "flag": "tk_haus_weg_werkstatt"
+              }
+             }
+            ]
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_petru"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_petru"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "bl_tueren_mina"
+             },
+             {
+              "nicht": {
+               "flag": "tk_haus_weg_post"
+              }
+             }
+            ]
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_mina"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_mina"
+        },
+        {
+         "id": "a3_frage_batu"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_frage_alva",
+   "art": "ort",
+   "ton": "ernst",
+   "titel": "Who Saw It? Alva",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "alvas_bar",
+   "personen": {
+    "handelnd": "alva",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "Alva is wiping the bar that is already clean.",
+   "zeilen": [
+    {
+     "wer": "alva",
+     "text": "From the square I saw the north barricade open. Then the men in white came through. I was knocked out after, so nobody believes me. Why would the men from Ajaccio?",
+     "gefuehl": "anger"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Because I believe you. And I'll stand next to you.”",
+     "folgen": [
+      {
+       "flag": "a3_zeuge_alva"
+      },
+      {
+       "flag": "a3_zeuge_alva_ehrlich"
+      },
+      {
+       "vertrauen": [
+        "alva",
+        6
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "alva",
+      "text": "Then I'll say it. Don't get used to me needing you.",
+      "gefuehl": "pride"
+     }
+    },
+    {
+     "text": "“Because you're the only one who saw the north side.”",
+     "folgen": [
+      {
+       "flag": "a3_zeuge_alva"
+      },
+      {
+       "flag": "a3_zeuge_alva_fakt"
+      },
+      {
+       "vertrauen": [
+        "alva",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "alva",
+      "text": "The only one. I like that. Fine.",
+      "gefuehl": "pride"
+     }
+    },
+    {
+     "text": "“Say it the way you'd tell Papa.”",
+     "folgen": [
+      {
+       "flag": "a3_zeuge_alva"
+      },
+      {
+       "flag": "a3_zeuge_alva_papa"
+      },
+      {
+       "vertrauen": [
+        "alva",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "alva",
+      "text": "...Papa would say: tell them, and then pour them a drink. Okay.",
+      "gefuehl": "sadness"
+     }
+    },
+    {
+     "text": "Leaves it for today and goes to someone else.",
+     "folgen": [
+      {
+       "weiter": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "eine": [
+             {
+              "flag": "a3_zeuge_tuer_don"
+             },
+             {
+              "wert": [
+               "vertrauen.anghjulu",
+               ">=",
+               3
+              ]
+             },
+             {
+              "flag": "a3_los_glocke"
+             }
+            ]
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_anghjulu"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_anghjulu"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_zeuge_tuer_casanova"
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_casanova"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_casanova"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             },
+             {
+              "flag": "bl_tueren_petru"
+             },
+             {
+              "nicht": {
+               "flag": "tk_haus_weg_werkstatt"
+              }
+             }
+            ]
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_petru"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_petru"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "bl_tueren_mina"
+             },
+             {
+              "nicht": {
+               "flag": "tk_haus_weg_post"
+              }
+             }
+            ]
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_mina"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_mina"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "eine": [
+             {
+              "flag": "bl_batu_norden"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "nicht": {
+               "flag": "tk_haus_weg_batu"
+              }
+             }
+            ]
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_batu"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_batu"
+        },
+        {
+         "id": "a3_frage_alva"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_frage_anghjulu",
+   "art": "ort",
+   "ton": "ernst",
+   "titel": "Who Saw It? Don",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "church",
+   "personen": {
+    "handelnd": "anghjulu",
+    "betroffen": []
+   },
+   "sets": {
+    "anghjulu": "anghjulu_standard"
+   },
+   "lage": "Don is sitting in the first row, next to the bucket. It is still dripping.",
+   "zeilen": [
+    {
+     "wer": "anghjulu",
+     "text": "I saw the gate open, my son. But a priest hears many things he can't repeat. If I talk, people think I talk about the confessions too. What do I say?",
+     "gefuehl": "sadness"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Only what you saw with your own eyes. Not one word more.”",
+     "folgen": [
+      {
+       "flag": "a3_zeuge_anghjulu"
+      },
+      {
+       "flag": "a3_zeuge_anghjulu_ehrlich"
+      },
+      {
+       "vertrauen": [
+        "anghjulu",
+        6
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "anghjulu",
+      "text": "Only my eyes. Not my ears. Yes. That I can do.",
+      "gefuehl": "relief"
+     }
+    },
+    {
+     "text": "“The village needs to hear it from you, Father.”",
+     "folgen": [
+      {
+       "flag": "a3_zeuge_anghjulu"
+      },
+      {
+       "flag": "a3_zeuge_anghjulu_dorf"
+      },
+      {
+       "vertrauen": [
+        "anghjulu",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "anghjulu",
+      "text": "From me. God help us. ...Yes.",
+      "gefuehl": "neutral"
+     }
+    },
+    {
+     "text": "Moves the bucket so it drips somewhere else, and waits.",
+     "folgen": [
+      {
+       "flag": "a3_zeuge_anghjulu"
+      },
+      {
+       "flag": "a3_zeuge_anghjulu_still"
+      },
+      {
+       "vertrauen": [
+        "anghjulu",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "anghjulu",
+      "text": "Thank you. Yes, I will talk.",
+      "gefuehl": "gratitude"
+     }
+    },
+    {
+     "text": "Leaves it for today and goes to someone else.",
+     "folgen": [
+      {
+       "weiter": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_zeuge_tuer_casanova"
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_casanova"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_casanova"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             },
+             {
+              "flag": "bl_tueren_petru"
+             },
+             {
+              "nicht": {
+               "flag": "tk_haus_weg_werkstatt"
+              }
+             }
+            ]
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_petru"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_petru"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "bl_tueren_mina"
+             },
+             {
+              "nicht": {
+               "flag": "tk_haus_weg_post"
+              }
+             }
+            ]
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_mina"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_mina"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "eine": [
+             {
+              "flag": "bl_batu_norden"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "nicht": {
+               "flag": "tk_haus_weg_batu"
+              }
+             }
+            ]
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_batu"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_batu"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "alle": [
+             {
+              "flag": "a3_alva_wach"
+             },
+             {
+              "eine": [
+               {
+                "nicht": {
+                 "flag": "tk_haus_weg_bar"
+                }
+               },
+               {
+                "flag": "aufbau_fertig_bar"
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_alva"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_alva"
+        },
+        {
+         "id": "a3_frage_anghjulu"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_frage_casanova",
+   "art": "ort",
+   "ton": "ernst",
+   "titel": "Who Saw It? Madame Casanova",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_piazza",
+   "personen": {
+    "handelnd": "casanova",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "Madame Casanova is standing in front of her festa board. She is not looking at it.",
+   "zeilen": [
+    {
+     "wer": "casanova",
+     "text": "Every night someone left his paper on my church steps. I kept all of it. If I give it to the commission, they will also read my name in Pascal's book. Do I do it, Monsieur?",
+     "gefuehl": "nervousness"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Yes. The truth is better from you than from his book.”",
+     "folgen": [
+      {
+       "flag": "a3_zeuge_casanova"
+      },
+      {
+       "flag": "a3_zeuge_casanova_ehrlich"
+      },
+      {
+       "vertrauen": [
+        "casanova",
+        6
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "casanova",
+      "text": "From me. Yes. ...You are right, and I hate it.",
+      "gefuehl": "neutral"
+     }
+    },
+    {
+     "text": "“Yes. A mayor who signed nothing for Alon can say so.”",
+     "folgen": [
+      {
+       "flag": "a3_zeuge_casanova"
+      },
+      {
+       "flag": "a3_zeuge_casanova_stolz"
+      },
+      {
+       "vertrauen": [
+        "casanova",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "casanova",
+      "text": "I signed nothing for him. Write that down.",
+      "gefuehl": "pride"
+     }
+    },
+    {
+     "text": "“Do it for the festa. For the board you built.”",
+     "folgen": [
+      {
+       "flag": "a3_zeuge_casanova"
+      },
+      {
+       "flag": "a3_zeuge_casanova_festa"
+      },
+      {
+       "vertrauen": [
+        "casanova",
+        2
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "casanova",
+      "text": "For the festa. ...That is a terrible reason. Yes.",
+      "gefuehl": "embarrassment"
+     }
+    },
+    {
+     "text": "Leaves it for today and goes to someone else.",
+     "folgen": [
+      {
+       "weiter": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             },
+             {
+              "flag": "bl_tueren_petru"
+             },
+             {
+              "nicht": {
+               "flag": "tk_haus_weg_werkstatt"
+              }
+             }
+            ]
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_petru"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_petru"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "bl_tueren_mina"
+             },
+             {
+              "nicht": {
+               "flag": "tk_haus_weg_post"
+              }
+             }
+            ]
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_mina"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_mina"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "eine": [
+             {
+              "flag": "bl_batu_norden"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "nicht": {
+               "flag": "tk_haus_weg_batu"
+              }
+             }
+            ]
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_batu"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_batu"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "alle": [
+             {
+              "flag": "a3_alva_wach"
+             },
+             {
+              "eine": [
+               {
+                "nicht": {
+                 "flag": "tk_haus_weg_bar"
+                }
+               },
+               {
+                "flag": "aufbau_fertig_bar"
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_alva"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_alva"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "eine": [
+             {
+              "flag": "a3_zeuge_tuer_don"
+             },
+             {
+              "wert": [
+               "vertrauen.anghjulu",
+               ">=",
+               3
+              ]
+             },
+             {
+              "flag": "a3_los_glocke"
+             }
+            ]
+           },
+           {
+            "nicht": {
+             "flag": "a3_zeuge_anghjulu"
+            }
+           }
+          ]
+         },
+         "id": "a3_frage_anghjulu"
+        },
+        {
+         "id": "a3_frage_casanova"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_los_tafel",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "The Long Table",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "petru_workshop",
+   "personen": {
+    "handelnd": "petru",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "The board says: Petru · wood · a table for the whole village. Petru has two piles of wood in front of the workshop.",
+   "zeilen": [
+    {
+     "wer": "petru",
+     "text": "Hm. The wood from my old boat, or the beams from the burned houses?",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“From the old boat. Something good should come out of her.”",
+     "folgen": [
+      {
+       "flag": "a3_los_tafel"
+      },
+      {
+       "flag": "a3_los_tafel_boot"
+      },
+      {
+       "vertrauen": [
+        "petru",
+        4
+       ]
+      },
+      {
+       "aufbau_stufe": "*"
+      }
+     ],
+     "zeile": {
+      "wer": "petru",
+      "text": "Hm. She'd like that.",
+      "gefuehl": "sadness"
+     }
+    },
+    {
+     "text": "“The burned beams. Let the fire turn into a table.”",
+     "folgen": [
+      {
+       "flag": "a3_los_tafel"
+      },
+      {
+       "flag": "a3_los_tafel_asche"
+      },
+      {
+       "vertrauen": [
+        "petru",
+        4
+       ]
+      },
+      {
+       "aufbau_stufe": "*"
+      }
+     ],
+     "zeile": {
+      "wer": "petru",
+      "text": "Hm. Ash makes a good table. Black, but good.",
+      "gefuehl": "approval"
+     }
+    },
+    {
+     "text": "Looks at another name on the board.",
+     "folgen": [
+      {
+       "weiter": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_buehne"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_buehne"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_topf"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_topf"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_menue"
+            }
+           },
+           {
+            "nicht": {
+             "flag": "gefeuert_lola"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_menue"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_fang"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_fang"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_getraenk"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_getraenk"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_girlande"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_girlande"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_glocke"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_glocke"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_lichter"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "eine": [
+             {
+              "flag": "a3_scrap_field"
+             },
+             {
+              "flag": "a3_villa_keller"
+             }
+            ]
+           }
+          ]
+         },
+         "id": "a3_los_lichter"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_system"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "a3_alva_wach"
+           }
+          ]
+         },
+         "id": "a3_los_system"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_garten"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           }
+          ]
+         },
+         "id": "a3_los_garten"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_kleider"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "danzel_festa_auftrag"
+           }
+          ]
+         },
+         "id": "a3_los_kleider"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_bilder"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "bl_kirche_jana"
+           }
+          ]
+         },
+         "id": "a3_los_bilder"
+        },
+        {
+         "id": "a3_los_tafel"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_los_buehne",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "The Stage",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_piazza",
+   "personen": {
+    "handelnd": "bonaventure",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "The board says: Buenaventura · carrying stones · a stage. Forty pirates wait with their hats in their hands.",
+   "zeilen": [
+    {
+     "wer": "bonaventure",
+     "text": "Señor, where do we build it? Where the fire was, or where the people are?",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“In front of the post office. Where the fire was.”",
+     "folgen": [
+      {
+       "flag": "a3_los_buehne"
+      },
+      {
+       "flag": "a3_los_buehne_post"
+      },
+      {
+       "vertrauen": [
+        "bonaventure",
+        4
+       ]
+      },
+      {
+       "aufbau_stufe": "*"
+      }
+     ],
+     "zeile": {
+      "wer": "bonaventure",
+      "text": "Where the fire was. Yes. That is right.",
+      "gefuehl": "remorse"
+     }
+    },
+    {
+     "text": "“In front of the church. Where the people are.”",
+     "folgen": [
+      {
+       "flag": "a3_los_buehne"
+      },
+      {
+       "flag": "a3_los_buehne_kirche"
+      },
+      {
+       "vertrauen": [
+        "bonaventure",
+        4
+       ]
+      },
+      {
+       "aufbau_stufe": "*"
+      }
+     ],
+     "zeile": {
+      "wer": "bonaventure",
+      "text": "Where the people are! A pirate likes an audience.",
+      "gefuehl": "pride"
+     }
+    },
+    {
+     "text": "Looks at another name on the board.",
+     "folgen": [
+      {
+       "weiter": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_topf"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_topf"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_menue"
+            }
+           },
+           {
+            "nicht": {
+             "flag": "gefeuert_lola"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_menue"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_fang"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_fang"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_getraenk"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_getraenk"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_girlande"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_girlande"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_glocke"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_glocke"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_lichter"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "eine": [
+             {
+              "flag": "a3_scrap_field"
+             },
+             {
+              "flag": "a3_villa_keller"
+             }
+            ]
+           }
+          ]
+         },
+         "id": "a3_los_lichter"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_system"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "a3_alva_wach"
+           }
+          ]
+         },
+         "id": "a3_los_system"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_garten"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           }
+          ]
+         },
+         "id": "a3_los_garten"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_kleider"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "danzel_festa_auftrag"
+           }
+          ]
+         },
+         "id": "a3_los_kleider"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_bilder"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "bl_kirche_jana"
+           }
+          ]
+         },
+         "id": "a3_los_bilder"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_tafel"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_tafel"
+        },
+        {
+         "id": "a3_los_buehne"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_los_topf",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "The Pot",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "batu_shop",
+   "personen": {
+    "handelnd": "batu",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "The board says: Bà Tư · cooking too much · the big pot. Bà Tư already has the biggest pot in Corsica on the fire.",
+   "zeilen": [
+    {
+     "wer": "batu",
+     "text": "For the festa I cook too much. Like always, but bigger. My way, or your mother's way, con?",
+     "gefuehl": "caring"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Your way. Always your way.”",
+     "folgen": [
+      {
+       "flag": "a3_los_topf"
+      },
+      {
+       "flag": "a3_los_topf_batu"
+      },
+      {
+       "vertrauen": [
+        "batu",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "batu",
+      "text": "Smart boy. My way.",
+      "gefuehl": "amusement"
+     }
+    },
+    {
+     "text": "“My mother's way. I'll tell you how she made it.”",
+     "folgen": [
+      {
+       "flag": "a3_los_topf"
+      },
+      {
+       "flag": "a3_los_topf_mutter"
+      },
+      {
+       "vertrauen": [
+        "batu",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "batu",
+      "text": "Tell me. We cook it together. For her.",
+      "gefuehl": "caring"
+     }
+    },
+    {
+     "text": "Looks at another name on the board.",
+     "folgen": [
+      {
+       "weiter": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_menue"
+            }
+           },
+           {
+            "nicht": {
+             "flag": "gefeuert_lola"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_menue"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_fang"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_fang"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_getraenk"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_getraenk"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_girlande"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_girlande"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_glocke"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_glocke"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_lichter"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "eine": [
+             {
+              "flag": "a3_scrap_field"
+             },
+             {
+              "flag": "a3_villa_keller"
+             }
+            ]
+           }
+          ]
+         },
+         "id": "a3_los_lichter"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_system"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "a3_alva_wach"
+           }
+          ]
+         },
+         "id": "a3_los_system"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_garten"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           }
+          ]
+         },
+         "id": "a3_los_garten"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_kleider"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "danzel_festa_auftrag"
+           }
+          ]
+         },
+         "id": "a3_los_kleider"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_bilder"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "bl_kirche_jana"
+           }
+          ]
+         },
+         "id": "a3_los_bilder"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_tafel"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_tafel"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_buehne"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_buehne"
+        },
+        {
+         "id": "a3_los_topf"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_los_menue",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "The Menu",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "lola",
+    "betroffen": []
+   },
+   "sets": {
+    "lola": "Galley"
+   },
+   "lage": "The board says: Lola · cooking · the grill. Lola has written a menu on her arm because she ran out of paper.",
+   "zeilen": [
+    {
+     "wer": "lola",
+     "text": "I've been in every kitchen in this village, Boss. Mostly for the biscuits. Who tastes it first?",
+     "gefuehl": "joy",
+     "gruppe": "lola",
+     "wenn": {
+      "flag": "bl_tueren_lola"
+     }
+    },
+    {
+     "wer": "lola",
+     "text": "Boss! The festa menu. Who tastes it first?",
+     "gefuehl": "joy",
+     "gruppe": "lola",
+     "wenn": null
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Bà Tư. If she says yes, it's perfect.”",
+     "folgen": [
+      {
+       "flag": "a3_los_menue"
+      },
+      {
+       "flag": "a3_los_menue_batu"
+      },
+      {
+       "vertrauen": [
+        "lola",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "lola",
+      "text": "Scary. Good. Scary good.",
+      "gefuehl": "nervousness"
+     }
+    },
+    {
+     "text": "“Madame Casanova. It's her festa.”",
+     "folgen": [
+      {
+       "flag": "a3_los_menue"
+      },
+      {
+       "flag": "a3_los_menue_casanova"
+      },
+      {
+       "vertrauen": [
+        "lola",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "lola",
+      "text": "She'll give it a speech. A long one.",
+      "gefuehl": "amusement"
+     }
+    },
+    {
+     "text": "“Me. Right now.”",
+     "folgen": [
+      {
+       "flag": "a3_los_menue"
+      },
+      {
+       "flag": "a3_los_menue_duc"
+      },
+      {
+       "vertrauen": [
+        "lola",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "lola",
+      "text": "Open wide, Boss. It's hot. Sorry!",
+      "gefuehl": "joy"
+     }
+    },
+    {
+     "text": "Looks at another name on the board.",
+     "folgen": [
+      {
+       "weiter": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_fang"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_fang"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_getraenk"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_getraenk"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_girlande"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_girlande"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_glocke"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_glocke"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_lichter"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "eine": [
+             {
+              "flag": "a3_scrap_field"
+             },
+             {
+              "flag": "a3_villa_keller"
+             }
+            ]
+           }
+          ]
+         },
+         "id": "a3_los_lichter"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_system"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "a3_alva_wach"
+           }
+          ]
+         },
+         "id": "a3_los_system"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_garten"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           }
+          ]
+         },
+         "id": "a3_los_garten"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_kleider"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "danzel_festa_auftrag"
+           }
+          ]
+         },
+         "id": "a3_los_kleider"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_bilder"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "bl_kirche_jana"
+           }
+          ]
+         },
+         "id": "a3_los_bilder"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_tafel"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_tafel"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_buehne"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_buehne"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_topf"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_topf"
+        },
+        {
+         "id": "a3_los_menue"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_los_fang",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "The Catch",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_harbour",
+   "personen": {
+    "handelnd": "bonaventure",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "The board says: Buenaventura's men · fishing · the grill at the harbour. The Eventually is ready to go out.",
+   "zeilen": [
+    {
+     "wer": "bonaventure",
+     "text": "Señor. The reef, with many small fish? Or the open sea, with one big fish, if you can catch it?",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“The reef. Enough for everyone.”",
+     "folgen": [
+      {
+       "flag": "a3_los_fang"
+      },
+      {
+       "flag": "a3_los_fang_riff"
+      },
+      {
+       "vertrauen": [
+        "bonaventure",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "bonaventure",
+      "text": "Many small fish. Like my crew.",
+      "gefuehl": "amusement"
+     }
+    },
+    {
+     "text": "“The open sea. I'll catch the big one myself.”",
+     "folgen": [
+      {
+       "flag": "a3_los_fang"
+      },
+      {
+       "flag": "a3_los_fang_meer"
+      },
+      {
+       "vertrauen": [
+        "bonaventure",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "bonaventure",
+      "text": "Ha! The Señor fishes! I want to see this.",
+      "gefuehl": "joy"
+     }
+    },
+    {
+     "text": "Looks at another name on the board.",
+     "folgen": [
+      {
+       "weiter": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_getraenk"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_getraenk"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_girlande"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_girlande"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_glocke"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_glocke"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_lichter"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "eine": [
+             {
+              "flag": "a3_scrap_field"
+             },
+             {
+              "flag": "a3_villa_keller"
+             }
+            ]
+           }
+          ]
+         },
+         "id": "a3_los_lichter"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_system"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "a3_alva_wach"
+           }
+          ]
+         },
+         "id": "a3_los_system"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_garten"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           }
+          ]
+         },
+         "id": "a3_los_garten"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_kleider"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "danzel_festa_auftrag"
+           }
+          ]
+         },
+         "id": "a3_los_kleider"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_bilder"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "bl_kirche_jana"
+           }
+          ]
+         },
+         "id": "a3_los_bilder"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_tafel"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_tafel"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_buehne"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_buehne"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_topf"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_topf"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_menue"
+            }
+           },
+           {
+            "nicht": {
+             "flag": "gefeuert_lola"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_menue"
+        },
+        {
+         "id": "a3_los_fang"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_los_getraenk",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "The Festa Drink",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "alvas_bar",
+   "personen": {
+    "handelnd": "alva",
+    "betroffen": []
+   },
+   "sets": {
+    "alva": "alva_standard"
+   },
+   "lage": "The board says: Alva · the bar · a drink for every table.",
+   "zeilen": [
+    {
+     "wer": "alva",
+     "text": "Papa's recipe, with myrtle? Or a new one? If it's new, you give it a name.",
+     "gefuehl": "curiosity"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Papa's recipe.”",
+     "folgen": [
+      {
+       "flag": "a3_los_getraenk"
+      },
+      {
+       "flag": "a3_los_getraenk_papa"
+      },
+      {
+       "vertrauen": [
+        "alva",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "alva",
+      "text": "Papa's. He'd like that. Don't watch me while I make it.",
+      "gefuehl": "sadness"
+     }
+    },
+    {
+     "text": "“A new one. We call it 'The Eventually'.”",
+     "folgen": [
+      {
+       "flag": "a3_los_getraenk"
+      },
+      {
+       "flag": "a3_los_getraenk_eventually"
+      },
+      {
+       "vertrauen": [
+        "alva",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "alva",
+      "text": "The pirates will cry. Good.",
+      "gefuehl": "amusement"
+     }
+    },
+    {
+     "text": "“A new one. We call it 'Fresh Bread'.”",
+     "folgen": [
+      {
+       "flag": "a3_los_getraenk"
+      },
+      {
+       "flag": "a3_los_getraenk_brot"
+      },
+      {
+       "vertrauen": [
+        "alva",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "alva",
+      "text": "Fresh Bread. ...Sandru will know why. Fine.",
+      "gefuehl": "embarrassment"
+     }
+    },
+    {
+     "text": "Looks at another name on the board.",
+     "folgen": [
+      {
+       "weiter": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_girlande"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_girlande"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_glocke"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_glocke"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_lichter"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "eine": [
+             {
+              "flag": "a3_scrap_field"
+             },
+             {
+              "flag": "a3_villa_keller"
+             }
+            ]
+           }
+          ]
+         },
+         "id": "a3_los_lichter"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_system"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "a3_alva_wach"
+           }
+          ]
+         },
+         "id": "a3_los_system"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_garten"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           }
+          ]
+         },
+         "id": "a3_los_garten"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_kleider"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "danzel_festa_auftrag"
+           }
+          ]
+         },
+         "id": "a3_los_kleider"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_bilder"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "bl_kirche_jana"
+           }
+          ]
+         },
+         "id": "a3_los_bilder"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_tafel"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_tafel"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_buehne"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_buehne"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_topf"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_topf"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_menue"
+            }
+           },
+           {
+            "nicht": {
+             "flag": "gefeuert_lola"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_menue"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_fang"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_fang"
+        },
+        {
+         "id": "a3_los_getraenk"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_los_girlande",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "The Garland",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_piazza",
+   "personen": {
+    "handelnd": "mina",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "The board says: Mina · letters · a garland over the street. Mina has a box of post that nobody can deliver.",
+   "zeilen": [
+    {
+     "wer": "mina",
+     "text": "Letters for people who moved away. Or who aren't here any more. Shall I hang them up over the street?",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Yes. All of them.”",
+     "folgen": [
+      {
+       "flag": "a3_los_girlande"
+      },
+      {
+       "flag": "a3_los_girlande_alle"
+      },
+      {
+       "vertrauen": [
+        "mina",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "mina",
+      "text": "All of them. Even the ones from Monaco in the careful hand. Let them hang.",
+      "gefuehl": "amusement"
+     }
+    },
+    {
+     "text": "“Yes, but not Pascal's post.”",
+     "folgen": [
+      {
+       "flag": "a3_los_girlande"
+      },
+      {
+       "flag": "a3_los_girlande_ohne"
+      },
+      {
+       "vertrauen": [
+        "mina",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "mina",
+      "text": "Okay. His stay in the box.",
+      "gefuehl": "neutral"
+     }
+    },
+    {
+     "text": "“No. Flowers. Letters are for reading.”",
+     "folgen": [
+      {
+       "flag": "a3_los_girlande"
+      },
+      {
+       "flag": "a3_los_girlande_blumen"
+      },
+      {
+       "vertrauen": [
+        "mina",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "mina",
+      "text": "Flowers. You sound like my mother.",
+      "gefuehl": "amusement"
+     }
+    },
+    {
+     "text": "Looks at another name on the board.",
+     "folgen": [
+      {
+       "weiter": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_glocke"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_glocke"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_lichter"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "eine": [
+             {
+              "flag": "a3_scrap_field"
+             },
+             {
+              "flag": "a3_villa_keller"
+             }
+            ]
+           }
+          ]
+         },
+         "id": "a3_los_lichter"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_system"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "a3_alva_wach"
+           }
+          ]
+         },
+         "id": "a3_los_system"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_garten"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           }
+          ]
+         },
+         "id": "a3_los_garten"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_kleider"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "danzel_festa_auftrag"
+           }
+          ]
+         },
+         "id": "a3_los_kleider"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_bilder"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "bl_kirche_jana"
+           }
+          ]
+         },
+         "id": "a3_los_bilder"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_tafel"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_tafel"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_buehne"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_buehne"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_topf"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_topf"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_menue"
+            }
+           },
+           {
+            "nicht": {
+             "flag": "gefeuert_lola"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_menue"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_fang"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_fang"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_getraenk"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_getraenk"
+        },
+        {
+         "id": "a3_los_girlande"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_los_glocke",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "The Bell",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "church",
+   "personen": {
+    "handelnd": "anghjulu",
+    "betroffen": []
+   },
+   "sets": {
+    "anghjulu": "anghjulu_standard"
+   },
+   "lage": "The board says: Don · the bell · ringing for the dance. The bell is cracked and rings in the wrong rhythm. Don has a pack of cards.",
+   "zeilen": [
+    {
+     "wer": "anghjulu",
+     "text": "You let me stay sober once already, at the church door, the night of the siege. Twice is a habit. Cards instead of wine, my son. Shall I win tonight, or will you?",
+     "gefuehl": "amusement",
+     "gruppe": "don",
+     "wenn": {
+      "flag": "bl_kirche_don"
+     }
+    },
+    {
+     "wer": "anghjulu",
+     "text": "Cards instead of wine, my son. We play until the bell is fixed. Shall I win tonight, or will you?",
+     "gefuehl": "amusement",
+     "gruppe": "don",
+     "wenn": null
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Plays to win.",
+     "folgen": [
+      {
+       "flag": "a3_los_glocke"
+      },
+      {
+       "flag": "a3_los_glocke_gewinnen"
+      },
+      {
+       "vertrauen": [
+        "anghjulu",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "anghjulu",
+      "text": "You cheat like a fisherman. I like it.",
+      "gefuehl": "amusement"
+     }
+    },
+    {
+     "text": "Lets him win.",
+     "folgen": [
+      {
+       "flag": "a3_los_glocke"
+      },
+      {
+       "flag": "a3_los_glocke_verlieren"
+      },
+      {
+       "vertrauen": [
+        "anghjulu",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "anghjulu",
+      "text": "You let me win. I saw it. Thank you.",
+      "gefuehl": "gratitude"
+     }
+    },
+    {
+     "text": "“Nobody wins. We play until the bell is fixed.”",
+     "folgen": [
+      {
+       "flag": "a3_los_glocke"
+      },
+      {
+       "flag": "a3_los_glocke_niemand"
+      },
+      {
+       "vertrauen": [
+        "anghjulu",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "anghjulu",
+      "text": "Then we play all night. Good.",
+      "gefuehl": "joy"
+     }
+    },
+    {
+     "text": "Looks at another name on the board.",
+     "folgen": [
+      {
+       "weiter": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_lichter"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "eine": [
+             {
+              "flag": "a3_scrap_field"
+             },
+             {
+              "flag": "a3_villa_keller"
+             }
+            ]
+           }
+          ]
+         },
+         "id": "a3_los_lichter"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_system"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "a3_alva_wach"
+           }
+          ]
+         },
+         "id": "a3_los_system"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_garten"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           }
+          ]
+         },
+         "id": "a3_los_garten"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_kleider"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "danzel_festa_auftrag"
+           }
+          ]
+         },
+         "id": "a3_los_kleider"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_bilder"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "bl_kirche_jana"
+           }
+          ]
+         },
+         "id": "a3_los_bilder"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_tafel"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_tafel"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_buehne"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_buehne"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_topf"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_topf"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_menue"
+            }
+           },
+           {
+            "nicht": {
+             "flag": "gefeuert_lola"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_menue"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_fang"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_fang"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_getraenk"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_getraenk"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_girlande"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_girlande"
+        },
+        {
+         "id": "a3_los_glocke"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_los_lichter",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "The Lights",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_piazza",
+   "personen": {
+    "handelnd": "rosi",
+    "betroffen": []
+   },
+   "sets": {
+    "rosi": "Engine Room"
+   },
+   "lage": "The board says: Rosi · machines · lights over the square. Rosi has a box of cables and the steel from the scrap field.",
+   "zeilen": [
+    {
+     "wer": "rosi",
+     "text": "What goes in the switch, Officer? One of your chips, or a piece of Alon's collars?",
+     "gefuehl": "curiosity",
+     "gruppe": "rosi",
+     "wenn": {
+      "nicht": {
+       "flag": "gefeuert_rosi"
+      }
+     }
+    },
+    {
+     "wer": "maxwell",
+     "text": "Rosi says on the video: one of your chips, or a piece of Alon's collars? Mr. Maximum holds the screwdriver.",
+     "gefuehl": "neutral",
+     "gruppe": "rosi",
+     "wenn": null
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Gives her one of his own chips.",
+     "folgen": [
+      {
+       "flag": "a3_los_lichter"
+      },
+      {
+       "flag": "a3_los_lichter_chip"
+      },
+      {
+       "vertrauen": [
+        "rosi",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "rosi",
+      "text": "Your chip? ...White light. Thank you, Officer.",
+      "gefuehl": "surprise"
+     }
+    },
+    {
+     "text": "“A piece of the collars. Let his light shine for us.”",
+     "folgen": [
+      {
+       "flag": "a3_los_lichter"
+      },
+      {
+       "flag": "a3_los_lichter_halsband"
+      },
+      {
+       "vertrauen": [
+        "rosi",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "rosi",
+      "text": "Amber, like Unit-01's eye. I love it.",
+      "gefuehl": "joy"
+     }
+    },
+    {
+     "text": "Looks at another name on the board.",
+     "folgen": [
+      {
+       "weiter": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_system"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "a3_alva_wach"
+           }
+          ]
+         },
+         "id": "a3_los_system"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_garten"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           }
+          ]
+         },
+         "id": "a3_los_garten"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_kleider"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "danzel_festa_auftrag"
+           }
+          ]
+         },
+         "id": "a3_los_kleider"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_bilder"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "bl_kirche_jana"
+           }
+          ]
+         },
+         "id": "a3_los_bilder"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_tafel"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_tafel"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_buehne"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_buehne"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_topf"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_topf"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_menue"
+            }
+           },
+           {
+            "nicht": {
+             "flag": "gefeuert_lola"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_menue"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_fang"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_fang"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_getraenk"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_getraenk"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_girlande"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_girlande"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_glocke"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_glocke"
+        },
+        {
+         "id": "a3_los_lichter"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_los_system",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "Not in the System",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "av_market",
+   "personen": {
+    "handelnd": "sandru",
+    "betroffen": []
+   },
+   "sets": {
+    "sandru": "sandru_av"
+   },
+   "lage": "The board says: Sandru · his mother's recipes · a table of sweets. Sandru has a tin box with gazelle horns and chebakia.",
+   "zeilen": [
+    {
+     "wer": "sandru",
+     "text": "Ha. My mother's tin. Do I sell these at the market, under Alon's sign, or only at the festa?",
+     "gefuehl": "nervousness"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“At the market. Let them see what's not in their system.”",
+     "folgen": [
+      {
+       "flag": "a3_los_system"
+      },
+      {
+       "flag": "a3_los_system_markt"
+      },
+      {
+       "vertrauen": [
+        "sandru",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "sandru",
+      "text": "Not in the system. Ha. They'll count it.",
+      "gefuehl": "pride"
+     }
+    },
+    {
+     "text": "“Only at the festa. These are for us.”",
+     "folgen": [
+      {
+       "flag": "a3_los_system"
+      },
+      {
+       "flag": "a3_los_system_festa"
+      },
+      {
+       "vertrauen": [
+        "sandru",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "sandru",
+      "text": "For us. Yes. Better.",
+      "gefuehl": "relief"
+     }
+    },
+    {
+     "text": "Looks at another name on the board.",
+     "folgen": [
+      {
+       "weiter": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_garten"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           }
+          ]
+         },
+         "id": "a3_los_garten"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_kleider"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "danzel_festa_auftrag"
+           }
+          ]
+         },
+         "id": "a3_los_kleider"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_bilder"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "bl_kirche_jana"
+           }
+          ]
+         },
+         "id": "a3_los_bilder"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_tafel"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_tafel"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_buehne"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_buehne"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_topf"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_topf"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_menue"
+            }
+           },
+           {
+            "nicht": {
+             "flag": "gefeuert_lola"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_menue"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_fang"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_fang"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_getraenk"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_getraenk"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_girlande"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_girlande"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_glocke"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_glocke"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_lichter"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "eine": [
+             {
+              "flag": "a3_scrap_field"
+             },
+             {
+              "flag": "a3_villa_keller"
+             }
+            ]
+           }
+          ]
+         },
+         "id": "a3_los_lichter"
+        },
+        {
+         "id": "a3_los_system"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_los_garten",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "The Garden",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "monastery_garden_dusk",
+   "personen": {
+    "handelnd": "nonna",
+    "betroffen": []
+   },
+   "sets": {
+    "nonna": "nonna_standard"
+   },
+   "lage": "The board says: Nonna and Isabelle · the garden · herbs for the tables. Isabelle has already filled three baskets.",
+   "zeilen": [
+    {
+     "wer": "nonna",
+     "text": "Who gets the first basket? Tell me, before Isabelle gives them all away.",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“The long table.”",
+     "folgen": [
+      {
+       "flag": "a3_los_garten"
+      },
+      {
+       "flag": "a3_los_garten_tafel"
+      },
+      {
+       "vertrauen": [
+        "nonna",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "nonna",
+      "text": "For everyone. Good answer.",
+      "gefuehl": "approval"
+     }
+    },
+    {
+     "text": "“Bà Tư's pot.”",
+     "folgen": [
+      {
+       "flag": "a3_los_garten"
+      },
+      {
+       "flag": "a3_los_garten_topf"
+      },
+      {
+       "vertrauen": [
+        "nonna",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "nonna",
+      "text": "Ah. She'll say it's too much. It's never too much.",
+      "gefuehl": "amusement"
+     }
+    },
+    {
+     "text": "“Frederico. He carries everything.”",
+     "folgen": [
+      {
+       "flag": "a3_los_garten"
+      },
+      {
+       "flag": "a3_los_garten_fred"
+      },
+      {
+       "vertrauen": [
+        "nonna",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "nonna",
+      "text": "Frederico! He'll eat it on the way.",
+      "gefuehl": "amusement"
+     }
+    },
+    {
+     "text": "Looks at another name on the board.",
+     "folgen": [
+      {
+       "weiter": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_kleider"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "danzel_festa_auftrag"
+           }
+          ]
+         },
+         "id": "a3_los_kleider"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_bilder"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "bl_kirche_jana"
+           }
+          ]
+         },
+         "id": "a3_los_bilder"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_tafel"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_tafel"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_buehne"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_buehne"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_topf"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_topf"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_menue"
+            }
+           },
+           {
+            "nicht": {
+             "flag": "gefeuert_lola"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_menue"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_fang"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_fang"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_getraenk"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_getraenk"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_girlande"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_girlande"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_glocke"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_glocke"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_lichter"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "eine": [
+             {
+              "flag": "a3_scrap_field"
+             },
+             {
+              "flag": "a3_villa_keller"
+             }
+            ]
+           }
+          ]
+         },
+         "id": "a3_los_lichter"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_system"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "a3_alva_wach"
+           }
+          ]
+         },
+         "id": "a3_los_system"
+        },
+        {
+         "id": "a3_los_garten"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_los_kleider",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "The Dresses",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "village_piazza",
+   "personen": {
+    "handelnd": "danzel",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "The board says: Danzel · sewing · the festa dresses. Danzel stands in his shop with pins in his mouth.",
+   "zeilen": [
+    {
+     "wer": "danzel",
+     "text": "Chiara's dress is finished already! So, whose dress next? I can only finish one more in time!",
+     "gefuehl": "nervousness",
+     "gruppe": "danzel",
+     "wenn": {
+      "flag": "chiara_festa_kleid"
+     }
+    },
+    {
+     "wer": "danzel",
+     "text": "Whose dress first? I can only finish one in time!",
+     "gefuehl": "nervousness",
+     "gruppe": "danzel",
+     "wenn": null
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“One of the women from the crew. You choose who.”",
+     "folgen": [
+      {
+       "flag": "a3_los_kleider"
+      },
+      {
+       "flag": "a3_los_kleider_crew"
+      },
+      {
+       "vertrauen": [
+        "danzel",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "danzel",
+      "text": "I choose. Good. I always choose right.",
+      "gefuehl": "pride"
+     }
+    },
+    {
+     "text": "“Madame Casanova. She wears the same dress every year.”",
+     "folgen": [
+      {
+       "flag": "a3_los_kleider"
+      },
+      {
+       "flag": "a3_los_kleider_casanova"
+      },
+      {
+       "vertrauen": [
+        "danzel",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "danzel",
+      "text": "The mayor! Red. It has to be red.",
+      "gefuehl": "excitement"
+     }
+    },
+    {
+     "text": "Looks at another name on the board.",
+     "folgen": [
+      {
+       "weiter": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_bilder"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "bl_kirche_jana"
+           }
+          ]
+         },
+         "id": "a3_los_bilder"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_tafel"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_tafel"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_buehne"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_buehne"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_topf"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_topf"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_menue"
+            }
+           },
+           {
+            "nicht": {
+             "flag": "gefeuert_lola"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_menue"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_fang"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_fang"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_getraenk"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_getraenk"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_girlande"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_girlande"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_glocke"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_glocke"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_lichter"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "eine": [
+             {
+              "flag": "a3_scrap_field"
+             },
+             {
+              "flag": "a3_villa_keller"
+             }
+            ]
+           }
+          ]
+         },
+         "id": "a3_los_lichter"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_system"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "a3_alva_wach"
+           }
+          ]
+         },
+         "id": "a3_los_system"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_garten"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           }
+          ]
+         },
+         "id": "a3_los_garten"
+        },
+        {
+         "id": "a3_los_kleider"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_los_bilder",
+   "art": "ort",
+   "ton": "wholesome",
+   "titel": "The Pictures",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "church",
+   "personen": {
+    "handelnd": "jana",
+    "betroffen": []
+   },
+   "sets": {
+    "jana": "jana_deck_a"
+   },
+   "lage": "The board says: Jana · the children · pictures for the festa. Jana has a pile of drawings from behind the church door.",
+   "zeilen": [
+    {
+     "wer": "jana",
+     "text": "Sir, the children made these for the festa. Where do I hang them?",
+     "gefuehl": "joy"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“On the church door.”",
+     "folgen": [
+      {
+       "flag": "a3_los_bilder"
+      },
+      {
+       "flag": "a3_los_bilder_tuer"
+      },
+      {
+       "vertrauen": [
+        "jana",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "jana",
+      "text": "On the door they hid behind. That's nice.",
+      "gefuehl": "caring"
+     }
+    },
+    {
+     "text": "“On the stage. Everybody should see them.”",
+     "folgen": [
+      {
+       "flag": "a3_los_bilder"
+      },
+      {
+       "flag": "a3_los_bilder_buehne"
+      },
+      {
+       "vertrauen": [
+        "jana",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "jana",
+      "text": "Everybody! They'll be so proud.",
+      "gefuehl": "joy"
+     }
+    },
+    {
+     "text": "Looks at another name on the board.",
+     "folgen": [
+      {
+       "weiter": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_tafel"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_tafel"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_buehne"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_buehne"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_topf"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_topf"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_menue"
+            }
+           },
+           {
+            "nicht": {
+             "flag": "gefeuert_lola"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_menue"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_fang"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_fang"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_getraenk"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_getraenk"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_girlande"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_girlande"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_glocke"
+            }
+           }
+          ]
+         },
+         "id": "a3_los_glocke"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_lichter"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "eine": [
+             {
+              "flag": "a3_scrap_field"
+             },
+             {
+              "flag": "a3_villa_keller"
+             }
+            ]
+           }
+          ]
+         },
+         "id": "a3_los_lichter"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_system"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "a3_alva_wach"
+           }
+          ]
+         },
+         "id": "a3_los_system"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_garten"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           }
+          ]
+         },
+         "id": "a3_los_garten"
+        },
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "a3_festa_tafel"
+           },
+           {
+            "nicht": {
+             "flag": "a3_los_kleider"
+            }
+           },
+           {
+            "eine": [
+             {
+              "flag": "aufbau_fertig_post"
+             },
+             {
+              "flag": "aufbau_fertig_batu"
+             },
+             {
+              "flag": "aufbau_fertig_bar"
+             },
+             {
+              "flag": "aufbau_fertig_werkstatt"
+             }
+            ]
+           },
+           {
+            "flag": "danzel_festa_auftrag"
+           }
+          ]
+         },
+         "id": "a3_los_kleider"
+        },
+        {
+         "id": "a3_los_bilder"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a3_los_capra",
+   "art": "gag1",
+   "ton": "witzig",
+   "titel": "Capra",
+   "wann": {
+    "tage": [
+     26,
+     34
+    ],
+    "phasen": [
+     "tag",
+     "nachmittag"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "flag": "a3_festa_tafel"
+      },
+      {
+       "flag": "rt_bibi_bleibt"
+      },
+      {
+       "flag": "mochis_offen"
+      }
+     ]
+    }
+   },
+   "bild": "village_piazza",
+   "personen": {
+    "handelnd": "bibi",
+    "betroffen": [
+     {
+      "id": "casanova",
+      "ton": "-",
+      "was": "sees the goat"
+     }
+    ]
+   },
+   "sets": {},
+   "lage": "Bibi comes across the square with a goat on a rope. The goat is wearing a flower crown and eating it.",
+   "zeilen": [
+    {
+     "wer": "bibi",
+     "text": "Capra wants to come to the festa. Do we let her?",
+     "gefuehl": "joy"
+    },
+    {
+     "wer": "casanova",
+     "text": "A goat. At my festa.",
+     "gefuehl": "surprise"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Yes. She's family now.”",
+     "folgen": [
+      {
+       "flag": "a3_los_capra"
+      },
+      {
+       "flag": "a3_los_capra_ja"
+      },
+      {
+       "vertrauen": [
+        "bibi",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "bibi",
+      "text": "Hear that, Capra? Family. Don't eat the dresses.",
+      "gefuehl": "amusement"
+     }
+    },
+    {
+     "text": "“No. She'll eat Danzel's dresses.”",
+     "folgen": [
+      {
+       "flag": "a3_los_capra"
+      },
+      {
+       "flag": "a3_los_capra_nein"
+      },
+      {
+       "vertrauen": [
+        "casanova",
+        2
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "bibi",
+      "text": "Fine. But she'll be sad, and so will I.",
+      "gefuehl": "disappointment"
+     }
+    }
+   ]
   }
  ]
 }

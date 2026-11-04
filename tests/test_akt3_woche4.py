@@ -56,7 +56,7 @@ def main():
     pruefen(all(A3[i]["wann"]["tage"][1] <= 29 or A3[i]["wann"]["tage"][0] >= 33 for i in maxwell), "Maxwell nicht an Tag 30 bis 32")
 
     # Turbo-Tags: jede gesprochene Zeile hat einen Eintrag mit Tag, der Spieltext keinen
-    gesprochen = {(z["wer"], z["text"]): z["gesprochen"] for z in TAGS["zeilen"] if z.get("quelle") == "akt3_woche4"}
+    gesprochen = {(z["wer"], z["text"]): z["gesprochen"] for z in TAGS["zeilen"] if (z.get("quelle") or "").startswith("akt3")}
     for e in A3.values():
         for zl in zeilen(e):
             if TURBO.search(zl["text"]) or "[" in zl["text"]:

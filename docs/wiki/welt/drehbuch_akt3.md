@@ -798,7 +798,16 @@ Test: `tests/test_akt3_kalender.py`, `tests/test_aufbau_akt3.py`, `tests/test_ak
 
 **Paket B2, gebaut (Woche 4, `ereignisse_akt3_woche4.py`, 34 Events, 157 gesprochene Zeilen):** 5.1 The Morning After, 5.2 The Oath, Lend a Hand (vier Baustellen), Dank-Szenen, 5.3 Alva (Karte), 5.4 Under Control mit Totòs Kiste, 5.5 Until I Land, 5.6 die Festa-Tafel, 5.7 Sunday mit Don an der Tür und der Schublade, 5.8 Nonnas Kiste (Karte), 5.9 Siri (Karte), 5.11 Every Report, die Yacht (4.4), 5.28 Charlys Geld.
 **Paket B3, gebaut:** Morgen-Vignetten ohne Phase in der Meldung „Day X is over“ (`kern/akt3.morgen`): Kevin auf dem Kirchendach Tag 25 bis 34 außer 26, Dank je eines heilen Hauses Tag 25 bis 28, die Legion baut mit `bl_verband_wolff` einmal eine Stufe. 5.10 Holms Revanche als Szene im Pool (`a3_revanche`, Tag 24 bis 29), Holms Vorwurf nur mit dem neuen Flag `bl_nachtwache_pascal` (in `bl_nachtwache` gesetzt). Minas Ersatz mit dem Kellerschlüssel an Tag 31 (`a3_nonna_mina`).
-**Wandert nach Paket E:** Wer schläft wo, Megans Raum bei `tk_yacht_weg`. Angepasst: `tests/test_akt2_events.py` (neue Fenster), `tests/test_holm_wette.py` (Tag 24, lokal nicht prüfbar wegen `eden-config.json`). Alle `test_*.py` vor und nach Paket A: 47 gegen 48 grün, kein Test hat seinen Status verloren.
+**Wandert nach Paket E:** Wer schläft wo, Megans Raum bei `tk_yacht_weg`.
+
+**Paket C, gebaut (`ereignisse_akt3_lose.py`, 20 Events, 70 Zeilen):**
+
+| Mechanik | Auslöser | Wirkung | Grenzen | Stelle |
+|---|---|---|---|---|
+| **Who Saw It?** (Karte `a3_zeugen`, eine Phase) | nach `a3_uhr` (`a3_zeugen_auftrag`), sobald eine Tür offen ist | Frame je Zeuge (Petru, Mina, Bà Tư, Alva, Don, Casanova): drei Haltungen, **jede überzeugt**, sie setzt `a3_zeuge_<pid>` und `a3_zeuge_<pid>_<haltung>`, Vertrauen +2 bis +6. Vierte Wahl: zum nächsten Zeugen | Türen wie in Abschnitt 2 (`TUER` im Code). Mina, Bà Tư, Alva, Petru auch über die Dank-Szene. Sandru über die Schiene (Paket D), Buenaventura meldet sich selbst | `a3_frage_*` |
+| **Die Festa-Tafel** (Karte `a3_lose`, eine Phase je Los) | ab `a3_festa_tafel` (Tag 26) bis Tag 34 | 13 Lose, je eine Person mit Talent und eine Entscheidung (2 oder 3 Chips), Flag `a3_los_<id>` und `a3_los_<id>_<wahl>`. *The Long Table* und *The Stage* geben einer Baustelle eine Stufe. Bonus *Capra* (Bibi) im Pool ohne Phase | 8 Lose ab Tag 26, 5 nach dem ersten fertigen Haus. Zusätzlich: *The Menu* nur ohne `gefeuert_lola`, *The Lights* nach Scrap Field oder Villa, *Not in the System* nach `a3_alva_wach`, *The Dresses* mit `danzel_festa_auftrag`, *The Pictures* mit `bl_kirche_jana`. Kein Geld, kein Material, kein Zähler | `a3_los_*` |
+
+Test: `tests/test_akt3_lose.py`. Angepasst: `tests/test_akt2_events.py` (neue Fenster), `tests/test_holm_wette.py` (Tag 24, lokal nicht prüfbar wegen `eden-config.json`). Alle `test_*.py` vor und nach Paket A: 47 gegen 48 grün, kein Test hat seinen Status verloren.
 
 ## 13. Was aus den Befunden wurde
 

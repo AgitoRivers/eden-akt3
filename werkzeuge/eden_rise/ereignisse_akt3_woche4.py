@@ -570,13 +570,21 @@ ORTE = {
 }
 
 
-def tags_schreiben():
-    """Gesprochene Fassungen dieser Datei in stimme_tags.json (quelle akt3_woche4). G() sammelt sie in ereignisse_ligeia.STIMME."""
-    eigene = {(zl["wer"], zl["text"]) for e in EVENTS for zl in e["zeilen"] + [o["zeile"] for o in e["optionen"] if o.get("zeile")]}
-    neu = [{"wer": w, "text": t, "gesprochen": g, "quelle": "akt3_woche4"} for w, t, g in _LIGEIA if (w, t) in eigene]
+def tags_fuer(events, quelle):
+    """Gesprochene Fassungen dieser Events in stimme_tags.json (G() sammelt sie in ereignisse_ligeia.STIMME). -> Anzahl."""
+    eigene = {(zl["wer"], zl["text"]) for e in events for zl in e["zeilen"] + [o["zeile"] for o in e["optionen"] if o.get("zeile")]}
+    neu, gesehen = [], set()
+    for w, t, g in _LIGEIA:
+        if (w, t) in eigene and (w, t) not in gesehen:
+            gesehen.add((w, t))
+            neu.append({"wer": w, "text": t, "gesprochen": g, "quelle": quelle})
     pfad = os.path.join(EDEN, "module", "eden_rise", "stimme_tags.json")
     d = json.load(open(pfad, encoding="utf-8"))
     texte = {z["text"] for z in neu}
-    d["zeilen"] = [z for z in d["zeilen"] if z.get("quelle") != "akt3_woche4" and z["text"] not in texte] + neu
+    d["zeilen"] = [z for z in d["zeilen"] if z.get("quelle") != quelle and z["text"] not in texte] + neu
     json.dump(d, open(pfad, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     return len(neu)
+
+
+def tags_schreiben():
+    return tags_fuer(EVENTS, "akt3_woche4")
