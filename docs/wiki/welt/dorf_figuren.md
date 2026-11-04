@@ -295,7 +295,7 @@ Tag 8 gefeuert (`gefeuert_rosi`), übernimmt Maxwell das Hören (Muster `a2_teil
 
 **Tag 21 (Duc 01.11.2026):** Fällt Alva gegen Mr. White, rettet Sandru sie aus den Trümmern und versorgt sie. In Akt 3 bekommt das eine eigene Szene, wenn sich aufklärt, dass sie nur bewusstlos war. Es bleibt dabei: kein Paar.
 
-**Rosis Schiene (Duc 01.11.2026):** Befreit Rosi ihn von A.V., baut sie ihm eine eigene Schiene, sonst könnte er nicht gehen. Mit ihr hebt er auch die Trümmer. Ohne Rosi bleibt er bei Alons Schienen, die ihm die Kraft dafür ebenso geben; danach schaltet A.V. sie ab.
+**Rosis Schiene (Duc 01.11.2026):** Befreit Rosi ihn von A.V., baut sie ihm eine eigene Schiene, sonst könnte er nicht gehen. Mit ihr hebt er auch die Trümmer. Ohne Rosi bleibt er bei Alons Schienen, die ihm die Kraft dafür ebenso geben; danach schaltet A.V. sie ab. **Vermerk (Duc, E-125, 04.11.):** Rosis Schiene gibt es erst in Akt 3, nach „Switched Off“ (Tag 32). In der Belagerung trägt Sandru immer Alons Schienen.
 
 **Nicht jede Rettung klappt:** Nur wenn Duc sich kümmert, befreit Rosi seine Beine. Sonst bleibt er Alons Mann und steht am Ende auf der
 anderen Seite, auf seinen eigenen Füßen. Selbst gerettet bleibt er unbequem: *“A.V. gave me six years of walking. You gave me a speech.”*

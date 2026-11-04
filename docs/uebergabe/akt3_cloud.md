@@ -1,6 +1,6 @@
 # Übergabe Akt 3 · Cloud-Sitzung (Branch `akt3-cloud`)
 
-Stand 04.11.2026, Block 3: Drehbuch Version 3.2 (Belagerung ohne Prozent, Freundschaften, E-124), davor 3.1 mit Ducs Entscheiden (E-122) und der unabhängigen Prüfung (30 Befunde, Abschnitt 13b). **Keine Events gebaut.**
+Stand 04.11.2026, Block 3: Drehbuch Version 3.3 (Baustoffe je Haus, Charlys Geld, sieben Ereignisse in Abschnitt 7, E-125), davor 3.2 (Belagerung ohne Prozent, Freundschaften, E-124), davor 3.1 mit Ducs Entscheiden (E-122) und der unabhängigen Prüfung (30 Befunde, Abschnitt 13b). **Keine Events gebaut.**
 
 ## Gebaut (Commits)
 
@@ -14,7 +14,8 @@ Stand 04.11.2026, Block 3: Drehbuch Version 3.2 (Belagerung ohne Prozent, Freund
 
 ## Wartet auf Ducs Urteil
 
-- E-123 offen: Piraten bauen nur, wo Duc den ersten Stein gesetzt hat.
+- Zahlen der Baustoffe je Haus (Drehbuch 4.1).
+- F-22 Festa-Schalter, F-32 Charly und Danzel.
 - F-31: Yacht und Minicu, in E-122 entschieden, in `belagerung.md` noch offen.
 - Nach master geht `fix-akt2` (E-124), `fix-akt2-folgen` bleibt liegen.
 - Fragenliste `docs/uebergabe/akt3_fragen.md` (F-01 bis F-30).

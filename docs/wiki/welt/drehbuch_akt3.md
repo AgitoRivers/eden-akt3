@@ -1,7 +1,7 @@
-# Drehbuch Akt 3: „Who Saw It?“ · Tag 24 bis Tag 35 · Version 3.2
+# Drehbuch Akt 3: „Who Saw It?“ · Tag 24 bis Tag 35 · Version 3.3
 
 > Stand 04.11.2026 · Besitz: Brain Trust (Cloud-Sitzung, Branch `akt3-cloud`) · **Entwurf zur Abnahme durch Duc, nichts davon ist gebaut.**
-> Version 3.2 baut auf v2.1 (`41ae2ac`) auf, die Prüfung von v3 ist eingearbeitet (Abschnitt 13b), dazu Ducs Entscheide vom Abend des 04.11. (E-124: Belagerung ohne Prozent, Freundschaften statt Paare) und setzt **Ducs Entscheide vom 04.11.2026** um (E-122, Abschnitt 1). Eingearbeitet: Gegenrede (`docs/uebergabe/drehbuch_gegenrede.md`, Branch `drehbuch-gegenrede`), Wiki gegen Code (`docs/berichte/wiki_vs_code.md`, Branch `wiki-vs-code`), Folgen der Belagerung (`docs/wiki/welt/akt3_folgen_belagerung.md`, Branch `folgen-belagerung`), Text-Audit (`docs/uebergabe/audit_text.md`, Branch `audit-text`), die Audits der anderen Sitzung (`docs/berichte/audits_zusammenfassung.md`, Branch `berichte-audits`) und die unabhängigen Prüfungen von v1, v2 und v3 (Abschnitt 13).
+> Version 3.2 baut auf v2.1 (`41ae2ac`) auf, die Prüfung von v3 ist eingearbeitet (Abschnitt 13b), dazu Ducs Entscheide vom Abend des 04.11. (E-124: Belagerung ohne Prozent, Freundschaften statt Paare; E-125: Baustoffe je Haus, Charlys Geld, zwei weitere Freundschaften, Sandrus Schiene erst in Akt 3) und setzt **Ducs Entscheide vom 04.11.2026** um (E-122, Abschnitt 1). Eingearbeitet: Gegenrede (`docs/uebergabe/drehbuch_gegenrede.md`, Branch `drehbuch-gegenrede`), Wiki gegen Code (`docs/berichte/wiki_vs_code.md`, Branch `wiki-vs-code`), Folgen der Belagerung (`docs/wiki/welt/akt3_folgen_belagerung.md`, Branch `folgen-belagerung`), Text-Audit (`docs/uebergabe/audit_text.md`, Branch `audit-text`), die Audits der anderen Sitzung (`docs/berichte/audits_zusammenfassung.md`, Branch `berichte-audits`) und die unabhängigen Prüfungen von v1, v2 und v3 (Abschnitt 13).
 > **Code-Stand:** Akt 3 ab Tag 24, die drei Belagerungs-Aufträge und die Fenster der Auffangstation sind **zweimal** gebaut, auf `fix-akt2` (andere Sitzung, vollständiger, dazu die Taschengröße im Menü) und auf `fix-akt2-folgen` (diese Sitzung). Nur einer darf nach `master`. Empfehlung: `fix-akt2`. Dieses Drehbuch rechnet mit dessen Verhalten: Stahl aus Maschinen erst ab Tag 24, Dons Wahl gibt der Kirche ein Leben in Welle 6. **Falle:** Auf `fix-akt2` steht `HOLM_TAG` noch auf 22 (nur `fix-akt2-folgen` hat 24), das wird beim Merge nachgezogen (F-30).
 > Spieltext Englisch, einfach, vertonbar, Erzähltext im Präsens. Turbo-Tags siehe Abschnitt 10.
 
@@ -125,7 +125,18 @@ Freie Kartenphasen Tag 24 bis 34: **34**.
 ### 4.1 Die Baustellen („Lend a Hand“)
 
 - **Fundament:** `kern/aufbau.py` (gebaut, laut Wirkpunkt-Audit noch **nicht** in `eden.py` eingehängt, Paket B).
-- **Duc entscheidet, wo gebaut wird:** Die Piraten tragen je Tag eine Stufe, aber nur an Häusern, an denen Duc den ersten Stein gesetzt hat (Änderung an `aufbau.tag_vorbei`, Paket B). Das ändert `akt3.md` (dort bauen sie von selbst) und steht darum als **E-123 offen** in `ENTSCHEIDUNGEN.md`.
+- **Duc entscheidet, wo gebaut wird:** Die Piraten tragen je Tag eine Stufe, aber nur an Häusern, an denen Duc den ersten Stein gesetzt hat (Änderung an `aufbau.tag_vorbei`, Paket B). Das ändert `akt3.md` (dort bauen sie von selbst), Duc hat es bestätigt (E-123, 04.11.).
+- **Jedes Haus braucht eigene Baustoffe** (Duc, E-125). Damit führt jedes Haus zu einer anderen Mechanik, statt alle dieselbe Liste zu fordern. Heute hat `kern/aufbau.STUFEN` für alle Häuser dieselben drei Stufen, das wird je Haus aufgeteilt (Paket B). Vorschlag, je drei Stufen:
+
+| Haus | führt zu | Stufe 1 | Stufe 2 | Stufe 3 (öffnet das Haus) |
+|---|---|---|---|---|
+| Post (Mina) | Macchia, Korkeiche (Pinnwand und Postfächer) | 4 Timber | 3 Slate, 2 Cork | 2 Cork, 2 Iron |
+| Bà Tưs Laden | Steinbruch, Granitfels (der Herd) | 3 Timber, 2 Granite | 3 Slate | 4 Granite, 1 Iron |
+| Alvas Bar | Angeln, Strandgut (Treibholz, Rusty Chain) | 4 Timber | 2 Timber, 2 Slate | 3 Iron |
+| Petrus Werkstatt | Kampf, Stahl (Scrap Field oder Villa) | 5 Timber | 2 Timber, 3 Slate | 2 Iron, 2 Steel |
+
+- **Grenzen:** Bauen bleibt „alles oder nichts“ wie bei den Ställen (`kochen.md`), die Baustellenkarte zeigt nur die **nächste** Stufe eines Hauses, jeden Posten grün oder rot. Ohne Charly bleiben die vollen Kosten, kein Satz erinnert an die verpasste Hilfe. Nonna verkauft Timber, Slate und Iron mit Tagesvorrat (6/6/2), Granite und Cork nur selbst abgebaut, Steel nur von Maschinen. Ein Bauen-Los (4.3) ersetzt eine ganze Stufe.
+- **Charlys Geld** (Duc, E-125): Nur wenn Charly geblieben ist (`rt_charly_bleibt`, nicht `rt_charly_weg`). Sie holt heimlich Geld vom Konto ihrer Mutter (Ravenel Défense macht Geschäfte mit Alon) und gibt es Casanova. **Wirkung:** Ab dann kostet jede noch offene Stufe 20 % weniger, je Posten abgerundet, mindestens 1 (aus 4 Timber werden 3, aus 2 Iron wird 1, aus 1 bleibt 1). Flag `a3_charly_geld`, Wirkpunkt in `aufbau.braucht`. Szene 5.28.
 - **Karte „Lend a Hand“** (1 Phase), mit Wahl: Wer hält mit? Der Besitzer (eine Zeile über sein Haus), ein Pirat (eine Zeile über das, was er angezündet hat) oder ein Crew-Mitglied (Zeit zusammen).
 - **Die Legion** mit `bl_verband_wolff` baut einen Tag lang mit. Wolff: *“You gave me the good bandage, the only one. The Legion pays its debts.”*
 - **Fertig** → Dank-Szene `a3_dank_<id>`, dort öffnet die Zeugen-Tür, die Frage kostet keine Phase:
@@ -372,7 +383,7 @@ Mit Gemelli, ab Tag 24 (`HOLM_TAG = 24` steht auf `fix-akt2-folgen`, auf `fix-ak
 
 | Beat | Zeilen |
 |---|---|
-| Inhalt | Maxwell mit einer Kühltasche: [clear throat] *“Number One. Mr. Maximum is going to fly. In an aeroplane. Gogo needs this medicine in Durban, and the post is too slow.”* · mit `bl_verband_maxwell`: *“I kept the bandage from the siege, brother. For luck.”* |
+| Inhalt | Maxwell mit einer Kühltasche: [clear throat] *“Number One. Mr. Maximum is going to fly. In an aeroplane. Gogo needs this medicine in Durban, and the post is too slow.”* · mit `bl_verband_maxwell`: *“I kept the bandage from the siege, brother. For luck.”* · mit 7.6: *“Bibi says a plane is a bird with feelings. Mr. Maximum will feed it.”* |
 | Handlung | *“What does a big man do when he's scared of the sky?”* · Chips: “He takes the window seat and looks anyway.” · Puts a hand on the cool box. “He carries it. Like you always do.” · “He holds Jana's hand. She's coming to the airport.” |
 | Reaktion | dritter: Jana: *“Coach, I'll hold your hand the whole way to Bastia. And I'm not sorry.”* |
 | Übergang | Maxwell fehlt Tag 30 bis 32, zurück am Abend von Tag 32: *“Mr. Maximum has flown. We will never speak of it.”* |
@@ -400,7 +411,7 @@ Megans Wende braucht 4 Zeugen **oder** 2 Beweise. Yamamoto mit Bindung 5 ruft vo
 
 ### 5.17 Tag 32, Nachmittag · `a3_switched_off` „Switched Off“ (der schwere Moment)
 
-Vorschlag zu F-24: kommt immer, *weil Alon kann* (Kanon), die Schiene danach. Hat Rosi Sandru schon vorher befreit (`dorf_figuren.md`, Schiene in der Belagerung), spielt statt der Abschaltung eine Fassung, in der Alon den Market schließt und Sandru die Arbeit verliert (F-24).
+Entschieden (F-24, E-125): kommt immer, *weil Alon kann* (Kanon). Rosis Schiene gibt es erst in Akt 3, danach (5.19). In der Belagerung trägt Sandru noch Alons Schienen.
 
 | Beat | Was | Zeilen |
 |---|---|---|
@@ -504,6 +515,18 @@ Kai, Klapptisch, zwei Männer aus Ajaccio, ein Schreiber (`ereignisse_mochis.py:
 | Kassenbuch | Elsa: *“First Officer. Pascal's book, the one from his locked drawer. All of it, or only Alon's part?”* · Chips: “All of it.” · “Only Alon's part.” · Alles: Casanova: *“Yes. Me too.”* |
 | Schluss | Kommissar: *“Thank you. We have what we need. Or we don't. You'll know tonight.”* |
 
+### 5.28 Ab Tag 26, Karte · `a3_charly_geld` „Borrowed“ (komisch-ernst, E-125)
+
+Nur mit `rt_charly_bleibt` und ohne `rt_charly_weg`. Kommt, sobald eine Baustelle begonnen ist.
+
+| Beat | Was | Zeilen |
+|---|---|---|
+| Ansage | Kirchenstufen, Casanova mit der Festa-Tafel. Charly mit Laptop. | Erzählerin: *Charly sits down next to the mayor. She doesn't say hello. She never does.* |
+| Inhalt | | Charly: [clear throat] *“My mother's company sells to Alon. I moved some of her money tonight. Quietly. For the houses.”* · Casanova: *“You... moved it? Is this stolen, Mademoiselle?”* · Charly: *“Three out of ten for stolen. Eight for borrowed. She won't notice for a month.”* |
+| Handlung | Casanova sieht Duc an. | Casanova: *“Monsieur. Do I take money that a girl took from her own mother?”* · Chips: “Take it. Her mother pays for what Alon burned.” · “Take it, and put Charly's name on the board.” · “Ask Charly, not me.” |
+| Reaktion | | erste: Casanova: *“...Then the houses are built with Ravenel money. How funny.”* · zweite: Charly: *“Don't. Five out of ten for that idea.”* Casanova schreibt den Namen trotzdem, klein. · dritte: Charly: *“Take it. It's the first good thing her money ever did.”* |
+| Wirkung | `a3_charly_geld`: jede offene Stufe kostet 20 % weniger (4.1). Mit Chip zwei steht Charlys Name auf Casanovas Tafel und im Festbild | Erzählerin: *For the first time, nobody has to count the timber twice.* |
+
 ### 5.26 Tag 35, Nachmittag · `mo_frei_start` (gebaut), danach *Last Page* (Bibi)
 
 ### 5.27 Tag 35, Abend · `a3_festa` „The Festa“ (Schlussszene, Minicu)
@@ -542,9 +565,9 @@ Je Frau eine Schluss-Szene zwischen Tag 24 und 33 (vor der Villa), Bedingung: St
 
 **Ligeia:** keine Romanze. Mit `ligeia_freund` an Tag 30 eine Flaschenpost: *“Sailor. They say the bay will be safe. I would like to sing at something that isn't a shipwreck.”* Mit `sirene_weg`: *“And keep my stone safe. It has waited longer than you.”*
 
-## 7. Fünf Freundschaften: Die Yacht wächst mit dem Dorf zusammen (Entscheid h, E-124)
+## 7. Sechs Freundschaften und eine Liebe: Die Yacht wächst mit dem Dorf zusammen (Entscheid h, E-124, E-125)
 
-**Der Bogen:** Akt 1 Duldung, Akt 2 Zusammenarbeit, Akt 3 Gemeinschaft. Je ein Crew-Mitglied und ein Mensch aus dem Dorf verbringen Zeit miteinander, und eine tiefe Freundschaft wächst. Keine Romanze, außer bei Holm und Petru (Kanon: späte Liebe).
+**Der Bogen:** Akt 1 Duldung, Akt 2 Zusammenarbeit, Akt 3 Gemeinschaft. Je ein Crew-Mitglied und ein Mensch aus dem Dorf verbringen Zeit miteinander, und eine tiefe Freundschaft wächst. Keine Romanze. **Holm und Petru sind die einzigen, die am Ende zusammenkommen** (Kanon: späte Liebe, Duc E-125). Dazu zwei Freundschaften innerhalb der Gäste: Bibi und Maxwell, Charly und Rosi (E-125). Pool-Regel: höchstens ein Ereignis je Tag, Tag 26 bis 33, also sieben Ereignisse auf acht Tage.
 
 **Regeln:** wholesome, kein Drama, keine Intim-Szene. Jedes Paar hat ein Ereignis (2 bis 3 Beats) im Pool ab Tag 26, höchstens eins je Tag, Vorrang 65 % wie bei Flirt-Events, spätestens Tag 33 als Nachzügler. Duc ist Zeuge oder hilft und hat **eine Wahl mit Wirkung im Festbild**. **„Duc hat die Romanze“** heißt: Leiter-Stufe 3 erreicht oder Status „zusammen“ oder „offen“ (Begehren allein reicht nicht, Lea und Sophia starten bei 2). Gilt Duc für beide Frauen eines Paares (Chiara und Alva), spielt die Fassung der Frau mit der höheren Leiter-Stufe. Dann spielt die Fassung, in der die andere Figur sie herzlich neckt oder unterstützt. Woher sie davon weiß: nur aus Tratsch, den das Spiel zeigt (Mina „just knows“, Lola erzählt es), wie E-060 es erlaubt. Die volle Fassung lässt die Freundschaft zwischen den beiden wachsen. Bei Chiara und Alva (beide romanzierbar) spielt die volle Fassung nur, wenn Duc mit keiner von beiden zusammen ist.
 
@@ -557,6 +580,8 @@ Je Frau eine Schluss-Szene zwischen Tag 24 und 33 (vor der Villa), Bedingung: St
 | **Isabelle und Sophia** | Isabelle fragt mit Mina nach einem mutigeren Leben (*“So could you.”*, `kloster.md`) · Sophia schreibt nachts, ist ohne Show schlicht · Bà Tư neckt Isabelle, warum sie keinen jungen Mann hat | Isabelle ist **Novizin** im Habit · Sophia für Duc romanzierbar · Schwester Lea | **Freundschaft:** Sophia wird die ältere Freundin, die Isabelle Mut macht. Kein Gelübde berührt. Sophia schreibt ihr eine Zeile für Mut, die im Spiel ungesagt bleibt |
 | **Mina und Lea** | beide jung (24, 23), beide mit einem Brief, der vom Gehen handelt (Dumè in Montréal, die Azoren) · Mina weiß alles, Lea stellt Fragen, die sich keiner traut | Lea für Duc romanzierbar · Mina „keine Pflicht-Romanze“ (gilt für Duc) | **Freundschaft:** zwei, die beide nicht wissen, ob sie bleiben. Lea schläft bei Mina (wenn die Yacht beschädigt ist) |
 | **Chiara und Sophia (kein Paar, aber Kanon)** | beide Figurenseiten: ein unausgesprochener Kuss nach Saint-Tropez, Sophia lehnte Megans Angebot wegen Chiara ab | beide werden neu verpaart | Je eine Zeile, die es anerkennt, als Vertrauen unter Freundinnen: Chiara in 7.2 erzählt Alva davon, zum ersten Mal überhaupt · Sophia in 7.3 schreibt die Zeile an Isabelle in dasselbe Notizbuch, in dem noch eine Seite für Chiara steht (Bild, kein Text) |
+| **Bibi und Maxwell** | Maxwell hat panische Angst vor allem, was fliegt, und fliegt an Tag 30 Gogos Medizin selbst (`maxwell.md`) · Bibi ist nie genervt, energisch, mit Tieren (`bibi.md`) | Bibi für Duc romanzierbar · Szene muss vor Tag 30 liegen | **Freundschaft:** Bibi übt mit Maxwell seine Angst, mit Kevin. Bedingung `rt_bibi_bleibt`, Station offen |
+| **Charly und Rosi** | Charly arbeitet nach der Versöhnung bei Rosi und hackt mit ihr Alons Satelliten (`charly.md`) · beide Technik, Charly bewertet alles von 1 bis 10, Rosi gibt nie eine Niederlage zu | Rosi für Duc romanzierbar · Charlys erste 10 gehört Danzel (Kanon) · Kanon „findet in Akt 3 zu Danzel“ gegen „nur Holm und Petru kommen zusammen“ (F-32) | **Freundschaft:** zwei Technikerinnen. Bedingung `rt_charly_bleibt`, nicht `gefeuert_rosi`. Charly gibt Rosi keine 10, Rosi nennt es „unentschieden“ |
 | **Holm und Petru** | Kanon: späte Liebe in Akt 3 (`holm.md`, `petru.md`), Holms Mutter kommt, Ingrid ruft an | keine | volle Fassung immer, beide nicht romanzierbar |
 
 ### 7.1 Lola und Bà Tư · „You, Now“ (wholesome, Familienliebe)
@@ -614,6 +639,30 @@ Je Frau eine Schluss-Szene zwischen Tag 24 und 33 (vor der Villa), Bedingung: St
 | Reaktion | still weiter: Erzählerin: *When you look back, the metre between them is gone.* · stören: *“Go away, Frankfurt.”* · Petru: *“Go away.”* · hinsetzen: Petru reicht Duc wortlos ein Bier, Holm rückt einen halben Meter näher an Petru. |
 | Wirkung | Holms Mutter auf der Festa, Petru bringt zwei Gläser (5.27). Mit „still weiter“ sitzen sie im Festbild auf derselben Bank |
 
+### 7.6 Bibi und Maxwell · „A Small Plane with Feelings“ (wholesome, Freundschaft, Tag 26 bis 29)
+
+| Beat | Volle Fassung | Fassung mit Duc und Bibi |
+|---|---|---|
+| Ansage | Tierstation am Morgen. Maxwell trägt zwei Futtereimer, so weit weg vom Himmel wie möglich. Kevin landet auf dem Zaun. | gleich |
+| Inhalt | Maxwell: [gasp] *“Eish! Bibi. Your bird is looking at Mr. Maximum.”* · Bibi: [laugh] *“He's not my bird. Nobody owns Kevin. And he's looking at the bucket, chéri.”* | gleich |
+| Inhalt | Bibi weiß von seinem Flug (Mina hat es erzählt). Bibi: *“In four days you sit in a plane for eleven hours. And you're scared of a gull?”* · Maxwell, leise (Kanon: leise nur, wenn es ernst ist): *“Mr. Maximum is scared of everything that flies, brother. Sister. Everything.”* | Bibi: *“Duc says you're the bravest man on the boat. Mina told me he said it. So. Prove it.”* |
+| Wende | Bibi legt ein Stück Brot auf Maxwells offene Hand. Kevin kommt, nimmt es und fliegt weg. Bibi: *“A bird is just a small plane with feelings. You just fed a plane.”* · Maxwell: *“...Mr. Maximum fed a plane.”* | gleich |
+| Handlung (Duc) | Maxwell: *“Number One. Is it the same, a plane and a bird? Tell me it is the same.”* · Chips: “It's the same. Only the plane has better food.” · “No. The plane is safer. Kevin is not.” · Puts a piece of bread in his own hand, next to Maxwell's. | Bibi: *“Is he ready, Duc? Yes or no?”* · Chips: “Yes. He fed a plane.” · “Nearly. One more bird.” |
+| Wirkung | In 5.14 (Tag 30) sagt Maxwell: *“Bibi says a plane is a bird with feelings. Mr. Maximum will feed it.”* Im Festbild sitzt Kevin auf Maxwells Schulter, und er hält still | gleich |
+
+### 7.7 Charly und Rosi · „Undecided“ (wholesome, Freundschaft)
+
+| Beat | Volle Fassung | Fassung mit Duc und Rosi |
+|---|---|---|
+| Ansage | Maschinenraum der Yacht (schwer beschädigt) oder Rosis Werkbank am Kai, spät. Zwei Laptops, ein Halsband von Alon auf dem Tisch. | gleich |
+| Inhalt | Rosi: *“You open it. I already know how. I want to see if you're faster.”* · Charly, monoton: *“Four minutes. You took six. Seven out of ten for you.”* · Rosi: *“That's a draw. I was talking.”* | Rosi: *“Mina says the Officer brings me coffee now. He doesn't. It's tea. Write that down.”* · Charly: *“Noted. Six out of ten for tea.”* |
+| Inhalt | Charly erzählt, ohne den Ton zu ändern, dass ihre Mutter heute angerufen hat. *“She sells to him. Alon. Everything in this collar could be from her catalogue.”* · Rosi legt den Schraubenschlüssel hin, was sie nie tut. | gleich |
+| Wende | Rosi: *“My father's press was older than him. Alon bought it and switched it off. So your mother and my father are on the same list now. His list.”* · Charly: *“...That's the first thing anyone said to me about her that wasn't a question.”* | gleich |
+| Handlung (Duc) | Rosi: *“Officer. She's better than me with code. Do I say it, or do I keep my pride?”* · Chips: “Say it. Your pride will survive.” · “Call it a draw. She'll know.” · Hands Charly the next collar without a word. | Rosi: *“Officer, is it okay if she works here? At my bench? Next to... my things?”* · Chips: “It's your bench. You decide.” · “Yes. You need someone who's faster.” |
+| Wirkung | Im Festbild hängen die Lichterketten (Los *The Lights*) gerade, Charly hat sie nachgemessen. Chip „Say it“: Rosi sagt auf der Festa laut *“Draw.”*, und Charly antwortet *“Eight.”* | gleich |
+
+**Hinweis:** Charlys erste 10 bleibt bei Danzel (Kanon), ob als Liebe oder Freundschaft entscheidet F-32.
+
 ## 8. Die Enden lesen den Akt
 
 | Säule | Akt 3 zahlt ein über | Erfüllt, wenn (Vorschlag) |
@@ -661,6 +710,8 @@ Sichtbar im Schlussbild: Lose (was steht, wie es aussieht), wer im Netz fehlt (M
 | Rudern | 5.1, 5.25 | neues Flag `bl_dorf_rudert` (F-21) |
 | `tk_yacht_weg` | 4.4 | schwer beschädigt, Reparatur |
 | `danzel_festa_auftrag`, `chiara_festa_kleid` (Wirkpunkt-Audit) | 4.3 | Los *The Dresses* |
+| `rt_charly_bleibt`, `rt_charly_weg` | 5.28, 7.7 | Charlys Geld, Freundschaft mit Rosi |
+| `rt_bibi_bleibt` | 5.12, 7.6 | Idee, Freundschaft mit Maxwell |
 | `belagerung_gewonnen` | 5.1, 8 | Akt 3 startet nur danach normal; ohne Sieg ist das Dorf stiller (Baustellen bleiben, Fassung beim Bau) |
 | `rt_ausgang_alle` (wie `rt_ende_alle`) | 5.7, 5.25 | Red-Trio-Aussagen |
 | `holm_zurueck` | 5.5, 5.10, 7.5 | Holm war in der Schlacht dabei, Rückbezug mit Erinnerung |
@@ -697,6 +748,16 @@ Sichtbar im Schlussbild: Lose (was steht, wie es aussieht), wer im Netz fehlt (M
 - Lose: 8 hängen ab Tag 26, die übrigen 5 nach dem ersten fertigen Haus.
 - Jedes Paar hat eine Duc-Wahl mit Wirkung im Festbild (in 7.1 bis 7.5 eingetragen).
 - Das Drehbuch rechnet mit `fix-akt2` (Kopf, 4.3, 9).
+
+### Kurze Runde zu Version 3.3 (Baustoffe je Haus, Charly)
+
+**Sienna (Game Direction):** Jedes Haus führt zu einer anderen Mechanik, wie die Gemeinschaftszentrum-Bündel in Stardew Valley. So wird der Wiederaufbau zum Grund, angeln oder in den Steinbruch zu gehen. ✨ Kritik: Vier Rezepte zu je drei Stufen sind zwölf Kostenzeilen, das riecht nach Einkaufsliste. Gegenvorschlag: Die Karte zeigt nur die nächste Stufe eines Hauses, nie alle zwölf.
+
+**Aly (Tech):** `aufbau.STUFEN` wird ein Wörterbuch je Haus, die 20 % von Charly sitzen an einer Stelle in `braucht`. 🤓 Kritik: Abrunden macht aus 1 Iron eine 0. Gegenvorschlag: mindestens 1 (eingetragen).
+
+**Sora (Spielerstimme / QA):** Charly sagt „Eight for borrowed“ zur Bürgermeisterin, ich liebe das. 😂 Veto: Wenn ich Charly verloren habe, darf das Spiel mich nicht bestrafen. Gegenvorschlag: Ohne Charly bleibt alles bei den vollen Kosten, kein Satz erinnert an die verpasste Hilfe.
+
+**Maelle (Producerin):** Ein nächster Schritt, Duc: Prüfe die Tabelle der Baustoffe in 4.1, ob dir die Zahlen passen. 📋
 
 **Maelle (Producerin):** Ein nächster Schritt, Duc: Lies Abschnitt 7 und gib die beiden heiklen Paare frei oder nicht, Chiara mit Alva und Isabelle mit Sophia. Davon hängen die meisten neuen Zeilen ab. 📋
 
