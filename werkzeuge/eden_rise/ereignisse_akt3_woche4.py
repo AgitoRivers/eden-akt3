@@ -227,13 +227,14 @@ SAMSTAG = G("elsa", "[sigh] On Saturday I drive to Ajaccio. I want to see these 
 UHR = [
     E("a3_uhr", "gag1", "ernst", "Under Control", PFL(25, "fruehstueck"), "village_harbour",
       P1("elsa", ("mina", "?", "has a basket of letters")),
-      "Elsa's phone lies on the harbour wall, on speaker. A tired man from Ajaccio is talking. "
+      "Elsa's phone lies on the harbour wall, on speaker. A tired man from Ajaccio is talking: Commissioner Santoni. "
       "We received your file, Lieutenant. Two men from the commission will come on the thirty-fifth. "
       "We are very busy here. And we have the feeling you have this under control. To be honest, we were surprised. "
       "Cala d'Orsu sends us a report every month. All quiet. Signed and stamped.",
       [G("elsa", "[sigh] That's ten days. ...Five years on this post, and they have never been this polite to me.", "anger"),
        G("elsa", "[clear throat] I sent them a report every month too. Through the town hall. So where did mine go?", "realization"),
-       G("mina", "[sigh] Twelve letters from Monaco. One is for Petru. A.V. bought the loan on his boat. And I have to take it to him. Me.", "sadness"),
+       G("mina", "[sigh] Twelve letters from Monaco, all signed by a lawyer in Lyon, Maître Delorme. One is for Petru. A.V. bought the loan on his boat. "
+                 "And I have to take it to him. Me.", "sadness"),
        JE(G("mina", "[sniff] You let me go alone that day, when the phones were dead. I knocked on every door. I can do this too.", "pride"),
           "mina", FL("bl_tueren_mina")),
        G("elsa", "[clear throat] First Officer. The commission wants witnesses. People who saw it with their own eyes and will sign "
@@ -584,7 +585,8 @@ def tags_fuer(events, quelle):
     pfad = os.path.join(EDEN, "module", "eden_rise", "stimme_tags.json")
     d = json.load(open(pfad, encoding="utf-8"))
     texte = {z["text"] for z in neu}
-    d["zeilen"] = [z for z in d["zeilen"] if z.get("quelle") != quelle and z["text"] not in texte] + neu
+    paare = {(z["wer"], z["text"]) for z in neu}               # nur gleicher Sprecher und gleicher Text wird ersetzt (Review Nr. 11)
+    d["zeilen"] = [z for z in d["zeilen"] if z.get("quelle") != quelle and (z["wer"], z["text"]) not in paare] + neu
     json.dump(d, open(pfad, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     return len(neu)
 

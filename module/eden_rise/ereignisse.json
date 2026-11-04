@@ -105661,7 +105661,7 @@
    "sets": {
     "elsa": "Standard"
    },
-   "lage": "Elsa's phone lies on the harbour wall, on speaker. A tired man from Ajaccio is talking. We received your file, Lieutenant. Two men from the commission will come on the thirty-fifth. We are very busy here. And we have the feeling you have this under control. To be honest, we were surprised. Cala d'Orsu sends us a report every month. All quiet. Signed and stamped.",
+   "lage": "Elsa's phone lies on the harbour wall, on speaker. A tired man from Ajaccio is talking: Commissioner Santoni. We received your file, Lieutenant. Two men from the commission will come on the thirty-fifth. We are very busy here. And we have the feeling you have this under control. To be honest, we were surprised. Cala d'Orsu sends us a report every month. All quiet. Signed and stamped.",
    "zeilen": [
     {
      "wer": "elsa",
@@ -105675,7 +105675,7 @@
     },
     {
      "wer": "mina",
-     "text": "Twelve letters from Monaco. One is for Petru. A.V. bought the loan on his boat. And I have to take it to him. Me.",
+     "text": "Twelve letters from Monaco, all signed by a lawyer in Lyon, Maître Delorme. One is for Petru. A.V. bought the loan on his boat. And I have to take it to him. Me.",
      "gefuehl": "sadness"
     },
     {
@@ -135101,6 +135101,9 @@
         },
         {
          "flag": "a3_mitternacht_megan"
+        },
+        {
+         "flag": "megan_zurueck"
         }
        ]
       }

@@ -38,6 +38,10 @@ TATEN = {
     "sirene": dict(flag="sirene_fertig", titel="singing from the point at night", ruf=0),
     "kevin": dict(flag="kevin_fertig", titel="the duel on the bell tower", ruf=1),
     "red_trio": dict(flag="red_trio_fertig", titel="three people in red and the jacket", ruf=1),     # ernste Quest, noch nicht gebaut
+    # Akt 3 (04.11.2026): neue Figuren und Taten, ueber die das Dorf redet
+    "schwur": dict(flag="buenaventura_schwur", titel="forty pirates carrying stones", ruf=0),
+    "anwalt": dict(flag="a3_zeugen_auftrag", titel="the lawyer from Lyon and the men from Ajaccio", ruf=0),
+    "mast": dict(flag="a3_mast_fertig", titel="the red light on the ridge", ruf=1),
 }
 
 # Wer zur Familie gehoert (Merker): Crew, Gaeste, Dorf - und die neuen Figuren, sobald sie da sind
@@ -50,8 +54,30 @@ NACH_TRIO = {"flag": "rt_ausgang_alle"}       # Danzel scherzt nur bei "alle"; z
 NACH_BIBI = {"flag": "rt_bibi_bleibt"}        # Bibi und Charly bleiben nur, wenn Duc es ihnen sagt (rt_was_nun)
 NACH_CHARLY = {"flag": "rt_charly_bleibt"}
 
+MAST_AUS = {"flag": "a3_mast_aus"}
+MAST_AN = {"flag": "a3_mast_an"}
+
 # (tat, wer, wo, stufe, text mit Turbo-Tag, gefuehl[, wenn])
 ZEILEN = [
+    # ------------------------------------------------------------ Akt 3: Buenaventuras Schwur (Tag 24)
+    ("schwur", "mina", "zeit", 0, "[chuckle] Yacht, a pirate carried my bicycle to the post office this morning. He said sorry three times. In Spanish.", "amusement"),
+    ("schwur", "batu", "zeit", 1, "[sigh] The pirates eat like my nephews. I cook for forty now. I'm not complaining. A little.", "caring"),
+    ("schwur", "petru", "zeit", 1, "[clear throat] They carry stones well. Badly at first. Now well. The sea teaches everyone.", "approval"),
+    ("schwur", "lola", "zeit", 2, "[laugh] Boss, Mina says the captain wants to be made mayor now. Mostly a rumour. Mostly.", "amusement"),
+    # ------------------------------------------------------------ Akt 3: Maitre Delorme und Kommissar Santoni (ab Tag 25)
+    ("anwalt", "mina", "zeit", 0, "[sigh] Every letter from Monaco has the same name at the bottom now. Maître Delorme, a lawyer in Lyon. Even his signature looks expensive.", "neutral"),
+    ("anwalt", "elsa", "zeit", 0, "[clear throat] Commissioner Santoni is coming himself. Twenty-two years in Ajaccio. They say he has never smiled in public.", "neutral"),
+    ("anwalt", "casanova", "zeit", 1, "[sigh] A lawyer from Lyon. In my village. For a fishing village, Monsieur, that is like sending a shark to a swimming pool.", "anger"),
+    ("anwalt", "sophia", "zeit", 1, "[chuckle] Darling, I looked him up. Delorme has never lost a case. Ten euros says he has never met a Corsican grandmother either.", "amusement"),
+    ("anwalt", "petru", "zeit", 2, "[clear throat] The lawyer has a boat in Lyon, they say. Lyon has no sea. Hm.", "neutral"),
+    ("anwalt", "jana", "zeit", 2, "[gasp] Sir, Lola says the commissioner can see lies. Like a shark sees blood. Sorry, is that true?", "nervousness"),
+    # ------------------------------------------------------------ Akt 3: The Red Light (der Mast auf dem Kamm)
+    ("mast", "batu", "zeit", 0, "[chuckle] Last night the little lights fell into the sea. Like stars. My neighbour made a wish. I made two.", "joy", MAST_AUS),
+    ("mast", "elsa", "zeit", 0, "[clear throat] I hear everything on that mast now, First Officer. Every drone, every word. I barely sleep. I'm not complaining.", "neutral", MAST_AN),
+    ("mast", "petru", "zeit", 1, "[sigh] No red light on the ridge. The night looks like the night again.", "relief", MAST_AUS),
+    ("mast", "mina", "zeit", 1, "[sigh] The red light is still blinking, Yacht. People whisper again when they pass under it. I know it's ours now. They don't.", "nervousness", MAST_AN),
+    ("mast", "lola", "zeit", 2, "[laugh] Boss! The village says you climbed the mountain and punched a robot the size of a fridge. Mostly true?", "amusement"),
+    ("mast", "danzel", "zeit", 2, "[gasp] She climbed that ridge in the dark and switched the red light off. Charly. My... Charly. I'm going to sew her a medal.", "pride", {"alle": [NACH_CHARLY, MAST_AUS]}),
     # ------------------------------------------------------------ Hafenkampf (Tag 2)
     ("hafen", "rosi", "zeit", 0, "[chuckle] Officer. I checked the bat after the quay. Not one dent. The bat is fine. "
      "Your technique is a disaster, but the bat is fine.", "amusement"),

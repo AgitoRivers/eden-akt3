@@ -40,6 +40,21 @@
    "flag": "red_trio_fertig",
    "titel": "three people in red and the jacket",
    "ruf": 1
+  },
+  "schwur": {
+   "flag": "buenaventura_schwur",
+   "titel": "forty pirates carrying stones",
+   "ruf": 0
+  },
+  "anwalt": {
+   "flag": "a3_zeugen_auftrag",
+   "titel": "the lawyer from Lyon and the men from Ajaccio",
+   "ruf": 0
+  },
+  "mast": {
+   "flag": "a3_mast_fertig",
+   "titel": "the red light on the ridge",
+   "ruf": 1
   }
  },
  "familie": [
@@ -70,6 +85,156 @@
   "anghjulu"
  ],
  "zeilen": {
+  "schwur.mina.zeit.0": {
+   "tat": "schwur",
+   "wer": "mina",
+   "wo": "zeit",
+   "stufe": 0,
+   "text": "Yacht, a pirate carried my bicycle to the post office this morning. He said sorry three times. In Spanish.",
+   "gefuehl": "amusement"
+  },
+  "schwur.batu.zeit.0": {
+   "tat": "schwur",
+   "wer": "batu",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "The pirates eat like my nephews. I cook for forty now. I'm not complaining. A little.",
+   "gefuehl": "caring"
+  },
+  "schwur.petru.zeit.0": {
+   "tat": "schwur",
+   "wer": "petru",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "They carry stones well. Badly at first. Now well. The sea teaches everyone.",
+   "gefuehl": "approval"
+  },
+  "schwur.lola.zeit.0": {
+   "tat": "schwur",
+   "wer": "lola",
+   "wo": "zeit",
+   "stufe": 2,
+   "text": "Boss, Mina says the captain wants to be made mayor now. Mostly a rumour. Mostly.",
+   "gefuehl": "amusement"
+  },
+  "anwalt.mina.zeit.0": {
+   "tat": "anwalt",
+   "wer": "mina",
+   "wo": "zeit",
+   "stufe": 0,
+   "text": "Every letter from Monaco has the same name at the bottom now. Maître Delorme, a lawyer in Lyon. Even his signature looks expensive.",
+   "gefuehl": "neutral"
+  },
+  "anwalt.elsa.zeit.0": {
+   "tat": "anwalt",
+   "wer": "elsa",
+   "wo": "zeit",
+   "stufe": 0,
+   "text": "Commissioner Santoni is coming himself. Twenty-two years in Ajaccio. They say he has never smiled in public.",
+   "gefuehl": "neutral"
+  },
+  "anwalt.casanova.zeit.0": {
+   "tat": "anwalt",
+   "wer": "casanova",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "A lawyer from Lyon. In my village. For a fishing village, Monsieur, that is like sending a shark to a swimming pool.",
+   "gefuehl": "anger"
+  },
+  "anwalt.sophia.zeit.0": {
+   "tat": "anwalt",
+   "wer": "sophia",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "Darling, I looked him up. Delorme has never lost a case. Ten euros says he has never met a Corsican grandmother either.",
+   "gefuehl": "amusement"
+  },
+  "anwalt.petru.zeit.0": {
+   "tat": "anwalt",
+   "wer": "petru",
+   "wo": "zeit",
+   "stufe": 2,
+   "text": "The lawyer has a boat in Lyon, they say. Lyon has no sea. Hm.",
+   "gefuehl": "neutral"
+  },
+  "anwalt.jana.zeit.0": {
+   "tat": "anwalt",
+   "wer": "jana",
+   "wo": "zeit",
+   "stufe": 2,
+   "text": "Sir, Lola says the commissioner can see lies. Like a shark sees blood. Sorry, is that true?",
+   "gefuehl": "nervousness"
+  },
+  "mast.batu.zeit.0": {
+   "tat": "mast",
+   "wer": "batu",
+   "wo": "zeit",
+   "stufe": 0,
+   "text": "Last night the little lights fell into the sea. Like stars. My neighbour made a wish. I made two.",
+   "gefuehl": "joy",
+   "wenn": {
+    "flag": "a3_mast_aus"
+   }
+  },
+  "mast.elsa.zeit.0": {
+   "tat": "mast",
+   "wer": "elsa",
+   "wo": "zeit",
+   "stufe": 0,
+   "text": "I hear everything on that mast now, First Officer. Every drone, every word. I barely sleep. I'm not complaining.",
+   "gefuehl": "neutral",
+   "wenn": {
+    "flag": "a3_mast_an"
+   }
+  },
+  "mast.petru.zeit.0": {
+   "tat": "mast",
+   "wer": "petru",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "No red light on the ridge. The night looks like the night again.",
+   "gefuehl": "relief",
+   "wenn": {
+    "flag": "a3_mast_aus"
+   }
+  },
+  "mast.mina.zeit.0": {
+   "tat": "mast",
+   "wer": "mina",
+   "wo": "zeit",
+   "stufe": 1,
+   "text": "The red light is still blinking, Yacht. People whisper again when they pass under it. I know it's ours now. They don't.",
+   "gefuehl": "nervousness",
+   "wenn": {
+    "flag": "a3_mast_an"
+   }
+  },
+  "mast.lola.zeit.0": {
+   "tat": "mast",
+   "wer": "lola",
+   "wo": "zeit",
+   "stufe": 2,
+   "text": "Boss! The village says you climbed the mountain and punched a robot the size of a fridge. Mostly true?",
+   "gefuehl": "amusement"
+  },
+  "mast.danzel.zeit.0": {
+   "tat": "mast",
+   "wer": "danzel",
+   "wo": "zeit",
+   "stufe": 2,
+   "text": "She climbed that ridge in the dark and switched the red light off. Charly. My... Charly. I'm going to sew her a medal.",
+   "gefuehl": "pride",
+   "wenn": {
+    "alle": [
+     {
+      "flag": "rt_charly_bleibt"
+     },
+     {
+      "flag": "a3_mast_aus"
+     }
+    ]
+   }
+  },
   "hafen.rosi.zeit.0": {
    "tat": "hafen",
    "wer": "rosi",
