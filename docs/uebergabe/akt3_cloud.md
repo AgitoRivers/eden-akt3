@@ -38,6 +38,13 @@ Stand 04.11.2026, Block 3: Drehbuch Version 3.4 (Bones, Charly und Danzel, Festa
 - **Lokal neu bauen und prüfen:** `ereignisse_basis.py`, `auftraege_eden_rise.py`, `kaempfe_eden_rise.py`, `modul_eden_rise.py`. `ereignisse.json`, `auftraege.json`, `kaempfe.json`, `stimme_tags.json` sind hier gezielt ergänzt. Nach dem Neubau sollte `git diff` leer sein.
 - **Paket G (lokal):** Bot-Lauf mit `PYTHONHASHSEED=0` über Tag 24 bis 35, Endkampf-Balancing (Alon Level 10), Vertonung der neuen Zeilen.
 
+## Ducs Antworten vom 04.11. abends (E-130), Stand
+
+- Gebaut: Enden mit Entwürfen und Erklärung, ★ über `kern/meta.py` (`spielstaende/_meta.json`), Riscossore immer, Feldbett in der Kirche, Einladungen nach Mitternacht, höchstens drei Karten, Endkampf mit Verbündeten (`beistand`), Alvas Satz, Sandrus „Your Own Name“, mehr Petru, Stella und Holms Los.
+- **Für die Story-Sitzung:** Totòs Akt-3-Geheimnis schreiben (F-19), Platz in Woche 5.
+- **Für Character Design (optional):** Holms Mutter als Bild (F-14), bis dahin nur ihre Zeile. Der Chef der Eden Group bleibt nur Stimme (F-07), kein Bild.
+- **In Arbeit:** Kommission als eigene Mechanik wie die Anhörung (F-08). Die Anhörung selbst ist an die Fall-Daten und die vh.-Texte gebunden, die diese Sitzung nicht öffnen darf; die Kommission bekommt eigenes Modul und eigene Daten.
+
 ## Wartet auf Ducs Urteil
 
 - E-128 (Säulen und Enden im Code), F-34 (Wohnen als Raum-Logik), F-35 (Enden ohne Wahrheit), F-36 (★).
