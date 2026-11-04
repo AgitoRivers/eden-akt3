@@ -26,9 +26,15 @@ AKT2_BETA = {"titel": "End of Act 2", "akt": 2, "dimensionen": {}, "frauen": [],
                           {"titel": "Beta", "text": "You reached the ending of the Beta release. Thank you so much for testing and supporting."}]}
 
 
+AKT3_BETA = {"titel": "End of Act 3", "akt": 3, "dimensionen": {}, "frauen": [], "fall": None,
+             "absaetze": [{"titel": "The Festa", "text": "The endings are coming soon."},
+                          {"titel": "Beta", "text": "You reached the ending of the Beta release. Thank you so much for testing and supporting."}]}
+
+
 def berechnen(z, modul):
     if "akt2_ende" in z.get("flags", []):          # Cliffhanger Akt 2 gesehen (Duc 02.11.2026): Schluss der Beta
-        return dict(AKT2_BETA)
+        # Akt 3 (Drehbuch akt3): solange modul.akt3_spielbar fehlt, endet die Beta nach Tag 23. Danach Platzhalter bis zu den Enden (Paket F).
+        return dict(AKT3_BETA) if modul.get("akt3_spielbar") else dict(AKT2_BETA)
     if not ermittlung.aktiv(z):
         return None
     if (ermittlung._story(z) or {}).get("akt") == 1:

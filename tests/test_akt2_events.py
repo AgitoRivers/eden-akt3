@@ -26,7 +26,13 @@ def main():
     sys.stdout.reconfigure(encoding="utf-8")
     nach = [e for e in D["events"] if e.get("nachlauf")]
     lang = lambda e: e["id"].startswith(("sf_", "sfn_")) or e["art"] == "abend"
-    pruefen(len(nach) >= 200 and all(e["wann"].get("akt2") == ([8, 35] if lang(e) else [8, 21]) for e in nach), "%d Events mit Akt-2-Fenster" % len(nach))
+    def soll(e):                                       # Akt 3 (Drehbuch Akt 3, Paket A): Gags bis Tag 31, mit Maxwell bis 29, Handy bis 21
+        if lang(e):
+            return [8, 35]
+        if e["id"].startswith("hy_"):
+            return [8, 21]
+        return [8, 29] if "maxwell" in json.dumps(e, ensure_ascii=False).lower() else [8, 31]
+    pruefen(len(nach) >= 200 and all(e["wann"].get("akt2") == soll(e) for e in nach), "%d Events mit Akt-2-Fenster" % len(nach))
     pruefen(sum(1 for e in nach if (e["personen"].get("selfie") or {}).get("stufe")) == 90, "Alle Selfies laufen bis Tag 35")  # 87 + Bibis Stufe 3/4/5 (727c75db)
     for bleibt in ("ab_megan_nacht", "lg_lola_meer"):
         pruefen(not IDX[bleibt].get("nachlauf"), "%s bleibt in Akt 1" % bleibt)

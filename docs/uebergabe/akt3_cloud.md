@@ -12,6 +12,14 @@ Stand 04.11.2026, Block 3: Drehbuch Version 3.4 (Bones, Charly und Danzel, Festa
 | `akt3-cloud` | (dieser) | Drehbuch Version 3: Yacht schwer beschädigt mit Reparatur, Unterkünfte, Minicu erst zur Festa, Festa-Lose ohne Zähler, Megan Tag 25, Bibi- und Lea-Idee, Säule Geld mit drei Wegen, fünf Paare (Abschnitt 7), Brain Trust; E-122; Vermerke in `ortskapitel_tauchgang.md` und `enden.md`; Fragen F-28 bis F-30 |
 | `fix-akt2-folgen` | `57b9204`, `6351a04` | **Code:** Türen mit Petru (Ruf 4), Alvas Runde (`bl_bar_runde`, Duc zahlt), Dons Kirche (+1 Leben ab Welle 5), Akt 3 ab Tag 24 (Sperre endet nach Tag 23, Schneider, Lesung, Holms Revanche, Expedition Pack), Station-Beweis auch in Akt 3, `tests/test_akt2_folgen.py` (15 grün), E-121 |
 
+## Paket A (Code, 04.11.2026)
+
+- `fix-akt2` in `akt3-cloud` gemergt (ohne Konflikt), `HOLM_TAG` auf 24.
+- Akt-3-Schalter `akt3_spielbar` (steht auf `false`), Gags bis Tag 31 (mit Maxwell bis 29), Gags an Bord ruhen während der Reparatur, Dichte Woche 4 bei 0,6, Flag `bl_dorf_rudert`. Einzelheiten: Drehbuch 12a.
+- `ereignisse.json` und `modul.json` gezielt geändert (nur `wann.akt2` von 84 Events und `akt3_spielbar`), weil der Neubau hier ohne Bilder die Hintergründe tauscht. **Lokal neu bauen** (`ereignisse_basis.py`, `modul_eden_rise.py`) und prüfen, dass `git diff` danach leer ist.
+- Tests: `test_akt3_kalender` neu und grün, `test_akt2_events` angepasst. Alle Tests 47 gegen 48 grün, keine Verschlechterung. `test_holm_wette` lokal prüfen (braucht `eden-config.json`).
+- Handy-Events (`hy_`) bleiben bei Tag 21: Ob sie bis Tag 31 dürfen, prüft die Handy-Sitzung.
+
 ## Wartet auf Ducs Urteil
 
 - (erledigt) Zahlen der Baustoffe je Haus bestätigt.

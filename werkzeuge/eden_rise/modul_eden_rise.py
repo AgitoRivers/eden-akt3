@@ -28,6 +28,10 @@ SCHIFF = ["crew_mess", "crew_corridor", "galley", "duc_cabin", "vip_cabin", "mai
           "sun_deck", "solar_deck", "foredeck", "swim_platform", "tender_garage", "power_room", "generator_room",
           "workshop"]
 
+# Akt 3 (Tag 24-35, Drehbuch docs/wiki/welt/drehbuch_akt3.md): erst True, wenn die Akt-3-Events gebaut sind (Paket F).
+# False: Das Spiel endet nach Tag 23 mit der Beta-Schlusskarte (akt2_ende). True: Kalender bis Tag 35.
+AKT3_SPIELBAR = False
+
 MODUL = copy.deepcopy(G.MODUL)
 MODUL.update({
     "_hinweis": "Neue Hauptstory Eden Rise (Phase B, 17.10.2026). Gebaut aus werkzeuge\\eden_rise\\modul_eden_rise.py auf Basis "
@@ -38,7 +42,8 @@ MODUL.update({
     "hauptstory": "story.json",
     # Modell B (24.10.2026): "tag" = Mittag, dazu der Nachmittag - mehr freie Zeit in Akt 1
     "sperre": {"tag": 21, "phase": "nachmittag", "praefix": "bl_", "bis_tag": 24},   # Ab dem Angriff nur noch Szenen der Belagerung, ab Akt 3 (Tag 24) wieder alles
-    "zeitraster": {"tage": 23, "phasen": ["fruehstueck", "tag", "nachmittag", "dinner", "abend", "nacht"],
+    "akt3_spielbar": AKT3_SPIELBAR,
+    "zeitraster": {"tage": 35 if AKT3_SPIELBAR else 23, "phasen": ["fruehstueck", "tag", "nachmittag", "dinner", "abend", "nacht"],
                    # Die Hauptstory legt je Phase fest, was gespielt wird; freie Phasen sind eine Wahl
                    "pflicht": ["fruehstueck", "nacht"], "wahl": ["tag", "nachmittag", "dinner", "abend"]},
     "start_flags": [],

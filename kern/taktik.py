@@ -615,6 +615,16 @@ def _welle_feinde(z, D, t, nr):
     return feinde
 
 
+def rudern_merken(z, D, t):
+    """Das Dorf ist in einer Kapitaens-Welle hinausgerudert: Flag bl_dorf_rudert fuer Akt 3 (F-21, Drehbuch Akt 3 5.1, 5.25).
+    Der Zustand t["dorf_rudert"] verschwindet mit der Taktik-Karte, das Flag bleibt."""
+    welle = t.get("welle") or 0
+    if t.get("dorf_rudert") and 1 <= welle <= len(D["wellen"]) and D["wellen"][welle - 1].get("kapitaen"):
+        f = z.setdefault("flags", [])
+        if "bl_dorf_rudert" not in f:
+            f.append("bl_dorf_rudert")
+
+
 def beenden(z, sofort=False, moddir=None):
     """Karte schliessen und die Folgen eintragen. sofort: nur fuer die Test-Bots, die die Schlacht nicht ausspielen."""
     t = _t(z)
@@ -630,6 +640,7 @@ def beenden(z, sofort=False, moddir=None):
             t["runde"] = 1
         _sichern(z, D, t)
         belagerung.schaeden_eintragen(z, D, t)
+        rudern_merken(z, D, t)
         if t["welle"] >= len(D["wellen"]):
             z.setdefault("flags", []).append("belagerung_gewonnen")
             if "elsa_kampfuniform" in z["flags"]:    # Die Uniform kommt zurueck in den Spind

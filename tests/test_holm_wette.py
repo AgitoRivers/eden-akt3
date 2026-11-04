@@ -162,7 +162,7 @@ def holm_test():
     # am Nachmittag (abends zieht der Sprung sonst Szenen der Fall-Kette nach)
     z["tag"], z["phase"] = 24, "nachmittag"
     E.sichern(z)
-    pruefen(schiessen.gegner(dict(z, tag=schiessen.HOLM_TAG)) == "holm" and schiessen.gegner(z) == "holm", "ab Tag 22 Holm")
+    pruefen(schiessen.gegner(dict(z, tag=schiessen.HOLM_TAG)) == "holm" and schiessen.gegner(z) == "holm", "ab Tag 24 Holm")
     z = intro_durch(E.aktion("schiessen_start", {}), "hb_g_holm")
     ans = E.ansicht(z)["z"]["schiessen"]
     pruefen(not ans["relaxed_erlaubt"] and ans["dauer"] == 9.5, "gegen Holm kein Relaxed")

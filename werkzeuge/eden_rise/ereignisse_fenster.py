@@ -14,9 +14,14 @@ Durchlauf (gesehen). Geoeffnete Events tragen "nachlauf": True: die Engine gibt 
 zieht dort ruhiger (Duc: 2-4 Events am Tag).
 Selfies, Abende und Funken (Duc 30.10.2026): laufen bis Tag 35, sonst steigen in Akt 3 die Stufen ohne Belohnung. Die ersten
 Abende von Lola und Jana sind mit offen, weil ihre Wiederholungen an den Flags dieser Abende haengen.
+Akt 3 (04.11.2026, Drehbuch docs/wiki/welt/drehbuch_akt3.md): Gags bis Tag 31 (Texte auf Alon, Holm, Festa, Minicu,
+Megan, "tomorrow" geprueft), mit Maxwell bis Tag 29, Handy-Events ungeprueft bis Tag 21. Ist die Yacht schwer beschaedigt
+(tk_yacht_weg), sperrt kern/ereignisse.passt die Gags an Bord bis zur Reparatur (a3_yacht_repariert).
 Eingebunden in ereignisse_basis.bauen() - nach dem Sammeln aller Events."""
 
-AKT2 = [8, 21]
+AKT2 = [8, 31]          # Akt 3 (Duc, CLAUDE.md): freie Gags laufen bis Tag 31, ab Tag 32 gagfrei (Drehbuch Akt 3)
+AKT2_ALT = [8, 21]      # Handy-Events (hy_): nicht geprueft (Handy-Dateien sind fuer diese Sitzung tabu), bleiben in Akt 2
+MIT_MAXWELL = [8, 29]   # Maxwell fliegt Tag 30 bis 32 nach Durban (Drehbuch Akt 3, 5.14)
 BIS_ENDE = [8, 35]
 
 OEFFNEN = [
@@ -73,6 +78,14 @@ def anwenden(events):
         e = index.get(i)
         if e:
             lang = i.startswith(("sf_", "sfn_")) or e["art"] == "abend"
-            e["wann"]["akt2"] = list(BIS_ENDE if lang else AKT2)
+            if lang:
+                fenster = BIS_ENDE
+            elif i.startswith("hy_"):
+                fenster = AKT2_ALT
+            elif "maxwell" in str(e).lower():
+                fenster = MIT_MAXWELL
+            else:
+                fenster = AKT2
+            e["wann"]["akt2"] = list(fenster)
             e["nachlauf"] = True
     return fehlt

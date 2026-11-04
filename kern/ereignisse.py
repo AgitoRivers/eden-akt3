@@ -34,6 +34,7 @@ HANDY_CHANCE = {"fruehstueck": 0.15, "tag": 0.2, "nachmittag": 0.2, "dinner": 0.
 # Akt-2-Events vor den aus Akt 1 geoeffneten ("nachlauf", werkzeuge\eden_rise\ereignisse_fenster.py)
 AKT2_AB = 8
 AKT2_FAKTOR = {"zufall": 0.45, "handy": 0.6}
+AKT3_WOCHE4 = (24, 28, 0.6)    # Woche 4 atmet: mehr Zufalls-Events als in Woche 5 (Drehbuch Akt 3, F-17)
 AKT2_GAGS_MAX = 2
 AKT2_VORRANG = 0.65                  # Anteil, mit dem ein neues Akt-2-Event gewinnt, wenn beide Sorten passen
 # Favours (Duc 29.10.2026, Brain Trust: ersetzen die Schnelljob-Liste): Bitten per Handy, eigene Stufe vor dem Handy, hoechstens
@@ -111,6 +112,24 @@ def gesperrt_durch_story(z, modul, phase):
     return s["praefix"] if z["tag"] > s["tag"] or (z["tag"] == s["tag"] and ph.index(phase) >= ph.index(s["phase"])) else None
 
 
+AKT3_AB = 24
+AN_BORD = ("unterdeck", "deck", "technik")
+AN_BORD_RAEUME = ("crew_kabine_1", "crew_kabine_2", "crew_kabine_3", "spare_cabin", "megan_kabine", "crew_dusche",
+                  "yacht_toilette", "kuehlraum")
+
+
+def yacht_in_reparatur(z):
+    """Akt 3, Duc 04.11.2026 (E-122): Bei 0 Leben in der Belagerung (tk_yacht_weg) ist die Yacht schwer beschaedigt, bis
+    Rosi und die Eden Group sie repariert haben (a3_yacht_repariert, Abend Tag 31)."""
+    f = z.get("flags", [])
+    return z.get("tag", 0) >= AKT3_AB and "tk_yacht_weg" in f and "a3_yacht_repariert" not in f
+
+
+def an_bord(modul, ev):
+    bild = ev.get("bild")
+    return bild in AN_BORD_RAEUME or (modul.get("raeume", {}).get(bild) or {}).get("bereich") in AN_BORD
+
+
 def passt(z, modul, ev, phase, wetter=None, pflicht=False):
     w = ev["wann"]
     praefix = gesperrt_durch_story(z, modul, phase)
@@ -128,6 +147,8 @@ def passt(z, modul, ev, phase, wetter=None, pflicht=False):
         return False
     if w.get("bedingung") and not regeln.gilt(w["bedingung"], z, {"phase": phase}):
         return False
+    if ev.get("nachlauf") and not ev["id"].startswith(("sf_", "sfn_")) and yacht_in_reparatur(z) and an_bord(modul, ev):
+        return False                                   # Akt 3: Die Crew wohnt im Dorf, alte Gags an Bord ruhen (Drehbuch Akt 3, 4.4)
     if ev["art"] != "handy" and not w.get("prolog") and not w.get("holt_leute") and not all(_da(z, modul, p) for p in _beteiligte(ev)):
         return False                                   # Prolog-Ketten (Tag 0, Hafenkampf) stellen ihre Leute selbst
     stumm = rollen.person(modul, ev["personen"].get("anrufer"), "ruft_nicht_an_wenn") if ev["art"] == "handy" else None
@@ -437,6 +458,8 @@ def favour_journal(z, modul, moddir, foto_fn):
 
 
 def _akt2_faktor(z, stufe):
+    if stufe == "zufall" and AKT3_WOCHE4[0] <= z["tag"] <= AKT3_WOCHE4[1]:
+        return AKT3_WOCHE4[2]
     return AKT2_FAKTOR[stufe] if z["tag"] >= AKT2_AB else 1.0
 
 

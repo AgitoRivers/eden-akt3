@@ -770,13 +770,26 @@ Sichtbar im Schlussbild: Lose (was steht, wie es aussieht), wer im Netz fehlt (M
 
 | Paket | Inhalt |
 |---|---|
-| A · Kalender | Branch `fix-akt2` mergen, Kalender bis Tag 35 (`zeitraster.tage`), Gags bis 31, Yacht-Gags ab 25, Dichte je Woche, `bl_dorf_rudert`, Beta-Schluss aufheben |
+| A · Kalender **(gebaut 04.11., siehe 12a)** | Branch `fix-akt2` mergen, Kalender bis Tag 35 (`zeitraster.tage`), Gags bis 31, Yacht-Gags ab 25, Dichte je Woche, `bl_dorf_rudert`, Beta-Schluss aufheben |
 | B · Woche 4 und Dorf | 5.1 bis 5.11, `kern/aufbau` in `eden.py`, Piraten nur an angefangenen Häusern, Dank-Szenen, Vignetten, Yacht (4.4) |
 | C · Zeugen und Lose | Liste, Türen, Haltungen, 13 Lose |
 | D · Woche 5 | 5.12 bis 5.24 |
 | E · Romanzen und Paare | Abschnitte 6 und 7 |
 | F · Kommission, Festa, Enden, Stimme | 5.25 bis 5.27, Festa-Schalter (F-22), Säulen, `stimme_tags.json` |
 | G · Tests | `test_akt3_kalender`, `test_zeugen`, `test_lose`, `test_paare` (Fassungen nach Romanze), Bot-Lauf mit zwei Profilen vor Paket D |
+
+### 12a. Paket A, wie es im Code wirkt (gebaut 04.11.2026)
+
+| Mechanik | Auslöser | Wirkung | Grenzen | Stelle im Code |
+|---|---|---|---|---|
+| **Akt-3-Schalter** | `AKT3_SPIELBAR` in `modul_eden_rise.py`, im Modul `akt3_spielbar` | `false`: Kalender endet nach Tag 23, Beta-Schlusskarte Akt 2. `true`: Kalender bis Tag 35, danach Platzhalter-Karte „End of Act 3“ bis zu den Enden | steht auf `false`, bis Paket B bis F gebaut sind; sonst spielt man zwölf leere Tage | `kern/abschluss.berechnen`, `zeitraster.tage` |
+| **Freie Gags bis Tag 31** | `ereignisse_fenster.AKT2 = [8, 31]` | 73 alte Gags laufen bis Tag 31, ab Tag 32 gagfrei | Gags mit Maxwell nur bis Tag 29 (11 Events, er fliegt Tag 30 bis 32). Handy-Events (`hy_`) bleiben bei Tag 21, weil die Handy-Dateien für die Cloud-Sitzung tabu sind. Leiter-Szenen und Abende laufen wie bisher bis 35 | `werkzeuge/eden_rise/ereignisse_fenster.py` |
+| **Gags an Bord ruhen bei Reparatur** | `tk_yacht_weg` ab Tag 24, bis `a3_yacht_repariert` (Abend Tag 31, Paket B setzt es) | alte Gags in Räumen an Bord (Unterdeck, Deck, Technik, Kabinen) kommen nicht, Gags an Land schon | Leiter-Szenen (`sf_`, `sfn_`) sind ausgenommen, damit Romanzen nicht stehen bleiben; ihre Orte an Land kommen mit Paket E | `kern/ereignisse.yacht_in_reparatur`, `an_bord`, `passt` |
+| **Ereignis-Dichte je Woche** | Tag 24 bis 28 | Zufalls-Events mit Faktor 0,6 statt 0,45 | Handy-Faktor unverändert (0,6) | `kern/ereignisse.AKT3_WOCHE4` |
+| **`bl_dorf_rudert`** | Ende einer Welle mit Kapitän, in der das Dorf rudert | Flag bleibt nach der Belagerung, Akt 3 liest es (5.1, 5.25) | einmal je Durchlauf | `kern/taktik.rudern_merken` |
+| **Holms Revanche ab Tag 24** | `HOLM_TAG = 24` | Holm wird erst nach der Belagerung vierter Gegner beim Schießen | | `kern/schiessen.py` |
+
+Test: `tests/test_akt3_kalender.py`. Angepasst: `tests/test_akt2_events.py` (neue Fenster), `tests/test_holm_wette.py` (Tag 24, lokal nicht prüfbar wegen `eden-config.json`). Alle `test_*.py` vor und nach Paket A: 47 gegen 48 grün, kein Test hat seinen Status verloren.
 
 ## 13. Was aus den Befunden wurde
 
