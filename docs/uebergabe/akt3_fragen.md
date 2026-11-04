@@ -33,11 +33,17 @@ Stand 04.11.2026, ergänzt für Drehbuch v3 (Ducs Entscheide E-122) · Cloud-Sit
 | F-26 | **Funkspruch um drei Uhr als Beweis:** Pascal bleibt außerhalb der Fälle (Auflage der Story-Sitzung). Darf die Kommission den Funkspruch hören? | `dorf_figuren.md`, „Regeln für die Spuren“ | ja, als Aussage der Wächter, ohne Pascal als Beschuldigten | streichen |
 | F-27 | **Megan und Pascal** sollen sich nicht begegnen (sie müsste ihn aus Monaco kennen). In der Villa steht Pascal neben Alon | `dorf_figuren.md`, Megan | v2.1: Megan ist weder beim Plan noch im Keller noch beim Dinner | Story-Sitzung schreibt eine Begegnung |
 
-| F-28 | **Lola und Bà Tư als Paar:** Lola ist 24, Bà Tư um die 75. Eine Romanze passt nicht zu beiden Figurenseiten | `lola.md`, `dorf_figuren.md` (Bà Tư) | Familienliebe: Bà Tư wird Lolas Insel-Nan (Drehbuch 7.1) | Duc beschreibt, was er sich vorstellt |
-| F-29 | **Chiara und Alva, Isabelle und Sophia:** Alva will laut Kanon heimlich „einen starken Mann“; Isabelle ist Novizin; Chiara und Sophia teilen laut Kanon einen unausgesprochenen Kuss nach Saint-Tropez (je eine Zeile erkennt ihn an) | `dorf_figuren.md`, `alva.md`, `kloster.md` | zart und offen ohne Etikett (Alva formuliert ihren Wunsch neu); bei Isabelle eine ungesagte Zeile, kein Gelübde gebrochen (Drehbuch 7.2, 7.3) | Paar fällt weg oder wird Freundschaft |
-| F-30 | **Zwei Code-Branches mit denselben Akt-2-Korrekturen:** `fix-akt2` (andere Sitzung) und `fix-akt2-folgen` (diese Sitzung) | beide Branches | nur `fix-akt2` mergen, Drehbuch v3 rechnet damit; dort `HOLM_TAG` von 22 auf 24 nachziehen | `fix-akt2-folgen` mergen, dann Stahl ab Tag 22 und Dons Leben ab Welle 5 |
+| F-28 | **Entschieden (E-124): Freundschaft und Familienliebe.** Lola und Bà Tư als Paar: Lola ist 24, Bà Tư um die 75. Eine Romanze passt nicht zu beiden Figurenseiten | `lola.md`, `dorf_figuren.md` (Bà Tư) | Familienliebe: Bà Tư wird Lolas Insel-Nan (Drehbuch 7.1) | Duc beschreibt, was er sich vorstellt |
+| F-29 | **Entschieden (E-124): tiefe Freundschaften, keine Romanze.** Chiara und Alva, Isabelle und Sophia: Alva will laut Kanon heimlich „einen starken Mann“; Isabelle ist Novizin; Chiara und Sophia teilen laut Kanon einen unausgesprochenen Kuss nach Saint-Tropez (je eine Zeile erkennt ihn an) | `dorf_figuren.md`, `alva.md`, `kloster.md` | zart und offen ohne Etikett (Alva formuliert ihren Wunsch neu); bei Isabelle eine ungesagte Zeile, kein Gelübde gebrochen (Drehbuch 7.2, 7.3) | Paar fällt weg oder wird Freundschaft |
+| F-30 | **Entschieden (E-124): `fix-akt2`.** Zwei Code-Branches mit denselben Akt-2-Korrekturen:** `fix-akt2` (andere Sitzung) und `fix-akt2-folgen` (diese Sitzung) | beide Branches | nur `fix-akt2` mergen, Drehbuch v3 rechnet damit; dort `HOLM_TAG` von 22 auf 24 nachziehen | `fix-akt2-folgen` mergen, dann Stahl ab Tag 22 und Dons Leben ab Welle 5 |
 
 ## Anschlussstellen, die ich nicht öffne
 
 - Favours und Handy (`ereignisse_favours.py`, `ereignisse_handy.py`, `handy_eden_rise.py`): F-11 und F-12. Ich lese dort nichts.
 - Tauchgang: F-05, Whites Zeile an Buenaventura nach einem Fehlschlag (`story.md`).
+
+## Widerspruch zum Text vom 04.11. abends
+
+| Nr | Frage | Fundstellen | Vorschlag |
+|---|---|---|---|
+| F-31 | Dein Text zur Belagerung nennt „Yacht auf Grund gesetzt“ und „Minicus Überleben erst in Akt 3“ noch **offen**. In dieser Sitzung hast du beides entschieden (E-122 a, c: schwer beschädigt und repariert; Minicus Überleben erst auf der Festa, er lebt in allen Enden) | E-122, `belagerung.md` auf master (Stand der lokalen Sitzung) | E-122 gilt, die lokale Sitzung zieht `belagerung.md` und `drehbuch_finale.md` nach |

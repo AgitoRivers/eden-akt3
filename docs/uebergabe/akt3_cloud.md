@@ -1,6 +1,6 @@
 # Übergabe Akt 3 · Cloud-Sitzung (Branch `akt3-cloud`)
 
-Stand 04.11.2026, Block 3: Drehbuch Version 3.1 mit Ducs Entscheiden (E-122) und der unabhängigen Prüfung (30 Befunde, Abschnitt 13b). **Keine Events gebaut.**
+Stand 04.11.2026, Block 3: Drehbuch Version 3.2 (Belagerung ohne Prozent, Freundschaften, E-124), davor 3.1 mit Ducs Entscheiden (E-122) und der unabhängigen Prüfung (30 Befunde, Abschnitt 13b). **Keine Events gebaut.**
 
 ## Gebaut (Commits)
 
@@ -15,9 +15,8 @@ Stand 04.11.2026, Block 3: Drehbuch Version 3.1 mit Ducs Entscheiden (E-122) und
 ## Wartet auf Ducs Urteil
 
 - E-123 offen: Piraten bauen nur, wo Duc den ersten Stein gesetzt hat.
-- Weiche W (was 100 % Belagerung an Schwierigkeit heißt), Drehbuch Abschnitt 1.
-- Freigabe der Paare Chiara und Alva, Isabelle und Sophia (F-29), Lola und Bà Tư als Familienliebe (F-28).
-- Welcher Code-Branch nach master: Empfehlung `fix-akt2`, nicht `fix-akt2-folgen` (F-30).
+- F-31: Yacht und Minicu, in E-122 entschieden, in `belagerung.md` noch offen.
+- Nach master geht `fix-akt2` (E-124), `fix-akt2-folgen` bleibt liegen.
 - Fragenliste `docs/uebergabe/akt3_fragen.md` (F-01 bis F-30).
 - Merge von `fix-akt2-folgen` (vorher lokal: `tests/test_taktik.py` und `test_sfx.py`, die hier an fehlenden Sprites und `eden-config.json` scheitern; `test_sfx` ist schon auf master rot).
 

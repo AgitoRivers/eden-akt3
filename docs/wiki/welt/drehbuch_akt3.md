@@ -1,7 +1,7 @@
-# Drehbuch Akt 3: „Who Saw It?“ · Tag 24 bis Tag 35 · Version 3.1
+# Drehbuch Akt 3: „Who Saw It?“ · Tag 24 bis Tag 35 · Version 3.2
 
 > Stand 04.11.2026 · Besitz: Brain Trust (Cloud-Sitzung, Branch `akt3-cloud`) · **Entwurf zur Abnahme durch Duc, nichts davon ist gebaut.**
-> Version 3.1 baut auf v2.1 (`41ae2ac`) auf, die Prüfung von v3 ist eingearbeitet (Abschnitt 13b) und setzt **Ducs Entscheide vom 04.11.2026** um (E-122, Abschnitt 1). Eingearbeitet: Gegenrede (`docs/uebergabe/drehbuch_gegenrede.md`, Branch `drehbuch-gegenrede`), Wiki gegen Code (`docs/berichte/wiki_vs_code.md`, Branch `wiki-vs-code`), Folgen der Belagerung (`docs/wiki/welt/akt3_folgen_belagerung.md`, Branch `folgen-belagerung`), Text-Audit (`docs/uebergabe/audit_text.md`, Branch `audit-text`), die Audits der anderen Sitzung (`docs/berichte/audits_zusammenfassung.md`, Branch `berichte-audits`) und die unabhängigen Prüfungen von v1, v2 und v3 (Abschnitt 13).
+> Version 3.2 baut auf v2.1 (`41ae2ac`) auf, die Prüfung von v3 ist eingearbeitet (Abschnitt 13b), dazu Ducs Entscheide vom Abend des 04.11. (E-124: Belagerung ohne Prozent, Freundschaften statt Paare) und setzt **Ducs Entscheide vom 04.11.2026** um (E-122, Abschnitt 1). Eingearbeitet: Gegenrede (`docs/uebergabe/drehbuch_gegenrede.md`, Branch `drehbuch-gegenrede`), Wiki gegen Code (`docs/berichte/wiki_vs_code.md`, Branch `wiki-vs-code`), Folgen der Belagerung (`docs/wiki/welt/akt3_folgen_belagerung.md`, Branch `folgen-belagerung`), Text-Audit (`docs/uebergabe/audit_text.md`, Branch `audit-text`), die Audits der anderen Sitzung (`docs/berichte/audits_zusammenfassung.md`, Branch `berichte-audits`) und die unabhängigen Prüfungen von v1, v2 und v3 (Abschnitt 13).
 > **Code-Stand:** Akt 3 ab Tag 24, die drei Belagerungs-Aufträge und die Fenster der Auffangstation sind **zweimal** gebaut, auf `fix-akt2` (andere Sitzung, vollständiger, dazu die Taschengröße im Menü) und auf `fix-akt2-folgen` (diese Sitzung). Nur einer darf nach `master`. Empfehlung: `fix-akt2`. Dieses Drehbuch rechnet mit dessen Verhalten: Stahl aus Maschinen erst ab Tag 24, Dons Wahl gibt der Kirche ein Leben in Welle 6. **Falle:** Auf `fix-akt2` steht `HOLM_TAG` noch auf 22 (nur `fix-akt2-folgen` hat 24), das wird beim Merge nachgezogen (F-30).
 > Spieltext Englisch, einfach, vertonbar, Erzähltext im Präsens. Turbo-Tags siehe Abschnitt 10.
 
@@ -13,7 +13,7 @@
 | Duc trägt **immer** die Sonnenbrille | keine Zeile, kein Chip nimmt sie ab, Nähe über Haltung |
 | Kommission passt zu `mo_kommission` | Tag 35, Phase „tag“, Kai, Klapptisch, zwei Männer aus Ajaccio, ein Schreiber, `mo_kommission` eröffnet die Kette (5.25) |
 | Woche 4 atmet | 6 Pflicht-Events, Tag 27 ganz frei, 3,4 freie Phasen je Tag. Woche 5: 16 Pflicht, an Tag 29 bis 34 2,8 freie je Tag |
-| Romanzen fertig spielen | Abschnitt 6 (je Frau eine Schluss-Szene) und Abschnitt 7 (fünf Paare) |
+| Romanzen fertig spielen | Abschnitt 6 (je Frau eine Schluss-Szene). Abschnitt 7: fünf Freundschaften zwischen Yacht und Dorf |
 | Ungelesene `bl_`-Flags | jedes mit Wirkpunkt in seiner Szene, Register in Abschnitt 9 |
 | Romanzen privat (E-060) | private Momente nach Mitternacht, Paar-Neckereien nur über Tratsch, den das Spiel zeigt |
 
@@ -28,17 +28,18 @@
 | **e · Megan** | kommt zwei Tage nach der Belagerung zurück: **Tag 25** | 5.5 |
 | **f · Eco-Idee** | Bibi bekommt ein eigenes Event. Ohne Bibi kommt die Idee von **Lea** | 5.12 |
 | **g · Tauchgang-Fehlschlag** | nimmt nur den Weg „Margot“ der Säule Geld. Yamamoto Bindung 5 und Megans Wende bleiben erreichbar. Alles andere am Fehlschlag bleibt (Riposte weg, Galionsfigur am Strand, Lea geht auf die Azoren) | Abschnitt 8: Säule Geld hat drei Wege, einer reicht |
-| **h · Paare** | fünf wholesome Paar-Ereignisse, in denen Liebe wächst: Lola und Bà Tư, Chiara und Alva, Isabelle und Sophia, Mina und Lea, Holm und Petru. Je romanzierbarer Frau zwei Fassungen | Abschnitt 7, mit Kanon-Prüfung je Paar |
-| **Weiche W · 100 %** | **offen.** Definition steht (E-121): 100 % heißt, der Spieler hat nichts getan, um die Belagerung zu schwächen. Offen ist, wie schwer das ist. **Zweig A:** Balancing wie heute (Anfänger verlieren in Welle 3 rund 3 von 4 Häusern, die Yacht hält meist). **Zweig B:** 100 % wird härter (mehr verlorene Häuser, öfter `tk_yacht_weg`) | Akt 3 liest nur das Ergebnis: 0 bis 4 Baustellen und den Zustand der Yacht. Jede Szene funktioniert mit 0 und mit 4 abgebrannten Häusern und mit beiden Fassungen der Yacht |
+| **h · Paare** | fünf wholesome Ereignisse: Lola und Bà Tư, Chiara und Alva, Isabelle und Sophia, Mina und Lea, Holm und Petru. Je romanzierbarer Frau zwei Fassungen. **Präzisiert (E-124):** Die ersten vier lieben sich nicht im romantischen Sinn, sie verbringen Zeit miteinander und werden tief befreundet. Nur Holm und Petru sind eine späte Liebe (Kanon) | Abschnitt 7, mit Kanon-Prüfung je Paar |
+| **~~Weiche W · 100 %~~ entfällt** (E-124) | Die Zahl „Alon … %“ fällt weg, sie war nur eine Planungshilfe (`belagerung.md` auf master, Abschnitt „Entscheid Duc 04.11.2026“). Jede Hilfe wirkt als sichtbarer Auftritt auf der Karte. **Akt 3 liest nie einen Gesamtwert** (auch nicht `werte.belagerung_prozent`), nur einzelne Flags: wer gekommen ist. Rückbezüge nennen Personen, nicht Zahlen | Register in Abschnitt 9 |
+| *(alt, nur zur Nachverfolgung)* | **offen.** Definition steht (E-121): 100 % heißt, der Spieler hat nichts getan, um die Belagerung zu schwächen. Offen ist, wie schwer das ist. **Zweig A:** Balancing wie heute (Anfänger verlieren in Welle 3 rund 3 von 4 Häusern, die Yacht hält meist). **Zweig B:** 100 % wird härter (mehr verlorene Häuser, öfter `tk_yacht_weg`) | Akt 3 liest nur das Ergebnis: 0 bis 4 Baustellen und den Zustand der Yacht. Jede Szene funktioniert mit 0 und mit 4 abgebrannten Häusern und mit beiden Fassungen der Yacht |
 
-**Noch an Duc (keine Weiche, mit Vorschlag gebaut, Fragenliste):** Festa-Schalter für die drei gebauten Festa-Events (F-22, Vorschlag: Fenster, Phase und Ort mitsetzen), Sandrus Schiene (F-24, Vorschlag: Switched Off in Akt 3, Schiene danach), Reihenfolge von `mo_kommission` (F-25), Paare (F-28, F-29).
+**Noch an Duc (keine Weiche, mit Vorschlag gebaut, Fragenliste):** Festa-Schalter für die drei gebauten Festa-Events (F-22, Vorschlag: Fenster, Phase und Ort mitsetzen), Sandrus Schiene (F-24, Vorschlag: Switched Off in Akt 3, Schiene danach), Reihenfolge von `mo_kommission` (F-25).
 
 ## 2. Die Idee in einem Satz
 
 Zwölf Tage lang baut Duc ein Dorf wieder auf, das ihn am ersten Morgen nicht mehr ansehen will, und am Ende zählt nicht, wie stark er ist, sondern wer bereit ist, laut zu sagen, was er gesehen hat.
 
 **Das Motiv:** *Who saw it?* Akt 2 fragte, wer die Linie hält. Akt 3 fragt, wer es gesehen hat und es sagt. Alon droht nicht mit Gewalt, sondern mit Papier: Jobs, Kredite, Anwaltsbriefe. Gegen Papier hilft nur ein Name, laut gesagt. Das Fischernetz am Ende ist die Liste dieser Namen.
-**Der zweite Faden:** Wer gerade kein Dach hat, schläft bei jemandem. Aus diesen Nächten wächst Liebe, nicht nur bei Duc.
+**Der zweite Faden:** Wer gerade kein Dach hat, schläft bei jemandem. Aus diesen Nächten wachsen Freundschaften, nicht nur bei Duc. **Zum ersten Mal wächst die Yacht mit dem Dorf zusammen:** In Akt 1 hat das Dorf die Yacht geduldet, in Akt 2 haben beide zusammengearbeitet, in Akt 3 werden sie eine Gemeinschaft (Duc, E-124).
 **Die offene Frage des Akts:** Lebt Minicu? Die Tür zum Hinterzimmer der Kirche bleibt zwölf Tage zu.
 
 **Was Duc weiß (eine Fassung):** Ducs Firma gehört zur Eden Group. Dass die Gruppe das Hafenviertel heimlich verkauft hat und an wen, wusste er nicht (E-001, E-003). Kern: *“My company belongs to the Eden Group. I didn't know they sold your harbour, or who bought it.”*
@@ -409,7 +410,7 @@ Vorschlag zu F-24: kommt immer, *weil Alon kann* (Kanon), die Schiene danach. Ha
 | Handlung | | Alva: *“Duc. The door. Can you hold the door?”* · Chips: Holds the door. · Takes his other arm. · Steps back and lets her do it. |
 | Reaktion | Alva trägt ihn über die Straße und die Treppe hoch zur Bar (Bar ist Baustelle: in die Kirche auf ihr Feldbett). | Alva: [sigh] *“You're my little brother, you idiot. I've carried you since you were six.”* · Sandru: *“I know. That's the whole problem.”* |
 | Inhalt | Alons Angebot per Bildschirm im Market. | Bildschirm: *Your device can be switched on again. Please confirm that you will not speak to the commission.* · Sandru: *“Ha. He wants my mouth for my legs.”* Ohne „No Leash“ (5.19) nimmt er an: dann steht er an Tag 34 auf Alons Schienen bei Alon, seine Tür bleibt zu |
-| Schluss | Kein Paar. Mit Chiara und Alva als Paar (7.2) steht Chiara unten an der Treppe und hält die Tür, ohne Zeile. | Erzählerin: *She sits on the stairs for a minute. Then she goes back to work.* |
+| Schluss | Kein Paar. Mit der Freundschaft von Chiara und Alva (7.2) steht Chiara unten an der Treppe und hält die Tür, ohne Zeile. | Erzählerin: *She sits on the stairs for a minute. Then she goes back to work.* |
 
 ### 5.18 Tag 32, Frühstück · `a3_probefahrt` (nur schwer beschädigt), siehe 4.4
 
@@ -517,7 +518,7 @@ Kai, Klapptisch, zwei Männer aus Ajaccio, ein Schreiber (`ereignisse_mochis.py:
 | Inhalt | mit `a3_siri_festa` (Siri hat gewartet): | Siri: *“Now I can post it. He's standing.”* |
 | Inhalt | mit `bl_kirche_casanova`: | Jana: *“Madame, sorry, the children want the end of the long story. The one from the church.”* · Casanova: *“Later. I promise.”* |
 | Inhalt | Festa-Schalter (F-22, Vorschlag): `br_ehrenbuerger` (nicht Ende 1), `ab_casanova_flamenco`, `gv_rotes_kleid` in dieser Reihenfolge | |
-| Inhalt | Die Paare (Abschnitt 7) stehen im Bild. Holm sitzt neben ihrer Mutter, Petru bringt zwei Gläser. Lola trägt Bà Tưs Topf. Die übrigen je nach ihrem Ereignis | Holm: *“Mamma, this is Petru. He's the one who taught me to sit still.”* · Petru: *“Hm.”* |
+| Inhalt | Die Freundschaften aus Abschnitt 7 stehen im Bild. Holm sitzt neben ihrer Mutter, Petru bringt zwei Gläser. Lola trägt Bà Tưs Topf. Die übrigen je nach ihrem Ereignis | Holm: *“Mamma, this is Petru. He's the one who taught me to sit still.”* · Petru: *“Hm.”* |
 | Mitternacht | der private Moment an der Mole (5.21), dann das Ende (Abschnitt 8) | z. B. Chiara: *“Ten. That's a ten, First Officer. Don't let it go to your head. ...Let it go to your head a little.”* |
 | Epilog (Nacht) | Minas Einschreiben, Pascals Tür, niemand macht auf (Kanon) | Mina: *“Sign here.”* · Erzählerin: *Nobody is there. It's the first letter she can't deliver.* |
 
@@ -541,19 +542,21 @@ Je Frau eine Schluss-Szene zwischen Tag 24 und 33 (vor der Villa), Bedingung: St
 
 **Ligeia:** keine Romanze. Mit `ligeia_freund` an Tag 30 eine Flaschenpost: *“Sailor. They say the bay will be safe. I would like to sing at something that isn't a shipwreck.”* Mit `sirene_weg`: *“And keep my stone safe. It has waited longer than you.”*
 
-## 7. Fünf Paare, in denen Liebe wächst (Entscheid h)
+## 7. Fünf Freundschaften: Die Yacht wächst mit dem Dorf zusammen (Entscheid h, E-124)
 
-**Regeln:** wholesome, kein Drama, keine Intim-Szene. Jedes Paar hat ein Ereignis (2 bis 3 Beats) im Pool ab Tag 26, höchstens eins je Tag, Vorrang 65 % wie bei Flirt-Events, spätestens Tag 33 als Nachzügler. Duc ist Zeuge oder hilft und hat **eine Wahl mit Wirkung im Festbild**. **„Duc hat die Romanze“** heißt: Leiter-Stufe 3 erreicht oder Status „zusammen“ oder „offen“ (Begehren allein reicht nicht, Lea und Sophia starten bei 2). Gilt Duc für beide Frauen eines Paares (Chiara und Alva), spielt die Fassung der Frau mit der höheren Leiter-Stufe. Dann spielt die Fassung, in der die andere Figur sie herzlich neckt oder unterstützt. Woher sie davon weiß: nur aus Tratsch, den das Spiel zeigt (Mina „just knows“, Lola erzählt es), wie E-060 es erlaubt. Die volle Fassung lässt die Liebe zwischen den beiden wachsen. Bei Chiara und Alva (beide romanzierbar) spielt die volle Fassung nur, wenn Duc mit keiner von beiden zusammen ist.
+**Der Bogen:** Akt 1 Duldung, Akt 2 Zusammenarbeit, Akt 3 Gemeinschaft. Je ein Crew-Mitglied und ein Mensch aus dem Dorf verbringen Zeit miteinander, und eine tiefe Freundschaft wächst. Keine Romanze, außer bei Holm und Petru (Kanon: späte Liebe).
+
+**Regeln:** wholesome, kein Drama, keine Intim-Szene. Jedes Paar hat ein Ereignis (2 bis 3 Beats) im Pool ab Tag 26, höchstens eins je Tag, Vorrang 65 % wie bei Flirt-Events, spätestens Tag 33 als Nachzügler. Duc ist Zeuge oder hilft und hat **eine Wahl mit Wirkung im Festbild**. **„Duc hat die Romanze“** heißt: Leiter-Stufe 3 erreicht oder Status „zusammen“ oder „offen“ (Begehren allein reicht nicht, Lea und Sophia starten bei 2). Gilt Duc für beide Frauen eines Paares (Chiara und Alva), spielt die Fassung der Frau mit der höheren Leiter-Stufe. Dann spielt die Fassung, in der die andere Figur sie herzlich neckt oder unterstützt. Woher sie davon weiß: nur aus Tratsch, den das Spiel zeigt (Mina „just knows“, Lola erzählt es), wie E-060 es erlaubt. Die volle Fassung lässt die Freundschaft zwischen den beiden wachsen. Bei Chiara und Alva (beide romanzierbar) spielt die volle Fassung nur, wenn Duc mit keiner von beiden zusammen ist.
 
 ### Kanon-Prüfung der Paare
 
 | Paar | Kanon dafür | Kanon dagegen oder heikel | Wie das Drehbuch es löst |
 |---|---|---|---|
-| **Lola und Bà Tư** | Bà Tưs Intro: *“You, later. Him, now.”* (Lola bekommt keinen Teller, `dorf_figuren.md`) · Lola ruft jeden Sonntag ihre Nan an (`lola.md`) · Bà Tư kocht zu viel, nennt Duc „con“ | Lola 24, Bà Tư um die 75: keine Romanze | **Familienliebe:** Bà Tư wird Lolas Insel-Nan. Fragenliste F-28 |
-| **Chiara und Alva** | `alva.md`: Chiara ist eifersüchtig auf Alva · Alva flirtet mit jedem, „nobody's mine“ · Chiara bestellt bei Alva auf Italienisch und verwechselt Oliven mit „Olivetti“ (`chiara.md`) | `dorf_figuren.md`: Alva will heimlich „einen starken Mann“ · Sandru liebt Alva ohne Paar-Ende · beide für Duc romanzierbar | Die Liebe wächst aus Eifersucht zu Nähe und bleibt **zart und offen**, ohne Etikett. Alva formuliert ihren Wunsch neu, ohne ihn zu verraten. Sandru gibt seinen Segen, kein Paar mit ihm (Kanon). Fragenliste F-29 |
-| **Isabelle und Sophia** | Isabelle fragt mit Mina nach einem mutigeren Leben (*“So could you.”*, `kloster.md`) · Sophia schreibt nachts, ist ohne Show schlicht · Bà Tư neckt Isabelle, warum sie keinen jungen Mann hat | Isabelle ist **Novizin** im Habit · Sophia für Duc romanzierbar · Schwester Lea | Die Liebe ist eine **Frage, die Isabelle sich zum ersten Mal erlaubt**, kein Gelübde wird gebrochen, nichts Körperliches. Sophia schreibt ihr eine Zeile, die im Spiel ungesagt bleibt. Fragenliste F-29 |
-| **Mina und Lea** | beide jung (24, 23), beide mit einem Brief, der vom Gehen handelt (Dumè in Montréal, die Azoren) · Mina weiß alles, Lea stellt Fragen, die sich keiner traut | Lea für Duc romanzierbar · Mina „keine Pflicht-Romanze“ (gilt für Duc) | zwei, die beide nicht wissen, ob sie bleiben. Lea schläft bei Mina (wenn die Yacht beschädigt ist) |
-| **Chiara und Sophia (kein Paar, aber Kanon)** | beide Figurenseiten: ein unausgesprochener Kuss nach Saint-Tropez, Sophia lehnte Megans Angebot wegen Chiara ab | beide werden neu verpaart | Je eine Zeile, die es anerkennt: Chiara in 7.2 zu Alva: *“There was someone once. Saint-Tropez. We never talked about it.”* · Sophia in 7.3 schreibt die Zeile an Isabelle in dasselbe Notizbuch, in dem noch eine Seite für Chiara steht (Bild, kein Text). Fragenliste F-29 |
+| **Lola und Bà Tư** | Bà Tưs Intro: *“You, later. Him, now.”* (Lola bekommt keinen Teller, `dorf_figuren.md`) · Lola ruft jeden Sonntag ihre Nan an (`lola.md`) · Bà Tư kocht zu viel, nennt Duc „con“ | Lola 24, Bà Tư um die 75 | **Familienliebe und Freundschaft:** Bà Tư wird Lolas Insel-Nan (E-124) |
+| **Chiara und Alva** | `alva.md`: Chiara ist eifersüchtig auf Alva · Alva flirtet mit jedem, „nobody's mine“ · Chiara bestellt bei Alva auf Italienisch und verwechselt Oliven mit „Olivetti“ (`chiara.md`) | Sandru liebt Alva ohne Paar-Ende · beide für Duc romanzierbar | **Freundschaft:** aus Eifersucht wird die beste Freundin, die keine von beiden je hatte. Alvas heimlicher Wunsch nach einem starken Mann bleibt unberührt. Sandru freut sich für sie (kein Paar mit ihm, Kanon) |
+| **Isabelle und Sophia** | Isabelle fragt mit Mina nach einem mutigeren Leben (*“So could you.”*, `kloster.md`) · Sophia schreibt nachts, ist ohne Show schlicht · Bà Tư neckt Isabelle, warum sie keinen jungen Mann hat | Isabelle ist **Novizin** im Habit · Sophia für Duc romanzierbar · Schwester Lea | **Freundschaft:** Sophia wird die ältere Freundin, die Isabelle Mut macht. Kein Gelübde berührt. Sophia schreibt ihr eine Zeile für Mut, die im Spiel ungesagt bleibt |
+| **Mina und Lea** | beide jung (24, 23), beide mit einem Brief, der vom Gehen handelt (Dumè in Montréal, die Azoren) · Mina weiß alles, Lea stellt Fragen, die sich keiner traut | Lea für Duc romanzierbar · Mina „keine Pflicht-Romanze“ (gilt für Duc) | **Freundschaft:** zwei, die beide nicht wissen, ob sie bleiben. Lea schläft bei Mina (wenn die Yacht beschädigt ist) |
+| **Chiara und Sophia (kein Paar, aber Kanon)** | beide Figurenseiten: ein unausgesprochener Kuss nach Saint-Tropez, Sophia lehnte Megans Angebot wegen Chiara ab | beide werden neu verpaart | Je eine Zeile, die es anerkennt, als Vertrauen unter Freundinnen: Chiara in 7.2 erzählt Alva davon, zum ersten Mal überhaupt · Sophia in 7.3 schreibt die Zeile an Isabelle in dasselbe Notizbuch, in dem noch eine Seite für Chiara steht (Bild, kein Text) |
 | **Holm und Petru** | Kanon: späte Liebe in Akt 3 (`holm.md`, `petru.md`), Holms Mutter kommt, Ingrid ruft an | keine | volle Fassung immer, beide nicht romanzierbar |
 
 ### 7.1 Lola und Bà Tư · „You, Now“ (wholesome, Familienliebe)
@@ -568,29 +571,29 @@ Je Frau eine Schluss-Szene zwischen Tag 24 und 33 (vor der Villa), Bedingung: St
 | Reaktion | Lola ruft ihre Nan an, auf Lautsprecher. Nan: *“Is she feeding you? Then she's family.”* · Bà Tư: *“Tell her I put extra fish sauce.”* | gleich |
 | Wirkung | Los *The Pot* mit Lola als zweiter Köchin, im Festbild trägt Lola den Topf. Chip „Call your Nan“: Lolas Nan ist im Festbild auf einem Handy dabei | gleich |
 
-### 7.2 Chiara und Alva · „Olivetti“ (wholesome, zart)
+### 7.2 Chiara und Alva · „Olivetti“ (wholesome, Freundschaft)
 
 | Beat | Volle Fassung (Duc mit keiner von beiden) | Fassung Duc und Chiara | Fassung Duc und Alva |
 |---|---|---|---|
 | Ansage | Alvas Bar oder Notbar, spät. Chiara schläft bei Alva (wenn die Yacht beschädigt ist). Chiara wischt die Gläser, falsch. | gleich | gleich |
-| Inhalt | Chiara: *“Four. Your glasses are a four. The bar is a nine.”* · Alva: *“And me?”* · Chiara, zu schnell: *“Not on the scale.”* | Alva: *“Mina says you rated the First Officer a nine and a half. Out loud. In a bar.”* · Chiara: *“That's a classified number.”* | Chiara: *“So. You and the First Officer. Lola told me, and Lola tells everybody. Seven out of ten for hiding it.”* |
-| Wende | Alva bestellt bei Chiara „in Italian“, wie Chiara es immer tut, und sagt mit Absicht „Olivetti“. Chiara lacht zum ersten Mal ohne Note. Alva: *“I said it once, to an empty bar: I want someone who can carry me up the stairs. Maybe I want someone who doesn't let me carry everything.”* · Chiara: *“There was someone once. Saint-Tropez. We never talked about it. ...I'm talking now.”* | Alva gibt Chiara ein Glas: *“Be good to him. And make him sleep sometimes. He looks like you.”* | Chiara stellt Alva einen Kaffee hin: *“I was jealous of you for three weeks. That's a ten in jealousy. I'm retiring now.”* · Alva: *“Then stay for a drink, Hamburg.”* |
-| Inhalt (Sandru) | Am nächsten Morgen bringt Sandru Brot, gratis, und gibt es Chiara statt Alva: *“She laughs different now. It's good. Just be good to her.”* (Kanon „Fresh Bread“, hier an Chiara; kein Paar mit Sandru) | entfällt | entfällt |
-| Handlung (Duc) | Chiara: *“First Officer, is it allowed to like someone who's better at bars than me?”* · Chips: “It's allowed. It's even a nine.” · Smiles and says nothing. · “Ask her, not me.” | Chiara: *“Is it strange that she's nice to me now?”* · Chips: “It's the best thing that happened all week.” · “She's nice to everyone. You just noticed.” | Alva: *“Hamburg's not bad, o figliolu. Do you mind if she drinks here?”* · Chips: “She can drink here every night.” · “Only if she pays.” |
-| Wirkung | Im Festbild tanzen sie nach Alvas Flamenco, ohne Etikett. Chip „Ask her“: Chiara fragt Alva selbst, Alva sagt im Festbild ein Wort: *“Ten.”* | Chiara und Alva mischen zusammen das Getränk (Los *The Festa Drink*) | gleich |
+| Inhalt | Chiara: *“Four. Your glasses are a four. The bar is a nine.”* · Alva: *“And me?”* · Chiara, zu schnell: *“Not on the scale. Scales are for things.”* | Alva: *“Mina says you rated the First Officer a nine and a half. Out loud. In a bar.”* · Chiara: *“That's a classified number.”* | Chiara: *“So. You and the First Officer. Lola told me, and Lola tells everybody. Seven out of ten for hiding it.”* |
+| Wende | Alva bestellt bei Chiara „in Italian“, wie Chiara es immer tut, und sagt mit Absicht „Olivetti“. Chiara lacht zum ersten Mal ohne Note. Alva: *“Nobody makes me laugh in my own bar. That's my job, Hamburg.”* · Chiara: *“There was someone once. Saint-Tropez. I never told anyone. ...I'm telling you.”* · Alva stellt zwei Gläser hin und setzt sich zum ersten Mal auf die Gästeseite der Theke. | Alva gibt Chiara ein Glas: *“Be good to him. And make him sleep sometimes. He looks like you.”* | Chiara stellt Alva einen Kaffee hin: *“I was jealous of you for three weeks. That's a ten in jealousy. I'm retiring now.”* · Alva: *“Then stay for a drink, Hamburg.”* |
+| Inhalt (Sandru) | Am nächsten Morgen bringt Sandru Brot, gratis, und gibt es Chiara statt Alva: *“She laughs different now. You did that. Thank you.”* (Kanon „Fresh Bread“, hier an Chiara; kein Paar mit Sandru) | entfällt | entfällt |
+| Handlung (Duc) | Chiara: *“First Officer, is it strange to get a best friend at twenty-nine? I never had one.”* · Chips: “It's not strange. It's a nine.” · Smiles and says nothing. · “Tell her, not me.” | Chiara: *“Is it strange that she's nice to me now?”* · Chips: “It's the best thing that happened all week.” · “She's nice to everyone. You just noticed.” | Alva: *“Hamburg's not bad, o figliolu. Do you mind if she drinks here?”* · Chips: “She can drink here every night.” · “Only if she pays.” |
+| Wirkung | Im Festbild tanzen sie nach Alvas Flamenco zusammen, wie zwei alte Freundinnen. Chip „Tell her“: Chiara sagt es Alva selbst, Alva sagt im Festbild ein Wort: *“Ten.”* | Chiara und Alva mischen zusammen das Getränk (Los *The Festa Drink*) | gleich |
 
-### 7.3 Isabelle und Sophia · „A Line in the Margin“ (wholesome, still)
+### 7.3 Isabelle und Sophia · „A Line in the Margin“ (wholesome, Freundschaft)
 
 | Beat | Volle Fassung | Fassung mit Duc und Sophia |
 |---|---|---|
 | Ansage | Kloster, Apotheke bei Nacht. Sophia schläft hier (wenn die Yacht beschädigt ist) oder kommt für Kräuter. Isabelle hat schon wieder etwas explodieren lassen. | gleich |
 | Inhalt | Sophia hilft beim Aufräumen, ohne Show. Isabelle: *“Sorry. Sorry, it was only rosemary.”* · Sophia: *“Darling, I've seen worse things explode. Usually men.”* | gleich |
 | Inhalt | Isabelle fragt, was Sophia nachts schreibt. Rückbezug auf ihr Gespräch mit Mina auf dem Berg: *“Mina once said to me, up on the hill, 'You could have left.' Did you ever leave somewhere, Sophia?”* | Isabelle: *“Mina says you and the officer talk every night. She just knows things. Is it true?”* · Sophia: *“Darling, Mina knows everything. Don't tell Lea.”* |
-| Wende | Sophia schreibt eine Zeile an den Rand von Isabelles Kräuterbuch und geht. Isabelle liest sie, als Sophia weg ist. Erzählerin: *She reads it twice. She doesn't tell Nonna.* Die Zeile bleibt im Spiel ungesagt. | Sophia schreibt Isabelle eine Zeile für Mut, keine Liebe: *“For when you want to leave somewhere. Or stay.”* |
+| Wende | Sophia schreibt eine Zeile für Mut an den Rand von Isabelles Kräuterbuch und geht. Isabelle liest sie, als Sophia weg ist. Erzählerin: *She reads it twice. Then she smiles at the rosemary.* Die Zeile bleibt im Spiel ungesagt. | Sophia schreibt Isabelle eine Zeile für Mut, keine Liebe: *“For when you want to leave somewhere. Or stay.”* |
 | Handlung (Duc) | Isabelle, am nächsten Morgen: *“Sir, is it wrong to keep a line somebody wrote for you?”* · Chips: “No. It's yours.” · “Ask Nonna. She'll know.” · “Read it once more, then decide.” | Isabelle: *“She's brave, isn't she? Is it hard, being brave?”* · Chips: “Ask her. She'll tell you it isn't.” · “Yes. She does it anyway.” |
-| Wirkung | Isabelle steckt zur Festa eine Rosmarinblüte an Sophias Mantel (Los *The Garden*). Chip „Ask Nonna“: Nonna sagt nur *“Keep it.”* Kein Gelübde gebrochen, keine Entscheidung erzwungen | Isabelle sitzt bei Sophias Lesung in der ersten Reihe |
+| Wirkung | Isabelle steckt zur Festa eine Rosmarinblüte an Sophias Mantel (Los *The Garden*). Chip „Ask Nonna“: Nonna sagt nur *“Keep it. Friends are rare up here.”* | Isabelle sitzt bei Sophias Lesung in der ersten Reihe |
 
-### 7.4 Mina und Lea · „Two Letters“ (wholesome)
+### 7.4 Mina und Lea · „Two Letters“ (wholesome, Freundschaft)
 
 | Beat | Volle Fassung | Fassung mit Duc und Lea |
 |---|---|---|
@@ -658,6 +661,11 @@ Sichtbar im Schlussbild: Lose (was steht, wie es aussieht), wer im Netz fehlt (M
 | Rudern | 5.1, 5.25 | neues Flag `bl_dorf_rudert` (F-21) |
 | `tk_yacht_weg` | 4.4 | schwer beschädigt, Reparatur |
 | `danzel_festa_auftrag`, `chiara_festa_kleid` (Wirkpunkt-Audit) | 4.3 | Los *The Dresses* |
+| `belagerung_gewonnen` | 5.1, 8 | Akt 3 startet nur danach normal; ohne Sieg ist das Dorf stiller (Baustellen bleiben, Fassung beim Bau) |
+| `rt_ausgang_alle` (wie `rt_ende_alle`) | 5.7, 5.25 | Red-Trio-Aussagen |
+| `holm_zurueck` | 5.5, 5.10, 7.5 | Holm war in der Schlacht dabei, Rückbezug mit Erinnerung |
+| `nacht_bei` (Zustand, je Welle) | 6 | wer die Nacht vor einer Welle bei Duc war, Rückbezug in der Schluss-Szene |
+| `werte.belagerung_prozent` | – | **nie lesen** (E-124) |
 | **neu:** `bl_dorf_rudert` (F-21), `bl_nachtwache_pascal`, `gr_riscossore_gesehen` | 5.1, 5.10, 5.13 | beim Bau setzen |
 
 ## 10. Gags, Ton, Englisch, Tags
