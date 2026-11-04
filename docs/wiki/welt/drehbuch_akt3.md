@@ -873,6 +873,24 @@ Gelesene Wahlen jetzt: Lose 46 von 47 (Capra „nein“ hat bewusst kein Bild), 
 **Die lange Tafel, Weg A (Duc 04.11.2026):** *Stella* ist Maries Boot. Sie fuhr damit dreißig Jahre jeden Morgen hinaus, seit ihrem Tod liegt es aufgebockt in der Werkstatt. Petrus Arbeitsboot ist das grüne am Kai. Wählt Duc *Stella*, lässt Petru Marie los, und das Dorf sitzt an ihrem Boot. Ist Holm zurück, sägt sie mit, und es folgt **ihr Loslassen** (`a3_los_tafel_holm`): vielleicht ihre letzte Saison, die Mutter in Ålesund ist alt, sie schläft an Land besser. Sie fragt Duc, ob ihre vier Kapitänsstreifen in den Tisch kommen: „in den Tisch“ (sie bleibt an Land, `_streifen`), „noch eine Saison“ (`_saison`) oder „frag Petru“ (er sagt ein Wort: *Stay*, `_petru`). Die Festa zeigt die Wahl am Kopf der Tafel. Beim Besuch der Werkstatt läuft der zweite Takt ohne Ausflug weiter (`direkt`).
 **Neuer Kanon (Vorschlag, E-129 offen):** *Stella*, Maries Boot. Sein Vater verlor einmal ein Boot an eine Bank. Holms Streifen am Tisch.
 
+### Kommission als Verhandlung (Duc 04.11.2026: „wie Ace Attorney, aber oscarpreisträchtig“, E-130)
+
+**Gebaut:** Regeln `kern/kommission.py`, Daten `werkzeuge/eden_rise/kommission_akt3.py` → `module/eden_rise/kommission.json`, 49 Zeilen mit Turbo-Tags, Test `tests/test_kommission.py`, Aktion `kommission` und Ansicht in `eden.py`. **Nicht gebaut:** der Bildschirm (Plugin). Schalter `kommission.AN = False`: Bis das Plugin steht, läuft die Szenen-Kette `a3_kommission`.
+
+| Teil | Regel | Zahlen |
+|---|---|---|
+| **Gegenseite** | Maître Delorme, Anwalt von A.V. aus Lyon, liest je Runde eine Aussage mit drei Sätzen. Kommissar Santoni aus Ajaccio leitet | neue Nebenfiguren, Legenden-Kommentar folgt |
+| **Runden** | 1 *The Fire* (Piraten allein? niemand wusste es? vierzig Minuten?), 2 *The Gate* (Barrikade gebrochen? Männer in Weiß zum Schutz? niemand sah etwas?), 3 *The Money* (Kredite aus Güte? kein Euro bezahlt? nie gedroht?) | 3 Runden, je 3 Sätze, 8 davon falsch |
+| **Press** | jeden Satz hinterfragen; der Anwalt legt sich fest. Zwei falsche Sätze sind erst danach angreifbar (die vierzig Minuten, die Barrikade) | ohne Kosten |
+| **Objection!** | eine Karte gegen einen Satz: passt sie zu einem falschen, festgelegten Satz, kippt die Runde (Kommissar, der Anwalt wackelt, das Dorf reagiert). Sonst Geduld −1, bei einem wahren Satz mit Spott, bei einem noch nicht festgelegten mit „listen first“ | Geduld 3 |
+| **Karten** | Zeugen, die zugesagt haben (`a3_zeuge_*`), und Beweise (Whites Plan, Funk, Funkbuch, Kiste, Siris Video, Sophias Notizen, Bibis Schuhkarton). Immer da: Buenaventura (Runde 1) und der Mann mit der Orange (Runde 3, Kanon) | 16 Karten |
+| **Keine Antwort** | „nichts“: Runde verloren, Geduld bleibt | |
+| **Geduld 0** | Rest verloren, gleich das Plädoyer | |
+| **Plädoyer** | Der Anwalt legt Pascals Kassenbuch gegen das Dorf vor. Duc: alles (Casanova: *“Write my name first.”*) oder nur Alons Teil | `a3_kassenbuch_alles` / `_teil` |
+| **Folge** | `a3_kom_<runde>`, `a3_kom_runden_<n>`; zwei oder drei Runden tragen die Säule Wahrheit | |
+
+**Für die lokale Sitzung (Plugin `eden-commission`):** Aufbau wie `eden-hearing`: oben Runde und Geduld, Mitte die drei Sätze mit „Press“ und einem Platz für die Karte, unten die Karten als Stapel (Zeugen, Beweise), groß „OBJECTION!“. Status `kommission`, Ansicht `z.kommission` (`kern/kommission.ansicht`), Aktion `senden("kommission", {was: press|vorlegen|nichts|plaedoyer|schliessen, satz, karte, art})`. Start: in `a3_kommission` statt der Szenen-Kette `kommission.beginnen` und `z["status"] = "kommission"`, wenn `kommission.AN`.
+
 **Akt 3 einschalten:** `AKT3_SPIELBAR = True` in `werkzeuge/eden_rise/modul_eden_rise.py`, dann `modul_eden_rise.py` bauen. Erst nach Ducs lokalem Durchlauf mit Bildern (Bot-Lauf `PYTHONHASHSEED=0`, Paket G). `kaempfe.json` gezielt ergänzt (der Kampf-Builder bricht hier an fehlenden Sounds ab): lokal `kaempfe_eden_rise.py` laufen lassen. Angepasst: `tests/test_akt2_events.py` (neue Fenster), `tests/test_holm_wette.py` (Tag 24, lokal nicht prüfbar wegen `eden-config.json`). Alle `test_*.py` vor und nach Paket A: 47 gegen 48 grün, kein Test hat seinen Status verloren.
 
 ## 13. Was aus den Befunden wurde

@@ -23,7 +23,7 @@ from kern import handel, showrunner, chronik, gesten, wuerfel, kabine, ermittlun
 from kern import kampf  # noqa: E402
 from kern import tutorial  # noqa: E402
 from kern import anhoerung  # noqa: E402
-from kern import akt3, aufbau, belagerung, meta, taktik  # noqa: E402
+from kern import akt3, aufbau, belagerung, kommission, meta, taktik  # noqa: E402
 from kern import album  # noqa: E402
 from kern import sturm  # noqa: E402
 from kern import expedition  # noqa: E402
@@ -753,6 +753,22 @@ def aktion(name, daten):
             elif z["status"] == "wahl" and ereignisse.pflicht_ziehen(z, modul, moddir(z["modul"]), nur_prolog=True):
                 z["event"]["weiter"], z["event"]["status_vorher"] = "wahl", "wahl"
                 z["status"] = "ereignis"              # Kette (Hafenkampf): naechstes Glied nach dem Kampf
+    elif name == "kommission":                        # Akt 3: Kommission als Verhandlung (kern/kommission.py, Plugin folgt lokal)
+        d = kommission.daten(moddir(z["modul"]))
+        if z["status"] != "kommission" or not z.get("kommission") or not d:
+            raise ValueError("Gerade tagt keine Kommission.")
+        was = daten.get("was") or ""
+        if was == "press":
+            kommission.press(z, d, daten.get("satz", 0))
+        elif was == "vorlegen":
+            kommission.vorlegen(z, d, daten.get("satz", 0), daten.get("karte") or "")
+        elif was == "nichts":
+            kommission.nichts(z, d)
+        elif was == "plaedoyer":
+            kommission.plaedoyer(z, d, daten.get("art") or "")
+        elif was == "schliessen" and z["kommission"]["fertig"]:
+            z["status"] = "wahl"
+            weiter(z, modul, plan.naechste_phase(z, modul))
     elif name == "verhandlung":                       # spielbare Anhoerung (Variante B, 25.10.2026), kern/anhoerung.py
         if z["status"] != "verhandlung" or not z.get("verhandlung"):
             raise ValueError("Gerade laeuft keine Anhörung.")
@@ -1456,6 +1472,8 @@ def ansicht(z, debug=False):
             s = wunsch if wunsch in vorhanden else next(iter(vorhanden), None)     # Standard-Set fehlt (z. B. umbenannt)
             return buehne.sprite(cfg(), modul, pid, s, gef, pid + gef) if s else None
         v["z"]["verhandlung"] = anhoerung.verhandlung_ansicht(z, modul, vh_sprite)
+    if z["status"] == "kommission":                   # Akt 3: Kommission als Verhandlung (kern/kommission.py)
+        v["z"]["kommission"] = kommission.ansicht(z, kommission.daten(moddir(z["modul"])) or {})
     if z["status"] == "sturm":
         sets = (z.get("szene") or {}).get("sets", {})
 

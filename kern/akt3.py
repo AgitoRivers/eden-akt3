@@ -103,7 +103,8 @@ def saeulen(z):
     f, w = z.get("flags", []), z.get("werte", {})
     nb, nz = len(beweise(z)), len(zeugen(z)) + (1 if w.get("ruf", 0) >= 5 else 0)
     return {
-        "wahrheit": nb >= 3 or (nb >= 2 and "a3_kassenbuch_alles" in f),
+        "wahrheit": nb >= 3 or (nb >= 2 and "a3_kassenbuch_alles" in f)
+                    or "a3_kom_runden_2" in f or "a3_kom_runden_3" in f,          # Kommission als Verhandlung: 2 von 3 Runden
         "geld": "margot_geborgen" in f or w.get("vertrauen.yamamoto", 0) >= 5 or "a3_megan_wende" in f,
         "gemeinschaft": nz >= 5 or (nz >= 4 and "a3_kassenbuch_teil" in f),
         "staerke": "a3_alon_besiegt" in f or "a3_alon_festgenommen" in f,

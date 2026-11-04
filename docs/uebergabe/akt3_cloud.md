@@ -43,7 +43,7 @@ Stand 04.11.2026, Block 3: Drehbuch Version 3.4 (Bones, Charly und Danzel, Festa
 - Gebaut: Enden mit Entwürfen und Erklärung, ★ über `kern/meta.py` (`spielstaende/_meta.json`), Riscossore immer, Feldbett in der Kirche, Einladungen nach Mitternacht, höchstens drei Karten, Endkampf mit Verbündeten (`beistand`), Alvas Satz, Sandrus „Your Own Name“, mehr Petru, Stella und Holms Los.
 - **Für die Story-Sitzung:** Totòs Akt-3-Geheimnis schreiben (F-19), Platz in Woche 5.
 - **Für Character Design (optional):** Holms Mutter als Bild (F-14), bis dahin nur ihre Zeile. Der Chef der Eden Group bleibt nur Stimme (F-07), kein Bild.
-- **In Arbeit:** Kommission als eigene Mechanik wie die Anhörung (F-08). Die Anhörung selbst ist an die Fall-Daten und die vh.-Texte gebunden, die diese Sitzung nicht öffnen darf; die Kommission bekommt eigenes Modul und eigene Daten.
+- **Kommission als Verhandlung (F-08):** Regeln, Daten, 49 Zeilen und Test gebaut (`kern/kommission.py`, `kommission_akt3.py`). **Lokal:** Plugin `eden-commission` bauen und `kommission.AN = True` setzen, Bauanleitung im Drehbuch 12a. Sprecher `anwalt` und `kommissar` brauchen Stimmen. Die Anhörung selbst ist an die Fall-Daten und die vh.-Texte gebunden, die diese Sitzung nicht öffnen darf; die Kommission bekommt eigenes Modul und eigene Daten.
 
 ## Wartet auf Ducs Urteil
 

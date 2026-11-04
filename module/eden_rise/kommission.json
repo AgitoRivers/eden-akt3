@@ -1,0 +1,602 @@
+{
+ "_hinweis": "Gebaut aus werkzeuge\\eden_rise\\kommission_akt3.py - dort aendern. Regeln: kern/kommission.py.",
+ "sprecher": {
+  "anwalt": "Maître Delorme",
+  "kommissar": "Commissioner Santoni"
+ },
+ "geduld": 3,
+ "texte": {
+  "titel": "The Commission",
+  "untertitel": "Day 35 · the quay · two men from Ajaccio and a folding table",
+  "eroeffnung": {
+   "wer": "kommissar",
+   "text": "We are here to find out what happened in this bay on the twenty-first, twenty-second and twenty-third. Maître Delorme speaks for A.V. You speak for the village. Three questions.",
+   "gefuehl": "neutral"
+  },
+  "anwalt_auftritt": {
+   "wer": "anwalt",
+   "text": "Commissioner. Gentlemen. Good people of Cala d'Orsu. My client sends his warmest regards. He is very busy saving the world.",
+   "gefuehl": "amusement"
+  },
+  "falsch_gelegt": [
+   {
+    "wer": "kommissar",
+    "text": "That doesn't answer the sentence, First Officer.",
+    "gefuehl": "annoyance"
+   },
+   {
+    "wer": "kommissar",
+    "text": "We are not here for guesses. Please.",
+    "gefuehl": "disapproval"
+   },
+   {
+    "wer": "kommissar",
+    "text": "My patience is a small boat, First Officer. Don't make it sink.",
+    "gefuehl": "annoyance"
+   }
+  ],
+  "falsch_wahr": {
+   "wer": "anwalt",
+   "text": "Objection to the objection. That sentence happens to be true.",
+   "gefuehl": "amusement"
+  },
+  "zu_frueh": {
+   "wer": "anwalt",
+   "text": "I said nothing of the kind, Commissioner. Perhaps the First Officer should listen first.",
+   "gefuehl": "amusement"
+  },
+  "geduld_weg": {
+   "wer": "kommissar",
+   "text": "Enough. We have heard enough guesses. We will decide with what we have.",
+   "gefuehl": "anger"
+  },
+  "nichts": {
+   "wer": "kommissar",
+   "text": "No answer? Then the sentence stands as it is.",
+   "gefuehl": "neutral"
+  },
+  "urteil": {
+   "3": {
+    "wer": "kommissar",
+    "text": "Thank you. We have what we need. All three questions. You'll know tonight, but I think you know already.",
+    "gefuehl": "admiration"
+   },
+   "2": {
+    "wer": "kommissar",
+    "text": "Thank you. Two questions answered, one still open. You'll know tonight.",
+    "gefuehl": "neutral"
+   },
+   "1": {
+    "wer": "kommissar",
+    "text": "Thank you. One answer is not much. You'll know tonight.",
+    "gefuehl": "neutral"
+   },
+   "0": {
+    "wer": "kommissar",
+    "text": "Thank you, everyone. We will write our report. Don't expect too much from it.",
+    "gefuehl": "sadness"
+   }
+  }
+ },
+ "runden": [
+  {
+   "id": "feuer",
+   "titel": "The Fire",
+   "ansage": {
+    "wer": "kommissar",
+    "text": "First question. The fire on the night of the twenty-second. Maître, your client's version.",
+    "gefuehl": "neutral"
+   },
+   "saetze": [
+    {
+     "text": {
+      "wer": "anwalt",
+      "text": "A band of pirates attacked this village on their own, for loot. It is sad, but it is simple.",
+      "gefuehl": "neutral"
+     },
+     "falsch": true,
+     "press": {
+      "wer": "anwalt",
+      "text": "Pirates steal, Commissioner. That is what the word means. Nobody needs to pay a pirate to be a pirate.",
+      "gefuehl": "amusement"
+     }
+    },
+    {
+     "text": {
+      "wer": "anwalt",
+      "text": "Nobody could have known it was coming. Not the village, not my client.",
+      "gefuehl": "neutral"
+     },
+     "falsch": true,
+     "press": {
+      "wer": "anwalt",
+      "text": "Nobody. Not one call, not one warning. If someone knew, they kept it to themselves.",
+      "gefuehl": "neutral"
+     }
+    },
+    {
+     "text": {
+      "wer": "anwalt",
+      "text": "My client's security team arrived in forty minutes and saved lives. Zero dead.",
+      "gefuehl": "pride"
+     },
+     "falsch": true,
+     "nur_nach_press": true,
+     "press": {
+      "wer": "anwalt",
+      "text": "Forty minutes, door to door. It was on every screen in Europe. Ask anyone on this square who saw them.",
+      "gefuehl": "pride"
+     }
+    }
+   ],
+   "treffer": {
+    "wer": "kommissar",
+    "text": "...Maître. Would you like to say that sentence again? Slowly?",
+    "gefuehl": "disapproval"
+   },
+   "anwalt_wackelt": {
+    "wer": "anwalt",
+    "text": "I... my client was misinformed about the details. The details.",
+    "gefuehl": "nervousness"
+   },
+   "dorf": {
+    "wer": "petru",
+    "text": "Hm. The sea doesn't lie either.",
+    "gefuehl": "approval"
+   }
+  },
+  {
+   "id": "tor",
+   "titel": "The Gate",
+   "ansage": {
+    "wer": "kommissar",
+    "text": "Second question. How did the attackers get into the village?",
+    "gefuehl": "neutral"
+   },
+   "saetze": [
+    {
+     "text": {
+      "wer": "anwalt",
+      "text": "The north barricade broke under the attack. Old wood, Commissioner. It simply gave way.",
+      "gefuehl": "neutral"
+     },
+     "falsch": true,
+     "nur_nach_press": true,
+     "press": {
+      "wer": "anwalt",
+      "text": "Broken, yes. From the outside, by force. It was closed and locked until the very end. I have that in writing.",
+      "gefuehl": "neutral"
+     }
+    },
+    {
+     "text": {
+      "wer": "anwalt",
+      "text": "The men in white were my client's security. They came to protect the village, not to attack it.",
+      "gefuehl": "neutral"
+     },
+     "falsch": true,
+     "press": {
+      "wer": "anwalt",
+      "text": "They came when they heard the shots. Not one minute before. Why would they be there before?",
+      "gefuehl": "amusement"
+     }
+    },
+    {
+     "text": {
+      "wer": "anwalt",
+      "text": "And frankly, nobody in this village saw who came through. It was dark, there was smoke, people were afraid.",
+      "gefuehl": "neutral"
+     },
+     "falsch": true,
+     "press": {
+      "wer": "anwalt",
+      "text": "Not one person. If somebody here saw something, why didn't they say so at the time?",
+      "gefuehl": "neutral"
+     }
+    }
+   ],
+   "treffer": {
+    "wer": "kommissar",
+    "text": "So the barricade did not break. It was opened. Clerk, write that down. In capitals.",
+    "gefuehl": "surprise"
+   },
+   "anwalt_wackelt": {
+    "wer": "anwalt",
+    "text": "Commissioner, I must ask for a short pause. ...No? No pause. I see.",
+    "gefuehl": "nervousness"
+   },
+   "dorf": {
+    "wer": "mina",
+    "text": "They're writing it down. In capitals!",
+    "gefuehl": "excitement"
+   }
+  },
+  {
+   "id": "geld",
+   "titel": "The Money",
+   "ansage": {
+    "wer": "kommissar",
+    "text": "Last question. Money. Who paid whom, and for what?",
+    "gefuehl": "neutral"
+   },
+   "saetze": [
+    {
+     "text": {
+      "wer": "anwalt",
+      "text": "A.V. bought loans in this village to help people. Banks were cruel, my client was kind.",
+      "gefuehl": "neutral"
+     },
+     "falsch": false,
+     "press": {
+      "wer": "anwalt",
+      "text": "Lower interest, longer terms. Read the contracts. They are generous.",
+      "gefuehl": "neutral"
+     }
+    },
+    {
+     "text": {
+      "wer": "anwalt",
+      "text": "And nobody can prove that my client paid a single euro to anyone in this bay. Not one euro.",
+      "gefuehl": "pride"
+     },
+     "falsch": true,
+     "press": {
+      "wer": "anwalt",
+      "text": "Bring me a bank transfer, a signature, a receipt. You can't. Because there is none.",
+      "gefuehl": "pride"
+     }
+    },
+    {
+     "text": {
+      "wer": "anwalt",
+      "text": "My client has never threatened anyone. Not with a letter, not with a word.",
+      "gefuehl": "neutral"
+     },
+     "falsch": true,
+     "press": {
+      "wer": "anwalt",
+      "text": "A letter about a loan is not a threat. It is a letter. People send letters.",
+      "gefuehl": "neutral"
+     }
+    }
+   ],
+   "treffer": {
+    "wer": "kommissar",
+    "text": "Page forty-one, Maître. Or a receipt. Or a man without his legs. Choose which one you'd like to explain first.",
+    "gefuehl": "anger"
+   },
+   "anwalt_wackelt": {
+    "wer": "anwalt",
+    "text": "...I would like to speak with my client.",
+    "gefuehl": "fear"
+   },
+   "dorf": {
+    "wer": "batu",
+    "text": "Eat, Maître. You look pale.",
+    "gefuehl": "amusement"
+   }
+  }
+ ],
+ "karten": [
+  {
+   "id": "buenaventura",
+   "art": "zeuge",
+   "wer": "bonaventure",
+   "titel": "Captain Buenaventura",
+   "text": "He gave the order to burn, and the order to stop. A man named White paid him.",
+   "wenn": {
+    "flag": "buenaventura_schwur"
+   },
+   "passt": [
+    [
+     "feuer",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "riscossore",
+   "art": "zeuge",
+   "wer": "riscossore",
+   "titel": "The Man with the Orange",
+   "text": "His debt book, page forty-one: what White offered the captain, in clean money.",
+   "wenn": null,
+   "passt": [
+    [
+     "geld",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "befehl",
+   "art": "beweis",
+   "titel": "White's Orders",
+   "text": "From the villa cellar. Day 22, phase 3: torches, houses. And a receipt to Captain Buenaventura.",
+   "wenn": {
+    "flag": "a3_beweis_feuer"
+   },
+   "passt": [
+    [
+     "feuer",
+     0
+    ],
+    [
+     "geld",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "batu",
+   "art": "zeuge",
+   "wer": "batu",
+   "titel": "Bà Tư",
+   "text": "Men in white asked her twice for the north road, days before the attack.",
+   "wenn": {
+    "flag": "a3_zeuge_batu"
+   },
+   "passt": [
+    [
+     "feuer",
+     1
+    ],
+    [
+     "tor",
+     2
+    ]
+   ]
+  },
+  {
+   "id": "funk",
+   "art": "beweis",
+   "titel": "The Radio Recording",
+   "text": "Twenty-one forty, the night before: a calm voice says 'tonight'.",
+   "wenn": {
+    "eine": [
+     {
+      "flag": "bl_funk_white"
+     },
+     {
+      "flag": "bl_funk_charly"
+     }
+    ]
+   },
+   "passt": [
+    [
+     "feuer",
+     1
+    ],
+    [
+     "tor",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "casanova",
+   "art": "zeuge",
+   "wer": "casanova",
+   "titel": "Madame Casanova",
+   "text": "The mayor. She stood on the square all night. Nobody came. Nobody at all.",
+   "wenn": {
+    "flag": "a3_zeuge_casanova"
+   },
+   "passt": [
+    [
+     "feuer",
+     2
+    ]
+   ]
+  },
+  {
+   "id": "siri",
+   "art": "beweis",
+   "titel": "Siri's Video",
+   "text": "No filter, no music. The gate, the smoke, Minicu. The clock in the corner of the picture.",
+   "wenn": {
+    "flag": "a3_siri_post"
+   },
+   "passt": [
+    [
+     "feuer",
+     2
+    ],
+    [
+     "tor",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "sophia",
+   "art": "beweis",
+   "titel": "Sophia's Notes",
+   "text": "Every time and every word she heard on the radio that night, in her small, neat handwriting.",
+   "wenn": {
+    "flag": "sophia_notizen"
+   },
+   "passt": [
+    [
+     "feuer",
+     2
+    ],
+    [
+     "tor",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "alva",
+   "art": "zeuge",
+   "wer": "alva",
+   "titel": "Alva",
+   "text": "From the square she saw the north barricade open. Then the men in white came through.",
+   "wenn": {
+    "flag": "a3_zeuge_alva"
+   },
+   "passt": [
+    [
+     "tor",
+     0
+    ],
+    [
+     "tor",
+     2
+    ]
+   ]
+  },
+  {
+   "id": "don",
+   "art": "zeuge",
+   "wer": "anghjulu",
+   "titel": "Don Anghjulu",
+   "text": "He was at the church door. He saw the gate open.",
+   "wenn": {
+    "flag": "a3_zeuge_anghjulu"
+   },
+   "passt": [
+    [
+     "tor",
+     0
+    ]
+   ]
+  },
+  {
+   "id": "wache",
+   "art": "beweis",
+   "titel": "The Radio Log",
+   "text": "Three o'clock, the night of the twenty-second. Two words from the north road: 'Not yet.'",
+   "wenn": {
+    "flag": "bl_wache_gesehen"
+   },
+   "passt": [
+    [
+     "tor",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "kiste",
+   "art": "beweis",
+   "titel": "The Crate of Collars",
+   "text": "From the grotto. Collars with blinking lights, the same white plastic as the men's equipment.",
+   "wenn": {
+    "flag": "alon_kiste_genutzt"
+   },
+   "passt": [
+    [
+     "tor",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "mina",
+   "art": "zeuge",
+   "wer": "mina",
+   "titel": "Mina",
+   "text": "She knocked on every door the day the phones were dead. She carries A.V.'s letters too.",
+   "wenn": {
+    "flag": "a3_zeuge_mina"
+   },
+   "passt": [
+    [
+     "tor",
+     2
+    ],
+    [
+     "geld",
+     2
+    ]
+   ]
+  },
+  {
+   "id": "petru",
+   "art": "zeuge",
+   "wer": "petru",
+   "titel": "Petru",
+   "text": "A.V. bought the loan on his boat. The letter came the morning after the fire.",
+   "wenn": {
+    "flag": "a3_zeuge_petru"
+   },
+   "passt": [
+    [
+     "geld",
+     2
+    ]
+   ]
+  },
+  {
+   "id": "sandru",
+   "art": "zeuge",
+   "wer": "sandru",
+   "titel": "Sandru",
+   "text": "His legs work with A.V.'s braces. After he helped the village, A.V. switched them off.",
+   "wenn": {
+    "flag": "a3_zeuge_sandru"
+   },
+   "passt": [
+    [
+     "geld",
+     2
+    ]
+   ]
+  },
+  {
+   "id": "tiere",
+   "art": "beweis",
+   "titel": "Bibi's Shoebox",
+   "text": "Collars from the animals of the station. Every one sent its last message to the villa.",
+   "wenn": {
+    "flag": "mo_ark_beweis"
+   },
+   "passt": [
+    [
+     "tor",
+     1
+    ]
+   ]
+  }
+ ],
+ "plaedoyer": {
+  "ansage": {
+   "wer": "anwalt",
+   "text": "One last thing. This village is not innocent. A cash book, from the deputy mayor's drawer. The priest. The man with the braces. Your own mayor, Madame Casanova. They all took his money.",
+   "gefuehl": "pride"
+  },
+  "stille": {
+   "wer": "kommissar",
+   "text": "...First Officer. Lieutenant Elsa says you have the original. All of it, or only the part about Alon?",
+   "gefuehl": "neutral"
+  },
+  "alles": {
+   "chip": "“All of it. They'll carry it. And they'll stand next to the truth.”",
+   "folge": {
+    "wer": "casanova",
+    "text": "Yes. Me too. Write my name first.",
+    "gefuehl": "pride"
+   },
+   "kommission": {
+    "wer": "kommissar",
+    "text": "A village that confesses its own debts. Twenty-two years in this job, and that is a first.",
+    "gefuehl": "admiration"
+   }
+  },
+  "teil": {
+   "chip": "“Only Alon's part. The village has paid enough.”",
+   "folge": {
+    "wer": "casanova",
+    "text": "...Thank you, Monsieur. I won't forget it. Neither will he.",
+    "gefuehl": "gratitude"
+   },
+   "kommission": {
+    "wer": "kommissar",
+    "text": "Noted. The rest of the book stays a village matter. For now.",
+    "gefuehl": "neutral"
+   }
+  }
+ }
+}
