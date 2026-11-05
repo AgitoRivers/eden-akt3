@@ -13,7 +13,7 @@ akt3.morgen(z2)
 assert "holm_zurueck" not in z2["flags"], "vor Akt 3 nichts setzen"
 
 ev = json.load(open(os.path.join(BASE, "module", "eden_rise", "ereignisse.json"), encoding="utf-8"))
-ev = ev.get("ereignisse", ev) if isinstance(ev, dict) else ev
+ev = ev["events"]
 ids = {e["id"]: e for e in ev} if isinstance(ev, list) else ev
 for eid, mit in (("a3_probefahrt", "rosi"), ("a3_probefahrt_petru", "petru")):
     assert eid in ids, eid
