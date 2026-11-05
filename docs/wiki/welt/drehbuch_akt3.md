@@ -926,7 +926,7 @@ Gegner (`kaempfe_akt3.py`): Kobra, Skorpion und Wächter sind die Roboter der Be
 
 | Mechanik | Auslöser | Wirkung | Grenzen |
 |---|---|---|---|
-| **Two More Days** (`a3_zwei_tage`) | Tag 31, Nacht, Pflicht | Holm sagt, dass nur noch zwei freie Tage bleiben, und nennt jede Romanze, deren Schluss-Karte (`a3_schluss_<pid>`) noch offen ist. Flag `a3_zwei_tage` | Megans Karte endet an Tag 30 und wird nicht genannt |
+| **Two More Days** (`a3_zwei_tage`) | Tag 31, Nacht, Pflicht | Holm sagt, dass nur noch zwei freie Tage bleiben, und nennt jede Romanze, deren Schluss-Karte (`a3_schluss_<pid>`) noch offen ist. Flag `a3_zwei_tage` | Megans Karte endet an Tag 30 und wird hier nicht genannt. Dafür warnt Megan selbst: **The Day After Tomorrow** (`a3_megan_tuer`), Tag 29 Nacht am Kai, Pflicht, nur mit `megan_funke` und offener Schluss-Szene |
 | **Echo der Anhörung** | Beginn der Kommission (`kern/kommission.beginnen`) | Megan erinnert an die Anhörung auf der Yacht: gleiche Regeln, größerer Tisch | nur mit `kommission.AN = True` |
 | **Fundorte der Baustoffe** | Reiter „Village“, wenn ein Stoff fehlt | Satz aus `kern/aufbau.WO`, wo es den Stoff gibt (Macchia, Berge, Angeln, Maschinen) | nennt nie einen Laden |
 | **Enden im Titelbild** | Titelbild, sobald `spielstaende/_meta.json` ein Ende kennt | „Endings seen: n of 10“ und ob ★ noch versteckt ist | zählt über alle Durchläufe |

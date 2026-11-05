@@ -267,7 +267,21 @@ PAARE = [
           ("Looks at Danzel, who is crying into a curtain, and quietly leaves them alone.", "allein", G("charly", "[sigh] Seven out of ten for crying. Come here.", "love"))]),
 ]
 
-EVENTS = SCHLUESSE + PAARE
+# Duc 05.11.2026 (Empfehlung 5): Megans Schluss-Karte endet vor Monaco (Tag 30), Holms Warnung kommt erst an Tag 31.
+# Darum warnt Megan selbst, am Abend vor ihrem letzten Fenster. Am Kai, weil ihre Kabine kaputt sein kann.
+from ereignisse_akt3_woche4 import PFL  # noqa: E402
+MEGAN_TUER = [
+    E("a3_megan_tuer", "gag1", "wholesome", "The Day After Tomorrow",
+      PFL(29, "nacht", {"alle": [FL("megan_zurueck"), oben("megan"), NICHT(FL("a3_schluss_megan"))]}), "village_harbour", P1("megan"),
+      "Late at night Megan finds you on the quay. She has her phone in her hand and doesn't look at it.",
+      [G("megan", "[clear throat] Monaco calls me the day after tomorrow, First Officer. After that, I am a different person for a while. "
+                  "If you want a word with me as I am now, tomorrow evening is the time.", "nervousness")],
+      [O("“Tomorrow evening, then.”", [F("a3_megan_tuer")],
+         zeile=G("megan", "[sigh] Good. Don't be late. I hate waiting almost as much as I hate saying this.", "embarrassment")),
+       O("Nods and walks her back.", [F("a3_megan_tuer"), V("megan", 1)])]),
+]
+
+EVENTS = SCHLUESSE + PAARE + MEGAN_TUER
 
 _KARTE = {"chiara": ("A Moment on the Bridge", ["abend"], [{"tag_ab": 32}]), "megan": ("Megan's Cabin", ["abend"], [{"nicht": {"tag_ab": 31}}])}
 ORTE = {}

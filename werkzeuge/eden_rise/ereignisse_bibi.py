@@ -19,7 +19,8 @@ def _je(z, gruppe, wenn=None):
 
 def ARBEIT(id, titel, seit, lage, zeilen, optionen, ton="wholesome", wenn=None):
     """Ein kurzer gemeinsamer Handgriff an der Station, Pflicht und ohne Phase, wie mo_schlafgranate."""
-    wann = WANN((11, 35), ["tag"], bed={"alle": [{"flag": "mochis_offen"}, {"flag_seit": ["rt_ende_tag", seit]}, N(id)] + ([{"flag": wenn}] if wenn else [])}, pflicht=True, holt_leute=True)
+    # Bis Tag 33 (Duc 05.11.2026, Dichte-Check Akt 3): an Tag 34 (Villa) und 35 (Kommission) kein Handgriff an der Station
+    wann = WANN((11, 33), ["tag"], bed={"alle": [{"flag": "mochis_offen"}, {"flag_seit": ["rt_ende_tag", seit]}, N(id)] + ([{"flag": wenn}] if wenn else [])}, pflicht=True, holt_leute=True)
     e = E(id, "gag1", ton, titel, wann, "mochis", {"handelnd": "bibi", "betroffen": []}, lage, zeilen, optionen, SET)
     e["solo"] = True
     return e
