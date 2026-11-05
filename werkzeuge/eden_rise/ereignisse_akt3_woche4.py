@@ -75,7 +75,7 @@ SCHWUR = [
     E("a3_schwur", "gag1", "ernst", "The Oath", PFL(24, "tag"), "village_harbour",
       P1("bonaventure", ("casanova", "-", "has her arms folded"), ("petru", "?", "waits")),
       "The harbour. The Eventually is tied up at the quay, its purple flag at half-mast. Forty men stand on the stones, "
-      "and none of them is holding a torch. One of them holds up a phone. A news video is playing: pirates attacked a small village.",
+      "and none of them is holding a burning torch. One of them holds up a phone. A news video is playing: pirates attacked a small village.",
       [G("bonaventure", "[laugh] I am famous! Look, Paco, that is our flag! ...Robots? I have never owned a robot in my life. "
                         "They are saying I had robots!", "surprise"),
        G("bonaventure", "[clear throat] We burned your houses. I gave the order to stop, and I gave it too late. I am sorry.", "remorse"),
@@ -191,7 +191,7 @@ DANK = [
     E("a3_dank_werkstatt", "gag1", "wholesome", "The Rudder", _dank("werkstatt"), "petru_workshop", P1("petru", ("bonaventure", "+", "carried the beams")),
       "Petru's workshop has a roof again. He hangs the old rudder over the door, the one that came through the fire.",
       [G("petru", "[clear throat] The rudder stays over the door. My grandfather steered with it in 1924. Burned wood still knows the way home.", "pride"),
-       G("petru", "[sigh] I saw the torches at my workshop. And I saw who stayed. A.V. bought the loan on my boat. "
+       G("petru", "[sigh] I saw the burning torches at my workshop. And I saw who stayed. A.V. bought the loan on my boat. "
                   "If I talk, they take the boat. You want me to talk?", "neutral")],
       [O("“Yes. And if they take your boat, we build you a new one.”", [F("a3_zeuge_petru"), F("a3_zeuge_petru_ehrlich"), V("petru", 6)],
          zeile=G("petru", "[chuckle] A new boat. You don't know how to build a boat. ...I'll teach you. Then I talk.", "approval")),

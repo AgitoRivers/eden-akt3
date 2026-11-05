@@ -38,7 +38,7 @@ KARTEN = [
      "text": "His debt book, page forty-one: what White offered the captain, in clean money.",
      "wenn": None, "passt": [["geld", 1]]},
     {"id": "befehl", "art": "beweis", "titel": "White's Orders",
-     "text": "From the villa cellar. Day 22, phase 3: torches, houses. And a receipt to Captain Buenaventura.",
+     "text": "From the villa cellar. Day 22, phase 3: fire, houses. And a receipt to Captain Buenaventura.",
      "wenn": {"flag": "a3_beweis_feuer"}, "passt": [["feuer", 0], ["geld", 1]]},
     {"id": "batu", "art": "zeuge", "wer": "batu", "titel": "Bà Tư",
      "text": "Men in white asked her twice for the north road, days before the attack.",

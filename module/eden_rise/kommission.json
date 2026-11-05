@@ -318,7 +318,7 @@
    "id": "befehl",
    "art": "beweis",
    "titel": "White's Orders",
-   "text": "From the villa cellar. Day 22, phase 3: torches, houses. And a receipt to Captain Buenaventura.",
+   "text": "From the villa cellar. Day 22, phase 3: fire, houses. And a receipt to Captain Buenaventura.",
    "wenn": {
     "flag": "a3_beweis_feuer"
    },

@@ -340,9 +340,9 @@ VILLA = [
        JE(G("casanova", "[sigh] I'll wait at the top of the stairs, Monsieur. My father kept his best wine down there. Now look at it.", "sadness"), "tuer", None)],
       [O("Goes to the cabinet.", [KAMPF("a3_villa_keller"), DIREKT("a3_villa_ordner")])]),
     E("a3_villa_ordner", "gag1", "ernst", "White's Orders", FRAME(), "power_room", P1("casanova"),
-      "Under the stairs is a small office with a folder on the desk. A plan, typed, with a stamp: Day 22, phase 3: torches, houses. "
+      "Under the stairs is a small office with a folder on the desk. A plan, typed, with a stamp: Day 22, phase 3: fire, houses. "
       "Under it, a receipt. Paid to Captain Buenaventura, in clean money.",
-      [G("casanova", "[gasp] ...Torches, houses. He wrote it down. Like a shopping list.", "anger")],
+      [G("casanova", "[gasp] ...Fire, houses. He wrote it down. Like a shopping list.", "anger")],
       [O("Puts the folder under his jacket.", [F("a3_beweis_feuer"), F("a3_villa_keller")]),
        O("Takes a photo of every page, then the folder too.", [F("a3_beweis_feuer"), F("a3_villa_keller")])]),
     E("a3_villa_dinner", "gag1", "ernst", "Name Your Price", PFL(34, "dinner"), "alon_keynote", P1("alon", ("pascal", "?", "stands at the door")),
@@ -392,7 +392,7 @@ VILLA = [
          [DIREKT([{"wenn": FL("a3_stern"), "id": "a3_villa_lange"}, {"wenn": FL("a3_deal"), "id": "a3_villa_deal"}, {"id": "a3_villa_kampf"}])])],
       sets={"alon": "alon_standard"}),
     E("a3_villa_lange", "gag1", "ernst", "The Long Game", FRAME(), "alon_keynote", P1("casanova", ("alon", "?", "stops smiling")),
-      "Below the terrace, lights are coming up the path. Not torches this time: the whole village, with candles from the church. "
+      "Below the terrace, lights are coming up the path. Not burning torches this time: the whole village, with candles from the church. "
       "Madame Casanova walks in front. She opens the door of the house she grew up in and steps inside.",
       [G("casanova", "[clear throat] Good evening, Monsieur Varenne. This was my father's house. And this man behind you is Pascal Leca. "
                      "He was my deputy mayor for nine years.", "pride"),
@@ -434,7 +434,7 @@ VILLA = [
       [O("“Then I won't tell you.”", [F("a3_alon_festgenommen"), V("elsa", 4)],
          zeile=G("elsa", "[chuckle] Good. Go to bed. Tomorrow you're a witness.", "relief")),
        O("Hands her the folder from the cellar.", [F("a3_alon_festgenommen"), V("elsa", 6)],
-         zeile=G("elsa", "[sigh] ...Torches, houses. Thank you. Now go to bed.", "gratitude"))],
+         zeile=G("elsa", "[sigh] ...Fire, houses. Thank you. Now go to bed.", "gratitude"))],
       sets={"elsa": "Standard"}),
     E("a3_villa_nacht", "gag1", "ernst", "The Last Night", FRAME(), "village_harbour", P1("mina"),
       "The last night before the commission. The village is quiet. Kevin is on the church roof.",

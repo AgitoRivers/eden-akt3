@@ -104330,7 +104330,7 @@
     ]
    },
    "sets": {},
-   "lage": "The harbour. The Eventually is tied up at the quay, its purple flag at half-mast. Forty men stand on the stones, and none of them is holding a torch. One of them holds up a phone. A news video is playing: pirates attacked a small village.",
+   "lage": "The harbour. The Eventually is tied up at the quay, its purple flag at half-mast. Forty men stand on the stones, and none of them is holding a burning torch. One of them holds up a phone. A news video is playing: pirates attacked a small village.",
    "zeilen": [
     {
      "wer": "bonaventure",
@@ -105448,7 +105448,7 @@
     },
     {
      "wer": "petru",
-     "text": "I saw the torches at my workshop. And I saw who stayed. A.V. bought the loan on my boat. If I talk, they take the boat. You want me to talk?",
+     "text": "I saw the burning torches at my workshop. And I saw who stayed. A.V. bought the loan on my boat. If I talk, they take the boat. You want me to talk?",
      "gefuehl": "neutral"
     }
    ],
@@ -128934,11 +128934,11 @@
     "betroffen": []
    },
    "sets": {},
-   "lage": "Under the stairs is a small office with a folder on the desk. A plan, typed, with a stamp: Day 22, phase 3: torches, houses. Under it, a receipt. Paid to Captain Buenaventura, in clean money.",
+   "lage": "Under the stairs is a small office with a folder on the desk. A plan, typed, with a stamp: Day 22, phase 3: fire, houses. Under it, a receipt. Paid to Captain Buenaventura, in clean money.",
    "zeilen": [
     {
      "wer": "casanova",
-     "text": "...Torches, houses. He wrote it down. Like a shopping list.",
+     "text": "...Fire, houses. He wrote it down. Like a shopping list.",
      "gefuehl": "anger"
     }
    ],
@@ -129416,7 +129416,7 @@
    "sets": {
     "alon": "alon_standard"
    },
-   "lage": "Below the terrace, lights are coming up the path. Not torches this time: the whole village, with candles from the church. Madame Casanova walks in front. She opens the door of the house she grew up in and steps inside.",
+   "lage": "Below the terrace, lights are coming up the path. Not burning torches this time: the whole village, with candles from the church. Madame Casanova walks in front. She opens the door of the house she grew up in and steps inside.",
    "zeilen": [
     {
      "wer": "casanova",
@@ -129799,7 +129799,7 @@
      ],
      "zeile": {
       "wer": "elsa",
-      "text": "...Torches, houses. Thank you. Now go to bed.",
+      "text": "...Fire, houses. Thank you. Now go to bed.",
       "gefuehl": "gratitude"
      }
     }
@@ -133354,7 +133354,7 @@
    "zeilen": [
     {
      "wer": "petru",
-     "text": "I saw the torches at my workshop. And I saw who stayed. And the village rowed out. Like in 1924.",
+     "text": "I saw the burning torches at my workshop. And I saw who stayed. And the village rowed out. Like in 1924.",
      "gefuehl": "neutral",
      "gruppe": "petru",
      "wenn": {
@@ -133370,7 +133370,7 @@
     },
     {
      "wer": "petru",
-     "text": "I saw the torches at my workshop. He asked me to say it. So I say it.",
+     "text": "I saw the burning torches at my workshop. He asked me to say it. So I say it.",
      "gefuehl": "neutral",
      "gruppe": "petru",
      "wenn": {
@@ -133379,7 +133379,7 @@
     },
     {
      "wer": "petru",
-     "text": "I saw the torches at my workshop, and who stayed. And I'm not afraid of a letter from Monaco.",
+     "text": "I saw the burning torches at my workshop, and who stayed. And I'm not afraid of a letter from Monaco.",
      "gefuehl": "pride",
      "gruppe": "petru",
      "wenn": {
@@ -133388,7 +133388,7 @@
     },
     {
      "wer": "petru",
-     "text": "I saw the torches at my workshop. And I saw who stayed.",
+     "text": "I saw the burning torches at my workshop. And I saw who stayed.",
      "gefuehl": "neutral",
      "gruppe": "petru",
      "wenn": {
@@ -133639,7 +133639,7 @@
    "zeilen": [
     {
      "wer": "elsa",
-     "text": "White's orders from the villa cellar. Day 22, phase 3: torches, houses.",
+     "text": "White's orders from the villa cellar. Day 22, phase 3: fire, houses.",
      "gefuehl": "neutral",
      "gruppe": "feuer",
      "wenn": {
@@ -134105,7 +134105,7 @@
     "betroffen": []
    },
    "sets": {},
-   "lage": "Then the food. It smells of fish, myrtle and too much garlic.",
+   "lage": "Then the food. It smells of fish, wild herbs and too much garlic.",
    "zeilen": [
     {
      "wer": "batu",
@@ -134172,7 +134172,7 @@
     },
     {
      "wer": "alva",
-     "text": "Papa's myrtle. One glass on every table.",
+     "text": "Papa's berry liqueur. One glass on every table.",
      "gefuehl": "sadness",
      "gruppe": "drink",
      "wenn": {
