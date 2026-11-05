@@ -1462,6 +1462,13 @@
    "feuer": true,
    "beats": [
     {
+     "runde": 1,
+     "szene": "w3_funk",
+     "bed": {
+      "t": "funk_warnt"
+     }
+    },
+    {
      "runde": 2,
      "szene": "w3_post"
     },
@@ -3199,6 +3206,12 @@
      "gefuehl": "caring",
      "ton": "funk_rauschen"
     }
+   ]
+  ],
+  "w3_funk": [
+   [
+    "Holm",
+    "Frankfurt. White's radio, one minute ago: more boats with burning torches, south and west. They think we don't know. We have one round more than they think."
    ]
   ]
  },

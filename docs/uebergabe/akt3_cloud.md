@@ -81,6 +81,12 @@ Stand 04.11.2026, Block 3: Drehbuch Version 3.4 (Bones, Charly und Danzel, Festa
 - Neue Figur `julien` in `modul.json` (gezielt ergänzt) und `modul_eden_rise.py`, Kampf direkt in `kaempfe.json` ergänzt. Lokal: Sprite und Stimme bestellen, neu vertonen (Quellen `akt3_julien`, `akt3_bibi`, `akt3_finale`).
 - Test `tests/test_akt3_julien.py` (beide Wege durch die Engine). Der alte Stimmeintrag „Spatz. My mother called me that.“ (Quelle favours) ist veraltet und kann lokal weg.
 
+## Ducs Antworten vom 05.11. (spät)
+
+- `mina-akt3` zusammengeführt (E-135), dabei Petrus „Hm.“ gestrichen und Rosis „ten-millimetre spanner“.
+- E-128 (Säulen und Enden) bestätigt. E-131 (Balance) entscheidet Duc lokal.
+- F-37 und F-38 behoben (E-136): Funken-Tage und -Phasen wie im Wiki; Auftrag „Funk“ wirkt in Welle 3. `taktik.json` gezielt ergänzt (der Builder entfernt ohne Bilder die Sprite-Namen). Test `tests/test_f37_f38.py`.
+
 ## Wartet auf Ducs Urteil
 
 - E-128 (Säulen und Enden im Code), F-34 (Wohnen als Raum-Logik), F-35 (Enden ohne Wahrheit), F-36 (★).

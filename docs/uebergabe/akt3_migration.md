@@ -1,16 +1,14 @@
 # Akt 3 · Migration von der Cloud ins lokale Repo
 
-Stand 05.11.2026 · Quelle: Repo `AgitoRivers/eden-akt3`, Branch `akt3-cloud` (Commit `9458ca0` oder neuer).
+Stand 05.11.2026 · Quelle: Repo `AgitoRivers/eden-akt3`, Branch `akt3-cloud` (neuester Commit).
 
 ## Warum kein einfaches Mergen
 
 `eden-akt3` ist ein **schlanker Auszug** des lokalen Eden-Repos: nur Code, Wiki und Textdaten, ohne Bilder, Ton, Sprites, Spielstände und `eden-config.json`. Sein erster Commit `bdb05cc` ist ein neuer Anfang („Stand master 2b9575ef“). Die beiden Repos haben **keine gemeinsame Git-Geschichte**. Übertragen wird darum der **Unterschied** zwischen `bdb05cc` und `akt3-cloud`: **122 Dateien**, nur Text und Code (52 davon neu), keine Bilder.
 
-## Vor dem Start: eine Entscheidung
+## Vor dem Start
 
-Der Branch **`mina-akt3`** (andere Sitzung: Minas Fahrten nach Bastia, „Second Gear“) baut auf `akt3-cloud` auf. Probe-Merge in der Cloud: konfliktfrei, alle Tests grün.
-- **Mit Mina:** Duc sagt der Cloud-Sitzung „Mina zusammenführen“. Dann steckt alles in `akt3-cloud`, und die Migration bleibt wie unten.
-- **Ohne Mina:** Migration wie unten, `mina-akt3` später.
+`mina-akt3` ist seit 05.11. in `akt3-cloud` zusammengeführt (E-135). Es gibt nur noch einen Branch zu holen.
 
 ## Schritt für Schritt (lokal, Git Bash im Eden-Ordner)
 
@@ -51,7 +49,7 @@ Der Branch **`mina-akt3`** (andere Sitzung: Minas Fahrten nach Bastia, „Second
    ```bash
    python werkzeuge/eden_rise/kommission_akt3.py
    ```
-   Danach `git diff --stat`. Es sollte fast leer sein. **Erwartete Abweichungen** (in der Cloud von Hand ergänzt, der Builder schreibt sie gleich): `julien` in `modul.json`, Kampf `a3_julien` in `kaempfe.json`, Alvas Vater „Francescu“ in `modul.json`. Alles andere ansehen, nicht blind committen.
+   Danach `git diff --stat`. Es sollte fast leer sein. **Erwartete Abweichungen** (in der Cloud von Hand ergänzt, der Builder schreibt sie gleich): `julien` in `modul.json`, Kampf `a3_julien` in `kaempfe.json`, Alvas Vater „Francescu“ in `modul.json`, Beat und Szene `w3_funk` in `taktik.json`. Alles andere ansehen, nicht blind committen.
 5. Alle Tests mit Bildern und Config, die Bots mit `PYTHONHASHSEED=0`:
    ```bash
    for f in tests/test_*.py; do PYTHONHASHSEED=0 python "$f" > /dev/null 2>&1 && echo "ok   $f" || echo "ROT  $f"; done
@@ -81,7 +79,7 @@ Der Branch **`mina-akt3`** (andere Sitzung: Minas Fahrten nach Bastia, „Second
 | 7 | **Vertonen**: alle Zeilen mit Quelle `akt3_*` in `stimme_tags.json` (rund 850), neue Sprecher `anwalt` (Maître Delorme), `kommissar` (Commissioner **Luciani**), `julien`; dazu Bà Tưs „You, later.“ (jetzt mit `[sigh]`). Der alte Eintrag „Spatz. My mother called me that.“ (Quelle favours) ist veraltet | Vertonen-Werkzeug |
 | 8 | **Bilder und Sprites** aus `docs/uebergabe/akt3_bestellungen.md` (Prompts stehen dort): Julien, Delorme, Luciani, AlonExo, Häuser je Bauphase, Villa, Mochi auf dem Hügel, Plüschlöwe | Character Design |
 | 9 | `belagerung.md` und `drehbuch_finale.md` an E-122 angleichen (Yacht repariert, Minicu erst auf der Festa) | Wiki |
-| 10 | Offene Fehler aus Akt 1 und 2, wenn Duc zustimmt: F-37 (Funken-Fenster), F-38 (Funk-Vorwarnung in Welle 3) | `akt3_fragen.md` |
+| 10 | F-37 und F-38 sind behoben (E-136). Prüfen: `tests/lauf_test.py` (Referenzlauf Akt 1) kann wegen der Funken-Tage abweichen; nach Durchsicht mit `--speichern` neu schreiben. Belagerung Welle 3 mit `bl_funk_white` einmal spielen | `tests/lauf_test.py`, `tests/test_taktik.py` |
 | 11 | Totòs Akt-3-Geheimnis (F-19) | Story-Sitzung |
 | 12 | Handy-Gags `hy_` bis Tag 31? Megans Anrufe als Handy (F-12) | Handy-Sitzung (die Cloud darf diese Dateien nicht öffnen) |
 
@@ -89,10 +87,8 @@ Der Branch **`mina-akt3`** (andere Sitzung: Minas Fahrten nach Bastia, „Second
 
 | Nr | Was | Wo |
 |---|---|---|
-| 1 | **Entscheiden:** `mina-akt3` vor der Migration zusammenführen? | oben |
-| 2 | **Entscheiden:** E-131, Balance der Enden (Ende 3 kommt zu oft) | `akt3_enden_simulation.md` |
-| 3 | **Entscheiden:** E-128, Säulen und Enden im Code bestätigen | `ENTSCHEIDUNGEN.md` |
-| 4 | **Entscheiden:** F-37 und F-38 (Fehler in Akt 1 und 2) beheben lassen? | `akt3_fragen.md` |
+| 1 | erledigt: `mina-akt3` zusammengeführt (E-135), E-128 bestätigt, F-37 und F-38 behoben (E-136) | – |
+| 2 | **E-131, Balance der Enden** lokal entscheiden und testen (Ende 3 kommt zu oft) | `akt3_enden_simulation.md`, `tests/sim_enden_akt3.py` |
 | 5 | Die lokale Sitzung mit dem Prompt unten starten | unten |
 | 6 | Spieltest an den wichtigsten Stellen: Tag 24 Morgen, Holms Warnung Tag 31, Villa Tag 34, Kommission, Bibis Tore, Festa, Mitternacht | lokal |
 | 7 | Feinschliff der zehn Enden (Texte in `kern/akt3.ENDE_TEXT`, `kern/abschluss.py` EPILOG und BIBI_BILD) und drei Rest-Befunde der Textprüfung (Nr. 30, 57, 78) | `enden.md`, `akt3_textpruefung.md` |
@@ -106,4 +102,4 @@ Der Branch **`mina-akt3`** (andere Sitzung: Minas Fahrten nach Bastia, „Second
 
 ## Prompt für die lokale Sitzung (zum Kopieren)
 
-Lies `docs/uebergabe/akt3_migration.md` und `docs/uebergabe/akt3_cloud.md`. Führe die Migration von `AgitoRivers/eden-akt3`, Branch `akt3-cloud`, Schritt für Schritt aus: Import-Branch auf `2b9575ef`, Patch anwenden, mit Bildern neu bauen, alle Tests und `tests/bot_akt3.py`, dann in `master` mergen. Gebaute JSON-Dateien nie von Hand zusammenführen, sondern neu bauen. Melde mir jede Abweichung nach dem Neubau, die nicht in der Liste „Erwartete Abweichungen“ steht, bevor du committest. Danach arbeite die Tabelle „To-dos für die lokale Sitzung“ ab, beginnend mit Nr. 1 bis 3, und frag mich vor Nr. 10.
+Lies `docs/uebergabe/akt3_migration.md` und `docs/uebergabe/akt3_cloud.md`. Führe die Migration von `AgitoRivers/eden-akt3`, Branch `akt3-cloud`, Schritt für Schritt aus: Import-Branch auf `2b9575ef`, Patch anwenden, mit Bildern neu bauen, alle Tests und `tests/bot_akt3.py`, dann in `master` mergen. Gebaute JSON-Dateien nie von Hand zusammenführen, sondern neu bauen. Melde mir jede Abweichung nach dem Neubau, die nicht in der Liste „Erwartete Abweichungen“ steht, bevor du committest. Danach arbeite die Tabelle „To-dos für die lokale Sitzung“ ab, beginnend mit Nr. 1 bis 3, und Nr. 10 ist schon gebaut, dort nur prüfen.

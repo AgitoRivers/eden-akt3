@@ -46983,11 +46983,10 @@
    "titel": "What Would You Do?",
    "wann": {
     "tage": [
-     3,
+     4,
      6
     ],
     "phasen": [
-     "abend",
      "nacht"
     ],
     "bedingung": {
@@ -47117,12 +47116,11 @@
    "titel": "Ten Euros",
    "wann": {
     "tage": [
-     3,
+     4,
      6
     ],
     "phasen": [
-     "abend",
-     "nacht"
+     "abend"
     ],
     "bedingung": {
      "alle": [
@@ -47279,11 +47277,10 @@
    "titel": "Glow",
    "wann": {
     "tage": [
-     3,
+     4,
      6
     ],
     "phasen": [
-     "abend",
      "nacht"
     ],
     "bedingung": {
@@ -47416,11 +47413,10 @@
    "titel": "Night Shift",
    "wann": {
     "tage": [
-     3,
+     4,
      6
     ],
     "phasen": [
-     "abend",
      "nacht"
     ],
     "bedingung": {
@@ -47550,12 +47546,11 @@
    "titel": "Unposted",
    "wann": {
     "tage": [
-     3,
+     4,
      6
     ],
     "phasen": [
-     "abend",
-     "nacht"
+     "abend"
     ],
     "bedingung": {
      "alle": [

@@ -89,6 +89,7 @@ def beginnen(z, moddir, art=None):
     if art == "echt":
         _posten_anpassen(z["taktik"], D)
         z["taktik"]["batu_warnt"] = z.get("werte", {}).get("vertrauen.batu", 0) >= 3
+        z["taktik"]["funk_warnt"] = _funk_warnt(z)
         z["taktik"]["dorf_rudert"] = _rudert(z, D, z["taktik"])
         briefing_setzen(z, D)
     if morgen:
@@ -924,6 +925,7 @@ def start_schlacht(z, moddir):
             t["einheiten"].append(_einheit(hid, hid, "blau", q, q["start"][0], q["start"][1], fest=True))
     if t.get("art") == "echt":                       # Was die Story bewirkt hat
         t["batu_warnt"] = z.get("werte", {}).get("vertrauen.batu", 0) >= 3
+        t["funk_warnt"] = _funk_warnt(z)
         t["dorf_rudert"] = _rudert(z, D, t)
         _nachtwache_stellen(z, D, t)
         t["aufstellung"] = {e["id"]: [e["x"], e["y"]] for e in t["einheiten"] if e["seite"] == "blau" and not e["fest"]}
@@ -1229,9 +1231,19 @@ def _nachschub_liste(D, t, nr=None):
     if t.get("batu_warnt"):
         for n in aus:
             n["runde"] += 1
+    if t.get("funk_warnt") and nr == 3:              # F-38: Holm hoert die Fackeln eine Runde frueher, die Boote kommen spaeter an
+        for n in aus:
+            n["runde"] += 1
     if t.get("dorf_rudert") and D["wellen"][nr - 1].get("kapitaen"):
         aus = aus[:-1]
     return aus
+
+
+def _funk_warnt(z):
+    """Auftrag "Funk" (drehbuch_finale.md, Duc 05.11.2026, F-38): Rosi oder Charly haben Whites Frequenz gefunden.
+    Wirkung in Welle 3: Holm hoert die Fackeln eine Runde frueher (Beat w3_funk, Nachschub eine Runde spaeter)."""
+    fl = z.get("flags", [])
+    return "bl_funk_white" in fl or "bl_funk_charly" in fl
 
 
 def _nachschub_offen(D, t):

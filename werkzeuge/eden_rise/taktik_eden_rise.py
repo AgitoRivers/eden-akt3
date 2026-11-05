@@ -217,7 +217,7 @@ WELLEN = [
      "beats": [{"runde": 1, "szene": "w2_elsa", "bed": {"einheit": "elsa"}}, {"runde": 2, "szene": "w2_deck"}, {"runde": 3, "szene": "w2_gewehr"}], "nachschub": [{"runde": 3, "feinde": [("schuetze", WEST[1]), ("roboter_kobra", SUED[1])]}],
      "feinde": [("agent", WEST[0]), ("agent", SUED[0]), ("hund", SUED[2]), ("roboter", OST[0]), ("roboter", OST[1]), ("drohne", OST[4])]},
     {"id": 3, "ausschnitt": KLEIN, "titel": "The Third Wave", "szene": "welle_3", "ende": "ende_3", "par": 7, "feuer": True,
-     "beats": [{"runde": 2, "szene": "w3_post"}, {"runde": 3, "szene": "w3_trio", "bed": {"flag": "rt_ausgang_alle"}},
+     "beats": [{"runde": 1, "szene": "w3_funk", "bed": {"t": "funk_warnt"}}, {"runde": 2, "szene": "w3_post"}, {"runde": 3, "szene": "w3_trio", "bed": {"flag": "rt_ausgang_alle"}},
                {"runde": 3, "szene": "w3_dach_leer", "bed": {"nicht_flag": "rt_ausgang_alle"}}, {"runde": 4, "szene": "w3_pascal"}], "nachschub": [{"runde": 3, "feinde": [("gunner", SUED[4]), ("roboter_skorpion", WEST[2])]}],
      "feinde": [("brand", SUED[0]), ("brand", SUED[1]), ("brand", SUED[3]), ("gunner", SUED[5]), ("agent", WEST[0]), ("agent", WEST[1])]},
     {"id": 4, "ausschnitt": BREIT, "titel": "The Fourth Wave", "szene": "welle_4", "ende": "ende_4", "par": 9, "feuer": True, "kapitaen": True,
@@ -298,6 +298,7 @@ SZENEN = {
     "w2_elsa": [["Elsa", "Five years in a locker. It still fits. Don't say anything."]],
     "w2_deck": [["Chiara", "They're on my deck! That's a zero! A ZERO!", {"zu": OST[0]}]],
     "w2_gewehr": [["Holm", "Something shines in the scrub. A rifle.", {"zu": WEST[1]}]],
+    "w3_funk": [["Holm", "Frankfurt. White's radio, one minute ago: more boats with burning torches, south and west. They think we don't know. We have one round more than they think."]],   # F-38
     "w3_post": [["Petru", "Hm. There are still people in the post office. Get them out before the roof goes.", {"zu": [21, 13]}]],
     "w3_trio": [["Bibi", "Ha ha! ...Sorry. I do that. Okay! Where's the fire? ...No, I can see it. Stupid question."]],
     "w3_dach_leer": [["Holm", "Nobody on the west roofs today."]],

@@ -31,7 +31,9 @@ def BG(pid, n):
 
 def FUNKE_WANN(pid, phasen, extra=None):
     bed = [VT(pid, 3), BG(pid, 2), {"nicht": {"flag": "%s_funke" % pid}}] + (extra or [])
-    return WANN((3, 6), ["abend", "nacht"], bed={"alle": bed})
+    # F-37 (Duc 05.11.2026): Tage und Phase wie im Wiki (beziehungen.md "Funken": Tag 4 bis 6, je Frau Abend oder Nacht).
+    # Vorher wurde phasen nicht benutzt, alle Funken kamen ab Tag 3 in beiden Phasen.
+    return WANN((4, 6), list(phasen), bed={"alle": bed})
 
 
 FREI = {"flag": "siri_frei"}
