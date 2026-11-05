@@ -27,7 +27,7 @@ def S(wer, text, gefuehl="neutral"):
     return {"wer": wer, "text": klar, "gefuehl": gefuehl}
 
 
-SPRECHER = {"anwalt": "Maître Delorme", "kommissar": "Commissioner Luciani"}
+SPRECHER = {"anwalt": "Maître Delorme", "kommissar": "Commissioner Luciani", "megan": "Megan"}
 
 # Karten: was Duc vorlegen kann. "wenn": Bedingung (kern/regeln). "passt": [runde, satz] - welche Saetze die Karte widerlegt.
 KARTEN = [
@@ -146,6 +146,9 @@ TEXTE = {
                                  "twenty-third. Maître Delorme speaks for A.V. You speak for the village. Three questions.", "neutral"),
     "anwalt_auftritt": S("anwalt", "[chuckle] Commissioner. Gentlemen. Good people of Cala d'Orsu. My client sends his warmest regards. "
                                    "He is very busy saving the world.", "amusement"),
+    # Duc 05.11.2026 (LATE_GAME.md, Punkt 2): die Kommission als Echo der Anhoerung aus Akt 1, kein neues System
+    "erinnerung": S("megan", "[clear throat] Duc. You did this once already, at the hearing on the yacht. Ask until he says it clearly. "
+                             "Then put the proof on the lie. Same game. Bigger table.", "neutral"),
     "falsch_gelegt": [S("kommissar", "[sigh] That doesn't answer the sentence, First Officer.", "annoyance"),
                       S("kommissar", "[clear throat] We are not here for guesses. Please.", "disapproval"),
                       S("kommissar", "[sigh] My patience is a small boat, First Officer. Don't make it sink.", "annoyance")],

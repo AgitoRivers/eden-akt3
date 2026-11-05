@@ -41,6 +41,8 @@ def beginnen(z, d):
                            "fertig": False, "falsch_n": 0}
     _log(k, d["texte"]["eroeffnung"])
     _log(k, d["texte"]["anwalt_auftritt"])
+    if d["texte"].get("erinnerung"):
+        _log(k, d["texte"]["erinnerung"], "hinweis")     # wie die Anhoerung in Akt 1 (LATE_GAME.md, Punkt 2)
     _runde_beginnen(k, d)
     return k
 

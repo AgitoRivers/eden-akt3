@@ -13,7 +13,7 @@
   const busy = () => (typeof beschaeftigt !== "undefined" && beschaeftigt);
   const neu = () => { if (typeof zeichnen === "function") zeichnen(); };
   const ERG = {gewonnen: ["ok", "won"], verloren: ["aus", "lost"]};
-  const ROLLE = {anwalt: "FOR MONACO", kommissar: "PRESIDING", duc: "YOU"};
+  const ROLLE = {anwalt: "FOR MONACO", kommissar: "PRESIDING", duc: "YOU", megan: "AT YOUR SIDE"};
 
   function los(was, extra){ if (!busy()) senden("kommission", Object.assign({was}, extra || {}), "…"); }
   function name(v, wer){
@@ -37,7 +37,7 @@
   function hilfe(){
     if (!ST.hilfe) return "";
     return `<div class="km-hilfe" role="dialog">
-      <p><b>How it works.</b> The lawyer for Monaco makes three statements in each round.</p>
+      <p><b>How it works.</b> It works like the hearing on the yacht. The lawyer for Monaco makes three statements in each round.</p>
       <p><b>Press</b> a statement to make him say it clearly. Some lies only show after that.</p>
       <p><b>Pick a card</b> below, a witness or a piece of proof. Then press <b>OBJECTION!</b> on the statement it shows to be false.</p>
       <p>A wrong card costs the commissioner's patience. When it runs out, the other rounds are lost.</p>

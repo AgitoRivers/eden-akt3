@@ -1888,6 +1888,7 @@ function mitte(z){
   if (!z){
     h = `<div class="zentrum"><div class="wortmarke">Eden<em>.</em></div><p class="unter">${esc(V ? V.modul : "")} · ${esc((V && V.untertitel) || "The last charter night aboard the M/Y Eden Rise.")}</p>
       <div class="segment glas" role="group" aria-label="Modus"><button type="button" aria-pressed="${modus === "ironman"}" onclick="modus='ironman';zeichnen()">Ironman</button><button type="button" aria-pressed="${modus === "entspannt"}" onclick="modus='entspannt';zeichnen()">Entspannt</button></div>
+      ${V && V.enden && V.enden.gesehen ? `<p class="unter">Endings seen: ${V.enden.gesehen} of ${V.enden.gesamt}${V.enden.stern ? " · ★ found" : " · ★ one ending is still hidden"}</p>` : ""}
       <p class="unter" style="font-size:var(--t-info)">${modus === "ironman" ? "Every choice counts. No going back." : "Scenes can be restarted."}</p>
       <button class="knopf" type="button" onclick="senden('neu',{modus},'The run begins …')" ${beschaeftigt ? "disabled" : ""}>New run</button>
       ${V && !V.kobold ? `<p class="unter" style="color:var(--schlecht)">The game model isn't running (port 5010). Start-Eden.bat starts it.</p>` : ""}</div>`;

@@ -129925,6 +129925,530 @@
    ]
   },
   {
+   "id": "a3_zwei_tage",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "Two More Days",
+   "wann": {
+    "tage": [
+     31,
+     31
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "nacht"
+    ],
+    "bedingung": {
+     "flag": "akt2_ende"
+    }
+   },
+   "bild": "aft_deck",
+   "personen": {
+    "handelnd": "holm",
+    "betroffen": []
+   },
+   "sets": {},
+   "lage": "Late at night Holm sits on the aft deck with two coffees. She pushes one across the table to you.",
+   "zeilen": [
+    {
+     "wer": "holm",
+     "text": "Frankfurt. Two more free days. Then the villa, then the commission, then the festa. After that, nobody has time for anything.",
+     "gefuehl": "neutral"
+    },
+    {
+     "wer": "holm",
+     "text": "Chiara stands on the bridge every evening now. She is not looking at the sea.",
+     "gefuehl": "neutral",
+     "gruppe": "offen_chiara",
+     "wenn": {
+      "alle": [
+       {
+        "eine": [
+         {
+          "flag": "rm_c4"
+         },
+         {
+          "flag": "chiara_zusammen"
+         }
+        ]
+       },
+       {
+        "nicht": {
+         "flag": "a3_schluss_chiara"
+        }
+       },
+       {
+        "nicht": {
+         "flag": "gefeuert_chiara"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "wer": "holm",
+     "text": "Alva keeps the bar open late. Not for the fishermen.",
+     "gefuehl": "neutral",
+     "gruppe": "offen_alva",
+     "wenn": {
+      "alle": [
+       {
+        "eine": [
+         {
+          "flag": "rm_a4"
+         },
+         {
+          "flag": "alva_zusammen"
+         }
+        ]
+       },
+       {
+        "nicht": {
+         "flag": "a3_schluss_alva"
+        }
+       },
+       {
+        "nicht": {
+         "flag": "gefeuert_alva"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "wer": "holm",
+     "text": "Lea asked me twice when you sleep. I said: never. She went away smiling anyway.",
+     "gefuehl": "neutral",
+     "gruppe": "offen_lea",
+     "wenn": {
+      "alle": [
+       {
+        "eine": [
+         {
+          "flag": "rm_l4"
+         },
+         {
+          "flag": "lea_zusammen"
+         }
+        ]
+       },
+       {
+        "nicht": {
+         "flag": "a3_schluss_lea"
+        }
+       },
+       {
+        "nicht": {
+         "flag": "gefeuert_lea"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "wer": "holm",
+     "text": "Sophia has a letter she hasn't sent. I saw the envelope. It has your name on it.",
+     "gefuehl": "neutral",
+     "gruppe": "offen_sophia",
+     "wenn": {
+      "alle": [
+       {
+        "eine": [
+         {
+          "flag": "rm_s4"
+         },
+         {
+          "flag": "sophia_zusammen"
+         }
+        ]
+       },
+       {
+        "nicht": {
+         "flag": "a3_schluss_sophia"
+        }
+       },
+       {
+        "nicht": {
+         "flag": "gefeuert_sophia"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "wer": "holm",
+     "text": "Rosi works in the engine room until two in the morning. The engine doesn't need it.",
+     "gefuehl": "neutral",
+     "gruppe": "offen_rosi",
+     "wenn": {
+      "alle": [
+       {
+        "eine": [
+         {
+          "flag": "rm_r4"
+         },
+         {
+          "flag": "rosi_zusammen"
+         }
+        ]
+       },
+       {
+        "nicht": {
+         "flag": "a3_schluss_rosi"
+        }
+       },
+       {
+        "nicht": {
+         "flag": "gefeuert_rosi"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "wer": "holm",
+     "text": "Lola asked me three times what you eat for breakfast. I don't know what you eat for breakfast.",
+     "gefuehl": "neutral",
+     "gruppe": "offen_lola",
+     "wenn": {
+      "alle": [
+       {
+        "eine": [
+         {
+          "flag": "rm_o4"
+         },
+         {
+          "flag": "lola_zusammen"
+         }
+        ]
+       },
+       {
+        "nicht": {
+         "flag": "a3_schluss_lola"
+        }
+       },
+       {
+        "nicht": {
+         "flag": "gefeuert_lola"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "wer": "holm",
+     "text": "Siri hasn't posted anything for two days. For Siri, that is a message too.",
+     "gefuehl": "neutral",
+     "gruppe": "offen_siri",
+     "wenn": {
+      "alle": [
+       {
+        "eine": [
+         {
+          "flag": "rm_i4"
+         },
+         {
+          "flag": "siri_zusammen"
+         }
+        ]
+       },
+       {
+        "nicht": {
+         "flag": "a3_schluss_siri"
+        }
+       },
+       {
+        "nicht": {
+         "flag": "gefeuert_siri"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "wer": "holm",
+     "text": "Bibi feeds her animals in the morning and watches the path. Every morning.",
+     "gefuehl": "neutral",
+     "gruppe": "offen_bibi",
+     "wenn": {
+      "alle": [
+       {
+        "alle": [
+         {
+          "flag": "rt_bibi_bleibt"
+         },
+         {
+          "wert": [
+           "begehren.bibi",
+           ">=",
+           4
+          ]
+         }
+        ]
+       },
+       {
+        "nicht": {
+         "flag": "a3_schluss_bibi"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "wer": "holm",
+     "text": "Nobody is waiting for a talk with you. I checked. Good.",
+     "gefuehl": "neutral",
+     "gruppe": "keiner",
+     "wenn": {
+      "alle": [
+       {
+        "nicht": {
+         "alle": [
+          {
+           "eine": [
+            {
+             "flag": "rm_c4"
+            },
+            {
+             "flag": "chiara_zusammen"
+            }
+           ]
+          },
+          {
+           "nicht": {
+            "flag": "a3_schluss_chiara"
+           }
+          },
+          {
+           "nicht": {
+            "flag": "gefeuert_chiara"
+           }
+          }
+         ]
+        }
+       },
+       {
+        "nicht": {
+         "alle": [
+          {
+           "eine": [
+            {
+             "flag": "rm_a4"
+            },
+            {
+             "flag": "alva_zusammen"
+            }
+           ]
+          },
+          {
+           "nicht": {
+            "flag": "a3_schluss_alva"
+           }
+          },
+          {
+           "nicht": {
+            "flag": "gefeuert_alva"
+           }
+          }
+         ]
+        }
+       },
+       {
+        "nicht": {
+         "alle": [
+          {
+           "eine": [
+            {
+             "flag": "rm_l4"
+            },
+            {
+             "flag": "lea_zusammen"
+            }
+           ]
+          },
+          {
+           "nicht": {
+            "flag": "a3_schluss_lea"
+           }
+          },
+          {
+           "nicht": {
+            "flag": "gefeuert_lea"
+           }
+          }
+         ]
+        }
+       },
+       {
+        "nicht": {
+         "alle": [
+          {
+           "eine": [
+            {
+             "flag": "rm_s4"
+            },
+            {
+             "flag": "sophia_zusammen"
+            }
+           ]
+          },
+          {
+           "nicht": {
+            "flag": "a3_schluss_sophia"
+           }
+          },
+          {
+           "nicht": {
+            "flag": "gefeuert_sophia"
+           }
+          }
+         ]
+        }
+       },
+       {
+        "nicht": {
+         "alle": [
+          {
+           "eine": [
+            {
+             "flag": "rm_r4"
+            },
+            {
+             "flag": "rosi_zusammen"
+            }
+           ]
+          },
+          {
+           "nicht": {
+            "flag": "a3_schluss_rosi"
+           }
+          },
+          {
+           "nicht": {
+            "flag": "gefeuert_rosi"
+           }
+          }
+         ]
+        }
+       },
+       {
+        "nicht": {
+         "alle": [
+          {
+           "eine": [
+            {
+             "flag": "rm_o4"
+            },
+            {
+             "flag": "lola_zusammen"
+            }
+           ]
+          },
+          {
+           "nicht": {
+            "flag": "a3_schluss_lola"
+           }
+          },
+          {
+           "nicht": {
+            "flag": "gefeuert_lola"
+           }
+          }
+         ]
+        }
+       },
+       {
+        "nicht": {
+         "alle": [
+          {
+           "eine": [
+            {
+             "flag": "rm_i4"
+            },
+            {
+             "flag": "siri_zusammen"
+            }
+           ]
+          },
+          {
+           "nicht": {
+            "flag": "a3_schluss_siri"
+           }
+          },
+          {
+           "nicht": {
+            "flag": "gefeuert_siri"
+           }
+          }
+         ]
+        }
+       },
+       {
+        "nicht": {
+         "alle": [
+          {
+           "alle": [
+            {
+             "flag": "rt_bibi_bleibt"
+            },
+            {
+             "wert": [
+              "begehren.bibi",
+              ">=",
+              4
+             ]
+            }
+           ]
+          },
+          {
+           "nicht": {
+            "flag": "a3_schluss_bibi"
+           }
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "wer": "holm",
+     "text": "I say this once. If you still want to say something to somebody, say it in the next two days.",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“Two days. Understood, Captain.”",
+     "folgen": [
+      {
+       "flag": "a3_zwei_tage"
+      }
+     ],
+     "zeile": {
+      "wer": "holm",
+      "text": "Good. Now drink your coffee. It's getting cold.",
+      "gefuehl": "approval"
+     }
+    },
+    {
+     "text": "Drinks the coffee next to her and says nothing.",
+     "folgen": [
+      {
+       "flag": "a3_zwei_tage"
+      },
+      {
+       "vertrauen": [
+        "holm",
+        1
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "id": "a3_schluss_chiara",
    "art": "ort",
    "ton": "wholesome",

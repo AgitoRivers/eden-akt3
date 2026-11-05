@@ -81,3 +81,14 @@ Grundlage: bekannte Spiele und ihre Rezeption (Kritiken, Spielerstimmen), gegen 
 - Punkt 5 bekommt Soras Prüfstein: Fehlt ein Baustoff, nennt das Fenster immer eine Szene, die ihn bringt, nie einen Laden.
 
 **Maelle (Producerin):** Eine Frage an Duc: Bauen wir zuerst das schnelle Paket (Warnung an Tag 33, Satz zur Kommission, Baustoff-Hinweis, Stern im Titel), oder wartest du damit bis zum Feinschliff der Enden? 📋
+
+## 6. Umgesetzt (Duc 05.11.2026: „passt, deine Empfehlung umsetzen“)
+
+| Punkt | Gebaut | Wo |
+|---|---|---|
+| 1 Warnung | `a3_zwei_tage`, Tag 31 Nacht, Pflicht. Holm auf dem Achterdeck: zwei freie Tage, dann Villa, Kommission, Festa. Sie nennt jede Romanze, deren Schluss-Karte noch offen ist (Chiara, Alva, Lea, Sophia, Rosi, Lola, Siri, Bibi), sonst „Nobody is waiting“. Tag 31 statt 33, weil Tag 33 schon voll ist (Schiene, Einladung, Mitternacht) und die Schluss-Karten nur bis Tag 33 gehen. Megans Karte endet an Tag 30 und fehlt darum | `ereignisse_akt3_woche5.py` (WARNUNG) |
+| 2 Echo der Anhörung | Megan sagt am Anfang der Kommission: „You did this once already, at the hearing on the yacht … Same game. Bigger table.“ Hilfe-Text im Plugin sagt es auch | `kommission_akt3.py` (`erinnerung`), `kern/kommission.beginnen`, Plugin `eden-commission` |
+| 3 Baustoffe ohne Liste | Fehlt ein Baustoff, nennt der Reiter „Village“ die Szene oder Tat, die ihn bringt, nie einen Laden | `kern/aufbau.WO`, `eden-farm.js` |
+| 7 Stern sichtbar | Im Titelbild: „Endings seen: 3 of 10 · ★ one ending is still hidden“ (oder „★ found“), sobald ein Ende gesehen ist | `eden.ansicht` (`enden`), `client/index.html` |
+
+Test: `tests/test_akt3_spaet.py`. Offen für den Feinschliff: Punkt 4 (Festa-Bild zuletzt), 5 (Festa-Momente für offene Freundschaften), 6 (Satz je Baustufe).

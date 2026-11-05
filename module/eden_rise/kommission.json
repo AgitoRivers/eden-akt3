@@ -2,7 +2,8 @@
  "_hinweis": "Gebaut aus werkzeuge\\eden_rise\\kommission_akt3.py - dort aendern. Regeln: kern/kommission.py.",
  "sprecher": {
   "anwalt": "Maître Delorme",
-  "kommissar": "Commissioner Luciani"
+  "kommissar": "Commissioner Luciani",
+  "megan": "Megan"
  },
  "geduld": 3,
  "texte": {
@@ -17,6 +18,11 @@
    "wer": "anwalt",
    "text": "Commissioner. Gentlemen. Good people of Cala d'Orsu. My client sends his warmest regards. He is very busy saving the world.",
    "gefuehl": "amusement"
+  },
+  "erinnerung": {
+   "wer": "megan",
+   "text": "Duc. You did this once already, at the hearing on the yacht. Ask until he says it clearly. Then put the proof on the lie. Same game. Bigger table.",
+   "gefuehl": "neutral"
   },
   "falsch_gelegt": [
    {

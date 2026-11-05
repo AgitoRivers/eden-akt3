@@ -455,7 +455,42 @@ LIGEIA = [
       sets={"lea": "Deck"}),
 ]
 
-EVENTS = IDEE + ORANGE + MAXWELL + LOT14 + SCRAP + MONACO + SANDRU + EINLADUNG + MITTERNACHT + VILLA + LIGEIA
+# ------------------------------------------------------------------ Warnung vor dem Punkt ohne Rueckkehr (Tag 31, Nacht)
+# Duc 05.11.2026 (docs/brain_trust/LATE_GAME.md, Punkt 1): zwei freie Tage bleiben. Holm nennt jede offene Romanze beim Namen,
+# deren Karte (a3_schluss_<pid>, ereignisse_akt3_romanzen.ORTE) bis Tag 33 noch geht. Megans Karte endet an Tag 30 und fehlt hier.
+from ereignisse_akt3_romanzen import oben as _oben  # noqa: E402
+
+_OFFEN_ZEILE = {
+    "chiara": ("[sigh] Chiara stands on the bridge every evening now. She is not looking at the sea.", "neutral"),
+    "alva": ("[clear throat] Alva keeps the bar open late. Not for the fishermen.", "neutral"),
+    "lea": ("[sigh] Lea asked me twice when you sleep. I said: never. She went away smiling anyway.", "neutral"),
+    "sophia": ("[clear throat] Sophia has a letter she hasn't sent. I saw the envelope. It has your name on it.", "neutral"),
+    "rosi": ("[sigh] Rosi works in the engine room until two in the morning. The engine doesn't need it.", "neutral"),
+    "lola": ("[chuckle] Lola asked me three times what you eat for breakfast. I don't know what you eat for breakfast.", "neutral"),
+    "siri": ("[sigh] Siri hasn't posted anything for two days. For Siri, that is a message too.", "neutral"),
+    "bibi": ("[clear throat] Bibi feeds her animals in the morning and watches the path. Every morning.", "neutral"),
+}
+
+
+def _offen(pid):
+    return {"alle": [_oben(pid), NICHT(FL("a3_schluss_" + pid))] + ([DA(pid)] if pid not in ("megan", "bibi") else [])}
+
+
+WARNUNG = [
+    E("a3_zwei_tage", "gag1", "wholesome", "Two More Days", PFL(31, "nacht"), "aft_deck", P1("holm"),
+      "Late at night Holm sits on the aft deck with two coffees. She pushes one across the table to you.",
+      [G("holm", "[clear throat] Frankfurt. Two more free days. Then the villa, then the commission, then the festa. "
+                 "After that, nobody has time for anything.", "neutral")]
+      + [JE(G("holm", t, g), "offen_" + pid, _offen(pid)) for pid, (t, g) in _OFFEN_ZEILE.items()]
+      + [JE(G("holm", "[sigh] Nobody is waiting for a talk with you. I checked. Good.", "neutral"), "keiner",
+            {"alle": [NICHT(_offen(pid)) for pid in _OFFEN_ZEILE]}),
+         G("holm", "[clear throat] I say this once. If you still want to say something to somebody, say it in the next two days.", "neutral")],
+      [O("“Two days. Understood, Captain.”", [F("a3_zwei_tage")],
+         zeile=G("holm", "[chuckle] Good. Now drink your coffee. It's getting cold.", "approval")),
+       O("Drinks the coffee next to her and says nothing.", [F("a3_zwei_tage"), V("holm", 1)])]),
+]
+
+EVENTS = IDEE + ORANGE + MAXWELL + LOT14 + SCRAP + MONACO + SANDRU + EINLADUNG + MITTERNACHT + VILLA + LIGEIA + WARNUNG
 
 ORTE = {
     "a3_orange": {

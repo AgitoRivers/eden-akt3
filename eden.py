@@ -1244,6 +1244,8 @@ def ansicht(z, debug=False):
     v = {"kobold": llm.bereit(), "modul": modul["titel"], "untertitel": modul.get("untertitel", ""), "titelbild": titel, "z": None,
          "profil": profil_ansicht(z), "ausschnitte": ausschnitte(modul["id"])}
     v["musik"] = musik.hint(BASE, modul["id"], z)
+    gesehen = meta.lesen(STAENDE).get("enden", [])   # LATE_GAME.md Punkt 7: Enden ueber alle Durchlaeufe, Stern sichtbar
+    v["enden"] = {"gesehen": len(gesehen), "gesamt": len(akt3.ENDEN), "stern": "stern" in gesehen}
     v["musik_titel"] = musik.hint(BASE, modul["id"], None)
     kp = kampf_profil(z) if z else None                  # einmal je Ansicht (28.10.2026: war zweimal, ~110 ms an Tag 12)
     if kp and kp.get("werkstatt"):

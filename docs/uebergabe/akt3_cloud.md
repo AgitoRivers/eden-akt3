@@ -58,6 +58,11 @@ Stand 04.11.2026, Block 3: Drehbuch Version 3.4 (Bones, Charly und Danzel, Festa
 - **Kommission als Bildschirm:** Plugin `client/plugins/eden-commission/` blind gebaut und in `index.html` eingebunden. **Lokal:** Spiel starten, `kommission.AN = True`, einmal durchspielen (Press, Karte wählen, OBJECTION!, „I have nothing“, Plädoyer, Continue). Danach Bilder der Sprecher und das Ausblenden der Spielleisten nach dem Muster `eden-hearing` ergänzen.
 - **Danzel in Rosis Schluss-Szene** fehlt im Code (F-39).
 
+## Late-Game-Paket (05.11.)
+
+- Analyse und Learnings: `docs/brain_trust/LATE_GAME.md`. Gebaut sind die Punkte 1, 2, 3, 7: Holms Warnung an Tag 31 Nacht (`a3_zwei_tage`), Megans Satz zur Anhörung am Anfang der Kommission, Fundorte statt Einkaufsliste im Reiter „Village“, gesehene Enden und Stern im Titelbild. Test `tests/test_akt3_spaet.py`.
+- **Lokal prüfen:** Titelbild mit einem `spielstaende/_meta.json` ansehen; Reiter „Village“ mit fehlendem Baustoff. Neue Zeilen vertonen (Holm 13, Megan 1).
+
 ## Wartet auf Ducs Urteil
 
 - E-128 (Säulen und Enden im Code), F-34 (Wohnen als Raum-Logik), F-35 (Enden ohne Wahrheit), F-36 (★).

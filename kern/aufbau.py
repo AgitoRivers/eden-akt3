@@ -22,6 +22,15 @@ STUFEN = {
     "werkstatt": ({"timber": 5}, {"timber": 2, "slate": 3}, {"iron": 2, "steel": 2}),
 }
 RABATT = 0.8                       # Charlys Geld (E-125)
+# Wo es die Baustoffe gibt (Duc 05.11.2026, LATE_GAME.md Punkt 3): immer eine Szene oder Tat, nie ein Laden
+WO = {
+    "timber": "Cut trees in the macchia. Driftwood from fishing at sea counts too.",
+    "slate": "Break slate rocks on trips into the mountains. River fishing sometimes brings up slate.",
+    "cork": "Comes off cork oaks when you cut wood.",
+    "granite": "Break granite boulders in the mountains or on the drowned beach.",
+    "iron": "Old anchor chains come up when you fish at sea.",
+    "steel": "Only inside the machines. Beat them at the red light, on the scrap field or at the villa.",
+}
 CHARLY = "a3_charly_geld"
 
 
@@ -65,7 +74,7 @@ def ansicht(z):
         b = braucht(z, hid)
         out.append({"id": hid, "name": ORTE[hid], "besitzer": BESITZER[hid], "stufe": s["stufe"], "stufen": len(STUFEN[hid]),
                     "fertig": s["stufe"] >= len(STUFEN[hid]), "begonnen": s["begonnen"], "geliefert": s["geliefert"],
-                    "braucht": [{"id": k, "n": n, "hast": roh.get(k, 0)} for k, n in b.items()],
+                    "braucht": [{"id": k, "n": n, "hast": roh.get(k, 0), "wo": WO.get(k, "")} for k, n in b.items()],
                     "geht": s["begonnen"] and not s["geliefert"] and bool(b) and all(roh.get(k, 0) >= n for k, n in b.items()),
                     "rabatt": CHARLY in z.get("flags", [])})
     return out

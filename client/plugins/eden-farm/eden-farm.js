@@ -67,7 +67,9 @@ window.EdenFarm = (function(){
       if (!s.begonnen) return `<section class="ef-stall ef-zu">${kopf}<p class="leer">Nobody has started here yet. Lay the first stone in the village (“Lend a Hand”).</p></section>`;
       if (s.geliefert) return `<section class="ef-stall">${kopf}<p class="leer">The materials are there. The pirates build tonight.</p></section>`;
       const kosten = `<span class="ef-kosten">${s.braucht.map(r => `<span class="${r.hast >= r.n ? "ok" : "fehlt"}">${rohIc(r.id)} ${r.hast}/${r.n} ${esc(ROH_NAME[r.id] || r.id)}</span>`).join("")}</span>`;
-      return `<section class="ef-stall">${kopf}<div class="ef-ausbau"><div><b>Next stage</b></div>${kosten}
+      const fehlt = s.braucht.filter(r => r.hast < r.n && r.wo);   // LATE_GAME.md Punkt 3: sagen, wo es das gibt
+      const wo = fehlt.length ? `<p class="leer">${fehlt.map(r => `<b>${esc(ROH_NAME[r.id] || r.id)}:</b> ${esc(r.wo)}`).join("<br>")}</p>` : "";
+      return `<section class="ef-stall">${kopf}<div class="ef-ausbau"><div><b>Next stage</b></div>${kosten}${wo}
         <button class="mini" type="button" ${s.geht ? "" : "disabled"} onclick="EdenFarm.act('baustelle_liefern', {haus:'${esc(s.id)}'})">Bring the materials</button></div></section>`;
     }).join("");
   }

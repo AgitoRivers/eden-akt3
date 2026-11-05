@@ -913,6 +913,15 @@ Gegner (`kaempfe_akt3.py`): Kobra, Skorpion und Wächter sind die Roboter der Be
 
 **Akt 3 einschalten:** `AKT3_SPIELBAR = True` in `werkzeuge/eden_rise/modul_eden_rise.py`, dann `modul_eden_rise.py` bauen. Erst nach Ducs lokalem Durchlauf mit Bildern (Bot-Lauf `PYTHONHASHSEED=0`, Paket G). `kaempfe.json` gezielt ergänzt (der Kampf-Builder bricht hier an fehlenden Sounds ab): lokal `kaempfe_eden_rise.py` laufen lassen. Angepasst: `tests/test_akt2_events.py` (neue Fenster), `tests/test_holm_wette.py` (Tag 24, lokal nicht prüfbar wegen `eden-config.json`). Alle `test_*.py` vor und nach Paket A: 47 gegen 48 grün, kein Test hat seinen Status verloren.
 
+### 12b. Late-Game-Paket (gebaut 05.11.2026, `docs/brain_trust/LATE_GAME.md`)
+
+| Mechanik | Auslöser | Wirkung | Grenzen |
+|---|---|---|---|
+| **Two More Days** (`a3_zwei_tage`) | Tag 31, Nacht, Pflicht | Holm sagt, dass nur noch zwei freie Tage bleiben, und nennt jede Romanze, deren Schluss-Karte (`a3_schluss_<pid>`) noch offen ist. Flag `a3_zwei_tage` | Megans Karte endet an Tag 30 und wird nicht genannt |
+| **Echo der Anhörung** | Beginn der Kommission (`kern/kommission.beginnen`) | Megan erinnert an die Anhörung auf der Yacht: gleiche Regeln, größerer Tisch | nur mit `kommission.AN = True` |
+| **Fundorte der Baustoffe** | Reiter „Village“, wenn ein Stoff fehlt | Satz aus `kern/aufbau.WO`, wo es den Stoff gibt (Macchia, Berge, Angeln, Maschinen) | nennt nie einen Laden |
+| **Enden im Titelbild** | Titelbild, sobald `spielstaende/_meta.json` ein Ende kennt | „Endings seen: n of 10“ und ob ★ noch versteckt ist | zählt über alle Durchläufe |
+
 ## 13. Was aus den Befunden wurde
 
 Gegenrede G1 bis G19 und die 30 Funde der Prüfung von v2 sind in v2.1 eingearbeitet (dort Abschnitt 12, `git show 41ae2ac:docs/wiki/welt/drehbuch_akt3.md`). Version 3 behält diese Lösungen. Was sich durch Ducs Entscheide geändert hat:
