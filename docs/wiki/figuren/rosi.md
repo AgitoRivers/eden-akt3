@@ -62,7 +62,7 @@ Nicht so: “Terremoto. Earthquake. Weighted core. Don't drop it.” (Haiku-Stak
 - **Two Thirds (Schluss-Szene, Maschinenraum, nach `a3_lot14`):** *“Officer. If I say 'Captain' now, is that an insult or a promotion?”* Antworten setzen `a3_schluss_rosi_<n>`. Nach Mitternacht (`a3_mitternacht_rosi`): *“At midnight I take off this stupid dress.”* [Drehbuch 6, 5.21](../welt/drehbuch_akt3.md)
 - **Sandrus Schiene (`a3_schiene`, Tag 33):** Sie nimmt die Leine aus Alons Schienen: *“That sound is mine now. Don't let them tell you otherwise.”* [Drehbuch 5.19](../welt/drehbuch_akt3.md)
 - **Los und Villa:** Los *The Lights* mit einem Chip von Duc (`a3_los_lichter_chip`) oder einem Teil aus Alons Halsbändern (`_halsband`). Mit dem Kellerschlüssel geht sie mit in die Villa (`a3_villa_mit_rosi`). Im Endkampf bricht Unit-01 durch die Kellertür: *“She doesn't have a leash. She never did.”* [Drehbuch 4.3, 5.22, 5.24](../welt/drehbuch_akt3.md)
-- **Danzel:** Laut Drehbuch schwärmt Danzel in „Two Thirds“ dazwischen, wenn Ducs Begehren bei Rosi höchstens 3 ist. Das endet mit 7.7 (E-127, F-33) und ist im Code noch nicht gebaut. [Drehbuch 6, 7.7](../welt/drehbuch_akt3.md)
+- **Danzel:** spielt in Rosis Akt 3 keine Rolle mehr, keine Schwärmerei, kein Zwischenruf in „Two Thirds“ (Duc 05.11.2026, E-133).
 
 
 ## Mechanik
