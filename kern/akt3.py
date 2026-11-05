@@ -20,7 +20,9 @@ LEGION = "Wolff and two men of the Legion carried beams all day. Wolff: “You g
 
 def morgen(z):
     """Zeilen fuer den neuen Morgen (z["tag"] ist schon der neue Tag)."""
-    f = z.get("flags", [])
+    f = z.setdefault("flags", [])
+    if "akt2_ende" in f and z.get("tag", 0) >= 24 and "holm_zurueck" not in f:
+        f.append("holm_zurueck")   # Duc 05.11.2026 (F-40): Holm ist in Akt 3 immer zurueck, auch wenn ihre Rueckkehr-Szene fehlte
     if "akt2_ende" not in f or not 25 <= z.get("tag", 0) <= 35:
         return []
     tag, zeilen = z["tag"], []

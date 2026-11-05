@@ -11,11 +11,11 @@ Vater einen Schlaganfall, sie kam heim und blieb.
 | | |
 |---|---|
 | Alter | 35 |
-| Familie | Vater Ghjuvan (Korse) führte die Bar vierzig Jahre, starb vor drei Jahren; Mutter Andalusierin, ruft jedes Jahr zum Saisonende aus Sevilla an („Die Bar hat dich seit dreizehn Jahren, wann bekomme ich dich zurück?“); Großmutter tanzte Flamenco in Sevilla |
+| Familie | Vater Francescu (Korse; hieß früher Ghjuvan, umbenannt 05.11.2026, E-132) führte die Bar vierzig Jahre, starb vor drei Jahren; Mutter Andalusierin, ruft jedes Jahr zum Saisonende aus Sevilla an („Die Bar hat dich seit dreizehn Jahren, wann bekomme ich dich zurück?“); Großmutter tanzte Flamenco in Sevilla |
 | Bar | steht auf Eden-Grund (E-003); die alte Jukebox schweigt seit Papas Tod |
 | Grauton | Diesel unter dem Tresen |
 | Kastagnetten | gehörten ihrer Großmutter aus Sevilla; liegen seit langem zerbrochen in der Schublade (Petru repariert sie, Missionskette) |
-| Flinte | gehörte Papa Ghjuvan; damit kämpft sie als Fernkämpferin, Kampf-Outfit ein schwarzer Traje corto mit Cordobes-Hut (Duc 01.11.2026) |
+| Flinte | gehörte Papa Francescu; damit kämpft sie als Fernkämpferin, Kampf-Outfit ein schwarzer Traje corto mit Cordobes-Hut (Duc 01.11.2026) |
 | Kreidetafel | Papas Tafel hinter dem Tresen: neben jedem Namen im Dorf, was er bestellt |
 | Fehde | spricht seit zwei Jahren nicht mit der Bürgermeisterin (Casanova verkaufte das Ladenhaus von Alvas Mutter an eine Monaco-Briefkastenfirma – A.V.) |
 | Erkennungssatz | “Everybody's welcome. Nobody's mine.” |

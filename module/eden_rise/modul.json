@@ -7842,7 +7842,7 @@
    "stimme": "Alva Santoni",
    "kurz": "Alva",
    "romanzierbar": true,
-   "beschreibung": "owner of the only bar in Cala d'Orsu, 35; her Corsican father Ghjuvan ran the bar for forty years, her mother was Andalusian and her grandmother danced flamenco in Seville; at 22 Alva wanted to go to Seville to dance, then her father had a stroke and she came home and stayed; he died three years ago and the old jukebox in the corner has been silent since; knows everything that happens in the village, sells diesel under the counter, flirts with everyone and means it with nobody ('Everybody's welcome. Nobody's mine.'); calls people 'o figliolu' now and then; has not spoken to the mayor for two years",
+   "beschreibung": "owner of the only bar in Cala d'Orsu, 35; her Corsican father Francescu ran the bar for forty years, her mother was Andalusian and her grandmother danced flamenco in Seville; at 22 Alva wanted to go to Seville to dance, then her father had a stroke and she came home and stayed; he died three years ago and the old jukebox in the corner has been silent since; knows everything that happens in the village, sells diesel under the counter, flirts with everyone and means it with nobody ('Everybody's welcome. Nobody's mine.'); calls people 'o figliolu' now and then; has not spoken to the mayor for two years",
    "ablauf": {
     "*": "alvas_bar",
     "dinner": "alvas_terrace"

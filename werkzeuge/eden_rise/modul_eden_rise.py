@@ -442,7 +442,7 @@ P["elsa"]["beschreibung"] = (
     "never breaks a rule but bends one for the village; chases Toto like Zenigata chases Lupin ('TOTOOO!'); money is an "
     "insult, figs are fine; secretly reads romance novels and cries at Disney films - anyone who tells gets a ticket")
 P["alva"]["beschreibung"] = (
-    "owner of the only bar in Cala d'Orsu, 35; her Corsican father Ghjuvan ran the bar for forty years, her mother was "
+    "owner of the only bar in Cala d'Orsu, 35; her Corsican father Francescu ran the bar for forty years, her mother was "
     "Andalusian and her grandmother danced flamenco in Seville; at 22 Alva wanted to go to Seville to dance, then her "
     "father had a stroke and she came home and stayed; he died three years ago and the old jukebox in the corner has "
     "been silent since; knows everything that happens in the village, sells diesel under the counter, flirts with "

@@ -107555,6 +107555,125 @@
    ]
   },
   {
+   "id": "a3_probefahrt_petru",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "She Still Swims",
+   "wann": {
+    "tage": [
+     32,
+     32
+    ],
+    "holt_leute": true,
+    "pflicht": true,
+    "phasen": [
+     "fruehstueck"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "flag": "tk_yacht_weg"
+      },
+      {
+       "flag": "a3_yacht_repariert"
+      },
+      {
+       "nicht": {
+        "nicht": {
+         "flag": "gefeuert_rosi"
+        }
+       }
+      }
+     ]
+    }
+   },
+   "bild": "bridge",
+   "personen": {
+    "handelnd": "holm",
+    "betroffen": [
+     {
+      "id": "petru",
+      "ton": "+",
+      "was": "is listening to the engine"
+     }
+    ]
+   },
+   "sets": {
+    "holm": "Bridge",
+    "petru": "Standard"
+   },
+   "lage": "Holm stands on the bridge for the first time since the siege. Rosi is not on board any more. So this morning Petru went down to the engine room without asking anyone. One slow round in the harbour.",
+   "zeilen": [
+    {
+     "wer": "holm",
+     "text": "Frankfurt. Ready to see if she still swims? Petru says the engine sounds fine. From Petru, that is a speech.",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Stands next to Holm on the bridge.",
+     "folgen": [
+      {
+       "vertrauen": [
+        "holm",
+        4
+       ]
+      },
+      {
+       "flag": "a3_probefahrt"
+      }
+     ],
+     "zeile": {
+      "wer": "holm",
+      "text": "Takk, Petru. ...She swims.",
+      "gefuehl": "gratitude"
+     }
+    },
+    {
+     "text": "Goes down to Petru in the engine room.",
+     "folgen": [
+      {
+       "vertrauen": [
+        "petru",
+        4
+       ]
+      },
+      {
+       "flag": "a3_probefahrt"
+      }
+     ],
+     "zeile": {
+      "wer": "petru",
+      "text": "I only listen to it. Somebody built this engine well. Go up. She wants you on the bridge.",
+      "gefuehl": "neutral"
+     }
+    },
+    {
+     "text": "“After you, Captain.”",
+     "folgen": [
+      {
+       "vertrauen": [
+        "holm",
+        2
+       ]
+      },
+      {
+       "flag": "a3_probefahrt"
+      }
+     ],
+     "zeile": {
+      "wer": "holm",
+      "text": "After me. Of course after me. It's my bridge.",
+      "gefuehl": "amusement"
+     }
+    }
+   ]
+  },
+  {
    "id": "a3_yacht_klein",
    "art": "gag1",
    "ton": "witzig",

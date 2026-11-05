@@ -124,7 +124,7 @@ Vorschläge vom 24.10. und werden mit dem Bau von Tag 0 festgelegt.
 
 ### Alva Santoni – Wirtin
 - **Erkennungssatz:** „Everybody's welcome. Nobody's mine.“
-- **Fakten:** 35, Bar des verstorbenen Vaters Ghjuvan, Mutter Andalusierin, Jukebox seit Papas Tod kaputt; wollte mit 22
+- **Fakten:** 35, Bar des verstorbenen Vaters Francescu, Mutter Andalusierin, Jukebox seit Papas Tod kaputt; wollte mit 22
   nach Sevilla tanzen. Bar steht auf Eden-Grund (E-003). Grauton: Diesel unterm Tresen.
 - **Romanze (romanzierbar):** Tresen → Jukebox → Nach Feierabend → Morgen mit Papas Foto → Flamenco auf der Festa („Only you.“).
 

@@ -376,9 +376,7 @@ def pruefe(events):
         if "megan" in beteiligte(e) and k.startswith("a3_") and w.get("phasen") and k != "a3_megan_landet" and \
                 not any(f in json.dumps(w.get("bedingung") or {}) for f in ("megan_zurueck", "megan_funke")):
             fehler.append("%s: Megan in Akt 3 nur nach ihrer Rueckkehr (megan_zurueck)" % k)
-        if "holm" in beteiligte(e) and k.startswith("a3_") and w.get("phasen") and e["art"] != "ort" and \
-                "holm_zurueck" not in json.dumps(w.get("bedingung") or {}) and not w.get("pflicht"):
-            fehler.append("%s: Holm in Akt 3 nur mit holm_zurueck" % k)
+        # Holm ist in Akt 3 immer zurueck (Duc 05.11.2026, F-40): kern/akt3.morgen setzt holm_zurueck ab Tag 24, keine Regel mehr noetig.
         if "megan" in beteiligte(e) and e["art"] != "handy" and e["bild"] not in FERNORTE and not p_fern(e) and not k.startswith(("bl_", "a3_")) and \
                 not w.get("prolog") and \
                 "megan_besuch" not in json.dumps(w.get("bedingung", {})):

@@ -266,7 +266,7 @@ und genau das macht ihn sympathisch: Er will einfach seinen Weg gehen. Das Spiel
 denn den hat er sich abgewöhnt.
 
 **Wie es gezeigt wird:** Nie eine Hassszene und keine Predigt, nur kleine Stiche, die er weglacht. Ein Tourist fragt, woher er wirklich komme.
-*“From here. Ha. Over there, actually, you can see the house.”* Ghjuvans Regel „Everybody drinks“ war der Grund, warum er als Kind in die Bar durfte.
+*“From here. Ha. Over there, actually, you can see the house.”* Francescus Regel (Alvas Vater) „Everybody drinks“ war der Grund, warum er als Kind in die Bar durfte.
 
 **Kurz:** 30, im Dorf aufgewachsen, eine fortschreitende Krankheit in den Beinen, dieselbe wie Alons. Filialleiter des A.V. Market
 im Ladenhaus von Alvas Mutter, genau gegenüber ihrer Bar. Seine Beinschienen und die Stelle sind ein Paket: Studie von A.V.
