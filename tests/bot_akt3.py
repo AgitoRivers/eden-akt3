@@ -92,6 +92,15 @@ def schritt(z, protokoll, rnd):
             a3 = [o for o in orte if o.startswith("a3_")]
             return "ort_betreten", {"id": rnd.choice(a3 or orte)}
         return "wahl", {"id": rnd.choice(z["optionen"])}
+    if st == "kampf":                         # Akt 3: Roboter-Schlaege, die man nur ausweichen kann (lauf_test pariert immer)
+        k = z["kampf"]
+        if k["phase"] == "parade":
+            p = k.get("parade") or {}
+            if p.get("nur_ausweichen"):
+                if p.get("modus") != "ring":
+                    protokoll.setdefault("nur_ausweichen_ohne_ring", []).append((z["tag"], z["phase"], p.get("modus")))
+                return "kampf_parade", {"ergebnis": "ausweichen" if p.get("modus") == "ring" else "verfehlt", "revision": k["revision"]}
+        return L.schritt(z, protokoll)
     if st == "kommission":
         k = z.get("kommission") or {}
         if k.get("fertig"):
@@ -188,6 +197,7 @@ def lauf(lage, seed):
             erg["haenger"] = "mehr als %d Schritte" % MAX_SCHRITTE
         erg["tag"], erg["phase"], erg["status"] = z["tag"], z["phase"], z["status"]
         erg["ende"] = (z.get("abschluss") or {}).get("ende") or (z.get("abschluss") or {}).get("titel")
+        erg["nur_ausweichen_ohne_ring"] = protokoll.get("nur_ausweichen_ohne_ring", [])[:5]
         erg["flags_a3"] = sorted(f for f in z.get("flags", []) if f.startswith("a3_"))
         return erg
     finally:
@@ -212,6 +222,8 @@ def main():
         print("%-24s seed %d: Tag %s %s, Status %s, Ende %s, %d Events, %d Schritte%s%s" % (
             lage, e["seed"], e["tag"], e.get("phase"), e.get("status"), e["ende"], len(e["events"]), e["schritte"],
             "  FEHLER: " + " | ".join(e["fehler"]) if e["fehler"] else "", "  HAENGT: " + e["haenger"] if e["haenger"] else ""))
+        if e.get("nur_ausweichen_ohne_ring"):
+            print("    nur ausweichen, aber kein Ring-Modus:", e["nur_ausweichen_ohne_ring"])
         for k, n in e["abgelehnt"].most_common(3):
             print("    abgelehnt %dx: %s" % (n, k))
     gesehen = {eid for e in alle for _, _, eid in e["events"]}
