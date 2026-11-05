@@ -58,10 +58,20 @@ window.EdenFarm = (function(){
   // Akt 3 (04.11.2026, kern/aufbau.py): building sites in the village. One stage at a time, the pirates build it overnight.
   let hatBau = false;
   const ROH_NAME = {timber: "Timber", slate: "Slate", granite: "Granite", steel: "Steel", iron: "Iron", cork: "Cork"};
+  // Akt 3 (05.11.2026, kern/post.py): Mina rides to Bastia every day. Pick one thing for tomorrow morning, or let her choose.
+  function postRunde(k){
+    const p = k.post;
+    if (!p) return "";
+    const wahl = p.wahl.map(w => `<button class="mini${p.bestellt === w.id ? " an" : ""}" type="button" ${p.bestellt === w.id ? "disabled" : ""}
+        onclick="EdenFarm.act('post_bestellen', {wahl:'${esc(w.id)}'})">${esc(w.text)}</button>`).join(" ");
+    const zeile = p.bestellt ? "Mina has your order. It comes tomorrow morning." : "If you don't pick anything, Mina brings what the building site needs.";
+    return `<section class="ef-stall"><h4>Mina's Run to Bastia${p.vespa ? ` <span class="ef-stufe-badge">Vespa fixed: double</span>` : ""}</h4>
+      <p class="leer">“Every day I go to Bastia anyway. What do you need?” ${esc(zeile)}</p><div class="ef-ausbau">${wahl}</div></section>`;
+  }
   function baustellen(k){
     const b = k.baustellen || [];
-    if (!b.length) return `<p class="leer">No house in the village needs rebuilding.</p>`;
-    return `<p class="leer">Bring the materials for the next stage. Buenaventura's men build it during the night.${b.some(x => x.rabatt) ? " Charly's money makes every stage cheaper." : ""}</p>` + b.map(s => {
+    if (!b.length) return postRunde(k) + `<p class="leer">No house in the village needs rebuilding.</p>`;
+    return postRunde(k) + `<p class="leer">Bring the materials for the next stage. Buenaventura's men build it during the night.${b.some(x => x.rabatt) ? " Charly's money makes every stage cheaper." : ""}</p>` + b.map(s => {
       const kopf = `<h4>${esc(s.name)} <span class="ef-stufe-badge">Stage ${s.stufe}/${s.stufen}</span></h4>`;
       if (s.fertig) return `<section class="ef-stall">${kopf}<p class="ef-voll">Rebuilt. The door is open again.</p></section>`;
       if (!s.begonnen) return `<section class="ef-stall ef-zu">${kopf}<p class="leer">Nobody has started here yet. Lay the first stone in the village (“Lend a Hand”).</p></section>`;
@@ -143,7 +153,7 @@ window.EdenFarm = (function(){
 
   // ---------------------------------------------------------------- Frederico (after leaving the shop)
   function update(z){
-    hatBau = !!(z && z.kueche && (z.kueche.baustellen || []).length);
+    hatBau = !!(z && z.kueche && ((z.kueche.baustellen || []).length || z.kueche.post));
     const f = z && z.kueche && z.kueche.fred;
     if (!f){ fredId = null; return; }
     if (fredId === f.id) return;
