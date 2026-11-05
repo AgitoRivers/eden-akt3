@@ -81,3 +81,11 @@ Stand 04.11.2026, Block 3: Drehbuch Version 3.4 (Bones, Charly und Danzel, Festa
 - Auf `fix-akt2` steht `HOLM_TAG = 22`, Akt 3 braucht 24.
 - Neue Flags fürs Bauen: `bl_dorf_rudert`, `bl_nachtwache_pascal`, `gr_riscossore_gesehen`.
 - Favours und Handy nicht öffnen (F-11, F-12).
+
+## Mina-Paket (05.11., andere Sitzung, Branch `mina-akt3` auf `akt3-cloud` f59a61d)
+
+- **Gebaut:** Minas Fahrt nach Bastia, der Wirkpunkt der Post aus Drehbuch 4.1 (`kern/post.py`, eingehängt in `eden.py` nach `akt3.morgen`, Aktion `post_bestellen`, Kreis im Reiter „Village“). Szene „Second Gear“ (`werkzeuge/eden_rise/ereignisse_akt3_mina.py`, zwei Events, 13 Zeilen mit Turbo-Tags, Quelle `akt3_mina`). Test `tests/test_akt3_mina.py`.
+- **Gezielt ergänzt:** `ereignisse.json` (nur die zwei neuen Events angehängt), `stimme_tags.json` (13 Zeilen). **Lokal neu bauen** (`ereignisse_basis.py`) und `git diff` prüfen.
+- **Tests:** `test_akt3_mina` neu und grün; `test_akt3_woche4`, `_kalender`, `_lose`, `_woche5`, `_romanzen`, `_finale`, `_petru`, `_beginn`, `_spaet`, `test_aufbau_akt3`, `test_sprite_stimmung`, `test_akt2_events` grün. `test_dorf_figuren` und `test_sprache` brauchen `eden-config.json` (lokal nicht prüfbar).
+- **Lokal prüfen:** Reiter „Village“ mit aufgebauter Post (drei Knöpfe, „Vespa fixed: double“), die Morgen-Meldung, beide Fassungen von „Second Gear“ (mit und ohne `gefeuert_rosi`). Vertonung der 13 Zeilen steht aus.
+- **Bestellt:** drei Mina-Outfits und Departure (`akt3_bestellungen.md`, Sprites). Fragen F-43 (Zustellbuch), F-44 (vier Zeilen am Morgen). Register: Eintrag ohne Nummer am Ende von `ENTSCHEIDUNGEN.md`, die Nummer vergibt die Hauptsitzung.

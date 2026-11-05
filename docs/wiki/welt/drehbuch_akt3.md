@@ -148,6 +148,15 @@ Freie Kartenphasen Tag 24 bis 34: **34**.
 | Alvas Bar | der erste neue Name auf Papas Tafel, mit `bl_alva_runde` darunter *“Everyone. Paid. D.”* | Bar-Abende, Alvas Los |
 | Petrus Werkstatt | das Ruder über der Tür, heil oder verkohlt | Angeln vom Boot, Petrus Los |
 
+**Minas Fahrt nach Bastia (gebaut 05.11.2026, Branch `mina-akt3`, `kern/post.py`, Test `test_akt3_mina`):** Ab der wieder aufgebauten Post
+(oder, wenn die Post nie brannte, nach „Second Gear“) bestellt Duc im Reiter „Village“ ohne Phase eins von drei Dingen für den nächsten Morgen:
+den Baustoff, der an den begonnenen Baustellen am meisten fehlt, eine Zutat aus Bastia (Fish Sauce, Tofu, Rice Paper, Salmon Steak im Wechsel)
+oder „Mina's choice“ (60 % zwei Stück des fehlenden Baustoffs, 40 % eine Zutat mit drei Sternen). Wählt Duc nichts, bringt Mina den fehlenden
+Baustoff („I just know“). Stahl bringt sie nie. Bestellen Tag 25 bis 33, Lieferung am Morgen von Tag 26 bis 34 in „Day X is over“.
+**„Second Gear“** (`a3_mina_vespa`, ohne Rosi `a3_mina_vespa_petru`, Pool Tag 25 bis 30, Tag oder Nachmittag, nur wenn die Post steht):
+Rosi repariert Minas Vespa (ihr Vater Salvo, `figuren/rosi.md`), sonst Petru. Setzt `mina_vespa_heil` (Baustoff und Zutat doppelt) und
+`a3_post_bastia`. 13 Zeilen mit Turbo-Tags, Quelle `akt3_mina`.
+
 - **Nicht abgebrannt:** Dank-Szene als Frühstücks-Vignette (Tag 25 bis 28, je eine), ohne Frage. Gefragt wird später mit der Karte „Ask <Name>“.
 - **Die Kirche** ist keine Baustelle, das Dach tropft bis zum Ende, nur Ende 3 und ★ reparieren es (E-096).
 
