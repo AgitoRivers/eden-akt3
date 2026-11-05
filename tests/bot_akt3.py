@@ -130,6 +130,7 @@ def akt3_stand(lage, rnd):
     for pid in ("holm", "megan", "rosi", "chiara", "lola", "alva", "petru", "mina"):
         z.setdefault("vertrauen", {}).setdefault(pid, rnd.choice([2, 3, 4, 5]))
     z["heute"], z["optionen"], z["meldungen"] = [], [], []
+    eden.akt3.morgen(z)                                   # wie der Tageswechsel 23 -> 24 (setzt u. a. holm_zurueck)
     modul = eden.modul_laden(z.get("modul"))
     if not eden.plan.plan_laden(z, modul, eden.moddir(z["modul"])):
         raise RuntimeError("Kein Tagesplan fuer Tag 24")

@@ -63,6 +63,12 @@ Stand 04.11.2026, Block 3: Drehbuch Version 3.4 (Bones, Charly und Danzel, Festa
 - Analyse und Learnings: `docs/brain_trust/LATE_GAME.md`. Gebaut sind die Punkte 1, 2, 3, 7: Holms Warnung an Tag 31 Nacht (`a3_zwei_tage`), Megans Satz zur Anhörung am Anfang der Kommission, Fundorte statt Einkaufsliste im Reiter „Village“, gesehene Enden und Stern im Titelbild. Test `tests/test_akt3_spaet.py`.
 - **Lokal prüfen:** Titelbild mit einem `spielstaende/_meta.json` ansehen; Reiter „Village“ mit fehlendem Baustoff. Neue Zeilen vertonen (Holm 13, Megan 1).
 
+## Bot und Kalender (05.11.)
+
+- `tests/bot_akt3.py` spielt Akt 3 durch die echte Engine: 8 von 8 Läufen bis zum Ende, kein Absturz, kein Hänger. Bericht: `akt3_bot_bericht.md`.
+- Gefixt: Romanzen-Leiter enden an Tag 33, Bibis Handgriffe an Tag 33, Megan warnt selbst an Tag 29 (`a3_megan_tuer`).
+- Info: Branch `mina-akt3` (andere Sitzung) baut darauf auf, mit Minas Post nach Bastia und F-43/F-44. Nicht zusammengeführt.
+
 ## Wartet auf Ducs Urteil
 
 - E-128 (Säulen und Enden im Code), F-34 (Wohnen als Raum-Logik), F-35 (Enden ohne Wahrheit), F-36 (★).
