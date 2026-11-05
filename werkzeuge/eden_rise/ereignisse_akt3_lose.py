@@ -195,7 +195,7 @@ LOS_FRAMES = [
         [G("mina", "[sigh] Letters for people who moved away. Or who aren't here any more. Shall I hang them up over the street?", "neutral")],
         [("“Yes. All of them.”", "alle", G("mina", "[chuckle] All of them. Even the ones from Monaco in that neat handwriting. Let them hang.", "amusement")),
          ("“Yes, but not Pascal's post.”", "ohne", G("mina", "[sigh] Okay. His letters stay in the box.", "neutral")),
-         ("“No. Flowers. Letters are for reading.”", "blumen", G("mina", "[clear throat] Flowers. You sound like my mother.", "amusement"))]),
+         ("“No. Flowers. Letters are for reading.”", "blumen", G("mina", "[chuckle] Flowers. You sound like my mother.", "amusement"))]),
     LOS("glocke", "anghjulu", "church", "The Bell",
         "The board says: Don · the bell · ringing for the dance. The bell is cracked and rings in the wrong rhythm. Don has a pack of cards.",
         [JE(G("anghjulu", "[chuckle] You let me stay sober once already, at the church door, the night of the siege. Twice is a habit. "
@@ -264,7 +264,7 @@ RUNDGANG = [
        personen={"handelnd": "casanova", "betroffen": []}),
     FR("a3_los_genug", "village_piazza", "The Festa Board",
        "The sun is lower now. The board is still there, and so are the names.",
-       [G("casanova", "[sigh] Tomorrow, then. The festa doesn't build itself. ...Well. Sometimes it does. That is the miracle of a festa.", "amusement")],
+       [G("casanova", "[chuckle] Tomorrow, then. The festa doesn't build itself. ...Well. Sometimes it does. That is the miracle of a festa.", "amusement")],
        [O("Goes home.", [])],
        personen={"handelnd": "casanova", "betroffen": []}),
 ]

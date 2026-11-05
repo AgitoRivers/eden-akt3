@@ -203,7 +203,7 @@ PAARE = [
          P1("sophia", ("isabelle", "+", "is curious")),
          "Isabelle has come down from the monastery with her herbs. Sophia is helping her sort them on the church steps.",
          [G("isabelle", "[chuckle] Mina says you and the officer talk every night. She just knows things. Is it true?", "curiosity"),
-          G("sophia", "[sigh] Darling, Mina knows everything. Don't tell Lea. ...Here. For when you want to leave somewhere. Or stay.", "caring"),
+          G("sophia", "[sigh] Darling, Mina knows everything. [shush] Don't tell Lea. ...Here. For when you want to leave somewhere. Or stay.", "caring"),
           G("isabelle", "[sigh] She's brave, isn't she? Is it hard, being brave?", "curiosity")],
          [("“Ask her. She'll tell you it isn't.”", "frag", G("sophia", "[chuckle] It isn't. It's terrible. Do it anyway.", "amusement")),
           ("“Yes. She does it anyway.”", "ja", G("isabelle", "[sniff] Anyway. I like that word.", "gratitude"))],
@@ -262,7 +262,7 @@ PAARE = [
                       "A pocket for your laptop. And RED, inside the collar. Small.", "caring"),
           G("charly", "[sigh] ...Ten. I want to stay. Here. In the shop. With you. That's not a rating, Danzel.", "love"),
           G("danzel", "[gasp] Then... then nobody leaves! Nobody leaves very... nobody leaves. ...Duc, did you hear that?", "love")],
-         [("“That was the best ten I've ever heard.”", "zehn", G("charly", "[chuckle] Then it stays a ten. Don't tell Bibi. She'll cry louder than him.", "love")),
+         [("“That was the best ten I've ever heard.”", "zehn", G("charly", "[chuckle] Then it stays a ten. [shush] Don't tell Bibi. She'll cry louder than him.", "love")),
           ("“Give him a nine next time, so he stays humble.”", "neun", G("danzel", "[laugh] Never! I will never be humble!", "joy")),
           ("Looks at Danzel, who is crying into a curtain, and quietly leaves them alone.", "allein", G("charly", "[sigh] Seven out of ten for crying. Come here.", "love"))]),
 ]

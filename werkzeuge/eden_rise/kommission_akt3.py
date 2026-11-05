@@ -153,7 +153,7 @@ TEXTE = {
                       S("kommissar", "[clear throat] We are not here for guesses. Please.", "disapproval"),
                       S("kommissar", "[sigh] My patience is a small boat, First Officer. Don't make it sink.", "annoyance")],
     "falsch_wahr": S("anwalt", "[chuckle] Objection to the objection. That sentence happens to be true.", "amusement"),
-    "zu_frueh": S("anwalt", "[clear throat] I said nothing of the kind, Commissioner. Perhaps the First Officer should listen first.", "amusement"),
+    "zu_frueh": S("anwalt", "[chuckle] I said nothing of the kind, Commissioner. Perhaps the First Officer should listen first.", "amusement"),
     "geduld_weg": S("kommissar", "[sigh] Enough. We have heard enough guesses. We will decide with what we have.", "anger"),
     "nichts": S("kommissar", "[sigh] No answer? Then the sentence stands as it is.", "neutral"),
     "urteil": {3: S("kommissar", "[clear throat] Thank you. We have what we need. All three questions. You'll know tonight, but I think you know already.", "admiration"),

@@ -69,6 +69,11 @@ Stand 04.11.2026, Block 3: Drehbuch Version 3.4 (Bones, Charly und Danzel, Festa
 - Gefixt: Romanzen-Leiter enden an Tag 33, Bibis Handgriffe an Tag 33, Megan warnt selbst an Tag 29 (`a3_megan_tuer`).
 - Info: Branch `mina-akt3` (andere Sitzung) baut darauf auf, mit Minas Post nach Bastia und F-43/F-44. Nicht zusammengeführt.
 
+## Einfaches Englisch und Turbo-Tags (05.11.)
+
+- **Prüfregel einfaches Englisch:** `werkzeuge/eden_rise/einfach_englisch.py` (Wörterliste mit Vorschlag) und `tests/test_einfach_englisch.py` (alle 1.681 Akt-3-Texte: Events, Kommission, Legenden). Neue Wörter in die Liste, nie den Test abschalten. Gefixt: „burning torches“ statt „torches“, Whites Plan „fire, houses“, „wild herbs“ und „berry liqueur“ statt Myrte.
+- **Turbo-Tags:** `tests/test_akt3_tags.py` prüft, dass kein `[sigh]` oder `[clear throat]` eine fröhliche Zeile eröffnet und dass vor „Don't tell …“ ein `[shush]` steht. Vier Zeilen umgestellt, zwei `[shush]` neu (Sophia, Charly). Die Verteilung je Figur passt zur Stimme (Petru räuspert sich, Lola und Maxwell lachen); `[sigh]` bleibt der häufigste Tag. Neu vertonen: die sechs geänderten Zeilen.
+
 ## Wartet auf Ducs Urteil
 
 - E-128 (Säulen und Enden im Code), F-34 (Wohnen als Raum-Logik), F-35 (Enden ohne Wahrheit), F-36 (★).

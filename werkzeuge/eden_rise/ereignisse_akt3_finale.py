@@ -193,7 +193,7 @@ FESTA = [
           {"alle": [FL("a3_petru_brief_festa"), {"eine": [FL("bg_weg_c"), FL("petru_versoehnt")]}]}),
        JE(G("laetitia", "[sniff] Papa. A bay leaf in the milk. You remembered Mama's secret. I'm here.", "love"), "laetitia",
           {"alle": [FL("a3_petru_brief_marie"), {"eine": [FL("bg_weg_c"), FL("petru_versoehnt")]}]}),
-       JE(G("mina", "[clear throat] Petru! A postcard from the mountains, just now. One line: Me too, Papa.", "joy"), "laetitia", FL("a3_petru_brief")),
+       JE(G("mina", "[gasp] Petru! A postcard from the mountains, just now. One line: Me too, Papa.", "joy"), "laetitia", FL("a3_petru_brief")),
        JE(G("ghjuvan", "[sigh] Ghjuvan, from the hills. The red light on the ridge went out. I slept for the first time in a month. So did my sheep.", "relief"), "mast",
           {"alle": [FL("a3_mast_aus"), NICHT(FL("bg_ghjuvan_tot"))]}),
        JE(G("charly", "[clear throat] ...Up there it's still blinking. She's watching. Let her watch this.", "pride"), "mast",
