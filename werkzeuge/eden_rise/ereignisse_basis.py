@@ -510,6 +510,7 @@ def bauen():
     import ereignisse_akt3_petru                  # Akt 3, mehr Petru (04.11.2026)
     import ereignisse_sandru_name                 # Woche 3: Sandrus "Your Own Name" (F-20)
     import ereignisse_akt3_mast                   # Akt 3: Quest The Red Light (Mast auf dem Kamm)
+    import ereignisse_akt3_mina                   # Akt 3: Minas Vespa (Second Gear), Fahrt nach Bastia (kern/post.py)
     events = (ereignisse_bordrat.EVENTS + ereignisse_handy.EVENTS + ereignisse_gag1.EVENTS + ereignisse_gagv.EVENTS
               + ereignisse_abende.EVENTS + ereignisse_staerken.EVENTS + ereignisse_verrueckt.EVENTS
               + ereignisse_akt1.EVENTS + ereignisse_yamamoto.EVENTS + ereignisse_tag0.EVENTS + ereignisse_hafen.EVENTS
@@ -521,7 +522,8 @@ def bauen():
               + ereignisse_dorf.EVENTS + ereignisse_schneider.EVENTS + ereignisse_romanzen.EVENTS + ereignisse_bibi.EVENTS + ereignisse_cliffhanger.EVENTS + ereignisse_outfit_quest.EVENTS + ereignisse_belagerung.EVENTS + ereignisse_belagerung_nacht.EVENTS + ereignisse_mochis.EVENTS
               + ereignisse_erinnerung.EVENTS + ereignisse_akt3_woche4.EVENTS + ereignisse_akt3_lose.EVENTS
               + ereignisse_akt3_woche5.EVENTS + ereignisse_akt3_romanzen.EVENTS + ereignisse_akt3_finale.EVENTS
-              + ereignisse_akt3_petru.EVENTS + ereignisse_sandru_name.EVENTS + ereignisse_akt3_mast.EVENTS)
+              + ereignisse_akt3_petru.EVENTS + ereignisse_sandru_name.EVENTS + ereignisse_akt3_mast.EVENTS
+              + ereignisse_akt3_mina.EVENTS)
     # Die Event-Dateien importieren dieses Modul unter seinem Namen - ihre Gegenstaende landen dort, nicht in __main__
     NEUE_ITEMS.update(sys.modules["ereignisse_basis"].NEUE_ITEMS)
     import ereignisse_fenster                    # Akt 2 (29.10.2026): zeitlose Events bis Tag 21 offen, "nachlauf"
@@ -561,6 +563,7 @@ def bauen():
     print("Akt 3 Petru: %d gesprochene Zeilen -> stimme_tags.json" % sys.modules["ereignisse_akt3_petru"].tags_schreiben())
     print("Sandru Name: %d gesprochene Zeilen -> stimme_tags.json" % sys.modules["ereignisse_sandru_name"].tags_schreiben())
     print("Akt 3 Mast: %d gesprochene Zeilen -> stimme_tags.json" % sys.modules["ereignisse_akt3_mast"].tags_schreiben())
+    print("Akt 3 Mina: %d gesprochene Zeilen -> stimme_tags.json" % sys.modules["ereignisse_akt3_mina"].tags_schreiben())
     print("Outfit-Quest: %d gesprochene Zeilen -> stimme_tags.json" % ereignisse_outfit_quest.tags_schreiben())
     print("Legenden: %d Zeilen -> legenden.json, %d gesprochene -> stimme_tags.json" % ereignisse_legenden.schreiben(os.path.dirname(ZIEL)))
     print("Dorf: %d gesprochene Zeilen -> stimme_tags.json" % ereignisse_dorf.tags_schreiben())

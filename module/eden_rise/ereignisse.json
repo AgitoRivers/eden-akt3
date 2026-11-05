@@ -137617,6 +137617,347 @@
      "folgen": []
     }
    ]
+  },
+  {
+   "id": "a3_mina_vespa",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "Second Gear",
+   "wann": {
+    "tage": [
+     25,
+     30
+    ],
+    "phasen": [
+     "tag",
+     "nachmittag"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "eine": [
+        {
+         "flag": "aufbau_fertig_post"
+        },
+        {
+         "nicht": {
+          "flag": "tk_haus_weg_post"
+         }
+        }
+       ]
+      },
+      {
+       "nicht": {
+        "flag": "mina_vespa_heil"
+       }
+      },
+      {
+       "nicht": {
+        "flag": "gefeuert_rosi"
+       }
+      }
+     ]
+    }
+   },
+   "bild": "village_piazza",
+   "personen": {
+    "handelnd": "mina",
+    "betroffen": [
+     {
+      "id": "rosi",
+      "ton": "+",
+      "was": "is already kneeling next to the engine"
+     }
+    ]
+   },
+   "sets": {
+    "mina": "mina_standard",
+    "rosi": "Vespa Sunday"
+   },
+   "lage": "Mina is pushing her Vespa across the square. Every few metres it makes a noise like a coffee grinder. Rosi stops in the middle of the square and listens. Then she puts her toolbox down on the stones.",
+   "zeilen": [
+    {
+     "wer": "mina",
+     "text": "Don't look, Yacht. It's been doing this since the fire. Second gear jumps out, so I go up the hill in first, like a grandmother.",
+     "gefuehl": "annoyance"
+    },
+    {
+     "wer": "rosi",
+     "text": "Who put this clutch cable in, a goat? No, don't answer. Mina, give me the key.",
+     "gefuehl": "amusement"
+    },
+    {
+     "wer": "rosi",
+     "text": "This one's from nineteen eighty-two. My papa would say she isn't broken, she's tired. He says that about everything he fixes.",
+     "gefuehl": "caring"
+    },
+    {
+     "wer": "mina",
+     "text": "If she runs again, I can go to Bastia every day. So tell me what you need, Yacht, and I'll bring it. Double, if second gear holds.",
+     "gefuehl": "optimism"
+    },
+    {
+     "wer": "rosi",
+     "text": "Officer. Are you going to hold the lamp for me, or are you going to stand there and look important?",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Holds the lamp. “Like this?”",
+     "folgen": [
+      {
+       "flag": "mina_vespa_heil"
+      },
+      {
+       "flag": "a3_post_bastia"
+      },
+      {
+       "vertrauen": [
+        "rosi",
+        4
+       ]
+      },
+      {
+       "vertrauen": [
+        "mina",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "rosi",
+      "text": "Like that. When we're back, write it on the board in the workshop: Rosi one, Vespa nothing.",
+      "gefuehl": "pride"
+     }
+    },
+    {
+     "text": "Holds the lamp and asks: “What was your father's workshop like?”",
+     "folgen": [
+      {
+       "flag": "mina_vespa_heil"
+      },
+      {
+       "flag": "a3_post_bastia"
+      },
+      {
+       "vertrauen": [
+        "rosi",
+        6
+       ]
+      },
+      {
+       "vertrauen": [
+        "mina",
+        2
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "rosi",
+      "text": "It had a blue door, and it smelled of oil and coffee. Now it's a car park for an office. ...Pass me the ten, please.",
+      "gefuehl": "sadness"
+     }
+    },
+    {
+     "text": "Holds the lamp and says to Mina: “Ride her up the hill when she's done. I want to hear second gear.”",
+     "folgen": [
+      {
+       "flag": "mina_vespa_heil"
+      },
+      {
+       "flag": "a3_post_bastia"
+      },
+      {
+       "vertrauen": [
+        "mina",
+        6
+       ]
+      },
+      {
+       "vertrauen": [
+        "rosi",
+        2
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "mina",
+      "text": "Up the hill in second gear! Okay. Tomorrow I'm in Bastia and back before lunch.",
+      "gefuehl": "joy"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_mina_vespa_petru",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "Second Gear",
+   "wann": {
+    "tage": [
+     25,
+     30
+    ],
+    "phasen": [
+     "tag",
+     "nachmittag"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "eine": [
+        {
+         "flag": "aufbau_fertig_post"
+        },
+        {
+         "nicht": {
+          "flag": "tk_haus_weg_post"
+         }
+        }
+       ]
+      },
+      {
+       "nicht": {
+        "flag": "mina_vespa_heil"
+       }
+      },
+      {
+       "flag": "gefeuert_rosi"
+      }
+     ]
+    }
+   },
+   "bild": "petru_workshop",
+   "personen": {
+    "handelnd": "petru",
+    "betroffen": [
+     {
+      "id": "mina",
+      "ton": "+",
+      "was": "is holding the handlebars"
+     }
+    ]
+   },
+   "sets": {
+    "mina": "mina_standard",
+    "petru": "Standard"
+   },
+   "lage": "Mina has pushed her Vespa all the way to Petru's workshop. Petru looks at it the way he looks at a net with a hole in it.",
+   "zeilen": [
+    {
+     "wer": "mina",
+     "text": "Second gear jumps out, Petru. Since the fire. I go up the hill in first, like a grandmother. Can you do anything?",
+     "gefuehl": "annoyance"
+    },
+    {
+     "wer": "petru",
+     "text": "Hm. I fix boats. A Vespa is a small boat with no water under it.",
+     "gefuehl": "neutral"
+    },
+    {
+     "wer": "mina",
+     "text": "If she runs again, I can go to Bastia every day. So tell me what you need, Yacht, and I'll bring it. Double, if second gear holds.",
+     "gefuehl": "optimism"
+    },
+    {
+     "wer": "petru",
+     "text": "You. Will you hold the wheel still while I work, or will you talk?",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Holds the wheel still and says nothing.",
+     "folgen": [
+      {
+       "flag": "mina_vespa_heil"
+      },
+      {
+       "flag": "a3_post_bastia"
+      },
+      {
+       "vertrauen": [
+        "petru",
+        4
+       ]
+      },
+      {
+       "vertrauen": [
+        "mina",
+        4
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "petru",
+      "text": "Good. You can stay.",
+      "gefuehl": "approval"
+     }
+    },
+    {
+     "text": "Holds the wheel and asks: “Did your grandfather fix engines too, the man who rowed out in 1924?”",
+     "folgen": [
+      {
+       "flag": "mina_vespa_heil"
+      },
+      {
+       "flag": "a3_post_bastia"
+      },
+      {
+       "vertrauen": [
+        "petru",
+        6
+       ]
+      },
+      {
+       "vertrauen": [
+        "mina",
+        2
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "petru",
+      "text": "He had no engine. He had two arms and an oar. That was enough.",
+      "gefuehl": "pride"
+     }
+    },
+    {
+     "text": "Holds the wheel and says to Mina: “Ride her up the hill when he's done. I want to hear second gear.”",
+     "folgen": [
+      {
+       "flag": "mina_vespa_heil"
+      },
+      {
+       "flag": "a3_post_bastia"
+      },
+      {
+       "vertrauen": [
+        "mina",
+        6
+       ]
+      },
+      {
+       "vertrauen": [
+        "petru",
+        2
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "mina",
+      "text": "Up the hill in second gear! Okay. Tomorrow I'm in Bastia and back before lunch.",
+      "gefuehl": "joy"
+     }
+    }
+   ]
   }
  ]
 }

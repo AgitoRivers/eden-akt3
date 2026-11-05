@@ -23,7 +23,7 @@ from kern import handel, showrunner, chronik, gesten, wuerfel, kabine, ermittlun
 from kern import kampf  # noqa: E402
 from kern import tutorial  # noqa: E402
 from kern import anhoerung  # noqa: E402
-from kern import akt3, aufbau, belagerung, kommission, meta, taktik  # noqa: E402
+from kern import akt3, aufbau, belagerung, kommission, meta, post, taktik  # noqa: E402
 from kern import album  # noqa: E402
 from kern import sturm  # noqa: E402
 from kern import expedition  # noqa: E402
@@ -128,6 +128,7 @@ def weiter(z, modul, r):
             zeilen += legenden.tagesende(z, modul, moddir(z["modul"]), zustand.folgen_anwenden)   # Dorf redet (30.10.)
             zeilen += aufbau.tag_vorbei(z)              # Akt 3: Piraten bauen nachts, was Duc geliefert hat (04.11.2026)
             zeilen += akt3.morgen(z)                    # Akt 3: Kevin auf dem Dach, Dank heiler Haeuser, die Legion
+            zeilen += post.morgen(z)                    # Akt 3: Mina bringt aus Bastia, was Duc bestellt hat (kern/post.py)
             auftraege.tagesbeginn(z, moddir(z["modul"]))   # seit wann ein Ort offen ist (Erinnerung, 02.11.2026)
             if z["status"] != "ende":
                 zeilen += moral.morgen(z, modul)          # Crew-Stimmung: Verfall, Fruehstueck, Geschenk (27.10.2026)
@@ -179,6 +180,8 @@ def farm_aktion(z, modul, name, daten):
         los_beim_besuch(z, modul, "nonna")            # Akt 3: der Garten mit Nonna und Isabelle
     elif name == "baustelle_liefern":                # Akt 3: Baustoffe fuer die naechste Stufe (kern/aufbau.py)
         aufbau.liefern(z, daten.get("haus") or "")
+    elif name == "post_bestellen":                   # Akt 3: Minas Fahrt nach Bastia, Wahl aus drei, keine Phase (kern/post.py)
+        post.bestellen(z, daten.get("wahl") or "")
     elif name == "fred_gehoert":
         (z.get("kueche") or {}).pop("fred", None)
     return []
@@ -199,6 +202,7 @@ def kuechen_ansicht(z, modul):
     saetze = d.get("frederico") or []
     return {"vorrat": vorrat, "bonus": kuechen.bonus_ansicht(z, modul), "nonna": n, "farm": farm.ansicht(z, modul),
             "baustellen": aufbau.ansicht(z),
+            "post": post.ansicht(z),
             "fred": {"id": "fred.%d" % fred, "text": saetze[fred]["text"]} if fred is not None and fred < len(saetze) else None,
             "essen_frei": handel.essen_frei(z, modul)}
 
