@@ -526,6 +526,12 @@ def bauen():
     NEUE_ITEMS.update(sys.modules["ereignisse_basis"].NEUE_ITEMS)
     import ereignisse_fenster                    # Akt 2 (29.10.2026): zeitlose Events bis Tag 21 offen, "nachlauf"
     fenster_fehlt = ereignisse_fenster.anwenden(events)
+    # Romanzen-Leiter enden in Akt 3 an Tag 33 (Duc 05.11.2026, Bot-Lauf Akt 3): an Tag 34 (Villa) und 35 (Kommission,
+    # Festa) keine Leiter-Stufe und kein Echo aus Akt 1 mehr. Gleiche Grenze wie die Schluss-Karten und Holms Warnung.
+    for _e in events:
+        _w = _e.get("wann") or {}
+        if _w.get("leiter") and _w.get("akt2") and _w["akt2"][1] > 33:
+            _w["akt2"] = [_w["akt2"][0], 33]
     ereignisse_romanzen.zusatz(events)           # alte Flirts reagieren auf die erste Nacht (Duc 31.10.2026)
     # Festa und Ehrenbuerger gehoeren ans Ende von Akt 3 (E-100). An Tag 21 ist die Belagerung, darum warten sie auf ein Flag.
     # Festa-Schalter (Duc 04.11.2026, F-22 Zweig A): Tag 35, Abend, Piazza, garantiert nach a3_festa (setzt akt3_festa).

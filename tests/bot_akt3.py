@@ -84,6 +84,13 @@ def schritt(z, protokoll, rnd):
         if tag not in protokoll["erledigt"]:
             protokoll["erledigt"][tag] = True
             return "_tagesarbeit", {}
+        # Karten auf der Landkarte (Akt 3: Lose, Baustellen, Mast, Zeugen, Romanzen): meistens eine davon, wenn offen
+        orte = [o["id"] for o in eden.auftraege.orte_frei(z, eden.moddir(z["modul"]))]
+        schl = "%d-%s:ort" % (z["tag"], z["phase"])
+        if orte and not eden.plan.aktionen(z) and schl not in protokoll["erledigt"] and rnd.random() < 0.75:
+            protokoll["erledigt"][schl] = True
+            a3 = [o for o in orte if o.startswith("a3_")]
+            return "ort_betreten", {"id": rnd.choice(a3 or orte)}
         return "wahl", {"id": rnd.choice(z["optionen"])}
     if st == "kommission":
         k = z.get("kommission") or {}
@@ -133,11 +140,13 @@ def lauf(lage, seed):
         z = akt3_stand(lage, rnd)
         protokoll = {"schritte": [], "erledigt": {}}
         index = eden.ereignisse.daten(eden.moddir())["_index"]
-        letzter, gleich = None, 0
+        letzter, gleich, a_vorher = None, 0, None
         for n in range(MAX_SCHRITTE):
             erg["schritte"] = n
             if z["status"] == "ende" or (z.get("abschluss") and z["status"] in ("ende", "abschluss")):
                 break
+            if a_vorher and a_vorher[0] == "ort_betreten":
+                erg.setdefault("orte", collections.Counter())[a_vorher[1]["id"]] += 1
             if z["status"] == "ereignis" and z.get("event") and not z["event"].get("ergebnis"):
                 eid = z["event"]["id"]
                 if not erg["events"] or erg["events"][-1][2] != eid:
@@ -152,10 +161,14 @@ def lauf(lage, seed):
                 break
             if a is None:
                 break
+            a_vorher = a
             vor = len(protokoll["schritte"])
             try:
                 if a[0] == "_tagesarbeit":
                     L.tagesarbeit(z, protokoll)
+                    for b in eden.aufbau.ansicht(eden.aktiv()):          # Baustoffe abliefern, wo es geht
+                        if b["geht"]:
+                            L.versuch(("baustelle_liefern", {"haus": b["id"]}), protokoll)
                 else:
                     L.versuch(a, protokoll)
             except Exception as e:  # noqa: BLE001
@@ -210,7 +223,7 @@ def main():
             dicht[k] = max(dicht[k], n)
     print("Dichteste Phasen (Pflicht-Szenen am Stueck):", ", ".join("Tag %d %s: %d" % (t, p, n) for (t, p), n in dicht.most_common(8)))
     if a.json:
-        json.dump({"laeufe": [dict(e, abgelehnt=dict(e["abgelehnt"]), pflicht={"%d %s" % k: n for k, n in e["pflicht"].items()})
+        json.dump({"laeufe": [dict(e, abgelehnt=dict(e["abgelehnt"]), orte=dict(e.get("orte") or {}), pflicht={"%d %s" % k: n for k, n in e["pflicht"].items()})
                               for e in alle], "nie_gesehen": sorted(a3 - gesehen)},
                   open(a.json, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     return 1 if kaputt else 0

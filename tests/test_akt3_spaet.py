@@ -31,4 +31,14 @@ assert any(e["wer"] == "megan" and "hearing" in e["text"] for e in z["kommission
 for roh in {k for st in aufbau.STUFEN.values() for s in st for k in s}:
     assert aufbau.WO.get(roh), roh
     assert "shop" not in aufbau.WO[roh].lower() and "buy" not in aufbau.WO[roh].lower(), roh
+# 5) Megan warnt selbst an Tag 29 Nacht (ihre Karte endet an Tag 30); Romanzen-Leiter enden in Akt 3 an Tag 33
+m = ev["a3_megan_tuer"]["wann"]
+assert m["tage"] == [29, 29] and m["phasen"] == ["nacht"] and "megan_funke" in json.dumps(m["bedingung"])
+for e in ev.values():
+    w = e.get("wann") or {}
+    if w.get("leiter") and w.get("akt2"):
+        assert w["akt2"][1] <= 33, e["id"]
+# Bibis Handgriffe an der Station enden an Tag 33 (kein Handgriff am Villa- oder Kommissionstag)
+for eid in ("mo_a_zaun", "mo_a_dach", "mo_schlafgranate"):
+    assert ev[eid]["wann"]["tage"][1] <= 33, eid
 print("ok test_akt3_spaet")
