@@ -152,7 +152,7 @@ EVENTS += (
 
 # Bibi hat Rosi um die Granate gebeten (Duc 01.11.2026). Die Granaten selbst gibt Bibi vor jeder Spur (kern/mochis.kampf_vorbereiten).
 EVENTS.append(E("mo_schlafgranate", "gag1", "ernst", "A Grenade for Bibi",
-                WANN(TAGE, ["tag"], bed={"alle": [{"flag": "mochis_offen"}, {"flag_seit": ["rt_ende_tag", 1]}]}, pflicht=True, holt_leute=True),
+                WANN((TAGE[0], 33), ["tag"], bed={"alle": [{"flag": "mochis_offen"}, {"flag_seit": ["rt_ende_tag", 1]}]}, pflicht=True, holt_leute=True),
                 "village_harbour", {"handelnd": "bibi", "betroffen": [{"id": "rosi", "ton": "?", "was": ""}]},
                 "Bibi stops you on the quay and holds out a shoebox. Rosi stands behind her, wiping her hands on a rag. In the box are small grey grenades with blue tape around them.",
                 [Z("bibi", "The collars make them crazy. You've seen it. I can't get near them to cut one off. So I asked Rosi for something that doesn't kill them.", "sadness"),
