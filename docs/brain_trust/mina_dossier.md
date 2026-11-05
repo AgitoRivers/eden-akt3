@@ -1,12 +1,30 @@
 # Brain Trust: Mina Orsoni ausarbeiten und in Akt 3 einbetten
 
-Stand 05.11.2026 · Branch `berichte-audits` · **Vorschlag, wartet auf Ducs Urteil. Nichts davon ist gebaut, der Wiki-Kanon ist
-unverändert.** Was Duc annimmt, kommt als Eintrag in `ENTSCHEIDUNGEN.md` und danach auf `docs/wiki/welt/dorf_figuren.md`.
+Stand 05.11.2026 · Branch `berichte-audits` und `mina-akt3` · **Duc: „ja, bau ein“. Was gebaut ist, steht in Abschnitt 0.** Was Duc annimmt, kommt als Eintrag in `ENTSCHEIDUNGEN.md` und danach auf `docs/wiki/welt/dorf_figuren.md`.
 
 Quellen: `docs/wiki/welt/dorf_figuren.md` (Abschnitt Mina, Paare, Ablauf), `akt3.md`, `enden.md`, `drehbuch_finale.md`
 (Auftrag „Türen“), `figuren/elsa.md`, `figuren/rosi.md`, `figuren/kloster.md`, `figuren/casanova.md`, gebaute Szenen in
 `werkzeuge/eden_rise/ereignisse_dorf.py`, `ereignisse_belagerung.py` (`bl_tueren`), `ereignisse_schneider.py` (`strap`),
 `ereignisse_legenden.py`, `ereignisse_outfit_quest.py` (`ol_dorf`).
+
+## 0. Abgleich mit `akt3-cloud` (Duc 05.11.2026: „ja, bau ein“, ohne Widerspruch zur Sitzung „Drehbuch Akt 3 Planung“)
+
+Die Hauptsitzung hat Mina auf `akt3-cloud` schon an vielen Stellen eingebaut. Darum gilt deren Fassung, und dieses Dossier baut nur, was
+dort fehlt. Gebaut auf Branch **`mina-akt3`** (von `akt3-cloud`, Stand `f59a61d`), nicht auf `akt3-cloud` selbst, damit nichts kollidiert.
+
+| Vorschlag unten | Stand auf `akt3-cloud` | Entscheidung |
+|---|---|---|
+| Second Gear (Rosi repariert die Vespa) | fehlt | **gebaut** (`a3_mina_vespa`, ohne Rosi `a3_mina_vespa_petru`) |
+| Parcels / Minas Bastia-Fahrt | versprochen in `a3_dank_post` und im Drehbuch 4.1 („einmal am Tag, Wahl aus drei“), aber ohne Code | **gebaut** (`kern/post.py`, Reiter „Village“, Test `test_akt3_mina`) |
+| The Long Way Up | Mina erzählt Lea in „Two Letters“ (7.4) vom Brief | nicht gebaut (kein Bild für die Bergstraße, doppelt zu 7.4) |
+| Forty-One Envelopes, The Round | 5.x: Mina mit zwölf Einschreiben, danach die Karte „Who Saw It?“ (jede Haltung überzeugt) | nicht gebaut, „Who Saw It?“ gilt; die Argument-Runde widerspräche „jede Haltung überzeugt“ |
+| Return Address (Brief an Tag 33, Hochzeit) | Mina öffnet den Brief auf der Festa: “He says come and visit.” | nicht gebaut, Luises Hochzeit ist **überholt** |
+| Heavy Paper | Mina bringt die Villa-Einladung (5.25) | schon da |
+| The Delivery Book | fehlt | offen als Frage F-43 (Kommission gehört der Hauptsitzung) |
+| Every Name | Zeugen bestimmen die Gäste im Festbild | schon da |
+| Drei Outfits | fehlen | **bestellt** (`akt3_bestellungen.md`, Prompts unten in Abschnitt 7) |
+
+Abschnitte 4 bis 6 und 10 bleiben als Protokoll der Runde stehen; was oben „nicht gebaut“ heißt, ist damit erledigt.
 
 ## 1. Einordnung
 
@@ -137,10 +155,12 @@ Ersatz-Vorschlag, falls Duc einen Abreise-Look für das Ende `mina_fliegt` liebe
 (`mina_abreise`): Jeansjacke über der oversized Bluse, Rucksack, Bordkarte in der Brusttasche, der pinke Helm hängt an Elsas
 Spiegel im Hintergrund. Nur in einem Ende sichtbar, darum Platz 4.
 
-Prompt-Bausteine für das Casting (Englisch, positiv):
-- Summer Round: “a tanned Corsican woman, 24, lemon yellow sleeveless top with a small collar, short denim shorts, white sneakers, a pink scooter helmet hanging from her elbow, a postal bag across her body on a new brown leather strap, standing relaxed, she is the only person in the picture”
-- Dumè's Shirt: “a tanned Corsican woman, 24, an oversized faded blue men's shirt with rolled sleeves knotted at the waist over a white top, beige cargo shorts, work gloves tucked in her belt, a pink bandana in her hair, clean skin, she is the only person in the picture”
-- Festa: “a tanned Corsican woman, 24, a white knee-length linen dress with small pink embroidery at the hem, loose dark hair with a red hibiscus flower, flat brown leather sandals, a postal bag over one shoulder, warm evening light, she is the only person in the picture”
+Fertige Prompts für das Casting (Englisch, im Stil von Ducs Vorgabe vom 05.11.2026: Kleidung genau, eng und mit Details, wo sie sitzt und wie sie getragen wird). Dieselben Zeilen stehen auf Branch `mina-akt3` in `docs/uebergabe/akt3_bestellungen.md`. Statt eines Eden-Drucks trägt Mina ihr eigenes Zeichen, einen kleinen pinken Briefumschlag, weil sie nicht zur Eden Group gehört.
+
+- **Summer Round** (`mina_sommer`): Mina Orsoni, a tanned 24-year-old Corsican postwoman, wearing a cropped skin-tight lemon yellow sleeveless polo shirt with the top three buttons open and a deep neckline, a small pink envelope embroidered in white at her left chest, the hem tied in a knot under her chest showing her bare midriff, tight light blue denim hot pants with frayed hems riding high on her hips, white canvas sneakers with pink laces, a glossy pink open-face scooter helmet hanging from her elbow, a brown leather postal satchel worn across her body on a new wide leather strap that runs between her breasts, she is the only person in the picture
+- **Dumè's Shirt** (`mina_arbeit`): Mina Orsoni, a tanned 24-year-old Corsican postwoman, wearing an oversized faded blue men's work shirt left open and knotted at her waist, sleeves rolled up past the elbows, under it a skin-tight white ribbed tank top with a low scoop neck, tight beige cargo hot pants with a wide brown leather belt, a pair of yellow work gloves tucked into the belt, a pink bandana tied in her hair, chunky tan work boots with pink socks showing at the top, clean skin, tired eyes, she is the only person in the picture
+- **Festa** (`mina_festa`): Mina Orsoni, a tanned 24-year-old Corsican postwoman, wearing a fitted white linen sundress with thin straps and a deep sweetheart neckline, knee-length with a high slit up her left thigh, small pink and red flowers embroidered along the hem, a red hibiscus flower in her loose hair, flat brown leather sandals laced around her ankles, her brown leather postal satchel over one shoulder full of envelopes, no helmet, warm evening light, she is the only person in the picture
+- **Departure** (`mina_abreise`, optional): Mina Orsoni, a tanned 24-year-old Corsican postwoman, wearing a cropped faded denim jacket with a small pink Vespa pin on the collar, under it a loose white blouse knotted at the waist with a deep open neckline, tight beige hot pants, white sneakers, a small pink backpack on one shoulder, a boarding pass sticking out of the jacket's breast pocket, she is the only person in the picture
 
 Gefühle je Set: das volle Satz-Raster wie bei den anderen Dorf-Figuren; Pflicht ist eine ruhige, frontale neutral-Variante
 (STIL 6). Das Festa-Set braucht `sadness` und `joy` für die beiden Fassungen von Return Address und die Festa.
