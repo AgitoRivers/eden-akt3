@@ -36,6 +36,24 @@ EPILOG = {e: "Mina brings Madame Casanova a letter from Brussels, the first one 
           for e in ("0", "1", "2c", "2.5b")}
 
 
+def BIBI_BILD(fl):
+    """Bibis Bild im Schluss (Duc 05.11.2026, docs/brain_trust/BIBI_ENDE.md): ihre Antwort auf "Will you come back?",
+    Madame, Julien. Platzhalter bis zum Feinschliff der Enden."""
+    teile = []
+    if "a3_bibi_antwort_bleiben" in fl:
+        teile.append("Bibi and you at the open gate. Madame sleeps between your feet. Bones sits on the gatepost as if he owns it.")
+    elif "a3_bibi_antwort_saison" in fl:
+        teile.append("The last page of Bibi's field book: 'Release: no' is crossed out. Under it, in careful pencil: 'Comes back: yes. Spring.'")
+    elif "a3_bibi_antwort_ehrlich" in fl:
+        teile.append("On Bibi's wall there is a postcard from a harbour far away, with a small black lion on it. "
+                     "By the door, a bowl with fresh water.")
+    elif "mo_madame_bleibt" in fl:
+        teile.append("Madame sleeps on the wall at Mochi's, round and grey, as if she had always been there.")
+    if "a3_julien_weg" in fl:
+        teile.append("Julien Vasseur never comes back to the island.")
+    return " ".join(teile)
+
+
 def akt3_ende(z, modul):
     """Schlusskarte Akt 3 (Paket F): welches Ende, welche Saeulen, wer ausgesagt hat, Minicu, Pascal, Minas Epilog.
     Platzhalter-Texte bis zum Feinschliff (enden.md, Duc). Ohne Saeulen-Daten: AKT3_BETA."""
@@ -62,6 +80,7 @@ def akt3_ende(z, modul):
         {"titel": "Minicu", "text": "Minicu is in the picture, a bandage around his head, clapping much too loud."
                                     if eid != "1" else "Minicu carries crates at the harbour, for A.V., and doesn't ask."},
         {"titel": "Buenaventura", "text": buena},
+        *([{"titel": "Bibi", "text": BIBI_BILD(fl)}] if eid != "1" and "rt_bibi_bleibt" in fl and BIBI_BILD(fl) else []),
         {"titel": "Pascal", "text": pascal},
         {"titel": "Epilogue", "text": EPILOG.get(eid, "Mina rings at Pascal's door with a registered letter. “Sign here.” Nobody opens. "
                                                       "It's the first letter she can't deliver.")},

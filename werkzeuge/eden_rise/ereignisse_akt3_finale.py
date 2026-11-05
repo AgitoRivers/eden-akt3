@@ -260,6 +260,18 @@ MITTERNACHT = [
       [O("Raises his glass.", [F("a3_festa_fertig"), F("akt3_festa")])]),
 ]
 
+# Bibi an der Mole (Duc 05.11.2026, docs/brain_trust/BIBI_ENDE.md Bild 3): der kleine schwarze Pluesch-Loewe von ihrem Schluessel.
+for _e in MITTERNACHT:
+    if _e["id"] == "a3_mitternacht_bibi":
+        _e["zeilen"] += [JE(G("bibi", "[chuckle] Look up. Bones. He's doing circles over the water. He's showing off for you.", "love"), "bones", FL("a3_paar_bones")),
+                         G("bibi", "[sigh] This is Mochi. The small one. He's been on every key I ever had. Take him. "
+                                   "If you go, he goes with you. If you stay, I'll steal him back.", "love")]
+        _e["optionen"] = [
+            O("Lets her put the little lion in his shirt pocket.", [F("a3_mitternacht_fertig"), F("a3_bibi_loewe")],
+              zeile=G("bibi", "[chuckle] Slowly. ...There. Now I have to come and get him. That's a plan.", "love")),
+            O("Hangs him back on her key ring. “He stays where the gates are.”", [F("a3_mitternacht_fertig"), F("a3_bibi_loewe_bleibt")],
+              zeile=G("bibi", "[sniff] ...Okay. Then you have to come here to visit him. That's also a plan.", "love"))]
+
 EVENTS = KOMMISSION + FESTA + MITTERNACHT
 
 

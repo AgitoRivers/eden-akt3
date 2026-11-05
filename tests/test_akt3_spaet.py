@@ -39,6 +39,6 @@ for e in ev.values():
     if w.get("leiter") and w.get("akt2"):
         assert w["akt2"][1] <= 33, e["id"]
 # Bibis Handgriffe an der Station enden an Tag 33 (kein Handgriff am Villa- oder Kommissionstag)
-for eid in ("mo_a_zaun", "mo_a_dach", "mo_schlafgranate"):
+for eid in ("mo_a_zaun", "mo_a_dach", "mo_a_bad"):   # die Granate bleibt bis Tag 35 (test_mochis_fenster: wie die Spuren)
     assert ev[eid]["wann"]["tage"][1] <= 33, eid
 print("ok test_akt3_spaet")

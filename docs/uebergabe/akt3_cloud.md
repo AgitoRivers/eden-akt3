@@ -74,6 +74,13 @@ Stand 04.11.2026, Block 3: Drehbuch Version 3.4 (Bones, Charly und Danzel, Festa
 - **Prüfregel einfaches Englisch:** `werkzeuge/eden_rise/einfach_englisch.py` (Wörterliste mit Vorschlag) und `tests/test_einfach_englisch.py` (alle 1.681 Akt-3-Texte: Events, Kommission, Legenden). Neue Wörter in die Liste, nie den Test abschalten. Gefixt: „burning torches“ statt „torches“, Whites Plan „fire, houses“, „wild herbs“ und „berry liqueur“ statt Myrte.
 - **Turbo-Tags:** `tests/test_akt3_tags.py` prüft, dass kein `[sigh]` oder `[clear throat]` eine fröhliche Zeile eröffnet und dass vor „Don't tell …“ ein `[shush]` steht. Vier Zeilen umgestellt, zwei `[shush]` neu (Sophia, Charly). Die Verteilung je Figur passt zur Stimme (Petru räuspert sich, Lola und Maxwell lachen); `[sigh]` bleibt der häufigste Tag. Neu vertonen: die sechs geänderten Zeilen.
 
+## Bibis Ende und Julien (05.11., E-134)
+
+- Gebaut nach `docs/brain_trust/BIBI_ENDE.md`: Julien und ARKs Delegation an den Toren (Kampf `a3_julien`, Sieg oder Niederlage mit Bibis Tieren), Madame bleibt, Mochi auf dem Hügel oder der Napf, Last Page direkt nach den Toren mit „Will you come back?“, Plüschlöwe an der Mole, Absatz „Bibi“ im Schlussbild.
+- **Fehler behoben:** Die Tore brachen nach dem ersten Tier ab (`weiter` statt `direkt`).
+- Neue Figur `julien` in `modul.json` (gezielt ergänzt) und `modul_eden_rise.py`, Kampf direkt in `kaempfe.json` ergänzt. Lokal: Sprite und Stimme bestellen, neu vertonen (Quellen `akt3_julien`, `akt3_bibi`, `akt3_finale`).
+- Test `tests/test_akt3_julien.py` (beide Wege durch die Engine). Der alte Stimmeintrag „Spatz. My mother called me that.“ (Quelle favours) ist veraltet und kann lokal weg.
+
 ## Wartet auf Ducs Urteil
 
 - E-128 (Säulen und Enden im Code), F-34 (Wohnen als Raum-Logik), F-35 (Enden ohne Wahrheit), F-36 (★).

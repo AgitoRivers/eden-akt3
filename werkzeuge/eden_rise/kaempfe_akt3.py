@@ -125,4 +125,13 @@ ENCOUNTERS.update({
                            "A steel fist, then the sky. You wake up below the ridge.", flucht=False,
                            gruppe=["a3_waechter", "a3_skorpion"], lp=[0.9, 0.5]),
 })
+# Julien Vasseur holt "seine" Tiere (Duc 05.11.2026, docs/brain_trust/BIBI_ENDE.md): Duc stellt sich vor Bibi und die Tore.
+# Sieg: Julien flieht und kommt nie wieder. Niederlage: Bibi oeffnet die Tore und ihre Tiere jagen die Agenten (a3_julien_niederlage).
+ENCOUNTERS["a3_julien"] = _b("ARK's Delegation", "Protect Bibi and the animals", "eden_rise_mochis_station_voll.png", "agent_fuehrer", 8,
+                             "The agents lie in the straw. Julien is already walking backwards to his car.",
+                             "The agents raise their hands and step back to the cars.", "The agents run for the cars.",
+                             "An agent's boot is on your hand. Behind you, a lock clicks open. Then another one.", flucht=False,
+                             flags={"ko": "a3_julien_besiegt", "aufgabe": "a3_julien_besiegt", "entkommen": "a3_julien_besiegt",
+                                    "niederlage": "a3_julien_niederlage"},
+                             gruppe=["agent_fuehrer", "agent", "agent"], lp=[0.8, 0.6, 0.6])
 ENCOUNTERS["a3_alon"].update(enemies=["alon_exo"], lp_faktoren=[0.8], beistand=_beistand_varianten())

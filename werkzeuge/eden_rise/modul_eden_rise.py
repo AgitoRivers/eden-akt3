@@ -361,6 +361,8 @@ P["minicu"] = {
     "beschreibung": "a gentle, slow giant, a Corsican dock worker of 34, very big and soft, with long shaggy hair and a full beard. He carries the crates in the harbour and trusts Pascal completely"}
 P["alon"] = {"name": "Alon Varenne", "kurz": "Alon", "romanzierbar": False, "pronomen": "er", "st_ordner": "Alon", "set_standard": "alon_standard", "stimme": "Alon Varenne", "beschreibung": "a Canadian tech billionaire in his fifties with French roots, owner of A.V. Estates; a smooth, friendly keynote voice, talks about people like software and laughs at his own jokes"}     # Cliffhanger Akt 2 (Duc 02.11.2026)
 
+P["julien"] = {"name": "Dr. Julien Vasseur", "kurz": "Julien", "romanzierbar": False, "pronomen": "er", "st_ordner": "Julien Vasseur", "set_standard": "julien_standard", "stimme": "Julien Vasseur", "beschreibung": "head of ARK, the animal department of Alon's company, late thirties, good coat, soft voice; calls animals subjects; Bibi's ex-boyfriend from Marseille"}     # Bibis Ende (Duc 05.11.2026): kommt mit ARKs Delegation an Tag 35
+
 P["gennaro"] = {
     "name": "Gennaro Esposito", "kurz": "Gennaro", "romanzierbar": False, "pronomen": "er", "st_ordner": "Gennaro Esposito",
     "set_standard": "gennaro_standard", "stimme": "Gennaro Esposito",

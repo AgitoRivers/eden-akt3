@@ -8971,6 +8971,63 @@
     0.9,
     0.5
    ]
+  },
+  "a3_julien": {
+   "title": "ARK's Delegation",
+   "goal": "Protect Bibi and the animals",
+   "image": "eden_rise_mochis_station_voll.png",
+   "enemy": "agent_fuehrer",
+   "level": 8,
+   "flee_allowed": false,
+   "expedition_niederlage": true,
+   "outcomes": {
+    "ko": {
+     "text": "The agents lie in the straw. Julien is already walking backwards to his car.",
+     "folgen": [
+      {
+       "flag": "a3_julien_besiegt"
+      }
+     ]
+    },
+    "aufgabe": {
+     "text": "The agents raise their hands and step back to the cars.",
+     "folgen": [
+      {
+       "flag": "a3_julien_besiegt"
+      }
+     ]
+    },
+    "entkommen": {
+     "text": "The agents run for the cars.",
+     "folgen": [
+      {
+       "flag": "a3_julien_besiegt"
+      }
+     ]
+    },
+    "flucht": {
+     "text": "You back away.",
+     "folgen": []
+    },
+    "niederlage": {
+     "text": "An agent's boot is on your hand. Behind you, a lock clicks open. Then another one.",
+     "folgen": [
+      {
+       "flag": "a3_julien_niederlage"
+      }
+     ]
+    }
+   },
+   "enemies": [
+    "agent_fuehrer",
+    "agent",
+    "agent"
+   ],
+   "lp_faktoren": [
+    0.8,
+    0.6,
+    0.6
+   ]
   }
  },
  "taunts": {

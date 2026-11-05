@@ -41,7 +41,8 @@ NEBEN = ["toto", "yasin", "holm", "elsa", "alva", "petru", "casanova", "lola", "
          "danzel", "bibi", "charly", "mrwhite",            # Red Trio (30.10.2026): nur in den Frames
          "pascal", "mina", "batu", "sandru", "anghjulu", "minicu",
          "alon",
-         "bonaventure"]                                     # Akt 3 (04.11.2026): Buenaventura nach dem Schwur. Cliffhanger Akt 2 (02.11.2026): Keynote auf der Buehne    # Dorf-Figuren (30.10.2026, ereignisse_dorf.py)
+         "bonaventure",
+         "julien"]                                          # Bibis Ende (05.11.2026): Julien Vasseur, nur an den Toren                                     # Akt 3 (04.11.2026): Buenaventura nach dem Schwur. Cliffhanger Akt 2 (02.11.2026): Keynote auf der Buehne    # Dorf-Figuren (30.10.2026, ereignisse_dorf.py)
 # Ortskapitel (26.10.2026): Frames haben art "ort", eigene Hintergruende eden_rise_<bild>.png (oder einen Raum) und werden
 # nie gezogen - sie laufen nur als Kette ab dem Ort (auftraege.json). Folgen: weiter, spur_uhr, expedition, chip, kampf.
 ORT_BILDER = ["macchia_three_ways", "charcoal_road", "charcoal_hut", "bone_gorge", "antenna_ridge",  # Red Trio (30.10.2026)
@@ -106,7 +107,7 @@ SETS = {
     "laetitia": ["laetitia_standard"], "adrien": ["adrien_standard"], "wolff": ["wolff_standard"],
     "ghjuvan": ["ghjuvan_standard"], "dumenica": ["dumenica_standard"],
     "gennaro": ["gennaro_standard"], "matteu": ["matteu_standard"], "chloe": ["chloe_standard"],
-    "riscossore": ["riscossore_standard"], "bonaventure": ["bonaventure_standard"], "sirene": ["sirene_standard"],
+    "riscossore": ["riscossore_standard"], "bonaventure": ["bonaventure_standard"], "julien": ["julien_standard"], "sirene": ["sirene_standard"],
     "danzel": ["danzel_B"], "bibi": ["bibi_A", "Mochis"], "charly": ["charly_A"], "mrwhite": ["mrwhite_A"],
     "minicu": ["minicu_standard"], "alon": ["alon_standard"], "pascal": ["pascal_standard"], "mina": ["mina_standard"], "batu": ["batu_standard"],
     "sandru": ["sandru_av", "sandru_frei"], "anghjulu": ["anghjulu_standard"],
@@ -510,6 +511,7 @@ def bauen():
     import ereignisse_akt3_petru                  # Akt 3, mehr Petru (04.11.2026)
     import ereignisse_sandru_name                 # Woche 3: Sandrus "Your Own Name" (F-20)
     import ereignisse_akt3_mast                   # Akt 3: Quest The Red Light (Mast auf dem Kamm)
+    import ereignisse_akt3_julien                 # Akt 3: Bibis Ende, Julien und ARKs Delegation (05.11.2026)
     events = (ereignisse_bordrat.EVENTS + ereignisse_handy.EVENTS + ereignisse_gag1.EVENTS + ereignisse_gagv.EVENTS
               + ereignisse_abende.EVENTS + ereignisse_staerken.EVENTS + ereignisse_verrueckt.EVENTS
               + ereignisse_akt1.EVENTS + ereignisse_yamamoto.EVENTS + ereignisse_tag0.EVENTS + ereignisse_hafen.EVENTS
@@ -521,7 +523,8 @@ def bauen():
               + ereignisse_dorf.EVENTS + ereignisse_schneider.EVENTS + ereignisse_romanzen.EVENTS + ereignisse_bibi.EVENTS + ereignisse_cliffhanger.EVENTS + ereignisse_outfit_quest.EVENTS + ereignisse_belagerung.EVENTS + ereignisse_belagerung_nacht.EVENTS + ereignisse_mochis.EVENTS
               + ereignisse_erinnerung.EVENTS + ereignisse_akt3_woche4.EVENTS + ereignisse_akt3_lose.EVENTS
               + ereignisse_akt3_woche5.EVENTS + ereignisse_akt3_romanzen.EVENTS + ereignisse_akt3_finale.EVENTS
-              + ereignisse_akt3_petru.EVENTS + ereignisse_sandru_name.EVENTS + ereignisse_akt3_mast.EVENTS)
+              + ereignisse_akt3_petru.EVENTS + ereignisse_sandru_name.EVENTS + ereignisse_akt3_mast.EVENTS
+              + ereignisse_akt3_julien.EVENTS)
     # Die Event-Dateien importieren dieses Modul unter seinem Namen - ihre Gegenstaende landen dort, nicht in __main__
     NEUE_ITEMS.update(sys.modules["ereignisse_basis"].NEUE_ITEMS)
     import ereignisse_fenster                    # Akt 2 (29.10.2026): zeitlose Events bis Tag 21 offen, "nachlauf"
@@ -567,6 +570,7 @@ def bauen():
     print("Akt 3 Petru: %d gesprochene Zeilen -> stimme_tags.json" % sys.modules["ereignisse_akt3_petru"].tags_schreiben())
     print("Sandru Name: %d gesprochene Zeilen -> stimme_tags.json" % sys.modules["ereignisse_sandru_name"].tags_schreiben())
     print("Akt 3 Mast: %d gesprochene Zeilen -> stimme_tags.json" % sys.modules["ereignisse_akt3_mast"].tags_schreiben())
+    print("Akt 3 Julien: %d gesprochene Zeilen -> stimme_tags.json" % sys.modules["ereignisse_akt3_julien"].tags_schreiben())
     print("Outfit-Quest: %d gesprochene Zeilen -> stimme_tags.json" % ereignisse_outfit_quest.tags_schreiben())
     print("Legenden: %d Zeilen -> legenden.json, %d gesprochene -> stimme_tags.json" % ereignisse_legenden.schreiben(os.path.dirname(ZIEL)))
     print("Dorf: %d gesprochene Zeilen -> stimme_tags.json" % ereignisse_dorf.tags_schreiben())

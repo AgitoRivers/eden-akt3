@@ -98,3 +98,14 @@ Stand 04.11.2026 · fertige Prompts für Krea, Englisch. Hintergründe nach [`hi
 | Holms Mutter (optional) | An old Norwegian woman around 80 from Ålesund, tall and straight, white hair in a simple bun, light blue eyes, a hand-knitted sweater and a warm wool coat, a walking stick, kind but very direct, front view, full body shot from head to knees, beige plain background. | keiner, nur Zeile (E-130) |
 
 **Hinweise für Duc:** Der Kommissar hieß zuerst wie Alva (Santoni) und heißt jetzt Luciani (umbenannt 04.11.2026). Die alte Tabelle oben nennt eine „Kommissarin“, Code und Drehbuch (5.25: „zwei Männer aus Ajaccio“) einen Mann; der Prompt folgt dem Code.
+
+## Bibis Ende und Julien (05.11.2026, E-134)
+
+| Was | Figur / Szene | Bildidee | Platzhalter heute |
+|---|---|---|---|
+| Sprite | **Dr. Julien Vasseur** (`julien_standard`), Posen neutral, anger, fear | Ende dreißig, schlank, guter dunkler Mantel über weißem Hemd (kein ganz weißer Anzug, Weiß gehört Mr. White), teure Schuhe, Tablet unter dem Arm, weiche Stimme, kalte Augen | keiner (nur Text) |
+| Stimme | Julien Vasseur | französisches Englisch, leise, höflich, nie laut; sagt „subjects“ | – |
+| Bild | Mochi auf dem Hügel (`mo_frei_ende`, mit `kl_loewe_frei`) | Abendlicht über der Macchia hinter der Station, ganz oben ein unscharfer goldener Fleck, man ist nicht sicher, ob es ein Löwe ist. Keine Musik in dem Moment | `eden_rise_mochis_station_voll.png` |
+| Bild | Drei schwarze Autos auf dem Feldweg vor Mochi's (`a3_julien`) | Frontansicht des Hofs, Staub, die Tore noch zu | `mochis` |
+| Item / Icon | kleiner schwarzer Plüschlöwe (Mochi) am Schlüsselring | für das Flag `a3_bibi_loewe` (Andenken) | – |
+| Kampf-Sprite | Bibis Tiere als Beistand bei der Niederlage | nur Erzähltext, kein eigener Kampf | – |

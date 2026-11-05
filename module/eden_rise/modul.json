@@ -8545,6 +8545,16 @@
     "She turns it over in the moonlight as if nobody has given her anything in a very long time. She reacts in character: teasing if it bores her, very quiet if it touches her. She stays in the water."
    ],
    "hintergrund": "eden_rise_underground_pool_tide.png"
+  },
+  "julien": {
+   "name": "Dr. Julien Vasseur",
+   "kurz": "Julien",
+   "romanzierbar": false,
+   "pronomen": "er",
+   "st_ordner": "Julien Vasseur",
+   "set_standard": "julien_standard",
+   "stimme": "Julien Vasseur",
+   "beschreibung": "head of ARK, the animal department of Alon's company, late thirties, good coat, soft voice; calls animals subjects; Bibi's ex-boyfriend from Marseille"
   }
  },
  "storylets": {},

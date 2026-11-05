@@ -81,7 +81,7 @@ TIERE.update({
                    "She lies across the path, and every animal here walks around her. Even Sunday.",
                    "You find her asleep in your jacket. You didn't take your jacket off. You don't know how she did that."],
         "aktion": {"wer": "Madame", "text": "Madame lands on %(ziel)s with all of her weight.", "anteil": 0.06},
-        "text_frei": "She walks out of the gate, sits down outside it, and looks back at you. A week later she has an old fisherman, a chair and all of his sardines.",
+        "text_frei": "She walks out of the gate, sits down outside it, and looks back at you. Then she walks back in, very slowly, and sits down on Bibi's foot. She has decided.",   # Duc 05.11.2026: Madame bleibt
     },
     "rotpanda": {
         "name": "Rusty", "vorher": "Something Red in the Trees", "art": "Red Panda", "sprite": "RedPanda", "ab": 8, "halsband": True,
@@ -214,7 +214,7 @@ BILD_VOLL = "eden_rise_mochis_station_voll.png"
 # Epilog (Duc 01.11.2026): Am letzten Tag oeffnet Bibi die Tore. Je Tier ihr letztes Wiegen, die Antwort auf das Gewicht aus dem Field Book. wort = him/her/it fuer den Knopf.
 ABSCHIED = {
     "hund": ("him", "Twenty-one kilos. I said twenty, and you went over, you big biscuit. I'm not sorry. Go on, go!", "joy"),
-    "madame": ("her", "Seven and a half kilos, exactly the same as the day she came. I fed her for weeks, and it made no difference at all. Try not to frighten anyone, Madame.", "amusement"),
+    "madame": ("her", "Seven and a half kilos, exactly the same as the day she came. Go on, Madame. ...She's sitting on my foot. She's sitting on my foot! Fine. Fine! You're staff now. Unpaid.", "amusement"),   # bleibt (Duc 05.11.2026)
     "hyaene": ("her", "Forty-eight kilos. Ha. Did you hear that? That one was real. She meant it. ...Sorry. I do that.", "gratitude"),
     "mufflon": ("her", "Fifty-four kilos, and now all of it is her. There's no steel left on her. I won't tell you to look back, Your Grace. You never do.", "caring"),
     "affe": ("him", "Thirty-seven kilos. Yes, that's Petru's spanner. No, let him have it. He'll bring it back when he has finished with it.", "amusement"),

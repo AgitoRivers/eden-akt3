@@ -62,6 +62,7 @@ Nebenquest „The Red Trio“ (Macchia). Stationen und Beats stehen auf der Ques
 - **Bonus-Los *Capra* (ohne Phase, Station offen):** *“Capra wants to come. Do we let her?”* Ja (sie frisst ein Kleid an) oder nein. [Drehbuch 4.3](../welt/drehbuch_akt3.md)
 - **Schluss-Szene „Mochi“ (Expedition, 2 Phasen, `kl_loewe_frei`):** das letzte Halsband: *“He's asleep. Do I cut it, or do you?”* Bedingung `rt_bibi_bleibt` und Begehren 4. Danach *Last Page* am Nachmittag von Tag 35 und, wenn sie fragt, nach Mitternacht an der Mole (`a3_mitternacht_bibi`). [Drehbuch 6, 5.21, 5.26](../welt/drehbuch_akt3.md)
 - **Festa:** Bei Charlys Kuss: *“Finally! I had a bet with myself. I won.”* [Drehbuch 7.7](../welt/drehbuch_akt3.md)
+- **Ihr Ende „Release“ (E-134, gebaut 05.11.2026):** Tag 35 Nachmittag an den Toren. Julien kommt mit ARKs Delegation, Duc beschützt sie (Kampf). Madame bleibt. Mochi auf dem Hügel oder der Napf am Tor. Direkt danach *Last Page* mit *“Will you come back?”*, an der Mole der Plüschlöwe. Ihre Mutter lebt und ruft jeden Sonntag an. [BIBI_ENDE.md](../../brain_trust/BIBI_ENDE.md)
 - **Vermerk (E-126 (4)):** Maxwell übt mit Bones, nicht mit Kevin. Ohne Bones kommt 7.6 nicht.
 
 

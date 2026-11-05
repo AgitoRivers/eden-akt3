@@ -90350,7 +90350,7 @@
    "sets": {
     "bibi": "Mochis"
    },
-   "lage": "The gates stand open, and the evening is very quiet. Bibi sits down next to you and pushes the field book against your knee. Then she looks somewhere else.",
+   "lage": "The gates stand open, and everything is very quiet. Bibi sits down next to you and pushes the field book against your knee. Then she looks somewhere else.",
    "zeilen": [
     {
      "wer": "bibi",
@@ -90425,7 +90425,7 @@
        ]
       },
       {
-       "direkt": "rm_b4_c"
+       "direkt": "rm_b4_frage"
       }
      ]
     },
@@ -90448,7 +90448,7 @@
        ]
       },
       {
-       "direkt": "rm_b4_c"
+       "direkt": "rm_b4_frage"
       }
      ]
     },
@@ -90471,9 +90471,126 @@
        ]
       },
       {
-       "direkt": "rm_b4_c"
+       "direkt": "rm_b4_frage"
       }
      ]
+    }
+   ],
+   "knistern": true
+  },
+  {
+   "id": "rm_b4_frage",
+   "art": "abend",
+   "ton": "wholesome",
+   "titel": "Last Page",
+   "wann": {
+    "tage": [
+     15,
+     35
+    ],
+    "bedingung": {
+     "flag": "mochis_offen"
+    }
+   },
+   "bild": "mochis",
+   "personen": {
+    "pid": "bibi"
+   },
+   "sets": {
+    "bibi": "Mochis"
+   },
+   "lage": "She closes the book over her finger, so she doesn't lose the page.",
+   "zeilen": [
+    {
+     "wer": "bibi",
+     "text": "So. The yacht is fixed. Ships leave, that's the whole point of them. I'm not asking you to stay. I'm asking you a smaller thing. Will you come back?",
+     "gefuehl": "nervousness"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "“I'm not going anywhere.”",
+     "folgen": [
+      {
+       "flag": "a3_bibi_antwort_bleiben"
+      },
+      {
+       "vertrauen": [
+        "bibi",
+        4
+       ]
+      },
+      {
+       "begehren": [
+        "bibi",
+        4
+       ]
+      },
+      {
+       "direkt": "rm_b4_c"
+      }
+     ],
+     "zeile": {
+      "wer": "bibi",
+      "text": "Don't say that. ...No, say it again. Slowly. I'm writing it down.",
+      "gefuehl": "love"
+     }
+    },
+    {
+     "text": "“Every season. I'll bring the bad weather.”",
+     "folgen": [
+      {
+       "flag": "a3_bibi_antwort_saison"
+      },
+      {
+       "vertrauen": [
+        "bibi",
+        4
+       ]
+      },
+      {
+       "begehren": [
+        "bibi",
+        4
+       ]
+      },
+      {
+       "direkt": "rm_b4_c"
+      }
+     ],
+     "zeile": {
+      "wer": "bibi",
+      "text": "Every season. Okay. I'll keep your bowl. That's a joke! ...It's not a joke.",
+      "gefuehl": "love"
+     }
+    },
+    {
+     "text": "“I don't know yet. That's the truth.”",
+     "folgen": [
+      {
+       "flag": "a3_bibi_antwort_ehrlich"
+      },
+      {
+       "vertrauen": [
+        "bibi",
+        6
+       ]
+      },
+      {
+       "begehren": [
+        "bibi",
+        6
+       ]
+      },
+      {
+       "direkt": "rm_b4_c"
+      }
+     ],
+     "zeile": {
+      "wer": "bibi",
+      "text": "Thank you. Everybody I ever loved said yes. You're the first one who said the true thing.",
+      "gefuehl": "love"
+     }
     }
    ],
    "knistern": true
@@ -90499,11 +90616,11 @@
    "sets": {
     "bibi": "Mochis"
    },
-   "lage": "She laughs too loud, and then she stops, and for once she doesn't say sorry. She takes the pencil from behind her ear and looks at the page for a long time.",
+   "lage": "She stops writing. The pencil rolls off the wall into the straw, and neither of you picks it up. For once she doesn't laugh, and she doesn't say sorry. She looks at the page for a long time.",
    "zeilen": [
     {
      "wer": "bibi",
-     "text": "Spatz. My mother called me that. Now you know everything. This time it's true.",
+     "text": "Spatz. My mother calls me that. Every Sunday, on the phone. Now you know everything. This time it's true.",
      "gefuehl": "gratitude"
     }
    ],
@@ -101700,7 +101817,7 @@
    "wann": {
     "tage": [
      11,
-     33
+     35
     ],
     "holt_leute": true,
     "pflicht": true,
@@ -102066,6 +102183,24 @@
        "direkt": [
         {
          "wenn": {
+          "alle": [
+           {
+            "flag": "rt_bibi_bleibt"
+           },
+           {
+            "flag": "mochis_offen"
+           },
+           {
+            "nicht": {
+             "flag": "a3_julien_ende"
+            }
+           }
+          ]
+         },
+         "id": "a3_julien"
+        },
+        {
+         "wenn": {
           "flag": "mo_tier_hund"
          },
          "id": "mo_frei_hund"
@@ -102166,6 +102301,24 @@
       },
       {
        "direkt": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "rt_bibi_bleibt"
+           },
+           {
+            "flag": "mochis_offen"
+           },
+           {
+            "nicht": {
+             "flag": "a3_julien_ende"
+            }
+           }
+          ]
+         },
+         "id": "a3_julien"
+        },
         {
          "wenn": {
           "flag": "mo_tier_hund"
@@ -102291,7 +102444,7 @@
      "text": "Watches him go.",
      "folgen": [
       {
-       "weiter": [
+       "direkt": [
         {
          "wenn": {
           "flag": "mo_tier_madame"
@@ -102402,20 +102555,23 @@
    "sets": {
     "bibi": "Mochis"
    },
-   "lage": "She walks out of the gate, sits down outside it, and looks back at you. A week later she has an old fisherman, a chair and all of his sardines.",
+   "lage": "She walks out of the gate, sits down outside it, and looks back at you. Then she walks back in, very slowly, and sits down on Bibi's foot. She has decided.",
    "zeilen": [
     {
      "wer": "bibi",
-     "text": "Seven and a half kilos, exactly the same as the day she came. I fed her for weeks, and it made no difference at all. Try not to frighten anyone, Madame.",
+     "text": "Seven and a half kilos, exactly the same as the day she came. Go on, Madame. ...She's sitting on my foot. She's sitting on my foot! Fine. Fine! You're staff now. Unpaid.",
      "gefuehl": "amusement"
     }
    ],
    "optionen": [
     {
-     "text": "Watches her go.",
+     "text": "Lets her stay.",
      "folgen": [
       {
-       "weiter": [
+       "flag": "mo_madame_bleibt"
+      },
+      {
+       "direkt": [
         {
          "wenn": {
           "flag": "mo_tier_hyaene"
@@ -102533,7 +102689,7 @@
      "text": "Watches her go.",
      "folgen": [
       {
-       "weiter": [
+       "direkt": [
         {
          "wenn": {
           "flag": "mo_tier_mufflon"
@@ -102645,7 +102801,7 @@
      "text": "Watches her go.",
      "folgen": [
       {
-       "weiter": [
+       "direkt": [
         {
          "wenn": {
           "flag": "mo_tier_affe"
@@ -102751,7 +102907,7 @@
      "text": "Watches him go.",
      "folgen": [
       {
-       "weiter": [
+       "direkt": [
         {
          "wenn": {
           "flag": "mo_tier_wolf"
@@ -102851,7 +103007,7 @@
      "text": "Watches her go.",
      "folgen": [
       {
-       "weiter": [
+       "direkt": [
         {
          "wenn": {
           "flag": "mo_tier_rotpanda"
@@ -102945,7 +103101,7 @@
      "text": "Watches him go.",
      "folgen": [
       {
-       "weiter": [
+       "direkt": [
         {
          "wenn": {
           "flag": "mo_tier_capybara"
@@ -103033,7 +103189,7 @@
      "text": "Watches him go.",
      "folgen": [
       {
-       "weiter": [
+       "direkt": [
         {
          "wenn": {
           "flag": "mo_tier_keiler"
@@ -103115,7 +103271,7 @@
      "text": "Watches him go.",
      "folgen": [
       {
-       "weiter": [
+       "direkt": [
         {
          "wenn": {
           "flag": "mo_tier_baerchen"
@@ -103191,7 +103347,7 @@
      "text": "Watches it go.",
      "folgen": [
       {
-       "weiter": [
+       "direkt": [
         {
          "wenn": {
           "flag": "mo_tier_schildkroete"
@@ -103261,7 +103417,7 @@
      "text": "Watches her go.",
      "folgen": [
       {
-       "weiter": [
+       "direkt": [
         {
          "wenn": {
           "flag": "mo_tier_geier"
@@ -103325,7 +103481,7 @@
      "text": "Watches him go.",
      "folgen": [
       {
-       "weiter": [
+       "direkt": [
         {
          "wenn": {
           "flag": "mo_tier_schneeleopard"
@@ -103383,7 +103539,7 @@
      "text": "Watches her go.",
      "folgen": [
       {
-       "weiter": [
+       "direkt": [
         {
          "wenn": {
           "flag": "mo_tier_waran"
@@ -103435,7 +103591,7 @@
      "text": "Watches him go.",
      "folgen": [
       {
-       "weiter": [
+       "direkt": [
         {
          "id": "mo_frei_ende"
         }
@@ -103487,8 +103643,8 @@
     },
     {
      "wer": "bibi",
-     "text": "And him? He never needed a gate. Somebody should tell him he has a very nice sign.",
-     "gefuehl": "gratitude",
+     "text": "Look. Up there, where the macchia ends. Something gold, in the last sun. He came. He doesn't need a gate, and he came anyway. Don't move. If you move, he goes.",
+     "gefuehl": "love",
      "gruppe": "mochi",
      "wenn": {
       "flag": "kl_loewe_frei"
@@ -103499,6 +103655,15 @@
      "text": "I'm still going to put his food out tonight. I know. Don't say anything.",
      "gefuehl": "sadness",
      "gruppe": "mochi"
+    },
+    {
+     "wer": "bibi",
+     "text": "I know he's not coming. You told me in the cave, and you didn't lie to me. I'm putting it out anyway. Some things you do for the one who's left.",
+     "gefuehl": "sadness",
+     "gruppe": "mochi2",
+     "wenn": {
+      "flag": "kl_loewe_erloest"
+     }
     }
    ],
    "optionen": [
@@ -103517,6 +103682,56 @@
       {
        "wert": "ruf",
        "delta": 2
+      },
+      {
+       "direkt": [
+        {
+         "wenn": {
+          "alle": [
+           {
+            "flag": "mochis_offen"
+           },
+           {
+            "flag": "kl_loewe_frei"
+           },
+           {
+            "flag": "rt_ausgang_alle"
+           },
+           {
+            "flag": "rt_bibi_bleibt"
+           },
+           {
+            "nicht": {
+             "flag": "gefeuert_bibi"
+            }
+           },
+           {
+            "wert": [
+             "vertrauen.bibi",
+             ">=",
+             4
+            ]
+           },
+           {
+            "wert": [
+             "begehren.bibi",
+             ">=",
+             4
+            ]
+           },
+           {
+            "flag": "mo_freigelassen"
+           },
+           {
+            "nicht": {
+             "flag": "rm_b4"
+            }
+           }
+          ]
+         },
+         "id": "rm_b4"
+        }
+       ]
       }
      ]
     }
@@ -135803,16 +136018,54 @@
      "wer": "bibi",
      "text": "I'm a mess, and you came anyway. Good.",
      "gefuehl": "love"
+    },
+    {
+     "wer": "bibi",
+     "text": "Look up. Bones. He's doing circles over the water. He's showing off for you.",
+     "gefuehl": "love",
+     "gruppe": "bones",
+     "wenn": {
+      "flag": "a3_paar_bones"
+     }
+    },
+    {
+     "wer": "bibi",
+     "text": "This is Mochi. The small one. He's been on every key I ever had. Take him. If you go, he goes with you. If you stay, I'll steal him back.",
+     "gefuehl": "love"
     }
    ],
    "optionen": [
     {
-     "text": "Stays.",
+     "text": "Lets her put the little lion in his shirt pocket.",
      "folgen": [
       {
        "flag": "a3_mitternacht_fertig"
+      },
+      {
+       "flag": "a3_bibi_loewe"
       }
-     ]
+     ],
+     "zeile": {
+      "wer": "bibi",
+      "text": "Slowly. ...There. Now I have to come and get him. That's a plan.",
+      "gefuehl": "love"
+     }
+    },
+    {
+     "text": "Hangs him back on her key ring. “He stays where the gates are.”",
+     "folgen": [
+      {
+       "flag": "a3_mitternacht_fertig"
+      },
+      {
+       "flag": "a3_bibi_loewe_bleibt"
+      }
+     ],
+     "zeile": {
+      "wer": "bibi",
+      "text": "...Okay. Then you have to come here to visit him. That's also a plan.",
+      "gefuehl": "love"
+     }
     }
    ]
   },
@@ -137697,6 +137950,799 @@
     {
      "text": "Walks down the path in the blinking red light.",
      "folgen": []
+    }
+   ]
+  },
+  {
+   "id": "a3_julien",
+   "art": "gag1",
+   "ton": "ernst",
+   "titel": "ARK's Delegation",
+   "wann": {
+    "tage": [
+     24,
+     35
+    ]
+   },
+   "bild": "mochis",
+   "personen": {
+    "handelnd": "julien",
+    "betroffen": [
+     {
+      "id": "bibi",
+      "ton": "-",
+      "was": "holds the key very tight"
+     },
+     {
+      "id": "danzel",
+      "ton": "?",
+      "was": "is standing very still"
+     }
+    ]
+   },
+   "sets": {
+    "bibi": "Mochis",
+    "danzel": "danzel_B"
+   },
+   "lage": "Bibi has the key in the first lock when the cars come up the dirt road. Three of them, black, too clean for this island. A man gets out of the first one. Good coat, good shoes, a tablet under his arm. Behind him, four men in dark suits.",
+   "zeilen": [
+    {
+     "wer": "bibi",
+     "text": "Ha! Julien! Ha. ...Sorry. I do that when I'm scared.",
+     "gefuehl": "nervousness"
+    },
+    {
+     "wer": "julien",
+     "text": "Bibiane. You look tired. These subjects belong to ARK. A court in Marseille signed the papers on Friday. My men will load them now. You can keep the pens.",
+     "gefuehl": "neutral"
+    },
+    {
+     "wer": "bibi",
+     "text": "They have names. In two years you never asked for one name.",
+     "gefuehl": "anger"
+    },
+    {
+     "wer": "julien",
+     "text": "Names are for pets. ...Except one. Where is Madame? She comes with me. She always liked my desk.",
+     "gefuehl": "neutral",
+     "gruppe": "madame",
+     "wenn": {
+      "flag": "mo_tier_madame"
+     }
+    },
+    {
+     "wer": "julien",
+     "text": "Names are for pets. Gentlemen, start with the big ones.",
+     "gefuehl": "neutral",
+     "gruppe": "madame",
+     "wenn": null
+    },
+    {
+     "wer": "danzel",
+     "text": "Duc. The papers are real. I can see the stamp from here. I hate that I can see the stamp.",
+     "gefuehl": "fear"
+    },
+    {
+     "wer": "julien",
+     "text": "And you are the man from the yacht. Step aside, please. This is not your business, and it is not your island.",
+     "gefuehl": "neutral"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Steps between Julien and the gate.",
+     "folgen": [
+      {
+       "flag": "a3_julien_gestellt"
+      },
+      {
+       "vertrauen": [
+        "bibi",
+        3
+       ]
+      },
+      {
+       "kampf": "a3_julien"
+      }
+     ],
+     "zeile": {
+      "wer": "julien",
+      "text": "Gentlemen. Please.",
+      "gefuehl": "neutral"
+     }
+    },
+    {
+     "text": "“They're not subjects. Get off her land.”",
+     "folgen": [
+      {
+       "flag": "a3_julien_gestellt"
+      },
+      {
+       "vertrauen": [
+        "bibi",
+        3
+       ]
+      },
+      {
+       "kampf": "a3_julien"
+      }
+     ],
+     "zeile": {
+      "wer": "bibi",
+      "text": "...Her land. Did you hear that, Julien? Her land.",
+      "gefuehl": "pride"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_julien_sieg",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "ARK's Delegation",
+   "wann": {
+    "tage": [
+     35,
+     35
+    ],
+    "holt_leute": true,
+    "prolog": true,
+    "pflicht": true,
+    "phasen": [
+     "nachmittag"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "flag": "a3_julien_besiegt"
+      },
+      {
+       "nicht": {
+        "flag": "a3_julien_ende"
+       }
+      }
+     ]
+    }
+   },
+   "bild": "mochis",
+   "personen": {
+    "handelnd": "bibi",
+    "betroffen": [
+     {
+      "id": "julien",
+      "ton": "-",
+      "was": "is walking backwards to his car"
+     }
+    ]
+   },
+   "sets": {
+    "bibi": "Mochis"
+   },
+   "lage": "The agents sit in the straw and hold their heads. Julien has the tablet in front of his chest like a shield. Bibi walks up to him. Not fast. She stops so close that he has to look at her.",
+   "zeilen": [
+    {
+     "wer": "bibi",
+     "text": "Julien. The word 'rescue' in your brochure. I wrote that. I believed it. It was mine, and I'm taking it back.",
+     "gefuehl": "pride"
+    },
+    {
+     "wer": "julien",
+     "text": "This isn't over, Bibiane. I have lawyers. I have the papers.",
+     "gefuehl": "anger"
+    },
+    {
+     "wer": "julien",
+     "text": "Madame. Come.",
+     "gefuehl": "neutral",
+     "gruppe": "katze",
+     "wenn": {
+      "flag": "mo_tier_madame"
+     }
+    },
+    {
+     "wer": "bibi",
+     "text": "Look. She walked right past you. She's sitting on my foot. Even the cat read your papers, Julien.",
+     "gefuehl": "pride",
+     "gruppe": "katze2",
+     "wenn": {
+      "flag": "mo_tier_madame"
+     }
+    },
+    {
+     "wer": "bibi",
+     "text": "Go home. And don't send anybody. Next time I won't need him.",
+     "gefuehl": "pride"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Holds out his hand for the papers and tears them in half.",
+     "folgen": [
+      {
+       "flag": "a3_julien_ende"
+      },
+      {
+       "flag": "a3_julien_weg"
+      },
+      {
+       "vertrauen": [
+        "bibi",
+        4
+       ]
+      },
+      {
+       "direkt": [
+        {
+         "wenn": {
+          "flag": "mo_tier_hund"
+         },
+         "id": "mo_frei_hund"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_madame"
+         },
+         "id": "mo_frei_madame"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_hyaene"
+         },
+         "id": "mo_frei_hyaene"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_mufflon"
+         },
+         "id": "mo_frei_mufflon"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_affe"
+         },
+         "id": "mo_frei_affe"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_wolf"
+         },
+         "id": "mo_frei_wolf"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_rotpanda"
+         },
+         "id": "mo_frei_rotpanda"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_capybara"
+         },
+         "id": "mo_frei_capybara"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_keiler"
+         },
+         "id": "mo_frei_keiler"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_baerchen"
+         },
+         "id": "mo_frei_baerchen"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_schildkroete"
+         },
+         "id": "mo_frei_schildkroete"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_geier"
+         },
+         "id": "mo_frei_geier"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_schneeleopard"
+         },
+         "id": "mo_frei_schneeleopard"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_waran"
+         },
+         "id": "mo_frei_waran"
+        },
+        {
+         "id": "mo_frei_ende"
+        }
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "julien",
+      "text": "Those were... Fine. Fine. Keep your goats.",
+      "gefuehl": "anger"
+     }
+    },
+    {
+     "text": "“Elsa is on her way. She would love to read those papers.”",
+     "folgen": [
+      {
+       "flag": "a3_julien_ende"
+      },
+      {
+       "flag": "a3_julien_weg"
+      },
+      {
+       "vertrauen": [
+        "bibi",
+        4
+       ]
+      },
+      {
+       "direkt": [
+        {
+         "wenn": {
+          "flag": "mo_tier_hund"
+         },
+         "id": "mo_frei_hund"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_madame"
+         },
+         "id": "mo_frei_madame"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_hyaene"
+         },
+         "id": "mo_frei_hyaene"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_mufflon"
+         },
+         "id": "mo_frei_mufflon"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_affe"
+         },
+         "id": "mo_frei_affe"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_wolf"
+         },
+         "id": "mo_frei_wolf"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_rotpanda"
+         },
+         "id": "mo_frei_rotpanda"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_capybara"
+         },
+         "id": "mo_frei_capybara"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_keiler"
+         },
+         "id": "mo_frei_keiler"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_baerchen"
+         },
+         "id": "mo_frei_baerchen"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_schildkroete"
+         },
+         "id": "mo_frei_schildkroete"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_geier"
+         },
+         "id": "mo_frei_geier"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_schneeleopard"
+         },
+         "id": "mo_frei_schneeleopard"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_waran"
+         },
+         "id": "mo_frei_waran"
+        },
+        {
+         "id": "mo_frei_ende"
+        }
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "bibi",
+      "text": "He's running. In those shoes. ...He'll never come back here. Never. I can feel it in my teeth.",
+      "gefuehl": "relief"
+     }
+    }
+   ]
+  },
+  {
+   "id": "a3_julien_tiere",
+   "art": "gag1",
+   "ton": "wholesome",
+   "titel": "Her Land",
+   "wann": {
+    "tage": [
+     35,
+     35
+    ],
+    "holt_leute": true,
+    "prolog": true,
+    "pflicht": true,
+    "phasen": [
+     "nachmittag"
+    ],
+    "bedingung": {
+     "alle": [
+      {
+       "flag": "akt2_ende"
+      },
+      {
+       "flag": "a3_julien_niederlage"
+      },
+      {
+       "nicht": {
+        "flag": "a3_julien_ende"
+       }
+      }
+     ]
+    }
+   },
+   "bild": "mochis",
+   "personen": {
+    "handelnd": "bibi",
+    "betroffen": [
+     {
+      "id": "julien",
+      "ton": "-",
+      "was": "drops his tablet"
+     }
+    ]
+   },
+   "sets": {
+    "bibi": "Mochis"
+   },
+   "lage": "You are in the straw. An agent has his boot on your hand. Behind you, a lock clicks. Then another one. Then all of them. Bibi has opened every gate at once.",
+   "zeilen": [
+    {
+     "wer": "bibi",
+     "text": "You wanted them back, Julien? Here. Have them!",
+     "gefuehl": "pride"
+    },
+    {
+     "wer": "bibi",
+     "text": "Sorry! Go! Bite the shiny shoes!",
+     "gefuehl": "excitement",
+     "gruppe": "hyaene",
+     "wenn": {
+      "flag": "mo_tier_hyaene"
+     }
+    },
+    {
+     "wer": "bibi",
+     "text": "Duchess, the tall one. Yes. Him.",
+     "gefuehl": "excitement",
+     "gruppe": "mufflon",
+     "wenn": {
+      "flag": "mo_tier_mufflon"
+     }
+    },
+    {
+     "wer": "bibi",
+     "text": "Biscuit, no, that's my sleeve! ...Okay, his sleeve. Good boy.",
+     "gefuehl": "excitement",
+     "gruppe": "hund",
+     "wenn": {
+      "flag": "mo_tier_hund"
+     }
+    },
+    {
+     "wer": "bibi",
+     "text": "Bones! From above! He's never done that before!",
+     "gefuehl": "excitement",
+     "gruppe": "geier",
+     "wenn": {
+      "flag": "mo_tier_geier"
+     }
+    },
+    {
+     "wer": "bibi",
+     "text": "Go on, all of you! Show them what a rescue looks like!",
+     "gefuehl": "excitement",
+     "gruppe": "rest",
+     "wenn": null
+    },
+    {
+     "wer": "julien",
+     "text": "Get them off! These are ARK property! ...Gentlemen? Gentlemen!",
+     "gefuehl": "fear"
+    },
+    {
+     "wer": "julien",
+     "text": "Madame. Madame, come here.",
+     "gefuehl": "fear",
+     "gruppe": "katze",
+     "wenn": {
+      "flag": "mo_tier_madame"
+     }
+    },
+    {
+     "wer": "bibi",
+     "text": "She's sitting on my foot, Julien. She chose. Everybody here chose.",
+     "gefuehl": "pride",
+     "gruppe": "katze2",
+     "wenn": {
+      "flag": "mo_tier_madame"
+     }
+    },
+    {
+     "wer": "bibi",
+     "text": "Go home. You'll never come back here. And Duc, get up. You stood in front of my gate. Nobody ever stood in front of my gate.",
+     "gefuehl": "gratitude"
+    }
+   ],
+   "optionen": [
+    {
+     "text": "Gets up and watches the cars leave.",
+     "folgen": [
+      {
+       "flag": "a3_julien_ende"
+      },
+      {
+       "flag": "a3_julien_weg"
+      },
+      {
+       "vertrauen": [
+        "bibi",
+        5
+       ]
+      },
+      {
+       "direkt": [
+        {
+         "wenn": {
+          "flag": "mo_tier_hund"
+         },
+         "id": "mo_frei_hund"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_madame"
+         },
+         "id": "mo_frei_madame"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_hyaene"
+         },
+         "id": "mo_frei_hyaene"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_mufflon"
+         },
+         "id": "mo_frei_mufflon"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_affe"
+         },
+         "id": "mo_frei_affe"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_wolf"
+         },
+         "id": "mo_frei_wolf"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_rotpanda"
+         },
+         "id": "mo_frei_rotpanda"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_capybara"
+         },
+         "id": "mo_frei_capybara"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_keiler"
+         },
+         "id": "mo_frei_keiler"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_baerchen"
+         },
+         "id": "mo_frei_baerchen"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_schildkroete"
+         },
+         "id": "mo_frei_schildkroete"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_geier"
+         },
+         "id": "mo_frei_geier"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_schneeleopard"
+         },
+         "id": "mo_frei_schneeleopard"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_waran"
+         },
+         "id": "mo_frei_waran"
+        },
+        {
+         "id": "mo_frei_ende"
+        }
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "bibi",
+      "text": "They're coming back. All of them. Of course they're coming back. Now we do it properly. One gate at a time.",
+      "gefuehl": "joy"
+     }
+    },
+    {
+     "text": "Takes her hand. It's shaking.",
+     "folgen": [
+      {
+       "flag": "a3_julien_ende"
+      },
+      {
+       "flag": "a3_julien_weg"
+      },
+      {
+       "vertrauen": [
+        "bibi",
+        5
+       ]
+      },
+      {
+       "begehren": [
+        "bibi",
+        2
+       ]
+      },
+      {
+       "direkt": [
+        {
+         "wenn": {
+          "flag": "mo_tier_hund"
+         },
+         "id": "mo_frei_hund"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_madame"
+         },
+         "id": "mo_frei_madame"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_hyaene"
+         },
+         "id": "mo_frei_hyaene"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_mufflon"
+         },
+         "id": "mo_frei_mufflon"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_affe"
+         },
+         "id": "mo_frei_affe"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_wolf"
+         },
+         "id": "mo_frei_wolf"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_rotpanda"
+         },
+         "id": "mo_frei_rotpanda"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_capybara"
+         },
+         "id": "mo_frei_capybara"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_keiler"
+         },
+         "id": "mo_frei_keiler"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_baerchen"
+         },
+         "id": "mo_frei_baerchen"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_schildkroete"
+         },
+         "id": "mo_frei_schildkroete"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_geier"
+         },
+         "id": "mo_frei_geier"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_schneeleopard"
+         },
+         "id": "mo_frei_schneeleopard"
+        },
+        {
+         "wenn": {
+          "flag": "mo_tier_waran"
+         },
+         "id": "mo_frei_waran"
+        },
+        {
+         "id": "mo_frei_ende"
+        }
+       ]
+      }
+     ],
+     "zeile": {
+      "wer": "bibi",
+      "text": "Shaking. Yes. Don't let go yet. ...Okay. Now. One gate at a time.",
+      "gefuehl": "love"
+     }
     }
    ]
   }

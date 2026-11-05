@@ -1,7 +1,7 @@
 # Brain Trust · Bibis Ende („schmerzhaft schön“)
 
 Stand 05.11.2026, Cloud-Sitzung, Branch `akt3-cloud`. Auftrag Duc: *„Tragik, Wholesomeness und Liebe, nicht nur zu den Tieren, sondern auch zwischen Bibi und Duc.“*
-Status: **Vorschlag, nichts gebaut.** Neue Fakten sind als *Vorschlag* markiert und brauchen Ducs Ja (Eintrag in `ENTSCHEIDUNGEN.md` erst nach Entscheid).
+Status: **gebaut (Duc 05.11.2026, E-134)**, mit Ducs Änderungen: Bibis Mutter lebt, **Madame (Russisch Blau) bleibt** statt des Hundes, und **Julien Vasseur** kommt mit ARKs Delegation (Abschnitt „Gebaut“ unten).
 
 ## Was es heute gibt (gebaut)
 
@@ -90,3 +90,17 @@ Die ehrliche Antwort ist die schmerzhafteste und bekommt den stärksten Lohn (Ve
 
 - Lebt Bibis Mutter (sie nannte Bibi „Spatz“)? Der Vorschlag braucht es nicht, aber die Zeile „My mother called me that“ wird anders gelesen, wenn die Mutter tot ist. Nicht raten.
 - Darf der Hund zurückkommen und bleiben, obwohl das Buch „Release“ für alle verlangt? Vorschlag: ja, er entscheidet selbst, das ist der Witz und die Wärme.
+
+## Gebaut (05.11.2026, E-134)
+
+| Teil | Wo | Was |
+|---|---|---|
+| Julien und ARKs Delegation | `ereignisse_akt3_julien.py`, Kampf `a3_julien` (`kaempfe_akt3.py`) | Tag 35 Nachmittag, an den Toren (nur mit `rt_bibi_bleibt` und `mochis_offen`). Julien hat Papiere aus Marseille und will die Tiere, vor allem Madame. Duc stellt sich vor Bibi, Kampf gegen drei Agenten, keine Flucht. **Sieg** `a3_julien_sieg`: Bibi nimmt ihr Wort „rescue“ zurück, Madame geht an Julien vorbei zu Bibi, Julien flieht. **Niederlage** `a3_julien_tiere`: Bibi öffnet alle Tore auf einmal, Sorry, Duchess, Biscuit und Bones jagen die Agenten (je nach geretteten Tieren). Beide setzen `a3_julien_weg`: Julien kommt nie wieder. |
+| Madame bleibt | `mochis_daten.py`, `ereignisse_mochis.py` | Sie geht durchs Tor, dreht um und setzt sich auf Bibis Fuß. *“You're staff now. Unpaid.”* Flag `mo_madame_bleibt`. |
+| Mochi | `mo_frei_ende` | lebt er: der goldene Fleck auf dem Hügel. Ist er tot: der Napf am offenen Tor. |
+| Last Page | `rm_b4` bis `rm_b4_c`, `rm_b4_frage` | gleich nach den Toren, nicht mehr am Festa-Abend. Neu: *“Will you come back?”* mit drei Antworten (`a3_bibi_antwort_bleiben`, `_saison`, `_ehrlich`), der Stift fällt ins Stroh, *“My mother calls me that. Every Sunday, on the phone.”* |
+| Mole | `a3_mitternacht_bibi` | Bones zieht Kreise (mit `a3_paar_bones`), der Plüschlöwe: in Ducs Hemdtasche (`a3_bibi_loewe`) oder zurück an ihren Schlüssel (`a3_bibi_loewe_bleibt`). |
+| Schlussbild | `kern/abschluss.BIBI_BILD` | Absatz „Bibi“ je Antwort, sonst Madame auf der Mauer; dazu „Julien Vasseur never comes back“. |
+| Fehler behoben | `ereignisse_mochis.py` | Die Abschiede der Tiere hingen mit `weiter` aneinander, das wirkt nur auf Ausflügen. Die Tore brachen nach dem ersten Tier ab. Jetzt `direkt`. |
+
+Test: `tests/test_akt3_julien.py` spielt beide Wege durch die Engine (Sieg mit Romanze, Niederlage ohne).

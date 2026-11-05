@@ -152,7 +152,7 @@ EVENTS += (
 
 # Bibi hat Rosi um die Granate gebeten (Duc 01.11.2026). Die Granaten selbst gibt Bibi vor jeder Spur (kern/mochis.kampf_vorbereiten).
 EVENTS.append(E("mo_schlafgranate", "gag1", "ernst", "A Grenade for Bibi",
-                WANN((TAGE[0], 33), ["tag"], bed={"alle": [{"flag": "mochis_offen"}, {"flag_seit": ["rt_ende_tag", 1]}]}, pflicht=True, holt_leute=True),
+                WANN(TAGE, ["tag"], bed={"alle": [{"flag": "mochis_offen"}, {"flag_seit": ["rt_ende_tag", 1]}]}, pflicht=True, holt_leute=True),
                 "village_harbour", {"handelnd": "bibi", "betroffen": [{"id": "rosi", "ton": "?", "was": ""}]},
                 "Bibi stops you on the quay and holds out a shoebox. Rosi stands behind her, wiping her hands on a rag. In the box are small grey grenades with blue tape around them.",
                 [Z("bibi", "The collars make them crazy. You've seen it. I can't get near them to cut one off. So I asked Rosi for something that doesn't kill them.", "sadness"),
@@ -221,13 +221,16 @@ EVENTS.append(E("mo_frei_start", "gag1", "wholesome", "The Gates",
                 dict(BIBI, danzel="danzel_B")))
 for _t, (_wort, _zeile, _gefuehl) in _mo.ABSCHIED.items():
     _e = FR("mo_frei_%s" % _t, "mochis", _mo.TIERE[_t]["name"], _mo.TIERE[_t]["text_frei"], [Z("bibi", _zeile, _gefuehl)],
-            [O("Watches %s go." % _wort, [WEITER(_frei_ab(_t))])], ton="wholesome")
+            [O("Lets her stay." if _t == "madame" else "Watches %s go." % _wort,    # Madame bleibt bei Bibi (Duc 05.11.2026)
+               ([{"flag": "mo_madame_bleibt"}] if _t == "madame" else []) + [{"direkt": _frei_ab(_t)}])], ton="wholesome")
+    # direkt statt weiter (Duc 05.11.2026, test_akt3_julien): die Tore sind kein Ausflug, "weiter" wirkt nur mit ort_aktiv
     _e.update(flott=True, tier_bild="/kampfbild/%sFrei/idle.webp" % _mo.TIERE[_t]["sprite"])
     EVENTS.append(_e)
 EVENTS.append(FR("mo_frei_ende", "mochis", "The Gates",
                  "The last gate stands open. The pens are very quiet now, and the evening light lies on all that clean straw. Bibi sits down on the wall, opens the field book at the first page and looks at it. Then she closes it.",
                  [_nach(Z("bibi", "That's all of them, every page. I never finished anything before in my life. I don't know what you're supposed to do after.", "gratitude"), {"gruppe": "buch", "wenn": {"flag": "mo_buch_voll"}}),
                   _nach(Z("bibi", "There are still some out there with the light on. I know where they sleep. I'll go up tomorrow, and the day after, and I'll be boring about it.", "caring"), {"gruppe": "buch"}),
-                  _nach(Z("bibi", "And him? He never needed a gate. Somebody should tell him he has a very nice sign.", "gratitude"), {"gruppe": "mochi", "wenn": {"flag": "kl_loewe_frei"}}),
-                  _nach(Z("bibi", "I'm still going to put his food out tonight. I know. Don't say anything.", "sadness"), {"gruppe": "mochi"})],
+                  _nach(Z("bibi", "Look. Up there, where the macchia ends. Something gold, in the last sun. He came. He doesn't need a gate, and he came anyway. Don't move. If you move, he goes.", "love"), {"gruppe": "mochi", "wenn": {"flag": "kl_loewe_frei"}}),
+                  _nach(Z("bibi", "I'm still going to put his food out tonight. I know. Don't say anything.", "sadness"), {"gruppe": "mochi"}),
+                  _nach(Z("bibi", "I know he's not coming. You told me in the cave, and you didn't lie to me. I'm putting it out anyway. Some things you do for the one who's left.", "sadness"), {"gruppe": "mochi2", "wenn": {"flag": "kl_loewe_erloest"}})],
                  [O("Sits down on the wall next to her.", [{"flag": "mo_freigelassen"}, V("bibi", 3), W("ruf", 2)])], ton="wholesome"))
